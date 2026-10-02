@@ -2,7 +2,7 @@
 title: "Record 951554084c · Fundamentals-of-a-Laboratory-Security-Program-in-Biomedical-Facilities"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.784732+00:00
+updated_at: 2026-10-02T17:39:34.580526+00:00
 tags: [record, real-data]
 ---
 

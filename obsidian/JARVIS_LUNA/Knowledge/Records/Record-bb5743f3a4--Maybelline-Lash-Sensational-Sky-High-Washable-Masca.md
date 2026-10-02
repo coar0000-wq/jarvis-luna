@@ -2,7 +2,7 @@
 title: "Record bb5743f3a4 · Maybelline-Lash-Sensational-Sky-High-Washable-Mascara-Makeup-Volumizin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.801334+00:00
+updated_at: 2026-10-02T17:39:36.310102+00:00
 tags: [record, real-data]
 ---
 

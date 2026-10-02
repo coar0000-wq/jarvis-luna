@@ -2,7 +2,7 @@
 title: "Record 5afda5f08e · CamAgent-An-LLM-Agent-Framework-for-Multi-Species-Camera-Trap-Workflow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.302670+00:00
+updated_at: 2026-10-02T17:39:35.027315+00:00
 tags: [record, real-data]
 ---
 

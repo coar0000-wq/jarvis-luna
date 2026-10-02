@@ -2,7 +2,7 @@
 title: "Record f646f84660 · ESG-Integration-in-Multi-Asset-Portfolios-The-Trade-Off-Between-Sustai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.916389+00:00
+updated_at: 2026-10-02T17:39:34.702224+00:00
 tags: [record, real-data]
 ---
 

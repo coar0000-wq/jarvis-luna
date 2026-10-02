@@ -2,7 +2,7 @@
 title: "Record 4716f81851 · MOPD-Router-Rethinking-Teacher-Routing-in-Multi-Teacher-On-Policy-Dist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.218436+00:00
+updated_at: 2026-10-02T17:39:34.955810+00:00
 tags: [record, real-data]
 ---
 

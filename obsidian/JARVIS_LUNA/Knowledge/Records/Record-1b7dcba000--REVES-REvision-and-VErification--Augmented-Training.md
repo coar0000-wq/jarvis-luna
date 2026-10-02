@@ -2,7 +2,7 @@
 title: "Record 1b7dcba000 · REVES-REvision-and-VErification--Augmented-Training-for-Test-Time-Scal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.967194+00:00
+updated_at: 2026-10-02T17:39:34.750509+00:00
 tags: [record, real-data]
 ---
 

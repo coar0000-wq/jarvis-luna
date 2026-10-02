@@ -2,7 +2,7 @@
 title: "Record 66725ffe16 · Configurable-Multi-Stage-Vision-Pipeline-for-Crop-Disease-and-Pest-Dia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.107872+00:00
+updated_at: 2026-10-02T17:39:34.864197+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 832adb5a9e · DrAlthea-345-Relief-Cream-Mist-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.438992+00:00
+updated_at: 2026-10-02T17:39:36.014610+00:00
 tags: [record, real-data]
 ---
 

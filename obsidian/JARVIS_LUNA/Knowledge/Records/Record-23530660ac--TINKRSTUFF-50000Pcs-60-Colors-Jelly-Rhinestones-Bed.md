@@ -2,7 +2,7 @@
 title: "Record 23530660ac · TINKRSTUFF-50000Pcs-60-Colors-Jelly-Rhinestones-Bedazzling-Kit--All-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.988801+00:00
+updated_at: 2026-10-02T17:39:36.460201+00:00
 tags: [record, real-data]
 ---
 

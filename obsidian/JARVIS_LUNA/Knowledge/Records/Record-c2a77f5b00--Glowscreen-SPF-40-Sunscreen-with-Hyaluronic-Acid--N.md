@@ -2,7 +2,7 @@
 title: "Record c2a77f5b00 · Glowscreen-SPF-40-Sunscreen-with-Hyaluronic-Acid--Niacinamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.406473+00:00
+updated_at: 2026-10-02T17:39:36.814214+00:00
 tags: [record, real-data]
 ---
 

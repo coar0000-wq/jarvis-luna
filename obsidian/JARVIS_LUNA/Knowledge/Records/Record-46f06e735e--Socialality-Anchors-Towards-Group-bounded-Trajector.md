@@ -2,7 +2,7 @@
 title: "Record 46f06e735e · Socialality-Anchors-Towards-Group-bounded-Trajectory-Prediction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.276814+00:00
+updated_at: 2026-10-02T17:39:35.003693+00:00
 tags: [record, real-data]
 ---
 

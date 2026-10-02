@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T10:28:20.676128+00:00",
+  "generated_at": "2026-10-02T17:35:19.981245+00:00",
   "exchange_rate": {
-    "usd_to_krw": 1360.2,
+    "usd_to_krw": 1348.28,
     "as_of": "2026-10-02",
-    "source": "ExchangeRate-API"
+    "source": "Frankfurter API"
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -21,9 +21,9 @@
     ]
   },
   "market_benchmark": {
-    "min": 8.0,
-    "p25": 20.99,
-    "median": 24.99,
+    "min": 6.79,
+    "p25": 18.89,
+    "median": 22.99,
     "max": 299.0,
     "n": 100,
     "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-10-02)"
@@ -37,10 +37,10 @@
         "qty": 1,
         "price_usd": 23.99,
         "unit_price_usd": 23.99,
-        "landed_cost_total_usd": 8.72,
+        "landed_cost_total_usd": 8.8,
         "fee_usd": 1.78,
-        "net_profit_usd": 13.49,
-        "margin_pct": 56.3,
+        "net_profit_usd": 13.41,
+        "margin_pct": 55.9,
         "market_median_usd": 24.5,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -52,10 +52,10 @@
         "qty": 1,
         "price_usd": 15.99,
         "unit_price_usd": 15.99,
-        "landed_cost_total_usd": 10.41,
+        "landed_cost_total_usd": 10.5,
         "fee_usd": 1.18,
-        "net_profit_usd": 4.4,
-        "margin_pct": 27.5,
+        "net_profit_usd": 4.31,
+        "margin_pct": 26.9,
         "market_median_usd": 16.8,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -65,13 +65,13 @@
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 8.72,
-        "fee_usd": 1.85,
-        "net_profit_usd": 14.42,
-        "margin_pct": 57.7,
-        "market_median_usd": 24.99,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
+        "landed_cost_total_usd": 8.8,
+        "fee_usd": 1.7,
+        "net_profit_usd": 12.49,
+        "margin_pct": 54.3,
+        "market_median_usd": 22.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -82,12 +82,27 @@
         "qty": 1,
         "price_usd": 17.99,
         "unit_price_usd": 17.99,
-        "landed_cost_total_usd": 11.15,
+        "landed_cost_total_usd": 11.25,
         "fee_usd": 1.33,
-        "net_profit_usd": 5.51,
-        "margin_pct": 30.6,
+        "net_profit_usd": 5.41,
+        "margin_pct": 30.1,
         "market_median_usd": 18.38,
         "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "qty": 1,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
+        "landed_cost_total_usd": 7.94,
+        "fee_usd": 1.7,
+        "net_profit_usd": 13.35,
+        "margin_pct": 58.1,
+        "market_median_usd": 22.99,
+        "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -97,10 +112,10 @@
         "qty": 1,
         "price_usd": 18.99,
         "unit_price_usd": 18.99,
-        "landed_cost_total_usd": 11.15,
+        "landed_cost_total_usd": 11.25,
         "fee_usd": 1.41,
-        "net_profit_usd": 6.43,
-        "margin_pct": 33.9,
+        "net_profit_usd": 6.33,
+        "margin_pct": 33.4,
         "market_median_usd": 19.93,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -112,10 +127,10 @@
         "qty": 1,
         "price_usd": 11.99,
         "unit_price_usd": 11.99,
-        "landed_cost_total_usd": 7.87,
+        "landed_cost_total_usd": 7.94,
         "fee_usd": 0.89,
-        "net_profit_usd": 3.23,
-        "margin_pct": 27.0,
+        "net_profit_usd": 3.16,
+        "margin_pct": 26.4,
         "market_median_usd": 12.31,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -127,26 +142,11 @@
         "qty": 1,
         "price_usd": 10.99,
         "unit_price_usd": 10.99,
-        "landed_cost_total_usd": 8.72,
+        "landed_cost_total_usd": 8.8,
         "fee_usd": 0.81,
-        "net_profit_usd": 1.46,
-        "margin_pct": 13.3,
+        "net_profit_usd": 1.38,
+        "margin_pct": 12.5,
         "market_median_usd": 11.55,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "qty": 1,
-        "price_usd": 13.99,
-        "unit_price_usd": 13.99,
-        "landed_cost_total_usd": 7.03,
-        "fee_usd": 1.04,
-        "net_profit_usd": 5.92,
-        "margin_pct": 42.3,
-        "market_median_usd": 14.16,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
@@ -157,27 +157,27 @@
         "qty": 1,
         "price_usd": 11.99,
         "unit_price_usd": 11.99,
-        "landed_cost_total_usd": 7.87,
+        "landed_cost_total_usd": 7.94,
         "fee_usd": 0.89,
-        "net_profit_usd": 3.23,
-        "margin_pct": 27.0,
+        "net_profit_usd": 3.16,
+        "margin_pct": 26.4,
         "market_median_usd": 12.39,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "qty": 1,
-        "price_usd": 24.99,
-        "unit_price_usd": 24.99,
-        "landed_cost_total_usd": 7.03,
-        "fee_usd": 1.85,
-        "net_profit_usd": 16.11,
-        "margin_pct": 64.5,
-        "market_median_usd": 24.99,
-        "market_price_source": "oliveyoung_us_benchmark",
+        "price_usd": 13.99,
+        "unit_price_usd": 13.99,
+        "landed_cost_total_usd": 7.09,
+        "fee_usd": 1.04,
+        "net_profit_usd": 5.86,
+        "margin_pct": 41.9,
+        "market_median_usd": 14.16,
+        "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       }
@@ -189,10 +189,10 @@
         "qty": 2,
         "price_usd": 39.99,
         "unit_price_usd": 20.0,
-        "landed_cost_total_usd": 11.26,
+        "landed_cost_total_usd": 11.36,
         "fee_usd": 2.96,
-        "net_profit_usd": 25.77,
-        "margin_pct": 64.4,
+        "net_profit_usd": 25.67,
+        "margin_pct": 64.2,
         "market_median_usd": 24.5,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -204,10 +204,10 @@
         "qty": 2,
         "price_usd": 27.99,
         "unit_price_usd": 13.99,
-        "landed_cost_total_usd": 15.38,
+        "landed_cost_total_usd": 15.52,
         "fee_usd": 2.07,
-        "net_profit_usd": 10.54,
-        "margin_pct": 37.7,
+        "net_profit_usd": 10.4,
+        "margin_pct": 37.2,
         "market_median_usd": 16.8,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -217,13 +217,13 @@
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
-        "landed_cost_total_usd": 11.26,
-        "fee_usd": 3.18,
-        "net_profit_usd": 28.55,
-        "margin_pct": 66.4,
-        "market_median_usd": 24.99,
+        "price_usd": 39.99,
+        "unit_price_usd": 20.0,
+        "landed_cost_total_usd": 11.36,
+        "fee_usd": 2.96,
+        "net_profit_usd": 25.67,
+        "margin_pct": 64.2,
+        "market_median_usd": 22.99,
         "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
@@ -234,12 +234,27 @@
         "qty": 2,
         "price_usd": 29.99,
         "unit_price_usd": 14.99,
-        "landed_cost_total_usd": 16.12,
+        "landed_cost_total_usd": 16.26,
         "fee_usd": 2.22,
-        "net_profit_usd": 11.65,
-        "margin_pct": 38.8,
+        "net_profit_usd": 11.51,
+        "margin_pct": 38.4,
         "market_median_usd": 18.38,
         "market_price_source": "serpapi_google_shopping",
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "qty": 2,
+        "price_usd": 39.99,
+        "unit_price_usd": 20.0,
+        "landed_cost_total_usd": 10.4,
+        "fee_usd": 2.96,
+        "net_profit_usd": 26.63,
+        "margin_pct": 66.6,
+        "market_median_usd": 22.99,
+        "market_price_source": "oliveyoung_us_benchmark",
         "register_blocked": false,
         "block_reason": ""
       },
@@ -249,10 +264,10 @@
         "qty": 2,
         "price_usd": 32.99,
         "unit_price_usd": 16.5,
-        "landed_cost_total_usd": 16.86,
+        "landed_cost_total_usd": 17.02,
         "fee_usd": 2.44,
-        "net_profit_usd": 13.69,
-        "margin_pct": 41.5,
+        "net_profit_usd": 13.53,
+        "margin_pct": 41.0,
         "market_median_usd": 19.93,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -264,10 +279,10 @@
         "qty": 2,
         "price_usd": 19.99,
         "unit_price_usd": 9.99,
-        "landed_cost_total_usd": 10.3,
+        "landed_cost_total_usd": 10.4,
         "fee_usd": 1.48,
-        "net_profit_usd": 8.21,
-        "margin_pct": 41.1,
+        "net_profit_usd": 8.11,
+        "margin_pct": 40.6,
         "market_median_usd": 12.31,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
@@ -279,26 +294,11 @@
         "qty": 2,
         "price_usd": 18.99,
         "unit_price_usd": 9.49,
-        "landed_cost_total_usd": 11.26,
+        "landed_cost_total_usd": 11.36,
         "fee_usd": 1.41,
-        "net_profit_usd": 6.32,
-        "margin_pct": 33.3,
+        "net_profit_usd": 6.22,
+        "margin_pct": 32.8,
         "market_median_usd": 11.55,
-        "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "qty": 2,
-        "price_usd": 22.99,
-        "unit_price_usd": 11.49,
-        "landed_cost_total_usd": 8.62,
-        "fee_usd": 1.7,
-        "net_profit_usd": 12.67,
-        "margin_pct": 55.1,
-        "market_median_usd": 14.16,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
@@ -309,27 +309,27 @@
         "qty": 2,
         "price_usd": 20.99,
         "unit_price_usd": 10.49,
-        "landed_cost_total_usd": 10.3,
+        "landed_cost_total_usd": 10.4,
         "fee_usd": 1.55,
-        "net_profit_usd": 9.14,
-        "margin_pct": 43.5,
+        "net_profit_usd": 9.04,
+        "margin_pct": 43.1,
         "market_median_usd": 12.39,
         "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "qty": 2,
-        "price_usd": 42.99,
-        "unit_price_usd": 21.5,
-        "landed_cost_total_usd": 8.62,
-        "fee_usd": 3.18,
-        "net_profit_usd": 31.19,
-        "margin_pct": 72.5,
-        "market_median_usd": 24.99,
-        "market_price_source": "oliveyoung_us_benchmark",
+        "price_usd": 22.99,
+        "unit_price_usd": 11.49,
+        "landed_cost_total_usd": 8.7,
+        "fee_usd": 1.7,
+        "net_profit_usd": 12.59,
+        "margin_pct": 54.8,
+        "market_median_usd": 14.16,
+        "market_price_source": "serpapi_google_shopping",
         "register_blocked": false,
         "block_reason": ""
       }
@@ -354,17 +354,17 @@
       "discount_pct": 0,
       "price_usd": 17.99,
       "unit_price_usd": 17.99,
-      "landed_cost_total_usd": 8.87,
-      "shipping_in_cost_usd": 6.33,
+      "landed_cost_total_usd": 9.03,
+      "shipping_in_cost_usd": 6.39,
       "fee_usd": 1.33,
-      "net_profit_usd": 7.79,
-      "margin_pct": 43.3,
+      "net_profit_usd": 7.63,
+      "margin_pct": 42.4,
       "free_shipping": false,
-      "orders_for_500usd": 64,
+      "orders_for_500usd": 66,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         10.99,
-        24.99
+        23.99
       ]
     },
     "bundle": {
@@ -372,17 +372,17 @@
       "discount_pct": 15,
       "price_usd": 29.99,
       "unit_price_usd": 14.99,
-      "landed_cost_total_usd": 12.0,
-      "shipping_in_cost_usd": 6.93,
+      "landed_cost_total_usd": 12.28,
+      "shipping_in_cost_usd": 6.99,
       "fee_usd": 2.22,
-      "net_profit_usd": 15.77,
-      "margin_pct": 52.6,
+      "net_profit_usd": 15.49,
+      "margin_pct": 51.7,
       "free_shipping": true,
       "orders_for_500usd": 32,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         18.99,
-        42.99
+        39.99
       ]
     },
     "free_shipping_min_qty": 2,
@@ -396,39 +396,39 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 100,
+        "shopify_score": 99,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.72,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.8,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.42,
+        "breakeven_usd": 9.5,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -4.23,
+          "profit": -4.26,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 10.72,
-          "margin_pct": 51.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.7,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.42,
-          "margin_pct": 57.7
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.49,
+          "margin_pct": 54.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.5,
@@ -436,47 +436,47 @@
         "at_product_market": {
           "sell": 24.5,
           "fee": 1.81,
-          "profit": 13.97,
-          "margin_pct": 57.0
+          "profit": 13.89,
+          "margin_pct": 56.7
         }
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.41,
-        "landed_cost_ddu_usd": 10.41,
-        "landed_cost_ddp_usd": 9.86,
+        "landed_cost_usd": 10.5,
+        "landed_cost_ddu_usd": 10.5,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.24,
+        "breakeven_usd": 11.34,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -2.92,
+          "profit": -2.95,
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 9.03,
-          "margin_pct": 43.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.99,
+          "margin_pct": 37.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 12.73,
-          "margin_pct": 50.9
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.79,
+          "margin_pct": 46.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 16.8,
@@ -484,50 +484,50 @@
         "at_product_market": {
           "sell": 16.8,
           "fee": 1.24,
-          "profit": 5.15,
-          "margin_pct": 30.6
+          "profit": 5.05,
+          "margin_pct": 30.1
         }
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.72,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.8,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.42,
+        "breakeven_usd": 9.5,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -4.23,
+          "profit": -4.26,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 10.72,
-          "margin_pct": 51.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.7,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.42,
-          "margin_pct": 57.7
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.49,
+          "margin_pct": 54.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
+        "market_median_usd": 22.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -541,33 +541,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.93,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.15,
-        "landed_cost_ddu_usd": 11.15,
-        "landed_cost_ddp_usd": 10.6,
+        "landed_cost_usd": 11.25,
+        "landed_cost_ddu_usd": 11.25,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.04,
+        "breakeven_usd": 12.15,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -3.66,
+          "profit": -3.7,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 8.28,
-          "margin_pct": 39.5
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.24,
+          "margin_pct": 33.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 11.99,
-          "margin_pct": 48.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.04,
+          "margin_pct": 43.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.38,
@@ -575,47 +575,90 @@
         "at_product_market": {
           "sell": 18.38,
           "fee": 1.36,
-          "profit": 5.87,
-          "margin_pct": 31.9
+          "profit": 5.77,
+          "margin_pct": 31.4
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 96,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "고시 용량 27g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.58,
+        "at_2_2x": {
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -4.92,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.55,
+          "margin_pct": 50.5
+        },
+        "at_market_median": {
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.99,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 95,
         "price_krw": 5000,
         "weight_g_est": 200,
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.93,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.15,
-        "landed_cost_ddu_usd": 11.15,
-        "landed_cost_ddp_usd": 10.6,
+        "landed_cost_usd": 11.25,
+        "landed_cost_ddu_usd": 11.25,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.04,
+        "breakeven_usd": 12.15,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -3.66,
+          "profit": -3.7,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 8.28,
-          "margin_pct": 39.5
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.24,
+          "margin_pct": 33.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 11.99,
-          "margin_pct": 48.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.04,
+          "margin_pct": 43.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -623,8 +666,8 @@
         "at_product_market": {
           "sell": 19.93,
           "fee": 1.47,
-          "profit": 7.3,
-          "margin_pct": 36.6
+          "profit": 7.2,
+          "margin_pct": 36.1
         }
       },
       {
@@ -637,33 +680,33 @@
         "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.87,
-        "landed_cost_ddu_usd": 7.87,
-        "landed_cost_ddp_usd": 7.65,
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.5,
+        "breakeven_usd": 8.58,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -4.88,
+          "profit": -4.92,
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.56,
-          "margin_pct": 55.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.55,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.27,
-          "margin_pct": 61.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.31,
@@ -671,8 +714,8 @@
         "at_product_market": {
           "sell": 12.31,
           "fee": 0.91,
-          "profit": 3.53,
-          "margin_pct": 28.6
+          "profit": 3.46,
+          "margin_pct": 28.1
         }
       },
       {
@@ -685,33 +728,33 @@
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.72,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.8,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.42,
+        "breakeven_usd": 9.5,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -4.23,
+          "profit": -4.26,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 10.72,
-          "margin_pct": 51.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.7,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.42,
-          "margin_pct": 57.7
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.49,
+          "margin_pct": 54.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 11.55,
@@ -719,95 +762,47 @@
         "at_product_market": {
           "sell": 11.55,
           "fee": 0.85,
-          "profit": 1.98,
-          "margin_pct": 17.1
-        }
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 77,
-        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.03,
-        "landed_cost_ddu_usd": 7.03,
-        "landed_cost_ddp_usd": 6.92,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.59,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -5.53,
-          "margin_pct": -341.9
-        },
-        "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 12.41,
-          "margin_pct": 59.1
-        },
-        "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 16.11,
-          "margin_pct": 64.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 14.16,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 14.16,
-          "fee": 1.05,
-          "profit": 6.08,
-          "margin_pct": 43.0
+          "profit": 1.9,
+          "margin_pct": 16.4
         }
       },
       {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.87,
-        "landed_cost_ddu_usd": 7.87,
-        "landed_cost_ddp_usd": 7.65,
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.5,
+        "breakeven_usd": 8.58,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -4.88,
+          "profit": -4.92,
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.56,
-          "margin_pct": 55.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.55,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.27,
-          "margin_pct": 61.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.39,
@@ -815,52 +810,57 @@
         "at_product_market": {
           "sell": 12.39,
           "fee": 0.92,
-          "profit": 3.6,
-          "margin_pct": 29.1
+          "profit": 3.53,
+          "margin_pct": 28.5
         }
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_g_est": 77,
+        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.03,
-        "landed_cost_ddu_usd": 7.03,
-        "landed_cost_ddp_usd": 6.92,
+        "landed_cost_usd": 7.09,
+        "landed_cost_ddu_usd": 7.09,
+        "landed_cost_ddp_usd": 6.98,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.59,
+        "breakeven_usd": 7.66,
         "at_2_2x": {
-          "sell": 1.62,
+          "sell": 1.63,
           "fee": 0.12,
-          "profit": -5.53,
+          "profit": -5.58,
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 12.41,
-          "margin_pct": 59.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 10.4,
+          "margin_pct": 55.1
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 16.11,
-          "margin_pct": 64.5
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 14.2,
+          "margin_pct": 61.8
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 14.16,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 14.16,
+          "fee": 1.05,
+          "profit": 6.02,
+          "margin_pct": 42.5
+        }
       }
     ],
     "2개_묶음배송": [
@@ -868,39 +868,39 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 100,
+        "shopify_score": 99,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.63,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.68,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.08,
+        "breakeven_usd": 6.13,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -1.13,
+          "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 13.81,
-          "margin_pct": 65.8
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 11.81,
+          "margin_pct": 62.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.51,
-          "margin_pct": 70.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.61,
+          "margin_pct": 67.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.5,
@@ -908,47 +908,47 @@
         "at_product_market": {
           "sell": 24.5,
           "fee": 1.81,
-          "profit": 17.06,
-          "margin_pct": 69.6
+          "profit": 17.01,
+          "margin_pct": 69.4
         }
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.69,
-        "landed_cost_ddu_usd": 7.69,
-        "landed_cost_ddp_usd": 7.14,
+        "landed_cost_usd": 7.76,
+        "landed_cost_ddu_usd": 7.76,
+        "landed_cost_ddp_usd": 7.2,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.3,
+        "breakeven_usd": 8.38,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
           "profit": -0.2,
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.75,
-          "margin_pct": 56.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.73,
+          "margin_pct": 51.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.45,
-          "margin_pct": 61.8
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.53,
+          "margin_pct": 58.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 16.8,
@@ -956,50 +956,50 @@
         "at_product_market": {
           "sell": 16.8,
           "fee": 1.24,
-          "profit": 7.87,
-          "margin_pct": 46.8
+          "profit": 7.8,
+          "margin_pct": 46.4
         }
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.63,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.68,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.08,
+        "breakeven_usd": 6.13,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -1.13,
+          "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 13.81,
-          "margin_pct": 65.8
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 11.81,
+          "margin_pct": 62.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.51,
-          "margin_pct": 70.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.61,
+          "margin_pct": 67.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
+        "market_median_usd": 22.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1013,33 +1013,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.83,
-        "shipping_order_usd": 7.67,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 3.87,
+        "shipping_order_usd": 7.74,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.06,
-        "landed_cost_ddu_usd": 8.06,
-        "landed_cost_ddp_usd": 7.51,
+        "landed_cost_usd": 8.13,
+        "landed_cost_ddu_usd": 8.13,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.71,
+        "breakeven_usd": 8.78,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -0.57,
+          "profit": -0.58,
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.38,
-          "margin_pct": 54.2
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.36,
+          "margin_pct": 49.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.08,
-          "margin_pct": 60.3
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.16,
+          "margin_pct": 57.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.38,
@@ -1047,47 +1047,90 @@
         "at_product_market": {
           "sell": 18.38,
           "fee": 1.36,
-          "profit": 8.96,
-          "margin_pct": 48.7
+          "profit": 8.89,
+          "margin_pct": 48.4
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 96,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "고시 용량 27g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.61,
+        "at_2_2x": {
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -2.18,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.29,
+          "margin_pct": 65.1
+        },
+        "at_market_median": {
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.99,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 95,
         "price_krw": 5000,
         "weight_g_est": 200,
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 4.21,
-        "shipping_order_usd": 8.41,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 4.24,
+        "shipping_order_usd": 8.48,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.43,
-        "landed_cost_ddu_usd": 8.43,
-        "landed_cost_ddp_usd": 7.88,
+        "landed_cost_usd": 8.51,
+        "landed_cost_ddu_usd": 8.51,
+        "landed_cost_ddp_usd": 7.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.11,
+        "breakeven_usd": 9.19,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -0.94,
+          "profit": -0.95,
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.0,
-          "margin_pct": 52.4
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.99,
+          "margin_pct": 47.6
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.71,
-          "margin_pct": 58.9
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.78,
+          "margin_pct": 55.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -1095,8 +1138,8 @@
         "at_product_market": {
           "sell": 19.93,
           "fee": 1.47,
-          "profit": 10.02,
-          "margin_pct": 50.3
+          "profit": 9.95,
+          "margin_pct": 49.9
         }
       },
       {
@@ -1109,33 +1152,33 @@
         "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.15,
-        "landed_cost_ddu_usd": 5.15,
-        "landed_cost_ddp_usd": 4.93,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.57,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.16,
+          "profit": -2.18,
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.28,
-          "margin_pct": 68.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.29,
+          "margin_pct": 65.1
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.99,
-          "margin_pct": 72.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.31,
@@ -1143,8 +1186,8 @@
         "at_product_market": {
           "sell": 12.31,
           "fee": 0.91,
-          "profit": 6.25,
-          "margin_pct": 50.7
+          "profit": 6.2,
+          "margin_pct": 50.4
         }
       },
       {
@@ -1157,33 +1200,33 @@
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.63,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.68,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.08,
+        "breakeven_usd": 6.13,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -1.13,
+          "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 13.81,
-          "margin_pct": 65.8
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 11.81,
+          "margin_pct": 62.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.51,
-          "margin_pct": 70.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.61,
+          "margin_pct": 67.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 11.55,
@@ -1191,95 +1234,47 @@
         "at_product_market": {
           "sell": 11.55,
           "fee": 0.85,
-          "profit": 5.07,
-          "margin_pct": 43.9
-        }
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 77,
-        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 4.31,
-        "landed_cost_ddu_usd": 4.31,
-        "landed_cost_ddp_usd": 4.2,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.65,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -2.81,
-          "margin_pct": -173.8
-        },
-        "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 15.13,
-          "margin_pct": 72.1
-        },
-        "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.83,
-          "margin_pct": 75.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 14.16,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 14.16,
-          "fee": 1.05,
-          "profit": 8.8,
-          "margin_pct": 62.2
+          "profit": 5.02,
+          "margin_pct": 43.4
         }
       },
       {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.15,
-        "landed_cost_ddu_usd": 5.15,
-        "landed_cost_ddp_usd": 4.93,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.57,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.16,
+          "profit": -2.18,
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.28,
-          "margin_pct": 68.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.29,
+          "margin_pct": 65.1
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.99,
-          "margin_pct": 72.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.39,
@@ -1287,52 +1282,57 @@
         "at_product_market": {
           "sell": 12.39,
           "fee": 0.92,
-          "profit": 6.32,
-          "margin_pct": 51.0
+          "profit": 6.27,
+          "margin_pct": 50.6
         }
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_g_est": 77,
+        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
-        "landed_cost_usd": 4.31,
-        "landed_cost_ddu_usd": 4.31,
-        "landed_cost_ddp_usd": 4.2,
+        "landed_cost_usd": 4.35,
+        "landed_cost_ddu_usd": 4.35,
+        "landed_cost_ddp_usd": 4.24,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.65,
+        "breakeven_usd": 4.69,
         "at_2_2x": {
-          "sell": 1.62,
+          "sell": 1.63,
           "fee": 0.12,
-          "profit": -2.81,
+          "profit": -2.84,
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 15.13,
-          "margin_pct": 72.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 13.15,
+          "margin_pct": 69.6
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.83,
-          "margin_pct": 75.4
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.94,
+          "margin_pct": 73.7
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 14.16,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 14.16,
+          "fee": 1.05,
+          "profit": 8.77,
+          "margin_pct": 61.9
+        }
       }
     ]
   },
@@ -1342,39 +1342,39 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 100,
+        "shopify_score": 99,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.72,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.8,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.42,
+        "breakeven_usd": 9.5,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -4.23,
+          "profit": -4.26,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 10.72,
-          "margin_pct": 51.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.7,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.42,
-          "margin_pct": 57.7
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.49,
+          "margin_pct": 54.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.5,
@@ -1382,47 +1382,47 @@
         "at_product_market": {
           "sell": 24.5,
           "fee": 1.81,
-          "profit": 13.97,
-          "margin_pct": 57.0
+          "profit": 13.89,
+          "margin_pct": 56.7
         }
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 10.41,
-        "landed_cost_ddu_usd": 10.41,
-        "landed_cost_ddp_usd": 9.86,
+        "landed_cost_usd": 10.5,
+        "landed_cost_ddu_usd": 10.5,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.24,
+        "breakeven_usd": 11.34,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -2.92,
+          "profit": -2.95,
           "margin_pct": -36.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 9.03,
-          "margin_pct": 43.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.99,
+          "margin_pct": 37.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 12.73,
-          "margin_pct": 50.9
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.79,
+          "margin_pct": 46.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 16.8,
@@ -1430,50 +1430,50 @@
         "at_product_market": {
           "sell": 16.8,
           "fee": 1.24,
-          "profit": 5.15,
-          "margin_pct": 30.6
+          "profit": 5.05,
+          "margin_pct": 30.1
         }
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.72,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.8,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.42,
+        "breakeven_usd": 9.5,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -4.23,
+          "profit": -4.26,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 10.72,
-          "margin_pct": 51.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.7,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.42,
-          "margin_pct": 57.7
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.49,
+          "margin_pct": 54.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
+        "market_median_usd": 22.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1487,33 +1487,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.93,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.15,
-        "landed_cost_ddu_usd": 11.15,
-        "landed_cost_ddp_usd": 10.6,
+        "landed_cost_usd": 11.25,
+        "landed_cost_ddu_usd": 11.25,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.04,
+        "breakeven_usd": 12.15,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -3.66,
+          "profit": -3.7,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 8.28,
-          "margin_pct": 39.5
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.24,
+          "margin_pct": 33.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 11.99,
-          "margin_pct": 48.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.04,
+          "margin_pct": 43.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.38,
@@ -1521,47 +1521,90 @@
         "at_product_market": {
           "sell": 18.38,
           "fee": 1.36,
-          "profit": 5.87,
-          "margin_pct": 31.9
+          "profit": 5.77,
+          "margin_pct": 31.4
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 96,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "고시 용량 27g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 8.58,
+        "at_2_2x": {
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -4.92,
+          "margin_pct": -150.8
+        },
+        "at_market_p25": {
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.55,
+          "margin_pct": 50.5
+        },
+        "at_market_median": {
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.99,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 95,
         "price_krw": 5000,
         "weight_g_est": 200,
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.93,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.15,
-        "landed_cost_ddu_usd": 11.15,
-        "landed_cost_ddp_usd": 10.6,
+        "landed_cost_usd": 11.25,
+        "landed_cost_ddu_usd": 11.25,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 12.04,
+        "breakeven_usd": 12.15,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -3.66,
+          "profit": -3.7,
           "margin_pct": -45.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 8.28,
-          "margin_pct": 39.5
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.24,
+          "margin_pct": 33.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 11.99,
-          "margin_pct": 48.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.04,
+          "margin_pct": 43.7
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -1569,8 +1612,8 @@
         "at_product_market": {
           "sell": 19.93,
           "fee": 1.47,
-          "profit": 7.3,
-          "margin_pct": 36.6
+          "profit": 7.2,
+          "margin_pct": 36.1
         }
       },
       {
@@ -1583,33 +1626,33 @@
         "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.87,
-        "landed_cost_ddu_usd": 7.87,
-        "landed_cost_ddp_usd": 7.65,
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.5,
+        "breakeven_usd": 8.58,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -4.88,
+          "profit": -4.92,
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.56,
-          "margin_pct": 55.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.55,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.27,
-          "margin_pct": 61.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.31,
@@ -1617,8 +1660,8 @@
         "at_product_market": {
           "sell": 12.31,
           "fee": 0.91,
-          "profit": 3.53,
-          "margin_pct": 28.6
+          "profit": 3.46,
+          "margin_pct": 28.1
         }
       },
       {
@@ -1631,33 +1674,33 @@
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.72,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.8,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.42,
+        "breakeven_usd": 9.5,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -4.23,
+          "profit": -4.26,
           "margin_pct": -87.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 10.72,
-          "margin_pct": 51.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.7,
+          "margin_pct": 46.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.42,
-          "margin_pct": 57.7
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.49,
+          "margin_pct": 54.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 11.55,
@@ -1665,95 +1708,47 @@
         "at_product_market": {
           "sell": 11.55,
           "fee": 0.85,
-          "profit": 1.98,
-          "margin_pct": 17.1
-        }
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 77,
-        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.03,
-        "landed_cost_ddu_usd": 7.03,
-        "landed_cost_ddp_usd": 6.92,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.59,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -5.53,
-          "margin_pct": -341.9
-        },
-        "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 12.41,
-          "margin_pct": 59.1
-        },
-        "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 16.11,
-          "margin_pct": 64.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 14.16,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 14.16,
-          "fee": 1.05,
-          "profit": 6.08,
-          "margin_pct": 43.0
+          "profit": 1.9,
+          "margin_pct": 16.4
         }
       },
       {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.87,
-        "landed_cost_ddu_usd": 7.87,
-        "landed_cost_ddp_usd": 7.65,
+        "landed_cost_usd": 7.94,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.5,
+        "breakeven_usd": 8.58,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -4.88,
+          "profit": -4.92,
           "margin_pct": -150.8
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.56,
-          "margin_pct": 55.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.55,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.27,
-          "margin_pct": 61.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.35,
+          "margin_pct": 58.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.39,
@@ -1761,52 +1756,57 @@
         "at_product_market": {
           "sell": 12.39,
           "fee": 0.92,
-          "profit": 3.6,
-          "margin_pct": 29.1
+          "profit": 3.53,
+          "margin_pct": 28.5
         }
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_g_est": 77,
+        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.03,
-        "landed_cost_ddu_usd": 7.03,
-        "landed_cost_ddp_usd": 6.92,
+        "landed_cost_usd": 7.09,
+        "landed_cost_ddu_usd": 7.09,
+        "landed_cost_ddp_usd": 6.98,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 7.59,
+        "breakeven_usd": 7.66,
         "at_2_2x": {
-          "sell": 1.62,
+          "sell": 1.63,
           "fee": 0.12,
-          "profit": -5.53,
+          "profit": -5.58,
           "margin_pct": -341.9
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 12.41,
-          "margin_pct": 59.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 10.4,
+          "margin_pct": 55.1
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 16.11,
-          "margin_pct": 64.5
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 14.2,
+          "margin_pct": 61.8
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 14.16,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 14.16,
+          "fee": 1.05,
+          "profit": 6.02,
+          "margin_pct": 42.5
+        }
       }
     ],
     "ddu_2개_묶음배송": [
@@ -1814,39 +1814,39 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 100,
+        "shopify_score": 99,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.63,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.68,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.08,
+        "breakeven_usd": 6.13,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -1.13,
+          "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 13.81,
-          "margin_pct": 65.8
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 11.81,
+          "margin_pct": 62.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.51,
-          "margin_pct": 70.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.61,
+          "margin_pct": 67.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.5,
@@ -1854,47 +1854,47 @@
         "at_product_market": {
           "sell": 24.5,
           "fee": 1.81,
-          "profit": 17.06,
-          "margin_pct": 69.6
+          "profit": 17.01,
+          "margin_pct": 69.4
         }
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 7.69,
-        "landed_cost_ddu_usd": 7.69,
-        "landed_cost_ddp_usd": 7.14,
+        "landed_cost_usd": 7.76,
+        "landed_cost_ddu_usd": 7.76,
+        "landed_cost_ddp_usd": 7.2,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.3,
+        "breakeven_usd": 8.38,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
           "profit": -0.2,
           "margin_pct": -2.5
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.75,
-          "margin_pct": 56.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.73,
+          "margin_pct": 51.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.45,
-          "margin_pct": 61.8
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.53,
+          "margin_pct": 58.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 16.8,
@@ -1902,50 +1902,50 @@
         "at_product_market": {
           "sell": 16.8,
           "fee": 1.24,
-          "profit": 7.87,
-          "margin_pct": 46.8
+          "profit": 7.8,
+          "margin_pct": 46.4
         }
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.63,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.68,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.08,
+        "breakeven_usd": 6.13,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -1.13,
+          "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 13.81,
-          "margin_pct": 65.8
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 11.81,
+          "margin_pct": 62.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.51,
-          "margin_pct": 70.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.61,
+          "margin_pct": 67.9
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
+        "market_median_usd": 22.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -1959,33 +1959,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.83,
-        "shipping_order_usd": 7.67,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 3.87,
+        "shipping_order_usd": 7.74,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.06,
-        "landed_cost_ddu_usd": 8.06,
-        "landed_cost_ddp_usd": 7.51,
+        "landed_cost_usd": 8.13,
+        "landed_cost_ddu_usd": 8.13,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.71,
+        "breakeven_usd": 8.78,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -0.57,
+          "profit": -0.58,
           "margin_pct": -7.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.38,
-          "margin_pct": 54.2
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.36,
+          "margin_pct": 49.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.08,
-          "margin_pct": 60.3
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.16,
+          "margin_pct": 57.2
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.38,
@@ -1993,47 +1993,90 @@
         "at_product_market": {
           "sell": 18.38,
           "fee": 1.36,
-          "profit": 8.96,
-          "margin_pct": 48.7
+          "profit": 8.89,
+          "margin_pct": 48.4
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 96,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "고시 용량 27g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddu",
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
+        "customer_pays_duty_at_checkout": false,
+        "breakeven_usd": 5.61,
+        "at_2_2x": {
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -2.18,
+          "margin_pct": -66.7
+        },
+        "at_market_p25": {
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.29,
+          "margin_pct": 65.1
+        },
+        "at_market_median": {
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.99,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 95,
         "price_krw": 5000,
         "weight_g_est": 200,
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 4.21,
-        "shipping_order_usd": 8.41,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 4.24,
+        "shipping_order_usd": 8.48,
+        "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.43,
-        "landed_cost_ddu_usd": 8.43,
-        "landed_cost_ddp_usd": 7.88,
+        "landed_cost_usd": 8.51,
+        "landed_cost_ddu_usd": 8.51,
+        "landed_cost_ddp_usd": 7.95,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.11,
+        "breakeven_usd": 9.19,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -0.94,
+          "profit": -0.95,
           "margin_pct": -11.7
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.0,
-          "margin_pct": 52.4
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 8.99,
+          "margin_pct": 47.6
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.71,
-          "margin_pct": 58.9
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.78,
+          "margin_pct": 55.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -2041,8 +2084,8 @@
         "at_product_market": {
           "sell": 19.93,
           "fee": 1.47,
-          "profit": 10.02,
-          "margin_pct": 50.3
+          "profit": 9.95,
+          "margin_pct": 49.9
         }
       },
       {
@@ -2055,33 +2098,33 @@
         "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.15,
-        "landed_cost_ddu_usd": 5.15,
-        "landed_cost_ddp_usd": 4.93,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.57,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.16,
+          "profit": -2.18,
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.28,
-          "margin_pct": 68.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.29,
+          "margin_pct": 65.1
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.99,
-          "margin_pct": 72.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.31,
@@ -2089,8 +2132,8 @@
         "at_product_market": {
           "sell": 12.31,
           "fee": 0.91,
-          "profit": 6.25,
-          "margin_pct": 50.7
+          "profit": 6.2,
+          "margin_pct": 50.4
         }
       },
       {
@@ -2103,33 +2146,33 @@
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.63,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.68,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 6.08,
+        "breakeven_usd": 6.13,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -1.13,
+          "profit": -1.14,
           "margin_pct": -23.4
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 13.81,
-          "margin_pct": 65.8
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 11.81,
+          "margin_pct": 62.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.51,
-          "margin_pct": 70.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.61,
+          "margin_pct": 67.9
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 11.55,
@@ -2137,95 +2180,47 @@
         "at_product_market": {
           "sell": 11.55,
           "fee": 0.85,
-          "profit": 5.07,
-          "margin_pct": 43.9
-        }
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 77,
-        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 4.31,
-        "landed_cost_ddu_usd": 4.31,
-        "landed_cost_ddp_usd": 4.2,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.65,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -2.81,
-          "margin_pct": -173.8
-        },
-        "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 15.13,
-          "margin_pct": 72.1
-        },
-        "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.83,
-          "margin_pct": 75.4
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 14.16,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 14.16,
-          "fee": 1.05,
-          "profit": 8.8,
-          "margin_pct": 62.2
+          "profit": 5.02,
+          "margin_pct": 43.4
         }
       },
       {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddu",
-        "landed_cost_usd": 5.15,
-        "landed_cost_ddu_usd": 5.15,
-        "landed_cost_ddp_usd": 4.93,
+        "landed_cost_usd": 5.2,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.57,
+        "breakeven_usd": 5.61,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -2.16,
+          "profit": -2.18,
           "margin_pct": -66.7
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.28,
-          "margin_pct": 68.0
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.29,
+          "margin_pct": 65.1
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.99,
-          "margin_pct": 72.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.09,
+          "margin_pct": 70.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.39,
@@ -2233,52 +2228,57 @@
         "at_product_market": {
           "sell": 12.39,
           "fee": 0.92,
-          "profit": 6.32,
-          "margin_pct": 51.0
+          "profit": 6.27,
+          "margin_pct": 50.6
         }
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_g_est": 77,
+        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.11,
         "duty_mode": "ddu",
-        "landed_cost_usd": 4.31,
-        "landed_cost_ddu_usd": 4.31,
-        "landed_cost_ddp_usd": 4.2,
+        "landed_cost_usd": 4.35,
+        "landed_cost_ddu_usd": 4.35,
+        "landed_cost_ddp_usd": 4.24,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 4.65,
+        "breakeven_usd": 4.69,
         "at_2_2x": {
-          "sell": 1.62,
+          "sell": 1.63,
           "fee": 0.12,
-          "profit": -2.81,
+          "profit": -2.84,
           "margin_pct": -173.8
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 15.13,
-          "margin_pct": 72.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 13.15,
+          "margin_pct": 69.6
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.83,
-          "margin_pct": 75.4
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.94,
+          "margin_pct": 73.7
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 14.16,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 14.16,
+          "fee": 1.05,
+          "profit": 8.77,
+          "margin_pct": 61.9
+        }
       }
     ],
     "ddp_1개_묶음배송": [
@@ -2286,39 +2286,39 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 100,
+        "shopify_score": 99,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
-        "landed_cost_usd": 8.39,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.46,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.06,
+        "breakeven_usd": 9.14,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -3.9,
+          "profit": -3.93,
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.05,
-          "margin_pct": 52.6
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.03,
+          "margin_pct": 47.8
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.75,
-          "margin_pct": 59.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.83,
+          "margin_pct": 55.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.5,
@@ -2326,47 +2326,47 @@
         "at_product_market": {
           "sell": 24.5,
           "fee": 1.81,
-          "profit": 14.3,
-          "margin_pct": 58.4
+          "profit": 14.22,
+          "margin_pct": 58.1
         }
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 9.86,
-        "landed_cost_ddu_usd": 10.41,
-        "landed_cost_ddp_usd": 9.86,
+        "landed_cost_usd": 9.95,
+        "landed_cost_ddu_usd": 10.5,
+        "landed_cost_ddp_usd": 9.95,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.65,
+        "breakeven_usd": 10.74,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -2.37,
+          "profit": -2.39,
           "margin_pct": -29.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 9.58,
-          "margin_pct": 45.6
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 7.55,
+          "margin_pct": 39.9
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 13.28,
-          "margin_pct": 53.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 11.34,
+          "margin_pct": 49.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 16.8,
@@ -2374,50 +2374,50 @@
         "at_product_market": {
           "sell": 16.8,
           "fee": 1.24,
-          "profit": 5.7,
-          "margin_pct": 33.9
+          "profit": 5.61,
+          "margin_pct": 33.4
         }
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
-        "landed_cost_usd": 8.39,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.46,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.06,
+        "breakeven_usd": 9.14,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -3.9,
+          "profit": -3.93,
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.05,
-          "margin_pct": 52.6
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.03,
+          "margin_pct": 47.8
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.75,
-          "margin_pct": 59.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.83,
+          "margin_pct": 55.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
+        "market_median_usd": 22.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2431,33 +2431,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.93,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.6,
-        "landed_cost_ddu_usd": 11.15,
-        "landed_cost_ddp_usd": 10.6,
+        "landed_cost_usd": 10.7,
+        "landed_cost_ddu_usd": 11.25,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.45,
+        "breakeven_usd": 11.55,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -3.11,
+          "profit": -3.14,
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 8.84,
-          "margin_pct": 42.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.8,
+          "margin_pct": 36.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 12.54,
-          "margin_pct": 50.2
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.59,
+          "margin_pct": 46.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.38,
@@ -2465,47 +2465,90 @@
         "at_product_market": {
           "sell": 18.38,
           "fee": 1.36,
-          "profit": 6.42,
-          "margin_pct": 34.9
+          "profit": 6.32,
+          "margin_pct": 34.4
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 96,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "고시 용량 27g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 7.72,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 8.34,
+        "at_2_2x": {
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -4.7,
+          "margin_pct": -144.0
+        },
+        "at_market_p25": {
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.77,
+          "margin_pct": 51.7
+        },
+        "at_market_median": {
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.57,
+          "margin_pct": 59.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.99,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 95,
         "price_krw": 5000,
         "weight_g_est": 200,
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 6.93,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 6.99,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.6,
-        "landed_cost_ddu_usd": 11.15,
-        "landed_cost_ddp_usd": 10.6,
+        "landed_cost_usd": 10.7,
+        "landed_cost_ddu_usd": 11.25,
+        "landed_cost_ddp_usd": 10.7,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.45,
+        "breakeven_usd": 11.55,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -3.11,
+          "profit": -3.14,
           "margin_pct": -38.5
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 8.84,
-          "margin_pct": 42.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 6.8,
+          "margin_pct": 36.0
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 12.54,
-          "margin_pct": 50.2
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 10.59,
+          "margin_pct": 46.1
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -2513,8 +2556,8 @@
         "at_product_market": {
           "sell": 19.93,
           "fee": 1.47,
-          "profit": 7.85,
-          "margin_pct": 39.4
+          "profit": 7.76,
+          "margin_pct": 38.9
         }
       },
       {
@@ -2527,33 +2570,33 @@
         "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.65,
-        "landed_cost_ddu_usd": 7.87,
-        "landed_cost_ddp_usd": 7.65,
+        "landed_cost_usd": 7.72,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.26,
+        "breakeven_usd": 8.34,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -4.66,
+          "profit": -4.7,
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.78,
-          "margin_pct": 56.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.77,
+          "margin_pct": 51.7
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.49,
-          "margin_pct": 62.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.57,
+          "margin_pct": 59.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.31,
@@ -2561,8 +2604,8 @@
         "at_product_market": {
           "sell": 12.31,
           "fee": 0.91,
-          "profit": 3.75,
-          "margin_pct": 30.4
+          "profit": 3.68,
+          "margin_pct": 29.9
         }
       },
       {
@@ -2575,33 +2618,33 @@
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
-        "landed_cost_usd": 8.39,
-        "landed_cost_ddu_usd": 8.72,
-        "landed_cost_ddp_usd": 8.39,
+        "landed_cost_usd": 8.46,
+        "landed_cost_ddu_usd": 8.8,
+        "landed_cost_ddp_usd": 8.46,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 9.06,
+        "breakeven_usd": 9.14,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -3.9,
+          "profit": -3.93,
           "margin_pct": -80.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.05,
-          "margin_pct": 52.6
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.03,
+          "margin_pct": 47.8
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 14.75,
-          "margin_pct": 59.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 12.83,
+          "margin_pct": 55.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 11.55,
@@ -2609,95 +2652,47 @@
         "at_product_market": {
           "sell": 11.55,
           "fee": 0.85,
-          "profit": 2.31,
-          "margin_pct": 20.0
-        }
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 77,
-        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 6.92,
-        "landed_cost_ddu_usd": 7.03,
-        "landed_cost_ddp_usd": 6.92,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.47,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -5.42,
-          "margin_pct": -335.1
-        },
-        "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 12.52,
-          "margin_pct": 59.6
-        },
-        "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 16.22,
-          "margin_pct": 64.9
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 14.16,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 14.16,
-          "fee": 1.05,
-          "profit": 6.19,
-          "margin_pct": 43.7
+          "profit": 2.23,
+          "margin_pct": 19.3
         }
       },
       {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.65,
-        "landed_cost_ddu_usd": 7.87,
-        "landed_cost_ddp_usd": 7.65,
+        "landed_cost_usd": 7.72,
+        "landed_cost_ddu_usd": 7.94,
+        "landed_cost_ddp_usd": 7.72,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.26,
+        "breakeven_usd": 8.34,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -4.66,
+          "profit": -4.7,
           "margin_pct": -144.0
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.78,
-          "margin_pct": 56.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.77,
+          "margin_pct": 51.7
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.49,
-          "margin_pct": 62.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.57,
+          "margin_pct": 59.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.39,
@@ -2705,52 +2700,57 @@
         "at_product_market": {
           "sell": 12.39,
           "fee": 0.92,
-          "profit": 3.82,
-          "margin_pct": 30.8
+          "profit": 3.75,
+          "margin_pct": 30.3
         }
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_g_est": 77,
+        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 6.18,
-        "shipping_order_usd": 6.18,
+        "shipping_unit_usd": 6.24,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.11,
         "duty_mode": "ddp",
-        "landed_cost_usd": 6.92,
-        "landed_cost_ddu_usd": 7.03,
-        "landed_cost_ddp_usd": 6.92,
+        "landed_cost_usd": 6.98,
+        "landed_cost_ddu_usd": 7.09,
+        "landed_cost_ddp_usd": 6.98,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.47,
+        "breakeven_usd": 7.54,
         "at_2_2x": {
-          "sell": 1.62,
+          "sell": 1.63,
           "fee": 0.12,
-          "profit": -5.42,
+          "profit": -5.47,
           "margin_pct": -335.1
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 12.52,
-          "margin_pct": 59.6
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 10.51,
+          "margin_pct": 55.7
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 16.22,
-          "margin_pct": 64.9
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 14.31,
+          "margin_pct": 62.2
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 14.16,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 14.16,
+          "fee": 1.05,
+          "profit": 6.13,
+          "margin_pct": 43.3
+        }
       }
     ],
     "ddp_2개_묶음배송": [
@@ -2758,39 +2758,39 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 100,
+        "shopify_score": 99,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
-        "landed_cost_usd": 5.3,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.34,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.72,
+        "breakeven_usd": 5.77,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -0.8,
+          "profit": -0.81,
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.14,
-          "margin_pct": 67.4
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.15,
+          "margin_pct": 64.3
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.84,
-          "margin_pct": 71.4
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.94,
+          "margin_pct": 69.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 24.5,
@@ -2798,47 +2798,47 @@
         "at_product_market": {
           "sell": 24.5,
           "fee": 1.81,
-          "profit": 17.39,
-          "margin_pct": 71.0
+          "profit": 17.34,
+          "margin_pct": 70.8
         }
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 5000,
         "weight_g_est": 88,
         "weight_note": "고시 용량 30ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.14,
-        "landed_cost_ddu_usd": 7.69,
-        "landed_cost_ddp_usd": 7.14,
+        "landed_cost_usd": 7.2,
+        "landed_cost_ddu_usd": 7.76,
+        "landed_cost_ddp_usd": 7.2,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.71,
+        "breakeven_usd": 7.78,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
           "profit": 0.35,
           "margin_pct": 4.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 12.3,
-          "margin_pct": 58.6
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 10.29,
+          "margin_pct": 54.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 16.0,
-          "margin_pct": 64.0
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 14.09,
+          "margin_pct": 61.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 16.8,
@@ -2846,50 +2846,50 @@
         "at_product_market": {
           "sell": 16.8,
           "fee": 1.24,
-          "profit": 8.42,
-          "margin_pct": 50.1
+          "profit": 8.36,
+          "margin_pct": 49.7
         }
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "bucket": "스킨케어",
-        "shopify_score": 98,
+        "shopify_score": 97,
         "price_krw": 3000,
         "weight_g_est": 43,
         "weight_note": "고시 용량 2ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
-        "landed_cost_usd": 5.3,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.34,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.72,
+        "breakeven_usd": 5.77,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -0.8,
+          "profit": -0.81,
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.14,
-          "margin_pct": 67.4
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.15,
+          "margin_pct": 64.3
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.84,
-          "margin_pct": 71.4
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.94,
+          "margin_pct": 69.4
         },
         "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
+        "market_median_usd": 22.99,
         "market_sample_n": 100,
         "at_product_market": null
       },
@@ -2903,33 +2903,33 @@
         "weight_note": "고시 용량 50ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 3.83,
-        "shipping_order_usd": 7.67,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 3.87,
+        "shipping_order_usd": 7.74,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.51,
-        "landed_cost_ddu_usd": 8.06,
-        "landed_cost_ddp_usd": 7.51,
+        "landed_cost_usd": 7.58,
+        "landed_cost_ddu_usd": 8.13,
+        "landed_cost_ddp_usd": 7.58,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.11,
+        "breakeven_usd": 8.18,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
           "profit": -0.02,
           "margin_pct": -0.3
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.93,
-          "margin_pct": 56.8
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.92,
+          "margin_pct": 52.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.63,
-          "margin_pct": 62.5
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.71,
+          "margin_pct": 59.6
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 18.38,
@@ -2937,47 +2937,90 @@
         "at_product_market": {
           "sell": 18.38,
           "fee": 1.36,
-          "profit": 9.51,
-          "margin_pct": 51.7
+          "profit": 9.44,
+          "margin_pct": 51.4
         }
+      },
+      {
+        "pd_no": "1067500",
+        "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
+        "bucket": "마스크팩",
+        "shopify_score": 96,
+        "price_krw": 2000,
+        "weight_g_est": 83,
+        "weight_note": "고시 용량 27g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
+        "tariff_usd": 0.22,
+        "duty_mode": "ddp",
+        "landed_cost_usd": 4.98,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
+        "customer_pays_duty_at_checkout": true,
+        "breakeven_usd": 5.37,
+        "at_2_2x": {
+          "sell": 3.26,
+          "fee": 0.24,
+          "profit": -1.95,
+          "margin_pct": -59.9
+        },
+        "at_market_p25": {
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.52,
+          "margin_pct": 66.3
+        },
+        "at_market_median": {
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.31,
+          "margin_pct": 71.0
+        },
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.99,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1072554",
         "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 95,
         "price_krw": 5000,
         "weight_g_est": 200,
         "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 3.68,
-        "shipping_unit_usd": 4.21,
-        "shipping_order_usd": 8.41,
-        "tariff_usd": 0.55,
+        "unit_cost_usd": 3.71,
+        "shipping_unit_usd": 4.24,
+        "shipping_order_usd": 8.48,
+        "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.88,
-        "landed_cost_ddu_usd": 8.43,
-        "landed_cost_ddp_usd": 7.88,
+        "landed_cost_usd": 7.95,
+        "landed_cost_ddu_usd": 8.51,
+        "landed_cost_ddp_usd": 7.95,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.51,
+        "breakeven_usd": 8.59,
         "at_2_2x": {
-          "sell": 8.09,
+          "sell": 8.16,
           "fee": 0.6,
-          "profit": -0.39,
+          "profit": -0.4,
           "margin_pct": -4.9
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 11.56,
-          "margin_pct": 55.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 9.54,
+          "margin_pct": 50.5
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 15.26,
-          "margin_pct": 61.1
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 13.34,
+          "margin_pct": 58.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 19.93,
@@ -2985,8 +3028,8 @@
         "at_product_market": {
           "sell": 19.93,
           "fee": 1.47,
-          "profit": 10.57,
-          "margin_pct": 53.1
+          "profit": 10.5,
+          "margin_pct": 52.7
         }
       },
       {
@@ -2999,33 +3042,33 @@
         "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.93,
-        "landed_cost_ddu_usd": 5.15,
-        "landed_cost_ddp_usd": 4.93,
+        "landed_cost_usd": 4.98,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.33,
+        "breakeven_usd": 5.37,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -1.94,
+          "profit": -1.95,
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.5,
-          "margin_pct": 69.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.52,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.21,
-          "margin_pct": 72.9
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.31,
+          "margin_pct": 71.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.31,
@@ -3033,8 +3076,8 @@
         "at_product_market": {
           "sell": 12.31,
           "fee": 0.91,
-          "profit": 6.47,
-          "margin_pct": 52.5
+          "profit": 6.42,
+          "margin_pct": 52.2
         }
       },
       {
@@ -3047,33 +3090,33 @@
         "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": false,
-        "unit_cost_usd": 2.21,
-        "shipping_unit_usd": 3.09,
-        "shipping_order_usd": 6.18,
+        "unit_cost_usd": 2.23,
+        "shipping_unit_usd": 3.12,
+        "shipping_order_usd": 6.24,
         "tariff_usd": 0.33,
         "duty_mode": "ddp",
-        "landed_cost_usd": 5.3,
-        "landed_cost_ddu_usd": 5.63,
-        "landed_cost_ddp_usd": 5.3,
+        "landed_cost_usd": 5.34,
+        "landed_cost_ddu_usd": 5.68,
+        "landed_cost_ddp_usd": 5.34,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.72,
+        "breakeven_usd": 5.77,
         "at_2_2x": {
-          "sell": 4.85,
+          "sell": 4.9,
           "fee": 0.36,
-          "profit": -0.8,
+          "profit": -0.81,
           "margin_pct": -16.6
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.14,
-          "margin_pct": 67.4
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.15,
+          "margin_pct": 64.3
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 17.84,
-          "margin_pct": 71.4
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 15.94,
+          "margin_pct": 69.4
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 11.55,
@@ -3081,95 +3124,47 @@
         "at_product_market": {
           "sell": 11.55,
           "fee": 0.85,
-          "profit": 5.4,
-          "margin_pct": 46.7
-        }
-      },
-      {
-        "pd_no": "1027327",
-        "name": "바세린 마스크팩 집중보습",
-        "bucket": "마스크팩",
-        "shopify_score": 91,
-        "price_krw": 1000,
-        "weight_g_est": 77,
-        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
-        "tariff_usd": 0.11,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 4.2,
-        "landed_cost_ddu_usd": 4.31,
-        "landed_cost_ddp_usd": 4.2,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 4.53,
-        "at_2_2x": {
-          "sell": 1.62,
-          "fee": 0.12,
-          "profit": -2.7,
-          "margin_pct": -166.9
-        },
-        "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 15.24,
-          "margin_pct": 72.6
-        },
-        "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.94,
-          "margin_pct": 75.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 14.16,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 14.16,
-          "fee": 1.05,
-          "profit": 8.91,
-          "margin_pct": 63.0
+          "profit": 5.35,
+          "margin_pct": 46.3
         }
       },
       {
         "pd_no": "1059834",
         "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 2000,
         "weight_g_est": 85,
         "weight_note": "고시 용량 28 g x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
         "weigh_needed": true,
-        "unit_cost_usd": 1.47,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "unit_cost_usd": 1.48,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.22,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.93,
-        "landed_cost_ddu_usd": 5.15,
-        "landed_cost_ddp_usd": 4.93,
+        "landed_cost_usd": 4.98,
+        "landed_cost_ddu_usd": 5.2,
+        "landed_cost_ddp_usd": 4.98,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.33,
+        "breakeven_usd": 5.37,
         "at_2_2x": {
-          "sell": 3.23,
+          "sell": 3.26,
           "fee": 0.24,
-          "profit": -1.94,
+          "profit": -1.95,
           "margin_pct": -59.9
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 14.5,
-          "margin_pct": 69.1
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 12.52,
+          "margin_pct": 66.3
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.21,
-          "margin_pct": 72.9
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 16.31,
+          "margin_pct": 71.0
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 12.39,
@@ -3177,52 +3172,57 @@
         "at_product_market": {
           "sell": 12.39,
           "fee": 0.92,
-          "profit": 6.54,
-          "margin_pct": 52.8
+          "profit": 6.5,
+          "margin_pct": 52.4
         }
       },
       {
-        "pd_no": "1042619",
-        "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
+        "pd_no": "1027327",
+        "name": "바세린 마스크팩 집중보습",
         "bucket": "마스크팩",
-        "shopify_score": 87,
+        "shopify_score": 90,
         "price_krw": 1000,
-        "weight_g_est": 86,
-        "weight_note": "고시 용량 29g x 1.6(용기) + 40g(포장)",
+        "weight_g_est": 77,
+        "weight_note": "고시 용량 23 ml / 0.78 fl. oz. x 1.6(용기) + 40g(포장)",
         "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 0.74,
-        "shipping_unit_usd": 3.46,
-        "shipping_order_usd": 6.93,
+        "shipping_unit_usd": 3.49,
+        "shipping_order_usd": 6.99,
         "tariff_usd": 0.11,
         "duty_mode": "ddp",
-        "landed_cost_usd": 4.2,
-        "landed_cost_ddu_usd": 4.31,
-        "landed_cost_ddp_usd": 4.2,
+        "landed_cost_usd": 4.24,
+        "landed_cost_ddu_usd": 4.35,
+        "landed_cost_ddp_usd": 4.24,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 4.53,
+        "breakeven_usd": 4.57,
         "at_2_2x": {
-          "sell": 1.62,
+          "sell": 1.63,
           "fee": 0.12,
-          "profit": -2.7,
+          "profit": -2.72,
           "margin_pct": -166.9
         },
         "at_market_p25": {
-          "sell": 20.99,
-          "fee": 1.55,
-          "profit": 15.24,
-          "margin_pct": 72.6
+          "sell": 18.89,
+          "fee": 1.4,
+          "profit": 13.26,
+          "margin_pct": 70.2
         },
         "at_market_median": {
-          "sell": 24.99,
-          "fee": 1.85,
-          "profit": 18.94,
-          "margin_pct": 75.8
+          "sell": 22.99,
+          "fee": 1.7,
+          "profit": 17.05,
+          "margin_pct": 74.2
         },
-        "market_price_source": "oliveyoung_us_benchmark",
-        "market_median_usd": 24.99,
-        "market_sample_n": 100,
-        "at_product_market": null
+        "market_price_source": "serpapi_google_shopping",
+        "market_median_usd": 14.16,
+        "market_sample_n": 20,
+        "at_product_market": {
+          "sell": 14.16,
+          "fee": 1.05,
+          "profit": 8.88,
+          "margin_pct": 62.7
+        }
       }
     ]
   }

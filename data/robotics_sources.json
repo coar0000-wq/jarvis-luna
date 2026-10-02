@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:17:51.344649+00:00",
+  "generated_at": "2026-10-02T17:22:06.625305+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -11,10 +11,26 @@
       "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
       "items": [
         {
+          "title": "Towards Efficient HPC Systems for Agents: Challenges and Opportunities",
+          "summary": "Coding agents have become real users of high-performance computing (HPC) systems, yet today's HPC abstractions, interfaces, and policies remain designed for human-driven workflows. In our measurement, users running coding agents are only 19.5% of the observed population, but account for 55.8% of job submissions, 29.1% of CPU core-hours, and 42.7% of GPU-hours. Agents are not simply faster humans. ",
+          "published": "2026-09-30",
+          "url": "https://doi.org/10.48550/arxiv.2609.38723",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Coded Computing for Dynamic System via a Cartesian Product",
+          "summary": "This paper studies coded distributed computing (CDC) in a dynamic system in which workers may depart and new clusters may join. The caches of the surviving workers and their existing Reduce assignments stay untouched, while the storage brought by arriving clusters is put to use. In contrast to elastic computing, which targets linear functions, and to dynamic coded caching, which requires placement",
+          "published": "2026-09-30",
+          "url": "https://doi.org/10.48550/arxiv.2609.39373",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
           "title": "Grid Demand Flexibility Assessment of AI Data Centers via Batch Workload Temporal Shifting",
           "summary": "The rapid growth of artificial intelligence (AI) data centers has introduced new challenges to power system operation. As their power demand becomes larger and more variable, quantitatively characterizing their demand flexibility is increasingly important for effective power system coordination. However, heterogeneous workload characteristics and resource requirements make this flexibility difficu",
           "published": "2026-09-29",
-          "url": "https://doi.org/10.48550/arxiv.2609.38020",
+          "url": "https://arxiv.org/abs/2609.38020",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -22,7 +38,15 @@
           "title": "Distinguish or Homogenize: Last-Chance Policy Identification and Risk-Budgeted Recovery under Irreversible Resource Depletion",
           "summary": "Under irreversible resource depletion, an agent can spend resources to distinguish among latent fault models, or to change the system state so that the remaining models admit a common acceptable continuation--at which point further diagnosis becomes unnecessary. This distinguish-or-homogenize principle identifies a path that existing frameworks for identification, planning, and diagnosis do not ma",
           "published": "2026-09-29",
-          "url": "https://doi.org/10.48550/arxiv.2609.36741",
+          "url": "https://arxiv.org/abs/2609.36741",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex"
+        },
+        {
+          "title": "Agent-Warden: eBPF-Based Kernel-Native Process-File Provenance Tracking for LLM Agents",
+          "summary": "LLM agents execute dynamically generated process and file operations that are often invisible to application-layer tracing. We present Agent-Warden, an extended Berkeley Packet Filter (eBPF)-based provenance monitor for tracking task and regular-file states across process creation, file access, and process termination. Agent-Warden provides two interchangeable state backends: a PID-keyed hash-map ",
+          "published": "2026-09-29",
+          "url": "https://doi.org/10.48550/arxiv.2609.38245",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -52,7 +76,7 @@
         },
         {
           "title": "ASCEND: Personal AI Agents for Autonomous Scientific Computing Across HPC Clusters and GPU Workstations",
-          "summary": "Traditional scientific computing requires researchers to translate computational intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and application logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that runs the agent on the researcher's own laptop, reaching Slu",
+          "summary": "Traditional scientific computing requires researchers to translate intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that supports several placements of the agent and, in the arrangement used for every case ",
           "published": "2026-09-26",
           "url": "https://doi.org/10.48550/arxiv.2609.32868",
           "primary_category": "로보틱스",
@@ -86,7 +110,7 @@
           "title": "WLCG Mini-Capability Challenge: Host Tuning to Im- prove WAN Data Transfers",
           "summary": "High-throughput data movement is a defining requirement of the WLCG computing model, yet end-to-end performance is often constrained less by the network backbone than by host-level configuration. We present the results of a WLCG mini-capability challenge focused on host optimization at ATLAS and CMS sites (FNAL, UCSD, UNL, BNL, AGLT2, MWT2, and Vanderbilt), using EL8/9 hosts with 25\\,Gbps or highe",
           "published": "2026-09-25",
-          "url": "https://doi.org/10.48550/arxiv.2609.35859",
+          "url": "https://arxiv.org/abs/2609.35859",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -126,7 +150,7 @@
           "title": "CMS Open Data Visualization with FireworksWeb",
           "summary": "FireworksWeb is a web-based event display utilizing a C++ ROOT-Eve backend with SAPUI5 frontend for interactive 3D visualization of particle physics events directly in the browser. Building upon ROOT-Eve and RenderCore, it eliminates local software installation while maintaining professional-grade event display capabilities. FireworksWeb is currently deployed for live event monitoring in the CMS c",
           "published": "2026-09-24",
-          "url": "https://doi.org/10.48550/arxiv.2609.35843",
+          "url": "https://arxiv.org/abs/2609.35843",
           "primary_category": "로보틱스",
           "source_detail": "arXiv via OpenAlex"
         },
@@ -187,30 +211,6 @@
           "source_detail": "arXiv via OpenAlex"
         },
         {
-          "title": "SemDHT: Certified Semantic Discovery for Peer-to-Peer Agent Networks over Exact-Key DHTs",
-          "summary": "Agents may need capabilities exposed through external agent endpoints or service APIs. When a requester is not already bound to a provider, it must discover advertised capabilities matching its task and interface requirements. Over exact-key distributed hash tables (DHTs), broad retrieval transfers large candidate lists, whereas selective retrieval may miss relevant providers or require more repli",
-          "published": "2026-09-20",
-          "url": "https://arxiv.org/abs/2609.23539",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Simulation code for \"Agentic Service Markets Across the Computing Continuum: A Polymatroidal Architecture\"",
-          "summary": "R + targets pipeline reproducing the experiments in the arXiv preprint arXiv:2603.05614, \"Agentic Service Markets Across the Computing Continuum: A Polymatroidal Architecture\": the topology x load ablation grid, the DSIC strategic-bidding test, a measured agentic LLM workload, and the integrator faithfulness and encapsulation-overhead studies. Reproduce all results with targets::tar_make().",
-          "published": "2026-09-19",
-          "url": "https://arxiv.org/abs/2603.05614",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "HyperParallel-FSDP: Topology-Aware Fully Sharded Training with Layout-Driven Muon on Ascend SuperPods",
-          "summary": "Declarative SPMD programming uses tensor sharding descriptions to drive distributed execution, separating parallelization from model code. However, the evaluated PyTorch DTensor stack dispatches every operator below autograd, incurring repeated dispatch and metadata costs, while lacking an inexpensive end-to-end validation path. Existing FSDP and distributed Muon implementations also mismatch two-",
-          "published": "2026-09-18",
-          "url": "https://arxiv.org/abs/2609.21594",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
           "title": "New perspectives for the fitness fatigue model: how to revisit questions about the science of sports training from the perspective of systems control theory",
           "summary": "The Fitness-Fatigue model (FFM) was initially designed to gain a better physiological understanding of the impact of training loads on sports performance. For almost 50 years, simulations have been compared with the observed response of sports performance to training loads. Understanding the relationship between training load and performance should have answered some fundamental questions for the ",
           "published": "2026-09-22",
@@ -227,6 +227,14 @@
       "source": "IEEE Spectrum Robotics, The Robot Report",
       "errors": [],
       "items": [
+        {
+          "title": "Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away",
+          "summary": "<img src=\"https://spectrum.ieee.org/media-library/futuristic-robotic-bird-gliding-low-above-water-with-a-trailing-wire.png?id=68024679&width=1245&height=700&coordinates=0%2C275%2C0%2C276\"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We also post a weekly calendar of upcoming robotics",
+          "published": "Fri, 02 Oct 2026 16:30:02 +0000",
+          "url": "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
+          "feed": "IEEE Spectrum Robotics",
+          "source": "rss"
+        },
         {
           "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
           "summary": "<img src=\"https://spectrum.ieee.org/media-library/close-up-of-a-robotic-hand-with-three-fingers-and-a-thumb-making-a-gesture-similar-to-the-sign-of-the-horns.jpg?id=67879402&width=1245&height=700&coordinates=0%2C260%2C0%2C261\"/><br/><br/><p><span>Today, </span><a href=\"https://bostondynamics.com/\" target=\"_blank\">Boston Dynamics</a><span> is <a href=\"https://bostondynamics.com/blog/robot-hands-for",
@@ -420,11 +428,11 @@
           "source": "rss"
         },
         {
-          "title": "Walden Robotics Partners With Toyota on Practical Humanoids",
-          "summary": "<img src=\"https://spectrum.ieee.org/media-library/humanoid-orange-and-white-robot-using-two-finger-gripper-hands-to-work-with-metal-tool-components.jpg?id=67568024&width=1245&height=700&coordinates=0%2C62%2C0%2C63\"/><br/><br/><p>For a while there, it seemed as though robotics as a whole was stuck in a <a href=\"https://spectrum.ieee.org/top-robotics-stories-2024\" target=\"_self\">mad rush</a> towards",
-          "published": "Mon, 03 Aug 2026 16:05:39 +0000",
-          "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota",
-          "feed": "IEEE Spectrum Robotics",
+          "title": "Calling robotics startups: Submissions for the 2026 Robotics Startup Radar close soon",
+          "summary": "<p>Submit now to be part of the Robotics Startup Radar, which brings together some of the most promising robotics startups.</p> <p>The post <a href=\"https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/\">Calling robotics startups: Submissions for the 2026 Robotics Startup Radar close soon</a> appeared first on <a href=\"https://www.therobotreport.com\">T",
+          "published": "Fri, 02 Oct 2026 14:00:59 +0000",
+          "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
+          "feed": "The Robot Report",
           "source": "rss"
         },
         {
@@ -536,14 +544,6 @@
           "summary": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p> <p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids</a> appeared first on <a href=\"https://www.therobotreport.com",
           "published": "Mon, 28 Sep 2026 13:56:56 +0000",
           "url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Raise Robotics to discuss scaling field robots at RoboBusiness",
-          "summary": "<p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p> <p>The post <a href=\"https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/\">Raise Robotics to discuss scaling field robots at RoboBusiness</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report",
-          "published": "Mon, 28 Sep 2026 13:22:53 +0000",
-          "url": "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/",
           "feed": "The Robot Report",
           "source": "rss"
         }

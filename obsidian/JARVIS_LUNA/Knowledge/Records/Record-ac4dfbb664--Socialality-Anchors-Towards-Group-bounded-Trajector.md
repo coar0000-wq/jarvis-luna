@@ -2,7 +2,7 @@
 title: "Record ac4dfbb664 · Socialality-Anchors-Towards-Group-bounded-Trajectory-Prediction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.444043+00:00
+updated_at: 2026-10-02T17:39:34.276010+00:00
 tags: [record, real-data]
 ---
 

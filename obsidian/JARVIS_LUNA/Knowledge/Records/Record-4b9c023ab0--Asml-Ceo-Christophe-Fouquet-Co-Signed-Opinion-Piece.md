@@ -2,7 +2,7 @@
 title: "Record 4b9c023ab0 · Asml-Ceo-Christophe-Fouquet-Co-Signed-Opinion-Piece"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.111200+00:00
+updated_at: 2026-10-02T17:39:36.559142+00:00
 tags: [record, real-data]
 ---
 

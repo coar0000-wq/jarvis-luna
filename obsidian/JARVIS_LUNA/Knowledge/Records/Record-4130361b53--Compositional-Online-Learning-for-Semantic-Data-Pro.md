@@ -2,7 +2,7 @@
 title: "Record 4130361b53 · Compositional-Online-Learning-for-Semantic-Data-Processing-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.999601+00:00
+updated_at: 2026-10-02T17:39:34.779897+00:00
 tags: [record, real-data]
 ---
 

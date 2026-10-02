@@ -2,7 +2,7 @@
 title: "Record c027f36a23 · Bridging-LLM-Serving-and-CXL-SSDs-with-Chunk-Aware-KV-Cache-Management"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.168623+00:00
+updated_at: 2026-10-02T17:39:34.912197+00:00
 tags: [record, real-data]
 ---
 

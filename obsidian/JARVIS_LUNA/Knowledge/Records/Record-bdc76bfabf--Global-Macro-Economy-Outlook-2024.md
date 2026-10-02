@@ -2,7 +2,7 @@
 title: "Record bdc76bfabf · Global-Macro-Economy-Outlook-2024"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.249668+00:00
+updated_at: 2026-10-02T17:39:36.679118+00:00
 tags: [record, real-data]
 ---
 

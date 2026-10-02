@@ -2,7 +2,7 @@
 title: "Record 5e579d420c · Microfluidic-Based-Real-Time-PCR-Platform-for-Rapid-Multiplex-Detectio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.515676+00:00
+updated_at: 2026-10-02T17:39:34.342524+00:00
 tags: [record, real-data]
 ---
 

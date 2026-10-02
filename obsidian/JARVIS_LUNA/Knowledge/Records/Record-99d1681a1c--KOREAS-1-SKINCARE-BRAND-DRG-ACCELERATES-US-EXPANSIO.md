@@ -2,7 +2,7 @@
 title: "Record 99d1681a1c · KOREAS-1-SKINCARE-BRAND-DRG-ACCELERATES-US-EXPANSION-WITH-TIKTOK-SHOP-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.133636+00:00
+updated_at: 2026-10-02T17:39:35.754065+00:00
 tags: [record, real-data]
 ---
 

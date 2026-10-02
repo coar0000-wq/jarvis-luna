@@ -2,7 +2,7 @@
 title: "Record ae91c9d478 · High-Potency-Hyaluronic-Intensive-Hydrating-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.408752+00:00
+updated_at: 2026-10-02T17:39:36.816188+00:00
 tags: [record, real-data]
 ---
 

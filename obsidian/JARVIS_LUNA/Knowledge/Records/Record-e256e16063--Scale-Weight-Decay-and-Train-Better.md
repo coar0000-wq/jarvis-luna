@@ -2,7 +2,7 @@
 title: "Record e256e16063 · Scale-Weight-Decay-and-Train-Better"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.982979+00:00
+updated_at: 2026-10-02T17:39:34.764453+00:00
 tags: [record, real-data]
 ---
 

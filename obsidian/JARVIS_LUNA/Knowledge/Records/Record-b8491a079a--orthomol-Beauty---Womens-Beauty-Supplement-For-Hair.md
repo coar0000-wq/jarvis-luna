@@ -2,7 +2,7 @@
 title: "Record b8491a079a · orthomol-Beauty---Womens-Beauty-Supplement-For-Hair-Skin--Nail-Health-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.495257+00:00
+updated_at: 2026-10-02T17:39:36.063226+00:00
 tags: [record, real-data]
 ---
 

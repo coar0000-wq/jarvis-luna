@@ -2,7 +2,7 @@
 title: "Record a1a0f93a0a · Mariska-Hargitays-2026-Emmys-Hair-Was-a-Subtle-Trib"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.591140+00:00
+updated_at: 2026-10-02T17:39:36.146780+00:00
 tags: [record, real-data]
 ---
 

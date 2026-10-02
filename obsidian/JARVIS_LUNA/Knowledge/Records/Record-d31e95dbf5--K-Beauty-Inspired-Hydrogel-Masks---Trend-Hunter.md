@@ -2,7 +2,7 @@
 title: "Record d31e95dbf5 · K-Beauty-Inspired-Hydrogel-Masks---Trend-Hunter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.663830+00:00
+updated_at: 2026-10-02T17:39:35.342613+00:00
 tags: [record, real-data]
 ---
 

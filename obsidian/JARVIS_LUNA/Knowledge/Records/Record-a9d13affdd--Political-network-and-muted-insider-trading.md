@@ -2,7 +2,7 @@
 title: "Record a9d13affdd · Political-network-and-muted-insider-trading"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.555977+00:00
+updated_at: 2026-10-02T17:39:34.376277+00:00
 tags: [record, real-data]
 ---
 

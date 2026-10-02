@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-02T10:21:30.714368+00:00",
+  "collected_at": "2026-10-02T17:25:14.844902+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,28 +44,28 @@
   ],
   "hot_keywords": [
     {
+      "keyword": "skincare",
+      "score": 8
+    },
+    {
       "keyword": "k-beauty",
       "score": 6
     },
     {
-      "keyword": "skincare",
+      "keyword": "sunscreens",
       "score": 6
-    },
-    {
-      "keyword": "2026",
-      "score": 4
-    },
-    {
-      "keyword": "skin",
-      "score": 4
     },
     {
       "keyword": "korean",
       "score": 4
     },
     {
-      "keyword": "sunscreen",
-      "score": 4
+      "keyword": "october",
+      "score": 3
+    },
+    {
+      "keyword": "2026",
+      "score": 3
     },
     {
       "keyword": "product",
@@ -76,19 +76,11 @@
       "score": 3
     },
     {
-      "keyword": "products",
-      "score": 3
-    },
-    {
-      "keyword": "september",
-      "score": 2
-    },
-    {
       "keyword": "thursday",
       "score": 2
     },
     {
-      "keyword": "october",
+      "keyword": "balm",
       "score": 2
     },
     {
@@ -100,7 +92,7 @@
       "score": 2
     },
     {
-      "keyword": "sunscreens",
+      "keyword": "skin",
       "score": 2
     },
     {
@@ -108,11 +100,11 @@
       "score": 2
     },
     {
-      "keyword": "anything",
+      "keyword": "sunscreen",
       "score": 2
     },
     {
-      "keyword": "goes",
+      "keyword": "products",
       "score": 2
     },
     {
@@ -144,6 +136,42 @@
       "score": 1
     },
     {
+      "keyword": "hince",
+      "score": 1
+    },
+    {
+      "keyword": "radiance",
+      "score": 1
+    },
+    {
+      "keyword": "clear",
+      "score": 1
+    },
+    {
+      "keyword": "tinted",
+      "score": 1
+    },
+    {
+      "keyword": "shades",
+      "score": 1
+    },
+    {
+      "keyword": "highlighter",
+      "score": 1
+    },
+    {
+      "keyword": "actually",
+      "score": 1
+    },
+    {
+      "keyword": "worth",
+      "score": 1
+    },
+    {
+      "keyword": "buying",
+      "score": 1
+    },
+    {
       "keyword": "western",
       "score": 1
     },
@@ -164,77 +192,49 @@
       "score": 1
     },
     {
-      "keyword": "love",
+      "keyword": "looking",
       "score": 1
     },
     {
-      "keyword": "paying",
+      "keyword": "similar",
       "score": 1
     },
     {
-      "keyword": "full-price",
-      "score": 1
-    },
-    {
-      "keyword": "review",
-      "score": 1
-    },
-    {
-      "keyword": "oily",
-      "score": 1
-    },
-    {
-      "keyword": "unleshia",
-      "score": 1
-    },
-    {
-      "keyword": "romand",
-      "score": 1
-    },
-    {
-      "keyword": "highlight",
-      "score": 1
-    },
-    {
-      "keyword": "palletes",
-      "score": 1
-    },
-    {
-      "keyword": "gua",
+      "keyword": "blush",
       "score": 1
     }
   ],
   "beauty_keywords": [
     {
+      "keyword": "skincare",
+      "score": 8
+    },
+    {
       "keyword": "k-beauty",
       "score": 6
     },
     {
-      "keyword": "skincare",
+      "keyword": "sunscreens",
       "score": 6
-    },
-    {
-      "keyword": "skin",
-      "score": 4
     },
     {
       "keyword": "korean",
       "score": 4
     },
     {
-      "keyword": "sunscreen",
-      "score": 4
+      "keyword": "skin",
+      "score": 2
     },
     {
-      "keyword": "sunscreens",
+      "keyword": "sunscreen",
       "score": 2
     }
   ],
   "posts": [
     {
-      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: September 30, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wu7g4g/have_a_question_ask_here_alterdaily_help_and/",
-      "published": "2026-09-30T15:09:06+00:00",
+      "title": "HAVE A QUESTION? ASK HERE! Alter-Daily Help and Questions: October 02, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvw9mw/have_a_question_ask_here_alterdaily_help_and/",
+      "published": "2026-10-02T15:09:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -246,6 +246,13 @@
       "feed": "hot"
     },
     {
+      "title": "Hince Radiance Balm, clear vs tinted shades - is a balm highlighter actually worth buying?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvxu8j/hince_radiance_balm_clear_vs_tinted_shades_is_a/",
+      "published": "2026-10-02T16:10:39+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What’s ONE Western product you replaced with a K-beauty/J-beauty alternative and will NEVER go back to?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvel4w/whats_one_western_product_you_replaced_with_a/",
       "published": "2026-10-01T23:30:13+00:00",
@@ -253,9 +260,37 @@
       "feed": "hot"
     },
     {
+      "title": "Looking for similar blush and lip",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvrt64/looking_for_similar_blush_and_lip/",
+      "published": "2026-10-02T11:53:19+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "I love it...but I'm not paying full-price.",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvk2pc/i_love_itbut_im_not_paying_fullprice/",
       "published": "2026-10-02T04:02:02+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "My current skincare inventory + an unreasonable number of sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvyic0/my_current_skincare_inventory_an_unreasonable/",
+      "published": "2026-10-02T16:37:24+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Experience with Wardah sunscreens? (Indonesian)",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvtckq/experience_with_wardah_sunscreens_indonesian/",
+      "published": "2026-10-02T13:07:11+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Monthly Silicone Hydrogel Coloured Contact Lenses",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvu58q/monthly_silicone_hydrogel_coloured_contact_lenses/",
+      "published": "2026-10-02T13:42:00+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -288,9 +323,9 @@
       "feed": "hot"
     },
     {
-      "title": "K-beauty or J-beauty eyeshadow palette recommendations for Spring season tones?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv51nw/kbeauty_or_jbeauty_eyeshadow_palette/",
-      "published": "2026-10-01T17:06:19+00:00",
+      "title": "Mont Muzui Duo Treatment",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv4ad7/mont_muzui_duo_treatment/",
+      "published": "2026-10-01T16:37:46+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -302,9 +337,9 @@
       "feed": "hot"
     },
     {
-      "title": "Mont Muzui Duo Treatment",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv4ad7/mont_muzui_duo_treatment/",
-      "published": "2026-10-01T16:37:46+00:00",
+      "title": "K-beauty or J-beauty eyeshadow palette recommendations for Spring season tones?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv51nw/kbeauty_or_jbeauty_eyeshadow_palette/",
+      "published": "2026-10-01T17:06:19+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -368,41 +403,6 @@
       "title": "k-beauty websites that offer Refrigerated shipping?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv30zt/kbeauty_websites_that_offer_refrigerated_shipping/",
       "published": "2026-10-01T15:50:22+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Where to find this Green Finger Sunscreen stick?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuonrl/where_to_find_this_green_finger_sunscreen_stick/",
-      "published": "2026-10-01T03:10:51+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "hince radiance balm swatches of 4 shades in daylight on light medium skin tone",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtu26w/hince_radiance_balm_swatches_of_4_shades_in/",
-      "published": "2026-09-30T03:06:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Momo Puri in my life so far",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtwfi8/momo_puri_in_my_life_so_far/",
-      "published": "2026-09-30T05:14:48+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Wednesday: September 30, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wug5pt/anything_goes_wednesday_september_30_2026/",
-      "published": "2026-09-30T20:39:14+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Hair products that smell like herbs",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtyj7j/hair_products_that_smell_like_herbs/",
-      "published": "2026-09-30T07:25:01+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

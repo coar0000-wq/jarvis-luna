@@ -2,7 +2,7 @@
 title: "Record 4b6b27de25 · Attitudes-Toward-Suicide-Are-Associated-With-Lifetime-History-of-Depre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.868425+00:00
+updated_at: 2026-10-02T17:39:34.659798+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1550d93d3e · Rice-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.342973+00:00
+updated_at: 2026-10-02T17:39:35.933297+00:00
 tags: [record, real-data]
 ---
 

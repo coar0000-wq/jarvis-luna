@@ -2,7 +2,7 @@
 title: "Record 1ab707c441 · numbuzin-No5-Glutathione-Vitamin-Concentrated-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.414217+00:00
+updated_at: 2026-10-02T17:39:35.993811+00:00
 tags: [record, real-data]
 ---
 

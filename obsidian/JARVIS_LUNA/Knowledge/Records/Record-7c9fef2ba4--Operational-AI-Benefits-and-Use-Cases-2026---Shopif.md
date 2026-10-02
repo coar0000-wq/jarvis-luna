@@ -2,7 +2,7 @@
 title: "Record 7c9fef2ba4 · Operational-AI-Benefits-and-Use-Cases-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.655383+00:00
+updated_at: 2026-10-02T17:39:35.335040+00:00
 tags: [record, real-data]
 ---
 

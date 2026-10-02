@@ -2,7 +2,7 @@
 title: "Record f8914d8a43 · DOVE-MEN--CARE-Antibacterial-Face--Body-Wash-Apple-Musk-30-oz--Antibac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.714240+00:00
+updated_at: 2026-10-02T17:39:36.243839+00:00
 tags: [record, real-data]
 ---
 

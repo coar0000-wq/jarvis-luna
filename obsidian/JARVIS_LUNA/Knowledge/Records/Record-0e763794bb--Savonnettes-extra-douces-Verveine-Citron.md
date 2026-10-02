@@ -2,7 +2,7 @@
 title: "Record 0e763794bb · Savonnettes-extra-douces-Verveine-Citron"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.524714+00:00
+updated_at: 2026-10-02T17:39:36.089283+00:00
 tags: [record, real-data]
 ---
 

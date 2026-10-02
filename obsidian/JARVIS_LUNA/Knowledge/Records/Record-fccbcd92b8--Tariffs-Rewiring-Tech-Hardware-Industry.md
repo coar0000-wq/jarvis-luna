@@ -2,7 +2,7 @@
 title: "Record fccbcd92b8 · Tariffs-Rewiring-Tech-Hardware-Industry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.303619+00:00
+updated_at: 2026-10-02T17:39:36.727110+00:00
 tags: [record, real-data]
 ---
 

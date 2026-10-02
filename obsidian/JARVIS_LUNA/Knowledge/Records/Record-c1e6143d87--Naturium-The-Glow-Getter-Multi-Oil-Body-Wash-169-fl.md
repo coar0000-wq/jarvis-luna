@@ -2,7 +2,7 @@
 title: "Record c1e6143d87 · Naturium-The-Glow-Getter-Multi-Oil-Body-Wash-169-fl-oz--Nourishing-Gen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.753585+00:00
+updated_at: 2026-10-02T17:39:36.275147+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cf69f87c3b · Hatékony-treasury-management-riporting-nagyvállalati-szinten"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.805391+00:00
+updated_at: 2026-10-02T17:39:34.599764+00:00
 tags: [record, real-data]
 ---
 

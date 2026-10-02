@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-10-02T10:19:15.600313+00:00",
+  "generated_at": "2026-10-02T17:23:12.602274+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -94,7 +94,7 @@
         "source": "IQDtl0Dacjo 5분 Optimize Shopify Product Pages for SEO and AI Search",
         "check": null,
         "status": "보완 필요",
-        "evidence": "data/design/offline_pack.json seo 4/8 통과"
+        "evidence": "data/design/offline_pack.json seo 4/9 통과"
       },
       {
         "id": "publish",
@@ -185,6 +185,14 @@
       "policy_version": 1
     },
     "items": [
+      {
+        "title": "Schedule and test discounts with Rollouts",
+        "url": "https://changelog.shopify.com/posts/schedule-and-test-discounts-with-rollouts",
+        "date": "2026-10-02",
+        "summary": "You can now include discounts in Rollouts to run coordinated campaigns and test different offers before launching more broadly. Schedule discount changes : Launch a new offer to a portion of online store traffic, then expand when you're ready. Compare offers: Test discount changes against your exist",
+        "feed": "Shopify Changelog",
+        "relevance": 0
+      },
       {
         "title": "Design a fully bespoke store with Canvas",
         "url": "https://changelog.shopify.com/posts/design-a-fully-bespoke-store-with-canvas",
@@ -296,14 +304,6 @@
         "summary": "Starting September 21, 2026, Shopify is improving the sessions experience in Analytics to give merchants a cleaner view of real shopper activity. As a result, sessions, conversion rate, and other session-based metrics might look different after this update. This doesn't necessarily mean that your tr",
         "feed": "Shopify Changelog",
         "relevance": 2
-      },
-      {
-        "title": "Payouts page redesign: see all your payouts in one view",
-        "url": "https://changelog.shopify.com/posts/payouts-page-redesign-see-all-your-payouts-in-one-view",
-        "date": "2026-09-16",
-        "summary": "Your payouts now appear in a list on the left with the selected payout's details beside it, so you can move between payouts without leaving the page or losing your place. What's new: * A date-led view of paid and pending payouts, so you can see at a glance what you've been paid and what's on the way",
-        "feed": "Shopify Changelog",
-        "relevance": 0
       },
       {
         "title": "More control over commerce updates with Next Gen Events",

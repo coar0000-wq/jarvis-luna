@@ -2,7 +2,7 @@
 title: "Record b1af599257 · This-Is-Exactly-How-a-Product-Becomes-an-Allure-Best-of-Beauty-Winner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.584903+00:00
+updated_at: 2026-10-02T17:39:36.141201+00:00
 tags: [record, real-data]
 ---
 

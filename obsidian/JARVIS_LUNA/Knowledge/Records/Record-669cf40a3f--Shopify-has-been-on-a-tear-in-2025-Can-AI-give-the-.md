@@ -2,7 +2,7 @@
 title: "Record 669cf40a3f · Shopify-has-been-on-a-tear-in-2025-Can-AI-give-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.104927+00:00
+updated_at: 2026-10-02T17:39:35.729322+00:00
 tags: [record, real-data]
 ---
 

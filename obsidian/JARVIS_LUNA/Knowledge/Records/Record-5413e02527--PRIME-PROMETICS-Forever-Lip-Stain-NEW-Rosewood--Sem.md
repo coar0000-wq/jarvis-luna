@@ -2,7 +2,7 @@
 title: "Record 5413e02527 · PRIME-PROMETICS-Forever-Lip-Stain-NEW-Rosewood--Semi-Permanent-Lip-Tin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:25.922598+00:00
+updated_at: 2026-10-02T17:39:36.406259+00:00
 tags: [record, real-data]
 ---
 

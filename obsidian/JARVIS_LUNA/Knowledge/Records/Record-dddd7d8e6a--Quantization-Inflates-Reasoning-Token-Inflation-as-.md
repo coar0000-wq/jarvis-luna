@@ -2,7 +2,7 @@
 title: "Record dddd7d8e6a · Quantization-Inflates-Reasoning-Token-Inflation-as-a-Hidden-Cost-of-Lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.971112+00:00
+updated_at: 2026-10-02T17:39:34.754048+00:00
 tags: [record, real-data]
 ---
 

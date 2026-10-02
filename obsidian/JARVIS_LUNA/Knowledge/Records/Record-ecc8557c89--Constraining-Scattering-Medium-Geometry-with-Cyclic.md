@@ -2,7 +2,7 @@
 title: "Record ecc8557c89 · Constraining-Scattering-Medium-Geometry-with-Cyclic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:23.913618+00:00
+updated_at: 2026-10-02T17:39:34.699582+00:00
 tags: [record, real-data]
 ---
 

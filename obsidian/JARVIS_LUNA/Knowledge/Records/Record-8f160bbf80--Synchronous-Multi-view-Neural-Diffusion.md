@@ -2,7 +2,7 @@
 title: "Record 8f160bbf80 · Synchronous-Multi-view-Neural-Diffusion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.300901+00:00
+updated_at: 2026-10-02T17:39:35.025593+00:00
 tags: [record, real-data]
 ---
 

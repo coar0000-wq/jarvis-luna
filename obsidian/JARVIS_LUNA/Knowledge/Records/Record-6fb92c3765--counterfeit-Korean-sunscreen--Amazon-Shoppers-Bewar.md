@@ -2,7 +2,7 @@
 title: "Record 6fb92c3765 · counterfeit-Korean-sunscreen--Amazon-Shoppers-Beware-of-Fake-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.663446+00:00
+updated_at: 2026-10-02T17:39:35.342262+00:00
 tags: [record, real-data]
 ---
 

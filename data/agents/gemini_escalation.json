@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T10:30:26.938523+00:00",
+  "generated_at": "2026-10-02T17:39:41.584588+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -12,44 +12,14 @@
   "paid_api_called": false,
   "canonical_gate_changed": false,
   "external_action_executed": false,
-  "call_count": 1,
-  "called": true,
+  "call_count": 0,
+  "called": false,
   "reasons": [
-    "repeated_unresolved_auto_issues=1"
+    "repeated_unresolved_auto_issues=2"
   ],
-  "advice": {
-    "risk": "medium",
-    "diagnosis": "다이소 수집 채널 장기 미발행 및 아마존 뷰티 채널 데이터 누락 발생",
-    "next_safe_checks": [
-      "다이소 실상품 수집 결과 및 로그 확인",
-      "아마존 뷰티 수집기 상태 점검",
-      "관리자 수동 JSON 갱신 상태 확인"
-    ],
-    "requires_human": true,
-    "evidence_gaps": [
-      "다이소 수집 지연 원인 로그",
-      "아마존 뷰티 채널 빈 상태 원인 분석 자료"
-    ],
-    "forbidden_actions": [
-      "external publish",
-      "payment",
-      "advertising",
-      "canonical gate override"
-    ]
-  },
-  "usage": {
-    "promptTokenCount": 886,
-    "candidatesTokenCount": 187,
-    "totalTokenCount": 1073,
-    "promptTokensDetails": [
-      {
-        "modality": "TEXT",
-        "tokenCount": 886
-      }
-    ],
-    "serviceTier": "standard"
-  },
-  "error": "",
+  "advice": null,
+  "usage": null,
+  "error": "http_503",
   "policy_schema_version": 1,
-  "status": "advisory_ready"
+  "status": "provider_stopped"
 }

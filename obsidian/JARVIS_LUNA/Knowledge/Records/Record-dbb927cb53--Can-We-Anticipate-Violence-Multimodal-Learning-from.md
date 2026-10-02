@@ -2,7 +2,7 @@
 title: "Record dbb927cb53 · Can-We-Anticipate-Violence-Multimodal-Learning-from-Pre-Incident-Behav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.313569+00:00
+updated_at: 2026-10-02T17:39:35.038305+00:00
 tags: [record, real-data]
 ---
 

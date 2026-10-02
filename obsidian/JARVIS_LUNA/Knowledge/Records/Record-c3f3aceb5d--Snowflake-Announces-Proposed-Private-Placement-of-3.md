@@ -2,7 +2,7 @@
 title: "Record c3f3aceb5d · Snowflake-Announces-Proposed-Private-Placement-of-35-Billion-of-000-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:24.501888+00:00
+updated_at: 2026-10-02T17:39:35.200537+00:00
 tags: [record, real-data]
 ---
 

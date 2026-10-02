@@ -2,7 +2,7 @@
 title: "Record e25342f358 · Do-It-All-Hydrating-Sheer-Tinted-Moisturizer-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T12:38:26.400900+00:00
+updated_at: 2026-10-02T17:39:36.809320+00:00
 tags: [record, real-data]
 ---
 
