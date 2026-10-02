@@ -1,0 +1,22 @@
+---
+title: "Record 93701acacf · 6-Best-Lip-Masks-2026-to-Soothe-Dry-Chapped-Lips-Overnight"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-02T04:05:57.924190+00:00
+tags: [record, real-data]
+---
+
+# Record 93701acacf · 6-Best-Lip-Masks-2026-to-Soothe-Dry-Chapped-Lips-Overnight
+
+> 실제 수집 레코드입니다. 원문: [www.allure.com](https://www.allure.com/gallery/best-lip-mask)
+
+**제목:** 6 Best Lip Masks 2026 to Soothe Dry, Chapped Lips Overnight
+
+6 Best Lip Masks 2026 to Soothe Dry, Chapped Lips Overnight
+6 Best Lip Masks 2026 to Soothe Dry, Chapped Lips Overnight
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

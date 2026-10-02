@@ -2,7 +2,7 @@
 title: "Record c4903d7d20 · 2026-Upgraded-Cordless-Straightening-Brush-Go-Brush-Pro-Hair-Straighte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.686525+00:00
+updated_at: 2026-10-02T04:05:58.348225+00:00
 tags: [record, real-data]
 ---
 

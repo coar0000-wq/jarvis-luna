@@ -2,7 +2,7 @@
 title: "Record 7540d37322 · Nivea-Creme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.289408+00:00
+updated_at: 2026-10-02T04:05:57.911659+00:00
 tags: [record, real-data]
 ---
 

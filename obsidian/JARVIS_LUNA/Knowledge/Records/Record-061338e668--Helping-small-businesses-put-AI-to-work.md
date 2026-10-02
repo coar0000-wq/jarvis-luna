@@ -2,7 +2,7 @@
 title: "Record 061338e668 · Helping-small-businesses-put-AI-to-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.012280+00:00
+updated_at: 2026-10-02T04:05:57.642625+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c68549b22e · LAGOM-Cellup-Micro-Foam-Cleanser-405-fl-oz120ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.219745+00:00
+updated_at: 2026-10-02T04:05:57.845324+00:00
 tags: [record, real-data]
 ---
 

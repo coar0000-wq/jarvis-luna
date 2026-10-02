@@ -2,7 +2,7 @@
 title: "Record 41207b02c4 · How-to-scale-agentic-applications-without-creating-AI-sprawl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.804881+00:00
+updated_at: 2026-10-02T04:05:58.485032+00:00
 tags: [record, real-data]
 ---
 

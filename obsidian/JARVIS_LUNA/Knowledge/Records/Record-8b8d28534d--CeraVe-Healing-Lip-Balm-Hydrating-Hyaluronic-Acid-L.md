@@ -2,7 +2,7 @@
 title: "Record 8b8d28534d · CeraVe-Healing-Lip-Balm-Hydrating-Hyaluronic-Acid-Lip-Treatment-07oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.444739+00:00
+updated_at: 2026-10-02T04:05:58.041158+00:00
 tags: [record, real-data]
 ---
 

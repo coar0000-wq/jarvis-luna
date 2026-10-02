@@ -2,7 +2,7 @@
 title: "Record 14b346d0ba · Distilling-Safe-LLM-Systems-via-Soft-Prompts-for-On-Device-Settings"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.845192+00:00
+updated_at: 2026-10-02T04:05:56.459597+00:00
 tags: [record, real-data]
 ---
 

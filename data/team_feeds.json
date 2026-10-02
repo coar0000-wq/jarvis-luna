@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-01T22:20:58.381100+00:00",
+  "generated_at": "2026-10-02T03:51:39.707346+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
   "pool_size": 3113,
   "제목없어_버림": 38,
-  "unrouted": 8,
+  "unrouted": 9,
   "summary": {
     "sourcing": {
       "total": 368,
@@ -15,10 +15,10 @@
       "products": 356
     },
     "market": {
-      "total": 921,
-      "recent": 104,
-      "material": 921,
-      "material_recent": 104,
+      "total": 924,
+      "recent": 101,
+      "material": 924,
+      "material_recent": 101,
       "products": 0
     },
     "listing": {
@@ -36,16 +36,16 @@
       "products": 0
     },
     "legal": {
-      "total": 225,
-      "recent": 49,
-      "material": 225,
-      "material_recent": 49,
+      "total": 226,
+      "recent": 48,
+      "material": 226,
+      "material_recent": 48,
       "products": 0
     },
     "design": {
-      "total": 454,
+      "total": 457,
       "recent": 137,
-      "material": 454,
+      "material": 457,
       "material_recent": 137,
       "products": 0
     },
@@ -58,16 +58,16 @@
     },
     "knowledge": {
       "total": 297,
-      "recent": 104,
+      "recent": 103,
       "material": 297,
-      "material_recent": 104,
+      "material_recent": 103,
       "products": 0
     },
     "institutions": {
       "total": 1162,
-      "recent": 260,
+      "recent": 256,
       "material": 1162,
-      "material_recent": 260,
+      "material_recent": 256,
       "products": 0
     },
     "channels": {
@@ -1441,14 +1441,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Supercharge Claude with Design Skills",
+        "title": "What Are Claude Design Skills and How to Use Them",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -2783,14 +2783,14 @@
         "by_hand": true
       },
       {
-        "title": "How to Supercharge Claude with Design Skills",
+        "title": "What Are Claude Design Skills and How to Use Them",
         "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
       },
       {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
+        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Shopify Sales",
         "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
         "pool": "youtube_channel",
         "date": "",
@@ -3716,7 +3716,7 @@
         "by_hand": true
       },
       {
-        "title": "10 Years of NVIDIA DGX: From One System to AI Factories",
+        "title": "Decade of NVIDIA DGX: From A Single System to AI Factories",
         "url": "https://www.youtube.com/watch?v=xAgq8ByWK0M",
         "pool": "youtube_channel",
         "date": "",

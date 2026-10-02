@@ -2,7 +2,7 @@
 title: "Record 9042c76a6b · J-beauty-pushes-overseas-as-Curél-and-Ci-Flavors-scale-globally---Pers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.616489+00:00
+updated_at: 2026-10-02T04:05:57.251230+00:00
 tags: [record, real-data]
 ---
 

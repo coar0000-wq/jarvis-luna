@@ -2,7 +2,7 @@
 title: "Record 154501b6ff · A2SGAdaptive-and-Asymmetric-Surrogate-Gradients-for-Training-Deep-Spik"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.846408+00:00
+updated_at: 2026-10-02T04:05:56.460809+00:00
 tags: [record, real-data]
 ---
 

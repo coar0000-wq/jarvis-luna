@@ -2,7 +2,7 @@
 title: "Record 50a1ee3dcf · AsmEvo-Agentic-Assembly-Level-Optimization-of-AMD-GPU-Kernels-with-Fun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.876403+00:00
+updated_at: 2026-10-02T04:05:56.490833+00:00
 tags: [record, real-data]
 ---
 

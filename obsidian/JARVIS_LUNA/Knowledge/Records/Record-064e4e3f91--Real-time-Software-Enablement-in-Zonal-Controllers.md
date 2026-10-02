@@ -2,7 +2,7 @@
 title: "Record 064e4e3f91 · Real-time-Software-Enablement-in-Zonal-Controllers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.372254+00:00
+updated_at: 2026-10-02T04:05:56.038218+00:00
 tags: [record, real-data]
 ---
 

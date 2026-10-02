@@ -2,7 +2,7 @@
 title: "Record ca1059ca16 · Perspectives-on-the-Evolution-of-Multi-Asset-Portfolio-Management-Less"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.791690+00:00
+updated_at: 2026-10-02T04:05:56.413132+00:00
 tags: [record, real-data]
 ---
 

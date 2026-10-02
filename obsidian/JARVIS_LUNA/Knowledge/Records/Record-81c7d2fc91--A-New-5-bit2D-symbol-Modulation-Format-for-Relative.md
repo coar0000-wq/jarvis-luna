@@ -2,7 +2,7 @@
 title: "Record 81c7d2fc91 · A-New-5-bit2D-symbol-Modulation-Format-for-Relative-Intensity-Noise-do"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.818052+00:00
+updated_at: 2026-10-02T04:05:56.438695+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record acb2b43a34 · All-About-Clean-Liquid-Facial-Soap-Cleanser---Mild"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.078596+00:00
+updated_at: 2026-10-02T04:05:58.716792+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d00be405c9 · Azelaic-Acid-10-Hyaluron-Redness-Soothing-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.079486+00:00
+updated_at: 2026-10-02T04:05:58.717553+00:00
 tags: [record, real-data]
 ---
 

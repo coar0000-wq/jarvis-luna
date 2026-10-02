@@ -2,7 +2,7 @@
 title: "Record b628bd56f6 · Directly-Probing-StackingEngineered-Defect-State-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.343004+00:00
+updated_at: 2026-10-02T04:05:56.017881+00:00
 tags: [record, real-data]
 ---
 

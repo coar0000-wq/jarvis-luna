@@ -2,7 +2,7 @@
 title: "Record 284f616754 · Shopify-revenue-GMV-each-grow-30-in-Q2-2026---Digit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.546559+00:00
+updated_at: 2026-10-02T04:05:57.176910+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:33:57.042409+00:00",
+  "generated_at": "2026-10-02T04:02:07.688874+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "time magazine trump interview",
-          "approx_traffic": "10000+",
-          "traffic_num": 10000,
-          "published": "Thu, 1 Oct 2026 14:50:00 -0700",
-          "source_name": "Time Magazine",
-          "url": "https://trends.google.com/trending?geo=US&q=time%20magazine%20trump%20interview"
+          "keyword": "andre szmyt",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Thu, 1 Oct 2026 20:30:00 -0700",
+          "source_name": "Reuters Connect",
+          "url": "https://trends.google.com/trending?geo=US&q=andre%20szmyt"
         },
         {
-          "keyword": "browns schedule",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 1 Oct 2026 15:00:00 -0700",
-          "source_name": "Cleveland Browns",
-          "url": "https://trends.google.com/trending?geo=US&q=browns%20schedule"
-        },
-        {
-          "keyword": "terremoto",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Thu, 1 Oct 2026 14:50:00 -0700",
-          "source_name": "Volcano Discovery",
-          "url": "https://trends.google.com/trending?geo=US&q=terremoto"
-        },
-        {
-          "keyword": "prince harry news",
+          "keyword": "afc north standings",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 1 Oct 2026 15:20:00 -0700",
-          "source_name": "NewsNation",
-          "url": "https://trends.google.com/trending?geo=US&q=prince%20harry%20news"
+          "published": "Thu, 1 Oct 2026 20:40:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=afc%20north%20standings"
         },
         {
-          "keyword": "lito sousa",
+          "keyword": "vladimir putin",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 1 Oct 2026 15:10:00 -0700",
-          "source_name": "G1",
-          "url": "https://trends.google.com/trending?geo=US&q=lito%20sousa"
+          "published": "Thu, 1 Oct 2026 20:30:00 -0700",
+          "source_name": "Reuters",
+          "url": "https://trends.google.com/trending?geo=US&q=vladimir%20putin"
         },
         {
-          "keyword": "sabres vs blue jackets",
+          "keyword": "fernando mendoza",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 1 Oct 2026 15:10:00 -0700",
-          "source_name": "NHL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=sabres%20vs%20blue%20jackets"
+          "published": "Thu, 1 Oct 2026 20:30:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=fernando%20mendoza"
         },
         {
-          "keyword": "flyers vs devils",
+          "keyword": "tom brady",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 1 Oct 2026 15:10:00 -0700",
-          "source_name": "NHL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=flyers%20vs%20devils"
+          "published": "Thu, 1 Oct 2026 20:20:00 -0700",
+          "source_name": "The Boston Globe",
+          "url": "https://trends.google.com/trending?geo=US&q=tom%20brady"
         },
         {
-          "keyword": "lightning vs rangers",
+          "keyword": "germie bernard",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Thu, 1 Oct 2026 15:10:00 -0700",
-          "source_name": "NHL.com",
-          "url": "https://trends.google.com/trending?geo=US&q=lightning%20vs%20rangers"
-        },
-        {
-          "keyword": "harold fannin jr",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Thu, 1 Oct 2026 15:00:00 -0700",
+          "published": "Thu, 1 Oct 2026 20:20:00 -0700",
           "source_name": "Yahoo Sports",
-          "url": "https://trends.google.com/trending?geo=US&q=harold%20fannin%20jr"
+          "url": "https://trends.google.com/trending?geo=US&q=germie%20bernard"
         },
         {
-          "keyword": "amazon kindle colorsoft",
+          "keyword": "grant delpit",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Thu, 1 Oct 2026 14:50:00 -0700",
-          "source_name": "About Amazon",
-          "url": "https://trends.google.com/trending?geo=US&q=amazon%20kindle%20colorsoft"
+          "published": "Thu, 1 Oct 2026 20:40:00 -0700",
+          "source_name": "Dawgs By Nature",
+          "url": "https://trends.google.com/trending?geo=US&q=grant%20delpit"
+        },
+        {
+          "keyword": "barkov",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 1 Oct 2026 20:40:00 -0700",
+          "source_name": "NHL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=barkov"
+        },
+        {
+          "keyword": "edmonton oilers",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 1 Oct 2026 20:40:00 -0700",
+          "source_name": "Sportsnet.ca",
+          "url": "https://trends.google.com/trending?geo=US&q=edmonton%20oilers"
+        },
+        {
+          "keyword": "tyson campbell",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Thu, 1 Oct 2026 20:20:00 -0700",
+          "source_name": "Cleveland Browns",
+          "url": "https://trends.google.com/trending?geo=US&q=tyson%20campbell"
         }
       ]
     },
@@ -96,87 +96,87 @@
       "status": "ok",
       "reason": "",
       "source": "wikimedia.org REST pageviews API (공식)",
-      "note": "2026-08-31 ~ 2026-09-29 일별 조회수. 후반 15일 대비 전반 15일 증감률",
+      "note": "2026-09-01 ~ 2026-09-30 일별 조회수. 후반 15일 대비 전반 15일 증감률",
       "errors": [],
       "items": [
         {
           "topic": "Niacinamide",
           "days": 30,
-          "total_views": 1881,
-          "avg_daily": 63,
-          "recent_avg": 83,
-          "prev_avg": 43,
-          "change_pct": 93.4,
+          "total_views": 2175,
+          "avg_daily": 72,
+          "recent_avg": 101,
+          "prev_avg": 44,
+          "change_pct": 131.6,
           "url": "https://en.wikipedia.org/wiki/Niacinamide"
         },
         {
           "topic": "K-beauty",
           "days": 30,
-          "total_views": 3783,
-          "avg_daily": 126,
-          "recent_avg": 134,
-          "prev_avg": 118,
-          "change_pct": 14.2,
+          "total_views": 3753,
+          "avg_daily": 125,
+          "recent_avg": 135,
+          "prev_avg": 115,
+          "change_pct": 16.8,
           "url": "https://en.wikipedia.org/wiki/K-beauty"
-        },
-        {
-          "topic": "Cosmetics",
-          "days": 30,
-          "total_views": 21633,
-          "avg_daily": 721,
-          "recent_avg": 758,
-          "prev_avg": 684,
-          "change_pct": 10.8,
-          "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Centella asiatica",
           "days": 30,
-          "total_views": 15186,
-          "avg_daily": 506,
-          "recent_avg": 529,
+          "total_views": 15464,
+          "avg_daily": 515,
+          "recent_avg": 547,
           "prev_avg": 484,
-          "change_pct": 9.2,
+          "change_pct": 12.9,
           "url": "https://en.wikipedia.org/wiki/Centella_asiatica"
+        },
+        {
+          "topic": "Cosmetics",
+          "days": 30,
+          "total_views": 21752,
+          "avg_daily": 725,
+          "recent_avg": 766,
+          "prev_avg": 684,
+          "change_pct": 12.1,
+          "url": "https://en.wikipedia.org/wiki/Cosmetics"
         },
         {
           "topic": "Hyaluronic acid",
           "days": 30,
-          "total_views": 18845,
-          "avg_daily": 628,
-          "recent_avg": 633,
-          "prev_avg": 624,
-          "change_pct": 1.5,
+          "total_views": 19140,
+          "avg_daily": 638,
+          "recent_avg": 656,
+          "prev_avg": 620,
+          "change_pct": 5.9,
           "url": "https://en.wikipedia.org/wiki/Hyaluronic_acid"
-        },
-        {
-          "topic": "Snail slime",
-          "days": 30,
-          "total_views": 2193,
-          "avg_daily": 73,
-          "recent_avg": 72,
-          "prev_avg": 74,
-          "change_pct": -1.7,
-          "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Retinol",
           "days": 30,
-          "total_views": 11793,
-          "avg_daily": 393,
-          "recent_avg": 389,
-          "prev_avg": 397,
-          "change_pct": -1.8,
+          "total_views": 11894,
+          "avg_daily": 396,
+          "recent_avg": 404,
+          "prev_avg": 389,
+          "change_pct": 3.7,
           "url": "https://en.wikipedia.org/wiki/Retinol"
+        },
+        {
+          "topic": "Snail slime",
+          "days": 30,
+          "total_views": 2165,
+          "avg_daily": 72,
+          "recent_avg": 73,
+          "prev_avg": 72,
+          "change_pct": 1.8,
+          "url": "https://en.wikipedia.org/wiki/Snail_slime"
         },
         {
           "topic": "Sunscreen",
           "days": 30,
-          "total_views": 14489,
-          "avg_daily": 483,
-          "recent_avg": 459,
-          "prev_avg": 507,
-          "change_pct": -9.4,
+          "total_views": 14421,
+          "avg_daily": 481,
+          "recent_avg": 456,
+          "prev_avg": 505,
+          "change_pct": -9.7,
           "url": "https://en.wikipedia.org/wiki/Sunscreen"
         }
       ]
@@ -187,6 +187,11 @@
       "source": "allure.com/feed/rss",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
+        {
+          "title": "How to Build a Dry Skin Routine",
+          "published": "Fri, 02 Oct 2026 00:15:00 +0000",
+          "url": "https://www.allure.com/story/dry-skin-care-routine"
+        },
         {
           "title": "6 Best Lip Masks 2026 to Soothe Dry, Chapped Lips Overnight",
           "published": "Thu, 01 Oct 2026 18:58:33 +0000",
@@ -331,11 +336,6 @@
           "title": "6 Best Clinical-Strength Deodorants for All-Day Freshness",
           "published": "Fri, 25 Sep 2026 19:02:39 +0000",
           "url": "https://www.allure.com/story/best-clinical-strength-deodorants"
-        },
-        {
-          "title": "14 Best Early Amazon Prime Day Mature Beauty Deals 2026",
-          "published": "Fri, 25 Sep 2026 18:32:13 +0000",
-          "url": "https://www.allure.com/story/best-early-amazon-prime-day-mature-beauty-deals"
         }
       ]
     },

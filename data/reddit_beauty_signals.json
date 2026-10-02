@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-01T22:21:36.182058+00:00",
+  "collected_at": "2026-10-02T03:52:18.807383+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -44,6 +44,10 @@
   ],
   "hot_keywords": [
     {
+      "keyword": "k-beauty",
+      "score": 6
+    },
+    {
       "keyword": "skincare",
       "score": 6
     },
@@ -64,8 +68,8 @@
       "score": 4
     },
     {
-      "keyword": "k-beauty",
-      "score": 4
+      "keyword": "product",
+      "score": 3
     },
     {
       "keyword": "new",
@@ -80,15 +84,19 @@
       "score": 2
     },
     {
-      "keyword": "product",
-      "score": 2
-    },
-    {
       "keyword": "thursday",
       "score": 2
     },
     {
       "keyword": "october",
+      "score": 2
+    },
+    {
+      "keyword": "one",
+      "score": 2
+    },
+    {
+      "keyword": "j-beauty",
       "score": 2
     },
     {
@@ -136,51 +144,31 @@
       "score": 1
     },
     {
+      "keyword": "western",
+      "score": 1
+    },
+    {
+      "keyword": "replaced",
+      "score": 1
+    },
+    {
+      "keyword": "alternative",
+      "score": 1
+    },
+    {
+      "keyword": "never",
+      "score": 1
+    },
+    {
+      "keyword": "back",
+      "score": 1
+    },
+    {
       "keyword": "review",
       "score": 1
     },
     {
       "keyword": "oily",
-      "score": 1
-    },
-    {
-      "keyword": "gua",
-      "score": 1
-    },
-    {
-      "keyword": "sha",
-      "score": 1
-    },
-    {
-      "keyword": "ordering",
-      "score": 1
-    },
-    {
-      "keyword": "japanese",
-      "score": 1
-    },
-    {
-      "keyword": "amazon",
-      "score": 1
-    },
-    {
-      "keyword": "import",
-      "score": 1
-    },
-    {
-      "keyword": "taxes",
-      "score": 1
-    },
-    {
-      "keyword": "orders",
-      "score": 1
-    },
-    {
-      "keyword": "europe",
-      "score": 1
-    },
-    {
-      "keyword": "annoying",
       "score": 1
     },
     {
@@ -200,11 +188,27 @@
       "score": 1
     },
     {
-      "keyword": "mont",
+      "keyword": "gua",
+      "score": 1
+    },
+    {
+      "keyword": "sha",
+      "score": 1
+    },
+    {
+      "keyword": "ordering",
+      "score": 1
+    },
+    {
+      "keyword": "japanese",
       "score": 1
     }
   ],
   "beauty_keywords": [
+    {
+      "keyword": "k-beauty",
+      "score": 6
+    },
     {
       "keyword": "skincare",
       "score": 6
@@ -219,10 +223,6 @@
     },
     {
       "keyword": "sunscreen",
-      "score": 4
-    },
-    {
-      "keyword": "k-beauty",
       "score": 4
     },
     {
@@ -246,9 +246,23 @@
       "feed": "hot"
     },
     {
+      "title": "What’s ONE Western product you replaced with a K-beauty/J-beauty alternative and will NEVER go back to?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvel4w/whats_one_western_product_you_replaced_with_a/",
+      "published": "2026-10-01T23:30:13+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "Review for sunscreens on oily skin",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv9xlj/review_for_sunscreens_on_oily_skin/",
       "published": "2026-10-01T20:10:37+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Unleshia Vs Romand Highlight Palletes",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv9pk1/unleshia_vs_romand_highlight_palletes/",
+      "published": "2026-10-01T20:01:52+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -267,16 +281,16 @@
       "feed": "hot"
     },
     {
-      "title": "import taxes on korean skincare orders in europe are so annoying",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wun1ra/import_taxes_on_korean_skincare_orders_in_europe/",
-      "published": "2026-10-01T01:49:17+00:00",
+      "title": "K-beauty or J-beauty eyeshadow palette recommendations for Spring season tones?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv51nw/kbeauty_or_jbeauty_eyeshadow_palette/",
+      "published": "2026-10-01T17:06:19+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
     {
-      "title": "Unleshia Vs Romand Highlight Palletes",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv9pk1/unleshia_vs_romand_highlight_palletes/",
-      "published": "2026-10-01T20:01:52+00:00",
+      "title": "import taxes on korean skincare orders in europe are so annoying",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wun1ra/import_taxes_on_korean_skincare_orders_in_europe/",
+      "published": "2026-10-01T01:49:17+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -295,16 +309,9 @@
       "feed": "hot"
     },
     {
-      "title": "Decanting sunscreen?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvbafb/decanting_sunscreen/",
-      "published": "2026-10-01T21:05:19+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "K-beauty or J-beauty eyeshadow palette recommendations for Spring season tones?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv51nw/kbeauty_or_jbeauty_eyeshadow_palette/",
-      "published": "2026-10-01T17:06:19+00:00",
+      "title": "too cool for school no longer on yesstyle?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv5bky/too_cool_for_school_no_longer_on_yesstyle/",
+      "published": "2026-10-01T17:16:43+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -316,9 +323,9 @@
       "feed": "hot"
     },
     {
-      "title": "too cool for school no longer on yesstyle?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv5bky/too_cool_for_school_no_longer_on_yesstyle/",
-      "published": "2026-10-01T17:16:43+00:00",
+      "title": "Mamonde Creamy Tint colorbalm coming backkk!",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wul1am/mamonde_creamy_tint_colorbalm_coming_backkk/",
+      "published": "2026-10-01T00:11:16+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -333,6 +340,13 @@
       "title": "Self-Promo Code Thread",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wutvh6/selfpromo_code_thread/",
       "published": "2026-10-01T08:19:04+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Decanting sunscreen?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvbafb/decanting_sunscreen/",
+      "published": "2026-10-01T21:05:19+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -379,13 +393,6 @@
       "feed": "hot"
     },
     {
-      "title": "Mamonde Creamy Tint colorbalm coming backkk!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtzqli/mamonde_creamy_tint_colorbalm_coming_backkk/",
-      "published": "2026-09-30T08:44:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
       "title": "Hair products that smell like herbs",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtyj7j/hair_products_that_smell_like_herbs/",
       "published": "2026-09-30T07:25:01+00:00",
@@ -396,13 +403,6 @@
       "title": "Experience With Stylevanna Refund For Non-Deliverd Order",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtxqpy/experience_with_stylevanna_refund_for_nondeliverd/",
       "published": "2026-09-30T06:35:18+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Beige blush / \"anti-blush\" comparison",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wtbcwj/beige_blush_antiblush_comparison/",
-      "published": "2026-09-29T14:17:59+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

@@ -2,7 +2,7 @@
 title: "Record 7f24980991 · Toleriane-Double-Repair-Face-Moisturizer-UV-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.122362+00:00
+updated_at: 2026-10-02T04:05:58.760539+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Toleriane Double Repair Face Moisturizer UV SPF 30
 
 Toleriane Double Repair Face Moisturizer UV SPF 30
-Toleriane Double Repair Face Moisturizer UV SPF 30 · La Roche-Posay · $28.99
+Toleriane Double Repair Face Moisturizer UV SPF 30 · La Roche-Posay · $21.74
 
 **출처:** Source · us_beauty
 

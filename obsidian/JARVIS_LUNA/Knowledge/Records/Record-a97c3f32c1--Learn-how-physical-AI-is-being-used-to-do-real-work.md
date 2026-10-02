@@ -2,7 +2,7 @@
 title: "Record a97c3f32c1 · Learn-how-physical-AI-is-being-used-to-do-real-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.038690+00:00
+updated_at: 2026-10-02T04:05:58.683407+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1e02aee128 · WLCG-Mini-Capability-Challenge-Host-Tuning-to-Im--prove-WAN-Data-Trans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.135594+00:00
+updated_at: 2026-10-02T04:05:56.746593+00:00
 tags: [record, real-data]
 ---
 

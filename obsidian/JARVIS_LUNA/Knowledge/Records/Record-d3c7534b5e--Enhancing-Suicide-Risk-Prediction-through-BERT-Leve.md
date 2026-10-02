@@ -2,7 +2,7 @@
 title: "Record d3c7534b5e · Enhancing-Suicide-Risk-Prediction-through-BERT-Leveraging-Textual-Biom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.239493+00:00
+updated_at: 2026-10-02T04:05:56.860924+00:00
 tags: [record, real-data]
 ---
 

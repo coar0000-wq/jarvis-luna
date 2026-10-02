@@ -2,7 +2,7 @@
 title: "Record c6317b7a1b · 비누-클렌저-진짜-잘-지워질까-브러시퍼프-세척-비교"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.181938+00:00
+updated_at: 2026-10-02T04:05:58.816622+00:00
 tags: [record, real-data]
 ---
 

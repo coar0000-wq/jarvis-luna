@@ -2,7 +2,7 @@
 title: "Record bd95428567 · Japanese-Haircare-Is-Having-Its-K-Beauty-Moment-and-Here-Is-Where-to-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.532891+00:00
+updated_at: 2026-10-02T04:05:57.167663+00:00
 tags: [record, real-data]
 ---
 

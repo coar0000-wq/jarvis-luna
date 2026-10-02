@@ -2,7 +2,7 @@
 title: "Record 7344d06892 · FİNANS-VE-EMPERYALİZM-OSMANLI-COĞRAFYASINDA-ALMAN-BANKALARI-1897-1914"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.702746+00:00
+updated_at: 2026-10-02T04:05:56.354177+00:00
 tags: [record, real-data]
 ---
 

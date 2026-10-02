@@ -2,7 +2,7 @@
 title: "Record ee5a8d1707 · Self-Dissolving-Microneedle-Patches"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.118148+00:00
+updated_at: 2026-10-02T04:05:58.755634+00:00
 tags: [record, real-data]
 ---
 

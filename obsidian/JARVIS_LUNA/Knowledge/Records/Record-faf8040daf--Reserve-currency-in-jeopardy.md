@@ -2,7 +2,7 @@
 title: "Record faf8040daf · Reserve-currency-in-jeopardy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.482886+00:00
+updated_at: 2026-10-02T04:05:56.146410+00:00
 tags: [record, real-data]
 ---
 

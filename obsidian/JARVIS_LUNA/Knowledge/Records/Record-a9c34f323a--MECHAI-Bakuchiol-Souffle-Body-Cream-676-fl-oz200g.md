@@ -2,7 +2,7 @@
 title: "Record a9c34f323a · MECHAI-Bakuchiol-Souffle-Body-Cream-676-fl-oz200g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.168416+00:00
+updated_at: 2026-10-02T04:05:57.789253+00:00
 tags: [record, real-data]
 ---
 

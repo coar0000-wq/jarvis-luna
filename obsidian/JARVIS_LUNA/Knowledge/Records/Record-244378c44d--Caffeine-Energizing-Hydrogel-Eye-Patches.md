@@ -2,7 +2,7 @@
 title: "Record 244378c44d · Caffeine-Energizing-Hydrogel-Eye-Patches"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.083003+00:00
+updated_at: 2026-10-02T04:05:58.721064+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Caffeine Energizing Hydrogel Eye Patches
 
 Caffeine Energizing Hydrogel Eye Patches
-Caffeine Energizing Hydrogel Eye Patches · Good Molecules · $18
+Caffeine Energizing Hydrogel Eye Patches · Good Molecules · $14.4
 
 **출처:** Source · us_beauty
 
