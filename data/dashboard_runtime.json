@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T02:52:05.031669+09:00",
+  "generated_at": "2026-10-03T04:51:19.083087+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-10-02T10:28:20.574565+00:00",
-      "summary": "356개 상품 · 등급 S 10 / A 82 / B 51 / C 213 · 새 자료 9건 · 영상 학습 5개",
-      "action": "다이소 수집이 3.7일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+      "when": "2026-10-02T17:35:19.856265+00:00",
+      "summary": "356개 상품 · 등급 S 10 / A 80 / B 50 / C 216 · 새 자료 9건 · 영상 학습 5개",
+      "action": "다이소 수집이 3.8일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
       "action_kind": "auto_remediable",
       "waiting": null,
       "waiting_kind": null,
@@ -50,8 +50,8 @@
     {
       "id": "institutions",
       "name": "기관 수집팀",
-      "when": "2026-10-02T10:18:53.280909+00:00",
-      "summary": "35곳 1,073건 · 미수집 12건 사유 기록 · 새 자료 256건 · 영상 학습 1개",
+      "when": "2026-10-02T17:22:56.015991+00:00",
+      "summary": "35곳 1,073건 · 미수집 12건 사유 기록 · 새 자료 257건 · 영상 학습 1개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -89,8 +89,8 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-03T02:51:59.819807+09:00",
-      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 15편 · 근거 40개 · 실험 17개 · 새 자료 101건 · 영상 학습 41개",
+      "when": "2026-10-03T04:50:03.776568+09:00",
+      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 15편 · 근거 40개 · 실험 17개 · 새 자료 99건 · 영상 학습 41개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -133,7 +133,7 @@
       "id": "listing",
       "name": "리스팅 제작팀",
       "when": "2026-10-02T17:51:59.659957+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 5건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 10건(이번 회차 재사용 · 누적 실호출 491회 · 마지막 10-02 19:28) · 영상 학습 33개",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 5건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 10건(이번 회차 재사용 · 누적 실호출 510회 · 마지막 10-03 02:37) · 영상 학습 33개",
       "action": null,
       "action_kind": null,
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
@@ -173,8 +173,8 @@
     {
       "id": "pricing",
       "name": "가격 정책팀",
-      "when": "2026-10-02T10:28:20.676128+00:00",
-      "summary": "개당 배송비 $6.18~$6.93 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 25건 · 영상 학습 14개",
+      "when": "2026-10-02T17:35:19.981245+00:00",
+      "summary": "개당 배송비 $6.24~$6.99 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 25건 · 영상 학습 14개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -217,7 +217,7 @@
       "id": "legal",
       "name": "법률·규제팀",
       "when": "2026-10-02T17:51:59.471538+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 23/30 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 50건 · 영상 학습 27개",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 23/30 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 49건 · 영상 학습 27개",
       "action": null,
       "action_kind": null,
       "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
@@ -256,8 +256,8 @@
     {
       "id": "robotics",
       "name": "로보틱스 수집",
-      "when": "2026-10-02T10:17:51.344649+00:00",
-      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 55건 · 영상 60편 자막 검토 대기",
+      "when": "2026-10-02T17:22:06.625305+00:00",
+      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 56건 · 영상 60편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -278,8 +278,8 @@
     {
       "id": "design",
       "name": "디자인팀",
-      "when": "2026-10-02T10:19:01.727989+00:00",
-      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 78건 (관련 44%) · 폰트 1950개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 68건 · 새 자료 137건 · 영상 학습 11개",
+      "when": "2026-10-02T17:23:04.306837+00:00",
+      "summary": "스토어 2/12단계 · 오프라인 초안 2단계 · 레퍼런스 78건 (관련 44%) · 폰트 1950개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 68건 · 새 자료 135건 · 영상 학습 11개",
       "action": null,
       "action_kind": null,
       "waiting": "다음 단계: Shopify 스토어 개설 및 기본 설정",
@@ -319,7 +319,7 @@
     {
       "id": "channels",
       "name": "채널 운영팀",
-      "when": "2026-10-02T10:28:45.651096+00:00",
+      "when": "2026-10-02T17:37:53.702577+00:00",
       "summary": "가동 12/15채널 · 낡음 1건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 학습 2개",
       "action": null,
       "action_kind": null,
@@ -359,7 +359,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-10-02T12:37:51.229003+00:00",
+      "when": "2026-10-02T17:24:41.908730+00:00",
       "summary": "878건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 498 · 영상 학습 2개",
       "action": null,
       "action_kind": null,
@@ -398,8 +398,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-10-03T02:40:32.122179+09:00",
-      "summary": "84,762노트 · 359,152링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.2% · 학습 키워드 18개 · 영상 30편 자막 검토 대기",
+      "when": "2026-10-03T04:50:07.121218+09:00",
+      "summary": "84,797노트 · 359,586링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.3% · 학습 키워드 18개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -422,57 +422,57 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-10-03T02:51:59.395989+09:00",
+    "when": "2026-10-03T04:50:03.749530+09:00",
     "summary": "2시간 주기 · 고시 30건 · US라벨 30건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
-    "action": "비서실장 감시 루프 갱신 지연 — Safe Auto-Fix 보고서가 4시간 30분 넘게 확인되지 않음",
-    "action_kind": "revalidate_only",
-    "status": "warning",
+    "action": null,
+    "action_kind": null,
+    "status": "ok",
     "steps": [
       {
         "단계": "고시 수집",
         "산출물": "gosi.json",
-        "갱신": "2026-10-02T04:03:37.438224+00:00",
-        "몇시간전": 13.8
+        "갱신": "2026-10-02T17:37:28.124430+00:00",
+        "몇시간전": 2.2
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-10-03T02:51:58.489643+09:00",
+        "갱신": "2026-10-03T04:50:03.749530+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-10-03T02:51:59.395989+09:00",
+        "갱신": "2026-10-03T04:50:03.086527+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
-        "갱신": "2026-10-02T10:28:23.006278+00:00",
-        "몇시간전": 7.4
+        "갱신": "2026-10-02T17:37:31.370676+00:00",
+        "몇시간전": 2.2
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-10-02T17:51:59.659957+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 2.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-10-02T17:51:59.471538+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 2.0
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
   },
   "remediation_state": {
     "schema_version": 1,
-    "generated_at": "2026-10-02T10:30:03.015649+00:00",
+    "generated_at": "2026-10-02T17:39:10.091304+00:00",
     "check_interval": "2_hours",
     "escalate_after_detected_runs": 3,
-    "active_count": 7,
+    "active_count": 8,
     "auto_remediable_count": 0,
     "waiting_human_count": 2,
     "waiting_external_count": 4,
@@ -484,10 +484,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+        "reason": "카피 2건, 고시 1건, 영문라벨 2건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-10-02T10:30:03.015649+00:00",
-        "detected_runs": 23,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 24,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -498,10 +498,10 @@
         "priority": "P4",
         "classification": "human_approval_required",
         "state": "waiting_human_approval",
-        "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+        "reason": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [이중턱리프팅]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-10-02T10:30:03.015649+00:00",
-        "detected_runs": 23,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 24,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -514,8 +514,8 @@
         "state": "waiting_external_dependency",
         "reason": "다음 단계: Shopify 스토어 개설 및 기본 설정",
         "first_seen_at": "2026-09-21T10:13:44.774659+00:00",
-        "last_seen_at": "2026-10-02T10:30:03.015649+00:00",
-        "detected_runs": 23,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 24,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -528,8 +528,8 @@
         "state": "waiting_external_dependency",
         "reason": "외부 소스 고장 7건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
         "first_seen_at": "2026-09-21T10:24:44.825768+00:00",
-        "last_seen_at": "2026-10-02T10:30:03.015649+00:00",
-        "detected_runs": 21,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 22,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -539,13 +539,13 @@
         "action": "TEAM_ACTION_MARKET",
         "priority": "P3",
         "classification": "revalidate_only",
-        "state": "resolved",
-        "reason": "고시 표 1건 판독 남음 — 1061918 [기미잡티리셋]본셉 비타씨 동결  [전성분,용량,제조사 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+        "state": "escalated_monitoring",
+        "reason": "고시 표 1건 판독 남음 — 1067500 [이중턱리프팅]VT PDRN 광채 [전성분,제조사 · groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067500",
         "first_seen_at": "2026-09-27T14:57:33.826917+00:00",
-        "last_seen_at": "2026-10-02T04:05:25.194031+00:00",
-        "detected_runs": 10,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 11,
         "auto_attempts": 0,
-        "resolved_at": "2026-10-02T10:30:03.015649+00:00"
+        "resolved_at": null
       },
       "signals:INVESTIGATE_EMPTY_CHANNELS": {
         "key": "signals:INVESTIGATE_EMPTY_CHANNELS",
@@ -556,8 +556,8 @@
         "state": "waiting_external_dependency",
         "reason": "비어 있거나 실패 상태인 채널이 1개 존재한다.",
         "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-        "last_seen_at": "2026-10-02T10:30:03.015649+00:00",
-        "detected_runs": 16,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 17,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -570,8 +570,8 @@
         "state": "waiting_external_dependency",
         "reason": "글로벌 신호 채널 저하",
         "first_seen_at": "2026-09-28T19:24:48.333509+00:00",
-        "last_seen_at": "2026-10-02T10:30:03.015649+00:00",
-        "detected_runs": 16,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 17,
         "auto_attempts": 0,
         "resolved_at": null
       },
@@ -582,10 +582,10 @@
         "priority": "P3",
         "classification": "revalidate_only",
         "state": "escalated_monitoring",
-        "reason": "다이소 수집이 3.4일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+        "reason": "다이소 수집이 3.7일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
         "first_seen_at": "2026-09-30T14:55:12.706099+00:00",
-        "last_seen_at": "2026-10-02T10:30:03.015649+00:00",
-        "detected_runs": 8,
+        "last_seen_at": "2026-10-02T17:39:10.091304+00:00",
+        "detected_runs": 9,
         "auto_attempts": 0,
         "resolved_at": null
       }
@@ -620,13 +620,13 @@
     }
   },
   "errors": {
-    "generated_at": "2026-10-02T10:29:55.963573+00:00",
-    "total": 36,
+    "generated_at": "2026-10-02T17:39:00.552520+00:00",
+    "total": 38,
     "counts": {
       "고장": 7,
-      "대기": 9,
+      "대기": 10,
       "대체됨": 5,
-      "막힘": 11,
+      "막힘": 12,
       "보류": 4
     },
     "고쳐야_할_것": [
@@ -689,6 +689,11 @@
       },
       {
         "team": "법률·규제팀",
+        "item": "전성분",
+        "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
+      },
+      {
+        "team": "법률·규제팀",
         "item": "제품 정체 표시",
         "fix": "한 번 알려주면 라벨과 정책 페이지 양쪽에 들어간다"
       },
@@ -715,7 +720,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-10-02T10:29:55.999709+00:00",
+    "generated_at": "2026-10-02T17:39:00.597844+00:00",
     "overall_status": "warning",
     "status_legend": {
       "success": "정상",
@@ -725,7 +730,7 @@
       "failed": "예외 - 자동화 장애"
     },
     "kpi": {
-      "last_success": "2026-10-02T10:29:55.999696+00:00",
+      "last_success": "2026-10-02T17:39:00.597831+00:00",
       "failed_jobs": 0,
       "queue": 2881,
       "stale_source": "marketing",
@@ -733,11 +738,11 @@
         "product_master": "1 min ago",
         "legal_full": "1 min ago",
         "shopify_sync": "1 min ago",
-        "pricing": "1 min ago",
+        "pricing": "3 min ago",
         "marketing": "1 min ago",
-        "gosi": "6.4 hours ago",
-        "product_discovery": "1 min ago",
-        "daiso": "3.4 days ago"
+        "gosi": "1 min ago",
+        "product_discovery": "3 min ago",
+        "daiso": "3.7 days ago"
       }
     },
     "summary": {
@@ -762,7 +767,7 @@
       {
         "team": "legal_full",
         "status": "waiting",
-        "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
+        "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 2건",
         "is_failure": false,
         "waiting_kind": "human_approval_required",
         "freshness": "1 min ago"
@@ -779,7 +784,7 @@
         "status": "success",
         "reason": "FX 반영, 손익분기·기여마진 계산됨",
         "is_failure": false,
-        "freshness": "1 min ago"
+        "freshness": "3 min ago"
       },
       {
         "team": "marketing",
@@ -791,23 +796,23 @@
       {
         "team": "gosi",
         "status": "success",
-        "reason": "정상 6.4h 전",
-        "is_failure": false,
-        "freshness": "6.4 hours ago"
-      },
-      {
-        "team": "product_discovery",
-        "status": "success",
         "reason": "정상 0.0h 전",
         "is_failure": false,
         "freshness": "1 min ago"
       },
       {
+        "team": "product_discovery",
+        "status": "success",
+        "reason": "정상 0.1h 전",
+        "is_failure": false,
+        "freshness": "3 min ago"
+      },
+      {
         "team": "daiso",
         "status": "success",
-        "reason": "정상 81.7h 전",
+        "reason": "정상 88.8h 전",
         "is_failure": false,
-        "freshness": "3.4 days ago"
+        "freshness": "3.7 days ago"
       }
     ],
     "architecture_p0": {
@@ -818,7 +823,7 @@
     }
   },
   "team_summary": {
-    "corpus_records": 6764,
+    "corpus_records": 6799,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -827,13 +832,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "6764개 코퍼스 레코드"
+      "detail": "6799개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "84762개 노트 · 359152개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
+      "detail": "84797개 노트 · 359586개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -845,7 +850,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "6764건 · 3 experts · 정확도 96.53%"
+      "detail": "6799건 · 3 experts · 정확도 96.57%"
     },
     {
       "id": "publish",
@@ -856,9 +861,9 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 6764,
+    "record_count": 6799,
     "source_counts": {},
-    "updated_at": "2026-10-03T02:40:28.821153+09:00"
+    "updated_at": "2026-10-03T04:50:03.762530+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1313,49 +1318,49 @@
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
   "graph": {
-    "notes": 84762,
-    "links": 359152,
+    "notes": 84797,
+    "links": 359586,
     "dangling_links": 0,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 83922,
+    "records": 83957,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-10-03T02:40:32.122179+09:00"
+    "last_generated": "2026-10-03T04:50:07.121218+09:00"
   },
   "training": {
     "status": "completed",
     "training_effective": true,
     "verdict": "기준선보다 나음: 운영 가중치 교체",
-    "validation_macro_f1": 0.8837934786379283,
+    "validation_macro_f1": 0.8838274817774692,
     "validation_recall": {
       "ai-image": 0.8571,
-      "ai-research": 0.9634,
+      "ai-research": 0.9635,
       "shopify-commerce-image": 0.9701
     },
-    "baseline_accuracy": 0.8954996186117468,
-    "baseline_macro_f1": 0.31495640509725015,
+    "baseline_accuracy": 0.8958966565349544,
+    "baseline_macro_f1": 0.3150300601202405,
     "training_performed": true,
     "weights_updated": true,
-    "records": 6764,
+    "records": 6799,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
     "experts": 3,
-    "accuracy": 0.9652572442341809,
-    "validation_accuracy": 0.958047292143402,
-    "final_loss": 0.24598052438968385,
-    "gate_load_std": 0.46988902930544546,
+    "accuracy": 0.9657302544491837,
+    "validation_accuracy": 0.9582066869300911,
+    "final_loss": 0.24668612180138003,
+    "gate_load_std": 0.46989308585565254,
     "tuning_promoted": true,
     "tuning_steps": 300,
-    "updated_at": "2026-10-02T12:41:59.751857+00:00"
+    "updated_at": "2026-10-02T17:31:36.070335+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 6764,
-      "notes": 85350,
-      "links": 378442
+      "records": 6799,
+      "notes": 85385,
+      "links": 378876
     },
     "prior_totals": {
       "records": 6764,
@@ -1363,14 +1368,14 @@
       "links": 378442
     },
     "added_this_run": {
-      "records": 0,
-      "notes": 0,
-      "links": 0
+      "records": 35,
+      "notes": 35,
+      "links": 434
     },
     "current_snapshot": {
-      "records": 6764,
-      "notes": 84762,
-      "links": 359152
+      "records": 6799,
+      "notes": 84797,
+      "links": 359586
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -5834,17 +5839,17 @@
       "collected_at": "2026-10-02T00:10:06.066882+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 17.7,
+      "age_hours": 19.7,
       "stale": false
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
-      "reason": "2026-09-15 이후 갱신 없음 (17.3일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일).",
+      "reason": "2026-09-15 이후 갱신 없음 (17.4일). 2026-09-15 이후 갱신 없음 (17.3일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일).",
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "trust": "stale",
-      "age_hours": 414.5,
+      "age_hours": 416.5,
       "stale": true
     },
     "oliveyoung_us": {
@@ -5854,7 +5859,7 @@
       "collected_at": "2026-10-02T10:21:16.792419+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 7.5,
+      "age_hours": 9.5,
       "stale": false
     },
     "google_trends_us": {
@@ -5864,7 +5869,7 @@
       "collected_at": "2026-10-02T10:21:59.778580+00:00",
       "count": 40,
       "trust": "verified",
-      "age_hours": 7.5,
+      "age_hours": 9.5,
       "stale": false
     },
     "sokoglam_us": {
@@ -5874,7 +5879,7 @@
       "collected_at": "2026-10-02T10:27:41.992306+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 7.4,
+      "age_hours": 9.4,
       "stale": false
     },
     "amazon_movers_beauty": {
@@ -5884,7 +5889,7 @@
       "collected_at": "2026-10-02T00:10:06.068990+00:00",
       "count": 0,
       "trust": "none",
-      "age_hours": 17.7,
+      "age_hours": 19.7,
       "stale": false
     },
     "amazon_new_beauty": {
@@ -5894,7 +5899,7 @@
       "collected_at": "2026-10-02T00:10:06.069281+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 17.7,
+      "age_hours": 19.7,
       "stale": false
     },
     "wikipedia_interest": {
@@ -5905,7 +5910,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-09-01 ~ 2026-09-30 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 13.8,
+      "age_hours": 15.8,
       "stale": false
     },
     "allure_media": {
@@ -5916,7 +5921,7 @@
       "count": 30,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 13.8,
+      "age_hours": 15.8,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -5927,7 +5932,7 @@
       "count": 20,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 13.8,
+      "age_hours": 15.8,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -5953,7 +5958,7 @@
       "collected_at": "2026-10-02T00:10:06.070258+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 17.7,
+      "age_hours": 19.7,
       "stale": false
     },
     "sephora": {
@@ -5963,7 +5968,7 @@
       "collected_at": "2026-10-02T00:10:06.070258+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 17.7,
+      "age_hours": 19.7,
       "stale": false
     },
     "open_beauty_facts": {
@@ -5973,7 +5978,7 @@
       "collected_at": "2026-10-02T10:21:16.145920+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 7.5,
+      "age_hours": 9.5,
       "stale": false
     }
   },
@@ -5991,6 +5996,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-10-02T17:52:05.095313+00:00"
+    "at": "2026-10-02T19:51:19.195618+00:00"
   }
 }
