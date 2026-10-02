@@ -1,0 +1,22 @@
+---
+title: "Record b57aa3d3d5 · The-Ordinary-Azelaic-Acid-Suspension-10-Formula-for-Uneven-and-Blemish"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-02T04:05:58.252896+00:00
+tags: [record, real-data]
+---
+
+# Record b57aa3d3d5 · The-Ordinary-Azelaic-Acid-Suspension-10-Formula-for-Uneven-and-Blemish
+
+> 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Ordinary-Azelaic-Acid-Suspension-30ml/dp/B06WD5J8KY/ref=zg_bs_g_beauty_d_sccl_40/133-7130756-4573415)
+
+**제목:** The Ordinary Azelaic Acid Suspension 10%, Formula for Uneven and Blemish-Prone Skin
+
+The Ordinary Azelaic Acid Suspension 10%, Formula for Uneven and Blemish-Prone Skin
+The Ordinary Azelaic Acid Suspension 10%, Formula for Uneven and Blemish-Prone Skin · $12.2 · 평점 4.5 · 리뷰 9,450
+
+**출처:** Source · us_beauty
+
+## Connected nodes
+
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

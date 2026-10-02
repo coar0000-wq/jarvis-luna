@@ -2,7 +2,7 @@
 title: "Record 9be1226544 · DrFORHAIR-Folligen-Thickening-Shampoo-169-fl-oz500m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.241089+00:00
+updated_at: 2026-10-02T04:05:57.867803+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b187a6370d · The-Internet-Lied-About-Korean-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.286274+00:00
+updated_at: 2026-10-02T04:05:58.839690+00:00
 tags: [record, real-data]
 ---
 

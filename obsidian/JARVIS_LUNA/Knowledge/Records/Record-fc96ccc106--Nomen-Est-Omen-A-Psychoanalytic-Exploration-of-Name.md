@@ -2,7 +2,7 @@
 title: "Record fc96ccc106 · Nomen-Est-Omen-A-Psychoanalytic-Exploration-of-Name"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.662144+00:00
+updated_at: 2026-10-02T04:05:56.318941+00:00
 tags: [record, real-data]
 ---
 

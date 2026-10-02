@@ -2,7 +2,7 @@
 title: "Record c8905a7671 · A-Novel-Workflow-for-Artificial-Intelligence-Enhanced-Patient-Messagin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.480981+00:00
+updated_at: 2026-10-02T04:05:56.144561+00:00
 tags: [record, real-data]
 ---
 

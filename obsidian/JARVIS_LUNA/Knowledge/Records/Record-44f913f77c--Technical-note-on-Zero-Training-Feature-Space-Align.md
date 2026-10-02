@@ -2,7 +2,7 @@
 title: "Record 44f913f77c · Technical-note-on-Zero-Training-Feature-Space-Alignment-via-Informatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.151462+00:00
+updated_at: 2026-10-02T04:05:56.763728+00:00
 tags: [record, real-data]
 ---
 

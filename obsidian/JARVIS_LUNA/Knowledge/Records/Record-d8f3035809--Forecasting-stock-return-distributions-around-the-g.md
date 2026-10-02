@@ -2,7 +2,7 @@
 title: "Record d8f3035809 · Forecasting-stock-return-distributions-around-the-globe-with-quantile-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.814634+00:00
+updated_at: 2026-10-02T04:05:56.435562+00:00
 tags: [record, real-data]
 ---
 

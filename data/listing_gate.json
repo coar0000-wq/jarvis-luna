@@ -1,61 +1,59 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-01T23:52:18.359768+00:00",
+  "generated_at": "2026-10-02T04:03:44.628145+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "48a2d9076d3c3aae7fe1b8b5d98e6b349b1d24534b4d72ce80a837ba5063d86c",
       "data/gosi.json": "dd9d6c89d024d7cf1ac7c7822171e750090559a4db7dff7d08f283b18bed36d3",
-      "data/daiso_real/daiso_us_labels.json": "be26193cdcd548ec3d4a96e51077c71a44d4fffaae6c385bdbd24fb6981d2230",
-      "data/pricing_model.json": "f22b741eb9b2b2d7b7159bcc35d90c0c1443f3c2701f966defa8495c09c0af2f",
-      "data/legal_products.json": "d51f959cb3f8a3cc4b184a13683a9b6f6289a3c01430928ad0ff78f87fec7bba"
+      "data/daiso_real/daiso_us_labels.json": "5f522499ee8c3f834cf1888377bb612a11c8e3d33f9ced55d30cfdfe7bfc78cb",
+      "data/pricing_model.json": "d9a2675215c2f963b3e059ab773e1c56886048654df81f062efa8e122ae53c42",
+      "data/legal_products.json": "fc42ed94f10f69680420de3c98c6931183010efacac8b8d936f1eae131ef6290"
     },
-    "recommendations_sha256": "ecbccf34b874ff5a087a0380a09534ee6420b99a158b69c7a7d3389f439d8dd2"
+    "recommendations_sha256": "5268587f97f706e9249983cf7a9a5f77f8bfb28b6d357d9f554ac7627d60b2fe"
   },
   "total": 10,
-  "agent_ready": 7,
-  "ready": 7,
-  "draft_ready": 7,
+  "agent_ready": 8,
+  "ready": 8,
+  "draft_ready": 8,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
-    "copy": 7,
+    "copy": 8,
     "gosi": 9,
     "us_label": 8,
-    "price": 9,
-    "legal": 7,
+    "price": 10,
+    "legal": 8,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 3,
+    "copy": 2,
     "gosi": 1,
     "us_label": 2,
-    "price": 1,
-    "legal": 3
+    "legal": 2
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "typesafe_carried": 9,
-      "disabled_local_advisory": 1
+      "typesafe_observational_free_credits": 10
     },
-    "typesafe_calls": 0,
-    "free_credits_only": 9,
+    "typesafe_calls": 10,
+    "free_credits_only": 10,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "calls": 0,
-      "input_tokens": 0,
-      "output_tokens": 0,
+      "calls": 10,
+      "input_tokens": 10998,
+      "output_tokens": 1980,
       "stopped": "",
       "max_calls": 40,
       "max_input_tokens": 60000,
       "input_token_price_per_mtok_usd": 0.042,
-      "estimated_cost_usd": 0.0,
+      "estimated_cost_usd": 0.000462,
       "purchased_credits": false
     },
-    "cumulative_ok_calls": 431,
-    "last_ok_call_at": "2026-10-01T22:35:30.592734+00:00",
+    "cumulative_ok_calls": 461,
+    "last_ok_call_at": "2026-10-02T04:03:44.627994+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
   },
   "count": 10,
@@ -102,8 +100,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 54.7,
+        "price_usd": 23.99,
+        "margin_pct": 56.3,
         "register_blocked": false
       },
       "legal": {
@@ -123,11 +121,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -135,21 +133,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.94,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.688,
+        "confidence": 0.716,
         "usage": {
           "input_tokens": 1105,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.55,
+        "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-10-01T22:35:29.232559+00:00",
-        "carried_from": "2026-10-01T22:35:29.232559+00:00"
+        "decided_at": "2026-10-02T04:03:43.526505+00:00"
       }
     },
     {
@@ -194,8 +191,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 13.99,
-        "margin_pct": 18.3,
+        "price_usd": 15.99,
+        "margin_pct": 27.5,
         "register_blocked": false
       },
       "legal": {
@@ -215,11 +212,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -237,11 +234,10 @@
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.71,
+        "risk_score": 1.66,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-01T22:35:29.371171+00:00",
-        "carried_from": "2026-10-01T22:35:29.371171+00:00"
+        "decided_at": "2026-10-02T04:03:43.633139+00:00"
       }
     },
     {
@@ -305,7 +301,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -319,23 +315,22 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.95,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal",
           "public blockers: copy, gosi, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.96,
+        "confidence": 0.958,
         "usage": {
           "input_tokens": 1141,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.89,
+        "risk_score": 2.88,
         "model": "jev-1.13.0",
         "state_signature": "03bd1da026d9c8d55c3363adbafd8697ee60acb28500dffa8780a0393c2e941c",
-        "decided_at": "2026-10-01T22:35:29.506721+00:00",
-        "carried_from": "2026-10-01T22:35:29.506721+00:00"
+        "decided_at": "2026-10-02T04:03:43.839056+00:00"
       }
     },
     {
@@ -381,7 +376,7 @@
       },
       "price": {
         "price_usd": 17.99,
-        "margin_pct": 30.7,
+        "margin_pct": 30.6,
         "register_blocked": false
       },
       "legal": {
@@ -401,7 +396,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -417,17 +412,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.692,
+        "confidence": 0.686,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.57,
+        "risk_score": 1.55,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T22:35:29.657686+00:00",
-        "carried_from": "2026-10-01T22:35:29.657686+00:00"
+        "decided_at": "2026-10-02T04:03:43.945796+00:00"
       }
     },
     {
@@ -473,8 +467,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 14.99,
-        "margin_pct": 18.3,
+        "price_usd": 18.99,
+        "margin_pct": 33.9,
         "register_blocked": false
       },
       "legal": {
@@ -494,7 +488,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -510,17 +504,16 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.708,
+        "confidence": 0.716,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.65,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-01T22:35:29.856689+00:00",
-        "carried_from": "2026-10-01T22:35:29.856689+00:00"
+        "decided_at": "2026-10-02T04:03:44.064306+00:00"
       }
     },
     {
@@ -565,8 +558,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 9.99,
-        "margin_pct": 13.8,
+        "price_usd": 11.99,
+        "margin_pct": 27.0,
         "register_blocked": false
       },
       "legal": {
@@ -586,11 +579,11 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -598,21 +591,20 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.91,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.672,
+        "confidence": 0.686,
         "usage": {
-          "input_tokens": 1089,
+          "input_tokens": 1090,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.54,
+        "risk_score": 1.53,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-01T22:35:29.994565+00:00",
-        "carried_from": "2026-10-01T22:35:29.994565+00:00"
+        "decided_at": "2026-10-02T04:03:44.190628+00:00"
       }
     },
     {
@@ -655,8 +647,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 18.99,
-        "margin_pct": 46.7,
+        "price_usd": 10.99,
+        "margin_pct": 13.3,
         "register_blocked": false
       },
       "legal": {
@@ -676,7 +668,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -692,111 +684,20 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.7,
+        "confidence": 0.718,
         "usage": {
           "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.5,
+        "risk_score": 1.58,
         "model": "jev-1.13.0",
         "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
-        "decided_at": "2026-10-01T22:35:30.141647+00:00",
-        "carried_from": "2026-10-01T22:35:30.141647+00:00"
+        "decided_at": "2026-10-02T04:03:44.311602+00:00"
       }
     },
     {
       "rank": 8,
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "product_id": "1027327",
-      "name": "바세린 마스크팩 집중보습",
-      "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
-      "gosi": {
-        "volume": "23 ml / 0.78 fl. oz.",
-        "maker": "(주)메가코스 / 유니레버코리아(주)",
-        "origin": "대한민국",
-        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 메틸프로판다이올, 1,2-헥사다이올, 부틸렌글라이콜, 세테아릴알코올, 글리세릴스테아레이트, 다이메티콘, 폴리솔베이트20, 피이지-100 스테아레이트, 페트롤라툼(1000 pp",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "23 ml / 0.78 fl. oz.",
-        "manufacturer": "(주)메가코스 / 유니레버코리아(주)",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 18.99,
-        "margin_pct": 55.6,
-        "register_blocked": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
-      },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "us_label",
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "copy",
-        "us_label",
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "us_label",
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 7,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.92,
-        "findings": [
-          "draft blockers: copy, us_label, legal",
-          "public blockers: copy, us_label, legal, legal_full",
-          "legal hard block"
-        ],
-        "confidence": 0.904,
-        "usage": {
-          "input_tokens": 1113,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 2.67,
-        "model": "jev-1.13.0",
-        "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
-        "decided_at": "2026-10-01T22:35:30.305040+00:00",
-        "carried_from": "2026-10-01T22:35:30.305040+00:00"
-      }
-    },
-    {
-      "rank": 9,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "product_id": "1059834",
@@ -835,8 +736,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 24.99,
-        "margin_pct": 61.1,
+        "price_usd": 11.99,
+        "margin_pct": 27.0,
         "register_blocked": false
       },
       "legal": {
@@ -856,13 +757,13 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
+        "risk_level": "medium",
         "risk_points": 1,
         "team_routes": [
           "legal"
@@ -872,17 +773,105 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.708,
+        "confidence": 0.702,
         "usage": {
           "input_tokens": 1094,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.5,
+        "risk_score": 1.44,
         "model": "jev-1.13.0",
         "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-10-01T22:35:30.457222+00:00",
-        "carried_from": "2026-10-01T22:35:30.457222+00:00"
+        "decided_at": "2026-10-02T04:03:44.413348+00:00"
+      }
+    },
+    {
+      "rank": 9,
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "product_id": "1027327",
+      "name": "바세린 마스크팩 집중보습",
+      "category": "마스크팩",
+      "price_krw": 1000,
+      "shopify_score": 89,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "gosi": {
+        "volume": "23 ml / 0.78 fl. oz.",
+        "maker": "(주)메가코스 / 유니레버코리아(주)",
+        "origin": "대한민국",
+        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 메틸프로판다이올, 1,2-헥사다이올, 부틸렌글라이콜, 세테아릴알코올, 글리세릴스테아레이트, 다이메티콘, 폴리솔베이트20, 피이지-100 스테아레이트, 페트롤라툼(1000 pp",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "23 ml / 0.78 fl. oz.",
+        "manufacturer": "(주)메가코스 / 유니레버코리아(주)",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 13.99,
+        "margin_pct": 42.3,
+        "register_blocked": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "us_label",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "us_label",
+        "legal",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.88,
+        "findings": [
+          "draft blockers: copy, us_label, legal",
+          "public blockers: copy, us_label, legal, legal_full",
+          "legal hard block"
+        ],
+        "confidence": 0.906,
+        "usage": {
+          "input_tokens": 1113,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 2.69,
+        "model": "jev-1.13.0",
+        "state_signature": "6a8717070ad2bca1105bb9417b1c344a694d4ce599eb319fe88ce4fd91ae93ff",
+        "decided_at": "2026-10-02T04:03:44.511309+00:00"
       }
     },
     {
@@ -893,10 +882,23 @@
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "category": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 89,
+      "shopify_score": 87,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {},
-      "copy_status": "missing",
+      "copy": {
+        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "celderma-daily",
+          "collagen",
+          "gel-sheet-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Gel Sheet Mask"
+      },
+      "copy_status": "ok",
       "gosi": {
         "volume": "29g",
         "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
@@ -912,58 +914,53 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": null,
-        "margin_pct": null,
+        "price_usd": 24.99,
+        "margin_pct": 64.5,
         "register_blocked": false
       },
       "legal": {
-        "status": "missing",
+        "status": "auto_checked",
         "hard_block": false,
         "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "price",
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "copy",
-        "price",
-        "legal"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
-        "price",
-        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "risk_level": "medium",
+        "risk_points": 2,
         "team_routes": [
-          "legal",
-          "pricing",
-          "listing"
+          "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": null,
+        "model_route_confidence": 0.93,
         "findings": [
-          "draft blockers: copy, price, legal",
-          "public blockers: copy, price, legal, legal_full"
+          "public blockers: legal_full"
         ],
-        "confidence": null,
-        "usage": null
+        "confidence": 0.716,
+        "usage": {
+          "input_tokens": 1091,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.48,
+        "model": "jev-1.13.0",
+        "state_signature": "5d0f8517eb6d26b1be383ef5a31674ecba4cd3d16ebf65891ec60cb2c9634685",
+        "decided_at": "2026-10-02T04:03:44.628089+00:00"
       }
     }
   ]

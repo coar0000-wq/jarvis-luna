@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:33:16.174975+00:00",
+  "generated_at": "2026-10-02T04:01:27.636069+00:00",
   "generator": "scripts/build_team_learning.py",
   "rule": "자막 타임스탬프 근거가 있고 과장 수치를 뺀 항목만 학습으로 센다. 영상 목록만 있는 것은 학습이 아니다.",
   "total_insights": 53,

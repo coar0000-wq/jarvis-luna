@@ -2,7 +2,7 @@
 title: "Record 56fa4ad922 · MidTool-Mid-training-Data-Synthesis-for-Agentic-Too"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.392224+00:00
+updated_at: 2026-10-02T04:05:58.884995+00:00
 tags: [record, real-data]
 ---
 

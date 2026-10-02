@@ -2,7 +2,7 @@
 title: "Record 12f4cc5593 · Will-European-Gas-Prices-Keep-Rising-This-Winter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.836873+00:00
+updated_at: 2026-10-02T04:05:58.508342+00:00
 tags: [record, real-data]
 ---
 

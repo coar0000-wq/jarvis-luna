@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:19:28.331133+00:00",
+  "generated_at": "2026-10-02T03:50:11.932748+00:00",
   "generator": "scripts/build_design_team.py",
   "scope": "스토어 없이 만들고 검증할 수 있는 디자인 준비물. 스토어에 적용된 것은 아니다.",
   "design_system": {
@@ -119,10 +119,10 @@
         ]
       },
       {
-        "pd_no": "1042619",
+        "pd_no": "1053482",
         "ok": false,
         "issues": [
-          "seo_description 183자 (70~160)"
+          "seo_description 167자 (70~160)"
         ]
       }
     ]

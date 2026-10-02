@@ -2,7 +2,7 @@
 title: "Record c6fd31a9a0 · UniAfford-Token-Routed-Multitask-Learning-for-Generalizable-2D-3D-Affo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.150806+00:00
+updated_at: 2026-10-02T04:05:56.763045+00:00
 tags: [record, real-data]
 ---
 

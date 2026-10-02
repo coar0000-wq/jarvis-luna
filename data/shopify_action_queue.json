@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T23:52:18.627069+00:00",
-  "source_gate_generated_at": "2026-10-01T23:52:18.359768+00:00",
+  "generated_at": "2026-10-02T04:03:44.844564+00:00",
+  "source_gate_generated_at": "2026-10-02T04:03:44.628145+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -32,7 +32,7 @@
         "1049285"
       ],
       "variant_count": 1,
-      "payload_hash": "b8ed9ddd0f0f809ff8003d5a58d846b7b5ff603187cab7fe15ea2554a82cadd0",
+      "payload_hash": "264a9e2105d9ad7bc12b8b4e1642f344d13ce436a004c9b8d64d02e65505ce95",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -64,7 +64,7 @@
         "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "3fbd4eb1f3ea448bff3639e762dcfbaa8d9770470576e4ed8bff72ff134adc68",
+      "payload_hash": "d46957361674a78cb2c22fe3fe72ad947a2e5e19f1a6c614a3f48b540e563196",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -96,7 +96,7 @@
         "1059834"
       ],
       "variant_count": 1,
-      "payload_hash": "09aad89986912fb9dfbbaa8b8bdeada00c0ea08f99f0bf57916e48a759d71d04",
+      "payload_hash": "ef6129133949de34082022edb4bbf15102ea5e432b96289bb860a7d6219f15b2",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -162,7 +162,7 @@
         "1049276"
       ],
       "variant_count": 1,
-      "payload_hash": "d5ed35e1d26c28bcd857782a895b49e1c45c17111ab45a8fc61159b6519e19a8",
+      "payload_hash": "b954706cf120491811c6abc126f991a55a8aeb69b94489dae5dad0c1b22ded81",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",

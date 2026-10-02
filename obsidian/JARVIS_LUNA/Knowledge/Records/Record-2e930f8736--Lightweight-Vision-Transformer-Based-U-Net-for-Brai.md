@@ -2,7 +2,7 @@
 title: "Record 2e930f8736 · Lightweight-Vision-Transformer-Based-U-Net-for-Brain-Tumor-Segmentatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.067365+00:00
+updated_at: 2026-10-02T04:05:56.682985+00:00
 tags: [record, real-data]
 ---
 

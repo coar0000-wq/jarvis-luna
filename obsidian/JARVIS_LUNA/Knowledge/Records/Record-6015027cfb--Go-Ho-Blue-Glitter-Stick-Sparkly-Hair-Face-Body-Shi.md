@@ -2,7 +2,7 @@
 title: "Record 6015027cfb · Go-Ho-Blue-Glitter-Stick-Sparkly-Hair-Face-Body-Shimmer-for-Women-Kids"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.511318+00:00
+updated_at: 2026-10-02T04:05:58.121168+00:00
 tags: [record, real-data]
 ---
 

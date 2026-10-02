@@ -2,7 +2,7 @@
 title: "Record 16adfcd1f5 · SemDHT-Certified-Semantic-Discovery-for-Peer-to-Peer-Agent-Networks-ov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.233850+00:00
+updated_at: 2026-10-02T04:05:55.908644+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e46c047fe3 · Barclays-calls-for-action-on-energy-efficiency-as-half-of-UK-adults-sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.305237+00:00
+updated_at: 2026-10-02T04:05:56.925183+00:00
 tags: [record, real-data]
 ---
 

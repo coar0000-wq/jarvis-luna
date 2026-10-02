@@ -2,7 +2,7 @@
 title: "Record 006d9e5e67 · SWE-Refactor-Bench-Can-Coding-Agents-Complete-a-Lon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.502981+00:00
+updated_at: 2026-10-02T04:05:58.932600+00:00
 tags: [record, real-data]
 ---
 

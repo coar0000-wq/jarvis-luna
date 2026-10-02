@@ -2,7 +2,7 @@
 title: "Record 9360a26cd0 · What-Matters-in-Designing-World-Action-Models-An-Empirical-Study"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.992379+00:00
+updated_at: 2026-10-02T04:05:56.606741+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 992553c945 · Hyalu-B5-Pure-Hyaluronic-Acid-Face-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.099153+00:00
+updated_at: 2026-10-02T04:05:58.735529+00:00
 tags: [record, real-data]
 ---
 

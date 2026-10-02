@@ -2,7 +2,7 @@
 title: "Record ce2a6eefed · 개봉-후-6개월-지난-선크림-써도-될까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.183280+00:00
+updated_at: 2026-10-02T04:05:58.817842+00:00
 tags: [record, real-data]
 ---
 

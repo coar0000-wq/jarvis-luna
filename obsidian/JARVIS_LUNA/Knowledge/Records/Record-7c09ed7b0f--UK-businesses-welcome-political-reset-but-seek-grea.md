@@ -2,7 +2,7 @@
 title: "Record 7c09ed7b0f · UK-businesses-welcome-political-reset-but-seek-grea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.296623+00:00
+updated_at: 2026-10-02T04:05:56.916417+00:00
 tags: [record, real-data]
 ---
 

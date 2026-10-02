@@ -2,7 +2,7 @@
 title: "Record 2d3daf2887 · Kendall-Jenner-Reveals-The-26-K-Beauty-Gua-Sha-Cream-She-Uses-To-De-Pu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.671782+00:00
+updated_at: 2026-10-02T04:05:57.308015+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b496295a2a · Spray-Solare-Protezione-alta-SPF-50---Corpo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.277759+00:00
+updated_at: 2026-10-02T04:05:57.900290+00:00
 tags: [record, real-data]
 ---
 

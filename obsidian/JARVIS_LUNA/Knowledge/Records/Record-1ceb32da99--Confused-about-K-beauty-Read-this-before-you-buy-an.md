@@ -2,7 +2,7 @@
 title: "Record 1ceb32da99 · Confused-about-K-beauty-Read-this-before-you-buy-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.482120+00:00
+updated_at: 2026-10-02T04:05:57.113749+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 05d4b78a2e · Intergenerational-Equity-in-Models-of-Climate-Change-Mitigation-Stocha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.810705+00:00
+updated_at: 2026-10-02T04:05:56.431867+00:00
 tags: [record, real-data]
 ---
 

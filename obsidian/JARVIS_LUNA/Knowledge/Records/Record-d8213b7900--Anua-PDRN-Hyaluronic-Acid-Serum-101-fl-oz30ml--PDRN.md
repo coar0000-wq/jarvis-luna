@@ -2,7 +2,7 @@
 title: "Record d8213b7900 · Anua-PDRN-Hyaluronic-Acid-Serum-101-fl-oz30ml--PDRN-Cream-202-fl-oz60m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.231912+00:00
+updated_at: 2026-10-02T04:05:57.858230+00:00
 tags: [record, real-data]
 ---
 

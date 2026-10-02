@@ -2,7 +2,7 @@
 title: "Record 1c6ed8a55e · ProGuT-Label-Efficient-Panoptic-Segmentation-for-Forest-Scenes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.144664+00:00
+updated_at: 2026-10-02T04:05:56.756179+00:00
 tags: [record, real-data]
 ---
 

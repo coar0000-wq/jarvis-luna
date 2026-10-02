@@ -2,7 +2,7 @@
 title: "Record 2603b9d838 · Last-Minute-K-Beauty-Memorial-Day-Sales-Medicube-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.765627+00:00
+updated_at: 2026-10-02T04:05:57.404178+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 936eb8e748 · What-do-you-do-with-a-humanoid-robot-when-it-breaks-down"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:41.070193+00:00
+updated_at: 2026-10-02T04:05:58.709683+00:00
 tags: [record, real-data]
 ---
 

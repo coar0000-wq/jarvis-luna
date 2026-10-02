@@ -2,7 +2,7 @@
 title: "Record 25f704997b · Automatic-Prompt-Optimization-for-Dataset-Level-Feature-Discovery"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:37.820584+00:00
+updated_at: 2026-10-02T04:05:56.441191+00:00
 tags: [record, real-data]
 ---
 

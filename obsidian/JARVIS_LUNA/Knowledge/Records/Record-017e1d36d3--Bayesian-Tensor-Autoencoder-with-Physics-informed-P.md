@@ -2,7 +2,7 @@
 title: "Record 017e1d36d3 · Bayesian-Tensor-Autoencoder-with-Physics-informed-Predictive-Prior-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:38.087050+00:00
+updated_at: 2026-10-02T04:05:56.704138+00:00
 tags: [record, real-data]
 ---
 

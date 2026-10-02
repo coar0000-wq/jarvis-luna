@@ -2,7 +2,7 @@
 title: "Record 9c000398f2 · 3types-allongs-Korean-Spa-Body-Peeling-Pad-084-fl-oz25ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-01T22:48:40.248771+00:00
+updated_at: 2026-10-02T04:05:57.875813+00:00
 tags: [record, real-data]
 ---
 
