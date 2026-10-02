@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T17:51:59.912500+00:00",
+  "generated_at": "2026-10-02T22:12:16.748546+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -175,7 +175,7 @@
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
       "score": 87,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
+      "reason": "게이트 초안 미준비: copy, legal, price"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

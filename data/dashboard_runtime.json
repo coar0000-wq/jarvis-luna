@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T04:51:19.083087+09:00",
+  "generated_at": "2026-10-03T07:12:22.055012+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -8,7 +8,7 @@
       "name": "상품 소싱팀",
       "when": "2026-10-02T17:35:19.856265+00:00",
       "summary": "356개 상품 · 등급 S 10 / A 80 / B 50 / C 216 · 새 자료 9건 · 영상 학습 5개",
-      "action": "다이소 수집이 3.8일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
+      "action": "다이소 수집이 3.9일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
       "action_kind": "auto_remediable",
       "waiting": null,
       "waiting_kind": null,
@@ -89,7 +89,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-03T04:50:03.776568+09:00",
+      "when": "2026-10-03T07:12:16.653117+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 15편 · 근거 40개 · 실험 17개 · 새 자료 99건 · 영상 학습 41개",
       "action": null,
       "action_kind": null,
@@ -132,11 +132,11 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-10-02T17:51:59.659957+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 5건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 10건(이번 회차 재사용 · 누적 실호출 510회 · 마지막 10-03 02:37) · 영상 학습 33개",
-      "action": null,
-      "action_kind": null,
-      "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+      "when": "2026-10-02T22:12:16.484153+00:00",
+      "summary": "AI 입력 8/10 · 초안 준비 8/10 · 공개 준비 0/10 · Action 5건 · CP 10 · 카피 8 · 고시 10 · 가격 9 · 법률 8 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 3건(이번 회차 재사용 · 누적 실호출 510회 · 마지막 10-03 02:37) · 영상 학습 33개",
+      "action": "가격 1건 자동 재생성·재검증 필요",
+      "action_kind": "auto_remediable",
+      "waiting": "카피 2건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
       "waiting_kind": "human_approval_required",
       "notice": null,
       "status": "ok",
@@ -216,11 +216,11 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-10-02T17:51:59.471538+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 23/30 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 49건 · 영상 학습 27개",
+      "when": "2026-10-02T22:12:16.290285+00:00",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 2 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 23/30 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 3/6항목 자동 · 새 자료 49건 · 영상 학습 27개",
       "action": null,
       "action_kind": null,
-      "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "waiting": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [이중턱리프팅]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "waiting_kind": "human_approval_required",
       "notice": null,
       "status": "ok",
@@ -398,7 +398,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-10-03T04:50:07.121218+09:00",
+      "when": "2026-10-03T07:03:46.768942+09:00",
       "summary": "84,797노트 · 359,586링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.3% · 학습 키워드 18개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
@@ -422,47 +422,47 @@
     "id": "secretary",
     "name": "비서실장",
     "badge": "총괄",
-    "when": "2026-10-03T04:50:03.749530+09:00",
-    "summary": "2시간 주기 · 고시 30건 · US라벨 30건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
-    "action": null,
-    "action_kind": null,
-    "status": "ok",
+    "when": "2026-10-03T07:12:16.209236+09:00",
+    "summary": "2시간 주기 · 고시 30건 · US라벨 30건 · 카피 10건 · 등록 가능 8건 · 법률 차단 2건",
+    "action": "비서실장 감시 루프 갱신 지연 — Safe Auto-Fix 보고서가 4시간 30분 넘게 확인되지 않음",
+    "action_kind": "revalidate_only",
+    "status": "warning",
     "steps": [
       {
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-10-02T17:37:28.124430+00:00",
-        "몇시간전": 2.2
+        "몇시간전": 4.6
       },
       {
         "단계": "고시 비전 추출",
         "산출물": "gosi.json",
-        "갱신": "2026-10-03T04:50:03.749530+09:00",
+        "갱신": "2026-10-03T07:12:15.284230+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "US 라벨 동기화",
         "산출물": "daiso_us_labels.json",
-        "갱신": "2026-10-03T04:50:03.086527+09:00",
+        "갱신": "2026-10-03T07:12:16.209236+09:00",
         "몇시간전": 0.0
       },
       {
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-10-02T17:37:31.370676+00:00",
-        "몇시간전": 2.2
+        "몇시간전": 4.6
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-10-02T17:51:59.659957+00:00",
-        "몇시간전": 2.0
+        "갱신": "2026-10-02T22:12:16.484153+00:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-10-02T17:51:59.471538+00:00",
-        "몇시간전": 2.0
+        "갱신": "2026-10-02T22:12:16.290285+00:00",
+        "몇시간전": 0.0
       }
     ],
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
@@ -863,7 +863,7 @@
     "status": "completed",
     "record_count": 6799,
     "source_counts": {},
-    "updated_at": "2026-10-03T04:50:03.762530+09:00"
+    "updated_at": "2026-10-03T07:03:43.334691+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1329,7 +1329,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-10-03T04:50:07.121218+09:00"
+    "last_generated": "2026-10-03T07:03:46.768942+09:00"
   },
   "training": {
     "status": "completed",
@@ -1363,14 +1363,14 @@
       "links": 378876
     },
     "prior_totals": {
-      "records": 6764,
-      "notes": 85350,
-      "links": 378442
+      "records": 6799,
+      "notes": 85385,
+      "links": 378876
     },
     "added_this_run": {
-      "records": 35,
-      "notes": 35,
-      "links": 434
+      "records": 0,
+      "notes": 0,
+      "links": 0
     },
     "current_snapshot": {
       "records": 6799,
@@ -5839,17 +5839,17 @@
       "collected_at": "2026-10-02T00:10:06.066882+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 19.7,
+      "age_hours": 22.0,
       "stale": false
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
-      "reason": "2026-09-15 이후 갱신 없음 (17.4일). 2026-09-15 이후 갱신 없음 (17.3일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일).",
+      "reason": "2026-09-15 이후 갱신 없음 (17.5일). 2026-09-15 이후 갱신 없음 (17.4일). 2026-09-15 이후 갱신 없음 (17.3일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.1일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일). 2026-09-15 이후 갱신 없음 (17.0일).",
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "trust": "stale",
-      "age_hours": 416.5,
+      "age_hours": 418.9,
       "stale": true
     },
     "oliveyoung_us": {
@@ -5859,7 +5859,7 @@
       "collected_at": "2026-10-02T10:21:16.792419+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 9.5,
+      "age_hours": 11.9,
       "stale": false
     },
     "google_trends_us": {
@@ -5869,7 +5869,7 @@
       "collected_at": "2026-10-02T10:21:59.778580+00:00",
       "count": 40,
       "trust": "verified",
-      "age_hours": 9.5,
+      "age_hours": 11.8,
       "stale": false
     },
     "sokoglam_us": {
@@ -5879,7 +5879,7 @@
       "collected_at": "2026-10-02T10:27:41.992306+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 9.4,
+      "age_hours": 11.7,
       "stale": false
     },
     "amazon_movers_beauty": {
@@ -5889,7 +5889,7 @@
       "collected_at": "2026-10-02T00:10:06.068990+00:00",
       "count": 0,
       "trust": "none",
-      "age_hours": 19.7,
+      "age_hours": 22.0,
       "stale": false
     },
     "amazon_new_beauty": {
@@ -5899,7 +5899,7 @@
       "collected_at": "2026-10-02T00:10:06.069281+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 19.7,
+      "age_hours": 22.0,
       "stale": false
     },
     "wikipedia_interest": {
@@ -5910,7 +5910,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-09-01 ~ 2026-09-30 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 15.8,
+      "age_hours": 18.2,
       "stale": false
     },
     "allure_media": {
@@ -5921,7 +5921,7 @@
       "count": 30,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 15.8,
+      "age_hours": 18.2,
       "stale": false
     },
     "openfda_sunscreen": {
@@ -5932,7 +5932,7 @@
       "count": 20,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 15.8,
+      "age_hours": 18.2,
       "stale": false
     },
     "shopify_demand_matching": {
@@ -5958,7 +5958,7 @@
       "collected_at": "2026-10-02T00:10:06.070258+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 19.7,
+      "age_hours": 22.0,
       "stale": false
     },
     "sephora": {
@@ -5968,7 +5968,7 @@
       "collected_at": "2026-10-02T00:10:06.070258+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 19.7,
+      "age_hours": 22.0,
       "stale": false
     },
     "open_beauty_facts": {
@@ -5978,7 +5978,7 @@
       "collected_at": "2026-10-02T10:21:16.145920+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 9.5,
+      "age_hours": 11.9,
       "stale": false
     }
   },
@@ -5996,6 +5996,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-10-02T19:51:19.195618+00:00"
+    "at": "2026-10-02T22:12:22.120540+00:00"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T17:51:59.930438+00:00",
+  "generated_at": "2026-10-02T22:12:16.764853+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
@@ -83,7 +83,7 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "141e36ccf7e81ddf5ee0e6498a9fe65e89fa57ed77c6949d4b894f0dad343076"
+      "content_hash": "b21cf77dc9e2bac349bbc8d6555bf43b43a9eba7580ab461ba304f22311dfe2a"
     }
   ]
 }

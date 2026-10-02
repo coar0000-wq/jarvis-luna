@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T17:51:59.923931+00:00",
-  "source_gate_generated_at": "2026-10-02T17:51:59.659957+00:00",
+  "generated_at": "2026-10-02T22:12:16.758249+00:00",
+  "source_gate_generated_at": "2026-10-02T22:12:16.484153+00:00",
   "gate_total": 10,
-  "gate_ready": 9,
+  "gate_ready": 8,
   "shortlist_pd_nos": [
     "1049275",
     "1049276",
