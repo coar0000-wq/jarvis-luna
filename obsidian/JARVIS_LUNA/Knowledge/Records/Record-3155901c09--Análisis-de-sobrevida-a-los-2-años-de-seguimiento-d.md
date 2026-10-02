@@ -2,7 +2,7 @@
 title: "Record 3155901c09 · Análisis-de-sobrevida-a-los-2-años-de-seguimiento-del-Primer-Estudio-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.572587+00:00
+updated_at: 2026-10-02T22:16:41.996953+00:00
 tags: [record, real-data]
 ---
 

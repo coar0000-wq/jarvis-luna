@@ -2,7 +2,7 @@
 title: "Record 568d15b017 · How-to-Use-Claude-to-Safely-Rebrand-Your-Shopify-St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.630942+00:00
+updated_at: 2026-10-02T22:16:43.711522+00:00
 tags: [record, real-data]
 ---
 

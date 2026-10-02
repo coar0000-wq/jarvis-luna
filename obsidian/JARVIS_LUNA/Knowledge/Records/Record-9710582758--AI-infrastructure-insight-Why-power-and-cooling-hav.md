@@ -2,7 +2,7 @@
 title: "Record 9710582758 · AI-infrastructure-insight-Why-power-and-cooling-have-become-the-next-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.292142+00:00
+updated_at: 2026-10-02T22:16:42.609799+00:00
 tags: [record, real-data]
 ---
 

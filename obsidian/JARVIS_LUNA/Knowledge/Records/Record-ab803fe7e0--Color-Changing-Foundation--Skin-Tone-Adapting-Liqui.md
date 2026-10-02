@@ -2,7 +2,7 @@
 title: "Record ab803fe7e0 · Color-Changing-Foundation--Skin-Tone-Adapting-Liquid-Foundation-for-Wo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.796325+00:00
+updated_at: 2026-10-02T22:16:43.026293+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record adb009cf37 · Shopify-enables-AI-agents-to-complete-purchases-directly-on-its-platfo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.969870+00:00
+updated_at: 2026-10-02T22:16:42.343989+00:00
 tags: [record, real-data]
 ---
 

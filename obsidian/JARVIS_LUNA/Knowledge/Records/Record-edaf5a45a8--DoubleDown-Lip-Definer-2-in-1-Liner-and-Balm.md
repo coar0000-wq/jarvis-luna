@@ -2,7 +2,7 @@
 title: "Record edaf5a45a8 · DoubleDown-Lip-Definer-2-in-1-Liner-and-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.496274+00:00
+updated_at: 2026-10-02T22:16:43.597415+00:00
 tags: [record, real-data]
 ---
 

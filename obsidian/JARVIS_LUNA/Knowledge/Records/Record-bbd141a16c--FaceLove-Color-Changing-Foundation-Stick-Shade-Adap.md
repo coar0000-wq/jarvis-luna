@@ -2,7 +2,7 @@
 title: "Record bbd141a16c · FaceLove-Color-Changing-Foundation-Stick-Shade-Adapting-Korean-Makeup-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.838669+00:00
+updated_at: 2026-10-02T22:16:43.058440+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 811cf4079a · РЕПРЕЗЕНТАЦИЯ-ВНУТРЕННЕГО-МИРА-ЛИЧНОСТИ-В-ХУДОЖЕСТВЕННОЙ-ЛИТЕРАТУРЕ-ФО"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.520790+00:00
+updated_at: 2026-10-02T22:16:41.951962+00:00
 tags: [record, real-data]
 ---
 

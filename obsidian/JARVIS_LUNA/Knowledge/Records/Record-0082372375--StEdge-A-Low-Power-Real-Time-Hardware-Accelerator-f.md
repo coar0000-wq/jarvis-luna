@@ -2,7 +2,7 @@
 title: "Record 0082372375 · StEdge-A-Low-Power-Real-Time-Hardware-Accelerator-for-Edge-Detection-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.044355+00:00
+updated_at: 2026-10-02T22:16:41.522380+00:00
 tags: [record, real-data]
 ---
 

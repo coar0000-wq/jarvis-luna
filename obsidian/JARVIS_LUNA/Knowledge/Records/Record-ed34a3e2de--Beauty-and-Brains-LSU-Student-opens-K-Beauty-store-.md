@@ -2,7 +2,7 @@
 title: "Record ed34a3e2de · Beauty-and-Brains-LSU-Student-opens-K-Beauty-store-in-Baton-Rouge---ls"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.152182+00:00
+updated_at: 2026-10-02T22:16:42.495090+00:00
 tags: [record, real-data]
 ---
 

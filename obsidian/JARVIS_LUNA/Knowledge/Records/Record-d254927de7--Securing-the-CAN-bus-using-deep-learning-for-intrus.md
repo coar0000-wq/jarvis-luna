@@ -2,7 +2,7 @@
 title: "Record d254927de7 · Securing-the-CAN-bus-using-deep-learning-for-intrusion-detection-in-ve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.764317+00:00
+updated_at: 2026-10-02T22:16:41.282326+00:00
 tags: [record, real-data]
 ---
 

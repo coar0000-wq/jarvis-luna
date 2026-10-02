@@ -2,7 +2,7 @@
 title: "Record 329880c7a3 · A-Markov-approach-to-credit-rating-migration-conditional-on-economic-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.090141+00:00
+updated_at: 2026-10-02T22:16:41.560593+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 61bcd6b906 · IP-Functions-are-Generally-Available-bringing-high-performance-network"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.242173+00:00
+updated_at: 2026-10-02T22:16:43.371515+00:00
 tags: [record, real-data]
 ---
 

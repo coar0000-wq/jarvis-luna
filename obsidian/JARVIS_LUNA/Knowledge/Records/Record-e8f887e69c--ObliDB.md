@@ -2,7 +2,7 @@
 title: "Record e8f887e69c · ObliDB"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.954770+00:00
+updated_at: 2026-10-02T22:16:41.443359+00:00
 tags: [record, real-data]
 ---
 

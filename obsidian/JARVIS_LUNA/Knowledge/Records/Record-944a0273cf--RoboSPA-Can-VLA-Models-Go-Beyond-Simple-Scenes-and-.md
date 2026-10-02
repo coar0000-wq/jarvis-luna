@@ -2,7 +2,7 @@
 title: "Record 944a0273cf · RoboSPA-Can-VLA-Models-Go-Beyond-Simple-Scenes-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.282089+00:00
+updated_at: 2026-10-02T22:16:40.875766+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 412fa65b2b · Heyhae-Semi-Cured-Gel-Nail-Strips---Hey-Boo-Who--Halloween--Sun-Cured-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.855128+00:00
+updated_at: 2026-10-02T22:16:43.071089+00:00
 tags: [record, real-data]
 ---
 

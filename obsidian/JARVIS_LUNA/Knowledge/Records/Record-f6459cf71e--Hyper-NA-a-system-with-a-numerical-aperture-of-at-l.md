@@ -2,7 +2,7 @@
 title: "Record f6459cf71e · Hyper-NA-a-system-with-a-numerical-aperture-of-at-least-075"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.888819+00:00
+updated_at: 2026-10-02T22:16:41.387390+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c5653d26e9 · ROUND-LAB-Birch-Juice-Moisturizing-Cream-270-fl-oz8"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.509451+00:00
+updated_at: 2026-10-02T22:16:42.795272+00:00
 tags: [record, real-data]
 ---
 

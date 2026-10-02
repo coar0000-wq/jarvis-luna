@@ -2,7 +2,7 @@
 title: "Record 7dcd2e2ed8 · I-Dont-Know-Why-More-People-Arent-Freaking-Out-Abou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.063483+00:00
+updated_at: 2026-10-02T22:16:42.422654+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0c2ac9ff74 · Samsung-Redefines-Laundry-With-New-A-70-and-13-Kg-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.264465+00:00
+updated_at: 2026-10-02T22:16:42.586549+00:00
 tags: [record, real-data]
 ---
 

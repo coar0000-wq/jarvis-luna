@@ -2,7 +2,7 @@
 title: "Record 8d0e4dd100 · Huile-extraordinaire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.618607+00:00
+updated_at: 2026-10-02T22:16:42.883067+00:00
 tags: [record, real-data]
 ---
 

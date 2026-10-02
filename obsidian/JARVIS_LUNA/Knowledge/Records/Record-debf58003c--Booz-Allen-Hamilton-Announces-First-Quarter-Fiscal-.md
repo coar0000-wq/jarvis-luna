@@ -2,7 +2,7 @@
 title: "Record debf58003c · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.598311+00:00
+updated_at: 2026-10-02T22:16:42.019603+00:00
 tags: [record, real-data]
 ---
 

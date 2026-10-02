@@ -2,7 +2,7 @@
 title: "Record b6f1097a0c · SKIN1004-Madagascar-Centella-Light-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.487610+00:00
+updated_at: 2026-10-02T22:16:42.777700+00:00
 tags: [record, real-data]
 ---
 

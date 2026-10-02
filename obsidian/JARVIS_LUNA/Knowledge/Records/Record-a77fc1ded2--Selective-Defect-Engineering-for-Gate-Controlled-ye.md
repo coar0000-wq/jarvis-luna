@@ -2,7 +2,7 @@
 title: "Record a77fc1ded2 · Selective-Defect-Engineering-for-Gate-Controlled-yet-Contact-Transpare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:43.739590+00:00
+updated_at: 2026-10-02T22:16:41.261828+00:00
 tags: [record, real-data]
 ---
 

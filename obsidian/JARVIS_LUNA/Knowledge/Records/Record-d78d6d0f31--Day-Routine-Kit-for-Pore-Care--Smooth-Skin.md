@@ -2,7 +2,7 @@
 title: "Record d78d6d0f31 · Day-Routine-Kit-for-Pore-Care--Smooth-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.492760+00:00
+updated_at: 2026-10-02T22:16:43.593385+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 96b108ee90 · Generalized-Discrete-Diffusion-with-Self-Correction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.099982+00:00
+updated_at: 2026-10-02T22:16:41.568823+00:00
 tags: [record, real-data]
 ---
 

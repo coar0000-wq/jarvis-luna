@@ -2,7 +2,7 @@
 title: "Record 424c36e1e7 · 3sizes-LANEIGE-Cream-Skin-MiniOriginalJumbo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.531236+00:00
+updated_at: 2026-10-02T22:16:42.812696+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record fc2a7da741 · From-Interests-to-Semantic-IDs-Retrieval-Grounded-Credit-Assignment-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.336745+00:00
+updated_at: 2026-10-02T22:16:41.778655+00:00
 tags: [record, real-data]
 ---
 

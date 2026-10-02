@@ -2,7 +2,7 @@
 title: "Record 7e8f9702a7 · A-Volumetrically-Stabilized-Mixed-Formulation-of-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.411472+00:00
+updated_at: 2026-10-02T22:16:42.715342+00:00
 tags: [record, real-data]
 ---
 

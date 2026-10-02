@@ -2,7 +2,7 @@
 title: "Record f42581cb80 · On-the-static-dielectric-constant-of-thin-dielectrics-in-extremely-sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.136028+00:00
+updated_at: 2026-10-02T22:16:41.602193+00:00
 tags: [record, real-data]
 ---
 

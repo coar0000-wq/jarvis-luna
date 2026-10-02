@@ -2,7 +2,7 @@
 title: "Record 6579c78314 · UDON-A-case-for-offloading-to-general-purpose-compute-on-CXL-memory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.090582+00:00
+updated_at: 2026-10-02T22:16:41.560965+00:00
 tags: [record, real-data]
 ---
 

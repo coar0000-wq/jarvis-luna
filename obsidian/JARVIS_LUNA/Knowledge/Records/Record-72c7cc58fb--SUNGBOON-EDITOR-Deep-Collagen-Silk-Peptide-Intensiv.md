@@ -2,7 +2,7 @@
 title: "Record 72c7cc58fb · SUNGBOON-EDITOR-Deep-Collagen-Silk-Peptide-Intensiv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.539908+00:00
+updated_at: 2026-10-02T22:16:42.819887+00:00
 tags: [record, real-data]
 ---
 

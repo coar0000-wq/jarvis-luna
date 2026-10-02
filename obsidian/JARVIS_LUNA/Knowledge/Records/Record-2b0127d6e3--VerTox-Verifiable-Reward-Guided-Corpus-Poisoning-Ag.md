@@ -2,7 +2,7 @@
 title: "Record 2b0127d6e3 · VerTox-Verifiable-Reward-Guided-Corpus-Poisoning-Against-Neural-Rankin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.153836+00:00
+updated_at: 2026-10-02T22:16:41.618265+00:00
 tags: [record, real-data]
 ---
 

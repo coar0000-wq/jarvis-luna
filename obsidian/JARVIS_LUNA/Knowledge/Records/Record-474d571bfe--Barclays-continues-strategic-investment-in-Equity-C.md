@@ -2,7 +2,7 @@
 title: "Record 474d571bfe · Barclays-continues-strategic-investment-in-Equity-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.586713+00:00
+updated_at: 2026-10-02T22:16:42.009414+00:00
 tags: [record, real-data]
 ---
 

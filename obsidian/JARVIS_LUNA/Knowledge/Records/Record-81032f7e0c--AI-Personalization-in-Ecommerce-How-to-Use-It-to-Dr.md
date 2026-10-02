@@ -2,7 +2,7 @@
 title: "Record 81032f7e0c · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Drive-Growth-2026---S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.813245+00:00
+updated_at: 2026-10-02T22:16:42.209578+00:00
 tags: [record, real-data]
 ---
 

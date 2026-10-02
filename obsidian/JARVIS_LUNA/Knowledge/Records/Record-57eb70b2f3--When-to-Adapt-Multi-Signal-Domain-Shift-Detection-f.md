@@ -2,7 +2,7 @@
 title: "Record 57eb70b2f3 · When-to-Adapt-Multi-Signal-Domain-Shift-Detection-for-Efficient-Traini"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:44.413488+00:00
+updated_at: 2026-10-02T22:16:41.845230+00:00
 tags: [record, real-data]
 ---
 

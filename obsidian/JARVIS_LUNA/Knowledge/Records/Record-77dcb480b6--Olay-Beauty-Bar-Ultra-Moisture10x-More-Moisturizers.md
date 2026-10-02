@@ -2,7 +2,7 @@
 title: "Record 77dcb480b6 · Olay-Beauty-Bar-Ultra-Moisture10x-More-Moisturizers-247-Soft--Smooth-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.976464+00:00
+updated_at: 2026-10-02T22:16:43.164477+00:00
 tags: [record, real-data]
 ---
 

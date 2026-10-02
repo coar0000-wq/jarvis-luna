@@ -2,7 +2,7 @@
 title: "Record 0df0b1d45c · 9-Best-Serums-for-Aging-Skin-That-Target-Dryness-Fine-Lines-and-Laxity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.689021+00:00
+updated_at: 2026-10-02T22:16:42.944214+00:00
 tags: [record, real-data]
 ---
 

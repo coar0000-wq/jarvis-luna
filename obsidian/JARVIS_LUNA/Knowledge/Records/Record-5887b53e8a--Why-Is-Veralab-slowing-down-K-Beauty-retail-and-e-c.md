@@ -2,7 +2,7 @@
 title: "Record 5887b53e8a · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:45.108318+00:00
+updated_at: 2026-10-02T22:16:42.458750+00:00
 tags: [record, real-data]
 ---
 

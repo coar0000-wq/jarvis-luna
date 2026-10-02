@@ -2,7 +2,7 @@
 title: "Record 57d5987e88 · Thermo-Fisher-Scientific-Chairman-Ceo-Marc-Casper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:02:46.407563+00:00
+updated_at: 2026-10-02T22:16:43.520719+00:00
 tags: [record, real-data]
 ---
 
