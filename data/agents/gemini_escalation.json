@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T22:02:52.938297+00:00",
+  "generated_at": "2026-10-02T22:21:22.506850+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -19,18 +19,18 @@
   ],
   "advice": {
     "risk": "medium",
-    "diagnosis": "다이소 수집 채널 지연 및 규제 정보 확인 대기로 인한 운영 태스크 정체 상태",
+    "diagnosis": "다이소 수집 채널 장기 미발행 및 아마존 뷰티 채널 공백 발생, 수동 승인 및 원본 정보 대기 중",
     "next_safe_checks": [
-      "다이소 실물 상품 수집 파이프라인 실행 결과 재검증",
-      "아마존 뷰티 수집기 상태 점검",
-      "법률 고시 원문 성분 데이터 무결성 확인",
-      "Shopify draft 등록 대기 건의 승인 조건 검토"
+      "다이소 수집기 실행 결과 및 로그 확인",
+      "아마존 뷰티 채널 수집 상태 재확인",
+      "법률 규제 및 INCI 오버라이드 수동 입력 대기 상태 점검",
+      "Shopify draft 등록 대기 5건의 승인 요건 확인"
     ],
     "requires_human": true,
     "evidence_gaps": [
-      "다이소 수집 누락에 대한 3.9일간의 원인 로그",
-      "MoCRA/FPLA 규제 및 사업자 검증 자료",
-      "깨진 성분 6종에 대한 INCI 원문"
+      "다이소 최근 수집 데이터 부재",
+      "아마존 뷰티 채널 0건 원인 데이터",
+      "규제 성분 원문 및 사업자 규제 정보 입력 대기 중"
     ],
     "forbidden_actions": [
       "external publish",
@@ -41,8 +41,8 @@
   },
   "usage": {
     "promptTokenCount": 887,
-    "candidatesTokenCount": 238,
-    "totalTokenCount": 1125,
+    "candidatesTokenCount": 247,
+    "totalTokenCount": 1134,
     "promptTokensDetails": [
       {
         "modality": "TEXT",

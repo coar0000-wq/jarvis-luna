@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T22:17:24.176178+00:00",
+  "generated_at": "2026-10-02T22:21:17.352883+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
@@ -30,18 +30,7 @@
   "price_rule": "±$0.50 그리고 ±3% 안의 가격 변화는 변경으로 보지 않는다",
   "units": [
     {
-      "handle": "celderma-daily-collagen-sheet-mask-28-g",
-      "pd_nos": [
-        "1059834"
-      ],
-      "action": "create",
-      "changed": [
-        "새 상품"
-      ],
-      "content_hash": "1a2fce5a114ee858ad265bfd47e69e7adc06e33b4e465e47d3721436f6148ac0"
-    },
-    {
-      "handle": "vonsep-retinol-500-iu-serum-30ml",
+      "handle": "bonsep-retinol-500-iu-serum-30-ml",
       "pd_nos": [
         "1055167"
       ],
@@ -49,18 +38,18 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "127a6aae0969af6a30e2e3fdf10904ef7bba4fb88ac9451987811c852ae73fc7"
+      "content_hash": "a36c2692a888ca15de2dd74cf376069422ef7725fc9e97bb606041c695b9f1e2"
     },
     {
-      "handle": "vt-hyaluron-sleeping-mask-4ml",
+      "handle": "celderma-daily-transforming-firming-collagen-mask-28g",
       "pd_nos": [
-        "1049285"
+        "1059834"
       ],
       "action": "create",
       "changed": [
         "새 상품"
       ],
-      "content_hash": "37dba37807b10cb65548515341010712dd7a73fb39002cc15c7444b34497e658"
+      "content_hash": "ab5fa738f6c00c9c134cadac989fd3ed05687cee84399eb03686995a245ee62f"
     },
     {
       "handle": "vt-pdrn-radiance-cream-50-ml",
@@ -71,7 +60,7 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "b3d4baec392ac9165b89d9c7cbddf78c930d6043b1520862fef31aefca98d8ba"
+      "content_hash": "99532e5beca4ab1a7e4ef710ac6daddcdb27bda9ed341061efe887bde7b19563"
     },
     {
       "handle": "vt-reedle-shot",
@@ -83,7 +72,18 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "6dee6035e5a92f27ae0dda525a4dda5fef86dae9f55eec1386e63b94eb2d9866"
+      "content_hash": "65c645439322e1137efbe0c29074cd8ea1c73afeea930f7f3db17eef665076df"
+    },
+    {
+      "handle": "vt-super-hyalon-sleeping-mask-4ml-x-6ea",
+      "pd_nos": [
+        "1049285"
+      ],
+      "action": "create",
+      "changed": [
+        "새 상품"
+      ],
+      "content_hash": "b5180aa949b0d5d94af357fc9bd9d01159e02795681434d5403d8a74a09c0acd"
     }
   ]
 }

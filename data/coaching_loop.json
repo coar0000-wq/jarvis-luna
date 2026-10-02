@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T07:17:24.600753+09:00",
+  "generated_at": "2026-10-03T07:21:17.286511+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -87,7 +87,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 — j-beauty · K-beauty",
           "headline": "VT Reedle Shot 300 Facial Boosting First",
-          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for your daily skincare routine. This convenient set includes six 2ml ampoules to help prep and smooth your complexion. Apply ge",
+          "description": "Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for smooth skin texture care. This set includes six convenient 2ml ampoules to help prep your skin. Apply this boosting first am",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -203,9 +203,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VONSEP Retinol 500 IU Serum 30ml — j-beauty · K-beauty",
-          "headline": "VONSEP Retinol 500 IU Serum 30ml",
-          "description": "Discover the VONSEP Retinol 500 IU Serum in a convenient 30 ml size, designed to enhance your daily skincare routine. This facial serum helps improve the look of skin texture and promotes a brighter-l",
+          "primary_text": "Bonsep Retinol 500 IU Serum 30 ml — j-beauty · K-beauty",
+          "headline": "Bonsep Retinol 500 IU Serum 30 ml",
+          "description": "Discover the Bonsep Retinol 500 IU Serum in a convenient 30 ml size, formulated to help smooth the look of fine lines for a more refined appearance. Incorporating this serum into your daily skincare r",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -321,9 +321,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Reedle Shot 100 Face Ampoule 2ml — j-beauty · K-beauty",
-          "headline": "VT Reedle Shot 100 Face Ampoule 2ml",
-          "description": "VT Reedle Shot 100 Face Ampoule 2ml is a Korean beauty face ampoule in a 2ml size. This draft uses only the verified product identity and package information. Review the ingredient list, directions, a",
+          "primary_text": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea — j-beauty · K-beauty",
+          "headline": "VT Reedle Shot 100 Facial Boosting First",
+          "description": "Experience this facial boosting first ampoule designed for skin texture care. Each set includes six convenient 2ml ampoules for your daily routine. Apply gently onto the face as a first step to help p",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -441,7 +441,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "VT PDRN Radiance Cream 50 ml — j-beauty · K-beauty",
           "headline": "VT PDRN Radiance Cream 50 ml",
-          "description": "Discover the VT PDRN Radiance Cream in a convenient 50 ml size, formulated to help you achieve a glowing and radiant complexion. Apply this nourishing cream daily as part of your skincare routine to k",
+          "description": "Discover the VT PDRN Radiance Cream in a convenient 50 ml size, designed to bring a luminous glow to your daily skincare routine. This nourishing cream helps enhance your natural radiance for a bright",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -558,9 +558,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml — j-beauty · K-beauty",
-          "headline": "Bongseop Retinol Firming Shot Body Guash",
-          "description": "Experience daily body care with the Bongseop Retinol Firming Shot Body Guasha Serum. This 100 ml serum helps smooth the look of fine lines for a more refined skin appearance. Designed for easy applica",
+          "primary_text": "Voncept Retinol Firming Shot Body Guasha Serum 100ml — j-beauty · K-beauty",
+          "headline": "Voncept Retinol Firming Shot Body Guasha",
+          "description": "Discover the Voncept Retinol Firming Shot Body Guasha Serum, designed to help improve skin firmness and elasticity. This 100ml body serum combines the benefits of a targeted formula with an easy-to-us",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -678,7 +678,7 @@
           "label": "A · 성분/커뮤니티 후킹",
           "primary_text": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea — ask · K-beauty",
           "headline": "Celderma Daily PDRN Radiance Cream Wrapp",
-          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to give your skin a radiant and glowing appearance. This single-use sheet mask helps lock in moisture for a dewy, smooth look. C",
+          "description": "Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to help you achieve a brighter-looking complexion and a dewy glow. This convenient sheet mask hugs the contours of the face to d",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -798,9 +798,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "VT Hyaluron Sleeping Mask 4ml — ask · K-beauty",
-          "headline": "VT Hyaluron Sleeping Mask 4ml",
-          "description": "VT Hyaluron Sleeping Mask 4ml is a Korean beauty sleeping mask in a 4ml size. This draft uses only the verified product identity and package information. Review the ingredient list, directions, and fi",
+          "primary_text": "VT Super Hyalon Sleeping Mask 4ml x 6ea — ask · K-beauty",
+          "headline": "VT Super Hyalon Sleeping Mask 4ml x 6ea",
+          "description": "Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep moisture and hydration to your skin while you sleep. Each pack contains six convenient 4 ml individual pouches for easy daily use. ",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -1028,9 +1028,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "CELDERMA Daily Collagen Sheet Mask 28 g — ask · sheet mask",
-          "headline": "CELDERMA Daily Collagen Sheet Mask 28 g",
-          "description": "CELDERMA Daily Collagen Sheet Mask 28 g is a Korean beauty sheet mask in a 28 g size. This draft uses only the verified product identity and package information. Review the ingredient list, directions",
+          "primary_text": "Celderma Daily Transforming Firming Collagen Mask 28g — ask · sheet mask",
+          "headline": "Celderma Daily Transforming Firming Coll",
+          "description": "Discover the Celderma Daily Transforming Firming Collagen Mask, a 28g sheet mask designed to help improve the appearance of skin elasticity and firmness. Simply apply to clean skin to help support a s",
           "cta": "Shop now"
         },
         "variant_b": {
@@ -1138,9 +1138,9 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "CELDERMA Daily Collagen Gel Sheet Mask 29g — ask · sheet mask",
-          "headline": "CELDERMA Daily Collagen Gel Sheet Mask 2",
-          "description": "CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information. Review the ingredient list, dire",
+          "primary_text": "Celderma Daily Collagen Essence Gel Mask 29g — ask · sheet mask",
+          "headline": "Celderma Daily Collagen Essence Gel Mask",
+          "description": "Experience the refreshing hydration of the Celderma Daily Collagen Essence Gel Mask. This convenient 29g hydrogel mask helps deliver moisture for a visibly glowing and refreshed complexion. Simply app",
           "cta": "Shop now"
         },
         "variant_b": {

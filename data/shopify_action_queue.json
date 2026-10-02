@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T22:17:24.293449+00:00",
-  "source_gate_generated_at": "2026-10-02T22:17:23.876076+00:00",
+  "generated_at": "2026-10-02T22:21:17.406393+00:00",
+  "source_gate_generated_at": "2026-10-02T22:21:17.079067+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -32,7 +32,7 @@
         "1049285"
       ],
       "variant_count": 1,
-      "payload_hash": "264a9e2105d9ad7bc12b8b4e1642f344d13ce436a004c9b8d64d02e65505ce95",
+      "payload_hash": "67c6cc143697be8d0fd277ca95a4633b3b025e23379a2e137d7b9d76eb22bd78",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -64,7 +64,7 @@
         "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "d46957361674a78cb2c22fe3fe72ad947a2e5e19f1a6c614a3f48b540e563196",
+      "payload_hash": "4831021e5fcabb5fc31c21af2430c206c40a227b8cc0ab4fb1c7fb5705e3b24a",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -96,7 +96,7 @@
         "1059834"
       ],
       "variant_count": 1,
-      "payload_hash": "ef6129133949de34082022edb4bbf15102ea5e432b96289bb860a7d6219f15b2",
+      "payload_hash": "fee31ac2bed6f5f22fbe323d1e397287c462c0132a70a829818de91056be7c74",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -128,7 +128,7 @@
         "1067498"
       ],
       "variant_count": 1,
-      "payload_hash": "cde95a6304693ba0f0c6723cf268b58f9bad9fbd7065d8eef584c09806913d8d",
+      "payload_hash": "cd53fbb18ba21c95e74a7571c2f4250b336e747ffd910c192cc233c16f7c45a9",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
@@ -162,7 +162,7 @@
         "1049276"
       ],
       "variant_count": 2,
-      "payload_hash": "fecec828c415b475ede834b6fe153f80d22167f05f42738ea9e1685da5e7ceb2",
+      "payload_hash": "6414fe02e96b3711517fe83b26813c45565693a82478b5fb7e46a0ade459a2a6",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",
