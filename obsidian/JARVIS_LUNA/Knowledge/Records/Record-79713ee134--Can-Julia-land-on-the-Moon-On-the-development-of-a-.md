@@ -2,7 +2,7 @@
 title: "Record 79713ee134 · Can-Julia-land-on-the-Moon-On-the-development-of-a-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:33.976509+00:00
+updated_at: 2026-10-02T22:02:43.238705+00:00
 tags: [record, real-data]
 ---
 

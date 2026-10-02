@@ -2,7 +2,7 @@
 title: "Record 43542a9e3a · Plasma-double-layer-development-during-high-power-EUV-exposure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.756940+00:00
+updated_at: 2026-10-02T22:02:44.127435+00:00
 tags: [record, real-data]
 ---
 

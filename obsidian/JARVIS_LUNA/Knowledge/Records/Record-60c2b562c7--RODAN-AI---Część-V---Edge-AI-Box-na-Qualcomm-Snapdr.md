@@ -2,7 +2,7 @@
 title: "Record 60c2b562c7 · RODAN-AI---Część-V---Edge-AI-Box-na-Qualcomm-Snapdragon-6s-4G-Gen1-Oct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.096165+00:00
+updated_at: 2026-10-02T22:02:44.504319+00:00
 tags: [record, real-data]
 ---
 

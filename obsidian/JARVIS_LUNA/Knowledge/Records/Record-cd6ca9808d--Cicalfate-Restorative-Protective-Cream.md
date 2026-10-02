@@ -2,7 +2,7 @@
 title: "Record cd6ca9808d · Cicalfate-Restorative-Protective-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.805335+00:00
+updated_at: 2026-10-02T22:02:46.490091+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e5f18d3f21 · How-to-choose-your-first-Genie-Agents-for-maximum-impact"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.586621+00:00
+updated_at: 2026-10-02T22:02:46.235050+00:00
 tags: [record, real-data]
 ---
 

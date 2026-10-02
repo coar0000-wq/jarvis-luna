@@ -2,7 +2,7 @@
 title: "Record d3bb00fb44 · FD-AA-A-Lightweight-Focal-Diffuse-And-Attenuation-Aware-Head-for-Incid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.997961+00:00
+updated_at: 2026-10-02T22:02:44.394555+00:00
 tags: [record, real-data]
 ---
 

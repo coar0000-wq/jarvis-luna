@@ -2,7 +2,7 @@
 title: "Record acefc06823 · Dr-Altheas-345-Relief-Line-Expands---Beauty-Packaging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.532169+00:00
+updated_at: 2026-10-02T22:02:44.982361+00:00
 tags: [record, real-data]
 ---
 

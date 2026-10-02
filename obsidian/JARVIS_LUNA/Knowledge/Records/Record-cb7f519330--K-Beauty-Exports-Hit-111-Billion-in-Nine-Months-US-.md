@@ -2,7 +2,7 @@
 title: "Record cb7f519330 · K-Beauty-Exports-Hit-111-Billion-in-Nine-Months-US-Share-Reaches-Recor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.424178+00:00
+updated_at: 2026-10-02T22:02:44.864543+00:00
 tags: [record, real-data]
 ---
 

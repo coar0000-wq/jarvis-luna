@@ -2,7 +2,7 @@
 title: "Record e5c18db088 · The-Ordinary-Hyaluronic-Acid-2--B5-with-Ceramides-Multi-Depth-Hydratio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.402944+00:00
+updated_at: 2026-10-02T22:02:46.004616+00:00
 tags: [record, real-data]
 ---
 

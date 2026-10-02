@@ -2,7 +2,7 @@
 title: "Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.657381+00:00
+updated_at: 2026-10-02T22:02:44.017572+00:00
 tags: [record, real-data]
 ---
 

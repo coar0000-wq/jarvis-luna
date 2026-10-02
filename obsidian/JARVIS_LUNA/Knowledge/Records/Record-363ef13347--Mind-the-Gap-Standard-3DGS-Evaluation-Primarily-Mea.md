@@ -2,7 +2,7 @@
 title: "Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.896411+00:00
+updated_at: 2026-10-02T22:02:45.392162+00:00
 tags: [record, real-data]
 ---
 

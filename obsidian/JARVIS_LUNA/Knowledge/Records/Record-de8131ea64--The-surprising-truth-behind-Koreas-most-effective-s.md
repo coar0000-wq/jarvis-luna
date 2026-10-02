@@ -2,7 +2,7 @@
 title: "Record de8131ea64 · The-surprising-truth-behind-Koreas-most-effective-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.360063+00:00
+updated_at: 2026-10-02T22:02:44.796786+00:00
 tags: [record, real-data]
 ---
 

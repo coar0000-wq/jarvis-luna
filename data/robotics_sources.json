@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:22:06.625305+00:00",
+  "generated_at": "2026-10-02T21:47:01.589892+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -428,6 +428,22 @@
           "source": "rss"
         },
         {
+          "title": "Eli Lilly, Purdue to share field learnings on human robot interaction at RoboBusiness",
+          "summary": "<p>Experts from Eli Lilly and Purdue University will reveal findings about the perception of robots on the manufacturing floor.</p> <p>The post <a href=\"https://www.therobotreport.com/eli-lilly-purdue-to-share-field-learnings-on-human-robot-interaction-at-robobusiness/\">Eli Lilly, Purdue to share field learnings on human robot interaction at RoboBusiness</a> appeared first on <a href=\"https://www.",
+          "published": "Fri, 02 Oct 2026 21:12:14 +0000",
+          "url": "https://www.therobotreport.com/eli-lilly-purdue-to-share-field-learnings-on-human-robot-interaction-at-robobusiness/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
+          "title": "Runway introduces Praxis-1 world action model for robotics",
+          "summary": "<p>When Runway does release Praxis-1 publicly, it plans to ship it with open weights rather than as a closed model. </p> <p>The post <a href=\"https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/\">Runway introduces Praxis-1 world action model for robotics</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Fri, 02 Oct 2026 18:32:13 +0000",
+          "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/",
+          "feed": "The Robot Report",
+          "source": "rss"
+        },
+        {
           "title": "Calling robotics startups: Submissions for the 2026 Robotics Startup Radar close soon",
           "summary": "<p>Submit now to be part of the Robotics Startup Radar, which brings together some of the most promising robotics startups.</p> <p>The post <a href=\"https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/\">Calling robotics startups: Submissions for the 2026 Robotics Startup Radar close soon</a> appeared first on <a href=\"https://www.therobotreport.com\">T",
           "published": "Fri, 02 Oct 2026 14:00:59 +0000",
@@ -528,22 +544,6 @@
           "summary": "<p>The Robot Report looks at recent advances in automation for manufacturing, from improvements in technologies and use cases to the potential of humanoids and AI.</p> <p>The post <a href=\"https://www.therobotreport.com/state-of-robots-in-manufacturing/\">State of Robots in Manufacturing</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
           "published": "Tue, 29 Sep 2026 13:22:56 +0000",
           "url": "https://www.therobotreport.com/state-of-robots-in-manufacturing/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
-          "summary": "<p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p> <p>The post <a href=\"https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/\">Gecko Robotics works with NVIDIA to add AI agent security and control</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>",
-          "published": "Mon, 28 Sep 2026 17:41:32 +0000",
-          "url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
-          "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids",
-          "summary": "<p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p> <p>The post <a href=\"https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/\">Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids</a> appeared first on <a href=\"https://www.therobotreport.com",
-          "published": "Mon, 28 Sep 2026 13:56:56 +0000",
-          "url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
           "feed": "The Robot Report",
           "source": "rss"
         }

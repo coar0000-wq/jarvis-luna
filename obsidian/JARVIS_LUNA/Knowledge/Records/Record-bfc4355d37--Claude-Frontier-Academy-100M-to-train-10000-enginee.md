@@ -2,7 +2,7 @@
 title: "Record bfc4355d37 · Claude-Frontier-Academy-100M-to-train-10000-engineers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.531512+00:00
+updated_at: 2026-10-02T22:02:46.168546+00:00
 tags: [record, real-data]
 ---
 

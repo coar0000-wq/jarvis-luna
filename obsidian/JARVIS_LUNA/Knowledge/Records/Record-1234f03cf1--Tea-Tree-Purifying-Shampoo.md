@@ -2,7 +2,7 @@
 title: "Record 1234f03cf1 · Tea-Tree-Purifying-Shampoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.839143+00:00
+updated_at: 2026-10-02T22:02:46.527312+00:00
 tags: [record, real-data]
 ---
 

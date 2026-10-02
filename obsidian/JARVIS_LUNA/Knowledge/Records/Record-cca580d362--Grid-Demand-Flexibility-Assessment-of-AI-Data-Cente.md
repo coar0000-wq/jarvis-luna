@@ -2,7 +2,7 @@
 title: "Record cca580d362 · Grid-Demand-Flexibility-Assessment-of-AI-Data-Centers-via-Batch-Worklo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.280779+00:00
+updated_at: 2026-10-02T22:02:43.593281+00:00
 tags: [record, real-data]
 ---
 

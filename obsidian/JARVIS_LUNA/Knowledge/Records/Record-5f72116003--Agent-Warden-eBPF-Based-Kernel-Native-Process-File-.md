@@ -2,7 +2,7 @@
 title: "Record 5f72116003 · Agent-Warden-eBPF-Based-Kernel-Native-Process-File-Provenance-Tracking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.019780+00:00
+updated_at: 2026-10-02T22:02:44.419231+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 79d725867c · Soft-Glow-Illuminator"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.837676+00:00
+updated_at: 2026-10-02T22:02:46.525705+00:00
 tags: [record, real-data]
 ---
 

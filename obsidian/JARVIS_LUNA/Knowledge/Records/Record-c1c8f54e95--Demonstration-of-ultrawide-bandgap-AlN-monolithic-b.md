@@ -2,7 +2,7 @@
 title: "Record c1c8f54e95 · Demonstration-of-ultrawide-bandgap-AlN-monolithic-bidirectional-switch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.450905+00:00
+updated_at: 2026-10-02T22:02:43.782366+00:00
 tags: [record, real-data]
 ---
 

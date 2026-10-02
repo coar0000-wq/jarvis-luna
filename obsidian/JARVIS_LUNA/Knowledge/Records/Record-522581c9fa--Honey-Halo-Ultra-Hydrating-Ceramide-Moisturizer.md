@@ -2,7 +2,7 @@
 title: "Record 522581c9fa · Honey-Halo-Ultra-Hydrating-Ceramide-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.816561+00:00
+updated_at: 2026-10-02T22:02:46.502271+00:00
 tags: [record, real-data]
 ---
 

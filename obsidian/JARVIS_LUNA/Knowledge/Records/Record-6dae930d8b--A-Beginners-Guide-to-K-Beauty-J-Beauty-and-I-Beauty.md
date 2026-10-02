@@ -2,7 +2,7 @@
 title: "Record 6dae930d8b · A-Beginners-Guide-to-K-Beauty-J-Beauty-and-I-Beauty---AOLcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.445527+00:00
+updated_at: 2026-10-02T22:02:44.887020+00:00
 tags: [record, real-data]
 ---
 

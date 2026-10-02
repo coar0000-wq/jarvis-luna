@@ -2,7 +2,7 @@
 title: "Record 0bdf67652e · Region-Level-Policy-Optimization-for-Fine-grained-MLLM-Perception"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.843201+00:00
+updated_at: 2026-10-02T22:02:44.220370+00:00
 tags: [record, real-data]
 ---
 

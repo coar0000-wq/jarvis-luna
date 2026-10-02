@@ -2,7 +2,7 @@
 title: "Record f441341dcc · MAADBench-The-Refreshable-Paradigm-for-Anomaly-Detection-in-Multi-Agen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.273640+00:00
+updated_at: 2026-10-02T22:02:43.585291+00:00
 tags: [record, real-data]
 ---
 

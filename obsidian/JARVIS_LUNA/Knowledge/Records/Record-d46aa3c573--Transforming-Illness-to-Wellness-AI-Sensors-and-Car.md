@@ -2,7 +2,7 @@
 title: "Record d46aa3c573 · Transforming-Illness-to-Wellness-AI-Sensors-and-Care-on-Demand"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.660165+00:00
+updated_at: 2026-10-02T22:02:44.020701+00:00
 tags: [record, real-data]
 ---
 

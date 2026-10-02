@@ -2,7 +2,7 @@
 title: "Record 228bff9810 · Learning-Better-Reasoning-for-Generative-Recommendation-with-Semantic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.946254+00:00
+updated_at: 2026-10-02T22:02:44.336321+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ec20c4a054 · Cobalt-Leveraging-Expert-Co-activation-for-Efficient-Distributed-MoE-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.007598+00:00
+updated_at: 2026-10-02T22:02:44.405520+00:00
 tags: [record, real-data]
 ---
 

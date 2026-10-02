@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T02:51:59.797162+09:00",
+  "generated_at": "2026-10-03T07:00:26.802953+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -1747,7 +1747,7 @@
       "product": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 100,
+      "score": 99,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1779,7 +1779,7 @@
       "product": "본셉 레티놀 500 IU 세럼 30 ml",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 98,
+      "score": 97,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1811,7 +1811,7 @@
       "product": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 98,
+      "score": 97,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1875,7 +1875,7 @@
       "product": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 96,
+      "score": 95,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1939,7 +1939,39 @@
       "product": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 92,
+      "score": 93,
+      "agent_ready": true,
+      "public_ready": false,
+      "recommended_insight_ids": [
+        "MKT-002",
+        "MKT-003",
+        "MKT-004",
+        "MKT-016",
+        "MKT-023",
+        "MKT-025",
+        "MKT-026",
+        "MKT-032",
+        "MKT-034",
+        "MKT-035",
+        "MKT-012",
+        "MKT-014",
+        "MKT-015"
+      ],
+      "organic_first_actions": [
+        "구매 질문형 PDP/FAQ 초안",
+        "제품 제형·사용 순서 숏폼 콘티",
+        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
+      ],
+      "paid_action_status": "blocked_until_explicit_user_approval",
+      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
+    },
+    {
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "product": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "grade": "S",
+      "score": 90,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -1971,40 +2003,8 @@
       "product": "바세린 마스크팩 집중보습",
       "bucket": "마스크팩",
       "grade": "S",
-      "score": 91,
+      "score": 90,
       "agent_ready": false,
-      "public_ready": false,
-      "recommended_insight_ids": [
-        "MKT-002",
-        "MKT-003",
-        "MKT-004",
-        "MKT-016",
-        "MKT-023",
-        "MKT-025",
-        "MKT-026",
-        "MKT-032",
-        "MKT-034",
-        "MKT-035",
-        "MKT-012",
-        "MKT-014",
-        "MKT-015"
-      ],
-      "organic_first_actions": [
-        "구매 질문형 PDP/FAQ 초안",
-        "제품 제형·사용 순서 숏폼 콘티",
-        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
-      ],
-      "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
-    },
-    {
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "product": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "grade": "S",
-      "score": 87,
-      "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2035,7 +2035,7 @@
       "product": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "grade": "S",
-      "score": 87,
+      "score": 89,
       "agent_ready": true,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -2154,7 +2154,7 @@
     "메타 리타게팅의 1만 명 임계값과 할인 제안은 검증되지 않은 플랫폼·계정별 주장이라 채택하지 않으며 유료 집행은 승인 전 차단"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-02T17:51:59.659957+00:00",
+    "listing_gate_generated_at": "2026-10-02T22:00:24.179166+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,

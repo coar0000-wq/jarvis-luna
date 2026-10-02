@@ -2,7 +2,7 @@
 title: "Record f94ae5dcf8 · Hybrid-fluid-particle-in-cell-simulations-of-extreme-ultraviolet-induc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.448826+00:00
+updated_at: 2026-10-02T22:02:43.780072+00:00
 tags: [record, real-data]
 ---
 

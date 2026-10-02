@@ -2,7 +2,7 @@
 title: "Record 4860ea0c37 · Cardi-Bs-Vogue-World-Eye-Makeup-Is-Glittery-Magenta-MagicSee-the-Photo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.127239+00:00
+updated_at: 2026-10-02T22:02:45.658395+00:00
 tags: [record, real-data]
 ---
 

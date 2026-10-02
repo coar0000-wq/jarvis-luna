@@ -2,7 +2,7 @@
 title: "Record 486319cbcc · Enhanced-Knowledge-Distillation-for-Detection-Transformer-via-Teacher-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.846704+00:00
+updated_at: 2026-10-02T22:02:44.224312+00:00
 tags: [record, real-data]
 ---
 

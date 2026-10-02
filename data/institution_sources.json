@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-02T17:22:56.015991+00:00",
+  "collected_at": "2026-10-02T21:48:00.734651+00:00",
   "total": 1073,
   "organizations": 35,
   "by_org": {
@@ -54,7 +54,7 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-10-02T17:22:16.967362+00:00"
+      "collected_at": "2026-10-02T21:47:11.570146+00:00"
     },
     "sitemap": {
       "status": "ok",
@@ -66,13 +66,13 @@
           "reason": "lastmod 있는 매칭 URL 0건"
         }
       ],
-      "collected_at": "2026-10-02T17:22:38.896873+00:00"
+      "collected_at": "2026-10-02T21:47:36.841511+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 743,
       "failures": [],
-      "collected_at": "2026-10-02T17:22:56.015130+00:00"
+      "collected_at": "2026-10-02T21:48:00.733498+00:00"
     }
   },
   "not_collected": {
@@ -1911,6 +1911,19 @@
       "title_source": "feed"
     },
     {
+      "title": "Early Talent Hiring at Palantir",
+      "url": "https://blog.palantir.com/early-talent-hiring-at-palantir-c7388f1fdab7?source=rss----3c87dc14372f---4",
+      "date": "2026-10-02",
+      "date_raw": "Fri, 02 Oct 2026 20:28:41 GMT",
+      "summary": "",
+      "org": "Palantir",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://blog.palantir.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Securing Software at the Speed of AI",
       "url": "https://blog.palantir.com/securing-software-at-the-speed-of-ai-0b1d7ddd2bf0?source=rss----3c87dc14372f---4",
       "date": "2026-08-20",
@@ -2019,19 +2032,6 @@
       "url": "https://blog.palantir.com/frontend-engineering-at-palantir-plotlines-in-three-js-c0c47f310715?source=rss----3c87dc14372f---4",
       "date": "2026-04-07",
       "date_raw": "Tue, 07 Apr 2026 13:58:02 GMT",
-      "summary": "",
-      "org": "Palantir",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://blog.palantir.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Frontend Engineering at Palantir: Building a Backend-less Cross-Application API",
-      "url": "https://blog.palantir.com/frontend-engineering-at-palantir-building-a-backend-less-cross-application-api-a40be7874ee5?source=rss----3c87dc14372f---4",
-      "date": "2026-04-06",
-      "date_raw": "Mon, 06 Apr 2026 17:16:17 GMT",
       "summary": "",
       "org": "Palantir",
       "category": "데이터분석",
@@ -2301,6 +2301,19 @@
       "title_source": "feed"
     },
     {
+      "title": "In Capital Markets, the Buy Side Runs on NAV. Finance Protects the Fee.",
+      "url": "https://www.databricks.com/blog/capital-markets-buy-side-runs-nav-finance-protects-fee",
+      "date": "2026-10-02",
+      "date_raw": "Fri, 02 Oct 2026 17:40:26 GMT",
+      "summary": "Ask a capital markets CFO on the buy side how the quarter looks, and the answer starts...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "How to choose your first Genie Agents for maximum impact",
       "url": "https://www.databricks.com/blog/how-choose-your-first-genie-agents-maximum-impact",
       "date": "2026-10-02",
@@ -2418,19 +2431,6 @@
       "title_source": "feed"
     },
     {
-      "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1",
-      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-12000-employees-day-1",
-      "date": "2026-09-28",
-      "date_raw": "Mon, 28 Sep 2026 20:11:23 GMT",
-      "summary": "Providing our employees access to frontier AI capabilities is a top priority at Databricks, and consequently...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
       "title": "Leidos appoints AT&T COO Jeff McElfresh to board of directors",
       "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-appoints-att-coo-jeff-mcelfresh-board-directors",
       "date": "2026-10-01",
@@ -2470,11 +2470,11 @@
       "title_source": "feed"
     },
     {
-      "title": "Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide",
-      "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-keep-650000-navy-and-marine-corps-personnel-securely",
+      "title": "/C O R R E C T I O N -- Leidos Holdings, Inc./",
+      "url": "https://investors.leidos.com/news-releases/news-release-details/c-o-r-r-e-c-t-i-o-n-leidos-holdings-inc",
       "date": "2026-09-14",
       "date_raw": "Mon, 14 Sep 2026 16:30:00 -0400",
-      "summary": "Department of Navy awards $875 million for second option year on contract to secure and maintain critical networks worldwide RESTON, Va., Sept. 14, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS)&nbsp;will continue helping keep more than 650,000 U.S. Navy and Marine Corps personnel securely connected by",
+      "summary": "In the news release, Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide, issued 14-Sep-2026 by Leidos Holdings, Inc. over PR Newswire, we are advised by the company that the contract value of $875 million was incorrectly stated. The correct value is $926 million.",
       "org": "Leidos",
       "category": "데이터분석",
       "kind": "발표물",
@@ -2483,11 +2483,11 @@
       "title_source": "feed"
     },
     {
-      "title": "/C O R R E C T I O N -- Leidos Holdings, Inc./",
-      "url": "https://investors.leidos.com/news-releases/news-release-details/c-o-r-r-e-c-t-i-o-n-leidos-holdings-inc",
+      "title": "Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide",
+      "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-keep-650000-navy-and-marine-corps-personnel-securely",
       "date": "2026-09-14",
       "date_raw": "Mon, 14 Sep 2026 16:30:00 -0400",
-      "summary": "In the news release, Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide, issued 14-Sep-2026 by Leidos Holdings, Inc. over PR Newswire, we are advised by the company that the contract value of $875 million was incorrectly stated. The correct value is $926 million.",
+      "summary": "Department of Navy awards $875 million for second option year on contract to secure and maintain critical networks worldwide RESTON, Va., Sept. 14, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS)&nbsp;will continue helping keep more than 650,000 U.S. Navy and Marine Corps personnel securely connected by",
       "org": "Leidos",
       "category": "데이터분석",
       "kind": "발표물",
@@ -3627,6 +3627,19 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/survey-how-britain-can-win",
+      "date": "2026-10-02",
+      "date_raw": "2026-10-02T21:14:26.000Z",
+      "title_source": "url-slug",
+      "title": "Survey How Britain Can Win",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/talks-at-gs/us-soccers-jt-batson-on-the-world-cup-and-scaling-the-game",
       "date": "2026-10-01",
       "date_raw": "2026-10-01T13:17:37.000Z",
@@ -3666,11 +3679,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/apprenticeship",
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/daniel-nadler-on-building-an-AI-powered-search-engine-for-medicine",
       "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:20:47.000Z",
+      "date_raw": "2026-09-30T13:49:02.000Z",
       "title_source": "url-slug",
-      "title": "Apprenticeship",
+      "title": "Daniel Nadler On Building An Ai Powered Search Engine For Medicine",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3684,19 +3697,6 @@
       "date_raw": "2026-09-30T15:21:06.000Z",
       "title_source": "url-slug",
       "title": "Generation Growth The Small Business Manifesto",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/progress-report-2014",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:21:22.000Z",
-      "title_source": "url-slug",
-      "title": "Progress Report 2014",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3770,37 +3770,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/rethinking-productivity",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T18:54:01.000Z",
-      "title_source": "url-slug",
-      "title": "Rethinking Productivity",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
       "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/midlands-first-cohort",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T15:20:33.000Z",
       "title_source": "url-slug",
       "title": "Midlands First Cohort",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/national-cohort-graduation",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T18:53:43.000Z",
-      "title_source": "url-slug",
-      "title": "National Cohort Graduation",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3853,6 +3827,32 @@
       "date_raw": "2026-09-30T15:20:14.000Z",
       "title_source": "url-slug",
       "title": "2019 Businesses 2030 Survey",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/apprenticeship",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:20:47.000Z",
+      "title_source": "url-slug",
+      "title": "Apprenticeship",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/progress-report-2014",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:21:22.000Z",
+      "title_source": "url-slug",
+      "title": "Progress Report 2014",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",

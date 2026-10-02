@@ -2,7 +2,7 @@
 title: "Record 08d187a543 · InOrbitAI-releases-OpenRobOps-ISO-21423-reference-implementation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.768864+00:00
+updated_at: 2026-10-02T22:02:46.445279+00:00
 tags: [record, real-data]
 ---
 

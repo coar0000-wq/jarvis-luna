@@ -2,7 +2,7 @@
 title: "Record 15a6b82801 · How-Family-Businesses-Should-Plan-For-Generational-Success"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.614358+00:00
+updated_at: 2026-10-02T22:02:46.268306+00:00
 tags: [record, real-data]
 ---
 

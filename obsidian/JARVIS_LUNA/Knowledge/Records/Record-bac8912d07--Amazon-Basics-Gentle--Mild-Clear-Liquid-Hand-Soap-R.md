@@ -2,7 +2,7 @@
 title: "Record bac8912d07 · Amazon-Basics-Gentle--Mild-Clear-Liquid-Hand-Soap-Refill-Triclosan-Fre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.186069+00:00
+updated_at: 2026-10-02T22:02:45.730704+00:00
 tags: [record, real-data]
 ---
 

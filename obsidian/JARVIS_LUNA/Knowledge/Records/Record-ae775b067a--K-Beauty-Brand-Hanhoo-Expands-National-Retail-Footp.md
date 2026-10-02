@@ -2,7 +2,7 @@
 title: "Record ae775b067a · K-Beauty-Brand-Hanhoo-Expands-National-Retail-Footprint---PR-Newswire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.705465+00:00
+updated_at: 2026-10-02T22:02:45.179366+00:00
 tags: [record, real-data]
 ---
 

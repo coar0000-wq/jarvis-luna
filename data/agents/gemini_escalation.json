@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T17:39:41.584588+00:00",
+  "generated_at": "2026-10-02T22:02:52.938297+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
   "enabled": true,
@@ -12,14 +12,46 @@
   "paid_api_called": false,
   "canonical_gate_changed": false,
   "external_action_executed": false,
-  "call_count": 0,
-  "called": false,
+  "call_count": 1,
+  "called": true,
   "reasons": [
-    "repeated_unresolved_auto_issues=2"
+    "repeated_unresolved_auto_issues=1"
   ],
-  "advice": null,
-  "usage": null,
-  "error": "http_503",
+  "advice": {
+    "risk": "medium",
+    "diagnosis": "다이소 수집 채널 지연 및 규제 정보 확인 대기로 인한 운영 태스크 정체 상태",
+    "next_safe_checks": [
+      "다이소 실물 상품 수집 파이프라인 실행 결과 재검증",
+      "아마존 뷰티 수집기 상태 점검",
+      "법률 고시 원문 성분 데이터 무결성 확인",
+      "Shopify draft 등록 대기 건의 승인 조건 검토"
+    ],
+    "requires_human": true,
+    "evidence_gaps": [
+      "다이소 수집 누락에 대한 3.9일간의 원인 로그",
+      "MoCRA/FPLA 규제 및 사업자 검증 자료",
+      "깨진 성분 6종에 대한 INCI 원문"
+    ],
+    "forbidden_actions": [
+      "external publish",
+      "payment",
+      "advertising",
+      "canonical gate override"
+    ]
+  },
+  "usage": {
+    "promptTokenCount": 887,
+    "candidatesTokenCount": 238,
+    "totalTokenCount": 1125,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 887
+      }
+    ],
+    "serviceTier": "standard"
+  },
+  "error": "",
   "policy_schema_version": 1,
-  "status": "provider_stopped"
+  "status": "advisory_ready"
 }

@@ -2,7 +2,7 @@
 title: "Record 934407171e · The-TikTok-Creator-Making-K-Beauty-More-Inclusive---SUCCESS-Magazine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.482049+00:00
+updated_at: 2026-10-02T22:02:44.927722+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4f728c7afc · TikTok-beauty-trend-Are-you-cat-fox-deer-or-bunny-l"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.582579+00:00
+updated_at: 2026-10-02T22:02:45.039107+00:00
 tags: [record, real-data]
 ---
 

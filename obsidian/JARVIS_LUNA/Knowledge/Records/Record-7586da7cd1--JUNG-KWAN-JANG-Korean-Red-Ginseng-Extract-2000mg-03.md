@@ -2,7 +2,7 @@
 title: "Record 7586da7cd1 · JUNG-KWAN-JANG-Korean-Red-Ginseng-Extract-2000mg-034-fl-oz10ml-x-10ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.023663+00:00
+updated_at: 2026-10-02T22:02:45.537981+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4419af3e06 · A-Beginners-Guide-to-K-Beauty-J-Beauty-and-I-Beauty---ELLE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.673226+00:00
+updated_at: 2026-10-02T22:02:45.142321+00:00
 tags: [record, real-data]
 ---
 

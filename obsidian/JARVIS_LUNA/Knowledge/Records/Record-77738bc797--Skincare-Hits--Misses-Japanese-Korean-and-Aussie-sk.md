@@ -2,7 +2,7 @@
 title: "Record 77738bc797 · Skincare-Hits--Misses-Japanese-Korean-and-Aussie-sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.920227+00:00
+updated_at: 2026-10-02T22:02:46.621346+00:00
 tags: [record, real-data]
 ---
 

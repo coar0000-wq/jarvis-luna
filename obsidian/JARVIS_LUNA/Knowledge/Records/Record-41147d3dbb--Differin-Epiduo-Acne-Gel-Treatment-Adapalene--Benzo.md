@@ -2,7 +2,7 @@
 title: "Record 41147d3dbb · Differin-Epiduo-Acne-Gel-Treatment-Adapalene--Benzoyl-Peroxide-15g-Pum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.252328+00:00
+updated_at: 2026-10-02T22:02:45.815096+00:00
 tags: [record, real-data]
 ---
 

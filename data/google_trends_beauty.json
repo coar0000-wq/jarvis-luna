@@ -1,14 +1,14 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-10-02T17:26:05.691511+00:00",
+  "collected_at": "2026-10-02T21:50:56.403764+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 94,
   "items": [
     {
-      "keyword": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - thedermdigest.com",
-      "product": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - thedermdigest.com",
+      "keyword": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
+      "product": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjJfczkwX3V6UkJmVXk1X2pGczNfaXhDV0VsZmRCaU9MaUNsc2dNSUFQQW4xWUdDZnpxRlJaX1psNlpaN1o3eExBZGdyZDVOZ2VmSUl0SnhGZk4xSTJTR21xbHQ5Vms2clBFclFWWEc0cm9YWFRIS3ExdlVQVFBiQ3VXZUExRDQzVWxqS1lB?oc=5",
@@ -30,6 +30,15 @@
       "sub": "K-beauty",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaHdqd3dkWUpOVEtVUkNuQjE2dUZrOFVWbEUzaEN0UWRCYlBzSEcwcE1MYThfTHlOQ0N0dlpydmdwamNsdXlxTGJXY29MZWVITldxUFNjRUo5U1NLUHMyZDFkanEzekFUYnFXTzFRWHYzejFMRGI0a3JUQVlYdw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
+      "product": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjBXbDJORVlSeGlSTmtVbWNoQWU0N2I4bkZKSkhtLUhJZUcteG1FdVdXTW5XcEQtVVk5eHJFSE1CR1lfRVlxenlESEV3UG9ZdGhCYkQ2SWdlR1lESXJzTXMzU0tOUk1DM1hYTEJReFBGSUpzaG9iTmY4aFZ4bnBIUGc1OWhCVTU3aGx4dXFOdFdjbHVRTnBoTmFqMUpsQy1palVZSkp3SQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -61,15 +70,6 @@
       "beauty": true
     },
     {
-      "keyword": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - elle.com",
-      "product": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - elle.com",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjBXbDJORVlSeGlSTmtVbWNoQWU0N2I4bkZKSkhtLUhJZUcteG1FdVdXTW5XcEQtVVk5eHJFSE1CR1lfRVlxenlESEV3UG9ZdGhCYkQ2SWdlR1lESXJzTXMzU0tOUk1DM1hYTEJReFBGSUpzaG9iTmY4aFZ4bnBIUGc1OWhCVTU3aGx4dXFOdFdjbHVRTnBoTmFqMUpsQy1palVZSkp3SQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
       "product": "Japanese Haircare Is Having Its K-Beauty Moment and Here Is Where to Shop It in the U.S. Right Now - Miami Herald",
       "sub": "K-beauty",
@@ -79,8 +79,8 @@
       "beauty": true
     },
     {
-      "keyword": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - koreajoongangdaily.com",
-      "product": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - koreajoongangdaily.com",
+      "keyword": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - Korea JoongAng Daily",
+      "product": "From sunscreen to seaweed, gov't sharpens claws against Korean brand copycats - Korea JoongAng Daily",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZHM0YzVkdUhtRk9mbHVkN0d6SFF6N2pBbjkzWUd0dUFCZlpzSDFNNllwZXZFdVJ4MWtpY3FjRE4wYVYzUGtEbHM0a1g0S1lhbjUzU1dKRUd4QUF2dGQxS1pOa1FBNDR2UTZ5dlJtNW9KRzhCTm9pMmZRTDFhR09nZmZfZFRaWXpwcW55Y1k2SzNfUkFOWlA2OElvOW83Y1AxdnNVODVnN2I5TXFhMG51VXdwcHRnaVR3N1VsazIzWXpIYzVMUmg4?oc=5",
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
-      "product": "Is Korean sunscreen worth the hype? - WAFB",
+      "keyword": "Is Korean sunscreen worth the hype? - wafb.com",
+      "product": "Is Korean sunscreen worth the hype? - wafb.com",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
@@ -196,8 +196,8 @@
       "beauty": true
     },
     {
-      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
-      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - pagesix.com",
+      "keyword": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
+      "product": "Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5",

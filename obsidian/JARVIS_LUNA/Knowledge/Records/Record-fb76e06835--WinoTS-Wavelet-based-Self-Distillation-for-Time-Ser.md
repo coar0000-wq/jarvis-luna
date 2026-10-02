@@ -2,7 +2,7 @@
 title: "Record fb76e06835 · WinoTS-Wavelet-based-Self-Distillation-for-Time-Series-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.031286+00:00
+updated_at: 2026-10-02T22:02:44.432322+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7c58161599 · 20shades-milktouch-All-Day-Skin-Fit-Milky-Glow-Cushion-052-oz15g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.000725+00:00
+updated_at: 2026-10-02T22:02:45.510398+00:00
 tags: [record, real-data]
 ---
 

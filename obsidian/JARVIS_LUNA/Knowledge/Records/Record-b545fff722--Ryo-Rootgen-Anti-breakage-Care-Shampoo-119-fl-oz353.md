@@ -2,7 +2,7 @@
 title: "Record b545fff722 · Ryo-Rootgen-Anti-breakage-Care-Shampoo-119-fl-oz353ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.045354+00:00
+updated_at: 2026-10-02T22:02:45.564099+00:00
 tags: [record, real-data]
 ---
 
