@@ -2,7 +2,7 @@
 title: "Record 8e7eb1f421 · The-Cult-Classic-Purifying-Face-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.724262+00:00
+updated_at: 2026-10-02T05:40:11.623239+00:00
 tags: [record, real-data]
 ---
 

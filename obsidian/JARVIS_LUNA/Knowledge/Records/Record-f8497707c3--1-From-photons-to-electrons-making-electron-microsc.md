@@ -2,7 +2,7 @@
 title: "Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microsc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.367042+00:00
+updated_at: 2026-10-02T05:40:09.151646+00:00
 tags: [record, real-data]
 ---
 

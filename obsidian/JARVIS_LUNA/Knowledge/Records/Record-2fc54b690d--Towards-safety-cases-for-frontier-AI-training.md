@@ -2,7 +2,7 @@
 title: "Record 2fc54b690d · Towards-safety-cases-for-frontier-AI-training"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.666943+00:00
+updated_at: 2026-10-02T05:40:10.471650+00:00
 tags: [record, real-data]
 ---
 

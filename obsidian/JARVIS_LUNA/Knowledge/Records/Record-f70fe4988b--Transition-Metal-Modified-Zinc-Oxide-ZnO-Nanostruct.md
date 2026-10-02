@@ -2,7 +2,7 @@
 title: "Record f70fe4988b · Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostruct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.367971+00:00
+updated_at: 2026-10-02T05:40:09.152605+00:00
 tags: [record, real-data]
 ---
 

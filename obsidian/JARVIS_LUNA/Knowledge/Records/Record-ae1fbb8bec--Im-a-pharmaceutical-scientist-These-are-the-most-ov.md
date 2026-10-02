@@ -2,7 +2,7 @@
 title: "Record ae1fbb8bec · Im-a-pharmaceutical-scientist-These-are-the-most-ov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.142738+00:00
+updated_at: 2026-10-02T05:40:09.942997+00:00
 tags: [record, real-data]
 ---
 

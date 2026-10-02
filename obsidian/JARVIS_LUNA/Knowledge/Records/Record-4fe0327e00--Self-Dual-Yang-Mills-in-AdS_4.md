@@ -2,7 +2,7 @@
 title: "Record 4fe0327e00 · Self-Dual-Yang-Mills-in-AdS_4"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.495573+00:00
+updated_at: 2026-10-02T05:40:09.290220+00:00
 tags: [record, real-data]
 ---
 

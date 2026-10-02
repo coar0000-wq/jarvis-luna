@@ -2,7 +2,7 @@
 title: "Record 1b682b163d · Pretrain-Once-Route-Anywhere-Towards-a-Foundation-Model-for-LLM-Routin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.765622+00:00
+updated_at: 2026-10-02T05:40:09.567976+00:00
 tags: [record, real-data]
 ---
 

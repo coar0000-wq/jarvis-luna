@@ -2,7 +2,7 @@
 title: "Record 05dbba05ef · IOPE-Expert-Retinol-1-Super-Bounce-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.813916+00:00
+updated_at: 2026-10-02T05:40:10.638185+00:00
 tags: [record, real-data]
 ---
 

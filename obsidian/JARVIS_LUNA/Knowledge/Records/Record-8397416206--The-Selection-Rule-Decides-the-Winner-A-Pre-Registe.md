@@ -2,7 +2,7 @@
 title: "Record 8397416206 · The-Selection-Rule-Decides-the-Winner-A-Pre-Registered-Audit-of-Open-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.720324+00:00
+updated_at: 2026-10-02T05:40:09.521263+00:00
 tags: [record, real-data]
 ---
 

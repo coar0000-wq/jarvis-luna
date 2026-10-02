@@ -2,7 +2,7 @@
 title: "Record 29584aec24 · Neuro-Bayesian-Architecture-in-Economic-Modeling-Overcoming-Agent-Syst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.806548+00:00
+updated_at: 2026-10-02T05:40:09.608960+00:00
 tags: [record, real-data]
 ---
 

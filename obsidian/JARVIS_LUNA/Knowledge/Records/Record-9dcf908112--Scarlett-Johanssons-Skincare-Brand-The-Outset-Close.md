@@ -2,7 +2,7 @@
 title: "Record 9dcf908112 · Scarlett-Johanssons-Skincare-Brand-The-Outset-Closes---Global-Cosmetic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.370571+00:00
+updated_at: 2026-10-02T05:40:10.171017+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3eb3e9557e · Paul-Christiano-joins-OpenAI-Foundation-Board"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.656391+00:00
+updated_at: 2026-10-02T05:40:10.458575+00:00
 tags: [record, real-data]
 ---
 

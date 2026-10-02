@@ -2,7 +2,7 @@
 title: "Record abbd331d3f · Room-temperature-valley-selective-emission-in-Si-MoSe2-heterostructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.436014+00:00
+updated_at: 2026-10-02T05:40:09.224299+00:00
 tags: [record, real-data]
 ---
 

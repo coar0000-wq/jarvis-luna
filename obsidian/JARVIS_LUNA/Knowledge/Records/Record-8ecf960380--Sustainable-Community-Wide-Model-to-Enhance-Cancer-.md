@@ -2,7 +2,7 @@
 title: "Record 8ecf960380 · Sustainable-Community-Wide-Model-to-Enhance-Cancer-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.294900+00:00
+updated_at: 2026-10-02T05:40:09.075115+00:00
 tags: [record, real-data]
 ---
 

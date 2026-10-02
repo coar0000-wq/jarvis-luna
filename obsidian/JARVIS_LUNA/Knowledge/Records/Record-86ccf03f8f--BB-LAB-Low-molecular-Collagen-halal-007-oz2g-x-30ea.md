@@ -2,7 +2,7 @@
 title: "Record 86ccf03f8f · BB-LAB-Low-molecular-Collagen-halal-007-oz2g-x-30ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.794377+00:00
+updated_at: 2026-10-02T05:40:10.616068+00:00
 tags: [record, real-data]
 ---
 

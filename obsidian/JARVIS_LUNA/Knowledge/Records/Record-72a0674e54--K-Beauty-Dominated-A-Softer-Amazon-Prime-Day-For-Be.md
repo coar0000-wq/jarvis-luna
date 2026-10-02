@@ -2,7 +2,7 @@
 title: "Record 72a0674e54 · K-Beauty-Dominated-A-Softer-Amazon-Prime-Day-For-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.245512+00:00
+updated_at: 2026-10-02T05:40:10.047695+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 797a7cdc4a · Dual-Layer-Microencapsulated-Phase-Change-Material-Composite-with-Enth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.106132+00:00
+updated_at: 2026-10-02T05:40:08.884490+00:00
 tags: [record, real-data]
 ---
 

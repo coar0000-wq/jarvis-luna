@@ -2,7 +2,7 @@
 title: "Record 70bc7b947b · Workload-Insights-from-the-Snowflake-Data-Cloud-What-Do-Production-Ana"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.313463+00:00
+updated_at: 2026-10-02T05:40:09.094267+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a335e61265 · China-12-Trillion-Dollar-Industry-5-Opportunity-Sheng-Zhong"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.620140+00:00
+updated_at: 2026-10-02T05:40:11.514927+00:00
 tags: [record, real-data]
 ---
 

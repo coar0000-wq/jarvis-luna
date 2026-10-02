@@ -2,7 +2,7 @@
 title: "Record d11f80e0ef · Transformers-Stop-Thinking-Too-Early-and-a-Tiny-LoRA-Fixes-It"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.750532+00:00
+updated_at: 2026-10-02T05:40:09.553536+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 2f2bc6e906 · orthomol-Immune---Daily-Immun-Support-With-Vitamin-A-E-Zinc--Selenium-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.843152+00:00
+updated_at: 2026-10-02T05:40:10.668630+00:00
 tags: [record, real-data]
 ---
 

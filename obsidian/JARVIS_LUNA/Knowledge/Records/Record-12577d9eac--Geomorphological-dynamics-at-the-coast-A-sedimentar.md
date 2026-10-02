@@ -2,7 +2,7 @@
 title: "Record 12577d9eac · Geomorphological-dynamics-at-the-coast-A-sedimentar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.087130+00:00
+updated_at: 2026-10-02T05:40:08.863708+00:00
 tags: [record, real-data]
 ---
 

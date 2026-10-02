@@ -2,7 +2,7 @@
 title: "Record 8316276652 · Physiogel-Dmt-Regenerative-Cream-33-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.832584+00:00
+updated_at: 2026-10-02T05:40:10.656867+00:00
 tags: [record, real-data]
 ---
 

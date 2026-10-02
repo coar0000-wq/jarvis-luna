@@ -2,7 +2,7 @@
 title: "Record 9c7324ad0f · Lindblad-Multiproduct-Formulas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.499191+00:00
+updated_at: 2026-10-02T05:40:09.294140+00:00
 tags: [record, real-data]
 ---
 

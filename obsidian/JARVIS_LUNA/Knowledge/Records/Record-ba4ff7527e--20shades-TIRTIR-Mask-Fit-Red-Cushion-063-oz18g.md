@@ -2,7 +2,7 @@
 title: "Record ba4ff7527e · 20shades-TIRTIR-Mask-Fit-Red-Cushion-063-oz18g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.827774+00:00
+updated_at: 2026-10-02T05:40:10.652335+00:00
 tags: [record, real-data]
 ---
 

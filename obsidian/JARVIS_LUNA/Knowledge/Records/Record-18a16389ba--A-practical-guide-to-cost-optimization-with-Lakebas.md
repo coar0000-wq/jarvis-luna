@@ -2,7 +2,7 @@
 title: "Record 18a16389ba · A-practical-guide-to-cost-optimization-with-Lakebase-Postgres"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.491265+00:00
+updated_at: 2026-10-02T05:40:11.383389+00:00
 tags: [record, real-data]
 ---
 

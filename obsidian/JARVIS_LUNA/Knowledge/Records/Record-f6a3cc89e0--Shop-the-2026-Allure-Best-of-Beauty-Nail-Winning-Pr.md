@@ -2,7 +2,7 @@
 title: "Record f6a3cc89e0 · Shop-the-2026-Allure-Best-of-Beauty-Nail-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.919754+00:00
+updated_at: 2026-10-02T05:40:10.758479+00:00
 tags: [record, real-data]
 ---
 

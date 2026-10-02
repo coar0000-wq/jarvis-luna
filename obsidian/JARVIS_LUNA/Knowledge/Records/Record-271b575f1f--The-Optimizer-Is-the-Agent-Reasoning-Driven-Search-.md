@@ -2,7 +2,7 @@
 title: "Record 271b575f1f · The-Optimizer-Is-the-Agent-Reasoning-Driven-Search-across-Prompts-Prog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.484196+00:00
+updated_at: 2026-10-02T05:40:09.279301+00:00
 tags: [record, real-data]
 ---
 

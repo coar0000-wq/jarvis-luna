@@ -2,7 +2,7 @@
 title: "Record 5a685e3910 · Resilient-AI-Supercomputer-Networking-using-MRC-and-SRv6"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.449060+00:00
+updated_at: 2026-10-02T05:40:09.238868+00:00
 tags: [record, real-data]
 ---
 

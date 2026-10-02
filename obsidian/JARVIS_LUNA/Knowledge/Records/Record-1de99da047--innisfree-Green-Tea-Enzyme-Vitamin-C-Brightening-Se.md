@@ -2,7 +2,7 @@
 title: "Record 1de99da047 · innisfree-Green-Tea-Enzyme-Vitamin-C-Brightening-Serum-1-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.803921+00:00
+updated_at: 2026-10-02T05:40:10.626719+00:00
 tags: [record, real-data]
 ---
 

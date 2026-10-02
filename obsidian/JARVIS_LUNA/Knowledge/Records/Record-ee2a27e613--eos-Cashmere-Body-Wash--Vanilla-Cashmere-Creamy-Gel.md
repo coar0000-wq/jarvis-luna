@@ -2,7 +2,7 @@
 title: "Record ee2a27e613 · eos-Cashmere-Body-Wash--Vanilla-Cashmere-Creamy-Gel-with-Shea-Butter-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.381289+00:00
+updated_at: 2026-10-02T05:40:11.270779+00:00
 tags: [record, real-data]
 ---
 

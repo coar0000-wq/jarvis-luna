@@ -2,7 +2,7 @@
 title: "Record 5d105a840f · Sticky-Ear-Cleaning-Sticks-Gentle-Adhesive-Ear-Picks-for-Ear-Wax-Remov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.066247+00:00
+updated_at: 2026-10-02T05:40:10.922583+00:00
 tags: [record, real-data]
 ---
 

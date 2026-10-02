@@ -2,7 +2,7 @@
 title: "Record ffbeb6b5c9 · Towards-an-AI-biomedical-scientist-Accelerating-dis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.092829+00:00
+updated_at: 2026-10-02T05:40:08.869998+00:00
 tags: [record, real-data]
 ---
 

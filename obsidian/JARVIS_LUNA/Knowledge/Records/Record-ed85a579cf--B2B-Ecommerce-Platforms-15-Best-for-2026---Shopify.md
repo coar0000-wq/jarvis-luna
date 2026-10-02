@@ -2,7 +2,7 @@
 title: "Record ed85a579cf · B2B-Ecommerce-Platforms-15-Best-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.175649+00:00
+updated_at: 2026-10-02T05:40:09.973118+00:00
 tags: [record, real-data]
 ---
 

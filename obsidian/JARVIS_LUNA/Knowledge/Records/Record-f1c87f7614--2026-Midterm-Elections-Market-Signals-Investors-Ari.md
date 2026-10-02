@@ -2,7 +2,7 @@
 title: "Record f1c87f7614 · 2026-Midterm-Elections-Market-Signals-Investors-Ariana-Salvatore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.617747+00:00
+updated_at: 2026-10-02T05:40:11.512589+00:00
 tags: [record, real-data]
 ---
 

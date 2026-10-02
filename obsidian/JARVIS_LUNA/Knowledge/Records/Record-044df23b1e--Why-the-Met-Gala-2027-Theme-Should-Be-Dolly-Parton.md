@@ -2,7 +2,7 @@
 title: "Record 044df23b1e · Why-the-Met-Gala-2027-Theme-Should-Be-Dolly-Parton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.965997+00:00
+updated_at: 2026-10-02T05:40:10.812005+00:00
 tags: [record, real-data]
 ---
 

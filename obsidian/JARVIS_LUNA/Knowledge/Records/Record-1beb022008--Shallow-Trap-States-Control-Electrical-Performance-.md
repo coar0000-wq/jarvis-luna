@@ -2,7 +2,7 @@
 title: "Record 1beb022008 · Shallow-Trap-States-Control-Electrical-Performance-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:55.999687+00:00
+updated_at: 2026-10-02T05:40:08.765468+00:00
 tags: [record, real-data]
 ---
 

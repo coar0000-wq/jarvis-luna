@@ -2,7 +2,7 @@
 title: "Record c6e2f1ee37 · CARE-PLUS-Acne-Cover-Spot-Patch-102ct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.854179+00:00
+updated_at: 2026-10-02T05:40:10.680970+00:00
 tags: [record, real-data]
 ---
 

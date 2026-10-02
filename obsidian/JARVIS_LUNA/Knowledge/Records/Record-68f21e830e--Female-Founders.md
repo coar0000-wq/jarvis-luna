@@ -2,7 +2,7 @@
 title: "Record 68f21e830e · Female-Founders"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.499799+00:00
+updated_at: 2026-10-02T05:40:11.391918+00:00
 tags: [record, real-data]
 ---
 

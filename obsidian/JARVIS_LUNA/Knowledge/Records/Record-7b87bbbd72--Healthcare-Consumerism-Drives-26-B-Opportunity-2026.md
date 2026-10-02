@@ -2,7 +2,7 @@
 title: "Record 7b87bbbd72 · Healthcare-Consumerism-Drives-26-B-Opportunity-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.612009+00:00
+updated_at: 2026-10-02T05:40:11.506953+00:00
 tags: [record, real-data]
 ---
 

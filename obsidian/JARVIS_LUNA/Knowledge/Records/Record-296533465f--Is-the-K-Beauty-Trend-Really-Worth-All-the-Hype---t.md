@@ -2,7 +2,7 @@
 title: "Record 296533465f · Is-the-K-Beauty-Trend-Really-Worth-All-the-Hype---t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.367028+00:00
+updated_at: 2026-10-02T05:40:10.167647+00:00
 tags: [record, real-data]
 ---
 

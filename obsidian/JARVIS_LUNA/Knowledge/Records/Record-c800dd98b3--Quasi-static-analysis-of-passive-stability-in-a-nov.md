@@ -2,7 +2,7 @@
 title: "Record c800dd98b3 · Quasi-static-analysis-of-passive-stability-in-a-nov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:55.786366+00:00
+updated_at: 2026-10-02T05:40:08.548316+00:00
 tags: [record, real-data]
 ---
 

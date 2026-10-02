@@ -2,7 +2,7 @@
 title: "Record 573fedb3bd · Dammarenediol-II-enhances-etoposideinduced-apoptosi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:55.998209+00:00
+updated_at: 2026-10-02T05:40:08.764001+00:00
 tags: [record, real-data]
 ---
 

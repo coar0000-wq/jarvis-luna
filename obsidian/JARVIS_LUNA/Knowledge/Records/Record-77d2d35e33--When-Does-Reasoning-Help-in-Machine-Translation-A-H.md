@@ -2,7 +2,7 @@
 title: "Record 77d2d35e33 · When-Does-Reasoning-Help-in-Machine-Translation-A-Hierarchical-Analysi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.581118+00:00
+updated_at: 2026-10-02T05:40:09.381711+00:00
 tags: [record, real-data]
 ---
 

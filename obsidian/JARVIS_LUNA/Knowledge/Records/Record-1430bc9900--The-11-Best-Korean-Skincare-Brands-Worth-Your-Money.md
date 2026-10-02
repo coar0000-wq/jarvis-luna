@@ -2,7 +2,7 @@
 title: "Record 1430bc9900 · The-11-Best-Korean-Skincare-Brands-Worth-Your-Money"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.128699+00:00
+updated_at: 2026-10-02T05:40:09.928498+00:00
 tags: [record, real-data]
 ---
 

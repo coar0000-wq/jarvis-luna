@@ -2,7 +2,7 @@
 title: "Record f0bc55f9a6 · Realization-of-Very-High-Mobility-InAs-Quantum-Wells-on-InP-Substrates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.666319+00:00
+updated_at: 2026-10-02T05:40:09.466918+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 175c80c5bb · Shopify-launches-an-AI-tool-ecommerce-platform-upda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.428792+00:00
+updated_at: 2026-10-02T05:40:10.225211+00:00
 tags: [record, real-data]
 ---
 

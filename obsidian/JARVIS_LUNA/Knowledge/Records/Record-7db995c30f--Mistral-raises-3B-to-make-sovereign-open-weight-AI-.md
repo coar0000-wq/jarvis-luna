@@ -2,7 +2,7 @@
 title: "Record 7db995c30f · Mistral-raises-3B-to-make-sovereign-open-weight-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.975396+00:00
+updated_at: 2026-10-02T05:40:09.770398+00:00
 tags: [record, real-data]
 ---
 

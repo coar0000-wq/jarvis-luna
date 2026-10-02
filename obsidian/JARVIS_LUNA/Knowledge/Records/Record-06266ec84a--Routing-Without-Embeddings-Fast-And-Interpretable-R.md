@@ -2,7 +2,7 @@
 title: "Record 06266ec84a · Routing-Without-Embeddings-Fast-And-Interpretable-Routing-With-Regular"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.730597+00:00
+updated_at: 2026-10-02T05:40:09.531123+00:00
 tags: [record, real-data]
 ---
 

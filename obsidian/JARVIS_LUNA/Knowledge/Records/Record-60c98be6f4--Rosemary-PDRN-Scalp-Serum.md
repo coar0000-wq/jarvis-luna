@@ -2,7 +2,7 @@
 title: "Record 60c98be6f4 · Rosemary-PDRN-Scalp-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:58.755211+00:00
+updated_at: 2026-10-02T05:40:11.654627+00:00
 tags: [record, real-data]
 ---
 

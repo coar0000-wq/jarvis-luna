@@ -2,7 +2,7 @@
 title: "Record 24b2c55890 · Mugwort-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.741585+00:00
+updated_at: 2026-10-02T05:40:10.554178+00:00
 tags: [record, real-data]
 ---
 

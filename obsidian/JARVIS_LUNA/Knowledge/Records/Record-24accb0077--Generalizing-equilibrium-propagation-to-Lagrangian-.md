@@ -2,7 +2,7 @@
 title: "Record 24accb0077 · Generalizing-equilibrium-propagation-to-Lagrangian-systems-with-arbitr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.177281+00:00
+updated_at: 2026-10-02T05:40:08.955663+00:00
 tags: [record, real-data]
 ---
 

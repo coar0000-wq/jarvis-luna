@@ -2,7 +2,7 @@
 title: "Record eb5af7bdac · SatNav-A-Scalable-Benchmark-for-Long-Horizon-UAV-Vision-Language-Navig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.710087+00:00
+updated_at: 2026-10-02T05:40:09.511568+00:00
 tags: [record, real-data]
 ---
 

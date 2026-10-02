@@ -2,7 +2,7 @@
 title: "Record af81283eea · The-Necessity-of-a-Holistic-Safety-Evaluation-Framework-for-AI-Based-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.673271+00:00
+updated_at: 2026-10-02T05:40:10.478516+00:00
 tags: [record, real-data]
 ---
 

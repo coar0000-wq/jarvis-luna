@@ -2,7 +2,7 @@
 title: "Record a632237f31 · AI-Models-Types-How-They-Work-and-Key-Uses-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.012401+00:00
+updated_at: 2026-10-02T05:40:09.807331+00:00
 tags: [record, real-data]
 ---
 

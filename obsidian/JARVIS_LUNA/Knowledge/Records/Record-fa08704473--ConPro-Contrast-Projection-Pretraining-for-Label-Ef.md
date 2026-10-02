@@ -2,7 +2,7 @@
 title: "Record fa08704473 · ConPro-Contrast-Projection-Pretraining-for-Label-Efficient-Vessel-Segm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.686387+00:00
+updated_at: 2026-10-02T05:40:09.489456+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1d88acea35 · Meet-K-Pharmacy-Koreas-Clinical-Formulations-are-The-Next-Skincare-Fro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.531384+00:00
+updated_at: 2026-10-02T05:40:10.331427+00:00
 tags: [record, real-data]
 ---
 

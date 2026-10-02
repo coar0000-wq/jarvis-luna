@@ -2,7 +2,7 @@
 title: "Record a075a4a159 · A-framework-for-applying-the-Logistic-Regression-model-to-obtain-predi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.422959+00:00
+updated_at: 2026-10-02T05:40:09.210201+00:00
 tags: [record, real-data]
 ---
 

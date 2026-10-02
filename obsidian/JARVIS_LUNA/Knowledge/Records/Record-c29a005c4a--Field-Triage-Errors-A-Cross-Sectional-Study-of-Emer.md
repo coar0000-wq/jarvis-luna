@@ -2,7 +2,7 @@
 title: "Record c29a005c4a · Field-Triage-Errors-A-Cross-Sectional-Study-of-Emergency-Responders-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.099139+00:00
+updated_at: 2026-10-02T05:40:08.876926+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record cf5132c9b6 · Laneige-taps-BTS-star-Jin-for-spicule-powered-eye-patch-launch-campaig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.365695+00:00
+updated_at: 2026-10-02T05:40:10.166314+00:00
 tags: [record, real-data]
 ---
 

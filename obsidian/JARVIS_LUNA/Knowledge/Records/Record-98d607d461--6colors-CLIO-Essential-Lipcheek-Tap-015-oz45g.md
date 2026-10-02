@@ -2,7 +2,7 @@
 title: "Record 98d607d461 · 6colors-CLIO-Essential-Lipcheek-Tap-015-oz45g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:57.805595+00:00
+updated_at: 2026-10-02T05:40:10.628623+00:00
 tags: [record, real-data]
 ---
 

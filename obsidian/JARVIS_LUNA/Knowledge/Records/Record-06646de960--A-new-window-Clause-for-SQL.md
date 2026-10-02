@@ -2,7 +2,7 @@
 title: "Record 06646de960 · A-new-window-Clause-for-SQL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.023985+00:00
+updated_at: 2026-10-02T05:40:08.792709+00:00
 tags: [record, real-data]
 ---
 

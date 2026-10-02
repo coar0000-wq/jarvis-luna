@@ -2,7 +2,7 @@
 title: "Record 8c0f511d01 · Managing-Iterative-Hybrid-Quantum-Classical-Optimization-as-a-First-Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:55.959376+00:00
+updated_at: 2026-10-02T05:40:08.722306+00:00
 tags: [record, real-data]
 ---
 

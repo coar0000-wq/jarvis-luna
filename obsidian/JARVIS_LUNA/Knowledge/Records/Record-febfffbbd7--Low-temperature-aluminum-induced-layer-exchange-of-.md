@@ -2,7 +2,7 @@
 title: "Record febfffbbd7 · Low-temperature-aluminum-induced-layer-exchange-of-Ge-on-Si-for-CMOS-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T04:05:56.081833+00:00
+updated_at: 2026-10-02T05:40:08.857962+00:00
 tags: [record, real-data]
 ---
 
