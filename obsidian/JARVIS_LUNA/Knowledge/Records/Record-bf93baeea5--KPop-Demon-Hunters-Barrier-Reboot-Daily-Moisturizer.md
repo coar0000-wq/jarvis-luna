@@ -2,7 +2,7 @@
 title: "Record bf93baeea5 · KPop-Demon-Hunters-Barrier-Reboot-Daily-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.301257+00:00
+updated_at: 2026-10-02T12:38:26.413364+00:00
 tags: [record, real-data]
 ---
 

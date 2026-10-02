@@ -2,7 +2,7 @@
 title: "Record 9253ef909a · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.124430+00:00
+updated_at: 2026-10-02T12:38:24.622900+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 090e83352a · tarte-CC-tinted-serum--Color-Correcting-Tinted-Serum-with-Color-Changi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.071330+00:00
+updated_at: 2026-10-02T12:38:26.060247+00:00
 tags: [record, real-data]
 ---
 

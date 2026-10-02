@@ -2,7 +2,7 @@
 title: "Record b43ee8eebf · Olay-Super-Serum-Hand--Body-Lotion-for-Aging-24hr-Long-Lasting-Moistur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.966849+00:00
+updated_at: 2026-10-02T12:38:25.884781+00:00
 tags: [record, real-data]
 ---
 

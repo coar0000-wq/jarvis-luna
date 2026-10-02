@@ -2,7 +2,7 @@
 title: "Record 7a3851080f · Conceptual-framework-for-AI-governance-data-privacy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.923345+00:00
+updated_at: 2026-10-02T12:38:24.316023+00:00
 tags: [record, real-data]
 ---
 

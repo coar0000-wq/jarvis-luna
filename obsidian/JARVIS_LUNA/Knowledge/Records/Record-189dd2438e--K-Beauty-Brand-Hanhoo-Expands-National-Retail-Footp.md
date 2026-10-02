@@ -2,7 +2,7 @@
 title: "Record 189dd2438e · K-Beauty-Brand-Hanhoo-Expands-National-Retail-Footprint---Morningstar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.474530+00:00
+updated_at: 2026-10-02T12:38:25.099840+00:00
 tags: [record, real-data]
 ---
 

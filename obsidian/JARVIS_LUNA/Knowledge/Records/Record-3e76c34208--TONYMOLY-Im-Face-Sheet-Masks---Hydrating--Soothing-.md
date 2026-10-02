@@ -2,7 +2,7 @@
 title: "Record 3e76c34208 · TONYMOLY-Im-Face-Sheet-Masks---Hydrating--Soothing-Korean-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.031135+00:00
+updated_at: 2026-10-02T12:38:25.992288+00:00
 tags: [record, real-data]
 ---
 

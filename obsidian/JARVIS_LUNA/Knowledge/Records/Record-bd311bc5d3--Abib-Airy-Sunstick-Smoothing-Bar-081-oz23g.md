@@ -2,7 +2,7 @@
 title: "Record bd311bc5d3 · Abib-Airy-Sunstick-Smoothing-Bar-081-oz23g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.669353+00:00
+updated_at: 2026-10-02T12:38:25.402463+00:00
 tags: [record, real-data]
 ---
 

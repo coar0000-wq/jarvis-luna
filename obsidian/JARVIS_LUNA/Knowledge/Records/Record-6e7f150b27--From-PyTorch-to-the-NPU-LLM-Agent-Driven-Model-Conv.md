@@ -2,7 +2,7 @@
 title: "Record 6e7f150b27 · From-PyTorch-to-the-NPU-LLM-Agent-Driven-Model-Conversion-Across-Heter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.797265+00:00
+updated_at: 2026-10-02T12:38:24.170791+00:00
 tags: [record, real-data]
 ---
 

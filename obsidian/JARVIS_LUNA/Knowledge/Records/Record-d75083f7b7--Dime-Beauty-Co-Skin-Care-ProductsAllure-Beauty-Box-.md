@@ -2,7 +2,7 @@
 title: "Record d75083f7b7 · Dime-Beauty-Co-Skin-Care-ProductsAllure-Beauty-Box-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.763858+00:00
+updated_at: 2026-10-02T12:38:25.553238+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4126bbefe1 · 9-Best-Moisturizers-for-Mature-Skin-for-Fine-Lines-and-Deep-Wrinkles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.760083+00:00
+updated_at: 2026-10-02T12:38:25.547488+00:00
 tags: [record, real-data]
 ---
 

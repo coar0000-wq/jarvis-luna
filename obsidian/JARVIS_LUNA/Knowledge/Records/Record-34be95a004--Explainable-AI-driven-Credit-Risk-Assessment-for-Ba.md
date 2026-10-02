@@ -2,7 +2,7 @@
 title: "Record 34be95a004 · Explainable-AI-driven-Credit-Risk-Assessment-for-Basel-III-compliant-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.618501+00:00
+updated_at: 2026-10-02T12:38:23.912809+00:00
 tags: [record, real-data]
 ---
 

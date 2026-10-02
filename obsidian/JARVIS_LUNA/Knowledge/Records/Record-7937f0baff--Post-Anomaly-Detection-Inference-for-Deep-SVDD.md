@@ -2,7 +2,7 @@
 title: "Record 7937f0baff · Post-Anomaly-Detection-Inference-for-Deep-SVDD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.919787+00:00
+updated_at: 2026-10-02T12:38:24.292097+00:00
 tags: [record, real-data]
 ---
 

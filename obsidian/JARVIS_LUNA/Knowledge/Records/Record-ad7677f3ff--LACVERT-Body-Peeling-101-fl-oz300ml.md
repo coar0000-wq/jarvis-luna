@@ -2,7 +2,7 @@
 title: "Record ad7677f3ff · LACVERT-Body-Peeling-101-fl-oz300ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.694611+00:00
+updated_at: 2026-10-02T12:38:25.441893+00:00
 tags: [record, real-data]
 ---
 

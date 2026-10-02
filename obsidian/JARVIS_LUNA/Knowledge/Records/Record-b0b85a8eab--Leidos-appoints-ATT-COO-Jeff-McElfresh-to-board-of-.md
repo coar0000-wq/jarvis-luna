@@ -2,7 +2,7 @@
 title: "Record b0b85a8eab · Leidos-appoints-ATT-COO-Jeff-McElfresh-to-board-of-directors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.040728+00:00
+updated_at: 2026-10-02T12:38:24.490987+00:00
 tags: [record, real-data]
 ---
 

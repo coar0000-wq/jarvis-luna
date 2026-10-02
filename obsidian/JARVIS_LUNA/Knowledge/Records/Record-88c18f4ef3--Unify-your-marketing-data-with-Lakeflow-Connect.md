@@ -2,7 +2,7 @@
 title: "Record 88c18f4ef3 · Unify-your-marketing-data-with-Lakeflow-Connect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.140632+00:00
+updated_at: 2026-10-02T12:38:26.159726+00:00
 tags: [record, real-data]
 ---
 

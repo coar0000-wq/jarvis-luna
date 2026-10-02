@@ -2,7 +2,7 @@
 title: "Record ef9331f614 · OPI-Nail-Lacquer-Nail-Polish--Crème-Shimmer-and-Glitter--Fall-2026--Ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.961639+00:00
+updated_at: 2026-10-02T12:38:25.876099+00:00
 tags: [record, real-data]
 ---
 

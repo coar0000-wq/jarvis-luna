@@ -2,7 +2,7 @@
 title: "Record b8721e3e68 · Ryo-RootGen-Hair-Loss-Care-Scalp-Essence-27-fl-oz80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.738227+00:00
+updated_at: 2026-10-02T12:38:25.510566+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Ryo Root:Gen Hair Loss Care Scalp Essence 2.7 fl. oz.(80ml)
 
 Ryo Root:Gen Hair Loss Care Scalp Essence 2.7 fl. oz.(80ml)
-Ryo Root:Gen Hair Loss Care Scalp Essence 2.7 fl. oz.(80ml) · 평점 4.5 · 리뷰 30
+Ryo Root:Gen Hair Loss Care Scalp Essence 2.7 fl. oz.(80ml) · 평점 4.5 · 리뷰 31
 
 **출처:** Source · us_beauty
 

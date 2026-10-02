@@ -2,7 +2,7 @@
 title: "Record 54f5d75f22 · SKIN1004-Madagascar-Centella-Ampoule-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.714050+00:00
+updated_at: 2026-10-02T12:38:25.471645+00:00
 tags: [record, real-data]
 ---
 

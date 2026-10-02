@@ -2,7 +2,7 @@
 title: "Record c362c3dbb6 · Towards-Generalizable-3D-Anomaly-Detection-via-Relational-Inconsistenc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.871273+00:00
+updated_at: 2026-10-02T12:38:24.258745+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 34c71ca725 · First-case-of-Brucella-suis-biovar-1-infection-in-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.356683+00:00
+updated_at: 2026-10-02T12:38:23.512046+00:00
 tags: [record, real-data]
 ---
 

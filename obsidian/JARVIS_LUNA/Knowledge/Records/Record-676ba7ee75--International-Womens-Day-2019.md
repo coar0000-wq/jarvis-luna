@@ -2,7 +2,7 @@
 title: "Record 676ba7ee75 · International-Womens-Day-2019"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.144381+00:00
+updated_at: 2026-10-02T12:38:26.165359+00:00
 tags: [record, real-data]
 ---
 

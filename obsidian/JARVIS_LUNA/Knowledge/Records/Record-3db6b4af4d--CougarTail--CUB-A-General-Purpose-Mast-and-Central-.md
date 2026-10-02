@@ -2,7 +2,7 @@
 title: "Record 3db6b4af4d · CougarTail--CUB-A-General-Purpose-Mast-and-Central-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.106588+00:00
+updated_at: 2026-10-02T12:38:23.210167+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c45b6b79ab · Semantic-Watermarking-with-Order-Robust-Detection-over-Sub-sentence-Un"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.688726+00:00
+updated_at: 2026-10-02T12:38:24.000905+00:00
 tags: [record, real-data]
 ---
 

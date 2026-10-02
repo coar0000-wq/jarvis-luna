@@ -2,7 +2,7 @@
 title: "Record f2d4155c10 · Best-toner-Discover-which-face-toner-best-suits-your-skin-type-and-bud"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.129563+00:00
+updated_at: 2026-10-02T12:38:24.632653+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5)
 
-**제목:** Best toner: Discover which face toner best suits your skin type and budget - Mamabella
+**제목:** Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk
 
-Best toner: Discover which face toner best suits your skin type and budget - Mamabella
-Best toner: Discover which face toner best suits your skin type and budget - Mamabella
+Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk
+Best toner: Discover which face toner best suits your skin type and budget - mamabella.uk
 
 **출처:** Source · us_beauty
 

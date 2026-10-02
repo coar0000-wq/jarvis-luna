@@ -2,7 +2,7 @@
 title: "Record 4f922d54af · Booz-Allen-Completes-Acquisition-of-Ultra-IC-Missio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.031742+00:00
+updated_at: 2026-10-02T12:38:24.476517+00:00
 tags: [record, real-data]
 ---
 

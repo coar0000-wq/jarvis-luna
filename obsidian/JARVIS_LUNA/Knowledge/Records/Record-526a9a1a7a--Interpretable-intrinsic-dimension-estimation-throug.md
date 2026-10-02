@@ -2,7 +2,7 @@
 title: "Record 526a9a1a7a · Interpretable-intrinsic-dimension-estimation-through-componentwise-cal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.911187+00:00
+updated_at: 2026-10-02T12:38:24.284659+00:00
 tags: [record, real-data]
 ---
 

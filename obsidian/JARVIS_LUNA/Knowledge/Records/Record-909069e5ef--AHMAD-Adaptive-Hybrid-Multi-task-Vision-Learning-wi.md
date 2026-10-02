@@ -2,7 +2,7 @@
 title: "Record 909069e5ef · AHMAD-Adaptive-Hybrid-Multi-task-Vision-Learning-with-Assisted-Distill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.873662+00:00
+updated_at: 2026-10-02T12:38:24.261980+00:00
 tags: [record, real-data]
 ---
 

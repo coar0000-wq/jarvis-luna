@@ -2,7 +2,7 @@
 title: "Record 8336e700a1 · Beyond-the-Average-Distributional-Causal-Inference-under-Imperfect-Com"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.573580+00:00
+updated_at: 2026-10-02T12:38:23.840574+00:00
 tags: [record, real-data]
 ---
 

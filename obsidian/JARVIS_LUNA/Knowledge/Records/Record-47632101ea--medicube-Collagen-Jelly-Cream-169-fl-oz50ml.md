@@ -2,7 +2,7 @@
 title: "Record 47632101ea · medicube-Collagen-Jelly-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.734292+00:00
+updated_at: 2026-10-02T12:38:25.504313+00:00
 tags: [record, real-data]
 ---
 

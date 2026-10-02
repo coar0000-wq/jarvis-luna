@@ -2,7 +2,7 @@
 title: "Record b4f7d47c6c · Peter-Thomas-Roth--Instant-FIRMx-Temporary-Face-Tightener-Easy-Wear-Fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.002870+00:00
+updated_at: 2026-10-02T12:38:25.945700+00:00
 tags: [record, real-data]
 ---
 

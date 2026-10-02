@@ -2,7 +2,7 @@
 title: "Record d945c686b1 · Samsung-Nano-City--Giheung"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.514493+00:00
+updated_at: 2026-10-02T12:38:25.163534+00:00
 tags: [record, real-data]
 ---
 

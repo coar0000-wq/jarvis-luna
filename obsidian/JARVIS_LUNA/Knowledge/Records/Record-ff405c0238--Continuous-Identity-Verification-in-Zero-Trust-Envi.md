@@ -2,7 +2,7 @@
 title: "Record ff405c0238 · Continuous-Identity-Verification-in-Zero-Trust-Environments-using-Risk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.950121+00:00
+updated_at: 2026-10-02T12:38:24.354666+00:00
 tags: [record, real-data]
 ---
 

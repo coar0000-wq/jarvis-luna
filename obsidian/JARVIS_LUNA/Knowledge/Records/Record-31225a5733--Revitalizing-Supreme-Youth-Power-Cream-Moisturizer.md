@@ -2,7 +2,7 @@
 title: "Record 31225a5733 · Revitalizing-Supreme-Youth-Power-Cream-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.320154+00:00
+updated_at: 2026-10-02T12:38:26.429382+00:00
 tags: [record, real-data]
 ---
 

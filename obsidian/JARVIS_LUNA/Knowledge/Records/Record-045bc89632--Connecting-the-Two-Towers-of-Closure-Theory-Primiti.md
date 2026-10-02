@@ -2,7 +2,7 @@
 title: "Record 045bc89632 · Connecting-the-Two-Towers-of-Closure-Theory-Primitive-Closure-Scales-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.974867+00:00
+updated_at: 2026-10-02T12:38:24.393472+00:00
 tags: [record, real-data]
 ---
 

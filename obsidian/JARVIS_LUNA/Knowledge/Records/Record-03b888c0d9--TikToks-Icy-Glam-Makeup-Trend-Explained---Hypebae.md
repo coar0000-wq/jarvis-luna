@@ -2,7 +2,7 @@
 title: "Record 03b888c0d9 · TikToks-Icy-Glam-Makeup-Trend-Explained---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.184910+00:00
+updated_at: 2026-10-02T12:38:24.722226+00:00
 tags: [record, real-data]
 ---
 

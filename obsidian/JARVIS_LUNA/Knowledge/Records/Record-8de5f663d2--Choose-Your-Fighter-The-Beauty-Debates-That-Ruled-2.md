@@ -2,7 +2,7 @@
 title: "Record 8de5f663d2 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.192929+00:00
+updated_at: 2026-10-02T12:38:24.734047+00:00
 tags: [record, real-data]
 ---
 

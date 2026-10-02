@@ -2,7 +2,7 @@
 title: "Record b98c11c981 · Breaking-Down-K-Beautys-Slow-Aging-Philosophy---vog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.161913+00:00
+updated_at: 2026-10-02T12:38:24.686196+00:00
 tags: [record, real-data]
 ---
 

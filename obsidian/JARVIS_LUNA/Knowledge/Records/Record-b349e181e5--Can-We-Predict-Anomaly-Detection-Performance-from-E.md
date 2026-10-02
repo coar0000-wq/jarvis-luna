@@ -2,7 +2,7 @@
 title: "Record b349e181e5 · Can-We-Predict-Anomaly-Detection-Performance-from-Embedding-Space-Geom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.269721+00:00
+updated_at: 2026-10-02T12:38:23.381020+00:00
 tags: [record, real-data]
 ---
 

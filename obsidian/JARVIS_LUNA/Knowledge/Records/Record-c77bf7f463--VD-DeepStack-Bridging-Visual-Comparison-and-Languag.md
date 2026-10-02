@@ -2,7 +2,7 @@
 title: "Record c77bf7f463 · VD-DeepStack-Bridging-Visual-Comparison-and-Language-Reasoning-for-Few"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.307893+00:00
+updated_at: 2026-10-02T12:38:23.440262+00:00
 tags: [record, real-data]
 ---
 

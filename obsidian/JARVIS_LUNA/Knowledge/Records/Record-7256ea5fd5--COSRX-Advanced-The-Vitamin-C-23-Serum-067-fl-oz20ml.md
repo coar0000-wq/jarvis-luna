@@ -2,7 +2,7 @@
 title: "Record 7256ea5fd5 · COSRX-Advanced-The-Vitamin-C-23-Serum-067-fl-oz20ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.712129+00:00
+updated_at: 2026-10-02T12:38:25.468652+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f2e9814ce3 · K-beauty-emerges-as-new-gateway-to-Korean-culture-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.443890+00:00
+updated_at: 2026-10-02T12:38:25.053827+00:00
 tags: [record, real-data]
 ---
 

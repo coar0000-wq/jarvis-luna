@@ -2,7 +2,7 @@
 title: "Record 97bde3dde2 · Hairstylist-Frédéric-Fekkai-Is-Being-Sued-by-Epstein-Survivors-for-All"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.782970+00:00
+updated_at: 2026-10-02T12:38:25.583974+00:00
 tags: [record, real-data]
 ---
 

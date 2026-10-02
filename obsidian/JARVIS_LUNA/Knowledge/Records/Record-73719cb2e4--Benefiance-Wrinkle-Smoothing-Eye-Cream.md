@@ -2,7 +2,7 @@
 title: "Record 73719cb2e4 · Benefiance-Wrinkle-Smoothing-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.287891+00:00
+updated_at: 2026-10-02T12:38:26.393551+00:00
 tags: [record, real-data]
 ---
 

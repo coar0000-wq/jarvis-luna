@@ -2,7 +2,7 @@
 title: "Record 067e4bd416 · essence-Lash-Princess-False-Lash-Effect-Mascara-Black-Pack-of-1--Volum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.064042+00:00
+updated_at: 2026-10-02T12:38:26.048498+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record fa239fdc72 · Sticky-Ear-Cleaning-Sticks-Gentle-Adhesive-Ear-Picks-for-Ear-Wax-Remov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.852107+00:00
+updated_at: 2026-10-02T12:38:25.698715+00:00
 tags: [record, real-data]
 ---
 

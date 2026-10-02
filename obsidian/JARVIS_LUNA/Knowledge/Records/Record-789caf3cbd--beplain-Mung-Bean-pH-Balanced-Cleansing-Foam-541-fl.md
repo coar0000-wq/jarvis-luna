@@ -2,7 +2,7 @@
 title: "Record 789caf3cbd · beplain-Mung-Bean-pH-Balanced-Cleansing-Foam-541-fl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.683532+00:00
+updated_at: 2026-10-02T12:38:25.427365+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)
 
 beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml)
-beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml) · 평점 4.7 · 리뷰 21
+beplain Mung Bean pH-Balanced Cleansing Foam 5.41 fl. oz.(160ml) · 평점 4.7 · 리뷰 22
 
 **출처:** Source · us_beauty
 

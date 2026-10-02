@@ -2,7 +2,7 @@
 title: "Record d80c5417b6 · 216-PCS-Luminous-Halloween-Tattoos-for-Kids-Halloween-Party-Favors-Bul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.904624+00:00
+updated_at: 2026-10-02T12:38:25.777774+00:00
 tags: [record, real-data]
 ---
 

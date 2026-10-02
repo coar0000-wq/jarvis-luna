@@ -2,7 +2,7 @@
 title: "Record b6f7ecf035 · nomp-A-Framework-for-Building-Domain-Specific-Compilers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.665695+00:00
+updated_at: 2026-10-02T12:38:23.965009+00:00
 tags: [record, real-data]
 ---
 

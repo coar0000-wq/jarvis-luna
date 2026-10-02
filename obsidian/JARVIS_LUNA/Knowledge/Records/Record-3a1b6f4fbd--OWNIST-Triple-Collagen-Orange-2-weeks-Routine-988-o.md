@@ -2,7 +2,7 @@
 title: "Record 3a1b6f4fbd · OWNIST-Triple-Collagen-Orange-2-weeks-Routine-988-oz280g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.711804+00:00
+updated_at: 2026-10-02T12:38:25.468191+00:00
 tags: [record, real-data]
 ---
 

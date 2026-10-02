@@ -2,7 +2,7 @@
 title: "Record 9b2fc6ab53 · MSs-new-K-beauty-skincare-really-delivers-results-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.377587+00:00
+updated_at: 2026-10-02T12:38:25.002008+00:00
 tags: [record, real-data]
 ---
 

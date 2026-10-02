@@ -2,7 +2,7 @@
 title: "Record c94aa6a0eb · Samsung-Smart-City--Gumi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.518931+00:00
+updated_at: 2026-10-02T12:38:25.169957+00:00
 tags: [record, real-data]
 ---
 

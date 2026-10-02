@@ -2,7 +2,7 @@
 title: "Record 445deca4f5 · ongredients-Skin-Barrier-Calming-Lotion-743-fl-oz220ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.714990+00:00
+updated_at: 2026-10-02T12:38:25.473086+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0f43f9497f · How-to-Train-a-Critic-Stably-and-Efficiently"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.449712+00:00
+updated_at: 2026-10-02T12:38:26.615165+00:00
 tags: [record, real-data]
 ---
 

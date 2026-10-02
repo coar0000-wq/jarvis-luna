@@ -2,7 +2,7 @@
 title: "Record 8e43fb9e91 · REJURAN-Intensive-Eye-Cream-067-fl-oz20ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.675448+00:00
+updated_at: 2026-10-02T12:38:25.415591+00:00
 tags: [record, real-data]
 ---
 

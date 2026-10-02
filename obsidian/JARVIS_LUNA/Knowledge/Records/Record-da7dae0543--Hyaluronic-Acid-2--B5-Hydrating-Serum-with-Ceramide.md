@@ -2,7 +2,7 @@
 title: "Record da7dae0543 · Hyaluronic-Acid-2--B5-Hydrating-Serum-with-Ceramides"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.299253+00:00
+updated_at: 2026-10-02T12:38:26.410503+00:00
 tags: [record, real-data]
 ---
 

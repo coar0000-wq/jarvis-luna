@@ -2,7 +2,7 @@
 title: "Record 9effb6c300 · Introducing-Forge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.058565+00:00
+updated_at: 2026-10-02T12:38:24.519585+00:00
 tags: [record, real-data]
 ---
 

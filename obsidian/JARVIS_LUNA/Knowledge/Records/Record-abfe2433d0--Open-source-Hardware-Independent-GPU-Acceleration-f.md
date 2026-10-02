@@ -2,7 +2,7 @@
 title: "Record abfe2433d0 · Open-source-Hardware-Independent-GPU-Acceleration-for-Scalable-Nanopor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.997761+00:00
+updated_at: 2026-10-02T12:38:24.422152+00:00
 tags: [record, real-data]
 ---
 

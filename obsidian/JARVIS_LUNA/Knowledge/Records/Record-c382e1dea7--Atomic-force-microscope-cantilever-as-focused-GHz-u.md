@@ -2,7 +2,7 @@
 title: "Record c382e1dea7 · Atomic-force-microscope-cantilever-as-focused-GHz-ultrasound-transduce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.387600+00:00
+updated_at: 2026-10-02T12:38:23.562015+00:00
 tags: [record, real-data]
 ---
 

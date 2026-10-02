@@ -2,7 +2,7 @@
 title: "Record 3d53fc3571 · The-Selection-Rule-Decides-the-Winner-A-Pre-Registered-Audit-of-Open-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.303831+00:00
+updated_at: 2026-10-02T12:38:23.431159+00:00
 tags: [record, real-data]
 ---
 

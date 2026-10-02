@@ -2,7 +2,7 @@
 title: "Record 723d20f1d8 · medicube-Zero-Pore-Pad-70ct-546-oz155g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.735206+00:00
+updated_at: 2026-10-02T12:38:25.505706+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** medicube Zero Pore Pad 70ct 5.46 oz.(155g)
 
 medicube Zero Pore Pad 70ct 5.46 oz.(155g)
-medicube Zero Pore Pad 70ct 5.46 oz.(155g) · 평점 4.9 · 리뷰 9
+medicube Zero Pore Pad 70ct 5.46 oz.(155g) · 평점 4.8 · 리뷰 10
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record 279581405b · 3-Viral-Products-Kids-Would-Go-CRAZY-For"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.376138+00:00
+updated_at: 2026-10-02T12:38:26.505390+00:00
 tags: [record, real-data]
 ---
 

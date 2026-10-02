@@ -2,7 +2,7 @@
 title: "Record 72f16fd009 · 4scents-hetras-Hotel-Therapy-Body-Wash-3425-fl-oz1013ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.737613+00:00
+updated_at: 2026-10-02T12:38:25.509577+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [4scents] hetras Hotel Therapy Body Wash 34.25 fl. oz.(1013ml)
 
 [4scents] hetras Hotel Therapy Body Wash 34.25 fl. oz.(1013ml)
-[4scents] hetras Hotel Therapy Body Wash 34.25 fl. oz.(1013ml) · 평점 5 · 리뷰 2
+[4scents] hetras Hotel Therapy Body Wash 34.25 fl. oz.(1013ml) · 평점 5 · 리뷰 4
 
 **출처:** Source · us_beauty
 

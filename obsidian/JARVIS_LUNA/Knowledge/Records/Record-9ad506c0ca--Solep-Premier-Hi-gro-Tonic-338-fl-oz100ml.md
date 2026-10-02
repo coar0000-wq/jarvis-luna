@@ -2,7 +2,7 @@
 title: "Record 9ad506c0ca · Solep-Premier-Hi-gro-Tonic-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.724779+00:00
+updated_at: 2026-10-02T12:38:25.488780+00:00
 tags: [record, real-data]
 ---
 

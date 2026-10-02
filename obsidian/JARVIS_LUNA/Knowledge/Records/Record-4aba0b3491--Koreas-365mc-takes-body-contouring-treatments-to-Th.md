@@ -2,7 +2,7 @@
 title: "Record 4aba0b3491 · Koreas-365mc-takes-body-contouring-treatments-to-Th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.176162+00:00
+updated_at: 2026-10-02T12:38:24.708533+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e61635286e · The-Limited-Edition-Glazed-Glow-Kit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.310815+00:00
+updated_at: 2026-10-02T12:38:26.415795+00:00
 tags: [record, real-data]
 ---
 

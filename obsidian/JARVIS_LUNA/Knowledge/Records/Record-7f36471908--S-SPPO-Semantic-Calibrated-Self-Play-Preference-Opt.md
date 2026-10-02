@@ -2,7 +2,7 @@
 title: "Record 7f36471908 · S-SPPO-Semantic-Calibrated-Self-Play-Preference-Optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.661089+00:00
+updated_at: 2026-10-02T12:38:23.958794+00:00
 tags: [record, real-data]
 ---
 

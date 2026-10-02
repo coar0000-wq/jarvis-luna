@@ -2,7 +2,7 @@
 title: "Record 0392785bf2 · Introducing-ai_decide-make-fast-decisions-on-your-governed-data"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.134931+00:00
+updated_at: 2026-10-02T12:38:26.150710+00:00
 tags: [record, real-data]
 ---
 

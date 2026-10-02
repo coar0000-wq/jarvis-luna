@@ -2,7 +2,7 @@
 title: "Record aced1a44d0 · PARSEE-VAD-Efficient-Training-Free-Online-Video-Anomaly-Detection-via-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.847136+00:00
+updated_at: 2026-10-02T12:38:24.239167+00:00
 tags: [record, real-data]
 ---
 

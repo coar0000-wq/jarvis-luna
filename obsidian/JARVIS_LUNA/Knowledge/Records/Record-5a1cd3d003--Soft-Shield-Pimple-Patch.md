@@ -2,7 +2,7 @@
 title: "Record 5a1cd3d003 · Soft-Shield-Pimple-Patch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.633172+00:00
+updated_at: 2026-10-02T12:38:25.355888+00:00
 tags: [record, real-data]
 ---
 

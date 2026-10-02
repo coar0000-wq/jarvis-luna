@@ -2,7 +2,7 @@
 title: "Record de96548951 · BIODANCE-Collagen-Peptides-Under-Eye-Cream-for-Anti-Aging-101-floz--Un"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.820990+00:00
+updated_at: 2026-10-02T12:38:25.642849+00:00
 tags: [record, real-data]
 ---
 

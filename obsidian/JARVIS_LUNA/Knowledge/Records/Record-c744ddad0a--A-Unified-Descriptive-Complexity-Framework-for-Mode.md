@@ -2,7 +2,7 @@
 title: "Record c744ddad0a · A-Unified-Descriptive-Complexity-Framework-for-Model-Selection-under-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.687590+00:00
+updated_at: 2026-10-02T12:38:23.999166+00:00
 tags: [record, real-data]
 ---
 

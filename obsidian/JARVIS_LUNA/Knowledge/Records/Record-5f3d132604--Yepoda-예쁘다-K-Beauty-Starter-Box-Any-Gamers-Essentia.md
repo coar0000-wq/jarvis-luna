@@ -2,7 +2,7 @@
 title: "Record 5f3d132604 · Yepoda-예쁘다-K-Beauty-Starter-Box-Any-Gamers-Essential-Kit---Cubed3"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.151730+00:00
+updated_at: 2026-10-02T12:38:24.670520+00:00
 tags: [record, real-data]
 ---
 

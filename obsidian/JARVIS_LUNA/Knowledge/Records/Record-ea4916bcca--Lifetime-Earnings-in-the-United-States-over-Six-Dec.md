@@ -2,7 +2,7 @@
 title: "Record ea4916bcca · Lifetime-Earnings-in-the-United-States-over-Six-Decades"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.534853+00:00
+updated_at: 2026-10-02T12:38:23.793263+00:00
 tags: [record, real-data]
 ---
 

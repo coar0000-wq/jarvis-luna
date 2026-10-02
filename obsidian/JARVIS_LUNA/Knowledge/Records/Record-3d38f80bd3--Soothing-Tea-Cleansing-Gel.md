@@ -2,7 +2,7 @@
 title: "Record 3d38f80bd3 · Soothing-Tea-Cleansing-Gel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.636381+00:00
+updated_at: 2026-10-02T12:38:25.361080+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 908369ec69 · Interplay-of-Adsorbed-and-Free-Polymer-Governs-Micr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.411104+00:00
+updated_at: 2026-10-02T12:38:23.598829+00:00
 tags: [record, real-data]
 ---
 

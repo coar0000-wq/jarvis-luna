@@ -2,7 +2,7 @@
 title: "Record 6945d4a278 · Evaluating-Large-Language-Models-as-Post-Hoc-Explainability-Interfaces"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.498389+00:00
+updated_at: 2026-10-02T12:38:23.736710+00:00
 tags: [record, real-data]
 ---
 

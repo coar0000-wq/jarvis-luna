@@ -2,7 +2,7 @@
 title: "Record bf2ce17075 · Governing-Generative-AI-Across-Financial-Institutions-A-Framework-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.673048+00:00
+updated_at: 2026-10-02T12:38:23.975927+00:00
 tags: [record, real-data]
 ---
 

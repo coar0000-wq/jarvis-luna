@@ -2,7 +2,7 @@
 title: "Record c5df8f657e · RODAN-AI---Część-VI---Integracja-pełnego-łańcucha-głosowego-STTLLMTTS-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.972567+00:00
+updated_at: 2026-10-02T12:38:24.389944+00:00
 tags: [record, real-data]
 ---
 

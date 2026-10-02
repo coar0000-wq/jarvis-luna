@@ -2,7 +2,7 @@
 title: "Record 01392d2439 · 3colors-WAKEMAKE-Any-proof-Pen-Eyeliner-001-oz05g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.683182+00:00
+updated_at: 2026-10-02T12:38:25.426872+00:00
 tags: [record, real-data]
 ---
 

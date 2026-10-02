@@ -2,7 +2,7 @@
 title: "Record d8082eec60 · THOME-The-Glow-Signature"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.713742+00:00
+updated_at: 2026-10-02T12:38:25.471137+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** THOME The Glow Signature
 
 THOME The Glow Signature
-THOME The Glow Signature · 평점 4.7 · 리뷰 25
+THOME The Glow Signature · 평점 4.7 · 리뷰 26
 
 **출처:** Source · us_beauty
 

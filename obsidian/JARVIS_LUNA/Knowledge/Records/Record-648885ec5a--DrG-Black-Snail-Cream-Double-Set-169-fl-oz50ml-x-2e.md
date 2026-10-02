@@ -2,7 +2,7 @@
 title: "Record 648885ec5a · DrG-Black-Snail-Cream-Double-Set-169-fl-oz50ml-x-2e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.673148+00:00
+updated_at: 2026-10-02T12:38:25.408447+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** Dr.G Black Snail Cream Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.51 fl. oz.(15ml))
 
 Dr.G Black Snail Cream Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.51 fl. oz.(15ml))
-Dr.G Black Snail Cream Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.51 fl. oz.(15ml)) · 평점 4.8 · 리뷰 1,166
+Dr.G Black Snail Cream Double Set 1.69 fl. oz.(50ml) x 2ea (+ 0.51 fl. oz.(15ml)) · 평점 4.8 · 리뷰 1,167
 
 **출처:** Source · us_beauty
 

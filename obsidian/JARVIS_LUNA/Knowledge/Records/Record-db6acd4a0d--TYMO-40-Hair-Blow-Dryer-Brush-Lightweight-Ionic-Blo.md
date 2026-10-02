@@ -2,7 +2,7 @@
 title: "Record db6acd4a0d · TYMO-40-Hair-Blow-Dryer-Brush-Lightweight-Ionic-Blowout-Hair-Dryer-Bru"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.032820+00:00
+updated_at: 2026-10-02T12:38:25.995152+00:00
 tags: [record, real-data]
 ---
 

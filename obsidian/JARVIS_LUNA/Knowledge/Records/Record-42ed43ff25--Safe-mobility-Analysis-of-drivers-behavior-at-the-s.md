@@ -2,7 +2,7 @@
 title: "Record 42ed43ff25 · Safe-mobility-Analysis-of-drivers-behavior-at-the-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.398363+00:00
+updated_at: 2026-10-02T12:38:23.578736+00:00
 tags: [record, real-data]
 ---
 

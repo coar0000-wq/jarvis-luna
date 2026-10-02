@@ -2,7 +2,7 @@
 title: "Record b2342a88af · DrAlthea-Vitamin-C-Boosting-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.716511+00:00
+updated_at: 2026-10-02T12:38:25.475507+00:00
 tags: [record, real-data]
 ---
 

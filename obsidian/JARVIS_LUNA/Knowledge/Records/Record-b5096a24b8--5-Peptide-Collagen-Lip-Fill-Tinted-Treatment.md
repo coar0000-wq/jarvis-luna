@@ -2,7 +2,7 @@
 title: "Record b5096a24b8 · 5-Peptide-Collagen-Lip-Fill-Tinted-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.284178+00:00
+updated_at: 2026-10-02T12:38:26.384481+00:00
 tags: [record, real-data]
 ---
 

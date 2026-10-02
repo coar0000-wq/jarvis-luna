@@ -2,7 +2,7 @@
 title: "Record b3380310fe · SKoreas-seafood-giant-Dongwon-to-acquire-K-beauty-pioneer-Charmzone---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.211607+00:00
+updated_at: 2026-10-02T12:38:24.755236+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6cb96a67fe · Luxe-Color-Changing-Foundation--Medium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:22.905450+00:00
+updated_at: 2026-10-02T12:38:25.779207+00:00
 tags: [record, real-data]
 ---
 

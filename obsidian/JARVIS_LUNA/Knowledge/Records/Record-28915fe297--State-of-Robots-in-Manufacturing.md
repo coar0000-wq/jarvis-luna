@@ -2,7 +2,7 @@
 title: "Record 28915fe297 · State-of-Robots-in-Manufacturing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.275025+00:00
+updated_at: 2026-10-02T12:38:26.370111+00:00
 tags: [record, real-data]
 ---
 

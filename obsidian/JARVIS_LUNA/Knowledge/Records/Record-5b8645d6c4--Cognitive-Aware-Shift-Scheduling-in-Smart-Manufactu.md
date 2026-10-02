@@ -2,7 +2,7 @@
 title: "Record 5b8645d6c4 · Cognitive-Aware-Shift-Scheduling-in-Smart-Manufacturing-An-AI-Framewor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.617902+00:00
+updated_at: 2026-10-02T12:38:23.911960+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3ef67594bc · Seasonal-prediction-of-ocean-biogeochemistry-in-the-Northeast-US-Large"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:21.924836+00:00
+updated_at: 2026-10-02T12:38:24.318256+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 095c4ef399 · Sally-Hansen-Insta-Dri-Nail-Color-Polish-Asap-Apple-031-fl-oz-Quick-Dr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T10:30:23.345924+00:00
+updated_at: 2026-10-02T12:38:26.461532+00:00
 tags: [record, real-data]
 ---
 
