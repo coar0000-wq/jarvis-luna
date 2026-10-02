@@ -2,7 +2,7 @@
 title: "Record cb0a2bffcc · Learning-a-Flow-to-Self-Supervised-Representations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.938019+00:00
+updated_at: 2026-10-02T22:02:44.327113+00:00
 tags: [record, real-data]
 ---
 

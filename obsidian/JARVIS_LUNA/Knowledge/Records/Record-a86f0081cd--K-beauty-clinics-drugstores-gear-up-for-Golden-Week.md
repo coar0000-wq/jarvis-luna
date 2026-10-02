@@ -2,7 +2,7 @@
 title: "Record a86f0081cd · K-beauty-clinics-drugstores-gear-up-for-Golden-Week-as-Chinese-spendin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.397834+00:00
+updated_at: 2026-10-02T22:02:44.836283+00:00
 tags: [record, real-data]
 ---
 

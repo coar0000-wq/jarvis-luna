@@ -2,7 +2,7 @@
 title: "Record 62ae02127d · 12scents-hetras-Mango-Seed-Butter-Hand-Cream-169-fl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.978111+00:00
+updated_at: 2026-10-02T22:02:45.484028+00:00
 tags: [record, real-data]
 ---
 

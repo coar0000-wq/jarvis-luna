@@ -2,7 +2,7 @@
 title: "Record c5fac81f66 · The-Multipath-Reliable-Connection-MRC-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.750116+00:00
+updated_at: 2026-10-02T22:02:44.120517+00:00
 tags: [record, real-data]
 ---
 

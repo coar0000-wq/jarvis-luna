@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:24:39.481433+00:00",
+  "generated_at": "2026-10-02T21:49:43.607516+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
@@ -15,59 +15,59 @@
       "products": 356
     },
     "market": {
-      "total": 923,
-      "recent": 99,
-      "material": 923,
-      "material_recent": 99,
+      "total": 929,
+      "recent": 101,
+      "material": 929,
+      "material_recent": 101,
       "products": 0
     },
     "listing": {
-      "total": 114,
+      "total": 115,
       "recent": 57,
-      "material": 114,
+      "material": 115,
       "material_recent": 57,
       "products": 0
     },
     "pricing": {
       "total": 67,
-      "recent": 25,
+      "recent": 24,
       "material": 67,
-      "material_recent": 25,
+      "material_recent": 24,
       "products": 0
     },
     "legal": {
       "total": 224,
-      "recent": 49,
+      "recent": 52,
       "material": 224,
-      "material_recent": 49,
+      "material_recent": 52,
       "products": 0
     },
     "design": {
-      "total": 456,
-      "recent": 135,
-      "material": 456,
-      "material_recent": 135,
+      "total": 454,
+      "recent": 136,
+      "material": 454,
+      "material_recent": 136,
       "products": 0
     },
     "robotics": {
       "total": 148,
-      "recent": 56,
+      "recent": 57,
       "material": 148,
-      "material_recent": 56,
+      "material_recent": 57,
       "products": 0
     },
     "knowledge": {
-      "total": 300,
+      "total": 298,
       "recent": 104,
-      "material": 300,
+      "material": 298,
       "material_recent": 104,
       "products": 0
     },
     "institutions": {
       "total": 1162,
-      "recent": 257,
+      "recent": 264,
       "material": 1162,
-      "material_recent": 257,
+      "material_recent": 264,
       "products": 0
     },
     "channels": {
@@ -1899,13 +1899,6 @@
         "by_hand": false
       },
       {
-        "title": "Why Markets May Be Pricing In Too Many Rate Hikes",
-        "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/why-markets-may-be-pricing-in-too-many-rate-hikes",
-        "pool": "institutions",
-        "date": "2026-09-29",
-        "by_hand": false
-      },
-      {
         "title": "Improved shipping and duty data in Analytics",
         "url": "https://changelog.shopify.com/posts/improved-shipping-and-duty-data-in-analytics",
         "pool": "design_refs",
@@ -1917,6 +1910,13 @@
         "url": "https://x.ai/news/grok-4-7",
         "pool": "institutions",
         "date": "2026-09-21",
+        "by_hand": false
+      },
+      {
+        "title": "Incidence, Healthcare Utilization, and Costs of Gynecomastia Among Active-Duty U.S. Service Members, 2014-2023",
+        "url": "https://doi.org/10.1093/milmed/usag439",
+        "pool": "institutions",
+        "date": "2026-09-11",
         "by_hand": false
       },
       {

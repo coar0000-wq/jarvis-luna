@@ -2,7 +2,7 @@
 title: "Record 1f01fd1f1e · eos-Pumpkin-Chai-Fine-Fragrance-Body-Mist---Fall-Body-Spray-6-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.503330+00:00
+updated_at: 2026-10-02T22:02:46.132042+00:00
 tags: [record, real-data]
 ---
 

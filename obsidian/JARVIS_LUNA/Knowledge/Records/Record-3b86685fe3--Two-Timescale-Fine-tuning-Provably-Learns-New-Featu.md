@@ -2,7 +2,7 @@
 title: "Record 3b86685fe3 · Two-Timescale-Fine-tuning-Provably-Learns-New-Features-for-Two-Layer-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.986068+00:00
+updated_at: 2026-10-02T22:02:44.381606+00:00
 tags: [record, real-data]
 ---
 

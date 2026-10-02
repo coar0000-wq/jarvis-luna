@@ -2,7 +2,7 @@
 title: "Record af173630d9 · Anthropic-Acquires-Bun-As-Claude-Code-Reaches-Usd1B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.519841+00:00
+updated_at: 2026-10-02T22:02:46.154378+00:00
 tags: [record, real-data]
 ---
 

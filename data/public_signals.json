@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:35:18.620736+00:00",
+  "generated_at": "2026-10-02T22:00:15.611092+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "tony romo",
-          "approx_traffic": "20000+",
-          "traffic_num": 20000,
-          "published": "Fri, 2 Oct 2026 09:00:00 -0700",
+          "keyword": "surinam - guatemala",
+          "approx_traffic": "5000+",
+          "traffic_num": 5000,
+          "published": "Fri, 2 Oct 2026 14:10:00 -0700",
+          "source_name": "Prensa Libre",
+          "url": "https://trends.google.com/trending?geo=US&q=surinam%20-%20guatemala"
+        },
+        {
+          "keyword": "suriname vs guatemala",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 2 Oct 2026 14:20:00 -0700",
+          "source_name": "Concacaf | Official Website",
+          "url": "https://trends.google.com/trending?geo=US&q=suriname%20vs%20guatemala"
+        },
+        {
+          "keyword": "tony reno",
+          "approx_traffic": "2000+",
+          "traffic_num": 2000,
+          "published": "Fri, 2 Oct 2026 13:50:00 -0700",
           "source_name": "ESPN",
-          "url": "https://trends.google.com/trending?geo=US&q=tony%20romo"
+          "url": "https://trends.google.com/trending?geo=US&q=tony%20reno"
         },
         {
-          "keyword": "jim farley ford skilled trades ai",
+          "keyword": "rangers vs red wings",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 2 Oct 2026 10:10:00 -0700",
-          "source_name": "Fortune",
-          "url": "https://trends.google.com/trending?geo=US&q=jim%20farley%20ford%20skilled%20trades%20ai"
+          "published": "Fri, 2 Oct 2026 14:40:00 -0700",
+          "source_name": "NHL.com",
+          "url": "https://trends.google.com/trending?geo=US&q=rangers%20vs%20red%20wings"
         },
         {
-          "keyword": "france vs italy",
+          "keyword": "doj minnesota judges misconduct complaint",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 2 Oct 2026 09:50:00 -0700",
-          "source_name": "Syracuse.com",
-          "url": "https://trends.google.com/trending?geo=US&q=france%20vs%20italy"
+          "published": "Fri, 2 Oct 2026 14:40:00 -0700",
+          "source_name": "CBS News",
+          "url": "https://trends.google.com/trending?geo=US&q=doj%20minnesota%20judges%20misconduct%20complaint"
         },
         {
-          "keyword": "shivon zilis",
+          "keyword": "nicole linton",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 2 Oct 2026 09:40:00 -0700",
-          "source_name": "People.com",
-          "url": "https://trends.google.com/trending?geo=US&q=shivon%20zilis"
+          "published": "Fri, 2 Oct 2026 14:30:00 -0700",
+          "source_name": "KTLA",
+          "url": "https://trends.google.com/trending?geo=US&q=nicole%20linton"
         },
         {
-          "keyword": "billy bush",
+          "keyword": "penn state vs northwestern",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 2 Oct 2026 09:30:00 -0700",
-          "source_name": "FOX 8 News",
-          "url": "https://trends.google.com/trending?geo=US&q=billy%20bush"
+          "published": "Fri, 2 Oct 2026 14:00:00 -0700",
+          "source_name": "FOX Sports",
+          "url": "https://trends.google.com/trending?geo=US&q=penn%20state%20vs%20northwestern"
         },
         {
-          "keyword": "livvy dunne",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 10:20:00 -0700",
-          "source_name": "Fox News",
-          "url": "https://trends.google.com/trending?geo=US&q=livvy%20dunne"
+          "keyword": "estados unidos",
+          "approx_traffic": "1000+",
+          "traffic_num": 1000,
+          "published": "Fri, 2 Oct 2026 13:40:00 -0700",
+          "source_name": "San Antonio Express-News",
+          "url": "https://trends.google.com/trending?geo=US&q=estados%20unidos"
         },
         {
-          "keyword": "marvel television",
+          "keyword": "colombia vs paraguay",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 10:00:00 -0700",
-          "source_name": "Ars Technica",
-          "url": "https://trends.google.com/trending?geo=US&q=marvel%20television"
+          "published": "Fri, 2 Oct 2026 14:20:00 -0700",
+          "source_name": "ESPN Deportes",
+          "url": "https://trends.google.com/trending?geo=US&q=colombia%20vs%20paraguay"
         },
         {
-          "keyword": "eminem kid rock",
+          "keyword": "doing life",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 10:00:00 -0700",
-          "source_name": "The Detroit News",
-          "url": "https://trends.google.com/trending?geo=US&q=eminem%20kid%20rock"
-        },
-        {
-          "keyword": "cyprus vs armenia",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 09:20:00 -0700",
-          "source_name": "BBC",
-          "url": "https://trends.google.com/trending?geo=US&q=cyprus%20vs%20armenia"
-        },
-        {
-          "keyword": "cruise industry",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 08:40:00 -0700",
-          "source_name": "Royal Caribbean Blog",
-          "url": "https://trends.google.com/trending?geo=US&q=cruise%20industry"
+          "published": "Fri, 2 Oct 2026 14:20:00 -0700",
+          "source_name": "The New York Times",
+          "url": "https://trends.google.com/trending?geo=US&q=doing%20life"
         }
       ]
     },
@@ -188,7 +188,42 @@
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
       "items": [
         {
-          "title": "Sarah Jessica Parker's Colossal Braid Is Straight Out of a Fairytale — Photos",
+          "title": "12 Bad Skin Habits Your Dermatologist Wishes You’d Break",
+          "published": "Fri, 02 Oct 2026 21:00:00 +0000",
+          "url": "https://www.allure.com/story/bad-skin-habits-dermatologists-want-you-to-break"
+        },
+        {
+          "title": "GLP-1s May Significantly Increase Your Risk of Nail Detachment",
+          "published": "Fri, 02 Oct 2026 19:28:52 +0000",
+          "url": "https://www.allure.com/story/glp-1-nail-detachment-new-study"
+        },
+        {
+          "title": "'The Swan' Ended 20 Years Ago. Its Plastic Surgery Legacy Lives On.",
+          "published": "Fri, 02 Oct 2026 19:21:58 +0000",
+          "url": "https://www.allure.com/story/the-swan-series-plastic-surgery-legacy-haworth-dubrow"
+        },
+        {
+          "title": "7 Best L’Oréal Paris Skin-Care Products for Fine Lines, Dullness, and Dryness",
+          "published": "Fri, 02 Oct 2026 19:02:13 +0000",
+          "url": "https://www.allure.com/story/best-loreal-paris-skin-care-products"
+        },
+        {
+          "title": "26 Best Amazon Gifts Under $50 for Everyone on Your List",
+          "published": "Fri, 02 Oct 2026 18:19:47 +0000",
+          "url": "https://www.allure.com/gallery/best-amazon-gifts-under-50"
+        },
+        {
+          "title": "Allure Best of Beauty Live 2026 Sweepstakes",
+          "published": "Fri, 02 Oct 2026 17:33:29 +0000",
+          "url": "https://www.allure.com/story/best-of-beauty-sweepstakes-2026-rules"
+        },
+        {
+          "title": "Cynthia Erivo Put a Colorful Croc Spin on a Classic French Manicure",
+          "published": "Fri, 02 Oct 2026 17:31:45 +0000",
+          "url": "https://www.allure.com/story/cynthia-erivo-multicolor-croc-nails"
+        },
+        {
+          "title": "Sarah Jessica Parker's Braid Is a Quiet Silver Masterpiece",
           "published": "Fri, 02 Oct 2026 13:22:44 +0000",
           "url": "https://www.allure.com/story/sarah-jessica-parker-quiet-silver-ribbon-braid"
         },
@@ -301,41 +336,6 @@
           "title": "\"The Swan:\" Behind the Scenes of the Polarizing First Season",
           "published": "Mon, 28 Sep 2026 10:30:00 +0000",
           "url": "https://www.allure.com/story/the-secrets-of-the-swan-first-season-interviews"
-        },
-        {
-          "title": "Lisa Just Brought a New Nail Shape to the VMAs 2026 Red Carpet—See the Photos",
-          "published": "Mon, 28 Sep 2026 01:58:54 +0000",
-          "url": "https://www.allure.com/story/lisa-vmas-2026-nails"
-        },
-        {
-          "title": "Taylor Swift's Diamond Frost Nails Made the VMAs 2026 Shimmer—See the Photos",
-          "published": "Mon, 28 Sep 2026 00:26:42 +0000",
-          "url": "https://www.allure.com/story/taylor-swift-frosted-diamond-nails-vmas-2026"
-        },
-        {
-          "title": "Taylor Swift Put a Subtle Spin on Her Signature Cat-Eye Liner at the VMAs 2026—See the Photos",
-          "published": "Sun, 27 Sep 2026 23:42:00 +0000",
-          "url": "https://www.allure.com/story/taylor-swift-vmas-2026-eyeliner"
-        },
-        {
-          "title": "Charli XCX Channeled a Modern Morticia at the VMAs 2026—See the Photos",
-          "published": "Sun, 27 Sep 2026 23:11:40 +0000",
-          "url": "https://www.allure.com/story/charli-xcx-vmas-2026-hair-makeup"
-        },
-        {
-          "title": "Slayyyter Brought Dark Roots and Beach Waves to the VMAs 2026—See the Photos",
-          "published": "Sun, 27 Sep 2026 22:37:28 +0000",
-          "url": "https://www.allure.com/story/slayyyter-dark-roots-blonde-waves-vmas-2026"
-        },
-        {
-          "title": "The Best Beauty Looks at the MTV VMAs 2026",
-          "published": "Sun, 27 Sep 2026 22:21:38 +0000",
-          "url": "https://www.allure.com/story/beauty-beauty-looks-mtv-vmas-2026"
-        },
-        {
-          "title": "8 Best Night Creams 2026 for Softer, Plumper Skin by Morning",
-          "published": "Sat, 26 Sep 2026 12:00:00 +0000",
-          "url": "https://www.allure.com/gallery/best-night-cream"
         }
       ]
     },

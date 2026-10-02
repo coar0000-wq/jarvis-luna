@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-10-02T17:23:12.602274+00:00",
+  "generated_at": "2026-10-02T21:48:15.378588+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -94,7 +94,7 @@
         "source": "IQDtl0Dacjo 5분 Optimize Shopify Product Pages for SEO and AI Search",
         "check": null,
         "status": "보완 필요",
-        "evidence": "data/design/offline_pack.json seo 4/9 통과"
+        "evidence": "data/design/offline_pack.json seo 4/8 통과"
       },
       {
         "id": "publish",
@@ -185,6 +185,14 @@
       "policy_version": 1
     },
     "items": [
+      {
+        "title": "Admin now supports 3 new languages",
+        "url": "https://changelog.shopify.com/posts/admin-now-available-in-3-new-languages",
+        "date": "2026-10-02",
+        "summary": "We’ve released improved support for 3 right-to-left languages (Arabic, Urdu, and Hebrew) in both Admin and Storefronts, including checkout, customer accounts and the Horizon family of themes. Display language is determined based on the user’s device settings, if available. Product pages and other me",
+        "feed": "Shopify Changelog",
+        "relevance": 4
+      },
       {
         "title": "Schedule and test discounts with Rollouts",
         "url": "https://changelog.shopify.com/posts/schedule-and-test-discounts-with-rollouts",
@@ -296,14 +304,6 @@
         "summary": "Shop Pay Installments, Shop Pay’s built-in buy now, pay later solution, is available for merchants and buyers located in the United States, Canada, and the United Kingdom. Merchants who operate multiple business entities in these supported countries can now enable Shop Pay Installments on all entiti",
         "feed": "Shopify Changelog",
         "relevance": 0
-      },
-      {
-        "title": "Shopify Analytics session measurement improvements",
-        "url": "https://changelog.shopify.com/posts/shopify-analytics-session-measurement-improvements",
-        "date": "2026-09-21",
-        "summary": "Starting September 21, 2026, Shopify is improving the sessions experience in Analytics to give merchants a cleaner view of real shopper activity. As a result, sessions, conversion rate, and other session-based metrics might look different after this update. This doesn't necessarily mean that your tr",
-        "feed": "Shopify Changelog",
-        "relevance": 2
       },
       {
         "title": "More control over commerce updates with Next Gen Events",

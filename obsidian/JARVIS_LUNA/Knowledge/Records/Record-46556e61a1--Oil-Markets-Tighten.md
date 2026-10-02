@@ -2,7 +2,7 @@
 title: "Record 46556e61a1 · Oil-Markets-Tighten"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.684895+00:00
+updated_at: 2026-10-02T22:02:46.351434+00:00
 tags: [record, real-data]
 ---
 

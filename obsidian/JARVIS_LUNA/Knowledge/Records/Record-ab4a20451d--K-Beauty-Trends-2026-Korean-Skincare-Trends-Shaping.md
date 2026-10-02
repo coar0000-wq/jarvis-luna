@@ -2,7 +2,7 @@
 title: "Record ab4a20451d · K-Beauty-Trends-2026-Korean-Skincare-Trends-Shaping"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.717266+00:00
+updated_at: 2026-10-02T22:02:45.192887+00:00
 tags: [record, real-data]
 ---
 

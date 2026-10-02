@@ -2,7 +2,7 @@
 title: "Record 6a8652ca54 · K-beautys-next-formula-Makeup-that-works-like-skinc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.264148+00:00
+updated_at: 2026-10-02T22:02:44.690707+00:00
 tags: [record, real-data]
 ---
 

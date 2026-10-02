@@ -2,7 +2,7 @@
 title: "Record 10cf64d153 · KernelOPT-Dispatch-Aware-Agentic-Search-for-GPU-Kernel-Optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.948184+00:00
+updated_at: 2026-10-02T22:02:44.338339+00:00
 tags: [record, real-data]
 ---
 

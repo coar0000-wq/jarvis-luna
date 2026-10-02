@@ -2,7 +2,7 @@
 title: "Record d4162a201b · Mental-Health-and-Substance-Use-Treatment-Telehealt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.579781+00:00
+updated_at: 2026-10-02T22:02:43.929935+00:00
 tags: [record, real-data]
 ---
 

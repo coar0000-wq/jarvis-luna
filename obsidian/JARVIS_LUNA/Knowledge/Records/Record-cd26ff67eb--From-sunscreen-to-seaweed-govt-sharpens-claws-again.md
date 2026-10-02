@@ -2,7 +2,7 @@
 title: "Record cd26ff67eb · From-sunscreen-to-seaweed-govt-sharpens-claws-against-Korean-brand-cop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.746776+00:00
+updated_at: 2026-10-02T22:02:45.225916+00:00
 tags: [record, real-data]
 ---
 

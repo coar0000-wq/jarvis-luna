@@ -2,7 +2,7 @@
 title: "Record 56f069f46f · HUEGUARD-3-in-1-Mineral-Sunscreen-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.938494+00:00
+updated_at: 2026-10-02T22:02:45.435879+00:00
 tags: [record, real-data]
 ---
 

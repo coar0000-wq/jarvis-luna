@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:23:12.601444+00:00",
+  "generated_at": "2026-10-02T21:48:15.377374+00:00",
   "generator": "scripts/build_design_team.py",
   "scope": "스토어 없이 만들고 검증할 수 있는 디자인 준비물. 스토어에 적용된 것은 아니다.",
   "design_system": {
@@ -75,7 +75,7 @@
     "source": "data/shopify_listing_copy.json",
     "rule": "seo_title ≤60자, seo_description 70~160자",
     "passed": 4,
-    "eligible": 9,
+    "eligible": 8,
     "items": [
       {
         "pd_no": "1049276",
@@ -123,13 +123,6 @@
         "ok": false,
         "issues": [
           "seo_description 180자 (70~160)"
-        ]
-      },
-      {
-        "pd_no": "1042619",
-        "ok": false,
-        "issues": [
-          "seo_description 183자 (70~160)"
         ]
       }
     ]

@@ -2,7 +2,7 @@
 title: "Record 7a9e80c66a · WeEnv-The-Environment-for-Agentic-Reinforcement-Learning-at-WeChat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.954092+00:00
+updated_at: 2026-10-02T22:02:44.344893+00:00
 tags: [record, real-data]
 ---
 

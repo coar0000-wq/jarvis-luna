@@ -2,7 +2,7 @@
 title: "Record 6b88e9d26d · Scientists-develop-plant-based-serum-that-regrows-hair-within-weeks---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.232043+00:00
+updated_at: 2026-10-02T22:02:44.656229+00:00
 tags: [record, real-data]
 ---
 

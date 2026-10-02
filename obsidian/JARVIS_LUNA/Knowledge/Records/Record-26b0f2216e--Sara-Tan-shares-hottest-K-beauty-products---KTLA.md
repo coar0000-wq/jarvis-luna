@@ -2,7 +2,7 @@
 title: "Record 26b0f2216e · Sara-Tan-shares-hottest-K-beauty-products---KTLA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.464093+00:00
+updated_at: 2026-10-02T22:02:44.907407+00:00
 tags: [record, real-data]
 ---
 

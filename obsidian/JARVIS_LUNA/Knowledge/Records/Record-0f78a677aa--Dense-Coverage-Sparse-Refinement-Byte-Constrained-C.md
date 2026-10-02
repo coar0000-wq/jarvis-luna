@@ -2,7 +2,7 @@
 title: "Record 0f78a677aa · Dense-Coverage-Sparse-Refinement-Byte-Constrained-Cooperative-Percepti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.248773+00:00
+updated_at: 2026-10-02T22:02:43.556589+00:00
 tags: [record, real-data]
 ---
 

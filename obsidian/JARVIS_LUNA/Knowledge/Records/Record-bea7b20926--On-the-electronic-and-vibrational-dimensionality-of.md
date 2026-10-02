@@ -2,7 +2,7 @@
 title: "Record bea7b20926 · On-the-electronic-and-vibrational-dimensionality-of-nanometer-scale-si"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.775208+00:00
+updated_at: 2026-10-02T22:02:44.145365+00:00
 tags: [record, real-data]
 ---
 

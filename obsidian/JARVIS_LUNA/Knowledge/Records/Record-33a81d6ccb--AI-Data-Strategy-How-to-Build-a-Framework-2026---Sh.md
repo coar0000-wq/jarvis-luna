@@ -2,7 +2,7 @@
 title: "Record 33a81d6ccb · AI-Data-Strategy-How-to-Build-a-Framework-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.329241+00:00
+updated_at: 2026-10-02T22:02:44.763891+00:00
 tags: [record, real-data]
 ---
 

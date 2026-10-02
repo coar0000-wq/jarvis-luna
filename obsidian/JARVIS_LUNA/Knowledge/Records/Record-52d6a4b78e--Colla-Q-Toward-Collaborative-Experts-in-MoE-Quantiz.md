@@ -2,7 +2,7 @@
 title: "Record 52d6a4b78e · Colla-Q-Toward-Collaborative-Experts-in-MoE-Quantization-via-Minimax-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.165119+00:00
+updated_at: 2026-10-02T22:02:43.459996+00:00
 tags: [record, real-data]
 ---
 

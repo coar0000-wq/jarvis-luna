@@ -2,7 +2,7 @@
 title: "Record 0732e90fcd · Rethinking-Robot-Safety-in-the-Age-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.960666+00:00
+updated_at: 2026-10-02T22:02:45.461470+00:00
 tags: [record, real-data]
 ---
 

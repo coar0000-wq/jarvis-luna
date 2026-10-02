@@ -2,7 +2,7 @@
 title: "Record b6c70dbc2b · Glamnetic-Halloween-Press-On-Nails-Short-Almond-Glossy-Ghost-Besties--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.277351+00:00
+updated_at: 2026-10-02T22:02:45.847092+00:00
 tags: [record, real-data]
 ---
 

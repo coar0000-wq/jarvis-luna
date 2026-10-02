@@ -2,7 +2,7 @@
 title: "Record 9209622a87 · Unification-Consequences-of-Primitive-Calibration-and-Closure-Theory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.108851+00:00
+updated_at: 2026-10-02T22:02:44.517959+00:00
 tags: [record, real-data]
 ---
 

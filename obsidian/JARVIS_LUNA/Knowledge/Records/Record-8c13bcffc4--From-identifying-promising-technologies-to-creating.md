@@ -2,7 +2,7 @@
 title: "Record 8c13bcffc4 · From-identifying-promising-technologies-to-creating-new-business-oppor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.812259+00:00
+updated_at: 2026-10-02T22:02:45.303562+00:00
 tags: [record, real-data]
 ---
 

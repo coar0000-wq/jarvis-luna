@@ -2,7 +2,7 @@
 title: "Record 0ed28b3d13 · Supplier-Relationship-Management-Strategies-And-Best-Practices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.636367+00:00
+updated_at: 2026-10-02T22:02:46.294631+00:00
 tags: [record, real-data]
 ---
 

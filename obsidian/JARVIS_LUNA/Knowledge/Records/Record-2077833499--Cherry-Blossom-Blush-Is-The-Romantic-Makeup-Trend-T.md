@@ -2,7 +2,7 @@
 title: "Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.324872+00:00
+updated_at: 2026-10-02T22:02:44.758888+00:00
 tags: [record, real-data]
 ---
 

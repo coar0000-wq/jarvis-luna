@@ -2,7 +2,7 @@
 title: "Record 499ac24d14 · Allure-Best-of-Beauty-2026-Steals-Shop-the-Best-Beauty-Drugstore-Winne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.105504+00:00
+updated_at: 2026-10-02T22:02:45.633979+00:00
 tags: [record, real-data]
 ---
 

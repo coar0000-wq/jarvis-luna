@@ -2,7 +2,7 @@
 title: "Record ff6ecd9f16 · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Rotationally-Excited-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.767542+00:00
+updated_at: 2026-10-02T22:02:44.138116+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 255ae18f35 · Large-Language-Models-as-Computable-Approximations-to-Solomonoff-Induc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.724718+00:00
+updated_at: 2026-10-02T22:02:44.094163+00:00
 tags: [record, real-data]
 ---
 

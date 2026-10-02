@@ -2,7 +2,7 @@
 title: "Record 11538684ba · Localizing-yellow-bellied-marmot-burrows-in-a-subalpine-environment-us"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.361703+00:00
+updated_at: 2026-10-02T22:02:43.680223+00:00
 tags: [record, real-data]
 ---
 

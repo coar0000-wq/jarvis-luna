@@ -2,7 +2,7 @@
 title: "Record 23a395aa9d · Investing-In-Bonds-Vs-Stocks-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.680111+00:00
+updated_at: 2026-10-02T22:02:46.345842+00:00
 tags: [record, real-data]
 ---
 

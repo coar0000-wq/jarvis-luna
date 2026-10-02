@@ -2,7 +2,7 @@
 title: "Record afdd82c026 · Q-tips-Cotton-Swabs-For-Hygiene-and-Beauty-Care-Original-Cotton-Swab-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.425562+00:00
+updated_at: 2026-10-02T22:02:46.033791+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d55972f126 · CHESS-AS-AN-EDUCATIONAL-TOOL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.651219+00:00
+updated_at: 2026-10-02T22:02:44.010665+00:00
 tags: [record, real-data]
 ---
 

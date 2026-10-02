@@ -2,7 +2,7 @@
 title: "Record 1fbcb6034b · The-Best-Beauty-Launches-of-January-2026---BeautyNewsDaily"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.401033+00:00
+updated_at: 2026-10-02T22:02:44.839541+00:00
 tags: [record, real-data]
 ---
 

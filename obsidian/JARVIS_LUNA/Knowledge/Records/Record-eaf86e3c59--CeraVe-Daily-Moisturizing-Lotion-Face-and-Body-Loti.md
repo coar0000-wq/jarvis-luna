@@ -2,7 +2,7 @@
 title: "Record eaf86e3c59 · CeraVe-Daily-Moisturizing-Lotion-Face-and-Body-Lotion-Skin-care-19oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.218900+00:00
+updated_at: 2026-10-02T22:02:45.772158+00:00
 tags: [record, real-data]
 ---
 

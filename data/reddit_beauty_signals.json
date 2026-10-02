@@ -1,7 +1,7 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-02T17:25:14.844902+00:00",
+  "collected_at": "2026-10-02T21:50:21.970705+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
@@ -48,32 +48,28 @@
       "score": 8
     },
     {
-      "keyword": "k-beauty",
+      "keyword": "sunscreens",
       "score": 6
     },
     {
-      "keyword": "sunscreens",
-      "score": 6
+      "keyword": "october",
+      "score": 4
+    },
+    {
+      "keyword": "2026",
+      "score": 4
+    },
+    {
+      "keyword": "k-beauty",
+      "score": 4
     },
     {
       "keyword": "korean",
       "score": 4
     },
     {
-      "keyword": "october",
-      "score": 3
-    },
-    {
-      "keyword": "2026",
-      "score": 3
-    },
-    {
       "keyword": "product",
-      "score": 3
-    },
-    {
-      "keyword": "new",
-      "score": 3
+      "score": 2
     },
     {
       "keyword": "thursday",
@@ -84,11 +80,19 @@
       "score": 2
     },
     {
-      "keyword": "one",
+      "keyword": "actually",
       "score": 2
     },
     {
       "keyword": "j-beauty",
+      "score": 2
+    },
+    {
+      "keyword": "anything",
+      "score": 2
+    },
+    {
+      "keyword": "goes",
       "score": 2
     },
     {
@@ -97,18 +101,6 @@
     },
     {
       "keyword": "yesstyle",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
-      "score": 2
-    },
-    {
-      "keyword": "products",
-      "score": 2
-    },
-    {
-      "keyword": "apply",
       "score": 2
     },
     {
@@ -160,15 +152,31 @@
       "score": 1
     },
     {
-      "keyword": "actually",
-      "score": 1
-    },
-    {
       "keyword": "worth",
       "score": 1
     },
     {
       "keyword": "buying",
+      "score": 1
+    },
+    {
+      "keyword": "current",
+      "score": 1
+    },
+    {
+      "keyword": "inventory",
+      "score": 1
+    },
+    {
+      "keyword": "unreasonable",
+      "score": 1
+    },
+    {
+      "keyword": "number",
+      "score": 1
+    },
+    {
+      "keyword": "one",
       "score": 1
     },
     {
@@ -194,14 +202,6 @@
     {
       "keyword": "looking",
       "score": 1
-    },
-    {
-      "keyword": "similar",
-      "score": 1
-    },
-    {
-      "keyword": "blush",
-      "score": 1
     }
   ],
   "beauty_keywords": [
@@ -210,12 +210,12 @@
       "score": 8
     },
     {
-      "keyword": "k-beauty",
+      "keyword": "sunscreens",
       "score": 6
     },
     {
-      "keyword": "sunscreens",
-      "score": 6
+      "keyword": "k-beauty",
+      "score": 4
     },
     {
       "keyword": "korean",
@@ -223,10 +223,6 @@
     },
     {
       "keyword": "skin",
-      "score": 2
-    },
-    {
-      "keyword": "sunscreen",
       "score": 2
     }
   ],
@@ -253,6 +249,13 @@
       "feed": "hot"
     },
     {
+      "title": "My current skincare inventory + an unreasonable number of sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvyic0/my_current_skincare_inventory_an_unreasonable/",
+      "published": "2026-10-02T16:37:24+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What’s ONE Western product you replaced with a K-beauty/J-beauty alternative and will NEVER go back to?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvel4w/whats_one_western_product_you_replaced_with_a/",
       "published": "2026-10-01T23:30:13+00:00",
@@ -274,9 +277,23 @@
       "feed": "hot"
     },
     {
-      "title": "My current skincare inventory + an unreasonable number of sunscreens",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvyic0/my_current_skincare_inventory_an_unreasonable/",
-      "published": "2026-10-02T16:37:24+00:00",
+      "title": "If you had a friend visiting Hong Kong, what would you get them to pick up for you?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww65eg/if_you_had_a_friend_visiting_hong_kong_what_would/",
+      "published": "2026-10-02T21:45:22+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Anything Goes Friday: October 02, 2026",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww4kn7/anything_goes_friday_october_02_2026/",
+      "published": "2026-10-02T20:39:10+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "What treatments do idols actually do?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww5eko/what_treatments_do_idols_actually_do/",
+      "published": "2026-10-02T21:13:36+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -382,27 +399,6 @@
       "title": "Self-Promo Code Thread",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1wutvh6/selfpromo_code_thread/",
       "published": "2026-10-01T08:19:04+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Decanting sunscreen?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvbafb/decanting_sunscreen/",
-      "published": "2026-10-01T21:05:19+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Testing new products. How long you apply the product before adding a new one? and how many new products you apply at the same time? I need tips ...",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wuj7t8/testing_new_products_how_long_you_apply_the/",
-      "published": "2026-09-30T22:47:29+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "k-beauty websites that offer Refrigerated shipping?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv30zt/kbeauty_websites_that_offer_refrigerated_shipping/",
-      "published": "2026-10-01T15:50:22+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     }

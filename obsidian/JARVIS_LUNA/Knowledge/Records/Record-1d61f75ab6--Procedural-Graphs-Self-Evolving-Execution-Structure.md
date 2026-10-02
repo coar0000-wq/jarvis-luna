@@ -2,7 +2,7 @@
 title: "Record 1d61f75ab6 · Procedural-Graphs-Self-Evolving-Execution-Structure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:34.058954+00:00
+updated_at: 2026-10-02T22:02:43.334950+00:00
 tags: [record, real-data]
 ---
 

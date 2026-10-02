@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:34:37.758138+00:00",
+  "generated_at": "2026-10-02T21:59:34.267587+00:00",
   "generator": "scripts/team_router_moe.py",
   "task": "자료·영상 -> 담당 팀 (11팀 중 정답 표본이 충분한 팀)",
   "label_policy": "출처가 확실한 것만 정답으로 쓴다. 키워드 규칙이 붙인 팀은 쓰지 않는다.",
@@ -17,14 +17,14 @@
     "sourcing"
   ],
   "skipped_small_classes": {},
-  "items": 6363,
-  "train_items": 5120,
+  "items": 6368,
+  "train_items": 5125,
   "validation_items": 1243,
   "label_origins": {
     "corpus:arxiv": 769,
-    "corpus:institutions": 2662,
+    "corpus:institutions": 2665,
     "corpus:organic_skincare": 15,
-    "corpus:robotics": 441,
+    "corpus:robotics": 443,
     "corpus:us_beauty": 1554,
     "daiso": 356,
     "design_refs": 78,
@@ -32,11 +32,11 @@
     "youtube_channel": 411,
     "youtube_manual": 24
   },
-  "features": "TF-IDF + L2 (min_df 2, 어휘 8673)",
+  "features": "TF-IDF + L2 (min_df 2, 어휘 8677)",
   "model": "MoE experts 3, steps 300, lr 5.0, 클래스 균형",
   "validation": {
-    "accuracy": 0.885,
-    "macro_f1": 0.7587,
+    "accuracy": 0.8842,
+    "macro_f1": 0.7576,
     "per_team": {
       "channels": {
         "precision": 1.0,
@@ -45,10 +45,10 @@
         "support": 7
       },
       "design": {
-        "precision": 0.618,
-        "recall": 0.7,
-        "predicted": 34,
-        "support": 30
+        "precision": 0.583,
+        "recall": 0.724,
+        "predicted": 36,
+        "support": 29
       },
       "graph": {
         "precision": 1.0,
@@ -57,15 +57,15 @@
         "support": 5
       },
       "institutions": {
-        "precision": 0.9,
-        "recall": 0.908,
-        "predicted": 540,
+        "precision": 0.901,
+        "recall": 0.907,
+        "predicted": 538,
         "support": 535
       },
       "knowledge": {
-        "precision": 0.708,
+        "precision": 0.704,
         "recall": 0.824,
-        "predicted": 178,
+        "predicted": 179,
         "support": 153
       },
       "legal": {
@@ -93,10 +93,10 @@
         "support": 12
       },
       "robotics": {
-        "precision": 0.833,
-        "recall": 0.745,
-        "predicted": 84,
-        "support": 94
+        "precision": 0.843,
+        "recall": 0.737,
+        "predicted": 83,
+        "support": 95
       },
       "sourcing": {
         "precision": 0.973,
@@ -120,7 +120,7 @@
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 30
+        "support": 29
       },
       "graph": {
         "precision": 0.0,
@@ -168,7 +168,7 @@
         "precision": 0.0,
         "recall": 0.0,
         "predicted": 0,
-        "support": 94
+        "support": 95
       },
       "sourcing": {
         "precision": 0.0,

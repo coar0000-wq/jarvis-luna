@@ -2,7 +2,7 @@
 title: "Record c38af6e5ca · A-model-guide-for-the-GPT-6-family"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.848381+00:00
+updated_at: 2026-10-02T22:02:45.342218+00:00
 tags: [record, real-data]
 ---
 

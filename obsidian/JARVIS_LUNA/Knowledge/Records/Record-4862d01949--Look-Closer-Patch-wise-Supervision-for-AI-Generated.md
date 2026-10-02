@@ -2,7 +2,7 @@
 title: "Record 4862d01949 · Look-Closer-Patch-wise-Supervision-for-AI-Generated-Image-Detection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.016910+00:00
+updated_at: 2026-10-02T22:02:44.416028+00:00
 tags: [record, real-data]
 ---
 

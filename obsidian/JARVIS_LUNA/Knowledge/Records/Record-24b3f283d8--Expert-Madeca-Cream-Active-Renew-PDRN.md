@@ -2,7 +2,7 @@
 title: "Record 24b3f283d8 · Expert-Madeca-Cream-Active-Renew-PDRN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.812335+00:00
+updated_at: 2026-10-02T22:02:46.497601+00:00
 tags: [record, real-data]
 ---
 

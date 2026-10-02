@@ -2,7 +2,7 @@
 title: "Record e457756726 · Who-Owns-The-Story--Rights-Adaptations-and-Creative"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.867046+00:00
+updated_at: 2026-10-02T22:02:45.361877+00:00
 tags: [record, real-data]
 ---
 

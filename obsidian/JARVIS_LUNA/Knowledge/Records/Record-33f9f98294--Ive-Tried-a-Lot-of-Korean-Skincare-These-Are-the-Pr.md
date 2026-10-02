@@ -2,7 +2,7 @@
 title: "Record 33f9f98294 · Ive-Tried-a-Lot-of-Korean-Skincare-These-Are-the-Products-Our-Beauty-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:35.476374+00:00
+updated_at: 2026-10-02T22:02:44.920767+00:00
 tags: [record, real-data]
 ---
 

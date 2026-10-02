@@ -2,7 +2,7 @@
 title: "Record 967be3f495 · The-Appearance-Of-Legitimacy-How-Fraud-Hides-In-Plain-Sight"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T17:39:36.639449+00:00
+updated_at: 2026-10-02T22:02:46.298273+00:00
 tags: [record, real-data]
 ---
 
