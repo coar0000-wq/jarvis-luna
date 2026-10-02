@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-10-02T22:12:22.117403+00:00",
+  "generated_at": "2026-10-02T22:17:53.995898+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -35,19 +35,19 @@
       "approve": "비서실장: 다음 주기 재검증"
     },
     {
-      "priority": 4,
-      "title": "팀 자동조치 감시 · 리스팅 제작팀",
-      "detail": "가격 1건 자동 재생성·재검증 필요",
+      "priority": 5,
+      "title": "팀 대기 · 리스팅 제작팀",
+      "detail": "카피 1건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
       ],
-      "approve": "비서실장: 다음 주기 재검증"
+      "approve": "사람: 한 번만 승인·원본 정보 제공"
     },
     {
       "priority": 5,
-      "title": "팀 대기 · 리스팅 제작팀",
-      "detail": "카피 2건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
+      "title": "팀 대기 · 법률·규제팀",
+      "detail": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [이중턱리프팅]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -73,11 +73,11 @@
       },
       {
         "n": 4,
-        "text": "팀 자동조치 감시 · 리스팅 제작팀 — 가격 1건 자동 재생성·재검증 필요"
+        "text": "팀 대기 · 리스팅 제작팀 — 카피 1건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Sho"
       },
       {
         "n": 5,
-        "text": "팀 대기 · 리스팅 제작팀 — 카피 2건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Sho"
+        "text": "팀 대기 · 법률·규제팀 — 차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [이중턱리프팅]VT PDRN (자동 점검 미통과: lab) — 검증 가능한 "
       }
     ]
   }

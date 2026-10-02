@@ -106,7 +106,7 @@ def product_fit(row: dict) -> dict:
         "public_ready": bool(row.get("public_ready")),
         "recommended_insight_ids": ["MKT-002", "MKT-003", "MKT-004", "MKT-016",
                                     "MKT-023", "MKT-025", "MKT-026", "MKT-032",
-                                    "MKT-034", "MKT-035"] + aov,
+                                    "MKT-034", "MKT-035", "MKT-047", "MKT-049", "MKT-051"] + aov,
         "organic_first_actions": [
             "구매 질문형 PDP/FAQ 초안",
             "제품 제형·사용 순서 숏폼 콘티",
@@ -271,6 +271,51 @@ def build_experiments() -> list[dict]:
             "action": "검증 구매 리뷰가 쌓인 뒤 고객 언어를 제품 사실과 대조해 PDP·피드에 반영하고 리뷰 구조화 데이터와 서버 렌더링 노출을 검사한다.",
             "kpis": ["review_language_coverage", "review_markup_valid_rate", "server_rendered_review_rate", "claims_rejection_rate"],
             "cost_mode": "free_local_or_existing_stack", "status": "blocked_until_verified_reviews"
+        },
+        {
+            "id": "EXP-018", "phase": "retention", "priority": 18,
+            "name": "이메일 행동·주문 진단 원장",
+            "insight_ids": ["MKT-041", "MKT-042", "MKT-043"],
+            "owner_teams": ["market", "listing", "design", "pricing", "knowledge", "legal"],
+            "action": "동의 기반 캠페인을 클릭·주문·수신자당 매출로 정렬하고 이메일 문제와 랜딩·오퍼 문제를 분리하며 비할인 승자 요인을 재사용 가능한 원장으로 만든다.",
+            "kpis": ["revenue_per_recipient", "click_to_order_rate", "nonpromo_revenue_per_recipient", "campaign_learning_coverage"],
+            "cost_mode": "existing_stack_only", "status": "blocked_until_store_and_consent"
+        },
+        {
+            "id": "EXP-019", "phase": "measurement", "priority": 19,
+            "name": "플랫폼 귀속-Shopify 실매출 대조",
+            "insight_ids": ["MKT-044"],
+            "owner_teams": ["market", "pricing", "knowledge"],
+            "action": "승인된 광고 데이터가 존재할 때만 동일 기간의 Shopify 순매출·총 광고비·플랫폼 귀속 매출을 대조해 채널 보고와 실제 사업 성과의 차이를 기록한다.",
+            "kpis": ["platform_revenue_gap", "marketing_efficiency_ratio", "contribution_margin_after_marketing"],
+            "cost_mode": "free_local", "status": "blocked_until_approved_ad_data"
+        },
+        {
+            "id": "EXP-020", "phase": "prelaunch", "priority": 20,
+            "name": "실구매자-가치제안 크리에이티브 매트릭스",
+            "insight_ids": ["MKT-045", "MKT-046"],
+            "owner_teams": ["market", "design", "listing", "pricing", "legal"],
+            "action": "개인정보를 집계한 실제 구매자 특성과 검증된 가치제안을 연결해 유기 콘텐츠용 메시지·장면 초안을 만들고 유료 배포는 명시 승인 전 차단한다.",
+            "kpis": ["audience_message_match_rate", "value_prop_comprehension_rate", "organic_engagement_rate", "discount_dependency_rate"],
+            "cost_mode": "free_organic", "status": "ready_for_draft"
+        },
+        {
+            "id": "EXP-021", "phase": "prelaunch", "priority": 21,
+            "name": "구매 질문 fan-out SEO·GEO 갭 감사",
+            "insight_ids": ["MKT-047", "MKT-048"],
+            "owner_teams": ["market", "listing", "knowledge", "legal"],
+            "action": "대표 구매 질문을 속성·비교·사용 상황·인용 하위 질문으로 분해하고 상품·컬렉션·FAQ의 크롤·색인·내부 링크·제품 데이터 누락을 오류 큐로 보낸다.",
+            "kpis": ["theme_question_coverage", "product_data_completeness", "internal_link_coverage", "retrieval_gap_count"],
+            "cost_mode": "free_local", "status": "ready_after_store"
+        },
+        {
+            "id": "EXP-022", "phase": "prelaunch", "priority": 22,
+            "name": "PDP·카트 의사결정 장벽 감사",
+            "insight_ids": ["MKT-049", "MKT-050", "MKT-051"],
+            "owner_teams": ["market", "listing", "design", "pricing", "legal"],
+            "action": "상위 상품의 명확성·신뢰·가치·비교·마찰·확신 장벽을 하나씩 분류하고 해당 지점에만 검증 증거·정책·비교·관련상품을 배치한 초안을 만든다.",
+            "kpis": ["diagnosed_decision_point_rate", "proof_proximity_coverage", "cart_to_checkout_rate", "cross_sell_attach_rate"],
+            "cost_mode": "free_local", "status": "ready_for_draft"
         }
     ]
 
@@ -363,11 +408,11 @@ def build_strategy(write: bool = True) -> dict:
         "execution_experiments": experiments,
         "product_playbooks": [product_fit(x) for x in recs],
         "funnel": {
-            "discover": ["MKT-005", "MKT-016", "MKT-020", "MKT-023", "MKT-027", "MKT-032", "MKT-036", "MKT-040"],
-            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017", "MKT-025", "MKT-026", "MKT-034", "MKT-035", "MKT-038"],
-            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022", "MKT-037"],
-            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011", "MKT-028", "MKT-029", "MKT-030", "MKT-031", "MKT-039"],
-            "measure": ["MKT-007", "MKT-024", "MKT-033"],
+            "discover": ["MKT-005", "MKT-016", "MKT-020", "MKT-023", "MKT-027", "MKT-032", "MKT-036", "MKT-040", "MKT-047", "MKT-048"],
+            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017", "MKT-025", "MKT-026", "MKT-034", "MKT-035", "MKT-038", "MKT-045", "MKT-046", "MKT-049", "MKT-051"],
+            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022", "MKT-037", "MKT-050"],
+            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011", "MKT-028", "MKT-029", "MKT-030", "MKT-031", "MKT-039", "MKT-041", "MKT-042", "MKT-043"],
+            "measure": ["MKT-007", "MKT-024", "MKT-033", "MKT-044"],
         },
         "launch_order": [x["id"] for x in experiments],
         "guardrails": [

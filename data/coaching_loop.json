@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-03T07:12:16.695603+09:00",
+  "generated_at": "2026-10-03T07:17:24.600753+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
   "scope": "S등급 상위 15개",
   "summary": {
     "ready_to_list": 0,
-    "ready_with_notes": 8,
-    "fix_then_list": 2,
+    "ready_with_notes": 9,
+    "fix_then_list": 1,
     "hold": 0,
     "reddit_signal": {
       "status": "ok",
       "post_count": 25,
-      "collected_at": "2026-10-02T17:25:14.844902+00:00",
+      "collected_at": "2026-10-02T21:50:21.970705+00:00",
       "keyword_pool": 40
     }
   },
@@ -928,7 +928,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Mask — Daiso Find — Affordable collagen mask pick",
           "headline": "Mask — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [2options] Anua Pdrn Hyaluronic Acid Cap.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -1037,7 +1037,7 @@
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Mask Collagen — Daiso Find — Affordable collagen mask pick",
           "headline": "Mask Collagen — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [2options] Anua Pdrn Hyaluronic Acid Cap.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -1076,7 +1076,7 @@
       "bucket": "마스크팩",
       "shopify_score": 87,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "readiness": "fix_then_list",
+      "readiness": "ready_with_notes",
       "checklist": [
         {
           "id": "grade_s",
@@ -1102,8 +1102,8 @@
         {
           "id": "listing_copy",
           "label": "영문 리스팅 카피",
-          "status": "fail",
-          "evidence": "카피 미생성",
+          "status": "pass",
+          "evidence": "Gemini 카피 있음",
           "tip": "shopify-listing-copy 워크플로 실행"
         },
         {
@@ -1138,16 +1138,16 @@
       "ad_copy_ab": {
         "variant_a": {
           "label": "A · 성분/커뮤니티 후킹",
-          "primary_text": "Essence Mask Collagen — Daiso Find — ask · sheet mask",
-          "headline": "Essence Mask Collagen — Daiso Find",
-          "description": "Daiso-sourced sheet mask. Lightweight daily use. Target US shoppers searching overnight mask.",
+          "primary_text": "CELDERMA Daily Collagen Gel Sheet Mask 29g — ask · sheet mask",
+          "headline": "CELDERMA Daily Collagen Gel Sheet Mask 2",
+          "description": "CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information. Review the ingredient list, dire",
           "cta": "Shop now"
         },
         "variant_b": {
           "label": "B · 가성비/가격 후킹",
           "primary_text": "Essence Mask Collagen — Daiso Find — Affordable collagen mask pick",
           "headline": "Essence Mask Collagen — Daiso Find",
-          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [7types] MEDIHEAL Essential Face Mask 10.",
+          "description": "Try this Daiso find before paying premium. Hook: Affordable collagen mask pick. Nearby US ref: [2options] Anua Pdrn Hyaluronic Acid Cap.",
           "cta": "See price"
         },
         "suggested_keywords": [
@@ -1175,10 +1175,10 @@
         "tip": "약한 매칭 1개 — 광고 문안에 해당 키워드 포함 권장"
       },
       "coach_summary": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
-        "fail": 1,
-        "next_action": "실패 항목 수정"
+        "fail": 0,
+        "next_action": "경고 항목 보완 후 등록"
       }
     }
   ],
