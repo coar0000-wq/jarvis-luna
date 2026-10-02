@@ -40,3 +40,7 @@ https://www.youtube.com/watch?v=_pKECd9m25U | market,design,listing | UGC 스크
 https://www.youtube.com/watch?v=Q0j1cpLu7pQ | market,pricing,legal | Brevo 공식 - 중복·동의·종료 조건이 있는 Shopify 장바구니 회수 QA
 https://www.youtube.com/watch?v=YoDGJV1XTls | market,listing,sourcing,legal,knowledge | Shopify SEO 리드 참여 - 상품 피드·리뷰·GEO·제3자 브랜드 가시성
 https://www.youtube.com/watch?v=_NHlOc919zs | market,listing,design,pricing,sourcing,legal | Shopify 전문 에이전시 - 고객 여정·연관상품·이메일 세그먼트 사례
+https://www.youtube.com/watch?v=H2ags0XODds | market,listing,pricing,legal,knowledge | 이메일 오픈율 대신 클릭·주문·수신자당 매출로 캠페인을 진단하고 비할인 승자 요인을 기록
+https://www.youtube.com/watch?v=6cLgg-r_qtQ | market,design,listing,pricing,legal,knowledge | Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프
+https://www.youtube.com/watch?v=bxEQZF0Wt5A | market,listing,legal,knowledge | 질문 fan-out 테마·상품 속성·비교·인용과 SEO 기반 GEO 회수성 점검
+https://www.youtube.com/watch?v=JtAAkVH0PWg | market,listing,design,pricing,legal | 구매 의사결정 장벽·카트 확신·의심 지점별 증거와 비교 CRO

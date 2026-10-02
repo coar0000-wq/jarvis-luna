@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T22:12:16.819393+00:00",
-  "source_gate_generated_at": "2026-10-02T22:12:16.484153+00:00",
+  "generated_at": "2026-10-02T22:17:24.293449+00:00",
+  "source_gate_generated_at": "2026-10-02T22:17:23.876076+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -162,7 +162,7 @@
         "1049276"
       ],
       "variant_count": 2,
-      "payload_hash": "7623e723c72d05431df29a51169b136f97f82c91977ca25f87a6adf307c1c84e",
+      "payload_hash": "fecec828c415b475ede834b6fe153f80d22167f05f42738ea9e1685da5e7ceb2",
       "state": "WAITING_HUMAN_APPROVAL",
       "approval_required": true,
       "approved_by": "",

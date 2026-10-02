@@ -1,13 +1,13 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-02T22:12:16.484153+00:00",
+  "generated_at": "2026-10-02T22:17:23.876076+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "semantic_sources": {
       "data/product_master.json": "48a2d9076d3c3aae7fe1b8b5d98e6b349b1d24534b4d72ce80a837ba5063d86c",
       "data/gosi.json": "72072def9c25816eeb0d352a3c37fd2890e4865ae141f819def757d01ea4f41a",
       "data/daiso_real/daiso_us_labels.json": "0e6bc4837b8ef24a662293b5ec5c05b97b8ba266c047c4f351ccaef18c806e58",
-      "data/pricing_model.json": "de4e0a6580ec920af1aaba9f6d95617730bf88f4926460b650450482648ea4a9",
+      "data/pricing_model.json": "fc246940126a1dbad02f539a7990ea245ef72e9a6076201768687a3d1cc948d3",
       "data/legal_products.json": "ba25ff9aafdcba4a6c7a426565dd0254bc1c331c3ca002d338d9f68b809aa52c"
     },
     "recommendations_sha256": "dc5bf23ccfb9b5dae1177267875f574ad395e724e70c1c91ef2602ee6a9f07e0"
@@ -19,27 +19,26 @@
   "public_ready": 0,
   "counts": {
     "ontology": 10,
-    "copy": 8,
+    "copy": 9,
     "gosi": 10,
     "us_label": 9,
-    "price": 9,
+    "price": 10,
     "legal": 8,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 2,
+    "copy": 1,
     "us_label": 1,
-    "price": 1,
     "legal": 2
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "disabled_local_advisory": 7,
-      "typesafe_carried": 3
+      "disabled_local_advisory": 8,
+      "typesafe_carried": 2
     },
     "typesafe_calls": 0,
-    "free_credits_only": 3,
+    "free_credits_only": 2,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
@@ -54,7 +53,7 @@
       "purchased_credits": false
     },
     "cumulative_ok_calls": 500,
-    "last_ok_call_at": "2026-10-02T17:37:36.871872+00:00",
+    "last_ok_call_at": "2026-10-02T22:00:24.179034+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
   },
   "count": 10,
@@ -265,8 +264,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 54.3,
+        "price_usd": 23.99,
+        "margin_pct": 55.9,
         "register_blocked": false
       },
       "legal": {
@@ -381,21 +380,21 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": 0.94,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.724,
+        "confidence": 0.71,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.69,
+        "risk_score": 1.59,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-02T17:37:35.906684+00:00",
-        "carried_from": "2026-10-02T17:37:35.906684+00:00"
+        "decided_at": "2026-10-02T22:00:23.312285+00:00",
+        "carried_from": "2026-10-02T22:00:23.312285+00:00"
       }
     },
     {
@@ -549,7 +548,7 @@
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
+        "grade_advisory": "hold",
         "legal_gate_advisory": "review",
         "risk_level": "high",
         "risk_points": 1,
@@ -561,17 +560,17 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.682,
+        "confidence": 0.67,
         "usage": {
           "input_tokens": 1090,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.51,
+        "risk_score": 1.52,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-02T17:37:36.383684+00:00",
-        "carried_from": "2026-10-02T17:37:36.383684+00:00"
+        "decided_at": "2026-10-02T22:00:23.585257+00:00",
+        "carried_from": "2026-10-02T22:00:23.585257+00:00"
       }
     },
     {
@@ -634,34 +633,25 @@
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
+        "risk_level": "medium",
         "risk_points": 1,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": null,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.7,
-        "usage": {
-          "input_tokens": 1096,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.58,
-        "model": "jev-1.13.0",
-        "state_signature": "3a378c7505096d3df7a096ebff231a6c635d3bd965a6b595416b11582633cb00",
-        "decided_at": "2026-10-02T17:37:36.566235+00:00",
-        "carried_from": "2026-10-02T17:37:36.566235+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -836,8 +826,21 @@
       "price_krw": 1000,
       "shopify_score": 87,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {},
-      "copy_status": "missing",
+      "copy": {
+        "title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "description_html": "<p>CELDERMA Daily Collagen Gel Sheet Mask 29g is a Korean beauty gel sheet mask in a 29g size. This draft uses only the verified product identity and package information.</p><p>Review the ingredient list, directions, and final US label before publication.</p>",
+        "seo_title": "CELDERMA Daily Collagen Gel Sheet Mask 29g",
+        "seo_description": "View CELDERMA Daily Collagen Gel Sheet Mask 29g. Product identity and size are based on the source product notice. Review ingredients, directions, and the final label before purchase.",
+        "tags": [
+          "celderma-daily",
+          "collagen",
+          "gel-sheet-mask",
+          "k-beauty",
+          "korean-beauty"
+        ],
+        "product_type": "Gel Sheet Mask"
+      },
+      "copy_status": "ok",
       "gosi": {
         "volume": "29g",
         "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
@@ -853,8 +856,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": null,
-        "margin_pct": null,
+        "price_usd": 23.99,
+        "margin_pct": 63.0,
         "register_blocked": false
       },
       "legal": {
@@ -864,19 +867,14 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "price",
         "legal"
       ],
       "ready": false,
       "blocked_by": [
-        "copy",
-        "price",
         "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "copy",
-        "price",
         "legal",
         "legal_full"
       ],
@@ -890,18 +888,16 @@
         "enforced": false,
         "grade_advisory": "hold",
         "legal_gate_advisory": "review",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "risk_level": "high",
+        "risk_points": 3,
         "team_routes": [
-          "legal",
-          "pricing",
-          "listing"
+          "legal"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, price, legal",
-          "public blockers: copy, price, legal, legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full"
         ],
         "confidence": null,
         "usage": null
