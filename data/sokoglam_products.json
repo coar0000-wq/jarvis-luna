@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-02T21:59:38.780529+00:00",
+  "collected_at": "2026-10-03T00:00:20.822959+00:00",
   "is_stale": false,
-  "count": 240,
+  "count": 239,
   "by_collection": {
     "Best Sellers": 82,
-    "Skincare": 158
+    "Skincare": 157
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 240,
+    "n": 239,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -4704,29 +4704,6 @@
         "moisture barrier",
         "moisture cream",
         "moisturize"
-      ]
-    },
-    {
-      "rank": 197,
-      "name": "Fermentation Peptine Eye Care Cream",
-      "brand": "SWANICOCO",
-      "price_usd": 38.0,
-      "category": "Eye cream",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/swanicoco-fermentation-peptine-eye-care-cream",
-      "tags": [
-        "$30-$40",
-        "Anti-Aging/Wrinkles",
-        "Best sellers 2021",
-        "Best Sellers Q12020",
-        "Charlotte's Gift Guide",
-        "combination",
-        "combo_antiaging",
-        "de-puff",
-        "de-puff eye",
-        "depuff",
-        "dry",
-        "dry_antiaging"
       ]
     },
     {
