@@ -2,7 +2,7 @@
 title: "Record dd31d72895 · Depression-Related-Nutritional-Risk-and-Physical-Performance-in-Middle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.049181+00:00
+updated_at: 2026-10-03T11:58:57.552887+00:00
 tags: [record, real-data]
 ---
 

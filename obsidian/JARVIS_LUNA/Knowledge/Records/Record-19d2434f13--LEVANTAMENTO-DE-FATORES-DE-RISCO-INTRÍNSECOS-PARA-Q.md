@@ -2,7 +2,7 @@
 title: "Record 19d2434f13 · LEVANTAMENTO-DE-FATORES-DE-RISCO-INTRÍNSECOS-PARA-QUEDAS-DE-PESSOAS-EM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.476296+00:00
+updated_at: 2026-10-03T11:58:58.715075+00:00
 tags: [record, real-data]
 ---
 

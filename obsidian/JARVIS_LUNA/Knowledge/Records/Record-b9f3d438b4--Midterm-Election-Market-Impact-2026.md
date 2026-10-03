@@ -2,7 +2,7 @@
 title: "Record b9f3d438b4 · Midterm-Election-Market-Impact-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.480920+00:00
+updated_at: 2026-10-03T11:58:59.533209+00:00
 tags: [record, real-data]
 ---
 

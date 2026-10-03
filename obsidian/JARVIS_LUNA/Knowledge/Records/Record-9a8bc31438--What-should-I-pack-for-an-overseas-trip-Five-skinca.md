@@ -2,7 +2,7 @@
 title: "Record 9a8bc31438 · What-should-I-pack-for-an-overseas-trip-Five-skincare-essentials-found"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.002481+00:00
+updated_at: 2026-10-03T11:58:58.327036+00:00
 tags: [record, real-data]
 ---
 

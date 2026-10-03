@@ -2,7 +2,7 @@
 title: "Record 6a316d0994 · Knowledge-Acquisition-During-Pre-training-Large-Lan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.306262+00:00
+updated_at: 2026-10-03T11:58:56.949685+00:00
 tags: [record, real-data]
 ---
 

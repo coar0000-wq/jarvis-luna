@@ -2,7 +2,7 @@
 title: "Record d626396fe0 · How-Genie-One-reshapes-work-for-finance-teams"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.347922+00:00
+updated_at: 2026-10-03T11:58:59.436102+00:00
 tags: [record, real-data]
 ---
 

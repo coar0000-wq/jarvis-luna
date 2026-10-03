@@ -2,7 +2,7 @@
 title: "Record f7586e87c8 · REJURAN-Pore-Tightening-Ampoule-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.596234+00:00
+updated_at: 2026-10-03T11:58:58.814919+00:00
 tags: [record, real-data]
 ---
 

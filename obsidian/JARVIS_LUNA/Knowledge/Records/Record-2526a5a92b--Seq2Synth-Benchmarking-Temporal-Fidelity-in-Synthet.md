@@ -2,7 +2,7 @@
 title: "Record 2526a5a92b · Seq2Synth-Benchmarking-Temporal-Fidelity-in-Synthet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.960833+00:00
+updated_at: 2026-10-03T11:58:57.476746+00:00
 tags: [record, real-data]
 ---
 

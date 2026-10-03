@@ -2,7 +2,7 @@
 title: "Record b53a64414b · eos-Cashmere-Body-Wash--Vanilla-Cashmere-Creamy-Gel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.242433+00:00
+updated_at: 2026-10-03T11:58:59.330221+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f1f216d3c2 · CodeScout-Contextual-Problem-Statement-Enhancement-for-Software-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.148822+00:00
+updated_at: 2026-10-03T11:58:57.625242+00:00
 tags: [record, real-data]
 ---
 

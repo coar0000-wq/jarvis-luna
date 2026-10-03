@@ -2,7 +2,7 @@
 title: "Record 5e82edcbcb · Whats-up-with-Republican-makeup---glossyco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.890564+00:00
+updated_at: 2026-10-03T11:58:58.237183+00:00
 tags: [record, real-data]
 ---
 

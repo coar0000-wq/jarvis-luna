@@ -2,7 +2,7 @@
 title: "Record 01020ecae3 · Amortizing-the-Calibration-Triple-A-Projection-Cons"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.463784+00:00
+updated_at: 2026-10-03T11:58:58.705814+00:00
 tags: [record, real-data]
 ---
 

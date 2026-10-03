@@ -2,7 +2,7 @@
 title: "Record 5e7d6d2ad6 · Derivation-of-α-Particle-Masses-and-Cosmological-Parameters-from-11-Di"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.529494+00:00
+updated_at: 2026-10-03T11:58:57.936852+00:00
 tags: [record, real-data]
 ---
 

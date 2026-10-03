@@ -2,7 +2,7 @@
 title: "Record bcbf8b9238 · Multi-viewpoint-Geo-localization-with-Event-Cameras"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.297550+00:00
+updated_at: 2026-10-03T11:58:57.741180+00:00
 tags: [record, real-data]
 ---
 

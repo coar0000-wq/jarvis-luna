@@ -2,7 +2,7 @@
 title: "Record 48be9351f2 · innisfree-Daily-UV-Defense-Sunscreen-Lotion-SPF50-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.574240+00:00
+updated_at: 2026-10-03T11:58:58.796687+00:00
 tags: [record, real-data]
 ---
 

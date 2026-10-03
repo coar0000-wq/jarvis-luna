@@ -2,7 +2,7 @@
 title: "Record a16aaff944 · Universal-Cross-Prompt-Adversarial-Attacks-on-Promptable-Concept-Segme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.498576+00:00
+updated_at: 2026-10-03T11:58:57.905720+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ed650b10e7 · REJURAN-Pore-Tightening-Toner-Pad-60ct-743-fl-oz220ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.646511+00:00
+updated_at: 2026-10-03T11:58:58.857787+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 309cb07692 · Inequality-aversion-predicts-support-for-public-and-private-redistribu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.833989+00:00
+updated_at: 2026-10-03T11:58:57.382667+00:00
 tags: [record, real-data]
 ---
 

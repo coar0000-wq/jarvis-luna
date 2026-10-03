@@ -2,7 +2,7 @@
 title: "Record 5b2231718c · Tata-Electronics-And-Asml-Announce-Strategic-Partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.319470+00:00
+updated_at: 2026-10-03T11:58:59.413344+00:00
 tags: [record, real-data]
 ---
 

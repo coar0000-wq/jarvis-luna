@@ -2,7 +2,7 @@
 title: "Record d797441c24 · Macro-Economists-in-the-Machine-A-Multi-Agent-LLM-Framework-for-Commod"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.164859+00:00
+updated_at: 2026-10-03T11:58:57.637104+00:00
 tags: [record, real-data]
 ---
 

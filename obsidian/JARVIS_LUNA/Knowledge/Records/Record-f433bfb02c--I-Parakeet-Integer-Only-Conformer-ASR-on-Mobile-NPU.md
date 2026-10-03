@@ -2,7 +2,7 @@
 title: "Record f433bfb02c · I-Parakeet-Integer-Only-Conformer-ASR-on-Mobile-NPU"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.413565+00:00
+updated_at: 2026-10-03T11:58:57.835196+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c26db0ff97 · Beyond-Geometry-Benchmarking-and-Consistency-Reasoning-for-3D-Logical-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.641838+00:00
+updated_at: 2026-10-03T11:58:57.220968+00:00
 tags: [record, real-data]
 ---
 

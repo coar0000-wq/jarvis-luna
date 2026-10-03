@@ -2,7 +2,7 @@
 title: "Record 198ff903eb · 2options-LAGOM-Cellup-Gel-To-Water-Cleanser-557-fl-oz170ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.580347+00:00
+updated_at: 2026-10-03T11:58:58.801974+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d6a140bcad · MAYBELLINE-Super-Stay-Peel-Off-Lip-Liner-Lip-Stain-Up-to-24H-Tattoo-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.963462+00:00
+updated_at: 2026-10-03T11:58:59.107089+00:00
 tags: [record, real-data]
 ---
 

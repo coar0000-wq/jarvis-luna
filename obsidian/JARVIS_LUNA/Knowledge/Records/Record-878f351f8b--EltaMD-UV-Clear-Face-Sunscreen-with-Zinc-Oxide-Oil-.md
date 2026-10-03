@@ -2,7 +2,7 @@
 title: "Record 878f351f8b · EltaMD-UV-Clear-Face-Sunscreen-with-Zinc-Oxide-Oil-Free-SPF-46-and-SPF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.914094+00:00
+updated_at: 2026-10-03T11:58:59.069460+00:00
 tags: [record, real-data]
 ---
 

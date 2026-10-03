@@ -2,7 +2,7 @@
 title: "Record 8b5fa829e3 · DESENVOLVIMENTO-DE-UM-INSTRUMENTO-DE-COLETA-DE-DADOS-PARA-PROCESSO-DE-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.474686+00:00
+updated_at: 2026-10-03T11:58:58.713841+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 290c672d55 · Avon-Skin-So-Soft-Original-Hand-and-Body-Lotion-for-Woman-Paraben-Free"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.642331+00:00
+updated_at: 2026-10-03T11:58:59.664138+00:00
 tags: [record, real-data]
 ---
 

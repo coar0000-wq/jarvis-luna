@@ -2,7 +2,7 @@
 title: "Record d1380fa649 · Baryon-Asymmetry-from-Asymmetric-Decoherence-η--10¹⁰-from-551-Geometry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.518198+00:00
+updated_at: 2026-10-03T11:58:57.921312+00:00
 tags: [record, real-data]
 ---
 

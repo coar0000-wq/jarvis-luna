@@ -2,7 +2,7 @@
 title: "Record cd64511bfb · How-Exactly-Do-I-Start-a-10-Step-Korean-Skincare-Routine---Harpers-BAZ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.086158+00:00
+updated_at: 2026-10-03T11:58:58.393683+00:00
 tags: [record, real-data]
 ---
 

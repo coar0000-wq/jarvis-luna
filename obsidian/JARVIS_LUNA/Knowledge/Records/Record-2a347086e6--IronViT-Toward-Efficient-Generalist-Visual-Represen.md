@@ -2,7 +2,7 @@
 title: "Record 2a347086e6 · IronViT-Toward-Efficient-Generalist-Visual-Representation-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.389517+00:00
+updated_at: 2026-10-03T11:58:57.816977+00:00
 tags: [record, real-data]
 ---
 

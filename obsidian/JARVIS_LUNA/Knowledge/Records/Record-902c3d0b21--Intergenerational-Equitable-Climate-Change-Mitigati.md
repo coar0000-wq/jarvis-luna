@@ -2,7 +2,7 @@
 title: "Record 902c3d0b21 · Intergenerational-Equitable-Climate-Change-Mitigation-Negative-Effects"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.138598+00:00
+updated_at: 2026-10-03T11:58:57.616953+00:00
 tags: [record, real-data]
 ---
 

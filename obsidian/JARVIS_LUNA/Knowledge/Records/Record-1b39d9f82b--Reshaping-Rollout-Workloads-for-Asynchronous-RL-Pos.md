@@ -2,7 +2,7 @@
 title: "Record 1b39d9f82b · Reshaping-Rollout-Workloads-for-Asynchronous-RL-Post-Training-on-Heter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.470150+00:00
+updated_at: 2026-10-03T11:58:57.881404+00:00
 tags: [record, real-data]
 ---
 

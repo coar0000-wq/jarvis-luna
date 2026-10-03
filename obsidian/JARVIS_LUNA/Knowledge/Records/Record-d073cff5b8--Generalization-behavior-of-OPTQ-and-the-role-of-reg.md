@@ -2,7 +2,7 @@
 title: "Record d073cff5b8 · Generalization-behavior-of-OPTQ-and-the-role-of-regularization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.426031+00:00
+updated_at: 2026-10-03T11:58:57.845275+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 41e7cbb06a · Vzidadm-Fluffy-Hair-Shaping-Spray--Blue-Fragrance-Fluffy-Shaping-Spray"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.220398+00:00
+updated_at: 2026-10-03T11:58:59.312532+00:00
 tags: [record, real-data]
 ---
 

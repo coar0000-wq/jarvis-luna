@@ -2,7 +2,7 @@
 title: "Record ca1aa7e5b0 · SplatStream-Fine-Granular-Scalable-Gaussian-Splatting-for-Adaptive-3D-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.192096+00:00
+updated_at: 2026-10-03T11:58:57.652756+00:00
 tags: [record, real-data]
 ---
 

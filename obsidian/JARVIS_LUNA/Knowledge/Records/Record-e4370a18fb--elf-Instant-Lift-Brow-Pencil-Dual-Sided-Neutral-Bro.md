@@ -2,7 +2,7 @@
 title: "Record e4370a18fb · elf-Instant-Lift-Brow-Pencil-Dual-Sided-Neutral-Brown--Retractable-Pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.943429+00:00
+updated_at: 2026-10-03T11:58:59.091428+00:00
 tags: [record, real-data]
 ---
 

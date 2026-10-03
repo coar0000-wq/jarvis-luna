@@ -2,7 +2,7 @@
 title: "Record 0fca1d4dd3 · Read-Restrictions-and-Catalog-Labels-Unifying-governance-across-engine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.355967+00:00
+updated_at: 2026-10-03T11:58:59.442681+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 49f4869991 · Viral-K-beauty-brand-Medicube-brings-must-have-products-to-LA-Pop-Up--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.182725+00:00
+updated_at: 2026-10-03T11:58:58.475324+00:00
 tags: [record, real-data]
 ---
 

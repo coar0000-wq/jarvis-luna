@@ -2,7 +2,7 @@
 title: "Record f8535c1859 · Moisture-Surge-Broad-Spectrum-SPF-28-Sheer-Hydrator-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.620146+00:00
+updated_at: 2026-10-03T11:58:59.646169+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7a1ffd20d1 · Backpropagated-Output-Momentum-Relocating-Optimizer-History-from-Param"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.465361+00:00
+updated_at: 2026-10-03T11:58:57.877538+00:00
 tags: [record, real-data]
 ---
 

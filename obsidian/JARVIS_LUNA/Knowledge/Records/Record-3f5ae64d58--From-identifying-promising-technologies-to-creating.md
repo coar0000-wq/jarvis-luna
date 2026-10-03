@@ -2,7 +2,7 @@
 title: "Record 3f5ae64d58 · From-identifying-promising-technologies-to-creating-new-business-oppor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.351869+00:00
+updated_at: 2026-10-03T11:58:58.619431+00:00
 tags: [record, real-data]
 ---
 

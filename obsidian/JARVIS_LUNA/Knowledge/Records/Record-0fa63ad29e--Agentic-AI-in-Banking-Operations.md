@@ -2,7 +2,7 @@
 title: "Record 0fa63ad29e · Agentic-AI-in-Banking-Operations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.603757+00:00
+updated_at: 2026-10-03T11:58:57.994497+00:00
 tags: [record, real-data]
 ---
 

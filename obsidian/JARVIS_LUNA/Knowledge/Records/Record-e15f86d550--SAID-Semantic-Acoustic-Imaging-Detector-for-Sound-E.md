@@ -2,7 +2,7 @@
 title: "Record e15f86d550 · SAID-Semantic-Acoustic-Imaging-Detector-for-Sound-Event-Localization-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.633157+00:00
+updated_at: 2026-10-03T11:58:57.213898+00:00
 tags: [record, real-data]
 ---
 

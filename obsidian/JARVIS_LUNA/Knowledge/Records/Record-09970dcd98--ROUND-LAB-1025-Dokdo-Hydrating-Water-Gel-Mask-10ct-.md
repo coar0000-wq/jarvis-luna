@@ -2,7 +2,7 @@
 title: "Record 09970dcd98 · ROUND-LAB-1025-Dokdo-Hydrating-Water-Gel-Mask-10ct-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.641325+00:00
+updated_at: 2026-10-03T11:58:58.853554+00:00
 tags: [record, real-data]
 ---
 

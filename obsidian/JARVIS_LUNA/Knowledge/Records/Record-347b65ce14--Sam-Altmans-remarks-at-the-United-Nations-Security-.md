@@ -2,7 +2,7 @@
 title: "Record 347b65ce14 · Sam-Altmans-remarks-at-the-United-Nations-Security-Council"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.399175+00:00
+updated_at: 2026-10-03T11:58:58.653332+00:00
 tags: [record, real-data]
 ---
 

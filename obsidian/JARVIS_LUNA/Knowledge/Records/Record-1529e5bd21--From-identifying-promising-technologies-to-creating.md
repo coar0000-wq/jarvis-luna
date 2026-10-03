@@ -2,7 +2,7 @@
 title: "Record 1529e5bd21 · From-identifying-promising-technologies-to-creating-new-business-oppor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.350557+00:00
+updated_at: 2026-10-03T11:58:58.618389+00:00
 tags: [record, real-data]
 ---
 

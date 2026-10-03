@@ -2,7 +2,7 @@
 title: "Record 879cde80e2 · Should-You-Use-Centella-Asiatica-5-Benefits---healthcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.013754+00:00
+updated_at: 2026-10-03T11:58:58.336265+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5)
 
-**제목:** Should You Use Centella Asiatica? 5 Benefits - health.com
+**제목:** Should You Use Centella Asiatica? 5 Benefits - Health.com
 
-Should You Use Centella Asiatica? 5 Benefits - health.com
-Should You Use Centella Asiatica? 5 Benefits - health.com
+Should You Use Centella Asiatica? 5 Benefits - Health.com
+Should You Use Centella Asiatica? 5 Benefits - Health.com
 
 **출처:** Source · us_beauty
 

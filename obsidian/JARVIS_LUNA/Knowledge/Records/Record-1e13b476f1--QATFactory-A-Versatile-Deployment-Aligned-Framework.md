@@ -2,7 +2,7 @@
 title: "Record 1e13b476f1 · QATFactory-A-Versatile-Deployment-Aligned-Framework-for-Quantization-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.497925+00:00
+updated_at: 2026-10-03T11:58:57.905173+00:00
 tags: [record, real-data]
 ---
 

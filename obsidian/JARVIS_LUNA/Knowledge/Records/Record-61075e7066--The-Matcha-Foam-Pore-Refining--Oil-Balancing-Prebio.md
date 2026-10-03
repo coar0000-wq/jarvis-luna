@@ -2,7 +2,7 @@
 title: "Record 61075e7066 · The-Matcha-Foam-Pore-Refining--Oil-Balancing-Prebiotic-Gel-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.618530+00:00
+updated_at: 2026-10-03T11:58:59.644819+00:00
 tags: [record, real-data]
 ---
 

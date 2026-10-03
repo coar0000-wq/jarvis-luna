@@ -2,7 +2,7 @@
 title: "Record ddbffc405e · GraphSeqNet-Enhancing-Student-Performance-Prediction-with-Graph-Neural"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.952475+00:00
+updated_at: 2026-10-03T11:58:57.470119+00:00
 tags: [record, real-data]
 ---
 

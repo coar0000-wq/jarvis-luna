@@ -2,7 +2,7 @@
 title: "Record 263cc3d8b8 · La-Roche-Posay-Lipikar-APMAX-Triple-Repair-Moisturizing-Body-Cream--Fa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.159033+00:00
+updated_at: 2026-10-03T11:58:59.262757+00:00
 tags: [record, real-data]
 ---
 

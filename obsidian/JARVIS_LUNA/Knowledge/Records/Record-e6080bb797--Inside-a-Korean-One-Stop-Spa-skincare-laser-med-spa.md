@@ -2,7 +2,7 @@
 title: "Record e6080bb797 · Inside-a-Korean-One-Stop-Spa-skincare-laser-med-spa-and-head-spa-Pt-2-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.228400+00:00
+updated_at: 2026-10-03T11:58:58.510937+00:00
 tags: [record, real-data]
 ---
 

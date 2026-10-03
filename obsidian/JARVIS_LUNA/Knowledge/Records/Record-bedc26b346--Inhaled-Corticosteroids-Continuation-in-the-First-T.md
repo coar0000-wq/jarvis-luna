@@ -2,7 +2,7 @@
 title: "Record bedc26b346 · Inhaled-Corticosteroids-Continuation-in-the-First-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.678045+00:00
+updated_at: 2026-10-03T11:58:57.250768+00:00
 tags: [record, real-data]
 ---
 

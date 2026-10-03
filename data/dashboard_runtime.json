@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T20:55:38.827758+09:00",
+  "generated_at": "2026-10-03T21:03:41.186605+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -28,9 +28,9 @@
         "candidates_new": 1,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 11.152,
-        "attempt_age_hours": 11.152,
-        "success_age_hours": 107.111,
+        "candidate_success_age_hours": 11.286,
+        "attempt_age_hours": 11.286,
+        "success_age_hours": 107.245,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": false,
@@ -115,7 +115,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-03T20:53:18.851398+09:00",
+      "when": "2026-10-03T20:57:42.219929+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 19편 · 근거 51개 · 실험 22개 · 새 자료 113건 · 영상 학습 52개",
       "action": null,
       "action_kind": null,
@@ -385,7 +385,7 @@
     {
       "id": "knowledge",
       "name": "지식 수집팀",
-      "when": "2026-10-03T11:41:43.864259+00:00",
+      "when": "2026-10-03T11:58:31.433935+00:00",
       "summary": "878건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 498 · 영상 학습 6개",
       "action": null,
       "action_kind": null,
@@ -424,8 +424,8 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-10-03T20:55:34.234013+09:00",
-      "summary": "84,953노트 · 360,905링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.4% · 학습 키워드 19개 · 영상 30편 자막 검토 대기",
+      "when": "2026-10-03T20:59:00.828187+09:00",
+      "summary": "84,956노트 · 360,899링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.4% · 학습 키워드 19개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -458,7 +458,7 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-10-02T17:37:28.124430+00:00",
-        "몇시간전": 18.3
+        "몇시간전": 18.4
       },
       {
         "단계": "고시 비전 추출",
@@ -476,26 +476,26 @@
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-10-03T11:53:10.648918+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.2
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-10-03T11:53:16.259319+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.2
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-10-03T11:53:08.847383+00:00",
-        "몇시간전": 0.0
+        "몇시간전": 0.2
       }
     ],
     "heartbeat": {
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 0.011,
+      "age_hours": 0.145,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -511,9 +511,9 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 11.152,
-      "attempt_age_hours": 11.152,
-      "success_age_hours": 107.111,
+      "candidate_success_age_hours": 11.286,
+      "attempt_age_hours": 11.286,
+      "success_age_hours": 107.245,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -760,7 +760,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-10-03T11:55:34.309350+00:00",
+    "generated_at": "2026-10-03T12:03:38.639125+00:00",
     "overall_status": "warning",
     "status_legend": {
       "success": "정상",
@@ -784,16 +784,16 @@
       "queue": 2881,
       "stale_source": "marketing",
       "freshness_summary": {
-        "product_master": "2 min ago",
-        "legal_full": "2 min ago",
-        "shopify_sync": "2 min ago",
-        "pricing": "2 min ago",
-        "marketing": "2 min ago",
-        "daiso": "11.2 hours ago",
-        "deep_heartbeat": "just now",
-        "actions_monitor": "just now",
-        "gosi": "18.3 hours ago",
-        "product_discovery": "2 min ago"
+        "product_master": "10 min ago",
+        "legal_full": "10 min ago",
+        "shopify_sync": "10 min ago",
+        "pricing": "10 min ago",
+        "marketing": "10 min ago",
+        "daiso": "11.3 hours ago",
+        "deep_heartbeat": "8 min ago",
+        "actions_monitor": "8 min ago",
+        "gosi": "18.4 hours ago",
+        "product_discovery": "10 min ago"
       }
     },
     "summary": {
@@ -812,7 +812,7 @@
         "reason": "운영 상품 356개, CP 357개, S 10개",
         "count": 356,
         "s_count": 10,
-        "freshness": "2 min ago",
+        "freshness": "10 min ago",
         "is_failure": false
       },
       {
@@ -821,28 +821,28 @@
         "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
         "is_failure": false,
         "waiting_kind": "human_approval_required",
-        "freshness": "2 min ago"
+        "freshness": "10 min ago"
       },
       {
         "team": "shopify_sync",
         "status": "success",
         "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
         "is_failure": false,
-        "freshness": "2 min ago"
+        "freshness": "10 min ago"
       },
       {
         "team": "pricing",
         "status": "success",
         "reason": "FX 반영, 손익분기·기여마진 계산됨",
         "is_failure": false,
-        "freshness": "2 min ago"
+        "freshness": "10 min ago"
       },
       {
         "team": "marketing",
         "status": "warning",
         "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
         "is_failure": false,
-        "freshness": "2 min ago"
+        "freshness": "10 min ago"
       },
       {
         "team": "daiso",
@@ -855,26 +855,26 @@
         "candidates_new": 1,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 11.15,
-        "attempt_age_hours": 11.15,
-        "success_age_hours": 107.11,
+        "candidate_success_age_hours": 11.285,
+        "attempt_age_hours": 11.285,
+        "success_age_hours": 107.245,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": false,
         "is_failure": false,
-        "freshness": "11.2 hours ago"
+        "freshness": "11.3 hours ago"
       },
       {
         "team": "deep_heartbeat",
         "status": "success",
         "reason": "SafeAutoFix heartbeat 정상",
         "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-        "age_hours": 0.01,
+        "age_hours": 0.144,
         "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
         "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
         "is_failure": false,
         "delayed": false,
-        "freshness": "just now"
+        "freshness": "8 min ago"
       },
       {
         "team": "actions_monitor",
@@ -882,21 +882,21 @@
         "reason": "GitHub Actions 관측: 5/5개 · 실패 0",
         "is_failure": false,
         "observed_at": "2026-10-03T11:54:46.168285Z",
-        "freshness": "just now"
+        "freshness": "8 min ago"
       },
       {
         "team": "gosi",
         "status": "success",
-        "reason": "정상 18.3h 전",
+        "reason": "정상 18.4h 전",
         "is_failure": false,
-        "freshness": "18.3 hours ago"
+        "freshness": "18.4 hours ago"
       },
       {
         "team": "product_discovery",
         "status": "success",
-        "reason": "정상 0.0h 전",
+        "reason": "정상 0.2h 전",
         "is_failure": false,
-        "freshness": "2 min ago"
+        "freshness": "10 min ago"
       }
     ],
     "architecture_p0": {
@@ -1035,9 +1035,9 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 11.152,
-      "attempt_age_hours": 11.152,
-      "success_age_hours": 107.111,
+      "candidate_success_age_hours": 11.286,
+      "attempt_age_hours": 11.286,
+      "success_age_hours": 107.245,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -1047,7 +1047,7 @@
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 0.011,
+      "age_hours": 0.145,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -1260,7 +1260,7 @@
     "workflow_observation_fresh": true
   },
   "team_summary": {
-    "corpus_records": 6955,
+    "corpus_records": 6958,
     "pipeline_done": 5,
     "pipeline_total": 5
   },
@@ -1269,13 +1269,13 @@
       "id": "collect",
       "title": "실제 데이터 수집",
       "status": "completed",
-      "detail": "6955개 코퍼스 레코드"
+      "detail": "6958개 코퍼스 레코드"
     },
     {
       "id": "graph",
       "title": "Obsidian 그래프 반영·검증",
       "status": "completed",
-      "detail": "84953개 노트 · 360905개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
+      "detail": "84956개 노트 · 360899개 링크 · 끊어진 링크 0개 · 개인 노트 16개 별도"
     },
     {
       "id": "dashboard",
@@ -1287,7 +1287,7 @@
       "id": "train",
       "title": "실제 데이터 MoE 학습",
       "status": "completed",
-      "detail": "6955건 · 4 experts · 정확도 96.36%"
+      "detail": "6958건 · 3 experts · 정확도 96.49%"
     },
     {
       "id": "publish",
@@ -1298,9 +1298,9 @@
   ],
   "sources": {
     "status": "completed",
-    "record_count": 6955,
+    "record_count": 6958,
     "source_counts": {},
-    "updated_at": "2026-10-03T20:41:43.883658+09:00"
+    "updated_at": "2026-10-03T20:58:31.450394+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1883,53 +1883,53 @@
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
   "graph": {
-    "notes": 84953,
-    "links": 360905,
+    "notes": 84956,
+    "links": 360899,
     "dangling_links": 0,
     "dangling_personal": 16,
     "dangling_personal_note": "사용자가 직접 넣은 Personal 노트의 내부 링크. 원본 볼트에서 일부만 가져와 대상 노트가 없는 것으로, 파이프라인 오류가 아니다.",
     "dangling_warn_threshold": 300,
-    "records": 84113,
+    "records": 84116,
     "sources": 7,
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-10-03T20:55:34.234013+09:00"
+    "last_generated": "2026-10-03T20:59:00.828187+09:00"
   },
   "training": {
     "status": "completed",
     "training_effective": true,
     "verdict": "기준선보다 나음: 운영 가중치 교체",
-    "validation_macro_f1": 0.8836922701379814,
+    "validation_macro_f1": 0.88253176487792,
     "validation_recall": {
-      "ai-image": 0.8714,
-      "ai-research": 0.9627,
+      "ai-image": 0.8571,
+      "ai-research": 0.9636,
       "shopify-commerce-image": 0.9701
     },
     "baseline_accuracy": 0.8981412639405204,
     "baseline_macro_f1": 0.31544588066327195,
     "training_performed": true,
     "weights_updated": true,
-    "records": 6955,
+    "records": 6958,
     "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
-    "experts": 4,
-    "accuracy": 0.9636232925952553,
+    "experts": 3,
+    "accuracy": 0.964932451853981,
     "validation_accuracy": 0.958364312267658,
-    "final_loss": 0.25437441466257804,
-    "gate_load_std": 0.43150654649667003,
+    "final_loss": 0.2473899296317381,
+    "gate_load_std": 0.46989374048845745,
     "tuning_promoted": true,
     "tuning_steps": 300,
-    "updated_at": "2026-10-03T11:49:29.961295+00:00"
+    "updated_at": "2026-10-03T12:03:35.468747+00:00"
   },
   "cumulative": {
     "totals": {
-      "records": 6955,
-      "notes": 85541,
+      "records": 6958,
+      "notes": 85544,
       "links": 380225
     },
     "prior_totals": {
-      "records": 6955,
-      "notes": 85541,
+      "records": 6958,
+      "notes": 85544,
       "links": 380225
     },
     "added_this_run": {
@@ -1938,9 +1938,9 @@
       "links": 0
     },
     "current_snapshot": {
-      "records": 6955,
-      "notes": 84953,
-      "links": 360905
+      "records": 6958,
+      "notes": 84956,
+      "links": 360899
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
     "runs_recorded": 90
@@ -6407,7 +6407,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 11.923,
+      "age_hours": 12.057,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6421,7 +6421,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 432.604,
+      "age_hours": 432.738,
       "stale": true,
       "freshness_reason": "2026-09-15 이후 갱신 없음 (18.0일)."
     },
@@ -6435,7 +6435,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.223,
+      "age_hours": 0.357,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6449,7 +6449,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.208,
+      "age_hours": 0.342,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6463,7 +6463,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.053,
+      "age_hours": 0.187,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6477,7 +6477,7 @@
       "source_status": "empty",
       "source_trust": "none",
       "source_reason": "페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함",
-      "age_hours": 11.923,
+      "age_hours": 12.057,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6491,7 +6491,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 11.923,
+      "age_hours": 12.057,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6506,7 +6506,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 6.396,
+      "age_hours": 6.53,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6521,7 +6521,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 6.396,
+      "age_hours": 6.53,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6536,7 +6536,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 6.396,
+      "age_hours": 6.53,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6578,7 +6578,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 11.923,
+      "age_hours": 12.057,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6592,7 +6592,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 11.923,
+      "age_hours": 12.057,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6606,7 +6606,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.223,
+      "age_hours": 0.357,
       "stale": false,
       "freshness_reason": ""
     }
@@ -6625,6 +6625,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-10-03T11:55:38.913570+00:00"
+    "at": "2026-10-03T12:03:41.239575+00:00"
   }
 }

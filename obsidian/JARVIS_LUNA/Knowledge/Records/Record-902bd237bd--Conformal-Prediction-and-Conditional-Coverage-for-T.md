@@ -2,7 +2,7 @@
 title: "Record 902bd237bd · Conformal-Prediction-and-Conditional-Coverage-for-Tabular-Foundation-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.449975+00:00
+updated_at: 2026-10-03T11:58:57.865190+00:00
 tags: [record, real-data]
 ---
 

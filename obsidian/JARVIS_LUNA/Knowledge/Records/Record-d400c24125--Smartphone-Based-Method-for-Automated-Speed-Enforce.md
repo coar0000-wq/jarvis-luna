@@ -2,7 +2,7 @@
 title: "Record d400c24125 · Smartphone-Based-Method-for-Automated-Speed-Enforcement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.404125+00:00
+updated_at: 2026-10-03T11:58:57.827516+00:00
 tags: [record, real-data]
 ---
 

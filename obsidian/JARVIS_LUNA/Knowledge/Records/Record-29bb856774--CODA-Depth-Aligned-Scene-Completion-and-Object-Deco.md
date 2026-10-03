@@ -2,7 +2,7 @@
 title: "Record 29bb856774 · CODA-Depth-Aligned-Scene-Completion-and-Object-Decomposition-from-a-Si"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.344277+00:00
+updated_at: 2026-10-03T11:58:57.779834+00:00
 tags: [record, real-data]
 ---
 

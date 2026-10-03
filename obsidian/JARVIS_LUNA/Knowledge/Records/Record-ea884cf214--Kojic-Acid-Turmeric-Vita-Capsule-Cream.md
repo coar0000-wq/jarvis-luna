@@ -2,7 +2,7 @@
 title: "Record ea884cf214 · Kojic-Acid-Turmeric-Vita-Capsule-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.613130+00:00
+updated_at: 2026-10-03T11:58:59.640589+00:00
 tags: [record, real-data]
 ---
 

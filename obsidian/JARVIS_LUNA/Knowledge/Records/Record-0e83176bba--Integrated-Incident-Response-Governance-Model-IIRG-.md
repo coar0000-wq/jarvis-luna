@@ -2,7 +2,7 @@
 title: "Record 0e83176bba · Integrated-Incident-Response-Governance-Model-IIRG-Unifying-strategic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.512244+00:00
+updated_at: 2026-10-03T11:58:57.916475+00:00
 tags: [record, real-data]
 ---
 

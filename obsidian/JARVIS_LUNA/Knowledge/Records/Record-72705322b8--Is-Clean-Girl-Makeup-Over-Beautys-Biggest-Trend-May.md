@@ -2,7 +2,7 @@
 title: "Record 72705322b8 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.123510+00:00
+updated_at: 2026-10-03T11:58:58.422212+00:00
 tags: [record, real-data]
 ---
 

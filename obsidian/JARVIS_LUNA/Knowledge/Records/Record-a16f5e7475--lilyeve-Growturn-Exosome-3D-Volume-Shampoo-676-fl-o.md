@@ -2,7 +2,7 @@
 title: "Record a16f5e7475 · lilyeve-Growturn-Exosome-3D-Volume-Shampoo-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.655413+00:00
+updated_at: 2026-10-03T11:58:58.865173+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 51351c5dc7 · dAlba-White-Truffle-First-Spray-Serum-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.611152+00:00
+updated_at: 2026-10-03T11:58:58.826024+00:00
 tags: [record, real-data]
 ---
 

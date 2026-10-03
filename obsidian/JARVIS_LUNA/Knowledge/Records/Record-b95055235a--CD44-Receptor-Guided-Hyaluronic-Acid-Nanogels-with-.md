@@ -2,7 +2,7 @@
 title: "Record b95055235a · CD44-Receptor-Guided-Hyaluronic-Acid-Nanogels-with-Dual-Stimuli-Respon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.783577+00:00
+updated_at: 2026-10-03T11:58:57.341670+00:00
 tags: [record, real-data]
 ---
 

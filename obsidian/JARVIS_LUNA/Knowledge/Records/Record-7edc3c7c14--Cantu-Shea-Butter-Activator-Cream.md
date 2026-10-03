@@ -2,7 +2,7 @@
 title: "Record 7edc3c7c14 · Cantu-Shea-Butter-Activator-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.663939+00:00
+updated_at: 2026-10-03T11:58:58.872018+00:00
 tags: [record, real-data]
 ---
 

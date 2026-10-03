@@ -2,7 +2,7 @@
 title: "Record ce07083817 · Can-AI-Models-Hide-Capabilities"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.564882+00:00
+updated_at: 2026-10-03T11:58:57.964162+00:00
 tags: [record, real-data]
 ---
 

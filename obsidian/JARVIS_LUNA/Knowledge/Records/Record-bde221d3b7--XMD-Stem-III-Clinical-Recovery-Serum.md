@@ -2,7 +2,7 @@
 title: "Record bde221d3b7 · XMD-Stem-III-Clinical-Recovery-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.489915+00:00
+updated_at: 2026-10-03T11:58:58.725671+00:00
 tags: [record, real-data]
 ---
 

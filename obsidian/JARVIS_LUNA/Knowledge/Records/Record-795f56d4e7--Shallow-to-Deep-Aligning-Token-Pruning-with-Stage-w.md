@@ -2,7 +2,7 @@
 title: "Record 795f56d4e7 · Shallow-to-Deep-Aligning-Token-Pruning-with-Stage-wise-Roles-in-LVLMs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.343590+00:00
+updated_at: 2026-10-03T11:58:57.779292+00:00
 tags: [record, real-data]
 ---
 

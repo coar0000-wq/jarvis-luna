@@ -2,7 +2,7 @@
 title: "Record d8dc3009f4 · GroundingVLN-Reasoning-and-Acting-with-Grounding-for-Vision-Language-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.524797+00:00
+updated_at: 2026-10-03T11:58:57.129384+00:00
 tags: [record, real-data]
 ---
 

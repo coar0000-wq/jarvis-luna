@@ -2,7 +2,7 @@
 title: "Record 0c596ad87b · STEVE-Stabilizing-Textual-Gradient-Based-Prompt-Optimization-via-Error"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.320842+00:00
+updated_at: 2026-10-03T11:58:57.760457+00:00
 tags: [record, real-data]
 ---
 

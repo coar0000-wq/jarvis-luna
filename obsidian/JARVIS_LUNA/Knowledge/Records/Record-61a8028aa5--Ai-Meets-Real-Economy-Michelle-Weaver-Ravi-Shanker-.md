@@ -2,7 +2,7 @@
 title: "Record 61a8028aa5 · Ai-Meets-Real-Economy-Michelle-Weaver-Ravi-Shanker-Dave-Arcaro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.492294+00:00
+updated_at: 2026-10-03T11:58:59.537090+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ce38499cf3 · Olay-Beauty-Bar-Ultra-Moisture10x-More-Moisturizers-247-Soft--Smooth-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.081773+00:00
+updated_at: 2026-10-03T11:58:59.199856+00:00
 tags: [record, real-data]
 ---
 

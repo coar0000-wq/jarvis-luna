@@ -2,7 +2,7 @@
 title: "Record 26c8aeeada · Make-up-Sponge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.653387+00:00
+updated_at: 2026-10-03T11:58:59.672465+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 882596cbc7 · Chatham-scales-its-capital-markets-expertise-with-OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.364226+00:00
+updated_at: 2026-10-03T11:58:58.629440+00:00
 tags: [record, real-data]
 ---
 

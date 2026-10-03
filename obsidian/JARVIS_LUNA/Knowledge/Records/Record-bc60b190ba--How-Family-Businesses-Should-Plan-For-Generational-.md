@@ -2,7 +2,7 @@
 title: "Record bc60b190ba · How-Family-Businesses-Should-Plan-For-Generational-Success---Transcrip"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.385847+00:00
+updated_at: 2026-10-03T11:58:59.465021+00:00
 tags: [record, real-data]
 ---
 

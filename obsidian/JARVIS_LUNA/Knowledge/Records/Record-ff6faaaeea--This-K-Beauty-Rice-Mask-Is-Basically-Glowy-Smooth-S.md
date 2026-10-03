@@ -2,7 +2,7 @@
 title: "Record ff6faaaeea · This-K-Beauty-Rice-Mask-Is-Basically-Glowy-Smooth-Skin-In-A-Jar-For-Fa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.084477+00:00
+updated_at: 2026-10-03T11:58:58.392428+00:00
 tags: [record, real-data]
 ---
 

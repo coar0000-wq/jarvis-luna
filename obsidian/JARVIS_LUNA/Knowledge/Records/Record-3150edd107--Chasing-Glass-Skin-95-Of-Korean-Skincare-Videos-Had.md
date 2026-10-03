@@ -2,7 +2,7 @@
 title: "Record 3150edd107 · Chasing-Glass-Skin-95-Of-Korean-Skincare-Videos-Had-At-Least-One-Misle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.719558+00:00
+updated_at: 2026-10-03T11:58:58.101853+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSWlibmRzRDlSYjBtaE5xR1ZTR0EwUHN1ZXRlVEJtajk2M0VHaXFoR0xTaFhScTdCbGdHOW1Kb012N0kyWHJXTFpBSHdIV2VmdTlDWmkySnk2a19Fai1vQzdlRnJubThtd3Foc0hia1NxZDFZTGVqZ2pXeHdyaF9XUkpHOVlfQ1U5OEdPT0RDZWhwbnFPWXZLcWVVWjNmdllNMVBDaEtXNDB5WTFpMTg3MUV5ak5paHZoZFpPcW0zeXhJTF94SENDcm9KRkhZVkhPZlHSAdoBQVVfeXFMTlpNS0pwQ2s1b2N2UkN2TGdFM1VPREFuSFVDUHY3czZNVmlvblNCbGVGOWkyLXY2OVE4N3FqYTZmVjlIcmQ5NmFUQ09hNllkQVV5WnNUMW16U3BNNVN6TEZfZDJYcjE1d2J0VzB2Vjg3ODFZZnFybEZYWG5WUTFsTzZVUUtLQUg1MzVfdW5DbE43TWhWNUpsMkZEUzhjTGdjMGdBUGhPNGVvY0xuYTF0OVhzdzhJU3dyVTVBRE5hR3lqVUlza1ZQYkVyaUZXYlFaMkExbnVKZW9sMGc?oc=5)
 
-**제목:** Chasing 'Glass Skin'? 95% Of Korean Skincare Videos Had At Least One Misleading Claim, Study Warns - ndtv.com
+**제목:** Chasing 'Glass Skin'? 95% Of Korean Skincare Videos Had At Least One Misleading Claim, Study Warns - NDTV
 
-Chasing 'Glass Skin'? 95% Of Korean Skincare Videos Had At Least One Misleading Claim, Study Warns - ndtv.com
+Chasing 'Glass Skin'? 95% Of Korean Skincare Videos Had At Least One Misleading Claim, Study Warns - NDTV
 
 **출처:** Source · Google Search
 

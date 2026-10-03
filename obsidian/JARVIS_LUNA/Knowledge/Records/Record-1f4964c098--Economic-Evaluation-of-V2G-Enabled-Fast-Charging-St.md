@@ -2,7 +2,7 @@
 title: "Record 1f4964c098 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.418210+00:00
+updated_at: 2026-10-03T11:58:57.035491+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6e28d85bd0 · A-meta-inspiral-merger-ringdown-consistency-test-of-general-relativity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.856895+00:00
+updated_at: 2026-10-03T11:58:57.395662+00:00
 tags: [record, real-data]
 ---
 

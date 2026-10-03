@@ -2,7 +2,7 @@
 title: "Record 1297647f8d · Opinion-Pieces-of-the-BTW-2025-Workshop-On-Advances-in-Cloud-Data-Mana"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.717965+00:00
+updated_at: 2026-10-03T11:58:57.282971+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c59fea6c01 · What-to-Know-About-Snail-Mucin-for-Healthier-Glowing-Skin---healthcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.773128+00:00
+updated_at: 2026-10-03T11:58:58.139777+00:00
 tags: [record, real-data]
 ---
 
@@ -10,10 +10,10 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FajN1UnhmQjViQ0dWVW45QVF1blJPRnBKZUltUWRyRjVDcHFVVTBiVUpkQTZlZHNYbEFmSUFtVTRWT0Q2X3o4R3R0YXhyYUJhbHV6dVln?oc=5)
 
-**제목:** What to Know About Snail Mucin for Healthier, Glowing Skin - health.com
+**제목:** What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com
 
-What to Know About Snail Mucin for Healthier, Glowing Skin - health.com
-What to Know About Snail Mucin for Healthier, Glowing Skin - health.com
+What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com
+What to Know About Snail Mucin for Healthier, Glowing Skin - Health.com
 
 **출처:** Source · us_beauty
 

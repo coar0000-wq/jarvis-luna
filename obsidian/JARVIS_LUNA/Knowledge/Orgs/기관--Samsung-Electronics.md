@@ -2,7 +2,7 @@
 title: "기관 · Samsung Electronics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:34.016739+00:00
+updated_at: 2026-10-03T11:59:00.790450+00:00
 tags: [org, real-data]
 ---
 

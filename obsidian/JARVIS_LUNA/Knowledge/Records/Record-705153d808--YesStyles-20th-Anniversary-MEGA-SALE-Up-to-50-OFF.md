@@ -2,7 +2,7 @@
 title: "Record 705153d808 · YesStyles-20th-Anniversary-MEGA-SALE-Up-to-50-OFF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.726791+00:00
+updated_at: 2026-10-03T11:58:59.729354+00:00
 tags: [record, real-data]
 ---
 

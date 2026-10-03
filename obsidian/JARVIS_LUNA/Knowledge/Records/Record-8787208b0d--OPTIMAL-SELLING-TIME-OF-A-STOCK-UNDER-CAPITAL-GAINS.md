@@ -2,7 +2,7 @@
 title: "Record 8787208b0d · OPTIMAL-SELLING-TIME-OF-A-STOCK-UNDER-CAPITAL-GAINS-TAXES"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.950861+00:00
+updated_at: 2026-10-03T11:58:57.468762+00:00
 tags: [record, real-data]
 ---
 

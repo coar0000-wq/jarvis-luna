@@ -2,7 +2,7 @@
 title: "Record 422cce065d · Standardizing-the-Evaluation-of-Usability-Test-Results-Criteria-Develo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.847981+00:00
+updated_at: 2026-10-03T11:58:57.388947+00:00
 tags: [record, real-data]
 ---
 

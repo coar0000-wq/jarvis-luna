@@ -2,7 +2,7 @@
 title: "Record 18b77de4e9 · Bridging-the-divide-in-digital-therapeutics-DTx-Partnership-strategies"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.998448+00:00
+updated_at: 2026-10-03T11:58:57.505723+00:00
 tags: [record, real-data]
 ---
 

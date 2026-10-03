@@ -2,7 +2,7 @@
 title: "Record 6dc418fdd9 · Tapes-Together-Strong-The-Co-evolution-of-Computation-and-Cooperation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.216699+00:00
+updated_at: 2026-10-03T11:58:57.671623+00:00
 tags: [record, real-data]
 ---
 

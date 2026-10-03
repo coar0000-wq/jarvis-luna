@@ -2,7 +2,7 @@
 title: "Record c49f4c5044 · LOréal-puts-social-commerce-first-with-DrG-US-launch-on-TikTok-Shop---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.965263+00:00
+updated_at: 2026-10-03T11:58:58.295971+00:00
 tags: [record, real-data]
 ---
 

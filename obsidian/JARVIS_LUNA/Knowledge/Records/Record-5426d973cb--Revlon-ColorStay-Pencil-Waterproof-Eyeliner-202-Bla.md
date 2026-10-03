@@ -2,7 +2,7 @@
 title: "Record 5426d973cb · Revlon-ColorStay-Pencil-Waterproof-Eyeliner-202-Black-Brown-001-oz--Wa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.879773+00:00
+updated_at: 2026-10-03T11:58:59.041803+00:00
 tags: [record, real-data]
 ---
 

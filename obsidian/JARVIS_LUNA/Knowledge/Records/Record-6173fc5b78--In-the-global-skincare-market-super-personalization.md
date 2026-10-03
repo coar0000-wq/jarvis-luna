@@ -2,7 +2,7 @@
 title: "Record 6173fc5b78 · In-the-global-skincare-market-super-personalization-is-emerging-as-a-n"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.756129+00:00
+updated_at: 2026-10-03T11:58:58.126243+00:00
 tags: [record, real-data]
 ---
 

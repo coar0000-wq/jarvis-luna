@@ -2,7 +2,7 @@
 title: "Record f9d439db01 · Optical-constants-of-Sc-V-Cr-Co-Ni-Nb-Mo-Rh-Pd-Hf-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.994576+00:00
+updated_at: 2026-10-03T11:58:57.502587+00:00
 tags: [record, real-data]
 ---
 

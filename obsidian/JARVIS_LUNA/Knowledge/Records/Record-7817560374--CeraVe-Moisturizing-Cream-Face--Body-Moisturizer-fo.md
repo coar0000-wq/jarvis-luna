@@ -2,7 +2,7 @@
 title: "Record 7817560374 · CeraVe-Moisturizing-Cream-Face--Body-Moisturizer-for-Dry-Skin-19oz--Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.840893+00:00
+updated_at: 2026-10-03T11:58:59.010887+00:00
 tags: [record, real-data]
 ---
 

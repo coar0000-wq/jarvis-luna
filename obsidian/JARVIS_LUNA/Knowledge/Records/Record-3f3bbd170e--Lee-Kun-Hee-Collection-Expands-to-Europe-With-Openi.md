@@ -2,7 +2,7 @@
 title: "Record 3f3bbd170e · Lee-Kun-Hee-Collection-Expands-to-Europe-With-Opening-of-Korea-Exhibit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.294717+00:00
+updated_at: 2026-10-03T11:58:58.566678+00:00
 tags: [record, real-data]
 ---
 

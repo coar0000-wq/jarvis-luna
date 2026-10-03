@@ -2,7 +2,7 @@
 title: "Record 4e709da9ad · VT-PDRN-Reedle-Shot-Hair-Ampoule-700dl-050-fl-oz15m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.605654+00:00
+updated_at: 2026-10-03T11:58:58.822770+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml)
 
 VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml)
-VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml) · 평점 4.6 · 리뷰 137
+VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml) · 평점 4.6 · 리뷰 138
 
 **출처:** Source · us_beauty
 

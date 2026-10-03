@@ -2,7 +2,7 @@
 title: "Record 0b6bbe1b7c · I-Built-My-Dream-Porsche-Targa-Full-Transformation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.742073+00:00
+updated_at: 2026-10-03T11:58:59.741473+00:00
 tags: [record, real-data]
 ---
 

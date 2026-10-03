@@ -2,7 +2,7 @@
 title: "Record 6a9fb2f576 · 2026-Fluffy-Hair-Shaping-Spray-Peach-Scented-Volumizing--Setting-Spray"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.140194+00:00
+updated_at: 2026-10-03T11:58:59.248326+00:00
 tags: [record, real-data]
 ---
 

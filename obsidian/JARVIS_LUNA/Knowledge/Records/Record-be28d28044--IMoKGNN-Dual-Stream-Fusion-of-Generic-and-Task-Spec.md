@@ -2,7 +2,7 @@
 title: "Record be28d28044 · IMoKGNN-Dual-Stream-Fusion-of-Generic-and-Task-Specific-Language-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.968805+00:00
+updated_at: 2026-10-03T11:58:57.483137+00:00
 tags: [record, real-data]
 ---
 

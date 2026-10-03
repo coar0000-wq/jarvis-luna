@@ -2,7 +2,7 @@
 title: "Record 800bf20127 · Apollo-Restore-A-Foundation-LLM-for-Historical-Greek-Optimized-for-Fil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.315401+00:00
+updated_at: 2026-10-03T11:58:57.756091+00:00
 tags: [record, real-data]
 ---
 

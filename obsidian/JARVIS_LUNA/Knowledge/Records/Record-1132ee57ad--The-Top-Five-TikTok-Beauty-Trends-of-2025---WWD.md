@@ -2,7 +2,7 @@
 title: "Record 1132ee57ad · The-Top-Five-TikTok-Beauty-Trends-of-2025---WWD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.043184+00:00
+updated_at: 2026-10-03T11:58:58.366142+00:00
 tags: [record, real-data]
 ---
 

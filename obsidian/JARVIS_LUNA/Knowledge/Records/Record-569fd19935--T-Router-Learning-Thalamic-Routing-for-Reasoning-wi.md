@@ -2,7 +2,7 @@
 title: "Record 569fd19935 · T-Router-Learning-Thalamic-Routing-for-Reasoning-with-Parameter-Effici"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.494600+00:00
+updated_at: 2026-10-03T11:58:57.902447+00:00
 tags: [record, real-data]
 ---
 

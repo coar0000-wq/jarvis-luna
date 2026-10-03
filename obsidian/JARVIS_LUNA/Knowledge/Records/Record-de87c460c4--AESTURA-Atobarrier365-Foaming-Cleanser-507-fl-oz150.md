@@ -2,7 +2,7 @@
 title: "Record de87c460c4 · AESTURA-Atobarrier365-Foaming-Cleanser-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.543761+00:00
+updated_at: 2026-10-03T11:58:58.771415+00:00
 tags: [record, real-data]
 ---
 

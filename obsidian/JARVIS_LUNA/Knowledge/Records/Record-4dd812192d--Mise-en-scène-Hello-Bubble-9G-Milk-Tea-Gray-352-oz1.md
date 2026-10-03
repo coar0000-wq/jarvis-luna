@@ -2,7 +2,7 @@
 title: "Record 4dd812192d · Mise-en-scène-Hello-Bubble-9G-Milk-Tea-Gray-352-oz100g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.651912+00:00
+updated_at: 2026-10-03T11:58:58.862376+00:00
 tags: [record, real-data]
 ---
 

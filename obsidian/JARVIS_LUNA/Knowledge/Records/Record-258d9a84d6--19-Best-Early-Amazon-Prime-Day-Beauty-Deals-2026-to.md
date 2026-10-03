@@ -2,7 +2,7 @@
 title: "Record 258d9a84d6 · 19-Best-Early-Amazon-Prime-Day-Beauty-Deals-2026-to-Shop-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.708128+00:00
+updated_at: 2026-10-03T11:58:58.909584+00:00
 tags: [record, real-data]
 ---
 

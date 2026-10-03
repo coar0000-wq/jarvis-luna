@@ -2,7 +2,7 @@
 title: "Record f1279c8c2d · LOreal-Paris-Infallible-3-Second-Setting-Spray-Mist-36H-Wear-Natural-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.652994+00:00
+updated_at: 2026-10-03T11:58:59.672177+00:00
 tags: [record, real-data]
 ---
 

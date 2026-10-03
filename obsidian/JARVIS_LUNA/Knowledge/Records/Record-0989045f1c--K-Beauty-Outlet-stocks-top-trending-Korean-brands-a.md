@@ -2,7 +2,7 @@
 title: "Record 0989045f1c · K-Beauty-Outlet-stocks-top-trending-Korean-brands-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.198263+00:00
+updated_at: 2026-10-03T11:58:58.487181+00:00
 tags: [record, real-data]
 ---
 

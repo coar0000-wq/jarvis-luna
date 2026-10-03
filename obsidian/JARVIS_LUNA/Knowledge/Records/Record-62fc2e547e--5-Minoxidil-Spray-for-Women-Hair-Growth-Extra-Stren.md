@@ -2,7 +2,7 @@
 title: "Record 62fc2e547e · 5-Minoxidil-Spray-for-Women-Hair-Growth-Extra-Strength-Hair-Regrowth-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.012597+00:00
+updated_at: 2026-10-03T11:58:59.146418+00:00
 tags: [record, real-data]
 ---
 

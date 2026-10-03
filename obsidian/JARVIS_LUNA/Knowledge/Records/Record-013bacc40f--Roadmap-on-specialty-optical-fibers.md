@@ -2,7 +2,7 @@
 title: "Record 013bacc40f · Roadmap-on-specialty-optical-fibers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.859884+00:00
+updated_at: 2026-10-03T11:58:57.398096+00:00
 tags: [record, real-data]
 ---
 

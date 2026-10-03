@@ -2,7 +2,7 @@
 title: "Record a821810ee2 · Accelerating-the-frontiers-of-scientific-discovery-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.664026+00:00
+updated_at: 2026-10-03T11:58:57.239407+00:00
 tags: [record, real-data]
 ---
 

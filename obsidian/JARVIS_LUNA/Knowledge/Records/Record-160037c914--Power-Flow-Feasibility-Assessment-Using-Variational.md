@@ -2,7 +2,7 @@
 title: "Record 160037c914 · Power-Flow-Feasibility-Assessment-Using-Variational"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.450100+00:00
+updated_at: 2026-10-03T11:58:58.693274+00:00
 tags: [record, real-data]
 ---
 

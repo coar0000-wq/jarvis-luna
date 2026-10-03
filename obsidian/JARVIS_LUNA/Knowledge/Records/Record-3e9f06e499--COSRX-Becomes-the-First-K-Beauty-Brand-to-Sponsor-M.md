@@ -2,7 +2,7 @@
 title: "Record 3e9f06e499 · COSRX-Becomes-the-First-K-Beauty-Brand-to-Sponsor-Maison-Margiela-at-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.727325+00:00
+updated_at: 2026-10-03T11:58:58.108132+00:00
 tags: [record, real-data]
 ---
 

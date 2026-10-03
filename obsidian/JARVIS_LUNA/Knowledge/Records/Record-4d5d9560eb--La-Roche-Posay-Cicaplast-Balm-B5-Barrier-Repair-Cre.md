@@ -2,7 +2,7 @@
 title: "Record 4d5d9560eb · La-Roche-Posay-Cicaplast-Balm-B5-Barrier-Repair-Cream-for-Dry-Skin--Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.153819+00:00
+updated_at: 2026-10-03T11:58:59.259397+00:00
 tags: [record, real-data]
 ---
 

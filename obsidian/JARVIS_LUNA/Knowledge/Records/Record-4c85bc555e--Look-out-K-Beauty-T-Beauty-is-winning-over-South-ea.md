@@ -2,7 +2,7 @@
 title: "Record 4c85bc555e · Look-out-K-Beauty-T-Beauty-is-winning-over-South-ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.254997+00:00
+updated_at: 2026-10-03T11:58:58.532543+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3d7b9aab56 · Introducing-MentalHealthBench"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.384629+00:00
+updated_at: 2026-10-03T11:58:58.642731+00:00
 tags: [record, real-data]
 ---
 

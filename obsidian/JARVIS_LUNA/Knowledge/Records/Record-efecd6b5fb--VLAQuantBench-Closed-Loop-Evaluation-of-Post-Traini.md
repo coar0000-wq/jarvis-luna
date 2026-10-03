@@ -2,7 +2,7 @@
 title: "Record efecd6b5fb · VLAQuantBench-Closed-Loop-Evaluation-of-Post-Training-Quantization-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.341688+00:00
+updated_at: 2026-10-03T11:58:57.777705+00:00
 tags: [record, real-data]
 ---
 

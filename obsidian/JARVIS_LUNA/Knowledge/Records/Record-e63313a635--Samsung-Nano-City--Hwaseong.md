@@ -2,7 +2,7 @@
 title: "Record e63313a635 · Samsung-Nano-City--Hwaseong"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.310379+00:00
+updated_at: 2026-10-03T11:58:58.579486+00:00
 tags: [record, real-data]
 ---
 

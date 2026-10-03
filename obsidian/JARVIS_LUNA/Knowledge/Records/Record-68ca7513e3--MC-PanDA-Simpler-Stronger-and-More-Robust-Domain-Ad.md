@@ -2,7 +2,7 @@
 title: "Record 68ca7513e3 · MC-PanDA-Simpler-Stronger-and-More-Robust-Domain-Adaptive-Panoptic-Seg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.505883+00:00
+updated_at: 2026-10-03T11:58:57.912047+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 611686f3bf · Anua-Rice-70-Glow-Milky-Toner-845-fl-oz250ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.619034+00:00
+updated_at: 2026-10-03T11:58:58.832387+00:00
 tags: [record, real-data]
 ---
 

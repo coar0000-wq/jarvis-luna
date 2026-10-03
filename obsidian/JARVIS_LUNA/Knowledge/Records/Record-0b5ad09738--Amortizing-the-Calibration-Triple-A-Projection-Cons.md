@@ -2,7 +2,7 @@
 title: "Record 0b5ad09738 · Amortizing-the-Calibration-Triple-A-Projection-Consistent-Neural-Opera"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.195690+00:00
+updated_at: 2026-10-03T11:58:57.655488+00:00
 tags: [record, real-data]
 ---
 

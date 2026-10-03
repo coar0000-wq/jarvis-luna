@@ -2,7 +2,7 @@
 title: "Record 955fa0a61d · Dove-Sensitive-Skin-Body-Wash-24hr-Lotion-Soft-Skin-306-oz--Dove-Sensi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.899251+00:00
+updated_at: 2026-10-03T11:58:59.057244+00:00
 tags: [record, real-data]
 ---
 

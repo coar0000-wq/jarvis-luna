@@ -2,7 +2,7 @@
 title: "Record 57cb6f42ff · ForeSea-AI-Forensic-Search-with-Multi-modal-Queries"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.416874+00:00
+updated_at: 2026-10-03T11:58:58.666999+00:00
 tags: [record, real-data]
 ---
 

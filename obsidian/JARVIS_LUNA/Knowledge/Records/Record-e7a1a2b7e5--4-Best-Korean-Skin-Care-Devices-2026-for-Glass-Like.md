@@ -2,7 +2,7 @@
 title: "Record e7a1a2b7e5 · 4-Best-Korean-Skin-Care-Devices-2026-for-Glass-Like-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.710136+00:00
+updated_at: 2026-10-03T11:58:58.911281+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7a21142bed · Proteomic-Profiling-Identifies-CLDN3-as-a-Tumor-Selective-Therapeutic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.613299+00:00
+updated_at: 2026-10-03T11:58:58.001971+00:00
 tags: [record, real-data]
 ---
 

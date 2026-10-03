@@ -2,7 +2,7 @@
 title: "Record 4476656527 · These-are-the-biggest-Korean-beauty-trends-RN-and-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.978468+00:00
+updated_at: 2026-10-03T11:58:58.306825+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6cf5e43fb7 · tarte-CC-tinted-serum--Color-Correcting-Tinted-Serum-with-Color-Changi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.271043+00:00
+updated_at: 2026-10-03T11:58:59.350210+00:00
 tags: [record, real-data]
 ---
 

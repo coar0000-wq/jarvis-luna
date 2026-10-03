@@ -2,7 +2,7 @@
 title: "Record b6f95c7ac9 · Accurate-Simulation-of-Distributed-Training-Jobs-with-Network-Contenti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.570840+00:00
+updated_at: 2026-10-03T11:58:57.167217+00:00
 tags: [record, real-data]
 ---
 

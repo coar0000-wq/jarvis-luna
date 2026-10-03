@@ -2,7 +2,7 @@
 title: "Record dd2dcda6fa · Golden-Moringa-Oil-Shampoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.684977+00:00
+updated_at: 2026-10-03T11:58:58.890255+00:00
 tags: [record, real-data]
 ---
 

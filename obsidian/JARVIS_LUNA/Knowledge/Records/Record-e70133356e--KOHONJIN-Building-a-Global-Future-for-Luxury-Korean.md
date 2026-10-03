@@ -2,7 +2,7 @@
 title: "Record e70133356e · KOHONJIN-Building-a-Global-Future-for-Luxury-Korean-Skincare---The-Wor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.210446+00:00
+updated_at: 2026-10-03T11:58:58.496845+00:00
 tags: [record, real-data]
 ---
 

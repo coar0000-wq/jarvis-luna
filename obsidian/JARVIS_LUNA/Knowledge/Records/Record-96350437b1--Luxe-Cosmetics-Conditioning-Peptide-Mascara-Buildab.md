@@ -2,7 +2,7 @@
 title: "Record 96350437b1 · Luxe-Cosmetics-Conditioning-Peptide-Mascara-Buildable-Volume--Length-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.881033+00:00
+updated_at: 2026-10-03T11:58:59.042818+00:00
 tags: [record, real-data]
 ---
 

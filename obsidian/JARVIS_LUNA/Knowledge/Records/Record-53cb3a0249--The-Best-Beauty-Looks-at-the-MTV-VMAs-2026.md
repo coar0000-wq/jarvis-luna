@@ -2,7 +2,7 @@
 title: "Record 53cb3a0249 · The-Best-Beauty-Looks-at-the-MTV-VMAs-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.706024+00:00
+updated_at: 2026-10-03T11:58:58.907809+00:00
 tags: [record, real-data]
 ---
 

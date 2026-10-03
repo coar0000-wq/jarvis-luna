@@ -2,7 +2,7 @@
 title: "Record 7a14f68470 · AI-Accessibility-Tools-for-Ecommerce-A-Guide-2026---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.814197+00:00
+updated_at: 2026-10-03T11:58:58.178445+00:00
 tags: [record, real-data]
 ---
 

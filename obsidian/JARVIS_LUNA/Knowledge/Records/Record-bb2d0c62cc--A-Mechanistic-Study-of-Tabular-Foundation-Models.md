@@ -2,7 +2,7 @@
 title: "Record bb2d0c62cc · A-Mechanistic-Study-of-Tabular-Foundation-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.156969+00:00
+updated_at: 2026-10-03T11:58:57.631519+00:00
 tags: [record, real-data]
 ---
 

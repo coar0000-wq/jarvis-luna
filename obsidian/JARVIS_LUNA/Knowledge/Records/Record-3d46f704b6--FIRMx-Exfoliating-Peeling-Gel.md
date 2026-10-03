@@ -2,7 +2,7 @@
 title: "Record 3d46f704b6 · FIRMx-Exfoliating-Peeling-Gel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.606537+00:00
+updated_at: 2026-10-03T11:58:59.635216+00:00
 tags: [record, real-data]
 ---
 

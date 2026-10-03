@@ -2,7 +2,7 @@
 title: "Record c431f714b9 · So-What-Exactly-Is-K-Beauty---Coveteur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.749414+00:00
+updated_at: 2026-10-03T11:58:58.121129+00:00
 tags: [record, real-data]
 ---
 

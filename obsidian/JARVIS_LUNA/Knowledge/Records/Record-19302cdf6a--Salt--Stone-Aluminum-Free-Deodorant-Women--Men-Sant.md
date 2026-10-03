@@ -2,7 +2,7 @@
 title: "Record 19302cdf6a · Salt--Stone-Aluminum-Free-Deodorant-Women--Men-Santal--Vetiver-26-oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.184354+00:00
+updated_at: 2026-10-03T11:58:59.283843+00:00
 tags: [record, real-data]
 ---
 

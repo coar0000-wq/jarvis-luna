@@ -2,7 +2,7 @@
 title: "Record 03ebc5db65 · Hydro-Energetic-Soin-Hydratant-Anti-Fatigue-24H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.676183+00:00
+updated_at: 2026-10-03T11:58:58.883110+00:00
 tags: [record, real-data]
 ---
 

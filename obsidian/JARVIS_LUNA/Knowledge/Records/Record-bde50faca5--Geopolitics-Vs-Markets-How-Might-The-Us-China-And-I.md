@@ -2,7 +2,7 @@
 title: "Record bde50faca5 · Geopolitics-Vs-Markets-How-Might-The-Us-China-And-Iran-Reshape-Global-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.417852+00:00
+updated_at: 2026-10-03T11:58:59.486753+00:00
 tags: [record, real-data]
 ---
 

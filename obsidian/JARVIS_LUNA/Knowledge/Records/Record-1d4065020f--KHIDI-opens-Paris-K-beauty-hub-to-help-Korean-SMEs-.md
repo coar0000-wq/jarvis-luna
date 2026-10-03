@@ -2,7 +2,7 @@
 title: "Record 1d4065020f · KHIDI-opens-Paris-K-beauty-hub-to-help-Korean-SMEs-break-into-Europe--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.891918+00:00
+updated_at: 2026-10-03T11:58:58.238202+00:00
 tags: [record, real-data]
 ---
 

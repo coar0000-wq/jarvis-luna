@@ -2,7 +2,7 @@
 title: "Record 306645b46a · Retinol-Youth-Renewal-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.628960+00:00
+updated_at: 2026-10-03T11:58:59.653135+00:00
 tags: [record, real-data]
 ---
 

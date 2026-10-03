@@ -2,7 +2,7 @@
 title: "Record c50feb8b4f · How-LOréal-and-Cosmax-Are-Bringing-K-Beauty-Innovation-into-Global-RD-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.045633+00:00
+updated_at: 2026-10-03T11:58:58.368090+00:00
 tags: [record, real-data]
 ---
 

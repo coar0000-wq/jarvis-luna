@@ -2,7 +2,7 @@
 title: "Record bc6d95abdd · Integration-of-a-Two-Terminal-Memristor-Array-with-a-Vertical-Floating"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.793122+00:00
+updated_at: 2026-10-03T11:58:57.349564+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9fc5ce3bea · On-Efficient-Estimation-of-Distributional-Treatment-Effects-under-Cova"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.035822+00:00
+updated_at: 2026-10-03T11:58:57.541922+00:00
 tags: [record, real-data]
 ---
 

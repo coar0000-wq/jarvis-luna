@@ -2,7 +2,7 @@
 title: "Record 375214cd24 · PTPN22-as-a-novel-therapeutic-target-a-key-intracellular-checkpoint-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.949777+00:00
+updated_at: 2026-10-03T11:58:57.467900+00:00
 tags: [record, real-data]
 ---
 

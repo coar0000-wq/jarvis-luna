@@ -2,7 +2,7 @@
 title: "Record b65d49d0a6 · Selena-Gomez-Has-Me-Seriously-Reconsidering-the-Middle-PartSee-the-Pho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.757434+00:00
+updated_at: 2026-10-03T11:58:58.940721+00:00
 tags: [record, real-data]
 ---
 

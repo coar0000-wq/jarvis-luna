@@ -2,7 +2,7 @@
 title: "Record 23c38a2f1b · 선크림-정량-500원-동전-크기면-충분할까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.688039+00:00
+updated_at: 2026-10-03T11:58:59.700322+00:00
 tags: [record, real-data]
 ---
 

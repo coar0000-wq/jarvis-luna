@@ -2,7 +2,7 @@
 title: "Record 72fce5ecda · Garnier-Micellar-Water-Hydrating-Facial-Cleanser--Makeup-Remover-Suita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.925184+00:00
+updated_at: 2026-10-03T11:58:59.078513+00:00
 tags: [record, real-data]
 ---
 

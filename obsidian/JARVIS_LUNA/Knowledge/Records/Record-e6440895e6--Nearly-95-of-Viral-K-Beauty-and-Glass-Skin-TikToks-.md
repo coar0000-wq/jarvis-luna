@@ -2,7 +2,7 @@
 title: "Record e6440895e6 · Nearly-95-of-Viral-K-Beauty-and-Glass-Skin-TikToks-Mislead---The-Derma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.073308+00:00
+updated_at: 2026-10-03T11:58:58.383769+00:00
 tags: [record, real-data]
 ---
 

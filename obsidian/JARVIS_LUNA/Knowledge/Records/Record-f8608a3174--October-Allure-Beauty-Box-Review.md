@@ -2,7 +2,7 @@
 title: "Record f8608a3174 · October-Allure-Beauty-Box-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.752183+00:00
+updated_at: 2026-10-03T11:58:58.936705+00:00
 tags: [record, real-data]
 ---
 

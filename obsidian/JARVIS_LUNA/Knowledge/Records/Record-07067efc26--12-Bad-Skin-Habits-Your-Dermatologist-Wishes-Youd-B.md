@@ -2,7 +2,7 @@
 title: "Record 07067efc26 · 12-Bad-Skin-Habits-Your-Dermatologist-Wishes-Youd-Break"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.705662+00:00
+updated_at: 2026-10-03T11:58:58.907482+00:00
 tags: [record, real-data]
 ---
 

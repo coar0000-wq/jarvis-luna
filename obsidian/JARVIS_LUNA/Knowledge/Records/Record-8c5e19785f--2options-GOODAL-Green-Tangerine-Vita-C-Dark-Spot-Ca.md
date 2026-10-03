@@ -2,7 +2,7 @@
 title: "Record 8c5e19785f · 2options-GOODAL-Green-Tangerine-Vita-C-Dark-Spot-Care-Pad-Refill-Set-7"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.587875+00:00
+updated_at: 2026-10-03T11:58:58.808142+00:00
 tags: [record, real-data]
 ---
 

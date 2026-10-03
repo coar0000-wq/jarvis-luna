@@ -2,7 +2,7 @@
 title: "Record 1c0d4878bd · VLA-ULAP-Interleaving-Cloud-VLA-Calls-with-Ultra-Lightweight-Local-Act"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.525480+00:00
+updated_at: 2026-10-03T11:58:57.129955+00:00
 tags: [record, real-data]
 ---
 

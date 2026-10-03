@@ -2,7 +2,7 @@
 title: "Record e66911f63d · First-evaluation-of-wearable-radiation-protection-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:29.941779+00:00
+updated_at: 2026-10-03T11:58:57.463121+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 9a0328c1a7 · 6colors-romnd-Better-Than-Palette"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:31.600238+00:00
+updated_at: 2026-10-03T11:58:58.818292+00:00
 tags: [record, real-data]
 ---
 

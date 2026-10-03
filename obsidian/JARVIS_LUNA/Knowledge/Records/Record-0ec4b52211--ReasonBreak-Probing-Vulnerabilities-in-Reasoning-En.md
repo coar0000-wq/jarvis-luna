@@ -2,7 +2,7 @@
 title: "Record 0ec4b52211 · ReasonBreak-Probing-Vulnerabilities-in-Reasoning-Enabled-Vision-Langua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:30.160931+00:00
+updated_at: 2026-10-03T11:58:57.634184+00:00
 tags: [record, real-data]
 ---
 

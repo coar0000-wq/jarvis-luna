@@ -2,7 +2,7 @@
 title: "Record 706b27628e · In-Capital-Markets-the-Buy-Side-Runs-on-NAV-Finance-Protects-the-Fee"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:55:32.337288+00:00
+updated_at: 2026-10-03T11:58:59.427495+00:00
 tags: [record, real-data]
 ---
 
