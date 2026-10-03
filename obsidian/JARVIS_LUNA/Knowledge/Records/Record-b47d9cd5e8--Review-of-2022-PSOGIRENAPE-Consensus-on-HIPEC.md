@@ -2,7 +2,7 @@
 title: "Record b47d9cd5e8 · Review-of-2022-PSOGIRENAPE-Consensus-on-HIPEC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.351466+00:00
+updated_at: 2026-10-03T05:41:29.321418+00:00
 tags: [record, real-data]
 ---
 

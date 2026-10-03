@@ -2,7 +2,7 @@
 title: "Record 8978f91616 · Us-Jobs-Report"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.984158+00:00
+updated_at: 2026-10-03T05:41:31.936263+00:00
 tags: [record, real-data]
 ---
 

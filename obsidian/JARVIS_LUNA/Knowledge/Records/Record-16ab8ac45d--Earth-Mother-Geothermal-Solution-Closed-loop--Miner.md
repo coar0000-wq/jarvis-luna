@@ -2,7 +2,7 @@
 title: "Record 16ab8ac45d · Earth-Mother-Geothermal-Solution-Closed-loop--Miner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.198770+00:00
+updated_at: 2026-10-03T05:41:30.172455+00:00
 tags: [record, real-data]
 ---
 

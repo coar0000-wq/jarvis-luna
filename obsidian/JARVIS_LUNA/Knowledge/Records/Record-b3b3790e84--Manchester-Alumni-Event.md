@@ -2,7 +2,7 @@
 title: "Record b3b3790e84 · Manchester-Alumni-Event"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.932395+00:00
+updated_at: 2026-10-03T05:41:31.887057+00:00
 tags: [record, real-data]
 ---
 

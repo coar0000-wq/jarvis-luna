@@ -2,7 +2,7 @@
 title: "Record a23743e3b0 · IceCube-Takes-Flight-with-Pelican---A-First-Experience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.056742+00:00
+updated_at: 2026-10-03T05:41:30.027607+00:00
 tags: [record, real-data]
 ---
 

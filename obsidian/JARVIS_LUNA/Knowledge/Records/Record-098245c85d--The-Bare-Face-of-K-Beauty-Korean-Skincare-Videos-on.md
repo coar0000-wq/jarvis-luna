@@ -2,7 +2,7 @@
 title: "Record 098245c85d · The-Bare-Face-of-K-Beauty-Korean-Skincare-Videos-on-Social-Media-Are-D"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.660086+00:00
+updated_at: 2026-10-03T05:41:30.636762+00:00
 tags: [record, real-data]
 ---
 

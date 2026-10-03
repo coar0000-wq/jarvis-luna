@@ -2,7 +2,7 @@
 title: "Record 71ac755c78 · Primitive-Geometry-and-the-Constants-π-c-and-h-A-Minimal-Ontology-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.181694+00:00
+updated_at: 2026-10-03T05:41:30.154417+00:00
 tags: [record, real-data]
 ---
 

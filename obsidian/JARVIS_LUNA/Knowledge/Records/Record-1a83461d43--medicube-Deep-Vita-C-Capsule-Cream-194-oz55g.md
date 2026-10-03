@@ -2,7 +2,7 @@
 title: "Record 1a83461d43 · medicube-Deep-Vita-C-Capsule-Cream-194-oz55g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.228358+00:00
+updated_at: 2026-10-03T05:41:31.199035+00:00
 tags: [record, real-data]
 ---
 

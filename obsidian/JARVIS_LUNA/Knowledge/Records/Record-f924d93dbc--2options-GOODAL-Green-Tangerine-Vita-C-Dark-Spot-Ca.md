@@ -2,7 +2,7 @@
 title: "Record f924d93dbc · 2options-GOODAL-Green-Tangerine-Vita-C-Dark-Spot-Care-Cream-Alpha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.159152+00:00
+updated_at: 2026-10-03T05:41:31.129106+00:00
 tags: [record, real-data]
 ---
 

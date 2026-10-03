@@ -2,7 +2,7 @@
 title: "Record dc64228fb8 · Cantu-Shea-Butter-Leave-In-Conditioning-Repair-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.244116+00:00
+updated_at: 2026-10-03T05:41:31.214892+00:00
 tags: [record, real-data]
 ---
 

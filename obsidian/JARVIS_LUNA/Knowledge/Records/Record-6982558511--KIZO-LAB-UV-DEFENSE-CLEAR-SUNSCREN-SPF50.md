@@ -2,7 +2,7 @@
 title: "Record 6982558511 · KIZO-LAB-UV-DEFENSE-CLEAR-SUNSCREN-SPF50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:13.925485+00:00
+updated_at: 2026-10-03T05:41:28.867716+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 452d71e550 · SpatialCORE-Confidence-Aware-Grounded-Spatial-Reasoning-in-Large-Visio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.116742+00:00
+updated_at: 2026-10-03T05:41:30.086534+00:00
 tags: [record, real-data]
 ---
 

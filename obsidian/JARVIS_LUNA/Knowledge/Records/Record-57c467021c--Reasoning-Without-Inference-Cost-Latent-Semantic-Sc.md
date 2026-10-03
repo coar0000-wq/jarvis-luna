@@ -2,7 +2,7 @@
 title: "Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Sc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:13.993159+00:00
+updated_at: 2026-10-03T05:41:28.939144+00:00
 tags: [record, real-data]
 ---
 

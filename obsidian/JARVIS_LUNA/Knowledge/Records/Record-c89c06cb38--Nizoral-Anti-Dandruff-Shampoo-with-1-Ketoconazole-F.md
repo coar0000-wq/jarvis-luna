@@ -2,7 +2,7 @@
 title: "Record c89c06cb38 · Nizoral-Anti-Dandruff-Shampoo-with-1-Ketoconazole-Fresh-Scent-7-Fl-Oz-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.607923+00:00
+updated_at: 2026-10-03T05:41:31.578057+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c2a52ef0d4 · PanOxyl-Acne-Foaming-Wash-10-Benzoyl-Peroxide-For-Face--Body-55-oz--Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.670895+00:00
+updated_at: 2026-10-03T05:41:31.640099+00:00
 tags: [record, real-data]
 ---
 

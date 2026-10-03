@@ -2,7 +2,7 @@
 title: "Record 567098ae41 · Native-Deodorant-Contains-Naturally-Derived-Ingredients-72-Hour-Odor-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.589579+00:00
+updated_at: 2026-10-03T05:41:31.560262+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 01c5d26151 · 5-Minoxidil-Spray-for-Women-Hair-Growth-Extra-Strength-Hair-Regrowth-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.574326+00:00
+updated_at: 2026-10-03T05:41:31.545210+00:00
 tags: [record, real-data]
 ---
 

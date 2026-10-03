@@ -2,7 +2,7 @@
 title: "Record 13d0773b12 · Inertial-Dynamical-Switching-in-Ferroics-A-Unified-Path-to-Nanosecond-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.168374+00:00
+updated_at: 2026-10-03T05:41:30.140387+00:00
 tags: [record, real-data]
 ---
 

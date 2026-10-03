@@ -2,7 +2,7 @@
 title: "Record 708ac78c56 · A-Generalizable-and-Explainable-Framework-for-Synthetic-Video-Detectio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.134197+00:00
+updated_at: 2026-10-03T05:41:30.104719+00:00
 tags: [record, real-data]
 ---
 

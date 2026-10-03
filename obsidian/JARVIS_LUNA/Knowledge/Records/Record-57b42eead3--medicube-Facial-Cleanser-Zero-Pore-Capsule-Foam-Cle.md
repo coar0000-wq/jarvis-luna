@@ -2,7 +2,7 @@
 title: "Record 57b42eead3 · medicube-Facial-Cleanser-Zero-Pore-Capsule-Foam-Cleanser--Daily-Gentle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.821007+00:00
+updated_at: 2026-10-03T05:41:31.782890+00:00
 tags: [record, real-data]
 ---
 

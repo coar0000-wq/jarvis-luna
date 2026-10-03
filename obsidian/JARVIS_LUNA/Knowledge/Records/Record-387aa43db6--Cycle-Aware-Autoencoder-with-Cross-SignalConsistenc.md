@@ -2,7 +2,7 @@
 title: "Record 387aa43db6 · Cycle-Aware-Autoencoder-with-Cross-SignalConsistency-for-Railway-Door-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.123264+00:00
+updated_at: 2026-10-03T05:41:30.093394+00:00
 tags: [record, real-data]
 ---
 

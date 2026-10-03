@@ -2,7 +2,7 @@
 title: "Record 18c455512d · All-About-Eyes-Eye-Cream-with-Vitamin-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.150390+00:00
+updated_at: 2026-10-03T05:41:32.106684+00:00
 tags: [record, real-data]
 ---
 

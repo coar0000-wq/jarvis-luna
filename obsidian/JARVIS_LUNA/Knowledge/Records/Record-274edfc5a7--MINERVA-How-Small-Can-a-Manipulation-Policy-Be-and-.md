@@ -2,7 +2,7 @@
 title: "Record 274edfc5a7 · MINERVA-How-Small-Can-a-Manipulation-Policy-Be-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:13.964632+00:00
+updated_at: 2026-10-03T05:41:28.909583+00:00
 tags: [record, real-data]
 ---
 

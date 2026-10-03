@@ -2,7 +2,7 @@
 title: "Record c2bdee91b7 · Lacto-PDRN-4--B9-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.172275+00:00
+updated_at: 2026-10-03T05:41:32.128191+00:00
 tags: [record, real-data]
 ---
 

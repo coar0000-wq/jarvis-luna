@@ -2,7 +2,7 @@
 title: "Record 20b0450c80 · Your-Robots-Safety-Functions-Already-Work-What-If-the-Input-Lies"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.144694+00:00
+updated_at: 2026-10-03T05:41:32.100982+00:00
 tags: [record, real-data]
 ---
 

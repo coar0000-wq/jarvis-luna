@@ -2,7 +2,7 @@
 title: "Record 4bb19984ed · Why-Does-Birthday-Makeup-Make-the-Internet-So-Mad--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.677244+00:00
+updated_at: 2026-10-03T05:41:30.653792+00:00
 tags: [record, real-data]
 ---
 

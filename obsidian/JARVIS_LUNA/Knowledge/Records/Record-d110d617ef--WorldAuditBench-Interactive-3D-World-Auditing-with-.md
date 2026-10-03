@@ -2,7 +2,7 @@
 title: "Record d110d617ef · WorldAuditBench-Interactive-3D-World-Auditing-with-Multimodal-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.138083+00:00
+updated_at: 2026-10-03T05:41:30.108684+00:00
 tags: [record, real-data]
 ---
 

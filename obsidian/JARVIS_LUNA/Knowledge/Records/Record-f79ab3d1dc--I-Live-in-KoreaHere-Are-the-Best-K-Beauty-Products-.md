@@ -2,7 +2,7 @@
 title: "Record f79ab3d1dc · I-Live-in-KoreaHere-Are-the-Best-K-Beauty-Products-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.833540+00:00
+updated_at: 2026-10-03T05:41:30.808158+00:00
 tags: [record, real-data]
 ---
 

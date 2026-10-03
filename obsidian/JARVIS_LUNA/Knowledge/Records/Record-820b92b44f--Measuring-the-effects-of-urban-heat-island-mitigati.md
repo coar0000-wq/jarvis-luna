@@ -2,7 +2,7 @@
 title: "Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.437985+00:00
+updated_at: 2026-10-03T05:41:29.411912+00:00
 tags: [record, real-data]
 ---
 

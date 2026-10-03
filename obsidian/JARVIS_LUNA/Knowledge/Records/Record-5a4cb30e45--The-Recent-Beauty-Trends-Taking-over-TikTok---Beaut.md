@@ -2,7 +2,7 @@
 title: "Record 5a4cb30e45 · The-Recent-Beauty-Trends-Taking-over-TikTok---Beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.627533+00:00
+updated_at: 2026-10-03T05:41:30.604787+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxOTFc4Zzc0QmZXODVDS3ZTbUFKaVZsSHNQeGM2VVpHbzJjRTZRODdXZVVfeTBJdEo4RXJ4UjhiOHkxc21BZEJ2Z2VNdG1hVS11dzlzWXY3NHczaVN2UDBJZWdxems2ZERBQkJrVmM2U3VWbjM5SG1fQjEyU3RTZXhPZGhhT3A?oc=5)
 
-**제목:** The Recent Beauty Trends Taking over TikTok - BeautyMatter
+**제목:** The Recent Beauty Trends Taking over TikTok - beautymatter.com
 
-The Recent Beauty Trends Taking over TikTok - BeautyMatter
+The Recent Beauty Trends Taking over TikTok - beautymatter.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record 31593d3617 · FaceLove-Color-Changing-Foundation-Stick-Korean-Makeup-for-Mature-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.483811+00:00
+updated_at: 2026-10-03T05:41:31.458246+00:00
 tags: [record, real-data]
 ---
 

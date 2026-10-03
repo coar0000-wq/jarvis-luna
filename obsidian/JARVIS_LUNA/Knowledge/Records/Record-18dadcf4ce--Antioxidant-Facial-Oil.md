@@ -2,7 +2,7 @@
 title: "Record 18dadcf4ce · Antioxidant-Facial-Oil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.993817+00:00
+updated_at: 2026-10-03T05:41:31.945888+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record e4d76bfe79 · Plans-Dont-Persist-Why-Context-Management-Is-Load-Bearing-for-LLM-Agen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.818850+00:00
+updated_at: 2026-10-03T05:41:29.790126+00:00
 tags: [record, real-data]
 ---
 

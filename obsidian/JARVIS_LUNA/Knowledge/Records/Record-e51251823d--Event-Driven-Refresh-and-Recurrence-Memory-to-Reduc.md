@@ -2,7 +2,7 @@
 title: "Record e51251823d · Event-Driven-Refresh-and-Recurrence-Memory-to-Reduce-Stale-Grounding-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.118011+00:00
+updated_at: 2026-10-03T05:41:30.088006+00:00
 tags: [record, real-data]
 ---
 

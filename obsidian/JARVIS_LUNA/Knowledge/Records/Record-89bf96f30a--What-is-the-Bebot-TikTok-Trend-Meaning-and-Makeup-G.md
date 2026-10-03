@@ -2,7 +2,7 @@
 title: "Record 89bf96f30a · What-is-the-Bebot-TikTok-Trend-Meaning-and-Makeup-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.850408+00:00
+updated_at: 2026-10-03T05:41:30.824662+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 146e885436 · SenseFuse-Label-Free-Fusion-of-Image-and-Shape-Encoders-for-Open-Vocab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.208449+00:00
+updated_at: 2026-10-03T05:41:29.168997+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 7f82d995c5 · How-Fyxer-built-an-AI-executive-assistant-people-trust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.962925+00:00
+updated_at: 2026-10-03T05:41:30.936600+00:00
 tags: [record, real-data]
 ---
 

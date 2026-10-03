@@ -2,7 +2,7 @@
 title: "Record 0af4645ba3 · Eli-Lilly-Purdue-to-share-field-learnings-on-human-robot-interaction-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.098371+00:00
+updated_at: 2026-10-03T05:41:32.050410+00:00
 tags: [record, real-data]
 ---
 

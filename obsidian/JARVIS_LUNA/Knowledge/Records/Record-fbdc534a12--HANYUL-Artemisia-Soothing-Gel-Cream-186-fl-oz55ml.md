@@ -2,7 +2,7 @@
 title: "Record fbdc534a12 · HANYUL-Artemisia-Soothing-Gel-Cream-186-fl-oz55ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.232349+00:00
+updated_at: 2026-10-03T05:41:31.202983+00:00
 tags: [record, real-data]
 ---
 

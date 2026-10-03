@@ -2,7 +2,7 @@
 title: "Record 07eee8782f · CeraVe-Super-Boost-Anti-Aging-Serum-with-Peptides--Hyaluronic-Acid--Fa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.412655+00:00
+updated_at: 2026-10-03T05:41:31.388243+00:00
 tags: [record, real-data]
 ---
 

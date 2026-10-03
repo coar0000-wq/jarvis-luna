@@ -2,7 +2,7 @@
 title: "Record 20f50c81b8 · One-Step-Gentle-Exfoliating-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.180427+00:00
+updated_at: 2026-10-03T05:41:32.136317+00:00
 tags: [record, real-data]
 ---
 

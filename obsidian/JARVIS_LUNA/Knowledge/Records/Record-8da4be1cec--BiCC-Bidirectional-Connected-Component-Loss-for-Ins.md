@@ -2,7 +2,7 @@
 title: "Record 8da4be1cec · BiCC-Bidirectional-Connected-Component-Loss-for-Instance-Aware-Segment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.034821+00:00
+updated_at: 2026-10-03T05:41:30.005948+00:00
 tags: [record, real-data]
 ---
 

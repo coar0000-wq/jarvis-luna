@@ -2,7 +2,7 @@
 title: "Record 0abde46932 · Controlled-carbon-dioxide-enrichment-using-beer-fermentation-off-gas-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.644423+00:00
+updated_at: 2026-10-03T05:41:29.611684+00:00
 tags: [record, real-data]
 ---
 

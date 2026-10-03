@@ -2,7 +2,7 @@
 title: "Record 6ca142d80a · Color-Changing-Foundation--Skin-Tone-Adapting-Liquid-Foundation-for-Wo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.436119+00:00
+updated_at: 2026-10-03T05:41:31.411162+00:00
 tags: [record, real-data]
 ---
 

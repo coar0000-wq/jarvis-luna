@@ -2,7 +2,7 @@
 title: "Record 0ac3e39bcc · Social-Commerce-K-Beauty-DrG-Expands-US-Skincare-Sales-Through-TikTok-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.452928+00:00
+updated_at: 2026-10-03T05:41:30.432960+00:00
 tags: [record, real-data]
 ---
 

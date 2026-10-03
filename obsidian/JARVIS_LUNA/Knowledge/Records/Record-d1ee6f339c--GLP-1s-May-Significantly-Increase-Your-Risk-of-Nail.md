@@ -2,7 +2,7 @@
 title: "Record d1ee6f339c · GLP-1s-May-Significantly-Increase-Your-Risk-of-Nail-Detachment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.305897+00:00
+updated_at: 2026-10-03T05:41:31.282575+00:00
 tags: [record, real-data]
 ---
 

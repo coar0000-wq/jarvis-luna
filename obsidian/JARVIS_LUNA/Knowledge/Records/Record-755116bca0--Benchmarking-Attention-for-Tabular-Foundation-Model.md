@@ -2,7 +2,7 @@
 title: "Record 755116bca0 · Benchmarking-Attention-for-Tabular-Foundation-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.050926+00:00
+updated_at: 2026-10-03T05:41:30.021910+00:00
 tags: [record, real-data]
 ---
 

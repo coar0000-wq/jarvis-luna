@@ -2,7 +2,7 @@
 title: "Record 6aa56a5b7a · Runway-introduces-Praxis-1-world-action-model-for-robotics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.130317+00:00
+updated_at: 2026-10-03T05:41:32.085796+00:00
 tags: [record, real-data]
 ---
 

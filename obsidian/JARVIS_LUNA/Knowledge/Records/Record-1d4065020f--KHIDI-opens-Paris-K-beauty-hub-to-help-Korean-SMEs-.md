@@ -2,7 +2,7 @@
 title: "Record 1d4065020f · KHIDI-opens-Paris-K-beauty-hub-to-help-Korean-SMEs-break-into-Europe--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.502937+00:00
+updated_at: 2026-10-03T05:41:30.481418+00:00
 tags: [record, real-data]
 ---
 
@@ -13,10 +13,9 @@ tags: [record, real-data]
 **제목:** KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review
 
 KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review
-KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review
 
-**출처:** Source · us_beauty
+**출처:** Source · Google Search
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]
+[[Source--Google-Search]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

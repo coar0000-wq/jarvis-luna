@@ -2,7 +2,7 @@
 title: "Record f2261c82e3 · Effaclar-Purifying-Foaming-Gel-Cleanser-for-Oily-Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.249135+00:00
+updated_at: 2026-10-03T05:41:31.220113+00:00
 tags: [record, real-data]
 ---
 

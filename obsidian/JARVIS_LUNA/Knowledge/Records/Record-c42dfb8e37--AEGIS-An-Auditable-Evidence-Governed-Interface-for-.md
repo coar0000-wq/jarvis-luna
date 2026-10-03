@@ -2,7 +2,7 @@
 title: "Record c42dfb8e37 · AEGIS-An-Auditable-Evidence-Governed-Interface-for-Cost-Aware-AI-Harne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.053324+00:00
+updated_at: 2026-10-03T05:41:31.025112+00:00
 tags: [record, real-data]
 ---
 

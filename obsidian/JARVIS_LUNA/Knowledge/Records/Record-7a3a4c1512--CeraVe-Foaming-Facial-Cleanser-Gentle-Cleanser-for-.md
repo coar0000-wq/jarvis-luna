@@ -2,7 +2,7 @@
 title: "Record 7a3a4c1512 · CeraVe-Foaming-Facial-Cleanser-Gentle-Cleanser-for-Oily-Skin-16fl-oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.397042+00:00
+updated_at: 2026-10-03T05:41:31.372860+00:00
 tags: [record, real-data]
 ---
 

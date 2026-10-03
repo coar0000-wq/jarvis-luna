@@ -2,7 +2,7 @@
 title: "Record 30f7f74532 · Organize-then-Retrieve-Hierarchical-Memory-Navigation-for-Efficient-Ag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.813691+00:00
+updated_at: 2026-10-03T05:41:29.785065+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6ecf61806d · Virtual-Reality-Simulation-for-Assessment-of-Hemorr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.446504+00:00
+updated_at: 2026-10-03T05:41:29.418227+00:00
 tags: [record, real-data]
 ---
 

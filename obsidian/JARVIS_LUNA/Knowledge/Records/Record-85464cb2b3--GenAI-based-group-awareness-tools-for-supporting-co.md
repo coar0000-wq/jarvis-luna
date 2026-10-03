@@ -2,7 +2,7 @@
 title: "Record 85464cb2b3 · GenAI-based-group-awareness-tools-for-supporting-collaborative-learnin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.505735+00:00
+updated_at: 2026-10-03T05:41:29.475481+00:00
 tags: [record, real-data]
 ---
 

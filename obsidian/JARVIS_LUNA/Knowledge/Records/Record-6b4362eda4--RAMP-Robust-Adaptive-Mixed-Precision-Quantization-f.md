@@ -2,7 +2,7 @@
 title: "Record 6b4362eda4 · RAMP-Robust-Adaptive-Mixed-Precision-Quantization-for-Edge-CPU-Vision-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:14.257810+00:00
+updated_at: 2026-10-03T05:41:29.222100+00:00
 tags: [record, real-data]
 ---
 

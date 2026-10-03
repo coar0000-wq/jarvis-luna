@@ -2,7 +2,7 @@
 title: "Record 33ad23b0ba · CHA-Bio-FCs-EVERCELL-launches-probiotic-exosome-PDRN-hydrogel-mask---K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.498559+00:00
+updated_at: 2026-10-03T05:41:30.477285+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c41288f746 · These-Beauty-Advent-Calendars-Make-Holiday-Shopping-a-No-Brainer---Har"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.709822+00:00
+updated_at: 2026-10-03T05:41:30.685537+00:00
 tags: [record, real-data]
 ---
 
@@ -13,9 +13,10 @@ tags: [record, real-data]
 **제목:** These Beauty Advent Calendars Make Holiday Shopping a No-Brainer - Harper's BAZAAR
 
 These Beauty Advent Calendars Make Holiday Shopping a No-Brainer - Harper's BAZAAR
+These Beauty Advent Calendars Make Holiday Shopping a No-Brainer - Harper's BAZAAR
 
-**출처:** Source · Google Search
+**출처:** Source · us_beauty
 
 ## Connected nodes
 
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

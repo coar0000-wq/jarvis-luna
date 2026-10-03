@@ -2,7 +2,7 @@
 title: "기관 · OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:18.532277+00:00
+updated_at: 2026-10-03T05:41:33.490722+00:00
 tags: [org, real-data]
 ---
 

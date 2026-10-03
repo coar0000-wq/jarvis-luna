@@ -2,7 +2,7 @@
 title: "Record c16778b97a · Advanced-PDRN-Blue-Capsuled-Copper-Peptide-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.148833+00:00
+updated_at: 2026-10-03T05:41:32.105198+00:00
 tags: [record, real-data]
 ---
 

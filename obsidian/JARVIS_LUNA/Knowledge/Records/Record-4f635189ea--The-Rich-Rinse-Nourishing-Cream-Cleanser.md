@@ -2,7 +2,7 @@
 title: "Record 4f635189ea · The-Rich-Rinse-Nourishing-Cream-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.187898+00:00
+updated_at: 2026-10-03T05:41:32.143508+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4c8822cd8a · This-massive-Korean-beauty-pop-up-is-giving-away-300-gift-bags-in-NYC-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.867714+00:00
+updated_at: 2026-10-03T05:41:30.841966+00:00
 tags: [record, real-data]
 ---
 

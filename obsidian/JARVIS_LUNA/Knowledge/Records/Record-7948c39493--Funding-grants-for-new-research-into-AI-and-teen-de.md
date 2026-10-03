@@ -2,7 +2,7 @@
 title: "Record 7948c39493 · Funding-grants-for-new-research-into-AI-and-teen-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.989656+00:00
+updated_at: 2026-10-03T05:41:30.961545+00:00
 tags: [record, real-data]
 ---
 

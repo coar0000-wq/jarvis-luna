@@ -2,7 +2,7 @@
 title: "Record 751d6a346c · IronLLM-Forging-Compact-Edge-Native-Language-Models-for-Real-Time-Embo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.096569+00:00
+updated_at: 2026-10-03T05:41:30.066900+00:00
 tags: [record, real-data]
 ---
 

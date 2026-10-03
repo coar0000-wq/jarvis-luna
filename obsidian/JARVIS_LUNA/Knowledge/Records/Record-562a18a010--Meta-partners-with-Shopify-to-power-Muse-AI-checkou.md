@@ -2,7 +2,7 @@
 title: "Record 562a18a010 · Meta-partners-with-Shopify-to-power-Muse-AI-checkout---The-Paypers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:15.785801+00:00
+updated_at: 2026-10-03T05:41:30.761067+00:00
 tags: [record, real-data]
 ---
 

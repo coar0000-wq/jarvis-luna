@@ -2,7 +2,7 @@
 title: "Record 0367426e9d · Brow-Harmony-Flexible-Lifting-and-Laminating-Eyebro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:17.075460+00:00
+updated_at: 2026-10-03T05:41:32.030507+00:00
 tags: [record, real-data]
 ---
 

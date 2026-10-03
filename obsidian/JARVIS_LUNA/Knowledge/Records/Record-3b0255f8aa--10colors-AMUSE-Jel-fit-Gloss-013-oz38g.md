@@ -2,7 +2,7 @@
 title: "Record 3b0255f8aa · 10colors-AMUSE-Jel-fit-Gloss-013-oz38g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:16.165470+00:00
+updated_at: 2026-10-03T05:41:31.135163+00:00
 tags: [record, real-data]
 ---
 

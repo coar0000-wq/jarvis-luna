@@ -2,7 +2,7 @@
 title: "Record 8fe4206235 · Replenix-Gly-Sal-10-2-cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:34:13.927459+00:00
+updated_at: 2026-10-03T05:41:28.869688+00:00
 tags: [record, real-data]
 ---
 
