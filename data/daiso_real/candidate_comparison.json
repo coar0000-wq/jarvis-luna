@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T00:46:32.922088+00:00",
+  "purpose": "comparison_only",
+  "paid_api_called": false,
+  "may_replace_operating_products": false,
+  "may_publish": false,
+  "approval_required": true,
+  "candidate_count": 1,
+  "proposal_count": 0,
+  "operating_product_count": 356,
+  "operating_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+  "candidate_pool_digest": "67374dd350bb21b5bd3a90db61ace2908e2b9c12dd5d2db5a2aaa8951738a7c5",
+  "market_evidence": [
+    {
+      "channel": "amazon_best_sellers",
+      "collected_at": "2026-10-03T00:00:16.477735+00:00",
+      "count": 46,
+      "trust": "verified"
+    },
+    {
+      "channel": "oliveyoung_us",
+      "collected_at": "2026-10-02T21:50:07.995504+00:00",
+      "count": 60,
+      "trust": "verified"
+    },
+    {
+      "channel": "sokoglam_us",
+      "collected_at": "2026-10-03T00:00:20.822959+00:00",
+      "count": 60,
+      "trust": "verified"
+    },
+    {
+      "channel": "amazon_new_beauty",
+      "collected_at": "2026-10-03T00:00:16.479473+00:00",
+      "count": 46,
+      "trust": "verified"
+    },
+    {
+      "channel": "ulta_beauty",
+      "collected_at": "2026-10-03T00:00:16.480361+00:00",
+      "count": 60,
+      "trust": "verified"
+    },
+    {
+      "channel": "sephora",
+      "collected_at": "2026-10-03T00:00:16.480361+00:00",
+      "count": 14,
+      "trust": "verified"
+    }
+  ],
+  "excluded_market_sources": {
+    "walmart_beauty": "unverified_or_stale_source",
+    "amazon_movers_beauty": "unverified_or_stale_source",
+    "tiktok_shop_us": "unverified_or_stale_source"
+  },
+  "scoring_note": "Same deterministic demand rules, fresh verified per-item sources only. Comparison grades never change operating grades.",
+  "items": [
+    {
+      "pd_no": "1066897",
+      "name": "[촉촉윤광]퍼피 촉촉쿠션 통퍼프",
+      "bucket": "메이크업",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/QyXiFjX4KFzV0U4Qs5vI1066897_00_00QyXiFjX4KFzV0U4Qs5vI.jpg",
+      "collected_at": "2026-10-03T00:45:29.985817+00:00",
+      "score": {
+        "pd_no": "1066897",
+        "name": "[촉촉윤광]퍼피 촉촉쿠션 통퍼프",
+        "bucket": "메이크업",
+        "rebucketed": false,
+        "price_krw": 1000,
+        "rating": 0.0,
+        "review_count": 0,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/QyXiFjX4KFzV0U4Qs5vI1066897_00_00QyXiFjX4KFzV0U4Qs5vI.jpg",
+        "shopify_score": 26,
+        "grade": "C",
+        "s_rule": "sold_out",
+        "us_market_hits": 0,
+        "us_median_price_usd": 0.0,
+        "score_breakdown": {
+          "category": 19.0,
+          "rating": 0.0,
+          "reviews": 0.0,
+          "price": 7.0,
+          "keyword": 0,
+          "us_market_fit": 0.0,
+          "rebucket_note": "",
+          "global_similarity_reference_only": 0,
+          "penalty": 0,
+          "us_block_kind": "",
+          "us_block_reason": "",
+          "max_possible": 100
+        },
+        "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+        "best_global_match": null,
+        "global_matches": [],
+        "recommend_reason": "메이크업 카테고리 (글로벌 시그널 약함)"
+      },
+      "comparison_status": "review_only",
+      "comparison_blockers": [
+        "sold_out",
+        "verified_market_match_missing",
+        "score_advantage_below_5"
+      ],
+      "comparable_product": {
+        "pd_no": "1064565",
+        "name": "EVA 뒷굽 쿠션 슬리퍼 270 mm",
+        "score": 53,
+        "grade": "C"
+      },
+      "replacement_proposal": null,
+      "approval_required": true,
+      "may_replace": false,
+      "may_publish": false
+    }
+  ]
+}

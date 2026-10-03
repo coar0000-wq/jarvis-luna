@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "observations": {
+    "1066897": {
+      "status": "accepted",
+      "at": "2026-10-03T00:45:29.985817+00:00",
+      "reason": "",
+      "execution_id": "37083305299:1:collect"
+    },
+    "B202604016079": {
+      "status": "not_beauty",
+      "at": "2026-10-03T00:46:32.744643+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "37083305299:1:collect"
+    },
+    "1018166": {
+      "status": "not_beauty",
+      "at": "2026-10-03T00:46:32.744671+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "37083305299:1:collect"
+    },
+    "1067497": {
+      "status": "not_beauty",
+      "at": "2026-10-03T00:46:32.744685+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "37083305299:1:collect"
+    }
+  },
+  "generated_at": "2026-10-03T00:46:32.744685+00:00"
+}

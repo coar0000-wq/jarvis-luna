@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T00:05:25.597603+00:00",
+  "generated_at": "2026-10-03T00:46:36.738878+00:00",
   "overall_status": "warning",
   "status_legend": {
     "success": "정상",
@@ -9,36 +9,39 @@
     "failed": "예외 - 자동화 장애"
   },
   "kpi": {
-    "last_success": "2026-10-02T22:20:06Z",
+    "last_success": "2026-10-03T00:05:39Z",
     "last_success_source": "github_actions_snapshot",
-    "collection_last_attempt": "2026-10-03T00:05:21.675399+00:00",
+    "collection_last_attempt": "2026-10-03T00:46:32.753823+00:00",
     "collection_last_success": "2026-09-29T00:48:58.284474+00:00",
+    "candidate_last_success": "2026-10-03T00:46:32.753823+00:00",
+    "candidate_new_this_attempt": 1,
+    "candidate_rechecked_this_attempt": 0,
     "failed_jobs": 0,
     "failed_checks": 0,
-    "actions_observed_at": "2026-10-03T00:05:25.511981Z",
+    "actions_observed_at": "2026-10-03T00:46:36.673335Z",
     "actions_observation_fresh": true,
     "queue": 2881,
     "stale_source": "marketing",
     "freshness_summary": {
-      "product_master": "1.5 hours ago",
-      "legal_full": "1.5 hours ago",
-      "shopify_sync": "1.5 hours ago",
-      "pricing": "1.7 hours ago",
-      "marketing": "1.5 hours ago",
+      "product_master": "2.2 hours ago",
+      "legal_full": "2.2 hours ago",
+      "shopify_sync": "2.2 hours ago",
+      "pricing": "2.4 hours ago",
+      "marketing": "2.2 hours ago",
       "daiso": "just now",
-      "deep_heartbeat": "2.1 hours ago",
+      "deep_heartbeat": "2.7 hours ago",
       "actions_monitor": "just now",
-      "gosi": "6.5 hours ago",
-      "product_discovery": "2.1 hours ago"
+      "gosi": "7.2 hours ago",
+      "product_discovery": "2.8 hours ago"
     }
   },
   "summary": {
-    "success": 6,
-    "warning": 3,
+    "success": 7,
+    "warning": 2,
     "waiting": 1,
     "degraded": 0,
     "failed": 0,
-    "no_change": 1,
+    "no_change": 0,
     "real_failures": 0
   },
   "checks": [
@@ -48,7 +51,7 @@
       "reason": "운영 상품 356개, CP 357개, S 10개",
       "count": 356,
       "s_count": 10,
-      "freshness": "1.5 hours ago",
+      "freshness": "2.2 hours ago",
       "is_failure": false
     },
     {
@@ -57,41 +60,46 @@
       "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
-      "freshness": "1.5 hours ago"
+      "freshness": "2.2 hours ago"
     },
     {
       "team": "shopify_sync",
       "status": "success",
       "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "1.5 hours ago"
+      "freshness": "2.2 hours ago"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "1.7 hours ago"
+      "freshness": "2.4 hours ago"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
       "is_failure": false,
-      "freshness": "1.5 hours ago"
+      "freshness": "2.2 hours ago"
     },
     {
       "team": "daiso",
-      "status": "warning",
-      "reason": "수집 정상 완료: 새 상품 없음 · 새 상품 성공 데이터 오래됨 또는 검증 불가",
-      "last_attempt_at": "2026-10-03T00:05:21.675399+00:00",
+      "status": "success",
+      "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-      "last_attempt_status": "no_change",
+      "last_attempt_status": "candidates_collected",
+      "is_candidate_collection": true,
+      "candidates_new": 1,
+      "candidates_updated": 0,
+      "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
+      "candidate_success_age_hours": 0.001,
       "attempt_age_hours": 0.001,
-      "success_age_hours": 95.274,
+      "success_age_hours": 95.961,
       "data_stale": true,
       "attempt_stale": false,
-      "is_no_change": true,
+      "is_no_change": false,
       "is_failure": false,
       "freshness": "just now"
     },
@@ -100,34 +108,34 @@
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-02T22:02:11.616683+00:00",
-      "age_hours": 2.054,
+      "age_hours": 2.74,
       "next_expected_at": "2026-10-03T00:02:11.616683+00:00",
       "grace_deadline_at": "2026-10-03T02:32:11.616683+00:00",
       "is_failure": false,
       "delayed": false,
-      "freshness": "2.1 hours ago"
+      "freshness": "2.7 hours ago"
     },
     {
       "team": "actions_monitor",
       "status": "warning",
       "reason": "GitHub Actions 관측: 5/5개 · 실패 0",
       "is_failure": false,
-      "observed_at": "2026-10-03T00:05:25.511981Z",
+      "observed_at": "2026-10-03T00:46:36.673335Z",
       "freshness": "just now"
     },
     {
       "team": "gosi",
       "status": "success",
-      "reason": "정상 6.5h 전",
+      "reason": "정상 7.2h 전",
       "is_failure": false,
-      "freshness": "6.5 hours ago"
+      "freshness": "7.2 hours ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 2.1h 전",
+      "reason": "정상 2.8h 전",
       "is_failure": false,
-      "freshness": "2.1 hours ago"
+      "freshness": "2.8 hours ago"
     }
   ],
   "architecture_p0": {

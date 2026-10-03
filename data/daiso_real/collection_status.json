@@ -1,11 +1,25 @@
 {
   "last_run": {
-    "execution_id": "37080492527:1:collect",
+    "execution_id": "37083305299:1:collect",
     "collector_version": 2,
     "collector_completed": true,
-    "started_at": "2026-10-03T00:05:16.353309+00:00",
-    "requested": 0,
+    "started_at": "2026-10-03T00:44:52.647946+00:00",
+    "requested": 4,
     "ok": 0,
+    "discovery_enabled": true,
+    "operating_updates_enabled": false,
+    "operating_product_count": 356,
+    "operating_before_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "operating_after_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "candidate_pool_sha256": "c6a79a11204896e282247ac737cf7aa5373c748f7379f34b7d76427b781198e7",
+    "candidate_pool_digest": "67374dd350bb21b5bd3a90db61ace2908e2b9c12dd5d2db5a2aaa8951738a7c5",
+    "candidate_ids": [
+      "1066897"
+    ],
+    "candidates_new": 1,
+    "candidates_updated": 0,
+    "candidate_count": 1,
+    "skipped_operating_update": 0,
     "parse_failed": 0,
     "http_error": 0,
     "sold_out": 0,
@@ -13,28 +27,44 @@
     "parse_fail_samples": [],
     "fallback_used": 0,
     "fallback_price_fixed": 0,
-    "skipped_not_beauty": 0,
+    "skipped_not_beauty": 2,
     "skipped_bucket_full": 0,
     "prefetch_policy": {
-      "applied": true,
-      "policy_version": 1,
-      "open_buckets": [],
-      "open_bucket_candidates": 0,
-      "unknown_bucket_candidates": 709,
-      "skipped_expected_full": 1405
+      "mode": "candidate_discovery",
+      "reason": "comparison_pool_not_operating_quota",
+      "legacy_visited_ignored": true,
+      "operating_limit_unchanged": true,
+      "new_identities": 1288,
+      "revalidation_identities": 0,
+      "eligible_buckets": [
+        "마스크팩",
+        "메이크업",
+        "바디케어",
+        "스킨케어",
+        "클렌징",
+        "헤어케어"
+      ],
+      "skipped": {
+        "operating_identity": 196,
+        "parked_exclusion": 4,
+        "unknown_or_non_core_bucket": 1305,
+        "legal_exclusion": 88
+      }
     },
-    "skipped_excluded": {},
+    "skipped_excluded": {
+      "선크림": 1
+    },
     "pruned_existing": {},
     "queue_size": 2881,
-    "url_source": "queue",
+    "url_source": "queue_candidate_discovery",
     "skipped_already_visited": 1997,
     "skipped_parked": 15,
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
-    "max_items": 0,
+    "max_items": 4,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-10-03T00:05:21.675399+00:00",
+    "finished_at": "2026-10-03T00:46:32.753823+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -54,7 +84,7 @@
       "마스크팩": 45,
       "스킨케어": 150
     },
-    "status": "no_change",
+    "status": "candidates_collected",
     "failure_reason": ""
   },
   "totals": {
@@ -159,7 +189,7 @@
     "ok": true
   },
   "sitemap_urls_known": 19739,
-  "visited": 0,
+  "visited": 4,
   "last_success": {
     "started_at": "2026-09-28T23:50:54.681399+00:00",
     "requested": 110,
@@ -218,12 +248,26 @@
     "failure_reason": ""
   },
   "last_attempt": {
-    "execution_id": "37080492527:1:collect",
+    "execution_id": "37083305299:1:collect",
     "collector_version": 2,
     "collector_completed": true,
-    "started_at": "2026-10-03T00:05:16.353309+00:00",
-    "requested": 0,
+    "started_at": "2026-10-03T00:44:52.647946+00:00",
+    "requested": 4,
     "ok": 0,
+    "discovery_enabled": true,
+    "operating_updates_enabled": false,
+    "operating_product_count": 356,
+    "operating_before_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "operating_after_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "candidate_pool_sha256": "c6a79a11204896e282247ac737cf7aa5373c748f7379f34b7d76427b781198e7",
+    "candidate_pool_digest": "67374dd350bb21b5bd3a90db61ace2908e2b9c12dd5d2db5a2aaa8951738a7c5",
+    "candidate_ids": [
+      "1066897"
+    ],
+    "candidates_new": 1,
+    "candidates_updated": 0,
+    "candidate_count": 1,
+    "skipped_operating_update": 0,
     "parse_failed": 0,
     "http_error": 0,
     "sold_out": 0,
@@ -231,28 +275,44 @@
     "parse_fail_samples": [],
     "fallback_used": 0,
     "fallback_price_fixed": 0,
-    "skipped_not_beauty": 0,
+    "skipped_not_beauty": 2,
     "skipped_bucket_full": 0,
     "prefetch_policy": {
-      "applied": true,
-      "policy_version": 1,
-      "open_buckets": [],
-      "open_bucket_candidates": 0,
-      "unknown_bucket_candidates": 709,
-      "skipped_expected_full": 1405
+      "mode": "candidate_discovery",
+      "reason": "comparison_pool_not_operating_quota",
+      "legacy_visited_ignored": true,
+      "operating_limit_unchanged": true,
+      "new_identities": 1288,
+      "revalidation_identities": 0,
+      "eligible_buckets": [
+        "마스크팩",
+        "메이크업",
+        "바디케어",
+        "스킨케어",
+        "클렌징",
+        "헤어케어"
+      ],
+      "skipped": {
+        "operating_identity": 196,
+        "parked_exclusion": 4,
+        "unknown_or_non_core_bucket": 1305,
+        "legal_exclusion": 88
+      }
     },
-    "skipped_excluded": {},
+    "skipped_excluded": {
+      "선크림": 1
+    },
     "pruned_existing": {},
     "queue_size": 2881,
-    "url_source": "queue",
+    "url_source": "queue_candidate_discovery",
     "skipped_already_visited": 1997,
     "skipped_parked": 15,
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
-    "max_items": 0,
+    "max_items": 4,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
-    "finished_at": "2026-10-03T00:05:21.675399+00:00",
+    "finished_at": "2026-10-03T00:46:32.753823+00:00",
     "bucket_targets": {
       "구강용품": 3,
       "헤어케어": 18,
@@ -272,7 +332,95 @@
       "마스크팩": 45,
       "스킨케어": 150
     },
-    "status": "no_change",
+    "status": "candidates_collected",
+    "failure_reason": ""
+  },
+  "last_candidate_success": {
+    "execution_id": "37083305299:1:collect",
+    "collector_version": 2,
+    "collector_completed": true,
+    "started_at": "2026-10-03T00:44:52.647946+00:00",
+    "requested": 4,
+    "ok": 0,
+    "discovery_enabled": true,
+    "operating_updates_enabled": false,
+    "operating_product_count": 356,
+    "operating_before_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "operating_after_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "candidate_pool_sha256": "c6a79a11204896e282247ac737cf7aa5373c748f7379f34b7d76427b781198e7",
+    "candidate_pool_digest": "67374dd350bb21b5bd3a90db61ace2908e2b9c12dd5d2db5a2aaa8951738a7c5",
+    "candidate_ids": [
+      "1066897"
+    ],
+    "candidates_new": 1,
+    "candidates_updated": 0,
+    "candidate_count": 1,
+    "skipped_operating_update": 0,
+    "parse_failed": 0,
+    "http_error": 0,
+    "sold_out": 0,
+    "parse_fail_reasons": {},
+    "parse_fail_samples": [],
+    "fallback_used": 0,
+    "fallback_price_fixed": 0,
+    "skipped_not_beauty": 2,
+    "skipped_bucket_full": 0,
+    "prefetch_policy": {
+      "mode": "candidate_discovery",
+      "reason": "comparison_pool_not_operating_quota",
+      "legacy_visited_ignored": true,
+      "operating_limit_unchanged": true,
+      "new_identities": 1288,
+      "revalidation_identities": 0,
+      "eligible_buckets": [
+        "마스크팩",
+        "메이크업",
+        "바디케어",
+        "스킨케어",
+        "클렌징",
+        "헤어케어"
+      ],
+      "skipped": {
+        "operating_identity": 196,
+        "parked_exclusion": 4,
+        "unknown_or_non_core_bucket": 1305,
+        "legal_exclusion": 88
+      }
+    },
+    "skipped_excluded": {
+      "선크림": 1
+    },
+    "pruned_existing": {},
+    "queue_size": 2881,
+    "url_source": "queue_candidate_discovery",
+    "skipped_already_visited": 1997,
+    "skipped_parked": 15,
+    "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
+    "delay_seconds": 30.0,
+    "max_items": 4,
+    "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
+    "robots_note": "robots.txt: User-agent * → Allow /pd/pdr/, Crawl-delay 30",
+    "finished_at": "2026-10-03T00:46:32.753823+00:00",
+    "bucket_targets": {
+      "구강용품": 3,
+      "헤어케어": 18,
+      "바디케어": 15,
+      "맨즈케어": 5,
+      "향수": 7,
+      "클렌징": 30,
+      "마스크팩": 45,
+      "메이크업": 25,
+      "뷰티소품": 2,
+      "스킨케어": 150
+    },
+    "buckets_short": {
+      "헤어케어": 18,
+      "바디케어": 15,
+      "클렌징": 30,
+      "마스크팩": 45,
+      "스킨케어": 150
+    },
+    "status": "candidates_collected",
     "failure_reason": ""
   }
 }

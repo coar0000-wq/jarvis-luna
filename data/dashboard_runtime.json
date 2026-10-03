@@ -1,35 +1,48 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T09:05:30.683043+09:00",
+  "generated_at": "2026-10-03T09:46:40.178762+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
       "id": "sourcing",
       "name": "상품 소싱팀",
-      "when": "2026-10-03T00:05:21.675399+00:00",
+      "when": "2026-10-03T00:46:32.753823+00:00",
       "summary": "356개 상품 · 등급 S 10 / A 82 / B 48 / C 216 · 새 자료 9건 · 영상 학습 5개",
       "action": "새 상품 마지막 성공 2026-09-29T00:48:58.284474+00:00",
       "action_kind": "auto_remediable",
       "waiting": null,
       "waiting_kind": null,
-      "notice": "직전 수집 정상 완료: 새 상품 없음 · 0건 받음 · 자기개선 정책으로 받기 전 제외 1405건 · 이미 판정해서 안 받음 1997건 · 후보 출처 queue, 큐 2881건 · 최근 시도 2026-10-03T00:05:21.675399+00:00 · 새 상품 성공 2026-09-29T00:48:58.284474+00:00",
+      "notice": "신규 비교 후보 1건 · 재확인 0건 · 운영 상품 356개 유지 · 최근 시도 2026-10-03T00:46:32.753823+00:00 · 운영 상품 유효 수집 2026-09-29T00:48:58.284474+00:00 · 비교 후보 누적 1건 · 교체 제안 0건(승인 전 실행 없음) · [촉촉윤광]퍼피 촉촉쿠션 통퍼프 https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
       "status": "warning",
       "phase": "now",
       "phase_label": "1단계 · 후보 선정",
       "color": "#15803d",
       "glyph": "box",
       "collection_freshness": {
-        "status": "warning",
-        "reason": "수집 정상 완료: 새 상품 없음 · 새 상품 성공 데이터 오래됨 또는 검증 불가",
-        "last_attempt_at": "2026-10-03T00:05:21.675399+00:00",
+        "status": "success",
+        "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+        "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-        "last_attempt_status": "no_change",
+        "last_attempt_status": "candidates_collected",
+        "is_candidate_collection": true,
+        "candidates_new": 1,
+        "candidates_updated": 0,
+        "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
+        "candidate_success_age_hours": 0.002,
         "attempt_age_hours": 0.002,
-        "success_age_hours": 95.276,
+        "success_age_hours": 95.962,
         "data_stale": true,
         "attempt_stale": false,
-        "is_no_change": true,
+        "is_no_change": false,
         "is_failure": false
+      },
+      "candidate_discovery": {
+        "candidate_count": 1,
+        "proposal_count": 0,
+        "generated_at": "2026-10-03T00:46:32.922088+00:00",
+        "report": "data/daiso_real/candidate_comparison.json",
+        "may_replace": false,
+        "approval_required": true
       },
       "youtube_learning": {
         "status": "학습 중",
@@ -102,7 +115,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-03T09:05:08.982914+09:00",
+      "when": "2026-10-03T09:44:44.324784+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 19편 · 근거 51개 · 실험 22개 · 새 자료 112건 · 영상 학습 41개",
       "action": null,
       "action_kind": null,
@@ -411,7 +424,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-10-03T09:05:12.428892+09:00",
+      "when": "2026-10-03T09:44:46.975810+09:00",
       "summary": "84,802노트 · 359,611링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.3% · 학습 키워드 18개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
@@ -445,7 +458,7 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-10-02T17:37:28.124430+00:00",
-        "몇시간전": 6.5
+        "몇시간전": 7.2
       },
       {
         "단계": "고시 비전 추출",
@@ -463,45 +476,50 @@
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-10-02T22:21:14.967838+00:00",
-        "몇시간전": 1.7
+        "몇시간전": 2.4
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-10-02T22:34:03.321241+00:00",
-        "몇시간전": 1.5
+        "몇시간전": 2.2
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-10-02T22:34:03.122188+00:00",
-        "몇시간전": 1.5
+        "몇시간전": 2.2
       }
     ],
     "heartbeat": {
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-02T22:02:11.616683+00:00",
-      "age_hours": 2.055,
+      "age_hours": 2.741,
       "next_expected_at": "2026-10-03T00:02:11.616683+00:00",
       "grace_deadline_at": "2026-10-03T02:32:11.616683+00:00",
       "is_failure": false,
       "delayed": false
     },
     "collection_freshness": {
-      "status": "warning",
-      "reason": "수집 정상 완료: 새 상품 없음 · 새 상품 성공 데이터 오래됨 또는 검증 불가",
-      "last_attempt_at": "2026-10-03T00:05:21.675399+00:00",
+      "status": "success",
+      "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-      "last_attempt_status": "no_change",
-      "attempt_age_hours": 0.003,
-      "success_age_hours": 95.276,
+      "last_attempt_status": "candidates_collected",
+      "is_candidate_collection": true,
+      "candidates_new": 1,
+      "candidates_updated": 0,
+      "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
+      "candidate_success_age_hours": 0.002,
+      "attempt_age_hours": 0.002,
+      "success_age_hours": 95.962,
       "data_stale": true,
       "attempt_stale": false,
-      "is_no_change": true,
+      "is_no_change": false,
       "is_failure": false
     },
-    "workflow_observed_at": "2026-10-03T00:05:25.511981Z",
+    "workflow_observed_at": "2026-10-03T00:46:36.673335Z",
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
   },
   "remediation_state": {
@@ -752,7 +770,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-10-03T00:05:25.597603+00:00",
+    "generated_at": "2026-10-03T00:46:36.738878+00:00",
     "overall_status": "warning",
     "status_legend": {
       "success": "정상",
@@ -762,36 +780,39 @@
       "failed": "예외 - 자동화 장애"
     },
     "kpi": {
-      "last_success": "2026-10-02T22:20:06Z",
+      "last_success": "2026-10-03T00:05:39Z",
       "last_success_source": "github_actions_snapshot",
-      "collection_last_attempt": "2026-10-03T00:05:21.675399+00:00",
+      "collection_last_attempt": "2026-10-03T00:46:32.753823+00:00",
       "collection_last_success": "2026-09-29T00:48:58.284474+00:00",
+      "candidate_last_success": "2026-10-03T00:46:32.753823+00:00",
+      "candidate_new_this_attempt": 1,
+      "candidate_rechecked_this_attempt": 0,
       "failed_jobs": 0,
       "failed_checks": 0,
-      "actions_observed_at": "2026-10-03T00:05:25.511981Z",
+      "actions_observed_at": "2026-10-03T00:46:36.673335Z",
       "actions_observation_fresh": true,
       "queue": 2881,
       "stale_source": "marketing",
       "freshness_summary": {
-        "product_master": "1.5 hours ago",
-        "legal_full": "1.5 hours ago",
-        "shopify_sync": "1.5 hours ago",
-        "pricing": "1.7 hours ago",
-        "marketing": "1.5 hours ago",
+        "product_master": "2.2 hours ago",
+        "legal_full": "2.2 hours ago",
+        "shopify_sync": "2.2 hours ago",
+        "pricing": "2.4 hours ago",
+        "marketing": "2.2 hours ago",
         "daiso": "just now",
-        "deep_heartbeat": "2.1 hours ago",
+        "deep_heartbeat": "2.7 hours ago",
         "actions_monitor": "just now",
-        "gosi": "6.5 hours ago",
-        "product_discovery": "2.1 hours ago"
+        "gosi": "7.2 hours ago",
+        "product_discovery": "2.8 hours ago"
       }
     },
     "summary": {
-      "success": 6,
-      "warning": 3,
+      "success": 7,
+      "warning": 2,
       "waiting": 1,
       "degraded": 0,
       "failed": 0,
-      "no_change": 1,
+      "no_change": 0,
       "real_failures": 0
     },
     "checks": [
@@ -801,7 +822,7 @@
         "reason": "운영 상품 356개, CP 357개, S 10개",
         "count": 356,
         "s_count": 10,
-        "freshness": "1.5 hours ago",
+        "freshness": "2.2 hours ago",
         "is_failure": false
       },
       {
@@ -810,41 +831,46 @@
         "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
         "is_failure": false,
         "waiting_kind": "human_approval_required",
-        "freshness": "1.5 hours ago"
+        "freshness": "2.2 hours ago"
       },
       {
         "team": "shopify_sync",
         "status": "success",
         "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
         "is_failure": false,
-        "freshness": "1.5 hours ago"
+        "freshness": "2.2 hours ago"
       },
       {
         "team": "pricing",
         "status": "success",
         "reason": "FX 반영, 손익분기·기여마진 계산됨",
         "is_failure": false,
-        "freshness": "1.7 hours ago"
+        "freshness": "2.4 hours ago"
       },
       {
         "team": "marketing",
         "status": "warning",
         "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
         "is_failure": false,
-        "freshness": "1.5 hours ago"
+        "freshness": "2.2 hours ago"
       },
       {
         "team": "daiso",
-        "status": "warning",
-        "reason": "수집 정상 완료: 새 상품 없음 · 새 상품 성공 데이터 오래됨 또는 검증 불가",
-        "last_attempt_at": "2026-10-03T00:05:21.675399+00:00",
+        "status": "success",
+        "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+        "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-        "last_attempt_status": "no_change",
+        "last_attempt_status": "candidates_collected",
+        "is_candidate_collection": true,
+        "candidates_new": 1,
+        "candidates_updated": 0,
+        "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
+        "candidate_success_age_hours": 0.001,
         "attempt_age_hours": 0.001,
-        "success_age_hours": 95.274,
+        "success_age_hours": 95.961,
         "data_stale": true,
         "attempt_stale": false,
-        "is_no_change": true,
+        "is_no_change": false,
         "is_failure": false,
         "freshness": "just now"
       },
@@ -853,34 +879,34 @@
         "status": "success",
         "reason": "SafeAutoFix heartbeat 정상",
         "last_attempt_at": "2026-10-02T22:02:11.616683+00:00",
-        "age_hours": 2.054,
+        "age_hours": 2.74,
         "next_expected_at": "2026-10-03T00:02:11.616683+00:00",
         "grace_deadline_at": "2026-10-03T02:32:11.616683+00:00",
         "is_failure": false,
         "delayed": false,
-        "freshness": "2.1 hours ago"
+        "freshness": "2.7 hours ago"
       },
       {
         "team": "actions_monitor",
         "status": "warning",
         "reason": "GitHub Actions 관측: 5/5개 · 실패 0",
         "is_failure": false,
-        "observed_at": "2026-10-03T00:05:25.511981Z",
+        "observed_at": "2026-10-03T00:46:36.673335Z",
         "freshness": "just now"
       },
       {
         "team": "gosi",
         "status": "success",
-        "reason": "정상 6.5h 전",
+        "reason": "정상 7.2h 전",
         "is_failure": false,
-        "freshness": "6.5 hours ago"
+        "freshness": "7.2 hours ago"
       },
       {
         "team": "product_discovery",
         "status": "success",
-        "reason": "정상 2.1h 전",
+        "reason": "정상 2.8h 전",
         "is_failure": false,
-        "freshness": "2.1 hours ago"
+        "freshness": "2.8 hours ago"
       }
     ],
     "architecture_p0": {
@@ -890,25 +916,148 @@
       "legal_full": "identity, ingredients, directions, warning, responsible_person"
     }
   },
+  "candidate_discovery": {
+    "schema_version": 1,
+    "generated_at": "2026-10-03T00:46:32.922088+00:00",
+    "purpose": "comparison_only",
+    "paid_api_called": false,
+    "may_replace_operating_products": false,
+    "may_publish": false,
+    "approval_required": true,
+    "candidate_count": 1,
+    "proposal_count": 0,
+    "operating_product_count": 356,
+    "operating_sha256": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "candidate_pool_digest": "67374dd350bb21b5bd3a90db61ace2908e2b9c12dd5d2db5a2aaa8951738a7c5",
+    "market_evidence": [
+      {
+        "channel": "amazon_best_sellers",
+        "collected_at": "2026-10-03T00:00:16.477735+00:00",
+        "count": 46,
+        "trust": "verified"
+      },
+      {
+        "channel": "oliveyoung_us",
+        "collected_at": "2026-10-02T21:50:07.995504+00:00",
+        "count": 60,
+        "trust": "verified"
+      },
+      {
+        "channel": "sokoglam_us",
+        "collected_at": "2026-10-03T00:00:20.822959+00:00",
+        "count": 60,
+        "trust": "verified"
+      },
+      {
+        "channel": "amazon_new_beauty",
+        "collected_at": "2026-10-03T00:00:16.479473+00:00",
+        "count": 46,
+        "trust": "verified"
+      },
+      {
+        "channel": "ulta_beauty",
+        "collected_at": "2026-10-03T00:00:16.480361+00:00",
+        "count": 60,
+        "trust": "verified"
+      },
+      {
+        "channel": "sephora",
+        "collected_at": "2026-10-03T00:00:16.480361+00:00",
+        "count": 14,
+        "trust": "verified"
+      }
+    ],
+    "excluded_market_sources": {
+      "walmart_beauty": "unverified_or_stale_source",
+      "amazon_movers_beauty": "unverified_or_stale_source",
+      "tiktok_shop_us": "unverified_or_stale_source"
+    },
+    "scoring_note": "Same deterministic demand rules, fresh verified per-item sources only. Comparison grades never change operating grades.",
+    "items": [
+      {
+        "pd_no": "1066897",
+        "name": "[촉촉윤광]퍼피 촉촉쿠션 통퍼프",
+        "bucket": "메이크업",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
+        "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/QyXiFjX4KFzV0U4Qs5vI1066897_00_00QyXiFjX4KFzV0U4Qs5vI.jpg",
+        "collected_at": "2026-10-03T00:45:29.985817+00:00",
+        "score": {
+          "pd_no": "1066897",
+          "name": "[촉촉윤광]퍼피 촉촉쿠션 통퍼프",
+          "bucket": "메이크업",
+          "rebucketed": false,
+          "price_krw": 1000,
+          "rating": 0.0,
+          "review_count": 0,
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
+          "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/QyXiFjX4KFzV0U4Qs5vI1066897_00_00QyXiFjX4KFzV0U4Qs5vI.jpg",
+          "shopify_score": 26,
+          "grade": "C",
+          "s_rule": "sold_out",
+          "us_market_hits": 0,
+          "us_median_price_usd": 0.0,
+          "score_breakdown": {
+            "category": 19.0,
+            "rating": 0.0,
+            "reviews": 0.0,
+            "price": 7.0,
+            "keyword": 0,
+            "us_market_fit": 0.0,
+            "rebucket_note": "",
+            "global_similarity_reference_only": 0,
+            "penalty": 0,
+            "us_block_kind": "",
+            "us_block_reason": "",
+            "max_possible": 100
+          },
+          "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+          "best_global_match": null,
+          "global_matches": [],
+          "recommend_reason": "메이크업 카테고리 (글로벌 시그널 약함)"
+        },
+        "comparison_status": "review_only",
+        "comparison_blockers": [
+          "sold_out",
+          "verified_market_match_missing",
+          "score_advantage_below_5"
+        ],
+        "comparable_product": {
+          "pd_no": "1064565",
+          "name": "EVA 뒷굽 쿠션 슬리퍼 270 mm",
+          "score": 53,
+          "grade": "C"
+        },
+        "replacement_proposal": null,
+        "approval_required": true,
+        "may_replace": false,
+        "may_publish": false
+      }
+    ]
+  },
   "automation_freshness": {
     "collection": {
-      "status": "warning",
-      "reason": "수집 정상 완료: 새 상품 없음 · 새 상품 성공 데이터 오래됨 또는 검증 불가",
-      "last_attempt_at": "2026-10-03T00:05:21.675399+00:00",
+      "status": "success",
+      "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-      "last_attempt_status": "no_change",
-      "attempt_age_hours": 0.003,
-      "success_age_hours": 95.276,
+      "last_attempt_status": "candidates_collected",
+      "is_candidate_collection": true,
+      "candidates_new": 1,
+      "candidates_updated": 0,
+      "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
+      "candidate_success_age_hours": 0.002,
+      "attempt_age_hours": 0.002,
+      "success_age_hours": 95.962,
       "data_stale": true,
       "attempt_stale": false,
-      "is_no_change": true,
+      "is_no_change": false,
       "is_failure": false
     },
     "heartbeat": {
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-02T22:02:11.616683+00:00",
-      "age_hours": 2.055,
+      "age_hours": 2.741,
       "next_expected_at": "2026-10-03T00:02:11.616683+00:00",
       "grace_deadline_at": "2026-10-03T02:32:11.616683+00:00",
       "is_failure": false,
@@ -916,8 +1065,8 @@
     },
     "workflows": {
       "schema_version": 1,
-      "generated_at": "2026-10-03T00:05:25.511981Z",
-      "observed_at": "2026-10-03T00:05:25.511981Z",
+      "generated_at": "2026-10-03T00:46:36.673335Z",
+      "observed_at": "2026-10-03T00:46:36.673335Z",
       "status": "warning",
       "failed_actions": 0,
       "confirmed_failed_actions": 0,
@@ -928,7 +1077,7 @@
       "workflows": {
         "JARVIS-Core-Automation.yml": {
           "status": "warning",
-          "reason": "schedule_gap_exceeds_grace",
+          "reason": "scheduled_attempt_delayed",
           "expected_interval_hours": 2,
           "grace_hours": 4.5,
           "latest_attempt": {
@@ -955,11 +1104,11 @@
           },
           "last_attempt_at": "2026-10-02T19:49:31Z",
           "last_success_at": "2026-10-02T19:51:26Z",
-          "age_hours": 4.2651,
-          "last_success_age_hours": 4.2332,
+          "age_hours": 4.9516,
+          "last_success_age_hours": 4.9196,
           "last_schedule_gap_hours": 6.1278,
           "cadence_warning": true,
-          "delayed": false,
+          "delayed": true,
           "queue_delay_minutes": 0.0,
           "metadata_verified": true,
           "validation_warnings": []
@@ -993,8 +1142,8 @@
           },
           "last_attempt_at": "2026-10-02T21:44:40Z",
           "last_success_at": "2026-10-02T22:03:17Z",
-          "age_hours": 2.346,
-          "last_success_age_hours": 2.0357,
+          "age_hours": 3.0324,
+          "last_success_age_hours": 2.7221,
           "last_schedule_gap_hours": 4.4181,
           "cadence_warning": false,
           "delayed": false,
@@ -1031,8 +1180,8 @@
           },
           "last_attempt_at": "2026-10-02T22:14:51Z",
           "last_success_at": "2026-10-02T22:20:06Z",
-          "age_hours": 1.8429,
-          "last_success_age_hours": 1.7554,
+          "age_hours": 2.5294,
+          "last_success_age_hours": 2.4419,
           "last_schedule_gap_hours": 9.6392,
           "cadence_warning": true,
           "delayed": false,
@@ -1046,30 +1195,30 @@
           "expected_interval_hours": 24,
           "grace_hours": 36,
           "latest_attempt": {
-            "id": 37080492527,
+            "id": 37083305299,
             "status": "in_progress",
             "conclusion": null,
+            "event": "workflow_dispatch",
+            "created_at": "2026-10-03T00:44:16Z",
+            "run_started_at": "2026-10-03T00:44:16Z",
+            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37083305299",
+            "run_attempt": 1
+          },
+          "last_success": {
+            "id": 37080492527,
+            "status": "completed",
+            "conclusion": "success",
             "event": "workflow_dispatch",
             "created_at": "2026-10-03T00:04:41Z",
             "run_started_at": "2026-10-03T00:04:41Z",
             "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37080492527",
+            "finished_at": "2026-10-03T00:05:39Z",
             "run_attempt": 1
           },
-          "last_success": {
-            "id": 36500035073,
-            "status": "completed",
-            "conclusion": "success",
-            "event": "schedule",
-            "created_at": "2026-09-28T23:49:55Z",
-            "run_started_at": "2026-09-28T23:49:55Z",
-            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/36500035073",
-            "finished_at": "2026-09-29T00:49:48Z",
-            "run_attempt": 1
-          },
-          "last_attempt_at": "2026-10-03T00:04:41Z",
-          "last_success_at": "2026-09-29T00:49:48Z",
-          "age_hours": 0.0124,
-          "last_success_age_hours": 95.2604,
+          "last_attempt_at": "2026-10-03T00:44:16Z",
+          "last_success_at": "2026-10-03T00:05:39Z",
+          "age_hours": 0.0391,
+          "last_success_age_hours": 0.6827,
           "last_schedule_gap_hours": 23.7633,
           "cadence_warning": false,
           "delayed": false,
@@ -1106,8 +1255,8 @@
           },
           "last_attempt_at": "2026-10-02T07:46:43Z",
           "last_success_at": "2026-10-02T07:47:43Z",
-          "age_hours": 16.3118,
-          "last_success_age_hours": 16.2951,
+          "age_hours": 16.9982,
+          "last_success_age_hours": 16.9816,
           "last_schedule_gap_hours": 23.7083,
           "cadence_warning": false,
           "delayed": false,
@@ -1161,7 +1310,7 @@
     "status": "completed",
     "record_count": 6804,
     "source_counts": {},
-    "updated_at": "2026-10-03T09:05:08.965868+09:00"
+    "updated_at": "2026-10-03T09:44:44.310784+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1755,7 +1904,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-10-03T09:05:12.428892+09:00"
+    "last_generated": "2026-10-03T09:44:46.975810+09:00"
   },
   "training": {
     "status": "completed",
@@ -6265,7 +6414,7 @@
       "collected_at": "2026-10-03T00:00:16.477735+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 0.087,
+      "age_hours": 0.773,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6275,16 +6424,16 @@
     "walmart_beauty": {
       "status": "stale",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
-      "reason": "2026-09-15 이후 갱신 없음 (17.5일).",
+      "reason": "2026-09-15 이후 갱신 없음 (17.6일).",
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "trust": "stale",
-      "age_hours": 420.769,
+      "age_hours": 421.455,
       "stale": true,
       "source_status": "stale",
       "source_trust": "stale",
       "source_reason": "",
-      "freshness_reason": "2026-09-15 이후 갱신 없음 (17.5일)."
+      "freshness_reason": "2026-09-15 이후 갱신 없음 (17.6일)."
     },
     "oliveyoung_us": {
       "status": "ok",
@@ -6293,7 +6442,7 @@
       "collected_at": "2026-10-02T21:50:07.995504+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 2.256,
+      "age_hours": 2.942,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6307,7 +6456,7 @@
       "collected_at": "2026-10-02T21:50:56.403764+00:00",
       "count": 40,
       "trust": "verified",
-      "age_hours": 2.243,
+      "age_hours": 2.929,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6321,7 +6470,7 @@
       "collected_at": "2026-10-03T00:00:20.822959+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 0.086,
+      "age_hours": 0.772,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6335,7 +6484,7 @@
       "collected_at": "2026-10-03T00:00:16.479114+00:00",
       "count": 0,
       "trust": "none",
-      "age_hours": 0.087,
+      "age_hours": 0.773,
       "stale": false,
       "source_status": "empty",
       "source_trust": "none",
@@ -6349,7 +6498,7 @@
       "collected_at": "2026-10-03T00:00:16.479473+00:00",
       "count": 46,
       "trust": "verified",
-      "age_hours": 0.087,
+      "age_hours": 0.773,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6364,7 +6513,7 @@
       "count": 8,
       "trust": "verified",
       "note": "2026-09-01 ~ 2026-09-30 일별 조회수. 후반 15일 대비 전반 15일 증감률",
-      "age_hours": 2.088,
+      "age_hours": 2.773,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6379,7 +6528,7 @@
       "count": 30,
       "trust": "verified",
       "note": "수요 신호가 아니라 매체 노출 신호. 참고용.",
-      "age_hours": 2.088,
+      "age_hours": 2.773,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6394,7 +6543,7 @@
       "count": 20,
       "trust": "verified",
       "note": "미국 판매 선크림의 실제 라벨. 우리 선크림 3종의 영문 라벨 작성 시 표현 참조용. 수요 신호가 아니다.",
-      "age_hours": 2.088,
+      "age_hours": 2.773,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6436,7 +6585,7 @@
       "collected_at": "2026-10-03T00:00:16.480361+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 0.087,
+      "age_hours": 0.773,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6450,7 +6599,7 @@
       "collected_at": "2026-10-03T00:00:16.480361+00:00",
       "count": 14,
       "trust": "verified",
-      "age_hours": 0.087,
+      "age_hours": 0.773,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6464,7 +6613,7 @@
       "collected_at": "2026-10-02T21:50:07.334268+00:00",
       "count": 60,
       "trust": "verified",
-      "age_hours": 2.256,
+      "age_hours": 2.942,
       "stale": false,
       "source_status": "ok",
       "source_trust": "verified",
@@ -6486,6 +6635,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-10-03T00:05:30.754265+00:00"
+    "at": "2026-10-03T00:46:40.233226+00:00"
   }
 }
