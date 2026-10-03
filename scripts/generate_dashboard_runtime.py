@@ -677,7 +677,7 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         stale_act = collection["reason"] if collection["attempt_stale"] or collection["is_failure"] else None
         success_at = collection["last_success_at"]
         if collection["data_stale"]:
-            stale_act = (stale_act + " · " if stale_act else "") + "새 상품 마지막 성공 " + str(success_at or "검증 불가")
+            stale_act = (stale_act + " · " if stale_act else "") + "운영 상품 마지막 유효 수집 " + str(success_at or "검증 불가")
         act = (act + " · " if act else "") + "최근 시도 " + str(collection["last_attempt_at"] or "미기록") + " · 운영 상품 유효 수집 " + str(success_at or "미기록")
         comparison = load_json(D / "daiso_real" / "candidate_comparison.json", {}) or {}
         candidate_total = comparison.get("candidate_count", 0)
