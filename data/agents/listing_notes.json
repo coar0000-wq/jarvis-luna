@@ -1,6 +1,6 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-10-03T08:33:45.541765+00:00",
+  "generated_at": "2026-10-03T11:09:28.318825+00:00",
   "s_count": 10,
   "registerable_count": 9,
   "csv_path": "data/shopify_exports/products.csv",
@@ -80,7 +80,7 @@
     }
   ],
   "legal_blocks": [
-    "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기"
+    "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기"
   ],
   "suggestions": [
     {
@@ -89,7 +89,7 @@
     },
     {
       "action": "resolve_legal_blocks",
-      "detail": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기"
+      "detail": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기"
     }
   ]
 }

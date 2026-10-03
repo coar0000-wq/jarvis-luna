@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T17:33:45.493856+09:00",
+  "generated_at": "2026-10-03T20:09:28.260485+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -28,9 +28,9 @@
         "candidates_new": 1,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 7.787,
-        "attempt_age_hours": 7.787,
-        "success_age_hours": 103.746,
+        "candidate_success_age_hours": 10.382,
+        "attempt_age_hours": 10.382,
+        "success_age_hours": 106.342,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": false,
@@ -115,7 +115,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-03T17:33:31.512013+09:00",
+      "when": "2026-10-03T20:09:24.359123+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 19편 · 근거 51개 · 실험 22개 · 새 자료 115건 · 영상 학습 52개",
       "action": null,
       "action_kind": null,
@@ -158,8 +158,8 @@
     {
       "id": "listing",
       "name": "리스팅 제작팀",
-      "when": "2026-10-03T05:32:02.286887+00:00",
-      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 5건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 10건(입력 10,960토큰 · $0.0005, 무료 크레딧) · 영상 학습 40개",
+      "when": "2026-10-03T11:09:24.207612+00:00",
+      "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 5건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 10건(이번 회차 재사용 · 누적 실호출 510회 · 마지막 10-03 14:32) · 영상 학습 40개",
       "action": null,
       "action_kind": null,
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
@@ -242,11 +242,11 @@
     {
       "id": "legal",
       "name": "법률·규제팀",
-      "when": "2026-10-03T05:31:56.647871+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 24/30 · 표기 되돌림 6건 · 성분표기 확인 6종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 62건 · 영상 학습 34개",
+      "when": "2026-10-03T11:09:24.039934+00:00",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 1 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 영문라벨 24/30 · 표기 되돌림 6건 · 성분표기 확인 9종 · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 62건 · 영상 학습 34개",
       "action": null,
       "action_kind": null,
-      "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "waiting": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기",
       "waiting_kind": "human_approval_required",
       "notice": null,
       "status": "ok",
@@ -424,7 +424,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-10-03T17:33:34.195040+09:00",
+      "when": "2026-10-03T20:02:31.457943+09:00",
       "summary": "84,953노트 · 360,875링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.3% · 학습 키워드 18개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
@@ -449,7 +449,7 @@
     "name": "비서실장",
     "badge": "총괄",
     "when": "2026-10-03T05:33:43.331978+00:00",
-    "summary": "2시간 주기 · 고시 30건 · US라벨 0건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
+    "summary": "2시간 주기 · 고시 30건 · US라벨 30건 · 카피 10건 · 등록 가능 9건 · 법률 차단 1건",
     "action": "Deep Analysis 실제 예약 실행 간격 7.5011시간 · 설정은 2시간",
     "action_kind": "revalidate_only",
     "status": "warning",
@@ -458,7 +458,7 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-10-02T17:37:28.124430+00:00",
-        "몇시간전": 14.9
+        "몇시간전": 17.5
       },
       {
         "단계": "고시 비전 추출",
@@ -476,30 +476,30 @@
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-10-03T05:31:58.035368+00:00",
-        "몇시간전": 3.0
+        "몇시간전": 5.6
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
-        "갱신": "2026-10-03T05:32:02.286887+00:00",
-        "몇시간전": 3.0
+        "갱신": "2026-10-03T11:09:24.207612+00:00",
+        "몇시간전": 0.0
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
-        "갱신": "2026-10-03T05:31:56.647871+00:00",
-        "몇시간전": 3.0
+        "갱신": "2026-10-03T11:09:24.039934+00:00",
+        "몇시간전": 0.0
       }
     ],
     "heartbeat": {
-      "status": "success",
-      "reason": "SafeAutoFix heartbeat 정상",
+      "status": "warning",
+      "reason": "SafeAutoFix heartbeat 지연 (5.6시간)",
       "last_attempt_at": "2026-10-03T05:33:43.331978+00:00",
-      "age_hours": 3.001,
+      "age_hours": 5.596,
       "next_expected_at": "2026-10-03T07:33:43.331978+00:00",
       "grace_deadline_at": "2026-10-03T10:03:43.331978+00:00",
       "is_failure": false,
-      "delayed": false
+      "delayed": true
     },
     "collection_freshness": {
       "status": "success",
@@ -511,9 +511,9 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 7.787,
-      "attempt_age_hours": 7.787,
-      "success_age_hours": 103.746,
+      "candidate_success_age_hours": 10.382,
+      "attempt_age_hours": 10.382,
+      "success_age_hours": 106.342,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -765,7 +765,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-10-03T08:33:42.823124+00:00",
+    "generated_at": "2026-10-03T11:09:24.780514+00:00",
     "overall_status": "warning",
     "status_legend": {
       "success": "정상",
@@ -789,21 +789,21 @@
       "queue": 2881,
       "stale_source": "marketing",
       "freshness_summary": {
-        "product_master": "3.0 hours ago",
-        "legal_full": "3.0 hours ago",
-        "shopify_sync": "3.0 hours ago",
-        "pricing": "3.0 hours ago",
-        "marketing": "3.0 hours ago",
-        "daiso": "7.8 hours ago",
-        "deep_heartbeat": "3.0 hours ago",
-        "actions_monitor": "1.4 hours ago",
-        "gosi": "14.9 hours ago",
-        "product_discovery": "3.0 hours ago"
+        "product_master": "just now",
+        "legal_full": "just now",
+        "shopify_sync": "just now",
+        "pricing": "5.6 hours ago",
+        "marketing": "just now",
+        "daiso": "10.4 hours ago",
+        "deep_heartbeat": "5.6 hours ago",
+        "actions_monitor": "4.0 hours ago",
+        "gosi": "17.5 hours ago",
+        "product_discovery": "5.6 hours ago"
       }
     },
     "summary": {
-      "success": 7,
-      "warning": 2,
+      "success": 6,
+      "warning": 3,
       "waiting": 1,
       "degraded": 0,
       "failed": 0,
@@ -817,7 +817,7 @@
         "reason": "운영 상품 356개, CP 357개, S 10개",
         "count": 356,
         "s_count": 10,
-        "freshness": "3.0 hours ago",
+        "freshness": "just now",
         "is_failure": false
       },
       {
@@ -826,28 +826,28 @@
         "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
         "is_failure": false,
         "waiting_kind": "human_approval_required",
-        "freshness": "3.0 hours ago"
+        "freshness": "just now"
       },
       {
         "team": "shopify_sync",
         "status": "success",
         "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
         "is_failure": false,
-        "freshness": "3.0 hours ago"
+        "freshness": "just now"
       },
       {
         "team": "pricing",
         "status": "success",
         "reason": "FX 반영, 손익분기·기여마진 계산됨",
         "is_failure": false,
-        "freshness": "3.0 hours ago"
+        "freshness": "5.6 hours ago"
       },
       {
         "team": "marketing",
         "status": "warning",
         "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
         "is_failure": false,
-        "freshness": "3.0 hours ago"
+        "freshness": "just now"
       },
       {
         "team": "daiso",
@@ -860,26 +860,26 @@
         "candidates_new": 1,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 7.786,
-        "attempt_age_hours": 7.786,
-        "success_age_hours": 103.746,
+        "candidate_success_age_hours": 10.381,
+        "attempt_age_hours": 10.381,
+        "success_age_hours": 106.341,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": false,
         "is_failure": false,
-        "freshness": "7.8 hours ago"
+        "freshness": "10.4 hours ago"
       },
       {
         "team": "deep_heartbeat",
-        "status": "success",
-        "reason": "SafeAutoFix heartbeat 정상",
+        "status": "warning",
+        "reason": "SafeAutoFix heartbeat 지연 (5.6시간)",
         "last_attempt_at": "2026-10-03T05:33:43.331978+00:00",
-        "age_hours": 3.0,
+        "age_hours": 5.595,
         "next_expected_at": "2026-10-03T07:33:43.331978+00:00",
         "grace_deadline_at": "2026-10-03T10:03:43.331978+00:00",
         "is_failure": false,
-        "delayed": false,
-        "freshness": "3.0 hours ago"
+        "delayed": true,
+        "freshness": "5.6 hours ago"
       },
       {
         "team": "actions_monitor",
@@ -887,21 +887,21 @@
         "reason": "GitHub Actions 관측: 5/5개 · 실패 0",
         "is_failure": false,
         "observed_at": "2026-10-03T07:07:38.830601Z",
-        "freshness": "1.4 hours ago"
+        "freshness": "4.0 hours ago"
       },
       {
         "team": "gosi",
         "status": "success",
-        "reason": "정상 14.9h 전",
+        "reason": "정상 17.5h 전",
         "is_failure": false,
-        "freshness": "14.9 hours ago"
+        "freshness": "17.5 hours ago"
       },
       {
         "team": "product_discovery",
         "status": "success",
-        "reason": "정상 3.0h 전",
+        "reason": "정상 5.6h 전",
         "is_failure": false,
-        "freshness": "3.0 hours ago"
+        "freshness": "5.6 hours ago"
       }
     ],
     "architecture_p0": {
@@ -1040,23 +1040,23 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 7.787,
-      "attempt_age_hours": 7.787,
-      "success_age_hours": 103.746,
+      "candidate_success_age_hours": 10.382,
+      "attempt_age_hours": 10.382,
+      "success_age_hours": 106.342,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
       "is_failure": false
     },
     "heartbeat": {
-      "status": "success",
-      "reason": "SafeAutoFix heartbeat 정상",
+      "status": "warning",
+      "reason": "SafeAutoFix heartbeat 지연 (5.6시간)",
       "last_attempt_at": "2026-10-03T05:33:43.331978+00:00",
-      "age_hours": 3.001,
+      "age_hours": 5.596,
       "next_expected_at": "2026-10-03T07:33:43.331978+00:00",
       "grace_deadline_at": "2026-10-03T10:03:43.331978+00:00",
       "is_failure": false,
-      "delayed": false
+      "delayed": true
     },
     "workflows": {
       "schema_version": 1,
@@ -1305,7 +1305,7 @@
     "status": "completed",
     "record_count": 6955,
     "source_counts": {},
-    "updated_at": "2026-10-03T17:33:31.500013+09:00"
+    "updated_at": "2026-10-03T20:02:29.511613+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1899,7 +1899,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-10-03T17:33:34.195040+09:00"
+    "last_generated": "2026-10-03T20:02:31.457943+09:00"
   },
   "training": {
     "status": "completed",
@@ -6412,23 +6412,23 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 8.558,
+      "age_hours": 11.153,
       "stale": false,
       "freshness_reason": ""
     },
     "walmart_beauty": {
       "status": "stale",
       "source": "walmart.com/browse/beauty/1085666 (실수집)",
-      "reason": "2026-09-15 이후 갱신 없음 (17.9일).",
+      "reason": "2026-09-15 이후 갱신 없음 (18.0일).",
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "trust": "stale",
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 429.239,
+      "age_hours": 431.835,
       "stale": true,
-      "freshness_reason": "2026-09-15 이후 갱신 없음 (17.9일)."
+      "freshness_reason": "2026-09-15 이후 갱신 없음 (18.0일)."
     },
     "oliveyoung_us": {
       "status": "ok",
@@ -6440,7 +6440,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 3.215,
+      "age_hours": 5.81,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6454,7 +6454,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 3.203,
+      "age_hours": 5.798,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6468,7 +6468,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 3.041,
+      "age_hours": 5.636,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6482,7 +6482,7 @@
       "source_status": "empty",
       "source_trust": "none",
       "source_reason": "페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함",
-      "age_hours": 8.558,
+      "age_hours": 11.153,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6496,7 +6496,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 8.558,
+      "age_hours": 11.153,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6511,7 +6511,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 10.558,
+      "age_hours": 13.154,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6526,7 +6526,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 10.558,
+      "age_hours": 13.154,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6541,7 +6541,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 10.558,
+      "age_hours": 13.154,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6583,7 +6583,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 8.558,
+      "age_hours": 11.153,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6597,7 +6597,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 8.558,
+      "age_hours": 11.153,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6611,7 +6611,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 3.215,
+      "age_hours": 5.81,
       "stale": false,
       "freshness_reason": ""
     }
@@ -6630,6 +6630,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-10-03T08:33:45.544736+00:00"
+    "at": "2026-10-03T11:09:28.321890+00:00"
   }
 }

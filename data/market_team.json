@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-03T14:32:04.867967+09:00",
+    "updated_at": "2026-10-03T20:09:24.345862+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1826,7 +1826,7 @@
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 13,
+    "signals_verified": 11,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
