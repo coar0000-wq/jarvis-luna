@@ -1,12 +1,12 @@
 {
   "agent": "Collector-Audit",
-  "generated_at": "2026-10-03T00:02:33.273191+00:00",
+  "generated_at": "2026-10-03T00:05:30.750677+00:00",
   "last_run": {
-    "requested": 110,
-    "ok": 10,
+    "requested": 0,
+    "ok": 0,
     "parse_failed": 0,
     "reasons": {},
-    "finished_at": "2026-09-29T00:48:58.284474+00:00"
+    "finished_at": "2026-10-03T00:05:21.675399+00:00"
   },
   "failure_types": [],
   "products_total": 356,

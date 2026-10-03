@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T23:48:24.226059Z",
-  "observed_at": "2026-10-02T23:48:24.226059Z",
+  "generated_at": "2026-10-03T00:05:25.511981Z",
+  "observed_at": "2026-10-03T00:05:25.511981Z",
   "status": "warning",
   "failed_actions": 0,
   "confirmed_failed_actions": 0,
   "checked_workflows": 5,
   "total_workflows": 5,
   "coverage_complete": true,
-  "observation_source": "snapshot",
+  "observation_source": "github_rest",
   "workflows": {
     "JARVIS-Core-Automation.yml": {
       "status": "warning",
@@ -23,7 +23,8 @@
         "created_at": "2026-10-02T19:49:31Z",
         "run_started_at": "2026-10-02T19:49:31Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37056615846",
-        "finished_at": "2026-10-02T19:51:26Z"
+        "finished_at": "2026-10-02T19:51:26Z",
+        "run_attempt": 1
       },
       "last_success": {
         "id": 37056615846,
@@ -33,12 +34,13 @@
         "created_at": "2026-10-02T19:49:31Z",
         "run_started_at": "2026-10-02T19:49:31Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37056615846",
-        "finished_at": "2026-10-02T19:51:26Z"
+        "finished_at": "2026-10-02T19:51:26Z",
+        "run_attempt": 1
       },
       "last_attempt_at": "2026-10-02T19:49:31Z",
       "last_success_at": "2026-10-02T19:51:26Z",
-      "age_hours": 3.9815,
-      "last_success_age_hours": 3.9495,
+      "age_hours": 4.2651,
+      "last_success_age_hours": 4.2332,
       "last_schedule_gap_hours": 6.1278,
       "cadence_warning": true,
       "delayed": false,
@@ -59,7 +61,8 @@
         "created_at": "2026-10-02T21:44:40Z",
         "run_started_at": "2026-10-02T21:44:40Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37068629639",
-        "finished_at": "2026-10-02T22:03:17Z"
+        "finished_at": "2026-10-02T22:03:17Z",
+        "run_attempt": 1
       },
       "last_success": {
         "id": 37068629639,
@@ -69,12 +72,13 @@
         "created_at": "2026-10-02T21:44:40Z",
         "run_started_at": "2026-10-02T21:44:40Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37068629639",
-        "finished_at": "2026-10-02T22:03:17Z"
+        "finished_at": "2026-10-02T22:03:17Z",
+        "run_attempt": 1
       },
       "last_attempt_at": "2026-10-02T21:44:40Z",
       "last_success_at": "2026-10-02T22:03:17Z",
-      "age_hours": 2.0623,
-      "last_success_age_hours": 1.752,
+      "age_hours": 2.346,
+      "last_success_age_hours": 2.0357,
       "last_schedule_gap_hours": 4.4181,
       "cadence_warning": false,
       "delayed": false,
@@ -95,7 +99,8 @@
         "created_at": "2026-10-02T22:14:51Z",
         "run_started_at": "2026-10-02T22:14:51Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37071438324",
-        "finished_at": "2026-10-02T22:20:06Z"
+        "finished_at": "2026-10-02T22:20:06Z",
+        "run_attempt": 1
       },
       "last_success": {
         "id": 37071438324,
@@ -105,12 +110,13 @@
         "created_at": "2026-10-02T22:14:51Z",
         "run_started_at": "2026-10-02T22:14:51Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37071438324",
-        "finished_at": "2026-10-02T22:20:06Z"
+        "finished_at": "2026-10-02T22:20:06Z",
+        "run_attempt": 1
       },
       "last_attempt_at": "2026-10-02T22:14:51Z",
       "last_success_at": "2026-10-02T22:20:06Z",
-      "age_hours": 1.5592,
-      "last_success_age_hours": 1.4717,
+      "age_hours": 1.8429,
+      "last_success_age_hours": 1.7554,
       "last_schedule_gap_hours": 9.6392,
       "cadence_warning": true,
       "delayed": false,
@@ -124,13 +130,14 @@
       "expected_interval_hours": 24,
       "grace_hours": 36,
       "latest_attempt": {
-        "id": 37075360244,
+        "id": 37080492527,
         "status": "in_progress",
         "conclusion": null,
-        "event": "schedule",
-        "created_at": "2026-10-02T22:59:31Z",
-        "run_started_at": "2026-10-02T22:59:31Z",
-        "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37075360244"
+        "event": "workflow_dispatch",
+        "created_at": "2026-10-03T00:04:41Z",
+        "run_started_at": "2026-10-03T00:04:41Z",
+        "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37080492527",
+        "run_attempt": 1
       },
       "last_success": {
         "id": 36500035073,
@@ -140,12 +147,13 @@
         "created_at": "2026-09-28T23:49:55Z",
         "run_started_at": "2026-09-28T23:49:55Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/36500035073",
-        "finished_at": "2026-09-29T00:49:48Z"
+        "finished_at": "2026-09-29T00:49:48Z",
+        "run_attempt": 1
       },
-      "last_attempt_at": "2026-10-02T22:59:31Z",
+      "last_attempt_at": "2026-10-03T00:04:41Z",
       "last_success_at": "2026-09-29T00:49:48Z",
-      "age_hours": 0.8148,
-      "last_success_age_hours": 94.9767,
+      "age_hours": 0.0124,
+      "last_success_age_hours": 95.2604,
       "last_schedule_gap_hours": 23.7633,
       "cadence_warning": false,
       "delayed": false,
@@ -166,7 +174,8 @@
         "created_at": "2026-10-02T07:46:43Z",
         "run_started_at": "2026-10-02T07:46:43Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/36980366590",
-        "finished_at": "2026-10-02T07:47:43Z"
+        "finished_at": "2026-10-02T07:47:43Z",
+        "run_attempt": 1
       },
       "last_success": {
         "id": 36980366590,
@@ -176,12 +185,13 @@
         "created_at": "2026-10-02T07:46:43Z",
         "run_started_at": "2026-10-02T07:46:43Z",
         "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/36980366590",
-        "finished_at": "2026-10-02T07:47:43Z"
+        "finished_at": "2026-10-02T07:47:43Z",
+        "run_attempt": 1
       },
       "last_attempt_at": "2026-10-02T07:46:43Z",
       "last_success_at": "2026-10-02T07:47:43Z",
-      "age_hours": 16.0281,
-      "last_success_age_hours": 16.0115,
+      "age_hours": 16.3118,
+      "last_success_age_hours": 16.2951,
       "last_schedule_gap_hours": 23.7083,
       "cadence_warning": false,
       "delayed": false,
@@ -189,5 +199,6 @@
       "metadata_verified": true,
       "validation_warnings": []
     }
-  }
+  },
+  "repository": "coar0000-wq/jarvis-luna"
 }
