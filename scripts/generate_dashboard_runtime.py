@@ -73,6 +73,7 @@ def graph_metrics() -> dict:
             continue
 
         try:
+            top = note.relative_to(VAULT).parts[0]
         except ValueError:
             top = ""
 
@@ -805,7 +806,6 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                      "us_label": "영문라벨", "price": "가격", "legal": "법률"}
             detail = " · ".join(f'{LABEL.get(k, k)} {c.get(k, 0)}'
                                 for k in ("ontology", "copy", "gosi", "price", "legal"))
-            top = ", ".join(f'{LABEL.get(k, k)} {v}건' for k, v in list(blk.items())[:3])
             public_ready = gate.get("public_ready")
             if public_ready is None:
                 public_ready = gate.get("ready", 0)

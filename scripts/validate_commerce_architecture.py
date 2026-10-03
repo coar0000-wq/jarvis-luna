@@ -14,6 +14,7 @@ D = ROOT / "data"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
+from operational_freshness import assess_collection  # noqa: E402
 
 
 def load(path: Path):
@@ -28,6 +29,27 @@ def require(condition: bool, message: str) -> None:
 def digest(value) -> str:
     raw = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def validate_sourcing_card(sourcing, *, observed_workflow_failure=False):
+    """Statistics are notices; only evidenced failure/staleness is an action."""
+    require(bool(sourcing.get("notice")), "소싱 실행 통계 notice 누락")
+    action = str(sourcing.get("action") or "")
+    evidence = sourcing.get("collection_freshness")
+    if not isinstance(evidence, dict):
+        require(not action or "발행되지 않음" in action,
+                "정상 소싱 통계가 노란 조치로 분류됨")
+        return
+    for key in ("is_failure", "attempt_stale", "data_stale", "is_no_change"):
+        require(type(evidence.get(key)) is bool, "소싱 최신성 증적 누락: " + key)
+    issue = (evidence["is_failure"] or evidence["attempt_stale"]
+             or evidence["data_stale"] or observed_workflow_failure)
+    require(not action or issue, "정상 소싱 통계가 노란 조치로 분류됨")
+    require(not issue or bool(action), "소싱 실패/최신성 조치 누락")
+    if evidence["is_failure"]:
+        require(sourcing.get("status") == "failed", "소싱 실패가 경고/정상으로 가려짐")
+    elif evidence["is_no_change"]:
+        require(sourcing.get("status") != "ok", "무변경 시도가 신규 수집 성공으로 가려짐")
 
 
 def main() -> int:
@@ -315,9 +337,22 @@ def main() -> int:
     sourcing = next((x for x in teams if x.get("id") == "sourcing"), {})
     # 정상 수집 통계는 notice 로만 둔다. 단, 수집이 36시간 넘게 발행되지 않은
     # 경우는 실제 장애라 조치로 올린다 (2026-09-28, 9-21~27 미발행을 못 잡았다).
-    s_action = str(sourcing.get("action") or "")
-    require((not s_action or "발행되지 않음" in s_action) and bool(sourcing.get("notice")),
-            "정상 소싱 통계가 다시 노란 조치로 분류됨")
+    collection_evidence = sourcing.get("collection_freshness")
+    if isinstance(collection_evidence, dict):
+        actual_collection = assess_collection(
+            load(D / "daiso_real" / "collection_status.json"),
+            now=dashboard.get("generated_at"))
+        evidence_keys = ("status", "last_attempt_at", "last_success_at",
+                         "last_attempt_status", "data_stale", "attempt_stale",
+                         "is_no_change", "is_failure")
+        require(all(collection_evidence.get(k) == actual_collection.get(k)
+                    for k in evidence_keys),
+                "소싱 최신성 증적이 실제 수집 기록과 불일치")
+    freshness_doc = dashboard.get("automation_freshness") or {}
+    daiso_workflow = ((freshness_doc.get("workflows") or {}).get("workflows") or {}).get("daiso-real-collection.yml") or {}
+    observed_failure = (freshness_doc.get("workflow_observation_fresh") is True
+                        and daiso_workflow.get("status") == "failed")
+    validate_sourcing_card(sourcing, observed_workflow_failure=observed_failure)
 
     for decision in chief.get("decisions") or []:
         require(decision.get("remediation_class") in classes,

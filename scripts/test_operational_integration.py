@@ -27,6 +27,7 @@ import operational_freshness as freshness
 import health_check_v2 as health
 import generate_dashboard_runtime as rt
 import collect_workflow_status as monitor
+import validate_commerce_architecture as architecture
 
 UTC = timezone.utc
 NOW = datetime(2026, 10, 3, 12, tzinfo=UTC)
@@ -215,6 +216,55 @@ class FixtureCase(unittest.TestCase):
         self.assertIn("새 상품 없음", check["reason"])
         self.assertNotIn("새 상품 있음", check["reason"])
         self.assertNotEqual(check["status"], "success")
+
+
+class SourcingValidationTests(unittest.TestCase):
+    def card(self, *, no_change=False, stale=False, failure=False, action=None):
+        return {"notice": "실제 시도 통계", "action": action,
+                "status": "failed" if failure else "warning" if no_change or stale else "ok",
+                "collection_freshness": {"is_no_change": no_change, "attempt_stale": stale,
+                                         "data_stale": stale, "is_failure": failure}}
+
+    def test_fresh_success_statistics_cannot_become_an_action(self):
+        architecture.validate_sourcing_card(self.card())
+        with self.assertRaises(AssertionError):
+            architecture.validate_sourcing_card(self.card(action="110건 받아 봄"))
+
+    def test_no_change_is_warning_notice_not_new_success(self):
+        card = self.card(no_change=True)
+        architecture.validate_sourcing_card(card)
+        card["status"] = "ok"
+        with self.assertRaises(AssertionError):
+            architecture.validate_sourcing_card(card)
+
+    def test_real_stale_or_failed_evidence_requires_action(self):
+        for key in ("stale", "failure"):
+            with self.subTest(key=key):
+                card = self.card(**{key: True}, action="실제 최신성/실패 재검증")
+                architecture.validate_sourcing_card(card)
+                card["action"] = None
+                with self.assertRaises(AssertionError):
+                    architecture.validate_sourcing_card(card)
+
+    def test_failure_cannot_be_hidden_as_warning(self):
+        card = self.card(failure=True, action="실패 확인")
+        card["status"] = "warning"
+        with self.assertRaises(AssertionError):
+            architecture.validate_sourcing_card(card)
+
+    def test_observed_actions_failure_is_evidenced_action(self):
+        architecture.validate_sourcing_card(self.card(action="관측 실패 확인"), observed_workflow_failure=True)
+
+    def test_missing_boolean_evidence_or_notice_is_blocked(self):
+        for key in ("is_failure", "attempt_stale", "data_stale", "is_no_change"):
+            card = self.card()
+            del card["collection_freshness"][key]
+            with self.assertRaises(AssertionError):
+                architecture.validate_sourcing_card(card)
+        card = self.card()
+        card["notice"] = None
+        with self.assertRaises(AssertionError):
+            architecture.validate_sourcing_card(card)
 
 
 class PureAssessmentTests(unittest.TestCase):
