@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-10-03T00:01:23.467378+00:00",
+  "generated_at": "2026-10-03T00:00:24.048398+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -27,7 +27,7 @@
     {
       "priority": 4,
       "title": "팀 자동조치 감시 · 상품 소싱팀",
-      "detail": "수집 시도 95.2시간 경과 · 새 상품 성공 데이터 오래됨 또는 검증 불가 · 새 상품 마지막 성공 2026-09-29T00:48:58.284474+00:00",
+      "detail": "다이소 수집이 4.0일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 확인",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -69,7 +69,7 @@
       },
       {
         "n": 3,
-        "text": "팀 자동조치 감시 · 상품 소싱팀 — 수집 시도 95.2시간 경과 · 새 상품 성공 데이터 오래됨 또는 검증 불가 · 새 상품 마지막 성공 2026-09-29T00:48:58.284"
+        "text": "팀 자동조치 감시 · 상품 소싱팀 — 다이소 수집이 4.0일째 발행되지 않음 (마지막 수집 2026-09-29) · Daiso Real Product Collection 실행 결과 "
       },
       {
         "n": 4,
