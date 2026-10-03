@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "execution_id": "37126161837:1",
+  "generated_at": "2026-10-03T13:26:52.860370+00:00",
+  "status": "degraded",
+  "publish_allowed": true,
+  "required_failures": [],
+  "optional_failures": [
+    "youtube",
+    "google"
+  ],
+  "evidence_errors": [],
+  "results": [
+    {
+      "schema_version": 1,
+      "execution_id": "37126161837:1",
+      "name": "canonical_source",
+      "required": true,
+      "status": "success",
+      "process_exit_code": 0,
+      "wrapper_exit_code": 0,
+      "last_attempt_at": "2026-10-03T13:26:45.335138+00:00",
+      "finished_at": "2026-10-03T13:26:45.422199+00:00",
+      "last_successful_fetch_at": null,
+      "fetch_verification": "not_instrumented",
+      "last_data_changed_at": null,
+      "new_count": 0,
+      "updated_count": 0,
+      "query_count": null,
+      "using_cached_data": true,
+      "content_changed": false,
+      "error_code": null,
+      "reason": null,
+      "artifacts": [
+        {
+          "path": "data/product_master.json",
+          "exists": true,
+          "sha256": "606a3e7fbb11512986205ee72006013b94d1839a4e541b649f36083eb6e171c3",
+          "content_sha256": "60d8ce7a0f2301dccfdcdcedbd34ff38c6fd79171afde1ec7295330830781d73",
+          "valid_json": true
+        }
+      ],
+      "before_artifacts": [
+        {
+          "path": "data/product_master.json",
+          "exists": true,
+          "sha256": "2e82cb76b149de82a18ea7a40b0b76e5d7d03f608ea7ff990b2ba3f3407d717f",
+          "content_sha256": "60d8ce7a0f2301dccfdcdcedbd34ff38c6fd79171afde1ec7295330830781d73",
+          "valid_json": true
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "execution_id": "37126161837:1",
+      "name": "youtube",
+      "required": false,
+      "status": "skipped",
+      "process_exit_code": 0,
+      "wrapper_exit_code": 0,
+      "last_attempt_at": "2026-10-03T13:26:45.494674+00:00",
+      "finished_at": "2026-10-03T13:26:45.578963+00:00",
+      "last_successful_fetch_at": null,
+      "fetch_verification": "not_attempted",
+      "last_data_changed_at": null,
+      "new_count": null,
+      "updated_count": null,
+      "query_count": 0,
+      "using_cached_data": true,
+      "content_changed": false,
+      "error_code": null,
+      "reason": "robots_blocked: YouTube /feeds/videos.xml disallowed; no request attempted",
+      "artifacts": [
+        {
+          "path": "data/youtube_real_videos.json",
+          "exists": true,
+          "sha256": "d78ed30c8abbd74593f932e38e549516681c847323daccd6b2ba6e6438a8f481",
+          "content_sha256": "38cab91ca47119c4370bf7cf129b05a8ada72454d42ffb4e2224e96ebc649f57",
+          "valid_json": true
+        }
+      ],
+      "before_artifacts": [
+        {
+          "path": "data/youtube_real_videos.json",
+          "exists": true,
+          "sha256": "d78ed30c8abbd74593f932e38e549516681c847323daccd6b2ba6e6438a8f481",
+          "content_sha256": "38cab91ca47119c4370bf7cf129b05a8ada72454d42ffb4e2224e96ebc649f57",
+          "valid_json": true
+        }
+      ],
+      "succeeded_count": 0,
+      "failed_count": 0,
+      "parsed_count": 0
+    },
+    {
+      "schema_version": 1,
+      "execution_id": "37126161837:1",
+      "name": "google",
+      "required": false,
+      "status": "skipped",
+      "process_exit_code": 0,
+      "wrapper_exit_code": 0,
+      "last_attempt_at": "2026-10-03T13:26:45.633857+00:00",
+      "finished_at": "2026-10-03T13:26:45.633878+00:00",
+      "last_successful_fetch_at": null,
+      "fetch_verification": "not_attempted",
+      "last_data_changed_at": null,
+      "new_count": null,
+      "updated_count": null,
+      "query_count": null,
+      "using_cached_data": true,
+      "content_changed": false,
+      "error_code": null,
+      "reason": "Hardcoded growth collector disabled; cached keywords unverified, no source fetch attempted",
+      "artifacts": [],
+      "before_artifacts": []
+    },
+    {
+      "schema_version": 1,
+      "execution_id": "37126161837:1",
+      "name": "runtime",
+      "required": true,
+      "status": "success",
+      "process_exit_code": 0,
+      "wrapper_exit_code": 0,
+      "last_attempt_at": "2026-10-03T13:26:49.532694+00:00",
+      "finished_at": "2026-10-03T13:26:52.800387+00:00",
+      "last_successful_fetch_at": null,
+      "fetch_verification": "not_instrumented",
+      "last_data_changed_at": "2026-10-03T13:26:52.800400+00:00",
+      "new_count": null,
+      "updated_count": null,
+      "query_count": null,
+      "using_cached_data": false,
+      "content_changed": true,
+      "error_code": null,
+      "reason": null,
+      "artifacts": [
+        {
+          "path": "data/dashboard_runtime.json",
+          "exists": true,
+          "sha256": "09274086db1a0b3e3dbb7920b271705dba927410da8198add733bd2d16c77b65",
+          "content_sha256": "c375bbbddcd7d147c485218ed2b0fc92b27c83359ecd15a1a787cc2b146fba02",
+          "valid_json": true
+        }
+      ],
+      "before_artifacts": [
+        {
+          "path": "data/dashboard_runtime.json",
+          "exists": true,
+          "sha256": "e5d326512e292abc161f747b87b8da344f57d4425623d1fd81bb0eabb2db42cf",
+          "content_sha256": "cc0fbb26e4f6de2b004062db3b00e2883e46f7e498b9ed908224af3c287d2a64",
+          "valid_json": true
+        }
+      ]
+    }
+  ]
+}

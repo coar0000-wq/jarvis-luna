@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T00:46:32.922088+00:00",
+  "generated_at": "2026-10-03T13:26:57.369532+00:00",
   "purpose": "comparison_only",
   "paid_api_called": false,
   "may_replace_operating_products": false,
@@ -20,13 +20,13 @@
     },
     {
       "channel": "oliveyoung_us",
-      "collected_at": "2026-10-02T21:50:07.995504+00:00",
+      "collected_at": "2026-10-03T11:42:15.459821+00:00",
       "count": 60,
       "trust": "verified"
     },
     {
       "channel": "sokoglam_us",
-      "collected_at": "2026-10-03T00:00:20.822959+00:00",
+      "collected_at": "2026-10-03T11:52:29.376541+00:00",
       "count": 60,
       "trust": "verified"
     },
