@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T14:45:44.523560+09:00",
+  "generated_at": "2026-10-03T16:07:44.423957+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "teams": [
     {
@@ -28,9 +28,9 @@
         "candidates_new": 1,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 4.987,
-        "attempt_age_hours": 4.987,
-        "success_age_hours": 100.946,
+        "candidate_success_age_hours": 6.353,
+        "attempt_age_hours": 6.353,
+        "success_age_hours": 102.313,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": false,
@@ -115,7 +115,7 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-03T14:40:12.118379+09:00",
+      "when": "2026-10-03T16:06:29.339119+09:00",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 19편 · 근거 51개 · 실험 22개 · 새 자료 115건 · 영상 학습 52개",
       "action": null,
       "action_kind": null,
@@ -424,7 +424,7 @@
     {
       "id": "graph",
       "name": "옵시디언 그래프",
-      "when": "2026-10-03T14:41:33.585302+09:00",
+      "when": "2026-10-03T16:06:32.740079+09:00",
       "summary": "84,953노트 · 360,875링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 미분류 7.3% · 학습 키워드 18개 · 영상 30편 자막 검토 대기",
       "action": null,
       "action_kind": null,
@@ -458,7 +458,7 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-10-02T17:37:28.124430+00:00",
-        "몇시간전": 12.1
+        "몇시간전": 13.5
       },
       {
         "단계": "고시 비전 추출",
@@ -476,26 +476,26 @@
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-10-03T05:31:58.035368+00:00",
-        "몇시간전": 0.2
+        "몇시간전": 1.6
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-10-03T05:32:02.286887+00:00",
-        "몇시간전": 0.2
+        "몇시간전": 1.6
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-10-03T05:31:56.647871+00:00",
-        "몇시간전": 0.2
+        "몇시간전": 1.6
       }
     ],
     "heartbeat": {
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-03T05:33:43.331978+00:00",
-      "age_hours": 0.2,
+      "age_hours": 1.567,
       "next_expected_at": "2026-10-03T07:33:43.331978+00:00",
       "grace_deadline_at": "2026-10-03T10:03:43.331978+00:00",
       "is_failure": false,
@@ -511,15 +511,15 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 4.987,
-      "attempt_age_hours": 4.987,
-      "success_age_hours": 100.946,
+      "candidate_success_age_hours": 6.353,
+      "attempt_age_hours": 6.353,
+      "success_age_hours": 102.313,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
       "is_failure": false
     },
-    "workflow_observed_at": "2026-10-03T05:33:30.514424Z",
+    "workflow_observed_at": "2026-10-03T07:07:38.830601Z",
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다."
   },
   "remediation_state": {
@@ -765,7 +765,7 @@
     ]
   },
   "health": {
-    "generated_at": "2026-10-03T05:45:39.960934+00:00",
+    "generated_at": "2026-10-03T07:07:38.946857+00:00",
     "overall_status": "warning",
     "status_legend": {
       "success": "정상",
@@ -775,7 +775,7 @@
       "failed": "예외 - 자동화 장애"
     },
     "kpi": {
-      "last_success": "2026-10-03T00:46:48Z",
+      "last_success": "2026-10-03T05:46:03Z",
       "last_success_source": "github_actions_snapshot",
       "collection_last_attempt": "2026-10-03T00:46:32.753823+00:00",
       "collection_last_success": "2026-09-29T00:48:58.284474+00:00",
@@ -784,21 +784,21 @@
       "candidate_rechecked_this_attempt": 0,
       "failed_jobs": 0,
       "failed_checks": 0,
-      "actions_observed_at": "2026-10-03T05:33:30.514424Z",
+      "actions_observed_at": "2026-10-03T07:07:38.830601Z",
       "actions_observation_fresh": true,
       "queue": 2881,
       "stale_source": "marketing",
       "freshness_summary": {
-        "product_master": "13 min ago",
-        "legal_full": "13 min ago",
-        "shopify_sync": "13 min ago",
-        "pricing": "13 min ago",
-        "marketing": "13 min ago",
-        "daiso": "5.0 hours ago",
-        "deep_heartbeat": "11 min ago",
-        "actions_monitor": "12 min ago",
-        "gosi": "12.1 hours ago",
-        "product_discovery": "13 min ago"
+        "product_master": "1.6 hours ago",
+        "legal_full": "1.6 hours ago",
+        "shopify_sync": "1.6 hours ago",
+        "pricing": "1.6 hours ago",
+        "marketing": "1.6 hours ago",
+        "daiso": "6.4 hours ago",
+        "deep_heartbeat": "1.6 hours ago",
+        "actions_monitor": "just now",
+        "gosi": "13.5 hours ago",
+        "product_discovery": "1.6 hours ago"
       }
     },
     "summary": {
@@ -817,7 +817,7 @@
         "reason": "운영 상품 356개, CP 357개, S 10개",
         "count": 356,
         "s_count": 10,
-        "freshness": "13 min ago",
+        "freshness": "1.6 hours ago",
         "is_failure": false
       },
       {
@@ -826,28 +826,28 @@
         "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
         "is_failure": false,
         "waiting_kind": "human_approval_required",
-        "freshness": "13 min ago"
+        "freshness": "1.6 hours ago"
       },
       {
         "team": "shopify_sync",
         "status": "success",
         "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
         "is_failure": false,
-        "freshness": "13 min ago"
+        "freshness": "1.6 hours ago"
       },
       {
         "team": "pricing",
         "status": "success",
         "reason": "FX 반영, 손익분기·기여마진 계산됨",
         "is_failure": false,
-        "freshness": "13 min ago"
+        "freshness": "1.6 hours ago"
       },
       {
         "team": "marketing",
         "status": "warning",
         "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
         "is_failure": false,
-        "freshness": "13 min ago"
+        "freshness": "1.6 hours ago"
       },
       {
         "team": "daiso",
@@ -860,48 +860,48 @@
         "candidates_new": 1,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 4.985,
-        "attempt_age_hours": 4.985,
-        "success_age_hours": 100.945,
+        "candidate_success_age_hours": 6.352,
+        "attempt_age_hours": 6.352,
+        "success_age_hours": 102.311,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": false,
         "is_failure": false,
-        "freshness": "5.0 hours ago"
+        "freshness": "6.4 hours ago"
       },
       {
         "team": "deep_heartbeat",
         "status": "success",
         "reason": "SafeAutoFix heartbeat 정상",
         "last_attempt_at": "2026-10-03T05:33:43.331978+00:00",
-        "age_hours": 0.199,
+        "age_hours": 1.565,
         "next_expected_at": "2026-10-03T07:33:43.331978+00:00",
         "grace_deadline_at": "2026-10-03T10:03:43.331978+00:00",
         "is_failure": false,
         "delayed": false,
-        "freshness": "11 min ago"
+        "freshness": "1.6 hours ago"
       },
       {
         "team": "actions_monitor",
         "status": "warning",
         "reason": "GitHub Actions 관측: 5/5개 · 실패 0",
         "is_failure": false,
-        "observed_at": "2026-10-03T05:33:30.514424Z",
-        "freshness": "12 min ago"
+        "observed_at": "2026-10-03T07:07:38.830601Z",
+        "freshness": "just now"
       },
       {
         "team": "gosi",
         "status": "success",
-        "reason": "정상 12.1h 전",
+        "reason": "정상 13.5h 전",
         "is_failure": false,
-        "freshness": "12.1 hours ago"
+        "freshness": "13.5 hours ago"
       },
       {
         "team": "product_discovery",
         "status": "success",
-        "reason": "정상 0.2h 전",
+        "reason": "정상 1.6h 전",
         "is_failure": false,
-        "freshness": "13 min ago"
+        "freshness": "1.6 hours ago"
       }
     ],
     "architecture_p0": {
@@ -1040,9 +1040,9 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 4.987,
-      "attempt_age_hours": 4.987,
-      "success_age_hours": 100.946,
+      "candidate_success_age_hours": 6.353,
+      "attempt_age_hours": 6.353,
+      "success_age_hours": 102.313,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -1052,7 +1052,7 @@
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-03T05:33:43.331978+00:00",
-      "age_hours": 0.2,
+      "age_hours": 1.567,
       "next_expected_at": "2026-10-03T07:33:43.331978+00:00",
       "grace_deadline_at": "2026-10-03T10:03:43.331978+00:00",
       "is_failure": false,
@@ -1060,8 +1060,8 @@
     },
     "workflows": {
       "schema_version": 1,
-      "generated_at": "2026-10-03T05:33:30.514424Z",
-      "observed_at": "2026-10-03T05:33:30.514424Z",
+      "generated_at": "2026-10-03T07:07:38.830601Z",
+      "observed_at": "2026-10-03T07:07:38.830601Z",
       "status": "warning",
       "failed_actions": 0,
       "confirmed_failed_actions": 0,
@@ -1072,18 +1072,17 @@
       "workflows": {
         "JARVIS-Core-Automation.yml": {
           "status": "warning",
-          "reason": "scheduled_attempt_delayed",
+          "reason": "latest_in_progress",
           "expected_interval_hours": 2,
           "grace_hours": 4.5,
           "latest_attempt": {
-            "id": 37056615846,
-            "status": "completed",
-            "conclusion": "success",
+            "id": 37105224710,
+            "status": "in_progress",
+            "conclusion": null,
             "event": "schedule",
-            "created_at": "2026-10-02T19:49:31Z",
-            "run_started_at": "2026-10-02T19:49:31Z",
-            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37056615846",
-            "finished_at": "2026-10-02T19:51:26Z",
+            "created_at": "2026-10-03T07:06:04Z",
+            "run_started_at": "2026-10-03T07:06:04Z",
+            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37105224710",
             "run_attempt": 1
           },
           "last_success": {
@@ -1097,47 +1096,48 @@
             "finished_at": "2026-10-02T19:51:26Z",
             "run_attempt": 1
           },
-          "last_attempt_at": "2026-10-02T19:49:31Z",
+          "last_attempt_at": "2026-10-03T07:06:04Z",
           "last_success_at": "2026-10-02T19:51:26Z",
-          "age_hours": 9.7332,
-          "last_success_age_hours": 9.7013,
-          "last_schedule_gap_hours": 6.1278,
+          "age_hours": 0.0263,
+          "last_success_age_hours": 11.2702,
+          "last_schedule_gap_hours": 11.2758,
           "cadence_warning": true,
-          "delayed": true,
+          "delayed": false,
           "queue_delay_minutes": 0.0,
           "metadata_verified": true,
           "validation_warnings": []
         },
         "JARVIS-Deep-Analysis.yml": {
           "status": "warning",
-          "reason": "latest_in_progress",
+          "reason": "schedule_gap_exceeds_grace",
           "expected_interval_hours": 2,
           "grace_hours": 4.5,
           "latest_attempt": {
             "id": 37099202432,
-            "status": "in_progress",
-            "conclusion": null,
+            "status": "completed",
+            "conclusion": "success",
             "event": "schedule",
             "created_at": "2026-10-03T05:14:44Z",
             "run_started_at": "2026-10-03T05:14:44Z",
             "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37099202432",
+            "finished_at": "2026-10-03T05:34:47Z",
             "run_attempt": 1
           },
           "last_success": {
-            "id": 37068629639,
+            "id": 37099202432,
             "status": "completed",
             "conclusion": "success",
             "event": "schedule",
-            "created_at": "2026-10-02T21:44:40Z",
-            "run_started_at": "2026-10-02T21:44:40Z",
-            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37068629639",
-            "finished_at": "2026-10-02T22:03:17Z",
+            "created_at": "2026-10-03T05:14:44Z",
+            "run_started_at": "2026-10-03T05:14:44Z",
+            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37099202432",
+            "finished_at": "2026-10-03T05:34:47Z",
             "run_attempt": 1
           },
           "last_attempt_at": "2026-10-03T05:14:44Z",
-          "last_success_at": "2026-10-02T22:03:17Z",
-          "age_hours": 0.3129,
-          "last_success_age_hours": 7.5038,
+          "last_success_at": "2026-10-03T05:34:47Z",
+          "age_hours": 1.8819,
+          "last_success_age_hours": 1.5477,
           "last_schedule_gap_hours": 7.5011,
           "cadence_warning": true,
           "delayed": false,
@@ -1146,38 +1146,38 @@
           "validation_warnings": []
         },
         "jarvis-real-knowledge.yml": {
-          "status": "warning",
-          "reason": "schedule_gap_exceeds_grace",
+          "status": "success",
+          "reason": "latest_success_fresh",
           "expected_interval_hours": 6,
           "grace_hours": 9,
           "latest_attempt": {
-            "id": 37071438324,
+            "id": 37100540372,
             "status": "completed",
             "conclusion": "success",
             "event": "schedule",
-            "created_at": "2026-10-02T22:14:51Z",
-            "run_started_at": "2026-10-02T22:14:51Z",
-            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37071438324",
-            "finished_at": "2026-10-02T22:20:06Z",
+            "created_at": "2026-10-03T05:39:49Z",
+            "run_started_at": "2026-10-03T05:39:49Z",
+            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37100540372",
+            "finished_at": "2026-10-03T05:46:03Z",
             "run_attempt": 1
           },
           "last_success": {
-            "id": 37071438324,
+            "id": 37100540372,
             "status": "completed",
             "conclusion": "success",
             "event": "schedule",
-            "created_at": "2026-10-02T22:14:51Z",
-            "run_started_at": "2026-10-02T22:14:51Z",
-            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37071438324",
-            "finished_at": "2026-10-02T22:20:06Z",
+            "created_at": "2026-10-03T05:39:49Z",
+            "run_started_at": "2026-10-03T05:39:49Z",
+            "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37100540372",
+            "finished_at": "2026-10-03T05:46:03Z",
             "run_attempt": 1
           },
-          "last_attempt_at": "2026-10-02T22:14:51Z",
-          "last_success_at": "2026-10-02T22:20:06Z",
-          "age_hours": 7.311,
-          "last_success_age_hours": 7.2235,
-          "last_schedule_gap_hours": 9.6392,
-          "cadence_warning": true,
+          "last_attempt_at": "2026-10-03T05:39:49Z",
+          "last_success_at": "2026-10-03T05:46:03Z",
+          "age_hours": 1.4638,
+          "last_success_age_hours": 1.36,
+          "last_schedule_gap_hours": 7.4161,
+          "cadence_warning": false,
           "delayed": false,
           "queue_delay_minutes": 0.0,
           "metadata_verified": true,
@@ -1212,8 +1212,8 @@
           },
           "last_attempt_at": "2026-10-03T00:44:16Z",
           "last_success_at": "2026-10-03T00:46:48Z",
-          "age_hours": 4.8207,
-          "last_success_age_hours": 4.7785,
+          "age_hours": 6.3897,
+          "last_success_age_hours": 6.3475,
           "last_schedule_gap_hours": 23.7633,
           "cadence_warning": false,
           "delayed": false,
@@ -1250,8 +1250,8 @@
           },
           "last_attempt_at": "2026-10-02T07:46:43Z",
           "last_success_at": "2026-10-02T07:47:43Z",
-          "age_hours": 21.7799,
-          "last_success_age_hours": 21.7632,
+          "age_hours": 23.3488,
+          "last_success_age_hours": 23.3322,
           "last_schedule_gap_hours": 23.7083,
           "cadence_warning": false,
           "delayed": false,
@@ -1305,7 +1305,7 @@
     "status": "completed",
     "record_count": 6955,
     "source_counts": {},
-    "updated_at": "2026-10-03T14:40:57.420512+09:00"
+    "updated_at": "2026-10-03T16:06:29.325119+09:00"
   },
   "shopify_marketing_strategy": {
     "status": "evidence_ready",
@@ -1899,7 +1899,7 @@
     "topics": 28,
     "orgs": 35,
     "audit": "passed",
-    "last_generated": "2026-10-03T14:41:33.585302+09:00"
+    "last_generated": "2026-10-03T16:06:32.740079+09:00"
   },
   "training": {
     "status": "completed",
@@ -6412,7 +6412,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 5.758,
+      "age_hours": 7.124,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6426,7 +6426,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 426.439,
+      "age_hours": 427.806,
       "stale": true,
       "freshness_reason": "2026-09-15 이후 갱신 없음 (17.8일)."
     },
@@ -6440,7 +6440,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.415,
+      "age_hours": 1.781,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6454,7 +6454,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.403,
+      "age_hours": 1.769,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6468,7 +6468,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.24,
+      "age_hours": 1.607,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6482,7 +6482,7 @@
       "source_status": "empty",
       "source_trust": "none",
       "source_reason": "페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함",
-      "age_hours": 5.758,
+      "age_hours": 7.124,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6496,7 +6496,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 5.758,
+      "age_hours": 7.124,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6511,7 +6511,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 7.758,
+      "age_hours": 9.125,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6526,7 +6526,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 7.758,
+      "age_hours": 9.125,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6541,7 +6541,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 7.758,
+      "age_hours": 9.125,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6583,7 +6583,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 5.758,
+      "age_hours": 7.124,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6597,7 +6597,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 5.758,
+      "age_hours": 7.124,
       "stale": false,
       "freshness_reason": ""
     },
@@ -6611,7 +6611,7 @@
       "source_status": "ok",
       "source_trust": "verified",
       "source_reason": "",
-      "age_hours": 0.415,
+      "age_hours": 1.781,
       "stale": false,
       "freshness_reason": ""
     }
@@ -6630,6 +6630,6 @@
   "agents_ops": {
     "risk": "medium",
     "task_count": 5,
-    "at": "2026-10-03T05:45:44.590150+00:00"
+    "at": "2026-10-03T07:07:44.527075+00:00"
   }
 }
