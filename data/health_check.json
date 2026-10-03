@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T13:26:57.499411+00:00",
+  "generated_at": "2026-10-03T15:46:12.575988+00:00",
   "overall_status": "warning",
   "status_legend": {
     "success": "정상",
@@ -23,16 +23,16 @@
     "queue": 2881,
     "stale_source": "marketing",
     "freshness_summary": {
-      "product_master": "1.6 hours ago",
-      "legal_full": "1.6 hours ago",
-      "shopify_sync": "1.6 hours ago",
-      "pricing": "1.6 hours ago",
-      "marketing": "1.6 hours ago",
-      "daiso": "12.7 hours ago",
-      "deep_heartbeat": "1.5 hours ago",
-      "actions_monitor": "just now",
-      "gosi": "19.8 hours ago",
-      "product_discovery": "1.6 hours ago"
+      "product_master": "just now",
+      "legal_full": "just now",
+      "shopify_sync": "just now",
+      "pricing": "just now",
+      "marketing": "just now",
+      "daiso": "15.0 hours ago",
+      "deep_heartbeat": "3.9 hours ago",
+      "actions_monitor": "2.3 hours ago",
+      "gosi": "22.1 hours ago",
+      "product_discovery": "just now"
     }
   },
   "summary": {
@@ -51,7 +51,7 @@
       "reason": "운영 상품 356개, CP 357개, S 10개",
       "count": 356,
       "s_count": 10,
-      "freshness": "1.6 hours ago",
+      "freshness": "just now",
       "is_failure": false
     },
     {
@@ -60,28 +60,28 @@
       "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
-      "freshness": "1.6 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "shopify_sync",
       "status": "success",
       "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "1.6 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "1.6 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
       "is_failure": false,
-      "freshness": "1.6 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "daiso",
@@ -94,26 +94,26 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 12.674,
-      "attempt_age_hours": 12.674,
-      "success_age_hours": 108.633,
+      "candidate_success_age_hours": 14.994,
+      "attempt_age_hours": 14.994,
+      "success_age_hours": 110.954,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
       "is_failure": false,
-      "freshness": "12.7 hours ago"
+      "freshness": "15.0 hours ago"
     },
     {
       "team": "deep_heartbeat",
       "status": "success",
       "reason": "SafeAutoFix heartbeat 정상",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 1.533,
+      "age_hours": 3.854,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": false,
-      "freshness": "1.5 hours ago"
+      "freshness": "3.9 hours ago"
     },
     {
       "team": "actions_monitor",
@@ -121,21 +121,21 @@
       "reason": "GitHub Actions 관측: 5/5개 · 실패 0",
       "is_failure": false,
       "observed_at": "2026-10-03T13:26:49.463363Z",
-      "freshness": "just now"
+      "freshness": "2.3 hours ago"
     },
     {
       "team": "gosi",
       "status": "success",
-      "reason": "정상 19.8h 전",
+      "reason": "정상 22.1h 전",
       "is_failure": false,
-      "freshness": "19.8 hours ago"
+      "freshness": "22.1 hours ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 1.6h 전",
+      "reason": "정상 0.0h 전",
       "is_failure": false,
-      "freshness": "1.6 hours ago"
+      "freshness": "just now"
     }
   ],
   "architecture_p0": {
