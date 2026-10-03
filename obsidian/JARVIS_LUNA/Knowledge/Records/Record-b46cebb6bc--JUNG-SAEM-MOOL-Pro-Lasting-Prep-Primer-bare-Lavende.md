@@ -2,7 +2,7 @@
 title: "Record b46cebb6bc · JUNG-SAEM-MOOL-Pro-Lasting-Prep-Primer-bare-Lavender-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.142491+00:00
+updated_at: 2026-10-03T11:55:31.592588+00:00
 tags: [record, real-data]
 ---
 

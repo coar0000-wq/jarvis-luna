@@ -2,7 +2,7 @@
 title: "Record a41e87b44a · Barclays-launches-market-leading-switching-offers-worth-up-to-600"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.255389+00:00
+updated_at: 2026-10-03T11:55:30.654956+00:00
 tags: [record, real-data]
 ---
 

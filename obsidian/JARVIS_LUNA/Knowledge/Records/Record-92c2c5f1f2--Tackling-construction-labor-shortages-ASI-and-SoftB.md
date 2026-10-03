@@ -2,7 +2,7 @@
 title: "Record 92c2c5f1f2 · Tackling-construction-labor-shortages-ASI-and-SoftBank-partner-on-auto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:32.089808+00:00
+updated_at: 2026-10-03T11:55:32.575327+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record aecaf38919 · 2options-CHUNGMIJUNG-Black-Grain-Shampoo-1757-fl-oz520ml-Single--Set"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.139348+00:00
+updated_at: 2026-10-03T11:55:31.589270+00:00
 tags: [record, real-data]
 ---
 

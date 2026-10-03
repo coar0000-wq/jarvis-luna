@@ -2,7 +2,7 @@
 title: "Record e923d5fb09 · New-perspectives-for-the-fitness-fatigue-model-how-to-revisit-question"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.207533+00:00
+updated_at: 2026-10-03T11:55:29.583120+00:00
 tags: [record, real-data]
 ---
 

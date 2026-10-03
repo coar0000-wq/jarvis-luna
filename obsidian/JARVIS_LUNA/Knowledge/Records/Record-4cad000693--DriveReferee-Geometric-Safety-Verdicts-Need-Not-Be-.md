@@ -2,7 +2,7 @@
 title: "Record 4cad000693 · DriveReferee-Geometric-Safety-Verdicts-Need-Not-Be-Learned-for-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.921057+00:00
+updated_at: 2026-10-03T11:55:30.317196+00:00
 tags: [record, real-data]
 ---
 

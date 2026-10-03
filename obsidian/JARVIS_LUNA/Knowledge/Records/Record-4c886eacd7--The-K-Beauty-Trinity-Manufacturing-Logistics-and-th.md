@@ -2,7 +2,7 @@
 title: "Record 4c886eacd7 · The-K-Beauty-Trinity-Manufacturing-Logistics-and-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.836514+00:00
+updated_at: 2026-10-03T11:55:31.263194+00:00
 tags: [record, real-data]
 ---
 

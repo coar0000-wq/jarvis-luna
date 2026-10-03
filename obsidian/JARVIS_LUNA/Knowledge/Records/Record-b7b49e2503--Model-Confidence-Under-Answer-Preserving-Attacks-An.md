@@ -2,7 +2,7 @@
 title: "Record b7b49e2503 · Model-Confidence-Under-Answer-Preserving-Attacks-An-Informativeness-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.807507+00:00
+updated_at: 2026-10-03T11:55:30.197825+00:00
 tags: [record, real-data]
 ---
 

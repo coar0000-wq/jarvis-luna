@@ -2,7 +2,7 @@
 title: "Record 8b7330db7c · Edgepreserving-noise-for-diffusion-models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.555195+00:00
+updated_at: 2026-10-03T11:55:29.930202+00:00
 tags: [record, real-data]
 ---
 

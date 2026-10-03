@@ -2,7 +2,7 @@
 title: "Record 6e52c8fb3d · Samsung-Opens-Built-In-Appliance-Showroom-in-Germany-To-Advance-Europe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.879451+00:00
+updated_at: 2026-10-03T11:55:31.311904+00:00
 tags: [record, real-data]
 ---
 

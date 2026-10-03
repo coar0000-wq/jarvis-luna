@@ -2,7 +2,7 @@
 title: "Record 61ac799b7e · DIAGNÓSTICOS-DE-ENFERMAGEM-PREVALENTES-EM-PESSOAS-COM-HIPERTENSÃO-ARTE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.031462+00:00
+updated_at: 2026-10-03T11:55:31.475812+00:00
 tags: [record, real-data]
 ---
 

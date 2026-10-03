@@ -2,7 +2,7 @@
 title: "Record 362df997fe · DRFORHAIR-Folligen-Thickening-Scalp-Tonic-405-fl-oz120ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.203866+00:00
+updated_at: 2026-10-03T11:55:31.653211+00:00
 tags: [record, real-data]
 ---
 

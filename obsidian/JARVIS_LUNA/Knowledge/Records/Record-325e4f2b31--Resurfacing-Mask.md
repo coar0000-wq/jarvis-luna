@@ -2,7 +2,7 @@
 title: "Record 325e4f2b31 · Resurfacing-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:32.036643+00:00
+updated_at: 2026-10-03T11:55:32.526819+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Resurfacing Mask · Tata Harper · Mask · $105.0 · organic, exfoliating
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

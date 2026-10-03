@@ -2,7 +2,7 @@
 title: "Record b25ccaba2b · Confidence-Estimation-for-Financial-Vision-Language-Models-in-Chart-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.807032+00:00
+updated_at: 2026-10-03T11:55:30.197358+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record dc1c14be7b · Shopify-says-AI-search-is-driving-more-traffic-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.805668+00:00
+updated_at: 2026-10-03T11:55:31.231362+00:00
 tags: [record, real-data]
 ---
 

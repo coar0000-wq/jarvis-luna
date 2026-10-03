@@ -2,7 +2,7 @@
 title: "Record 27655516a5 · ReG-SAM-Reference-Graph-Driven-SAM-for-2D-Foundational-Vessel-Segmenta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.021315+00:00
+updated_at: 2026-10-03T11:55:30.420907+00:00
 tags: [record, real-data]
 ---
 

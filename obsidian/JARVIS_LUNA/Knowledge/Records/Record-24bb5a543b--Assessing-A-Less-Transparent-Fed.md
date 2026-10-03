@@ -2,7 +2,7 @@
 title: "Record 24bb5a543b · Assessing-A-Less-Transparent-Fed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.904194+00:00
+updated_at: 2026-10-03T11:55:32.383871+00:00
 tags: [record, real-data]
 ---
 

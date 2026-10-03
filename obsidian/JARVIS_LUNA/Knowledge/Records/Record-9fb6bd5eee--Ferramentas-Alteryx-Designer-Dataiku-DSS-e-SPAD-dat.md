@@ -2,7 +2,7 @@
 title: "Record 9fb6bd5eee · Ferramentas-Alteryx-Designer-Dataiku-DSS-e-SPAD-dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.193812+00:00
+updated_at: 2026-10-03T11:55:30.592099+00:00
 tags: [record, real-data]
 ---
 

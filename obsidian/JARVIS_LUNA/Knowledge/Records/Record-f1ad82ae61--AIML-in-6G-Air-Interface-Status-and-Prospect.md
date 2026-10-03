@@ -2,7 +2,7 @@
 title: "Record f1ad82ae61 · AIML-in-6G-Air-Interface-Status-and-Prospect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.535847+00:00
+updated_at: 2026-10-03T11:55:29.909175+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record b6846f657d · Dyson-Airsmoothᵀᴹ-Styling-Brush--Universal-voltage-Dry-and-style-Anti-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.445677+00:00
+updated_at: 2026-10-03T11:55:31.908731+00:00
 tags: [record, real-data]
 ---
 

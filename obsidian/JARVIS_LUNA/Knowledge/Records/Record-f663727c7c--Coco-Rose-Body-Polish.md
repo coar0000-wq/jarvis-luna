@@ -2,7 +2,7 @@
 title: "Record f663727c7c · Coco-Rose-Body-Polish"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.915206+00:00
+updated_at: 2026-10-03T11:55:32.394896+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ Coco Rose Body Polish · Herbivore Botanicals · Body · $36.0 · body, exfoliat
 
 ## Connected nodes
 
-[[Source--organic_skincare]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,7 +2,7 @@
 title: "Record d532b78ae9 · Royal-Tulip-Hydrating-Bi-Phase-Tonic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:32.144601+00:00
+updated_at: 2026-10-03T11:55:32.630835+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record c72888f73f · Forward-looking-disclosure-of-customer-metrics-in-IPO-prospectuses-sto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.382861+00:00
+updated_at: 2026-10-03T11:55:29.749790+00:00
 tags: [record, real-data]
 ---
 

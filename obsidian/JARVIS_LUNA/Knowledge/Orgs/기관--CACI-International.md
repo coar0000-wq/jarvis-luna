@@ -2,7 +2,7 @@
 title: "기관 · CACI International"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:33.361314+00:00
+updated_at: 2026-10-03T11:55:33.836360+00:00
 tags: [org, real-data]
 ---
 

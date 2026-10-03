@@ -2,7 +2,7 @@
 title: "Record 1fcdb6e141 · A-Day-in-the-Life-of-a-Roboticist-Charlie-Kemp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.032543+00:00
+updated_at: 2026-10-03T11:55:31.476942+00:00
 tags: [record, real-data]
 ---
 

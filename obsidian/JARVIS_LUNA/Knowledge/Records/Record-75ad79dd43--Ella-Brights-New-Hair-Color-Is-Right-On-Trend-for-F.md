@@ -2,7 +2,7 @@
 title: "Record 75ad79dd43 · Ella-Brights-New-Hair-Color-Is-Right-On-Trend-for-Fall-2026See-the-Pho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.277426+00:00
+updated_at: 2026-10-03T11:55:31.733269+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record a9fe73710c · What-are-spicules-This-is-why-the-K-beauty-buzzword-keeps-popping-up-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.561232+00:00
+updated_at: 2026-10-03T11:55:30.972893+00:00
 tags: [record, real-data]
 ---
 

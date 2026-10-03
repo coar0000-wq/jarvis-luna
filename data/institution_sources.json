@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-03T05:18:08.586342+00:00",
+  "collected_at": "2026-10-03T11:40:00.731501+00:00",
   "total": 1073,
   "organizations": 35,
   "by_org": {
@@ -54,7 +54,7 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-10-03T05:17:20.796845+00:00"
+      "collected_at": "2026-10-03T11:39:17.808691+00:00"
     },
     "sitemap": {
       "status": "ok",
@@ -66,13 +66,13 @@
           "reason": "lastmod 있는 매칭 URL 0건"
         }
       ],
-      "collected_at": "2026-10-03T05:17:44.086626+00:00"
+      "collected_at": "2026-10-03T11:39:41.988242+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 743,
       "failures": [],
-      "collected_at": "2026-10-03T05:18:08.585277+00:00"
+      "collected_at": "2026-10-03T11:40:00.730348+00:00"
     }
   },
   "not_collected": {

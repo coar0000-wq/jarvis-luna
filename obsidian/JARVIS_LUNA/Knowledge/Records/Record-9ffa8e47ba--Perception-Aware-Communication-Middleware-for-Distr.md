@@ -2,7 +2,7 @@
 title: "Record 9ffa8e47ba · Perception-Aware-Communication-Middleware-for-Distributed-Visual-Perce"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.944431+00:00
+updated_at: 2026-10-03T11:55:30.340794+00:00
 tags: [record, real-data]
 ---
 

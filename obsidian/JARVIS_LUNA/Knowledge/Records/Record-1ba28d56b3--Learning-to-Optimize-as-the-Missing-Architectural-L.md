@@ -2,7 +2,7 @@
 title: "Record 1ba28d56b3 · Learning-to-Optimize-as-the-Missing-Architectural-Layer-of-AI-Native-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.183760+00:00
+updated_at: 2026-10-03T11:55:29.560358+00:00
 tags: [record, real-data]
 ---
 

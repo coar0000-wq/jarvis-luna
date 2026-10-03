@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T05:31:54.270806+00:00",
+  "generated_at": "2026-10-03T11:53:06.313449+00:00",
   "generator": "scripts/collect_public_signals.py",
   "선정_경위": "scripts/discover_channels.py 가 robots.txt 확인과 실제 호출로 '가능' 판정한 소스만 구현했다.",
   "total": 68,
@@ -11,84 +11,84 @@
       "note": "구글이 제공하는 실제 급상승 검색어와 추정 트래픽",
       "items": [
         {
-          "keyword": "carlos alcaraz",
+          "keyword": "nolan wells",
           "approx_traffic": "2000+",
           "traffic_num": 2000,
-          "published": "Fri, 2 Oct 2026 21:50:00 -0700",
-          "source_name": "France 24",
-          "url": "https://trends.google.com/trending?geo=US&q=carlos%20alcaraz"
+          "published": "Sat, 3 Oct 2026 04:30:00 -0700",
+          "source_name": "WLBT",
+          "url": "https://trends.google.com/trending?geo=US&q=nolan%20wells"
         },
         {
-          "keyword": "bernie sanders",
-          "approx_traffic": "2000+",
-          "traffic_num": 2000,
-          "published": "Fri, 2 Oct 2026 21:20:00 -0700",
-          "source_name": "The Washington Post",
-          "url": "https://trends.google.com/trending?geo=US&q=bernie%20sanders"
-        },
-        {
-          "keyword": "black clover",
+          "keyword": "dana beatty",
           "approx_traffic": "1000+",
           "traffic_num": 1000,
-          "published": "Fri, 2 Oct 2026 21:10:00 -0700",
-          "source_name": "IMDb",
-          "url": "https://trends.google.com/trending?geo=US&q=black%20clover"
+          "published": "Sat, 3 Oct 2026 04:10:00 -0700",
+          "source_name": "NBC News",
+          "url": "https://trends.google.com/trending?geo=US&q=dana%20beatty"
         },
         {
-          "keyword": "alex de minaur",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 2 Oct 2026 21:00:00 -0700",
+          "keyword": "alexander zverev",
+          "approx_traffic": "500+",
+          "traffic_num": 500,
+          "published": "Sat, 3 Oct 2026 04:20:00 -0700",
           "source_name": "ATP Tour",
-          "url": "https://trends.google.com/trending?geo=US&q=alex%20de%20minaur"
+          "url": "https://trends.google.com/trending?geo=US&q=alexander%20zverev"
         },
         {
-          "keyword": "vgk",
-          "approx_traffic": "1000+",
-          "traffic_num": 1000,
-          "published": "Fri, 2 Oct 2026 21:00:00 -0700",
-          "source_name": "Bleed Cubbie Blue",
-          "url": "https://trends.google.com/trending?geo=US&q=vgk"
-        },
-        {
-          "keyword": "abhishek sharma",
+          "keyword": "tom kim",
           "approx_traffic": "500+",
           "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 22:00:00 -0700",
-          "source_name": "The Times of India",
-          "url": "https://trends.google.com/trending?geo=US&q=abhishek%20sharma"
+          "published": "Sat, 3 Oct 2026 03:50:00 -0700",
+          "source_name": "AP News",
+          "url": "https://trends.google.com/trending?geo=US&q=tom%20kim"
         },
         {
-          "keyword": "cricinfo",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 21:50:00 -0700",
-          "source_name": "Cricinfo",
-          "url": "https://trends.google.com/trending?geo=US&q=cricinfo"
-        },
-        {
-          "keyword": "jon stewart",
-          "approx_traffic": "500+",
-          "traffic_num": 500,
-          "published": "Fri, 2 Oct 2026 21:10:00 -0700",
-          "source_name": "HuffPost",
-          "url": "https://trends.google.com/trending?geo=US&q=jon%20stewart"
-        },
-        {
-          "keyword": "liga mx femenil",
+          "keyword": "naman dhir",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 2 Oct 2026 22:00:00 -0700",
-          "source_name": "ESPN Deportes",
-          "url": "https://trends.google.com/trending?geo=US&q=liga%20mx%20femenil"
+          "published": "Sat, 3 Oct 2026 04:20:00 -0700",
+          "source_name": "Rediff",
+          "url": "https://trends.google.com/trending?geo=US&q=naman%20dhir"
         },
         {
-          "keyword": "october 3rd",
+          "keyword": "gasoline",
           "approx_traffic": "200+",
           "traffic_num": 200,
-          "published": "Fri, 2 Oct 2026 22:00:00 -0700",
-          "source_name": "ELLE",
-          "url": "https://trends.google.com/trending?geo=US&q=october%203rd"
+          "published": "Sat, 3 Oct 2026 04:20:00 -0700",
+          "source_name": "조선일보",
+          "url": "https://trends.google.com/trending?geo=US&q=gasoline"
+        },
+        {
+          "keyword": "rick ness",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 3 Oct 2026 04:10:00 -0700",
+          "source_name": "TV Insider",
+          "url": "https://trends.google.com/trending?geo=US&q=rick%20ness"
+        },
+        {
+          "keyword": "houston",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 3 Oct 2026 04:10:00 -0700",
+          "source_name": "University of Houston Athletics",
+          "url": "https://trends.google.com/trending?geo=US&q=houston"
+        },
+        {
+          "keyword": "balloon fiesta 2026",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 3 Oct 2026 04:00:00 -0700",
+          "source_name": "KOAT",
+          "url": "https://trends.google.com/trending?geo=US&q=balloon%20fiesta%202026"
+        },
+        {
+          "keyword": "daniil medvedev",
+          "approx_traffic": "200+",
+          "traffic_num": 200,
+          "published": "Sat, 3 Oct 2026 04:00:00 -0700",
+          "source_name": "ATP Tour",
+          "url": "https://trends.google.com/trending?geo=US&q=daniil%20medvedev"
         }
       ]
     },

@@ -2,7 +2,7 @@
 title: "Record dfd6089756 · 2019-Businesses-2030-Survey"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.884710+00:00
+updated_at: 2026-10-03T11:55:32.362676+00:00
 tags: [record, real-data]
 ---
 

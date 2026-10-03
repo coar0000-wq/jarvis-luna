@@ -2,7 +2,7 @@
 title: "Record 651bedb950 · Physiogel-S-Dailimune-Ampoule-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.095987+00:00
+updated_at: 2026-10-03T11:55:31.544727+00:00
 tags: [record, real-data]
 ---
 

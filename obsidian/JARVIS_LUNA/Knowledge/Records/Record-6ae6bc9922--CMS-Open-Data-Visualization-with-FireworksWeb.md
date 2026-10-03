@@ -2,7 +2,7 @@
 title: "Record 6ae6bc9922 · CMS-Open-Data-Visualization-with-FireworksWeb"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.265916+00:00
+updated_at: 2026-10-03T11:55:29.644475+00:00
 tags: [record, real-data]
 ---
 

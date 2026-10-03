@@ -2,7 +2,7 @@
 title: "Record de1d5e7853 · CD38-inhibition-preserves-adult-human-hematopoietic-stem-cells"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.439394+00:00
+updated_at: 2026-10-03T11:55:29.803586+00:00
 tags: [record, real-data]
 ---
 

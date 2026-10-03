@@ -2,7 +2,7 @@
 title: "Record 5a8e4cb4cc · How-Shopify-is-approaching-agentic-AI-so-far-in-2026---Digital-Commerc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.684289+00:00
+updated_at: 2026-10-03T11:55:31.105141+00:00
 tags: [record, real-data]
 ---
 

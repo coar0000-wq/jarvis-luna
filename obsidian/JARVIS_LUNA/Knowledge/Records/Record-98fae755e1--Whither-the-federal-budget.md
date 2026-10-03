@@ -2,7 +2,7 @@
 title: "Record 98fae755e1 · Whither-the-federal-budget"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.462948+00:00
+updated_at: 2026-10-03T11:55:29.827526+00:00
 tags: [record, real-data]
 ---
 

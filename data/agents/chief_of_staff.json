@@ -1,7 +1,7 @@
 {
   "agent": "Chief-of-Staff",
   "role": "전체 JARVIS 운영상태를 종합하여 우선순위와 Safe Auto-Fix 실행 여부를 결정",
-  "generated_at": "2026-10-03T05:33:43.330344+00:00",
+  "generated_at": "2026-10-03T11:54:59.006723+00:00",
   "risk": "medium",
   "overall_priority": "P2",
   "overall_action": "INVESTIGATE_EMPTY_CHANNELS",
@@ -54,7 +54,7 @@
       "severity_score": 18,
       "area": "external_sources",
       "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-      "reason": "외부 소스 고장 6건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
       "remediation_class": "external_dependency",
       "auto_execute": false,
       "requires_user_action": false
@@ -76,7 +76,7 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -112,7 +112,7 @@
       "area": "dashboard:legal",
       "team": "legal",
       "action": "TEAM_WAITING_LEGAL",
-      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+      "reason": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기",
       "remediation_class": "human_approval_required",
       "auto_execute": false,
       "requires_user_action": true
@@ -166,7 +166,7 @@
       "severity_score": 18,
       "area": "external_sources",
       "action": "TRACK_EXTERNAL_SOURCE_ERRORS",
-      "reason": "외부 소스 고장 6건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
+      "reason": "외부 소스 고장 5건 추적 중 (기관 수집팀:Deutsche Bank 사이트, 기관 수집팀:TSMC 뉴스룸, 기관 수집팀:Marvell·Intel·Qualcomm·ASML IR RSS, 채널 운영팀:FDA 화장품 리콜·조치 이력)",
       "remediation_class": "external_dependency",
       "auto_execute": false,
       "requires_user_action": false
@@ -296,8 +296,8 @@
       "status": "ok",
       "priority": "P4",
       "evidence": {
-        "nodes": 84943,
-        "links": 360825,
+        "nodes": 84953,
+        "links": 360905,
         "dangling_generated": 0,
         "truth_guard_anomaly": false,
         "anomaly_reasons": []
@@ -365,16 +365,16 @@
       ]
     },
     "graph": {
-      "nodes": 84943,
-      "links": 360825,
+      "nodes": 84953,
+      "links": 360905,
       "dangling_generated": 0,
-      "runtime_nodes": 84943,
-      "runtime_links": 360825,
+      "runtime_nodes": 84953,
+      "runtime_links": 360905,
       "runtime_dangling_generated": 0,
       "truth_guard": {
         "vault": "obsidian/JARVIS_LUNA",
-        "actual_nodes": 84943,
-        "actual_links": 360825,
+        "actual_nodes": 84953,
+        "actual_links": 360905,
         "actual_dangling_generated": 0,
         "actual_dangling_personal": 21,
         "generated_dangling_samples": [],
@@ -462,8 +462,8 @@
         ],
         "generated_dangling_sample_source_count": 0,
         "personal_dangling_sample_source_count": 8,
-        "runtime_nodes": 84943,
-        "runtime_links": 360825,
+        "runtime_nodes": 84953,
+        "runtime_links": 360905,
         "runtime_dangling_generated": 0,
         "runtime_consistent": true,
         "anomaly": false,
@@ -492,7 +492,7 @@
       {
         "team": "legal",
         "kind": "human_approval_required",
-        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 6종(1,2-헥사다이올, 경북, 테트라데칸에이트) — data/manual/inci_overrides.json 확인 대기",
+        "text": "차단 1건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기 · 고시 원문이 깨진 성분 9종(1,2-헥사다이올, [1제] 만니톨, [2제] 정제수) — data/manual/inci_overrides.json 확인 대기",
         "source": "waiting"
       },
       {
@@ -503,8 +503,8 @@
       }
     ],
     "source_errors": {
-      "broken": 6,
-      "generated_at": "2026-10-03T05:33:30.590798+00:00",
+      "broken": 5,
+      "generated_at": "2026-10-03T11:54:46.244649+00:00",
       "items": [
         {
           "team": "기관 수집팀",
@@ -529,11 +529,6 @@
         {
           "team": "마케팅 조사팀",
           "item": "1067500",
-          "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
-        },
-        {
-          "team": "마케팅 조사팀",
-          "item": "1061918",
           "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
         }
       ]

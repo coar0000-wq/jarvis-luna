@@ -2,7 +2,7 @@
 title: "Record 1812a68b70 · 33-Halloween-Nail-Art-Ideas-That-Are-Equal-Parts-Eerie-and-Cute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.253106+00:00
+updated_at: 2026-10-03T11:55:31.700055+00:00
 tags: [record, real-data]
 ---
 

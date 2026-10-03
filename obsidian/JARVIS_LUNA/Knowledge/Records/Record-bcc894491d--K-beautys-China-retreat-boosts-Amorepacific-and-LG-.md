@@ -2,7 +2,7 @@
 title: "Record bcc894491d · K-beautys-China-retreat-boosts-Amorepacific-and-LG-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.510989+00:00
+updated_at: 2026-10-03T11:55:30.922440+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 5c960e6dad · A-Systematic-Comparative-Analysis-of-RAGAS-versus-LLM-as-Judge-for-Gen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.182595+00:00
+updated_at: 2026-10-03T11:55:30.582847+00:00
 tags: [record, real-data]
 ---
 

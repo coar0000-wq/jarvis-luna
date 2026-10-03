@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-03T05:20:02.122339+00:00",
+  "generated_at": "2026-10-03T11:41:34.953671+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
   "total": 32,
   "ok": 32,
   "failed": 0,
-  "fetched_this_run": 4,
+  "fetched_this_run": 0,
   "bad_lines": [],
   "by_team": {
     "listing": 20,

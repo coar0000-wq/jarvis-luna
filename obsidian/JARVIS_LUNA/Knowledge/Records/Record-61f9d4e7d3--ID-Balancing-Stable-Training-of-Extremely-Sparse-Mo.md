@@ -2,7 +2,7 @@
 title: "Record 61f9d4e7d3 · ID-Balancing-Stable-Training-of-Extremely-Sparse-MoE-via-PID-Based-Loa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.096046+00:00
+updated_at: 2026-10-03T11:55:30.496545+00:00
 tags: [record, real-data]
 ---
 

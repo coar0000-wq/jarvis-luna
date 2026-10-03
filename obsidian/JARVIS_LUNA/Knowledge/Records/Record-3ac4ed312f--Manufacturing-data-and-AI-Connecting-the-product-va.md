@@ -2,7 +2,7 @@
 title: "Record 3ac4ed312f · Manufacturing-data-and-AI-Connecting-the-product-value-chain"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.875717+00:00
+updated_at: 2026-10-03T11:55:32.353360+00:00
 tags: [record, real-data]
 ---
 

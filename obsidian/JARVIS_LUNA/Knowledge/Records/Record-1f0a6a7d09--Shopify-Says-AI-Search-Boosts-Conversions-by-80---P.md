@@ -2,7 +2,7 @@
 title: "Record 1f0a6a7d09 · Shopify-Says-AI-Search-Boosts-Conversions-by-80---PYMNTScom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.722966+00:00
+updated_at: 2026-10-03T11:55:31.145601+00:00
 tags: [record, real-data]
 ---
 

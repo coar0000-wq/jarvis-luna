@@ -2,7 +2,7 @@
 title: "Record 3954deec4a · 5colors-CLIO-Kill-Lash-Superproof-Mascara"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.147919+00:00
+updated_at: 2026-10-03T11:55:31.598013+00:00
 tags: [record, real-data]
 ---
 

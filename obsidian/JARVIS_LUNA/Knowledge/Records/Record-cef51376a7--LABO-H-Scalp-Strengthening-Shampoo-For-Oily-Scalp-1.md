@@ -2,7 +2,7 @@
 title: "Record cef51376a7 · LABO-H-Scalp-Strengthening-Shampoo-For-Oily-Scalp-135-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.137000+00:00
+updated_at: 2026-10-03T11:55:31.586901+00:00
 tags: [record, real-data]
 ---
 

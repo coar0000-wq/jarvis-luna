@@ -2,7 +2,7 @@
 title: "Record f9d328d170 · Multi-Active-Exosome-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:32.135185+00:00
+updated_at: 2026-10-03T11:55:32.621347+00:00
 tags: [record, real-data]
 ---
 

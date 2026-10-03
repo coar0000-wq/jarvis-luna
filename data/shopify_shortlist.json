@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T11:09:24.446159+00:00",
+  "generated_at": "2026-10-03T11:53:16.400601+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -37,7 +37,7 @@
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
       ],
-      "score": 99,
+      "score": 100,
       "evidence": {
         "global_product": "Skin1004 Madagascar Centella Ampoule",
         "channel": "tiktok_shop_us",
@@ -81,13 +81,13 @@
       ],
       "score": 96,
       "evidence": {
-        "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-        "channel": "amazon_new_beauty",
-        "similarity": 0.76
+        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.834
       },
       "added_at": "2026-09-29T20:38:16.971548+00:00",
       "status": "active",
-      "note": "규칙상 근거 약화 · 유지하되 검토: 매칭 근거 형태 불일치: 우리 ['얼굴'] vs 미국 ['eye'] (CENTELLIAN 24 360 Shot PDRN Firming Eye )"
+      "note": ""
     },
     {
       "unit_id": "VG-CP000109",
@@ -100,7 +100,7 @@
       "names": [
         "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입"
       ],
-      "score": 93,
+      "score": 92,
       "evidence": {
         "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
         "channel": "amazon_new_beauty",
@@ -153,7 +153,7 @@
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매"
       ],
       "score": 94,
-      "reason": "미국 매칭 유사도 0.56 < 0.7"
+      "reason": "미국 매칭 유사도 0.634 < 0.7"
     },
     {
       "unit_id": "VG-CP000038",
@@ -174,7 +174,7 @@
       "names": [
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
-      "score": 89,
+      "score": 86,
       "reason": "미국 매칭 유사도 0.68 < 0.7"
     }
   ],

@@ -2,7 +2,7 @@
 title: "Record 81977e484d · Bridging-language-and-action-A-survey-of-language-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.596215+00:00
+updated_at: 2026-10-03T11:55:29.974170+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f3a3b23d7b · FULLY-Pore-Peptide-Sebum-Melting-Cream-to-Oil-Peeling-Gel-for-Blackhea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.453621+00:00
+updated_at: 2026-10-03T11:55:31.917024+00:00
 tags: [record, real-data]
 ---
 

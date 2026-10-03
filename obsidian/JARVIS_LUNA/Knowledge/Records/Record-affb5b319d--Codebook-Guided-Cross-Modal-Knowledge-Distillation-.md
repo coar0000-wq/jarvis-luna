@@ -2,7 +2,7 @@
 title: "Record affb5b319d · Codebook-Guided-Cross-Modal-Knowledge-Distillation-for-Structurally-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.074161+00:00
+updated_at: 2026-10-03T11:55:30.475469+00:00
 tags: [record, real-data]
 ---
 

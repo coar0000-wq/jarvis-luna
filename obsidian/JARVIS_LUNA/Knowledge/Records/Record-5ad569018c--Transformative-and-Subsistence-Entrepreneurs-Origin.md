@@ -2,7 +2,7 @@
 title: "Record 5ad569018c · Transformative-and-Subsistence-Entrepreneurs-Origins-and-Impacts-on-Ec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.644013+00:00
+updated_at: 2026-10-03T11:55:30.015062+00:00
 tags: [record, real-data]
 ---
 

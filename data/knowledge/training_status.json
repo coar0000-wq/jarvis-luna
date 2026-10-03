@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-10-03T05:45:34.786708+00:00",
+  "updated_at": "2026-10-03T11:49:29.961295+00:00",
   "real_records": 6955,
   "source_labels": {
     "ai-image": 412,
     "ai-research": 6184,
     "shopify-commerce-image": 359
   },
-  "corpus_sha256": "57a6723f0cde4c80e4335b22de39da86cfa32e1bc56de34677546d3364cc918c",
+  "corpus_sha256": "5936b676e1f475caf0824e3deebabc3ec3912bc8b89e01c956a95abccd777c65",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
-  "experts": 3,
+  "experts": 4,
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.9649173256649892,
+  "training_accuracy_on_corpus": 0.9636232925952553,
   "mean_gate_load": [
     0.304582,
     0.330244,
     0.365174
   ],
-  "note": "This is a text knowledge-routing MoE, not an image foundation model.",
-  "trained_corpus_sha256": "57a6723f0cde4c80e4335b22de39da86cfa32e1bc56de34677546d3364cc918c",
+  "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
+  "trained_corpus_sha256": "5936b676e1f475caf0824e3deebabc3ec3912bc8b89e01c956a95abccd777c65",
   "tuning_promoted": true,
   "tuning_steps": 300,
   "tuning_validation_accuracy": 0.958364312267658,
-  "tuning_validation_macro_f1": 0.88253176487792,
+  "tuning_validation_macro_f1": 0.8836922701379814,
   "tuning_validation_recall": {
-    "ai-image": 0.8571,
-    "ai-research": 0.9636,
+    "ai-image": 0.8714,
+    "ai-research": 0.9627,
     "shopify-commerce-image": 0.9701
   },
   "baseline_majority": {
@@ -42,8 +42,19 @@
   },
   "training_effective": true,
   "학습_판정": "기준선보다 나음: 운영 가중치 교체",
-  "features": "TF-IDF + L2 (min_df 3, 어휘 6558)",
+  "features": "TF-IDF + L2 (min_df 3, 어휘 6557)",
   "말뭉치": "이 말뭉치로 학습한 가중치다.",
-  "tuning_final_loss": 0.24790271264035543,
-  "tuning_gate_load_std": 0.4698959925180123
+  "tuning_final_loss": 0.25437441466257804,
+  "tuning_gate_load_std": 0.43150654649667003,
+  "records_before": 6955,
+  "records_added": 0,
+  "source_status": {
+    "arxiv": "ok",
+    "robotics": "ok",
+    "institutions": "ok",
+    "organic_skincare": "ok",
+    "google": "ok",
+    "us_beauty": "ok"
+  },
+  "corpus": "data/knowledge/training_corpus.jsonl"
 }

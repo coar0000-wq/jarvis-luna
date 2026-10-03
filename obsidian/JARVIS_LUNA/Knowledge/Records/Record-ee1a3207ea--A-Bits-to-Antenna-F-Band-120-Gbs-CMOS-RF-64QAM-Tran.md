@@ -2,7 +2,7 @@
 title: "Record ee1a3207ea · A-Bits-to-Antenna-F-Band-120-Gbs-CMOS-RF-64QAM-Tran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.525231+00:00
+updated_at: 2026-10-03T11:55:29.897671+00:00
 tags: [record, real-data]
 ---
 

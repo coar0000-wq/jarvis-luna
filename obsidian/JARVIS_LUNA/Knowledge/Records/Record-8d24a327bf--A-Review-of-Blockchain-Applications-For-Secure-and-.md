@@ -2,7 +2,7 @@
 title: "Record 8d24a327bf · A-Review-of-Blockchain-Applications-For-Secure-and-Transparent-Financi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.206626+00:00
+updated_at: 2026-10-03T11:55:30.605146+00:00
 tags: [record, real-data]
 ---
 

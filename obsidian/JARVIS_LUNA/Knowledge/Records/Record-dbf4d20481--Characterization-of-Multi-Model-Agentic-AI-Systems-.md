@@ -2,7 +2,7 @@
 title: "Record dbf4d20481 · Characterization-of-Multi-Model-Agentic-AI-Systems-on-General-Tasks-vi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.780257+00:00
+updated_at: 2026-10-03T11:55:30.162196+00:00
 tags: [record, real-data]
 ---
 

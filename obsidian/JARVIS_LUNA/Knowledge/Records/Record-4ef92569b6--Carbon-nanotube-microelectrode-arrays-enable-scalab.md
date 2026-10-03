@@ -2,7 +2,7 @@
 title: "Record 4ef92569b6 · Carbon-nanotube-microelectrode-arrays-enable-scalable-and-accessible-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.461002+00:00
+updated_at: 2026-10-03T11:55:29.825560+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record f233e77570 · Charging-infrastructure-scholarship-for-electric-vehicle-adoption-curr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.514986+00:00
+updated_at: 2026-10-03T11:55:29.886273+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 1b260e804e · Moroccanoil-Mini-Must-Haves---Deluxe-Sampler-Set"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.546496+00:00
+updated_at: 2026-10-03T11:55:32.014736+00:00
 tags: [record, real-data]
 ---
 

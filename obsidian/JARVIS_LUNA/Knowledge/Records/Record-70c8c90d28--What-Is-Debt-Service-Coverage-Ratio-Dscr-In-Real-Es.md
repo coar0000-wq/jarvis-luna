@@ -2,7 +2,7 @@
 title: "Record 70c8c90d28 · What-Is-Debt-Service-Coverage-Ratio-Dscr-In-Real-Estate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.937718+00:00
+updated_at: 2026-10-03T11:55:32.422488+00:00
 tags: [record, real-data]
 ---
 

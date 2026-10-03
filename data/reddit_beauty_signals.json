@@ -1,14 +1,14 @@
 {
   "source": "reddit.com public RSS",
   "method": "hot.rss + top.rss?t=week",
-  "collected_at": "2026-10-03T05:21:06.348841+00:00",
+  "collected_at": "2026-10-03T11:42:28.608821+00:00",
   "subreddits": [
     "AsianBeauty",
     "KoreanBeauty",
     "SkincareAddiction",
     "AsianBeautyAdvice"
   ],
-  "post_count": 50,
+  "post_count": 25,
   "per_subreddit": [
     {
       "subreddit": "AsianBeauty",
@@ -27,9 +27,10 @@
     },
     {
       "subreddit": "SkincareAddiction",
-      "post_count": 25,
+      "post_count": 0,
       "errors": [
-        "hot: HTTPError: HTTP Error 429: Too Many Requests"
+        "hot: HTTPError: HTTP Error 429: Too Many Requests",
+        "top_week: HTTPError: HTTP Error 429: Too Many Requests"
       ]
     },
     {
@@ -43,35 +44,15 @@
   ],
   "hot_keywords": [
     {
-      "keyword": "skin",
-      "score": 16
-    },
-    {
-      "keyword": "skincare",
-      "score": 12
-    },
-    {
-      "keyword": "product",
-      "score": 9
-    },
-    {
       "keyword": "korean",
       "score": 6
     },
     {
-      "keyword": "acne",
-      "score": 5
+      "keyword": "skincare",
+      "score": 6
     },
     {
-      "keyword": "request",
-      "score": 5
-    },
-    {
-      "keyword": "october",
-      "score": 4
-    },
-    {
-      "keyword": "2026",
+      "keyword": "skin",
       "score": 4
     },
     {
@@ -79,35 +60,35 @@
       "score": 4
     },
     {
+      "keyword": "cushion",
+      "score": 4
+    },
+    {
       "keyword": "k-beauty",
       "score": 4
     },
     {
-      "keyword": "after",
-      "score": 4
-    },
-    {
-      "keyword": "misc",
-      "score": 4
-    },
-    {
-      "keyword": "question",
+      "keyword": "october",
       "score": 3
     },
     {
-      "keyword": "psa",
+      "keyword": "2026",
       "score": 3
     },
     {
-      "keyword": "thursday",
-      "score": 2
-    },
-    {
-      "keyword": "current",
-      "score": 2
+      "keyword": "product",
+      "score": 3
     },
     {
       "keyword": "japanese",
+      "score": 3
+    },
+    {
+      "keyword": "shade",
+      "score": 3
+    },
+    {
+      "keyword": "masks",
       "score": 2
     },
     {
@@ -119,129 +100,11 @@
       "score": 2
     },
     {
-      "keyword": "treatments",
+      "keyword": "hair",
       "score": 2
     },
     {
-      "keyword": "actually",
-      "score": 2
-    },
-    {
-      "keyword": "one",
-      "score": 2
-    },
-    {
-      "keyword": "j-beauty",
-      "score": 2
-    },
-    {
-      "keyword": "never",
-      "score": 2
-    },
-    {
-      "keyword": "glass",
-      "score": 2
-    },
-    {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "anything",
-      "score": 2
-    },
-    {
-      "keyword": "goes",
-      "score": 2
-    },
-    {
-      "keyword": "review",
-      "score": 2
-    },
-    {
-      "keyword": "those",
-      "score": 2
-    },
-    {
-      "keyword": "who",
-      "score": 2
-    },
-    {
-      "keyword": "need",
-      "score": 2
-    },
-    {
-      "keyword": "like",
-      "score": 2
-    },
-    {
-      "keyword": "yesstyle",
-      "score": 2
-    },
-    {
-      "keyword": "too",
-      "score": 2
-    },
-    {
-      "keyword": "before",
-      "score": 2
-    },
-    {
-      "keyword": "personal",
-      "score": 2
-    },
-    {
-      "keyword": "only",
-      "score": 2
-    },
-    {
-      "keyword": "people",
-      "score": 2
-    },
-    {
-      "keyword": "serums",
-      "score": 2
-    }
-  ],
-  "beauty_keywords": [
-    {
-      "keyword": "skin",
-      "score": 16
-    },
-    {
-      "keyword": "skincare",
-      "score": 12
-    },
-    {
-      "keyword": "korean",
-      "score": 6
-    },
-    {
-      "keyword": "sunscreens",
-      "score": 4
-    },
-    {
-      "keyword": "k-beauty",
-      "score": 4
-    },
-    {
-      "keyword": "glass",
-      "score": 2
-    },
-    {
-      "keyword": "cushion",
-      "score": 2
-    },
-    {
-      "keyword": "serums",
-      "score": 2
-    },
-    {
-      "keyword": "moisturizer",
-      "score": 2
-    },
-    {
-      "keyword": "retinol",
+      "keyword": "reviews",
       "score": 2
     },
     {
@@ -249,11 +112,133 @@
       "score": 2
     },
     {
-      "keyword": "sunscreen",
+      "keyword": "recommendations",
       "score": 2
     },
     {
-      "keyword": "cleanser",
+      "keyword": "glass",
+      "score": 2
+    },
+    {
+      "keyword": "j-beauty",
+      "score": 2
+    },
+    {
+      "keyword": "question",
+      "score": 1
+    },
+    {
+      "keyword": "ask",
+      "score": 1
+    },
+    {
+      "keyword": "here",
+      "score": 1
+    },
+    {
+      "keyword": "alter-daily",
+      "score": 1
+    },
+    {
+      "keyword": "questions",
+      "score": 1
+    },
+    {
+      "keyword": "authenticity",
+      "score": 1
+    },
+    {
+      "keyword": "thursday",
+      "score": 1
+    },
+    {
+      "keyword": "random",
+      "score": 1
+    },
+    {
+      "keyword": "thrift",
+      "score": 1
+    },
+    {
+      "keyword": "find",
+      "score": 1
+    },
+    {
+      "keyword": "overnight",
+      "score": 1
+    },
+    {
+      "keyword": "missing",
+      "score": 1
+    },
+    {
+      "keyword": "something",
+      "score": 1
+    },
+    {
+      "keyword": "combo",
+      "score": 1
+    },
+    {
+      "keyword": "pls",
+      "score": 1
+    },
+    {
+      "keyword": "huge",
+      "score": 1
+    },
+    {
+      "keyword": "care",
+      "score": 1
+    },
+    {
+      "keyword": "haul",
+      "score": 1
+    },
+    {
+      "keyword": "current",
+      "score": 1
+    },
+    {
+      "keyword": "inventory",
+      "score": 1
+    }
+  ],
+  "beauty_keywords": [
+    {
+      "keyword": "korean",
+      "score": 6
+    },
+    {
+      "keyword": "skincare",
+      "score": 6
+    },
+    {
+      "keyword": "skin",
+      "score": 4
+    },
+    {
+      "keyword": "sunscreens",
+      "score": 4
+    },
+    {
+      "keyword": "cushion",
+      "score": 4
+    },
+    {
+      "keyword": "k-beauty",
+      "score": 4
+    },
+    {
+      "keyword": "masks",
+      "score": 2
+    },
+    {
+      "keyword": "serum",
+      "score": 2
+    },
+    {
+      "keyword": "glass",
       "score": 2
     }
   ],
@@ -280,16 +265,9 @@
       "feed": "hot"
     },
     {
-      "title": "My current skincare inventory + an unreasonable number of sunscreens",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvyic0/my_current_skincare_inventory_an_unreasonable/",
-      "published": "2026-10-02T16:37:24+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Huge Korean/Japanese skin and hair care haul + reviews",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww126p/huge_koreanjapanese_skin_and_hair_care_haul/",
-      "published": "2026-10-02T18:19:09+00:00",
+      "title": "Overnight masks - am I missing something?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwiomk/overnight_masks_am_i_missing_something/",
+      "published": "2026-10-03T09:08:52+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -301,6 +279,48 @@
       "feed": "hot"
     },
     {
+      "title": "Huge Korean/Japanese skin and hair care haul + reviews",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww126p/huge_koreanjapanese_skin_and_hair_care_haul/",
+      "published": "2026-10-02T18:19:09+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "My current skincare inventory + an unreasonable number of sunscreens",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvyic0/my_current_skincare_inventory_an_unreasonable/",
+      "published": "2026-10-02T16:37:24+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Ladies, whose shade match for Korean cushion is shade 21 (AND shade 13 to brighten mid face), what are your holygrails?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwl4zy/ladies_whose_shade_match_for_korean_cushion_is/",
+      "published": "2026-10-03T11:39:58+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "TirTir Glossy Coating Mist",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwkgjb/tirtir_glossy_coating_mist/",
+      "published": "2026-10-03T11:00:38+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Any scalp serum reviews?",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwk19p/any_scalp_serum_reviews/",
+      "published": "2026-10-03T10:34:27+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
+      "title": "Japanese eczema-safe skincare products and repairing hair product recommendations",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwgd2e/japanese_eczemasafe_skincare_products_and/",
+      "published": "2026-10-03T06:42:52+00:00",
+      "subreddit": "AsianBeauty",
+      "feed": "hot"
+    },
+    {
       "title": "What treatments do idols actually do?",
       "url": "https://www.reddit.com/r/AsianBeauty/comments/1ww5eko/what_treatments_do_idols_actually_do/",
       "published": "2026-10-02T21:13:36+00:00",
@@ -308,9 +328,9 @@
       "feed": "hot"
     },
     {
-      "title": "Aegyosal",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwajai/aegyosal/",
-      "published": "2026-10-03T01:14:42+00:00",
+      "title": "Fwee Glass Cushion Refill",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwebwi/fwee_glass_cushion_refill/",
+      "published": "2026-10-03T04:41:42+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -322,9 +342,9 @@
       "feed": "hot"
     },
     {
-      "title": "Fwee Glass Cushion Refill",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwebwi/fwee_glass_cushion_refill/",
-      "published": "2026-10-03T04:41:42+00:00",
+      "title": "Aegyosal",
+      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wwajai/aegyosal/",
+      "published": "2026-10-03T01:14:42+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
     },
@@ -397,216 +417,6 @@
       "published": "2026-10-01T17:06:19+00:00",
       "subreddit": "AsianBeauty",
       "feed": "hot"
-    },
-    {
-      "title": "For those who have bought from Stylevana - delivery drivers often have trouble accessing my front gate and need additional instructions. What's it like communicating with their shipping service? Do they re-deliver if it fails?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvib1b/for_those_who_have_bought_from_stylevana_delivery/",
-      "published": "2026-10-02T02:28:23+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Yesstyle changing total after purchase",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv0f52/yesstyle_changing_total_after_purchase/",
-      "published": "2026-10-01T14:08:57+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "too cool for school no longer on yesstyle?",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wv5bky/too_cool_for_school_no_longer_on_yesstyle/",
-      "published": "2026-10-01T17:16:43+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Anything Goes Thursday: October 01, 2026",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wvan1l/anything_goes_thursday_october_01_2026/",
-      "published": "2026-10-01T20:39:07+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "Mamonde Creamy Tint colorbalm coming backkk!",
-      "url": "https://www.reddit.com/r/AsianBeauty/comments/1wul1am/mamonde_creamy_tint_colorbalm_coming_backkk/",
-      "published": "2026-10-01T00:11:16+00:00",
-      "subreddit": "AsianBeauty",
-      "feed": "hot"
-    },
-    {
-      "title": "[PSA] Please do NOT put tretinion under your eyes - You will regret.",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1ws8nih/psa_please_do_not_put_tretinion_under_your_eyes/",
-      "published": "2026-09-28T08:07:04+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[PSA] Those crumbs from Korean peeling gels aren't just dead skin. The gel clumps on a rubber glove too",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wrabkk/psa_those_crumbs_from_korean_peeling_gels_arent/",
-      "published": "2026-09-27T04:06:43+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Before&After] 2 month progress!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wtr9h4/beforeafter_2_month_progress/",
-      "published": "2026-09-30T00:49:21+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Personal] Am I the only one that feels that everybody is seeing aging as something sooo negative?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wue6kx/personal_am_i_the_only_one_that_feels_that/",
-      "published": "2026-09-30T19:22:39+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] Stopping Azelaic Acid Was the Best Thing I Did For My Skin",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1ws0w61/acne_stopping_azelaic_acid_was_the_best_thing_i/",
-      "published": "2026-09-28T01:00:14+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Misc] Does anyone have any little skincare/hygiene tips to share that people might overlook?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt91fh/misc_does_anyone_have_any_little_skincarehygiene/",
-      "published": "2026-09-29T12:40:20+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Review] After years of trying countless creams and serums, I accidentally found my Holy Grail: LRP Cicaplast Baume B5!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wqjurb/review_after_years_of_trying_countless_creams_and/",
-      "published": "2026-09-26T07:00:41+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "Adapalene 0.3% Journey [B&A]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wqwqfj/adapalene_03_journey_ba/",
-      "published": "2026-09-26T17:45:59+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "The only moisturizer that’s never irritated my skin, healed my barrier, survives even my driest, most irritated patches, and leaves me baby soft. [Misc]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wu4o32/the_only_moisturizer_thats_never_irritated_my/",
-      "published": "2026-09-30T13:15:27+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Before&After] 1 Year Off Whey Protein Powder",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wvh8sy/beforeafter_1_year_off_whey_protein_powder/",
-      "published": "2026-10-02T01:35:59+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] For “Pores” on breast?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wqwzii/product_request_for_pores_on_breast/",
-      "published": "2026-09-26T17:56:12+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] My current addiction: skincare mists!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wqzv2t/product_request_my_current_addiction_skincare/",
-      "published": "2026-09-26T19:52:13+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] I’m turning to reddit because honestly, I’m starting to lose hope",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wqsr05/acne_im_turning_to_reddit_because_honestly_im/",
-      "published": "2026-09-26T15:02:58+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[product request] Good retinol for people who can't get tret?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wuynqh/product_request_good_retinol_for_people_who_cant/",
-      "published": "2026-10-01T12:53:40+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "What is the difference between LRP Cicaplast b5 balm vs b5+ cream? [Product Question]",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wuyg4s/what_is_the_difference_between_lrp_cicaplast_b5/",
-      "published": "2026-10-01T12:43:31+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[MISC] Removing BUTYLENE GLYCOL - life changung for dehydrated acne prone skin",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wse6rr/misc_removing_butylene_glycol_life_changung_for/",
-      "published": "2026-09-28T13:09:10+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[PSA] TNS Advanced serum bottles are efficient!",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wtdypb/psa_tns_advanced_serum_bottles_are_efficient/",
-      "published": "2026-09-29T15:58:10+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] Tret ruined my skin, deathly scared of starting Differin",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wvkz2d/acne_tret_ruined_my_skin_deathly_scared_of/",
-      "published": "2026-10-02T04:52:47+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Research] Are professional skincare treatments actually worth it?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wsy2nd/research_are_professional_skincare_treatments/",
-      "published": "2026-09-29T02:21:20+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Personal] Why is \"wearing sunscreen\" still treated like a big shocking secret?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wvuv1v/personal_why_is_wearing_sunscreen_still_treated/",
-      "published": "2026-10-02T14:12:08+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Question] Where can I buy Eucerin Urea face cream.",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wvxwef/product_question_where_can_i_buy_eucerin_urea/",
-      "published": "2026-10-02T16:13:00+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product request] Seeking a gentle low ph daily cleanser to restore barrier",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wryks3/product_request_seeking_a_gentle_low_ph_daily/",
-      "published": "2026-09-27T23:11:14+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Acne] I need some help with my skin real bad",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt1i5p/acne_i_need_some_help_with_my_skin_real_bad/",
-      "published": "2026-09-29T05:19:48+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Misc] Natural and painless ways to remove a milia/oil gland?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1ww9p4l/misc_natural_and_painless_ways_to_remove_a/",
-      "published": "2026-10-03T00:31:06+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
-    },
-    {
-      "title": "[Product Request] Simple dry skincare on Accutane?",
-      "url": "https://www.reddit.com/r/SkincareAddiction/comments/1wt5f9d/product_request_simple_dry_skincare_on_accutane/",
-      "published": "2026-09-29T09:21:17+00:00",
-      "subreddit": "SkincareAddiction",
-      "feed": "top_week"
     }
   ],
   "note": "커뮤니티 실수요 시그널. 광고 키워드·S등급 코칭 보강용. 판매 순위 아님.",

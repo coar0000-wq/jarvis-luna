@@ -2,7 +2,7 @@
 title: "Record ea0daf642d · The-Arm-Morello-Evaluation-PlatformValidating-CHERI-Based-Security-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.538276+00:00
+updated_at: 2026-10-03T11:55:29.911859+00:00
 tags: [record, real-data]
 ---
 

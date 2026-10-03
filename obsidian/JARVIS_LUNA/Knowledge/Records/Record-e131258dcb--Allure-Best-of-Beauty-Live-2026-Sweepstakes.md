@@ -2,7 +2,7 @@
 title: "Record e131258dcb · Allure-Best-of-Beauty-Live-2026-Sweepstakes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.266690+00:00
+updated_at: 2026-10-03T11:55:31.712565+00:00
 tags: [record, real-data]
 ---
 

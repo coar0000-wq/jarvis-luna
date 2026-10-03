@@ -2,7 +2,7 @@
 title: "Record 6cb292e7a4 · 7-Best-LOréal-Paris-Skin-Care-Products-for-Fine-Lines-Dullness-and-Dry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.264659+00:00
+updated_at: 2026-10-03T11:55:31.710601+00:00
 tags: [record, real-data]
 ---
 

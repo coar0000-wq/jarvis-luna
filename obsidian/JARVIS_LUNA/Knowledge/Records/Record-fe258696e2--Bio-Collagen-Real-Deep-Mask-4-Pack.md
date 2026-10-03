@@ -2,7 +2,7 @@
 title: "Record fe258696e2 · Bio-Collagen-Real-Deep-Mask-4-Pack"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.035240+00:00
+updated_at: 2026-10-03T11:55:31.479779+00:00
 tags: [record, real-data]
 ---
 

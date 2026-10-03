@@ -2,7 +2,7 @@
 title: "Record 379ed2d225 · Birch-Juice-Moisturizing-UVLOCK-SPF-45-Broad-Spectrum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.051809+00:00
+updated_at: 2026-10-03T11:55:31.497576+00:00
 tags: [record, real-data]
 ---
 

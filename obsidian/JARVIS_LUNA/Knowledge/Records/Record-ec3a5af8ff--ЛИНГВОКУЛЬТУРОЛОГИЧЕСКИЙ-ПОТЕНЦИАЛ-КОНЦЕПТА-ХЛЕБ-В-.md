@@ -2,7 +2,7 @@
 title: "Record ec3a5af8ff · ЛИНГВОКУЛЬТУРОЛОГИЧЕСКИЙ-ПОТЕНЦИАЛ-КОНЦЕПТА-ХЛЕБ-В-ПРАКТИКЕ-ОБУЧЕНИЯ-Р"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.138838+00:00
+updated_at: 2026-10-03T11:55:30.539446+00:00
 tags: [record, real-data]
 ---
 

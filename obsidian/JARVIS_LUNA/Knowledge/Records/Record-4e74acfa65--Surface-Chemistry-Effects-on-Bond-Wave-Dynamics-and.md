@@ -2,7 +2,7 @@
 title: "Record 4e74acfa65 · Surface-Chemistry-Effects-on-Bond-Wave-Dynamics-and-Distortion-Induced"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.421742+00:00
+updated_at: 2026-10-03T11:55:29.786183+00:00
 tags: [record, real-data]
 ---
 

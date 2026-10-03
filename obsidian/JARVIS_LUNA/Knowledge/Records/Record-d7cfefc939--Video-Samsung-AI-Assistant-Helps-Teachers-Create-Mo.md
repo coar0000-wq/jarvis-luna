@@ -2,7 +2,7 @@
 title: "Record d7cfefc939 · Video-Samsung-AI-Assistant-Helps-Teachers-Create-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.890076+00:00
+updated_at: 2026-10-03T11:55:31.322950+00:00
 tags: [record, real-data]
 ---
 

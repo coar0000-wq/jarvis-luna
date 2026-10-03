@@ -2,7 +2,7 @@
 title: "Record 130ef422ae · DOUBLE-SERUM-Eye-Anti-Aging-Concentrate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:32.116811+00:00
+updated_at: 2026-10-03T11:55:32.603044+00:00
 tags: [record, real-data]
 ---
 

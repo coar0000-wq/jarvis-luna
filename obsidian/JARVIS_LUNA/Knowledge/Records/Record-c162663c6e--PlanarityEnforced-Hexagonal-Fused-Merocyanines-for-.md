@@ -2,7 +2,7 @@
 title: "Record c162663c6e · PlanarityEnforced-Hexagonal-Fused-Merocyanines-for-HighPerformance-Gre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.310106+00:00
+updated_at: 2026-10-03T11:55:29.682774+00:00
 tags: [record, real-data]
 ---
 

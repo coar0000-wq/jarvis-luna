@@ -2,7 +2,7 @@
 title: "Record bb9710d6fc · Family-Gel-lavant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.238091+00:00
+updated_at: 2026-10-03T11:55:31.685660+00:00
 tags: [record, real-data]
 ---
 

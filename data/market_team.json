@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-03T20:09:24.345862+09:00",
+    "updated_at": "2026-10-03T20:53:18.836792+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -17,8 +17,8 @@
     ],
     "price_band_usd": {
       "min": 6.79,
-      "p25": 17.0,
-      "median": 22.8,
+      "p25": 15.0,
+      "median": 22.49,
       "max": 221.0,
       "n": 100,
       "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-10-03)"
@@ -37,19 +37,19 @@
       },
       {
         "rank": 2,
-        "product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-        "brand": "Anua",
-        "price_usd": 29.0,
-        "rating": 4.8,
-        "review_count": 842
-      },
-      {
-        "rank": 3,
         "product": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
         "brand": "S.NATURE",
         "price_usd": 17.99,
         "rating": 4.9,
         "review_count": 21
+      },
+      {
+        "rank": 3,
+        "product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
+        "brand": "Anua",
+        "price_usd": 29.0,
+        "rating": 4.8,
+        "review_count": 842
       },
       {
         "rank": 4,
@@ -61,14 +61,6 @@
       },
       {
         "rank": 5,
-        "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
-        "brand": "GOODAL",
-        "price_usd": 24.9,
-        "rating": 5,
-        "review_count": 2328
-      },
-      {
-        "rank": 6,
         "product": "[2options] Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
         "brand": "Torriden",
         "price_usd": 20.49,
@@ -76,7 +68,7 @@
         "review_count": 15
       },
       {
-        "rank": 7,
+        "rank": 6,
         "product": "[2options] LAGOM Cellup Micro Foam Cleanser 4.06 fl. oz.(120ml)",
         "brand": "LAGOM",
         "price_usd": 14.0,
@@ -84,7 +76,7 @@
         "review_count": 5358
       },
       {
-        "rank": 8,
+        "rank": 7,
         "product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
         "brand": "Anua",
         "price_usd": 13.99,
@@ -92,31 +84,7 @@
         "review_count": 128
       },
       {
-        "rank": 9,
-        "product": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
-        "brand": "WAKEMAKE",
-        "price_usd": 14.99,
-        "rating": 4.8,
-        "review_count": 1089
-      },
-      {
-        "rank": 10,
-        "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Pad Refill Set 70ct 5.41 fl. oz.(160ml)",
-        "brand": "GOODAL",
-        "price_usd": 26.0,
-        "rating": 4.8,
-        "review_count": 58
-      },
-      {
-        "rank": 11,
-        "product": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
-        "brand": "WAKEMAKE",
-        "price_usd": 14.99,
-        "rating": 4.7,
-        "review_count": 567
-      },
-      {
-        "rank": 12,
+        "rank": 8,
         "product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
         "brand": "Anua",
         "price_usd": 25.0,
@@ -124,7 +92,47 @@
         "review_count": 414
       },
       {
+        "rank": 9,
+        "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
+        "brand": "GOODAL",
+        "price_usd": 24.9,
+        "rating": 5,
+        "review_count": 2328
+      },
+      {
+        "rank": 10,
+        "product": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
+        "brand": "WAKEMAKE",
+        "price_usd": 14.99,
+        "rating": 4.8,
+        "review_count": 1089
+      },
+      {
+        "rank": 11,
+        "product": "[2options] ongredients Skin Barrier Calming Lotion 7.43 fl. oz.(220ml)",
+        "brand": "ongredients",
+        "price_usd": 19.12,
+        "rating": 5,
+        "review_count": 5
+      },
+      {
+        "rank": 12,
+        "product": "[2options] LABO-H Scalp Strengthening Shampoo for Oily Scalp 29.5 fl. oz.(875ml) (Single / Set)",
+        "brand": "LABO-H",
+        "price_usd": 24.98,
+        "rating": 4.9,
+        "review_count": 225
+      },
+      {
         "rank": 13,
+        "product": "[3types] CORINGCO Toktokhara No Glue Eyelash (SANRIO)(+Comb Mirror Keyring)",
+        "brand": "CORINGCO",
+        "price_usd": 14.99,
+        "rating": 4.8,
+        "review_count": 130
+      },
+      {
+        "rank": 14,
         "product": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
         "brand": "alternativestereo",
         "price_usd": 9.35,
@@ -132,23 +140,51 @@
         "review_count": 4190
       },
       {
-        "rank": 14,
+        "rank": 15,
         "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
         "brand": "REJURAN",
         "price_usd": 44.0,
         "rating": 4.7,
         "review_count": 14
-      },
-      {
-        "rank": 15,
-        "product": "RETURNITY Ear Therapy Acupressure Patch 20 Count (Hello Kitty Exclusive)",
-        "brand": "RETURNITY",
-        "price_usd": 22.99,
-        "rating": 4.7,
-        "review_count": 23
       }
     ],
     "open_beauty_facts_top": [
+      {
+        "product": "NIVEA Soft hydraterende créme 48u hydratatie",
+        "brand": "NIVEA",
+        "category": "스킨케어",
+        "code": "4005900963499"
+      },
+      {
+        "product": "hand cream",
+        "brand": "Neutrogena",
+        "category": "스킨케어",
+        "code": "3574661685977"
+      },
+      {
+        "product": "Aveeno Baby Eczema Therapy",
+        "brand": "Aveeno",
+        "category": "스킨케어",
+        "code": "0381371018451"
+      },
+      {
+        "product": "BioCare Aloe Vera",
+        "brand": "BioCare",
+        "category": "스킨케어",
+        "code": "6297811169055"
+      },
+      {
+        "product": "Gluta hya dewy radicance",
+        "brand": "Vaseline",
+        "category": "스킨케어",
+        "code": "8901030957048"
+      },
+      {
+        "product": "Healthy Feet Cream",
+        "brand": "O’Keefes",
+        "category": "스킨케어",
+        "code": "0722510026003"
+      },
       {
         "product": "Masque Purifiant Naturel à L'Argile Verte.",
         "brand": "Argile, Juvaflorine",
@@ -202,42 +238,6 @@
         "brand": "SOHO N.Y.C",
         "category": "마스크팩",
         "code": "8683420170045"
-      },
-      {
-        "product": "purple rice PDRN bubble mask",
-        "brand": "Over The Moon Global Co. Ltd., tokki on the moon",
-        "category": "마스크팩",
-        "code": "8809990942121"
-      },
-      {
-        "product": "Tuchmaske Selfcare Moments",
-        "brand": "Balea",
-        "category": "마스크팩",
-        "code": "4070765070989"
-      },
-      {
-        "product": "CeraVe Hydraterende Reinigingscrème",
-        "brand": "CeraVe",
-        "category": "클렌징",
-        "code": "3337875597333"
-      },
-      {
-        "product": "Effaclar Purifying Foaming Gel Cleanser for Oily Skin",
-        "brand": "Alani",
-        "category": "클렌징",
-        "code": "3337872411083"
-      },
-      {
-        "product": "Clean & Clear Blackhead Clearing Daily Scrub",
-        "brand": "Clean & Clear",
-        "category": "클렌징",
-        "code": "3574660149807"
-      },
-      {
-        "product": "Hydrating cream-to-foam cleanser",
-        "brand": "CeraVe",
-        "category": "클렌징",
-        "code": "3337875743563"
       }
     ],
     "alt_us_channels_top": [
@@ -248,27 +248,21 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-        "brand": "Anua",
-        "price_usd": 29.0,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
         "product": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
         "brand": "S.NATURE",
         "price_usd": 17.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[2options] Mise-en-scène Perfect Serum Original 2.70 fl. oz.(80ml) (Single / Set)",
-        "brand": "Mise-en-scène",
-        "price_usd": 17.99,
+        "product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
+        "brand": "Anua",
+        "price_usd": 29.0,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
-        "brand": "GOODAL",
-        "price_usd": 24.9,
+        "product": "[2options] Mise-en-scène Perfect Serum Original 2.70 fl. oz.(80ml) (Single / Set)",
+        "brand": "Mise-en-scène",
+        "price_usd": 17.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -290,27 +284,39 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
+        "product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "brand": "Anua",
+        "price_usd": 25.0,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
+        "brand": "GOODAL",
+        "price_usd": 24.9,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
         "product": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
         "brand": "WAKEMAKE",
         "price_usd": 14.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Pad Refill Set 70ct 5.41 fl. oz.(160ml)",
-        "brand": "GOODAL",
-        "price_usd": 26.0,
+        "product": "[2options] ongredients Skin Barrier Calming Lotion 7.43 fl. oz.(220ml)",
+        "brand": "ongredients",
+        "price_usd": 19.12,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
-        "brand": "WAKEMAKE",
+        "product": "[2options] LABO-H Scalp Strengthening Shampoo for Oily Scalp 29.5 fl. oz.(875ml) (Single / Set)",
+        "brand": "LABO-H",
+        "price_usd": 24.98,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "[3types] CORINGCO Toktokhara No Glue Eyelash (SANRIO)(+Comb Mirror Keyring)",
+        "brand": "CORINGCO",
         "price_usd": 14.99,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "brand": "Anua",
-        "price_usd": 25.0,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -326,21 +332,21 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "RETURNITY Ear Therapy Acupressure Patch 20 Count (Hello Kitty Exclusive)",
-        "brand": "RETURNITY",
-        "price_usd": 22.99,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "[2options] ongredients Skin Barrier Calming Lotion 7.43 fl. oz.(220ml)",
-        "brand": "ongredients",
-        "price_usd": 19.12,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "[3types] CORINGCO Toktokhara No Glue Eyelash (SANRIO)(+Comb Mirror Keyring)",
+        "product": "[11types] CORINGCO Toktokhara No Glue Eyelash",
         "brand": "CORINGCO",
+        "price_usd": 15.0,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
+        "brand": "WAKEMAKE",
         "price_usd": 14.99,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+        "brand": "Anua",
+        "price_usd": 21.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -350,15 +356,9 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[2options] LABO-H Scalp Strengthening Shampoo for Oily Scalp 29.5 fl. oz.(875ml) (Single / Set)",
-        "brand": "LABO-H",
-        "price_usd": 24.98,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "[2options] S.NATURE Aqua Squalane Serum 1.69 fl. oz.(50ml)",
-        "brand": "S.NATURE",
-        "price_usd": 13.99,
+        "product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "brand": "MEDIHEAL",
+        "price_usd": 20.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       }
     ],
@@ -433,7 +433,7 @@
         "title": "How to Use Claude to Build and Run a Shopify Store",
         "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
         "channel": null,
-        "views": 134000,
+        "views": 135000,
         "note": "",
         "teams": [
           "market",
@@ -584,7 +584,7 @@
         "title": "The COMPLETE Meta Tutorial (Meta Ads, Meta Business Suite, Meta AI, Facebook Ads & More!)",
         "url": "https://www.youtube.com/watch?v=OE4WimLYVGE",
         "channel": null,
-        "views": 45000,
+        "views": 46000,
         "note": "",
         "teams": [
           "market",
@@ -1141,8 +1141,15 @@
       "trend": null,
       "search_volume": null,
       "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
-      "us_market_examples": [],
-      "us_example_count": 0,
+      "us_market_examples": [
+        {
+          "product": "Torriden Dive-in Low Molecular Hyaluronic Acid Mask Sheet 10ct 0.91 fl. oz.(27ml)",
+          "brand": "Torriden",
+          "price_usd": 28.49,
+          "us_rank": 71
+        }
+      ],
+      "us_example_count": 1,
       "gemini_tags": [
         "collagen mask",
         "essence gel mask",
@@ -1182,19 +1189,19 @@
           "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
           "brand": "REJURAN",
           "price_usd": 44.0,
-          "us_rank": 14
+          "us_rank": 15
+        },
+        {
+          "product": "VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml)",
+          "brand": "VT",
+          "price_usd": 37.44,
+          "us_rank": 42
         },
         {
           "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)",
           "brand": "SUNGBOON EDITOR",
           "price_usd": 21.0,
-          "us_rank": 56
-        },
-        {
-          "product": "SKIN1004 Madagascar Centella Ampoule 3.38 fl. oz.(100ml)",
-          "brand": "SKIN1004",
-          "price_usd": 21.25,
-          "us_rank": 70
+          "us_rank": 81
         }
       ],
       "us_example_count": 3,
@@ -1229,7 +1236,7 @@
           "product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
           "brand": "Anua",
           "price_usd": 29.0,
-          "us_rank": 2
+          "us_rank": 3
         },
         {
           "product": "[2options] Mise-en-scène Perfect Serum Original 2.70 fl. oz.(80ml) (Single / Set)",
@@ -1238,9 +1245,9 @@
           "us_rank": 4
         },
         {
-          "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
-          "brand": "GOODAL",
-          "price_usd": 24.9,
+          "product": "[2options] Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
+          "brand": "Torriden",
+          "price_usd": 20.49,
           "us_rank": 5
         }
       ],
@@ -1278,19 +1285,19 @@
           "product": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
           "brand": "S.NATURE",
           "price_usd": 17.99,
-          "us_rank": 3
+          "us_rank": 2
         },
         {
           "product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
           "brand": "Anua",
           "price_usd": 25.0,
-          "us_rank": 12
+          "us_rank": 8
         },
         {
           "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha",
           "brand": "GOODAL",
           "price_usd": 20.9,
-          "us_rank": 21
+          "us_rank": 22
         }
       ],
       "us_example_count": 3,
@@ -1325,19 +1332,19 @@
           "product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
           "brand": "Anua",
           "price_usd": 29.0,
-          "us_rank": 2
+          "us_rank": 3
         },
         {
           "product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
           "brand": "Anua",
           "price_usd": 13.99,
-          "us_rank": 8
+          "us_rank": 7
         },
         {
           "product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
           "brand": "Anua",
           "price_usd": 25.0,
-          "us_rank": 12
+          "us_rank": 8
         }
       ],
       "us_example_count": 3,
@@ -1368,22 +1375,22 @@
       "trend_unavailable_reason": "Google Trends 공식 API 가 승인제 alpha 라 미연동. 검색 추세를 추정하지 않는다.",
       "us_market_examples": [
         {
-          "product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
-          "brand": "MEDIHEAL",
-          "price_usd": 24.5,
-          "us_rank": 42
-        },
-        {
-          "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)",
-          "brand": "SUNGBOON EDITOR",
-          "price_usd": 21.0,
-          "us_rank": 56
+          "product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
+          "brand": "NE:AR",
+          "price_usd": 26.99,
+          "us_rank": 41
         },
         {
           "product": "Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)",
           "brand": "Anua",
           "price_usd": 30.0,
-          "us_rank": 68
+          "us_rank": 51
+        },
+        {
+          "product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
+          "brand": "MEDIHEAL",
+          "price_usd": 24.5,
+          "us_rank": 56
         }
       ],
       "us_example_count": 3,
@@ -1419,19 +1426,13 @@
           "us_rank": 52
         },
         {
-          "product": "Torriden Solid In Ceramide Lip Essence Duo Set 0.37 fl. oz.(11ml) x 2ea",
-          "brand": "Torriden",
-          "price_usd": 14.99,
-          "us_rank": 95
-        },
-        {
-          "product": "numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml)",
-          "brand": "numbuzin",
-          "price_usd": 26.39,
-          "us_rank": 96
+          "product": "VT PDRN Essence 100 1.69 fl. oz.(50ml) Set (+PDRN Essence 100 0.06 fl. oz.(2ml) + 100 Reedle Shot 0.06 fl. oz.(2ml))",
+          "brand": "VT",
+          "price_usd": 44.88,
+          "us_rank": 77
         }
       ],
-      "us_example_count": 3,
+      "us_example_count": 2,
       "gemini_tags": [
         "essence gel mask"
       ],
@@ -1452,13 +1453,13 @@
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "name_en": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
       "bucket": "스킨케어",
-      "score": 99,
+      "score": 100,
       "rating": 4.9,
       "review_count": 16253,
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1488,7 +1489,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1512,13 +1513,13 @@
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
       "bucket": "스킨케어",
-      "score": 97,
+      "score": 98,
       "rating": 4.8,
       "review_count": 16857,
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1548,7 +1549,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1578,7 +1579,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1608,7 +1609,7 @@
       "cost_krw": 2000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1632,13 +1633,13 @@
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "name_en": "VT Super Hyalon Sleeping Mask 4ml x 6ea",
       "bucket": "스킨케어",
-      "score": 93,
+      "score": 92,
       "rating": 4.8,
       "review_count": 3884,
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1668,7 +1669,7 @@
       "cost_krw": 2000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1698,7 +1699,7 @@
       "cost_krw": 1000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "선행 증거 보강",
       "ad_keywords": [],
@@ -1718,13 +1719,13 @@
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
       "bucket": "마스크팩",
-      "score": 89,
+      "score": 86,
       "rating": 4.7,
       "review_count": 2383,
       "cost_krw": 1000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.0,
+      "suggested_price_usd": 15.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1756,27 +1757,27 @@
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
-      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-      "brand": "Anua",
-      "price_usd": 29.0,
-      "rating": 4.8,
-      "review_count": 842,
-      "us_rank": 2,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA69419689",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
       "brand": "S.NATURE",
       "price_usd": 17.99,
       "rating": 4.9,
       "review_count": 21,
+      "us_rank": 2,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA16733220",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
+      "brand": "Anua",
+      "price_usd": 29.0,
+      "rating": 4.8,
+      "review_count": 842,
       "us_rank": 3,
       "daiso_bucket": "스킨케어",
       "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA16733220",
+      "url": "https://us.oliveyoung.com/products/UA69419689",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
@@ -1785,9 +1786,9 @@
       "price_usd": 21.99,
       "rating": 4.8,
       "review_count": 804,
-      "us_rank": 23,
+      "us_rank": 18,
       "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 23위 · 마스크팩 동일 포지션",
+      "why": "us.oliveyoung.com/best-sellers 실수집 18위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA84178713",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
@@ -1797,9 +1798,9 @@
       "price_usd": 20.99,
       "rating": 4.8,
       "review_count": 1080,
-      "us_rank": 37,
+      "us_rank": 20,
       "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 37위 · 마스크팩 동일 포지션",
+      "why": "us.oliveyoung.com/best-sellers 실수집 20위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA48723304",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     },
@@ -1809,9 +1810,9 @@
       "price_usd": 26.0,
       "rating": 5,
       "review_count": 6,
-      "us_rank": 43,
+      "us_rank": 53,
       "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 43위 · 마스크팩 동일 포지션",
+      "why": "us.oliveyoung.com/best-sellers 실수집 53위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA39329211",
       "source": "us.oliveyoung.com/best-sellers 실수집"
     }
@@ -1820,13 +1821,13 @@
     "Shopify Draft Action 5건의 payload hash를 검토하고 사람 승인",
     "AI 선행 게이트 차단 1건의 증거 보강: legal, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
-    "시장 가격대 100건 기준 중앙값 $22.8 주 1회 확인",
+    "시장 가격대 100건 기준 중앙값 $22.49 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 11,
+    "signals_verified": 13,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [

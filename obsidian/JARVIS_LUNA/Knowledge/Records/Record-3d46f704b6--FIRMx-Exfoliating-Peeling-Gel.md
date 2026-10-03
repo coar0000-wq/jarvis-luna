@@ -2,7 +2,7 @@
 title: "Record 3d46f704b6 · FIRMx-Exfoliating-Peeling-Gel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:32.120425+00:00
+updated_at: 2026-10-03T11:55:32.606537+00:00
 tags: [record, real-data]
 ---
 
@@ -19,4 +19,4 @@ FIRMx Exfoliating Peeling Gel · Peter Thomas Roth · $49
 
 ## Connected nodes
 
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]
+[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

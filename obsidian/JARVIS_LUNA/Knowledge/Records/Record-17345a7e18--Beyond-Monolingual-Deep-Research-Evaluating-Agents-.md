@@ -2,7 +2,7 @@
 title: "Record 17345a7e18 · Beyond-Monolingual-Deep-Research-Evaluating-Agents-and-Retrievers-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.787043+00:00
+updated_at: 2026-10-03T11:55:30.169589+00:00
 tags: [record, real-data]
 ---
 

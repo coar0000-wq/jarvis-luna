@@ -2,7 +2,7 @@
 title: "Record ed6b72fdde · PURITO-SEOUL-Wonder-Releaf-Centella-Serum-Unscented-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.209432+00:00
+updated_at: 2026-10-03T11:55:31.659106+00:00
 tags: [record, real-data]
 ---
 

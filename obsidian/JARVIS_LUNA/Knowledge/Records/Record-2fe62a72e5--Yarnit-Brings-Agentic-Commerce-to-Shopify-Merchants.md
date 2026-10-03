@@ -2,7 +2,7 @@
 title: "Record 2fe62a72e5 · Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.854756+00:00
+updated_at: 2026-10-03T11:55:31.286016+00:00
 tags: [record, real-data]
 ---
 

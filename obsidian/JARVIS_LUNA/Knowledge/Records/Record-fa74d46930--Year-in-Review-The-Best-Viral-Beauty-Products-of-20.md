@@ -2,7 +2,7 @@
 title: "Record fa74d46930 · Year-in-Review-The-Best-Viral-Beauty-Products-of-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.694613+00:00
+updated_at: 2026-10-03T11:55:31.116206+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxOTG0tdDBsQ2JFZTFFWEpsdlpzZzY4U0JuNGFYN0pHN2dlUWhIbjF5cjNFeWNJc2pweE8yWWpwTVFOZWJVYXpHcUZMX1BoazVUdDlJdS1iQ25sWV85NHVpVHRyZW9zTFdXMXRHTERPQW5UWDg3VU1DSnEwSkRVUmhVeWpUX09YWHNPZTBlT1dsNXUwd0hMdWc?oc=5)
 
-**제목:** The 17 Best Viral TikTok Beauty Products of 2025, According to a Beauty Editor Who Scrolls for a Living - Cosmopolitan
+**제목:** The 17 Best Viral TikTok Beauty Products of 2025, According to a Beauty Editor Who Scrolls for a Living - cosmopolitan.com
 
-The 17 Best Viral TikTok Beauty Products of 2025, According to a Beauty Editor Who Scrolls for a Living - Cosmopolitan
+The 17 Best Viral TikTok Beauty Products of 2025, According to a Beauty Editor Who Scrolls for a Living - cosmopolitan.com
 
 **출처:** Source · Google Search
 

@@ -2,7 +2,7 @@
 title: "Record c35fe7de6a · Palmolive-Naturals-zeeptablet-original"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.239280+00:00
+updated_at: 2026-10-03T11:55:31.686892+00:00
 tags: [record, real-data]
 ---
 

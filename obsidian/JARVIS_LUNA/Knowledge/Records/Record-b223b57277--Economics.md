@@ -2,7 +2,7 @@
 title: "Record b223b57277 · Economics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.827607+00:00
+updated_at: 2026-10-03T11:55:32.309696+00:00
 tags: [record, real-data]
 ---
 

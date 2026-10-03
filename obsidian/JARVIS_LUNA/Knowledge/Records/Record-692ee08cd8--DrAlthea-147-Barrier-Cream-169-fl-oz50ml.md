@@ -2,7 +2,7 @@
 title: "Record 692ee08cd8 · DrAlthea-147-Barrier-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.201192+00:00
+updated_at: 2026-10-03T11:55:31.650552+00:00
 tags: [record, real-data]
 ---
 

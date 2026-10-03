@@ -2,7 +2,7 @@
 title: "Record db84019f4e · Near-Optimal-Quantum-Lower-Bounds-for-Convex-Optimization-via-Fourier-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.824431+00:00
+updated_at: 2026-10-03T11:55:30.215843+00:00
 tags: [record, real-data]
 ---
 

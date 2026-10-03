@@ -2,7 +2,7 @@
 title: "Record 56c2c425a4 · FaceLove-Color-Changing-Foundation-Stick-Shade-Adapting-Korean-Makeup-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.454984+00:00
+updated_at: 2026-10-03T11:55:31.918403+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 6caeb6add8 · Inside-Omrons-next-generation-LD-mobile-robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:32.066709+00:00
+updated_at: 2026-10-03T11:55:32.555184+00:00
 tags: [record, real-data]
 ---
 

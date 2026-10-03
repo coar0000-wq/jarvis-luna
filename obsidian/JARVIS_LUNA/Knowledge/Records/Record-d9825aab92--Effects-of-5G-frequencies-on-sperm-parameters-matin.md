@@ -2,7 +2,7 @@
 title: "Record d9825aab92 · Effects-of-5G-frequencies-on-sperm-parameters-mating-success-and-offsp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.689152+00:00
+updated_at: 2026-10-03T11:55:30.067386+00:00
 tags: [record, real-data]
 ---
 

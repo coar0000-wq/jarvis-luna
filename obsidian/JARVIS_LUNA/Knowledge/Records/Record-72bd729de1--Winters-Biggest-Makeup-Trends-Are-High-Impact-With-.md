@@ -2,7 +2,7 @@
 title: "Record 72bd729de1 · Winters-Biggest-Makeup-Trends-Are-High-Impact-With-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.430578+00:00
+updated_at: 2026-10-03T11:55:30.836225+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "JARVIS Real Knowledge Index"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:33.567842+00:00
+updated_at: 2026-10-03T11:55:34.049011+00:00
 tags: [index, real-data, graph]
 ---
 

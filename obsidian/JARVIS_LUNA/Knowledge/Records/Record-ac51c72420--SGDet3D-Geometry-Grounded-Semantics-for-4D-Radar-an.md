@@ -2,7 +2,7 @@
 title: "Record ac51c72420 · SGDet3D-Geometry-Grounded-Semantics-for-4D-Radar-and-Camera-3D-Object-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.215186+00:00
+updated_at: 2026-10-03T11:55:29.590494+00:00
 tags: [record, real-data]
 ---
 

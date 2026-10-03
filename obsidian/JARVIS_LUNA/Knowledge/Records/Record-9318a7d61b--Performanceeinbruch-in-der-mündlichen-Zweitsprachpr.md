@@ -2,7 +2,7 @@
 title: "Record 9318a7d61b · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.137296+00:00
+updated_at: 2026-10-03T11:55:30.537946+00:00
 tags: [record, real-data]
 ---
 

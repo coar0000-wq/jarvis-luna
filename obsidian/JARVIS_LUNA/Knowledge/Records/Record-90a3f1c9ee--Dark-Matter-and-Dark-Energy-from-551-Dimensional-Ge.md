@@ -2,7 +2,7 @@
 title: "Record 90a3f1c9ee · Dark-Matter-and-Dark-Energy-from-551-Dimensional-Geometry-The-2768-Spl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.115291+00:00
+updated_at: 2026-10-03T11:55:30.516876+00:00
 tags: [record, real-data]
 ---
 

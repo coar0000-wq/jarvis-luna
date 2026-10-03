@@ -2,7 +2,7 @@
 title: "Record b012bd1daf · Instant-Angel-Lipid-Rich-Firming-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:31.039290+00:00
+updated_at: 2026-10-03T11:55:31.484206+00:00
 tags: [record, real-data]
 ---
 

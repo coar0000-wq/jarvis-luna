@@ -2,7 +2,7 @@
 title: "Record e89481c078 · Function-preserving-watermarking-of-AI-generated-proteins"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.448580+00:00
+updated_at: 2026-10-03T11:55:29.812855+00:00
 tags: [record, real-data]
 ---
 

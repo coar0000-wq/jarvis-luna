@@ -2,7 +2,7 @@
 title: "Record 677aa818ab · Ajar-Measuring-Open-Privilege-in-Agent-Defenses"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:29.964101+00:00
+updated_at: 2026-10-03T11:55:30.360831+00:00
 tags: [record, real-data]
 ---
 

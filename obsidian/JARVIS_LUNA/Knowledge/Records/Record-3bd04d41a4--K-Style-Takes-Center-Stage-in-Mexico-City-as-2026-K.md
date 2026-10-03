@@ -2,7 +2,7 @@
 title: "Record 3bd04d41a4 · K-Style-Takes-Center-Stage-in-Mexico-City-as-2026-K-EXPO-MEXICO-Conclu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T05:41:30.329404+00:00
+updated_at: 2026-10-03T11:55:30.726873+00:00
 tags: [record, real-data]
 ---
 
