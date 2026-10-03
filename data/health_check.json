@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T00:46:36.738878+00:00",
+  "generated_at": "2026-10-03T03:45:34.675235+00:00",
   "overall_status": "warning",
   "status_legend": {
     "success": "정상",
@@ -23,21 +23,21 @@
     "queue": 2881,
     "stale_source": "marketing",
     "freshness_summary": {
-      "product_master": "2.2 hours ago",
-      "legal_full": "2.2 hours ago",
-      "shopify_sync": "2.2 hours ago",
-      "pricing": "2.4 hours ago",
-      "marketing": "2.2 hours ago",
-      "daiso": "just now",
-      "deep_heartbeat": "2.7 hours ago",
-      "actions_monitor": "just now",
-      "gosi": "7.2 hours ago",
-      "product_discovery": "2.8 hours ago"
+      "product_master": "just now",
+      "legal_full": "just now",
+      "shopify_sync": "just now",
+      "pricing": "5.4 hours ago",
+      "marketing": "just now",
+      "daiso": "3.0 hours ago",
+      "deep_heartbeat": "5.7 hours ago",
+      "actions_monitor": "3.0 hours ago",
+      "gosi": "10.1 hours ago",
+      "product_discovery": "5.8 hours ago"
     }
   },
   "summary": {
-    "success": 7,
-    "warning": 2,
+    "success": 6,
+    "warning": 3,
     "waiting": 1,
     "degraded": 0,
     "failed": 0,
@@ -51,7 +51,7 @@
       "reason": "운영 상품 356개, CP 357개, S 10개",
       "count": 356,
       "s_count": 10,
-      "freshness": "2.2 hours ago",
+      "freshness": "just now",
       "is_failure": false
     },
     {
@@ -60,28 +60,28 @@
       "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
-      "freshness": "2.2 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "shopify_sync",
       "status": "success",
       "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "2.2 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "2.4 hours ago"
+      "freshness": "5.4 hours ago"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
       "is_failure": false,
-      "freshness": "2.2 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "daiso",
@@ -94,26 +94,26 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 0.001,
-      "attempt_age_hours": 0.001,
-      "success_age_hours": 95.961,
+      "candidate_success_age_hours": 2.984,
+      "attempt_age_hours": 2.984,
+      "success_age_hours": 98.943,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "3.0 hours ago"
     },
     {
       "team": "deep_heartbeat",
-      "status": "success",
-      "reason": "SafeAutoFix heartbeat 정상",
+      "status": "warning",
+      "reason": "SafeAutoFix heartbeat 지연 (5.7시간)",
       "last_attempt_at": "2026-10-02T22:02:11.616683+00:00",
-      "age_hours": 2.74,
+      "age_hours": 5.723,
       "next_expected_at": "2026-10-03T00:02:11.616683+00:00",
       "grace_deadline_at": "2026-10-03T02:32:11.616683+00:00",
       "is_failure": false,
-      "delayed": false,
-      "freshness": "2.7 hours ago"
+      "delayed": true,
+      "freshness": "5.7 hours ago"
     },
     {
       "team": "actions_monitor",
@@ -121,21 +121,21 @@
       "reason": "GitHub Actions 관측: 5/5개 · 실패 0",
       "is_failure": false,
       "observed_at": "2026-10-03T00:46:36.673335Z",
-      "freshness": "just now"
+      "freshness": "3.0 hours ago"
     },
     {
       "team": "gosi",
       "status": "success",
-      "reason": "정상 7.2h 전",
+      "reason": "정상 10.1h 전",
       "is_failure": false,
-      "freshness": "7.2 hours ago"
+      "freshness": "10.1 hours ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 2.8h 전",
+      "reason": "정상 5.8h 전",
       "is_failure": false,
-      "freshness": "2.8 hours ago"
+      "freshness": "5.8 hours ago"
     }
   ],
   "architecture_p0": {

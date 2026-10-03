@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-03T07:34:03.511832+09:00",
+    "updated_at": "2026-10-03T12:45:34.152870+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -657,7 +657,7 @@
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
-      "competitor_pool_size": 286,
+      "competitor_pool_size": 259,
       "competitor_fallback": "oliveyoung_us primary"
     }
   },
@@ -1738,42 +1738,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 16646,
-      "us_rank": 1,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-      "brand": "Anua",
-      "price_usd": 29.0,
-      "rating": 4.8,
-      "review_count": 842,
-      "us_rank": 2,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA69419689",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
-      "brand": "S.NATURE",
-      "price_usd": 17.99,
-      "rating": 4.9,
-      "review_count": 21,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA16733220",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
       "brand": "Anua",
       "price_usd": 21.99,
@@ -1808,6 +1772,42 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 50위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA39329211",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 16646,
+      "us_rank": 1,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
+      "brand": "Anua",
+      "price_usd": 29.0,
+      "rating": 4.8,
+      "review_count": 842,
+      "us_rank": 2,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA69419689",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
+      "brand": "S.NATURE",
+      "price_usd": 17.99,
+      "rating": 4.9,
+      "review_count": 21,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA16733220",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
@@ -1820,7 +1820,7 @@
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 12,
+    "signals_verified": 11,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
