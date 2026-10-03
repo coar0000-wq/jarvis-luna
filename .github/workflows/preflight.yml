@@ -40,6 +40,7 @@ jobs:
           GEMINI_FALLBACK_ENABLED: '0'
         run: |
           python scripts/test_daiso_collection_validation.py
+          python scripts/test_daiso_candidates.py
           python scripts/test_listing_copy_local.py
           python scripts/test_operational_freshness.py
           python scripts/test_workflow_status.py

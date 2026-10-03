@@ -89,6 +89,9 @@ jobs:
         continue-on-error: true
         env:
           DAISO_EXECUTION_ID: ${{ github.run_id }}:${{ github.run_attempt }}:collect
+          # Daily discovery is independent from fixed operating quantities.
+          DAISO_DISCOVERY_ENABLED: '1'
+          DAISO_OPERATING_UPDATES_ENABLED: '0'
           DAISO_MAX_ITEMS: ${{ github.event.inputs.max_items || '110' }}
           DAISO_DELAY: ${{ github.event.inputs.delay || '30' }}
         run: |
@@ -161,7 +164,7 @@ jobs:
           python -u scripts/discover_channels.py
 
       - name: Keep canonical product inputs on no_change
-        if: steps.collection.outputs.mode == 'no_change'
+        if: steps.collection.outputs.mode == 'no_change' || steps.collection.outputs.mode == 'candidates'
         shell: bash
         run: |
           python - <<'PY'
@@ -184,6 +187,14 @@ jobs:
               Path(queue).unlink(missing_ok=True)
           print('NO_CHANGE_CANONICAL_INPUTS_PRESERVED')
           PY
+
+      - name: Build separate candidate comparisons
+        if: steps.collection.outputs.collection_valid == 'true'
+        shell: bash
+        env:
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+        run: python -u scripts/build_daiso_candidate_comparison.py
 
       - name: Observe actual Actions freshness (read-only)
         env:
@@ -383,6 +394,8 @@ jobs:
                   print(f"- 최근 유효 수집: {success.get('finished_at', '없음')}")
                   if r.get("status") == "no_change":
                       print("- 정상 무변경: 신규 수집 아님, 최근 유효 수집 시각 유지")
+                  elif r.get("status") == "candidates_collected":
+                      print(f"- 신규 비교 후보 {r.get('candidates_new', 0)}건 · 재확인 {r.get('candidates_updated', 0)}건 · 운영 상품 변경 없음")
 
               else:
                   if isinstance(d, dict):
@@ -433,14 +446,17 @@ jobs:
           regenerate-dashboard: 'true'
           audit: 'true'
 
-      # 정상 무변경은 관측 기록만 발행한다. 상품/판매 파생 데이터는 발행하지 않는다.
+      # 비교 후보·정상 무변경은 별도 후보/관측만 발행한다. 운영 상품/판매 파생 데이터는 발행하지 않는다.
       - name: 정상 무변경 관측 metadata 발행
-        if: steps.collection.outputs.mode == 'no_change'
+        if: steps.collection.outputs.mode == 'no_change' || steps.collection.outputs.mode == 'candidates'
         uses: ./.github/actions/publish
         with:
           paths: >-
             data/daiso_real/collection_status.json
             data/daiso_real/crawl_state.json
+            data/daiso_real/candidate_pool.json
+            data/daiso_real/candidate_observations.json
+            data/daiso_real/candidate_comparison.json
             data/dashboard_runtime.json
             data/health_check.json
             data/agents/workflow_freshness.json
@@ -452,7 +468,7 @@ jobs:
             data/agents/listing_notes.json
             data/team_improvement.json
             data/knowledge/cumulative_history.json
-          message: 다이소 정상 무변경 관측 기록 (신규 수집 아님)
+          message: 다이소 신규 비교 후보·관측 발행 (운영 상품 유지)
           regenerate-dashboard: 'false'
           audit: 'false'
 
@@ -461,7 +477,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: daiso-attempt-${{ github.run_id }}-${{ github.run_attempt }}
-          path: data/daiso_real/collection_status.json
+          path: |
+            data/daiso_real/collection_status.json
+            data/daiso_real/candidate_pool.json
+            data/daiso_real/candidate_comparison.json
           if-no-files-found: warn
           retention-days: 14
 

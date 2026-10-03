@@ -392,8 +392,10 @@ def us_listings():
     return out
 
 
-def us_market_fit(name):
-    us = us_listings()
+def us_market_fit(name, market_listings=None):
+    # Candidate comparisons may supply a verified fresh market universe.
+    # Existing operational callers retain their current scoring inputs.
+    us = us_listings() if market_listings is None else market_listings
     if not us:
         return 0.0, 0, 0.0
     terms = set()
@@ -500,7 +502,7 @@ def qualify_s(name: str, bucket: str, total: int, matches: list,
     return False, "match_too_weak"
 
 
-def score_one(p: dict, signals: list[dict]) -> dict:
+def score_one(p: dict, signals: list[dict], *, market_listings=None) -> dict:
     name = p.get("name") or ""
     bucket = p.get("bucket") or p.get("site_category") or ""
     bucket, rebucket_note = rebucket(name, bucket)
@@ -539,7 +541,7 @@ def score_one(p: dict, signals: list[dict]) -> dict:
             kw_pts += pts
     kw_pts = min(5, kw_pts)
 
-    us_pts, us_hits, us_price = (0.0, 0, 0.0) if non_core else us_market_fit(name)
+    us_pts, us_hits, us_price = (0.0, 0, 0.0) if non_core else us_market_fit(name, market_listings)
 
     penalty = 40 if non_core else 0
     matches = [] if non_core else best_matches(name, signals, daiso_bucket=bucket)

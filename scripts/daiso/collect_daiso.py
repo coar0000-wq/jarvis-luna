@@ -103,11 +103,19 @@ PRODUCTS = OUT_DIR / "products.json"
 STATE = OUT_DIR / "crawl_state.json"
 QUEUE = OUT_DIR / "beauty_queue.json"
 STATUS = OUT_DIR / "collection_status.json"
+# Candidates never enter products.json, operating scores, gates or exports.
+CANDIDATE_POOL = OUT_DIR / "candidate_pool.json"
+CANDIDATE_STATE = OUT_DIR / "candidate_observations.json"
 
 CATMAP = Path(__file__).with_name("category_map.json")
 
 sys.path.insert(0, str(ROOT / "scripts"))
 from validate_daiso_collection import record_attempt
+from daiso_candidate_store import (
+    DISCOVERY_BUCKETS, pool_document, state_document, select_discovery,
+    upsert_candidate, record_observation, file_digest, canonical_digest,
+)
+from daiso.score_shopify_demand import is_non_core, us_blockers
 
 NETWORK_ERRORS = 0
 ACTIVE_ATTEMPT = {}
@@ -145,6 +153,10 @@ UA = (
 MAX_ITEMS = int(
     os.environ.get("DAISO_MAX_ITEMS", "110")
 )
+if MAX_ITEMS < 0:
+    raise ValueError("DAISO_MAX_ITEMS must be non-negative")
+DISCOVERY_ENABLED = os.environ.get("DAISO_DISCOVERY_ENABLED", "1").lower() not in {"0", "false", "no"}
+OPERATING_UPDATES_ENABLED = os.environ.get("DAISO_OPERATING_UPDATES_ENABLED", "0").lower() in {"1", "true", "yes"}
 
 DELAY = max(30.0, float(
     os.environ.get("DAISO_DELAY", "30")
@@ -2791,6 +2803,11 @@ BUCKET_TARGETS = {
 # ============================================================
 
 
+def discovery_exclusion(name):
+    return (is_excluded({"name": name}) or
+            ("non_core" if is_non_core(name) else "") or us_blockers(name)[0])
+
+
 def main() -> int:
 
     global ACTIVE_ATTEMPT, NETWORK_ERRORS
@@ -2810,10 +2827,47 @@ def main() -> int:
     )
 
     existing_products = load_existing_products()
+    operating_before_sha256 = file_digest(PRODUCTS)
+    # A malformed existing pool must stop the run, not silently erase history.
+    pool_input = json.loads(CANDIDATE_POOL.read_text(encoding="utf-8")) if CANDIDATE_POOL.exists() else None
+    state_input = json.loads(CANDIDATE_STATE.read_text(encoding="utf-8")) if CANDIDATE_STATE.exists() else None
+    candidate_pool = pool_document(pool_input) if DISCOVERY_ENABLED else None
+    candidate_state = state_document(state_input) if DISCOVERY_ENABLED else None
+    candidates_new = 0
+    candidates_updated = 0
+    candidate_collected_ids = []
+    candidate_observation_dirty = False
+    skipped_operating_update = 0
 
     existing_index = index_existing_products(
         existing_products
     )
+    operating_ids = set(existing_index)
+
+    def store_candidate(observed):
+        nonlocal candidate_pool, candidate_state, candidates_new, candidates_updated
+        nonlocal candidate_observation_dirty
+        pd_no = normalize_pd_no(observed.get("pd_no"))
+        try:
+            candidate_pool, is_new = upsert_candidate(
+                candidate_pool, observed, operating_ids=operating_ids,
+                execution_id=ACTIVE_ATTEMPT["execution_id"])
+        except ValueError as exc:
+            candidate_state = record_observation(candidate_state, pd_no, "invalid_observation",
+                at=now_iso(), reason=str(exc), execution_id=ACTIVE_ATTEMPT["execution_id"])
+            candidate_observation_dirty = True
+            print("  ↳ candidate evidence rejected:", str(exc))
+            return False
+        candidate_state = record_observation(candidate_state, pd_no, "accepted",
+            at=observed["collected_at"], execution_id=ACTIVE_ATTEMPT["execution_id"])
+        candidate_observation_dirty = True
+        if is_new:
+            candidates_new += 1
+        else:
+            candidates_updated += 1
+        candidate_collected_ids.append(pd_no)
+        print("  ↳ COMPARISON CANDIDATE", pd_no, "(operating pool unchanged)")
+        return True
 
     state = load_state()
 
@@ -3146,6 +3200,13 @@ def main() -> int:
     # MAX_ITEMS
     # --------------------------------------------------------
 
+    if DISCOVERY_ENABLED:
+        ordered_items, prefetch_policy = select_discovery(
+            load_json(QUEUE, {}), operating_ids, candidate_pool, candidate_state,
+            excluded_name=discovery_exclusion, excluded_ids=parked_ids)
+        url_source = "queue_candidate_discovery"
+        print("Discovery selection:", prefetch_policy)
+
     candidates = ordered_items[
         :MAX_ITEMS
     ]
@@ -3301,7 +3362,20 @@ def main() -> int:
 
                     continue
 
-                # bucket을 꽉 채운 상태면 추가 저장하지 않는다.
+                if DISCOVERY_ENABLED and pd_no not in operating_ids:
+                    if bucket not in DISCOVERY_BUCKETS or discovery_exclusion(detailed.get("name") or ""):
+                        skipped_not_beauty += 1
+                        continue
+                    detailed["bucket"] = bucket
+                    detailed["detailed_http_status"] = status
+                    if not store_candidate(detailed):
+                        parse_failed += 1
+                    continue
+                if DISCOVERY_ENABLED and not OPERATING_UPDATES_ENABLED:
+                    skipped_operating_update += 1
+                    continue
+
+                # Operational quotas apply only to operating admission, never discovery.
                 target = BUCKET_TARGETS.get(
                     bucket
                 )
@@ -3334,19 +3408,10 @@ def main() -> int:
                     "detailed_http_status"
                 ] = status
 
-                existing_index[
-                    pd_no
-                ] = detailed
-
-                bucket_counts[
-                    bucket
-                ] = (
-                    bucket_counts.get(
-                        bucket,
-                        0,
-                    )
-                    + 1
-                )
+                is_new_operating = pd_no not in existing_index
+                existing_index[pd_no] = detailed
+                if is_new_operating:
+                    bucket_counts[bucket] = bucket_counts.get(bucket, 0) + 1
 
                 ok_count += 1
 
@@ -3488,19 +3553,26 @@ def main() -> int:
                         "search-goods"
                     )
 
-                existing_index[
-                    pd_no
-                ] = fixed
-
-                bucket_counts[
-                    bucket
-                ] = (
-                    bucket_counts.get(
-                        bucket,
-                        0,
-                    )
-                    + 1
-                )
+                if DISCOVERY_ENABLED and pd_no not in operating_ids:
+                    if bucket not in DISCOVERY_BUCKETS or discovery_exclusion(fixed.get("name") or ""):
+                        skipped_not_beauty += 1
+                        continue
+                    if store_candidate(fixed):
+                        fallback_price_fixed += 1
+                    else:
+                        parse_failed += 1
+                    continue
+                if DISCOVERY_ENABLED and not OPERATING_UPDATES_ENABLED:
+                    skipped_operating_update += 1
+                    continue
+                target = BUCKET_TARGETS.get(bucket)
+                is_new_operating = pd_no not in existing_index
+                if is_new_operating and target is not None and bucket_counts.get(bucket, 0) >= target:
+                    skipped_bucket_full += 1
+                    continue
+                existing_index[pd_no] = fixed
+                if is_new_operating:
+                    bucket_counts[bucket] = bucket_counts.get(bucket, 0) + 1
 
                 ok_count += 1
                 fallback_price_fixed += 1
@@ -3652,6 +3724,20 @@ def main() -> int:
             },
         )
 
+    # Candidate changes are persisted independently. No silent operating promotion.
+    if DISCOVERY_ENABLED:
+        if not OPERATING_UPDATES_ENABLED and file_digest(PRODUCTS) != operating_before_sha256:
+            raise RuntimeError("Discovery changed operating products")
+        if candidate_collected_ids:
+            candidate_pool["last_run"] = {
+                "execution_id": ACTIVE_ATTEMPT["execution_id"], "at": now_iso(),
+                "new": candidates_new, "updated": candidates_updated,
+                "collected_ids": candidate_collected_ids,
+            }
+            save_json(CANDIDATE_POOL, candidate_pool)
+        if candidate_observation_dirty:
+            save_json(CANDIDATE_STATE, candidate_state)
+
     # ========================================================
     # STATE
     # ========================================================
@@ -3669,6 +3755,23 @@ def main() -> int:
     visited_after = list(
         visited_set
     )
+
+    if DISCOVERY_ENABLED:
+        # Discovery history is separate. Rejected identities do not reappear on
+        # every run; quota-discarded legacy visited identities remain eligible.
+        for pd_no, _url in candidates:
+            if pd_no in candidate_collected_ids:
+                continue
+            if pd_no in candidate_state["observations"] and candidate_state["observations"][pd_no].get("execution_id") == ACTIVE_ATTEMPT["execution_id"]:
+                continue
+            failure = (state.get("failed") or {}).get(pd_no) or {}
+            candidate_state = record_observation(candidate_state, pd_no,
+                "failed" if failure else "not_beauty", at=now_iso(),
+                reason=str(failure.get("reason") or "Outside verified candidate scope"),
+                execution_id=ACTIVE_ATTEMPT["execution_id"])
+            candidate_observation_dirty = True
+        if candidate_observation_dirty:
+            save_json(CANDIDATE_STATE, candidate_state)
 
     for pd_no, _url in candidates:
         if pd_no not in visited_set:
@@ -3835,6 +3938,18 @@ def main() -> int:
         "started_at": started_at,
         "requested": requested,
         "ok": ok_count,
+        "discovery_enabled": DISCOVERY_ENABLED,
+        "operating_updates_enabled": OPERATING_UPDATES_ENABLED,
+        "operating_product_count": len(existing_products),
+        "operating_before_sha256": operating_before_sha256,
+        "operating_after_sha256": file_digest(PRODUCTS),
+        "candidate_pool_sha256": file_digest(CANDIDATE_POOL),
+        "candidate_pool_digest": canonical_digest(candidate_pool) if candidate_collected_ids else None,
+        "candidate_ids": candidate_collected_ids,
+        "candidates_new": candidates_new,
+        "candidates_updated": candidates_updated,
+        "candidate_count": len((candidate_pool or {}).get("items", {})),
+        "skipped_operating_update": skipped_operating_update,
         "parse_failed": parse_failed,
         "http_error": http_error,
         "sold_out": sold_out_count,
@@ -3888,8 +4003,9 @@ def main() -> int:
         },
         "status": (
             "failed" if (parse_failed > 0 or http_error > 0)
-            else "no_change" if ok_count == 0
-            else "ok"
+            else "ok" if ok_count > 0
+            else "candidates_collected" if candidate_collected_ids
+            else "no_change"
         ),
         "failure_reason": (
             f"성공 {ok_count}건 · 파싱 실패 {parse_failed}건 · HTTP 오류 {http_error}건"
@@ -3956,6 +4072,8 @@ def main() -> int:
     print(
         f"ok                   : {ok_count}"
     )
+    print(f"comparison candidates: new={candidates_new} updated={candidates_updated}")
+    print(f"operating unchanged  : {file_digest(PRODUCTS) == operating_before_sha256}")
     print(
         f"parse_failed         : {parse_failed}"
     )

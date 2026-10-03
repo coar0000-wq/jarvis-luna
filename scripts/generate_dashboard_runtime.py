@@ -656,6 +656,8 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             act = (f'직전 실행에서 {fetched}건 받아 {tried}건 판정 · '
                    f'{fail}건 실패 (성공 {ok}건)'
                    + why_txt + sold_txt + notb_txt + seen_txt + src_txt)
+        elif collection.get("is_candidate_collection"):
+            act = (f"신규 비교 후보 {collection['candidates_new']}건 · 재확인 {collection['candidates_updated']}건 · 운영 상품 {n}개 유지")
         elif collection["is_no_change"]:
             act = (f'직전 수집 정상 완료: 새 상품 없음 · {fetched}건 받음'
                    + notb_txt + seen_txt + src_txt)
@@ -676,7 +678,15 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         success_at = collection["last_success_at"]
         if collection["data_stale"]:
             stale_act = (stale_act + " · " if stale_act else "") + "새 상품 마지막 성공 " + str(success_at or "검증 불가")
-        act = (act + " · " if act else "") + "최근 시도 " + str(collection["last_attempt_at"] or "미기록") + " · 새 상품 성공 " + str(success_at or "미기록")
+        act = (act + " · " if act else "") + "최근 시도 " + str(collection["last_attempt_at"] or "미기록") + " · 운영 상품 유효 수집 " + str(success_at or "미기록")
+        comparison = load_json(D / "daiso_real" / "candidate_comparison.json", {}) or {}
+        candidate_total = comparison.get("candidate_count", 0)
+        proposal_total = comparison.get("proposal_count", 0)
+        if comparison:
+            act += f" · 비교 후보 누적 {candidate_total}건 · 교체 제안 {proposal_total}건(승인 전 실행 없음)"
+            preview = [f"{r.get('name')} {r.get('url')}" for r in (comparison.get("items") or [])[:3]]
+            if preview:
+                act += " · " + " / ".join(preview)
         workflows, workflows_fresh = workflow_snapshot()
         daiso_workflow = (workflows.get("workflows") or {}).get("daiso-real-collection.yml") or {}
         observed_failure = workflows_fresh and daiso_workflow.get("status") == "failed"
@@ -691,6 +701,12 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             "failed" if not n or collection["is_failure"] or observed_failure else "warning" if collection["status"] != "success" or collection["data_stale"] else "ok",
             notice=act))
         cards[-1]["collection_freshness"] = collection
+        cards[-1]["candidate_discovery"] = {
+            "candidate_count": candidate_total, "proposal_count": proposal_total,
+            "generated_at": comparison.get("generated_at"),
+            "report": "data/daiso_real/candidate_comparison.json",
+            "may_replace": False, "approval_required": True,
+        }
     else:
         cards.append(_team("sourcing", "상품 소싱팀", None,
                            "data/daiso_real/products.json 없음", None, "missing"))
@@ -1232,6 +1248,7 @@ def main() -> None:
         },
         "errors": _error_summary(),
         "health": load_json(ROOT / "data" / "health_check.json", {}) or {},
+        "candidate_discovery": load_json(ROOT / "data" / "daiso_real" / "candidate_comparison.json", {}) or {},
         "automation_freshness": {
             "collection": assess_collection(load_json(ROOT / "data" / "daiso_real" / "collection_status.json", {})),
             "heartbeat": assess_heartbeat(load_json(ROOT / "data" / "agents" / "autofix_report.json", {})),

@@ -182,6 +182,17 @@ def assess_collection(doc, now=None, stale_after_hours=36):
     attempt_dt, attempt_age, attempt_problem = _observation(_record_time(attempt), clock)
     success_dt, success_age, _ = _observation(_record_time(success), clock)
     last_status = _status(attempt) or None
+    candidate_new = attempt.get("candidates_new", 0)
+    candidate_updated = attempt.get("candidates_updated", 0)
+    candidate_count_valid = (type(candidate_new) is int and candidate_new >= 0
+                             and type(candidate_updated) is int and candidate_updated >= 0)
+    is_candidate_collection = (last_status == "candidates_collected" and candidate_count_valid
+                               and candidate_new + candidate_updated > 0
+                               and attempt.get("collector_completed") is True)
+    candidate_success = _record(doc, "last_candidate_success")
+    candidate_dt, candidate_age, _ = _observation(_record_time(candidate_success), clock)
+    if _status(candidate_success) != "candidates_collected":
+        candidate_dt, candidate_age = None, None
     is_failure = last_status in _FAILURE
     is_no_change = (last_status == "no_change" or
                     last_status == "ok" and _zero_ok(attempt) or
@@ -197,6 +208,8 @@ def assess_collection(doc, now=None, stale_after_hours=36):
         status, reason = "degraded", "수집 시도 시각 " + attempt_problem + ": 최신성 검증 불가"
     elif attempt_stale:
         status, reason = "degraded", f"수집 시도 {attempt_age:.1f}시간 경과"
+    elif is_candidate_collection:
+        status, reason = "success", f"신규 비교 후보 수집 정상 완료: 신규 {candidate_new}건 · 재확인 {candidate_updated}건 · 운영 상품 유지"
     elif is_no_change:
         status, reason = "warning", "수집 정상 완료: 새 상품 없음"
     elif _is_success(attempt):
@@ -204,11 +217,16 @@ def assess_collection(doc, now=None, stale_after_hours=36):
     else:
         status, reason = "degraded", f"수집 시도 상태 검증 불가 ({last_status or 'missing'})"
     if data_stale:
-        reason += " · 새 상품 성공 데이터 오래됨 또는 검증 불가"
+        reason += " · 운영 상품 유효 수집은 오래됨 또는 검증 불가"
     return {
         "status": status, "reason": reason,
         "last_attempt_at": _iso(attempt_dt), "last_success_at": _iso(success_dt),
         "last_attempt_status": last_status,
+        "is_candidate_collection": is_candidate_collection,
+        "candidates_new": candidate_new if candidate_count_valid else None,
+        "candidates_updated": candidate_updated if candidate_count_valid else None,
+        "last_candidate_success_at": _iso(candidate_dt),
+        "candidate_success_age_hours": _age(candidate_age),
         "attempt_age_hours": _age(attempt_age), "success_age_hours": _age(success_age),
         "data_stale": data_stale, "attempt_stale": attempt_stale,
         "is_no_change": bool(is_no_change), "is_failure": is_failure,

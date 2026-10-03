@@ -8,6 +8,9 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+from daiso_candidate_store import (canonical_digest, file_digest, detail_url_valid,
+                                   pool_document, DISCOVERY_BUCKETS)
+
 
 def timestamp(value):
     if not isinstance(value, str) or not value:
@@ -52,10 +55,16 @@ def record_attempt(document, attempt):
     doc["last_attempt"] = copy.deepcopy(attempt)
     if valid_success(attempt):
         doc["last_success"] = copy.deepcopy(attempt)
+    if (isinstance(attempt, dict) and attempt.get("status") == "candidates_collected"
+            and attempt.get("collector_completed") is True
+            and attempt.get("candidates_new", 0) + attempt.get("candidates_updated", 0) > 0
+            and attempt.get("parse_failed") == 0 and attempt.get("http_error") == 0):
+        doc["last_candidate_success"] = copy.deepcopy(attempt)
     return doc
 
 
-def validate(document, *, outcome, execution_id, started_after, now=None, max_age_hours=6):
+def validate(document, *, outcome, execution_id, started_after, now=None, max_age_hours=6,
+             candidate_pool=None, operating_sha256=None):
     now = now or datetime.now(timezone.utc)
     try:
         if outcome != "success":
@@ -81,12 +90,47 @@ def validate(document, *, outcome, execution_id, started_after, now=None, max_ag
             raise ValueError("ok exceeds requested")
         if parsed or http:
             raise ValueError("parse/network failure: parse_failed=%s http_error=%s" % (parsed, http))
+        candidate_total = 0
+        if run.get("discovery_enabled") is True:
+            candidate_total = count(run, "candidates_new") + count(run, "candidates_updated")
+            if candidate_total + ok > requested:
+                raise ValueError("collected identities exceed requested")
+            if run.get("operating_updates_enabled") is False:
+                before, after = run.get("operating_before_sha256"), run.get("operating_after_sha256")
+                if not before or before != after or operating_sha256 != after:
+                    raise ValueError("candidate discovery changed/mismatched operating product bytes")
         status = run.get("status")
         if status == "ok" and ok > 0:
             if document.get("last_success") != run:
                 raise ValueError("last_success does not match valid collection")
             mode = "collected"
-        elif status == "no_change" and ok == 0:
+        elif status == "candidates_collected" and ok == 0 and candidate_total > 0:
+            if document.get("last_candidate_success") != run:
+                raise ValueError("candidate success record does not match current attempt")
+            if not isinstance(candidate_pool, dict):
+                raise ValueError("candidate pool evidence missing")
+            if candidate_pool.get("approval_required") is not True or candidate_pool.get("may_publish") is not False or candidate_pool.get("may_replace_operating_products") is not False:
+                raise ValueError("candidate safety flags missing")
+            pool = pool_document(candidate_pool)
+            if canonical_digest(pool) != run.get("candidate_pool_digest"):
+                raise ValueError("candidate pool digest mismatch")
+            ids = run.get("candidate_ids")
+            if not isinstance(ids, list) or len(set(ids)) != candidate_total or len(ids) != candidate_total:
+                raise ValueError("candidate identity evidence missing")
+            for pd_no in ids:
+                candidate = pool["items"].get(pd_no)
+                if not isinstance(candidate, dict) or candidate.get("bucket") not in DISCOVERY_BUCKETS:
+                    raise ValueError("candidate observation missing/outside scope")
+                observation = candidate.get("observation") or {}
+                if observation.get("execution_id") != execution_id or not detail_url_valid(candidate.get("url"), pd_no):
+                    raise ValueError("candidate current-run provenance missing")
+                captured = timestamp(candidate.get("collected_at"))
+                if not started <= captured <= finished:
+                    raise ValueError("candidate observation outside current attempt")
+                if candidate.get("may_publish") is not False or candidate.get("may_replace_operating_products") is not False:
+                    raise ValueError("candidate promotion/publication flag unsafe")
+            mode = "candidates"
+        elif status == "no_change" and ok == 0 and candidate_total == 0:
             mode = "no_change"
         else:
             raise ValueError("failed/unknown/inconsistent collector status: " + str(status))
@@ -98,6 +142,8 @@ def validate(document, *, outcome, execution_id, started_after, now=None, max_ag
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--status", default="data/daiso_real/collection_status.json")
+    parser.add_argument("--candidate-pool", default="data/daiso_real/candidate_pool.json")
+    parser.add_argument("--operating-products", default="data/daiso_real/products.json")
     parser.add_argument("--collector-outcome", required=True)
     parser.add_argument("--execution-id", required=True)
     parser.add_argument("--started-after", required=True)
@@ -105,7 +151,14 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         doc = json.loads(Path(args.status).read_text(encoding="utf-8"))
-        result = validate(doc, outcome=args.collector_outcome, execution_id=args.execution_id, started_after=args.started_after)
+        candidate_path = Path(args.candidate_pool)
+        pool = json.loads(candidate_path.read_text(encoding="utf-8")) if candidate_path.exists() else None
+        run = doc.get("last_run") or {}
+        if run.get("status") == "candidates_collected" and file_digest(candidate_path) != run.get("candidate_pool_sha256"):
+            raise ValueError("candidate pool file hash mismatch")
+        result = validate(doc, outcome=args.collector_outcome, execution_id=args.execution_id,
+                          started_after=args.started_after, candidate_pool=pool,
+                          operating_sha256=file_digest(Path(args.operating_products)))
     except (OSError, ValueError) as exc:
         result = {"mode": "failed", "collection_valid": "false", "publish_products": "false", "errors": [str(exc)]}
     print(json.dumps(result, ensure_ascii=False))
