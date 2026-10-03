@@ -2,7 +2,7 @@
 title: "Record c2048f9e24 · TEEP-RCNN-Texture-Enhanced-Edge-aware-Perception-for-Steel-Surface-Def"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.755353+00:00
+updated_at: 2026-10-03T05:34:15.005797+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3f32761d49 · Signal-Routed-Temperature-Scaling-Low-Capacity-Risk-Conditioned-Calibr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.855027+00:00
+updated_at: 2026-10-03T05:34:15.121407+00:00
 tags: [record, real-data]
 ---
 

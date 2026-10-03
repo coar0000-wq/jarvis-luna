@@ -2,7 +2,7 @@
 title: "Record c6da46af92 · ANYbotics-launches-Shift-to-streamline-robot-fleet-operations-scale-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.534847+00:00
+updated_at: 2026-10-03T05:34:17.087159+00:00
 tags: [record, real-data]
 ---
 

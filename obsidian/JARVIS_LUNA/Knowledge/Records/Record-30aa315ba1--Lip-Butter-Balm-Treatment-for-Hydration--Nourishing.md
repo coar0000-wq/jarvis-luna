@@ -2,7 +2,7 @@
 title: "Record 30aa315ba1 · Lip-Butter-Balm-Treatment-for-Hydration--Nourishing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.528009+00:00
+updated_at: 2026-10-03T05:34:17.079848+00:00
 tags: [record, real-data]
 ---
 

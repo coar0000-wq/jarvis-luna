@@ -2,7 +2,7 @@
 title: "Record 473382766d · medicube-PDRN-Pink-Peptide-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.772191+00:00
+updated_at: 2026-10-03T05:34:16.117078+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** medicube PDRN Pink Peptide Serum 1.01 fl. oz.(30ml)
 
 medicube PDRN Pink Peptide Serum 1.01 fl. oz.(30ml)
-medicube PDRN Pink Peptide Serum 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 622
+medicube PDRN Pink Peptide Serum 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 623
 
 **출처:** Source · us_beauty
 

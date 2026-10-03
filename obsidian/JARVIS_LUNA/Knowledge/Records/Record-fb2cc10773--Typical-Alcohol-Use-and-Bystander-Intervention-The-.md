@@ -2,7 +2,7 @@
 title: "Record fb2cc10773 · Typical-Alcohol-Use-and-Bystander-Intervention-The-Mediating-Roles-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.418443+00:00
+updated_at: 2026-10-03T05:34:14.629973+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 0d2f6fd1b6 · INSURELEDGER-A-DISTRIBUTED-LEDGER-FOR-HEALTH-INSURANCE-USING-DFINITY"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.495729+00:00
+updated_at: 2026-10-03T05:34:14.714742+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 3cf431eacf · Aquaphor-Moisturizing-Face-and-Body-Cream-with-Hyaluronic-Acid-16-OZ--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.978083+00:00
+updated_at: 2026-10-03T05:34:16.368697+00:00
 tags: [record, real-data]
 ---
 

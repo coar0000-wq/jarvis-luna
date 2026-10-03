@@ -2,7 +2,7 @@
 title: "Record 4a118bdc39 · Does-one-person-make-a-difference-Manyone-effects-in-judgments-of-pros"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.269078+00:00
+updated_at: 2026-10-03T05:34:14.465195+00:00
 tags: [record, real-data]
 ---
 

@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-03T12:45:34.152870+09:00",
+    "updated_at": "2026-10-03T14:32:04.867967+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -16,14 +16,14 @@
       "Google Shopping"
     ],
     "price_band_usd": {
-      "min": 6.0,
-      "p25": 17.99,
-      "median": 23.4,
+      "min": 6.79,
+      "p25": 17.0,
+      "median": 22.8,
       "max": 221.0,
       "n": 100,
-      "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-10-02)"
+      "source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-10-03)"
     },
-    "price_band_source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-10-02)"
+    "price_band_source": "us.oliveyoung.com/best-sellers 실수집 100건 (2026-10-03)"
   },
   "demand_signals": {
     "oliveyoung_us_top": [
@@ -69,38 +69,6 @@
       },
       {
         "rank": 6,
-        "product": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
-        "brand": "WAKEMAKE",
-        "price_usd": 14.99,
-        "rating": 4.8,
-        "review_count": 1089
-      },
-      {
-        "rank": 7,
-        "product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
-        "brand": "Anua",
-        "price_usd": 13.99,
-        "rating": 4.8,
-        "review_count": 128
-      },
-      {
-        "rank": 8,
-        "product": "[2options] LAGOM Cellup Micro Foam Cleanser 4.06 fl. oz.(120ml)",
-        "brand": "LAGOM",
-        "price_usd": 14.0,
-        "rating": 4.8,
-        "review_count": 5358
-      },
-      {
-        "rank": 9,
-        "product": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
-        "brand": "WAKEMAKE",
-        "price_usd": 14.99,
-        "rating": 4.7,
-        "review_count": 567
-      },
-      {
-        "rank": 10,
         "product": "[2options] Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
         "brand": "Torriden",
         "price_usd": 20.49,
@@ -108,12 +76,44 @@
         "review_count": 15
       },
       {
-        "rank": 11,
+        "rank": 7,
+        "product": "[2options] LAGOM Cellup Micro Foam Cleanser 4.06 fl. oz.(120ml)",
+        "brand": "LAGOM",
+        "price_usd": 14.0,
+        "rating": 4.8,
+        "review_count": 5358
+      },
+      {
+        "rank": 8,
+        "product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
+        "brand": "Anua",
+        "price_usd": 13.99,
+        "rating": 4.8,
+        "review_count": 128
+      },
+      {
+        "rank": 9,
+        "product": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
+        "brand": "WAKEMAKE",
+        "price_usd": 14.99,
+        "rating": 4.8,
+        "review_count": 1089
+      },
+      {
+        "rank": 10,
         "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Pad Refill Set 70ct 5.41 fl. oz.(160ml)",
         "brand": "GOODAL",
         "price_usd": 26.0,
         "rating": 4.8,
         "review_count": 58
+      },
+      {
+        "rank": 11,
+        "product": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
+        "brand": "WAKEMAKE",
+        "price_usd": 14.99,
+        "rating": 4.7,
+        "review_count": 567
       },
       {
         "rank": 12,
@@ -125,14 +125,6 @@
       },
       {
         "rank": 13,
-        "product": "[2options] ongredients Skin Barrier Calming Lotion 7.43 fl. oz.(220ml)",
-        "brand": "ongredients",
-        "price_usd": 19.12,
-        "rating": 5,
-        "review_count": 5
-      },
-      {
-        "rank": 14,
         "product": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
         "brand": "alternativestereo",
         "price_usd": 9.35,
@@ -140,51 +132,23 @@
         "review_count": 4190
       },
       {
+        "rank": 14,
+        "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+        "brand": "REJURAN",
+        "price_usd": 44.0,
+        "rating": 4.7,
+        "review_count": 14
+      },
+      {
         "rank": 15,
-        "product": "[2options] LABO-H Scalp Strengthening Shampoo for Oily Scalp 29.5 fl. oz.(875ml) (Single / Set)",
-        "brand": "LABO-H",
-        "price_usd": 24.98,
-        "rating": 4.9,
-        "review_count": 225
+        "product": "RETURNITY Ear Therapy Acupressure Patch 20 Count (Hello Kitty Exclusive)",
+        "brand": "RETURNITY",
+        "price_usd": 22.99,
+        "rating": 4.7,
+        "review_count": 23
       }
     ],
     "open_beauty_facts_top": [
-      {
-        "product": "NIVEA Soft hydraterende créme 48u hydratatie",
-        "brand": "NIVEA",
-        "category": "스킨케어",
-        "code": "4005900963499"
-      },
-      {
-        "product": "hand cream",
-        "brand": "Neutrogena",
-        "category": "스킨케어",
-        "code": "3574661685977"
-      },
-      {
-        "product": "Aveeno Baby Eczema Therapy",
-        "brand": "Aveeno",
-        "category": "스킨케어",
-        "code": "0381371018451"
-      },
-      {
-        "product": "BioCare Aloe Vera",
-        "brand": "BioCare",
-        "category": "스킨케어",
-        "code": "6297811169055"
-      },
-      {
-        "product": "Gluta hya dewy radicance",
-        "brand": "Vaseline",
-        "category": "스킨케어",
-        "code": "8901030957048"
-      },
-      {
-        "product": "Healthy Feet Cream",
-        "brand": "O’Keefes",
-        "category": "스킨케어",
-        "code": "0722510026003"
-      },
       {
         "product": "Masque Purifiant Naturel à L'Argile Verte.",
         "brand": "Argile, Juvaflorine",
@@ -238,6 +202,42 @@
         "brand": "SOHO N.Y.C",
         "category": "마스크팩",
         "code": "8683420170045"
+      },
+      {
+        "product": "purple rice PDRN bubble mask",
+        "brand": "Over The Moon Global Co. Ltd., tokki on the moon",
+        "category": "마스크팩",
+        "code": "8809990942121"
+      },
+      {
+        "product": "Tuchmaske Selfcare Moments",
+        "brand": "Balea",
+        "category": "마스크팩",
+        "code": "4070765070989"
+      },
+      {
+        "product": "CeraVe Hydraterende Reinigingscrème",
+        "brand": "CeraVe",
+        "category": "클렌징",
+        "code": "3337875597333"
+      },
+      {
+        "product": "Effaclar Purifying Foaming Gel Cleanser for Oily Skin",
+        "brand": "Alani",
+        "category": "클렌징",
+        "code": "3337872411083"
+      },
+      {
+        "product": "Clean & Clear Blackhead Clearing Daily Scrub",
+        "brand": "Clean & Clear",
+        "category": "클렌징",
+        "code": "3574660149807"
+      },
+      {
+        "product": "Hydrating cream-to-foam cleanser",
+        "brand": "CeraVe",
+        "category": "클렌징",
+        "code": "3337875743563"
       }
     ],
     "alt_us_channels_top": [
@@ -272,15 +272,9 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
-        "brand": "WAKEMAKE",
-        "price_usd": 14.99,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
-        "brand": "Anua",
-        "price_usd": 13.99,
+        "product": "[2options] Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
+        "brand": "Torriden",
+        "price_usd": 20.49,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -290,15 +284,15 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
-        "brand": "WAKEMAKE",
-        "price_usd": 14.99,
+        "product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
+        "brand": "Anua",
+        "price_usd": 13.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[2options] Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)",
-        "brand": "Torriden",
-        "price_usd": 20.49,
+        "product": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
+        "brand": "WAKEMAKE",
+        "price_usd": 14.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -308,9 +302,33 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
+        "product": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
+        "brand": "WAKEMAKE",
+        "price_usd": 14.99,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
         "product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
         "brand": "Anua",
         "price_usd": 25.0,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
+        "brand": "alternativestereo",
+        "price_usd": 9.35,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+        "brand": "REJURAN",
+        "price_usd": 44.0,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "RETURNITY Ear Therapy Acupressure Patch 20 Count (Hello Kitty Exclusive)",
+        "brand": "RETURNITY",
+        "price_usd": 22.99,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -320,9 +338,15 @@
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
-        "product": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
-        "brand": "alternativestereo",
-        "price_usd": 9.35,
+        "product": "[3types] CORINGCO Toktokhara No Glue Eyelash (SANRIO)(+Comb Mirror Keyring)",
+        "brand": "CORINGCO",
+        "price_usd": 14.99,
+        "source": "us.oliveyoung.com/best-sellers 실수집"
+      },
+      {
+        "product": "[18colors] hince Raw Glow Gel Tint Mini 0.06 fl. oz.(2ml) (Original / Sanrio)",
+        "brand": "hince",
+        "price_usd": 6.79,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       },
       {
@@ -335,30 +359,6 @@
         "product": "[2options] S.NATURE Aqua Squalane Serum 1.69 fl. oz.(50ml)",
         "brand": "S.NATURE",
         "price_usd": 13.99,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-        "brand": "AESTURA",
-        "price_usd": 28.49,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "RETURNITY Ear Therapy Acupressure Patch 20 Count (Hello Kitty Exclusive)",
-        "brand": "RETURNITY",
-        "price_usd": 22.99,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-        "brand": "REJURAN",
-        "price_usd": 44.0,
-        "source": "us.oliveyoung.com/best-sellers 실수집"
-      },
-      {
-        "product": "[18colors] hince Raw Glow Gel Tint Mini 0.06 fl. oz.(2ml) (Original / Sanrio)",
-        "brand": "hince",
-        "price_usd": 6.79,
         "source": "us.oliveyoung.com/best-sellers 실수집"
       }
     ],
@@ -752,7 +752,7 @@
         ]
       },
       "브랜딩·포지셔닝": {
-        "자료_수": 12,
+        "자료_수": 13,
         "자료": [
           {
             "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
@@ -1153,15 +1153,15 @@
       "linked_s_products": [
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
         "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "바세린 마스크팩 집중보습",
         "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+        "바세린 마스크팩 집중보습",
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
       "linked_canonical_product_ids": [
         "CP000270",
         "CP000109",
-        "CP000038",
         "CP000151",
+        "CP000038",
         "CP000075"
       ],
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
@@ -1182,19 +1182,19 @@
           "product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
           "brand": "REJURAN",
           "price_usd": 44.0,
-          "us_rank": 19
+          "us_rank": 14
         },
         {
           "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)",
           "brand": "SUNGBOON EDITOR",
           "price_usd": 21.0,
-          "us_rank": 54
+          "us_rank": 56
         },
         {
-          "product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-          "brand": "REJURAN",
-          "price_usd": 52.0,
-          "us_rank": 77
+          "product": "SKIN1004 Madagascar Centella Ampoule 3.38 fl. oz.(100ml)",
+          "brand": "SKIN1004",
+          "price_usd": 21.25,
+          "us_rank": 70
         }
       ],
       "us_example_count": 3,
@@ -1287,10 +1287,10 @@
           "us_rank": 12
         },
         {
-          "product": "AESTURA Atobarrier365 Cream 2.70 fl. oz. (80ml)",
-          "brand": "AESTURA",
-          "price_usd": 28.49,
-          "us_rank": 17
+          "product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha",
+          "brand": "GOODAL",
+          "price_usd": 20.9,
+          "us_rank": 21
         }
       ],
       "us_example_count": 3,
@@ -1331,7 +1331,7 @@
           "product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
           "brand": "Anua",
           "price_usd": 13.99,
-          "us_rank": 7
+          "us_rank": 8
         },
         {
           "product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -1371,19 +1371,19 @@
           "product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
           "brand": "MEDIHEAL",
           "price_usd": 24.5,
-          "us_rank": 36
+          "us_rank": 42
         },
         {
-          "product": "medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)",
-          "brand": "medicube",
-          "price_usd": 23.0,
-          "us_rank": 47
+          "product": "SUNGBOON EDITOR Deep Collagen Silk Peptide Intensive Ampoule 1.35 fl. oz.(40ml)",
+          "brand": "SUNGBOON EDITOR",
+          "price_usd": 21.0,
+          "us_rank": 56
         },
         {
-          "product": "Biodance Collagen Peptide Eye Patches 30ct 2.99 oz.(85g)",
-          "brand": "Biodance",
-          "price_usd": 23.0,
-          "us_rank": 48
+          "product": "Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)",
+          "brand": "Anua",
+          "price_usd": 30.0,
+          "us_rank": 68
         }
       ],
       "us_example_count": 3,
@@ -1416,16 +1416,22 @@
           "product": "AESTURA Atobarrier365 Cream Set 2.70 fl. oz.(80ml) + Hydro Essence 0.85 fl. oz.(25ml) + Cera-Ha Serum 0.24 fl. oz.(7ml)",
           "brand": "AESTURA",
           "price_usd": 34.99,
-          "us_rank": 56
+          "us_rank": 52
+        },
+        {
+          "product": "Torriden Solid In Ceramide Lip Essence Duo Set 0.37 fl. oz.(11ml) x 2ea",
+          "brand": "Torriden",
+          "price_usd": 14.99,
+          "us_rank": 95
         },
         {
           "product": "numbuzin No.9+ NAD+ BIO Lifting-sil Essence 1.69 fl. oz.(50ml)",
           "brand": "numbuzin",
           "price_usd": 26.39,
-          "us_rank": 75
+          "us_rank": 96
         }
       ],
-      "us_example_count": 2,
+      "us_example_count": 3,
       "gemini_tags": [
         "essence gel mask"
       ],
@@ -1446,13 +1452,13 @@
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "name_en": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
       "bucket": "스킨케어",
-      "score": 100,
+      "score": 99,
       "rating": 4.9,
       "review_count": 16253,
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1482,7 +1488,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1506,13 +1512,13 @@
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
       "bucket": "스킨케어",
-      "score": 98,
+      "score": 97,
       "rating": 4.8,
       "review_count": 16857,
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1542,7 +1548,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1572,7 +1578,7 @@
       "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "1차 Draft Action 검토",
       "ad_keywords": [
@@ -1602,7 +1608,7 @@
       "cost_krw": 2000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1626,13 +1632,13 @@
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "name_en": "VT Super Hyalon Sleeping Mask 4ml x 6ea",
       "bucket": "스킨케어",
-      "score": 92,
+      "score": 93,
       "rating": 4.8,
       "review_count": 3884,
       "cost_krw": 3000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1651,44 +1657,18 @@
     },
     {
       "rank": 8,
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "name": "바세린 마스크팩 집중보습",
-      "name_en": null,
-      "bucket": "마스크팩",
-      "score": 91,
-      "rating": 4.8,
-      "review_count": 3692,
-      "cost_krw": 1000,
-      "landed_cost_usd": null,
-      "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
-      "margin_pct": null,
-      "shopify_action": "선행 증거 보강",
-      "ad_keywords": [],
-      "ad_keywords_source": "ontology 선행 게이트 차단",
-      "copy_status": "skipped_prerequisite",
-      "agent_blocked_by": [
-        "us_label",
-        "legal"
-      ],
-      "listing_ready": false,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N"
-    },
-    {
-      "rank": 9,
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
       "name_en": "Celderma Daily Transforming Firming Collagen Mask 28g",
       "bucket": "마스크팩",
-      "score": 87,
+      "score": 90,
       "rating": 4.8,
       "review_count": 1687,
       "cost_krw": 2000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1706,19 +1686,45 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
     },
     {
+      "rank": 9,
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name": "바세린 마스크팩 집중보습",
+      "name_en": null,
+      "bucket": "마스크팩",
+      "score": 90,
+      "rating": 4.8,
+      "review_count": 3692,
+      "cost_krw": 1000,
+      "landed_cost_usd": null,
+      "breakeven_usd": null,
+      "suggested_price_usd": 17.0,
+      "margin_pct": null,
+      "shopify_action": "선행 증거 보강",
+      "ad_keywords": [],
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "listing_ready": false,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N"
+    },
+    {
       "rank": 10,
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "name_en": "Celderma Daily Collagen Essence Gel Mask 29g",
       "bucket": "마스크팩",
-      "score": 87,
+      "score": 89,
       "rating": 4.7,
       "review_count": 2383,
       "cost_krw": 1000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
-      "suggested_price_usd": 17.99,
+      "suggested_price_usd": 17.0,
       "margin_pct": null,
       "shopify_action": "2차 Draft Action 검토",
       "ad_keywords": [
@@ -1737,42 +1743,6 @@
     }
   ],
   "competitor_watch": [
-    {
-      "name": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
-      "brand": "Anua",
-      "price_usd": 21.99,
-      "rating": 4.8,
-      "review_count": 804,
-      "us_rank": 23,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 23위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA84178713",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1080,
-      "us_rank": 38,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 38위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-      "brand": "UNOVE",
-      "price_usd": 26.0,
-      "rating": 5,
-      "review_count": 6,
-      "us_rank": 50,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 50위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39329211",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
       "brand": "MEDIHEAL",
@@ -1808,19 +1778,55 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA16733220",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+      "brand": "Anua",
+      "price_usd": 21.99,
+      "rating": 4.8,
+      "review_count": 804,
+      "us_rank": 23,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 23위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA84178713",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1080,
+      "us_rank": 37,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 37위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+      "brand": "UNOVE",
+      "price_usd": 26.0,
+      "rating": 5,
+      "review_count": 6,
+      "us_rank": 43,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 43위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39329211",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
     "Shopify Draft Action 5건의 payload hash를 검토하고 사람 승인",
     "AI 선행 게이트 차단 1건의 증거 보강: legal, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
-    "시장 가격대 100건 기준 중앙값 $23.4 주 1회 확인",
+    "시장 가격대 100건 기준 중앙값 $22.8 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 11,
+    "signals_verified": 13,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
@@ -1840,9 +1846,9 @@
     ],
     "s_count": 10,
     "listing_ready_count": 9,
-    "last_score_run": "2026-10-02",
-    "last_pricing_run": "2026-10-02",
-    "exchange_rate": 1360.2
+    "last_score_run": "2026-10-03",
+    "last_pricing_run": "2026-10-03",
+    "exchange_rate": 1347.39
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."
 }

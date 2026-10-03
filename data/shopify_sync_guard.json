@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T03:45:34.291360+00:00",
+  "generated_at": "2026-10-03T05:32:02.443702+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
@@ -72,7 +72,7 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "65c645439322e1137efbe0c29074cd8ea1c73afeea930f7f3db17eef665076df"
+      "content_hash": "3266430c6cadf4199ba46d9c729f7cb0e2461992ff349800c915feb259d4c084"
     },
     {
       "handle": "vt-super-hyalon-sleeping-mask-4ml-x-6ea",

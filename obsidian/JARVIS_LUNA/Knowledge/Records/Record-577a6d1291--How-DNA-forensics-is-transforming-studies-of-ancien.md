@@ -2,7 +2,7 @@
 title: "Record 577a6d1291 · How-DNA-forensics-is-transforming-studies-of-ancien"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.269427+00:00
+updated_at: 2026-10-03T05:34:14.465575+00:00
 tags: [record, real-data]
 ---
 

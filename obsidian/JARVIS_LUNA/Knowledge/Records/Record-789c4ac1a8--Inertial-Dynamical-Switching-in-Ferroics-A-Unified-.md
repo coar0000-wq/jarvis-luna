@@ -2,7 +2,7 @@
 title: "Record 789c4ac1a8 · Inertial-Dynamical-Switching-in-Ferroics-A-Unified-Path-to-Nanosecond-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.897854+00:00
+updated_at: 2026-10-03T05:34:15.168792+00:00
 tags: [record, real-data]
 ---
 

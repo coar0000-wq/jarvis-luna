@@ -2,7 +2,7 @@
 title: "Record 24b165b43f · EPIC-An-open-community-challenge-for-sequence-based-prediction-of-tran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.982203+00:00
+updated_at: 2026-10-03T05:34:15.247981+00:00
 tags: [record, real-data]
 ---
 

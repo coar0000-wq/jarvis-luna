@@ -2,7 +2,7 @@
 title: "Record 0a9d86cd20 · Diadermine-Rimpel-Expert-3D-Pro-Hyaluron-Dagcrème"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.874269+00:00
+updated_at: 2026-10-03T05:34:16.245663+00:00
 tags: [record, real-data]
 ---
 

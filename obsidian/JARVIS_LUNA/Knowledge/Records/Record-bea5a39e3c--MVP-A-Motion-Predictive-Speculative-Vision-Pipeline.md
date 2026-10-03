@@ -2,7 +2,7 @@
 title: "Record bea5a39e3c · MVP-A-Motion-Predictive-Speculative-Vision-Pipeline-with-Non-Blocking-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.086605+00:00
+updated_at: 2026-10-03T05:34:14.252648+00:00
 tags: [record, real-data]
 ---
 

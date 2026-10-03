@@ -2,7 +2,7 @@
 title: "Record 95c1beb89a · Pore-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.616092+00:00
+updated_at: 2026-10-03T05:34:17.183425+00:00
 tags: [record, real-data]
 ---
 

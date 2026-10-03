@@ -2,7 +2,7 @@
 title: "Record 275b2f4922 · Front-to-Back-Benchmarking-Vision-Language-Models-for-Asymmetric-Cross"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.865595+00:00
+updated_at: 2026-10-03T05:34:15.133513+00:00
 tags: [record, real-data]
 ---
 

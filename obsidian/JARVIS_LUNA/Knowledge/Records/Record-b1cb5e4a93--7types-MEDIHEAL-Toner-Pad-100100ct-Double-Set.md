@@ -2,7 +2,7 @@
 title: "Record b1cb5e4a93 · 7types-MEDIHEAL-Toner-Pad-100100ct-Double-Set"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.797655+00:00
+updated_at: 2026-10-03T05:34:16.147040+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set
 
 [9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set
-[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set · 평점 4.8 · 리뷰 16,637
+[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set · 평점 4.8 · 리뷰 16,646
 
 **출처:** Source · us_beauty
 

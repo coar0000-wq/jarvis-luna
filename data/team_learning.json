@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T21:59:34.632805+00:00",
+  "generated_at": "2026-10-03T05:31:14.786359+00:00",
   "generator": "scripts/build_team_learning.py",
   "rule": "자막 타임스탬프 근거가 있고 과장 수치를 뺀 항목만 학습으로 센다. 영상 목록만 있는 것은 학습이 아니다.",
-  "total_insights": 53,
-  "reviewed_videos": 48,
+  "total_insights": 64,
+  "reviewed_videos": 52,
   "teams_learning": 9,
   "teams_with_videos": 11,
   "teams": {
@@ -149,7 +149,7 @@
       ],
       "videos_available": 5,
       "review_pending": [],
-      "last_review": "2026-09-29"
+      "last_review": "2026-10-03"
     },
     "institutions": {
       "status": "학습 중",
@@ -207,7 +207,7 @@
     },
     "market": {
       "status": "학습 중",
-      "insights": 41,
+      "insights": 52,
       "this_week_action": {
         "id": "MKT-001",
         "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
@@ -451,7 +451,7 @@
           }
         }
       ],
-      "videos_available": 89,
+      "videos_available": 93,
       "review_pending": [
         {
           "title": "Entrepreneurs: we're built different",
@@ -462,11 +462,11 @@
           "url": "https://www.youtube.com/watch?v=ZXpm1X7-PFM"
         }
       ],
-      "last_review": "2026-09-29"
+      "last_review": "2026-10-03"
     },
     "listing": {
       "status": "학습 중",
-      "insights": 33,
+      "insights": 40,
       "this_week_action": {
         "id": "LST-20260928-01",
         "tactic": "Claude 프롬프트 기반 Shopify 상세페이지 구축",
@@ -702,7 +702,7 @@
           }
         }
       ],
-      "videos_available": 46,
+      "videos_available": 50,
       "review_pending": [
         {
           "title": "How to Use Claude to Build and Run a Shopify Store",
@@ -713,11 +713,11 @@
           "url": "https://www.youtube.com/watch?v=VbSF8TUpsjE"
         }
       ],
-      "last_review": "2026-09-29"
+      "last_review": "2026-10-03"
     },
     "pricing": {
       "status": "학습 중",
-      "insights": 14,
+      "insights": 18,
       "this_week_action": {
         "id": "MKT-008",
         "tactic": "번들·사은품 임계값 AOV 테스트",
@@ -954,7 +954,7 @@
           }
         }
       ],
-      "videos_available": 38,
+      "videos_available": 41,
       "review_pending": [
         {
           "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
@@ -965,11 +965,11 @@
           "url": "https://www.youtube.com/watch?v=7VeooS_ZSN8"
         }
       ],
-      "last_review": "2026-09-29"
+      "last_review": "2026-10-03"
     },
     "legal": {
       "status": "학습 중",
-      "insights": 27,
+      "insights": 34,
       "this_week_action": {
         "id": "LEG-20260928-01",
         "tactic": "수출 규제 서류 사전 완비 및 조건부 등록",
@@ -1206,7 +1206,7 @@
           }
         }
       ],
-      "videos_available": 34,
+      "videos_available": 38,
       "review_pending": [
         {
           "title": "Navigating the FDA Bayesian Draft Guidance: Design, Analysis, and Review Considerations",
@@ -1217,7 +1217,7 @@
           "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec"
         }
       ],
-      "last_review": "2026-09-29"
+      "last_review": "2026-10-03"
     },
     "robotics": {
       "status": "영상 수집됨 · 자막 검토 대기",
@@ -1239,7 +1239,7 @@
     },
     "design": {
       "status": "학습 중",
-      "insights": 11,
+      "insights": 16,
       "this_week_action": {
         "id": "DSN-20260928-01",
         "tactic": "스크롤 드라이브 인터랙티브 랜딩페이지 구축",
@@ -1454,30 +1454,30 @@
           }
         },
         {
-          "id": "MKT-038",
-          "tactic": "고객 단계별 질문·페이지·전환 지도",
-          "action": "고객 세그먼트마다 최초 접점, 첫 랜딩페이지, 예상 질문, 이메일 구독 또는 구매 전환, 재구매까지의 흐름을 한 장의 여정 지도로 만든다.",
-          "confidence": "medium",
+          "id": "MKT-042",
+          "tactic": "클릭-주문 단절 지점으로 이메일과 랜딩 분리 진단",
+          "action": "클릭이 약하면 이메일 훅·메시지를, 클릭은 충분하지만 주문이 약하면 오퍼·랜딩페이지·PDP를 우선 점검해 한 번에 한 병목만 수정한다.",
+          "confidence": "high",
           "kpis": [
-            "journey_step_coverage",
-            "landing_message_match_rate",
-            "email_signup_rate",
-            "repeat_purchase_path_coverage"
+            "click_rate",
+            "click_to_order_rate",
+            "landing_conversion_rate",
+            "email_variant_win_rate"
           ],
           "prerequisites": [
-            "고객 세그먼트",
-            "유입 채널",
-            "랜딩페이지 목록",
-            "이메일·구매 이벤트"
+            "캠페인 클릭 로그",
+            "주문 귀속 규칙",
+            "랜딩페이지 식별",
+            "오퍼 기록"
           ],
           "evidence": {
-            "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
-            "timestamp": "26:25-28:40",
-            "summary": "상단 퍼널부터 판매 후 재구매까지 고객 단계와 첫 페이지·질문·다음 행동을 연결해 전체 여정을 설계"
+            "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+            "timestamp": "02:49-03:53",
+            "summary": "클릭은 실제 의도를 나타내며 클릭 후 주문이 약하면 오퍼나 랜딩, 클릭 자체가 약하면 이메일 문제로 분리 진단"
           }
         }
       ],
-      "videos_available": 68,
+      "videos_available": 70,
       "review_pending": [
         {
           "title": "구글이 무료로 뿌리는 디자인AI '스티치' 요약정리",
@@ -1488,7 +1488,7 @@
           "url": "https://www.youtube.com/watch?v=uTr2yXMeL9w"
         }
       ],
-      "last_review": "2026-09-29"
+      "last_review": "2026-10-03"
     },
     "channels": {
       "status": "학습 중",
@@ -1568,7 +1568,7 @@
     },
     "knowledge": {
       "status": "학습 중",
-      "insights": 2,
+      "insights": 6,
       "this_week_action": {
         "id": "KNW-20260928-01",
         "tactic": "3단 위계 건축물 구조화 지식 요약",
@@ -1628,9 +1628,102 @@
             "timestamp": "42:32-43:48",
             "summary": "작은 브랜드는 단기 해킹보다 제3자 사이트 가시성, 사회적 인지도, PR과 고객 접점 이해로 브랜드 선호를 쌓아야 함"
           }
+        },
+        {
+          "id": "MKT-043",
+          "tactic": "과거 캠페인 승자 요인 원장",
+          "action": "최근 1·2·3개월과 전체 캠페인을 수신자당 매출과 클릭률로 정렬하고 제품, 증거, 오퍼, 세그먼트별 승자 요인을 기록하되 할인 캠페인과 비할인 캠페인을 분리한다.",
+          "confidence": "medium",
+          "kpis": [
+            "nonpromo_revenue_per_recipient",
+            "campaign_learning_coverage",
+            "repeatable_winner_count",
+            "discount_campaign_share"
+          ],
+          "prerequisites": [
+            "캠페인 이력",
+            "제품 태그",
+            "오퍼 태그",
+            "세그먼트 태그",
+            "사회적 증거 사용 기록"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+            "timestamp": "03:54-05:48",
+            "summary": "기간별 캠페인을 행동·매출 지표로 정렬하고 제품·사회적 증거·오퍼·세그먼트를 비교하며 비할인 성과를 별도로 본다"
+          }
+        },
+        {
+          "id": "MKT-044",
+          "tactic": "플랫폼 귀속과 Shopify 실매출 교차검증",
+          "action": "광고 플랫폼 보고값과 Shopify 전체 매출이 충돌하면 Shopify 주문·총매출과 총 광고비 비율을 우선 대조하고 채널 귀속값은 보조 진단으로만 사용한다.",
+          "confidence": "medium",
+          "kpis": [
+            "shopify_net_revenue",
+            "marketing_efficiency_ratio",
+            "platform_revenue_gap",
+            "contribution_margin_after_marketing"
+          ],
+          "prerequisites": [
+            "Shopify 주문·매출",
+            "채널별 광고비",
+            "동일 기간 정의",
+            "환불·취소 반영"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+            "timestamp": "10:06-11:44",
+            "summary": "플랫폼 구매 보고보다 Shopify 전체 매출과 총 지출 대비 총매출이 실제 사업 성과를 더 직접적으로 보여줌"
+          }
+        },
+        {
+          "id": "MKT-047",
+          "tactic": "질문 fan-out을 테마·속성 콘텐츠로 변환",
+          "action": "대표 구매 질문을 제품 속성, 비교, 실제 사용 상황, 리뷰·인용, 관련 상품 하위 질문으로 분해하고 제품·컬렉션·FAQ 로드맵에 배치한다.",
+          "confidence": "medium",
+          "kpis": [
+            "theme_question_coverage",
+            "attribute_completeness",
+            "comparison_page_coverage",
+            "cited_answer_coverage"
+          ],
+          "prerequisites": [
+            "대표 구매 질문",
+            "제품 속성 원장",
+            "비교 가능 사실",
+            "검증 리뷰·인용 출처"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
+            "timestamp": "02:01-03:21",
+            "summary": "AI 검색은 한 질문을 여러 하위 질의로 확장하므로 긴 문장 하나보다 테마와 속성·비교·사용 사례·제품 데이터·인용을 다뤄야 함"
+          }
+        },
+        {
+          "id": "MKT-048",
+          "tactic": "SEO 기반 위에 GEO 정보 회수성 점검",
+          "action": "핵심 페이지의 크롤·색인, 구조화된 제품 정보, 내부 링크, 컬렉션 연결, 외부 인용을 점검하고 GEO라는 이름으로 기존 SEO 기반을 대체하지 않는다.",
+          "confidence": "medium",
+          "kpis": [
+            "indexable_money_page_rate",
+            "internal_link_coverage",
+            "product_data_completeness",
+            "retrieval_gap_count"
+          ],
+          "prerequisites": [
+            "크롤·색인 검사",
+            "제품 데이터 완전성",
+            "내부 링크 지도",
+            "검증 가능한 외부 인용"
+          ],
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
+            "timestamp": "03:57-05:30",
+            "summary": "상품 제목·설명·속성·이미지·지원 콘텐츠·내부 링크와 크롤·색인·외부 인용이 함께 있어야 검색·AI 시스템이 정보를 회수하기 쉬움"
+          }
         }
       ],
-      "videos_available": 70,
+      "videos_available": 73,
       "review_pending": [
         {
           "title": "정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료",
@@ -1641,7 +1734,7 @@
           "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4"
         }
       ],
-      "last_review": "2026-09-29"
+      "last_review": "2026-10-03"
     },
     "graph": {
       "status": "영상 수집됨 · 자막 검토 대기",

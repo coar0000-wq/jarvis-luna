@@ -2,7 +2,7 @@
 title: "Record 17de3486e7 · GTR-Gated-Token-Recurrence-for-Efficient-Dense-Prediction"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.741090+00:00
+updated_at: 2026-10-03T05:34:14.987774+00:00
 tags: [record, real-data]
 ---
 

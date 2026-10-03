@@ -2,7 +2,7 @@
 title: "Record 5bb0269677 · MedForge-RSI-Medical-Deepfake-Detection-via-Recursive-Self-Improvement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.829830+00:00
+updated_at: 2026-10-03T05:34:15.090764+00:00
 tags: [record, real-data]
 ---
 

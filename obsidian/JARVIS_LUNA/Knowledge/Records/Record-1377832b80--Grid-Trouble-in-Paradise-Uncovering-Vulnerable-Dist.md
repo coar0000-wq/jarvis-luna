@@ -2,7 +2,7 @@
 title: "Record 1377832b80 · Grid-Trouble-in-Paradise-Uncovering-Vulnerable-Dist"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:40.892896+00:00
+updated_at: 2026-10-03T05:34:14.029380+00:00
 tags: [record, real-data]
 ---
 

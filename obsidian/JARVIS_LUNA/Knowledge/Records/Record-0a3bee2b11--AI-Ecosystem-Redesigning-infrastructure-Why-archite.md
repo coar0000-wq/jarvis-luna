@@ -2,7 +2,7 @@
 title: "Record 0a3bee2b11 · AI-Ecosystem-Redesigning-infrastructure-Why-architecture-determines-pe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.604506+00:00
+updated_at: 2026-10-03T05:34:15.928166+00:00
 tags: [record, real-data]
 ---
 

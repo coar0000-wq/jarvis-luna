@@ -2,7 +2,7 @@
 title: "Record ce3900dcd2 · PROTEUS-A-40-nm-Programmable-General-Purpose-Digital-Compute-In-Memory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.352283+00:00
+updated_at: 2026-10-03T05:34:14.558164+00:00
 tags: [record, real-data]
 ---
 

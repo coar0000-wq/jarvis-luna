@@ -2,7 +2,7 @@
 title: "Record 479952f9bf · Corporate-Pension-Risk-Transfers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.432610+00:00
+updated_at: 2026-10-03T05:34:14.645231+00:00
 tags: [record, real-data]
 ---
 

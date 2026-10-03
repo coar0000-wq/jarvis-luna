@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-02T22:15:03.549787+00:00",
+  "generated_at": "2026-10-03T05:20:08.998181+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3124,
+  "pool_size": 3128,
   "제목없어_버림": 38,
   "unrouted": 8,
   "summary": {
@@ -15,59 +15,59 @@
       "products": 356
     },
     "market": {
-      "total": 946,
-      "recent": 112,
-      "material": 946,
-      "material_recent": 112,
+      "total": 950,
+      "recent": 115,
+      "material": 950,
+      "material_recent": 115,
       "products": 0
     },
     "listing": {
-      "total": 122,
-      "recent": 64,
-      "material": 122,
-      "material_recent": 64,
+      "total": 126,
+      "recent": 68,
+      "material": 126,
+      "material_recent": 68,
       "products": 0
     },
     "pricing": {
-      "total": 71,
-      "recent": 28,
-      "material": 71,
-      "material_recent": 28,
+      "total": 74,
+      "recent": 31,
+      "material": 74,
+      "material_recent": 31,
       "products": 0
     },
     "legal": {
-      "total": 231,
-      "recent": 56,
-      "material": 231,
-      "material_recent": 56,
+      "total": 235,
+      "recent": 62,
+      "material": 235,
+      "material_recent": 62,
       "products": 0
     },
     "design": {
-      "total": 460,
-      "recent": 142,
-      "material": 460,
-      "material_recent": 142,
+      "total": 462,
+      "recent": 143,
+      "material": 462,
+      "material_recent": 143,
       "products": 0
     },
     "robotics": {
       "total": 148,
-      "recent": 57,
+      "recent": 56,
       "material": 148,
-      "material_recent": 57,
+      "material_recent": 56,
       "products": 0
     },
     "knowledge": {
-      "total": 300,
-      "recent": 107,
-      "material": 300,
-      "material_recent": 107,
+      "total": 303,
+      "recent": 109,
+      "material": 303,
+      "material_recent": 109,
       "products": 0
     },
     "institutions": {
       "total": 1161,
-      "recent": 264,
+      "recent": 253,
       "material": 1161,
-      "material_recent": 264,
+      "material_recent": 253,
       "products": 0
     },
     "channels": {
@@ -527,6 +527,38 @@
     ],
     "market": [
       {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+        "pool": "youtube_manual",
+        "summary": "이메일 오픈율 대신 클릭·주문·수신자당 매출로 캠페인을 진단하고 비할인 승자 요인을 기록",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+        "pool": "youtube_manual",
+        "summary": "Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "1",
+        "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
+        "pool": "youtube_manual",
+        "summary": "질문 fan-out 테마·상품 속성·비교·인용과 SEO 기반 GEO 회수성 점검",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "10",
+        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
+        "pool": "youtube_manual",
+        "summary": "구매 의사결정 장벽·카트 확신·의심 지점별 증거와 비교 CRO",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
         "pool": "youtube_insight",
@@ -973,41 +1005,41 @@
         "summary": "할인 중첩·만료·무료배송을 기여이익 기준으로 감사",
         "date": "2026-09-27",
         "by_hand": true
-      },
-      {
-        "title": "Like",
-        "url": "https://www.youtube.com/watch?v=kFWPkoOx_ao",
-        "pool": "youtube_manual",
-        "summary": "Shopify 공식 모바일 게스트 체크아웃 CRO",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "7",
-        "url": "https://www.youtube.com/watch?v=Knjixb392Is",
-        "pool": "youtube_manual",
-        "summary": "제품·변형·컬렉션·FAQ 구조화 데이터 검증",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "3",
-        "url": "https://www.youtube.com/watch?v=v7DT2yhi9Ac",
-        "pool": "youtube_manual",
-        "summary": "Klaviyo 공식 배송 지연·선셋 리텐션 자동화",
-        "date": "2026-09-27",
-        "by_hand": true
-      },
-      {
-        "title": "23",
-        "url": "https://www.youtube.com/watch?v=_pKECd9m25U",
-        "pool": "youtube_manual",
-        "summary": "UGC 스크립트와 문장별 B-roll 샷리스트",
-        "date": "2026-09-27",
-        "by_hand": true
       }
     ],
     "listing": [
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+        "pool": "youtube_manual",
+        "summary": "이메일 오픈율 대신 클릭·주문·수신자당 매출로 캠페인을 진단하고 비할인 승자 요인을 기록",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+        "pool": "youtube_manual",
+        "summary": "Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "1",
+        "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
+        "pool": "youtube_manual",
+        "summary": "질문 fan-out 테마·상품 속성·비교·인용과 SEO 기반 GEO 회수성 점검",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "10",
+        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
+        "pool": "youtube_manual",
+        "summary": "구매 의사결정 장벽·카트 확신·의심 지점별 증거와 비교 CRO",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -1455,41 +1487,33 @@
         "summary": "Matt Clark - AI로 대형 브랜드 이기기. 큰 시장 속 불만족 집단을 리뷰로 찾기 / 가격 경쟁 대신 AI 보너스로 가치 올리기 / 카피 3입력(제품 사실·리뷰 원문 표현·Ad Library 예시) / 메타 단일 캠페인에 주 10~20개 광고 / 리스티클 랜딩",
         "date": "2026-09-15",
         "by_hand": true
-      },
-      {
-        "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
-        "url": "https://www.youtube.com/watch?v=dPPd65Kvh7Y",
-        "pool": "youtube_manual",
-        "summary": "Ali Akbar - Claude 로 월매출 200만불 스토어를 통째로 복제하는 78분 강의. 방법은 참고, 복제 자체는 위험",
-        "date": "2026-09-07",
-        "by_hand": true
-      },
-      {
-        "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
-        "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-        "pool": "youtube_manual",
-        "summary": "Claude 로 쇼피파이 리브랜딩",
-        "date": "2026-09-06",
-        "by_hand": true
-      },
-      {
-        "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
-        "url": "https://www.youtube.com/watch?v=jUxSAGCaJIU",
-        "pool": "youtube_manual",
-        "summary": "쇼피파이 2026 신기능",
-        "date": "2026-09-06",
-        "by_hand": true
-      },
-      {
-        "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
-        "url": "https://www.youtube.com/watch?v=IG0V7o6Z3ZE",
-        "pool": "youtube_manual",
-        "summary": "G-ROAD - 쇼피파이 드랍쉬핑 스토어 5곳 해부. 브랜딩이 전환을 만든다는 논지",
-        "date": "2026-09-06",
-        "by_hand": true
       }
     ],
     "pricing": [
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+        "pool": "youtube_manual",
+        "summary": "이메일 오픈율 대신 클릭·주문·수신자당 매출로 캠페인을 진단하고 비할인 승자 요인을 기록",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+        "pool": "youtube_manual",
+        "summary": "Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "10",
+        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
+        "pool": "youtube_manual",
+        "summary": "구매 의사결정 장벽·카트 확신·의심 지점별 증거와 비교 CRO",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -1713,6 +1737,13 @@
         "by_hand": true
       },
       {
+        "title": "Where Logistics Meets Human Psychology: Rory Sutherland & Ryan Petersen in Conversation",
+        "url": "https://www.youtube.com/watch?v=zmKDMUo3bBY",
+        "pool": "youtube_channel",
+        "date": "",
+        "by_hand": true
+      },
+      {
         "title": "Flexport 2026 Fall Technology Release Live Broadcast",
         "url": "https://www.youtube.com/watch?v=z9czG_mcDBM",
         "pool": "youtube_channel",
@@ -1907,37 +1938,41 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "This was Forward Italy 2026",
-        "url": "https://www.youtube.com/watch?v=YCFs_MVfVq0",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Supply Chain Therapy with Flexport and Portland Leather Goods",
-        "url": "https://www.youtube.com/watch?v=9zp2rRHoRG4",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Introducing GPT-6.1 Sol",
-        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-        "pool": "institutions",
-        "date": "2026-09-29",
-        "by_hand": false
-      },
-      {
-        "title": "Snowflake Prices Upsized Private Placement of $3.75 Billion of 0.00% Convertible Senior Notes",
-        "url": "https://investors.snowflake.com/news/news-details/2026/Snowflake-Prices-Upsized-Private-Placement-of-3-75-Billion-of-0-00-Convertible-Senior-Notes/default.aspx",
-        "pool": "institutions",
-        "date": "2026-09-29",
-        "by_hand": false
       }
     ],
     "legal": [
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+        "pool": "youtube_manual",
+        "summary": "이메일 오픈율 대신 클릭·주문·수신자당 매출로 캠페인을 진단하고 비할인 승자 요인을 기록",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+        "pool": "youtube_manual",
+        "summary": "Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "1",
+        "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
+        "pool": "youtube_manual",
+        "summary": "질문 fan-out 테마·상품 속성·비교·인용과 SEO 기반 GEO 회수성 점검",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "10",
+        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
+        "pool": "youtube_manual",
+        "summary": "구매 의사결정 장벽·카트 확신·의심 지점별 증거와 비교 CRO",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -2370,37 +2405,25 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Recent Trends in Pharmaceutical Freeze-Drying and Control Strategies",
-        "url": "https://www.youtube.com/watch?v=3fgnBFwf1ZE",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Bioanalysis of Endogenous Drugs Using Surrogate Matrix Approach in ANDAs",
-        "url": "https://www.youtube.com/watch?v=JkRKxB3xwdQ",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "GDF2026 - ICH M13A High-Risk vs. Low-Risk Case Studies – Bioequivalence (BE) Implications",
-        "url": "https://www.youtube.com/watch?v=owEVCzDHr3k",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "GDF2026 - Q&A Discussion Panel Seven",
-        "url": "https://www.youtube.com/watch?v=RPagNxJipNw",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "design": [
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+        "pool": "youtube_manual",
+        "summary": "Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "10",
+        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
+        "pool": "youtube_manual",
+        "summary": "구매 의사결정 장벽·카트 확신·의심 지점별 증거와 비교 CRO",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
       {
         "title": "[영상 학습 MKT-001] 광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
         "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
@@ -2838,20 +2861,6 @@
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "What Are Claude Design Skills and How to Use Them",
-        "url": "https://www.youtube.com/watch?v=psUJ14KmwpI",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Beyond TikTok Shop: How to Use TikTok to Drive Sales",
-        "url": "https://www.youtube.com/watch?v=nIOn_726Rxk",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
       }
     ],
     "robotics": [
@@ -3278,6 +3287,30 @@
     ],
     "knowledge": [
       {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+        "pool": "youtube_manual",
+        "summary": "이메일 오픈율 대신 클릭·주문·수신자당 매출로 캠페인을 진단하고 비할인 승자 요인을 기록",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "0",
+        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+        "pool": "youtube_manual",
+        "summary": "Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
+        "title": "1",
+        "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
+        "pool": "youtube_manual",
+        "summary": "질문 fan-out 테마·상품 속성·비교·인용과 SEO 기반 GEO 회수성 점검",
+        "date": "2026-10-03",
+        "by_hand": true
+      },
+      {
         "title": "[영상 학습 MKT-036] 제3자 접점 기반 브랜드 선호 구축",
         "url": "https://www.youtube.com/watch?v=YoDGJV1XTls",
         "pool": "youtube_insight",
@@ -3685,27 +3718,6 @@
       {
         "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
         "url": "https://www.youtube.com/watch?v=mWlCituW7wo",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
-        "url": "https://www.youtube.com/watch?v=y24lF1q4SFY",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
-        "url": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
-        "pool": "youtube_channel",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Claude Fable 5 - Full 319 page Breakdown",
-        "url": "https://www.youtube.com/watch?v=haK1KoQWm18",
         "pool": "youtube_channel",
         "date": "",
         "by_hand": true

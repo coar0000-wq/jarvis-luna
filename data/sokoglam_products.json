@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-03T00:00:20.822959+00:00",
+  "collected_at": "2026-10-03T05:31:18.703799+00:00",
   "is_stale": false,
-  "count": 239,
+  "count": 238,
   "by_collection": {
     "Best Sellers": 82,
-    "Skincare": 157
+    "Skincare": 156
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 239,
+    "n": 238,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -4018,29 +4018,6 @@
         "Skin_Concern::Pigmentation",
         "Skin_Type::Combination",
         "Skin_Type::Dry"
-      ]
-    },
-    {
-      "rank": 150,
-      "name": "Superhue Brightening Eye Cream",
-      "brand": "Live Tinted",
-      "price_usd": 34.0,
-      "category": "Eye Cream",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/live-tinted-superhue-brightening-eye-cream",
-      "tags": [
-        "de-puff eye",
-        "eye care",
-        "eye cream",
-        "eyecream",
-        "live tinted",
-        "new",
-        "Product_Type::Eye Creams",
-        "Skin_Concern::Anti-Aging/Wrinkles",
-        "Skin_Concern::Dryness/Hydration",
-        "Skin_Concern::Dryness_/_Hydration",
-        "Skin_Concern::Pigmentation",
-        "Skin_Type::Combination"
       ]
     },
     {

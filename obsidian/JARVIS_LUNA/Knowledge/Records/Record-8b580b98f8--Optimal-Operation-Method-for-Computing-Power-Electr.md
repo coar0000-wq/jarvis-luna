@@ -2,7 +2,7 @@
 title: "Record 8b580b98f8 · Optimal-Operation-Method-for-Computing-Power-Electric-Power-Coordinati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.075549+00:00
+updated_at: 2026-10-03T05:34:14.239944+00:00
 tags: [record, real-data]
 ---
 

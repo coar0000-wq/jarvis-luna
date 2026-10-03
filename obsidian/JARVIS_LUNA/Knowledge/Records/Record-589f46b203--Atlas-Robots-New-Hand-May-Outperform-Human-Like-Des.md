@@ -2,7 +2,7 @@
 title: "Record 589f46b203 · Atlas-Robots-New-Hand-May-Outperform-Human-Like-Designs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.760033+00:00
+updated_at: 2026-10-03T05:34:16.103768+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 4fb5afb931 · Precision-In-Motion-Vishay-Precision-Group-Inc-VPG-to-Showcase-Custom-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.563610+00:00
+updated_at: 2026-10-03T05:34:17.124583+00:00
 tags: [record, real-data]
 ---
 

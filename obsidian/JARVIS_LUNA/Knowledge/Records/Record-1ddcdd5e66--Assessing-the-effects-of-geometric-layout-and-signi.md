@@ -2,7 +2,7 @@
 title: "Record 1ddcdd5e66 · Assessing-the-effects-of-geometric-layout-and-signi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.246172+00:00
+updated_at: 2026-10-03T05:34:14.437458+00:00
 tags: [record, real-data]
 ---
 

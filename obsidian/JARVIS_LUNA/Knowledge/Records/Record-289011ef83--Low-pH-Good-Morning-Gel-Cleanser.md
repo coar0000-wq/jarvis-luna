@@ -2,7 +2,7 @@
 title: "Record 289011ef83 · Low-pH-Good-Morning-Gel-Cleanser"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.728419+00:00
+updated_at: 2026-10-03T05:34:16.066424+00:00
 tags: [record, real-data]
 ---
 

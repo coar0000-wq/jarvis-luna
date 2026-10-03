@@ -2,7 +2,7 @@
 title: "Record af7437a2a3 · 5-million-robots-are-now-at-work-in-factories-worldwide-reports-the-IF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.530014+00:00
+updated_at: 2026-10-03T05:34:17.081903+00:00
 tags: [record, real-data]
 ---
 

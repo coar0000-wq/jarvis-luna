@@ -2,7 +2,7 @@
 title: "Record 47ce6a6d9f · On-the-Role-of-the-Projector-in-Contrastive-Self-Supervised-Learning-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.736098+00:00
+updated_at: 2026-10-03T05:34:14.982206+00:00
 tags: [record, real-data]
 ---
 

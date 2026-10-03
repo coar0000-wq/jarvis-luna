@@ -2,7 +2,7 @@
 title: "Record f57f12f250 · DrivingBench-Can-Vision-Language-Models-Drive-a-Toyota-Corolla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.855547+00:00
+updated_at: 2026-10-03T05:34:15.122006+00:00
 tags: [record, real-data]
 ---
 

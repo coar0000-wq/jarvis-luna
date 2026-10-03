@@ -2,7 +2,7 @@
 title: "Record ef17384f1e · CYBERSECURITY-GOVERNANCE-AND-RISK-MANAGEMENT-FOR-DIGITAL-TRANSFORMATIO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.432283+00:00
+updated_at: 2026-10-03T05:34:14.644882+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record 100805064f · Luxe-Color-Changing-Foundation--Medium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.081110+00:00
+updated_at: 2026-10-03T05:34:16.516714+00:00
 tags: [record, real-data]
 ---
 

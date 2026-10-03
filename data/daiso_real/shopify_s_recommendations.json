@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T10:28:20.574565+00:00",
+  "generated_at": "2026-10-03T05:31:55.440474+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -13,21 +13,21 @@
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 100,
+      "shopify_score": 99,
       "grade": "S",
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "similarity": 0.733,
-        "demand_weight": 0.882,
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.7,
+        "demand_weight": 0.75,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.647
+        "match_score": 0.525
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -41,7 +41,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -53,23 +53,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.726,
+        "confidence": 0.712,
         "usage": {
-          "input_tokens": 1105,
+          "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.71,
+        "risk_score": 1.68,
         "model": "jev-1.13.0",
-        "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-10-02T22:21:15.401957+00:00",
-        "carried_from": "2026-10-02T22:21:15.401957+00:00"
+        "state_signature": "873be9767eedb9d0034dd4719e90abf0cfe14ce87f79d55a4331253b35291a54",
+        "decided_at": "2026-10-03T05:32:01.292517+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 2,
@@ -107,7 +106,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -119,23 +118,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.704,
+        "confidence": 0.712,
         "usage": {
           "input_tokens": 1085,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.6,
         "model": "jev-1.13.0",
         "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-02T22:21:15.610687+00:00",
-        "carried_from": "2026-10-02T22:21:15.610687+00:00"
+        "decided_at": "2026-10-03T05:32:01.407024+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 3,
@@ -144,21 +142,21 @@
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 98,
+      "shopify_score": 97,
       "grade": "S",
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "recommend_reason": "글로벌 'REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)",
-        "similarity": 0.733,
-        "demand_weight": 0.882,
+        "channel": "tiktok_shop_us",
+        "global_product": "Skin1004 Madagascar Centella Ampoule",
+        "similarity": 0.7,
+        "demand_weight": 0.75,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.647
+        "match_score": 0.525
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -172,7 +170,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -188,19 +186,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.722,
+        "confidence": 0.7,
         "usage": {
           "input_tokens": 1104,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.66,
+        "risk_score": 1.62,
         "model": "jev-1.13.0",
-        "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-02T22:21:15.774554+00:00",
-        "carried_from": "2026-10-02T22:21:15.774554+00:00"
+        "state_signature": "779dea4823d18a61792ec9ea34b3279412e561cba2a578bde0955303e74360e4",
+        "decided_at": "2026-10-03T05:32:01.550561+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 4,
@@ -214,17 +211,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 'VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))' (oliveyoung_us) 유사 85% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz' (amazon_new_beauty) 유사 76% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))",
-        "similarity": 0.853,
-        "demand_weight": 0.49,
+        "channel": "amazon_new_beauty",
+        "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
+        "similarity": 0.76,
+        "demand_weight": 0.637,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.418
+        "match_score": 0.484
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -238,7 +235,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -254,19 +251,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.708,
+        "confidence": 0.698,
         "usage": {
           "input_tokens": 1086,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.62,
+        "risk_score": 1.56,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-02T22:21:15.958874+00:00",
-        "carried_from": "2026-10-02T22:21:15.958874+00:00"
+        "decided_at": "2026-10-03T05:32:01.704065+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 5,
@@ -304,7 +300,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -320,19 +316,18 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.718,
+        "confidence": 0.714,
         "usage": {
           "input_tokens": 1097,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.59,
+        "risk_score": 1.63,
         "model": "jev-1.13.0",
         "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-02T22:21:16.122612+00:00",
-        "carried_from": "2026-10-02T22:21:16.122612+00:00"
+        "decided_at": "2026-10-03T05:32:01.798491+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 6,
@@ -346,17 +341,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 'VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))' (oliveyoung_us) 유사 65% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz' (amazon_new_beauty) 유사 56% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml))",
-        "similarity": 0.653,
-        "demand_weight": 0.49,
+        "channel": "amazon_new_beauty",
+        "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
+        "similarity": 0.56,
+        "demand_weight": 0.637,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.32
+        "match_score": 0.357
       },
       "registerable": true,
       "registerable_source": "data/listing_gate.json",
@@ -370,7 +365,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -382,23 +377,22 @@
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.68,
+        "confidence": 0.674,
         "usage": {
           "input_tokens": 1090,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.56,
+        "risk_score": 1.5,
         "model": "jev-1.13.0",
         "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-02T22:21:16.304496+00:00",
-        "carried_from": "2026-10-02T22:21:16.304496+00:00"
+        "decided_at": "2026-10-03T05:32:01.890643+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 7,
@@ -407,7 +401,7 @@
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
       "bucket": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 92,
+      "shopify_score": 93,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
@@ -436,7 +430,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -452,28 +446,92 @@
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.716,
+        "confidence": 0.712,
         "usage": {
           "input_tokens": 1096,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.58,
+        "risk_score": 1.56,
         "model": "jev-1.13.0",
-        "state_signature": "3a378c7505096d3df7a096ebff231a6c635d3bd965a6b595416b11582633cb00",
-        "decided_at": "2026-10-02T22:21:16.485996+00:00",
-        "carried_from": "2026-10-02T22:21:16.485996+00:00"
+        "state_signature": "e05a0e27591e0c95f4d9b69ae7367544fdcdf352632872cce305bc9033dca5a5",
+        "decided_at": "2026-10-03T05:32:01.995355+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 8,
+      "canonical_product_id": "CP000151",
+      "pd_no": "1059834",
+      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
+      "bucket": "마스크팩",
+      "price_krw": 2000,
+      "shopify_score": 90,
+      "grade": "S",
+      "s_rule": "ingredient+form",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
+      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
+      "matched_global": {
+        "channel": "tiktok_shop_us",
+        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "similarity": 0.88,
+        "demand_weight": 0.6,
+        "matched_tokens": [
+          "collagen",
+          "mask"
+        ],
+        "match_score": 0.528
+      },
+      "registerable": true,
+      "registerable_source": "data/listing_gate.json",
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "blocked_by": [],
+      "public_ready": false,
+      "public_blocked_by": [
+        "legal_full"
+      ],
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": true,
+        "mode": "typesafe_observational_free_credits",
+        "source": "typesafe",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 1,
+        "team_routes": [
+          "legal"
+        ],
+        "model_route": "human",
+        "model_route_confidence": 0.92,
+        "findings": [
+          "public blockers: legal_full"
+        ],
+        "confidence": 0.716,
+        "usage": {
+          "input_tokens": 1094,
+          "output_tokens": 198
+        },
+        "free_credits_only": true,
+        "risk_score": 1.53,
+        "model": "jev-1.13.0",
+        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
+        "decided_at": "2026-10-03T05:32:02.091159+00:00"
+      },
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
+    },
+    {
+      "rank": 9,
       "canonical_product_id": "CP000038",
       "pd_no": "1027327",
       "name": "바세린 마스크팩 집중보습",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 91,
+      "shopify_score": 90,
       "grade": "S",
       "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
@@ -512,7 +570,7 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
@@ -525,91 +583,24 @@
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.86,
+        "model_route_confidence": 0.91,
         "findings": [
           "draft blockers: copy, us_label, legal",
           "public blockers: copy, us_label, legal, legal_full",
           "legal hard block"
         ],
-        "confidence": 0.902,
+        "confidence": 0.904,
         "usage": {
           "input_tokens": 1113,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 2.71,
+        "risk_score": 2.66,
         "model": "jev-1.13.0",
-        "state_signature": "b0582cacf994482e3059f0d2ae9df7f5c57a4a9358f95651c17206ce007a8ad0",
-        "decided_at": "2026-10-02T22:21:16.753324+00:00",
-        "carried_from": "2026-10-02T22:21:16.753324+00:00"
+        "state_signature": "0c90ca404d04cdcca7369a3ae60ef51d5ea1a188472d4e2d7862f0e6e2f76e0c",
+        "decided_at": "2026-10-03T05:32:02.184394+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
-    },
-    {
-      "rank": 9,
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "bucket": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 87,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
-      "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.88,
-        "demand_weight": 0.6,
-        "matched_tokens": [
-          "collagen",
-          "mask"
-        ],
-        "match_score": 0.528
-      },
-      "registerable": true,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal_full"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "review",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 2,
-        "team_routes": [
-          "legal"
-        ],
-        "model_route": "human",
-        "model_route_confidence": 0.93,
-        "findings": [
-          "public blockers: legal_full"
-        ],
-        "confidence": 0.692,
-        "usage": {
-          "input_tokens": 1094,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.5,
-        "model": "jev-1.13.0",
-        "state_signature": "5d0f8517eb6d26b1be383ef5a31674ecba4cd3d16ebf65891ec60cb2c9634685",
-        "decided_at": "2026-10-02T22:21:16.907126+00:00",
-        "carried_from": "2026-10-02T22:21:16.907126+00:00"
-      },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     },
     {
       "rank": 10,
@@ -618,7 +609,7 @@
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
       "bucket": "마스크팩",
       "price_krw": 1000,
-      "shopify_score": 87,
+      "shopify_score": 89,
       "grade": "S",
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
@@ -647,35 +638,34 @@
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": true,
-        "mode": "typesafe_carried",
+        "mode": "typesafe_observational_free_credits",
         "source": "typesafe",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
+        "grade_advisory": "review",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
+        "risk_level": "medium",
         "risk_points": 2,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": 0.92,
         "findings": [
           "public blockers: legal_full"
         ],
-        "confidence": 0.706,
+        "confidence": 0.694,
         "usage": {
           "input_tokens": 1091,
           "output_tokens": 198
         },
         "free_credits_only": true,
-        "risk_score": 1.57,
+        "risk_score": 1.49,
         "model": "jev-1.13.0",
-        "state_signature": "5d0f8517eb6d26b1be383ef5a31674ecba4cd3d16ebf65891ec60cb2c9634685",
-        "decided_at": "2026-10-02T22:21:17.079049+00:00",
-        "carried_from": "2026-10-02T22:21:17.079049+00:00"
+        "state_signature": "e370dff839120acc27ebfdefe0d9905a87a2ce0c6e34a9ae66036956848cc7e1",
+        "decided_at": "2026-10-03T05:32:02.286854+00:00"
       },
-      "gate_generated_at": "2026-10-03T03:45:33.992244+00:00"
+      "gate_generated_at": "2026-10-03T05:32:02.286887+00:00"
     }
   ],
   "agent_ready_count": 9,

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T22:21:14.967838+00:00",
+  "generated_at": "2026-10-03T05:31:58.035368+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
   "source": "data/daiso_real/shopify_s_recommendations.json",
-  "note": "기존 검증 카피를 보존하고 누락분만 제품명·용량·원산지 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
+  "note": "기존 검증 카피를 보존하고 누락분·v1 초안만 제품명·제형·용량 기반의 보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다.",
   "total": 10,
   "eligible": 9,
   "ok": 9,
@@ -21,7 +21,7 @@
       "price_krw": 3000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 100,
+      "shopify_score": 99,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
       "copy": {
@@ -85,7 +85,7 @@
       "price_krw": 3000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 98,
+      "shopify_score": 97,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
       "copy": {
@@ -214,7 +214,7 @@
       "price_krw": 3000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 92,
+      "shopify_score": 93,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
       "copy": {
@@ -239,26 +239,6 @@
       "error": ""
     },
     {
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "name_ko": "바세린 마스크팩 집중보습",
-      "bucket": "마스크팩",
-      "price_krw": 1000,
-      "rating": null,
-      "review_count": null,
-      "shopify_score": 91,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
-      "copy": null,
-      "copy_status": "skipped_prerequisite",
-      "generation_mode": "none",
-      "agent_blocked_by": [
-        "us_label",
-        "legal"
-      ],
-      "error": "ontology 선행 게이트 미통과: us_label, legal"
-    },
-    {
       "canonical_product_id": "CP000151",
       "pd_no": "1059834",
       "name_ko": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -266,7 +246,7 @@
       "price_krw": 2000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 87,
+      "shopify_score": 90,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
       "copy": {
@@ -291,6 +271,26 @@
       "error": ""
     },
     {
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name_ko": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "price_krw": 1000,
+      "rating": null,
+      "review_count": null,
+      "shopify_score": 90,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
+      "copy": null,
+      "copy_status": "skipped_prerequisite",
+      "generation_mode": "none",
+      "agent_blocked_by": [
+        "us_label",
+        "legal"
+      ],
+      "error": "ontology 선행 게이트 미통과: us_label, legal"
+    },
+    {
       "canonical_product_id": "CP000075",
       "pd_no": "1042619",
       "name_ko": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
@@ -298,7 +298,7 @@
       "price_krw": 1000,
       "rating": null,
       "review_count": null,
-      "shopify_score": 87,
+      "shopify_score": 89,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20240109/8IB1YBxg81UqZXiKzXFM1042619_00_008IB1YBxg81UqZXiKzXFM.jpg",
       "copy": {

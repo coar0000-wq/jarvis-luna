@@ -2,7 +2,7 @@
 title: "Record 7e969834e6 · La-Roche-Posay-Toleriane-Hydrating-Gentle-Facial-Cleanser-with-Niacina"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.228440+00:00
+updated_at: 2026-10-03T05:34:16.723720+00:00
 tags: [record, real-data]
 ---
 

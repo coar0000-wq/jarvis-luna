@@ -2,7 +2,7 @@
 title: "Record 0a97a91447 · FWBC-VLA-Force-Aware-Whole-Body-Compensation-for-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:40.827683+00:00
+updated_at: 2026-10-03T05:34:13.970006+00:00
 tags: [record, real-data]
 ---
 

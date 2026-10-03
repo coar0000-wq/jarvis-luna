@@ -2,7 +2,7 @@
 title: "Record 26b4e01c46 · Economic-Futures-Research-Fund-Agenda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.316800+00:00
+updated_at: 2026-10-03T05:34:16.854027+00:00
 tags: [record, real-data]
 ---
 

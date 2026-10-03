@@ -2,7 +2,7 @@
 title: "Record c37f8920e3 · DynBranch-Speculative-Subgraph-Reuse-for-Dynamic-Agentic-LLM-Serving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.114749+00:00
+updated_at: 2026-10-03T05:34:14.285733+00:00
 tags: [record, real-data]
 ---
 

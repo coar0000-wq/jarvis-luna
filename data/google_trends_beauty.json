@@ -1,20 +1,11 @@
 {
   "source": "google news rss (beauty queries) + trends daily filtered",
-  "collected_at": "2026-10-02T21:50:56.403764+00:00",
+  "collected_at": "2026-10-03T05:21:34.278279+00:00",
   "status": "ok",
   "note": "뷰티 키워드만. 채점 MATCH_CHANNELS 에는 넣지 않음. 대시보드 키워드 보드용.",
   "query_count": 12,
   "count": 94,
   "items": [
-    {
-      "keyword": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
-      "product": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjJfczkwX3V6UkJmVXk1X2pGczNfaXhDV0VsZmRCaU9MaUNsc2dNSUFQQW4xWUdDZnpxRlJaX1psNlpaN1o3eExBZGdyZDVOZ2VmSUl0SnhGZk4xSTJTR21xbHQ5Vms2clBFclFWWEc0cm9YWFRIS3ExdlVQVFBiQ3VXZUExRDQzVWxqS1lB?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
     {
       "keyword": "A massive K-beauty pop-up is coming to Hudson Yards - Time Out Worldwide",
       "product": "A massive K-beauty pop-up is coming to Hudson Yards - Time Out Worldwide",
@@ -34,6 +25,24 @@
       "beauty": true
     },
     {
+      "keyword": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
+      "product": "Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjJfczkwX3V6UkJmVXk1X2pGczNfaXhDV0VsZmRCaU9MaUNsc2dNSUFQQW4xWUdDZnpxRlJaX1psNlpaN1o3eExBZGdyZDVOZ2VmSUl0SnhGZk4xSTJTR21xbHQ5Vms2clBFclFWWEc0cm9YWFRIS3ExdlVQVFBiQ3VXZUExRDQzVWxqS1lB?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "These Beauty Advent Calendars Make Holiday Shopping a No-Brainer - Harper's BAZAAR",
+      "product": "These Beauty Advent Calendars Make Holiday Shopping a No-Brainer - Harper's BAZAAR",
+      "sub": "K-beauty",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0UzVU9SNUJpOWdEWmpUOHFDc2NBRWZvaVFiUVFHS3AyRlRsMmJSUHZULVFjdnktZ1gwcW1WeUxOa3ctVmtNRUtWbldsWmtNaDVxUlBfM0VGU0ZxaDJkME5EQ0hCY01OYUpmeEFxSGN2OHQyNmppVXJqNXVQNU5KMURmbUdtdC1WOGdSSTJJWHlYTmRw?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
       "keyword": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
       "product": "A Beginner’s Guide to K-Beauty, J-Beauty, and I-Beauty - ELLE",
       "sub": "K-beauty",
@@ -43,20 +52,11 @@
       "beauty": true
     },
     {
-      "keyword": "KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review",
-      "product": "KHIDI opens Paris K-beauty hub to help Korean SMEs break into Europe - Korea Biomedical Review",
+      "keyword": "YesStyle Advent Calendar 2026: Price and U.S. Preorder Times - Totally The Bomb",
+      "product": "YesStyle Advent Calendar 2026: Price and U.S. Preorder Times - Totally The Bomb",
       "sub": "K-beauty",
       "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YTDQxc3NPZWN3bHBsNkFuUkczc1JYUkd0OEVPNHUwNkpJanZVdld2MnM0QjVLbUJlM3pqNTNRY081dmh4cWhDSE9kaUdBYlI5clViUU8xTHFlWDlDYndwTFM4ZGswUGRsc0JyYXd30gFyQVVfeXFMTjVwdVdTQmtlbVQxZEZ3eEVGdUNodmJLMmJXVUwweWh5YWhJNGFreF9PRmdhY19sSzN6MlZrOEM2dzBvNlZUejdJUGJMN1lxay1oNjNGcF9CdHBNWDZZamhDcXVqeEtTc1JkM054TjdFTWpR?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
-      "keyword": "L’Oréal puts social commerce first with Dr.G US launch on TikTok Shop - Personal Care Insights",
-      "product": "L’Oréal puts social commerce first with Dr.G US launch on TikTok Shop - Personal Care Insights",
-      "sub": "K-beauty",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QMThRWTVWSHA0Yk5SSFFfb2hNSzAzbHZBbTNfcXJHQTFxQUlFTjBJNFRwdy1IQTRsZzA5TFFvR1Z4ZzNNUnllcnd2WWZfcWI5TFlyaWFKUVNkeWdzYURlaXFzNFYwTUNrY0JFaHhweV92RkZRQ1ZtMi13?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lblo2TkYyVW9PdjZpQTlwTVRyRTBQa0o5ZGh2V2d4aWV5UGJjTDhTc0cxRlFhTjBzWm1qcU1fbVBqYTRaaU8xcjF4bDM0aGt2blRxNUw5SE5xR0k1STdhM3BEMmw5NmVEUzlEdnppcnEtUkxT?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -142,8 +142,8 @@
       "beauty": true
     },
     {
-      "keyword": "Is Korean sunscreen worth the hype? - wafb.com",
-      "product": "Is Korean sunscreen worth the hype? - wafb.com",
+      "keyword": "Is Korean sunscreen worth the hype? - WAFB",
+      "product": "Is Korean sunscreen worth the hype? - WAFB",
       "sub": "Korean sunscreen",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjenlzd2RLQUd1RWtfc0V4dlZIeldiM3FfOTJ4S08wdmplNUdTVUZrUXhrU25oOVpTeVFPSGgxYXpBNWpIbTVQSlRHQlV6MW4wVkNHTzhSQlYtSmJrQmQ1bkRCc3dMOUF0OUpyZlRNQnhvMXdmMFprTQ?oc=5",
@@ -151,8 +151,8 @@
       "beauty": true
     },
     {
-      "keyword": "The K-beauty product that *literally* contains snail snot is a viral bestseller that I actually use - New York Post",
-      "product": "The K-beauty product that *literally* contains snail snot is a viral bestseller that I actually use - New York Post",
+      "keyword": "The K-beauty product that *literally* contains snail snot is a viral bestseller that I actually use - nypost.com",
+      "product": "The K-beauty product that *literally* contains snail snot is a viral bestseller that I actually use - nypost.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdm52RDduRjhGVVR4YWZ2MlVJRVpMLWxYaHVqdHVES3IxQV9ObF83blgzMm16ODY5UWFtRVJrY3dqZ2VTVTdtSEVHVzBQQnZEMzRCakJDSWRmZF9zTi1uVFVzN2hTYUVlT0ZFMkFkaTRJSlI1RHdzOVpsYTBPbC1DS1B5WVJrTmdzT2VHVE53UGtYdUxRNmZzeVZZTGM?oc=5",
@@ -169,8 +169,8 @@
       "beauty": true
     },
     {
-      "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - people.com",
-      "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - people.com",
+      "keyword": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
+      "product": "The Not-So-Secret Ingredient in This $20 Moisturizer Gives Shoppers in Their 50s ‘10 Times Better’ Skin - People.com",
       "sub": "snail mucin",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qcURhUHFrZjVWdGV6OWpfQTgwZ3dXb0hzcnNFNHZZX05ST09mVHd0Yk16TDhCYW0yelZXSTlIekZtTG50SU1TN2xidWd6b0JWRFVJdUtuRUIzQkZrdXdqckpIQjNCTUNHbmVyTE52LWFmMVpiWXRiMg?oc=5",
@@ -250,20 +250,20 @@
       "beauty": true
     },
     {
-      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
-      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
-      "sub": "heartleaf toner",
-      "badge": "news",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oVkRxekx6R29ydjRMWTNEOXR3TzNCWnJOUjRPVVVQN1NXOUxBcmJkUFhhcnBnZXIzZmFBNnJ3Uk9RSEp2Q3lXRUZMV0UxbE5kUzZXcTZ5VVdMcTY4dEtBb0l5MDdSdFFtaFg1cQ?oc=5",
-      "kind": "news",
-      "beauty": true
-    },
-    {
       "keyword": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
       "product": "How Anua Skincare Became K-Beauty’s Biggest Success Story - BeautyNewsDaily",
       "sub": "heartleaf toner",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LemdVMDM3Q3hoem1Xa013a0JQMVdWd0UxSDZpdjc4T3BmT29PMWJZZTltMl9lQkhRM1NzckFMbnBiMlIycWxqZXhrQ3lCeU1YNzFEcnpPQkRpeDQ?oc=5",
+      "kind": "news",
+      "beauty": true
+    },
+    {
+      "keyword": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
+      "product": "My K-Beauty 'glass skin' routine isn't complete without this toner - Glamour UK",
+      "sub": "heartleaf toner",
+      "badge": "news",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oVkRxekx6R29ydjRMWTNEOXR3TzNCWnJOUjRPVVVQN1NXOUxBcmJkUFhhcnBnZXIzZmFBNnJ3Uk9RSEp2Q3lXRUZMV0UxbE5kUzZXcTZ5VVdMcTY4dEtBb0l5MDdSdFFtaFg1cQ?oc=5",
       "kind": "news",
       "beauty": true
     },
@@ -313,8 +313,8 @@
       "beauty": true
     },
     {
-      "keyword": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
-      "product": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - New York Post",
+      "keyword": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - nypost.com",
+      "product": "This ‘amazing’ $16 serum belongs in your skincare routine, per Amazon shoppers - nypost.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOekJ6VmM5bmlnVjZSUzZGa3FoVWc3ZnpyVUQzRXZ2MzB6SmpkRi1FcDhVWXBsS0pqaWgwYlRreEpQV21wbExVMVlJTDA0QjRRSUpVSzRMbGlCZ0NHRzc0RDFRdE9vSjBUbl91ZHZsU2dDZnppLWFrOTBKNWVOd1k1R0o3NkQ0X2JGSVYzNFgyc20xMmd4ZVRaeENoa1Fnam8xNTVBSlRpWQ?oc=5",
@@ -322,8 +322,8 @@
       "beauty": true
     },
     {
-      "keyword": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Yahoo",
-      "product": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - Yahoo",
+      "keyword": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - shopping.yahoo.com",
+      "product": "Hudson Williams Swears By This K-Beauty Skincare Brand, and It’s Currently on Sale at Amazon - shopping.yahoo.com",
       "sub": "centella serum",
       "badge": "news",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHdNS1c3RV9yU0MtZS1WUzBaLVZQS0JTSWU3TURkaHZlbkxzclFraGFTcEJfUlktUmcxTXg0RmEtM2M3cjhCUVB2eXRQcjV5VXlXQjJmbk9RUExjN184UWhnTE5IVGFKajlORWdhWWl1dTZxZl9paUo1RlpfWU9ROVZaSU1oY1N3M3FPdE5CdE0ycC0zTElfQlAwZXJRVE0?oc=5",

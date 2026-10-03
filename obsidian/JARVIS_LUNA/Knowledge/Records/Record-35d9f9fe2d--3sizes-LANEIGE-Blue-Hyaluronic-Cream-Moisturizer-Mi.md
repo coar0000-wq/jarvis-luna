@@ -2,7 +2,7 @@
 title: "Record 35d9f9fe2d · 3sizes-LANEIGE-Blue-Hyaluronic-Cream-Moisturizer-MiniOriginalRefill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.848300+00:00
+updated_at: 2026-10-03T05:34:16.214130+00:00
 tags: [record, real-data]
 ---
 

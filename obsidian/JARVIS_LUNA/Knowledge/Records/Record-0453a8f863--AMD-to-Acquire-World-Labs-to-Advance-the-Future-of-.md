@@ -2,7 +2,7 @@
 title: "Record 0453a8f863 · AMD-to-Acquire-World-Labs-to-Advance-the-Future-of-AI-Compute"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.047554+00:00
+updated_at: 2026-10-03T05:34:15.316894+00:00
 tags: [record, real-data]
 ---
 

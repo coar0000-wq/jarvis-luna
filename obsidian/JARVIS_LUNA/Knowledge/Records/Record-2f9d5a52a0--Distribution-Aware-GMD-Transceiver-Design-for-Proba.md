@@ -2,7 +2,7 @@
 title: "Record 2f9d5a52a0 · Distribution-Aware-GMD-Transceiver-Design-for-Probabilistic-Shaping-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.376691+00:00
+updated_at: 2026-10-03T05:34:14.584715+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record ee2e843336 · Why-your-vitamin-c-serum-might-not-be-removing-unwa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.653597+00:00
+updated_at: 2026-10-03T05:34:17.228715+00:00
 tags: [record, real-data]
 ---
 

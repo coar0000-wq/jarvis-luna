@@ -2,7 +2,7 @@
 title: "Record fafc9a0844 · Adaptive-Substrate-Support-Based-on-Thin-Film-Piezoelectric-Actuators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.666418+00:00
+updated_at: 2026-10-03T05:34:14.903899+00:00
 tags: [record, real-data]
 ---
 

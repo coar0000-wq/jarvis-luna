@@ -2,7 +2,7 @@
 title: "Record 99e913d7fc · GOODAL-Green-Tangerine-Vita-C-Dark-Spot-Care-Serum-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.784147+00:00
+updated_at: 2026-10-03T05:34:16.131044+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** [2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha
 
 [2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha
-[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha · 평점 5 · 리뷰 2,324
+[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha · 평점 5 · 리뷰 2,328
 
 **출처:** Source · us_beauty
 

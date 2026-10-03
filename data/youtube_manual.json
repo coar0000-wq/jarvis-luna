@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-02T21:49:36.842405+00:00",
+  "generated_at": "2026-10-03T05:20:02.122339+00:00",
   "generator": "scripts/ingest_youtube_links.py",
   "입력": "data/manual/youtube_links.txt",
   "robots": "youtube.com/robots.txt 는 /feeds/videos.xml 을 막지만 /watch 는 막지 않는다. 목록을 긁는 게 아니라 사람이 지정한 것만 받는다.",
-  "total": 28,
-  "ok": 28,
+  "total": 32,
+  "ok": 32,
   "failed": 0,
-  "fetched_this_run": 0,
+  "fetched_this_run": 4,
   "bad_lines": [],
   "by_team": {
-    "listing": 16,
-    "pricing": 6,
-    "market": 17,
-    "knowledge": 4,
-    "design": 12,
+    "listing": 20,
+    "pricing": 9,
+    "market": 21,
+    "knowledge": 7,
+    "design": 14,
     "sourcing": 4,
-    "legal": 3
+    "legal": 7
   },
   "학습금지_표시": [
     {
@@ -627,6 +627,102 @@
       ],
       "team_source": "사람 지정",
       "collected_at": "2026-09-29T10:13:58.192631+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "H2ags0XODds",
+      "url": "https://www.youtube.com/watch?v=H2ags0XODds",
+      "note": "이메일 오픈율 대신 클릭·주문·수신자당 매출로 캠페인을 진단하고 비할인 승자 요인을 기록",
+      "title": "0",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-10-03T05:19:47.822136+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "6cLgg-r_qtQ",
+      "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
+      "note": "Shopify 실매출·총 광고비 교차검증과 고객·가치제안 기반 크리에이티브 브리프",
+      "title": "0",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "pricing",
+        "legal",
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-10-03T05:19:51.466331+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "bxEQZF0Wt5A",
+      "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
+      "note": "질문 fan-out 테마·상품 속성·비교·인용과 SEO 기반 GEO 회수성 점검",
+      "title": "1",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing",
+        "legal",
+        "knowledge"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-10-03T05:19:55.186473+00:00",
+      "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
+    },
+    {
+      "video_id": "JtAAkVH0PWg",
+      "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
+      "note": "구매 의사결정 장벽·카트 확신·의심 지점별 증거와 비교 CRO",
+      "title": "10",
+      "channel": "",
+      "views": null,
+      "length_sec": null,
+      "published": "",
+      "description": "",
+      "error": "",
+      "ai_training_allowed": null,
+      "rights_marks": [],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "pricing",
+        "legal"
+      ],
+      "team_source": "사람 지정",
+      "collected_at": "2026-10-03T05:19:59.122150+00:00",
       "source": "사람이 직접 지정 (data/manual/youtube_links.txt)"
     }
   ]

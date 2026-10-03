@@ -2,7 +2,7 @@
 title: "Record ea4a6ad682 · medicube-Capsule-Cream-with-Deep-Vitamin-C-for-Radiance--Liposome-Vita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:43.291298+00:00
+updated_at: 2026-10-03T05:34:16.823253+00:00
 tags: [record, real-data]
 ---
 

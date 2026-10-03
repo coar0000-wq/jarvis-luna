@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-02T21:48:00.734651+00:00",
+  "collected_at": "2026-10-03T05:18:08.586342+00:00",
   "total": 1073,
   "organizations": 35,
   "by_org": {
@@ -54,7 +54,7 @@
       "status": "ok",
       "count": 210,
       "failures": [],
-      "collected_at": "2026-10-02T21:47:11.570146+00:00"
+      "collected_at": "2026-10-03T05:17:20.796845+00:00"
     },
     "sitemap": {
       "status": "ok",
@@ -66,13 +66,13 @@
           "reason": "lastmod 있는 매칭 URL 0건"
         }
       ],
-      "collected_at": "2026-10-02T21:47:36.841511+00:00"
+      "collected_at": "2026-10-03T05:17:44.086626+00:00"
     },
     "openalex": {
       "status": "ok",
       "count": 743,
       "failures": [],
-      "collected_at": "2026-10-02T21:48:00.733498+00:00"
+      "collected_at": "2026-10-03T05:18:08.585277+00:00"
     }
   },
   "not_collected": {
@@ -2340,6 +2340,19 @@
       "title_source": "feed"
     },
     {
+      "title": "How Genie One reshapes work for finance teams",
+      "url": "https://www.databricks.com/blog/how-genie-one-reshapes-work-finance-teams",
+      "date": "2026-10-01",
+      "date_raw": "Thu, 01 Oct 2026 22:46:51 GMT",
+      "summary": "A finance team’s job is not simply to report the numbers: it’s to interpret what...",
+      "org": "Databricks",
+      "category": "데이터분석",
+      "kind": "발표물",
+      "source": "rss",
+      "feed": "https://www.databricks.com/feed",
+      "title_source": "feed"
+    },
+    {
       "title": "Lakebase Postgres branch-based restores for fast recovery at scale",
       "url": "https://www.databricks.com/blog/lakebase-postgres-branch-based-restores-fast-recovery-scale",
       "date": "2026-10-01",
@@ -2410,19 +2423,6 @@
       "date": "2026-09-30",
       "date_raw": "Wed, 30 Sep 2026 16:46:25 GMT",
       "summary": "Building an agent is getting easier. More capable models and coding agents are making...",
-      "org": "Databricks",
-      "category": "데이터분석",
-      "kind": "발표물",
-      "source": "rss",
-      "feed": "https://www.databricks.com/feed",
-      "title_source": "feed"
-    },
-    {
-      "title": "Your data, your storage, your rules: a 2026 guide to storing Unity Catalog managed tables",
-      "url": "https://www.databricks.com/blog/your-data-your-storage-your-rules-2026-guide-storing-unity-catalog-managed-tables",
-      "date": "2026-09-29",
-      "date_raw": "Tue, 29 Sep 2026 16:40:16 GMT",
-      "summary": "Unity catalog managed tables allow you to control the placement of your data when...",
       "org": "Databricks",
       "category": "데이터분석",
       "kind": "발표물",
@@ -3640,6 +3640,19 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/insights/videos/cnbc-jan-hatzius-outlook-for-us-economy",
+      "date": "2026-10-02",
+      "date_raw": "2026-10-02T21:34:07.000Z",
+      "title_source": "url-slug",
+      "title": "Cnbc Jan Hatzius Outlook For Us Economy",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/talks-at-gs/us-soccers-jt-batson-on-the-world-cup-and-scaling-the-game",
       "date": "2026-10-01",
       "date_raw": "2026-10-01T13:17:37.000Z",
@@ -3679,6 +3692,19 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/how-family-businesses-should-plan-for-generational-success",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T14:52:43.000Z",
+      "title_source": "url-slug",
+      "title": "How Family Businesses Should Plan For Generational Success",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/insights/talks-at-gs/daniel-nadler-on-building-an-AI-powered-search-engine-for-medicine",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T13:49:02.000Z",
@@ -3692,11 +3718,37 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/apprenticeship",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:20:47.000Z",
+      "title_source": "url-slug",
+      "title": "Apprenticeship",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/generation-growth-the-small-business-manifesto",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T15:21:06.000Z",
       "title_source": "url-slug",
       "title": "Generation Growth The Small Business Manifesto",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/progress-report-2014",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:21:22.000Z",
+      "title_source": "url-slug",
+      "title": "Progress Report 2014",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3770,6 +3822,19 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/rethinking-productivity",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T18:54:01.000Z",
+      "title_source": "url-slug",
+      "title": "Rethinking Productivity",
+      "summary": "",
+      "org": "Goldman Sachs",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.goldmansachs.com/sitemap.xml"
+    },
+    {
       "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/midlands-first-cohort",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T15:20:33.000Z",
@@ -3783,11 +3848,11 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/starting-local-disrupting-global",
+      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/national-cohort-graduation",
       "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:22:21.000Z",
+      "date_raw": "2026-09-30T18:53:43.000Z",
       "title_source": "url-slug",
-      "title": "Starting Local Disrupting Global",
+      "title": "National Cohort Graduation",
       "summary": "",
       "org": "Goldman Sachs",
       "category": "투자은행",
@@ -3796,69 +3861,30 @@
       "feed": "https://www.goldmansachs.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/small-businesses-see-challenges-in-financing-ai",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:21:44.000Z",
+      "url": "https://www.jpmorgan.com/insights/global-research/commodities/iran-us-tensions-market-effect",
+      "date": "2026-10-02",
+      "date_raw": "2026-10-02",
       "title_source": "url-slug",
-      "title": "Small Businesses See Challenges In Financing Ai",
+      "title": "Iran Us Tensions Market Effect",
       "summary": "",
-      "org": "Goldman Sachs",
+      "org": "JPMorgan Chase",
       "category": "투자은행",
       "kind": "발표물",
       "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/international-womens-day-2019",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:19:52.000Z",
+      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/us-jobs-report",
+      "date": "2026-10-02",
+      "date_raw": "2026-10-02",
       "title_source": "url-slug",
-      "title": "International Womens Day 2019",
+      "title": "Us Jobs Report",
       "summary": "",
-      "org": "Goldman Sachs",
+      "org": "JPMorgan Chase",
       "category": "투자은행",
       "kind": "발표물",
       "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/2019-businesses-2030-survey",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:20:14.000Z",
-      "title_source": "url-slug",
-      "title": "2019 Businesses 2030 Survey",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/apprenticeship",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:20:47.000Z",
-      "title_source": "url-slug",
-      "title": "Apprenticeship",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/progress-report-2014",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:21:22.000Z",
-      "title_source": "url-slug",
-      "title": "Progress Report 2014",
-      "summary": "",
-      "org": "Goldman Sachs",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.goldmansachs.com/sitemap.xml"
+      "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
       "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/managing-inventory-turnover-and-excess-inventory",
@@ -4095,61 +4121,9 @@
       "feed": "https://www.jpmorgan.com/sitemap.xml"
     },
     {
-      "url": "https://www.jpmorgan.com/insights/banking/financing/vertex-ventures-investing-in-physical-ais-next-frontier",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29",
-      "title_source": "url-slug",
-      "title": "Vertex Ventures Investing In Physical Ais Next Frontier",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.jpmorgan.com/insights/podcast-hub/making-sense/why-tokenization-is-gaining-momentum",
-      "date": "2026-09-28",
-      "date_raw": "2026-09-28",
-      "title_source": "url-slug",
-      "title": "Why Tokenization Is Gaining Momentum",
-      "summary": "",
-      "org": "JPMorgan Chase",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.jpmorgan.com/sitemap.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/articles/china-next-industrial-revolution-industry-5-outlook",
-      "date": "2026-10-01",
-      "date_raw": "2026-10-01T13:50:28Z",
-      "title_source": "url-slug",
-      "title": "China Next Industrial Revolution Industry 5 Outlook",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders/thermo-fisher-scientific-chairman-ceo-marc-casper",
-      "date": "2026-10-01",
-      "date_raw": "2026-10-01T19:18:27Z",
-      "title_source": "url-slug",
-      "title": "Thermo Fisher Scientific Chairman Ceo Marc Casper",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market",
-      "date": "2026-10-01",
-      "date_raw": "2026-10-01T13:44:12Z",
+      "date": "2026-10-02",
+      "date_raw": "2026-10-02T13:35:49Z",
       "title_source": "url-slug",
       "title": "Thoughts On The Market",
       "summary": "",
@@ -4160,11 +4134,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders",
-      "date": "2026-10-01",
-      "date_raw": "2026-10-01T19:17:24Z",
+      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/stocks-rising-bond-yields-andrew-sheets",
+      "date": "2026-10-02",
+      "date_raw": "2026-10-02T17:24:26Z",
       "title_source": "url-slug",
-      "title": "Exceptional Leaders",
+      "title": "Stocks Rising Bond Yields Andrew Sheets",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4186,11 +4160,37 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/bear-market-rally-2023-financial-conditions-tighten",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:24:59Z",
+      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders/thermo-fisher-scientific-chairman-ceo-marc-casper",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T19:18:27Z",
       "title_source": "url-slug",
-      "title": "Bear Market Rally 2023 Financial Conditions Tighten",
+      "title": "Thermo Fisher Scientific Chairman Ceo Marc Casper",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/articles/china-next-industrial-revolution-industry-5-outlook",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T13:50:28Z",
+      "title_source": "url-slug",
+      "title": "China Next Industrial Revolution Industry 5 Outlook",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/videos/exceptional-leaders",
+      "date": "2026-10-01",
+      "date_raw": "2026-10-01T19:17:24Z",
+      "title_source": "url-slug",
+      "title": "Exceptional Leaders",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4212,37 +4212,37 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/global-macro-economy-outlook-2023",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:25:01Z",
-      "title_source": "url-slug",
-      "title": "Global Macro Economy Outlook 2023",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/bear-market-risks-us-2023",
-      "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:25:00Z",
-      "title_source": "url-slug",
-      "title": "Bear Market Risks Us 2023",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/ideas/investing-in-bonds-vs-stocks-2023",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T15:25:12Z",
       "title_source": "url-slug",
       "title": "Investing In Bonds Vs Stocks 2023",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/bear-market-rally-2023-financial-conditions-tighten",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:24:59Z",
+      "title_source": "url-slug",
+      "title": "Bear Market Rally 2023 Financial Conditions Tighten",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:24:58Z",
+      "title_source": "url-slug",
+      "title": "Market Sentiment Bullish Q1 2023",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4277,6 +4277,19 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
+      "url": "https://www.morganstanley.com/ideas/global-macro-economy-outlook-2023",
+      "date": "2026-09-30",
+      "date_raw": "2026-09-30T15:25:01Z",
+      "title_source": "url-slug",
+      "title": "Global Macro Economy Outlook 2023",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
       "url": "https://www.morganstanley.com/insights/institute",
       "date": "2026-09-30",
       "date_raw": "2026-09-30T23:01:57Z",
@@ -4290,11 +4303,50 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/ideas/market-sentiment-bullish-q1-2023",
+      "url": "https://www.morganstanley.com/ideas/bear-market-risks-us-2023",
       "date": "2026-09-30",
-      "date_raw": "2026-09-30T15:24:58Z",
+      "date_raw": "2026-09-30T15:25:00Z",
       "title_source": "url-slug",
-      "title": "Market Sentiment Bullish Q1 2023",
+      "title": "Bear Market Risks Us 2023",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/global-investment-strategy-outlook-2024",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29T13:12:59Z",
+      "title_source": "url-slug",
+      "title": "Global Investment Strategy Outlook 2024",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/themes/global-healthcare-conference",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29T16:01:27Z",
+      "title_source": "url-slug",
+      "title": "Global Healthcare Conference",
+      "summary": "",
+      "org": "Morgan Stanley",
+      "category": "투자은행",
+      "kind": "발표물",
+      "source": "sitemap",
+      "feed": "https://www.morganstanley.com/sitemapindex.xml"
+    },
+    {
+      "url": "https://www.morganstanley.com/ideas/global-macro-economy-outlook-2024",
+      "date": "2026-09-29",
+      "date_raw": "2026-09-29T13:12:55Z",
+      "title_source": "url-slug",
+      "title": "Global Macro Economy Outlook 2024",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",
@@ -4316,63 +4368,11 @@
       "feed": "https://www.morganstanley.com/sitemapindex.xml"
     },
     {
-      "url": "https://www.morganstanley.com/insights/articles/healthcare-consumerism-drives-26-b-opportunity-2026",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T12:52:19Z",
-      "title_source": "url-slug",
-      "title": "Healthcare Consumerism Drives 26 B Opportunity 2026",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/china-12-trillion-dollar-industry-5-opportunity-sheng-zhong",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T20:15:19Z",
-      "title_source": "url-slug",
-      "title": "China 12 Trillion Dollar Industry 5 Opportunity Sheng Zhong",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/ideas/investment-risk-2023-stock-rally-over",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T13:13:01Z",
-      "title_source": "url-slug",
-      "title": "Investment Risk 2023 Stock Rally Over",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
       "url": "https://www.morganstanley.com/ideas/this-time-is-different-2024-investing-risks",
       "date": "2026-09-29",
       "date_raw": "2026-09-29T13:12:55Z",
       "title_source": "url-slug",
       "title": "This Time Is Different 2024 Investing Risks",
-      "summary": "",
-      "org": "Morgan Stanley",
-      "category": "투자은행",
-      "kind": "발표물",
-      "source": "sitemap",
-      "feed": "https://www.morganstanley.com/sitemapindex.xml"
-    },
-    {
-      "url": "https://www.morganstanley.com/insights/articles/biotech-industry-trends-reshaping-healthcare-market",
-      "date": "2026-09-29",
-      "date_raw": "2026-09-29T20:07:36Z",
-      "title_source": "url-slug",
-      "title": "Biotech Industry Trends Reshaping Healthcare Market",
       "summary": "",
       "org": "Morgan Stanley",
       "category": "투자은행",

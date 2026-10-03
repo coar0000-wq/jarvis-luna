@@ -2,7 +2,7 @@
 title: "Record 9556f8d4a5 · medicube-PDRN-Pink-Peptide-Serum-101-fl-oz30ml-Refill-Set-Serum-Refill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.781755+00:00
+updated_at: 2026-10-03T05:34:16.128284+00:00
 tags: [record, real-data]
 ---
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:48:15.377374+00:00",
+  "generated_at": "2026-10-03T05:18:25.960644+00:00",
   "generator": "scripts/build_design_team.py",
   "scope": "스토어 없이 만들고 검증할 수 있는 디자인 준비물. 스토어에 적용된 것은 아니다.",
   "design_system": {
@@ -71,11 +71,11 @@
     ]
   },
   "seo": {
-    "status": "보완 필요",
+    "status": "초안 완료",
     "source": "data/shopify_listing_copy.json",
     "rule": "seo_title ≤60자, seo_description 70~160자",
-    "passed": 4,
-    "eligible": 8,
+    "passed": 9,
+    "eligible": 9,
     "items": [
       {
         "pd_no": "1049276",
@@ -84,17 +84,13 @@
       },
       {
         "pd_no": "1055167",
-        "ok": false,
-        "issues": [
-          "seo_description 166자 (70~160)"
-        ]
+        "ok": true,
+        "issues": []
       },
       {
         "pd_no": "1049275",
-        "ok": false,
-        "issues": [
-          "seo_description 176자 (70~160)"
-        ]
+        "ok": true,
+        "issues": []
       },
       {
         "pd_no": "1067498",
@@ -113,17 +109,18 @@
       },
       {
         "pd_no": "1049285",
-        "ok": false,
-        "issues": [
-          "seo_description 170자 (70~160)"
-        ]
+        "ok": true,
+        "issues": []
       },
       {
         "pd_no": "1059834",
-        "ok": false,
-        "issues": [
-          "seo_description 180자 (70~160)"
-        ]
+        "ok": true,
+        "issues": []
+      },
+      {
+        "pd_no": "1042619",
+        "ok": true,
+        "issues": []
       }
     ]
   },

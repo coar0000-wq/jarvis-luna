@@ -2,7 +2,7 @@
 title: "Record 2f6e950347 · Beyond-direct-AI-exposure-Measuring-network-mediated-labor-risk-throug"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.461405+00:00
+updated_at: 2026-10-03T05:34:14.678206+00:00
 tags: [record, real-data]
 ---
 

@@ -2,7 +2,7 @@
 title: "Record d99e61b503 · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Ti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.415283+00:00
+updated_at: 2026-10-03T05:34:15.717763+00:00
 tags: [record, real-data]
 ---
 
@@ -10,9 +10,9 @@ tags: [record, real-data]
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWFnM1h1cklpOXA1b2JSb0FqYjcwaEVRclo4NmFaYUJVRWJWQi1hb2xGQ1RlaTl4TnJfZlM0aU1xMmtCZmtsX3lUN3hPYlN1YUdOZ19GczBBcWJLSm1tMHFWc0picjNUbjdobmtZRTZvWVU3NnVmc2R4bWZIbWF5NENndE9Ic2l5ZG5CVlJxam96Y3pocmc?oc=5)
 
-**제목:** This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - Yahoo
+**제목:** This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - shopping.yahoo.com
 
-This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - Yahoo
+This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - shopping.yahoo.com
 
 **출처:** Source · Google Search
 

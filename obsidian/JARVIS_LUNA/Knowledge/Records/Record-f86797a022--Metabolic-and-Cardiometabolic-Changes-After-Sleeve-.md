@@ -2,7 +2,7 @@
 title: "Record f86797a022 · Metabolic-and-Cardiometabolic-Changes-After-Sleeve-Gastrectomy-in-a-Pa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.890682+00:00
+updated_at: 2026-10-03T05:34:15.160983+00:00
 tags: [record, real-data]
 ---
 

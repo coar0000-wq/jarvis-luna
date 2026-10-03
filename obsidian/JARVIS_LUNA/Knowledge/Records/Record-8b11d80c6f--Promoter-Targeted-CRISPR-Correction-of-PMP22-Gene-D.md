@@ -2,7 +2,7 @@
 title: "Record 8b11d80c6f · Promoter-Targeted-CRISPR-Correction-of-PMP22-Gene-Dosage-Restores-Schw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:41.194948+00:00
+updated_at: 2026-10-03T05:34:14.377795+00:00
 tags: [record, real-data]
 ---
 

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-02T21:51:12.696761+00:00",
+  "generated_at": "2026-10-03T05:21:50.867991+00:00",
   "generator": "scripts/self_improve.py",
   "principle": "무료·설정만 변경·그림자 평가 후 채택·실측 악화 시 자동 롤백",
   "loops": {
     "topics": {
       "metric": "uncategorized_rate",
-      "records": 6804,
-      "base_uncategorized": 1283,
-      "before": 0.0729,
-      "after_shadow": 0.0729,
-      "uncategorized_before": 496,
-      "uncategorized_after_shadow": 496,
+      "records": 6945,
+      "base_uncategorized": 1369,
+      "before": 0.0726,
+      "after_shadow": 0.0726,
+      "uncategorized_before": 504,
+      "uncategorized_after_shadow": 504,
       "adopted": 0,
       "learned_keywords": 18,
       "decisions": [],
@@ -18,16 +18,16 @@
         "mode": "production_classifier_replay",
         "entrypoint": "expand_obsidian_graph.topic_names",
         "classifier_sha256": "79fd2188862974246b8274b1423f29a250f5e6a0a1c32f985461b8ffcb6a88f8",
-        "input_sha256": "54caffdcea68b3f401dc5b826b4ff69bccef682013ce5ed40092aaf23a168f31",
+        "input_sha256": "c9d8c33ad5b21cb23cb9aa0e2303bf3471c2437b9c6d252a59070fd0bc10840c",
         "before_policy_sha256": "6bcdd660d217b1c4c47f11c162265e9162cd5ea47be6de880e65231d148ad39e",
         "after_policy_sha256": "6bcdd660d217b1c4c47f11c162265e9162cd5ea47be6de880e65231d148ad39e",
-        "evaluated_records": 6804
+        "evaluated_records": 6945
       },
       "status": "no_change"
     },
     "sourcing": {
       "metric": "useful_fetch_rate",
-      "before": 0.09090909090909091,
+      "before": 0.0,
       "policy_enabled": true,
       "evidence": {
         "prediction_precision": 0.843,
@@ -51,7 +51,7 @@
       "feed_caps": {
         "web.dev": 3
       },
-      "offline_drafts": 2,
+      "offline_drafts": 3,
       "store_done": 2,
       "steps_total": 12,
       "decisions": [],

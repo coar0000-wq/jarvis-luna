@@ -2,7 +2,7 @@
 title: "Record f4d4af0be2 · medicube-PDRN-Pink-Collagen-Capsule-Cream-194-oz55g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:42.841909+00:00
+updated_at: 2026-10-03T05:34:16.203940+00:00
 tags: [record, real-data]
 ---
 
@@ -13,7 +13,7 @@ tags: [record, real-data]
 **제목:** medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)
 
 medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g)
-medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g) · 평점 4.8 · 리뷰 63
+medicube PDRN Pink Collagen Capsule Cream 1.94 oz.(55g) · 평점 4.8 · 리뷰 114
 
 **출처:** Source · us_beauty
 

@@ -2,7 +2,7 @@
 title: "Record e3584a6955 · CARLAverse-A-Highly-Modular-Distributed-and-Multimo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-02T22:16:40.965811+00:00
+updated_at: 2026-10-03T05:34:14.114275+00:00
 tags: [record, real-data]
 ---
 
