@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "execution_id": "37141190640:1",
-  "generated_at": "2026-10-03T17:38:01.282343+00:00",
+  "execution_id": "37150692227:1",
+  "generated_at": "2026-10-03T20:12:54.878762+00:00",
   "status": "degraded",
   "publish_allowed": true,
   "required_failures": [],
@@ -13,14 +13,14 @@
   "results": [
     {
       "schema_version": 1,
-      "execution_id": "37141190640:1",
+      "execution_id": "37150692227:1",
       "name": "canonical_source",
       "required": true,
       "status": "success",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-03T17:37:54.792069+00:00",
-      "finished_at": "2026-10-03T17:37:54.856685+00:00",
+      "last_attempt_at": "2026-10-03T20:12:45.841959+00:00",
+      "finished_at": "2026-10-03T20:12:45.940998+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_instrumented",
       "last_data_changed_at": null,
@@ -35,7 +35,7 @@
         {
           "path": "data/product_master.json",
           "exists": true,
-          "sha256": "0d8ee856d1e007790637d25f5c8b1bc9d7fdb618173018b0b9c51e0d13ace0f0",
+          "sha256": "eafd0cb0a35279d064c423fe7d1c9b70ab359888ba67e894686c2120b4764bbe",
           "content_sha256": "c9922efcaebdaa945a7ef1dd0ba9392b2332d3803533dabc48f516dded02b19c",
           "valid_json": true
         }
@@ -52,14 +52,14 @@
     },
     {
       "schema_version": 1,
-      "execution_id": "37141190640:1",
+      "execution_id": "37150692227:1",
       "name": "youtube",
       "required": false,
       "status": "skipped",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-03T17:37:54.910020+00:00",
-      "finished_at": "2026-10-03T17:37:54.994943+00:00",
+      "last_attempt_at": "2026-10-03T20:12:46.025308+00:00",
+      "finished_at": "2026-10-03T20:12:46.104340+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_attempted",
       "last_data_changed_at": null,
@@ -94,14 +94,14 @@
     },
     {
       "schema_version": 1,
-      "execution_id": "37141190640:1",
+      "execution_id": "37150692227:1",
       "name": "google",
       "required": false,
       "status": "skipped",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-03T17:37:55.033652+00:00",
-      "finished_at": "2026-10-03T17:37:55.033667+00:00",
+      "last_attempt_at": "2026-10-03T20:12:46.170410+00:00",
+      "finished_at": "2026-10-03T20:12:46.170431+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_attempted",
       "last_data_changed_at": null,
@@ -117,17 +117,17 @@
     },
     {
       "schema_version": 1,
-      "execution_id": "37141190640:1",
+      "execution_id": "37150692227:1",
       "name": "runtime",
       "required": true,
       "status": "success",
       "process_exit_code": 0,
       "wrapper_exit_code": 0,
-      "last_attempt_at": "2026-10-03T17:37:58.744093+00:00",
-      "finished_at": "2026-10-03T17:38:01.238646+00:00",
+      "last_attempt_at": "2026-10-03T20:12:50.007595+00:00",
+      "finished_at": "2026-10-03T20:12:54.803297+00:00",
       "last_successful_fetch_at": null,
       "fetch_verification": "not_instrumented",
-      "last_data_changed_at": "2026-10-03T17:38:01.238655+00:00",
+      "last_data_changed_at": "2026-10-03T20:12:54.803311+00:00",
       "new_count": null,
       "updated_count": null,
       "query_count": null,
@@ -139,8 +139,8 @@
         {
           "path": "data/dashboard_runtime.json",
           "exists": true,
-          "sha256": "9febce0629f2984aa170792af3c011ddec24b7be84db5dbc10793d8d93e3042e",
-          "content_sha256": "b53caeab6f6efa1eb871dc10a708fc358ad2eafbc0601a2d3d80a6fdd029f919",
+          "sha256": "7871e371f2e50d34642c5a70969027ae49930594d3550edcd0aa3eac6c58fad0",
+          "content_sha256": "9088af9bebd0f91a0ac50082de2209a1591cc82eec90e27a8b9b4bf9352b3495",
           "valid_json": true
         }
       ],
@@ -148,8 +148,8 @@
         {
           "path": "data/dashboard_runtime.json",
           "exists": true,
-          "sha256": "93aefe54120d4161d648b49a477f8b47ad35a183968853309313b96d9e95720f",
-          "content_sha256": "9011896ba167b9d88f9e5f8bf8c17eaf9fabf3073025a67d636ea0a99ca73031",
+          "sha256": "bd979f51db23badc296746022df474e2a65ad7bc051dcc83ab04ff05c648a999",
+          "content_sha256": "3f68925d10657e6d8fd66c928129ed9273c65b4704f68e7426e2550323dcc106",
           "valid_json": true
         }
       ]
