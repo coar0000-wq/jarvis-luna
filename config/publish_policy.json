@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "identity_fields": [
+    "pd_no",
+    "pdNo",
+    "canonical_product_id",
+    "id",
+    "record_id",
+    "url"
+  ],
+  "metadata_timestamps": [
+    "generated_at",
+    "updated_at",
+    "collected_at"
+  ],
+  "derived_paths": [
+    "data/dashboard_runtime.json",
+    "data/health_check.json",
+    "data/team_improvement.json",
+    "data/product_master.json",
+    "data/pricing_model.json",
+    "data/legal_products.json",
+    "data/legal_full.json",
+    "data/mocra_readiness.json",
+    "data/listing_gate.json",
+    "data/market_team.json",
+    "data/shopify_marketing_strategy.json",
+    "data/marketing_priority.csv",
+    "data/coaching_loop.json",
+    "data/shopify_action_queue.json",
+    "data/shopify_shortlist.json",
+    "data/shopify_sync_guard.json",
+    "data/channel_candidates.json",
+    "data/daiso_real/shopify_demand_score.json",
+    "data/daiso_real/shopify_s_recommendations.json",
+    "data/daiso_real/shopify_s_recommendations.csv",
+    "data/daiso_real/shopify_s_rejected.json",
+    "data/daiso_real/candidate_comparison.json",
+    "data/shopify_exports/",
+    "data/agents/ops_plan.json",
+    "data/agents/last_run.json",
+    "data/agents/collector_audit.json",
+    "data/agents/signal_audit.json",
+    "data/agents/score_explain.json",
+    "data/agents/listing_notes.json"
+  ],
+  "commerce_inputs": [
+    "data/daiso_real/products.json",
+    "data/gosi.json",
+    "data/daiso_real/daiso_gosi.json",
+    "data/daiso_real/daiso_us_labels.json",
+    "data/inci_dictionary.json",
+    "data/oliveyoung_us_products.json",
+    "data/amazon_products.json",
+    "data/amazon_new_products.json",
+    "data/sokoglam_products.json",
+    "data/gemini_web_channels.json",
+    "data/manual/",
+    "data/daiso_real/collection_status.json"
+  ],
+  "candidate_protected": [
+    "data/daiso_real/products.json",
+    "data/daiso_real/shopify_demand_score.json",
+    "data/daiso_real/shopify_s_recommendations.json",
+    "data/product_master.json",
+    "data/pricing_model.json",
+    "data/listing_gate.json",
+    "data/shopify_action_queue.json",
+    "data/shopify_shortlist.json",
+    "data/shopify_sync_guard.json",
+    "data/shopify_exports/"
+  ],
+  "runtime_commands": [
+    [
+      "scripts/health_check_v2.py"
+    ],
+    [
+      "scripts/generate_dashboard_runtime.py"
+    ],
+    [
+      "scripts/run_jarvis_agents.py",
+      "--force"
+    ],
+    [
+      "scripts/build_team_improvement.py"
+    ]
+  ],
+  "commerce_commands": [
+    [
+      "scripts/build_product_master.py"
+    ],
+    [
+      "scripts/daiso/score_shopify_demand.py"
+    ],
+    [
+      "scripts/build_product_master.py",
+      "--inject-s"
+    ],
+    [
+      "scripts/pricing_model.py"
+    ],
+    [
+      "scripts/check_legal_products.py"
+    ],
+    [
+      "scripts/build_legal_full.py"
+    ],
+    [
+      "scripts/build_listing_gate.py"
+    ],
+    [
+      "scripts/build_product_master.py",
+      "--inject-s"
+    ],
+    [
+      "scripts/build_market_team.py"
+    ],
+    [
+      "scripts/export_shopify_operational.py"
+    ],
+    [
+      "scripts/build_shopify_action_queue.py"
+    ],
+    [
+      "scripts/discover_channels.py"
+    ]
+  ],
+  "baseline_files": [
+    "data/daiso_real/products.json",
+    "data/daiso_real/shopify_demand_score.json",
+    "data/product_master.json",
+    "data/pricing_model.json",
+    "data/dashboard_runtime.json",
+    "data/listing_gate.json",
+    "data/daiso_real/collection_status.json",
+    "data/gosi.json"
+  ],
+  "generated_extra": [
+    "data/knowledge/cumulative_history.json",
+    "data/typesafe_advisory.json",
+    "data/typesafe_call_log/",
+    "data/publish_quality_report.json"
+  ],
+  "deletion_manifest": "data/publish_deletions.json",
+  "volatile_snapshot_containers": [
+    "data/daiso_real/collection_status.json/last_run",
+    "data/daiso_real/collection_status.json/last_attempt",
+    "data/daiso_real/collection_status.json/prefetch_policy",
+    "data/daiso_real/crawl_state.json/last_run",
+    "data/agents/core_run_results.json",
+    "data/agents/deep_run_results.json",
+    "data/agents/release_quality_candidate.json",
+    "data/agents/release_quality_final.json"
+  ],
+  "volatile_delete_containers": [
+    "data/daiso_real/crawl_state.json/failed"
+  ],
+  "producer_path_prefixes": [
+    "scripts/",
+    "config/",
+    ".github/",
+    "requirements/"
+  ],
+  "producer_root_suffixes": [
+    ".py"
+  ],
+  "producer_root_prefixes": [
+    "requirements",
+    "constraints"
+  ],
+  "producer_root_names": [
+    "pyproject.toml",
+    "uv.lock",
+    "poetry.lock",
+    "Pipfile",
+    "Pipfile.lock"
+  ]
+}

@@ -1,221 +1,56 @@
 name: publish
-description: "산출물 발행 - 원격 최신 위에 이번 변경만 커밋 (git add -A 금지)"
+description: "Fail-closed publication: immutable delta, latest source merge, regeneration, final quality, bounded normal push"
 
 inputs:
   paths:
-    description: "이번 실행에서 만든 파일 목록 (공백/줄바꿈 구분)"
+    description: "Explicit required publication paths, separated by whitespace"
     required: true
-
   message:
-    description: "커밋 메시지"
-    required: true
+    description: "Commit message"
+    required: false
     default: "publish: auto"
-
   regenerate-dashboard:
-    description: "발행 전에 dashboard_runtime.json을 다시 생성할지 여부"
+    description: "Refresh local runtime even without source changes; final merged source changes always regenerate"
+    required: false
+    default: "true"
+  audit:
+    description: "Run full team audit in addition to the mandatory final release gate"
     required: false
     default: "true"
 
-  audit:
-    description: "발행 전에 audit_team_reports.py를 실행할지 여부"
+  collector-report:
+    description: "Current sanitized collector outcome report, if produced by this workflow"
     required: false
-    default: "true"
+    default: ''
+  execution-id:
+    description: "Current outcome report execution identity"
+    required: false
+    default: ''
 
 runs:
-  using: "composite"
-
+  using: composite
   steps:
-    # ------------------------------------------------------------
-    # 1. 대시보드 최종 재생성
-    #
-    # 기존 action.yml은 regenerate-dashboard 입력을 받지 않았다.
-    # 그런데 여러 workflow에서 regenerate-dashboard: true를 넘기고 있었다.
-    #
-    # 이제 실제로 dashboard_runtime.json을 만든다.
-    # ------------------------------------------------------------
-    - name: 발행 전 대시보드 재생성
-      if: ${{ inputs.regenerate-dashboard == 'true' }}
+    - name: Publish verified latest-source transaction
       shell: bash
+      env:
+        PUBLISH_PATHS: ${{ inputs.paths }}
+        PUBLISH_MESSAGE: ${{ inputs.message }}
+        PUBLISH_REGENERATE: ${{ inputs.regenerate-dashboard }}
+        PUBLISH_AUDIT: ${{ inputs.audit }}
+        PUBLISH_COLLECTOR_REPORT: ${{ inputs.collector-report }}
+        PUBLISH_EXECUTION_ID: ${{ inputs.execution-id }}
+        TYPESAFE_ENABLED: '0'
+        GEMINI_FALLBACK_ENABLED: '0'
       run: |
-        set -e
-
-        if [ ! -f "scripts/generate_dashboard_runtime.py" ]; then
-          echo "::error::scripts/generate_dashboard_runtime.py 가 없습니다."
-          exit 1
+        set -euo pipefail
+        args=(
+          --paths "$PUBLISH_PATHS"
+          --message "$PUBLISH_MESSAGE"
+          --regenerate-dashboard "$PUBLISH_REGENERATE"
+          --audit "$PUBLISH_AUDIT"
+          --max-attempts 3
+        )
+        if [ -n "$PUBLISH_COLLECTOR_REPORT" ]; then
+          args+=(--collector-report "$PUBLISH_COLLECTOR_REPORT" --execution-id "$PUBLISH_EXECUTION_ID")
         fi
-
-        echo "===== 발행 전 대시보드 재생성 ====="
-
-        python -u scripts/health_check_v2.py
-        python -u scripts/generate_dashboard_runtime.py
-
-        # Runtime 재생성은 기존 agents_ops를 지운다. 다른 수집 워크플로가
-        # 2시간 비서실장 회차 뒤에 발행해도 운영 heartbeat/계획과 팀 개선
-        # 정합성이 끊기지 않도록 무료 로컬 규칙으로 바로 다시 계산한다.
-        python -u scripts/run_jarvis_agents.py --force
-        python -u scripts/build_team_improvement.py
-        python - <<'PY'
-        import json
-        from pathlib import Path
-        d = Path('data')
-        rt = json.loads((d / 'dashboard_runtime.json').read_text(encoding='utf-8'))
-        plan = json.loads((d / 'agents/ops_plan.json').read_text(encoding='utf-8'))
-        improvement = json.loads((d / 'team_improvement.json').read_text(encoding='utf-8'))
-        assert plan.get('generated_at') and (rt.get('agents_ops') or {}).get('at')
-        assert improvement.get('runtime_at') == rt.get('generated_at')
-        print('PUBLISH_RUNTIME_HEARTBEAT_OK')
-        PY
-
-        echo "==================================="
-
-    # ------------------------------------------------------------
-    # 2. 발행 직전 숫자/원본 감사
-    #
-    # 기존 action.yml은 audit 입력을 받지 않았다.
-    # 따라서 audit: true를 적어도 실제 감사가 실행되지 않았다.
-    #
-    # 이제 반드시 감사한 뒤 commit한다.
-    # ------------------------------------------------------------
-    - name: 발행 전 숫자·원본 감사
-      if: ${{ inputs.audit == 'true' }}
-      shell: bash
-      run: |
-        set -e
-
-        if [ ! -f "scripts/audit_team_reports.py" ]; then
-          echo "::error::scripts/audit_team_reports.py 가 없습니다."
-          exit 1
-        fi
-
-        echo "===== 발행 전 숫자·원본 감사 ====="
-
-        python -u scripts/audit_team_reports.py
-
-        echo "==================================="
-
-    # ------------------------------------------------------------
-    # 3. 지정된 파일만 stage
-    #
-    # git add -A를 사용하지 않는다.
-    # 이번 실행에서 실제로 발행하도록 지정한 경로만 올린다.
-    # ------------------------------------------------------------
-    - name: Publish only specified paths
-      shell: bash
-      run: |
-        set -e
-
-        PUBLISH_PATHS="${{ inputs.paths }}"
-        if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
-          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json data/health_check.json data/knowledge/cumulative_history.json"
-        fi
-
-        echo "📦 Publish paths:"
-        echo "$PUBLISH_PATHS"
-
-        # paths를 줄바꿈/공백으로 분리하여 git add. 대시보드를 재생성했다면
-        # 호출자가 좁은 경로만 넘겼어도 runtime은 반드시 함께 발행한다.
-        echo "$PUBLISH_PATHS" |
-          tr ' ' '\n' |
-          while read -r p; do
-            p=$(echo "$p" | xargs)
-
-            if [ -n "$p" ]; then
-              if [ -e "$p" ]; then
-                echo "  + $p"
-                git add "$p" || echo "::warning::add 실패: $p"
-              else
-                echo "  - not found (skip): $p"
-              fi
-            fi
-          done
-
-        # 변경사항이 있는지 확인
-        if git diff --cached --quiet; then
-          echo "ℹ️ 변경사항 없음 - 커밋 스킵"
-          exit 0
-        fi
-
-        git config user.name "JARVIS"
-        git config user.email "jarvis@luna.bot"
-
-        git commit \
-          -m "${{ inputs.message }} - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-
-        # 지정 경로 밖에서 생긴 부수 산출물은 이번 발행 대상이 아니다.
-        # 이 파일들이 남아 있으면 git pull --rebase가 거부되므로, 방금 만든
-        # 커밋은 보존하고 작업 트리만 깨끗하게 되돌린다.
-        if [ -n "$(git status --porcelain)" ]; then
-          echo "::warning::지정 경로 밖 부수 산출물을 발행에서 제외하고 정리합니다."
-          git status --short
-          git reset --hard HEAD
-          git clean -fd
-        fi
-
-        # --------------------------------------------------------
-        # 원격 최신 main 위에 이번 변경만 얹는다.
-        #
-        # 예전에는 pull --rebase 실패 시 전략 없는 git pull 로 넘어갔다.
-        # 최신 git 은 전략이 없으면 "Need to specify how to reconcile
-        # divergent branches" 로 즉시 죽는다. 실제로 2026-09-19 Deep
-        # Analysis 발행이 이 지점에서 실패해 팀 피드가 발행되지 않았다.
-        #
-        # 충돌의 정체는 코드가 아니라 매 실행 재생성되는 산출물이다.
-        # 같은 시간대에 다른 워크플로가 obsidian 노트를 먼저 올리면
-        # 수백 건이 충돌한다. 이 경우 정답은 방금 재생성한 이번 실행분이다.
-        # 단, 발행 경로 밖에서 충돌이 나면 사람이 봐야 하므로 중단한다.
-        # --------------------------------------------------------
-        PUBLISH_PATHS="${{ inputs.paths }}"
-        if [ "${{ inputs.regenerate-dashboard }}" = "true" ]; then
-          PUBLISH_PATHS="$PUBLISH_PATHS data/dashboard_runtime.json data/agents/ops_plan.json data/agents/last_run.json data/agents/collector_audit.json data/agents/signal_audit.json data/agents/score_explain.json data/agents/listing_notes.json data/team_improvement.json data/health_check.json data/knowledge/cumulative_history.json"
-        fi
-
-        for i in 1 2 3; do
-
-          git fetch origin main
-
-          if ! git merge --no-edit origin/main; then
-            git diff --name-only --diff-filter=U > "$RUNNER_TEMP/publish_conflicts.txt"
-            outside=0
-
-            while read -r f; do
-              [ -z "$f" ] && continue
-
-              inside=0
-              for p in $PUBLISH_PATHS; do
-                case "$f" in
-                  "$p"|"$p"/*) inside=1 ;;
-                esac
-              done
-
-              if [ "$inside" = "1" ]; then
-                git checkout --ours -- "$f"
-                git add -- "$f"
-              else
-                echo "::error::발행 경로 밖 충돌이라 자동 해결하지 않는다: $f"
-                outside=1
-              fi
-            done < "$RUNNER_TEMP/publish_conflicts.txt"
-
-            if [ "$outside" = "1" ]; then
-              git merge --abort
-              exit 1
-            fi
-
-            echo "::warning::재생성 산출물 충돌을 이번 실행분으로 해결했습니다."
-            git commit --no-edit
-          fi
-
-          if git push origin main; then
-            echo "✅ Push 성공"
-            break
-          fi
-
-          echo "retry $i"
-          sleep 5
-
-          if [ $i -eq 3 ]; then
-            echo "❌ Push 3회 실패"
-            exit 1
-          fi
-
-        done
+        python -u scripts/publish_transaction.py "${args[@]}"

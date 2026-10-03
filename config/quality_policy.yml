@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "required_artifacts": [
+    "data/daiso_real/products.json",
+    "data/product_master.json",
+    "data/daiso_real/shopify_demand_score.json",
+    "data/pricing_model.json",
+    "data/dashboard_runtime.json"
+  ],
+  "max_fx_age_days": 4,
+  "source_policy": "External sources optional; local canonical identity, pricing, legal/approval and final runtime integrity required.",
+  "count_decrease_policy": "Every removed operating pd_no requires product_change_ledger validation of source hashes, archived originals, thresholds and offer arithmetic. A bare verified boolean never authorizes deletion; unexplained losses block publication.",
+  "process_success_is_fetch_success": false,
+  "cached_source_policy": "No fresh source-fetch timestamp inferred from a successful process or metadata-only write. Cached commerce requires valid schema, joins, observed source and FX age <=4 days.",
+  "candidate_policy": "Comparison only; never promotes or replaces operating products without existing legal/payload approval gates."
+}

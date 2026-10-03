@@ -2,23 +2,12 @@ name: 🤖 JARVIS Core Automation (2시간)
 
 on:
   schedule:
-    # 매 10분마다 실행 (통합 자동화)
-    # 10분마다 돌면서 매번 커밋·푸시하느라 다른 워크플로와 내 푸시를
-    # 계속 덮어썼다. 하루 144회를 돌 만큼 자주 바뀌는 데이터도 아니다.
-    # 이름은 '매 10분' 이지만 크론은 이미 시간당 1회였고 실측은 162분이었다.
-    # 이름과 설정과 실제가 셋 다 달랐다. 실제에 맞춰 2시간으로 두고
-    # 이름도 고쳤다.
-    #
-    # 홀수 시에 돈다. Deep Analysis 가 짝수 시라 서로 안 겹친다.
-    # 예전에 이 둘이 5분 차이로 붙어 돌면서 푸시가 엉켜 products.json 이
-    # 200건에서 174건으로 되돌아간 적이 있다.
-    - cron: '43 1-23/2 * * *'     # UTC 홀수 시 43분, 2시간 주기 유지
+    # UTC 홀수 시 43분, KST 짝수 시 43분. Deep와 시차 유지.
+    - cron: '43 1-23/2 * * *'
   workflow_dispatch:
 
 concurrency:
-  # 모든 main 자동 발행 워크플로가 공유하는 잠금 그룹
   group: main-publish
-  # 실행 중인 데이터 생성은 중단하지 않고 다음 실행을 대기시킨다.
   cancel-in-progress: false
 
 permissions:
@@ -29,114 +18,91 @@ jobs:
   core-automation:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
         with:
           fetch-depth: 0
-
-      - name: 🐍 Python 3.10 설정
-        uses: actions/setup-python@v5
+      - name: Python 3.11
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
-          python-version: '3.10'
-
-      - name: 📦 라이브러리 설치
+          python-version: '3.11'
+      - name: Runtime dependencies
         run: |
-          pip install requests feedparser torch numpy matplotlib --break-system-packages
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
 
-      # ============================================================
-      # [1/4] 다이소 상품 수집 - 2026-08-31 제거
-      #
-      # daiso_product_discovery.py 는 실제 수집을 하지 않고
-      #   "name": f"다이소 뷰티·스킨케어 후보 ({random.randint(100, 999)})"
-      # 로 가짜 상품을 매 실행 3~5건씩 생성해 커밋하고 있었다.
-      # 실제 다이소 수집은 daiso-real-collection.yml 이 담당한다.
-      # ============================================================
-
-      - name: 🛍️ [1/4] 다이소 상품 발굴 (제거됨)
-        id: daiso_discovery
-        run: |
-          echo "가짜 데이터 생성 단계라 2026-08-31 제거됨. 실수집은 daiso-real-collection.yml 참조."
-          echo "status=skipped" >> $GITHUB_OUTPUT
-
-      # ============================================================
-      # [2/4] Obsidian 실시간 동기화 (매 10분)
-      # ============================================================
-
-      - name: 📚 [2/4] Obsidian 동기화
+      # Local canonical processing is required; legacy synthetic home-vault
+      # Phase26 notes are not synchronization evidence and are no longer run.
+      - name: Required canonical source processing
         id: obsidian_sync
         run: |
-          echo "📚 Obsidian 그래프 동기화..."
-          if python scripts/obsidian_realtime_sync.py; then
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
-          fi
+          python scripts/collector_result.py run --name canonical_source --required \
+            --output "$RUNNER_TEMP/release-results/canonical_source.json" \
+            --artifact data/product_master.json -- python scripts/build_product_master.py --inject-s
 
-      # ============================================================
-      # [3/4] YouTube 데이터 수집 (매 10분)
-      # ============================================================
-
-      - name: 🎬 [3/4] YouTube (robots 차단으로 중단 · SerpApi 경로로 이관)
+      - name: Optional YouTube source status (RSS robots blocked)
         id: youtube_collect
+        continue-on-error: true
         run: |
-          echo "🎬 YouTube Atom RSS 실수집 (Learn With Shopify 등)"
-          if python scripts/youtube_dropshipping_analysis.py; then
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
-            exit 1
-          fi
+          python scripts/collector_result.py run --name youtube --optional \
+            --output "$RUNNER_TEMP/release-results/youtube.json" \
+            --fetch-evidence "$RUNNER_TEMP/youtube-source-evidence.json" \
+            --artifact data/youtube_real_videos.json -- python scripts/youtube_dropshipping_analysis.py
 
-      # ============================================================
-      # [4/4] Google 검색 데이터 수집 (매 10분)
-      # ============================================================
-
-      - name: 🔍 [4/4] Google 검색 데이터 수집
+      - name: Synthetic Google Trends refresher disabled
         id: google_collect
         run: |
-          echo "🔍 Google Trends 분석..."
-          if python scripts/google_search_data_collection.py; then
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
-          fi
+          python scripts/collector_result.py run --name google --optional \
+            --output "$RUNNER_TEMP/release-results/google.json" \
+            --skip-reason 'Hardcoded growth collector disabled; cached keywords unverified, no source fetch attempted'
 
-      # ============================================================
-      # GitHub 자동 푸시
-      # ============================================================
-
-      # 2026-09-09: 커밋 블록을 .github/actions/publish 로 옮겼다.
-      #   전에는 이랬다.
-      #     git checkout -B publish origin/main
-      #     git checkout $MINE -- <경로>
-      #   원격 최신을 베이스로 두는 것까지는 맞다. 그런데 둘째 줄이
-      #   경로 전체를 자기 스냅샷으로 덮어서, 내가 건드리지도 않은 파일을
-      #   내 실행이 시작할 때 값으로 되돌렸다.
-      #
-      #   실제로 그 일이 났다. Deep Analysis #443 이 만든 45개 파일을
-      #   같은 방식으로 만든 커밋 하나가 통째로 되돌렸다.
-      #   이 워크플로는 2시간마다 도니까 그럴 기회가 하루 열두 번 있다.
-      #
-      #   이제 이번 실행이 실제로 바꾼 파일만 얹는다. 대시보드는
-      #   밀어넣을 그 트리에서 다시 만들고, 감사도 거기서 돌린다.
       - name: Observe actual Actions freshness (read-only)
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python -u scripts/collect_workflow_status.py
 
-      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        uses: ./.github/actions/publish
-        with:
-          paths: data
-          message: JARVIS Core 자동화 갱신
+      - name: Required current canonical runtime
+        id: runtime_refresh
+        run: |
+          python scripts/collector_result.py run --name runtime --required \
+            --output "$RUNNER_TEMP/release-results/runtime.json" \
+            --artifact data/dashboard_runtime.json -- bash -e -c '
+            python -u scripts/health_check_v2.py
+            python -u scripts/generate_dashboard_runtime.py
+            python -u scripts/run_jarvis_agents.py --force
+            python -u scripts/build_team_improvement.py'
 
-      - name: ✅ 완료 로그
+      - name: Aggregate actual Core outcomes before publication
+        id: outcomes
         if: always()
         run: |
-          echo "🎯 JARVIS Core Automation 완료"
-          echo "- 다이소 상품 발굴: ${{ steps.daiso_discovery.outputs.status }}"
-          echo "- Obsidian 동기화: ${{ steps.obsidian_sync.outputs.status }}"
-          echo "- YouTube 수집: ${{ steps.youtube_collect.outputs.status }}"
-          echo "- Google 수집: ${{ steps.google_collect.outputs.status }}"
+          python scripts/collector_result.py aggregate --results "$RUNNER_TEMP/release-results" \
+            --report data/agents/core_run_results.json --runtime data/dashboard_runtime.json \
+            --expected canonical_source:required --expected youtube:optional \
+            --expected google:optional --expected runtime:required
+
+      - name: Required candidate release quality
+        id: quality
+        if: always()
+        run: |
+          python scripts/check_release_quality.py --phase candidate \
+            --collector-report data/agents/core_run_results.json \
+            --report data/agents/release_quality_candidate.json
+
+      - name: 산출물 발행 (원격 최신 위에 이번 변경만)
+        if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
+        uses: ./.github/actions/publish
+        with:
+          collector-report: data/agents/core_run_results.json
+          execution-id: ${{ github.run_id }}:${{ github.run_attempt }}
+          paths: data
+          message: JARVIS Core validated outcomes
+
+      - name: Record truthful Core result
+        if: always()
+        run: |
+          if [ -f data/agents/core_run_results.json ]; then
+            python -m json.tool data/agents/core_run_results.json >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Core outcome evidence missing: publication blocked' >> "$GITHUB_STEP_SUMMARY"
+          fi

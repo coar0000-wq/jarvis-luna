@@ -15,6 +15,7 @@ JARVIS YouTube 실수집 (가짜 데이터 금지)
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import sys
@@ -36,6 +37,8 @@ UA = "JARVIS-LUNA/1.0 (youtube-rss-real; no-fake-data)"
 def fetch(url: str) -> bytes:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=30) as res:
+        if res.status != 200:
+            raise ValueError("YouTube RSS requires HTTP 200")
         return res.read()
 
 
@@ -56,6 +59,8 @@ def collect_channel(cid: str) -> dict:
     url = f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"
     raw = fetch(url)
     root = ET.fromstring(raw)
+    if root.tag != "{http://www.w3.org/2005/Atom}feed":
+        raise ValueError("Not a validated Atom feed")
     ns = {
         "a": "http://www.w3.org/2005/Atom",
         "yt": "http://www.youtube.com/xml/schemas/2015",
@@ -206,11 +211,34 @@ def write_shopify_learn(videos: list[dict], channel_title: str) -> None:
 # 정식 경로는 YouTube Data API v3 (YOUTUBE_API_KEY 필요).
 ROBOTS_BLOCKED = True
 
+def emit_evidence(status, *, queried=0, succeeded=0, failed=0, videos=0, new_count=None, updated_count=None, reason=None):
+    target = os.environ.get("COLLECTOR_FETCH_EVIDENCE")
+    if not target:
+        return
+    doc = {"schema_version": 1, "execution_id": os.environ.get("RELEASE_EXECUTION_ID"),
+           "status": status, "validated": status in {"success", "degraded"} and succeeded > 0,
+           "last_successful_fetch_at": datetime.now(timezone.utc).isoformat() if succeeded else None,
+           "query_count": queried, "succeeded_count": succeeded, "failed_count": failed,
+           "parsed_count": videos, "new_count": new_count, "updated_count": updated_count,
+           "reason": reason, "method": "HTTP200_validated_Atom_RSS"}
+    observed_output = DATA / 'youtube_real_videos.json'
+    doc['artifact_sha256'] = hashlib.sha256(observed_output.read_bytes()).hexdigest() if succeeded and observed_output.exists() else None
+    p = Path(target); p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     if ROBOTS_BLOCKED:
+        emit_evidence("skipped", reason="robots_blocked: YouTube /feeds/videos.xml disallowed; no request attempted")
         print("youtube.com/robots.txt 가 /feeds/videos.xml 을 막고 있어 수집하지 않는다. YouTube Data API v3 로 전환 필요.")
         return 0
     DATA.mkdir(parents=True, exist_ok=True)
+    prior_path = DATA / "youtube_real_videos.json"
+    try:
+        old_videos = json.loads(prior_path.read_text(encoding="utf-8")).get("videos") or []
+    except (OSError, ValueError):
+        old_videos = []
+    old_by_id = {v["video_id"]: v for v in old_videos if isinstance(v, dict) and v.get("video_id")}
     ids = channel_ids()
     channels = []
     all_videos = []
@@ -237,9 +265,11 @@ def main() -> int:
             print(f"FAIL {cid}: {e}", file=sys.stderr)
 
     if not all_videos:
+        emit_evidence("failed", queried=len(ids), failed=len(errors), reason="no_valid_nonempty_feeds")
         print("ERROR: no real YouTube videos collected — refusing fake fallback", file=sys.stderr)
         return 1
 
+    all_videos = list({v['video_id']: v for v in all_videos}.values())
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "source": "youtube_atom_rss",
@@ -252,6 +282,11 @@ def main() -> int:
     }
     out = DATA / "youtube_real_videos.json"
     out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    new_count = sum(v["video_id"] not in old_by_id for v in all_videos)
+    updated_count = sum(v["video_id"] in old_by_id and old_by_id[v["video_id"]] != v for v in all_videos)
+    emit_evidence("degraded" if errors else "success", queried=len(ids), succeeded=len(channels),
+                  failed=len(errors), videos=len(all_videos), new_count=new_count, updated_count=updated_count,
+                  reason="partial_feed_failure" if errors else None)
     print(f"YouTube real: {len(all_videos)} videos from {len(channels)} channel(s) → {out}")
     return 0
 

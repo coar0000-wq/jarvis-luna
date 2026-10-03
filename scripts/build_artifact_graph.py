@@ -309,11 +309,169 @@ def scripts_in_text(text: str) -> list[str]:
     return seen
 
 
-def scan_workflows() -> dict[str, dict]:
+_PUBLISH_WRAPPER = "scripts/publish_transaction.py"
+_RUNTIME_CHAIN = [["scripts/health_check_v2.py"], ["scripts/generate_dashboard_runtime.py"],
+                  ["scripts/run_jarvis_agents.py", "--force"], ["scripts/build_team_improvement.py"]]
+_COMMERCE_CHAIN = [["scripts/build_product_master.py"], ["scripts/daiso/score_shopify_demand.py"],
+                   ["scripts/build_product_master.py", "--inject-s"], ["scripts/pricing_model.py"],
+                   ["scripts/check_legal_products.py"], ["scripts/build_legal_full.py"],
+                   ["scripts/build_listing_gate.py"], ["scripts/build_product_master.py", "--inject-s"],
+                   ["scripts/build_market_team.py"], ["scripts/export_shopify_operational.py"],
+                   ["scripts/build_shopify_action_queue.py"], ["scripts/discover_channels.py"]]
+
+
+def _ast_matches(node, expression):
+    return ast.dump(node) == ast.dump(ast.parse(expression, mode="eval").body)
+
+
+def publish_wrapper_contract(action_text):
+    """Recognize only the actual audited CLI and verify declaration execution.
+
+    An unknown or changed wrapper cannot invent graph producer coverage. The
+    mandatory final gate and candidate separation are checked, not assumed.
+    """
+    wrapper = ROOT / _PUBLISH_WRAPPER
+    policy_file = ROOT / "config/publish_policy.json"
+    if not wrapper.exists() and not policy_file.exists():
+        if _PUBLISH_WRAPPER in scripts_in_text(action_text):
+            raise ValueError("publish graph contract: wrapper missing")
+        return None
+    if not wrapper.exists() or not policy_file.exists():
+        raise ValueError("publish graph contract: wrapper/policy missing")
+    import yaml
+    action = yaml.safe_load(action_text) or {}
+    invocations = []
+    for step in (action.get("runs") or {}).get("steps") or []:
+        calls = re.findall(r"(?m)^\s*python(?:3)?(?:\s+-[A-Za-z]+)*\s+scripts/publish_transaction\.py([^\n]*)", step.get("run", ""))
+        if calls and (step.get("if") or any("||" in tail for tail in calls)):
+            raise ValueError("publish graph contract: invocation conditional/masked")
+        invocations.extend(calls)
+    if len(invocations) != 1:
+        raise ValueError("publish graph contract: action does not invoke wrapper once")
+    policy = json.loads(policy_file.read_text(encoding="utf-8"))
+    if policy.get("runtime_commands") != _RUNTIME_CHAIN or policy.get("commerce_commands") != _COMMERCE_CHAIN:
+        raise ValueError("publish graph contract: required ordered producer chain changed")
+    for key in ("commerce_inputs", "derived_paths", "candidate_protected"):
+        if not isinstance(policy.get(key), list) or not policy[key]:
+            raise ValueError(f"publish graph contract: missing {key}")
+    for command in _RUNTIME_CHAIN + _COMMERCE_CHAIN + [["scripts/check_release_quality.py"], ["scripts/build_daiso_candidate_comparison.py"]]:
+        if not (ROOT / command[0]).is_file():
+            raise ValueError(f"publish graph contract: producer/checker missing {command[0]}")
+    tree = ast.parse(wrapper.read_text(encoding="utf-8-sig"))
+    cls = next((n for n in tree.body if isinstance(n, ast.ClassDef) and n.name == "Transaction"), None)
+    methods = {n.name: n for n in cls.body if isinstance(n, ast.FunctionDef)} if cls else {}
+    if not {"__init__", "command", "candidate_only", "regenerate_and_validate", "run", "stage", "push"} <= methods.keys():
+        raise ValueError("publish graph contract: required functions absent")
+    main = next((n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == "main"), None)
+    if not main or not any(isinstance(n, ast.Call) and isinstance(n.func, ast.Attribute) and n.func.attr == "run"
+                           and isinstance(n.func.value, ast.Call) and isinstance(n.func.value.func, ast.Name)
+                           and n.func.value.func.id == "Transaction" for n in ast.walk(main)):
+        raise ValueError("publish graph contract: CLI cannot reach Transaction.run")
+    if not any(isinstance(n, ast.If) and _ast_matches(n.test, "__name__ == '__main__'")
+               and any(isinstance(c, ast.Call) and isinstance(c.func, ast.Name) and c.func.id == "main" for c in ast.walk(n))
+               for n in tree.body):
+        raise ValueError("publish graph contract: executable main guard absent")
+    if not any(isinstance(n, ast.Constant) and n.value == "config/publish_policy.json" for n in ast.walk(methods["__init__"])):
+        raise ValueError("publish graph contract: policy loader absent")
+    command = methods["command"]
+    if not any(isinstance(n, ast.If) and _ast_matches(n.test, "p.returncode")
+               and any(isinstance(c, ast.Raise) for c in n.body) for n in command.body):
+        raise ValueError("publish graph contract: command failure propagation absent")
+    for key in ("TYPESAFE_ENABLED", "GEMINI_FALLBACK_ENABLED", "TYPESAFE_ALLOW_PAID"):
+        if not any(isinstance(n, ast.keyword) and n.arg == key and _ast_matches(n.value, "'0'") for n in ast.walk(command)):
+            raise ValueError("publish graph contract: offline model disable absent")
+    regen = methods["regenerate_and_validate"]
+    if not any(isinstance(n, ast.Assign) and _ast_matches(n.value, "self.candidate_only()") for n in regen.body):
+        raise ValueError("publish graph contract: candidate separation absent")
+    commerce = next((n for n in regen.body if isinstance(n, ast.Assign)
+                     and any(isinstance(t, ast.Name) and t.id == "commerce" for t in n.targets)), None)
+    if not commerce or not _ast_matches(commerce.value,
+            "not candidate and any(path_allowed(n, self.policy['commerce_inputs'] + commerce_outputs) for n in relevant)"):
+        raise ValueError("publish graph contract: conditional commerce protection changed")
+    dispatch_lines = []
+    for test, key in (("commerce", "commerce_commands"), ("relevant or self.regenerate_dashboard", "runtime_commands")):
+        guard = next((n for n in regen.body if isinstance(n, ast.If) and _ast_matches(n.test, test)), None)
+        if not guard or len(guard.body) != 1 or not isinstance(guard.body[0], ast.For):
+            raise ValueError("publish graph contract: required conditional dispatch absent")
+        loop = guard.body[0]
+        if (not _ast_matches(loop.iter, f"self.policy['{key}']") or len(loop.body) != 1
+                or not isinstance(loop.body[0], ast.Expr) or not _ast_matches(loop.body[0].value, "self.command(work, args)")):
+            raise ValueError("publish graph contract: declared ordered chain not executed")
+        dispatch_lines.append(guard.lineno)
+    quality = next((n for n in regen.body if isinstance(n, ast.For) and isinstance(n.target, ast.Name) and n.target.id == "phase"
+                    and _ast_matches(n.iter, "('candidate', 'final')")), None)
+    gate = quality.body[0].value if quality and len(quality.body) == 1 and isinstance(quality.body[0], ast.Expr) else None
+    gate_args = gate.args[1] if isinstance(gate, ast.Call) and len(gate.args) == 2 else None
+    if isinstance(gate_args, ast.BinOp) and isinstance(gate_args.op, ast.Add) and _ast_matches(gate_args.right, "extra"):
+        gate_args = gate_args.left
+    if (not isinstance(gate, ast.Call) or not _ast_matches(gate.func, "self.command")
+            or not isinstance(gate_args, ast.List) or len(gate_args.elts) < 3
+            or not _ast_matches(gate_args.elts[0], "'scripts/check_release_quality.py'")
+            or not _ast_matches(gate_args.elts[1], "'--phase'") or not _ast_matches(gate_args.elts[2], "phase")):
+        raise ValueError("publish graph contract: mandatory candidate/final release gate absent")
+    expected_gate = "['scripts/check_release_quality.py', '--phase', phase, '--root', str(work), '--baseline', str(baseline), '--report', str(report_dir/f'{phase}.json'), *extra]"
+    if (not _ast_matches(gate.args[0], "work") or not _ast_matches(gate_args, expected_gate)
+            or not dispatch_lines[0] < dispatch_lines[1] < quality.lineno):
+        raise ValueError("publish graph contract: final merged-root gate or execution order changed")
+    calls = [(n.lineno, n.func.attr) for n in ast.walk(methods["run"]) if isinstance(n, ast.Call)
+             and isinstance(n.func, ast.Attribute) and isinstance(n.func.value, ast.Name) and n.func.value.id == "self"]
+    order = [min((line for line, name in calls if name == method), default=0)
+             for method in ("regenerate_and_validate", "stage", "push")]
+    if not 0 < order[0] < order[1] < order[2]:
+        raise ValueError("publish graph contract: validation must precede stage/push")
+    return policy
+
+
+def _graph_path_allowed(name, paths):
+    return any(name == p.rstrip("/") or name.startswith(p.rstrip("/") + "/") for p in paths)
+
+
+def _transaction_profiles(text, policy, scripts):
+    import shlex
+    import yaml
+    doc = yaml.safe_load(text) or {}
+    profiles = []
+    produced = {w for script in scripts_in_text(text) for w in (scripts.get(script) or {}).get("writes", [])}
+    prefixes = ("data/daiso_real/candidate_", "data/daiso_real/collection_status.json", "data/daiso_real/crawl_state.json",
+                "data/agents/", "data/knowledge/cumulative_history.json")
+    commerce_outputs = ["data/daiso_real/shopify_demand_score.json", "data/product_master.json", "data/pricing_model.json",
+                        "data/listing_gate.json", "data/legal_products.json", "data/legal_full.json", "data/market_team.json",
+                        "data/shopify_exports/", "data/shopify_action_queue.json", "data/shopify_shortlist.json"]
+    for job in (doc.get("jobs") or {}).values():
+        for step in job.get("steps") or []:
+            if step.get("uses") != "./.github/actions/publish":
+                continue
+            params = step.get("with") or {}
+            paths = shlex.split(str(params.get("paths") or ""))
+            if not paths or any("${{" in p for p in paths):
+                raise ValueError("publish graph contract: explicit publication paths required")
+            sources = [p for p in paths if not _graph_path_allowed(p, policy["derived_paths"])]
+            candidate = bool(sources) and all(p.startswith(prefixes) for p in sources)
+            triggers = sorted(n for n in produced if _graph_path_allowed(n, paths)
+                              and _graph_path_allowed(n, policy["commerce_inputs"] + commerce_outputs))
+            commerce = bool(triggers) and not candidate
+            commands = list(policy["commerce_commands"]) if commerce else []
+            if candidate and _graph_path_allowed("data/daiso_real/candidate_pool.json", paths):
+                commands += [["scripts/build_daiso_candidate_comparison.py"]]
+            commands += policy["runtime_commands"]
+            commands += [["scripts/check_release_quality.py", "--phase", p] for p in ("candidate", "final")]
+            if str(params.get("audit", "true")).lower() == "true":
+                commands.append([AUDIT_SCRIPT])
+            profiles.append({"step": step.get("name"), "condition": step.get("if"), "paths": paths,
+                             "candidate_only": candidate, "commerce_regeneration": commerce,
+                             "commerce_triggers": triggers, "commands": commands,
+                             "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"})
+    return profiles
+
+
+def scan_workflows(scripts: dict | None = None) -> dict[str, dict]:
     publish_text = ""
     if PUBLISH_ACTION.exists():
         publish_text = PUBLISH_ACTION.read_text(encoding="utf-8-sig")
     publish_scripts = scripts_in_text(publish_text)
+    contract = publish_wrapper_contract(publish_text)
+    if contract and scripts is None:
+        scripts = scan_all_scripts()
     defaults = publish_action_defaults(publish_text)
 
     out: dict[str, dict] = {}
@@ -335,7 +493,13 @@ def scan_workflows() -> dict[str, dict]:
         # 발행 액션이 돌리는 스크립트도 이 워크플로가 돌리는 것이다.
         # regenerate-dashboard: true 일 때만 그 안의 재생성이 돈다.
         effective = list(runs)
-        if regen:
+        profiles = _transaction_profiles(text, contract, scripts or {}) if contract and publishes else []
+        if profiles:
+            for profile in profiles:
+                for command in profile["commands"]:
+                    if command[0] not in effective:
+                        effective.append(command[0])
+        elif regen:
             for s in publish_scripts:
                 if s not in effective:
                     effective.append(s)
@@ -344,6 +508,8 @@ def scan_workflows() -> dict[str, dict]:
             "publishes": publishes,
             "regenerates_dashboard": regen,
             "runs_audit": audit,
+            "mandatory_release_gate": bool(profiles),
+            "publish_profiles": profiles,
             "runs": runs,
             "effective": effective,
         }
@@ -357,7 +523,7 @@ def scan_workflows() -> dict[str, dict]:
 
 def build_graph() -> dict:
     scripts = scan_all_scripts()
-    workflows = scan_workflows()
+    workflows = scan_workflows(scripts)
 
     # 생산자 맵: 산출물 -> 그것을 쓰는 스크립트들
     producers: dict[str, list[str]] = {}
@@ -379,10 +545,13 @@ def build_graph() -> dict:
     # 대시보드를 읽는 수집기가 전부 오탐으로 잡힌다.
     # 실제로 21건 중 20건이 그것이었다.
     terminal: set[str] = set()
-    for s in scripts_in_text(
-        PUBLISH_ACTION.read_text(encoding="utf-8-sig")
-        if PUBLISH_ACTION.exists() else ""
-    ):
+    publish_text = PUBLISH_ACTION.read_text(encoding="utf-8-sig") if PUBLISH_ACTION.exists() else ""
+    contract = publish_wrapper_contract(publish_text)
+    terminal_scripts = ([args[0] for args in contract["runtime_commands"]] if contract
+                        else scripts_in_text(publish_text))
+    # Conditional commerce chains are not global terminals: their stale edges
+    # must remain visible in unrelated and candidate-only publications.
+    for s in terminal_scripts:
         info = scripts.get(s)
         if info:
             terminal.update(info["writes"])
@@ -406,7 +575,7 @@ def build_graph() -> dict:
     violations: list[dict] = []
 
     for wf, meta in workflows.items():
-        if not meta["runs_audit"]:
+        if not meta["runs_audit"] and not meta.get("mandatory_release_gate"):
             continue
 
         ran = set(meta["effective"])

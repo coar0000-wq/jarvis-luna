@@ -1,0 +1,11 @@
+# Operating-product policy changes
+
+`exclude_unprofitable.py --apply` and `--restore --apply` keep existing monetary thresholds and never admit discovery candidates. A valid best observed offer must have finite price, cost, fee, integer quantity, net profit and margin with independently checked arithmetic. A missing explicit rule, duplicate identity, invalid archive or malformed monetary input fails before product writes. Missing pricing or no actual delta is explicitly no-change, never evidence of a new source fetch. Dry runs change no bytes.
+
+Actual changes write `data/daiso_real/product_change_reasons.json`. Each record binds product ID, action, execution, observed time, exact before/after source SHA-256, original archived product, all observed offer forms, selected best offer, threshold/rule hash and complete pricing snapshot hash. Pricing snapshot bytes are retained once per SHA in the private ledger so later repricing cannot remove the evidence needed to verify a legitimate exclusion. `verified=true` by itself is insufficient.
+
+`validate_removal_evidence(root, baseline, removed_ids)` replays complete exclusion/restoration batches from immutable baseline bytes to final bytes. Every batch must reproduce its declared after-hash. It independently checks source snapshots, all offers, monetary arithmetic, policy and archived originals. This allows an exclusion followed by another legitimate restoration, but rejects missing batch records, omitted profitable forms, altered baseline/output bytes, changed policy and forged proof. Unknown or ambiguous conflicts remain fail-closed and must be rerun on latest main.
+
+`data/publish_deletions.json` declares actual product/archive identity removals against exact tracked HEAD file hashes. Records for unrelated paths are retained; IDs in the same path/base/policy are unioned. No force push or automatic approval is introduced. The shared publisher still regenerates commerce from final sources, invalidates changed-payload approvals and performs candidate/final gates before normal push.
+
+Tests: `python scripts/test_product_change_ledger.py`, isolated temporary repositories only. This implementation does not run exclusions on production data as a diagnostic and does not weaken legal, Shopify draft/unpublished/inventory-zero, shortlist or payload-signature safeguards.

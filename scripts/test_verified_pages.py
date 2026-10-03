@@ -24,7 +24,7 @@ class VerifiedPagesTests(unittest.TestCase):
         return next(s for s in self.steps if s.get('name') == name)
 
     def test_only_completed_main_workflows_trigger(self):
-        self.assertEqual(set(self.trigger), {'workflow_run'})
+        self.assertEqual(set(self.trigger), {'workflow_run', 'workflow_dispatch'})
         trigger = self.trigger['workflow_run']
         self.assertEqual(trigger['types'], ['completed'])
         self.assertEqual(trigger['branches'], ['main'])
@@ -47,7 +47,7 @@ class VerifiedPagesTests(unittest.TestCase):
 
     def test_least_privilege_permissions(self):
         self.assertEqual(self.doc['permissions'],
-                         {'contents': 'read', 'pages': 'write', 'id-token': 'write'})
+                         {'contents': 'read', 'actions': 'read', 'pages': 'write', 'id-token': 'write'})
         self.assertEqual(self.doc['concurrency']['group'], 'pages')
 
     def test_current_main_not_publisher_start_sha_is_checked_out(self):
@@ -90,13 +90,31 @@ class VerifiedPagesTests(unittest.TestCase):
                         names.index('Reject an obsolete checkout'))
         self.assertLess(names.index('Reject an obsolete checkout'), names.index('Upload verified site'))
 
+    def test_manual_recovery_and_bounded_current_main_revalidation(self):
+        self.assertIn("github.ref == 'refs/heads/main'", self.job['if'])
+        body = self.step('Validate the exact deployment snapshot')['run']
+        self.assertIn('for attempt in 1 2 3', body)
+        self.assertIn('git reset --hard FETCH_HEAD', body)
+        self.assertIn('python scripts/build_public_site.py --output dist', body)
+        self.assertIn('python scripts/check_public_site.py --root dist', body)
+        self.assertIn('python scripts/test_public_site.py', body)
+
+    def test_duplicate_requires_authenticated_verified_run_and_matching_site_metadata(self):
+        body = self.step('Skip an already verified identical deployment')['run']
+        self.assertIn("'Authorization': 'Bearer '", body)
+        self.assertIn("r.get('conclusion') == 'success'", body)
+        self.assertIn("previous.get('site_hash') == local['site_hash']", body)
+        self.assertIn('except Exception:', body)
+        self.assertIn('skipped = False', body)
+
     def test_upload_and_deploy_never_bypass_a_failed_gate(self):
         for name in ['Configure Pages', 'Upload verified site', 'Deploy verified site']:
             step = self.step(name)
             self.assertFalse(step.get('continue-on-error', False))
-            self.assertNotIn('if', step)
-        self.assertEqual(self.step('Upload verified site')['uses'], 'actions/upload-pages-artifact@v3')
-        self.assertEqual(self.step('Deploy verified site')['uses'], 'actions/deploy-pages@v4')
+            self.assertEqual(step['if'], "steps.duplicate.outputs.skip != 'true'")
+        self.assertTrue(self.step('Upload verified site')['uses'].startswith('actions/upload-pages-artifact@'))
+        self.assertEqual(self.step('Upload verified site')['with']['path'], 'dist')
+        self.assertTrue(self.step('Deploy verified site')['uses'].startswith('actions/deploy-pages@'))
 
 
 if __name__ == '__main__':

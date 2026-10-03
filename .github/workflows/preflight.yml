@@ -15,15 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
         with:
           python-version: '3.11'
+
           cache: 'pip'
 
       - name: Dependencies
-        run: python -m pip install --quiet pyyaml pyflakes
+        run: |
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-verification.txt
 
       - name: Offline workflow regression tests
         id: regression
@@ -46,6 +48,15 @@ jobs:
           python scripts/test_workflow_status.py
           python scripts/test_verified_pages.py
           python scripts/test_operational_integration.py
+          python scripts/test_product_change_ledger.py
+          python scripts/test_publish_graph_contract.py
+          python scripts/test_actions_release_integration.py
+          python scripts/test_dependency_pins.py
+          python scripts/test_public_site.py
+          python scripts/test_publish_transaction.py
+          python scripts/test_release_quality.py
+          python scripts/test_collector_result.py
+          python scripts/check_release_quality.py --phase final --report "$RUNNER_TEMP/preflight-quality-report.json"
 
       - name: Preflight checks
         id: pf

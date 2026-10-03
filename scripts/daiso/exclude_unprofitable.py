@@ -54,9 +54,21 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
+import uuid
+from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
+
+try:
+    from .product_change_ledger import (offer_groups, best_from_rows, below_policy, thresholds,
+        rows_index, archive_items, proof_record, append_changes, deletion_manifest, encode,
+        LEDGER_PATH, MANIFEST_PATH, PRODUCT_PATH, ARCHIVE_PATH)
+except ImportError:
+    from product_change_ledger import (offer_groups, best_from_rows, below_policy, thresholds,
+        rows_index, archive_items, proof_record, append_changes, deletion_manifest, encode,
+        LEDGER_PATH, MANIFEST_PATH, PRODUCT_PATH, ARCHIVE_PATH)
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data"
@@ -96,227 +108,140 @@ DEFAULT_RULE = {
 
 
 def load(path: Path, default):
-    try:
-        return json.loads(path.read_text(encoding="utf-8-sig"))
-    except (OSError, json.JSONDecodeError):
-        return default
+    if not path.exists():
+        return deepcopy(default)
+    return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
 def save(path: Path, doc) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8")
+    path.write_bytes(encode(doc))
 
 
 def rule() -> dict:
-    r = load(RULE, None)
-    if not isinstance(r, dict):
-        save(RULE, DEFAULT_RULE)
-        print(f"기준 파일을 만들었다 -> {RULE.relative_to(ROOT)}")
-        return DEFAULT_RULE
-    return r
+    if not RULE.exists():
+        raise ValueError("profitability_rule.json missing: no exclusion without explicit policy")
+    cfg = load(RULE, None)
+    thresholds(cfg)
+    return cfg
 
 
 def best_offer(pricing: dict) -> dict[str, dict]:
-    """상품별로 가장 나은 판매 형태를 고른다.
-
-    마진이 높은 쪽을 고르되, 마진이 같으면 순익이 큰 쪽을 고른다.
-    """
-    obp = pricing.get("offers_by_product") or {}
-    best: dict[str, dict] = {}
-    for form, rows in obp.items():
-        if not isinstance(rows, list):
-            continue
-        for r in rows:
-            if not isinstance(r, dict):
-                continue
-            pd_no = str(r.get("pd_no") or "").strip()
-            if not pd_no:
-                continue
-            m = r.get("margin_pct")
-            n = r.get("net_profit_usd")
-            if m is None or n is None:
-                continue
-            cur = best.get(pd_no)
-            key = (float(m), float(n))
-            if cur is None or key > (float(cur["margin_pct"]),
-                                     float(cur["net_profit_usd"])):
-                best[pd_no] = {**r, "form": form}
-    return best
+    return {pd_no: best_from_rows(rows) for pd_no, rows in offer_groups(pricing).items()}
 
 
 def judge(row: dict, cfg: dict) -> tuple[bool, str]:
-    """기준 미달이면 (True, 사유)."""
-    m = float(row.get("margin_pct") or 0)
-    n = float(row.get("net_profit_usd") or 0)
-    min_m = float(cfg.get("min_margin_pct", 15.0))
-    min_n = float(cfg.get("min_net_profit_usd", 1.5))
-
-    if row.get("register_blocked"):
-        return True, (f"가장 나은 형태({row.get('form')} {row.get('qty')}개)도 "
-                      f"손익분기 미달: {row.get('block_reason') or ''}".strip())
-    if m < min_m or n < min_n:
-        return True, (f"가장 나은 형태({row.get('form')} {row.get('qty')}개) "
-                      f"마진 {m}% · 순익 ${n} — 최저선 마진 {min_m}% · "
-                      f"순익 ${min_n} 미달")
-    return False, ""
+    bad = below_policy(row, cfg)
+    if not bad:
+        return False, ""
+    return True, (f"가장 나은 형태({row.get('form')} {row.get('qty')}개) "
+                  f"마진 {row['margin_pct']}% · 순익 ${row['net_profit_usd']} · "
+                  f"최저선 {cfg['min_margin_pct']}% / ${cfg['min_net_profit_usd']} 미달")
 
 
 def products_rows(doc) -> list:
-    if isinstance(doc, dict):
-        return doc.get("products") or []
-    return doc if isinstance(doc, list) else []
+    rows_index(doc)
+    return doc['products'] if isinstance(doc, dict) else doc
 
 
 def main() -> int:
     apply_it = "--apply" in sys.argv
     restore = "--restore" in sys.argv
-
     cfg = rule()
-    pricing = load(PRICING, {})
-    if not pricing:
-        print("pricing_model.json 이 없다. 가격 모델을 먼저 돌린다.")
+    if not PRICING.exists():
+        print("NO_CHANGE: pricing_model.json missing; no monetary evidence")
         return 0
-
-    best = best_offer(pricing)
+    pricing_bytes = PRICING.read_bytes()
+    pricing = json.loads(pricing_bytes)
+    grouped = offer_groups(pricing)
+    best = {pd_no: best_from_rows(offers) for pd_no, offers in grouped.items()}
     if not best:
-        print("상품별 판매 형태가 없다. 뺄 근거가 없으므로 아무것도 하지 않는다.")
+        print("NO_CHANGE: no observed offers; no products changed")
         return 0
-
-    prod_doc = load(PRODUCTS, {})
+    if not PRODUCTS.exists():
+        raise ValueError("operating products missing")
+    before = PRODUCTS.read_bytes()
+    prod_doc = json.loads(before)
     rows = products_rows(prod_doc)
-    ex_doc = load(EXCLUDED, {})
-    ex_items = ex_doc.get("items") or {}
-
+    by_id = rows_index(prod_doc)
+    ex_doc = load(EXCLUDED, {"items": {}, "count": 0})
+    ex_items = archive_items(ex_doc)
+    for pd_no, rec in ex_items.items():
+        if rec.get('원본') and str(pd_no) in by_id:
+            raise ValueError("operating/archive identity overlap: " + str(pd_no))
+    ledger_file, manifest_file = ROOT / LEDGER_PATH, ROOT / MANIFEST_PATH
+    ledger = load(ledger_file, None)
+    manifest = load(manifest_file, None)
+    changes = []
+    new_doc, new_archive = deepcopy(prod_doc), deepcopy(ex_doc)
+    new_items = new_archive['items']
     now = datetime.now(timezone.utc).isoformat()
-
-    # ── 되돌리기 ────────────────────────────────────────────
+    execution_id = os.environ.get('DAISO_EXECUTION_ID') or (
+        os.environ['GITHUB_RUN_ID'] + ':' + os.environ.get('GITHUB_RUN_ATTEMPT','1')
+        if os.environ.get('GITHUB_RUN_ID') else 'local:' + uuid.uuid4().hex)
     if restore:
-        back = []
-        for pd_no, rec in list(ex_items.items()):
-            if rec.get("뺀_규칙") != REASON_TAG:
+        for pd_no, rec in sorted(ex_items.items()):
+            if rec.get('뺀_규칙') != REASON_TAG or pd_no not in best:
                 continue
-            row = best.get(str(pd_no))
-            if not row:
+            saved = rec.get('원본')
+            if not isinstance(saved, dict) or str(saved.get('pd_no') or saved.get('product_id') or '') != str(pd_no):
+                print("NO_RESTORE: verified archived original missing: " + str(pd_no))
                 continue
-            bad, _ = judge(row, cfg)
+            bad, why = judge(best[pd_no], cfg)
             if not bad:
-                saved = rec.get("원본")
-                if saved:
-                    rows.append(saved)
-                ex_items.pop(pd_no, None)
-                back.append(f"{pd_no} {rec.get('name')}")
-        if back:
-            print(f"기준을 다시 넘긴 {len(back)}건을 되돌린다:")
-            for b in back:
-                print(f"  {b}")
-            if apply_it:
-                if isinstance(prod_doc, dict):
-                    prod_doc["products"] = rows
-                    prod_doc["count"] = len(rows)
-                    save(PRODUCTS, prod_doc)
-                ex_doc["items"] = ex_items
-                ex_doc["count"] = len(ex_items)
-                save(EXCLUDED, ex_doc)
-                print("되돌렸다.")
-            else:
-                print("(--apply 를 붙여야 실제로 되돌린다)")
-        else:
-            print("되돌릴 것이 없다.")
+                changes.append((str(pd_no), 'restore', deepcopy(saved)))
+                rows.append(deepcopy(saved))
+                del new_items[pd_no]
+    else:
+        for pd_no, original in sorted(by_id.items()):
+            if pd_no not in best:
+                continue
+            bad, why = judge(best[pd_no], cfg)
+            if bad:
+                changes.append((pd_no, 'exclude', deepcopy(original)))
+                offer = best[pd_no]
+                new_items[pd_no] = {
+                    'name': original.get('name'), '뺀_규칙': REASON_TAG, '왜': why,
+                    '그때_숫자': deepcopy(offer), '기준': thresholds(cfg), '뺀_시각': now,
+                    '되돌리는_법': 'scripts/daiso/exclude_unprofitable.py --restore --apply',
+                    '원본': deepcopy(original),
+                }
+        drop = {pd_no for pd_no, action, _ in changes if action == 'exclude'}
+        rows = [row for row in rows if str(row.get('pd_no') or row.get('product_id') or '') not in drop]
+    if not changes:
+        print("NO_CHANGE: no actual operating/archive identity changes")
         return 0
-
-    # ── 미달 판정 ───────────────────────────────────────────
-    by_id = {}
-    for r in rows:
-        if isinstance(r, dict):
-            pid = str(r.get("pd_no") or r.get("product_id") or "").strip()
-            if pid:
-                by_id[pid] = r
-
-    drop, keep = [], []
-    for pd_no, row in sorted(best.items()):
-        bad, why = judge(row, cfg)
-        if bad:
-            drop.append((pd_no, row, why))
-        else:
-            keep.append((pd_no, row))
-
-    print(f"가격이 계산된 상품 {len(best)}건 · 기준 통과 {len(keep)} · 미달 {len(drop)}")
-    print(f"기준: 마진 {cfg.get('min_margin_pct')}% 이상 "
-          f"· 순익 ${cfg.get('min_net_profit_usd')} 이상 (가장 나은 판매 형태)")
-
-    if not drop:
-        print("미달 상품이 없다.")
-        return 0
-
-    print()
-    for pd_no, row, why in drop:
-        here = " (상품 목록에 있음)" if pd_no in by_id else " (이미 목록에 없음)"
-        print(f"  {pd_no} {str(row.get('name'))[:40]}{here}")
-        print(f"     {why}")
-
+    print(f"{'RESTORE' if restore else 'EXCLUDE'}: actual changes={len(changes)}; operating products={len(rows)}")
     if not apply_it:
-        print("\n(--apply 를 붙여야 실제로 뺀다)")
+        print("DRY_RUN: product/archive/ledger/deletion manifest bytes unchanged")
         return 0
-
-    removed = 0
-    for pd_no, row, why in drop:
-        original = by_id.get(pd_no)
-        ex_items[pd_no] = {
-            "name": row.get("name"),
-            "뺀_규칙": REASON_TAG,
-            "왜": why,
-            "그때_숫자": {
-                "form": row.get("form"),
-                "qty": row.get("qty"),
-                "price_usd": row.get("price_usd"),
-                "landed_cost_total_usd": row.get("landed_cost_total_usd"),
-                "fee_usd": row.get("fee_usd"),
-                "net_profit_usd": row.get("net_profit_usd"),
-                "margin_pct": row.get("margin_pct"),
-                "market_median_usd": row.get("market_median_usd"),
-            },
-            "기준": {
-                "min_margin_pct": cfg.get("min_margin_pct"),
-                "min_net_profit_usd": cfg.get("min_net_profit_usd"),
-            },
-            "뺀_시각": now,
-            "되돌리는_법": "scripts/daiso/exclude_unprofitable.py --restore --apply",
-        }
-        if original is not None:
-            ex_items[pd_no]["원본"] = original
-            removed += 1
-
-    rows = [r for r in rows
-            if str((r or {}).get("pd_no") or (r or {}).get("product_id") or "")
-            not in {p for p, _, _ in drop}]
-
-    if isinstance(prod_doc, dict):
-        prod_doc["products"] = rows
-        prod_doc["count"] = len(rows)
-        save(PRODUCTS, prod_doc)
-
-    ex_doc.setdefault("generator", "scripts/daiso/prune_excluded_products.py")
-    ex_doc["generated_at"] = now
-    ex_doc.setdefault(
-        "왜_남기나",
-        "규칙이 다시 바뀌어 되살려야 할 때 근거가 필요하다. 지우면 왜 뺐는지도 같이 사라진다.")
-    ex_doc["손익_규칙_출처"] = str(RULE.relative_to(ROOT))
-    ex_doc["items"] = ex_items
-    ex_doc["count"] = len(ex_items)
-    save(EXCLUDED, ex_doc)
-
-    print(f"\n상품 목록에서 {removed}건을 뺐다. 남은 상품 {len(rows)}건.")
-    print(f"사유와 그때 숫자는 {EXCLUDED.relative_to(ROOT)} 에 남겼다.")
-    print("환율·배송비·시장가가 바뀌면 --restore 로 되돌릴 수 있다.")
+    if isinstance(new_doc, dict):
+        new_doc['products'] = rows
+        new_doc['count'] = len(rows)
+    else:
+        new_doc = rows
+    rows_index(new_doc)
+    new_archive['count'] = len(new_items)
+    new_archive['generated_at'] = now
+    new_archive.setdefault('generator', 'scripts/daiso/exclude_unprofitable.py')
+    new_archive['손익_규칙_출처'] = 'data/daiso_real/profitability_rule.json'
+    after = encode(new_doc)
+    rule_bytes = RULE.read_bytes()
+    records = [proof_record(pd_no, action, original, grouped[pd_no], cfg,
+                           pricing_bytes, rule_bytes, before, after, execution_id, now)
+               for pd_no, action, original in changes]
+    ledger = append_changes(ledger, records, pricing_bytes)
+    changed_path = ARCHIVE_PATH if restore else PRODUCT_PATH
+    manifest = deletion_manifest(ROOT, manifest, changed_path,
+                                 [pd_no for pd_no, _, _ in changes],
+                                 'Verified deterministic profitability ' + ('restore' if restore else 'exclude') + ' with preserved original evidence')
+    PRODUCTS.write_bytes(after)
+    save(EXCLUDED, new_archive)
+    save(ledger_file, ledger)
+    if manifest is not None:
+        save(manifest_file, manifest)
+    print("CHANGE_PROOF_SAVED: exact product hashes, observed offers, thresholds and archived originals")
     return 0
 
-
 if __name__ == "__main__":
-    try:
-        sys.exit(main())
-    except Exception:                                          # noqa: BLE001
-        import traceback
-        traceback.print_exc()
-        print("::error::손익 제외기가 예상 못한 예외로 멈췄다.", file=sys.stderr)
-        sys.exit(1)
+    raise SystemExit(main())

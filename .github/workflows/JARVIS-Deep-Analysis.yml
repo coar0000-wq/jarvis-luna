@@ -56,29 +56,19 @@ jobs:
       # =========================
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
 
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.11'
           cache: pip
 
       - name: Install runtime dependencies
         run: |
-          python -m pip install --upgrade pip
-
-          if [ -f requirements.txt ]; then
-            python -m pip install -r requirements.txt
-          fi
-
-          if [ -f requirements-moe.txt ]; then
-            python -m pip install -r requirements-moe.txt
-          else
-            python -m pip install numpy requests beautifulsoup4 lxml
-          fi
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-deep.txt
 
       # =========================
       # REAL KNOWLEDGE
@@ -86,43 +76,88 @@ jobs:
 
       - name: Collect robotics sources (arXiv cs.RO + robot media RSS)
         continue-on-error: true
-        run: python scripts/collect_robotics.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_01.sh" <<'RELEASE_STAGE_deep_01'
+          python scripts/collect_robotics.py
+          RELEASE_STAGE_deep_01
+          python scripts/collector_result.py run --name deep_01 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_01.json" -- bash -e "$RUNNER_TEMP/deep_01.sh"
 
       - name: Collect institution reports and papers (35 orgs)
         continue-on-error: true
-        run: python scripts/collect_institutions.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_02.sh" <<'RELEASE_STAGE_deep_02'
+          python scripts/collect_institutions.py
+          RELEASE_STAGE_deep_02
+          python scripts/collector_result.py run --name deep_02 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_02.json" -- bash -e "$RUNNER_TEMP/deep_02.sh"
 
       - name: 디자인 소스 수집 (폰트·팔레트·기사)
         continue-on-error: true
         timeout-minutes: 5
-        run: python -u scripts/collect_design_sources.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_03.sh" <<'RELEASE_STAGE_deep_03'
+          python -u scripts/collect_design_sources.py
+          RELEASE_STAGE_deep_03
+          python scripts/collector_result.py run --name deep_03 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_03.json" -- bash -e "$RUNNER_TEMP/deep_03.sh"
 
       - name: Build design team board (checklist + references)
         continue-on-error: true
-        run: python scripts/build_design_team.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_04.sh" <<'RELEASE_STAGE_deep_04'
+          python scripts/build_design_team.py
+          RELEASE_STAGE_deep_04
+          python scripts/collector_result.py run --name deep_04 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_04.json" -- bash -e "$RUNNER_TEMP/deep_04.sh"
 
       - name: 지정 YouTube 채널 수집 (최신 영상 목록)
         continue-on-error: true
         timeout-minutes: 8
-        run: python -u scripts/ingest_youtube_channels.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_05.sh" <<'RELEASE_STAGE_deep_05'
+          python -u scripts/ingest_youtube_channels.py
+          RELEASE_STAGE_deep_05
+          python scripts/collector_result.py run --name deep_05 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_05.json" -- bash -e "$RUNNER_TEMP/deep_05.sh"
 
       - name: 지정 YouTube 영상 수집 (사람이 넣은 링크)
         continue-on-error: true
         timeout-minutes: 5
-        run: python -u scripts/ingest_youtube_links.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_06.sh" <<'RELEASE_STAGE_deep_06'
+          python -u scripts/ingest_youtube_links.py
+          RELEASE_STAGE_deep_06
+          python scripts/collector_result.py run --name deep_06 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_06.json" -- bash -e "$RUNNER_TEMP/deep_06.sh"
 
       - name: 논문 수집 (사람 지정)
         continue-on-error: true
         timeout-minutes: 10
-        run: python -u scripts/ingest_papers.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_07.sh" <<'RELEASE_STAGE_deep_07'
+          python -u scripts/ingest_papers.py
+          RELEASE_STAGE_deep_07
+          python scripts/collector_result.py run --name deep_07 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_07.json" -- bash -e "$RUNNER_TEMP/deep_07.sh"
 
       - name: Build per-team feeds (route pools + FDA for legal)
         continue-on-error: true
-        run: python -u scripts/build_team_feeds.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_08.sh" <<'RELEASE_STAGE_deep_08'
+          python -u scripts/build_team_feeds.py
+          RELEASE_STAGE_deep_08
+          python scripts/collector_result.py run --name deep_08 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_08.json" -- bash -e "$RUNNER_TEMP/deep_08.sh"
 
       - name: Collect real public sources
         continue-on-error: true
-        run: python real_knowledge_sync.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_09.sh" <<'RELEASE_STAGE_deep_09'
+          python real_knowledge_sync.py
+          RELEASE_STAGE_deep_09
+          python scripts/collector_result.py run --name deep_09 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_09.json" -- bash -e "$RUNNER_TEMP/deep_09.sh"
         env:
           YOUTUBE_CHANNEL_IDS: ${{ secrets.YOUTUBE_CHANNEL_IDS }}
           GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
@@ -135,47 +170,85 @@ jobs:
 
       - name: Collect Open Beauty Facts (오픈데이터, 인증 불필요)
         continue-on-error: true
-        run: python scripts/collect_open_beauty_facts.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_10.sh" <<'RELEASE_STAGE_deep_10'
+          python scripts/collect_open_beauty_facts.py
+          RELEASE_STAGE_deep_10
+          python scripts/collector_result.py run --name deep_10 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_10.json" -- bash -e "$RUNNER_TEMP/deep_10.sh"
 
       - name: Collect OliveYoung US 베스트셀러 (실수집)
         continue-on-error: true
-        run: python scripts/collect_oliveyoung_us.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_11.sh" <<'RELEASE_STAGE_deep_11'
+          python scripts/collect_oliveyoung_us.py
+          RELEASE_STAGE_deep_11
+          python scripts/collector_result.py run --name deep_11 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_11.json" -- bash -e "$RUNNER_TEMP/deep_11.sh"
 
       - name: Collect Reddit beauty RSS (AsianBeauty 등, 키 불필요)
         continue-on-error: true
-        run: python scripts/collect_reddit_beauty_rss.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_12.sh" <<'RELEASE_STAGE_deep_12'
+          python scripts/collect_reddit_beauty_rss.py
+          RELEASE_STAGE_deep_12
+          python scripts/collector_result.py run --name deep_12 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_12.json" -- bash -e "$RUNNER_TEMP/deep_12.sh"
 
       - name: Collect public trend RSS (HN + Google News)
         continue-on-error: true
-        run: python scripts/collect_public_trend_rss.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_13.sh" <<'RELEASE_STAGE_deep_13'
+          python scripts/collect_public_trend_rss.py
+          RELEASE_STAGE_deep_13
+          python scripts/collector_result.py run --name deep_13 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_13.json" -- bash -e "$RUNNER_TEMP/deep_13.sh"
 
       - name: Collect Google Trends beauty-only
         continue-on-error: true
         run: |
+          cat > "$RUNNER_TEMP/deep_14.sh" <<'RELEASE_STAGE_deep_14'
           if [ -f scripts/collect_google_trends_beauty.py ]; then
             python scripts/collect_google_trends_beauty.py
           else
             echo "beauty trends collector missing — skip"
           fi
-
+          RELEASE_STAGE_deep_14
+          python scripts/collector_result.py run --name deep_14 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_14.json" -- bash -e "$RUNNER_TEMP/deep_14.sh"
       - name: Collect Google CSE (시크릿 있을 때만)
         continue-on-error: true
         env:
           GOOGLE_CSE_API_KEY: ${{ secrets.GOOGLE_CSE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
           KNOWLEDGE_QUERIES: ${{ vars.KNOWLEDGE_QUERIES }}
-        run: python scripts/collect_google_cse.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_15.sh" <<'RELEASE_STAGE_deep_15'
+          python scripts/collect_google_cse.py
+          RELEASE_STAGE_deep_15
+          python scripts/collector_result.py run --name deep_15 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_15.json" -- bash -e "$RUNNER_TEMP/deep_15.sh"
 
       - name: 수동 입력 채널 반영 (data/manual/)
         continue-on-error: true
-        run: python scripts/ingest_manual_channels.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_16.sh" <<'RELEASE_STAGE_deep_16'
+          python scripts/ingest_manual_channels.py
+          RELEASE_STAGE_deep_16
+          python scripts/collector_result.py run --name deep_16 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_16.json" -- bash -e "$RUNNER_TEMP/deep_16.sh"
 
       # =========================
       # TRAINING / OBSIDIAN
       # =========================
 
       - name: Prepare transparent real-data corpus
-        run: python prepare_real_training_corpus.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_17.sh" <<'RELEASE_STAGE_deep_17'
+          python prepare_real_training_corpus.py
+          RELEASE_STAGE_deep_17
+          python scripts/collector_result.py run --name deep_17 --required \
+            --output "$RUNNER_TEMP/release-results/deep_17.json" -- bash -e "$RUNNER_TEMP/deep_17.sh"
 
       # 팀 자기개선 루프 (2026-09-28)
       # 측정 -> 후보 -> 그림자 평가 -> 채택/보류 -> 실측 악화 시 자동 롤백.
@@ -184,29 +257,45 @@ jobs:
       # 한 루프가 죽어도 발행은 막지 않는다. status.json 에 error 로 남는다.
       - name: 팀 자기개선 루프
         continue-on-error: true
-        run: python -u scripts/self_improve.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_18.sh" <<'RELEASE_STAGE_deep_18'
+          python -u scripts/self_improve.py
+          RELEASE_STAGE_deep_18
+          python scripts/collector_result.py run --name deep_18 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_18.json" -- bash -e "$RUNNER_TEMP/deep_18.sh"
 
       - name: Normalize Obsidian wikilinks
         continue-on-error: true
         run: |
+          cat > "$RUNNER_TEMP/deep_19.sh" <<'RELEASE_STAGE_deep_19'
           if [ -f scripts/normalize_obsidian_links.py ]; then
             python scripts/normalize_obsidian_links.py
           else
             echo "normalize_obsidian_links.py missing — skip"
           fi
-
+          RELEASE_STAGE_deep_19
+          python scripts/collector_result.py run --name deep_19 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_19.json" -- bash -e "$RUNNER_TEMP/deep_19.sh"
       - name: Rebuild Obsidian graph from real records
         run: |
+          cat > "$RUNNER_TEMP/deep_20.sh" <<'RELEASE_STAGE_deep_20'
           python organize_obsidian_graph.py
 
           if [ -f expand_obsidian_graph.py ]; then
             python expand_obsidian_graph.py
           fi
-
+          RELEASE_STAGE_deep_20
+          python scripts/collector_result.py run --name deep_20 --required \
+            --output "$RUNNER_TEMP/release-results/deep_20.json" -- bash -e "$RUNNER_TEMP/deep_20.sh"
       - name: 팀 허브 생성 (그래프 층 나누기)
         continue-on-error: true
         timeout-minutes: 5
-        run: python -u scripts/build_team_hubs.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_21.sh" <<'RELEASE_STAGE_deep_21'
+          python -u scripts/build_team_hubs.py
+          RELEASE_STAGE_deep_21
+          python scripts/collector_result.py run --name deep_21 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_21.json" -- bash -e "$RUNNER_TEMP/deep_21.sh"
 
       # =========================
       # MoE
@@ -216,6 +305,7 @@ jobs:
         continue-on-error: true
         timeout-minutes: 10
         run: |
+          cat > "$RUNNER_TEMP/deep_22.sh" <<'RELEASE_STAGE_deep_22'
           python -u tune_real_knowledge_moe.py \
             --experts 3,4 \
             --learning-rates 5.0 \
@@ -223,14 +313,21 @@ jobs:
             --temperatures 0.9 \
             --steps 300 \
             --promote
-
+          RELEASE_STAGE_deep_22
+          python scripts/collector_result.py run --name deep_22 --required \
+            --output "$RUNNER_TEMP/release-results/deep_22.json" -- bash -e "$RUNNER_TEMP/deep_22.sh"
       # MoE 팀 배정기 (2026-09-28): 자료·영상이 어느 팀 일인지 배운다.
       # 출처가 확실한 정답만 쓰고, 다수 클래스 기준선을 못 넘으면 승격하지 않는다.
       # 다음 회차의 영상 팀 배정(team_routing.py)과 주간 검토 큐가 이 모델을 쓴다.
       - name: MoE 팀 배정기 학습·조건부 승격
         continue-on-error: true
         timeout-minutes: 8
-        run: python -u scripts/team_router_moe.py --train
+        run: |
+          cat > "$RUNNER_TEMP/deep_23.sh" <<'RELEASE_STAGE_deep_23'
+          python -u scripts/team_router_moe.py --train
+          RELEASE_STAGE_deep_23
+          python scripts/collector_result.py run --name deep_23 --required \
+            --output "$RUNNER_TEMP/release-results/deep_23.json" -- bash -e "$RUNNER_TEMP/deep_23.sh"
 
       # 모든 팀 YouTube 학습 (2026-09-28)
       # 주간 자막 검토 큐를 만들고 팀별 학습 보드를 갱신한다. 검토 자체는
@@ -238,9 +335,12 @@ jobs:
       - name: YouTube 검토 큐·팀 학습 보드
         continue-on-error: true
         run: |
+          cat > "$RUNNER_TEMP/deep_24.sh" <<'RELEASE_STAGE_deep_24'
           python -u scripts/build_youtube_review_queue.py
           python -u scripts/build_team_learning.py
-
+          RELEASE_STAGE_deep_24
+          python scripts/collector_result.py run --name deep_24 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_24.json" -- bash -e "$RUNNER_TEMP/deep_24.sh"
       # =========================
       # GLOBAL CHANNELS
       # =========================
@@ -248,22 +348,40 @@ jobs:
       # 미국 K뷰티 편집숍 판매 목록 (2026-09-28, 공개 상품 JSON · robots 허용)
       - name: Collect Soko Glam (미국 K뷰티 편집숍)
         continue-on-error: true
-        run: python -u scripts/collect_sokoglam.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_25.sh" <<'RELEASE_STAGE_deep_25'
+          python -u scripts/collect_sokoglam.py
+          RELEASE_STAGE_deep_25
+          python scripts/collector_result.py run --name deep_25 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_25.json" -- bash -e "$RUNNER_TEMP/deep_25.sh"
 
       - name: Sync Global Channels and Fix Dashboard UI
         run: |
+          cat > "$RUNNER_TEMP/deep_26.sh" <<'RELEASE_STAGE_deep_26'
           if [ -f sync_channels.py ]; then
             python sync_channels.py
           fi
-
+          RELEASE_STAGE_deep_26
+          python scripts/collector_result.py run --name deep_26 --required \
+            --output "$RUNNER_TEMP/release-results/deep_26.json" -- bash -e "$RUNNER_TEMP/deep_26.sh"
       - name: K뷰티 미국 기사 수집 (상품군·성분 언급 집계)
         continue-on-error: true
         timeout-minutes: 5
-        run: python -u scripts/collect_kbeauty_news.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_27.sh" <<'RELEASE_STAGE_deep_27'
+          python -u scripts/collect_kbeauty_news.py
+          RELEASE_STAGE_deep_27
+          python scripts/collector_result.py run --name deep_27 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_27.json" -- bash -e "$RUNNER_TEMP/deep_27.sh"
 
       - name: 공개 소스 4종 수집 (Trends/Wikipedia/Allure/openFDA)
         continue-on-error: true
-        run: python scripts/collect_public_signals.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_28.sh" <<'RELEASE_STAGE_deep_28'
+          python scripts/collect_public_signals.py
+          RELEASE_STAGE_deep_28
+          python scripts/collector_result.py run --name deep_28 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_28.json" -- bash -e "$RUNNER_TEMP/deep_28.sh"
 
       # =========================
       # FX / SCORE
@@ -272,21 +390,39 @@ jobs:
       - name: 환율 갱신 (USD/KRW)
         continue-on-error: true
         timeout-minutes: 3
-        run: python -u scripts/fetch_fx_rate.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_29.sh" <<'RELEASE_STAGE_deep_29'
+          python -u scripts/fetch_fx_rate.py
+          RELEASE_STAGE_deep_29
+          python scripts/collector_result.py run --name deep_29 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_29.json" -- bash -e "$RUNNER_TEMP/deep_29.sh"
 
       - name: Build product master (canonical_product_id)
         continue-on-error: true
-        run: python scripts/build_product_master.py --inject-s
+        run: |
+          cat > "$RUNNER_TEMP/deep_30.sh" <<'RELEASE_STAGE_deep_30'
+          python scripts/build_product_master.py --inject-s
+          RELEASE_STAGE_deep_30
+          python scripts/collector_result.py run --name deep_30 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_30.json" -- bash -e "$RUNNER_TEMP/deep_30.sh"
 
       - name: Score Shopify demand (다이소 실측 지표 기반)
         continue-on-error: true
         run: |
+          cat > "$RUNNER_TEMP/deep_31.sh" <<'RELEASE_STAGE_deep_31'
           python scripts/daiso/score_shopify_demand.py
           python scripts/build_product_master.py --inject-s
-
+          RELEASE_STAGE_deep_31
+          python scripts/collector_result.py run --name deep_31 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_31.json" -- bash -e "$RUNNER_TEMP/deep_31.sh"
       - name: 한국→미국 실배송 원가 모델 계산
         continue-on-error: true
-        run: python scripts/pricing_model.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_32.sh" <<'RELEASE_STAGE_deep_32'
+          python scripts/pricing_model.py
+          RELEASE_STAGE_deep_32
+          python scripts/collector_result.py run --name deep_32 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_32.json" -- bash -e "$RUNNER_TEMP/deep_32.sh"
 
       # ------------------------------------------------------------
       # 손익이 안 나는 상품은 수집 대상에서 뻐다.
@@ -304,18 +440,24 @@ jobs:
       - name: 손익 미달 상품 제외
         continue-on-error: true
         run: |
+          cat > "$RUNNER_TEMP/deep_33.sh" <<'RELEASE_STAGE_deep_33'
           python -u scripts/daiso/exclude_unprofitable.py --apply
 
           # 환율·배송비·시장가가 바뀜어 다시 파는 것은 되돌린다.
           python -u scripts/daiso/exclude_unprofitable.py --restore --apply
-
+          RELEASE_STAGE_deep_33
+          python scripts/collector_result.py run --name deep_33 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_33.json" -- bash -e "$RUNNER_TEMP/deep_33.sh"
       - name: 제외 반영해 점수·원가 다시 계산
         run: |
+          cat > "$RUNNER_TEMP/deep_34.sh" <<'RELEASE_STAGE_deep_34'
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/daiso/score_shopify_demand.py
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/pricing_model.py
-
+          RELEASE_STAGE_deep_34
+          python scripts/collector_result.py run --name deep_34 --required \
+            --output "$RUNNER_TEMP/release-results/deep_34.json" -- bash -e "$RUNNER_TEMP/deep_34.sh"
       # ------------------------------------------------------------
       # S등급 고시 누락 자동 복구
       #
@@ -327,6 +469,7 @@ jobs:
       - name: S등급 고시 필수 항목 누락 감지
         id: s_gosi_gap
         run: |
+          cat > "$RUNNER_TEMP/deep_35.sh" <<'RELEASE_STAGE_deep_35'
           python - <<'PY'
           import json, os
           from pathlib import Path
@@ -347,11 +490,13 @@ jobs:
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
               f.write(f"count={len(missing)}\n")
           PY
-
+          RELEASE_STAGE_deep_35
+          python scripts/collector_result.py run --name deep_35 --required \
+            --output "$RUNNER_TEMP/release-results/deep_35.json" -- bash -e "$RUNNER_TEMP/deep_35.sh"
       - name: 고시 원문 수집용 무료 브라우저 준비
         if: steps.s_gosi_gap.outputs.count != '0'
         run: |
-          python -m pip install playwright
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-browser.txt
           playwright install --with-deps chromium
 
       - name: 렌더링된 공식 alt에서 S등급 고시 자동 복구
@@ -372,16 +517,29 @@ jobs:
       # ------------------------------------------------------------
       - name: 고시 → 영문 라벨 동기화 (표기 되돌림 포함)
         continue-on-error: true
-        run: python -u scripts/sync_gosi_to_us_labels.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_36.sh" <<'RELEASE_STAGE_deep_36'
+          python -u scripts/sync_gosi_to_us_labels.py
+          RELEASE_STAGE_deep_36
+          python scripts/collector_result.py run --name deep_36 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_36.json" -- bash -e "$RUNNER_TEMP/deep_36.sh"
 
       - name: Legal auto-check (claims / functional / OTC / label)
         run: |
+          cat > "$RUNNER_TEMP/deep_37.sh" <<'RELEASE_STAGE_deep_37'
           python -u scripts/check_legal_products.py
           python -u scripts/build_legal_full.py
           python -u scripts/build_mocra_readiness.py
-
+          RELEASE_STAGE_deep_37
+          python scripts/collector_result.py run --name deep_37 --required \
+            --output "$RUNNER_TEMP/release-results/deep_37.json" -- bash -e "$RUNNER_TEMP/deep_37.sh"
       - name: Build listing gate (copy/gosi/price/legal)
-        run: python scripts/build_listing_gate.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_38.sh" <<'RELEASE_STAGE_deep_38'
+          python scripts/build_listing_gate.py
+          RELEASE_STAGE_deep_38
+          python scripts/collector_result.py run --name deep_38 --required \
+            --output "$RUNNER_TEMP/release-results/deep_38.json" -- bash -e "$RUNNER_TEMP/deep_38.sh"
 
       # ------------------------------------------------------------
       # 빈 영문 카피 보완 (무료·로컬)
@@ -394,23 +552,32 @@ jobs:
       - name: 빈 영문 카피 무료 보완
         continue-on-error: true
         run: |
+          cat > "$RUNNER_TEMP/deep_39.sh" <<'RELEASE_STAGE_deep_39'
           python -u scripts/build_listing_copy_local.py
           python -u scripts/build_listing_gate.py
-
+          RELEASE_STAGE_deep_39
+          python scripts/collector_result.py run --name deep_39 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_39.json" -- bash -e "$RUNNER_TEMP/deep_39.sh"
       - name: 수출 서류 자동 준비 (HS코드·라벨 시안)
         continue-on-error: true
         timeout-minutes: 5
         run: |
+          cat > "$RUNNER_TEMP/deep_40.sh" <<'RELEASE_STAGE_deep_40'
           python -u scripts/prepare_legal_export.py
           python -u scripts/build_legal_full.py
-
+          RELEASE_STAGE_deep_40
+          python scripts/collector_result.py run --name deep_40 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_40.json" -- bash -e "$RUNNER_TEMP/deep_40.sh"
       - name: Product Master 게이트 동기화 + Shopify Export·Action 큐
         run: |
+          cat > "$RUNNER_TEMP/deep_41.sh" <<'RELEASE_STAGE_deep_41'
           python -u scripts/build_listing_gate.py
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/export_shopify_operational.py
           python -u scripts/build_shopify_action_queue.py
-
+          RELEASE_STAGE_deep_41
+          python scripts/collector_result.py run --name deep_41 --required \
+            --output "$RUNNER_TEMP/release-results/deep_41.json" -- bash -e "$RUNNER_TEMP/deep_41.sh"
       # =========================
       # BRAND / MARKETING
       # =========================
@@ -418,25 +585,50 @@ jobs:
       - name: 내 사이트 수집 (브랜드 기준)
         continue-on-error: true
         timeout-minutes: 3
-        run: python -u scripts/ingest_own_site.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_42.sh" <<'RELEASE_STAGE_deep_42'
+          python -u scripts/ingest_own_site.py
+          RELEASE_STAGE_deep_42
+          python scripts/collector_result.py run --name deep_42 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_42.json" -- bash -e "$RUNNER_TEMP/deep_42.sh"
 
       - name: 브랜드 키트 준비 (색·글꼴·규격·정책)
         continue-on-error: true
         timeout-minutes: 3
-        run: python -u scripts/prepare_brand_kit.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_43.sh" <<'RELEASE_STAGE_deep_43'
+          python -u scripts/prepare_brand_kit.py
+          RELEASE_STAGE_deep_43
+          python scripts/collector_result.py run --name deep_43 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_43.json" -- bash -e "$RUNNER_TEMP/deep_43.sh"
 
       - name: 마케팅 조사 분석팀 보드 생성
         continue-on-error: true
-        run: python scripts/build_market_team.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_44.sh" <<'RELEASE_STAGE_deep_44'
+          python scripts/build_market_team.py
+          RELEASE_STAGE_deep_44
+          python scripts/collector_result.py run --name deep_44 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_44.json" -- bash -e "$RUNNER_TEMP/deep_44.sh"
 
       - name: 신규 수집 채널 발굴 (제안만, 자동 등록 안 함)
         continue-on-error: true
-        run: python scripts/discover_channels.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_45.sh" <<'RELEASE_STAGE_deep_45'
+          python scripts/discover_channels.py
+          RELEASE_STAGE_deep_45
+          python scripts/collector_result.py run --name deep_45 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_45.json" -- bash -e "$RUNNER_TEMP/deep_45.sh"
 
       - name: 기관 수집팀 + 채널 운영팀 지속 확장
         continue-on-error: true
         timeout-minutes: 5
-        run: python -u scripts/channel_expansion_agent.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_46.sh" <<'RELEASE_STAGE_deep_46'
+          python -u scripts/channel_expansion_agent.py
+          RELEASE_STAGE_deep_46
+          python scripts/collector_result.py run --name deep_46 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_46.json" -- bash -e "$RUNNER_TEMP/deep_46.sh"
 
 
       # =========================
@@ -446,21 +638,34 @@ jobs:
       - name: 수집원 생존 확인 (러너에서 직접 호출)
         continue-on-error: true
         timeout-minutes: 5
-        run: python -u scripts/check_source_health.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_47.sh" <<'RELEASE_STAGE_deep_47'
+          python -u scripts/check_source_health.py
+          RELEASE_STAGE_deep_47
+          python scripts/collector_result.py run --name deep_47 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_47.json" -- bash -e "$RUNNER_TEMP/deep_47.sh"
 
       - name: Observe actual Actions freshness (read-only)
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python -u scripts/collect_workflow_status.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_48.sh" <<'RELEASE_STAGE_deep_48'
+          python -u scripts/collect_workflow_status.py
+          RELEASE_STAGE_deep_48
+          python scripts/collector_result.py run --name deep_48 --required \
+            --output "$RUNNER_TEMP/release-results/deep_48.json" -- bash -e "$RUNNER_TEMP/deep_48.sh"
 
       - name: 에러 보고서 생성 (막힘·고장·대기·보류)
         continue-on-error: true
         timeout-minutes: 3
         run: |
+          cat > "$RUNNER_TEMP/deep_49.sh" <<'RELEASE_STAGE_deep_49'
           python -u scripts/build_error_report.py
           python -u scripts/health_check_v2.py
-
+          RELEASE_STAGE_deep_49
+          python scripts/collector_result.py run --name deep_49 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_49.json" -- bash -e "$RUNNER_TEMP/deep_49.sh"
       # 커머스 조인 검증은 최종 runtime·비서실장 heartbeat까지 갱신한 뒤
       # 아래 FINAL VALIDATION에서 한 번만 수행한다. 여기서 먼저 실행하면
       # 직전 회차의 agents_ops 때문에 정상 수집 결과도 발행 전에 막힌다.
@@ -471,7 +676,12 @@ jobs:
 
       - name: Generate final dashboard snapshot
         timeout-minutes: 10
-        run: python scripts/generate_dashboard_runtime.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_50.sh" <<'RELEASE_STAGE_deep_50'
+          python scripts/generate_dashboard_runtime.py
+          RELEASE_STAGE_deep_50
+          python scripts/collector_result.py run --name deep_50 --required \
+            --output "$RUNNER_TEMP/release-results/deep_50.json" -- bash -e "$RUNNER_TEMP/deep_50.sh"
 
       # =========================
       # JARVIS AGENTS + SAFE AUTOFIX
@@ -483,11 +693,14 @@ jobs:
           JARVIS_AGENTS_FORCE: ${{ inputs.agents }}
           JARVIS_AUTOFIX: ${{ inputs.autofix }}
         run: |
+          cat > "$RUNNER_TEMP/deep_51.sh" <<'RELEASE_STAGE_deep_51'
           echo "JARVIS_AGENTS_FORCE=${JARVIS_AGENTS_FORCE}"
           echo "JARVIS_AUTOFIX=${JARVIS_AUTOFIX}"
 
           python scripts/run_jarvis_agents_safe_autofix.py
-
+          RELEASE_STAGE_deep_51
+          python scripts/collector_result.py run --name deep_51 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_51.json" -- bash -e "$RUNNER_TEMP/deep_51.sh"
       # =========================
       # POST AUTOFIX GRAPH REBUILD
       # =========================
@@ -495,6 +708,7 @@ jobs:
       - name: Rebuild Obsidian graph after Safe Auto-Fix
         continue-on-error: true
         run: |
+          cat > "$RUNNER_TEMP/deep_52.sh" <<'RELEASE_STAGE_deep_52'
           if [ -f scripts/normalize_obsidian_links.py ]; then
             python scripts/normalize_obsidian_links.py
           fi
@@ -508,7 +722,9 @@ jobs:
           if [ -f scripts/build_team_hubs.py ]; then
             python -u scripts/build_team_hubs.py
           fi
-
+          RELEASE_STAGE_deep_52
+          python scripts/collector_result.py run --name deep_52 --optional \
+            --output "$RUNNER_TEMP/release-results/deep_52.json" -- bash -e "$RUNNER_TEMP/deep_52.sh"
       # =========================
       # FINAL RUNTIME
       # =========================
@@ -516,17 +732,28 @@ jobs:
       - name: Generate final dashboard runtime after Auto-Fix
         timeout-minutes: 10
         run: |
+          cat > "$RUNNER_TEMP/deep_53.sh" <<'RELEASE_STAGE_deep_53'
           python -u scripts/health_check_v2.py
           python scripts/generate_dashboard_runtime.py
-
+          RELEASE_STAGE_deep_53
+          python scripts/collector_result.py run --name deep_53 --required \
+            --output "$RUNNER_TEMP/release-results/deep_53.json" -- bash -e "$RUNNER_TEMP/deep_53.sh"
       - name: Refresh typed ops plan and conditional Gemini escalation
         run: |
+          cat > "$RUNNER_TEMP/deep_54.sh" <<'RELEASE_STAGE_deep_54'
           python -u scripts/run_jarvis_agents.py --force
           python -u scripts/gemini_escalation.py
           python -u scripts/build_team_improvement.py
-
+          RELEASE_STAGE_deep_54
+          python scripts/collector_result.py run --name deep_54 --required \
+            --output "$RUNNER_TEMP/release-results/deep_54.json" -- bash -e "$RUNNER_TEMP/deep_54.sh"
       - name: 최종 커머스·운영 heartbeat 안전 검증
-        run: python -u scripts/validate_commerce_architecture.py --require-ops-runtime
+        run: |
+          cat > "$RUNNER_TEMP/deep_55.sh" <<'RELEASE_STAGE_deep_55'
+          python -u scripts/validate_commerce_architecture.py --require-ops-runtime
+          RELEASE_STAGE_deep_55
+          python scripts/collector_result.py run --name deep_55 --required \
+            --output "$RUNNER_TEMP/release-results/deep_55.json" -- bash -e "$RUNNER_TEMP/deep_55.sh"
 
       # =========================
       # AUTOFIX REPORT VALIDATION
@@ -534,6 +761,7 @@ jobs:
 
       - name: Validate Safe Auto-Fix report and remediation ledger
         run: |
+          cat > "$RUNNER_TEMP/deep_56.sh" <<'RELEASE_STAGE_deep_56'
           python -m json.tool data/agents/autofix_report.json >/dev/null
           python -m json.tool data/agents/remediation_state.json >/dev/null
           python - <<'PY'
@@ -552,13 +780,16 @@ jobs:
               assert int(issue.get("detected_runs") or 0) >= 1
           print("Safe Auto-Fix report and remediation ledger OK")
           PY
-
+          RELEASE_STAGE_deep_56
+          python scripts/collector_result.py run --name deep_56 --required \
+            --output "$RUNNER_TEMP/release-results/deep_56.json" -- bash -e "$RUNNER_TEMP/deep_56.sh"
       # =========================
       # REAL-DATA VALIDATION
       # =========================
 
       - name: Validate real-data artifacts
         run: |
+          cat > "$RUNNER_TEMP/deep_57.sh" <<'RELEASE_STAGE_deep_57'
           python -m json.tool data/knowledge/real_sources.json >/dev/null
           python -m json.tool data/knowledge/training_status.json >/dev/null
           python -m json.tool data/dashboard_runtime.json >/dev/null
@@ -602,15 +833,91 @@ jobs:
 
           print("Validation OK")
           PY
-
+          RELEASE_STAGE_deep_57
+          python scripts/collector_result.py run --name deep_57 --required \
+            --output "$RUNNER_TEMP/release-results/deep_57.json" -- bash -e "$RUNNER_TEMP/deep_57.sh"
       # =========================
       # COMMIT & PUSH
       # =========================
 
+      - name: Aggregate actual Deep outcomes before publication
+        id: release_outcomes
+        if: always()
+        run: |
+          python scripts/collector_result.py aggregate --results "$RUNNER_TEMP/release-results" \
+            --report data/agents/deep_run_results.json --runtime data/dashboard_runtime.json \
+            --expected deep_01:optional \
+            --expected deep_02:optional \
+            --expected deep_03:optional \
+            --expected deep_04:optional \
+            --expected deep_05:optional \
+            --expected deep_06:optional \
+            --expected deep_07:optional \
+            --expected deep_08:optional \
+            --expected deep_09:optional \
+            --expected deep_10:optional \
+            --expected deep_11:optional \
+            --expected deep_12:optional \
+            --expected deep_13:optional \
+            --expected deep_14:optional \
+            --expected deep_15:optional \
+            --expected deep_16:optional \
+            --expected deep_17:required \
+            --expected deep_18:optional \
+            --expected deep_19:optional \
+            --expected deep_20:required \
+            --expected deep_21:optional \
+            --expected deep_22:required \
+            --expected deep_23:required \
+            --expected deep_24:optional \
+            --expected deep_25:optional \
+            --expected deep_26:required \
+            --expected deep_27:optional \
+            --expected deep_28:optional \
+            --expected deep_29:optional \
+            --expected deep_30:optional \
+            --expected deep_31:optional \
+            --expected deep_32:optional \
+            --expected deep_33:optional \
+            --expected deep_34:required \
+            --expected deep_35:required \
+            --expected deep_36:optional \
+            --expected deep_37:required \
+            --expected deep_38:required \
+            --expected deep_39:optional \
+            --expected deep_40:optional \
+            --expected deep_41:required \
+            --expected deep_42:optional \
+            --expected deep_43:optional \
+            --expected deep_44:optional \
+            --expected deep_45:optional \
+            --expected deep_46:optional \
+            --expected deep_47:optional \
+            --expected deep_48:required \
+            --expected deep_49:optional \
+            --expected deep_50:required \
+            --expected deep_51:optional \
+            --expected deep_52:optional \
+            --expected deep_53:required \
+            --expected deep_54:required \
+            --expected deep_55:required \
+            --expected deep_56:required \
+            --expected deep_57:required
+
+      - name: Required Deep candidate release quality
+        id: release_quality
+        if: always()
+        run: |
+          python scripts/check_release_quality.py --phase candidate \
+            --collector-report data/agents/deep_run_results.json \
+            --report data/agents/release_quality_candidate.json
+
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
-        if: success()
+        if: success() && steps.release_outcomes.outcome == 'success' && steps.release_quality.outcome == 'success'
         uses: ./.github/actions/publish
         with:
+          collector-report: data/agents/deep_run_results.json
+          execution-id: ${{ github.run_id }}:${{ github.run_attempt }}
           paths: data obsidian
           # 최종 runtime·운영 계획·팀 개선 집계를 위에서 이미 만들고
           # 정합성까지 검사했다. 공통 발행 액션이 runtime을 또 만들면
@@ -627,6 +934,9 @@ jobs:
         run: |
           echo "JARVIS Deep Analysis finished."
           echo "Workflow: ${{ job.status }}"
+          if [ -f data/agents/deep_run_results.json ]; then
+            python -m json.tool data/agents/deep_run_results.json >> "$GITHUB_STEP_SUMMARY"
+          fi
 
           if [ -f data/agents/autofix_report.json ]; then
             echo "Safe Auto-Fix report:"
@@ -644,49 +954,3 @@ jobs:
               print("report read failed:", e)
           PY
           fi
-
-      # =========================
-      # FINAL FAILURE CHECK
-      # =========================
-
-      # job.status 만 보면 이 검사는 항상 통과한다.
-      # 이 워크플로는 continue-on-error 단계가 30개 넘고,
-      # 그런 실패는 job.status 를 바꾸지 않는다. 즉 수집기가 전부 죽은
-      # 회차도 초록으로 보고됐다. 이번 실행의 단계 결과를 직접 읽어 판정한다.
-      # 발행은 앞에서 끝났으므로 자료는 남고, 보고만 사실대로 바뀜다.
-      - name: 앞 단계 실패 확인
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -e
-
-          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/attempts/${{ github.run_attempt }}/jobs" \
-            --jq '.jobs[] | select(.status=="completed" or .status=="in_progress") | .steps[]? | select(.conclusion=="failure") | .name' \
-            > failed_steps.txt || true
-
-          count=$(wc -l < failed_steps.txt | tr -d ' ')
-
-          if [ "$count" != "0" ]; then
-            echo "::warning::실패한 단계 ${count}개"
-            sed 's/^/  - /' failed_steps.txt
-            {
-              echo "### 실패한 단계 ${count}개"
-              sed 's/^/- /' failed_steps.txt
-            } >> "$GITHUB_STEP_SUMMARY"
-          fi
-
-          # 수집기 하나가 막힌 것과 파이프라인이 무너진 것은 다르다.
-          # 필수 단계 실패는 job 이 이미 잡고, 선택 단계는 여러 개가
-          # 동시에 죽을 때만 실패로 본다.
-          if [ "${{ job.status }}" != "success" ]; then
-            echo "::error::필수 단계가 실패했다. 커밋은 마쳤으니 자료는 남아 있다."
-            exit 1
-          fi
-
-          if [ "$count" -ge 5 ]; then
-            echo "::error::선택 단계 ${count}개가 한꺼번에 실패했다. 수집 경로를 점검해야 한다."
-            exit 1
-          fi
-
-          echo "필수 단계 정상 (선택 단계 실패 ${count}개)"

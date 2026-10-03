@@ -378,6 +378,7 @@ nav a{font-size:12px;}
 <h3><span class="team-h3"><img class="team-h3-img" src="images/jarvis.png" alt="JARVIS" width="40" height="40">JARVIS 팀 현황<span id="updated-at" class="team-h3-when">동기화 확인 중…</span></span><span id="team-updated" style="font-size:11px;letter-spacing:0;text-transform:none;color:#6e7681;"></span></h3>
 <div class="team-sub">각 팀의 현재 상태 · 경고 · 다음 조치를 한 곳에서 관리합니다.</div>
 <div class="team-meta" id="team-meta"></div>
+<div id="pipeline-health" class="team-sub" role="status">필수·선택 실행 증적 확인 중</div>
 <ul class="team-list" id="team-list">
 <li class="team-row"><div class="team-body"><div class="team-summary">팀 현황을 불러오는 중…</div></div></li>
 </ul>
@@ -842,6 +843,15 @@ return (t.getMonth()+1)+'월 '+t.getDate()+'일';
 function renderTeams(d){
 const list=$('team-list'); if(!list) return;
 const teams=Array.isArray(d.teams)?d.teams:[];
+const healthEl=$('pipeline-health');
+if(healthEl){
+  const health=d.pipeline_health;
+  const labels={passed:'정상',pass:'정상',ok:'정상',success:'정상',degraded:'일부 실패·기존 데이터 사용',failed:'필수 처리 실패·발행 차단',blocked:'필수 처리 실패·발행 차단'};
+  const known=health && Object.prototype.hasOwnProperty.call(labels,health.status);
+  healthEl.textContent=known ? ('실행 품질: '+labels[health.status]+' · 선택 실패 '+Number(health.optional_failure_count||0)+'건') : '실행 품질: 현재 회차 증적 미기록(정상으로 추정하지 않음)';
+  healthEl.style.color=known && ['failed','blocked'].includes(health.status)?'#f85149':known && health.status==='degraded'?'#d29922':'#8b949e';
+}
+
 
 // 비서실장은 teams 배열에 없고 d.secretary 로 따로 온다. 항상 최상단이다.
 // 이미지 파일은 images/teams/secretary.png 를 우선 사용하고, 없으면 JARVIS 기본 아이콘으로 대체한다.
