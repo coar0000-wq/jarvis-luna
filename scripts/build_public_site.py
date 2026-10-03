@@ -55,6 +55,10 @@ def safe_scalar(value):
             u = urlsplit(value.strip())
             if u.scheme not in {'http','https'} or u.username or u.password or u.hostname in {'localhost','127.0.0.1','::1'}:
                 return None
+        # Allowed display fields can still embed private billing/model details.
+        # Retain commerce counts, but omit backend evaluation tokens/cost/usage.
+        value = re.sub(r'\s*·\s*(?:Jev|TypeSafe)\s*판정\s*\d+건(?:\([^)]*\))?', '', value)
+        value = re.sub(r'\bdata/(?:manual|typesafe_call_log)/[^\s<>)]+', '[내부 원본 자료]', value)
         return value
     if value is None or isinstance(value, (bool,int,float)): return value
     return None

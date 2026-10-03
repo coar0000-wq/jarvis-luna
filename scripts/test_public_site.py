@@ -70,6 +70,14 @@ class PublicSiteTests(unittest.TestCase):
         self.assertNotIn('health',p);self.assertNotIn('remediation_state',p)
         self.assertEqual(p['pipeline_health'],{'status':'degraded'})
 
+    def test_free_text_billing_and_private_manual_paths_are_not_public(self):
+        data={'teams':[{'id':'listing','summary':'초안 준비 9/10 · Jev 판정 10건(입력 10,961토큰 · $0.0005, 무료 크레딧) · 영상 학습 40개',
+                        'action':'data/manual/inci_overrides.json 확인 대기'}]}
+        result=project(data,SCHEMAS['data/dashboard_runtime.json']);summary=result['teams'][0]['summary']
+        self.assertEqual(summary,'초안 준비 9/10 · 영상 학습 40개')
+        for value in ('Jev','토큰','$0.0005','무료 크레딧','data/manual'):
+            self.assertNotIn(value,json.dumps(result,ensure_ascii=False))
+
     def test_candidate_safety_is_preserved_without_internal_hashes(self):
         p=project({'candidate_count':1,'may_publish':False,'may_replace_operating_products':False,'operating_sha256':'private','items':[]},COMPARISON)
         self.assertFalse(p['may_publish']);self.assertFalse(p['may_replace_operating_products']);self.assertNotIn('operating_sha256',p)
