@@ -9,7 +9,7 @@
       "may_approve": false,
       "may_execute": false,
       "member_count": 1,
-      "payload_hash": "0aacdcf5a492e58827ec10fc2621524684ea5f5c1fe52baba98922d532286881",
+      "payload_hash": "44a474d266592f3c68082de4096d4fd9f66fbc8da8fa34e036a3319744431b8e",
       "reason": "원격 대상·인증 승인·커넥터 검증 필요",
       "status": "WAITING_APPROVAL",
       "target_configured": false
@@ -23,7 +23,7 @@
       "may_approve": false,
       "may_execute": false,
       "member_count": 1,
-      "payload_hash": "f8aced5e417973bbdd6c21a13add4399523992c39df61570f3b53ae12399d6f1",
+      "payload_hash": "3625061880d691c3d43a0394503c0527f15da6df660096761ec4a0668add94fc",
       "reason": "원격 대상·인증 승인·커넥터 검증 필요",
       "status": "WAITING_APPROVAL",
       "target_configured": false
@@ -37,7 +37,7 @@
       "may_approve": false,
       "may_execute": false,
       "member_count": 1,
-      "payload_hash": "2d377ac811684b0977bd857bc40b85496035d185a5f756ff1ef13e04fdc4245a",
+      "payload_hash": "67ee6e6b51ac1c3c7a0e136013a4860064bc488fbc18737a0f8238808cdc14a7",
       "reason": "원격 대상·인증 승인·커넥터 검증 필요",
       "status": "WAITING_APPROVAL",
       "target_configured": false
@@ -51,7 +51,7 @@
       "may_approve": false,
       "may_execute": false,
       "member_count": 1,
-      "payload_hash": "cbfa73bc1eae9d093dbef260363203fb8d0bdd4cd23d009ae5c2a3f467004c30",
+      "payload_hash": "80a6ac5e1e84e37127017b13f0edd89d0f9cd4a87a3dcd318203b045f0dc697b",
       "reason": "원격 대상·인증 승인·커넥터 검증 필요",
       "status": "WAITING_APPROVAL",
       "target_configured": false
@@ -65,7 +65,7 @@
       "may_approve": false,
       "may_execute": false,
       "member_count": 2,
-      "payload_hash": "2d6b30e9b6dcd6b3a5acfbf9b17b7fcf2ee76737719892d99fa93f9e0d4529a8",
+      "payload_hash": "4e67208127abcf5c86c399515888847d2e686578f892f23b5757d18800c1ad2f",
       "reason": "원격 대상·인증 승인·커넥터 검증 필요",
       "status": "WAITING_APPROVAL",
       "target_configured": false
@@ -84,13 +84,13 @@
   },
   "counts": {
     "approval_waiting": 5,
-    "events": 520,
+    "events": 604,
     "external_verified": 0,
-    "handoffs_accepted": 30,
-    "local_verified": 73,
+    "handoffs_accepted": 35,
+    "local_verified": 85,
     "source_recoveries_open": 4,
     "source_recoveries_verified": 6,
-    "tasks_total": 77,
+    "tasks_total": 89,
     "watchers_blocked": 1,
     "watchers_local": 2,
     "watchers_partial": 3,
@@ -151,7 +151,7 @@
     "training_performed": false,
     "verified_observations": 0
   },
-  "generated_at": "2026-10-04T13:29:32.186821+00:00",
+  "generated_at": "2026-10-04T17:51:39.743837+00:00",
   "organization": "기존 비서실장 > 11팀 팀장 > 전문 기능",
   "schema_version": 1,
   "source_recovery": {
@@ -184,7 +184,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
         "initial_source": "data/channel_candidates.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
         "owner": "channels",
         "receipt_id": null,
@@ -230,7 +230,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
         "initial_source": "data/obsidian_sync_status.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
         "owner": "graph",
         "receipt_id": null,
@@ -254,7 +254,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
         "initial_source": "data/institution_sources.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
         "owner": "institutions",
         "receipt_id": null,
@@ -278,7 +278,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
         "initial_source": "data/knowledge/real_sources.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
         "owner": "knowledge",
         "receipt_id": null,
@@ -406,148 +406,6 @@
     {
       "deadline": null,
       "depends_on": [],
-      "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_64ba496472b7081e57b57bec3aba32654a557b7438d983ecb50bdb1bdeded9d3",
-      "team": "design"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "878a8e514285ac54c3d861a30f841b932e1d0e893de80aaeaa778763df546af9",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_6acacd9efdb12cdde8707c0e640268715dff871c4fff9df30e568e305d817e6d",
-      "team": "knowledge"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_b3d630a2c391be39aaaee78123813acdb511eebc3a10903dfab2584ad0545c3f"
-      ],
-      "goal_id": "878a8e514285ac54c3d861a30f841b932e1d0e893de80aaeaa778763df546af9",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_b3d630a2c391be39aaaee78123813acdb511eebc3a10903dfab2584ad0545c3f",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_71c04896be6aaf19b62fe95f7dc2302fef0f22b4689363b5df2d4fb48f63477f",
-      "team": "channels"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_7b2341a7ef90e44f2b3099986308d646cf1b275ea625f0d75dfa69ced1f4473e",
-      "team": "robotics"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "ab3286bedfae1e2fbebaf97d2e47f5e28aea8167ebf76f6eb44ad3925ff3bc81",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "normal",
-      "state": "COMPLETED",
-      "task_id": "task_7b7f997a97b70d63b6b36295495f604a4abc810e10911cd2c0c8227e33fae0e4",
-      "team": "legal"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_7c40de06e04b9fdc4fd7998125838c6a6b1f81ff2d6300eb49d49bb2b218fa4a",
-      "team": "sourcing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_89c24a1c3453c9ea061ecc984ee87ebac27f1414f635eccbcd8cd8b28f478e69"
-      ],
-      "goal_id": "c2485ca05944f1d64f84c319dc1f674234aa2421bcbf20deac32a205c1ecf71c",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_89c24a1c3453c9ea061ecc984ee87ebac27f1414f635eccbcd8cd8b28f478e69",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_7d775b835c3e186bbb2020bb3b823df1360b5d87ec034c8eba7f27406761d41c",
-      "team": "pricing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_7d775b835c3e186bbb2020bb3b823df1360b5d87ec034c8eba7f27406761d41c"
-      ],
-      "goal_id": "c2485ca05944f1d64f84c319dc1f674234aa2421bcbf20deac32a205c1ecf71c",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_7d775b835c3e186bbb2020bb3b823df1360b5d87ec034c8eba7f27406761d41c",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_8063135dbc6bb559ce10d259ad4ecd6ca3a7262b1285f256891558cc8b01079e",
-      "team": "legal"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_8430ee451aa27686b56f99ef2af7b3a70934b772a1dc1c991aae8c0ffbf59213",
-      "team": "knowledge"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_c5646848c11f95d246f03241ff15c94ee990e05f8e37d74369f980bc68034d72"
-      ],
-      "goal_id": "c8c44029455a4d0c5013522db8ffd9782d21f7ede6ac3bc41902b5c966864534",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_c5646848c11f95d246f03241ff15c94ee990e05f8e37d74369f980bc68034d72",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_89b8198931f3228486e02a97b424d5e834c66f290404bca1db80d337a9007689",
-      "team": "pricing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_bfa4244daf18f54ec2bd08eaeed185075e45dc63dae9ea36b0b2ad6b0bf05bc6"
-      ],
-      "goal_id": "c2485ca05944f1d64f84c319dc1f674234aa2421bcbf20deac32a205c1ecf71c",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_bfa4244daf18f54ec2bd08eaeed185075e45dc63dae9ea36b0b2ad6b0bf05bc6",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_89c24a1c3453c9ea061ecc984ee87ebac27f1414f635eccbcd8cd8b28f478e69",
-      "team": "market"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
       "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
       "kind": "snapshot_report",
       "level": 2,
@@ -636,6 +494,32 @@
     {
       "deadline": null,
       "depends_on": [],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_9a2ecdf8e119c8961dd4f471e7a934566b8cb38986271c8c9d1ae5b3871b891c",
+      "team": "robotics"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_a29bf50e7173f143bdb8efd0bff6570f4bfc80511a4ed1c3d65c2e978992d318"
+      ],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_a29bf50e7173f143bdb8efd0bff6570f4bfc80511a4ed1c3d65c2e978992d318",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_9ac2f5ff56ea916e696cd305ec91c3c6d0bec0068d12c589c93c49a2f4290222",
+      "team": "pricing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
       "goal_id": "878a8e514285ac54c3d861a30f841b932e1d0e893de80aaeaa778763df546af9",
       "kind": "snapshot_report",
       "level": 2,
@@ -658,6 +542,34 @@
       "state": "COMPLETED",
       "task_id": "task_9ca9fdea47348c70f6172d5c28db308ac215e7f1c9d0bc5cac5dcb49b89b19a1",
       "team": "pricing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_d02bb13b2d38726e8ff9e39d7fdead4956937cb0648da9a991fa9ec281ddb39e"
+      ],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_d02bb13b2d38726e8ff9e39d7fdead4956937cb0648da9a991fa9ec281ddb39e",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_a0184f42a156650e6bed491457ed20a95e9c5c23fb1f2da8d0669966710940bb",
+      "team": "channels"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_b6a3684a5fe1f28118cf8e382c8a856de624b8ec1462b80969bb61ec58b002a7"
+      ],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_b6a3684a5fe1f28118cf8e382c8a856de624b8ec1462b80969bb61ec58b002a7",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_a29bf50e7173f143bdb8efd0bff6570f4bfc80511a4ed1c3d65c2e978992d318",
+      "team": "market"
     },
     {
       "deadline": null,
@@ -725,6 +637,30 @@
     },
     {
       "deadline": null,
+      "depends_on": [],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_b6a3684a5fe1f28118cf8e382c8a856de624b8ec1462b80969bb61ec58b002a7",
+      "team": "sourcing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_b7a1f5132be4836f67787d9878f0136bd7ca26ff094061ba56fb90ffe6dbba5d",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
       "depends_on": [
         "task_9ca9fdea47348c70f6172d5c28db308ac215e7f1c9d0bc5cac5dcb49b89b19a1"
       ],
@@ -775,6 +711,18 @@
     },
     {
       "deadline": null,
+      "depends_on": [],
+      "goal_id": "5207409122120090556fc705900e03d2422a8139f9d43174dd8f8d9aeb37602b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_c300e9c8be958714e0ffbd6f7002a5efe6a3da5af3ffb6db4e67c4cab3f5cf86",
+      "team": "channels"
+    },
+    {
+      "deadline": null,
       "depends_on": [
         "task_eade8f5f1ed78d4ea4147393d2fe97b17c1a7239e817377dd49a1b15684ba580"
       ],
@@ -812,6 +760,58 @@
       "state": "COMPLETED",
       "task_id": "task_c580386d7257e1d8db094588897c680f822f05e26a99e6f048a792e0be598a09",
       "team": "robotics"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_9ac2f5ff56ea916e696cd305ec91c3c6d0bec0068d12c589c93c49a2f4290222"
+      ],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_9ac2f5ff56ea916e696cd305ec91c3c6d0bec0068d12c589c93c49a2f4290222",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_c7165d6c2f4db4c4af37fc5e7880b29b7f0433e275793e6812d9b29c7dc28697",
+      "team": "legal"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_c7165d6c2f4db4c4af37fc5e7880b29b7f0433e275793e6812d9b29c7dc28697"
+      ],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_c7165d6c2f4db4c4af37fc5e7880b29b7f0433e275793e6812d9b29c7dc28697",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_d02bb13b2d38726e8ff9e39d7fdead4956937cb0648da9a991fa9ec281ddb39e",
+      "team": "listing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_e019b1f58ac7c187ee3703310d69de17b109505c1b6351b37d4a1fb7c45c2b12",
+      "team": "design"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_e20e17b74948626c5c2a60f19f4497c6d069678a7306e13fe7b912171c09cbf4",
+      "team": "graph"
     },
     {
       "deadline": null,
@@ -932,7 +932,7 @@
         "total_records": 6
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -971,7 +971,7 @@
         "total_records": 1073
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "PARTIAL_SOURCE_COVERAGE",
       "recovery": {
         "attempt_limit": 2,
@@ -987,7 +987,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
         "initial_source": "data/institution_sources.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
         "owner": "institutions",
         "receipt_id": null,
@@ -1012,7 +1012,7 @@
         "total_records": 40
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": null,
       "scope": null,
@@ -1030,7 +1030,7 @@
         "total_records": 10
       },
       "observation_kind": "local_derived_read",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1069,7 +1069,7 @@
         "total_records": 6
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1108,7 +1108,7 @@
         "total_records": 10
       },
       "observation_kind": "local_derived_read",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1147,7 +1147,7 @@
         "total_records": 66
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1186,7 +1186,7 @@
         "total_records": 78
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1215,7 +1215,7 @@
       "team": "design"
     },
     {
-      "captured_at": "2026-10-04T13:29:16.154112+00:00",
+      "captured_at": "2026-10-04T17:51:23.820424+00:00",
       "coverage": {
         "catalog_only": 0,
         "failed_sources": 3,
@@ -1225,7 +1225,7 @@
         "total_records": 7
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "PARTIAL_SOURCE_COVERAGE",
       "recovery": {
         "attempt_limit": 2,
@@ -1241,7 +1241,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
         "initial_source": "data/channel_candidates.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
         "owner": "channels",
         "receipt_id": null,
@@ -1266,7 +1266,7 @@
         "total_records": 1987
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "PARTIAL_SOURCE_COVERAGE",
       "recovery": {
         "attempt_limit": 2,
@@ -1282,7 +1282,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
         "initial_source": "data/knowledge/real_sources.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
         "owner": "knowledge",
         "receipt_id": null,
@@ -1300,7 +1300,7 @@
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1316,7 +1316,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
         "initial_source": "data/obsidian_sync_status.json",
-        "last_detected_at": "2026-10-04T13:29:32.186821+00:00",
+        "last_detected_at": "2026-10-04T17:51:39.743837+00:00",
         "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
         "owner": "graph",
         "receipt_id": null,
@@ -1331,7 +1331,7 @@
       "team": "graph"
     },
     {
-      "captured_at": "2026-10-04T13:28:59.684316+00:00",
+      "captured_at": "2026-10-04T17:51:07.256665+00:00",
       "coverage": {
         "catalog_only": 0,
         "failed_sources": 0,
@@ -1341,7 +1341,7 @@
         "total_records": 5
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-04T13:29:32.186821+00:00",
+      "observed_at": "2026-10-04T17:51:39.743837+00:00",
       "reason": "",
       "recovery": null,
       "scope": null,
