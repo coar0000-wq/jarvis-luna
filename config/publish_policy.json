@@ -156,7 +156,8 @@
     "data/publish_quality_report.json",
     "data/operations/",
     "data/daiso_real/shortlist_observations.json",
-    "data/daiso_real/.shortlist_observation_claim.json"
+    "data/daiso_real/.shortlist_observation_claim.json",
+    "data/publish_deletions.json"
   ],
   "deletion_manifest": "data/publish_deletions.json",
   "volatile_snapshot_containers": [

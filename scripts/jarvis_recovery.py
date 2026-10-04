@@ -22,18 +22,18 @@ SOURCES = {
 ALTERNATE = 'data/daiso_real/shortlist_observations.json'
 OWNERS = {t: 'graph' if t == 'secretary' else t for t in SOURCES}
 NEXT_ACTIONS = {
-    'sourcing': 'Refresh read-only product capture; validate schema and capture clock.',
-    'institutions': 'Refresh read-only institution capture; validate items and capture clock.',
-    'market': 'Refresh read-only trend capture; validate items and capture clock.',
-    'listing': 'Rebuild fixed local listing producer from verified inputs; approvals and legal clearance remain dependencies.',
-    'pricing': 'Refresh measured price capture; validate identity, KRW unit and capture clock.',
-    'legal': 'Rebuild fixed local legal producer; missing legal clearance is a dependency, not authority.',
-    'robotics': 'Refresh read-only robotics capture; validate schema and capture clock.',
-    'design': 'Refresh read-only design capture; validate references and capture clock.',
-    'channels': 'Rebuild fixed local channel producer; publishing approval remains a dependency.',
-    'knowledge': 'Refresh read-only knowledge capture; validate real-source schema and capture clock.',
-    'graph': 'Verify read-only sync capture and schema; missing authentication is a dependency, not authority.',
-    'secretary': 'Rebuild fixed local dashboard producer from verified workflow observations; validate observation clock.',
+    'sourcing': '정해진 활성 후보만 읽기 전용으로 재수집하고 실제 캡처시각 확인' ,
+    'institutions': '실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집',
+    'market': '공식 트렌드 자료를 허용 범위에서 재수집하고 실제 캡처시각 확인',
+    'listing': '검증된 입력으로 고정 산출물 재생성. 법률·판매 승인은 별도 대기',
+    'pricing': '실측 가격·정본 ID·원화 단위·실제 캡처시각 재확인',
+    'legal': '법률 파생물 입력 서명 재검증. 책임자·라벨·안전성 자료 의존성 유지',
+    'robotics': '설정된 공개 로보틱스 수집기를 재실행하고 실제 캡처시각 확인',
+    'design': '설정된 공개 디자인 피드를 재수집하고 참조·실제 캡처시각 확인',
+    'channels': '접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님',
+    'knowledge': '원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집',
+    'graph': '기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰',
+    'secretary': '실제 워크플로 관찰로 고정 대시보드 재생성 후 관찰시각 확인',
 }
 _HASH = re.compile(r'^[0-9a-f]{64}$')
 _CODE = re.compile(r'^[A-Z][A-Z0-9_]{0,99}$')
@@ -394,7 +394,10 @@ def project(state):
         row = {k: copy.deepcopy(e[k]) for k in ('recovery_id', 'episode', 'owner', 'source_team', 'source',
                'initial_source', 'current_source', 'task_id', 'blocker_codes', 'initial_evidence_hash', 'first_detected_at', 'last_detected_at',
                'status', 'attempts', 'escalation_code', 'receipt_id')}
-        row.update(attempt_limit=MAX_ATTEMPTS, next_action=NEXT_ACTIONS[e['source_team']],
+        next_action = ('실제 재관찰·영수증 검증 완료' if e['status'] == 'RECOVERED' else
+                       '비서실장 검토 필요. 자동 재시도 없음' if e['status'] == 'ESCALATED' else
+                       NEXT_ACTIONS[e['source_team']])
+        row.update(attempt_limit=MAX_ATTEMPTS, next_action=next_action,
                    execution_enabled=False, dependencies_are_not_execution_authority=True)
         episodes.append(row)
     return {'schema_version': 1, 'counters': copy.deepcopy(table['counters']), 'episodes': episodes}

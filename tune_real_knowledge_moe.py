@@ -28,6 +28,7 @@ import numpy as np
 #   검증 정확도 0.8800 / 학습 0.8740 으로 기존(0.8798 / 0.8739)과 같다.
 
 from train_real_knowledge import TOKEN_RE, label, load_records, softmax
+from scripts.moe_evaluation_history import publish_evaluation, safe_path
 
 # ── 2026-09-28 학습이 실제로 안 되고 있었다 ───────────────────────────────────────
 # 저장된 모델은 5,041건 전부를 ai-research 로 예측했다. 정확도 0.8675 는
@@ -169,7 +170,11 @@ def main() -> int:
     parser.add_argument("--report-out", type=Path, default=DEFAULT_REPORT)
     args = parser.parse_args()
     args.model_out = args.model_out.resolve()
-    args.report_out = args.report_out.resolve()
+    # Check before resolving so symlinks/junctions cannot disappear from view.
+    safe_path(ROOT, args.report_out.absolute().relative_to(ROOT).as_posix())
+    args.report_out = args.report_out.absolute()
+    if args.report_out != DEFAULT_REPORT:
+        parser.error("publication evidence requires the canonical --report-out")
 
     rows = load_records()
     labels = [label(row) for row in rows]
@@ -213,7 +218,7 @@ def main() -> int:
     np.savez_compressed(args.model_out, expert_weights=expert_w, expert_bias=expert_b, gate_weights=gate_w, gate_bias=gate_b, vocabulary=np.array(vocab), idf=idf, features=np.array(["tfidf-l2"]), classes=np.array(classes), num_experts=np.array([best["experts"]]), top_k=np.array([min(2, best["experts"])]), tuning_temperature=np.array([best["temperature"]]))
     promote = bool(args.promote) and effective
     report = {"updated_at": datetime.now(timezone.utc).isoformat(), "real_records": len(rows), "train_records": int(train_mask.sum()), "validation_records": int(valid_mask.sum()), "steps_per_candidate": args.steps, "features": f"TF-IDF + L2 (min_df {MIN_DF}, 어휘 {len(vocab)})", "class_weighting": "balanced", "search_space": {"experts": expert_values, "learning_rates": learning_rates, "l2_values": l2_values, "temperatures": temperatures}, "candidates": len(candidates), "best": best, "baseline_majority": baseline, "effective": effective, "verdict": verdict, "mean_gate_load": gate.mean(axis=0).round(6).tolist(), "model_file": str(args.model_out.relative_to(ROOT)), "promoted": promote, "note": "All candidates use only real records from training_corpus.jsonl; no synthetic data."}
-    args.report_out.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    publish_evaluation(ROOT, report)
     if args.promote and not effective:
         status_path = ROOT / "data/knowledge/training_status.json"
         status = json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists() else {}

@@ -534,6 +534,9 @@ def observe(root, previous=None, *, now=None, policy=None):
         watcher = {'watcher_id': 'watch:' + team, 'source_team': team,
                    'function': 'artifact_observation', 'is_agent': False,
                    'source': relative, 'status': 'BLOCKED', 'blockers': [],
+                   'scope': {'channels':'candidate_probes_only_not_registered_connectors',
+                             'institutions':'collected_records_with_provider_coverage',
+                             'knowledge':'genuine_captured_items_excluding_registered_catalog'}.get(team),
                    'observation_kind': 'local_derived_read' if team in LOCAL_TEAMS else 'source_capture',
                    'unconnected': ['orders', 'customer_activity', 'new_ai_tools']}
         old = state['sources'].get(team)

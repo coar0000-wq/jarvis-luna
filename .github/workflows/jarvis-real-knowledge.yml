@@ -137,6 +137,7 @@ jobs:
           # 워크플로는 계속 success 였다. 실패한 적이 없으니 아무도 못 봤다.
           paths: >-
             data/knowledge
+            data/publish_deletions.json
             data/obsidian_record_names.json
             data/dashboard_runtime.json
             obsidian

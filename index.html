@@ -1612,7 +1612,7 @@ function renderOperations(ops){
   const num=v=>Number.isInteger(v)&&v>=0?v.toLocaleString():'확인 전';
   const arr=v=>Array.isArray(v)?v.filter(x=>x&&typeof x==='object'&&!Array.isArray(x)):[];
   const level=v=>({'L1':'L1 읽기','L2':'L2 로컬','L3':'L3 조건부','L4':'L4 사람 승인 · 외부 초안'}[typeof v==='number'?'L'+v:v]||scalar(v));
-  const states={verified:'로컬 보고서 검증',local_verified:'로컬 파생 점검',completed:'로컬 보고서 검증',handoff_accepted:'인계 수락',accepted:'수락',blocked:'차단',watch_blocked:'감시 차단',ready:'등록 준비',waiting_approval:'승인 대기',local_only:'로컬 전용',gated:'조건 제한',baseline:'기준 관찰',no_change:'변경 없음',changed:'변경 관찰',cooldown:'재관찰 대기',awaiting_actual_observations:'실제 관찰 대기',approval_waiting:'승인 대기',draft:'초안',pending:'대기',partial:'부분 연결',waiting_source_recovery:'담당 팀 복구 진행',ready_local_verification:'실제 재관찰 검증 대기',recovered:'복구 검증 완료',escalated:'비서실장 검토 필요'};
+  const states={verified:'로컬 보고서 검증',local_verified:'로컬 파생 점검',completed:'로컬 보고서 검증',handoff_accepted:'인계 수락',accepted:'수락',blocked:'차단',watch_blocked:'감시 차단',ready:'등록 준비',waiting_approval:'승인 대기',local_only:'로컬 전용',gated:'조건 제한',baseline:'기준 관찰',no_change:'변경 없음',changed:'변경 관찰',cooldown:'재관찰 대기',awaiting_actual_observations:'실제 관찰 대기',approval_waiting:'승인 대기',draft:'초안',pending:'대기',partial:'부분 관찰',waiting_source_recovery:'담당 팀 복구 진행',ready_local_verification:'실제 재관찰 검증 대기',recovered:'복구 검증 완료',escalated:'비서실장 검토 필요'};
   const state=v=>{const key=String(v).toLowerCase();return states[key]?states[key]+' ('+scalar(v)+')':scalar(v);};
   const statusClass=v=>{const key=String(v).toLowerCase();return ['blocked','watch_blocked','failed','unconfigured','unavailable'].includes(key)?'ops-status ops-blocked':['verified','local_verified','completed','accepted','handoff_accepted'].includes(key)?'ops-status ops-ok':'ops-status';};
   const empty=(id,text)=>{const box=$(id);box.replaceChildren(el('p',text,'ops-muted'));};
@@ -1624,7 +1624,7 @@ function renderOperations(ops){
   }
   set('operations-status','마지막 보고: '+scalar(ops.generated_at)+' · 상태: '+scalar(ops.status)+' · 공개 읽기 전용');
   const counts=ops.counts||{},countBox=$('operations-counts');countBox.replaceChildren();
-  [['tasks_total','작업'],['local_verified','로컬 보고서 검증'],['external_verified','외부 실행 검증'],['handoffs_accepted','인계 수락'],['watchers_ready','소스 관찰 정상'],['watchers_partial','부분 연결'],['watchers_local','로컬 파생 점검'],['watchers_blocked','감시 차단'],['source_recoveries_verified','소스 복구 검증'],['source_recoveries_open','담당 팀 복구 대기'],['events','이벤트'],['approval_waiting','승인 대기']].forEach(([k,title])=>{const c=el('div',null,'ops-tile');c.append(el('span',title),el('strong',num(counts[k]),'ops-count'));countBox.append(c);});
+  [['tasks_total','작업'],['local_verified','로컬 보고서 검증'],['external_verified','외부 실행 검증'],['handoffs_accepted','인계 수락'],['watchers_ready','소스 관찰 정상'],['watchers_partial','부분 관찰'],['watchers_local','로컬 파생 점검'],['watchers_blocked','감시 차단'],['source_recoveries_verified','소스 복구 검증'],['source_recoveries_open','담당 팀 복구 대기'],['events','이벤트'],['approval_waiting','승인 대기']].forEach(([k,title])=>{const c=el('div',null,'ops-tile');c.append(el('span',title),el('strong',num(counts[k]),'ops-count'));countBox.append(c);});
   const engines=$('operations-engines');engines.replaceChildren();
   const reported=arr(ops.engines);
   if(!reported.length)engines.append(el('p','기능 엔진 상태 확인 전','ops-muted'));
@@ -1637,7 +1637,7 @@ function renderOperations(ops){
   const feedback=ops.feedback||{},fb=$('operations-feedback');fb.replaceChildren(el('h4','피드백'));
   fb.append(el('p',state(feedback.status)),el('p','검증된 관찰 '+num(feedback.verified_observations),'ops-muted'),el('p',feedback.training_performed===true?'학습 수행 보고 있음':'학습 수행 없음 또는 확인 전','ops-muted'));
   table('operations-tasks',['작업','팀','종류','단계','실제 상태'],arr(ops.tasks).map(t=>[scalar(t.task_id),scalar(t.team),scalar(t.kind),level(t.level),state(t.state)]));
-  const watcherScope=w=>w.observation_kind==='local_derived_read'?'로컬 파생 읽기 · 입력 서명 검증':(w.scope==='active_shopify_shortlist_only'?'활성 후보만 · ':'실제 소스 · ')+num((w.coverage||{}).fresh_records)+' / '+num((w.coverage||{}).total_records);
+  const watcherScope=w=>{if(w.observation_kind==='local_derived_read')return '로컬 파생 읽기 · 입력 서명 검증';const scope={active_shopify_shortlist_only:'활성 후보만',candidate_probes_only_not_registered_connectors:'후보 탐색 · 연동 등록 아님',collected_records_with_provider_coverage:'기관 관찰 자료',genuine_captured_items_excluding_registered_catalog:'진짜 캡처 항목 · 등록 카탈로그 제외'}[w.scope]||'실제 소스';const c=w.coverage||{};return scope+' · '+num(c.fresh_records)+' / '+num(c.total_records)+(c.failed_sources?' · 실패 공급원 '+num(c.failed_sources):'');};
   table('operations-watchers',['팀','실제 상태','검증 범위','차단 사유','캡처 또는 로컬 점검 시각','담당 팀 복구'],arr(ops.watchers).map(w=>[scalar(w.team),state(w.status),watcherScope(w),w.reason||'보고된 차단 없음',w.observation_kind==='local_derived_read'?'로컬 읽기: '+scalar(w.observed_at):scalar(w.captured_at),w.recovery?scalar(w.recovery.owner)+' · '+state(w.recovery.status):'현재 복구 작업 없음']));
   table('operations-recovery',['감시 소스','담당 팀','복구 상태','검증 시도','다음 조치'],arr((ops.source_recovery||{}).episodes).map(r=>[scalar(r.source_team),scalar(r.owner),state(r.status),num(r.attempts)+' / '+num(r.attempt_limit),scalar(r.next_action)]));
   const actions=$('operations-actions');actions.replaceChildren();

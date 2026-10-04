@@ -141,6 +141,9 @@ class OperationsPublicProjectionTests(unittest.TestCase):
         self.assertIn('인증 승인 필요', renderer)
         self.assertIn('로컬 보고서 검증', renderer)
         self.assertIn('renderOperations(d.operations)', html)
+        self.assertIn('후보 탐색 · 연동 등록 아님', renderer)
+        self.assertIn('진짜 캡처 항목 · 등록 카탈로그 제외', renderer)
+        self.assertIn('실패 공급원', renderer)
         for selector in ('operations-engines', 'operations-counts', 'operations-business', 'operations-actions', 'operations-recovery'):
             self.assertIn('id="' + selector + '"', html)
         for team in ('sourcing', 'listing', 'channels', 'institutions', 'market', 'pricing', 'legal',
