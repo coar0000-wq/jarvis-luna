@@ -98,6 +98,7 @@ jobs:
             python scripts/test_team_typesafe.py
             python scripts/test_typesafe_receipt.py
             python scripts/test_typesafe_wiring.py
+          python scripts/test_gate_signature_portability.py
             python scripts/test_build_artifact_graph_mermaid.py
             python scripts/test_self_improve.py
             python scripts/test_self_improve_replay.py

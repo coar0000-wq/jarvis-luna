@@ -91,8 +91,13 @@ def agent_input_signature(recommendations: list[dict]) -> dict[str, Any]:
             evidence = {"status": "missing_or_unreadable"}
         hashes[relative] = sha256_bytes(_canonical(evidence))
     sop = DATA / "manual" / "mocra_adverse_event_sop.md"
-    hashes["data/manual/mocra_adverse_event_sop.md"] = sha256_bytes(
-        sop.read_bytes() if sop.exists() else b"missing_or_unreadable")
+    try:
+        # Newline encoding is not legal meaning; real text and readability still bind.
+        sop_text = sop.read_text(encoding="utf-8-sig").replace("\r\n", "\n").replace("\r", "\n")
+        sop_evidence = {"status": "present", "text": sop_text}
+    except (OSError, UnicodeDecodeError):
+        sop_evidence = {"status": "missing_or_unreadable"}
+    hashes["data/manual/mocra_adverse_event_sop.md"] = sha256_bytes(_canonical(sop_evidence))
     return {"schema_version": 2, "semantic_sources": hashes,
             "recommendations_sha256": recommendation_signature(recommendations)}
 

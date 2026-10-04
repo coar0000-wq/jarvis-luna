@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-04T05:39:31.517536+00:00",
-  "source_gate_generated_at": "2026-10-04T05:39:30.988105+00:00",
+  "generated_at": "2026-10-04T05:55:18.831497+00:00",
+  "source_gate_generated_at": "2026-10-04T05:55:18.548334+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -32,7 +32,7 @@
         "1049285"
       ],
       "variant_count": 1,
-      "payload_hash": "68db244daa7dac96466a0cfa1e660664e4dbd67b72b5dcbb9c117aaf2757fc47",
+      "payload_hash": "be8babfaa0496e00b0bba4564b6f5e893a217d2f650dfdf7919ad87b2c957487",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000109",
         "products": [
@@ -135,18 +135,18 @@
             "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
             "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
             "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
-            "data/manual/mocra_adverse_event_sop.md": "acdd420328bf6be1c4d7dfebb31f50ed193a4fd7fbcba43c613565e7a727f6d7"
+            "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "aad0a7ceba1e507fc1268dab443819622aa6bc1433ac00406566721fae89f21c"
+        "gate_semantic_sha256": "a28a3c53ee923f20f6b1568178ccfbe759ffa6e2165cb58189df1502835056e7"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "68db244daa7dac96466a0cfa1e660664e4dbd67b72b5dcbb9c117aaf2757fc47"
+        "bound_payload_hash": "be8babfaa0496e00b0bba4564b6f5e893a217d2f650dfdf7919ad87b2c957487"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -177,7 +177,7 @@
         "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "49b81ccee647c5b376f802c081d4def25a708e9ebc9bb16b9a95fc6f8e34223f",
+      "payload_hash": "fa42c5b1aae53e734ab9ce9a8b2e9491f41485a7ca1e65c2003d1d83c0df1116",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000130",
         "products": [
@@ -280,18 +280,18 @@
             "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
             "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
             "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
-            "data/manual/mocra_adverse_event_sop.md": "acdd420328bf6be1c4d7dfebb31f50ed193a4fd7fbcba43c613565e7a727f6d7"
+            "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "aad0a7ceba1e507fc1268dab443819622aa6bc1433ac00406566721fae89f21c"
+        "gate_semantic_sha256": "a28a3c53ee923f20f6b1568178ccfbe759ffa6e2165cb58189df1502835056e7"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "49b81ccee647c5b376f802c081d4def25a708e9ebc9bb16b9a95fc6f8e34223f"
+        "bound_payload_hash": "fa42c5b1aae53e734ab9ce9a8b2e9491f41485a7ca1e65c2003d1d83c0df1116"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -322,7 +322,7 @@
         "1059834"
       ],
       "variant_count": 1,
-      "payload_hash": "557904d7e13ea7cbf4206d3d7663436f91644657eedb7cdf23ac0da34f01140c",
+      "payload_hash": "f4650b9f98f5d4f362315f38db9b7a9ca2f8301cf06570bb2f8f0bfc3c0a3a26",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000151",
         "products": [
@@ -425,18 +425,18 @@
             "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
             "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
             "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
-            "data/manual/mocra_adverse_event_sop.md": "acdd420328bf6be1c4d7dfebb31f50ed193a4fd7fbcba43c613565e7a727f6d7"
+            "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "aad0a7ceba1e507fc1268dab443819622aa6bc1433ac00406566721fae89f21c"
+        "gate_semantic_sha256": "a28a3c53ee923f20f6b1568178ccfbe759ffa6e2165cb58189df1502835056e7"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "557904d7e13ea7cbf4206d3d7663436f91644657eedb7cdf23ac0da34f01140c"
+        "bound_payload_hash": "f4650b9f98f5d4f362315f38db9b7a9ca2f8301cf06570bb2f8f0bfc3c0a3a26"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -467,7 +467,7 @@
         "1067498"
       ],
       "variant_count": 1,
-      "payload_hash": "d925506dd306f4ce057500d86b8db78011f3de22222258839f18269f84050504",
+      "payload_hash": "b76ccef4bf870c59375322a87621b0911f1f70c561c0892e119bf3b3beec3415",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000216",
         "products": [
@@ -570,18 +570,18 @@
             "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
             "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
             "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
-            "data/manual/mocra_adverse_event_sop.md": "acdd420328bf6be1c4d7dfebb31f50ed193a4fd7fbcba43c613565e7a727f6d7"
+            "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "aad0a7ceba1e507fc1268dab443819622aa6bc1433ac00406566721fae89f21c"
+        "gate_semantic_sha256": "a28a3c53ee923f20f6b1568178ccfbe759ffa6e2165cb58189df1502835056e7"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "d925506dd306f4ce057500d86b8db78011f3de22222258839f18269f84050504"
+        "bound_payload_hash": "b76ccef4bf870c59375322a87621b0911f1f70c561c0892e119bf3b3beec3415"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -614,7 +614,7 @@
         "1049276"
       ],
       "variant_count": 2,
-      "payload_hash": "57d7cfba614725bf3dd1adc7b841e322ecb072827be7234413fa521cb196e790",
+      "payload_hash": "bdab978e38ce99f782b50cf4111d216008f1ff70ab6021cd310be50002f01714",
       "immutablePayload": {
         "shopify_group_key": "VG-VT-REEDLE-SHOT",
         "products": [
@@ -763,18 +763,18 @@
             "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
             "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
             "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
-            "data/manual/mocra_adverse_event_sop.md": "acdd420328bf6be1c4d7dfebb31f50ed193a4fd7fbcba43c613565e7a727f6d7"
+            "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "aad0a7ceba1e507fc1268dab443819622aa6bc1433ac00406566721fae89f21c"
+        "gate_semantic_sha256": "a28a3c53ee923f20f6b1568178ccfbe759ffa6e2165cb58189df1502835056e7"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "57d7cfba614725bf3dd1adc7b841e322ecb072827be7234413fa521cb196e790"
+        "bound_payload_hash": "bdab978e38ce99f782b50cf4111d216008f1ff70ab6021cd310be50002f01714"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",

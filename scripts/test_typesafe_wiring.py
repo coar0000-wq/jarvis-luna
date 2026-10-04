@@ -30,6 +30,11 @@ class WiringTests(unittest.TestCase):
             self.assertEqual(doc['permissions']['actions'],'read')
             steps=job['steps'];bootstrap_step=next(s for s in steps if 'setup_typesafe_shared.py' in s.get('run',''))
             self.assertEqual(bootstrap_step['env']['GH_TOKEN'],'${{ github.token }}')
+            self.assertNotIn('TYPESAFE_BILLING_PROOF_PATH',env)
+            self.assertNotIn('runner.',str(env))
+            self.assertEqual(bootstrap_step['env']['TYPESAFE_BILLING_PROOF_PATH'],'${{ runner.temp }}/typesafe-billing-proof.json')
+            self.assertIn('GITHUB_ENV',bootstrap_step['run'])
+            self.assertLess(bootstrap_step['run'].index('GITHUB_ENV'),bootstrap_step['run'].index('setup_typesafe_shared.py'))
             run='\n'.join(s.get('run','') for s in steps)
             self.assertEqual(run.count('python scripts/evaluate_team_typesafe.py'),1)
             self.assertLess(run.index('evaluate_team_typesafe.py'),run.index('build_listing_gate.py'))
@@ -37,7 +42,7 @@ class WiringTests(unittest.TestCase):
             self.assertEqual(receipt['if'],'always()')
             self.assertEqual(receipt['with']['retention-days'],21)
             self.assertEqual(receipt['with']['path'],'${{ env.TYPESAFE_SHARED_LEDGER_PATH }}')
-        keys=('TYPESAFE_ORG_ID','TYPESAFE_BILLING_PROOF_JSON','TYPESAFE_BILLING_PROOF_PATH','TYPESAFE_SHARED_LEDGER_PATH','TYPESAFE_WORKFLOW_ID')
+        keys=('TYPESAFE_ORG_ID','TYPESAFE_BILLING_PROOF_JSON','TYPESAFE_SHARED_LEDGER_PATH','TYPESAFE_WORKFLOW_ID')
         for key in keys:self.assertEqual(envs[0][key],envs[1][key])
 
     def test_mandatory_tests_in_both_gates(self):

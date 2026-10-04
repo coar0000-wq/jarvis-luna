@@ -1,14 +1,14 @@
 {
   "agents_ops": {
-    "at": "2026-10-04T05:40:09.992058+00:00",
+    "at": "2026-10-04T05:56:58.213525+00:00",
     "risk": "medium",
     "task_count": 5
   },
   "automation_freshness": {
     "collection": {
-      "attempt_age_hours": 28.894,
+      "attempt_age_hours": 29.152,
       "attempt_stale": false,
-      "candidate_success_age_hours": 28.894,
+      "candidate_success_age_hours": 29.152,
       "candidates_new": 1,
       "candidates_updated": 0,
       "data_stale": true,
@@ -21,16 +21,16 @@
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "status": "success",
-      "success_age_hours": 124.853
+      "success_age_hours": 125.111
     },
     "heartbeat": {
-      "age_hours": 17.753,
+      "age_hours": 18.011,
       "delayed": true,
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
-      "reason": "SafeAutoFix heartbeat 지연 (17.8시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (18.0시간)",
       "status": "warning"
     },
     "workflow_observation_fresh": false,
@@ -476,7 +476,7 @@
     "source": "https://open.er-api.com/v6/latest/USD",
     "updated_at": "2026-10-03"
   },
-  "generated_at": "2026-10-04T14:40:09.872971+09:00",
+  "generated_at": "2026-10-04T14:55:39.627231+09:00",
   "global_channels": {
     "allure_media": [
       {
@@ -4930,7 +4930,7 @@
   },
   "global_channels_status": {
     "allure_media": {
-      "age_hours": 24.138,
+      "age_hours": 24.396,
       "collected_at": "2026-10-03T05:31:54.270806+00:00",
       "count": 30,
       "freshness_reason": "",
@@ -4945,7 +4945,7 @@
       "trust": "verified"
     },
     "amazon_best_sellers": {
-      "age_hours": 29.665,
+      "age_hours": 29.923,
       "collected_at": "2026-10-03T00:00:16.477735+00:00",
       "count": 46,
       "freshness_reason": "",
@@ -4959,7 +4959,7 @@
       "trust": "verified"
     },
     "amazon_movers_beauty": {
-      "age_hours": 29.665,
+      "age_hours": 29.923,
       "collected_at": "2026-10-03T00:00:16.479114+00:00",
       "count": 0,
       "freshness_reason": "",
@@ -4973,7 +4973,7 @@
       "trust": "none"
     },
     "amazon_new_beauty": {
-      "age_hours": 29.665,
+      "age_hours": 29.923,
       "collected_at": "2026-10-03T00:00:16.479473+00:00",
       "count": 46,
       "freshness_reason": "",
@@ -4987,7 +4987,7 @@
       "trust": "verified"
     },
     "google_trends_us": {
-      "age_hours": 17.95,
+      "age_hours": 18.208,
       "collected_at": "2026-10-03T11:43:10.737881+00:00",
       "count": 40,
       "freshness_reason": "",
@@ -5001,7 +5001,7 @@
       "trust": "verified"
     },
     "oliveyoung_us": {
-      "age_hours": 17.965,
+      "age_hours": 18.223,
       "collected_at": "2026-10-03T11:42:15.459821+00:00",
       "count": 60,
       "freshness_reason": "",
@@ -5015,7 +5015,7 @@
       "trust": "verified"
     },
     "open_beauty_facts": {
-      "age_hours": 17.965,
+      "age_hours": 18.223,
       "collected_at": "2026-10-03T11:42:14.985203+00:00",
       "count": 60,
       "freshness_reason": "",
@@ -5029,7 +5029,7 @@
       "trust": "verified"
     },
     "openfda_sunscreen": {
-      "age_hours": 24.138,
+      "age_hours": 24.396,
       "collected_at": "2026-10-03T05:31:54.270806+00:00",
       "count": 20,
       "freshness_reason": "",
@@ -5044,7 +5044,7 @@
       "trust": "verified"
     },
     "sephora": {
-      "age_hours": 29.665,
+      "age_hours": 29.923,
       "collected_at": "2026-10-03T00:00:16.480361+00:00",
       "count": 14,
       "freshness_reason": "",
@@ -5072,7 +5072,7 @@
       "trust": "unverified"
     },
     "sokoglam_us": {
-      "age_hours": 17.795,
+      "age_hours": 18.053,
       "collected_at": "2026-10-03T11:52:29.376541+00:00",
       "count": 60,
       "freshness_reason": "",
@@ -5100,7 +5100,7 @@
       "trust": "unverified"
     },
     "ulta_beauty": {
-      "age_hours": 29.665,
+      "age_hours": 29.923,
       "collected_at": "2026-10-03T00:00:16.480361+00:00",
       "count": 60,
       "freshness_reason": "",
@@ -5114,7 +5114,7 @@
       "trust": "verified"
     },
     "walmart_beauty": {
-      "age_hours": 450.346,
+      "age_hours": 450.604,
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "freshness_reason": "2026-09-15 이후 갱신 없음 (18.8일).",
@@ -5128,7 +5128,7 @@
       "trust": "stale"
     },
     "wikipedia_interest": {
-      "age_hours": 24.138,
+      "age_hours": 24.396,
       "collected_at": "2026-10-03T05:31:54.270806+00:00",
       "count": 8,
       "freshness_reason": "",
@@ -5316,7 +5316,7 @@
         "may_approve": false,
         "may_execute": false,
         "member_count": 1,
-        "payload_hash": "68db244daa7dac96466a0cfa1e660664e4dbd67b72b5dcbb9c117aaf2757fc47",
+        "payload_hash": "be8babfaa0496e00b0bba4564b6f5e893a217d2f650dfdf7919ad87b2c957487",
         "reason": "원격 대상·인증 승인·커넥터 검증 필요",
         "status": "WAITING_APPROVAL",
         "target_configured": false
@@ -5330,7 +5330,7 @@
         "may_approve": false,
         "may_execute": false,
         "member_count": 1,
-        "payload_hash": "49b81ccee647c5b376f802c081d4def25a708e9ebc9bb16b9a95fc6f8e34223f",
+        "payload_hash": "fa42c5b1aae53e734ab9ce9a8b2e9491f41485a7ca1e65c2003d1d83c0df1116",
         "reason": "원격 대상·인증 승인·커넥터 검증 필요",
         "status": "WAITING_APPROVAL",
         "target_configured": false
@@ -5344,7 +5344,7 @@
         "may_approve": false,
         "may_execute": false,
         "member_count": 1,
-        "payload_hash": "557904d7e13ea7cbf4206d3d7663436f91644657eedb7cdf23ac0da34f01140c",
+        "payload_hash": "f4650b9f98f5d4f362315f38db9b7a9ca2f8301cf06570bb2f8f0bfc3c0a3a26",
         "reason": "원격 대상·인증 승인·커넥터 검증 필요",
         "status": "WAITING_APPROVAL",
         "target_configured": false
@@ -5358,7 +5358,7 @@
         "may_approve": false,
         "may_execute": false,
         "member_count": 1,
-        "payload_hash": "d925506dd306f4ce057500d86b8db78011f3de22222258839f18269f84050504",
+        "payload_hash": "b76ccef4bf870c59375322a87621b0911f1f70c561c0892e119bf3b3beec3415",
         "reason": "원격 대상·인증 승인·커넥터 검증 필요",
         "status": "WAITING_APPROVAL",
         "target_configured": false
@@ -5372,7 +5372,7 @@
         "may_approve": false,
         "may_execute": false,
         "member_count": 2,
-        "payload_hash": "57d7cfba614725bf3dd1adc7b841e322ecb072827be7234413fa521cb196e790",
+        "payload_hash": "bdab978e38ce99f782b50cf4111d216008f1ff70ab6021cd310be50002f01714",
         "reason": "원격 대상·인증 승인·커넥터 검증 필요",
         "status": "WAITING_APPROVAL",
         "target_configured": false
@@ -5391,11 +5391,11 @@
     },
     "counts": {
       "approval_waiting": 5,
-      "events": 152,
+      "events": 228,
       "external_verified": 0,
-      "handoffs_accepted": 10,
-      "local_verified": 22,
-      "tasks_total": 22,
+      "handoffs_accepted": 15,
+      "local_verified": 33,
+      "tasks_total": 33,
       "watchers_blocked": 10,
       "watchers_ready": 2
     },
@@ -5454,11 +5454,39 @@
       "training_performed": false,
       "verified_observations": 0
     },
-    "generated_at": "2026-10-04T05:40:10.094121+00:00",
+    "generated_at": "2026-10-04T05:56:58.322835+00:00",
     "organization": "기존 비서실장 > 11팀 팀장 > 전문 기능",
     "schema_version": 1,
     "status": "local_only",
     "tasks": [
+      {
+        "deadline": null,
+        "depends_on": [
+          "task_7c40de06e04b9fdc4fd7998125838c6a6b1f81ff2d6300eb49d49bb2b218fa4a"
+        ],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": "task_7c40de06e04b9fdc4fd7998125838c6a6b1f81ff2d6300eb49d49bb2b218fa4a",
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_034efe15facd449dcef5d3a5451818d2532b43c30b0cdb925417c4143df4a2d8",
+        "team": "market"
+      },
+      {
+        "deadline": null,
+        "depends_on": [
+          "task_034efe15facd449dcef5d3a5451818d2532b43c30b0cdb925417c4143df4a2d8"
+        ],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": "task_034efe15facd449dcef5d3a5451818d2532b43c30b0cdb925417c4143df4a2d8",
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_19473bdd9aa9fa7ec390c9b542fc474635b9874c502011c69c71c4c1f82a85ed",
+        "team": "pricing"
+      },
       {
         "deadline": null,
         "depends_on": [],
@@ -5532,6 +5560,34 @@
         "state": "COMPLETED",
         "task_id": "task_32d103f9c464b17267d8dbc915567f6079d8b446eabf154876f69a72f01fbd14",
         "team": "robotics"
+      },
+      {
+        "deadline": null,
+        "depends_on": [
+          "task_f9c9cd4908f053d1ac4c29fd2c515f66552c53272f3d5166e33dedbeb9864267"
+        ],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": "task_f9c9cd4908f053d1ac4c29fd2c515f66552c53272f3d5166e33dedbeb9864267",
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_4130754c6d9e8bed79c6e7fed777d70ee806984702652eb88b641441722290e7",
+        "team": "listing"
+      },
+      {
+        "deadline": null,
+        "depends_on": [
+          "task_4130754c6d9e8bed79c6e7fed777d70ee806984702652eb88b641441722290e7"
+        ],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": "task_4130754c6d9e8bed79c6e7fed777d70ee806984702652eb88b641441722290e7",
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_478c5388474a1cca22afa58f3b2c3c33b21cf0ee0484b03222ead36e96a8b4a0",
+        "team": "channels"
       },
       {
         "deadline": null,
@@ -5613,6 +5669,54 @@
       },
       {
         "deadline": null,
+        "depends_on": [],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": null,
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_64ba496472b7081e57b57bec3aba32654a557b7438d983ecb50bdb1bdeded9d3",
+        "team": "design"
+      },
+      {
+        "deadline": null,
+        "depends_on": [],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": null,
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_7b2341a7ef90e44f2b3099986308d646cf1b275ea625f0d75dfa69ced1f4473e",
+        "team": "robotics"
+      },
+      {
+        "deadline": null,
+        "depends_on": [],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": null,
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_7c40de06e04b9fdc4fd7998125838c6a6b1f81ff2d6300eb49d49bb2b218fa4a",
+        "team": "sourcing"
+      },
+      {
+        "deadline": null,
+        "depends_on": [],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": null,
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_8430ee451aa27686b56f99ef2af7b3a70934b772a1dc1c991aae8c0ffbf59213",
+        "team": "knowledge"
+      },
+      {
+        "deadline": null,
         "depends_on": [
           "task_c5646848c11f95d246f03241ff15c94ee990e05f8e37d74369f980bc68034d72"
         ],
@@ -5652,6 +5756,18 @@
       {
         "deadline": null,
         "depends_on": [],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": null,
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_93299aa2984d37acc6b71f0b0d4ddb2c25497993aa6c2d3d5e2cc225c6c2c904",
+        "team": "graph"
+      },
+      {
+        "deadline": null,
+        "depends_on": [],
         "goal_id": "c8c44029455a4d0c5013522db8ffd9782d21f7ede6ac3bc41902b5c966864534",
         "kind": "snapshot_report",
         "level": 2,
@@ -5659,6 +5775,18 @@
         "priority": "high",
         "state": "COMPLETED",
         "task_id": "task_a4010e2ca7671631f67e1ccdce8b6186152c000b117169d4b396e1e297b443d2",
+        "team": "institutions"
+      },
+      {
+        "deadline": null,
+        "depends_on": [],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": null,
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_bf59d646cd62c7856170dddd829f78c3515bc77b685cb71d6a1435f70a4194b2",
         "team": "institutions"
       },
       {
@@ -5728,6 +5856,20 @@
         "state": "COMPLETED",
         "task_id": "task_f70e4d5763b7535fc18f9b82bbb656f17488a9652815fcbec7bbeba1cbdd6063",
         "team": "listing"
+      },
+      {
+        "deadline": null,
+        "depends_on": [
+          "task_19473bdd9aa9fa7ec390c9b542fc474635b9874c502011c69c71c4c1f82a85ed"
+        ],
+        "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
+        "kind": "snapshot_report",
+        "level": 2,
+        "parent_id": "task_19473bdd9aa9fa7ec390c9b542fc474635b9874c502011c69c71c4c1f82a85ed",
+        "priority": "high",
+        "state": "COMPLETED",
+        "task_id": "task_f9c9cd4908f053d1ac4c29fd2c515f66552c53272f3d5166e33dedbeb9864267",
+        "team": "legal"
       },
       {
         "deadline": null,
@@ -6006,13 +6148,13 @@
   "schema_version": 1,
   "secretary": {
     "_근거": "JARVIS Deep Analysis가 2시간마다 남기는 Safe Auto-Fix 보고서를 heartbeat로 본다. 개별 파생 파일은 입력 무변경 시 mtime이 유지되므로 지연 판정에 쓰지 않는다.",
-    "action": "SafeAutoFix heartbeat 지연 (17.8시간)",
+    "action": "SafeAutoFix heartbeat 지연 (18.0시간)",
     "action_kind": "revalidate_only",
     "badge": "총괄",
     "collection_freshness": {
-      "attempt_age_hours": 28.894,
+      "attempt_age_hours": 29.152,
       "attempt_stale": false,
-      "candidate_success_age_hours": 28.894,
+      "candidate_success_age_hours": 29.152,
       "candidates_new": 1,
       "candidates_updated": 0,
       "data_stale": true,
@@ -6025,16 +6167,16 @@
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "status": "success",
-      "success_age_hours": 124.853
+      "success_age_hours": 125.111
     },
     "heartbeat": {
-      "age_hours": 17.753,
+      "age_hours": 18.011,
       "delayed": true,
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
-      "reason": "SafeAutoFix heartbeat 지연 (17.8시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (18.0시간)",
       "status": "warning"
     },
     "id": "secretary",
@@ -6076,7 +6218,7 @@
       {
         "갱신": "2026-10-02T17:37:28.124430+00:00",
         "단계": "고시 수집",
-        "몇시간전": 36.0,
+        "몇시간전": 36.3,
         "산출물": "gosi.json"
       },
       {
@@ -6094,11 +6236,11 @@
       {
         "갱신": "2026-10-03T11:53:10.648918+00:00",
         "단계": "리스팅 카피",
-        "몇시간전": 17.8,
+        "몇시간전": 18.0,
         "산출물": "shopify_listing_copy.json"
       },
       {
-        "갱신": "2026-10-04T05:39:30.988105+00:00",
+        "갱신": "2026-10-04T05:55:18.548334+00:00",
         "단계": "등록 게이트",
         "몇시간전": 0.0,
         "산출물": "listing_gate.json"
@@ -6106,7 +6248,7 @@
       {
         "갱신": "2026-10-04T05:39:30.228502+00:00",
         "단계": "법률 점검",
-        "몇시간전": 0.0,
+        "몇시간전": 0.3,
         "산출물": "legal_products.json"
       }
     ],
@@ -6718,9 +6860,9 @@
         "report": "data/daiso_real/candidate_comparison.json"
       },
       "collection_freshness": {
-        "attempt_age_hours": 28.894,
+        "attempt_age_hours": 29.152,
         "attempt_stale": false,
-        "candidate_success_age_hours": 28.894,
+        "candidate_success_age_hours": 29.152,
         "candidates_new": 1,
         "candidates_updated": 0,
         "data_stale": true,
@@ -6733,7 +6875,7 @@
         "last_success_at": "2026-09-29T00:48:58.284474+00:00",
         "reason": "신규 비교 후보 수집 정상 완료: 신규 1건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
         "status": "success",
-        "success_age_hours": 124.853
+        "success_age_hours": 125.111
       },
       "color": "#15803d",
       "glyph": "box",
@@ -7004,7 +7146,7 @@
       "summary": "AI 입력 9/10 · 초안 준비 9/10 · 공개 준비 0/10 · Action 5건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 9 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 10건(이번 회차 재사용 · 누적 실호출 510회 · 마지막 10-03 20:53) · 영상 학습 40개",
       "waiting": "카피 1건, 영문라벨 1건, 법률 1건 원본 자료 또는 무료 생성 경로 확보 대기 · MoCRA/FPLA 사업자·규제 정보 확인 대기 · Shopify Draft Action 5건 사람 승인 대기",
       "waiting_kind": "human_approval_required",
-      "when": "2026-10-04T05:39:30.988105+00:00",
+      "when": "2026-10-04T05:55:18.548334+00:00",
       "youtube_learning": {
         "insights": 40,
         "status": "학습 중",

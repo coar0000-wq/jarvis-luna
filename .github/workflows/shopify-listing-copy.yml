@@ -66,7 +66,6 @@ jobs:
       TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_SHARED_API_KEY }}
       TYPESAFE_ORG_ID: ${{ vars.TYPESAFE_ORG_ID }}
       TYPESAFE_BILLING_PROOF_JSON: ${{ secrets.TYPESAFE_BILLING_PROOF_JSON }}
-      TYPESAFE_BILLING_PROOF_PATH: ${{ runner.temp }}/typesafe-billing-proof.json
       TYPESAFE_SHARED_LEDGER_PATH: ${{ github.workspace }}/data/typesafe_shared_state.json
       TYPESAFE_WORKFLOW_ID: ${{ github.workflow }}:${{ github.run_id }}:${{ github.run_attempt }}
       TYPESAFE_MODEL: 'jev-latest'
@@ -99,7 +98,10 @@ jobs:
       - name: Stage TypeSafe billing proof and restore shared allowance
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python scripts/setup_typesafe_shared.py
+          TYPESAFE_BILLING_PROOF_PATH: ${{ runner.temp }}/typesafe-billing-proof.json
+        run: |
+          printf 'TYPESAFE_BILLING_PROOF_PATH=%s\n' "$TYPESAFE_BILLING_PROOF_PATH" >> "$GITHUB_ENV"
+          python scripts/setup_typesafe_shared.py
 
       # -------------------------------------------------------
       # Python 패키지

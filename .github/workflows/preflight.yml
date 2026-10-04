@@ -60,6 +60,7 @@ jobs:
           python scripts/test_team_typesafe.py
           python scripts/test_typesafe_receipt.py
           python scripts/test_typesafe_wiring.py
+          python scripts/test_gate_signature_portability.py
           python -B -m unittest discover -s scripts -p "test_jarvis*.py"
           python scripts/test_operations_public_projection.py
           python scripts/test_runtime_operations_wiring.py

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-04T05:39:30.988105+00:00",
+  "generated_at": "2026-10-04T05:55:18.548334+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -18,7 +18,7 @@
       "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
       "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
       "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
-      "data/manual/mocra_adverse_event_sop.md": "acdd420328bf6be1c4d7dfebb31f50ed193a4fd7fbcba43c613565e7a727f6d7"
+      "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
     "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
   },
