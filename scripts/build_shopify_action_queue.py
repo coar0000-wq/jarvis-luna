@@ -47,12 +47,18 @@ def digest(value: Any) -> str:
 
 
 def approval_valid(approval: dict, payload_hash: str) -> bool:
-    return bool(
-        approval.get("approved") is True
-        and approval.get("approved_payload_hash") == payload_hash
-        and str(approval.get("approved_by") or "").strip()
-        and str(approval.get("approved_at") or "").strip()
-    )
+    """No trusted human verifier is installed; editable JSON is not authority."""
+    return False
+
+
+def execution_context(document: dict, object_id: str) -> dict:
+    configured = (document.get("actions") or {}).get(object_id, {})
+    if not isinstance(configured, dict):
+        configured = {}
+    return {"target_shop": configured.get("target_shop"),
+            "operation": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+            "api_version": configured.get("api_version"),
+            "remote_preconditions": configured.get("remote_preconditions")}
 
 
 def main() -> int:
@@ -62,6 +68,7 @@ def main() -> int:
     master = load_json(D / "product_master.json", {}) or {}
     previous = load_json(OUT, {}) or {}
     approvals = load_json(APPROVALS, {}) or {}
+    context_doc = load_json(D / "manual" / "shopify_execution_context.json", {}) or {}
     master_by = {str(x.get("pd_no")): x for x in master.get("products") or []
                  if isinstance(x, dict)}
     ontology_groups = {str(x.get("group_id")): x for x in master.get("variant_groups") or []
@@ -70,6 +77,8 @@ def main() -> int:
                    if isinstance(x, dict)}
     product_rows = load_csv(D / "shopify_exports" / "products.csv")
     inventory_rows = load_csv(D / "shopify_exports" / "inventory.csv")
+    image_rows = load_csv(D / "shopify_exports" / "images.csv")
+    collection_rows = load_csv(D / "shopify_exports" / "collections.csv")
     product_by_cp = {str(x.get("Canonical Product ID") or ""): x for x in product_rows}
     inventory_by_cp = {str(x.get("Canonical Product ID") or ""): x for x in inventory_rows}
 
@@ -151,22 +160,36 @@ def main() -> int:
                 payload_hash = digest(payload)
 
         action_id = f"shopify:draft:{object_id}"
+        context = execution_context(context_doc, object_id)
+        payload.update({
+            "schema_version": 2,
+            "action_id": action_id,
+            "object_type": object_type,
+            "object_id": object_id,
+            "canonical_product_ids": cps,
+            "pd_nos": [str(p.get("pd_no") or "") for p in members],
+            "ontology_members": ([str(m) for m in ontology_groups[group_id].get(
+                "member_canonical_product_ids") or []] if group_id in ontology_groups else cps),
+            "excluded_members": excluded_members,
+            "images": [r for r in image_rows if r.get("Canonical Product ID") in cps],
+            "collections": [r for r in collection_rows if r.get("Product Handle") in
+                            {p.get("Handle") for p in products}],
+            "context": context,
+            "gate_input_signature": gate.get("agent_input_signature"),
+            "gate_semantic_sha256": digest(gate_signature.semantic_document(gate)),
+        })
+        payload_hash = digest(payload)
         approval = draft_approvals.get(object_id, {}) if isinstance(draft_approvals, dict) else {}
+        if not isinstance(approval, dict):
+            approval = {}
         previous_action = previous_by.get(action_id, {})
-        approved_now = approval_valid(
-            approval if isinstance(approval, dict) else {}, payload_hash)
-        # 이전 회차의 종료 상태를 그대로 이어받지 않는다.
-        # 예전에는 payload_hash 만 같으면 승인 증적 없이 DRAFT_CREATED 가
-        # 영구히 고정됐다. 산출물은 매 회차 공개 저장소에 다시 써지므로
-        # 그 값을 근거로 삼으면 자기승인이 된다.
-        if (previous_action.get("payload_hash") == payload_hash
-                and previous_action.get("state") in TERMINAL_STATES
-                and approved_now):
-            state = previous_action["state"]
-        elif approved_now:
-            state = "READY_TO_EXECUTE"
-        else:
-            state = "WAITING_HUMAN_APPROVAL"
+        # Legacy metadata is planning acknowledgement only, never L4 authority.
+        acknowledged = (approval.get("approved") is True
+                        and approval.get("approved_payload_hash") == payload_hash)
+        state = "WAITING_HUMAN_APPROVAL"
+        context_configured = bool(context["target_shop"] and context["api_version"]
+                                  and isinstance(context["remote_preconditions"], dict)
+                                  and context["remote_preconditions"])
 
         actions.append({
             "action_id": action_id,
@@ -179,17 +202,21 @@ def main() -> int:
             "pd_nos": [str(p.get("pd_no") or "") for p in members],
             "variant_count": len(members),
             "payload_hash": payload_hash,
+            "immutablePayload": payload,
+            "authenticated_authorization": False,
+            "authorization": {"status": "unverified", "verifier": "not_configured",
+                              "planning_acknowledged": acknowledged,
+                              "bound_payload_hash": payload_hash},
+            "target_configuration": "configured" if context_configured else "unconfigured_blocked",
             "state": state,
             "approval_required": True,
-            "approved_by": approval.get("approved_by", "") if isinstance(approval, dict) else "",
-            "approved_at": approval.get("approved_at", "") if isinstance(approval, dict) else "",
             "execution": {
                 "enabled": False,
-                "reason": "Shopify 쓰기 실행기는 별도 승인·자격증명·read-after-write 검증 후 연결",
+                "reason": "L4 external write blocked: no trusted human verifier; "
+                          + ("target context configured" if context_configured else "target unconfigured"),
             },
             "safety": payload["safety"],
-            "shopify_ids": previous_action.get("shopify_ids", {}),
-            "last_error": previous_action.get("last_error", ""),
+            "shopify_ids": {},
         })
 
     states: dict[str, int] = {}
@@ -198,13 +225,13 @@ def main() -> int:
     public_ready = [x for x in gate.get("items") or []
                     if isinstance(x, dict) and x.get("public_ready")]
     output = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_gate_generated_at": gate.get("generated_at"),
         "ontology_source": "data/product_master.json",
         "approval_source": "data/manual/shopify_action_approvals.json",
         "policy": {
-            "draft": "ready + exact payload hash human approval; draft/unpublished/inventory 0/deny only",
+            "draft": "L4 external write requires trusted authenticated human proof bound to immutablePayload; legacy approved is planning only; executor disabled",
             "public": "public_ready + legal approval + verified physical inventory + separate publish approval",
             "idempotency": "action_id + payload_hash",
         },

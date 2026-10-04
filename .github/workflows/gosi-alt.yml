@@ -106,6 +106,7 @@ jobs:
           python -u scripts/build_listing_gate.py
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/build_market_team.py
+          python -u scripts/prepare_commerce_export.py
           python -u scripts/export_shopify_operational.py
           python -u scripts/build_shopify_action_queue.py
 

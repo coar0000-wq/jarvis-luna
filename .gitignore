@@ -48,3 +48,13 @@ data/manual/mocra_profile.json
 
 # Shared evaluator lock is runtime-only, not publication data.
 data/typesafe_shared_state.json.lock
+
+# Operating locks and private authenticated target inputs.
+data/operations/**/*.lock
+data/operations/.state.lock
+data/operations/**/.operations-*
+data/operations/**/.execution-*
+data/manual/shopify_execution_context.json
+
+# The durable execution ledger is required; only transient locks/temp files are ignored.
+!data/operations/reports/.execution-ledger.json

@@ -28,6 +28,8 @@ CONSUMERS = frozenset(('JARVIS-Deep-Analysis.yml', 'shopify-listing-copy.yml'))
 RECEIPT = re.compile(r'typesafe-budget-receipt-([1-9][0-9]*)-([1-9][0-9]*)\Z')
 FILENAME = 'typesafe_shared_state.json'
 MAX_BYTES = 32 * 1024 * 1024
+RELEASE_SHA = 'caa10c73d581b163102a5fa69bdb49912a85a1f7'
+FULL_SHA = re.compile(r'[a-f0-9]{40}\Z')
 
 class RestoreDenied(ValueError):
     pass
@@ -81,9 +83,9 @@ def read_ledger(path, identity, missing_ok=False):
 def workflow_filename(run):
     return str(run.get('path', '')).split('@', 1)[0].rsplit('/', 1)[-1]
 
-def eligible_runs(runs, repo, current_run_id, introduced_at, current_run_attempt=1):
-    """Pure filtering of completed same-repository/main consumer runs."""
-    boundary = timestamp(introduced_at)
+def eligible_runs(runs, repo, current_run_id, head_classifications, current_run_attempt=1):
+    """Filter by release ancestry, never by creation/start timestamps."""
+    require(isinstance(head_classifications, dict))
     result = {}
     for run in runs:
         if (run.get('status') != 'completed' or run.get('head_branch') != 'main'
@@ -95,7 +97,7 @@ def eligible_runs(runs, repo, current_run_id, introduced_at, current_run_attempt
         require(isinstance(run.get('name'), str) and bool(run['name']))
         if str(run['id']) == str(current_run_id) and run['run_attempt'] >= current_run_attempt:
             continue
-        if timestamp(run.get('run_started_at', run['created_at'])) < boundary:
+        if classify_head(run.get('head_sha'), head_classifications) == 'legacy':
             continue
         key = (run['id'], run['run_attempt'])
         require(key not in result or result[key] == run)
@@ -207,19 +209,39 @@ class Gh:
         require(all(type(p.get('total_count')) is int and p['total_count'] == len(result) for p in pages))
         return result
 
-def introduction_time():
-    result = subprocess.run(['git', 'log', '--diff-filter=A', '--format=%cI', '--reverse', '--', 'scripts/typesafe_shared.py'],
-                            stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False, timeout=30)
-    require(result.returncode == 0)
-    lines = result.stdout.decode('utf-8').splitlines()
-    require(bool(lines))
-    timestamp(lines[0])
-    return lines[0]
+def classify_head(head_sha, classifications):
+    """Offline classifications are explicit evidence, not default-false hints."""
+    require(isinstance(head_sha, str) and FULL_SHA.fullmatch(head_sha) is not None)
+    require(isinstance(classifications, dict) and head_sha in classifications)
+    result = classifications[head_sha]
+    require(result in ('protected', 'legacy'))
+    return result
+
+def git_read(*args):
+    """Read-only git plumbing; never fetch, mutate refs, or write objects."""
+    env = dict(os.environ, GIT_NO_LAZY_FETCH='1', GIT_OPTIONAL_LOCKS='0')
+    return subprocess.run(['git', '--no-replace-objects', *args],
+                          stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                          check=False, timeout=30, env=env)
+
+def classify_ancestry(head_sha):
+    """Only a verified negative ancestor result proves legacy code."""
+    require(isinstance(head_sha, str) and FULL_SHA.fullmatch(head_sha) is not None)
+    shallow = git_read('rev-parse', '--is-shallow-repository')
+    require(shallow.returncode == 0 and shallow.stdout.strip() == b'false')
+    for sha in (RELEASE_SHA, head_sha):
+        commit = git_read('cat-file', '-t', sha)
+        require(commit.returncode == 0 and commit.stdout.strip() == b'commit')
+    # Verify complete reachable history before accepting exit 1 as legacy.
+    history = git_read('rev-list', '--missing=error', RELEASE_SHA, head_sha)
+    require(history.returncode == 0)
+    result = git_read('merge-base', '--is-ancestor', RELEASE_SHA, head_sha)
+    require(result.returncode in (0, 1) and not result.stdout and not result.stderr)
+    return 'protected' if result.returncode == 0 else 'legacy'
 
 def metadata(gh, current_run_id=None, current_run_attempt=1):
     info = gh.json('api', 'repos/' + gh.repo)
     require(info.get('full_name', '').lower() == gh.repo.lower())
-    introduced = introduction_time()
     runs = []
     for workflow in sorted(CONSUMERS):
         endpoint = ('repos/' + gh.repo + '/actions/workflows/' + workflow
@@ -230,8 +252,9 @@ def metadata(gh, current_run_id=None, current_run_attempt=1):
     attempts = {(item['id'], item['run_attempt']): item for item in runs}
     required = set()
     for item in runs:
-        if timestamp(item.get('run_started_at', item['created_at'])) >= timestamp(introduced):
-            required.update((item['id'], n) for n in range(1, item['run_attempt']))
+        require(type(item.get('id')) is int and item['id'] > 0)
+        require(type(item.get('run_attempt')) is int and item['run_attempt'] > 0)
+        required.update((item['id'], n) for n in range(1, item['run_attempt']))
     if current_run_id is not None:
         required.update((int(current_run_id), n) for n in range(1, current_run_attempt))
     for identifier, attempt in sorted(required):
@@ -244,16 +267,36 @@ def metadata(gh, current_run_id=None, current_run_attempt=1):
         attempts[(identifier, attempt)] = item
     runs = list(attempts.values())
     artifacts = gh.pages('repos/' + gh.repo + '/actions/artifacts?per_page=100', 'artifacts')
-    return {'repo': info['full_name'], 'introduced_at': introduced, 'runs': runs, 'artifacts': artifacts}
+    classifications = {}
+    for item in runs:
+        sha = item.get('head_sha')
+        require(isinstance(sha, str) and FULL_SHA.fullmatch(sha) is not None)
+        if sha not in classifications:
+            classifications[sha] = classify_ancestry(sha)
+    return {'repo': info['full_name'], 'protected_release_sha': RELEASE_SHA,
+            'head_classifications': classifications, 'runs': runs, 'artifacts': artifacts}
 
 def restore(ledger, repo, current_run_id, identity, meta, loader, current_run_attempt=1):
     require(meta.get('repo', '').lower() == repo.lower())
-    seen = {(item['id'], item['run_attempt']) for item in meta['runs']}
+    require(meta.get('protected_release_sha') == RELEASE_SHA)
+    classifications = meta.get('head_classifications')
+    require(isinstance(classifications, dict) and isinstance(meta.get('runs'), list))
+    seen = {}
+    for item in meta['runs']:
+        require(type(item.get('id')) is int and item['id'] > 0)
+        require(type(item.get('run_attempt')) is int and item['run_attempt'] > 0)
+        classify_head(item.get('head_sha'), classifications)
+        key = (item['id'], item['run_attempt'])
+        require(key not in seen or seen[key] == item)
+        seen[key] = item
     require(all((int(current_run_id), n) in seen for n in range(1, current_run_attempt)))
     for item in meta['runs']:
-        if timestamp(item.get('run_started_at', item['created_at'])) >= timestamp(meta['introduced_at']):
-            require(all((item['id'], n) in seen for n in range(1, item['run_attempt'])))
-    runs = eligible_runs(meta['runs'], repo, current_run_id, meta['introduced_at'], current_run_attempt)
+        require(all((item['id'], n) in seen for n in range(1, item['run_attempt'])))
+        if str(item['id']) == str(current_run_id) and item['run_attempt'] < current_run_attempt:
+            require(item.get('status') == 'completed' and item.get('head_branch') == 'main'
+                    and item.get('head_repository', {}).get('full_name', '').lower() == repo.lower()
+                    and workflow_filename(item) in CONSUMERS)
+    runs = eligible_runs(meta['runs'], repo, current_run_id, classifications, current_run_attempt)
     artifacts = select_artifacts(meta['artifacts'], runs)
     with shared.lock(Path(ledger)):
         main = read_ledger(ledger, identity, missing_ok=True)

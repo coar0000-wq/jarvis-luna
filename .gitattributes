@@ -1,0 +1,2 @@
+# Execution evidence binds actual bytes across Windows/Linux checkouts.
+data/operations/** -text

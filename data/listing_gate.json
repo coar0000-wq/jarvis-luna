@@ -1,16 +1,26 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-03T21:51:19.397934+00:00",
+  "generated_at": "2026-10-04T05:07:58.973503+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
+    "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "48a2d9076d3c3aae7fe1b8b5d98e6b349b1d24534b4d72ce80a837ba5063d86c",
-      "data/gosi.json": "e16db5775b542f72df7684d81fa9ae3e33edda54aa33ff0e21880cce859f9ffd",
-      "data/daiso_real/daiso_us_labels.json": "673e631cf8a9351d8239d2abbd9e934205eed4d973577e0641f70e62f7f6f6be",
-      "data/pricing_model.json": "add18ba44b5e841a60f56513e34087cd8d5dbef7d1c79f9aa0803cd357750966",
-      "data/legal_products.json": "cdacce6418fca1bce58b228bd3d7e823c43fb62b95e5c8518e6eb08be6ca3976"
+      "data/product_master.json": "43297b27573cb76e092970aed385feb35ef2a65f0c3c410f14f9c401be0d3574",
+      "data/gosi.json": "3d1ceffd7335b5958fa6fad38b318b3f101ecf710f71e38798b065ac68d7e9e9",
+      "data/daiso_real/daiso_us_labels.json": "437436f7a7b5b39f7be8878694a16990ea33184bf22ad09782b00e7c465e0ea9",
+      "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
+      "data/legal_products.json": "2dc3400e3a7212f8af15b8856dcf3ba377de38945016a4b5bc57bb045a42c124",
+      "data/daiso_real/shopify_s_recommendations.json": "88cfb104ff2a32fe09421bfa518c63232b5fb09dbb9191bc5d9282ade7dd2250",
+      "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
+      "data/shopify_shortlist.json": "68bdd15756e08739159731383696f088475640054e85f2def7edc4948f73c3f1",
+      "data/legal_full.json": "63eb268fccd6daf01f1fe6019a5dbf8f879109675dfe8db2232ec216f1a21bf4",
+      "data/mocra_readiness.json": "7c2b7f8dad9b355687185146691aaf991cfffc5037369ff219cfc8077fec9af0",
+      "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
+      "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
+      "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
+      "data/manual/mocra_adverse_event_sop.md": "acdd420328bf6be1c4d7dfebb31f50ed193a4fd7fbcba43c613565e7a727f6d7"
     },
-    "recommendations_sha256": "a9b0a523cac7359d3e9972011bc4aeac46cfc2b2ffabe304fbbad4c3a9135aff"
+    "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
   },
   "total": 10,
   "agent_ready": 9,
@@ -36,24 +46,18 @@
     "mode_counts": {
       "typesafe_carried": 10
     },
-    "typesafe_calls": 0,
+    "typesafe_calls": null,
     "free_credits_only": 10,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "calls": 0,
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "stopped": "",
-      "max_calls": 40,
-      "max_input_tokens": 60000,
-      "input_token_price_per_mtok_usd": 0.042,
-      "estimated_cost_usd": 0.0,
+      "stopped": "ledger_unavailable",
+      "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
       "purchased_credits": false
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
-    "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
+    "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 검증된 계정의 무료 크레딧 증빙과 공유 누적 한도 내에서만 가능하며 유료 override는 없다."
   },
   "count": 10,
   "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",

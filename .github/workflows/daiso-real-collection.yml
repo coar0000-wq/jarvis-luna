@@ -153,6 +153,7 @@ jobs:
         if: steps.collection.outputs.mode == 'collected'
         shell: bash
         run: |
+          python -u scripts/prepare_commerce_export.py
           python -u scripts/export_shopify_operational.py
           python -u scripts/build_shopify_action_queue.py
 

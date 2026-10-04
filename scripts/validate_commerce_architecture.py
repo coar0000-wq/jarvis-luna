@@ -31,6 +31,26 @@ def digest(value) -> str:
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
 
+def validate_action_boundary(action, expected_payload):
+    """Reconstructed source payload, not shallow queue approval flags."""
+    expected_hash = digest(expected_payload)
+    require(action.get("immutablePayload") == expected_payload, "immutablePayload/context mismatch")
+    require(action.get("payload_hash") == expected_hash, "bound payload hash mismatch")
+    require(action.get("state") == "WAITING_HUMAN_APPROVAL", "trusted verifier not configured")
+    require(action.get("authenticated_authorization") is False, "unauthenticated authority")
+    auth = action.get("authorization") or {}
+    require(auth.get("status") == "unverified" and auth.get("verifier") == "not_configured"
+          and auth.get("bound_payload_hash") == expected_hash, "authorization proof mismatch")
+    require((action.get("execution") or {}).get("enabled") is False, "executor must stay disabled")
+    require("approved_by" not in action and "approved_at" not in action, "private approver metadata")
+    context = expected_payload["context"]
+    configured = bool(context["target_shop"] and context["api_version"]
+                      and isinstance(context["remote_preconditions"], dict)
+                      and context["remote_preconditions"])
+    require(action.get("target_configuration") ==
+          ("configured" if configured else "unconfigured_blocked"), "target status mismatch")
+
+
 def validate_sourcing_card(sourcing, *, observed_workflow_failure=False):
     """Statistics are notices; only evidenced failure/staleness is an action."""
     require(bool(sourcing.get("notice")), "소싱 실행 통계 notice 누락")
@@ -178,7 +198,13 @@ def main() -> int:
     approvals_path = D / "manual" / "shopify_action_approvals.json"
     approvals = load(approvals_path) if approvals_path.exists() else {}
     draft_approvals = approvals.get("drafts") or {} if isinstance(approvals, dict) else {}
-    allowed_states = {"WAITING_HUMAN_APPROVAL", "READY_TO_EXECUTE", "DRAFT_CREATED", "VERIFIED"}
+    allowed_states = {"WAITING_HUMAN_APPROVAL"}
+    context_path = D / "manual" / "shopify_execution_context.json"
+    context_doc = load(context_path) if context_path.exists() else {}
+    with (export_dir / "images.csv").open(encoding="utf-8", newline="") as f:
+        image_payload_rows = list(csv.DictReader(f))
+    with (export_dir / "collections.csv").open(encoding="utf-8", newline="") as f:
+        collection_payload_rows = list(csv.DictReader(f))
     for action in draft_actions:
         ref = (str(action.get("object_type")), str(action.get("object_id")))
         members = expected_refs[ref]
@@ -204,24 +230,32 @@ def main() -> int:
             "safety": {"status": "draft", "published": False,
                        "inventory": 0, "inventory_policy": "deny"},
         }
-        # 그룹에서 빠진 멤버가 있으면 승인 대상이 달라진다. 해시에 포함한다.
-        excluded = list(action.get("excluded_members") or [])
-        if excluded:
-            payload["excluded_members"] = excluded
-        expected_hash = digest(payload)
-        require(action.get("payload_hash") == expected_hash, "Shopify Action payload hash 불일치")
-
-        # 승인 증적은 실행 직전뿐 아니라 종료 상태에도 요구한다.
-        # 예전에는 DRAFT_CREATED 에 shopify_ids 만 있으면 통과해서,
-        # 공개 저장소에 그 두 값만 써넣으면 승인 없이 완료로 굳었다.
-        if action.get("state") in {"READY_TO_EXECUTE", "DRAFT_CREATED", "VERIFIED"}:
-            approval = draft_approvals.get(str(action.get("object_id")), {})
-            require(approval.get("approved") is True
-                    and approval.get("approved_payload_hash") == expected_hash
-                    and approval.get("approved_by") and approval.get("approved_at"),
-                    f"{action.get('state')} Action의 정확한 사람 승인 증적 누락")
-        if action.get("state") in {"DRAFT_CREATED", "VERIFIED"}:
-            require(bool(action.get("shopify_ids")), "완료 Action의 Shopify ID 증적 누락")
+        gid = str((members[0].get("variant") or {}).get("group_id") or
+                  f"VG-{members[0].get('canonical_product_id')}")
+        require(action.get("shopify_group_key") == gid, "group identity mismatch")
+        ontology_members = ([str(m) for m in actual_groups[gid].get(
+            "member_canonical_product_ids") or []] if gid in actual_groups else cps)
+        excluded = [cp for cp in ontology_members if cp not in cps]
+        require(action.get("excluded_members") == excluded, "excluded members mismatch")
+        configured = (context_doc.get("actions") or {}).get(ref[1], {})
+        if not isinstance(configured, dict):
+            configured = {}
+        context = {"target_shop": configured.get("target_shop"),
+                   "operation": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
+                   "api_version": configured.get("api_version"),
+                   "remote_preconditions": configured.get("remote_preconditions")}
+        payload.update({
+            "schema_version": 2, "action_id": action.get("action_id"),
+            "object_type": ref[0], "object_id": ref[1], "canonical_product_ids": cps,
+            "pd_nos": [str(p.get("pd_no") or "") for p in members],
+            "ontology_members": ontology_members, "excluded_members": excluded,
+            "images": [r for r in image_payload_rows if r.get("Canonical Product ID") in cps],
+            "collections": [r for r in collection_payload_rows if r.get("Product Handle") in
+                            {p.get("Handle") for p in products_payload}],
+            "context": context, "gate_input_signature": gate.get("agent_input_signature"),
+            "gate_semantic_sha256": digest(gate_signature.semantic_document(gate)),
+        })
+        validate_action_boundary(action, payload)
     require(action_queue.get("public_blocked") is True, "공개 Action 기본 차단이 해제됨")
     require(not action_queue.get("public_actions"), "검증되지 않은 공개 Action이 생성됨")
 

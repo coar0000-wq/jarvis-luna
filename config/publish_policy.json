@@ -82,6 +82,9 @@
       "--force"
     ],
     [
+      "scripts/run_jarvis_operations.py"
+    ],
+    [
       "scripts/build_team_improvement.py"
     ]
   ],
@@ -113,6 +116,15 @@
       "--inject-s"
     ],
     [
+      "scripts/build_shopify_shortlist.py"
+    ],
+    [
+      "scripts/build_mocra_readiness.py"
+    ],
+    [
+      "scripts/build_listing_gate.py"
+    ],
+    [
       "scripts/build_market_team.py"
     ],
     [
@@ -141,7 +153,8 @@
     "data/typesafe_team_advisory.json",
     "data/typesafe_shared_state.json",
     "data/typesafe_call_log/",
-    "data/publish_quality_report.json"
+    "data/publish_quality_report.json",
+    "data/operations/"
   ],
   "deletion_manifest": "data/publish_deletions.json",
   "volatile_snapshot_containers": [

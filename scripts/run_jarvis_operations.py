@@ -1,0 +1,320 @@
+#!/usr/bin/env python3
+"""Offline secretary-controlled operating loop, not an external business executor.
+
+Existing eleven teams, eight functions. Durable claims precede local dispatch;
+only actual hash-verified receipts establish completion. No model/API calls.
+"""
+from __future__ import annotations
+import argparse
+import copy
+import hashlib
+import json
+import os
+import tempfile
+from contextlib import contextmanager
+from pathlib import Path
+
+import jarvis_operations as core
+import jarvis_execution as execution
+import jarvis_feedback as feedback
+import jarvis_watch as watch
+
+ROOT = Path(__file__).resolve().parents[1]
+STATE = 'data/operations/state.json'
+BOARD = 'data/operations/board.json'
+LOCK = 'data/operations/.state.lock'
+POLICY = 'config/jarvis_operations_policy.json'
+CHAIN = dict(zip(('sourcing','market','pricing','legal','listing'),
+                 ('market','pricing','legal','listing','channels')))
+ENGINE_NAMES = {'manager':'Manager','router':'Router','task':'Task','handoff':'Handoff',
+    'watch':'Watch/Event','approval':'Approval','execution':'Execution','knowledge':'Knowledge/Feedback'}
+INPUTS = ('data/product_master.json','data/pricing_model.json','data/listing_gate.json',
+          'data/legal_full.json','data/mocra_readiness.json','data/shopify_shortlist.json')
+
+
+def read(root, relative, default=None):
+    file = execution._safe(root, relative)
+    if not file.exists():
+        return copy.deepcopy(default)
+    raw = file.read_bytes()
+    if len(raw) > 32 * 1024 * 1024:
+        raise ValueError('operation input size limit')
+    value = json.loads(raw)
+    core.canonical(value)
+    return value
+
+
+def atomic(root, relative, value):
+    if not (relative.startswith('data/operations/') or relative == 'data/dashboard_runtime.json'):
+        raise ValueError('operation write scope denied')
+    dest = execution._safe(root, relative)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest = execution._safe(root, relative)
+    fd, temp = tempfile.mkstemp(prefix='.operations-', dir=dest.parent)
+    try:
+        with os.fdopen(fd, 'wb') as stream:
+            stream.write((json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2,
+                                    allow_nan=False) + '\n').encode('utf-8'))
+            stream.flush()
+            os.fsync(stream.fileno())
+        execution._safe(root, relative)
+        os.replace(temp, dest)
+        if os.name != 'nt':
+            directory = os.open(dest.parent, os.O_RDONLY)
+            try:
+                os.fsync(directory)
+            finally:
+                os.close(directory)
+    finally:
+        if os.path.exists(temp):
+            os.unlink(temp)
+
+
+@contextmanager
+def transaction(root):
+    lock = execution._safe(root, LOCK)
+    lock.parent.mkdir(parents=True, exist_ok=True)
+    execution._safe(root, LOCK)
+    fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
+    try:
+        os.write(fd, b'operation transaction; stale lock requires reconciliation\n')
+        os.fsync(fd)
+        yield
+    finally:
+        os.close(fd)
+        lock.unlink()
+
+
+def semantic(value):
+    if isinstance(value, dict):
+        return {k: semantic(v) for k,v in value.items() if k not in ('generated_at','gate_generated_at')}
+    if isinstance(value, list):
+        return [semantic(v) for v in value]
+    return value
+
+
+def input_version(root):
+    return core.digest({name: semantic(read(root, name, None)) for name in INPUTS})
+
+
+def validate_state(root, state):
+    core.project_summary(state)
+    ledger = read(root, execution.ExecutionStore.filename, {}) or {}
+    if ledger.get('global_stop'):
+        raise ValueError('execution global stop; explicit reconciliation required')
+    for receipt in state['receipts'].values():
+        if not execution.validate_receipt(root, receipt):
+            raise ValueError('trusted execution ledger/output mismatch')
+    for task in state['tasks'].values():
+        if task.get('state') == 'COMPLETED' and not core._completion_valid(state, task):
+            raise ValueError('completion receipt missing or modified')
+    # A merged monotonic event stream cannot silently lose events/counters.
+    numbered = [v.get('sequence') for v in state['events'].values() if v.get('kind','').startswith(('TASK_','HANDOFF_'))]
+    if numbered and (any(type(n) is not int for n in numbered) or max(numbered) != state['sequence']
+                     or len(set(numbered)) != len(numbered) or len(numbered) != state['sequence']):
+        raise ValueError('operation event sequence collision/rollback')
+
+
+def canonical_members(root):
+    shortlist = read(root, 'data/shopify_shortlist.json', {}) or {}
+    allowed = {str(p) for p in shortlist.get('active_pd_nos') or []}
+    master = read(root, 'data/product_master.json', {}) or {}
+    return sorted({p['canonical_product_id'] for p in master.get('products') or []
+                   if isinstance(p,dict) and str(p.get('pd_no')) in allowed
+                   and isinstance(p.get('canonical_product_id'),str) and p['canonical_product_id']})
+
+
+def payload(team, version, members):
+    return {'teams':[team], 'input_version':version, 'purpose':'saved_snapshot_review_only',
+            'canonical_members':list(members)}
+
+
+def bootstrap(state, version, members):
+    goal = '사업 준비 스냅샷 검토 / ' + version[:16]
+    core.route_intent(goal, forced_teams=list(core.TEAMS))
+    for team in core.TEAMS:
+        if team in set(CHAIN.values()):
+            continue
+        core.create_task(state, goal=goal, team=team, kind='snapshot_report',
+                         payload=payload(team, version, members), priority='high',
+                         evidence={'input_version':version, 'scope':'local_report_not_sales_clearance'})
+    return goal
+
+
+def handoffs(state, version, goal, members):
+    for task in list(state['tasks'].values()):
+        if task.get('goal') != goal or task.get('state') != 'COMPLETED' or task['team'] not in CHAIN:
+            continue
+        team = CHAIN[task['team']]
+        proposal = core.propose_handoff(state, task['task_id'], team,
+            '검증된 로컬 보고서를 다음 기존 팀의 스냅샷 검토에 전달',
+            payload=payload(team, version, members), priority='high')
+        if state['handoffs'][proposal['proposal_id']]['status'] == 'PROPOSED':
+            core.accept_handoff(state, proposal['proposal_id'], actor='secretary')
+
+
+def approval_cards(root):
+    queue = read(root, 'data/shopify_action_queue.json', {}) or {}
+    cards = []
+    for action in queue.get('draft_actions', []):
+        if not isinstance(action, dict):
+            continue
+        bound = action.get('immutablePayload') or {}
+        context = bound.get('execution_context') or bound.get('context') or {}
+        if not context:
+            context = {k:bound.get(k) for k in ('target_shop','api_version','operation','remote_preconditions')}
+        cards.append({'action_id':str(action.get('action_id') or ''), 'kind':'shopify_create_draft',
+            'level':4, 'status':'WAITING_APPROVAL', 'may_approve':False,'may_execute':False,
+            'reason':'원격 대상·인증 승인·커넥터 검증 필요',
+            'member_count':len(action.get('canonical_product_ids') or action.get('members') or []),
+            'payload_hash':action.get('payload_hash'), 'target_configured':bool(context.get('target_shop')),
+            'before':'원격 상태 미검증', 'after':'Draft · 비공개 · 재고 0'})
+    return cards
+
+
+def summarize(root, state, observed, learned, now):
+    safe = core.project_summary(state)
+    tasks = safe.get('tasks') or []
+    watchers = [{**{k:v.get(k) for k in ('team','status','captured_at')},
+                 'reason': ', '.join(v.get('blockers') or [])} for v in observed['watchers']]
+    local_verified = sum(t.get('state') == 'COMPLETED' and t.get('level',4) <= 2 for t in tasks)
+    cards = approval_cards(root)
+    mocra = read(root, 'data/mocra_readiness.json', {}) or {}
+    def count(*keys):
+        for key in keys:
+            v = mocra.get(key)
+            if type(v) is int and v >= 0:
+                return v
+        return 0
+    # Explicit missing evidence is not manufactured business clearance.
+    business = {'ready':count('ready_count','ready'),'exempt':count('exempt_count','exempt'),
+                'total':count('total_checks','total_count','total'), 'sales_allowed':False,
+                'blockers':[]}
+    labels = {'responsible_person':'책임자 라벨 정보','safety_substantiation':'제품별 제조사 안전성 자료',
+              'label_fields':'필수 영문 라벨'}
+    for check in mocra.get('checks') or []:
+        if isinstance(check,dict) and check.get('status') not in ('ready','exempt'):
+            business['blockers'].append(labels.get(check.get('id'),'규제 근거 미완료'))
+    if not mocra:
+        business['blockers'].append('사업 준비 근거 없음')
+    engines = []
+    details = {'manager':'기존 비서실장 제어', 'router':'기존 11팀으로 작업 라우팅',
+       'task':'의존성·한도·실행증거 기반 상태', 'handoff':'비서실장만 팀 간 인계 수락',
+       'watch':'실제 캡처 시각·의미 있는 변경만 관찰',
+       'approval':'정확한 내용에 인증 승인 필요',
+       'execution':'L1 읽기·L2 로컬 보고서만 실행',
+       'knowledge':'결정·관계 기록, 실제 피드백 대기'}
+    for name, label in ENGINE_NAMES.items():
+        engines.append({'id':name,'name':label,'status':'gated' if name in ('approval','execution') else 'local_only',
+                        'detail':details[name]})
+    return {'schema_version':1,'generated_at':now,'status':'local_only',
+       'organization':'기존 비서실장 > 11팀 팀장 > 전문 기능', 'engines':engines,
+       'counts':{'tasks_total':len(tasks),'local_verified':local_verified,'external_verified':0,
+          'handoffs_accepted':sum(h.get('status') == 'ACCEPTED' for h in state['handoffs'].values()),
+          'watchers_ready':sum(w['status'] in ('BASELINE','NO_CHANGE','CHANGED','READY','COOLDOWN') for w in watchers),
+          'watchers_blocked':sum(w['status'] == 'BLOCKED' for w in watchers),
+          'events':len(state['events']),'approval_waiting':len(cards)},
+       'tasks':tasks[-40:], 'watchers':watchers, 'action_cards':cards, 'business':business,
+       'feedback':{'status':'awaiting_actual_observations','verified_observations':0,'training_performed':False}}
+
+
+def run(root=ROOT, *, now=None, execute_local=True):
+    root = Path(root).absolute()
+    stamp = core.utc(now)
+    policy = read(root, POLICY, {}) or {}
+    if policy.get('teams', list(core.TEAMS)) != list(core.TEAMS):
+        raise ValueError('organizational roster changed')
+    with transaction(root):
+        exists = execution._safe(root, STATE).exists()
+        if not exists and execution._safe(root, execution.ExecutionStore.filename).exists():
+            raise ValueError('task state missing with execution history; reconcile, do not reset')
+        state = read(root, STATE, core.empty_state())
+        validate_state(root, state)
+        if not state['watch'] and state['sequence']:
+            raise ValueError('watch cursor missing with task history; reconcile, do not reset')
+        observed = watch.observe(root, state['watch'] or None, now=now, policy=policy.get('watch'))
+        state['watch'] = observed['state']
+        for event in observed['events']:
+            key = event.get('event_id') or core.digest(event)
+            old = state['events'].get(key)
+            if old is not None and old != event:
+                raise ValueError('immutable watch event collision')
+            state['events'][key] = event
+            team = event.get('source_team')
+            if team in core.TEAMS:
+                core.create_task(state, goal='관찰 이벤트 검토 / ' + key[:16], team=team,
+                    payload={'teams':[team],'source_event':key,'purpose':'saved_event_review_only'},
+                    evidence=event.get('evidence'), priority='high')
+        version = input_version(root)
+        members = canonical_members(root)
+        goal = bootstrap(state, version, members)
+        handoffs(state, version, goal, members)
+        atomic(root, STATE, state)
+        if execute_local:
+            # Restart only idempotent receipt-backed local work, never external effects.
+            candidates = [t for t in state['tasks'].values() if t.get('state') in ('IN_PROGRESS','VERIFYING','EXECUTING')]
+            candidates += core.ready_tasks(state)
+            processed = set()
+            for _ in range(32):
+                active = [t for t in candidates if t['task_id'] not in processed and
+                          (t.get('goal') == goal or t.get('payload',{}).get('source_event'))]
+                if not active:
+                    break
+                for task in active:
+                    task_id = task['task_id']
+                    processed.add(task_id)
+                    for target in ('ROUTED','IN_PROGRESS','VERIFYING','EXECUTING'):
+                        current = state['tasks'][task_id]['state']
+                        order = ('CREATED','ROUTED','IN_PROGRESS','VERIFYING','EXECUTING')
+                        if current in order and order.index(current) < order.index(target):
+                            core.transition(state, task_id, target)
+                            atomic(root, STATE, state)
+                    decision_id = 'decision_' + core.digest({'task_id':task_id,'kind':task['kind']})
+                    state['decisions'].setdefault(decision_id, {'decision_id':decision_id,
+                        'task_id':task_id,'kind':'local_snapshot_review','status':'PROPOSED',
+                        'reason':'기존 산출물의 출처·최신성·차단 요인을 로컬로 점검',
+                        'confidence':None,'evidence':copy.deepcopy(task.get('evidence') or {})})
+                    atomic(root, STATE, state)
+                    receipt = execution.execute(root, state['tasks'][task_id], execution.ExecutionStore(root), now=now)
+                    if receipt.get('status') == 'VERIFIED' and execution.validate_receipt(root, receipt):
+                        state['receipts'][receipt['receipt_id']] = receipt
+                        action = receipt['action']
+                        state.setdefault('actions',{})[action['action_id']] = {**action,
+                            'status':'VERIFIED','receipt_id':receipt['receipt_id']}
+                        state['decisions'][decision_id].update(status='LOCAL_OUTPUT_VERIFIED',
+                            action_id=action['action_id'],receipt_id=receipt['receipt_id'])
+                        core.transition(state, task_id, 'COMPLETED', receipt=receipt)
+                    else:
+                        core.transition(state, task_id, 'BLOCKED', reason='실행 기록 검증 실패: ' + str(receipt.get('status')))
+                    handoffs(state, version, goal, members)
+                    atomic(root, STATE, state)
+                candidates = core.ready_tasks(state)
+        validate_state(root, state)
+        learned = feedback.build(state, root, now=now)
+        atomic(root, STATE, state)
+        for name in ('decisions','knowledge_graph','feedback'):
+            atomic(root, 'data/operations/' + name + '.json', learned[name])
+        board = summarize(root, state, observed, learned, stamp)
+        atomic(root, BOARD, board)
+        runtime = read(root, 'data/dashboard_runtime.json', None)
+        if isinstance(runtime,dict):
+            runtime['operations'] = board
+            atomic(root, 'data/dashboard_runtime.json', runtime)
+        return board
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--root',type=Path,default=ROOT)
+    parser.add_argument('--observe-only',action='store_true')
+    args = parser.parse_args()
+    try:
+        board = run(args.root, execute_local=not args.observe_only)
+        print('JARVIS_OPERATIONS_OK ' + json.dumps(board['counts'],sort_keys=True))
+        return 0
+    except (ValueError,OSError,KeyError,TypeError) as exc:
+        print('JARVIS_OPERATIONS_BLOCKED ' + type(exc).__name__ + ': ' + str(exc))
+        return 1
+
+if __name__ == '__main__':
+    raise SystemExit(main())

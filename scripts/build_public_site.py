@@ -30,8 +30,23 @@ COMPARISON = obj('schema_version generated_at purpose candidate_count proposal_c
 PRICE_ROW = fields('pd_no name qty quantity unit_price_usd price_usd cost_usd product_cost_usd shipping_usd shipping_per_unit_usd shipping_unit_usd shipping_total_usd landed_cost_usd net_profit_usd margin_pct breakeven_usd duty_usd tariff_usd weight_g weight_source')
 OFFER = fields('qty quantity price_usd unit_price_usd discount_pct net_profit_usd margin_pct orders_for_500 orders_for_500usd revenue_for_500 shipping_usd landed_cost_usd free_shipping')
 BENCHMARK = fields('min p25 median max n source')
+# Operations is nested in the existing runtime payload, never a new public file.
+# Display scalars only: no raw goals, proof objects, identities or authority.
+PUBLIC_TEXT = object()
+PUBLIC_FALSE = object()
+def public_fields(names): return {k: PUBLIC_TEXT for k in names.split()}
+def public_obj(names='', **nested): return dict(public_fields(names), **nested)
+OPERATIONS = public_obj('schema_version generated_at status organization',
+ engines=[public_fields('id name status detail')],
+ counts=public_fields('tasks_total local_verified external_verified handoffs_accepted watchers_ready watchers_blocked events approval_waiting'),
+ tasks=[public_fields('task_id team kind level state')],
+ watchers=[public_fields('team status reason captured_at')],
+ business=public_obj('ready total exempt sales_allowed', blockers=[PUBLIC_TEXT]),
+ feedback=public_fields('status verified_observations training_performed'),
+ action_cards=[dict(public_fields('action_id kind level status reason member_count payload_hash target_configured before after'), may_approve=PUBLIC_FALSE, may_execute=PUBLIC_FALSE)])
+
 SCHEMAS = {
- 'data/dashboard_runtime.json': obj('schema_version generated_at last_synced truth_note data_integrity_note', pipeline_health=fields('status optional_failure_count required_failure_count at generated_at execution_id'), teams=[TEAM], secretary=TEAM, team_summary=fields('corpus_records pipeline_done pipeline_total'), pipeline=[fields('id title status detail')], sources=obj('status record_count updated_at',source_counts=NUM_MAP), graph=obj('notes links dangling_links dangling_personal dangling_personal_note dangling_warn_threshold records sources topics last_generated',audit=fields('untagged_pct')), training=TRAINING,cumulative=obj('since runs_recorded',totals=NUM_MAP,prior_totals=NUM_MAP,added_this_run=NUM_MAP,current_snapshot=NUM_MAP),global_channels={'*':[CHANNEL_ROW]},global_channels_status={'*':CHANNEL_STATUS},exchange_rate=fields('rate as_of source updated_at'),commit_summary=fields('line agents_line'),agents_ops=fields('risk task_count at'),candidate_discovery=COMPARISON),
+ 'data/dashboard_runtime.json': obj('schema_version generated_at last_synced truth_note data_integrity_note', pipeline_health=fields('status optional_failure_count required_failure_count at generated_at execution_id'), teams=[TEAM], secretary=TEAM, team_summary=fields('corpus_records pipeline_done pipeline_total'), pipeline=[fields('id title status detail')], sources=obj('status record_count updated_at',source_counts=NUM_MAP), graph=obj('notes links dangling_links dangling_personal dangling_personal_note dangling_warn_threshold records sources topics last_generated',audit=fields('untagged_pct')), training=TRAINING,cumulative=obj('since runs_recorded',totals=NUM_MAP,prior_totals=NUM_MAP,added_this_run=NUM_MAP,current_snapshot=NUM_MAP),global_channels={'*':[CHANNEL_ROW]},global_channels_status={'*':CHANNEL_STATUS},exchange_rate=fields('rate as_of source updated_at'),commit_summary=fields('line agents_line'),agents_ops=fields('risk task_count at'),candidate_discovery=COMPARISON,operations=OPERATIONS),
  'data/knowledge/training_status.json': dict(TRAINING,source_labels=NUM_MAP),
  'data/knowledge/real_sources.json': obj('updated collected_at',sources={'*':obj('count collected_at status',items=[fields('title url source published_at')])}),
  'data/daiso_real/collection_status.json': obj('',last_run=RUN,last_attempt=RUN,last_success=RUN,last_candidate_success=RUN,totals=obj('products avg_price_krw price_krw_min price_krw_max with_rating',by_bucket=NUM_MAP,categories=NUM_MAP),fx=fields('usd_to_krw krw_to_usd as_of source fetched_at ok')),
@@ -64,7 +79,33 @@ def safe_scalar(value):
     return None
 
 
+# Free-form public operation labels can still carry private values. Never retain
+# contact information, backend model/billing details or private filesystem paths.
+OPERATIONS_PRIVATE = re.compile(
+    r'(?i)(?:[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}|'
+    r'(?:\+\d{1,3}[ .-]?(?:\d[ .()-]?){7,14}\d|\b(?:0\d{1,2}|\d{3})[- .]\d{3,4}[- .]\d{4}\b)|'
+    r'(?:/Users/|/home/|/var/|[A-Z]:[\\/]|\\\\)[^\s]+|'
+    r'\b(?:billing|api[_ -]?key|authorization|password|access[_ -]?token|'
+    r'identity|nonce|private[_ -]?path|backend|model[_ -]?(?:name|id))\b|'
+    r'\b(?:sk-proj-|sk-|ghp_|github_pat_|Bearer\s+)\S+|'
+    r'\b(?:gpt-[\w.-]+|claude-[\w.-]+|gemini-[\w.-]+|Jev|TypeSafe)\b|'
+    r'\b\d{1,6}\s+[^,\n]{1,60}\s(?:Street|St|Road|Rd|Avenue|Ave|Lane|Ln|Drive|Dr)\b)')
+
+
+def safe_operation_scalar(value):
+    if isinstance(value, str) and re.search(r'(?i)\b(?:https?|file|data|javascript|obsidian):', value): return None
+    value = safe_scalar(value)
+    if isinstance(value, str):
+        if OPERATIONS_PRIVATE.search(value): return '[private value omitted]'
+        # No links or file targets are needed in this read-only summary.
+        if urlsplit(value.strip()).scheme in {'http', 'https', 'file', 'data', 'javascript', 'obsidian'}: return None
+        return value.replace('—', ' · ')
+    return value
+
+
 def project(value, schema):
+    if schema is PUBLIC_FALSE: return False
+    if schema is PUBLIC_TEXT: return safe_operation_scalar(value)
     if schema is True: return safe_scalar(value)
     if isinstance(schema, list): return [project(v,schema[0]) for v in value] if isinstance(value,list) else []
     if not isinstance(value,dict): return {}

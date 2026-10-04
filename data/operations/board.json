@@ -1,0 +1,372 @@
+{
+  "action_cards": [
+    {
+      "action_id": "shopify:draft:CP000109",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "5f888f6b7321897463d98cfbf120f1de2ee35afbe518cca6bf039e2ce0375e13",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:CP000130",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "ef3379f5c0d9fbc3be8fce82232fb5d8c122870f72416d7407bb5acb0a07392b",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:CP000151",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "e43378ca7aefa470366bfcd2947e12230f26a752c18796d33431910ee44b0d3e",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:CP000216",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "309e27297b862d1d1028b015ebf12c3ccb1148446b12b4cf449e25104e7095c3",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:VG-VT-REEDLE-SHOT",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 2,
+      "payload_hash": "d0ffea3aeb7e1e5ceedc23b751f78799c165ea9ccffa713c1785aaa0ab78fdab",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    }
+  ],
+  "business": {
+    "blockers": [
+      "책임자 라벨 정보",
+      "제품별 제조사 안전성 자료",
+      "필수 영문 라벨"
+    ],
+    "exempt": 3,
+    "ready": 1,
+    "sales_allowed": false,
+    "total": 7
+  },
+  "counts": {
+    "approval_waiting": 5,
+    "events": 76,
+    "external_verified": 0,
+    "handoffs_accepted": 5,
+    "local_verified": 11,
+    "tasks_total": 11,
+    "watchers_blocked": 10,
+    "watchers_ready": 2
+  },
+  "engines": [
+    {
+      "detail": "기존 비서실장 제어",
+      "id": "manager",
+      "name": "Manager",
+      "status": "local_only"
+    },
+    {
+      "detail": "기존 11팀으로 작업 라우팅",
+      "id": "router",
+      "name": "Router",
+      "status": "local_only"
+    },
+    {
+      "detail": "의존성·한도·실행증거 기반 상태",
+      "id": "task",
+      "name": "Task",
+      "status": "local_only"
+    },
+    {
+      "detail": "비서실장만 팀 간 인계 수락",
+      "id": "handoff",
+      "name": "Handoff",
+      "status": "local_only"
+    },
+    {
+      "detail": "실제 캡처 시각·의미 있는 변경만 관찰",
+      "id": "watch",
+      "name": "Watch/Event",
+      "status": "local_only"
+    },
+    {
+      "detail": "정확한 내용에 인증 승인 필요",
+      "id": "approval",
+      "name": "Approval",
+      "status": "gated"
+    },
+    {
+      "detail": "L1 읽기·L2 로컬 보고서만 실행",
+      "id": "execution",
+      "name": "Execution",
+      "status": "gated"
+    },
+    {
+      "detail": "결정·관계 기록, 실제 피드백 대기",
+      "id": "knowledge",
+      "name": "Knowledge/Feedback",
+      "status": "local_only"
+    }
+  ],
+  "feedback": {
+    "status": "awaiting_actual_observations",
+    "training_performed": false,
+    "verified_observations": 0
+  },
+  "generated_at": "2026-10-04T05:17:25.631312+00:00",
+  "organization": "기존 비서실장 > 11팀 팀장 > 전문 기능",
+  "schema_version": 1,
+  "status": "local_only",
+  "tasks": [
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_1c9a7af49f2ecc621e7a4324a193f40fe45405fa74971c9d9c5a42440f871730",
+      "team": "graph"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_1e3f2046ded568040cb7e463066b49214d9fd8bfd6b24696355c08f5987bb63d",
+      "team": "robotics"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_f70e4d5763b7535fc18f9b82bbb656f17488a9652815fcbec7bbeba1cbdd6063"
+      ],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_f70e4d5763b7535fc18f9b82bbb656f17488a9652815fcbec7bbeba1cbdd6063",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_23926557b0b7d9d7cf9d31e36d88495fe7d1504c49cf5e56f06873c5832ce6f5",
+      "team": "channels"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_ecd72129a37dde15f6b4fb2d947dc516c282b14b5426967938fbacc08d493c21"
+      ],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_ecd72129a37dde15f6b4fb2d947dc516c282b14b5426967938fbacc08d493c21",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_4795e8c2059054feb67b690f934dc8261a30ce0d840c7bfd55301440afc23924",
+      "team": "market"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_5accc762d189bb5723ab2875160cbd7b530849c247b09684310f170fd7b7e7bd",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_5feaa0cc36a9d86cad4a80591c4a02e310f362d63c98ce517948de8a31fb3925",
+      "team": "design"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_fade34b1c4068fd5f9204a0add79e3c1d8a9fd8521b4f0388aaaf446db1d5876"
+      ],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_fade34b1c4068fd5f9204a0add79e3c1d8a9fd8521b4f0388aaaf446db1d5876",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_600be01e4d3892664aa881c44392661e6a524c0ce2ec44bf5938583f62ed2560",
+      "team": "legal"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_8dd1b2e58e83774744c50560ef5dcd087e619c306b922c738aa1e6c346dc33eb",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_ecd72129a37dde15f6b4fb2d947dc516c282b14b5426967938fbacc08d493c21",
+      "team": "sourcing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_600be01e4d3892664aa881c44392661e6a524c0ce2ec44bf5938583f62ed2560"
+      ],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_600be01e4d3892664aa881c44392661e6a524c0ce2ec44bf5938583f62ed2560",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f70e4d5763b7535fc18f9b82bbb656f17488a9652815fcbec7bbeba1cbdd6063",
+      "team": "listing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [
+        "task_4795e8c2059054feb67b690f934dc8261a30ce0d840c7bfd55301440afc23924"
+      ],
+      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": "task_4795e8c2059054feb67b690f934dc8261a30ce0d840c7bfd55301440afc23924",
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fade34b1c4068fd5f9204a0add79e3c1d8a9fd8521b4f0388aaaf446db1d5876",
+      "team": "pricing"
+    }
+  ],
+  "watchers": [
+    {
+      "captured_at": null,
+      "reason": "STALE_SOURCE_CAPTURE",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "DUPLICATE_SOURCE_ENTITY_ID",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": "2026-10-03T11:43:10.737881+00:00",
+      "reason": "",
+      "status": "BASELINE",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "SOURCE_CAPTURE_MISSING",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "STALE_SOURCE_CAPTURE",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "SOURCE_CAPTURE_MISSING",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "SOURCE_CAPTURE_MISSING",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "SOURCE_CAPTURE_MISSING",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "SOURCE_CAPTURE_MISSING",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "SOURCE_CAPTURE_MISSING",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": null,
+      "reason": "STALE_SOURCE_CAPTURE",
+      "status": "BLOCKED",
+      "team": null
+    },
+    {
+      "captured_at": "2026-10-04T00:03:58.055504+00:00",
+      "reason": "",
+      "status": "BASELINE",
+      "team": null
+    }
+  ]
+}

@@ -102,15 +102,15 @@ class PublishContractTests(unittest.TestCase):
     def test_false_requested_regeneration_cannot_waive_source_runtime(self):
         p = self.profiles('data/notes.json', ['data/notes.json'])
         self.assertFalse(p['commerce_regeneration'])
-        self.assertEqual(p['commands'][:4], graph._RUNTIME_CHAIN)
+        self.assertEqual(p['commands'][:len(graph._RUNTIME_CHAIN)], graph._RUNTIME_CHAIN)
         self.assertEqual(p['commands'][-2:], [['scripts/check_release_quality.py', '--phase', 'candidate'],
                                              ['scripts/check_release_quality.py', '--phase', 'final']])
 
     def test_source_commerce_chain_is_conditional_ordered_and_before_runtime(self):
         p = self.profiles('data', ['data/daiso_real/products.json'])
         self.assertTrue(p['commerce_regeneration'])
-        self.assertEqual(p['commands'][:12], graph._COMMERCE_CHAIN)
-        self.assertEqual(p['commands'][12:16], graph._RUNTIME_CHAIN)
+        self.assertEqual(p['commands'][:len(graph._COMMERCE_CHAIN)], graph._COMMERCE_CHAIN)
+        self.assertEqual(p['commands'][len(graph._COMMERCE_CHAIN):len(graph._COMMERCE_CHAIN)+len(graph._RUNTIME_CHAIN)], graph._RUNTIME_CHAIN)
         self.assertEqual(p['commerce_triggers'], ['data/daiso_real/products.json'])
 
     def test_candidate_only_never_claims_automatic_score_product_or_export(self):

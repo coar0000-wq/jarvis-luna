@@ -44,10 +44,12 @@ def main() -> int:
     # 전에는 게이트를 넘은 S등급을 전부 내보내 점수가 흔들릴 때마다 스토어 전체가 바뀌었다.
     import sys
     sys.path.insert(0, str(ROOT / "scripts"))
-    import build_shopify_shortlist
-    build_shopify_shortlist.main()
-    shortlist = build_shopify_shortlist.active_pd_nos()
+    import gate_signature
+    # Fail before any output mutation, including shortlist regeneration.
     gate = load(D / "listing_gate.json", {}) or {}
+    gate_signature.require_current(gate)
+    shortlist_doc = load(D / "shopify_shortlist.json", {}) or {}
+    shortlist = {str(x) for x in shortlist_doc.get("active_pd_nos") or []}
     master = load(D / "product_master.json", {}) or {}
     legal = load(D / "legal_full.json", {}) or {}
     products = master.get("products") or [] if isinstance(master, dict) else []

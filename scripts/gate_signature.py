@@ -57,35 +57,44 @@ def _doc(path: Path) -> dict:
         return {}
 
 
+def semantic_document(value: Any) -> Any:
+    """Exclude only the document's generation clock, never capture/provenance dates."""
+    if isinstance(value, dict):
+        return {k: semantic_document(v) for k, v in value.items()
+                if k not in {"generated_at", "gate_generated_at"}}
+    if isinstance(value, list):
+        return [semantic_document(v) for v in value]
+    return value
+
+
 def recommendation_signature(rows: list[dict]) -> str:
-    semantic = [{
-        "pd_no": str(x.get("pd_no") or x.get("product_id") or ""),
-        "grade": x.get("grade"),
-        "rank": x.get("rank"),
-        "name": x.get("name"),
-        "shopify_score": x.get("shopify_score"),
-    } for x in rows]
-    return sha256_bytes(_canonical(semantic))
+    return sha256_bytes(_canonical(semantic_document(rows)))
 
 
 def agent_input_signature(recommendations: list[dict]) -> dict[str, Any]:
-    master = _doc(PRODUCT_MASTER)
-    gosi = _doc(GOSI)
-    labels = _doc(LABELS)
-    pricing = _doc(PRICING)
-    legal = _doc(LEGAL)
-    semantic = {
-        "data/product_master.json": master.get("pd_no_to_cp") or {},
-        "data/gosi.json": gosi.get("items") or {},
-        "data/daiso_real/daiso_us_labels.json": labels.get("items") or labels,
-        "data/pricing_model.json": (pricing.get("offers_by_product") or {}).get("single") or [],
-        "data/legal_products.json": legal.get("items") or {},
-    }
-    hashes = {path: sha256_bytes(_canonical(value)) for path, value in semantic.items()}
-    return {
-        "semantic_sources": hashes,
-        "recommendations_sha256": recommendation_signature(recommendations),
-    }
+    # Full ontology/copy/legal/policy evidence, not merely an ID registry.
+    # Private identity files are deliberately NEVER opened. Only published masked
+    # presence/status evidence is bound and only hashes leave this function.
+    paths = [PRODUCT_MASTER, GOSI, LABELS, PRICING, LEGAL, RECOMMENDATIONS,
+             DATA / "shopify_listing_copy.json", DATA / "shopify_shortlist.json",
+             DATA / "legal_full.json", DATA / "mocra_readiness.json",
+             DATA / "manual" / "legal_rp_status.json",
+             DATA / "manual" / "mocra_business.json",
+             DATA / "manual" / "official_label_text.json"]
+    hashes = {}
+    for source in paths:
+        relative = "data/" + source.relative_to(DATA).as_posix()
+        try:
+            document = json.loads(source.read_text(encoding="utf-8-sig"))
+            evidence = {"status": "present", "document": semantic_document(document)}
+        except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+            evidence = {"status": "missing_or_unreadable"}
+        hashes[relative] = sha256_bytes(_canonical(evidence))
+    sop = DATA / "manual" / "mocra_adverse_event_sop.md"
+    hashes["data/manual/mocra_adverse_event_sop.md"] = sha256_bytes(
+        sop.read_bytes() if sop.exists() else b"missing_or_unreadable")
+    return {"schema_version": 2, "semantic_sources": hashes,
+            "recommendations_sha256": recommendation_signature(recommendations)}
 
 
 def current_recommendations() -> list[dict]:

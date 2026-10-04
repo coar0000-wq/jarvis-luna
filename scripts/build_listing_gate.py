@@ -294,8 +294,8 @@ def main() -> int:
             public_blocked_by.append("legal_full")
 
         # TypeSafe System One 방식의 보조 판단. 기본은 로컬 규칙만 쓰므로
-        # 네트워크 호출도 비용도 없다. 실제 TypeSafe 호출은
-        # TYPESAFE_ENABLED=1 + TYPESAFE_ALLOW_PAID=1 이 둘 다 있어야 한다.
+        # 네트워크 호출도 비용도 없다. 실제 Jev 호출은 공유 free-only
+        # 어댑터가 계정·24시간 증빙·누적 예약/한도를 확인해야 가능하다.
         # 기존 점수·법률·게이트가 정본이며, 보조 판단은 이를 덮지 않는다.
         typesafe_context = {
             "canonical_product_id": canonical_product_id,
@@ -412,14 +412,20 @@ def main() -> int:
         call_doc = json.loads(log_path.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         call_doc = {}
-    calls_all = (call_doc.get("calls") or []) + call_log
+    incoming_calls = (call_doc.get("calls") or []) + call_log
+    calls_all, seen_call_records = [], set()
+    for call in incoming_calls:
+        fingerprint = hashlib.sha256(json.dumps(call, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+        if fingerprint not in seen_call_records:
+            calls_all.append(call)
+            seen_call_records.add(fingerprint)
     ok_calls = [c for c in calls_all if c.get("ok")]
     call_doc = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "note": "Jev(TypeSafe) 실호출 근거. HTTP 상태·모델·토큰·공급자 요청 ID. 키는 기록하지 않는다.",
         "total_ok_calls": len(ok_calls),
         "total_failed_calls": len(calls_all) - len(ok_calls),
-        "last_ok_call_at": ok_calls[-1]["at"] if ok_calls else None,
+        "last_ok_call_at": ok_calls[-1].get("at") if ok_calls else None,
         "calls": calls_all[-500:],
     }
     if call_log or not log_path.exists():
@@ -427,7 +433,7 @@ def main() -> int:
     typesafe_summary = {
         "framework": "typesafe_system_one_compatible",
         "mode_counts": typesafe_modes,
-        "typesafe_calls": usage_ledger["calls"],
+        "typesafe_calls": usage_ledger.get("calls"),
         "free_credits_only": sum(
             1 for row in results if (row.get("typesafe") or {}).get("free_credits_only")
         ),
@@ -441,9 +447,8 @@ def main() -> int:
         "cumulative_ok_calls": call_doc["total_ok_calls"],
         "last_ok_call_at": call_doc["last_ok_call_at"],
         "note": (
-            "기본은 비용 없는 로컬 advisory. 실제 호출은 TYPESAFE_ENABLED=1 과 "
-            "TYPESAFE_FREE_CREDITS_ONLY=1(무료 크레딧 한도 내) 또는 "
-            "TYPESAFE_ALLOW_PAID=1(유료 승인) 일 때만 한다. 크레딧 구매는 하지 않는다."
+            "기본은 비용 없는 로컬 advisory. 실제 호출은 검증된 계정의 무료 "
+            "크레딧 증빙과 공유 누적 한도 내에서만 가능하며 유료 override는 없다."
         ),
     }
 
@@ -515,6 +520,11 @@ def main() -> int:
             json.dumps(recommendation_doc, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+
+    # Sign after gate-owned recommendation updates are persisted.
+    output["agent_input_signature"] = gate_signature.agent_input_signature(
+        gate_signature.current_recommendations())
+    OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(
         f"listing_gate 생성 완료: total={total}, agent_ready={agent_ready}, "

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "organization": "existing_secretary_team_leads_specialists",
+  "teams": ["sourcing", "institutions", "market", "listing", "pricing", "legal", "robotics", "design", "channels", "knowledge", "graph"],
+  "engines": ["manager", "router", "task", "handoff", "watch", "approval", "execution", "knowledge"],
+  "max_tasks_per_goal": 32,
+  "max_depth": 6,
+  "watch": {"max_age_seconds": 172800, "cooldown_seconds": 3600},
+  "execution": {"enabled_kinds": ["read_snapshot", "snapshot_report"], "external_enabled": false, "privileged_repairs_enabled": false, "retry_pure_read": 1, "retry_external_or_metered": 0},
+  "approval": {"authority": "trusted_human_verifier_only", "plain_json_is_authority": false, "client_side_is_authority": false, "external_draft_level": 4},
+  "feedback": {"synthetic_sales_allowed": false, "auto_training": false, "same_metric_unit_cohort_window_required": true}
+}

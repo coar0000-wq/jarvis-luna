@@ -70,6 +70,7 @@ jobs:
             python -u scripts/health_check_v2.py
             python -u scripts/generate_dashboard_runtime.py
             python -u scripts/run_jarvis_agents.py --force
+            python -u scripts/run_jarvis_operations.py
             python -u scripts/build_team_improvement.py'
 
       - name: Aggregate actual Core outcomes before publication

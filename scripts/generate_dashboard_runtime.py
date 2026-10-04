@@ -13,6 +13,7 @@ from operational_freshness import age_channels, assess_collection, assess_heartb
 
 # 기준 경로 설정
 ROOT = Path(__file__).resolve().parents[1]
+D = ROOT / "data"
 OUT = ROOT / "data" / "dashboard_runtime.json"
 VAULT = ROOT / "obsidian" / "JARVIS_LUNA"
 KNOWLEDGE = ROOT / "data" / "knowledge"
@@ -1245,6 +1246,7 @@ def main() -> None:
             "상태는 저장소에 존재하는 실제 산출물 기준이며, "
             "실행 기록이 없는 작업은 진행중으로 표시하지 않음."
         ),
+        "operations": load_json(ROOT / "data" / "operations" / "board.json", {}) or {},
         "teams": teams,
         "secretary": secretary,
         "remediation_state": load_json(
