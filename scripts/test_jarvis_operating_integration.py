@@ -34,6 +34,8 @@ class OperatingIntegration(unittest.TestCase):
         self.assertEqual(board['counts']['local_verified'],11)
         self.assertEqual(board['counts']['handoffs_accepted'],5)
         self.assertEqual(board['counts']['external_verified'],0)
+        self.assertEqual({w['team'] for w in board['watchers']},set(runner.watch.SOURCE_MAPPINGS))
+        self.assertEqual(len(board['watchers']),12)
         self.assertEqual(board['business']['total'],7)
         self.assertFalse(board['business']['sales_allowed'])
         state=self.load(runner.STATE)

@@ -175,7 +175,8 @@ def approval_cards(root):
 def summarize(root, state, observed, learned, now):
     safe = core.project_summary(state)
     tasks = safe.get('tasks') or []
-    watchers = [{**{k:v.get(k) for k in ('team','status','captured_at')},
+    watchers = [{'team': v.get('source_team'),
+                 **{k:v.get(k) for k in ('status','captured_at')},
                  'reason': ', '.join(v.get('blockers') or [])} for v in observed['watchers']]
     local_verified = sum(t.get('state') == 'COMPLETED' and t.get('level',4) <= 2 for t in tasks)
     cards = approval_cards(root)

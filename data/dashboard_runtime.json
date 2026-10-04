@@ -1,6 +1,6 @@
 {
   "agents_ops": {
-    "at": "2026-10-04T05:56:58.213525+00:00",
+    "at": "2026-10-04T06:05:16.107757+00:00",
     "risk": "medium",
     "task_count": 5
   },
@@ -5454,7 +5454,7 @@
       "training_performed": false,
       "verified_observations": 0
     },
-    "generated_at": "2026-10-04T05:56:58.322835+00:00",
+    "generated_at": "2026-10-04T06:05:16.228229+00:00",
     "organization": "기존 비서실장 > 11팀 팀장 > 전문 기능",
     "schema_version": 1,
     "status": "local_only",
@@ -5891,73 +5891,73 @@
         "captured_at": null,
         "reason": "STALE_SOURCE_CAPTURE",
         "status": "BLOCKED",
-        "team": null
+        "team": "sourcing"
       },
       {
         "captured_at": null,
         "reason": "DUPLICATE_SOURCE_ENTITY_ID",
         "status": "BLOCKED",
-        "team": null
+        "team": "institutions"
       },
       {
         "captured_at": "2026-10-03T11:43:10.737881+00:00",
         "reason": "",
         "status": "NO_CHANGE",
-        "team": null
+        "team": "market"
       },
       {
         "captured_at": null,
         "reason": "SOURCE_CAPTURE_MISSING",
         "status": "BLOCKED",
-        "team": null
+        "team": "listing"
       },
       {
         "captured_at": null,
         "reason": "STALE_SOURCE_CAPTURE",
         "status": "BLOCKED",
-        "team": null
+        "team": "pricing"
       },
       {
         "captured_at": null,
         "reason": "SOURCE_CAPTURE_MISSING",
         "status": "BLOCKED",
-        "team": null
+        "team": "legal"
       },
       {
         "captured_at": null,
         "reason": "SOURCE_CAPTURE_MISSING",
         "status": "BLOCKED",
-        "team": null
+        "team": "robotics"
       },
       {
         "captured_at": null,
         "reason": "SOURCE_CAPTURE_MISSING",
         "status": "BLOCKED",
-        "team": null
+        "team": "design"
       },
       {
         "captured_at": null,
         "reason": "SOURCE_CAPTURE_MISSING",
         "status": "BLOCKED",
-        "team": null
+        "team": "channels"
       },
       {
         "captured_at": null,
         "reason": "SOURCE_CAPTURE_MISSING",
         "status": "BLOCKED",
-        "team": null
+        "team": "knowledge"
       },
       {
         "captured_at": null,
         "reason": "STALE_SOURCE_CAPTURE",
         "status": "BLOCKED",
-        "team": null
+        "team": "graph"
       },
       {
         "captured_at": "2026-10-04T00:03:58.055504+00:00",
         "reason": "",
         "status": "NO_CHANGE",
-        "team": null
+        "team": "secretary"
       }
     ]
   },
