@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-04T20:56:46.513952+00:00",
-  "source_gate_generated_at": "2026-10-04T20:56:46.196534+00:00",
+  "generated_at": "2026-10-04T22:04:13.010670+00:00",
+  "source_gate_generated_at": "2026-10-04T22:04:12.609352+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -32,7 +32,7 @@
         "1049285"
       ],
       "variant_count": 1,
-      "payload_hash": "0405ef733849d80868d68296b5a3ba89f0064e193f69bf9dc0c7f8fe5be41fcc",
+      "payload_hash": "22180fd83cbe58b2698c7dadd163981e008afe56a3a0c83aa6bf09573655ccb6",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000109",
         "products": [
@@ -124,9 +124,9 @@
           "semantic_sources": {
             "data/product_master.json": "43297b27573cb76e092970aed385feb35ef2a65f0c3c410f14f9c401be0d3574",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-            "data/daiso_real/daiso_us_labels.json": "0c570e03223153ea5f7d1c71bbf0e9d4dd57e989a6716f1ec694fe75adab0056",
+            "data/daiso_real/daiso_us_labels.json": "1d3b0882778fdd846e15ce06b6f3ded9a16ccbd7337f41ebdd82c44b64b2ddf6",
             "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
-            "data/legal_products.json": "aebd6f0ab3e2550329292e9c2a389a406b9d15ff208f9e537fa51d697e314f20",
+            "data/legal_products.json": "2e4d7cb90587481e32a77a582af800947633104491d0f76655b64fd5e7d4f9a1",
             "data/daiso_real/shopify_s_recommendations.json": "88cfb104ff2a32fe09421bfa518c63232b5fb09dbb9191bc5d9282ade7dd2250",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
             "data/shopify_shortlist.json": "68bdd15756e08739159731383696f088475640054e85f2def7edc4948f73c3f1",
@@ -139,14 +139,14 @@
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "8e0c25db02a8d0f71380706555504c2a3c626e9d494f6e4532edafc2149daba5"
+        "gate_semantic_sha256": "3e82b4c57194be46210d42d08c44f0a8f80923915d4ad3315e56a9c28b24ae2f"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "0405ef733849d80868d68296b5a3ba89f0064e193f69bf9dc0c7f8fe5be41fcc"
+        "bound_payload_hash": "22180fd83cbe58b2698c7dadd163981e008afe56a3a0c83aa6bf09573655ccb6"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -177,7 +177,7 @@
         "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "5f4ca83c93f3dfd0114c903866f27b11d1d0075a10faa5fef0b944131296163f",
+      "payload_hash": "6bd0924968ec72ce28cbf26d58422365b65e7cbe1950baeae72b49b3977ce7ea",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000130",
         "products": [
@@ -269,9 +269,9 @@
           "semantic_sources": {
             "data/product_master.json": "43297b27573cb76e092970aed385feb35ef2a65f0c3c410f14f9c401be0d3574",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-            "data/daiso_real/daiso_us_labels.json": "0c570e03223153ea5f7d1c71bbf0e9d4dd57e989a6716f1ec694fe75adab0056",
+            "data/daiso_real/daiso_us_labels.json": "1d3b0882778fdd846e15ce06b6f3ded9a16ccbd7337f41ebdd82c44b64b2ddf6",
             "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
-            "data/legal_products.json": "aebd6f0ab3e2550329292e9c2a389a406b9d15ff208f9e537fa51d697e314f20",
+            "data/legal_products.json": "2e4d7cb90587481e32a77a582af800947633104491d0f76655b64fd5e7d4f9a1",
             "data/daiso_real/shopify_s_recommendations.json": "88cfb104ff2a32fe09421bfa518c63232b5fb09dbb9191bc5d9282ade7dd2250",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
             "data/shopify_shortlist.json": "68bdd15756e08739159731383696f088475640054e85f2def7edc4948f73c3f1",
@@ -284,14 +284,14 @@
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "8e0c25db02a8d0f71380706555504c2a3c626e9d494f6e4532edafc2149daba5"
+        "gate_semantic_sha256": "3e82b4c57194be46210d42d08c44f0a8f80923915d4ad3315e56a9c28b24ae2f"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "5f4ca83c93f3dfd0114c903866f27b11d1d0075a10faa5fef0b944131296163f"
+        "bound_payload_hash": "6bd0924968ec72ce28cbf26d58422365b65e7cbe1950baeae72b49b3977ce7ea"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -322,7 +322,7 @@
         "1059834"
       ],
       "variant_count": 1,
-      "payload_hash": "6298617fc00106a7019a39f488d8b1336e225bedec79ce11200caf12c2e7a17b",
+      "payload_hash": "00f03325cc04b469b97ec92f5b5079f4121159510afc6c1b8081a6f378924a46",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000151",
         "products": [
@@ -414,9 +414,9 @@
           "semantic_sources": {
             "data/product_master.json": "43297b27573cb76e092970aed385feb35ef2a65f0c3c410f14f9c401be0d3574",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-            "data/daiso_real/daiso_us_labels.json": "0c570e03223153ea5f7d1c71bbf0e9d4dd57e989a6716f1ec694fe75adab0056",
+            "data/daiso_real/daiso_us_labels.json": "1d3b0882778fdd846e15ce06b6f3ded9a16ccbd7337f41ebdd82c44b64b2ddf6",
             "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
-            "data/legal_products.json": "aebd6f0ab3e2550329292e9c2a389a406b9d15ff208f9e537fa51d697e314f20",
+            "data/legal_products.json": "2e4d7cb90587481e32a77a582af800947633104491d0f76655b64fd5e7d4f9a1",
             "data/daiso_real/shopify_s_recommendations.json": "88cfb104ff2a32fe09421bfa518c63232b5fb09dbb9191bc5d9282ade7dd2250",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
             "data/shopify_shortlist.json": "68bdd15756e08739159731383696f088475640054e85f2def7edc4948f73c3f1",
@@ -429,14 +429,14 @@
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "8e0c25db02a8d0f71380706555504c2a3c626e9d494f6e4532edafc2149daba5"
+        "gate_semantic_sha256": "3e82b4c57194be46210d42d08c44f0a8f80923915d4ad3315e56a9c28b24ae2f"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "6298617fc00106a7019a39f488d8b1336e225bedec79ce11200caf12c2e7a17b"
+        "bound_payload_hash": "00f03325cc04b469b97ec92f5b5079f4121159510afc6c1b8081a6f378924a46"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -467,7 +467,7 @@
         "1067498"
       ],
       "variant_count": 1,
-      "payload_hash": "a022dd1afa9dd829fef00c0ac8bac0632927c9ec5762f9588edd366d58568352",
+      "payload_hash": "2e2eff5860f3aa6086ca79b159946dfe4fe7bb57b983ea22a0f857d06a8985b5",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000216",
         "products": [
@@ -559,9 +559,9 @@
           "semantic_sources": {
             "data/product_master.json": "43297b27573cb76e092970aed385feb35ef2a65f0c3c410f14f9c401be0d3574",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-            "data/daiso_real/daiso_us_labels.json": "0c570e03223153ea5f7d1c71bbf0e9d4dd57e989a6716f1ec694fe75adab0056",
+            "data/daiso_real/daiso_us_labels.json": "1d3b0882778fdd846e15ce06b6f3ded9a16ccbd7337f41ebdd82c44b64b2ddf6",
             "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
-            "data/legal_products.json": "aebd6f0ab3e2550329292e9c2a389a406b9d15ff208f9e537fa51d697e314f20",
+            "data/legal_products.json": "2e4d7cb90587481e32a77a582af800947633104491d0f76655b64fd5e7d4f9a1",
             "data/daiso_real/shopify_s_recommendations.json": "88cfb104ff2a32fe09421bfa518c63232b5fb09dbb9191bc5d9282ade7dd2250",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
             "data/shopify_shortlist.json": "68bdd15756e08739159731383696f088475640054e85f2def7edc4948f73c3f1",
@@ -574,14 +574,14 @@
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "8e0c25db02a8d0f71380706555504c2a3c626e9d494f6e4532edafc2149daba5"
+        "gate_semantic_sha256": "3e82b4c57194be46210d42d08c44f0a8f80923915d4ad3315e56a9c28b24ae2f"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "a022dd1afa9dd829fef00c0ac8bac0632927c9ec5762f9588edd366d58568352"
+        "bound_payload_hash": "2e2eff5860f3aa6086ca79b159946dfe4fe7bb57b983ea22a0f857d06a8985b5"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -614,7 +614,7 @@
         "1049276"
       ],
       "variant_count": 2,
-      "payload_hash": "6b32a22dc0348911831f9f201532341e2b0f6b93486e1be4511cfcdfe2834b9f",
+      "payload_hash": "f6c91eb50a4d3657c89eedc4eb1e8ae9f1c82bbdd2c53c4011111abff5b08f08",
       "immutablePayload": {
         "shopify_group_key": "VG-VT-REEDLE-SHOT",
         "products": [
@@ -752,9 +752,9 @@
           "semantic_sources": {
             "data/product_master.json": "43297b27573cb76e092970aed385feb35ef2a65f0c3c410f14f9c401be0d3574",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-            "data/daiso_real/daiso_us_labels.json": "0c570e03223153ea5f7d1c71bbf0e9d4dd57e989a6716f1ec694fe75adab0056",
+            "data/daiso_real/daiso_us_labels.json": "1d3b0882778fdd846e15ce06b6f3ded9a16ccbd7337f41ebdd82c44b64b2ddf6",
             "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
-            "data/legal_products.json": "aebd6f0ab3e2550329292e9c2a389a406b9d15ff208f9e537fa51d697e314f20",
+            "data/legal_products.json": "2e4d7cb90587481e32a77a582af800947633104491d0f76655b64fd5e7d4f9a1",
             "data/daiso_real/shopify_s_recommendations.json": "88cfb104ff2a32fe09421bfa518c63232b5fb09dbb9191bc5d9282ade7dd2250",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
             "data/shopify_shortlist.json": "68bdd15756e08739159731383696f088475640054e85f2def7edc4948f73c3f1",
@@ -767,14 +767,14 @@
           },
           "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
         },
-        "gate_semantic_sha256": "8e0c25db02a8d0f71380706555504c2a3c626e9d494f6e4532edafc2149daba5"
+        "gate_semantic_sha256": "3e82b4c57194be46210d42d08c44f0a8f80923915d4ad3315e56a9c28b24ae2f"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "6b32a22dc0348911831f9f201532341e2b0f6b93486e1be4511cfcdfe2834b9f"
+        "bound_payload_hash": "f6c91eb50a4d3657c89eedc4eb1e8ae9f1c82bbdd2c53c4011111abff5b08f08"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
