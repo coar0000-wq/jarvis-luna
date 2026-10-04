@@ -27,6 +27,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import urllib.robotparser
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -34,8 +35,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "channel_candidates.json"
 
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36")
+UA = "JarvisLunaSourceProbe/1.0 (+https://github.com/coar0000-wq/jarvis-luna)"
 TIMEOUT = 25
 DELAY = 1.5
 MIN_ITEMS = 3
@@ -109,6 +109,67 @@ CANDIDATES = [
 ]
 
 
+
+def observation_time() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def source_attempt(url, error="", code=None, http_status=None, parse_status=None):
+    if http_status is None and error.startswith("HTTP "):
+        try:
+            http_status = int(error.split()[1])
+        except (ValueError, IndexError):
+            pass
+    return {"status": "failed" if error else "ok",
+            "code": code or ("http_error" if http_status and http_status != 200 else
+                              "transport_error" if error else "success"),
+            "attempted_at": observation_time(), "source_url": url,
+            "http_status": http_status, "parse_status": parse_status or "not_attempted",
+            "error": error}
+
+
+def captured_rows(rows, key, url):
+    # This clock is sampled only after a successful HTTP response and usable parse.
+    captured = observation_time()
+    for row in rows:
+        row.update(captured_at=captured, observed_at=captured, collected_at=captured,
+                   provenance={"source_key": key, "source_url": url,
+                               "http_status": 200, "parse_status": "ok"})
+    return captured
+
+
+def source_result(attempt, captured=None, previous=None):
+    result = {"status": attempt["status"], "last_attempt": attempt}
+    for field in ("captured_at", "observed_at", "collected_at"):
+        value = captured or (previous or {}).get(field)
+        if value:
+            result[field] = value
+    if attempt["status"] != "ok":
+        result["retained"] = bool(previous)
+    return result
+
+
+def pool_result(items, results, errors):
+    successful = sum(r["status"] == "ok" for r in results.values())
+    result = {"status": "ok" if successful == len(results) and successful else
+              "partial" if successful else "failed", "items": items,
+              "source_results": results, "errors": errors,
+              "reason": "; ".join(str(e) for e in errors)}
+    # A pool's clock is the oldest actual item observation, never its write time.
+    clocks = [r.get("captured_at") for r in items if r.get("captured_at")]
+    if clocks and len(clocks) == len(items):
+        captured = min(clocks)
+        result.update(captured_at=captured, observed_at=captured, collected_at=captured)
+    return result
+
+
+def previous_payload(path):
+    try:
+        value = json.loads(path.read_text(encoding="utf-8-sig"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
 def get(url: str, headers: dict | None = None) -> tuple[bytes | None, str]:
     h = {"User-Agent": UA, "Accept-Language": "en-US,en;q=0.9",
          "Accept-Encoding": "identity"}
@@ -117,6 +178,8 @@ def get(url: str, headers: dict | None = None) -> tuple[bytes | None, str]:
     try:
         req = urllib.request.Request(url, headers=h)
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            if r.status != 200:
+                return None, f"HTTP {r.status}"
             return r.read(), ""
     except urllib.error.HTTPError as e:
         return None, f"HTTP {e.code}"
@@ -125,28 +188,53 @@ def get(url: str, headers: dict | None = None) -> tuple[bytes | None, str]:
 
 
 def robots_allows(url: str) -> tuple[bool, str]:
-    """robots.txt 의 User-agent: * 블록만 보수적으로 해석한다."""
+    """Unknown or unparseable robots policy is blocked, not assumed allowed."""
     u = urllib.parse.urlparse(url)
-    body, err = get(f"{u.scheme}://{u.netloc}/robots.txt")
-    if body is None:
-        return True, f"robots.txt 확인 불가({err}) - 허용으로 간주"
+    robots_url = f"{u.scheme}://{u.netloc}/robots.txt"
+    body, err = get(robots_url)
+    if err or not body:
+        return False, f"robots unknown: {err or 'empty response'}"
     txt = body.decode("utf-8", "replace")
-    star, rules = False, []
-    for line in txt.splitlines():
-        line = line.split("#")[0].strip()
-        if not line:
-            continue
-        k, _, v = line.partition(":")
-        k, v = k.strip().lower(), v.strip()
-        if k == "user-agent":
-            star = (v == "*")
-        elif star and k == "disallow" and v:
-            rules.append(v)
-    path = u.path or "/"
-    for r in rules:
-        if r == "/" or path.startswith(r.rstrip("*")):
-            return False, f"robots.txt 금지 경로: {r}"
-    return True, "robots.txt 허용"
+    lines = txt.splitlines()
+    if not any(re.match(r"^\s*user-agent\s*:", line, re.I) for line in lines):
+        return False, "robots unknown: missing user-agent policy"
+    parser = urllib.robotparser.RobotFileParser(robots_url)
+    parser.parse(lines)
+    if not parser.can_fetch(UA, url):
+        return False, "robots denied"
+    return True, "robots allowed"
+
+
+# Fixed, reviewed documentation exceptions only. No generic robots bypass.
+PUBLIC_API_DOCUMENTATION = {
+    "wikipedia_pageviews": (
+        "wikimedia.org",
+        "/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/K-beauty/daily/20260801/20260901",
+        "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/documentation/access-policy.html"),
+    "fda_cosmetic_enforcement": (
+        "api.fda.gov", "/food/enforcement.json",
+        "https://open.fda.gov/apis/authentication"),
+    "openfda_drug_otc_sunscreen": (
+        "api.fda.gov", "/drug/label.json",
+        "https://open.fda.gov/apis/authentication"),
+}
+
+
+def reviewed_public_api_documentation(candidate):
+    """Only these three existing public GET routes may use the reviewed policy."""
+    rule = PUBLIC_API_DOCUMENTATION.get(candidate.get("key"))
+    if not rule or candidate.get("kind") != "json":
+        return None
+    url = urllib.parse.urlsplit(candidate.get("url", ""))
+    host, endpoint, documentation = rule
+    if (url.scheme != "https" or url.netloc != host or url.path != endpoint
+            or url.fragment or url.username or url.password):
+        return None
+    query = urllib.parse.parse_qs(url.query, keep_blank_values=True)
+    allowed_query = set() if host == "wikimedia.org" else {"search", "limit"}
+    if set(query) - allowed_query:
+        return None  # No keys, auth parameters, or unreviewed dispatch options.
+    return documentation
 
 
 def dig(d, path):
@@ -158,20 +246,45 @@ def dig(d, path):
     return cur
 
 
-def probe(c: dict) -> dict:
+def probe(c: dict, previous=None) -> dict:
     res = {"key": c["key"], "label": c["label"], "why": c["why"],
            "url": c["url"], "kind": c["kind"]}
 
-    ok, note = robots_allows(c["url"])
-    res["robots"] = note
-    if not ok:
-        res.update(verdict="불가", reason=note, items=0)
+    res.update(evidence_scope="candidate_probe", connector_registered=False)
+
+    def fail(reason, code, http_status=None, parse_status="not_attempted"):
+        res.update(verdict="불가", reason=reason, probe_items=res.get("items", 0), items=0)
+        if previous:
+            for field in ("items", "samples", "provenance"):
+                if field in previous:
+                    res[field] = previous[field]
+        attempt = source_attempt(c["url"], reason, code, http_status, parse_status)
+        for field in ("access_basis", "public_api_documentation", "max_source_reads"):
+            if field in res:
+                attempt[field] = res[field]
+        res.update(source_result(attempt, previous=previous))
+        res["probe_status"] = "failed"
         return res
 
+    ok, note = robots_allows(c["url"])
+    res["robots"] = note
+    documentation = None
+    if not ok:
+        # Explicit denial always wins. Auth/quota robots errors also stay blocked.
+        unknown = note.startswith("robots unknown:")
+        auth_or_quota = bool(re.search(r"HTTP (401|403|429)\b", note))
+        documentation = reviewed_public_api_documentation(c) if unknown and not auth_or_quota else None
+        if not documentation:
+            return fail(note, "robots_unknown" if unknown else "robots_denied")
+    res.update(access_basis="reviewed_public_api_read" if documentation else "robots_allowed",
+               max_source_reads=1)
+    if documentation:
+        res["public_api_documentation"] = documentation
+
+    # Exactly one sequential public source GET. No auth, quota, or rate retry.
     body, err = get(c["url"])
-    if body is None:
-        res.update(verdict="불가", reason=f"요청 실패: {err}", items=0)
-        return res
+    if err or not body:
+        return fail(err or "empty response", "http_error" if err.startswith("HTTP ") else "transport_error" if err else "empty_response")
     res["bytes"] = len(body)
 
     samples = []
@@ -184,7 +297,9 @@ def probe(c: dict) -> dict:
             samples = samples[1:]           # 채널 제목 제외
         else:
             d = json.loads(body.decode("utf-8", "replace"))
-            arr = dig(d, c["path"]) or []
+            arr = dig(d, c["path"])
+            if not isinstance(arr, list):
+                raise ValueError("missing source array")
             for it in arr:
                 if not isinstance(it, dict):
                     continue
@@ -193,29 +308,37 @@ def probe(c: dict) -> dict:
                 if v:
                     samples.append(v[:120])
     except Exception as e:
-        res.update(verdict="불가", reason=f"파싱 실패: {type(e).__name__}", items=0)
-        return res
+        return fail(f"parse failed: {type(e).__name__}", "parse_error", 200, "failed")
 
     res["items"] = len(samples)
     res["samples"] = samples[:3]
 
     if len(samples) < MIN_ITEMS:
-        res.update(verdict="불가", reason=f"항목 {len(samples)}건 (최소 {MIN_ITEMS})")
+        return fail(f"insufficient items: {len(samples)} (minimum {MIN_ITEMS})", "insufficient_items", 200, "ambiguous")
     elif len(set(samples)) == 1:
-        res.update(verdict="불가", reason="모든 항목이 동일한 값 - 실측이 아닐 가능성")
+        return fail("all samples identical", "ambiguous_items", 200, "ambiguous")
     else:
-        res.update(verdict="가능",
-                   reason=f"{len(samples)}건 파싱 성공, 값이 서로 다름")
+        res.update(verdict="가능", reason=f"{len(samples)} items parsed with distinct values")
+    captured = observation_time()
+    res.update(source_result(source_attempt(c["url"], http_status=200, parse_status="ok"), captured))
+    res.update(probe_status="ok", provenance={"source_key": c["key"], "source_url": c["url"], "http_status": 200, "parse_status": "ok",
+                                             "access_basis": res["access_basis"], "max_source_reads": 1})
+    if documentation:
+        res["provenance"]["public_api_documentation"] = documentation
+    for field in ("access_basis", "public_api_documentation", "max_source_reads"):
+        if field in res:
+            res["last_attempt"][field] = res[field]
     return res
 
 
 def main() -> int:
     only = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else None
     results = []
+    previous = {r.get("key"): r for r in previous_payload(OUT).get("candidates", [])}
     for c in CANDIDATES:
         if only and c["key"] != only:
             continue
-        r = probe(c)
+        r = probe(c, previous.get(c["key"]))
         mark = "가능" if r["verdict"] == "가능" else "불가"
         print(f"  [{mark}] {c['label'][:32]:34s} {r.get('items',0):3d}건  {r['reason'][:52]}")
         results.append(r)

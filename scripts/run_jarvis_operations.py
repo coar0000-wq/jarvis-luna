@@ -18,6 +18,7 @@ import jarvis_operations as core
 import jarvis_execution as execution
 import jarvis_feedback as feedback
 import jarvis_watch as watch
+import jarvis_recovery as recovery
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE = 'data/operations/state.json'
@@ -99,6 +100,7 @@ def input_version(root):
 
 def validate_state(root, state):
     core.project_summary(state)
+    recovery.validate(state)
     ledger = read(root, execution.ExecutionStore.filename, {}) or {}
     if ledger.get('global_stop'):
         raise ValueError('execution global stop; explicit reconciliation required')
@@ -172,12 +174,44 @@ def approval_cards(root):
     return cards
 
 
+def recovery_watchers(observed):
+    rows = copy.deepcopy(observed['watchers'])
+    # Cursor-relative change labels are not source health. Pure execution reads
+    # have no prior cursor, so bind identical actual healthy evidence as baseline.
+    for row in rows:
+        if row.get('status') in ('NO_CHANGE','CHANGED','COOLDOWN','READY'):
+            row['status'] = 'BASELINE'
+    return rows
+
+
+def apply_watch(state, observed, stamp):
+    state['watch'] = observed['state']
+    current_recovery_watchers = recovery_watchers(observed)
+    recovery.reconcile(state, current_recovery_watchers, now=stamp)
+    for event in observed['events']:
+        key = event.get('event_id') or core.digest(event)
+        old = state['events'].get(key)
+        if old is not None and old != event:
+            raise ValueError('immutable watch event collision')
+        state['events'][key] = event
+        team = event.get('source_team')
+        if team in core.TEAMS:
+            core.create_task(state, goal='관찰 이벤트 검토 / ' + key[:16], team=team,
+                payload={'teams':[team],'source_event':key,'purpose':'saved_event_review_only'},
+                evidence=event.get('evidence'), priority='high')
+
+
 def summarize(root, state, observed, learned, now):
     safe = core.project_summary(state)
     tasks = safe.get('tasks') or []
+    recovery_board = recovery.project(state)
+    latest_recovery = {}
+    for item in recovery_board['episodes']:
+        latest_recovery[item['source_team']] = item
     watchers = [{'team': v.get('source_team'),
-                 **{k:v.get(k) for k in ('status','captured_at')},
-                 'reason': ', '.join(v.get('blockers') or [])} for v in observed['watchers']]
+                 **{k:v.get(k) for k in ('status','captured_at','observed_at','observation_kind','scope','coverage')},
+                 'reason': ', '.join(v.get('blockers') or []),
+                 'recovery': latest_recovery.get(v.get('source_team'))} for v in observed['watchers']]
     local_verified = sum(t.get('state') == 'COMPLETED' and t.get('level',4) <= 2 for t in tasks)
     cards = approval_cards(root)
     mocra = read(root, 'data/mocra_readiness.json', {}) or {}
@@ -214,8 +248,13 @@ def summarize(root, state, observed, learned, now):
           'handoffs_accepted':sum(h.get('status') == 'ACCEPTED' for h in state['handoffs'].values()),
           'watchers_ready':sum(w['status'] in ('BASELINE','NO_CHANGE','CHANGED','READY','COOLDOWN') for w in watchers),
           'watchers_blocked':sum(w['status'] == 'BLOCKED' for w in watchers),
+          'watchers_partial':sum(w['status'] == 'PARTIAL' for w in watchers),
+          'watchers_local':sum(w['status'] == 'LOCAL_VERIFIED' for w in watchers),
+          'source_recoveries_verified':sum(e['status'] == 'RECOVERED' for e in recovery_board['episodes']),
+          'source_recoveries_open':sum(e['status'] != 'RECOVERED' for e in recovery_board['episodes']),
           'events':len(state['events']),'approval_waiting':len(cards)},
-       'tasks':tasks[-40:], 'watchers':watchers, 'action_cards':cards, 'business':business,
+       'tasks':tasks[-40:], 'watchers':watchers, 'source_recovery':recovery_board,
+       'action_cards':cards, 'business':business,
        'feedback':{'status':'awaiting_actual_observations','verified_observations':0,'training_performed':False}}
 
 
@@ -233,19 +272,9 @@ def run(root=ROOT, *, now=None, execute_local=True):
         validate_state(root, state)
         if not state['watch'] and state['sequence']:
             raise ValueError('watch cursor missing with task history; reconcile, do not reset')
-        observed = watch.observe(root, state['watch'] or None, now=now, policy=policy.get('watch'))
-        state['watch'] = observed['state']
-        for event in observed['events']:
-            key = event.get('event_id') or core.digest(event)
-            old = state['events'].get(key)
-            if old is not None and old != event:
-                raise ValueError('immutable watch event collision')
-            state['events'][key] = event
-            team = event.get('source_team')
-            if team in core.TEAMS:
-                core.create_task(state, goal='관찰 이벤트 검토 / ' + key[:16], team=team,
-                    payload={'teams':[team],'source_event':key,'purpose':'saved_event_review_only'},
-                    evidence=event.get('evidence'), priority='high')
+        observed = watch.observe(root, state['watch'] or None, now=stamp, policy=policy.get('watch'))
+        apply_watch(state, observed, stamp)
+        current_recovery_watchers = recovery_watchers(observed)
         version = input_version(root)
         members = canonical_members(root)
         goal = bootstrap(state, version, members)
@@ -258,7 +287,8 @@ def run(root=ROOT, *, now=None, execute_local=True):
             processed = set()
             for _ in range(32):
                 active = [t for t in candidates if t['task_id'] not in processed and
-                          (t.get('goal') == goal or t.get('payload',{}).get('source_event'))]
+                          (t.get('goal') == goal or t.get('payload',{}).get('source_event')
+                           or t.get('payload',{}).get('recovery_id'))]
                 if not active:
                     break
                 for task in active:
@@ -276,7 +306,7 @@ def run(root=ROOT, *, now=None, execute_local=True):
                         'reason':'기존 산출물의 출처·최신성·차단 요인을 로컬로 점검',
                         'confidence':None,'evidence':copy.deepcopy(task.get('evidence') or {})})
                     atomic(root, STATE, state)
-                    receipt = execution.execute(root, state['tasks'][task_id], execution.ExecutionStore(root), now=now)
+                    receipt = execution.execute(root, state['tasks'][task_id], execution.ExecutionStore(root), now=stamp)
                     if receipt.get('status') == 'VERIFIED' and execution.validate_receipt(root, receipt):
                         state['receipts'][receipt['receipt_id']] = receipt
                         action = receipt['action']
@@ -284,14 +314,37 @@ def run(root=ROOT, *, now=None, execute_local=True):
                             'status':'VERIFIED','receipt_id':receipt['receipt_id']}
                         state['decisions'][decision_id].update(status='LOCAL_OUTPUT_VERIFIED',
                             action_id=action['action_id'],receipt_id=receipt['receipt_id'])
-                        core.transition(state, task_id, 'COMPLETED', receipt=receipt)
+                        recovery_id = task.get('payload',{}).get('recovery_id')
+                        if recovery_id:
+                            # Re-read after the report receipt, not just the cached
+                            # pre-dispatch observation. Historical report != live health.
+                            fresh_observation = watch.observe(root, now=stamp, policy=policy.get('watch'))
+                            row = next(w for w in recovery_watchers(fresh_observation)
+                                       if w['source_team'] == task['payload']['watcher_team'])
+                            keys = ('source_team','source','status','source_hash','captured_at','observed_at','observation_kind','coverage')
+                            expected = {'recovery_id':recovery_id, **{k:row.get(k) for k in keys}}
+                            document_evidence = [s for s in receipt.get('source_evidence',[]) if s.get('path') == row.get('source')]
+                            source_bytes_match = bool(document_evidence and document_evidence[-1].get('sha256') == row.get('source_document_hash'))
+                            if receipt.get('source_recovery_evidence') != expected or not source_bytes_match:
+                                recovery.record_attempt(state, recovery_id, receipt)
+                                recovery.escalate(state, recovery_id, now=stamp)
+                                state['decisions'][decision_id]['status'] = 'SOURCE_EVIDENCE_CHANGED_RECONCILIATION_REQUIRED'
+                            else:
+                                core.transition(state, task_id, 'COMPLETED', receipt=receipt)
+                                recovery.verify_completed(state, recovery_id, receipt, row, now=stamp)
+                        else:
+                            core.transition(state, task_id, 'COMPLETED', receipt=receipt)
                     else:
                         core.transition(state, task_id, 'BLOCKED', reason='실행 기록 검증 실패: ' + str(receipt.get('status')))
                     handoffs(state, version, goal, members)
                     atomic(root, STATE, state)
                 candidates = core.ready_tasks(state)
+        # Report current health as well as historical output proof. Preserve the
+        # original cursor/dedup stream; a pure receipt read must never reset it.
+        observed = watch.observe(root, state['watch'], now=stamp, policy=policy.get('watch'))
+        apply_watch(state, observed, stamp)
         validate_state(root, state)
-        learned = feedback.build(state, root, now=now)
+        learned = feedback.build(state, root, now=stamp)
         atomic(root, STATE, state)
         for name in ('decisions','knowledge_graph','feedback'):
             atomic(root, 'data/operations/' + name + '.json', learned[name])

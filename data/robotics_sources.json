@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:39:06.332159+00:00",
+  "generated_at": "2026-10-04T07:13:25.666391+00:00",
   "generator": "scripts/collect_robotics.py",
   "목적": "옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. 분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다.",
   "접근_정책": "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 그 주소만 사용하고 요청 간 3초를 둔다. RSS 두 곳은 robots.txt 허용을 확인했다.",
@@ -7,24 +7,74 @@
   "sources": {
     "arxiv": {
       "status": "ok",
-      "reason": "",
-      "경로": "api.openalex.org (robots Allow: /) · export.arxiv.org 에는 요청하지 않는다",
       "items": [
         {
           "title": "Towards Efficient HPC Systems for Agents: Challenges and Opportunities",
           "summary": "Coding agents have become real users of high-performance computing (HPC) systems, yet today's HPC abstractions, interfaces, and policies remain designed for human-driven workflows. In our measurement, users running coding agents are only 19.5% of the observed population, but account for 55.8% of job submissions, 29.1% of CPU core-hours, and 42.7% of GPU-hours. Agents are not simply faster humans. ",
           "published": "2026-09-30",
-          "url": "https://doi.org/10.48550/arxiv.2609.38723",
+          "url": "https://arxiv.org/abs/2609.38723",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Coded Computing for Dynamic System via a Cartesian Product",
           "summary": "This paper studies coded distributed computing (CDC) in a dynamic system in which workers may depart and new clusters may join. The caches of the surviving workers and their existing Reduce assignments stay untouched, while the storage brought by arriving clusters is put to use. In contrast to elastic computing, which targets linear functions, and to dynamic coded caching, which requires placement",
           "published": "2026-09-30",
-          "url": "https://doi.org/10.48550/arxiv.2609.39373",
+          "url": "https://arxiv.org/abs/2609.39373",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
+        },
+        {
+          "title": "Aging-Aware Online Distributed Scheduling for Lifecycle Carbon Reduction in Geo-Distributed Data Centers",
+          "summary": "The rapid proliferation of data centers (DCs), driven by cloud computing and artificial intelligence (AI), has led to massive energy demand and carbon emissions, posing significant sustainability challenges. Carbon-aware optimization in geographically distributed data centers has been widely studied. Most existing approaches mainly focus on operational carbon emissions from server usage. However, ",
+          "published": "2026-09-30",
+          "url": "https://doi.org/10.48550/arxiv.2610.00605",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
+        },
+        {
+          "title": "Ditto: Generalized Reconfigurable Linearizable Reads",
+          "summary": "Linearizability gives developers the illusion that operations on a distributed datastore execute sequentially on a single machine. Providing it is expensive, so numerous specialized reads algo- rithms have been proposed to make reads significantly faster without sacrificing linearizability, which matters because most workloads are read-dominant by orders of magnitude. Yet, none of these algorithms",
+          "published": "2026-09-30",
+          "url": "https://doi.org/10.48550/arxiv.2610.00702",
+          "primary_category": "로보틱스",
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Grid Demand Flexibility Assessment of AI Data Centers via Batch Workload Temporal Shifting",
@@ -32,7 +82,16 @@
           "published": "2026-09-29",
           "url": "https://arxiv.org/abs/2609.38020",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Distinguish or Homogenize: Last-Chance Policy Identification and Risk-Budgeted Recovery under Irreversible Resource Depletion",
@@ -40,15 +99,33 @@
           "published": "2026-09-29",
           "url": "https://arxiv.org/abs/2609.36741",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Agent-Warden: eBPF-Based Kernel-Native Process-File Provenance Tracking for LLM Agents",
           "summary": "LLM agents execute dynamically generated process and file operations that are often invisible to application-layer tracing. We present Agent-Warden, an extended Berkeley Packet Filter (eBPF)-based provenance monitor for tracking task and regular-file states across process creation, file access, and process termination. Agent-Warden provides two interchangeable state backends: a PID-keyed hash-map ",
           "published": "2026-09-29",
-          "url": "https://doi.org/10.48550/arxiv.2609.38245",
+          "url": "https://arxiv.org/abs/2609.38245",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Performance vs Portability in Heterogeneous HPC Environments: Why Pre-execution Benchmarking is Required",
@@ -56,7 +133,16 @@
           "published": "2026-09-27",
           "url": "https://arxiv.org/abs/2609.33847",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Function Over Form: Distributional Orthogonalization in Mixture-of-Experts with Replica Expert Mechanism",
@@ -64,7 +150,16 @@
           "published": "2026-09-26",
           "url": "https://arxiv.org/abs/2609.32398",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "No-Restart Elasticity in an Adaptive Runtime System for Cloud-Native HPC",
@@ -72,15 +167,33 @@
           "published": "2026-09-26",
           "url": "https://arxiv.org/abs/2609.32217",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "ASCEND: Personal AI Agents for Autonomous Scientific Computing Across HPC Clusters and GPU Workstations",
           "summary": "Traditional scientific computing requires researchers to translate intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that supports several placements of the agent and, in the arrangement used for every case ",
           "published": "2026-09-26",
-          "url": "https://doi.org/10.48550/arxiv.2609.32868",
+          "url": "https://arxiv.org/abs/2609.32868",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems",
@@ -88,7 +201,16 @@
           "published": "2026-09-25",
           "url": "https://arxiv.org/abs/2609.30656",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
@@ -96,7 +218,16 @@
           "published": "2026-09-25",
           "url": "https://arxiv.org/abs/2609.31047",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "IceCube Takes Flight with Pelican - A First Experience",
@@ -104,7 +235,16 @@
           "published": "2026-09-25",
           "url": "https://arxiv.org/abs/2609.31851",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "WLCG Mini-Capability Challenge: Host Tuning to Im- prove WAN Data Transfers",
@@ -112,7 +252,16 @@
           "published": "2026-09-25",
           "url": "https://arxiv.org/abs/2609.35859",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "HBF-Sim: An Extensible HBF Simulator for Large-scale GPU Memory Systems",
@@ -120,7 +269,16 @@
           "published": "2026-09-24",
           "url": "https://arxiv.org/abs/2609.29246",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "MQSS-Selector: RL-Guided Pass Selection for an MLIR Compilation Pipeline",
@@ -128,7 +286,16 @@
           "published": "2026-09-24",
           "url": "https://arxiv.org/abs/2609.30104",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity",
@@ -136,7 +303,16 @@
           "published": "2026-09-24",
           "url": "https://arxiv.org/abs/2609.30057",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Managing Iterative Hybrid Quantum-Classical Optimization as a First-Class Scientific Workflow",
@@ -144,7 +320,16 @@
           "published": "2026-09-24",
           "url": "https://arxiv.org/abs/2609.30532",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "CMS Open Data Visualization with FireworksWeb",
@@ -152,7 +337,16 @@
           "published": "2026-09-24",
           "url": "https://arxiv.org/abs/2609.35843",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Strong NP-Hardness and Approximation Algorithm for Weighted Tardiness with Release Dates and Identical Processing Times",
@@ -160,7 +354,16 @@
           "published": "2026-09-23",
           "url": "https://arxiv.org/abs/2609.28751",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Empty Intersection: Provenance Coverage Rose to 98% and Neither Verification Decision Moved",
@@ -168,7 +371,16 @@
           "published": "2026-09-23",
           "url": "https://arxiv.org/abs/2609.30308",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Optimal Operation Method for Computing Power-Electric Power Coordination Considering End-to-End Completion Latency of Computing Tasks",
@@ -176,7 +388,16 @@
           "published": "2026-09-22",
           "url": "https://arxiv.org/abs/2609.25594",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Adaptive Parallel-in-Time Integration with Dynamic Resource Management",
@@ -184,7 +405,16 @@
           "published": "2026-09-21",
           "url": "https://arxiv.org/abs/2609.24434",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Bridging the Vendor Gap: Enabling AMD GPU Support for Awkward Array via ROCm/HIP for the HL-LHC Era",
@@ -192,23 +422,16 @@
           "published": "2026-09-21",
           "url": "https://arxiv.org/abs/2609.24628",
           "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Toward GPU-Resident Climate Models: A Feasibility Study on Lossy Compression for the Spherical Harmonic Transform's Communication Bottleneck",
-          "summary": "Operational pseudospectral atmospheric models such as the ECMWF Integrated Forecasting System (IFS) run today almost exclusively on CPUs; GPU ports are under active development but not yet used in production. These models rely on the Spherical Harmonic Transform (SHT). Each time-step requires forward and inverse SHTs, and both passes depend on global pencil transposition that redistribute multi-di",
-          "published": "2026-09-21",
-          "url": "https://arxiv.org/abs/2609.24294",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
-        },
-        {
-          "title": "Accurate Simulation of Distributed Training Jobs with Network Contention Modeling",
-          "summary": "Trace-driven simulation is widely used to evaluate distributed training (DT) jobs in GPU clusters, but existing simulators either ignore network contention or approximate it with a fixed penalty. This misses how scheduling decisions determine which jobs share server network interfaces and inter-server links, thereby changing networking time during training. As a result, our motivating experiments ",
-          "published": "2026-09-20",
-          "url": "https://arxiv.org/abs/2609.23278",
-          "primary_category": "로보틱스",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00",
+          "provenance": {
+            "source_key": "T10715",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "New perspectives for the fitness fatigue model: how to revisit questions about the science of sports training from the perspective of systems control theory",
@@ -216,16 +439,58 @@
           "published": "2026-09-22",
           "url": "https://arxiv.org/abs/2609.26506",
           "primary_category": "제어·자율주행",
-          "source_detail": "arXiv via OpenAlex"
+          "source_detail": "arXiv via OpenAlex",
+          "captured_at": "2026-10-04T07:13:18.651375+00:00",
+          "observed_at": "2026-10-04T07:13:18.651375+00:00",
+          "collected_at": "2026-10-04T07:13:18.651375+00:00",
+          "provenance": {
+            "source_key": "T11209",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT11209&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         }
       ],
-      "errors": []
+      "source_results": {
+        "T10715": {
+          "status": "ok",
+          "last_attempt": {
+            "status": "ok",
+            "code": "success",
+            "attempted_at": "2026-10-04T07:13:14.473010+00:00",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT10715&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok",
+            "error": ""
+          },
+          "captured_at": "2026-10-04T07:13:14.472985+00:00",
+          "observed_at": "2026-10-04T07:13:14.472985+00:00",
+          "collected_at": "2026-10-04T07:13:14.472985+00:00"
+        },
+        "T11209": {
+          "status": "ok",
+          "last_attempt": {
+            "status": "ok",
+            "code": "success",
+            "attempted_at": "2026-10-04T07:13:18.651394+00:00",
+            "source_url": "https://api.openalex.org/works?filter=primary_location.source.id%3AS4306400194%2Cfrom_publication_date%3A2026-09-13%2Ctopics.id%3AT11209&sort=publication_date%3Adesc&per-page=25&mailto=jarvis-luna%40users.noreply.github.com",
+            "http_status": 200,
+            "parse_status": "ok",
+            "error": ""
+          },
+          "captured_at": "2026-10-04T07:13:18.651375+00:00",
+          "observed_at": "2026-10-04T07:13:18.651375+00:00",
+          "collected_at": "2026-10-04T07:13:18.651375+00:00"
+        }
+      },
+      "errors": [],
+      "reason": "",
+      "captured_at": "2026-10-04T07:13:14.472985+00:00",
+      "observed_at": "2026-10-04T07:13:14.472985+00:00",
+      "collected_at": "2026-10-04T07:13:14.472985+00:00"
     },
     "rss": {
       "status": "ok",
-      "reason": "",
-      "source": "IEEE Spectrum Robotics, The Robot Report",
-      "errors": [],
       "items": [
         {
           "title": "Video Friday: Albatross Falls, Spins, Self-Rights, and Sails Away",
@@ -233,7 +498,16 @@
           "published": "Fri, 02 Oct 2026 16:30:02 +0000",
           "url": "https://spectrum.ieee.org/video-friday-bioinspired-robotics",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Atlas Robot’s New Hand May Outperform Humanlike Designs",
@@ -241,7 +515,16 @@
           "published": "Thu, 01 Oct 2026 14:40:12 +0000",
           "url": "https://spectrum.ieee.org/robust-robot-hand",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "A Day in the Life of a Roboticist: Charlie Kemp",
@@ -249,7 +532,16 @@
           "published": "Mon, 28 Sep 2026 21:48:56 +0000",
           "url": "https://robotsguide.com/learn/a-day-in-the-life-of-a-roboticist-charlie-kemp",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Life’s Better With a Little Robot Goose",
@@ -257,7 +549,16 @@
           "published": "Fri, 25 Sep 2026 16:00:04 +0000",
           "url": "https://spectrum.ieee.org/video-friday-goose-household-robots",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
@@ -265,7 +566,16 @@
           "published": "Thu, 24 Sep 2026 18:00:04 +0000",
           "url": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
@@ -273,7 +583,16 @@
           "published": "Tue, 22 Sep 2026 14:00:04 +0000",
           "url": "https://spectrum.ieee.org/sustainability-robotics-barbara-mazzolai",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Two Birotors Make a Quadrotor",
@@ -281,7 +600,16 @@
           "published": "Fri, 18 Sep 2026 16:01:05 +0000",
           "url": "https://spectrum.ieee.org/video-friday-quadrotor-from-birotor",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Rethinking Robot Safety in the Age of AI",
@@ -289,7 +617,16 @@
           "published": "Wed, 16 Sep 2026 16:51:02 +0000",
           "url": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe",
@@ -297,7 +634,16 @@
           "published": "Tue, 15 Sep 2026 15:22:30 +0000",
           "url": "https://spectrum.ieee.org/humanoid-robot-safety",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Humanoid Robot Takes On Monkey Bars",
@@ -305,7 +651,16 @@
           "published": "Fri, 11 Sep 2026 15:30:04 +0000",
           "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Robots Are Learning to Feel",
@@ -313,7 +668,16 @@
           "published": "Thu, 10 Sep 2026 18:22:35 +0000",
           "url": "https://spectrum.ieee.org/tactile-data-robots",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "This Robot Will Draw Your Blood Now",
@@ -321,7 +685,16 @@
           "published": "Mon, 07 Sep 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/blood-draw-robot-vitestro-aletta",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Cyborg Roaches Can Stab You With Needles",
@@ -329,7 +702,16 @@
           "published": "Sat, 05 Sep 2026 13:00:04 +0000",
           "url": "https://spectrum.ieee.org/cyborg-rescue-roach",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Digit Redecorates",
@@ -337,7 +719,16 @@
           "published": "Fri, 04 Sep 2026 16:00:05 +0000",
           "url": "https://spectrum.ieee.org/video-friday-agility-robotics-digit",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Protecting Dynamic Industrial Robot Cable Carriers",
@@ -345,7 +736,16 @@
           "published": "Thu, 03 Sep 2026 12:18:21 +0000",
           "url": "https://spectrum.ieee.org/industrial-robot-cable-carrier-protection",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "The Best Way to Explore Lunar Craters Is a Giant Robot Ball",
@@ -353,7 +753,16 @@
           "published": "Thu, 03 Sep 2026 12:00:01 +0000",
           "url": "https://spectrum.ieee.org/moon-ball-robot",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Meet Microduck",
@@ -361,7 +770,16 @@
           "published": "Fri, 28 Aug 2026 16:00:03 +0000",
           "url": "https://spectrum.ieee.org/video-friday-microduck-robot",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
@@ -369,7 +787,16 @@
           "published": "Tue, 25 Aug 2026 10:00:03 +0000",
           "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Do We Need Superhuman Humanoid Robots?",
@@ -377,7 +804,16 @@
           "published": "Fri, 21 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-unitree-superhuman",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Drones With Claws Perch on Arctic Icebergs",
@@ -385,7 +821,16 @@
           "published": "Tue, 18 Aug 2026 13:00:01 +0000",
           "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Is Shipyard Welding the Right First Job for Humanoid Robots?",
@@ -393,7 +838,16 @@
           "published": "Mon, 17 Aug 2026 15:33:42 +0000",
           "url": "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Lift Happens",
@@ -401,7 +855,16 @@
           "published": "Fri, 14 Aug 2026 17:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Robot Recycler Salvages Parts From Broken Machines",
@@ -409,7 +872,16 @@
           "published": "Mon, 10 Aug 2026 18:01:25 +0000",
           "url": "https://spectrum.ieee.org/recycling-robot",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Video Friday: Drones Go Heavy in DARPA Lift Challenge",
@@ -417,7 +889,16 @@
           "published": "Fri, 07 Aug 2026 16:00:01 +0000",
           "url": "https://spectrum.ieee.org/video-friday-heavy-lift-drone",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "What Robotics Companies Think About the U.S. Foreign Robot Ban",
@@ -425,7 +906,33 @@
           "published": "Tue, 04 Aug 2026 11:00:01 +0000",
           "url": "https://spectrum.ieee.org/fcc-covered-list-mobile-robots",
           "feed": "IEEE Spectrum Robotics",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00",
+          "provenance": {
+            "source_key": "IEEE Spectrum Robotics",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
+        },
+        {
+          "title": "The physical AI race will be won in the patent office",
+          "summary": "<p>Patent protection is important for robotics startups, but they should be strategic in determining what IP is important, says Lightbringer.</p> <p>The post <a href=\"https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/\">The physical AI race will be won in the patent office</a> appeared first on <a href=\"https://www.therobotreport.com\">The Robot Report</a>.</p>",
+          "published": "Sat, 03 Oct 2026 14:30:07 +0000",
+          "url": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/",
+          "feed": "The Robot Report",
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Inside Omron’s next-generation LD mobile robots",
@@ -433,7 +940,16 @@
           "published": "Fri, 02 Oct 2026 23:01:36 +0000",
           "url": "https://www.therobotreport.com/inside-omrons-next-generation-ld-mobile-robots/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Eli Lilly, Purdue to share field learnings on human robot interaction at RoboBusiness",
@@ -441,7 +957,16 @@
           "published": "Fri, 02 Oct 2026 21:12:14 +0000",
           "url": "https://www.therobotreport.com/eli-lilly-purdue-to-share-field-learnings-on-human-robot-interaction-at-robobusiness/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Runway introduces Praxis-1 world action model for robotics",
@@ -449,7 +974,16 @@
           "published": "Fri, 02 Oct 2026 18:32:13 +0000",
           "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Calling robotics startups: Submissions for the 2026 Robotics Startup Radar close soon",
@@ -457,7 +991,16 @@
           "published": "Fri, 02 Oct 2026 14:00:59 +0000",
           "url": "https://www.therobotreport.com/calling-all-robotics-startups-apply-now-2026-robotics-startup-radar/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Top 10 robotics stories of September 2026",
@@ -465,7 +1008,16 @@
           "published": "Thu, 01 Oct 2026 20:42:08 +0000",
           "url": "https://www.therobotreport.com/top-10-robotics-stories-of-september-2026/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Boston Dynamics drops pinkie on new humanoid hand",
@@ -473,7 +1025,16 @@
           "published": "Thu, 01 Oct 2026 17:52:51 +0000",
           "url": "https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Precision In Motion. Vishay Precision Group, Inc. (VPG) to Showcase Custom Sensing Capabilities for Humanoid Robotics at RoboBusiness 2026",
@@ -481,7 +1042,16 @@
           "published": "Thu, 01 Oct 2026 15:29:55 +0000",
           "url": "https://www.therobotreport.com/precision-in-motion-vishay-precision-group-inc-vpg-to-showcase-custom-sensing-capabilities-for-humanoid-robotics-at-robobusiness-2026/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
@@ -489,7 +1059,16 @@
           "published": "Thu, 01 Oct 2026 15:02:19 +0000",
           "url": "https://www.therobotreport.com/your-robots-safety-functions-already-work-what-if-the-input-lies/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "How Maven Robotics plans to automate industrial work, one task at a time",
@@ -497,7 +1076,16 @@
           "published": "Thu, 01 Oct 2026 12:30:39 +0000",
           "url": "https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "ANYbotics launches Shift to streamline robot fleet operations, scale inspections",
@@ -505,7 +1093,16 @@
           "published": "Thu, 01 Oct 2026 07:59:59 +0000",
           "url": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "The Robot Report parent Arrowfly launches AI for Engineers platform, events for engineers navigating AI",
@@ -513,7 +1110,16 @@
           "published": "Wed, 30 Sep 2026 14:03:31 +0000",
           "url": "https://www.therobotreport.com/robot-report-parent-arrowfly-launches-ai-for-engineers-platform-events-engineers-navigating-ai/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Innodata opens motion-capture lab to help humanoids move more like people",
@@ -521,7 +1127,16 @@
           "published": "Wed, 30 Sep 2026 12:59:12 +0000",
           "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "Tackling construction labor shortages: ASI and SoftBank partner on autonomous fleets",
@@ -529,7 +1144,16 @@
           "published": "Wed, 30 Sep 2026 12:30:17 +0000",
           "url": "https://www.therobotreport.com/tackling-construction-labor-shortages-asi-softbank-partner-autonomous-fleets/",
           "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         },
         {
           "title": "ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness",
@@ -537,17 +1161,55 @@
           "published": "Tue, 29 Sep 2026 19:52:46 +0000",
           "url": "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/",
           "feed": "The Robot Report",
-          "source": "rss"
-        },
-        {
-          "title": "Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents",
-          "summary": "<p>Flourish is releasing a $3,555 phone-trainable home robot, targeting busy parents with personalized, cloud-trained chore automation.</p> <p>The post <a href=\"https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/\">Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents</a> appeared first on <a href=\"https://www.therobotreport.com\">",
-          "published": "Tue, 29 Sep 2026 14:00:12 +0000",
-          "url": "https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/",
-          "feed": "The Robot Report",
-          "source": "rss"
+          "source": "rss",
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00",
+          "provenance": {
+            "source_key": "The Robot Report",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok"
+          }
         }
-      ]
+      ],
+      "source_results": {
+        "IEEE Spectrum Robotics": {
+          "status": "ok",
+          "last_attempt": {
+            "status": "ok",
+            "code": "success",
+            "attempted_at": "2026-10-04T07:13:21.910895+00:00",
+            "source_url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+            "http_status": 200,
+            "parse_status": "ok",
+            "error": ""
+          },
+          "captured_at": "2026-10-04T07:13:21.910860+00:00",
+          "observed_at": "2026-10-04T07:13:21.910860+00:00",
+          "collected_at": "2026-10-04T07:13:21.910860+00:00"
+        },
+        "The Robot Report": {
+          "status": "ok",
+          "last_attempt": {
+            "status": "ok",
+            "code": "success",
+            "attempted_at": "2026-10-04T07:13:24.165197+00:00",
+            "source_url": "https://www.therobotreport.com/feed/",
+            "http_status": 200,
+            "parse_status": "ok",
+            "error": ""
+          },
+          "captured_at": "2026-10-04T07:13:24.165173+00:00",
+          "observed_at": "2026-10-04T07:13:24.165173+00:00",
+          "collected_at": "2026-10-04T07:13:24.165173+00:00"
+        }
+      },
+      "errors": [],
+      "reason": "",
+      "captured_at": "2026-10-04T07:13:21.910860+00:00",
+      "observed_at": "2026-10-04T07:13:21.910860+00:00",
+      "collected_at": "2026-10-04T07:13:21.910860+00:00"
     }
   }
 }

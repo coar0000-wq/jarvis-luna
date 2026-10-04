@@ -288,10 +288,27 @@ def _snapshot(root, action, now):
     if any(t not in SOURCES for t in teams):
         raise ValueError('unknown source team')
     sources = [_read_source(root, t, now) for t in dict.fromkeys(teams)]
-    return {'schema_version': 1, 'task_id': action['task_id'], 'action_hash': action['action_hash'],
+    report = {'schema_version': 1, 'task_id': action['task_id'], 'action_hash': action['action_hash'],
             'generated_at': _time(now).isoformat(), 'sources': sources, 'confidence': None,
             'blockers': [{'team': s['team'], 'reason': b} for s in sources for b in s['blockers']],
             'business_clearance': False, 'canonical_mutations': False}
+    if payload.get('purpose') == 'verify_actual_watch_recovery_only':
+        # Fixed pure reads only. A payload flag cannot register network/repair authority.
+        import jarvis_watch
+        recovery_id, source_team = payload.get('recovery_id'), payload.get('watcher_team')
+        if not isinstance(recovery_id, str) or source_team not in jarvis_watch.SOURCE_MAPPINGS:
+            raise ValueError('invalid source recovery context')
+        config = _safe(root, 'config/jarvis_operations_policy.json')
+        policy = json.loads(config.read_text(encoding='utf-8')).get('watch') if config.exists() else None
+        observed = jarvis_watch.observe(root, now=now, policy=policy)
+        watcher = next(w for w in observed['watchers'] if w['source_team'] == source_team)
+        keys = ('source_team','source','status','source_hash','captured_at','observed_at','observation_kind','coverage')
+        report['source_recovery_evidence'] = {'recovery_id':recovery_id, **{k:watcher.get(k) for k in keys}}
+        report['sources'].append({'team':action['team'],'path':watcher['source'],
+            'sha256':watcher.get('source_document_hash'),'captured_at':watcher.get('captured_at'),
+            'observed_at':watcher.get('observed_at'),'freshness':'actual_watch_scope_only',
+            'blockers':list(watcher.get('blockers') or [])})
+    return report
 
 
 def _receipt(action, status, reason=None, **extra):
@@ -410,6 +427,8 @@ def execute(root, task, ledger, *, approval=None, verifier=None, adapter=None, n
                 raise ValueError('report readback mismatch')
             outputs = [{'path': action['target'], 'sha256': hashlib.sha256(raw).hexdigest()}]
             details = {'source_evidence': report['sources'], 'blockers': report['blockers'], 'confidence': None}
+            if 'source_recovery_evidence' in report:
+                details['source_recovery_evidence'] = report['source_recovery_evidence']
         else:
             # Only a proven pure local read can retry once. No API/auth/quota calls exist.
             for attempt in range(2):
@@ -500,6 +519,12 @@ def validate_receipt(root, receipt, ledger=None):
                 return False
             if report.get('sources') != receipt.get('source_evidence') or report.get('business_clearance') is not False:
                 return False
+            if action['payload'].get('purpose') == 'verify_actual_watch_recovery_only':
+                evidence = report.get('source_recovery_evidence')
+                if not isinstance(evidence, dict) or evidence != receipt.get('source_recovery_evidence'):
+                    return False
+                if evidence.get('recovery_id') != action['payload'].get('recovery_id') or evidence.get('source_team') != action['payload'].get('watcher_team'):
+                    return False
         return True
     except (KeyError, TypeError, ValueError, OSError):
         return False

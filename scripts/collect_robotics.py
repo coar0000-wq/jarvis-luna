@@ -70,6 +70,8 @@ def get(url: str, ua: str) -> tuple[bytes | None, str]:
         req = urllib.request.Request(url, headers={
             "User-Agent": ua, "Accept-Encoding": "identity"})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            if r.status != 200:
+                return None, f"HTTP {r.status}"
             return r.read(), ""
     except urllib.error.HTTPError as e:
         return None, f"HTTP {e.code}"
@@ -77,103 +79,124 @@ def get(url: str, ua: str) -> tuple[bytes | None, str]:
         return None, f"{type(e).__name__}: {e}"
 
 
+
+def observation_time() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def source_attempt(url, error="", code=None, http_status=None, parse_status=None):
+    if http_status is None and error.startswith("HTTP "):
+        try:
+            http_status = int(error.split()[1])
+        except (ValueError, IndexError):
+            pass
+    return {"status": "failed" if error else "ok",
+            "code": code or ("http_error" if http_status and http_status != 200 else
+                              "transport_error" if error else "success"),
+            "attempted_at": observation_time(), "source_url": url,
+            "http_status": http_status, "parse_status": parse_status or "not_attempted",
+            "error": error}
+
+
+def captured_rows(rows, key, url):
+    # This clock is sampled only after a successful HTTP response and usable parse.
+    captured = observation_time()
+    for row in rows:
+        row.update(captured_at=captured, observed_at=captured, collected_at=captured,
+                   provenance={"source_key": key, "source_url": url,
+                               "http_status": 200, "parse_status": "ok"})
+    return captured
+
+
+def source_result(attempt, captured=None, previous=None):
+    result = {"status": attempt["status"], "last_attempt": attempt}
+    for field in ("captured_at", "observed_at", "collected_at"):
+        value = captured or (previous or {}).get(field)
+        if value:
+            result[field] = value
+    if attempt["status"] != "ok":
+        result["retained"] = bool(previous)
+    return result
+
+
+def pool_result(items, results, errors):
+    successful = sum(r["status"] == "ok" for r in results.values())
+    result = {"status": "ok" if successful == len(results) and successful else
+              "partial" if successful else "failed", "items": items,
+              "source_results": results, "errors": errors,
+              "reason": "; ".join(str(e) for e in errors)}
+    # A pool's clock is the oldest actual item observation, never its write time.
+    clocks = [r.get("captured_at") for r in items if r.get("captured_at")]
+    if clocks and len(clocks) == len(items):
+        captured = min(clocks)
+        result.update(captured_at=captured, observed_at=captured, collected_at=captured)
+    return result
+
+
+def previous_payload(path):
+    try:
+        value = json.loads(path.read_text(encoding="utf-8-sig"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
 def clean(s: str | None) -> str:
     return " ".join((s or "").split())
 
 
-def collect_arxiv() -> dict:
-    """2026-09-14 부터 받지 않는다.
-
-    이 파일 18행에 "arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며
-    이 주소를 쓰라고 안내한다" 고 적어 두고 받아 왔다. 안내는 사실이다.
-    그런데 그 호스트의 robots.txt 는 User-agent: * 에 Disallow: / 다.
-    안내 문서와 robots 가 어긋날 때 우리는 robots 를 따르기로 했다.
-
-    RSS 쪽(IEEE Spectrum, Robot Report)은 그대로 받는다. 거기는 막지 않는다.
-    로보틱스 수집이 통째로 죽는 것이 아니라 arXiv 몫만 빈다.
-    2026-09-17 추가
-
-    막힌 것은 한 호스트지 논문이 아니었다. 지식 수집팀에 같은 일을 하고
-    여기만 비워두면 같은 자리를 다시 파게 된다. OpenAlex 로 받는다.
-
-      export.arxiv.org   Disallow: /        안 된다
-      api.openalex.org   Allow: /           이걸 쓴다
-
-    real_knowledge_sync.py 와 같은 방식이고 주제만 로보틱스다.
-    """
-    since = (datetime.now(timezone.utc) - timedelta(days=OPENALEX_DAYS)
-             ).strftime("%Y-%m-%d")
-    rows, errs = [], []
-    seen = set()
-
+def collect_arxiv(previous=None) -> dict:
+    """Read allowed OpenAlex topics, retaining each failed topic's old observations."""
+    previous = previous or {}
+    since = (datetime.now(timezone.utc) - timedelta(days=OPENALEX_DAYS)).strftime("%Y-%m-%d")
+    rows, errors, results = [], [], {}
     for topic_id, label in OPENALEX_TOPICS:
         url = "https://api.openalex.org/works?" + urllib.parse.urlencode({
             "filter": (f"primary_location.source.id:{ARXIV_OPENALEX_SOURCE},"
-                       f"from_publication_date:{since},"
-                       f"topics.id:{topic_id}"),
-            "sort": "publication_date:desc",
-            "per-page": str(MAX_PER_SOURCE),
-            "mailto": OPENALEX_MAILTO,
-        })
+                       f"from_publication_date:{since},topics.id:{topic_id}"),
+            "sort": "publication_date:desc", "per-page": str(MAX_PER_SOURCE),
+            "mailto": OPENALEX_MAILTO})
         body, err = get(url, ARXIV_UA)
+        got = []
         if err or not body:
-            errs.append(f"{label}: {err or 'empty'}")
-            continue
-        try:
-            doc = json.loads(body.decode("utf-8", "replace"))
-        except json.JSONDecodeError as e:
-            errs.append(f"{label}: JSON {e}")
-            continue
-
-        for w in doc.get("results") or []:
-            title = clean(w.get("title"))
-            if not title:
-                continue
-            loc = w.get("primary_location") or {}
-            link = loc.get("landing_page_url") or w.get("doi") or ""
-            key = link or title.lower()
-            if key in seen:
-                continue
-            seen.add(key)
-
-            inv = w.get("abstract_inverted_index")
-            summary = ""
-            if isinstance(inv, dict) and inv:
-                slots = {}
-                for word, pos in inv.items():
-                    if isinstance(pos, list):
-                        for p in pos:
-                            if isinstance(p, int):
-                                slots[p] = word
-                summary = " ".join(slots[i] for i in sorted(slots))
-
-            rows.append({
-                "title": title,
-                "summary": summary[:400],
-                "published": w.get("publication_date") or "",
-                "url": link,
-                "primary_category": label,
-                "source_detail": "arXiv via OpenAlex",
-            })
+            attempt = source_attempt(url, err or "empty response", code=None if err else "empty_response")
+        else:
+            try:
+                doc = json.loads(body.decode("utf-8", "replace"))
+                if not isinstance(doc, dict) or not isinstance(doc.get("results"), list):
+                    raise ValueError("missing results array")
+                for w in doc["results"]:
+                    if not isinstance(w, dict) or not clean(w.get("title")):
+                        continue
+                    loc = w.get("primary_location") or {}
+                    link = loc.get("landing_page_url") or w.get("doi") or ""
+                    inv, slots = w.get("abstract_inverted_index"), {}
+                    if isinstance(inv, dict):
+                        for word, positions in inv.items():
+                            if isinstance(positions, list):
+                                for pos in positions:
+                                    if isinstance(pos, int):
+                                        slots[pos] = word
+                    got.append({"title": clean(w.get("title")),
+                                "summary": " ".join(slots[i] for i in sorted(slots))[:400],
+                                "published": w.get("publication_date") or "", "url": link,
+                                "primary_category": label, "source_detail": "arXiv via OpenAlex"})
+                if not got:
+                    raise ValueError("no usable source items")
+                captured = captured_rows(got, topic_id, url)
+                attempt = source_attempt(url, http_status=200, parse_status="ok")
+                results[topic_id] = source_result(attempt, captured)
+            except (ValueError, TypeError, AttributeError) as exc:
+                attempt = source_attempt(url, str(exc), "parse_error", 200, "failed")
+        if attempt["status"] != "ok":
+            errors.append({"source_key": topic_id, "error": attempt["error"]})
+            old = (previous.get("source_results") or {}).get(topic_id)
+            results[topic_id] = source_result(attempt, previous=old)
+            got = [dict(r) for r in previous.get("items", [])
+                   if r.get("provenance", {}).get("source_key") == topic_id
+                   or (not r.get("provenance") and r.get("primary_category") == label)]
+        rows.extend(got)
         time.sleep(ARXIV_DELAY)
-
-    if not rows:
-        return {
-            "status": "failed",
-            "reason": ("OpenAlex 에서 로보틱스 논문을 받지 못했다. "
-                       + ("; ".join(errs) if errs else "결과 0건")),
-            "items": [],
-            "errors": errs,
-        }
-
-    return {
-        "status": "ok",
-        "reason": "; ".join(errs),
-        "경로": ("api.openalex.org (robots Allow: /) · "
-                "export.arxiv.org 에는 요청하지 않는다"),
-        "items": rows,
-        "errors": errs,
-    }
+    return pool_result(rows, results, errors)
 
 
 def _collect_arxiv_disabled() -> dict:
@@ -222,40 +245,43 @@ def _collect_arxiv_disabled() -> dict:
             "errors": errs, "items": uniq}
 
 
-def collect_rss() -> dict:
-    rows, errs = [], []
+def collect_rss(previous=None) -> dict:
+    previous = previous or {}
+    rows, errors, results = [], [], {}
     for name, url in RSS_FEEDS:
         body, err = get(url, WEB_UA)
+        got = []
+        if err or not body:
+            attempt = source_attempt(url, err or "empty response", code=None if err else "empty_response")
+        else:
+            try:
+                root = ET.fromstring(body)
+                for it in root.findall(".//item")[:MAX_PER_SOURCE]:
+                    title = clean(it.findtext("title"))
+                    if title:
+                        got.append({"title": title, "summary": clean(it.findtext("description"))[:400],
+                                    "published": clean(it.findtext("pubDate")),
+                                    "url": clean(it.findtext("link")), "feed": name, "source": "rss"})
+                if not got:
+                    raise ValueError("no usable RSS items")
+                captured = captured_rows(got, name, url)
+                attempt = source_attempt(url, http_status=200, parse_status="ok")
+                results[name] = source_result(attempt, captured)
+            except (ET.ParseError, ValueError) as exc:
+                attempt = source_attempt(url, str(exc), "parse_error", 200, "failed")
+        if attempt["status"] != "ok":
+            errors.append({"feed": name, "error": attempt["error"]})
+            results[name] = source_result(attempt, previous=(previous.get("source_results") or {}).get(name))
+            got = [dict(r) for r in previous.get("items", []) if r.get("feed") == name]
+        rows.extend(got)
         time.sleep(1.5)
-        if body is None:
-            errs.append({"feed": name, "error": err})
-            continue
-        try:
-            root = ET.fromstring(body)
-        except ET.ParseError as e:
-            errs.append({"feed": name, "error": f"XML 파싱 실패: {e}"})
-            continue
-        for it in root.findall(".//item")[:MAX_PER_SOURCE]:
-            title = clean(it.findtext("title"))
-            if not title:
-                continue
-            rows.append({
-                "title": title,
-                "summary": clean(it.findtext("description"))[:400],
-                "published": clean(it.findtext("pubDate")),
-                "url": clean(it.findtext("link")),
-                "feed": name,
-                "source": "rss",
-            })
-    return {"status": "ok" if rows else "failed",
-            "reason": "" if rows else "전 피드 수집 실패",
-            "source": ", ".join(n for n, _ in RSS_FEEDS),
-            "errors": errs, "items": rows}
+    return pool_result(rows, results, errors)
 
 
 def main() -> int:
-    arx = collect_arxiv()
-    rss = collect_rss()
+    previous = previous_payload(OUT).get("sources") or {}
+    arx = collect_arxiv(previous.get("arxiv"))
+    rss = collect_rss(previous.get("rss"))
     total = len(arx["items"]) + len(rss["items"])
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

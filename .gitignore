@@ -58,3 +58,6 @@ data/manual/shopify_execution_context.json
 
 # The durable execution ledger is required; only transient locks/temp files are ignored.
 !data/operations/reports/.execution-ledger.json
+
+# Read-only source observation cooldown/history is durable, never reset on publication.
+!data/daiso_real/.shortlist_observation_claim.json

@@ -24,6 +24,12 @@ def fixture():
         'watchers': [{'team': 'market', 'status': 'blocked', 'reason': '외부 연결 미설정', 'captured_at': STAMP}],
         'business': {'ready': 2, 'total': 5, 'exempt': 1, 'sales_allowed': False,
                      'blockers': ['RP 확인 필요', '안전성 근거 확인 필요', '영문 라벨 확인 필요']},
+        'source_recovery': {'schema_version': 1, 'episodes': [{
+            'recovery_id': 'recovery_market_000001', 'episode': 1, 'owner': 'market',
+            'source_team': 'market', 'status': 'BLOCKED', 'attempts': 0, 'attempt_limit': 2,
+            'escalation_code': None, 'receipt_id': None, 'first_detected_at': STAMP,
+            'last_detected_at': STAMP, 'next_action': '실제 관찰 복구 후 재검증',
+            'execution_enabled': False}]},
         'feedback': {'status': 'verified', 'verified_observations': 1, 'training_performed': False},
         'action_cards': [{'action_id': 'action-1', 'kind': 'external_draft', 'level': 'L4',
                           'status': 'waiting_approval', 'may_approve': False, 'may_execute': False,
@@ -51,7 +57,8 @@ class OperationsPublicProjectionTests(unittest.TestCase):
                      'api_key': 'SECRET_KEY', 'email': 'PRIVATE_EMAIL', 'address': 'PRIVATE_ADDRESS'}
         source.update(copy.deepcopy(forbidden))
         for value in (source['counts'], source['business'], source['feedback'], source['engines'][0],
-                      source['tasks'][0], source['watchers'][0], source['action_cards'][0]):
+                      source['tasks'][0], source['watchers'][0], source['action_cards'][0],
+                      source['source_recovery'], source['source_recovery']['episodes'][0]):
             value.update(copy.deepcopy(forbidden))
         source['action_cards'][0]['before'] = {'raw_payload': 'SECRET_BEFORE'}
         source['action_cards'][0]['after'] = ['PRIVATE_AFTER']
@@ -72,6 +79,12 @@ class OperationsPublicProjectionTests(unittest.TestCase):
         self.assertIs(card['may_execute'], False)
         self.assertNotIn('approved', card)
         self.assertNotIn('execute', card)
+        source['source_recovery']['episodes'][0].update(execution_enabled=True, approved=True,
+                                                       nonce='PRIVATE_NONCE', raw_payload='SECRET_PAYLOAD')
+        episode = project(source, OPERATIONS)['source_recovery']['episodes'][0]
+        self.assertIs(episode['execution_enabled'], False)
+        for private in ('approved', 'nonce', 'raw_payload'):
+            self.assertNotIn(private, episode)
 
     def test_private_values_in_allowed_free_text_omitted(self):
         for private in ('owner@example.com', '+82 10 1234 5678', '010-1234-5678',
@@ -83,6 +96,7 @@ class OperationsPublicProjectionTests(unittest.TestCase):
                 source['watchers'][0]['reason'] = private
                 source['business']['blockers'] = [private]
                 source['action_cards'][0]['before'] = private
+                source['source_recovery']['episodes'][0]['next_action'] = private
                 result = project(source, OPERATIONS)
                 self.assertNotIn(private, json.dumps(result, ensure_ascii=False))
 
@@ -127,7 +141,7 @@ class OperationsPublicProjectionTests(unittest.TestCase):
         self.assertIn('인증 승인 필요', renderer)
         self.assertIn('로컬 보고서 검증', renderer)
         self.assertIn('renderOperations(d.operations)', html)
-        for selector in ('operations-engines', 'operations-counts', 'operations-business', 'operations-actions'):
+        for selector in ('operations-engines', 'operations-counts', 'operations-business', 'operations-actions', 'operations-recovery'):
             self.assertIn('id="' + selector + '"', html)
         for team in ('sourcing', 'listing', 'channels', 'institutions', 'market', 'pricing', 'legal',
                      'robotics', 'design', 'knowledge', 'graph', 'secretary'):

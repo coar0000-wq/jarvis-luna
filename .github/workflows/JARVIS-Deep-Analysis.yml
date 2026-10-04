@@ -91,7 +91,7 @@ jobs:
       # REAL KNOWLEDGE
       # =========================
 
-      - name: Collect robotics sources (arXiv cs.RO + robot media RSS)
+      - name: Collect robotics sources (OpenAlex robotics + robot media RSS)
         continue-on-error: true
         run: |
           cat > "$RUNNER_TEMP/deep_01.sh" <<'RELEASE_STAGE_deep_01'
@@ -638,6 +638,16 @@ jobs:
           RELEASE_STAGE_deep_45
           python scripts/collector_result.py run --name deep_45 --optional \
             --output "$RUNNER_TEMP/release-results/deep_45.json" -- bash -e "$RUNNER_TEMP/deep_45.sh"
+
+      - name: Observe active shortlist source prices without operating writes
+        continue-on-error: true
+        timeout-minutes: 12
+        run: |
+          cat > "$RUNNER_TEMP/watch_shortlist.sh" <<'RELEASE_STAGE_watch_shortlist'
+          python -u scripts/daiso/observe_shortlist.py --root "$GITHUB_WORKSPACE"
+          RELEASE_STAGE_watch_shortlist
+          python scripts/collector_result.py run --name watch_shortlist --optional \
+            --output "$RUNNER_TEMP/release-results/watch_shortlist.json" -- bash -e "$RUNNER_TEMP/watch_shortlist.sh"
 
       - name: 기관 수집팀 + 채널 운영팀 지속 확장
         continue-on-error: true

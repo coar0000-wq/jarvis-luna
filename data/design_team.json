@@ -1,6 +1,6 @@
 {
   "team": "디자인팀",
-  "generated_at": "2026-10-03T11:40:15.030851+00:00",
+  "generated_at": "2026-10-04T07:13:43.095950+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
     "total": 12,
@@ -142,6 +142,104 @@
     }
   ],
   "references": {
+    "status": "ok",
+    "source_results": {
+      "Shopify Changelog": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:38.529592+00:00",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00"
+      },
+      "Shopify Dev Changelog": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:39.233238+00:00",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00"
+      },
+      "Shopify Engineering": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:40.313263+00:00",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00"
+      },
+      "Smashing Magazine": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:40.922462+00:00",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00"
+      },
+      "A List Apart": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:41.731854+00:00",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00"
+      },
+      "web.dev": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:42.568180+00:00",
+          "source_url": "https://web.dev/static/blog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:42.568164+00:00",
+        "observed_at": "2026-10-04T07:13:42.568164+00:00",
+        "collected_at": "2026-10-04T07:13:42.568164+00:00"
+      }
+    },
+    "errors": [],
+    "reason": "",
+    "captured_at": "2026-10-04T07:13:38.529572+00:00",
+    "observed_at": "2026-10-04T07:13:38.529572+00:00",
+    "collected_at": "2026-10-04T07:13:38.529572+00:00",
     "count": 78,
     "feeds": 6,
     "failures": [],
@@ -191,6 +289,15 @@
         "date": "2026-10-02",
         "summary": "We’ve released improved support for 3 right-to-left languages (Arabic, Urdu, and Hebrew) in both Admin and Storefronts, including checkout, customer accounts and the Horizon family of themes. Display language is determined based on the user’s device settings, if available. Product pages and other me",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 4
       },
       {
@@ -199,6 +306,15 @@
         "date": "2026-10-02",
         "summary": "You can now include discounts in Rollouts to run coordinated campaigns and test different offers before launching more broadly. Schedule discount changes : Launch a new offer to a portion of online store traffic, then expand when you're ready. Compare offers: Test discount changes against your exist",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -207,6 +323,15 @@
         "date": "2026-10-01",
         "summary": "Canvas is a new design surface for your online store. Every page is laid out together in one interactive, infinite workspace, so you can see how your whole store feels and work on any part of it in context. In Canvas, you can: * Pan across every page of your store and zoom in on any detail * Click a",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -215,6 +340,15 @@
         "date": "2026-10-01",
         "summary": "Your reports show what changed. You know why. Now, you're able to capture that story directly in Shopify Analytics. Add annotations to supported time-series reports for the moments that shape your business, like a campaign launch, creator mention, supplier change, promotion, or operational improveme",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -223,6 +357,15 @@
         "date": "2026-09-29",
         "summary": "Shop's web experience has moved from shop.app to shop.com. Your store, products, and channel settings are unaffected — the change only affects the web address shoppers use to reach Shop. What's changing Shop's web experience now lives at shop.com instead of shop.app Existing shop.app links redirect ",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -231,6 +374,15 @@
         "date": "2026-09-29",
         "summary": "You can now set return window overrides by market for specific collections, products, or variants. Overrides let you choose a different return period than your default return window - for example, 14 days for seasonal items instead of your standard 90 days. How it works * Overrides replace the defau",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -239,6 +391,15 @@
         "date": "2026-09-28",
         "summary": "Staff can now create local delivery orders at checkout in Shopify POS. When a customer can't take an item home, you can arrange delivery in the same sale. You no longer need to ask them to reorder online or leave notes on the order. Local delivery uses the delivery zones and rates you already set up",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 2
       },
       {
@@ -247,6 +408,15 @@
         "date": "2026-09-28",
         "summary": "Shopify POS now lets store staff run cycle and full stock counts directly in POS, making it easier to count inventory on the sales floor while keeping planning, review, and approval in Shopify Admin. In Shopify Admin, users with the required permissions can create and schedule a stock count, select ",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -255,6 +425,15 @@
         "date": "2026-09-28",
         "summary": "If you attach a metaobject to a product, variant, customer, or order through a metafield, those fields can now be used in Analytics. A designer country, a warranty term, or a loyalty tier can group and filter a report the same way a custom metafield can. Merchant-owned metaobjects are already enable",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -263,6 +442,15 @@
         "date": "2026-09-28",
         "summary": "Until now, the color, material, fit, and other attributes you set when you categorize a product stayed on the product page. To see which materials or colors actually sell, you had to export. Those category metafields now show up in Analytics as dimensions and filters, next to your custom metafields.",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 2
       },
       {
@@ -271,6 +459,15 @@
         "date": "2026-09-25",
         "summary": "Starting October 23, 2026, for merchants using Shopify Tax or Tax Platform in the United States, return shipping fees will be taxed like any other shipping charge. Shopify calculates and applies the tax automatically, so you don’t need to fix under-collection on returns. When you create a return, yo",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -279,6 +476,15 @@
         "date": "2026-09-25",
         "summary": "The Developer Dashboard shows how your custom apps perform, not only how they are set up. Open any custom app to see its API request volume, error rates, webhook delivery health, and embedded admin page load speed. Each measurement has a clear threshold, so you can tell good from bad at a glance. A ",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -287,6 +493,15 @@
         "date": "2026-09-23",
         "summary": "We now provides a more complete and timely view of shipping costs and duties. What's changed: Profitability data includes both duties and other shipping costs when they apply to the same order & better supports orders in different currencies. What to expect: You might notice changes to shipping cost",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -295,6 +510,15 @@
         "date": "2026-09-22",
         "summary": "Rollouts has a redesigned setup experience that makes it easier to plan a launch, run a temporary event, or test changes to your store. Reflect your intent : Choose the timing and traffic percentage for your rollout. Rollout settings will adjust to reflect your intent as a launch, temporary event, o",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -303,6 +527,15 @@
         "date": "2026-09-22",
         "summary": "Shop Pay Installments, Shop Pay’s built-in buy now, pay later solution, is available for merchants and buyers located in the United States, Canada, and the United Kingdom. Merchants who operate multiple business entities in these supported countries can now enable Shop Pay Installments on all entiti",
         "feed": "Shopify Changelog",
+        "captured_at": "2026-10-04T07:13:38.529572+00:00",
+        "observed_at": "2026-10-04T07:13:38.529572+00:00",
+        "collected_at": "2026-10-04T07:13:38.529572+00:00",
+        "provenance": {
+          "source_key": "Shopify Changelog",
+          "source_url": "https://changelog.shopify.com/feed",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -311,6 +544,15 @@
         "date": "2026-10-01",
         "summary": "With the 2026-10 API version Next Gen Events, Shopify's successor to classic webhooks, is now generally available. Events give you more customization than classic webhooks, letting you choose what changes your app receives, and what data comes with the payload. If your app keeps track of collection ",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -319,6 +561,15 @@
         "date": "2026-10-01",
         "summary": "Summary Apps can now discover Rollouts, inspect their schedules, traffic allocation, and resource changes, and receive notifications when they change. These capabilities help apps understand and respond to coordinated launches, experiments, and temporary events across discounts, catalogs, themes, an",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -327,6 +578,15 @@
         "date": "2026-10-01",
         "summary": "Update your app to account for discount Rollouts Summary Admin GraphQL API version 2026-10 adds a read-only rollouts connection across Discount types. Apps that read discounts should use Discount.rollouts alongside existing discount fields to account for Rollout-driven schedules and buyer reach. Wha",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -335,6 +595,15 @@
         "date": "2026-10-01",
         "summary": "Line items in Orders webhook payloads now include a selling_plan_id field. This field identifies the selling plan applied to a subscription line item, which helps you avoid extra API calls to look up that information. The change applies to API version 2026-10 and later, and you don’t need to take an",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -343,6 +612,15 @@
         "date": "2026-10-01",
         "summary": "As of the 2026-10 GraphQL Admin API version, the PointOfSaleDevice object includes a new fiscalDeviceIdentifier field. This field returns the Shopify-assigned fiscal register identifier (manufacturing number) for a POS device. You only need to adopt it if your app supports in-person fiscal complianc",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -351,6 +629,15 @@
         "date": "2026-10-01",
         "summary": "As of API version 2027-01 , the metafieldInteger collection source condition inputs and types is removed from GraphQL Admin API. If you use metafieldInteger to create or read collection source conditions, you need to migrate to metafieldInt before you upgrade to API version 2027-01 . What changed Wi",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -359,6 +646,15 @@
         "date": "2026-10-01",
         "summary": "Starting in API version 2026-10, the shopifyqlQuery query in the GraphQL Admin API returns a new parseWarnings field on ShopifyqlQueryResponse . This field surfaces non-fatal issues, such as the use of fields scheduled for deprecation, so you can detect and address them proactively. What changed sho",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -367,6 +663,15 @@
         "date": "2026-10-01",
         "summary": "As of the 2026-10 GraphQL Admin API version, the orderCancel mutation returns a new jobResult field of type OrderCancelJobResult . Order cancellations run asynchronously. The jobResult field provides a structured, cancellation-specific result, including the cancellation status, any errors, and the a",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -375,6 +680,15 @@
         "date": "2026-10-01",
         "summary": "SMS marketing consent is now available through the new smsMarketingConsent field on the CustomerPhoneNumber object. This field uses the same structured consent model as WhatsApp. The existing flat SMS marketing consent fields on CustomerPhoneNumber remain available for backward compatibility but are",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -383,6 +697,15 @@
         "date": "2026-10-01",
         "summary": "Starting with API version 2027-01, third-party tax apps will receive Global IDs (GIDs) in tax calculation requests and tax summary webhook payloads for all entity references of the summary section. This aligns with how Partners interact with other Shopify APIs. These apps can now use the same identi",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -391,6 +714,15 @@
         "date": "2026-10-01",
         "summary": "A new SubscriptionContractCalculation API is now available to manage subscriptions. This new API runs subscription contract edits through Shopify's checkout engine, enabling new capabilities: Shopify Functions, including cart transforms and delivery customizations are supported during contract calcu",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 3
       },
       {
@@ -399,6 +731,15 @@
         "date": "2026-10-01",
         "summary": "We are introducing the inventory_transfer_id to several inventory_shipment webhook payloads to make it easier for developers to identify which inventory_transfer records, if any, a given shipment is related to. This will ease integration burdens and remove the need for developers to merge the datase",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -407,6 +748,15 @@
         "date": "2026-10-01",
         "summary": "As of GraphQL Admin API version 2026-10, functions in the segment query language now use the operators MATCHES / NOT MATCHES instead of = true / = false . For example, the previous query shopify_email.opened() = true would now be represented as shopify_email.opened MATCHES () . The parameters for ea",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -415,6 +765,15 @@
         "date": "2026-09-30",
         "summary": "Apps that create new discount types using Shopify Functions can now register shopify/Discount app intents. This lets Sidekick launch an app’s create and edit flows and promote them in the disambiguation picker. Apps can register an intent using either of these targets: admin.app.intent.link navigate",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -423,6 +782,15 @@
         "date": "2026-09-29",
         "summary": "More resilient token exchanges when migrating to expiring offline access tokens When you migrate an app from non-expiring offline tokens to expiring offline access tokens without a user session, you can now recover a lost migration response by retrying the exchange with the original non-expiring tok",
         "feed": "Shopify Dev Changelog",
+        "captured_at": "2026-10-04T07:13:39.233213+00:00",
+        "observed_at": "2026-10-04T07:13:39.233213+00:00",
+        "collected_at": "2026-10-04T07:13:39.233213+00:00",
+        "provenance": {
+          "source_key": "Shopify Dev Changelog",
+          "source_url": "https://shopify.dev/changelog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -431,6 +799,15 @@
         "date": "2026-10-01",
         "summary": "ShopGym creates realistic online stores and generates shopping tasks based on each store’s products and features. Developers can then repeatedly test shopping agents under consistent conditions.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -439,6 +816,15 @@
         "date": "2026-09-21",
         "summary": "We built Helix to help LLMs rebuild the Shopify app in Swift and Kotlin, using small checkpoints and strict quality gates to keep the code shippable.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -447,6 +833,15 @@
         "date": "2026-09-10",
         "summary": "We migrated the Shop app from React Native to Swift and Kotlin. Assisted by AI, the team was able to go from a proof of concept to a fully rebuilt native app published in the app stores in just 12 weeks.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -455,6 +850,15 @@
         "date": "2026-09-10",
         "summary": "Coding agents changed what it costs to build mobile apps twice. Here’s why Shopify is moving from React Native back to Swift and Kotlin.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 2
       },
       {
@@ -463,6 +867,15 @@
         "date": "2026-09-02",
         "summary": "River, Shopify’s AI agent in Slack, enables autonomous vulnerability remediation, not just detection.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -471,6 +884,15 @@
         "date": "2026-08-19",
         "summary": "Gisting compresses context into a set of learned tokens, preserving its quality while making the model faster and cheaper.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -479,6 +901,15 @@
         "date": "2026-08-12",
         "summary": "We rebuilt our mobile end-to-end testing framework with a strict API and computer vision, raising test stability drastically.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -487,6 +918,15 @@
         "date": "2026-08-05",
         "summary": "How we compress production failures into model weights every day, beat frontier-model quality, and cut serving costs 96%.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -495,6 +935,15 @@
         "date": "2026-07-29",
         "summary": "We built an agentic code review and test oracle harness that discovers vulnerabilities, proves them with real tests, and provides Shopify-tuned fixes.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -503,6 +952,15 @@
         "date": "2026-07-16",
         "summary": "We moved five high-traffic checkout extensions to remote-dom and Polaris web components, cutting bundle sizes drastically and making checkout faster.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -511,6 +969,15 @@
         "date": "2026-07-14",
         "summary": "How a Hack Days team built a music player, custom GLSL visualizers, and an artist toolkit for storefronts, all in three days.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 2
       },
       {
@@ -519,6 +986,15 @@
         "date": "2026-06-17",
         "summary": "Building an LLM-powered pipeline to match product listings across millions of merchants into a unified catalog that AI agents can search.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -527,6 +1003,15 @@
         "date": "2026-06-15",
         "summary": "Production training data only captures successful queries; it can't teach a model when to say no. We built an automated curation pipeline using LLM judge consensus to close that gap.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -535,6 +1020,15 @@
         "date": "2026-06-10",
         "summary": "Quick lets anyone at Shopify ship a site in seconds. It has changed the culture of how we build and share.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -543,6 +1037,15 @@
         "date": "2026-05-28",
         "summary": "What it took to ship our Slack-native agent River, lessons learned, and the substrate that runs beneath it. Co-authored by River.",
         "feed": "Shopify Engineering",
+        "captured_at": "2026-10-04T07:13:40.313243+00:00",
+        "observed_at": "2026-10-04T07:13:40.313243+00:00",
+        "collected_at": "2026-10-04T07:13:40.313243+00:00",
+        "provenance": {
+          "source_key": "Shopify Engineering",
+          "source_url": "https://shopify.engineering/blog.atom",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -551,6 +1054,15 @@
         "date": "2026-09-30",
         "summary": "October is just around the corner, which means it’s time for some new desktop wallpapers! Designed by the community for the community, they’re here to brighten your screens, and maybe spark some creativity along the way.",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -559,6 +1071,15 @@
         "date": "2026-09-16",
         "summary": "Despite broad browser support, container queries remain surprisingly underused and frequently misunderstood. Let’s look at how they differ from media queries, when to reach for each, and how container queries help reusable components respond naturally to the contexts in which they appear. - CSS - To",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -567,6 +1088,15 @@
         "date": "2026-09-11",
         "summary": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible case for the return on a design initiative. - UX - Design - Business",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -575,6 +1105,15 @@
         "date": "2026-09-09",
         "summary": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving from designing visible interfaces to guiding transparent, intent-driven AI experiences.",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -583,6 +1122,15 @@
         "date": "2026-08-31",
         "summary": "Could there be a better way to welcome the new month than with a new collection of desktop wallpapers? Whether you’re holding tightly onto summer or eagerly awaiting autumn, we’ve got some eye-catching designs to make your September just a bit more colorful. Enjoy!",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -591,6 +1139,15 @@
         "date": "2026-08-26",
         "summary": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking to dashboards and data presentations, from the questions you ask before opening any tool to the decisions that",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -599,6 +1156,15 @@
         "date": "2026-08-25",
         "summary": "Every website peaks on launch day and slowly drifts from there, not because it breaks, but because nobody has time to keep it current. Autonomous websites, continuously optimized by agents after launch, aim to change that. Pierre Burgy shares what they learned building for full website autonomy and ",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -607,6 +1173,15 @@
         "date": "2026-08-20",
         "summary": "Discover SMIL, the often-overlooked way to animate SVGs that works inside ` ` tags and can fully animate everything in an SVG without JavaScript.",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -615,6 +1190,15 @@
         "date": "2026-08-13",
         "summary": "New EU guidelines, why AI sparkles aren’t enough, when AI labels are required, and what the rules mean for AI-powered features and products.",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -623,6 +1207,15 @@
         "date": "2026-08-11",
         "summary": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale for building a digital stress-relief squeeze toy game using Lottie animations, DOM events, and distance-based ",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -631,6 +1224,15 @@
         "date": "2026-08-07",
         "summary": "The gap between “you need a library for this” and “the browser does this” keeps closing. A practical guide to auditing your dependencies and finding what the web platform can now handle for you.",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -639,6 +1241,15 @@
         "date": "2026-07-31",
         "summary": "Whether you’re enjoying some well-earned time off this August or are jumping headfirst into a new project, how about some new desktop wallpapers to accompany you on all those big and small adventures the month might bring? Well, we’ve got you covered!",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -647,6 +1258,15 @@
         "date": "2026-07-29",
         "summary": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what happens when designers need less permission to act.",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -655,6 +1275,15 @@
         "date": "2026-07-28",
         "summary": "Many of the AI tools we interact with take the form of text boxes. But what if there was a different way to interact with AI? Oleksii Hrzhehorzhevskyi explores a different approach to creating a new AI assistant and how designers can navigate the field as AI continues to change it.",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -663,6 +1292,15 @@
         "date": "2026-07-21",
         "summary": "While React Server Components rely on the custom Flight protocol to stream interactive UIs, this same mechanism introduces powerful deserialization sinks that attackers can exploit. Durgesh Pawar breaks down the mechanics behind the CVSS 10.0 “React2Shell” vulnerability to show how protocol manipula",
         "feed": "Smashing Magazine",
+        "captured_at": "2026-10-04T07:13:40.922435+00:00",
+        "observed_at": "2026-10-04T07:13:40.922435+00:00",
+        "collected_at": "2026-10-04T07:13:40.922435+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -671,6 +1309,15 @@
         "date": "",
         "summary": "Every language app in your pocket inherited a teaching method built for Latin. Understanding why that happened is a more useful design lesson than anything the apps themselves will teach you. In 1788, Prussia introduced the Abitur, a standardized national examination required for entry into universi",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -679,6 +1326,15 @@
         "date": "",
         "summary": "I want to discuss accessibility because it is the most important thing for making websites. Other A List Apart articles give you innovation and insight. This article will give you homework. These are just my personal views, but they’re pretty good. I want to start off with a couple of statements, an",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -687,6 +1343,15 @@
         "date": "",
         "summary": "Today’s web is not always an amiable place. Sites greet you with a popover that demands assent to their cookie policy, and leave you with Taboola ads promising “One Weird Trick!” to cure your ailments. Social media sites are tuned for engagement, and few things are more engaging than a fight. Today ",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -695,6 +1360,15 @@
         "date": "",
         "summary": "\"Language is not merely a set of unrelated sounds, clauses, rules, and meanings; it is a totally coherent system bound to context and behavior.\" — Kenneth L. Pike The web has accents. So should our design systems. Design Systems as Living Languages Design systems aren't component libraries—they’re l",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -703,6 +1377,15 @@
         "date": "",
         "summary": "Picture this: You’re in a meeting room at your tech company, and two people are having what looks like the same conversation about the same design problem. One is talking about whether the team has the right skills to tackle it. The other is diving deep into whether the solution actually solves the ",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -711,6 +1394,15 @@
         "date": "",
         "summary": "As a product builder over too many years to mention, I've lost count of the number of times I've seen promising ideas go from zero to hero in a few weeks, only to fizzle out within months. Financial products, which is the field I work in, are no exception. With people’s real hard-earned money on the",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -719,6 +1411,15 @@
         "date": "",
         "summary": "Ever since I was a boy, I’ve been fascinated with movies. I loved the characters and the excitement—but most of all the stories. I wanted to be an actor. And I believed that I’d get to do the things that Indiana Jones did and go on exciting adventures. I even dreamed up ideas for movies that my frie",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -727,6 +1428,15 @@
         "date": "",
         "summary": "Picture this. You’ve joined a squad at your company that’s designing new product features with an emphasis on automation or AI. Or your company has just implemented a personalization engine . Either way, you’re designing with data. Now what? When it comes to designing for personalization , there are",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -735,6 +1445,15 @@
         "date": "",
         "summary": "I offer a single bit of advice to friends and family when they become new parents: When you start to think that you’ve got everything figured out, everything will change. Just as you start to get the hang of feedings, diapers, and regular naps, it’s time for solid food, potty training, and overnight",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -743,6 +1462,15 @@
         "date": "",
         "summary": "In reading Joe Dolson’s recent piece on the intersection of AI and accessibility , I absolutely appreciated the skepticism that he has for AI in general as well as for the ways that many have been using it. In fact, I’m very skeptical of AI myself, despite my role at Microsoft as an accessibility in",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -751,6 +1479,15 @@
         "date": "",
         "summary": "I am a creative. What I do is alchemy. It is a mystery. I do not so much do it, as let it be done through me. I am a creative. Not all creative people like this label. Not all see themselves this way. Some creative people see science in what they do. That is their truth, and I respect it. Maybe I ev",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -759,6 +1496,15 @@
         "date": "",
         "summary": "Humility, a designer’s essential value—that has a nice ring to it. What about humility, an office manager’s essential value? Or a dentist’s? Or a librarian’s? They all sound great. When humility is our guiding light, the path is always open for fulfillment, evolution, connection, and engagement. In ",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -767,6 +1513,15 @@
         "date": "",
         "summary": "As a UX professional in today’s data-driven landscape, it’s increasingly likely that you’ve been asked to design a personalized digital experience, whether it’s a public website, user portal, or native application. Yet while there continues to be no shortage of marketing hype around personalization ",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -775,6 +1530,15 @@
         "date": "",
         "summary": "The mobile-first design methodology is great—it focuses on what really matters to the user, it’s well-practiced, and it’s been a common design pattern for years. So developing your CSS mobile-first should also be great, too…right? Well, not necessarily. Classic mobile-first CSS development is based ",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 2
       },
       {
@@ -783,6 +1547,15 @@
         "date": "",
         "summary": "About two and a half years ago, I introduced the idea of daily ethical design . It was born out of my frustration with the many obstacles to achieving design that’s usable and equitable; protects people’s privacy, agency, and focus; benefits society; and restores nature. I argued that we need to ove",
         "feed": "A List Apart",
+        "captured_at": "2026-10-04T07:13:41.731819+00:00",
+        "observed_at": "2026-10-04T07:13:41.731819+00:00",
+        "collected_at": "2026-10-04T07:13:41.731819+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -791,6 +1564,15 @@
         "date": "2026-02-17",
         "summary": "The Navigation API is now Baseline Newly available, providing a better way to handle navigation in single-page applications.",
         "feed": "web.dev",
+        "captured_at": "2026-10-04T07:13:42.568164+00:00",
+        "observed_at": "2026-10-04T07:13:42.568164+00:00",
+        "collected_at": "2026-10-04T07:13:42.568164+00:00",
+        "provenance": {
+          "source_key": "web.dev",
+          "source_url": "https://web.dev/static/blog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 1
       },
       {
@@ -799,6 +1581,15 @@
         "date": "2026-05-29",
         "summary": "Discover some of the interesting features that have landed in stable and beta web browsers during May 2026.",
         "feed": "web.dev",
+        "captured_at": "2026-10-04T07:13:42.568164+00:00",
+        "observed_at": "2026-10-04T07:13:42.568164+00:00",
+        "collected_at": "2026-10-04T07:13:42.568164+00:00",
+        "provenance": {
+          "source_key": "web.dev",
+          "source_url": "https://web.dev/static/blog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       },
       {
@@ -807,6 +1598,15 @@
         "date": "2026-05-27",
         "summary": "Read about various happenings with Baseline during April 2026.",
         "feed": "web.dev",
+        "captured_at": "2026-10-04T07:13:42.568164+00:00",
+        "observed_at": "2026-10-04T07:13:42.568164+00:00",
+        "collected_at": "2026-10-04T07:13:42.568164+00:00",
+        "provenance": {
+          "source_key": "web.dev",
+          "source_url": "https://web.dev/static/blog/feed.xml",
+          "http_status": 200,
+          "parse_status": "ok"
+        },
         "relevance": 0
       }
     ]

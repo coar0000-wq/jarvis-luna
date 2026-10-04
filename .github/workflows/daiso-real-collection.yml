@@ -196,6 +196,11 @@ jobs:
           GEMINI_FALLBACK_ENABLED: '0'
         run: python -u scripts/build_daiso_candidate_comparison.py
 
+      - name: Observe active shortlist source prices without operating writes
+        continue-on-error: true
+        timeout-minutes: 12
+        run: python -u scripts/daiso/observe_shortlist.py --root "$GITHUB_WORKSPACE"
+
       - name: Observe actual Actions freshness (read-only)
         env:
           GITHUB_TOKEN: ${{ github.token }}

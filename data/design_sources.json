@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:40:09.234952+00:00",
+  "generated_at": "2026-10-04T07:13:35.058922+00:00",
   "generator": "scripts/collect_design_sources.py",
   "원칙": "서버가 데이터를 그대로 주는 곳만 쓴다. 브라우저에서만 그려지는 사이트는 자동 수집 대상이 아니다. robots.txt 와일드카드 그룹이 허용하는 경로만 요청한다.",
   "robots_checked_at": "2026-09-06",
@@ -19,38 +19,39 @@
     "korean_total": 38,
     "top_popular": [
       {
-        "family": "Roboto",
+        "family": "Lato",
         "category": "Sans Serif",
         "popularity": 2,
-        "trending": 783,
+        "trending": 112,
         "weights": [
           "100",
           "100i",
-          "200",
-          "200i",
           "300",
           "300i",
           "400",
           "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
           "700",
           "700i",
-          "800",
-          "800i",
           "900",
           "900i"
         ],
         "korean": false,
-        "date_added": "2013-01-08"
+        "date_added": "2010-12-15",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Inter",
+        "family": "Montserrat",
         "category": "Sans Serif",
-        "popularity": 3,
-        "trending": 509,
+        "popularity": 2,
+        "trending": 184,
         "weights": [
           "100",
           "100i",
@@ -72,13 +73,22 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2020-01-24"
+        "date_added": "2011-12-13",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Open Sans",
         "category": "Sans Serif",
-        "popularity": 3,
-        "trending": 1504,
+        "popularity": 2,
+        "trending": 897,
         "weights": [
           "300",
           "300i",
@@ -94,31 +104,22 @@
           "800i"
         ],
         "korean": false,
-        "date_added": "2011-02-02"
+        "date_added": "2011-02-02",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Google Sans",
+        "family": "Roboto",
         "category": "Sans Serif",
-        "popularity": 4,
-        "trending": 1707,
-        "weights": [
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i"
-        ],
-        "korean": false,
-        "date_added": "2025-12-09"
-      },
-      {
-        "family": "Montserrat",
-        "category": "Sans Serif",
-        "popularity": 5,
-        "trending": 636,
+        "popularity": 2,
+        "trending": 1492,
         "weights": [
           "100",
           "100i",
@@ -140,26 +141,360 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2011-12-13"
+        "date_added": "2013-01-08",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Noto Sans JP",
+        "family": "Google Sans",
         "category": "Sans Serif",
-        "popularity": 6,
-        "trending": 979,
+        "popularity": 3,
+        "trending": 1009,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2025-12-09",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Roboto Mono",
+        "category": "Monospace",
+        "popularity": 3,
+        "trending": 71,
         "weights": [
           "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2025-05-12",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Oswald",
+        "category": "Sans Serif",
+        "popularity": 4,
+        "trending": 202,
+        "weights": [
           "200",
           "300",
           "400",
           "500",
           "600",
-          "700",
-          "800",
-          "900"
+          "700"
         ],
         "korean": false,
-        "date_added": "2015-01-29"
+        "date_added": "2012-02-29",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Rubik",
+        "category": "Sans Serif",
+        "popularity": 4,
+        "trending": 119,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2015-07-22",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Inter",
+        "category": "Sans Serif",
+        "popularity": 5,
+        "trending": 973,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2020-01-24",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Merriweather",
+        "category": "Serif",
+        "popularity": 5,
+        "trending": 53,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2011-05-11",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Raleway",
+        "category": "Sans Serif",
+        "popularity": 5,
+        "trending": 145,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2012-09-07",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Plus Jakarta Sans",
+        "category": "Sans Serif",
+        "popularity": 6,
+        "trending": 37,
+        "weights": [
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i"
+        ],
+        "korean": false,
+        "date_added": "2022-03-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Bebas Neue",
+        "category": "Sans Serif",
+        "popularity": 7,
+        "trending": 49,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2019-10-16",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Cormorant Garamond",
+        "category": "Serif",
+        "popularity": 8,
+        "trending": 41,
+        "weights": [
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2016-06-15",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Mulish",
+        "category": "Sans Serif",
+        "popularity": 8,
+        "trending": 197,
+        "weights": [
+          "1000",
+          "1000i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2011-05-25",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Poppins",
@@ -187,13 +522,43 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2015-06-03"
+        "date_added": "2015-06-03",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Instrument Serif",
+        "category": "Serif",
+        "popularity": 9,
+        "trending": 19,
+        "weights": [
+          "400",
+          "400i"
+        ],
+        "korean": false,
+        "date_added": "2023-03-21",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Roboto Condensed",
         "category": "Sans Serif",
-        "popularity": 8,
-        "trending": 802,
+        "popularity": 9,
+        "trending": 911,
         "weights": [
           "100",
           "100i",
@@ -215,14 +580,27 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2012-06-26"
+        "date_added": "2012-06-26",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Arimo",
+        "family": "Source Sans 3",
         "category": "Sans Serif",
         "popularity": 9,
-        "trending": 936,
+        "trending": 143,
         "weights": [
+          "200",
+          "200i",
+          "300",
+          "300i",
           "400",
           "400i",
           "500",
@@ -230,36 +608,84 @@
           "600",
           "600i",
           "700",
-          "700i"
-        ],
-        "korean": false,
-        "date_added": "2026-05-12"
-      },
-      {
-        "family": "Lato",
-        "category": "Sans Serif",
-        "popularity": 9,
-        "trending": 1435,
-        "weights": [
-          "100",
-          "100i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "700",
           "700i",
+          "800",
+          "800i",
           "900",
           "900i"
         ],
         "korean": false,
-        "date_added": "2010-12-15"
+        "date_added": "2021-09-17",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Roboto Mono",
+        "family": "Inconsolata",
+        "category": "Monospace",
+        "popularity": 10,
+        "trending": 92,
+        "weights": [
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2010-02-19",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Noto Sans JP",
+        "category": "Sans Serif",
+        "popularity": 10,
+        "trending": 1891,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2015-01-29",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "IBM Plex Mono",
         "category": "Monospace",
         "popularity": 11,
-        "trending": 603,
+        "trending": 63,
         "weights": [
           "100",
           "100i",
@@ -277,13 +703,69 @@
           "700i"
         ],
         "korean": false,
-        "date_added": "2025-05-12"
+        "date_added": "2018-03-12",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Instrument Sans",
+        "category": "Sans Serif",
+        "popularity": 11,
+        "trending": 105,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2023-05-08",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Anton",
+        "category": "Sans Serif",
+        "popularity": 12,
+        "trending": 174,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2011-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "DM Sans",
         "category": "Sans Serif",
         "popularity": 12,
-        "trending": 591,
+        "trending": 666,
         "weights": [
           "100",
           "1000",
@@ -307,13 +789,85 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2019-06-11"
+        "date_added": "2019-06-11",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Raleway",
+        "family": "Epilogue",
+        "category": "Sans Serif",
+        "popularity": 12,
+        "trending": 108,
+        "weights": [
+          "100",
+          "100i",
+          "200",
+          "200i",
+          "300",
+          "300i",
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i",
+          "800",
+          "800i",
+          "900",
+          "900i"
+        ],
+        "korean": false,
+        "date_added": "2020-06-26",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "M PLUS 1p",
         "category": "Sans Serif",
         "popularity": 13,
-        "trending": 540,
+        "trending": 150,
+        "weights": [
+          "100",
+          "300",
+          "400",
+          "500",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2017-06-12",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Public Sans",
+        "category": "Sans Serif",
+        "popularity": 13,
+        "trending": 104,
         "weights": [
           "100",
           "100i",
@@ -335,133 +889,49 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2012-09-07"
+        "date_added": "2019-06-07",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Nunito",
-        "category": "Sans Serif",
+        "family": "Noto Serif JP",
+        "category": "Serif",
         "popularity": 14,
-        "trending": 609,
+        "trending": 270,
         "weights": [
-          "1000",
-          "1000i",
           "200",
-          "200i",
           "300",
-          "300i",
           "400",
-          "400i",
           "500",
-          "500i",
           "600",
-          "600i",
           "700",
-          "700i",
           "800",
-          "800i",
-          "900",
-          "900i"
+          "900"
         ],
         "korean": false,
-        "date_added": "2012-08-12"
+        "date_added": "2018-08-22",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Playfair Display",
-        "category": "Serif",
+        "family": "Albert Sans",
+        "category": "Sans Serif",
         "popularity": 15,
-        "trending": 621,
-        "weights": [
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2011-11-16"
-      },
-      {
-        "family": "Roboto Slab",
-        "category": "Serif",
-        "popularity": 16,
-        "trending": 573,
-        "weights": [
-          "100",
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700",
-          "800",
-          "900"
-        ],
-        "korean": false,
-        "date_added": "2013-04-10"
-      },
-      {
-        "family": "Manrope",
-        "category": "Sans Serif",
-        "popularity": 17,
-        "trending": 396,
-        "weights": [
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700",
-          "800"
-        ],
-        "korean": false,
-        "date_added": "2019-10-02"
-      },
-      {
-        "family": "Oswald",
-        "category": "Sans Serif",
-        "popularity": 18,
-        "trending": 1298,
-        "weights": [
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700"
-        ],
-        "korean": false,
-        "date_added": "2012-02-29"
-      },
-      {
-        "family": "Ubuntu",
-        "category": "Sans Serif",
-        "popularity": 19,
-        "trending": 533,
-        "weights": [
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "700",
-          "700i"
-        ],
-        "korean": false,
-        "date_added": "2010-12-15"
-      },
-      {
-        "family": "Noto Sans",
-        "category": "Sans Serif",
-        "popularity": 20,
-        "trending": 1290,
+        "trending": 46,
         "weights": [
           "100",
           "100i",
@@ -483,245 +953,71 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2013-02-27"
-      },
-      {
-        "family": "Outfit",
-        "category": "Sans Serif",
-        "popularity": 20,
-        "trending": 875,
-        "weights": [
-          "100",
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700",
-          "800",
-          "900"
-        ],
-        "korean": false,
-        "date_added": "2021-09-27"
-      },
-      {
-        "family": "Kanit",
-        "category": "Sans Serif",
-        "popularity": 21,
-        "trending": 663,
-        "weights": [
-          "100",
-          "100i",
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2015-12-07"
-      },
-      {
-        "family": "Merriweather",
-        "category": "Serif",
-        "popularity": 22,
-        "trending": 476,
-        "weights": [
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2011-05-11"
-      },
-      {
-        "family": "Lora",
-        "category": "Serif",
-        "popularity": 23,
-        "trending": 465,
-        "weights": [
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i"
-        ],
-        "korean": false,
-        "date_added": "2011-07-06"
-      },
-      {
-        "family": "Plus Jakarta Sans",
-        "category": "Sans Serif",
-        "popularity": 24,
-        "trending": 379,
-        "weights": [
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i"
-        ],
-        "korean": false,
-        "date_added": "2022-03-23"
-      },
-      {
-        "family": "Archivo Black",
-        "category": "Sans Serif",
-        "popularity": 25,
-        "trending": 982,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2012-09-18"
-      },
-      {
-        "family": "Nunito Sans",
-        "category": "Sans Serif",
-        "popularity": 26,
-        "trending": 1225,
-        "weights": [
-          "1000",
-          "1000i",
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2016-12-07"
-      },
-      {
-        "family": "Quicksand",
-        "category": "Sans Serif",
-        "popularity": 26,
-        "trending": 479,
-        "weights": [
-          "300",
-          "400",
-          "500",
-          "600",
-          "700"
-        ],
-        "korean": false,
-        "date_added": "2011-10-19"
-      },
-      {
-        "family": "Figtree",
-        "category": "Sans Serif",
-        "popularity": 27,
-        "trending": 433,
-        "weights": [
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2022-07-21"
-      },
-      {
-        "family": "Bebas Neue",
-        "category": "Sans Serif",
-        "popularity": 28,
-        "trending": 523,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2019-10-16"
+        "date_added": "2022-06-08",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       }
     ],
     "top_trending": [
       {
         "family": "Isometra",
         "category": "Serif",
-        "popularity": 1263,
+        "popularity": 195,
         "trending": 1,
         "weights": [
           "400"
         ],
         "korean": false,
-        "date_added": "2026-09-28"
+        "date_added": "2026-09-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Libre Caslon Condensed",
-        "category": "Serif",
-        "popularity": 673,
+        "family": "Kripa",
+        "category": "Sans Serif",
+        "popularity": 93,
         "trending": 1,
         "weights": [
+          "100",
+          "200",
+          "300",
           "400",
-          "400i",
           "500",
-          "500i",
           "600",
-          "600i",
           "700",
-          "700i"
+          "800",
+          "900"
         ],
         "korean": false,
-        "date_added": "2026-09-28"
+        "date_added": "2026-09-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Clarity City",
         "category": "Sans Serif",
-        "popularity": 1264,
+        "popularity": 196,
         "trending": 2,
         "weights": [
           "100",
@@ -744,23 +1040,41 @@
           "900i"
         ],
         "korean": false,
-        "date_added": "2026-09-28"
+        "date_added": "2026-09-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Playwrite CA Guides",
-        "category": "Handwriting",
-        "popularity": 696,
+        "family": "Shafarik",
+        "category": "Display",
+        "popularity": 121,
         "trending": 2,
         "weights": [
           "400"
         ],
         "korean": false,
-        "date_added": "2024-12-09"
+        "date_added": "2025-02-11",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Bitcount Ink",
         "category": "Display",
-        "popularity": 851,
+        "popularity": 256,
         "trending": 3,
         "weights": [
           "100",
@@ -774,62 +1088,212 @@
           "900"
         ],
         "korean": false,
-        "date_added": "2025-09-11"
+        "date_added": "2025-09-11",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Kripa",
-        "category": "Sans Serif",
-        "popularity": 1225,
-        "trending": 4,
+        "family": "Iosevka Charon Mono",
+        "category": "Monospace",
+        "popularity": 114,
+        "trending": 3,
         "weights": [
-          "100",
-          "200",
           "300",
+          "300i",
           "400",
+          "400i",
           "500",
-          "600",
+          "500i",
           "700",
-          "800",
-          "900"
+          "700i"
         ],
         "korean": false,
-        "date_added": "2026-09-28"
+        "date_added": "2026-03-10",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Noto Sans Syriac Western",
-        "category": "Sans Serif",
-        "popularity": 813,
-        "trending": 4,
+        "family": "Libre Caslon Condensed",
+        "category": "Serif",
+        "popularity": 1254,
+        "trending": 3,
         "weights": [
-          "100",
-          "200",
-          "300",
           "400",
+          "400i",
           "500",
+          "500i",
           "600",
+          "600i",
           "700",
-          "800",
-          "900"
+          "700i"
         ],
         "korean": false,
-        "date_added": "2025-10-28"
+        "date_added": "2026-09-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Noto Sans Cypriot",
+        "family": "Noto Sans Mandaic",
         "category": "Sans Serif",
-        "popularity": 840,
+        "popularity": 132,
         "trending": 5,
         "weights": [
           "400"
         ],
         "korean": false,
-        "date_added": "2020-11-19"
+        "date_added": "2020-11-19",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Playwrite BE WAL Guides",
+        "category": "Handwriting",
+        "popularity": 263,
+        "trending": 5,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2024-12-09",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Noto Sans Georgian",
+        "category": "Sans Serif",
+        "popularity": 44,
+        "trending": 6,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Noto Sans Syriac Western",
+        "category": "Sans Serif",
+        "popularity": 940,
+        "trending": 6,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": false,
+        "date_added": "2025-10-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Original Surfer",
+        "category": "Display",
+        "popularity": 72,
+        "trending": 6,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2011-12-07",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Playwrite CA Guides",
+        "category": "Handwriting",
+        "popularity": 1293,
+        "trending": 6,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2024-12-09",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Edu QLD Hand",
         "category": "Handwriting",
-        "popularity": 877,
-        "trending": 6,
+        "popularity": 999,
+        "trending": 7,
         "weights": [
           "400",
           "500",
@@ -837,13 +1301,109 @@
           "700"
         ],
         "korean": false,
-        "date_added": "2025-05-28"
+        "date_added": "2025-05-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Gloock",
+        "category": "Serif",
+        "popularity": 42,
+        "trending": 7,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2023-01-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Noto Sans Cuneiform",
+        "category": "Sans Serif",
+        "popularity": 280,
+        "trending": 7,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2020-11-19",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Miranda Sans",
+        "category": "Sans Serif",
+        "popularity": 255,
+        "trending": 8,
+        "weights": [
+          "400",
+          "400i",
+          "500",
+          "500i",
+          "600",
+          "600i",
+          "700",
+          "700i"
+        ],
+        "korean": false,
+        "date_added": "2026-04-02",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Playwrite CU Guides",
+        "category": "Handwriting",
+        "popularity": 1009,
+        "trending": 8,
+        "weights": [
+          "400"
+        ],
+        "korean": false,
+        "date_added": "2024-12-09",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Kulim Park",
         "category": "Sans Serif",
-        "popularity": 353,
-        "trending": 8,
+        "popularity": 401,
+        "trending": 9,
         "weights": [
           "200",
           "200i",
@@ -857,168 +1417,44 @@
           "700i"
         ],
         "korean": false,
-        "date_added": "2019-09-25"
+        "date_added": "2019-09-25",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Playwrite BE WAL Guides",
-        "category": "Handwriting",
-        "popularity": 882,
+        "family": "Noto Sans Cypriot",
+        "category": "Sans Serif",
+        "popularity": 1587,
         "trending": 9,
         "weights": [
           "400"
         ],
         "korean": false,
-        "date_added": "2024-12-09"
-      },
-      {
-        "family": "Pochaevsk",
-        "category": "Display",
-        "popularity": 918,
-        "trending": 11,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2024-12-05"
-      },
-      {
-        "family": "Finlandica Text",
-        "category": "Sans Serif",
-        "popularity": 771,
-        "trending": 12,
-        "weights": [
-          "100",
-          "100i",
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i",
-          "900",
-          "900i"
-        ],
-        "korean": false,
-        "date_added": "2026-05-12"
-      },
-      {
-        "family": "Playwrite CU Guides",
-        "category": "Handwriting",
-        "popularity": 1677,
-        "trending": 12,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2024-12-09"
-      },
-      {
-        "family": "Playwrite AR",
-        "category": "Handwriting",
-        "popularity": 867,
-        "trending": 13,
-        "weights": [
-          "100",
-          "200",
-          "300",
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2024-05-15"
-      },
-      {
-        "family": "Shafarik",
-        "category": "Display",
-        "popularity": 1750,
-        "trending": 16,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2025-02-11"
-      },
-      {
-        "family": "Noto Sans Cuneiform",
-        "category": "Sans Serif",
-        "popularity": 946,
-        "trending": 17,
-        "weights": [
-          "400"
-        ],
-        "korean": false,
-        "date_added": "2020-11-19"
-      },
-      {
-        "family": "Reddit Sans Condensed",
-        "category": "Sans Serif",
-        "popularity": 337,
-        "trending": 18,
-        "weights": [
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700",
-          "800",
-          "900"
-        ],
-        "korean": false,
-        "date_added": "2024-02-21"
-      },
-      {
-        "family": "Ruwudu",
-        "category": "Serif",
-        "popularity": 619,
-        "trending": 19,
-        "weights": [
-          "400",
-          "500",
-          "600",
-          "700"
-        ],
-        "korean": false,
-        "date_added": "2023-08-07"
-      },
-      {
-        "family": "Atkinson Hyperlegible Mono",
-        "category": "Sans Serif",
-        "popularity": 595,
-        "trending": 20,
-        "weights": [
-          "200",
-          "200i",
-          "300",
-          "300i",
-          "400",
-          "400i",
-          "500",
-          "500i",
-          "600",
-          "600i",
-          "700",
-          "700i",
-          "800",
-          "800i"
-        ],
-        "korean": false,
-        "date_added": "2024-11-19"
+        "date_added": "2020-11-19",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       }
     ],
     "korean_fonts": [
       {
         "family": "Noto Sans KR",
         "category": "Sans Serif",
-        "popularity": 37,
-        "trending": 1838,
+        "popularity": 24,
+        "trending": 1094,
         "weights": [
           "100",
           "200",
@@ -1031,7 +1467,64 @@
           "900"
         ],
         "korean": true,
-        "date_added": "2018-02-05"
+        "date_added": "2018-02-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Hahmlet",
+        "category": "Serif",
+        "popularity": 50,
+        "trending": 44,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "900"
+        ],
+        "korean": true,
+        "date_added": "2021-05-13",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Cute Font",
+        "category": "Display",
+        "popularity": 97,
+        "trending": 34,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Nanum Gothic",
@@ -1044,26 +1537,44 @@
           "800"
         ],
         "korean": true,
-        "date_added": "2018-02-05"
+        "date_added": "2018-02-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Nanum Myeongjo",
         "category": "Serif",
-        "popularity": 117,
-        "trending": 726,
+        "popularity": 122,
+        "trending": 819,
         "weights": [
           "400",
           "700",
           "800"
         ],
         "korean": true,
-        "date_added": "2018-02-05"
+        "date_added": "2018-02-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Noto Serif KR",
         "category": "Serif",
-        "popularity": 203,
-        "trending": 1710,
+        "popularity": 125,
+        "trending": 1012,
         "weights": [
           "200",
           "300",
@@ -1075,24 +1586,22 @@
           "900"
         ],
         "korean": true,
-        "date_added": "2018-08-22"
-      },
-      {
-        "family": "Nanum Pen Script",
-        "category": "Handwriting",
-        "popularity": 228,
-        "trending": 602,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-05"
+        "date_added": "2018-08-22",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Gothic A1",
         "category": "Sans Serif",
-        "popularity": 270,
-        "trending": 1808,
+        "popularity": 167,
+        "trending": 1079,
         "weights": [
           "100",
           "200",
@@ -1105,7 +1614,76 @@
           "900"
         ],
         "korean": true,
-        "date_added": "2018-02-24"
+        "date_added": "2018-02-24",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Jua",
+        "category": "Sans Serif",
+        "popularity": 252,
+        "trending": 144,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-24",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Black Han Sans",
+        "category": "Sans Serif",
+        "popularity": 257,
+        "trending": 1242,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Grandiflora One",
+        "category": "Serif",
+        "popularity": 291,
+        "trending": 278,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2023-05-17",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Nanum Gothic Coding",
@@ -1117,63 +1695,145 @@
           "700"
         ],
         "korean": true,
-        "date_added": "2018-02-05"
+        "date_added": "2018-02-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Do Hyeon",
+        "category": "Sans Serif",
+        "popularity": 347,
+        "trending": 154,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-24",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "IBM Plex Sans KR",
+        "category": "Sans Serif",
+        "popularity": 376,
+        "trending": 104,
+        "weights": [
+          "100",
+          "200",
+          "300",
+          "400",
+          "500",
+          "600",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2021-06-18",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Gowun Batang",
         "category": "Serif",
-        "popularity": 334,
-        "trending": 468,
+        "popularity": 382,
+        "trending": 550,
         "weights": [
           "400",
           "700"
         ],
         "korean": true,
-        "date_added": "2021-06-10"
+        "date_added": "2021-06-10",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Nanum Pen Script",
+        "category": "Handwriting",
+        "popularity": 406,
+        "trending": 1134,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Gowun Dodum",
         "category": "Sans Serif",
-        "popularity": 409,
-        "trending": 203,
+        "popularity": 460,
+        "trending": 231,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2021-06-10"
+        "date_added": "2021-06-10",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Jua",
-        "category": "Sans Serif",
-        "popularity": 420,
-        "trending": 235,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-24"
-      },
-      {
-        "family": "Black Han Sans",
-        "category": "Sans Serif",
-        "popularity": 426,
-        "trending": 2083,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-23"
-      },
-      {
-        "family": "Hi Melody",
+        "family": "Gaegu",
         "category": "Handwriting",
-        "popularity": 454,
-        "trending": 30,
+        "popularity": 510,
+        "trending": 233,
         "weights": [
-          "400"
+          "300",
+          "400",
+          "700"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2018-02-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Dongle",
@@ -1186,35 +1846,64 @@
           "700"
         ],
         "korean": true,
-        "date_added": "2021-06-14"
+        "date_added": "2021-06-14",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Sunflower",
+        "category": "Sans Serif",
+        "popularity": 577,
+        "trending": 1131,
+        "weights": [
+          "300",
+          "500",
+          "700"
+        ],
+        "korean": true,
+        "date_added": "2018-02-27",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Song Myung",
         "category": "Serif",
-        "popularity": 543,
-        "trending": 616,
+        "popularity": 603,
+        "trending": 699,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
-      },
-      {
-        "family": "Do Hyeon",
-        "category": "Sans Serif",
-        "popularity": 552,
-        "trending": 253,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-24"
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Asta Sans",
         "category": "Sans Serif",
-        "popularity": 558,
-        "trending": 283,
+        "popularity": 617,
+        "trending": 312,
         "weights": [
           "300",
           "400",
@@ -1224,57 +1913,56 @@
           "800"
         ],
         "korean": true,
-        "date_added": "2025-05-28"
+        "date_added": "2025-05-28",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Gasoek One",
-        "category": "Sans Serif",
-        "popularity": 592,
-        "trending": 481,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2023-05-17"
-      },
-      {
-        "family": "IBM Plex Sans KR",
-        "category": "Sans Serif",
-        "popularity": 596,
-        "trending": 165,
-        "weights": [
-          "100",
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700"
-        ],
-        "korean": true,
-        "date_added": "2021-06-18"
-      },
-      {
-        "family": "Gugi",
+        "family": "Dokdo",
         "category": "Display",
-        "popularity": 644,
-        "trending": 793,
+        "popularity": 652,
+        "trending": 270,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Yeon Sung",
-        "category": "Display",
-        "popularity": 657,
-        "trending": 344,
+        "family": "Gamja Flower",
+        "category": "Handwriting",
+        "popularity": 668,
+        "trending": 1167,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Nanum Brush Script",
@@ -1285,85 +1973,156 @@
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-05"
+        "date_added": "2018-02-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Cute Font",
+        "family": "Gugi",
         "category": "Display",
-        "popularity": 722,
-        "trending": 291,
+        "popularity": 720,
+        "trending": 901,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Hahmlet",
-        "category": "Serif",
-        "popularity": 745,
-        "trending": 894,
+        "family": "Yeon Sung",
+        "category": "Display",
+        "popularity": 742,
+        "trending": 397,
         "weights": [
-          "100",
-          "200",
-          "300",
-          "400",
-          "500",
-          "600",
-          "700",
-          "800",
-          "900"
+          "400"
         ],
         "korean": true,
-        "date_added": "2021-05-13"
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Gaegu",
+        "family": "East Sea Dokdo",
         "category": "Handwriting",
-        "popularity": 845,
-        "trending": 382,
+        "popularity": 772,
+        "trending": 1078,
         "weights": [
-          "300",
-          "400",
-          "700"
+          "400"
         ],
         "korean": true,
-        "date_added": "2018-02-28"
+        "date_added": "2018-03-12",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Single Day",
+        "category": "Display",
+        "popularity": 811,
+        "trending": 447,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-22",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Hi Melody",
+        "category": "Handwriting",
+        "popularity": 827,
+        "trending": 41,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
+      },
+      {
+        "family": "Kirang Haerang",
+        "category": "Display",
+        "popularity": 991,
+        "trending": 740,
+        "weights": [
+          "400"
+        ],
+        "korean": true,
+        "date_added": "2018-02-24",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Diphylleia",
         "category": "Serif",
-        "popularity": 870,
-        "trending": 1142,
+        "popularity": 994,
+        "trending": 1313,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2023-06-05"
-      },
-      {
-        "family": "Black And White Picture",
-        "category": "Display",
-        "popularity": 910,
-        "trending": 1094,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-27"
-      },
-      {
-        "family": "Sunflower",
-        "category": "Sans Serif",
-        "popularity": 954,
-        "trending": 1902,
-        "weights": [
-          "300",
-          "500",
-          "700"
-        ],
-        "korean": true,
-        "date_added": "2018-02-27"
+        "date_added": "2023-06-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Bagel Fat One",
@@ -1374,51 +2133,76 @@
           "400"
         ],
         "korean": true,
-        "date_added": "2023-06-05"
+        "date_added": "2023-06-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Dokdo",
+        "family": "Black And White Picture",
         "category": "Display",
-        "popularity": 1077,
-        "trending": 440,
+        "popularity": 1037,
+        "trending": 1264,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2018-02-27",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "Gamja Flower",
-        "category": "Handwriting",
-        "popularity": 1107,
-        "trending": 1960,
+        "family": "Gasoek One",
+        "category": "Sans Serif",
+        "popularity": 1092,
+        "trending": 918,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2023-05-17",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
-        "family": "East Sea Dokdo",
-        "category": "Handwriting",
-        "popularity": 1260,
-        "trending": 1807,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-03-12"
-      },
-      {
-        "family": "Single Day",
+        "family": "Moirai One",
         "category": "Display",
-        "popularity": 1319,
-        "trending": 724,
+        "popularity": 1117,
+        "trending": 119,
         "weights": [
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-22"
+        "date_added": "2023-06-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Stylish",
@@ -1429,7 +2213,16 @@
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-27"
+        "date_added": "2018-02-27",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Poor Story",
@@ -1440,7 +2233,16 @@
           "400"
         ],
         "korean": true,
-        "date_added": "2018-02-23"
+        "date_added": "2018-02-23",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "family": "Orbit",
@@ -1451,42 +2253,30 @@
           "400"
         ],
         "korean": true,
-        "date_added": "2023-06-05"
-      },
-      {
-        "family": "Kirang Haerang",
-        "category": "Display",
-        "popularity": 1638,
-        "trending": 1242,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2018-02-24"
-      },
-      {
-        "family": "Grandiflora One",
-        "category": "Serif",
-        "popularity": 1846,
-        "trending": 1771,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2023-05-17"
-      },
-      {
-        "family": "Moirai One",
-        "category": "Display",
-        "popularity": 1864,
-        "trending": 197,
-        "weights": [
-          "400"
-        ],
-        "korean": true,
-        "date_added": "2023-06-05"
+        "date_added": "2023-06-05",
+        "captured_at": "2026-10-04T07:13:26.761206+00:00",
+        "observed_at": "2026-10-04T07:13:26.761206+00:00",
+        "collected_at": "2026-10-04T07:13:26.761206+00:00",
+        "provenance": {
+          "source_key": "fonts",
+          "source_url": "https://fonts.google.com/metadata/fonts",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       }
-    ]
+    ],
+    "last_attempt": {
+      "status": "ok",
+      "code": "success",
+      "attempted_at": "2026-10-04T07:13:26.761266+00:00",
+      "source_url": "https://fonts.google.com/metadata/fonts",
+      "http_status": 200,
+      "parse_status": "ok",
+      "error": ""
+    },
+    "captured_at": "2026-10-04T07:13:26.761206+00:00",
+    "observed_at": "2026-10-04T07:13:26.761206+00:00",
+    "collected_at": "2026-10-04T07:13:26.761206+00:00"
   },
   "colors": {
     "status": "ok",
@@ -1651,434 +2441,1029 @@
         "#e8590c",
         "#d9480f"
       ]
+    },
+    "last_attempt": {
+      "status": "ok",
+      "code": "success",
+      "attempted_at": "2026-10-04T07:13:28.531163+00:00",
+      "source_url": "https://raw.githubusercontent.com/yeun/open-color/master/open-color.json",
+      "http_status": 200,
+      "parse_status": "ok",
+      "error": ""
+    },
+    "captured_at": "2026-10-04T07:13:28.531147+00:00",
+    "observed_at": "2026-10-04T07:13:28.531147+00:00",
+    "collected_at": "2026-10-04T07:13:28.531147+00:00",
+    "provenance": {
+      "source_key": "colors",
+      "source_url": "https://raw.githubusercontent.com/yeun/open-color/master/open-color.json",
+      "http_status": 200,
+      "parse_status": "ok"
     }
   },
   "articles": {
     "status": "ok",
-    "feeds": 2,
-    "failed": [],
-    "count": 60,
     "items": [
       {
         "title": "Under Autumn’s Spell (October 2026 Wallpapers Edition)",
         "url": "https://smashingmagazine.com/2026/09/desktop-wallpaper-calendars-october-2026/",
         "published": "Wed, 30 Sep 2026 13:30:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Stop Treating CSS Container Queries Like Traditional Media Queries",
         "url": "https://smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
         "published": "Wed, 16 Sep 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Building A UX ROI Case That Survives The Boardroom",
         "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
         "published": "Fri, 11 Sep 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The Death Of The Button: Why The Best Interface Is No Interface",
         "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
         "published": "Wed, 09 Sep 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The Many Faces Of September (2026 Wallpapers Edition)",
         "url": "https://smashingmagazine.com/2026/08/desktop-wallpaper-calendars-september-2026/",
         "published": "Mon, 31 Aug 2026 11:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
         "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
         "published": "Wed, 26 Aug 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Why Your Website Should Never Stop Changing",
         "url": "https://smashingmagazine.com/2026/08/why-website-should-never-stop-changing/",
         "published": "Tue, 25 Aug 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Timing Charts: A Blueprint For SMIL Animations",
         "url": "https://smashingmagazine.com/2026/08/timing-charts-blueprint-smil-animations/",
         "published": "Thu, 20 Aug 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "New EU Guidelines For AI Labelling",
         "url": "https://smashingmagazine.com/2026/08/eu-guidelines-ai-labelling/",
         "published": "Thu, 13 Aug 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
         "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
         "published": "Tue, 11 Aug 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "How Baseline Can Help You Ship Less JavaScript",
         "url": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
         "published": "Fri, 07 Aug 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Small Joys And Big Adventures (August 2026 Wallpapers Edition)",
         "url": "https://smashingmagazine.com/2026/07/desktop-wallpaper-calendars-august-2026/",
         "published": "Fri, 31 Jul 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
         "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
         "published": "Wed, 29 Jul 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Thinking Outside The Box: Digital Design In The AI Era",
         "url": "https://smashingmagazine.com/2026/07/digital-design-ai-era/",
         "published": "Tue, 28 Jul 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Weaponizing And Defending The React Flight Protocol: Deserialization Sinks In RSCs",
         "url": "https://smashingmagazine.com/2026/07/weaponizing-defending-react-flight-protocol/",
         "published": "Tue, 21 Jul 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "When It Makes Sense To “Block” The Main Thread",
         "url": "https://smashingmagazine.com/2026/07/when-makes-sense-block-main-thread/",
         "published": "Fri, 17 Jul 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "No, People Don’t Want More AI In Their Life",
         "url": "https://smashingmagazine.com/2026/07/people-dont-want-more-ai/",
         "published": "Wed, 15 Jul 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "From Kickoff To First Concept: How To Turn Brand Strategy Into Visual Direction",
         "url": "https://smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
         "published": "Fri, 10 Jul 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Designing For Distressed Users: Why Mental Health Apps Shouldn’t Follow Every UI Fashion",
         "url": "https://smashingmagazine.com/2026/07/designing-distressed-users-mental-health-apps-ui/",
         "published": "Thu, 09 Jul 2026 15:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
         "url": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
         "published": "Tue, 07 Jul 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Users Don’t Need More Tools: They Need Seamless Integrations",
         "url": "https://smashingmagazine.com/2026/07/users-dont-need-more-tools-need-seamless-integrations/",
         "published": "Fri, 03 Jul 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Matching AI Modality To User Intent: Designing The Right Interface",
         "url": "https://smashingmagazine.com/2026/07/matching-ai-modality-user-intent-designing-right-interface/",
         "published": "Thu, 02 Jul 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Why Accessibility Is An Operational Capability, Not A Feature",
         "url": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
         "published": "Tue, 30 Jun 2026 12:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Snapshots Of Summer (July 2026 Wallpapers Edition)",
         "url": "https://smashingmagazine.com/2026/06/desktop-wallpaper-calendars-july-2026/",
         "published": "Tue, 30 Jun 2026 11:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Designing With Uncertainty: How AI Supercharges Probabilistic Thinking",
         "url": "https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/",
         "published": "Tue, 16 Jun 2026 15:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The Impact Of Humanoid Robots On Humanity",
         "url": "https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/",
         "published": "Fri, 12 Jun 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The Benefits Of Cognitive Inclusion In UX Research",
         "url": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
         "published": "Wed, 10 Jun 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "How To Make Your Design System AI-Ready",
         "url": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
         "published": "Wed, 03 Jun 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "June Is For Exploring (2026 Wallpapers Edition)",
         "url": "https://smashingmagazine.com/2026/05/desktop-wallpaper-calendars-june-2026/",
         "published": "Sun, 31 May 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Algorithmic Theming Engines: Building Self-Correcting Color Systems With `contrast-color()`",
         "url": "https://smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
         "published": "Thu, 28 May 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Your Prototype Is Not Being Honest With Your Users (And Here’s How To Fix It)",
         "url": "https://smashingmagazine.com/2026/05/prototype-users-fix-protopie/",
         "published": "Mon, 25 May 2026 12:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Four Levels Of Customer Understanding",
         "url": "https://smashingmagazine.com/2026/05/four-levels-customer-understanding/",
         "published": "Fri, 22 May 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Advanced Tree Counting: Mathematical Layouts With `sibling-index()` And `sibling-count()`",
         "url": "https://smashingmagazine.com/2026/05/mathematical-layouts-sibling-index-sibling-count/",
         "published": "Thu, 21 May 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Ten Data-Backed Truths Of User Experience ROI",
         "url": "https://smashingmagazine.com/2026/05/data-backed-truths-user-experience-roi/",
         "published": "Fri, 15 May 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Practical Interface Patterns For AI Transparency (Part 2)",
         "url": "https://smashingmagazine.com/2026/05/practical-interface-patterns-ai-transparency/",
         "published": "Wed, 13 May 2026 13:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The Architecture Of Local-First Web Development",
         "url": "https://smashingmagazine.com/2026/05/architecture-local-first-web-development/",
         "published": "Wed, 06 May 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Rethinking The Experience Of System Tools",
         "url": "https://smashingmagazine.com/2026/05/rethinking-experience-system-tools/",
         "published": "Tue, 05 May 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Designing Stable Interfaces For Streaming Content",
         "url": "https://smashingmagazine.com/2026/05/designing-stable-interfaces-streaming-content/",
         "published": "Fri, 01 May 2026 08:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "A Fresh View In May (2026 Wallpapers Edition)",
         "url": "https://smashingmagazine.com/2026/04/desktop-wallpaper-calendars-may-2026/",
         "published": "Thu, 30 Apr 2026 11:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The “Bug-Free” Workforce: How AI Efficiency Is Subtly Disrupting The Interactions That Build Strong Teams",
         "url": "https://smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/",
         "published": "Mon, 27 Apr 2026 10:00:00 GMT",
         "feed": "Smashing Magazine",
-        "topic": "웹디자인·UX"
+        "topic": "웹디자인·UX",
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00",
+        "provenance": {
+          "source_key": "Smashing Magazine",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Designed for a Dead Language",
         "url": "https://alistapart.com/article/designed-for-a-dead-language/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Good designers, bad websites: a proposal",
         "url": "https://alistapart.com/article/good-designers-bad-websites-a-proposal/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Design for Amiability: Lessons from Vienna",
         "url": "https://alistapart.com/article/design-for-amiability-lessons-from-vienna/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Design Dialects: Breaking the Rules, Not the System",
         "url": "https://alistapart.com/article/design-dialects-breaking-the-rules-not-the-system/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "An Holistic Framework for Shared Design Leadership",
         "url": "https://alistapart.com/article/an-holistic-framework-for-shared-design-leadership/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "From Beta to Bedrock: Build Products that Stick.",
         "url": "https://alistapart.com/article/from-beta-to-bedrock-build-products-that-stick/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "User Research Is Storytelling",
         "url": "https://alistapart.com/article/user-research-is-storytelling/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "To Ignite a Personalization Practice, Run this Prepersonalization Workshop",
         "url": "https://alistapart.com/article/prepersonalization-workshop/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "The Wax and the Wane of the Web",
         "url": "https://alistapart.com/article/the-wax-and-the-wane-of-the-web/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Opportunities for AI in Accessibility",
         "url": "https://alistapart.com/article/opportunities-for-ai-in-accessibility/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "I am a creative.",
         "url": "https://alistapart.com/article/i-am-a-creative/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Humility: An Essential Value",
         "url": "https://alistapart.com/article/humility-an-essential-value/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Personalization Pyramid: A Framework for Designing with User Data",
         "url": "https://alistapart.com/article/personalization-pyramid/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Mobile-First CSS: Is It Time for a Rethink?",
         "url": "https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Designers, (Re)define Success First",
         "url": "https://alistapart.com/article/redefine-success-first/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Breaking Out of the Box",
         "url": "https://alistapart.com/article/breaking-out-of-the-box/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "How to Sell UX Research with Two Simple Questions",
         "url": "https://alistapart.com/article/how-to-sell-ux-research/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "A Content Model Is Not a Design System",
         "url": "https://alistapart.com/article/a-content-model-is-not-a-design-system/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Design for Safety, An Excerpt",
         "url": "https://alistapart.com/article/design-for-safety-excerpt/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       },
       {
         "title": "Sustainable Web Design, An Excerpt",
         "url": "https://alistapart.com/article/sustainable-web-design-excerpt/",
         "published": "",
         "feed": "A List Apart",
-        "topic": "웹표준·콘텐츠"
+        "topic": "웹표준·콘텐츠",
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00",
+        "provenance": {
+          "source_key": "A List Apart",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok"
+        }
       }
-    ]
+    ],
+    "source_results": {
+      "Smashing Magazine": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:30.202678+00:00",
+          "source_url": "https://www.smashingmagazine.com/feed/",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:30.202632+00:00",
+        "observed_at": "2026-10-04T07:13:30.202632+00:00",
+        "collected_at": "2026-10-04T07:13:30.202632+00:00"
+      },
+      "A List Apart": {
+        "status": "ok",
+        "last_attempt": {
+          "status": "ok",
+          "code": "success",
+          "attempted_at": "2026-10-04T07:13:32.058197+00:00",
+          "source_url": "https://alistapart.com/main/feed/",
+          "http_status": 200,
+          "parse_status": "ok",
+          "error": ""
+        },
+        "captured_at": "2026-10-04T07:13:32.058168+00:00",
+        "observed_at": "2026-10-04T07:13:32.058168+00:00",
+        "collected_at": "2026-10-04T07:13:32.058168+00:00"
+      }
+    },
+    "errors": [],
+    "reason": "",
+    "captured_at": "2026-10-04T07:13:30.202632+00:00",
+    "observed_at": "2026-10-04T07:13:30.202632+00:00",
+    "collected_at": "2026-10-04T07:13:30.202632+00:00",
+    "feeds": 2,
+    "failed": [],
+    "count": 60
   }
 }

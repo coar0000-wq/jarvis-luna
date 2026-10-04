@@ -423,7 +423,7 @@ nav a{font-size:12px;}
 <h4>기능 엔진</h4><div class="ops-engines" id="operations-engines"></div>
 <div class="ops-gates"><div class="ops-tile ops-blocked" id="operations-business"><h4>사업 준비 게이트</h4><p>확인 전 · 판매 허용 안 됨</p></div><div class="ops-tile" id="operations-feedback"><h4>피드백</h4><p>검증된 관찰 확인 전</p></div></div>
 <h4>작업 상태 · 인계</h4><div class="ops-table-wrap" id="operations-tasks"></div>
-<h4 style="margin-top:20px;">소스 감시 상태</h4><p class="ops-note">ready는 등록 상태이며 새로운 자료 수집이나 모든 소스 연결을 뜻하지 않습니다.</p><div class="ops-table-wrap" id="operations-watchers"></div>
+<h4 style="margin-top:20px;">소스 감시 상태</h4><p class="ops-note">실제 외부 캡처와 로컬 파생 점검을 구분합니다. 부분 연결·차단은 담당 팀 복구 큐에서 추적하며, 소스 관찰은 판매 허용이나 외부 쓰기 권한을 뜻하지 않습니다.</p><div class="ops-table-wrap" id="operations-watchers"></div><h4 style="margin-top:20px;">담당 팀 소스 복구</h4><p class="ops-note">실제 재관찰과 검증 영수증이 일치해야 완료됩니다. 로컬 보고서 작성만으로 복구 완료 처리하지 않습니다.</p><div class="ops-table-wrap" id="operations-recovery"></div>
 <h4 style="margin-top:20px;">승인 요청 · 읽기 전용</h4><p class="ops-note">공개 대시보드는 승인과 실행 권한이 없습니다. 인증 승인 및 외부 실행은 이 화면에서 할 수 없습니다.</p><div class="ops-action-list" id="operations-actions"></div>
 </section>
 
@@ -1612,19 +1612,19 @@ function renderOperations(ops){
   const num=v=>Number.isInteger(v)&&v>=0?v.toLocaleString():'확인 전';
   const arr=v=>Array.isArray(v)?v.filter(x=>x&&typeof x==='object'&&!Array.isArray(x)):[];
   const level=v=>({'L1':'L1 읽기','L2':'L2 로컬','L3':'L3 조건부','L4':'L4 사람 승인 · 외부 초안'}[typeof v==='number'?'L'+v:v]||scalar(v));
-  const states={verified:'로컬 보고서 검증',local_verified:'로컬 보고서 검증',completed:'로컬 보고서 검증',handoff_accepted:'인계 수락',accepted:'수락',blocked:'차단',watch_blocked:'감시 차단',ready:'등록 준비',waiting_approval:'승인 대기',local_only:'로컬 전용',gated:'조건 제한',baseline:'기준 관찰',no_change:'변경 없음',changed:'변경 관찰',cooldown:'재관찰 대기',awaiting_actual_observations:'실제 관찰 대기',approval_waiting:'승인 대기',draft:'초안',pending:'대기'};
+  const states={verified:'로컬 보고서 검증',local_verified:'로컬 파생 점검',completed:'로컬 보고서 검증',handoff_accepted:'인계 수락',accepted:'수락',blocked:'차단',watch_blocked:'감시 차단',ready:'등록 준비',waiting_approval:'승인 대기',local_only:'로컬 전용',gated:'조건 제한',baseline:'기준 관찰',no_change:'변경 없음',changed:'변경 관찰',cooldown:'재관찰 대기',awaiting_actual_observations:'실제 관찰 대기',approval_waiting:'승인 대기',draft:'초안',pending:'대기',partial:'부분 연결',waiting_source_recovery:'담당 팀 복구 진행',ready_local_verification:'실제 재관찰 검증 대기',recovered:'복구 검증 완료',escalated:'비서실장 검토 필요'};
   const state=v=>{const key=String(v).toLowerCase();return states[key]?states[key]+' ('+scalar(v)+')':scalar(v);};
   const statusClass=v=>{const key=String(v).toLowerCase();return ['blocked','watch_blocked','failed','unconfigured','unavailable'].includes(key)?'ops-status ops-blocked':['verified','local_verified','completed','accepted','handoff_accepted'].includes(key)?'ops-status ops-ok':'ops-status';};
   const empty=(id,text)=>{const box=$(id);box.replaceChildren(el('p',text,'ops-muted'));};
   const table=(id,heads,rows)=>{const box=$(id);box.replaceChildren();if(!rows.length){box.append(el('p','보고된 항목 없음','ops-muted'));return;}const t=el('table',null,'ops-table'),head=el('thead'),hr=el('tr');heads.forEach(x=>hr.append(el('th',x)));head.append(hr);t.append(head);const body=el('tbody');rows.forEach(row=>{const tr=el('tr');row.forEach(x=>tr.append(el('td',x)));body.append(tr);});t.append(body);box.append(t);};
   if(!ops||typeof ops!=='object'){
     set('operations-status','운영 요약 없음 · 외부 실행 여부 확인 전');
-    ['operations-counts','operations-engines','operations-tasks','operations-watchers','operations-actions'].forEach(id=>empty(id,'운영 요약을 불러오지 못했습니다.'));
+    ['operations-counts','operations-engines','operations-tasks','operations-watchers','operations-recovery','operations-actions'].forEach(id=>empty(id,'운영 요약을 불러오지 못했습니다.'));
     return;
   }
   set('operations-status','마지막 보고: '+scalar(ops.generated_at)+' · 상태: '+scalar(ops.status)+' · 공개 읽기 전용');
   const counts=ops.counts||{},countBox=$('operations-counts');countBox.replaceChildren();
-  [['tasks_total','작업'],['local_verified','로컬 보고서 검증'],['external_verified','외부 실행 검증'],['handoffs_accepted','인계 수락'],['watchers_ready','감시 등록 준비'],['watchers_blocked','감시 차단'],['events','이벤트'],['approval_waiting','승인 대기']].forEach(([k,title])=>{const c=el('div',null,'ops-tile');c.append(el('span',title),el('strong',num(counts[k]),'ops-count'));countBox.append(c);});
+  [['tasks_total','작업'],['local_verified','로컬 보고서 검증'],['external_verified','외부 실행 검증'],['handoffs_accepted','인계 수락'],['watchers_ready','소스 관찰 정상'],['watchers_partial','부분 연결'],['watchers_local','로컬 파생 점검'],['watchers_blocked','감시 차단'],['source_recoveries_verified','소스 복구 검증'],['source_recoveries_open','담당 팀 복구 대기'],['events','이벤트'],['approval_waiting','승인 대기']].forEach(([k,title])=>{const c=el('div',null,'ops-tile');c.append(el('span',title),el('strong',num(counts[k]),'ops-count'));countBox.append(c);});
   const engines=$('operations-engines');engines.replaceChildren();
   const reported=arr(ops.engines);
   if(!reported.length)engines.append(el('p','기능 엔진 상태 확인 전','ops-muted'));
@@ -1637,7 +1637,9 @@ function renderOperations(ops){
   const feedback=ops.feedback||{},fb=$('operations-feedback');fb.replaceChildren(el('h4','피드백'));
   fb.append(el('p',state(feedback.status)),el('p','검증된 관찰 '+num(feedback.verified_observations),'ops-muted'),el('p',feedback.training_performed===true?'학습 수행 보고 있음':'학습 수행 없음 또는 확인 전','ops-muted'));
   table('operations-tasks',['작업','팀','종류','단계','실제 상태'],arr(ops.tasks).map(t=>[scalar(t.task_id),scalar(t.team),scalar(t.kind),level(t.level),state(t.state)]));
-  table('operations-watchers',['팀','실제 상태','차단 또는 준비 사유','관찰 시각'],arr(ops.watchers).map(w=>[scalar(w.team),state(w.status),scalar(w.reason),scalar(w.captured_at)]));
+  const watcherScope=w=>w.observation_kind==='local_derived_read'?'로컬 파생 읽기 · 입력 서명 검증':(w.scope==='active_shopify_shortlist_only'?'활성 후보만 · ':'실제 소스 · ')+num((w.coverage||{}).fresh_records)+' / '+num((w.coverage||{}).total_records);
+  table('operations-watchers',['팀','실제 상태','검증 범위','차단 사유','캡처 또는 로컬 점검 시각','담당 팀 복구'],arr(ops.watchers).map(w=>[scalar(w.team),state(w.status),watcherScope(w),w.reason||'보고된 차단 없음',w.observation_kind==='local_derived_read'?'로컬 읽기: '+scalar(w.observed_at):scalar(w.captured_at),w.recovery?scalar(w.recovery.owner)+' · '+state(w.recovery.status):'현재 복구 작업 없음']));
+  table('operations-recovery',['감시 소스','담당 팀','복구 상태','검증 시도','다음 조치'],arr((ops.source_recovery||{}).episodes).map(r=>[scalar(r.source_team),scalar(r.owner),state(r.status),num(r.attempts)+' / '+num(r.attempt_limit),scalar(r.next_action)]));
   const actions=$('operations-actions');actions.replaceChildren();
   if(!arr(ops.action_cards).length)actions.append(el('p','보고된 승인 요청 없음','ops-muted'));
   arr(ops.action_cards).forEach(a=>{const card=el('article',null,'ops-tile ops-action');card.dataset.actionId=scalar(a.action_id);card.append(el('h4',scalar(a.action_id)+' · '+scalar(a.kind)),el('span',state(a.status),statusClass(a.status)),el('p',level(a.level),'ops-muted'),el('p',scalar(a.reason)));

@@ -36,6 +36,72 @@ def clean(txt):
     return re.sub(r"\s+", " ", txt or "").strip()
 
 
+def _capture_time():
+    """Clock only for a successful response+parse, never retained rows."""
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _inherited_evidence(row, source_pool, artifact):
+    # Document generation and channel metadata cannot date an individual row.
+    clocks = {k: row[k] for k in ("collected_at", "captured_at")
+              if isinstance(row.get(k), str) and row[k].strip()}
+    provenance = {
+        "kind": "inherited", "source_pool": source_pool,
+        "artifact": artifact, "capture_state": "present" if clocks else "missing",
+        "timestamp_fields": list(clocks),
+    }
+    if row.get("provenance") is not None:
+        provenance["upstream"] = row["provenance"]
+    return {**clocks, "source_pool": source_pool,
+            "evidence_type": "inherited_capture" if clocks else "undated_observation",
+            "provenance": provenance}
+
+
+def _institution_evidence(row, document):
+    pool = row.get("source_pool") or row.get("source") or "unknown"
+    evidence = _inherited_evidence(row, pool, "data/institution_sources.json")
+    evidence["provenance"]["timestamp_scope"] = "item"
+    # Producer clocks each returned pool and retains old metadata on --only.
+    meta = (document.get("sources") or {}).get(pool) or {}
+    if (evidence["provenance"]["capture_state"] == "missing"
+            and row.get("source") == pool
+            and pool in ("rss", "sitemap", "openalex")
+            and meta.get("status") == "ok"):
+        inherited = _inherited_evidence(meta, pool, "data/institution_sources.json")
+        if inherited["provenance"]["capture_state"] == "present":
+            evidence = inherited
+            evidence["provenance"]["timestamp_scope"] = "source_pool"
+    return evidence
+
+
+def _capture_summary(result):
+    """Only a unanimous item clock can be represented by one source clock."""
+    rows = result.get("items") or []
+    stamps = [r.get("collected_at") or r.get("captured_at") for r in rows]
+    available = [s for s in stamps if s]
+    state = ("empty" if not rows else "missing" if not available else
+             "partial" if len(available) != len(rows) else
+             "mixed" if len(set(available)) > 1 else "complete")
+    result["capture_summary"] = {"state": state, "dated_items": len(available),
+                                 "undated_items": len(rows) - len(available)}
+    result.setdefault("provenance", {"kind": "inherited_item_evidence"})
+    if state in ("missing", "partial"):
+        result["capture_warning"] = "Missing genuine upstream item/pool capture timestamps; assembly clocks ignored"
+    result.pop("collected_at", None)
+    if state == "complete":
+        result["collected_at"] = available[0]
+    return result
+
+
+def _direct_evidence(at, pool, response_url, parser):
+    return {"collected_at": at, "source_pool": pool,
+            "evidence_type": "external_capture",
+            "provenance": {"kind": "response_parse", "source_pool": pool,
+                           "response_url": response_url, "parser": parser,
+                           "response_received": True, "parse_succeeded": True,
+                           "collected_at": at}}
+
+
 # -----------------------------
 # arXiv
 # -----------------------------
@@ -107,6 +173,7 @@ def collect_arxiv():
     items = []
     seen = set()
     errors = []
+    captures = []
 
     for topic_id, label in OPENALEX_TOPICS:
         params = {
@@ -120,11 +187,18 @@ def collect_arxiv():
         url = OPENALEX + "?" + urllib.parse.urlencode(params)
         try:
             doc = json.loads(fetch(url).decode("utf-8", "replace"))
+            if not isinstance(doc, dict) or not isinstance(doc.get("results"), list):
+                raise ValueError("OpenAlex results missing or invalid")
+            at = _capture_time()
+            evidence = _direct_evidence(at, "openalex", url, "json")
+            captures.append(evidence["provenance"])
         except Exception as e:                                 # noqa: BLE001
             errors.append(f"{label}: {type(e).__name__}")
             continue
 
         for w in doc.get("results") or []:
+            if not isinstance(w, dict):
+                continue
             title = clean(w.get("title") or "")
             if not title:
                 continue
@@ -142,6 +216,9 @@ def collect_arxiv():
                 "url": url_,
                 "primary_category": label,
                 "source_detail": "arXiv via OpenAlex",
+                "id": w.get("id") or "",
+                "topic_id": topic_id,
+                **evidence,
             })
 
     if not items:
@@ -151,16 +228,18 @@ def collect_arxiv():
             "reason": ("OpenAlex 에서 논문을 받지 못했다. "
                        + ("; ".join(errors) if errors else "결과 0건")),
             "items": [],
+            "provenance": {"kind": "direct_responses", "captures": captures},
         }
 
-    return {
+    return _capture_summary({
         "status": "ok",
         "source": "arXiv (OpenAlex)",
         "reason": "; ".join(errors),
         "경로": ("api.openalex.org (robots Allow: /) · "
                 "export.arxiv.org 에는 요청하지 않는다"),
         "items": items,
-    }
+        "provenance": {"kind": "direct_responses", "captures": captures},
+    })
 
 
 def _collect_arxiv_disabled():
@@ -288,7 +367,11 @@ def collect_organic_skincare():
             "site": row.get("site") or "",
             "url": row.get("url") or "",
             "text": " · ".join(str(b) for b in bits),
-            "collected_at": now,
+            "registered_at": now,
+            "evidence_type": "catalog_registration",
+            "source_pool": "organic_skincare_catalog",
+            "provenance": {"kind": "catalog", "external_capture": False,
+                           "registered_at": now, "source_pool": "organic_skincare_catalog"},
             "source": "organic_skincare_catalog",
         })
 
@@ -308,7 +391,11 @@ def collect_organic_skincare():
 
     return {
         "status": "ok" if items else "empty",
-        "source": "Organic Skincare Web",
+        "source": "Organic Skincare Catalog",
+        "evidence_type": "catalog_registration",
+        "registered_at": now,
+        "assembled_at": now,
+        "provenance": {"kind": "catalog", "external_capture": False},
         "reason": "" if items else "카탈로그 비어 있음",
         "sites": len(ORGANIC_SKINCARE_SITES),
         "items": items,
@@ -327,40 +414,30 @@ QUERIES = [
 
 
 def collect_google():
-
-    items = []
-
+    items, captures, errors = [], [], []
     for q in QUERIES:
-
-        url = (
-            "https://news.google.com/rss/search?"
-            + urllib.parse.urlencode({
-                "q": q,
-                "hl": "en-US",
-                "gl": "US",
-                "ceid": "US:en"
-            })
-        )
-
+        url = ("https://news.google.com/rss/search?" + urllib.parse.urlencode({
+            "q": q, "hl": "en-US", "gl": "US", "ceid": "US:en"}))
         try:
             root = ET.fromstring(fetch(url))
-
+            if root.tag != "rss" or root.find("channel") is None:
+                raise ValueError("Google News RSS channel missing")
+            at = _capture_time()
+            evidence = _direct_evidence(at, "google_news", url, "rss_xml")
+            captures.append(evidence["provenance"])
             for e in root.findall("./channel/item"):
-                items.append({
-                    "query": q,
-                    "title": clean(e.findtext("title")),
-                    "published": clean(e.findtext("pubDate")),
-                    "url": clean(e.findtext("link"))
-                })
-
-        except Exception:
-            pass
-
-    return {
-        "status": "ok",
-        "source": "Google News",
-        "items": items
-    }
+                title = clean(e.findtext("title"))
+                if not title:
+                    continue
+                items.append({"query": q, "title": title,
+                              "published": clean(e.findtext("pubDate")),
+                              "url": clean(e.findtext("link")), **evidence})
+        except Exception as exc:
+            errors.append(f"{q}: {type(exc).__name__}")
+    return _capture_summary({
+        "status": "ok" if items else "empty" if captures else "failed",
+        "source": "Google News", "reason": "; ".join(errors), "items": items,
+        "provenance": {"kind": "direct_responses", "captures": captures}})
 
 
 # -----------------------------
@@ -377,7 +454,7 @@ def collect_us_beauty():
     올리브영US·틱톡샵·세포라·울타·아마존·월마트 등 12개 채널이고
     각 항목에 상품명·가격·평점·리뷰수가 들어있다. 그걸 코퍼스에 넣는다.
     """
-    path = Path(__file__).resolve().parent / "data" / "dashboard_runtime.json"
+    path = ROOT / "data" / "dashboard_runtime.json"
     try:
         d = json.loads(path.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError, UnicodeDecodeError) as e:
@@ -405,6 +482,7 @@ def collect_us_beauty():
             if r.get("review_count"):
                 bits.append(f'리뷰 {r["review_count"]:,}')
             items.append({
+                **r,
                 "title": name,
                 "text": " · ".join(bits),
                 "url": r.get("url") or "",
@@ -414,15 +492,15 @@ def collect_us_beauty():
                 "rating": r.get("rating"),
                 "review_count": r.get("review_count"),
                 "trust": meta.get("trust"),
-                "collected_at": meta.get("collected_at"),
+                **_inherited_evidence(r, r.get("source_pool") or ch, "data/dashboard_runtime.json"),
             })
-    return {
+    return _capture_summary({
         "status": "ok" if items else "empty",
         "source": "US Beauty Market (global_channels 실수집분)",
         "reason": "" if items else "global_channels 가 비었다",
         "channels": len(channels),
         "items": items,
-    }
+    })
 
 
 # -----------------------------
@@ -435,7 +513,7 @@ def collect_robotics():
     수집원에 로봇 자료가 없던 것이 원인이다. arXiv cs.RO / eess.SY 와
     로봇 매체 RSS 를 별도 수집기로 모으고 여기서 코퍼스에 넣는다.
     """
-    path = Path(__file__).resolve().parent / "data" / "robotics_sources.json"
+    path = ROOT / "data" / "robotics_sources.json"
     try:
         d = json.loads(path.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError) as e:
@@ -450,17 +528,18 @@ def collect_robotics():
             if not t:
                 continue
             items.append({
+                **x,
+                **_inherited_evidence(x, x.get("source_pool") or key, "data/robotics_sources.json"),
                 "title": t,
                 "text": (x.get("summary") or "")[:400],
                 "published": x.get("published") or "",
                 "url": x.get("url") or "",
                 "primary_category": x.get("primary_category"),
             })
-    return {"status": "ok" if items else "empty",
+    return _capture_summary({"status": "ok" if items else "empty",
             "source": "Robotics (arXiv cs.RO/eess.SY + IEEE Spectrum + Robot Report)",
             "reason": "" if items else "수집 항목 없음",
-            "collected_at": d.get("generated_at", ""),
-            "items": items}
+            "items": items})
 
 
 # -----------------------------
@@ -473,7 +552,7 @@ def collect_institutions():
     학술 논문(OpenAlex)을 담는다. 항목마다 org·category·kind 를 그대로 넘겨
     옵시디언 분류가 기관과 분야를 함께 쓸 수 있게 한다.
     """
-    path = Path(__file__).resolve().parent / "data" / "institution_sources.json"
+    path = ROOT / "data" / "institution_sources.json"
     try:
         d = json.loads(path.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError) as e:
@@ -486,6 +565,8 @@ def collect_institutions():
         if not t:
             continue
         items.append({
+            **x,
+            **_institution_evidence(x, d),
             "title": t,
             "text": (x.get("summary") or "")[:400],
             "published": x.get("date") or "",
@@ -495,11 +576,10 @@ def collect_institutions():
             "kind": x.get("kind") or "",
             "venue": x.get("venue") or "",
         })
-    return {"status": "ok" if items else "empty",
+    return _capture_summary({"status": "ok" if items else "empty",
             "source": "Institutions (RSS + sitemap + OpenAlex, 35개 기관)",
             "reason": "" if items else "수집 항목 없음",
-            "collected_at": d.get("collected_at", ""),
-            "items": items}
+            "items": items})
 
 
 # -----------------------------

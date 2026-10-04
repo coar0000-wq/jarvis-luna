@@ -49,9 +49,72 @@ FEEDS = [
 ]
 
 
+
+def observation_time() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def source_attempt(url, error="", code=None, http_status=None, parse_status=None):
+    if http_status is None and error.startswith("HTTP "):
+        try:
+            http_status = int(error.split()[1])
+        except (ValueError, IndexError):
+            pass
+    return {"status": "failed" if error else "ok",
+            "code": code or ("http_error" if http_status and http_status != 200 else
+                              "transport_error" if error else "success"),
+            "attempted_at": observation_time(), "source_url": url,
+            "http_status": http_status, "parse_status": parse_status or "not_attempted",
+            "error": error}
+
+
+def captured_rows(rows, key, url):
+    # This clock is sampled only after a successful HTTP response and usable parse.
+    captured = observation_time()
+    for row in rows:
+        row.update(captured_at=captured, observed_at=captured, collected_at=captured,
+                   provenance={"source_key": key, "source_url": url,
+                               "http_status": 200, "parse_status": "ok"})
+    return captured
+
+
+def source_result(attempt, captured=None, previous=None):
+    result = {"status": attempt["status"], "last_attempt": attempt}
+    for field in ("captured_at", "observed_at", "collected_at"):
+        value = captured or (previous or {}).get(field)
+        if value:
+            result[field] = value
+    if attempt["status"] != "ok":
+        result["retained"] = bool(previous)
+    return result
+
+
+def pool_result(items, results, errors):
+    successful = sum(r["status"] == "ok" for r in results.values())
+    result = {"status": "ok" if successful == len(results) and successful else
+              "partial" if successful else "failed", "items": items,
+              "source_results": results, "errors": errors,
+              "reason": "; ".join(str(e) for e in errors)}
+    # A pool's clock is the oldest actual item observation, never its write time.
+    clocks = [r.get("captured_at") for r in items if r.get("captured_at")]
+    if clocks and len(clocks) == len(items):
+        captured = min(clocks)
+        result.update(captured_at=captured, observed_at=captured, collected_at=captured)
+    return result
+
+
+def previous_payload(path):
+    try:
+        value = json.loads(path.read_text(encoding="utf-8-sig"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
 def fetch(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as res:
+        if res.status != 200:
+            raise urllib.error.HTTPError(url, res.status, "unexpected HTTP status", res.headers, None)
         return res.read().decode("utf-8", "replace")
 
 
@@ -64,8 +127,8 @@ def collect_fonts() -> dict:
     raw = fetch(GOOGLE_FONTS)
     doc = json.loads(raw[raw.index("{"):])
     fams = doc.get("familyMetadataList") or []
-    if not fams:
-        return {"status": "empty", "reason": "familyMetadataList 가 비었다", "items": []}
+    if not isinstance(fams, list) or not fams or not all(isinstance(f, dict) and f.get("family") for f in fams):
+        raise ValueError("no usable font metadata")
 
     def row(f: dict) -> dict:
         subs = f.get("subsets") or []
@@ -84,7 +147,7 @@ def collect_fonts() -> dict:
     trending = sorted((f for f in fams if f.get("trending")),
                       key=lambda x: x["trending"])
     korean = [f for f in fams if "korean" in (f.get("subsets") or [])]
-    return {
+    result = {
         "status": "ok",
         "source": "fonts.google.com/metadata/fonts (공개 메타데이터)",
         "robots": "허용 (2026-09-06 확인)",
@@ -96,6 +159,11 @@ def collect_fonts() -> dict:
                                                 key=lambda x: x.get("popularity") or 99999)],
     }
 
+    rows = result["top_popular"] + result["top_trending"] + result["korean_fonts"]
+    captured = captured_rows(rows, "fonts", GOOGLE_FONTS)
+    result.update(source_result(source_attempt(GOOGLE_FONTS, http_status=200, parse_status="ok"), captured))
+    return result
+
 
 def collect_colors() -> dict:
     """팔레트. coolors 를 못 쓰는 대신 쓸 수 있는 오픈 팔레트다.
@@ -106,7 +174,9 @@ def collect_colors() -> dict:
     """
     d = json.loads(fetch(OPEN_COLOR))
     scales = {k: v for k, v in d.items() if isinstance(v, list) and v}
-    return {
+    if not scales:
+        raise ValueError("no usable color scales")
+    result = {
         "status": "ok" if scales else "empty",
         "source": "github.com/yeun/open-color (MIT)",
         "note": ("웹 UI 용으로 명도 단계를 맞춘 오픈 팔레트. 유행 팔레트가 아니다. "
@@ -115,6 +185,11 @@ def collect_colors() -> dict:
         "steps": len(next(iter(scales.values()))) if scales else 0,
         "palette": scales,
     }
+
+    captured = observation_time()
+    result.update(source_result(source_attempt(OPEN_COLOR, http_status=200, parse_status="ok"), captured))
+    result["provenance"] = {"source_key": "colors", "source_url": OPEN_COLOR, "http_status": 200, "parse_status": "ok"}
+    return result
 
 
 def parse_feed(xml: str) -> list[dict]:
@@ -133,22 +208,36 @@ def parse_feed(xml: str) -> list[dict]:
     return [x for x in out if x["title"]]
 
 
-def collect_articles() -> dict:
-    items, failed = [], []
+def collect_articles(previous=None) -> dict:
+    previous = previous or {}
+    items, failed, results = [], [], {}
     for name, url, topic in FEEDS:
         try:
             got = parse_feed(fetch(url))
-        except (urllib.error.URLError, urllib.error.HTTPError,
-                ET.ParseError, OSError) as e:
-            failed.append({"feed": name, "error": f"{type(e).__name__}: {e}"[:120]})
-            continue
-        for x in got:
-            x.update(feed=name, topic=topic)
+            if not got:
+                raise ValueError("no usable feed items")
+            for x in got:
+                x.update(feed=name, topic=topic)
+            captured = captured_rows(got, name, url)
+            results[name] = source_result(source_attempt(url, http_status=200, parse_status="ok"), captured)
+        except Exception as exc:
+            attempt = exception_attempt(url, exc)
+            failed.append({"feed": name, "error": attempt["error"], "last_attempt": attempt})
+            results[name] = source_result(attempt, previous=(previous.get("source_results") or {}).get(name))
+            got = [dict(r) for r in previous.get("items", []) if r.get("feed") == name]
         items.extend(got)
         time.sleep(DELAY)
-    return {"status": "ok" if items else "failed",
-            "feeds": len(FEEDS), "failed": failed,
-            "count": len(items), "items": items[:60]}
+    result = pool_result(items, results, failed)
+    result.update(feeds=len(FEEDS), failed=failed, count=len(result["items"]))
+    return result
+
+
+def exception_attempt(url, exc):
+    is_parse = isinstance(exc, (ValueError, ET.ParseError, TypeError, AttributeError))
+    code = "parse_error" if is_parse else "http_error" if isinstance(exc, urllib.error.HTTPError) else "transport_error"
+    return source_attempt(url, f"{type(exc).__name__}: {exc}"[:160], code,
+                          getattr(exc, "code", None) if not is_parse else 200,
+                          "failed" if is_parse else "not_attempted")
 
 
 # 실측해보고 뺀 곳. 왜 뺐는지 남긴다. 나중에 다시 묻지 않도록.
@@ -172,13 +261,19 @@ REJECTED = {
 
 def main() -> int:
     blocks, errors = {}, []
+    previous = previous_payload(OUT)
     for key, fn in (("fonts", collect_fonts),
                     ("colors", collect_colors),
                     ("articles", collect_articles)):
         try:
-            blocks[key] = fn()
+            blocks[key] = fn(previous.get(key)) if key == "articles" else fn()
+            if blocks[key]["status"] != "ok":
+                errors.append(key)
         except Exception as e:                                   # noqa: BLE001
-            blocks[key] = {"status": "failed", "reason": f"{type(e).__name__}: {e}"[:160]}
+            attempt = exception_attempt({"fonts": GOOGLE_FONTS, "colors": OPEN_COLOR}.get(key, ""), e)
+            blocks[key] = dict(previous.get(key) or {})
+            blocks[key].update(source_result(attempt, previous=previous.get(key)))
+            blocks[key]["reason"] = attempt["error"]
             errors.append(key)
         time.sleep(DELAY)
 

@@ -4326,6 +4326,216 @@
       "kind": "TASK_TRANSITION",
       "sequence": 228,
       "task_id": "task_478c5388474a1cca22afa58f3b2c3c33b21cf0ee0484b03222ead36e96a8b4a0"
+    },
+    "event_000000000229": {
+      "at": "2026-10-04T06:58:38.365985+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000229",
+      "kind": "TASK_CREATED",
+      "sequence": 229,
+      "task_id": "task_6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f"
+    },
+    "event_000000000230": {
+      "at": "2026-10-04T06:58:38.366075+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000230",
+      "kind": "TASK_TRANSITION",
+      "sequence": 230,
+      "task_id": "task_6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f"
+    },
+    "event_000000000231": {
+      "at": "2026-10-04T06:58:38.366343+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000231",
+      "kind": "TASK_CREATED",
+      "sequence": 231,
+      "task_id": "task_2c094d0fca67a4aa1f28c3d4ee7a54470c8fcd0caa6f1993f00493fc1ceee132"
+    },
+    "event_000000000232": {
+      "at": "2026-10-04T06:58:38.366406+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000232",
+      "kind": "TASK_TRANSITION",
+      "sequence": 232,
+      "task_id": "task_2c094d0fca67a4aa1f28c3d4ee7a54470c8fcd0caa6f1993f00493fc1ceee132"
+    },
+    "event_000000000233": {
+      "at": "2026-10-04T06:58:38.366720+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000233",
+      "kind": "TASK_CREATED",
+      "sequence": 233,
+      "task_id": "task_5e5a5b72f0668d5355dd043af500875dd13bcff7b655b81ecda7a1b236ce20df"
+    },
+    "event_000000000234": {
+      "at": "2026-10-04T06:58:38.366801+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000234",
+      "kind": "TASK_TRANSITION",
+      "sequence": 234,
+      "task_id": "task_5e5a5b72f0668d5355dd043af500875dd13bcff7b655b81ecda7a1b236ce20df"
+    },
+    "event_000000000235": {
+      "at": "2026-10-04T06:58:38.366978+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000235",
+      "kind": "TASK_CREATED",
+      "sequence": 235,
+      "task_id": "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d"
+    },
+    "event_000000000236": {
+      "at": "2026-10-04T06:58:38.367034+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000236",
+      "kind": "TASK_TRANSITION",
+      "sequence": 236,
+      "task_id": "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d"
+    },
+    "event_000000000237": {
+      "at": "2026-10-04T06:58:38.367191+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000237",
+      "kind": "TASK_CREATED",
+      "sequence": 237,
+      "task_id": "task_7b7f997a97b70d63b6b36295495f604a4abc810e10911cd2c0c8227e33fae0e4"
+    },
+    "event_000000000238": {
+      "at": "2026-10-04T06:58:38.367244+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000238",
+      "kind": "TASK_TRANSITION",
+      "sequence": 238,
+      "task_id": "task_7b7f997a97b70d63b6b36295495f604a4abc810e10911cd2c0c8227e33fae0e4"
+    },
+    "event_000000000239": {
+      "at": "2026-10-04T06:58:38.367658+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000239",
+      "kind": "TASK_CREATED",
+      "sequence": 239,
+      "task_id": "task_a60abcac71fe5266d8dee4fce4325d1b83180993dba0df7e1e17306c8133d0c7"
+    },
+    "event_000000000240": {
+      "at": "2026-10-04T06:58:38.367748+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000240",
+      "kind": "TASK_TRANSITION",
+      "sequence": 240,
+      "task_id": "task_a60abcac71fe5266d8dee4fce4325d1b83180993dba0df7e1e17306c8133d0c7"
+    },
+    "event_000000000241": {
+      "at": "2026-10-04T06:58:38.367914+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000241",
+      "kind": "TASK_CREATED",
+      "sequence": 241,
+      "task_id": "task_3115521aa2eb29cd45a86d33144d8b9d0bbe24161dfb7e34694337e442c1cd72"
+    },
+    "event_000000000242": {
+      "at": "2026-10-04T06:58:38.367969+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000242",
+      "kind": "TASK_TRANSITION",
+      "sequence": 242,
+      "task_id": "task_3115521aa2eb29cd45a86d33144d8b9d0bbe24161dfb7e34694337e442c1cd72"
+    },
+    "event_000000000243": {
+      "at": "2026-10-04T06:58:38.368269+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000243",
+      "kind": "TASK_CREATED",
+      "sequence": 243,
+      "task_id": "task_99bb591710666e2b2a6e9815fc29f64144f41489c810ec828dbc3581bce63fcb"
+    },
+    "event_000000000244": {
+      "at": "2026-10-04T06:58:38.368383+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000244",
+      "kind": "TASK_TRANSITION",
+      "sequence": 244,
+      "task_id": "task_99bb591710666e2b2a6e9815fc29f64144f41489c810ec828dbc3581bce63fcb"
+    },
+    "event_000000000245": {
+      "at": "2026-10-04T06:58:38.368670+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000245",
+      "kind": "TASK_CREATED",
+      "sequence": 245,
+      "task_id": "task_0bb31f02aae825464dabe4b3ec68231da855492a3dd1df0628a9c5bad41f8f26"
+    },
+    "event_000000000246": {
+      "at": "2026-10-04T06:58:38.368768+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000246",
+      "kind": "TASK_TRANSITION",
+      "sequence": 246,
+      "task_id": "task_0bb31f02aae825464dabe4b3ec68231da855492a3dd1df0628a9c5bad41f8f26"
+    },
+    "event_000000000247": {
+      "at": "2026-10-04T06:58:38.369048+00:00",
+      "detail": {
+        "state": "CREATED"
+      },
+      "event_id": "event_000000000247",
+      "kind": "TASK_CREATED",
+      "sequence": 247,
+      "task_id": "task_a9c11217ddb851e50426752af0c0a901598a2d9d11ead3cd45b479f1fd175881"
+    },
+    "event_000000000248": {
+      "at": "2026-10-04T06:58:38.369152+00:00",
+      "detail": {
+        "from": "CREATED",
+        "to": "BLOCKED"
+      },
+      "event_id": "event_000000000248",
+      "kind": "TASK_TRANSITION",
+      "sequence": 248,
+      "task_id": "task_a9c11217ddb851e50426752af0c0a901598a2d9d11ead3cd45b479f1fd175881"
     }
   },
   "handoffs": {
@@ -7933,7 +8143,257 @@
     }
   },
   "schema_version": 1,
-  "sequence": 228,
+  "sequence": 248,
+  "source_recovery": {
+    "counters": {
+      "channels": 1,
+      "design": 1,
+      "graph": 1,
+      "institutions": 1,
+      "knowledge": 1,
+      "legal": 1,
+      "listing": 1,
+      "market": 0,
+      "pricing": 1,
+      "robotics": 1,
+      "secretary": 0,
+      "sourcing": 1
+    },
+    "episodes": {
+      "recovery_channels_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "SOURCE_CAPTURE_MISSING"
+        ],
+        "current_source": "data/channel_candidates.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
+        "initial_source": "data/channel_candidates.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "channels",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_channels_000001",
+        "source": "data/channel_candidates.json",
+        "source_team": "channels",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_99bb591710666e2b2a6e9815fc29f64144f41489c810ec828dbc3581bce63fcb"
+      },
+      "recovery_design_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "SOURCE_CAPTURE_MISSING"
+        ],
+        "current_source": "data/design_team.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "eb15c9dfa68225758e5580ce3eaee6373653ad77e13e397576f4dc5cd56b050c",
+        "initial_source": "data/design_team.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "design",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_design_000001",
+        "source": "data/design_team.json",
+        "source_team": "design",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_3115521aa2eb29cd45a86d33144d8b9d0bbe24161dfb7e34694337e442c1cd72"
+      },
+      "recovery_graph_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/obsidian_sync_status.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
+        "initial_source": "data/obsidian_sync_status.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "graph",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_graph_000001",
+        "source": "data/obsidian_sync_status.json",
+        "source_team": "graph",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_a9c11217ddb851e50426752af0c0a901598a2d9d11ead3cd45b479f1fd175881"
+      },
+      "recovery_institutions_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "DUPLICATE_SOURCE_ENTITY_ID"
+        ],
+        "current_source": "data/institution_sources.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
+        "initial_source": "data/institution_sources.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "institutions",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_institutions_000001",
+        "source": "data/institution_sources.json",
+        "source_team": "institutions",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_2c094d0fca67a4aa1f28c3d4ee7a54470c8fcd0caa6f1993f00493fc1ceee132"
+      },
+      "recovery_knowledge_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "SOURCE_CAPTURE_MISSING"
+        ],
+        "current_source": "data/knowledge/real_sources.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
+        "initial_source": "data/knowledge/real_sources.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "knowledge",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_knowledge_000001",
+        "source": "data/knowledge/real_sources.json",
+        "source_team": "knowledge",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_0bb31f02aae825464dabe4b3ec68231da855492a3dd1df0628a9c5bad41f8f26"
+      },
+      "recovery_legal_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "SOURCE_CAPTURE_MISSING"
+        ],
+        "current_source": "data/legal_full.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "35fe6839d33d29df921506e036c2b5b6f28a325ff9652c0bcbf0ad0af0e869a8",
+        "initial_source": "data/legal_full.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "legal",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_legal_000001",
+        "source": "data/legal_full.json",
+        "source_team": "legal",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_7b7f997a97b70d63b6b36295495f604a4abc810e10911cd2c0c8227e33fae0e4"
+      },
+      "recovery_listing_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "SOURCE_CAPTURE_MISSING"
+        ],
+        "current_source": "data/listing_gate.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "f24e9ab920eead0671e32b765bdf0cda2eeaa7d05cfdd726cbcd6a8a6bb93bea",
+        "initial_source": "data/listing_gate.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "listing",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_listing_000001",
+        "source": "data/listing_gate.json",
+        "source_team": "listing",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_5e5a5b72f0668d5355dd043af500875dd13bcff7b655b81ecda7a1b236ce20df"
+      },
+      "recovery_pricing_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/product_master.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "54514880dd612832edf687fee1be877524912213b0b82f015392e90cda29e3a6",
+        "initial_source": "data/product_master.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "pricing",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_pricing_000001",
+        "source": "data/product_master.json",
+        "source_team": "pricing",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d"
+      },
+      "recovery_robotics_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "SOURCE_CAPTURE_MISSING"
+        ],
+        "current_source": "data/robotics_sources.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "adbd4c88ff5d977680632b66c077c6f63245c2d25d8bccb25896596938594d37",
+        "initial_source": "data/robotics_sources.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "robotics",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_robotics_000001",
+        "source": "data/robotics_sources.json",
+        "source_team": "robotics",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_a60abcac71fe5266d8dee4fce4325d1b83180993dba0df7e1e17306c8133d0c7"
+      },
+      "recovery_sourcing_000001": {
+        "attempt_receipts": {},
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/product_master.json",
+        "episode": 1,
+        "escalation_code": null,
+        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "initial_evidence_hash": "4c41eb05a25bb38dc0c21139eb1328d07fe4cab432dcd28a655c989fcce2437a",
+        "initial_source": "data/product_master.json",
+        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
+        "last_observed_at": "2026-10-04T06:39:43.124024+00:00",
+        "owner": "sourcing",
+        "receipt_id": null,
+        "recovered_evidence": null,
+        "recovery_id": "recovery_sourcing_000001",
+        "source": "data/product_master.json",
+        "source_team": "sourcing",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f"
+      }
+    },
+    "schema_version": 1,
+    "table_hash": "a875faf3c708f4f1473650f28cc43b74fff95663025be0c3b16b86c451ede0e0"
+  },
   "tasks": {
     "task_034efe15facd449dcef5d3a5451818d2532b43c30b0cdb925417c4143df4a2d8": {
       "context_hash": "034efe15facd449dcef5d3a5451818d2532b43c30b0cdb925417c4143df4a2d8",
@@ -7999,6 +8459,48 @@
       "task_id": "task_034efe15facd449dcef5d3a5451818d2532b43c30b0cdb925417c4143df4a2d8",
       "team": "market",
       "updated_at": "2026-10-04T05:55:40.518810+00:00"
+    },
+    "task_0bb31f02aae825464dabe4b3ec68231da855492a3dd1df0628a9c5bad41f8f26": {
+      "context_hash": "0bb31f02aae825464dabe4b3ec68231da855492a3dd1df0628a9c5bad41f8f26",
+      "created_at": "2026-10-04T06:58:38.368604+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe"
+      },
+      "goal": "Verify actual source recovery recovery_knowledge_000001",
+      "goal_id": "26f0a4f20f038d7ad4465f2d2fb5b87a3c8b605a54e3d9c932d2fc4246c78dd8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "knowledge:snapshot_report",
+        "team_lead": "knowledge"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_knowledge_000001",
+        "source": "data/knowledge/real_sources.json",
+        "teams": [
+          "knowledge"
+        ],
+        "watcher_team": "knowledge"
+      },
+      "payload_hash": "d8dd078063fa6e67babf7340b2839008e4ff3fcd1d3e0eb85f90f736ec17c466",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "knowledge"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_0bb31f02aae825464dabe4b3ec68231da855492a3dd1df0628a9c5bad41f8f26",
+      "team": "knowledge",
+      "updated_at": "2026-10-04T06:58:38.368758+00:00"
     },
     "task_19473bdd9aa9fa7ec390c9b542fc474635b9874c502011c69c71c4c1f82a85ed": {
       "context_hash": "19473bdd9aa9fa7ec390c9b542fc474635b9874c502011c69c71c4c1f82a85ed",
@@ -8316,6 +8818,48 @@
       "team": "sourcing",
       "updated_at": "2026-10-04T05:40:10.334129+00:00"
     },
+    "task_2c094d0fca67a4aa1f28c3d4ee7a54470c8fcd0caa6f1993f00493fc1ceee132": {
+      "context_hash": "2c094d0fca67a4aa1f28c3d4ee7a54470c8fcd0caa6f1993f00493fc1ceee132",
+      "created_at": "2026-10-04T06:58:38.366285+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655"
+      },
+      "goal": "Verify actual source recovery recovery_institutions_000001",
+      "goal_id": "70be9545db6abd86cb0f0be09eccb65f8ac01d4e7f84447876aaf008a74c888b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "institutions:snapshot_report",
+        "team_lead": "institutions"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_institutions_000001",
+        "source": "data/institution_sources.json",
+        "teams": [
+          "institutions"
+        ],
+        "watcher_team": "institutions"
+      },
+      "payload_hash": "6bd618626710042e5de715a42a43bd75ba0a8a21221342505f04f5ff4f78ce64",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "institutions"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_2c094d0fca67a4aa1f28c3d4ee7a54470c8fcd0caa6f1993f00493fc1ceee132",
+      "team": "institutions",
+      "updated_at": "2026-10-04T06:58:38.366400+00:00"
+    },
     "task_304e42e79a8276cd14a9b0dbfdaaea350babd8b9c3379a0891d926e9af63536c": {
       "context_hash": "304e42e79a8276cd14a9b0dbfdaaea350babd8b9c3379a0891d926e9af63536c",
       "created_at": "2026-10-04T05:40:10.264256+00:00",
@@ -8377,6 +8921,48 @@
       "task_id": "task_304e42e79a8276cd14a9b0dbfdaaea350babd8b9c3379a0891d926e9af63536c",
       "team": "graph",
       "updated_at": "2026-10-04T05:40:10.406524+00:00"
+    },
+    "task_3115521aa2eb29cd45a86d33144d8b9d0bbe24161dfb7e34694337e442c1cd72": {
+      "context_hash": "3115521aa2eb29cd45a86d33144d8b9d0bbe24161dfb7e34694337e442c1cd72",
+      "created_at": "2026-10-04T06:58:38.367877+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "eb15c9dfa68225758e5580ce3eaee6373653ad77e13e397576f4dc5cd56b050c"
+      },
+      "goal": "Verify actual source recovery recovery_design_000001",
+      "goal_id": "98583da76384f52cd55fa972140c2019056131168a6bc192b1676f8a6967a7a8",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "design:snapshot_report",
+        "team_lead": "design"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_design_000001",
+        "source": "data/design_team.json",
+        "teams": [
+          "design"
+        ],
+        "watcher_team": "design"
+      },
+      "payload_hash": "cb7f56810b51b601e7a4354078ae6593c5b5f55bcc82bf65d0836cc1cb086e8e",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "design"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_3115521aa2eb29cd45a86d33144d8b9d0bbe24161dfb7e34694337e442c1cd72",
+      "team": "design",
+      "updated_at": "2026-10-04T06:58:38.367964+00:00"
     },
     "task_32d103f9c464b17267d8dbc915567f6079d8b446eabf154876f69a72f01fbd14": {
       "context_hash": "32d103f9c464b17267d8dbc915567f6079d8b446eabf154876f69a72f01fbd14",
@@ -8824,6 +9410,48 @@
       "team": "design",
       "updated_at": "2026-10-04T05:40:10.553894+00:00"
     },
+    "task_5e5a5b72f0668d5355dd043af500875dd13bcff7b655b81ecda7a1b236ce20df": {
+      "context_hash": "5e5a5b72f0668d5355dd043af500875dd13bcff7b655b81ecda7a1b236ce20df",
+      "created_at": "2026-10-04T06:58:38.366669+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "f24e9ab920eead0671e32b765bdf0cda2eeaa7d05cfdd726cbcd6a8a6bb93bea"
+      },
+      "goal": "Verify actual source recovery recovery_listing_000001",
+      "goal_id": "2a1d4cea4ed1263c036c0c2c3909ce70930753ca4ef6ddad9946336f1aa70f53",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "listing:snapshot_report",
+        "team_lead": "listing"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_listing_000001",
+        "source": "data/listing_gate.json",
+        "teams": [
+          "listing"
+        ],
+        "watcher_team": "listing"
+      },
+      "payload_hash": "23a6daabf7da5c8d9b263050df2da190eefb658a6f5fe8384de95a3a5ea042c7",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "listing"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_5e5a5b72f0668d5355dd043af500875dd13bcff7b655b81ecda7a1b236ce20df",
+      "team": "listing",
+      "updated_at": "2026-10-04T06:58:38.366792+00:00"
+    },
     "task_5feaa0cc36a9d86cad4a80591c4a02e310f362d63c98ce517948de8a31fb3925": {
       "context_hash": "5feaa0cc36a9d86cad4a80591c4a02e310f362d63c98ce517948de8a31fb3925",
       "created_at": "2026-10-04T05:17:25.765332+00:00",
@@ -8951,6 +9579,48 @@
       "team": "legal",
       "updated_at": "2026-10-04T05:17:26.362219+00:00"
     },
+    "task_6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f": {
+      "context_hash": "6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f",
+      "created_at": "2026-10-04T06:58:38.365904+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "4c41eb05a25bb38dc0c21139eb1328d07fe4cab432dcd28a655c989fcce2437a"
+      },
+      "goal": "Verify actual source recovery recovery_sourcing_000001",
+      "goal_id": "6a1260372c62500fa8d0bc8a89502f7e40eba9ee5dbb4c8f2500dd1549b51c64",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "sourcing:snapshot_report",
+        "team_lead": "sourcing"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_sourcing_000001",
+        "source": "data/product_master.json",
+        "teams": [
+          "sourcing"
+        ],
+        "watcher_team": "sourcing"
+      },
+      "payload_hash": "2f52d1fde6996fae7a505ca526c17640942a02990e614313ca582c2aea9e4706",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "sourcing"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f",
+      "team": "sourcing",
+      "updated_at": "2026-10-04T06:58:38.366065+00:00"
+    },
     "task_64ba496472b7081e57b57bec3aba32654a557b7438d983ecb50bdb1bdeded9d3": {
       "context_hash": "64ba496472b7081e57b57bec3aba32654a557b7438d983ecb50bdb1bdeded9d3",
       "created_at": "2026-10-04T05:55:39.936424+00:00",
@@ -9074,6 +9744,48 @@
       "task_id": "task_7b2341a7ef90e44f2b3099986308d646cf1b275ea625f0d75dfa69ced1f4473e",
       "team": "robotics",
       "updated_at": "2026-10-04T05:55:40.096616+00:00"
+    },
+    "task_7b7f997a97b70d63b6b36295495f604a4abc810e10911cd2c0c8227e33fae0e4": {
+      "context_hash": "7b7f997a97b70d63b6b36295495f604a4abc810e10911cd2c0c8227e33fae0e4",
+      "created_at": "2026-10-04T06:58:38.367156+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "35fe6839d33d29df921506e036c2b5b6f28a325ff9652c0bcbf0ad0af0e869a8"
+      },
+      "goal": "Verify actual source recovery recovery_legal_000001",
+      "goal_id": "ab3286bedfae1e2fbebaf97d2e47f5e28aea8167ebf76f6eb44ad3925ff3bc81",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "legal:snapshot_report",
+        "team_lead": "legal"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_legal_000001",
+        "source": "data/legal_full.json",
+        "teams": [
+          "legal"
+        ],
+        "watcher_team": "legal"
+      },
+      "payload_hash": "ba47c828d26f2c465efba21b66399ada73eebd77b774769341ca22821aedb2ef",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "legal"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_7b7f997a97b70d63b6b36295495f604a4abc810e10911cd2c0c8227e33fae0e4",
+      "team": "legal",
+      "updated_at": "2026-10-04T06:58:38.367239+00:00"
     },
     "task_7c40de06e04b9fdc4fd7998125838c6a6b1f81ff2d6300eb49d49bb2b218fa4a": {
       "context_hash": "7c40de06e04b9fdc4fd7998125838c6a6b1f81ff2d6300eb49d49bb2b218fa4a",
@@ -9450,6 +10162,48 @@
       "team": "graph",
       "updated_at": "2026-10-04T05:55:40.335156+00:00"
     },
+    "task_99bb591710666e2b2a6e9815fc29f64144f41489c810ec828dbc3581bce63fcb": {
+      "context_hash": "99bb591710666e2b2a6e9815fc29f64144f41489c810ec828dbc3581bce63fcb",
+      "created_at": "2026-10-04T06:58:38.368183+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58"
+      },
+      "goal": "Verify actual source recovery recovery_channels_000001",
+      "goal_id": "d368573aff4cd972151f8fa45fde1f3eb684add49f65b53caec7f484f3595c45",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "channels:snapshot_report",
+        "team_lead": "channels"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_channels_000001",
+        "source": "data/channel_candidates.json",
+        "teams": [
+          "channels"
+        ],
+        "watcher_team": "channels"
+      },
+      "payload_hash": "eaf1d6c53feda1bba20f35753b9ae02fef7a16990ef1530e8195f80c64b25799",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "channels"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_99bb591710666e2b2a6e9815fc29f64144f41489c810ec828dbc3581bce63fcb",
+      "team": "channels",
+      "updated_at": "2026-10-04T06:58:38.368371+00:00"
+    },
     "task_a4010e2ca7671631f67e1ccdce8b6186152c000b117169d4b396e1e297b443d2": {
       "context_hash": "a4010e2ca7671631f67e1ccdce8b6186152c000b117169d4b396e1e297b443d2",
       "created_at": "2026-10-04T05:40:10.263795+00:00",
@@ -9511,6 +10265,132 @@
       "task_id": "task_a4010e2ca7671631f67e1ccdce8b6186152c000b117169d4b396e1e297b443d2",
       "team": "institutions",
       "updated_at": "2026-10-04T05:40:10.709764+00:00"
+    },
+    "task_a60abcac71fe5266d8dee4fce4325d1b83180993dba0df7e1e17306c8133d0c7": {
+      "context_hash": "a60abcac71fe5266d8dee4fce4325d1b83180993dba0df7e1e17306c8133d0c7",
+      "created_at": "2026-10-04T06:58:38.367363+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "adbd4c88ff5d977680632b66c077c6f63245c2d25d8bccb25896596938594d37"
+      },
+      "goal": "Verify actual source recovery recovery_robotics_000001",
+      "goal_id": "0c81c365eff8ad4be786c5374d1bb39cd76868a45fb1c0f35a4f0a4ac10661be",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "robotics:snapshot_report",
+        "team_lead": "robotics"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_robotics_000001",
+        "source": "data/robotics_sources.json",
+        "teams": [
+          "robotics"
+        ],
+        "watcher_team": "robotics"
+      },
+      "payload_hash": "b824c93dbfafca66265461a2ecb85d4ecf230d488ca364b6163f54d1a7a69fe1",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "robotics"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_a60abcac71fe5266d8dee4fce4325d1b83180993dba0df7e1e17306c8133d0c7",
+      "team": "robotics",
+      "updated_at": "2026-10-04T06:58:38.367740+00:00"
+    },
+    "task_a9c11217ddb851e50426752af0c0a901598a2d9d11ead3cd45b479f1fd175881": {
+      "context_hash": "a9c11217ddb851e50426752af0c0a901598a2d9d11ead3cd45b479f1fd175881",
+      "created_at": "2026-10-04T06:58:38.368982+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0"
+      },
+      "goal": "Verify actual source recovery recovery_graph_000001",
+      "goal_id": "81c67f7dae50a4b5a3768b469f01b44965fedb020b91d013c2de1f07ab08d2b5",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "graph:snapshot_report",
+        "team_lead": "graph"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_graph_000001",
+        "source": "data/obsidian_sync_status.json",
+        "teams": [
+          "graph"
+        ],
+        "watcher_team": "graph"
+      },
+      "payload_hash": "c22603bfadf4e8b2eae1b60ae871d8e526c2f110b71229be8a4c252c0b417c00",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "graph"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_a9c11217ddb851e50426752af0c0a901598a2d9d11ead3cd45b479f1fd175881",
+      "team": "graph",
+      "updated_at": "2026-10-04T06:58:38.369140+00:00"
+    },
+    "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d": {
+      "context_hash": "beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d",
+      "created_at": "2026-10-04T06:58:38.366940+00:00",
+      "deadline": null,
+      "depends_on": [],
+      "depth": 1,
+      "evidence": {
+        "initial_evidence_hash": "54514880dd612832edf687fee1be877524912213b0b82f015392e90cda29e3a6"
+      },
+      "goal": "Verify actual source recovery recovery_pricing_000001",
+      "goal_id": "c7bb54644b7afa73ffbb0aa992e47fb4d9b5712707a3217c6d5880a5b712e79b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "ownership": {
+        "specialist": "pricing:snapshot_report",
+        "team_lead": "pricing"
+      },
+      "parent_id": null,
+      "payload": {
+        "purpose": "verify_actual_watch_recovery_only",
+        "recovery_id": "recovery_pricing_000001",
+        "source": "data/product_master.json",
+        "teams": [
+          "pricing"
+        ],
+        "watcher_team": "pricing"
+      },
+      "payload_hash": "1a26fa4b4dc9dd11ef16258453bd24a46601b6c85ff8be895193dac3a8f98005",
+      "priority": "normal",
+      "reason": "WAITING_SOURCE_RECOVERY",
+      "receipt_hash": null,
+      "receipt_id": null,
+      "result": null,
+      "source": {
+        "controller": "secretary",
+        "team": "pricing"
+      },
+      "state": "BLOCKED",
+      "task_id": "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d",
+      "team": "pricing",
+      "updated_at": "2026-10-04T06:58:38.367028+00:00"
     },
     "task_bf59d646cd62c7856170dddd829f78c3515bc77b685cb71d6a1435f70a4194b2": {
       "context_hash": "bf59d646cd62c7856170dddd829f78c3515bc77b685cb71d6a1435f70a4194b2",

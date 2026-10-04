@@ -154,7 +154,9 @@
     "data/typesafe_shared_state.json",
     "data/typesafe_call_log/",
     "data/publish_quality_report.json",
-    "data/operations/"
+    "data/operations/",
+    "data/daiso_real/shortlist_observations.json",
+    "data/daiso_real/.shortlist_observation_claim.json"
   ],
   "deletion_manifest": "data/publish_deletions.json",
   "volatile_snapshot_containers": [

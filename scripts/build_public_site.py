@@ -36,11 +36,15 @@ PUBLIC_TEXT = object()
 PUBLIC_FALSE = object()
 def public_fields(names): return {k: PUBLIC_TEXT for k in names.split()}
 def public_obj(names='', **nested): return dict(public_fields(names), **nested)
+RECOVERY_ROW = dict(public_fields('recovery_id episode owner source_team status attempts attempt_limit escalation_code receipt_id first_detected_at last_detected_at next_action'), execution_enabled=PUBLIC_FALSE)
+RECOVERY_BOARD = public_obj('schema_version', episodes=[RECOVERY_ROW])
+COVERAGE = public_fields('total_records fresh_records missing_records stale_records failed_sources catalog_only')
 OPERATIONS = public_obj('schema_version generated_at status organization',
  engines=[public_fields('id name status detail')],
- counts=public_fields('tasks_total local_verified external_verified handoffs_accepted watchers_ready watchers_blocked events approval_waiting'),
+ counts=public_fields('tasks_total local_verified external_verified handoffs_accepted watchers_ready watchers_blocked watchers_partial watchers_local source_recoveries_verified source_recoveries_open events approval_waiting'),
  tasks=[public_fields('task_id team kind level state')],
- watchers=[public_fields('team status reason captured_at')],
+ watchers=[dict(public_fields('team status reason captured_at observed_at observation_kind scope'), coverage=COVERAGE, recovery=RECOVERY_ROW)],
+ source_recovery=RECOVERY_BOARD,
  business=public_obj('ready total exempt sales_allowed', blockers=[PUBLIC_TEXT]),
  feedback=public_fields('status verified_observations training_performed'),
  action_cards=[dict(public_fields('action_id kind level status reason member_count payload_hash target_configured before after'), may_approve=PUBLIC_FALSE, may_execute=PUBLIC_FALSE)])

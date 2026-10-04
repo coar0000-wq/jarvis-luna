@@ -12,7 +12,8 @@
      robots.txt 가 허용하고 실제 호출로 항목이 나온 피드만 등록했다.
 """
 from __future__ import annotations
-import gzip, html, json, re, time, urllib.request
+import gzip, html, json, re, time, urllib.request, urllib.error
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -96,6 +97,67 @@ NOT_COLLECTED = {
 }
 
 
+
+def observation_time() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def source_attempt(url, error="", code=None, http_status=None, parse_status=None):
+    if http_status is None and error.startswith("HTTP "):
+        try:
+            http_status = int(error.split()[1])
+        except (ValueError, IndexError):
+            pass
+    return {"status": "failed" if error else "ok",
+            "code": code or ("http_error" if http_status and http_status != 200 else
+                              "transport_error" if error else "success"),
+            "attempted_at": observation_time(), "source_url": url,
+            "http_status": http_status, "parse_status": parse_status or "not_attempted",
+            "error": error}
+
+
+def captured_rows(rows, key, url):
+    # This clock is sampled only after a successful HTTP response and usable parse.
+    captured = observation_time()
+    for row in rows:
+        row.update(captured_at=captured, observed_at=captured, collected_at=captured,
+                   provenance={"source_key": key, "source_url": url,
+                               "http_status": 200, "parse_status": "ok"})
+    return captured
+
+
+def source_result(attempt, captured=None, previous=None):
+    result = {"status": attempt["status"], "last_attempt": attempt}
+    for field in ("captured_at", "observed_at", "collected_at"):
+        value = captured or (previous or {}).get(field)
+        if value:
+            result[field] = value
+    if attempt["status"] != "ok":
+        result["retained"] = bool(previous)
+    return result
+
+
+def pool_result(items, results, errors):
+    successful = sum(r["status"] == "ok" for r in results.values())
+    result = {"status": "ok" if successful == len(results) and successful else
+              "partial" if successful else "failed", "items": items,
+              "source_results": results, "errors": errors,
+              "reason": "; ".join(str(e) for e in errors)}
+    # A pool's clock is the oldest actual item observation, never its write time.
+    clocks = [r.get("captured_at") for r in items if r.get("captured_at")]
+    if clocks and len(clocks) == len(items):
+        captured = min(clocks)
+        result.update(captured_at=captured, observed_at=captured, collected_at=captured)
+    return result
+
+
+def previous_payload(path):
+    try:
+        value = json.loads(path.read_text(encoding="utf-8-sig"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
 def now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -123,18 +185,24 @@ def iso_date(raw: str) -> str:
 
 
 def fetch(url: str) -> str:
-    raw = urllib.request.urlopen(
-        urllib.request.Request(url, headers={"User-Agent": UA}), timeout=TIMEOUT).read(3_000_000)
+    with urllib.request.urlopen(
+            urllib.request.Request(url, headers={"User-Agent": UA}), timeout=TIMEOUT) as response:
+        if response.status != 200:
+            raise urllib.error.HTTPError(url, response.status, "unexpected HTTP status", response.headers, None)
+        raw = response.read(3_000_000)
     if raw[:2] == b"\x1f\x8b":
         raw = gzip.decompress(raw)
     return raw.decode("utf-8", "replace")
 
 
-def collect_references():
+def collect_references(previous=None, source_results=None):
+    previous = previous or {}
+    source_results = source_results if source_results is not None else {}
     items, fails = [], []
     for name, url in FEEDS:
         try:
             text = fetch(url)
+            ET.fromstring(text)
             blocks = (re.findall(r"<item[\s>].*?</item>", text, re.S | re.I)
                       or re.findall(r"<entry[\s>].*?</entry>", text, re.S | re.I))
             rows = []
@@ -150,12 +218,20 @@ def collect_references():
                                  "summary": (tag(b, "description") or tag(b, "summary"))[:300],
                                  "feed": name})
             if not rows:
-                fails.append({"feed": name, "url": url, "reason": "항목 0건"})
-                continue
+                raise ValueError("no usable reference items")
+            captured = captured_rows(rows, name, url)
+            source_results[name] = source_result(source_attempt(url, http_status=200, parse_status="ok"), captured)
             items += rows
             print(f"  RSS {name:24s} {len(rows):3d}건")
         except Exception as exc:
-            fails.append({"feed": name, "url": url, "reason": f"{type(exc).__name__}: {exc}"[:110]})
+            is_parse = isinstance(exc, (ValueError, ET.ParseError))
+            attempt = source_attempt(url, f"{type(exc).__name__}: {exc}"[:110],
+                                     "parse_error" if is_parse else "http_error" if isinstance(exc, urllib.error.HTTPError) else "transport_error",
+                                     200 if is_parse else getattr(exc, "code", None),
+                                     "failed" if is_parse else "not_attempted")
+            fails.append({"feed": name, "url": url, "reason": attempt["error"], "last_attempt": attempt})
+            source_results[name] = source_result(attempt, previous=(previous.get("source_results") or {}).get(name))
+            items.extend(dict(r) for r in previous.get("items", []) if r.get("feed") == name)
             print(f"  RSS {name:24s} 실패 {type(exc).__name__}")
         time.sleep(DELAY)
     return items, fails
@@ -348,7 +424,9 @@ def build_steps(pack: dict | None = None):
 
 
 def main() -> int:
-    refs, fails = collect_references()
+    source_results = {}
+    previous = previous_payload(OUT).get("references") or {}
+    refs, fails = collect_references(previous, source_results)
     refs, policy_info = apply_design_policy(refs)
     pack = build_offline_pack()
     PACK.parent.mkdir(parents=True, exist_ok=True)
@@ -370,6 +448,7 @@ def main() -> int:
         },
         "reference_videos": VIDEOS,
         "references": {
+            **{k: v for k, v in pool_result(refs, source_results, fails).items() if k != "items"},
             "count": len(refs),
             "feeds": len(FEEDS),
             "failures": fails,
