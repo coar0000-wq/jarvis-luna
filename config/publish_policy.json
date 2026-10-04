@@ -138,6 +138,8 @@
   "generated_extra": [
     "data/knowledge/cumulative_history.json",
     "data/typesafe_advisory.json",
+    "data/typesafe_team_advisory.json",
+    "data/typesafe_shared_state.json",
     "data/typesafe_call_log/",
     "data/publish_quality_report.json"
   ],

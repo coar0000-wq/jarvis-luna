@@ -52,6 +52,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   build:
@@ -60,9 +61,19 @@ jobs:
 
     # 게이트가 돌 때 Jev 보조 판정도 같이 남긴다. 무료 크레딧 한도 안에서만 한다.
     env:
-      TYPESAFE_ENABLED: '1'
+      TYPESAFE_ENABLED: ${{ github.ref == 'refs/heads/main' && '1' || '0' }}
       TYPESAFE_FREE_CREDITS_ONLY: '1'
-      TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+      TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_SHARED_API_KEY }}
+      TYPESAFE_ORG_ID: ${{ vars.TYPESAFE_ORG_ID }}
+      TYPESAFE_BILLING_PROOF_JSON: ${{ secrets.TYPESAFE_BILLING_PROOF_JSON }}
+      TYPESAFE_BILLING_PROOF_PATH: ${{ runner.temp }}/typesafe-billing-proof.json
+      TYPESAFE_SHARED_LEDGER_PATH: ${{ github.workspace }}/data/typesafe_shared_state.json
+      TYPESAFE_WORKFLOW_ID: ${{ github.workflow }}:${{ github.run_id }}:${{ github.run_attempt }}
+      TYPESAFE_MODEL: 'jev-latest'
+      TYPESAFE_CACHE_TTL_SEC: '86400'
+      TYPESAFE_ACCOUNT_MAX_COST_USD: '1.0'
+      TYPESAFE_MAX_CALLS: '40'
+      TYPESAFE_MAX_INPUT_TOKENS: '60000'
       GEMINI_FALLBACK_ENABLED: '1'
       GEMINI_FREE_TIER_ONLY: '1'
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -84,6 +95,11 @@ jobs:
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      - name: Stage TypeSafe billing proof and restore shared allowance
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/setup_typesafe_shared.py
 
       # -------------------------------------------------------
       # Python 패키지
@@ -184,6 +200,7 @@ jobs:
           python scripts/sync_gosi_to_us_labels.py
           python scripts/build_product_master.py --inject-s
           python scripts/check_legal_products.py
+          python scripts/evaluate_team_typesafe.py
           python scripts/build_listing_gate.py
 
       # -------------------------------------------------------
@@ -496,3 +513,13 @@ jobs:
           paths: data/agents data/team_improvement.json data/typesafe_advisory.json data/shopify_listing_copy.json data/shopify_import.csv data/shopify_import_report.json data/pricing_model.json data/daiso_real/collection_status.json data/product_master.json data/legal_products.json data/legal_full.json data/daiso_real/daiso_us_labels.json data/daiso_real/us_label_sync_report.json
             data/mocra_readiness.json data/listing_gate.json data/daiso_real/shopify_s_recommendations.json data/market_team.json data/shopify_marketing_strategy.json data/marketing_priority.csv data/coaching_loop.json data/shopify_exports data/shopify_action_queue.json data/shopify_shortlist.json data/shopify_sync_guard.json data/dashboard_runtime.json data/knowledge/cumulative_history.json
           message: Shopify 영문 리스팅 카피 자동 갱신
+
+      - name: Upload TypeSafe budget receipt (best effort)
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # actions/upload-artifact@v4
+        with:
+          name: typesafe-budget-receipt-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ env.TYPESAFE_SHARED_LEDGER_PATH }}
+          if-no-files-found: ignore
+          retention-days: 21

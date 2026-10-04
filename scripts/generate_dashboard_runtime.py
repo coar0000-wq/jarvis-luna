@@ -1182,6 +1182,15 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         card["youtube_learning"] = {k: lt.get(k) for k in
                                     ("status", "insights", "videos_available", "this_week_action")}
 
+    # Shared typed support is advisory only. Never clear canonical blockers,
+    # alter grades, replace source evidence, or authorize publishing.
+    jev_teams = (load_json(D / "typesafe_team_advisory.json", {}) or {}).get("teams") or {}
+    for card in cards:
+        jt = jev_teams.get(card.get("id"))
+        if isinstance(jt, dict):
+            card["jev_advisory"] = {k: jt.get(k) for k in
+                                    ("source", "mode", "quality", "next_action", "confidence", "enforced")}
+
     return cards
 
 
@@ -1202,6 +1211,10 @@ def main() -> None:
 
     teams = team_cards(graph, prev_gcs)
     secretary = secretary_card()
+    jev_secretary = (load_json(D / "typesafe_team_advisory.json", {}) or {}).get("teams", {}).get("secretary")
+    if isinstance(jev_secretary, dict):
+        secretary["jev_advisory"] = {k: jev_secretary.get(k) for k in
+                                     ("source", "mode", "quality", "next_action", "enforced")}
 
     now = datetime.now(KST).isoformat()
 

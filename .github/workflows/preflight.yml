@@ -56,6 +56,10 @@ jobs:
           python scripts/test_publish_transaction.py
           python scripts/test_release_quality.py
           python scripts/test_collector_result.py
+          python scripts/test_typesafe_shared.py
+          python scripts/test_team_typesafe.py
+          python scripts/test_typesafe_receipt.py
+          python scripts/test_typesafe_wiring.py
           python scripts/check_release_quality.py --phase final --report "$RUNNER_TEMP/preflight-quality-report.json"
 
       - name: Preflight checks

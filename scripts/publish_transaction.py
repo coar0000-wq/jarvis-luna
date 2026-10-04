@@ -306,7 +306,7 @@ class Transaction:
             base, local = status_delta
             if base is None or local is None or parse_json(base).get('fx') != parse_json(local).get('fx'):
                 return False  # Actual FX input changes require commerce regeneration.
-        return bool(sources) and all(n.startswith(('data/daiso_real/candidate_', 'data/daiso_real/collection_status.json', 'data/daiso_real/crawl_state.json', 'data/agents/', 'data/knowledge/cumulative_history.json', 'data/health_check_history.jsonl', 'data/typesafe_advisory.json', 'data/typesafe_call_log/')) for n in sources)
+        return bool(sources) and all(n.startswith(('data/daiso_real/candidate_', 'data/daiso_real/collection_status.json', 'data/daiso_real/crawl_state.json', 'data/agents/', 'data/knowledge/cumulative_history.json', 'data/health_check_history.jsonl', 'data/typesafe_advisory.json', 'data/typesafe_team_advisory.json', 'data/typesafe_shared_state.json', 'data/typesafe_call_log/')) for n in sources)
 
     def command(self, work, args):
         env = dict(os.environ, TYPESAFE_ENABLED='0', GEMINI_FALLBACK_ENABLED='0',

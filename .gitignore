@@ -45,3 +45,6 @@ data/manual/legal_responsible_person.json
 data/manual/legal_product_overrides.json
 data/manual/shopify_action_approvals.json
 data/manual/mocra_profile.json
+
+# Shared evaluator lock is runtime-only, not publication data.
+data/typesafe_shared_state.json.lock
