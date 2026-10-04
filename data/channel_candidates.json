@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:53:33.062412+00:00",
+  "generated_at": "2026-10-03T21:51:33.833186+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -65,12 +65,12 @@
       "url": "https://www.allure.com/feed/rss",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 25610,
+      "bytes": 25523,
       "items": 30,
       "samples": [
+        "8 Best Long-Lasting Nail Polishes in 2026, Tested & Reviewed",
         "12 Bad Skin Habits Your Dermatologist Wishes You’d Break",
-        "GLP-1s May Significantly Increase Your Risk of Nail Detachment",
-        "'The Swan' Ended 20 Years Ago. Its Plastic Surgery Legacy Lives On."
+        "GLP-1s May Significantly Increase Your Risk of Nail Detachment"
       ],
       "verdict": "가능",
       "reason": "30건 파싱 성공, 값이 서로 다름",
@@ -97,12 +97,12 @@
       "url": "https://trends.google.com/trending/rss?geo=US",
       "kind": "rss",
       "robots": "robots.txt 허용",
-      "bytes": 21586,
+      "bytes": 21722,
       "items": 40,
       "samples": [
-        "sat",
-        "SAT Success Continues! Cobb Students Again Outscore State and National Peers",
-        "SAT scores are up across the board for high school class of 2026"
+        "jeremiah smith",
+        "Kirk Herbstreit compares Jeremiah Smith to NFL legends Julio Jones, Terrell Owens: ‘Rare skill set’",
+        "What Bengals wide receiver Ja'Marr Chase said about Ohio State superstar Jeremiah Smith"
       ],
       "verdict": "가능",
       "reason": "40건 파싱 성공, 값이 서로 다름",
