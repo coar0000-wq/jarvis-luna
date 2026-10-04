@@ -61,3 +61,6 @@ data/manual/shopify_execution_context.json
 
 # Read-only source observation cooldown/history is durable, never reset on publication.
 !data/daiso_real/.shortlist_observation_claim.json
+
+# Local report/manifest publication mutex, never publish a lock.
+data/.evaluation-publication.lock

@@ -108,6 +108,8 @@ jobs:
             python scripts/test_knowledge_capture_provenance.py
             python scripts/test_shortlist_observations.py
             python scripts/test_moe_evaluation_publication.py
+            python scripts/test_diagnostic_evaluation_publication.py
+            python scripts/test_gemini_escalation.py
             python scripts/test_build_artifact_graph_mermaid.py
             python scripts/test_self_improve.py
             python scripts/test_self_improve_replay.py

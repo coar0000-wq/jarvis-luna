@@ -73,12 +73,15 @@ def identity(rows, fields):
     return None
 
 
-def deletion_authorized(name, base, removed, manifest):
+def deletion_authorized(name, base, removed, manifest, *, replacement=None):
     for record in (manifest or {}).get('deletions', []):
         if (isinstance(record, dict) and record.get('path') == name
                 and record.get('base_sha256') == sha(base)
                 and isinstance(record.get('reason'), str) and len(record['reason'].strip()) >= 8
                 and isinstance(record.get('policy_ref'), str) and record['policy_ref'].strip()
+                and (('replacement_sha256' not in record and record['policy_ref'] not in {
+                    'scripts/moe_evaluation_history.py', 'scripts/diagnostic_evaluation_history.py'})
+                     or (replacement is not None and record.get('replacement_sha256') == sha(replacement)))
                 and (record.get('delete_file') is True if removed is None else
                      isinstance(record.get('ids'), list) and set(removed) <= set(map(str, record['ids'])))):
             return True
@@ -224,7 +227,7 @@ def removed_identities(base, local, policy, *, where=''):
 
 
 def overlay(name, base, local, remote, policy, manifest):
-    authorize = lambda ids: deletion_authorized(name, base, ids, manifest)
+    authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local)
     if local is None:
         if not deletion_authorized(name, base, None, manifest):
             raise PublishError(f'file deletion requires base-hash reason manifest: {name}')
@@ -242,7 +245,10 @@ def overlay(name, base, local, remote, policy, manifest):
             l = merge_json(b, l, r, policy, where=name, authorize_delete=authorize)
         elif remote is None and base is not None:
             raise PublishError(f'remote deleted locally edited source: {name}')
-        return json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
+        result = json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
+        if removed and not deletion_authorized(name, base, removed, manifest, replacement=result):
+            raise PublishError(f'replacement snapshot is not authorized after merge: {name}')
+        return result
     if remote in (None, base, local):
         if remote is None and base is not None:
             raise PublishError(f'remote deleted locally edited file: {name}')

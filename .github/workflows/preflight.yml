@@ -70,6 +70,8 @@ jobs:
           python scripts/test_knowledge_capture_provenance.py
           python scripts/test_shortlist_observations.py
           python scripts/test_moe_evaluation_publication.py
+          python scripts/test_diagnostic_evaluation_publication.py
+          python scripts/test_gemini_escalation.py
           python scripts/test_shopify_authorization_boundary.py
           python scripts/test_shopify_shortlist_guard.py
           python scripts/check_release_quality.py --phase final --report "$RUNNER_TEMP/preflight-quality-report.json"

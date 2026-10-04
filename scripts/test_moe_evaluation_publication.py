@@ -52,6 +52,44 @@ class EvaluationPublicationTests(unittest.TestCase):
         ids = removed_identities(json.loads(self.base), self.current, self.policy, where=evidence.REPORT_PATH)
         self.assertEqual(set(result['removed_ids']), set(ids))
 
+    def test_bound_replacement_hash_rejects_later_outside_edit(self):
+        self.publish()
+        self.assertEqual(self.manifest()['deletions'][0]['replacement_sha256'], evidence.sha(self.report.read_bytes()))
+        later = deepcopy(self.current)
+        later['unexpected_after_evidence'] = True
+        with self.assertRaises(PublishError):
+            overlay(evidence.REPORT_PATH, self.base, json.dumps(later).encode(), self.base, self.policy, self.manifest())
+        for variant in ['missing', 'wrong']:
+            manifest = self.manifest()
+            if variant == 'missing':
+                del manifest['deletions'][0]['replacement_sha256']
+            else:
+                manifest['deletions'][0]['replacement_sha256'] = '0' * 64
+            with self.subTest(variant=variant), self.assertRaises(PublishError):
+                overlay(evidence.REPORT_PATH, self.base, self.report.read_bytes(), self.base, self.policy, manifest)
+
+    def test_noncooperative_report_manifest_head_races_fail_closed(self):
+        original = evidence.atomic_write
+        for target in ['report', 'manifest', 'head']:
+            triggered = []
+            changed = b'{"concurrent":true}\n'
+            def write(root, name, data, **kwargs):
+                original(root, name, data, **kwargs)
+                if kwargs.get('immutable') and not triggered:
+                    triggered.append(True)
+                    if target == 'report':
+                        self.report.write_bytes(changed)
+                    elif target == 'manifest':
+                        (self.root / evidence.MANIFEST_PATH).write_bytes(changed)
+                    else:
+                        evidence.exact_head.return_value = changed
+            with self.subTest(target=target), patch.object(evidence, 'atomic_write', side_effect=write), self.assertRaisesRegex(ValueError, 'concurrent'):
+                self.publish()
+            self.assertEqual(self.report.read_bytes(), changed if target == 'report' else self.base)
+            self.report.write_bytes(self.base)
+            (self.root / evidence.MANIFEST_PATH).unlink(missing_ok=True)
+            evidence.exact_head.return_value = self.base
+
     def test_absent_wrong_base_wrong_ids_blocked(self):
         self.publish()
         policy = self.policy
@@ -181,7 +219,7 @@ class EvaluationPublicationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             evidence.atomic_write(self.root, name, b'changed', immutable=True)
         self.assertEqual((self.root/name).read_bytes(), b'original')
-        (self.report.parent / '.moe-evaluation.lock').write_bytes(b'')
+        (self.root / evidence.LOCK_PATH).write_bytes(b'')
         with self.assertRaises(FileExistsError):
             self.publish()
         self.assertEqual(self.report.read_bytes(), self.base)

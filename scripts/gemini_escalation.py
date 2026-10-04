@@ -46,8 +46,12 @@ def load(path: Path, default: Any) -> Any:
 
 
 def save(obj: dict[str, Any]) -> None:
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # Support direct script execution as well as package imports.
+    import sys
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    from scripts.diagnostic_evaluation_history import publish_evaluation
+    publish_evaluation(ROOT, obj, OUT.relative_to(ROOT).as_posix())
 
 
 def truth(name: str) -> bool:

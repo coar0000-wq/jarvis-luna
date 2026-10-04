@@ -14,6 +14,7 @@ from scripts.publish_transaction import deletion_authorized, removed_identities,
 REPORT_PATH = 'data/knowledge/moe_tuning_report.json'
 HISTORY_PATH = 'data/knowledge/moe_evaluation_history'
 MANIFEST_PATH = 'data/publish_deletions.json'
+LOCK_PATH = 'data/.evaluation-publication.lock'
 POLICY_REF = 'scripts/moe_evaluation_history.py'
 MAX_REPORTS = 128
 ALLOWED = {('mean_gate_load',), ('search_space', 'experts')}
@@ -120,7 +121,7 @@ def replacement_ids(before, current, policy):
     return sorted(set(actual))
 
 
-def publication_manifest(document, base, ids, report_name):
+def publication_manifest(document, base, ids, report_name, current):
     if document is None:
         document = {'schema_version': 1, 'deletions': []}
     if not isinstance(document, dict) or document.get('schema_version') != 1 or not isinstance(document.get('deletions'), list):
@@ -130,10 +131,10 @@ def publication_manifest(document, base, ids, report_name):
     result = deepcopy(document)
     result['deletions'] = [row for row in result['deletions'] if not (row.get('path') == report_name and row.get('policy_ref') == POLICY_REF)]
     if ids:
-        result['deletions'].append({'path': report_name, 'base_sha256': sha(base), 'ids': ids,
+        result['deletions'].append({'path': report_name, 'base_sha256': sha(base), 'replacement_sha256': sha(current), 'ids': ids,
             'reason': 'Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.',
             'policy_ref': POLICY_REF, 'delete_file': False})
-        if not deletion_authorized(report_name, base, ids, result):
+        if not deletion_authorized(report_name, base, ids, result, replacement=current):
             raise ValueError('publication evidence does not satisfy removal contract')
     return result
 
@@ -145,20 +146,23 @@ def publish_evaluation(root, report, report_name=REPORT_PATH):
     report_path = safe_path(root, report_name)
     history = safe_path(root, HISTORY_PATH)
     manifest_path = safe_path(root, MANIFEST_PATH)
-    lock = safe_path(root, 'data/knowledge/.moe-evaluation.lock')
+    lock = safe_path(root, LOCK_PATH)
     lock.parent.mkdir(parents=True, exist_ok=True)
     fd = os.open(lock, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
     try:
         os.fsync(fd)
         base = exact_head(root, report_name)
+        previous = report_path.read_bytes() if report_path.exists() else None
+        prior_manifest = manifest_path.read_bytes() if manifest_path.exists() else None
         current = (json.dumps(report, ensure_ascii=False, indent=2, allow_nan=False) + '\n').encode('utf-8')
         policy = json.loads(safe_path(root, 'config/publish_policy.json').read_bytes())
         ids = replacement_ids(json.loads(base), json.loads(current), policy)
-        document = json.loads(manifest_path.read_bytes()) if manifest_path.exists() else None
-        manifest = publication_manifest(document, base, ids, report_name)
+        if previous is not None:
+            replacement_ids(json.loads(previous), json.loads(current), policy)
+        document = json.loads(prior_manifest) if prior_manifest is not None else None
+        manifest = publication_manifest(document, base, ids, report_name, current)
         retained = {sha(base): base, sha(current): current}
-        if report_path.exists():
-            previous = report_path.read_bytes()
+        if previous is not None:
             retained[sha(previous)] = previous
         existing = set()
         if history.exists():
@@ -171,9 +175,21 @@ def publish_evaluation(root, report, report_name=REPORT_PATH):
                 existing.add(entry.stem)
         if len(existing | set(retained)) > MAX_REPORTS:
             raise ValueError('evaluation history capacity exhausted; no pruning permitted')
+        def unchanged(name, expected):
+            target = safe_path(root, name)
+            observed = target.read_bytes() if target.exists() else None
+            if observed != expected:
+                raise ValueError('concurrent evaluation publication changed ' + name)
+        def check_report():
+            unchanged(report_name, previous)
+            if exact_head(root, report_name) != base:
+                raise ValueError('concurrent evaluation HEAD report changed')
         for digest, value in retained.items():
             atomic_write(root, HISTORY_PATH + '/' + digest + '.json', value, immutable=True)
+        check_report()
+        unchanged(MANIFEST_PATH, prior_manifest)
         atomic_write(root, MANIFEST_PATH, (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))
+        check_report()
         atomic_write(root, report_name, current)
         return {'baseline_sha256': sha(base), 'current_sha256': sha(current), 'removed_ids': ids}
     finally:
