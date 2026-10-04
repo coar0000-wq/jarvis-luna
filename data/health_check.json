@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T05:07:59.399190+00:00",
+  "generated_at": "2026-10-04T05:39:51.530216+00:00",
   "overall_status": "warning",
   "status_legend": {
     "success": "정상",
@@ -26,13 +26,13 @@
       "product_master": "just now",
       "legal_full": "just now",
       "shopify_sync": "just now",
-      "pricing": "7.3 hours ago",
-      "marketing": "7.3 hours ago",
+      "pricing": "just now",
+      "marketing": "just now",
       "daiso": "1.2 days ago",
-      "deep_heartbeat": "17.2 hours ago",
-      "actions_monitor": "5.1 hours ago",
+      "deep_heartbeat": "17.7 hours ago",
+      "actions_monitor": "5.6 hours ago",
       "gosi": "1.5 days ago",
-      "product_discovery": "7.3 hours ago"
+      "product_discovery": "just now"
     }
   },
   "summary": {
@@ -74,14 +74,14 @@
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "7.3 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
       "is_failure": false,
-      "freshness": "7.3 hours ago"
+      "freshness": "just now"
     },
     {
       "team": "daiso",
@@ -94,9 +94,9 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 28.357,
-      "attempt_age_hours": 28.357,
-      "success_age_hours": 124.317,
+      "candidate_success_age_hours": 28.889,
+      "attempt_age_hours": 28.889,
+      "success_age_hours": 124.848,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -106,14 +106,14 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (17.2시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (17.7시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 17.217,
+      "age_hours": 17.748,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "17.2 hours ago"
+      "freshness": "17.7 hours ago"
     },
     {
       "team": "actions_monitor",
@@ -121,21 +121,21 @@
       "reason": "GitHub Actions 상태 조회 시각 미확인 또는 4.5시간 경과",
       "is_failure": false,
       "observed_at": "2026-10-04T00:03:58.055504Z",
-      "freshness": "5.1 hours ago"
+      "freshness": "5.6 hours ago"
     },
     {
       "team": "gosi",
       "status": "success",
-      "reason": "정상 35.5h 전",
+      "reason": "정상 36.0h 전",
       "is_failure": false,
       "freshness": "1.5 days ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 7.3h 전",
+      "reason": "정상 0.0h 전",
       "is_failure": false,
-      "freshness": "7.3 hours ago"
+      "freshness": "just now"
     }
   ],
   "architecture_p0": {
