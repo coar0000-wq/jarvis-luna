@@ -18,6 +18,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "01b009b97dd23659b84f41b56ad83f8c42637ebdb5953086be0a73544e2b575b",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "b0cfaa82a070f4bd1c0f865c83feda3e3601695014f8dc710825dcfd900d6be2",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_02f41f94bb715ec5058466a70009dfd0d8a9388eb0410f72839e531a22c73182",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_073561b7d2c23f89ba7546105b87da895e5be4f78a39ae8a43d50f8344b53459",
+    "training_allowed": false
+  },
+  {
     "action_id": "a9ef954d1e20748589e660e7a6a1466f64f3b74491ecf437882e4d550d417e01",
     "completed": true,
     "confidence": null,
@@ -34,6 +52,43 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_f9c9cd4908f053d1ac4c29fd2c515f66552c53272f3d5166e33dedbeb9864267",
+    "training_allowed": false
+  },
+  {
+    "action_id": "5d61fb6dbd238df8f63ab931f85a73f1269e2f98f23f705fb1c27120e8f9ea51",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_ad35a0a2066a18acbddd4a56dd669e638b9774400bcfa3cb539874c51e173011",
+        "receipt_hash": "a906136290e7afe7711239a746a09ea634096518755fb865c6e9b6283b3e7703",
+        "receipt_id": "receipt-a9f383b5468b3def40b9f49b873ce2741a85e133271d32e07cfdb71e2738bd72"
+      }
+    ],
+    "id": "decision_0d9c30a6d49b27b3ae7d40ee76d07a774f57f830b3faa5ddb7860e5fe3c28082",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_45dc02080b740c64fdd6a19da25d777f4a9bfcbf8cdec0f1d090e8b0b7d38b23",
+    "training_allowed": false
+  },
+  {
+    "action_id": "898618b1e83446cd95ac980e78708d0691f45b8db3da17c45a4570f652ade1c0",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "b0cfaa82a070f4bd1c0f865c83feda3e3601695014f8dc710825dcfd900d6be2",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_10f012147ec83b37d1ecef067176bcc0928a5d6887f6ec2dc3aa0c41b002d403",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_0008922f82ab54fb5310a66d5f1f27db9c5a975262164e4f775340ebb786e929",
     "training_allowed": false
   },
   {
@@ -73,6 +128,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "6b7b7117504e8aea9e979ee119737e5957b2f48ccb3a36da6195c881c2b492b4",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "b0cfaa82a070f4bd1c0f865c83feda3e3601695014f8dc710825dcfd900d6be2",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_1ef240406c020660389fc22d2bacb4ecba40e39c1af1ca32be3aa5d154f3525b",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_4caebd62ff80e7056f8ca0cd0e67ba7a5b371008e055a23a7e149eaf86c386d9",
+    "training_allowed": false
+  },
+  {
     "action_id": "44ed1012503f4f9a61fb6ab8b9ca110417a0373739741f284eb220146effc0e2",
     "completed": true,
     "confidence": null,
@@ -108,6 +181,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_c5646848c11f95d246f03241ff15c94ee990e05f8e37d74369f980bc68034d72",
+    "training_allowed": false
+  },
+  {
+    "action_id": "d8fe90206fc6b3df9c64455127e5c3904f9bbb3823acd5a52741a4440a9d68cf",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_bfa4244daf18f54ec2bd08eaeed185075e45dc63dae9ea36b0b2ad6b0bf05bc6",
+        "receipt_hash": "0d6ff27c985d3662229f9ff41aff72d5715f663597fbf0b05761f062ecec44b0",
+        "receipt_id": "receipt-85ab7b13a29589e9e45a7870796991ee5776e468f875f97c5698a73494b7dd6a"
+      }
+    ],
+    "id": "decision_2d419b855b45ddffb1f4a2b126e60ffd6e3641c83321801013e6cc599be934c5",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_89c24a1c3453c9ea061ecc984ee87ebac27f1414f635eccbcd8cd8b28f478e69",
     "training_allowed": false
   },
   {
@@ -204,6 +296,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "2e601e3a44bde2a72e1d8fad7cde0b377cff945951503a0ede4b686b8b0d789d",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_7d775b835c3e186bbb2020bb3b823df1360b5d87ec034c8eba7f27406761d41c",
+        "receipt_hash": "49c73a303b9e3e64b02fe043a91da93313dc0f1df09f47419b89d0b3a62c80f7",
+        "receipt_id": "receipt-c1ca18b4a87d48f9c4707b4347e04e4b0bb8f450014f5e7e03155bc18bac8138"
+      }
+    ],
+    "id": "decision_47a58be717fc801bdcac6d8f28db0c6acc233150229cb59101a049f8c289225b",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_8063135dbc6bb559ce10d259ad4ecd6ca3a7262b1285f256891558cc8b01079e",
+    "training_allowed": false
+  },
+  {
     "action_id": "8274272bcf3200fc81afca50e0eac10ad87052fd321c9c23dbdeb4ed46b8bb30",
     "completed": true,
     "confidence": null,
@@ -255,6 +366,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_7c40de06e04b9fdc4fd7998125838c6a6b1f81ff2d6300eb49d49bb2b218fa4a",
+    "training_allowed": false
+  },
+  {
+    "action_id": "d31ae870d8800d17af41dbdeca02065fce26f4a5d1dfac25c3e88c5479d5d236",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "b0cfaa82a070f4bd1c0f865c83feda3e3601695014f8dc710825dcfd900d6be2",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_5c2871bb2ac1c87037a0f41dca6f998707d2a63340d995656db8ac31099f8490",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_5ce64095ccef8797557a004cf0f18f8d69a46cce979e618f5ff14c95207394fb",
     "training_allowed": false
   },
   {
@@ -332,6 +461,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "95dda85b4496d13fb7da5bee5ee6af83f681ab68cc5a81817cb33e861d7fdf46",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "b0cfaa82a070f4bd1c0f865c83feda3e3601695014f8dc710825dcfd900d6be2",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_879f2d4fe6e2112996be671853fef5dd5b88828b522cd0438dae852f213bb0c7",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_eb29a88b0bb58e185dc9b416f55d907abbafd757a9a53a3316c643865c341c04",
+    "training_allowed": false
+  },
+  {
     "action_id": "3e390d2f0be3fa25810074c3c88a9a6994eb013fc21238b79bc706c1a942c756",
     "completed": true,
     "confidence": null,
@@ -365,6 +512,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_32d103f9c464b17267d8dbc915567f6079d8b446eabf154876f69a72f01fbd14",
+    "training_allowed": false
+  },
+  {
+    "action_id": "d67186f40bc40e457ac8676aa2f6ba15ceb541c47b5f4bcc42f8e32458aba229",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "b0cfaa82a070f4bd1c0f865c83feda3e3601695014f8dc710825dcfd900d6be2",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_9c5f51c52a51285c65262b3242b88e5a1f91952bf86578c9bace2483d66defe0",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_bfa4244daf18f54ec2bd08eaeed185075e45dc63dae9ea36b0b2ad6b0bf05bc6",
     "training_allowed": false
   },
   {
@@ -456,6 +621,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_fade34b1c4068fd5f9204a0add79e3c1d8a9fd8521b4f0388aaaf446db1d5876",
+    "training_allowed": false
+  },
+  {
+    "action_id": "35e9ab1a4fcf58eb15583f60608a516c2b049820bc5145b0b8bbe2b506a2134f",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_89c24a1c3453c9ea061ecc984ee87ebac27f1414f635eccbcd8cd8b28f478e69",
+        "receipt_hash": "bf6c458005221dfb5df528cad6f580d884a994a89e0092e3c55c2388e4f13632",
+        "receipt_id": "receipt-dee751dffb590ec8c12abba3856422498e93fdef8f72125fdac3867ab574491c"
+      }
+    ],
+    "id": "decision_b6738dd7319370fef2a50805e072c2edd7b41f8b1466c5b607e895d8bb22e6dc",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_7d775b835c3e186bbb2020bb3b823df1360b5d87ec034c8eba7f27406761d41c",
     "training_allowed": false
   },
   {
@@ -587,6 +771,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_4795e8c2059054feb67b690f934dc8261a30ce0d840c7bfd55301440afc23924",
+    "training_allowed": false
+  },
+  {
+    "action_id": "058e63e61b7b99f22a4d562f675192fade7d00af32c55c423ea6a086f74c0acc",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_8063135dbc6bb559ce10d259ad4ecd6ca3a7262b1285f256891558cc8b01079e",
+        "receipt_hash": "abec839242835821ee4f7eb4c963b029075de4257dabe61b09a34768f7c3b71a",
+        "receipt_id": "receipt-05a5b44a9546e43d48aa2001d174403a5642054270e025c78a3f3d57dcb4864a"
+      }
+    ],
+    "id": "decision_faf1cca55125bec5a6854c0606027b061ec88b8bd6fc9d73a21d0eff53ce7bac",
+    "promotion_allowed": false,
+    "reason": "기존 산출물의 출처·최신성·차단 요인을 로컬로 점검",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_ad35a0a2066a18acbddd4a56dd669e638b9774400bcfa3cb539874c51e173011",
     "training_allowed": false
   },
   {
