@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T19:49:25.957912+09:00",
+  "generated_at": "2026-10-04T22:29:12.749432+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -2701,7 +2701,7 @@
     "The Revenue Theory AOV 영상은 Carro 벤더 홍보, 보편 AOV 벤치마크, 과장 성장 표현 비중이 높아 신규 소스에서 제외"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-04T10:49:25.763815+00:00",
+    "listing_gate_generated_at": "2026-10-04T13:29:12.654814+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,

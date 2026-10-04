@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T10:49:46.414600+00:00",
+  "generated_at": "2026-10-04T13:29:27.388979+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -30,7 +30,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "robots_denied",
-        "attempted_at": "2026-10-04T10:49:28.177242+00:00",
+        "attempted_at": "2026-10-04T13:29:14.197688+00:00",
         "source_url": "https://world.openbeautyfacts.org/api/v2/search?countries_tags_en=united-states&sort_by=created_t&fields=code,product_name,brands&page_size=20",
         "http_status": null,
         "parse_status": "not_attempted",
@@ -66,7 +66,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T10:49:30.368175+00:00",
+        "attempted_at": "2026-10-04T13:29:16.154130+00:00",
         "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/K-beauty/daily/20260801/20260901",
         "http_status": 200,
         "parse_status": "ok",
@@ -75,9 +75,9 @@
         "public_api_documentation": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/documentation/access-policy.html",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T10:49:30.368156+00:00",
-      "observed_at": "2026-10-04T10:49:30.368156+00:00",
-      "collected_at": "2026-10-04T10:49:30.368156+00:00",
+      "captured_at": "2026-10-04T13:29:16.154112+00:00",
+      "observed_at": "2026-10-04T13:29:16.154112+00:00",
+      "collected_at": "2026-10-04T13:29:16.154112+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "wikipedia_pageviews",
@@ -111,7 +111,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "http_error",
-        "attempted_at": "2026-10-04T10:49:33.110407+00:00",
+        "attempted_at": "2026-10-04T13:29:18.376976+00:00",
         "source_url": "https://api.fda.gov/food/enforcement.json?search=product_type:cosmetic&limit=20",
         "http_status": 404,
         "parse_status": "not_attempted",
@@ -149,7 +149,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T10:49:37.919650+00:00",
+        "attempted_at": "2026-10-04T13:29:20.119664+00:00",
         "source_url": "https://www.allure.com/feed/rss",
         "http_status": 200,
         "parse_status": "ok",
@@ -157,9 +157,9 @@
         "access_basis": "robots_allowed",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T10:49:37.919630+00:00",
-      "observed_at": "2026-10-04T10:49:37.919630+00:00",
-      "collected_at": "2026-10-04T10:49:37.919630+00:00",
+      "captured_at": "2026-10-04T13:29:20.119647+00:00",
+      "observed_at": "2026-10-04T13:29:20.119647+00:00",
+      "collected_at": "2026-10-04T13:29:20.119647+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "allure_beauty_rss",
@@ -189,7 +189,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "robots_denied",
-        "attempted_at": "2026-10-04T10:49:39.456061+00:00",
+        "attempted_at": "2026-10-04T13:29:21.762175+00:00",
         "source_url": "https://www.reddit.com/r/KoreanBeauty/top.rss?t=week",
         "http_status": null,
         "parse_status": "not_attempted",
@@ -211,20 +211,20 @@
       "robots": "robots allowed",
       "access_basis": "robots_allowed",
       "max_source_reads": 1,
-      "bytes": 21931,
-      "items": 40,
+      "bytes": 20207,
+      "items": 38,
       "samples": [
-        "amazon.com",
-        "These 55 deals are worth shopping ahead of next week’s October Prime Day sale",
-        "Prime Big Deal Days: Our biggest deals to kick off fall and holiday shopping October 6-7"
+        "austin ekeler",
+        "Practice notes | Ekeler excited to be 'back in the brotherhood' with Commanders",
+        "NFL Network: Commanders expected to sign RB Austin Ekeler"
       ],
       "verdict": "가능",
-      "reason": "40 items parsed with distinct values",
+      "reason": "38 items parsed with distinct values",
       "status": "ok",
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T10:49:41.646775+00:00",
+        "attempted_at": "2026-10-04T13:29:23.534556+00:00",
         "source_url": "https://trends.google.com/trending/rss?geo=US",
         "http_status": 200,
         "parse_status": "ok",
@@ -232,9 +232,9 @@
         "access_basis": "robots_allowed",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T10:49:41.646760+00:00",
-      "observed_at": "2026-10-04T10:49:41.646760+00:00",
-      "collected_at": "2026-10-04T10:49:41.646760+00:00",
+      "captured_at": "2026-10-04T13:29:23.534536+00:00",
+      "observed_at": "2026-10-04T13:29:23.534536+00:00",
+      "collected_at": "2026-10-04T13:29:23.534536+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "google_trends_daily_rss",
@@ -272,7 +272,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T10:49:44.909596+00:00",
+        "attempted_at": "2026-10-04T13:29:25.885007+00:00",
         "source_url": "https://api.fda.gov/drug/label.json?search=openfda.product_type:\"HUMAN+OTC+DRUG\"+AND+sunscreen&limit=10",
         "http_status": 200,
         "parse_status": "ok",
@@ -281,9 +281,9 @@
         "public_api_documentation": "https://open.fda.gov/apis/authentication",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T10:49:44.909577+00:00",
-      "observed_at": "2026-10-04T10:49:44.909577+00:00",
-      "collected_at": "2026-10-04T10:49:44.909577+00:00",
+      "captured_at": "2026-10-04T13:29:25.884988+00:00",
+      "observed_at": "2026-10-04T13:29:25.884988+00:00",
+      "collected_at": "2026-10-04T13:29:25.884988+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "openfda_drug_otc_sunscreen",
