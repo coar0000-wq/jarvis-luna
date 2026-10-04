@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T17:51:35.028187+00:00",
+  "generated_at": "2026-10-04T20:57:00.305431+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -30,7 +30,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "robots_denied",
-        "attempted_at": "2026-10-04T17:51:21.896400+00:00",
+        "attempted_at": "2026-10-04T20:56:47.229289+00:00",
         "source_url": "https://world.openbeautyfacts.org/api/v2/search?countries_tags_en=united-states&sort_by=created_t&fields=code,product_name,brands&page_size=20",
         "http_status": null,
         "parse_status": "not_attempted",
@@ -66,7 +66,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T17:51:23.820439+00:00",
+        "attempted_at": "2026-10-04T20:56:48.941630+00:00",
         "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/K-beauty/daily/20260801/20260901",
         "http_status": 200,
         "parse_status": "ok",
@@ -75,9 +75,9 @@
         "public_api_documentation": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/documentation/access-policy.html",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T17:51:23.820424+00:00",
-      "observed_at": "2026-10-04T17:51:23.820424+00:00",
-      "collected_at": "2026-10-04T17:51:23.820424+00:00",
+      "captured_at": "2026-10-04T20:56:48.941615+00:00",
+      "observed_at": "2026-10-04T20:56:48.941615+00:00",
+      "collected_at": "2026-10-04T20:56:48.941615+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "wikipedia_pageviews",
@@ -111,7 +111,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "http_error",
-        "attempted_at": "2026-10-04T17:51:25.967929+00:00",
+        "attempted_at": "2026-10-04T20:56:51.300004+00:00",
         "source_url": "https://api.fda.gov/food/enforcement.json?search=product_type:cosmetic&limit=20",
         "http_status": 404,
         "parse_status": "not_attempted",
@@ -149,7 +149,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T17:51:27.757984+00:00",
+        "attempted_at": "2026-10-04T20:56:52.955464+00:00",
         "source_url": "https://www.allure.com/feed/rss",
         "http_status": 200,
         "parse_status": "ok",
@@ -157,9 +157,9 @@
         "access_basis": "robots_allowed",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T17:51:27.757970+00:00",
-      "observed_at": "2026-10-04T17:51:27.757970+00:00",
-      "collected_at": "2026-10-04T17:51:27.757970+00:00",
+      "captured_at": "2026-10-04T20:56:52.955452+00:00",
+      "observed_at": "2026-10-04T20:56:52.955452+00:00",
+      "collected_at": "2026-10-04T20:56:52.955452+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "allure_beauty_rss",
@@ -189,7 +189,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "robots_denied",
-        "attempted_at": "2026-10-04T17:51:29.368924+00:00",
+        "attempted_at": "2026-10-04T20:56:54.496402+00:00",
         "source_url": "https://www.reddit.com/r/KoreanBeauty/top.rss?t=week",
         "http_status": null,
         "parse_status": "not_attempted",
@@ -211,12 +211,12 @@
       "robots": "robots allowed",
       "access_basis": "robots_allowed",
       "max_source_reads": 1,
-      "bytes": 21206,
+      "bytes": 21835,
       "items": 40,
       "samples": [
-        "doug flutie",
-        "Flutie Flakes to return to Tops Markets shelves this week",
-        "Doug Flutie brings back Flutie Flakes to support autism foundation as he returns to Buffalo"
+        "rashee rice",
+        "Fantasy Football Rankings: Justin Boone's top wide receivers for Week 4",
+        "Fantasy playbook: NFL Week 4 Shadow Reports, lineup locks and projected scores"
       ],
       "verdict": "가능",
       "reason": "40 items parsed with distinct values",
@@ -224,7 +224,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T17:51:31.233711+00:00",
+        "attempted_at": "2026-10-04T20:56:56.202893+00:00",
         "source_url": "https://trends.google.com/trending/rss?geo=US",
         "http_status": 200,
         "parse_status": "ok",
@@ -232,9 +232,9 @@
         "access_basis": "robots_allowed",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T17:51:31.233690+00:00",
-      "observed_at": "2026-10-04T17:51:31.233690+00:00",
-      "collected_at": "2026-10-04T17:51:31.233690+00:00",
+      "captured_at": "2026-10-04T20:56:56.202879+00:00",
+      "observed_at": "2026-10-04T20:56:56.202879+00:00",
+      "collected_at": "2026-10-04T20:56:56.202879+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "google_trends_daily_rss",
@@ -272,7 +272,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T17:51:33.524178+00:00",
+        "attempted_at": "2026-10-04T20:56:58.802704+00:00",
         "source_url": "https://api.fda.gov/drug/label.json?search=openfda.product_type:\"HUMAN+OTC+DRUG\"+AND+sunscreen&limit=10",
         "http_status": 200,
         "parse_status": "ok",
@@ -281,9 +281,9 @@
         "public_api_documentation": "https://open.fda.gov/apis/authentication",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T17:51:33.524158+00:00",
-      "observed_at": "2026-10-04T17:51:33.524158+00:00",
-      "collected_at": "2026-10-04T17:51:33.524158+00:00",
+      "captured_at": "2026-10-04T20:56:58.802688+00:00",
+      "observed_at": "2026-10-04T20:56:58.802688+00:00",
+      "collected_at": "2026-10-04T20:56:58.802688+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "openfda_drug_otc_sunscreen",
