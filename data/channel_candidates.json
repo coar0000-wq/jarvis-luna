@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:04:26.126584+00:00",
+  "generated_at": "2026-10-05T02:25:21.582807+00:00",
   "generator": "scripts/discover_channels.py",
   "정책": "후보를 자동으로 등록하지 않는다. robots.txt 를 확인하고 실제로 호출해 본 뒤 진짜 데이터가 나오는 것만 제안한다. 붙일지 말지는 대화로 지시하면 자비스가 수집기를 만들어 연동한다. 이미 가동 중인 소스는 already_live 로 표시한다.",
   "판정기준": [
@@ -30,7 +30,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "robots_denied",
-        "attempted_at": "2026-10-04T22:04:14.073216+00:00",
+        "attempted_at": "2026-10-05T02:25:08.542774+00:00",
         "source_url": "https://world.openbeautyfacts.org/api/v2/search?countries_tags_en=united-states&sort_by=created_t&fields=code,product_name,brands&page_size=20",
         "http_status": null,
         "parse_status": "not_attempted",
@@ -66,7 +66,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T22:04:15.848611+00:00",
+        "attempted_at": "2026-10-05T02:25:10.366150+00:00",
         "source_url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/all-agents/K-beauty/daily/20260801/20260901",
         "http_status": 200,
         "parse_status": "ok",
@@ -75,9 +75,9 @@
         "public_api_documentation": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/documentation/access-policy.html",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T22:04:15.848594+00:00",
-      "observed_at": "2026-10-04T22:04:15.848594+00:00",
-      "collected_at": "2026-10-04T22:04:15.848594+00:00",
+      "captured_at": "2026-10-05T02:25:10.366132+00:00",
+      "observed_at": "2026-10-05T02:25:10.366132+00:00",
+      "collected_at": "2026-10-05T02:25:10.366132+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "wikipedia_pageviews",
@@ -111,7 +111,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "http_error",
-        "attempted_at": "2026-10-04T22:04:17.712406+00:00",
+        "attempted_at": "2026-10-05T02:25:12.538909+00:00",
         "source_url": "https://api.fda.gov/food/enforcement.json?search=product_type:cosmetic&limit=20",
         "http_status": 404,
         "parse_status": "not_attempted",
@@ -136,12 +136,12 @@
       "robots": "robots allowed",
       "access_basis": "robots_allowed",
       "max_source_reads": 1,
-      "bytes": 25523,
+      "bytes": 25624,
       "items": 30,
       "samples": [
+        "20 Best Beauty Advent Calendars 2026 to Delight Everyone on Your List",
         "8 Best Long-Lasting Nail Polishes in 2026, Tested & Reviewed",
-        "12 Bad Skin Habits Your Dermatologist Wishes You’d Break",
-        "GLP-1s May Significantly Increase Your Risk of Nail Detachment"
+        "12 Bad Skin Habits Your Dermatologist Wishes You’d Break"
       ],
       "verdict": "가능",
       "reason": "30 items parsed with distinct values",
@@ -149,7 +149,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T22:04:19.305405+00:00",
+        "attempted_at": "2026-10-05T02:25:14.321384+00:00",
         "source_url": "https://www.allure.com/feed/rss",
         "http_status": 200,
         "parse_status": "ok",
@@ -157,9 +157,9 @@
         "access_basis": "robots_allowed",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T22:04:19.305392+00:00",
-      "observed_at": "2026-10-04T22:04:19.305392+00:00",
-      "collected_at": "2026-10-04T22:04:19.305392+00:00",
+      "captured_at": "2026-10-05T02:25:14.321371+00:00",
+      "observed_at": "2026-10-05T02:25:14.321371+00:00",
+      "collected_at": "2026-10-05T02:25:14.321371+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "allure_beauty_rss",
@@ -189,7 +189,7 @@
       "last_attempt": {
         "status": "failed",
         "code": "robots_denied",
-        "attempted_at": "2026-10-04T22:04:20.850556+00:00",
+        "attempted_at": "2026-10-05T02:25:15.898524+00:00",
         "source_url": "https://www.reddit.com/r/KoreanBeauty/top.rss?t=week",
         "http_status": null,
         "parse_status": "not_attempted",
@@ -211,12 +211,12 @@
       "robots": "robots allowed",
       "access_basis": "robots_allowed",
       "max_source_reads": 1,
-      "bytes": 21391,
+      "bytes": 21845,
       "items": 40,
       "samples": [
-        "valkyries",
-        "Valkyries coach Natalie Nakase adjusting routine after collapse",
-        "Golden State Valkyries coach collapses midgame during WNBA playoffs"
+        "edwin diaz",
+        "Called on to close out NLDS G1, Scott shaky before Phillips gets the save",
+        "Dodgers Manager Sends Clear Message on Tanner Scott's Role After Rough Outing in NLDS Game 1"
       ],
       "verdict": "가능",
       "reason": "40 items parsed with distinct values",
@@ -224,7 +224,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T22:04:22.670514+00:00",
+        "attempted_at": "2026-10-05T02:25:17.775153+00:00",
         "source_url": "https://trends.google.com/trending/rss?geo=US",
         "http_status": 200,
         "parse_status": "ok",
@@ -232,9 +232,9 @@
         "access_basis": "robots_allowed",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T22:04:22.670498+00:00",
-      "observed_at": "2026-10-04T22:04:22.670498+00:00",
-      "collected_at": "2026-10-04T22:04:22.670498+00:00",
+      "captured_at": "2026-10-05T02:25:17.775136+00:00",
+      "observed_at": "2026-10-05T02:25:17.775136+00:00",
+      "collected_at": "2026-10-05T02:25:17.775136+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "google_trends_daily_rss",
@@ -272,7 +272,7 @@
       "last_attempt": {
         "status": "ok",
         "code": "success",
-        "attempted_at": "2026-10-04T22:04:24.623547+00:00",
+        "attempted_at": "2026-10-05T02:25:20.078655+00:00",
         "source_url": "https://api.fda.gov/drug/label.json?search=openfda.product_type:\"HUMAN+OTC+DRUG\"+AND+sunscreen&limit=10",
         "http_status": 200,
         "parse_status": "ok",
@@ -281,9 +281,9 @@
         "public_api_documentation": "https://open.fda.gov/apis/authentication",
         "max_source_reads": 1
       },
-      "captured_at": "2026-10-04T22:04:24.623530+00:00",
-      "observed_at": "2026-10-04T22:04:24.623530+00:00",
-      "collected_at": "2026-10-04T22:04:24.623530+00:00",
+      "captured_at": "2026-10-05T02:25:20.078638+00:00",
+      "observed_at": "2026-10-05T02:25:20.078638+00:00",
+      "collected_at": "2026-10-05T02:25:20.078638+00:00",
       "probe_status": "ok",
       "provenance": {
         "source_key": "openfda_drug_otc_sunscreen",

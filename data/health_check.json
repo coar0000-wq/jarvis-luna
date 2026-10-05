@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:04:26.186711+00:00",
+  "generated_at": "2026-10-05T02:25:21.634819+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -18,7 +18,7 @@
     "candidate_rechecked_this_attempt": 0,
     "failed_jobs": 3,
     "failed_checks": 1,
-    "actions_observed_at": "2026-10-04T17:51:07.256665Z",
+    "actions_observed_at": "2026-10-05T02:24:56.707601Z",
     "actions_observation_fresh": true,
     "queue": 2881,
     "stale_source": "marketing",
@@ -28,10 +28,10 @@
       "shopify_sync": "just now",
       "pricing": "just now",
       "marketing": "just now",
-      "daiso": "1.9 days ago",
-      "deep_heartbeat": "1.4 days ago",
-      "actions_monitor": "4.2 hours ago",
-      "gosi": "2.2 days ago",
+      "daiso": "2.1 days ago",
+      "deep_heartbeat": "1.6 days ago",
+      "actions_monitor": "just now",
+      "gosi": "2.4 days ago",
       "product_discovery": "just now"
     }
   },
@@ -86,7 +86,7 @@
     {
       "team": "daiso",
       "status": "degraded",
-      "reason": "수집 시도 45.3시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 49.6시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -94,41 +94,41 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 45.298,
-      "attempt_age_hours": 45.298,
-      "success_age_hours": 141.258,
+      "candidate_success_age_hours": 49.647,
+      "attempt_age_hours": 49.647,
+      "success_age_hours": 145.606,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,
       "is_failure": false,
-      "freshness": "1.9 days ago"
+      "freshness": "2.1 days ago"
     },
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (34.2시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (38.5시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 34.158,
+      "age_hours": 38.506,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "1.4 days ago"
+      "freshness": "1.6 days ago"
     },
     {
       "team": "actions_monitor",
       "status": "failed",
       "reason": "GitHub Actions 관측: 5/5개 · 실패 3",
       "is_failure": true,
-      "observed_at": "2026-10-04T17:51:07.256665Z",
-      "freshness": "4.2 hours ago"
+      "observed_at": "2026-10-05T02:24:56.707601Z",
+      "freshness": "just now"
     },
     {
       "team": "gosi",
       "status": "success",
-      "reason": "정상 52.4h 전",
+      "reason": "정상 56.8h 전",
       "is_failure": false,
-      "freshness": "2.2 days ago"
+      "freshness": "2.4 days ago"
     },
     {
       "team": "product_discovery",
