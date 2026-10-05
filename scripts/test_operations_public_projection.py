@@ -48,6 +48,22 @@ class OperationsPublicProjectionTests(unittest.TestCase):
         self.assertFalse(public['feedback']['training_performed'])
         self.assertEqual(project(public, OPERATIONS), public)
 
+    def test_source_procedures_expose_only_fixed_team_limits_not_authority(self):
+        source=fixture()
+        source['source_procedures']={'schema_version':1,'status':'bounded_source_recovery','generated_at':STAMP,
+          'authority':True,'business_clearance':True,'receipt_verified':True,'force_bypasses_limits':True,
+          'private_paths':'PRIVATE_ROOT','raw_goals':'PRIVATE_GOAL',
+          'continuity':{'schema_version':1,'revision':2,'authority':True,'business_clearance':True,'receipt_verified':True,
+             'teams':{'sourcing':{'budget':256,'episodes':1,'lifetime':1,'stopped':False,'reconciliation_required':False,'command':'PRIVATE_COMMAND'},'private_team':{'identity':'PRIVATE_PERSON'}}},
+          'plans':[{'team':'sourcing','fixedprocedure_id':'daiso_shortlist_observe','status':'held','reason':'cooldown',
+             'authority':True,'receipt_verified':True,'raw_payload':'PRIVATE_PAYLOAD'}]}
+        public=project({'operations':source},SCHEMAS[RUNTIME])['operations']['source_procedures']
+        self.assertFalse(public['authority']); self.assertFalse(public['business_clearance']); self.assertFalse(public['force_bypasses_limits'])
+        self.assertFalse(public['continuity']['authority']); self.assertFalse(public['plans'][0]['receipt_verified'])
+        self.assertEqual(set(public['continuity']['teams']),{'sourcing'})
+        self.assertNotIn('PRIVATE',json.dumps(public))
+        self.assertEqual(public['continuity']['teams']['sourcing']['lifetime'],1)
+
     def test_recursive_extra_credentials_pii_and_execution_material_omitted(self):
         source = fixture()
         forbidden = {'raw_payload': {'credential': 'SECRET_PAYLOAD'}, 'proofs': ['PRIVATE_PROOF'],
@@ -68,7 +84,7 @@ class OperationsPublicProjectionTests(unittest.TestCase):
             self.assertNotIn(marker, text)
         self.assertIsNone(result['action_cards'][0]['before'])
         self.assertIsNone(result['action_cards'][0]['after'])
-        self.assertEqual(set(result), set(OPERATIONS))
+        self.assertEqual(set(result), set(OPERATIONS) & set(source))
         self.assertEqual(project(result, OPERATIONS), result)
 
     def test_public_projection_cannot_grant_authority(self):

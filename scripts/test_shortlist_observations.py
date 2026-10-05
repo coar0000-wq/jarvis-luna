@@ -25,9 +25,23 @@ class ObserverTests(unittest.TestCase):
         self.save("data/daiso_real/products.json", {"products": [{"pd_no": pd} for pd in self.pds]})
         self.save("data/daiso_real/candidate_pool.json", {"private_fixture": "unchanged"})
         self.shortlist(2)
-        self.sleep = patch.object(obs.time, "sleep")
-        self.sleep.start()
-        self.addCleanup(self.sleep.stop)
+        self.wall = datetime(2026, 10, 3, tzinfo=timezone.utc).timestamp()
+        self.mono = 1000.0
+        def advance(seconds):
+            self.wall += seconds
+            self.mono += seconds
+        self.advance = advance
+        for target, replacement in [("time", lambda: self.wall), ("monotonic", lambda: self.mono), ("sleep", advance)]:
+            mock = patch.object(obs.time, target, side_effect=replacement)
+            mock.start()
+            self.addCleanup(mock.stop)
+        now = patch.object(obs, "_now", side_effect=lambda: datetime.fromtimestamp(self.wall, timezone.utc).isoformat())
+        now.start()
+        self.addCleanup(now.stop)
+        initial = datetime.fromtimestamp(self.wall - 30, timezone.utc).isoformat()
+        self.save(obs.LEDGER, {"policy": dict(obs.POLICY), "total_http_attempts": 0,
+                              "last_run_attempt_at": initial, "last_request_at": initial,
+                              "last_checked_at": initial, "request_history": []})
         self.addCleanup(self.tmp.cleanup)
 
     def save(self, rel, value):
@@ -68,6 +82,7 @@ class ObserverTests(unittest.TestCase):
         old = result["products"]
         def failed(url):
             return self.http(url) if url.endswith("robots.txt") else (500, b"")
+        self.advance(obs.FRESH_TTL)
         failed_result, network = self.run_observe(failed, force=True)
         self.assertEqual(failed_result["status"], "partial")
         self.assertFalse(failed_result["complete"])
@@ -83,10 +98,10 @@ class ObserverTests(unittest.TestCase):
         self.assertEqual(obs._parse(b'{"pdNo":"1000000","sellAmt":"5000"}', "1000000"), (5000, "sellAmt"))
 
     def test_robots_unknown_and_denied(self):
-        for body in [b"unknown", b"User-agent: *\nDisallow: /", b"<html>User-agent: *</html>"]:
+        for index, body in enumerate([b"unknown", b"User-agent: *\nDisallow: /", b"<html>User-agent: *</html>"]):
             with self.subTest(body=body):
                 result, network = self.run_observe(lambda url: (200, body), force=True)
-                self.assertEqual(network.call_count, 1)
+                self.assertEqual(network.call_count, 1 if index == 0 else 0)
                 self.assertEqual(result["products"], [])
                 self.assertEqual(result["status"], "blocked")
 
@@ -122,16 +137,7 @@ class ObserverTests(unittest.TestCase):
         self.assertEqual(network.call_count, 0)
         self.assertEqual(again["status"], "cached")
         self.assertTrue(again["complete"])
-        old = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
-        for row in result["products"]:
-            row["source"]["collected_at"] = old
-        result["budget_checkpoint"]["last_run_attempt_at"] = old
-        result["budget_checkpoint"]["last_request_at"] = old
-        self.save(obs.OUTPUT, result)
-        ledger = json.loads((self.root / obs.LEDGER).read_text())
-        ledger["last_request_at"] = old
-        ledger["last_run_attempt_at"] = old
-        self.save(obs.LEDGER, ledger)
+        self.advance(2 * 86400)
         refreshed, network = self.run_observe()
         self.assertEqual(network.call_count, 3)
         self.assertEqual(refreshed["status"], "complete")
@@ -159,7 +165,8 @@ class ObserverTests(unittest.TestCase):
             return self.http(url)
         with patch.object(obs, "_http_get", side_effect=mutating), self.assertRaises(obs.Blocked):
             obs.observe(self.root)
-        self.assertFalse((self.root / obs.OUTPUT).exists())
+        durable = json.loads((self.root / obs.OUTPUT).read_text())
+        self.assertEqual(durable["products"], [])
         master = json.loads((self.root / "data/product_master.json").read_text())
         master["registry_count"] = 356
         self.save("data/product_master.json", master)
@@ -275,11 +282,19 @@ class ObserverTests(unittest.TestCase):
         original, _ = self.run_observe()
         self.assertEqual(original["http_attempt_count"], 7)
         del original["budget_checkpoint"]
+        original['schema_version'] = 1
+        original.pop('policy', None)
         self.save(obs.OUTPUT, original)
+        ledger = json.loads((self.root / obs.LEDGER).read_text())
+        for key in ("policy", "request_history", "last_checked_at", "member_attempts"):
+            ledger.pop(key, None)
+        self.save(obs.LEDGER, ledger)
         migrated, network = self.run_observe()
         network.assert_not_called()
         self.assertEqual(migrated["products"], original["products"])
         self.assertEqual(migrated["budget_checkpoint"]["total_http_attempts"], 7)
+        self.assertIsNone(migrated['observation_history'][-1]['budget_checkpoint'])
+        self.assertEqual(migrated['observation_history'][-1]['legacy_budget_proof']['checkpoint']['total_http_attempts'],7)
         next_cached, network = self.run_observe()
         network.assert_not_called()
         self.assertEqual(next_cached["budget_checkpoint"], migrated["budget_checkpoint"])
@@ -299,10 +314,10 @@ class ObserverTests(unittest.TestCase):
 
     def test_robots_retry_bounds(self):
         result, network = self.run_observe(lambda url: (503, b""))
-        self.assertEqual(network.call_count, 2)
+        self.assertEqual(network.call_count, 1)
         self.assertEqual(result["status"], "blocked")
         result, network = self.run_observe(lambda url: (429, b""), force=True)
-        self.assertEqual(network.call_count, 1)
+        self.assertEqual(network.call_count, 0)
 
 
 if __name__ == "__main__":

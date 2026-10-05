@@ -311,7 +311,7 @@ def scripts_in_text(text: str) -> list[str]:
 
 _PUBLISH_WRAPPER = "scripts/publish_transaction.py"
 _RUNTIME_CHAIN = [["scripts/health_check_v2.py"],["scripts/generate_dashboard_runtime.py"],["scripts/run_jarvis_agents.py","--force"],["scripts/run_jarvis_operations.py"],["scripts/build_team_improvement.py"]]
-_COMMERCE_CHAIN = [["scripts/build_product_master.py"],["scripts/daiso/score_shopify_demand.py"],["scripts/build_product_master.py","--inject-s"],["scripts/pricing_model.py"],["scripts/check_legal_products.py"],["scripts/build_legal_full.py"],["scripts/build_listing_gate.py"],["scripts/build_product_master.py","--inject-s"],["scripts/build_shopify_shortlist.py"],["scripts/build_mocra_readiness.py"],["scripts/build_listing_gate.py"],["scripts/build_market_team.py"],["scripts/export_shopify_operational.py"],["scripts/build_shopify_action_queue.py"],["scripts/discover_channels.py"]]
+_COMMERCE_CHAIN = [["scripts/build_product_master.py"],["scripts/daiso/score_shopify_demand.py"],["scripts/build_product_master.py","--inject-s"],["scripts/pricing_model.py"],["scripts/check_legal_products.py"],["scripts/build_legal_full.py"],["scripts/build_listing_gate.py"],["scripts/build_product_master.py","--inject-s"],["scripts/build_shopify_shortlist.py"],["scripts/build_mocra_readiness.py"],["scripts/build_listing_gate.py"],["scripts/build_market_team.py"],["scripts/export_shopify_operational.py","--blocked-noop"],["scripts/build_shopify_action_queue.py"],["scripts/discover_channels.py","--cached-only"]]
 
 def _ast_matches(node, expression):
     return ast.dump(node) == ast.dump(ast.parse(expression, mode="eval").body)

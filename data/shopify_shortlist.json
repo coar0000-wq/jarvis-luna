@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T22:04:12.465389+00:00",
+  "generated_at": "2026-10-05T04:24:34.362258+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -22,6 +22,9 @@
     "1059834",
     "1067498"
   ],
+  "eligible_pd_nos": [],
+  "business_authority": false,
+  "selection_scope": "retained_candidate_and_price_watchlist_not_business_clearance",
   "units": [
     {
       "unit_id": "VG-VT-REEDLE-SHOT",
@@ -37,6 +40,8 @@
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
       ],
+      "eligible_pd_nos": [],
+      "business_ready": false,
       "score": 100,
       "evidence": {
         "global_product": "Skin1004 Madagascar Centella Ampoule",
@@ -45,7 +50,7 @@
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",
-      "note": ""
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: legal"
     },
     {
       "unit_id": "VG-CP000130",
@@ -58,6 +63,8 @@
       "names": [
         "본셉 레티놀 500 IU 세럼 30 ml"
       ],
+      "eligible_pd_nos": [],
+      "business_ready": false,
       "score": 98,
       "evidence": {
         "global_product": "Some By Mi Retinol Intense Reactivating Serum",
@@ -66,7 +73,7 @@
       },
       "added_at": "2026-09-29T10:03:26.384563+00:00",
       "status": "active",
-      "note": ""
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: legal"
     },
     {
       "unit_id": "VG-CP000216",
@@ -79,6 +86,8 @@
       "names": [
         "[영양광채]VT PDRN 광채 크림 50 ml"
       ],
+      "eligible_pd_nos": [],
+      "business_ready": false,
       "score": 96,
       "evidence": {
         "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -87,7 +96,7 @@
       },
       "added_at": "2026-09-29T20:38:16.971548+00:00",
       "status": "active",
-      "note": ""
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: legal"
     },
     {
       "unit_id": "VG-CP000109",
@@ -100,6 +109,8 @@
       "names": [
         "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입"
       ],
+      "eligible_pd_nos": [],
+      "business_ready": false,
       "score": 92,
       "evidence": {
         "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
@@ -108,7 +119,7 @@
       },
       "added_at": "2026-09-30T14:53:35.834094+00:00",
       "status": "active",
-      "note": ""
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: legal"
     },
     {
       "unit_id": "VG-CP000151",
@@ -121,6 +132,8 @@
       "names": [
         "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g"
       ],
+      "eligible_pd_nos": [],
+      "business_ready": false,
       "score": 90,
       "evidence": {
         "global_product": "Biodance Bio-Collagen Real Deep Mask",
@@ -129,7 +142,7 @@
       },
       "added_at": "2026-09-29T10:03:26.384568+00:00",
       "status": "active",
-      "note": ""
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: legal"
     }
   ],
   "not_selected": [
@@ -142,7 +155,7 @@
         "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml"
       ],
       "score": 96,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
+      "reason": "게이트 초안 미준비: legal"
     },
     {
       "unit_id": "VG-CP000270",
@@ -153,7 +166,7 @@
         "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매"
       ],
       "score": 94,
-      "reason": "미국 매칭 유사도 0.634 < 0.7"
+      "reason": "게이트 초안 미준비: legal"
     },
     {
       "unit_id": "VG-CP000038",
@@ -175,7 +188,7 @@
         "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
       ],
       "score": 86,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
+      "reason": "게이트 초안 미준비: legal"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

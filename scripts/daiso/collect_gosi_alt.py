@@ -61,6 +61,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+from scripts.gosi_observation_history import (validate_document, attempt, observe_field, mark_stale, publish_observation, receipt, sha, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop)
 DATA = ROOT / "data"
 GOSI = DATA / "gosi.json"
 SCORE = DATA / "daiso_real" / "shopify_demand_score.json"
@@ -175,7 +177,7 @@ def parse_alt(alt: str) -> dict[str, str]:
 def targets() -> list[str]:
     """고시가 아직 비어 있는 S등급 상품."""
     if len(sys.argv) > 1:
-        return [a for a in sys.argv[1:] if a.isdigit() or a[:1].isalnum()]
+        return [a for a in sys.argv[1:] if not a.startswith('-') and (a.isdigit() or a[:1].isalnum())]
 
     try:
         gosi = json.loads(GOSI.read_text(encoding="utf-8-sig")).get("items") or {}
@@ -198,180 +200,115 @@ def targets() -> list[str]:
     return need[:MAX_ITEMS]
 
 
+def response_text(raw):
+    text = raw.decode('utf-8', 'replace')
+    try:
+        strings = []
+        def visit(x):
+            if isinstance(x, str): strings.append(x)
+            elif isinstance(x, dict):
+                for y in x.values(): visit(y)
+            elif isinstance(x, list):
+                for y in x: visit(y)
+        visit(json.loads(text))
+        text += '\n' + '\n'.join(strings)
+    except ValueError:
+        pass
+    return re.sub(r'\s+', ' ', text)
+
+def apply_alt(row, alt, responses, pd_no, scope):
+    filled = []
+    for field, value in parse_alt(alt).items():
+        source = next((x for x in reversed(responses) if re.sub(r'\s+', ' ', value) in x['text']), None)
+        if source is None:
+            attempt(row, utcnow(), 'rendered_alt', 'unbound_field', field=field, capture_scope='parser_only', dom_sha256=sha(alt.encode()))
+            continue
+        evidence = dict(source['receipt'], source_received_at=source['receipt']['received_at'],
+                        capture_scope=scope, dom_sha256=sha(alt.encode()),
+                        intended_product_id=pd_no, product_identity_verified=False, human_verified=False)
+        if observe_field(row, field, value, evidence): filled.append(field)
+    return filled
+
 def main() -> int:
+    doc = json.loads(GOSI.read_text(encoding='utf-8-sig'))
+    items = validate_document(doc)
     try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
-        print("playwright 가 없다.")
-        print("  pip install playwright")
-        print("  playwright install chromium")
-        return 1
-
-    todo = targets()
-    if not todo:
-        print("고시가 비어 있는 S등급 상품이 없다. 할 일 없음.")
+        assert_not_stopped(doc, {'daiso'})
+    except ProviderStop as exc:
+        print(str(exc))
         return 0
-    print(f"대상 {len(todo)}건: {todo}")
-
-    try:
-        doc = json.loads(GOSI.read_text(encoding="utf-8-sig"))
-    except (OSError, ValueError):
-        doc = {}
-    items = doc.get("items")
-    if not isinstance(items, dict):
-        items = {}
-
-    ok, empty = 0, []
-    report = []
-
+    from playwright.sync_api import sync_playwright
+    todo = targets()
+    if not todo: return 0
     with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
-        ctx = browser.new_context(
-            user_agent=UA, viewport={"width": 1400, "height": 1000},
-            locale="ko-KR")
+        browser = p.chromium.launch()
+        ctx = browser.new_context(user_agent=UA, locale='ko-KR')
         page = ctx.new_page()
-        # 이미지 자체는 안 받아도 된다. alt 만 쓰므로 바이트를 아낀다.
-        # 다만 lazy 로드가 걸려야 alt 가 붙으므로 요청은 가게 둔다.
-
-        for i, pd_no in enumerate(todo):
-            if i:
-                print(f"  (Crawl-delay {DELAY:.0f}초 대기)")
-                page.wait_for_timeout(int(DELAY * 1000))
-
-            print(f"\n[{i + 1}/{len(todo)}] {pd_no}")
+        responses, stop_box = [], []
+        def received(response):
+            if 'daisomall.co.kr' not in response.url: return
+            if response.status in (401, 403, 429):
+                stop_box.append(ProviderStop('daiso', response.status))
+                return
             try:
-                page.goto(PAGE.format(pd_no), timeout=60000,
-                          wait_until="domcontentloaded")
-                page.wait_for_timeout(4000)
-
-                # 상품설명 더보기
-                #
-                # 고시는 모든 상품에 있다. 펼치지 못했거나 끝까지 내리지
-                # 못한 것은 "고시 없음"이 아니라 수집 실패다. 사유를 나눠 기록한다.
-                #
-                # 2026-09-19 실측: get_by_role("button", name=...) 는 이 버튼을
-                # 못 찾는다. 페이지의 접근성 트리에 안 올라온다.
-                # 살아 있는 버튼인데도 count()=0 이라 한 번도 펼치지 못했고,
-                # 그 결과를 고시 없음으로 오해했다. 글자로 집는다.
-                expand = "button_missing"
+                raw = response.body()
+                evidence = receipt(raw, response.url, 'browser_response_application_bytes')
+                text = response_text(raw)
+                if response.status >= 400:
+                    stop = classify_stop(text, 'daiso')
+                    if stop: stop_box.append(stop)
+                responses.append({'receipt': evidence, 'text': text})
+            except Exception as exc:
+                stop = classify_stop(exc, 'daiso')
+                if stop: stop_box.append(stop)
+        page.on('response', received)
+        try:
+            for i, pd_no in enumerate(todo):
+                if stop_box: break
+                if i: page.wait_for_timeout(int(max(30, DELAY) * 1000))
+                responses.clear()
+                row = items.setdefault(pd_no, {'product_id': pd_no})
+                when = utcnow()
                 try:
-                    btn = page.locator(
-                        'button:has-text("상품설명 더보기")')
-                    if not btn.count():
-                        btn = page.get_by_role(
-                            "button", name=re.compile("상품설명 더보기"))
-                    if btn.count():
-                        btn.first.scroll_into_view_if_needed(timeout=8000)
-                        btn.first.click(timeout=8000)
-                        print("  상품설명 더보기 눌렀다")
-                        page.wait_for_timeout(2500)
-                        expand = "clicked"
-                    else:
-                        print("  더보기 버튼을 못 찾았다")
-                except Exception as e:
-                    expand = "click_failed"
-                    print(f"  더보기 버튼 못 눌렀다: {type(e).__name__}")
-
-                # 누른 것과 펼쳐진 것은 다르다. 본문이 드러났는지 확인한다.
-                detail_ready = bool(page.evaluate(
-                    "() => {const d=document.querySelector('div.editor-content');"
-                    "return !!(d && d.getBoundingClientRect().height > 200);}"
-                ))
-                if detail_ready and expand != "clicked":
-                    expand = "already_open"
-                if not detail_ready:
-                    print("  상세 본문이 아직 펼쳐지지 않았다")
-
-                # 상세 이미지가 lazy 라 화면에 들어와야 로드된다.
-                # 높이가 멈추고 바닥에 닿을 때까지 내린다.
-                alt = ""
-                reached_end = False
-                stable = 0
-                last_height = -1
-                for step in range(MAX_SCROLL):
-                    page.mouse.wheel(0, 1600)
-                    page.wait_for_timeout(1100)
-                    found = page.evaluate(ALT_JS)
-                    if found and len(found) > len(alt):
-                        alt = found
-                    pos = page.evaluate(
-                        "() => {const e=document.scrollingElement;"
-                        "return [e.scrollHeight, e.scrollTop + e.clientHeight];}")
-                    height, bottom = int(pos[0]), int(pos[1])
-                    stable = stable + 1 if height == last_height else 0
-                    last_height = height
-                    if bottom >= height - 80 and stable >= 2:
-                        reached_end = True
+                    page.goto(PAGE.format(pd_no), timeout=60000, wait_until='domcontentloaded')
+                    if stop_box: raise stop_box[0]
+                    btn = page.locator('button:has-text("상품설명 더보기")')
+                    expanded = bool(btn.count())
+                    if expanded: btn.first.click(timeout=8000)
+                    alt, reached_end, last_height, stable = '', False, -1, 0
+                    for _ in range(MAX_SCROLL):
+                        if stop_box: raise stop_box[0]
+                        page.mouse.wheel(0, 1600)
+                        page.wait_for_timeout(1100)
+                        found = page.evaluate(ALT_JS)
+                        if len(found or '') > len(alt): alt = found
+                        height, bottom = page.evaluate('() => {const e=document.scrollingElement;return [e.scrollHeight,e.scrollTop+e.clientHeight];}')
+                        stable = stable + 1 if height == last_height else 0
+                        last_height = height
+                        if bottom >= height - 80 and stable >= 2:
+                            reached_end = True
+                            break
+                    if stop_box: raise stop_box[0]
+                    filled = apply_alt(row, alt, responses, pd_no, 'rendered_alt_partial_page') if alt else []
+                    attempt(row, when, 'rendered_alt', 'fields_added' if filled else 'no_bound_fields', expanded_button_clicked=expanded, scroll_end_reached=reached_end, capture_scope='rendered_alt_partial_page', page_verification=False)
+                    if not alt: mark_stale(row)
+                except ProviderStop as exc:
+                    persist_stop(doc, exc)
+                    attempt(row, when, 'rendered_alt', 'stopped', reason=str(exc))
+                    mark_stale(row)
+                    break
+                except Exception as exc:
+                    stop = classify_stop(exc, 'daiso')
+                    if stop:
+                        persist_stop(doc, stop)
                         break
-
-                if not alt:
-                    reason = ("expand_failed" if not detail_ready else
-                              "lazy_timeout" if not reached_end else
-                              "alt_not_rendered")
-                    print(f"  긴 alt 를 못 찾았다 · 사유 {reason} "
-                          "(고시 없음이 아니라 수집 실패다)")
-                    empty.append(pd_no)
-                    report.append({"pd_no": pd_no, "alt_len": 0, "찾음": [],
-                                   "실패사유": reason, "더보기": expand,
-                                   "끝까지": reached_end})
-                    continue
-
-                print(f"  alt {len(alt)}자 · 줄바꿈 {alt.count(chr(10))}개")
-                got = parse_alt(alt)
-                print(f"  뽑은 항목 {sorted(got)}")
-
-                row = items.get(pd_no) or {}
-                filled = []
-                for k, v in got.items():
-                    if not real(str(row.get(k) or "")):
-                        row[k] = v
-                        filled.append(k)
-                row.setdefault("name", "")
-                row["alt_source"] = "rendered_page_img_alt"
-                row["alt_len"] = len(alt)
-                row["alt_expand"] = expand
-                row["alt_reached_end"] = reached_end
-                row["alt_collected_at"] = now()
-                row["source_url"] = PAGE.format(pd_no)
-                items[pd_no] = row
-
-                if filled:
-                    ok += 1
-                print(f"  채운 칸 {filled or '없음'}")
-                report.append({"pd_no": pd_no, "alt_len": len(alt),
-                               "찾음": sorted(got), "채움": filled,
-                               "더보기": expand, "끝까지": reached_end})
-
-            except Exception as e:
-                print(f"  실패: {type(e).__name__}: {str(e)[:90]}")
-                empty.append(pd_no)
-                report.append({"pd_no": pd_no, "alt_len": 0, "찾음": [],
-                               "실패사유": f"exception:{type(e).__name__}"})
-
-        browser.close()
-
-    doc["items"] = items
-    doc["updated_at"] = now()
-    doc.setdefault("source", "daisomall.co.kr")
-    doc["alt_수집"] = {
-        "generator": "scripts/daiso/collect_gosi_alt.py",
-        "방식": ("렌더링된 페이지의 img alt 에서 글자를 꺼낸다. "
-               "이미지를 내려받아 비전으로 읽지 않는다. alt 가 이미 글자다."),
-        "robots": "/pd/pdr/ Allow · Crawl-delay 30 준수",
-        "ran_at": now(),
-        "대상": len(todo), "채움": ok, "못찾음": empty,
-        "상품별": report,
-    }
-    GOSI.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
-                    encoding="utf-8")
-
-    print(f"\n{'=' * 56}")
-    print(f"대상 {len(todo)}건 · 채운 상품 {ok}건 · 못 찾은 것 {len(empty)}건")
-    if empty:
-        print(f"  못 찾음: {empty}")
-    print(f"{'=' * 56}")
+                    attempt(row, when, 'rendered_alt', 'failed', error_type=type(exc).__name__)
+                    mark_stale(row)
+        finally:
+            browser.close()
+        if stop_box: persist_stop(doc, stop_box[0])
+    publish_observation(ROOT, doc)
     return 0
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     raise SystemExit(main())

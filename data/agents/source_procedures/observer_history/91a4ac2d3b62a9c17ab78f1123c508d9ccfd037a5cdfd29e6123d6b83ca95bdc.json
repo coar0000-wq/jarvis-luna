@@ -1,0 +1,69 @@
+{
+  "last_run_attempt_at": "2026-10-04T07:02:09.734108+00:00",
+  "last_request_at": "2026-10-04T07:05:39.734815+00:00",
+  "total_http_attempts": 7,
+  "expected_ids": [
+    "CP000106",
+    "CP000107",
+    "CP000109",
+    "CP000130",
+    "CP000151",
+    "CP000216"
+  ],
+  "last_result_status": "cached",
+  "policy": {
+    "version": 2,
+    "fresh_ttl_seconds": 86400,
+    "retry_cooldown_seconds": 7200,
+    "per_run_http_cap": 12,
+    "rolling_window_seconds": 86400,
+    "rolling_http_cap": 24,
+    "run_deadline_seconds": 660,
+    "safety_margin_seconds": 30,
+    "http_envelope_seconds": 30
+  },
+  "request_history": [
+    {
+      "sequence": 1,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 2,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 3,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 4,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 5,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 6,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 7,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    }
+  ],
+  "migration": {
+    "version": 2,
+    "legacy_total_http_attempts": 7,
+    "legacy_last_run_attempt_at": "2026-10-04T07:02:09.734108+00:00",
+    "legacy_last_request_at": "2026-10-04T07:05:39.734815+00:00"
+  },
+  "last_checked_at": "2026-10-04T23:38:47.145951+00:00"
+}

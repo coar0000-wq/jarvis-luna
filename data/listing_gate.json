@@ -1,31 +1,31 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-04T22:04:12.609352+00:00",
+  "generated_at": "2026-10-05T04:27:35.700392+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "43297b27573cb76e092970aed385feb35ef2a65f0c3c410f14f9c401be0d3574",
+      "data/product_master.json": "b7e7e89efd65c47d634a30e881471a57b58f430e5e9effa87e018b7dba6ea7e9",
       "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-      "data/daiso_real/daiso_us_labels.json": "1d3b0882778fdd846e15ce06b6f3ded9a16ccbd7337f41ebdd82c44b64b2ddf6",
+      "data/daiso_real/daiso_us_labels.json": "55ae90c53704e0ef803b6720fbaa6085781deac479e510ce059b4b785020cf58",
       "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
-      "data/legal_products.json": "2e4d7cb90587481e32a77a582af800947633104491d0f76655b64fd5e7d4f9a1",
-      "data/daiso_real/shopify_s_recommendations.json": "88cfb104ff2a32fe09421bfa518c63232b5fb09dbb9191bc5d9282ade7dd2250",
+      "data/legal_products.json": "cf9f50cf0c01909cbcd36d30836768394d3140f1904dda40eca5cf942a87105a",
+      "data/daiso_real/shopify_s_recommendations.json": "4cf7c3e0c878bbd15eb4c1a93eef99734e7ce5f00437784f65fdd5c86ef6660b",
       "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-      "data/shopify_shortlist.json": "68bdd15756e08739159731383696f088475640054e85f2def7edc4948f73c3f1",
-      "data/legal_full.json": "63eb268fccd6daf01f1fe6019a5dbf8f879109675dfe8db2232ec216f1a21bf4",
-      "data/mocra_readiness.json": "7c2b7f8dad9b355687185146691aaf991cfffc5037369ff219cfc8077fec9af0",
+      "data/shopify_shortlist.json": "d627cef44185c560f381f14c707d73a00eef0f250ae588737752ceb5dae3250e",
+      "data/legal_full.json": "d2b6fdbe3a229076857b3b5fd35db932794de2b971276dd6cf69a4921d95ed2b",
+      "data/mocra_readiness.json": "d7661e0299a4f66adc5f69aa99a890cf984889749ef0aca87c6df1ef98538b9f",
       "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
       "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
       "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "53375ad0d9e741e767fc3edf9d698e34d831a879fbd1fb99f540a56f45bfdf54"
+    "recommendations_sha256": "d6c45a0aa899c5feda0ba0376bfaa36aefa7e7b4fffe5cc2392d7749db0ce0a6"
   },
   "total": 10,
-  "agent_ready": 9,
-  "ready": 9,
-  "draft_ready": 9,
+  "agent_ready": 0,
+  "ready": 0,
+  "draft_ready": 0,
   "public_ready": 0,
   "counts": {
     "ontology": 10,
@@ -33,21 +33,22 @@
     "gosi": 10,
     "us_label": 9,
     "price": 10,
-    "legal": 9,
+    "legal": 0,
     "legal_full": 0
   },
   "blockers": {
     "copy": 1,
     "us_label": 1,
-    "legal": 1
+    "legal": 10
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "typesafe_carried": 10
+      "disabled_local_advisory": 9,
+      "typesafe_carried": 1
     },
     "typesafe_calls": null,
-    "free_credits_only": 10,
+    "free_credits_only": 1,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
@@ -110,48 +111,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.734,
-        "usage": {
-          "input_tokens": 1105,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.73,
-        "model": "jev-1.13.0",
-        "state_signature": "cdb95028555fb2cc1091059f8cd86fe4a993cc1cce6206584626e7d74b6ea8c6",
-        "decided_at": "2026-10-03T11:53:14.868902+00:00",
-        "carried_from": "2026-10-03T11:53:14.868902+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -202,48 +202,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.696,
-        "usage": {
-          "input_tokens": 1085,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.57,
-        "model": "jev-1.13.0",
-        "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-03T11:53:15.050770+00:00",
-        "carried_from": "2026-10-03T11:53:15.050770+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -294,48 +293,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.698,
-        "usage": {
-          "input_tokens": 1104,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.64,
-        "model": "jev-1.13.0",
-        "state_signature": "51d0e73d5ba5ed41de4d4bf02811433e8f7ef09ef764ae07bb5b94a8cc530ea7",
-        "decided_at": "2026-10-03T11:53:15.194834+00:00",
-        "carried_from": "2026-10-03T11:53:15.194834+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -386,48 +384,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.71,
-        "usage": {
-          "input_tokens": 1086,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.62,
-        "model": "jev-1.13.0",
-        "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-03T11:53:15.346804+00:00",
-        "carried_from": "2026-10-03T11:53:15.346804+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -478,48 +475,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.91,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.704,
-        "usage": {
-          "input_tokens": 1097,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.58,
-        "model": "jev-1.13.0",
-        "state_signature": "a235a30f46906db0e3e7198e8f998dc4cfdaf92ceac3f46d1cef17739f39ea0f",
-        "decided_at": "2026-10-03T11:53:15.491160+00:00",
-        "carried_from": "2026-10-03T11:53:15.491160+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -571,48 +567,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.93,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.678,
-        "usage": {
-          "input_tokens": 1090,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.56,
-        "model": "jev-1.13.0",
-        "state_signature": "9cd2800fc8d4cac3636219a503b910fbb2b0924bd299e98e77065bc73dc4dcbb",
-        "decided_at": "2026-10-03T11:53:15.672686+00:00",
-        "carried_from": "2026-10-03T11:53:15.672686+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -663,48 +658,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 1,
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.718,
-        "usage": {
-          "input_tokens": 1096,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.59,
-        "model": "jev-1.13.0",
-        "state_signature": "3a378c7505096d3df7a096ebff231a6c635d3bd965a6b595416b11582633cb00",
-        "decided_at": "2026-10-03T11:53:15.805570+00:00",
-        "carried_from": "2026-10-03T11:53:15.805570+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -745,7 +739,7 @@
         "net_contents": "28 g",
         "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
         "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Vigna Radiata Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, CI 17200, Tocopherol",
+        "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
         "us_label_ok": true
       },
       "price": {
@@ -755,48 +749,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
-        "legal_gate_advisory": "review",
-        "risk_level": "medium",
-        "risk_points": 1,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 5,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.94,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.72,
-        "usage": {
-          "input_tokens": 1094,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.44,
-        "model": "jev-1.13.0",
-        "state_signature": "72531625bdb11b67ee797df5b076b36210e54f4a386ed65f9afe25a575270ba5",
-        "decided_at": "2026-10-03T11:53:15.936052+00:00",
-        "carried_from": "2026-10-03T11:53:15.936052+00:00"
+        "confidence": null,
+        "usage": null
       }
     },
     {
@@ -833,7 +826,7 @@
       "legal": {
         "status": "auto_checked",
         "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields"
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "agent_ready": false,
       "agent_blocked_by": [
@@ -937,48 +930,47 @@
       },
       "legal": {
         "status": "auto_checked",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "legal"
+      ],
       "public_ready": false,
       "public_blocked_by": [
+        "legal",
         "legal_full"
       ],
       "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "review",
-        "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 2,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 6,
         "team_routes": [
           "legal"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.92,
+        "model_route_confidence": null,
         "findings": [
-          "public blockers: legal_full"
+          "draft blockers: legal",
+          "public blockers: legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.702,
-        "usage": {
-          "input_tokens": 1091,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 1.55,
-        "model": "jev-1.13.0",
-        "state_signature": "567e5d2b0760589d9239f3afb50a6bf184726911f277cecd34da4511b62b460b",
-        "decided_at": "2026-10-03T11:53:16.259294+00:00",
-        "carried_from": "2026-10-03T11:53:16.259294+00:00"
+        "confidence": null,
+        "usage": null
       }
     }
   ]

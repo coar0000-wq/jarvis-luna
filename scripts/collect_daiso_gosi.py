@@ -21,12 +21,15 @@ import html as H
 import json
 import re
 import time
+import sys
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from scripts.gosi_observation_history import (validate_document, attempt, observe_field, merge_images, mark_stale, publish_observation, receipt, sha, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop)
 DATA = ROOT / "data"
 GOSI = DATA / "gosi.json"
 IMGDIR = DATA / "daiso_real" / "gosi_img"
@@ -73,13 +76,23 @@ def post(path: str, pd_no: str) -> dict[str, Any] | None:
         },
     )
     try:
-        return json.loads(
-            urllib.request.urlopen(request, timeout=TIMEOUT)
-            .read()
-            .decode("utf-8", "replace")
-        )
+        raw = urllib.request.urlopen(request, timeout=TIMEOUT).read()
+        provenance = receipt(raw, API + path)
+        result = json.loads(raw.decode('utf-8'))
+        if not isinstance(result, dict):
+            raise ValueError('API response must be an object')
+        stop = classify_stop(json.dumps(result.get('error') or {}), 'daiso')
+        if stop:
+            raise stop
+        result['_receipt'] = provenance
+        return result
+    except ProviderStop:
+        raise
     except Exception as exc:
-        print(f"  API 실패 {path}: {type(exc).__name__}")
+        stop = classify_stop(exc, 'daiso')
+        if stop:
+            raise stop from exc
+        print(f'API failed: {type(exc).__name__}')
         return None
 
 
@@ -99,14 +112,12 @@ def is_placeholder(value: str) -> bool:
     return False
 
 
-def set_if_empty(row: dict[str, Any], key: str, value: str, source: str) -> None:
-    """이미 값이 있으면 유지. 빈칸일 때만 채운다."""
+def set_if_empty(row, key, value, source, provenance=None):
     if not value or is_placeholder(value):
-        return
-    if str(row.get(key) or "").strip():
-        return
-    row[key] = value
-    row.setdefault("자동_출처", {})[key] = source
+        return False
+    evidence = dict(provenance or {'capture_scope': 'local_parser_only', 'source_received_at': None})
+    evidence['source'] = source
+    return observe_field(row, key, value, evidence)
 
 
 def volume_from_text(text: str) -> str:
@@ -121,208 +132,94 @@ def volume_from_text(text: str) -> str:
     return f"{m.group(1)}{m.group(2).lower()}"
 
 
-def download_image(url: str, dest: Path) -> bool:
-    if dest.exists() and dest.stat().st_size > 1000:
-        return True
+def download_image(url, dest):
+    clean_url = re.sub(r'/dims/.*$', '', url)
+    req = urllib.request.Request(clean_url, headers={'User-Agent': UA, 'Referer': 'https://www.daisomall.co.kr/'})
     try:
-        # CDN resize 파라미터 제거해 원본에 가깝게
-        clean_url = re.sub(r"/dims/.*$", "", url)
-        req = urllib.request.Request(
-            clean_url,
-            headers={"User-Agent": UA, "Referer": "https://www.daisomall.co.kr/"},
-        )
-        data = urllib.request.urlopen(req, timeout=TIMEOUT).read()
-        if len(data) < 500:
-            return False
-        dest.write_bytes(data)
-        return True
-    except Exception:
-        return False
+        raw = urllib.request.urlopen(req, timeout=TIMEOUT).read()
+        evidence = receipt(raw, clean_url, 'downloaded_image_bytes')
+        if len(raw) < 500:
+            return None
+        dest = dest.with_name(dest.stem + '_' + sha(raw) + dest.suffix)
+        if dest.exists() and dest.read_bytes() != raw:
+            raise ValueError('image hash collision/tamper')
+        if not dest.exists():
+            dest.write_bytes(raw)
+        return str(dest.relative_to(ROOT)), evidence
+    except Exception as exc:
+        stop = classify_stop(exc, 'daiso')
+        if stop:
+            raise stop from exc
+        return None
 
-
-def collect_one(pd_no: str, row: dict[str, Any]) -> None:
-    name = str(row.get("name") or "")
-    print(f"- {pd_no} {name[:40]}")
-
-    # 1) 공식 고시 API (대부분 '상세페이지 참조' — 원산지 정도만 실값)
-    response = post("/pd/pdr/pdDtl/selPdDtlNtfc", str(pd_no))
-    api_filled = 0
-    if response and response.get("success"):
-        for item in response.get("data") or []:
-            match = re.match(r"\s*(\d+)\.", str(item.get("ntfcIemNm") or ""))
-            value = clean(item.get("ntfcIemCn"))
-            if not match or is_placeholder(value):
-                continue
-            key = FIELD.get(match.group(1))
+def collect_one(pd_no, row):
+    when = utcnow()
+    response = post('/pd/pdr/pdDtl/selPdDtlNtfc', pd_no)
+    attempt(row, when, 'daiso_ntfc', 'received' if response else 'failed', capture_scope='notice_api_only')
+    if response and response.get('success'):
+        for item in response.get('data') or []:
+            match = re.match(r'\s*(\d+)\.', str(item.get('ntfcIemNm') or ''))
+            value = clean(item.get('ntfcIemCn'))
+            key = FIELD.get(match.group(1)) if match else None
             if key:
-                before = str(row.get(key) or "").strip()
-                set_if_empty(row, key, value, "daiso_api:selPdDtlNtfc")
-                if not before and str(row.get(key) or "").strip():
-                    api_filled += 1
-    print(f"  API 실값 {api_filled}칸")
-
-    time.sleep(DELAY)
-
-    # 2) 상세 설명 API — 고시는 이미지로 들어 있음
-    desc_res = post("/pd/pdr/pdDtl/selPdDtlDesc", str(pd_no))
-    detail_imgs: list[str] = []
-    if desc_res and desc_res.get("success"):
-        desc = ((desc_res.get("data") or {}).get("pdDtlDesc") or {})
-        raw_html = H.unescape(desc.get("pdDtlDc") or "")
-        detail_imgs = re.findall(r'src="(https?://[^"]+)"', raw_html)
-        # 소개 텍스트에서 용량·기능성 보조 추출
-        vsip = clean(H.unescape(str(desc.get("vsipPdDtl") or "")))
-        if vsip:
-            row["detail_blurb"] = vsip[:800]
-            vol = volume_from_text(vsip)
-            set_if_empty(row, "volume", vol, "daiso_api:vsipPdDtl")
-            if "기능성" in vsip:
-                set_if_empty(
-                    row,
-                    "functional",
-                    "기능성 화장품(상세 소개문)",
-                    "daiso_api:vsipPdDtl",
-                )
-
-    # 3) 상품명에서 용량
-    set_if_empty(row, "volume", volume_from_text(name), "product_name")
-
-    # 4) 상세 이미지 저장 (사용자가 더보기에서 보는 그 고시 이미지)
-    IMGDIR.mkdir(parents=True, exist_ok=True)
-    saved: list[str] = []
-    for i, url in enumerate(detail_imgs):
-        # 파일명: {pdNo}_{index}.jpg
-        ext = ".jpg"
-        if ".png" in url.lower():
-            ext = ".png"
-        dest = IMGDIR / f"{pd_no}_{i:02d}{ext}"
-        if download_image(url, dest):
-            saved.append(str(dest.relative_to(ROOT)))
-        time.sleep(0.3)
-
-    if detail_imgs:
-        row["detail_images"] = detail_imgs
-    if saved:
-        row["gosi_image"] = saved[0]
-        row["gosi_images"] = saved
-        row["고시_위치"] = (
-            "텍스트 API는 '상세페이지 참조'만 반환. "
-            "실제 고시 표는 상품설명 더보기 상세 이미지에 있음. "
-            "비전/OCR 또는 수동 입력이 필요."
-        )
-        print(f"  상세 이미지 {len(saved)}/{len(detail_imgs)}장 저장")
+                set_if_empty(row, key, value, 'daiso_api:selPdDtlNtfc', response['_receipt'])
     else:
-        print("  상세 이미지 없음/다운로드 실패")
-
-    row["captured_at"] = datetime.now(timezone.utc).isoformat()
-    # 비어 있는 필수칸 표시 (거짓으로 '완료'라고 쓰지 않음)
-    missing = [
-        k for k in ("volume", "maker", "origin", "ingredients")
-        if not str(row.get(k) or "").strip()
-    ]
-    row["텍스트_미수집"] = missing
-    if missing and saved:
-        row["다음_조치"] = (
-            f"이미지 {len(saved)}장에서 비전으로 {', '.join(missing)} 추출 필요"
-        )
-
-
-# S등급 정본. build_listing_gate.py 가 보는 것과 같은 파일을 본다.
-# 짐작하지 않는다. 게이트가 읽는 그 목록 그대로다.
-S_RECOMMENDATIONS = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
-
-
-def seed_from_s_grade(items: dict[str, Any]) -> list[str]:
-    """S등급인데 고시 항목이 없는 상품을 빈 칸로 만든다.
-
-    값을 채우지 않는다. 이름과 상품번호만 넣어 뒤에 오는 수집기가
-    이 상품을 보게 만든다. 지어내는 것과 문을 열어두는 것은 다르다.
-    """
-    try:
-        doc = json.loads(S_RECOMMENDATIONS.read_text(encoding="utf-8-sig"))
-    except (OSError, json.JSONDecodeError) as exc:
-        print(f"S등급 목록을 읽지 못했다: {exc}")
-        return []
-
-    added: list[str] = []
-    for row in doc.get("recommendations") or []:
-        if not isinstance(row, dict) or row.get("grade") != "S":
-            continue
-        pd_no = str(row.get("pd_no") or "").strip()
-        if not pd_no or pd_no in items:
-            continue
-        items[pd_no] = {
-            "product_id": pd_no,
-            "name": clean(str(row.get("name") or "")),
-            "seeded_from": "shopify_s_recommendations.json",
-            "seeded_at": datetime.now(timezone.utc).isoformat(),
-        }
-        added.append(pd_no)
-    return added
-
-
+        mark_stale(row)
+    time.sleep(DELAY)
+    desc_res = post('/pd/pdr/pdDtl/selPdDtlDesc', pd_no)
+    urls = []
+    attempt(row, utcnow(), 'daiso_desc', 'received' if desc_res else 'failed', capture_scope='description_api_only')
+    if desc_res and desc_res.get('success'):
+        desc = ((desc_res.get('data') or {}).get('pdDtlDesc') or {})
+        raw_html = H.unescape(desc.get('pdDtlDc') or '')
+        urls = re.findall(r'src="(https?://[^"]+)"', raw_html)
+        vsip = clean(desc.get('vsipPdDtl') or '')
+        if vsip:
+            row.setdefault('detail_blurb', vsip[:800])
+            evidence = dict(desc_res['_receipt'], derivation='description_text_parser', capture_scope='description_text_only')
+            set_if_empty(row, 'volume', volume_from_text(vsip), 'daiso_api:vsipPdDtl', evidence)
+    else:
+        mark_stale(row)
+    set_if_empty(row, 'volume', volume_from_text(str(row.get('name') or '')), 'product_name')
+    saved, observations = [], {}
+    IMGDIR.mkdir(parents=True, exist_ok=True)
+    for i, url in enumerate(urls):
+        ext = '.png' if '.png' in url.lower() else '.jpg'
+        result = download_image(url, IMGDIR / f'{pd_no}_{i:02d}{ext}')
+        if result:
+            item_path, evidence = result
+            saved.append(item_path)
+            observations[item_path] = dict(evidence, url=url, intended_product_id=pd_no, product_identity_verified=False)
+        else:
+            attempt(row, utcnow(), 'daiso_image', 'failed', url=url)
+            mark_stale(row)
+        time.sleep(0.3)
+    merge_images(row, urls, saved, observations)
 def main() -> int:
     try:
-        doc = json.loads(GOSI.read_text(encoding="utf-8-sig"))
-    except (OSError, json.JSONDecodeError) as exc:
-        print(f"data/gosi.json 읽기 실패: {exc}")
+        doc = json.loads(GOSI.read_text(encoding='utf-8-sig'))
+        items = validate_document(doc)
+        assert_not_stopped(doc, {'daiso'})
+    except ProviderStop as exc:
+        print(str(exc))
+        return 0
+    except (OSError, ValueError) as exc:
+        print(f'gosi input invalid: {exc}')
         return 1
-
-    items = doc.get("items") or {}
-    if isinstance(items, list):
-        items = {
-            str(row.get("product_id") or row.get("pd_no")): row
-            for row in items
-            if isinstance(row, dict)
-            and (row.get("product_id") or row.get("pd_no"))
-        }
-        doc["items"] = items
-    if not isinstance(items, dict):
-        print("data/gosi.json의 items는 object 또는 list여야 합니다.")
-        return 1
-
-    # ------------------------------------------------------------------
-    # S등급인데 gosi.json 에 없는 상품을 먼저 넣는다.
-    #
-    # 2026-09-16 이 수집기는 이미 gosi.json 에 있는 항목만 순회했다.
-    # 새로 S등급이 된 상품은 아무도 씨앗을 넣어주지 않아서
-    # 상세 이미지 다운로드도, 비전 추출도 영영 돌지 않았다.
-    # 대시보드에는 "고시 표 5건 필요" 로 뜨는데 수집기는 그 5건을
-    # 본 적이 없는 상태였다. 닫힌 고리였다.
-    #
-    # 사용자 지적: "다이소 모든제품은 상품설명더보기 누르면 모두 다 있다"
-    # 맞다. 문제는 페이지가 아니라 그 페이지를 열어보지도 않은 것이었다.
-    # ------------------------------------------------------------------
-    added = seed_from_s_grade(items)
-    if added:
-        print(f"S등급 신규 {len(added)}건을 고시 대상에 추가했다: {', '.join(added)}")
-
-    print(f"고시 수집 대상 {len(items)}건")
-    print("참고: 다이소 고시 본문은 이미지고, API는 '상세페이지 참조'가 기본입니다.")
-
+    seed_from_s_grade(items)
     for pd_no, row in items.items():
-        if not isinstance(row, dict):
-            continue
         try:
-            collect_one(str(pd_no), row)
+            collect_one(pd_no, row)
+        except ProviderStop as exc:
+            attempt(row, utcnow(), 'daiso', 'stopped', reason=str(exc))
+            mark_stale(row)
+            persist_stop(doc, exc)
+            break
         except Exception as exc:
-            print(f"  오류 {pd_no}: {exc}")
-            row["collect_error"] = f"{type(exc).__name__}: {exc}"
-
-    doc["last_auto_run"] = datetime.now(timezone.utc).isoformat()
-    doc["수집_설명"] = (
-        "공식 고시 API는 대부분 '상세페이지 참조'. "
-        "사용자가 보는 고시 표는 상품설명 더보기 상세 이미지. "
-        "이미지는 data/daiso_real/gosi_img/ 에 저장. "
-        "전성분·제조사는 비전 추출 또는 수동 입력이 필요하다."
-    )
-    GOSI.write_text(
-        json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-    print("DAISO gosi updated")
+            attempt(row, utcnow(), 'daiso', 'failed', error_type=type(exc).__name__)
+            mark_stale(row)
+    publish_observation(ROOT, doc)
     return 0
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     raise SystemExit(main())

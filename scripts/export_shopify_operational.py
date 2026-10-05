@@ -59,6 +59,11 @@ def main() -> int:
     ready = [x for x in gate.get("items") or []
              if isinstance(x, dict) and x.get("ready") and str(x.get("pd_no")) in shortlist]
     if not ready:
+        if '--blocked-noop' in sys.argv[1:]:
+            # Legal/human holds are not a source-publication failure. Retain all
+            # old draft bytes/history, create nothing, and grant no clearance.
+            print('SHOPIFY_EXPORT_BLOCKED zero eligible shortlist members; existing drafts retained, not refreshed; authority=false')
+            return 0
         raise RuntimeError("shortlist 안에 listing_gate ready 상품이 없습니다")
 
     groups: dict[str, list[tuple[dict, dict]]] = {}

@@ -9,6 +9,7 @@ from pathlib import Path
 import stat
 import subprocess
 import tempfile
+from scripts.immutable_snapshot_store import retain_snapshots
 from scripts.publish_transaction import deletion_authorized, removed_identities, identity
 
 REPORT_PATH = 'data/knowledge/moe_tuning_report.json'
@@ -144,7 +145,6 @@ def publish_evaluation(root, report, report_name=REPORT_PATH):
     if report_name != REPORT_PATH:
         raise ValueError('MoE evaluation evidence only supports the canonical report')
     report_path = safe_path(root, report_name)
-    history = safe_path(root, HISTORY_PATH)
     manifest_path = safe_path(root, MANIFEST_PATH)
     lock = safe_path(root, LOCK_PATH)
     lock.parent.mkdir(parents=True, exist_ok=True)
@@ -164,17 +164,6 @@ def publish_evaluation(root, report, report_name=REPORT_PATH):
         retained = {sha(base): base, sha(current): current}
         if previous is not None:
             retained[sha(previous)] = previous
-        existing = set()
-        if history.exists():
-            if not history.is_dir():
-                raise ValueError('evaluation history is not a directory')
-            for entry in history.iterdir():
-                safe_path(root, entry.relative_to(root))
-                if not entry.is_file() or entry.suffix != '.json' or len(entry.stem) != 64 or sha(entry.read_bytes()) != entry.stem:
-                    raise ValueError('immutable evaluation history malformed/tampered')
-                existing.add(entry.stem)
-        if len(existing | set(retained)) > MAX_REPORTS:
-            raise ValueError('evaluation history capacity exhausted; no pruning permitted')
         def unchanged(name, expected):
             target = safe_path(root, name)
             observed = target.read_bytes() if target.exists() else None
@@ -184,8 +173,7 @@ def publish_evaluation(root, report, report_name=REPORT_PATH):
             unchanged(report_name, previous)
             if exact_head(root, report_name) != base:
                 raise ValueError('concurrent evaluation HEAD report changed')
-        for digest, value in retained.items():
-            atomic_write(root, HISTORY_PATH + '/' + digest + '.json', value, immutable=True)
+        retain_snapshots(root, HISTORY_PATH, retained, atomic_writer=atomic_write)
         check_report()
         unchanged(MANIFEST_PATH, prior_manifest)
         atomic_write(root, MANIFEST_PATH, (json.dumps(manifest, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))

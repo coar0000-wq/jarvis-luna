@@ -214,6 +214,10 @@ def summarize(root, state, observed, learned, now):
                  'recovery': latest_recovery.get(v.get('source_team'))} for v in observed['watchers']]
     local_verified = sum(t.get('state') == 'COMPLETED' and t.get('level',4) <= 2 for t in tasks)
     cards = approval_cards(root)
+    procedures = read(root, 'data/agents/source_procedures/report.json', {}) or {}
+    if procedures and (procedures.get('schema_version') != 1 or procedures.get('authority') is not False
+            or procedures.get('business_clearance') is not False or procedures.get('receipt_verified') is not False):
+        raise ValueError('source procedure projection cannot authorize execution')
     mocra = read(root, 'data/mocra_readiness.json', {}) or {}
     def count(*keys):
         for key in keys:
@@ -254,12 +258,24 @@ def summarize(root, state, observed, learned, now):
           'source_recoveries_open':sum(e['status'] != 'RECOVERED' for e in recovery_board['episodes']),
           'events':len(state['events']),'approval_waiting':len(cards)},
        'tasks':tasks[-40:], 'watchers':watchers, 'source_recovery':recovery_board,
+       'source_procedures':procedures,
        'action_cards':cards, 'business':business,
        'feedback':{'status':'awaiting_actual_observations','verified_observations':0,'training_performed':False}}
 
 
+def resumable_local_task(task):
+    descriptor = execution.REGISTRY.get(task.get('kind'), {})
+    local_only = (descriptor.get('pure_read') is True or
+                  (task.get('kind') == 'snapshot_report' and descriptor.get('scope') == 'data/operations/reports/'))
+    return (task.get('state') in ('IN_PROGRESS','VERIFYING','EXECUTING')
+            and descriptor.get('enabled') is True and local_only
+            and descriptor.get('level') in (1,2))
+
+
 def run(root=ROOT, *, now=None, execute_local=True):
     root = Path(root).absolute()
+    if execution._safe(root,'data/operations/.restore-pending.json').exists():
+        raise ValueError('operations_safety_restore_pending')
     stamp = core.utc(now)
     policy = read(root, POLICY, {}) or {}
     if policy.get('teams', list(core.TEAMS)) != list(core.TEAMS):
@@ -282,12 +298,13 @@ def run(root=ROOT, *, now=None, execute_local=True):
         atomic(root, STATE, state)
         if execute_local:
             # Restart only idempotent receipt-backed local work, never external effects.
-            candidates = [t for t in state['tasks'].values() if t.get('state') in ('IN_PROGRESS','VERIFYING','EXECUTING')]
+            candidates = [t for t in state['tasks'].values() if resumable_local_task(t)]
+            restart_ids = {t['task_id'] for t in candidates}
             candidates += core.ready_tasks(state)
             processed = set()
             for _ in range(32):
                 active = [t for t in candidates if t['task_id'] not in processed and
-                          (t.get('goal') == goal or t.get('payload',{}).get('source_event')
+                          (t['task_id'] in restart_ids or t.get('goal') == goal or t.get('payload',{}).get('source_event')
                            or t.get('payload',{}).get('recovery_id'))]
                 if not active:
                     break
@@ -363,6 +380,11 @@ def main():
     parser.add_argument('--observe-only',action='store_true')
     args = parser.parse_args()
     try:
+        marker = args.root/'data/operations/.restore-pending.json'
+        if marker.exists() or marker.is_symlink():
+            raise ValueError('operations_safety_restore_pending')
+        if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('JARVIS_OPERATIONS_CONTINUITY') != 'verified':
+            raise ValueError('authenticated_runner_operations_continuity_required')
         board = run(args.root, execute_local=not args.observe_only)
         print('JARVIS_OPERATIONS_OK ' + json.dumps(board['counts'],sort_keys=True))
         return 0

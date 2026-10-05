@@ -16,6 +16,7 @@
 from __future__ import annotations
 
 import base64
+import sys
 import json
 import os
 import re
@@ -26,6 +27,22 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from scripts.gosi_observation_history import validate_document, attempt, observe_field, mark_stale, publish_observation, sha, receipt, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop
+
+class DeadlineStop(RuntimeError):
+    pass
+
+DEADLINE = None
+
+def call_timeout():
+    if DEADLINE is None:
+        return TIMEOUT
+    remaining = DEADLINE - time.monotonic()
+    if remaining <= 0:
+        raise DeadlineStop('vision deadline exhausted')
+    return min(TIMEOUT, remaining)
+
 GOSI = ROOT / "data" / "gosi.json"
 API_ROOT = "https://generativelanguage.googleapis.com/v1beta"
 TIMEOUT = 120
@@ -74,24 +91,23 @@ TARGET_HINT = """
   다른 품번의 표를 대신 옮기지 마세요."""
 
 
-def http_json(url: str, payload: dict | None = None) -> dict:
+def http_json(url, payload=None):
     data = json.dumps(payload).encode() if payload else None
-    req = urllib.request.Request(
-        url,
-        data=data,
-        method="POST" if payload else "GET",
-        headers={"Content-Type": "application/json"},
-    )
+    req = urllib.request.Request(url, data=data, method='POST' if payload else 'GET', headers={'Content-Type': 'application/json'})
     try:
-        return json.loads(
-            urllib.request.urlopen(req, timeout=TIMEOUT).read().decode("utf-8")
-        )
-    except urllib.error.HTTPError as exc:
-        # attempt 루프에서 status 코드를 쓰도록 보존
-        body = exc.read().decode("utf-8", "replace")[:200]
-        err = RuntimeError(f"HTTP {exc.code}: {body}")
-        setattr(err, "code", exc.code)
-        raise err from exc
+        raw = urllib.request.urlopen(req, timeout=call_timeout()).read()
+        evidence = receipt(raw, url.split('?')[0], 'provider_response_only')
+        result = json.loads(raw.decode('utf-8'))
+        stop = classify_stop(json.dumps(result.get('error') or {}), 'gemini')
+        if stop: raise stop
+        result['_receipt'] = evidence
+        return result
+    except (ProviderStop, DeadlineStop):
+        raise
+    except Exception as exc:
+        stop = classify_stop(exc, 'gemini')
+        if stop: raise stop from exc
+        raise RuntimeError(f'gemini request failed: {type(exc).__name__}') from exc
 
 
 def pick_models(key: str) -> list[str]:
@@ -112,8 +128,10 @@ def pick_models(key: str) -> list[str]:
     ]
     try:
         d = http_json(f"{API_ROOT}/models?key={key}&pageSize=200")
+    except (ProviderStop, DeadlineStop):
+        raise
     except Exception as exc:
-        print(f"모델 목록 조회 실패: {exc} → fallback 사용")
+        print(f"모델 목록 조회 실패: {type(exc).__name__} → fallback 사용")
         return fallback
 
     usable = [
@@ -157,15 +175,15 @@ def mime_of(path: Path) -> str:
     return "image/jpeg"
 
 
-# Gemini 429 대체 경로.
+# Groq is an optional provider, never a quota/auth stop bypass.
 #
 # 2026-09-19 사용자가 말했다. "다이소에는 고시표가 무조건 있는데
 # 네가 못찾는건데 없다고 하니". 맞다. 그날 1072554 · 1053482 두 건은
 # 고시가 없어서 가 아니라 Gemini 할당량 429 로 판독을 못 해서 비어 있었다.
 # 사람이 직접 열어보면 둘 다 상세 이미지 맨 아래에 표가 있었다.
 #
-# 모델 하나의 할당량이 수집 전체를 멈추게 두지 않는다.
-# Gemini 가 막히면 Groq 비전 모델로 이어서 읽는다.
+# Any auth/quota stop terminates this run and is persisted.
+# Only ordinary non-circuit failures may use the optional provider.
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODELS = [
     m.strip() for m in os.environ.get(
@@ -236,14 +254,24 @@ def read_table_groq(key: str, img: Path, prompt: str) -> tuple[dict | None, str]
                 GROQ_URL, data=json.dumps(payload).encode(), method="POST",
                 headers={"Content-Type": "application/json",
                          "Authorization": f"Bearer {key}"})
-            body = urllib.request.urlopen(req, timeout=TIMEOUT).read().decode("utf-8")
-            txt = json.loads(body)["choices"][0]["message"]["content"]
+            raw = urllib.request.urlopen(req, timeout=call_timeout()).read()
+            evidence = receipt(raw, 'groq', 'provider_response_only')
+            result = json.loads(raw.decode('utf-8'))
+            stop = classify_stop(json.dumps(result.get('error') or {}), 'groq')
+            if stop: raise stop
+            txt = result['choices'][0]['message']['content']
+        except (ProviderStop, DeadlineStop):
+            raise
         except urllib.error.HTTPError as exc:
+            stop = classify_stop(exc, 'groq')
+            if stop: raise stop from exc
             detail = exc.read().decode("utf-8", "replace")[:120]
             last = f"groq {model} HTTP {exc.code}: {detail}"
             continue
         except Exception as exc:  # noqa: BLE001
-            last = f"groq {model} {type(exc).__name__}: {exc}"[:160]
+            stop = classify_stop(exc, 'groq')
+            if stop: raise stop from exc
+            last = f'groq {model} {type(exc).__name__}'
             continue
 
         txt = re.sub(r"^```(?:json)?|```$", "", str(txt).strip(), flags=re.M).strip()
@@ -256,13 +284,14 @@ def read_table_groq(key: str, img: Path, prompt: str) -> tuple[dict | None, str]
             last = f"groq {model} JSON 객체가 아님"
             continue
         parsed["_model"] = f"groq:{model}"
+        parsed["_provenance"] = dict(evidence, model=f"groq:{model}", payload_image_sha256=sha(payload_bytes), payload_image_byte_count=len(payload_bytes))
         return parsed, ""
     return None, last or "groq 호출 실패"
 
 
 def read_table(key: str, models: list[str], img: Path,
                pd_no: str = "") -> tuple[dict | None, str]:
-    """이미지 한 장을 읽는다. 과부하 시 재시도·다른 모델 전환.
+    """이미지 한 장을 읽는다. Auth/quota stops propagate without retry.
 
     pd_no 를 주면 그 품번의 표만 옮기라고 모델에게 명시한다.
     """
@@ -293,24 +322,17 @@ def read_table(key: str, models: list[str], img: Path,
     d = None
     used = ""
     for model in models:
-        for attempt in range(1, 3):
-            try:
-                d = http_json(
-                    f"{API_ROOT}/models/{model}:generateContent?key={key}",
-                    payload,
-                )
-                used = model
-                last = ""
-                break
-            except Exception as exc:
-                code = getattr(exc, "code", None)
-                last = f"{model} {type(exc).__name__}: {exc}"[:160]
-                if code in (429, 500, 502, 503, 504):
-                    time.sleep(3 * attempt)
-                    continue
-                break
-        if d is not None:
+        try:
+            d = http_json(f'{API_ROOT}/models/{model}:generateContent?key={key}', payload)
+            used = model
             break
+        except (ProviderStop, DeadlineStop):
+            raise
+        except Exception as exc:
+            stop = classify_stop(exc, 'gemini')
+            if stop:
+                raise stop from exc
+            last = f'{model} {type(exc).__name__}'
     if d is None:
         # Gemini 가 다 막혔다. 그렇다고 "고시 없음"으로 넘기지 않는다.
         gk = groq_key()
@@ -332,6 +354,7 @@ def read_table(key: str, models: list[str], img: Path,
         if not isinstance(parsed, dict):
             return None, "JSON 객체가 아님"
         parsed["_model"] = used
+        parsed["_provenance"] = dict(d.get("_receipt", {}), model=used, payload_image_sha256=sha(img.read_bytes()), payload_image_byte_count=img.stat().st_size)
         return parsed, ""
     except json.JSONDecodeError:
         return None, "JSON 파싱 실패"
@@ -407,6 +430,8 @@ def tall_slices(img: Path) -> list[Path]:
         return [img]
 
 
+CANDIDATE_ORIGINS = {}
+
 def ordered_candidates(imgs: list[Path]) -> list[Path]:
     """볼 순서를 정한다.
 
@@ -417,6 +442,7 @@ def ordered_candidates(imgs: list[Path]) -> list[Path]:
     out: list[Path] = []
     for img in reversed(imgs):
         for piece in tall_slices(img):
+            CANDIDATE_ORIGINS[str(piece)] = img
             out.append(piece)
             if len(out) >= MAX_CANDIDATES:
                 return out
@@ -427,159 +453,87 @@ def needs_fill(row: dict) -> bool:
     return not all(str(row.get(f) or "").strip() for f in NEED)
 
 
+def apply_vision(row, got, img, pd_no):
+    original = CANDIDATE_ORIGINS.get(str(img), img)
+    original_raw = original.read_bytes()
+    image_path = str(original.relative_to(ROOT))
+    source = row.get('image_observations', {}).get(image_path, {})
+    source_matches = source.get('sha256') == sha(original_raw)
+    evidence = dict(got.get('_provenance') or {}, source_image=image_path,
+                    source_image_sha256=sha(original_raw), source_image_byte_count=len(original_raw),
+                    source_received_at=source.get('received_at') if source_matches else None,
+                    capture_scope='single_image_or_crop_model_transcription',
+                    intended_product_id=pd_no, product_identity_verified=False,
+                    human_verified=False, image=str(img.relative_to(ROOT)))
+    return [f for f in FIELDS if isinstance(got.get(f), str) and
+            got[f].strip() not in {'', '-', '상세페이지 참조', '상세 페이지 참조'} and
+            observe_field(row, f, got[f], evidence)]
+
 def main() -> int:
-    key = os.environ.get("GEMINI_API_KEY", "").strip()
-    doc = json.loads(GOSI.read_text(encoding="utf-8-sig"))
-    items = doc.get("items") or {}
-    if isinstance(items, list):
-        items = {
-            str(r.get("product_id") or r.get("pd_no")): r
-            for r in items
-            if isinstance(r, dict) and (r.get("product_id") or r.get("pd_no"))
-        }
-        doc["items"] = items
-
-    if not key and not groq_key():
-        doc["vision_status"] = "skipped - 비전 키 없음(GEMINI_API_KEY / GROQ_API_KEY)"
-        GOSI.write_text(
-            json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-        print("비전 키 없음 - 건너뜀 (고시가 없는 것이 아니라 읽지 못한 것이다)")
+    doc = json.loads(GOSI.read_text(encoding='utf-8-sig'))
+    items = validate_document(doc)
+    try:
+        assert_not_stopped(doc, {'gemini', 'groq'})
+    except ProviderStop as exc:
+        print(str(exc))
         return 0
-
-    todo = {k: v for k, v in items.items() if isinstance(v, dict) and needs_fill(v)}
-    if not todo:
-        doc["vision_status"] = "ok"
-        doc["vision_note"] = "필수 4항목이 모두 채워져 있어 호출하지 않았다."
-        doc["vision_at"] = datetime.now(timezone.utc).isoformat()
-        GOSI.write_text(
-            json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-        print(f"읽을 항목 없음 - {len(items)}건 모두 완비. 호출 0회")
+    key = os.environ.get('GEMINI_API_KEY', '').strip()
+    todo = {k: r for k, r in items.items() if needs_fill(r)}
+    if not todo or (not key and not groq_key()):
+        # No calls, no fresh collection clocks or new missing-fact claims.
         return 0
-
-    print(f"대상 {len(todo)}/{len(items)}건 · 예산 {BUDGET_SEC:.0f}초")
-    models = pick_models(key) if key else []
-    print(f"모델 후보: {', '.join(models) or '(Gemini 키 없음)'}")
-    if groq_key():
-        print(f"대체 경로: groq {', '.join(GROQ_MODELS)}")
-    started = time.monotonic()
-    filled, fails, deferred = 0, [], []
-    quota_hit = False
-
-    for pd_no, row in todo.items():
-        if quota_hit:
-            deferred.append(pd_no)
-            continue
-        if time.monotonic() - started > BUDGET_SEC:
-            deferred.append(pd_no)
-            continue
-
-        imgs = image_candidates(row)
-        if not imgs:
-            fails.append({"pd_no": pd_no, "reason": "고시 이미지 없음 (collect 먼저 실행)"})
-            continue
-
-        wrote_total: list[str] = []
-        last_err = ""
-        used_img = ""
-        used_model = ""
-
-        # 고시 표는 마지막 상세 이미지의 맨 아래에 있다.
-        # 긴 이미지는 그 아래쪽만 잘라서 보낸다.
-        ordered = ordered_candidates(imgs)
-
-        for img in ordered:
-            if not needs_fill(row):
-                break
-            got, err = read_table(key, models, img, pd_no)
-            if got is None:
-                last_err = err
-                # 할당량을 다 썼으면 더 부르는 것은 의미가 없다.
-                #
-                # 2026-09-16 이 검사가 없어서 429 를 받으면서도
-                # 후보 이미지를 계속 돌았다. 3건 처리하는 데 21분을
-                # 쓰고 채운 칸은 0 이었다. 할당량은 기다려야 돌아오지
-                # 재시도로 풀리는 것이 아니다. 다음 회차로 미룬다.
-                # 단, 대체 경로(Groq)가 있으면 Gemini 할당량이 끝난 것만으로
-                # 수집 전체를 멈춰서는 안 된다. 둘 다 실패한 경우에만 멈추고,
-                # 사유를 화면에 남긴다. "고시가 없다"가 아니라 "읽지 못했다"다.
-                print(f"    ✖ {pd_no} {img.name}: {err[:150]}")
-                if ("429" in err or "quota" in err.lower()) and not groq_key():
-                    quota_hit = True
+    global DEADLINE
+    DEADLINE = time.monotonic() + BUDGET_SEC
+    fails, deferred, stopped = [], [], False
+    try:
+        models = pick_models(key) if key else []
+        for pd_no, row in todo.items():
+            if stopped or time.monotonic() >= DEADLINE:
+                deferred.append(pd_no)
+                continue
+            imgs = image_candidates(row)
+            if not imgs:
+                attempt(row, utcnow(), 'vision', 'unavailable', reason='local_image_not_available', capture_scope='local_inventory_only')
+                continue
+            for img in ordered_candidates(imgs):
+                if not needs_fill(row):
+                    break
+                when = utcnow()
+                try:
+                    got, err = read_table(key, models, img, pd_no)
+                except ProviderStop as exc:
+                    persist_stop(doc, exc)
+                    attempt(row, when, 'vision', 'stopped', reason=str(exc))
+                    mark_stale(row)
+                    stopped = True
+                    deferred.append(pd_no)
+                    break
+                except DeadlineStop:
+                    deferred.append(pd_no)
+                    stopped = True
+                    break
+                attempt(row, when, 'vision', 'received' if got else 'failed', image=str(img.relative_to(ROOT)), reason=err, capture_scope='candidate_image_only')
+                if got:
+                    apply_vision(row, got, img, pd_no)
+                else:
+                    mark_stale(row)
+                    fails.append({'pd_no': pd_no, 'reason': err})
+                if time.monotonic() + DELAY >= DEADLINE:
                     break
                 time.sleep(DELAY)
-                continue
-            used_img = str(img.relative_to(ROOT))
-            used_model = str(got.pop("_model", models[0]))
-            for f in FIELDS:
-                v = str(got.get(f) or "").strip()
-                if v and not str(row.get(f) or "").strip():
-                    row[f] = v
-                    wrote_total.append(f)
-                    filled += 1
-            time.sleep(DELAY)
-
-        if not wrote_total and last_err:
-            fails.append({"pd_no": pd_no, "reason": last_err})
-        else:
-            row["vision_source"] = (used_model if used_model.startswith("groq:")
-                                    else f"gemini:{used_model or (models[0] if models else '')}")
-            if used_img:
-                row["vision_image"] = used_img
-            row["verified"] = bool(row.get("verified"))
-            row["vision_at"] = datetime.now(timezone.utc).isoformat()
-            # 텍스트 미수집 목록 갱신
-            row["텍스트_미수집"] = [
-                f for f in NEED if not str(row.get(f) or "").strip()
-            ]
-            ing = str(row.get("ingredients") or "")
-            print(
-                f"  {pd_no}  {len(set(wrote_total))}칸 · "
-                f"전성분 {len(ing)}자  {str(row.get('name'))[:24]}"
-            )
-
-    if deferred:
-        why = "할당량 소진" if quota_hit else "예산 초과"
-        print(f"{why}로 {len(deferred)}건은 다음 회차로 미룬다")
-
-    doc["vision_deferred"] = deferred
-    done = sum(
-        1 for r in items.values()
-        if isinstance(r, dict) and all(str(r.get(f) or "").strip() for f in NEED)
-    )
-    incomplete = max(0, len(items) - done)
-    # 할당량뿐 아니라 모델이 빈 결과를 돌려 미완성 상품이 남은 경우도
-    # ok라고 쓰지 않는다. 전체 vision_status=ok 하나 때문에 특정 상품의
-    # 전성분 누락이 정상 판독으로 보였던 오경고를 막는다.
-    if quota_hit:
-        doc["vision_status"] = "quota_exhausted"
-    elif incomplete:
-        doc["vision_status"] = "partial"
-    else:
-        doc["vision_status"] = "ok"
-    doc["vision_note"] = (
-        "용량·전성분은 상세 이미지에만 있어 Gemini 비전으로 읽었다. "
-        "읽기이지 생성이 아니다. 표에 없는 항목은 빈칸. "
-        "verified 는 사람이 원본 이미지와 대조한 뒤 true 로 바꾼다."
-        + (f" 필수 4항목 미완성 {incomplete}건은 브라우저 alt 원문 수집 또는 다음 회차 재판독 대상이다."
-           if incomplete else "")
-        + (" 이번 회차는 Gemini 할당량(429)이 소진되어 중단했다. "
-           "할당량이 돌아오면 다음 실행이 이어받는다." if quota_hit else "")
-    )
-    doc["vision_failures"] = fails
-    doc["gosi_ok_count"] = done
-    doc["vision_at"] = datetime.now(timezone.utc).isoformat()
-    GOSI.write_text(
-        json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-    print(f"\n채운 칸 {filled} · 실패 {len(fails)}건")
-    print(f"필수 4항목 완료 {done}/{len(items)}")
+    except ProviderStop as exc:
+        persist_stop(doc, exc)
+        deferred.extend(todo)
+        stopped = True
+    except DeadlineStop:
+        deferred.extend(todo)
+        stopped = True
+    doc['vision_failures'] = fails
+    doc['vision_deferred'] = list(dict.fromkeys(deferred))
+    doc['vision_status'] = 'circuit_stopped' if doc.get('provider_stops') else 'partial' if any(needs_fill(r) for r in items.values()) else 'fields_present_unverified'
+    doc['vision_note'] = 'Model transcription of selected local images/crops only; no human or complete-page verification. Failures do not establish missing product facts.'
+    publish_observation(ROOT, doc)
     return 0
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     raise SystemExit(main())

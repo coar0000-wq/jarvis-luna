@@ -128,13 +128,15 @@
       "scripts/build_market_team.py"
     ],
     [
-      "scripts/export_shopify_operational.py"
+      "scripts/export_shopify_operational.py",
+      "--blocked-noop"
     ],
     [
       "scripts/build_shopify_action_queue.py"
     ],
     [
-      "scripts/discover_channels.py"
+      "scripts/discover_channels.py",
+      "--cached-only"
     ]
   ],
   "baseline_files": [

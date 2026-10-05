@@ -87,6 +87,22 @@ jobs:
         run: |
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-deep.txt
 
+      - name: Restore durable source safety before observation
+        id: source_safety
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE"
+
+      - name: Restore immutable operations safety before execution
+        id: operations_safety
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
+
       # =========================
       # REAL KNOWLEDGE
       # =========================
@@ -592,7 +608,7 @@ jobs:
           python -u scripts/build_listing_gate.py
           python -u scripts/build_product_master.py --inject-s
           python -u scripts/prepare_commerce_export.py
-          python -u scripts/export_shopify_operational.py
+          python -u scripts/export_shopify_operational.py --blocked-noop
           python -u scripts/build_shopify_action_queue.py
           RELEASE_STAGE_deep_41
           python scripts/collector_result.py run --name deep_41 --required \
@@ -640,8 +656,11 @@ jobs:
             --output "$RUNNER_TEMP/release-results/deep_45.json" -- bash -e "$RUNNER_TEMP/deep_45.sh"
 
       - name: Observe active shortlist source prices without operating writes
+        if: steps.source_safety.outputs.continuity == 'verified'
         continue-on-error: true
         timeout-minutes: 12
+        env:
+          JARVIS_SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
         run: |
           cat > "$RUNNER_TEMP/watch_shortlist.sh" <<'RELEASE_STAGE_watch_shortlist'
           python -u scripts/daiso/observe_shortlist.py --root "$GITHUB_WORKSPACE"
@@ -673,6 +692,17 @@ jobs:
           RELEASE_STAGE_deep_47
           python scripts/collector_result.py run --name deep_47 --optional \
             --output "$RUNNER_TEMP/release-results/deep_47.json" -- bash -e "$RUNNER_TEMP/deep_47.sh"
+
+      - name: Bounded existing-team source recovery
+        if: steps.source_safety.outputs.continuity == 'verified' && steps.operations_safety.outputs.operations_continuity == 'verified'
+        continue-on-error: true
+        timeout-minutes: 12
+        env:
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+          JARVIS_SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
+        run: python -u scripts/run_source_procedures.py --root "$GITHUB_WORKSPACE" --allow-source-reads
 
       - name: Observe actual Actions freshness (read-only)
         env:
@@ -717,8 +747,10 @@ jobs:
       # =========================
 
       - name: JARVIS multi-agent + Safe Auto-Fix
+        if: steps.operations_safety.outputs.operations_continuity == 'verified'
         continue-on-error: true
         env:
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
           JARVIS_AGENTS_FORCE: ${{ inputs.agents }}
           JARVIS_AUTOFIX: ${{ inputs.autofix }}
         run: |
@@ -768,6 +800,9 @@ jobs:
           python scripts/collector_result.py run --name deep_53 --required \
             --output "$RUNNER_TEMP/release-results/deep_53.json" -- bash -e "$RUNNER_TEMP/deep_53.sh"
       - name: Refresh typed ops plan and conditional Gemini escalation
+        if: steps.operations_safety.outputs.operations_continuity == 'verified'
+        env:
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
         run: |
           cat > "$RUNNER_TEMP/deep_54.sh" <<'RELEASE_STAGE_deep_54'
           python -u scripts/run_jarvis_agents.py --force
@@ -945,6 +980,9 @@ jobs:
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: success() && steps.release_outcomes.outcome == 'success' && steps.release_quality.outcome == 'success'
         uses: ./.github/actions/publish
+        env:
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
+          JARVIS_SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
         with:
           collector-report: data/agents/deep_run_results.json
           execution-id: ${{ github.run_id }}:${{ github.run_attempt }}
@@ -994,3 +1032,32 @@ jobs:
           path: ${{ env.TYPESAFE_SHARED_LEDGER_PATH }}
           if-no-files-found: ignore
           retention-days: 21
+
+      - name: Pack durable source safety even after publication failure
+        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        run: |
+          python -u scripts/source_safety_checkpoint.py pack --root "$GITHUB_WORKSPACE" \
+            --output "$RUNNER_TEMP/source-safety.zip" --repository "$GITHUB_REPOSITORY" \
+            --run-id "$GITHUB_RUN_ID" --run-attempt "$GITHUB_RUN_ATTEMPT" --commit "$GITHUB_SHA"
+
+      - name: Retain source safety checkpoint
+        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: source-safety-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/source-safety.zip
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Retain immutable operations safety history
+        if: always() && steps.operations_safety.outputs.operations_continuity == 'verified'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            data/operations/state.json
+            data/operations/reports
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 9

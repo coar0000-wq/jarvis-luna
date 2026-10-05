@@ -153,17 +153,22 @@ class DiagnosticPublicationTests(unittest.TestCase):
         self.assertEqual(self.report.read_bytes(), self.base)
         self.assertFalse((self.root / evidence.MANIFEST_PATH).exists())
 
-    def test_capacity_denies_without_pruning(self):
+    def test_flat_capacity_spills_without_pruning_or_reformatting(self):
+        from scripts.immutable_snapshot_store import load_snapshots
         history = self.root / evidence.HISTORY_PATH
         history.mkdir()
+        retained = {}
         for i in range(128):
             value = json.dumps({'fixture': i}).encode()
+            retained[evidence.sha(value)] = value
             (history / (evidence.sha(value) + '.json')).write_bytes(value)
-        with self.assertRaisesRegex(ValueError, 'capacity'):
-            self.publish()
-        self.assertEqual(len(list(history.iterdir())), 128)
-        self.assertEqual(self.report.read_bytes(), self.base)
-        self.assertFalse((self.root / evidence.MANIFEST_PATH).exists())
+        self.publish()
+        actual = load_snapshots(self.root, evidence.HISTORY_PATH)
+        self.assertEqual({h:actual[h] for h in retained}, retained)
+        self.assertEqual(len(list(history.glob('*.json'))), 128)
+        self.assertGreater(len(actual), 128)
+        self.assertEqual(json.loads(self.report.read_bytes()), self.current)
+        self.assertTrue((self.root / evidence.MANIFEST_PATH).exists())
 
     def test_symlink_and_reparse_mocked_guards(self):
         original = Path.lstat
@@ -300,7 +305,7 @@ class DiagnosticPublicationTests(unittest.TestCase):
     def test_direct_cli_saves_disabled_fixture_without_provider_calls(self):
         scripts = self.root / 'scripts'
         scripts.mkdir()
-        for name in ['gemini_escalation.py', 'diagnostic_evaluation_history.py', 'moe_evaluation_history.py', 'publish_transaction.py']:
+        for name in ['gemini_escalation.py', 'diagnostic_evaluation_history.py', 'moe_evaluation_history.py', 'publish_transaction.py', 'immutable_snapshot_store.py']:
             shutil.copyfile(ROOT / 'scripts' / name, scripts / name)
         (scripts / '__init__.py').write_text('', encoding='utf-8')
         hooks = self.root / 'empty-hooks'

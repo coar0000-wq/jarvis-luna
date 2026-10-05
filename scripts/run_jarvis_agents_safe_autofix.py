@@ -1241,14 +1241,18 @@ def update_remediation_state(chief_after: dict, executed_actions: set[str]) -> d
             "resolved_at": None,
         }
 
-    # 이전 실행에 있었지만 재검증 후 사라진 이슈는 해결로 닫는다.
+    # 진단 목록에서 사라졌다는 사실은 실제 복구 증거가 아니다.
+    # 원래 소스/범위의 검증된 영수증이 없으면 이력을 보존하고 대기한다.
+    # 정본 복구 완료는 별도 source_recovery의 receipt-backed 검증이 담당한다.
     for key, prior in list(issues.items()):
         if key in current_keys or not isinstance(prior, dict):
             continue
         if prior.get("state") != "resolved":
             prior = dict(prior)
-            prior["state"] = "resolved"
-            prior["resolved_at"] = now
+            prior["state"] = "waiting_verified_revalidation"
+            prior["resolved_at"] = None
+            prior["resolution_verified"] = False
+            prior["resolution_reason"] = "diagnostic_absence_is_not_recovery_evidence"
             prior["last_seen_at"] = prior.get("last_seen_at") or now
             issues[key] = prior
 

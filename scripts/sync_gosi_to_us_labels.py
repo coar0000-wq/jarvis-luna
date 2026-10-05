@@ -1,56 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""한국 고시를 미국 영문 라벨로 끝까지 옮긴다.
+"""Offline Korean-notice to US-label data adapter, not a safety/legal approval.
 
-읽는 곳  data/gosi.json
-        data/inci_dictionary.json
-쓰는 곳  data/daiso_real/daiso_us_labels.json
-
-왜 다시 썼나 (2026-09-13)
-
-  게이트가 등록 가능 0/7 이었다. 파고 보니 세 군데가 물려 있었다.
-
-  1. 안내문을 값으로 봤다
-
-     라벨 파일 7건이 전부 이랬다.
-
-       "ingredients_inci": "실제 제품 포장에 기재된 전체 INCI 성분",
-       "manufacturer": "실제 포장에 기재된 제조사",
-
-     사람이 나중에 채우라고 넣어 둔 안내문이다. 그런데 옛 코드가
-     "빈 칸만 채운다" 는 규칙이라 이걸 값이 있는 것으로 봤다.
-     그래서 영원히 안 채웠다.
-
-  2. gosi_ok 가 안내문에 속았다
-
-       target["gosi_ok"] = all(text(target.get(f)) for f in REQUIRED)
-
-     안내문도 글자라서 True 가 됐다. 그 플래그를 보고 다음 단계가
-     "라벨 준비됨" 이라고 믿었다. 거짓 안심이다.
-
-  3. 전성분을 옮길 길이 아예 없었다
-
-     옛 코드는 소스에 ingredients_inci 가 이미 영문으로 있고
-     ingredients_language 가 en 일 때만 채웠다. 고시는 한국어라
-     그 조건이 참이 될 수 없다. 구조적 교착이었다.
-
-     한국어를 영문 INCI 로 바꾸는 사전은 inci_converter.py 안에
-     113개나 있었다. 그런데 그 파일은 data/daiso_real/daiso_gosi.json
-     을 읽는데 그 파일이 존재하지 않는다. 사전이 한 번도 쓰인 적이 없다.
-
-  그래서 이 스크립트 하나가 고시에서 영문 라벨까지 끝까지 책임진다.
-  중간에 다른 파일로 넘기지 않는다. 넘기는 자리마다 끊겼다.
-
-지어내지 않는다
-
-  사전에 없는 성분은 비워 두고 못_옮긴_성분 에 남긴다.
-  INCI 는 국제 표준 표기라 지어내면 미국에서 라벨 위반이다.
-  전성분은 하나라도 빠지면 못 쓰므로, 한 성분이라도 못 옮기면
-  그 상품의 ingredients_inci 는 채우지 않는다.
+Only registry-issued product IDs can be added. Human-owned values and approval
+artifacts are preserved. Derived INCI whose upstream disappears or changes is
+archived and explicitly ineligible until it can be recomputed.
 """
 from __future__ import annotations
 
 import json
+import hashlib
+from copy import deepcopy
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -68,6 +28,8 @@ DATA = ROOT / "data"
 GOSI = DATA / "gosi.json"
 DICT = DATA / "inci_dictionary.json"
 LABELS = DATA / "daiso_real" / "daiso_us_labels.json"
+SCORE = DATA / "daiso_real" / "shopify_demand_score.json"
+MASTER = DATA / "product_master.json"
 
 REQUIRED_LABEL_FIELDS = (
     "net_contents",
@@ -90,7 +52,11 @@ MACHINE_FIELDS = (
 # 두 곳이 다르면 한쪽은 통과시키고 한쪽은 막아서 원인을 못 찾는다.
 PLACEHOLDER_RE = re.compile(
     r"(실제\s*확인|실제\s*포장|실제\s*제품|실제\s*상품|placeholder|TODO|TBD"
-    r"|미입력|확인\s*필요|작성\s*필요|상세페이지\s*참조)",
+    r"|미입력|확인\s*필요|작성\s*필요|상세페이지\s*참조"
+    r"|입력\s*필요|추후\s*(?:입력|확인)|not\s*(?:available|provided|verified)"
+    r"|to\s*be\s*(?:confirmed|filled|verified)|pending|unknown|미확인"
+    r"|\bTBC\b|unverified|fill\s*(?:in|out)|replace\s*with|enter\s+(?:your|the)"
+    r"|needs?\s*(?:review|verification)|미정|없음)",
     re.I,
 )
 
@@ -115,14 +81,6 @@ def load_json(path: Path, default: Any) -> Any:
 
 def text(value: Any) -> str:
     return str(value or "").strip()
-
-
-def real(value: Any) -> bool:
-    """값이 실제 값인가. 안내문이면 빈 칸으로 본다."""
-    s = text(value)
-    if not s:
-        return False
-    return not PLACEHOLDER_RE.search(s)
 
 
 def split_ingredients(raw: str) -> list[str]:
@@ -224,203 +182,237 @@ def to_inci(raw: str, resolver: InciResolver) -> tuple[str, list[str], list[dict
     return ", ".join(out), [], fixed, review
 
 
-def main() -> int:
-    gosi_doc = load_json(GOSI, {})
-    labels = load_json(LABELS, {})
-    dict_doc = load_json(DICT, {})
+# Only these fields may be machine-derived. Everything else is human-owned.
+HUMAN_FIELDS = (
+    "responsible_person", "responsible_person_address", "address",
+    "product_name_en", "directions_en", "warnings_en",
+    "actual_label_evidence", "product_safety_evidence", "responsible_person_evidence",
+)
+_NULL_VALUES = {"n/a", "na", "none", "null", "nan", "-", "--", "?", "0"}
+_CP_RE = re.compile(r"^CP\d{6}$")
 
-    table = dict_doc.get("kr_to_inci") or {}
-    if not table:
-        print("INCI 사전이 비어 있다. data/inci_dictionary.json 을 확인한다.")
-    overrides = load_manual_overrides(ROOT)
-    resolver = InciResolver(table, overrides)
-    if overrides:
-        print(f"사람이 확인한 표기 {len(overrides)}건을 먼저 볼 것이다.")
 
-    items = gosi_doc.get("items") or {}
-    if isinstance(items, list):
-        items = {str(r.get("product_id")): r for r in items
-                 if isinstance(r, dict) and r.get("product_id")}
-    if not isinstance(items, dict):
-        raise RuntimeError("data/gosi.json 의 items 형태가 잘못됐다")
-    if not isinstance(labels, dict):
-        raise RuntimeError("daiso_us_labels.json 은 object 여야 한다")
+def real(value: Any) -> bool:
+    # Containers, booleans and instructional strings are never required label text.
+    return (isinstance(value, str) and bool(value.strip())
+            and value.strip().lower() not in _NULL_VALUES
+            and not PLACEHOLDER_RE.search(value))
 
-    if "items" in labels and isinstance(labels.get("items"), dict):
-        registry = labels["items"]
-        wrapped = True
-    else:
-        registry = labels
-        wrapped = False
 
-    now = datetime.now(timezone.utc).isoformat()
-    filled, replaced, complete = 0, 0, 0
-    missing_all: dict[str, list[str]] = {}
-    fixed_all: dict[str, list[dict]] = {}
-    review_all: dict[str, list[dict]] = {}
-    report = []
-
-    for raw_id, source in items.items():
-        if not isinstance(source, dict):
+def rows_by_id(doc: Any, key: str = "items") -> dict[str, dict]:
+    """Read wrapped dict/list or a legacy map without mutating its wrapper."""
+    rows = doc.get(key) if isinstance(doc, dict) and key in doc else doc
+    if not isinstance(rows, (dict, list)):
+        raise ValueError(f"{key} must be an object or list")
+    result = {}
+    pairs = rows.items() if isinstance(rows, dict) else enumerate(rows)
+    for raw_id, row in pairs:
+        if not isinstance(row, dict):
             continue
-        pd_no = str(source.get("product_id") or raw_id)
-        target = registry.setdefault(pd_no, {})
+        pd_no = text(row.get("pd_no") or row.get("product_id"))
+        if not pd_no and isinstance(rows, dict):
+            pd_no = str(raw_id)
+        if pd_no:
+            if pd_no in result:
+                raise ValueError("duplicate product ID")
+            result[pd_no] = row
+    return result
 
-        # 이 스크립트가 채운 칸을 적어 둔다.
-        #
-        # 예전에는 "값이 있으면 안 덮는다" 만 있었다. 그러면 사람이 확인한
-        # 값은 지켜지지만, 기계가 예전 고시로 채운 값도 같이 남는다. 고시가
-        # 다시 수집돼 더 정확해져도 라벨은 옛말을 하고 있었다.
-        # 이제 기계가 채운 칸은 적어 두고, 원문이 바뀜 때만 다시 쓴다.
-        # 사람이 넣은 칸은 이 목록에 없으므로 여전히 건드리지 않는다.
-        derived = target.get("_자동으로_채운_칸")
-        if not isinstance(derived, list):
-            # 목록이 생기기 전에 만든 기록을 한 번 메운다.
-            # source_type 이 고시이고 사람이 넣는 칸(책임자·사용법 등)이
-            # 하나도 없으면 이 스크립트가 쓴 기록이다.
-            derived = []
-            if target.get("source_type") == "daiso_product_notice":
-                derived = [f for f in MACHINE_FIELDS if text(target.get(f))]
 
-        def put(key: str, value: str) -> None:
-            """실제 값이 있고 지금 칸이 비었거나 안내문이면 채운다."""
-            nonlocal filled, replaced
-            if not text(value):
-                return
-            cur = target.get(key)
-            if real(cur) and key not in derived:
-                return                      # 사람이 확인한 값은 안 건드린다
-            if text(cur) == text(value):
-                if key not in derived:
-                    derived.append(key)
-                return
-            was_placeholder = bool(text(cur)) and not real(cur)
-            target[key] = text(value)
+def canonical_registry(master: Any) -> dict[str, str]:
+    registry = master.get("pd_no_to_cp", {}) if isinstance(master, dict) else {}
+    if not isinstance(registry, dict):
+        raise ValueError("canonical registry must be an object")
+    result = {str(k): str(v) for k, v in registry.items() if _CP_RE.fullmatch(str(v))}
+    if len(result) != len(registry) or len(set(result.values())) != len(result):
+        raise ValueError("invalid or duplicate canonical IDs")
+    return result
+
+
+def current_s_registry(score: Any, master: Any) -> dict[str, str]:
+    """Stable union of current score/master S rows, only already-issued CP IDs."""
+    registry = canonical_registry(master)
+    ids = set()
+    if not registry and any(row.get("grade") == "S"
+            for doc, key in ((score, "all_scored"), (master, "products"))
+            for row in rows_by_id(doc.get(key, []) if isinstance(doc, dict) else []).values()):
+        raise ValueError("current S rows require an existing canonical registry")
+    for doc, key in ((score, "all_scored"), (master, "products")):
+        for pd_no, row in rows_by_id(doc.get(key, []) if isinstance(doc, dict) else []).items():
+            if row.get("grade") == "S" and pd_no in registry:
+                if row.get("canonical_product_id") not in (None, "", registry[pd_no]):
+                    raise ValueError("canonical product ID mismatch")
+                ids.add(pd_no)
+    return {pd_no: registry[pd_no] for pd_no in sorted(ids)}
+
+
+def human_owned(target: dict, key: str, pd_no: str = "") -> bool:
+    provenance = target.get("field_provenance") or {}
+    record = provenance.get(key, {}) if isinstance(provenance, dict) else {}
+    artifact = target.get("actual_label_evidence") or {}
+    approved_actual = (isinstance(artifact, dict) and artifact.get("human_approved") is True
+                       and artifact.get("source_type") in ("actual_packaging", "approved_us_label")
+                       and text(artifact.get("product_id") or artifact.get("pd_no")) == pd_no
+                       and all(real(artifact.get(f)) for f in ("evidence_ref", "reviewed_by", "reviewed_at"))
+                       and key in artifact.get("approved_fields", MACHINE_FIELDS))
+    return (key not in MACHINE_FIELDS or approved_actual or
+            (isinstance(record, dict) and (record.get("owner") == "human"
+             or record.get("human_approved") is True)) or
+            target.get("manual_approved") is True or target.get("human_verified") is True)
+
+
+def fingerprint(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+
+def field_current(label: dict, field: str) -> bool:
+    provenance = label.get("field_provenance") or {}
+    record = provenance.get(field, {}) if isinstance(provenance, dict) else {}
+    if isinstance(record, dict) and (record.get("status") in ("stale", "missing")
+                                   or record.get("eligible") is False):
+        return False
+    if field == "ingredients_inci":
+        return (label.get("ingredients_inci_status") not in ("stale", "missing")
+                and label.get("ingredients_inci_eligible") is not False)
+    return True
+
+
+def sync_labels(gosi_doc: Any, labels_doc: Any, score_doc: Any, master_doc: Any,
+                resolver: InciResolver, timestamp: str) -> tuple[dict, dict]:
+    """Pure offline adapter. Parsed notices never grant legal/safety approval."""
+    if not isinstance(labels_doc, dict):
+        raise ValueError("labels must be an object")
+    payload = deepcopy(labels_doc)
+    wrapped = "items" in payload
+    registry = rows_by_id(payload)
+    sources = rows_by_id(gosi_doc)
+    cp = canonical_registry(master_doc)
+    current_s = current_s_registry(score_doc, master_doc)
+    # Existing labels are retained. New IDs must already belong to the CP registry.
+    for pd_no in sorted(set(current_s) | (set(sources) & set(cp))):
+        registry.setdefault(pd_no, {})
+    report = {"generated_at": timestamp, "current_s_count": len(current_s),
+              "filled": 0, "replaced": 0, "complete": 0, "items": {}}
+    for pd_no, target in registry.items():
+        source = sources.get(pd_no, {})
+        if pd_no in cp:
+            target.setdefault("canonical_product_id", cp[pd_no])
+        provenance = target.get("field_provenance")
+        if provenance is not None and not isinstance(provenance, dict):
+            raise ValueError("field provenance must be an object")
+        if not isinstance(provenance, dict):
+            provenance = {}
+            target["field_provenance"] = provenance
+        derived = [f for f in target.get("_자동으로_채운_칸", [])
+                   if f in MACHINE_FIELDS] if isinstance(target.get("_자동으로_채운_칸"), list) else []
+        # A derivation marker proves only INCI ownership, not ownership of other fields.
+        if target.get("ingredients_inci_source") == "kr_notice_via_dictionary":
+            if "ingredients_inci" not in derived:
+                derived.append("ingredients_inci")
+        declared_inci_derived = "ingredients_inci" in derived
+        inci_ownership = provenance.get("ingredients_inci") or {}
+        explicit_human_inci = (isinstance(inci_ownership, dict) and
+            (inci_ownership.get("owner") == "human" or inci_ownership.get("human_approved") is True))
+        explicit_human_inci = (explicit_human_inci or target.get("manual_approved") is True
+                               or target.get("human_verified") is True)
+        derived = [f for f in derived if not human_owned(target, f, pd_no)]
+        for f, record in provenance.items():
+            if (f in MACHINE_FIELDS and isinstance(record, dict)
+                    and record.get("owner") == "machine" and not human_owned(target, f, pd_no)
+                    and f not in derived):
+                derived.append(f)
+
+        def stale(key: str, reason: str) -> None:
+            record = provenance.setdefault(key, {"owner": "machine"})
+            record.update(status="stale", eligible=False, stale_reason=reason,
+                          human_verified=False)
+            if key == "ingredients_inci":
+                target["ingredients_inci_status"] = "stale"
+                target["ingredients_inci_eligible"] = False
+
+        def put(key: str, value: Any, raw: Any = None) -> bool:
+            if human_owned(target, key, pd_no) or (real(target.get(key)) and key not in derived):
+                return False
+            if not real(value):
+                if key in derived:
+                    stale(key, "upstream_missing_or_placeholder")
+                return False
+            if text(target.get(key)) != value.strip():
+                report["replaced" if text(target.get(key)) and not real(target.get(key)) else "filled"] += 1
+                target[key] = value.strip()
             if key not in derived:
                 derived.append(key)
-            if was_placeholder:
-                replaced += 1
-            else:
-                filled += 1
+            provenance[key] = {"owner": "machine", "status": "current", "eligible": True,
+                               "source_type": "daiso_product_notice", "human_verified": False,
+                               "source_fingerprint": fingerprint(text(raw if raw is not None else value))}
+            return True
 
         put("product_name_kr", source.get("name"))
         put("net_contents", source.get("volume"))
         put("manufacturer", source.get("maker"))
-
         origin = text(source.get("origin"))
-        put("country_of_origin", ORIGIN_EN.get(origin.lower(), origin))
-
-        # 원문이 바뀜으면 사전으로 옮겨 놓은 값은 버린다.
-        #
-        # 2026-09-21 에 앞에서 고친 전성분으로 만든 영문 표기가 그대로
-        # 남아 있었다. put() 은 값이 들어 있으면 덮지 않기 때문이다.
-        # 그 규칙은 사람이 확인한 값을 지키려는 것이지, 기계가 만든 값을
-        # 영원히 지키려는 것이 아니다. 원문과 짝이 안 맞으면 다시 계산한다.
-        new_source = text(source.get("ingredients"))
-        if (new_source
-                and target.get("ingredients_inci_source") == "kr_notice_via_dictionary"
-                and text(target.get("ingredients_source")) != new_source):
-            target.pop("ingredients_inci", None)
-            target.pop("ingredients_inci_source", None)
-
-        # 한국어 원문은 근거로 늘 남긴다
-        if real(source.get("ingredients")):
-            target["ingredients_source"] = text(source["ingredients"])
+        put("country_of_origin", ORIGIN_EN.get(origin.lower(), origin), origin)
+        new_source = text(source.get("ingredients")) if real(source.get("ingredients")) else ""
+        old_source = text(target.get("ingredients_source"))
+        inci_machine = ("ingredients_inci" in derived or
+                        (declared_inci_derived and not explicit_human_inci))
+        old_record = provenance.get("ingredients_inci") or {}
+        changed = not new_source or old_source != new_source
+        if (inci_machine and real(target.get("ingredients_inci")) and
+                (changed or old_record.get("source_fingerprint") not in (None, fingerprint(new_source)))):
+            history = target.setdefault("ingredients_inci_history", [])
+            if not isinstance(history, list):
+                raise ValueError("INCI history must be a list")
+            fact = {"value": target["ingredients_inci"], "ingredients_source": old_source,
+                    "source_fingerprint": fingerprint(old_source), "status": "historical_stale",
+                    "eligible": False}
+            if not any(all(h.get(k) == fact[k] for k in fact) for h in history if isinstance(h, dict)):
+                history.append({**fact, "observed_at": timestamp})
+            stale("ingredients_inci", "upstream_missing" if not new_source else "upstream_changed")
+        inci, missing, fixed, review = to_inci(new_source, resolver)
+        if inci and put("ingredients_inci", inci, new_source):
+            target["ingredients_source"] = new_source
             target["ingredients_source_type"] = "daiso_product_notice"
-        if real(source.get("warnings")):
-            target["warnings_source"] = text(source["warnings"])
-
-        inci, missing, fixed, review = to_inci(
-            text(source.get("ingredients")), resolver)
-        if missing:
-            missing_all[pd_no] = missing
-        if fixed:
-            fixed_all[pd_no] = fixed
-        if review:
-            review_all[pd_no] = review
-        if inci:
-            put("ingredients_inci", inci)
             target["ingredients_inci_source"] = "kr_notice_via_dictionary"
-
-        # 안내문에 속지 않는다. real() 로 본다.
-        ok = all(real(target.get(f)) for f in REQUIRED_LABEL_FIELDS)
-        target["gosi_ok"] = ok
-        if derived:
-            target["_자동으로_채운_칸"] = derived
-        target["last_gosi_sync_at"] = now
+            target["ingredients_inci_status"] = "current_derived"
+            target["ingredients_inci_eligible"] = True
+        elif inci_machine and not inci:
+            stale("ingredients_inci", "upstream_unresolved" if new_source else "upstream_missing")
+        # Do not relabel a human INCI value as dictionary-derived or change its evidence.
+        if real(source.get("warnings")) and not real(target.get("warnings_source")):
+            target["warnings_source"] = source["warnings"].strip()
+        missing_fields = [f for f in REQUIRED_LABEL_FIELDS
+                          if not real(target.get(f)) or not field_current(target, f)]
+        target["gosi_ok"] = not missing_fields  # data completeness only, never human approval
+        target["gosi_ok_scope"] = "machine_notice_completeness_not_US_or_safety_approval"
+        target["_자동으로_채운_칸"] = derived
+        target["last_gosi_sync_at"] = timestamp
         target.setdefault("source_type", "daiso_product_notice")
-
-        if ok:
-            complete += 1
-        report.append({
-            "pd_no": pd_no,
-            "gosi_ok": ok,
-            "빠진_칸": [f for f in REQUIRED_LABEL_FIELDS
-                      if not real(target.get(f))],
-            "못_옮긴_성분": missing[:12],
-            "표기_되돌림": fixed[:12],
-        })
-
+        report["complete"] += int(not missing_fields)
+        report["items"][pd_no] = {"missing_fields": missing_fields,
+                                  "unresolved_ingredients": missing,
+                                  "resolved_spellings": fixed, "needs_review": review}
     if wrapped:
-        labels["items"] = registry
-        labels["updated_at"] = now
-        labels["못_옮긴_성분"] = missing_all
-        payload = labels
+        payload["items"] = registry
+        payload["updated_at"] = timestamp
     else:
-        payload = registry
+        # Keep non-row legacy metadata instead of silently discarding it.
+        payload.update(registry)
+    return payload, report
 
+
+def main() -> int:
+    dictionary = load_json(DICT, {}).get("kr_to_inci") or {}
+    resolver = InciResolver(dictionary, load_manual_overrides(ROOT))
+    timestamp = datetime.now(timezone.utc).isoformat()
+    payload, report = sync_labels(load_json(GOSI, {}), load_json(LABELS, {}),
+                                  load_json(SCORE, {}), load_json(MASTER, {}),
+                                  resolver, timestamp)
     LABELS.parent.mkdir(parents=True, exist_ok=True)
-    LABELS.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8")
-
-    side = LABELS.parent / "us_label_sync_report.json"
-    side.write_text(json.dumps({
-        "generated_at": now,
-        "generator": "scripts/sync_gosi_to_us_labels.py",
-        "고시_건수": len(items),
-        "라벨_완성": complete,
-        "새로_채운_칸": filled,
-        "안내문을_덮은_칸": replaced,
-        "사전_크기": len(table),
-        "성격": ("한국 고시를 사전으로 옮긴 값이다. 사람이 포장 실물로 "
-               "확인한 값이 아니다. 확인하면 그 값이 우선이고 "
-               "이 스크립트는 덮지 않는다."),
-        "못_옮긴_성분": missing_all,
-        "표기_되돌림": fixed_all,
-        "사람확인_필요": review_all,
-        "되돌림_규칙": (
-            "scripts/inci_resolver.py 가 정본에 있는 표준명으로만 잇는다. "
-            "후보의 영문 표기가 갈리면 잇지 않고 사람확인_필요 에 남긴다."
-        ),
-        "상품별": report,
-    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-
-    print(f"고시 {len(items)}건 → 영문 라벨")
-    print(f"  새로 채운 칸 {filled} · 안내문을 덮은 칸 {replaced}")
-    print(f"  4항목 완성 {complete}/{len(items)}")
-    if fixed_all:
-        total_fixed = sum(len(v) for v in fixed_all.values())
-        print(f"  표기 되돌림 {total_fixed}건 (정본 표준명으로 연결)")
-        seen = set()
-        for records in fixed_all.values():
-            for rec in records:
-                pair = (rec.get("원문"), rec.get("표준명"))
-                if pair in seen:
-                    continue
-                seen.add(pair)
-                print(f"    {rec.get('원문')} → {rec.get('표준명')}"
-                      f" [{rec.get('방법')}] {rec.get('영문')}")
-    if missing_all:
-        total = sum(len(v) for v in missing_all.values())
-        uniq = sorted({x for v in missing_all.values() for x in v})
-        print(f"  사전에 없는 성분 {len(uniq)}종 (연 {total}회)")
-        for x in uniq[:12]:
-            print(f"    {x}")
-        print("  → data/inci_dictionary.json 에 넣으면 그 상품이 풀린다")
-    for r in report:
-        if not r["gosi_ok"]:
-            print(f"  미완성 {r['pd_no']} 빠진 칸 {r['빠진_칸']}")
+    LABELS.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (LABELS.parent / "us_label_sync_report.json").write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Current S coverage {report['current_s_count']}; machine-complete {report['complete']}; not legal approval")
     return 0
 
 

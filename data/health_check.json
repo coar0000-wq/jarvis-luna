@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:04:26.186711+00:00",
+  "generated_at": "2026-10-05T04:27:38.438239+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -9,40 +9,44 @@
     "failed": "예외 - 자동화 장애"
   },
   "kpi": {
-    "last_success": "2026-10-04T08:46:32Z",
+    "last_success": "2026-10-04T17:52:03Z",
     "last_success_source": "github_actions_snapshot",
     "collection_last_attempt": "2026-10-03T00:46:32.753823+00:00",
     "collection_last_success": "2026-09-29T00:48:58.284474+00:00",
     "candidate_last_success": "2026-10-03T00:46:32.753823+00:00",
     "candidate_new_this_attempt": 1,
     "candidate_rechecked_this_attempt": 0,
-    "failed_jobs": 3,
-    "failed_checks": 1,
-    "actions_observed_at": "2026-10-04T17:51:07.256665Z",
+    "failed_jobs": 4,
+    "failed_checks": 2,
+    "actions_observed_at": "2026-10-05T01:36:30.871754Z",
     "actions_observation_fresh": true,
     "queue": 2881,
     "stale_source": "marketing",
     "freshness_summary": {
       "product_master": "just now",
-      "legal_full": "just now",
-      "shopify_sync": "just now",
-      "pricing": "just now",
+      "legal_full": "2.9 hours ago",
+      "shopify_sync": "6.4 hours ago",
+      "pricing": "2.9 hours ago",
       "marketing": "just now",
-      "daiso": "1.9 days ago",
-      "deep_heartbeat": "1.4 days ago",
-      "actions_monitor": "4.2 hours ago",
-      "gosi": "2.2 days ago",
-      "product_discovery": "just now"
+      "daiso": "2.2 days ago",
+      "daiso_candidate_discovery": "unknown",
+      "daiso_operating_capture": "unknown",
+      "daiso_shortlist_price": "unknown",
+      "daiso_overall_workflow": "unknown",
+      "deep_heartbeat": "1.7 days ago",
+      "actions_monitor": "2.9 hours ago",
+      "gosi": "2.5 days ago",
+      "product_discovery": "2.9 hours ago"
     }
   },
   "summary": {
-    "success": 5,
+    "success": 6,
     "warning": 2,
     "waiting": 1,
     "degraded": 1,
-    "failed": 1,
+    "failed": 2,
     "no_change": 0,
-    "real_failures": 1
+    "real_failures": 2
   },
   "checks": [
     {
@@ -57,24 +61,24 @@
     {
       "team": "legal_full",
       "status": "waiting",
-      "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, directions 8건, warnings 8건, identity 1건",
+      "reason": "MoCRA 풀스키마 완료 0/10 · 공개 차단 10건 · 사람 입력 대기: responsible_person 10건, legal_hard_block 10건, directions 8건, warnings 8건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     },
     {
       "team": "shopify_sync",
       "status": "success",
       "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "6.4 hours ago"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     },
     {
       "team": "marketing",
@@ -86,7 +90,7 @@
     {
       "team": "daiso",
       "status": "degraded",
-      "reason": "수집 시도 45.3시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "수집 시도 51.7시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
       "last_attempt_status": "candidates_collected",
@@ -94,50 +98,249 @@
       "candidates_new": 1,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 45.298,
-      "attempt_age_hours": 45.298,
-      "success_age_hours": 141.258,
+      "candidate_success_age_hours": 51.685,
+      "attempt_age_hours": 51.685,
+      "success_age_hours": 147.644,
       "data_stale": true,
       "attempt_stale": true,
       "is_no_change": false,
       "is_failure": false,
-      "freshness": "1.9 days ago"
+      "daiso_pipeline": {
+        "schema_version": 1,
+        "scopes": {
+          "candidate_discovery": {
+            "status": "unverified",
+            "reason": "no trusted matching collection receipt",
+            "verified": false
+          },
+          "operating_capture": {
+            "status": "unverified",
+            "reason": "no_verified_source",
+            "verified": false
+          },
+          "shortlist_price": {
+            "status": "success",
+            "reason": "source_price_capture_only",
+            "verified": true,
+            "count": 6,
+            "scope": "active_shopify_shortlist_only"
+          },
+          "overall_workflow": {
+            "status": "failed",
+            "reason": "workflow_failure_not_superseded_by_same_scope_verified_publication",
+            "verified": false
+          }
+        },
+        "status": "failed",
+        "failed_workflow_history": [
+          {
+            "run": {
+              "id": 37157438573,
+              "status": "completed",
+              "conclusion": "failure",
+              "event": "schedule",
+              "created_at": "2026-10-03T22:08:48Z",
+              "run_started_at": "2026-10-03T22:08:48Z",
+              "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37157438573",
+              "finished_at": "2026-10-03T23:08:25Z",
+              "run_attempt": 1
+            },
+            "metadata_verified": true,
+            "superseded": false
+          },
+          {
+            "run": {
+              "id": 37239663802,
+              "status": "completed",
+              "conclusion": "failure",
+              "event": "schedule",
+              "created_at": "2026-10-04T22:20:48Z",
+              "run_started_at": "2026-10-04T22:20:48Z",
+              "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37239663802",
+              "finished_at": "2026-10-04T23:20:02Z",
+              "run_attempt": 1
+            },
+            "metadata_verified": true,
+            "superseded": false
+          }
+        ],
+        "public_authority": false,
+        "input_errors": [],
+        "operating_staleness": {
+          "status": "degraded",
+          "reason": "수집 시도 51.7시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+          "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
+          "last_success_at": "2026-09-29T00:48:58.284474+00:00",
+          "last_attempt_status": "candidates_collected",
+          "is_candidate_collection": true,
+          "candidates_new": 1,
+          "candidates_updated": 0,
+          "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
+          "candidate_success_age_hours": 51.685,
+          "attempt_age_hours": 51.685,
+          "success_age_hours": 147.644,
+          "data_stale": true,
+          "attempt_stale": true,
+          "is_no_change": false,
+          "is_failure": false
+        }
+      },
+      "freshness": "2.2 days ago"
+    },
+    {
+      "team": "daiso_candidate_discovery",
+      "status": "unverified",
+      "reason": "no trusted matching collection receipt",
+      "verified": false,
+      "is_failure": false,
+      "public_authority": false,
+      "freshness": "unknown"
+    },
+    {
+      "team": "daiso_operating_capture",
+      "status": "unverified",
+      "reason": "no_verified_source",
+      "verified": false,
+      "is_failure": false,
+      "public_authority": false,
+      "freshness": "unknown"
+    },
+    {
+      "team": "daiso_shortlist_price",
+      "status": "success",
+      "reason": "source_price_capture_only",
+      "verified": true,
+      "count": 6,
+      "scope": "active_shopify_shortlist_only",
+      "is_failure": false,
+      "public_authority": false,
+      "freshness": "unknown"
+    },
+    {
+      "team": "daiso_overall_workflow",
+      "status": "failed",
+      "reason": "workflow_failure_not_superseded_by_same_scope_verified_publication",
+      "verified": false,
+      "is_failure": true,
+      "public_authority": false,
+      "freshness": "unknown"
     },
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (34.2시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (40.5시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 34.158,
+      "age_hours": 40.544,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "1.4 days ago"
+      "freshness": "1.7 days ago"
     },
     {
       "team": "actions_monitor",
       "status": "failed",
-      "reason": "GitHub Actions 관측: 5/5개 · 실패 3",
+      "reason": "GitHub Actions 관측: 5/5개 · 실패 4",
       "is_failure": true,
-      "observed_at": "2026-10-04T17:51:07.256665Z",
-      "freshness": "4.2 hours ago"
+      "observed_at": "2026-10-05T01:36:30.871754Z",
+      "freshness": "2.9 hours ago"
     },
     {
       "team": "gosi",
       "status": "success",
-      "reason": "정상 52.4h 전",
+      "reason": "정상 58.8h 전",
       "is_failure": false,
-      "freshness": "2.2 days ago"
+      "freshness": "2.5 days ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 0.0h 전",
+      "reason": "정상 2.9h 전",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     }
   ],
+  "daiso_pipeline": {
+    "schema_version": 1,
+    "scopes": {
+      "candidate_discovery": {
+        "status": "unverified",
+        "reason": "no trusted matching collection receipt",
+        "verified": false
+      },
+      "operating_capture": {
+        "status": "unverified",
+        "reason": "no_verified_source",
+        "verified": false
+      },
+      "shortlist_price": {
+        "status": "success",
+        "reason": "source_price_capture_only",
+        "verified": true,
+        "count": 6,
+        "scope": "active_shopify_shortlist_only"
+      },
+      "overall_workflow": {
+        "status": "failed",
+        "reason": "workflow_failure_not_superseded_by_same_scope_verified_publication",
+        "verified": false
+      }
+    },
+    "status": "failed",
+    "failed_workflow_history": [
+      {
+        "run": {
+          "id": 37157438573,
+          "status": "completed",
+          "conclusion": "failure",
+          "event": "schedule",
+          "created_at": "2026-10-03T22:08:48Z",
+          "run_started_at": "2026-10-03T22:08:48Z",
+          "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37157438573",
+          "finished_at": "2026-10-03T23:08:25Z",
+          "run_attempt": 1
+        },
+        "metadata_verified": true,
+        "superseded": false
+      },
+      {
+        "run": {
+          "id": 37239663802,
+          "status": "completed",
+          "conclusion": "failure",
+          "event": "schedule",
+          "created_at": "2026-10-04T22:20:48Z",
+          "run_started_at": "2026-10-04T22:20:48Z",
+          "html_url": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/37239663802",
+          "finished_at": "2026-10-04T23:20:02Z",
+          "run_attempt": 1
+        },
+        "metadata_verified": true,
+        "superseded": false
+      }
+    ],
+    "public_authority": false,
+    "input_errors": [],
+    "operating_staleness": {
+      "status": "degraded",
+      "reason": "수집 시도 51.7시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "last_attempt_at": "2026-10-03T00:46:32.753823+00:00",
+      "last_success_at": "2026-09-29T00:48:58.284474+00:00",
+      "last_attempt_status": "candidates_collected",
+      "is_candidate_collection": true,
+      "candidates_new": 1,
+      "candidates_updated": 0,
+      "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
+      "candidate_success_age_hours": 51.685,
+      "attempt_age_hours": 51.685,
+      "success_age_hours": 147.644,
+      "data_stale": true,
+      "attempt_stale": true,
+      "is_no_change": false,
+      "is_failure": false
+    }
+  },
+  "public_authority": false,
   "architecture_p0": {
     "product_master": "CP ID + Variant 그룹화",
     "grade_quantified": "match + demand + review => final >=0.85 S",

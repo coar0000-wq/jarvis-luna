@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -24,6 +25,17 @@ def load(path: Path):
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise AssertionError(message)
+
+
+def validate_retained_blocked_exports(root, export_dir):
+    """No eligible drafts: only exact Git-retained bytes, never new clearance."""
+    for name in ('products.csv','inventory.csv','images.csv','collections.csv'):
+        target = Path(export_dir) / name
+        require(not target.is_symlink() and target.is_file(), 'retained draft path invalid')
+        result = subprocess.run(['git','show',f'HEAD:data/shopify_exports/{name}'],
+                                cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        require(result.returncode == 0 and target.read_bytes() == result.stdout,
+                f'legally blocked draft changed or lacks committed baseline: {name}')
 
 
 def digest(value) -> str:
@@ -160,7 +172,13 @@ def main() -> int:
     shortlist_ids = {str(x) for x in shortlist_doc.get("active_pd_nos") or []}
     require(bool(shortlist_ids), "Shopify shortlist 가 없거나 비어 있음")
     ready_ids = {k for k, x in gate_by.items() if x.get("ready") and k in shortlist_ids}
-    require(export_ids == ready_ids, "Shopify products.csv가 shortlist ∩ gate ready 집합과 다름")
+    if ready_ids:
+        require(export_ids == ready_ids, "Shopify products.csv가 shortlist ∩ gate ready 집합과 다름")
+    else:
+        require(export_ids <= shortlist_ids, 'blocked retained export is outside selected scope')
+        require(not (action_queue.get('draft_actions') or []), 'legal hold cannot propose new draft payloads')
+        validate_retained_blocked_exports(ROOT, export_dir)
+        print('SHOPIFY_EXPORTS_RETAINED_LEGAL_BLOCKED current_eligible=0 authority=false')
     guard = load(D / "shopify_sync_guard.json")
     require(guard.get("ok") is True, f"Shopify sync guard 위반: {guard.get('violations')}")
     require(all(x["Canonical Product ID"] == registry[x["pd_no"]] for x in export_products),

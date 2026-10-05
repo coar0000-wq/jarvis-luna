@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T07:04:12.716012+09:00",
+  "generated_at": "2026-10-05T13:27:36.052199+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -2244,7 +2244,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 100,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2279,7 +2279,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 98,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2314,7 +2314,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 98,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2349,7 +2349,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 96,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2384,7 +2384,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 96,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2419,7 +2419,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 94,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2454,7 +2454,7 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 92,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2489,7 +2489,7 @@
       "bucket": "마스크팩",
       "grade": "S",
       "score": 90,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2559,7 +2559,7 @@
       "bucket": "마스크팩",
       "grade": "S",
       "score": 86,
-      "agent_ready": true,
+      "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
@@ -2701,10 +2701,10 @@
     "The Revenue Theory AOV 영상은 Carro 벤더 홍보, 보편 AOV 벤치마크, 과장 성장 표현 비중이 높아 신규 소스에서 제외"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-04T22:04:12.609352+00:00",
+    "listing_gate_generated_at": "2026-10-05T04:27:35.700392+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
     "public_ready_count": 0,
-    "agent_ready_count": 9
+    "agent_ready_count": 0
   }
 }

@@ -332,6 +332,24 @@ def probe(c: dict, previous=None) -> dict:
 
 
 def main() -> int:
+    if '--cached-only' in sys.argv[1:]:
+        # Offline publication validates existing observations; it never probes,
+        # advances source clocks, releases stops or claims connector registration.
+        if len(sys.argv) != 2:
+            raise ValueError('cached channel validation accepts no other arguments')
+        raw = OUT.read_bytes()
+        if len(raw) > 8*1024*1024:
+            raise ValueError('channel observation size bound')
+        doc = json.loads(raw)
+        rows = doc.get('candidates') if isinstance(doc,dict) else None
+        keys = {c['key'] for c in CANDIDATES}
+        if (not isinstance(rows,list) or not rows or len(rows) > len(keys)
+                or any(not isinstance(r,dict) or r.get('key') not in keys for r in rows)
+                or len({r['key'] for r in rows}) != len(rows)
+                or type(doc.get('tested')) is not int or doc['tested'] != len(rows)):
+            raise ValueError('cached channel observation scope invalid')
+        print(f'CHANNELS_CACHED_ONLY {len(rows)} retained observations; no network/capture/registration')
+        return 0
     only = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("-") else None
     results = []
     previous = {r.get("key"): r for r in previous_payload(OUT).get("candidates", [])}

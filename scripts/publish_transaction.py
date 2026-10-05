@@ -13,6 +13,7 @@ from datetime import datetime
 import hashlib
 import json
 import os
+import re
 from pathlib import Path, PurePosixPath
 import shlex
 import subprocess
@@ -20,6 +21,14 @@ import sys
 import tempfile
 
 MISSING = object()
+PERSISTENT_SOURCE_FILES = frozenset(('data/daiso_real/shortlist_observations.json',
+    'data/daiso_real/.shortlist_observation_claim.json',
+    'data/agents/source_procedures/source-procedure-state.json',
+    'data/agents/source_procedures/checkpoint.json'))
+IMMUTABLE_HISTORY_PREFIXES = ('data/agents/workflow_status_history/',
+    'data/agents/gemini_escalation_history/', 'data/knowledge/moe_evaluation_history/',
+    'data/knowledge/gosi_observation_history/', 'data/agents/daiso_pipeline_history/',
+    'data/agents/source_procedures/observer_history/')
 
 
 class PublishError(RuntimeError):
@@ -80,7 +89,9 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None):
                 and isinstance(record.get('reason'), str) and len(record['reason'].strip()) >= 8
                 and isinstance(record.get('policy_ref'), str) and record['policy_ref'].strip()
                 and (('replacement_sha256' not in record and record['policy_ref'] not in {
-                    'scripts/moe_evaluation_history.py', 'scripts/diagnostic_evaluation_history.py'})
+                    'scripts/moe_evaluation_history.py', 'scripts/diagnostic_evaluation_history.py',
+                    'scripts/workflow_status_history.py', 'scripts/gosi_observation_history.py',
+                    'scripts/shortlist_observation_history.py'})
                      or (replacement is not None and record.get('replacement_sha256') == sha(replacement)))
                 and (record.get('delete_file') is True if removed is None else
                      isinstance(record.get('ids'), list) and set(removed) <= set(map(str, record['ids'])))):
@@ -226,7 +237,23 @@ def removed_identities(base, local, policy, *, where=''):
     return removed
 
 
+BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
+    'data/daiso_real/candidate_pool.json','data/agents/daiso_pipeline_receipts.json'))
+
+
 def overlay(name, base, local, remote, policy, manifest):
+    # Exact immutable history bytes must never be reformatted, merged or pruned.
+    # Their filenames bind SHA256 of the original snapshots, not parsed JSON.
+    if name.startswith(IMMUTABLE_HISTORY_PREFIXES):
+        stem = PurePosixPath(name).stem
+        if local is None or not re.fullmatch(r'[0-9a-f]{64}', stem) or sha(local) != stem:
+            raise PublishError(f'immutable history removal/hash mismatch: {name}')
+        if remote not in (None, local) or base not in (None, local):
+            raise PublishError(f'immutable history conflict: {name}')
+        parse_json(local)
+        return local
+    if name in PERSISTENT_SOURCE_FILES and remote not in (None, base, local):
+        raise PublishError(f'competing safety checkpoint requires reconciliation: {name}')
     authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local)
     if local is None:
         if not deletion_authorized(name, base, None, manifest):
@@ -245,7 +272,10 @@ def overlay(name, base, local, remote, policy, manifest):
             l = merge_json(b, l, r, policy, where=name, authorize_delete=authorize)
         elif remote is None and base is not None:
             raise PublishError(f'remote deleted locally edited source: {name}')
-        result = json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
+        # Counter/checkpoint pairs retain exact caller bytes. Never manufacture
+        # a hybrid ledger or destroy its byte-bound failed-run artifact evidence.
+        exact_stage = name in BYTE_BOUND_STAGE_FILES and remote in (None, base, local)
+        result = local if name in PERSISTENT_SOURCE_FILES or exact_stage else json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
         if removed and not deletion_authorized(name, base, removed, manifest, replacement=result):
             raise PublishError(f'replacement snapshot is not authorized after merge: {name}')
         return result
@@ -312,7 +342,9 @@ class Transaction:
             base, local = status_delta
             if base is None or local is None or parse_json(base).get('fx') != parse_json(local).get('fx'):
                 return False  # Actual FX input changes require commerce regeneration.
-        return bool(sources) and all(n.startswith(('data/daiso_real/candidate_', 'data/daiso_real/collection_status.json', 'data/daiso_real/crawl_state.json', 'data/agents/', 'data/knowledge/cumulative_history.json', 'data/health_check_history.jsonl', 'data/typesafe_advisory.json', 'data/typesafe_team_advisory.json', 'data/typesafe_shared_state.json', 'data/typesafe_call_log/')) for n in sources)
+        # Source-price/claim and remediation evidence are observation-only. Their
+        # presence must not regenerate or mutate canonical commerce quantities.
+        return bool(sources) and all(n == 'data/publish_deletions.json' or n.startswith(('data/daiso_real/candidate_', 'data/daiso_real/collection_status.json', 'data/daiso_real/crawl_state.json', 'data/daiso_real/shortlist_observations.json', 'data/daiso_real/.shortlist_observation_claim.json', 'data/agents/', 'data/knowledge/cumulative_history.json', 'data/health_check_history.jsonl', 'data/typesafe_advisory.json', 'data/typesafe_team_advisory.json', 'data/typesafe_shared_state.json', 'data/typesafe_call_log/')) for n in sources)
 
     def command(self, work, args):
         env = dict(os.environ, TYPESAFE_ENABLED='0', GEMINI_FALLBACK_ENABLED='0',
@@ -406,6 +438,11 @@ class Transaction:
                 work = temp/f'work-{number}'
                 git(self.root, 'worktree', 'add', '--detach', str(work), latest)
                 try:
+                    safety_before = None
+                    if set(self.delta) & PERSISTENT_SOURCE_FILES:
+                        from source_safety_checkpoint import _validate, _nonregression, ALLOWLIST
+                        safety_before = {n:(work/n).read_bytes() for n in ALLOWLIST if (work/n).exists()}
+                        _validate(safety_before)
                     for name, (base, local) in self.delta.items():
                         if self.is_derived(name):
                             continue  # Regenerate, never reuse stale derivatives.
@@ -416,8 +453,21 @@ class Transaction:
                             p.unlink(missing_ok=True)
                         else:
                             p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(value)
+                    if set(self.delta) & PERSISTENT_SOURCE_FILES:
+                        files = {n:(work/n).read_bytes() for n in ALLOWLIST if (work/n).exists()}
+                        try:
+                            _validate(files)
+                            _nonregression(safety_before, files)
+                        except (ValueError, OSError) as exc:
+                            raise PublishError('source safety pair validation failed') from exc
                     reports = temp/f'reports-{number}'; reports.mkdir()
                     self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
+                    if safety_before is not None:
+                        final_safety = {n:(work/n).read_bytes() for n in ALLOWLIST if (work/n).exists()}
+                        _validate(final_safety)
+                        _nonregression(safety_before, final_safety)
+                        if final_safety != files:
+                            raise PublishError('offline generators mutated source safety evidence')
                     self.attempts.append({'attempt': number, 'remote_sha': latest, 'validated': True})
                     if not self.stage(work):
                         return {'status': 'no_change', 'base_sha': self.base, 'attempts': self.attempts}

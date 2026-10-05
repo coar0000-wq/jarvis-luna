@@ -9,7 +9,12 @@ import datetime
 from pathlib import Path
 from datetime import timezone
 
-from operational_freshness import assess_collection, assess_heartbeat
+try:
+    from scripts.operational_freshness import assess_collection, assess_heartbeat
+    from scripts.daiso_pipeline_inputs import load_pipeline_inputs
+except ModuleNotFoundError:
+    from operational_freshness import assess_collection, assess_heartbeat
+    from daiso_pipeline_inputs import load_pipeline_inputs
 
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
@@ -52,6 +57,10 @@ def load_optional(path):
         return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return {}
+
+
+def daiso_pipeline_snapshot(root=None, now=None):
+    return load_pipeline_inputs(root or DATA_DIR.parent, now=now)
 
 
 def check_all():
@@ -147,8 +156,14 @@ def check_all():
 
     # A collection timestamp is collector evidence, never a checkout mtime.
     collection = assess_collection(load_optional(DATA_DIR / "daiso_real" / "collection_status.json"), now=now_utc())
-    checks.append({"team": "daiso", **collection,
+    pipeline = daiso_pipeline_snapshot()
+    checks.append({"team": "daiso", **collection, "daiso_pipeline": pipeline,
                    "freshness": freshness_str(collection["last_attempt_at"])})
+    for scope, scoped in pipeline["scopes"].items():
+        checks.append({"team": "daiso_" + scope, **scoped,
+                       "is_failure": scoped["status"] == "failed",
+                       "public_authority": False,
+                       "freshness": freshness_str(scoped.get("completed_at"))})
     heartbeat = assess_heartbeat(load_optional(DATA_DIR / "agents" / "autofix_report.json"), now=now_utc())
     checks.append({"team": "deep_heartbeat", **heartbeat,
                    "freshness": freshness_str(heartbeat["last_attempt_at"])})
@@ -240,6 +255,8 @@ def build_dashboard():
             "real_failures": len([c for c in checks if c.get("is_failure")])
         },
         "checks": checks,
+        "daiso_pipeline": daiso_pipeline_snapshot(),
+        "public_authority": False,
         "architecture_p0": {
             "product_master": "CP ID + Variant 그룹화",
             "grade_quantified": "match + demand + review => final >=0.85 S",

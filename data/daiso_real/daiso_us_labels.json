@@ -2,7 +2,7 @@
   "1048583": {
     "product_name_kr": "드롭비 탄탄 광채 앰플 40 ml",
     "net_contents": "40 ml",
-    "ingredients_inci": "Water, Glycerin, Propanediol, Butylene Glycol, Betaine, Isopentyldiol, Niacinamide, 1,2-Hexanediol, Tuber Magnatum Extract, Centella Asiatica Leaf Extract, Acetyl Hexapeptide-8, Hexapeptide-9, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Punica Granatum Extract, Adenosine, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Olea Europaea (Olive) Fruit Oil, Hydrogenated Lecithin, Squalane, Disodium EDTA, Panthenol, Fragrance, Polyglyceryl-10 Laurate, Carbomer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Arginine, Diethoxyethyl Succinate, Ethylhexylglycerin, Xanthan Gum, Sorbitan Isostearate, Ceramide NP, Cholesterol, Phytosphingosine",
+    "ingredients_inci": "Water, Glycerin, Propanediol, Butylene Glycol, Betaine, Isopentyldiol, Niacinamide, 1,2-Hexanediol, Tuber Magnatum Extract, Centella Asiatica Leaf Extract, Acetyl Hexapeptide-8, Hexapeptide-9, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Punica Granatum Extract, Adenosine, Butyrospermum Parkii (Shea) Butter, Caprylic/Capric Triglyceride, Olea Europaea (Olive) Fruit Oil, Hydrogenated Lecithin, Squalane, Disodium EDTA, Panthenol, Fragrance|Perfume|Parfum, Polyglyceryl-10 Laurate, Carbomer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Arginine, Diethoxyethyl Succinate, Ethylhexylglycerin, Xanthan Gum, Sorbitan Isostearate, Ceramide NP, Cholesterol, Phytosphingosine",
     "manufacturer": "주식회사 씨엔에프 / (주)더샘인터내셔날",
     "country_of_origin": "Korea",
     "warnings_en": "실제 확인된 주의사항의 영문 표기",
@@ -10,16 +10,33 @@
     "source_url": "실제 상품자료 URL",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "ingredients_source": "정제수, 글리세린, 프로판다이올, 부틸렌글라이콜, 베타인, 아이소펜틸다이올, 나이아신아마이드, 1,2-헥산다이올, 흰서양송로추출물, 병풀잎추출물, 아세틸헥사펩타이드-8, 헥사펩타이드-9, 노나펩타이드-1, 팔미토일펜타펩타이드-4, 팔미토일트라이펩타이드-1, 팔미토일테트라펩타이드-7석류추출물, 아데노신, 시어버터, 카프릴릭/카프릭트라이글리세라이드, 올리브오일, 하이드로제네이티드레시틴, 스쿠알란, 다이소듐이디티에이, 판테놀, 향료, 폴리글리세릴-10라우레이트, 카보머, 하이드록시에틸아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 알지닌, 다이에톡시에틸석시네이트, 에틸헥실글리세린, 잔탄검, 솔비탄아이소스테아레이트, 세라마이드엔피, 콜레스테롤, 피토스핑고신",
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "가. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것\n나. 상처가 있는 부위 등에는 사용을 자제할 것\n다. 보관 및 취급 시 주의사항\n  1) 어린이의 손이 닿지 않는 곳에 보관할 것\n  2) 직사광선을 피해서 보관할 것",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "canonical_product_id": "CP000101",
+    "field_provenance": {
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "8b32907bd665430a4b4b5709b198f6eb2fcb1c9f6bb1ea8a3c086226b425b32c"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "_자동으로_채운_칸": [
+      "ingredients_inci"
+    ]
   },
   "1062781": {
     "product_name_kr": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
     "net_contents": "50ml (1.69 fl.oz)",
-    "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Butylene Glycol, Octyldodecanol, Neopentyl Glycol Dicaprate, Niacinamide, 1,2-Hexanediol, Phellinus Linteus Extract, Hydrolyzed Hyaluronic Acid, Hydrolyzed Collagen, Allium Sativum (Garlic) Bulb Extract, Avena Sativa (Oat) Kernel Extract, Bertholletia Excelsa Seed Extract, Brassica Oleracea Italica (Broccoli) Extract, Camellia Sinensis Seed Extract, Salmon Egg Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Spinacia Oleracea (Spinach) Leaf Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Diglycerin, Pentylene Glycol, Panthenol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, C12-20 Alkyl Glucoside, Caprylyl Glycol, Sorbitan Olivate, Tromethamine, Ethylhexylglycerin, Glyceryl Acrylate/Acrylic Acid Copolymer, Adenosine, Sorbitan Isostearate, Sodium Phytate, Cyanocobalamin, Tocopherol, Acetyl Hexapeptide-8, Ascorbic Acid Polypeptide, Sodium DNA, Acetyl Octapeptide-3, Acetyl Tetrapeptide-2, Acetyl Tetrapeptide-3, Acetyl Tetrapeptide-5, Acetyl Tetrapeptide-9, Carnosine, Copper Tripeptide-1, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, C14-22 Alcohols, Xanthan Gum, Carbomer, Fragrance",
+    "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Butylene Glycol, Octyldodecanol, Neopentyl Glycol Dicaprate, Niacinamide, 1,2-Hexanediol, Phellinus Linteus Extract, Hydrolyzed Hyaluronic Acid, Hydrolyzed Collagen, Allium Sativum (Garlic) Bulb Extract, Avena Sativa (Oat) Kernel Extract, Bertholletia Excelsa Seed Extract, Brassica Oleracea Italica (Broccoli) Extract, Camellia Sinensis Seed Extract, Salmon Egg Extract, Solanum Lycopersicum (Tomato) Fruit Extract, Spinacia Oleracea (Spinach) Leaf Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Diglycerin, Pentylene Glycol, Panthenol, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Cetearyl Olivate, Glyceryl Stearate, Palmitic Acid, Stearic Acid, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, C12-20 Alkyl Glucoside, Caprylyl Glycol, Sorbitan Olivate, Tromethamine, Ethylhexylglycerin, Glyceryl Acrylate/Acrylic Acid Copolymer, Adenosine, Sorbitan Isostearate, Sodium Phytate, Cyanocobalamin, Tocopherol, Acetyl Hexapeptide-8, Ascorbic Acid Polypeptide, Sodium DNA, Acetyl Octapeptide-3, Acetyl Tetrapeptide-2, Acetyl Tetrapeptide-3, Acetyl Tetrapeptide-5, Acetyl Tetrapeptide-9, Carnosine, Copper Tripeptide-1, Nonapeptide-1, Palmitoyl Pentapeptide-4, Palmitoyl Tripeptide-1, Palmitoyl Tripeptide-5, C14-22 Alcohols, Xanthan Gum, Carbomer, Fragrance|Perfume|Parfum",
     "manufacturer": "화장품제조업자: 코스맥스(주) / 화장품책임판매업자: (주)씨엠에스랩",
     "country_of_origin": "Korea",
     "warnings_en": "실제 확인한 주의사항",
@@ -27,11 +44,28 @@
     "source_url": "실제 상품자료 URL",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "ingredients_source": "정제수, 글리세린, 다이프로필렌글라이콜, 부틸렌글라이콜, 옥틸도데칸올, 네오펜틸글라이콜다이카프레이트, 나이아신아마이드, 1,2-헥산다이올, 진흙버섯추출물, 하이드롤라이즈드하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 마늘추출물, 귀리커넬추출물, 브라질너트추출물, 브로콜리추출물, 녹차씨추출물, 연어알추출물, 토마토추출물, 시금치추출물, 로우스위트블루베리추출물, 포도추출물, 다이글리세린, 펜틸렌글라이콜, 판테놀, 하이드록시에틸아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 세테아릴올리베이트, 글리세릴스테아레이트, 팔미틱애씨드, 스테아릭애씨드, 아크릴레이트/C10-30알킬아크릴레이트크로스폴리머, C12-20알킬글루코사이드, 카프릴릴글라이콜, 솔비탄올리베이트, 트로메타민, 에틸헥실글리세린, 글리세릴아크릴레이트/아크릴릭애씨드코폴리머, 아데노신, 솔비탄아이소스테아레이트, 소듐파이테이트, 사이아노코발아민, 토코페롤, 아세틸헥사펩타이드-8, 아스코빅애씨드폴리펩타이드, 소듐디엔에이, 아세틸옥타펩타이드-3, 아세틸테트라펩타이드-2, 아세틸테트라펩타이드-3, 아세틸테트라펩타이드-5, 아세틸테트라펩타이드-9, 카르노신, 카퍼트라이펩타이드-1, 노나펩타이드-1, 팔미토일펜타펩타이드-4, 팔미토일트라이펩타이드-1, 팔미토일트라이펩타이드-5, C14-22알코올, 잔탄검, 카보머, 향료",
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할 것 2. 상처가 있는 부위 등에는 사용을 자제할 것 3. 보관 및 취급 시의 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "canonical_product_id": "CP000190",
+    "field_provenance": {
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "5ed7881bbb24b07760d8eeeddd33b23292a913650fe879cd97474da46dfbd688"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "_자동으로_채운_칸": [
+      "ingredients_inci"
+    ]
   },
   "1041749": {
     "product_name_kr": "식물원 병풀 클리어 앰플 30 ml",
@@ -44,16 +78,33 @@
     "source_url": "실제 상품자료 URL",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "ingredients_source": "정제수, 부틸렌글라이콜, 글리세린, 1,2-헥산다이올, 프로판다이올, 흰버드나무껍질추출물, 병풀추출물(100.1 ppm), 병풀잎추출물(100ppm), 병풀뿌리추출물(100 ppm), 티트리잎오일, C12-14알케스-12, 소듐폴리아크릴로알다이메틸타우레이트, 소듐시트레이트, 에틸헥실글리세린, 시트릭애씨드, 토코페롤, 에피갈로카테킨갈레이트, 살리실릭애씨드, 글라이콜릭애씨드, 카프릴릭/카프릭트라이글리세라이드, 매스틱검, 하이드로제네이티드레시틴, 잔탄검, 페네틸알코올",
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상증상에 내부작용이 있는 경우에는 전문의 등과 상담할 것\n2. 상처가 있는 부위 등에는 사용을 자재할 것\n3. 보관 및 취급 시의 주의사항\n - 어린이의 손이 닿지 않는 곳에 보관할 것\n - 직사광선을 피해서 보관할 것",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "canonical_product_id": "CP000067",
+    "field_provenance": {
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "781f39b13c08217c87322033fc7854d1f5d74390766e294773d1a06a3ea8abe3"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "_자동으로_채운_칸": [
+      "ingredients_inci"
+    ]
   },
   "1049271": {
     "product_name_kr": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
     "net_contents": "10.14 fl. oz. / 300 mL",
-    "ingredients_inci": "Water, Glycerin, 1,2-Hexanediol, Butylene Glycol, Glycereth-26, C12-14 Alketh-12, Disodium EDTA, Ethylhexylglycerin, Arginine, Carbomer, Coptis Japonica Root Extract, Xanthan Gum, Fragrance, Maltodextrin, Gardenia Florida Fruit Extract, Gluconolactone, Panthenol, Centella Asiatica Extract, Sodium Hyaluronate, Beta-Glucan",
+    "ingredients_inci": "Water, Glycerin, 1,2-Hexanediol, Butylene Glycol, Glycereth-26, C12-14 Alketh-12, Disodium EDTA, Ethylhexylglycerin, Arginine, Carbomer, Coptis Japonica Root Extract, Xanthan Gum, Fragrance|Perfume|Parfum, Maltodextrin, Gardenia Florida Fruit Extract, Gluconolactone, Panthenol, Centella Asiatica Extract, Sodium Hyaluronate, Beta-Glucan, Water, Glycerin, Glycereth-26, Butylene Glycol, Carbomer, Arginine, C12-14 Alketh-12, Xanthan Gum, Disodium EDTA, Corallina Officinalis Extract, Sodium Hyaluronate, Panthenol, Melia Azadirachta Leaf Extract, Melia Azadirachta Flower Extract, Curcuma Longa (Turmeric) Root Extract, Gluconolactone, Centella Asiatica Extract, Ocimum Sanctum Leaf Extract, Beta-Glucan, Coccinia Indica Fruit Extract, Amber Powder, Solanum Melongena (Eggplant) Fruit Extract, Moringa Oleifera Seed Oil, 1,2-Hexanediol, Ethylhexylglycerin, Caprylyl Glycol, Fragrance|Perfume|Parfum",
     "manufacturer": "화장품제조업자: (주)에스테르\n화장품책임판매업자: (주)브이티코스메틱",
     "country_of_origin": "Korea",
     "warnings_en": "실제 확인한 주의사항",
@@ -61,16 +112,32 @@
     "source_url": "실제 상품자료 URL",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "ingredients_source": "신) 정제수, 글리세린, 1,2-헥산다이올, 부틸렌글라이콜, 글리세레스-26, C12-14알케스-12, 다이소듐이디티에이, 에틸헥실글리세린, 알지닌, 카보머, 황련뿌리추출물, 잔탄검, 향료, 말토덱스트린, 치자추출물, 글루코노락톤, 판테놀, 병풀추출물, 소듐하이알루로네이트, 베타-글루칸\n\n구) 정제수, 글리세린, 글리세레스-26, 부틸렌글라이콜, 카보머, 알지닌, C12-14알케스-12, 잔탄검, 다이소듐이디티에이, 참산호말추출물, 소듐하이알루로네이트, 판테놀, 인도멀구슬나무잎추출물, 인도멀구슬나무꽃추출물, 울금뿌리추출물, 글루코노락톤, 병풀추출물, 홀리바질잎추출물, 베타-글루칸, 아이비고드열매추출물, 호박가루, 가지열매추출물, 드럼스틱씨오일, 1,2-헥산다이올, 에틸헥실글리세린, 카프릴릴글라이콜, 향료\n* 제품 리뉴얼로 전성분이 일부 변경되었습니다.",
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시의 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "field_provenance": {
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "81fae30bd45bd4fac2ed77023aca72128f2d2b3e87cdf877ad0619e8802dd0b1"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "_자동으로_채운_칸": [
+      "ingredients_inci"
+    ]
   },
   "1041403": {
     "product_name_kr": "채비공간 어성초 추출물 비건 토너 150 ml",
     "net_contents": "150ml",
-    "ingredients_inci": "Houttuynia Cordata Extract, 1,2-Hexanediol, Water, Houttuynia Cordata Extract",
+    "ingredients_inci": "Houttuynia Cordata Flower/Leaf/Stem Extract, 1,2-Hexanediol, Water, Houttuynia Cordata Extract",
     "manufacturer": "(주)뉴앤뉴 / (주)브랜뉴이",
     "country_of_origin": "Korea",
     "warnings_en": "실제 확인한 주의사항",
@@ -78,11 +145,27 @@
     "source_url": "실제 상품자료 URL",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "ingredients_source": "약모밀꽃/잎/줄기추출물(95%), 1,2-헥산다이올, 정제수, 약모밀추출물(1%)",
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할것 2. 상처가 있는 부위 등에는 사용을 자제할것 3. 보관 및 취급 시의 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "field_provenance": {
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "84a6ea9a0f1bc2fc8eded82b2d27159c12dd42829559b9a8f2613989612a5d72"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "_자동으로_채운_칸": [
+      "ingredients_inci"
+    ]
   },
   "1045421": {
     "product_name_kr": "태그 듀이 스킨 쿠션 15g 누드 라이트",
@@ -95,16 +178,32 @@
     "source_url": "실제 상품자료 URL",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "warnings_source": "상처가 있는 부위 등에는 사용을 자제할 것\n어린이 손이 닿지 않는 곳에 보관할 것",
     "ingredients_source": "정제수, 다이페닐실록시페닐트라이메티콘, 티타늄디옥사이드, 사이클로펜타실록세인, 부틸렌글라이콜, 에틸헥실메톡시신나메이트, 징크옥사이드, 부틸렌글라이콜다이카프릴레이트/다이카프레이트, 피이지-10다이메티콘, 페닐벤즈이미다졸설포닉애씨드, 마이카, 트라이메틸실록시실리케이트, 다이아이소스테아릴말레이트, 나이아신아마이드, 라우릴피이지-8다이메티콘, 트로메타민, 글리세린, 메틸메타크릴레이트크로스폴리머, 아크릴레이트/다이메티콘코폴리머, 황색산화철, 다이스테아다이모늄헥토라이트, 소듐클로라이드, 1,2-헥산다이올, 트라이에톡시카프릴릴실레인, 합성플루오르플로그파이트, 적색산화철, 알루미늄하이드록사이드, 카프릴릴글라이콜, 하이드로젠다이메티콘, 향료, 라우로일라이신, 판테놀, 흑색산화철, 에틸헥실글리세린, 프로판다이올, 아데노신, 다이소듐이디티에이, 스쿠알란, 하이알루로닉애씨드, 하이드롤라이즈드하이알루로닉애씨드, 소듐하이알루로네이트, 귀리커넬추출물",
     "ingredients_source_type": "daiso_product_notice",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "field_provenance": {
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "20661f89e25e62ef7758a70e929750f6409cc8d41c719bcb0fda7f4685fcab24"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "_자동으로_채운_칸": [
+      "ingredients_inci"
+    ]
   },
   "1059834": {
     "product_name_kr": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
     "net_contents": "28 g",
-    "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Vigna Radiata Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, CI 17200, Tocopherol",
+    "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
     "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
     "country_of_origin": "Korea",
     "warnings_en": "실제 확인한 주의사항",
@@ -112,11 +211,28 @@
     "source_url": "실제 상품자료 URL",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "ingredients_source": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카프릴릴글라이콜, 알란토인, 에틸헥실글리세린, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 아데노신, 하이드롤라이즈드식물성단백질(100ppb), 1,2-헥산다이올, 다이소듐이디티에이, 향료, 울트라마린 (CI 77007), 하이드레이티드실리카, 다이소듐포스페이트, 실리카다이메틸실릴레이트, 다이포타슘글리시리제이트, 부틸렌글라이콜, 소듐포스페이트, 녹두싹추출물, 브로콜리싹추출물, 유채싹추출물, 적색227호 (CI 17200), 토코페롤",
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "가. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 나. 상처가 있는 부위 등에는 사용을 자제할 것 다. 보관 및 취급 시 주의사항 1) 어린이의 손이 닿지 않는 곳에 보관할 것 2) 직사광선을 피해서 보관할 것 라. 눈 주위를 피하여 사용할 것",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "canonical_product_id": "CP000151",
+    "field_provenance": {
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "f38bda1f263ccaa2b325649eb8b5f7786c27680e71a72d410244243e8adf563b"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "_자동으로_채운_칸": [
+      "ingredients_inci"
+    ]
   },
   "1045146": {
     "product_name_kr": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -129,7 +245,7 @@
     "ingredients_inci": "Water, Zinc Oxide, Dicaprylyl Carbonate, Cyclohexasiloxane, Butyloctyl Salicylate, Propanediol, Lauryl Polyglyceryl-3 Polydimethylsiloxyethyl Dimethicone, Isododecane, Caprylyl Methicone, Cyclohexasiloxane, Niacinamide, Ethyl Methacrylate Crosspolymer, Sodium Chloride, Polyglyceryl-2 Dipolyhydroxystearate, Disteardimonium Hectorite, Ceresin, Magnesium Sulfate, 1,2-Hexanediol, Aluminum Hydroxide, Fragrance|Perfume|Parfum, Caprylyl Glycol, Ethylhexylglycerin, Adenosine, Isostearic Acid, Silica, Geraniol, Limonene, Butylene Glycol, Citronellol, Camellia Sinensis Leaf Extract, Tocopherol, 1,2-Hexanediol, Citral, Geraniol, Centella Asiatica Extract, Laminaria Japonica Extract, Fucus Vesiculosus Extract, Undaria Pinnatifida Extract, Chlorella Vulgaris Extract, Salicornia Herbacea Extract, Plankton Extract",
     "ingredients_inci_source": "kr_notice_via_dictionary",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "_자동으로_채운_칸": [
       "product_name_kr",
@@ -137,7 +253,52 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "0636d6a33b6d950a15ea0b7cf19404c61f6039852bcd93c1d2b617b499de3b5d"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "fc4793df015893d96645184a91ea3966e515fc2ede0489b785bcec949750f0d4"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "ce4020afee19154f46bd1b15dd8b7152af33b916af0b56d0856acd184038b49d"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "9c213b5ca0011de79c6a6c730e1e8de4cb143b84c85fa195f3daaa4f77cf5eef"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1048581": {
     "product_name_kr": "드롭비 잡티 말끔 앰플 40 ml",
@@ -150,7 +311,7 @@
     "ingredients_inci": "Water, Butylene Glycol, Dipropylene Glycol, Glycerin, Methyl Gluceth-20, Niacinamide, 1,2-Hexanediol, Citrus Junos Fruit Extract, Sodium Ascorbyl Phosphate, Ascorbic Acid, Biotin, Cyanocobalamin, Folic Acid, Pyridoxine, Riboflavin, Thiamine HCl, Centella Asiatica Leaf Extract, Panthenol, Adenosine, Polyglyceryl-10 Laurate, Ammonium Acryloyldimethyltaurate/VP Copolymer, Carbomer, Algin, Ethylhexylglycerin, Fragrance|Perfume|Parfum, Disodium EDTA, Melia Azadirachta Flower Extract, Ocimum Sanctum Leaf Extract, Melia Azadirachta Leaf Extract, Curcuma Longa (Turmeric) Root Extract, Corallina Officinalis Extract",
     "ingredients_inci_source": "kr_notice_via_dictionary",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "_자동으로_채운_칸": [
       "product_name_kr",
@@ -158,7 +319,53 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000100",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "51e5a6821942309f1639f46dbec451b23d3d6b797a68dc766eb5aa9ff7f56ed7"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "bee20105f0c3543dee89e2774d24d5ce422518b1235339d14e06a68bf836e3ab"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "591084ae6d3de85c0c378e94359916f255b7cb9b43b112f09076f2dbc4f59975"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "725b0c625e0d4eca1a72d31dc8150c626944726cb88ad6ce1bb38d6a397b8ea2"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1075857": {
     "product_name_kr": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -171,7 +378,7 @@
     "ingredients_inci": "Water, Methylpropanediol, Glycerin, Caprylic/Capric Triglyceride, Niacinamide, Polyglyceryl-3 Distearate, Cetearyl Alcohol, Hydroxyacetophenone, Arginine, Carbomer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Stearate Citrate, Allantoin, Xanthan Gum, Sodium DNA, Adenosine, Disodium EDTA, Gluconolactone, Fragrance|Perfume|Parfum, Pogostemon Cablin Oil",
     "ingredients_inci_source": "kr_notice_via_dictionary",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "_자동으로_채운_칸": [
       "product_name_kr",
@@ -179,7 +386,53 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000270",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "eb3f825389b6b937e03f5b23ee60fdd127099d18d7ad36ccef5d4aa0394ee4c7"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "7d0c6e181e1e772c40ae7bc4ff3fd1eddccfd2215d1a10aa1ab62cca7f94d50c"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "b66a69bfd1b870cfc84be6a2ec52b74b396c0393262947d7ea818dee19b48fe3"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1752492a9da9a2789948e99997983c65e2bb5fa87b1d74ad575ae0a47eb81754"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1068776": {
     "product_name_kr": "싸이닉 파워옴므 워터리 선크림 50 ml",
@@ -190,7 +443,7 @@
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2. 상처가 있는 부위 등에는 사용을 자제할 것 3. 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것 4. 화장품이 눈에 들어갔을 때에는 물로 씻어내고, 이상이 있는 경우에는 전문의와 상담할 것",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Homosalate, Ethylhexyl Methoxycinnamate, Propanediol, Alcohol Denat., Ethylhexyl Salicylate, Butyl Methoxydibenzoylmethane, Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine, Niacinamide, Octocrylene, Polymethylsilsesquioxane, Mentha Aquatica Extract, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Pentylene Glycol, 1,2-Hexanediol, Cetearyl Olivate, Glyceryl Stearate, Hydroxyacetophenone, PVP, Poly C10-30 Alkyl Acrylate, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Sorbitan Olivate, Tromethamine, Isohexadecane, Silica Dimethyl Silylate, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Sorbitan Isostearate, Polysorbate 80, Adenosine, Sorbitan Oleate, Ectoin, Butylene Glycol, Panthenol, Sorbitol, Dimethylsilanol Hyaluronate, Hydrolyzed Sodium Hyaluronate, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Sodium Hyaluronate Crosspolymer, Ethylhexylglycerin, Sodium Hyaluronate Dimethylsilanol, Sodium Acetylated Hyaluronate, Cetyl Alcohol, Carbomer, Xanthan Gum, Fragrance|Perfume|Parfum",
     "ingredients_inci_source": "kr_notice_via_dictionary",
@@ -200,7 +453,52 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "74f2b0109b4ef7f8d8217e46dd61123c2321417d41d11009108bc8cf008d6e72"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "fc4793df015893d96645184a91ea3966e515fc2ede0489b785bcec949750f0d4"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "c0bf2859f4c046dc7f326703afea6aac2f817a3a88d49d8c54ebd0251c664bcf"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "4545d7b641e9925bc404bd872227e0d1784ea0e747d4059fd7d3bcca47dcbede"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1060487": {
     "product_name_kr": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
@@ -211,14 +509,50 @@
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2. 상처가 있는 부위 등에는 사용을 자제할 것 3. 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것 4. 눈 주위를 피하여 사용할 것",
     "gosi_ok": false,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "_자동으로_채운_칸": [
       "product_name_kr",
       "net_contents",
       "manufacturer",
       "country_of_origin"
-    ]
+    ],
+    "canonical_product_id": "CP000157",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "9baecf9e182cf020fa52bce79473e6552ba2b03228712a9d23e30eb8fb9f7938"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "bb652c270f16fcd4642c9d27572ceca519f54bd1fb7712a55938859ee3661360"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "656ee328deee9cf5cfa0b91b786742db65f4c83bbb82b85e428c4dd2c2fde980"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      }
+    },
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1070006": {
     "product_name_kr": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
@@ -229,14 +563,50 @@
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2. 상처가 있는 부위 등에는 사용을 자제할 것 3. 보관 및 취급 시 주의사항 1) 어린이의 손이 닿지 않는 곳에 보관할 것 2) 직사광선을 피해서 보관할 것",
     "gosi_ok": false,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "_자동으로_채운_칸": [
       "product_name_kr",
       "net_contents",
       "manufacturer",
       "country_of_origin"
-    ]
+    ],
+    "canonical_product_id": "CP000237",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "b6e2f5d3f3e675a0b9eb4ee9d8ca7de755cb1f04e5d759b096b0d1d833f70b05"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "9cb6d99345f10f217a595eb10d83334f8b3d98f6d5a6625ff7e6605914416409"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "c189794a4e474d323fc47dc808d3a9bfa2d460ba5faf6253dbc78d96c7d2b388"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      }
+    },
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1032881": {
     "product_name_kr": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
@@ -247,7 +617,7 @@
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 용도 이외에는 사용하지 말 것 2. 눈에 들어갔을 때에는 즉시 씻어낼 것 3. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 4. 상처가 있는 부위 등에는 사용을 자제할 것 5. 사용 후 물로 씻어내지 않으면 탈모 또는 탈색의 원인이 될 수 있으므로 주의할 것 6. 제품 내용물과 접촉 시 미끄러질 우려가 있으니 주의할 것 7. 보관 및 취급시 주의사항 1) 어린이의 손이 닿지 않는 곳에 보관할 것 2) 직사광선을 피해서 보관할 것 3) 고온 또는 저온의 장소에 보관하지 말 것",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Cetearyl Alcohol, Stearyl Alcohol, Behentrimonium Chloride, Dimethicone, Amodimethicone, Dipropylene Glycol, Lanolin, Hydrolyzed Keratin, Adansonia Digitata Seed Oil, Argania Spinosa Kernel Oil, Persea Gratissima (Avocado) Oil, Cocos Nucifera (Coconut) Oil, Hydrolyzed Wheat Protein, Hydrolyzed Barley Protein, Hydrolyzed Silk, Hydrolyzed Soy Protein, Hydrolyzed Elastin, Hydrolyzed Milk Protein, Hydrolyzed Corn Protein, Hydrolyzed Collagen, Hydrolyzed Soy Protein, Simmondsia Chinensis (Jojoba) Seed Oil, Isopropyl Myristate, Glycerin, Isopentyldiol, Behenyl Alcohol, Caprylyl Glycol, Panthenyl Ethyl Ether, Panthenol, Phenyl Trimethicone, Polyglyceryl-3 Methylglucose Distearate, Behentrimonium Methosulfate, Cetyl Alcohol, Butylene Glycol, Trideceth-12, Trideceth-6, Potassium Lactate, 1,2-Hexanediol, Ethylhexylglycerin, Cetrimonium Chloride, Propylene Glycol, Lactic Acid, Fragrance|Perfume|Parfum, Linalool, Benzyl Benzoate, Hexyl Cinnamal",
     "ingredients_inci_source": "kr_notice_via_dictionary",
@@ -257,7 +627,52 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "e4d833e479be09f28c746337202f7deb1d0b4f6cedd37fe874a4b88721e74d8d"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "03e55cdf674f6bf32912292892aca5acece75ffd3a9ad5a9131288f66c04c1ad"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "0d8d649fa49f189135d98901cd2bf13226b31e044ece1cf3d54c891b7858b442"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "dc810e9581b282911db3fb51787b66ab5baa7725fac3eba18a9a7288fdc23c73"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1067024": {
     "product_name_kr": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
@@ -268,14 +683,50 @@
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "1. 용도 이외에는 사용하지 마십시오. 2. 눈에 들어갔을 경우 즉시 흐르는 물로 씻어낸 후 전문의와 상담하십시오. 3. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담하십시오. 4. 상처가 있는 부위 등에는 사용을 자제하십시오. 5. 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관하십시오. 나) 직사광선을 피해서 보관하십시오.",
     "gosi_ok": false,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "_자동으로_채운_칸": [
       "product_name_kr",
       "net_contents",
       "manufacturer",
       "country_of_origin"
-    ]
+    ],
+    "canonical_product_id": "CP000210",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "dc74fb02432c35abc43adff25e35bbbbf30c977fd41d4ce6ff8f2e6c7e1a503a"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "0d41f29ca451ebb0e038cd5a0ee2f32848ffa70739b7c9f9d242de7a03efce86"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "b5ee9b3c5280a7172b3e58871cf996d42f7275e8e6a56e030b9faa2fb3243a6e"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      }
+    },
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1057223": {
     "product_name_kr": "태그 핑크 라이트 선쿠션 15 g",
@@ -286,7 +737,7 @@
     "ingredients_source_type": "daiso_product_notice",
     "warnings_source": "가. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것\n나. 상처가 있는 부위 등에는 사용을 자제할 것\n다. 보관 및 취급 시 주의사항\n1) 어린이의 손이 닿지 않는 곳에 보관할 것\n2) 직사광선을 피해서 보관할 것",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Zinc Oxide, Hexyl Laurate, Butylene Glycol, Butyloctyl Salicylate, C12-15 Alkyl Benzoate, Dipropylene Glycol, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Silica, Niacinamide, Isoamyl Laurate, Magnesium Sulfate, Glyceryl Polymethacrylate, Glycerin, Polyglyceryl-4 Isostearate, Triethoxycaprylylsilane, Sorbitan Sesquioleate, Propylene Glycol, Titanium Dioxide, 1,2-Hexanediol, Disteardimonium Hectorite, Polyhydroxystearic Acid, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Dipentaerythrityl Hexahydroxystearate/Hexastearate/Hexarosinate, Silica Dimethyl Silylate, Ethylhexylglycerin, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Stearalkonium Hectorite, Fragrance|Perfume|Parfum, Panthenol, Disodium EDTA, Xanthan Gum, Polyglyceryl-3 Polyricinoleate, Polyglyceryl-3 Diisostearate, Adenosine, Iron Oxide Yellow, Iron Oxide Red, Aluminum Hydroxide, Centella Asiatica Extract, Houttuynia Cordata Extract, Sodium Hyaluronate, Ceramide NP, Hydrogenated Lecithin, Portulaca Oleracea Extract",
     "ingredients_inci_source": "kr_notice_via_dictionary",
@@ -296,14 +747,59 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "21d6e279bf891c6f88b0f91fdedd1f858edecd4e88c0400571b7d74efe27584c"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "009828a1e59903a20cf1dc83bfa8abbf5fdf01ad0ca8d052b4f11428c0b030a1"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "91f9d4b79ce2cb68bc6adafcf6ab98fcd8c9e0a1dfcababf71a2e7cbf9659f7f"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "39bf38c6c00d34e7f7978f6e88ff8b45fd652d3a528305ad5d892b4564899099"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1049276": {
     "product_name_kr": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
     "net_contents": "2ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
     "ingredients_source": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 실리카, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 글리세레스-26, 에틸헥실글리세린, 카프릴릴글라이콜, 아데노신, 소듐폴리아크릴레이트, 병풀추출물, 소듐하이알루로네이트, 카프릴릴/카프릴글루코사이드, 솔비탄올리에이트, 잔탄검, 프로폴리스추출물, 아시아티코사이드, 마데카소사이드, 마데카식애씨드, 아시아틱애씨드, 글라이신, 세린, 글루타믹애씨드, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 트레오닌, 프롤린, 발린, 아이소류신, 히스티딘, 메티오닌, 시스테인",
@@ -316,14 +812,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000107",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "36e7b008b7c0e6fa5bdaa7fbb1395666f41f16dc8e48923c08b238784221352b"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "370d5db5022b8ea6806b8ca61cd2baa8cfd4d53da1cfb52b1759813342564b95"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "83df99d6adff0bad092a057e2ad9fb844501ef2871e9ef12bca48545d72bb676"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "12f219787ff6e7069298b22353127240e0e5925dc001573e1fe4ee9a0d4dba3e"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1055167": {
     "product_name_kr": "본셉 레티놀 500 IU 세럼 30 ml",
     "net_contents": "30ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
     "ingredients_source": "정제수, 부틸렌글라이콜, 글리세린, 스쿠알란, 1,2-헥산다이올, 시어버터, C9-12알케인, 다이메티콘, 바쿠치올, 레티놀(500IU/g), C14-22알코올, 글리세릴스테아레이트, 피이지-100스테아레이트, 해바라기씨오일, 글리세릴스테아레이트에스이, 하이드록시에틸아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, C12-20알킬글루코사이드, 돌콩오일, 토코페릴아세테이트, 알란토인, 에틸헥실글리세린, 카보머, 트로메타민, 아데노신, 잔탄검, 다이소듐이디티에이, 솔비탄아이소스테아레이트, 비에이치티, 아나토씨오일, 세라마이드엔피, 녹두씨추출물, 판테놀, 토코페롤, 하이드로제네이티드레시틴, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세릴-10미리스테이트, 병풀추출물, 소듐하이알루로네이트, 향료",
@@ -336,14 +878,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000130",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "0e9046c362b46ecaa2cee36a26f387ef8f17282a39fb0a935e509ca39abbbbdd"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "3757aa6284b6b721ff36d2cc13d0240e8a0f660a8c4e74f0e3892b14d0f72c11"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "da457766bd18e8408e529d95f3c288c8b6cf484beb25496e0338315f2f5213fd"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "a0a45d9fe30a7d894dd680c537adad0d08ceb21756278d9f5e3705ef80cb54f1"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1049275": {
     "product_name_kr": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
     "net_contents": "2ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
     "ingredients_source": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 실리카, 글리세레스-26, 에틸헥실글리세린, 카프릴릴글라이콜, 아데노신, 소듐폴리아크릴레이트, 소듐하이알루로네이트, 병풀추출물, 카프릴릴/카프릴글루코사이드, 솔비탄올리에이트, 잔탄검, 프로폴리스추출물, 아시아티코사이드, 마데카소사이드, 마데카식애씨드, 아시아틱애씨드, 글라이신, 세린, 글루타믹애씨드, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 트레오닌, 프롤린, 발린, 아이소류신, 히스티딘, 메티오닌, 시스테인",
@@ -356,14 +944,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000106",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "25a4ec6e40a6b0771a3c0ef122c15b3a5f441d374901cd4c44273f747b56f47f"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "370d5db5022b8ea6806b8ca61cd2baa8cfd4d53da1cfb52b1759813342564b95"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "83df99d6adff0bad092a057e2ad9fb844501ef2871e9ef12bca48545d72bb676"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "505b6049ab389cd700ffad591b02091cd9c20e6311c6b52835da3a6d6d4a24c7"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1067498": {
     "product_name_kr": "[영양광채]VT PDRN 광채 크림 50 ml",
     "net_contents": "50ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
     "ingredients_source": "정제수, 부틸렌글라이콜, 글리세린, 프로판다이올, C12-15알킬벤조에이트, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세린-3, 메틸하이드로제네이티드로지네이트, 1,2-헥산다이올, 나이아신아마이드, 카프릴릭/카프릭/미리스틱/스테아릭트라이글리세라이드, C14-22알코올, 비스-다이글리세릴폴리아실아디페이트-2, 비닐다이메티콘, 세테아릴알코올, 판테놀, 글리세릴스테아레이트, 베타인, C12-20알킬글루코사이드, 폴리아크릴레이트-13, 팔미틱애씨드, 하이드로제네이티드식물성오일, 스테아릭애씨드, 세테아릴글루코사이드, 하이드로제네이티드폴리아이소부텐, 마카다미아씨오일, 트로메타민, 글리세릴아크릴레이트/아크릴릭애씨드코폴리머, 카보머, 잔탄검, 에틸헥실글리세린, 알란토인, 아데노신, 폴리글리세릴-10라우레이트, 에틸헥실팔미테이트, 다이소듐이디티에이, 젤란검, 솔비탄아이소스테아레이트, 아가, 스쿠알란, 하이드로제네이티드레시틴, 해바라기씨오일, 소듐하이알루로네이트, 구아이아줄렌, 하이드롤라이즈드엘라스틴, 산양삼추출물, 카퍼클로로필, 포타슘하이알루로네이트, 하이드록시프로필트라이모늄하이알루로네이트, 하이드롤라이즈드소듐하이알루로네이트, 하이드롤라이즈드하이알루로닉애씨드, 하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 카프릴릴글라이콜, 로즈마리추출물, 세라마이드엔피, 펜틸렌글라이콜, 소듐디엔에이, 소듐하이알루로네이트크로스폴리머, 세라마이드엔에스, 소듐아세틸레이티드하이알루로네이트, 피토스핑고신, 시트릭애씨드, 콜레스테롤, 소듐구아이아줄렌설포네이트, 세라마이드에이에스, 세라마이드에이피, 세라마이드이오피, 향료",
@@ -376,14 +1010,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000216",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "fb39f5aef52bc32818cab8f52dfb5be5a8abe40034fcfc0753ca2020b50a8710"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "fc4793df015893d96645184a91ea3966e515fc2ede0489b785bcec949750f0d4"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "cc773b336c05c76265a7c8203d3b565bf87c7be9062fdcdc6235ce003803c247"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "3f4d7c4ba29efc686a3f3e49d996449206c4a7e93462df2f44e236e9efd20153"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1042619": {
     "product_name_kr": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
     "net_contents": "29g",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
     "ingredients_source": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 토코페롤",
@@ -396,14 +1076,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000075",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "4e4a7a95ddf4e4b485487e8cb75ac257a08d9cc057aba97b5add068d214f37aa"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "5cc829a08623bca5808e1bb6282d0eb663f410352e08666fbc24ed193868d88a"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "5e156f1d85dcae0cfccb5dad973de1bc08401e7fe95e6794871f10a36ebb9031"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "dfad7b3472133cfe84fa10575fe3cc508881726ad3ffda2f82e94fb37cdc590b"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1049285": {
     "product_name_kr": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
     "net_contents": "4ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
     "ingredients_source": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나무씨오일, 하이드록시아세토페논, 폴리솔베이트20, 하이드록시에틸우레아, 카보머, 베타인, 알란토인, 트레할로오스, 부틸렌글라이콜, 트로메타민, 덱스트린, 프로판다이올, 다이소듐이디티에이, 글루코오스, 향료, 소듐하이알루로네이트, 소듐폴리아크릴레이트, 치자추출물, 당아욱잎추출물, 글라이신, 세린, 글루타믹애씨드, 클로렐라불가리스추출물, 판테놀, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 프롤린, 트레오닌, 발린, 아이소류신, 히스티딘, 시스테인, 메티오닌, 폴리글루타믹애씨드, 에틸헥실글리세린, 소듐하이알루로네이트크로스폴리머, 포타슘하이알루로네이트, 하이드록시프로필트라이모늄하이알루로네이트, 하이알루로닉애씨드, 하이드롤라이즈드소듐하이알루로네이트, 하이드롤라이즈드하이알루로닉애씨드, 펜틸렌글라이콜, 소듐아세틸레이티드하이알루로네이트",
@@ -416,14 +1142,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000109",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "ca4e989742e49820f4607cd9d42029e59b595081940630f07ea1957d0d96d35c"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "466fe4e4519d0287f1f5f99475c590f5de3f50466d91d3bbdb4b55f9284f5bd6"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "83df99d6adff0bad092a057e2ad9fb844501ef2871e9ef12bca48545d72bb676"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "67396fdb204fe6681c7f4f5ddac47f67227b241723d89de12bd862761eea4374"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1060211": {
     "product_name_kr": "바세린 모이스처라이징 클렌징 밀크 140 ml",
     "net_contents": "140ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: ㈜우신화장품 (경기도 부천시 오정구 수도로 125번길 33) / 화장품책임판매업자: 애경산업㈜ (충남 청양군 정산면 충의로 1547-9)",
     "ingredients_source": "정제수, 에틸헥실팔미테이트, 글리세린, 라우릴글루코사이드, 아라키딜알코올, 1,2-헥산다이올, 글리세릴스테아레이트에스이, 베헤닐알코올, 팔미틱애씨드, 스테아릭애씨드, 아라키딜글루코사이드, 카프릴릴글라이콜, 글리세릴카프릴레이트, 카보머, 페트롤라툼, 잔탄검, 암모늄폴리아크릴로일다이메틸타우레이트, 글리세릴스테아레이트, 글루코오스, t-부틸알코올, 소듐하이알루로네이트, 토코페롤, 향료, 리모넨, 헥실신남알",
@@ -436,14 +1208,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000155",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "4209cc6897f1d15c3eaaa18aa47dd5c2fa6c9cc27b2c314d6cee5c6d8a36a43e"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "6fbce238b96d193cd03ab9b3e0cfb0adf9ea0c9f449b591b6ff99b6ac1b0ebe9"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "b100a7ad848b2243e9111121949a02ac01a248eeeb45232b70e176f38e8b93ba"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "b103febd102300d1fed5710d99679ae24c5cee93249221181101c532db1a955e"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1072554": {
     "product_name_kr": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
     "net_contents": "100ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
     "ingredients_source": "정제수, 글리세린, 부틸렌글라이콜, 다이메티콘, 세테아릴알코올, 세틸에틸헥사노에이트, 바쿠치올, 레티놀(100 IU/g), 폴리글리세릴-3메틸글루코오스다이스테아레이트, 글리세릴스테아레이트, 하이드록시아세토페논, 트로메타민, 카보머, 아크릴레이트/C10-30알킬아크릴레이트크로스폴리머, 바이오사카라이드검-1, 에틸헥실글리세린, 1,2-헥산다이올, 글리세릴아크릴레이트/아크릴릭애씨드코폴리머, 잔탄검, 하이드록시프로필구아, 다이소듐이디티에이, 녹두씨추출물, 하이드록시에틸셀룰로오스, 카프릴릭/카프릭트라이글리세라이드, 하이드로제네이티드레시틴, 폴리글리세릴-10미리스테이트, 토코페릴아세테이트, 스쿠알란, 판테놀, 아데노신, 알란토인, 병풀추출물, 소듐하이알루로네이트, 피토스테릴/옥틸도데실라우로일글루타메이트, 세라마이드엔피, 향료",
@@ -456,14 +1274,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000251",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "bfd7fd3dfbba9ebacb16ca5ab3702b27db9e0b2682591b81275ddfcefffe3e81"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "b73ded01feca5d71becdc23bc7a2bff8eb7c64cdb4bdc95504a1a55ddbc092a6"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "da457766bd18e8408e529d95f3c288c8b6cf484beb25496e0338315f2f5213fd"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "c63e9e8a88e5abaca047392aa8f76fad2fd5a0028f85dfad2597f97f514b69a8"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1053482": {
     "product_name_kr": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
     "net_contents": "200ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
     "ingredients_source": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2-헥산다이올, 카프릴릴글라이콜, 엑토인, 너도밤나무싹추출물, 마트리카리아꽃추출물, 에난티아 클로란타껍질추출물, 버지니아풍년화추출물, 베타인, 시트릭애씨드, 글루코노락톤, 락틱애씨드, 살리실릭애씨드, 카프릴로일살리실릭애씨드, 자일리틸글루코사이드, 안하이드로자일리톨, 자일리톨, 포도추출물, 감나무잎추출물, 커피콩추출물, 호장근뿌리추출물, 잇꽃꽃추출물, 녹차추출물, 밤껍질추출물, 초피나무열매추출물, 부틸아보카데이트, 병풀추출물, 에틸헥실글리세린, 글루코오스, 올레아놀릭애씨드, 매실추출물, 사과추출물, 파파야열매추출물, 유자추출물, 소나무잎추출물, 개똥쑥추출물, 폴리글리세릴-10라우레이트, 벤질글라이콜, 하이드롤라이즈드글라이코사미노글리칸, 소듐하이알루로네이트, 토코페롤, 락토바실러스/콩발효추출물, 쇠비름추출물, 오레가노잎추출물, 육계나무껍질추출물, 흰버드나무껍질추출물, 황금추출물, 소듐하이알루로네이트크로스폴리머, 편백잎추출물, 하이드롤라이즈드하이알루로닉애씨드, 아세틸헥사펩타이드-8, 카퍼트라이펩타이드-1, 트라이펩타이드-1, 팔미토일펜타펩타이드-4, 하이드록시프로필트라이모늄하이알루로네이트, 알라닌/히스티딘/라이신폴리펩타이드카퍼에이치씨엘, 팔미토일트라이펩타이드-1, 헥사펩타이드-9, 하이알루로닉애씨드, 소듐아세틸레이티드하이알루로네이트, 가지열매추출물, 목련나무껍질추출물, 카카두플럼추출물, 까무까무열매추출물, 치자추출물, 아데노신, 다이소듐이디티에이, 알란토인, 페퍼민트오일, 다이포타슘글리시리제이트",
@@ -476,14 +1340,60 @@
       "manufacturer",
       "country_of_origin",
       "ingredients_inci"
-    ]
+    ],
+    "canonical_product_id": "CP000125",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "6c148920ec9a49f38eed6154ff3a4b1d447a363545ecb558134d7dca70031aa8"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "c4bdd718e2686fb51d0ec3ef60b82fa4a912217a43f0ea6c19b5bb8b6d0798f7"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "5b298548753240e81d553638daa07b6d0aae56961cf55d8e5758effc6d573bb2"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "f008f073494e88a87a57e58ff10ae6a53f1e1ab0b0f699ef19c0685ce59be75f"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1067495": {
     "product_name_kr": "[퀵 수분충전]VT PDRN 광채 토너 200 ml",
     "net_contents": "200ml",
     "country_of_origin": "Korea",
     "gosi_ok": true,
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: (주)이앤씨 / 화장품책임판매업자: (주)브이티코스메틱",
     "ingredients_source": "정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드, 1,2-헥산다이올, 아이소펜틸다이올, C12-14알케스-12, 카프릴릴글라이콜, 에틸헥실글리세린, 에틸헥실팔미테이트, 세틸에틸헥사노에이트, 폴리글리세릴-2스테아레이트, 아데노신, 글리세릴스테아레이트, 아크릴레이트/C10-30알킬아크릴레이트크로스폴리머, 카보머, 다이소듐이디티에이, 스테아릴알코올, 알지닌, 글루타티온, 하이드롤라이즈드콜라겐, 산양삼추출물, 하이드롤라이즈드엘라스틴, 소듐하이알루로네이트, 소듐디엔에이, 향료",
@@ -497,7 +1407,53 @@
       "ingredients_inci"
     ],
     "ingredients_inci": "Water, Butylene Glycol, Glycerin, Niacinamide, 1,2-Hexanediol, Isopentyldiol, C12-14 Alketh-12, Caprylyl Glycol, Ethylhexylglycerin, Ethylhexyl Palmitate, Cetyl Ethylhexanoate, Polyglyceryl-2 Stearate, Adenosine, Glyceryl Stearate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Carbomer, Disodium EDTA, Stearyl Alcohol, Arginine, Glutathione, Hydrolyzed Collagen, Panax Ginseng Root Extract, Hydrolyzed Elastin, Sodium Hyaluronate, Sodium DNA, Fragrance|Perfume|Parfum",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "canonical_product_id": "CP000214",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "d532bcfd3f3f194878dfa6d326d103665f4568590ba76c589e619ceda8679abb"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "c4bdd718e2686fb51d0ec3ef60b82fa4a912217a43f0ea6c19b5bb8b6d0798f7"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "a9b6c556c444cd56cc82e80efb9083fc3c8b39910c392791bdba967acc0307a9"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "d3180034a27b39bb2e086e321b8729f346a19cac3ec81acebd0e3d8bd98d9a16"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1027327": {
     "net_contents": "23 ml / 0.78 fl. oz.",
@@ -512,8 +1468,36 @@
       "manufacturer",
       "country_of_origin"
     ],
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
-    "source_type": "daiso_product_notice"
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
+    "source_type": "daiso_product_notice",
+    "canonical_product_id": "CP000038",
+    "field_provenance": {
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "fdfc60c4eec1c90a62d1ae4e3ea8b82c9205af76f4c82a4fdbee54dba4659139"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "a39ae2aec65c42dcb516eb068c518a7f67be9578e13dfa05484550fe3875a3e5"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "67c72f2a2a64c676a2cea9efaddaf5ab6f0f16ef01b45d6cdf9e2af5c4df711b"
+      }
+    },
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1060489": {
     "net_contents": "4ml, 0.13oz",
@@ -525,14 +1509,52 @@
       "manufacturer",
       "ingredients_inci"
     ],
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "country_of_origin": "Korea",
     "manufacturer": "제품 내 별도 표기 / 주식회사 스킨이데아",
     "ingredients_source": "정제수, 호호바씨오일, 폴리비닐알코올, 메틸프로판다이올, 부틸렌글라이콜, 카프릴릭/카프릭트라이글리세라이드, 1,2-헥산다이올, 나이아신아마이드, 알진, 폴리글리세릴-10올리에이트, 폴리솔베이트80, 풀루란, 병풀꽃/잎/줄기추출물(1,200 ppm), 스핑고모나스발효추출물, 잇꽃꽃추출물, 치자추출물, 병풀추출물(5 ppm), 참당귀뿌리추출물, 매실추출물, 사과추출물, 파파야열매추출물, 포도추출물, 하이드로제네이티드레시틴, 글리세릴스테아레이트, 피이지-100스테아레이트, 판테놀(7,500 ppm), 다이스테아다이모늄헥토라이트, 소듐폴리스타이렌설포네이트, 마이크로크리스탈린셀룰로오스, 토코페릴아세테이트, 에틸헥실글리세린, 알란토인, 아데노신, 셀룰로오스검, 소듐파이테이트, 덱스트린, 약모밀가루, 토코페롤, 시트릭애씨드, 마데카소사이드(0.051 ppm), 글리세린, 자일리틸글루코사이드, 안하이드로자일리톨, 자일리톨, 실리카, 카올린, 마데카식애씨드(0.005 ppm), 아시아티코사이드(0.005 ppm), 아시아틱애씨드(0.005 ppm), 펜틸렌글라이콜, 폴리글리세릴-10스테아레이트, 소듐아스코빌포스페이트, 레티닐팔미테이트, 바이오틴, 올리고펩타이드-3, 티아민에이치씨엘, 폴릭애씨드, 피리독신, 사이아노코발아민, 살리실릭애씨드, 향료",
     "ingredients_source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Simmondsia Chinensis (Jojoba) Seed Oil, Polyvinyl Alcohol, Methylpropanediol, Butylene Glycol, Caprylic/Capric Triglyceride, 1,2-Hexanediol, Niacinamide, Algin, Polyglyceryl-10 Oleate, Polysorbate 80, Pullulan, Centella Asiatica Flower/Leaf/Stem Extract, Sphingomonas Ferment Extract, Carthamus Tinctorius (Safflower) Flower Extract, Gardenia Florida Fruit Extract, Centella Asiatica Extract, Angelica Gigas Root Extract, Prunus Mume Fruit Extract, Malus Domestica Fruit Extract, Carica Papaya (Papaya) Fruit Extract, Vitis Vinifera (Grape) Fruit Extract, Hydrogenated Lecithin, Glyceryl Stearate, PEG-100 Stearate, Panthenol, Disteardimonium Hectorite, Sodium Polystyrene Sulfonate, Microcrystalline Cellulose, Tocopheryl Acetate, Ethylhexylglycerin, Allantoin, Adenosine, Cellulose Gum, Sodium Phytate, Dextrin, Houttuynia Cordata Powder, Tocopherol, Citric Acid, Madecassoside, Glycerin, Xylitylglucoside, Anhydroxylitol, Xylitol, Silica, Kaolin, Madecassic Acid, Asiaticoside, Asiatic Acid, Pentylene Glycol, Polyglyceryl-10 Stearate, Sodium Ascorbyl Phosphate, Retinyl Palmitate, Biotin, Oligopeptide-3, Thiamine HCl, Folic Acid, Pyridoxine, Cyanocobalamin, Salicylic Acid, Fragrance|Perfume|Parfum",
-    "ingredients_inci_source": "kr_notice_via_dictionary"
+    "ingredients_inci_source": "kr_notice_via_dictionary",
+    "canonical_product_id": "CP000158",
+    "field_provenance": {
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "35c587afbf942361b7277e17d52edea32d00a192a8049caf583bfaf00c45660b"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "656ee328deee9cf5cfa0b91b786742db65f4c83bbb82b85e428c4dd2c2fde980"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      },
+      "ingredients_inci": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "beab903ff2eae6ab4e2063751b9c1df295ca027bd689c346751b44d5bf764b3f"
+      }
+    },
+    "ingredients_inci_status": "current_derived",
+    "ingredients_inci_eligible": true,
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1067500": {
     "product_name_kr": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
@@ -544,8 +1566,36 @@
       "net_contents",
       "country_of_origin"
     ],
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
-    "source_type": "daiso_product_notice"
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
+    "source_type": "daiso_product_notice",
+    "canonical_product_id": "CP000218",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "4711a5e9c2ba1803dd0c8d0e53e4f9bbf039c993741efc622aa9d6d81e43822a"
+      },
+      "net_contents": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "2b3057af81bef15cbdc5bbaaae13e742bb5014be94a6d5ed3118f51fbe1c2be9"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      }
+    },
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   },
   "1061918": {
     "product_name_kr": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
@@ -556,11 +1606,39 @@
       "country_of_origin",
       "manufacturer"
     ],
-    "last_gosi_sync_at": "2026-10-04T22:04:04.001816+00:00",
+    "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
     "manufacturer": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
     "ingredients_source": "[1제] 만니톨, 하이드록시프로필메틸셀룰로오스, 아스코빅애씨드(3 %), 아세틸시스테인, 치자추출물, 소듐하이알루로네이트, 소듐헥사메타포스페이트, 덱스트린\n[2제] 정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드 1,2-헥산다이올, 레티놀, 소듐하이알루로네이트, 알란토인, 판테놀, 카보머, 폴리글리세릴-10올리에이트, 폴리글리세릴-10스테아레이트, 에틸헥실글리세린, 잔탄검, 카프릴릭/카프릭트라이글리세라이드, 다이소듐이디티에이, 메틸메타크릴레이트크로스폴리머, 하이드로제네이티드레시틴, 콜레스테롤, 귀리가루추출물, 토코페릴아세테이트, 콥티스뿌리추출물, 녹두씨추출물, 트로메타민, 병풀추출물, 비에이치에이, 비에이치티, 토코페롤, 향료, 리날룰, 헥실신남알, 리모넨",
     "ingredients_source_type": "daiso_product_notice",
-    "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것.\n2. 상처가 있는 부위 등에는 사용을 자제할 것.\n3. 보관 및 취급 시 주의사항\n가) 어린이의 손이 닿지 않는 곳에 보관할 것.\n나) 직사광선을 피해서 보관할 것.\n4. 1제 동결건조 캡슐은 개봉 후 즉시 사용할 것.\n5. 캡 제거 시 손이 베이지 않도록 조심할 것."
+    "warnings_source": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것.\n2. 상처가 있는 부위 등에는 사용을 자제할 것.\n3. 보관 및 취급 시 주의사항\n가) 어린이의 손이 닿지 않는 곳에 보관할 것.\n나) 직사광선을 피해서 보관할 것.\n4. 1제 동결건조 캡슐은 개봉 후 즉시 사용할 것.\n5. 캡 제거 시 손이 베이지 않도록 조심할 것.",
+    "canonical_product_id": "CP000178",
+    "field_provenance": {
+      "product_name_kr": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "e0365d58008b2de9abe03ebe4b65bf9bb95040d6d60231a2943483545a229f66"
+      },
+      "manufacturer": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "70c86e323c74b6e017b4e0e150e0360e950c9e4c4f4571affcf84c770bca3747"
+      },
+      "country_of_origin": {
+        "owner": "machine",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice",
+        "human_verified": false,
+        "source_fingerprint": "1eb7da6d56d883ca1dd1a88b70ad635a0b26a9b767d500d31512e64dcdb2b7bb"
+      }
+    },
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
   }
 }

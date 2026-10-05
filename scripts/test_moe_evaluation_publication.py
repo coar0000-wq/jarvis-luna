@@ -201,17 +201,22 @@ class EvaluationPublicationTests(unittest.TestCase):
         self.assertEqual(self.report.read_bytes(), self.base)
         self.assertFalse((self.root / evidence.MANIFEST_PATH).exists())
 
-    def test_overflow_fail_closed_without_pruning(self):
+    def test_flat_capacity_spills_without_pruning_or_reformatting(self):
+        from scripts.immutable_snapshot_store import load_snapshots
         history = self.root / evidence.HISTORY_PATH
         history.mkdir()
+        retained = {}
         for i in range(128):
             value = json.dumps({'retained_evaluation': i}).encode()
+            retained[evidence.sha(value)] = value
             (history / (evidence.sha(value) + '.json')).write_bytes(value)
-        with self.assertRaisesRegex(ValueError, 'capacity'):
-            self.publish()
-        self.assertEqual(len(list(history.iterdir())), 128)
-        self.assertEqual(self.report.read_bytes(), self.base)
-        self.assertFalse((self.root / evidence.MANIFEST_PATH).exists())
+        self.publish()
+        actual = load_snapshots(self.root, evidence.HISTORY_PATH)
+        self.assertEqual({h:actual[h] for h in retained}, retained)
+        self.assertEqual(len(list(history.glob('*.json'))), 128)
+        self.assertGreater(len(actual), 128)
+        self.assertEqual(json.loads(self.report.read_bytes()), self.current)
+        self.assertTrue((self.root / evidence.MANIFEST_PATH).exists())
 
     def test_immutable_write_and_concurrent_producer_lock_fail_closed(self):
         name = evidence.HISTORY_PATH + '/immutable.json'

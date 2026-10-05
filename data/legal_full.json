@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-04T22:04:12.203142+00:00",
+  "generated_at": "2026-10-05T01:36:34.248073+00:00",
   "generator": "scripts/build_legal_full.py",
   "scope": "현재 S등급 상품별 미국 화장품 라벨/MoCRA 공개 준비 상태",
   "truth_policy": "미확인 값은 빈칸으로 두며 예시 주소·전화·성분을 사용하지 않는다",
@@ -106,11 +106,12 @@
       },
       "translation_status": "draft",
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1055167": {
@@ -183,13 +184,14 @@
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1049275": {
@@ -267,11 +269,12 @@
       },
       "translation_status": "draft",
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1067498": {
@@ -371,13 +374,14 @@
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1072554": {
@@ -446,13 +450,14 @@
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1075857": {
@@ -506,13 +511,14 @@
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1049285": {
@@ -602,13 +608,14 @@
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1059834": {
@@ -623,7 +630,7 @@
         "Butyrospermum Parkii (Shea) Butter",
         "Acrylates Copolymer",
         "Chondrus Crispus Extract",
-        "Ceratonia Siliqua Gum",
+        "Ceratonia Siliqua (Carob) Gum",
         "Dipropylene Glycol",
         "Betaine",
         "Potassium Chloride",
@@ -639,7 +646,7 @@
         "Hydrolyzed Vegetable Protein",
         "1,2-Hexanediol",
         "Disodium EDTA",
-        "Fragrance",
+        "Fragrance|Perfume|Parfum",
         "Ultramarines",
         "Hydrated Silica",
         "Disodium Phosphate",
@@ -647,12 +654,13 @@
         "Dipotassium Glycyrrhizate",
         "Butylene Glycol",
         "Sodium Phosphate",
-        "Vigna Radiata Sprout Extract",
+        "Phaseolus Radiatus Sprout Extract",
         "Brassica Oleracea Italica (Broccoli) Sprout Extract",
         "Brassica Campestris (Rapeseed) Sprout Extract",
-        "CI 17200, Tocopherol"
+        "Fast Acid Magenta",
+        "Tocopherol"
       ],
-      "ingredients_inci_raw": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Vigna Radiata Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, CI 17200, Tocopherol",
+      "ingredients_inci_raw": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
       "net_contents": "28 g",
       "directions": "",
       "warnings": "",
@@ -676,13 +684,14 @@
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     },
     "1027327": {
@@ -716,7 +725,7 @@
       "translation_status": null,
       "auto_legal_status": "auto_checked",
       "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields",
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "identity",
@@ -773,13 +782,14 @@
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
-      "hard_block": false,
-      "hard_block_reason": "",
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
         "directions",
         "warnings",
-        "responsible_person.address"
+        "responsible_person.address",
+        "legal_hard_block"
       ]
     }
   }

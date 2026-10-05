@@ -40,6 +40,9 @@ jobs:
         env:
           TYPESAFE_ENABLED: '0'
           GEMINI_FALLBACK_ENABLED: '0'
+          # Fixture-only CLI paths, no provider or source requests.
+          JARVIS_SOURCE_CONTINUITY: 'verified'
+          JARVIS_OPERATIONS_CONTINUITY: 'verified'
         run: |
           python scripts/test_daiso_collection_validation.py
           python scripts/test_daiso_candidates.py
@@ -69,6 +72,17 @@ jobs:
           python scripts/test_source_collector_provenance.py
           python scripts/test_knowledge_capture_provenance.py
           python scripts/test_shortlist_observations.py
+          python scripts/test_shortlist_continuity.py
+          python scripts/test_source_procedure_state.py
+          python scripts/test_source_safety_checkpoint.py
+          python scripts/test_source_self_healing_integration.py
+          python scripts/test_restore_operations_safety.py
+          python scripts/test_workflow_status_publication.py
+          python scripts/test_daiso_pipeline_health.py
+          python scripts/test_daiso_pipeline_inputs.py
+          python scripts/test_gosi_observation_provenance.py
+          python scripts/test_us_label_provenance.py
+          python scripts/test_immutable_snapshot_store.py
           python scripts/test_moe_evaluation_publication.py
           python scripts/test_diagnostic_evaluation_publication.py
           python scripts/test_gemini_escalation.py

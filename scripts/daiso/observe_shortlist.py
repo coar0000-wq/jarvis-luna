@@ -14,6 +14,7 @@ import math
 import os
 import re
 import stat
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -37,7 +38,13 @@ INPUTS = (
 )
 MAX_BYTES = 2 * 1024 * 1024
 TIMEOUT = 15
-COOLDOWN = 24 * 3600
+FRESH_TTL = 24 * 3600
+COOLDOWN = 2 * 3600
+POLICY = {"version": 2, "fresh_ttl_seconds": FRESH_TTL,
+          "retry_cooldown_seconds": COOLDOWN, "per_run_http_cap": 12,
+          "rolling_window_seconds": 24 * 3600, "rolling_http_cap": 24,
+          "run_deadline_seconds": 660, "safety_margin_seconds": 30,
+          "http_envelope_seconds": 2 * TIMEOUT}
 TRANSIENT = {500, 502, 503, 504}
 PRICE_KEYS = ("sellAmt", "salePrice", "sellingPrice", "sellPrice", "goodsPrice", "productPrice", "salePrc", "pdPrc", "price", "price_krw", "sale_price", "selling_price", "sell_price", "goods_price", "product_price")
 
@@ -161,19 +168,20 @@ class _Claim:
                 self.handle = os.open(_safe(self.root, "data/daiso_real"), os.O_RDONLY)
                 fcntl.flock(self.handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
             self.acquired = True
-            self.data = _read(self.root, LEDGER) if self.path.exists() else {}
+            if not self.path.exists():
+                raise Blocked("durable_claim_missing_no_bootstrap")
+            self.data = _read(self.root, LEDGER)
             if not isinstance(self.data, dict):
                 raise Blocked("invalid_claim_ledger")
-            if self.path.exists():
-                counter = self.data.get("total_http_attempts")
-                if isinstance(counter, bool) or not isinstance(counter, int) or counter < 0:
-                    raise Blocked("invalid_claim_counter")
-                for key in ("last_run_attempt_at", "last_request_at"):
-                    value = _epoch(self.data.get(key))
-                    if value is None or value > time.time() + 5:
-                        raise Blocked("invalid_claim_clock")
-                if _epoch(self.data["last_request_at"]) < _epoch(self.data["last_run_attempt_at"]):
-                    raise Blocked("invalid_claim_clock_order")
+            counter = self.data.get("total_http_attempts")
+            if isinstance(counter, bool) or not isinstance(counter, int) or counter < 0:
+                raise Blocked("invalid_claim_counter")
+            for key in ("last_run_attempt_at", "last_request_at"):
+                value = _epoch(self.data.get(key))
+                if value is None or value > time.time():
+                    raise Blocked("invalid_claim_clock")
+            if _epoch(self.data["last_request_at"]) < _epoch(self.data["last_run_attempt_at"]):
+                raise Blocked("invalid_claim_clock_order")
             return self
         except Exception as exc:
             self.__exit__()
@@ -367,63 +375,196 @@ def _check_budget_checkpoint(previous, ledger):
     for key in ("last_run_attempt_at", "last_request_at"):
         minimum = _epoch(checkpoint.get(key))
         actual = _epoch(ledger.get(key))
-        if minimum is None or minimum > time.time() + 5 or actual is None or actual < minimum:
+        if minimum is None or minimum > time.time() or actual is None or actual < minimum:
             raise Blocked("durable_claim_clock_below_budget_checkpoint")
     if _epoch(checkpoint["last_request_at"]) < _epoch(checkpoint["last_run_attempt_at"]):
         raise Blocked("invalid_budget_checkpoint_clock_order")
 
 
+def _history_digest(history):
+    return hashlib.sha256(json.dumps(history, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+
+
+def _continuity(previous, claim):
+    """No genesis creation here. Exact matching legacy evidence is required."""
+    data = claim.data
+    _check_budget_checkpoint(previous, data)
+    count = data["total_http_attempts"]
+    if "policy" not in data:
+        evidence = previous.get("budget_checkpoint", {}).get("total_http_attempts", previous.get("http_attempt_count"))
+        checkpoint = previous.get("budget_checkpoint")
+        matched = isinstance(checkpoint, dict) and all(checkpoint.get(key) == data.get(key) for key in ("total_http_attempts", "last_run_attempt_at", "last_request_at"))
+        legacy_seven = checkpoint is None and count == 7 and evidence == 7
+        if not count or not previous.get("products") or not (matched or legacy_seven):
+            raise Blocked("unsupported_legacy_claim")
+        data["policy"] = dict(POLICY)
+        data["request_history"] = [{"sequence": i, "reserved_at": data["last_request_at"], "kind": "legacy_reserved"} for i in range(1, count + 1)]
+        data["migration"] = {"version": 2, "legacy_total_http_attempts": count,
+                             "legacy_last_run_attempt_at": data["last_run_attempt_at"],
+                             "legacy_last_request_at": data["last_request_at"]}
+        data["last_checked_at"] = data["last_request_at"]
+    if data.get("policy") != POLICY:
+        raise Blocked("invalid_claim_policy")
+    history = data.get("request_history")
+    if not isinstance(history, list) or len(history) != count:
+        raise Blocked("invalid_window_lifetime_proof")
+    minimum = None
+    for index, event in enumerate(history, 1):
+        stamp = _epoch(event.get("reserved_at")) if isinstance(event, dict) else None
+        if not isinstance(event, dict) or isinstance(event.get("sequence"), bool) or event.get("sequence") != index or stamp is None or stamp > time.time() or (minimum is not None and stamp < minimum):
+            raise Blocked("invalid_window_lifetime_proof")
+        minimum = stamp
+    if history and _epoch(data["last_request_at"]) != minimum:
+        raise Blocked("claim_history_clock_mismatch")
+    checked = _epoch(data.get("last_checked_at"))
+    if checked is None or checked > time.time() or checked < _epoch(data["last_request_at"]):
+        raise Blocked("claim_clock_rollback")
+    checkpoint = previous.get("budget_checkpoint", {})
+    proof = checkpoint.get("request_history_sha256")
+    if proof is not None:
+        prefix = checkpoint["total_http_attempts"]
+        if proof != _history_digest(history[:prefix]):
+            raise Blocked("claim_history_rollback")
+        prior_checked = _epoch(checkpoint.get("last_checked_at"))
+        if prior_checked is None or checked < prior_checked:
+            raise Blocked("claim_checked_clock_rollback")
+    for state in data.get("member_attempts", {}).values():
+        stamp = _epoch(state.get("attempted_at"))
+        if stamp is None or stamp > checked:
+            raise Blocked("invalid_member_attempt_clock")
+    claim.save()
+
+
 def observe(root, *, force=False):
-    """Fixed-scope entry point. No caller transport, endpoints, or adapters."""
+    """Fixed official GET scope. Force reevaluates metadata only; it cannot release safety stops."""
+    started = time.monotonic()
+    wall_started = time.time()
     root = Path(root)
     if ".." in root.parts:
         raise Blocked("path_traversal")
     root = root.absolute()
     _safe(root)
+    if _safe(root, 'data/operations/.restore-pending.json').exists():
+        raise Blocked('operations_safety_restore_pending')
+    if _safe(root, '.source-safety-restore.pending').exists():
+        raise Blocked('source_safety_restore_requires_reconciliation')
     _safe(root, OUTPUT)
     before = _hashes(root)
     pairs = _members(root)
     previous = _read(root, OUTPUT) if _safe(root, OUTPUT).exists() else {}
-    if not _safe(root, OUTPUT).exists() and not _safe(root, LEDGER).exists():
-        _deny_reset_with_watch_history(root)
-    if previous and not _safe(root, LEDGER).exists() and (
-        previous.get("products") or previous.get("retained_previous_products") or
-        previous.get("http_attempt_count", 0) or any(
-            a.get("http_status") is not None or a.get("attempted_at") or "error" in a
-            for a in previous.get("attempts", [])
-        )
-    ):
-        raise Blocked("durable_claim_missing_with_observation_history")
+    if not _safe(root, LEDGER).exists():
+        raise Blocked("durable_claim_missing_no_bootstrap")
     prior = [r for r in previous.get("products", []) if _valid_prior(r, pairs)]
     if len({r["pd_no"] for r in prior}) != len(prior):
         raise Blocked("duplicate_prior_observations")
+    for row in prior:
+        if _epoch(row["source"]["collected_at"]) > wall_started:
+            raise Blocked("future_capture_clock")
     products = {r["pd_no"]: r for r in prior}
-    attempts = []
-    failures = []
-    new_ids = []
-    now = time.time()
+    attempts, failures, new_ids = [], [], []
+    history = list(previous.get("observation_history", []))
+    if previous.get("attempts"):
+        history.append({"attempts": previous["attempts"], "budget_checkpoint": previous.get("budget_checkpoint"), "status": previous.get("status")})
+    captures = list(previous.get("capture_history", []))
+    for row in previous.get("products", []) + previous.get("retained_previous_products", []):
+        if row not in captures:
+            captures.append(row)
+    retained = previous.get("retained_previous_products", []) + [r for r in previous.get("products", []) if (r.get("pd_no"), r.get("canonical_product_id")) not in pairs]
     with _Claim(root) as claim:
-        _check_budget_checkpoint(previous, claim.data)
+        _continuity(previous, claim)
+        # Retain the original legacy checkpoint verbatim. A separate proof
+        # binds its evidenced reservation prefix when it is observed during
+        # migration; this is a CHECK time, never a fabricated capture time.
+        for event in history:
+            old_checkpoint = event.get("budget_checkpoint") or {}
+            if old_checkpoint.get("request_history_sha256") is None and "legacy_budget_proof" not in event:
+                n = old_checkpoint.get("total_http_attempts")
+                migration = claim.data.get("migration") or {}
+                if (not old_checkpoint and previous.get('schema_version') == 1
+                        and migration.get('legacy_total_http_attempts') == 7
+                        and previous.get('http_attempt_count') == 7
+                        and event.get('attempts') == previous.get('attempts')):
+                    # The original legacy7 document had no checkpoint. Its
+                    # exact capture/attempt evidence was validated by migration.
+                    # Keep None verbatim; bind known legacy ledger clocks only.
+                    n = 7
+                if type(n) is not int or n != migration.get("legacy_total_http_attempts") or not all(r.get("kind") == "legacy_reserved" for r in claim.data["request_history"][:n]):
+                    raise Blocked("unproved_legacy_history_checkpoint")
+                event["legacy_budget_proof"] = {"legacy_checkpoint_sha256": hashlib.sha256(json.dumps(old_checkpoint, sort_keys=True, separators=(",", ":")).encode()).hexdigest(),
+                    "checkpoint": {**(old_checkpoint or {k:claim.data[k] for k in ('total_http_attempts','last_run_attempt_at','last_request_at')}), "policy_version": 2,
+                    "last_checked_at": datetime.fromtimestamp(wall_started, timezone.utc).isoformat(),
+                    "request_history_sha256": _history_digest(claim.data["request_history"][:n])}}
         prior_count = previous.get("http_attempt_count", 0)
-        if isinstance(prior_count, bool) or not isinstance(prior_count, int) or prior_count < 0:
+        if isinstance(prior_count, bool) or not isinstance(prior_count, int) or prior_count < 0 or claim.data["total_http_attempts"] < prior_count:
             raise Blocked("invalid_prior_attempt_count")
-        counter = claim.data.get("total_http_attempts", 0)
-        if counter < prior_count or (previous.get("products") and counter == 0):
-            raise Blocked("durable_claim_counter_reset")
-        last = _epoch(claim.data.get("last_run_attempt_at"))
-        run_cooldown = not force and last is not None and 0 <= now - last < COOLDOWN
-        needed = [(pd, cp) for pd, cp in pairs if force or pd not in products or not 0 <= now - _epoch(products[pd]["source"]["collected_at"]) < COOLDOWN]
-        def request(url, kind, pd=None, delay=30):
-            last_request = _epoch(claim.data.get("last_request_at"))
-            if last_request is not None:
-                wait = delay - (time.time() - last_request)
-                if wait > 0:
-                    time.sleep(wait)
-            claim.data["last_request_at"] = _now()
-            claim.data["total_http_attempts"] = claim.data.get("total_http_attempts", 0) + 1
+        run_count = 0
+        last_wall, last_mono = wall_started, started
+
+        def clock():
+            nonlocal last_wall, last_mono
+            wall, mono = time.time(), time.monotonic()
+            if wall < last_wall or mono < last_mono or wall < _epoch(claim.data["last_checked_at"]):
+                raise Blocked("run_clock_rollback")
+            last_wall, last_mono = wall, mono
+            return wall, mono
+
+        def checkpoint():
+            return {**{key: claim.data[key] for key in ("total_http_attempts", "last_run_attempt_at", "last_request_at", "last_checked_at")},
+                    "policy_version": POLICY["version"], "request_history_sha256": _history_digest(claim.data["request_history"])}
+
+        def persist():
+            after = _hashes(root)
+            if before != after:
+                raise Blocked("operating_inputs_changed_no_observation_write")
+            wall, _ = clock()
+            claim.data["last_checked_at"] = datetime.fromtimestamp(wall, timezone.utc).isoformat()
+            missing = [cp for pd, cp in pairs if pd not in products]
+            status = "partial" if failures and products else "blocked" if failures else "complete" if new_ids else "cached"
+            doc = {"schema_version": 2, "policy": dict(POLICY), "scope": "active_shopify_shortlist_only", "operating_catalog_mutated": False,
+                   "status": status, "complete": not failures and not missing, "expected_ids": [cp for _, cp in pairs],
+                   "products": [products[pd] for pd, cp in pairs if pd in products], "attempts": attempts,
+                   "http_attempt_count": run_count, "new_success_ids": new_ids, "failed_ids": list(dict.fromkeys(failures)),
+                   "missing_ids": missing, "retained_original_capture_ids": [cp for pd, cp in pairs if pd in products and cp not in new_ids],
+                   "cooldown_seconds": COOLDOWN, "fresh_ttl_seconds": FRESH_TTL, "catalog_count": 356, "registry_count": 357,
+                   "input_hashes_before": before, "input_hashes_after": after, "inputs_byte_identical": True,
+                   "retained_previous_products": retained, "capture_history": captures,
+                   "observation_history": history, "budget_checkpoint": checkpoint()}
+            # Ledger first: a crash can overcount a reservation, never undercount.
+            claim.data["last_result_status"] = status
             claim.save()
-            event = {"kind": kind, "pd_no": pd, "url": url, "attempted_at": _now(), "attempt_number": 1 + sum(a.get("url") == url for a in attempts), "http_status": None, "parse_status": "not_parsed"}
+            _atomic(root, OUTPUT, doc)
+            return doc
+
+        def request(url, kind, pd=None, delay=30):
+            nonlocal run_count
+            wall, mono = clock()
+            recent = sum(wall - _epoch(e["reserved_at"]) < POLICY["rolling_window_seconds"] for e in claim.data["request_history"])
+            if run_count >= POLICY["per_run_http_cap"]:
+                raise Blocked("per_run_http_cap")
+            if recent >= POLICY["rolling_http_cap"]:
+                raise Blocked("rolling_http_cap")
+            wait = max(0, delay - (wall - _epoch(claim.data["last_request_at"])))
+            envelope = POLICY["http_envelope_seconds"] + POLICY["safety_margin_seconds"]
+            if mono - started + wait + envelope > POLICY["run_deadline_seconds"]:
+                raise Blocked("run_deadline_admission")
+            if wait:
+                time.sleep(wait)
+            wall, mono = clock()
+            if mono - started + envelope > POLICY["run_deadline_seconds"]:
+                raise Blocked("run_deadline_admission")
+            stamp = datetime.fromtimestamp(wall, timezone.utc).isoformat()
+            if run_count == 0:
+                claim.data["last_run_attempt_at"] = stamp
+            claim.data["last_request_at"] = stamp
+            claim.data["total_http_attempts"] += 1
+            run_count += 1
+            claim.data["request_history"].append({"sequence": claim.data["total_http_attempts"], "reserved_at": stamp, "kind": kind, "pd_no": pd})
+            event = {"kind": kind, "pd_no": pd, "url": url, "attempted_at": stamp,
+                     "attempt_number": 1 + sum(a.get("url") == url for a in attempts), "http_status": None, "parse_status": "reserved"}
             attempts.append(event)
+            if pd:
+                claim.data.setdefault("member_attempts", {})[pd] = {"attempted_at": stamp, "outcome": "inflight"}
+            persist()  # reservation durable before entering any network code
             try:
                 status, body = _http_get(url)
                 event["http_status"] = status
@@ -433,86 +574,108 @@ def observe(root, *, force=False):
                 event["error"] = type(exc).__name__
                 event["parse_status"] = "blocked" if isinstance(exc, Blocked) else "transport_failed"
                 return None, b"", event
-        if run_cooldown:
-            failures = [cp for pd, cp in needed]
-            attempts.append({"kind": "cooldown", "http_attempts": 0, "reason": "durable_attempt_cooldown"})
-        elif needed:
-            claim.data["last_run_attempt_at"] = _now()
-            # Establish both clocks/counter before any HTTP read, atomically.
-            # This conservative reservation survives a crash before robots GET.
-            claim.data["last_request_at"] = claim.data["last_run_attempt_at"]
-            claim.data.setdefault("total_http_attempts", 0)
-            claim.data["expected_ids"] = [cp for _, cp in pairs]
-            claim.save()
-            status, body, event = request(BASE + "/robots.txt", "robots")
-            if status in TRANSIENT or (status is None and event["parse_status"] == "transport_failed"):
-                status, body, event = request(BASE + "/robots.txt", "robots")
-            parser = None
-            delay = 30
-            if status == 200:
-                try:
-                    text = body.decode("utf-8-sig", errors="strict")
-                    if not re.search(r"(?im)^\s*User-agent\s*:", text) or "<html" in text.lower():
-                        raise Blocked("unknown_robots")
-                    parser = urllib.robotparser.RobotFileParser()
-                    parser.parse(text.splitlines())
-                    # Honour even fractional and wildcard crawl-delay conservatively.
-                    delays = re.findall(r"(?im)^\s*Crawl-delay\s*:\s*([0-9]+(?:\.[0-9]+)?)\s*$", text)
-                    delay = max([30] + [float(x) for x in delays])
-                    if delay > 300:
-                        raise Blocked("crawl_delay_exceeds_bounded_run")
-                    event["parse_status"] = "robots_parsed"
-                except (ValueError, UnicodeError):
-                    parser = None
-                    event["parse_status"] = "robots_unknown"
-            halted = parser is None
-            for pd, cp in needed:
-                url = BASE + SEARCH + "?searchTerm=" + pd
-                if halted or not parser.can_fetch(UA, url):
-                    attempts.append({"kind": "product", "pd_no": pd, "http_attempts": 0, "parse_status": "blocked", "reason": "robots_unknown_or_denied" if not halted else "robots_or_rate_limit_blocked"})
-                    failures.append(cp)
-                    continue
-                status, body, event = request(url, "product", pd, delay)
-                if status in TRANSIENT or (status is None and event["parse_status"] == "transport_failed"):
-                    status, body, event = request(url, "product", pd, delay)
-                restricted = status == 200 and bool(re.search(rb"quota|rate.?limit|captcha|access.denied", body, re.I))
-                parsed = _parse(body, pd) if status == 200 and not restricted else None
-                if parsed:
-                    price, key = parsed
-                    event["parse_status"] = "exact_pd_no_numeric_price"
-                    products[pd] = {"canonical_product_id": cp, "pd_no": pd, "price_krw": price, "price_unit": "product", "source": {"url": url, "collected_at": _now(), "capture_kind": "successful_http_parse"}, "provenance": {"endpoint": BASE + SEARCH, "http_status": 200, "parse_status": "exact_pd_no_numeric_price", "identity_key": "pdNo", "price_key": key, "response_sha256": hashlib.sha256(body).hexdigest(), "robots_checked": True, "crawl_delay_seconds": delay}}
-                    new_ids.append(cp)
-                else:
-                    event["parse_status"] = "parse_failed" if status == 200 else event["parse_status"]
-                    failures.append(cp)
-                if status in {401, 403, 407, 429} or restricted:
-                    halted = True
-        after = _hashes(root)
-        if before != after:
-            raise Blocked("operating_inputs_changed_no_observation_write")
-        expected = [cp for _, cp in pairs]
-        missing = [cp for pd, cp in pairs if pd not in products]
-        status = "partial" if failures and products else "blocked" if failures else "complete" if new_ids else "cached"
-        doc = {"schema_version": 1, "scope": "active_shopify_shortlist_only", "operating_catalog_mutated": False, "status": status, "complete": not failures and not missing, "expected_ids": expected, "products": [products[pd] for pd, cp in pairs if pd in products], "attempts": attempts, "http_attempt_count": sum(a.get("http_status") is not None or "error" in a for a in attempts), "new_success_ids": new_ids, "failed_ids": failures, "missing_ids": missing, "retained_original_capture_ids": [cp for pd, cp in pairs if pd in products and cp not in new_ids], "cooldown_seconds": COOLDOWN, "catalog_count": 356, "registry_count": 357, "input_hashes_before": before, "input_hashes_after": after, "inputs_byte_identical": True, "retained_previous_products": previous.get("retained_previous_products", []) + [r for r in previous.get("products", []) if (r.get("pd_no"), r.get("canonical_product_id")) not in pairs]}
-        _check_budget_checkpoint(previous, claim.data)
-        doc["budget_checkpoint"] = {key: claim.data[key] for key in (
-            "total_http_attempts", "last_run_attempt_at", "last_request_at"
-        )}
-        # These minima survive cached/cooldown outputs with zero per-run reads.
-        # Validation above ensures neither clocks nor lifetime count decrease.
-        _atomic(root, OUTPUT, doc)
-        claim.data["last_result_status"] = status
-        claim.save()
-        return doc
 
+        needed = []
+        for pd, cp in pairs:
+            if pd in products and wall_started - _epoch(products[pd]["source"]["collected_at"]) < FRESH_TTL:
+                continue
+            state = claim.data.get("member_attempts", {}).get(pd)
+            reason = None
+            if claim.data.get("automatic_retry_block"):
+                reason = "manual_review_required"
+            elif state and wall_started - _epoch(state["attempted_at"]) < COOLDOWN:
+                reason = "member_retry_cooldown"
+            if reason:
+                failures.append(cp)
+                attempts.append({"kind": "cooldown", "pd_no": pd, "http_attempts": 0, "reason": reason})
+            else:
+                needed.append((pd, cp))
+        # Mark pending members before reservations so a hardkill never reports completion.
+        failures.extend(cp for _, cp in needed)
+        parser, delay = None, 30
+        if needed:
+            try:
+                status, body, event = request(BASE + "/robots.txt", "robots")
+                if status == 200 and not re.search(rb"quota|rate.?limit|captcha|access.denied", body, re.I):
+                    try:
+                        text = body.decode("utf-8-sig", errors="strict")
+                        if not re.search(r"(?im)^\s*User-agent\s*:", text) or "<html" in text.lower():
+                            raise Blocked("unknown_robots")
+                        parser = urllib.robotparser.RobotFileParser()
+                        parser.parse(text.splitlines())
+                        delays = re.findall(r"(?im)^\s*Crawl-delay\s*:\s*([0-9]+(?:\.[0-9]+)?)\s*$", text)
+                        delay = max([30] + [float(x) for x in delays])
+                        if not math.isfinite(delay):
+                            raise Blocked("invalid_crawl_delay")
+                        event["parse_status"] = "robots_parsed"
+                    except (ValueError, UnicodeError):
+                        parser = None
+                        event["parse_status"] = "robots_unknown"
+                if parser is None:
+                    claim.data["automatic_retry_block"] = "robots_or_access_unknown"
+                else:
+                    claim.data.pop("automatic_retry_block", None)
+                persist()  # no automatic retries of robots, auth, or quota
+            except Blocked as exc:
+                if str(exc) not in {"per_run_http_cap", "rolling_http_cap", "run_deadline_admission"}:
+                    raise
+                attempts.append({"kind": "admission", "http_attempts": 0, "reason": str(exc)})
+        halted = parser is None
+        for pd, cp in needed:
+            url = BASE + SEARCH + "?searchTerm=" + pd
+            if halted or not parser.can_fetch(UA, url):
+                if not halted:
+                    claim.data["automatic_retry_block"] = "robots_denied"
+                    halted = True
+                attempts.append({"kind": "product", "pd_no": pd, "http_attempts": 0, "parse_status": "blocked", "reason": "robots_or_admission_blocked"})
+                continue
+            try:
+                for retry in range(2):
+                    status, body, event = request(url, "product", pd, delay)
+                    restricted = bool(re.search(rb"quota|rate.?limit|captcha|access.denied", body, re.I))
+                    parsed = _parse(body, pd) if status == 200 and not restricted else None
+                    if parsed:
+                        price, key = parsed
+                        event["parse_status"] = "exact_pd_no_numeric_price"
+                        products[pd] = {"canonical_product_id": cp, "pd_no": pd, "price_krw": price, "price_unit": "product", "source": {"url": url, "collected_at": _now(), "capture_kind": "successful_http_parse"}, "provenance": {"endpoint": BASE + SEARCH, "http_status": 200, "parse_status": "exact_pd_no_numeric_price", "identity_key": "pdNo", "price_key": key, "response_sha256": hashlib.sha256(body).hexdigest(), "robots_checked": True, "crawl_delay_seconds": delay}}
+                        new_ids.append(cp)
+                        failures.remove(cp)
+                    else:
+                        event["parse_status"] = "parse_failed" if status == 200 else event["parse_status"]
+                    claim.data["member_attempts"][pd]["outcome"] = "success" if parsed else "failed"
+                    if status in {401, 403, 407, 429} or restricted:
+                        halted = True
+                        claim.data["automatic_retry_block"] = "auth_quota_or_rate_limit"
+                    persist()  # actual received parse/capture is durable before next call/sleep
+                    if parsed or halted or retry or not (status in TRANSIENT or (status is None and event["parse_status"] == "transport_failed")):
+                        break
+            except Blocked as exc:
+                if str(exc) not in {"per_run_http_cap", "rolling_http_cap", "run_deadline_admission"}:
+                    raise
+                attempts.append({"kind": "admission", "pd_no": pd, "http_attempts": 0, "reason": str(exc)})
+                halted = True
+        return persist()
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", required=True, type=Path)
-    parser.add_argument("--force", action="store_true", help="Manual re-observation; never bypasses robots or read bounds")
+    parser.add_argument("--force", action="store_true", help="Reevaluate metadata only; never bypasses freshness, cooldown, provider stops or safety bounds")
     args = parser.parse_args(argv)
     try:
+        # An old workflow may checkout newer code without new always-upload
+        # steps. It must never consume reservations without restored continuity.
+        if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('JARVIS_SOURCE_CONTINUITY') != 'verified':
+            raise Blocked('authenticated_runner_continuity_required')
+        # Exact prior bytes survive normal, partial and failed publication.
+        # Recording diagnostics never changes a genuine capture clock.
+        previous_output = _safe(args.root, OUTPUT).read_bytes() if _safe(args.root, OUTPUT).exists() else None
+        previous_ledger = _safe(args.root, LEDGER).read_bytes() if _safe(args.root, LEDGER).exists() else None
         result = observe(args.root, force=args.force)
+        repository = Path(__file__).resolve().parents[2]
+        if str(repository) not in sys.path:
+            sys.path.insert(0, str(repository))
+        from scripts.shortlist_observation_history import preserve
+        preserve(args.root, previous_output=previous_output, previous_ledger=previous_ledger)
     except (Blocked, OSError, ValueError) as exc:
         print(json.dumps({"status": "blocked", "reason": str(exc), "operating_catalog_mutated": False}))
         return 2

@@ -307,6 +307,52 @@ def snapshot_report(directory, now=None):
     return report
 
 
+def collect_pipeline_evidence(root, report, *, fetch_json=None, fetch_artifact_bytes=None, now=None):
+    """At most three extra metadata GETs plus one authenticated artifact download.
+
+    Injection is for offline fixtures. No retries, no absence-based recovery.
+    """
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from scripts.daiso_pipeline_inputs import publish_validated_health, load_pipeline_inputs
+    repo = report.get("repository", DEFAULT_REPOSITORY)
+    latest = (report.get("workflows", {}).get("daiso-real-collection.yml") or {}).get("latest_attempt") or {}
+    rid, attempt = latest.get("id"), latest.get("run_attempt")
+    if not REPOSITORY_RE.fullmatch(str(repo)) or type(rid) is not int or type(attempt) is not int or min(rid, attempt) <= 0 or latest.get("status") != "completed":
+        return load_pipeline_inputs(root, now=now, workflow_report=report)
+    fetcher = fetch_json or _fetch_json
+    try:
+        base = "https://api.github.com/repos/" + repo + "/actions/runs/" + str(rid)
+        raw_run = fetcher(base + "/attempts/" + str(attempt))
+        jobs = fetcher(base + "/attempts/" + str(attempt) + "/jobs?per_page=100")
+        artifacts = fetcher(base + "/artifacts?per_page=100")
+        rows = artifacts.get("artifacts")
+        if not isinstance(rows, list) or len(rows) > 100 or artifacts.get("total_count") != len(rows):
+            raise ValueError("artifact coverage incomplete")
+        wanted = "daiso-attempt-" + str(rid) + "-" + str(attempt)
+        selected = [a for a in rows if isinstance(a, dict) and a.get("name") == wanted and a.get("expired") is False]
+        if len(selected) != 1 or type(selected[0].get("id")) is not int or selected[0]["id"] <= 0:
+            raise ValueError("exact artifact unavailable")
+        if fetch_artifact_bytes is None:
+            from scripts.github_artifact_io import fetch_artifact_bytes as downloader
+        else:
+            downloader = fetch_artifact_bytes
+        archive = downloader("https://api.github.com/repos/" + repo + "/actions/artifacts/" + str(selected[0]["id"]) + "/zip")
+        return publish_validated_health(root, report, raw_run, jobs, selected[0], archive, now=now)
+    except Exception:
+        # Failed or missing evidence never deletes old receipts/failure history.
+        health = load_pipeline_inputs(root, now=now, workflow_report=report)
+        health["input_errors"].append("authenticated_execution_artifact_unavailable")
+        return health
+
+
+def daiso_pipeline_snapshot(root, now=None):
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from scripts.daiso_pipeline_inputs import load_pipeline_inputs
+    return load_pipeline_inputs(root, now=now)
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repository", default=None)
@@ -314,8 +360,17 @@ def main(argv=None):
     parser.add_argument("--output", type=Path, default=Path("data/agents/workflow_freshness.json"))
     args = parser.parse_args(argv)
     report = snapshot_report(args.snapshot_dir) if args.snapshot_dir is not None else collect_report(args.repository)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if args.output.absolute() == Path("data/agents/workflow_freshness.json").absolute():
+        # Also supports direct script execution without changing collection IO.
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+        from scripts.workflow_status_history import publish_workflow_report
+        publish_workflow_report(Path.cwd(), report)
+    else:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if args.snapshot_dir is None:
+        collect_pipeline_evidence(Path.cwd(), report)
     print("Workflow metadata: " + report["status"] + "; checked " + str(report["checked_workflows"]) + "/" + str(report["total_workflows"]))
     return 0
 

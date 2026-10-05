@@ -30,6 +30,22 @@ jobs:
         run: |
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
 
+      - name: Restore durable source safety before observation
+        id: source_safety
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE"
+
+      - name: Restore immutable operations safety before execution
+        id: operations_safety
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
+
       # Local canonical processing is required; legacy synthetic home-vault
       # Phase26 notes are not synchronization evidence and are no longer run.
       - name: Required canonical source processing
@@ -55,6 +71,17 @@ jobs:
             --output "$RUNNER_TEMP/release-results/google.json" \
             --skip-reason 'Hardcoded growth collector disabled; cached keywords unverified, no source fetch attempted'
 
+      - name: Bounded existing-team source recovery
+        if: steps.source_safety.outputs.continuity == 'verified' && steps.operations_safety.outputs.operations_continuity == 'verified'
+        continue-on-error: true
+        timeout-minutes: 12
+        env:
+          TYPESAFE_ENABLED: '0'
+          GEMINI_FALLBACK_ENABLED: '0'
+          JARVIS_SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
+        run: python -u scripts/run_source_procedures.py --root "$GITHUB_WORKSPACE" --allow-source-reads
+
       - name: Observe actual Actions freshness (read-only)
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -63,6 +90,9 @@ jobs:
 
       - name: Required current canonical runtime
         id: runtime_refresh
+        if: steps.operations_safety.outputs.operations_continuity == 'verified'
+        env:
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
         run: |
           python scripts/collector_result.py run --name runtime --required \
             --output "$RUNNER_TEMP/release-results/runtime.json" \
@@ -93,6 +123,9 @@ jobs:
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
         uses: ./.github/actions/publish
+        env:
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
+          JARVIS_SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
         with:
           collector-report: data/agents/core_run_results.json
           execution-id: ${{ github.run_id }}:${{ github.run_attempt }}
@@ -107,3 +140,32 @@ jobs:
           else
             echo 'Core outcome evidence missing: publication blocked' >> "$GITHUB_STEP_SUMMARY"
           fi
+
+      - name: Pack durable source safety even after publication failure
+        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        run: |
+          python -u scripts/source_safety_checkpoint.py pack --root "$GITHUB_WORKSPACE" \
+            --output "$RUNNER_TEMP/source-safety.zip" --repository "$GITHUB_REPOSITORY" \
+            --run-id "$GITHUB_RUN_ID" --run-attempt "$GITHUB_RUN_ATTEMPT" --commit "$GITHUB_SHA"
+
+      - name: Retain source safety checkpoint
+        if: always() && steps.source_safety.outputs.continuity == 'verified'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: source-safety-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/source-safety.zip
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Retain immutable operations safety history
+        if: always() && steps.operations_safety.outputs.operations_continuity == 'verified'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            data/operations/state.json
+            data/operations/reports
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 9

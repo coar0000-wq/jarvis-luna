@@ -498,8 +498,17 @@ def _verify_local_dependencies(base, team, doc):
 
 
 def _verify_shortlist_scope(base, doc):
-    if doc.get('schema_version') != 1 or doc.get('scope') != 'active_shopify_shortlist_only' or doc.get('operating_catalog_mutated') is not False:
+    if type(doc.get('schema_version')) is not int or doc.get('schema_version') not in (1,2) or doc.get('scope') != 'active_shopify_shortlist_only' or doc.get('operating_catalog_mutated') is not False:
         raise ValueError('invalid_observation_scope')
+    if doc.get('schema_version') == 2:
+        # A v2 observation is usable only with its exact durable reservation
+        # proof. No mutable verified flag or missing ledger can vouch for it.
+        from source_safety_checkpoint import _validate, OBSERVATIONS, CLAIM
+        try:
+            _validate({OBSERVATIONS:_safe_source(base, OBSERVATIONS).read_bytes(),
+                       CLAIM:_safe_source(base, CLAIM).read_bytes()})
+        except (ValueError,OSError,TypeError,KeyError) as exc:
+            raise ValueError('invalid_observation_provenance') from exc
     shortlist = json.loads(_safe_source(base, 'data/shopify_shortlist.json').read_text(encoding='utf-8-sig'))
     master = json.loads(_safe_source(base, 'data/product_master.json').read_text(encoding='utf-8-sig'))
     pd_nos = shortlist.get('active_pd_nos')

@@ -9,7 +9,12 @@ import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from operational_freshness import age_channels, assess_collection, assess_heartbeat
+try:
+    from scripts.operational_freshness import age_channels, assess_collection, assess_heartbeat
+    from scripts.daiso_pipeline_inputs import load_pipeline_inputs
+except ModuleNotFoundError:
+    from operational_freshness import age_channels, assess_collection, assess_heartbeat
+    from daiso_pipeline_inputs import load_pipeline_inputs
 
 # 기준 경로 설정
 ROOT = Path(__file__).resolve().parents[1]
@@ -347,6 +352,10 @@ def age_channel_status(gcs):
     return age_channels(gcs, stale_hours=STALE_HOURS)
 
 
+def daiso_pipeline_snapshot(root=None, now=None):
+    return load_pipeline_inputs(root or ROOT, now=now)
+
+
 def workflow_snapshot():
     """Actions statuses are observations, not proof that a historical issue persists."""
     doc = load_json(ROOT / "data" / "agents" / "workflow_freshness.json", {}) or {}
@@ -541,9 +550,10 @@ def secretary_card() -> dict:
         action = "Deep Analysis 마지막 관측 실행 실패: " + str(deep.get("reason") or "Actions 결과 확인")
     elif workflows_fresh and deep.get("cadence_warning"):
         action = "Deep Analysis 실제 예약 실행 간격 " + str(deep.get("last_schedule_gap_hours")) + "시간 · 설정은 2시간"
-    if workflows_fresh and daiso.get("status") == "failed":
-        collection_failed = True
-        action = "다이소 마지막 관측 실행 실패: " + str(daiso.get("reason") or "Actions 결과 확인")
+    pipeline = daiso_pipeline_snapshot()
+    overall_failed = pipeline["scopes"]["overall_workflow"]["status"] == "failed"
+    if overall_failed:
+        action = "다이소 전체 workflow/publication: " + pipeline["scopes"]["overall_workflow"]["reason"]
 
     return {
         "id": "secretary",
@@ -553,7 +563,8 @@ def secretary_card() -> dict:
         "summary": summary,
         "action": action,
         "action_kind": "revalidate_only" if action else None,
-        "status": "failed" if collection_failed or heartbeat_check["is_failure"] or observed_deep_failure else "warning" if action else "ok",
+        "status": "failed" if collection_failed or overall_failed or heartbeat_check["is_failure"] or observed_deep_failure else "warning" if action else "ok",
+        "daiso_pipeline": pipeline,
         "steps": steps,
         "heartbeat": heartbeat_check,
         "collection_freshness": collection,
@@ -690,9 +701,10 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 act += " · " + " / ".join(preview)
         workflows, workflows_fresh = workflow_snapshot()
         daiso_workflow = (workflows.get("workflows") or {}).get("daiso-real-collection.yml") or {}
-        observed_failure = workflows_fresh and daiso_workflow.get("status") == "failed"
+        pipeline = daiso_pipeline_snapshot()
+        observed_failure = pipeline["scopes"]["overall_workflow"]["status"] == "failed"
         if observed_failure:
-            stale_act = "다이소 마지막 관측 Actions 실행 실패 · " + str(daiso_workflow.get("reason") or "실행 결과 확인")
+            stale_act = "다이소 전체 workflow/publication 미복구 · " + pipeline["scopes"]["overall_workflow"]["reason"]
 
         cards.append(_team(
             "sourcing", "상품 소싱팀",
@@ -702,6 +714,7 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
             "failed" if not n or collection["is_failure"] or observed_failure else "warning" if collection["status"] != "success" or collection["data_stale"] else "ok",
             notice=act))
         cards[-1]["collection_freshness"] = collection
+        cards[-1]["daiso_pipeline"] = pipeline
         cards[-1]["candidate_discovery"] = {
             "candidate_count": candidate_total, "proposal_count": proposal_total,
             "generated_at": comparison.get("generated_at"),
@@ -1195,6 +1208,17 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
     return cards
 
 
+def agents_plan_heartbeat(root=ROOT):
+    """Retain the actual saved local run clock, never the dashboard assembly clock."""
+    run = load_json(Path(root) / 'data/agents/last_run.json', {}) or {}
+    plan = load_json(Path(root) / 'data/agents/ops_plan.json', {}) or {}
+    if (not isinstance(run,dict) or not isinstance(plan,dict) or run.get('ran') is not True
+            or not run.get('generated_at') or not plan.get('generated_at')
+            or run.get('risk') != plan.get('risk') or run.get('task_count') != plan.get('task_count')):
+        return {}
+    return {'risk':plan.get('risk'),'task_count':plan.get('task_count'),'at':run['generated_at']}
+
+
 def main() -> None:
     graph = graph_metrics()
     sources = source_metrics()
@@ -1247,6 +1271,7 @@ def main() -> None:
             "실행 기록이 없는 작업은 진행중으로 표시하지 않음."
         ),
         "operations": load_json(ROOT / "data" / "operations" / "board.json", {}) or {},
+        "agents_ops": agents_plan_heartbeat(ROOT),
         "teams": teams,
         "secretary": secretary,
         "remediation_state": load_json(
@@ -1265,6 +1290,7 @@ def main() -> None:
         "health": load_json(ROOT / "data" / "health_check.json", {}) or {},
         "candidate_discovery": load_json(ROOT / "data" / "daiso_real" / "candidate_comparison.json", {}) or {},
         "automation_freshness": {
+            "daiso_pipeline": daiso_pipeline_snapshot(),
             "collection": assess_collection(load_json(ROOT / "data" / "daiso_real" / "collection_status.json", {})),
             "heartbeat": assess_heartbeat(load_json(ROOT / "data" / "agents" / "autofix_report.json", {})),
             "workflows": workflow_snapshot()[0],

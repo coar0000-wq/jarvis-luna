@@ -1,2 +1,17 @@
 # Execution evidence binds actual bytes across Windows/Linux checkouts.
 data/operations/** -text
+
+# Immutable history filenames and authenticated stage/checkpoint proofs bind bytes.
+data/agents/workflow_status_history/** -text
+data/knowledge/moe_evaluation_history/** -text
+data/agents/gemini_escalation_history/** -text
+data/knowledge/gosi_observation_history/** -text
+data/agents/daiso_pipeline_history/** -text
+data/agents/source_procedures/observer_history/** -text
+data/agents/daiso_pipeline_receipts.json -text
+data/daiso_real/collection_status.json -text
+data/daiso_real/candidate_pool.json -text
+data/daiso_real/shortlist_observations.json -text
+data/daiso_real/.shortlist_observation_claim.json -text
+data/agents/source_procedures/source-procedure-state.json -text
+data/agents/source_procedures/checkpoint.json -text

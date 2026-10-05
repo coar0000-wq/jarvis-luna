@@ -21,7 +21,8 @@
   - 매칭 유사도 0.70 이상
   - 최대 MAX_UNITS 단위. 1차 테스트 규모
   - 이미 목록에 있는 단위는 새 후보 점수가 더 높아도 밀어내지 않는다 (sticky)
-    빈 자리만 새 후보로 채운다. 게이트를 못 넘게 되면 paused 로 둔다.
+    빈 자리만 새 후보로 채운다. 기존 선정·관측 대상은 법적 보류로 지우지 않는다.
+    ready/eligible_pd_nos 는 초안 자격일 뿐이며 외부 실행 권한은 부여하지 않는다.
 """
 from __future__ import annotations
 
@@ -126,9 +127,14 @@ def build() -> dict:
         if prev.get("status") not in ("active", "paused"):
             continue
         j = by_id.get(uid)
-        if j and ready_members(j):
+        retained = prev.get('pd_nos') or []
+        retained_current = bool(j and retained and set(retained) <= {m['pd_no'] for m in j['members']})
+        if j and (ready_members(j) or (prev.get('status') == 'active' and retained_current)):
             note = "" if j["eligible"] else f"규칙상 근거 약화 · 유지하되 검토: {j['reason']}"
-            active.append({**_unit_row(j), "added_at": prev.get("added_at"), "status": "active", "note": note})
+            if not ready_members(j):
+                note = '선정·가격 관측 대상 유지; 초안·판매 자격 차단: ' + j['reason']
+            row = _unit_row(j, selected_pd_nos=retained if retained_current else None)
+            active.append({**row, "added_at": prev.get("added_at"), "status": "active", "note": note})
         else:
             why = (j or {}).get("reason") or "S등급·게이트 대상에서 빠짐"
             paused.append({**(_unit_row(j) if j else {"unit_id": uid, "pd_nos": prev.get("pd_nos", [])}),
@@ -145,8 +151,8 @@ def build() -> dict:
         want = {str(x) for x in manual["units"]}
         # pd_no 로 적어도 그 단위를 찾는다
         want |= {unit_of(x, pm) for x in list(want) if x in pm}
-        active = [{**_unit_row(by_id[u]), "added_at": manual.get("confirmed_at"), "status": "active",
-                   "note": "사람 확정"} for u in sorted(want) if u in by_id and ready_members(by_id[u])]
+        active = [{**_unit_row(by_id[u], selected_pd_nos=[m['pd_no'] for m in by_id[u]['members']]), "added_at": manual.get("confirmed_at"), "status": "active",
+                   "note": "사람의 선정 확정만; 초안·판매는 별도 gate 및 L4 승인 필요"} for u in sorted(want) if u in by_id]
         status, source = "confirmed", "data/manual/shopify_shortlist.json"
 
     active_pd = sorted({m for u in active for m in u["pd_nos"]})
@@ -164,6 +170,9 @@ def build() -> dict:
         },
         "active_unit_count": len(active),
         "active_pd_nos": active_pd,
+        "eligible_pd_nos": sorted(pd for pd in active_pd if bool((gate.get(pd) or {}).get('ready'))),
+        "business_authority": False,
+        "selection_scope": 'retained_candidate_and_price_watchlist_not_business_clearance',
         "units": active + paused,
         "not_selected": [{"unit_id": j["unit_id"], "pd_nos": [m["pd_no"] for m in j["members"]],
                           "names": [m["name"] for m in j["members"]], "score": j["score"],
@@ -175,13 +184,16 @@ def build() -> dict:
     }
 
 
-def _unit_row(j: dict) -> dict:
+def _unit_row(j: dict, selected_pd_nos=None) -> dict:
     ev = j.get("evidence") or {}
+    members = [m for m in j['members'] if m['ready']] if selected_pd_nos is None else [m for m in j['members'] if m['pd_no'] in set(selected_pd_nos)]
     return {
         "unit_id": j["unit_id"],
-        "pd_nos": [m["pd_no"] for m in j["members"] if m["ready"]],
-        "canonical_product_ids": [m["cp"] for m in j["members"] if m["ready"]],
-        "names": [m["name"] for m in j["members"] if m["ready"]],
+        "pd_nos": [m["pd_no"] for m in members],
+        "canonical_product_ids": [m["cp"] for m in members],
+        "names": [m["name"] for m in members],
+        "eligible_pd_nos": [m['pd_no'] for m in members if m['ready']],
+        "business_ready": bool(members) and all(m['ready'] for m in members),
         "score": j["score"],
         "evidence": {"global_product": ev.get("global_product"), "channel": ev.get("channel"),
                      "similarity": ev.get("similarity")},

@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-05T07:04:12.790610+09:00",
+    "updated_at": "2026-10-05T13:27:36.074252+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1472,7 +1472,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
     },
@@ -1502,7 +1504,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
     },
@@ -1532,7 +1536,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
     },
@@ -1562,7 +1568,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
@@ -1592,7 +1600,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554"
     },
@@ -1622,7 +1632,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857"
     },
@@ -1652,7 +1664,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285"
     },
@@ -1682,7 +1696,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
     },
@@ -1738,48 +1754,14 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "legal"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
     }
   ],
   "competitor_watch": [
-    {
-      "name": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
-      "brand": "Anua",
-      "price_usd": 21.99,
-      "rating": 4.8,
-      "review_count": 804,
-      "us_rank": 18,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 18위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA84178713",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-      "brand": "MEDIHEAL",
-      "price_usd": 20.99,
-      "rating": 4.8,
-      "review_count": 1080,
-      "us_rank": 20,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 20위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA48723304",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
-      "brand": "UNOVE",
-      "price_usd": 26.0,
-      "rating": 5,
-      "review_count": 6,
-      "us_rank": 53,
-      "daiso_bucket": "마스크팩",
-      "why": "us.oliveyoung.com/best-sellers 실수집 53위 · 마스크팩 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA39329211",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
       "brand": "MEDIHEAL",
@@ -1815,10 +1797,46 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA69419689",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+      "brand": "Anua",
+      "price_usd": 21.99,
+      "rating": 4.8,
+      "review_count": 804,
+      "us_rank": 18,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 18위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA84178713",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+      "brand": "MEDIHEAL",
+      "price_usd": 20.99,
+      "rating": 4.8,
+      "review_count": 1080,
+      "us_rank": 20,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 20위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA48723304",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)",
+      "brand": "UNOVE",
+      "price_usd": 26.0,
+      "rating": 5,
+      "review_count": 6,
+      "us_rank": 53,
+      "daiso_bucket": "마스크팩",
+      "why": "us.oliveyoung.com/best-sellers 실수집 53위 · 마스크팩 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA39329211",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
-    "Shopify Draft Action 5건의 payload hash를 검토하고 사람 승인",
+    "영문 카피가 준비된 9건의 Draft Action 상태 확인",
     "AI 선행 게이트 차단 1건의 증거 보강: legal, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
     "시장 가격대 100건 기준 중앙값 $22.49 주 1회 확인",
@@ -1847,8 +1865,8 @@
     ],
     "s_count": 10,
     "listing_ready_count": 9,
-    "last_score_run": "2026-10-04",
-    "last_pricing_run": "2026-10-04",
+    "last_score_run": "2026-10-05",
+    "last_pricing_run": "2026-10-05",
     "exchange_rate": 1347.39
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."

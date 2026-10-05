@@ -39,12 +39,18 @@ def public_obj(names='', **nested): return dict(public_fields(names), **nested)
 RECOVERY_ROW = dict(public_fields('recovery_id episode owner source_team status attempts attempt_limit escalation_code receipt_id first_detected_at last_detected_at next_action'), execution_enabled=PUBLIC_FALSE)
 RECOVERY_BOARD = public_obj('schema_version', episodes=[RECOVERY_ROW])
 COVERAGE = public_fields('total_records fresh_records missing_records stale_records failed_sources catalog_only')
+PROCEDURE_TEAM = public_fields('budget episodes lifetime reconciliation_required stopped')
+PROCEDURES = dict(public_obj('schema_version generated_at status organization source_reads_enabled network_actuator_limit_per_invocation',
+ plans=[dict(public_fields('id team fixedprocedure_id machine_eligible status reason claim_id source_healthy'), authority=PUBLIC_FALSE, receipt_verified=PUBLIC_FALSE)],
+ continuity=dict(public_obj('schema_version revision', teams={t:PROCEDURE_TEAM for t in ('sourcing','institutions','market','listing','pricing','legal','robotics','design','channels','knowledge','graph')}), authority=PUBLIC_FALSE, business_clearance=PUBLIC_FALSE, receipt_verified=PUBLIC_FALSE)),
+ authority=PUBLIC_FALSE, business_clearance=PUBLIC_FALSE, receipt_verified=PUBLIC_FALSE, force_bypasses_limits=PUBLIC_FALSE)
 OPERATIONS = public_obj('schema_version generated_at status organization',
  engines=[public_fields('id name status detail')],
  counts=public_fields('tasks_total local_verified external_verified handoffs_accepted watchers_ready watchers_blocked watchers_partial watchers_local source_recoveries_verified source_recoveries_open events approval_waiting'),
  tasks=[public_fields('task_id team kind level state')],
  watchers=[dict(public_fields('team status reason captured_at observed_at observation_kind scope'), coverage=COVERAGE, recovery=RECOVERY_ROW)],
  source_recovery=RECOVERY_BOARD,
+ source_procedures=PROCEDURES,
  business=public_obj('ready total exempt sales_allowed', blockers=[PUBLIC_TEXT]),
  feedback=public_fields('status verified_observations training_performed'),
  action_cards=[dict(public_fields('action_id kind level status reason member_count payload_hash target_configured before after'), may_approve=PUBLIC_FALSE, may_execute=PUBLIC_FALSE)])

@@ -13,9 +13,14 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from sync_gosi_to_us_labels import current_s_registry, rows_by_id, real, field_current
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -25,6 +30,7 @@ SCORE = DATA / "daiso_real" / "shopify_demand_score.json"
 LABELS = DATA / "daiso_real" / "daiso_us_labels.json"
 COPIES = DATA / "shopify_listing_copy.json"
 RULES = DATA / "us_claim_rules.json"
+MASTER = DATA / "product_master.json"
 
 # 예전에는 S등급 상품번호 일곱 개가 여기 박혀 있었다.
 #
@@ -62,27 +68,51 @@ def as_text(value: Any) -> str:
 
 
 def current_s_ids() -> tuple[set[str], str]:
-    """지금 S등급인 상품번호를 점수 파일에서 읽는다.
+    ids = current_s_registry(load(SCORE, {}), load(MASTER, {}))
+    return set(ids), "canonical registry-bound score/master current S union"
 
-    점수 파일을 못 읽으면 추천 파일로 물러선다. 둘 다 없으면 빈 집합이다.
-    빈 집합이면 아무것도 점검하지 않는다. 그게 맞다.
-    없는 근거로 통과 판정을 내는 것보다 안 하는 것이 낫다.
-    """
-    doc = load(SCORE, {})
-    rows = (doc.get("all_scored") or []) if isinstance(doc, dict) else []
-    ids = {str(r.get("pd_no")) for r in rows
-           if isinstance(r, dict) and r.get("grade") == "S" and r.get("pd_no")}
-    if ids:
-        return ids, "shopify_demand_score.json 의 all_scored 중 grade S"
 
-    doc = load(RECOMMENDATIONS, {})
-    rows = (doc.get("recommendations") or []) if isinstance(doc, dict) else []
-    ids = {str(r.get("pd_no")) for r in rows
-           if isinstance(r, dict) and r.get("grade") == "S" and r.get("pd_no")}
-    if ids:
-        return ids, "shopify_s_recommendations.json (점수 파일을 못 읽어 물러섬)"
+ENGLISH_LABEL_FIELDS = LABEL_FIELDS + ("product_name_en", "directions_en", "warnings_en")
 
-    return set(), "S등급 목록을 못 읽었다"
+
+def english_text(value: Any) -> bool:
+    return (real(value) and bool(re.search(r"[A-Za-z]", value))
+            and not any(c.isalpha() and ord(c) > 127
+                        and "LATIN" not in unicodedata.name(c, "") for c in value))
+
+
+def human_evidence(evidence: Any, pd_no: str, allowed_sources: tuple[str, ...]) -> bool:
+    """A parser's verified/model/alt flags are not a product approval."""
+    return (isinstance(evidence, dict) and evidence.get("human_approved") is True
+            and str(evidence.get("product_id") or evidence.get("pd_no") or "") == pd_no
+            and evidence.get("source_type") in allowed_sources
+            and all(real(evidence.get(f)) for f in ("evidence_ref", "reviewed_by", "reviewed_at")))
+
+
+def us_requirements(label: dict, pd_no: str) -> dict:
+    missing = [field for field in ENGLISH_LABEL_FIELDS
+               if not english_text(label.get(field)) or not field_current(label, field)]
+    actual = human_evidence(label.get("actual_label_evidence"), pd_no,
+                            ("actual_packaging", "approved_us_label"))
+    rp = label.get("responsible_person")
+    # Manufacturer is not RP; never infer RP/address from maker or collector flags.
+    rp_ok = (isinstance(rp, dict) and english_text(rp.get("name"))
+             and english_text(rp.get("address"))
+             and human_evidence(label.get("responsible_person_evidence"), pd_no,
+                                ("responsible_person_confirmation",)))
+    evidence = label.get("product_safety_evidence")
+    safety_ok = human_evidence(evidence, pd_no, ("manufacturer_product_safety",))
+    safety_ok = (safety_ok and real(evidence.get("manufacturer"))
+                 and as_text(evidence.get("manufacturer")).casefold() ==
+                     as_text(label.get("manufacturer")).casefold()
+                 and real(evidence.get("product_specific_basis")))
+    return {
+        "label_fields": {"ok": not missing, "detail": "US English fields present" if not missing
+                         else "Missing/placeholder/stale/non-English: " + ", ".join(missing)},
+        "actual_label_review": {"ok": actual, "detail": "Product-specific human-approved actual label evidence required"},
+        "responsible_person": {"ok": bool(rp_ok), "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"},
+        "manufacturer_product_safety": {"ok": bool(safety_ok), "detail": "Product-specific manufacturer safety evidence with human approval required"},
+    }
 
 
 def main() -> int:
@@ -95,6 +125,7 @@ def main() -> int:
         existing_items = {}
 
     s_ids, s_source = current_s_ids()
+    cp_registry = current_s_registry(load(SCORE, {}), load(MASTER, {}))
     print(f"S등급 {len(s_ids)}건 · 출처: {s_source}")
 
     recommendations_doc = load(RECOMMENDATIONS, {})
@@ -149,9 +180,7 @@ def main() -> int:
     if dropped:
         print(f"범위 밖으로 옮김 {len(dropped)}건: {dropped[:8]}")
 
-    labels = load(LABELS, {})
-    if not isinstance(labels, dict):
-        labels = {}
+    labels = rows_by_id(load(LABELS, {}))
 
     copies_doc = load(COPIES, {})
     copies = {
@@ -170,7 +199,7 @@ def main() -> int:
     ]
 
     # 기존 상품을 보존하면서 현재 S등급 상품이 누락되어 있으면 자동 생성한다.
-    target_ids = set(existing_items) | set(recommendations_by_id)
+    target_ids = set(existing_items) | s_ids
     flagged = 0
     clean = 0
 
@@ -184,12 +213,13 @@ def main() -> int:
         label = labels.get(pd_no) or {}
         copy = copies.get(pd_no) or {}
 
-        row["name"] = (
+        row.setdefault("name", (
             recommendation.get("name")
             or label.get("product_name_kr")
             or row.get("name")
             or ""
-        )
+        ))
+        row.setdefault("canonical_product_id", cp_registry.get(pd_no))
 
         text_blob = " ".join(
             as_text(copy.get(field))
@@ -218,10 +248,8 @@ def main() -> int:
             re.search(r"spf\s*\d+|선크림|선쿠션|sunscreen", product_blob, re.I)
         )
 
-        label_ok = all(as_text(label.get(field)) for field in LABEL_FIELDS)
-        label_missing = [
-            field for field in LABEL_FIELDS if not as_text(label.get(field))
-        ]
+        requirements = us_requirements(label, pd_no)
+        label_ok = all(result["ok"] for result in requirements.values())
 
         checks = {
             "banned_claim": {
@@ -235,13 +263,11 @@ def main() -> int:
                     if is_spf else "해당 없음"
                 ),
             },
-            "label_fields": {
-                "ok": label_ok,
-                "detail": (
-                    "4항목 확보"
-                    if label_ok
-                    else "미확보: " + ", ".join(label_missing)
-                ),
+            **requirements,
+            "human_legal_approval": {
+                "ok": row.get("status") == "pass"
+                and all(real(row.get(f)) for f in ("reviewer", "reviewed_at")),
+                "detail": "Human legal approval required; automation never creates PASS",
             },
         }
 
@@ -250,13 +276,12 @@ def main() -> int:
         ]
         hard_block = bool(blockers)
 
-        row["status"] = row.get("status") or "auto_checked"
-        if row["status"] == "pass" and hard_block:
-            # 새 자동 차단 사유가 생기면 사람 PASS를 유지하지 않는다.
-            row["status"] = "pending"
+        # Preserve human decisions/signatures as history; blockers govern eligibility.
+        row.setdefault("status", "auto_checked")
+        row["effective_legal_pass"] = not hard_block and row.get("status") == "pass"
         row["auto_checks"] = checks
         row["auto_blockers"] = blockers
-        row["needs_attention"] = bool(claim_hits) or is_spf or not label_ok
+        row["needs_attention"] = hard_block
         row["hard_block"] = hard_block
         row["hard_block_reason"] = (
             "자동 점검 미통과: " + ", ".join(blockers)
@@ -285,7 +310,7 @@ def main() -> int:
         "needs_attention": flagged,
         "pass": sum(
             1 for row in existing_items.values()
-            if isinstance(row, dict) and row.get("status") == "pass"
+            if isinstance(row, dict) and row.get("effective_legal_pass") is True
         ),
         "out_of_scope": len(out_of_scope),
     }
