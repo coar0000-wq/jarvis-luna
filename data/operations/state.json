@@ -8046,6 +8046,26 @@
       "source_team": "secretary",
       "type": "SOURCE_CHANGED"
     },
+    "1bfd6a7407ba396d7bda721cab6ff8c15737693ef01811a95f3461ad7cbdf699": {
+      "captured_at": "2026-10-05T07:04:00.787090+00:00",
+      "change": {
+        "after_hash": "5b69ff5f50b2f934272f4b47d9b4cc29bdc5df83c4466ff665bfef3f8f8d3139",
+        "before_hash": "233c00ec307f2c70f355d856989fc8cdc6a7ad442ec21e9166cb27b440b45505",
+        "kind": "updated"
+      },
+      "event_id": "1bfd6a7407ba396d7bda721cab6ff8c15737693ef01811a95f3461ad7cbdf699",
+      "evidence": {
+        "before_entity_hash": "5e7da0b92d68b72a64e3de06d2ad07e3551ce37876f03c5c91a3bcefd478989b",
+        "before_source_hash": "2ca70782688e3866ff409c7d0bf8a8f816728c9b37dddbc4fcd177b300624c2e",
+        "entity_hash": "70e69d381feba27cf0adaf34fd58370e1fe8fed1e8e5d8573644696a4e95981b",
+        "source": "data/dashboard_runtime.json",
+        "source_hash": "06dcdb7d69055f75d1a6f616ea54d1946bb6502c286052db8298e57adc98c2d8"
+      },
+      "observation_kind": "source_capture",
+      "source_entity_id": "JARVIS-Deep-Analysis.yml",
+      "source_team": "secretary",
+      "type": "SOURCE_CHANGED"
+    },
     "1d65e44d50a6bef61f1ee8d2c12daa2fb260adaba712e5db5206db959774db2b": {
       "captured_at": "2026-10-05T04:38:12.681796+00:00",
       "change": {
@@ -8122,6 +8142,26 @@
         "source_hash": "79f78bf98663bb26e6ca9df704136282714226c47d4170ef5f26b8b0cdce84e1"
       },
       "source_entity_id": "jarvis-real-knowledge.yml",
+      "source_team": "secretary",
+      "type": "SOURCE_CHANGED"
+    },
+    "367b11f330ad0ad3ef206aae8fef6b72028cb520486837cc934a7ce3c2839925": {
+      "captured_at": "2026-10-05T07:04:00.787090+00:00",
+      "change": {
+        "after_hash": "bcfa9bd0cce1cb1df685021a7f473478265e36e0a2edd87875395d7f1feef2b9",
+        "before_hash": "442329f8e19cd5066436bd0642d9c54d9db360b03a7c53345a1142f950026554",
+        "kind": "updated"
+      },
+      "event_id": "367b11f330ad0ad3ef206aae8fef6b72028cb520486837cc934a7ce3c2839925",
+      "evidence": {
+        "before_entity_hash": "83e90c21be3a50cb1ae09c0fc1dc40369855eb7e02f7f09b2fbbf21a417089d8",
+        "before_source_hash": "2ca70782688e3866ff409c7d0bf8a8f816728c9b37dddbc4fcd177b300624c2e",
+        "entity_hash": "f43bea84d60a5cd2e87472cfd53a40ad4b8ae6cba322fc665649470add8bd0ce",
+        "source": "data/dashboard_runtime.json",
+        "source_hash": "06dcdb7d69055f75d1a6f616ea54d1946bb6502c286052db8298e57adc98c2d8"
+      },
+      "observation_kind": "source_capture",
+      "source_entity_id": "daiso-real-collection.yml",
       "source_team": "secretary",
       "type": "SOURCE_CHANGED"
     },
@@ -8402,6 +8442,46 @@
       },
       "observation_kind": "source_capture",
       "source_entity_id": "root-collectors.yml",
+      "source_team": "secretary",
+      "type": "SOURCE_CHANGED"
+    },
+    "b1538e09f8402e616dcebeb0fae13e9a9dffbdb5005bada1c42a2018bd1c5bbd": {
+      "captured_at": "2026-10-05T07:04:00.787090+00:00",
+      "change": {
+        "after_hash": "b1f4d032f9ba5e5b318d9e20266ab811e8ce94fd42a02a24b098ed4f6c150c24",
+        "before_hash": "55454741b7d39e253e76ad64738388b945e6dfe8c227769021603c9c107d5349",
+        "kind": "updated"
+      },
+      "event_id": "b1538e09f8402e616dcebeb0fae13e9a9dffbdb5005bada1c42a2018bd1c5bbd",
+      "evidence": {
+        "before_entity_hash": "4b03d5db7d8682f53285eefed3d7d5cf13b9611222f5526049f7f6a2cb1ec977",
+        "before_source_hash": "2ca70782688e3866ff409c7d0bf8a8f816728c9b37dddbc4fcd177b300624c2e",
+        "entity_hash": "89200cca9c8c1c592c03735630a18b630d2f183b1a2d579231f0996479f01c45",
+        "source": "data/dashboard_runtime.json",
+        "source_hash": "06dcdb7d69055f75d1a6f616ea54d1946bb6502c286052db8298e57adc98c2d8"
+      },
+      "observation_kind": "source_capture",
+      "source_entity_id": "JARVIS-Core-Automation.yml",
+      "source_team": "secretary",
+      "type": "SOURCE_CHANGED"
+    },
+    "b94e0bb8dd01240936698ef8e095059a15cd5905a307be0f6ead516f9e414c62": {
+      "captured_at": "2026-10-05T07:04:00.787090+00:00",
+      "change": {
+        "after_hash": "576aeed9df0a84cfe5bc58d86902c2334255192a865ad7df79717ae59881c3ea",
+        "before_hash": "46c6c536b08173bb178f0a04b22d0646120041b20ccfbcea497e433ee5445470",
+        "kind": "updated"
+      },
+      "event_id": "b94e0bb8dd01240936698ef8e095059a15cd5905a307be0f6ead516f9e414c62",
+      "evidence": {
+        "before_entity_hash": "cbc3069bde6ac9216dd5da2e759141277d95d3687812889403d8d7a53d37bdfe",
+        "before_source_hash": "2ca70782688e3866ff409c7d0bf8a8f816728c9b37dddbc4fcd177b300624c2e",
+        "entity_hash": "d2985e99e37b24b8a31099c089548193fa46c8f8309acdc988720291e2fd726d",
+        "source": "data/dashboard_runtime.json",
+        "source_hash": "06dcdb7d69055f75d1a6f616ea54d1946bb6502c286052db8298e57adc98c2d8"
+      },
+      "observation_kind": "source_capture",
+      "source_entity_id": "jarvis-real-knowledge.yml",
       "source_team": "secretary",
       "type": "SOURCE_CHANGED"
     },
@@ -36619,8 +36699,8 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
         "initial_source": "data/channel_candidates.json",
-        "last_detected_at": "2026-10-05T06:23:29.375470+00:00",
-        "last_observed_at": "2026-10-05T06:23:29.375470+00:00",
+        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_observed_at": "2026-10-05T07:04:19.284920+00:00",
         "owner": "channels",
         "receipt_id": null,
         "recovered_evidence": null,
@@ -36681,8 +36761,8 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
         "initial_source": "data/obsidian_sync_status.json",
-        "last_detected_at": "2026-10-05T06:23:29.375470+00:00",
-        "last_observed_at": "2026-10-05T06:23:29.375470+00:00",
+        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_observed_at": "2026-10-05T07:04:19.284920+00:00",
         "owner": "graph",
         "receipt_id": null,
         "recovered_evidence": null,
@@ -36704,8 +36784,8 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
         "initial_source": "data/institution_sources.json",
-        "last_detected_at": "2026-10-05T06:23:29.375470+00:00",
-        "last_observed_at": "2026-10-05T06:23:29.375470+00:00",
+        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_observed_at": "2026-10-05T07:04:19.284920+00:00",
         "owner": "institutions",
         "receipt_id": null,
         "recovered_evidence": null,
@@ -36727,8 +36807,8 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
         "initial_source": "data/knowledge/real_sources.json",
-        "last_detected_at": "2026-10-05T06:23:29.375470+00:00",
-        "last_observed_at": "2026-10-05T06:23:29.375470+00:00",
+        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_observed_at": "2026-10-05T07:04:19.284920+00:00",
         "owner": "knowledge",
         "receipt_id": null,
         "recovered_evidence": null,
@@ -36935,7 +37015,7 @@
       }
     },
     "schema_version": 1,
-    "table_hash": "ce30ea7b191ab0d00e44fba69cb42a20d170de1bda3d37ebf5cb1f622f75142b"
+    "table_hash": "b58064a6e3a4e7054889dc5886d9a7602bcc9cae232a8dcbacb23e52b4c7d2a5"
   },
   "tasks": {
     "task_0008922f82ab54fb5310a66d5f1f27db9c5a975262164e4f775340ebb786e929": {
@@ -46249,7 +46329,7 @@
       "channels": "2026-10-04T17:51:39.743837+00:00",
       "legal": "2026-10-05T04:38:12.681796+00:00",
       "listing": "2026-10-05T04:38:12.681796+00:00",
-      "secretary": "2026-10-05T04:38:12.681796+00:00"
+      "secretary": "2026-10-05T07:04:19.284920+00:00"
     },
     "pending_events": {},
     "schema_version": 1,
@@ -46258,10 +46338,12 @@
       "0ad4d4ea0e17c7399508e1d184e62abdeaa221b62af2876a062ee59d5363870c": "2026-10-05T04:38:12.681796+00:00",
       "18b737e593cfc458bdebdbd2027a6668418bcad3e6511a8dd33f89ead32afe68": "2026-10-05T04:38:12.681796+00:00",
       "197c6d0e62f95f01b1d338d6838784bade6dfac8ec0d9c175154ec871141865d": "2026-10-05T02:25:00.608055+00:00",
+      "1bfd6a7407ba396d7bda721cab6ff8c15737693ef01811a95f3461ad7cbdf699": "2026-10-05T07:04:19.284920+00:00",
       "1d65e44d50a6bef61f1ee8d2c12daa2fb260adaba712e5db5206db959774db2b": "2026-10-05T04:38:12.681796+00:00",
       "24471994c4f056e9e2762fd6e230259ae780e336dbcf315e7f0177801b332aff": "2026-10-04T13:29:04.444439+00:00",
       "2e0c0fd6780bc28504bcfeda3ed7fca22175d978ac74c6a2ff79b39f17e3e970": "2026-10-05T04:38:12.681796+00:00",
       "30ecd62e03015ad9ba1b6689b5aed59ff9eaa414cc851e3143c71d96ee34063e": "2026-10-04T07:24:04.383722+00:00",
+      "367b11f330ad0ad3ef206aae8fef6b72028cb520486837cc934a7ce3c2839925": "2026-10-05T07:04:19.284920+00:00",
       "3e180e8114911631d2c9e605f7188b109d8750891764b50260a6aacee7b9a923": "2026-10-04T13:29:32.186821+00:00",
       "4f5a6bbdea1a25a3d6514b100ad962eed6e3f8309ed443821c861fe2a3400630": "2026-10-05T04:38:12.681796+00:00",
       "50d821bf99417cb60ef495e5c3f12516140ab2369b727f88aa887a583bf1111b": "2026-10-05T04:38:12.681796+00:00",
@@ -46276,6 +46358,8 @@
       "9cc7193a3f18d2b91e10f6f611da8881de80475d7851eb16a816faa991d0c940": "2026-10-05T04:38:12.681796+00:00",
       "a85e1746e31a34eda1dbb078f4372ea10c0ca869c1fc7dc538d1e041f3b5c169": "2026-10-05T04:38:12.681796+00:00",
       "b057bfc351f9a698993f1887f0ab10d68dd42f3633776fa8183bf6b2fbf894d6": "2026-10-04T13:29:04.444439+00:00",
+      "b1538e09f8402e616dcebeb0fae13e9a9dffbdb5005bada1c42a2018bd1c5bbd": "2026-10-05T07:04:19.284920+00:00",
+      "b94e0bb8dd01240936698ef8e095059a15cd5905a307be0f6ead516f9e414c62": "2026-10-05T07:04:19.284920+00:00",
       "bdd65c2d7cfef21ad1be9af834df328bcb96c1b6a78ad75ca3fec5aa825b6780": "2026-10-05T04:38:12.681796+00:00",
       "bfa692119e143fb04d7ecac3efc14bc3f8c83da3e4923c2e4d66eb19473b734a": "2026-10-04T17:51:12.340301+00:00",
       "c383f777a00ee014fe7a8ab57cb0c6385306756de4599568f711a448d59293b1": "2026-10-04T13:29:04.444439+00:00",
@@ -73271,7 +73355,7 @@
       "legal": {
         "records": {
           "CP000038": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73289,7 +73373,7 @@
             }
           },
           "CP000075": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73305,7 +73389,7 @@
             }
           },
           "CP000106": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73319,7 +73403,7 @@
             }
           },
           "CP000107": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73333,7 +73417,7 @@
             }
           },
           "CP000109": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73349,7 +73433,7 @@
             }
           },
           "CP000130": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73365,7 +73449,7 @@
             }
           },
           "CP000151": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73381,7 +73465,7 @@
             }
           },
           "CP000216": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73397,7 +73481,7 @@
             }
           },
           "CP000251": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73413,7 +73497,7 @@
             }
           },
           "CP000270": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "auto_legal_status": "auto_checked",
               "blockers": [
@@ -73436,7 +73520,7 @@
       "listing": {
         "records": {
           "CP000038": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal",
@@ -73455,7 +73539,7 @@
             }
           },
           "CP000075": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73471,7 +73555,7 @@
             }
           },
           "CP000106": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73487,7 +73571,7 @@
             }
           },
           "CP000107": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73503,7 +73587,7 @@
             }
           },
           "CP000109": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73519,7 +73603,7 @@
             }
           },
           "CP000130": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73535,7 +73619,7 @@
             }
           },
           "CP000151": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73551,7 +73635,7 @@
             }
           },
           "CP000216": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73567,7 +73651,7 @@
             }
           },
           "CP000251": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73583,7 +73667,7 @@
             }
           },
           "CP000270": {
-            "captured_at": "2026-10-05T06:23:29.375470+00:00",
+            "captured_at": "2026-10-05T07:04:19.284920+00:00",
             "value": {
               "agent_blocked_by": [
                 "legal"
@@ -73973,7 +74057,7 @@
       "pricing": {
         "records": {
           "CP000106": {
-            "captured_at": "2026-10-04T07:03:09.825086+00:00",
+            "captured_at": "2026-10-05T07:03:56.875731+00:00",
             "value": {
               "amount": 3000,
               "canonical_product_id": "CP000106",
@@ -74641,37 +74725,37 @@
       "secretary": {
         "records": {
           "JARVIS-Core-Automation.yml": {
-            "captured_at": "2026-10-05T01:36:30.871754+00:00",
+            "captured_at": "2026-10-05T07:04:00.787090+00:00",
             "value": {
-              "last_attempt_at": "2026-10-04T22:31:53Z",
+              "last_attempt_at": "2026-10-05T02:24:22Z",
               "last_success": {
                 "conclusion": "success",
-                "created_at": "2026-10-04T17:50:31Z",
+                "created_at": "2026-10-05T02:24:22Z",
                 "event": "schedule",
-                "finished_at": "2026-10-04T17:52:03Z",
-                "id": 37222037711,
+                "finished_at": "2026-10-05T02:25:47Z",
+                "id": 37255269947,
                 "run_attempt": 1,
-                "run_started_at": "2026-10-04T17:50:31Z",
+                "run_started_at": "2026-10-05T02:24:22Z",
                 "status": "completed"
               },
-              "last_success_at": "2026-10-04T17:52:03Z",
+              "last_success_at": "2026-10-05T02:25:47Z",
               "latest_attempt": {
-                "conclusion": "failure",
-                "created_at": "2026-10-04T22:31:53Z",
+                "conclusion": "success",
+                "created_at": "2026-10-05T02:24:22Z",
                 "event": "schedule",
-                "finished_at": "2026-10-04T22:32:45Z",
-                "id": 37240366151,
+                "finished_at": "2026-10-05T02:25:47Z",
+                "id": 37255269947,
                 "run_attempt": 1,
-                "run_started_at": "2026-10-04T22:31:53Z",
+                "run_started_at": "2026-10-05T02:24:22Z",
                 "status": "completed"
               },
-              "status": "failed"
+              "status": "warning"
             }
           },
           "JARVIS-Deep-Analysis.yml": {
-            "captured_at": "2026-10-05T01:36:30.871754+00:00",
+            "captured_at": "2026-10-05T07:04:00.787090+00:00",
             "value": {
-              "last_attempt_at": "2026-10-05T00:56:35Z",
+              "last_attempt_at": "2026-10-05T05:47:11Z",
               "last_success": {
                 "conclusion": "success",
                 "created_at": "2026-10-03T11:36:21Z",
@@ -74687,19 +74771,19 @@
                 "conclusion": "failure",
                 "created_at": "2026-10-05T00:56:35Z",
                 "event": "schedule",
-                "finished_at": "2026-10-05T01:25:58Z",
+                "finished_at": "2026-10-05T06:16:08Z",
                 "id": 37249443012,
-                "run_attempt": 1,
-                "run_started_at": "2026-10-05T00:56:35Z",
+                "run_attempt": 2,
+                "run_started_at": "2026-10-05T05:47:11Z",
                 "status": "completed"
               },
               "status": "failed"
             }
           },
           "daiso-real-collection.yml": {
-            "captured_at": "2026-10-05T01:36:30.871754+00:00",
+            "captured_at": "2026-10-05T07:04:00.787090+00:00",
             "value": {
-              "last_attempt_at": "2026-10-04T22:20:48Z",
+              "last_attempt_at": "2026-10-05T07:02:37Z",
               "last_success": {
                 "conclusion": "success",
                 "created_at": "2026-10-03T00:44:16Z",
@@ -74712,22 +74796,21 @@
               },
               "last_success_at": "2026-10-03T00:46:48Z",
               "latest_attempt": {
-                "conclusion": "failure",
-                "created_at": "2026-10-04T22:20:48Z",
-                "event": "schedule",
-                "finished_at": "2026-10-04T23:20:02Z",
-                "id": 37239663802,
+                "conclusion": null,
+                "created_at": "2026-10-05T07:02:37Z",
+                "event": "workflow_dispatch",
+                "id": 37275531536,
                 "run_attempt": 1,
-                "run_started_at": "2026-10-04T22:20:48Z",
-                "status": "completed"
+                "run_started_at": "2026-10-05T07:02:37Z",
+                "status": "in_progress"
               },
-              "status": "failed"
+              "status": "warning"
             }
           },
           "jarvis-real-knowledge.yml": {
-            "captured_at": "2026-10-05T01:36:30.871754+00:00",
+            "captured_at": "2026-10-05T07:04:00.787090+00:00",
             "value": {
-              "last_attempt_at": "2026-10-04T21:51:58Z",
+              "last_attempt_at": "2026-10-05T06:07:29Z",
               "last_success": {
                 "conclusion": "success",
                 "created_at": "2026-10-03T11:57:16Z",
@@ -74741,19 +74824,19 @@
               "last_success_at": "2026-10-03T12:03:59Z",
               "latest_attempt": {
                 "conclusion": "failure",
-                "created_at": "2026-10-04T21:51:58Z",
+                "created_at": "2026-10-05T06:07:29Z",
                 "event": "schedule",
-                "finished_at": "2026-10-04T22:02:54Z",
-                "id": 37237790639,
+                "finished_at": "2026-10-05T06:24:04Z",
+                "id": 37270841169,
                 "run_attempt": 1,
-                "run_started_at": "2026-10-04T21:51:58Z",
+                "run_started_at": "2026-10-05T06:07:29Z",
                 "status": "completed"
               },
               "status": "failed"
             }
           },
           "root-collectors.yml": {
-            "captured_at": "2026-10-05T01:36:30.871754+00:00",
+            "captured_at": "2026-10-05T07:04:00.787090+00:00",
             "value": {
               "last_attempt_at": "2026-10-04T08:45:39Z",
               "last_success": {
@@ -74781,14 +74864,14 @@
             }
           }
         },
-        "semantic_hash": "bd8de37275d1ee1825ec5ba86dfdf56cd85bce9dc3a285bfb798ef1154a8b90f",
+        "semantic_hash": "ba569f2c451187781563021c73b8d842fcdee773ef039a87cfc76767ffc91f62",
         "source": "data/dashboard_runtime.json",
         "status": "VALID"
       },
       "sourcing": {
         "records": {
           "CP000106": {
-            "captured_at": "2026-10-04T07:03:09.825086+00:00",
+            "captured_at": "2026-10-05T07:03:56.875731+00:00",
             "value": {
               "canonical_product_id": "CP000106",
               "pd_no": "1049275",

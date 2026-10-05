@@ -1,4 +1,27 @@
 {
   "schema_version": 1,
-  "deletions": []
+  "deletions": [
+    {
+      "path": "data/daiso_real/shortlist_observations.json",
+      "base_sha256": "ae9ee45bd8c35b39dddefb26c40b49b9c30d2899f0db28b5b87c8822d7d5cd4a",
+      "replacement_sha256": "e09015edf2668cda34012208fa72aa07d52dcf3141926a0aff6b5ea93f619958",
+      "ids": [
+        "CP000106"
+      ],
+      "policy_ref": "scripts/shortlist_observation_history.py",
+      "delete_file": false,
+      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
+    },
+    {
+      "path": "data/agents/workflow_freshness.json",
+      "base_sha256": "550b5b98195d400d6888a3ec459dac17914780c24dc96e7a49a54b8b67aa3320",
+      "replacement_sha256": "8580dc3c77f8ff8f8b2ee1efa8cd54e2cd379e82154d1c4ba60b10376b536de3",
+      "ids": [
+        "finished_at"
+      ],
+      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
+      "policy_ref": "scripts/workflow_status_history.py",
+      "delete_file": false
+    }
+  ]
 }

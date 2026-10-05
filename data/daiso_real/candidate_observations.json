@@ -24,7 +24,13 @@
       "at": "2026-10-03T00:46:32.744685+00:00",
       "reason": "Outside verified candidate scope",
       "execution_id": "37083305299:1:collect"
+    },
+    "1034517": {
+      "status": "not_beauty",
+      "at": "2026-10-05T07:03:25.816515+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "37275531536:1:collect"
     }
   },
-  "generated_at": "2026-10-03T00:46:32.744685+00:00"
+  "generated_at": "2026-10-05T07:03:25.816515+00:00"
 }

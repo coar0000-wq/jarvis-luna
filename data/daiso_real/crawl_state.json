@@ -22298,12 +22298,12 @@
       }
     }
   },
-  "updated_at": "2026-10-03T00:46:32.745131+00:00",
+  "updated_at": "2026-10-05T07:03:25.817288+00:00",
   "last_run": {
-    "started_at": "2026-10-03T00:44:52.647946+00:00",
-    "finished_at": "2026-10-03T00:46:32.745137+00:00",
-    "requested": 4,
-    "visited": 4,
+    "started_at": "2026-10-05T07:03:19.794297+00:00",
+    "finished_at": "2026-10-05T07:03:25.817296+00:00",
+    "requested": 1,
+    "visited": 1,
     "skipped_parked": 15,
     "skipped_already_visited": 1997,
     "visited_total": 2313,
@@ -22321,7 +22321,7 @@
     "sitemap_urls_known": 19739,
     "scope": "다이소몰 뷰티관(C245) 10개 카테고리 (선케어·네일 제외)",
     "delay_seconds": 30.0,
-    "max_items": 4,
+    "max_items": 1,
     "search_fallback": true,
     "user_agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
     "robots_note": "robots.txt 기준 상품 경로 /pd/pdr/ Crawl-delay 30초",
