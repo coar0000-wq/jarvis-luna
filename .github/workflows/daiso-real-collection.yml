@@ -482,7 +482,7 @@ jobs:
             data/knowledge/cumulative_history.json
             data/agents
             data/publish_deletions.json
-          message: 다이소 실수집 + Shopify 수요 점수 갱신
+          message: "${{ github.event_name == 'workflow_dispatch' && !inputs.refresh_auxiliary_sources && '다이소 관측 발행 [source-recovery-offline]' || '다이소 실수집 + Shopify 수요 점수 갱신' }}"
           regenerate-dashboard: 'true'
           audit: 'true'
 
@@ -515,7 +515,7 @@ jobs:
             data/agents/listing_notes.json
             data/team_improvement.json
             data/knowledge/cumulative_history.json
-          message: 다이소 신규 비교 후보·관측 발행 (운영 상품 유지)
+          message: "${{ github.event_name == 'workflow_dispatch' && !inputs.refresh_auxiliary_sources && '다이소 비교 관측 발행 [source-recovery-offline]' || '다이소 신규 비교 후보·관측 발행 (운영 상품 유지)' }}"
           regenerate-dashboard: 'false'
           audit: 'false'
 

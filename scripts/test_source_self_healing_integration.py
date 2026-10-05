@@ -202,6 +202,25 @@ class ResumptionIntegration(unittest.TestCase):
             self.assertEqual(runtime_builder.agents_plan_heartbeat(root),{})
             (d/'last_run.json').unlink();self.assertEqual(runtime_builder.agents_plan_heartbeat(root),{})
 
+    def test_source_only_publication_cannot_trigger_model_copy_job(self):
+        listing=(ROOT/'.github/workflows/shopify-listing-copy.yml').read_text(encoding='utf-8')
+        self.assertIn("github.event_name != 'push' || !contains(github.event.head_commit.message, '[source-recovery-offline]')",listing)
+        daiso=(ROOT/'.github/workflows/daiso-real-collection.yml').read_text(encoding='utf-8')
+        marked=[line for line in daiso.splitlines() if 'message:' in line and '[source-recovery-offline]' in line]
+        self.assertEqual(len(marked),2)
+        for line in marked:
+            self.assertIn("github.event_name == 'workflow_dispatch' && !inputs.refresh_auxiliary_sources",line)
+
+    def test_cumulative_run_history_is_not_pruned_by_display_window(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            file=Path(tmp)/'history.json'
+            old=[{'at':f'prior assembly {i}','records':1,'notes':1,'links':1,'added':{'records':0,'notes':0,'links':0}} for i in range(100)]
+            file.write_text(json.dumps({'baseline':{'recorded_at':'known original baseline'},'totals':{'records':1,'notes':1,'links':1},'last_snapshot':{'records':1,'notes':1,'links':1},'runs':old}))
+            with patch.object(runtime_builder,'HISTORY',file):runtime_builder.cumulative_metrics({'notes':1,'links':1},{'record_count':1})
+            saved=json.loads(file.read_text())
+            self.assertEqual(saved['runs'][:100],old);self.assertEqual(len(saved['runs']),101)
+            self.assertEqual(saved['baseline']['recorded_at'],'known original baseline')
+
     def test_operations_restore_marker_blocks_before_state_mutation(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp); marker=root/'data/operations/.restore-pending.json'; marker.parent.mkdir(parents=True);marker.write_text('{}')

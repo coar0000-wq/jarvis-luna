@@ -16,6 +16,24 @@ import urllib.error
 import io
 
 class ProvenanceTests(unittest.TestCase):
+    def test_s_grade_seed_is_identity_only_and_preserves_existing_evidence(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            src=Path(tmp)/'recommendations.json'
+            src.write_text(json.dumps({'recommendations':[
+                {'grade':'S','pd_no':'1049275','name':'known'},
+                {'grade':'S','pd_no':'1049276','name':'new observation target'},
+                {'grade':'B','pd_no':'1049285','name':'not selected'},
+                {'grade':'S','pd_no':'1234567890123456789','name':'wrong long identity'}]}))
+            items={'1049275':{'product_id':'1049275','maker':'human evidence','captured_at':'original source clock'}}
+            original=copy.deepcopy(items['1049275'])
+            with patch.object(c,'S_RECOMMENDATIONS',src), patch.object(c.urllib.request,'urlopen',side_effect=AssertionError('no HTTP')):
+                added=c.seed_from_s_grade(items)
+            self.assertEqual(added,['1049276'])
+            self.assertEqual(items['1049275'],original)
+            self.assertFalse(items['1049276']['product_identity_verified'])
+            for clock in ('captured_at','observed_at','updated_at','source_received_at'):
+                self.assertNotIn(clock,items['1049276'])
+
     def test_shape_identity(self):
         for doc in ({'items': []}, {'items': {'a': None}}, {'items': {'a': {'pd_no': 'b'}}}, {'items': [{'pd_no': 'a'}, {'pd_no': 'a'}]}):
             with self.assertRaises(ValueError): h.validate_document(doc)

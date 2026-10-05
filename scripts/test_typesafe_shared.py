@@ -52,12 +52,15 @@ class SharedTests(unittest.TestCase):
         self.assertEqual(self.calls,1); self.assertEqual(t.ledger()['calls'],1)
         self.assertGreater(t.ledger()['charged_input_tokens'],2048)
     def test_state_questions_model_invalidate(self):
-        self.runone(); self.runone(payload(1))
+        first=self.runone(); self.assertEqual(first['source'],'typesafe',first)
+        changed=self.runone(payload(1)); self.assertEqual(changed['source'],'typesafe',changed)
         p=payload(); p['questions']['route']['instructions']='Different'
         self.assertEqual(self.runone(p)['mode'],'immutable_version_changed')
-        p['question_version']='q2'; self.assertEqual(self.runone(p)['source'],'typesafe')
+        p['question_version']='q2'; revised=self.runone(p)
+        self.assertEqual(revised['source'],'typesafe',revised)
         p['model']='jev-preview'; p['model_policy_version']='m2'
-        self.assertEqual(self.runone(p)['source'],'typesafe'); self.assertEqual(self.calls,4)
+        model_changed=self.runone(p)
+        self.assertEqual(model_changed['source'],'typesafe',model_changed); self.assertEqual(self.calls,4)
     def test_cache_expiry(self):
         self.runone(); s=json.loads(self.path.read_text()); next(iter(s['cache'].values()))['created_at']-=90000
         self.path.write_text(json.dumps(s)); self.runone(); self.assertEqual(self.calls,2)
@@ -92,6 +95,28 @@ class SharedTests(unittest.TestCase):
         os.environ['TYPESAFE_WORKFLOW_ID']='different-run'
         self.assertTrue(self.runone(payload(2))['mode'].startswith('shared_stopped:'))
         self.assertEqual(self.calls,0)
+    def test_success_persistence_failure_keeps_charge_and_global_stop(self):
+        original=t.write
+        failed=False
+        def fail_success_once(path,state):
+            nonlocal failed
+            if state.get('cache') and not failed:
+                failed=True
+                raise PermissionError(13,'injected offline persistence denial')
+            return original(path,state)
+        with patch.object(t,'write',side_effect=fail_success_once):
+            result=self.runone()
+        self.assertTrue(failed)
+        self.assertEqual(result['mode'],'request_or_protocol_failure',result)
+        charged=t.ledger()['charged_input_tokens']
+        self.assertGreater(charged,2048)
+        self.assertEqual(t.ledger()['calls'],1)
+        self.assertEqual(t.ledger()['global_stopped'],'request_or_protocol_failure')
+        stopped=self.runone(payload(1))
+        self.assertEqual(stopped['mode'],'shared_stopped:request_or_protocol_failure',stopped)
+        self.assertEqual(self.calls,1)
+        self.assertEqual(t.ledger()['charged_input_tokens'],charged)
+
     def test_all_http_and_protocol_failures(self):
         mutations=[lambda b:b.update(_http={'status':500}),lambda b:b.update(error='bad'),
                    lambda b:b['answers']['route'].update(choice='invalid'),
@@ -156,7 +181,8 @@ class SharedTests(unittest.TestCase):
         os.environ['TYPESAFE_MAX_CALLS']='1'
         os.environ['TYPESAFE_WORKFLOW_ID']='publishing-run-1'
         first=payload(); first['state']['team']='legal'
-        self.assertEqual(self.runone(first)['source'],'typesafe')
+        first_result=self.runone(first)
+        self.assertEqual(first_result['source'],'typesafe',first_result)
         cost=t.ledger()['account_estimated_cost_usd']
         # Another team is still the same run: never a per-team budget reset.
         second=payload(); second['state']['team']='marketing'
@@ -165,7 +191,8 @@ class SharedTests(unittest.TestCase):
         self.assertEqual(t.ledger()['workflow_stopped'],'pre_request_budget_denied')
         self.assertTrue(self.runone(second)['mode'].startswith('workflow_stopped:'))
         os.environ['TYPESAFE_WORKFLOW_ID']='publishing-run-2'
-        self.assertEqual(self.runone(second)['source'],'typesafe')
+        next_run=self.runone(second)
+        self.assertEqual(next_run['source'],'typesafe',next_run)
         self.assertGreater(t.ledger()['account_estimated_cost_usd'],cost)
         self.assertEqual(t.ledger()['calls'],1)
         os.environ['TYPESAFE_WORKFLOW_ID']='publishing-run-1'

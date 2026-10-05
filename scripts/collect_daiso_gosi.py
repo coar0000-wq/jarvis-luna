@@ -32,6 +32,7 @@ sys.path.insert(0, str(ROOT))
 from scripts.gosi_observation_history import (validate_document, attempt, observe_field, merge_images, mark_stale, publish_observation, receipt, sha, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop)
 DATA = ROOT / "data"
 GOSI = DATA / "gosi.json"
+S_RECOMMENDATIONS = DATA / 'daiso_real' / 'shopify_s_recommendations.json'
 IMGDIR = DATA / "daiso_real" / "gosi_img"
 API = "https://fapi.daisomall.co.kr"
 DELAY = 2.0
@@ -118,6 +119,29 @@ def set_if_empty(row, key, value, source, provenance=None):
     evidence = dict(provenance or {'capture_scope': 'local_parser_only', 'source_received_at': None})
     evidence['source'] = source
     return observe_field(row, key, value, evidence)
+
+
+def seed_from_s_grade(items: dict[str, Any]) -> list[str]:
+    """Retain all existing evidence and add identity-only S-grade observation stubs."""
+    try:
+        document = json.loads(S_RECOMMENDATIONS.read_text(encoding='utf-8-sig'))
+    except (OSError, ValueError):
+        return []
+    rows = document.get('recommendations') if isinstance(document, dict) else None
+    if not isinstance(rows, list):
+        return []
+    added = []
+    for row in rows:
+        if not isinstance(row, dict) or row.get('grade') != 'S':
+            continue
+        pd_no = str(row.get('pd_no') or '').strip()
+        if not re.fullmatch(r'[0-9]{7}', pd_no) or pd_no in items:
+            continue
+        items[pd_no] = {'product_id': pd_no, 'name': clean(row.get('name')),
+            'seeded_from': 'shopify_s_recommendations.json',
+            'product_identity_verified': False}
+        added.append(pd_no)
+    return added
 
 
 def volume_from_text(text: str) -> str:

@@ -253,7 +253,10 @@ def cumulative_metrics(graph: dict, sources: dict) -> dict:
 
         hist["last_snapshot"] = {**current, "recorded_at": now}
 
-    hist["runs"] = (hist.get("runs", []) + [{"at": now, **current, "added": added}])[-90:]
+    # Keep the complete observed run chain. Display windows must not prune audit.
+    hist["runs"] = hist.get("runs", []) + [{"at": now, **current, "added": added}]
+    if len(json.dumps(hist,ensure_ascii=False).encode('utf-8')) > 8*1024*1024:
+        raise ValueError('cumulative_history_capacity_requires_owned_archive; never prune/reset')
     hist["updated_at"] = now
 
     try:

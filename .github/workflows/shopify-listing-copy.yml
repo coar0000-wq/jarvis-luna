@@ -56,6 +56,9 @@ permissions:
 
 jobs:
   build:
+    # Source-only repair publications must not dispatch model/business generation.
+    # Normal pushes and explicit listing-copy requests retain their existing behavior.
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[source-recovery-offline]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
 

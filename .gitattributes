@@ -15,3 +15,6 @@ data/daiso_real/shortlist_observations.json -text
 data/daiso_real/.shortlist_observation_claim.json -text
 data/agents/source_procedures/source-procedure-state.json -text
 data/agents/source_procedures/checkpoint.json -text
+
+# Exact offline branch lineage archive and projection proof.
+docs/audits/operations_reconciliation/** -text
