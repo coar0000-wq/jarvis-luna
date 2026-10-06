@@ -32,9 +32,13 @@ def validate_retained_blocked_exports(root, export_dir):
     for name in ('products.csv','inventory.csv','images.csv','collections.csv'):
         target = Path(export_dir) / name
         require(not target.is_symlink() and target.is_file(), 'retained draft path invalid')
-        result = subprocess.run(['git','show',f'HEAD:data/shopify_exports/{name}'],
-                                cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        require(result.returncode == 0 and target.read_bytes() == result.stdout,
+        rel = f'data/shopify_exports/{name}'
+        baseline = subprocess.run(['git', 'rev-parse', f'HEAD:{rel}'],
+                                  cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        current = subprocess.run(['git', 'hash-object', f'--path={rel}', str(target)],
+                                 cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        require(baseline.returncode == 0 and current.returncode == 0
+                and baseline.stdout.strip() == current.stdout.strip(),
                 f'legally blocked draft changed or lacks committed baseline: {name}')
 
 

@@ -316,6 +316,69 @@ def build_experiments() -> list[dict]:
             "action": "상위 상품의 명확성·신뢰·가치·비교·마찰·확신 장벽을 하나씩 분류하고 해당 지점에만 검증 증거·정책·비교·관련상품을 배치한 초안을 만든다.",
             "kpis": ["diagnosed_decision_point_rate", "proof_proximity_coverage", "cart_to_checkout_rate", "cross_sell_attach_rate"],
             "cost_mode": "free_local", "status": "ready_for_draft"
+        },
+        {
+            "id": "EXP-023", "phase": "measurement", "priority": 23,
+            "name": "모바일 성능 코호트·체크아웃 신뢰 감사",
+            "insight_ids": ["MKT-052", "MKT-053"],
+            "owner_teams": ["market", "listing", "design", "knowledge", "legal"],
+            "action": "기기·브라우저·네트워크 코호트별 모바일 이탈을 비교하고 체크아웃에서 배송·반품·신뢰 정보를 찾으러 되돌아가는 구간을 우선 수정한다.",
+            "kpis": ["mobile_cohort_conversion_gap", "journey_error_rate", "checkout_exit_to_storefront_rate", "mobile_checkout_completion_rate"],
+            "cost_mode": "free_local", "status": "blocked_until_store_analytics"
+        },
+        {
+            "id": "EXP-024", "phase": "retention", "priority": 24,
+            "name": "리텐션 플로우 제외·중복 제거 감사",
+            "insight_ids": ["MKT-054", "MKT-055", "MKT-056"],
+            "owner_teams": ["market", "knowledge", "legal"],
+            "action": "핵심 라이프사이클 플로우의 스킵·제외 규칙과 이메일·SMS 중복을 감사하고 분기별 kill list로 목적 없는 자동화를 승인·백업 후 제거한다.",
+            "kpis": ["eligible_contact_skip_rate", "unexplained_exclusion_count", "cross_channel_overlap_rate", "stale_automation_count"],
+            "cost_mode": "existing_stack_only", "status": "blocked_until_store_and_consent"
+        },
+        {
+            "id": "EXP-025", "phase": "prelaunch", "priority": 25,
+            "name": "고객 선택형 번들·사은품 손익 모델",
+            "insight_ids": ["MKT-057", "MKT-058"],
+            "owner_teams": ["pricing", "sourcing", "market", "listing", "design", "legal"],
+            "action": "고정·믹스앤매치 번들을 고객 선택 필요도로 나누고 사은품 임계값별 원가·배송·반품을 계산해 기여이익이 남는 조합만 초안에 둔다.",
+            "kpis": ["bundle_completion_rate", "bundle_margin", "gift_threshold_attach_rate", "contribution_margin_per_order"],
+            "cost_mode": "free_local", "status": "ready_for_modeling"
+        },
+        {
+            "id": "EXP-026", "phase": "prelaunch", "priority": 26,
+            "name": "톤·감정·가치 포지셔닝 지도",
+            "insight_ids": ["MKT-059"],
+            "owner_teams": ["market", "design", "listing", "pricing"],
+            "action": "현재 브랜드와 경쟁 대안을 톤·감정·가치 축에 표시하고 목표 위치를 정한 뒤 PDP·이메일·유기 콘텐츠의 보이스 편차를 점검한다.",
+            "kpis": ["positioning_consistency_rate", "competitor_overlap_score", "value_signal_comprehension", "channel_voice_deviation"],
+            "cost_mode": "free_local", "status": "ready_for_research"
+        },
+        {
+            "id": "EXP-027", "phase": "prelaunch", "priority": 27,
+            "name": "Search Console 컬렉션 기회 큐",
+            "insight_ids": ["MKT-060", "MKT-061"],
+            "owner_teams": ["market", "listing", "design", "knowledge", "legal"],
+            "action": "비브랜드 쿼리를 랜딩페이지와 의도 클러스터로 연결하고 이미 노출되는 컬렉션부터 비교·선택 기준·FAQ·내부 링크 초안을 보강한다.",
+            "kpis": ["query_page_mapping_coverage", "collection_nonbrand_clicks", "internal_link_coverage", "collection_to_pdp_rate"],
+            "cost_mode": "free_local", "status": "blocked_until_search_console_data"
+        },
+        {
+            "id": "EXP-028", "phase": "launch", "priority": 28,
+            "name": "시각 예시형 유기 크리에이터 브리프",
+            "insight_ids": ["MKT-062"],
+            "owner_teams": ["market", "design", "listing", "legal"],
+            "action": "검증된 제품 사실·목표 고객·금지 클레임·참고 장면을 한 브리프에 묶어 기존 보유자산으로 유기 초안을 만들며 유료 제작·배포는 명시 승인 전 실행하지 않는다.",
+            "kpis": ["brief_requirement_coverage", "creator_revision_rate", "organic_asset_acceptance_rate", "creative_angle_coverage"],
+            "cost_mode": "free_organic", "status": "ready_after_assets"
+        },
+        {
+            "id": "EXP-029", "phase": "prelaunch", "priority": 29,
+            "name": "프로모션 깊이·기간 기여이익 게이트",
+            "insight_ids": ["MKT-063"],
+            "owner_teams": ["pricing", "market", "knowledge"],
+            "action": "프로모션별 할인율·기간·매출·총이익·기여이익·운영비를 한 표에서 비교하고 이익이 악화되는 연장·심화 시나리오는 승인 큐에서 차단한다.",
+            "kpis": ["promotion_contribution_margin", "gross_margin_rate", "discount_duration_days", "profit_after_promotion"],
+            "cost_mode": "free_local", "status": "ready_for_modeling"
         }
     ]
 
@@ -408,10 +471,10 @@ def build_strategy(write: bool = True) -> dict:
         "execution_experiments": experiments,
         "product_playbooks": [product_fit(x) for x in recs],
         "funnel": {
-            "discover": ["MKT-005", "MKT-016", "MKT-020", "MKT-023", "MKT-027", "MKT-032", "MKT-036", "MKT-040", "MKT-047", "MKT-048"],
-            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017", "MKT-025", "MKT-026", "MKT-034", "MKT-035", "MKT-038", "MKT-045", "MKT-046", "MKT-049", "MKT-051"],
-            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022", "MKT-037", "MKT-050"],
-            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011", "MKT-028", "MKT-029", "MKT-030", "MKT-031", "MKT-039", "MKT-041", "MKT-042", "MKT-043"],
+            "discover": ["MKT-005", "MKT-016", "MKT-020", "MKT-023", "MKT-027", "MKT-032", "MKT-036", "MKT-040", "MKT-047", "MKT-048", "MKT-060", "MKT-061", "MKT-062"],
+            "consider": ["MKT-001", "MKT-002", "MKT-003", "MKT-004", "MKT-017", "MKT-025", "MKT-026", "MKT-034", "MKT-035", "MKT-038", "MKT-045", "MKT-046", "MKT-049", "MKT-051", "MKT-052", "MKT-053", "MKT-059"],
+            "convert": ["MKT-008", "MKT-012", "MKT-013", "MKT-014", "MKT-015", "MKT-021", "MKT-022", "MKT-037", "MKT-050", "MKT-057", "MKT-058", "MKT-063"],
+            "retain": ["MKT-006", "MKT-009", "MKT-010", "MKT-011", "MKT-028", "MKT-029", "MKT-030", "MKT-031", "MKT-039", "MKT-041", "MKT-042", "MKT-043", "MKT-054", "MKT-055", "MKT-056"],
             "measure": ["MKT-007", "MKT-024", "MKT-033", "MKT-044"],
         },
         "launch_order": [x["id"] for x in experiments],
