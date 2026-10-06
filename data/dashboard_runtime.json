@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T18:40:01.951257+09:00",
+  "generated_at": "2026-10-06T19:04:42.193098+09:00",
   "truth_note": "상태는 저장소에 존재하는 실제 산출물 기준이며, 실행 기록이 없는 작업은 진행중으로 표시하지 않음.",
   "operations": {
     "action_cards": [],
@@ -1570,7 +1570,7 @@
   },
   "team_improvement_evidence": {
     "schema_version": 1,
-    "generated_at": "2026-10-06T09:40:02.100256+00:00",
+    "generated_at": "2026-10-06T10:04:42.338815+00:00",
     "mode": "offline_read_only_projection",
     "source_allowlist": [
       "data/team_improvement.json",
@@ -1617,15 +1617,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           },
@@ -1686,15 +1686,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -1730,15 +1730,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -1774,15 +1774,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -1819,15 +1819,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -1863,15 +1863,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -1908,15 +1908,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -1962,15 +1962,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           },
@@ -2045,15 +2045,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -2089,15 +2089,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           }
@@ -2153,15 +2153,15 @@
         "evidence": [
           {
             "path": "data/team_improvement.json",
-            "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+            "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
             "reviewed_exact_bytes": false,
             "captured_at": null,
-            "generated_at": "2026-10-06T09:40:02.100256+00:00",
+            "generated_at": "2026-10-06T10:04:42.338815+00:00",
             "policy_updated_at": null,
             "applied_at": null,
             "evaluated_at": null,
             "metadata_clock_field": "generated_at",
-            "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+            "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
             "fresh": true,
             "capture_clock_verified": false
           },
@@ -2221,15 +2221,15 @@
       "reported_action_changes": 0,
       "source": {
         "path": "data/team_improvement.json",
-        "sha256": "666a4c8f8c7930093d188419e930fd08e6d75ec9bea421418ae70b4ad494aab2",
+        "sha256": "b230f7e625dd80f3308d57e75ae1e445eda4b16aebdecce3c73e744818ad8ddb",
         "reviewed_exact_bytes": false,
         "captured_at": null,
-        "generated_at": "2026-10-06T09:40:02.100256+00:00",
+        "generated_at": "2026-10-06T10:04:42.338815+00:00",
         "policy_updated_at": null,
         "applied_at": null,
         "evaluated_at": null,
         "metadata_clock_field": "generated_at",
-        "metadata_clock_at": "2026-10-06T09:40:02.100256+00:00",
+        "metadata_clock_at": "2026-10-06T10:04:42.338815+00:00",
         "fresh": true,
         "capture_clock_verified": false
       },
@@ -2289,9 +2289,9 @@
         "candidates_new": 0,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 80.891,
-        "attempt_age_hours": 26.61,
-        "success_age_hours": 176.851,
+        "candidate_success_age_hours": 81.303,
+        "attempt_age_hours": 27.021,
+        "success_age_hours": 177.262,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": true,
@@ -3671,9 +3671,9 @@
           "candidates_new": 0,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-          "candidate_success_age_hours": 80.891,
-          "attempt_age_hours": 26.61,
-          "success_age_hours": 176.851,
+          "candidate_success_age_hours": 81.303,
+          "attempt_age_hours": 27.021,
+          "success_age_hours": 177.262,
           "data_stale": true,
           "attempt_stale": false,
           "is_no_change": true,
@@ -3754,7 +3754,7 @@
       "id": "institutions",
       "name": "기관 수집팀",
       "when": "2026-10-03T11:40:00.731501+00:00",
-      "summary": "35곳 1,073건 · 미수집 12건 사유 기록 · 새 자료 253건 · 영상 학습 1개",
+      "summary": "35곳 1,073건 · 미수집 12건 사유 기록 · 새 자료 232건 · 영상 학습 1개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -3825,8 +3825,8 @@
     {
       "id": "market",
       "name": "마케팅 조사팀",
-      "when": "2026-10-05T14:08:09.629978+09:00",
-      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 19편 · 근거 51개 · 실험 22개 · 새 자료 113건 · 영상 학습 52개",
+      "when": "2026-10-06T18:56:20.787313+09:00",
+      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 26편 · 근거 63개 · 실험 29개 · 새 자료 112건 · 영상 학습 52개",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -4052,7 +4052,7 @@
       "id": "legal",
       "name": "법률·규제팀",
       "when": "2026-10-05T01:36:34.144814+00:00",
-      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 10 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 62건 · 영상 학습 34개",
+      "summary": "자동 점검 10건 · 통과 0 · 등록 차단 10 · 참고 주의 10 · MoCRA 준비 1/7(면제 3) · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 68건 · 영상 학습 34개",
       "action": null,
       "action_kind": null,
       "waiting": "차단 10건: 셀더마데일리 PDRN 광채 크(자동 점검 미통과: lab), [피부결케어]VT 리들샷 30(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
@@ -4125,7 +4125,7 @@
       "id": "robotics",
       "name": "로보틱스 수집",
       "when": "2026-10-04T07:13:25.666391+00:00",
-      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 56건 · 영상 60편 자막 검토 대기",
+      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 55건 · 영상 60편 자막 검토 대기",
       "action": null,
       "action_kind": null,
       "waiting": null,
@@ -4180,7 +4180,7 @@
       "id": "design",
       "name": "디자인팀",
       "when": "2026-10-04T07:13:35.058922+00:00",
-      "summary": "스토어 2/12단계 · 오프라인 초안 3단계 · 레퍼런스 78건 (관련 44%) · 폰트 1950개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 70건 · 새 자료 141건 · 영상 학습 16개",
+      "summary": "스토어 2/12단계 · 오프라인 초안 3단계 · 레퍼런스 78건 (관련 44%) · 폰트 1950개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 70건 · 새 자료 135건 · 영상 학습 16개",
       "action": null,
       "action_kind": null,
       "waiting": "다음 단계: Shopify 스토어 개설 및 기본 설정",
@@ -5834,9 +5834,9 @@
         "candidates_new": 0,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 80.891,
-        "attempt_age_hours": 26.61,
-        "success_age_hours": 176.851,
+        "candidate_success_age_hours": 81.303,
+        "attempt_age_hours": 27.021,
+        "success_age_hours": 177.262,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": true,
@@ -5848,7 +5848,7 @@
         "단계": "고시 수집",
         "산출물": "gosi.json",
         "갱신": "2026-10-02T17:37:28.124430+00:00",
-        "몇시간전": 88.0
+        "몇시간전": 88.5
       },
       {
         "단계": "고시 비전 추출",
@@ -5866,26 +5866,26 @@
         "단계": "리스팅 카피",
         "산출물": "shopify_listing_copy.json",
         "갱신": "2026-10-03T11:53:10.648918+00:00",
-        "몇시간전": 69.8
+        "몇시간전": 70.2
       },
       {
         "단계": "등록 게이트",
         "산출물": "listing_gate.json",
         "갱신": "2026-10-05T04:27:35.700392+00:00",
-        "몇시간전": 29.2
+        "몇시간전": 29.6
       },
       {
         "단계": "법률 점검",
         "산출물": "legal_products.json",
         "갱신": "2026-10-05T01:36:34.144814+00:00",
-        "몇시간전": 32.1
+        "몇시간전": 32.5
       }
     ],
     "heartbeat": {
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (69.8시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (70.2시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 69.751,
+      "age_hours": 70.162,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -5901,9 +5901,9 @@
       "candidates_new": 0,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 80.891,
-      "attempt_age_hours": 26.61,
-      "success_age_hours": 176.851,
+      "candidate_success_age_hours": 81.303,
+      "attempt_age_hours": 27.021,
+      "success_age_hours": 177.262,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": true,
@@ -7998,9 +7998,9 @@
         "candidates_new": 0,
         "candidates_updated": 0,
         "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-        "candidate_success_age_hours": 80.891,
-        "attempt_age_hours": 26.61,
-        "success_age_hours": 176.851,
+        "candidate_success_age_hours": 81.303,
+        "attempt_age_hours": 27.021,
+        "success_age_hours": 177.262,
         "data_stale": true,
         "attempt_stale": false,
         "is_no_change": true,
@@ -8017,9 +8017,9 @@
       "candidates_new": 0,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 80.891,
-      "attempt_age_hours": 26.61,
-      "success_age_hours": 176.851,
+      "candidate_success_age_hours": 81.303,
+      "attempt_age_hours": 27.021,
+      "success_age_hours": 177.262,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": true,
@@ -8027,9 +8027,9 @@
     },
     "heartbeat": {
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (69.8시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (70.2시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 69.751,
+      "age_hours": 70.162,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -8289,28 +8289,29 @@
     "status": "evidence_ready",
     "source_coverage": {
       "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
-      "videos": 19,
-      "insights": 51,
+      "videos": 26,
+      "insights": 63,
       "pillars": {
         "acquisition": 2,
-        "aov": 9,
-        "creative": 5,
-        "cro": 7,
+        "aov": 11,
+        "creative": 6,
+        "cro": 9,
         "measurement": 2,
-        "positioning": 4,
-        "retention": 12,
-        "seo_geo": 9,
+        "positioning": 5,
+        "pricing": 1,
+        "retention": 15,
+        "seo_geo": 11,
         "social_proof": 1
       },
       "oldest_video_date": "2025-09-03",
-      "newest_video_date": "2026-10-02",
+      "newest_video_date": "2026-10-05",
       "source_file": "data/manual/shopify_youtube_insights.json"
     },
     "quality_gate": {
       "passed": true,
-      "video_count": 19,
-      "insight_count": 51,
-      "timestamped_evidence_count": 51,
+      "video_count": 26,
+      "insight_count": 63,
+      "timestamped_evidence_count": 63,
       "uncited_video_count": 0,
       "required_pillars_present": [
         "acquisition",
@@ -8861,6 +8862,181 @@
         ],
         "cost_mode": "free_local",
         "status": "ready_for_draft"
+      },
+      {
+        "id": "EXP-023",
+        "phase": "measurement",
+        "priority": 23,
+        "name": "모바일 성능 코호트·체크아웃 신뢰 감사",
+        "insight_ids": [
+          "MKT-052",
+          "MKT-053"
+        ],
+        "owner_teams": [
+          "market",
+          "listing",
+          "design",
+          "knowledge",
+          "legal"
+        ],
+        "action": "기기·브라우저·네트워크 코호트별 모바일 이탈을 비교하고 체크아웃에서 배송·반품·신뢰 정보를 찾으러 되돌아가는 구간을 우선 수정한다.",
+        "kpis": [
+          "mobile_cohort_conversion_gap",
+          "journey_error_rate",
+          "checkout_exit_to_storefront_rate",
+          "mobile_checkout_completion_rate"
+        ],
+        "cost_mode": "free_local",
+        "status": "blocked_until_store_analytics"
+      },
+      {
+        "id": "EXP-024",
+        "phase": "retention",
+        "priority": 24,
+        "name": "리텐션 플로우 제외·중복 제거 감사",
+        "insight_ids": [
+          "MKT-054",
+          "MKT-055",
+          "MKT-056"
+        ],
+        "owner_teams": [
+          "market",
+          "knowledge",
+          "legal"
+        ],
+        "action": "핵심 라이프사이클 플로우의 스킵·제외 규칙과 이메일·SMS 중복을 감사하고 분기별 kill list로 목적 없는 자동화를 승인·백업 후 제거한다.",
+        "kpis": [
+          "eligible_contact_skip_rate",
+          "unexplained_exclusion_count",
+          "cross_channel_overlap_rate",
+          "stale_automation_count"
+        ],
+        "cost_mode": "existing_stack_only",
+        "status": "blocked_until_store_and_consent"
+      },
+      {
+        "id": "EXP-025",
+        "phase": "prelaunch",
+        "priority": 25,
+        "name": "고객 선택형 번들·사은품 손익 모델",
+        "insight_ids": [
+          "MKT-057",
+          "MKT-058"
+        ],
+        "owner_teams": [
+          "pricing",
+          "sourcing",
+          "market",
+          "listing",
+          "design",
+          "legal"
+        ],
+        "action": "고정·믹스앤매치 번들을 고객 선택 필요도로 나누고 사은품 임계값별 원가·배송·반품을 계산해 기여이익이 남는 조합만 초안에 둔다.",
+        "kpis": [
+          "bundle_completion_rate",
+          "bundle_margin",
+          "gift_threshold_attach_rate",
+          "contribution_margin_per_order"
+        ],
+        "cost_mode": "free_local",
+        "status": "ready_for_modeling"
+      },
+      {
+        "id": "EXP-026",
+        "phase": "prelaunch",
+        "priority": 26,
+        "name": "톤·감정·가치 포지셔닝 지도",
+        "insight_ids": [
+          "MKT-059"
+        ],
+        "owner_teams": [
+          "market",
+          "design",
+          "listing",
+          "pricing"
+        ],
+        "action": "현재 브랜드와 경쟁 대안을 톤·감정·가치 축에 표시하고 목표 위치를 정한 뒤 PDP·이메일·유기 콘텐츠의 보이스 편차를 점검한다.",
+        "kpis": [
+          "positioning_consistency_rate",
+          "competitor_overlap_score",
+          "value_signal_comprehension",
+          "channel_voice_deviation"
+        ],
+        "cost_mode": "free_local",
+        "status": "ready_for_research"
+      },
+      {
+        "id": "EXP-027",
+        "phase": "prelaunch",
+        "priority": 27,
+        "name": "Search Console 컬렉션 기회 큐",
+        "insight_ids": [
+          "MKT-060",
+          "MKT-061"
+        ],
+        "owner_teams": [
+          "market",
+          "listing",
+          "design",
+          "knowledge",
+          "legal"
+        ],
+        "action": "비브랜드 쿼리를 랜딩페이지와 의도 클러스터로 연결하고 이미 노출되는 컬렉션부터 비교·선택 기준·FAQ·내부 링크 초안을 보강한다.",
+        "kpis": [
+          "query_page_mapping_coverage",
+          "collection_nonbrand_clicks",
+          "internal_link_coverage",
+          "collection_to_pdp_rate"
+        ],
+        "cost_mode": "free_local",
+        "status": "blocked_until_search_console_data"
+      },
+      {
+        "id": "EXP-028",
+        "phase": "launch",
+        "priority": 28,
+        "name": "시각 예시형 유기 크리에이터 브리프",
+        "insight_ids": [
+          "MKT-062"
+        ],
+        "owner_teams": [
+          "market",
+          "design",
+          "listing",
+          "legal"
+        ],
+        "action": "검증된 제품 사실·목표 고객·금지 클레임·참고 장면을 한 브리프에 묶어 기존 보유자산으로 유기 초안을 만들며 유료 제작·배포는 명시 승인 전 실행하지 않는다.",
+        "kpis": [
+          "brief_requirement_coverage",
+          "creator_revision_rate",
+          "organic_asset_acceptance_rate",
+          "creative_angle_coverage"
+        ],
+        "cost_mode": "free_organic",
+        "status": "ready_after_assets"
+      },
+      {
+        "id": "EXP-029",
+        "phase": "prelaunch",
+        "priority": 29,
+        "name": "프로모션 깊이·기간 기여이익 게이트",
+        "insight_ids": [
+          "MKT-063"
+        ],
+        "owner_teams": [
+          "pricing",
+          "market",
+          "knowledge"
+        ],
+        "action": "프로모션별 할인율·기간·매출·총이익·기여이익·운영비를 한 표에서 비교하고 이익이 악화되는 연장·심화 시나리오는 승인 큐에서 차단한다.",
+        "kpis": [
+          "promotion_contribution_margin",
+          "gross_margin_rate",
+          "discount_duration_days",
+          "profit_after_promotion"
+        ],
+        "cost_mode": "free_local",
+        "status": "ready_for_modeling"
       }
     ],
     "strategy_file": "data/shopify_marketing_strategy.json"
@@ -8926,7 +9102,7 @@
       "links": 360899
     },
     "since": "2026-08-23T05:21:53.378147+00:00",
-    "runs_recorded": 98
+    "runs_recorded": 100
   },
   "global_channels": {
     "allure_media": [
@@ -11634,7 +11810,7 @@
         "badge": "$46.00",
         "brand": "Then I Met You",
         "extraction_method": "catalog_file",
-        "price": 46.0,
+        "price": 46,
         "product": "Snail Mucin Eye Cream",
         "rank": 1,
         "rating": null,
@@ -11646,7 +11822,7 @@
         "badge": "$82.00",
         "brand": "IOPE",
         "extraction_method": "catalog_file",
-        "price": 82.0,
+        "price": 82,
         "product": "XMD Stem III Clinical Recovery Serum",
         "rank": 2,
         "rating": null,
@@ -11670,7 +11846,7 @@
         "badge": "$32.00",
         "brand": "NEOGEN",
         "extraction_method": "catalog_file",
-        "price": 32.0,
+        "price": 32,
         "product": "Day-Light Protection Airy Sunscreen",
         "rank": 4,
         "rating": null,
@@ -11682,7 +11858,7 @@
         "badge": "$23.00",
         "brand": "KLAIRS",
         "extraction_method": "catalog_file",
-        "price": 23.0,
+        "price": 23,
         "product": "Freshly Juiced Vitamin C Drop",
         "rank": 5,
         "rating": null,
@@ -11694,7 +11870,7 @@
         "badge": "$27.00",
         "brand": "HANSKIN",
         "extraction_method": "catalog_file",
-        "price": 27.0,
+        "price": 27,
         "product": "Pore Cleansing Oil [BHA]",
         "rank": 6,
         "rating": null,
@@ -11706,7 +11882,7 @@
         "badge": "$6.00",
         "brand": "the klog",
         "extraction_method": "catalog_file",
-        "price": 6.0,
+        "price": 6,
         "product": "Soft Shield Pimple Patch",
         "rank": 7,
         "rating": null,
@@ -11718,7 +11894,7 @@
         "badge": "$54.00",
         "brand": "MISSHA",
         "extraction_method": "catalog_file",
-        "price": 54.0,
+        "price": 54,
         "product": "Time Revolution Night Repair Ampoule 5X",
         "rank": 8,
         "rating": null,
@@ -11742,7 +11918,7 @@
         "badge": "$22.00",
         "brand": "NEOGEN",
         "extraction_method": "catalog_file",
-        "price": 22.0,
+        "price": 22,
         "product": "Green Tea Real Fresh Foam Cleanser",
         "rank": 11,
         "rating": null,
@@ -11754,7 +11930,7 @@
         "badge": "$14.00",
         "brand": "COSRX",
         "extraction_method": "catalog_file",
-        "price": 14.0,
+        "price": 14,
         "product": "Low-pH Good Morning Gel Cleanser",
         "rank": 12,
         "rating": null,
@@ -11766,7 +11942,7 @@
         "badge": "$20.00",
         "brand": "ROVECTIN",
         "extraction_method": "catalog_file",
-        "price": 20.0,
+        "price": 20,
         "product": "Calming Lotus Cream",
         "rank": 13,
         "rating": null,
@@ -11778,7 +11954,7 @@
         "badge": "$40.00",
         "brand": "Gleamin",
         "extraction_method": "catalog_file",
-        "price": 40.0,
+        "price": 40,
         "product": "Vitamin C Clay Mask",
         "rank": 14,
         "rating": null,
@@ -11790,7 +11966,7 @@
         "badge": "$25.00",
         "brand": "ACWELL",
         "extraction_method": "catalog_file",
-        "price": 25.0,
+        "price": 25,
         "product": "Licorice pH Balancing Advance Serum",
         "rank": 15,
         "rating": null,
@@ -11814,7 +11990,7 @@
         "badge": "$26.00",
         "brand": "KLAIRS",
         "extraction_method": "catalog_file",
-        "price": 26.0,
+        "price": 26,
         "product": "Rich Moist Soothing Cream",
         "rank": 17,
         "rating": null,
@@ -11838,7 +12014,7 @@
         "badge": "$29.00",
         "brand": "SATURDAY SKIN",
         "extraction_method": "catalog_file",
-        "price": 29.0,
+        "price": 29,
         "product": "Yuzu Vitamin C Sleep Mask",
         "rank": 19,
         "rating": null,
@@ -11850,7 +12026,7 @@
         "badge": "$18.00",
         "brand": "ACWELL",
         "extraction_method": "catalog_file",
-        "price": 18.0,
+        "price": 18,
         "product": "Licorice pH Balancing Cleansing Toner",
         "rank": 20,
         "rating": null,
@@ -11862,7 +12038,7 @@
         "badge": "$43.00",
         "brand": "IOPE",
         "extraction_method": "catalog_file",
-        "price": 43.0,
+        "price": 43,
         "product": "PDRN Caffeine Shot Serum",
         "rank": 21,
         "rating": null,
@@ -11874,7 +12050,7 @@
         "badge": "$28.00",
         "brand": "I'M FROM",
         "extraction_method": "catalog_file",
-        "price": 28.0,
+        "price": 28,
         "product": "Rice Toner",
         "rank": 22,
         "rating": null,
@@ -11886,7 +12062,7 @@
         "badge": "$39.00",
         "brand": "Then I Met You",
         "extraction_method": "catalog_file",
-        "price": 39.0,
+        "price": 39,
         "product": "Living Cleansing Balm",
         "rank": 23,
         "rating": null,
@@ -11910,7 +12086,7 @@
         "badge": "$69.00",
         "brand": "Dieux",
         "extraction_method": "catalog_file",
-        "price": 69.0,
+        "price": 69,
         "product": "Deliverance 3-in-1 Repair Serum",
         "rank": 25,
         "rating": null,
@@ -11922,7 +12098,7 @@
         "badge": "$19.00",
         "brand": "Biodance",
         "extraction_method": "catalog_file",
-        "price": 19.0,
+        "price": 19,
         "product": "Bio Collagen-Real Deep Mask (4 Pack)",
         "rank": 26,
         "rating": null,
@@ -11934,7 +12110,7 @@
         "badge": "$28.00",
         "brand": "ROUND LAB",
         "extraction_method": "catalog_file",
-        "price": 28.0,
+        "price": 28,
         "product": "Birch Juice Moisturizing UVLOCK SPF 45 Broad Spectrum",
         "rank": 27,
         "rating": null,
@@ -11946,7 +12122,7 @@
         "badge": "$17.00",
         "brand": "the klog",
         "extraction_method": "catalog_file",
-        "price": 17.0,
+        "price": 17,
         "product": "Snail Mucin Energy Essence",
         "rank": 28,
         "rating": null,
@@ -11958,7 +12134,7 @@
         "badge": "$21.00",
         "brand": "BANILA CO",
         "extraction_method": "catalog_file",
-        "price": 21.0,
+        "price": 21,
         "product": "Clean It Zero Cleansing Balm Original",
         "rank": 29,
         "rating": null,
@@ -11970,7 +12146,7 @@
         "badge": "$6.00",
         "brand": "NATURIUM",
         "extraction_method": "catalog_file",
-        "price": 6.0,
+        "price": 6,
         "product": "The Glow Getter Multi-Oil Body Wash",
         "rank": 30,
         "rating": null,
@@ -11994,7 +12170,7 @@
         "badge": "$81.00",
         "brand": "Then I Met You",
         "extraction_method": "catalog_file",
-        "price": 81.0,
+        "price": 81,
         "product": "The Skin Balancing Duo",
         "rank": 32,
         "rating": null,
@@ -12006,7 +12182,7 @@
         "badge": "$80.00",
         "brand": "IOPE",
         "extraction_method": "catalog_file",
-        "price": 80.0,
+        "price": 80,
         "product": "Retinol Expert 0.1%",
         "rank": 33,
         "rating": null,
@@ -12018,7 +12194,7 @@
         "badge": "$54.00",
         "brand": "MISSHA",
         "extraction_method": "catalog_file",
-        "price": 54.0,
+        "price": 54,
         "product": "Time Revolution The First Essence 5x",
         "rank": 34,
         "rating": null,
@@ -12030,7 +12206,7 @@
         "badge": "$69.00",
         "brand": "IOPE",
         "extraction_method": "catalog_file",
-        "price": 69.0,
+        "price": 69,
         "product": "XMD Stem III Clinical Recovery Cream",
         "rank": 35,
         "rating": null,
@@ -12042,7 +12218,7 @@
         "badge": "$22.00",
         "brand": "NEOGEN",
         "extraction_method": "catalog_file",
-        "price": 22.0,
+        "price": 22,
         "product": "Real Fresh Green Tea Cleansing Stick",
         "rank": 37,
         "rating": null,
@@ -12054,7 +12230,7 @@
         "badge": "$27.00",
         "brand": "NEOGEN",
         "extraction_method": "catalog_file",
-        "price": 27.0,
+        "price": 27,
         "product": "Bio-Peel Gauze Peeling Lemon",
         "rank": 38,
         "rating": null,
@@ -12066,7 +12242,7 @@
         "badge": "$24.00",
         "brand": "ACWELL",
         "extraction_method": "catalog_file",
-        "price": 24.0,
+        "price": 24,
         "product": "Licorice pH Balancing Essence Mist",
         "rank": 39,
         "rating": null,
@@ -12078,7 +12254,7 @@
         "badge": "$46.00",
         "brand": "Then I Met You",
         "extraction_method": "catalog_file",
-        "price": 46.0,
+        "price": 46,
         "product": "Bong² Bounce Cream",
         "rank": 40,
         "rating": null,
@@ -12090,7 +12266,7 @@
         "badge": "$31.00",
         "brand": "KLAIRS",
         "extraction_method": "catalog_file",
-        "price": 31.0,
+        "price": 31,
         "product": "Midnight Blue Calming Cream",
         "rank": 41,
         "rating": null,
@@ -12102,7 +12278,7 @@
         "badge": "$25.00",
         "brand": "HANSKIN",
         "extraction_method": "catalog_file",
-        "price": 25.0,
+        "price": 25,
         "product": "Hyaluron Skin Essence",
         "rank": 42,
         "rating": null,
@@ -12114,7 +12290,7 @@
         "badge": "$27.00",
         "brand": "NEOGEN",
         "extraction_method": "catalog_file",
-        "price": 27.0,
+        "price": 27,
         "product": "Bio-Peel Gauze Peeling Wine",
         "rank": 43,
         "rating": null,
@@ -12126,7 +12302,7 @@
         "badge": "$30.00",
         "brand": "HANSKIN",
         "extraction_method": "catalog_file",
-        "price": 30.0,
+        "price": 30,
         "product": "Real Complexion Hyaluron Moisture Cream",
         "rank": 44,
         "rating": null,
@@ -12150,7 +12326,7 @@
         "badge": "$37.00",
         "brand": "BRITISH M",
         "extraction_method": "catalog_file",
-        "price": 37.0,
+        "price": 37,
         "product": "Annatto Hair Oil",
         "rank": 46,
         "rating": null,
@@ -12162,7 +12338,7 @@
         "badge": "$120.00",
         "brand": "IOPE",
         "extraction_method": "catalog_file",
-        "price": 120.0,
+        "price": 120,
         "product": "Retinol Expert 0.3%",
         "rank": 47,
         "rating": null,
@@ -12174,7 +12350,7 @@
         "badge": "$53.00",
         "brand": "Then I Met You",
         "extraction_method": "catalog_file",
-        "price": 53.0,
+        "price": 53,
         "product": "The Giving Essence",
         "rank": 48,
         "rating": null,
@@ -12186,7 +12362,7 @@
         "badge": "$49.00",
         "brand": "IOPE",
         "extraction_method": "catalog_file",
-        "price": 49.0,
+        "price": 49,
         "product": "Expert Retinol Super Bounce Serum",
         "rank": 49,
         "rating": null,
@@ -12198,7 +12374,7 @@
         "badge": "$40.00",
         "brand": "I'M FROM",
         "extraction_method": "catalog_file",
-        "price": 40.0,
+        "price": 40,
         "product": "Mugwort Essence",
         "rank": 50,
         "rating": null,
@@ -12210,7 +12386,7 @@
         "badge": "$60.00",
         "brand": "Then I Met You",
         "extraction_method": "catalog_file",
-        "price": 60.0,
+        "price": 60,
         "product": "Renewing Rich Beauty Cream",
         "rank": 51,
         "rating": null,
@@ -12222,7 +12398,7 @@
         "badge": "$34.00",
         "brand": "Live Tinted",
         "extraction_method": "catalog_file",
-        "price": 34.0,
+        "price": 34,
         "product": "HUEGUARD® 3-in-1 Mineral Sunscreen SPF 30",
         "rank": 52,
         "rating": null,
@@ -12234,7 +12410,7 @@
         "badge": "$22.00",
         "brand": "Haruharu Wonder",
         "extraction_method": "catalog_file",
-        "price": 22.0,
+        "price": 22,
         "product": "Black Rice Hyaluronic Toner",
         "rank": 53,
         "rating": null,
@@ -12246,7 +12422,7 @@
         "badge": "$22.00",
         "brand": "COSRX",
         "extraction_method": "catalog_file",
-        "price": 22.0,
+        "price": 22,
         "product": "Advanced Snail Peptide Eye Cream",
         "rank": 54,
         "rating": null,
@@ -12258,7 +12434,7 @@
         "badge": "$38.00",
         "brand": "NEOGEN",
         "extraction_method": "catalog_file",
-        "price": 38.0,
+        "price": 38,
         "product": "Real Ferment Micro Essence",
         "rank": 55,
         "rating": null,
@@ -12270,7 +12446,7 @@
         "badge": "$28.00",
         "brand": "Abib",
         "extraction_method": "catalog_file",
-        "price": 28.0,
+        "price": 28,
         "product": "Airy Sunstick Smoothing Bar SPF 50+",
         "rank": 56,
         "rating": null,
@@ -12282,7 +12458,7 @@
         "badge": "$32.00",
         "brand": "SATURDAY SKIN",
         "extraction_method": "catalog_file",
-        "price": 32.0,
+        "price": 32,
         "product": "Yuzu Vitamin C Bright Eye Cream",
         "rank": 57,
         "rating": null,
@@ -12294,7 +12470,7 @@
         "badge": "$35.00",
         "brand": "Then I Met You",
         "extraction_method": "catalog_file",
-        "price": 35.0,
+        "price": 35,
         "product": "Birch Milk Refining Toner",
         "rank": 58,
         "rating": null,
@@ -12306,7 +12482,7 @@
         "badge": "$38.00",
         "brand": "NEOGEN",
         "extraction_method": "catalog_file",
-        "price": 38.0,
+        "price": 38,
         "product": "Dermalogy Real Vitamin C Serum",
         "rank": 59,
         "rating": null,
@@ -12318,7 +12494,7 @@
         "badge": "$45.00",
         "brand": "Dieux",
         "extraction_method": "catalog_file",
-        "price": 45.0,
+        "price": 45,
         "product": "Instant Angel Lipid-Rich Firming Moisturizer",
         "rank": 60,
         "rating": null,
@@ -12330,7 +12506,7 @@
         "badge": "$17.00",
         "brand": "NATURIUM",
         "extraction_method": "catalog_file",
-        "price": 17.0,
+        "price": 17,
         "product": "The Smoother Glycolic Acid Exfoliating Body Wash",
         "rank": 61,
         "rating": null,
@@ -12342,7 +12518,7 @@
         "badge": "$25.00",
         "brand": "SATURDAY SKIN",
         "extraction_method": "catalog_file",
-        "price": 25.0,
+        "price": 25,
         "product": "Waterfall Glacier Water Cream",
         "rank": 62,
         "rating": null,
@@ -13323,7 +13499,7 @@
     "wikipedia_interest": [
       {
         "badge": "+134.0%",
-        "change_pct": 134.0,
+        "change_pct": 134,
         "product": "Niacinamide",
         "sub": "일평균 75회",
         "url": "https://en.wikipedia.org/wiki/Niacinamide"
@@ -13381,7 +13557,7 @@
   },
   "global_channels_status": {
     "allure_media": {
-      "age_hours": 76.135,
+      "age_hours": 76.547,
       "collected_at": "2026-10-03T05:31:54.270806+00:00",
       "count": 30,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.2일).",
@@ -13396,7 +13572,7 @@
       "trust": "stale"
     },
     "amazon_best_sellers": {
-      "age_hours": 81.663,
+      "age_hours": 82.074,
       "collected_at": "2026-10-03T00:00:16.477735+00:00",
       "count": 46,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.4일).",
@@ -13410,7 +13586,7 @@
       "trust": "stale"
     },
     "amazon_movers_beauty": {
-      "age_hours": 81.663,
+      "age_hours": 82.074,
       "collected_at": "2026-10-03T00:00:16.479114+00:00",
       "count": 0,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.4일).",
@@ -13424,7 +13600,7 @@
       "trust": "none"
     },
     "amazon_new_beauty": {
-      "age_hours": 81.663,
+      "age_hours": 82.074,
       "collected_at": "2026-10-03T00:00:16.479473+00:00",
       "count": 46,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.4일).",
@@ -13438,7 +13614,7 @@
       "trust": "stale"
     },
     "google_trends_us": {
-      "age_hours": 69.948,
+      "age_hours": 70.359,
       "collected_at": "2026-10-03T11:43:10.737881+00:00",
       "count": 40,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (2.9일).",
@@ -13452,7 +13628,7 @@
       "trust": "stale"
     },
     "oliveyoung_us": {
-      "age_hours": 69.963,
+      "age_hours": 70.374,
       "collected_at": "2026-10-03T11:42:15.459821+00:00",
       "count": 60,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (2.9일).",
@@ -13466,7 +13642,7 @@
       "trust": "stale"
     },
     "open_beauty_facts": {
-      "age_hours": 69.963,
+      "age_hours": 70.374,
       "collected_at": "2026-10-03T11:42:14.985203+00:00",
       "count": 60,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (2.9일).",
@@ -13480,7 +13656,7 @@
       "trust": "stale"
     },
     "openfda_sunscreen": {
-      "age_hours": 76.135,
+      "age_hours": 76.547,
       "collected_at": "2026-10-03T05:31:54.270806+00:00",
       "count": 20,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.2일).",
@@ -13495,7 +13671,7 @@
       "trust": "stale"
     },
     "sephora": {
-      "age_hours": 81.663,
+      "age_hours": 82.074,
       "collected_at": "2026-10-03T00:00:16.480361+00:00",
       "count": 14,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.4일).",
@@ -13523,7 +13699,7 @@
       "trust": "unverified"
     },
     "sokoglam_us": {
-      "age_hours": 69.792,
+      "age_hours": 70.204,
       "collected_at": "2026-10-03T11:52:29.376541+00:00",
       "count": 60,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (2.9일).",
@@ -13551,7 +13727,7 @@
       "trust": "unverified"
     },
     "ulta_beauty": {
-      "age_hours": 81.663,
+      "age_hours": 82.074,
       "collected_at": "2026-10-03T00:00:16.480361+00:00",
       "count": 60,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.4일).",
@@ -13565,7 +13741,7 @@
       "trust": "stale"
     },
     "walmart_beauty": {
-      "age_hours": 502.344,
+      "age_hours": 502.755,
       "collected_at": "2026-09-15T11:19:23.782Z",
       "count": 39,
       "freshness_reason": "2026-09-15 이후 갱신 없음 (20.9일).",
@@ -13579,7 +13755,7 @@
       "trust": "stale"
     },
     "wikipedia_interest": {
-      "age_hours": 76.135,
+      "age_hours": 76.547,
       "collected_at": "2026-10-03T05:31:54.270806+00:00",
       "count": 8,
       "freshness_reason": "2026-10-03 이후 갱신 없음 (3.2일).",

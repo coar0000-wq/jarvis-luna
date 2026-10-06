@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T13:27:36.052199+09:00",
+  "generated_at": "2026-10-06T18:15:14.194649+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -11,28 +11,29 @@
   },
   "source_coverage": {
     "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
-    "videos": 19,
-    "insights": 51,
+    "videos": 26,
+    "insights": 63,
     "pillars": {
       "acquisition": 2,
-      "aov": 9,
-      "creative": 5,
-      "cro": 7,
+      "aov": 11,
+      "creative": 6,
+      "cro": 9,
       "measurement": 2,
-      "positioning": 4,
-      "retention": 12,
-      "seo_geo": 9,
+      "positioning": 5,
+      "pricing": 1,
+      "retention": 15,
+      "seo_geo": 11,
       "social_proof": 1
     },
     "oldest_video_date": "2025-09-03",
-    "newest_video_date": "2026-10-02",
+    "newest_video_date": "2026-10-05",
     "source_file": "data/manual/shopify_youtube_insights.json"
   },
   "quality_gate": {
     "passed": true,
-    "video_count": 19,
-    "insight_count": 51,
-    "timestamped_evidence_count": 51,
+    "video_count": 26,
+    "insight_count": 63,
+    "timestamped_evidence_count": 63,
     "uncited_video_count": 0,
     "required_pillars_present": [
       "acquisition",
@@ -195,6 +196,62 @@
       "published_at": "2026-09-17",
       "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
       "role": "PDP·카트 의사결정 CRO"
+    },
+    {
+      "video_id": "HWemm5oHxW8",
+      "title": "Test Now or Pray Later: Peak Season CRO with Georgi Petrov & Blake Waldron (Global Compass Series)",
+      "channel": "The Shopify App Show",
+      "published_at": "2026-10-05",
+      "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
+      "role": "피크 시즌 모바일·체크아웃 CRO 운영"
+    },
+    {
+      "video_id": "owVMPQAUrOg",
+      "title": "The More Flows You Add to Klaviyo, The Less Money You Make",
+      "channel": "Mark Milutin",
+      "published_at": "2026-10-03",
+      "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
+      "role": "이메일 리텐션 플로우·제외 규칙 감사"
+    },
+    {
+      "video_id": "7vQ77-jZ_8o",
+      "title": "Every Shopify Bundle Type Explained (With Store Examples)",
+      "channel": "Simple Bundles & Kits",
+      "published_at": "2026-10-01",
+      "url": "https://www.youtube.com/watch?v=7vQ77-jZ_8o",
+      "role": "번들 선택 구조·마진 방어 오퍼"
+    },
+    {
+      "video_id": "d7vmkHmL3dQ",
+      "title": "How to build a brand that is 1 of 1",
+      "channel": "Nathan Lee",
+      "published_at": "2026-10-05",
+      "url": "https://www.youtube.com/watch?v=d7vmkHmL3dQ",
+      "role": "브랜드 포지셔닝 축·경쟁 지도"
+    },
+    {
+      "video_id": "j5vrOvca26A",
+      "title": "Codex + Shopify = INSANE SEO Growth!",
+      "channel": "Ryan AI SEO Tips",
+      "published_at": "2026-10-05",
+      "url": "https://www.youtube.com/watch?v=j5vrOvca26A",
+      "role": "Search Console 기반 Shopify SEO 기회 진단"
+    },
+    {
+      "video_id": "Ghynj9iBn84",
+      "title": "The Video Volume Secret Behind Every Winning TikTok Shop Program",
+      "channel": "Common Thread Collective",
+      "published_at": "2026-09-29",
+      "url": "https://www.youtube.com/watch?v=Ghynj9iBn84",
+      "role": "크리에이터 광고 크리에이티브 브리프"
+    },
+    {
+      "video_id": "LEYWu0S7lfI",
+      "title": "Your Black Friday Sale Doesn’t Need to Last All November",
+      "channel": "Common Thread Collective",
+      "published_at": "2026-10-02",
+      "url": "https://www.youtube.com/watch?v=LEYWu0S7lfI",
+      "role": "할인 기간·기여이익 가드레일"
     }
   ],
   "evidence_insights": [
@@ -1697,6 +1754,378 @@
       ],
       "applicability": "PDP·오퍼·카트의 신뢰·비교 개선 시",
       "confidence": "high"
+    },
+    {
+      "id": "MKT-052",
+      "pillar": "cro",
+      "tactic": "모바일을 단일 기기가 아닌 성능 코호트로 진단",
+      "action": "모바일 전환을 하나의 평균으로 보지 말고 화면 폭, 브라우저, 네트워크·기기 성능 코호트별로 여정 이탈과 오작동을 기록한 뒤 가장 큰 마찰 한 가지씩만 수정한다.",
+      "evidence": {
+        "video_id": "HWemm5oHxW8",
+        "timestamp": "02:17-03:42",
+        "summary": "모바일 방문자는 기기·브라우저·네트워크 조건이 달라 서로 다른 마찰을 겪으므로 전체 여정을 관찰하고 코호트별로 시험해야 함"
+      },
+      "prerequisites": [
+        "기기·브라우저 집계",
+        "페이지 단계별 이벤트",
+        "개인정보 최소화",
+        "모바일 QA 기기표"
+      ],
+      "kpis": [
+        "mobile_cohort_conversion_gap",
+        "journey_error_rate",
+        "mobile_pdp_to_cart_rate",
+        "mobile_checkout_completion_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "knowledge"
+      ],
+      "applicability": "모바일 트래픽과 전환 데이터가 확보된 뒤",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-053",
+      "pillar": "cro",
+      "tactic": "체크아웃 이탈 전 정책·신뢰 정보 보강",
+      "action": "소셜·직접 구매처럼 PDP 체류가 짧은 방문자가 체크아웃에서 매장을 이탈하지 않도록 배송 시점, 반품 정책, 검증 신뢰 요소를 주문 맥락에 맞게 짧고 정확하게 제공한다.",
+      "evidence": {
+        "video_id": "HWemm5oHxW8",
+        "timestamp": "06:00-07:07",
+        "summary": "스토어 경험이 짧은 고객은 체크아웃에서 배송·반품·브랜드 신뢰를 다시 찾기 위해 이탈할 수 있어 필요한 콘텐츠를 그 지점에 제공해야 함"
+      },
+      "prerequisites": [
+        "정확한 배송 시점",
+        "반품 정책",
+        "검증 가능한 신뢰 요소",
+        "체크아웃 확장 권한 검토"
+      ],
+      "kpis": [
+        "checkout_exit_to_storefront_rate",
+        "checkout_completion_rate",
+        "shipping_policy_visibility",
+        "trust_content_interaction_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "legal"
+      ],
+      "applicability": "체크아웃 이탈과 정책 문의가 관찰될 때",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-054",
+      "pillar": "retention",
+      "tactic": "플로우 수익보다 제외·스킵 원인 우선 감사",
+      "action": "장바구니·체크아웃·구매 후 등 핵심 플로우마다 skipped activity와 필터를 열어 대상 고객이 빠지는 이유를 기록하고 담당자가 설명하지 못하는 오래된 제외 규칙을 검토 큐로 보낸다.",
+      "evidence": {
+        "video_id": "owVMPQAUrOg",
+        "timestamp": "01:22-02:14",
+        "summary": "플로우 성과 화면에 들어오지 못한 고객은 보이지 않으므로 수익뿐 아니라 누가 어떤 제외 규칙으로 스킵됐는지 감사해야 함"
+      },
+      "prerequisites": [
+        "동의 기반 발송 계정",
+        "플로우 진입·스킵 로그",
+        "필터 소유자",
+        "구매 종료 조건"
+      ],
+      "kpis": [
+        "eligible_contact_skip_rate",
+        "unexplained_exclusion_count",
+        "flow_entry_coverage",
+        "purchase_exit_success_rate"
+      ],
+      "teams": [
+        "market",
+        "legal",
+        "knowledge"
+      ],
+      "applicability": "기존 이메일 자동화가 누적된 계정",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-055",
+      "pillar": "retention",
+      "tactic": "핵심 라이프사이클 플로우와 채널 책임 분리",
+      "action": "웰컴·탐색·장바구니·체크아웃·구매 후·윈백·선셋을 핵심 여정으로 두고 각 분기는 측정 가능한 이유가 있을 때만 유지하며 이메일과 SMS는 기대·긴급도·빈도가 달라 별도 규칙으로 관리한다.",
+      "evidence": {
+        "video_id": "owVMPQAUrOg",
+        "timestamp": "02:17-03:07",
+        "summary": "소수 핵심 라이프사이클 여정에 목적 있는 분기만 두고 이메일과 SMS의 서로 다른 cadence와 고객 기대를 분리해야 함"
+      },
+      "prerequisites": [
+        "핵심 여정 목록",
+        "채널별 동의 상태",
+        "분기별 목적·소유자",
+        "빈도 제한"
+      ],
+      "kpis": [
+        "purpose_documented_branch_rate",
+        "cross_channel_overlap_rate",
+        "unsubscribe_rate",
+        "flow_order_rate"
+      ],
+      "teams": [
+        "market",
+        "legal",
+        "knowledge"
+      ],
+      "applicability": "이메일·SMS 자동화를 함께 운영할 때",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-056",
+      "pillar": "retention",
+      "tactic": "분기별 자동화 제거 목록 운영",
+      "action": "분기마다 종료된 테스트, 중복 세그먼트, 오래된 폼·캠페인·통합, 성과와 목적이 불명확한 규칙을 kill list에 모아 백업·승인 후 제거하고 변경 전후 진입률과 주문률을 비교한다.",
+      "evidence": {
+        "video_id": "owVMPQAUrOg",
+        "timestamp": "04:34-05:30",
+        "summary": "좋은 시스템은 시간이 지나며 단순해져야 하므로 겹치는 기능과 끝난 실험, 설명 불가능한 제외·세그먼트를 정기적으로 제거"
+      },
+      "prerequisites": [
+        "자동화 자산 목록",
+        "변경 승인·롤백 절차",
+        "플로우별 성과 기록",
+        "동의·법률 검토"
+      ],
+      "kpis": [
+        "stale_automation_count",
+        "duplicate_segment_count",
+        "flow_entry_coverage",
+        "change_regression_rate"
+      ],
+      "teams": [
+        "market",
+        "knowledge",
+        "legal"
+      ],
+      "applicability": "분기별 리텐션 운영 검토",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-057",
+      "pillar": "aov",
+      "tactic": "고객 선택 필요도에 따라 고정·믹스앤매치 번들 분기",
+      "action": "구성 선택 부담이 낮은 루틴·스타터 세트는 고정 번들로, 취향·색상·향·용량 선택이 핵심인 세트는 믹스앤매치로 설계하고 완성률과 마진을 함께 비교한다.",
+      "evidence": {
+        "video_id": "7vQ77-jZ_8o",
+        "timestamp": "01:04-02:24",
+        "summary": "고정 번들은 미리 정한 구성을 제공하고 믹스앤매치는 고객이 여러 구성요소를 직접 선택하므로 구매 상황에 따라 구조를 달리해야 함"
+      },
+      "prerequisites": [
+        "호환 가능한 SKU",
+        "재고 동기화",
+        "번들별 원가",
+        "모바일 선택 UI"
+      ],
+      "kpis": [
+        "bundle_completion_rate",
+        "bundle_margin",
+        "mix_match_abandonment_rate",
+        "bundle_attach_rate"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "listing",
+        "design",
+        "sourcing"
+      ],
+      "applicability": "검증된 기존 SKU로 번들을 설계할 때",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-058",
+      "pillar": "aov",
+      "tactic": "급격한 할인 대신 마진 검토된 사은품 임계값",
+      "action": "재고 소진 목적의 사은품은 정상 판매가 어려운 검증 SKU를 임계 주문금액과 연결하되 원가·배송비·반품 영향을 계산하고 기여이익이 음수인 조합은 노출하지 않는다.",
+      "evidence": {
+        "video_id": "7vQ77-jZ_8o",
+        "timestamp": "13:16-13:45",
+        "summary": "무료 사은품은 큰 할인 대신 장바구니를 유도하고 저회전 재고를 높은 주문가치 번들과 연결할 수 있지만 건강한 마진을 고려해야 함"
+      },
+      "prerequisites": [
+        "사은품 재고·원가",
+        "주문금액 분포",
+        "추가 배송비",
+        "반품·증정 정책"
+      ],
+      "kpis": [
+        "gift_threshold_attach_rate",
+        "incremental_aov",
+        "contribution_margin_per_order",
+        "gift_inventory_age"
+      ],
+      "teams": [
+        "pricing",
+        "sourcing",
+        "market",
+        "legal"
+      ],
+      "applicability": "기존 재고와 마진 데이터가 검증된 경우",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-059",
+      "pillar": "positioning",
+      "tactic": "톤·감정·가치 축으로 경쟁 포지셔닝 지도",
+      "action": "브랜드의 말하는 주체와 활동성, 고객에게 주려는 감정, 가격 대비 가치 신호를 축으로 현재 위치·경쟁 위치·목표 위치를 한 장에 표시하고 채널별 카피가 같은 위치를 유지하는지 점검한다.",
+      "evidence": {
+        "video_id": "d7vmkHmL3dQ",
+        "timestamp": "01:15-02:01",
+        "summary": "브랜드 포지셔닝을 tone, vibes, value 세 요소로 나누고 현재·경쟁사·목표 위치를 지도에 표시하는 절차를 제시"
+      },
+      "prerequisites": [
+        "경쟁 브랜드 표본",
+        "현재 채널 카피",
+        "가격·가치 사실",
+        "고객 언어"
+      ],
+      "kpis": [
+        "positioning_consistency_rate",
+        "competitor_overlap_score",
+        "value_signal_comprehension",
+        "channel_voice_deviation"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "pricing"
+      ],
+      "applicability": "브랜드 보이스·가격 메시지 정비 전",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-060",
+      "pillar": "seo_geo",
+      "tactic": "Search Console 쿼리-페이지 수요 연결",
+      "action": "Search Console에서 비브랜드 질의를 랜딩페이지와 묶고 유사 표현을 구매 의도 클러스터로 통합해 이미 노출되지만 충분히 회수하지 못하는 페이지를 우선 개선 후보로 만든다.",
+      "evidence": {
+        "video_id": "j5vrOvca26A",
+        "timestamp": "03:23-03:53",
+        "summary": "검색어와 Google이 노출한 페이지를 연결하고 유사 키워드를 정확 일치가 아닌 의도 클러스터로 묶어 개선 대상을 정함"
+      },
+      "prerequisites": [
+        "Google Search Console 접근",
+        "비브랜드 쿼리 구분",
+        "랜딩페이지 매핑",
+        "최종 확정 기간 데이터"
+      ],
+      "kpis": [
+        "query_page_mapping_coverage",
+        "intent_cluster_count",
+        "nonbrand_impression_coverage",
+        "priority_page_count"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "knowledge"
+      ],
+      "applicability": "Search Console 데이터가 있는 Shopify 스토어",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-061",
+      "pillar": "seo_geo",
+      "tactic": "노출 중인 컬렉션 페이지를 선택 가이드로 보강",
+      "action": "이미 관련성이 관찰된 컬렉션 페이지부터 제목·메타·짧은 도입, 제품 비교, 선택 기준, 사실 기반 FAQ와 자연스러운 내부 링크를 보강하고 색인·클릭·주문 변화를 기록한다.",
+      "evidence": {
+        "video_id": "j5vrOvca26A",
+        "timestamp": "05:15-06:45",
+        "summary": "관련성이 있지만 콘텐츠가 얕은 컬렉션에 제목·메타·도입·비교·선택 안내·FAQ·내부 링크를 집중 보강하는 흐름"
+      },
+      "prerequisites": [
+        "우선 컬렉션 페이지",
+        "제품 사실 비교",
+        "FAQ 근거",
+        "내부 링크 원장",
+        "법률 검토"
+      ],
+      "kpis": [
+        "collection_search_ctr",
+        "collection_nonbrand_clicks",
+        "internal_link_coverage",
+        "collection_to_pdp_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "knowledge",
+        "legal"
+      ],
+      "applicability": "검색 노출은 있으나 클릭·전환이 약한 컬렉션",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-062",
+      "pillar": "creative",
+      "tactic": "텍스트 지시보다 시각 예시 중심 크리에이터 브리프",
+      "action": "유기 크리에이터 브리프에 제품 사실, 목표 고객, 금지 클레임과 함께 참고 영상·장면 예시를 넣고 제출물은 훅·각도·증거 태그로 분류해 재사용 가능한 학습 원장으로 만든다.",
+      "evidence": {
+        "video_id": "Ghynj9iBn84",
+        "timestamp": "17:02-18:20",
+        "summary": "크리에이터 브리프를 시각적으로 구성하고 예시 영상, 제품 하이라이트, 목표 고객을 앞에 두어 제작 방향을 명확히 함"
+      },
+      "prerequisites": [
+        "검증 제품 사실",
+        "목표 고객 근거",
+        "참고 영상 권리 확인",
+        "금지 클레임 목록",
+        "크리에이티브 태그"
+      ],
+      "kpis": [
+        "brief_requirement_coverage",
+        "creator_revision_rate",
+        "organic_asset_acceptance_rate",
+        "creative_angle_coverage"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "유기 UGC 브리프 작성 시, 유료 배포는 별도 승인",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-063",
+      "pillar": "pricing",
+      "tactic": "할인 깊이·기간을 기여이익 변화와 함께 승인",
+      "action": "프로모션을 연장하거나 할인율을 높이기 전에 매출뿐 아니라 총이익률·기여이익·운영비를 같은 표에서 비교하고 전년 대비 매출 목표 때문에 더 깊고 긴 할인을 자동 반복하지 않는다.",
+      "evidence": {
+        "video_id": "LEYWu0S7lfI",
+        "timestamp": "17:15-17:24",
+        "summary": "할인을 더 깊고 오래 운영하면 매출은 늘어도 총이익률·기여이익·이익이 함께 악화될 수 있다는 운영 위험"
+      },
+      "prerequisites": [
+        "프로모션별 매출",
+        "상품 원가",
+        "할인 비용",
+        "변동 운영비",
+        "환불·배송비"
+      ],
+      "kpis": [
+        "promotion_contribution_margin",
+        "gross_margin_rate",
+        "discount_duration_days",
+        "profit_after_promotion"
+      ],
+      "teams": [
+        "pricing",
+        "market",
+        "knowledge"
+      ],
+      "applicability": "할인 기간·깊이 승인 전",
+      "confidence": "medium"
     }
   ],
   "execution_experiments": [
@@ -2234,6 +2663,181 @@
       ],
       "cost_mode": "free_local",
       "status": "ready_for_draft"
+    },
+    {
+      "id": "EXP-023",
+      "phase": "measurement",
+      "priority": 23,
+      "name": "모바일 성능 코호트·체크아웃 신뢰 감사",
+      "insight_ids": [
+        "MKT-052",
+        "MKT-053"
+      ],
+      "owner_teams": [
+        "market",
+        "listing",
+        "design",
+        "knowledge",
+        "legal"
+      ],
+      "action": "기기·브라우저·네트워크 코호트별 모바일 이탈을 비교하고 체크아웃에서 배송·반품·신뢰 정보를 찾으러 되돌아가는 구간을 우선 수정한다.",
+      "kpis": [
+        "mobile_cohort_conversion_gap",
+        "journey_error_rate",
+        "checkout_exit_to_storefront_rate",
+        "mobile_checkout_completion_rate"
+      ],
+      "cost_mode": "free_local",
+      "status": "blocked_until_store_analytics"
+    },
+    {
+      "id": "EXP-024",
+      "phase": "retention",
+      "priority": 24,
+      "name": "리텐션 플로우 제외·중복 제거 감사",
+      "insight_ids": [
+        "MKT-054",
+        "MKT-055",
+        "MKT-056"
+      ],
+      "owner_teams": [
+        "market",
+        "knowledge",
+        "legal"
+      ],
+      "action": "핵심 라이프사이클 플로우의 스킵·제외 규칙과 이메일·SMS 중복을 감사하고 분기별 kill list로 목적 없는 자동화를 승인·백업 후 제거한다.",
+      "kpis": [
+        "eligible_contact_skip_rate",
+        "unexplained_exclusion_count",
+        "cross_channel_overlap_rate",
+        "stale_automation_count"
+      ],
+      "cost_mode": "existing_stack_only",
+      "status": "blocked_until_store_and_consent"
+    },
+    {
+      "id": "EXP-025",
+      "phase": "prelaunch",
+      "priority": 25,
+      "name": "고객 선택형 번들·사은품 손익 모델",
+      "insight_ids": [
+        "MKT-057",
+        "MKT-058"
+      ],
+      "owner_teams": [
+        "pricing",
+        "sourcing",
+        "market",
+        "listing",
+        "design",
+        "legal"
+      ],
+      "action": "고정·믹스앤매치 번들을 고객 선택 필요도로 나누고 사은품 임계값별 원가·배송·반품을 계산해 기여이익이 남는 조합만 초안에 둔다.",
+      "kpis": [
+        "bundle_completion_rate",
+        "bundle_margin",
+        "gift_threshold_attach_rate",
+        "contribution_margin_per_order"
+      ],
+      "cost_mode": "free_local",
+      "status": "ready_for_modeling"
+    },
+    {
+      "id": "EXP-026",
+      "phase": "prelaunch",
+      "priority": 26,
+      "name": "톤·감정·가치 포지셔닝 지도",
+      "insight_ids": [
+        "MKT-059"
+      ],
+      "owner_teams": [
+        "market",
+        "design",
+        "listing",
+        "pricing"
+      ],
+      "action": "현재 브랜드와 경쟁 대안을 톤·감정·가치 축에 표시하고 목표 위치를 정한 뒤 PDP·이메일·유기 콘텐츠의 보이스 편차를 점검한다.",
+      "kpis": [
+        "positioning_consistency_rate",
+        "competitor_overlap_score",
+        "value_signal_comprehension",
+        "channel_voice_deviation"
+      ],
+      "cost_mode": "free_local",
+      "status": "ready_for_research"
+    },
+    {
+      "id": "EXP-027",
+      "phase": "prelaunch",
+      "priority": 27,
+      "name": "Search Console 컬렉션 기회 큐",
+      "insight_ids": [
+        "MKT-060",
+        "MKT-061"
+      ],
+      "owner_teams": [
+        "market",
+        "listing",
+        "design",
+        "knowledge",
+        "legal"
+      ],
+      "action": "비브랜드 쿼리를 랜딩페이지와 의도 클러스터로 연결하고 이미 노출되는 컬렉션부터 비교·선택 기준·FAQ·내부 링크 초안을 보강한다.",
+      "kpis": [
+        "query_page_mapping_coverage",
+        "collection_nonbrand_clicks",
+        "internal_link_coverage",
+        "collection_to_pdp_rate"
+      ],
+      "cost_mode": "free_local",
+      "status": "blocked_until_search_console_data"
+    },
+    {
+      "id": "EXP-028",
+      "phase": "launch",
+      "priority": 28,
+      "name": "시각 예시형 유기 크리에이터 브리프",
+      "insight_ids": [
+        "MKT-062"
+      ],
+      "owner_teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "action": "검증된 제품 사실·목표 고객·금지 클레임·참고 장면을 한 브리프에 묶어 기존 보유자산으로 유기 초안을 만들며 유료 제작·배포는 명시 승인 전 실행하지 않는다.",
+      "kpis": [
+        "brief_requirement_coverage",
+        "creator_revision_rate",
+        "organic_asset_acceptance_rate",
+        "creative_angle_coverage"
+      ],
+      "cost_mode": "free_organic",
+      "status": "ready_after_assets"
+    },
+    {
+      "id": "EXP-029",
+      "phase": "prelaunch",
+      "priority": 29,
+      "name": "프로모션 깊이·기간 기여이익 게이트",
+      "insight_ids": [
+        "MKT-063"
+      ],
+      "owner_teams": [
+        "pricing",
+        "market",
+        "knowledge"
+      ],
+      "action": "프로모션별 할인율·기간·매출·총이익·기여이익·운영비를 한 표에서 비교하고 이익이 악화되는 연장·심화 시나리오는 승인 큐에서 차단한다.",
+      "kpis": [
+        "promotion_contribution_margin",
+        "gross_margin_rate",
+        "discount_duration_days",
+        "profit_after_promotion"
+      ],
+      "cost_mode": "free_local",
+      "status": "ready_for_modeling"
     }
   ],
   "product_playbooks": [
@@ -2599,7 +3203,10 @@
       "MKT-036",
       "MKT-040",
       "MKT-047",
-      "MKT-048"
+      "MKT-048",
+      "MKT-060",
+      "MKT-061",
+      "MKT-062"
     ],
     "consider": [
       "MKT-001",
@@ -2615,7 +3222,10 @@
       "MKT-045",
       "MKT-046",
       "MKT-049",
-      "MKT-051"
+      "MKT-051",
+      "MKT-052",
+      "MKT-053",
+      "MKT-059"
     ],
     "convert": [
       "MKT-008",
@@ -2626,7 +3236,10 @@
       "MKT-021",
       "MKT-022",
       "MKT-037",
-      "MKT-050"
+      "MKT-050",
+      "MKT-057",
+      "MKT-058",
+      "MKT-063"
     ],
     "retain": [
       "MKT-006",
@@ -2640,7 +3253,10 @@
       "MKT-039",
       "MKT-041",
       "MKT-042",
-      "MKT-043"
+      "MKT-043",
+      "MKT-054",
+      "MKT-055",
+      "MKT-056"
     ],
     "measure": [
       "MKT-007",
@@ -2671,7 +3287,14 @@
     "EXP-019",
     "EXP-020",
     "EXP-021",
-    "EXP-022"
+    "EXP-022",
+    "EXP-023",
+    "EXP-024",
+    "EXP-025",
+    "EXP-026",
+    "EXP-027",
+    "EXP-028",
+    "EXP-029"
   ],
   "guardrails": [
     "listing_gate와 legal_full을 통과하지 않은 효능·성분 문구는 게시하지 않는다.",
@@ -2698,7 +3321,14 @@
     "BellaVix 영상의 대행사 누적 매출·수상 실적과 특정 Meta 타기팅 관행은 자사 성과 근거로 쓰지 않으며 유료 광고 실행은 명시 승인 전 차단",
     "Louis Jordon Smith 영상의 AI 유입 주문 증가 수치와 자체 도구 홍보는 제외하고 크롤·상품 데이터·테마·인용 점검 원칙만 채택",
     "ConversionWise 영상의 추가 매출 사례 수치와 자체 Shopify 테마 홍보는 제외하고 의사결정 장벽·증거 배치·카트 원칙만 채택",
-    "The Revenue Theory AOV 영상은 Carro 벤더 홍보, 보편 AOV 벤치마크, 과장 성장 표현 비중이 높아 신규 소스에서 제외"
+    "The Revenue Theory AOV 영상은 Carro 벤더 홍보, 보편 AOV 벤치마크, 과장 성장 표현 비중이 높아 신규 소스에서 제외",
+    "The Shopify App Show 영상의 벤더별 체크아웃 기능·스토어 크레딧·AI 에이전트 성과 주장은 채택하지 않고 기기별 마찰·정책 정보·사전 테스트 원칙만 사용",
+    "Mark Milutin 영상의 특정 감사 건수와 대행사 서비스 홍보는 일반 성과 근거로 쓰지 않고 스킵·제외·중복 제거 절차만 채택",
+    "Simple Bundles & Kits 영상의 자사 앱 홍보와 보편 AOV·LTV 상승 표현은 제외하고 번들 선택 구조와 마진 점검 원칙만 채택",
+    "Nathan Lee 영상의 매출 보장 표현과 워크시트·컨설팅 홍보는 제외하고 톤·감정·가치 포지셔닝 지도만 사용",
+    "Ryan AI SEO Tips 영상의 INSANE 성장 표현, 특정 AI 도구·자체 앱 홍보, 순위 구간을 고정 규칙으로 쓰지 않고 Search Console 기반 수요-페이지 진단만 채택",
+    "Common Thread Collective TikTok 영상의 사례 예산·영상 수·GMV 직접 상관과 유료 크리에이터 조건은 채택하지 않고 시각 브리프 구성 원칙만 사용",
+    "Common Thread Collective 할인 영상의 이익 배수·브랜드 매출 사례, 고정 행사 기간과 유료 매체 증분 주장은 일반화하지 않고 기여이익 가드레일만 채택"
   ],
   "integrity": {
     "listing_gate_generated_at": "2026-10-05T04:27:35.700392+00:00",

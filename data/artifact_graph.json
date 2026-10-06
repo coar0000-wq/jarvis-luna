@@ -1,0 +1,3499 @@
+{
+  "scripts": {
+    "scripts/align_collection_status.py": {
+      "reads": [
+        "data/daiso_real/products.json"
+      ],
+      "writes": [
+        "data/daiso_real/collection_status.json"
+      ],
+      "error": []
+    },
+    "scripts/audit_health.py": {
+      "reads": [
+        "data/daiso_real/collect_status.json",
+        "data/daiso_real/excluded_products.json",
+        "data/daiso_real/products.json",
+        "data/gosi.json",
+        "data/listing_gate.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/audit_team_reports.py": {
+      "reads": [
+        "data/channel_candidates.json",
+        "data/daiso_real/products.json",
+        "data/daiso_real/shopify_demand_score.json",
+        "data/dashboard_runtime.json",
+        "data/legal_products.json",
+        "data/listing_gate.json",
+        "data/market_team.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/auto_recovery.py": {
+      "reads": [],
+      "writes": [
+        "data/jarvis_work_detailed_log.json",
+        "data/recovery_log.json"
+      ],
+      "error": []
+    },
+    "scripts/auto_recovery_improved.py": {
+      "reads": [],
+      "writes": [
+        "data/jarvis_work_detailed_log.json"
+      ],
+      "error": []
+    },
+    "scripts/auto_update.py": {
+      "reads": [
+        "data/jarvis_work_log.json"
+      ],
+      "writes": [
+        "data/agi_metrics.json"
+      ],
+      "error": []
+    },
+    "scripts/build_artifact_graph.py": {
+      "reads": [],
+      "writes": [
+        "data/artifact_graph.json"
+      ],
+      "error": []
+    },
+    "scripts/build_coaching_loop.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/market_team.json",
+        "data/pricing_model.json",
+        "data/reddit_beauty_signals.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/coaching_loop.json"
+      ],
+      "error": []
+    },
+    "scripts/build_daiso_candidate_comparison.py": {
+      "reads": [
+        "data/daiso_real/candidate_pool.json",
+        "data/daiso_real/products.json",
+        "data/dashboard_runtime.json"
+      ],
+      "writes": [
+        "data/daiso_real/candidate_comparison.json"
+      ],
+      "error": []
+    },
+    "scripts/build_design_team.py": {
+      "reads": [
+        "data/brand_kit.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/self_improve/design_policy.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/design/offline_pack.json",
+        "data/design_team.json"
+      ],
+      "error": []
+    },
+    "scripts/build_error_report.py": {
+      "reads": [
+        "data/brand_kit.json",
+        "data/channel_candidates.json",
+        "data/daiso_real/collection_status.json",
+        "data/design_sources.json",
+        "data/gosi.json",
+        "data/institution_sources.json",
+        "data/knowledge/real_sources.json",
+        "data/legal_export_prep.json",
+        "data/legal_products.json",
+        "data/manual_channels.json",
+        "data/team_feeds.json"
+      ],
+      "writes": [
+        "data/error_report.json"
+      ],
+      "error": []
+    },
+    "scripts/build_inci_dictionary.py": {
+      "reads": [],
+      "writes": [
+        "data/inci_dictionary.json"
+      ],
+      "error": []
+    },
+    "scripts/build_legal_full.py": {
+      "reads": [
+        "data/daiso_real/daiso_us_labels.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/gosi.json",
+        "data/legal_products.json",
+        "data/manual/legal_product_overrides.json",
+        "data/manual/legal_responsible_person.json",
+        "data/manual/legal_rp_status.json",
+        "data/manual/official_label_text.json",
+        "data/product_master.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/legal_full.json"
+      ],
+      "error": []
+    },
+    "scripts/build_listing_copy_local.py": {
+      "reads": [
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/listing_gate.json"
+      ],
+      "writes": [
+        "data/shopify_listing_copy.json"
+      ],
+      "error": []
+    },
+    "scripts/build_listing_gate.py": {
+      "reads": [
+        "data/daiso_real/daiso_us_labels.json",
+        "data/daiso_real/excluded_products.json",
+        "data/gosi.json",
+        "data/legal_full.json",
+        "data/legal_products.json",
+        "data/pricing_model.json",
+        "data/product_master.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/listing_gate.json",
+        "data/typesafe_advisory.json",
+        "data/typesafe_call_log.json"
+      ],
+      "error": []
+    },
+    "scripts/build_market_team.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/dashboard_runtime.json",
+        "data/manual/marketing_priority_overrides.json",
+        "data/manual/team_briefings.json",
+        "data/oliveyoung_us_products.json",
+        "data/open_beauty_facts.json",
+        "data/pricing_model.json",
+        "data/product_master.json",
+        "data/shopify_action_queue.json",
+        "data/shopify_listing_copy.json",
+        "data/shopify_marketing_strategy.json",
+        "data/youtube_channels.json",
+        "data/youtube_manual.json",
+        "data/youtube_serpapi.json"
+      ],
+      "writes": [
+        "data/market_team.json"
+      ],
+      "error": []
+    },
+    "scripts/build_mocra_readiness.py": {
+      "reads": [
+        "data/legal_full.json",
+        "data/listing_gate.json",
+        "data/manual/legal_responsible_person.json",
+        "data/manual/legal_rp_status.json",
+        "data/manual/mocra_business.json",
+        "data/manual/mocra_profile.json",
+        "data/product_master.json"
+      ],
+      "writes": [
+        "data/mocra_readiness.json"
+      ],
+      "error": []
+    },
+    "scripts/build_product_master.py": {
+      "reads": [
+        "data/daiso_real/products.json",
+        "data/daiso_real/shopify_demand_score.json",
+        "data/listing_gate.json"
+      ],
+      "writes": [
+        "data/product_master.json"
+      ],
+      "error": []
+    },
+    "scripts/build_shopify_action_queue.py": {
+      "reads": [
+        "data/listing_gate.json",
+        "data/manual/shopify_action_approvals.json",
+        "data/manual/shopify_execution_context.json",
+        "data/product_master.json",
+        "data/shopify_shortlist.json"
+      ],
+      "writes": [
+        "data/shopify_action_queue.json"
+      ],
+      "error": []
+    },
+    "scripts/build_shopify_catalog.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_matching.json"
+      ],
+      "writes": [
+        "data/shopify_products.json"
+      ],
+      "error": []
+    },
+    "scripts/build_shopify_demand_matching.py": {
+      "reads": [],
+      "writes": [
+        "data/shopify_demand_matching.json"
+      ],
+      "error": []
+    },
+    "scripts/build_shopify_import_csv.py": {
+      "reads": [
+        "data/daiso_real/collection_status.json",
+        "data/listing_gate.json",
+        "data/pricing_model.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/shopify_import_report.json"
+      ],
+      "error": []
+    },
+    "scripts/build_shopify_marketing_strategy.py": {
+      "reads": [
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/listing_gate.json",
+        "data/manual/shopify_youtube_insights.json"
+      ],
+      "writes": [
+        "data/shopify_marketing_strategy.json"
+      ],
+      "error": []
+    },
+    "scripts/build_shopify_shortlist.py": {
+      "reads": [
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/listing_gate.json",
+        "data/manual/shopify_shortlist.json",
+        "data/product_master.json"
+      ],
+      "writes": [
+        "data/shopify_shortlist.json"
+      ],
+      "error": []
+    },
+    "scripts/build_team_feeds.py": {
+      "reads": [
+        "data/daiso_real/products.json",
+        "data/design_team.json",
+        "data/knowledge/real_sources.json",
+        "data/manual/team_briefings.json",
+        "data/papers_manual.json",
+        "data/public_signals.json",
+        "data/youtube_channels.json",
+        "data/youtube_manual.json"
+      ],
+      "writes": [
+        "data/team_feeds.json"
+      ],
+      "error": []
+    },
+    "scripts/build_team_hubs.py": {
+      "reads": [],
+      "writes": [
+        "data/team_hubs.json"
+      ],
+      "error": []
+    },
+    "scripts/build_team_improvement.py": {
+      "reads": [],
+      "writes": [
+        "data/dashboard_runtime.json",
+        "data/team_improvement.json"
+      ],
+      "error": []
+    },
+    "scripts/build_team_learning.py": {
+      "reads": [
+        "data/manual/notebook_reviews/ledger.json",
+        "data/youtube_channels.json",
+        "data/youtube_manual.json",
+        "data/youtube_review_queue.json"
+      ],
+      "writes": [
+        "data/team_learning.json"
+      ],
+      "error": []
+    },
+    "scripts/build_youtube_review_queue.py": {
+      "reads": [
+        "data/manual/notebook_reviews/ledger.json",
+        "data/youtube_channels.json",
+        "data/youtube_manual.json"
+      ],
+      "writes": [
+        "data/youtube_review_queue.json"
+      ],
+      "error": []
+    },
+    "scripts/check_legal_products.py": {
+      "reads": [
+        "data/daiso_real/daiso_us_labels.json",
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/product_master.json",
+        "data/shopify_listing_copy.json",
+        "data/us_claim_rules.json"
+      ],
+      "writes": [
+        "data/legal_products.json"
+      ],
+      "error": []
+    },
+    "scripts/check_source_health.py": {
+      "reads": [],
+      "writes": [
+        "data/source_health.json"
+      ],
+      "error": []
+    },
+    "scripts/clean_record_duplicates.py": {
+      "reads": [],
+      "writes": [
+        "data/record_duplicates.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_daiso_gosi.py": {
+      "reads": [
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/gosi.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/collect_daiso_products.py": {
+      "reads": [],
+      "writes": [
+        "data/daiso_products.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_design_sources.py": {
+      "reads": [],
+      "writes": [
+        "data/design_sources.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_google_cse.py": {
+      "reads": [],
+      "writes": [
+        "data/google_cse_results.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_google_trends_beauty.py": {
+      "reads": [],
+      "writes": [
+        "data/google_trends_beauty.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_institutions.py": {
+      "reads": [],
+      "writes": [
+        "data/institution_sources.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_kbeauty_news.py": {
+      "reads": [],
+      "writes": [
+        "data/kbeauty_news.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_learn_with_shopify.py": {
+      "reads": [],
+      "writes": [
+        "data/shopify_learn_with_shopify.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_oliveyoung_us.py": {
+      "reads": [],
+      "writes": [
+        "data/oliveyoung_us_products.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_open_beauty_facts.py": {
+      "reads": [],
+      "writes": [
+        "data/open_beauty_facts.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_public_signals.py": {
+      "reads": [],
+      "writes": [
+        "data/public_signals.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_public_trend_rss.py": {
+      "reads": [],
+      "writes": [
+        "data/public_trend_rss.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_reddit_beauty_rss.py": {
+      "reads": [],
+      "writes": [
+        "data/reddit_beauty_signals.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_robotics.py": {
+      "reads": [],
+      "writes": [
+        "data/robotics_sources.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_serpapi_market.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/market_team.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/serpapi_market.json",
+        "data/serpapi_usage.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_serpapi_youtube.py": {
+      "reads": [],
+      "writes": [
+        "data/serpapi_usage.json",
+        "data/youtube_serpapi.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_sokoglam.py": {
+      "reads": [],
+      "writes": [
+        "data/sokoglam_products.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_us_retail.py": {
+      "reads": [
+        "data/manual/us_retail_assist.json"
+      ],
+      "writes": [
+        "data/us_beauty_products.json"
+      ],
+      "error": []
+    },
+    "scripts/collect_via_gemini.py": {
+      "reads": [],
+      "writes": [
+        "data/gemini_web_channels.json"
+      ],
+      "error": []
+    },
+    "scripts/daiso/add_gosi_measured.py": {
+      "reads": [],
+      "writes": [
+        "data/gosi.json"
+      ],
+      "error": []
+    },
+    "scripts/daiso/build_beauty_queue.py": {
+      "reads": [],
+      "writes": [
+        "data/daiso_real/beauty_queue.json"
+      ],
+      "error": []
+    },
+    "scripts/daiso/build_shopify_test_batch.py": {
+      "reads": [
+        "data/shopify_demand_score.json",
+        "data/shopify_s_recommendations.json"
+      ],
+      "writes": [
+        "data/shopify_test_batch.json"
+      ],
+      "error": []
+    },
+    "scripts/daiso/collect_daiso.py": {
+      "reads": [
+        "data/self_improve/sourcing_policy.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/daiso/collect_gosi_alt.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/gosi.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/daiso/exclude_unprofitable.py": {
+      "reads": [
+        "data/pricing_model.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/daiso/export_shopify_s_csv.py": {
+      "reads": [
+        "data/daiso_real/shopify_s_recommendations.json"
+      ],
+      "writes": [
+        "data/daiso_real/last_commit_summary.json",
+        "data/dashboard_runtime.json"
+      ],
+      "error": []
+    },
+    "scripts/daiso/prune_excluded_products.py": {
+      "reads": [
+        "data/gosi.json"
+      ],
+      "writes": [
+        "data/daiso_real/excluded_products.json",
+        "data/daiso_real/products.json"
+      ],
+      "error": []
+    },
+    "scripts/daiso/recheck_stock.py": {
+      "reads": [
+        "data/products.json",
+        "data/shopify_demand_score.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/daiso/score_shopify_demand.py": {
+      "reads": [
+        "data/daiso_real/products.json",
+        "data/dashboard_runtime.json",
+        "data/product_master.json"
+      ],
+      "writes": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/daiso_real/shopify_s_rejected.json"
+      ],
+      "error": []
+    },
+    "scripts/discover_channels.py": {
+      "reads": [
+        "data/dashboard_runtime.json"
+      ],
+      "writes": [
+        "data/channel_candidates.json"
+      ],
+      "error": []
+    },
+    "scripts/export_shopify_full.py": {
+      "reads": [
+        "data/legal_full.json",
+        "data/product_master.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/export_shopify_operational.py": {
+      "reads": [
+        "data/legal_full.json",
+        "data/listing_gate.json",
+        "data/product_master.json",
+        "data/shopify_shortlist.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/extract_gosi_vision.py": {
+      "reads": [
+        "data/gosi.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/fetch_fx_rate.py": {
+      "reads": [],
+      "writes": [
+        "data/daiso_real/collection_status.json"
+      ],
+      "error": []
+    },
+    "scripts/fix_case_collisions.py": {
+      "reads": [],
+      "writes": [
+        "data/record_case_collisions.json"
+      ],
+      "error": []
+    },
+    "scripts/gemini_escalation.py": {
+      "reads": [
+        "data/manual/model_routing_policy.json",
+        "data/typesafe_advisory.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/gemini_listing_copy.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/listing_gate.json",
+        "data/us_claim_rules.json"
+      ],
+      "writes": [
+        "data/shopify_listing_copy.json"
+      ],
+      "error": []
+    },
+    "scripts/generate_dashboard_runtime.py": {
+      "reads": [
+        "data/agents/autofix_report.json",
+        "data/agents/remediation_state.json",
+        "data/agents/workflow_freshness.json",
+        "data/channel_candidates.json",
+        "data/daiso_real/candidate_comparison.json",
+        "data/daiso_real/collection_status.json",
+        "data/daiso_real/daiso_us_labels.json",
+        "data/daiso_real/products.json",
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/us_label_sync_report.json",
+        "data/design_sources.json",
+        "data/design_team.json",
+        "data/error_report.json",
+        "data/gosi.json",
+        "data/health_check.json",
+        "data/institution_sources.json",
+        "data/legal_export_prep.json",
+        "data/legal_products.json",
+        "data/listing_gate.json",
+        "data/manual_channels.json",
+        "data/market_team.json",
+        "data/mocra_readiness.json",
+        "data/operations/board.json",
+        "data/pricing_model.json",
+        "data/robotics_sources.json",
+        "data/self_improve/status.json",
+        "data/shopify_action_queue.json",
+        "data/shopify_import_report.json",
+        "data/shopify_listing_copy.json",
+        "data/shopify_marketing_strategy.json",
+        "data/shopify_shortlist.json",
+        "data/shopify_sync_guard.json",
+        "data/team_feeds.json",
+        "data/team_learning.json",
+        "data/typesafe_call_log.json",
+        "data/typesafe_team_advisory.json",
+        "data/youtube_channels.json",
+        "data/youtube_manual.json"
+      ],
+      "writes": [
+        "data/dashboard_runtime.json"
+      ],
+      "error": []
+    },
+    "scripts/google_search_data_collection.py": {
+      "reads": [],
+      "writes": [
+        "data/google_trends.json"
+      ],
+      "error": []
+    },
+    "scripts/guard_gosi.py": {
+      "reads": [],
+      "writes": [
+        "data/gosi.json",
+        "data/guard_gosi_log.json"
+      ],
+      "error": []
+    },
+    "scripts/health_check.py": {
+      "reads": [
+        "data/jarvis_work_detailed_log.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/health_check_final.py": {
+      "reads": [
+        "data/jarvis_work_detailed_log.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/health_check_improved.py": {
+      "reads": [
+        "data/jarvis_work_detailed_log.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/health_check_v2.py": {
+      "reads": [
+        "data/legal_full.json",
+        "data/market_team.json",
+        "data/pricing_model.json",
+        "data/product_master.json",
+        "data/shopify_sync_guard.json"
+      ],
+      "writes": [
+        "data/health_check.json"
+      ],
+      "error": []
+    },
+    "scripts/ingest_manual_channels.py": {
+      "reads": [],
+      "writes": [
+        "data/manual_channels.json"
+      ],
+      "error": []
+    },
+    "scripts/ingest_notebook_review.py": {
+      "reads": [
+        "data/manual/shopify_youtube_insights.json",
+        "data/youtube_review_queue.json"
+      ],
+      "writes": [
+        "data/manual/notebook_reviews/ledger.json",
+        "data/manual/team_youtube_insights.json"
+      ],
+      "error": []
+    },
+    "scripts/ingest_own_site.py": {
+      "reads": [
+        "data/us_claim_rules.json"
+      ],
+      "writes": [
+        "data/own_site.json"
+      ],
+      "error": []
+    },
+    "scripts/ingest_papers.py": {
+      "reads": [],
+      "writes": [
+        "data/papers_manual.json"
+      ],
+      "error": []
+    },
+    "scripts/ingest_youtube_channels.py": {
+      "reads": [],
+      "writes": [
+        "data/youtube_channels.json"
+      ],
+      "error": []
+    },
+    "scripts/ingest_youtube_links.py": {
+      "reads": [],
+      "writes": [
+        "data/youtube_manual.json"
+      ],
+      "error": []
+    },
+    "scripts/jarvis_data_collection.py": {
+      "reads": [],
+      "writes": [
+        "data/daily_stats.json"
+      ],
+      "error": []
+    },
+    "scripts/jarvis_video_notebook.py": {
+      "reads": [
+        "data/jarvis_video_analysis.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/normalize_obsidian_links.py": {
+      "reads": [
+        "data/knowledge/real_sources.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/prepare_brand_kit.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/design_sources.json",
+        "data/listing_gate.json",
+        "data/own_site.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/brand_kit.json"
+      ],
+      "error": []
+    },
+    "scripts/prepare_legal_export.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/gosi.json",
+        "data/legal_products.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/pricing_model.py": {
+      "reads": [
+        "data/daiso_real/collection_status.json",
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/gosi.json",
+        "data/oliveyoung_us_products.json",
+        "data/serpapi_market.json",
+        "data/weights.json"
+      ],
+      "writes": [
+        "data/pricing_model.json"
+      ],
+      "error": []
+    },
+    "scripts/rebuild_concept_links.py": {
+      "reads": [],
+      "writes": [
+        "data/obsidian_concept_rules.json"
+      ],
+      "error": []
+    },
+    "scripts/record_task_result.py": {
+      "reads": [],
+      "writes": [
+        "data/jarvis_work_detailed_log.json"
+      ],
+      "error": []
+    },
+    "scripts/run_jarvis_agents.py": {
+      "reads": [
+        "data/dashboard_runtime.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/run_jarvis_agents_safe_autofix.py": {
+      "reads": [
+        "data/dashboard_runtime.json",
+        "data/error_report.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/scripts/build_coaching_loop.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/market_team.json",
+        "data/pricing_model.json",
+        "data/shopify_listing_copy.json"
+      ],
+      "writes": [
+        "data/coaching_loop.json"
+      ],
+      "error": []
+    },
+    "scripts/self_improve.py": {
+      "reads": [
+        "data/daiso_real/beauty_queue.json",
+        "data/daiso_real/collection_status.json",
+        "data/daiso_real/crawl_state.json",
+        "data/daiso_real/products.json",
+        "data/design_team.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/shopify_matcher.py": {
+      "reads": [
+        "data/daiso_products.json",
+        "data/us_beauty_products.json"
+      ],
+      "writes": [
+        "data/shopify_recommend.json"
+      ],
+      "error": []
+    },
+    "scripts/shopify_sync_guard.py": {
+      "reads": [
+        "data/shopify_shortlist.json",
+        "data/shopify_sync_state.json"
+      ],
+      "writes": [
+        "data/shopify_sync_guard.json"
+      ],
+      "error": []
+    },
+    "scripts/sync_gosi_to_us_labels.py": {
+      "reads": [
+        "data/daiso_real/shopify_demand_score.json",
+        "data/gosi.json",
+        "data/inci_dictionary.json",
+        "data/product_master.json"
+      ],
+      "writes": [
+        "data/daiso_real/daiso_us_labels.json"
+      ],
+      "error": []
+    },
+    "scripts/sync_obsidian.py": {
+      "reads": [
+        "data/jarvis_work_detailed_log.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/team_router_moe.py": {
+      "reads": [
+        "data/daiso_real/products.json",
+        "data/design_team.json",
+        "data/team_feeds.json",
+        "data/youtube_channels.json",
+        "data/youtube_manual.json"
+      ],
+      "writes": [
+        "data/knowledge/team_router_report.json"
+      ],
+      "error": []
+    },
+    "scripts/test_jarvis_operating_integration.py": {
+      "reads": [
+        "data/operations/knowledge_graph.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/update_dashboard.py": {
+      "reads": [
+        "data/metrics_summary.json"
+      ],
+      "writes": [
+        "data/dashboard_data.json"
+      ],
+      "error": []
+    },
+    "scripts/validate_commerce_architecture.py": {
+      "reads": [
+        "data/agents/chief_of_staff.json",
+        "data/agents/gemini_escalation.json",
+        "data/agents/ops_plan.json",
+        "data/agents/remediation_state.json",
+        "data/daiso_real/collection_status.json",
+        "data/daiso_real/products.json",
+        "data/daiso_real/shopify_demand_score.json",
+        "data/daiso_real/shopify_s_recommendations.json",
+        "data/dashboard_runtime.json",
+        "data/error_report.json",
+        "data/legal_full.json",
+        "data/listing_gate.json",
+        "data/manual/model_routing_policy.json",
+        "data/manual/multi_agent_marketing_pipeline.json",
+        "data/manual/shopify_action_approvals.json",
+        "data/manual/shopify_execution_context.json",
+        "data/manual/shopify_youtube_insights.json",
+        "data/market_team.json",
+        "data/product_master.json",
+        "data/shopify_action_queue.json",
+        "data/shopify_marketing_strategy.json",
+        "data/shopify_shortlist.json",
+        "data/shopify_sync_guard.json",
+        "data/team_improvement.json"
+      ],
+      "writes": [],
+      "error": []
+    },
+    "scripts/youtube_dropshipping_analysis.py": {
+      "reads": [],
+      "writes": [
+        "data/shopify_learn_with_shopify.json",
+        "data/youtube_real_videos.json"
+      ],
+      "error": []
+    }
+  },
+  "workflows": {
+    ".github/workflows/daiso-discovery.yml": {
+      "publishes": false,
+      "regenerates_dashboard": false,
+      "runs_audit": false,
+      "mandatory_release_gate": false,
+      "publish_profiles": [],
+      "runs": [
+        "scripts/daiso/collect_daiso.py"
+      ],
+      "effective": [
+        "scripts/daiso/collect_daiso.py"
+      ]
+    },
+    ".github/workflows/daiso-real-collection.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": "steps.collection.outputs.mode == 'collected' && steps.validate.outputs.artifacts_ok == 'true'",
+          "paths": [
+            "data/daiso_real",
+            "data/product_master.json",
+            "data/legal_products.json",
+            "data/legal_full.json",
+            "data/mocra_readiness.json",
+            "data/market_team.json",
+            "data/shopify_marketing_strategy.json",
+            "data/marketing_priority.csv",
+            "data/coaching_loop.json",
+            "data/listing_gate.json",
+            "data/shopify_exports",
+            "data/shopify_action_queue.json",
+            "data/shopify_shortlist.json",
+            "data/shopify_sync_guard.json",
+            "data/dashboard_runtime.json",
+            "data/channel_candidates.json",
+            "data/knowledge/cumulative_history.json",
+            "data/agents",
+            "data/publish_deletions.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/collection_status.json",
+            "data/daiso_real/products.json",
+            "data/daiso_real/shopify_demand_score.json",
+            "data/legal_full.json",
+            "data/legal_products.json",
+            "data/listing_gate.json",
+            "data/market_team.json",
+            "data/product_master.json",
+            "data/shopify_action_queue.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        },
+        {
+          "step": "정상 무변경 관측 metadata 발행",
+          "condition": "steps.collection.outputs.mode == 'no_change' || steps.collection.outputs.mode == 'candidates'",
+          "paths": [
+            "data/daiso_real/collection_status.json",
+            "data/daiso_real/crawl_state.json",
+            "data/daiso_real/candidate_pool.json",
+            "data/daiso_real/candidate_pool_history",
+            "data/daiso_real/candidate_observations.json",
+            "data/daiso_real/candidate_comparison.json",
+            "data/daiso_real/shortlist_observations.json",
+            "data/daiso_real/.shortlist_observation_claim.json",
+            "data/agents",
+            "data/publish_deletions.json",
+            "data/dashboard_runtime.json",
+            "data/health_check.json",
+            "data/agents/workflow_freshness.json",
+            "data/agents/ops_plan.json",
+            "data/agents/last_run.json",
+            "data/agents/collector_audit.json",
+            "data/agents/signal_audit.json",
+            "data/agents/score_explain.json",
+            "data/agents/listing_notes.json",
+            "data/team_improvement.json",
+            "data/knowledge/cumulative_history.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/collection_status.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/fetch_fx_rate.py",
+        "scripts/daiso/build_beauty_queue.py",
+        "scripts/daiso/collect_daiso.py",
+        "scripts/validate_daiso_collection.py",
+        "scripts/daiso/prune_excluded_products.py",
+        "scripts/build_product_master.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/discover_channels.py",
+        "scripts/build_daiso_candidate_comparison.py",
+        "scripts/candidate_pool_history.py",
+        "scripts/daiso_pipeline_inputs.py",
+        "scripts/daiso/observe_shortlist.py",
+        "scripts/collect_workflow_status.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/build_team_improvement.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/audit_team_reports.py",
+        "scripts/source_safety_checkpoint.py"
+      ],
+      "effective": [
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/fetch_fx_rate.py",
+        "scripts/daiso/build_beauty_queue.py",
+        "scripts/daiso/collect_daiso.py",
+        "scripts/validate_daiso_collection.py",
+        "scripts/daiso/prune_excluded_products.py",
+        "scripts/build_product_master.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/discover_channels.py",
+        "scripts/build_daiso_candidate_comparison.py",
+        "scripts/candidate_pool_history.py",
+        "scripts/daiso_pipeline_inputs.py",
+        "scripts/daiso/observe_shortlist.py",
+        "scripts/collect_workflow_status.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/build_team_improvement.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/audit_team_reports.py",
+        "scripts/source_safety_checkpoint.py",
+        "scripts/pricing_model.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/check_release_quality.py"
+      ]
+    },
+    ".github/workflows/gemini-web-collect.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": null,
+          "paths": [
+            "data/gemini_web_channels.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/gemini_web_channels.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/collect_via_gemini.py"
+      ],
+      "effective": [
+        "scripts/collect_via_gemini.py",
+        "scripts/build_product_master.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_market_team.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/discover_channels.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/gosi-alt.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": "success()",
+          "paths": [
+            "data/gosi.json",
+            "data/daiso_real/daiso_us_labels.json",
+            "data/daiso_real/us_label_sync_report.json",
+            "data/legal_products.json",
+            "data/legal_full.json",
+            "data/mocra_readiness.json",
+            "data/listing_gate.json",
+            "data/daiso_real/shopify_s_recommendations.json",
+            "data/product_master.json",
+            "data/market_team.json",
+            "data/shopify_marketing_strategy.json",
+            "data/marketing_priority.csv",
+            "data/coaching_loop.json",
+            "data/shopify_exports",
+            "data/shopify_action_queue.json",
+            "data/shopify_shortlist.json",
+            "data/shopify_sync_guard.json",
+            "data/dashboard_runtime.json",
+            "data/knowledge/cumulative_history.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/daiso_us_labels.json",
+            "data/gosi.json",
+            "data/legal_full.json",
+            "data/legal_products.json",
+            "data/listing_gate.json",
+            "data/market_team.json",
+            "data/product_master.json",
+            "data/shopify_action_queue.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/guard_gosi.py",
+        "scripts/daiso/collect_gosi_alt.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_product_master.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/validate_commerce_architecture.py"
+      ],
+      "effective": [
+        "scripts/guard_gosi.py",
+        "scripts/daiso/collect_gosi_alt.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_product_master.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/discover_channels.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/gosi-vision.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": "success()",
+          "paths": [
+            "data/gosi.json",
+            "data/daiso_real/gosi_img",
+            "data/daiso_real/daiso_us_labels.json",
+            "data/daiso_real/us_label_sync_report.json",
+            "data/legal_products.json",
+            "data/legal_full.json",
+            "data/mocra_readiness.json",
+            "data/listing_gate.json",
+            "data/daiso_real/shopify_s_recommendations.json",
+            "data/product_master.json",
+            "data/market_team.json",
+            "data/shopify_marketing_strategy.json",
+            "data/marketing_priority.csv",
+            "data/coaching_loop.json",
+            "data/shopify_exports",
+            "data/shopify_action_queue.json",
+            "data/shopify_shortlist.json",
+            "data/shopify_sync_guard.json",
+            "data/dashboard_runtime.json",
+            "data/knowledge/cumulative_history.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/daiso_us_labels.json",
+            "data/gosi.json",
+            "data/legal_full.json",
+            "data/legal_products.json",
+            "data/listing_gate.json",
+            "data/market_team.json",
+            "data/product_master.json",
+            "data/shopify_action_queue.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/collect_daiso_gosi.py",
+        "scripts/extract_gosi_vision.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_product_master.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/guard_gosi.py",
+        "scripts/validate_commerce_architecture.py"
+      ],
+      "effective": [
+        "scripts/collect_daiso_gosi.py",
+        "scripts/extract_gosi_vision.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_product_master.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/guard_gosi.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/discover_channels.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/inci-dictionary.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": null,
+          "paths": [
+            "data/inci_dictionary.json",
+            "data/daiso_real/daiso_us_labels.json",
+            "data/daiso_real/us_label_sync_report.json",
+            "data/legal_products.json",
+            "data/legal_full.json",
+            "data/mocra_readiness.json",
+            "data/listing_gate.json",
+            "data/daiso_real/shopify_s_recommendations.json",
+            "data/product_master.json",
+            "data/dashboard_runtime.json",
+            "data/market_team.json",
+            "data/shopify_marketing_strategy.json",
+            "data/marketing_priority.csv",
+            "data/coaching_loop.json",
+            "data/shopify_exports",
+            "data/shopify_action_queue.json",
+            "data/shopify_shortlist.json",
+            "data/shopify_sync_guard.json",
+            "data/knowledge/cumulative_history.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/daiso_us_labels.json",
+            "data/inci_dictionary.json",
+            "data/legal_full.json",
+            "data/legal_products.json",
+            "data/listing_gate.json",
+            "data/market_team.json",
+            "data/product_master.json",
+            "data/shopify_action_queue.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/build_inci_dictionary.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_product_master.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/validate_commerce_architecture.py"
+      ],
+      "effective": [
+        "scripts/build_inci_dictionary.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_product_master.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/discover_channels.py",
+        "scripts/health_check_v2.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/JARVIS-Core-Automation.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": "success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'",
+          "paths": [
+            "data"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/product_master.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/collector_result.py",
+        "scripts/build_product_master.py",
+        "scripts/youtube_dropshipping_analysis.py",
+        "scripts/run_source_procedures.py",
+        "scripts/collect_workflow_status.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/source_safety_checkpoint.py"
+      ],
+      "effective": [
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/collector_result.py",
+        "scripts/build_product_master.py",
+        "scripts/youtube_dropshipping_analysis.py",
+        "scripts/run_source_procedures.py",
+        "scripts/collect_workflow_status.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/source_safety_checkpoint.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_market_team.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/discover_channels.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/JARVIS-Deep-Analysis.yml": {
+      "publishes": true,
+      "regenerates_dashboard": false,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": "success() && steps.release_outcomes.outcome == 'success' && steps.release_quality.outcome == 'success'",
+          "paths": [
+            "data",
+            "obsidian",
+            "data/publish_deletions.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/collection_status.json",
+            "data/daiso_real/daiso_us_labels.json",
+            "data/daiso_real/shopify_demand_score.json",
+            "data/legal_full.json",
+            "data/legal_products.json",
+            "data/listing_gate.json",
+            "data/market_team.json",
+            "data/oliveyoung_us_products.json",
+            "data/pricing_model.json",
+            "data/product_master.json",
+            "data/shopify_action_queue.json",
+            "data/sokoglam_products.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/setup_typesafe_shared.py",
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/collect_robotics.py",
+        "scripts/collector_result.py",
+        "scripts/collect_institutions.py",
+        "scripts/collect_design_sources.py",
+        "scripts/build_design_team.py",
+        "scripts/ingest_youtube_channels.py",
+        "scripts/ingest_youtube_links.py",
+        "scripts/ingest_papers.py",
+        "scripts/build_team_feeds.py",
+        "scripts/collect_open_beauty_facts.py",
+        "scripts/collect_oliveyoung_us.py",
+        "scripts/collect_reddit_beauty_rss.py",
+        "scripts/collect_public_trend_rss.py",
+        "scripts/collect_google_trends_beauty.py",
+        "scripts/collect_google_cse.py",
+        "scripts/ingest_manual_channels.py",
+        "scripts/self_improve.py",
+        "scripts/normalize_obsidian_links.py",
+        "scripts/build_team_hubs.py",
+        "scripts/team_router_moe.py",
+        "scripts/build_youtube_review_queue.py",
+        "scripts/build_team_learning.py",
+        "scripts/collect_sokoglam.py",
+        "scripts/collect_kbeauty_news.py",
+        "scripts/collect_public_signals.py",
+        "scripts/fetch_fx_rate.py",
+        "scripts/build_product_master.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/daiso/exclude_unprofitable.py",
+        "scripts/daiso/collect_gosi_alt.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/evaluate_team_typesafe.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_listing_copy_local.py",
+        "scripts/prepare_legal_export.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/ingest_own_site.py",
+        "scripts/prepare_brand_kit.py",
+        "scripts/build_market_team.py",
+        "scripts/discover_channels.py",
+        "scripts/daiso/observe_shortlist.py",
+        "scripts/channel_expansion_agent.py",
+        "scripts/check_source_health.py",
+        "scripts/run_source_procedures.py",
+        "scripts/collect_workflow_status.py",
+        "scripts/build_error_report.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents_safe_autofix.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/gemini_escalation.py",
+        "scripts/build_team_improvement.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/check_release_quality.py",
+        "scripts/source_safety_checkpoint.py"
+      ],
+      "effective": [
+        "scripts/setup_typesafe_shared.py",
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/collect_robotics.py",
+        "scripts/collector_result.py",
+        "scripts/collect_institutions.py",
+        "scripts/collect_design_sources.py",
+        "scripts/build_design_team.py",
+        "scripts/ingest_youtube_channels.py",
+        "scripts/ingest_youtube_links.py",
+        "scripts/ingest_papers.py",
+        "scripts/build_team_feeds.py",
+        "scripts/collect_open_beauty_facts.py",
+        "scripts/collect_oliveyoung_us.py",
+        "scripts/collect_reddit_beauty_rss.py",
+        "scripts/collect_public_trend_rss.py",
+        "scripts/collect_google_trends_beauty.py",
+        "scripts/collect_google_cse.py",
+        "scripts/ingest_manual_channels.py",
+        "scripts/self_improve.py",
+        "scripts/normalize_obsidian_links.py",
+        "scripts/build_team_hubs.py",
+        "scripts/team_router_moe.py",
+        "scripts/build_youtube_review_queue.py",
+        "scripts/build_team_learning.py",
+        "scripts/collect_sokoglam.py",
+        "scripts/collect_kbeauty_news.py",
+        "scripts/collect_public_signals.py",
+        "scripts/fetch_fx_rate.py",
+        "scripts/build_product_master.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/daiso/exclude_unprofitable.py",
+        "scripts/daiso/collect_gosi_alt.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/evaluate_team_typesafe.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_listing_copy_local.py",
+        "scripts/prepare_legal_export.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/ingest_own_site.py",
+        "scripts/prepare_brand_kit.py",
+        "scripts/build_market_team.py",
+        "scripts/discover_channels.py",
+        "scripts/daiso/observe_shortlist.py",
+        "scripts/channel_expansion_agent.py",
+        "scripts/check_source_health.py",
+        "scripts/run_source_procedures.py",
+        "scripts/collect_workflow_status.py",
+        "scripts/build_error_report.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents_safe_autofix.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/gemini_escalation.py",
+        "scripts/build_team_improvement.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/check_release_quality.py",
+        "scripts/source_safety_checkpoint.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/jarvis-real-knowledge.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": null,
+          "paths": [
+            "data/knowledge",
+            "data/publish_deletions.json",
+            "data/obsidian_record_names.json",
+            "data/dashboard_runtime.json",
+            "obsidian"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": false,
+          "commerce_triggers": [],
+          "commands": [
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/normalize_obsidian_links.py",
+        "scripts/generate_dashboard_runtime.py"
+      ],
+      "effective": [
+        "scripts/normalize_obsidian_links.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/health_check_v2.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/obsidian_sync.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": "always()",
+          "paths": [
+            "data",
+            "obsidian"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": false,
+          "commerce_triggers": [],
+          "commands": [
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/obsidian_realtime_sync.py"
+      ],
+      "effective": [
+        "scripts/obsidian_realtime_sync.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/pages-verified.yml": {
+      "publishes": false,
+      "regenerates_dashboard": false,
+      "runs_audit": false,
+      "mandatory_release_gate": false,
+      "publish_profiles": [],
+      "runs": [
+        "scripts/preflight.py",
+        "scripts/test_preflight_workflow.py",
+        "scripts/test_daiso_collection_validation.py",
+        "scripts/test_daiso_candidates.py",
+        "scripts/test_listing_copy_local.py",
+        "scripts/test_operational_freshness.py",
+        "scripts/test_workflow_status.py",
+        "scripts/test_verified_pages.py",
+        "scripts/test_public_site.py",
+        "scripts/test_operational_integration.py",
+        "scripts/test_product_change_ledger.py",
+        "scripts/test_publish_graph_contract.py",
+        "scripts/test_actions_release_integration.py",
+        "scripts/test_dependency_pins.py",
+        "scripts/test_publish_transaction.py",
+        "scripts/test_release_quality.py",
+        "scripts/test_collector_result.py",
+        "scripts/test_typesafe_shared.py",
+        "scripts/test_team_typesafe.py",
+        "scripts/test_typesafe_receipt.py",
+        "scripts/test_typesafe_wiring.py",
+        "scripts/test_gate_signature_portability.py",
+        "scripts/test_operations_public_projection.py",
+        "scripts/test_improvement_public_projection.py",
+        "scripts/test_team_improvement_evidence.py",
+        "scripts/test_build_team_improvement.py",
+        "scripts/test_runtime_operations_wiring.py",
+        "scripts/test_watch_source_adapters.py",
+        "scripts/test_watch_recovery_integration.py",
+        "scripts/test_source_collector_provenance.py",
+        "scripts/test_knowledge_capture_provenance.py",
+        "scripts/test_shortlist_observations.py",
+        "scripts/test_shortlist_continuity.py",
+        "scripts/test_source_procedure_state.py",
+        "scripts/test_source_safety_checkpoint.py",
+        "scripts/test_source_self_healing_integration.py",
+        "scripts/test_restore_operations_safety.py",
+        "scripts/test_workflow_status_publication.py",
+        "scripts/test_daiso_pipeline_health.py",
+        "scripts/test_daiso_pipeline_inputs.py",
+        "scripts/test_observe_daiso_pipeline.py",
+        "scripts/test_candidate_pool_history.py",
+        "scripts/test_gosi_observation_provenance.py",
+        "scripts/test_us_label_provenance.py",
+        "scripts/test_immutable_snapshot_store.py",
+        "scripts/test_moe_evaluation_publication.py",
+        "scripts/test_diagnostic_evaluation_publication.py",
+        "scripts/test_gemini_escalation.py",
+        "scripts/test_build_artifact_graph_mermaid.py",
+        "scripts/test_self_improve.py",
+        "scripts/test_self_improve_replay.py",
+        "scripts/test_team_learning.py",
+        "scripts/test_shopify_shortlist_guard.py",
+        "scripts/build_artifact_graph.py",
+        "scripts/check_release_quality.py",
+        "scripts/build_public_site.py",
+        "scripts/check_public_site.py"
+      ],
+      "effective": [
+        "scripts/preflight.py",
+        "scripts/test_preflight_workflow.py",
+        "scripts/test_daiso_collection_validation.py",
+        "scripts/test_daiso_candidates.py",
+        "scripts/test_listing_copy_local.py",
+        "scripts/test_operational_freshness.py",
+        "scripts/test_workflow_status.py",
+        "scripts/test_verified_pages.py",
+        "scripts/test_public_site.py",
+        "scripts/test_operational_integration.py",
+        "scripts/test_product_change_ledger.py",
+        "scripts/test_publish_graph_contract.py",
+        "scripts/test_actions_release_integration.py",
+        "scripts/test_dependency_pins.py",
+        "scripts/test_publish_transaction.py",
+        "scripts/test_release_quality.py",
+        "scripts/test_collector_result.py",
+        "scripts/test_typesafe_shared.py",
+        "scripts/test_team_typesafe.py",
+        "scripts/test_typesafe_receipt.py",
+        "scripts/test_typesafe_wiring.py",
+        "scripts/test_gate_signature_portability.py",
+        "scripts/test_operations_public_projection.py",
+        "scripts/test_improvement_public_projection.py",
+        "scripts/test_team_improvement_evidence.py",
+        "scripts/test_build_team_improvement.py",
+        "scripts/test_runtime_operations_wiring.py",
+        "scripts/test_watch_source_adapters.py",
+        "scripts/test_watch_recovery_integration.py",
+        "scripts/test_source_collector_provenance.py",
+        "scripts/test_knowledge_capture_provenance.py",
+        "scripts/test_shortlist_observations.py",
+        "scripts/test_shortlist_continuity.py",
+        "scripts/test_source_procedure_state.py",
+        "scripts/test_source_safety_checkpoint.py",
+        "scripts/test_source_self_healing_integration.py",
+        "scripts/test_restore_operations_safety.py",
+        "scripts/test_workflow_status_publication.py",
+        "scripts/test_daiso_pipeline_health.py",
+        "scripts/test_daiso_pipeline_inputs.py",
+        "scripts/test_observe_daiso_pipeline.py",
+        "scripts/test_candidate_pool_history.py",
+        "scripts/test_gosi_observation_provenance.py",
+        "scripts/test_us_label_provenance.py",
+        "scripts/test_immutable_snapshot_store.py",
+        "scripts/test_moe_evaluation_publication.py",
+        "scripts/test_diagnostic_evaluation_publication.py",
+        "scripts/test_gemini_escalation.py",
+        "scripts/test_build_artifact_graph_mermaid.py",
+        "scripts/test_self_improve.py",
+        "scripts/test_self_improve_replay.py",
+        "scripts/test_team_learning.py",
+        "scripts/test_shopify_shortlist_guard.py",
+        "scripts/build_artifact_graph.py",
+        "scripts/check_release_quality.py",
+        "scripts/build_public_site.py",
+        "scripts/check_public_site.py"
+      ]
+    },
+    ".github/workflows/preflight.yml": {
+      "publishes": false,
+      "regenerates_dashboard": false,
+      "runs_audit": false,
+      "mandatory_release_gate": false,
+      "publish_profiles": [],
+      "runs": [
+        "scripts/test_preflight_workflow.py",
+        "scripts/test_daiso_collection_validation.py",
+        "scripts/test_daiso_candidates.py",
+        "scripts/test_listing_copy_local.py",
+        "scripts/test_operational_freshness.py",
+        "scripts/test_workflow_status.py",
+        "scripts/test_verified_pages.py",
+        "scripts/test_operational_integration.py",
+        "scripts/test_product_change_ledger.py",
+        "scripts/test_publish_graph_contract.py",
+        "scripts/test_actions_release_integration.py",
+        "scripts/test_dependency_pins.py",
+        "scripts/test_public_site.py",
+        "scripts/test_publish_transaction.py",
+        "scripts/test_release_quality.py",
+        "scripts/test_collector_result.py",
+        "scripts/test_typesafe_shared.py",
+        "scripts/test_team_typesafe.py",
+        "scripts/test_typesafe_receipt.py",
+        "scripts/test_typesafe_wiring.py",
+        "scripts/test_gate_signature_portability.py",
+        "scripts/test_operations_public_projection.py",
+        "scripts/test_improvement_public_projection.py",
+        "scripts/test_team_improvement_evidence.py",
+        "scripts/test_build_team_improvement.py",
+        "scripts/test_runtime_operations_wiring.py",
+        "scripts/test_watch_source_adapters.py",
+        "scripts/test_watch_recovery_integration.py",
+        "scripts/test_source_collector_provenance.py",
+        "scripts/test_knowledge_capture_provenance.py",
+        "scripts/test_shortlist_observations.py",
+        "scripts/test_shortlist_continuity.py",
+        "scripts/test_source_procedure_state.py",
+        "scripts/test_source_safety_checkpoint.py",
+        "scripts/test_source_self_healing_integration.py",
+        "scripts/test_restore_operations_safety.py",
+        "scripts/test_workflow_status_publication.py",
+        "scripts/test_daiso_pipeline_health.py",
+        "scripts/test_daiso_pipeline_inputs.py",
+        "scripts/test_observe_daiso_pipeline.py",
+        "scripts/test_candidate_pool_history.py",
+        "scripts/test_gosi_observation_provenance.py",
+        "scripts/test_us_label_provenance.py",
+        "scripts/test_immutable_snapshot_store.py",
+        "scripts/test_moe_evaluation_publication.py",
+        "scripts/test_diagnostic_evaluation_publication.py",
+        "scripts/test_gemini_escalation.py",
+        "scripts/test_shopify_authorization_boundary.py",
+        "scripts/test_shopify_shortlist_guard.py",
+        "scripts/check_release_quality.py"
+      ],
+      "effective": [
+        "scripts/test_preflight_workflow.py",
+        "scripts/test_daiso_collection_validation.py",
+        "scripts/test_daiso_candidates.py",
+        "scripts/test_listing_copy_local.py",
+        "scripts/test_operational_freshness.py",
+        "scripts/test_workflow_status.py",
+        "scripts/test_verified_pages.py",
+        "scripts/test_operational_integration.py",
+        "scripts/test_product_change_ledger.py",
+        "scripts/test_publish_graph_contract.py",
+        "scripts/test_actions_release_integration.py",
+        "scripts/test_dependency_pins.py",
+        "scripts/test_public_site.py",
+        "scripts/test_publish_transaction.py",
+        "scripts/test_release_quality.py",
+        "scripts/test_collector_result.py",
+        "scripts/test_typesafe_shared.py",
+        "scripts/test_team_typesafe.py",
+        "scripts/test_typesafe_receipt.py",
+        "scripts/test_typesafe_wiring.py",
+        "scripts/test_gate_signature_portability.py",
+        "scripts/test_operations_public_projection.py",
+        "scripts/test_improvement_public_projection.py",
+        "scripts/test_team_improvement_evidence.py",
+        "scripts/test_build_team_improvement.py",
+        "scripts/test_runtime_operations_wiring.py",
+        "scripts/test_watch_source_adapters.py",
+        "scripts/test_watch_recovery_integration.py",
+        "scripts/test_source_collector_provenance.py",
+        "scripts/test_knowledge_capture_provenance.py",
+        "scripts/test_shortlist_observations.py",
+        "scripts/test_shortlist_continuity.py",
+        "scripts/test_source_procedure_state.py",
+        "scripts/test_source_safety_checkpoint.py",
+        "scripts/test_source_self_healing_integration.py",
+        "scripts/test_restore_operations_safety.py",
+        "scripts/test_workflow_status_publication.py",
+        "scripts/test_daiso_pipeline_health.py",
+        "scripts/test_daiso_pipeline_inputs.py",
+        "scripts/test_observe_daiso_pipeline.py",
+        "scripts/test_candidate_pool_history.py",
+        "scripts/test_gosi_observation_provenance.py",
+        "scripts/test_us_label_provenance.py",
+        "scripts/test_immutable_snapshot_store.py",
+        "scripts/test_moe_evaluation_publication.py",
+        "scripts/test_diagnostic_evaluation_publication.py",
+        "scripts/test_gemini_escalation.py",
+        "scripts/test_shopify_authorization_boundary.py",
+        "scripts/test_shopify_shortlist_guard.py",
+        "scripts/check_release_quality.py"
+      ]
+    },
+    ".github/workflows/root-collectors.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": "success()",
+          "paths": [
+            "data/civil_service_gosi.json",
+            "data/products.json",
+            "data/daiso_real/daiso_gosi.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": false,
+          "commerce_triggers": [],
+          "commands": [
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/guard_gosi.py",
+        "scripts/generate_dashboard_runtime.py"
+      ],
+      "effective": [
+        "scripts/guard_gosi.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/health_check_v2.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/serpapi-market.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": null,
+          "paths": [
+            "data/serpapi_market.json",
+            "data/serpapi_usage.json",
+            "data/youtube_serpapi.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": false,
+          "commerce_triggers": [],
+          "commands": [
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/collect_serpapi_market.py",
+        "scripts/collect_serpapi_youtube.py"
+      ],
+      "effective": [
+        "scripts/collect_serpapi_market.py",
+        "scripts/collect_serpapi_youtube.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/shopify-listing-copy.yml": {
+      "publishes": true,
+      "regenerates_dashboard": false,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행",
+          "condition": null,
+          "paths": [
+            "data/agents",
+            "data/team_improvement.json",
+            "data/typesafe_advisory.json",
+            "data/shopify_listing_copy.json",
+            "data/shopify_import.csv",
+            "data/shopify_import_report.json",
+            "data/pricing_model.json",
+            "data/daiso_real/collection_status.json",
+            "data/product_master.json",
+            "data/legal_products.json",
+            "data/legal_full.json",
+            "data/daiso_real/daiso_us_labels.json",
+            "data/daiso_real/us_label_sync_report.json",
+            "data/publish_deletions.json",
+            "data/mocra_readiness.json",
+            "data/listing_gate.json",
+            "data/daiso_real/shopify_s_recommendations.json",
+            "data/market_team.json",
+            "data/shopify_marketing_strategy.json",
+            "data/marketing_priority.csv",
+            "data/coaching_loop.json",
+            "data/shopify_exports",
+            "data/shopify_action_queue.json",
+            "data/shopify_shortlist.json",
+            "data/shopify_sync_guard.json",
+            "data/dashboard_runtime.json",
+            "data/knowledge/cumulative_history.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/daiso_us_labels.json",
+            "data/legal_full.json",
+            "data/legal_products.json",
+            "data/listing_gate.json",
+            "data/market_team.json",
+            "data/pricing_model.json",
+            "data/product_master.json",
+            "data/shopify_action_queue.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/setup_typesafe_shared.py",
+        "scripts/collect_oliveyoung_us.py",
+        "scripts/pricing_model.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/build_product_master.py",
+        "scripts/check_legal_products.py",
+        "scripts/evaluate_team_typesafe.py",
+        "scripts/build_listing_gate.py",
+        "scripts/gemini_listing_copy.py",
+        "scripts/build_listing_copy_local.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/build_shopify_import_csv.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/gemini_escalation.py",
+        "scripts/build_team_improvement.py",
+        "scripts/validate_commerce_architecture.py"
+      ],
+      "effective": [
+        "scripts/setup_typesafe_shared.py",
+        "scripts/collect_oliveyoung_us.py",
+        "scripts/pricing_model.py",
+        "scripts/sync_gosi_to_us_labels.py",
+        "scripts/build_product_master.py",
+        "scripts/check_legal_products.py",
+        "scripts/evaluate_team_typesafe.py",
+        "scripts/build_listing_gate.py",
+        "scripts/gemini_listing_copy.py",
+        "scripts/build_listing_copy_local.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_market_team.py",
+        "scripts/prepare_commerce_export.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/build_shopify_import_csv.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/gemini_escalation.py",
+        "scripts/build_team_improvement.py",
+        "scripts/validate_commerce_architecture.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/discover_channels.py",
+        "scripts/health_check_v2.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/us-retail-collect.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": true,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "condition": null,
+          "paths": [
+            "data/amazon_products.json",
+            "data/walmart_products.json",
+            "data/amazon_movers_products.json",
+            "data/amazon_new_products.json",
+            "data/sokoglam_products.json",
+            "data/us_beauty_products.json",
+            "data/dashboard_runtime.json",
+            "data/market_team.json",
+            "data/shopify_marketing_strategy.json",
+            "data/listing_gate.json",
+            "data/knowledge/cumulative_history.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/sokoglam_products.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ],
+            [
+              "scripts/audit_team_reports.py"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/collect_us_retail.py",
+        "scripts/collect_sokoglam.py"
+      ],
+      "effective": [
+        "scripts/collect_us_retail.py",
+        "scripts/collect_sokoglam.py",
+        "scripts/build_product_master.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_market_team.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/discover_channels.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py",
+        "scripts/audit_team_reports.py"
+      ]
+    }
+  },
+  "producers": {
+    "data/daiso_real/collection_status.json": [
+      "scripts/align_collection_status.py",
+      "scripts/fetch_fx_rate.py"
+    ],
+    "data/jarvis_work_detailed_log.json": [
+      "scripts/auto_recovery.py",
+      "scripts/auto_recovery_improved.py",
+      "scripts/record_task_result.py"
+    ],
+    "data/recovery_log.json": [
+      "scripts/auto_recovery.py"
+    ],
+    "data/agi_metrics.json": [
+      "scripts/auto_update.py"
+    ],
+    "data/artifact_graph.json": [
+      "scripts/build_artifact_graph.py"
+    ],
+    "data/coaching_loop.json": [
+      "scripts/build_coaching_loop.py",
+      "scripts/scripts/build_coaching_loop.py"
+    ],
+    "data/daiso_real/candidate_comparison.json": [
+      "scripts/build_daiso_candidate_comparison.py"
+    ],
+    "data/design/offline_pack.json": [
+      "scripts/build_design_team.py"
+    ],
+    "data/design_team.json": [
+      "scripts/build_design_team.py"
+    ],
+    "data/error_report.json": [
+      "scripts/build_error_report.py"
+    ],
+    "data/inci_dictionary.json": [
+      "scripts/build_inci_dictionary.py"
+    ],
+    "data/legal_full.json": [
+      "scripts/build_legal_full.py"
+    ],
+    "data/shopify_listing_copy.json": [
+      "scripts/build_listing_copy_local.py",
+      "scripts/gemini_listing_copy.py"
+    ],
+    "data/daiso_real/shopify_s_recommendations.json": [
+      "scripts/build_listing_gate.py",
+      "scripts/daiso/score_shopify_demand.py"
+    ],
+    "data/listing_gate.json": [
+      "scripts/build_listing_gate.py"
+    ],
+    "data/typesafe_advisory.json": [
+      "scripts/build_listing_gate.py"
+    ],
+    "data/typesafe_call_log.json": [
+      "scripts/build_listing_gate.py"
+    ],
+    "data/market_team.json": [
+      "scripts/build_market_team.py"
+    ],
+    "data/mocra_readiness.json": [
+      "scripts/build_mocra_readiness.py"
+    ],
+    "data/product_master.json": [
+      "scripts/build_product_master.py"
+    ],
+    "data/shopify_action_queue.json": [
+      "scripts/build_shopify_action_queue.py"
+    ],
+    "data/shopify_products.json": [
+      "scripts/build_shopify_catalog.py"
+    ],
+    "data/shopify_demand_matching.json": [
+      "scripts/build_shopify_demand_matching.py"
+    ],
+    "data/shopify_import_report.json": [
+      "scripts/build_shopify_import_csv.py"
+    ],
+    "data/shopify_marketing_strategy.json": [
+      "scripts/build_shopify_marketing_strategy.py"
+    ],
+    "data/shopify_shortlist.json": [
+      "scripts/build_shopify_shortlist.py"
+    ],
+    "data/team_feeds.json": [
+      "scripts/build_team_feeds.py"
+    ],
+    "data/team_hubs.json": [
+      "scripts/build_team_hubs.py"
+    ],
+    "data/dashboard_runtime.json": [
+      "scripts/build_team_improvement.py",
+      "scripts/daiso/export_shopify_s_csv.py",
+      "scripts/generate_dashboard_runtime.py"
+    ],
+    "data/team_improvement.json": [
+      "scripts/build_team_improvement.py"
+    ],
+    "data/team_learning.json": [
+      "scripts/build_team_learning.py"
+    ],
+    "data/youtube_review_queue.json": [
+      "scripts/build_youtube_review_queue.py"
+    ],
+    "data/legal_products.json": [
+      "scripts/check_legal_products.py"
+    ],
+    "data/source_health.json": [
+      "scripts/check_source_health.py"
+    ],
+    "data/record_duplicates.json": [
+      "scripts/clean_record_duplicates.py"
+    ],
+    "data/daiso_products.json": [
+      "scripts/collect_daiso_products.py"
+    ],
+    "data/design_sources.json": [
+      "scripts/collect_design_sources.py"
+    ],
+    "data/google_cse_results.json": [
+      "scripts/collect_google_cse.py"
+    ],
+    "data/google_trends_beauty.json": [
+      "scripts/collect_google_trends_beauty.py"
+    ],
+    "data/institution_sources.json": [
+      "scripts/collect_institutions.py"
+    ],
+    "data/kbeauty_news.json": [
+      "scripts/collect_kbeauty_news.py"
+    ],
+    "data/shopify_learn_with_shopify.json": [
+      "scripts/collect_learn_with_shopify.py",
+      "scripts/youtube_dropshipping_analysis.py"
+    ],
+    "data/oliveyoung_us_products.json": [
+      "scripts/collect_oliveyoung_us.py"
+    ],
+    "data/open_beauty_facts.json": [
+      "scripts/collect_open_beauty_facts.py"
+    ],
+    "data/public_signals.json": [
+      "scripts/collect_public_signals.py"
+    ],
+    "data/public_trend_rss.json": [
+      "scripts/collect_public_trend_rss.py"
+    ],
+    "data/reddit_beauty_signals.json": [
+      "scripts/collect_reddit_beauty_rss.py"
+    ],
+    "data/robotics_sources.json": [
+      "scripts/collect_robotics.py"
+    ],
+    "data/serpapi_market.json": [
+      "scripts/collect_serpapi_market.py"
+    ],
+    "data/serpapi_usage.json": [
+      "scripts/collect_serpapi_market.py",
+      "scripts/collect_serpapi_youtube.py"
+    ],
+    "data/youtube_serpapi.json": [
+      "scripts/collect_serpapi_youtube.py"
+    ],
+    "data/sokoglam_products.json": [
+      "scripts/collect_sokoglam.py"
+    ],
+    "data/us_beauty_products.json": [
+      "scripts/collect_us_retail.py"
+    ],
+    "data/gemini_web_channels.json": [
+      "scripts/collect_via_gemini.py"
+    ],
+    "data/gosi.json": [
+      "scripts/daiso/add_gosi_measured.py",
+      "scripts/guard_gosi.py"
+    ],
+    "data/daiso_real/beauty_queue.json": [
+      "scripts/daiso/build_beauty_queue.py"
+    ],
+    "data/shopify_test_batch.json": [
+      "scripts/daiso/build_shopify_test_batch.py"
+    ],
+    "data/daiso_real/last_commit_summary.json": [
+      "scripts/daiso/export_shopify_s_csv.py"
+    ],
+    "data/daiso_real/excluded_products.json": [
+      "scripts/daiso/prune_excluded_products.py"
+    ],
+    "data/daiso_real/products.json": [
+      "scripts/daiso/prune_excluded_products.py"
+    ],
+    "data/daiso_real/shopify_demand_score.json": [
+      "scripts/daiso/score_shopify_demand.py"
+    ],
+    "data/daiso_real/shopify_s_rejected.json": [
+      "scripts/daiso/score_shopify_demand.py"
+    ],
+    "data/channel_candidates.json": [
+      "scripts/discover_channels.py"
+    ],
+    "data/record_case_collisions.json": [
+      "scripts/fix_case_collisions.py"
+    ],
+    "data/google_trends.json": [
+      "scripts/google_search_data_collection.py"
+    ],
+    "data/guard_gosi_log.json": [
+      "scripts/guard_gosi.py"
+    ],
+    "data/health_check.json": [
+      "scripts/health_check_v2.py"
+    ],
+    "data/manual_channels.json": [
+      "scripts/ingest_manual_channels.py"
+    ],
+    "data/manual/notebook_reviews/ledger.json": [
+      "scripts/ingest_notebook_review.py"
+    ],
+    "data/manual/team_youtube_insights.json": [
+      "scripts/ingest_notebook_review.py"
+    ],
+    "data/own_site.json": [
+      "scripts/ingest_own_site.py"
+    ],
+    "data/papers_manual.json": [
+      "scripts/ingest_papers.py"
+    ],
+    "data/youtube_channels.json": [
+      "scripts/ingest_youtube_channels.py"
+    ],
+    "data/youtube_manual.json": [
+      "scripts/ingest_youtube_links.py"
+    ],
+    "data/daily_stats.json": [
+      "scripts/jarvis_data_collection.py"
+    ],
+    "data/brand_kit.json": [
+      "scripts/prepare_brand_kit.py"
+    ],
+    "data/pricing_model.json": [
+      "scripts/pricing_model.py"
+    ],
+    "data/obsidian_concept_rules.json": [
+      "scripts/rebuild_concept_links.py"
+    ],
+    "data/shopify_recommend.json": [
+      "scripts/shopify_matcher.py"
+    ],
+    "data/shopify_sync_guard.json": [
+      "scripts/shopify_sync_guard.py"
+    ],
+    "data/daiso_real/daiso_us_labels.json": [
+      "scripts/sync_gosi_to_us_labels.py"
+    ],
+    "data/knowledge/team_router_report.json": [
+      "scripts/team_router_moe.py"
+    ],
+    "data/dashboard_data.json": [
+      "scripts/update_dashboard.py"
+    ],
+    "data/youtube_real_videos.json": [
+      "scripts/youtube_dropshipping_analysis.py"
+    ]
+  },
+  "audited": [
+    "data/channel_candidates.json",
+    "data/daiso_real/products.json",
+    "data/daiso_real/shopify_demand_score.json",
+    "data/dashboard_runtime.json",
+    "data/legal_products.json",
+    "data/listing_gate.json",
+    "data/market_team.json"
+  ],
+  "coupled": [
+    "data/channel_candidates.json",
+    "data/daiso_real/excluded_products.json",
+    "data/daiso_real/last_commit_summary.json",
+    "data/daiso_real/products.json",
+    "data/daiso_real/shopify_demand_score.json",
+    "data/daiso_real/shopify_s_recommendations.json",
+    "data/daiso_real/shopify_s_rejected.json",
+    "data/dashboard_runtime.json",
+    "data/legal_products.json",
+    "data/listing_gate.json",
+    "data/market_team.json",
+    "data/team_improvement.json",
+    "data/typesafe_advisory.json",
+    "data/typesafe_call_log.json"
+  ],
+  "terminal": [
+    "data/dashboard_runtime.json",
+    "data/health_check.json",
+    "data/team_improvement.json"
+  ],
+  "violations": []
+}

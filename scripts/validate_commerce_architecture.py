@@ -28,14 +28,28 @@ def require(condition: bool, message: str) -> None:
 
 
 def validate_retained_blocked_exports(root, export_dir):
-    """No eligible drafts: only exact Git-retained bytes, never new clearance."""
+    """Only committed or exact Git-checkout bytes; never new clearance."""
     for name in ('products.csv','inventory.csv','images.csv','collections.csv'):
         target = Path(export_dir) / name
         require(not target.is_symlink() and target.is_file(), 'retained draft path invalid')
-        result = subprocess.run(['git','show',f'HEAD:data/shopify_exports/{name}'],
-                                cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        require(result.returncode == 0 and target.read_bytes() == result.stdout,
+        rel = f'data/shopify_exports/{name}'
+        baseline = subprocess.run(['git', 'rev-parse', f'HEAD:{rel}'],
+                                  cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        current = subprocess.run(['git', 'hash-object', f'--path={rel}', str(target)],
+                                 cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        require(baseline.returncode == 0 and current.returncode == 0
+                and baseline.stdout.strip() == current.stdout.strip(),
                 f'legally blocked draft changed or lacks committed baseline: {name}')
+        # Hash normalization alone is not byte-retention evidence. Accept only
+        # the actual committed blob or its exact configured checkout form.
+        # This permits Git's Windows line endings, not arbitrary rewrites.
+        committed = subprocess.run(['git', 'show', f'HEAD:{rel}'],
+                                   cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        checkout = subprocess.run(['git', 'cat-file', '--filters', f'HEAD:{rel}'],
+                                  cwd=root, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        require(committed.returncode == 0 and checkout.returncode == 0
+                and target.read_bytes() in (committed.stdout, checkout.stdout),
+                f'legally blocked draft changed or lacks committed byte proof: {name}')
 
 
 def digest(value) -> str:

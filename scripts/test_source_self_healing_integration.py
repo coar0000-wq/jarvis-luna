@@ -191,6 +191,34 @@ class ResumptionIntegration(unittest.TestCase):
             result.returncode=1
             with patch.object(commerce_validator.subprocess,'run',return_value=result),self.assertRaises(AssertionError):commerce_validator.validate_retained_blocked_exports(root,out)
 
+    def test_legally_blocked_exports_accept_only_real_git_checkout_form(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);out=root/'data/shopify_exports';out.mkdir(parents=True)
+            hooks=root/'empty-hooks';hooks.mkdir()
+            subprocess.run(['git','init','-q',str(root)],check=True,capture_output=True)
+            (root/'.gitattributes').write_text('data/shopify_exports/*.csv text eol=crlf\n')
+            raw=b'old,draft,0\nretained,FALSE,0\n'
+            names=('products.csv','inventory.csv','images.csv','collections.csv')
+            for name in names:(out/name).write_bytes(raw)
+            subprocess.run(['git','-c','core.autocrlf=false','add','--','.gitattributes','data'],cwd=root,check=True,capture_output=True)
+            subprocess.run(['git','-c','user.name=Offline Fixture','-c','user.email=fixture@example.invalid',
+                            '-c','commit.gpgsign=false','-c',f'core.hooksPath={hooks}',
+                            'commit','-qm','retained export fixture'],cwd=root,check=True,capture_output=True)
+            checkout=subprocess.check_output(['git','cat-file','--filters','HEAD:data/shopify_exports/products.csv'],cwd=root)
+            self.assertEqual(checkout,raw.replace(b'\n',b'\r\n'))
+            for name in names:(out/name).write_bytes(checkout)
+            commerce_validator.validate_retained_blocked_exports(root,out)
+            # Mixed endings have the same Git-normalized content hash, but are
+            # neither the committed blob nor the exact checkout byte form.
+            (out/'products.csv').write_bytes(raw.replace(b'\n',b'\r\n',1))
+            with self.assertRaisesRegex(AssertionError,'changed'):
+                commerce_validator.validate_retained_blocked_exports(root,out)
+            (out/'products.csv').write_bytes(b'unauthorized,payload,1\r\n')
+            with self.assertRaisesRegex(AssertionError,'changed'):
+                commerce_validator.validate_retained_blocked_exports(root,out)
+            (out/'products.csv').write_bytes(raw)
+            commerce_validator.validate_retained_blocked_exports(root,out)
+
     def test_runtime_rebuild_preserves_only_actual_matching_plan_heartbeat(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);d=root/'data/agents';d.mkdir(parents=True)

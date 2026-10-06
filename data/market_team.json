@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-05T13:27:36.074252+09:00",
+    "updated_at": "2026-10-06T18:15:14.211371+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -664,8 +664,8 @@
   "marketing_playbook": {
     "설명": "영상 링크 수와 자막 타임스탬프를 검토한 실행 전략을 함께 제공한다. 전략은 data/shopify_marketing_strategy.json에서 재생성된다.",
     "영상_총량": 60,
-    "자막_검토_영상": 19,
-    "근거_인사이트": 51,
+    "자막_검토_영상": 26,
+    "근거_인사이트": 63,
     "주제": {
       "광고·크리에이티브": {
         "자료_수": 7,
@@ -1032,6 +1032,81 @@
           "MKT-050",
           "MKT-051"
         ]
+      },
+      {
+        "id": "EXP-023",
+        "priority": 23,
+        "name": "모바일 성능 코호트·체크아웃 신뢰 감사",
+        "status": "blocked_until_store_analytics",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-052",
+          "MKT-053"
+        ]
+      },
+      {
+        "id": "EXP-024",
+        "priority": 24,
+        "name": "리텐션 플로우 제외·중복 제거 감사",
+        "status": "blocked_until_store_and_consent",
+        "cost_mode": "existing_stack_only",
+        "insight_ids": [
+          "MKT-054",
+          "MKT-055",
+          "MKT-056"
+        ]
+      },
+      {
+        "id": "EXP-025",
+        "priority": 25,
+        "name": "고객 선택형 번들·사은품 손익 모델",
+        "status": "ready_for_modeling",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-057",
+          "MKT-058"
+        ]
+      },
+      {
+        "id": "EXP-026",
+        "priority": 26,
+        "name": "톤·감정·가치 포지셔닝 지도",
+        "status": "ready_for_research",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-059"
+        ]
+      },
+      {
+        "id": "EXP-027",
+        "priority": 27,
+        "name": "Search Console 컬렉션 기회 큐",
+        "status": "blocked_until_search_console_data",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-060",
+          "MKT-061"
+        ]
+      },
+      {
+        "id": "EXP-028",
+        "priority": 28,
+        "name": "시각 예시형 유기 크리에이터 브리프",
+        "status": "ready_after_assets",
+        "cost_mode": "free_organic",
+        "insight_ids": [
+          "MKT-062"
+        ]
+      },
+      {
+        "id": "EXP-029",
+        "priority": 29,
+        "name": "프로모션 깊이·기간 기여이익 게이트",
+        "status": "ready_for_modeling",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-063"
+        ]
       }
     ],
     "적용_브리핑": [
@@ -1071,28 +1146,29 @@
     },
     "source_coverage": {
       "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
-      "videos": 19,
-      "insights": 51,
+      "videos": 26,
+      "insights": 63,
       "pillars": {
         "acquisition": 2,
-        "aov": 9,
-        "creative": 5,
-        "cro": 7,
+        "aov": 11,
+        "creative": 6,
+        "cro": 9,
         "measurement": 2,
-        "positioning": 4,
-        "retention": 12,
-        "seo_geo": 9,
+        "positioning": 5,
+        "pricing": 1,
+        "retention": 15,
+        "seo_geo": 11,
         "social_proof": 1
       },
       "oldest_video_date": "2025-09-03",
-      "newest_video_date": "2026-10-02",
+      "newest_video_date": "2026-10-05",
       "source_file": "data/manual/shopify_youtube_insights.json"
     },
     "quality_gate": {
       "passed": true,
-      "video_count": 19,
-      "insight_count": 51,
-      "timestamped_evidence_count": 51,
+      "video_count": 26,
+      "insight_count": 63,
+      "timestamped_evidence_count": 63,
       "uncited_video_count": 0,
       "required_pillars_present": [
         "acquisition",
@@ -1125,7 +1201,14 @@
       "EXP-019",
       "EXP-020",
       "EXP-021",
-      "EXP-022"
+      "EXP-022",
+      "EXP-023",
+      "EXP-024",
+      "EXP-025",
+      "EXP-026",
+      "EXP-027",
+      "EXP-028",
+      "EXP-029"
     ],
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
@@ -1845,7 +1928,7 @@
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 11,
+    "signals_verified": 4,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
