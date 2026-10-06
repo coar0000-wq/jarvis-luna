@@ -12,9 +12,11 @@ from pathlib import Path
 try:
     from scripts.operational_freshness import age_channels, assess_collection, assess_heartbeat
     from scripts.daiso_pipeline_inputs import load_pipeline_inputs
+    from scripts.team_improvement_evidence import build as build_team_improvement_evidence
 except ModuleNotFoundError:
     from operational_freshness import age_channels, assess_collection, assess_heartbeat
     from daiso_pipeline_inputs import load_pipeline_inputs
+    from team_improvement_evidence import build as build_team_improvement_evidence
 
 # 기준 경로 설정
 ROOT = Path(__file__).resolve().parents[1]
@@ -1174,12 +1176,10 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
         + (f' · 개인 노트 {personal:,}건 별도' if personal else '')
         + (f' · 경고 통과(임계 {graph.get("dangling_warn_threshold", 300)})' if audit_ok and dang else '')
     )
-    # 자기개선 루프(scripts/self_improve.py)의 미분류 지표
+    # Historical classifier replay is not a fresh graph or business-quality measurement.
     si_topics = ((load_json(D / "self_improve" / "status.json", {}) or {}).get("loops") or {}).get("topics") or {}
-    if si_topics.get("before") is not None:
-        graph_summary += (f' · 미분류 {100 * si_topics["before"]:.1f}%'
-                          + (f' · 학습 키워드 {si_topics["learned_keywords"]}개'
-                             if si_topics.get("learned_keywords") else ''))
+    if si_topics:
+        graph_summary += ' · 분류 규칙 그림자 검증은 아래 개선 증거에서 별도 표시'
     cards.append(_team(
         "graph", "옵시디언 그래프", graph.get("last_generated"),
         graph_summary,
@@ -1274,6 +1274,7 @@ def main() -> None:
             "실행 기록이 없는 작업은 진행중으로 표시하지 않음."
         ),
         "operations": load_json(ROOT / "data" / "operations" / "board.json", {}) or {},
+        "team_improvement_evidence": build_team_improvement_evidence(ROOT, now=now),
         "agents_ops": agents_plan_heartbeat(ROOT),
         "teams": teams,
         "secretary": secretary,

@@ -40,6 +40,7 @@ jobs:
         env:
           TYPESAFE_ENABLED: '0'
           GEMINI_FALLBACK_ENABLED: '0'
+          GEMINI_ENABLED: '0'
           # Fixture-only CLI paths, no provider or source requests.
           JARVIS_SOURCE_CONTINUITY: 'verified'
           JARVIS_OPERATIONS_CONTINUITY: 'verified'
@@ -66,6 +67,9 @@ jobs:
           python scripts/test_gate_signature_portability.py
           python -B -m unittest discover -s scripts -p "test_jarvis*.py"
           python scripts/test_operations_public_projection.py
+          python scripts/test_improvement_public_projection.py
+          python scripts/test_team_improvement_evidence.py
+          python scripts/test_build_team_improvement.py
           python scripts/test_runtime_operations_wiring.py
           python scripts/test_watch_source_adapters.py
           python scripts/test_watch_recovery_integration.py
@@ -80,6 +84,8 @@ jobs:
           python scripts/test_workflow_status_publication.py
           python scripts/test_daiso_pipeline_health.py
           python scripts/test_daiso_pipeline_inputs.py
+          python scripts/test_observe_daiso_pipeline.py
+          python scripts/test_candidate_pool_history.py
           python scripts/test_gosi_observation_provenance.py
           python scripts/test_us_label_provenance.py
           python scripts/test_immutable_snapshot_store.py

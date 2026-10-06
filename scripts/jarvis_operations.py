@@ -159,11 +159,16 @@ def _state(state):
         raise ValueError('Sequence would overwrite an immutable event')
 
 
-def _event(state, kind, task_id, detail=None):
+def _event(state, kind, task_id, detail=None, *, audit=None, at=None):
+    import jarvis_audit
+    jarvis_audit._store(state)
+    event_id = 'event_' + str(state['sequence'] + 1).zfill(12)
+    event = {'event_id': event_id, 'sequence': state['sequence'] + 1, 'kind': kind,
+             'task_id': task_id, 'detail': copy.deepcopy(detail), 'at': utc(at)}
+    jarvis_audit.event_metadata(state, event, audit)
     state['sequence'] += 1
-    event_id = 'event_' + str(state['sequence']).zfill(12)
-    state['events'][event_id] = {'event_id': event_id, 'sequence': state['sequence'], 'kind': kind,
-                               'task_id': task_id, 'detail': copy.deepcopy(detail), 'at': utc()}
+    state['events'][event_id] = event
+    return copy.deepcopy(event)
 
 
 def _identity(task):

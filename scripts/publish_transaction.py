@@ -20,6 +20,11 @@ import subprocess
 import sys
 import tempfile
 
+# Native script execution must resolve the same repository-local history helpers
+# even while isolated transaction worktrees change the process working directory.
+if __package__ in (None, ''):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 MISSING = object()
 PERSISTENT_SOURCE_FILES = frozenset(('data/daiso_real/shortlist_observations.json',
     'data/daiso_real/.shortlist_observation_claim.json',
@@ -28,7 +33,7 @@ PERSISTENT_SOURCE_FILES = frozenset(('data/daiso_real/shortlist_observations.jso
 IMMUTABLE_HISTORY_PREFIXES = ('data/agents/workflow_status_history/',
     'data/agents/gemini_escalation_history/', 'data/knowledge/moe_evaluation_history/',
     'data/knowledge/gosi_observation_history/', 'data/agents/daiso_pipeline_history/',
-    'data/agents/source_procedures/observer_history/')
+    'data/agents/source_procedures/observer_history/', 'data/daiso_real/candidate_pool_history/')
 
 
 class PublishError(RuntimeError):
@@ -82,16 +87,28 @@ def identity(rows, fields):
     return None
 
 
-def deletion_authorized(name, base, removed, manifest, *, replacement=None):
+def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None):
+    candidate = name == 'data/daiso_real/candidate_pool.json'
+    if candidate:
+        if base is None or replacement is None or removed is None:
+            return False
+        try:
+            from scripts.candidate_pool_history import verify_evidence
+            verify_evidence(base, replacement, sorted(set(removed)), candidate_history)
+        except (ValueError, TypeError, OSError):
+            return False
     for record in (manifest or {}).get('deletions', []):
         if (isinstance(record, dict) and record.get('path') == name
                 and record.get('base_sha256') == sha(base)
+                and (candidate or record.get('policy_ref') != 'scripts/candidate_pool_history.py')
+                and (not candidate or (record.get('policy_ref') == 'scripts/candidate_pool_history.py'
+                    and record.get('ids') == sorted(set(removed)) and record.get('delete_file') is False))
                 and isinstance(record.get('reason'), str) and len(record['reason'].strip()) >= 8
                 and isinstance(record.get('policy_ref'), str) and record['policy_ref'].strip()
                 and (('replacement_sha256' not in record and record['policy_ref'] not in {
                     'scripts/moe_evaluation_history.py', 'scripts/diagnostic_evaluation_history.py',
                     'scripts/workflow_status_history.py', 'scripts/gosi_observation_history.py',
-                    'scripts/shortlist_observation_history.py'})
+                    'scripts/shortlist_observation_history.py', 'scripts/candidate_pool_history.py'})
                      or (replacement is not None and record.get('replacement_sha256') == sha(replacement)))
                 and (record.get('delete_file') is True if removed is None else
                      isinstance(record.get('ids'), list) and set(removed) <= set(map(str, record['ids'])))):
@@ -241,11 +258,16 @@ BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
     'data/daiso_real/candidate_pool.json','data/agents/daiso_pipeline_receipts.json'))
 
 
-def overlay(name, base, local, remote, policy, manifest):
+def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None):
     # Exact immutable history bytes must never be reformatted, merged or pruned.
     # Their filenames bind SHA256 of the original snapshots, not parsed JSON.
     if name.startswith(IMMUTABLE_HISTORY_PREFIXES):
         stem = PurePosixPath(name).stem
+        prefix = 'data/daiso_real/candidate_pool_history/'
+        if name.startswith(prefix) and not (re.fullmatch(r'[0-9a-f]{64}\.json', name[len(prefix):])
+                or re.fullmatch(r'[0-9a-f]{2}/[0-9a-f]{64}\.json', name[len(prefix):])
+                and name[len(prefix):len(prefix)+2] == stem[:2]):
+            raise PublishError(f'immutable candidate history shard/path mismatch: {name}')
         if local is None or not re.fullmatch(r'[0-9a-f]{64}', stem) or sha(local) != stem:
             raise PublishError(f'immutable history removal/hash mismatch: {name}')
         if remote not in (None, local) or base not in (None, local):
@@ -254,7 +276,15 @@ def overlay(name, base, local, remote, policy, manifest):
         return local
     if name in PERSISTENT_SOURCE_FILES and remote not in (None, base, local):
         raise PublishError(f'competing safety checkpoint requires reconciliation: {name}')
-    authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local)
+    authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local, candidate_history=candidate_history)
+    if name == 'data/daiso_real/candidate_pool.json' and base is not None and local is not None:
+        try:
+            from scripts.candidate_pool_history import replacement_ids, verify_evidence
+            expected_ids = replacement_ids(base, local)
+            if candidate_history is not None:
+                verify_evidence(base, local, expected_ids, candidate_history)
+        except (ValueError, TypeError) as exc:
+            raise PublishError('candidate product/evidence removal or malformed snapshot') from exc
     if local is None:
         if not deletion_authorized(name, base, None, manifest):
             raise PublishError(f'file deletion requires base-hash reason manifest: {name}')
@@ -276,7 +306,7 @@ def overlay(name, base, local, remote, policy, manifest):
         # a hybrid ledger or destroy its byte-bound failed-run artifact evidence.
         exact_stage = name in BYTE_BOUND_STAGE_FILES and remote in (None, base, local)
         result = local if name in PERSISTENT_SOURCE_FILES or exact_stage else json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
-        if removed and not deletion_authorized(name, base, removed, manifest, replacement=result):
+        if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history):
             raise PublishError(f'replacement snapshot is not authorized after merge: {name}')
         return result
     if remote in (None, base, local):
@@ -309,6 +339,16 @@ class Transaction:
         self.delta = self.capture()
         p = self.root/self.policy['deletion_manifest']
         self.manifest = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+        self.candidate_history = None
+        if 'data/daiso_real/candidate_pool.json' in self.delta:
+            from scripts.candidate_pool_history import HISTORY_PATH
+            from scripts.immutable_snapshot_store import load_snapshots, _scan
+            self.candidate_history = load_snapshots(self.root, HISTORY_PATH)
+            _, archive_paths, _, _ = _scan(self.root, HISTORY_PATH)
+            for digest, name in archive_paths.items():
+                actual = self.delta[name][1] if name in self.delta else at_ref(self.root, self.base, name)
+                if actual != self.candidate_history[digest]:
+                    raise PublishError('candidate archive omitted from publication paths')
         self.attempts = []
 
     def capture(self):
@@ -448,7 +488,7 @@ class Transaction:
                             continue  # Regenerate, never reuse stale derivatives.
                         p = work/name
                         remote = p.read_bytes() if p.exists() else None
-                        value = overlay(name, base, local, remote, self.policy, self.manifest)
+                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history)
                         if value is None:
                             p.unlink(missing_ok=True)
                         else:

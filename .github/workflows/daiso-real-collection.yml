@@ -220,6 +220,7 @@ jobs:
           COLLECTOR_STARTED_AT: ${{ steps.collector.outputs.started_at }}
           DAISO_EXECUTION_ID: ${{ github.run_id }}:${{ github.run_attempt }}:collect
         run: |
+          python -u scripts/candidate_pool_history.py --root "$GITHUB_WORKSPACE"
           python -u scripts/daiso_pipeline_inputs.py record-collector --root "$GITHUB_WORKSPACE" \
             --collector-outcome "$COLLECTOR_OUTCOME" --started-after "$COLLECTOR_STARTED_AT"
 
@@ -498,6 +499,7 @@ jobs:
             data/daiso_real/collection_status.json
             data/daiso_real/crawl_state.json
             data/daiso_real/candidate_pool.json
+            data/daiso_real/candidate_pool_history
             data/daiso_real/candidate_observations.json
             data/daiso_real/candidate_comparison.json
             data/daiso_real/shortlist_observations.json
@@ -527,7 +529,9 @@ jobs:
           path: |
             data/daiso_real/collection_status.json
             data/daiso_real/candidate_pool.json
+            data/daiso_real/candidate_pool_history
             data/daiso_real/candidate_comparison.json
+            data/publish_deletions.json
             data/agents/daiso_pipeline_receipts.json
             data/agents/daiso_pipeline_history
           if-no-files-found: warn

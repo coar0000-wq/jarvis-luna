@@ -19,6 +19,7 @@ import jarvis_execution as execution
 import jarvis_feedback as feedback
 import jarvis_watch as watch
 import jarvis_recovery as recovery
+import jarvis_audit as audit
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE = 'data/operations/state.json'
@@ -48,14 +49,21 @@ def read(root, relative, default=None):
 def atomic(root, relative, value):
     if not (relative.startswith('data/operations/') or relative == 'data/dashboard_runtime.json'):
         raise ValueError('operation write scope denied')
+    if relative == STATE:
+        body = (json.dumps(value, ensure_ascii=False, sort_keys=True,
+                           separators=(',', ':'), allow_nan=False) + '\n').encode('utf-8')
+        if len(body) > 8 * 1024 * 1024:
+            raise ValueError('operations state storage capacity reached; pruning/reset forbidden')
+    else:
+        body = (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2,
+                           allow_nan=False) + '\n').encode('utf-8')
     dest = execution._safe(root, relative)
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest = execution._safe(root, relative)
     fd, temp = tempfile.mkstemp(prefix='.operations-', dir=dest.parent)
     try:
         with os.fdopen(fd, 'wb') as stream:
-            stream.write((json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2,
-                                    allow_nan=False) + '\n').encode('utf-8'))
+            stream.write(body)
             stream.flush()
             os.fsync(stream.fileno())
         execution._safe(root, relative)
@@ -104,6 +112,22 @@ def validate_state(root, state):
     ledger = read(root, execution.ExecutionStore.filename, {}) or {}
     if ledger.get('global_stop'):
         raise ValueError('execution global stop; explicit reconciliation required')
+    audit.validate(state, root=root)
+    batches = state.get('event_batches', {})
+    if not isinstance(batches, dict) or len(batches) > 10000:
+        raise ValueError('watch batch capacity/schema invalid')
+    for key, batch in batches.items():
+        if (not isinstance(batch, dict)
+                or set(batch) != {'source_team','event_ids','scope'}
+                or batch['source_team'] not in core.TEAMS
+                or batch['scope'] != 'same_observation_saved_event_review_only'
+                or not isinstance(batch['event_ids'], list)
+                or not 2 <= len(batch['event_ids']) <= 10000
+                or batch['event_ids'] != sorted(set(batch['event_ids']))
+                or key != 'event_batch_' + core.digest(batch)
+                or any(state['events'].get(e, {}).get('source_team') != batch['source_team']
+                       for e in batch['event_ids'])):
+            raise ValueError('immutable watch batch/reference invalid')
     for receipt in state['receipts'].values():
         if not execution.validate_receipt(root, receipt):
             raise ValueError('trusted execution ledger/output mismatch')
@@ -131,8 +155,10 @@ def payload(team, version, members):
             'canonical_members':list(members)}
 
 
-def bootstrap(state, version, members):
-    goal = '사업 준비 스냅샷 검토 / ' + version[:16]
+def bootstrap(state, version, members, *, goal=None):
+    # Optional label admits only the same fixed eleven-team local report chain.
+    # It is not a parsed instruction, capability, external action or approval.
+    goal = ('사업 준비 스냅샷 검토' if goal is None else core._text(goal, 'internal review goal', 500)) + ' / ' + version[:16]
     core.route_intent(goal, forced_teams=list(core.TEAMS))
     for team in core.TEAMS:
         if team in set(CHAIN.values()):
@@ -188,6 +214,7 @@ def apply_watch(state, observed, stamp):
     state['watch'] = observed['state']
     current_recovery_watchers = recovery_watchers(observed)
     recovery.reconcile(state, current_recovery_watchers, now=stamp)
+    grouped = {}
     for event in observed['events']:
         key = event.get('event_id') or core.digest(event)
         old = state['events'].get(key)
@@ -196,9 +223,27 @@ def apply_watch(state, observed, stamp):
         state['events'][key] = event
         team = event.get('source_team')
         if team in core.TEAMS:
-            core.create_task(state, goal='관찰 이벤트 검토 / ' + key[:16], team=team,
-                payload={'teams':[team],'source_event':key,'purpose':'saved_event_review_only'},
-                evidence=event.get('evidence'), priority='high')
+            grouped.setdefault(team, []).append(key)
+    # Keep every event, with one review per team/observation instead of hundreds
+    # of identical entity-level tasks. Hashes are integrity, never authority.
+    for team, keys in grouped.items():
+        keys = sorted(set(keys))
+        if len(keys) == 1:
+            key = keys[0]
+            evidence = state['events'][key].get('evidence')
+        else:
+            record = {'source_team':team, 'event_ids':keys,
+                      'scope':'same_observation_saved_event_review_only'}
+            key = 'event_batch_' + core.digest(record)
+            batches = state.setdefault('event_batches', {})
+            if key in batches and batches[key] != record:
+                raise ValueError('immutable watch batch collision')
+            batches.setdefault(key, record)
+            evidence = {'event_batch_ref':key, 'event_count':len(keys),
+                        'event_batch_hash':core.digest(record), 'scope':record['scope']}
+        core.create_task(state, goal='관찰 이벤트 검토 / ' + key[:16], team=team,
+            payload={'teams':[team],'source_event':key,'purpose':'saved_event_review_only'},
+            evidence=evidence, priority='high')
 
 
 def summarize(root, state, observed, learned, now):
@@ -257,6 +302,7 @@ def summarize(root, state, observed, learned, now):
           'source_recoveries_verified':sum(e['status'] == 'RECOVERED' for e in recovery_board['episodes']),
           'source_recoveries_open':sum(e['status'] != 'RECOVERED' for e in recovery_board['episodes']),
           'events':len(state['events']),'approval_waiting':len(cards)},
+       'audit':audit.project_summary(state),
        'tasks':tasks[-40:], 'watchers':watchers, 'source_recovery':recovery_board,
        'source_procedures':procedures,
        'action_cards':cards, 'business':business,
@@ -272,8 +318,10 @@ def resumable_local_task(task):
             and descriptor.get('level') in (1,2))
 
 
-def run(root=ROOT, *, now=None, execute_local=True):
+def run(root=ROOT, *, now=None, execute_local=True, goal=None):
     root = Path(root).absolute()
+    if goal is not None:
+        goal = core._text(goal, 'internal review goal', 500)
     if execution._safe(root,'data/operations/.restore-pending.json').exists():
         raise ValueError('operations_safety_restore_pending')
     stamp = core.utc(now)
@@ -293,7 +341,7 @@ def run(root=ROOT, *, now=None, execute_local=True):
         current_recovery_watchers = recovery_watchers(observed)
         version = input_version(root)
         members = canonical_members(root)
-        goal = bootstrap(state, version, members)
+        goal = bootstrap(state, version, members, goal=goal)
         handoffs(state, version, goal, members)
         atomic(root, STATE, state)
         if execute_local:
@@ -311,26 +359,52 @@ def run(root=ROOT, *, now=None, execute_local=True):
                 for task in active:
                     task_id = task['task_id']
                     processed.add(task_id)
-                    for target in ('ROUTED','IN_PROGRESS','VERIFYING','EXECUTING'):
+                    was_executing = state['tasks'][task_id]['state'] == 'EXECUTING'
+                    for target in ('ROUTED','IN_PROGRESS','VERIFYING'):
                         current = state['tasks'][task_id]['state']
                         order = ('CREATED','ROUTED','IN_PROGRESS','VERIFYING','EXECUTING')
                         if current in order and order.index(current) < order.index(target):
                             core.transition(state, task_id, target)
                             atomic(root, STATE, state)
-                    decision_id = 'decision_' + core.digest({'task_id':task_id,'kind':task['kind']})
-                    state['decisions'].setdefault(decision_id, {'decision_id':decision_id,
-                        'task_id':task_id,'kind':'local_snapshot_review','status':'PROPOSED',
-                        'reason':'기존 산출물의 출처·최신성·차단 요인을 로컬로 점검',
-                        'confidence':None,'evidence':copy.deepcopy(task.get('evidence') or {})})
+                    preparation = audit.prepare(state, task_id, now=stamp)
+                    decision_id = preparation['decision_id']
                     atomic(root, STATE, state)
-                    receipt = execution.execute(root, state['tasks'][task_id], execution.ExecutionStore(root), now=stamp)
-                    if receipt.get('status') == 'VERIFIED' and execution.validate_receipt(root, receipt):
+                    if state['tasks'][task_id]['state'] == 'VERIFYING':
+                        core.transition(state, task_id, 'EXECUTING')
+                        atomic(root, STATE, state)
+                    # A persisted outcome is never a reason to redispatch missing logs.
+                    prior_outcomes = [o for o in state['audit']['outcomes'].values()
+                                      if o['preparation_id'] == preparation['preparation_id']]
+                    try:
+                        if prior_outcomes:
+                            receipt = prior_outcomes[-1]['result']['receipt']
+                            if not receipt or not execution.validate_receipt(root, receipt):
+                                raise ValueError('audit outcome requires reconciliation; no replay')
+                        elif was_executing:
+                            ledger = read(root, execution.ExecutionStore.filename, {}) or {}
+                            action = state['audit']['payloads'][preparation['action_hash']]
+                            claim = ledger.get('claims', {}).get(action['idempotency_key'], {})
+                            receipt = claim.get('receipt')
+                            if not receipt or not execution.validate_receipt(root, receipt):
+                                raise ValueError('interrupted execution without verified receipt; no replay')
+                        else:
+                            receipt = execution.execute(root, state['tasks'][task_id], execution.ExecutionStore(root), now=stamp)
+                        result = audit.outcome(state, preparation, root=root, receipt=receipt, now=stamp)
+                        atomic(root, STATE, state)
+                    except Exception as exc:
+                        audit.outcome(state, preparation, root=root, error=exc, now=stamp)
+                        if state['tasks'][task_id]['state'] == 'EXECUTING':
+                            core.transition(state, task_id, 'BLOCKED', reason='Execution error; explicit reconciliation required')
+                        atomic(root, STATE, state)
+                        raise
+                    if result['result']['output_verified'] and execution.validate_receipt(root, receipt):
                         state['receipts'][receipt['receipt_id']] = receipt
                         action = receipt['action']
                         state.setdefault('actions',{})[action['action_id']] = {**action,
                             'status':'VERIFIED','receipt_id':receipt['receipt_id']}
-                        state['decisions'][decision_id].update(status='LOCAL_OUTPUT_VERIFIED',
-                            action_id=action['action_id'],receipt_id=receipt['receipt_id'])
+                        if decision_id is not None:
+                            state['decisions'][decision_id].update(status='LOCAL_OUTPUT_VERIFIED',
+                                action_id=action['action_id'],receipt_id=receipt['receipt_id'])
                         recovery_id = task.get('payload',{}).get('recovery_id')
                         if recovery_id:
                             # Re-read after the report receipt, not just the cached
@@ -345,7 +419,8 @@ def run(root=ROOT, *, now=None, execute_local=True):
                             if receipt.get('source_recovery_evidence') != expected or not source_bytes_match:
                                 recovery.record_attempt(state, recovery_id, receipt)
                                 recovery.escalate(state, recovery_id, now=stamp)
-                                state['decisions'][decision_id]['status'] = 'SOURCE_EVIDENCE_CHANGED_RECONCILIATION_REQUIRED'
+                                if decision_id is not None:
+                                    state['decisions'][decision_id]['status'] = 'SOURCE_EVIDENCE_CHANGED_RECONCILIATION_REQUIRED'
                             else:
                                 core.transition(state, task_id, 'COMPLETED', receipt=receipt)
                                 recovery.verify_completed(state, recovery_id, receipt, row, now=stamp)
@@ -355,6 +430,7 @@ def run(root=ROOT, *, now=None, execute_local=True):
                         core.transition(state, task_id, 'BLOCKED', reason='실행 기록 검증 실패: ' + str(receipt.get('status')))
                     handoffs(state, version, goal, members)
                     atomic(root, STATE, state)
+                    validate_state(root, state)
                 candidates = core.ready_tasks(state)
         # Report current health as well as historical output proof. Preserve the
         # original cursor/dedup stream; a pure receipt read must never reset it.
@@ -378,6 +454,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root',type=Path,default=ROOT)
     parser.add_argument('--observe-only',action='store_true')
+    parser.add_argument('--goal', help='Bounded label for a new internal L2 saved-snapshot review only')
     args = parser.parse_args()
     try:
         marker = args.root/'data/operations/.restore-pending.json'
@@ -385,7 +462,7 @@ def main():
             raise ValueError('operations_safety_restore_pending')
         if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('JARVIS_OPERATIONS_CONTINUITY') != 'verified':
             raise ValueError('authenticated_runner_operations_continuity_required')
-        board = run(args.root, execute_local=not args.observe_only)
+        board = run(args.root, execute_local=not args.observe_only, goal=args.goal)
         print('JARVIS_OPERATIONS_OK ' + json.dumps(board['counts'],sort_keys=True))
         return 0
     except (ValueError,OSError,KeyError,TypeError) as exc:

@@ -34,6 +34,27 @@ class FixtureTransaction(pub.Transaction):
 
 
 class MergeTests(unittest.TestCase):
+    def test_candidate_history_exact_bytes_and_shard_contract(self):
+        value = b'{"items": {}}\n'
+        digest = pub.sha(value)
+        prefix = 'data/daiso_real/candidate_pool_history/'
+        for suffix in (digest + '.json', digest[:2] + '/' + digest + '.json'):
+            name = prefix + suffix
+            self.assertEqual(pub.overlay(name, None, value, None, POLICY, {}), value)
+            for local, remote in ((None, value), (b' ' + value, value), (value, b' ' + value)):
+                with self.assertRaises(pub.PublishError):
+                    pub.overlay(name, value, local, remote, POLICY, {})
+        for suffix in ('wrong/' + digest + '.json', 'aa/bb/' + digest + '.json', 'zz/' + digest + '.json'):
+            with self.assertRaises(pub.PublishError):
+                pub.overlay(prefix + suffix, None, value, None, POLICY, {})
+
+    def test_candidate_policy_cannot_authorize_other_source(self):
+        before, after = b'{"items":["old"]}', b'{"items":[]}'
+        manifest = {'deletions': [{'path': 'data/other.json', 'base_sha256': pub.sha(before),
+                    'replacement_sha256': pub.sha(after), 'ids': ['old'], 'reason': 'not valid outside canonical pool',
+                    'policy_ref': 'scripts/candidate_pool_history.py'}]}
+        self.assertFalse(pub.deletion_authorized('data/other.json', before, ['old'], manifest, replacement=after))
+
     def test_candidate_observability_history_stays_canonical_protected(self):
         tx=object.__new__(pub.Transaction);tx.policy=POLICY
         before=json.dumps({'fx':{'usd_to_krw':1300},'last_run':{'status':'ok'}}).encode()

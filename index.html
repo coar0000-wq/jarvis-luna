@@ -416,12 +416,15 @@ nav a{font-size:12px;}
 <!-- Operations: public read-only projection, existing 11 teams + secretary retained. -->
 <section class="dashboard-card operations-section" id="operations-system" aria-labelledby="operations-title">
 <h3 id="operations-title">운영 시스템</h3>
-<p class="ops-note">기존 11개 팀 + 비서실장 · 8개 기능 엔진은 새 에이전트가 아닙니다. 로컬 보고서 검증과 외부 실행 증적을 구분합니다.</p>
+<p class="ops-note">도윤 &gt; 비서실장 &gt; 기존 11팀장 &gt; 전문 기능. 기능 엔진은 새 조직 에이전트가 아닙니다. Jev는 판단 보조이고 실제 실행은 승인된 고정 실행기가 맡습니다.</p>
+<p class="ops-note" id="operations-priority">개발 우선순위: Task Engine &gt; Team Handoff &gt; Approval Gate &gt; Audit Log &gt; Watch/Event &gt; Jev 연동 &gt; Knowledge/Feedback</p>
 <div class="ops-levels" aria-label="운영 권한 단계"><span>L1 읽기</span><span>L2 로컬</span><span>L3 조건부</span><span>L4 사람 승인 · 외부 초안</span></div>
 <p class="ops-note" id="operations-status" role="status">운영 요약 확인 중</p>
 <div class="ops-counts" id="operations-counts"></div>
 <h4>기능 엔진</h4><div class="ops-engines" id="operations-engines"></div>
 <div class="ops-gates"><div class="ops-tile ops-blocked" id="operations-business"><h4>사업 준비 게이트</h4><p>확인 전 · 판매 허용 안 됨</p></div><div class="ops-tile" id="operations-feedback"><h4>피드백</h4><p>검증된 관찰 확인 전</p></div></div>
+<div class="ops-tile" id="operations-audit"><h4>판단·실행 감사</h4><p>앞으로의 연결 기록 확인 중 · 과거 기록은 변경하지 않습니다.</p></div>
+<h4 style="margin-top:20px;">11팀 자가개선 증거</h4><p class="ops-note" id="team-improvement-status">감시, 제안, 그림자 검증, 정책 적용과 검증된 성과를 구분합니다.</p><div class="ops-table-wrap" id="team-improvement-evidence"></div>
 <h4>작업 상태 · 인계</h4><div class="ops-table-wrap" id="operations-tasks"></div>
 <h4 style="margin-top:20px;">소스 감시 상태</h4><p class="ops-note">실제 외부 캡처와 로컬 파생 점검을 구분합니다. 부분 연결·차단은 담당 팀 복구 큐에서 추적하며, 소스 관찰은 판매 허용이나 외부 쓰기 권한을 뜻하지 않습니다.</p><div class="ops-table-wrap" id="operations-watchers"></div><h4 style="margin-top:20px;">담당 팀 소스 복구</h4><p class="ops-note">실제 재관찰과 검증 영수증이 일치해야 완료됩니다. 로컬 보고서 작성만으로 복구 완료 처리하지 않습니다.</p><div class="ops-table-wrap" id="operations-recovery"></div><h4 style="margin-top:20px;">지속 복구 실행 루프</h4><p class="ops-note" id="operations-procedure-note">실행 전 상태 저장, 2시간 쿨다운, 같은 장애 최대 2회. 실패한 발행에서도 예산·중단·이력을 보존하며 실제 소스 검증 없이 완료하지 않습니다.</p><div class="ops-table-wrap" id="operations-procedures"></div>
 <h4 style="margin-top:20px;">승인 요청 · 읽기 전용</h4><p class="ops-note">공개 대시보드는 승인과 실행 권한이 없습니다. 인증 승인 및 외부 실행은 이 화면에서 할 수 없습니다.</p><div class="ops-action-list" id="operations-actions"></div>
@@ -1619,7 +1622,7 @@ function renderOperations(ops){
   const table=(id,heads,rows)=>{const box=$(id);box.replaceChildren();if(!rows.length){box.append(el('p','보고된 항목 없음','ops-muted'));return;}const t=el('table',null,'ops-table'),head=el('thead'),hr=el('tr');heads.forEach(x=>hr.append(el('th',x)));head.append(hr);t.append(head);const body=el('tbody');rows.forEach(row=>{const tr=el('tr');row.forEach(x=>tr.append(el('td',x)));body.append(tr);});t.append(body);box.append(t);};
   if(!ops||typeof ops!=='object'){
     set('operations-status','운영 요약 없음 · 외부 실행 여부 확인 전');
-    ['operations-counts','operations-engines','operations-tasks','operations-watchers','operations-recovery','operations-actions'].forEach(id=>empty(id,'운영 요약을 불러오지 못했습니다.'));
+    ['operations-counts','operations-engines','operations-audit','operations-tasks','operations-watchers','operations-recovery','operations-actions'].forEach(id=>empty(id,'운영 요약을 불러오지 못했습니다.'));
     return;
   }
   set('operations-status','마지막 보고: '+scalar(ops.generated_at)+' · 상태: '+scalar(ops.status)+' · 공개 읽기 전용');
@@ -1636,6 +1639,8 @@ function renderOperations(ops){
   if(blockers.length){const list=el('ul');blockers.forEach(reason=>list.append(el('li',reason)));gate.append(list);}else gate.append(el('p',business.sales_allowed===true?'차단 사유 보고 없음':'차단 사유 확인 필요','ops-muted'));
   const feedback=ops.feedback||{},fb=$('operations-feedback');fb.replaceChildren(el('h4','피드백'));
   fb.append(el('p',state(feedback.status)),el('p','검증된 관찰 '+num(feedback.verified_observations),'ops-muted'),el('p',feedback.training_performed===true?'학습 수행 보고 있음':'학습 수행 없음 또는 확인 전','ops-muted'));
+  const audit=ops.audit||{},auditCounts=audit.counts||{},auditBox=$('operations-audit');auditBox.replaceChildren(el('h4','판단·실행 감사'));
+  auditBox.append(el('p','미래 전용 연결 기록 '+num(auditCounts.audited)+' · 기존 기록 '+num(auditCounts.legacy)),el('p','판단 '+num(auditCounts.decisions)+' · 실행 준비 '+num(auditCounts.prepared)+' · 결과 '+num(auditCounts.outcomes)+' · 실패/차단 '+num(auditCounts.failure),'ops-muted'),el('p','이유·증거·정확한 내용·승인 상태·결과는 비공개 감사 기록에서 연결합니다. 해시는 승인 증명이 아니며 이 화면은 실행할 수 없습니다.','ops-muted'));
   table('operations-tasks',['작업','팀','종류','단계','실제 상태'],arr(ops.tasks).map(t=>[scalar(t.task_id),scalar(t.team),scalar(t.kind),level(t.level),state(t.state)]));
   const watcherScope=w=>{if(w.observation_kind==='local_derived_read')return '로컬 파생 읽기 · 입력 서명 검증';const scope={active_shopify_shortlist_only:'활성 후보만',candidate_probes_only_not_registered_connectors:'후보 탐색 · 연동 등록 아님',collected_records_with_provider_coverage:'기관 관찰 자료',genuine_captured_items_excluding_registered_catalog:'진짜 캡처 항목 · 등록 카탈로그 제외'}[w.scope]||'실제 소스';const c=w.coverage||{};return scope+' · '+num(c.fresh_records)+' / '+num(c.total_records)+(c.failed_sources?' · 실패 공급원 '+num(c.failed_sources):'');};
   table('operations-watchers',['팀','실제 상태','검증 범위','차단 사유','캡처 또는 로컬 점검 시각','담당 팀 복구'],arr(ops.watchers).map(w=>[scalar(w.team),state(w.status),watcherScope(w),w.reason||'보고된 차단 없음',w.observation_kind==='local_derived_read'?'로컬 읽기: '+scalar(w.observed_at):scalar(w.captured_at),w.recovery?scalar(w.recovery.owner)+' · '+state(w.recovery.status):'현재 복구 작업 없음']));
@@ -1652,6 +1657,21 @@ function renderOperations(ops){
     [['구성 항목',num(a.member_count)],['대상 설정',a.target_configured===true?'설정됨 · 실행 권한 없음':'미설정 또는 확인 전'],['검증 해시',scalar(a.payload_hash)],['변경 전',scalar(a.before)],['변경 후',scalar(a.after)],['권한','승인 불가 · 실행 불가']].forEach(([label,value])=>dl.append(el('dt',label),el('dd',value)));
     details.append(dl);card.append(details);actions.append(card);
   });
+}
+
+function renderTeamImprovement(projection){
+  const box=$('team-improvement-evidence'),status=$('team-improvement-status');if(!box||!status)return;
+  const el=(tag,text)=>{const n=document.createElement(tag);if(text!=null)n.textContent=String(text);return n;};
+  const num=v=>Number.isInteger(v)&&v>=0?String(v):'확인 전';
+  const names={sourcing:'소싱',institutions:'기관',market:'시장',listing:'리스팅',pricing:'가격',legal:'법률',robotics:'로보틱스',design:'디자인',channels:'채널',knowledge:'지식',graph:'그래프'};
+  const phases={monitoring:'감시만',proposal:'제안·자료 대기',shadow_evaluated:'그림자 검증 보고',applied:'정책 적용 보고',blocked:'차단·근거 대기'};
+  box.replaceChildren();if(!projection||typeof projection!=='object'){status.textContent='개선 증거 없음 · 성과 개선으로 추정하지 않습니다.';return;}
+  const s=projection.summary||{},c=s.phase_counts||{};status.textContent='증거 투영 생성: '+String(projection.generated_at||'확인 전')+' · 11팀: 감시 '+num(c.monitoring)+', 제안 '+num(c.proposal)+', 그림자 '+num(c.shadow_evaluated)+', 적용 '+num(c.applied)+', 차단 '+num(c.blocked)+' · 검증된 성과 개선 '+num(s.verified_gains)+'. 문구 변화나 조치가 사라진 것은 실측 개선이 아닙니다.';
+  const point=v=>v&&Number.isInteger(v.value)?String(v.value)+(Number.isInteger(v.denominator)?' / '+v.denominator:''):'비교 자료 없음';
+  const clock=v=>{if(!v||!v.clock_at)return '실제 캡처/평가 시각 확인 전';const kind=String(v.clock_field||'');return (kind.includes('started_at')?'수집 실행 시작 기록: ':kind==='generated_at'?'분석/산출물 생성 기록: ':'보고된 관찰 기록: ')+String(v.clock_at);};
+  const reasons={no_comparable_before_after_feedback:'비교 가능한 피드백 없음',single_observation:'적용 후 관측 1회',no_sustained_causal_proof:'지속·인과 개선 미검증',no_verified_gain:'실측 성과 개선 미검증',no_comparable_before_after:'동일 조건의 전후 비교 없음',external_dependency:'외부 선행조건 대기',approval_or_external_dependency:'사람 승인 또는 외부 조건 대기',no_independent_labels_or_business_outcomes:'독립 정답·사업 결과 없음',required_evidence_unavailable_or_stale:'근거 없음 또는 오래됨',unsupported_or_malformed_evidence:'검증 가능한 근거 없음',stale_pilot_evidence:'오래된 시험 근거',stale_observation:'오래된 관찰 기록'};
+  const table=el('table');table.className='ops-table';const header=el('thead'),tr=el('tr');['기존 팀','실제 개선 단계','기준 > 현재/그림자','시각의 의미','남은 검증'].forEach(x=>tr.append(el('th',x)));header.append(tr);table.append(header);const body=el('tbody');
+  Object.keys(names).forEach(id=>{const r=(projection.teams||{})[id]||{},target=r.shadow&&Number.isInteger(r.shadow.value)?r.shadow:r.current;const row=el('tr');[names[id],phases[r.phase]||'확인 전',point(r.baseline)+' > '+point(target),clock(target),(Array.isArray(r.blockers)?r.blockers:[]).map(v=>reasons[v]||'추가 근거 검토 필요').join(' · ')||'독립적인 성과 검증 대기'].forEach(x=>row.append(el('td',x)));body.append(row);});table.append(body);box.append(table,el('p','기존 3개 제한된 정책 시험 외에는 새로운 자동 변경 권한이 없습니다. Shopify 발행·재고·결제·광고·메시지·삭제에는 정확한 내용의 인증된 사람 승인이 필요합니다.'));
 }
 
 function renderAgentPlan(plan){
@@ -1713,6 +1733,7 @@ set('side-loss',d.training.final_loss!=null?d.training.final_loss.toFixed(4):'�
 }
 renderTeams(d);
 renderOperations(d.operations);
+renderTeamImprovement(d.team_improvement_evidence);
 renderPipeline(d);
 renderTraining(d.training);
 // 팀별 숫자는 각 카드가 들고, 여기에는 특정 팀 것이 아닌 값만 남긴다.
@@ -1729,6 +1750,7 @@ meta.innerHTML='<span>코퍼스 '+Number(rec).toLocaleString()+'개 레코드</s
 console.error(rt.reason);
 markOffline('실시간 데이터 연결 실패');
 renderOperations(null);
+renderTeamImprovement(null);
 renderMarketingChannels({}); // 실패시 디폴트 마케팅 UI 로딩
 const list=$('log-list'); if(list) list.innerHTML='<li><span class="log-text">dashboard_runtime.json을 불러오지 못했습니다.</span></li>';
 }

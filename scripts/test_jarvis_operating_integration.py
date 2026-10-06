@@ -29,6 +29,59 @@ class OperatingIntegration(unittest.TestCase):
         dest.write_text(json.dumps(value),encoding='utf-8')
     def load(self,relative):
         return json.loads((self.root/relative).read_text(encoding='utf-8'))
+    def test_watch_entity_events_batched_without_history_loss(self):
+        from unittest.mock import patch
+        state = runner.core.empty_state()
+        events = [{'event_id':'watch_'+str(i).zfill(5), 'source_team':'sourcing',
+                   'evidence':{'entity':str(i)}, 'kind':'ENTITY_CHANGED'} for i in range(307)]
+        observed = {'state':{}, 'watchers':[], 'events':copy.deepcopy(events)}
+        with patch.object(runner.recovery,'reconcile'):
+            runner.apply_watch(state,observed,NOW.isoformat())
+        self.assertEqual(len(state['tasks']),1)
+        for event in events:
+            self.assertEqual(state['events'][event['event_id']],event)
+        batch = next(iter(state['event_batches'].values()))
+        self.assertEqual(batch['event_ids'],sorted(e['event_id'] for e in events))
+        key = next(iter(state['event_batches']))
+        self.assertEqual(key,'event_batch_'+runner.core.digest(batch))
+        self.assertEqual(next(iter(state['tasks'].values()))['payload']['source_event'],key)
+        runner.validate_state(self.root,state)
+        state['event_batches'][key]['event_ids'].pop()
+        with self.assertRaisesRegex(ValueError,'batch/reference'):
+            runner.validate_state(self.root,state)
+
+    def test_watch_batches_rerun_and_single_event_keep_dedup(self):
+        from unittest.mock import patch
+        state = runner.core.empty_state()
+        events = [{'event_id':'watch_'+str(i), 'source_team':'market',
+                   'evidence':{'entity':str(i)}, 'kind':'ENTITY_CHANGED'} for i in range(2)]
+        events.append({'event_id':'single','source_team':'legal','evidence':{},'kind':'ENTITY_CHANGED'})
+        observed = {'state':{},'watchers':[],'events':events}
+        with patch.object(runner.recovery,'reconcile'):
+            runner.apply_watch(state,observed,NOW.isoformat())
+            old = copy.deepcopy(state)
+            runner.apply_watch(state,observed,NOW.isoformat())
+        self.assertEqual(state,old)
+        self.assertEqual(len(state['tasks']),2)
+        self.assertTrue(any(t['payload']['source_event']=='single' for t in state['tasks'].values()))
+
+    def test_state_serializer_compacts_only_layout(self):
+        value = {'literal':'inside  whitespace\t\n 한글',
+                 'history':[{'sequence':i,'evidence':{'x':i}} for i in range(137)]}
+        runner.atomic(self.root,runner.STATE,value)
+        raw = (self.root/runner.STATE).read_bytes()
+        self.assertEqual(json.loads(raw),value)
+        self.assertLess(len(raw),len(json.dumps(value,ensure_ascii=False,indent=2).encode('utf-8')))
+        self.assertEqual(raw,(json.dumps(value,ensure_ascii=False,sort_keys=True,
+                         separators=(',',':'))+'\n').encode('utf-8'))
+
+    def test_state_serializer_capacity_fails_without_mutation(self):
+        self.put(runner.STATE,{'retained':'prior exact bytes'})
+        before = (self.root/runner.STATE).read_bytes()
+        with self.assertRaisesRegex(ValueError,'storage capacity'):
+            runner.atomic(self.root,runner.STATE,{'oversized':'x'*(8*1024*1024)})
+        self.assertEqual((self.root/runner.STATE).read_bytes(),before)
+
     def test_real_reports_existing_teams_and_handoff(self):
         board=runner.run(self.root,now=NOW)
         self.assertEqual(board['counts']['local_verified'],11)
@@ -95,5 +148,50 @@ class OperatingIntegration(unittest.TestCase):
         state['sequence']-=1
         self.put(runner.STATE,state)
         with self.assertRaises(ValueError): runner.run(self.root,now=NOW)
+
+    def test_explicit_goal_is_local_bounded_and_deduplicated(self):
+        first = runner.run(self.root, now=NOW)
+        before = self.load(runner.STATE)
+        old_reports = {r['action']['target']:(self.root/r['action']['target']).read_bytes()
+                       for r in before['receipts'].values()}
+        second = runner.run(self.root, now=NOW, goal='Internal evidence and feedback review')
+        after = self.load(runner.STATE)
+        self.assertEqual(second['counts']['local_verified'], first['counts']['local_verified'] + 11)
+        for table in ('tasks','handoffs','events','decisions','receipts'):
+            for key, value in before[table].items():
+                self.assertEqual(after[table][key], value)
+        for target, raw in old_reports.items():
+            self.assertEqual((self.root/target).read_bytes(), raw)
+        ledger = (self.root/execution.ExecutionStore.filename).read_bytes()
+        runner.run(self.root, now=NOW, goal='Internal evidence and feedback review')
+        self.assertEqual(ledger, (self.root/execution.ExecutionStore.filename).read_bytes())
+        self.assertTrue(all(t['kind'] == 'snapshot_report' for t in after['tasks'].values()))
+        for goal in ('', ' ' * 3, 'x' * 501, 42):
+            with self.assertRaises(ValueError): runner.run(self.root, now=NOW, goal=goal)
+
+    def test_legacy_executing_missing_ledger_never_redispatches(self):
+        from unittest.mock import patch
+        runner.run(self.root, now=NOW, execute_local=False)
+        state = self.load(runner.STATE)
+        tid = next(t['task_id'] for t in state['tasks'].values()
+                   if t.get('payload', {}).get('purpose') == 'saved_snapshot_review_only')
+        for target in ('ROUTED','IN_PROGRESS','VERIFYING','EXECUTING'):
+            runner.core.transition(state, tid, target)
+        # Synthetic pre-audit state, never touching production history.
+        for event in state['events'].values():
+            event.pop('audit', None)
+        state.pop('audit')
+        self.put(runner.STATE, state)
+        with patch.object(execution, 'execute') as dispatch:
+            with self.assertRaises(ValueError): runner.run(self.root, now=NOW)
+            dispatch.assert_not_called()
+        final = self.load(runner.STATE)
+        prep = next(iter(final['audit']['preparations'].values()))
+        self.assertEqual(prep['observation'], 'restart_observation')
+        self.assertIsNone(prep['decision_id'])
+        self.assertEqual(final['tasks'][tid]['state'], 'BLOCKED')
+        self.assertEqual(len(final['audit']['outcomes']), 1)
+        for eid, event in state['events'].items():
+            self.assertEqual(final['events'][eid], event)
 
 if __name__=='__main__': unittest.main()

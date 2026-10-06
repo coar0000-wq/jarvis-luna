@@ -268,7 +268,20 @@ class PublicationIntegration(unittest.TestCase):
     def test_collector_stage_bytes_and_git_endings_remain_exact(self):
         raw=b' {"last_attempt" : {"status":"no_change"}}\r\n'
         for name in pub.BYTE_BOUND_STAGE_FILES:
-            self.assertEqual(pub.overlay(name,b'{}',raw,b'{}',{},{}),raw)
+            if name == 'data/daiso_real/candidate_pool.json':
+                # Candidate snapshots must satisfy the stronger product/evidence
+                # schema even when this fixture only checks exact byte retention.
+                pool = {'schema_version':1, 'count':0, 'items':{},
+                        'approval_required':True, 'may_publish':False,
+                        'may_replace_operating_products':False,
+                        'last_run':{'execution_id':'fixture:1:collect',
+                            'at':'2026-10-05T08:00:00+00:00', 'new':0,
+                            'updated':0, 'collected_ids':[]}}
+                base = json.dumps(pool).encode('utf-8')
+                exact = b' ' + json.dumps(pool,indent=1).encode('utf-8') + b'\r\n'
+                self.assertEqual(pub.overlay(name,base,exact,base,{'identity_fields':[]},{}),exact)
+            else:
+                self.assertEqual(pub.overlay(name,b'{}',raw,b'{}',{},{}),raw)
             with self.assertRaises(pub.PublishError): pub.overlay(name,b'{"source_fact":1}',raw,b'{"source_fact":1}',{}, {})
         attrs=(ROOT/'.gitattributes').read_text()
         for name in (*pub.BYTE_BOUND_STAGE_FILES,'data/agents/workflow_status_history/**','data/knowledge/gosi_observation_history/**'):

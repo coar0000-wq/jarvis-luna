@@ -24,7 +24,7 @@ class InputsTests(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name)
         self.capture = {'execution_id': '11:1:collect', 'status': 'ok', 'collector_version': 2,
-                        'collector_completed': True, 'requested': 1, 'ok': 1, 'parse_failed': 0,
+                        'collector_completed': True, 'discovery_enabled': False, 'operating_updates_enabled': True, 'requested': 1, 'ok': 1, 'parse_failed': 0,
                         'http_error': 0, 'started_at': '2026-10-03T02:00:00Z', 'finished_at': '2026-10-03T02:10:00Z'}
         self.collection = {k: deepcopy(self.capture) for k in ('last_run', 'last_attempt', 'last_success')}
         self.write(p.STATUS, self.collection)
@@ -33,9 +33,9 @@ class InputsTests(unittest.TestCase):
                     'event': 'workflow_dispatch', 'created_at': '2026-10-03T01:58:00Z',
                     'run_started_at': '2026-10-03T01:59:00Z', 'updated_at': '2026-10-03T02:31:00Z',
                     'path': '.github/workflows/' + p.WORKFLOW, 'head_branch': 'main',
-                    'head_sha': 'a' * 40, 'html_url': 'https://github.com/coar0000-wq/jarvis-luna/actions/runs/11'}
+                    'repository': {'full_name': p.REPOSITORY}, 'head_sha': 'a' * 40, 'html_url': 'https://github.com/coar0000-wq/jarvis-luna/actions/runs/11'}
         self.jobs = {'total_count': 1, 'jobs': [{'name': 'collect', 'run_id': 11, 'run_attempt': 1,
-                     'status': 'completed', 'conclusion': 'success', 'started_at': '2026-10-03T01:59:00Z',
+                     'head_sha': 'a' * 40, 'status': 'completed', 'conclusion': 'success', 'started_at': '2026-10-03T01:59:00Z',
                      'completed_at': '2026-10-03T02:30:00Z', 'steps': [
                          self.step(p.COLLECTOR, '02:00:00', '02:11:00'),
                          self.step(p.VALIDATOR, '02:11:00', '02:12:00'),
@@ -67,7 +67,7 @@ class InputsTests(unittest.TestCase):
                 z.writestr(p.HISTORY + '/' + name.name, name.read_bytes())
         raw = buf.getvalue()
         meta = {'id': 12, 'name': 'daiso-attempt-11-1', 'expired': False,
-                'workflow_run': {'id': 11, 'head_sha': self.run['head_sha']},
+                'workflow_run': {'id': 11, 'head_branch': 'main', 'head_sha': self.run['head_sha']},
                 'digest': 'sha256:' + p.sha(raw), 'size_in_bytes': len(raw),
                 'created_at': '2026-10-03T02:21:30Z'}
         return meta, raw
@@ -80,7 +80,8 @@ class InputsTests(unittest.TestCase):
         self.assertEqual(self.record()['mode'], 'collected')
         value = self.publish()
         self.assertEqual(value['scopes']['operating_capture']['status'], 'success')
-        self.assertEqual(value['scopes']['overall_workflow']['status'], 'success')
+        self.assertEqual(value['scopes']['overall_workflow']['status'], 'unverified')
+        self.assertEqual(value['scopes']['collection_publication']['status'], 'success')
         self.assertFalse(value['public_authority'])
         from scripts import generate_dashboard_runtime as dashboard
         from scripts import health_check_v2 as health
@@ -159,8 +160,9 @@ class InputsTests(unittest.TestCase):
         self.assertFalse(value['failed_workflow_history'][0]['superseded'])
         self.jobs['jobs'][0]['steps'][2]['conclusion'] = 'success'
         value = self.publish()
-        self.assertEqual(value['status'], 'success')
-        self.assertTrue(any(f['superseded'] for f in value['failed_workflow_history']))
+        self.assertEqual(value['status'], 'failed')
+        self.assertFalse(any(f['superseded'] for f in value['failed_workflow_history']))
+        self.assertEqual(value['failed_workflow_history'][0]['coverage_reason'], 'prior_failure_collection_coverage_unknown')
 
     def test_price_only_and_old_success_never_clear_workflow(self):
         self.failure_history()
@@ -182,18 +184,85 @@ class InputsTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             p.validate_github_artifact(self.root, self.report, self.run, self.jobs, dict(meta, digest='sha256:' + '0' * 64), raw, now=NOW)
 
+    def test_precision_aware_capture_window_keeps_exact_clocks(self):
+        receipt = dict(self.capture, run_id=11, run_attempt=1, job='collect', mode='collected')
+        for fraction in ('000001', '419835', '999999'):
+            receipt['finished_at'] = '2026-10-03T02:11:00.' + fraction + 'Z'
+            before = deepcopy(receipt)
+            p.execution_steps(self.run, self.jobs, receipt, p.clock(NOW))
+            self.assertEqual(receipt, before)
+        receipt['finished_at'] = '2026-10-03T02:11:01Z'
+        with self.assertRaisesRegex(ValueError, 'capture outside collector/validator window'):
+            p.execution_steps(self.run, self.jobs, receipt, p.clock(NOW))
+        wrong = dict(self.run, created_at='2026-10-03T01:59:02Z')
+        with self.assertRaisesRegex(ValueError, 'invalid workflow completion times'):
+            p.execution_steps(wrong, self.jobs, dict(receipt, finished_at=self.capture['finished_at']), p.clock(NOW))
+        inverted = dict(self.run, created_at='2026-10-03T01:59:01Z')
+        p.execution_steps(inverted, self.jobs, dict(receipt, finished_at=self.capture['finished_at']), p.clock(NOW))
+        self.assertEqual(p.run_metadata_precision(inverted)['created_start_inversion_seconds'], 1)
+
+    def test_known_uniform_upload_artifact_layouts(self):
+        payload = {p.STATUS: p.encode(self.collection), p.POOL: p.encode({'fixture': True}),
+                   'data/daiso_real/candidate_comparison.json': p.encode({})}
+        for layout in ('canonical', 'data_relative', 'flat'):
+            with self.subTest(layout=layout):
+                buf = io.BytesIO()
+                with zipfile.ZipFile(buf, 'w') as z:
+                    for name, raw in payload.items():
+                        member = name if layout == 'canonical' else name.removeprefix('data/') if layout == 'data_relative' else Path(name).name
+                        z.writestr(member, raw)
+                raw = buf.getvalue()
+                self.record()
+                meta, _ = self.artifact()
+                meta.update(size_in_bytes=len(raw), digest='sha256:' + p.sha(raw))
+                self.assertEqual(p.archive_members(meta, raw, self.run), payload)
+
+    def test_unsafe_mixed_unknown_collision_and_link_layouts(self):
+        self.record()
+        meta, _ = self.artifact()
+        bad = [
+            [('collection_status.json', b'{}'), ('data/daiso_real/candidate_pool.json', b'{}')],
+            [('daiso_real/collection_status.json', b'{}'), ('collection_status.json', b'{}')],
+            [(p.STATUS, b'{}'), ('data/unknown.json', b'{}')],
+            [(p.STATUS, b'{}'), ('../collection_status.json', b'{}')],
+            [(p.STATUS, b'{}'), ('data//daiso_real/candidate_pool.json', b'{}')],
+            [(p.STATUS, b'{}'), ('data/./daiso_real/candidate_pool.json', b'{}')],
+            [(p.STATUS, b'{}'), (p.STATUS.upper(), b'{}')],
+            [('unexpected/collection_status.json', b'{}')],
+        ]
+        link = zipfile.ZipInfo(p.STATUS)
+        link.create_system = 3
+        link.external_attr = 0o120777 << 16
+        bad.append([(link, b'../../outside.json')])
+        hardlink = zipfile.ZipInfo(p.STATUS)
+        hardlink.extra = b'\x0d\x00\x00\x00'
+        bad.append([(hardlink, b'{}')])
+        for members in bad:
+            with self.subTest(members=members):
+                buf = io.BytesIO()
+                with zipfile.ZipFile(buf, 'w') as z:
+                    for name, value in members:
+                        z.writestr(name, value)
+                raw = buf.getvalue()
+                metadata = dict(meta, size_in_bytes=len(raw), digest='sha256:' + p.sha(raw))
+                with self.assertRaises(ValueError):
+                    p.archive_members(metadata, raw, self.run)
+
     def test_collector_http_boundary_is_bounded_offline(self):
         self.record()
         meta, raw = self.artifact()
         calls = []
+        self.report.update(observation_source='github_rest', observed_at=NOW)
         def fetch(url):
             calls.append(url)
+            if '/workflows/' in url:
+                return {'workflow_runs': [self.run]}
             if url.endswith('/artifacts?per_page=100'):
                 return {'total_count': 1, 'artifacts': [meta]}
             return self.jobs if '/jobs?' in url else self.run
         value = w.collect_pipeline_evidence(self.root, self.report, fetch_json=fetch, fetch_artifact_bytes=lambda url: raw, now=NOW)
-        self.assertEqual(len(calls), 3)
-        self.assertEqual(value['status'], 'success')
+        self.assertEqual(len(calls), 4)
+        self.assertEqual(value['scopes']['collection_publication']['status'], 'success')
 
 
 if __name__ == '__main__':

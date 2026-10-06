@@ -8,13 +8,13 @@ collection_status_bytes binds receipts to EXACT original source bytes.
 from __future__ import annotations
 from copy import deepcopy
 from scripts.daiso_candidate_store import canonical_digest, pool_document, detail_url_valid, DISCOVERY_BUCKETS
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import hashlib
 import json
 import re
 
 WORKFLOW = 'daiso-real-collection.yml'
-SCOPES = ('candidate_discovery', 'operating_capture', 'shortlist_price', 'overall_workflow')
+SCOPES = ('candidate_discovery', 'operating_capture', 'shortlist_price', 'collection_publication', 'overall_workflow')
 HEX = re.compile(r'[0-9a-f]{64}\Z')
 
 
@@ -38,15 +38,43 @@ def timestamp(value):
     return parsed.astimezone(timezone.utc)
 
 
+WHOLE_SECOND = re.compile(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})\Z')
+METADATA_PRECISION = {'github_whole_second': 'half_open_[t,t+1s)',
+                      'capture_clocks': 'exact_unmodified', 'future_cap': 'observed_now',
+                      'max_created_start_inversion_seconds': 1}
+
+
+def github_not_after(actual, reported, now):
+    """Whole-second API endpoints denote a second, not a rounded source clock."""
+    value, bound, observed = timestamp(actual), timestamp(reported), timestamp(now)
+    if value > observed or bound > observed:
+        return False
+    if isinstance(reported, str) and WHOLE_SECOND.fullmatch(reported):
+        return value < bound + timedelta(seconds=1)
+    return value <= bound
+
+
+def run_metadata_precision(run):
+    created = timestamp(run.get('created_at'))
+    started = timestamp(run.get('run_started_at'))
+    inversion = (created - started).total_seconds()
+    if inversion > 0 and (inversion > 1 or not all(
+            isinstance(run.get(k), str) and WHOLE_SECOND.fullmatch(run[k])
+            for k in ('created_at', 'run_started_at'))):
+        raise ValueError('invalid workflow completion times')
+    return dict(METADATA_PRECISION, created_start_inversion_seconds=max(0, inversion))
+
+
 def run_window(run, now):
     created = timestamp(run.get('created_at'))
     started = timestamp(run.get('run_started_at'))
     finished = timestamp(run.get('finished_at'))
-    if not created <= started <= finished <= now or run.get('status') != 'completed':
+    run_metadata_precision(run)
+    if not started <= finished <= now or created > now or created > finished or run.get('status') != 'completed':
         raise ValueError('invalid workflow completion times')
     if type(run.get('id')) is not int or type(run.get('run_attempt')) is not int or min(run['id'], run['run_attempt']) <= 0:
         raise ValueError('invalid workflow identity')
-    return started, finished
+    return min(created, started) if created > started else started, finished
 
 
 def trusted(receipt, scope, now, validated):
@@ -68,6 +96,20 @@ def trusted(receipt, scope, now, validated):
         return False
 
 
+def collection_scope(run):
+    """Coverage is data from a bound collector run, never a default or flag."""
+    requested = run.get('requested')
+    discovery, operating = run.get('discovery_enabled'), run.get('operating_updates_enabled')
+    if type(requested) is not int or requested <= 0 or type(discovery) is not bool or type(operating) is not bool:
+        raise ValueError('collection coverage missing/invalid')
+    return {'requested': requested, 'discovery_enabled': discovery,
+            'operating_updates_enabled': operating,
+            'publication': 'operating_products' if operating else 'collection_metadata'}
+
+
+DAILY_SCOPE = collection_scope({'requested': 110, 'discovery_enabled': True, 'operating_updates_enabled': False})
+
+
 def result(status='unverified', reason='no_verified_source', **extra):
     return {'status': status, 'reason': reason, 'verified': status == 'success', **extra}
 
@@ -76,7 +118,7 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
                              collection_status_bytes=None, candidate_pool=None,
                              candidate_pool_sha256=None, operating_sha256=None,
                              shortlist_price=None, receipts=(),
-                             validated_receipt_sha256=(), workflow_history=()):
+                             validated_receipt_sha256=(), workflow_history=(), validated_failure_scopes=None):
     """Return schema v1 scopes + immutable failure evidence, without mutation.
 
     Callers must validate receipt fingerprints out-of-band. Discovery additionally
@@ -116,7 +158,7 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
             if latest.get('run_attempt') != receipt['run_attempt'] or workflow.get('metadata_verified') is not True:
                 raise ValueError('run attempt mismatch/unverified workflow metadata')
             ws, wf = run_window(latest, observed)
-            if not ws <= start <= finish <= wf:
+            if not ws <= start <= finish or not github_not_after(finish, latest.get('finished_at'), observed):
                 raise ValueError('collection outside workflow completion')
         elif latest:
             if workflow.get('metadata_verified') is not True:
@@ -176,12 +218,28 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
             scopes['shortlist_price'] = result('success', 'source_price_capture_only', count=len(rows), scope='active_shopify_shortlist_only')
         except (ValueError, TypeError, OverflowError) as exc:
             scopes['shortlist_price'] = result(reason=str(exc))
+    publications = [r for r in receipts if trusted(r, 'collection_publication', observed, validated)
+                    and r.get('publication_completed') is True and r.get('workflow_conclusion') == 'success'
+                    and (observed - timestamp(r['finished_at'])).total_seconds() <= 6 * 3600]
+    if publications:
+        scopes['collection_publication'] = result('success', 'bound_collection_scope_published', collection_scope=publications[0].get('collection_scope'))
     full = [r for r in receipts if trusted(r, 'overall_workflow', observed, validated)
-            and r.get('publication_completed') is True and r.get('workflow_conclusion') == 'success']
+            and r.get('publication_completed') is True and r.get('workflow_conclusion') == 'success'
+            and r.get('collection_scope') == DAILY_SCOPE
+            and (observed - timestamp(r['finished_at'])).total_seconds() <= 6 * 3600]
     for failure in history:
         try:
             _, end = run_window(failure['run'], observed)
+            failure['metadata_precision'] = run_metadata_precision(failure['run'])
+            key = (failure['run']['id'], failure['run']['run_attempt'])
+            required = (validated_failure_scopes or {}).get(key)
+            failure['collection_scope'] = required
+            if required is None:
+                failure['coverage_reason'] = 'prior_failure_collection_coverage_unknown'
+                continue
             for receipt in full:
+                if receipt.get('collection_scope') != required:
+                    continue
                 if timestamp(receipt['started_at']) > end and (receipt['run_id'], receipt['run_attempt']) != (failure['run']['id'], failure['run']['run_attempt']):
                     failure['superseded'] = True
                     failure['superseded_by'] = receipt['execution_id']
@@ -196,7 +254,8 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
     else:
         scopes['overall_workflow'] = result(reason='publication_completion_unverified')
     return {'schema_version': 1, 'scopes': scopes, 'status': scopes['overall_workflow']['status'],
-            'failed_workflow_history': history, 'public_authority': False}
+            'failed_workflow_history': history, 'public_authority': False,
+            'metadata_precision': dict(METADATA_PRECISION)}
 
 
 # Stable convenience alias for downstream readers.

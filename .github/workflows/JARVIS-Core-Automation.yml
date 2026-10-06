@@ -157,8 +157,15 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
+      # Retain the restored snapshot even when runtime is skipped. Reverify
+      # independently: restore outcome success alone is not continuity evidence.
+      - name: Verify restored operations snapshot before retention
+        id: operations_retention
+        if: always() && steps.operations_safety.outcome == 'success'
+        run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE" --verify-current
+
       - name: Retain immutable operations safety history
-        if: always() && steps.operations_safety.outputs.operations_continuity == 'verified'
+        if: always() && steps.operations_safety.outcome == 'success' && steps.operations_retention.outputs.operations_continuity == 'verified'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}

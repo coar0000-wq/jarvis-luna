@@ -13,7 +13,7 @@ HISTORY_PATH = 'data/agents/workflow_status_history'
 MANIFEST_PATH = 'data/publish_deletions.json'
 POLICY_REF = 'scripts/workflow_status_history.py'
 MAX_REPORTS = 128
-RUN_FIELDS = {'id', 'status', 'conclusion', 'event', 'created_at', 'run_started_at', 'finished_at', 'html_url', 'run_attempt'}
+RUN_FIELDS = {'id', 'status', 'conclusion', 'event', 'created_at', 'run_started_at', 'finished_at', 'html_url', 'run_attempt', 'metadata_precision'}
 
 
 def snapshot(value):
@@ -27,6 +27,14 @@ def snapshot(value):
         raise ValueError('completed snapshot missing finished_at')
     if value['status'] != 'completed' and 'finished_at' in value:
         raise ValueError('unfinished snapshot has finished_at')
+    if 'metadata_precision' in value:
+        precision = value['metadata_precision']
+        if (not isinstance(precision, dict)
+                or set(precision) != {'created_start_inversion_seconds','capture_clocks'}
+                or type(precision['created_start_inversion_seconds']) not in (int,float)
+                or not 0 < precision['created_start_inversion_seconds'] <= 1
+                or precision['capture_clocks'] != 'not_metadata'):
+            raise ValueError('run metadata precision malformed')
 
 
 def replacement_ids(before, current, policy):

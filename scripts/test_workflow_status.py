@@ -47,6 +47,20 @@ def workflow(*runs):
 
 
 class WorkflowStatusTests(unittest.TestCase):
+    def test_one_second_metadata_inversion_is_explicit_not_capture(self):
+        started = NOW - dt.timedelta(hours=1)
+        source = run(created_at=(started+dt.timedelta(seconds=1)).isoformat(),
+                     run_started_at=started.isoformat())
+        value, faults = monitor._run(source, NOW)
+        self.assertNotIn('invalid_time_order', faults)
+        self.assertEqual(value['metadata']['metadata_precision']['created_start_inversion_seconds'], 1)
+        self.assertEqual(value['metadata']['created_at'], monitor._iso(started+dt.timedelta(seconds=1)))
+        self.assertEqual(value['metadata']['run_started_at'], monitor._iso(started))
+        source['created_at'] = (started+dt.timedelta(seconds=2)).isoformat()
+        self.assertIn('invalid_time_order', monitor._run(source,NOW)[1])
+        source['created_at'] = (started+dt.timedelta(microseconds=500000)).isoformat()
+        self.assertIn('invalid_time_order', monitor._run(source,NOW)[1])
+
     def test_fresh_success_all_five(self):
         result = report()
         self.assertEqual(result["status"], "success")

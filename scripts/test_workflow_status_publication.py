@@ -36,6 +36,18 @@ class PublicationTests(unittest.TestCase):
         self.head.start()
         self.addCleanup(self.head.stop)
 
+    def test_metadata_precision_is_narrow_snapshot_field(self):
+        value = deepcopy(self.before['workflows']['daiso-real-collection.yml']['latest_attempt'])
+        value['metadata_precision'] = {'created_start_inversion_seconds':1.0,
+                                       'capture_clocks':'not_metadata'}
+        h.snapshot(value)
+        for bad in ({'created_start_inversion_seconds':2,'capture_clocks':'not_metadata'},
+                    {'created_start_inversion_seconds':True,'capture_clocks':'not_metadata'},
+                    {'created_start_inversion_seconds':1,'capture_clocks':'fabricated'},
+                    {'created_start_inversion_seconds':1,'capture_clocks':'not_metadata','authority':True}):
+            value['metadata_precision'] = bad
+            with self.assertRaises(ValueError): h.snapshot(value)
+
     def test_history_bound_target_manifest_preserved(self):
         unrelated = {'path': 'data/other.json', 'ids': ['old'], 'reason': 'unrelated evidence'}
         (self.root / h.MANIFEST_PATH).write_text(json.dumps({'schema_version': 1, 'deletions': [unrelated]}))

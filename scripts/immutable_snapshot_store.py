@@ -18,6 +18,7 @@ HISTORY_PATHS = frozenset({
     'data/knowledge/moe_evaluation_history',
     'data/agents/gemini_escalation_history',
     'data/knowledge/gosi_observation_history',
+    'data/daiso_real/candidate_pool_history',
 })
 MAX_ENTRIES = 128
 MAX_SHARDS = 256

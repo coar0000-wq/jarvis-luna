@@ -18,3 +18,5 @@ data/agents/source_procedures/checkpoint.json -text
 
 # Exact offline branch lineage archive and projection proof.
 docs/audits/operations_reconciliation/** -text
+
+data/daiso_real/candidate_pool_history/** -text

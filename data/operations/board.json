@@ -1,5 +1,18 @@
 {
   "action_cards": [],
+  "audit": {
+    "counts": {
+      "audited": 120,
+      "decisions": 13,
+      "failure": 0,
+      "legacy": 5022,
+      "outcomes": 13,
+      "prepared": 13,
+      "unavailable": 0
+    },
+    "external_authority": false,
+    "mode": "future_only"
+  },
   "business": {
     "blockers": [
       "책임자 라벨 정보",
@@ -13,17 +26,17 @@
   },
   "counts": {
     "approval_waiting": 0,
-    "events": 1042,
+    "events": 5142,
     "external_verified": 0,
-    "handoffs_accepted": 55,
-    "local_verified": 147,
-    "source_recoveries_open": 4,
+    "handoffs_accepted": 65,
+    "local_verified": 725,
+    "source_recoveries_open": 7,
     "source_recoveries_verified": 6,
-    "tasks_total": 151,
-    "watchers_blocked": 1,
+    "tasks_total": 732,
+    "watchers_blocked": 6,
     "watchers_local": 2,
-    "watchers_partial": 3,
-    "watchers_ready": 6
+    "watchers_partial": 1,
+    "watchers_ready": 3
   },
   "engines": [
     {
@@ -80,7 +93,7 @@
     "training_performed": false,
     "verified_observations": 0
   },
-  "generated_at": "2026-10-05T07:04:19.284920+00:00",
+  "generated_at": "2026-10-06T09:22:34.102650+00:00",
   "organization": "기존 비서실장 > 11팀 팀장 > 전문 기능",
   "schema_version": 1,
   "source_procedures": {
@@ -318,15 +331,15 @@
   "source_recovery": {
     "counters": {
       "channels": 1,
-      "design": 1,
+      "design": 2,
       "graph": 1,
       "institutions": 1,
       "knowledge": 1,
       "legal": 1,
       "listing": 1,
-      "market": 0,
+      "market": 1,
       "pricing": 1,
-      "robotics": 1,
+      "robotics": 2,
       "secretary": 0,
       "sourcing": 1
     },
@@ -345,7 +358,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
         "initial_source": "data/channel_candidates.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
         "owner": "channels",
         "receipt_id": null,
@@ -383,6 +396,30 @@
         "blocker_codes": [
           "STALE_SOURCE_CAPTURE"
         ],
+        "current_source": "data/design_team.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 2,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
+        "initial_evidence_hash": "de01f453a09befc1c3c4682701de6b7b4f6bd0f662e266c3786069585296268e",
+        "initial_source": "data/design_team.json",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "next_action": "설정된 공개 디자인 피드를 재수집하고 참조·실제 캡처시각 확인",
+        "owner": "design",
+        "receipt_id": null,
+        "recovery_id": "recovery_design_000002",
+        "source": "data/design_team.json",
+        "source_team": "design",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_243c7def57e035b8c59fe7f6edd55052e6439a3d7a814674e08fac399bdb42a6"
+      },
+      {
+        "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
         "current_source": "data/obsidian_sync_status.json",
         "dependencies_are_not_execution_authority": true,
         "episode": 1,
@@ -391,7 +428,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
         "initial_source": "data/obsidian_sync_status.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
         "owner": "graph",
         "receipt_id": null,
@@ -405,7 +442,7 @@
         "attempt_limit": 2,
         "attempts": 0,
         "blocker_codes": [
-          "PARTIAL_SOURCE_COVERAGE"
+          "STALE_SOURCE_CAPTURE"
         ],
         "current_source": "data/institution_sources.json",
         "dependencies_are_not_execution_authority": true,
@@ -415,7 +452,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
         "initial_source": "data/institution_sources.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
         "owner": "institutions",
         "receipt_id": null,
@@ -429,7 +466,7 @@
         "attempt_limit": 2,
         "attempts": 0,
         "blocker_codes": [
-          "PARTIAL_SOURCE_COVERAGE"
+          "STALE_SOURCE_CAPTURE"
         ],
         "current_source": "data/knowledge/real_sources.json",
         "dependencies_are_not_execution_authority": true,
@@ -439,7 +476,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
         "initial_source": "data/knowledge/real_sources.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
         "owner": "knowledge",
         "receipt_id": null,
@@ -495,6 +532,30 @@
       },
       {
         "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/google_trends_beauty.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 1,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
+        "initial_evidence_hash": "544d89cf4cf36d575fcfcdf1b976928b09fac86b98f8ebfb6a4be6b8c978c340",
+        "initial_source": "data/google_trends_beauty.json",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "next_action": "공식 트렌드 자료를 허용 범위에서 재수집하고 실제 캡처시각 확인",
+        "owner": "market",
+        "receipt_id": null,
+        "recovery_id": "recovery_market_000001",
+        "source": "data/google_trends_beauty.json",
+        "source_team": "market",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_92c7eed5ed8bc605db305e32140bf89c2285c816a6c348cabd73773b629862e4"
+      },
+      {
+        "attempt_limit": 2,
         "attempts": 1,
         "blocker_codes": [],
         "current_source": "data/daiso_real/shortlist_observations.json",
@@ -539,6 +600,30 @@
       },
       {
         "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/robotics_sources.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 2,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
+        "initial_evidence_hash": "3cf9266fbb2a73628963fea7daf1ad22ce3cfc17822a184f054b48a766bf3b0c",
+        "initial_source": "data/robotics_sources.json",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "next_action": "설정된 공개 로보틱스 수집기를 재실행하고 실제 캡처시각 확인",
+        "owner": "robotics",
+        "receipt_id": null,
+        "recovery_id": "recovery_robotics_000002",
+        "source": "data/robotics_sources.json",
+        "source_team": "robotics",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_45b742cbebe7db07ac89c94fdbe1cd665ed6dec31d0d273f8ab3ae286daa9298"
+      },
+      {
+        "attempt_limit": 2,
         "attempts": 1,
         "blocker_codes": [],
         "current_source": "data/daiso_real/shortlist_observations.json",
@@ -567,392 +652,160 @@
     {
       "deadline": null,
       "depends_on": [],
-      "goal_id": "8a8909d8f93df44980518a46fc49ccafe7f5acd6ff2bca44ab522daf1c36ee26",
+      "goal_id": "f67ee7146e427abceb5642e635d95050c40bef3237982f1414c55a5bb42bd357",
       "kind": "snapshot_report",
       "level": 2,
       "parent_id": null,
       "priority": "high",
       "state": "COMPLETED",
-      "task_id": "task_b7175d341e8ec3b425b472713bdc629752348f989eb7ef598f38a85e98f38dc2",
-      "team": "legal"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_b604629be17388722019a79d2df445fa8cb4965c3164bbbb0652024a5ba41b17"
-      ],
-      "goal_id": "a0eff76c3d562ac7a9d4158462af00df26dfa629c2e12ffbbe9e376e882e1891",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_b604629be17388722019a79d2df445fa8cb4965c3164bbbb0652024a5ba41b17",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_b780a02528e2b6aad40d250dd277c6c60536f817d7b2b5125fb255ee0049f4d8",
-      "team": "channels"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_b7a1f5132be4836f67787d9878f0136bd7ca26ff094061ba56fb90ffe6dbba5d",
-      "team": "institutions"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "93d751c106a4ec05775407ddacc7f9e68291fe165087ee3edef582f474db30eb",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_b7eba9fe71b9e8921060edca6039aaf816816c4b270e6e00d3488421a2a3a938",
-      "team": "listing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_9ca9fdea47348c70f6172d5c28db308ac215e7f1c9d0bc5cac5dcb49b89b19a1"
-      ],
-      "goal_id": "2a56d48089f05b369447404fb969ea807e79f7dc66039599181ce375cff40bbd",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_9ca9fdea47348c70f6172d5c28db308ac215e7f1c9d0bc5cac5dcb49b89b19a1",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_b81f82b2663151862ed5290bb9031ebaa7b887967b70cda9f61605706d74b8e3",
-      "team": "legal"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_366029061cf05e4174ae11fef4e45beb92383b7dad614d46dd7a6eba27acc308"
-      ],
-      "goal_id": "e947ed9a127c3ddb211c14432250e9aa514b5dd92e63d8744f5230c07942afe6",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_366029061cf05e4174ae11fef4e45beb92383b7dad614d46dd7a6eba27acc308",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_bbbf0cf51033822840391de6ff109828b14e14d405f47b8cebe1f708b97bd349",
-      "team": "market"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "53483dda47341ddeabdccf194f6080be4cb31fa02e7a5ebc7ad186545e6a8725",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_bc5b388ac93d559e3376b05638d068152feb53b1b398ef9e50d2217f2b309547",
-      "team": "legal"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "c7bb54644b7afa73ffbb0aa992e47fb4d9b5712707a3217c6d5880a5b712e79b",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "normal",
-      "state": "COMPLETED",
-      "task_id": "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d",
-      "team": "pricing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "e2d5cb55b9f032c13213e4059a2722cde4277c663647e713a136de7c768bd0e5",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_bf59d646cd62c7856170dddd829f78c3515bc77b685cb71d6a1435f70a4194b2",
-      "team": "institutions"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "c2485ca05944f1d64f84c319dc1f674234aa2421bcbf20deac32a205c1ecf71c",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_bfa4244daf18f54ec2bd08eaeed185075e45dc63dae9ea36b0b2ad6b0bf05bc6",
-      "team": "sourcing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "5207409122120090556fc705900e03d2422a8139f9d43174dd8f8d9aeb37602b",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_c300e9c8be958714e0ffbd6f7002a5efe6a3da5af3ffb6db4e67c4cab3f5cf86",
-      "team": "channels"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_eade8f5f1ed78d4ea4147393d2fe97b17c1a7239e817377dd49a1b15684ba580"
-      ],
-      "goal_id": "c8c44029455a4d0c5013522db8ffd9782d21f7ede6ac3bc41902b5c966864534",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_eade8f5f1ed78d4ea4147393d2fe97b17c1a7239e817377dd49a1b15684ba580",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_c3a6893f62475d9af79f20560c18173171d31724bce8fc35eaf86377655408d6",
-      "team": "listing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_2584b242ac4b9eabaf98901a09d1e849494bffda5913fc27a874e9298d872481"
-      ],
-      "goal_id": "c8c44029455a4d0c5013522db8ffd9782d21f7ede6ac3bc41902b5c966864534",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_2584b242ac4b9eabaf98901a09d1e849494bffda5913fc27a874e9298d872481",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_c5646848c11f95d246f03241ff15c94ee990e05f8e37d74369f980bc68034d72",
-      "team": "market"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "878a8e514285ac54c3d861a30f841b932e1d0e893de80aaeaa778763df546af9",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_c580386d7257e1d8db094588897c680f822f05e26a99e6f048a792e0be598a09",
-      "team": "robotics"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_9ac2f5ff56ea916e696cd305ec91c3c6d0bec0068d12c589c93c49a2f4290222"
-      ],
-      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_9ac2f5ff56ea916e696cd305ec91c3c6d0bec0068d12c589c93c49a2f4290222",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_c7165d6c2f4db4c4af37fc5e7880b29b7f0433e275793e6812d9b29c7dc28697",
-      "team": "legal"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "1174b8614340bc8e631c09aaf36d3ef1e97b49d2af42230a257c77464dac6cf2",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_c8693b5e25ef6b3411c5277ca54303b2febd941ae1f335a5e3ee2f416ce092d6",
-      "team": "institutions"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "9dbf62cf281d0559767e02507d75586655964afef29a4cdc9b34eb0c172cc48f",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_cb0d50ad9d804a30578caece7d05091ccc5986a50c022c0c05cab566eb021ef0",
-      "team": "listing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "a0eff76c3d562ac7a9d4158462af00df26dfa629c2e12ffbbe9e376e882e1891",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_cc781b8327f13c03b96d89c6c008b46b7a3be305fec55081243813ebef07ac6a",
-      "team": "graph"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_c7165d6c2f4db4c4af37fc5e7880b29b7f0433e275793e6812d9b29c7dc28697"
-      ],
-      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_c7165d6c2f4db4c4af37fc5e7880b29b7f0433e275793e6812d9b29c7dc28697",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_d02bb13b2d38726e8ff9e39d7fdead4956937cb0648da9a991fa9ec281ddb39e",
-      "team": "listing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "b11391ad7e74bc13dda9485d4ee62598c23938bd6073cffa453e8f3e1b444a0c",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_d25c0c95d9a62bcc0ed588233b87e67a7a808f81dff6547234f1ae522ad93a92",
-      "team": "institutions"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "a0eff76c3d562ac7a9d4158462af00df26dfa629c2e12ffbbe9e376e882e1891",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_defe0d7fb676aded9ca2fe78c55402e63be8661f42f62507802d18dcc0506cd4",
-      "team": "robotics"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_e019b1f58ac7c187ee3703310d69de17b109505c1b6351b37d4a1fb7c45c2b12",
-      "team": "design"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "be3d23f7de180b55da5bba00958012fb0dfff7ec6d98b66490fca49e675fddf8",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_e20e17b74948626c5c2a60f19f4497c6d069678a7306e13fe7b912171c09cbf4",
-      "team": "graph"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "3f0b1669b47ff9bf77b297baba28ccd3fc85007fd688a695b77aba49be590985",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_e3f0835638a00a15f674bff8c046d3f4531b4d5d43243fd457f4a10275e5af1d",
-      "team": "listing"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "1174b8614340bc8e631c09aaf36d3ef1e97b49d2af42230a257c77464dac6cf2",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_e4c7f392da6889b3d02f68c48eff78708db28575a7df0b5dfd08319560590836",
+      "task_id": "task_f35a2720331a7fac5cdce1853e7561cc47f8a16e70c6b504c6111205c4bb59ff",
       "team": "knowledge"
     },
     {
       "deadline": null,
       "depends_on": [],
-      "goal_id": "a0eff76c3d562ac7a9d4158462af00df26dfa629c2e12ffbbe9e376e882e1891",
+      "goal_id": "70b039875ec5880d630cce98544a22c95cf0113e4a499130e072ba5baed07313",
       "kind": "snapshot_report",
       "level": 2,
       "parent_id": null,
       "priority": "high",
       "state": "COMPLETED",
-      "task_id": "task_e5b6a53ba6945005eeaf34c38e1a4fc325c10c7b787952c13b7d3d34ccb17d6d",
-      "team": "design"
-    },
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "e947ed9a127c3ddb211c14432250e9aa514b5dd92e63d8744f5230c07942afe6",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_e945c0b2d6222bc3ef9149ad52e206f157194d644df4f7b53ce238b18e4e9b1e",
-      "team": "design"
+      "task_id": "task_f38e2b3af4b4a81852d6e48900cb7e3c70485ed6d6b319b19cf47661bea1604c",
+      "team": "knowledge"
     },
     {
       "deadline": null,
       "depends_on": [
-        "task_89b8198931f3228486e02a97b424d5e834c66f290404bca1db80d337a9007689"
+        "task_700558171d7b74c3d4b598b0e3969322805e3500783f716a186ea9146a0a0eeb"
       ],
-      "goal_id": "c8c44029455a4d0c5013522db8ffd9782d21f7ede6ac3bc41902b5c966864534",
+      "goal_id": "5cde11149e41e71c26acf095c36e7624150d5e8cc909068e5ae916e2b14758ce",
       "kind": "snapshot_report",
       "level": 2,
-      "parent_id": "task_89b8198931f3228486e02a97b424d5e834c66f290404bca1db80d337a9007689",
+      "parent_id": "task_700558171d7b74c3d4b598b0e3969322805e3500783f716a186ea9146a0a0eeb",
       "priority": "high",
       "state": "COMPLETED",
-      "task_id": "task_eade8f5f1ed78d4ea4147393d2fe97b17c1a7239e817377dd49a1b15684ba580",
-      "team": "legal"
+      "task_id": "task_f3ca6250579c40935037a2b802d9b3237e51da3963d703bf872094042ef418cc",
+      "team": "listing"
     },
     {
       "deadline": null,
       "depends_on": [],
-      "goal_id": "c2485ca05944f1d64f84c319dc1f674234aa2421bcbf20deac32a205c1ecf71c",
+      "goal_id": "6a9489ea4b8ab5bc48fe9d46b1de1986cf44dc3535add234d27879745afaeb43",
       "kind": "snapshot_report",
       "level": 2,
       "parent_id": null,
       "priority": "high",
       "state": "COMPLETED",
-      "task_id": "task_eb29a88b0bb58e185dc9b416f55d907abbafd757a9a53a3316c643865c341c04",
-      "team": "graph"
-    },
-    {
-      "deadline": null,
-      "depends_on": [
-        "task_1bd566091f431e567e6f97687b9a9b3dbb19db63468896e2588693dae7130f0b"
-      ],
-      "goal_id": "a0eff76c3d562ac7a9d4158462af00df26dfa629c2e12ffbbe9e376e882e1891",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": "task_1bd566091f431e567e6f97687b9a9b3dbb19db63468896e2588693dae7130f0b",
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_ebbb81484ca7269118d7da26d508c2a3e3b7d57f8577830fb793f6189a4e198a",
-      "team": "legal"
+      "task_id": "task_f3e58171426b8e10090b40b831d09d2b29f40a8c66da4325e1224e0ca1979cc2",
+      "team": "knowledge"
     },
     {
       "deadline": null,
       "depends_on": [],
-      "goal_id": "b2641ba3082083a8cf6f63e489c9319e1a7aff57f50bd3a6a587b004d3c82a4b",
+      "goal_id": "3b71ce4795ddf903e0c70738b71ed95376c85d1fb2eda34ee19909add4e56cfd",
       "kind": "snapshot_report",
       "level": 2,
       "parent_id": null,
       "priority": "high",
       "state": "COMPLETED",
-      "task_id": "task_ecd72129a37dde15f6b4fb2d947dc516c282b14b5426967938fbacc08d493c21",
-      "team": "sourcing"
+      "task_id": "task_f4c4c4bd9bba44d44cb6aaf169b575055fb6dd13f59226e88d6bd3ffc13b0560",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "60d17e75cb68f5f0cc579152133c5612b04f684dae38b3e5e9ce91c7f323ac17",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f548dcad2781c736b84c6efd0e190831fe14f5624d79ac14f5829d1b64231ec6",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "baa7e8cf2f567bf1ae4d3741b473176928d40b0dcd62ef3065b1cf8cd596bde2",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f5826ea327b261dbd477fbc3e9b52354defb3daf778ac825b7b60c74022a8cb2",
+      "team": "market"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "c36fb65c12a8fb28f0a6230585570b890f1c9e3f5d6bacdb7f6d83fb1ce5564e",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f594bd9d81621b56fa89f7e14ac01673d996046d554ec4e26afece88dfbaf37a",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "80453cda2326d6e5e851152515f496365c4a48411cd11fd5dd95c8b436e8c474",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f5a51415f8b31c91ce2fd97eb2dfe948d031b3c408b6ed49cc2c896f4832a769",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "134297078062568f34b39c0d012b1fff75d8a7bec37df9c25bacc339566ceb8a",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f5d234e9b435ffa97aeb8f9980e9c2f16a7af2d07aa01b0159fb211f850c57f4",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "2083dc5c600c2ab86afd5b0a5d9d3fc8d067fcd8e792c54e0c9ce81e9facceb2",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f65dfd5c318bf861c986e3ed858908bdf71e6b1a71134bb7401cc2efd9d6fb9d",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "d5bd8ad523f594abb1300b044f466aff403990083eeaba7cdce3a3935bd4ab3e",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f6d2100458805f0fd81a84787c53bccd6d90368671809add706447426698972f",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "58e82c0f70757cb2ddb04c8ca30a9772049f4ba494e747040759a5f1dc2a01f0",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f6d6c8b6fe52abde3f5542d61c818ce18803eb2be4441aa3c3e6183de60b8837",
+      "team": "listing"
     },
     {
       "deadline": null,
@@ -970,6 +823,78 @@
     },
     {
       "deadline": null,
+      "depends_on": [],
+      "goal_id": "a2f9ff553a4ca446ccf8f6aae49835ed509ea35a5393e97958a16762e8463853",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f7f132e8ffca34629590c73c203e5eaf30723ce21a9735b8ec45380a8878164a",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "aaa20b2ca8f586bcbef93740eb63b7e68825a2c7b73efbfdf83b97ab3a3385fe",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f861d3ccb1973894e0879927545d9b026f42e24071e385381225cb3dea90497f",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "ce28835ed2c581212aba1e9d6f74fbb442820baba74f19314f42166f64dbbb3e",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f8860c394123302a156106c258ecab84d4c1fa89648f94497d40a0b99ab4ee44",
+      "team": "listing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "e5e1ae09f7a325467e74c530a47fc6c221344854d85c5ca905678fb78d9fdbaa",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f887fa1df16e2fdf36ab3b67410174f1bdc0883ae904dba26acc071baee27e9e",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "cd7732ad0fc048d1bb4b301fab07c2cd67a4aa16fae65a8659aed9cfdf4af2c6",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f94ecbfe9cf40d202eb9d196d1f346434a715508b92255da3f4ad4666112703b",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "e93490515c6447344cddfc337bed6c977dec81a5f5528cd807f6b728c588668d",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f9c3d8dd34511daa111b5417143ca44180d02c5b0f9eb1f9d3419bc348a21afd",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
       "depends_on": [
         "task_19473bdd9aa9fa7ec390c9b542fc474635b9874c502011c69c71c4c1f82a85ed"
       ],
@@ -981,6 +906,18 @@
       "state": "COMPLETED",
       "task_id": "task_f9c9cd4908f053d1ac4c29fd2c515f66552c53272f3d5166e33dedbeb9864267",
       "team": "legal"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "32a8178c5b161fa6b93cf89ab72623bb5b106404f23bb5a8674923e622099d54",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fa1436da89e6a54fe675f81b22b7fc9504dfd975e68fa3cacf56d421d59042c5",
+      "team": "knowledge"
     },
     {
       "deadline": null,
@@ -1025,6 +962,18 @@
     {
       "deadline": null,
       "depends_on": [],
+      "goal_id": "e7c0983c07f43b5c19ec62aa18190f6bee4dcfcbccb5092f1ca7570691486764",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fbba09df9c45506a04429f4421a6195857ccad6a2f7e113c5a34196c049e7d77",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
       "goal_id": "005c5be6e3d3f71b58d50e13affed4f8b78fae6e2b23e56fdd1c7da0f93e46b3",
       "kind": "snapshot_report",
       "level": 2,
@@ -1037,6 +986,30 @@
     {
       "deadline": null,
       "depends_on": [],
+      "goal_id": "45ca6df75ff1f4a028be4c50b8f9e19a94b9fc6d827b77aabddcac49c9a89470",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fc07a9c1e181ef37b51d3719d898f2dd3aca8829c39488af133029f92a30e560",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "58a49d813fb98eec3c1de9d286dee611dedc9b0c25f66ef0b1c2006a03bcf01b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fc167011eac05be95c78d220ffdec0546fd1d8298f9c868ad74fdbaf03d8b6c4",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
       "goal_id": "878a8e514285ac54c3d861a30f841b932e1d0e893de80aaeaa778763df546af9",
       "kind": "snapshot_report",
       "level": 2,
@@ -1045,6 +1018,30 @@
       "state": "COMPLETED",
       "task_id": "task_fcfb0ade9a1a956fc8636f9d9adb487da7ac64e0f31ff101ceec6caff9416f7d",
       "team": "sourcing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "a76af18d037789c98012e8ef021717a4f21fa3fc9206b4f1712fd8c15e095c37",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fd16d61d534a328c4d4f7eb10010fd5ef228b3332d8c8a4724091c7adfdc9554",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b582b9e0aeecd3582ac6984f324c8ce1c70a09968895dd4ad749ad598319b62b",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fd9cea2ec07b272ecaa0df6dbb310022068f420b246040ef5303a956534f347b",
+      "team": "knowledge"
     },
     {
       "deadline": null,
@@ -1063,6 +1060,66 @@
     {
       "deadline": null,
       "depends_on": [],
+      "goal_id": "c0feeeaee015b416a7eb5e2ce542ea6f9f11ac53821a6342542ebaba23eda77d",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fe0d50e45845dbc58f5254abbf656cbc4a2ddcae714c7092ca9c54de1d9567fd",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "b2976e87300f947aa610968aadce7c3cea928c0eff6d07c64647b3a20dc12e12",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fe2272945383c36b366cb7d98374949b124b439d9bc5e959589c108dd5bf33e4",
+      "team": "legal"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "adfce6bd0d4d23a0c033559a59f0677ecf2510aae7cb0a505abdc2839c1ab92a",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fe37207b295e897d1070acc775f3aa3de8eacd16ffbc1cc4558ee8c3cf9cd1b5",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "50397e4c33fda586b0b2ad9dda53f9773f4370a838a7f36d9122b6ebbece81af",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_fefea3d8788aebd9b7f520b726eaa6fa1646c80d7c4841aa3e5233409018a4ee",
+      "team": "institutions"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "aa3183dcd837602fd5aca9f66933c4b9783d0a75d511d30df8c069af8f0c307e",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_ff6c392b5dbd2ad5961fea8d11683c4e0f9a565d76a41ead1d7c23fdf727fa21",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
       "goal_id": "0babecefd309b755511e0120268c3b6c89fcaf8d140c5921e5a1a1b2a2ac13f8",
       "kind": "snapshot_report",
       "level": 2,
@@ -1071,11 +1128,23 @@
       "state": "COMPLETED",
       "task_id": "task_ffb0f31952146f0ca5e66b010db8ce8ad3238668740fca7810806597d21fc362",
       "team": "listing"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "0f805ed4119c3f3a40c4ff6ab915a06bfdee9c8fec6a9c6ed11695c0f283d32f",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_ffd09c0927e4679b6718eceb21015f900cbced93559d1cd4aff7112f6bcb7e2e",
+      "team": "knowledge"
     }
   ],
   "watchers": [
     {
-      "captured_at": "2026-10-04T07:03:39.842329+00:00",
+      "captured_at": "2026-10-05T07:03:56.875731+00:00",
       "coverage": {
         "catalog_only": 0,
         "failed_sources": 0,
@@ -1085,7 +1154,7 @@
         "total_records": 6
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1114,23 +1183,16 @@
       "team": "sourcing"
     },
     {
-      "captured_at": "2026-10-03T11:39:17.808691+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 1,
-        "fresh_records": 1073,
-        "missing_records": 0,
-        "stale_records": 0,
-        "total_records": 1073
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
-      "reason": "PARTIAL_SOURCE_COVERAGE",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
         "attempts": 0,
         "blocker_codes": [
-          "PARTIAL_SOURCE_COVERAGE"
+          "STALE_SOURCE_CAPTURE"
         ],
         "current_source": "data/institution_sources.json",
         "dependencies_are_not_execution_authority": true,
@@ -1140,7 +1202,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
         "initial_source": "data/institution_sources.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
         "owner": "institutions",
         "receipt_id": null,
@@ -1151,25 +1213,41 @@
         "task_id": "task_2c094d0fca67a4aa1f28c3d4ee7a54470c8fcd0caa6f1993f00493fc1ceee132"
       },
       "scope": "collected_records_with_provider_coverage",
-      "status": "PARTIAL",
+      "status": "BLOCKED",
       "team": "institutions"
     },
     {
-      "captured_at": "2026-10-03T11:43:10.737881+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 0,
-        "fresh_records": 40,
-        "missing_records": 0,
-        "stale_records": 0,
-        "total_records": 40
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
-      "reason": "",
-      "recovery": null,
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
+      "recovery": {
+        "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/google_trends_beauty.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 1,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
+        "initial_evidence_hash": "544d89cf4cf36d575fcfcdf1b976928b09fac86b98f8ebfb6a4be6b8c978c340",
+        "initial_source": "data/google_trends_beauty.json",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "next_action": "공식 트렌드 자료를 허용 범위에서 재수집하고 실제 캡처시각 확인",
+        "owner": "market",
+        "receipt_id": null,
+        "recovery_id": "recovery_market_000001",
+        "source": "data/google_trends_beauty.json",
+        "source_team": "market",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_92c7eed5ed8bc605db305e32140bf89c2285c816a6c348cabd73773b629862e4"
+      },
       "scope": null,
-      "status": "NO_CHANGE",
+      "status": "BLOCKED",
       "team": "market"
     },
     {
@@ -1183,7 +1261,7 @@
         "total_records": 10
       },
       "observation_kind": "local_derived_read",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1212,7 +1290,7 @@
       "team": "listing"
     },
     {
-      "captured_at": "2026-10-04T07:03:39.842329+00:00",
+      "captured_at": "2026-10-05T07:03:56.875731+00:00",
       "coverage": {
         "catalog_only": 0,
         "failed_sources": 0,
@@ -1222,7 +1300,7 @@
         "total_records": 6
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1261,7 +1339,7 @@
         "total_records": 10
       },
       "observation_kind": "local_derived_read",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1290,81 +1368,71 @@
       "team": "legal"
     },
     {
-      "captured_at": "2026-10-04T07:13:14.472985+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 0,
-        "fresh_records": 66,
-        "missing_records": 0,
-        "stale_records": 0,
-        "total_records": 66
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
-      "reason": "",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
-        "attempts": 1,
-        "blocker_codes": [],
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
         "current_source": "data/robotics_sources.json",
         "dependencies_are_not_execution_authority": true,
-        "episode": 1,
+        "episode": 2,
         "escalation_code": null,
         "execution_enabled": false,
-        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "initial_evidence_hash": "adbd4c88ff5d977680632b66c077c6f63245c2d25d8bccb25896596938594d37",
+        "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
+        "initial_evidence_hash": "3cf9266fbb2a73628963fea7daf1ad22ce3cfc17822a184f054b48a766bf3b0c",
         "initial_source": "data/robotics_sources.json",
-        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "next_action": "실제 재관찰·영수증 검증 완료",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "next_action": "설정된 공개 로보틱스 수집기를 재실행하고 실제 캡처시각 확인",
         "owner": "robotics",
-        "receipt_id": "receipt-3ddd4b45b805f7ae24b76934c5dd130f0d8791e052e51ac78a24c0effeb3e4bd",
-        "recovery_id": "recovery_robotics_000001",
+        "receipt_id": null,
+        "recovery_id": "recovery_robotics_000002",
         "source": "data/robotics_sources.json",
         "source_team": "robotics",
-        "status": "RECOVERED",
-        "task_id": "task_a60abcac71fe5266d8dee4fce4325d1b83180993dba0df7e1e17306c8133d0c7"
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_45b742cbebe7db07ac89c94fdbe1cd665ed6dec31d0d273f8ab3ae286daa9298"
       },
       "scope": null,
-      "status": "NO_CHANGE",
+      "status": "BLOCKED",
       "team": "robotics"
     },
     {
-      "captured_at": "2026-10-04T07:13:38.529572+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 0,
-        "fresh_records": 78,
-        "missing_records": 0,
-        "stale_records": 0,
-        "total_records": 78
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
-      "reason": "",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
-        "attempts": 1,
-        "blocker_codes": [],
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
         "current_source": "data/design_team.json",
         "dependencies_are_not_execution_authority": true,
-        "episode": 1,
+        "episode": 2,
         "escalation_code": null,
         "execution_enabled": false,
-        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "initial_evidence_hash": "eb15c9dfa68225758e5580ce3eaee6373653ad77e13e397576f4dc5cd56b050c",
+        "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
+        "initial_evidence_hash": "de01f453a09befc1c3c4682701de6b7b4f6bd0f662e266c3786069585296268e",
         "initial_source": "data/design_team.json",
-        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "next_action": "실제 재관찰·영수증 검증 완료",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "next_action": "설정된 공개 디자인 피드를 재수집하고 참조·실제 캡처시각 확인",
         "owner": "design",
-        "receipt_id": "receipt-265062e589e018157ecae69487a2858ac2579b4adeae99d2bc1969c27dbc1bc9",
-        "recovery_id": "recovery_design_000001",
+        "receipt_id": null,
+        "recovery_id": "recovery_design_000002",
         "source": "data/design_team.json",
         "source_team": "design",
-        "status": "RECOVERED",
-        "task_id": "task_3115521aa2eb29cd45a86d33144d8b9d0bbe24161dfb7e34694337e442c1cd72"
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_243c7def57e035b8c59fe7f6edd55052e6439a3d7a814674e08fac399bdb42a6"
       },
       "scope": null,
-      "status": "NO_CHANGE",
+      "status": "BLOCKED",
       "team": "design"
     },
     {
@@ -1378,7 +1446,7 @@
         "total_records": 7
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
       "reason": "PARTIAL_SOURCE_COVERAGE",
       "recovery": {
         "attempt_limit": 2,
@@ -1394,7 +1462,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
         "initial_source": "data/channel_candidates.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
         "owner": "channels",
         "receipt_id": null,
@@ -1409,23 +1477,16 @@
       "team": "channels"
     },
     {
-      "captured_at": "2026-10-03T11:39:17.808691+00:00",
-      "coverage": {
-        "catalog_only": 30,
-        "failed_sources": 0,
-        "fresh_records": 1489,
-        "missing_records": 498,
-        "stale_records": 0,
-        "total_records": 1987
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
-      "reason": "PARTIAL_SOURCE_COVERAGE",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
         "attempts": 0,
         "blocker_codes": [
-          "PARTIAL_SOURCE_COVERAGE"
+          "STALE_SOURCE_CAPTURE"
         ],
         "current_source": "data/knowledge/real_sources.json",
         "dependencies_are_not_execution_authority": true,
@@ -1435,7 +1496,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
         "initial_source": "data/knowledge/real_sources.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
         "owner": "knowledge",
         "receipt_id": null,
@@ -1446,14 +1507,14 @@
         "task_id": "task_0bb31f02aae825464dabe4b3ec68231da855492a3dd1df0628a9c5bad41f8f26"
       },
       "scope": "genuine_captured_items_excluding_registered_catalog",
-      "status": "PARTIAL",
+      "status": "BLOCKED",
       "team": "knowledge"
     },
     {
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1469,7 +1530,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
         "initial_source": "data/obsidian_sync_status.json",
-        "last_detected_at": "2026-10-05T07:04:19.284920+00:00",
+        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
         "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
         "owner": "graph",
         "receipt_id": null,
@@ -1494,7 +1555,7 @@
         "total_records": 5
       },
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-05T07:04:19.284920+00:00",
+      "observed_at": "2026-10-06T09:22:34.102650+00:00",
       "reason": "",
       "recovery": null,
       "scope": null,

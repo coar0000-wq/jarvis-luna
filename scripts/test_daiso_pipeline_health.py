@@ -22,6 +22,31 @@ class HealthTests(unittest.TestCase):
         return h.evaluate(self.doc, self.workflow, now=NOW, collection_status_bytes=self.raw,
                           receipts=[r], validated_receipt_sha256=[h.receipt_sha256(r)] if validate else [], **kwargs)
 
+    def test_github_second_precision_is_half_open_and_capped_at_now(self):
+        bound = '2026-10-03T02:00:00Z'
+        now = h.timestamp('2026-10-03T02:00:01Z')
+        self.assertTrue(h.github_not_after('2026-10-03T02:00:00.999999Z', bound, now))
+        self.assertFalse(h.github_not_after('2026-10-03T02:00:01Z', bound, now))
+        self.assertFalse(h.github_not_after('2026-10-03T02:00:00.999999Z', bound, h.timestamp('2026-10-03T02:00:00.5Z')))
+        self.assertFalse(h.github_not_after(bound, '2026-10-03T02:00:01Z', h.timestamp(bound)))
+        self.assertFalse(h.github_not_after('2026-10-03T02:00:00.000001Z', '2026-10-03T02:00:00.000000Z', now))
+        with self.assertRaises(ValueError):
+            h.github_not_after(bound, None, now)
+
+    def test_created_metadata_inversion_is_bounded_not_a_clock_rewrite(self):
+        run = dict(self.failed, created_at='2026-10-03T00:00:01Z')
+        before = deepcopy(run)
+        start, end = h.run_window(run, h.timestamp(NOW))
+        self.assertEqual(start, h.timestamp(run['run_started_at']))
+        self.assertEqual(run, before)
+        self.assertEqual(h.run_metadata_precision(run)['created_start_inversion_seconds'], 1)
+        for patch in ({'created_at': '2026-10-03T00:00:02Z'},
+                      {'created_at': '2026-10-03T00:00:01.000001Z'},
+                      {'created_at': None}, {'finished_at': '2026-10-03T03:00:01Z'},
+                      {'run_started_at': '2026-10-03T03:00:01Z'}):
+            with self.subTest(patch=patch), self.assertRaises(ValueError):
+                h.run_window(dict(run, **patch), h.timestamp(NOW))
+
     def test_new_proved_collection_does_not_clear_full_failure(self):
         value = self.evaluate()
         self.assertEqual(value['scopes']['operating_capture']['status'], 'success')
@@ -49,10 +74,13 @@ class HealthTests(unittest.TestCase):
         self.assertEqual(value['status'], 'failed')
 
     def test_only_genuinely_newer_same_scope_publication_receipt_supersedes(self):
-        full = dict(self.receipt, scope='overall_workflow', publication_completed=True, workflow_conclusion='success')
-        value = self.evaluate(full)
+        full = dict(self.receipt, collection_scope=h.DAILY_SCOPE, scope='overall_workflow', publication_completed=True, workflow_conclusion='success')
+        value = self.evaluate(full, validated_failure_scopes={(10, 1): h.DAILY_SCOPE})
         self.assertEqual(value['status'], 'success')
         self.assertTrue(value['failed_workflow_history'][0]['superseded'])
+        self.assertEqual(self.evaluate(full)['status'], 'failed')
+        tiny = dict(full, collection_scope=dict(h.DAILY_SCOPE, requested=1))
+        self.assertEqual(self.evaluate(tiny, validated_failure_scopes={(10, 1): h.DAILY_SCOPE})['status'], 'failed')
         for patch in ({'scope': 'shortlist_price'}, {'started_at': '2026-10-03T00:30:00Z'}, {'publication_completed': False}):
             self.assertEqual(self.evaluate(dict(full, **patch))['status'], 'failed')
 

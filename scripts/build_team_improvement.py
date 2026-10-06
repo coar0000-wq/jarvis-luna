@@ -41,12 +41,13 @@
 정체가 길어지면 올린다
 
   같은 조치가 stale_after 회차를 넘기면 '오래됨' 으로 표시한다.
-  그 목록이 비어 있으면 모든 팀이 굴러가고 있다는 뜻이다.
+  그 목록이 비어 있어도 모든 팀의 실측 개선이나 원천 복구를 증명하지 않는다.
 
 되돌아볼 수 있게 남긴다
 
   회차 기록을 history 에 쌓는다. 어떤 팀이 언제부터 막혔고 언제
-  풀렸는지 나중에 되짚을 수 있다. 최근 max_history 회차만 둔다.
+  조치 문구가 바뀌었는지 되짚을 수 있다. 과거 회차를 자동 삭제하지 않는다.
+  이 기록의 개선 표시는 진단 문구 변화이며, 실측 성과 개선이 아니다.
 
 쓰는 법
   python -u scripts/build_team_improvement.py
@@ -63,15 +64,20 @@ DATA = ROOT / "data"
 RUNTIME = DATA / "dashboard_runtime.json"
 OUT = DATA / "team_improvement.json"
 
-MAX_HISTORY = 120
 STALE_AFTER = 3          # 같은 조치가 이 회차를 넘기면 오래된 것으로 본다
 
 
 def load(path: Path, default):
     try:
-        return json.loads(path.read_text(encoding="utf-8-sig"))
-    except (OSError, json.JSONDecodeError):
+        raw = path.read_bytes()
+    except FileNotFoundError:
         return default
+    if len(raw) > 8 * 1024 * 1024:
+        raise ValueError('team diagnostic input capacity exceeded; reset forbidden')
+    value = json.loads(raw.decode('utf-8-sig'))
+    if not isinstance(value, dict):
+        raise ValueError('team diagnostic input must be an object')
+    return value
 
 
 def norm(s) -> str:
@@ -88,6 +94,8 @@ def main() -> int:
     prev = load(OUT, {})
     prev_teams = (prev.get("teams") or {})
     history = prev.get("history") or []
+    if not isinstance(history, list):
+        raise ValueError('team diagnostic history malformed; reset forbidden')
 
     # 같은 대시보드를 두 번 읽으면 회차가 부풀어 오른다.
     #
@@ -130,7 +138,7 @@ def main() -> int:
                 since = old_since or now
                 stuck.append((tid, name, action, streak, since))
             else:
-                # 막힌 내용이 바뀐 것은 앞의 것이 풀린 것이다
+                # Legacy diagnostic label only; changed wording is not measured recovery.
                 state, streak, since = "일부개선", 1, now
                 improved.append((tid, name, f"{old_action} → {action}"))
         elif not action and old_action:
@@ -167,7 +175,7 @@ def main() -> int:
             "막힌_팀": sorted(
                 {t for t, *_ in stuck} | {t for t, *_ in regressed}),
         })
-        history = history[-MAX_HISTORY:]
+        # Retention is not an execution budget. Never discard prior diagnostic rounds.
 
     stale = sorted(
         ((v["streak"], t, v["name"], v["open_action"], v["since"])
@@ -179,6 +187,8 @@ def main() -> int:
         "generated_at": now,
         "runtime_at": runtime_at,
         "generator": "scripts/build_team_improvement.py",
+        "meaning": "diagnostic_action_text_monitoring_only_not_measured_gain",
+        "verified_gains": 0,
         "무엇을_재나": (
             "팀 카드의 자동조치(action)와 사람·외부 대기(waiting)를 종류와 함께 "
             "회차마다 비교한다. 없다가 생기면 후퇴, 있다가 없어지면 개선, 같은 "
@@ -204,8 +214,15 @@ def main() -> int:
         "teams": out_teams,
         "history": history,
     }
-    OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n",
-                   encoding="utf-8")
+    body = json.dumps(doc, ensure_ascii=False, indent=2) + "\n"
+    if len(body.encode('utf-8')) > 8 * 1024 * 1024:
+        raise ValueError('team diagnostic history capacity reached; pruning forbidden')
+    OUT.write_text(body, encoding="utf-8")
+    # Core/Deep call this after generating runtime. Rebind the projection to the
+    # just-written diagnostic bytes without changing source capture clocks.
+    from team_improvement_evidence import build as build_evidence
+    rt['team_improvement_evidence'] = build_evidence(RUNTIME.parent.parent, now=now)
+    RUNTIME.write_text(json.dumps(rt, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
     print(f"팀 {len(out_teams)}개 · 양호 {len(clean)} · 개선 {len(improved)} "
           f"· 정체 {len(stuck)} · 후퇴 {len(regressed)}")

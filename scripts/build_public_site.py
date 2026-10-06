@@ -34,6 +34,8 @@ BENCHMARK = fields('min p25 median max n source')
 # Display scalars only: no raw goals, proof objects, identities or authority.
 PUBLIC_TEXT = object()
 PUBLIC_FALSE = object()
+PUBLIC_ZERO = object()
+IMPROVEMENT_PHASE = object()
 def public_fields(names): return {k: PUBLIC_TEXT for k in names.split()}
 def public_obj(names='', **nested): return dict(public_fields(names), **nested)
 RECOVERY_ROW = dict(public_fields('recovery_id episode owner source_team status attempts attempt_limit escalation_code receipt_id first_detected_at last_detected_at next_action'), execution_enabled=PUBLIC_FALSE)
@@ -44,6 +46,21 @@ PROCEDURES = dict(public_obj('schema_version generated_at status organization so
  plans=[dict(public_fields('id team fixedprocedure_id machine_eligible status reason claim_id source_healthy'), authority=PUBLIC_FALSE, receipt_verified=PUBLIC_FALSE)],
  continuity=dict(public_obj('schema_version revision', teams={t:PROCEDURE_TEAM for t in ('sourcing','institutions','market','listing','pricing','legal','robotics','design','channels','knowledge','graph')}), authority=PUBLIC_FALSE, business_clearance=PUBLIC_FALSE, receipt_verified=PUBLIC_FALSE)),
  authority=PUBLIC_FALSE, business_clearance=PUBLIC_FALSE, receipt_verified=PUBLIC_FALSE, force_bypasses_limits=PUBLIC_FALSE)
+AUDIT_SUMMARY = dict(public_obj('mode', counts=public_fields('audited legacy decisions prepared outcomes failure unavailable')), external_authority=PUBLIC_FALSE)
+IMPROVEMENT_SOURCE = public_fields('path sha256 reviewed_exact_bytes captured_at generated_at policy_updated_at applied_at evaluated_at metadata_clock_field metadata_clock_at fresh capture_clock_verified')
+IMPROVEMENT_POINT = public_fields('value denominator source_path source_sha256 clock_field clock_at captured_at evaluated_at fresh')
+IMPROVEMENT_ROW = dict(public_obj('id status evidence_strength historical_observation_only evaluation_validation source_input_digests_verified',
+ metric=public_obj('id unit direction', business_metric=PUBLIC_FALSE),
+ baseline=IMPROVEMENT_POINT, current=IMPROVEMENT_POINT, shadow=IMPROVEMENT_POINT,
+ evidence=[IMPROVEMENT_SOURCE], blockers=[PUBLIC_TEXT],
+ proposal=public_obj('goal scope', business_draft=PUBLIC_FALSE),
+ existing_bounded_configuration=public_obj('verified dropped_references', scope=[PUBLIC_TEXT], new_changes_allowed=PUBLIC_FALSE)),
+ phase=IMPROVEMENT_PHASE, autonomous_change_allowed=PUBLIC_FALSE, authority=PUBLIC_FALSE, business_clearance=PUBLIC_FALSE, verified_gain=PUBLIC_FALSE)
+TEAM_IMPROVEMENT_EVIDENCE = public_obj('schema_version generated_at mode',
+ teams={t:IMPROVEMENT_ROW for t in ('sourcing','institutions','market','listing','pricing','legal','robotics','design','channels','knowledge','graph')},
+ summary=public_obj('teams label', phase_counts=dict(public_fields('monitoring proposal shadow_evaluated applied blocked'), verified_gain=PUBLIC_ZERO), verified_gains=PUBLIC_ZERO, authority=PUBLIC_FALSE, business_clearance=PUBLIC_FALSE),
+ diagnostic_monitoring=public_obj('meaning clear stuck reported_action_changes', source=IMPROVEMENT_SOURCE),
+ source_errors=[public_fields('path reason')], limitations=[PUBLIC_TEXT])
 OPERATIONS = public_obj('schema_version generated_at status organization',
  engines=[public_fields('id name status detail')],
  counts=public_fields('tasks_total local_verified external_verified handoffs_accepted watchers_ready watchers_blocked watchers_partial watchers_local source_recoveries_verified source_recoveries_open events approval_waiting'),
@@ -51,12 +68,13 @@ OPERATIONS = public_obj('schema_version generated_at status organization',
  watchers=[dict(public_fields('team status reason captured_at observed_at observation_kind scope'), coverage=COVERAGE, recovery=RECOVERY_ROW)],
  source_recovery=RECOVERY_BOARD,
  source_procedures=PROCEDURES,
+ audit=AUDIT_SUMMARY,
  business=public_obj('ready total exempt sales_allowed', blockers=[PUBLIC_TEXT]),
  feedback=public_fields('status verified_observations training_performed'),
  action_cards=[dict(public_fields('action_id kind level status reason member_count payload_hash target_configured before after'), may_approve=PUBLIC_FALSE, may_execute=PUBLIC_FALSE)])
 
 SCHEMAS = {
- 'data/dashboard_runtime.json': obj('schema_version generated_at last_synced truth_note data_integrity_note', pipeline_health=fields('status optional_failure_count required_failure_count at generated_at execution_id'), teams=[TEAM], secretary=TEAM, team_summary=fields('corpus_records pipeline_done pipeline_total'), pipeline=[fields('id title status detail')], sources=obj('status record_count updated_at',source_counts=NUM_MAP), graph=obj('notes links dangling_links dangling_personal dangling_personal_note dangling_warn_threshold records sources topics last_generated',audit=fields('untagged_pct')), training=TRAINING,cumulative=obj('since runs_recorded',totals=NUM_MAP,prior_totals=NUM_MAP,added_this_run=NUM_MAP,current_snapshot=NUM_MAP),global_channels={'*':[CHANNEL_ROW]},global_channels_status={'*':CHANNEL_STATUS},exchange_rate=fields('rate as_of source updated_at'),commit_summary=fields('line agents_line'),agents_ops=fields('risk task_count at'),candidate_discovery=COMPARISON,operations=OPERATIONS),
+ 'data/dashboard_runtime.json': obj('schema_version generated_at last_synced truth_note data_integrity_note', pipeline_health=fields('status optional_failure_count required_failure_count at generated_at execution_id'), teams=[TEAM], secretary=TEAM, team_summary=fields('corpus_records pipeline_done pipeline_total'), pipeline=[fields('id title status detail')], sources=obj('status record_count updated_at',source_counts=NUM_MAP), graph=obj('notes links dangling_links dangling_personal dangling_personal_note dangling_warn_threshold records sources topics last_generated',audit=fields('untagged_pct')), training=TRAINING,cumulative=obj('since runs_recorded',totals=NUM_MAP,prior_totals=NUM_MAP,added_this_run=NUM_MAP,current_snapshot=NUM_MAP),global_channels={'*':[CHANNEL_ROW]},global_channels_status={'*':CHANNEL_STATUS},exchange_rate=fields('rate as_of source updated_at'),commit_summary=fields('line agents_line'),agents_ops=fields('risk task_count at'),candidate_discovery=COMPARISON,operations=OPERATIONS,team_improvement_evidence=TEAM_IMPROVEMENT_EVIDENCE),
  'data/knowledge/training_status.json': dict(TRAINING,source_labels=NUM_MAP),
  'data/knowledge/real_sources.json': obj('updated collected_at',sources={'*':obj('count collected_at status',items=[fields('title url source published_at')])}),
  'data/daiso_real/collection_status.json': obj('',last_run=RUN,last_attempt=RUN,last_success=RUN,last_candidate_success=RUN,totals=obj('products avg_price_krw price_krw_min price_krw_max with_rating',by_bucket=NUM_MAP,categories=NUM_MAP),fx=fields('usd_to_krw krw_to_usd as_of source fetched_at ok')),
@@ -114,6 +132,8 @@ def safe_operation_scalar(value):
 
 
 def project(value, schema):
+    if schema is PUBLIC_ZERO: return 0
+    if schema is IMPROVEMENT_PHASE: return value if value in ('monitoring','proposal','shadow_evaluated','applied','blocked') else 'blocked'
     if schema is PUBLIC_FALSE: return False
     if schema is PUBLIC_TEXT: return safe_operation_scalar(value)
     if schema is True: return safe_scalar(value)
