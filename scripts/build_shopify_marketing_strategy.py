@@ -379,6 +379,60 @@ def build_experiments() -> list[dict]:
             "action": "프로모션별 할인율·기간·매출·총이익·기여이익·운영비를 한 표에서 비교하고 이익이 악화되는 연장·심화 시나리오는 승인 큐에서 차단한다.",
             "kpis": ["promotion_contribution_margin", "gross_margin_rate", "discount_duration_days", "profit_after_promotion"],
             "cost_mode": "free_local", "status": "ready_for_modeling"
+        },
+        {
+            "id": "EXP-030", "phase": "research", "priority": 30,
+            "name": "반복 불만·가격 거부선 포지셔닝 검증",
+            "insight_ids": ["MKT-064"],
+            "owner_teams": ["market", "sourcing", "pricing", "listing", "knowledge"],
+            "action": "경쟁 상품·브랜드 리뷰에서 반복 불만을 묶고 실제 가격과 가격 거부 표현을 연결해 비용 집행 전 해결 문제·가치제안·가격 가설을 승인한다.",
+            "kpis": ["repeated_complaint_cluster_count", "cross_brand_complaint_rate", "price_resistance_evidence_count", "validated_problem_hypothesis_count"],
+            "cost_mode": "free_local", "status": "ready_for_research"
+        },
+        {
+            "id": "EXP-031", "phase": "launch", "priority": 31,
+            "name": "문제 훅 다각도 유기 크리에이티브",
+            "insight_ids": ["MKT-065"],
+            "owner_teams": ["market", "design", "listing", "legal"],
+            "action": "반복 고객 문제 하나를 문제 시연·전후 비교·실사용 검증의 서로 다른 각도로 제작해 보유 자산에서 유기 반응을 비교하며 유료 제작·배포는 명시 승인 전 차단한다.",
+            "kpis": ["organic_hook_hold_rate", "creative_angle_coverage", "organic_link_ctr", "claim_violation_count"],
+            "cost_mode": "free_organic", "status": "ready_after_assets"
+        },
+        {
+            "id": "EXP-032", "phase": "retention", "priority": 32,
+            "name": "고객 상태·사용주기 이메일 QA",
+            "insight_ids": ["MKT-066", "MKT-067"],
+            "owner_teams": ["market", "listing", "legal", "knowledge"],
+            "action": "가입·이탈·구매·비활성 상태별 진입·종료·제외 규칙을 작성하고 SKU 사용주기에 맞춘 리뷰 요청과 부정 리뷰 서비스 회복 큐를 연결한다.",
+            "kpis": ["lifecycle_state_coverage", "flow_overlap_rate", "review_request_timing_accuracy", "service_recovery_resolution_rate"],
+            "cost_mode": "existing_stack_only", "status": "blocked_until_store_and_consent"
+        },
+        {
+            "id": "EXP-033", "phase": "measurement", "priority": 33,
+            "name": "기기·결제 코호트 세션가치 CRO",
+            "insight_ids": ["MKT-068", "MKT-069", "MKT-073"],
+            "owner_teams": ["market", "listing", "design", "pricing", "knowledge"],
+            "action": "기기별 행동 혼란과 결제수단·구매유형 차이를 한 가설씩 테스트하고 자사 기준선 대비 전환율·AOV·세션당 매출·기여이익을 함께 판정한다.",
+            "kpis": ["mobile_desktop_conversion_gap", "payment_method_aov", "revenue_per_session", "contribution_margin_per_session"],
+            "cost_mode": "free_local", "status": "blocked_until_store_analytics"
+        },
+        {
+            "id": "EXP-034", "phase": "prelaunch", "priority": 34,
+            "name": "AI 상품 데이터·추천 가시성 운영",
+            "insight_ids": ["MKT-070", "MKT-071"],
+            "owner_teams": ["market", "listing", "knowledge", "legal"],
+            "action": "상품 속성·변형·가격·재고의 누락과 충돌을 차단하고 핵심 구매질문의 AI 노출 브랜드·인용·추천 이유를 반복 기록해 정보 공백을 개선 큐로 보낸다.",
+            "kpis": ["catalog_attribute_completeness", "cross_channel_attribute_consistency", "ai_question_visibility_rate", "citation_source_coverage"],
+            "cost_mode": "free_local", "status": "blocked_until_verified_channel_support"
+        },
+        {
+            "id": "EXP-035", "phase": "prelaunch", "priority": 35,
+            "name": "CRO 단위경제 선행 게이트",
+            "insight_ids": ["MKT-072", "MKT-073"],
+            "owner_teams": ["pricing", "sourcing", "market", "knowledge"],
+            "action": "가격·원가·배송·재고·결제비·운영비가 성립하지 않는 경로는 CRO 백로그에서 분리하고 손익이 성립하는 경로만 자사 기준선·AOV·마진과 함께 테스트 승인한다.",
+            "kpis": ["unit_economics_pass_rate", "structural_loss_scenario_count", "cro_eligible_path_count", "contribution_margin_per_order"],
+            "cost_mode": "free_local", "status": "ready_for_modeling"
         }
     ]
 

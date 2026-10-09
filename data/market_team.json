@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-06T18:15:14.211371+09:00",
+    "updated_at": "2026-10-09T09:04:20.696597+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -664,8 +664,8 @@
   "marketing_playbook": {
     "설명": "영상 링크 수와 자막 타임스탬프를 검토한 실행 전략을 함께 제공한다. 전략은 data/shopify_marketing_strategy.json에서 재생성된다.",
     "영상_총량": 60,
-    "자막_검토_영상": 26,
-    "근거_인사이트": 63,
+    "자막_검토_영상": 31,
+    "근거_인사이트": 73,
     "주제": {
       "광고·크리에이티브": {
         "자료_수": 7,
@@ -1107,6 +1107,71 @@
         "insight_ids": [
           "MKT-063"
         ]
+      },
+      {
+        "id": "EXP-030",
+        "priority": 30,
+        "name": "반복 불만·가격 거부선 포지셔닝 검증",
+        "status": "ready_for_research",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-064"
+        ]
+      },
+      {
+        "id": "EXP-031",
+        "priority": 31,
+        "name": "문제 훅 다각도 유기 크리에이티브",
+        "status": "ready_after_assets",
+        "cost_mode": "free_organic",
+        "insight_ids": [
+          "MKT-065"
+        ]
+      },
+      {
+        "id": "EXP-032",
+        "priority": 32,
+        "name": "고객 상태·사용주기 이메일 QA",
+        "status": "blocked_until_store_and_consent",
+        "cost_mode": "existing_stack_only",
+        "insight_ids": [
+          "MKT-066",
+          "MKT-067"
+        ]
+      },
+      {
+        "id": "EXP-033",
+        "priority": 33,
+        "name": "기기·결제 코호트 세션가치 CRO",
+        "status": "blocked_until_store_analytics",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-068",
+          "MKT-069",
+          "MKT-073"
+        ]
+      },
+      {
+        "id": "EXP-034",
+        "priority": 34,
+        "name": "AI 상품 데이터·추천 가시성 운영",
+        "status": "blocked_until_verified_channel_support",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-070",
+          "MKT-071"
+        ]
+      },
+      {
+        "id": "EXP-035",
+        "priority": 35,
+        "name": "CRO 단위경제 선행 게이트",
+        "status": "ready_for_modeling",
+        "cost_mode": "free_local",
+        "insight_ids": [
+          "MKT-072",
+          "MKT-073"
+        ]
       }
     ],
     "적용_브리핑": [
@@ -1146,29 +1211,29 @@
     },
     "source_coverage": {
       "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
-      "videos": 26,
-      "insights": 63,
+      "videos": 31,
+      "insights": 73,
       "pillars": {
         "acquisition": 2,
-        "aov": 11,
-        "creative": 6,
-        "cro": 9,
+        "aov": 12,
+        "creative": 7,
+        "cro": 12,
         "measurement": 2,
-        "positioning": 5,
+        "positioning": 6,
         "pricing": 1,
-        "retention": 15,
-        "seo_geo": 11,
+        "retention": 17,
+        "seo_geo": 13,
         "social_proof": 1
       },
       "oldest_video_date": "2025-09-03",
-      "newest_video_date": "2026-10-05",
+      "newest_video_date": "2026-10-08",
       "source_file": "data/manual/shopify_youtube_insights.json"
     },
     "quality_gate": {
       "passed": true,
-      "video_count": 26,
-      "insight_count": 63,
-      "timestamped_evidence_count": 63,
+      "video_count": 31,
+      "insight_count": 73,
+      "timestamped_evidence_count": 73,
       "uncited_video_count": 0,
       "required_pillars_present": [
         "acquisition",
@@ -1208,7 +1273,13 @@
       "EXP-026",
       "EXP-027",
       "EXP-028",
-      "EXP-029"
+      "EXP-029",
+      "EXP-030",
+      "EXP-031",
+      "EXP-032",
+      "EXP-033",
+      "EXP-034",
+      "EXP-035"
     ],
     "strategy_file": "data/shopify_marketing_strategy.json"
   },
@@ -1928,7 +1999,7 @@
   "health": {
     "signals_live": 13,
     "signals_total": 15,
-    "signals_verified": 4,
+    "signals_verified": 0,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [

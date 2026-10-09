@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-06T18:12:11+09:00",
+  "updated_at": "2026-10-09T09:02:45+09:00",
   "method": "YouTube 검색 후 자막을 직접 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
   "policy": "영상의 매출·전환 과장 수치는 전략 근거로 사용하지 않는다. 실제 제품 사실, 법률 게이트, 자사 측정값을 우선한다.",
   "videos": [
@@ -211,6 +211,46 @@
       "published_at": "2026-10-02",
       "url": "https://www.youtube.com/watch?v=LEYWu0S7lfI",
       "role": "할인 기간·기여이익 가드레일"
+    },
+    {
+      "video_id": "KCz_4nT4kXw",
+      "title": "The New Ecommerce Roadmap: How to Go From Zero to Hero With AI on Shopify",
+      "channel": "Learn With Shopify",
+      "published_at": "2026-10-05",
+      "url": "https://www.youtube.com/watch?v=KCz_4nT4kXw",
+      "role": "공식 Shopify 수요 검증·포지셔닝·크리에이티브 테스트"
+    },
+    {
+      "video_id": "gvK0DmKFd34",
+      "title": "5 Shopify CRO Changes That Generated $1M+ in Revenue",
+      "channel": "Winning With Shopify Podcast",
+      "published_at": "2026-10-05",
+      "url": "https://www.youtube.com/watch?v=gvK0DmKFd34",
+      "role": "기기·행동·결제수단 코호트 기반 Shopify CRO"
+    },
+    {
+      "video_id": "-fU_zLT4BLU",
+      "title": "5 Shopify AI Updates Every High Ticket Retail Brand Needs to Know, July 2026",
+      "channel": "The Shop Innovator POV",
+      "published_at": "2026-10-06",
+      "url": "https://www.youtube.com/watch?v=-fU_zLT4BLU",
+      "role": "Shopify AI 상품 데이터·추천 가시성 운영"
+    },
+    {
+      "video_id": "JbPNU3vFD6o",
+      "title": "Shopify Platinum Partner on What Actually Makes a Site Make Money",
+      "channel": "Social Paradigm Group - Social Nucleus x Paradigm",
+      "published_at": "2026-10-07",
+      "url": "https://www.youtube.com/watch?v=JbPNU3vFD6o",
+      "role": "Shopify Platinum Partner 수익성·CRO 진단 원칙"
+    },
+    {
+      "video_id": "frRhYjnfV64",
+      "title": "My Shopify Email Marketing Stack for 2026 (5 Tools I’d Actually Use)",
+      "channel": "Rihab Seb - eCommerce Coach",
+      "published_at": "2026-10-08",
+      "url": "https://www.youtube.com/watch?v=frRhYjnfV64",
+      "role": "고객 상태·사용주기 기반 이메일 리텐션 설계"
     }
   ],
   "insights": [
@@ -2085,6 +2125,315 @@
       ],
       "applicability": "할인 기간·깊이 승인 전",
       "confidence": "medium"
+    },
+    {
+      "id": "MKT-064",
+      "pillar": "positioning",
+      "tactic": "반복 불만·가격 거부선으로 미충족 수요 검증",
+      "action": "재고·패키지·광고비를 쓰기 전에 경쟁 상품과 여러 브랜드의 리뷰에서 반복되는 불만을 묶고, 실제 판매가격과 가격 거부 표현을 함께 기록해 해결할 문제와 가치 제안 가설을 만든다.",
+      "evidence": {
+        "video_id": "KCz_4nT4kXw",
+        "timestamp": "00:53-01:47",
+        "summary": "여러 제품·브랜드에서 반복되는 불만과 실제 가격·가격 저항을 확인한 뒤 비용을 쓰기 전에 시장 문제를 검증하는 절차"
+      },
+      "prerequisites": [
+        "경쟁 상품 표본",
+        "검증 가능한 리뷰 원문",
+        "실제 판매가격",
+        "반복 빈도 기준"
+      ],
+      "kpis": [
+        "repeated_complaint_cluster_count",
+        "cross_brand_complaint_rate",
+        "price_resistance_evidence_count",
+        "validated_problem_hypothesis_count"
+      ],
+      "teams": [
+        "market",
+        "sourcing",
+        "pricing",
+        "listing",
+        "knowledge"
+      ],
+      "applicability": "신규 제품·포지셔닝·가격 가설 확정 전",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-065",
+      "pillar": "creative",
+      "tactic": "고객 문제 훅을 여러 증거 각도로 유기 테스트",
+      "action": "반복 고객 불만 하나를 첫 장면의 훅으로 두고 문제 시연·전후 비교·실사용 검증처럼 서로 다른 각도의 세로형 유기 초안을 만든다. 제품 사실을 넘는 AI 클레임은 금지하고 보유 자산에서 주목·클릭·반품 위험 신호를 비교한다.",
+      "evidence": {
+        "video_id": "KCz_4nT4kXw",
+        "timestamp": "10:29-11:42",
+        "summary": "고객이 이미 중요하게 여기는 문제를 즉시 훅으로 제시하고 여러 각도를 비교하되 사실이 아닌 AI 생성 클레임은 사용하지 말라는 공식 Shopify 지침"
+      },
+      "prerequisites": [
+        "반복 고객 문제",
+        "검증 제품 사실",
+        "보유 영상·이미지",
+        "금지 클레임 목록"
+      ],
+      "kpis": [
+        "organic_hook_hold_rate",
+        "creative_angle_coverage",
+        "organic_link_ctr",
+        "claim_violation_count"
+      ],
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "applicability": "유기 크리에이티브 초안, 유료 배포는 명시 승인 전 차단",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-066",
+      "pillar": "retention",
+      "tactic": "고객 상태별 라이프사이클 플로우 분리",
+      "action": "신규 구독, 장바구니 이탈, 체크아웃 이탈, 첫 구매, 장기 미구매를 서로 다른 상태로 정의하고 동일 메시지 일괄 발송 대신 상태별 진입·종료·제외 규칙을 작성한다.",
+      "evidence": {
+        "video_id": "frRhYjnfV64",
+        "timestamp": "01:03-01:58",
+        "summary": "가입·장바구니·체크아웃·구매 후·윈백 상태를 구분하고 VIP·첫 구매·비활성·상품 관심에 따라 메시지를 다르게 운영"
+      },
+      "prerequisites": [
+        "동의 기반 연락처",
+        "고객 상태 정의",
+        "플로우 진입·종료 이벤트",
+        "중복 제외 규칙"
+      ],
+      "kpis": [
+        "lifecycle_state_coverage",
+        "flow_overlap_rate",
+        "state_specific_click_rate",
+        "unsubscribe_rate"
+      ],
+      "teams": [
+        "market",
+        "legal",
+        "knowledge"
+      ],
+      "applicability": "기존 이메일 스택과 동의 데이터가 있을 때",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-067",
+      "pillar": "retention",
+      "tactic": "제품 사용주기 기반 리뷰 요청·서비스 회복",
+      "action": "리뷰 요청 시점을 배송일 고정값으로 두지 말고 고객이 실제로 제품을 판단할 수 있는 사용주기에 맞춘다. 긍정 리뷰는 추가 증거 요청 후보로, 부정 리뷰는 원인 확인과 서비스 회복 큐로 분리한다.",
+      "evidence": {
+        "video_id": "frRhYjnfV64",
+        "timestamp": "02:53-03:59",
+        "summary": "제품을 평가할 수 있는 기간에 맞춰 리뷰 요청 시점을 바꾸고 긍정·부정 리뷰를 서로 다른 후속 흐름으로 연결"
+      },
+      "prerequisites": [
+        "배송 완료 이벤트",
+        "SKU별 최소 사용기간",
+        "검증 구매 리뷰",
+        "고객지원 처리 기준"
+      ],
+      "kpis": [
+        "review_request_timing_accuracy",
+        "verified_review_capture_rate",
+        "negative_review_followup_rate",
+        "service_recovery_resolution_rate"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "legal",
+        "knowledge"
+      ],
+      "applicability": "첫 주문 이후 리뷰·고객지원 운영",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-068",
+      "pillar": "cro",
+      "tactic": "기기 격차에서 행동 증거로 내려가는 CRO 진단",
+      "action": "모바일·데스크톱 전환 격차를 발견하면 평균값만 보지 말고 해당 페이지의 히트맵·호버·이탈을 확인해 혼란 지점을 하나의 가설로 만든 뒤 선택 구조를 명확히 하는 A/B 초안을 작성한다. 평가는 전환율과 함께 세션당 매출을 본다.",
+      "evidence": {
+        "video_id": "gvK0DmKFd34",
+        "timestamp": "02:14-03:58",
+        "summary": "기기별 전환 격차에서 PDP 히트맵의 구독 선택 혼란을 찾아 선택지를 명확히 하고 A/B 테스트하며 세션당 매출로 효율을 평가"
+      },
+      "prerequisites": [
+        "기기별 퍼널 데이터",
+        "페이지 행동 데이터",
+        "단일 변경 가설",
+        "테스트 표본 기준"
+      ],
+      "kpis": [
+        "mobile_desktop_conversion_gap",
+        "choice_confusion_rate",
+        "revenue_per_session",
+        "test_decision_confidence"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "knowledge"
+      ],
+      "applicability": "스토어 분석·행동 데이터가 있는 PDP",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-069",
+      "pillar": "aov",
+      "tactic": "결제수단·구매유형별 AOV·세션가치 교차검증",
+      "action": "빠른 구매 기능을 무조건 단순화로 간주하지 말고 결제수단·구매유형별 전환, AOV, 세션당 매출을 분리한다. 결제 선택 노출 실험은 전환율이 낮아져도 AOV·세션가치·기여이익이 개선되는지 함께 판정한다.",
+      "evidence": {
+        "video_id": "gvK0DmKFd34",
+        "timestamp": "05:49-08:28",
+        "summary": "결제수단과 구매유형별 행동을 분해하고 결제 선택 노출 실험을 전환율 단독이 아니라 AOV와 방문자당 매출로 평가"
+      },
+      "prerequisites": [
+        "결제수단별 주문 데이터",
+        "구매유형 구분",
+        "AOV·세션당 매출",
+        "기여이익 데이터"
+      ],
+      "kpis": [
+        "payment_method_conversion_rate",
+        "payment_method_aov",
+        "revenue_per_session",
+        "contribution_margin_per_session"
+      ],
+      "teams": [
+        "market",
+        "pricing",
+        "listing",
+        "knowledge"
+      ],
+      "applicability": "복수 결제수단·빠른 구매 옵션이 있는 스토어",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-070",
+      "pillar": "seo_geo",
+      "tactic": "AI 유통 전 상품 데이터 완전성·일관성 감사",
+      "action": "상품명·설명·이미지·변형·가격·재고·핵심 속성을 단일 원장에서 비교하고 누락·충돌을 오류 큐로 보낸다. AI 채널 노출이나 체크아웃 기능은 채널별 지원 상태를 확인한 뒤에만 활성 후보로 둔다.",
+      "evidence": {
+        "video_id": "-fU_zLT4BLU",
+        "timestamp": "07:00-10:05",
+        "summary": "Shopify Catalog가 AI가 읽는 상품 데이터 계층이며 불완전하거나 일관되지 않은 카테고리·재고 정보가 외부 대화로 확산되기 전에 감사해야 함"
+      },
+      "prerequisites": [
+        "상품 진실원장",
+        "변형·가격·재고 데이터",
+        "채널별 지원 상태",
+        "오류 승인 큐"
+      ],
+      "kpis": [
+        "catalog_attribute_completeness",
+        "cross_channel_attribute_consistency",
+        "inventory_conflict_count",
+        "channel_eligibility_verified_rate"
+      ],
+      "teams": [
+        "listing",
+        "market",
+        "knowledge",
+        "legal"
+      ],
+      "applicability": "AI 검색·상품 피드·에이전트 채널 배포 전",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-071",
+      "pillar": "seo_geo",
+      "tactic": "핵심 구매질문 AI 추천 가시성 반복 측정",
+      "action": "이상 고객의 핵심 구매질문 목록을 고정하고 정기적으로 AI 검색 결과의 노출 브랜드·인용 출처·추천 이유를 기록한다. Shopify·GA4의 지원되는 AI 추천 트래픽과 교차해 정보 공백을 다음 콘텐츠·상품 데이터 개선 큐로 보낸다.",
+      "evidence": {
+        "video_id": "-fU_zLT4BLU",
+        "timestamp": "19:42-20:47",
+        "summary": "핵심 고객 질문을 반복 검색해 등장 브랜드·인용·추천 이유를 기록하고 지원되는 AI 추천 트래픽과 함께 정보 공백을 찾는 측정 절차"
+      },
+      "prerequisites": [
+        "핵심 구매질문 원장",
+        "동일 조건 반복 기록",
+        "지원되는 추천 트래픽 데이터",
+        "인용 출처 로그"
+      ],
+      "kpis": [
+        "ai_question_visibility_rate",
+        "brand_recommendation_share",
+        "citation_source_coverage",
+        "ai_referral_sessions"
+      ],
+      "teams": [
+        "market",
+        "listing",
+        "knowledge",
+        "legal"
+      ],
+      "applicability": "SEO·GEO 운영의 반복 측정 단계",
+      "confidence": "medium"
+    },
+    {
+      "id": "MKT-072",
+      "pillar": "cro",
+      "tactic": "CRO 전에 단위경제·운영 병목을 먼저 판별",
+      "action": "전환 개선 요청을 받으면 가격·원가·배송·재고·결제비·운영비를 먼저 점검하고 구조적 적자나 공급 문제를 랜딩페이지 변경으로 해결할 수 있다고 가정하지 않는다. CRO는 손익이 성립하는 경로에만 적용한다.",
+      "evidence": {
+        "video_id": "JbPNU3vFD6o",
+        "timestamp": "04:50-06:45",
+        "summary": "공급·운송·마진 구조 문제를 단순 랜딩페이지와 전환율 상승으로 해결하려는 접근을 경계하고 운영·재무 병목을 먼저 다룸"
+      },
+      "prerequisites": [
+        "SKU 단위 원가",
+        "배송·결제비",
+        "재고 회전",
+        "기여이익 기준"
+      ],
+      "kpis": [
+        "unit_economics_pass_rate",
+        "structural_loss_scenario_count",
+        "cro_eligible_path_count",
+        "contribution_margin_per_order"
+      ],
+      "teams": [
+        "pricing",
+        "sourcing",
+        "market",
+        "knowledge"
+      ],
+      "applicability": "CRO 백로그 승인 전",
+      "confidence": "high"
+    },
+    {
+      "id": "MKT-073",
+      "pillar": "cro",
+      "tactic": "보편 전환율 대신 자사 기준선·마진으로 판정",
+      "action": "업종 평균 전환율을 목표로 고정하지 말고 자사 이전 기간과 동일 유입·시즌 조건을 기준선으로 사용한다. 전환율 변화는 가격·할인·AOV·마진을 함께 보아 지표를 인위적으로 높인 실험을 탈락시킨다.",
+      "evidence": {
+        "video_id": "JbPNU3vFD6o",
+        "timestamp": "41:34-44:17",
+        "summary": "상품 가격·AOV·단위경제가 다른 스토어에 보편 전환율을 적용할 수 없으며 자사 기준선과 가격·할인·마진 레버를 함께 봐야 함"
+      },
+      "prerequisites": [
+        "자사 기준 기간",
+        "유입·시즌 조건",
+        "가격·할인 변경 로그",
+        "AOV·마진 데이터"
+      ],
+      "kpis": [
+        "baseline_adjusted_conversion_lift",
+        "aov_change",
+        "gross_margin_rate",
+        "contribution_margin_per_session"
+      ],
+      "teams": [
+        "market",
+        "pricing",
+        "knowledge"
+      ],
+      "applicability": "CRO 실험 결과 판정 시",
+      "confidence": "high"
     }
   ],
   "rejected_claims": [
@@ -2112,6 +2461,11 @@
     "Nathan Lee 영상의 매출 보장 표현과 워크시트·컨설팅 홍보는 제외하고 톤·감정·가치 포지셔닝 지도만 사용",
     "Ryan AI SEO Tips 영상의 INSANE 성장 표현, 특정 AI 도구·자체 앱 홍보, 순위 구간을 고정 규칙으로 쓰지 않고 Search Console 기반 수요-페이지 진단만 채택",
     "Common Thread Collective TikTok 영상의 사례 예산·영상 수·GMV 직접 상관과 유료 크리에이터 조건은 채택하지 않고 시각 브리프 구성 원칙만 사용",
-    "Common Thread Collective 할인 영상의 이익 배수·브랜드 매출 사례, 고정 행사 기간과 유료 매체 증분 주장은 일반화하지 않고 기여이익 가드레일만 채택"
+    "Common Thread Collective 할인 영상의 이익 배수·브랜드 매출 사례, 고정 행사 기간과 유료 매체 증분 주장은 일반화하지 않고 기여이익 가드레일만 채택",
+    "Learn With Shopify 영상의 특정 AI 도구 추천과 유료 광고 확대 제안은 도구·집행 근거로 쓰지 않고 반복 불만 검증·사실 기반 유기 각도 테스트만 채택",
+    "Rihab Seb 영상의 Omnisend·Judge.me·배송 앱 제휴·할인 홍보는 제외하고 고객 상태 분리와 제품 사용주기 기반 리뷰 후속 절차만 채택",
+    "Winning With Shopify 영상의 사례 매출 증가액·전환율 상승 수치와 특정 결제수단 충성도 일반화는 제외하고 기기·행동·결제 코호트 진단 절차만 채택",
+    "The Shop Innovator POV 영상의 AI 주문 성장·전환율·AOV 수치와 채널별 기능 홍보는 채택하지 않고 상품 데이터 완전성 및 추천 가시성 측정 절차만 사용",
+    "Social Paradigm Group 영상의 대행사·브랜드 규모 홍보와 보편 매출·전환 벤치마크는 제외하고 단위경제 선행 진단과 자사 기준선 판정 원칙만 채택"
   ]
 }
