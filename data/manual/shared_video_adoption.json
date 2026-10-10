@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "policy": "오너가 공유한 영상은 모두 팀 작업에 반영한다. 영상의 매출·할인·효과 수치는 근거로 쓰지 않고, 실행 항목과 반영 상태만 기록한다.",
+  "videos": [
+    {
+      "video_id": "Cv5RSFlfPSM",
+      "shared": "2026-10-10",
+      "teams": [
+        "design"
+      ],
+      "takeaway": "KPI 카드 + 클릭 시 상세 패널 + 하단 탭 구조의 운영 대시보드",
+      "status": "applied",
+      "applied_in": "index.html #daily-pipeline (오늘의 상품 등록 파이프라인, A안: 3 카테고리 카드·5단계·상세 펼침)"
+    },
+    {
+      "video_id": "WJLin_YwwwM",
+      "shared": "2026-10-10",
+      "teams": [
+        "design",
+        "listing"
+      ],
+      "takeaway": "상품 사진 1장 -> 광고 이미지 -> 디자인 시스템 -> 상세페이지. 영상 06:00: AI 이미지에서 제품이 달라지는 문제",
+      "status": "applied_with_guard",
+      "applied_in": "Gemini 웹(무료)으로 라이프스타일 이미지 1장 시험 생성. 라벨 글자가 깨져 상품 이미지로는 등록하지 않음(제품 불일치 방지).",
+      "rule": "다이소 원본 이미지가 항상 대표. AI 생성 이미지는 추가 이미지로만, 라벨 글자 원본 일치 확인 후 등록."
+    },
+    {
+      "video_id": "BzS93V2zFTg",
+      "shared": "2026-10-10",
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "knowledge"
+      ],
+      "takeaway": "브랜드 컨텍스트 파일 + 재사용 스킬 + 역할별 에이전트. 반복·절차 명확하면 스킬, 판단 필요하면 에이전트",
+      "status": "queued",
+      "next": "자비스 팀별 역할/입력/출력/금지사항을 한 파일(브랜드 컨텍스트)로 정리하고 반복 작업(상품 등록, 이미지 검수)을 스킬 절차로 문서화"
+    }
+  ]
+}
