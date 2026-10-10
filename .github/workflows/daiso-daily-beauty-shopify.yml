@@ -44,6 +44,8 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
       ONLY_CATEGORIES: ${{ github.event.inputs.only_categories || '' }}
+      # 사용자 승인(2026-10-10): 다이소 원본 이미지를 상품 이미지로 사용해도 된다.
+      ALLOW_ORIGINAL_IMAGES: '1'
     steps:
       - name: 최신 main 확인
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
