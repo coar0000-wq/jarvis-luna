@@ -1284,15 +1284,24 @@ if(mtPri.length && items.length){
   }));
 }
 
+const __before=items.length;
+if(window.__registeredPd && window.__registeredPd.size){
+  items = items.filter(function(p){
+    if(p.pd_no && window.__registeredPd.has(String(p.pd_no))) return false;
+    var fam=String(p.name||'').replace(/\[[^\]]*\]|\([^)]*\)/g,'').replace(/[\s\-_\/·.,]+/g,'').toLowerCase();
+    return !(fam && window.__registeredFam.has(fam));
+  });
+}
+const __removed=__before-items.length;
 if(!items.length){
-  summary.textContent='S등급 추천 없음';
+  summary.textContent=__removed?('S등급 후보 모두 Shopify 등록 완료 ('+__removed+'개 목록에서 제외)'):'S등급 추천 없음';
 
   list.innerHTML='<li style="color:#666;font-size:13px;">score_shopify_demand.py 실행 후 shopify_s_recommendations.json 생성 필요</li>';
   return;
 }
 
 const g=(sd && sd.grade_summary) || {};
-const sCount = (sRec && sRec.count!=null) ? sRec.count : (g.S!=null?g.S:items.length);
+const sCount = Math.max(0, ((sRec && sRec.count!=null) ? sRec.count : (g.S!=null?g.S:items.length)) - __removed);
 summary.innerHTML=
 '<span class="sd-badge s">등록후보 S '+sCount+'</span>'+
 (g.A!=null?'<span class="sd-badge a">A '+(g.A||0)+'</span>':'')+
@@ -1710,7 +1719,7 @@ set('updated-at',msg);
 }
 
 async function loadData(){
-const [rt,tr,src,daiso,sd,sRec,pm,mkt,mRev,opsPlan]=await Promise.allSettled([
+const [rt,tr,src,daiso,sd,sRec,pm,mkt,mRev,opsPlan,regJ]=await Promise.allSettled([
 getJSON('data/dashboard_runtime.json'),
 getJSON('data/knowledge/training_status.json'),
 getJSON('data/knowledge/real_sources.json'),
@@ -1720,8 +1729,14 @@ getJSON('data/daiso_real/shopify_s_recommendations.json'),
 getJSON('data/pricing_model.json'),
 getJSON('data/market_team.json'),
 getJSON('data/monthly_revenue.json'),
-getJSON('data/agents/ops_plan.json')
+getJSON('data/agents/ops_plan.json'),
+getJSON('data/shopify_daily_registry.json')
 ]);
+/* 이미 Shopify 에 등록한 상품은 S등급 목록에서 바로 뺀다 */
+window.__registeredPd=new Set(); window.__registeredFam=new Set();
+if(regJ && regJ.status==='fulfilled' && regJ.value && Array.isArray(regJ.value.items)){
+  regJ.value.items.forEach(function(i){ window.__registeredPd.add(String(i.pd_no||'')); window.__registeredFam.add(String(i.name_kr||'').replace(/\[[^\]]*\]|\([^)]*\)/g,'').replace(/[\s\-_\/·.,]+/g,'').toLowerCase()); });
+}
 window.__pricing = pm.status==='fulfilled' ? pm.value : null;
 window.__monthlyRevenue = mRev.status==='fulfilled' ? mRev.value : null;
 if(rt.status==='fulfilled'){

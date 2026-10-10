@@ -683,6 +683,9 @@ def build_us_label(pd_no, name_kr, g):
 
 # ---------------------------------------------------------------- Shopify 표준 카테고리 (택소노미)
 
+# 설명란 맨 위에 항상 넣는 문구 (사용자 지시 2026-10-10: "한국 여성들이 즐겨찾는 제품")
+TAGLINE_HTML = "<p><strong>Popular with Korean women</strong></p>"
+
 TAXONOMY = {
     "skincare": "gid://shopify/TaxonomyCategory/hb-3-2-9",  # Health & Beauty > Personal Care > Cosmetics > Skin Care
     "makeup": "gid://shopify/TaxonomyCategory/hb-3-2-6",  # ... > Makeup
@@ -958,17 +961,92 @@ def save_registry(d):
 # ---------------------------------------------------------------- Main
 
 
+# JARVIS 채점(shopify_demand_score.json)의 버킷을 Shopify 3개 카테고리로 묶는다.
+BUCKETS = {
+    "skincare": {"스킨케어", "마스크팩", "클렌징", "선케어"},
+    "makeup": {"메이크업"},
+    "body": {"바디케어"},
+}
+GRADE_ORDER = {"S": 0, "A": 1, "B": 2}
+
+
+def _find_pd(obj, pd_no):
+    if isinstance(obj, list):
+        for x in obj:
+            r = _find_pd(x, pd_no)
+            if r:
+                return r
+    elif isinstance(obj, dict):
+        if str(obj.get("pdNo")) == str(pd_no):
+            return obj
+        for v in obj.values():
+            r = _find_pd(v, pd_no)
+            if r:
+                return r
+    return None
+
+
+def daiso_lookup(pd_no):
+    """상품번호로 다이소몰 현재 정보를 읽는다 (이미지 전체·평점·재고·판매상태). 없으면 None."""
+    req = urllib.request.Request(
+        "https://www.daisomall.co.kr/ssn/search/SearchGoods?" + urllib.parse.urlencode({"searchTerm": str(pd_no)}),
+        headers={"User-Agent": UA, "Referer": "https://www.daisomall.co.kr/", "Accept": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            hit = _find_pd(json.loads(r.read().decode("utf-8", "replace")), pd_no)
+    except Exception as exc:  # noqa: BLE001
+        log(f"  daiso lookup failed {pd_no}: {exc}")
+        return None
+    if not hit:
+        return None
+    info = (daiso_post("/pd/pdr/pdDtl/selPdDtlInfo", pd_no) or {}).get("data") or {}
+    p = dict(hit)
+    p["brndNm"] = str(hit.get("brndNm") or info.get("brndNm") or "").split(">")[0].strip()
+    p["onlStckQy"] = info.get("stckQy") or hit.get("ONL_STCK_QY") or 0
+    p["pdPrc"] = str(info.get("pdPrc") or hit.get("pdPrc") or "0")
+    p["exhYn"] = info.get("exhYn") or "Y"
+    p["pdImgUrlList"] = hit.get("pdImgUrlList") or hit.get("PD_IMG_URL_LIST") or ([hit["pdImgUrl"]] if hit.get("pdImgUrl") else [])
+    return p
+
+
+def s_ranked(cat):
+    """JARVIS 점수표에서 이 카테고리 후보를 S -> A -> B, 점수 높은 순으로. C 등급은 쓰지 않는다."""
+    try:
+        d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    rows = [r for r in d.get("all_scored", []) if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") in GRADE_ORDER]
+    rows.sort(key=lambda r: (GRADE_ORDER[r["grade"]], -float(r.get("shopify_score") or 0)))
+    return rows
+
+
 def pick(cat, shop, titles, reg):
     seen_pd = {str(i.get("pd_no")) for i in reg["items"]}
     seen_fam = {i.get("family") for i in reg["items"]}
+
+    def fresh(p):
+        if str(p["pdNo"]) in seen_pd or family_key(clean_name(p["pdNm"])) in seen_fam:
+            return False  # 이미 올렸던 상품(삭제했어도) 또는 같은 상품의 색상·호수 변형
+        return not (shop is not None and shop.exists(p["pdNo"]))
+
+    # 1) JARVIS S등급 우선 (이 카테고리에 S가 없으면 A, B 순). 이미 등록한 것은 건너뛴다.
+    for row in s_ranked(cat):
+        if str(row.get("pd_no")) in seen_pd:
+            continue
+        p = daiso_lookup(row["pd_no"])
+        if p and sellable(p) and fresh(p):
+            p["_grade"], p["_source"], p["_score"] = row["grade"], "jarvis_s_list", row.get("shopify_score")
+            log(f"  source: JARVIS {row['grade']}등급 (score {row.get('shopify_score')})")
+            return p
+    # 2) S/A/B 후보가 모두 소진되면 다이소 '오늘의 뷰티 추천'
     items = [p for p in fetch_daiso(cat[1], cat[2]) if sellable(p)]
     items.sort(key=score, reverse=True)
     for p in items:
-        if str(p["pdNo"]) in seen_pd or family_key(clean_name(p["pdNm"])) in seen_fam:
-            continue  # 이미 올렸던 상품(삭제했어도) 또는 같은 상품의 색상·호수 변형
-        if shop is not None and shop.exists(p["pdNo"]):
-            continue
-        return p
+        if fresh(p):
+            p["_grade"], p["_source"], p["_score"] = "-", "daiso_today", None
+            log("  source: 다이소 오늘의 뷰티 추천 (S/A/B 후보 없음)")
+            return p
     return None
 
 
@@ -1017,7 +1095,7 @@ def main():
             if has_claims(title, html):  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
                 title, html = fallback_copy(p, cat)
             claims_left = has_claims(title, html)
-            html += label["html"]
+            html = TAGLINE_HTML + html + label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
             reasons = list(label["reasons"])
             # 용량 교차 검증: 다이소 상품명 / 고시 / 영문 제목 이 서로 맞아야 한다
@@ -1059,7 +1137,8 @@ def main():
                 "description_html": html,
                 "vendor": BRAND_EN.get((p.get("brndNm") or "").strip(), p.get("brndNm") or "Daiso"),
                 "product_type": cat[3],
-                "tags": [cat[0], "daiso-daily", f"daiso-pd-{p['pdNo']}", "k-beauty"],
+                "tags": [cat[0], "daiso-daily", f"daiso-pd-{p['pdNo']}", "k-beauty"]
+                + ([f"jarvis-grade-{p['_grade'].lower()}"] if p.get("_grade") not in (None, "-") else []),
                 "images": images,
                 "category": TAXONOMY[cat[0]],
                 "variants": variants,
@@ -1103,7 +1182,7 @@ def main():
                                      "pack_margin_pct": pr["pack"]["margin_pct"] if pr["pack"]["ok"] else None,
                                      "size": parse_size(clean_name(p["pdNm"])), "images": len(images),
                                      "price_basis": pr["basis"], "shop_com_lowest_usd": cmpd.get("lowest_usd"),
-                                     "draft_reasons": reasons})
+                                     "draft_reasons": reasons, "grade": p.get("_grade"), "source": p.get("_source")})
                 save_registry(reg)
             results.append(rec)
         except Exception as exc:  # keep going so one category failure doesn't block the others
