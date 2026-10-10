@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-JARVIS LUNA - 다이소몰 '오늘의 뷰티 추천' -> Shopify(coarfamily) 일일 자동 등록
+JARVIS LUNA - 정본 S등급 다이소 뷰티 후보 -> Shopify 일일 등록
 ==========================================================================
 
 매일 오전 10시(KST)에 GitHub Actions 가 실행한다.
 
 흐름
 ----
-1. 다이소몰 뷰티관 '오늘의 뷰티 추천' 공개 API 에서 카테고리별 후보를 읽는다.
-   스킨케어 / 메이크업 / 바디케어 각 1개.
+1. 정본 채점표에서 S등급만 읽고 스킨케어 / 메이크업 / 바디케어 각 최대 1개를 고른다.
+   해당 카테고리에 S등급이 없으면 이유와 후보 수를 남기고 건너뛴다.
 2. 판매 가능(품절 아님, 재고 > 0) 이고, 이미 Shopify 에 등록하지 않은 상품만 고른다.
-   중복 판단은 Shopify 태그 `daiso-pd-<다이소 상품번호>` 로 한다 (별도 상태 파일 없음).
+   이력 레지스트리와 Shopify 전체 카탈로그의 번호·이름·태그·SKU로 중복을 막는다.
 3. 영문 제목/설명을 만든다. GEMINI_API_KEY(무료 티어)가 있으면 사용하고,
    없거나 실패하면 정본 사실(브랜드·상품명·용량)만으로 규칙 기반 초안을 쓴다.
    효능·인증·임상 문구는 어느 경로로도 지어내지 않는다.
-4. Shopify Admin GraphQL 로 상품을 만들고(ACTIVE), 가격을 설정하고, 온라인 스토어에 게시한다.
+4. Shopify 에 초안으로 만들고 가격·변형·이미지를 다시 확인한 뒤 안전 게이트가 충족될 때만 게시한다.
    태그: skincare / makeup / body (스마트 컬렉션 자동 분류) + daiso-daily + daiso-pd-<번호>.
 
 환경변수
@@ -45,6 +45,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import base64
+import tempfile
+import gate_signature
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -84,6 +86,8 @@ GENERATED_IMAGES_READY = os.environ.get("GENERATED_IMAGES_READY", "0").strip().l
 ALLOW_ORIGINAL_IMAGES = os.environ.get("ALLOW_ORIGINAL_IMAGES", "0").strip().lower() in {"1", "true", "yes"}
 DRY_RUN = os.environ.get("DRY_RUN", "0").strip().lower() in {"1", "true", "yes"}
 ONLY = {x.strip() for x in os.environ.get("ONLY_CATEGORIES", "").split(",") if x.strip()}
+BACKFILL_BANNER = os.environ.get("BACKFILL_BANNER", "1").strip().lower() in {"1", "true", "yes"}
+QUARANTINE_BLOCKED_PUBLIC = os.environ.get("QUARANTINE_BLOCKED_PUBLIC", "0").strip().lower() in {"1", "true", "yes"}
 
 
 def log(*a):
@@ -193,9 +197,63 @@ class Shopify:
         )
         return bool(d["products"]["nodes"])
 
-    def existing_titles(self):
-        d = self.gql("{products(first:250){nodes{title}}}")
-        return {n["title"].lower() for n in d["products"]["nodes"]}
+    def existing_products(self):
+        """Read every page, including drafts; an incomplete catalogue must not authorize a create."""
+        products, cursor = [], None
+        while True:
+            d = self.gql("""query($after:String){products(first:50,after:$after){
+              nodes{id title descriptionHtml tags variants(first:10){nodes{sku} pageInfo{hasNextPage endCursor}}}
+              pageInfo{hasNextPage endCursor}}}""", {"after": cursor})["products"]
+            for n in d["nodes"]:
+                variants = n["variants"]
+                vcursor = None
+                while variants["pageInfo"]["hasNextPage"]:
+                    next_variant_cursor = variants["pageInfo"].get("endCursor")
+                    if not next_variant_cursor or next_variant_cursor == vcursor:
+                        raise RuntimeError("Shopify variant pagination incomplete")
+                    vcursor = next_variant_cursor
+                    more = self.gql("""query($id:ID!,$after:String){product(id:$id){
+                      variants(first:100,after:$after){nodes{sku} pageInfo{hasNextPage endCursor}}}}""",
+                      {"id": n["id"], "after": vcursor})["product"]
+                    if not more:
+                        raise RuntimeError("Shopify variant pagination product missing")
+                    page = more["variants"]
+                    n["variants"]["nodes"].extend(page["nodes"])
+                    variants = page
+            products.extend(d["nodes"])
+            if not d["pageInfo"]["hasNextPage"]:
+                return products
+            next_cursor = d["pageInfo"]["endCursor"]
+            if not next_cursor or next_cursor == cursor:
+                raise RuntimeError("Shopify catalogue pagination incomplete")
+            cursor = next_cursor
+
+    def read_product(self, product_id, publication_id=None):
+        return self.gql("""query($id:ID!,$pub:ID!){product(id:$id){
+          id handle title tags descriptionHtml status publishedOnPublication(publicationId:$pub)
+          variants(first:100){nodes{title price compareAtPrice sku} pageInfo{hasNextPage}}
+          media(first:100){nodes{mediaContentType status}}}}""",
+          {"id": product_id, "pub": publication_id or "gid://shopify/Publication/0"})["product"]
+
+    def update_description(self, product_id, description_html):
+        d = self.gql("""mutation($p:ProductUpdateInput!){productUpdate(product:$p){
+          product{id} userErrors{field message}}}""",
+          {"p": {"id": product_id, "descriptionHtml": description_html}})["productUpdate"]
+        if d["userErrors"] or not d.get("product") or d["product"]["id"] != product_id:
+            raise RuntimeError(f"description update: {d.get('userErrors')}")
+
+    def set_status(self, product_id, status):
+        d = self.gql("""mutation($p:ProductUpdateInput!){productUpdate(product:$p){
+          product{id} userErrors{field message}}}""", {"p": {"id": product_id, "status": status}})["productUpdate"]
+        if d["userErrors"]:
+            raise RuntimeError(f"product status: {d['userErrors']}")
+
+    def publish(self, product_id, publication_id):
+        d = self.gql("""mutation($id:ID!,$input:[PublicationInput!]!){
+          publishablePublish(id:$id,input:$input){userErrors{field message}}}""",
+          {"id": product_id, "input": [{"publicationId": publication_id}]})["publishablePublish"]
+        if d["userErrors"]:
+            raise RuntimeError(f"publish: {d['userErrors']}")
 
     def online_store_publication(self):
         d = self.gql("{publications(first:20){nodes{id name}}}")
@@ -242,7 +300,7 @@ mutation($i:[StagedUploadInput!]!){
             raise RuntimeError(f"staged upload HTTP {e.code}: {e.read()[:200]}")
         return tgt["resourceUrl"]
 
-    def create(self, item, pub_id):
+    def create(self, item, on_created):
         d = self.gql(
             """
 mutation($product:ProductCreateInput!,$media:[CreateMediaInput!]){
@@ -259,7 +317,7 @@ mutation($product:ProductCreateInput!,$media:[CreateMediaInput!]){
                     "productType": item["product_type"],
                     "category": item["category"],
                     "tags": item["tags"],
-                    "status": item.get("status", "ACTIVE"),
+                    "status": "DRAFT",  # never expose a product before read-after-write verification
                     "productOptions": [{"name": "Pack", "values": [{"name": item["variants"][0]["name"]}]}],
                 },
                 "media": [
@@ -271,6 +329,7 @@ mutation($product:ProductCreateInput!,$media:[CreateMediaInput!]){
         if d["userErrors"]:
             raise RuntimeError(f"productCreate: {d['userErrors']}")
         prod = d["product"]
+        on_created(prod)  # persist a durable ID before any later mutation can fail
         vid = prod["variants"]["nodes"][0]["id"]
         v0 = item["variants"][0]
         u = self.gql(
@@ -305,16 +364,6 @@ mutation($pid:ID!,$v:[ProductVariantsBulkInput!]!){
             )["productVariantsBulkCreate"]
             if c["userErrors"]:
                 raise RuntimeError(f"variant create: {c['userErrors']}")
-        if pub_id and item.get("status", "ACTIVE") == "ACTIVE":
-            p = self.gql(
-                """
-mutation($id:ID!,$input:[PublicationInput!]!){
-  publishablePublish(id:$id,input:$input){userErrors{field message}}
-}""",
-                {"id": prod["id"], "input": [{"publicationId": pub_id}]},
-            )["publishablePublish"]
-            if p["userErrors"]:
-                raise RuntimeError(f"publish: {p['userErrors']}")
         return prod
 
 
@@ -684,7 +733,7 @@ def build_us_label(pd_no, name_kr, g):
 # ---------------------------------------------------------------- Shopify 표준 카테고리 (택소노미)
 
 # 설명란 맨 위에 항상 넣는 문구 (사용자 지시 2026-10-10: "한국 여성들이 즐겨찾는 제품")
-TAGLINE_HTML = "<p><strong>Popular with Korean women</strong></p>"
+TAGLINE_HTML = "<p><strong>한국여성들이 즐겨찾는 제품</strong></p>"
 
 TAXONOMY = {
     "skincare": "gid://shopify/TaxonomyCategory/hb-3-2-9",  # Health & Beauty > Personal Care > Cosmetics > Skin Care
@@ -929,7 +978,6 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price):
 # ---------------------------------------------------------------- 중복 방지 레지스트리 (삭제한 상품이 다시 올라오지 않게)
 
 REGISTRY = ROOT / "data" / "shopify_daily_registry.json"
-FORCE = os.environ.get("FORCE", "0").strip().lower() in {"1", "true", "yes"}
 
 
 def kst_today():
@@ -945,17 +993,30 @@ def family_key(name_kr):
 
 
 def load_registry():
-    try:
-        d = json.loads(REGISTRY.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        d = {}
-    d.setdefault("items", [])
+    if not REGISTRY.exists():
+        return {"items": []}
+    d = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    if not isinstance(d, dict) or not isinstance(d.get("items"), list):
+        raise ValueError("Invalid daily registry; refusing to create products")
     return d
 
 
 def save_registry(d):
+    """Atomic replace; a broken registry must stop creation, not silently reset history."""
     REGISTRY.parent.mkdir(parents=True, exist_ok=True)
-    REGISTRY.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    name = None
+    try:
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=REGISTRY.parent,
+                                         prefix=".shopify_daily_", delete=False) as f:
+            name = f.name
+            json.dump(d, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(name, REGISTRY)
+    finally:
+        if name and os.path.exists(name):
+            os.unlink(name)
 
 
 # ---------------------------------------------------------------- Main
@@ -967,7 +1028,7 @@ BUCKETS = {
     "makeup": {"메이크업"},
     "body": {"바디케어"},
 }
-GRADE_ORDER = {"S": 0, "A": 1, "B": 2}
+GRADE_ORDER = {"S": 0}
 
 
 def _find_pd(obj, pd_no):
@@ -1011,55 +1072,304 @@ def daiso_lookup(pd_no):
 
 
 def s_ranked(cat):
-    """JARVIS 점수표에서 이 카테고리 후보를 S -> A -> B, 점수 높은 순으로. C 등급은 쓰지 않는다."""
-    try:
-        d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
-    except (OSError, json.JSONDecodeError):
-        return []
-    rows = [r for r in d.get("all_scored", []) if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") in GRADE_ORDER]
-    rows.sort(key=lambda r: (GRADE_ORDER[r["grade"]], -float(r.get("shopify_score") or 0)))
+    """Canonical S-grade rows only; missing or invalid source is an error, not permission to improvise."""
+    d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
+    if not isinstance(d.get("all_scored"), list):
+        raise ValueError("Canonical grade list unavailable")
+    rows = [r for r in d["all_scored"] if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") == "S"]
+    rows.sort(key=lambda r: -float(r.get("shopify_score") or 0))
     return rows
 
 
-def pick(cat, shop, titles, reg):
-    seen_pd = {str(i.get("pd_no")) for i in reg["items"]}
-    seen_fam = {i.get("family") for i in reg["items"]}
+def title_key(s):
+    return re.sub(r"[^\w]+", "", (s or "").casefold())
 
-    def fresh(p):
-        if str(p["pdNo"]) in seen_pd or family_key(clean_name(p["pdNm"])) in seen_fam:
-            return False  # 이미 올렸던 상품(삭제했어도) 또는 같은 상품의 색상·호수 변형
-        return not (shop is not None and shop.exists(p["pdNo"]))
 
-    # 1) JARVIS S등급 우선 (이 카테고리에 S가 없으면 A, B 순). 이미 등록한 것은 건너뛴다.
-    for row in s_ranked(cat):
-        if str(row.get("pd_no")) in seen_pd:
+def title_family_key(title):
+    """Collapse explicit cosmetic shade suffixes without merging strength/volume variants."""
+    base = re.sub(r"\s*\([^)]*\)|\s*\[[^]]*\]", "", title or "")
+    base = re.sub(r"\s+(?:\d+\s*)?(?:ash\s+)?(?:light\s+|dark\s+)?"
+                  r"(?:brown|black|beige|pink|red|coral|rose|gray|grey|ivory)$", "", base, flags=re.I)
+    return title_key(base)
+
+
+def shop_keys(products):
+    names, ids = set(), set()
+    for p in products:
+        names.add(title_key(p.get("title")))
+        family = title_family_key(p.get("title"))
+        if family and family != title_key(p.get("title")):
+            names.add("family:" + family)
+        # Older imports may have neither tags nor DS SKUs but include the source item in copy.
+        source = re.search(r"Daiso Mall item\s+(\d+)", p.get("descriptionHtml") or "", re.I)
+        if source:
+            ids.add(source[1])
+        for tag in p.get("tags") or []:
+            m = re.fullmatch(r"daiso-pd-(\d+)", tag, re.I)
+            if m:
+                ids.add(m[1])
+        for v in (p.get("variants") or {}).get("nodes", []):
+            m = re.match(r"DS-(\d+)-\d+$", v.get("sku") or "", re.I)
+            if m:
+                ids.add(m[1])
+    return names, ids
+
+
+def already_registered(p, reg, names, ids, title=None):
+    pd = str(p["pdNo"])
+    fam = family_key(clean_name(p["pdNm"]))
+    seen_ids = {str(i.get("pd_no")) for i in reg["items"]}
+    seen_families = {i.get("family") or family_key(i.get("name_kr")) for i in reg["items"]}
+    seen_titles = {title_key(i.get("title")) for i in reg["items"]}
+    return (pd in seen_ids or pd in ids or fam in seen_families or
+            title_key(clean_name(p["pdNm"])) in names or
+            (bool(title) and (title_key(title) in names | seen_titles or
+                              "family:" + title_family_key(title) in names)))
+
+
+def pick(cat, shop, names, ids, reg, rows=None, excluded=None):
+    rows = s_ranked(cat) if rows is None else rows
+    for row in rows:
+        pd_no = row.get("pd_no")
+        if not pd_no or str(pd_no) in (excluded or set()) or str(pd_no) in ids or any(str(i.get("pd_no")) == str(pd_no) for i in reg["items"]):
             continue
-        p = daiso_lookup(row["pd_no"])
-        if p and sellable(p) and fresh(p):
-            p["_grade"], p["_source"], p["_score"] = row["grade"], "jarvis_s_list", row.get("shopify_score")
-            log(f"  source: JARVIS {row['grade']}등급 (score {row.get('shopify_score')})")
-            return p
-    # 2) S/A/B 후보가 모두 소진되면 다이소 '오늘의 뷰티 추천'
-    items = [p for p in fetch_daiso(cat[1], cat[2]) if sellable(p)]
-    items.sort(key=score, reverse=True)
-    for p in items:
-        if fresh(p):
-            p["_grade"], p["_source"], p["_score"] = "-", "daiso_today", None
-            log("  source: 다이소 오늘의 뷰티 추천 (S/A/B 후보 없음)")
+        p = daiso_lookup(pd_no)
+        if p and sellable(p) and not already_registered(p, reg, names, ids):
+            p["_grade"], p["_source"], p["_score"] = "S", "jarvis_s_list", row.get("shopify_score")
             return p
     return None
 
 
+def canonical_public_gate(pd_no):
+    """Published listing gate is authoritative for public sale, not for draft creation.
+
+    Check the established semantic input signature every time (including immediately
+    before publication). Missing, stale, incomplete and contradictory rows fail closed.
+    Human/legal fields are never generated or inferred here.
+    """
+    path = ROOT / "data/listing_gate.json"
+    try:
+        gate = json.loads(path.read_text(encoding="utf-8-sig"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+        return {"public_ready": False, "reasons": ["listing_gate_missing_or_unreadable"]}
+    if not isinstance(gate, dict):
+        return {"public_ready": False, "reasons": ["listing_gate_invalid"]}
+    try:
+        gate_signature.require_current(gate)
+    except RuntimeError as exc:
+        return {"public_ready": False, "reasons": ["listing_gate_stale:" + str(exc)]}
+    if not isinstance(gate.get("items"), list):
+        return {"public_ready": False, "reasons": ["listing_gate_items_missing_or_invalid"]}
+    rows = [r for r in gate["items"] if isinstance(r, dict) and str(r.get("pd_no")) == str(pd_no)]
+    if len(rows) != 1:
+        return {"public_ready": False, "reasons": ["listing_gate_product_missing_or_ambiguous"]}
+    row = rows[0]
+    reasons = []
+    legal = row.get("legal")
+    if not isinstance(legal, dict) or legal.get("hard_block") is not False:
+        reasons.append("listing_gate_legal_hard_block" if isinstance(legal, dict) and legal.get("hard_block") is True
+                       else "listing_gate_legal_hard_block_unknown")
+    if row.get("public_ready") is not True:
+        reasons.append("listing_gate_public_not_ready")
+    if row.get("ready") is not True:
+        reasons.append("listing_gate_draft_not_ready")
+    if row.get("legal_full_complete") is not True:
+        reasons.append("listing_gate_legal_full_incomplete")
+    blockers = row.get("public_blocked_by")
+    if not isinstance(blockers, list):
+        reasons.append("listing_gate_public_blockers_unknown")
+    elif blockers:
+        reasons.append("listing_gate_public_blocked_by:" + ",".join(str(x) for x in blockers))
+    return {"public_ready": not reasons, "reasons": reasons,
+            "legal_hard_block": legal.get("hard_block") if isinstance(legal, dict) else None,
+            "legal_hard_block_reason": legal.get("hard_block_reason") if isinstance(legal, dict) else None,
+            "public_blocked_by": blockers, "gate_generated_at": gate.get("generated_at")}
+
+
+def linked_pd_ids(product, registry):
+    """Only exact registered Shopify ID, Daiso ID tag, or source item marker count."""
+    ids = {str(i["pd_no"]) for i in registry["items"]
+           if i.get("shopify_id") == product.get("id") and i.get("pd_no")}
+    for tag in product.get("tags") or []:
+        match = re.fullmatch(r"daiso-pd-(\d+)", str(tag), re.I)
+        if match:
+            ids.add(match[1])
+    for match in re.finditer(r"Daiso Mall item\s+(\d+)", product.get("descriptionHtml") or "", re.I):
+        ids.add(match[1])
+    return ids
+
+
+def linked_pd_no(product, registry):
+    ids = linked_pd_ids(product, registry)
+    return next(iter(ids)) if len(ids) == 1 else None
+
+
+def record_quarantine_identity(registry, product_id, pd_no, status, reasons):
+    entry = next((i for i in registry["items"] if i.get("shopify_id") == product_id and
+                  str(i.get("pd_no")) == pd_no), None)
+    if entry is None:
+        entry = {"pd_no": pd_no, "shopify_id": product_id, "source": "exact_shopify_identity"}
+        registry["items"].append(entry)
+    entry["status"] = status
+    entry["quarantine_reasons"] = reasons
+    save_registry(registry)
+
+
+def quarantine_blocked_public(shop, products, registry, publication_id, results):
+    """Explicit opt-in: DRAFT only for an exact ID with a current explicit legal block."""
+    if not publication_id:
+        raise RuntimeError("Cannot verify publication state for quarantine")
+    for row in products:
+        # Read all candidates fresh; do not infer Daiso identity from titles/families.
+        identity_ids = linked_pd_ids(row, registry)
+        if len(identity_ids) > 1:
+            results.append({"shopify_id": row["id"], "status": "skipped_identity_ambiguous"})
+            continue
+        if not identity_ids:
+            continue
+        before = shop.read_product(row["id"], publication_id)
+        if not before or before.get("id") != row["id"]:
+            raise RuntimeError(f"Quarantine source read-back missing: {row['id']}")
+        if (before.get("variants") or {}).get("pageInfo", {}).get("hasNextPage"):
+            raise RuntimeError(f"Quarantine variants truncated: {row['id']}")
+        pd_no = linked_pd_no(before, registry)
+        if not pd_no:
+            results.append({"shopify_id": row["id"], "status": "skipped_identity_changed_or_ambiguous"})
+            continue
+        gate = canonical_public_gate(pd_no)
+        if gate.get("legal_hard_block") is not True:
+            results.append({"shopify_id": row["id"], "pd_no": pd_no,
+                            "status": "skipped_no_explicit_current_legal_block",
+                            "gate_reasons": gate["reasons"]})
+            continue
+        if before.get("status") != "ACTIVE" and before.get("publishedOnPublication") is False:
+            if before.get("status") == "DRAFT":
+                record_quarantine_identity(registry, row["id"], pd_no, "DRAFT",
+                                           ["canonical_legal_hard_block"] + gate["reasons"])
+            results.append({"shopify_id": row["id"], "pd_no": pd_no,
+                            "status": "already_not_public", "verified_status": before.get("status"),
+                            "registry_recorded": before.get("status") == "DRAFT"})
+            continue
+        record_quarantine_identity(registry, row["id"], pd_no, "quarantine_requested",
+                                   ["canonical_legal_hard_block"] + gate["reasons"])
+        try:
+            shop.set_status(row["id"], "DRAFT")
+        except Exception:
+            results.append({"shopify_id": row["id"], "pd_no": pd_no,
+                            "status": "quarantine_mutation_uncertain",
+                            "manual_reconciliation_required": True, "registry_recorded": True})
+            raise
+        try:
+            after = shop.read_product(row["id"], publication_id)
+        except Exception:
+            results.append({"shopify_id": row["id"], "pd_no": pd_no,
+                            "status": "quarantine_readback_unavailable",
+                            "manual_reconciliation_required": True, "registry_recorded": True})
+            raise
+        if (not after or (after.get("variants") or {}).get("pageInfo", {}).get("hasNextPage") or
+                after.get("status") != "DRAFT" or after.get("publishedOnPublication") is not False or
+                any(after.get(k) != before.get(k) for k in
+                    ("id", "handle", "title", "tags", "descriptionHtml", "variants"))):
+            record_quarantine_identity(registry, row["id"], pd_no, "quarantine_unverified",
+                                       ["readback_or_publication_mismatch"] + gate["reasons"])
+            results.append({"shopify_id": row["id"], "pd_no": pd_no,
+                            "status": "quarantine_readback_failed", "manual_reconciliation_required": True,
+                            "registry_recorded": True})
+            raise RuntimeError(f"Quarantine read-back/publication mismatch: {row['id']}")
+        record_quarantine_identity(registry, row["id"], pd_no, "DRAFT",
+                                   ["canonical_legal_hard_block"] + gate["reasons"])
+        results.append({"shopify_id": row["id"], "pd_no": pd_no, "title": before["title"],
+                        "status": "quarantined_draft", "verified_not_public": True,
+                        "gate_reasons": gate["reasons"], "registry_recorded": True})
+    return results
+
+
+def backfill_banner(shop, products, registry, publication_id):
+    """Backfill text only on known Daiso products; do not touch status or publication."""
+    if not publication_id:
+        raise RuntimeError("Cannot verify publication state for banner backfill")
+    registered = {str(i.get("shopify_id")) for i in registry["items"] if i.get("shopify_id")}
+    registered_pd = {str(i["shopify_id"]): str(i["pd_no"]) for i in registry["items"]
+                     if i.get("shopify_id") and i.get("pd_no")}
+    results = []
+
+    def target(product):
+        tags = product.get("tags") or []
+        return (str(product.get("id")) in registered or
+                any(str(tag).casefold() == "daiso-daily" or
+                    re.fullmatch(r"daiso-pd-\d+", str(tag), re.I) for tag in tags))
+
+    for row in products:
+        if not target(row):
+            continue
+        before = shop.read_product(row["id"], publication_id)
+        if not before or before["id"] != row["id"]:
+            raise RuntimeError(f"Banner backfill source read-back missing: {row['id']}")
+        if not target(before):
+            results.append({"shopify_id": row["id"], "status": "skipped_no_longer_target"})
+            continue
+        html = before.get("descriptionHtml") or ""
+        pd_no = registered_pd.get(str(row["id"]))
+        if not pd_no:
+            for tag in before.get("tags") or []:
+                match = re.fullmatch(r"daiso-pd-(\d+)", str(tag), re.I)
+                if match:
+                    pd_no = match[1]
+                    break
+        warning = None
+        if pd_no and (before.get("status") == "ACTIVE" or before.get("publishedOnPublication")):
+            public_gate = canonical_public_gate(pd_no)
+            if not public_gate["public_ready"]:
+                warning = public_gate["reasons"]
+        if html.startswith(TAGLINE_HTML):
+            result = {"shopify_id": row["id"], "status": "already_prefixed"}
+            if warning:
+                result["existing_public_gate_warning"] = warning
+            results.append(result)
+            continue
+        expected = TAGLINE_HTML + html
+        shop.update_description(row["id"], expected)
+        after = shop.read_product(row["id"], publication_id)
+        if not after or after.get("descriptionHtml") != expected or any(
+            after.get(k) != before.get(k) for k in
+            ("id", "title", "tags", "status", "publishedOnPublication")):
+            raise RuntimeError(f"Banner backfill read-back/state mismatch: {row['id']}")
+        result = {"shopify_id": row["id"], "status": "prefixed",
+                  "verified_status": after["status"],
+                  "published_on_online_store": bool(after["publishedOnPublication"])}
+        if warning:
+            result["existing_public_gate_warning"] = warning
+        results.append(result)
+    return results
+
+
+def verify_product(shop, product_id, item, pub_id, published=False):
+    p = shop.read_product(product_id, pub_id)
+    if not p or p["id"] != product_id or title_key(p["title"]) != title_key(item["title"]):
+        raise RuntimeError("Product read-back missing or title mismatch")
+    if p["status"] != ("ACTIVE" if published else "DRAFT") or bool(p["publishedOnPublication"]) != published:
+        raise RuntimeError("Product status/publication mismatch")
+    actual = {(v.get("sku"), round(float(v["price"]), 2)) for v in p["variants"]["nodes"]}
+    expected = {(v["sku"], round(v["price"], 2)) for v in item["variants"]}
+    if actual != expected:
+        raise RuntimeError("Variant SKU/price read-back mismatch")
+    media = p["media"]["nodes"]
+    if len(media) != len(item["images"]) or any(m["mediaContentType"] != "IMAGE" or m["status"] != "READY" for m in media):
+        raise RuntimeError("Product image read-back not ready")
+    return p
+
+
 def main():
     shop = None
-    titles = set()
+    names, ids = set(), set()
     pub = None
     have_creds = bool(os.environ.get("SHOPIFY_STORE")) and (
         os.environ.get("SHOPIFY_ADMIN_TOKEN") or os.environ.get("SHOPIFY_CLIENT_SECRET")
     )
     if have_creds:
         shop = Shopify()
-        titles = shop.existing_titles()
+        products = shop.existing_products()
+        names, ids = shop_keys(products)
         pub = shop.online_store_publication()
         log(f"Shopify OK. online store publication: {pub}")
     elif not DRY_RUN:
@@ -1068,26 +1378,81 @@ def main():
     else:
         log("DRY_RUN without Shopify credentials: duplicate check skipped.")
 
-    reg = load_registry()
+    try:
+        reg = load_registry()
+    except (OSError, ValueError, TypeError) as exc:
+        log(f"ERROR: registry unavailable: {exc}")
+        return 2
     today = kst_today()
     results, failures = [], 0
+    backfill = []
+    quarantined = []
+    if shop is not None and not DRY_RUN and QUARANTINE_BLOCKED_PUBLIC:
+        try:
+            quarantine_blocked_public(shop, products, reg, pub, quarantined)
+        except Exception as exc:
+            log(f"ERROR: quarantine failed; not creating daily products: {exc}")
+            out = {"run_at": datetime.now(timezone.utc).isoformat(), "dry_run": False,
+                   "quarantine_blocked_public": quarantined,
+                   "quarantine_error": str(exc)[:500], "banner_backfill": [], "results": [],
+                   "daily_creation_blocked": "quarantine_failed"}
+            os.makedirs("out", exist_ok=True)
+            with open("out/daiso_daily_beauty_result.json", "w", encoding="utf-8") as f:
+                json.dump(out, f, ensure_ascii=False, indent=2)
+            return 2
+    if shop is not None and not DRY_RUN and BACKFILL_BANNER:
+        try:
+            backfill = backfill_banner(shop, products, reg, pub)
+        except Exception as exc:
+            log(f"ERROR: banner backfill failed; not creating daily products: {exc}")
+            out = {"run_at": datetime.now(timezone.utc).isoformat(), "dry_run": False,
+                   "quarantine_blocked_public": quarantined,
+                   "banner_backfill": [{"status": "failed", "error": str(exc)[:500],
+                                        "partial_updates_possible": True}],
+                   "results": [], "daily_creation_blocked": "banner_backfill_failed"}
+            os.makedirs("out", exist_ok=True)
+            with open("out/daiso_daily_beauty_result.json", "w", encoding="utf-8") as f:
+                json.dump(out, f, ensure_ascii=False, indent=2)
+            return 2
+    write_blocked = False
     for cat in CATEGORIES:
         if ONLY and cat[0] not in ONLY:
             continue
+        if write_blocked:
+            results.append({"category": cat[0], "status": "skipped_prior_write_uncertain",
+                            "grade_required": "S"})
+            continue
         log(f"== {cat[1]} ({cat[0]})")
-        if not FORCE and any(i.get("date") == today and i.get("category") == cat[0] for i in reg["items"]):
+        current_p, current_entry = None, None
+        if any(i.get("date") == today and i.get("category") == cat[0] for i in reg["items"]):
             log("  already registered today for this category -> skip (하루 카테고리별 1개)")
-            results.append({"category": cat[0], "status": "skipped_already_today"})
+            results.append({"category": cat[0], "status": "skipped_already_today", "grade_required": "S",
+                            "s_candidates": len(s_ranked(cat))})
             continue
         try:
-            p = pick(cat, shop, titles, reg)
+            rows = s_ranked(cat)
+            if not rows:
+                log("  no canonical S-grade candidate in category")
+                results.append({"category": cat[0], "status": "skipped_no_s_grade",
+                                "grade_required": "S", "s_candidates": 0})
+                continue
+            excluded = set()
+            while True:
+                p = pick(cat, shop, names, ids, reg, rows, excluded)
+                if not p:
+                    log("  no available, sellable, unregistered S-grade candidate")
+                    results.append({"category": cat[0], "status": "skipped_no_eligible_s_grade",
+                                    "grade_required": "S", "s_candidates": len(rows)})
+                    break
+                copy = gemini_copy(p, cat) or fallback_copy(p, cat)
+                title, html = copy
+                if not already_registered(p, reg, names, ids, title):
+                    current_p = p
+                    break
+                excluded.add(str(p["pdNo"]))
             if not p:
-                log("  no eligible product")
-                results.append({"category": cat[0], "status": "skipped_no_candidate"})
                 continue
             krw = int(p["pdPrc"])
-            copy = gemini_copy(p, cat) or fallback_copy(p, cat)
-            title, html = copy
             base = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
             pr = final_prices(p["pdNo"], clean_name(p["pdNm"]), krw, title, base["price_usd"])
             g = collect_gosi(p["pdNo"])
@@ -1098,6 +1463,8 @@ def main():
             html = TAGLINE_HTML + html + label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
             reasons = list(label["reasons"])
+            public_gate = canonical_public_gate(p["pdNo"])
+            reasons.extend(public_gate["reasons"])
             # 용량 교차 검증: 다이소 상품명 / 고시 / 영문 제목 이 서로 맞아야 한다
             sz_name, sz_title = parse_size(clean_name(p["pdNm"])), parse_size(title)
             sz_gosi = parse_size(g.get("volume", ""))
@@ -1116,8 +1483,10 @@ def main():
             if not g["gosi_ok"]:
                 reasons.append("gosi_missing:" + ",".join(g["missing"]))
             imgs = prepare_images(p, shop)
-            if not imgs["source_urls"]:
+            if not imgs["source_urls"] or (shop is not None and not DRY_RUN and not imgs["resource_urls"]):
                 reasons.append("no_usable_product_images")
+            if shop is not None and not DRY_RUN and not pub:
+                reasons.append("online_store_publication_unavailable")
             images = imgs["resource_urls"] if (shop is not None and not DRY_RUN) else imgs["source_urls"]
             bo = pr["pack"]
             variants = [{"name": "Single (1 pc)", "price": pr["single"]["price_usd"], "sku": f"DS-{p['pdNo']}-1"}]
@@ -1149,6 +1518,7 @@ def main():
             log(f"  pick: {p['pdNo']} {clean_name(p['pdNm'])} | {krw} KRW -> ${item['price_usd']:.2f} | {title}")
             rec = {
                 "category": cat[0],
+                "grade_required": "S", "grade": p["_grade"], "s_candidates": len(rows),
                 "daiso_pdNo": p["pdNo"],
                 "daiso_name": clean_name(p["pdNm"]),
                 "daiso_url": DAISO_ITEM + p["pdNo"],
@@ -1160,6 +1530,7 @@ def main():
                 "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
                 "us_label": label["label"],
                 "draft_reasons": reasons,
+                "canonical_public_gate": public_gate,
                 "title": title,
                 "images": images,
                 "description_html": html,
@@ -1167,32 +1538,93 @@ def main():
             if DRY_RUN or shop is None:
                 rec["status"] = "dry_run"
             else:
-                prod = shop.create(item, pub)
-                rec["status"] = "created" if item["status"] == "ACTIVE" else "created_draft"
+                # Re-read the entire catalogue just before writing; the daily cap and duplicate checks are unconditional.
+                names, ids = shop_keys(shop.existing_products())
+                if already_registered(p, reg, names, ids, title) or shop.exists(p["pdNo"]):
+                    rec["status"] = "skipped_duplicate_at_create"
+                    results.append(rec)
+                    continue
+                cmpd = pr.get("shop_compare") or {}
+                entry = {"pd_no": str(p["pdNo"]), "family": family_key(clean_name(p["pdNm"])),
+                         "name_kr": clean_name(p["pdNm"]), "title": title, "category": cat[0],
+                         "date": today, "status": "create_reserved", "krw": krw,
+                         "single_usd": pr["single"]["price_usd"],
+                         "single_margin_pct": pr["single"]["margin_pct"],
+                         "pack_usd": pr["pack"]["price_usd"] if pr["pack"]["ok"] else None,
+                         "pack_margin_pct": pr["pack"]["margin_pct"] if pr["pack"]["ok"] else None,
+                         "size": parse_size(clean_name(p["pdNm"])), "images": len(images),
+                         "price_basis": pr["basis"], "shop_com_lowest_usd": cmpd.get("lowest_usd"),
+                         "draft_reasons": reasons, "grade": "S", "source": p.get("_source")}
+                reg["items"].append(entry)
+                current_entry = entry
+                save_registry(reg)  # unknown network outcome must remain a durable duplicate block
+
+                def on_created(prod):
+                    entry["shopify_id"], entry["handle"] = prod["id"], prod["handle"]
+                    entry["status"] = "created_unverified"
+                    save_registry(reg)
+
+                prod = shop.create(item, on_created)
                 rec["shopify_id"] = prod["id"]
                 rec["handle"] = prod["handle"]
                 rec["url"] = f"https://{shop.store}/products/{prod['handle']}"
-                titles.add(title.lower())
-                cmpd = pr.get("shop_compare") or {}
-                reg["items"].append({"pd_no": str(p["pdNo"]), "family": family_key(clean_name(p["pdNm"])), "name_kr": clean_name(p["pdNm"]),
-                                     "title": title, "category": cat[0], "date": today, "shopify_id": prod["id"],
-                                     "status": item["status"], "handle": prod["handle"], "krw": krw,
-                                     "single_usd": pr["single"]["price_usd"], "single_margin_pct": pr["single"]["margin_pct"],
-                                     "pack_usd": pr["pack"]["price_usd"] if pr["pack"]["ok"] else None,
-                                     "pack_margin_pct": pr["pack"]["margin_pct"] if pr["pack"]["ok"] else None,
-                                     "size": parse_size(clean_name(p["pdNm"])), "images": len(images),
-                                     "price_basis": pr["basis"], "shop_com_lowest_usd": cmpd.get("lowest_usd"),
-                                     "draft_reasons": reasons, "grade": p.get("_grade"), "source": p.get("_source")})
+                # A create is always DRAFT. Only verified media, variants, and legal gates can go live.
+                try:
+                    verified = verify_product(shop, prod["id"], item, pub)
+                    rec["verified_variants"] = len(verified["variants"]["nodes"])
+                    rec["verified_images"] = len(verified["media"]["nodes"])
+                    rec["verified_status"] = verified["status"]
+                    rec["published_on_online_store"] = bool(verified["publishedOnPublication"])
+                except RuntimeError as exc:
+                    reasons.append(f"readback_not_ready:{exc}")
+                    rec["verification_error"] = str(exc)
+                # Source files can change during image/variant writes; revalidate at
+                # the actual public-sale boundary rather than trusting an earlier snapshot.
+                public_gate = canonical_public_gate(p["pdNo"])
+                rec["canonical_public_gate"] = public_gate
+                for gate_reason in public_gate["reasons"]:
+                    if gate_reason not in reasons:
+                        reasons.append(gate_reason)
+                if not reasons:
+                    try:
+                        shop.set_status(prod["id"], "ACTIVE")
+                        shop.publish(prod["id"], pub)
+                        live = verify_product(shop, prod["id"], item, pub, published=True)
+                        rec["verified_status"] = live["status"]
+                        rec["published_on_online_store"] = bool(live["publishedOnPublication"])
+                    except Exception:
+                        # Fail closed even if publish/read-back fails after status activation.
+                        shop.set_status(prod["id"], "DRAFT")
+                        raise
+                entry["status"] = "ACTIVE" if not reasons else "DRAFT"
+                entry["draft_reasons"] = reasons
                 save_registry(reg)
+                rec["registry_recorded"] = True
+                rec["status"] = "created" if not reasons else "created_draft"
+                names.add(title_key(title))
+                ids.add(str(p["pdNo"]))
             results.append(rec)
         except Exception as exc:  # keep going so one category failure doesn't block the others
             failures += 1
             log(f"  FAILED: {exc}")
-            results.append({"category": cat[0], "status": "failed", "error": str(exc)[:500]})
+            failed = {"category": cat[0], "status": "failed", "grade_required": "S", "error": str(exc)[:500]}
+            if current_p is not None:
+                failed["daiso_pdNo"] = current_p["pdNo"]
+            if current_entry is not None:
+                failed["registry_status"] = current_entry["status"]
+                if current_entry.get("shopify_id"):
+                    failed["shopify_id"] = current_entry["shopify_id"]
+            results.append(failed)
+            # Once a reservation or mutation was attempted, its remote outcome can
+            # be unknown. Do not create any more categories in this run.
+            if current_entry is not None:
+                write_blocked = True
 
     out = {
         "run_at": datetime.now(timezone.utc).isoformat(),
         "dry_run": DRY_RUN,
+        "banner_backfill": backfill,
+        "quarantine_blocked_public": quarantined,
         "results": results,
     }
     os.makedirs("out", exist_ok=True)
