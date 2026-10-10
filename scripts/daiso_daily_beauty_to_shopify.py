@@ -44,7 +44,9 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import base64
 from datetime import datetime, timezone
+from pathlib import Path
 
 DAISO_API = "https://fapi.daisomall.co.kr/ds/recommend/beauty-health-home-v2"
 DAISO_CDN = "https://cdn.daisomall.co.kr"
@@ -76,6 +78,9 @@ FX = float(os.environ.get("FX_KRW_PER_USD", "1400"))
 MULT = float(os.environ.get("PRICE_MULTIPLIER", "3.5"))
 FIXED = float(os.environ.get("PRICE_FIXED_USD", "5.0"))
 PMIN = float(os.environ.get("PRICE_MIN_USD", "9.99"))
+# 새 상품 이미지(Gemini 생성)가 준비됐는지. API 무료 키로는 이미지 생성 쿼터가 0 이라 기본은 False.
+GENERATED_IMAGES_READY = os.environ.get("GENERATED_IMAGES_READY", "0").strip().lower() in {"1", "true", "yes"}
+ALLOW_ORIGINAL_IMAGES = os.environ.get("ALLOW_ORIGINAL_IMAGES", "0").strip().lower() in {"1", "true", "yes"}
 DRY_RUN = os.environ.get("DRY_RUN", "0").strip().lower() in {"1", "true", "yes"}
 ONLY = {x.strip() for x in os.environ.get("ONLY_CATEGORIES", "").split(",") if x.strip()}
 
@@ -317,6 +322,187 @@ def gemini_copy(p, cat):
         return None
 
 
+# ---------------------------------------------------------------- JARVIS pricing (원가 + 배송 + 관세 + 수수료)
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+TARGET_MARGIN = float(os.environ.get("TARGET_MARGIN", "0.40"))  # pricing_model.py 가 지키는 마진 40%
+DUTY_MODE = os.environ.get("DUTY_MODE", "ddu")
+
+
+def jarvis_price(pd_no, name, krw):
+    """scripts/pricing_model.py 의 analyze() 로 착지원가를 구하고 마진 40% 가 되는 가격을 잡는다.
+
+    착지원가 = 상품원가 + 우체국 소형포장물 미국행 배송비 + 관세 15% (ddu 기준)
+    수수료   = Shopify 국제 7.4%
+    판매가   = 착지원가 / (1 - 수수료율 - 목표마진), 0.99 로 올림.
+    상품별 미국 실판매가가 data/serpapi_market.json 에 있으면 그 중앙값 95% 를 상한 기준으로 함께 본다.
+    """
+    import pricing_model as pm  # noqa: PLC0415
+
+    # 이미 JARVIS 가 산출한 권장가가 있으면 그것이 우선이다 (상품별 미국 실판매가 기준).
+    try:
+        offers = json.loads((ROOT / "data/pricing_model.json").read_text(encoding="utf-8"))["offers_by_product"]["single"]
+        hit = next((o for o in offers if str(o.get("pd_no")) == str(pd_no) and not o.get("register_blocked")), None)
+    except (OSError, KeyError, json.JSONDecodeError):
+        hit = None
+    if hit:
+        return {
+            "price_usd": float(hit["price_usd"]),
+            "landed_cost_usd": hit["landed_cost_total_usd"],
+            "fee_usd": hit["fee_usd"],
+            "net_profit_usd": hit["net_profit_usd"],
+            "margin_pct": hit["margin_pct"],
+            "basis": "data/pricing_model.json 권장가 (" + str(hit.get("market_price_source")) + ")",
+        }
+
+    st = json.loads((ROOT / "data/daiso_real/collection_status.json").read_text(encoding="utf-8"))
+    rate = float((st.get("fx") or {}).get("usd_to_krw") or 0)
+    if not rate:
+        raise RuntimeError("환율이 없어 가격을 계산할 수 없다 (임의 환율 사용 금지)")
+    market = pm.market_benchmark() or {"p25": 0, "median": 0}
+    row = pm.analyze({"pd_no": pd_no, "name": name, "price_krw": krw}, rate, 1, market, DUTY_MODE)
+    landed = row["landed_cost_usd"]
+    raw = landed / (1 - pm.PAY_RATE - TARGET_MARGIN)
+    price = pm.psych_price(raw)
+    fee = price * pm.PAY_RATE
+    net = price - landed - fee
+    return {
+        "price_usd": round(price, 2),
+        "landed_cost_usd": landed,
+        "shipping_usd": row["shipping_unit_usd"],
+        "tariff_usd": row["tariff_usd"],
+        "fee_usd": round(fee, 2),
+        "net_profit_usd": round(net, 2),
+        "margin_pct": round(net / price * 100, 1),
+        "breakeven_usd": row["breakeven_usd"],
+        "weight_g": row["weight_g_est"],
+        "weight_source": row["weight_source"],
+        "fx": rate,
+        "duty_mode": DUTY_MODE,
+    }
+
+
+# ---------------------------------------------------------------- Gosi (상품정보제공고시) - 상세 이미지 판독
+
+NEED = ("ingredients", "volume", "maker", "origin")
+PLACEHOLDER = {"", "-", "상세페이지 참조", "상세 페이지 참조", "없음", "해당없음"}
+FIELD = {"1": "volume", "5": "maker", "6": "origin", "7": "ingredients", "9": "warnings", "3": "expiry"}
+VISION_PROMPT = """이 이미지는 한국 화장품의 '상품정보 제공고시' 표이거나 그 일부가 담긴 상세 이미지입니다.
+표에 적힌 내용을 그대로 옮겨 JSON 으로만 답하세요.
+{"volume":"내용물의 용량 또는 중량","ingredients":"화장품법에 따라 기재해야 하는 모든 성분 전체","maker":"화장품제조업자 및 책임판매업자","origin":"제조국","warnings":"사용할 때의 주의사항","expiry":"사용기한 또는 개봉 후 사용기간"}
+규칙: 없거나 읽을 수 없으면 "" . 요약 금지, 전성분은 쉼표까지 원문 그대로. 추측 금지, 보이는 글자만.
+- 이 이미지에 다른 품번의 표가 있을 수 있습니다. 반드시 품번이 __PD__ 인 표만 옮기고, 없으면 모든 값을 "" 로 두세요.
+JSON 외에 다른 말을 붙이지 마세요."""
+
+
+def daiso_post(path, pd_no):
+    status, body = http_json(
+        "https://fapi.daisomall.co.kr" + path,
+        {"pdNo": str(pd_no)},
+        headers={"Origin": "https://www.daisomall.co.kr", "Referer": DAISO_ITEM + str(pd_no)},
+    )
+    return body if status == 200 else {}
+
+
+def _clean(v):
+    v = re.sub(r"\s+", " ", str(v or "")).strip()
+    return "" if v in PLACEHOLDER else v
+
+
+def gosi_from_api(pd_no):
+    out = {}
+    body = daiso_post("/pd/pdr/pdDtl/selPdDtlNtfc", pd_no)
+    rows = body.get("data") if isinstance(body, dict) else []
+    for r in rows if isinstance(rows, list) else []:
+        key = FIELD.get(str(r.get("ntfcIemCd") or ""))
+        val = _clean(r.get("ntfcIemCn"))
+        if key and val:
+            out[key] = val
+    return out
+
+
+def detail_image_urls(pd_no):
+    import html as H  # noqa: PLC0415
+
+    body = daiso_post("/pd/pdr/pdDtl/selPdDtlDesc", pd_no)
+    data = body.get("data") if isinstance(body, dict) else None
+    raw = ""
+    if isinstance(data, dict):
+        desc = data.get("pdDtlDesc") if isinstance(data.get("pdDtlDesc"), dict) else data
+        raw = H.unescape(H.unescape(desc.get("pdDtlDc") or ""))
+    urls = re.findall(r'src="([^"]+)"', raw)
+    return [u if u.startswith("http") else DAISO_CDN + u for u in urls]
+
+
+def vision_read(img_url, pd_no, key, model):
+    req = urllib.request.Request(img_url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = r.read()
+        mime = r.headers.get_content_type() or "image/jpeg"
+    status, body = http_json(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
+        {
+            "contents": [{"parts": [
+                {"text": VISION_PROMPT.replace("__PD__", str(pd_no))},
+                {"inline_data": {"mime_type": mime, "data": base64.b64encode(data).decode()}},
+            ]}],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0},
+        },
+        timeout=120,
+    )
+    if status != 200:
+        raise RuntimeError(f"vision HTTP {status}")
+    text = body["candidates"][0]["content"]["parts"][0]["text"]
+    j = json.loads(text)
+    return {k: _clean(j.get(k)) for k in ("volume", "ingredients", "maker", "origin", "warnings", "expiry")}
+
+
+def collect_gosi(pd_no):
+    """고시 4항목(성분·용량·제조사·제조국)을 모은다. 못 채우면 빈 값으로 둔다. 지어내지 않는다."""
+    g = {}
+    # 0) 이미 수집된 JARVIS 정본 (data/gosi.json)
+    try:
+        items = json.loads((ROOT / "data/gosi.json").read_text(encoding="utf-8-sig")).get("items") or {}
+        if isinstance(items, dict) and isinstance(items.get(str(pd_no)), dict):
+            g.update({k: _clean(v) for k, v in items[str(pd_no)].items() if k in FIELD.values() and _clean(v)})
+            g["_source"] = "jarvis data/gosi.json"
+    except (OSError, json.JSONDecodeError):
+        pass
+    # 1) 다이소 API 텍스트
+    for k, v in gosi_from_api(pd_no).items():
+        g.setdefault(k, v)
+    # 2) 상세 이미지 판독 (표는 상세 이미지 아래쪽에 있다)
+    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if key and any(not g.get(k) for k in NEED):
+        model = os.environ.get("GEMINI_VISION_MODEL", "gemini-flash-latest")
+        imgs = detail_image_urls(pd_no)
+        log(f"  gosi: detail images {len(imgs)}")
+        for u in reversed(imgs[-6:]):
+            try:
+                got = vision_read(u, pd_no, key, model)
+            except Exception as exc:  # noqa: BLE001
+                log(f"  gosi vision skipped: {exc}")
+                break
+            for k, v in got.items():
+                if v and not g.get(k):
+                    g[k] = v
+                    g["_source"] = "gemini vision (상세 이미지 판독, 사람 확인 전)"
+            if all(g.get(k) for k in NEED):
+                break
+            time.sleep(3)
+    g["gosi_ok"] = all(g.get(k) for k in NEED)
+    g["missing"] = [k for k in NEED if not g.get(k)]
+    return g
+
+
+def gosi_html(g):
+    rows = [("Volume", g.get("volume")), ("Ingredients (INCI/Korean label)", g.get("ingredients")),
+            ("Manufacturer / Distributor", g.get("maker")), ("Country of origin", g.get("origin")),
+            ("Cautions", g.get("warnings")), ("Shelf life", g.get("expiry"))]
+    li = "".join(f"<li><strong>{k}:</strong> {v}</li>" for k, v in rows if v)
+    return f"<h4>Product information</h4><ul>{li}</ul>" if li else ""
+
 # ---------------------------------------------------------------- Main
 
 
@@ -362,7 +548,17 @@ def main():
             krw = int(p["pdPrc"])
             copy = gemini_copy(p, cat) or fallback_copy(p, cat)
             title, html = copy
+            pr = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
+            g = collect_gosi(p["pdNo"])
+            html += gosi_html(g)
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
+            reasons = []
+            if re.search(r"[가-힣]", title):
+                reasons.append("english_title_missing")
+            if not g["gosi_ok"]:
+                reasons.append("gosi_missing:" + ",".join(g["missing"]))
+            if not (GENERATED_IMAGES_READY or ALLOW_ORIGINAL_IMAGES):
+                reasons.append("new_product_images_not_generated")
             images = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])[:4]]
             item = {
                 "title": title,
@@ -371,9 +567,9 @@ def main():
                 "product_type": cat[3],
                 "tags": [cat[0], "daiso-daily", f"daiso-pd-{p['pdNo']}", "k-beauty"],
                 "images": images,
-                "price_usd": usd_price(krw),
-                # 영문 제목을 만들지 못하면(Gemini 실패) 한글 제목 상품을 공개하지 않고 초안으로 둔다.
-                "status": "DRAFT" if re.search(r"[가-힣]", title) else "ACTIVE",
+                "price_usd": pr["price_usd"],
+                # 영문 제목·고시 4항목·신규 이미지 중 하나라도 없으면 공개하지 않고 초안으로 둔다.
+                "status": "DRAFT" if reasons else "ACTIVE",
             }
             log(f"  pick: {p['pdNo']} {clean_name(p['pdNm'])} | {krw} KRW -> ${item['price_usd']:.2f} | {title}")
             rec = {
@@ -383,6 +579,9 @@ def main():
                 "daiso_url": DAISO_ITEM + p["pdNo"],
                 "krw": krw,
                 "usd": item["price_usd"],
+                "pricing": pr,
+                "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
+                "draft_reasons": reasons,
                 "title": title,
                 "images": images,
             }
@@ -390,7 +589,7 @@ def main():
                 rec["status"] = "dry_run"
             else:
                 prod = shop.create(item, pub)
-                rec["status"] = "created" if item["status"] == "ACTIVE" else "created_draft_needs_english_title"
+                rec["status"] = "created" if item["status"] == "ACTIVE" else "created_draft"
                 rec["shopify_id"] = prod["id"]
                 rec["handle"] = prod["handle"]
                 rec["url"] = f"https://{shop.store}/products/{prod['handle']}"
