@@ -55,6 +55,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: 이미지 처리 라이브러리
+        run: python -m pip install --quiet pillow
+
       - name: 다이소 추천 선택 후 Shopify 등록
         run: python scripts/daiso_daily_beauty_to_shopify.py
 
