@@ -1,0 +1,66 @@
+name: 다이소 오늘의 뷰티추천 → Shopify 일일 등록
+
+# 매일 10:00 KST (= 01:00 UTC) 에 다이소몰 '오늘의 뷰티 추천'에서
+# 스킨케어 / 메이크업 / 바디케어 1개씩 골라 Shopify(coarfamily)에 등록한다.
+#
+# 필요한 저장소 시크릿
+#   SHOPIFY_STORE           예: coarfamily.myshopify.com
+#   SHOPIFY_CLIENT_ID       Dev Dashboard 앱(jarvis-daily-beauty) 클라이언트 ID
+#   SHOPIFY_CLIENT_SECRET   위 앱의 클라이언트 암호
+#   GEMINI_API_KEY          (선택, 이미 있음) 무료 티어 영문 카피. 없으면 한글 제목 상품은 초안으로 둔다.
+#
+# 유료 모델(Claude/ChatGPT)은 쓰지 않는다. 다이소 수집은 공개 API, 카피는 Gemini 무료 티어 또는 규칙 기반.
+# 중복 방지는 Shopify 태그 daiso-pd-<상품번호> 로 한다. 저장소에 커밋하지 않는다.
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '1 이면 Shopify 에 쓰지 않고 선택 결과만 출력'
+        required: false
+        default: '0'
+      only_categories:
+        description: '테스트용 (예: skincare,body). 비우면 3개 모두'
+        required: false
+        default: ''
+
+concurrency:
+  group: daiso-daily-beauty-shopify
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+      ONLY_CATEGORIES: ${{ github.event.inputs.only_categories || '' }}
+    steps:
+      - name: 최신 main 확인
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 다이소 추천 선택 후 Shopify 등록
+        run: python scripts/daiso_daily_beauty_to_shopify.py
+
+      - name: 결과 보관
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # actions/upload-artifact@v4
+        with:
+          name: daiso-daily-beauty-result
+          path: out/daiso_daily_beauty_result.json
+          if-no-files-found: ignore
+          retention-days: 30
