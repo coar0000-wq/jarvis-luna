@@ -204,6 +204,44 @@ class Shopify:
                 return n["id"]
         return None
 
+    def upload_jpeg(self, data, filename):
+        """Shopify staged upload (PRODUCT_IMAGE). 업로드 후 productCreate 의 originalSource 로 쓸 resourceUrl 을 돌려준다."""
+        d = self.gql(
+            """
+mutation($i:[StagedUploadInput!]!){
+  stagedUploadsCreate(input:$i){stagedTargets{url resourceUrl parameters{name value}} userErrors{field message}}
+}""",
+            {"i": [{"resource": "PRODUCT_IMAGE", "filename": filename, "mimeType": "image/jpeg", "httpMethod": "POST"}]},
+        )["stagedUploadsCreate"]
+        if d["userErrors"]:
+            raise RuntimeError(f"staged upload: {d['userErrors']}")
+        tgt = d["stagedTargets"][0]
+        boundary = "----jarvis" + str(int(time.time() * 1000))
+        parts = []
+        for prm in tgt["parameters"]:
+            parts.append(
+                f'--{boundary}\r\nContent-Disposition: form-data; name="{prm["name"]}"\r\n\r\n{prm["value"]}\r\n'.encode()
+            )
+        parts.append(
+            f'--{boundary}\r\nContent-Disposition: form-data; name="file"; filename="{filename}"\r\n'
+            f"Content-Type: image/jpeg\r\n\r\n".encode()
+            + data
+            + f"\r\n--{boundary}--\r\n".encode()
+        )
+        req = urllib.request.Request(
+            tgt["url"],
+            data=b"".join(parts),
+            method="POST",
+            headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                if r.status not in (200, 201, 204):
+                    raise RuntimeError(f"staged upload HTTP {r.status}")
+        except urllib.error.HTTPError as e:
+            raise RuntimeError(f"staged upload HTTP {e.code}: {e.read()[:200]}")
+        return tgt["resourceUrl"]
+
     def create(self, item, pub_id):
         d = self.gql(
             """
@@ -219,8 +257,10 @@ mutation($product:ProductCreateInput!,$media:[CreateMediaInput!]){
                     "descriptionHtml": item["description_html"],
                     "vendor": item["vendor"],
                     "productType": item["product_type"],
+                    "category": item["category"],
                     "tags": item["tags"],
                     "status": item.get("status", "ACTIVE"),
+                    "productOptions": [{"name": "Pack", "values": [{"name": item["variants"][0]["name"]}]}],
                 },
                 "media": [
                     {"originalSource": u, "alt": item["title"], "mediaContentType": "IMAGE"}
@@ -232,15 +272,39 @@ mutation($product:ProductCreateInput!,$media:[CreateMediaInput!]){
             raise RuntimeError(f"productCreate: {d['userErrors']}")
         prod = d["product"]
         vid = prod["variants"]["nodes"][0]["id"]
+        v0 = item["variants"][0]
         u = self.gql(
             """
 mutation($pid:ID!,$v:[ProductVariantsBulkInput!]!){
   productVariantsBulkUpdate(productId:$pid,variants:$v){userErrors{field message}}
 }""",
-            {"pid": prod["id"], "v": [{"id": vid, "price": f"{item['price_usd']:.2f}"}]},
+            {
+                "pid": prod["id"],
+                "v": [{"id": vid, "price": f"{v0['price']:.2f}", "inventoryItem": {"sku": v0["sku"], "tracked": False}}],
+            },
         )["productVariantsBulkUpdate"]
         if u["userErrors"]:
             raise RuntimeError(f"variant price: {u['userErrors']}")
+        for v in item["variants"][1:]:
+            c = self.gql(
+                """
+mutation($pid:ID!,$v:[ProductVariantsBulkInput!]!){
+  productVariantsBulkCreate(productId:$pid,variants:$v){userErrors{field message}}
+}""",
+                {
+                    "pid": prod["id"],
+                    "v": [
+                        {
+                            "optionValues": [{"optionName": "Pack", "name": v["name"]}],
+                            "price": f"{v['price']:.2f}",
+                            "compareAtPrice": f"{v['compare_at']:.2f}" if v.get("compare_at") else None,
+                            "inventoryItem": {"sku": v["sku"], "tracked": False},
+                        }
+                    ],
+                },
+            )["productVariantsBulkCreate"]
+            if c["userErrors"]:
+                raise RuntimeError(f"variant create: {c['userErrors']}")
         if pub_id and item.get("status", "ACTIVE") == "ACTIVE":
             p = self.gql(
                 """
@@ -615,6 +679,144 @@ def build_us_label(pd_no, name_kr, g):
     return {"html": html, "reasons": reasons, "label": {k: v for k, v in label.items() if k != "ingredients_inci"}}
 
 
+
+# ---------------------------------------------------------------- Shopify 표준 카테고리 (택소노미)
+
+TAXONOMY = {
+    "skincare": "gid://shopify/TaxonomyCategory/hb-3-2-9",  # Health & Beauty > Personal Care > Cosmetics > Skin Care
+    "makeup": "gid://shopify/TaxonomyCategory/hb-3-2-6",  # ... > Makeup
+    "body": "gid://shopify/TaxonomyCategory/hb-3-2-1",  # ... > Bath & Body
+}
+
+# ---------------------------------------------------------------- 1개 / 1+1(2개 세트) - JARVIS 판매 구성 (pricing_model.py)
+
+BUNDLE_QTY = 2
+BUNDLE_DISCOUNT = 0.15  # pricing_model.BUNDLE_DISCOUNT 와 같은 값. 무료배송은 스토어 배송 설정에서 따로 건다.
+
+
+def bundle_offer(pd_no, name, krw, single_price):
+    """JARVIS 권장 세트가(data/pricing_model.json bundle)가 있으면 그것을, 없으면 단품가 x2 x (1-15%) 로 잡고 마진을 검증한다."""
+    import pricing_model as pm  # noqa: PLC0415
+
+    price = None
+    try:
+        offers = json.loads((ROOT / "data/pricing_model.json").read_text(encoding="utf-8"))["offers_by_product"]["bundle"]
+        hit = next((o for o in offers if str(o.get("pd_no")) == str(pd_no) and not o.get("register_blocked")), None)
+        if hit:
+            price = float(hit["price_usd"])
+    except (OSError, KeyError, json.JSONDecodeError):
+        pass
+    st = json.loads((ROOT / "data/daiso_real/collection_status.json").read_text(encoding="utf-8"))
+    rate = float((st.get("fx") or {}).get("usd_to_krw") or 0)
+    market = pm.market_benchmark() or {"p25": 0, "median": 0}
+    row = pm.analyze({"pd_no": pd_no, "name": name, "price_krw": krw}, rate, BUNDLE_QTY, market, DUTY_MODE)
+    if price is None:
+        price = pm.psych_price(single_price * BUNDLE_QTY * (1 - BUNDLE_DISCOUNT))
+    landed = row["landed_cost_usd"] * BUNDLE_QTY  # 2개를 한 상자로 보내 배송비를 나눈 착지원가
+    fee = price * pm.PAY_RATE
+    net = price - landed - fee
+    return {
+        "price_usd": round(price, 2),
+        "compare_at_usd": round(single_price * BUNDLE_QTY, 2),
+        "landed_cost_usd": round(landed, 2),
+        "net_profit_usd": round(net, 2),
+        "margin_pct": round(net / price * 100, 1),
+        "ok": net > 0 and price > row["breakeven_usd"] * BUNDLE_QTY,
+    }
+
+
+# ---------------------------------------------------------------- 이미지: 다이소 원본 선별 + 정사각 2048 변환 + 업로드
+
+IMG_PROMPT = """Look at this e-commerce product image. Return JSON only:
+{"shows_product": true/false, "has_person": true/false, "has_badge_or_promo_overlay": true/false}
+- shows_product: the actual cosmetic product or its packaging is clearly visible.
+- has_person: any human face or person (models, celebrities). A hand holding the product does not count.
+- has_badge_or_promo_overlay: ranking/award/'BEST'/'PICK'/certification marks, stickers, price or promo banners added on top of the photo."""
+
+
+def classify_image(data, mime, key, model):
+    status, body = http_json(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
+        {
+            "contents": [
+                {
+                    "parts": [
+                        {"text": IMG_PROMPT},
+                        {"inline_data": {"mime_type": mime, "data": base64.b64encode(data).decode()}},
+                    ]
+                }
+            ],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0},
+        },
+        timeout=60,
+    )
+    if status != 200:
+        raise RuntimeError(f"image classify HTTP {status}")
+    return json.loads(body["candidates"][0]["content"]["parts"][0]["text"])
+
+
+def to_square_jpeg(data, size=2048):
+    """brand_kit.json 상품 이미지 규격(2048x2048 정사각 JPEG). 원본 비율을 자르지 않고 같은 사진을 흐리게 깔아 채운다."""
+    import io  # noqa: PLC0415
+    from PIL import Image, ImageFilter  # noqa: PLC0415
+
+    im = Image.open(io.BytesIO(data)).convert("RGB")
+    w, h = im.size
+    s = size / min(w, h)
+    bg = im.resize((max(size, int(w * s) + 1), max(size, int(h * s) + 1)))
+    left, top = (bg.width - size) // 2, (bg.height - size) // 2
+    bg = bg.crop((left, top, left + size, top + size)).filter(ImageFilter.GaussianBlur(45))
+    fit = int(size * 0.96)
+    f = min(fit / w, fit / h)
+    fg = im.resize((max(1, int(w * f)), max(1, int(h * f))), Image.LANCZOS)
+    bg.paste(fg, ((size - fg.width) // 2, (size - fg.height) // 2))
+    out = io.BytesIO()
+    bg.save(out, format="JPEG", quality=92, optimize=True)
+    return out.getvalue()
+
+
+def prepare_images(p, shop):
+    """다이소 상품 이미지 중 제품만 보이는 것을 골라 정사각으로 맞춰 올린다. 인물·수상 배지·프로모 배너가 있는 사진은 쓰지 않는다."""
+    key = os.environ.get("GEMINI_API_KEY", "").strip()
+    model = os.environ.get("GEMINI_VISION_MODEL", "gemini-flash-latest")
+    urls = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])[:6]]
+    kept, skipped = [], []
+    for i, u in enumerate(urls):
+        try:
+            req = urllib.request.Request(u, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = r.read()
+                mime = r.headers.get_content_type() or "image/jpeg"
+            verdict = None
+            if key:
+                for attempt in (1, 2):
+                    try:
+                        verdict = classify_image(data, mime, key, model)
+                        break
+                    except Exception as exc:  # noqa: BLE001
+                        log(f"  image classify {i} attempt {attempt} failed: {exc}")
+                        time.sleep(4)
+            if (
+                not verdict
+                or not verdict.get("shows_product")
+                or verdict.get("has_person")
+                or verdict.get("has_badge_or_promo_overlay")
+            ):
+                skipped.append({"url": u, "verdict": verdict})
+                continue
+            kept.append((u, to_square_jpeg(data)))
+        except Exception as exc:  # noqa: BLE001
+            log(f"  image {i} skipped: {exc}")
+            skipped.append({"url": u, "error": str(exc)[:120]})
+        if len(kept) >= 4:
+            break
+    resource_urls = []
+    if shop is not None and not DRY_RUN:
+        for n, (u, jpg) in enumerate(kept, 1):
+            resource_urls.append(shop.upload_jpeg(jpg, f"daiso-{p['pdNo']}-{n}.jpg"))
+    return {"source_urls": [u for u, _ in kept], "resource_urls": resource_urls, "skipped": skipped}
+
+
 # ---------------------------------------------------------------- Main
 
 
@@ -678,9 +880,23 @@ def main():
                 reasons.append("english_title_missing")
             if not g["gosi_ok"]:
                 reasons.append("gosi_missing:" + ",".join(g["missing"]))
-            if not (GENERATED_IMAGES_READY or ALLOW_ORIGINAL_IMAGES):
-                reasons.append("new_product_images_not_generated")
-            images = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])[:4]]
+            imgs = prepare_images(p, shop)
+            if not imgs["source_urls"]:
+                reasons.append("no_usable_product_images")
+            images = imgs["resource_urls"] if (shop is not None and not DRY_RUN) else imgs["source_urls"]
+            bo = bundle_offer(p["pdNo"], clean_name(p["pdNm"]), krw, pr["price_usd"])
+            variants = [{"name": "Single (1 pc)", "price": pr["price_usd"], "sku": f"DS-{p['pdNo']}-1"}]
+            if bo["ok"]:
+                variants.append(
+                    {
+                        "name": "2-Pack (Save 15%)",
+                        "price": bo["price_usd"],
+                        "compare_at": bo["compare_at_usd"],
+                        "sku": f"DS-{p['pdNo']}-2",
+                    }
+                )
+            else:
+                reasons.append("bundle_margin_not_ok")
             item = {
                 "title": title,
                 "description_html": html,
@@ -688,6 +904,8 @@ def main():
                 "product_type": cat[3],
                 "tags": [cat[0], "daiso-daily", f"daiso-pd-{p['pdNo']}", "k-beauty"],
                 "images": images,
+                "category": TAXONOMY[cat[0]],
+                "variants": variants,
                 "price_usd": pr["price_usd"],
                 # 영문 제목·고시 4항목·신규 이미지 중 하나라도 없으면 공개하지 않고 초안으로 둔다.
                 "status": "DRAFT" if reasons else "ACTIVE",
@@ -701,6 +919,8 @@ def main():
                 "krw": krw,
                 "usd": item["price_usd"],
                 "pricing": pr,
+                "bundle": bo,
+                "images_skipped": imgs["skipped"],
                 "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
                 "us_label": label["label"],
                 "draft_reasons": reasons,
