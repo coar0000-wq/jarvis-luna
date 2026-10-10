@@ -413,22 +413,16 @@ def gemini_copy(p, cat):
         "not in the facts. Never use words like treat, cure, repair, anti-aging, wrinkle, whitening, acne, FDA, clinical, dermatologist, safe. Return JSON: {\"title\":\"...\",\"description\":\"...\"}.\n"
         f"FACTS: {json.dumps(facts, ensure_ascii=False)}"
     )
-    models = [m for m in (os.environ.get("GEMINI_MODEL"), "gemini-flash-lite-latest", "gemini-flash-latest") if m]
-    status, body = 0, {}
-    for attempt in range(4):  # 무료 키는 429/503 이 잦다. 모델을 바꿔가며 최대 4번, 간격을 늘려 재시도한다.
-        model = models[attempt % len(models)]
-        status, body = http_json(
-            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
-            {
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
-            },
-        )
-        if status == 200:
-            break
-        log(f"  gemini attempt {attempt + 1} ({model}): HTTP {status}")
-        time.sleep(15 * (attempt + 1))
+    model = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
+    status, body = http_json(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
+        {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
+        },
+    )
     if status != 200:
+        log(f"  gemini skipped: HTTP {status}")
         return None
     try:
         text = body["candidates"][0]["content"]["parts"][0]["text"]
@@ -1034,13 +1028,7 @@ BUCKETS = {
     "makeup": {"메이크업"},
     "body": {"바디케어"},
 }
-<<<<<<< Updated upstream
 GRADE_ORDER = {"S": 0}
-=======
-GRADE_ORDER = {"S": 0, "A": 1}  # B 이하는 쓰지 않는다
-# 화장품이 아닌 생활·소품류는 점수가 높아도 뷰티 스토어에 올리지 않는다
-NON_COSMETIC = re.compile(r"슬리퍼|양말|신발|전동|기기|제거기|브러[시쉬]|퍼프|파우치|케이스|가위|핀셋|거울|수건|타월|스펀지|면봉|도구|세트\s*케이스")
->>>>>>> Stashed changes
 
 
 def _find_pd(obj, pd_no):
@@ -1084,23 +1072,12 @@ def daiso_lookup(pd_no):
 
 
 def s_ranked(cat):
-<<<<<<< Updated upstream
     """Canonical S-grade rows only; missing or invalid source is an error, not permission to improvise."""
     d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
     if not isinstance(d.get("all_scored"), list):
         raise ValueError("Canonical grade list unavailable")
     rows = [r for r in d["all_scored"] if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") == "S"]
     rows.sort(key=lambda r: -float(r.get("shopify_score") or 0))
-=======
-    """JARVIS 점수표에서 이 카테고리 후보를 S -> A -> B, 점수 높은 순으로. C 등급은 쓰지 않는다."""
-    try:
-        d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
-    except (OSError, json.JSONDecodeError):
-        return []
-    rows = [r for r in d.get("all_scored", []) if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") in GRADE_ORDER
-            and not NON_COSMETIC.search(r.get("name") or "")]
-    rows.sort(key=lambda r: (GRADE_ORDER[r["grade"]], -float(r.get("shopify_score") or 0)))
->>>>>>> Stashed changes
     return rows
 
 
@@ -1156,24 +1133,9 @@ def pick(cat, shop, names, ids, reg, rows=None, excluded=None):
         pd_no = row.get("pd_no")
         if not pd_no or str(pd_no) in (excluded or set()) or str(pd_no) in ids or any(str(i.get("pd_no")) == str(pd_no) for i in reg["items"]):
             continue
-<<<<<<< Updated upstream
         p = daiso_lookup(pd_no)
         if p and sellable(p) and not already_registered(p, reg, names, ids):
             p["_grade"], p["_source"], p["_score"] = "S", "jarvis_s_list", row.get("shopify_score")
-=======
-        p = daiso_lookup(row["pd_no"])
-        if p and sellable(p) and fresh(p):
-            p["_grade"], p["_source"], p["_score"] = row["grade"], "jarvis_s_list", row.get("shopify_score")
-            log(f"  source: JARVIS {row['grade']}등급 (score {row.get('shopify_score')})")
-            return p
-    # 2) S/A 후보가 모두 소진되면 다이소 '오늘의 뷰티 추천'
-    items = [p for p in fetch_daiso(cat[1], cat[2]) if sellable(p) and not NON_COSMETIC.search(p.get("pdNm") or "")]
-    items.sort(key=score, reverse=True)
-    for p in items:
-        if fresh(p):
-            p["_grade"], p["_source"], p["_score"] = "-", "daiso_today", None
-            log("  source: 다이소 오늘의 뷰티 추천 (S/A/B 후보 없음)")
->>>>>>> Stashed changes
             return p
     return None
 
