@@ -62,7 +62,7 @@ jobs:
 
       - name: 이미지 처리 라이브러리
         run: |
-          python -m pip install --quiet pillow "opencv-python-headless==4.10.0.84" "numpy<2.3" playwright
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-shopify.txt
           python -m playwright install --with-deps chromium
 
       - name: 다이소 추천 선택 후 Shopify 등록

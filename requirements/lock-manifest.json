@@ -187,6 +187,39 @@
         "typing-extensions",
         "urllib3"
       ]
+    },
+    "shopify": {
+      "file": "requirements/requirements-shopify.txt",
+      "direct": [
+        "pyyaml",
+        "pyflakes",
+        "requests",
+        "beautifulsoup4",
+        "lxml",
+        "playwright",
+        "pillow",
+        "numpy",
+        "opencv-python-headless"
+      ],
+      "packages": [
+        "beautifulsoup4",
+        "certifi",
+        "charset-normalizer",
+        "greenlet",
+        "idna",
+        "lxml",
+        "numpy",
+        "opencv-python-headless",
+        "pillow",
+        "playwright",
+        "pyee",
+        "pyflakes",
+        "pyyaml",
+        "requests",
+        "soupsieve",
+        "typing-extensions",
+        "urllib3"
+      ]
     }
   },
   "packages": {
@@ -389,6 +422,19 @@
       "dependencies": [],
       "source": "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
       "pypi": "https://pypi.org/pypi/urllib3/2.8.0/json"
+    },
+    "opencv-python-headless": {
+      "name": "opencv-python-headless",
+      "version": "4.10.0.84",
+      "sha256": "377d08a7e48a1405b5e84afcbe4798464ce7ee17081c1c23619c8b398ff18295",
+      "wheel": "opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "size": 49858781,
+      "requires_python": ">=3.6",
+      "dependencies": [
+        "numpy"
+      ],
+      "source": "https://files.pythonhosted.org/packages/d1/09/248f86a404567303cdf120e4a301f389b68e3b18e5c0cc428de327da609c/opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "pypi": "https://pypi.org/pypi/opencv-python-headless/4.10.0.84/json"
     }
   },
   "actions": [
