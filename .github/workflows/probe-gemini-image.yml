@@ -10,4 +10,5 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
-      - run: python scripts/_probe_gemini_image.py
+      - run: python scripts/probe_gemini_image.py
+
