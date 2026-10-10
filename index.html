@@ -370,6 +370,35 @@ nav a{font-size:12px;}
 .ops-action dt{color:#8b949e;}.ops-action dd{overflow-wrap:anywhere;}
 @media(max-width:600px){.operations-section{padding:16px;}.ops-counts{grid-template-columns:1fr 1fr;}.ops-counts .ops-tile{padding:10px;}}
 
+
+/* 오늘의 상품 등록 파이프라인 (A안 시안) */
+.dp-section{background:#141414;border:1px solid #2a2a2a;border-radius:12px;padding:22px 24px;margin-bottom:28px;}
+.dp-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px;}
+.dp-head h3{font-size:17px;color:#fff;margin:0;}.dp-head .dp-when{font-size:12px;color:#8b949e;}
+.dp-sub{font-size:12.5px;color:#8b949e;margin:2px 0 16px;}
+.dp-kpis{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;}
+.dp-kpi{background:#1b1b1b;border:1px solid #2a2a2a;border-radius:10px;padding:9px 14px;min-width:120px;}
+.dp-kpi small{display:block;color:#8b949e;font-size:11px;}.dp-kpi b{font-size:20px;color:#fff;}
+.dp-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;}
+@media(max-width:900px){.dp-grid{grid-template-columns:1fr;}}
+.dp-card{background:#1a1a1a;border:1px solid #2d2d2d;border-radius:12px;padding:14px 16px;cursor:pointer;transition:border-color .15s,transform .15s;}
+.dp-card:hover{border-color:#4a6cf7;transform:translateY(-2px);}.dp-card.open{border-color:#4a6cf7;}
+.dp-cat{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#8b949e;margin-bottom:6px;}
+.dp-badge{font-size:11px;font-weight:700;border-radius:8px;padding:2px 9px;}
+.dp-ok{background:#12301f;color:#3fb950;}.dp-warn{background:#3a2e0a;color:#e3b341;}.dp-bad{background:#3d1517;color:#f85149;}.dp-none{background:#262626;color:#8b949e;}
+.dp-title{font-size:14px;font-weight:700;color:#f0f0f0;line-height:1.35;min-height:38px;}
+.dp-price{font-size:12.5px;color:#c9d1d9;margin:8px 0 12px;}
+.dp-steps{display:flex;align-items:flex-start;}
+.dp-step{flex:1;text-align:center;font-size:10.5px;color:#8b949e;position:relative;line-height:1.25;}
+.dp-step i{display:block;margin:0 auto 4px;width:24px;height:24px;border-radius:50%;line-height:24px;font-style:normal;font-size:11px;background:#2a2a2a;color:#8b949e;}
+.dp-step.done i{background:#2f5bea;color:#fff;}.dp-step.cur i{background:#2f5bea;color:#fff;box-shadow:0 0 0 4px rgba(74,108,247,.3);}
+.dp-step.bad i{background:#f85149;color:#fff;}
+.dp-step:not(:last-child):after{content:"";position:absolute;top:12px;left:calc(50% + 15px);right:calc(-50% + 15px);border-top:2px solid #333;}
+.dp-step.done:not(:last-child):after{border-top-color:#2f5bea;}
+.dp-detail{display:none;margin-top:12px;padding-top:10px;border-top:1px solid #2a2a2a;font-size:12px;color:#c9d1d9;}
+.dp-card.open .dp-detail{display:block;}
+.dp-detail div{display:flex;justify-content:space-between;gap:10px;padding:3px 0;}.dp-detail span:first-child{color:#8b949e;white-space:nowrap;}
+.dp-detail span:last-child{text-align:right;}
 </style>
 </head>
 <body>
@@ -399,6 +428,14 @@ nav a{font-size:12px;}
 </div>
 
 
+
+<!-- 오늘의 상품 등록 파이프라인 -->
+<div class="dp-section" id="daily-pipeline">
+  <div class="dp-head"><h3>오늘의 상품 등록 파이프라인</h3><span class="dp-when" id="dp-when">불러오는 중…</span></div>
+  <div class="dp-sub">매일 오전 10시(KST), 카테고리별 1개씩 · 단품 + 1+1 · 마진 30% 이상 · 카드를 누르면 상세가 열려요</div>
+  <div class="dp-kpis" id="dp-kpis"></div>
+  <div class="dp-grid" id="dp-grid"></div>
+</div>
 
 <!-- Team Cards -->
 <div class="team-section team-focus" id="teams"><span id="knowledge"></span>
@@ -1862,6 +1899,68 @@ a.classList.add('active');
     });
   }catch(err){ sum.textContent='등록 현황을 불러오지 못했습니다.'; }
 })();
-</script></body>
+</script>
+<script>
+/* 오늘의 상품 등록 파이프라인: data/shopify_daily_registry.json (공개 허용 목록 필드만 사용, DOM 은 textContent 로만 채움) */
+(async function(){
+  var grid=document.getElementById('dp-grid'), kp=document.getElementById('dp-kpis'), when=document.getElementById('dp-when');
+  if(!grid||!kp||!when) return;
+  var CATS=[['skincare','스킨케어','S등급만'],['makeup','메이크업','S 우선, 없으면 A'],['body','바디케어','S 우선, 없으면 A']];
+  var STEPS=['등급 선정','가격·마진','고시·INCI','이미지·얼굴검사','공개·채널'];
+  function el(tag,cls,txt){var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e;}
+  function kst(){ return new Date(Date.now()+9*3600*1000).toISOString().slice(0,10); }
+  var items=[];
+  try{ var d=await getJSON('data/shopify_daily_registry.json'); items=(d&&d.items)||[]; }catch(e){}
+  var today=kst();
+  function latest(cat){ var r=items.filter(function(i){return i.category===cat;}); return r.length? r[r.length-1] : null; }
+  function stepState(it){
+    var rs=(it.draft_reasons||[]).map(String);
+    var legalBad=rs.some(function(r){return /^(gosi_missing|inci|ingredients_missing|origin_unmapped|maker_missing|us_regulatory|claim_language)/.test(r);});
+    var imgBad=rs.some(function(r){return /image/.test(r);}) || !(it.images>0);
+    var live=it.status==='ACTIVE';
+    var s=['done', it.single_usd!=null?'done':'bad', legalBad?'bad':'done', imgBad?'bad':'done', live?'done':'bad'];
+    return s;
+  }
+  var live=0, draft=0, none=0;
+  CATS.forEach(function(c){
+    var it=latest(c[0]); var card=el('div','dp-card');
+    var cat=el('div','dp-cat'); cat.appendChild(el('span',null,c[1]+' · '+c[2]));
+    var badge, st;
+    if(!it){ badge=el('span','dp-badge dp-none','등록 없음'); none++; }
+    else if(it.status==='ACTIVE'){ badge=el('span','dp-badge dp-ok','공개'); live++; }
+    else { badge=el('span','dp-badge dp-warn','초안'); draft++; }
+    cat.appendChild(badge); card.appendChild(cat);
+    card.appendChild(el('div','dp-title', it? it.title : '오늘 기준 S/A 후보가 없거나 대기 중이에요'));
+    var price='';
+    if(it&&it.single_usd!=null){ price='$'+Number(it.single_usd).toFixed(2)+' (마진 '+it.single_margin_pct+'%)'; if(it.pack_usd) price+=' · 1+1 $'+Number(it.pack_usd).toFixed(2)+' ('+it.pack_margin_pct+'%)'; }
+    card.appendChild(el('div','dp-price', price|| (it?'':'다음 실행에서 다시 확인')));
+    var steps=el('div','dp-steps'); var states=it? stepState(it) : [null,null,null,null,null]; var cur=-1;
+    for(var k=0;k<5;k++){ if(states[k]==='bad'&&cur<0) cur=k; }
+    STEPS.forEach(function(name,k){
+      var s=el('div','dp-step '+(states[k]||'')); var i=el('i',null, states[k]==='done'?'✓':(states[k]==='bad'?'!':String(k+1))); s.appendChild(i); s.appendChild(document.createTextNode(name)); steps.appendChild(s);
+    });
+    card.appendChild(steps);
+    var det=el('div','dp-detail');
+    function row(a,b){var r=document.createElement('div'); r.appendChild(el('span',null,a)); r.appendChild(el('span',null,b)); det.appendChild(r);}
+    if(it){
+      row('등록일', it.date+(it.date===today?' (오늘)':''));
+      row('다이소 상품번호', String(it.pd_no||'-'));
+      var sz=it.size? (it.size.unit+it.size.base+(it.size.count>1?' x '+it.size.count:'')):'표기 없음'; row('용량', sz);
+      row('이미지', (it.images||0)+'장 (사람 얼굴 사진 제외)');
+      row('shop.com 최저가', it.shop_com_lowest_usd!=null?'$'+Number(it.shop_com_lowest_usd).toFixed(2):'비교 상품 없음');
+      row('가격 근거', it.price_basis||'-');
+      row('초안 사유', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
+    } else { row('상태','등록 이력 없음'); row('후보 기준', c[2]); }
+    card.appendChild(det);
+    card.addEventListener('click',function(){ card.classList.toggle('open'); });
+    grid.appendChild(card);
+  });
+  function kpi(a,b){var k=el('div','dp-kpi'); k.appendChild(el('small',null,a)); k.appendChild(el('b',null,b)); kp.appendChild(k);}
+  kpi('오늘 공개', live+' / 3'); kpi('초안 대기', String(draft)); kpi('등록 없음', String(none)); kpi('누적 등록', String(items.length));
+  var lastDate=items.length? items[items.length-1].date : null;
+  when.textContent = lastDate? ('최근 등록 '+lastDate+(lastDate===today?' (오늘)':'')) : '아직 등록 이력이 없어요';
+})();
+</script>
+</body>
 </html>
 

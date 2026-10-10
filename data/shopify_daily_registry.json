@@ -8,7 +8,8 @@
       "category": "skincare",
       "date": "2026-10-10",
       "shopify_id": "gid://shopify/Product/9537115193601",
-      "status": "ACTIVE"
+      "status": "deleted_by_owner",
+      "note": "사용자가 Shopify에서 삭제. 중복 방지를 위해 이력은 유지."
     },
     {
       "pd_no": "1045431",
@@ -40,7 +41,7 @@
       "category": "skincare",
       "date": "2026-10-10",
       "shopify_id": "gid://shopify/Product/9537222476033",
-      "status": "DRAFT",
+      "status": "ACTIVE",
       "handle": "vt-reedle-shot-300-facial-boosting-first-ampoule-2-ml-x-6-ea",
       "krw": 3000,
       "single_usd": 14.99,
@@ -66,7 +67,8 @@
         "listing_gate_draft_not_ready",
         "listing_gate_legal_full_incomplete",
         "listing_gate_public_blocked_by:legal,legal_full"
-      ]
+      ],
+      "note": "2026-10-10 고시·성분·이미지 4장 확인 후 수동 공개(Online Store + 전 채널)."
     }
   ]
 }
