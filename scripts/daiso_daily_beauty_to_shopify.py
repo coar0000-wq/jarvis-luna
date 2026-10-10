@@ -296,7 +296,7 @@ def gemini_copy(p, cat):
         "Translate ONLY the facts below into an English title (brand + product name + size, "
         "like 'VT PDRN Radiance Cream 50 ml') and a 2-sentence neutral description. "
         "Do NOT invent ingredients, effects, clinical claims, certifications, or numbers that are "
-        "not in the facts. Return JSON: {\"title\":\"...\",\"description\":\"...\"}.\n"
+        "not in the facts. Never use words like treat, cure, repair, anti-aging, wrinkle, whitening, acne, FDA, clinical, dermatologist, safe. Return JSON: {\"title\":\"...\",\"description\":\"...\"}.\n"
         f"FACTS: {json.dumps(facts, ensure_ascii=False)}"
     )
     model = os.environ.get("GEMINI_MODEL", "gemini-flash-lite-latest")
@@ -514,12 +514,101 @@ def _collect_gosi(pd_no):
     return g
 
 
-def gosi_html(g):
-    rows = [("Volume", g.get("volume")), ("Ingredients (INCI/Korean label)", g.get("ingredients")),
-            ("Manufacturer / Distributor", g.get("maker")), ("Country of origin", g.get("origin")),
-            ("Cautions", g.get("warnings")), ("Shelf life", g.get("expiry"))]
-    li = "".join(f"<li><strong>{k}:</strong> {v}</li>" for k, v in rows if v)
-    return f"<h4>Product information</h4><ul>{li}</ul>" if li else ""
+ORIGIN_EN = {"한국": "Korea", "대한민국": "Korea", "korea": "Korea", "republic of korea": "Korea",
+             "중국": "China", "일본": "Japan"}
+ROLE_EN = (("화장품제조업자", "Manufacturer"), ("화장품책임판매업자", "Distributor (responsible seller, Korea)"),
+           ("제조업자", "Manufacturer"), ("책임판매업자", "Distributor (responsible seller, Korea)"))
+# 미국에서 의약외품/OTC 로 볼 수 있는 제품군. 자동 공개하지 않고 사람이 검토한다.
+REGULATED_RE = re.compile(r"자외선|선크림|선스틱|선케어|선쿠션|SPF|미백|주름개선|여드름|탈모|염모|염색|치약|살균|항균|구강", re.I)
+# 영문 카피에 들어가면 안 되는 효능·의료·인증 표현 (미국에서 의약품 표방/허위광고가 될 수 있다)
+CLAIM_RE = re.compile(r"\b(cure[sd]?|treat(?:s|ed|ment)?|heal(?:s|ing)?|anti-?aging|anti-?wrinkle|wrinkles?|whiten(?:ing|s)?|"
+                      r"acne|eczema|dermatitis|FDA|clinical(?:ly)?|dermatolog\w*|medical|therapeutic|prevent\w*|"
+                      r"repair\w*|regenerat\w*|collagen (?:production|boost)|hypoallergenic|non-?toxic|safe)\b", re.I)
+
+
+def has_claims(*texts):
+    return bool(CLAIM_RE.search(" ".join(texts)))
+
+
+def _inci_resolver():
+    import sync_gosi_to_us_labels as sg  # noqa: PLC0415
+    from inci_resolver import InciResolver, load_manual_overrides  # noqa: PLC0415
+
+    doc = json.loads((ROOT / "data/inci_dictionary.json").read_text(encoding="utf-8-sig"))
+    return sg, InciResolver(doc.get("kr_to_inci") or {}, load_manual_overrides(ROOT))
+
+
+def _net_contents(raw):
+    raw = _clean(raw)
+    m = re.fullmatch(r"(\d+(?:\.\d+)?)\s*(ml|mL|ML|g|G)", raw)
+    if not m:
+        return raw  # 세트·복합 표기는 변환하지 않고 원문 그대로 둔다
+    v, unit = float(m.group(1)), m.group(2).lower()
+    conv = f"{v / 29.5735:.2f} fl oz" if unit == "ml" else f"{v / 28.3495:.2f} oz"
+    return f"{raw} ({conv})"
+
+
+def build_us_label(pd_no, name_kr, g):
+    """고시(한국어)를 미국 상품 페이지용 영문 블록으로 만든다. 법률상 위험한 부분은 기계 번역하지 않는다.
+
+    - 성분: 대한화장품협회 표준화명칭목록(data/inci_dictionary.json)으로만 INCI 변환. 하나라도 못 이으면 성분표를 쓰지 않고 초안.
+    - 사용상 주의·사용법: 기계 번역 금지(사람이 확인한 warnings_en 만 사용). 없으면 '포장 참조' 문구만.
+    - 기능성/의약외품 성격(자외선차단·미백·주름개선 등): 자동 공개하지 않고 초안.
+    - 제조국: 고정 매핑표만 사용. 매핑에 없으면 초안.
+    """
+    reasons, label = [], {}
+    try:
+        sg, resolver = _inci_resolver()
+        inci, missing, fixed, review = sg.to_inci(g.get("ingredients", ""), resolver)
+        if inci:
+            label["ingredients_inci"] = inci
+            label["inci_fixed"] = len(fixed)
+        else:
+            reasons.append(f"inci_unresolved:{len(missing)}" if g.get("ingredients") else "ingredients_missing")
+    except Exception as exc:  # noqa: BLE001
+        log(f"  inci failed: {exc}")
+        reasons.append("inci_error")
+
+    if g.get("volume"):
+        label["net_contents"] = _net_contents(g["volume"])
+    origin = ORIGIN_EN.get(_clean(g.get("origin")).lower().replace(" ", "")) or ORIGIN_EN.get(_clean(g.get("origin")).lower())
+    if origin:
+        label["origin"] = origin
+    else:
+        reasons.append("origin_unmapped")
+    mk = _clean(g.get("maker"))
+    for ko, en in ROLE_EN:
+        mk = mk.replace(ko, en)
+    if re.search(r"[가-힣]{2,}", re.sub(r"\([^)]*\)|주식회사|\(주\)|㈜", "", mk)) or mk:
+        label["maker"] = mk  # 회사명은 고유명사라 번역하지 않고 원문 그대로 둔다
+    if not g.get("maker"):
+        reasons.append("maker_missing")
+
+    # 사람이 확인한 영문 주의사항이 있을 때만 쓴다
+    try:
+        labels = json.loads((ROOT / "data/daiso_real/daiso_us_labels.json").read_text(encoding="utf-8-sig"))
+        w = _clean((labels.get(str(pd_no)) or {}).get("warnings_en"))
+        if w and not re.search(r"실제|확인|TODO|TBD|placeholder|pending", w, re.I):
+            label["warnings_en"] = w
+    except (OSError, json.JSONDecodeError):
+        pass
+
+    if REGULATED_RE.search(name_kr) or REGULATED_RE.search(g.get("functional", "") or ""):
+        reasons.append("us_regulatory_review_functional_or_drug_like")
+
+    li = []
+    if label.get("net_contents"):
+        li.append(("Net contents", label["net_contents"]))
+    if label.get("ingredients_inci"):
+        li.append(("Ingredients (INCI)", label["ingredients_inci"]))
+    if label.get("maker"):
+        li.append(("Manufacturer / Distributor (Korea)", label["maker"]))
+    if label.get("origin"):
+        li.append(("Country of origin", label["origin"]))
+    li.append(("Cautions and directions", label.get("warnings_en") or "Please refer to the product packaging."))
+    html = "<h4>Product information</h4><ul>" + "".join(f"<li><strong>{k}:</strong> {v}</li>" for k, v in li) + "</ul>"
+    return {"html": html, "reasons": reasons, "label": {k: v for k, v in label.items() if k != "ingredients_inci"}}
+
 
 # ---------------------------------------------------------------- Main
 
@@ -568,9 +657,15 @@ def main():
             title, html = copy
             pr = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
             g = collect_gosi(p["pdNo"])
-            html += gosi_html(g)
+            label = build_us_label(p["pdNo"], clean_name(p["pdNm"]), g)
+            if has_claims(title, html):  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
+                title, html = fallback_copy(p, cat)
+            claims_left = has_claims(title, html)
+            html += label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
-            reasons = []
+            reasons = list(label["reasons"])
+            if claims_left:
+                reasons.append("claim_language_review")
             if re.search(r"[가-힣]", title):
                 reasons.append("english_title_missing")
             if not g["gosi_ok"]:
@@ -599,9 +694,11 @@ def main():
                 "usd": item["price_usd"],
                 "pricing": pr,
                 "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
+                "us_label": label["label"],
                 "draft_reasons": reasons,
                 "title": title,
                 "images": images,
+                "description_html": html,
             }
             if DRY_RUN or shop is None:
                 rec["status"] = "dry_run"
