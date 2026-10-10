@@ -76,12 +76,17 @@ jobs:
       - name: 다이소 추천 선택 후 Shopify 등록
         run: python scripts/daiso_daily_beauty_to_shopify.py
 
+      - name: shop.com 카테고리 수집 (수집 채널 현황, 읽기 전용)
+        if: ${{ always() }}
+        continue-on-error: true
+        run: python scripts/collect_shop_com_categories.py
+
       - name: 등록 이력 저장 (중복 방지)
         if: ${{ always() && github.event.inputs.dry_run != '1' }}
         run: |
           git config user.name "jarvis-bot"
           git config user.email "jarvis-bot@users.noreply.github.com"
-          git add data/shopify_daily_registry.json
+          git add data/shopify_daily_registry.json data/shop_com_categories.json
           if git diff --cached --quiet; then echo "no registry change"; exit 0; fi
           git commit -m "chore(shopify): 일일 등록 이력 $(date -u +%F)"
           pushed=0
@@ -100,5 +105,6 @@ jobs:
           path: |
             out/daiso_daily_beauty_result.json
             data/shopify_daily_registry.json
+            data/shop_com_categories.json
           if-no-files-found: ignore
           retention-days: 30

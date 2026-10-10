@@ -11,6 +11,16 @@
       "policy_ref": "scripts/shortlist_observation_history.py",
       "delete_file": false,
       "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
+    },
+    {
+      "path": "data/daiso_real/collection_status.json",
+      "base_sha256": "c74af1b9653d01ab235184015805de4457b3b31def223b4d7eec3636efb671fd",
+      "ids": [
+        "1066897"
+      ],
+      "delete_file": false,
+      "policy_ref": "owner_authorized:2026-10-10:collection_status.last_candidate_success",
+      "reason": "Owner-authorized replacement of the last_candidate_success snapshot by a newer full collection; the previous candidate list is retained in git history and data/daiso_real/candidate_pool_history by SHA256."
     }
   ]
 }

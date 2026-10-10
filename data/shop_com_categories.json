@@ -1,0 +1,369 @@
+{
+  "status": "ok",
+  "reason": "",
+  "collected_at": "2026-10-10T12:50:19+00:00",
+  "source_url": "https://shop.com/categories",
+  "pages": [
+    "/categories",
+    "/categories/5/beauty"
+  ],
+  "robots_checked": true,
+  "fx_source": "open.er-api.com",
+  "categories": [
+    {
+      "name": "Beauty",
+      "url": "https://shop.com/categories/5/beauty"
+    },
+    {
+      "name": "Women",
+      "url": "https://shop.com/categories/1/women"
+    },
+    {
+      "name": "Men",
+      "url": "https://shop.com/categories/2/men"
+    },
+    {
+      "name": "Home",
+      "url": "https://shop.com/categories/6/home"
+    },
+    {
+      "name": "Fitness & nutrition",
+      "url": "https://shop.com/categories/69/fitness-nutrition"
+    },
+    {
+      "name": "Baby & toddler",
+      "url": "https://shop.com/categories/209/baby-toddler"
+    },
+    {
+      "name": "Sporting goods",
+      "url": "https://shop.com/categories/267/sporting-goods"
+    },
+    {
+      "name": "Food & drinks",
+      "url": "https://shop.com/categories/251/food-drinks"
+    },
+    {
+      "name": "Toys & games",
+      "url": "https://shop.com/categories/10/toys-games"
+    },
+    {
+      "name": "Pet supplies",
+      "url": "https://shop.com/categories/15/pet-supplies"
+    }
+  ],
+  "count": 24,
+  "items": [
+    {
+      "title": "Winning Ticket",
+      "brand": "Bubble Skincare",
+      "section": "New in beauty",
+      "price_text": "$16.00",
+      "list_price_text": "",
+      "price_usd": 16.0,
+      "discount_pct": null,
+      "rating": null,
+      "reviews": null,
+      "url": "https://shop.com/products/8956111945881/winning-ticket",
+      "page": "Explore"
+    },
+    {
+      "title": "Stuck on U",
+      "brand": "ColourPop",
+      "section": "New in beauty",
+      "price_text": "$42.00",
+      "list_price_text": "",
+      "price_usd": 42.0,
+      "discount_pct": null,
+      "rating": null,
+      "reviews": null,
+      "url": "https://shop.com/products/7664404267090/stuck-on-u",
+      "page": "Explore"
+    },
+    {
+      "title": "Money Laundering Duo Box",
+      "brand": "Color Wow",
+      "section": "New in beauty",
+      "price_text": "$54.00",
+      "list_price_text": "$60.00",
+      "price_usd": 54.0,
+      "discount_pct": 10,
+      "rating": null,
+      "reviews": null,
+      "url": "https://shop.com/products/8708180771008/money-laundering-duo-box",
+      "page": "Explore"
+    },
+    {
+      "title": "VANILLA'S TOUCH MIST",
+      "brand": "Orebella",
+      "section": "New in beauty",
+      "price_text": "$39.00",
+      "list_price_text": "",
+      "price_usd": 39.0,
+      "discount_pct": null,
+      "rating": 5.0,
+      "reviews": 1,
+      "url": "https://shop.com/products/10597519065407/vanillas-touch-mist",
+      "page": "Explore"
+    },
+    {
+      "title": "Holiday Body Wash",
+      "brand": "Primally Pure",
+      "section": "New in beauty",
+      "price_text": "₩71,900",
+      "list_price_text": "",
+      "price_usd": 53.59,
+      "discount_pct": null,
+      "rating": 4.8,
+      "reviews": 336,
+      "url": "https://shop.com/products/7995071987882/holiday-body-wash",
+      "page": "Explore"
+    },
+    {
+      "title": "Mānuka Cleanser",
+      "brand": "goop",
+      "section": "New in beauty",
+      "price_text": "$58.00",
+      "list_price_text": "",
+      "price_usd": 58.0,
+      "discount_pct": null,
+      "rating": null,
+      "reviews": null,
+      "url": "https://shop.com/products/15281093476720/manuka-cleanser",
+      "page": "Explore"
+    },
+    {
+      "title": "Sex Musk - Sensorial Body Wash",
+      "brand": "CYKLAR",
+      "section": "New in beauty",
+      "price_text": "$35.00",
+      "list_price_text": "",
+      "price_usd": 35.0,
+      "discount_pct": null,
+      "rating": 5.0,
+      "reviews": 2,
+      "url": "https://shop.com/products/16161178550575/sex-musk-sensorial-body-wash",
+      "page": "Explore"
+    },
+    {
+      "title": "Nano Emulsion Serum Duo",
+      "brand": "Hanacure",
+      "section": "New in beauty",
+      "price_text": "₩137,000",
+      "list_price_text": "₩186,000",
+      "price_usd": 102.12,
+      "discount_pct": 26,
+      "rating": null,
+      "reviews": null,
+      "url": "https://shop.com/products/9138069504177/nano-emulsion-serum-duo",
+      "page": "Explore"
+    },
+    {
+      "title": "Hair Repair Kit",
+      "brand": "OUAI",
+      "section": "New in beauty",
+      "price_text": "₩62,000",
+      "list_price_text": "₩85,000",
+      "price_usd": 46.21,
+      "discount_pct": 27,
+      "rating": null,
+      "reviews": null,
+      "url": "https://shop.com/products/8504347426886/hair-repair-kit",
+      "page": "Explore"
+    },
+    {
+      "title": "Cheirosa 91 Intense Perfume Mist",
+      "brand": "Sol de Janeiro",
+      "section": "New in beauty",
+      "price_text": "$34.00",
+      "list_price_text": "",
+      "price_usd": 34.0,
+      "discount_pct": null,
+      "rating": 2.0,
+      "reviews": 1,
+      "url": "https://shop.com/products/8214348234854/cheirosa-91-intense-perfume-mist",
+      "page": "Explore"
+    },
+    {
+      "title": "Hold-All - Medium Hold Hairspray",
+      "brand": "L'ange Hair",
+      "section": "New in beauty",
+      "price_text": "$27.50",
+      "list_price_text": "",
+      "price_usd": 27.5,
+      "discount_pct": null,
+      "rating": null,
+      "reviews": null,
+      "url": "https://shop.com/products/8144926900324/hold-all-medium-hold-hairspray",
+      "page": "Explore"
+    },
+    {
+      "title": "Gourmand Latte",
+      "brand": "Dossier Perfumes",
+      "section": "New in beauty",
+      "price_text": "$32.00",
+      "list_price_text": "",
+      "price_usd": 32.0,
+      "discount_pct": null,
+      "rating": 4.6,
+      "reviews": 5,
+      "url": "https://shop.com/products/7842767765571/gourmand-latte",
+      "page": "Explore"
+    },
+    {
+      "title": "Anti-Aging Body Balm",
+      "brand": "OSEA® Malibu",
+      "section": "Top rated",
+      "price_text": "$84.00",
+      "list_price_text": "$100.00",
+      "price_usd": 84.0,
+      "discount_pct": 16,
+      "rating": 4.7,
+      "reviews": 1702,
+      "url": "https://shop.com/products/8092623495/anti-aging-body-balm",
+      "page": "Beauty"
+    },
+    {
+      "title": "Major Moisture Smoothing Lip Balm",
+      "brand": "Patrick Ta Beauty",
+      "section": "Top rated",
+      "price_text": "₩35,000",
+      "list_price_text": "",
+      "price_usd": 26.09,
+      "discount_pct": null,
+      "rating": 4.9,
+      "reviews": 481,
+      "url": "https://shop.com/products/15251859931505/major-moisture-smoothing-lip-balm",
+      "page": "Beauty"
+    },
+    {
+      "title": "Mini Glowy Super™ Gel",
+      "brand": "Saie",
+      "section": "Top rated",
+      "price_text": "₩25,000",
+      "list_price_text": "",
+      "price_usd": 18.63,
+      "discount_pct": null,
+      "rating": 4.8,
+      "reviews": 731,
+      "url": "https://shop.com/products/6950595362992/mini-glowy-super-gel",
+      "page": "Beauty"
+    },
+    {
+      "title": "Liquid Gold",
+      "brand": "Barefaced",
+      "section": "Top rated",
+      "price_text": "$136.00",
+      "list_price_text": "",
+      "price_usd": 136.0,
+      "discount_pct": null,
+      "rating": 4.8,
+      "reviews": 3391,
+      "url": "https://shop.com/products/6782701732002/liquid-gold",
+      "page": "Beauty"
+    },
+    {
+      "title": "daily microfoliant exfoliator",
+      "brand": "Dermalogica",
+      "section": "Top rated",
+      "price_text": "$19.50",
+      "list_price_text": "",
+      "price_usd": 19.5,
+      "discount_pct": null,
+      "rating": 4.8,
+      "reviews": 2843,
+      "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
+      "page": "Beauty"
+    },
+    {
+      "title": "The Glow Getter Multi-Oil Hydrating Body Wash",
+      "brand": "Naturium",
+      "section": "Top rated",
+      "price_text": "$17.00",
+      "list_price_text": "",
+      "price_usd": 17.0,
+      "discount_pct": null,
+      "rating": 4.7,
+      "reviews": 2248,
+      "url": "https://shop.com/products/6627292643383/the-glow-getter-multi-oil-hydrating-body-wash",
+      "page": "Beauty"
+    },
+    {
+      "title": "Le Chouchou",
+      "brand": "EADEM",
+      "section": "Top rated",
+      "price_text": "$24.00",
+      "list_price_text": "",
+      "price_usd": 24.0,
+      "discount_pct": null,
+      "rating": 4.9,
+      "reviews": 6545,
+      "url": "https://shop.com/products/8532767277309/le-chouchou",
+      "page": "Beauty"
+    },
+    {
+      "title": "Pout Preserve Hydrating Peptide Lip Treatment",
+      "brand": "Ole Henriksen",
+      "section": "Top rated",
+      "price_text": "₩36,300",
+      "list_price_text": "",
+      "price_usd": 27.06,
+      "discount_pct": null,
+      "rating": 4.8,
+      "reviews": 2068,
+      "url": "https://shop.com/products/7739001766060/pout-preserve-hydrating-peptide-lip-treatment",
+      "page": "Beauty"
+    },
+    {
+      "title": "Slam Dunk",
+      "brand": "Bubble Skincare",
+      "section": "Top rated",
+      "price_text": "$16.00",
+      "list_price_text": "",
+      "price_usd": 16.0,
+      "discount_pct": null,
+      "rating": 4.6,
+      "reviews": 889,
+      "url": "https://shop.com/products/7291944927385/slam-dunk",
+      "page": "Beauty"
+    },
+    {
+      "title": "Hand + Nail Balm",
+      "brand": "Pleasing",
+      "section": "Top rated",
+      "price_text": "₩36,000",
+      "list_price_text": "",
+      "price_usd": 26.83,
+      "discount_pct": null,
+      "rating": 4.9,
+      "reviews": 138,
+      "url": "https://shop.com/products/7658344186086/hand-nail-balm",
+      "page": "Beauty"
+    },
+    {
+      "title": "ShineOn Lip Oil Jelly",
+      "brand": "Tower 28 Beauty",
+      "section": "Top rated",
+      "price_text": "$16.00",
+      "list_price_text": "",
+      "price_usd": 16.0,
+      "discount_pct": null,
+      "rating": 4.8,
+      "reviews": 1160,
+      "url": "https://shop.com/products/1535432392759/shineon-lip-oil-jelly",
+      "page": "Beauty"
+    },
+    {
+      "title": "LolaVie Wet Brush® Pro Flex Dry®",
+      "brand": "LolaVie",
+      "section": "Top rated",
+      "price_text": "$16.00",
+      "list_price_text": "",
+      "price_usd": 16.0,
+      "discount_pct": null,
+      "rating": 4.7,
+      "reviews": 795,
+      "url": "https://shop.com/products/7473664491676/lolavie-wet-brush-pro-flex-dry",
+      "page": "Beauty"
+    }
+  ]
+}

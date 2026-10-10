@@ -523,6 +523,15 @@ nav a{font-size:12px;}
     </ul>
   </div>
 
+  <!-- shop.com 카테고리 (뷰티 노출 상품) -->
+  <div class="dashboard-card" id="shopcom-card">
+    <h4><span class="dashboard-card-icon">🛍️</span>shop.com 카테고리 (뷰티)</h4>
+    <div class="ch-note-sub" id="shopcom-meta" style="font-size:11.5px;color:#8b949e;margin:-4px 0 6px;">불러오는 중…</div>
+    <ul class="mkt-list" id="shopcom-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
+
   <!-- TikTok -->
   <div class="dashboard-card">
     <h4><span class="dashboard-card-icon">🎵</span>TikTok Shop US</h4>
@@ -1959,6 +1968,32 @@ a.classList.add('active');
   kpi('오늘 공개', live+' / 3'); kpi('초안 대기', String(draft)); kpi('등록 없음', String(none)); kpi('누적 등록', String(items.length));
   var lastDate=items.length? items[items.length-1].date : null;
   when.textContent = lastDate? ('최근 등록 '+lastDate+(lastDate===today?' (오늘)':'')) : '아직 등록 이력이 없어요';
+})();
+</script>
+
+<script>
+/* shop.com 카테고리 수집 채널: data/shop_com_categories.json (읽기 전용, 텍스트로만 렌더) */
+(async function(){
+  var ul=document.getElementById('shopcom-list'), meta=document.getElementById('shopcom-meta');
+  if(!ul||!meta) return;
+  function el(tag,cls,txt){var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e;}
+  var d=null; try{ d=await getJSON('data/shop_com_categories.json'); }catch(e){}
+  ul.textContent='';
+  if(!d||!d.items||!d.items.length){
+    var li=el('li','ch-empty'); li.appendChild(el('span','ch-badge', d&&d.status==='blocked_by_robots'?'규정 준수 중단':(d&&d.status==='failed'?'수집 실패':'데이터 없음')));
+    if(d&&d.reason) li.appendChild(el('div','ch-reason',d.reason)); ul.appendChild(li);
+    meta.textContent = d&&d.collected_at ? ('마지막 시도 '+String(d.collected_at).slice(0,10)) : '아직 수집 전이에요';
+    return;
+  }
+  meta.textContent='수집 '+String(d.collected_at||'').slice(0,10)+' · 상품 '+d.items.length+'개 · 카테고리 '+((d.categories||[]).length)+'개'+(d.status!=='ok'?' · 상태 '+d.status:'');
+  var items=d.items.slice().sort(function(a,b){ return (b.reviews||0)-(a.reviews||0); }).slice(0,8);
+  items.forEach(function(it){
+    var li=document.createElement('li'); var a=document.createElement('a'); a.href=it.url||'#'; a.target='_blank'; a.rel='noopener noreferrer'; a.style.cssText='color:inherit;text-decoration:none;display:flex;justify-content:space-between;gap:10px;';
+    var left=el('span',null,(it.brand?it.brand+' · ':'')+it.title); left.style.cssText='overflow:hidden;text-overflow:ellipsis;white-space:nowrap;';
+    var price=it.price_usd!=null?('$'+Number(it.price_usd).toFixed(2)):(it.price_text||'');
+    var right=el('span',null,price+(it.rating?' · ★'+it.rating+(it.reviews?' ('+it.reviews+')':''):'')); right.style.cssText='white-space:nowrap;color:#8b949e;font-size:12px;';
+    a.appendChild(left); a.appendChild(right); li.appendChild(a); ul.appendChild(li);
+  });
 })();
 </script>
 </body>
