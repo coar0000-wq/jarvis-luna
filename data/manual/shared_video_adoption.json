@@ -1,41 +1,506 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "policy": "오너가 공유한 영상은 모두 팀 작업에 반영한다. 영상의 매출·할인·효과 수치는 근거로 쓰지 않고, 실행 항목과 반영 상태만 기록한다.",
+  "generated_from": "data/manual/youtube_links.txt + youtube_manual.json + team/shopify_youtube_insights.json + notebook_reviews",
+  "counts": {
+    "reviewed_actions_in_team_feed": 44,
+    "applied_with_guard": 1,
+    "queued": 1,
+    "applied": 1
+  },
   "videos": [
     {
-      "video_id": "Cv5RSFlfPSM",
-      "shared": "2026-10-10",
+      "video_id": "gugo50_VbjE",
+      "title": "How to Use Claude to Safely Rebrand Your Shopify Store",
+      "teams": [
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "jUxSAGCaJIU",
+      "title": "Shopify Just Changed How You Sell (Spring 2026 Editions Explained)",
+      "teams": [
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "O4Z5KklVR5I",
+      "title": "패션 비전공자가 25살에 창업해 100억 브랜드를 키워낸 '미친 실행력' | 스몰톡라운지 스퀘어129 남주미",
+      "teams": [
+        "pricing",
+        "market"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "ehmoVENJEB0",
+      "title": "천재들은 \"어떻게\" 이미지로 요약하는 걸까?",
+      "teams": [
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "IG0V7o6Z3ZE",
+      "title": "쇼피파이 드랍쉬핑은 브랜딩이 답입니다. 진짜 잘 되는 스토어 5곳 까봤습니다",
+      "teams": [
+        "listing",
+        "design",
+        "market"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "k520NhbFhIE",
+      "title": "The Psychology of Making People Buy",
+      "teams": [
+        "market",
+        "listing",
+        "design"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "uTr2yXMeL9w",
+      "title": "100 Product Command Prompts to Boost Productivity (ChatGPT & Google Flow)",
       "teams": [
         "design"
       ],
-      "takeaway": "KPI 카드 + 클릭 시 상세 패널 + 하단 탭 구조의 운영 대시보드",
-      "status": "applied",
-      "applied_in": "index.html #daily-pipeline (오늘의 상품 등록 파이프라인, A안: 3 카테고리 카드·5단계·상세 펼침)"
+      "status": "reviewed_actions_in_team_feed",
+      "reviewed": "2026-10-10",
+      "takeaway": "상품 사진 1장 + 짧은 스타일 명령(3D billboard, luxury ads)으로 광고 이미지를 만드는 절차. 비율은 16:9(웹), 1:1(SNS)로 나눠 요청.",
+      "usage": "design팀: SNS용 1:1 광고 이미지는 AI 생성 허용, 상품 페이지 이미지는 원본 우선. 생성물에 브랜드 글자가 깨지면 폐기(2026-10-10 시험에서 확인)."
+    },
+    {
+      "video_id": "QUI6Ug4cHnE",
+      "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
+      "teams": [
+        "design"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "SihnYUTfxR8",
+      "title": "구글이 무료로 뿌리는 디자인AI '스티치' 요약정리",
+      "teams": [
+        "design"
+      ],
+      "status": "reviewed_actions_in_team_feed",
+      "reviewed": "2026-10-10",
+      "takeaway": "Google Stitch(무료)로 프롬프트 -> 웹 디자인. 한국어로 만들려면 한국어로 명시, 'Improve Prompt'로 프롬프트 보강.",
+      "usage": "design팀: 랜딩/상세 시안은 무료 도구로 먼저 만들고, 언어(영문 스토어)를 프롬프트에 명시."
+    },
+    {
+      "video_id": "CVEe0HAd--I",
+      "title": "유대인들이 지금 돈 쓸어모으고 있는 사기급 스킬",
+      "teams": [
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "dNUXhId7XfE",
+      "title": "정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료",
+      "teams": [
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed",
+      "reviewed": "2026-10-10",
+      "takeaway": "AI허브 데이터는 분포가 치우침(상위 50개가 다운로드 37.7%). 다운로드 수 상위 + 승인 선행 조건 확인 후 사용.",
+      "usage": "knowledge팀: 외부 데이터셋은 다운로드 상위 + 라이선스/승인 조건을 먼저 확인하고 채택. 효과 수치는 근거로 쓰지 않음."
+    },
+    {
+      "video_id": "F4Jm1TFv0I0",
+      "title": "기업들이 사활 걸고 자기 폰트 만드는 이유｜크랩",
+      "teams": [
+        "design"
+      ],
+      "status": "reviewed_actions_in_team_feed",
+      "reviewed": "2026-10-10",
+      "takeaway": "브랜드 전용 폰트는 작은 화면에서도 정체성을 유지하는 브랜드 인프라. 로고보다 글꼴 노출 시간이 길다.",
+      "usage": "design팀: 스토어/광고/상세페이지에 같은 글꼴 2종 이하를 일관 사용(브랜드 일관성 규칙). 라이선스 확인된 글꼴만."
+    },
+    {
+      "video_id": "dPPd65Kvh7Y",
+      "title": "Claude Copies $2m Shopify Store & Replaces Everything With My Brand (Full Course)",
+      "teams": [
+        "listing",
+        "design",
+        "sourcing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "9RUcYdww138",
+      "title": "요즘 클로드 디자인에 미쳐있는 이유 #티안나는AI디자인 #designsystems #ClaudeDesign",
+      "teams": [
+        "design"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "u36eK74YKv0",
+      "title": "How to use AI to beat big brands on Shopify ($0 to $1M)",
+      "teams": [
+        "sourcing",
+        "market",
+        "pricing",
+        "listing",
+        "design"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "yBAlSKfI9F8",
+      "title": "Digital Marketing 101: 10 Strategies Every Shopify Store Needs (Marketing Masterclass Part 1)",
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "2Azr4Cihay4",
+      "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
+      "teams": [
+        "market",
+        "listing",
+        "design"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "Dh5uNMvlSug",
+      "title": "The Shopify Retention Framework: 11 Emails to Drive Repeat Purchases",
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "6cVSU2C06Zw",
+      "title": "Increase Your Shopify Average Order Value: Quantity Breaks, Bundles & Upsells",
+      "teams": [
+        "market",
+        "pricing",
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "UBSveo_tao8",
+      "title": "The New Shopify SEO Strategy That Actually Works in 2026",
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "UcG2v8i6Y2E",
+      "title": "13",
+      "teams": [
+        "pricing",
+        "market"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "kFWPkoOx_ao",
+      "title": "Like",
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "Knjixb392Is",
+      "title": "7",
+      "teams": [
+        "market",
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "v7DT2yhi9Ac",
+      "title": "3",
+      "teams": [
+        "market"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "_pKECd9m25U",
+      "title": "23",
+      "teams": [
+        "market",
+        "design",
+        "listing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "Q0j1cpLu7pQ",
+      "title": "Like",
+      "teams": [
+        "market",
+        "pricing",
+        "legal"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "YoDGJV1XTls",
+      "title": "0",
+      "teams": [
+        "market",
+        "listing",
+        "sourcing",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "_NHlOc919zs",
+      "title": "0",
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "pricing",
+        "sourcing",
+        "legal"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "H2ags0XODds",
+      "title": "0",
+      "teams": [
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "6cLgg-r_qtQ",
+      "title": "0",
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "pricing",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "bxEQZF0Wt5A",
+      "title": "1",
+      "teams": [
+        "market",
+        "listing",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "JtAAkVH0PWg",
+      "title": "10",
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "pricing",
+        "legal"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "HWemm5oHxW8",
+      "title": "Test Now or Pray Later: Peak Season CRO with Georgi Petrov & Blake Waldron (Global Compass Series)",
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "owVMPQAUrOg",
+      "title": "The More Flows You Add to Klaviyo, The Less Money You Make",
+      "teams": [
+        "market",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "7vQ77-jZ_8o",
+      "title": "Every Shopify Bundle Type Explained (With Store Examples)",
+      "teams": [
+        "pricing",
+        "market",
+        "listing",
+        "design",
+        "sourcing",
+        "legal"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "d7vmkHmL3dQ",
+      "title": "How to build a brand that is 1 of 1",
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "pricing"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "j5vrOvca26A",
+      "title": "Codex + Shopify = INSANE SEO Growth!",
+      "teams": [
+        "market",
+        "listing",
+        "knowledge",
+        "legal"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "Ghynj9iBn84",
+      "title": "The Video Volume Secret Behind Every Winning TikTok Shop Program",
+      "teams": [
+        "market",
+        "design",
+        "listing",
+        "legal"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "LEYWu0S7lfI",
+      "title": "Your Black Friday Sale Doesn’t Need to Last All November",
+      "teams": [
+        "pricing",
+        "market",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "KCz_4nT4kXw",
+      "title": "The New Ecommerce Roadmap: How to Go From Zero to Hero With AI on Shopify",
+      "teams": [
+        "market",
+        "sourcing",
+        "pricing",
+        "listing",
+        "design",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "gvK0DmKFd34",
+      "title": "5 Shopify CRO Changes That Generated $1M+ in Revenue",
+      "teams": [
+        "market",
+        "listing",
+        "design",
+        "pricing",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "-fU_zLT4BLU",
+      "title": "5 Shopify AI Updates Every High Ticket Retail Brand Needs to Know, July 2026",
+      "teams": [
+        "market",
+        "listing",
+        "knowledge",
+        "legal"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "JbPNU3vFD6o",
+      "title": "Shopify Platinum Partner on What Actually Makes a Site Make Money",
+      "teams": [
+        "market",
+        "pricing",
+        "sourcing",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
+    },
+    {
+      "video_id": "frRhYjnfV64",
+      "title": "My Shopify Email Marketing Stack for 2026 (5 Tools I’d Actually Use)",
+      "teams": [
+        "market",
+        "listing",
+        "legal",
+        "knowledge"
+      ],
+      "status": "reviewed_actions_in_team_feed"
     },
     {
       "video_id": "WJLin_YwwwM",
-      "shared": "2026-10-10",
+      "title": "상품 사진 한 장으로 광고·상세페이지·웹사이트까지 만들었습니다｜Genspark Design",
       "teams": [
         "design",
         "listing"
       ],
-      "takeaway": "상품 사진 1장 -> 광고 이미지 -> 디자인 시스템 -> 상세페이지. 영상 06:00: AI 이미지에서 제품이 달라지는 문제",
       "status": "applied_with_guard",
+      "shared": "2026-10-10",
+      "takeaway": "상품 사진 1장 -> 광고 이미지 -> 디자인 시스템 -> 상세페이지. 영상 06:00: AI 이미지에서 제품이 달라지는 문제",
       "applied_in": "Gemini 웹(무료)으로 라이프스타일 이미지 1장 시험 생성. 라벨 글자가 깨져 상품 이미지로는 등록하지 않음(제품 불일치 방지).",
       "rule": "다이소 원본 이미지가 항상 대표. AI 생성 이미지는 추가 이미지로만, 라벨 글자 원본 일치 확인 후 등록."
     },
     {
       "video_id": "BzS93V2zFTg",
-      "shared": "2026-10-10",
+      "title": "ChatGPT Work + Dot: Build your AI Marketing Team (Agents + Skills)",
       "teams": [
         "market",
         "listing",
         "design",
         "knowledge"
       ],
-      "takeaway": "브랜드 컨텍스트 파일 + 재사용 스킬 + 역할별 에이전트. 반복·절차 명확하면 스킬, 판단 필요하면 에이전트",
       "status": "queued",
+      "shared": "2026-10-10",
+      "takeaway": "브랜드 컨텍스트 파일 + 재사용 스킬 + 역할별 에이전트. 반복·절차 명확하면 스킬, 판단 필요하면 에이전트",
       "next": "자비스 팀별 역할/입력/출력/금지사항을 한 파일(브랜드 컨텍스트)로 정리하고 반복 작업(상품 등록, 이미지 검수)을 스킬 절차로 문서화"
+    },
+    {
+      "video_id": "Cv5RSFlfPSM",
+      "title": "Claude Opus 5.5 Built a 3D Warehouse App That Looks Like a Game",
+      "teams": [
+        "design"
+      ],
+      "status": "applied",
+      "shared": "2026-10-10",
+      "takeaway": "KPI 카드 + 클릭 시 상세 패널 + 하단 탭 구조의 운영 대시보드",
+      "applied_in": "index.html #daily-pipeline (오늘의 상품 등록 파이프라인, A안)"
     }
   ]
 }
