@@ -1,0 +1,29 @@
+name: Shopify 마켓 정리 (한국 제외 전 세계 판매)
+
+# 수동 실행. apply=0 이면 점검만, apply=1 이면 한국 마켓 삭제 + 한국 제외 판매 지역 생성.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: '1 이면 실제로 변경 (0 이면 점검만)'
+        required: false
+        default: '0'
+
+permissions:
+  contents: read
+
+jobs:
+  markets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      APPLY: ${{ github.event.inputs.apply || '0' }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/shopify_markets_setup.py
