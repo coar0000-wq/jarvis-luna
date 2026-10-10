@@ -385,6 +385,7 @@ def jarvis_price(pd_no, name, krw):
 
 # ---------------------------------------------------------------- Gosi (상품정보제공고시) - 상세 이미지 판독
 
+GOSI_BUDGET_SEC = float(os.environ.get("GOSI_BUDGET_SEC", "150"))
 NEED = ("ingredients", "volume", "maker", "origin")
 PLACEHOLDER = {"", "-", "상세페이지 참조", "상세 페이지 참조", "없음", "해당없음"}
 FIELD = {"1": "volume", "5": "maker", "6": "origin", "7": "ingredients", "9": "warnings", "3": "expiry"}
@@ -449,7 +450,7 @@ def vision_read(img_url, pd_no, key, model):
             ]}],
             "generationConfig": {"responseMimeType": "application/json", "temperature": 0},
         },
-        timeout=120,
+        timeout=60,
     )
     if status != 200:
         raise RuntimeError(f"vision HTTP {status}")
@@ -459,6 +460,14 @@ def vision_read(img_url, pd_no, key, model):
 
 
 def collect_gosi(pd_no):
+    try:
+        return _collect_gosi(pd_no)
+    except Exception as exc:  # noqa: BLE001  고시 수집이 어떻게 실패해도 작업은 계속한다 (초안으로 남는다)
+        log(f"  gosi failed, continuing as draft: {exc}")
+        return {"gosi_ok": False, "missing": list(NEED), "_source": "error"}
+
+
+def _collect_gosi(pd_no):
     """고시 4항목(성분·용량·제조사·제조국)을 모은다. 못 채우면 빈 값으로 둔다. 지어내지 않는다."""
     g = {}
     # 0) 이미 수집된 JARVIS 정본 (data/gosi.json)
@@ -478,12 +487,21 @@ def collect_gosi(pd_no):
         model = os.environ.get("GEMINI_VISION_MODEL", "gemini-flash-latest")
         imgs = detail_image_urls(pd_no)
         log(f"  gosi: detail images {len(imgs)}")
+        started = time.monotonic()
         for u in reversed(imgs[-6:]):
-            try:
-                got = vision_read(u, pd_no, key, model)
-            except Exception as exc:  # noqa: BLE001
-                log(f"  gosi vision skipped: {exc}")
+            if time.monotonic() - started > GOSI_BUDGET_SEC:
+                log("  gosi: 시간 예산 초과, 현재까지 읽은 값으로 계속 진행")
                 break
+            got = None
+            for attempt in (1, 2):  # 시간초과·일시 오류는 1번 더 시도하고, 그래도 안 되면 건너뛴다
+                try:
+                    got = vision_read(u, pd_no, key, model)
+                    break
+                except Exception as exc:  # noqa: BLE001
+                    log(f"  gosi vision attempt {attempt} failed: {exc}")
+                    time.sleep(5)
+            if got is None:
+                continue
             for k, v in got.items():
                 if v and not g.get(k):
                     g[k] = v
