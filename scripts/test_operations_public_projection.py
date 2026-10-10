@@ -124,7 +124,7 @@ class OperationsPublicProjectionTests(unittest.TestCase):
             self.assertIsNone(project(source, OPERATIONS)['engines'][0]['detail'])
 
     def test_single_nested_runtime_payload_no_inventory_growth(self):
-        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 30)
+        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 31)
         self.assertEqual([name for name, schema in SCHEMAS.items() if 'operations' in schema], [RUNTIME])
         with tempfile.TemporaryDirectory(dir=ROOT.parent, prefix='operations-public-') as temp:
             root = Path(temp) / 'source'
@@ -139,7 +139,7 @@ class OperationsPublicProjectionTests(unittest.TestCase):
                 p.write_bytes(encoded({'operations': fixture()} if name == RUNTIME else {}))
             with mock.patch('build_public_site.subprocess.check_output', side_effect=AssertionError('no git')):
                 manifest = build(root, Path(temp) / 'dist', 'a' * 40)
-            self.assertEqual(len(manifest['files']), 30)
+            self.assertEqual(len(manifest['files']), 31)
             self.assertEqual(set(manifest['files']), set(STATIC_FILES) | set(SCHEMAS))
             public = json.loads((Path(temp) / 'dist' / RUNTIME).read_text(encoding='utf-8'))
             self.assertEqual(public['operations'], fixture())

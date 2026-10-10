@@ -33,7 +33,7 @@ class EvidencePublicTests(unittest.TestCase):
         value['teams']['unknown'] = {'identity': 'PRIVATE'}
         result = project(value, TEAM_IMPROVEMENT_EVIDENCE)
         self.assertEqual(set(result['teams']), set(TEAM_IDS))
-        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 30)
+        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 31)
         runtime = project({'team_improvement_evidence': value}, SCHEMAS['data/dashboard_runtime.json'])
         self.assertEqual(runtime['team_improvement_evidence'], result)
 
