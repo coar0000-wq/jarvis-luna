@@ -206,9 +206,9 @@
     "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
     "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
     "country_of_origin": "Korea",
-    "warnings_en": "실제 확인한 주의사항",
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
     "gosi_ok": true,
-    "source_url": "실제 상품자료 URL",
+    "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
     "source_type": "package_back_label",
     "collected_at": "2026-09-12T00:00:00Z",
     "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
@@ -225,6 +225,33 @@
         "source_type": "daiso_product_notice",
         "human_verified": false,
         "source_fingerprint": "f38bda1f263ccaa2b325649eb8b5f7786c27680e71a72d410244243e8adf563b"
+      },
+      "product_name_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "directions_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "warnings_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
       }
     },
     "ingredients_inci_status": "current_derived",
@@ -232,7 +259,9 @@
     "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
     "_자동으로_채운_칸": [
       "ingredients_inci"
-    ]
+    ],
+    "product_name_en": "Celderma Daily Transforming Firming Collagen Mask",
+    "directions_en": "1) After cleansing, prepare the skin with toner. 2) Remove the films, then place the upper part centered on the eyes and the lower part centered on the mouth so the mask adheres to the face. 3) After about 20 to 40 minutes, remove the mask and lightly pat the essence remaining on the skin to absorb."
   },
   "1045146": {
     "product_name_kr": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -428,11 +457,41 @@
         "source_type": "daiso_product_notice",
         "human_verified": false,
         "source_fingerprint": "1752492a9da9a2789948e99997983c65e2bb5fa87b1d74ad575ae0a47eb81754"
+      },
+      "product_name_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "directions_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "warnings_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
       }
     },
     "ingredients_inci_status": "current_derived",
     "ingredients_inci_eligible": true,
-    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "product_name_en": "Celderma Daily PDRN Radiance Cream Wrapping Mask",
+    "directions_en": "1) After cleansing, prepare the skin with toner. 2) Peel off the upper mask film and place the mask on the face, aligning the eye and nose areas. Peel off the lower mask film, align it with the mouth, and pull the edges to lift and attach the cheek area. 3) After about 20 minutes, remove the mask and gently roll the cream remaining on the skin to absorb.",
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area."
   },
   "1068776": {
     "product_name_kr": "싸이닉 파워옴므 워터리 선크림 50 ml",
@@ -920,11 +979,41 @@
         "source_type": "daiso_product_notice",
         "human_verified": false,
         "source_fingerprint": "a0a45d9fe30a7d894dd680c537adad0d08ceb21756278d9f5e3705ef80cb54f1"
+      },
+      "product_name_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "directions_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "warnings_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
       }
     },
     "ingredients_inci_status": "current_derived",
     "ingredients_inci_eligible": true,
-    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "product_name_en": "Boncept Retinol 500 IU Serum",
+    "directions_en": "Take an appropriate amount of the product and spread it gently along the skin texture, then lightly pat to absorb.",
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight."
   },
   "1049275": {
     "product_name_kr": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -1052,11 +1141,41 @@
         "source_type": "daiso_product_notice",
         "human_verified": false,
         "source_fingerprint": "3f4d7c4ba29efc686a3f3e49d996449206c4a7e93462df2f44e236e9efd20153"
+      },
+      "product_name_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "directions_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "warnings_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
       }
     },
     "ingredients_inci_status": "current_derived",
     "ingredients_inci_eligible": true,
-    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "product_name_en": "VT PDRN Radiance Cream",
+    "directions_en": "After using essence, take an appropriate amount of cream and spread it gently along the skin texture until absorbed.",
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight."
   },
   "1042619": {
     "product_name_kr": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
@@ -1118,11 +1237,41 @@
         "source_type": "daiso_product_notice",
         "human_verified": false,
         "source_fingerprint": "dfad7b3472133cfe84fa10575fe3cc508881726ad3ffda2f82e94fb37cdc590b"
+      },
+      "product_name_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "directions_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "warnings_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
       }
     },
     "ingredients_inci_status": "current_derived",
     "ingredients_inci_eligible": true,
-    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "product_name_en": "Celderma Daily Collagen Essence Gel Mask",
+    "directions_en": "1) After cleansing, prepare the skin with toner. 2) Open the pouch, remove both films separated into upper and lower parts, and apply the mask starting from the upper part. 3) With the film-removed side facing the skin, align the upper part with the eyes and nose and the lower part with the mouth so it adheres well to the skin (either side may be applied). 4) After about 20 to 40 minutes, remove the mask and lightly pat any remaining product to absorb.",
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area."
   },
   "1049285": {
     "product_name_kr": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
@@ -1184,11 +1333,41 @@
         "source_type": "daiso_product_notice",
         "human_verified": false,
         "source_fingerprint": "67396fdb204fe6681c7f4f5ddac47f67227b241723d89de12bd862761eea4374"
+      },
+      "product_name_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "directions_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "warnings_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
       }
     },
     "ingredients_inci_status": "current_derived",
     "ingredients_inci_eligible": true,
-    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "product_name_en": "VT Super Hyalon Sleeping Mask",
+    "directions_en": "In the final step of your evening skincare routine after cleansing, take an appropriate amount and apply it over the face, avoiding the eye area, then go to sleep.",
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area. Single-use product: use immediately after opening."
   },
   "1060211": {
     "product_name_kr": "바세린 모이스처라이징 클렌징 밀크 140 ml",
@@ -1316,11 +1495,41 @@
         "source_type": "daiso_product_notice",
         "human_verified": false,
         "source_fingerprint": "c63e9e8a88e5abaca047392aa8f76fad2fd5a0028f85dfad2597f97f514b69a8"
+      },
+      "product_name_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "directions_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "warnings_en": {
+        "owner": "assistant_draft",
+        "status": "current",
+        "eligible": true,
+        "source_type": "daiso_product_notice_image",
+        "human_verified": false,
+        "source": "data/manual/official_label_text.json",
+        "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
       }
     },
     "ingredients_inci_status": "current_derived",
     "ingredients_inci_eligible": true,
-    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "product_name_en": "Voncept Retinol Firming Shot Body Guasha Serum",
+    "directions_en": "Turn the guasha tip to 'ON' to open it, then take an appropriate amount of the product and massage gently along the skin texture until absorbed.",
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight."
   },
   "1053482": {
     "product_name_kr": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",

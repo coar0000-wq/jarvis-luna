@@ -57,6 +57,132 @@
       "translation_note": "원문 번역 초안(원문에 없는 문구 추가 없음). 효능(미백·주름개선) 문구는 미국에서 의약품 주장이 될 수 있어 넣지 않았다. 사람 검토 후 translation_status 를 reviewed 로 바꾼다.",
       "net_contents_en": "2 mL × 6",
       "net_contents_note": "원문 표기 그대로. 미국 라벨은 미터법과 미국 단위(fl oz)를 함께 적어야 하므로 환산 표기는 사람 검토 때 확정한다."
+    },
+    "1055167": {
+      "product": "본셉 레티놀 500 IU 세럼 30ml",
+      "sources": [
+        {
+          "name": "다이소몰 상품정보제공고시 상세 이미지 (판독)",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+          "fetched_at": "2026-10-11"
+        }
+      ],
+      "verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+      "identity_en": "Boncept Retinol 500 IU Serum",
+      "directions_ko": "내용물을 적당량 덜어 피부결을 따라 부드럽게 펴 발라준 후 가볍게 두드려 흡수시켜 줍니다.",
+      "directions_en": "Take an appropriate amount of the product and spread it gently along the skin texture, then lightly pat to absorb.",
+      "warnings_ko": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것",
+      "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
+      "translation_status": "draft",
+      "translation_note": "원문 충실 번역 초안(사용자 지시로 입력, 효능 문구 제외). 사람 검토 후 translation_status 를 reviewed 로 바꾼다."
+    },
+    "1067498": {
+      "product": "VT 피디알엔 광채크림 50ml",
+      "sources": [
+        {
+          "name": "다이소몰 상품정보제공고시 상세 이미지 (판독)",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+          "fetched_at": "2026-10-11"
+        }
+      ],
+      "verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+      "identity_en": "VT PDRN Radiance Cream",
+      "directions_ko": "에센스 사용 후 크림 적당량을 취해 피부 결을 따라 부드럽게 발라 흡수시켜 줍니다.",
+      "directions_en": "After using essence, take an appropriate amount of cream and spread it gently along the skin texture until absorbed.",
+      "warnings_ko": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것",
+      "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
+      "translation_status": "draft",
+      "translation_note": "원문 충실 번역 초안(사용자 지시로 입력, 효능 문구 제외). 사람 검토 후 translation_status 를 reviewed 로 바꾼다."
+    },
+    "1072554": {
+      "product": "본셉 레티놀 탄력샷 바디괄사세럼 100ml",
+      "sources": [
+        {
+          "name": "다이소몰 상품정보제공고시 상세 이미지 (판독)",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
+          "fetched_at": "2026-10-11"
+        }
+      ],
+      "verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+      "identity_en": "Voncept Retinol Firming Shot Body Guasha Serum",
+      "directions_ko": "괄사 팁을 'ON'으로 돌려 열어준 후, 내용물을 적당량 덜어 피부 결을 따라 부드럽게 마사지하며 흡수시켜 줍니다.",
+      "directions_en": "Turn the guasha tip to 'ON' to open it, then take an appropriate amount of the product and massage gently along the skin texture until absorbed.",
+      "warnings_ko": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것",
+      "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
+      "translation_status": "draft",
+      "translation_note": "원문 충실 번역 초안(사용자 지시로 입력, 효능 문구 제외). 사람 검토 후 translation_status 를 reviewed 로 바꾼다."
+    },
+    "1075857": {
+      "product": "셀더마데일리 PDRN광채 크림랩핑마스크 1매",
+      "sources": [
+        {
+          "name": "다이소몰 상품정보제공고시 상세 이미지 (판독)",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
+          "fetched_at": "2026-10-11"
+        }
+      ],
+      "verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+      "identity_en": "Celderma Daily PDRN Radiance Cream Wrapping Mask",
+      "directions_ko": "1)세안 후, 토너로 피부결을 정돈해 줍니다. 2)상단의 마스크 필름을 벗긴 후 눈과 코 부위를 맞춰 얼굴에 붙입니다. 하단의 마스크 필름을 벗긴 후 입모양을 맞추고 가장자리 부분을 당겨 볼 부분을 끌어올려 붙여줍니다. 3)약 20분 후 마스크를 떼어내고 피부에 남아있는 크림을 부드럽게 롤링하여 흡수시켜 줍니다.",
+      "directions_en": "1) After cleansing, prepare the skin with toner. 2) Peel off the upper mask film and place the mask on the face, aligning the eye and nose areas. Peel off the lower mask film, align it with the mouth, and pull the edges to lift and attach the cheek area. 3) After about 20 minutes, remove the mask and gently roll the cream remaining on the skin to absorb.",
+      "warnings_ko": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것 4) 눈 주위를 피하여 사용할 것",
+      "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
+      "translation_status": "draft",
+      "translation_note": "원문 충실 번역 초안(사용자 지시로 입력, 효능 문구 제외). 사람 검토 후 translation_status 를 reviewed 로 바꾼다."
+    },
+    "1049285": {
+      "product": "VT 슈퍼 히알론 슬리핑 마스크 4ml X 6ea",
+      "sources": [
+        {
+          "name": "다이소몰 상품정보제공고시 상세 이미지 (판독)",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+          "fetched_at": "2026-10-11"
+        }
+      ],
+      "verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+      "identity_en": "VT Super Hyalon Sleeping Mask",
+      "directions_ko": "저녁 세안 후 스킨케어 마지막 단계에서 적당량을 취해 눈가를 제외한 얼굴 전체에 펴 바르고 수면을 취합니다.",
+      "directions_en": "In the final step of your evening skincare routine after cleansing, take an appropriate amount and apply it over the face, avoiding the eye area, then go to sleep.",
+      "warnings_ko": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것 4) 눈 주위를 피하여 사용할 것 *일회용 제품이므로 개봉 후 즉시 사용할 것",
+      "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area. Single-use product: use immediately after opening.",
+      "translation_status": "draft",
+      "translation_note": "원문 충실 번역 초안(사용자 지시로 입력, 효능 문구 제외). 사람 검토 후 translation_status 를 reviewed 로 바꾼다."
+    },
+    "1059834": {
+      "product": "셀더마데일리 트랜스포밍 퍼밍콜라겐 마스크 28g",
+      "sources": [
+        {
+          "name": "다이소몰 상품정보제공고시 상세 이미지 (판독)",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
+          "fetched_at": "2026-10-11"
+        }
+      ],
+      "verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+      "identity_en": "Celderma Daily Transforming Firming Collagen Mask",
+      "directions_ko": "1) 세안 후, 토너로 피부결을 정돈해 줍니다. 2) 필름을 제거한 후 상단은 눈을 중심으로, 하단은 입을 중심으로 맞춰 얼굴에 밀착 시킵니다. 3) 약 20~40분 후 떼어내고 피부에 남아있는 에센스를 가볍게 두드려 흡수시켜 줍니다.",
+      "directions_en": "1) After cleansing, prepare the skin with toner. 2) Remove the films, then place the upper part centered on the eyes and the lower part centered on the mouth so the mask adheres to the face. 3) After about 20 to 40 minutes, remove the mask and lightly pat the essence remaining on the skin to absorb.",
+      "warnings_ko": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것 4) 눈 주위를 피하여 사용할 것",
+      "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
+      "translation_status": "draft",
+      "translation_note": "원문 충실 번역 초안(사용자 지시로 입력, 효능 문구 제외). 사람 검토 후 translation_status 를 reviewed 로 바꾼다."
+    },
+    "1042619": {
+      "product": "(수정) 셀더마데일리 콜라겐에센스겔마스크 29 g",
+      "sources": [
+        {
+          "name": "다이소몰 상품정보제공고시 상세 이미지 (판독)",
+          "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
+          "fetched_at": "2026-10-11"
+        }
+      ],
+      "verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+      "identity_en": "Celderma Daily Collagen Essence Gel Mask",
+      "directions_ko": "1) 세안 후 화장수를 이용하여 피부결을 정돈합니다. 2) 파우치를 개봉하여 얼굴 상·하로 분리된 양쪽 필름을 제거한 뒤 상단부터 피부에 붙입니다. 3) 필름이 제거된 면이 피부쪽을 향하도록 한 뒤, 얼굴 상 부위는 눈과 코 중심으로 잘 맞추어 붙이고 얼굴 하 부위는 입을 중심으로 피부에 잘 밀착되도록 붙여줍니다. (양쪽 어느면으로 붙이셔도 무관합니다) 4) 약 20~40분 후 마스크를 제거하고 남아있는 내용물은 가볍게 두드려 흡수시킵니다.",
+      "directions_en": "1) After cleansing, prepare the skin with toner. 2) Open the pouch, remove both films separated into upper and lower parts, and apply the mask starting from the upper part. 3) With the film-removed side facing the skin, align the upper part with the eyes and nose and the lower part with the mouth so it adheres well to the skin (either side may be applied). 4) After about 20 to 40 minutes, remove the mask and lightly pat any remaining product to absorb.",
+      "warnings_ko": "1) 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 보관 및 취급 시 주의사항 가) 어린이의 손이 닿지 않는 곳에 보관할 것 나) 직사광선을 피해서 보관할 것 4) 눈 주위를 피하여 사용할 것",
+      "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
+      "translation_status": "draft",
+      "translation_note": "원문 충실 번역 초안(사용자 지시로 입력, 효능 문구 제외). 사람 검토 후 translation_status 를 reviewed 로 바꾼다."
     }
   }
 }
