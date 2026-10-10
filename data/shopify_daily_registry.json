@@ -29,6 +29,96 @@
       "date": "2026-10-10",
       "shopify_id": "gid://shopify/Product/9537120370945",
       "status": "DRAFT"
+    },
+    {
+      "pd_no": "1049276",
+      "family": "vt리들샷300페이셜부스팅퍼스트앰플2ml*6개입",
+      "name_kr": "VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "title": "VT Reedle Shot 300 Facial Boosting First Ampoule 2 ml x 6 ea",
+      "category": "skincare",
+      "date": "2026-10-10",
+      "shopify_id": "gid://shopify/Product/9537222476033",
+      "status": "ACTIVE",
+      "handle": "vt-reedle-shot-300-facial-boosting-first-ampoule-2-ml-x-6-ea",
+      "krw": 3000,
+      "single_usd": 14.99,
+      "single_margin_pct": 33.6,
+      "pack_usd": 25.99,
+      "pack_margin_pct": 48.7,
+      "size": {
+        "unit": 2.0,
+        "base": "ml",
+        "count": 6,
+        "total": 12.0
+      },
+      "images": 4,
+      "price_basis": "shop.com 최저가가 바닥보다 낮아 바닥가로 설정",
+      "shop_com_lowest_usd": 6.74,
+      "draft_reasons": [],
+      "grade": "S",
+      "source": "jarvis_s_list"
+    },
+    {
+      "pd_no": "1048042",
+      "family": "eva푹신쿠션슬리퍼270mm그레이",
+      "name_kr": "EVA 푹신 쿠션 슬리퍼 270 mm 그레이",
+      "title": "EVA Puksin Cushion Slipper 270 mm Gray",
+      "category": "makeup",
+      "date": "2026-10-10",
+      "shopify_id": "gid://shopify/Product/9537223229697",
+      "status": "DRAFT",
+      "handle": "eva-puksin-cushion-slipper-270-mm-gray",
+      "krw": 5000,
+      "single_usd": 21.99,
+      "single_margin_pct": 41.2,
+      "pack_usd": 37.99,
+      "pack_margin_pct": 47.6,
+      "size": null,
+      "images": 5,
+      "price_basis": "shop.com 비교 불가 -> JARVIS 권장가 (바닥 마진 보장)",
+      "shop_com_lowest_usd": null,
+      "draft_reasons": [
+        "inci_unresolved:1",
+        "origin_unmapped",
+        "brand_english_unverified:",
+        "gosi_missing:volume,origin"
+      ],
+      "grade": "B",
+      "source": "jarvis_s_list"
+    },
+    {
+      "pd_no": "58600",
+      "family": "과일나라마이시크릿아이템아르간오일핸드크림60g",
+      "name_kr": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
+      "title": "과일나라 마이시크릿아이템 아르간오일 핸드크림 60 g",
+      "category": "body",
+      "date": "2026-10-10",
+      "shopify_id": "gid://shopify/Product/9537224081665",
+      "status": "DRAFT",
+      "handle": "과일나라-마이시크릿아이템-아르간오일-핸드크림-60-g",
+      "krw": 1000,
+      "single_usd": 24.99,
+      "single_margin_pct": 61.1,
+      "pack_usd": 42.99,
+      "pack_margin_pct": 70.5,
+      "size": {
+        "unit": 60.0,
+        "base": "g",
+        "count": 1,
+        "total": 60.0
+      },
+      "images": 1,
+      "price_basis": "shop.com 최저가보다 낮게 (바닥 마진 보장)",
+      "shop_com_lowest_usd": 26.0,
+      "draft_reasons": [
+        "ingredients_missing",
+        "maker_missing",
+        "brand_english_unverified:과일나라",
+        "english_title_missing",
+        "gosi_missing:ingredients,volume,maker"
+      ],
+      "grade": "A",
+      "source": "jarvis_s_list"
     }
   ]
 }
