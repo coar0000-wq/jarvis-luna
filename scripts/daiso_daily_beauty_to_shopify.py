@@ -1028,7 +1028,13 @@ BUCKETS = {
     "makeup": {"메이크업"},
     "body": {"바디케어"},
 }
-GRADE_ORDER = {"S": 0}
+GRADE_ORDER = {"S": 0, "A": 1}
+# 사용자 지시(2026-10-10): 스킨케어는 S등급만. S등급이 거의 없는 메이크업·바디는 S 우선, 없으면 A등급까지 허용한다.
+ALLOWED_GRADES = {"skincare": ("S",), "makeup": ("S", "A"), "body": ("S", "A")}
+
+
+def grade_label(cat):
+    return "/".join(ALLOWED_GRADES[cat[0]])
 
 
 def _find_pd(obj, pd_no):
@@ -1076,8 +1082,9 @@ def s_ranked(cat):
     d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
     if not isinstance(d.get("all_scored"), list):
         raise ValueError("Canonical grade list unavailable")
-    rows = [r for r in d["all_scored"] if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") == "S"]
-    rows.sort(key=lambda r: -float(r.get("shopify_score") or 0))
+    allowed = ALLOWED_GRADES[cat[0]]
+    rows = [r for r in d["all_scored"] if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") in allowed]
+    rows.sort(key=lambda r: (GRADE_ORDER[r["grade"]], -float(r.get("shopify_score") or 0)))
     return rows
 
 
@@ -1135,7 +1142,7 @@ def pick(cat, shop, names, ids, reg, rows=None, excluded=None):
             continue
         p = daiso_lookup(pd_no)
         if p and sellable(p) and not already_registered(p, reg, names, ids):
-            p["_grade"], p["_source"], p["_score"] = "S", "jarvis_s_list", row.get("shopify_score")
+            p["_grade"], p["_source"], p["_score"] = row.get("grade") or "S", "jarvis_s_list", row.get("shopify_score")
             return p
     return None
 
@@ -1420,13 +1427,13 @@ def main():
             continue
         if write_blocked:
             results.append({"category": cat[0], "status": "skipped_prior_write_uncertain",
-                            "grade_required": "S"})
+                            "grade_required": grade_label(cat)})
             continue
         log(f"== {cat[1]} ({cat[0]})")
         current_p, current_entry = None, None
         if any(i.get("date") == today and i.get("category") == cat[0] for i in reg["items"]):
             log("  already registered today for this category -> skip (하루 카테고리별 1개)")
-            results.append({"category": cat[0], "status": "skipped_already_today", "grade_required": "S",
+            results.append({"category": cat[0], "status": "skipped_already_today", "grade_required": grade_label(cat),
                             "s_candidates": len(s_ranked(cat))})
             continue
         try:
@@ -1434,7 +1441,7 @@ def main():
             if not rows:
                 log("  no canonical S-grade candidate in category")
                 results.append({"category": cat[0], "status": "skipped_no_s_grade",
-                                "grade_required": "S", "s_candidates": 0})
+                                "grade_required": grade_label(cat), "s_candidates": 0})
                 continue
             excluded = set()
             while True:
@@ -1442,7 +1449,7 @@ def main():
                 if not p:
                     log("  no available, sellable, unregistered S-grade candidate")
                     results.append({"category": cat[0], "status": "skipped_no_eligible_s_grade",
-                                    "grade_required": "S", "s_candidates": len(rows)})
+                                    "grade_required": grade_label(cat), "s_candidates": len(rows)})
                     break
                 copy = gemini_copy(p, cat) or fallback_copy(p, cat)
                 title, html = copy
@@ -1518,7 +1525,7 @@ def main():
             log(f"  pick: {p['pdNo']} {clean_name(p['pdNm'])} | {krw} KRW -> ${item['price_usd']:.2f} | {title}")
             rec = {
                 "category": cat[0],
-                "grade_required": "S", "grade": p["_grade"], "s_candidates": len(rows),
+                "grade_required": grade_label(cat), "grade": p["_grade"], "s_candidates": len(rows),
                 "daiso_pdNo": p["pdNo"],
                 "daiso_name": clean_name(p["pdNm"]),
                 "daiso_url": DAISO_ITEM + p["pdNo"],
@@ -1554,7 +1561,7 @@ def main():
                          "pack_margin_pct": pr["pack"]["margin_pct"] if pr["pack"]["ok"] else None,
                          "size": parse_size(clean_name(p["pdNm"])), "images": len(images),
                          "price_basis": pr["basis"], "shop_com_lowest_usd": cmpd.get("lowest_usd"),
-                         "draft_reasons": reasons, "grade": "S", "source": p.get("_source")}
+                         "draft_reasons": reasons, "grade": p["_grade"], "source": p.get("_source")}
                 reg["items"].append(entry)
                 current_entry = entry
                 save_registry(reg)  # unknown network outcome must remain a durable duplicate block
@@ -1607,7 +1614,7 @@ def main():
         except Exception as exc:  # keep going so one category failure doesn't block the others
             failures += 1
             log(f"  FAILED: {exc}")
-            failed = {"category": cat[0], "status": "failed", "grade_required": "S", "error": str(exc)[:500]}
+            failed = {"category": cat[0], "status": "failed", "grade_required": grade_label(cat), "error": str(exc)[:500]}
             if current_p is not None:
                 failed["daiso_pdNo"] = current_p["pdNo"]
             if current_entry is not None:

@@ -15,11 +15,16 @@ spec.loader.exec_module(daily)
 
 
 class DailySafetyTests(unittest.TestCase):
-    def test_canonical_s_only_and_no_makeup_body(self):
-        self.assertEqual(len(daily.s_ranked(daily.CATEGORIES[0])), 10)
-        self.assertEqual(daily.s_ranked(daily.CATEGORIES[1]), [])
-        self.assertEqual(daily.s_ranked(daily.CATEGORIES[2]), [])
-        self.assertTrue(all(x["grade"] == "S" for x in daily.s_ranked(daily.CATEGORIES[0])))
+    def test_skincare_s_only_makeup_body_s_then_a(self):
+        skin = daily.s_ranked(daily.CATEGORIES[0])
+        self.assertTrue(skin and all(x["grade"] == "S" for x in skin))
+        for cat in daily.CATEGORIES[1:]:
+            rows = daily.s_ranked(cat)
+            self.assertTrue(rows)
+            self.assertTrue(all(x["grade"] in ("S", "A") for x in rows))
+            self.assertEqual([x["grade"] for x in rows], sorted(x["grade"] for x in rows))  # S 가 항상 먼저
+        self.assertEqual(daily.grade_label(daily.CATEGORIES[0]), "S")
+        self.assertEqual(daily.grade_label(daily.CATEGORIES[2]), "S/A")
 
     def test_pick_never_promotes_lower_grade_or_recommendations(self):
         rows = [{"pd_no": "1", "grade": "S", "shopify_score": 99}]
@@ -157,16 +162,18 @@ class DailySafetyTests(unittest.TestCase):
                 with patch.object(daily, "DRY_RUN", True), patch.object(daily, "kst_today", return_value="2026-10-10"), \
                      patch.object(daily, "load_registry", return_value={"items": [
                          {"date": "2026-10-10", "category": "skincare", "pd_no": "1"}]}), \
-                     patch.object(daily, "daiso_lookup") as lookup, \
+                     patch.object(daily, "daiso_lookup", return_value=None) as lookup, \
                      patch.dict(os.environ, {"FORCE": "1", "SHOPIFY_STORE": "", "SHOPIFY_ADMIN_TOKEN": "", "SHOPIFY_CLIENT_SECRET": ""}):
                     self.assertEqual(daily.main(), 0)
-                    lookup.assert_not_called()
+                    # 스킨케어는 오늘 이미 등록 -> 조회 없음. 메이크업·바디는 S/A 후보를 조회하지만 없으면 건너뛴다.
+                    self.assertTrue(all(c.args[0] not in {r["pd_no"] for r in daily.s_ranked(daily.CATEGORIES[0])}
+                                        for c in lookup.call_args_list))
                 result = json.loads(Path("out/daiso_daily_beauty_result.json").read_text(encoding="utf-8"))
                 self.assertEqual(result["results"][0]["status"], "skipped_already_today")
                 self.assertEqual(result["results"][0]["s_candidates"], 10)
                 self.assertEqual([r["status"] for r in result["results"][1:]],
-                                 ["skipped_no_s_grade", "skipped_no_s_grade"])
-                self.assertTrue(all(r["grade_required"] == "S" for r in result["results"]))
+                                 ["skipped_no_eligible_s_grade", "skipped_no_eligible_s_grade"])
+                self.assertEqual([r["grade_required"] for r in result["results"]], ["S", "S/A", "S/A"])
             finally:
                 os.chdir(cwd)
 

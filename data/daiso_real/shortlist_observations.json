@@ -14,10 +14,13 @@
   "scope": "active_shopify_shortlist_only",
   "operating_catalog_mutated": false,
   "status": "cached",
-  "complete": true,
+  "complete": false,
   "expected_ids": [
+    "CP000106",
+    "CP000107",
     "CP000109",
     "CP000130",
+    "CP000151",
     "CP000216"
   ],
   "products": [
@@ -89,7 +92,11 @@
   "http_attempt_count": 0,
   "new_success_ids": [],
   "failed_ids": [],
-  "missing_ids": [],
+  "missing_ids": [
+    "CP000106",
+    "CP000107",
+    "CP000151"
+  ],
   "retained_original_capture_ids": [
     "CP000109",
     "CP000130",
