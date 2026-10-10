@@ -63,6 +63,7 @@ CATEGORIES = [
 ]
 
 BRAND_EN = {
+    "도브": "Dove",
     "VT": "VT",
     "본셉": "Bonsep",
     "본셉 스킨케어": "Bonsep",
@@ -538,8 +539,12 @@ def _inci_resolver():
     return sg, InciResolver(doc.get("kr_to_inci") or {}, load_manual_overrides(ROOT))
 
 
-def _net_contents(raw):
+def _net_contents(raw, name_kr=""):
     raw = _clean(raw)
+    # "2ml*6개입" 같은 세트는 개당 용량 x 개수로 쓰고 단위 환산은 하지 않는다 (총량으로 오해될 수 있다)
+    sm = re.search(r"[*xX×]\s*(\d+)\s*(?:개입|개|ea|매|입)", name_kr or "")
+    if sm and re.fullmatch(r"\d+(?:\.\d+)?\s*(?:ml|mL|ML|g|G)", raw):
+        return f"{re.sub(r'\s+', ' ', raw)} x {sm.group(1)} ea"
     m = re.fullmatch(r"(\d+(?:\.\d+)?)\s*(ml|mL|ML|g|G)", raw)
     if not m:
         return raw  # 세트·복합 표기는 변환하지 않고 원문 그대로 둔다
@@ -570,7 +575,7 @@ def build_us_label(pd_no, name_kr, g):
         reasons.append("inci_error")
 
     if g.get("volume"):
-        label["net_contents"] = _net_contents(g["volume"])
+        label["net_contents"] = _net_contents(g["volume"], name_kr)
     origin = ORIGIN_EN.get(_clean(g.get("origin")).lower().replace(" ", "")) or ORIGIN_EN.get(_clean(g.get("origin")).lower())
     if origin:
         label["origin"] = origin
@@ -664,6 +669,9 @@ def main():
             html += label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
             reasons = list(label["reasons"])
+            if (p.get("brndNm") or "").strip() not in BRAND_EN:
+                # 브랜드 영문 표기는 추측하지 않는다. 검증된 표(BRAND_EN)에 없으면 사람이 확인할 때까지 초안.
+                reasons.append(f"brand_english_unverified:{(p.get('brndNm') or '').strip()}")
             if claims_left:
                 reasons.append("claim_language_review")
             if re.search(r"[가-힣]", title):
