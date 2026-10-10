@@ -21,6 +21,10 @@ on:
         description: '1 이면 Shopify 에 쓰지 않고 선택 결과만 출력'
         required: false
         default: '0'
+      force:
+        description: '1 이면 오늘 이미 등록한 카테고리도 다시 등록 (테스트용)'
+        required: false
+        default: '0'
       only_categories:
         description: '테스트용 (예: skincare,body). 비우면 3개 모두'
         required: false
@@ -31,18 +35,19 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   register:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     env:
       SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
       SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
       SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+      FORCE: ${{ github.event.inputs.force || '0' }}
       ONLY_CATEGORIES: ${{ github.event.inputs.only_categories || '' }}
       # 사용자 승인(2026-10-10): 다이소 원본 이미지를 상품 이미지로 사용해도 된다.
       ALLOW_ORIGINAL_IMAGES: '1'
@@ -56,10 +61,22 @@ jobs:
           python-version: '3.11'
 
       - name: 이미지 처리 라이브러리
-        run: python -m pip install --quiet pillow
+        run: |
+          python -m pip install --quiet pillow "opencv-python-headless==4.10.0.84" "numpy<2.3" playwright
+          python -m playwright install --with-deps chromium
 
       - name: 다이소 추천 선택 후 Shopify 등록
         run: python scripts/daiso_daily_beauty_to_shopify.py
+
+      - name: 등록 이력 저장 (중복 방지)
+        if: ${{ always() && github.event.inputs.dry_run != '1' }}
+        run: |
+          git config user.name "jarvis-bot"
+          git config user.email "jarvis-bot@users.noreply.github.com"
+          git add data/shopify_daily_registry.json
+          if git diff --cached --quiet; then echo "no registry change"; exit 0; fi
+          git commit -m "chore(shopify): 일일 등록 이력 $(date -u +%F)"
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q origin HEAD:main && break || sleep 6; done
 
       - name: 결과 보관
         if: always()

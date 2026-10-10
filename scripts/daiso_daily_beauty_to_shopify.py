@@ -726,111 +726,198 @@ def bundle_offer(pd_no, name, krw, single_price):
     }
 
 
-# ---------------------------------------------------------------- 이미지: 다이소 원본 선별 + 정사각 2048 변환 + 업로드
-
-IMG_PROMPT = """Look at this e-commerce product image. Return JSON only:
-{"shows_product": true/false, "has_person": true/false, "has_badge_or_promo_overlay": true/false}
-- shows_product: the actual cosmetic product or its packaging is clearly visible.
-- has_person: any human face or person (models, celebrities). A hand holding the product does not count.
-- has_badge_or_promo_overlay: ranking/award/'BEST'/'PICK'/certification marks, stickers, price or promo banners added on top of the photo."""
-
-
-def classify_image(data, mime, key, model):
-    status, body = http_json(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}",
-        {
-            "contents": [
-                {
-                    "parts": [
-                        {"text": IMG_PROMPT},
-                        {"inline_data": {"mime_type": mime, "data": base64.b64encode(data).decode()}},
-                    ]
-                }
-            ],
-            "generationConfig": {"responseMimeType": "application/json", "temperature": 0},
-        },
-        timeout=60,
-    )
-    if status != 200:
-        raise RuntimeError(f"image classify HTTP {status}")
-    return json.loads(body["candidates"][0]["content"]["parts"][0]["text"])
-
-
-def to_square_jpeg(data, size=2048):
-    """brand_kit.json 상품 이미지 규격(2048x2048 정사각 JPEG). 원본 비율을 자르지 않고 같은 사진을 흐리게 깔아 채운다."""
-    import io  # noqa: PLC0415
-    from PIL import Image, ImageFilter  # noqa: PLC0415
-
-    im = Image.open(io.BytesIO(data)).convert("RGB")
-    w, h = im.size
-    s = size / min(w, h)
-    bg = im.resize((max(size, int(w * s) + 1), max(size, int(h * s) + 1)))
-    left, top = (bg.width - size) // 2, (bg.height - size) // 2
-    bg = bg.crop((left, top, left + size, top + size)).filter(ImageFilter.GaussianBlur(45))
-    fit = int(size * 0.96)
-    f = min(fit / w, fit / h)
-    fg = im.resize((max(1, int(w * f)), max(1, int(h * f))), Image.LANCZOS)
-    bg.paste(fg, ((size - fg.width) // 2, (size - fg.height) // 2))
-    out = io.BytesIO()
-    bg.save(out, format="JPEG", quality=92, optimize=True)
-    return out.getvalue()
-
+# ---------------------------------------------------------------- 이미지: 다이소 이미지 전부 + 사람 얼굴 사진 제외 + 정사각 2048
 
 def prepare_images(p, shop):
-    """다이소 상품 이미지 중 제품만 보이는 것을 골라 정사각으로 맞춰 올린다. 인물·수상 배지·프로모 배너가 있는 사진은 쓰지 않는다."""
-    key = os.environ.get("GEMINI_API_KEY", "").strip()
-    model = os.environ.get("GEMINI_VISION_MODEL", "gemini-flash-latest")
-    urls = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])[:6]]
-    kept, skipped, unverified = [], [], []
-    for i, u in enumerate(urls):
+    """다이소 상품 이미지를 모두 받아 사람 얼굴이 있는 것만 뺀다(OpenCV YuNet). 대표컷은 깔끔한 제품 컷을 맨 앞으로.
+    모두 2048x2048 정사각 JPEG 로 바꿔 Shopify 에 올린다. 판독 도구가 실패한 이미지는 쓰지 않는다."""
+    import daiso_images as di  # noqa: PLC0415
+
+    urls = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])]
+    blobs = []
+    for u in urls:
         try:
             req = urllib.request.Request(u, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=60) as r:
-                data = r.read()
-                mime = r.headers.get_content_type() or "image/jpeg"
-            verdict = None
-            if key:
-                for attempt in (1, 2):
-                    try:
-                        verdict = classify_image(data, mime, key, model)
-                        break
-                    except Exception as exc:  # noqa: BLE001
-                        log(f"  image classify {i} attempt {attempt} failed: {exc}")
-                        time.sleep(4)
-            if verdict is None:
-                # 무료 Gemini 가 503/429 로 판독 못 한 이미지는 대표컷(첫 장)만 임시로 쓰고, 사람이 보기 전에는 공개하지 않는다.
-                unverified.append(u)
-                if i == 0:
-                    kept.append((u, to_square_jpeg(data)))
-                continue
-            if (
-                not verdict
-                or not verdict.get("shows_product")
-                or verdict.get("has_person")
-                or verdict.get("has_badge_or_promo_overlay")
-            ):
-                skipped.append({"url": u, "verdict": verdict})
-                continue
-            kept.append((u, to_square_jpeg(data)))
+                blobs.append((u, r.read()))
         except Exception as exc:  # noqa: BLE001
-            log(f"  image {i} skipped: {exc}")
-            skipped.append({"url": u, "error": str(exc)[:120]})
-        if len(kept) >= 4:
-            break
+            log(f"  image download failed: {exc}")
+    kept, dropped = di.select_images(blobs)
     resource_urls = []
     if shop is not None and not DRY_RUN:
-        for n, (u, jpg) in enumerate(kept, 1):
-            resource_urls.append(shop.upload_jpeg(jpg, f"daiso-{p['pdNo']}-{n}.jpg"))
-    return {"source_urls": [u for u, _ in kept], "resource_urls": resource_urls, "skipped": skipped, "unverified": bool(unverified)}
+        for n, (u, data) in enumerate(kept, 1):
+            resource_urls.append(shop.upload_jpeg(di.to_square_jpeg(data), f"daiso-{p['pdNo']}-{n}.jpg"))
+    log(f"  images: total {len(urls)}, kept {len(kept)}, dropped {len(dropped)} {[d['reason'] for d in dropped]}")
+    return {"source_urls": [u for u, _ in kept], "resource_urls": resource_urls, "skipped": dropped,
+            "total": len(urls)}
+
+
+# ---------------------------------------------------------------- 가격: 원가+배송+관세+수수료 바닥 + shop.com 최저가 비교
+
+MIN_MARGIN = float(os.environ.get("MIN_MARGIN", "0.30"))  # 이 마진 밑으로는 절대 팔지 않는다 (바닥)
+_STOP = {"the", "and", "for", "with", "korean", "korea", "new", "set", "of", "by", "ml", "g", "ea", "pcs", "oz", "x"}
+
+
+def _tokens(s):
+    s = re.sub(r"[\[\]()]", " ", (s or "").lower())
+    s = re.sub(r"(\d)\s*(ml|g|ea|pcs|oz)\b", r"\1 \2", s)
+    return re.findall(r"[a-z0-9]+", s)
+
+
+def _sizes(s):
+    return {(m.group(1), m.group(2)) for m in re.finditer(r"(\d+(?:\.\d+)?)\s*(ml|g|ea|pcs|oz)\b", (s or "").lower())} | {
+        (m.group(1), "ea") for m in re.finditer(r"x\s*(\d+)\b", (s or "").lower())}
+
+
+def comparable(ours, cand):
+    """같은 상품으로 볼 수 있는 검색 결과만 남긴다: 브랜드 일치, 모델 숫자 일치, 핵심 단어 60% 이상, 용량·입수 충돌 없음."""
+    ot, ct = _tokens(ours), set(_tokens(cand))
+    if not ot or not ct:
+        return False
+    brand = ot[0]
+    if brand not in ct:
+        return False
+    size_nums = {n for n, _ in _sizes(ours)}
+    model_nums = [x for x in ot if x.isdigit() and x not in size_nums]
+    if any(n not in ct for n in model_nums):
+        return False
+    words = [x for x in ot if not x.isdigit() and x not in _STOP and len(x) > 2]
+    if words and sum(1 for w in words if w in ct) / len(words) < 0.6:
+        return False
+    os_, cs = _sizes(ours), _sizes(cand)
+    if cs and os_ and not (os_ <= cs):
+        return False
+    # 우리 쪽에 없는 구분어(헤어/세트 등)가 후보에 있으면 다른 상품이다
+    for bad in ("hair", "set", "kit", "refill", "sample", "bundle", "duo", "trio"):
+        if bad in ct and bad not in set(ot):
+            return False
+    return True
+
+
+def shop_compare(title):
+    """shop.com 검색 결과에서 같은 상품의 최저 판매가(USD). 실패하면 None."""
+    import subprocess  # noqa: PLC0415
+
+    words = [w for w in re.sub(r"[\[\]()]", " ", title).split() if w.lower() not in _STOP and not re.fullmatch(r"\d+(ml|g|ea)?", w.lower()) or w.isdigit()]
+    query = " ".join(words[:6])
+    try:
+        out = subprocess.run([sys.executable, str(ROOT / "scripts" / "shop_price_compare.py"), query],
+                             capture_output=True, text=True, timeout=150, check=False).stdout.strip().splitlines()
+        data = json.loads(out[-1]) if out else {"results": [], "error": "no output"}
+    except Exception as exc:  # noqa: BLE001
+        return {"query": query, "error": f"{type(exc).__name__}: {exc}", "matches": [], "lowest_usd": None}
+    matches = [r for r in data.get("results", []) if r.get("usd") and comparable(title, r["title"])]
+    prices = sorted(r["usd"] for r in matches)
+    if len(prices) >= 3:  # 오등록(1달러 등) 같은 이상치는 중앙값의 40% 미만이면 버린다
+        med = prices[len(prices) // 2]
+        matches = [r for r in matches if r["usd"] >= med * 0.4]
+        prices = sorted(r["usd"] for r in matches)
+    lowest = prices[0] if prices else None
+    return {"query": query, "error": data.get("error"), "found": len(data.get("results", [])),
+            "matches": sorted(matches, key=lambda r: r["usd"])[:5], "lowest_usd": lowest}
+
+
+def _landed(pd_no, name, krw, qty):
+    import pricing_model as pm  # noqa: PLC0415
+
+    st = json.loads((ROOT / "data/daiso_real/collection_status.json").read_text(encoding="utf-8"))
+    rate = float((st.get("fx") or {}).get("usd_to_krw") or 0)
+    if not rate:
+        raise RuntimeError("환율이 없어 가격을 계산할 수 없다 (임의 환율 사용 금지)")
+    market = pm.market_benchmark() or {"p25": 0, "median": 0}
+    row = pm.analyze({"pd_no": pd_no, "name": name, "price_krw": krw}, rate, qty, market, DUTY_MODE)
+    return row["landed_cost_usd"] * qty, pm
+
+
+def final_prices(pd_no, name_kr, krw, title_en, base_price):
+    """판매가 결정.
+    바닥(floor) = 착지원가(원가+우체국 배송+관세 15%) / (1 - 결제수수료 7.4% - 최소마진)  -> 이 밑으로는 절대 안 판다.
+    shop.com 에 같은 상품이 있으면 그 최저가보다 약간 낮게 맞추되 바닥 아래로는 내리지 않는다. 없으면 JARVIS 권장가(base_price)."""
+    import math  # noqa: PLC0415
+
+    landed1, pm = _landed(pd_no, name_kr, krw, 1)
+    landed2, _ = _landed(pd_no, name_kr, krw, BUNDLE_QTY)
+    fee = pm.PAY_RATE
+
+    def up(v):  # 바닥 이상의 .99
+        return math.floor(v) + 0.99 if math.floor(v) + 0.99 >= v else math.floor(v) + 1.99
+
+    def down(v):  # 값보다 낮은 .99
+        return math.floor(v - 0.01) - 0.01 if v >= 2 else v
+
+    floor1 = up(landed1 / (1 - fee - MIN_MARGIN))
+    cmp_ = shop_compare(title_en)
+    low = cmp_.get("lowest_usd")
+    if low:
+        target = max(down(low) if down(low) < low else low - 0.5, 0)
+        single, basis = max(floor1, round(target, 2)), "shop.com 최저가보다 낮게 (바닥 마진 보장)"
+        if low < floor1:
+            basis = "shop.com 최저가가 바닥보다 낮아 바닥가로 설정"
+    else:
+        single, basis = max(floor1, base_price), "shop.com 비교 불가 -> JARVIS 권장가 (바닥 마진 보장)"
+    single = round(single, 2)
+
+    floor2 = up(landed2 / (1 - fee - MIN_MARGIN))
+    pack = max(pm.psych_price(single * BUNDLE_QTY * (1 - BUNDLE_DISCOUNT)), floor2)
+    pack = round(pack, 2)
+
+    def margin(price, landed):
+        net = price - landed - price * fee
+        return round(net, 2), round(net / price * 100, 1)
+
+    n1, m1 = margin(single, landed1)
+    n2, m2 = margin(pack, landed2)
+    return {
+        "single": {"price_usd": single, "landed_cost_usd": round(landed1, 2), "net_profit_usd": n1, "margin_pct": m1, "floor_usd": floor1},
+        "pack": {"price_usd": pack, "compare_at_usd": round(single * BUNDLE_QTY, 2), "landed_cost_usd": round(landed2, 2),
+                 "net_profit_usd": n2, "margin_pct": m2, "floor_usd": floor2, "ok": pack < single * BUNDLE_QTY and n2 > 0},
+        "basis": basis, "shop_compare": cmp_, "min_margin": MIN_MARGIN,
+    }
+
+
+# ---------------------------------------------------------------- 중복 방지 레지스트리 (삭제한 상품이 다시 올라오지 않게)
+
+REGISTRY = ROOT / "data" / "shopify_daily_registry.json"
+FORCE = os.environ.get("FORCE", "0").strip().lower() in {"1", "true", "yes"}
+
+
+def kst_today():
+    from datetime import timedelta  # noqa: PLC0415
+
+    return (datetime.now(timezone.utc) + timedelta(hours=9)).strftime("%Y-%m-%d")
+
+
+def family_key(name_kr):
+    """같은 상품의 색상·호수·괄호 표기만 다른 변형을 한 묶음으로 본다: 대괄호/괄호 안 글자와 공백을 지운 이름."""
+    s = re.sub(r"\[[^\]]*\]|\([^)]*\)", "", name_kr or "")
+    return re.sub(r"[\s\-_/·.,]+", "", s).lower()
+
+
+def load_registry():
+    try:
+        d = json.loads(REGISTRY.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        d = {}
+    d.setdefault("items", [])
+    return d
+
+
+def save_registry(d):
+    REGISTRY.parent.mkdir(parents=True, exist_ok=True)
+    REGISTRY.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 # ---------------------------------------------------------------- Main
 
 
-def pick(cat, shop, titles):
+def pick(cat, shop, titles, reg):
+    seen_pd = {str(i.get("pd_no")) for i in reg["items"]}
+    seen_fam = {i.get("family") for i in reg["items"]}
     items = [p for p in fetch_daiso(cat[1], cat[2]) if sellable(p)]
     items.sort(key=score, reverse=True)
     for p in items:
+        if str(p["pdNo"]) in seen_pd or family_key(clean_name(p["pdNm"])) in seen_fam:
+            continue  # 이미 올렸던 상품(삭제했어도) 또는 같은 상품의 색상·호수 변형
         if shop is not None and shop.exists(p["pdNo"]):
             continue
         return p
@@ -855,13 +942,19 @@ def main():
     else:
         log("DRY_RUN without Shopify credentials: duplicate check skipped.")
 
+    reg = load_registry()
+    today = kst_today()
     results, failures = [], 0
     for cat in CATEGORIES:
         if ONLY and cat[0] not in ONLY:
             continue
         log(f"== {cat[1]} ({cat[0]})")
+        if not FORCE and any(i.get("date") == today and i.get("category") == cat[0] for i in reg["items"]):
+            log("  already registered today for this category -> skip (하루 카테고리별 1개)")
+            results.append({"category": cat[0], "status": "skipped_already_today"})
+            continue
         try:
-            p = pick(cat, shop, titles)
+            p = pick(cat, shop, titles, reg)
             if not p:
                 log("  no eligible product")
                 results.append({"category": cat[0], "status": "skipped_no_candidate"})
@@ -869,7 +962,8 @@ def main():
             krw = int(p["pdPrc"])
             copy = gemini_copy(p, cat) or fallback_copy(p, cat)
             title, html = copy
-            pr = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
+            base = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
+            pr = final_prices(p["pdNo"], clean_name(p["pdNm"]), krw, title, base["price_usd"])
             g = collect_gosi(p["pdNo"])
             label = build_us_label(p["pdNo"], clean_name(p["pdNm"]), g)
             if has_claims(title, html):  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
@@ -890,11 +984,9 @@ def main():
             imgs = prepare_images(p, shop)
             if not imgs["source_urls"]:
                 reasons.append("no_usable_product_images")
-            if imgs.get("unverified"):
-                reasons.append("images_not_verified_by_vision")
             images = imgs["resource_urls"] if (shop is not None and not DRY_RUN) else imgs["source_urls"]
-            bo = bundle_offer(p["pdNo"], clean_name(p["pdNm"]), krw, pr["price_usd"])
-            variants = [{"name": "Single (1 pc)", "price": pr["price_usd"], "sku": f"DS-{p['pdNo']}-1"}]
+            bo = pr["pack"]
+            variants = [{"name": "Single (1 pc)", "price": pr["single"]["price_usd"], "sku": f"DS-{p['pdNo']}-1"}]
             if bo["ok"]:
                 variants.append(
                     {
@@ -915,7 +1007,7 @@ def main():
                 "images": images,
                 "category": TAXONOMY[cat[0]],
                 "variants": variants,
-                "price_usd": pr["price_usd"],
+                "price_usd": pr["single"]["price_usd"],
                 # 영문 제목·고시 4항목·신규 이미지 중 하나라도 없으면 공개하지 않고 초안으로 둔다.
                 "status": "DRAFT" if reasons else "ACTIVE",
             }
@@ -946,6 +1038,10 @@ def main():
                 rec["handle"] = prod["handle"]
                 rec["url"] = f"https://{shop.store}/products/{prod['handle']}"
                 titles.add(title.lower())
+                reg["items"].append({"pd_no": str(p["pdNo"]), "family": family_key(clean_name(p["pdNm"])), "name_kr": clean_name(p["pdNm"]),
+                                     "title": title, "category": cat[0], "date": today, "shopify_id": prod["id"],
+                                     "status": item["status"]})
+                save_registry(reg)
             results.append(rec)
         except Exception as exc:  # keep going so one category failure doesn't block the others
             failures += 1
