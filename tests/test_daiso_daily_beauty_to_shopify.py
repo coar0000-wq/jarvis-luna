@@ -518,6 +518,19 @@ class DailySafetyTests(unittest.TestCase):
         self.assertIn("path: |\n            out/daiso_daily_beauty_result.json\n            data/shopify_daily_registry.json", workflow)
         self.assertIn("quarantine_blocked_public:", workflow)
 
+    def test_price_unfit_reason_excludes_bad_margin(self):
+        ok = {"single": {"price_usd": 14.99, "net_profit_usd": 4.0, "margin_pct": 33.6},
+              "pack": {"ok": True, "margin_pct": 48.7}, "min_margin": 0.30}
+        self.assertIsNone(daily.price_unfit_reason(3000, ok))
+        low = {**ok, "single": {"price_usd": 14.99, "net_profit_usd": 3.0, "margin_pct": 24.0}}
+        self.assertTrue(daily.price_unfit_reason(3000, low).startswith("single_margin_below_floor"))
+        self.assertEqual(daily.price_unfit_reason(3000, {**ok, "pack": {"ok": False, "margin_pct": 10}}), "bundle_margin_not_ok")
+        self.assertEqual(daily.price_unfit_reason(0, ok), "no_cost_price")
+        neg = {**ok, "single": {"price_usd": 9.0, "net_profit_usd": -1.0, "margin_pct": -5.0}}
+        self.assertEqual(daily.price_unfit_reason(3000, neg), "single_unprofitable")
+        est = {**ok, "min_margin": 0.35, "single": {"price_usd": 14.99, "net_profit_usd": 4.0, "margin_pct": 33.6}}
+        self.assertTrue(daily.price_unfit_reason(3000, est).startswith("single_margin_below_floor"))
+
     def test_banner_exact_prefix(self):
         self.assertEqual(daily.TAGLINE_HTML, "<p><strong>한국여성들이 즐겨찾는 제품</strong></p>")
 

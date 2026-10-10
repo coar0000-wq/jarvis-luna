@@ -255,6 +255,28 @@ class Shopify:
         if d["userErrors"]:
             raise RuntimeError(f"publish: {d['userErrors']}")
 
+    def other_publications(self, online_store_id):
+        """Online Store 외 모든 판매 채널(Google & YouTube, Facebook & Instagram, Pinterest, Buy Button, POS 등)."""
+        d = self.gql("{publications(first:30){nodes{id name}}}")
+        return [(n["id"], n["name"]) for n in d["publications"]["nodes"] if n["id"] != online_store_id]
+
+    def publish_channels(self, product_id, online_store_id):
+        """공개된 상품을 나머지 판매 채널에도 게시한다(Shopify 카탈로그·광고 채널 노출용). 실패해도 상품 등록은 유지하고 결과만 돌려준다."""
+        out = {}
+        try:
+            targets = self.other_publications(online_store_id)
+        except Exception as exc:  # noqa: BLE001
+            return {"_error": str(exc)[:200]}
+        for pid, name in targets:
+            try:
+                d = self.gql("""mutation($id:ID!,$input:[PublicationInput!]!){
+                  publishablePublish(id:$id,input:$input){userErrors{field message}}}""",
+                  {"id": product_id, "input": [{"publicationId": pid}]})["publishablePublish"]
+                out[name] = "ok" if not d["userErrors"] else "error:" + str(d["userErrors"])[:120]
+            except Exception as exc:  # noqa: BLE001
+                out[name] = "error:" + str(exc)[:120]
+        return out
+
     def online_store_publication(self):
         d = self.gql("{publications(first:20){nodes{id name}}}")
         for n in d["publications"]["nodes"]:
@@ -1019,6 +1041,64 @@ def save_registry(d):
             os.unlink(name)
 
 
+
+
+def price_unfit_reason(krw, pr):
+    """가격·마진 조건을 못 맞추는 상품이면 사유를 돌려준다(없으면 None). 이런 상품은 후보에서 제외한다.
+    값이 아예 없는 경우(필드 누락)는 판단하지 않고 통과시킨다. 판정은 확인된 수치로만 한다."""
+    if not krw or krw <= 0:
+        return "no_cost_price"
+    s, k = pr.get("single") or {}, pr.get("pack") or {}
+    floor = pr.get("min_margin")
+    floor_pct = round(floor * 100, 1) if floor is not None else None
+    price, net, mg = s.get("price_usd"), s.get("net_profit_usd"), s.get("margin_pct")
+    if price is not None and price <= 0:
+        return "single_price_invalid"
+    if net is not None and net <= 0:
+        return "single_unprofitable"
+    if mg is not None and floor_pct is not None and mg + 0.05 < floor_pct:
+        return f"single_margin_below_floor:{mg}<{floor_pct}"
+    if k and k.get("ok") is False:
+        return "bundle_margin_not_ok"
+    kmg = k.get("margin_pct")
+    if kmg is not None and floor_pct is not None and kmg + 0.05 < floor_pct:
+        return f"bundle_margin_below_floor:{kmg}<{floor_pct}"
+    return None
+
+
+# ---------------------------------------------------------------- 가격 포지션 기록 (불리한 상품의 대체 전략 학습용)
+
+STRATEGY_LOG = ROOT / "data" / "price_strategy_log.json"
+
+
+def price_position(our_usd, lowest_usd, margin_pct):
+    """우리 단품가 vs shop.com 최저가. 마진 우선이라 최저가를 못 이기는 상품은 가격 외 전략 후보를 함께 적는다.
+    판매 데이터가 없는 동안에는 결과(효과)를 추정하지 않고 관측값만 쌓는다."""
+    if not lowest_usd:
+        return {"position": "no_comparison", "gap_pct": None, "hints": ["shop_com_match_missing: 비교 가능한 동일 상품 없음, 자비스 권장가 유지"]}
+    gap = round((our_usd - lowest_usd) / lowest_usd * 100, 1)
+    if gap <= 0:
+        return {"position": "cheapest_or_equal", "gap_pct": gap, "hints": []}
+    if gap <= 15:
+        return {"position": "near", "gap_pct": gap, "hints": ["1+1 세트로 개당가 비교 완화"]}
+    return {"position": "unfavorable", "gap_pct": gap,
+            "hints": ["1+1 세트·번들로 직접 비교 회피", "상품 이미지·설명(한국 인기 근거) 보강", "가격 외 채널(SNS) 노출 우선", "판매·클릭 데이터가 쌓이면 효과 검증"]}
+
+
+def log_price_position(entry, pos):
+    """data/price_strategy_log.json 에 날짜별로 누적한다. 같은 상품의 같은 날 기록은 덮어쓴다."""
+    try:
+        d = json.loads(STRATEGY_LOG.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        d = {"schema_version": 1, "note": "판매 데이터가 생기기 전까지는 관측만 기록한다. 효과를 추정하지 않는다.", "items": []}
+    row = {"date": entry.get("date"), "pd_no": entry.get("pd_no"), "title": entry.get("title"),
+           "our_usd": entry.get("single_usd"), "shop_com_lowest_usd": entry.get("shop_com_lowest_usd"),
+           "margin_pct": entry.get("single_margin_pct"), **pos, "observed_sales": None, "observed_clicks": None}
+    d["items"] = [r for r in d["items"] if not (r.get("pd_no") == row["pd_no"] and r.get("date") == row["date"])] + [row]
+    STRATEGY_LOG.parent.mkdir(parents=True, exist_ok=True)
+    STRATEGY_LOG.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 # ---------------------------------------------------------------- Main
 
 
@@ -1444,24 +1524,34 @@ def main():
                                 "grade_required": grade_label(cat), "s_candidates": 0})
                 continue
             excluded = set()
+            price_excluded = []
             while True:
                 p = pick(cat, shop, names, ids, reg, rows, excluded)
                 if not p:
                     log("  no available, sellable, unregistered S-grade candidate")
                     results.append({"category": cat[0], "status": "skipped_no_eligible_s_grade",
-                                    "grade_required": grade_label(cat), "s_candidates": len(rows)})
+                                    "grade_required": grade_label(cat), "s_candidates": len(rows),
+                                    "price_excluded": price_excluded})
                     break
                 copy = gemini_copy(p, cat) or fallback_copy(p, cat)
                 title, html = copy
-                if not already_registered(p, reg, names, ids, title):
-                    current_p = p
-                    break
-                excluded.add(str(p["pdNo"]))
+                if already_registered(p, reg, names, ids, title):
+                    excluded.add(str(p["pdNo"]))
+                    continue
+                # 가격·마진이 안 맞는 상품은 목록에서 제외하고 다음 후보로 넘어간다 (초안으로 남기지 않는다).
+                krw = int(p["pdPrc"])
+                base = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
+                pr = final_prices(p["pdNo"], clean_name(p["pdNm"]), krw, title, base["price_usd"])
+                why = price_unfit_reason(krw, pr)
+                if why:
+                    log(f"  excluded (price/margin): {p['pdNo']} {clean_name(p['pdNm'])} -> {why}")
+                    excluded.add(str(p["pdNo"]))
+                    price_excluded.append({"pd_no": str(p["pdNo"]), "reason": why})
+                    continue
+                current_p = p
+                break
             if not p:
                 continue
-            krw = int(p["pdPrc"])
-            base = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
-            pr = final_prices(p["pdNo"], clean_name(p["pdNm"]), krw, title, base["price_usd"])
             g = collect_gosi(p["pdNo"])
             label = build_us_label(p["pdNo"], clean_name(p["pdNm"]), g)
             if has_claims(title, html):  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
@@ -1562,6 +1652,12 @@ def main():
                          "size": parse_size(clean_name(p["pdNm"])), "images": len(images),
                          "price_basis": pr["basis"], "shop_com_lowest_usd": cmpd.get("lowest_usd"),
                          "draft_reasons": reasons, "grade": p["_grade"], "source": p.get("_source")}
+                pos = price_position(entry.get("single_usd"), entry.get("shop_com_lowest_usd"), entry.get("single_margin_pct"))
+                entry["price_position"], entry["strategy_hints"] = pos["position"], pos["hints"]
+                try:
+                    log_price_position(entry, pos)
+                except OSError as exc:
+                    log(f"  price log skipped: {exc}")
                 reg["items"].append(entry)
                 current_entry = entry
                 save_registry(reg)  # unknown network outcome must remain a durable duplicate block
@@ -1599,6 +1695,8 @@ def main():
                         live = verify_product(shop, prod["id"], item, pub, published=True)
                         rec["verified_status"] = live["status"]
                         rec["published_on_online_store"] = bool(live["publishedOnPublication"])
+                        rec["channel_publish"] = shop.publish_channels(prod["id"], pub)
+                        log(f"  channels: {rec['channel_publish']}")
                     except Exception:
                         # Fail closed even if publish/read-back fails after status activation.
                         shop.set_status(prod["id"], "DRAFT")
