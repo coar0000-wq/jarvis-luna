@@ -535,6 +535,14 @@ nav a{font-size:12px;}
 </div>
 
 
+  <!-- Shopify 일일 등록 (다이소 -> coarfamily) -->
+  <div class="dashboard-card" id="shopify-daily-card">
+    <h4><img class="h4-img" src="images/shopify.png" alt="Shopify" width="18" height="18">Shopify 일일 등록 (다이소 → coarfamily)</h4>
+    <div id="shopify-daily-summary" style="font-size:12px;color:#888;padding:4px 0 8px;">불러오는 중…</div>
+    <ul class="mkt-list" id="shopify-daily-list">
+      <li style="color:#666;font-size:13px;padding:10px 0;">로딩중...</li>
+    </ul>
+  </div>
   <!-- OliveYoung US -->
   <div class="dashboard-card">
     <h4><span class="dashboard-card-icon">🌿</span>OliveYoung US</h4>
@@ -1811,6 +1819,34 @@ a.classList.add('active');
 });
 });
 </script>
-</body>
+<script>
+/* Shopify 일일 등록 현황: data/shopify_daily_registry.json (GitHub Actions 가 매일 10:00 KST 에 갱신) */
+(async function(){
+  var sum=document.getElementById('shopify-daily-summary'), list=document.getElementById('shopify-daily-list');
+  if(!sum||!list) return;
+  try{
+    var d=await getJSON('data/shopify_daily_registry.json');
+    var items=(d&&d.items)||[];
+    var live=items.filter(function(i){return i.status==='ACTIVE';}).length;
+    var last=items.length?items[items.length-1].date:'-';
+    sum.textContent='누적 '+items.length+'개 · 공개 '+live+' · 초안 '+(items.length-live)+' · 최근 등록 '+last+' · 하루 카테고리별 1개, 단품+1+1';
+    list.innerHTML='';
+    if(!items.length){ var e=document.createElement('li'); e.style.cssText='color:#666;font-size:13px;padding:10px 0;'; e.textContent='아직 등록된 상품이 없습니다.'; list.appendChild(e); return; }
+    items.slice(-12).reverse().forEach(function(i){
+      var li=document.createElement('li'); li.style.cssText='padding:8px 0;font-size:12.5px;line-height:1.5;';
+      var cat={skincare:'스킨케어',makeup:'메이크업',body:'바디'}[i.category]||i.category;
+      var sz=i.size?(i.size.unit+i.size.base+(i.size.count>1?' x '+i.size.count:'')):'용량 표기 없음';
+      var price=i.single_usd!=null?('$'+i.single_usd.toFixed(2)+' (마진 '+i.single_margin_pct+'%)'+(i.pack_usd?' · 1+1 $'+i.pack_usd.toFixed(2)+' ('+i.pack_margin_pct+'%)':'')):'';
+      var cmp=i.shop_com_lowest_usd?(' · shop.com 최저 $'+Number(i.shop_com_lowest_usd).toFixed(2)):' · shop.com 비교 없음';
+      var st=i.status==='ACTIVE'?'공개':'초안';
+      var why=(i.draft_reasons&&i.draft_reasons.length)?(' · 사유: '+i.draft_reasons.join(', ')):'';
+      var head=document.createElement('strong'); head.textContent='['+cat+'] '+i.title;
+      var meta=document.createElement('div'); meta.style.color='#8b949e';
+      meta.textContent=i.date+' · '+st+' · '+sz+' · 이미지 '+(i.images||0)+'장 · '+price+cmp+why;
+      li.appendChild(head); li.appendChild(meta); list.appendChild(li);
+    });
+  }catch(err){ sum.textContent='등록 현황을 불러오지 못했습니다.'; }
+})();
+</script></body>
 </html>
 

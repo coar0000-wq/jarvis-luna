@@ -752,6 +752,28 @@ def prepare_images(p, shop):
             "total": len(urls)}
 
 
+
+# ---------------------------------------------------------------- 용량 파싱·비교 (총량 기준)
+
+def parse_size(s):
+    """'2ml*6개입', '2 ml x 6 ea', '90g', '1.69 fl oz' -> {'unit': 개당 용량, 'base': 'ml'|'g', 'count': 입수, 'total': 총량}. 없으면 None."""
+    s = (s or "").lower().replace("fl. oz", "fl oz")
+    m = re.search(r"(\d+(?:\.\d+)?)\s*(kg|ml|fl oz|oz|g|l)\b", s)
+    if not m:
+        return None
+    v, u = float(m.group(1)), m.group(2)
+    base, mult = {"ml": ("ml", 1), "l": ("ml", 1000), "fl oz": ("ml", 29.5735), "g": ("g", 1), "kg": ("g", 1000), "oz": ("g", 28.3495)}[u]
+    unit = v * mult
+    c = re.search(r"[x*×]\s*(\d+)\b", s[m.end():]) or re.search(r"(\d+)\s*(?:ea|pcs|pc|개입|매입|입|ct|pack)\b", s[m.end():])
+    pre = re.search(r"(\d+)\s*[x*×]\s*$", s[: m.start()])  # "3 x 90g" 처럼 앞에 입수가 오는 표기
+    count = int(c.group(1)) if c else (int(pre.group(1)) if pre else 1)
+    return {"unit": round(unit, 2), "base": base, "count": count, "total": round(unit * count, 2)}
+
+
+def same_total(a, b, tol=0.05):
+    return bool(a and b and a["base"] == b["base"] and abs(a["total"] - b["total"]) <= tol * max(a["total"], b["total"]))
+
+
 # ---------------------------------------------------------------- 가격: 원가+배송+관세+수수료 바닥 + shop.com 최저가 비교
 
 MIN_MARGIN = float(os.environ.get("MIN_MARGIN", "0.30"))  # 이 마진 밑으로는 절대 팔지 않는다 (바닥)
@@ -784,9 +806,10 @@ def comparable(ours, cand):
     words = [x for x in ot if not x.isdigit() and x not in _STOP and len(x) > 2]
     if words and sum(1 for w in words if w in ct) / len(words) < 0.6:
         return False
-    os_, cs = _sizes(ours), _sizes(cand)
-    if cs and os_ and not (os_ <= cs):
-        return False
+    so, sc = parse_size(ours), parse_size(cand)
+    if so:  # 우리 상품에 용량이 있으면 후보도 총량이 같아야 한다 (용량 표기가 없는 후보는 비교하지 않는다)
+        if not same_total(so, sc):
+            return False
     # 우리 쪽에 없는 구분어(헤어/세트 등)가 후보에 있으면 다른 상품이다
     for bad in ("hair", "set", "kit", "refill", "sample", "bundle", "duo", "trio"):
         if bad in ct and bad not in set(ot):
@@ -817,16 +840,36 @@ def shop_compare(title):
             "matches": sorted(matches, key=lambda r: r["usd"])[:5], "lowest_usd": lowest}
 
 
+_FX = {}
+
+
+def fx_rate():
+    """원/달러. 공개 환율 API(실시간)를 우선 쓰고, 없으면 JARVIS 수집값(collection_status.json). 둘 다 없으면 중단한다(임의 환율 금지)."""
+    if "v" in _FX:
+        return _FX["v"]
+    st = json.loads((ROOT / "data/daiso_real/collection_status.json").read_text(encoding="utf-8"))
+    saved = float((st.get("fx") or {}).get("usd_to_krw") or 0)
+    live = 0.0
+    try:
+        with urllib.request.urlopen("https://open.er-api.com/v6/latest/USD", timeout=20) as r:
+            live = float((json.loads(r.read().decode()).get("rates") or {}).get("KRW") or 0)
+    except Exception:  # noqa: BLE001
+        pass
+    rate = live or saved
+    if not rate:
+        raise RuntimeError("환율이 없어 가격을 계산할 수 없다 (임의 환율 사용 금지)")
+    log(f"  fx: live={live or None} saved={saved or None} -> use {rate}")
+    _FX["v"] = {"rate": rate, "live": live or None, "saved": saved or None}
+    return _FX["v"]
+
+
 def _landed(pd_no, name, krw, qty):
     import pricing_model as pm  # noqa: PLC0415
 
-    st = json.loads((ROOT / "data/daiso_real/collection_status.json").read_text(encoding="utf-8"))
-    rate = float((st.get("fx") or {}).get("usd_to_krw") or 0)
-    if not rate:
-        raise RuntimeError("환율이 없어 가격을 계산할 수 없다 (임의 환율 사용 금지)")
+    rate = fx_rate()["rate"]
     market = pm.market_benchmark() or {"p25": 0, "median": 0}
     row = pm.analyze({"pd_no": pd_no, "name": name, "price_krw": krw}, rate, qty, market, DUTY_MODE)
-    return row["landed_cost_usd"] * qty, pm
+    return row["landed_cost_usd"] * qty, pm, row
 
 
 def final_prices(pd_no, name_kr, krw, title_en, base_price):
@@ -835,9 +878,12 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price):
     shop.com 에 같은 상품이 있으면 그 최저가보다 약간 낮게 맞추되 바닥 아래로는 내리지 않는다. 없으면 JARVIS 권장가(base_price)."""
     import math  # noqa: PLC0415
 
-    landed1, pm = _landed(pd_no, name_kr, krw, 1)
-    landed2, _ = _landed(pd_no, name_kr, krw, BUNDLE_QTY)
+    landed1, pm, row1 = _landed(pd_no, name_kr, krw, 1)
+    landed2, _, row2 = _landed(pd_no, name_kr, krw, BUNDLE_QTY)
     fee = pm.PAY_RATE
+    # 무게를 실측하지 못하고 추정한 상품은 우체국 요금 구간이 틀릴 수 있어 마진을 5%p 더 확보한다
+    estimated = row1.get("weight_source") == "estimated"
+    margin_floor = MIN_MARGIN + (0.05 if estimated else 0.0)
 
     def up(v):  # 바닥 이상의 .99
         return math.floor(v) + 0.99 if math.floor(v) + 0.99 >= v else math.floor(v) + 1.99
@@ -845,7 +891,7 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price):
     def down(v):  # 값보다 낮은 .99
         return math.floor(v - 0.01) - 0.01 if v >= 2 else v
 
-    floor1 = up(landed1 / (1 - fee - MIN_MARGIN))
+    floor1 = up(landed1 / (1 - fee - margin_floor))
     cmp_ = shop_compare(title_en)
     low = cmp_.get("lowest_usd")
     if low:
@@ -857,7 +903,7 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price):
         single, basis = max(floor1, base_price), "shop.com 비교 불가 -> JARVIS 권장가 (바닥 마진 보장)"
     single = round(single, 2)
 
-    floor2 = up(landed2 / (1 - fee - MIN_MARGIN))
+    floor2 = up(landed2 / (1 - fee - margin_floor))
     pack = max(pm.psych_price(single * BUNDLE_QTY * (1 - BUNDLE_DISCOUNT)), floor2)
     pack = round(pack, 2)
 
@@ -871,7 +917,9 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price):
         "single": {"price_usd": single, "landed_cost_usd": round(landed1, 2), "net_profit_usd": n1, "margin_pct": m1, "floor_usd": floor1},
         "pack": {"price_usd": pack, "compare_at_usd": round(single * BUNDLE_QTY, 2), "landed_cost_usd": round(landed2, 2),
                  "net_profit_usd": n2, "margin_pct": m2, "floor_usd": floor2, "ok": pack < single * BUNDLE_QTY and n2 > 0},
-        "basis": basis, "shop_compare": cmp_, "min_margin": MIN_MARGIN,
+        "basis": basis, "shop_compare": cmp_, "min_margin": margin_floor,
+        "weight_g": row1.get("weight_g_est"), "weight_source": row1.get("weight_source"), "shipping_usd": row1.get("shipping_unit_usd"),
+        "tariff_usd": row1.get("tariff_usd"), "fx": fx_rate(),
     }
 
 
@@ -972,6 +1020,14 @@ def main():
             html += label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
             reasons = list(label["reasons"])
+            # 용량 교차 검증: 다이소 상품명 / 고시 / 영문 제목 이 서로 맞아야 한다
+            sz_name, sz_title = parse_size(clean_name(p["pdNm"])), parse_size(title)
+            sz_gosi = parse_size(g.get("volume", ""))
+            if sz_name and sz_title and not same_total(sz_name, sz_title, 0.02):
+                reasons.append(f"title_volume_mismatch:name={sz_name['total']}{sz_name['base']},title={sz_title['total']}{sz_title['base']}")
+            if sz_name and sz_gosi and not (same_total(sz_name, sz_gosi, 0.02)
+                                           or (sz_name["base"] == sz_gosi["base"] and abs(sz_name["unit"] - sz_gosi["unit"]) <= 0.02 * sz_name["unit"])):
+                reasons.append(f"volume_mismatch:name={sz_name['unit']}x{sz_name['count']},gosi={sz_gosi['total']}")
             if (p.get("brndNm") or "").strip() not in BRAND_EN:
                 # 브랜드 영문 표기는 추측하지 않는다. 검증된 표(BRAND_EN)에 없으면 사람이 확인할 때까지 초안.
                 reasons.append(f"brand_english_unverified:{(p.get('brndNm') or '').strip()}")
@@ -1038,9 +1094,16 @@ def main():
                 rec["handle"] = prod["handle"]
                 rec["url"] = f"https://{shop.store}/products/{prod['handle']}"
                 titles.add(title.lower())
+                cmpd = pr.get("shop_compare") or {}
                 reg["items"].append({"pd_no": str(p["pdNo"]), "family": family_key(clean_name(p["pdNm"])), "name_kr": clean_name(p["pdNm"]),
                                      "title": title, "category": cat[0], "date": today, "shopify_id": prod["id"],
-                                     "status": item["status"]})
+                                     "status": item["status"], "handle": prod["handle"], "krw": krw,
+                                     "single_usd": pr["single"]["price_usd"], "single_margin_pct": pr["single"]["margin_pct"],
+                                     "pack_usd": pr["pack"]["price_usd"] if pr["pack"]["ok"] else None,
+                                     "pack_margin_pct": pr["pack"]["margin_pct"] if pr["pack"]["ok"] else None,
+                                     "size": parse_size(clean_name(p["pdNm"])), "images": len(images),
+                                     "price_basis": pr["basis"], "shop_com_lowest_usd": cmpd.get("lowest_usd"),
+                                     "draft_reasons": reasons})
                 save_registry(reg)
             results.append(rec)
         except Exception as exc:  # keep going so one category failure doesn't block the others

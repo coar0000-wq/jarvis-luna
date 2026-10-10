@@ -18,6 +18,7 @@ on:
       - 루트 수집기 3종 (gosi / product / inci)
       - SerpApi 미국 시장가·트렌드·YouTube 수집
       - Shopify 영문 리스팅 카피 생성
+      - 다이소 오늘의 뷰티추천 → Shopify 일일 등록
       - 미국 리테일 베스트셀러 수집 (브라우저)
     types: [completed]
     branches: [main]
