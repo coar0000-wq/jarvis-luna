@@ -87,6 +87,8 @@ SCHEMAS = {
  'data/agents/collector_audit.json': obj('agent generated_at products_total severity',last_run=RUN,suggestions=[True]),
  'data/agents/score_explain.json': obj('agent generated_at s_count rule severity',items=[obj('pd_no name score why global channel',tokens=[True])],gaps=[True]),
  'data/daiso_real/candidate_comparison.json': COMPARISON,
+ # 다이소 -> coarfamily 일일 등록 이력. Shopify 내부 ID 는 공개하지 않는다.
+ 'data/shopify_daily_registry.json': dict(items=[dict(fields('pd_no name_kr title category date status handle krw single_usd single_margin_pct pack_usd pack_margin_pct images price_basis shop_com_lowest_usd'), size=fields('unit base count total'), draft_reasons=[True])]),
 }
 UNSAFE = re.compile(r'(?i)(?:github_pat_[A-Za-z0-9_]+|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|AKIA[A-Z0-9]{16}|(?:authorization|api[_-]?key|password|access[_-]?token)\s*[:=]\s*\S+|[A-Z]:\\(?:Users|Windows)\\|/home/runner/|(?:localhost|127\.0\.0\.1):\d+)')
 
