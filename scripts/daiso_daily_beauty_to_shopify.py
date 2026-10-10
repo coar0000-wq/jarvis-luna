@@ -781,7 +781,7 @@ def prepare_images(p, shop):
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     model = os.environ.get("GEMINI_VISION_MODEL", "gemini-flash-latest")
     urls = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])[:6]]
-    kept, skipped = [], []
+    kept, skipped, unverified = [], [], []
     for i, u in enumerate(urls):
         try:
             req = urllib.request.Request(u, headers={"User-Agent": UA})
@@ -797,6 +797,12 @@ def prepare_images(p, shop):
                     except Exception as exc:  # noqa: BLE001
                         log(f"  image classify {i} attempt {attempt} failed: {exc}")
                         time.sleep(4)
+            if verdict is None:
+                # 무료 Gemini 가 503/429 로 판독 못 한 이미지는 대표컷(첫 장)만 임시로 쓰고, 사람이 보기 전에는 공개하지 않는다.
+                unverified.append(u)
+                if i == 0:
+                    kept.append((u, to_square_jpeg(data)))
+                continue
             if (
                 not verdict
                 or not verdict.get("shows_product")
@@ -815,7 +821,7 @@ def prepare_images(p, shop):
     if shop is not None and not DRY_RUN:
         for n, (u, jpg) in enumerate(kept, 1):
             resource_urls.append(shop.upload_jpeg(jpg, f"daiso-{p['pdNo']}-{n}.jpg"))
-    return {"source_urls": [u for u, _ in kept], "resource_urls": resource_urls, "skipped": skipped}
+    return {"source_urls": [u for u, _ in kept], "resource_urls": resource_urls, "skipped": skipped, "unverified": bool(unverified)}
 
 
 # ---------------------------------------------------------------- Main
@@ -884,6 +890,8 @@ def main():
             imgs = prepare_images(p, shop)
             if not imgs["source_urls"]:
                 reasons.append("no_usable_product_images")
+            if imgs.get("unverified"):
+                reasons.append("images_not_verified_by_vision")
             images = imgs["resource_urls"] if (shop is not None and not DRY_RUN) else imgs["source_urls"]
             bo = bundle_offer(p["pdNo"], clean_name(p["pdNm"]), krw, pr["price_usd"])
             variants = [{"name": "Single (1 pc)", "price": pr["price_usd"], "sku": f"DS-{p['pdNo']}-1"}]
