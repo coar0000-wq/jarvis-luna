@@ -52,12 +52,9 @@ def search(query, timeout_ms=45000):
         browser = pw.chromium.launch(headless=True)
         ctx = browser.new_context(user_agent=UA, locale="en-US", viewport={"width": 1280, "height": 900})
         page = ctx.new_page()
-        page.goto("https://shop.com/", wait_until="domcontentloaded", timeout=timeout_ms)
-        box = page.get_by_placeholder("What are you shopping for today?").first
-        box.wait_for(timeout=timeout_ms)
-        box.fill(query)
-        box.press("Enter")
-        page.wait_for_url(re.compile(r"/search/results"), timeout=timeout_ms)
+        from urllib.parse import quote  # noqa: PLC0415
+
+        page.goto("https://shop.com/search/results?query=" + quote(query), wait_until="domcontentloaded", timeout=timeout_ms)
         page.wait_for_selector("h3", timeout=timeout_ms)
         page.wait_for_timeout(2500)
         cards = page.evaluate(
