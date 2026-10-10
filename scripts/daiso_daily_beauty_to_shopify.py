@@ -608,7 +608,8 @@ def _net_contents(raw, name_kr=""):
     # "2ml*6개입" 같은 세트는 개당 용량 x 개수로 쓰고 단위 환산은 하지 않는다 (총량으로 오해될 수 있다)
     sm = re.search(r"[*xX×]\s*(\d+)\s*(?:개입|개|ea|매|입)", name_kr or "")
     if sm and re.fullmatch(r"\d+(?:\.\d+)?\s*(?:ml|mL|ML|g|G)", raw):
-        return f"{re.sub(r'\s+', ' ', raw)} x {sm.group(1)} ea"
+        base = re.sub(r"\s+", " ", raw)
+        return f"{base} x {sm.group(1)} ea"
     m = re.fullmatch(r"(\d+(?:\.\d+)?)\s*(ml|mL|ML|g|G)", raw)
     if not m:
         return raw  # 세트·복합 표기는 변환하지 않고 원문 그대로 둔다
