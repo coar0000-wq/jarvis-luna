@@ -32,6 +32,12 @@ on:
         required: false
         default: '30'
 
+      reconcile_safety:
+        description: '(사람 확인용 1회 조치) 안전 원장 연속성을 main 의 검증된 스냅샷에서 다시 세운다. 직전 실행들이 증거 파일 없이 실패해 생긴 교착 해소용'
+        required: false
+        default: false
+        type: boolean
+
       refresh_auxiliary_sources:
         description: '환율·뷰티 큐 갱신 (false는 기존 큐로 무료 진단)'
         required: false
@@ -73,7 +79,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python -u scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE"
+        run: |
+          # reconcile_safety=true 는 사람이 수동 실행할 때만 쓴다. main 에 커밋된 스냅샷이 스스로 유효할 때만 통과한다.
+          if [ "${{ github.event_name == 'workflow_dispatch' && inputs.reconcile_safety }}" = "true" ]; then
+            python -u scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE" --verify-current
+          else
+            python -u scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE"
+          fi
 
       - name: Restore immutable operations safety before execution
         id: operations_safety
@@ -81,7 +93,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
+        run: |
+          if [ "${{ github.event_name == 'workflow_dispatch' && inputs.reconcile_safety }}" = "true" ]; then
+            python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE" --verify-current
+          else
+            python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
+          fi
 
       - name: 환율 갱신 (USD/KRW)
         if: github.event_name != 'workflow_dispatch' || inputs.refresh_auxiliary_sources
