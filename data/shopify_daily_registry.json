@@ -1,34 +1,3 @@
 {
-  "items": [
-    {
-      "pd_no": "1049275",
-      "family": "vt리들샷100페이셜부스팅퍼스트앰플2ml*6개입",
-      "name_kr": "VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2ml*6개입",
-      "title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2 ml x 6 ea",
-      "category": "skincare",
-      "date": "2026-10-10",
-      "shopify_id": "gid://shopify/Product/9537087176961",
-      "status": "ACTIVE"
-    },
-    {
-      "pd_no": "1045431",
-      "family": "태그슬림브로우펜슬",
-      "name_kr": "태그 슬림브로우펜슬(2호_애쉬브라운)",
-      "title": "taeg Slim Brow Pencil 2 Ash Brown",
-      "category": "makeup",
-      "date": "2026-10-10",
-      "shopify_id": "gid://shopify/Product/9537093239041",
-      "status": "DRAFT"
-    },
-    {
-      "pd_no": "1063230",
-      "family": "도브센스티브바90g",
-      "name_kr": "도브 센스티브바 90g",
-      "title": "Dove Sensitive Bar 90 g",
-      "category": "body",
-      "date": "2026-10-10",
-      "shopify_id": "gid://shopify/Product/9537096712449",
-      "status": "DRAFT"
-    }
-  ]
+  "items": []
 }
