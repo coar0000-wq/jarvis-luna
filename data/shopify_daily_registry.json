@@ -38,7 +38,7 @@
       "category": "skincare",
       "date": "2026-10-10",
       "shopify_id": "gid://shopify/Product/9537222476033",
-      "status": "ACTIVE",
+      "status": "DRAFT",
       "handle": "vt-reedle-shot-300-facial-boosting-first-ampoule-2-ml-x-6-ea",
       "krw": 3000,
       "single_usd": 14.99,
@@ -56,7 +56,15 @@
       "shop_com_lowest_usd": 6.74,
       "draft_reasons": [],
       "grade": "S",
-      "source": "jarvis_s_list"
+      "source": "jarvis_s_list",
+      "quarantine_reasons": [
+        "canonical_legal_hard_block",
+        "listing_gate_legal_hard_block",
+        "listing_gate_public_not_ready",
+        "listing_gate_draft_not_ready",
+        "listing_gate_legal_full_incomplete",
+        "listing_gate_public_blocked_by:legal,legal_full"
+      ]
     },
     {
       "pd_no": "1048042",
