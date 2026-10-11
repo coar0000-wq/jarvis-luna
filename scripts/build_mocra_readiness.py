@@ -182,6 +182,10 @@ def main() -> int:
     # ④ 안전성 입증 -------------------------------------------------------
     substantiation = profile.get("safety_substantiation") or {}
     covered = {str(x) for x in (substantiation.get("covered_pd_nos") or [])}
+    # 사업주 범위 승인(다이소 품질관리 근거, scripts/manufacturer_safety.covers_all_daiso 와 같은 조건)
+    if (substantiation.get("scope") == "all_daiso_products" and str(substantiation.get("verified_by") or "").strip()
+            and str(substantiation.get("verified_at") or "").strip()):
+        covered |= set(scope_ids)
     missing_sub = sorted(scope_ids - covered)
     checks.append(check(
         "safety_substantiation", "제품별 안전성 입증 자료 보유",

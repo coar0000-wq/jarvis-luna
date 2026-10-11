@@ -309,10 +309,42 @@ def main() -> int:
             "새로 담은 것": added,
         })
 
-    # 신호가 강한 순서로 둔다. 수집기가 앞에서부터 가져간다.
+    # 2026-10-11 카테고리 전담팀: 다이소몰 카테고리 목록(collect_desk_catalog.py)의 상품을
+    # 큐 앞쪽에 둔다. 전담팀 범위(스킨케어 5종·메이크업·바디 샤워/입욕) 상품부터 상세를 받는다.
+    desk_added = 0
+    try:
+        catalog = json.loads((OUT.parent / "desk_catalog.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        catalog = {}
+    for desk, info in (catalog.get("desks") or {}).items():
+        for p in (info or {}).get("products") or []:
+            pd_no = str(p.get("pd_no") or "").strip()
+            if not pd_no.isdigit() or p.get("sold_out"):
+                continue  # B 로 시작하는 묶음 판매 코드와 품절은 상세 수집 대상이 아니다
+            name = str(p.get("name") or "").strip()
+            if excluded_by_name(name, catmap):
+                continue
+            if pd_no in picked:
+                picked[pd_no]["전담팀"] = desk
+                continue
+            picked[pd_no] = {
+                "pdNo": pd_no, "url": PRODUCT.format(pd_no), "출처": ["전담팀 카테고리 목록"],
+                "예상버킷": bucket_by_name(name, catmap), "이름_list": name,
+                "가격_list": to_int(p.get("price_krw")), "리뷰수": to_int(p.get("review_count")),
+                "평점": p.get("rating"), "누적주문수": to_int(p.get("total_orders")),
+                "브랜드": "", "분류코드_list": str(p.get("small_category_code") or ""), "전담팀": desk,
+            }
+            desk_added += 1
+    if desk_added or catalog:
+        per_source.append({"출처": "전담팀 카테고리 목록", "endpoint": "data/daiso_real/desk_catalog.json",
+                           "http_status": None, "받은 항목": sum(len((i or {}).get("products") or [])
+                                                             for i in (catalog.get("desks") or {}).values()),
+                           "새로 담은 것": desk_added})
+
+    # 신호가 강한 순서로 둔다. 수집기가 앞에서부터 가져간다. 전담팀 범위 상품이 먼저다.
     items = sorted(
         picked.values(),
-        key=lambda x: (-x["누적주문수"], -x["리뷰수"]),
+        key=lambda x: (0 if x.get("전담팀") else 1, -x["누적주문수"], -x["리뷰수"]),
     )
 
     if MAX_ITEMS > 0:

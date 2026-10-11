@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T10:51:39.184329+00:00",
+  "generated_at": "2026-10-11T13:31:25.686415+00:00",
   "exchange_rate": {
     "usd_to_krw": 1341.69,
     "as_of": "2026-10-11",
@@ -8,7 +8,7 @@
   "pricing_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "9cf9a77e191b12e3cfd94da0008299aa297dc4f3dbc6b94601373870409063ee",
+    "strategy_sha256": "7132fdc4322486736834632111846bc611ab0403854362f4bb24be034bf5267b",
     "margin_hard_block": false,
     "serp_collected_at": "2026-10-01T23:39:34.955593+00:00",
     "note": "register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
@@ -63,7 +63,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 9.47,
+            "age_days": 9.58,
             "volume_status": "match"
           }
         },
@@ -106,7 +106,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 9.47,
+            "age_days": 9.58,
             "volume_status": "match"
           }
         },
@@ -197,7 +197,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 9.47,
+            "age_days": 9.58,
             "volume_status": "match"
           }
         },
@@ -221,248 +221,8 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
-        "qty": 1,
-        "price_usd": 18.99,
-        "unit_price_usd": 18.99,
-        "landed_cost_total_usd": 11.31,
-        "fee_usd": 0.38,
-        "net_profit_usd": 7.3,
-        "margin_pct": 38.4,
-        "market_median_usd": 19.93,
-        "market_price_source": "serpapi_google_shopping",
-        "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 19.93,
-          "sample_n": 9,
-          "query": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
-          "assessment_at_generation": {
-            "ok": true,
-            "reasons": [],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 9.47,
-            "volume_status": "match"
-          }
-        },
-        "profitability": {
-          "status": "below_target",
-          "warnings": [
-            "margin_below_target:38.4%<40.0%"
-          ],
-          "blocks_registration": false,
-          "net_profit_usd": 7.3,
-          "margin_pct": 38.4,
-          "breakeven_usd": 11.54,
-          "minimum_margin_pct": 30.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 19.5
-        },
-        "profit_warnings": [
-          "margin_below_target:38.4%<40.0%"
-        ],
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "qty": 1,
-        "price_usd": 11.99,
-        "unit_price_usd": 11.99,
-        "landed_cost_total_usd": 7.98,
-        "fee_usd": 0.24,
-        "net_profit_usd": 3.77,
-        "margin_pct": 31.4,
-        "market_median_usd": 12.31,
-        "market_price_source": "serpapi_google_shopping",
-        "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 12.31,
-          "sample_n": 6,
-          "query": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
-          "assessment_at_generation": {
-            "ok": false,
-            "reasons": [
-              "price_evidence_volume_unverified_product"
-            ],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 9.47,
-            "volume_status": "unverified_product_volume"
-          }
-        },
-        "profitability": {
-          "status": "below_target",
-          "warnings": [
-            "margin_below_target:31.4%<40.0%"
-          ],
-          "blocks_registration": false,
-          "net_profit_usd": 3.77,
-          "margin_pct": 31.4,
-          "breakeven_usd": 8.14,
-          "minimum_margin_pct": 30.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 13.76
-        },
-        "profit_warnings": [
-          "margin_below_target:31.4%<40.0%"
-        ],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "qty": 1,
-        "price_usd": 10.99,
-        "unit_price_usd": 10.99,
-        "landed_cost_total_usd": 8.84,
-        "fee_usd": 0.22,
-        "net_profit_usd": 1.93,
-        "margin_pct": 17.6,
-        "market_median_usd": 11.55,
-        "market_price_source": "serpapi_google_shopping",
-        "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 11.55,
-          "sample_n": 20,
-          "query": "VT Hyaluron Sleeping Mask 4ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
-          "assessment_at_generation": {
-            "ok": false,
-            "reasons": [
-              "price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
-            ],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 9.47,
-            "volume_status": "mismatch"
-          }
-        },
-        "profitability": {
-          "status": "below_minimum",
-          "warnings": [
-            "margin_below_minimum:17.6%<30.0%",
-            "margin_below_target:17.6%<40.0%"
-          ],
-          "blocks_registration": false,
-          "net_profit_usd": 1.93,
-          "margin_pct": 17.6,
-          "breakeven_usd": 9.02,
-          "minimum_margin_pct": 30.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 15.24
-        },
-        "profit_warnings": [
-          "margin_below_minimum:17.6%<30.0%",
-          "margin_below_target:17.6%<40.0%"
-        ],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
-      },
-      {
-        "pd_no": "1053482",
-        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-        "qty": 1,
-        "price_usd": 30.99,
-        "unit_price_usd": 30.99,
-        "landed_cost_total_usd": 12.81,
-        "fee_usd": 0.62,
-        "net_profit_usd": 17.56,
-        "margin_pct": 56.7,
-        "market_median_usd": 32.0,
-        "market_price_source": "serpapi_google_shopping",
-        "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 32.0,
-          "sample_n": 20,
-          "query": "MEDI-PEEL Face Toner 200ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
-          "assessment_at_generation": {
-            "ok": true,
-            "reasons": [],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 9.47,
-            "volume_status": "match"
-          }
-        },
-        "profitability": {
-          "status": "ok",
-          "warnings": [],
-          "blocks_registration": false,
-          "net_profit_usd": 17.56,
-          "margin_pct": 56.7,
-          "breakeven_usd": 13.07,
-          "minimum_margin_pct": 30.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 22.09
-        },
-        "profit_warnings": [],
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-        "qty": 1,
-        "price_usd": 22.99,
-        "unit_price_usd": 22.99,
-        "landed_cost_total_usd": 15.46,
-        "fee_usd": 0.46,
-        "net_profit_usd": 7.07,
-        "margin_pct": 30.8,
-        "market_median_usd": 22.49,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "price_evidence": {
-          "source": "oliveyoung_us_benchmark",
-          "median_usd": 22.49,
-          "sample_n": 100,
-          "query": null,
-          "collected_at": null,
-          "assessment_at_generation": {
-            "ok": false,
-            "reasons": [
-              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
-            ],
-            "source": "oliveyoung_us_benchmark",
-            "level": "category",
-            "age_days": null,
-            "volume_status": "not_checked"
-          }
-        },
-        "profitability": {
-          "status": "below_minimum",
-          "warnings": [
-            "margin_below_minimum:30.8%<35.0%",
-            "margin_below_target:30.8%<40.0%"
-          ],
-          "blocks_registration": false,
-          "net_profit_usd": 7.07,
-          "margin_pct": 30.8,
-          "breakeven_usd": 15.78,
-          "minimum_margin_pct": 35.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 26.66
-        },
-        "profit_warnings": [
-          "margin_below_minimum:30.8%<35.0%",
-          "margin_below_target:30.8%<40.0%"
-        ],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
-      },
-      {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "qty": 1,
         "price_usd": 22.99,
         "unit_price_usd": 22.99,
@@ -503,6 +263,137 @@
         "profit_warnings": [],
         "register_blocked": true,
         "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+      },
+      {
+        "pd_no": "1053482",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+        "qty": 1,
+        "price_usd": 30.99,
+        "unit_price_usd": 30.99,
+        "landed_cost_total_usd": 12.81,
+        "fee_usd": 0.62,
+        "net_profit_usd": 17.56,
+        "margin_pct": 56.7,
+        "market_median_usd": 32.0,
+        "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 32.0,
+          "sample_n": 20,
+          "query": "MEDI-PEEL Face Toner 200ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.58,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 17.56,
+          "margin_pct": 56.7,
+          "breakeven_usd": 13.07,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 22.09
+        },
+        "profit_warnings": [],
+        "register_blocked": false,
+        "block_reason": ""
+      },
+      {
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+        "qty": 1,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
+        "landed_cost_total_usd": 9.59,
+        "fee_usd": 0.46,
+        "net_profit_usd": 12.94,
+        "margin_pct": 56.3,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "price_evidence": {
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 12.94,
+          "margin_pct": 56.3,
+          "breakeven_usd": 9.79,
+          "minimum_margin_pct": 35.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 16.53
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "qty": 1,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
+        "landed_cost_total_usd": 10.55,
+        "fee_usd": 0.46,
+        "net_profit_usd": 11.98,
+        "margin_pct": 52.1,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "price_evidence": {
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 11.98,
+          "margin_pct": 52.1,
+          "breakeven_usd": 10.77,
+          "minimum_margin_pct": 35.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 18.19
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       }
     ],
     "bundle": [
@@ -530,7 +421,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 9.47,
+            "age_days": 9.58,
             "volume_status": "match"
           }
         },
@@ -573,7 +464,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 9.47,
+            "age_days": 9.58,
             "volume_status": "match"
           }
         },
@@ -660,7 +551,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 9.47,
+            "age_days": 9.58,
             "volume_status": "match"
           }
         },
@@ -680,141 +571,48 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "qty": 2,
-        "price_usd": 32.99,
-        "unit_price_usd": 16.5,
-        "landed_cost_total_usd": 17.1,
-        "fee_usd": 0.66,
-        "net_profit_usd": 15.23,
-        "margin_pct": 46.2,
-        "market_median_usd": 19.93,
-        "market_price_source": "serpapi_google_shopping",
+        "price_usd": 38.99,
+        "unit_price_usd": 19.5,
+        "landed_cost_total_usd": 16.34,
+        "fee_usd": 0.78,
+        "net_profit_usd": 21.87,
+        "margin_pct": 56.1,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 19.93,
-          "sample_n": 9,
-          "query": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
           "assessment_at_generation": {
-            "ok": true,
-            "reasons": [],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 9.47,
-            "volume_status": "match"
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
           }
         },
         "profitability": {
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
-          "net_profit_usd": 15.23,
-          "margin_pct": 46.2,
-          "breakeven_usd": 17.45,
-          "minimum_margin_pct": 30.0,
+          "net_profit_usd": 21.87,
+          "margin_pct": 56.1,
+          "breakeven_usd": 16.67,
+          "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 29.48
-        },
-        "profit_warnings": [],
-        "register_blocked": false,
-        "block_reason": ""
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "qty": 2,
-        "price_usd": 19.99,
-        "unit_price_usd": 9.99,
-        "landed_cost_total_usd": 10.44,
-        "fee_usd": 0.4,
-        "net_profit_usd": 9.15,
-        "margin_pct": 45.8,
-        "market_median_usd": 12.31,
-        "market_price_source": "serpapi_google_shopping",
-        "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 12.31,
-          "sample_n": 6,
-          "query": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
-          "assessment_at_generation": {
-            "ok": false,
-            "reasons": [
-              "price_evidence_volume_unverified_product"
-            ],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 9.47,
-            "volume_status": "unverified_product_volume"
-          }
-        },
-        "profitability": {
-          "status": "ok",
-          "warnings": [],
-          "blocks_registration": false,
-          "net_profit_usd": 9.15,
-          "margin_pct": 45.8,
-          "breakeven_usd": 10.65,
-          "minimum_margin_pct": 30.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 18.0
+          "target_price_usd": 28.17
         },
         "profit_warnings": [],
         "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "qty": 2,
-        "price_usd": 18.99,
-        "unit_price_usd": 9.49,
-        "landed_cost_total_usd": 11.42,
-        "fee_usd": 0.38,
-        "net_profit_usd": 7.19,
-        "margin_pct": 37.9,
-        "market_median_usd": 11.55,
-        "market_price_source": "serpapi_google_shopping",
-        "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 11.55,
-          "sample_n": 20,
-          "query": "VT Hyaluron Sleeping Mask 4ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
-          "assessment_at_generation": {
-            "ok": false,
-            "reasons": [
-              "price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
-            ],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 9.47,
-            "volume_status": "mismatch"
-          }
-        },
-        "profitability": {
-          "status": "below_target",
-          "warnings": [
-            "margin_below_target:37.9%<40.0%"
-          ],
-          "blocks_registration": false,
-          "net_profit_usd": 7.19,
-          "margin_pct": 37.9,
-          "breakeven_usd": 11.65,
-          "minimum_margin_pct": 30.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 19.69
-        },
-        "profit_warnings": [
-          "margin_below_target:37.9%<40.0%"
-        ],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       },
       {
         "pd_no": "1053482",
@@ -840,7 +638,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 9.47,
+            "age_days": 9.58,
             "volume_status": "match"
           }
         },
@@ -860,65 +658,15 @@
         "block_reason": ""
       },
       {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
         "qty": 2,
         "price_usd": 38.99,
         "unit_price_usd": 19.5,
-        "landed_cost_total_usd": 26.1,
+        "landed_cost_total_usd": 13.66,
         "fee_usd": 0.78,
-        "net_profit_usd": 12.11,
-        "margin_pct": 31.1,
-        "market_median_usd": 22.49,
-        "market_price_source": "oliveyoung_us_benchmark",
-        "price_evidence": {
-          "source": "oliveyoung_us_benchmark",
-          "median_usd": 22.49,
-          "sample_n": 100,
-          "query": null,
-          "collected_at": null,
-          "assessment_at_generation": {
-            "ok": false,
-            "reasons": [
-              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
-            ],
-            "source": "oliveyoung_us_benchmark",
-            "level": "category",
-            "age_days": null,
-            "volume_status": "not_checked"
-          }
-        },
-        "profitability": {
-          "status": "below_minimum",
-          "warnings": [
-            "margin_below_minimum:31.1%<35.0%",
-            "margin_below_target:31.1%<40.0%"
-          ],
-          "blocks_registration": false,
-          "net_profit_usd": 12.11,
-          "margin_pct": 31.1,
-          "breakeven_usd": 26.63,
-          "minimum_margin_pct": 35.0,
-          "target_margin_pct": 40.0,
-          "target_price_usd": 45.0
-        },
-        "profit_warnings": [
-          "margin_below_minimum:31.1%<35.0%",
-          "margin_below_target:31.1%<40.0%"
-        ],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
-      },
-      {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "qty": 2,
-        "price_usd": 38.99,
-        "unit_price_usd": 19.5,
-        "landed_cost_total_usd": 17.1,
-        "fee_usd": 0.78,
-        "net_profit_usd": 21.11,
-        "margin_pct": 54.1,
+        "net_profit_usd": 24.55,
+        "margin_pct": 63.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
@@ -942,12 +690,56 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
-          "net_profit_usd": 21.11,
-          "margin_pct": 54.1,
-          "breakeven_usd": 17.45,
+          "net_profit_usd": 24.55,
+          "margin_pct": 63.0,
+          "breakeven_usd": 13.94,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 29.48
+          "target_price_usd": 23.55
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+      },
+      {
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "qty": 2,
+        "price_usd": 38.99,
+        "unit_price_usd": 19.5,
+        "landed_cost_total_usd": 15.6,
+        "fee_usd": 0.78,
+        "net_profit_usd": 22.61,
+        "margin_pct": 58.0,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
+        "price_evidence": {
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 22.61,
+          "margin_pct": 58.0,
+          "breakeven_usd": 15.92,
+          "minimum_margin_pct": 35.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 26.9
         },
         "profit_warnings": [],
         "register_blocked": true,
@@ -974,16 +766,16 @@
       "discount_pct": 0,
       "price_usd": 22.99,
       "unit_price_usd": 22.99,
-      "landed_cost_total_usd": 10.72,
-      "shipping_in_cost_usd": 7.38,
+      "landed_cost_total_usd": 10.47,
+      "shipping_in_cost_usd": 6.83,
       "fee_usd": 0.46,
-      "net_profit_usd": 11.81,
-      "margin_pct": 51.3,
+      "net_profit_usd": 12.06,
+      "margin_pct": 52.4,
       "free_shipping": false,
-      "orders_for_500usd": 42,
+      "orders_for_500usd": 41,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        10.99,
+        15.99,
         30.99
       ]
     },
@@ -992,16 +784,16 @@
       "discount_pct": 15,
       "price_usd": 38.99,
       "unit_price_usd": 19.5,
-      "landed_cost_total_usd": 15.77,
-      "shipping_in_cost_usd": 9.08,
+      "landed_cost_total_usd": 15.14,
+      "shipping_in_cost_usd": 7.85,
       "fee_usd": 0.78,
-      "net_profit_usd": 22.44,
-      "margin_pct": 57.6,
+      "net_profit_usd": 23.07,
+      "margin_pct": 59.2,
       "free_shipping": true,
       "orders_for_500usd": 22,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        18.99,
+        27.99,
         51.99
       ]
     },
@@ -1200,15 +992,15 @@
         }
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 93,
         "price_krw": 5000,
-        "weight_g_est": 200,
-        "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weight_g_est": 128,
+        "weight_note": "55ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
         "shipping_unit_usd": 7.02,
         "shipping_order_usd": 7.02,
@@ -1237,111 +1029,10 @@
           "profit": 10.73,
           "margin_pct": 47.7
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.93,
-        "market_sample_n": 9,
-        "at_product_market": {
-          "sell": 19.93,
-          "fee": 0.4,
-          "profit": 8.22,
-          "margin_pct": 41.3
-        }
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 2000,
-        "weight_g_est": 69,
-        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.27,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.98,
-        "landed_cost_ddu_usd": 7.98,
-        "landed_cost_ddp_usd": 7.76,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.15,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.07,
-          "profit": -4.77,
-          "margin_pct": -145.4
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 6.72,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 14.06,
-          "margin_pct": 62.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.31,
-        "market_sample_n": 6,
-        "at_product_market": {
-          "sell": 12.31,
-          "fee": 0.25,
-          "profit": 4.08,
-          "margin_pct": 33.2
-        }
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 6.27,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.34,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.84,
-        "landed_cost_ddu_usd": 8.84,
-        "landed_cost_ddp_usd": 8.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.02,
-        "at_2_2x": {
-          "sell": 4.92,
-          "fee": 0.1,
-          "profit": -4.02,
-          "margin_pct": -81.7
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 5.86,
-          "margin_pct": 39.1
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 13.2,
-          "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 11.55,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 11.55,
-          "fee": 0.23,
-          "profit": 2.48,
-          "margin_pct": 21.5
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1053482",
@@ -1392,42 +1083,42 @@
         }
       },
       {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-        "bucket": "바디케어",
-        "shopify_score": 83,
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
         "price_krw": 3000,
-        "weight_g_est": 840,
-        "weight_note": "500ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
-        "weigh_needed": false,
+        "weigh_needed": true,
         "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 12.89,
-        "shipping_order_usd": 12.89,
+        "shipping_unit_usd": 7.02,
+        "shipping_order_usd": 7.02,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 15.46,
-        "landed_cost_ddu_usd": 15.46,
-        "landed_cost_ddp_usd": 15.12,
+        "landed_cost_usd": 9.59,
+        "landed_cost_ddu_usd": 9.59,
+        "landed_cost_ddp_usd": 9.26,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 15.77,
+        "breakeven_usd": 9.79,
         "at_2_2x": {
           "sell": 4.92,
           "fee": 0.1,
-          "profit": -10.64,
-          "margin_pct": -216.2
+          "profit": -4.77,
+          "margin_pct": -97.0
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": -0.76,
-          "margin_pct": -5.1
+          "profit": 5.11,
+          "margin_pct": 34.1
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 6.58,
-          "margin_pct": 29.3
+          "profit": 12.45,
+          "margin_pct": 55.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1435,42 +1126,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "bucket": "메이크업",
-        "shopify_score": 75,
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 82,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 7.02,
-        "shipping_order_usd": 7.02,
+        "shipping_unit_usd": 6.27,
+        "shipping_order_usd": 6.27,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.31,
-        "landed_cost_ddu_usd": 11.31,
-        "landed_cost_ddp_usd": 10.75,
+        "landed_cost_usd": 10.55,
+        "landed_cost_ddu_usd": 10.55,
+        "landed_cost_ddp_usd": 9.99,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.54,
+        "breakeven_usd": 10.77,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": -3.27,
-          "margin_pct": -39.9
+          "profit": -2.52,
+          "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.39,
-          "margin_pct": 22.6
+          "profit": 4.15,
+          "margin_pct": 27.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.73,
-          "margin_pct": 47.7
+          "profit": 11.49,
+          "margin_pct": 51.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1667,148 +1358,47 @@
         }
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 93,
         "price_krw": 5000,
-        "weight_g_est": 200,
-        "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weight_g_est": 128,
+        "weight_note": "55ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 4.26,
-        "shipping_order_usd": 8.53,
+        "shipping_unit_usd": 3.89,
+        "shipping_order_usd": 7.77,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.55,
-        "landed_cost_ddu_usd": 8.55,
-        "landed_cost_ddp_usd": 7.99,
+        "landed_cost_usd": 8.17,
+        "landed_cost_ddu_usd": 8.17,
+        "landed_cost_ddp_usd": 7.61,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.72,
+        "breakeven_usd": 8.34,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": -0.51,
-          "margin_pct": -6.3
+          "profit": -0.14,
+          "margin_pct": -1.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.15,
-          "margin_pct": 41.0
+          "profit": 6.53,
+          "margin_pct": 43.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.49,
-          "margin_pct": 60.0
+          "profit": 13.87,
+          "margin_pct": 61.7
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.93,
-        "market_sample_n": 9,
-        "at_product_market": {
-          "sell": 19.93,
-          "fee": 0.4,
-          "profit": 10.98,
-          "margin_pct": 55.1
-        }
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 2000,
-        "weight_g_est": 69,
-        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.02,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.22,
-        "landed_cost_ddu_usd": 5.22,
-        "landed_cost_ddp_usd": 5.0,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.33,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.07,
-          "profit": -2.01,
-          "margin_pct": -61.3
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 9.48,
-          "margin_pct": 63.2
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 16.82,
-          "margin_pct": 74.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.31,
-        "market_sample_n": 6,
-        "at_product_market": {
-          "sell": 12.31,
-          "fee": 0.25,
-          "profit": 6.84,
-          "margin_pct": 55.6
-        }
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 3.13,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.34,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.71,
-        "landed_cost_ddu_usd": 5.71,
-        "landed_cost_ddp_usd": 5.37,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.82,
-        "at_2_2x": {
-          "sell": 4.92,
-          "fee": 0.1,
-          "profit": -0.88,
-          "margin_pct": -18.0
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 8.99,
-          "margin_pct": 60.0
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 16.33,
-          "margin_pct": 72.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 11.55,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 11.55,
-          "fee": 0.23,
-          "profit": 5.61,
-          "margin_pct": 48.6
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1053482",
@@ -1859,42 +1449,42 @@
         }
       },
       {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-        "bucket": "바디케어",
-        "shopify_score": 83,
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
         "price_krw": 3000,
-        "weight_g_est": 840,
-        "weight_note": "500ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
-        "weigh_needed": false,
+        "weigh_needed": true,
         "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 10.48,
-        "shipping_order_usd": 20.95,
+        "shipping_unit_usd": 4.26,
+        "shipping_order_usd": 8.53,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 13.05,
-        "landed_cost_ddu_usd": 13.05,
-        "landed_cost_ddp_usd": 12.71,
+        "landed_cost_usd": 6.83,
+        "landed_cost_ddu_usd": 6.83,
+        "landed_cost_ddp_usd": 6.5,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.31,
+        "breakeven_usd": 6.97,
         "at_2_2x": {
           "sell": 4.92,
           "fee": 0.1,
-          "profit": -8.23,
-          "margin_pct": -167.2
+          "profit": -2.01,
+          "margin_pct": -40.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 1.65,
-          "margin_pct": 11.0
+          "profit": 7.87,
+          "margin_pct": 52.4
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 8.99,
-          "margin_pct": 40.0
+          "profit": 15.21,
+          "margin_pct": 67.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -1902,42 +1492,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "bucket": "메이크업",
-        "shopify_score": 75,
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 82,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 4.26,
-        "shipping_order_usd": 8.53,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.55,
-        "landed_cost_ddu_usd": 8.55,
-        "landed_cost_ddp_usd": 7.99,
+        "landed_cost_usd": 7.8,
+        "landed_cost_ddu_usd": 7.8,
+        "landed_cost_ddp_usd": 7.24,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.72,
+        "breakeven_usd": 7.96,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": -0.51,
-          "margin_pct": -6.3
+          "profit": 0.24,
+          "margin_pct": 2.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.15,
-          "margin_pct": 41.0
+          "profit": 6.9,
+          "margin_pct": 46.0
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.49,
-          "margin_pct": 60.0
+          "profit": 14.24,
+          "margin_pct": 63.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2136,15 +1726,15 @@
         }
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 93,
         "price_krw": 5000,
-        "weight_g_est": 200,
-        "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weight_g_est": 128,
+        "weight_note": "55ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
         "shipping_unit_usd": 7.02,
         "shipping_order_usd": 7.02,
@@ -2173,111 +1763,10 @@
           "profit": 10.73,
           "margin_pct": 47.7
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.93,
-        "market_sample_n": 9,
-        "at_product_market": {
-          "sell": 19.93,
-          "fee": 0.4,
-          "profit": 8.22,
-          "margin_pct": 41.3
-        }
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 2000,
-        "weight_g_est": 69,
-        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.27,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 7.98,
-        "landed_cost_ddu_usd": 7.98,
-        "landed_cost_ddp_usd": 7.76,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.15,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.07,
-          "profit": -4.77,
-          "margin_pct": -145.4
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 6.72,
-          "margin_pct": 44.8
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 14.06,
-          "margin_pct": 62.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.31,
-        "market_sample_n": 6,
-        "at_product_market": {
-          "sell": 12.31,
-          "fee": 0.25,
-          "profit": 4.08,
-          "margin_pct": 33.2
-        }
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 6.27,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.34,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 8.84,
-        "landed_cost_ddu_usd": 8.84,
-        "landed_cost_ddp_usd": 8.5,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 9.02,
-        "at_2_2x": {
-          "sell": 4.92,
-          "fee": 0.1,
-          "profit": -4.02,
-          "margin_pct": -81.7
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 5.86,
-          "margin_pct": 39.1
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 13.2,
-          "margin_pct": 58.7
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 11.55,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 11.55,
-          "fee": 0.23,
-          "profit": 2.48,
-          "margin_pct": 21.5
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1053482",
@@ -2328,42 +1817,42 @@
         }
       },
       {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-        "bucket": "바디케어",
-        "shopify_score": 83,
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
         "price_krw": 3000,
-        "weight_g_est": 840,
-        "weight_note": "500ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
-        "weigh_needed": false,
+        "weigh_needed": true,
         "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 12.89,
-        "shipping_order_usd": 12.89,
+        "shipping_unit_usd": 7.02,
+        "shipping_order_usd": 7.02,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 15.46,
-        "landed_cost_ddu_usd": 15.46,
-        "landed_cost_ddp_usd": 15.12,
+        "landed_cost_usd": 9.59,
+        "landed_cost_ddu_usd": 9.59,
+        "landed_cost_ddp_usd": 9.26,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 15.77,
+        "breakeven_usd": 9.79,
         "at_2_2x": {
           "sell": 4.92,
           "fee": 0.1,
-          "profit": -10.64,
-          "margin_pct": -216.2
+          "profit": -4.77,
+          "margin_pct": -97.0
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": -0.76,
-          "margin_pct": -5.1
+          "profit": 5.11,
+          "margin_pct": 34.1
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 6.58,
-          "margin_pct": 29.3
+          "profit": 12.45,
+          "margin_pct": 55.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2371,42 +1860,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "bucket": "메이크업",
-        "shopify_score": 75,
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 82,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 7.02,
-        "shipping_order_usd": 7.02,
+        "shipping_unit_usd": 6.27,
+        "shipping_order_usd": 6.27,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.31,
-        "landed_cost_ddu_usd": 11.31,
-        "landed_cost_ddp_usd": 10.75,
+        "landed_cost_usd": 10.55,
+        "landed_cost_ddu_usd": 10.55,
+        "landed_cost_ddp_usd": 9.99,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.54,
+        "breakeven_usd": 10.77,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": -3.27,
-          "margin_pct": -39.9
+          "profit": -2.52,
+          "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.39,
-          "margin_pct": 22.6
+          "profit": 4.15,
+          "margin_pct": 27.6
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.73,
-          "margin_pct": 47.7
+          "profit": 11.49,
+          "margin_pct": 51.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2603,148 +2092,47 @@
         }
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 93,
         "price_krw": 5000,
-        "weight_g_est": 200,
-        "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weight_g_est": 128,
+        "weight_note": "55ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 4.26,
-        "shipping_order_usd": 8.53,
+        "shipping_unit_usd": 3.89,
+        "shipping_order_usd": 7.77,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.55,
-        "landed_cost_ddu_usd": 8.55,
-        "landed_cost_ddp_usd": 7.99,
+        "landed_cost_usd": 8.17,
+        "landed_cost_ddu_usd": 8.17,
+        "landed_cost_ddp_usd": 7.61,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.72,
+        "breakeven_usd": 8.34,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": -0.51,
-          "margin_pct": -6.3
+          "profit": -0.14,
+          "margin_pct": -1.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.15,
-          "margin_pct": 41.0
+          "profit": 6.53,
+          "margin_pct": 43.5
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.49,
-          "margin_pct": 60.0
+          "profit": 13.87,
+          "margin_pct": 61.7
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.93,
-        "market_sample_n": 9,
-        "at_product_market": {
-          "sell": 19.93,
-          "fee": 0.4,
-          "profit": 10.98,
-          "margin_pct": 55.1
-        }
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 2000,
-        "weight_g_est": 69,
-        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.02,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.22,
-        "landed_cost_ddu_usd": 5.22,
-        "landed_cost_ddp_usd": 5.0,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.33,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.07,
-          "profit": -2.01,
-          "margin_pct": -61.3
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 9.48,
-          "margin_pct": 63.2
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 16.82,
-          "margin_pct": 74.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.31,
-        "market_sample_n": 6,
-        "at_product_market": {
-          "sell": 12.31,
-          "fee": 0.25,
-          "profit": 6.84,
-          "margin_pct": 55.6
-        }
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 3.13,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.34,
-        "duty_mode": "ddu",
-        "landed_cost_usd": 5.71,
-        "landed_cost_ddu_usd": 5.71,
-        "landed_cost_ddp_usd": 5.37,
-        "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 5.82,
-        "at_2_2x": {
-          "sell": 4.92,
-          "fee": 0.1,
-          "profit": -0.88,
-          "margin_pct": -18.0
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 8.99,
-          "margin_pct": 60.0
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 16.33,
-          "margin_pct": 72.6
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 11.55,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 11.55,
-          "fee": 0.23,
-          "profit": 5.61,
-          "margin_pct": 48.6
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1053482",
@@ -2795,42 +2183,42 @@
         }
       },
       {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-        "bucket": "바디케어",
-        "shopify_score": 83,
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
         "price_krw": 3000,
-        "weight_g_est": 840,
-        "weight_note": "500ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
-        "weigh_needed": false,
+        "weigh_needed": true,
         "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 10.48,
-        "shipping_order_usd": 20.95,
+        "shipping_unit_usd": 4.26,
+        "shipping_order_usd": 8.53,
         "tariff_usd": 0.34,
         "duty_mode": "ddu",
-        "landed_cost_usd": 13.05,
-        "landed_cost_ddu_usd": 13.05,
-        "landed_cost_ddp_usd": 12.71,
+        "landed_cost_usd": 6.83,
+        "landed_cost_ddu_usd": 6.83,
+        "landed_cost_ddp_usd": 6.5,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 13.31,
+        "breakeven_usd": 6.97,
         "at_2_2x": {
           "sell": 4.92,
           "fee": 0.1,
-          "profit": -8.23,
-          "margin_pct": -167.2
+          "profit": -2.01,
+          "margin_pct": -40.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 1.65,
-          "margin_pct": 11.0
+          "profit": 7.87,
+          "margin_pct": 52.4
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 8.99,
-          "margin_pct": 40.0
+          "profit": 15.21,
+          "margin_pct": 67.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -2838,42 +2226,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "bucket": "메이크업",
-        "shopify_score": 75,
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 82,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 4.26,
-        "shipping_order_usd": 8.53,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.55,
-        "landed_cost_ddu_usd": 8.55,
-        "landed_cost_ddp_usd": 7.99,
+        "landed_cost_usd": 7.8,
+        "landed_cost_ddu_usd": 7.8,
+        "landed_cost_ddp_usd": 7.24,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.72,
+        "breakeven_usd": 7.96,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": -0.51,
-          "margin_pct": -6.3
+          "profit": 0.24,
+          "margin_pct": 2.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.15,
-          "margin_pct": 41.0
+          "profit": 6.9,
+          "margin_pct": 46.0
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.49,
-          "margin_pct": 60.0
+          "profit": 14.24,
+          "margin_pct": 63.3
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -3070,15 +2458,15 @@
         }
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 93,
         "price_krw": 5000,
-        "weight_g_est": 200,
-        "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weight_g_est": 128,
+        "weight_note": "55ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
         "shipping_unit_usd": 7.02,
         "shipping_order_usd": 7.02,
@@ -3107,111 +2495,10 @@
           "profit": 11.29,
           "margin_pct": 50.2
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.93,
-        "market_sample_n": 9,
-        "at_product_market": {
-          "sell": 19.93,
-          "fee": 0.4,
-          "profit": 8.78,
-          "margin_pct": 44.1
-        }
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 2000,
-        "weight_g_est": 69,
-        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 6.27,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 7.76,
-        "landed_cost_ddu_usd": 7.98,
-        "landed_cost_ddp_usd": 7.76,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 7.92,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.07,
-          "profit": -4.55,
-          "margin_pct": -138.6
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 6.94,
-          "margin_pct": 46.3
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 14.28,
-          "margin_pct": 63.5
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.31,
-        "market_sample_n": 6,
-        "at_product_market": {
-          "sell": 12.31,
-          "fee": 0.25,
-          "profit": 4.3,
-          "margin_pct": 35.0
-        }
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 6.27,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.34,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 8.5,
-        "landed_cost_ddu_usd": 8.84,
-        "landed_cost_ddp_usd": 8.5,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.68,
-        "at_2_2x": {
-          "sell": 4.92,
-          "fee": 0.1,
-          "profit": -3.68,
-          "margin_pct": -74.9
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 6.2,
-          "margin_pct": 41.3
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 13.54,
-          "margin_pct": 60.2
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 11.55,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 11.55,
-          "fee": 0.23,
-          "profit": 2.81,
-          "margin_pct": 24.4
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1053482",
@@ -3262,42 +2549,42 @@
         }
       },
       {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-        "bucket": "바디케어",
-        "shopify_score": 83,
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
         "price_krw": 3000,
-        "weight_g_est": 840,
-        "weight_note": "500ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
-        "weigh_needed": false,
+        "weigh_needed": true,
         "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 12.89,
-        "shipping_order_usd": 12.89,
+        "shipping_unit_usd": 7.02,
+        "shipping_order_usd": 7.02,
         "tariff_usd": 0.34,
         "duty_mode": "ddp",
-        "landed_cost_usd": 15.12,
-        "landed_cost_ddu_usd": 15.46,
-        "landed_cost_ddp_usd": 15.12,
+        "landed_cost_usd": 9.26,
+        "landed_cost_ddu_usd": 9.59,
+        "landed_cost_ddp_usd": 9.26,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 15.43,
+        "breakeven_usd": 9.45,
         "at_2_2x": {
           "sell": 4.92,
           "fee": 0.1,
-          "profit": -10.3,
-          "margin_pct": -209.4
+          "profit": -4.44,
+          "margin_pct": -90.2
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": -0.42,
-          "margin_pct": -2.8
+          "profit": 5.44,
+          "margin_pct": 36.3
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 6.92,
-          "margin_pct": 30.8
+          "profit": 12.78,
+          "margin_pct": 56.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -3305,42 +2592,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "bucket": "메이크업",
-        "shopify_score": 75,
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 82,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 7.02,
-        "shipping_order_usd": 7.02,
+        "shipping_unit_usd": 6.27,
+        "shipping_order_usd": 6.27,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.75,
-        "landed_cost_ddu_usd": 11.31,
-        "landed_cost_ddp_usd": 10.75,
+        "landed_cost_usd": 9.99,
+        "landed_cost_ddu_usd": 10.55,
+        "landed_cost_ddp_usd": 9.99,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 10.97,
+        "breakeven_usd": 10.2,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": -2.71,
-          "margin_pct": -33.1
+          "profit": -1.96,
+          "margin_pct": -23.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.95,
-          "margin_pct": 26.3
+          "profit": 4.71,
+          "margin_pct": 31.4
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.29,
-          "margin_pct": 50.2
+          "profit": 12.05,
+          "margin_pct": 53.6
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -3537,148 +2824,47 @@
         }
       },
       {
-        "pd_no": "1072554",
-        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "pd_no": "1068721",
+        "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "bucket": "스킨케어",
-        "shopify_score": 96,
+        "shopify_score": 93,
         "price_krw": 5000,
-        "weight_g_est": 200,
-        "weight_note": "고시 용량 100ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": true,
+        "weight_g_est": 128,
+        "weight_note": "55ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_source": "estimated",
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 4.26,
-        "shipping_order_usd": 8.53,
+        "shipping_unit_usd": 3.89,
+        "shipping_order_usd": 7.77,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.99,
-        "landed_cost_ddu_usd": 8.55,
-        "landed_cost_ddp_usd": 7.99,
+        "landed_cost_usd": 7.61,
+        "landed_cost_ddu_usd": 8.17,
+        "landed_cost_ddp_usd": 7.61,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.15,
+        "breakeven_usd": 7.77,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": 0.04,
-          "margin_pct": 0.5
+          "profit": 0.42,
+          "margin_pct": 5.1
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.71,
-          "margin_pct": 44.7
+          "profit": 7.09,
+          "margin_pct": 47.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.05,
-          "margin_pct": 62.5
+          "profit": 14.43,
+          "margin_pct": 64.1
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 19.93,
-        "market_sample_n": 9,
-        "at_product_market": {
-          "sell": 19.93,
-          "fee": 0.4,
-          "profit": 11.54,
-          "margin_pct": 57.9
-        }
-      },
-      {
-        "pd_no": "1075857",
-        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-        "bucket": "스킨케어",
-        "shopify_score": 94,
-        "price_krw": 2000,
-        "weight_g_est": 69,
-        "weight_note": "고시 용량 18g x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 1.49,
-        "shipping_unit_usd": 3.51,
-        "shipping_order_usd": 7.02,
-        "tariff_usd": 0.22,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 5.0,
-        "landed_cost_ddu_usd": 5.22,
-        "landed_cost_ddp_usd": 5.0,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.1,
-        "at_2_2x": {
-          "sell": 3.28,
-          "fee": 0.07,
-          "profit": -1.79,
-          "margin_pct": -54.5
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 9.7,
-          "margin_pct": 64.7
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 17.04,
-          "margin_pct": 75.8
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 12.31,
-        "market_sample_n": 6,
-        "at_product_market": {
-          "sell": 12.31,
-          "fee": 0.25,
-          "profit": 7.06,
-          "margin_pct": 57.4
-        }
-      },
-      {
-        "pd_no": "1049285",
-        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-        "bucket": "스킨케어",
-        "shopify_score": 92,
-        "price_krw": 3000,
-        "weight_g_est": 46,
-        "weight_note": "고시 용량 4ml x 1.6(용기) + 40g(포장)",
-        "weight_source": "gosi_volume",
-        "weigh_needed": false,
-        "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 3.13,
-        "shipping_order_usd": 6.27,
-        "tariff_usd": 0.34,
-        "duty_mode": "ddp",
-        "landed_cost_usd": 5.37,
-        "landed_cost_ddu_usd": 5.71,
-        "landed_cost_ddp_usd": 5.37,
-        "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 5.48,
-        "at_2_2x": {
-          "sell": 4.92,
-          "fee": 0.1,
-          "profit": -0.55,
-          "margin_pct": -11.2
-        },
-        "at_market_p25": {
-          "sell": 15.0,
-          "fee": 0.3,
-          "profit": 9.33,
-          "margin_pct": 62.2
-        },
-        "at_market_median": {
-          "sell": 22.49,
-          "fee": 0.45,
-          "profit": 16.67,
-          "margin_pct": 74.1
-        },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 11.55,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 11.55,
-          "fee": 0.23,
-          "profit": 5.95,
-          "margin_pct": 51.5
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1053482",
@@ -3729,42 +2915,42 @@
         }
       },
       {
-        "pd_no": "1042246",
-        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-        "bucket": "바디케어",
-        "shopify_score": 83,
+        "pd_no": "1074979",
+        "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+        "bucket": "스킨케어",
+        "shopify_score": 85,
         "price_krw": 3000,
-        "weight_g_est": 840,
-        "weight_note": "500ml x 1.6(용기) + 40g(포장) 추정",
+        "weight_g_est": 190,
+        "weight_note": "용량 표기 없음 - 150g 가정",
         "weight_source": "estimated",
-        "weigh_needed": false,
+        "weigh_needed": true,
         "unit_cost_usd": 2.24,
-        "shipping_unit_usd": 10.48,
-        "shipping_order_usd": 20.95,
+        "shipping_unit_usd": 4.26,
+        "shipping_order_usd": 8.53,
         "tariff_usd": 0.34,
         "duty_mode": "ddp",
-        "landed_cost_usd": 12.71,
-        "landed_cost_ddu_usd": 13.05,
-        "landed_cost_ddp_usd": 12.71,
+        "landed_cost_usd": 6.5,
+        "landed_cost_ddu_usd": 6.83,
+        "landed_cost_ddp_usd": 6.5,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 12.97,
+        "breakeven_usd": 6.63,
         "at_2_2x": {
           "sell": 4.92,
           "fee": 0.1,
-          "profit": -7.89,
-          "margin_pct": -160.4
+          "profit": -1.68,
+          "margin_pct": -34.1
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 1.99,
-          "margin_pct": 13.3
+          "profit": 8.2,
+          "margin_pct": 54.7
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 9.33,
-          "margin_pct": 41.5
+          "profit": 15.54,
+          "margin_pct": 69.1
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,
@@ -3772,42 +2958,42 @@
         "at_product_market": null
       },
       {
-        "pd_no": "1072800",
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "bucket": "메이크업",
-        "shopify_score": 75,
+        "pd_no": "1068733",
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "bucket": "스킨케어",
+        "shopify_score": 82,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
+        "weight_g_est": 56,
+        "weight_note": "10g x 1.6(용기) + 40g(포장) 추정",
         "weight_source": "estimated",
-        "weigh_needed": true,
+        "weigh_needed": false,
         "unit_cost_usd": 3.73,
-        "shipping_unit_usd": 4.26,
-        "shipping_order_usd": 8.53,
+        "shipping_unit_usd": 3.51,
+        "shipping_order_usd": 7.02,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 7.99,
-        "landed_cost_ddu_usd": 8.55,
-        "landed_cost_ddp_usd": 7.99,
+        "landed_cost_usd": 7.24,
+        "landed_cost_ddu_usd": 7.8,
+        "landed_cost_ddp_usd": 7.24,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.15,
+        "breakeven_usd": 7.38,
         "at_2_2x": {
           "sell": 8.2,
           "fee": 0.16,
-          "profit": 0.04,
-          "margin_pct": 0.5
+          "profit": 0.8,
+          "margin_pct": 9.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.71,
-          "margin_pct": 44.7
+          "profit": 7.46,
+          "margin_pct": 49.8
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.05,
-          "margin_pct": 62.5
+          "profit": 14.8,
+          "margin_pct": 65.8
         },
         "market_price_source": "oliveyoung_us_benchmark",
         "market_median_usd": 22.49,

@@ -107,6 +107,13 @@ jobs:
         run: |
           python -u scripts/fetch_fx_rate.py
 
+      # 2026-10-11 카테고리 전담팀: 다이소몰 카테고리 목록(스킨케어 5종·메이크업·바디 샤워/입욕)을 먼저 받는다.
+      - name: 전담팀 카테고리 목록 수집
+        if: github.event_name != 'workflow_dispatch' || inputs.refresh_auxiliary_sources
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -u scripts/daiso/collect_desk_catalog.py
+
       - name: 뷰티 URL 큐 만들기
         if: github.event_name != 'workflow_dispatch' || inputs.refresh_auxiliary_sources
         continue-on-error: true
@@ -472,6 +479,9 @@ jobs:
                           f"- {p}: {len(d)}건"
                       )
           PY
+
+      - name: 전담팀 카테고리 목록 교체 사유 기록 (가드 유지)
+        run: python -B scripts/collector_snapshot_history.py data/daiso_real/desk_catalog.json
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: steps.collection.outputs.mode == 'collected' && steps.validate.outputs.artifacts_ok == 'true'

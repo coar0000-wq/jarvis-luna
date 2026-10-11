@@ -36,6 +36,19 @@ def _read(path: Path):
     return (value, "present") if isinstance(value, dict) else (None, "unreadable")
 
 
+ALL_DAISO_SCOPE = "all_daiso_products"
+
+
+def covers_all_daiso(substantiation) -> bool:
+    """사업주 범위 승인(2026-10-11): 다이소 품질관리(D.TQC·ISO 9001·CCM)를 근거로 다이소 상품 전부를 덮는다.
+
+    scope 값과 승인자·승인일이 모두 있어야 한다. 하나라도 비면 예전처럼 pd_no 목록만 본다(fail closed).
+    """
+    return (isinstance(substantiation, dict) and substantiation.get("scope") == ALL_DAISO_SCOPE
+            and bool(str(substantiation.get("verified_by") or "").strip())
+            and bool(str(substantiation.get("verified_at") or "").strip()))
+
+
 def _covered_ids(entries) -> set[str]:
     """Only real identifiers count: non-empty strings and non-bool ints. null/false/empty entries cover nothing."""
     ids = set()
@@ -64,6 +77,10 @@ def manufacturer_safety_record(pd_no, root) -> dict:
     covered = substantiation.get("covered_pd_nos") if isinstance(substantiation, dict) else None
     if not isinstance(covered, list):
         out["reason"] = f"{SAFETY_MISSING}:safety_substantiation_malformed"
+        return out
+    if covers_all_daiso(substantiation):
+        out["covered"] = True
+        out["basis"] = f"owner_scope:{ALL_DAISO_SCOPE}"
         return out
     if str(pd_no) not in _covered_ids(covered):
         out["reason"] = f"{SAFETY_MISSING}:pd_no_not_in_safety_substantiation.covered_pd_nos"

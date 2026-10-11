@@ -1297,7 +1297,11 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
               "source": "config.price_policy.margin_advisory" + (" (builtin mirror)" if cfg["used_fallback"] else "") if cfg_min is not None
               else "daiso_real/profitability_rule.json"}
     mocra = docs.get("mocra_business") or {}
-    safety_covered = {str(x) for x in ((mocra.get("safety_substantiation") or {}).get("covered_pd_nos") or [])}
+    _sub = mocra.get("safety_substantiation") or {}
+    safety_covered = {str(x) for x in (_sub.get("covered_pd_nos") or [])}
+    # 사업주 범위 승인(다이소 품질관리 근거): 다이소 상품 전부 덮음. manufacturer_safety.covers_all_daiso 와 같은 조건.
+    safety_all = (_sub.get("scope") == "all_daiso_products" and bool(str(_sub.get("verified_by") or "").strip())
+                  and bool(str(_sub.get("verified_at") or "").strip()))
     landed = _landed(pricing_model)
     own_all = collect_own_prices(docs.get("registry"), docs.get("queue"), pricing_model)
     mt_names = {str(r.get("pd_no")): r.get("name_en") for r in (docs.get("market_team") or {}).get("s_grade_priority", []) if isinstance(r, dict)}
@@ -1309,9 +1313,10 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
     products = []
     for r in all_scored:
         bucket = r.get("bucket")
-        if bucket not in b2t:
+        # 2026-10-11 카테고리 전담팀: 점수 파일의 desk(다이소몰 카테고리 목록 기준)가 있으면 그 카테고리로 센다.
+        tag = r.get("desk") if r.get("desk") in tag_order else b2t.get(bucket)
+        if tag is None:
             continue
-        tag = b2t[bucket]
         pd = str(r.get("pd_no"))
         m = master.get(pd) or {}
         entry = own_all.get(pd) if pd in own_all else {"candidates": [], "inactive": [], "english_titles": [], "registry_size": None}
@@ -1383,7 +1388,7 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
             "category_daiso_name": cfg["tags"][tag]["daiso_name"],
             "reclassified_into_category_from_bucket": bucket if bucket != cfg["tags"][tag]["daiso_name"] else None,
             "us_legal_gate": gate or None,
-            "manufacturer_safety_record_covered": pd in safety_covered,
+            "manufacturer_safety_record_covered": safety_all or pd in safety_covered,
             "grade": r.get("grade"), "grade_original": r.get("grade"), "grade_changed_by_this_report": False,
             "shopify_score": r.get("shopify_score"), "item_kind": kind, "included_in_priority": included,
             "s_gate_audit": s_audit(r),
@@ -1444,7 +1449,7 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
     grade_changes = [p["pd_no"] for p in products if p["grade"] != src_grade.get(p["pd_no"])]
     s_all = [r for r in all_scored if r.get("grade") == "S"]
     s_three = [p for p in products if p["grade"] == "S"]
-    s_uncovered = [str(r.get("pd_no")) for r in s_all if r.get("bucket") not in b2t]
+    s_uncovered = [str(r.get("pd_no")) for r in s_all if r.get("bucket") not in b2t and r.get("desk") not in tag_order]
     s_failed = [p["pd_no"] for p in s_three if not p["s_gate_audit"]["constraints_met"]]
 
     # coverage

@@ -24,8 +24,10 @@ class PublicSiteTests(unittest.TestCase):
     def test_daily_pipeline_does_not_present_old_or_missing_evidence_as_today_passed(self):
         html=(self.root/'index.html').read_text(encoding='utf-8')
         self.assertIn("if(it.date===today) live++;", html)
-        self.assertIn("legalBad?'bad':null", html)
-        self.assertIn("it.grade?'done':null", html)
+        # 2026-10-11 사용자 지시: 성공 파랑 · 준비중 노랑(wait) · 에러 빨강. 증적이 없으면 '준비중'이지 통과가 아니다.
+        self.assertIn("legalBad?'bad':(live?'done':'wait')", html)
+        self.assertIn("graded?'done':'wait'", html)
+        self.assertIn(".dp-step.wait i{background:#e3b341", html)
         self.assertIn("it.status==='DRAFT'", html)
         self.assertIn("it.status==='deleted_by_owner'?'삭제 이력'", html)
         self.assertIn("Number(it.single_margin_pct)>=30", html)

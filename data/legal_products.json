@@ -53,55 +53,6 @@
   "완료판정": "status 가 pass 인 상품만 legal_ok = true",
   "면책": "이 파일은 법률 자문이 아니다. 판단 근거를 모아 둔 것이다.",
   "items": {
-    "1075857": {
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "status": "pass",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "US English fields present"
-        },
-        "actual_label_review": {
-          "ok": true,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": true,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": true,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": true,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "hs_code": "3304.99",
-      "regulator": "",
-      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
-      "reviewed_at": "2026-10-11T09:30:00+09:00",
-      "note": "",
-      "auto_blockers": [],
-      "needs_attention": false,
-      "auto_checked_at": "2026-10-11T10:51:39.357736+00:00",
-      "hard_block": false,
-      "hard_block_reason": "",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
-      "canonical_product_id": "CP000270",
-      "effective_legal_pass": true,
-      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
-    },
     "1049276": {
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "status": "pass",
@@ -139,7 +90,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T10:51:39.354929+00:00",
+      "auto_checked_at": "2026-10-11T13:31:25.863766+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -186,7 +137,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T10:51:39.356290+00:00",
+      "auto_checked_at": "2026-10-11T13:31:25.864627+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -233,105 +184,11 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T10:51:39.356866+00:00",
+      "auto_checked_at": "2026-10-11T13:31:25.865165+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000216",
-      "effective_legal_pass": true,
-      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
-      "reviewed_at": "2026-10-11T09:30:00+09:00",
-      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
-    },
-    "1072554": {
-      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
-      "status": "pass",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "US English fields present"
-        },
-        "actual_label_review": {
-          "ok": true,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": true,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": true,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": true,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [],
-      "needs_attention": false,
-      "hard_block": false,
-      "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T10:51:39.357305+00:00",
-      "hs_code": "3304.99",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
-      "canonical_product_id": "CP000251",
-      "effective_legal_pass": true,
-      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
-      "reviewed_at": "2026-10-11T09:30:00+09:00",
-      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
-    },
-    "1049285": {
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "status": "pass",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": true,
-          "detail": "US English fields present"
-        },
-        "actual_label_review": {
-          "ok": true,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": true,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": true,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": true,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [],
-      "needs_attention": false,
-      "hard_block": false,
-      "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T10:51:39.355437+00:00",
-      "hs_code": "3304.99",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
-      "canonical_product_id": "CP000109",
       "effective_legal_pass": true,
       "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
       "reviewed_at": "2026-10-11T09:30:00+09:00",
@@ -380,106 +237,12 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T10:51:39.354387+00:00",
+      "auto_checked_at": "2026-10-11T13:31:25.863246+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000106",
       "effective_legal_pass": false
-    },
-    "1042246": {
-      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-      "canonical_product_id": "CP000071",
-      "status": "auto_checked",
-      "effective_legal_pass": false,
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
-        },
-        "actual_label_review": {
-          "ok": false,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": false,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": false,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": false,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T10:51:39.354139+00:00"
-    },
-    "1072800": {
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "canonical_product_id": "CP000256",
-      "status": "auto_checked",
-      "effective_legal_pass": false,
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
-        },
-        "actual_label_review": {
-          "ok": false,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": false,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": false,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": false,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T10:51:39.357322+00:00"
     },
     "1053482": {
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
@@ -524,22 +287,163 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T10:51:39.355859+00:00",
+      "auto_checked_at": "2026-10-11T13:31:25.864186+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000125",
       "effective_legal_pass": false
+    },
+    "1068721": {
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "canonical_product_id": "CP000230",
+      "status": "auto_checked",
+      "effective_legal_pass": false,
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
+        },
+        "actual_label_review": {
+          "ok": false,
+          "detail": "Product-specific human-approved actual label evidence required"
+        },
+        "responsible_person": {
+          "ok": false,
+          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+        },
+        "manufacturer_product_safety": {
+          "ok": false,
+          "detail": "Product-specific manufacturer safety evidence with human approval required"
+        },
+        "human_legal_approval": {
+          "ok": false,
+          "detail": "Human legal approval required; automation never creates PASS"
+        }
+      },
+      "auto_blockers": [
+        "label_fields",
+        "actual_label_review",
+        "responsible_person",
+        "manufacturer_product_safety",
+        "human_legal_approval"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "auto_checked_at": "2026-10-11T13:31:25.865183+00:00"
+    },
+    "1068733": {
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "canonical_product_id": "CP000231",
+      "status": "auto_checked",
+      "effective_legal_pass": false,
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
+        },
+        "actual_label_review": {
+          "ok": false,
+          "detail": "Product-specific human-approved actual label evidence required"
+        },
+        "responsible_person": {
+          "ok": false,
+          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+        },
+        "manufacturer_product_safety": {
+          "ok": false,
+          "detail": "Product-specific manufacturer safety evidence with human approval required"
+        },
+        "human_legal_approval": {
+          "ok": false,
+          "detail": "Human legal approval required; automation never creates PASS"
+        }
+      },
+      "auto_blockers": [
+        "label_fields",
+        "actual_label_review",
+        "responsible_person",
+        "manufacturer_product_safety",
+        "human_legal_approval"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "auto_checked_at": "2026-10-11T13:31:25.865198+00:00"
+    },
+    "1074979": {
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "canonical_product_id": "CP000267",
+      "status": "auto_checked",
+      "effective_legal_pass": false,
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
+        },
+        "actual_label_review": {
+          "ok": false,
+          "detail": "Product-specific human-approved actual label evidence required"
+        },
+        "responsible_person": {
+          "ok": false,
+          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+        },
+        "manufacturer_product_safety": {
+          "ok": false,
+          "detail": "Product-specific manufacturer safety evidence with human approval required"
+        },
+        "human_legal_approval": {
+          "ok": false,
+          "detail": "Human legal approval required; automation never creates PASS"
+        }
+      },
+      "auto_blockers": [
+        "label_fields",
+        "actual_label_review",
+        "responsible_person",
+        "manufacturer_product_safety",
+        "human_legal_approval"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "auto_checked_at": "2026-10-11T13:31:25.865213+00:00"
     }
   },
   "auto_summary": {
-    "checked": 10,
-    "clean": 6,
-    "needs_attention": 4,
-    "pass": 6,
-    "out_of_scope": 20
+    "checked": 8,
+    "clean": 3,
+    "needs_attention": 5,
+    "pass": 3,
+    "out_of_scope": 25
   },
-  "auto_checked_at": "2026-10-11T10:51:39.357745+00:00",
+  "auto_checked_at": "2026-10-11T13:31:25.865220+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -1308,7 +1212,274 @@
         "reviewed_at": "2026-10-11T09:30:00+09:00",
         "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
       }
+    },
+    "1075857": {
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-11T13:31:25.861202+00:00",
+      "마지막_판정": "pass",
+      "row": {
+        "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+        "status": "pass",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "US English fields present"
+          },
+          "actual_label_review": {
+            "ok": true,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": true,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": true,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": true,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "hs_code": "3304.99",
+        "regulator": "",
+        "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+        "reviewed_at": "2026-10-11T09:30:00+09:00",
+        "note": "",
+        "auto_blockers": [],
+        "needs_attention": false,
+        "auto_checked_at": "2026-10-11T13:21:29.984137+00:00",
+        "hard_block": false,
+        "hard_block_reason": "",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+        "canonical_product_id": "CP000270",
+        "effective_legal_pass": true,
+        "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
+      }
+    },
+    "1072554": {
+      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-11T13:31:25.861219+00:00",
+      "마지막_판정": "pass",
+      "row": {
+        "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+        "status": "pass",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "US English fields present"
+          },
+          "actual_label_review": {
+            "ok": true,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": true,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": true,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": true,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "auto_blockers": [],
+        "needs_attention": false,
+        "hard_block": false,
+        "hard_block_reason": "",
+        "auto_checked_at": "2026-10-11T13:21:29.983704+00:00",
+        "hs_code": "3304.99",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+        "canonical_product_id": "CP000251",
+        "effective_legal_pass": true,
+        "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+        "reviewed_at": "2026-10-11T09:30:00+09:00",
+        "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
+      }
+    },
+    "1049285": {
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-11T13:31:25.861229+00:00",
+      "마지막_판정": "pass",
+      "row": {
+        "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+        "status": "pass",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": true,
+            "detail": "US English fields present"
+          },
+          "actual_label_review": {
+            "ok": true,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": true,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": true,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": true,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "auto_blockers": [],
+        "needs_attention": false,
+        "hard_block": false,
+        "hard_block_reason": "",
+        "auto_checked_at": "2026-10-11T13:21:29.981881+00:00",
+        "hs_code": "3304.99",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+        "canonical_product_id": "CP000109",
+        "effective_legal_pass": true,
+        "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+        "reviewed_at": "2026-10-11T09:30:00+09:00",
+        "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
+      }
+    },
+    "1042246": {
+      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-11T13:31:25.861231+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "row": {
+        "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
+        "canonical_product_id": "CP000071",
+        "status": "auto_checked",
+        "effective_legal_pass": false,
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
+          },
+          "actual_label_review": {
+            "ok": false,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": false,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": false,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": false,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "auto_blockers": [
+          "label_fields",
+          "actual_label_review",
+          "responsible_person",
+          "manufacturer_product_safety",
+          "human_legal_approval"
+        ],
+        "needs_attention": true,
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+        "auto_checked_at": "2026-10-11T13:21:29.980594+00:00"
+      }
+    },
+    "1072800": {
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-11T13:31:25.861234+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "row": {
+        "name": "줌 바이 정샘물 세범다운 쿠션",
+        "canonical_product_id": "CP000256",
+        "status": "auto_checked",
+        "effective_legal_pass": false,
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
+          },
+          "actual_label_review": {
+            "ok": false,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": false,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": false,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": false,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "auto_blockers": [
+          "label_fields",
+          "actual_label_review",
+          "responsible_person",
+          "manufacturer_product_safety",
+          "human_legal_approval"
+        ],
+        "needs_attention": true,
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+        "auto_checked_at": "2026-10-11T13:21:29.983722+00:00"
+      }
     }
   },
-  "_범위": "지금 S등급 10건만 점검한다. 출처는 canonical registry-bound score/master current S union. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
+  "_범위": "지금 S등급 8건만 점검한다. 출처는 canonical registry-bound score/master current S union. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
 }

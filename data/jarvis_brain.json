@@ -1,43 +1,40 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T10:51:41.580088+00:00",
+  "generated_at": "2026-10-11T13:31:28.034629+00:00",
   "source": "dashboard_runtime + shopify_demand_score + shopify_s_recommendations + listing_gate + shopify_daily_registry",
   "desks": {
     "skincare": {
       "name": "스킨케어 전담팀",
-      "s_count": 8,
-      "public_ready": 2,
+      "s_count": 6,
+      "public_ready": 1,
       "live": 2,
       "products": [
         "1049276",
         "1055167",
         "1049275",
         "1067498",
-        "1072554",
-        "1075857",
-        "1049285",
+        "1068721",
         "1053482"
       ],
       "quota": 10
     },
     "makeup": {
       "name": "메이크업 전담팀",
-      "s_count": 1,
+      "s_count": 2,
       "public_ready": 0,
       "live": 0,
       "products": [
-        "1072800"
+        "1074979",
+        "1068733"
       ],
       "quota": 2
     },
     "body": {
       "name": "바디 전담팀",
-      "s_count": 1,
+      "s_count": 0,
       "public_ready": 0,
       "live": 0,
-      "products": [
-        "1042246"
-      ],
+      "products": [],
       "quota": 2
     }
   },
@@ -93,7 +90,6 @@
       "blocked_by": [
         "price",
         "legal",
-        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "shopify_status": "deleted_by_owner",
@@ -101,7 +97,7 @@
       "price_usd": 22.99,
       "margin_pct": 59.5,
       "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
-      "next_action": "막힌 항목 해결: price, legal, manufacturer_safety_record_missing, legal_full",
+      "next_action": "막힌 항목 해결: price, legal, legal_full",
       "status_label": "deleted_by_owner"
     },
     {
@@ -124,64 +120,29 @@
       "status_label": "ACTIVE"
     },
     {
-      "pd_no": "1072554",
-      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "pd_no": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
       "desk": "skincare",
       "desk_name": "스킨케어 전담팀",
       "bucket": "스킨케어",
       "grade": "S",
-      "score": 96,
-      "s_rule": "ingredient+form",
-      "public_ready": true,
-      "blocked_by": [],
-      "shopify_status": null,
-      "registered_at": null,
-      "price_usd": 18.99,
-      "margin_pct": 38.4,
-      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
-      "next_action": "다음 일일 등록 대상",
-      "status_label": "공개 가능"
-    },
-    {
-      "pd_no": "1075857",
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "desk": "skincare",
-      "desk_name": "스킨케어 전담팀",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "score": 94,
+      "score": 93,
       "s_rule": "ingredient+form",
       "public_ready": false,
       "blocked_by": [
-        "price"
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal",
+        "legal_full"
       ],
       "shopify_status": null,
       "registered_at": null,
-      "price_usd": 11.99,
-      "margin_pct": 31.4,
-      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
-      "next_action": "막힌 항목 해결: price",
-      "status_label": "작업 중"
-    },
-    {
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "desk": "skincare",
-      "desk_name": "스킨케어 전담팀",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "score": 92,
-      "s_rule": "multi_token",
-      "public_ready": false,
-      "blocked_by": [
-        "price"
-      ],
-      "shopify_status": null,
-      "registered_at": null,
-      "price_usd": 10.99,
-      "margin_pct": 17.6,
-      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "next_action": "막힌 항목 해결: price",
+      "price_usd": 22.99,
+      "margin_pct": 48.8,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+      "next_action": "막힌 항목 해결: copy, gosi, us_label, price, legal, legal_full",
       "status_label": "작업 중"
     },
     {
@@ -208,13 +169,13 @@
       "status_label": "작업 중"
     },
     {
-      "pd_no": "1042246",
-      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-      "desk": "body",
-      "desk_name": "바디 전담팀",
-      "bucket": "바디케어",
+      "pd_no": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "desk": "makeup",
+      "desk_name": "메이크업 전담팀",
+      "bucket": "스킨케어",
       "grade": "S",
-      "score": 83,
+      "score": 85,
       "s_rule": "category_desk_us_evidence",
       "public_ready": false,
       "blocked_by": [
@@ -228,19 +189,19 @@
       "shopify_status": null,
       "registered_at": null,
       "price_usd": 22.99,
-      "margin_pct": 30.8,
-      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042246",
+      "margin_pct": 56.3,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
       "next_action": "막힌 항목 해결: copy, gosi, us_label, price, legal, legal_full",
       "status_label": "작업 중"
     },
     {
-      "pd_no": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "desk": "makeup",
       "desk_name": "메이크업 전담팀",
-      "bucket": "메이크업",
+      "bucket": "스킨케어",
       "grade": "S",
-      "score": 75,
+      "score": 82,
       "s_rule": "category_desk_us_evidence",
       "public_ready": false,
       "blocked_by": [
@@ -254,8 +215,8 @@
       "shopify_status": null,
       "registered_at": null,
       "price_usd": 22.99,
-      "margin_pct": 48.8,
-      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
+      "margin_pct": 52.1,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
       "next_action": "막힌 항목 해결: copy, gosi, us_label, price, legal, legal_full",
       "status_label": "작업 중"
     }
