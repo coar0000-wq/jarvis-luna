@@ -131,7 +131,7 @@ jobs:
 
       - name: 파생 상태 보고서 교체 사유 기록 (가드 유지)
         if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
-        run: python -B scripts/collector_snapshot_history.py data/agents/daiso_pipeline_health.json data/operations/board.json data/operations/knowledge_graph.json
+        run: python -B scripts/collector_snapshot_history.py data/agents/daiso_pipeline_health.json data/operations/board.json data/operations/knowledge_graph.json data/operations/state.json
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
