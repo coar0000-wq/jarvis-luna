@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-10-11T07:35:17.036398+00:00",
+  "generated_at": "2026-10-11T21:27:36.535281+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -15,7 +15,7 @@
     },
     {
       "priority": 3,
-      "title": "S등급 10건 중 게이트 통과분 Shopify draft 등록",
+      "title": "S등급 8건 중 게이트 통과분 Shopify draft 등록",
       "detail": "운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지",
       "refs": [
         "data/shopify_exports/manifest.json",
@@ -36,8 +36,8 @@
     },
     {
       "priority": 4,
-      "title": "팀 자동조치 감시 · 리스팅 제작팀",
-      "detail": "가격 5건 자동 재생성·재검증 필요",
+      "title": "팀 자동조치 감시 · 마케팅 조사팀",
+      "detail": "고시 표 3건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721 / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -45,14 +45,14 @@
       "approve": "비서실장: 다음 주기 재검증"
     },
     {
-      "priority": 5,
-      "title": "팀 대기 · 리스팅 제작팀",
-      "detail": "카피 1건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기",
+      "priority": 4,
+      "title": "팀 자동조치 감시 · 리스팅 제작팀",
+      "detail": "가격 4건 자동 재생성·재검증 필요",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
       ],
-      "approve": "사람: 한 번만 승인·원본 정보 제공"
+      "approve": "비서실장: 다음 주기 재검증"
     }
   ],
   "note": "제안만 수행. 데이터 플레인 JSON은 수정하지 않음. 승인 후 기존 스크립트/수동 작업.",
@@ -65,7 +65,7 @@
       },
       {
         "n": 2,
-        "text": "S등급 10건 중 게이트 통과분 Shopify draft 등록 — 운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지"
+        "text": "S등급 8건 중 게이트 통과분 Shopify draft 등록 — 운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지"
       },
       {
         "n": 3,
@@ -73,11 +73,11 @@
       },
       {
         "n": 4,
-        "text": "팀 자동조치 감시 · 리스팅 제작팀 — 가격 5건 자동 재생성·재검증 필요"
+        "text": "팀 자동조치 감시 · 마케팅 조사팀 — 고시 표 3건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재"
       },
       {
         "n": 5,
-        "text": "팀 대기 · 리스팅 제작팀 — 카피 1건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기"
+        "text": "팀 자동조치 감시 · 리스팅 제작팀 — 가격 4건 자동 재생성·재검증 필요"
       }
     ]
   }

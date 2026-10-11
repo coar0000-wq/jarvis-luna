@@ -44,10 +44,125 @@
         "data/daiso_real/gosi_img/1048583_02.jpg",
         "data/daiso_real/gosi_img/1048583_03.jpg",
         "data/daiso_real/gosi_img/1048583_04.jpg",
-        "data/daiso_real/gosi_img/1048583_05.jpg"
+        "data/daiso_real/gosi_img/1048583_05.jpg",
+        "data/daiso_real/gosi_img/1048583_00_a456e9865cab915b6c603b7d40c363e5316d388361b1162e23b713de263f7d86.jpg",
+        "data/daiso_real/gosi_img/1048583_01_fac3c2bf395cf631d3ae1dda7bb56ce27ba17c631d163b0d136b3029c0ee7f32.jpg",
+        "data/daiso_real/gosi_img/1048583_02_0f08d48959695a3028fe0449c86604dad5ad459ebc4f6893ee79fc33d39a67cd.jpg",
+        "data/daiso_real/gosi_img/1048583_03_8e3a813a3ad4f77398ceef6429a46b1630906f59d89245b45684fedf7d1db563.jpg",
+        "data/daiso_real/gosi_img/1048583_04_e09698e3cece3860e79d2f47aa63de74aa1a1bbdf307a5f4b93b74e721ccd569.jpg",
+        "data/daiso_real/gosi_img/1048583_05_913a634d570c60a2780d9d374b8e45beb2cd48a964ef6291743aa61bb8f19688.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:25:59.674445+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:03.161513+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-11T21:26:03.161260+00:00",
+            "sha256": "12a2687a4758e850a0123efa0d0a6847a0eb2e573f7e14489d056c4256e56e1d",
+            "byte_count": 9076,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "image_observations": {
+        "data/daiso_real/gosi_img/1048583_00_a456e9865cab915b6c603b7d40c363e5316d388361b1162e23b713de263f7d86.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/3wLXFi8zRQKdesML5Ixv1048583_01_003wLXFi8zRQKdesML5Ixv.jpg",
+          "received_at": "2026-10-11T21:26:03.475598+00:00",
+          "sha256": "a456e9865cab915b6c603b7d40c363e5316d388361b1162e23b713de263f7d86",
+          "byte_count": 794240,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/3wLXFi8zRQKdesML5Ixv1048583_01_003wLXFi8zRQKdesML5Ixv.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048583",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048583_01_fac3c2bf395cf631d3ae1dda7bb56ce27ba17c631d163b0d136b3029c0ee7f32.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/CzkxifUQ7b3fpSjl9XQe1048583_01_01CzkxifUQ7b3fpSjl9XQe.jpg",
+          "received_at": "2026-10-11T21:26:04.080154+00:00",
+          "sha256": "fac3c2bf395cf631d3ae1dda7bb56ce27ba17c631d163b0d136b3029c0ee7f32",
+          "byte_count": 326596,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/CzkxifUQ7b3fpSjl9XQe1048583_01_01CzkxifUQ7b3fpSjl9XQe.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048583",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048583_02_0f08d48959695a3028fe0449c86604dad5ad459ebc4f6893ee79fc33d39a67cd.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/8tKFXD8ESmAomAtYYTn01048583_01_028tKFXD8ESmAomAtYYTn0.jpg",
+          "received_at": "2026-10-11T21:26:04.726078+00:00",
+          "sha256": "0f08d48959695a3028fe0449c86604dad5ad459ebc4f6893ee79fc33d39a67cd",
+          "byte_count": 322295,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/8tKFXD8ESmAomAtYYTn01048583_01_028tKFXD8ESmAomAtYYTn0.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048583",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048583_03_8e3a813a3ad4f77398ceef6429a46b1630906f59d89245b45684fedf7d1db563.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/qVIwYB0TntttTOLSPW771048583_01_03qVIwYB0TntttTOLSPW77.jpg",
+          "received_at": "2026-10-11T21:26:05.398828+00:00",
+          "sha256": "8e3a813a3ad4f77398ceef6429a46b1630906f59d89245b45684fedf7d1db563",
+          "byte_count": 341699,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/qVIwYB0TntttTOLSPW771048583_01_03qVIwYB0TntttTOLSPW77.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048583",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048583_04_e09698e3cece3860e79d2f47aa63de74aa1a1bbdf307a5f4b93b74e721ccd569.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/RyTYSGHZ2ZrYWDLYFk0y1048583_01_04RyTYSGHZ2ZrYWDLYFk0y.jpg",
+          "received_at": "2026-10-11T21:26:05.740131+00:00",
+          "sha256": "e09698e3cece3860e79d2f47aa63de74aa1a1bbdf307a5f4b93b74e721ccd569",
+          "byte_count": 442100,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/RyTYSGHZ2ZrYWDLYFk0y1048583_01_04RyTYSGHZ2ZrYWDLYFk0y.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048583",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048583_05_913a634d570c60a2780d9d374b8e45beb2cd48a964ef6291743aa61bb8f19688.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/cp9MsaFre45In3mTT7BL1048583_01_05cp9MsaFre45In3mTT7BL.jpg",
+          "received_at": "2026-10-11T21:26:06.364653+00:00",
+          "sha256": "913a634d570c60a2780d9d374b8e45beb2cd48a964ef6291743aa61bb8f19688",
+          "byte_count": 154050,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/cp9MsaFre45In3mTT7BL1048583_01_05cp9MsaFre45In3mTT7BL.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048583",
+          "product_identity_verified": false
+        }
+      }
     },
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -70,10 +185,38 @@
       "사람_필요": [],
       "detail_blurb": "마린 무기자차 마일드 선크림 여린피부에 착한 성분으로 안심무기자차 선크림 저자극 무기자차 민감밀착 테스트완료 사전 체험단 사용후기 순한 성분이라 저 뿐만아니라 가족모두같이사용하고있어요. 민감성피부인데 트러블도없고 순하고정말좋아요! 발림성도부드럽고 백탁현상이 없어서 자주사용하게돼요 부드럽게 흡수되는 촉촉한 크림타입 부드러운발림성고 산뜻한 마무리는 기본, 여린피부에맞는 마일드안심 자외선 저자극무기자차 산뜻한밀착 선크림만 바꾼다고 피부결이 달라질까요? 달라집니다. 막강한 자외선 차단력으로 맑고 건강한피부를지키세요. 확실한 안심 본 미백·주름개선 자외선차단 순한성분 피부진정 기능성 마린 미네랄 필터 마일드 선크림 믿을 수 있는 무기자차 안심 자외선 차단제 마일드_안심_선크림 징크옥사이드자외선차단제로 자외선이 피부에침투되지않도록물리적으로차단 3중기능성으로 효과적인 스킨케어 강력한자외선차단부터 한번에 마린 콤플렉스 함유 식이섬유 무기질그외 풍부한영양소를함유한 해조류추출물이피부를촉촉하고건강하게 안심 처방 민감피부도사용가능한피부자극테스트완료 마린무기자차 마일드선크림 이런 분들에게 추천합니다. 피부진정과자외선차단이 동시에되는 제품을찾는분 가볍고 촉촉한제품을찾는분 민감한피부에도안심하고사용가능한제품을찾는분 피부자극없이 순한제품을찾는분 착한 성분으로 믿고쓰는 무기자차 선크림 여린 피부도 자극적이지 않아편안하게사용가능한 안심처방 무기자차 마일드선크림 온가족_데일리 마일드선크림 인체 적용 시험 완료 맑고 깨끗한 바다를 생각하는 마음 비프루브의 마린 선크림은 해양생태계에영향을끼치는 옥시벤존 옥티노세이트 성분을 배제하였습니다. 마린 레시",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1045146_00.jpg"
+        "data/daiso_real/gosi_img/1045146_00.jpg",
+        "data/daiso_real/gosi_img/1045146_00_fc110a332d38fd996c66ec957598980a627ad4cc7e563431f3fe43919c329c2b.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:06.665397+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:09.880518+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1045146_00_fc110a332d38fd996c66ec957598980a627ad4cc7e563431f3fe43919c329c2b.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240814/bAKFjKqP1ganuy1LgkJA1045146_01_00bAKFjKqP1ganuy1LgkJA.jpg",
+          "received_at": "2026-10-11T21:26:10.171813+00:00",
+          "sha256": "fc110a332d38fd996c66ec957598980a627ad4cc7e563431f3fe43919c329c2b",
+          "byte_count": 2375203,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240814/bAKFjKqP1ganuy1LgkJA1045146_01_00bAKFjKqP1ganuy1LgkJA.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1045146",
+          "product_identity_verified": false
+        }
+      }
     },
     "1049271": {
       "name": "[퀵시카진정]VT 시카 카밍 토너 300 ml",
@@ -98,10 +241,77 @@
       "detail_blurb": "**VT 시카 카밍 토너** 매일매일, 순하게 만나는 초록빛 진정 수분 토너 **제품 설명** 산뜻한 수분·진정 토너로, 진정에 효과적인 성분을 까다롭게 선별하여 예민해진 피부를 편안하고 건강하게 가꾸어주는 제품입니다. **주요 성분** 히알루론산 - 수분 공급 제주산 병풀추출물 - 진정&수분 공급, 보습 강화 판테놀 - 수분장벽강화, 피부진정 케어 글루코노락톤 PHA - 피부 결 정돈 소듐하이알루로네이트 건조하고 여린 피부의 진정을 위한 청정지역 제주산 병풀추출물에 수분 케어를 위한 히알루론산이 함유되어 건조하고 메마른 피부에 수분을 공급하고 편안한 피부를 완성합니다. **3-in-1 케어 활용법** 닦토 - 피부결 정돈 아침 저녁 세안 후, 화장솜에 토너를 적당히 적셔 피부결을 따라 가볍게 닦아줍니다. 흡토 - 수분 진정 세안 후, 손이나 얼굴에 적당량을 덜어 부드럽게 펴 발라 가볍게 두드리듯 흡수시켜줍니다. 토너팩 - 집중 케어 화장솜에 토너를 덜어 충분히 적신 후, 수분&진정 집중 케어가 필요한 부위에 5분간 얹어줍니다. **제품 특성** 진정 효과: 높음 끈적임: 적음 유분감: 적음 결 케어: 우수 피부에 풍부한 수분을 공급하지만, 끈적임 없이 산뜻하게 흡수되는 토너 제형입니다. **사용 방법** 세안 후 화장솜이나 손에 적당량 덜어 얼굴 안쪽에서 바깥쪽으로 피부 결을 따라 고르게 펴 발라 흡수시켜 줍니다. **상품 정보** 제품명: VT 시카 카밍 토너 300ml 용량: 10.14 fl. oz. / 300 mL 제품 주요 사양: 모든 피부 타입 사용기한: 개봉 전 36개월, 개봉 후 12개월 제조업",
       "gosi_images": [
         "data/daiso_real/gosi_img/1049271_00.jpg",
-        "data/daiso_real/gosi_img/1049271_01.jpg"
+        "data/daiso_real/gosi_img/1049271_01.jpg",
+        "data/daiso_real/gosi_img/1049271_00_fcdfa57f9301479df3babcebd42f9955a4932cc1bf9293dbb6aa9f507f7105c0.jpg",
+        "data/daiso_real/gosi_img/1049271_01_18aa468f1688b7478786b6301cce3a75ab23e4c8564c272ea45dbc100064ab4b.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:10.475467+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:13.730401+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "volume",
+          "retained_value": "10.14 fl. oz. / 300 mL",
+          "observed_value": "300ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-11T21:26:13.730231+00:00",
+            "sha256": "61a7c5ead7cf8fb4f5fa28e2e2bd45942b8d54f584a8e01fca86973da1091137",
+            "byte_count": 6362,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "10.14 fl. oz. / 300 mL",
+          "observed_value": "300ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "image_observations": {
+        "data/daiso_real/gosi_img/1049271_00_fcdfa57f9301479df3babcebd42f9955a4932cc1bf9293dbb6aa9f507f7105c0.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20260403/1ePKgcvrCt2MafUTfJKT1049271_01_011ePKgcvrCt2MafUTfJKT.jpg",
+          "received_at": "2026-10-11T21:26:13.887199+00:00",
+          "sha256": "fcdfa57f9301479df3babcebd42f9955a4932cc1bf9293dbb6aa9f507f7105c0",
+          "byte_count": 1492303,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20260403/1ePKgcvrCt2MafUTfJKT1049271_01_011ePKgcvrCt2MafUTfJKT.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1049271",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1049271_01_18aa468f1688b7478786b6301cce3a75ab23e4c8564c272ea45dbc100064ab4b.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20260403/A2SJLfp02PVT889BcpYh1049271_01_02A2SJLfp02PVT889BcpYh.jpg",
+          "received_at": "2026-10-11T21:26:14.490735+00:00",
+          "sha256": "18aa468f1688b7478786b6301cce3a75ab23e4c8564c272ea45dbc100064ab4b",
+          "byte_count": 1610579,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20260403/A2SJLfp02PVT889BcpYh1049271_01_02A2SJLfp02PVT889BcpYh.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1049271",
+          "product_identity_verified": false
+        }
+      }
     },
     "1048581": {
       "name": "드롭비 잡티 말끔 앰플 40 ml",
@@ -132,10 +342,113 @@
         "data/daiso_real/gosi_img/1048581_01.jpg",
         "data/daiso_real/gosi_img/1048581_02.jpg",
         "data/daiso_real/gosi_img/1048581_03.jpg",
-        "data/daiso_real/gosi_img/1048581_04.jpg"
+        "data/daiso_real/gosi_img/1048581_04.jpg",
+        "data/daiso_real/gosi_img/1048581_00_d606be00829ed9b937ba6d451c5dc725ab758fb9db577ea4521dd5e300eb707b.jpg",
+        "data/daiso_real/gosi_img/1048581_01_b69d1aff2152acc36a06d972f4e2cfdc3a368ee15e2478a33492e06abde44c9c.jpg",
+        "data/daiso_real/gosi_img/1048581_02_3a260e559bb04901e90224be47c3e4b749332721836ff0f8f3848b5378e3906d.jpg",
+        "data/daiso_real/gosi_img/1048581_03_522b4d9ee2833fea1dd42eacfdf32c3a0663caf1121b22b16c4c4e43de16f1ae.jpg",
+        "data/daiso_real/gosi_img/1048581_04_b53e1dec2178b1557ae2a97b26d331919938ed17e91a28df48c724357ee08859.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:14.793267+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:18.094693+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-11T21:26:18.094557+00:00",
+            "sha256": "f8bed95b03c0dd335017d53a572170f050cb1009232b5b86edb7c315a07162ea",
+            "byte_count": 7891,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "image_observations": {
+        "data/daiso_real/gosi_img/1048581_00_d606be00829ed9b937ba6d451c5dc725ab758fb9db577ea4521dd5e300eb707b.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/45oXNn7dsMdh5sS17XXl1048581_01_0045oXNn7dsMdh5sS17XXl.jpg",
+          "received_at": "2026-10-11T21:26:18.459089+00:00",
+          "sha256": "d606be00829ed9b937ba6d451c5dc725ab758fb9db577ea4521dd5e300eb707b",
+          "byte_count": 1003627,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/45oXNn7dsMdh5sS17XXl1048581_01_0045oXNn7dsMdh5sS17XXl.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048581",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048581_01_b69d1aff2152acc36a06d972f4e2cfdc3a368ee15e2478a33492e06abde44c9c.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/Wm6AekaFdPjcK7tWZl381048581_01_01Wm6AekaFdPjcK7tWZl38.jpg",
+          "received_at": "2026-10-11T21:26:18.877605+00:00",
+          "sha256": "b69d1aff2152acc36a06d972f4e2cfdc3a368ee15e2478a33492e06abde44c9c",
+          "byte_count": 551991,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/Wm6AekaFdPjcK7tWZl381048581_01_01Wm6AekaFdPjcK7tWZl38.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048581",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048581_02_3a260e559bb04901e90224be47c3e4b749332721836ff0f8f3848b5378e3906d.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/IhOV44oWtrUgR7n1UqZs1048581_01_02IhOV44oWtrUgR7n1UqZs.jpg",
+          "received_at": "2026-10-11T21:26:19.220967+00:00",
+          "sha256": "3a260e559bb04901e90224be47c3e4b749332721836ff0f8f3848b5378e3906d",
+          "byte_count": 907819,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/IhOV44oWtrUgR7n1UqZs1048581_01_02IhOV44oWtrUgR7n1UqZs.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048581",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048581_03_522b4d9ee2833fea1dd42eacfdf32c3a0663caf1121b22b16c4c4e43de16f1ae.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/HU49hMd5Tbk8WuMzEIDZ1048581_01_03HU49hMd5Tbk8WuMzEIDZ.jpg",
+          "received_at": "2026-10-11T21:26:19.729140+00:00",
+          "sha256": "522b4d9ee2833fea1dd42eacfdf32c3a0663caf1121b22b16c4c4e43de16f1ae",
+          "byte_count": 648699,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/HU49hMd5Tbk8WuMzEIDZ1048581_01_03HU49hMd5Tbk8WuMzEIDZ.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048581",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1048581_04_b53e1dec2178b1557ae2a97b26d331919938ed17e91a28df48c724357ee08859.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20240127/zDQKcJImwpN1vmbrn6q31048581_01_04zDQKcJImwpN1vmbrn6q3.jpg",
+          "received_at": "2026-10-11T21:26:20.333884+00:00",
+          "sha256": "b53e1dec2178b1557ae2a97b26d331919938ed17e91a28df48c724357ee08859",
+          "byte_count": 140068,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20240127/zDQKcJImwpN1vmbrn6q31048581_01_04zDQKcJImwpN1vmbrn6q3.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1048581",
+          "product_identity_verified": false
+        }
+      }
     },
     "1075857": {
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
@@ -158,10 +471,38 @@
       "사람_필요": [],
       "detail_blurb": "CELDERMA Daily PDRN Glow Cream Wrapping Mask 크림을 피부에 밀착시키는 특수코팅 시트로 완성한 크림랩핑케어 연어유래 PDRN+PHA 백주름개선 2중기능성 크림 랩핑 시스템 핵심구조 코팅 크림 2-Layer (듀얼매트릭스) 코팅시트 팩하는 동안 건조해지지 않도록 덮어 촉촉함 유지 크림이 피부에 부드럽게 밀착되어 수분코팅감 움직여도 밀착이 유지되도록 왜 '크림' 제형인가요? 가벼운 젤크림이 피부에 빠르게 밀착되어 유분부담은 줄이고 수분과 광채를 전달합니다. 건조한 피부는 물론 지성 피부도 편안하게 사용할 수 있습니다. PDRN 광채 크림 랩핑 마스크 산뜻정돈 광채 코팅 How to use 세안 후, 토너로 피부결을 정돈 미백·주름개선 2중기능성 화장품 피부저자극테스트 완료 인체적용시험 결과보고서 의뢰기관: (주)제닉 (주)큐티스의 생명연구센터 Recommend 이런 고민이 있으신 분들께 추천합니다. 팩이 마르면서 당김이 느껴질 때 붙이자마자 내용물이 흘러내리는 타입이 싫을 때 팩을 떼고 나서도 정돈된 코팅감이 남았으면 할 때 팩하는 동안 들뜨거나 머리카락이 달라붙어 거슬릴 때 #산뜻정돈 #광채코팅 #쫀쫀탄탄 #밀착코팅",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1075857_00.jpg"
+        "data/daiso_real/gosi_img/1075857_00.jpg",
+        "data/daiso_real/gosi_img/1075857_00_e97704be690840bf8fc3d8646e24930008c6196e160ba09aac8a80cdca5f1d27.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:20.634617+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:23.883748+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1075857_00_e97704be690840bf8fc3d8646e24930008c6196e160ba09aac8a80cdca5f1d27.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20260205/AhKJT7NWuqKofAy8LHPU1075857_01_01AhKJT7NWuqKofAy8LHPU.jpg",
+          "received_at": "2026-10-11T21:26:24.138935+00:00",
+          "sha256": "e97704be690840bf8fc3d8646e24930008c6196e160ba09aac8a80cdca5f1d27",
+          "byte_count": 6383433,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20260205/AhKJT7NWuqKofAy8LHPU1075857_01_01AhKJT7NWuqKofAy8LHPU.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1075857",
+          "product_identity_verified": false
+        }
+      }
     },
     "1068776": {
       "name": "싸이닉 파워옴므 워터리 선크림 50 ml",
@@ -184,10 +525,38 @@
       "사람_필요": [],
       "detail_blurb": "수분크림바른듯촉촉! 촉촉 수분 선크림 파워옴므 워터리 선크림 50ml 자외선차단+ 미백 + 주름개선 3중기능성화장품 POINT1 수분 밀착 POINT2 산뜻 편안한 피부 자극 POINT3 선크림 사용감 시험 완료 자외선 노출이 잦은 피부 푸석푸석 건조한 피부 어둡고 칙칙한 피부 자꾸만 신경쓰이는 주름 뜨거운 자외선으로부터 피부를 건강하게 보호하는 촉촉 산뜻 워터리 수분 선크림 TEXTURE 수분감가득 산뜻 촉촉한 선크림 매끄럽고 부드럽게 발리며 끈적임&답답함 없이 편안한 수분자차! 남자 피부 집중케어 기능성 성분X 판테놀 포뮬러 미백, 주름개선 기능성 핵심성분과 피부 보호 판테놀 함유 스킨케어 효과 나이아신아마이드 - 피부톤케어및미백효과 판테놀 - 피부진정/보호및장벽케어 아데노신 - 피부주름개선및탄력케어 태양 앞에 자신있게! 데일리 수분 선크림 자외선으로부터 피부 보호는 물론, 탄력있고 건강한 피부로 케어! CHECK 사용 전 확인하세요 피부 자극 테스트 완료 시험 제품명 파워옴므워터리선크림 피부자극 자극성평가결과 비자극 시험기관 휴먼피부임상시험센터 시험기간 2025.05.20~2025.05.22 시험대상 성인남녀 34명 HOW TO USE 스킨케어 마지막 단계에서 자외선에 노출되기쉬운 얼굴, 목등에 가볍게펴발라주세요. 의류및생활용품에묻을 경우이염및변색될 가능성이있으므로사용 시주의해주세요! 제품명 싸이닉파워 옴므워터리선크림 제품구분 선크림 제품설명 수분크림바른듯촉촉하게자외선으로부터 피부를 보호하는 수분 선크림 용량 50ml 피부타입 모든피부타입(남성전용) 기능성 자외선차단+미백+주름개선3중기능성화장품 전성분 ",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1068776_00.png"
+        "data/daiso_real/gosi_img/1068776_00.png",
+        "data/daiso_real/gosi_img/1068776_00_1725afa0ddd2d151731b120f00fc95ba2181a3f1ea21e7c83cbab47540792ae5.png"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:24.447810+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:27.769875+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1068776_00_1725afa0ddd2d151731b120f00fc95ba2181a3f1ea21e7c83cbab47540792ae5.png": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250826/9nokbZqQJG0T55Q8N9mn1068776_01_019nokbZqQJG0T55Q8N9mn.png",
+          "received_at": "2026-10-11T21:26:28.112199+00:00",
+          "sha256": "1725afa0ddd2d151731b120f00fc95ba2181a3f1ea21e7c83cbab47540792ae5",
+          "byte_count": 4498042,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250826/9nokbZqQJG0T55Q8N9mn1068776_01_019nokbZqQJG0T55Q8N9mn.png/dims/resize/850/quality/100",
+          "intended_product_id": "1068776",
+          "product_identity_verified": false
+        }
+      }
     },
     "1059834": {
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
@@ -214,10 +583,89 @@
       "gosi_images": [
         "data/daiso_real/gosi_img/1059834_00.jpg",
         "data/daiso_real/gosi_img/1059834_01.jpg",
-        "data/daiso_real/gosi_img/1059834_02.jpg"
+        "data/daiso_real/gosi_img/1059834_02.jpg",
+        "data/daiso_real/gosi_img/1059834_00_b6af98153ede920598226dd0032f34c12d1b0cf8a1d7e656f60ac4c92f6b20c5.jpg",
+        "data/daiso_real/gosi_img/1059834_01_619cdb39f4703f53b2519bc91b94fa011669be94414edab0f5bb448fc4b3af16.jpg",
+        "data/daiso_real/gosi_img/1059834_02_30079c8231e690921a32f0b84afeb97445e4e607ceca9631b26fc1336afe6020.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:28.418553+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:31.755789+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "volume",
+          "retained_value": "28 g",
+          "observed_value": "28g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-11T21:26:31.755524+00:00",
+            "sha256": "508ecb84ce30be3972f76b8d41c1131aeb605a1fa801af50f39e057a8d036639",
+            "byte_count": 7550,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "28 g",
+          "observed_value": "28g",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "image_observations": {
+        "data/daiso_real/gosi_img/1059834_00_b6af98153ede920598226dd0032f34c12d1b0cf8a1d7e656f60ac4c92f6b20c5.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250325/xUFjJz1qBRYRV84yZJtU1059834_01_01xUFjJz1qBRYRV84yZJtU.jpg",
+          "received_at": "2026-10-11T21:26:31.912230+00:00",
+          "sha256": "b6af98153ede920598226dd0032f34c12d1b0cf8a1d7e656f60ac4c92f6b20c5",
+          "byte_count": 2566900,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250325/xUFjJz1qBRYRV84yZJtU1059834_01_01xUFjJz1qBRYRV84yZJtU.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1059834",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1059834_01_619cdb39f4703f53b2519bc91b94fa011669be94414edab0f5bb448fc4b3af16.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250325/9nE4FUUe34t0cwPoJinY1059834_01_029nE4FUUe34t0cwPoJinY.gif",
+          "received_at": "2026-10-11T21:26:32.572239+00:00",
+          "sha256": "619cdb39f4703f53b2519bc91b94fa011669be94414edab0f5bb448fc4b3af16",
+          "byte_count": 917200,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250325/9nE4FUUe34t0cwPoJinY1059834_01_029nE4FUUe34t0cwPoJinY.gif",
+          "intended_product_id": "1059834",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1059834_02_30079c8231e690921a32f0b84afeb97445e4e607ceca9631b26fc1336afe6020.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250325/klxyeV7XQSYkU9pBxDQ01059834_01_03klxyeV7XQSYkU9pBxDQ0.jpg",
+          "received_at": "2026-10-11T21:26:32.983582+00:00",
+          "sha256": "30079c8231e690921a32f0b84afeb97445e4e607ceca9631b26fc1336afe6020",
+          "byte_count": 780151,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250325/klxyeV7XQSYkU9pBxDQ01059834_01_03klxyeV7XQSYkU9pBxDQ0.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1059834",
+          "product_identity_verified": false
+        }
+      }
     },
     "1062781": {
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
@@ -240,10 +688,65 @@
       "사람_필요": [],
       "detail_blurb": "더마블록 피디알엔 콜라겐 크림 집중관리받은듯한 물광피부를 홈케어로 가능할까? 매끈쫀쫀, 속광탄력을 한번에! 연어유래 PDRN + 콜라겐 + 히알루론산 물광 퍼밍 피디알엔 콜라겐 크림 결은 부드럽게, 광은 짱짱하게 피디알엔 콜라겐 크림 미백, 주름개선 2중 기능성 CHECK POINT Point 1 집중관리받은듯한 물광탄력피부로 케어 Point 2 앰플품은 크림제형의 수분탄력 연어물광크림 PDRN, 콜라겐, 히알루론산 펩타이드 성분함유 물광 부스팅, 피부결 & 탄력 개선의 물광탄력 시너지 효과 연어유래 콜라겐이 이용된 탄력을 도와주는 성분으로 탱탱하고 매끈한 피부로 관리 TEXTURE 롤링하면 가볍게 앰플이 베어나오는 부드러운 크림제형 HOW TO USE 세안 후 아침, 저녁 스킨케어 마지막 단계에서 적당량을 취해 부드럽게 펴발라줍니다. PDRN LINE 연어유래 PDRN과 제품별 특화 성분이 함유된 물광탄력 라인 토너, 앰플, 크림 상품정보제공고시 제품명: 더마블록 피디알엔 콜라겐 크림 내용물의 용량 또는 중량: 50ml 제품 주요사양: 모든피부 사용기한(또는 개봉 후 사용기간): 86개월 사용방법: 세안 후 아침, 저녁 스킨케어 마지막 단계에서 적당량을 취해 부드럽게 펴발라줍니다. 화장품 제조업자 및 판매업자: (주)씨엠에스랩 제조국: 한국 기능성화장품: 미백, 주름개선 2중 기능성 화장품 소비자상담전화번호: 080-447-1820",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1062781_00.jpg"
+        "data/daiso_real/gosi_img/1062781_00.jpg",
+        "data/daiso_real/gosi_img/1062781_00_dd500c099a7962f9c0a81fa6ea0fb1eca745905bbd03539320ce4031018d8570.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:33.285093+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:36.462244+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "volume",
+          "retained_value": "50ml (1.69 fl.oz)",
+          "observed_value": "50ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-11T21:26:36.462017+00:00",
+            "sha256": "1ce179ee2566e6197154eebb82e1c2b82cb95d48d03441b624d540ac4d109dd9",
+            "byte_count": 4189,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "50ml (1.69 fl.oz)",
+          "observed_value": "50ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "image_observations": {
+        "data/daiso_real/gosi_img/1062781_00_dd500c099a7962f9c0a81fa6ea0fb1eca745905bbd03539320ce4031018d8570.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250404/ExzUHSR3Tu4zPyqbqHpu1062781_01_01ExzUHSR3Tu4zPyqbqHpu.jpg",
+          "received_at": "2026-10-11T21:26:36.608177+00:00",
+          "sha256": "dd500c099a7962f9c0a81fa6ea0fb1eca745905bbd03539320ce4031018d8570",
+          "byte_count": 4775141,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250404/ExzUHSR3Tu4zPyqbqHpu1062781_01_01ExzUHSR3Tu4zPyqbqHpu.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1062781",
+          "product_identity_verified": false
+        }
+      }
     },
     "1060487": {
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
@@ -266,10 +769,65 @@
       "사람_필요": [],
       "detail_blurb": "콜라겐 모공리프팅 마스크 락토프릭틱 락토핑마스크 공리프팅 락트 바실러스+콜라겐 락토콜라진배함으로 수분과 탄력을 공급 모공케어 KEYPOINT 쫀쫀한 모공&탄력리프팅 모공보다 작은 콜라겐 흡수가 쉬운 300달톤초저분자콜라겐 콜라겐영양밀착 피부속 핵심성분 꽉잡이 주는 랩핑시스템 1회 사용으로 느껴지는 모공변화 인체적용시험을 통해 입증하는 모공리프팅케어 솔루션 모공고민끝! 탱탱 모공 리프팅 케어 모공면적(축소) 13.64% 개선 로모공 13.4% 개선 모공 8.5% 개선 모공부위탄력 1.95% 개선 단한겹으로 경험하는 탄력 리프팅 효과 1회사용만으로! 피부속부터 촘촘하게 채워 빈틈없이 탄력리프팅 안면(볼)리프팅 8.56% 볼부위 처진각도개선 2.6% 안면탄력개선 4.7% Technology 피부 속 핵심 성분을 꽉 잡아주는 랩핑시스템 About. Wrapping Mask STEP1 초저분자콜라겐밀착 STEP2 콜라겐의 영양 빈틈없이 전달 STEP3 공 중으로 날아가는 분&영양보호 Texture LACTO PORE LIFTING WRAPPING MASK 300달톤 저분자 콜라겐 코팅막이 형성되어 피부에 영양을 빈틈없이 전달해줍니다. How to use 세안후 토너와 크림까지 충분히 바른후 사용해주세요. STEP1 눈가, 입 주위를 제외한 얼굴전체에 5g 또는 500원 크기만큼 덜어 적당량을 도포해 줍니다. STEP2 양분양산 경하교통약이상길때까지 가장자리 갓성비 1일 1팩 랩핑마스크 피부 고민별 맞춤 4종 랩핑 마스크 +락토리겐실러스 +5가지시카 +레몬추출물만 + +판테놀 모공축소 광채 브라이트닝 회사용만으로 1회사",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1060487_00.jpg"
+        "data/daiso_real/gosi_img/1060487_00.jpg",
+        "data/daiso_real/gosi_img/1060487_00_8ad465d5c5c934b94afbfe74fd93796f99af0f6e5694e7d9a9b7cc8ef7686253.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:36.914861+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:40.148732+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "volume",
+          "retained_value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+          "observed_value": "5g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-11T21:26:40.148458+00:00",
+            "sha256": "1deb9e6e24a08c2805ea01aeb3733834a5033f3bf83932d3b19418c4af06a26e",
+            "byte_count": 6843,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+          "observed_value": "4ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "image_observations": {
+        "data/daiso_real/gosi_img/1060487_00_8ad465d5c5c934b94afbfe74fd93796f99af0f6e5694e7d9a9b7cc8ef7686253.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250813/0es4D16IkWm5ZPTvPpyB1060487_01_010es4D16IkWm5ZPTvPpyB.jpg",
+          "received_at": "2026-10-11T21:26:40.191805+00:00",
+          "sha256": "8ad465d5c5c934b94afbfe74fd93796f99af0f6e5694e7d9a9b7cc8ef7686253",
+          "byte_count": 2626069,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250813/0es4D16IkWm5ZPTvPpyB1060487_01_010es4D16IkWm5ZPTvPpyB.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1060487",
+          "product_identity_verified": false
+        }
+      }
     },
     "1041403": {
       "name": "채비공간 어성초 추출물 비건 토너 150 ml",
@@ -292,10 +850,38 @@
       "사람_필요": [],
       "detail_blurb": "재구매로 인증하는 누적판매량 50만 병 장군포항 매번 주문해서 사용중이에요 모너레으로 최고에요 ⌀20mmx⌀20mm 재구매했어요 피부 뒤집어졌을 때 이거 쓰고 관다피리는 피부 피지 분비로 유기농 어국내산 테스트 완료 쿠에르치트린이라는 다량으로 함유되어 있어 피지생성억제에 도움을 주며, 유수분케어 및 노매물관리에 도움을 줍니다 고령군에서 가정성 스레 지배한 예민한 피부 100% 유기농 어성초잎 000번 이상의 절구질 완성한 유기농원물 숙성공법이란? 파괴는 최소화입니다. 어성초의 효능은 순수한 여성초 수 완성 10,000회 이상 절구질과 숙성을 통한 항산화효과 극대화 240시간 더 좋아진 텍스처로 사용품으로 걱정없이, 저자극 안심 8년 동안 농약없이 깨끗한 땅에서 자란 유기농 어성초잎 유기농 원물을 사용한 비건토너 매일 부담이 적은 사용감을 전합 EWG GREEN EWG 기준 그런 등급 원보를 선별에 담았습니 최적의 피부 상태를 유지할 수 있도록 피부 본연의 pH에 가장 가깝게 만들었습니다. 다양하게 활용 가능 지속 기능한 움을 위하여 FSC 인증 패키지와 용기 스스 제거 후 분리배출 세척 후 분리배출 제거 후 분류 FSC 인증 자주 묻는 질문 유통기한은 어떻게 되나요? 제조일로부터 3년이며, 개봉 후에는 6개월 이내 사용을 권장드립니다. 제품 하단에 유통기한 별도 표기되어 있습니다. 보관은 어떻게 해야 하나요? 온도가 높고 직사광선이 들어오는 곳에서 변질 우려가 있으므로 직사광선을 피하여 서늘한 곳에서 보관해주시기 바랍니다. 어린이 청소년 임산부도 사용 가능한가요? 비건토너는 전성분 EWG 등급으로 어린이, 청",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1041403_00.jpg"
+        "data/daiso_real/gosi_img/1041403_00.jpg",
+        "data/daiso_real/gosi_img/1041403_00_ddede64ffc64a95c0b114600dac64524394df821caa83a2f703973c21e78ac3d.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:40.495680+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:43.669248+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1041403_00_ddede64ffc64a95c0b114600dac64524394df821caa83a2f703973c21e78ac3d.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20260710/s0I3I33b4XU82ba0cRxn1041403_01_02s0I3I33b4XU82ba0cRxn.jpg",
+          "received_at": "2026-10-11T21:26:43.733152+00:00",
+          "sha256": "ddede64ffc64a95c0b114600dac64524394df821caa83a2f703973c21e78ac3d",
+          "byte_count": 4351037,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20260710/s0I3I33b4XU82ba0cRxn1041403_01_02s0I3I33b4XU82ba0cRxn.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1041403",
+          "product_identity_verified": false
+        }
+      }
     },
     "1070006": {
       "name": "리노이아 퍼퓸헤어 세럼미스트 아쿠아씨솔트 80 ml",
@@ -317,10 +903,38 @@
       "사람_필요": [],
       "detail_blurb": "다이소 XRE:NOIA Perfume Hair Serum Mist 리노이아퍼퓸 헤어세럼 미스트 자연스럽게 퍼지는 은은한 향기와 빛나는 머릿결로 특별해지는 오늘의 무드 Key Ingredients 리노이아가 선보이는 시그니처 향을 만나보세요 Blooming Floral Rose Musk 부스스함을 잠재우는 헤어 실크 미스트 모발끝갈라짐: 개선에도움 크림+세럼 2중보습으로 찰랑이는머릿결 실크아미노산과오일로만드는 건강한모발 기분좋은하루를시작하는싱그러운향기 AQUASEASALT 아쿠아씨솔트 맑고 개운한 바다 내음과 우디한 흙 내음이 깔린 상쾌한향기 Lemon Sea Salt 레몬 씨솔트 시더우드 몬 씨솔트 시더우드 블루밍플로럴 눈부신 햇살과 풍성하게 피어난 다채로운 봄꽃을 담은 화사한향 아쿠아 씨솔트 맑고 개운한 바다 내음과 함께 우디한 흙 내음이 깔린 상쾌한 향 RE:NOIA Musk 다마스크로즈와 싱그러운 레몬의 스파클링이 더해진 사랑스런 향 크림+세럼 2중 보습 밸런스 크림층: 식물성오일을담은 세럼층: 실크아미노산을담은 HAIR SERUM MIST 놓칠 수없는 찰랑임 모발 끝까지케어하는 헤어 세럼 미스트 모발 끝갈라짐 개선 빛나는 머릿결을 위한 Conditioning Complex 실크아미노산 모발을 구성하는케라틴함유로 모발윤기부여 식물성 오일 해바리 씨오일, 동백내 무 오일, 아르간커넬오일, 녹차씨오일, 포도씨오일 섬세한 안개분사 오늘의 무드 완성하는 산뜻한 사용감 매일매일편안하게사용하도록 저자극테스트 완료 사용방법 크림층과세럼층이잘섞이도록 내용물을충분히흔들어준후, 젖은모발또는마른 모발에 분사해줍니다.",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1070006_00.jpg"
+        "data/daiso_real/gosi_img/1070006_00.jpg",
+        "data/daiso_real/gosi_img/1070006_00_ac0c7da0fd4de665f495d0e50696f481178e51410f57f5ac363f615371918531.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:44.039122+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:47.211184+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1070006_00_ac0c7da0fd4de665f495d0e50696f481178e51410f57f5ac363f615371918531.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20251117/i7ThwctMtwgcwlfKQ8BH1070006_01_01i7ThwctMtwgcwlfKQ8BH.jpg",
+          "received_at": "2026-10-11T21:26:47.297932+00:00",
+          "sha256": "ac0c7da0fd4de665f495d0e50696f481178e51410f57f5ac363f615371918531",
+          "byte_count": 6776454,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20251117/i7ThwctMtwgcwlfKQ8BH1070006_01_01i7ThwctMtwgcwlfKQ8BH.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1070006",
+          "product_identity_verified": false
+        }
+      }
     },
     "1032881": {
       "name": "케라시스 어드밴스드 리페어 헤어 팩 150 ml",
@@ -342,10 +956,38 @@
       "사람_필요": [],
       "detail_blurb": "KERASYS CLINIC ADVANCED 고농축 앰플로 헤어에 빛을 채우다 케라시스 어드밴스드 앰플 헤어팩 10배 더 진해진 앰플 어드밴스드 10X 앰플 헤어팩으로 찐하게 모발케어 케라시스어드밴스드엠을샴푸/트리트먼트 대비 REPAIR 10X케라틴앰플 손상케어 10가지단백질함유로 모발영양강화 극손상모발용 10X리페어앰플헤어팩 멀티오일영양 끊어지고 갈라지는 5-Oil Complex 극도로 손상된머릿결 아르간, 호호비 아보카도 코코넛, 바오밥 10배더진한 앰플 담아 끊어지고 갈라지는 극손상모발 손상케어 케라시스 어드밴스드 10X 리페어 앰플 헤어팩 케라시스어드밴스드 리페어영플샴푸/트리트먼트대비 10배많은케라틴앰플 함유 10가지 단백질 케라틴앰플 10가지단백질 5가지오일 10가지단백질 5가지오일 리페어엠플샴푸/트리트먼트대비 함유로 영양충전 10배 많은 케라틴 앰플 함유 케라틴 앰플 10가지 단백질 그리고 5가지 오일까지들어있어 끊어지고 갈라지는극도로 손상된 모발을 부드럽게 10가지 단백질 실크 쌀 케라틴 우유 콩 엘라스틴 보리 콜라겐 코튼씨드 5가지오일 아르간 호호바 아보카도 코코넛 바오밥 케라시스 어드밴스드 10X 리페어 앰플 헤어팩 10x리페어 앰플 헤어팩은 꾸덕하고 리치한 크림타입으로 극손상모발에영양을 공급하여 부드럽고 건강한 모발을 만들어 줍니다 HOW TO USE STEP1 샴푸후모발물기를제거해줍니다. STEP2 적당량을손바닥에덜어 손상된모발을중심으로골고루펴바르고 마사지해줍니다 STEP3 충분히헹구어냅니다 모발손상정도에따라도후충분히대기한위례행귀내시면 됩니다. 전자상거래 등에서의 상품 정보제공 고시 제품명:",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1032881_00.jpg"
+        "data/daiso_real/gosi_img/1032881_00.jpg",
+        "data/daiso_real/gosi_img/1032881_00_b7aff9a5f28a425e651a91d7932edc9a020bac204f3d3647a46c6718a453b884.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:47.607235+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:50.793191+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1032881_00_b7aff9a5f28a425e651a91d7932edc9a020bac204f3d3647a46c6718a453b884.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20260205/V3heOmcin7IPcukO3kuO1032881_01_01V3heOmcin7IPcukO3kuO.jpg",
+          "received_at": "2026-10-11T21:26:51.054652+00:00",
+          "sha256": "b7aff9a5f28a425e651a91d7932edc9a020bac204f3d3647a46c6718a453b884",
+          "byte_count": 1262426,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20260205/V3heOmcin7IPcukO3kuO1032881_01_01V3heOmcin7IPcukO3kuO.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1032881",
+          "product_identity_verified": false
+        }
+      }
     },
     "1067024": {
       "name": "포인트 레몬탄산수 노워시 클렌징 워터 티슈 30매",
@@ -368,10 +1010,38 @@
       "사람_필요": [],
       "detail_blurb": "물 세안 필요없는 1장간편클렌징워터 티슈 포인트 레몬탄산수 노워시클렌징워터티슈 자외선 차단제정 플레인시 비건 포뮬러 이럴 때 사용하기 좋아요! 물세안하기 어려운 상황에서 간편하게 사용해보세요! 캠핑갔을때, 씻기 번거로운순간에딱! 여행갔을때, 기내에서 촉촉하게 화장지우고싶을때쏙! 외출시수정화장할때, 들뜬메이크업을 빠르게 닦아내고 다시깔끔하게화장하고싶을때도굿! 이 모든 순간이 노워시클렌징워터티슈 가능한 순간! 수분촉촉, 부드러운 사용감 온 가족 선크림클렌징티슈 단, 1회 사용으로 자외선 차단제 95% 말끔 세정! 1장으로간편하게 진한메이크업과노폐물까지한번에세정! 5가지세정력 100%만족도대행진 진한메이크업이깨끗하게세정된것같다. 100% 미세먼지가 깨끗하게세정된것같다. 100% 모공속노폐물이 말끔하게 제거된 것 같다. 100% 피부 각질이 깔끔하게 정돈된 것 같다. 100% 자외선 차단제가 깔끔하게 제거된 것 같다. 100% 레몬 탄산수 가득 클렌징워터듬뿍 소프트 플레인시트 티슈가수분가득촉촉하다. 플레인시트사용감 클렌징 워터를 화장솜에 덜어낼 필요 없이! 세안할 필요없는! 클렌징워터티슈 촉촉 상쾌 레몬 탄산수 히알루론산 초정리탄산수 보습및진정케 레몬추출물 약산성 PH 포뮬러 예민한 피부도 편안하게! 건강한피부의 PH 건강한피부표면과유사한 PH로만들었어요. 저자극 비건 클렌징 워터 티슈 부자극시험완료 말끔 촉촉! 사용 방법 티슈를 꺼 어피부결을따라 안쪽에서 바깥쪽으로 부드럽게 닦아내어 줍니다 물로 세안하지않아도 무방하지만필요에따라 미온수로 무리하셔도좋습니다. 사용후에는스티커를완전히닫아 용물이 마르지않도록합니다. Q ",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1067024_00.png"
+        "data/daiso_real/gosi_img/1067024_00.png",
+        "data/daiso_real/gosi_img/1067024_00_7aaac946b6bab6e76b49d1d8b1555f7ecf87084cf7efa2642c201af69f706f2f.png"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:51.356836+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:54.565072+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1067024_00_7aaac946b6bab6e76b49d1d8b1555f7ecf87084cf7efa2642c201af69f706f2f.png": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20260224/rz4mB13GRjd7kEV1TGH21067024_01_01rz4mB13GRjd7kEV1TGH2.png",
+          "received_at": "2026-10-11T21:26:54.656723+00:00",
+          "sha256": "7aaac946b6bab6e76b49d1d8b1555f7ecf87084cf7efa2642c201af69f706f2f",
+          "byte_count": 12582669,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20260224/rz4mB13GRjd7kEV1TGH21067024_01_01rz4mB13GRjd7kEV1TGH2.png/dims/resize/850/quality/100",
+          "intended_product_id": "1067024",
+          "product_identity_verified": false
+        }
+      }
     },
     "1057223": {
       "name": "태그 핑크 라이트 선쿠션 15 g",
@@ -396,10 +1066,50 @@
       "detail_blurb": "TAG PINK LIGHT SUN CUSHION SPF 50+ PA++++ 칙칙한 피부를 생기있게 화사하게 블렌딩되는 핑크 톤업 선쿠션 SPF 50+/PA++++ [미백, 주름, 자외선 차단 3중 기능성] 01 LIGHT TONEUP 텁텁한 백탁없이 레이어링 할수록 얼굴빛을 자연스러운 생기톤업효과 02 PINK LAYERING 화사하게 밝혀주는 핑크빛 컬러 03 AIRFIT MILD SUN CARE 답답함 없이, 내피부인듯 얇고 가볍게보송 밀착 04 SPF50+, PA++++ 무기자차로 안심 선케어 TEXTURE 부드럽고 촉촉한 핑크빛 마일드크림 제형 SKINCARING EFFECT 판테놀, 병풀추출물, 약모밀추출물 보습 성분들이 함유되어 들뜸, 밀림 없이 촉촉하게 스킨케어 효과 MOISTURE FITTING PUFF 두드릴수록 광채감이 살아나는 밀착 수분 핏 퍼프로 섬세하고 부드러운 커버 HOW TO USE 스킨케어 마지막 단계에서 내장되어 있는 퍼프를 사용하여 적당량을 덜어 가볍게 톡톡 두드려 밀착 시켜주세요 제품명: 태그 핑크 라이트 선쿠션 SPF 50+, PA++++ 기능성: [미백, 주름개선, 자외선 차단 기능성화장품] 제조사 및 책임판매업자: (주)코스메카코리아/(주)투쿨포스쿨 제조국: 한국 용량 및 규격: 15g 전제 성분: 정제수, 징크옥사이드, 헥실라우레이트, 부틸렌글라이콜, 부틸옥틸살리실레이트, C12-15알킬벤조에이트, 다이프로필렌글라이콜, 폴리글리세릴-4다이아이소스테아레이트/폴리하이드록시스테아레이트세바케이트, 실리카, 나이아신아마이드, 아이소아밀라우레이트, 마그네슘설페이트, 글리세릴폴리메",
       "gosi_images": [
         "data/daiso_real/gosi_img/1057223_00.png",
-        "data/daiso_real/gosi_img/1057223_01.png"
+        "data/daiso_real/gosi_img/1057223_01.png",
+        "data/daiso_real/gosi_img/1057223_00_5541fa819060b408335dee505fef2b4a4366cbc531ff83e29ae22e71c1264dd2.png",
+        "data/daiso_real/gosi_img/1057223_01_ccce776e81927defa49a0665fc00fb5c0c7519b723268c7c28a7618f14f16fbc.png"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:54.973770+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:26:58.188318+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1057223_00_5541fa819060b408335dee505fef2b4a4366cbc531ff83e29ae22e71c1264dd2.png": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20241029/tlrIAWWa9Xwln1Ve3puM1057223_01_00tlrIAWWa9Xwln1Ve3puM.png",
+          "received_at": "2026-10-11T21:26:58.271863+00:00",
+          "sha256": "5541fa819060b408335dee505fef2b4a4366cbc531ff83e29ae22e71c1264dd2",
+          "byte_count": 2391286,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20241029/tlrIAWWa9Xwln1Ve3puM1057223_01_00tlrIAWWa9Xwln1Ve3puM.png/dims/resize/850/quality/100",
+          "intended_product_id": "1057223",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1057223_01_ccce776e81927defa49a0665fc00fb5c0c7519b723268c7c28a7618f14f16fbc.png": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20241029/PEaV3WBXOwc0s2blU4v11057223_01_01PEaV3WBXOwc0s2blU4v1.png",
+          "received_at": "2026-10-11T21:26:58.867372+00:00",
+          "sha256": "ccce776e81927defa49a0665fc00fb5c0c7519b723268c7c28a7618f14f16fbc",
+          "byte_count": 196489,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20241029/PEaV3WBXOwc0s2blU4v11057223_01_01PEaV3WBXOwc0s2blU4v1.png/dims/resize/850/quality/100",
+          "intended_product_id": "1057223",
+          "product_identity_verified": false
+        }
+      }
     },
     "1041749": {
       "name": "식물원 병풀 클리어 앰플 30ml",
@@ -422,10 +1132,78 @@
       ],
       "gosi_image": "data/daiso_real/gosi_img/1041749_00.jpg",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1041749_00.jpg"
+        "data/daiso_real/gosi_img/1041749_00.jpg",
+        "data/daiso_real/gosi_img/1041749_00_9011f8286923372032a22edb1586d55e52c0220c7019516bdc68790f318f2771.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
-      "텍스트_미수집": []
+      "텍스트_미수집": [],
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:26:59.168193+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:27:02.358574+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-11T21:26:59.760631+00:00",
+            "sha256": "b1bf96c0552d458c9062d2fd2279b447a6b6f839b3397fa9674109ce9e942097",
+            "byte_count": 2074,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "30 ml",
+          "observed_value": "30ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-11T21:27:02.358321+00:00",
+            "sha256": "3b97560f40aabb2b37e072522538d9488994ecc5831a5b6057caa102dc4e73a7",
+            "byte_count": 5025,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "30 ml",
+          "observed_value": "30ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "image_observations": {
+        "data/daiso_real/gosi_img/1041749_00_9011f8286923372032a22edb1586d55e52c0220c7019516bdc68790f318f2771.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250925/vbizSf4WLbQXZ7PSqLw21041749_01_01vbizSf4WLbQXZ7PSqLw2.jpg",
+          "received_at": "2026-10-11T21:27:02.612288+00:00",
+          "sha256": "9011f8286923372032a22edb1586d55e52c0220c7019516bdc68790f318f2771",
+          "byte_count": 1281753,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250925/vbizSf4WLbQXZ7PSqLw21041749_01_01vbizSf4WLbQXZ7PSqLw2.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1041749",
+          "product_identity_verified": false
+        }
+      }
     },
     "1045421": {
       "name": "태그듀 스킨쿠션 2호 누드라이트",
@@ -453,7 +1231,8 @@
       ],
       "gosi_image": "data/daiso_real/gosi_img/1045421_00.jpg",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1045421_00.jpg"
+        "data/daiso_real/gosi_img/1045421_00.jpg",
+        "data/daiso_real/gosi_img/1045421_00_e303c62a2bbbdd0abcc6e6192c6e0d71df3e841e712320b524d9eb1be93ec1db.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
       "텍스트_미수집": [],
@@ -461,7 +1240,34 @@
       "vision_source": "gemini:gemini-flash-latest",
       "vision_image": "data/daiso_real/gosi_img/1045421_00.jpg",
       "verified": false,
-      "vision_at": "2026-09-14T03:23:59.148512+00:00"
+      "vision_at": "2026-09-14T03:23:59.148512+00:00",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:27:02.914486+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:27:06.165928+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1045421_00_e303c62a2bbbdd0abcc6e6192c6e0d71df3e841e712320b524d9eb1be93ec1db.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20231221/D8xcNaxuTMnIN17sWMhc1045421_01_00D8xcNaxuTMnIN17sWMhc.jpg",
+          "received_at": "2026-10-11T21:27:06.238734+00:00",
+          "sha256": "e303c62a2bbbdd0abcc6e6192c6e0d71df3e841e712320b524d9eb1be93ec1db",
+          "byte_count": 1566794,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20231221/D8xcNaxuTMnIN17sWMhc1045421_01_00D8xcNaxuTMnIN17sWMhc.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1045421",
+          "product_identity_verified": false
+        }
+      }
     },
     "1049276": {
       "product_id": "1049276",
@@ -482,7 +1288,8 @@
       ],
       "gosi_image": "data/daiso_real/gosi_img/1049276_00.jpg",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1049276_00.jpg"
+        "data/daiso_real/gosi_img/1049276_00.jpg",
+        "data/daiso_real/gosi_img/1049276_00_f82e96cc8ca65717ac6570853763145a659bff66a154447a456ddb8b1d2a59c3.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
       "captured_at": "2026-10-04T20:51:02.057407+00:00",
@@ -493,7 +1300,34 @@
       "vision_image": "data/daiso_real/gosi_slice/1049276_00_b0.jpg",
       "vision_source": "agent_vision:claude (Gemini 429 대체)",
       "vision_at": "2026-09-16T13:38:29.499105+00:00",
-      "verified": false
+      "verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:27:06.541243+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:27:09.718740+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1049276_00_f82e96cc8ca65717ac6570853763145a659bff66a154447a456ddb8b1d2a59c3.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250416/Qb1zZHkDyHCGkQWA6k361049276_01_00Qb1zZHkDyHCGkQWA6k36.jpg",
+          "received_at": "2026-10-11T21:27:10.046508+00:00",
+          "sha256": "f82e96cc8ca65717ac6570853763145a659bff66a154447a456ddb8b1d2a59c3",
+          "byte_count": 3201593,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250416/Qb1zZHkDyHCGkQWA6k361049276_01_00Qb1zZHkDyHCGkQWA6k36.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1049276",
+          "product_identity_verified": false
+        }
+      }
     },
     "1055167": {
       "product_id": "1055167",
@@ -516,7 +1350,10 @@
       "gosi_images": [
         "data/daiso_real/gosi_img/1055167_00.jpg",
         "data/daiso_real/gosi_img/1055167_01.jpg",
-        "data/daiso_real/gosi_img/1055167_02.png"
+        "data/daiso_real/gosi_img/1055167_02.png",
+        "data/daiso_real/gosi_img/1055167_00_3e23c8fc0811bfd41099209945a51e8206444efde548219e185b5cc2eaf56d86.jpg",
+        "data/daiso_real/gosi_img/1055167_01_5e1aaecf561dcfcc8bcf36a20357b536d57d4d0e62c079b8c7fec4050886b51e.jpg",
+        "data/daiso_real/gosi_img/1055167_02_f35c8666fbbda852038a20571d1e7a5613d0334f711a0b56384d13fde7ba64b1.png"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
       "captured_at": "2026-10-04T20:51:06.153294+00:00",
@@ -529,7 +1366,56 @@
       "vision_image": "data/daiso_real/gosi_img/1055167_02.png",
       "vision_source": "agent_vision:claude (Gemini 429 대체)",
       "vision_at": "2026-09-16T13:38:29.499105+00:00",
-      "verified": false
+      "verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:27:10.351160+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:27:13.529422+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1055167_00_3e23c8fc0811bfd41099209945a51e8206444efde548219e185b5cc2eaf56d86.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250408/bNb2uBZpetVOQNy43RET1055167_01_01bNb2uBZpetVOQNy43RET.jpg",
+          "received_at": "2026-10-11T21:27:13.605418+00:00",
+          "sha256": "3e23c8fc0811bfd41099209945a51e8206444efde548219e185b5cc2eaf56d86",
+          "byte_count": 5864944,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250408/bNb2uBZpetVOQNy43RET1055167_01_01bNb2uBZpetVOQNy43RET.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1055167",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1055167_01_5e1aaecf561dcfcc8bcf36a20357b536d57d4d0e62c079b8c7fec4050886b51e.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250408/A4ZEg8a39tTv9xJbJhkS1055167_01_02A4ZEg8a39tTv9xJbJhkS.jpg",
+          "received_at": "2026-10-11T21:27:14.239450+00:00",
+          "sha256": "5e1aaecf561dcfcc8bcf36a20357b536d57d4d0e62c079b8c7fec4050886b51e",
+          "byte_count": 3938443,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250408/A4ZEg8a39tTv9xJbJhkS1055167_01_02A4ZEg8a39tTv9xJbJhkS.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1055167",
+          "product_identity_verified": false
+        },
+        "data/daiso_real/gosi_img/1055167_02_f35c8666fbbda852038a20571d1e7a5613d0334f711a0b56384d13fde7ba64b1.png": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250408/WZHBUlmnoyvzS50dIshk1055167_01_03WZHBUlmnoyvzS50dIshk.png",
+          "received_at": "2026-10-11T21:27:14.587137+00:00",
+          "sha256": "f35c8666fbbda852038a20571d1e7a5613d0334f711a0b56384d13fde7ba64b1",
+          "byte_count": 247886,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250408/WZHBUlmnoyvzS50dIshk1055167_01_03WZHBUlmnoyvzS50dIshk.png/dims/resize/850/quality/100",
+          "intended_product_id": "1055167",
+          "product_identity_verified": false
+        }
+      }
     },
     "1049275": {
       "product_id": "1049275",
@@ -550,7 +1436,8 @@
       ],
       "gosi_image": "data/daiso_real/gosi_img/1049275_00.jpg",
       "gosi_images": [
-        "data/daiso_real/gosi_img/1049275_00.jpg"
+        "data/daiso_real/gosi_img/1049275_00.jpg",
+        "data/daiso_real/gosi_img/1049275_00_e8230a598f8efcfb7c9395cc7fb1f94032ed66447fc45cf0b7f8ddce0dd35c41.jpg"
       ],
       "고시_위치": "텍스트 API는 '상세페이지 참조'만 반환. 실제 고시 표는 상품설명 더보기 상세 이미지에 있음. 비전/OCR 또는 수동 입력이 필요.",
       "captured_at": "2026-10-04T20:51:09.608642+00:00",
@@ -561,7 +1448,34 @@
       "vision_image": "data/daiso_real/gosi_slice/1049275_00_b0.jpg",
       "vision_source": "agent_vision:claude (Gemini 429 대체)",
       "vision_at": "2026-09-16T13:38:29.499105+00:00",
-      "verified": false
+      "verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:27:14.888008+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:27:18.083213+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        }
+      ],
+      "image_observations": {
+        "data/daiso_real/gosi_img/1049275_00_e8230a598f8efcfb7c9395cc7fb1f94032ed66447fc45cf0b7f8ddce0dd35c41.jpg": {
+          "source": "https://cdn.daisomall.co.kr/file/PD/20250416/rU3dVtSXkGVJjxMOR9G41049275_01_00rU3dVtSXkGVJjxMOR9G4.jpg",
+          "received_at": "2026-10-11T21:27:18.158923+00:00",
+          "sha256": "e8230a598f8efcfb7c9395cc7fb1f94032ed66447fc45cf0b7f8ddce0dd35c41",
+          "byte_count": 3136401,
+          "capture_scope": "downloaded_image_bytes",
+          "verified": false,
+          "url": "https://cdn.daisomall.co.kr/file/PD/20250416/rU3dVtSXkGVJjxMOR9G41049275_01_00rU3dVtSXkGVJjxMOR9G4.jpg/dims/resize/850/quality/100",
+          "intended_product_id": "1049275",
+          "product_identity_verified": false
+        }
+      }
     },
     "1067498": {
       "product_id": "1067498",
@@ -598,7 +1512,28 @@
       "vision_image": "data/daiso_real/gosi_slice/1067498_03_b1.jpg",
       "vision_source": "agent_vision:claude (Gemini 429 대체)",
       "vision_at": "2026-09-16T13:38:29.499105+00:00",
-      "verified": false
+      "verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:27:18.463493+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:27:21.646749+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-11T21:27:22.338335+00:00",
+          "source": "daiso",
+          "status": "stopped",
+          "reason": "daiso: auth circuit stopped (403)"
+        }
+      ],
+      "retained_source_stale": true
     },
     "1042619": {
       "product_id": "1042619",
@@ -920,7 +1855,16 @@
         "maker",
         "ingredients"
       ],
-      "다음_조치": "이미지 5장에서 비전으로 maker, ingredients 추출 필요"
+      "다음_조치": "이미지 5장에서 비전으로 maker, ingredients 추출 필요",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-11T21:27:22.730549+00:00",
+          "source": "vision",
+          "status": "stopped",
+          "reason": "gemini: quota circuit stopped (429)"
+        }
+      ],
+      "retained_source_stale": true
     },
     "1061918": {
       "product_id": "1061918",
@@ -962,6 +1906,24 @@
       "vision_image": "data/daiso_real/gosi_slice/1061918_02_b0.jpg",
       "verified": false,
       "vision_at": "2026-10-03T11:09:22.972602+00:00"
+    },
+    "1068721": {
+      "product_id": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "seeded_from": "shopify_s_recommendations.json",
+      "product_identity_verified": false
+    },
+    "1074979": {
+      "product_id": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "seeded_from": "shopify_s_recommendations.json",
+      "product_identity_verified": false
+    },
+    "1068733": {
+      "product_id": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "seeded_from": "shopify_s_recommendations.json",
+      "product_identity_verified": false
     }
   },
   "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
@@ -970,18 +1932,9 @@
   "last_auto_run": "2026-10-04T20:52:06.524303+00:00",
   "auto_failures": [],
   "gosi_ok_count": 28,
-  "vision_status": "partial",
-  "vision_note": "용량·전성분은 상세 이미지에만 있어 Gemini 비전으로 읽었다. 읽기이지 생성이 아니다. 표에 없는 항목은 빈칸. verified 는 사람이 원본 이미지와 대조한 뒤 true 로 바꾼다. 필수 4항목 미완성 2건은 브라우저 alt 원문 수집 또는 다음 회차 재판독 대상이다.",
-  "vision_failures": [
-    {
-      "pd_no": "1067500",
-      "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
-    },
-    {
-      "pd_no": "1061918",
-      "reason": "groq meta-llama/llama-4-scout-17b-16e-instruct HTTP 403: error code: 1010\n | gemini: gemini-pro-latest RuntimeError: HTTP 429: {\n  \"error\": {\n   "
-    }
-  ],
+  "vision_status": "circuit_stopped",
+  "vision_note": "Model transcription of selected local images/crops only; no human or complete-page verification. Failures do not establish missing product facts.",
+  "vision_failures": [],
   "vision_at": "2026-10-04T20:56:37.702870+00:00",
   "수집_설명": "공식 고시 API는 대부분 '상세페이지 참조'. 사용자가 보는 고시 표는 상품설명 더보기 상세 이미지. 이미지는 data/daiso_real/gosi_img/ 에 저장. 전성분·제조사는 비전 추출 또는 수동 입력이 필요하다.",
   "updated_at": "2026-10-02T17:37:28.124430+00:00",
@@ -1007,6 +1960,26 @@
       }
     ]
   },
-  "vision_deferred": [],
-  "agent_read_note": "2026-09-16 Gemini 할당량(429)이 소진되어 5건은 에이전트가 상세 이미지를 직접 읽어 옮겼다. 읽기이지 생성이 아니다. 각 항목에 vision_image 로 근거 이미지를 남겼으니 사람이 열어 대조할 수 있다. verified 는 대조 후 켠다."
+  "vision_deferred": [
+    "1067500",
+    "1061918",
+    "1068721",
+    "1074979",
+    "1068733"
+  ],
+  "agent_read_note": "2026-09-16 Gemini 할당량(429)이 소진되어 5건은 에이전트가 상세 이미지를 직접 읽어 옮겼다. 읽기이지 생성이 아니다. 각 항목에 vision_image 로 근거 이미지를 남겼으니 사람이 열어 대조할 수 있다. verified 는 대조 후 켠다.",
+  "provider_stops": [
+    {
+      "provider": "daiso",
+      "code": 403,
+      "category": "auth",
+      "stopped_at": "2026-10-11T21:27:22.338360+00:00"
+    },
+    {
+      "provider": "gemini",
+      "code": 429,
+      "category": "quota",
+      "stopped_at": "2026-10-11T21:27:24.771143+00:00"
+    }
+  ]
 }
