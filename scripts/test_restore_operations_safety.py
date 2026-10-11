@@ -83,6 +83,30 @@ class RestoreTests(unittest.TestCase):
         self.raw = bundle(files)
         self.artifact['digest'] = 'sha256:'+restore._sha(self.raw)
 
+    def test_fx_producer_requires_authenticated_history(self):
+        self.assertIn('.github/workflows/fx-refresh.yml', restore.WORKFLOWS)
+        self.run['path'] = '.github/workflows/fx-refresh.yml'
+        self.assertEqual(self.perform()['status'], 'authenticated_operations_safety_restored')
+
+    def test_fx_activated_missing_artifact_stays_blocked(self):
+        self.run['path'] = '.github/workflows/fx-refresh.yml'
+        self.rows = []
+        with self.assertRaises(restore.Blocked):
+            self.perform()
+        self.assertEqual(restore.verify_current(self.root), self.current)
+
+    def test_fx_workflow_binds_continuity_and_retains_history(self):
+        workflow = (Path(__file__).resolve().parents[1] / '.github/workflows/fx-refresh.yml').read_text(encoding='utf-8')
+        self.assertIn('actions: read', workflow)
+        self.assertLess(workflow.index('id: operations_safety'), workflow.index('uses: ./.github/actions/publish'))
+        self.assertIn("if: steps.operations_safety.outputs.operations_continuity == 'verified'", workflow)
+        self.assertIn('JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}', workflow)
+        self.assertNotIn("JARVIS_OPERATIONS_CONTINUITY: 'verified'", workflow)
+        self.assertIn('data/publish_deletions.json data/operations/', workflow)
+        self.assertIn('--verify-current', workflow)
+        self.assertIn("steps.operations_retention.outputs.operations_continuity == 'verified'", workflow)
+        self.assertIn('name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}', workflow)
+
     def test_normal_continuation_and_no_history_drop(self):
         self.assertEqual(self.perform()['status'], 'authenticated_operations_safety_restored')
         files = restore.verify_current(self.root)

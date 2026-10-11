@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   # collection_status.json 을 다이소 수집과 함께 쓰므로 같은 잠금으로 직렬화한다.
@@ -36,6 +37,14 @@ jobs:
         run: |
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
 
+      # Authenticate immutable history before regenerating the operations runtime.
+      - name: Restore immutable operations safety before execution
+        id: operations_safety
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
+
       - name: 환율 받기 (두 곳 대조, 기준일 후퇴 금지)
         run: python -u scripts/fetch_fx_rate.py
 
@@ -43,9 +52,31 @@ jobs:
         run: python -B scripts/collector_snapshot_history.py data/daiso_real/collection_status.json
 
       - name: 발행 (원격 최신 위에 환율만, 커머스 재생성 + 최종 품질 검사)
+        if: steps.operations_safety.outputs.operations_continuity == 'verified'
         uses: ./.github/actions/publish
+        env:
+          JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
         with:
-          paths: data/daiso_real/collection_status.json data/publish_deletions.json
+          paths: data/daiso_real/collection_status.json data/publish_deletions.json data/operations/
           message: 환율 단독 관측 발행
           regenerate-dashboard: 'true'
           audit: 'false'
+
+      # Preserve authenticated history even if a later quality gate blocks FX.
+      - name: Verify restored operations snapshot before retention
+        id: operations_retention
+        if: always() && steps.operations_safety.outcome == 'success'
+        run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE" --verify-current
+
+      - name: Retain immutable operations safety history
+        if: always() && steps.operations_safety.outcome == 'success' && steps.operations_retention.outputs.operations_continuity == 'verified'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: operations-safety-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            data/operations/state.json
+            data/operations/reports
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 3
+          compression-level: 9
