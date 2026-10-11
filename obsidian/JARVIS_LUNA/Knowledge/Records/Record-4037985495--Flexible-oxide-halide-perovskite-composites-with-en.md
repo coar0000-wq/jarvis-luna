@@ -2,8 +2,14 @@
 title: "Record 4037985495 · Flexible-oxide-halide-perovskite-composites-with-en"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.320201+00:00
+updated_at: 2026-10-11T00:55:16.592770+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "반도체하드웨어"]
+org: "SK hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.jmst.2026.07.008"
+kind: "논문"
 ---
 
 # Record 4037985495 · Flexible-oxide-halide-perovskite-composites-with-en
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Flexible oxide-halide perovskite composites with enhanced piezoelectric energy conversion
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

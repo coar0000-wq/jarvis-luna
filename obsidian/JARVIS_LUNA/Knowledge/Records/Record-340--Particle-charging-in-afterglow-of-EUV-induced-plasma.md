@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.104680+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1063/5.0314458"
 ---
 
 # Record 340 · Particle-charging-in-afterglow-of-EUV-induced-plasma
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Particle charging in afterglow of EUV-induced plasma
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

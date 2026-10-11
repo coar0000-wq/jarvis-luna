@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.571339+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BcW1SNmhjZExGRWxiNUg3aTZBOUlMbmJQc01hOGpuaUdLRVViWFl5TmlSckcza3hHTGtoaGszNXY5bGZ0WDFSN1BQMGdLc1Y0d1JxWjRURzBFX2RoZG8taVdxeVVrUTBkX25v?oc=5"
 ---
 
 # Record 1292 · AI-Chatbot-Customer-Service-Shopify-Guide-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Chatbot Customer Service: Shopify Guide (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.577919+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1002/aisy.70439"
 ---
 
 # Record 187 · Ising-Solver-Using-Vertical-NAND-Flash-Memory
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Ising Solver Using Vertical NAND Flash Memory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

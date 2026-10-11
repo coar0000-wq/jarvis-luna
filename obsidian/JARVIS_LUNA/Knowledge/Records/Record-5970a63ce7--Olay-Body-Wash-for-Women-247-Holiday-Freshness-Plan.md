@@ -2,8 +2,12 @@
 title: "Record 5970a63ce7 · Olay-Body-Wash-for-Women-247-Holiday-Freshness-Plant-Based-Cleansers-V"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.193658+00:00
+updated_at: 2026-10-11T00:55:45.804057+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Olay-Holiday-Freshness-Cleansers-Antioxidant/dp/B0H2FW4J3B/ref=zg_bsnr_g_beauty_d_sccl_16/133-1430941-0942154"
 ---
 
 # Record 5970a63ce7 · Olay-Body-Wash-for-Women-247-Holiday-Freshness-Plant-Based-Cleansers-V
@@ -16,7 +20,3 @@ Olay Body Wash for Women, 24/7 Holiday Freshness, Plant Based Cleansers, Vitamin
 Olay Body Wash for Women, 24/7 Holiday Freshness, Plant Based Cleansers, Vitamin B3 & Antioxidant Blend, For All Skin Types, Cozy Caramel Scent with Notes of Caramel, Maple, & Vanilla, 22 fl oz · $8.97 · 평점 4.6 · 리뷰 5,429
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

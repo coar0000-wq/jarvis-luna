@@ -2,8 +2,12 @@
 title: "Record 1e1d082184 · What-Is-Olive-Young-Festa---The-Cut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.230063+00:00
+updated_at: 2026-10-11T00:55:30.840864+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BSnBaR2poOXZBQ0lRTkRxbk4tMElRY01YTXJPUndyN0IyM3RCdWdfQmNwd3ZKQWlnbThUZnp4cGFRbV80RGtreFVZcERWa1Zidk1ULUhEWmRqUXZNSmhPVGdpTjE3dUE5Y0o0Xw?oc=5"
 ---
 
 # Record 1e1d082184 · What-Is-Olive-Young-Festa---The-Cut
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Is Olive Young Festa? - The Cut
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record c5409ae09f · A-taxonomy-for-detecting-and-preventing-temporal-data-leakage-in-machi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.506467+00:00
+updated_at: 2026-10-11T00:55:19.958506+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pone.0340167"
+kind: "논문"
 ---
 
 # Record c5409ae09f · A-taxonomy-for-detecting-and-preventing-temporal-data-leakage-in-machi
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A taxonomy for detecting and preventing temporal data leakage in machine learning-based build prediction: A dual-platform empirical validation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

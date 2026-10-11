@@ -2,8 +2,12 @@
 title: "Record 5a1c56204e · What-is-Psychological-Pricing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.762922+00:00
+updated_at: 2026-10-11T00:55:55.002195+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/UCJ32U2TyX4"
 ---
 
 # Record 5a1c56204e · What-is-Psychological-Pricing
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is Psychological Pricing?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 29f5c8d665 · What-Is-AI-Ecommerce-Uses-and-Examples-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.137640+00:00
+updated_at: 2026-10-11T00:55:29.222120+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90UTFDeF9HNnRVdEM2ZzRnaThKSW5sTzBkWTdlMjAtdzJkT3BEWkpnT1U4cFFuNDBtRFpJRFpRS3hES1JiRTd2S0x1b0RSLXRjT0ZOUw?oc=5"
 ---
 
 # Record 29f5c8d665 · What-Is-AI-Ecommerce-Uses-and-Examples-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Is AI: Ecommerce Uses and Examples (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

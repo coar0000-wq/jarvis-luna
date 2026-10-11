@@ -2,8 +2,12 @@
 title: "Record 87bfa85915 · PointLAM-Local-Attentive-Mamba-for-Efficient-Point-based-3D-Object-Det"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.751676+00:00
+updated_at: 2026-10-11T00:55:23.773740+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.21780"
 ---
 
 # Record 87bfa85915 · PointLAM-Local-Attentive-Mamba-for-Efficient-Point-based-3D-Object-Det
@@ -16,7 +20,3 @@ PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection
 3D object detection from LiDAR point clouds faces a fundamental dilemma: voxel-based methods achieve efficiency at the cost of geometric quantization, while point-based methods preserve fidelity but suffer from prohibitive computational bottlenecks. Specifically, point-based architectures are crippled by slow downsampling strategies (e.g., FPS) and expensive dynamic neighbor queries (e.g., k-NN) c
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

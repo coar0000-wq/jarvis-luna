@@ -2,8 +2,12 @@
 title: "Record 6950429104 · A-comparative-study-on-the-accuracy--repeatability-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.938175+00:00
+updated_at: 2026-10-11T00:55:11.702451+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "로보틱스", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03794v1"
 ---
 
 # Record 6950429104 · A-comparative-study-on-the-accuracy--repeatability-
@@ -16,7 +20,3 @@ A comparative study on the accuracy & repeatability of mobile robotic platforms 
 Mobile robotic platforms offer a flexible alternative to fixed manipulators for non-destructive evaluation (NDE) of large aerospace structures, but their base-positioning accuracy and how that accuracy should inform deployment have not been assessed under a common, externally referenced protocol. This work presents a laser tracker-based evaluation workflow (ground truth approximately 6 micrometers
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[로보틱스]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

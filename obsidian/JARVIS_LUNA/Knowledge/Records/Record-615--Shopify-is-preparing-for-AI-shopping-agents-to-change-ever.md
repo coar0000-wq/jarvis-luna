@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.526068+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Agents"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaTRqWW5KUEt4ZDUyYVVJcVJEZFRGdWZVNFl1b3ktbUhlNDVyeDRIM29ZOW9zUHQ3Y21JMkVHOHdLdEh5OEc2a0hKQlE0U3JsalRwUFJSTThvWWRmOWwxb1huYzhSLVM2VFJtR0FaVDNhLWJiQi0zV1BlRm1PYzZyaU9ZeUtGSlktZm4tblpNS29PQjVaclZHVVZocDdEcnZZOWdPRVhNekVvNF9oYXc?oc=5"
 ---
 
 # Record 615 · Shopify-is-preparing-for-AI-shopping-agents-to-change-everything-exec-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Shopify is preparing for AI shopping agents to change everything, exec says - TechCrunch
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record fbab4f9201 · Agility-Robotics-reports-18M-revenue-ahead-of-human"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.565803+00:00
+updated_at: 2026-10-11T00:55:51.621457+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
 ---
 
 # Record fbab4f9201 · Agility-Robotics-reports-18M-revenue-ahead-of-human
@@ -16,7 +20,3 @@ Agility Robotics reports $1.8M revenue ahead of humanoid SPAC
 <p>Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business.</p> <p>The post <a href="https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/">Agility Robotics reports $1.8M revenue ahead of humanoid SPAC</a> appeared first on <a href="https://www.therobotreport.com">The
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

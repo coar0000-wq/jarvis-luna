@@ -2,8 +2,12 @@
 title: "Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.186040+00:00
+updated_at: 2026-10-11T00:55:30.018916+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aanRxOVlCQURaOW9qOXQwNEVLU1pJa0EtLWJjaU1wcXZhaGo4RHFsdXc3LVlvWjI5TTBaS0IxcjBfblBYX0FFeEpRRkN3ZV9ocWVlMW5fZjNieEYzWkhRZzhOXzFTWGc?oc=5"
 ---
 
 # Record 2077833499 · Cherry-Blossom-Blush-Is-The-Romantic-Makeup-Trend-T
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "Cherry Blossom Blush" Is The Romantic Makeup Trend Taking Over TikTok - Bustle
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

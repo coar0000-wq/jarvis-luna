@@ -2,8 +2,12 @@
 title: "Record 79c7038ab3 · Amazon-Basics-Double-Tipped-Cotton-Swabs-for-Person"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.963279+00:00
+updated_at: 2026-10-11T00:55:42.928179+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_3/134-4860327-2688437"
 ---
 
 # Record 79c7038ab3 · Amazon-Basics-Double-Tipped-Cotton-Swabs-for-Person
@@ -16,7 +20,3 @@ Amazon Basics Double-Tipped Cotton Swabs for Personal Hygiene and Baby Care, Cot
 Amazon Basics Double-Tipped Cotton Swabs for Personal Hygiene and Baby Care, Cotton, Versatile, Baby Safe, 500 Count · $2.67 · 평점 4.7 · 리뷰 81,347
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

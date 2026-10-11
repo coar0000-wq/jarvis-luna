@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.602968+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.sigpro.2021.108245"
 ---
 
 # Record 276 · A-decentralized-adaptive-momentum-method-for-solving-a-class-of-min-ma
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A decentralized adaptive momentum method for solving a class of min-max optimization problems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.915765+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/R0ChNbraQ2M"
 ---
 
 # Record 2593 · How-does-Comet-Browser-work
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How does Comet Browser work?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

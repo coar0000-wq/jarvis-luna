@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.320780+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZk0wWlV2SG9VWTJiVk1tZUxTZEZTOEVWeWZ5a01YUVhOM1F2WUo0V2dKRlROUkFDRnQ0V3VzVGgtVDBoVU1yX3hGeDFwMVlhTHV0NF8xZTQ0X2llTjZBblhweUVoT0VSWkJRRnpRS1RVUVV3R2FLUGlaMTdWNFAtWDY0R2c2ZjlGR0RqSjA3ZUhld3ZSRU1CNmdzSDBxN0NTZFp0b1ozckNmQ0pMUHdwLWFvYmZHaG15ZHc?oc=5"
 ---
 
 # Record 795 · EXCLUSIVE-A-New-TikTok-Trend-led-E-tailer-Wants-to-Be-the-Supreme-of-t
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 EXCLUSIVE: A New, TikTok Trend-led E-tailer Wants to Be the ‘Supreme’ of the Beauty Industry - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

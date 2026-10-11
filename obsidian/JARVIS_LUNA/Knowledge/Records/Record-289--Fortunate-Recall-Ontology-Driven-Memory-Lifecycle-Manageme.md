@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.386653+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10413v1"
 ---
 
 # Record 289 · Fortunate-Recall-Ontology-Driven-Memory-Lifecycle-Management-for-Persi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

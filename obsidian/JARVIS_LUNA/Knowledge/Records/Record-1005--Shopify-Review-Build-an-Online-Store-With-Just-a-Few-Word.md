@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.696969+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1CSmo3V2xrUkp2WGVpUHRoT3I0RUVTVW1RcDRBbUprNVE5VUlQeUNSRW0wM0J5TmFMMXdkYUZkU2JjSFVMRGxLVHJHWEk1NGFqUzUxUDlmTWwxcGs?oc=5"
 ---
 
 # Record 1005 · Shopify-Review-Build-an-Online-Store-With-Just-a-Few-Words---techco
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify Review: Build an Online Store With Just a Few Words - tech.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

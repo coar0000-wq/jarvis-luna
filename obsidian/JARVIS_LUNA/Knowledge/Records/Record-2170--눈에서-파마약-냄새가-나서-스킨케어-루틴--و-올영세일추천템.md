@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:39.078158+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/4PxP2_aMHZ8"
 ---
 
 # Record 2170 · 눈에서-파마약-냄새가-나서-스킨케어-루틴--و-올영세일추천템
@@ -15,7 +19,3 @@ tags: [record, real-data]
 눈에서 파마약 냄새가 나서.. 스킨케어 루틴 |•’-‘•)و✧ #올영세일추천템
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

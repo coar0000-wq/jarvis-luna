@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.554469+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aSW9GVV9hWUZyZWp2eVowQm1HT3BJcVVWUjRTWk9yYkJJZmNjQTdpeWhhYllUalZ5aEZMTVNzdnRpMDJubFV3RHpXclFrQUtxRXBGWjBkRmxVa0NsYllV?oc=5"
 ---
 
 # Record 1197 · 7-K-Beauty-Trends-Shaping-2026---voguecom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 7 K-Beauty Trends Shaping 2026 - vogue.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

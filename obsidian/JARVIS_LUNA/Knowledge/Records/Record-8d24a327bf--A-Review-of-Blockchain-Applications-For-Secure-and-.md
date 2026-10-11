@@ -2,8 +2,14 @@
 title: "Record 8d24a327bf · A-Review-of-Blockchain-Applications-For-Secure-and-Transparent-Financi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.995584+00:00
+updated_at: 2026-10-11T00:55:27.184122+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석", "투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.63282/3050-922x.ijeret-v7i1p111"
+kind: "논문"
 ---
 
 # Record 8d24a327bf · A-Review-of-Blockchain-Applications-For-Secure-and-Transparent-Financi
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Review of Blockchain Applications For Secure and Transparent Financial Services with Big Data Analysis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

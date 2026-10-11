@@ -2,8 +2,12 @@
 title: "Record f62940c40f · Sol-De-Janeiro-Beija-Flor-Cream-81-fl-oz240ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.760788+00:00
+updated_at: 2026-10-11T00:55:39.582152+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA11392264"
 ---
 
 # Record f62940c40f · Sol-De-Janeiro-Beija-Flor-Cream-81-fl-oz240ml
@@ -16,7 +20,3 @@ Sol De Janeiro Beija Flor Cream 8.1 fl. oz.(240ml)
 Sol De Janeiro Beija Flor Cream 8.1 fl. oz.(240ml)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

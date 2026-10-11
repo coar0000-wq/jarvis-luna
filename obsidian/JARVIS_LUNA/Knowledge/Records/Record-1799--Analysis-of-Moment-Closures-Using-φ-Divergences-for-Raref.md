@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.654212+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7197054192"
 ---
 
 # Record 1799 · Analysis-of-Moment-Closures-Using-φ-Divergences-for-Rarefied-Dynamics-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Analysis of Moment Closures Using $φ$-Divergences for Rarefied Dynamics with Binary Collisions and Their Galerkin Discretizations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

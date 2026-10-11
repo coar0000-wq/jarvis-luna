@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.179397+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOWlYS0M5WnAxTU02UFljUlNndTlMVWNkY0NoNllFVU8tTXlwVWdHd21rQTl0ZlQ5NVo3a3ZXYUVsZmxEaVBYUG5EeVFRMDR3T29jZTdmeHB4NnBSYklBc2RucDVIUnZZRlJockZSZzZTTmFqWlRLRTNoSEFLVnJsOGRXdXRkUnBoY1c5c1VXQmYtcnlq?oc=5"
 ---
 
 # Record 1453 · 8-Trending-K-Beauty-Products-To-Buy-When-Youre-In-Korea-According-To-A
@@ -15,7 +19,3 @@ tags: [record, real-data]
 8 Trending K-Beauty Products To Buy When You’re In Korea, According To A K-Beauty Junkie - Harper's Bazaar Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

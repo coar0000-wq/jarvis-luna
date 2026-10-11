@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.679893+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=unsz__ZbAN4"
 ---
 
 # Record 722 · Realistic-Day-In-The-Life-Of-A-Multi-Millionaire-In-Miami
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Realistic Day In The Life Of A Multi-Millionaire In Miami
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

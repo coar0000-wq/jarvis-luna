@@ -2,8 +2,12 @@
 title: "Record 4c036e81bd · Hosting-Capacity-Assessment-of-Data-Centers-with-Vo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.922344+00:00
+updated_at: 2026-10-11T00:55:11.525061+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03030v1"
 ---
 
 # Record 4c036e81bd · Hosting-Capacity-Assessment-of-Data-Centers-with-Vo
@@ -16,7 +20,3 @@ Hosting Capacity Assessment of Data Centers with Voltage Ride-Through Capability
 Large data centers are emerging as concentrated, power-electronic grid loads whose abrupt disconnection or transfer to on-site backup supply during voltage disturbances can remove large demand from the power system, and may create a system-level stability problem. Their interconnection feasibility therefore depends not only on steady-state thermal and voltage limits, but also on whether internal p
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

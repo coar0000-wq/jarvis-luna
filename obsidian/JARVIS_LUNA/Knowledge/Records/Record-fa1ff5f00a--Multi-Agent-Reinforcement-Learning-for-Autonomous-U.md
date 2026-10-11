@@ -2,8 +2,12 @@
 title: "Record fa1ff5f00a · Multi-Agent-Reinforcement-Learning-for-Autonomous-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.039572+00:00
+updated_at: 2026-10-11T00:55:12.944274+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10433v1"
 ---
 
 # Record fa1ff5f00a · Multi-Agent-Reinforcement-Learning-for-Autonomous-U
@@ -16,7 +20,3 @@ Multi-Agent Reinforcement Learning for Autonomous UAV Exploration in Wildfire Re
 This study develops a deep reinforcement learning framework for training Unmanned Aerial Vehicle (UAV) agents to navigate and monitor simulated wildfire environments. Results show that agents learn increasingly stable and effective behaviors over time, as demonstrated by converging loss trends, improved reward signals, and more consistent navigation patterns such as fire-boundary tracking. Overall
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

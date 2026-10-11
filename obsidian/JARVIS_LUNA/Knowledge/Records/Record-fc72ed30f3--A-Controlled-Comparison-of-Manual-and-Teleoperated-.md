@@ -2,8 +2,12 @@
 title: "Record fc72ed30f3 · A-Controlled-Comparison-of-Manual-and-Teleoperated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.999229+00:00
+updated_at: 2026-10-11T00:55:12.425589+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08770v1"
 ---
 
 # Record fc72ed30f3 · A-Controlled-Comparison-of-Manual-and-Teleoperated-
@@ -16,7 +20,3 @@ A Controlled Comparison of Manual and Teleoperated Intraocular Instrument Motion
 Input devices for robotic microsurgery are frequently described as preserving the surgeon's trained technique, but the claim is rarely measured. We compared manual and teleoperated intraocular instrument motion with the trocar constraint, the instrument, the eye model and the tracking source common to both conditions, so that the control interface was the only factor varied. Prior comparisons cann
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

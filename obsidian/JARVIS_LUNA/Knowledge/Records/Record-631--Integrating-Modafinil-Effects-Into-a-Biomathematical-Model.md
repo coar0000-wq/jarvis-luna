@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.405061+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "과학수학", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1177/10711813261475234"
 ---
 
 # Record 631 · Integrating-Modafinil-Effects-Into-a-Biomathematical-Model-of-Fatigue
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Integrating Modafinil Effects Into a Biomathematical Model of Fatigue
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[과학수학]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

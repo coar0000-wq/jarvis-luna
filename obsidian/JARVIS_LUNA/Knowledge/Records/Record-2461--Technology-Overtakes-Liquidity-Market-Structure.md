@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.329865+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/markets-and-economy/markets/technology-overtakes-liquidity-market-structure"
 ---
 
 # Record 2461 · Technology-Overtakes-Liquidity-Market-Structure
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Technology Overtakes Liquidity Market Structure
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

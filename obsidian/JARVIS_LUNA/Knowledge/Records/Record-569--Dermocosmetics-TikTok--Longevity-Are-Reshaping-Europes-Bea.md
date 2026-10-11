@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.927442+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZXgxRkZadjJsT3lMWFhEZ0ZOb1VlNC12UFVlRnJwNUFHMVpGYnRvUzlkSmxQenpWT2JEYjJFdlliWUhDYnVYQXNQVTdzN21HSHQtOVNkRnhDaW9DYldiaGlwOXYtMldPeU9QU0xWT0VKMUxKb2VRUmsxZWZKSXY5QkFKTjFac2hsdGVRcGM4ZFlsWWot?oc=5"
 ---
 
 # Record 569 · Dermocosmetics-TikTok--Longevity-Are-Reshaping-Europes-Beauty-Market--
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Dermocosmetics, TikTok & Longevity Are Reshaping Europe’s Beauty Market - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

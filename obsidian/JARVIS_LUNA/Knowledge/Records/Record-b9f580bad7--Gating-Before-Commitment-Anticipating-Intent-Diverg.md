@@ -2,8 +2,12 @@
 title: "Record b9f580bad7 · Gating-Before-Commitment-Anticipating-Intent-Diverg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.802845+00:00
+updated_at: 2026-10-11T00:55:55.403699+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.26074v1"
 ---
 
 # Record b9f580bad7 · Gating-Before-Commitment-Anticipating-Intent-Diverg
@@ -16,7 +20,3 @@ Gating Before Commitment: Anticipating Intent Divergence to Prevent Post-Interac
 Intent misinterpretation during vehicle interactions causes recurring planning failures. We study a decision layer in which a language-guided intent module reads structured descriptors, computes a smoothed intent-geometry divergence score, and gates the planned maneuver before commitment, upstream of a corridor envelope. On a replayed off-road departure and four crash clips under a frozen, disclosed implementation, gating is the only layer that repairs the plan: on the main case it fires 72 ms after the drift onset but 161 ms before the corridor exit, keeping the trajectory in the corridor in all ten replays. The first calibration draws nine false triggers in 5.9 minutes, each from scoring uncertainty as half a conflict; a preregistered redesign treating uncertainty as abstention cuts this to 0.341 per minute. Two ablations bound the model's contribution: the full score detects fastest on four of five failures under the deployed eligibility, three of five against the unvetoed rule (000871 by one cycle; 000228 by a pre-onset fire on an uncertain stretch that five clips cannot classify as signal or coincidence; dropping the confidence term costs two detections), while on in-domain tracks at equal false positives the geometric rule more than triples its detection. The evidence supports the gating mechanism; the model's demonstrated roles are the fastest detection on these failures and an uncertainty veto on the geometric rule.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

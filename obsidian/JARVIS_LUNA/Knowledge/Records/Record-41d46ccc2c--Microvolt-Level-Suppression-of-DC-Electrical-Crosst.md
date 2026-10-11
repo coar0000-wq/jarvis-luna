@@ -2,8 +2,14 @@
 title: "Record 41d46ccc2c · Microvolt-Level-Suppression-of-DC-Electrical-Crosst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.431906+00:00
+updated_at: 2026-10-11T00:55:18.655278+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1109/lpt.2026.3691970"
+kind: "논문"
 ---
 
 # Record 41d46ccc2c · Microvolt-Level-Suppression-of-DC-Electrical-Crosst
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Microvolt-Level Suppression of DC Electrical Crosstalk Between InP Electro-Optic Phase Modulators
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

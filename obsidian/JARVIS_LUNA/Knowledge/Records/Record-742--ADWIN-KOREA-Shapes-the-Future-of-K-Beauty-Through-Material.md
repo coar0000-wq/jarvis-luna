@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.147496+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbk9RV1FXZmwyOG1EcHJYcDQwZGxDVTRoRGxfOUp6M0xXakxkU1JzcWpHWEVoUU16LVdVbHNNVmlOQ0xPbEM3aHhqSmN4dUNORy0zcjBiREJrTlh4X0E0ZUpWOVA1QkpFSURJekFvSERFNFdickNnZnZmd2czZ2l5VENLNkNJM0ZVeUk1ZkkzQU52OF84eExsNkZWMDJIS2dxY3hYb2dub0RHZU9tR0E?oc=5"
 ---
 
 # Record 742 · ADWIN-KOREA-Shapes-the-Future-of-K-Beauty-Through-Material-Innovation-
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 ADWIN KOREA Shapes the Future of K-Beauty Through Material Innovation - The Worldfolio
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

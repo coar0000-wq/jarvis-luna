@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.951932+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050"
 ---
 
 # Record 2504 · Humanoid-Robot-Market-5-Trillion-By-2050
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Humanoid Robot Market 5 Trillion By 2050
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

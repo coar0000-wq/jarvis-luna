@@ -2,8 +2,12 @@
 title: "Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.504327+00:00
+updated_at: 2026-10-11T00:55:35.579706+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdDNqMXZNX2Q5bEhvMWtaaTdWSFNTajZ0cWN6QzA3ZnNpRTJaVV9PQzM1aDR6TXRxaTFMZ0pPSVl1YzNSVlYteWlLZEZ4bDY4MGxOX0FLSVVBbDU0RnNjWHNZVEJLR0FoM1ZxVlViVUFuM08tUldWUUdQZW5LWnp2VHV0Wm1OYy1id0xGMFF0cHo5eUZONWxTay1oY3RBR0FmQ2JmRmQ2LXl4emNGZGc?oc=5"
 ---
 
 # Record 6e088a8166 · The-K-beauty-range-everyone-is-talking-about-is-now
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The K-beauty range everyone is talking about is now in Echuca - Riverine Herald
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

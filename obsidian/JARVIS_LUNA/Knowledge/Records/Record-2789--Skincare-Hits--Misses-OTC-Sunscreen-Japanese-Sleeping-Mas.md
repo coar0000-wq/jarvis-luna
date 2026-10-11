@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.405333+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=tJqBM0cm8hg"
 ---
 
 # Record 2789 · Skincare-Hits--Misses-OTC-Sunscreen-Japanese-Sleeping-Mask--more
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Skincare Hits & Misses! OTC Sunscreen, Japanese Sleeping Mask + more~
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

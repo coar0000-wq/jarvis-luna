@@ -2,8 +2,14 @@
 title: "Record a8c3e9e956 · Visual-General-Intelligence-A-White-Paper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.664361+00:00
+updated_at: 2026-10-11T00:55:22.698925+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2608.25924"
+kind: "논문"
 ---
 
 # Record a8c3e9e956 · Visual-General-Intelligence-A-White-Paper
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Visual General Intelligence: A White Paper
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

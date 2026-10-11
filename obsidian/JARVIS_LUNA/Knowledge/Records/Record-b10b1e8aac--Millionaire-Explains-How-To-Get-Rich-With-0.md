@@ -2,8 +2,12 @@
 title: "Record b10b1e8aac · Millionaire-Explains-How-To-Get-Rich-With-0"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.714966+00:00
+updated_at: 2026-10-11T00:55:54.174022+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=4pN16Ju0Lbw"
 ---
 
 # Record b10b1e8aac · Millionaire-Explains-How-To-Get-Rich-With-0
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Millionaire Explains: How To Get Rich With $0
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 7eebd21f8b · Seeking-HELP-beyond-the-pill-Womens-perceptions-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.507599+00:00
+updated_at: 2026-10-11T00:55:19.979458+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pone.0349065"
+kind: "논문"
 ---
 
 # Record 7eebd21f8b · Seeking-HELP-beyond-the-pill-Womens-perceptions-of-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Seeking HELP beyond the pill: Women’s perceptions of informed consent for medication abortion: Mixed methods research
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

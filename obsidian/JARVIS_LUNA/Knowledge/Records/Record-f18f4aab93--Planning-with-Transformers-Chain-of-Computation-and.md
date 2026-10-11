@@ -2,8 +2,14 @@
 title: "Record f18f4aab93 · Planning-with-Transformers-Chain-of-Computation-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.698048+00:00
+updated_at: 2026-10-11T00:55:38.539955+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Intel"
+domain: "openalex.org"
+url: "https://openalex.org/W7170111931"
+kind: "논문"
 ---
 
 # Record f18f4aab93 · Planning-with-Transformers-Chain-of-Computation-and
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Planning with Transformers: Chain of Computation and Structured Context Windows
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

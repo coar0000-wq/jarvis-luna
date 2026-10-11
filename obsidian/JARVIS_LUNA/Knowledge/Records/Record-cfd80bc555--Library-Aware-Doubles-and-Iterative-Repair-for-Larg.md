@@ -2,8 +2,14 @@
 title: "Record cfd80bc555 · Library-Aware-Doubles-and-Iterative-Repair-for-Larg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.683600+00:00
+updated_at: 2026-10-11T00:55:38.264123+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7165424144"
+kind: "논문"
 ---
 
 # Record cfd80bc555 · Library-Aware-Doubles-and-Iterative-Repair-for-Larg
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Library-Aware Doubles and Iterative Repair for Large Language Model-Generated Unit Tests in OpenSIL Firmware
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

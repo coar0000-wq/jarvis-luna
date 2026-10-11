@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.641954+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7167154843"
 ---
 
 # Record 1953 · Introduction-to-Stochastic-Differential-Equations-for-Generative-Machi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Introduction to Stochastic Differential Equations for Generative Machine Learning: A Variational Perspective
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

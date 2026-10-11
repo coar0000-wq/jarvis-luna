@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.327542+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/aF30McyZJj0"
 ---
 
 # Record 889 · 광고-다이소보다-저렴한-올영세일-추천템-올영세일-생리대
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 광고❌ 다이소보다 저렴한 올영세일 추천템 #올영세일 #생리대
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

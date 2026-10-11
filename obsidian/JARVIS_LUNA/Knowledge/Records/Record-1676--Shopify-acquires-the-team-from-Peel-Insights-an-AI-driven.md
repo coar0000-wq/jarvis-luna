@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.702818+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify", "데이터분석"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY25WWkdKZXhuUWRXTHhaQnFMUUlzRVpvNlpYVVJ5Q1I5M2hFU1NZakV1MGM4aFN5T1A5d3B1UDNpZlV3LV9XbC1nYndZZ0tJZzJ6NVpoamMxSEMta2ZDUmxPcllyNERBM0ZHUWw0UWI0cUpxdVV0dEFKRm9PNklfNTJfUnFEZXdPTzFWTUZva2RIUHUtSzdONzF0UnVFT1dvZW85WQ?oc=5"
 ---
 
 # Record 1676 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-driven-analytics-st
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify acquires the team from Peel Insights, an AI-driven analytics startup - Business Insider
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

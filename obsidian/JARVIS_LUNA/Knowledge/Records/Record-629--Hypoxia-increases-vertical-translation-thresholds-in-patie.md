@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.404584+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1177/09574271261483520"
 ---
 
 # Record 629 · Hypoxia-increases-vertical-translation-thresholds-in-patients-with-uni
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Hypoxia increases vertical translation thresholds in patients with unilateral vestibular hypofunction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

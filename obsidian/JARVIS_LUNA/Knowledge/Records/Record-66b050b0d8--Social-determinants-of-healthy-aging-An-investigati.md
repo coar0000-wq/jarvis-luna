@@ -2,8 +2,14 @@
 title: "Record 66b050b0d8 · Social-determinants-of-healthy-aging-An-investigation-using-the-all-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.506798+00:00
+updated_at: 2026-10-11T00:55:19.965695+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pone.0342292"
+kind: "논문"
 ---
 
 # Record 66b050b0d8 · Social-determinants-of-healthy-aging-An-investigation-using-the-all-of
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Social determinants of healthy aging: An investigation using the all of us cohort
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

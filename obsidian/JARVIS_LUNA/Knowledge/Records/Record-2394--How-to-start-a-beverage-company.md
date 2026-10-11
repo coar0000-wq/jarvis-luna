@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.135720+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/dOrhIkuhqtU"
 ---
 
 # Record 2394 · How-to-start-a-beverage-company
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to start a beverage company
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

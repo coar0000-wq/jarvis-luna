@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.643575+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTFJKUnRTOGFieXpyYnBOQ0FFRVNBMzBQSXR0NDhPWGR5SUxqX0JQQjljTFNJMjdVeEt2bk9mSHpBVGYtTGJLWWczeDZRYlBIeHE4OGNEU1c2VzhnSlFCbkxJZEtsSDNheTh5V0d6Mi1STE5CUW4wMmZuZDRtSXdib294Z0VuWU0?oc=5"
 ---
 
 # Record 358 · Sephora-is-at-the-center-of-TikTok-beauty-trendsand-the-CEO-says-its-n
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Sephora is at the center of TikTok beauty trends—and the CEO says it’s ‘not by accident’ - Fortune
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

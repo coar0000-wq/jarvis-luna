@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.306075+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/"
 ---
 
 # Record 270 · Accelerating-the-frontiers-of-scientific-discovery-Googles-40M-commitm
@@ -16,7 +21,3 @@ Accelerating the frontiers of scientific discovery: Google’s $40M commitment t
 Google commits $40M in AI tokens and credits for the Genesis Mission
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

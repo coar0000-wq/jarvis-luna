@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.641307+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-research/assessing-a-less-transparent-fed/TOM_Fed_Communications_Redacted.pdf"
 ---
 
 # Record 1940 · Tom-Fed-Communications-Redacted
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Tom Fed Communications Redacted
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.290384+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7164700538"
 ---
 
 # Record 1773 · nomp-A-Framework-for-Building-Domain-Specific-Compilers
@@ -15,7 +20,3 @@ tags: [record, real-data]
 nomp: A Framework for Building Domain Specific Compilers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

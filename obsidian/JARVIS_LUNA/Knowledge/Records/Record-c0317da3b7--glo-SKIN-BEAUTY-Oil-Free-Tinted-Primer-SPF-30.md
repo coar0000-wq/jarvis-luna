@@ -2,8 +2,12 @@
 title: "Record c0317da3b7 · glo-SKIN-BEAUTY-Oil-Free-Tinted-Primer-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.900669+00:00
+updated_at: 2026-10-11T00:55:11.037185+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "api.fda.gov"
+url: "https://api.fda.gov/drug/label.json?search=id:2bc36c49-aa1b-89e9-e063-6294a90ae445"
 ---
 
 # Record c0317da3b7 · glo-SKIN-BEAUTY-Oil-Free-Tinted-Primer-SPF-30
@@ -16,7 +20,3 @@ glo SKIN BEAUTY Oil-Free Tinted Primer SPF 30
 glo SKIN BEAUTY Oil-Free Tinted Primer SPF 30
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

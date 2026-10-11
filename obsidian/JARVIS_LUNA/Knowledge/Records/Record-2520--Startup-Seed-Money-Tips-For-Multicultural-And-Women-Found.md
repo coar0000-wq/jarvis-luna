@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.343329+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/startup-seed-money-tips-for-multicultural-and-women-founders"
 ---
 
 # Record 2520 · Startup-Seed-Money-Tips-For-Multicultural-And-Women-Founders
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Startup Seed Money Tips For Multicultural And Women Founders
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

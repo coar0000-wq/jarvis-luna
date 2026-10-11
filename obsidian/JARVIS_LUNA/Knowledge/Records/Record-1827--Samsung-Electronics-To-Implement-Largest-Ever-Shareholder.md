@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.485883+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-electronics-to-implement-largest-ever-shareholder-return-in-2026-estimated-at-krw-90-to-110-trillion"
 ---
 
 # Record 1827 · Samsung-Electronics-To-Implement-Largest-Ever-Shareholder-Return-in-20
@@ -16,7 +21,3 @@ Samsung Electronics To Implement Largest-Ever Shareholder Return in 2026, Estima
 Samsung Electronics’ Board of Directors convened today and approved a shareholder return plan for 2026, estimated at approximately KRW 90 trillion to KRW 110 trillion. This is approximately five times the size of the previous record of KRW 20.3 trillion, set in 2020 and marks the largest ever by a Korean company. The record-breaking shareholder return is […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

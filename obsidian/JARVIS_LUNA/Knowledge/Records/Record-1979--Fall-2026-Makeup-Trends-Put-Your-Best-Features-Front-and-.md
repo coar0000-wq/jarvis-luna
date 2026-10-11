@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.250703+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/fall-makeup-trends-2026"
 ---
 
 # Record 1979 · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Front-and-Center--See-P
@@ -16,7 +20,3 @@ Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos
 Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

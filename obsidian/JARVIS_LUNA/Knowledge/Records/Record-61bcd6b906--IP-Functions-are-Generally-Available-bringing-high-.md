@@ -2,8 +2,14 @@
 title: "Record 61bcd6b906 · IP-Functions-are-Generally-Available-bringing-high-performance-network"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.439086+00:00
+updated_at: 2026-10-11T00:55:49.043143+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/ip-functions-are-generally-available-bringing-high-performance-network-analytics-lakehouse"
+kind: "발표물"
 ---
 
 # Record 61bcd6b906 · IP-Functions-are-Generally-Available-bringing-high-performance-network
@@ -16,7 +22,3 @@ IP Functions are Generally Available, bringing high-performance network analytic
 IP data is warehousing dataEvery firewall, load balancer, VPN, CDN edge, DNS resolver,...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

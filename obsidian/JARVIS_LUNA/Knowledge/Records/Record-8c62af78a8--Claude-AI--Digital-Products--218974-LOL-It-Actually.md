@@ -2,8 +2,12 @@
 title: "Record 8c62af78a8 · Claude-AI--Digital-Products--218974-LOL-It-Actually"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.737463+00:00
+updated_at: 2026-10-11T00:55:54.614509+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=oN9LcIA_rt8"
 ---
 
 # Record 8c62af78a8 · Claude-AI--Digital-Products--218974-LOL-It-Actually
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude AI + Digital Products = $218,974 (LOL, It Actually Worked)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

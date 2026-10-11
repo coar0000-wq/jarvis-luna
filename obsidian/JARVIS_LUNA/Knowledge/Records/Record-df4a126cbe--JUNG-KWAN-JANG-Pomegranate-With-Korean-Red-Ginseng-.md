@@ -2,8 +2,12 @@
 title: "Record df4a126cbe · JUNG-KWAN-JANG-Pomegranate-With-Korean-Red-Ginseng-169-fl-oz50ml-x-10e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.797797+00:00
+updated_at: 2026-10-11T00:55:40.093698+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA37949421"
 ---
 
 # Record df4a126cbe · JUNG-KWAN-JANG-Pomegranate-With-Korean-Red-Ginseng-169-fl-oz50ml-x-10e
@@ -16,7 +20,3 @@ JUNG KWAN JANG Pomegranate With Korean Red Ginseng 1.69 fl. oz.(50ml) x 10ea
 JUNG KWAN JANG Pomegranate With Korean Red Ginseng 1.69 fl. oz.(50ml) x 10ea
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record a65b953de4 · The-Three-Golden-Ages-of-Database-Engineering-From-SIGMOD85-to-the-Age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.515845+00:00
+updated_at: 2026-10-11T00:55:20.125980+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.14778/3827998.3838713"
+kind: "논문"
 ---
 
 # Record a65b953de4 · The-Three-Golden-Ages-of-Database-Engineering-From-SIGMOD85-to-the-Age
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Three Golden Ages of Database Engineering: From SIGMOD'85 to the Agentic Era
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

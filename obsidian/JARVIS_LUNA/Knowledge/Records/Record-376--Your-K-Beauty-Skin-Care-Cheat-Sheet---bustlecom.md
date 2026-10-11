@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.311267+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyMjRMU203TGVXQTByYnlrbDZOamtpWDZQTkhZRmJqOHMzNEVCQ3FXOTN2RHpnRnAtQkxsNzlSMFdBQ1UxNHNMQmpUdkJvYUs0aVYwZ2NKWXhITFBCcW1ILWIxdlU2UTBpaTQ4UDRKemdqMHF2bVF6ZW51d3FrY1k?oc=5"
 ---
 
 # Record 376 · Your-K-Beauty-Skin-Care-Cheat-Sheet---bustlecom
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Your K-Beauty Skin Care Cheat Sheet - bustle.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

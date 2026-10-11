@@ -2,8 +2,12 @@
 title: "Record dcae22b9ed · CUA-Universe-A-Scalable-and-Dynamic-Environment-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.976511+00:00
+updated_at: 2026-10-11T00:55:12.170054+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05374v1"
 ---
 
 # Record dcae22b9ed · CUA-Universe-A-Scalable-and-Dynamic-Environment-for
@@ -15,7 +19,3 @@ tags: [record, real-data]
 CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

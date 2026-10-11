@@ -2,8 +2,12 @@
 title: "Record 39f1841458 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.240555+00:00
+updated_at: 2026-10-11T00:55:31.009757+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE9OM3QyYWRkMEUzNWVoQklxS1FjZHllM3QtTU5XRGY2cTRsTlJ1dDhzbklKdHYxa0JnS0dQejZQclpTOGF3TVBpUDl5cDRJZjFfaEN3dXBYNFp4TldDcVFwWVRhQVo4eDgtTGllRy13?oc=5"
 ---
 
 # Record 39f1841458 · AI-referred-shoppers-convert-better-and-spend-more-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI-referred shoppers convert better and spend more (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

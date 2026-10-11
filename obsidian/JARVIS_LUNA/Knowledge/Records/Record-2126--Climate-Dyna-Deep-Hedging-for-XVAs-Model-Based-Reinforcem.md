@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.807772+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Barclays"
+domain: "openalex.org"
+url: "https://openalex.org/W7172557191"
 ---
 
 # Record 2126 · Climate-Dyna-Deep-Hedging-for-XVAs-Model-Based-Reinforcement-Learning-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Climate-Dyna Deep Hedging for XVAs: Model-Based Reinforcement Learning, Residual Climate HVA, and Hedge-Instrument Discovery
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

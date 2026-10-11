@@ -2,8 +2,14 @@
 title: "Record 091100c732 · Mathematical-discovery-and-exploration-can-be-done-at-scale"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.383408+00:00
+updated_at: 2026-10-11T00:55:17.799080+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1073/pnas.2536158123"
+kind: "논문"
 ---
 
 # Record 091100c732 · Mathematical-discovery-and-exploration-can-be-done-at-scale
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mathematical discovery and exploration can be done at scale
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

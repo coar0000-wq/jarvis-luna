@@ -2,8 +2,12 @@
 title: "Record 8821e2b7f4 · ISTP-특징--대충-사는데-뭔가-잘-풀림-istp-istp특징"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.694827+00:00
+updated_at: 2026-10-11T00:55:53.719197+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/LYWRdmWm0ro"
 ---
 
 # Record 8821e2b7f4 · ISTP-특징--대충-사는데-뭔가-잘-풀림-istp-istp특징
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ISTP 특징 : 대충 사는데 뭔가 잘 풀림(?) #istp #istp특징
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

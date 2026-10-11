@@ -2,8 +2,14 @@
 title: "Record fda953c1be · Leidos-to-strengthen-cyber-defenses-across-Departme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.073182+00:00
+updated_at: 2026-10-11T00:55:28.120685+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-strengthen-cyber-defenses-across-department-war-networks"
+kind: "발표물"
 ---
 
 # Record fda953c1be · Leidos-to-strengthen-cyber-defenses-across-Departme
@@ -16,7 +22,3 @@ Leidos to strengthen cyber defenses across Department of War networks
 Leidos will provide around-the-clock cyber operations and develop new capabilities to advance the Department of War's cyber resilience RESTON, Va., Aug. 24, 2026 /PRNewswire/ -- Leidos (NYSE: LDOS) will help the Department of War detect and defend against cyber threats by monitoring military
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

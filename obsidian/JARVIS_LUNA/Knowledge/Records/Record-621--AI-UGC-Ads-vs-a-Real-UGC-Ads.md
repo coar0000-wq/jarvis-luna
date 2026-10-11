@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.144233+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/RGNZoMTMKPc"
 ---
 
 # Record 621 · AI-UGC-Ads-vs-a-Real-UGC-Ads
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 AI UGC Ads vs a Real UGC Ads
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.569874+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE43SlF6VXRWR1dKajRlYWFWVy14S2VMNjkzR05KLUszR2ZZNVV6czdXOTlmZGFFbWxnbk5nWC1aX0RuOG53Zk1Uakh6M3VyRGRKbFJUalV6ekZRUFRTN0xQR3p4aHR4NXJCSXptaE9hNC1EY2s?oc=5"
 ---
 
 # Record 257 · Mahina-Tottle--skin-care-with-a-cool-touch-of-moonlight---Cosmetics-Bu
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Mahina Tottle – skin care with a cool touch of moonlight - Cosmetics Business
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

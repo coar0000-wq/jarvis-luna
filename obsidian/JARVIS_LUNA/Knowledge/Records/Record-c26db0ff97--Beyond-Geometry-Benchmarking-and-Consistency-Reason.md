@@ -2,8 +2,12 @@
 title: "Record c26db0ff97 · Beyond-Geometry-Benchmarking-and-Consistency-Reasoning-for-3D-Logical-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.220968+00:00
+updated_at: 2026-10-11T00:55:15.121471+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.34143"
 ---
 
 # Record c26db0ff97 · Beyond-Geometry-Benchmarking-and-Consistency-Reasoning-for-3D-Logical-
@@ -16,7 +20,3 @@ Beyond Geometry: Benchmarking and Consistency Reasoning for 3D Logical Anomaly D
 Existing 3D industrial anomaly detection mainly targets local geometric deviations. In contrast, many industrial anomalies violate object-level design or assembly rules, which we define as 3D logical anomalies. To address these challenges, we introduce the Industrial Logical Anomaly Detection Dataset (ILGAD), the first scalable benchmark dedicated to logical anomalies in industrial point clouds. I
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

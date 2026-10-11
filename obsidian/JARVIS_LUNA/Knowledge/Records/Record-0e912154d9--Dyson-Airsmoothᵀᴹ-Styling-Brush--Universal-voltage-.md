@@ -2,8 +2,12 @@
 title: "Record 0e912154d9 · Dyson-Airsmoothᵀᴹ-Styling-Brush--Universal-voltage-Dry-and-style-Anti-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.065403+00:00
+updated_at: 2026-10-11T00:55:44.221405+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Dyson-493072-01-Airsmooth%E1%B5%80%E1%B4%B9-Styling-Brush/dp/B0H776NZLT/ref=zg_bsnr_g_beauty_d_sccl_44/133-7130756-4573415"
 ---
 
 # Record 0e912154d9 · Dyson-Airsmoothᵀᴹ-Styling-Brush--Universal-voltage-Dry-and-style-Anti-
@@ -16,7 +20,3 @@ Dyson Airsmoothᵀᴹ Styling Brush | Universal voltage, Dry and style, Anti-sna
 Dyson Airsmoothᵀᴹ Styling Brush | Universal voltage, Dry and style, Anti-snag loop bristles, Lightweight · $249.99 · 평점 4.1 · 리뷰 45
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

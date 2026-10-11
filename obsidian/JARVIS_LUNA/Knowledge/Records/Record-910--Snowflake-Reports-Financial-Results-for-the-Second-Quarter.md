@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.606720+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Snowflake-Reports-Financial-Results-for-the-Second-Quarter-of-Fiscal-2027/default.aspx"
 ---
 
 # Record 910 · Snowflake-Reports-Financial-Results-for-the-Second-Quarter-of-Fiscal-2
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Snowflake Reports Financial Results for the Second Quarter of Fiscal 2027
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

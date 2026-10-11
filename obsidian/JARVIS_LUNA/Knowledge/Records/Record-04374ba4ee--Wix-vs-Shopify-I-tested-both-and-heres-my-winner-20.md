@@ -2,8 +2,12 @@
 title: "Record 04374ba4ee · Wix-vs-Shopify-I-tested-both-and-heres-my-winner-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.194169+00:00
+updated_at: 2026-10-11T00:55:30.136002+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lWjBLUm9KZEw2RWhDbnMwVk5tWG14SnlUaGlidTE3c3hzQ3VacGZfd1RKX2Y5SEk4SmNvYTA5cjhDTnZoZ2kwSHp2dUVVZ1B3ZjRLam5RaFhYMW5IVjdTNUItRGY?oc=5"
 ---
 
 # Record 04374ba4ee · Wix-vs-Shopify-I-tested-both-and-heres-my-winner-20
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Wix vs Shopify: I tested both, and here’s my winner (2026) - Cybernews
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

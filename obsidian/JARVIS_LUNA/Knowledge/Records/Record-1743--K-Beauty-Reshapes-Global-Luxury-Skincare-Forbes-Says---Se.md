@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:25.973945+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV28zZXZYam9BWGk2a0p4MTlCYkI4U3lKVFdRVEhiOHk1NTFTZzFGclpCSm5PT2xDN1gxSWZFV1NnWFVaeXFNaWFUUk56SThTZmUyUTFYRl9rN0JqTEZsNjIweXdyWV9fWlNsNk5kcE9rR3J2eGtnbnU1dkZkVTRyZWdfWmFxeHdFZjI1aDhwWHBiTTlYdHRxN2FOSW1GazJMSVE?oc=5"
 ---
 
 # Record 1743 · K-Beauty-Reshapes-Global-Luxury-Skincare-Forbes-Says---Seoul-Economic-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty Reshapes Global Luxury Skincare, Forbes Says - Seoul Economic Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

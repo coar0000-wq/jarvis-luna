@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.373015+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1093/inteam/vjae046"
 ---
 
 # Record 512 · Assessing-bioaccumulation-with-biomagnification-factors-from-dietary-b
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Assessing bioaccumulation with biomagnification factors from dietary bioaccumulation tests
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

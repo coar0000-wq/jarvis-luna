@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.250144+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/gpt-5-6-in-kiro"
 ---
 
 # Record 1748 · Advancing-price-performance-for-developers-with-GPT56-in-Kiro
@@ -16,7 +21,3 @@ Advancing price-performance for developers with GPT‑5.6 in Kiro
 GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

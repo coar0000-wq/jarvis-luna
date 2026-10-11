@@ -2,8 +2,12 @@
 title: "Record b1a3a393af · 드디어-올것이-왔다-레이어랩-여름-수분크림-출시--녹차--엑토인--아쥴렌-여름에-꼭-필요한-성분을-모아-진정--수분--열감까지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.732384+00:00
+updated_at: 2026-10-11T00:55:54.510628+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=fLL40aPp0aQ"
 ---
 
 # Record b1a3a393af · 드디어-올것이-왔다-레이어랩-여름-수분크림-출시--녹차--엑토인--아쥴렌-여름에-꼭-필요한-성분을-모아-진정--수분--열감까지
@@ -15,7 +19,3 @@ tags: [record, real-data]
 드디어 올것이 왔다 레이어랩 여름 수분크림 출시 🎉 녹차 + 엑토인 + 아쥴렌 여름에 꼭 필요한 성분을 모아 진정 + 수분 + 열감까지 케어하는 수분크림 출시
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

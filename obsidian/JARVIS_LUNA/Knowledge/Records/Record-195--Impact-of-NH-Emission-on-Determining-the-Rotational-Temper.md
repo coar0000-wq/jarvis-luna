@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.580188+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1002/ppap.70190"
 ---
 
 # Record 195 · Impact-of-NH-Emission-on-Determining-the-Rotational-Temperature-From-t
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Impact of NH Emission on Determining the Rotational Temperature From the Second Positive System of N2
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

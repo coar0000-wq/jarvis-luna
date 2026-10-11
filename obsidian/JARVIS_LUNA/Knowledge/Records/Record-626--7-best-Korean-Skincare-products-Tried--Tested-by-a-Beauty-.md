@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.128789+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWFRWFp5QVFPTkxYTUVmX2taYnkzN2gwejdoZzNMWnB1QUtRM1FuWFU0R0gzZ0dUYUFvNmZCUGFSaEFFbnJ6T1VaV3lZYS1mdHFqWWN0VzNvakVxS0EwaTdzcFAyMUQyczFTbmoyT2hlbFJBVWxRSXJjTUFfcmpNY3F3R3RfSE9CTW5zSl9GWWpFT0tSLXdpVTBn?oc=5"
 ---
 
 # Record 626 · 7-best-Korean-Skincare-products-Tried--Tested-by-a-Beauty-Editor---the
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 7 best Korean Skincare products: Tried & Tested by a Beauty Editor - the-independent.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

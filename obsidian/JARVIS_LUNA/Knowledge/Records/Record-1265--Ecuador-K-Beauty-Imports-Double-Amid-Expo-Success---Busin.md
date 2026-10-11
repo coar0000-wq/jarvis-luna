@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.472373+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ablRCa2dSR3ZqV0d1bmpXWHF2RGw1QXh4blJGdF9pWEVMWG5LWi1FaHJoYk1KVHFUazEyOE5aY3J6R05FWVNPODRlcmFJSUJPby1jdkI5aWJsc1hGdEhGOGFNaHNZZjl4VTJyTjBxWkprT1NG?oc=5"
 ---
 
 # Record 1265 · Ecuador-K-Beauty-Imports-Double-Amid-Expo-Success---Businesskorea
@@ -16,7 +20,3 @@ Ecuador K-Beauty Imports Double Amid Expo Success - Businesskorea
 Ecuador K-Beauty Imports Double Amid Expo Success - Businesskorea
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

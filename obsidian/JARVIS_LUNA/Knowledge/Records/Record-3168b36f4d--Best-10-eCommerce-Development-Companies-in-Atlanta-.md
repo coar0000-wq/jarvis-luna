@@ -2,8 +2,12 @@
 title: "Record 3168b36f4d · Best-10-eCommerce-Development-Companies-in-Atlanta---ClickPost"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.253545+00:00
+updated_at: 2026-10-11T00:55:31.196384+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE9jMzhXZ0hwLWRqSFFDU1pxb25wTWYzMFB6elRMV2ZSZ0MtVWVSS0hzZ0JtZVdpaV96OHZ1Y2FEeWp1Z3ZNUHNTbXZnbzVESS1TY2RlaFhrWU9tbDhVZFlKbUdSenQwSFhCX0RHeHVzZkE?oc=5"
 ---
 
 # Record 3168b36f4d · Best-10-eCommerce-Development-Companies-in-Atlanta---ClickPost
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Best 10 eCommerce Development Companies in Atlanta - ClickPost
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

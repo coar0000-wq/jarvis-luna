@@ -2,8 +2,14 @@
 title: "Record 1929444a42 · Leanstral-15-Proof-Abundance-for-All"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.091418+00:00
+updated_at: 2026-10-11T00:55:28.398613+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/leanstral-1-5/"
+kind: "발표물"
 ---
 
 # Record 1929444a42 · Leanstral-15-Proof-Abundance-for-All
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Leanstral 1.5: Proof Abundance for All
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

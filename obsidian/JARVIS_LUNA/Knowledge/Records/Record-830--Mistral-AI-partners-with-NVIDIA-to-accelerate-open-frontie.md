@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.406981+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models/"
 ---
 
 # Record 830 · Mistral-AI-partners-with-NVIDIA-to-accelerate-open-frontier-models
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Mistral AI partners with NVIDIA to accelerate open frontier models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

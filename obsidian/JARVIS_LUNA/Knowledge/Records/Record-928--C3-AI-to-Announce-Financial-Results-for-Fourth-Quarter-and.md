@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.611575+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "C3-AI"
+domain: "ir.c3.ai"
+url: "https://ir.c3.ai/news-releases/news-release-details/c3-ai-announce-financial-results-fourth-quarter-and-fiscal-1"
 ---
 
 # Record 928 · C3-AI-to-Announce-Financial-Results-for-Fourth-Quarter-and-Fiscal-Year
@@ -16,7 +21,3 @@ C3 AI to Announce Financial Results for Fourth Quarter and Fiscal Year 2026 on J
 REDWOOD CITY, Calif. --(BUSINESS WIRE)--May 28, 2026-- C3 AI (NYSE: AI), the Enterprise AI application software company, today announced it will issue its financial results for the fiscal fourth quarter and full fiscal year, which ended April 30, 2026, following the close of the U.S.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--C3-AI]] [[JARVIS Real Knowledge Index]]

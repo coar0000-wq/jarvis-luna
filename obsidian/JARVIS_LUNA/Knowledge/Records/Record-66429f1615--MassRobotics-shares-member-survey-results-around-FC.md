@@ -2,8 +2,12 @@
 title: "Record 66429f1615 · MassRobotics-shares-member-survey-results-around-FC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.591375+00:00
+updated_at: 2026-10-11T00:55:51.963950+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/"
 ---
 
 # Record 66429f1615 · MassRobotics-shares-member-survey-results-around-FC
@@ -16,7 +20,3 @@ MassRobotics shares member survey results around FCC restrictions
 <p>MassRobotics has found that companies were split on the FCC ban on new foreign-produced mobile robots.</p> <p>The post <a href="https://www.therobotreport.com/massrobotics-shares-member-survey-results-around-fcc-restrictions/">MassRobotics shares member survey results around FCC restrictions</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

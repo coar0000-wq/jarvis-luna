@@ -2,8 +2,12 @@
 title: "Record 93fd62a081 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.100415+00:00
+updated_at: 2026-10-11T00:55:28.562573+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNHR1Y3hFSXJEdlNfY1hhQWhMbGU2Yk5XNGtvaFYzcTNNQWgyaldRdExTSTgzY0hvOXpPVV9MUlJkOWIyMGZMM0EwY192bFduQzJTTXM1MGtsYnUtM3hoOG83NHBiRlBielZqOTJ5LTNuU29ueG5ZS0NPZUhybGRFTEt4dzFHeEtSa05sWGZCeVRCcDdGeUdhb0dmSU9BcUJ2SWdwa2s1ak9VZTY0ZC15RmtXTVRKWlhmeHVxbDA5VHBNVzZBRVVnSmZ2d0wtZ1hP?oc=5"
 ---
 
 # Record 93fd62a081 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rou
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ‘Eyemaxxing’ is the latest beauty trend doing the rounds. So, is it legit? - Nine.com.au
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

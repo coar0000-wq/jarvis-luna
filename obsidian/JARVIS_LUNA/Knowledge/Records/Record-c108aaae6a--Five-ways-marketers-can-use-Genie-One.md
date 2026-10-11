@@ -2,8 +2,14 @@
 title: "Record c108aaae6a · Five-ways-marketers-can-use-Genie-One"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.431544+00:00
+updated_at: 2026-10-11T00:55:48.917468+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one"
+kind: "발표물"
 ---
 
 # Record c108aaae6a · Five-ways-marketers-can-use-Genie-One
@@ -16,7 +22,3 @@ Five ways marketers can use Genie One
 Every marketing team sits on a goldmine of data: campaign performance metrics, customer...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

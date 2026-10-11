@@ -2,8 +2,12 @@
 title: "Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.947556+00:00
+updated_at: 2026-10-11T00:55:11.810662+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04147v1"
 ---
 
 # Record 49af5a6e2d · A-Low-Cost-Open-Platform-for-End-to-End-Autonomous-
@@ -16,7 +20,3 @@ A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Acker
 This paper presents a low-cost, open experimental platform for research in end-to-end autonomous driving with miniature Ackermann vehicles. The platform combines a physical vehicle, a printed urban track, data collection tools, trajectory registration, and a Webots digital twin, enabling controlled experiments that connect simulation-based autonomous-driving methods to real-world execution. As a f
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

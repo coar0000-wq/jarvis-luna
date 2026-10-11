@@ -2,8 +2,12 @@
 title: "Record 05037cf678 · UniMPA-A-Unified-Memory-Prediction-Action-Model-via"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.083022+00:00
+updated_at: 2026-10-11T00:55:13.386386+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11875v1"
 ---
 
 # Record 05037cf678 · UniMPA-A-Unified-Memory-Prediction-Action-Model-via
@@ -16,7 +20,3 @@ UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition 
 Recent advances in Vision-Language-Action (VLA) models have improved robotic manipulation, yet observation-to-action learning remains limited by a fundamental transition realizability gap, manifested in three tightly coupled problems: (i) Transition ambiguity. Visually similar current observations may correspond to different manipulation phases and imply different subsequent transitions. (ii) Pred
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

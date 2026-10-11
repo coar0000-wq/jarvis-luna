@@ -2,8 +2,12 @@
 title: "Record 2e1adf9702 · 3colors-WAKEMAKE-Lasting-Glow-Stick-Set-012-oz-35g--Hello-Kitty-Ribbon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.814163+00:00
+updated_at: 2026-10-11T00:55:40.372436+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA49015923"
 ---
 
 # Record 2e1adf9702 · 3colors-WAKEMAKE-Lasting-Glow-Stick-Set-012-oz-35g--Hello-Kitty-Ribbon
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch) · 평점 4.7 · 리뷰 567
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 4464d0675f · Raise-Robotics-to-discuss-scaling-field-robots-at-RoboBusiness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.598524+00:00
+updated_at: 2026-10-11T00:55:52.074963+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/"
 ---
 
 # Record 4464d0675f · Raise-Robotics-to-discuss-scaling-field-robots-at-RoboBusiness
@@ -16,7 +20,3 @@ Raise Robotics to discuss scaling field robots at RoboBusiness
 <p>Raise Robotics said attendees will learn a decision rule for allocating engineering capacity and a vocabulary for two hidden failure modes.</p> <p>The post <a href="https://www.therobotreport.com/raise-robotics-discuss-scaling-field-robots-robobusiness/">Raise Robotics to discuss scaling field robots at RoboBusiness</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

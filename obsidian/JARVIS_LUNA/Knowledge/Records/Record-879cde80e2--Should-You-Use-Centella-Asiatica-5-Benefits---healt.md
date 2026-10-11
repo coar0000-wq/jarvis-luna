@@ -2,8 +2,12 @@
 title: "Record 879cde80e2 · Should-You-Use-Centella-Asiatica-5-Benefits---healthcom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.336265+00:00
+updated_at: 2026-10-11T00:55:32.696870+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1FGamp5TUY2bzdhcXhiTkpLQmwyZHIxOE9ITnZNcnFWemt2TzdXU09taVV0RmFReUZCUFE2YjNNa2RlVXVMR1E5SEh2eTV6Wk5HalUyaVdfN2JQQXZKZmV4alpHSVNXTXhRMFptYVM5amd3X3pRdThCYlROa18tWjRMTQ?oc=5"
 ---
 
 # Record 879cde80e2 · Should-You-Use-Centella-Asiatica-5-Benefits---healthcom
@@ -16,7 +20,3 @@ Should You Use Centella Asiatica? 5 Benefits - Health.com
 Should You Use Centella Asiatica? 5 Benefits - Health.com
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

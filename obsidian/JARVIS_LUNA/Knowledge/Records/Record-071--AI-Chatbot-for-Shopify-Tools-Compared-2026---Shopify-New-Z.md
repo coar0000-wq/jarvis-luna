@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.059180+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYWG12UFI0bkVWWkVsWkhDQk5aMk1vbjlfd1RuX19sRE11aERydW9MOHZORWJvMk5iLTMtZGlNYTVDa2NkODU3N045Vnk0UDZ0azh0Yg?oc=5"
 ---
 
 # Record 071 · AI-Chatbot-for-Shopify-Tools-Compared-2026---Shopify-New-Zealand---Sho
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 AI Chatbot for Shopify: Tools Compared (2026) - Shopify New Zealand - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

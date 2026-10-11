@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.171123+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/rzk4_FFtdIg"
 ---
 
 # Record 786 · How-to-use-Shopify-Sidekick-in-your-weekly-routine
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How to use Shopify Sidekick in your weekly routine
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

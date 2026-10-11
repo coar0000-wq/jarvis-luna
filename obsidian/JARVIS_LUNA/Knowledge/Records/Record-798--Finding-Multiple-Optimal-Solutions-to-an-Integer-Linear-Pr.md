@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.480523+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.3390/a18030140"
 ---
 
 # Record 798 · Finding-Multiple-Optimal-Solutions-to-an-Integer-Linear-Program-by-Ran
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Finding Multiple Optimal Solutions to an Integer Linear Program by Random Perturbations of Its Objective Function
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

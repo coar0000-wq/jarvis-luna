@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.151964+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTVhUY0dZNFl1ZG93dkhucWJJZzNReUNyQ0NnSFlfOGt2WW1OMkpsOW9UTEhYOUxPVUxxSWNTQnItLTVmMjBILWFZcVpLaDlkMmt6ajd0T2tBbnY4QUJrNUV6aDA0MTJxNUNobjVDcmJCN1lpZmExRzNsc0FLbWhpRzVucG9fYXZ6OFBUanl4WUd6akEyOHNkSlduaUY3Umc?oc=5"
 ---
 
 # Record 648 · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-commerce-shift---nss
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Why Is Veralab slowing down? K-Beauty, retail and e-commerce shift - nss magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.377057+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09124v1"
 ---
 
 # Record 241 · Canonical-Color-as-a-Lens-into-Concept-Decodability-in-Vision-Encoders
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

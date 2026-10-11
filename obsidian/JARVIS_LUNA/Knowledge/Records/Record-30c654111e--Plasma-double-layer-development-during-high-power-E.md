@@ -2,8 +2,14 @@
 title: "Record 30c654111e · Plasma-double-layer-development-during-high-power-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.690083+00:00
+updated_at: 2026-10-11T00:55:38.397573+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7167154077"
+kind: "논문"
 ---
 
 # Record 30c654111e · Plasma-double-layer-development-during-high-power-E
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Plasma double layer development during high power EUV exposure
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

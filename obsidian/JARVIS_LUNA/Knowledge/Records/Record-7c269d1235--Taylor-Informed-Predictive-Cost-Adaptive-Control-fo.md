@@ -2,8 +2,12 @@
 title: "Record 7c269d1235 · Taylor-Informed-Predictive-Cost-Adaptive-Control-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.931436+00:00
+updated_at: 2026-10-11T00:55:11.635177+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03351v1"
 ---
 
 # Record 7c269d1235 · Taylor-Informed-Predictive-Cost-Adaptive-Control-fo
@@ -16,7 +20,3 @@ Taylor-Informed Predictive Cost Adaptive Control for Quadrotors with Online Grav
 This paper develops Taylor-informed predictive cost adaptive control (PCAC) for quadrotors with online gravity-trim adaptation. First-, second-, and third-order expansions of the nonlinear dynamics about nominal hover define sparse sampled-data dictionaries for row-wise recursive least-squares identification with variable-rate forgetting. At each step, the identified predictor is linearized at the
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

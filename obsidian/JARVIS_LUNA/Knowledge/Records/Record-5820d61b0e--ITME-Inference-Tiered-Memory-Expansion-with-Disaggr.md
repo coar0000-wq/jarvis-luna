@@ -2,8 +2,14 @@
 title: "Record 5820d61b0e · ITME-Inference-Tiered-Memory-Expansion-with-Disaggr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.682951+00:00
+updated_at: 2026-10-11T00:55:38.231507+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK hynix"
+domain: "openalex.org"
+url: "https://openalex.org/W7164701415"
+kind: "논문"
 ---
 
 # Record 5820d61b0e · ITME-Inference-Tiered-Memory-Expansion-with-Disaggr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ITME: Inference Tiered Memory Expansion with Disaggregated CXL-Hybrid Memories
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

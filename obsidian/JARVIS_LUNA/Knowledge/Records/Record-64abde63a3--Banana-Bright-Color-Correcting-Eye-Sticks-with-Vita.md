@@ -2,8 +2,12 @@
 title: "Record 64abde63a3 · Banana-Bright-Color-Correcting-Eye-Sticks-with-Vita"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.619097+00:00
+updated_at: 2026-10-11T00:55:52.469993+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/banana-bright-color-correcting-eye-sticks-with-vitamin-c-dark-circles-pimprod2042305"
 ---
 
 # Record 64abde63a3 · Banana-Bright-Color-Correcting-Eye-Sticks-with-Vita
@@ -16,7 +20,3 @@ Banana Bright+ Color Correcting Eye Sticks with Vitamin C for Dark Circles
 Banana Bright+ Color Correcting Eye Sticks with Vitamin C for Dark Circles · OLEHENRIKSEN · $18
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

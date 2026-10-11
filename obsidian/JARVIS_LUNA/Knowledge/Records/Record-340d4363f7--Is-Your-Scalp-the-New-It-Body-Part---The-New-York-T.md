@@ -2,8 +2,12 @@
 title: "Record 340d4363f7 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.321971+00:00
+updated_at: 2026-10-11T00:55:32.446658+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa2dnTUcwVFpScWtqaUNITjFsNDVsR1NFSHpINW1xZ0J6Q3ZoVG12MDF6Y210VHJaQkFKZTBzaWFWUm1RTGRlZDFyWlRra2ZxOE1GMldzdFN1MnJiTktIWUw3QjVRQndZMEZMQ3VabFk2Uk1qdk14VTcwMEw3OFU1Vw?oc=5"
 ---
 
 # Record 340d4363f7 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-T
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Is Your Scalp the New ‘It’ Body Part? - The New York Times
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

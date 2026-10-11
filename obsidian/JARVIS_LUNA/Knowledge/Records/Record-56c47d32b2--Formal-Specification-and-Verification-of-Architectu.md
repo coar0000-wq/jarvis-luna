@@ -2,8 +2,14 @@
 title: "Record 56c47d32b2 · Formal-Specification-and-Verification-of-Architectu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.422788+00:00
+updated_at: 2026-10-11T00:55:18.502270+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1109/access.2023.3346501"
+kind: "논문"
 ---
 
 # Record 56c47d32b2 · Formal-Specification-and-Verification-of-Architectu
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Formal Specification and Verification of Architecturally-Defined Attestation Mechanisms in Arm CCA and Intel TDX
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

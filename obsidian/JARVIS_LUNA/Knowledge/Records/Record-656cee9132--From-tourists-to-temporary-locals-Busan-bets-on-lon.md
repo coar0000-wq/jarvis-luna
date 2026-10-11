@@ -2,8 +2,12 @@
 title: "Record 656cee9132 · From-tourists-to-temporary-locals-Busan-bets-on-lon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.135828+00:00
+updated_at: 2026-10-11T00:55:29.187509+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrRWRNVjZfUVFEWFRiOXdHOW5KYjc3azdQeEVRUE1yYUEyNnVNWkFjUklNcDZubWRPZFZZU0p6cVltTmJhZENPTTFhV2Z4UjBTNkd4Yy10dw?oc=5"
 ---
 
 # Record 656cee9132 · From-tourists-to-temporary-locals-Busan-bets-on-lon
@@ -16,7 +20,3 @@ From tourists to temporary locals: Busan bets on longer stays for K-culture fans
 From tourists to temporary locals: Busan bets on longer stays for K-culture fans - The Korea Herald
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

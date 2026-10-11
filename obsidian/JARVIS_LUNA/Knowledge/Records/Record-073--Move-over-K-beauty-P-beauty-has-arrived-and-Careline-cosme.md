@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.860181+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLWQ5MFlwVUtkMUhPMmRHM2RGaC1HRnZ4bHIzNXQxOTdaWFFyekw3WmpMLUNzWDV0VGVZQTFZelZVQVIwbW9OdFpjcWpTSEZnV2ZMNGdKaXQwX3FFOTNiSU9JRlc0MWZmWlpOeFh3YjVFY2VydVQ3M1FIZEFzMWx6bUJFOEdXNlpHQmVHT2pfOWVDaXk0emZ6UnZKUElEMUs2X2pDLWRKZmJFY18xUFdDUjVyUjVrS1ZLeEhMMUdEV2pzTjJBWVhZenRmcWNJQTlmZWNkZ1R5YUJQVW5RU3VSQWF3?oc=5"
 ---
 
 # Record 073 · Move-over-K-beauty-P-beauty-has-arrived-and-Careline-cosmetics-is-abou
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Move over, K-beauty: P-beauty has arrived and Careline cosmetics is about to launch its smartest product yet - BusinessMirror
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

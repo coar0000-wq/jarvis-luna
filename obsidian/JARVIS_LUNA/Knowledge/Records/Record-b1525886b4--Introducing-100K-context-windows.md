@@ -2,8 +2,14 @@
 title: "Record b1525886b4 · Introducing-100K-context-windows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.351107+00:00
+updated_at: 2026-10-11T00:55:47.745392+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/100k-context-windows"
+kind: "발표물"
 ---
 
 # Record b1525886b4 · Introducing-100K-context-windows
@@ -16,7 +22,3 @@ Introducing 100K context windows
 Claude's context window expands from 9K to 100K tokens, roughly 75,000 words, letting it process hundreds of pages in under a minute.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

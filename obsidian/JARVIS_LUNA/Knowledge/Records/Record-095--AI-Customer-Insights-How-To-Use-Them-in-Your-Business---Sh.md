@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.001624+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpZGZlamJwR3MydUZMTEwzVFFpWDRKQ0VlYTNaeU83dXYyUHF5V2JUYkEwd1p0UWlnR2pVLU9pejRTc2p2RjZrWUN0SmRXUHdLZVpyeGZmdlJ5M0NVN3RWRkNR?oc=5"
 ---
 
 # Record 095 · AI-Customer-Insights-How-To-Use-Them-in-Your-Business---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 AI Customer Insights: How To Use Them in Your Business - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

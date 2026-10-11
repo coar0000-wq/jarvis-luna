@@ -2,8 +2,14 @@
 title: "Record 8c13bcffc4 · From-identifying-promising-technologies-to-creating-new-business-oppor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.618899+00:00
+updated_at: 2026-10-11T00:55:37.164290+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "컴퓨터-비전", "반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/skhynix-ventures-story-4/"
+kind: "발표물"
 ---
 
 # Record 8c13bcffc4 · From-identifying-promising-technologies-to-creating-new-business-oppor
@@ -16,7 +22,3 @@ From identifying promising technologies to creating new business opportunities: 
 ▲ Chung Heejin, SVP and Head of Venture Investment at SK hynix, outlines the vision and roadmap for SK hynix Ventures at SK hynix Ventures Day in Silicon Valley last September.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.926910+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbmVxZVdhXzZVVVZoRmhVQ1E5TjhJWF9xMW5PTlZVOFBmaTRLWEp2THlKX2VHemFXdExHU2hGNUxtU0NYdmpQdnRuTkpmX25Tb1ZVUEk5U1R0TjJqcUhDeVJSd1dTUHRMWVMtRGtncTdkMjlmTU9Bbm1jOWNtVlFodzZNekV6VHJHWkd3LUpITTJ0dUxX?oc=5"
 ---
 
 # Record 565 · Sephora-and-Olive-Young-are-bringing-20-Korean-beauty-brands-to-Southe
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Sephora and Olive Young are bringing 20 Korean beauty brands to Southeast Asia - Tatler Asia
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

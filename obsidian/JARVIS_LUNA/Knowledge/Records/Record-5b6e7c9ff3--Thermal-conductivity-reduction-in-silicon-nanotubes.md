@@ -2,8 +2,14 @@
 title: "Record 5b6e7c9ff3 · Thermal-conductivity-reduction-in-silicon-nanotubes-through-phonon-loc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.326570+00:00
+updated_at: 2026-10-11T00:55:16.707569+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.nanoen.2026.112007"
+kind: "논문"
 ---
 
 # Record 5b6e7c9ff3 · Thermal-conductivity-reduction-in-silicon-nanotubes-through-phonon-loc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Thermal conductivity reduction in silicon nanotubes through phonon localization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

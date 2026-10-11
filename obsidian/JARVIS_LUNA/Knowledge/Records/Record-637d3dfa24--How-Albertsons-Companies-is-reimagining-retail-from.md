@@ -2,8 +2,14 @@
 title: "Record 637d3dfa24 · How-Albertsons-Companies-is-reimagining-retail-from-the-inside-out"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.625201+00:00
+updated_at: 2026-10-11T00:55:37.254905+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/albertsons-reimagining-retail"
+kind: "발표물"
 ---
 
 # Record 637d3dfa24 · How-Albertsons-Companies-is-reimagining-retail-from-the-inside-out
@@ -16,7 +22,3 @@ How Albertsons Companies is reimagining retail from the inside out
 Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

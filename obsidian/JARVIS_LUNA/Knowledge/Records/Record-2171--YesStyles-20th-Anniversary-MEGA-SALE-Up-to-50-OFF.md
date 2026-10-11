@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.379740+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=_FoWzpR-EPY"
 ---
 
 # Record 2171 · YesStyles-20th-Anniversary-MEGA-SALE-Up-to-50-OFF
@@ -15,7 +19,3 @@ tags: [record, real-data]
 YesStyle's 20th Anniversary MEGA SALE! Up to 50% OFF~
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

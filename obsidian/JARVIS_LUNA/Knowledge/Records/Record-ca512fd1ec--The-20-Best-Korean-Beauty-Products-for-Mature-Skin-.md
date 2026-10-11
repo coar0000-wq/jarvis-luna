@@ -2,8 +2,12 @@
 title: "Record ca512fd1ec · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.472782+00:00
+updated_at: 2026-10-11T00:55:35.042187+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0U5M3hHaVNHVmJQQkpHNWcwcUxxYWY0R2R4RFcxZ0lTQm82VUVBYmZSX3dIb2ptTWg4dmUzNi1yNEQ5NXRWbnhaMXVwd3JOdE8xVGZKdlgxenRxS2xqTnhmN2pxZ0wtSl9mTy12WEM0THNMaTU4QUFyZVotcG52c3lPWTlESUFYOFZvODFKdWRhano5Y0JjUWUySGltb2FrRjdR?oc=5"
 ---
 
 # Record ca512fd1ec · The-20-Best-Korean-Beauty-Products-for-Mature-Skin-According-to-a-K-Be
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The 20 Best Korean Beauty Products for Mature Skin, According to a K-Beauty Expert - Harper's BAZAAR
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

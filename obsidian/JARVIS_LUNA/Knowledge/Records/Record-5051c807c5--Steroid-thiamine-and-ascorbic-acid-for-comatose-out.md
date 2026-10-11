@@ -2,8 +2,14 @@
 title: "Record 5051c807c5 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.304929+00:00
+updated_at: 2026-10-11T00:55:16.322946+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.eclinm.2026.104191"
+kind: "논문"
 ---
 
 # Record 5051c807c5 · Steroid-thiamine-and-ascorbic-acid-for-comatose-out
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Steroid, thiamine, and ascorbic acid for comatose out-of-hospital cardiac arrest survivors (STAR): a randomised, placebo-controlled, phase 2 trial
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

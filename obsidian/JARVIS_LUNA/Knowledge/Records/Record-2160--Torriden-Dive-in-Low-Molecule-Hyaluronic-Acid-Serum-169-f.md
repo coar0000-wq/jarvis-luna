@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.148893+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA56625219"
 ---
 
 # Record 2160 · Torriden-Dive-in-Low-Molecule-Hyaluronic-Acid-Serum-169-fl-oz50ml
@@ -16,7 +20,3 @@ Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml)
 Torriden Dive-in Low Molecule Hyaluronic Acid Serum 1.69 fl. oz.(50ml) · 평점 5 · 리뷰 9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

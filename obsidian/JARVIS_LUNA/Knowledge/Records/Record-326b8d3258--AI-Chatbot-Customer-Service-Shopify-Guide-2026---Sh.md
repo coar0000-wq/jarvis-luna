@@ -2,8 +2,12 @@
 title: "Record 326b8d3258 · AI-Chatbot-Customer-Service-Shopify-Guide-2026---Shopify-India---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.205051+00:00
+updated_at: 2026-10-11T00:55:30.297929+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE15Nk5tLWVvRXJ6MGdMaU9lSkc3dFdUa013Z2p1YXhra1J4Rl9NMWI1N3ZKNFNlVWU1eFREOVVJVVpfdXF1bUZfQ2ZJcm0zTUhiUFRCT2dCd1R6UzZmWDRKSm1PQ1pVWk54NVZJ?oc=5"
 ---
 
 # Record 326b8d3258 · AI-Chatbot-Customer-Service-Shopify-Guide-2026---Shopify-India---Shopi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Chatbot Customer Service: Shopify Guide (2026) - Shopify India - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

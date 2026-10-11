@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.607456+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "투자은행금융"]
+org: "Goldman-Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.5917422"
 ---
 
 # Record 610 · How-To-Redesign-Frontends-Now-That-50-70-Of-UI-Is-AI-Generated-Dynamic
@@ -15,7 +20,3 @@ tags: [record, real-data]
 How To Redesign Frontends Now That 50-70% Of UI Is AI-Generated, Dynamic, Or Agent-Driven?
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

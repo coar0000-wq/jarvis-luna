@@ -2,8 +2,12 @@
 title: "Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyawa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.681610+00:00
+updated_at: 2026-10-11T00:55:53.409963+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Tresemme-A-List-Collection-Instant-Fix-Styling-Stick-Hair-Wax-Golden-Vanilla-Sandalwood-Scent-1-05oz/15641615102"
 ---
 
 # Record 73e599065a · TRESemm-Instant-Fix-Styling-Stick-for-Fixing-Flyawa
@@ -16,7 +20,3 @@ TRESemm Instant Fix Styling Stick for Fixing Flyaways & Control Frizz Stylist, A
 TRESemm Instant Fix Styling Stick for Fixing Flyaways & Control Frizz Stylist, A-List Collection Developed & Safe for All Hair Types, 1.05 oz · 평점 4.5 · 리뷰 455
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

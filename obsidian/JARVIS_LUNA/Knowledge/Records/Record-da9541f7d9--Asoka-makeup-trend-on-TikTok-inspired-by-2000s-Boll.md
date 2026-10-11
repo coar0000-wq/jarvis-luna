@@ -2,8 +2,12 @@
 title: "Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Boll"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.474984+00:00
+updated_at: 2026-10-11T00:55:35.080123+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkU0WlhNWWZaTV9rX3lQTWJkc1J2eVgtZlp3Xzkwc0FwVGRtQWlXMFlZWFdJRm5KTVFwZ1R1MldUcFlTMC02cVFaeVhvQ1NabXJ1bTZVVGZodXNSNXJVdWZtLVpwZzMwbGJmc1hQQkM4dzdmQUtNcGRYLVBuX1FLX2dvcVhCMWpNUmVtQXVMa3h0ZHl5bUNLT1JKZ2hfNENzV1A4?oc=5"
 ---
 
 # Record da9541f7d9 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Boll
@@ -15,7 +19,3 @@ tags: [record, real-data]
 'Asoka' makeup trend on TikTok inspired by 2000s Bollywood movie - NBC News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

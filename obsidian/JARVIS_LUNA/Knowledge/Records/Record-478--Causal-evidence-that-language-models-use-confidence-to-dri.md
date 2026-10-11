@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.363566+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s42256-026-01293-x"
 ---
 
 # Record 478 · Causal-evidence-that-language-models-use-confidence-to-drive-behaviour
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Causal evidence that language models use confidence to drive behaviour
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

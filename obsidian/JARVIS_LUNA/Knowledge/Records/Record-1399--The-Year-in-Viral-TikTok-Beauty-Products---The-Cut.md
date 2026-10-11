@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.392775+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbGk0RzBleFhiQ2JZYk1LSWlkUDJUdXoxVHhONE5jMU84dXM0RTdZOFo1UDFhV1lheWdxeHNBQURZdVd1NWRxMmJPUWoxdWY4ZUhGdXlUMFdOUFlZbENLVkd1QnEyUFplMzF5WktIcGV2NG90RTh6VGZkU195cWJWdmNR?oc=5"
 ---
 
 # Record 1399 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Year in Viral TikTok Beauty Products - The Cut
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

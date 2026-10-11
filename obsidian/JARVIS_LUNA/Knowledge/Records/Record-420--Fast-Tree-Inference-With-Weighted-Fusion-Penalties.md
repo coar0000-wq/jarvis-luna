@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.484806+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.1080/10618600.2015.1096789"
 ---
 
 # Record 420 · Fast-Tree-Inference-With-Weighted-Fusion-Penalties
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Fast Tree Inference With Weighted Fusion Penalties
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.262348+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcTZGVm5jdnFobWxqRGZmRmFFVEZmMDR5RWRpOC05bUx3NE84UWYxOFVsUFJ2X2ZwNGtGaHRYOG54emlkdGJfalExQ1pvelJaVkR5Y1gzdjhVbkJOQ0lZeU5tSW5TQlBqb2JvdHFzdF9xMFV6eWlNbFFCQVhxaFo2MDAydzVacWpHcjZJY0tCcDPSAZYBQVVfeXFMTWEwdXRDd0RKZ3dsMzh5ZUVzSGVFY2lSdTROV1dJMHlUMFJORXBPeHZYVUdtRjFNUXFwYk9mWGpNdFh0SlBIOUhoTWJlZnJfNDN4RkpGN09rcGJuSXN5eGFlN1FfUEg5V2J4Q09takctNktsa2ZxR3JaV1ktbnFPdVpnSnlUTFhPcElYbVh1aERwVkZ5V2FR?oc=5"
 ---
 
 # Record 390 · Beauty-fans-achieve-glass-like-skin-with-35-Korean-and-Japanese-Boots-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Beauty fans achieve 'glass-like skin' with £35 Korean and Japanese Boots edit worth £140 - Wales Online
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 81734f4b21 · Slayyyter-Brought-Dark-Roots-and-Beach-Waves-to-the-VMAs-2026See-the-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.941512+00:00
+updated_at: 2026-10-11T00:55:42.584365+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/slayyyter-dark-roots-blonde-waves-vmas-2026"
 ---
 
 # Record 81734f4b21 · Slayyyter-Brought-Dark-Roots-and-Beach-Waves-to-the-VMAs-2026See-the-P
@@ -16,7 +20,3 @@ Slayyyter Brought Dark Roots and Beach Waves to the VMAs 2026—See the Photos
 Slayyyter Brought Dark Roots and Beach Waves to the VMAs 2026—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

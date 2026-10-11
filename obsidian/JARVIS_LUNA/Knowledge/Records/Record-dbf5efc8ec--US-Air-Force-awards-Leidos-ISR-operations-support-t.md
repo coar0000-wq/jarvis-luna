@@ -2,8 +2,14 @@
 title: "Record dbf5efc8ec · US-Air-Force-awards-Leidos-ISR-operations-support-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.074770+00:00
+updated_at: 2026-10-11T00:55:28.143508+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/us-air-force-awards-leidos-isr-operations-support-task-order"
+kind: "발표물"
 ---
 
 # Record dbf5efc8ec · US-Air-Force-awards-Leidos-ISR-operations-support-t
@@ -16,7 +22,3 @@ US Air Force awards Leidos ISR operations support task order worth up to $717 mi
 RESTON, Va., July 28, 2026 /PRNewswire/ -- As global threats become more complex, contested and fast-moving, U.S. airmen need timely intelligence that is trusted and operationally relevant. Leidos &nbsp;(NYSE: LDOS) has been awarded a new task order by the U.S.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record c9ef0071d7 · FlashBoB-IO-Efficient-Exact-Backward-over-Backward-for-Softmax-Attenti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.763082+00:00
+updated_at: 2026-10-11T00:55:23.929984+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24089"
 ---
 
 # Record c9ef0071d7 · FlashBoB-IO-Efficient-Exact-Backward-over-Backward-for-Softmax-Attenti
@@ -16,7 +20,3 @@ FlashBoB: I/O-Efficient Exact Backward-over-Backward for Softmax Attention
 Transformer models built on the attention mechanism have become a central building block in modern deep learning, yet softmax attention remains a major bottleneck for long-context workloads. While FlashAttention makes the forward and first backward passes I/O-efficient, it does not support backward-over-backward (BoB), which enables exact differentiation through the backward pass for applications
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

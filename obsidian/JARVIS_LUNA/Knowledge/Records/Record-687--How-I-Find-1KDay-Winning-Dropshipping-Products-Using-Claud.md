@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.287259+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=IgkDbdcjQhk"
 ---
 
 # Record 687 · How-I-Find-1KDay-Winning-Dropshipping-Products-Using-Claude-AI-FREE-ME
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How I Find $1K/Day Winning Dropshipping Products Using Claude AI (FREE METHOD)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

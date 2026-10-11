@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.398599+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1142/s0219877026400080"
 ---
 
 # Record 606 · Certain-Investigations-on-Advanced-Signal-Processing-and-K--Medoid-Clu
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Certain Investigations on Advanced Signal Processing and K -Medoid Cluster for Faults Quality Analysis in Textile Industry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

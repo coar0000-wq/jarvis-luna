@@ -2,8 +2,12 @@
 title: "Record 80c86ab4e9 · BLOOM-WILT-Logit-Tilting-for-Behaviour-Elicitation-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.914458+00:00
+updated_at: 2026-10-11T00:55:11.387888+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31105v1"
 ---
 
 # Record 80c86ab4e9 · BLOOM-WILT-Logit-Tilting-for-Behaviour-Elicitation-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 BLOOM-WILT: Logit Tilting for Behaviour Elicitation in Automated LLM Auditing
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

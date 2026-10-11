@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.618019+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.3390/e28050500"
 ---
 
 # Record 657 · Support-Size-of-ε-Capacity-Achieving-Inputs-for-the-Amplitude-Constrai
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Support Size of ε-Capacity-Achieving Inputs for the Amplitude-Constrained AWGN Channel
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

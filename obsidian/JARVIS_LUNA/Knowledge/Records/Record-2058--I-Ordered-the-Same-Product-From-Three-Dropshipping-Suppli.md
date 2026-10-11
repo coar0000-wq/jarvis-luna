@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.846442+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/b4lFuypd0ZU"
 ---
 
 # Record 2058 · I-Ordered-the-Same-Product-From-Three-Dropshipping-Suppliers
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Ordered the Same Product From Three Dropshipping Suppliers
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

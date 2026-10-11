@@ -2,8 +2,12 @@
 title: "Record 644bfd7586 · From-Snail-Mucin-to-PDRN-10-Ingredients-That-Define"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.217819+00:00
+updated_at: 2026-10-11T00:55:30.605880+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LUmI0VzFqenBxYXlPcjlQVE4xOEVsbE8wYW4xdG1jSHRWbFQzWFZEOVRpTmN0bndubWptdUJqc3BRb2ExWUJCZmtRSVhSWDliZDN5RGhjVGhLSW1ieU45TVhMZVpKSFVYZWc?oc=5"
 ---
 
 # Record 644bfd7586 · From-Snail-Mucin-to-PDRN-10-Ingredients-That-Define
@@ -16,7 +20,3 @@ From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue
 From Snail Mucin to PDRN, 10 Ingredients That Define K-beauty - Vogue
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

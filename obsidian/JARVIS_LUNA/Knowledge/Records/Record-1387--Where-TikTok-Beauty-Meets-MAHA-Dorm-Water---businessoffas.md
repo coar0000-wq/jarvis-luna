@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.218475+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS0tzbHR2aTk0MjFhRFFJQ3B2YWlVTWRPM3hxUmsxQUF4cTY0d2hRWDdlWlVEUEFxVUkyTGFaSjF4TWRLaEZZUG53T2VMSVd5TkpTTGtMWUxDNS05eGZOM2hrdnFpbEtaeDVvZy1vN3BaLTFLbDRHM2cxOUlrV1R1TzF6THRNcnlCaEhBZkduRkQ?oc=5"
 ---
 
 # Record 1387 · Where-TikTok-Beauty-Meets-MAHA-Dorm-Water---businessoffashioncom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Where TikTok Beauty Meets MAHA: ‘Dorm Water’ - businessoffashion.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

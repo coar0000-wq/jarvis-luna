@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.986679+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=TNE6O7xciLE"
 ---
 
 # Record 2405 · Skincare-Hits--Misses-Japanese-Korean-and-Aussie-skincare
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Skincare Hits & Misses! Japanese, Korean and Aussie skincare~
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

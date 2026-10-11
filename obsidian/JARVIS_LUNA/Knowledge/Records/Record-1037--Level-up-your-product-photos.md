@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.336754+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/ajltyxKyQ1k"
 ---
 
 # Record 1037 · Level-up-your-product-photos
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Level up your product photos
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

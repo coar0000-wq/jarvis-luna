@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.061820+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YajJVT3dZbWdfdlZNMmZIYWVrQ1dTZTc2NmhDWXB6TV85MS1WWEpWcHJMWVA3OFR0N2lucVFzYzdyY3hQQklxZl9kSGdVYms2REx3MG5PRVNkTHZqb2JLZWlrLWxHVEJhNXVNYnFPUQ?oc=5"
 ---
 
 # Record 1028 · Your-Favorite-Celebritys-K-Beauty-Brand-Is-Now-at-Target---NewBeauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Your Favorite Celebrity’s K-Beauty Brand Is Now at Target - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

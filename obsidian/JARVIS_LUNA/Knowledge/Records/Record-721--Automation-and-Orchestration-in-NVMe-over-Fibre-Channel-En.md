@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.427360+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.30574/wjaets.2025.15.3.1096"
 ---
 
 # Record 721 · Automation-and-Orchestration-in-NVMe-over-Fibre-Channel-Environments-A
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Automation and Orchestration in NVMe over Fibre Channel Environments: A Comprehensive Analysis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

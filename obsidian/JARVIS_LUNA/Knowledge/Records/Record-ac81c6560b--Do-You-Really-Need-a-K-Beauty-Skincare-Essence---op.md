@@ -2,8 +2,12 @@
 title: "Record ac81c6560b · Do-You-Really-Need-a-K-Beauty-Skincare-Essence---op"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.342724+00:00
+updated_at: 2026-10-11T00:55:32.823566+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUJ6TlZBSVhxRE9CMm00cG04X0FjQUZOTkN2QzNGcUdYNmNmUldlU2hTSEVGN0xkaFhMQVRYNXNDM0lsU3RqTGpMcE1jRUZQdmVfbTNScl9zX0N6SXpySFdyam8zeThPbUMyN1I2STFBWElLWXBmTEswNm5PVC1rMHZtMC0zUQ?oc=5"
 ---
 
 # Record ac81c6560b · Do-You-Really-Need-a-K-Beauty-Skincare-Essence---op
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Do You Really Need a K-Beauty Skincare Essence? - Oprah Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

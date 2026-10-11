@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.788014+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01600v1"
 ---
 
 # Record 040 · CordisBench-Can-Language-Models-Reason-About-Component-Lifecycles-in-D
@@ -15,7 +19,3 @@ tags: [record, real-data]
 CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

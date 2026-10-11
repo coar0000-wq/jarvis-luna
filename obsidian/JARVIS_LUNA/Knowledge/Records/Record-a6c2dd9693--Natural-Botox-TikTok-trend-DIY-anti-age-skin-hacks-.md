@@ -2,8 +2,12 @@
 title: "Record a6c2dd9693 · Natural-Botox-TikTok-trend-DIY-anti-age-skin-hacks-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.393975+00:00
+updated_at: 2026-10-11T00:55:33.677983+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaDFRSFV5ZjRrQ1RmMVVSVGtwOG5RZ1VFUl9JS3R1aW5ZcW1PUXMtalgzSlR6ajI1NHh1YWRJZ29fZHlQdWRmbjYxS3JzRkNoSjZkSDBneUhISjBRd1ZPR2JWZ1hmZGpvZ25GMGpWRUxlb0lJcF9ReW81MGNySzlGa2J5NGJUVkRicFBYNkItbEk?oc=5"
 ---
 
 # Record a6c2dd9693 · Natural-Botox-TikTok-trend-DIY-anti-age-skin-hacks-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Natural Botox TikTok trend: DIY anti-age skin hacks - nss G-Club
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

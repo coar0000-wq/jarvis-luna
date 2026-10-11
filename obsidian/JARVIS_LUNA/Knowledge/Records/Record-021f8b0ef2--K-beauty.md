@@ -2,8 +2,12 @@
 title: "Record 021f8b0ef2 · K-beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.023281+00:00
+updated_at: 2026-10-11T00:55:27.611422+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "en.wikipedia.org"
+url: "https://en.wikipedia.org/wiki/K-beauty"
 ---
 
 # Record 021f8b0ef2 · K-beauty
@@ -16,7 +20,3 @@ K-beauty
 K-beauty
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.598734+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Agents"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1MaHA5dXZRekNkZHpaTW9KNmpzMGt6bjQ2aHF3TEtvWjFvLWRJSWxBNHBGRDl0RzNMQ0dYdDQxUmZEV1VhYzJ5YUxDUzBFYWR3MjdOcW9YZmpEOW12Wmc?oc=5"
 ---
 
 # Record 099 · The-agentic-commerce-platform-Shopify-connects-any-merchant-to-every-A
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The agentic commerce platform: Shopify connects any merchant to every AI conversation - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

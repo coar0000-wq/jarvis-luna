@@ -2,8 +2,12 @@
 title: "Record 679baee07b · SOHO-NYC-Anti-Aging-No-Rinse-2in1-Face-Serum--Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.891180+00:00
+updated_at: 2026-10-11T00:55:41.769741+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/8683420170045"
 ---
 
 # Record 679baee07b · SOHO-NYC-Anti-Aging-No-Rinse-2in1-Face-Serum--Mask
@@ -16,7 +20,3 @@ SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask
 SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask · SOHO N.Y.C
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

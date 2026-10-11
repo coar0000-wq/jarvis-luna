@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.757088+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/video-samsung-ai-assistant-helps-teachers-create-more-engaging-and-accessible-lessons"
 ---
 
 # Record 1662 · Video-Samsung-AI-Assistant-Helps-Teachers-Create-More-Engaging-and-Acc
@@ -16,7 +21,3 @@ tags: [record, real-data]
 Helping every student stay engaged and supported throughout a lesson requires teachers to balance instruction, interaction, and individual learning needs. Managing these different needs while maintaining lesson flow can add to a teacher’s workload. Samsung AI Assistant is a built-in app for compatible Android-based Samsung Interactive Displays that helps teachers support every stage of a […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

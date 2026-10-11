@@ -2,8 +2,12 @@
 title: "Record 73a678434d · C2FXNet-Coarse-to-Fine-Scene-Expert-for-Unified-Object-Detection-acros"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.780388+00:00
+updated_at: 2026-10-11T00:55:24.172531+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.25693"
 ---
 
 # Record 73a678434d · C2FXNet-Coarse-to-Fine-Scene-Expert-for-Unified-Object-Detection-acros
@@ -16,7 +20,3 @@ C2FXNet: Coarse-to-Fine Scene Expert for Unified Object Detection across Adverse
 Object detection in adverse weather remains challenging because severe degradations weaken visual quality and disrupt semantic feature representations across diverse scenes. Existing methods usually rely on condition-specific designs, which limits their ability to generalize within a unified detector. In this paper, we propose a Coarse-to-Fine Scene Expert Network (C2FXNet) that achieves unified d
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

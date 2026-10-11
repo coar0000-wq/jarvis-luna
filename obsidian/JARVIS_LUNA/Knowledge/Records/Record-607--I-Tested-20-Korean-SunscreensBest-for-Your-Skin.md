@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.142012+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/IfiDSvICaIM"
 ---
 
 # Record 607 · I-Tested-20-Korean-SunscreensBest-for-Your-Skin
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 I Tested 20 Korean Sunscreens—Best for Your Skin
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 19dc3f63dc · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Eve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.728493+00:00
+updated_at: 2026-10-11T00:55:54.436797+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Vb9-z4UGmkU"
 ---
 
 # Record 19dc3f63dc · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Eve
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude AI Dropshipping Live Stream (I’m Revealing Everything)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

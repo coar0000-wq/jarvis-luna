@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.811952+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/cyborg-rescue-roach"
 ---
 
 # Record 2143 · Cyborg-Roaches-Can-Stab-You-With-Needles
@@ -16,7 +20,3 @@ Cyborg Roaches Can Stab You With Needles
 <img src="https://spectrum.ieee.org/media-library/large-brown-cockroach-fitted-with-an-electronic-device-and-wires-on-its-back.jpg?id=67724302&width=1245&height=700&coordinates=0%2C62%2C0%2C63"/><br/><br/><p>Imagine you are trapped under rubble after an earthquake and you see an electronics-covered cockroach with a spring-loaded needle on its back scuttling toward you. Although the sight might be
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

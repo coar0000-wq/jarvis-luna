@@ -2,8 +2,12 @@
 title: "Record e945b792c9 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.380289+00:00
+updated_at: 2026-10-11T00:55:33.415821+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUlB3RlJGZEduVnB6ODBCWEVVcVpYa1RuOE9xR1QwMFNEaGYzUFVUYnQwZE14RV93akRrLTdUU1NtTVZKc0NBOXZYTDZURW1iNVlKTXQ0VS1KajBMZHU2VjNVd1VLbmRQd0NhRURHaF9paWNTZThha0hRdTM3VXJ6OEZqQlRsbFJ0ajlLTQ?oc=5"
 ---
 
 # Record e945b792c9 · Beetlejuice-lips-are-the-latest-TikTok-beauty-trend
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Beetlejuice lips are the latest TikTok beauty trend urging Gen Z to embrace their natural looks - SCREENSHOT Media
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 97b26c6990 · Revisiting-the-generalized-first-order-reset-elemen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.685340+00:00
+updated_at: 2026-10-11T00:55:38.303116+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7165817381"
+kind: "논문"
 ---
 
 # Record 97b26c6990 · Revisiting-the-generalized-first-order-reset-elemen
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Revisiting the generalized first-order reset element with shaping filters
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

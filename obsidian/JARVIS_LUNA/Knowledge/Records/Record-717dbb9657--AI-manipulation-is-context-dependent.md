@@ -2,8 +2,14 @@
 title: "Record 717dbb9657 · AI-manipulation-is-context-dependent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.532007+00:00
+updated_at: 2026-10-11T00:55:20.297416+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-11011902/v1"
+kind: "논문"
 ---
 
 # Record 717dbb9657 · AI-manipulation-is-context-dependent
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AI manipulation is context-dependent
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.074848+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/browse/beauty/1085666"
 ---
 
 # Record 2159 · Walmart-Beauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Walmart Beauty
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

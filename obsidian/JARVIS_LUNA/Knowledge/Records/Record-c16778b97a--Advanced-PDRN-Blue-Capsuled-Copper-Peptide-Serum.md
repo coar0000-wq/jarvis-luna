@@ -2,8 +2,12 @@
 title: "Record c16778b97a · Advanced-PDRN-Blue-Capsuled-Copper-Peptide-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.616935+00:00
+updated_at: 2026-10-11T00:55:52.423125+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/advanced-pdrn-blue-capsuled-copper-peptide-serum-pimprod2062164"
 ---
 
 # Record c16778b97a · Advanced-PDRN-Blue-Capsuled-Copper-Peptide-Serum
@@ -16,7 +20,3 @@ Advanced PDRN Blue Capsuled Copper Peptide Serum
 Advanced PDRN Blue Capsuled Copper Peptide Serum · Dr.Reju-All · $24.9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

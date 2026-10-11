@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.108800+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvZVJLTGhTTTlYek85RTF1Z0I2eGNYVkRES0ZBR241ZFFneHhYejVhTjN1WFdQQWZlWnR2bE1XYjRUTzd2YTc3US1CZEFtT3RJUWpteEVCTVZnRzcyX1JTSFJPWkpERkxPSjNqMTh0bkE3UVVsMHJFM1lB?oc=5"
 ---
 
 # Record 1417 · This-is-where-were-shopping-for-those-hard-to-find-K-beauty-buys---EVO
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This is where we're shopping for those hard-to-find K-beauty buys - EVOKE
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

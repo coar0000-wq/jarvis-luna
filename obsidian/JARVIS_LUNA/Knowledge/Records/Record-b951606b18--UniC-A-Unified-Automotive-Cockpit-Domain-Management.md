@@ -2,8 +2,14 @@
 title: "Record b951606b18 · UniC-A-Unified-Automotive-Cockpit-Domain-Management-System-for-Enhance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.482466+00:00
+updated_at: 2026-10-11T00:55:19.539649+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3845618"
+kind: "논문"
 ---
 
 # Record b951606b18 · UniC-A-Unified-Automotive-Cockpit-Domain-Management-System-for-Enhance
@@ -15,7 +21,3 @@ tags: [record, real-data]
 UniC: A Unified Automotive Cockpit Domain Management System for Enhanced In-vehicle Infotainment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

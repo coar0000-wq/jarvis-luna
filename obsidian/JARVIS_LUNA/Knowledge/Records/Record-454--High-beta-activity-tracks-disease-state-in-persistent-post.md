@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.501738+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1177/09574271261471781"
 ---
 
 # Record 454 · High-beta-activity-tracks-disease-state-in-persistent-postural-percept
@@ -15,7 +20,3 @@ tags: [record, real-data]
 High beta activity tracks disease state in persistent postural-perceptual dizziness: A longitudinal quantitative EEG study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

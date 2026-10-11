@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.366318+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06476v1"
 ---
 
 # Record 188 · One-MLLM-One-Call-Efficient-Zero-Shot-Vision-and-Language-Navigation-v
@@ -15,7 +19,3 @@ tags: [record, real-data]
 One MLLM, One Call: Efficient Zero-Shot Vision-and-Language Navigation via Spatial-Aware Waypoints
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

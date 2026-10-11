@@ -2,8 +2,14 @@
 title: "Record b2ddbbaa54 · Introducing-physics-AI-at-Mistral-the-foundation-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.091129+00:00
+updated_at: 2026-10-11T00:55:28.391747+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/introducing-physics-ai-at-mistral/"
+kind: "발표물"
 ---
 
 # Record b2ddbbaa54 · Introducing-physics-AI-at-Mistral-the-foundation-fo
@@ -16,7 +22,3 @@ Introducing physics AI at Mistral: the foundation for engineering acceleration.
 A new class of AI models that predict the behavior of physical systems, powering the engineers and hardware products of tomorrow.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

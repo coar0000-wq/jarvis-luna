@@ -2,8 +2,14 @@
 title: "Record 3955f342ea · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.939262+00:00
+updated_at: 2026-10-11T00:55:26.167971+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.19074096"
+kind: "논문"
 ---
 
 # Record 3955f342ea · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Enabling Zero-Downtime Maintenance And Dynamic Load Balancing Through Intelligent Workload Migration In Enterprise Data Centers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

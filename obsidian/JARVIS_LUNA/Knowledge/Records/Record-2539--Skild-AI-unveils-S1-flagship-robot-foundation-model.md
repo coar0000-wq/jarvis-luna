@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.903529+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/"
 ---
 
 # Record 2539 · Skild-AI-unveils-S1-flagship-robot-foundation-model
@@ -16,7 +20,3 @@ Skild AI unveils S1 flagship robot foundation model
 <p>Skild AI says its S1 robot foundation model enables robots to learn new tasks just by seeing a video of it being performed.</p> <p>The post <a href="https://www.therobotreport.com/skild-ai-unveils-s1-flagship-robot-foundation-model/">Skild AI unveils S1 flagship robot foundation model</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

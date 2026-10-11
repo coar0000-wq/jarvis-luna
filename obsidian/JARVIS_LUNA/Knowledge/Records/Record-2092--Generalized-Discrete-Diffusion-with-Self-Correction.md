@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.699754+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7133570985"
 ---
 
 # Record 2092 · Generalized-Discrete-Diffusion-with-Self-Correction
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Generalized Discrete Diffusion with Self-Correction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

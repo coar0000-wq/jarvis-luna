@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.025637+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OU1FQdkt2SVEyekFhbEE0RTZrM19NQVF2MjZ1NHVOZl9tbTBMN1ZtVDhubHBQZTFMLW1CQUR4RG5MdC1WRXR1Z0xESUxzMU4xQ2Q0TGNBWVEtSzFBbnJBRWtlOWJFU1FCWjFJTUJVRFBoN09tNEM3QWI1TDVSSUU?oc=5"
 ---
 
 # Record 242 · The-Best-Korean-Skin-Care-Products---The-New-York-Times
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The Best Korean Skin-Care Products - The New York Times
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

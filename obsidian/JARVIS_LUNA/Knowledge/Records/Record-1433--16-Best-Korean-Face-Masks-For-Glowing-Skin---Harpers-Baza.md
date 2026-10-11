@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.174787+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcFh1YlVKdFA2bF90SExtUmN4aUxyaDJwdjVHTTU1WUJPYVdBRnlEYTNYT01helQ1RHpXaFByVlYxQ09vd2ZTSVJhZkEtWU9mN2dlN0tkRDBIZXFCaDRhTDBBR1RRemVrMmpRZkZ1bU0zaWdKMF91UlJGUEpYQWxpMjNRSUNhTUJOV2E5bE1KNkxvUQ?oc=5"
 ---
 
 # Record 1433 · 16-Best-Korean-Face-Masks-For-Glowing-Skin---Harpers-Bazaar-Singapore
@@ -15,7 +19,3 @@ tags: [record, real-data]
 16 Best Korean Face Masks For Glowing Skin - Harper's Bazaar Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record ea0a6e1eb6 · Cosmetics-Business-reveals-the-top-5-K-beauty-trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.335229+00:00
+updated_at: 2026-10-11T00:55:32.675784+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2dNaGRXSUVOa1doWFc4eHo5OVUtZ091ZjNnWFEwbUc1YUdpMURUdXJVZkdpVlg5azZhb1QxWHZyT1JDQ190OVg1eFFUb3RBS0ZTSGJmc0tfdm92MEZTelg5SXVwRjViRmNqT2IzQkdkTzlYcmh5dUhRZjZoa2pxVzEwNA?oc=5"
 ---
 
 # Record ea0a6e1eb6 · Cosmetics-Business-reveals-the-top-5-K-beauty-trend
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Cosmetics Business reveals the top 5 K-beauty trends of 2026 in new report - Cosmetics Business
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

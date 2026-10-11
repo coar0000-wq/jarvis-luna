@@ -2,8 +2,12 @@
 title: "Record 37483060b6 · PointEvent-Rethinking-Event-based-Tiny-Object-Detection-via-Serialized"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.144856+00:00
+updated_at: 2026-10-11T00:55:14.148174+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.20066"
 ---
 
 # Record 37483060b6 · PointEvent-Rethinking-Event-based-Tiny-Object-Detection-via-Serialized
@@ -16,7 +20,3 @@ PointEvent: Rethinking Event-based Tiny Object Detection via Serialized Motion E
 Event cameras offer high temporal resolution and motion sensitivity for tiny UAV detection, yet distant targets generate sparse and fragmented events that are easily overwhelmed by clutter and ego-motion. Existing methods mainly rely on dense event representations or local sparse spatiotemporal modeling, resulting in redundant computation or fragmented modeling of motion continuity across distant
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

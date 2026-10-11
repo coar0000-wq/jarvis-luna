@@ -2,8 +2,14 @@
 title: "Record 2227dbd857 · Us-Tariffs-Research-Roundtable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.526866+00:00
+updated_at: 2026-10-11T00:55:50.789907+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/us-tariffs-research-roundtable"
+kind: "발표물"
 ---
 
 # Record 2227dbd857 · Us-Tariffs-Research-Roundtable
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Us Tariffs Research Roundtable
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

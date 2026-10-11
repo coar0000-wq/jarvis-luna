@@ -2,8 +2,12 @@
 title: "Record 2cd2fcb023 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.377132+00:00
+updated_at: 2026-10-11T00:55:33.368422+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxNekgzdXJKTm54aDlKUWp0VDhySFFjQjdfb2xBcXpwUm42RERZS1EzZUhGc2N5LUF4emlZSFUyRHRvTnNsNEtPNVQ5V0FaaThKTnk2cnhSOEQ2bFRQd1VlNGhnY1oyeHRoNWJ3VzdjX3NXVjA0RTFjdEVsVkRRVUNoTGZOTWEtcUl6MGNOcA?oc=5"
 ---
 
 # Record 2cd2fcb023 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Full List of Beauty Trends on The TikTok App - The Villanovan
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

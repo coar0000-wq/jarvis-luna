@@ -2,8 +2,14 @@
 title: "Record 246f9c598b · Achievements-and-Future-Directions-IEEE-Computer-So"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.433941+00:00
+updated_at: 2026-10-11T00:55:18.697352+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.1109/mc.2025.3619683"
+kind: "논문"
 ---
 
 # Record 246f9c598b · Achievements-and-Future-Directions-IEEE-Computer-So
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Achievements and Future Directions: IEEE Computer Society 2025 Reflection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

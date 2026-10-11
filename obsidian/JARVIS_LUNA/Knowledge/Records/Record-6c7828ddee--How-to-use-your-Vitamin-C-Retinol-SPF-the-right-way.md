@@ -2,8 +2,12 @@
 title: "Record 6c7828ddee · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.697400+00:00
+updated_at: 2026-10-11T00:55:53.755452+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/PaHbgC888qQ"
 ---
 
 # Record 6c7828ddee · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to use your Vitamin C, Retinol, SPF the right way for the best way to age gracefully🍋#antiaging
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

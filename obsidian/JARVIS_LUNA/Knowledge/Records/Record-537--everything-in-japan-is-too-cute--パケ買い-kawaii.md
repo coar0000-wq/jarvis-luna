@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.073938+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/OFFV5Cxcr6g"
 ---
 
 # Record 537 · everything-in-japan-is-too-cute--パケ買い-kawaii
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 everything in japan is too cute 🫪💗 #パケ買い #kawaii
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

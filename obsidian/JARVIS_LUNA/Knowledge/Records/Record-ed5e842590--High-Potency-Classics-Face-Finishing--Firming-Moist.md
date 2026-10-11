@@ -2,8 +2,12 @@
 title: "Record ed5e842590 · High-Potency-Classics-Face-Finishing--Firming-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.637514+00:00
+updated_at: 2026-10-11T00:55:52.704494+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/high-potency-classics-face-finishing-firming-moisturizer-xlsImpprod19011039"
 ---
 
 # Record ed5e842590 · High-Potency-Classics-Face-Finishing--Firming-Moisturizer
@@ -16,7 +20,3 @@ High Potency Classics Face Finishing & Firming Moisturizer
 High Potency Classics Face Finishing & Firming Moisturizer · Perricone MD · $75
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

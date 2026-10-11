@@ -2,8 +2,14 @@
 title: "Record cbabf16c71 · Sentiment-driven-factor-timing-applying-news-sentim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.394395+00:00
+updated_at: 2026-10-11T00:55:17.973812+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1080/23322039.2026.2665545"
+kind: "논문"
 ---
 
 # Record cbabf16c71 · Sentiment-driven-factor-timing-applying-news-sentim
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Sentiment-driven factor timing: applying news sentiment to Fama-French factors
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

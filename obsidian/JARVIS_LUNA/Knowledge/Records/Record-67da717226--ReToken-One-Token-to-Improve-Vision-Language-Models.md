@@ -2,8 +2,14 @@
 title: "Record 67da717226 · ReToken-One-Token-to-Improve-Vision-Language-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.704467+00:00
+updated_at: 2026-10-11T00:55:38.669705+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "컴퓨터-비전", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7172172562"
+kind: "논문"
 ---
 
 # Record 67da717226 · ReToken-One-Token-to-Improve-Vision-Language-Models
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ReToken: One Token to Improve Vision-Language Models for Visual Retrieval
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.500829+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.1161/circep.125.014684"
 ---
 
 # Record 448 · Genotype-Specific-Electrophysiological-Remodeling-in-PLN-R14del-Cardio
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Genotype-Specific Electrophysiological Remodeling in PLN R14del Cardiomyopathy: Implications for Precision Antiarrhythmic Therapy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.256974+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/kIei7ZESkEQ"
 ---
 
 # Record 2278 · Whats-new-with-Sidekick
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What’s new with Sidekick?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

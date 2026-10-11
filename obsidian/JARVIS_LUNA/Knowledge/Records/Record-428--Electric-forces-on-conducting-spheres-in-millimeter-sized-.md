@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.411419+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.elstat.2026.104344"
 ---
 
 # Record 428 · Electric-forces-on-conducting-spheres-in-millimeter-sized-high-voltage
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Electric forces on conducting spheres in millimeter sized high-voltage gaps
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

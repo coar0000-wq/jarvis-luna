@@ -2,8 +2,12 @@
 title: "Record b5acd84a1c · Canonical-Color-as-a-Lens-into-Concept-Decodability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.012411+00:00
+updated_at: 2026-10-11T00:55:12.553985+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09124v1"
 ---
 
 # Record b5acd84a1c · Canonical-Color-as-a-Lens-into-Concept-Decodability
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

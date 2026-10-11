@@ -2,8 +2,14 @@
 title: "Record 3dec84879b · Retrieval-Augmented-Interpretable-Learning-Towards-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.698458+00:00
+updated_at: 2026-10-11T00:55:38.553069+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "openalex.org"
+url: "https://openalex.org/W7170112025"
+kind: "논문"
 ---
 
 # Record 3dec84879b · Retrieval-Augmented-Interpretable-Learning-Towards-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

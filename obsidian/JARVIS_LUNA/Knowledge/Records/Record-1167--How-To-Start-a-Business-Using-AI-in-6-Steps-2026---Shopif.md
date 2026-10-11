@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.069259+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE9UZTVuUlk1dVl5RncyX3cxeDBhZC0xeW5URWtJTzk4QWc3bjNfRGxIbm52M0lSNHp0QVNRbGtZN0ZuNDFlZEI3NHpVel82LUVfdlFhN1JjQXlBVjVjeVRFQjhrYTIzNXlyZDdwc1dSU0F4Zw?oc=5"
 ---
 
 # Record 1167 · How-To-Start-a-Business-Using-AI-in-6-Steps-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How To Start a Business Using AI in 6 Steps (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

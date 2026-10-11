@@ -2,8 +2,12 @@
 title: "Record 588ded0b9c · Shopify-Stock-Draws-Bullish-Wall-Street-As-AI-Story"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.263832+00:00
+updated_at: 2026-10-11T00:55:31.336710+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VWGlYYTRvTHo0Zm9RSGQwSzV5dHBHTUNWZm5PbFYtWlg3Z1RYb1VuZExDTWhtV1BPV1d4LVFaRDIzbXZuN0hYdGhxYjByMWZ2RllMd3I2T3J3S19iOTh0THFraUQ1VnFDTXZLamRuS2hSemtN?oc=5"
 ---
 
 # Record 588ded0b9c · Shopify-Stock-Draws-Bullish-Wall-Street-As-AI-Story
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify Stock Draws Bullish Wall Street As AI Story Accelerates - StocksToTrade
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

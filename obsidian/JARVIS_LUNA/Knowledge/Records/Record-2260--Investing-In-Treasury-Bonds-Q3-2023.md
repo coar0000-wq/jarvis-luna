@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.581368+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/investing-in-treasury-bonds-Q3-2023"
 ---
 
 # Record 2260 · Investing-In-Treasury-Bonds-Q3-2023
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Investing In Treasury Bonds Q3 2023
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record dd4edb0af1 · Prime-Day-The-Soothing-Toner-Thats-Gone-Viral-for-Instant-Redness-Reli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.274261+00:00
+updated_at: 2026-10-11T00:55:31.506724+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0TXdQNUtJTm1FMlBLR2ZtRTF0RDA5QjJqM3FuNENyZm9sU3NJb2pVYzhaZ0xSckpIOHBNRlJmTERjd0E2TGphTlhJb3p1V0prc19YenBRVmk1d095SzZ6SXZEdTRSSWd5MWpTNDVud1JXUWZqX3c?oc=5"
 ---
 
 # Record dd4edb0af1 · Prime-Day-The-Soothing-Toner-Thats-Gone-Viral-for-Instant-Redness-Reli
@@ -16,7 +20,3 @@ Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Reli
 Prime Day: The Soothing Toner That’s Gone Viral for ‘Instant’ Redness Relief is $14 - NewBeauty
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

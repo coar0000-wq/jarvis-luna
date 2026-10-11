@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.310721+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/lkKhNskGVrs"
 ---
 
 # Record 2238 · 이중세안-할까-말까
@@ -15,7 +19,3 @@ tags: [record, real-data]
 이중세안 할까 말까?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

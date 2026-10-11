@@ -2,8 +2,12 @@
 title: "Record 9a8bc31438 · What-should-I-pack-for-an-overseas-trip-Five-skincare-essentials-found"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.327036+00:00
+updated_at: 2026-10-11T00:55:32.526767+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRENtUHBOaTdobXRyd3l1eWRXYlZhTjhzQURPUVVRVF8xS3pRVTZ0cWJjbDg2NVE0bmZienBsdnJmLUlUNUZyZUJmdDkwbV9iY3RUTEFGX0k2NUVUZDI3WmNwbGZjb1kwQllRejhidzdVN2QzWjJJeDB2REdfSEF1NUVR?oc=5"
 ---
 
 # Record 9a8bc31438 · What-should-I-pack-for-an-overseas-trip-Five-skincare-essentials-found
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "What should I pack for an overseas trip?" Five skincare essentials found in LE SSERAFIM member Hong Eunchae's pouch - 스포츠조선
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

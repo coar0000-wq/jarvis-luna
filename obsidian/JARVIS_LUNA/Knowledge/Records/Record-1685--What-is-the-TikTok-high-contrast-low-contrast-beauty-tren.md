@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.364319+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMHhCZDluNGFNZFhYOHoxZWhGTHZ6a25pZFVQMmJYdmw2dUctRTctdmZWLTJFSnhqM2M4bmdDTjEwMlVTdTBmcTZlcFhHVHFFQlYtQ0JqVFBQTHZnVnpnWENIektwYTMzcGlucEZTOWpOckFxNGYyejlldm56MjR5OVBlZUkzRXh3NmJ3NURBN2RtV2tVejlEOXd1aVhZd2pvSU1R?oc=5"
 ---
 
 # Record 1685 · What-is-the-TikTok-high-contrast-low-contrast-beauty-trend-A-makeup-ar
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is the TikTok high contrast, low contrast beauty trend? A makeup artist explains - Cosmopolitan
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

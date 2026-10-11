@@ -2,8 +2,12 @@
 title: "Record 0e763794bb · Savonnettes-extra-douces-Verveine-Citron"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.881177+00:00
+updated_at: 2026-10-11T00:55:41.565659+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3549620005028"
 ---
 
 # Record 0e763794bb · Savonnettes-extra-douces-Verveine-Citron
@@ -16,7 +20,3 @@ Savonnettes extra douces Verveine Citron
 Savonnettes extra douces Verveine Citron · Le Petit Olivier
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

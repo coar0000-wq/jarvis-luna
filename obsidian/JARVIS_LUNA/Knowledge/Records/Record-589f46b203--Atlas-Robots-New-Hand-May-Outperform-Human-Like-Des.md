@@ -2,8 +2,12 @@
 title: "Record 589f46b203 · Atlas-Robots-New-Hand-May-Outperform-Human-Like-Designs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.748798+00:00
+updated_at: 2026-10-11T00:55:39.413391+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/robust-robot-hand"
 ---
 
 # Record 589f46b203 · Atlas-Robots-New-Hand-May-Outperform-Human-Like-Designs
@@ -16,7 +20,3 @@ Atlas Robot’s New Hand May Outperform Humanlike Designs
 <img src="https://spectrum.ieee.org/media-library/close-up-of-a-robotic-hand-with-three-fingers-and-a-thumb-making-a-gesture-similar-to-the-sign-of-the-horns.jpg?id=67879402&width=1245&height=700&coordinates=0%2C260%2C0%2C261"/><br/><br/><p><span>Today, </span><a href="https://bostondynamics.com/" target="_blank">Boston Dynamics</a><span> is <a href="https://bostondynamics.com/blog/robot-hands-for
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

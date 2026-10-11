@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.111060+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "의료바이오", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1093/ntr/ntag188"
 ---
 
 # Record 374 · Smoking-and-vaping-trends-among-active-duty-US-Navy-and-Marine-Corps-p
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Smoking and vaping trends among active-duty U.S. Navy and Marine Corps personnel: results from the Annual Periodic Health Assessment, 2017-2021
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[의료바이오]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

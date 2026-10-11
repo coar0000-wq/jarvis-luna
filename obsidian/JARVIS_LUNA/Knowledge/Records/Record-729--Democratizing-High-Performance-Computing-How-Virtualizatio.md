@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.494680+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18813141"
 ---
 
 # Record 729 · Democratizing-High-Performance-Computing-How-Virtualization-and-Worklo
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Democratizing High-Performance Computing: How Virtualization and Workload Mobility Enable AI/ML Accessibility Across Organizations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.315872+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ1B2QmlRT0pwNERrRmJITGVQQmdyX0wycDlRR0twZXRMOWRkS0J4YXp3cGN4X2xLSzZVUnVFelYyWDFNbzR0dWRKcXVkTlV4YXlFMVQzLWpDMlJhU0tPY2xCXy13LWV4T092eElRY2ZOSEl1M2gwZWxzcDZoOFE2dXJ4Y2xaZTduZVlLYVdNR1lvOHFMd3lZdEJkei1wOEFEZGdKOUZORGc4QQ?oc=5"
 ---
 
 # Record 724 · The-latest-fleeting-TikTok-beauty-trend-Looking-tired---KESQ
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 The latest fleeting TikTok beauty trend? Looking tired - KESQ
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

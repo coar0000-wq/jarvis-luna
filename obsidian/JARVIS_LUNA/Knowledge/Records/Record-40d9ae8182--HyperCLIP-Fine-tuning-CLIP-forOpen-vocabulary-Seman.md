@@ -2,8 +2,12 @@
 title: "Record 40d9ae8182 · HyperCLIP-Fine-tuning-CLIP-forOpen-vocabulary-Semantic-Segmentation-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.172792+00:00
+updated_at: 2026-10-11T00:55:14.476438+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.24564"
 ---
 
 # Record 40d9ae8182 · HyperCLIP-Fine-tuning-CLIP-forOpen-vocabulary-Semantic-Segmentation-in
@@ -16,7 +20,3 @@ HyperCLIP++: Fine-tuning CLIP forOpen-vocabulary Semantic Segmentation in Hyperb
 CLIP, a foundational vision-language model, has emerged as a powerful tool for open-vocabulary semantic segmentation. While freezing CLIP's text encoder is known to preserve its generalization capability, recent studies show that fine-tuning both CLIP's text and image encoders jointly significantly enhances segmentation performance, especially for classes from open sets. In this work, we explain t
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

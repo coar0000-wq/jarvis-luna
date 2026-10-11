@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.826529+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uUnB6N25PeXVHcEk4US1vOXpMZXFaR2lTdlk1WHhBZ3Z6RHB1OFVNaUt0SFpnZmt2VjZDS3NWTTg4N191NGZETXVqcE5mcFBSZUZhUlJvNTcwVmFJMXZNd2ZlajMwcHlycXc?oc=5"
 ---
 
 # Record 1244 · The-11-Best-Korean-Skincare-Brands-Worth-Your-Money-According-to-a-Kor
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The 11 Best Korean Skincare Brands Worth Your Money, According to a Korean Beauty Editor Who’s Tried It All - PureWow
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.858277+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1080/14702436.2023.2279626"
 ---
 
 # Record 340 · Strategy-technology-industry-and-politics-challenges-for-the-21-st-Cha
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Strategy, technology, industry and politics: challenges for the 21 st Chairman of the Joint Chiefs of Staff
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

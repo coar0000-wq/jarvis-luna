@@ -2,8 +2,14 @@
 title: "Record 7d2a08e132 · CAVEAT-Towards-Robust-Computer-Use-Agents-in-Incentive-Misaligned-Envi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.713506+00:00
+updated_at: 2026-10-11T00:55:38.857778+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Microsoft"
+domain: "openalex.org"
+url: "https://openalex.org/W7214406017"
+kind: "논문"
 ---
 
 # Record 7d2a08e132 · CAVEAT-Towards-Robust-Computer-Use-Agents-in-Incentive-Misaligned-Envi
@@ -15,7 +21,3 @@ tags: [record, real-data]
 CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

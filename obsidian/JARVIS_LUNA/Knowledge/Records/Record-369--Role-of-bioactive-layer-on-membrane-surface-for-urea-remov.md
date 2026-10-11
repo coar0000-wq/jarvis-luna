@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.333772+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.desal.2026.120627"
 ---
 
 # Record 369 · Role-of-bioactive-layer-on-membrane-surface-for-urea-removal-in-A2O-MB
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Role of bioactive layer on membrane surface for urea removal in A2O-MBR under varying operating conditions for ultrapure water production
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

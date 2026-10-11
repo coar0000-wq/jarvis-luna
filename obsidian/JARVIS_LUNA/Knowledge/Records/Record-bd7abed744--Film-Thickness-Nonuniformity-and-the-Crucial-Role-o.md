@@ -2,8 +2,14 @@
 title: "Record bd7abed744 · Film-Thickness-Nonuniformity-and-the-Crucial-Role-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.265667+00:00
+updated_at: 2026-10-11T00:55:15.794305+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1002/pssa.70456"
+kind: "논문"
 ---
 
 # Record bd7abed744 · Film-Thickness-Nonuniformity-and-the-Crucial-Role-o
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Film Thickness Nonuniformity and the Crucial Role of Water Dosage for Atomic Layer Deposition of Yttrium Oxide
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

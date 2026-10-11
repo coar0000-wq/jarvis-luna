@@ -2,8 +2,14 @@
 title: "Record 518e1d3c6a · Inoculation-Midtraining-with-Learned-Neologisms"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.711064+00:00
+updated_at: 2026-10-11T00:55:38.812187+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "openalex.org"
+url: "https://openalex.org/W7213373135"
+kind: "논문"
 ---
 
 # Record 518e1d3c6a · Inoculation-Midtraining-with-Learned-Neologisms
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Inoculation Midtraining with Learned Neologisms
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

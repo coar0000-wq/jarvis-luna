@@ -2,8 +2,12 @@
 title: "Record 65816732a9 · Guava-Girl-Summer-is-this-seasons-mood-boosting-bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.296917+00:00
+updated_at: 2026-10-11T00:55:31.976361+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2YjBTblJDY1ppTkRkU2NvckVDbzBBbTJDbUtfdjN2eS02ZU5IS01QbmFzZV9UUmdTNkotejhqb0xjOWd1cTJRZlp5RFdlRUVZZFA1aU1KeFhSd2NpX0Y0ckduNGNqd3pvQWcyT0p5RmxTN1BaVWNvOHVB?oc=5"
 ---
 
 # Record 65816732a9 · Guava-Girl-Summer-is-this-seasons-mood-boosting-bea
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Guava Girl Summer is this season's mood-boosting beauty trend - CBC
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 39cde32b18 · Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.254840+00:00
+updated_at: 2026-10-11T00:55:31.212064+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE43VlM4eGFRUkp5QXVQc1ZKUjVsbURrTFJDREItX2htRXlwaXZyU1hKTWp3dS1qbF9rM1hjblFTc1Q2ZlBFNVE3TGxLNmMtR1N5TGxEMjROTGtqOXc1LUZoempJTHVFRG5GVjRLZ3pPbV9yQQ?oc=5"
 ---
 
 # Record 39cde32b18 · Unhinged-or-Inspired-Experts-Weigh-in-on-TikToks-Wi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Unhinged or Inspired? Experts Weigh in on TikTok’s Wildest Beauty Tips - Marie Claire UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

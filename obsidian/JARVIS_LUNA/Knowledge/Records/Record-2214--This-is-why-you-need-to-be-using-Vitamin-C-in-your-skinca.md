@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.518413+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/f60sSXFgWEg"
 ---
 
 # Record 2214 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincare-routine
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This is why you need to be using Vitamin C in your skincare routine!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.347460+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03760v1"
 ---
 
 # Record 093 · Virtual-Testing-of-Automated-Driving-Systems-through-Credible-Simulati
@@ -16,7 +20,3 @@ Virtual Testing of Automated Driving Systems through Credible Simulations
 Simulation is increasingly used to support safety-related decision-making in road transport, particularly for the assessment and approval of automated driving systems (ADS). The complexity of ADS behavior and size of their operational design domains make exclusive reliance on physical testing impractical, leading to extensive use of virtual testing (VT) during the approval phase. This shift raises
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

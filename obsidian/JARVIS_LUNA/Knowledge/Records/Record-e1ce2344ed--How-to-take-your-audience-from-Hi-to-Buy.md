@@ -2,8 +2,12 @@
 title: "Record e1ce2344ed · How-to-take-your-audience-from-Hi-to-Buy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.769870+00:00
+updated_at: 2026-10-11T00:55:55.161903+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/FcsakJ0mdrY"
 ---
 
 # Record e1ce2344ed · How-to-take-your-audience-from-Hi-to-Buy
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to take your audience from "Hi!" to "Buy!"
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

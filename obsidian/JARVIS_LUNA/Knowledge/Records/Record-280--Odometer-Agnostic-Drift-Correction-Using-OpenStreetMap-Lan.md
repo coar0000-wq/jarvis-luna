@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.384906+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10336v1"
 ---
 
 # Record 280 · Odometer-Agnostic-Drift-Correction-Using-OpenStreetMap-Lane-Geometry
@@ -16,7 +20,3 @@ Odometer-Agnostic Drift Correction Using OpenStreetMap Lane Geometry
 Despite significant progress in odometry estimation, long-term drift remains a fundamental limitation of incremental pose integration, especially in large-scale or loop-free environments. Existing map-assisted methods can reduce drift, but often depend on dense maps, sensor-specific processing, or complex matching pipelines. We propose a lightweight open-source, odometry-agnostic correction method
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

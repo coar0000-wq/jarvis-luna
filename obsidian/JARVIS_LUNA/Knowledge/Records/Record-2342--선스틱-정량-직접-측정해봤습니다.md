@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.124308+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/jqMFVlgmRC0"
 ---
 
 # Record 2342 · 선스틱-정량-직접-측정해봤습니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선스틱 정량, 직접 측정해봤습니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

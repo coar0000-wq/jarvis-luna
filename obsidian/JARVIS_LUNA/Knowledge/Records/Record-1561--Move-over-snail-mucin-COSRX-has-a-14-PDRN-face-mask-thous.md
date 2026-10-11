@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.141263+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbGs2eXllX0pHUzVteGw1TG10Y0dLVlFEdWhCX3doTWJzV25MTVZEbXBvUzhtZTktMUVhU21FRW5ucXQzeXJycExyTWxMNzZyV2M3cVdOTllsR2k0ZlhoUkhkV2Q2aVJfQUxPS2RkU2doSHJQVkNMNFROcHpBOGx1VnBZN2NRVkFsc25R?oc=5"
 ---
 
 # Record 1561 · Move-over-snail-mucin-COSRX-has-a-14-PDRN-face-mask-thousands-are-buyi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Move over, snail mucin: COSRX has a $14 PDRN face mask thousands are buying - New York Post
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

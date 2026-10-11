@@ -2,8 +2,14 @@
 title: "Record 2f8d9b98fc · Expanding-OpenAI-Academy-with-new-learning-paths"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.633452+00:00
+updated_at: 2026-10-11T00:55:37.425092+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
+kind: "발표물"
 ---
 
 # Record 2f8d9b98fc · Expanding-OpenAI-Academy-with-new-learning-paths
@@ -16,7 +22,3 @@ Expanding OpenAI Academy with new learning paths
 Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

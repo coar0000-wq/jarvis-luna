@@ -2,8 +2,14 @@
 title: "Record 436d5b924e · Can-triply-periodic-minimal-surface-inserts-reduce-turbulence-induced-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.382030+00:00
+updated_at: 2026-10-11T00:55:17.767834+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1063/5.0345595"
+kind: "논문"
 ---
 
 # Record 436d5b924e · Can-triply-periodic-minimal-surface-inserts-reduce-turbulence-induced-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Can triply periodic minimal surface inserts reduce turbulence-induced effects in high-Reynolds-number internal flows?
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

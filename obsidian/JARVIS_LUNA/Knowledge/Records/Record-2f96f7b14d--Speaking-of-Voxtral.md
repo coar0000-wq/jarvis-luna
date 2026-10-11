@@ -2,8 +2,14 @@
 title: "Record 2f96f7b14d · Speaking-of-Voxtral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.099436+00:00
+updated_at: 2026-10-11T00:55:28.546426+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "음성오디오"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/voxtral-tts/"
+kind: "발표물"
 ---
 
 # Record 2f96f7b14d · Speaking-of-Voxtral
@@ -16,7 +22,3 @@ Speaking of Voxtral
 Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[음성오디오]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

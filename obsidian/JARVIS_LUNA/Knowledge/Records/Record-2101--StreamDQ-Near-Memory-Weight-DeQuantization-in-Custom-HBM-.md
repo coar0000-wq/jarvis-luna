@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.864056+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "openalex.org"
+url: "https://openalex.org/W7168328792"
 ---
 
 # Record 2101 · StreamDQ-Near-Memory-Weight-DeQuantization-in-Custom-HBM-for-Scalable-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 StreamDQ: Near-Memory Weight DeQuantization in Custom HBM for Scalable AI Inference Acceleration
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

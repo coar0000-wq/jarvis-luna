@@ -2,8 +2,12 @@
 title: "Record f7483592eb · La-Crème-des-peaux-extra-sèches"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.886086+00:00
+updated_at: 2026-10-11T00:55:41.662868+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3600551020419"
 ---
 
 # Record f7483592eb · La-Crème-des-peaux-extra-sèches
@@ -16,7 +20,3 @@ La Crème des peaux extra-sèches
 La Crème des peaux extra-sèches · Mixa
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

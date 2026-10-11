@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.795277+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA37359045"
 ---
 
 # Record 2190 · 2types-MEDIHEAL-Collagen-Capsule-Eye-Patch-60ct-373-oz106g
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g) · 평점 4.7 · 리뷰 2,769
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

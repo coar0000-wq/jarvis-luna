@@ -2,8 +2,12 @@
 title: "Record 38dbd4d5c3 · AESTURA-Atobarrier365-Hydro-Soothing-Cream-270-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.867348+00:00
+updated_at: 2026-10-11T00:55:41.292289+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA96647999"
 ---
 
 # Record 38dbd4d5c3 · AESTURA-Atobarrier365-Hydro-Soothing-Cream-270-fl-o
@@ -16,7 +20,3 @@ AESTURA Atobarrier365 Hydro Soothing Cream 2.70 fl. oz.(80ml)
 AESTURA Atobarrier365 Hydro Soothing Cream 2.70 fl. oz.(80ml) · 평점 3.5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

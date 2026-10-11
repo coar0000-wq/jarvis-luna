@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.317881+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/achieving-extreme-efficiency-through-specialized-gpu-kernel-generation"
 ---
 
 # Record 1919 · Achieving-Extreme-Efficiency-through-Specialized-GPU-Kernel-Generation
@@ -16,7 +21,3 @@ Achieving Extreme Efficiency through Specialized GPU Kernel Generation
 Traditionally, production inference systems rely on generic kernels to handle diverse...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

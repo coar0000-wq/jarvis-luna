@@ -2,8 +2,12 @@
 title: "Record fe17618c10 · Necessary-or-Sufficient-Evaluating-LLM-Explanations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.978676+00:00
+updated_at: 2026-10-11T00:55:12.193938+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05385v1"
 ---
 
 # Record fe17618c10 · Necessary-or-Sufficient-Evaluating-LLM-Explanations
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

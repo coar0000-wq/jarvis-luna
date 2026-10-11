@@ -2,8 +2,14 @@
 title: "Record 386a851d8c · Molecular-dynamics-study-of-ferroelectric-switching"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.381656+00:00
+updated_at: 2026-10-11T00:55:17.766410+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1063/5.0341581"
+kind: "논문"
 ---
 
 # Record 386a851d8c · Molecular-dynamics-study-of-ferroelectric-switching
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Molecular dynamics study of ferroelectric switching mechanisms in monodomain and 180° domain walls of BaTiO3 and PbTiO3
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

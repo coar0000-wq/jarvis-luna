@@ -2,8 +2,12 @@
 title: "Record 732a1c7d2d · TEEP-RCNN-Texture-Enhanced-Edge-aware-Perception-for-Steel-Surface-Def"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.185820+00:00
+updated_at: 2026-10-11T00:55:14.675237+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.28077"
 ---
 
 # Record 732a1c7d2d · TEEP-RCNN-Texture-Enhanced-Edge-aware-Perception-for-Steel-Surface-Def
@@ -16,7 +20,3 @@ TEEP-RCNN: Texture-Enhanced Edge-aware Perception for Steel Surface Defect Detec
 Steel surface defect detection is critical for automated industrial quality control but remains challenging due to subtle inter-class texture differences and pronounced class imbalance. We introduce TEEP-RCNN (Texture-Enhanced Edge-aware Perception Region-based CNN), a two-stage detector built on Faster R-CNN with a Feature Pyramid Network backbone and an improved Convolutional Block Attention Mod
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

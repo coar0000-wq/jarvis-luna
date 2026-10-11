@@ -2,8 +2,14 @@
 title: "Record 85464cb2b3 · GenAI-based-group-awareness-tools-for-supporting-collaborative-learnin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.387809+00:00
+updated_at: 2026-10-11T00:55:17.864651+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1080/07370024.2026.2717538"
+kind: "논문"
 ---
 
 # Record 85464cb2b3 · GenAI-based-group-awareness-tools-for-supporting-collaborative-learnin
@@ -15,7 +21,3 @@ tags: [record, real-data]
 GenAI-based group awareness tools for supporting collaborative learning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

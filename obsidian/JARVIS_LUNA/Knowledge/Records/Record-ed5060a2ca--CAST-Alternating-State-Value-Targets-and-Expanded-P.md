@@ -2,8 +2,12 @@
 title: "Record ed5060a2ca · CAST-Alternating-State-Value-Targets-and-Expanded-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.002704+00:00
+updated_at: 2026-10-11T00:55:12.454020+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08853v1"
 ---
 
 # Record ed5060a2ca · CAST-Alternating-State-Value-Targets-and-Expanded-P
@@ -16,7 +20,3 @@ CAST: Alternating State-Value Targets and Expanded Policy Gradients for Model-Ba
 Model-based reinforcement learning (MBRL) is a family of RL methods that learn a model of the environment and use it for action selection, making it well suited to robotics due to its sample efficiency. Combining learned models with online planning can further improve action selection, as the planner can exploit the model to find better actions than the learned policy alone. Recent methods combini
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

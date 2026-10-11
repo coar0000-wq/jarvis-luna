@@ -2,8 +2,14 @@
 title: "Record 5fef313137 · Multi-Degree-of-Freedom-Hybrid-FES-and-Robotic-Control-of-the-Upper-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.447487+00:00
+updated_at: 2026-10-11T00:55:18.953529+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tnsre.2024.3364517"
+kind: "논문"
 ---
 
 # Record 5fef313137 · Multi-Degree-of-Freedom-Hybrid-FES-and-Robotic-Control-of-the-Upper-Li
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Multi Degree of Freedom Hybrid FES and Robotic Control of the Upper Limb
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

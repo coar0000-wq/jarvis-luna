@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.878868+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1111/cyt.70111"
 ---
 
 # Record 426 · Scientific-Writing-in-CytopathologyEducational-Series-A-Practical-Guid
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Scientific Writing in Cytopathology—Educational Series. A Practical Guide for the Next Generation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

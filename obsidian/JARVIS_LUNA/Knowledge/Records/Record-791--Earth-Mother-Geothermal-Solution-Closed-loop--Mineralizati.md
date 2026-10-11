@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.573906+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22646577"
 ---
 
 # Record 791 · Earth-Mother-Geothermal-Solution-Closed-loop--Mineralization-Architect
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Earth Mother Geothermal Solution: Closed-loop & Mineralization Architecture for High-Acidity Volcanic Andesite Geothermal Resources
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record cac0d9ccf3 · Interpretable-Multi-Hypersphere-Deep-Anomaly-Detection-for-Open-set-Su"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.166162+00:00
+updated_at: 2026-10-11T00:55:14.408359+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.23008"
 ---
 
 # Record cac0d9ccf3 · Interpretable-Multi-Hypersphere-Deep-Anomaly-Detection-for-Open-set-Su
@@ -16,7 +20,3 @@ Interpretable Multi-Hypersphere Deep Anomaly Detection for Open-set Supervised A
 Multi-class open-set anomaly detection requires a model to characterize the normal acceptance domain formed by multiple heterogeneous subdistributions using only class-labeled samples from known normal classes, and to identify previously unseen anomalies at test time. Existing single-hypersphere methods cannot explicitly represent class-specific locations and acceptance ranges, while current multi
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

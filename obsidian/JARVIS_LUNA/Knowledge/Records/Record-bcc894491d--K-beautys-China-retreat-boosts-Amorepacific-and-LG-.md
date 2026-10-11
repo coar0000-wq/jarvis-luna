@@ -2,8 +2,12 @@
 title: "Record bcc894491d · K-beautys-China-retreat-boosts-Amorepacific-and-LG-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.262628+00:00
+updated_at: 2026-10-11T00:55:31.316887+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzY1ljc2xfa0RodHNDaHBNOEdETkJzTmQzaG9TUXZtSEpQaG9xU3dNdDNVazBXX091eWhWYktCUTRKUHRMTEwzMTZZYk5Bb09hS0ZObVByUXAwdEs4ZGVWLURoVjlFQU1uZEpBSnZRVHI4ZG40WTNJ?oc=5"
 ---
 
 # Record bcc894491d · K-beautys-China-retreat-boosts-Amorepacific-and-LG-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty’s China retreat boosts Amorepacific and LG H&H profits - Personal Care Insights
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

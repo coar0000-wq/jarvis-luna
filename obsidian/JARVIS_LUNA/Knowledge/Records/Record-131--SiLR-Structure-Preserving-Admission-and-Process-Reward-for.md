@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.355020+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04629v1"
 ---
 
 # Record 131 · SiLR-Structure-Preserving-Admission-and-Process-Reward-for-LLM-Tool-Ag
@@ -16,7 +20,3 @@ SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents
 A runtime gate for an LLM tool agent is usually cast as a filter. In a ReAct loop a rejected proposal is followed by another at the same state, so the gate is a search operator over the proposal stream whose admission criterion shapes which trajectories are reachable. We study post-violation recovery admission, where progress must be admitted while the system is still in violation, and identify th
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

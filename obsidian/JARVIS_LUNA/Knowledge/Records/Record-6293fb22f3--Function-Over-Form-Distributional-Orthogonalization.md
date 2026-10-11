@@ -2,8 +2,12 @@
 title: "Record 6293fb22f3 · Function-Over-Form-Distributional-Orthogonalization-in-Mixture-of-Expe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.848431+00:00
+updated_at: 2026-10-11T00:55:25.078790+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델", "모델-라우팅MoE"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.32398"
 ---
 
 # Record 6293fb22f3 · Function-Over-Form-Distributional-Orthogonalization-in-Mixture-of-Expe
@@ -16,7 +20,3 @@ Function Over Form: Distributional Orthogonalization in Mixture-of-Experts with 
 The scaling of LLMs increasingly relies on MoE architectures to decouple active computation from total parameter count. However, the efficacy of MoE is often constrained by expert collapse and representation redundancy, both leading to underutilization of model capacity. To address these challenges, this paper proposes Distributional Orthogonalization Loss (DO-loss), an auxiliary regularization th
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

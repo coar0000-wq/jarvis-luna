@@ -2,8 +2,12 @@
 title: "Record b92d1a5e9d · AT3D-AD-Anomaly-Type-Aware-3D-Anomaly-Detection-via-Hierarchical-Point"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.175643+00:00
+updated_at: 2026-10-11T00:55:14.511569+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.25930"
 ---
 
 # Record b92d1a5e9d · AT3D-AD-Anomaly-Type-Aware-3D-Anomaly-Detection-via-Hierarchical-Point
@@ -16,7 +20,3 @@ AT3D-AD: Anomaly Type-Aware 3D Anomaly Detection via Hierarchical Point-Language
 Detecting and localizing 3D point-cloud defects is essential for industrial inspection. However, existing methods often suffer from imprecise localization due to the lack of anomaly supervision and reliance on single-granularity representations. To address these limitations, we propose Anomaly Type-Aware 3D Anomaly Detection (AT3D-AD), a unified framework for joint detection, localization, and cla
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

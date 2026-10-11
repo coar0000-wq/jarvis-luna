@@ -2,8 +2,14 @@
 title: "Record 3452e19cdf · NLM-CD-a-regime-conditional-neighbourhood-linkage-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.419395+00:00
+updated_at: 2026-10-11T00:55:18.449676+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.1108/jdqs-03-2026-0024"
+kind: "논문"
 ---
 
 # Record 3452e19cdf · NLM-CD-a-regime-conditional-neighbourhood-linkage-m
@@ -15,7 +21,3 @@ tags: [record, real-data]
 NLM-CD: a regime-conditional neighbourhood linkage method for central counterparty risk classification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

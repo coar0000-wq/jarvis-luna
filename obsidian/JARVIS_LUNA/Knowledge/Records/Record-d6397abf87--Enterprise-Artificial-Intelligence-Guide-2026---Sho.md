@@ -2,8 +2,12 @@
 title: "Record d6397abf87 · Enterprise-Artificial-Intelligence-Guide-2026---Sho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.305467+00:00
+updated_at: 2026-10-11T00:55:32.125682+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtNFNpQ05Sd28yczBwRm5ibGVNZm8tU2ViQ3ZIOXhwU0UwLTB0bVV2SXJYMVoyVDBpNWg0aTFlRWlCQWNXS05iZWRJVHpxa2xYQnJjamdpSXFySWFMUWdxX0FrdW5RZ3U2RWp3aWM3VmJuNmNvaVNCTFZRRmdleFU?oc=5"
 ---
 
 # Record d6397abf87 · Enterprise-Artificial-Intelligence-Guide-2026---Sho
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Enterprise Artificial Intelligence Guide (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

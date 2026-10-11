@@ -2,8 +2,12 @@
 title: "Record 4df154bbaa · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.339366+00:00
+updated_at: 2026-10-11T00:55:32.743689+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWFYyU1R5eGloYy1mTTlKOVE1aGRxV3pWOTMzeTBRUHVUS3cxd01ZdTRtcEQteTNYdWZaMmZFN0dTbjRudGFxLVVGblh1R3lCTmU4WHd2Q0R0T1FlbDUxeERVbEt0Q2dreWlYYkZua2pjM3pPUVZpRmVmYU9OUTFUeEVYYWs?oc=5"
 ---
 
 # Record 4df154bbaa · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Intercom Wants to End the Support-to-Sales Handoff Problem - CX Today
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

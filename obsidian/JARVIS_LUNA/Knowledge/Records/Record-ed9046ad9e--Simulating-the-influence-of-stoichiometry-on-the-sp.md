@@ -2,8 +2,14 @@
 title: "Record ed9046ad9e · Simulating-the-influence-of-stoichiometry-on-the-spectral-emissivity-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.414422+00:00
+updated_at: 2026-10-11T00:55:18.336103+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1103/6v8t-117b"
+kind: "논문"
 ---
 
 # Record ed9046ad9e · Simulating-the-influence-of-stoichiometry-on-the-spectral-emissivity-o
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Simulating the influence of stoichiometry on the spectral emissivity of Mo x Si y thin films
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

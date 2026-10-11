@@ -2,8 +2,12 @@
 title: "Record d3f1478e33 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.713517+00:00
+updated_at: 2026-10-11T00:55:54.143042+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=0AGABvB89no"
 ---
 
 # Record d3f1478e33 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrad
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Belgrade, let's take eCommerce further. 🚀 | CJEC Belgrade 2026
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

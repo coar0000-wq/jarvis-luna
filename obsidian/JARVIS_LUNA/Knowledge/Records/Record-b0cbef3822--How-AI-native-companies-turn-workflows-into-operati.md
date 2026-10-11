@@ -2,8 +2,14 @@
 title: "Record b0cbef3822 · How-AI-native-companies-turn-workflows-into-operati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.623966+00:00
+updated_at: 2026-10-11T00:55:37.238123+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/ai-native-company-workflows"
+kind: "발표물"
 ---
 
 # Record b0cbef3822 · How-AI-native-companies-turn-workflows-into-operati
@@ -16,7 +22,3 @@ How AI-native companies turn workflows into operating capability
 Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

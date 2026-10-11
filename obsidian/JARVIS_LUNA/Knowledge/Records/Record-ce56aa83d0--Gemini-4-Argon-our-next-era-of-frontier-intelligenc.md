@@ -2,8 +2,14 @@
 title: "Record ce56aa83d0 · Gemini-4-Argon-our-next-era-of-frontier-intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.241518+00:00
+updated_at: 2026-10-11T00:55:15.395147+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+kind: "발표물"
 ---
 
 # Record ce56aa83d0 · Gemini-4-Argon-our-next-era-of-frontier-intelligence
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Gemini 4 Argon: our next era of frontier intelligence
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

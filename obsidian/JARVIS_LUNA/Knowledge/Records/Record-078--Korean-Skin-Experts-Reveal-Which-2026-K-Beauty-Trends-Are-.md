@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.860503+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Model-Routing-and-MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVXVRNER0ZHJjS3pFb2ZXMnpWekJSLWZPVEM2WjF3U3pYUk9LeWtTQVNsendsVG9abVRudk1xRUl3blhPZkZkWGQ5Uk9BZHFab2ROUHROaGNLcnpBc1ViSFYyR3BwYkRBM0JSa3M5TWt4Zk1SWmN1RTlETXBYeU9GWHVmTG5MUUVjNWs5RzlsTFF6MHZETlJFSmI0NEhKbk5hXzIwVWMzUUhMaVFUa1k5NVBLcGlIUWhZLUxrUFdwNi1scTRjSjJBLV9QRldGUkpsWHRnZk1jMFlnaEEwQnBHUTR0NkFnLW9Z?oc=5"
 ---
 
 # Record 078 · Korean-Skin-Experts-Reveal-Which-2026-K-Beauty-Trends-Are-Actually-Wor
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Korean Skin Experts Reveal Which 2026 K-Beauty Trends Are Actually Worth Your Money—and Which Are Pure Hype - graziamagazine.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Model-Routing-and-MoE]] [[JARVIS Real Knowledge Index]]

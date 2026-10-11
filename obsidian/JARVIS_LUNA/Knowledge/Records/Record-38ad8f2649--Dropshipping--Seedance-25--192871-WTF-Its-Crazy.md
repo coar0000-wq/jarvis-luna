@@ -2,8 +2,12 @@
 title: "Record 38ad8f2649 · Dropshipping--Seedance-25--192871-WTF-Its-Crazy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.728182+00:00
+updated_at: 2026-10-11T00:55:54.435682+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=VXf2IivluLI"
 ---
 
 # Record 38ad8f2649 · Dropshipping--Seedance-25--192871-WTF-Its-Crazy
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Dropshipping + Seedance 2.5 = $192,871 (WTF It’s Crazy)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record fd3bbfcbda · Integrating-Modafinil-Effects-Into-a-Biomathematica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.490331+00:00
+updated_at: 2026-10-11T00:55:19.674795+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "과학수학", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1177/10711813261475234"
+kind: "논문"
 ---
 
 # Record fd3bbfcbda · Integrating-Modafinil-Effects-Into-a-Biomathematica
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Integrating Modafinil Effects Into a Biomathematical Model of Fatigue
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[과학수학]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 11d9d296ae · Robot-Aware-Computational-Design-of-Object-Specific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.937064+00:00
+updated_at: 2026-10-11T00:55:11.692933+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03761v1"
 ---
 
 # Record 11d9d296ae · Robot-Aware-Computational-Design-of-Object-Specific
@@ -16,7 +20,3 @@ Robot Aware Computational Design of Object Specific Passive Grippers for Additiv
 This paper presents an end-to-end computational pipeline that converts a selected object mesh, a measured object state, and a selected six-axis robot into an object-specific, unactuated, additively manufacturable gripper. The method couples exact-mesh RGB-D/ICP pose registration, deterministic surface-contact sampling, uncertainty-aware wrench screening, selection among six passive capture mechani
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

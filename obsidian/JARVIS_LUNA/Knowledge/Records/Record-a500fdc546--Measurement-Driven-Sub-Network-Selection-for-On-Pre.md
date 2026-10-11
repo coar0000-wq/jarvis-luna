@@ -2,8 +2,12 @@
 title: "Record a500fdc546 · Measurement-Driven-Sub-Network-Selection-for-On-Pre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.918944+00:00
+updated_at: 2026-10-11T00:55:11.465702+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.02760v1"
 ---
 
 # Record a500fdc546 · Measurement-Driven-Sub-Network-Selection-for-On-Pre
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 0162b1e799 · The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.281800+00:00
+updated_at: 2026-10-11T00:55:31.672511+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE05MFRGbXowa0NQMTBkT3dCOWFjNG5FN2JOMHZ6dVVqUDhYWjFlT3lpMWdBalM4WEtKRFI0SFlVZzZ2YkRwY0VqaGo5QkVfa3RTcGxPdjdwR19CR1k1Mk15MUhzUGN1aHJJdEY0a3ppSTkwNlhnQl9lUg?oc=5"
 ---
 
 # Record 0162b1e799 · The-14-Beauty-Trends-Experts-Predict-Will-Be-Huge-i
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The 14 Beauty Trends Experts Predict Will Be Huge in 2026 - Good Housekeeping
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

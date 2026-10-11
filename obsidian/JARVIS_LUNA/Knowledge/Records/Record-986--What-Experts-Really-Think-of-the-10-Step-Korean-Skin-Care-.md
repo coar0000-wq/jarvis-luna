@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.604162+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PRFNXUzgyWXZFeGJsckYzVlEtUnZaY2F3LXYwbVNfb0VUYmJSWUF6bEVMVUloSUdydndiSGRva1pheEJ5dkpnakZkZktBYmRrbkxTQ0RUdnR1NjR5Zlc0c2w0TDA?oc=5"
 ---
 
 # Record 986 · What-Experts-Really-Think-of-the-10-Step-Korean-Skin-Care-Routine---Vo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Experts Really Think of the 10-Step Korean Skin-Care Routine - Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

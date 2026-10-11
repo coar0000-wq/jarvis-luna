@@ -2,30 +2,64 @@
 title: "기관 · Microsoft Research"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:59:00.712562+00:00
+updated_at: 2026-10-11T00:55:56.879916+00:00
 tags: [org, real-data]
+record_count: 15
 ---
 
 # 기관 · Microsoft Research
 
-실제 수집 레코드 **15건**이 이 기관에 연결되어 있습니다. (발표물 15건)
+유형별: 발표물 15건
 
-- [[Record-df26bd70c1--Aurora-15-Extending-open-foundation-models-for-weat]]
-- [[Record-287b43296e--Broadening-access-to-Skala-creates-a-faster-path-to]]
-- [[Record-1d97ce9901--Echoverse-Deep-evolving-environments-for-computer-u]]
-- [[Record-edf74927e8--EvoLib-Turning-experience-into-evolving-knowledge]]
-- [[Record-84fb3d732a--Flint-A-visualization-language-for-the-AI-era]]
-- [[Record-63e9a822fa--Forecasting-space-weather-risks-on-power-grids]]
-- [[Record-b1b4ad0d4a--GigaPath-Flash-and-GigaTIME-Flash-Toward-population]]
-- [[Record-d84d5932ca--Improving-synthesis-prediction-of-small-molecules-a]]
-- [[Record-0027655752--Introducing-CARE-X-Towards-Clinically-Useful-Radiol]]
-- [[Record-6432f88e54--Introducing-Quine-An-AI-research-system-designed-fo]]
-- [[Record-1a7704a62e--MindTopo-reveals-VLMs-spatial-reasoning-abilities]]
-- [[Record-33f98722c2--Offloaded-inference-for-real-world-physical-AI-robo]]
-- [[Record-fbb52d3a0c--One-year-in-How-Microsoft-Research-Asia--Singapore-]]
-- [[Record-b7821e4e18--Orchard-An-open-framework-for-scalable-agentic-AI]]
+실제 수집 레코드 **15건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+
+### 주제별 건수
+
+| 항목 | 건수 |
+|---|---|
+| [[AI-에이전트]] | 15 |
+| [[머신러닝-연구]] | 3 |
+| [[인프라클라우드]] | 2 |
+| [[컴퓨터-비전]] | 2 |
+| [[의료바이오]] | 2 |
+| [[과학수학]] | 1 |
+| [[LLM언어모델]] | 1 |
+| [[로보틱스]] | 1 |
+
+### 최근 레코드 12건
+
 - [[Record-b45a9ea535--Verifying-Rust-cryptography-in-SymCrypt-from-standa]]
+- [[Record-b7821e4e18--Orchard-An-open-framework-for-scalable-agentic-AI]]
+- [[Record-fbb52d3a0c--One-year-in-How-Microsoft-Research-Asia--Singapore-]]
+- [[Record-33f98722c2--Offloaded-inference-for-real-world-physical-AI-robo]]
+- [[Record-1a7704a62e--MindTopo-reveals-VLMs-spatial-reasoning-abilities]]
+- [[Record-6432f88e54--Introducing-Quine-An-AI-research-system-designed-fo]]
+- [[Record-0027655752--Introducing-CARE-X-Towards-Clinically-Useful-Radiol]]
+- [[Record-d84d5932ca--Improving-synthesis-prediction-of-small-molecules-a]]
+- [[Record-b1b4ad0d4a--GigaPath-Flash-and-GigaTIME-Flash-Toward-population]]
+- [[Record-63e9a822fa--Forecasting-space-weather-risks-on-power-grids]]
+- [[Record-84fb3d732a--Flint-A-visualization-language-for-the-AI-era]]
+- [[Record-edf74927e8--EvoLib-Turning-experience-into-evolving-knowledge]]
+
+### 전체 레코드 (표)
+
+```base
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+    - org == "Microsoft Research"
+views:
+  - type: table
+    name: 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+    limit: 200
+```
 
 ## Connected nodes
 
-[[Record-df26bd70c1--Aurora-15-Extending-open-foundation-models-for-weat]] [[Record-287b43296e--Broadening-access-to-Skala-creates-a-faster-path-to]] [[Record-1d97ce9901--Echoverse-Deep-evolving-environments-for-computer-u]] [[Record-edf74927e8--EvoLib-Turning-experience-into-evolving-knowledge]] [[Record-84fb3d732a--Flint-A-visualization-language-for-the-AI-era]] [[Record-63e9a822fa--Forecasting-space-weather-risks-on-power-grids]] [[Record-b1b4ad0d4a--GigaPath-Flash-and-GigaTIME-Flash-Toward-population]] [[Record-d84d5932ca--Improving-synthesis-prediction-of-small-molecules-a]] [[Record-0027655752--Introducing-CARE-X-Towards-Clinically-Useful-Radiol]] [[Record-6432f88e54--Introducing-Quine-An-AI-research-system-designed-fo]] [[Record-1a7704a62e--MindTopo-reveals-VLMs-spatial-reasoning-abilities]] [[Record-33f98722c2--Offloaded-inference-for-real-world-physical-AI-robo]] [[Record-fbb52d3a0c--One-year-in-How-Microsoft-Research-Asia--Singapore-]] [[Record-b7821e4e18--Orchard-An-open-framework-for-scalable-agentic-AI]] [[Record-b45a9ea535--Verifying-Rust-cryptography-in-SymCrypt-from-standa]] [[AI-에이전트]] [[LLM언어모델]] [[과학수학]] [[로보틱스]] [[머신러닝-연구]] [[의료바이오]] [[인프라클라우드]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[JARVIS Real Knowledge Index]]

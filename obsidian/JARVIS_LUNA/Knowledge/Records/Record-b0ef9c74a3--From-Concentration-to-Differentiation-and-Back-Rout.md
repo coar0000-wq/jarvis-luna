@@ -2,8 +2,12 @@
 title: "Record b0ef9c74a3 · From-Concentration-to-Differentiation-and-Back-Rout"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.982349+00:00
+updated_at: 2026-10-11T00:55:12.252112+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06403v1"
 ---
 
 # Record b0ef9c74a3 · From-Concentration-to-Differentiation-and-Back-Rout
@@ -15,7 +19,3 @@ tags: [record, real-data]
 From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

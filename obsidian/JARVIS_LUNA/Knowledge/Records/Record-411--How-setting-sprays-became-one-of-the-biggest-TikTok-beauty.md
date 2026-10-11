@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.295996+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE1yM29kWEdKNVFOZXpibjAyWkc1SmlYOHBEWVZlbVlnUkxMalBQb1RPVVE5M1NzNXdGT3NpX21wamRCY3FlT3pUekZQX0laM3lEZmxGSzdKTm41NEdRT2phMFB6eVdSbmwtbXAzblRNRmVKWTAwdnZJcHBEeVU?oc=5"
 ---
 
 # Record 411 · How-setting-sprays-became-one-of-the-biggest-TikTok-beauty-trends---Co
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 How setting sprays became one of the biggest TikTok beauty trends - Cosmetics Business
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

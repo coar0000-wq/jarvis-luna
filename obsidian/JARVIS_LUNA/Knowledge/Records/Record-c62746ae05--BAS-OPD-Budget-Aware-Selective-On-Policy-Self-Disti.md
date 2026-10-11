@@ -2,8 +2,12 @@
 title: "Record c62746ae05 · BAS-OPD-Budget-Aware-Selective-On-Policy-Self-Distillation-for-Fine-Gr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.783232+00:00
+updated_at: 2026-10-11T00:55:24.220221+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.25891"
 ---
 
 # Record c62746ae05 · BAS-OPD-Budget-Aware-Selective-On-Policy-Self-Distillation-for-Fine-Gr
@@ -16,7 +20,3 @@ BAS-OPD: Budget-Aware Selective On-Policy Self-Distillation for Fine-Grained Mul
 Multimodal large language models (MLLMs) often struggle with fine-grained visual perception when processing complete images, as critical evidence may only appear in local regions. On-policy self-distillation (OPD) enables transferring privileged visual knowledge from informative views to full-image policies, but querying the teacher for every rollout introduces substantial supervision costs. In th
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

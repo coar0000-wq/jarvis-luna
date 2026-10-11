@@ -2,8 +2,12 @@
 title: "Record 118bcf5e6e · where-koreans-are-going-for-their-beauty--well-bein"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.696176+00:00
+updated_at: 2026-10-11T00:55:53.737364+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Nu53l3Fnobk"
 ---
 
 # Record 118bcf5e6e · where-koreans-are-going-for-their-beauty--well-bein
@@ -15,7 +19,3 @@ tags: [record, real-data]
 where koreans are going for their beauty & well being routine! sauna in korea #bathhouse #sauna
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

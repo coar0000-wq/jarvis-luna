@@ -2,8 +2,12 @@
 title: "Record 8b01cb213e · On-the-Regularization-Landscape-for-the-Linear-Reco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.083334+00:00
+updated_at: 2026-10-11T00:55:13.387568+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11876v1"
 ---
 
 # Record 8b01cb213e · On-the-Regularization-Landscape-for-the-Linear-Reco
@@ -15,7 +19,3 @@ tags: [record, real-data]
 On the Regularization Landscape for the Linear Recommendation Models
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

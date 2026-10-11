@@ -2,8 +2,12 @@
 title: "Record 18f5db703c · NeuroSymbEAD-A-Large-Scale-Neuro-Symbolic-Caption-Dataset-for-Omni-Dir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.110940+00:00
+updated_at: 2026-10-11T00:55:13.749678+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "로보틱스", "데이터분석"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16919"
 ---
 
 # Record 18f5db703c · NeuroSymbEAD-A-Large-Scale-Neuro-Symbolic-Caption-Dataset-for-Omni-Dir
@@ -16,7 +20,3 @@ NeuroSymbEAD: A Large Scale Neuro-Symbolic Caption Dataset for Omni-Directional 
 This paper introduces NeuroSymbEAD, a large-scale neuro-symbolic caption dataset featuring an ego-centric knowledge graph (KG) of static and dynamic objects annotated with classes, categories, heading directions, orientations, and distances from the ego-vehicle. These annotations are used on the KITTI-360 dataset to generate multilevel textual captions representing a lightweight version of an ego-
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[로보틱스]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

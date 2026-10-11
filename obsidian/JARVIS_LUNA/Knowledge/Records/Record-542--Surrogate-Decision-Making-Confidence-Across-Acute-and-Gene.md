@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.139716+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-9973826/v1"
 ---
 
 # Record 542 · Surrogate-Decision-Making-Confidence-Across-Acute-and-General-Scenario
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Surrogate Decision-Making Confidence Across Acute and General Scenarios: Predictors and Ethical Reasoning in a Mixed-Methods Study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

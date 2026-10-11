@@ -2,8 +2,12 @@
 title: "Record f57d302b62 · Swedish-Pop-Star-Zara-Larsson-Reveals-Her-Plans-for-a-Global-TakeoverI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.946386+00:00
+updated_at: 2026-10-11T00:55:42.653013+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/zara-larsson-cover-interview"
 ---
 
 # Record f57d302b62 · Swedish-Pop-Star-Zara-Larsson-Reveals-Her-Plans-for-a-Global-TakeoverI
@@ -16,7 +20,3 @@ Swedish Pop Star Zara Larsson Reveals Her Plans for a Global Takeover—Intervie
 Swedish Pop Star Zara Larsson Reveals Her Plans for a Global Takeover—Interview
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

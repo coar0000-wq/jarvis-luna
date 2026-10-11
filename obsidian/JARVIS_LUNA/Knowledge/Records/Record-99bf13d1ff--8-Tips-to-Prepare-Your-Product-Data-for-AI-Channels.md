@@ -2,8 +2,12 @@
 title: "Record 99bf13d1ff · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.306498+00:00
+updated_at: 2026-10-11T00:55:32.143228+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE1GSmJjV0tjSmljWElWZWR2NGtNVEFrTFh5YnVERlRaeDhCUFlpeTN5d1ZvVG5iTEFYaEpBTEp4QmdtRjNTLVR0YkdYbXFuX1NzZjlhM3pMb2NCR0hPZVNMcUFrZEZ6WVdMYjBiUFA3bnhoTjBvaTJVdFRZSjk?oc=5"
 ---
 
 # Record 99bf13d1ff · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels
@@ -15,7 +19,3 @@ tags: [record, real-data]
 8 Tips to Prepare Your Product Data for AI Channels - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

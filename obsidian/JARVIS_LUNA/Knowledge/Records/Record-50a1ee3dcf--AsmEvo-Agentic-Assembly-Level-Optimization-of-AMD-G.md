@@ -2,8 +2,14 @@
 title: "Record 50a1ee3dcf · AsmEvo-Agentic-Assembly-Level-Optimization-of-AMD-GPU-Kernels-with-Fun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.662471+00:00
+updated_at: 2026-10-11T00:55:22.668181+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2608.20711"
+kind: "논문"
 ---
 
 # Record 50a1ee3dcf · AsmEvo-Agentic-Assembly-Level-Optimization-of-AMD-GPU-Kernels-with-Fun
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AsmEvo: Agentic Assembly-Level Optimization of AMD GPU Kernels with Functional Equivalence Verification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

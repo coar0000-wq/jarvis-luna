@@ -2,8 +2,12 @@
 title: "Record fb45188475 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-ex"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.691417+00:00
+updated_at: 2026-10-11T00:55:53.646604+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Aty0xiQjBmg"
 ---
 
 # Record fb45188475 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-ex
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What's in this k-beauty box? Your 1st Korean sauna experience that you didn't know you needed!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

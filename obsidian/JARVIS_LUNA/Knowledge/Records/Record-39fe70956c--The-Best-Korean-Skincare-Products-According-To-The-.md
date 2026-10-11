@@ -2,8 +2,12 @@
 title: "Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.238865+00:00
+updated_at: 2026-10-11T00:55:30.987114+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE5nbEFCdlNKMXNxclNnazVZQnZ1Q3Y1dzVDME5sVjhWMTdTMkdnTno0TXVLS2ZHa1FvQmZGOE9SUWtYbVpnRkpwZjFQX3NvYldDc2loZld5aGRCWGNKcjFNMnpjRHhLNUkyVTdrdkFB?oc=5"
 ---
 
 # Record 39fe70956c · The-Best-Korean-Skincare-Products-According-To-The-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Best Korean Skincare Products, According To The Experts - vogue.co.uk
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 50155f7d1a · Reducing-Ileostomy-Postoperative-Complications-Due-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.411927+00:00
+updated_at: 2026-10-11T00:55:18.296498+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1097/won.0000000000001281"
+kind: "논문"
 ---
 
 # Record 50155f7d1a · Reducing-Ileostomy-Postoperative-Complications-Due-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Reducing Ileostomy Postoperative Complications Due to Dehydration
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

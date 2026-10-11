@@ -2,8 +2,14 @@
 title: "Record aaa6712457 · Detecting-Bias-in-the-Presence-of-Spatial-Autocorrelation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.612367+00:00
+updated_at: 2026-10-11T00:55:21.728190+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2101.01703"
+kind: "논문"
 ---
 
 # Record aaa6712457 · Detecting-Bias-in-the-Presence-of-Spatial-Autocorrelation
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Detecting Bias in the Presence of Spatial Autocorrelation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 03e443ab99 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.241557+00:00
+updated_at: 2026-10-11T00:55:31.024670+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFBSVW1nUDdjaS1RbkxjWE8xYUpoN2NYQXlqbk5ndW5FOTNDck4wNVNDXzlaYTdhOFVVSm1fRzV2eVpKQ0JqS0VCRzJnZHBTRnlZaHdUMlExUkpnZFd2SWhLN1VyemdyOTNmbVNwS2Vn0gFyQVVfeXFMT0ROZUdwbGpsX3JjWXlGMExXZElnX2kxT3VNa3lrMlBYMVNfcmFPa29WUTN6bHMwcG50THJTMnViM0c2TzFTdTRFbjduWE56cTFWcnROX2tHOEpnRnVEdGlMcEZrOGdMQ0RPT01IdDdWX0Vn?oc=5"
 ---
 
 # Record 03e443ab99 · Kolmar-Korea-puts-cosmetics-RD-on-display-at-Seoul-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Kolmar Korea puts cosmetics R&D on display at Seoul Beauty Week - Korea Biomedical Review
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

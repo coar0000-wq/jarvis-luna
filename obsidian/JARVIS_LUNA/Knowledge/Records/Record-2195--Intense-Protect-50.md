@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.088867+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3282770141214"
 ---
 
 # Record 2195 · Intense-Protect-50
@@ -16,7 +20,3 @@ Intense Protect 50+
 Intense Protect 50+ · Avène, אוון
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

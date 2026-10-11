@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.623671+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "openalex.org"
+url: "https://openalex.org/W7171902981"
 ---
 
 # Record 1819 · gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-via-Hierarchical-Mu
@@ -15,7 +20,3 @@ tags: [record, real-data]
 $g$MAGNUS: Fast SpGEMM on GPUs for Irregular Matrices via Hierarchical Multisplit
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

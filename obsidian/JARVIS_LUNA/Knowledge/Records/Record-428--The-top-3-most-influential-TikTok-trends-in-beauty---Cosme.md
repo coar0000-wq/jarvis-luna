@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.297067+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IdnhwTUUtRlkwN3lOTFBTX2FXdkIybFZOODBYSUllUFpwTkFMblMyYVQ1d2ZCSnJUVXBWUS1qNFRHUkdibmlldmVETUZTTThOSUFsUGdkQXFUbGl0UmdtZEQ3dGpWRlhoRk9FNmdDdm5VRm9iR0cwX3VjOEdVdw?oc=5"
 ---
 
 # Record 428 · The-top-3-most-influential-TikTok-trends-in-beauty---Cosmetics-Busines
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The top 3 most influential TikTok trends in beauty - Cosmetics Business
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

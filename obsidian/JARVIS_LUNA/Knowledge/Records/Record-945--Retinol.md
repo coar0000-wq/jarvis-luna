@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.968422+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "en.wikipedia.org"
+url: "https://en.wikipedia.org/wiki/Retinol"
 ---
 
 # Record 945 · Retinol
@@ -16,7 +20,3 @@ Retinol
 Retinol
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

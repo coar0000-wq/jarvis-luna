@@ -2,8 +2,12 @@
 title: "Record 3b86685fe3 · Two-Timescale-Fine-tuning-Provably-Learns-New-Features-for-Two-Layer-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.862954+00:00
+updated_at: 2026-10-11T00:55:25.259888+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.34667"
 ---
 
 # Record 3b86685fe3 · Two-Timescale-Fine-tuning-Provably-Learns-New-Features-for-Two-Layer-R
@@ -16,7 +20,3 @@ Two-Timescale Fine-tuning Provably Learns New Features for Two-Layer ReLU Networ
 Fine-tuning pre-trained models on specialized tasks with scarce data is central to modern deep learning. Despite its empirical success, theoretical understanding of fine-tuning remains limited. We introduce a Gaussian multi-index setting to study fine-tuning from pre-trained weights, where the teacher network has $m+1$ features, $m$ of which are learned during pre-training and one of which must be
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

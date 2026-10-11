@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.740628+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=f4LcP_MZ0o4"
 ---
 
 # Record 2135 · idk-how-to-feel-about-this-routine--Reacting-To-Sienna-Spiro
@@ -15,7 +19,3 @@ tags: [record, real-data]
 idk how to feel about this routine ... (Reacting To Sienna Spiro)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

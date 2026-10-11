@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.876205+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1109/lpt.2026.3691970"
 ---
 
 # Record 569 · Microvolt-Level-Suppression-of-DC-Electrical-Crosstalk-Between-InP-Ele
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Microvolt-Level Suppression of DC Electrical Crosstalk Between InP Electro-Optic Phase Modulators
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

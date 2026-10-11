@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.662654+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/zFhpthyNT8w"
 ---
 
 # Record 636 · 다이소-선크림-논란-1분-팩트체크
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 다이소 선크림 논란, 1분 팩트체크
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

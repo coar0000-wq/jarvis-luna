@@ -2,8 +2,14 @@
 title: "Record d4162a201b · Mental-Health-and-Substance-Use-Treatment-Telehealt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.491857+00:00
+updated_at: 2026-10-11T00:55:19.701186+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1177/15305627261428644"
+kind: "논문"
 ---
 
 # Record d4162a201b · Mental-Health-and-Substance-Use-Treatment-Telehealt
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mental Health and Substance Use Treatment Telehealth Shifts During COVID-19 by Race, Ethnicity, and Population Density
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

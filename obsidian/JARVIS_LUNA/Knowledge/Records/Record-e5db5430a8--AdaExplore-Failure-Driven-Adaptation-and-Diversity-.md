@@ -2,8 +2,14 @@
 title: "Record e5db5430a8 · AdaExplore-Failure-Driven-Adaptation-and-Diversity-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.669221+00:00
+updated_at: 2026-10-11T00:55:37.922829+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "openalex.org"
+url: "https://openalex.org/W7155244595"
+kind: "논문"
 ---
 
 # Record e5db5430a8 · AdaExplore-Failure-Driven-Adaptation-and-Diversity-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 3daed52ccc · Water-Scarcity-Causes-And-Solutions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.527666+00:00
+updated_at: 2026-10-11T00:55:50.804973+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/water-scarcity-causes-and-solutions"
+kind: "발표물"
 ---
 
 # Record 3daed52ccc · Water-Scarcity-Causes-And-Solutions
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Water Scarcity Causes And Solutions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

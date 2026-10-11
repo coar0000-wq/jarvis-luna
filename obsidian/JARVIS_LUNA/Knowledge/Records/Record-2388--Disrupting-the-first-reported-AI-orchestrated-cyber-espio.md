@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.747111+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "AI-에이전트", "보안프라이버시"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/disrupting-AI-espionage"
 ---
 
 # Record 2388 · Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign
@@ -16,7 +21,3 @@ Disrupting the first reported AI-orchestrated cyber espionage campaign
 A report describing an a highly sophisticated AI-led cyberattack
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[AI-에이전트]] [[보안프라이버시]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

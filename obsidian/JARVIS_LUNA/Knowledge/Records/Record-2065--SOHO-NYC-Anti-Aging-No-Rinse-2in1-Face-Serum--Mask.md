@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.088582+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/8683420170045"
 ---
 
 # Record 2065 · SOHO-NYC-Anti-Aging-No-Rinse-2in1-Face-Serum--Mask
@@ -16,7 +20,3 @@ SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask
 SOHO N.Y.C. Anti-Aging No Rinse 2in1 Face Serum + Mask · SOHO N.Y.C
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

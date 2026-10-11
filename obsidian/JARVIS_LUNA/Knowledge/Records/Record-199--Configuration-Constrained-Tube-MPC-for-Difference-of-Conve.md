@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.368456+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07809v1"
 ---
 
 # Record 199 · Configuration-Constrained-Tube-MPC-for-Difference-of-Convex-Nonlinear-
@@ -16,7 +20,3 @@ Configuration-Constrained Tube MPC for Difference-of-Convex Nonlinear Systems
 This paper develops a convex tube model predictive control formulation for constrained nonlinear systems. We consider dynamics described by a discrete-time state-space model with parametric and additive uncertainty that admits a difference-of-convex decomposition. Convex directional bounds of the nonlinear dynamics are combined with configuration-constrained polytopic tubes, whose predefined combi
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

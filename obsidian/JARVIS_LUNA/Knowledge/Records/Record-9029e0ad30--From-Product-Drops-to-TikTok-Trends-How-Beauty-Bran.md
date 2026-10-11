@@ -2,8 +2,12 @@
 title: "Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Bran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.325158+00:00
+updated_at: 2026-10-11T00:55:32.494042+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbEp0LU5UcWUyV2g4TnE2cGRaeVNrNVRqOUN5Nl94UzhFSElFd21DOUhWSm52LVFVUE9UMGRETFdsdExZUVBnRmo1RlFVNlhkNFo3TUJaT2F5dFMyQUlOWmUwSW1OZHlPRWxZYm5NLWFsSTVOT3pGd01PQXIwQ3d1dWtR?oc=5"
 ---
 
 # Record 9029e0ad30 · From-Product-Drops-to-TikTok-Trends-How-Beauty-Bran
@@ -15,7 +19,3 @@ tags: [record, real-data]
 From Product Drops to TikTok Trends: How Beauty Brands Scale with Lemonpath - Cosmetics Business
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

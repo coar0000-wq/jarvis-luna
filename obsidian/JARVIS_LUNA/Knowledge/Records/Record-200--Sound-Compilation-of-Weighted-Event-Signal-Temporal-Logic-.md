@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.368655+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07900v1"
 ---
 
 # Record 200 · Sound-Compilation-of-Weighted-Event-Signal-Temporal-Logic-to-Timeless-
@@ -16,7 +20,3 @@ Sound Compilation of Weighted Event Signal Temporal Logic to Timeless Geometric 
 Cyber-Physical Systems (CPS) controllers synthesized from standard temporal logics rely on rigid global clocks, rendering them vulnerable to asynchronous timing anomalies like clock snaps, jitter, and network delays. To overcome these vulnerabilities, we introduce a fundamentally timeless geometric control paradigm alongside a novel specification language: Weighted Event-Based Signal Temporal Logi
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

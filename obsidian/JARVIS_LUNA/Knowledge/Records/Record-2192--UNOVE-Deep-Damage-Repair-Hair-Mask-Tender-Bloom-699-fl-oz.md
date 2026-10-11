@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.795834+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA39329211"
 ---
 
 # Record 2192 · UNOVE-Deep-Damage-Repair-Hair-Mask-Tender-Bloom-699-fl-oz207ml
@@ -16,7 +20,3 @@ UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml)
 UNOVE Deep Damage Repair Hair Mask Tender Bloom 6.99 fl. oz.(207ml) · 평점 5 · 리뷰 3
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

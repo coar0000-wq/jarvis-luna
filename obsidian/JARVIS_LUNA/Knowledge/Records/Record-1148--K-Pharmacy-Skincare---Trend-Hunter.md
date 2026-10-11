@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:25.836256+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11eGRTZHpjNXpUbVZkXzRVRS1DdlgzdlNscFBwRE1wTk9BbGZBdi1qdmM3RV9fLWpYdlI4bmpDLXBkWE5fT0VMLWN4OEpYd3lwQzA0VGpDWnR0eVhMd093aXBra9IBaEFVX3lxTFBuN2ZXYmlaMmQ1a25oVUU2c2ctNERkQXhPTi1CVDlMM3BzdGw1bnNTRjc0LVpwVVBGMjkzNjRYaFJSQ2l6ZDJTQmFYX1NIUnUzUmZaeURPb3UycGZqQU9DZUVVenRPVUs5?oc=5"
 ---
 
 # Record 1148 · K-Pharmacy-Skincare---Trend-Hunter
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Pharmacy Skincare - Trend Hunter
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record f486dd53e2 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Proje"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.476630+00:00
+updated_at: 2026-10-11T00:55:35.110515+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnRwRXI3OENHQXY0ZjNpYzBfZkFRT0lhc3hRZHZnVm5tR3JIaWdrOHhsNzJjY2k3Uk1oZTAyS3Y0Wi1WV3BtN1NSaU1jeGpRRWNUTEx1clM3SkZqSUtrWS1Xb3ZwaHhfc0hMWG1DRVA1dVdza0ptVVJJQUtuOG9zTVBPa0FoNFJzckVtd3hsbTFndTdFRmVkdkNOMmF2ZzUzQXlR?oc=5"
 ---
 
 # Record f486dd53e2 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Proje
@@ -15,7 +19,3 @@ tags: [record, real-data]
 BIO HEAL BOH, colorgram, Fillimilli and Delight Project Showcase K-Beauty and Lifestyle Trends at OLIVE YOUNG FESTA LA 2026 - Yahoo Finance
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record bcb9ec353c · TEE-X-TEE-aware-Acceleration-Framework-for-Large-Vision-Models-at-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.663114+00:00
+updated_at: 2026-10-11T00:55:22.683049+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2608.22716"
+kind: "논문"
 ---
 
 # Record bcb9ec353c · TEE-X-TEE-aware-Acceleration-Framework-for-Large-Vision-Models-at-the-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 TEE-X: TEE-aware Acceleration Framework for Large Vision Models at the Edge
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

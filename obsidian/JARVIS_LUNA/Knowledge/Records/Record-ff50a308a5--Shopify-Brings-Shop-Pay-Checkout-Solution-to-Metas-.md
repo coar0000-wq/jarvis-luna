@@ -2,8 +2,12 @@
 title: "Record ff50a308a5 · Shopify-Brings-Shop-Pay-Checkout-Solution-to-Metas-Muse-AI-Agent---PYM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.514920+00:00
+updated_at: 2026-10-11T00:55:35.778421+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWk82eU1RdnRfMXM1WDc4VE9aNFJLOVM4WFBkYlNmU2h4STdrcmJzdXV0d3p0WDNrbXQ4Rnh2QkxnbGxUcDROWFV3UjJyMFJXdEhCQmFua3hXc2lvUEF3UnFJeWRUdzZWdFY5QjZCbEJ5RUc2SHF3SHdTOUtZNWFTaUFXeGZLTWtKT0RHeWhaTWh1RDJvYjVBcjFobE55Y2R5dEdNMTA1TnY3ZHFpZlVEX1R3?oc=5"
 ---
 
 # Record ff50a308a5 · Shopify-Brings-Shop-Pay-Checkout-Solution-to-Metas-Muse-AI-Agent---PYM
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify Brings Shop Pay Checkout Solution to Meta’s Muse AI Agent - PYMNTS.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

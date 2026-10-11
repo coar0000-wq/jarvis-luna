@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.503264+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ickZVV0lscHJOVGJFbVVjVWxFUFIzZ2xvTjdXWXNJcDdPTlRZbWtsNVpkMnNxTEt2bkpGdlRNeW5mSTNjQURRWUJmUEVQSVhuWTMyYi0wX0hLVUwxX2RxMA?oc=5"
 ---
 
 # Record 963 · Perplexity-Shopping-How-to-Optimize-Your-Store-for-AI---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Perplexity Shopping: How to Optimize Your Store for AI - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

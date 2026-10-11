@@ -2,8 +2,14 @@
 title: "Record d15f733ad9 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.342047+00:00
+updated_at: 2026-10-11T00:55:17.049440+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acs.chemmater.6c01199"
+kind: "논문"
 ---
 
 # Record d15f733ad9 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Atomic Layer Deposition of High-Density GeSe Films for Stable Vertical Ovonic Threshold Switching and Selector-Only Memory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

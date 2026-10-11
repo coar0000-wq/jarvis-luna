@@ -2,8 +2,12 @@
 title: "Record 4dfd9e21ff · DCLP-Learning-to-Navigate-with-Footprint-Clearance-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.996936+00:00
+updated_at: 2026-10-11T00:55:12.391964+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08711v1"
 ---
 
 # Record 4dfd9e21ff · DCLP-Learning-to-Navigate-with-Footprint-Clearance-
@@ -16,7 +20,3 @@ DCLP++: Learning to Navigate with Footprint Clearance and Relative Motion
 We present DCLP++, a local navigation frameworkthat uses footprint clearance as the geometric basis for studying relative motion features in dynamic environments. Each valid LiDAR return is mapped to its shortest Euclidean distance from the filled robot footprint before reciprocal encoding, replacing distance from the sensor with distance to the occupied body. Radial measurementsor simulated plana
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

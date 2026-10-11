@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.375741+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09056v1"
 ---
 
 # Record 234 · Time-Varying-Data-as-Sheaves-an-Invitation-to-Narratives
@@ -16,7 +20,3 @@ Time-Varying Data as Sheaves: an Invitation to Narratives
 Modern science and engineering increasingly rely on time-varying data, yet the mathematical tools used to model temporal phenomena are often developed within separate disciplines, obscuring common principles and limiting the transfer of ideas across fields. This chapter presents the theory of narratives, an abstract framework for time-varying objects of any mathematical kind that supports both the
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[과학수학]] [[JARVIS Real Knowledge Index]]

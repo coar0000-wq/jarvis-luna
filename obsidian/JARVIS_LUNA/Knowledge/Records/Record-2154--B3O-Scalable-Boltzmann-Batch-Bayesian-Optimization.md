@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.709372+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7166901122"
 ---
 
 # Record 2154 · B3O-Scalable-Boltzmann-Batch-Bayesian-Optimization
@@ -15,7 +20,3 @@ tags: [record, real-data]
 B3O: Scalable Boltzmann Batch Bayesian Optimization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

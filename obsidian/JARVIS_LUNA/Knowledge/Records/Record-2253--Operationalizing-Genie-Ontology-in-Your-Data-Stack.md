@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.505465+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/operationalizing-genie-ontology-your-data-stack"
 ---
 
 # Record 2253 · Operationalizing-Genie-Ontology-in-Your-Data-Stack
@@ -16,7 +21,3 @@ Operationalizing Genie Ontology in Your Data Stack
 Beyond the semantic model: Building shared business context for AI agentsLarge language...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

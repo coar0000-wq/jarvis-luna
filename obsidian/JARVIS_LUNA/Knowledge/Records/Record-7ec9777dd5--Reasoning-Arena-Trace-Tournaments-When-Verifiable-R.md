@@ -2,8 +2,14 @@
 title: "Record 7ec9777dd5 · Reasoning-Arena-Trace-Tournaments-When-Verifiable-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.681970+00:00
+updated_at: 2026-10-11T00:55:38.215947+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "openalex.org"
+url: "https://openalex.org/W7164234861"
+kind: "논문"
 ---
 
 # Record 7ec9777dd5 · Reasoning-Arena-Trace-Tournaments-When-Verifiable-R
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Reasoning Arena: Trace Tournaments When Verifiable Rewards Fall Short
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

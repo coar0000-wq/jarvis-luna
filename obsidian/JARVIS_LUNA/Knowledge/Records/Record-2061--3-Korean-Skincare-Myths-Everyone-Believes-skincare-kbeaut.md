@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.343057+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/AlS1_egCV4E"
 ---
 
 # Record 2061 · 3-Korean-Skincare-Myths-Everyone-Believes-skincare-kbeauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 Korean Skincare Myths Everyone Believes #skincare #kbeauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 11b5077a47 · Prescriptive-SVD-Inspired-Attention-via-Spectral-Energy-Retention"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.767983+00:00
+updated_at: 2026-10-11T00:55:23.995362+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24370"
 ---
 
 # Record 11b5077a47 · Prescriptive-SVD-Inspired-Attention-via-Spectral-Energy-Retention
@@ -16,7 +20,3 @@ Prescriptive SVD-Inspired Attention via Spectral Energy Retention
 Self-attention is central to modern Transformer architectures, but its dense dot-product formulation makes it difficult to identify which internal directions are structurally important and which can be modified without disrupting the model. SVD-Inspired Attention (SVDA) addresses part of this problem by introducing a learned diagonal spectrum into the query-key score interaction, making latent att
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 1f5fea3f35 · DynGraphAgentBench-A-Benchmark-for-Agentic-Lifecycle-Control-in-Dynami"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.855876+00:00
+updated_at: 2026-10-11T00:55:25.167503+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.33980"
 ---
 
 # Record 1f5fea3f35 · DynGraphAgentBench-A-Benchmark-for-Agentic-Lifecycle-Control-in-Dynami
@@ -16,7 +20,3 @@ DynGraphAgentBench: A Benchmark for Agentic Lifecycle Control in Dynamic Graph A
 Dynamic graph anomaly detection requires repeated decisions as graph structure and class prevalence drift, yet detector benchmarks usually score a fixed pipeline after current labels are known. We introduce DynGraphAgentBench, an executable benchmark for agentic lifecycle control under delayed feedback. It comprises seven temporal graph datasets with node- and edge-level anomaly tasks, eleven sele
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.960382+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=4ulpu2uos8I"
 ---
 
 # Record 1005 · 7-Faceless-Business-Ideas-for-Beginners
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 7 Faceless Business Ideas for Beginners
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

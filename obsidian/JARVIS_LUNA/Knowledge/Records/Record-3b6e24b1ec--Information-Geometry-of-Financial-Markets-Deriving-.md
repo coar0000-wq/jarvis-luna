@@ -2,8 +2,14 @@
 title: "Record 3b6e24b1ec · Information-Geometry-of-Financial-Markets-Deriving-Market-Constants-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.936106+00:00
+updated_at: 2026-10-11T00:55:26.095733+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18653157"
+kind: "논문"
 ---
 
 # Record 3b6e24b1ec · Information-Geometry-of-Financial-Markets-Deriving-Market-Constants-fr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Information Geometry of Financial Markets: Deriving Market Constants from 5+5+1 Dimensional Geometry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

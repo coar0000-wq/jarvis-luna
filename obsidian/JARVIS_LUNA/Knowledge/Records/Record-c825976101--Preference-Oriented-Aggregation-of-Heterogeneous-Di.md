@@ -2,8 +2,12 @@
 title: "Record c825976101 · Preference-Oriented-Aggregation-of-Heterogeneous-Di"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.928049+00:00
+updated_at: 2026-10-11T00:55:11.595464+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03252v1"
 ---
 
 # Record c825976101 · Preference-Oriented-Aggregation-of-Heterogeneous-Di
@@ -16,7 +20,3 @@ Preference-Oriented Aggregation of Heterogeneous Distributed Energy Resources fo
 Aggregating distributed energy resources (DERs) aims to encode their collective flexibility into a single set for efficient grid dispatch. However, existing aggregation methods are overly conservative for heterogeneous DERs due to two main challenges: 1) dimensional heterogeneity, which complicates the combination of flexibilities across different time dimensions, and 2) type heterogeneity, where
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

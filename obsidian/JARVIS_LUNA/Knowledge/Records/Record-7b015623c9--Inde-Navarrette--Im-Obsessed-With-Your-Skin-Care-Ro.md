@@ -2,8 +2,12 @@
 title: "Record 7b015623c9 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.720060+00:00
+updated_at: 2026-10-11T00:55:54.287123+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=HTVhnahxInY"
 ---
 
 # Record 7b015623c9 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Ro
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Inde Navarrette- I'm Obsessed With Your Skin Care Routine 😍
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.078648+00:00
+updated_at: 2026-10-11T00:55:28.213562+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake/default.aspx"
+kind: "발표물"
 ---
 
 # Record bc7b4e1f4a · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Sca
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Thomson Reuters Powers Trusted Enterprise AI at Scale on Snowflake
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

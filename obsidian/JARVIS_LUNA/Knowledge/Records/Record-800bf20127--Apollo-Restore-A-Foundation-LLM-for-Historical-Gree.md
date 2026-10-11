@@ -2,8 +2,14 @@
 title: "Record 800bf20127 · Apollo-Restore-A-Foundation-LLM-for-Historical-Greek-Optimized-for-Fil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.756091+00:00
+updated_at: 2026-10-11T00:55:23.825135+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Mistral AI"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.22455"
+kind: "논문"
 ---
 
 # Record 800bf20127 · Apollo-Restore-A-Foundation-LLM-for-Historical-Greek-Optimized-for-Fil
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Apollo Restore: A Foundation LLM for Historical Greek Optimized for Fill-in-the-Middle Restoration of Ancient Greek Texts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

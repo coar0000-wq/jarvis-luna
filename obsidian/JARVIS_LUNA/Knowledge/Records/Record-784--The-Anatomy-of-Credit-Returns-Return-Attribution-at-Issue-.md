@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.930082+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.3905/jfi.2026.1.223"
 ---
 
 # Record 784 · The-Anatomy-of-Credit-Returns-Return-Attribution-at-Issue-Level
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The Anatomy of Credit Returns: Return Attribution at Issue Level
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

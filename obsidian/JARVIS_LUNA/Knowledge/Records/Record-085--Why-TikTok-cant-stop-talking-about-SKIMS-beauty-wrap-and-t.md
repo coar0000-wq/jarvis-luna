@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.861015+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVnFsNVQ5VzlKOVVBZmNIMFc1Q1VYTXJSWGV6eHFmT0tEekZ5aW9SaXFtWUM2WmVLd21PaVRqdndvaHJzb1I4NVc4NDJIb2RhUlNwMDNPNURrdWxpazhxSFZWdEJiU2RCNEU4U1BuekE3Ty05dlZhNUxmLTR1YWZLYlU3Z3d0ZHYwRy0yQzQxaDJ1YjJSLUxfUWk5QXBhclhZSmhOS3czS051VWF0Wkl6SjBudGVKNzBXNkNTYVdJUkNNa2N5blJtWHdzdTlqTkViTWpIUHpPbXhKV0dROC1IczM2a1FhaXJNck1OVGZHUG9jRUU?oc=5"
 ---
 
 # Record 085 · Why-TikTok-cant-stop-talking-about-SKIMS-beauty-wrap-and-the-morning-s
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Why TikTok can’t stop talking about SKIMS’ beauty wrap and the ‘morning shed’ phenomenon - Glamour South Africa
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

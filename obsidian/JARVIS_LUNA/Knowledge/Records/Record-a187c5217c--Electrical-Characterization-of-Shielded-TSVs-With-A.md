@@ -2,8 +2,14 @@
 title: "Record a187c5217c · Electrical-Characterization-of-Shielded-TSVs-With-Airgap-Isolation-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.443061+00:00
+updated_at: 2026-10-11T00:55:18.862349+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tcpmt.2024.3358102"
+kind: "논문"
 ---
 
 # Record a187c5217c · Electrical-Characterization-of-Shielded-TSVs-With-Airgap-Isolation-for
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Electrical Characterization of Shielded TSVs With Airgap Isolation for RF/mmWave Applications
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

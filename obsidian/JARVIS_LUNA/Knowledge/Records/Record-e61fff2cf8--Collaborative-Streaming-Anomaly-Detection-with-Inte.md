@@ -2,8 +2,12 @@
 title: "Record e61fff2cf8 · Collaborative-Streaming-Anomaly-Detection-with-Interactive-Explanation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.168879+00:00
+updated_at: 2026-10-11T00:55:14.435823+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.23883"
 ---
 
 # Record e61fff2cf8 · Collaborative-Streaming-Anomaly-Detection-with-Interactive-Explanation
@@ -16,7 +20,3 @@ Collaborative Streaming Anomaly Detection with Interactive Explanations and Ense
 We present a collaborative streaming anomaly detection system for high-speed data streams that explicitly integrates human analysts into the decision loop. The system combines heterogeneous detectors and aggregates their outputs through a normalization-based weighted consensus, complemented by artifact-aware rules to stabilize anomaly scoring under deployment. To improve interpretability, it deriv
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

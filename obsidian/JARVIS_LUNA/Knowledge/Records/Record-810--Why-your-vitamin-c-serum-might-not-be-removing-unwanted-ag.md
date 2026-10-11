@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.956379+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/02PAjp6LtV0"
 ---
 
 # Record 810 · Why-your-vitamin-c-serum-might-not-be-removing-unwanted-age-spots--hyp
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Why your vitamin c serum might not be removing unwanted age spots & hyperpigmentation!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

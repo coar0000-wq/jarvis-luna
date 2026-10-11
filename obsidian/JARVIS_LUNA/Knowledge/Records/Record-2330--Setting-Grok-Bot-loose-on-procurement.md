@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.807318+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-bot-procurement"
 ---
 
 # Record 2330 · Setting-Grok-Bot-loose-on-procurement
@@ -16,7 +21,3 @@ Setting Grok Bot loose on procurement
 We gave Grok Bot access to vendor spend, contracts, and usage data. It found more than $100,000 in direct savings.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

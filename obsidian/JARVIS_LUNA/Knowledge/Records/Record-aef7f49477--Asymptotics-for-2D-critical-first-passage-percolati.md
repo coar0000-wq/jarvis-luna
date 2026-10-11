@@ -2,8 +2,14 @@
 title: "Record aef7f49477 · Asymptotics-for-2D-critical-first-passage-percolati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.498196+00:00
+updated_at: 2026-10-11T00:55:19.802788+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1214/16-aop1129"
+kind: "논문"
 ---
 
 # Record aef7f49477 · Asymptotics-for-2D-critical-first-passage-percolati
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Asymptotics for $2D$ critical first passage percolation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

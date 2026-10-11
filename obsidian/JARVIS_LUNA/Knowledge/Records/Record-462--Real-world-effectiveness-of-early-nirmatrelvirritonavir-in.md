@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.318093+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1186/s12879-026-13588-w"
 ---
 
 # Record 462 · Real-world-effectiveness-of-early-nirmatrelvirritonavir-initiation-aft
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Real-world effectiveness of early nirmatrelvir/ritonavir initiation after COVID-19 diagnosis in outpatient setting against severe illness, hospitalization, death, and long COVID in N3C
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

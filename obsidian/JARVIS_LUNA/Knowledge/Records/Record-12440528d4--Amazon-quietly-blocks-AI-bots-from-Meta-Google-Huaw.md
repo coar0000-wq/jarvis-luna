@@ -2,8 +2,12 @@
 title: "Record 12440528d4 · Amazon-quietly-blocks-AI-bots-from-Meta-Google-Huaw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.488531+00:00
+updated_at: 2026-10-11T00:55:35.322013+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZkJtU0pjMHlnX2Q4eWluTEVpRXpFRVFvRnBLY2I4ODFwdnpQRW5GX2V1T19kTVdzRi1fSzFJNzdNMzhmVkpReXlFbnRHUVVuRl94WTdHeDltWlhQWFplYTV2ZmVYTDIxbDhUNDMwU0VaM2hVUjVjVkwwZ1dxSVU0WVduQ3RyUEFjZXAwTzdFbzgxOVdaYXVuTGgzdk9LY08wSUxBYVhuQQ?oc=5"
 ---
 
 # Record 12440528d4 · Amazon-quietly-blocks-AI-bots-from-Meta-Google-Huaw
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Amazon quietly blocks AI bots from Meta, Google, Huawei and more - Modern Retail
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

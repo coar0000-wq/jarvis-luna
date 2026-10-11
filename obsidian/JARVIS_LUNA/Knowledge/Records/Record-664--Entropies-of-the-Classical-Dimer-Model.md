@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.543926+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.3390/e27070693"
 ---
 
 # Record 664 · Entropies-of-the-Classical-Dimer-Model
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Entropies of the Classical Dimer Model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

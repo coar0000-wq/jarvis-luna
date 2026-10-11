@@ -2,8 +2,12 @@
 title: "Record b53d1503d7 · I-tried-the-viral-K-beauty-serum-with-salmon-DNA-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.192579+00:00
+updated_at: 2026-10-11T00:55:30.106280+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4zY01OUFZfeTdsQUw0YzlNSmJXc2dKanp6dm1JOXVzZUs5NVBmTEdqS2tYbTFyMXBEemRvT3B1c0pycVNsc0I2ZXlXWDRqU2g2NkpvYUJ6TE5YWG1oM0J5alpRMzY?oc=5"
 ---
 
 # Record b53d1503d7 · I-tried-the-viral-K-beauty-serum-with-salmon-DNA-He
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ‘I tried the viral K-beauty serum with salmon DNA. Here's my honest review.’ - Mamamia
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 765415af8c · Power-Management-Challenges-and-Solutions-in-Advanced-Technology-Nodes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.610505+00:00
+updated_at: 2026-10-11T00:55:21.694784+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.47941/ijce.2924"
+kind: "논문"
 ---
 
 # Record 765415af8c · Power-Management-Challenges-and-Solutions-in-Advanced-Technology-Nodes
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Power Management Challenges and Solutions in Advanced Technology Nodes: A Comprehensive Analysis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

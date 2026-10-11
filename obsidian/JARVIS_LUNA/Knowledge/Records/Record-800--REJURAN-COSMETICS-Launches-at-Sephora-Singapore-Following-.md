@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.927206+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWJjU2lpS0U5TFZieGlLenQwLXllQlpZRVBTSWFPYUxBRGRvZm5hYV9BcXc2S0plaHhfNHFEX2ZYc09DVlVGdlotcl9Md3ZhcW1NT3ZXOF9UZzZUd3lIcFpQcloxSTJqVlpNdGZNaDUzbW9LUWtzVnZQWXlBdGdvQV9EdkZVSzZOWjdiTjd0T1BuU0JtX1U0VWc0eXI1c2l6ZHZSajRxT0dhb0ZFeEs4QXQxYzhfTkhhU2UydnFB?oc=5"
 ---
 
 # Record 800 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Following-Strong-Local
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 REJURAN COSMETICS Launches at Sephora Singapore Following Strong Local Demand - The Malaysian Reserve
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record dce76fabcd · One-Diffusion-Model-Two-Roles-Guided-Trajectory-Pla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.959698+00:00
+updated_at: 2026-10-11T00:55:11.976761+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04921v1"
 ---
 
 # Record dce76fabcd · One-Diffusion-Model-Two-Roles-Guided-Trajectory-Pla
@@ -16,7 +20,3 @@ One Diffusion Model, Two Roles: Guided Trajectory Planning and Safety-Critical S
 Diffusion probabilistic models can capture the multi-modal, interaction-rich distribution of joint future trajectories in driving scenes. We show that a single pretrained diffusion traffic model can serve two complementary roles in the autonomous driving development loop: as an ego motion planner, and as a controllable generator of safety-critical scenarios for stress-testing the planners. On the
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

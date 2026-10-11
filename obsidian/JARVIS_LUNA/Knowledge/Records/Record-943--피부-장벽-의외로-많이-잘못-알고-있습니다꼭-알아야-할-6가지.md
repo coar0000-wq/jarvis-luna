@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.949229+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=gD0RZu93wJg"
 ---
 
 # Record 943 · 피부-장벽-의외로-많이-잘못-알고-있습니다꼭-알아야-할-6가지
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 피부 장벽, 의외로 많이 잘못 알고 있습니다｜꼭 알아야 할 6가지
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

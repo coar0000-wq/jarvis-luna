@@ -2,8 +2,14 @@
 title: "Record a7c183de51 · The-AI-policy-window-is-open-We-need-to-act"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.624364+00:00
+updated_at: 2026-10-11T00:55:37.245865+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/ai-policy-window"
+kind: "발표물"
 ---
 
 # Record a7c183de51 · The-AI-policy-window-is-open-We-need-to-act
@@ -16,7 +22,3 @@ The AI policy window is open. We need to act.
 Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

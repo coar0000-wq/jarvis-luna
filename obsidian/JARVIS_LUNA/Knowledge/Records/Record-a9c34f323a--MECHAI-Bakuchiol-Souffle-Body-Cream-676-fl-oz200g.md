@@ -2,8 +2,12 @@
 title: "Record a9c34f323a · MECHAI-Bakuchiol-Souffle-Body-Cream-676-fl-oz200g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.770256+00:00
+updated_at: 2026-10-11T00:55:39.649579+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA13809435"
 ---
 
 # Record a9c34f323a · MECHAI-Bakuchiol-Souffle-Body-Cream-676-fl-oz200g
@@ -16,7 +20,3 @@ MECHAI Bakuchiol Souffle Body Cream 6.76 fl. oz.(200g)
 MECHAI Bakuchiol Souffle Body Cream 6.76 fl. oz.(200g) · 평점 4.8 · 리뷰 148
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

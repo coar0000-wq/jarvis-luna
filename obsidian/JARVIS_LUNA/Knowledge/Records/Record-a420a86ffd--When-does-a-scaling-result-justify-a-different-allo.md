@@ -2,8 +2,12 @@
 title: "Record a420a86ffd · When-does-a-scaling-result-justify-a-different-allocation-A-critical-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.093451+00:00
+updated_at: 2026-10-11T00:55:13.522847+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.14500"
 ---
 
 # Record a420a86ffd · When-does-a-scaling-result-justify-a-different-allocation-A-critical-r
@@ -16,7 +20,3 @@ When does a scaling result justify a different allocation? A critical review of 
 AI scaling studies increasingly evaluate systems that combine a pretrained model with retrieval, search, verification, tools, and interaction. Yet a higher score under a larger budget does not by itself show where additional resources are best spent. This critical integrative review asks when a reported scaling result supports a resource-allocation decision. It compares evidence across pretraining
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

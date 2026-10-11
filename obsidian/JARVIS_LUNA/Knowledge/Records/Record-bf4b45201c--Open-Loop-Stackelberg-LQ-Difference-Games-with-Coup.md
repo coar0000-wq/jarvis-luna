@@ -2,8 +2,12 @@
 title: "Record bf4b45201c · Open-Loop-Stackelberg-LQ-Difference-Games-with-Coup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.960299+00:00
+updated_at: 2026-10-11T00:55:11.984134+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04928v1"
 ---
 
 # Record bf4b45201c · Open-Loop-Stackelberg-LQ-Difference-Games-with-Coup
@@ -16,7 +20,3 @@ Open-Loop Stackelberg LQ Difference Games with Coupled-Affine Inequality Constra
 In this letter, we study finite-horizon linear-quadratic Stackelberg difference games with coupled-affine state-control inequality constraints. Under the stated assumptions, we show that generalized open-loop Stackelberg equilibria admit an exact reformulation as an optimal control problem subject to a discrete-time linear complementarity system. Eliminating the dynamic variables yields a large-sc
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

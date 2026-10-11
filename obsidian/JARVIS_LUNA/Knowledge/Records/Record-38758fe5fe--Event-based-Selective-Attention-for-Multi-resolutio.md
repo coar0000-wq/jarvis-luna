@@ -2,8 +2,12 @@
 title: "Record 38758fe5fe · Event-based-Selective-Attention-for-Multi-resolution-Fast-Region-of-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.695467+00:00
+updated_at: 2026-10-11T00:55:23.140965+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.17134"
 ---
 
 # Record 38758fe5fe · Event-based-Selective-Attention-for-Multi-resolution-Fast-Region-of-In
@@ -16,7 +20,3 @@ Event-based Selective Attention for Multi-resolution Fast Region of Interest (RO
 Neuromorphic vision systems operate under strict constraints on bandwidth, memory, and energy, particularly at the edge, motivating early mechanisms for data reduction and selective processing. In this work, we investigate a multi-scale training-free, saliency-based, bottom-up visual attention model that operates directly on low-resolution event-based input and selects Regions of Interest (ROI) fr
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

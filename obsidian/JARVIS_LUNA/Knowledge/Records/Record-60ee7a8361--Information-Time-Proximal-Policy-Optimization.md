@@ -2,8 +2,14 @@
 title: "Record 60ee7a8361 · Information-Time-Proximal-Policy-Optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.768287+00:00
+updated_at: 2026-10-11T00:55:23.996616+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24380"
+kind: "논문"
 ---
 
 # Record 60ee7a8361 · Information-Time-Proximal-Policy-Optimization
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Information-Time Proximal Policy Optimization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

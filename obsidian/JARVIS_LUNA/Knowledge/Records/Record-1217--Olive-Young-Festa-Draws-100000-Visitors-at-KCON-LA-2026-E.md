@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.079895+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "인프라클라우드"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE53cFVqbnF1cjdjNktMV0JEeHhNT1kwVzFoTFdRRDBQU2pXTEVYaFM0MDMxeHRGelRlVUlTUDlQNUZJSWtFZW9jdUp4U3kzQWJTX1luT0xTWkwzVGpGY0F6OVgzb0M1ekxqbnNxQlNuV05TSWlZTjBYMg?oc=5"
 ---
 
 # Record 1217 · Olive-Young-Festa-Draws-100000-Visitors-at-KCON-LA-2026-Expanding-K-Be
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young Festa Draws 100,000 Visitors at KCON LA 2026, Expanding K-Beauty in the US - BeautyMatter
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

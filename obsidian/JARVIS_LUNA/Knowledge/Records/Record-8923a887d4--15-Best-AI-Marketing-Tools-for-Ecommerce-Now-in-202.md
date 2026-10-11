@@ -2,8 +2,12 @@
 title: "Record 8923a887d4 · 15-Best-AI-Marketing-Tools-for-Ecommerce-Now-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.159773+00:00
+updated_at: 2026-10-11T00:55:29.513982+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LUjhYSFNpSWhvNjlscC1KMlh4aXRvajJTMUtURDcxc3F6NU1oNkdiNHJtejh6VzNib2RVWHUtZDNFY1lKQ3ZhZjVodEFtcG14UXI0ZlpGTGdtSUJPUGww?oc=5"
 ---
 
 # Record 8923a887d4 · 15-Best-AI-Marketing-Tools-for-Ecommerce-Now-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 15+ Best AI Marketing Tools for Ecommerce Now in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

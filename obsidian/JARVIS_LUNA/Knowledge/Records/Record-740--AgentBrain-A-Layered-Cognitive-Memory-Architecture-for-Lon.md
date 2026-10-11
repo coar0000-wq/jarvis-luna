@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.497211+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "투자은행금융"]
+org: "Goldman-Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.20371134"
 ---
 
 # Record 740 · AgentBrain-A-Layered-Cognitive-Memory-Architecture-for-Long-Lived-AI-A
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AgentBrain: A Layered Cognitive Memory Architecture for Long-Lived AI Agents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

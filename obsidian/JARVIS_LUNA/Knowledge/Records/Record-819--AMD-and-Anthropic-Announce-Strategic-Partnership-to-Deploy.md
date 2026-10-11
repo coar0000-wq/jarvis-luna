@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.964166+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["음성오디오", "반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus"
 ---
 
 # Record 819 · AMD-and-Anthropic-Announce-Strategic-Partnership-to-Deploy-Up-to-2-Gig
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of AMD Instinct MI450 Series GPUs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[음성오디오]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

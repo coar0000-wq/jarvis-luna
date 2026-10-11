@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.885268+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE5URWZMQlc3Z0NHU2ZIRnNYdWJldWlxZnl6VTJmc0dpOS1oRWtBaVMyYjEyTW4tbTRRSkNkWjdMTDQxU0pGa1BkVEJqZmVaTnQ5UFNCU3NrN0NzaDBSUjRkY2t6TmhMWUwzYXVZdDFn?oc=5"
 ---
 
 # Record 252 · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-Performance-Bodycare
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Korean Skincare Isn't Just for Your Face—These High-Performance Bodycare Products Will Elevate Your Routine - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

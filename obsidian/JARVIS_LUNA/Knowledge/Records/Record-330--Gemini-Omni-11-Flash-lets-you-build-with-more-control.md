@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.393710+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
 ---
 
 # Record 330 · Gemini-Omni-11-Flash-lets-you-build-with-more-control
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Gemini Omni 1.1 Flash lets you build with more control
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

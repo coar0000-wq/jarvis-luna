@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.823998+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s42952-026-00390-2"
 ---
 
 # Record 363 · Spatial-nonparametric-Bayesian-Poisson-hurdle-model-for-analyzing-zero
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Spatial nonparametric Bayesian Poisson hurdle model for analyzing zero-inflated tick data
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record c7fc52b438 · Developing-a-Fluorescence-Based-High-Throughput-Screening-Method-for-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.588952+00:00
+updated_at: 2026-10-11T00:55:21.285441+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.3390/pharmaceutics18091158"
+kind: "논문"
 ---
 
 # Record c7fc52b438 · Developing-a-Fluorescence-Based-High-Throughput-Screening-Method-for-N
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Developing a Fluorescence-Based High-Throughput Screening Method for Natural Product Fractions to Identify Inhibitors of AR-V7 for Castration-Resistant Prostate Cancer
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

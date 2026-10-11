@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.804284+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-foundation-for-acne"
 ---
 
 # Record 2123 · 8-Best-Foundations-for-Oily-Skin-for-a-Smooth-Natural-Looking-Finish
@@ -16,7 +20,3 @@ tags: [record, real-data]
 8 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

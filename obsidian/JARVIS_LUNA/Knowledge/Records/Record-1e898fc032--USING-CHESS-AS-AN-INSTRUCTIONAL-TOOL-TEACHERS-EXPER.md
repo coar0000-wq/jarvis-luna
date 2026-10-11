@@ -2,8 +2,14 @@
 title: "Record 1e898fc032 · USING-CHESS-AS-AN-INSTRUCTIONAL-TOOL-TEACHERS-EXPERIENCES-AND-CHALLENG"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.558554+00:00
+updated_at: 2026-10-11T00:55:20.778432+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.24234/miopap.v11i2.39"
+kind: "논문"
 ---
 
 # Record 1e898fc032 · USING-CHESS-AS-AN-INSTRUCTIONAL-TOOL-TEACHERS-EXPERIENCES-AND-CHALLENG
@@ -15,7 +21,3 @@ tags: [record, real-data]
 USING CHESS AS AN INSTRUCTIONAL TOOL: TEACHERS’ EXPERIENCES AND CHALLENGES
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.355647+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04807v1"
 ---
 
 # Record 134 · CoLMIN-LLM-based-Multi-Decision-Path-Negotiation-for-Cooperative-Auton
@@ -16,7 +20,3 @@ CoLMIN: LLM-based Multi-Decision Path Negotiation for Cooperative Autonomous Dri
 Multi-vehicle cooperative autonomous driving enhances the safety and reliability of autonomous driving systems through information sharing among connected vehicles, demonstrating significant potential for improving traffic safety. LLM-based approaches leverage strong reasoning capabilities of LLMs to enable effective inter-vehicle negotiation and improve cooperative driving performance. However, d
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

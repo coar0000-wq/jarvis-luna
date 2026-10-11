@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.960412+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.04.22.26351491"
 ---
 
 # Record 910 · Methylation-profiling-in-the-Million-Veteran-Program-design-quality-co
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Methylation profiling in the Million Veteran Program: design, quality control, and smoking-associated epigenetic signatures
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 5e584fad81 · Vapor-phase-HMDS-passivation-improves-performance-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.381285+00:00
+updated_at: 2026-10-11T00:55:17.756853+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1063/5.0341196"
+kind: "논문"
 ---
 
 # Record 5e584fad81 · Vapor-phase-HMDS-passivation-improves-performance-a
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Vapor-phase HMDS passivation improves performance and ambient stability of niobium superconducting resonators
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

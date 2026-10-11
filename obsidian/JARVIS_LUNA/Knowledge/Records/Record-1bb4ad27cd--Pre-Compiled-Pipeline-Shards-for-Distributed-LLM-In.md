@@ -2,8 +2,14 @@
 title: "Record 1bb4ad27cd · Pre-Compiled-Pipeline-Shards-for-Distributed-LLM-Inference-on-Intel-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.661533+00:00
+updated_at: 2026-10-11T00:55:22.658790+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2608.19147"
+kind: "논문"
 ---
 
 # Record 1bb4ad27cd · Pre-Compiled-Pipeline-Shards-for-Distributed-LLM-Inference-on-Intel-AI
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 31b8e4bb00 · Understanding-Dynamic-Scenes-at-Gigapixel-Scale-Wide-Area-Spatio-Tempo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.123923+00:00
+updated_at: 2026-10-11T00:55:13.903817+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.18210"
 ---
 
 # Record 31b8e4bb00 · Understanding-Dynamic-Scenes-at-Gigapixel-Scale-Wide-Area-Spatio-Tempo
@@ -16,7 +20,3 @@ Understanding Dynamic Scenes at Gigapixel Scale: Wide-Area Spatio-Temporal Perce
 UAV-borne imaging has advanced from megapixel to gigapixel sensors, shifting aerial perception from recognizing individual targets to understanding entire dynamic scenes. We characterize this demand as Wide-area Spatio-temporal Scene Understanding (WSTU), which requires wide-area coverage, per-target resolution, and temporal continuity at once, a combination existing datasets lack. To fill this ga
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

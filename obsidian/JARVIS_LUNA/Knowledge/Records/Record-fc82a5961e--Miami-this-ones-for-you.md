@@ -2,8 +2,12 @@
 title: "Record fc82a5961e · Miami-this-ones-for-you"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.686827+00:00
+updated_at: 2026-10-11T00:55:53.506616+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/2qnuJYH8CL8"
 ---
 
 # Record fc82a5961e · Miami-this-ones-for-you
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Miami, this one’s for you 🔥
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

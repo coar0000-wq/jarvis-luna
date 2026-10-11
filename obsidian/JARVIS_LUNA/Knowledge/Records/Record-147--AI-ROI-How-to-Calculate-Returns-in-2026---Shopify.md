@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.051047+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1d2RZc0MyMzllbU1XeFdPVjVfRWRfMW96NlM5SWF4NlJTNnM4Tm8wV3N2ZTBldTdOak9KMXI1VWhHT0ZUTzhMX2hxSUtVM21hbU5ybkRhWU9fS1ZQb1E?oc=5"
 ---
 
 # Record 147 · AI-ROI-How-to-Calculate-Returns-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 AI ROI: How to Calculate Returns in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

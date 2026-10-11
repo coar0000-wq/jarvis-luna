@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.905295+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/hKttdvzqVsE"
 ---
 
 # Record 2650 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Bought A Product From This Viral AI UGC Ad
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

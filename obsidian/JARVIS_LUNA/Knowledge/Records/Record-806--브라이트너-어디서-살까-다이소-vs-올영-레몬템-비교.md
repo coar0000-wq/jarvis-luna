@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.974973+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/fdJIB50A04E"
 ---
 
 # Record 806 · 브라이트너-어디서-살까-다이소-vs-올영-레몬템-비교
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 브라이트너 어디서 살까? 다이소 vs 올영 레몬템 비교
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

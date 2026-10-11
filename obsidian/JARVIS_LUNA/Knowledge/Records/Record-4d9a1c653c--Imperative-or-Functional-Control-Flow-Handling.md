@@ -2,8 +2,14 @@
 title: "Record 4d9a1c653c · Imperative-or-Functional-Control-Flow-Handling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.472013+00:00
+updated_at: 2026-10-11T00:55:19.315768+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3542700.3542715"
+kind: "논문"
 ---
 
 # Record 4d9a1c653c · Imperative-or-Functional-Control-Flow-Handling
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Imperative or Functional Control Flow Handling
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

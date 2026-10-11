@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.317935+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd25vUHFJN1h3UnJhaDJRVHdiRGJMTXZJNXFLUTh6bHh1ZkFWR3BJZVJKMDZSNkFUUEcyUXpSeUYzaFBiZGdPNmpfcWc4TlV3Y0pZbDF1T0R1SGdiZDA4ajdmaWMtNzR2eHFfcURILUwxekNzdEF2TWdSN3RqTEI4b1EwdW9FcFl3MFI1SmRQd29zM1FQVXZXZmExeWl6SlR5bjlVZlY5dHNzcU11RlZn?oc=5"
 ---
 
 # Record 751 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-skin-trend-takes-ov
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 K-Beauty boom: Korean skincare sales surge as ‘glass skin’ trend takes over social media - wtsp.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

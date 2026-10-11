@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.921684+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZzM1U1R3bU1NMGoyS1JCN0xXbGU5dFZJSHZzUENUNWRUVUtOY1lJYS1QRTlzUV9QQ0tSY0pZUGZ5bDNZSllFREZqMVRaa1NFZV9RejhlRnU5SVF5dF81SUVIQV8zZmZWd2huTEltaDBWNjhGU25TRGdRR1FVT2RRWXo1Z3NEV2FuMlV3X2liaDZnRkVYckJIaWtiMkhWUkJmMTRISWx3?oc=5"
 ---
 
 # Record 711 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-Skincare-Trends---H
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Tranexamic Acid Cream, Retinal Serums Lead K-Beauty Skincare Trends - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

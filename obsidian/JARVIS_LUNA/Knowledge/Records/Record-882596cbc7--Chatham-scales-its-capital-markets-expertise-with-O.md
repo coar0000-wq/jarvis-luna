@@ -2,8 +2,14 @@
 title: "Record 882596cbc7 · Chatham-scales-its-capital-markets-expertise-with-OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.629440+00:00
+updated_at: 2026-10-11T00:55:37.325602+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "LLM언어모델", "모델-라우팅MoE"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/chatham-financial"
+kind: "발표물"
 ---
 
 # Record 882596cbc7 · Chatham-scales-its-capital-markets-expertise-with-OpenAI
@@ -16,7 +22,3 @@ Chatham scales its capital markets expertise with OpenAI
 Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[모델-라우팅MoE]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

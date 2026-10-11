@@ -2,8 +2,12 @@
 title: "Record c2b3824a20 · Faster-shipping-can-make-a-big-difference-for-your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.687490+00:00
+updated_at: 2026-10-11T00:55:53.515432+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략", "이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/3gaZeiqPzxM"
 ---
 
 # Record c2b3824a20 · Faster-shipping-can-make-a-big-difference-for-your-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Faster shipping can make a big difference for your eCommerce business. 📦
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

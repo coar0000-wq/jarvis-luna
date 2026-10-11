@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.066329+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHVUx3Znh5RVNXMHVEUWtvXy1wRDQ0N3ZxajBCRTFxSHJoblgydkJFTm1CaXhQeVJ0YUx4MDN3dzNtaE9BcDhuYUNSbllmZw?oc=5"
 ---
 
 # Record 077 · So-What-Exactly-Is-K-Beauty---coveteurcom
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 So, What Exactly Is K-Beauty? - coveteur.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

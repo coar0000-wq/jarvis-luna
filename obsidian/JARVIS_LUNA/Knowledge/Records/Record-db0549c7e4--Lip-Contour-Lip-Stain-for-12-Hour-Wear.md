@@ -2,8 +2,12 @@
 title: "Record db0549c7e4 · Lip-Contour-Lip-Stain-for-12-Hour-Wear"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.559949+00:00
+updated_at: 2026-10-11T00:55:51.548156+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.sephora.com"
+url: "https://www.sephora.com/product/huda-beauty-lip-contour-stain-P516661"
 ---
 
 # Record db0549c7e4 · Lip-Contour-Lip-Stain-for-12-Hour-Wear
@@ -16,7 +20,3 @@ Lip Contour Lip Stain for 12-Hour Wear
 Lip Contour Lip Stain for 12-Hour Wear · HUDA BEAUTY · $25
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

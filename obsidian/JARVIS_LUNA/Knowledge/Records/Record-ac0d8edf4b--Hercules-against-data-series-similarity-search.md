@@ -2,8 +2,14 @@
 title: "Record ac0d8edf4b · Hercules-against-data-series-similarity-search"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.510553+00:00
+updated_at: 2026-10-11T00:55:20.033838+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.14778/3547305.3547308"
+kind: "논문"
 ---
 
 # Record ac0d8edf4b · Hercules-against-data-series-similarity-search
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Hercules against data series similarity search
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

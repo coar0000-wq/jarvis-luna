@@ -2,8 +2,12 @@
 title: "Record 646d8b7915 · Using-Automated-Vehicles-Operational-Data-to-Confir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.062680+00:00
+updated_at: 2026-10-11T00:55:13.194725+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["법률규제", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11549v1"
 ---
 
 # Record 646d8b7915 · Using-Automated-Vehicles-Operational-Data-to-Confir
@@ -16,7 +20,3 @@ Using Automated Vehicles Operational Data to Confirm Safety and Anticipate Threa
 European Union (EU) policymakers adopted revolutionary data collection provisions for Automated Driving Systems (ADS) in the recently approved regulation that allows driverless vehicles to be operated on public roads. The framework is inspired by best practices developed at the United Nations Economic Commission for Europe(UNECE) level: the In-Service Monitoring and Reporting (ISMR); and by simila
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[법률규제]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

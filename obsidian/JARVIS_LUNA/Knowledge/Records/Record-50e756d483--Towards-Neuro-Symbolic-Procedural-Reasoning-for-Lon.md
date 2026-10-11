@@ -2,8 +2,12 @@
 title: "Record 50e756d483 · Towards-Neuro-Symbolic-Procedural-Reasoning-for-Lon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.975886+00:00
+updated_at: 2026-10-11T00:55:12.161142+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05369v1"
 ---
 
 # Record 50e756d483 · Towards-Neuro-Symbolic-Procedural-Reasoning-for-Lon
@@ -16,7 +20,3 @@ Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Act
 Vision-language-action (VLA) models can execute short manipulation skills, but remain brittle in long-horizon procedures requiring persistent task state, dependency-aware reasoning, conditional decisions, and reliable grounding. We investigate a neuro-symbolic framework that combines learned VLA control with explicit task graphs and multimodal procedural memory. Task graphs encode action dependenc
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

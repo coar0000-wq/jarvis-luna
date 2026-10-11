@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.044438+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour"
 ---
 
 # Record 2043 · How-we-eliminated-1-million-a-year-of-wasted-AI-agent-spend-in-one-hou
@@ -16,7 +21,3 @@ How we eliminated $1 million a year of wasted AI agent spend in one hour
 Databricks engineers rely heavily on AI agents to streamline and accelerate their work. In turn...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

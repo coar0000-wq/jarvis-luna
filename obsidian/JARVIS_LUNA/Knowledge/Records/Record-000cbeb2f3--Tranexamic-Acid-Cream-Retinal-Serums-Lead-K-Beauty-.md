@@ -2,8 +2,12 @@
 title: "Record 000cbeb2f3 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.484210+00:00
+updated_at: 2026-10-11T00:55:35.247104+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZzM1U1R3bU1NMGoyS1JCN0xXbGU5dFZJSHZzUENUNWRUVUtOY1lJYS1QRTlzUV9QQ0tSY0pZUGZ5bDNZSllFREZqMVRaa1NFZV9RejhlRnU5SVF5dF81SUVIQV8zZmZWd2huTEltaDBWNjhGU25TRGdRR1FVT2RRWXo1Z3NEV2FuMlV3X2liaDZnRkVYckJIaWtiMkhWUkJmMTRISWx3?oc=5"
 ---
 
 # Record 000cbeb2f3 · Tranexamic-Acid-Cream-Retinal-Serums-Lead-K-Beauty-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Tranexamic Acid Cream, Retinal Serums Lead K-Beauty Skincare Trends - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

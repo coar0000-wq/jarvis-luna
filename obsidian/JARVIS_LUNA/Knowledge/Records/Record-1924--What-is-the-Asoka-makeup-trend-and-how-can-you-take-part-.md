@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.558751+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdklxN3ppSWJCQXF6MlA5Z1d5M3l4TElXMUtrS0lMaWgtMDJIR2FMM3VGb2hjZ1hQWFJTeEExeFFfdEhoWkhVdS11OElHVzkwbm1fWF9UVDVIMlVsM2FEZWRHQzcxU3NlaFlNcTVMeEF5V0JVZGo0czZlbDZHNXY5by1yWHdHUER6Y2c2T0NJdnhSM3dPZERjM09qdjZ6NkNpRHFhdnNacW96eDVRTG4yRnJ30gG3AUFVX3lxTE9yS0ZRTDV4alI1NHNBUklFWkxwcjVDVUc0ektFMHItRmc5UVZEX3FHMWhLWmZMckIxMzl1YzNtVkZNNnhteTlaMVpidDRXcF93ZWJ1Tm1OLTVaVjlpYnk5TFAzNVVZQkkyWkNjTkRfUFh5c0xzek5BVS1McW80bnNhQWRyZWIxbktDbm9LeWlNQTlBNUJDeXZscTVQV1VyTmtIV2ZKM3pQZWpzX25LZ05xdFVJMUkySQ?oc=5"
 ---
 
 # Record 1924 · What-is-the-Asoka-makeup-trend-and-how-can-you-take-part-in-this-TikTo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is the Asoka makeup trend and how can you take part in this TikTok beauty challenge? - Prestige Online - Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

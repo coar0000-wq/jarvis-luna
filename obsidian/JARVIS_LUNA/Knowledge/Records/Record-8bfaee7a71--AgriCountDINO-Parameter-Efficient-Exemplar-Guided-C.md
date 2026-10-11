@@ -2,8 +2,12 @@
 title: "Record 8bfaee7a71 · AgriCountDINO-Parameter-Efficient-Exemplar-Guided-Counting-and-Localiz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.202576+00:00
+updated_at: 2026-10-11T00:55:14.901718+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.29460"
 ---
 
 # Record 8bfaee7a71 · AgriCountDINO-Parameter-Efficient-Exemplar-Guided-Counting-and-Localiz
@@ -16,7 +20,3 @@ AgriCountDINO: Parameter-Efficient Exemplar-Guided Counting and Localization in 
 Accurate counting and localization of plants and their organs support phenotyping and yield estimation, yet target appearance, scale, and density vary widely across species and imaging conditions. Exemplar boxes specify the target without category-specific retraining, and point predictions identify the individual instances contributing to the count. We introduce AgriCountDINO, a parameter-efficien
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

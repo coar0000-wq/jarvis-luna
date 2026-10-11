@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.567343+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2bFE1SWdhV2ZBeURBV1ViVlhtMDBiLXdVcHBGV0VRWHJTZklaTGhITE9GcDZVUG5JUEhUYi1vaGlKQzNPOEg5N2lsU2E5RTZSVlZ0RGMtbVlvZ3oxaU9MckZrZnNWWWlyWHpsRV9pNA?oc=5"
 ---
 
 # Record 223 · What-is-Contrast-Makeup-Breaking-Down-TikToks-Latest-Beauty-Trend---S-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 What is Contrast Makeup? Breaking Down TikTok’s Latest Beauty Trend - S Magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

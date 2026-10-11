@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.353351+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/GpnRD6lOXB0"
 ---
 
 # Record 2052 · 선크림-집에서도-필요할까-재도포는-언제-해야-할까
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선크림, 집에서도 필요할까? 재도포는 언제 해야 할까?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

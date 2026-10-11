@@ -2,8 +2,14 @@
 title: "Record 3b1dc304a5 · DFM-Difference-Feature-Modeling-with-Text-Guided-Gated-Contrastive-Los"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.645415+00:00
+updated_at: 2026-10-11T00:55:22.415649+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.27410"
+kind: "논문"
 ---
 
 # Record 3b1dc304a5 · DFM-Difference-Feature-Modeling-with-Text-Guided-Gated-Contrastive-Los
@@ -15,7 +21,3 @@ tags: [record, real-data]
 DFM: Difference Feature Modeling with Text-Guided Gated Contrastive Loss for Remote Sensing Image Change Captioning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 06cc511bab · Fusion-Estimation-in-Multi-sensor-Systems-for-Data-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.049185+00:00
+updated_at: 2026-10-11T00:55:13.054097+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11062v1"
 ---
 
 # Record 06cc511bab · Fusion-Estimation-in-Multi-sensor-Systems-for-Data-
@@ -16,7 +20,3 @@ Fusion Estimation in Multi-sensor Systems for Data Packets with Disrupted Identi
 In this paper, we explore the problem of fusion estimation for a multi-sensor system where the identity of the data packet received by each sensor may be disrupted or incorrect due to confusion in device identity allocation, communication protocol defects, or the lack of a clear sensor identifier. This can result in a random shuffle of the data components during the fusion estimation process, comp
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

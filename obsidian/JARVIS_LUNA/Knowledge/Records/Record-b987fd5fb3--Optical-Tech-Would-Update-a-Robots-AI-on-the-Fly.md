@@ -2,8 +2,12 @@
 title: "Record b987fd5fb3 · Optical-Tech-Would-Update-a-Robots-AI-on-the-Fly"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.738163+00:00
+updated_at: 2026-10-11T00:55:39.285695+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/ai-in-robotics"
 ---
 
 # Record b987fd5fb3 · Optical-Tech-Would-Update-a-Robots-AI-on-the-Fly
@@ -16,7 +20,3 @@ Optical Tech Would Update a Robot’s AI on the Fly
 <img src="https://spectrum.ieee.org/media-library/an-asian-man-positions-the-lens-of-an-optical-receiver-a-meter-away-from-a-beam-of-led-light-in-a-lab.jpg?id=67530602&width=1245&height=700&coordinates=0%2C469%2C0%2C470"/><br/><br/><p>Atop a lab bench, <a href="https://tech.cornell.edu/" rel="noopener noreferrer" target="_blank">Cornell Tech</a> postdoctoral researcher <a href="https://www.linkedi
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.081791+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=3dFUYg-67ag"
 ---
 
 # Record 589 · Every-Tretinoin-Hack-You-Need-To-Know
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Every Tretinoin Hack You Need To Know
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

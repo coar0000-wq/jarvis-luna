@@ -2,8 +2,12 @@
 title: "Record 4837b11b58 · Lip--Cheek-Cream-Blush-Stick-and-Lip-Color-Satin-Finish"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.643290+00:00
+updated_at: 2026-10-11T00:55:52.828029+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/lip-cheek-cream-blush-stick-lip-color-satin-finish-pimprod2060261"
 ---
 
 # Record 4837b11b58 · Lip--Cheek-Cream-Blush-Stick-and-Lip-Color-Satin-Finish
@@ -16,7 +20,3 @@ Lip + Cheek Cream Blush Stick and Lip Color (Satin Finish)
 Lip + Cheek Cream Blush Stick and Lip Color (Satin Finish) · MILK MAKEUP · $28
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

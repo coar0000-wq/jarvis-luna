@@ -2,8 +2,12 @@
 title: "Record ec4493312c · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Fron"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.924019+00:00
+updated_at: 2026-10-11T00:55:42.320078+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/fall-makeup-trends-2026"
 ---
 
 # Record ec4493312c · Fall-2026-Makeup-Trends-Put-Your-Best-Features-Fron
@@ -16,7 +20,3 @@ Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos
 Fall 2026 Makeup Trends Put Your Best Features Front and Center — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 6cf5e43fb7 · tarte-CC-tinted-serum--Color-Correcting-Tinted-Serum-with-Color-Changi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.350210+00:00
+updated_at: 2026-10-11T00:55:47.727330+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/tarte-tinted-serum-Color-Correcting-Color-Changing/dp/B0GY1GCVGT/ref=zg_bsnr_g_beauty_d_sccl_6/139-6512042-2160214"
 ---
 
 # Record 6cf5e43fb7 · tarte-CC-tinted-serum--Color-Correcting-Tinted-Serum-with-Color-Changi
@@ -16,7 +20,3 @@ tarte CC tinted serum — Color-Correcting Tinted Serum with Color-Changing Shad
 tarte CC tinted serum — Color-Correcting Tinted Serum with Color-Changing Shade-Matching Adaptisphere Technology, Lightweight Coverage, No-Makeup Makeup, Waterproof, 16HR Wear, vegan & cruelty-free · $42 · 평점 3.8 · 리뷰 611
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

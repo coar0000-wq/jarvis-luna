@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.032419+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.knosys.2026.116985"
 ---
 
 # Record 332 · Leveraging-gated-architectures-for-enhanced-long-range-dependency-lear
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Leveraging gated architectures for enhanced long-range dependency learning in non-attributed graphs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

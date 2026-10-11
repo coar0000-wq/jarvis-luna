@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.011563+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1002/advs.202518788"
 ---
 
 # Record 247 · Bone-Organoids-A-Novel-Tool-for-Modeling-and-Managing-Skeletal-Disorde
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Bone Organoids: A Novel Tool for Modeling and Managing Skeletal Disorders in Diabetes
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

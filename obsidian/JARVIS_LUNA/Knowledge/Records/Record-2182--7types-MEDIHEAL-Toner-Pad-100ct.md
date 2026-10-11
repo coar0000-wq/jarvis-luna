@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.052283+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA74545007"
 ---
 
 # Record 2182 · 7types-MEDIHEAL-Toner-Pad-100ct
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [7types] MEDIHEAL Toner Pad 100ct · 평점 4.8 · 리뷰 13,011
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

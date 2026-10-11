@@ -2,8 +2,12 @@
 title: "Record b31cd7515b · Facelove-EVERLOVE-Tubing-Mascara-for-Mature-Women-Volume--Length--Up-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.076490+00:00
+updated_at: 2026-10-11T00:55:44.342407+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Facelove-EVERLOVE-Tubing-Mascara-Mature/dp/B0H6R7V4VJ/ref=zg_bsnr_g_beauty_d_sccl_11/146-2119587-8197020"
 ---
 
 # Record b31cd7515b · Facelove-EVERLOVE-Tubing-Mascara-for-Mature-Women-Volume--Length--Up-t
@@ -16,7 +20,3 @@ Facelove EVERLOVE Tubing Mascara for Mature Women, Volume & Length | Up to 5x Le
 Facelove EVERLOVE Tubing Mascara for Mature Women, Volume & Length | Up to 5x Length & Volume, Clump-Free Separation, Hypoallergenic, Water-Resistant Black Mascara · $29.95 · 평점 4.4 · 리뷰 66
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

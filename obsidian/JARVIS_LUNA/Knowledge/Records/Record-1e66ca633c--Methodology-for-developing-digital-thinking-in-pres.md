@@ -2,8 +2,14 @@
 title: "Record 1e66ca633c · Methodology-for-developing-digital-thinking-in-preschool-children"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.942481+00:00
+updated_at: 2026-10-11T00:55:26.207190+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.19696452"
+kind: "논문"
 ---
 
 # Record 1e66ca633c · Methodology-for-developing-digital-thinking-in-preschool-children
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Methodology for developing digital thinking in preschool children
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

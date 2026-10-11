@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.014460+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure"
 ---
 
 # Record 1916 · Samsung-and-Mistral-AI-Announce-Strategic-Partnership-for-Intelligence
@@ -16,7 +21,3 @@ Samsung and Mistral AI Announce Strategic Partnership for Intelligence-Driven Se
 Samsung Electronics today announced it has entered into a strategic partnership with Mistral AI to enhance its semiconductor engineering and manufacturing capabilities that will reinforce its leadership in AI chip technologies. The announcement of the partnership was made during the state summit held in Paris between South Korea and France. Under the agreement, Samsung will […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

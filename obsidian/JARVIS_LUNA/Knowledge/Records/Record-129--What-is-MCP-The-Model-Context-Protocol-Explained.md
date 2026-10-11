@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.808977+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "DataWalk"
+domain: "datawalk.com"
+url: "https://datawalk.com/what-is-mcp-the-model-context-protocol-explained/"
 ---
 
 # Record 129 · What-is-MCP-The-Model-Context-Protocol-Explained
@@ -16,7 +21,3 @@ What is MCP? The Model Context Protocol Explained
 The post What is MCP? The Model Context Protocol Explained appeared first on DataWalk .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--DataWalk]] [[JARVIS Real Knowledge Index]]

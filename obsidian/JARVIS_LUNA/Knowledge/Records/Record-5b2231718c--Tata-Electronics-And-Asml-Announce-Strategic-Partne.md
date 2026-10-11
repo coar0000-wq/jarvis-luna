@@ -2,8 +2,14 @@
 title: "Record 5b2231718c · Tata-Electronics-And-Asml-Announce-Strategic-Partnership"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.413344+00:00
+updated_at: 2026-10-11T00:55:48.597270+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/press-releases/2026/tata-electronics-and-asml-announce-strategic-partnership"
+kind: "발표물"
 ---
 
 # Record 5b2231718c · Tata-Electronics-And-Asml-Announce-Strategic-Partnership
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Tata Electronics And Asml Announce Strategic Partnership
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.295724+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=KsujQDvKdHk"
 ---
 
 # Record 790 · What-is-Shop--Shopping-designed-around-you
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 What is Shop? | Shopping designed around you
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 4791319cc0 · Glamnetic-Halloween-Press-On-Nails-Short-Oval-Cat-Eye-Weblings--Hallow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.083961+00:00
+updated_at: 2026-10-11T00:55:44.423512+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Glamnetic-Halloween-Press-Cat-Eye-Weblings/dp/B0H745Y82L/ref=zg_bsnr_g_beauty_d_sccl_4/145-1574706-0872752"
 ---
 
 # Record 4791319cc0 · Glamnetic-Halloween-Press-On-Nails-Short-Oval-Cat-Eye-Weblings--Hallow
@@ -16,7 +20,3 @@ Glamnetic Halloween Press On Nails, Short Oval Cat-Eye, Weblings | Halloween spi
 Glamnetic Halloween Press On Nails, Short Oval Cat-Eye, Weblings | Halloween spider press on nails: Weblings. Full nail kit. Black Glue on nails with cobweb nail art. Fake nails. · $14 · 평점 4.2 · 리뷰 2,024
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

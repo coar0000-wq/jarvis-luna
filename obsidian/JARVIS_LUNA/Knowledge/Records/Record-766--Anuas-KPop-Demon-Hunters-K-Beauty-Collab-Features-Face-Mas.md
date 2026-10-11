@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.610247+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX09ldU1acFBLUjFubWdNOUxEUzZxODdCSUYwLVlCWUYtQTllRWhhNk5ySEh4SWU1aWo4cGR3MU5SeU53WEtyaWVBbVQzcFZubExoTThmYXNmcTN6b3FLNzdzNGY0emdJME94c3BodDJ1a2c5NkhKNjVheXBxYThHVXR4bUJwdk9fNzFfV1BKZWlsTUtHZDFNVi1RSHRXbF96TmtzYmI1WkJNUFpzSXJzUXM5QzdSY1JoczhPZExXM01NY0g1UWNkcA?oc=5"
 ---
 
 # Record 766 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-Face-Masks-Acne-Dots
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Anua’s ‘KPop Demon Hunters’ K-Beauty Collab Features Face Masks, Acne Dots & Sunscreen for a ‘Golden’ Glow - Billboard
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

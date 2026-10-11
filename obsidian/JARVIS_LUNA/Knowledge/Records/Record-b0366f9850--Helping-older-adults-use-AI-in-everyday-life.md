@@ -2,8 +2,14 @@
 title: "Record b0366f9850 · Helping-older-adults-use-AI-in-everyday-life"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.637076+00:00
+updated_at: 2026-10-11T00:55:37.471785+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
+kind: "발표물"
 ---
 
 # Record b0366f9850 · Helping-older-adults-use-AI-in-everyday-life
@@ -16,7 +22,3 @@ Helping older adults use AI in everyday life
 OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

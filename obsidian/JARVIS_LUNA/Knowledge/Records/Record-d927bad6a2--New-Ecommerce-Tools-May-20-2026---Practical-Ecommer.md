@@ -2,8 +2,12 @@
 title: "Record d927bad6a2 · New-Ecommerce-Tools-May-20-2026---Practical-Ecommer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.265493+00:00
+updated_at: 2026-10-11T00:55:31.369273+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE5xNWhhUjBtQXNzQVc2UjJjMV9XOTZaT1VMNng3ME9EeHZGRGxKWjZicEo3clVfYmtRUmRlOUItMVBkaGRFeEgxajhWSzFoT2pxbzg0dWtjT2kwV0loN3BNRlFLTTVXNU1ZXzVISVRfNElrLWtG?oc=5"
 ---
 
 # Record d927bad6a2 · New-Ecommerce-Tools-May-20-2026---Practical-Ecommer
@@ -15,7 +19,3 @@ tags: [record, real-data]
 New Ecommerce Tools: May 20, 2026 - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

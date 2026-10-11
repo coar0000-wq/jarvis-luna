@@ -2,8 +2,12 @@
 title: "Record 202b3aaaa0 · Region-Level-Policy-Optimization-for-Fine-grained-MLLM-Perception"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.139800+00:00
+updated_at: 2026-10-11T00:55:14.051100+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "컴퓨터-비전", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.19745"
 ---
 
 # Record 202b3aaaa0 · Region-Level-Policy-Optimization-for-Fine-grained-MLLM-Perception
@@ -16,7 +20,3 @@ Region-Level Policy Optimization for Fine-grained MLLM Perception
 Fine-grained visual perception in MLLMs is commonly improved by raising the resolution, but the added visual tokens inflate vision-encoding and language-model prefilling costs. We show that the two operations underlying fine-grained perception, localizing the region of interest (RoI) and recognizing its content, have different resolution requirements. In a controlled diagnostic, localization toler
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

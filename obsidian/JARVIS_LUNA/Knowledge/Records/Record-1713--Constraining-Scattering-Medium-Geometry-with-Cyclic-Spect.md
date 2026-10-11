@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.215272+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Bank-of-America"
+domain: "openalex.org"
+url: "https://openalex.org/W7162700466"
 ---
 
 # Record 1713 · Constraining-Scattering-Medium-Geometry-with-Cyclic-Spectroscopy
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Constraining Scattering Medium Geometry with Cyclic Spectroscopy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

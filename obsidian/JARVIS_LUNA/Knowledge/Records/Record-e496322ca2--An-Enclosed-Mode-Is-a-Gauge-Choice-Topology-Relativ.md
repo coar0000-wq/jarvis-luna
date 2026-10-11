@@ -2,8 +2,12 @@
 title: "Record e496322ca2 · An-Enclosed-Mode-Is-a-Gauge-Choice-Topology-Relativ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.911159+00:00
+updated_at: 2026-10-11T00:55:11.310183+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28541v1"
 ---
 
 # Record e496322ca2 · An-Enclosed-Mode-Is-a-Gauge-Choice-Topology-Relativ
@@ -15,7 +19,3 @@ tags: [record, real-data]
 An Enclosed Mode Is a Gauge Choice: Topology Relative to Reach in Certified Code World Models
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record d84d5932ca · Improving-synthesis-prediction-of-small-molecules-at-scale-with-RetroC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.500452+00:00
+updated_at: 2026-10-11T00:55:50.294602+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Microsoft Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/"
+kind: "발표물"
 ---
 
 # Record d84d5932ca · Improving-synthesis-prediction-of-small-molecules-at-scale-with-RetroC
@@ -16,7 +22,3 @@ Improving synthesis prediction of small molecules at scale with RetroChimera
 Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

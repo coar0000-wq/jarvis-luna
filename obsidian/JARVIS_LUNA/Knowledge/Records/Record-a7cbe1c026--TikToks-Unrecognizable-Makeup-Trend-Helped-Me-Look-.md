@@ -2,8 +2,12 @@
 title: "Record a7cbe1c026 · TikToks-Unrecognizable-Makeup-Trend-Helped-Me-Look-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.341111+00:00
+updated_at: 2026-10-11T00:55:32.777444+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeWdlNFhEYzRtREVwSUowcW9OMTR1VGgwX29UM3ZhTW9oVUpQb3luNXBGZE96NzVVN1ZJNFp3LVRrUk1ralBPOVFweXcyYVVMaVNRb0ZnSE1ERl9haVJJUTFsZEFQSnd5QndHdGxmYWJtV0djcnozTWc0dVYwQkZXeGhVNGo?oc=5"
 ---
 
 # Record a7cbe1c026 · TikToks-Unrecognizable-Makeup-Trend-Helped-Me-Look-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok’s Unrecognizable Makeup Trend Helped Me Look More Snatched Than Ever - Elite Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

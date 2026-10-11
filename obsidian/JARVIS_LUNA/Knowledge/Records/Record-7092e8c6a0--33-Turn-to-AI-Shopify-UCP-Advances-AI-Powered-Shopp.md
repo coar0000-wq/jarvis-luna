@@ -2,8 +2,12 @@
 title: "Record 7092e8c6a0 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.310914+00:00
+updated_at: 2026-10-11T00:55:32.237266+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoS3VKMmFrUVd4am9BMDN6NU9jcDN3RzdVUkl1SHBVc0RHQW9kTHhmNVpZSV9GcXB6UGpqT1c5RjAwblVTZ3FxX2x1bF9KLU5BVlJCekxUVTFEb3EyNThRNUlDV25oeUdCYk5hWFJQMUxWNkwxc1Y2LWZ4aUQ?oc=5"
 ---
 
 # Record 7092e8c6a0 · 33-Turn-to-AI-Shopify-UCP-Advances-AI-Powered-Shopp
@@ -15,7 +19,3 @@ tags: [record, real-data]
 33% Turn to AI: Shopify UCP Advances AI-Powered Shopping - DesignRush
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

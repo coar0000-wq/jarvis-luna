@@ -2,8 +2,14 @@
 title: "Record 28e5a48a92 · Machine-learning-based-multimodal-data-fusion-for-the-Swiss-land-use-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.394070+00:00
+updated_at: 2026-10-11T00:55:17.972370+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1080/22797254.2025.2508420"
+kind: "논문"
 ---
 
 # Record 28e5a48a92 · Machine-learning-based-multimodal-data-fusion-for-the-Swiss-land-use-s
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Machine learning-based multimodal data fusion for the Swiss land use statistics
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

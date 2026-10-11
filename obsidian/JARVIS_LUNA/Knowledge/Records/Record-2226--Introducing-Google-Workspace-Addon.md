@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.512910+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/introducing-google-workspace-addon"
 ---
 
 # Record 2226 · Introducing-Google-Workspace-Addon
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Introducing Google Workspace Addon
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

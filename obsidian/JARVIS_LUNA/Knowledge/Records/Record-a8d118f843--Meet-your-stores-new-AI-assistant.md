@@ -2,8 +2,12 @@
 title: "Record a8d118f843 · Meet-your-stores-new-AI-assistant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.762421+00:00
+updated_at: 2026-10-11T00:55:54.972284+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/HrrvLwkVhc0"
 ---
 
 # Record a8d118f843 · Meet-your-stores-new-AI-assistant
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Meet your store’s new AI assistant
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

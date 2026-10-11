@@ -2,8 +2,12 @@
 title: "Record 7eeb341756 · Our-Favorite-K-Beauty-Products-With-Sensorial-Textures-You-Just-Have-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.270197+00:00
+updated_at: 2026-10-11T00:55:31.436155+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kRDdEOXJMbUJIUVF6SlFkc2E0MjBucFloZ29nZlpNMFNmVXprTmczNFd4SEVpellMU0RtZGVkS0pXanpzbTlJYUNuR0FUSGJERU80NGU4a1R5YlNTTWNmZ3drMjBZYmFmMlBlaXMtNmZoeTVqekE?oc=5"
 ---
 
 # Record 7eeb341756 · Our-Favorite-K-Beauty-Products-With-Sensorial-Textures-You-Just-Have-t
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Our Favorite K-Beauty Products With Sensorial Textures You Just Have to Feel - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

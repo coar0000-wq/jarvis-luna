@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.928588+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdGVhTWtrNjZWdGNpUnQyLXA1aHhJSll1S21rWlFhWEdCR2F1bFB6TGVNWFRydW44bllOVVQ2MVp1Q0c1UGUxMHJzSXZ3R0Zub2Q1Zmo2azE5VXNOWDV5OHJKTkd4R1JPUS1Zb012ZXZDalRTMkpOX2J4UUNBaV9BOEU2blFxZWFIZmc?oc=5"
 ---
 
 # Record 371 · Instant-Checkout-OpenAI-Bringing-E-Commerce-to-ChatGPT---AI-Magazine
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Instant Checkout: OpenAI Bringing E-Commerce to ChatGPT - AI Magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

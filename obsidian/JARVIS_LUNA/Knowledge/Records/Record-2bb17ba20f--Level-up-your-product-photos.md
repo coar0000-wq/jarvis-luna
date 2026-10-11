@@ -2,8 +2,12 @@
 title: "Record 2bb17ba20f · Level-up-your-product-photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.763680+00:00
+updated_at: 2026-10-11T00:55:55.024577+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/ajltyxKyQ1k"
 ---
 
 # Record 2bb17ba20f · Level-up-your-product-photos
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Level up your product photos
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

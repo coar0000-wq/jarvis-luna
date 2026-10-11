@@ -2,8 +2,12 @@
 title: "Record 951452c682 · Mainstream-K-Beauty-Expansions-SUNGBOON-EDITOR-and-Milk-Touch-Enter-Ta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.208358+00:00
+updated_at: 2026-10-11T00:55:30.348084+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE96WXJUaXZud0RKa2hHSmRCZ1NLVGRGeVZwZXROTXZKa21la3AydnhVZ1BycWNia0RkV3ZNZDhOZ2ZnLWZLRWdiR3lYRU12SlVXT243ang0N1FKbWlJSjBuTGhKbTRXX1R0bFM0?oc=5"
 ---
 
 # Record 951452c682 · Mainstream-K-Beauty-Expansions-SUNGBOON-EDITOR-and-Milk-Touch-Enter-Ta
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Mainstream K-Beauty Expansions: SUNGBOON EDITOR and Milk Touch Enter Target Beauty Studio - Trend Hunter
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 30aa315ba1 · Lip-Butter-Balm-Treatment-for-Hydration--Nourishing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.562513+00:00
+updated_at: 2026-10-11T00:55:51.588850+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.sephora.com"
+url: "https://www.sephora.com/product/summer-fridays-lip-butter-balm-P455936"
 ---
 
 # Record 30aa315ba1 · Lip-Butter-Balm-Treatment-for-Hydration--Nourishing
@@ -16,7 +20,3 @@ Lip Butter Balm Treatment for Hydration + Nourishing Shine
 Lip Butter Balm Treatment for Hydration + Nourishing Shine · Summer Fridays · $24
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

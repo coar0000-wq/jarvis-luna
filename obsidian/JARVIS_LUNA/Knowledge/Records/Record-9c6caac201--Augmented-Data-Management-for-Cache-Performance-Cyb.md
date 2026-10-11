@@ -2,8 +2,14 @@
 title: "Record 9c6caac201 · Augmented-Data-Management-for-Cache-Performance-Cyb"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.986384+00:00
+updated_at: 2026-10-11T00:55:27.017020+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.57159/jcmm.5.3.26691"
+kind: "논문"
 ---
 
 # Record 9c6caac201 · Augmented-Data-Management-for-Cache-Performance-Cyb
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Augmented Data Management for Cache Performance, Cybersecurity, and Mobile Integration
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

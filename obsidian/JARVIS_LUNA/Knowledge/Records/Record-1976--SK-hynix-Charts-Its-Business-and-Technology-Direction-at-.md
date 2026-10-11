@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.735763+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/future-forum-2026-3/"
 ---
 
 # Record 1976 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
@@ -16,7 +21,3 @@ SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum�
 ▲ SK hynix CEO Kwak Noh-Jung delivering the welcoming remarks at the 2026 Future Forum
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

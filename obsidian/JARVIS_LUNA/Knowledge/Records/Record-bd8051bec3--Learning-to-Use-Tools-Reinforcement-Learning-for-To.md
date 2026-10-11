@@ -2,8 +2,12 @@
 title: "Record bd8051bec3 · Learning-to-Use-Tools-Reinforcement-Learning-for-To"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.908384+00:00
+updated_at: 2026-10-11T00:55:11.256079+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28447v1"
 ---
 
 # Record bd8051bec3 · Learning-to-Use-Tools-Reinforcement-Learning-for-To
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical Reasoning
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[과학수학]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record ecc8557c89 · Constraining-Scattering-Medium-Geometry-with-Cyclic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.599704+00:00
+updated_at: 2026-10-11T00:55:21.465406+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.3847/2041-8213/ae9c3e"
+kind: "논문"
 ---
 
 # Record ecc8557c89 · Constraining-Scattering-Medium-Geometry-with-Cyclic
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Constraining Scattering Medium Geometry with Cyclic Spectroscopy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

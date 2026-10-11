@@ -2,8 +2,14 @@
 title: "Record a3c8e138d9 · Introducing-the-Life-Sciences-Verification-Program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.391763+00:00
+updated_at: 2026-10-11T00:55:48.303562+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/life-sciences-verification-program"
+kind: "발표물"
 ---
 
 # Record a3c8e138d9 · Introducing-the-Life-Sciences-Verification-Program
@@ -16,7 +22,3 @@ Introducing the Life Sciences Verification Program
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.537826+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/b4lFuypd0ZU"
 ---
 
 # Record 745 · I-Ordered-the-Same-Product-From-Three-Dropshipping-Suppliers
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 I Ordered the Same Product From Three Dropshipping Suppliers
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

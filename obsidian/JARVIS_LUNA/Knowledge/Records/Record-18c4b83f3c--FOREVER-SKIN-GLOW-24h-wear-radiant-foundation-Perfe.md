@@ -2,8 +2,12 @@
 title: "Record 18c4b83f3c · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.899317+00:00
+updated_at: 2026-10-11T00:55:11.013579+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "api.fda.gov"
+url: "https://api.fda.gov/drug/label.json?search=id:1f013e61-f171-2ae2-e063-6294a90adcf1"
 ---
 
 # Record 18c4b83f3c · FOREVER-SKIN-GLOW-24h-wear-radiant-foundation-Perfe
@@ -16,7 +20,3 @@ FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentra
 FOREVER SKIN GLOW 24h wear radiant foundation Perfection and hydration Concentrated floral skincare with suncreen Broad spectrum SPF 15 00
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record c38f4b0f8f · Hirebotics-adds-line-tracking-and-linear-rail-capabilities-to-its-cobo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.581082+00:00
+updated_at: 2026-10-11T00:55:51.832635+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/"
 ---
 
 # Record c38f4b0f8f · Hirebotics-adds-line-tracking-and-linear-rail-capabilities-to-its-cobo
@@ -16,7 +20,3 @@ Hirebotics adds line tracking and linear rail capabilities to its cobots
 <p>Hirebotics said these new capabilities extend the working range of the cobots, giving manufacturers greater flexibility.</p> <p>The post <a href="https://www.therobotreport.com/hirebotics-adds-line-tracking-linear-rail-capabilities-cobots/">Hirebotics adds line tracking and linear rail capabilities to its cobots</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

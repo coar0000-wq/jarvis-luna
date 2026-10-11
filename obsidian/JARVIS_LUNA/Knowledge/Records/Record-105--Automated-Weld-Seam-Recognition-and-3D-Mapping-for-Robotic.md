@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.349999+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03970v1"
 ---
 
 # Record 105 · Automated-Weld-Seam-Recognition-and-3D-Mapping-for-Robotic-Post-Proces
@@ -16,7 +20,3 @@ Automated Weld Seam Recognition and 3D Mapping for Robotic Post Processing Using
 Accurate identification of weld seam geometries is essential for automated robotic post processing operations such as grinding, finishing, and inspection. For large workpieces, complete surface scanning using high precision laser scanners or structured light sensors can be time consuming and often generates substantial amount of data that are not relevant. This paper presents an experimental visio
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 7ba03aa8a7 · MCP-Under-Attack---Security-Risks-in-the-Model-Cont"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.962942+00:00
+updated_at: 2026-10-11T00:55:26.644284+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22051544"
+kind: "논문"
 ---
 
 # Record 7ba03aa8a7 · MCP-Under-Attack---Security-Risks-in-the-Model-Cont
@@ -15,7 +21,3 @@ tags: [record, real-data]
 MCP Under Attack - Security Risks in the Model Context Protocol Ecosystem
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

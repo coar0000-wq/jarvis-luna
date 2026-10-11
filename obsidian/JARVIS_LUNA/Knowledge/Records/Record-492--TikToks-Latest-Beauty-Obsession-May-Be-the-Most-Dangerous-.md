@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.668536+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Model-Routing-and-MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2h3bW9fMW1BdF9NcUlLRHRuZzNPSDcwQzFkVHlnQmF4V3VtRkJUdDNwVG02Q19YTHJleVQzNHliZmpuaG45aWtrMlhDdEh5OWYyUHFTbUFMemdGLVNqc2pqcHBnNkt3WFBrTUhKdzNVUDAxWEYxOVhjVlJaUmFfMTBuXzhIVndzS2xqaThSb3luTndhX0ZQNm0yV01YNkk?oc=5"
 ---
 
 # Record 492 · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dangerous-Yet-Skin-Exp
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 TikTok's Latest Beauty Obsession May Be the Most Dangerous Yet, Skin Experts Say - Medical Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Model-Routing-and-MoE]] [[JARVIS Real Knowledge Index]]

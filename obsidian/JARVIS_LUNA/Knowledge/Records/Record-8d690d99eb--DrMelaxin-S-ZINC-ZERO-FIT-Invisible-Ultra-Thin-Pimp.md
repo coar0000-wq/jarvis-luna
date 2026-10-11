@@ -2,8 +2,12 @@
 title: "Record 8d690d99eb · DrMelaxin-S-ZINC-ZERO-FIT-Invisible-Ultra-Thin-Pimple-Patches-for-Face"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.062751+00:00
+updated_at: 2026-10-11T00:55:44.187628+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Dr-Melaxin-ZERO-FIT-Invisible-Stickers-Salicylic/dp/B0HDCJ7B72/ref=zg_bsnr_g_beauty_d_sccl_8/133-7130756-4573415"
 ---
 
 # Record 8d690d99eb · DrMelaxin-S-ZINC-ZERO-FIT-Invisible-Ultra-Thin-Pimple-Patches-for-Face
@@ -16,7 +20,3 @@ Dr.Melaxin S-ZINC ZERO-FIT Invisible Ultra Thin Pimple Patches for Face, Acne Pa
 Dr.Melaxin S-ZINC ZERO-FIT Invisible Ultra Thin Pimple Patches for Face, Acne Patches 0.013mm Clear Zit Stickers Under Makeup with Sulfur, Salicylic Acid, AHA & PHA, Korean Skincare, 72 Count · $23 · 평점 4 · 리뷰 43
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

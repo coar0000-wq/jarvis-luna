@@ -2,8 +2,12 @@
 title: "Record 35d94b741c · grabity-G00-Hair-Lifting-Shampoo-Extrastrong-1606-fl-oz475ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.846040+00:00
+updated_at: 2026-10-11T00:55:40.939891+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA76366465"
 ---
 
 # Record 35d94b741c · grabity-G00-Hair-Lifting-Shampoo-Extrastrong-1606-fl-oz475ml
@@ -16,7 +20,3 @@ grabity G0.0 Hair Lifting Shampoo Extrastrong 16.06 fl. oz.(475ml)
 grabity G0.0 Hair Lifting Shampoo Extrastrong 16.06 fl. oz.(475ml) · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

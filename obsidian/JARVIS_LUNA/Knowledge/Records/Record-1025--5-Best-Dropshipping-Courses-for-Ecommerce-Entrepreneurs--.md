@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.005498+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11eFduYm1pN0VWVmVsRG1lMG1KcEF2Z3Z4UHU3NG5ITTBuRnZ3dUtvNGJmdkxEZUVGWVJSXzNIWUhJSGlJaUV2SjVoOW1XZTcySTBpRjZZaTd6UVFYcDdxSFpUUnBjeXcw?oc=5"
 ---
 
 # Record 1025 · 5-Best-Dropshipping-Courses-for-Ecommerce-Entrepreneurs---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 5 Best Dropshipping Courses for Ecommerce Entrepreneurs - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

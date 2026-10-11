@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.366380+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=DNdBJ5tgyjI"
 ---
 
 # Record 2247 · Beginners-Guide-To-AI-Dropshipping-5-Hour-FREE-Course
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Beginners Guide To AI Dropshipping (5+ Hour FREE Course)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record d95516051e · Perturb-ME-Scalable-mechanism-discovery-from-phenot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.004395+00:00
+updated_at: 2026-10-11T00:55:27.332562+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.08.17.745330"
+kind: "논문"
 ---
 
 # Record d95516051e · Perturb-ME-Scalable-mechanism-discovery-from-phenot
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Perturb-ME: Scalable mechanism discovery from phenotype-enriched genome-wide screens
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

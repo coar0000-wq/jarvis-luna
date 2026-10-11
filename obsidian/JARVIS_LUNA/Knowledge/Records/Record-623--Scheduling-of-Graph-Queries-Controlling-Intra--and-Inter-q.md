@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.921133+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2110.10797"
 ---
 
 # Record 623 · Scheduling-of-Graph-Queries-Controlling-Intra--and-Inter-queryn-Parall
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Scheduling of Graph Queries: Controlling Intra- and Inter-query\n Parallelism for a High System Throughput
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

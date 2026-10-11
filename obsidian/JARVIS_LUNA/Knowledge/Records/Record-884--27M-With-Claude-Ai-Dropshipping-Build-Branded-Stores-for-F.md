@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.988580+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=bETBkG5fidk"
 ---
 
 # Record 884 · 27M-With-Claude-Ai-Dropshipping-Build-Branded-Stores-for-FREE
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 $2.7M With Claude Ai Dropshipping (Build Branded Stores for FREE)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 0b250d6837 · Conditional-Multi-Event-Temporal-Grounding-in-Long-Form-Video"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.640267+00:00
+updated_at: 2026-10-11T00:55:22.248855+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.15320"
+kind: "논문"
 ---
 
 # Record 0b250d6837 · Conditional-Multi-Event-Temporal-Grounding-in-Long-Form-Video
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Conditional Multi-Event Temporal Grounding in Long-Form Video
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

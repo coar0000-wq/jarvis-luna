@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.691533+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/future-forum-2026-8/"
 ---
 
 # Record 2044 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
@@ -16,7 +21,3 @@ SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum�
 ▲ SKHU President Hyeongsoo Kim delivering the closing remarks
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

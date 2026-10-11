@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.543702+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=VXf2IivluLI"
 ---
 
 # Record 826 · Dropshipping--Seedance-25--192871-WTF-Its-Crazy
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Dropshipping + Seedance 2.5 = $192,871 (WTF It’s Crazy)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

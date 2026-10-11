@@ -2,8 +2,12 @@
 title: "Record dd67d965cf · 선크림-SPF-50-저희-연구원에서는-이렇게-확인합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.709972+00:00
+updated_at: 2026-10-11T00:55:54.081246+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/oE4PQahVsI4"
 ---
 
 # Record dd67d965cf · 선크림-SPF-50-저희-연구원에서는-이렇게-확인합니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선크림 SPF 50+, 저희 연구원에서는 이렇게 확인합니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

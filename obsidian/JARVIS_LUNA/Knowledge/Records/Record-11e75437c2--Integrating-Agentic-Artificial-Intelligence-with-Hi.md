@@ -2,8 +2,12 @@
 title: "Record 11e75437c2 · Integrating-Agentic-Artificial-Intelligence-with-Hi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.954330+00:00
+updated_at: 2026-10-11T00:55:11.918949+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04544v1"
 ---
 
 # Record 11e75437c2 · Integrating-Agentic-Artificial-Intelligence-with-Hi
@@ -16,7 +20,3 @@ Integrating Agentic Artificial Intelligence with High-Performance Computing for 
 We present AgentiGrid, an agentic artificial intelligence (AI) framework that integrates large language models (LLMs) intelligence and high-performance computing (HPC) to streamline and accelerate the multi-scenario power flow studies. AgentiGrid is an autonomous decision-making agent that proposes parameter modifications, invokes analyses through HPC analysis toolkit ExaGO, interprets results, an
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

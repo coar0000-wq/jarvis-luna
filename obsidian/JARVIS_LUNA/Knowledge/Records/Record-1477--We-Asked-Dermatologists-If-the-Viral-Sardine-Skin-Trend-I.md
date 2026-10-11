@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.220602+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxPRkdPZlBpYnljY1hpcEs3aVZsbVpad2FjM2pRSnpFT25feTljOFhyR1huVW1QczcxQmdIWG5ydkJRU0xjZmlrS09kLVgwT0VoU1kwSUFpM3V5SWlhMGFmOGtTQXE4R3FlMXBDbnI0WTlCQ2lYbktWNjk0UEhPa2MtSENwVDZwSVRWY0RmeDM4TG00WUdlUDFHbUFFMUl3dw?oc=5"
 ---
 
 # Record 1477 · We-Asked-Dermatologists-If-the-Viral-Sardine-Skin-Trend-Is-Actually-th
@@ -15,7 +19,3 @@ tags: [record, real-data]
 We Asked Dermatologists If the Viral Sardine Skin Trend Is Actually the Secret to Glowing Skin - ELLE
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

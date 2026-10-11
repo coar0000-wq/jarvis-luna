@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.891203+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3846378"
 ---
 
 # Record 630 · NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN-and-SSM-Optimizati
@@ -15,7 +20,3 @@ tags: [record, real-data]
 NEXUS: Speeding Up the Next Wave of AI Workloads, GNN and SSM Optimization on NPUs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

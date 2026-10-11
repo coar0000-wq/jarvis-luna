@@ -2,8 +2,14 @@
 title: "Record 274495061c · A-realized-covariance-approach-in-reexamining-crypto-and-fx-currencies"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.555012+00:00
+updated_at: 2026-10-11T00:55:20.702050+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.22598/zefzg.2025.2.15"
+kind: "논문"
 ---
 
 # Record 274495061c · A-realized-covariance-approach-in-reexamining-crypto-and-fx-currencies
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A realized covariance approach in reexamining crypto and fx currencies as safe havens and hedges
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

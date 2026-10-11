@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.405944+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/building-high-quality-and-trusted-data-products-databricks"
 ---
 
 # Record 1900 · Building-High-Quality-and-Trusted-Data-Products-with-Databricks
@@ -16,7 +21,3 @@ Building High-Quality and Trusted Data Products with Databricks
 IntroductionOrganizations aiming to become AI and data-driven often need to provide...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

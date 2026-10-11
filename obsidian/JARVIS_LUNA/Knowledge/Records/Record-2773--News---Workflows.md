@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:34.012459+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/workflows"
 ---
 
 # Record 2773 · News---Workflows
@@ -15,7 +20,3 @@ tags: [record, real-data]
 News   Workflows
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.935944+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/njQd5we-IRk"
 ---
 
 # Record 868 · 3-Products-That-Could-Be-Your-Next-Bestseller
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 3 Products That Could Be Your Next Bestseller 🔥
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

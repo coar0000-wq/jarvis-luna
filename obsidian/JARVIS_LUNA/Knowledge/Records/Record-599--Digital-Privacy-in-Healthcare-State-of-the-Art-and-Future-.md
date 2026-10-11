@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.443497+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "의료바이오", "데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1109/access.2024.3410035"
 ---
 
 # Record 599 · Digital-Privacy-in-Healthcare-State-of-the-Art-and-Future-Vision
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Digital Privacy in Healthcare: State-of-the-Art and Future Vision
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[의료바이오]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

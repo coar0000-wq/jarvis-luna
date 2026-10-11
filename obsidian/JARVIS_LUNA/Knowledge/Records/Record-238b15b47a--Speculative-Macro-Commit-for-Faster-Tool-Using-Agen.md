@@ -2,8 +2,14 @@
 title: "Record 238b15b47a · Speculative-Macro-Commit-for-Faster-Tool-Using-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.668473+00:00
+updated_at: 2026-10-11T00:55:22.786088+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.03236"
+kind: "논문"
 ---
 
 # Record 238b15b47a · Speculative-Macro-Commit-for-Faster-Tool-Using-Agents
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Speculative Macro Commit for Faster Tool-Using Agents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

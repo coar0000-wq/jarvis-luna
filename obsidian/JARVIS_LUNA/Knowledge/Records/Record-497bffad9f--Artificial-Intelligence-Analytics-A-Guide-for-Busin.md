@@ -2,8 +2,12 @@
 title: "Record 497bffad9f · Artificial-Intelligence-Analytics-A-Guide-for-Business-Owners---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.248257+00:00
+updated_at: 2026-10-11T00:55:31.112038+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify", "데이터분석"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4bFN3TU9GLV9LU0h1ekJIc2pwemJCaTVaemhFSmpfWDVoWlE4UlZsZkNlVVJxZkk2R05GbFo4dlM3Qk45bloyZ0tsTHdNUjIyYW53UndfSlpBcE9vMkdzUWZKYll0ZVBoMkVTWk1FSDU4NTQ?oc=5"
 ---
 
 # Record 497bffad9f · Artificial-Intelligence-Analytics-A-Guide-for-Business-Owners---Shopif
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Artificial Intelligence Analytics: A Guide for Business Owners - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

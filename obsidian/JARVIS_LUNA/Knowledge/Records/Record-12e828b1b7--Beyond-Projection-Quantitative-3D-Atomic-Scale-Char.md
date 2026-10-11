@@ -2,8 +2,14 @@
 title: "Record 12e828b1b7 · Beyond-Projection-Quantitative-3D-Atomic-Scale-Characterization-with-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.403873+00:00
+updated_at: 2026-10-11T00:55:18.128621+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1093/mam/ozag053.017"
+kind: "논문"
 ---
 
 # Record 12e828b1b7 · Beyond-Projection-Quantitative-3D-Atomic-Scale-Characterization-with-E
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Beyond Projection: Quantitative 3D Atomic-Scale Characterization with Electron Ptychography
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

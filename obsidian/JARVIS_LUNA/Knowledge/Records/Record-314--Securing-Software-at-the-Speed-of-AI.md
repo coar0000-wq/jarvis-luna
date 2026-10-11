@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.390973+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "blog.palantir.com"
+url: "https://blog.palantir.com/securing-software-at-the-speed-of-ai-0b1d7ddd2bf0?source=rss----3c87dc14372f---4"
 ---
 
 # Record 314 · Securing-Software-at-the-Speed-of-AI
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Securing Software at the Speed of AI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

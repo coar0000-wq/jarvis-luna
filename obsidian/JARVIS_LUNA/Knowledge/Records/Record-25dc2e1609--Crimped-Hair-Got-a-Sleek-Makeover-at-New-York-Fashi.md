@@ -2,8 +2,12 @@
 title: "Record 25dc2e1609 · Crimped-Hair-Got-a-Sleek-Makeover-at-New-York-Fashi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.918207+00:00
+updated_at: 2026-10-11T00:55:42.227394+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/christian-siriano-nyfw-ss27-crimped-hair"
 ---
 
 # Record 25dc2e1609 · Crimped-Hair-Got-a-Sleek-Makeover-at-New-York-Fashi
@@ -16,7 +20,3 @@ Crimped Hair Got a Sleek Makeover at New York Fashion Week Spring/Summer 2027 �
 Crimped Hair Got a Sleek Makeover at New York Fashion Week Spring/Summer 2027 — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record ca1c794cdc · Skip-the-12-Step-Spiral-Here-are-11-K-Beauty-Trends"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.120178+00:00
+updated_at: 2026-10-11T00:55:28.857904+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Va0o2akdOZXMzQzZ0S0huWDh1VzA3OXdXYV9Lc3hTV1RZc1U3ZGYxeEtRVDNNU0pmMXgxVHdXSzdhY2I4RmdSTWFCcU14OFU?oc=5"
 ---
 
 # Record ca1c794cdc · Skip-the-12-Step-Spiral-Here-are-11-K-Beauty-Trends
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Skip the 12-Step Spiral: Here are 11 K-Beauty Trends & Products You'll Actually Use in 2026 - Brit + Co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

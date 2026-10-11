@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.157686+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.47576/2949-1886.2025.5.5.028"
 ---
 
 # Record 631 · Цифровое-сопровождение-клиентов-при-посещении-торговых-центров-стратег
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Цифровое сопровождение клиентов при посещении торговых центров: стратегия и способы реализации
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

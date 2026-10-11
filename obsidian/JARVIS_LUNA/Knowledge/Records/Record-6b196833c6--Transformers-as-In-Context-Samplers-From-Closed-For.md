@@ -2,8 +2,14 @@
 title: "Record 6b196833c6 · Transformers-as-In-Context-Samplers-From-Closed-Form-Diffusion-to-Esti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.670671+00:00
+updated_at: 2026-10-11T00:55:22.828124+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "컴퓨터-비전", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.08981"
+kind: "논문"
 ---
 
 # Record 6b196833c6 · Transformers-as-In-Context-Samplers-From-Closed-Form-Diffusion-to-Esti
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Transformers as In-Context Samplers: From Closed-Form Diffusion to Estimation-Free Sampling
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

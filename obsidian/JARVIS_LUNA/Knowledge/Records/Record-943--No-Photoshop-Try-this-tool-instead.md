@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.999118+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/eYEw5djh4gQ"
 ---
 
 # Record 943 · No-Photoshop-Try-this-tool-instead
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 No Photoshop? Try this tool instead!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

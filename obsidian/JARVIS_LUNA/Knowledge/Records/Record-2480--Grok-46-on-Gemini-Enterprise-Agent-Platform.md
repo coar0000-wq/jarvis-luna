@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.766833+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-6-vertex-ai"
 ---
 
 # Record 2480 · Grok-46-on-Gemini-Enterprise-Agent-Platform
@@ -16,7 +21,3 @@ Grok 4.6 on Gemini Enterprise Agent Platform
 Grok 4.6 is now available via Gemini Enterprise Agent Platform.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

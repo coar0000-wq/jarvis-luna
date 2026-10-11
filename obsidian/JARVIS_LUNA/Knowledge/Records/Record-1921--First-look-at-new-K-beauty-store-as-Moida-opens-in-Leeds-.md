@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.558109+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTzYwQVpoUWVBdjlGbGNvMkVEVFhYaU1FVTd5Umt1SGVocTUwUGhvZ2x5Rld5YnJEOF9ZVVFvN3FIVTdycEp0UjRDQUQ2MFlpeUVhZUdneGl1eWRBTXhRRVhRS1htTlByUkhsWl92bF9MeGFZelJ3ME03SWEzeDZPc3ZkSE1PUlhNTVJfQlRPTWlTZHc2bFpTMDl6RFN6akhjcDhiWk9iSVVvUkl4M3A1aXNn?oc=5"
 ---
 
 # Record 1921 · First-look-at-new-K-beauty-store-as-Moida-opens-in-Leeds---Yorkshire-E
@@ -15,7 +19,3 @@ tags: [record, real-data]
 First look at new K-beauty store as Moida opens in Leeds - Yorkshire Evening Post
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

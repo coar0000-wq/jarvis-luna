@@ -2,8 +2,14 @@
 title: "Record 1f841ad1fa · Physics-AI-research-thats-shaping-the-industry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.095847+00:00
+updated_at: 2026-10-11T00:55:28.480089+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/physics-ai-research/"
+kind: "발표물"
 ---
 
 # Record 1f841ad1fa · Physics-AI-research-thats-shaping-the-industry
@@ -16,7 +22,3 @@ Physics AI research that’s shaping the industry.
 Published breakthroughs pushing the state of the art.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

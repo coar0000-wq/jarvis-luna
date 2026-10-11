@@ -2,8 +2,14 @@
 title: "Record d5b24a715b · Startup-Fundraising-How-To-Raise-Capital-For-Your-Startup"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.473630+00:00
+updated_at: 2026-10-11T00:55:49.792298+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/banking/commercial-banking/startup-fundraising-how-to-raise-capital-for-your-startup"
+kind: "발표물"
 ---
 
 # Record d5b24a715b · Startup-Fundraising-How-To-Raise-Capital-For-Your-Startup
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Startup Fundraising How To Raise Capital For Your Startup
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

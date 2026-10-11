@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.271771+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "의료바이오", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
 ---
 
 # Record 1710 · Supporting-Thailands-next-generation-of-AI-startups
@@ -16,7 +21,3 @@ Supporting Thailand’s next generation of AI startups
 OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[의료바이오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

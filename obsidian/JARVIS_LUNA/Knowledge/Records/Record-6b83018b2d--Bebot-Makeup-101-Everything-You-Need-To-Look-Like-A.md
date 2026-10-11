@@ -2,8 +2,12 @@
 title: "Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.308399+00:00
+updated_at: 2026-10-11T00:55:32.188948+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE93YlpyYlhrYkJrVzFNMElscldFTUdNbFVZWXhZTlVTN0Y5ellyRVdjRzVodDNJcGxPem1aRDVGa0VXalRqaXVvWWJ3eDEyaHNOQ1EwV0NXQThfUkpWWGN6dWJaRWlkN0tZZVRzVlhiRXR5WUlFQWlxMkU1MEo?oc=5"
 ---
 
 # Record 6b83018b2d · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Bebot Makeup 101: Everything You Need To Look Like A Filipina Y2K Baddie - Cosmo.ph
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

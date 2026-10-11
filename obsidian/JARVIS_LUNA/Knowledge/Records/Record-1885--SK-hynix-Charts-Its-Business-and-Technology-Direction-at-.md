@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.417648+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "모델-라우팅MoE", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/future-forum-2026-7/"
 ---
 
 # Record 1885 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
@@ -16,7 +21,3 @@ SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum�
 ▲ Industry experts taking part in the panel discussion, together with SK hynix Vice President Hyungsoo Kim, head of the DRAM Design department (first from left)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[모델-라우팅MoE]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

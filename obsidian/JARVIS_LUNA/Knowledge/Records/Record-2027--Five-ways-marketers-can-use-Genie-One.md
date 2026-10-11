@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.489882+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/five-ways-marketers-can-use-genie-one"
 ---
 
 # Record 2027 · Five-ways-marketers-can-use-Genie-One
@@ -16,7 +21,3 @@ Five ways marketers can use Genie One
 Every marketing team sits on a goldmine of data: campaign performance metrics, customer...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

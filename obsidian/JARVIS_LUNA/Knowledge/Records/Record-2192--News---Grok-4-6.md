@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.875635+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-6"
 ---
 
 # Record 2192 · News---Grok-4-6
@@ -15,7 +20,3 @@ tags: [record, real-data]
 News   Grok 4 6
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

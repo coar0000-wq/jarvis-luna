@@ -2,8 +2,14 @@
 title: "Record 0b5a688ac4 · Polimill-builds-Japans-next-generation-public-AI-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.649857+00:00
+updated_at: 2026-10-11T00:55:37.632101+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "인프라클라우드", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/polimill"
+kind: "발표물"
 ---
 
 # Record 0b5a688ac4 · Polimill-builds-Japans-next-generation-public-AI-in
@@ -16,7 +22,3 @@ Polimill builds Japan's next-generation public AI infrastructure
 Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[인프라클라우드]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

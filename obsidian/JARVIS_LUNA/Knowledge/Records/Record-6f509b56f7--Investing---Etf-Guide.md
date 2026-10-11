@@ -2,8 +2,14 @@
 title: "Record 6f509b56f7 · Investing---Etf-Guide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.479291+00:00
+updated_at: 2026-10-11T00:55:49.898610+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/global-research/investing/etf-guide"
+kind: "발표물"
 ---
 
 # Record 6f509b56f7 · Investing---Etf-Guide
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Investing   Etf Guide
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

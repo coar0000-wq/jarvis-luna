@@ -2,8 +2,12 @@
 title: "Record 2b6190d89d · Allure-Best-of-Beauty-Awards-Hall-of-Fame-Winners-Skin-Makeup-Hair-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.899970+00:00
+updated_at: 2026-10-11T00:55:41.934898+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/gallery/best-of-beauty-hall-of-fame-winners"
 ---
 
 # Record 2b6190d89d · Allure-Best-of-Beauty-Awards-Hall-of-Fame-Winners-Skin-Makeup-Hair-Pro
@@ -16,7 +20,3 @@ Allure Best of Beauty Awards: Hall of Fame Winners Skin, Makeup, Hair Products�
 Allure Best of Beauty Awards: Hall of Fame Winners Skin, Makeup, Hair Products—Reviews, Photos for 2026
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

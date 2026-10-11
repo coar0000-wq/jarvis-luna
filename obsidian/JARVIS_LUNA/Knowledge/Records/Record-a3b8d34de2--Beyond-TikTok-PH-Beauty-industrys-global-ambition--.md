@@ -2,8 +2,12 @@
 title: "Record a3b8d34de2 · Beyond-TikTok-PH-Beauty-industrys-global-ambition--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.482835+00:00
+updated_at: 2026-10-11T00:55:35.224566+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY1h6WExLMWQ5dlVrcU9DckZUNlV6NVB3Uk16N2xuSGtVMkxialVPazVLWkY5eDFlMWcweEtjYUZfWEp4VE1MSmw1TmMyazB3NzZLZTNjSEdSbmh6NzRUTU5kZnpZbGIyaF8tN21oaXAxNmx5QzdWc2xsc2tCN0lNaldnWmhkRmVXWmo5YXlEZUNqai1CSVpTQUM0NEVibG1BOHN1TjV3?oc=5"
 ---
 
 # Record a3b8d34de2 · Beyond-TikTok-PH-Beauty-industrys-global-ambition--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Beyond TikTok: PH Beauty industry's global ambition - ABS-CBN
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

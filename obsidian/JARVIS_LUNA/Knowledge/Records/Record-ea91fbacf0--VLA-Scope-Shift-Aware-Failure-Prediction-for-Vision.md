@@ -2,8 +2,12 @@
 title: "Record ea91fbacf0 · VLA-Scope-Shift-Aware-Failure-Prediction-for-Vision-Language-Action-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.741721+00:00
+updated_at: 2026-10-11T00:55:23.659435+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.21246"
 ---
 
 # Record ea91fbacf0 · VLA-Scope-Shift-Aware-Failure-Prediction-for-Vision-Language-Action-Mo
@@ -16,7 +20,3 @@ VLA-Scope: Shift-Aware Failure Prediction for Vision-Language-Action Models
 Vision-language-action (VLA) models map visual observations and natural-language instructions to robotic actions, but distribution shifts can compromise their reliability. Because these models may still succeed under out-of-distribution (OOD) conditions, detecting OOD inputs alone is insufficient to predict execution failure. In this paper, we introduce VLA-Scope, a two-stage framework that combin
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

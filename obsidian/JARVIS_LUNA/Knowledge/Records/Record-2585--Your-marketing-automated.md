@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.904532+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Xv3_zFQnmAY"
 ---
 
 # Record 2585 · Your-marketing-automated
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Your marketing, automated
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

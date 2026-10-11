@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.335821+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.23900/ra.v24i118.1845"
 ---
 
 # Record 538 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Inovação, desenvolvimento e tecnologias: uma revisão integrativa sobre os impactos da IA na gestão e assistência em saúde
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

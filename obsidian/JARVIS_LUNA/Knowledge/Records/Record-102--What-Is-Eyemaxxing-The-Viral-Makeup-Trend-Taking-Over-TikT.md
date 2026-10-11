@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.862050+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5sMm9USElIWmpLNmJZeXFtejF3QjNXMXFiNlRycDBZZ1RodWI3eF8tX1FVUVpXdGlkaDV5TW5vLXBzWGpfSkFEU0dTLXRIcG9BdDdrTVRPNA?oc=5"
 ---
 
 # Record 102 · What-Is-Eyemaxxing-The-Viral-Makeup-Trend-Taking-Over-TikTok---paradec
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 What Is ‘Eyemaxxing’? The Viral Makeup Trend Taking Over TikTok - parade.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

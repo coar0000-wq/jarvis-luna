@@ -2,8 +2,12 @@
 title: "Record ed2c97e992 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.423619+00:00
+updated_at: 2026-10-11T00:55:34.220580+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzc1aUROck03d1BoUkljVTAtWFN1TXoxZGx3YXQtWEFOdFRVQnVkSmJNZ1ZtNVFJUTJRR3VQOXdkTnlWVGZHV0VXS2otQ2UzRFgtdjE2OVFyM2E5dHZEUS1DbDVkbGVfcjEwa3Q4YkdLZ1BSbkxTam1nOVNzdGJGNW1VN2ExbnNEeVVwNzgyeUxqMHc4V05j?oc=5"
 ---
 
 # Record ed2c97e992 · Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-F
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Anua’s ‘KPop Demon Hunters’ K-Beauty Collab Features Face Masks, Acne Dots & Sunscreen for a ‘Golden’ Glow - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

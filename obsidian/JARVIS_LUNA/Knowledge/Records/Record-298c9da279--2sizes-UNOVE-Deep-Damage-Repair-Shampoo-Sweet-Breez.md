@@ -2,8 +2,12 @@
 title: "Record 298c9da279 · 2sizes-UNOVE-Deep-Damage-Repair-Shampoo-Sweet-Breeze"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.773580+00:00
+updated_at: 2026-10-11T00:55:39.719624+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA16804678"
 ---
 
 # Record 298c9da279 · 2sizes-UNOVE-Deep-Damage-Repair-Shampoo-Sweet-Breeze
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2sizes] UNOVE Deep Damage Repair Shampoo Sweet Breeze · 평점 4.9 · 리뷰 14
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

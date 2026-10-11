@@ -2,8 +2,12 @@
 title: "Record d2914b7299 · NIVEA-Soft-hydraterende-créme-48u-hydratatie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.887859+00:00
+updated_at: 2026-10-11T00:55:41.701326+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/4005900963499"
 ---
 
 # Record d2914b7299 · NIVEA-Soft-hydraterende-créme-48u-hydratatie
@@ -16,7 +20,3 @@ NIVEA Soft hydraterende créme 48u hydratatie
 NIVEA Soft hydraterende créme 48u hydratatie · NIVEA
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

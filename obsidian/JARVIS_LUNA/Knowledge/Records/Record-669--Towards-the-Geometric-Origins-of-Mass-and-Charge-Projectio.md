@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.930828+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21478991"
 ---
 
 # Record 669 · Towards-the-Geometric-Origins-of-Mass-and-Charge-Projection-Geodesics-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Towards the Geometric Origins of Mass and Charge: Projection, Geodesics and Relational Sign in Closure Theory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

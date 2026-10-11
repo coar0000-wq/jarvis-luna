@@ -2,8 +2,12 @@
 title: "Record 909069e5ef · AHMAD-Adaptive-Hybrid-Multi-task-Vision-Learning-with-Assisted-Distill"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.869647+00:00
+updated_at: 2026-10-11T00:55:25.346366+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.35490"
 ---
 
 # Record 909069e5ef · AHMAD-Adaptive-Hybrid-Multi-task-Vision-Learning-with-Assisted-Distill
@@ -16,7 +20,3 @@ AHMAD: Adaptive Hybrid Multi-task Vision Learning with Assisted Distillation for
 Generalist multitasking vision models aim to unify multiple vision tasks within a single framework, enabling more efficient and versatile learning. However, handling diverse vision tasks -- spanning dense and sparse predictions -- remains challenging due to their inherently varying output structures. In this paper, we propose AHMAD, a simple yet effective framework for generalist multitask learnin
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

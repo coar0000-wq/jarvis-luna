@@ -2,8 +2,14 @@
 title: "Record ec89221635 · Extracting-Anyon-Statistics-from-Neural-Network-Fra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.416708+00:00
+updated_at: 2026-10-11T00:55:18.382759+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "과학수학", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1103/sb8g-qvn6"
+kind: "논문"
 ---
 
 # Record ec89221635 · Extracting-Anyon-Statistics-from-Neural-Network-Fra
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Extracting Anyon Statistics from Neural Network Fractional Quantum Hall States
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[과학수학]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

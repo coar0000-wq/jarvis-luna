@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.383552+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1002/dc.70182"
 ---
 
 # Record 248 · The-Asian-Federation-of-Cytology-Societies-Origins-Inaugural-Congress-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The Asian Federation of Cytology Societies: Origins, Inaugural Congress, and the Enduring Value of In‐Person Collaboration in Cytopathology
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

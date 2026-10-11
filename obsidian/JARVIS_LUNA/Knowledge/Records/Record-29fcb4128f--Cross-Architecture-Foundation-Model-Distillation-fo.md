@@ -2,8 +2,12 @@
 title: "Record 29fcb4128f · Cross-Architecture-Foundation-Model-Distillation-for-Edge-Flood-Segmen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.146946+00:00
+updated_at: 2026-10-11T00:55:14.173439+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.20441"
 ---
 
 # Record 29fcb4128f · Cross-Architecture-Foundation-Model-Distillation-for-Edge-Flood-Segmen
@@ -16,7 +20,3 @@ Cross-Architecture Foundation-Model Distillation for Edge Flood Segmentation
 Geospatial foundation models can provide strong flood-segmentation performance, but their size limits deployment on memory-constrained edge hardware. We distill a 300-million-parameter Prithvi-EO-2.0 teacher, fine-tuned on the 252 manually labeled Sen1Floods11 training scenes, into a 0.7-million-parameter EfficientViT-B0 student. The teacher supervises additional unlabeled Sentinel-2 imagery, allo
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

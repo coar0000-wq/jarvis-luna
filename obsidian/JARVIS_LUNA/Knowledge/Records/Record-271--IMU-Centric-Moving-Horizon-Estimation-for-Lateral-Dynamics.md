@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.383055+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10202v1"
 ---
 
 # Record 271 · IMU-Centric-Moving-Horizon-Estimation-for-Lateral-Dynamics-Estimation-
@@ -16,7 +20,3 @@ IMU-Centric Moving Horizon Estimation for Lateral Dynamics Estimation Across Veh
 Accurate estimation of lateral vehicle dynamics near the adhesion limit is important for stability control and high-performance driving, but lateral velocity is rarely measured directly because sensors such as optical sensors are costly. This paper presents an inertial measurement unit (IMU)-centric Moving Horizon Estimation framework that reconstructs lateral velocity using standard onboard signa
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

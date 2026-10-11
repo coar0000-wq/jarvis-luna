@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.569722+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=99lO319Juvk"
 ---
 
 # Record 2523 · The-Internet-Lied-About-Korean-Skincare
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Internet Lied About Korean Skincare
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

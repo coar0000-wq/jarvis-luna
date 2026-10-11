@@ -2,8 +2,12 @@
 title: "Record 2cd6a90c5c · How-to-select-the-right-rack-and-pinion-system-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.584258+00:00
+updated_at: 2026-10-11T00:55:51.879208+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/"
 ---
 
 # Record 2cd6a90c5c · How-to-select-the-right-rack-and-pinion-system-for-
@@ -16,7 +20,3 @@ How to select the right rack and pinion system for high-precision linear motion
 <p>GAM explains why robotics designers should consider pinion size when thinking about motion control for high-precision applications. </p> <p>The post <a href="https://www.therobotreport.com/how-to-select-the-right-rack-and-pinion-system-for-high-precision-linear-motion/">How to select the right rack and pinion system for high-precision linear motion</a> appeared first on <a href="https://www.the
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

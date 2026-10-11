@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.732362+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=L-cHgKTG1N8"
 ---
 
 # Record 2101 · 화장품-부작용-단-1가지로-끝장내는-법
@@ -15,7 +19,3 @@ tags: [record, real-data]
 화장품 부작용? 단 1가지로 끝장내는 법!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

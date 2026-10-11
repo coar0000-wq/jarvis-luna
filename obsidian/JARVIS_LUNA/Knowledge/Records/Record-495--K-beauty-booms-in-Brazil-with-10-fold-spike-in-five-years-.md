@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.041257+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTlVrRmVkSjd5ek8xYTlmRWo0dzVRYkdqRjU4NUR0YllGUUtkd1VoelpnLVc1NHFQdjd2WHZ6S2ljRkR5dzZSRmJoRmtkUGdMVU1XdHBENzFDSS1OemRmeGJyX3hTYnVaTHlQczRPN0VmYm5LaVB2c2Q1eVAtR2pEZ0cwSE94THZUQ0JSd2hWVkFIWUlMOGN5LW5qaklYNHpVdXZBelFJdVdmdngt?oc=5"
 ---
 
 # Record 495 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five-years---Korea-Joon
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 K-beauty booms in Brazil with 10-fold spike in five years - Korea JoongAng Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

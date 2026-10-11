@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.071798+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE5hS0o2Si1UbVFnTndULTdOZF9uamFrMWgyOXctUjNOaVpkRGpUazF1SVhlQ3NvcEhYNVk3ZVNnQzRhaFlWZWhZTXdGM3VCVlE2R1FsNWxNTWJENk5zN1JMb2RFZ2FEMTBCYS1ZRVZn0gFyQVVfeXFMTl8yMTdEdzlXd29nSVVIVnpPdlk5ZFlvMlZGUVBhVXJTVllJcXhFMWVhUVl1TzhZOHJ0X2xONTVncTY4ZUlaU0tnczU3N0hMcmwzeTFiMVRYTHdIazZmZTA0b3hZcHd6V1V3QXlHSGZYaW1B?oc=5"
 ---
 
 # Record 270 · Olive-Young-launches-1st-US-K-beauty-store-in-California-as-Sephora-an
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Olive Young launches 1st US K-beauty store in California as Sephora and Ulta expand Korean skincare shelves - Korea Biomedical Review
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

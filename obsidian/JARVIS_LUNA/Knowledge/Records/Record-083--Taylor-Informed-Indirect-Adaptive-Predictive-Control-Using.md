@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.345334+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03348v1"
 ---
 
 # Record 083 · Taylor-Informed-Indirect-Adaptive-Predictive-Control-Using-Jacobian-Fr
@@ -16,7 +20,3 @@ Taylor-Informed Indirect Adaptive Predictive Control Using Jacobian-Frozen Affin
 This paper develops a Taylor-informed indirect adaptive predictive control framework for nonlinear sampled-data systems using Jacobian-frozen affine predictors. A finite Taylor expansion approximates the sampled nonlinear dynamics, and recursive least squares (RLS) identifies its polynomial coefficients online. At each sampling instant, the Jacobian of the identified map is evaluated at the curren
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

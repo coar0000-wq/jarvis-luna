@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.312191+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLXJmWm9EUlZ3LVZmMlV0a2JORFBlYmhqMUg4dHlNNWt6TE1sTk9KLVNOUDYzUWIwd0hHYTdqT05DdjlsZ1J4b0lpMWZJZEJRdXJEdFJtVmFYRXk3eTFwSFhadTNMc0hDY3pldDFqZmI1LU1LSVhYYXo0TkpuSVYwT0pONkpGSk5uM3NoNnl1OV9xS25jNWpwdGxaQTdpMFE?oc=5"
 ---
 
 # Record 668 · MSs-new-K-beauty-skincare-really-delivers-results-for-women-over-50---
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 M&S’s new K-beauty skincare really delivers results for women over 50 - here are the best to buy - Good Housekeeping
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

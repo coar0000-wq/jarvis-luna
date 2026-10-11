@@ -2,8 +2,14 @@
 title: "Record 577a6d1291 · How-DNA-forensics-is-transforming-studies-of-ancien"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.356186+00:00
+updated_at: 2026-10-11T00:55:17.291408+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.1038/d41586-026-01029-2"
+kind: "논문"
 ---
 
 # Record 577a6d1291 · How-DNA-forensics-is-transforming-studies-of-ancien
@@ -15,7 +21,3 @@ tags: [record, real-data]
 How DNA forensics is transforming studies of ancient manuscripts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

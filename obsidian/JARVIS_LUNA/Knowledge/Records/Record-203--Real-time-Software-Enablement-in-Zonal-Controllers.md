@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:24.949946+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s38314-023-1478-0"
 ---
 
 # Record 203 · Real-time-Software-Enablement-in-Zonal-Controllers
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Real-time Software Enablement in Zonal Controllers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

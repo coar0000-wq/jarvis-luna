@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.434119+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/IfiDSvICaIM"
 ---
 
 # Record 2042 · I-Tested-20-Korean-SunscreensBest-for-Your-Skin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Tested 20 Korean Sunscreens—Best for Your Skin
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

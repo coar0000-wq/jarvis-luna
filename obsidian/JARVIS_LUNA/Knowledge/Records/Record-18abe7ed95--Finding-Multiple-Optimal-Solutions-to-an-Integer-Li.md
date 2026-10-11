@@ -2,8 +2,14 @@
 title: "Record 18abe7ed95 · Finding-Multiple-Optimal-Solutions-to-an-Integer-Linear-Program-by-Ran"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.526377+00:00
+updated_at: 2026-10-11T00:55:20.193652+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.20944/preprints202501.1518.v1"
+kind: "논문"
 ---
 
 # Record 18abe7ed95 · Finding-Multiple-Optimal-Solutions-to-an-Integer-Linear-Program-by-Ran
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Finding Multiple Optimal Solutions to an Integer Linear Program by Random Perturbations of its Objective Function
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

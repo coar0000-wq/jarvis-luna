@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.137879+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/0GzeG-MLuT8"
 ---
 
 # Record 582 · 화장품-부작용-이렇게-하세요
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 화장품 부작용? 이렇게 하세요!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

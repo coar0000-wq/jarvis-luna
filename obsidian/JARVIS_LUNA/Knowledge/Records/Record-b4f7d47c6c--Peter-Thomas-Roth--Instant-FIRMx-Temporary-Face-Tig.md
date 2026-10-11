@@ -2,8 +2,12 @@
 title: "Record b4f7d47c6c · Peter-Thomas-Roth--Instant-FIRMx-Temporary-Face-Tightener-Easy-Wear-Fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.249892+00:00
+updated_at: 2026-10-11T00:55:46.541355+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Peter-Thomas-Roth-Temporary-Tightener/dp/B0H2YNXFYL/ref=zg_bsnr_g_beauty_d_sccl_41/146-2119587-8197020"
 ---
 
 # Record b4f7d47c6c · Peter-Thomas-Roth--Instant-FIRMx-Temporary-Face-Tightener-Easy-Wear-Fo
@@ -16,7 +20,3 @@ Peter Thomas Roth | Instant FIRMx® Temporary Face Tightener Easy-Wear Formula |
 Peter Thomas Roth | Instant FIRMx® Temporary Face Tightener Easy-Wear Formula |For Firming & Smoothing Fine Lines, Deep Wrinkles and Pores · $42 · 평점 3.2 · 리뷰 249
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

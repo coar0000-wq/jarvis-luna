@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.565735+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiakFVX3lxTE16MUdaTG81Wm5rYTNPdmFac1dFaW84c3NmTWMyeS1pMy0taHRmUnM3dFJ2QUdia21HZEROZ0lSaExieFFrMEdVZnNCYlhGSHo1OGR4T1VtU0s5NFhyR0swQi1xck0tR2swN1E?oc=5"
 ---
 
 # Record 201 · Olive-Young-Is-Coming-To-Sephora-Singapore-With-Over-20-Korean-Beauty-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Olive Young Is Coming To Sephora Singapore With Over 20 Korean Beauty Brands In Tow - FZINE Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

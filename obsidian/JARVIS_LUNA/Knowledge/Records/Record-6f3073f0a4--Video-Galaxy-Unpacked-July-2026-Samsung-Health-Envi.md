@@ -2,8 +2,14 @@
 title: "Record 6f3073f0a4 · Video-Galaxy-Unpacked-July-2026-Samsung-Health-Envi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.588531+00:00
+updated_at: 2026-10-11T00:55:36.805521+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "마케팅광고", "소셜콘텐츠", "컴퓨터-비전", "의료바이오", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/video-galaxy-unpacked-july-2026-samsung-health-envisions-simpler-more-connected-care-with-ai"
+kind: "발표물"
 ---
 
 # Record 6f3073f0a4 · Video-Galaxy-Unpacked-July-2026-Samsung-Health-Envi
@@ -16,7 +22,3 @@ tags: [record, real-data]
 Managing health can be complicated. But what if it didn’t have to be? At Galaxy Unpacked July 2026 in London on July 22, Dr. Hon Pak, Senior Vice President and Head of the Digital Health Team, Mobile eXperience (MX) Business at Samsung Electronics, sat down with cognitive neuroscientist and science communicator Dr. Dong-seon Chang to […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[마케팅광고]] [[소셜콘텐츠]] [[컴퓨터-비전]] [[의료바이오]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

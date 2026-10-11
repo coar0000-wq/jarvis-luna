@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.165184+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/BUZGXoQrPSY"
 ---
 
 # Record 852 · 목표--올영에-입점된-제품들-다-써보기1일차-올영깡
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 목표 : ￼올영에 입점된 제품들￼ 다 써보기🌟1일차 #올영깡
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

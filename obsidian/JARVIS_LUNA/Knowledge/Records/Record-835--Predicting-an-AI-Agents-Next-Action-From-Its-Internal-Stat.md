@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.724390+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21959279"
 ---
 
 # Record 835 · Predicting-an-AI-Agents-Next-Action-From-Its-Internal-State-Before-It-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Predicting an AI Agent's Next Action From Its Internal State Before It Acts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

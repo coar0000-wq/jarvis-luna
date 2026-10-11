@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.344032+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03234v1"
 ---
 
 # Record 077 · Trajectory-Based-Co-Optimization-of-Arrival-Scheduling-and-Descent-Pat
@@ -16,7 +20,3 @@ Trajectory-Based Co-Optimization of Arrival Scheduling and Descent Path Design i
 Terminal arrival scheduling and descent procedure design are studied in two largely separate literatures. Scheduling models reduce each aircraft to a travel time and deliver target landing times, and fuel-efficient descent procedures are designed one aircraft at a time with the schedule taken as given, although both decide where an arriving aircraft absorbs delay before final approach. Existing fo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

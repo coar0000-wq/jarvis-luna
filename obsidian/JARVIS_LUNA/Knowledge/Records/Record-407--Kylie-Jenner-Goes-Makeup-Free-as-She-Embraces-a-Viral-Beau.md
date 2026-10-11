@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.029294+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTDljSHhoWnNZd05jUTQ0WVloaUpZeDUwR0l4UjNObkZUT3AtQXFrQ2gtS2djUkZSTmQ3MHFmTDdUeVdIQ3dtNDgzZ1JlUWxlNHNpS3lqUFIyZV84SWRZelBBUHFRQnhvN3VvMjVMWFpVZnhTSGhnUnNSUE1TbmZSbDFxeDFiYi1zaWduTlU4RkNtTUlZ?oc=5"
 ---
 
 # Record 407 · Kylie-Jenner-Goes-Makeup-Free-as-She-Embraces-a-Viral-Beauty-Trend-as-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Kylie Jenner Goes Makeup-Free as She Embraces a Viral Beauty Trend as Part of her Golden Globes 2026 Prep - instyle.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

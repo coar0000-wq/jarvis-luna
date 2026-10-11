@@ -2,8 +2,12 @@
 title: "Record 07fc5d1c77 · K-Beauty-Leader-DrAlthea-Hits-35-Million-Global-Sales-for-345-Relief-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.119144+00:00
+updated_at: 2026-10-11T00:55:28.841766+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeDBJOEFHdzMxeEVtZk1TWjBuVGROU3A5bWstVXQ2MGJkeWpYT0RxYmJzRmUtYUhJY1V6X0VSQ2hBREdnYlQ3RVFvQkROSS02ckJ5U2lxSGNya1ZXTHQ0UUN5Sk9YTFUtSWhZaFdyM01NeEJqTGVJZ0tiT3hsc2pPWTU0UjlSVWE0WTdNN094eW92MjZ2T3ZtdEpsdzJDZk5VU3l5VVpjRUxLMlRYZ2VSSHNPRWJSV2xPMmU4c29YS2tUWnJUMHE1VlVlVVBBd3lMWHA3UGQ4WDIzb3FUTWNXR3libFdWTWpkTzVXSFFqYjRzanNDZGc?oc=5"
 ---
 
 # Record 07fc5d1c77 · K-Beauty-Leader-DrAlthea-Hits-35-Million-Global-Sales-for-345-Relief-C
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty Leader Dr.Althea Hits 35 Million Global Sales for 345 Relief Cream, Unveils Expanded 345 Relief Line - PR Newswire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.335991+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["로보틱스", "음성오디오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28518v1"
 ---
 
 # Record 029 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-Voice-Controlled-Em
@@ -15,7 +19,3 @@ tags: [record, real-data]
 When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[로보틱스]] [[음성오디오]] [[JARVIS Real Knowledge Index]]

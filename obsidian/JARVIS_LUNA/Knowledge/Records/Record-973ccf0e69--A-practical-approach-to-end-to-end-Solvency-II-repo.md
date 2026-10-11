@@ -2,8 +2,14 @@
 title: "Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-repo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.441594+00:00
+updated_at: 2026-10-11T00:55:49.082156+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "법률규제", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks"
+kind: "발표물"
 ---
 
 # Record 973ccf0e69 · A-practical-approach-to-end-to-end-Solvency-II-repo
@@ -16,7 +22,3 @@ A practical approach to end-to-end Solvency II reporting in Databricks
 Solvency II reporting is not only a regulatory submission. It is a business process...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[법률규제]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

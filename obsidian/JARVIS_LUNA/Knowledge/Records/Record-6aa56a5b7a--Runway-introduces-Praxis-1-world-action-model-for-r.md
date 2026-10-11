@@ -2,8 +2,12 @@
 title: "Record 6aa56a5b7a · Runway-introduces-Praxis-1-world-action-model-for-robotics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.601817+00:00
+updated_at: 2026-10-11T00:55:52.125102+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/"
 ---
 
 # Record 6aa56a5b7a · Runway-introduces-Praxis-1-world-action-model-for-robotics
@@ -16,7 +20,3 @@ Runway introduces Praxis-1 world action model for robotics
 <p>When Runway does release Praxis-1 publicly, it plans to ship it with open weights rather than as a closed model. </p> <p>The post <a href="https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/">Runway introduces Praxis-1 world action model for robotics</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

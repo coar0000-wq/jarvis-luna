@@ -2,8 +2,12 @@
 title: "Record 23ed7ec168 · From-Laboratory-Aging-Studies-to-Field-Predictions-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.027173+00:00
+updated_at: 2026-10-11T00:55:12.819089+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10185v1"
 ---
 
 # Record 23ed7ec168 · From-Laboratory-Aging-Studies-to-Field-Predictions-
@@ -16,7 +20,3 @@ From Laboratory Aging Studies to Field Predictions: Quantifying Uncertainty in B
 Predicting how long a battery energy storage system will last is critical for warranty design, maintenance planning and investment decisions, yet degradation models are mostly deterministic and rarely validated against real field data. We apply an open-source probabilistic degradation framework, combined with a cell-to-system approximation, to bridge the gap between cell-level laboratory aging mod
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

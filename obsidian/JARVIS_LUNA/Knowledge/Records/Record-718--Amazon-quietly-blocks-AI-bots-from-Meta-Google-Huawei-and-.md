@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.922123+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZkJtU0pjMHlnX2Q4eWluTEVpRXpFRVFvRnBLY2I4ODFwdnpQRW5GX2V1T19kTVdzRi1fSzFJNzdNMzhmVkpReXlFbnRHUVVuRl94WTdHeDltWlhQWFplYTV2ZmVYTDIxbDhUNDMwU0VaM2hVUjVjVkwwZ1dxSVU0WVduQ3RyUEFjZXAwTzdFbzgxOVdaYXVuTGgzdk9LY08wSUxBYVhuQQ?oc=5"
 ---
 
 # Record 718 · Amazon-quietly-blocks-AI-bots-from-Meta-Google-Huawei-and-more---Moder
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Amazon quietly blocks AI bots from Meta, Google, Huawei and more - Modern Retail
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

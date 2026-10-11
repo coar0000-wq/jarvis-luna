@@ -2,8 +2,14 @@
 title: "Record 2b0379511e · Introducing-WeatherNext-3-our-most-advanced-and-acc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.246380+00:00
+updated_at: 2026-10-11T00:55:15.494598+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+kind: "발표물"
 ---
 
 # Record 2b0379511e · Introducing-WeatherNext-3-our-most-advanced-and-acc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Introducing WeatherNext 3, our most advanced and accurate global weather AI model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

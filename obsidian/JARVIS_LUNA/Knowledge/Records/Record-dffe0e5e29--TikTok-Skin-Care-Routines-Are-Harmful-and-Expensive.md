@@ -2,8 +2,12 @@
 title: "Record dffe0e5e29 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.453065+00:00
+updated_at: 2026-10-11T00:55:34.687553+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠", "의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNMU13YXkwQmowSnJEallzSkpfSjFGU2lDWkU4a0t1U0hBTjNKNThpelhhZy1XVW8xdWp4WF9aWXlVdW9QT3dBSW9NQllKa2g1MnZaX2s5OTc1M3V2VHNDVWtkYUNxNGo1N3I2ZkV4RkNMWF96MnRISlROdTVxTjE0dEhtY2ljQ09Ja01MY1FuWHYxbm45Y1h0Yk9qWlUwUQ?oc=5"
 ---
 
 # Record dffe0e5e29 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok Skin Care Routines Are Harmful and Expensive, Researchers Say - Healthline
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

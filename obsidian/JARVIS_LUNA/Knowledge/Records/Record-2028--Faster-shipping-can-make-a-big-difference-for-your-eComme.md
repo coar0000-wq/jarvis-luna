@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.470703+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략", "이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/3gaZeiqPzxM"
 ---
 
 # Record 2028 · Faster-shipping-can-make-a-big-difference-for-your-eCommerce-business
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Faster shipping can make a big difference for your eCommerce business. 📦
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

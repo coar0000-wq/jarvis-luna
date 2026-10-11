@@ -2,8 +2,12 @@
 title: "Record 18182be133 · A-Free-Knob-Decoupling-Calibration-and-Predictive-Skill-in-Threshold-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.852930+00:00
+updated_at: 2026-10-11T00:55:25.140899+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.33457"
 ---
 
 # Record 18182be133 · A-Free-Knob-Decoupling-Calibration-and-Predictive-Skill-in-Threshold-B
@@ -16,7 +20,3 @@ A Free Knob: Decoupling Calibration and Predictive Skill in Threshold-Based Eval
 Many dense-prediction benchmarks evaluate rare events by pooling prediction and target over spatial blocks, thresholding each, and scoring the contingency table. At a fixed rare operating point, the max-pooled Critical Success Index (CSI) confounds spatial discrimination with amplitude calibration: sharp observations promote many blocks above threshold, while attenuated predictions from squared-er
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

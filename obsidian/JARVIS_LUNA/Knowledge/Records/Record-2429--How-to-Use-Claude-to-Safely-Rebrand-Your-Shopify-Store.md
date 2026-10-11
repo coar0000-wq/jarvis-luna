@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.991925+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=gugo50_VbjE"
 ---
 
 # Record 2429 · How-to-Use-Claude-to-Safely-Rebrand-Your-Shopify-Store
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to Use Claude to Safely Rebrand Your Shopify Store
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

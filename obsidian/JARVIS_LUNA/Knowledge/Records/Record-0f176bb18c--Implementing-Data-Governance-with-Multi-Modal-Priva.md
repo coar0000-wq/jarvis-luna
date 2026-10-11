@@ -2,8 +2,14 @@
 title: "Record 0f176bb18c · Implementing-Data-Governance-with-Multi-Modal-Priva"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.556534+00:00
+updated_at: 2026-10-11T00:55:20.725093+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.23889/ijpds.v9i5.2898"
+kind: "논문"
 ---
 
 # Record 0f176bb18c · Implementing-Data-Governance-with-Multi-Modal-Priva
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Implementing Data Governance with Multi-Modal Privacy-Preserving Record Linkages between Restricted and Public Open Enclaves
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

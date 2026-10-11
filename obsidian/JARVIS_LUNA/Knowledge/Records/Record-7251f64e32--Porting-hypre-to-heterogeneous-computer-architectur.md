@@ -2,8 +2,14 @@
 title: "Record 7251f64e32 · Porting-hypre-to-heterogeneous-computer-architectur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.328237+00:00
+updated_at: 2026-10-11T00:55:16.739570+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.parco.2021.102840"
+kind: "논문"
 ---
 
 # Record 7251f64e32 · Porting-hypre-to-heterogeneous-computer-architectur
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Porting hypre to heterogeneous computer architectures: Strategies and experiences
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

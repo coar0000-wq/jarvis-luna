@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.337414+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/zrJRlnfQTR0"
 ---
 
 # Record 1049 · How-to-design-and-build-a-Shopify-store-with-Claude
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How to design and build a Shopify store with Claude
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

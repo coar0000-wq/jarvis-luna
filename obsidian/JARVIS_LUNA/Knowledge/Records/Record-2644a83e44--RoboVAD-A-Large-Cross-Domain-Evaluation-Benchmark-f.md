@@ -2,8 +2,12 @@
 title: "Record 2644a83e44 · RoboVAD-A-Large-Cross-Domain-Evaluation-Benchmark-for-Anomaly-Detectio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.118595+00:00
+updated_at: 2026-10-11T00:55:13.849532+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "머신러닝-연구", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.17843"
 ---
 
 # Record 2644a83e44 · RoboVAD-A-Large-Cross-Domain-Evaluation-Benchmark-for-Anomaly-Detectio
@@ -16,7 +20,3 @@ RoboVAD: A Large Cross-Domain Evaluation Benchmark for Anomaly Detection in Robo
 Video anomaly detection (VAD) is an actively studied task, having wide applications in typical scenarios such as public surveillance and road traffic safety. The task is also relevant for robotic arm interactions, where it has several downstream applications, including learning better interaction and manipulation abilities, triggering recovery procedures when anomalies occur, etc. Despite its rele
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[머신러닝-연구]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

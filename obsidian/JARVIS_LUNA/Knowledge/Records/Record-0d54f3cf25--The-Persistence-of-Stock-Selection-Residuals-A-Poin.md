@@ -2,8 +2,14 @@
 title: "Record 0d54f3cf25 · The-Persistence-of-Stock-Selection-Residuals-A-Point-In-Time-Holdings-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.550301+00:00
+updated_at: 2026-10-11T00:55:20.628018+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.7090198"
+kind: "논문"
 ---
 
 # Record 0d54f3cf25 · The-Persistence-of-Stock-Selection-Residuals-A-Point-In-Time-Holdings-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Persistence of Stock-Selection Residuals: A Point-In-Time, Holdings-Based Decomposition of Mutual Fund Performance
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

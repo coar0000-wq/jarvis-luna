@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.481632+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1063/5.0341581"
 ---
 
 # Record 408 · Molecular-dynamics-study-of-ferroelectric-switching-mechanisms-in-mono
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Molecular dynamics study of ferroelectric switching mechanisms in monodomain and 180° domain walls of BaTiO3 and PbTiO3
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 7dba34e8c1 · 푹푹-찌고-습한-여름에-쓰면-정말-괜찮은-꿀템들-가져왔습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.714095+00:00
+updated_at: 2026-10-11T00:55:54.151105+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=29chRJJ7GVU"
 ---
 
 # Record 7dba34e8c1 · 푹푹-찌고-습한-여름에-쓰면-정말-괜찮은-꿀템들-가져왔습니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 🔥푹푹 찌고 습한 여름에 쓰면 정말 괜찮은 꿀템들 가져왔습니다🔥
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

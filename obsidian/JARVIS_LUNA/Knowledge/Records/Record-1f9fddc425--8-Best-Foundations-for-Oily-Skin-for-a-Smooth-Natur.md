@@ -2,8 +2,12 @@
 title: "Record 1f9fddc425 · 8-Best-Foundations-for-Oily-Skin-for-a-Smooth-Natur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.910244+00:00
+updated_at: 2026-10-11T00:55:42.095679+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-foundation-for-acne"
 ---
 
 # Record 1f9fddc425 · 8-Best-Foundations-for-Oily-Skin-for-a-Smooth-Natur
@@ -16,7 +20,3 @@ tags: [record, real-data]
 8 Best Foundations for Oily Skin for a Smooth, Natural-Looking Finish
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

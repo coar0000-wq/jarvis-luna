@@ -2,8 +2,12 @@
 title: "Record 46c10f7b10 · Shopify-President-Says-Agents-Will-Act-as-Personal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.340063+00:00
+updated_at: 2026-10-11T00:55:32.760759+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVlNZTlI4a2owUWQ2UFpTelNEUWdkZ2Z1cmt5MHpxX21fOWFOUW5peXNWSFlrbk9pazE3YlFCYWRjc0JsVXNtaWRGSHhkQnJiblkyUlBJOG80LThhalNYUkEwcTZxbDM5N25iZjdpcTVlb0Vrai1FUlY2Q2k1ZWZrbEJuaTk?oc=5"
 ---
 
 # Record 46c10f7b10 · Shopify-President-Says-Agents-Will-Act-as-Personal-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify President Says Agents Will Act as Personal Shoppers - PYMNTS.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.090351+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2YjBTblJDY1ppTkRkU2NvckVDbzBBbTJDbUtfdjN2eS02ZU5IS01QbmFzZV9UUmdTNkotejhqb0xjOWd1cTJRZlp5RFdlRUVZZFA1aU1KeFhSd2NpX0Y0ckduNGNqd3pvQWcyT0p5RmxTN1BaVWNvOHVB?oc=5"
 ---
 
 # Record 386 · Guava-Girl-Summer-is-this-seasons-mood-boosting-beauty-trend---CBC
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Guava Girl Summer is this season's mood-boosting beauty trend - CBC
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

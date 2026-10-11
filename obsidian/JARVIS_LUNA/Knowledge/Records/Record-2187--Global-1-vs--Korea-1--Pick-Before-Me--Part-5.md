@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.298415+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/HJmBI178Fik"
 ---
 
 # Record 2187 · Global-1-vs--Korea-1--Pick-Before-Me--Part-5
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Global #1 vs 🇰🇷 Korea #1 — Pick Before Me | Part 5
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

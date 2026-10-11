@@ -2,8 +2,14 @@
 title: "Record 74b57f719d · Samsung-Launches-Its-First-Credit-Card-Us"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.419322+00:00
+updated_at: 2026-10-11T00:55:48.694039+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/070/samsung-launches-its-first-credit-card-us/"
+kind: "발표물"
 ---
 
 # Record 74b57f719d · Samsung-Launches-Its-First-Credit-Card-Us
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Samsung Launches Its First Credit Card Us
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

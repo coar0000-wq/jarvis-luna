@@ -2,8 +2,14 @@
 title: "Record 63263a22d4 · Supervised-Similarity-for-Firm-Linkages"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.542211+00:00
+updated_at: 2026-10-11T00:55:20.500985+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.5286827"
+kind: "논문"
 ---
 
 # Record 63263a22d4 · Supervised-Similarity-for-Firm-Linkages
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Supervised Similarity for Firm Linkages
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

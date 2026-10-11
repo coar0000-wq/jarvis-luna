@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.039972+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "openalex.org"
+url: "https://openalex.org/W7139177806"
 ---
 
 # Record 2006 · Who-Owns-The-Story--Rights-Adaptations-and-Creative-Control-in-Theatre
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Who Owns The Story ? Rights, Adaptations, and Creative Control in Theatre
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 77d2d35e33 · When-Does-Reasoning-Help-in-Machine-Translation-A-Hierarchical-Analysi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.742076+00:00
+updated_at: 2026-10-11T00:55:23.667649+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.21247"
+kind: "논문"
 ---
 
 # Record 77d2d35e33 · When-Does-Reasoning-Help-in-Machine-Translation-A-Hierarchical-Analysi
@@ -15,7 +21,3 @@ tags: [record, real-data]
 When Does Reasoning Help in Machine Translation? A Hierarchical Analysis of LRM Reasoning Traces
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

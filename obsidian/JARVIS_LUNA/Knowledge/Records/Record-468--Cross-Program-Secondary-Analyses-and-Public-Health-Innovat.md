@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.066060+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1101/2025.11.26.25341110"
 ---
 
 # Record 468 · Cross-Program-Secondary-Analyses-and-Public-Health-Innovation-The-RADx
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Cross-Program Secondary Analyses and Public Health Innovation: The RADx Data Hub as a Resource for Integrated COVID-19 Research
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

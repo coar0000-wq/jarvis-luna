@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.360486+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05266v1"
 ---
 
 # Record 157 · TacPAC-Tactile-Prediction-and-Real-Time-Action-Correction-in-World-Act
@@ -16,7 +20,3 @@ TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Model
 World-action models guide action generation with predicted future observations, but vision-centric predictions miss the local contact cues that decide contact-rich manipulation. However, naively predicting future tactile observations as additional views recovers only a third of the achievable gain in our experiments. This gap reflects a timing mismatch: predictions precede execution, while tactile
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

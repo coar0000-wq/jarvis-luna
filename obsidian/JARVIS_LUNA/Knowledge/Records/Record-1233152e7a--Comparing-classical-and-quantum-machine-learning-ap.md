@@ -2,8 +2,14 @@
 title: "Record 1233152e7a · Comparing-classical-and-quantum-machine-learning-ap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.398758+00:00
+updated_at: 2026-10-11T00:55:18.051489+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1088/2631-8695/ae98fa"
+kind: "논문"
 ---
 
 # Record 1233152e7a · Comparing-classical-and-quantum-machine-learning-ap
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Comparing classical and quantum machine learning approaches for crop and weed detection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

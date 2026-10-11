@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.163446+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE45NmpYbk50Ry1jOFdkUXdCanJCaEhlN08ySndiZG93eDJVM0lwbTVjdU9kblA1U21oekZ5aThJcHB1ZlUtcmhYWGpxRzFsV28zakJIQWtlak5OTzVjUjV3ekhxN0k3ZTQ5YVdaNg?oc=5"
 ---
 
 # Record 1068 · Jelly-Beauty-And-Jelly-Skincare-Are-Taking-Over-Heres-How-To-Master-Th
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Jelly Beauty And Jelly Skincare Are Taking Over, Here’s How To Master The Trend - Refinery29
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

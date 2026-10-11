@@ -2,8 +2,14 @@
 title: "Record c4ee054ffa · Complete-Derivation-of-Physics-from-551-Dimensional"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.919846+00:00
+updated_at: 2026-10-11T00:55:25.932771+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Mistral AI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18122056"
+kind: "논문"
 ---
 
 # Record c4ee054ffa · Complete-Derivation-of-Physics-from-551-Dimensional
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Complete Derivation of Physics from 5+5+1 Dimensional Geometry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

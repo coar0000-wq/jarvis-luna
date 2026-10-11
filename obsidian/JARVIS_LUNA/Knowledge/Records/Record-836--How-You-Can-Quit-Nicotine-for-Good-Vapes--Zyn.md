@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.747739+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=bM0JmNqMFjM"
 ---
 
 # Record 836 · How-You-Can-Quit-Nicotine-for-Good-Vapes--Zyn
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How You Can Quit Nicotine for Good (Vapes + Zyn)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

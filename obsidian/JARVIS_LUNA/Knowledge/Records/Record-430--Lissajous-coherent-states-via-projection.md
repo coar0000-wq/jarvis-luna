@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.425577+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1088/1751-8121/ae8895"
 ---
 
 # Record 430 · Lissajous-coherent-states-via-projection
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Lissajous coherent states via projection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

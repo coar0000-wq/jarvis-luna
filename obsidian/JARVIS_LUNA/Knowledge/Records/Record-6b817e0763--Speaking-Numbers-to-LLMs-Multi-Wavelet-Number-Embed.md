@@ -2,8 +2,14 @@
 title: "Record 6b817e0763 · Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.687675+00:00
+updated_at: 2026-10-11T00:55:38.353154+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7166399791"
+kind: "논문"
 ---
 
 # Record 6b817e0763 · Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embed
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Speaking Numbers to LLMs: Multi-Wavelet Number Embeddings for Time Series Forecasting
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

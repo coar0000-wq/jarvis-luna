@@ -2,8 +2,14 @@
 title: "Record 811cf4079a · РЕПРЕЗЕНТАЦИЯ-ВНУТРЕННЕГО-МИРА-ЛИЧНОСТИ-В-ХУДОЖЕСТВЕННОЙ-ЛИТЕРАТУРЕ-ФО"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.982299+00:00
+updated_at: 2026-10-11T00:55:26.953881+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.54613/ku.v18ib.1709"
+kind: "논문"
 ---
 
 # Record 811cf4079a · РЕПРЕЗЕНТАЦИЯ-ВНУТРЕННЕГО-МИРА-ЛИЧНОСТИ-В-ХУДОЖЕСТВЕННОЙ-ЛИТЕРАТУРЕ-ФО
@@ -15,7 +21,3 @@ tags: [record, real-data]
 РЕПРЕЗЕНТАЦИЯ ВНУТРЕННЕГО МИРА ЛИЧНОСТИ В ХУДОЖЕСТВЕННОЙ ЛИТЕРАТУРЕ: ФОРМЫ, МЕХАНИЗМЫ, ИНТЕРПРЕТАЦИИ
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

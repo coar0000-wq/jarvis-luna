@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.269048+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7166399791"
 ---
 
 # Record 1829 · Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embeddings-for-Time-Seri
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Speaking Numbers to LLMs: Multi-Wavelet Number Embeddings for Time Series Forecasting
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

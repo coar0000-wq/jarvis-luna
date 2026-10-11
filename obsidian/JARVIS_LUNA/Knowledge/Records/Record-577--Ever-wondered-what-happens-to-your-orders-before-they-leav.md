@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.742542+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/ua-UKmpBRKA"
 ---
 
 # Record 577 · Ever-wondered-what-happens-to-your-orders-before-they-leave-a-CJ-wareh
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Ever wondered what happens to your orders before they leave a CJ warehouse? 👀
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

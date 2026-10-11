@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.970392+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/PaHbgC888qQ"
 ---
 
 # Record 779 · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way-for-the-best-way-t
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How to use your Vitamin C, Retinol, SPF the right way for the best way to age gracefully🍋#antiaging
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

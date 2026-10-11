@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.187202+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/j8rtHlkIKOU"
 ---
 
 # Record 884 · Expensive-SHT-thats-Worth-Every-Single-Dollar-K-Beauty-Edition
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Expensive SH*T that's Worth Every Single Dollar! K-Beauty Edition
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

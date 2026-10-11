@@ -2,8 +2,12 @@
 title: "Record f5887c9115 · AHA-BHA-PHA-30Days-Miracle-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.733067+00:00
+updated_at: 2026-10-11T00:55:39.211977+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "sokoglam.com"
+url: "https://sokoglam.com/products/some-by-mi-aha-bha-pha-30days-miracle-toner"
 ---
 
 # Record f5887c9115 · AHA-BHA-PHA-30Days-Miracle-Toner
@@ -16,7 +20,3 @@ AHA-BHA-PHA 30Days Miracle Toner
 AHA-BHA-PHA 30Days Miracle Toner · SOME BY MI · $22.44
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record dde0883499 · FD-AA-A-Lightweight-Focal-Diffuse-And-Attenuation-Aware-Head-for-Incid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.224283+00:00
+updated_at: 2026-10-11T00:55:15.152950+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.36189"
 ---
 
 # Record dde0883499 · FD-AA-A-Lightweight-Focal-Diffuse-And-Attenuation-Aware-Head-for-Incid
@@ -16,7 +20,3 @@ FD-AA: A Lightweight Focal-Diffuse And Attenuation-Aware Head for Incidental Abd
 Routine chest CT captures upper-abdominal structures that may contain clinically relevant incidental abnormalities. Detecting these findings requires feature extraction from organs with different spatial extents and attenuation patterns. We propose FD-AA, a lightweight organ-aware classification head adaptable for frozen 3-D CT encoders. Within each organ, an attenuation-aware module preserves spa
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

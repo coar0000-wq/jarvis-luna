@@ -2,8 +2,14 @@
 title: "Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.415112+00:00
+updated_at: 2026-10-11T00:55:18.352334+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1103/bnzx-znhf"
+kind: "논문"
 ---
 
 # Record f2f387b681 · Multiphoton-interference-with-a-symmetric-SU-N--bea
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Multiphoton interference with a symmetric SU( N ) beam splitter and the generalization of the extended Hong-Ou-Mandel effect
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

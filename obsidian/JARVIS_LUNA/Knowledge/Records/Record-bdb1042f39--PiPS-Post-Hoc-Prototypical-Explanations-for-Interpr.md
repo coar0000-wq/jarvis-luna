@@ -2,8 +2,12 @@
 title: "Record bdb1042f39 · PiPS-Post-Hoc-Prototypical-Explanations-for-Interpretable-Semantic-Seg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.110371+00:00
+updated_at: 2026-10-11T00:55:13.741741+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전", "로보틱스", "인프라클라우드", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16909"
 ---
 
 # Record bdb1042f39 · PiPS-Post-Hoc-Prototypical-Explanations-for-Interpretable-Semantic-Seg
@@ -16,7 +20,3 @@ PiPS: Post-Hoc Prototypical Explanations for Interpretable Semantic Segmentation
 With the increasing deployment of deep neural networks in critical systems, such as medical diagnostics and autonomous vehicles, ensuring their interpretability is crucial to building trust in decision-making systems. In the field of explainable artificial intelligence, prototype-based reasoning has gained particular popularity, as it mimics human cognitive processes by explaining model decisions
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[로보틱스]] [[인프라클라우드]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

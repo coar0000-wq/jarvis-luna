@@ -2,8 +2,14 @@
 title: "Record c2d77fbd15 · KI-Nutzerakzeptanz-am-Beispiel-von-Chatbots-im-Online-Banking"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.662633+00:00
+updated_at: 2026-10-11T00:55:37.815665+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7115983743"
+kind: "논문"
 ---
 
 # Record c2d77fbd15 · KI-Nutzerakzeptanz-am-Beispiel-von-Chatbots-im-Online-Banking
@@ -15,7 +21,3 @@ tags: [record, real-data]
 KI-Nutzerakzeptanz am Beispiel von Chatbots im Online-Banking
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record ae87931cde · DrDifferent-teams-up-with-startup-behind-20-billion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.136316+00:00
+updated_at: 2026-10-11T00:55:29.195793+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["경영전략", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xOVVoZV9tRDVjQUlyWmRJb1VMUzNLeExRb0prX3QteFJ6anA2bGFFb3NGUFB2VXlaX0UxVndQREMtX1RrWS1jcVdzOVVHQmZ6ejZxVw?oc=5"
 ---
 
 # Record ae87931cde · DrDifferent-teams-up-with-startup-behind-20-billion
@@ -16,7 +20,3 @@ Dr.Different teams up with startup behind 20 billion won deal to break into U.S.
 Dr.Different teams up with startup behind 20 billion won deal to break into U.S. TikTok and Amazon - 코리아스타트업포스트
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[경영전략]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

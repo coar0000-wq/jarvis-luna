@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.001517+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1126/science.aee3176"
 ---
 
 # Record 437 · The-next-Turing-tests-Reimagining-conceptions-and-measures-of-AI
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The next Turing tests: Reimagining conceptions and measures of AI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

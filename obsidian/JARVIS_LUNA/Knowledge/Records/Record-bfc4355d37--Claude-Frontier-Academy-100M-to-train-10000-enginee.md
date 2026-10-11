@@ -2,8 +2,14 @@
 title: "Record bfc4355d37 · Claude-Frontier-Academy-100M-to-train-10000-engineers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.364184+00:00
+updated_at: 2026-10-11T00:55:48.047767+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/claude-frontier-academy"
+kind: "발표물"
 ---
 
 # Record bfc4355d37 · Claude-Frontier-Academy-100M-to-train-10000-engineers
@@ -16,7 +22,3 @@ Claude Frontier Academy: $100M to train 10,000 engineers
 Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

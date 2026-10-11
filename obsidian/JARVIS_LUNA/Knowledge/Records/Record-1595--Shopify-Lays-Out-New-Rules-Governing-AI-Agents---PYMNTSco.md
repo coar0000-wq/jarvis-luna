@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.162519+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEcybWxPbHdqZDBxYkwxTmY2YzN0Ri0wejZ5Tm5udEtacGhRUFZWTGxfY3V3Q1A2eVpfUGxaSGQxYXUxM0VYcm1XWEZWc1VMUEZ4MUp1NHlPYk9SS3E1NmJhYm9QaW1ZdWYyY1didWIycGNGMDdRLURFWjFUa1FubllsSnFhbWJidUpfY0JwYVFSZnpoS2N3RkZrYkdyc0pxajdPNXNjQQ?oc=5"
 ---
 
 # Record 1595 · Shopify-Lays-Out-New-Rules-Governing-AI-Agents---PYMNTScom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify Lays Out New Rules Governing AI Agents - PYMNTS.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

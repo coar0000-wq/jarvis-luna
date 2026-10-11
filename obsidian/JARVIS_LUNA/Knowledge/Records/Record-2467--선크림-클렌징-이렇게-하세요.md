@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.556086+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/YjSjuKj8vxI"
 ---
 
 # Record 2467 · 선크림-클렌징-이렇게-하세요
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선크림 클렌징 이렇게 하세요
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

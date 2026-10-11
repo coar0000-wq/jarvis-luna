@@ -2,8 +2,14 @@
 title: "Record 5616e050cd · Deploy-and-manage-coding-agents-at-scale-with-the-Unity-Gateway-CLI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.429726+00:00
+updated_at: 2026-10-11T00:55:48.887650+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "LLM언어모델", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/deploy-and-manage-coding-agents-scale-unity-gateway-cli"
+kind: "발표물"
 ---
 
 # Record 5616e050cd · Deploy-and-manage-coding-agents-at-scale-with-the-Unity-Gateway-CLI
@@ -16,7 +22,3 @@ Deploy and manage coding agents at scale with the Unity Gateway CLI
 In the last six months, GPT-6, Claude Opus 5.5, Gemini 3.8, and Grok 4.7 all shipped,...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

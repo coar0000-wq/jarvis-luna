@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.012589+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE12bE5VOXR4NmlJSUhLN0lxcTZmZVVVTjhCbkpsVXZVT0xySGdBZHRWdTdfVTNoQXVvdzJQZW5YLWhjcVJ1Mk5udU4xMW1xQmx1RzJyTVhiNnktcDBCU1NjWGlxTXB0NjZoY3hlNWF3SkVQUFU?oc=5"
 ---
 
 # Record 160 · Artificial-Intelligence-Analytics-A-Guide-for-Business-Owners---Shopif
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Artificial Intelligence Analytics: A Guide for Business Owners - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

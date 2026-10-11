@@ -2,8 +2,14 @@
 title: "Record 68223e75eb · Grok-4-5-Everywhere"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.743397+00:00
+updated_at: 2026-10-11T00:55:54.728408+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-5-everywhere"
+kind: "발표물"
 ---
 
 # Record 68223e75eb · Grok-4-5-Everywhere
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Grok 4 5 Everywhere
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

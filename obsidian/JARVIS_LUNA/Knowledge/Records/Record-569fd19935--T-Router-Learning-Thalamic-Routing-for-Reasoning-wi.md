@@ -2,8 +2,12 @@
 title: "Record 569fd19935 · T-Router-Learning-Thalamic-Routing-for-Reasoning-with-Parameter-Effici"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.902447+00:00
+updated_at: 2026-10-11T00:55:25.696933+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE", "머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.39109"
 ---
 
 # Record 569fd19935 · T-Router-Learning-Thalamic-Routing-for-Reasoning-with-Parameter-Effici
@@ -16,7 +20,3 @@ T-Router: Learning Thalamic Routing for Reasoning with Parameter-Efficient Reinf
 Parameter-efficient reinforcement learning aims to improve reasoning with a compact trainable interface to a pretrained model. We introduce the Thalamic Router (T-Router), which concentrates adaptation on the reuse of completed computations. A compressed, addressable bank preserves block changes; a depth-recurrent controller conditions their selection and relative-scale writeback. This coupling gi
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

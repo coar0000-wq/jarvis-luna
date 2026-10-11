@@ -2,8 +2,14 @@
 title: "Record 06b2313412 · Watermarks-in-stream-processing-systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.510046+00:00
+updated_at: 2026-10-11T00:55:20.031659+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.14778/3476311.3476389"
+kind: "논문"
 ---
 
 # Record 06b2313412 · Watermarks-in-stream-processing-systems
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Watermarks in stream processing systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

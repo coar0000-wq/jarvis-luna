@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.450862+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUUWFlZkhlR243UTVwcmU2MTNmcDdDRFVhR3BNaE04clduWkVQWUs1d2psUm9Scl9tNFR6TWdkUU40cHIzTkZqVFp0X1h3NVItd1FhQXhZWGRQLVhmM0RTYnk4Rkw3Sm9GdTVwNkZR0gFzQVVfeXFMUEVpZ3RjWkRaM0pzOGNsN3lMWGxrd04xREFSdzJ1NnphaTlYYkUtWkR0b1NXT1FkclNSZk1WZ1FmaUcwTkxqdkxEX1pWTHZmOTlFQjJnTU41OXFvV2pIdDFBR3lJbF93bmpHb1FxaHNRZUdZYw?oc=5"
 ---
 
 # Record 1376 · I-Test-Drove-the-Morning-Shed-TikTok-Routine---thekitca
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Test-Drove the Morning Shed TikTok Routine - thekit.ca
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

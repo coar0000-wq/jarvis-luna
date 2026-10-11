@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.387471+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/3cj4qZJNxGs"
 ---
 
 # Record 793 · Why-is-this-type-of-Korean-mask-used-at-Korean-Skincare-Clinic-after-t
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Why is this type of Korean mask used at Korean Skincare Clinic after the treatments!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

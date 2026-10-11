@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.891661+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/deepseek-ai-watershed-moment"
 ---
 
 # Record 2492 · Deepseek-Ai-Watershed-Moment
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Deepseek Ai Watershed Moment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

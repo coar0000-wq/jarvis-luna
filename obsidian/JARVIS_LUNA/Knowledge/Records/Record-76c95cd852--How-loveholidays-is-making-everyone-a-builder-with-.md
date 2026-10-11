@@ -2,8 +2,14 @@
 title: "Record 76c95cd852 · How-loveholidays-is-making-everyone-a-builder-with-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.645689+00:00
+updated_at: 2026-10-11T00:55:37.580113+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/loveholidays"
+kind: "발표물"
 ---
 
 # Record 76c95cd852 · How-loveholidays-is-making-everyone-a-builder-with-
@@ -16,7 +22,3 @@ How loveholidays is making everyone a builder with Codex
 Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

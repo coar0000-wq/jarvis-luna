@@ -2,8 +2,12 @@
 title: "Record ecf657bd50 · Gem-Skin-Loving-Body-Wash-Coconut-Vanilla-500mL-169-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.667977+00:00
+updated_at: 2026-10-11T00:55:53.211809+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Gem-Skin-Loving-Body-Wash-Coconut-Vanilla-500mL-16-9-fl-oz/20282564828"
 ---
 
 # Record ecf657bd50 · Gem-Skin-Loving-Body-Wash-Coconut-Vanilla-500mL-169-fl-oz
@@ -16,7 +20,3 @@ Gem Skin-Loving Body Wash Coconut Vanilla 500mL 16.9 fl oz
 Gem Skin-Loving Body Wash Coconut Vanilla 500mL 16.9 fl oz · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

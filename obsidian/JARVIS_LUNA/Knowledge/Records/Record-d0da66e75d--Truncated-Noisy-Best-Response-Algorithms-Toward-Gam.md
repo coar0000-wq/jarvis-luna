@@ -2,8 +2,12 @@
 title: "Record d0da66e75d · Truncated-Noisy-Best-Response-Algorithms-Toward-Gam"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.075360+00:00
+updated_at: 2026-10-11T00:55:13.363838+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11863v1"
 ---
 
 # Record d0da66e75d · Truncated-Noisy-Best-Response-Algorithms-Toward-Gam
@@ -16,7 +20,3 @@ Truncated Noisy Best-Response Algorithms: Toward Game Theoretic Learning with Sa
 We consider a game theoretic approach to solve multi-agent coordination problems with submodular maximization objectives. It is known for such problems that the Nash equilibria for the corresponding game are always within 50% of the optimal, but that the equilibria which achieve this worst-case bound are not stable. To exploit this instability, we propose a family of algorithms which we call Trunc
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

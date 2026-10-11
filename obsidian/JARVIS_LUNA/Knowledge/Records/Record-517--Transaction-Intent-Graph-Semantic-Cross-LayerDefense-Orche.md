@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.898715+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-10776464/v1"
 ---
 
 # Record 517 · Transaction-Intent-Graph-Semantic-Cross-LayerDefense-Orchestration-for
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Transaction Intent Graph: Semantic Cross-LayerDefense Orchestration for Microservices PaymentSystem
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

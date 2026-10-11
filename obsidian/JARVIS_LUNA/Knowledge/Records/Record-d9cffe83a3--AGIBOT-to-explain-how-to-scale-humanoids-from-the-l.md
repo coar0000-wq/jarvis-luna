@@ -2,8 +2,12 @@
 title: "Record d9cffe83a3 · AGIBOT-to-explain-how-to-scale-humanoids-from-the-l"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.564701+00:00
+updated_at: 2026-10-11T00:55:51.610435+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/"
 ---
 
 # Record d9cffe83a3 · AGIBOT-to-explain-how-to-scale-humanoids-from-the-l
@@ -16,7 +20,3 @@ AGIBOT to explain how to scale humanoids from the lab to the real world at RoboB
 <p>AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems.</p> <p>The post <a href="https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/">AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness</a> appeared first on <a href="htt
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

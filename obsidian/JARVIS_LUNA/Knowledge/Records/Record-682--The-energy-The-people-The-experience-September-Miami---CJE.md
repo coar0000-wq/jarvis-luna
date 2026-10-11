@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.286831+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=FURMT0d0isg"
 ---
 
 # Record 682 · The-energy-The-people-The-experience-September-Miami---CJEC-Miami-2026
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 The energy. The people. The experience. September, Miami. 🔥 | CJEC Miami 2026
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record e1dac07515 · Gimme-Fine-Hair-Bands-20-Count-Neutral-Colors-for-Ponytails"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.668839+00:00
+updated_at: 2026-10-11T00:55:53.221052+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Gimme-Ponytail-Holder-Hair-Tie-for-Fine-Hair-Neutral-Colors-20-Ct/464925497"
 ---
 
 # Record e1dac07515 · Gimme-Fine-Hair-Bands-20-Count-Neutral-Colors-for-Ponytails
@@ -16,7 +20,3 @@ Gimme Fine Hair Bands 20 Count Neutral Colors for Ponytails
 Gimme Fine Hair Bands 20 Count Neutral Colors for Ponytails · $4.08 · 평점 4.7 · 리뷰 2,069
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

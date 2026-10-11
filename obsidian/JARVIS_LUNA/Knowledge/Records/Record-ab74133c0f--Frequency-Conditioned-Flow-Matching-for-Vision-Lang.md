@@ -2,8 +2,12 @@
 title: "Record ab74133c0f · Frequency-Conditioned-Flow-Matching-for-Vision-Lang"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.036777+00:00
+updated_at: 2026-10-11T00:55:12.905480+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10405v1"
 ---
 
 # Record ab74133c0f · Frequency-Conditioned-Flow-Matching-for-Vision-Lang
@@ -16,7 +20,3 @@ Frequency-Conditioned Flow Matching for Vision-Language-Action Models
 Robot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions. Yet Flow Matching--based vision-language-action (VLA) models typically generate actions in temporal coordinates, without explicitly modeling or systematically leveraging this frequency heterogeneity. We introduce \emph{FreqFM}, a frequency-
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

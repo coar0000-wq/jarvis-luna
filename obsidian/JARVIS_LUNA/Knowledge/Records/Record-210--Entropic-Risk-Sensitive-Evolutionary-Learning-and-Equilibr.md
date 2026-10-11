@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.370737+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08677v1"
 ---
 
 # Record 210 · Entropic-Risk-Sensitive-Evolutionary-Learning-and-Equilibrium-Selectio
@@ -16,7 +20,3 @@ Entropic Risk-Sensitive Evolutionary Learning and Equilibrium Selection in Coord
 We study risk-sensitive evolutionary learning dynamics and their long-run equilibrium selection behaviors in coordination games. Agents' risk attitudes enter through the classical entropic risk measure, which evaluates opponent-induced payoff uncertainty and feeds into noisy best responses under two standard revision protocols: best response with mutations and logit choice. We first analyze $2\tim
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

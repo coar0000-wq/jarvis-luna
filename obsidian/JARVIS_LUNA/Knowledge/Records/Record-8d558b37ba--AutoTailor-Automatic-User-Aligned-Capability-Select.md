@@ -2,8 +2,14 @@
 title: "Record 8d558b37ba · AutoTailor-Automatic-User-Aligned-Capability-Selection-and-Adaptation-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.710759+00:00
+updated_at: 2026-10-11T00:55:38.804612+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Microsoft"
+domain: "openalex.org"
+url: "https://openalex.org/W7213372448"
+kind: "논문"
 ---
 
 # Record 8d558b37ba · AutoTailor-Automatic-User-Aligned-Capability-Selection-and-Adaptation-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

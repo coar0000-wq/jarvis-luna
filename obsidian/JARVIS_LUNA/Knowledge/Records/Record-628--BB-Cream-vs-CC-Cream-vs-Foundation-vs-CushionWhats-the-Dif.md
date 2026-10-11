@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.062398+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/js98Irtzz-4"
 ---
 
 # Record 628 · BB-Cream-vs-CC-Cream-vs-Foundation-vs-CushionWhats-the-Difference
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 BB Cream vs CC Cream vs Foundation vs Cushion—What’s the Difference?! 🤯
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

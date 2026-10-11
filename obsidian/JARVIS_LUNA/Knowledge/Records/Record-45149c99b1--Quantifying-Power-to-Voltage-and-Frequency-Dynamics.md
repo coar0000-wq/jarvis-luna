@@ -2,8 +2,12 @@
 title: "Record 45149c99b1 · Quantifying-Power-to-Voltage-and-Frequency-Dynamics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.942605+00:00
+updated_at: 2026-10-11T00:55:11.756358+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03929v1"
 ---
 
 # Record 45149c99b1 · Quantifying-Power-to-Voltage-and-Frequency-Dynamics
@@ -16,7 +20,3 @@ Quantifying Power to Voltage and Frequency Dynamics for Oscillation Propagation 
 The integration of Inverter-Based Resources (IBRs) into power systems introduces multi-timescale dynamics and oscillations which may propagate to distant areas and endanger the safe system operation. These oscillations pose a significant challenge as their source, frequency, and propagation pathways are often challenging to identify in large interconnected systems, comprising numerous synchronous
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

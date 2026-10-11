@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.596304+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdkJ6UmNGWGMxcDM5bXh6OFNJR0FvT3dFQ1FSckVzN2xHeUlSdWVHeG0yMVlBU09nT0NtbzRrb0hRZ25jX3lnRVY0SXI4LVVVZERlRkRwTjJfYkVLUklUWWJWWnhOUkh4RXlFOFJYWkxoUkdIcF80cXFsZ2ROTDN5bkR5eW04Qm81MEQ4REpLNEt4eWxhV19KYUVTc0g?oc=5"
 ---
 
 # Record 603 · Places-to-Shop-for-Skincare-Essentials-Online---Luxury-Travel-Magazine
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Places to Shop for Skincare Essentials Online - Luxury Travel Magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

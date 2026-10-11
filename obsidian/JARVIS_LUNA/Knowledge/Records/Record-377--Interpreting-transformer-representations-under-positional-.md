@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.827387+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.commatsci.2026.115035"
 ---
 
 # Record 377 · Interpreting-transformer-representations-under-positional-inductive-bi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Interpreting transformer representations under positional inductive bias in learning-by-confusion for the two-dimensional Ising model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

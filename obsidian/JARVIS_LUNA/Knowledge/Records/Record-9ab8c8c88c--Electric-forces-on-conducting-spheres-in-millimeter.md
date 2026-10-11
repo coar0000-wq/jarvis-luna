@@ -2,8 +2,14 @@
 title: "Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.306697+00:00
+updated_at: 2026-10-11T00:55:16.344784+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.elstat.2026.104344"
+kind: "논문"
 ---
 
 # Record 9ab8c8c88c · Electric-forces-on-conducting-spheres-in-millimeter
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Electric forces on conducting spheres in millimeter sized high-voltage gaps
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.111338+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results"
 ---
 
 # Record 2284 · Q2-2026-Financial-Results
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Q2 2026 Financial Results
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.979812+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "Deutsche-Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7158422940"
 ---
 
 # Record 1797 · XGRAG-A-Graph-Native-Framework-for-Explaining-KG-based-Retrieval-Augme
@@ -15,7 +20,3 @@ tags: [record, real-data]
 XGRAG: A Graph-Native Framework for Explaining KG-based Retrieval-Augmented Generation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

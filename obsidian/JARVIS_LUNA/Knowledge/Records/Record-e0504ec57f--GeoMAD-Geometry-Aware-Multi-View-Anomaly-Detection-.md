@@ -2,8 +2,14 @@
 title: "Record e0504ec57f · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.709428+00:00
+updated_at: 2026-10-11T00:55:38.758788+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "openalex.org"
+url: "https://openalex.org/W7204671257"
+kind: "논문"
 ---
 
 # Record e0504ec57f · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 GeoMAD: Geometry-Aware Multi-View Anomaly Detection via Deformable Fusion and Distributional Alignment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

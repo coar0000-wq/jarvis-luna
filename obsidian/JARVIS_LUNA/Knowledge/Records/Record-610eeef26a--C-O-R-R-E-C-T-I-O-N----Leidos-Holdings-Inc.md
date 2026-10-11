@@ -2,8 +2,14 @@
 title: "Record 610eeef26a · C-O-R-R-E-C-T-I-O-N----Leidos-Holdings-Inc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.066374+00:00
+updated_at: 2026-10-11T00:55:28.044731+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/c-o-r-r-e-c-t-i-o-n-leidos-holdings-inc"
+kind: "발표물"
 ---
 
 # Record 610eeef26a · C-O-R-R-E-C-T-I-O-N----Leidos-Holdings-Inc
@@ -16,7 +22,3 @@ tags: [record, real-data]
 In the news release, Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldwide, issued 14-Sep-2026 by Leidos Holdings, Inc. over PR Newswire, we are advised by the company that the contract value of $875 million was incorrectly stated. The correct value is $926 million.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 673a9bd61c · Wavefront-Selective-Modal-Excitations-for-Optimally"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.264862+00:00
+updated_at: 2026-10-11T00:55:15.781067+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1002/nap2.70119"
+kind: "논문"
 ---
 
 # Record 673a9bd61c · Wavefront-Selective-Modal-Excitations-for-Optimally
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Wavefront Selective Modal Excitations for Optimally Informative Sensing in Fano‐Resonant Metasurfaces
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

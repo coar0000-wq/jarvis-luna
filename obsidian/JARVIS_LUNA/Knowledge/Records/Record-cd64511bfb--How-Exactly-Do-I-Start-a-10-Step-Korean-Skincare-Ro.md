@@ -2,8 +2,12 @@
 title: "Record cd64511bfb · How-Exactly-Do-I-Start-a-10-Step-Korean-Skincare-Routine---Harpers-BAZ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.393683+00:00
+updated_at: 2026-10-11T00:55:33.664843+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU0UyS1BMamdOc3pwdVU0V1VIaFU5aHVQTW1ZZWlya2VSRnQ3TlNvUW41Zzh4NTRMcGpZTTctVVFtZXBTWklpQUNSeHM3Vlk4WVBqRGJhWWd5alUxVnJ0eDBMMGxIQklxNmcySzZRNUZrRmhRZVZHOFpwdjlBR0xzclFkWGlSY2hLZS1yaERCTkI?oc=5"
 ---
 
 # Record cd64511bfb · How-Exactly-Do-I-Start-a-10-Step-Korean-Skincare-Routine---Harpers-BAZ
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How Exactly Do I Start a 10-Step Korean Skincare Routine? - Harper's BAZAAR
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

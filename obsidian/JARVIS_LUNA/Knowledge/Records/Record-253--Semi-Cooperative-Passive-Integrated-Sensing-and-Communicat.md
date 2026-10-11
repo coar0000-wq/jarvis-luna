@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.379258+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["법률규제"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09844v1"
 ---
 
 # Record 253 · Semi-Cooperative-Passive-Integrated-Sensing-and-Communication-by-Utili
@@ -16,7 +20,3 @@ Semi-Cooperative Passive Integrated Sensing and Communication by Utilizing Physi
 In recent years, integrated sensing and communication (ISAC) has attracted significant attention towards future cellular networks. Currently, various works have demonstrated sensing performance in existing wireless communication systems. Most of the demonstrations are based on passive type due to the radio regulatory. However, because of the difficulty in access to the communication protocol stack
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[법률규제]] [[JARVIS Real Knowledge Index]]

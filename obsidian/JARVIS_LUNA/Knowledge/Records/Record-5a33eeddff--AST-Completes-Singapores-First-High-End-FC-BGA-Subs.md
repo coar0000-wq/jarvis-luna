@@ -2,8 +2,14 @@
 title: "Record 5a33eeddff · AST-Completes-Singapores-First-High-End-FC-BGA-Substrate-Facility-to-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.060454+00:00
+updated_at: 2026-10-11T00:55:27.965618+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/ast-completes-singapores-first-high-end-fc-bga-substrate"
+kind: "발표물"
 ---
 
 # Record 5a33eeddff · AST-Completes-Singapores-First-High-End-FC-BGA-Substrate-Facility-to-M
@@ -16,7 +22,3 @@ AST Completes Singapore's First High-End FC-BGA Substrate Facility to Meet Growi
 First Flip Chip Ball Grid Array (FC-BGA) substrate production facility in Singapore Addresses one of the most critical supply chain capacity constraints of the semiconductor industry&nbsp; Diversifies Singapore’s semiconductor ecosystem beyond current wafer fab, IC design and assembly operations.&nbsp; 29
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

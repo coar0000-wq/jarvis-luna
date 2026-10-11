@@ -2,8 +2,14 @@
 title: "Record adac0ab375 · On-the-Finite-Upper-Bound-f6--24600-and-Structural-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.973181+00:00
+updated_at: 2026-10-11T00:55:26.811978+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22697836"
+kind: "논문"
 ---
 
 # Record adac0ab375 · On-the-Finite-Upper-Bound-f6--24600-and-Structural-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 On the Finite Upper Bound f(6) <= 24,600 and Structural Barriers to Counterexamples in the Erdős–Gyárfás Conjecture
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

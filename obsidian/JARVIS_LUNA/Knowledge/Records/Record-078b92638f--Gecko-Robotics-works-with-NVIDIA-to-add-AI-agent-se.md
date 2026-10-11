@@ -2,8 +2,12 @@
 title: "Record 078b92638f · Gecko-Robotics-works-with-NVIDIA-to-add-AI-agent-security-and-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.579394+00:00
+updated_at: 2026-10-11T00:55:51.810063+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "로보틱스", "보안프라이버시"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/"
 ---
 
 # Record 078b92638f · Gecko-Robotics-works-with-NVIDIA-to-add-AI-agent-security-and-control
@@ -16,7 +20,3 @@ Gecko Robotics works with NVIDIA to add AI agent security and control
 <p>Gecko Robotics is using the new NVIDIA Open Agent Safety Platform to ensure the secure autonomous control of systems.</p> <p>The post <a href="https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/">Gecko Robotics works with NVIDIA to add AI agent security and control</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[로보틱스]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

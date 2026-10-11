@@ -2,8 +2,12 @@
 title: "Record 27571c7be7 · M3D-Net-Hierarchical-Coordination-of-Spatial-Context-Feature-Reuse-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.799050+00:00
+updated_at: 2026-10-11T00:55:24.427351+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.27523"
 ---
 
 # Record 27571c7be7 · M3D-Net-Hierarchical-Coordination-of-Spatial-Context-Feature-Reuse-and
@@ -16,7 +20,3 @@ M3D-Net: Hierarchical Coordination of Spatial Context, Feature Reuse, and Differ
 Breast image classification requires local detail and global tissue context, yet these cues can weaken as representations deepen. We present M3D-Net, a mammography encoder that hierarchically coordinates multi-scale coordinate attention, bounded dynamic feature reuse, and differential attention through resolution-aware operator placement. Within-stage retrieval preserves access to earlier features
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

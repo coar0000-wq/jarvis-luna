@@ -2,8 +2,12 @@
 title: "Record 20d86dc2e1 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.704133+00:00
+updated_at: 2026-10-11T00:55:53.934923+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/dB4ufNwn1kE"
 ---
 
 # Record 20d86dc2e1 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Can I Make a Better Ad Than This Viral Brand Using AI?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

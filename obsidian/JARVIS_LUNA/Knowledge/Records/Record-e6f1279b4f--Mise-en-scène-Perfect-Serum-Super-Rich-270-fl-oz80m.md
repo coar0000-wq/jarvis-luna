@@ -2,8 +2,12 @@
 title: "Record e6f1279b4f · Mise-en-scène-Perfect-Serum-Super-Rich-270-fl-oz80ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.857460+00:00
+updated_at: 2026-10-11T00:55:41.130355+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA86435804"
 ---
 
 # Record e6f1279b4f · Mise-en-scène-Perfect-Serum-Super-Rich-270-fl-oz80ml
@@ -16,7 +20,3 @@ Mise-en-scène Perfect Serum Super Rich 2.70 fl. oz.(80ml)
 Mise-en-scène Perfect Serum Super Rich 2.70 fl. oz.(80ml) · 평점 4.8 · 리뷰 1,301
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

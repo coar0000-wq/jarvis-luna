@@ -2,8 +2,14 @@
 title: "Record 00cfcaef7f · Current-Events---Us-Tariffs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.478773+00:00
+updated_at: 2026-10-11T00:55:49.890334+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
+kind: "발표물"
 ---
 
 # Record 00cfcaef7f · Current-Events---Us-Tariffs
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Current Events   Us Tariffs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

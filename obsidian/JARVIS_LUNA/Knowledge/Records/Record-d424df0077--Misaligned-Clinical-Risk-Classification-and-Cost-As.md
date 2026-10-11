@@ -2,8 +2,14 @@
 title: "Record d424df0077 · Misaligned-Clinical-Risk-Classification-and-Cost-Asymmetry-in-Open-Wei"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.761919+00:00
+updated_at: 2026-10-11T00:55:23.910423+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "의료바이오", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.23999"
+kind: "논문"
 ---
 
 # Record d424df0077 · Misaligned-Clinical-Risk-Classification-and-Cost-Asymmetry-in-Open-Wei
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Misaligned Clinical Risk Classification and Cost Asymmetry in Open-Weight Large Language Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

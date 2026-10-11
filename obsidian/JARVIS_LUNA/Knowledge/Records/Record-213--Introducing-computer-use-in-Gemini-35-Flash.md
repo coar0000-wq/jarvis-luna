@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.432752+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/"
 ---
 
 # Record 213 · Introducing-computer-use-in-Gemini-35-Flash
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Introducing computer use in Gemini 3.5 Flash
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

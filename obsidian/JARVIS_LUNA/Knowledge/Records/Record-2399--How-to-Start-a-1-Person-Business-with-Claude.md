@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.547713+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=irtf9-m-9uc"
 ---
 
 # Record 2399 · How-to-Start-a-1-Person-Business-with-Claude
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to Start a 1-Person Business with Claude
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

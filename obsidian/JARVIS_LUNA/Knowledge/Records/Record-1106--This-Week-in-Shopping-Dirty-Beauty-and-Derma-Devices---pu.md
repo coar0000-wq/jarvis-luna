@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.021019+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWSkxNeVc3ZXhrZE4wV0lBTTl4ZnNwZWU4d0dmdWdJcENYUWl1Z1FPRW5JOXQ1VTBmMGtOOHVsNm5TbVlnU1dlQ2w1X2I5T1poVFl5SXhXdmRfcUpSckZEblVOM2U5czc3RjN6X2tHSHRhbEk?oc=5"
 ---
 
 # Record 1106 · This-Week-in-Shopping-Dirty-Beauty-and-Derma-Devices---pucknews
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This Week in Shopping: Dirty Beauty and Derma-Devices - puck.news
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

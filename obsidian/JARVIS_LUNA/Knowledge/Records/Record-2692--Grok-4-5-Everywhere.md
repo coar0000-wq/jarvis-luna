@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.169468+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-5-everywhere"
 ---
 
 # Record 2692 · Grok-4-5-Everywhere
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Grok 4 5 Everywhere
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

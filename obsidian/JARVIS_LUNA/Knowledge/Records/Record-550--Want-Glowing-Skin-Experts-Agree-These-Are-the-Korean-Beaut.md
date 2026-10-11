@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.116572+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Model-Routing-and-MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTZSWTRqb1czcGk1R0RnZ2pBZVBmRFhBSGU3YlRISUhrMklDUHpaVmlmc0ZmaWNuMVNTeS1FTzRhekVJMW5kdHFOR3ROMUlUb2JBeHJ6TzBKdUJYOU5ubnFJNllyMFhScUZ2SERJS1lvTVpEZHl1dTlFdFFfVG9QUEhfVDRHVy1XUFZ6bkdRUQ?oc=5"
 ---
 
 # Record 550 · Want-Glowing-Skin-Experts-Agree-These-Are-the-Korean-Beauty-Essentials
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Want Glowing Skin? Experts Agree These Are the Korean Beauty Essentials for Every Skin Type - Oprah Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Model-Routing-and-MoE]] [[JARVIS Real Knowledge Index]]

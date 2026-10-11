@@ -2,8 +2,14 @@
 title: "Record 57de33ca0c · A-path-planning-and-pathfollowing-control-framework-for-a-general-2tra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.266417+00:00
+updated_at: 2026-10-11T00:55:15.807205+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1002/rob.21908"
+kind: "논문"
 ---
 
 # Record 57de33ca0c · A-path-planning-and-pathfollowing-control-framework-for-a-general-2tra
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A path planning and path‐following control framework for a general 2‐trailer with a car‐like tractor
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

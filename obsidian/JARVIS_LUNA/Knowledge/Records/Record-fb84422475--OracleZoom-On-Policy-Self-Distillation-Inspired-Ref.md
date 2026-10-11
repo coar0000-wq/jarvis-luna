@@ -2,8 +2,12 @@
 title: "Record fb84422475 · OracleZoom-On-Policy-Self-Distillation-Inspired-Ref"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.984745+00:00
+updated_at: 2026-10-11T00:55:12.293430+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06490v1"
 ---
 
 # Record fb84422475 · OracleZoom-On-Policy-Self-Distillation-Inspired-Ref
@@ -15,7 +19,3 @@ tags: [record, real-data]
 OracleZoom: On-Policy Self-Distillation Inspired Reference-Constrained Recursive Image Super Resolution
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

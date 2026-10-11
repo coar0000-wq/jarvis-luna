@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.826267+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s42979-026-05286-w"
 ---
 
 # Record 209 · Autograding-of-Programs-Using-Siamese-Network-Based-Semantic-Code-Simi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Autograding of Programs Using Siamese Network-Based Semantic Code Similarity Detection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:58.998476+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Agents"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5MDZxa0pjSGNoS3JBZE1teUsyWjBVTWRHWkd6NmNmQVZDZXg2b2xLaG1mOG5mR2JHNlhxWjdZLVA4R3hvOTMyMkhMMjRRMzJkdldYMTFtYnZ4VEtP?oc=5"
 ---
 
 # Record 075 · Agentic-Commerce-Benefits--How-To-Get-Started---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Agentic Commerce: Benefits & How To Get Started - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

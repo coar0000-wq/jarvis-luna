@@ -2,8 +2,14 @@
 title: "Record 4a469cccf8 · Snowflake-Pioneers-New-Open-Framework-for-Interoper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.076592+00:00
+updated_at: 2026-10-11T00:55:28.176893+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Snowflake-Pioneers-New-Open-Framework-for-Interoperable-Enterprise-Data-and-AI/default.aspx"
+kind: "발표물"
 ---
 
 # Record 4a469cccf8 · Snowflake-Pioneers-New-Open-Framework-for-Interoper
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Snowflake Pioneers New Open Framework for Interoperable Enterprise Data and AI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

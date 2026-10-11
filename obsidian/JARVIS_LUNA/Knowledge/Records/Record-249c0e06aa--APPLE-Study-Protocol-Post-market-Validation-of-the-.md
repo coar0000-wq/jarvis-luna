@@ -2,8 +2,14 @@
 title: "Record 249c0e06aa · APPLE-Study-Protocol-Post-market-Validation-of-the-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.533157+00:00
+updated_at: 2026-10-11T00:55:20.321839+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-7521098/v1"
+kind: "논문"
 ---
 
 # Record 249c0e06aa · APPLE-Study-Protocol-Post-market-Validation-of-the-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 APPLE Study Protocol: Post-market Validation of the PreemieTest® Device for Neonatal Screening in Diverse Birth Scenarios — A Multicenter, Prospective Cohort Study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

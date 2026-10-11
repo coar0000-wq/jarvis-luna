@@ -2,8 +2,12 @@
 title: "Record eac547f905 · Talk-to-Sidekick-on-your-Apple-Watch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.764445+00:00
+updated_at: 2026-10-11T00:55:55.042155+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/eYdwkHMM3JM"
 ---
 
 # Record eac547f905 · Talk-to-Sidekick-on-your-Apple-Watch
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Talk to Sidekick on your Apple Watch
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record de2b314f73 · MMTC-Net-Multimodal-Temporal-Cervical-Network-for-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.274394+00:00
+updated_at: 2026-10-11T00:55:15.942176+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s10278-026-02004-z"
+kind: "논문"
 ---
 
 # Record de2b314f73 · MMTC-Net-Multimodal-Temporal-Cervical-Network-for-H
@@ -15,7 +21,3 @@ tags: [record, real-data]
 MMTC-Net: Multimodal Temporal Cervical Network for HSIL+ Recognition in Precancer Screening
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

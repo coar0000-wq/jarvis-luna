@@ -2,8 +2,14 @@
 title: "Record 0a9180731a · The-Impact-of-Health-Insurance-Expansions-on-Labor-Outcomes-Evidence-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.516171+00:00
+updated_at: 2026-10-11T00:55:20.131927+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1515/bejeap-2026-0033"
+kind: "논문"
 ---
 
 # Record 0a9180731a · The-Impact-of-Health-Insurance-Expansions-on-Labor-Outcomes-Evidence-f
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Impact of Health Insurance Expansions on Labor Outcomes: Evidence from Indonesia
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

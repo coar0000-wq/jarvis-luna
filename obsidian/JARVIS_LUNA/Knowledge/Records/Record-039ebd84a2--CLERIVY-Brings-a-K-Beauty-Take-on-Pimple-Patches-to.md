@@ -2,8 +2,12 @@
 title: "Record 039ebd84a2 · CLERIVY-Brings-a-K-Beauty-Take-on-Pimple-Patches-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.163534+00:00
+updated_at: 2026-10-11T00:55:29.592947+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0yam1PYW1mTnZYTjV6ZVp1ZkFvcW9haHJjTWgtbTFmUVphVVJQUnJhaGJWY3Z2S0ZrdmJDMDBrQV9PLVRKSHY1bHkwc2NhZUgxc0hBUmdwbFRkakw2?oc=5"
 ---
 
 # Record 039ebd84a2 · CLERIVY-Brings-a-K-Beauty-Take-on-Pimple-Patches-to
@@ -15,7 +19,3 @@ tags: [record, real-data]
 CLERIVY Brings a K-Beauty Take on Pimple Patches to Amazon.com - us.acrofan.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

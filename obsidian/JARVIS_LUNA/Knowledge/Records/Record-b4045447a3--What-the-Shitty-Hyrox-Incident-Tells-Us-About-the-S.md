@@ -2,8 +2,12 @@
 title: "Record b4045447a3 · What-the-Shitty-Hyrox-Incident-Tells-Us-About-the-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.930822+00:00
+updated_at: 2026-10-11T00:55:42.434933+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/hyrox-joanna-wietrzyk-op-ed-incident"
 ---
 
 # Record b4045447a3 · What-the-Shitty-Hyrox-Incident-Tells-Us-About-the-S
@@ -16,7 +20,3 @@ What the Shitty Hyrox Incident Tells Us About the State of Our Manners
 What the Shitty Hyrox Incident Tells Us About the State of Our Manners
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

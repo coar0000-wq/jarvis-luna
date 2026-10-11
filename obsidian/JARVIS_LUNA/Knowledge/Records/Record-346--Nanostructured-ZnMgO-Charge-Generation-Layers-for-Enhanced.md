@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.598314+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s13391-026-00667-y"
 ---
 
 # Record 346 · Nanostructured-ZnMgO-Charge-Generation-Layers-for-Enhanced-Tandem-Quan
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Nanostructured ZnMgO Charge Generation Layers for Enhanced Tandem Quantum-Dot Light-Emitting Diodes
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

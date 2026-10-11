@@ -2,8 +2,12 @@
 title: "Record 705153d808 · YesStyles-20th-Anniversary-MEGA-SALE-Up-to-50-OFF"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.729354+00:00
+updated_at: 2026-10-11T00:55:54.450840+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=_FoWzpR-EPY"
 ---
 
 # Record 705153d808 · YesStyles-20th-Anniversary-MEGA-SALE-Up-to-50-OFF
@@ -15,7 +19,3 @@ tags: [record, real-data]
 YesStyle's 20th Anniversary MEGA SALE! Up to 50% OFF~
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

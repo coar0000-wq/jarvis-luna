@@ -2,8 +2,12 @@
 title: "Record d0aca080b1 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Inj"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.906756+00:00
+updated_at: 2026-10-11T00:55:11.217401+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28411v1"
 ---
 
 # Record d0aca080b1 · LongPIBench-A-Long-Context-Benchmark-for-Prompt-Inj
@@ -15,7 +19,3 @@ tags: [record, real-data]
 LongPIBench: A Long-Context Benchmark for Prompt Injection
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

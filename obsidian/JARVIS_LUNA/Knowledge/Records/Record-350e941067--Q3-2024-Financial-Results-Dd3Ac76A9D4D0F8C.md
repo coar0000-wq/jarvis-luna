@@ -2,8 +2,14 @@
 title: "Record 350e941067 · Q3-2024-Financial-Results-Dd3Ac76A9D4D0F8C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.408886+00:00
+updated_at: 2026-10-11T00:55:48.519848+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/press-releases/2024/q3-2024-financial-results-dd3ac76a9d4d0f8c"
+kind: "발표물"
 ---
 
 # Record 350e941067 · Q3-2024-Financial-Results-Dd3Ac76A9D4D0F8C
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Q3 2024 Financial Results Dd3Ac76A9D4D0F8C
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

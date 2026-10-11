@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.830334+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "보안프라이버시", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
 ---
 
 # Record 2329 · Investigating-three-real-world-incidents-in-our-cybersecurity-evaluati
@@ -16,7 +21,3 @@ Investigating three real-world incidents in our cybersecurity evaluations
 In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to p
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

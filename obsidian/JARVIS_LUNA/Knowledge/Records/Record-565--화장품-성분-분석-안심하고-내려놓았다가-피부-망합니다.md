@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.649166+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/9GBLlfK-soY"
 ---
 
 # Record 565 · 화장품-성분-분석-안심하고-내려놓았다가-피부-망합니다
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 화장품 성분 분석, 안심하고 내려놓았다가 피부 망합니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

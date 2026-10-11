@@ -2,8 +2,12 @@
 title: "Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-paym"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.695494+00:00
+updated_at: 2026-10-11T00:55:53.727918+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/LlXUuXJutVg"
 ---
 
 # Record 0e90d59cbf · THE-OPENING-OF-new-applicationsstable-European-paym
@@ -15,7 +19,3 @@ tags: [record, real-data]
 THE OPENING OF new applications.!stable European payment methods #cjdropshipping #ecommerce
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

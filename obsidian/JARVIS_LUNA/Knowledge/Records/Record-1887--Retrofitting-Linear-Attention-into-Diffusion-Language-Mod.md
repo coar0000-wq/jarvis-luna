@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.467453+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "컴퓨터-비전", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7202230636"
 ---
 
 # Record 1887 · Retrofitting-Linear-Attention-into-Diffusion-Language-Models
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Retrofitting Linear Attention into Diffusion Language Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

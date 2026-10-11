@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.207781+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/"
 ---
 
 # Record 2032 · PlusAI-to-take-autonomous-trucking-public-via-a-SPAC-deal
@@ -16,7 +20,3 @@ PlusAI to take autonomous trucking public via a SPAC deal
 <p>The SPAC transaction values PlusAI, whose self-driving trucking software is already generating revenue, at about $800 million.</p> <p>The post <a href="https://www.therobotreport.com/plusai-takes-autonomous-trucking-public-via-spac-deal/">PlusAI to take autonomous trucking public via a SPAC deal</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

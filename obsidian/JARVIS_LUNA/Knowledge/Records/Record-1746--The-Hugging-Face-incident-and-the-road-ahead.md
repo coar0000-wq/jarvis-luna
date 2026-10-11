@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.674591+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/hugging-face-incident-and-the-road-ahead"
 ---
 
 # Record 1746 · The-Hugging-Face-incident-and-the-road-ahead
@@ -16,7 +21,3 @@ The Hugging Face incident and the road ahead
 OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

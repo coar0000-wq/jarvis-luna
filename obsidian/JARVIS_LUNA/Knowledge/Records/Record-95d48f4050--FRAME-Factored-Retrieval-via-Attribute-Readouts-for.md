@@ -2,8 +2,12 @@
 title: "Record 95d48f4050 · FRAME-Factored-Retrieval-via-Attribute-Readouts-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.003282+00:00
+updated_at: 2026-10-11T00:55:12.461746+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08886v1"
 ---
 
 # Record 95d48f4050 · FRAME-Factored-Retrieval-via-Attribute-Readouts-for
@@ -16,7 +20,3 @@ FRAME: Factored Retrieval via Attribute Readouts for Object-Centric Scene Memory
 Language-guided robots need persistent scene memories to follow instructions, revisit objects, and resolve references to objects encountered over time. While much of language-guided scene-memory retrieval has emphasized spatial or relational references, many everyday object references specify objects by multiple persistent attributes, such as category, material, size, or surface appearance. We for
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

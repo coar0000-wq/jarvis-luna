@@ -2,8 +2,14 @@
 title: "Record 483cf0eb6d · Security-And-Resiliency-Initiative"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.491774+00:00
+updated_at: 2026-10-11T00:55:50.143715+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/security-and-resiliency-initiative"
+kind: "발표물"
 ---
 
 # Record 483cf0eb6d · Security-And-Resiliency-Initiative
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Security And Resiliency Initiative
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

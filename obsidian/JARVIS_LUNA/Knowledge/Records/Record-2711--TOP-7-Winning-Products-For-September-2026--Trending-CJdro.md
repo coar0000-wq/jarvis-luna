@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.387551+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=6Zb3PdVx-qs"
 ---
 
 # Record 2711 · TOP-7-Winning-Products-For-September-2026--Trending-CJdropshipping
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TOP 7 Winning Products For September 2026 | Trending CJdropshipping
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

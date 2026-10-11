@@ -2,8 +2,12 @@
 title: "Record 33f9f98294 · Ive-Tried-a-Lot-of-Korean-Skincare-These-Are-the-Products-Our-Beauty-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.311298+00:00
+updated_at: 2026-10-11T00:55:32.245165+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsLWc1NWRvWURQeWZZOHNtb29sSUdYZ2ktVlc3RlRmWXduT3dPWGN5a3lwUzZBRE56TlFxVHdPVVNNLUlsTlNiMnNUZG8zZkpLYm1aR1BFUEJwSmxBYkw3b2pQSXhQbTJtMGdiMVIzbm9QTkpGNkpmLVg0eXE?oc=5"
 ---
 
 # Record 33f9f98294 · Ive-Tried-a-Lot-of-Korean-Skincare-These-Are-the-Products-Our-Beauty-E
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I’ve Tried a Lot of Korean Skincare. These Are the Products Our Beauty Editors Actually Love. - AOL.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

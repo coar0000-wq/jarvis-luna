@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.878495+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE91TFpYMzlzcWhuVF9DTFpzdWhRRHJlSURWb2JwbXpBb2dmR0M3N0MzbjhEZUM4dk1TNGRXSERUTm5MNHI0VlNKbnFFYnlZclVVdGVwX1k1NVllRlFVci1uejhmU204SGNxX2w4cDRWM0YxMzV0eEkzVA?oc=5"
 ---
 
 # Record 368 · New-Ecommerce-Tools-August-19-2026---Practical-Ecommerce
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 New Ecommerce Tools: August 19, 2026 - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

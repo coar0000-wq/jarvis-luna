@@ -2,8 +2,14 @@
 title: "Record 37cd6bf742 · Broadcom-Announces-VMware-AI-Factory-Enabling-Faste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.061020+00:00
+updated_at: 2026-10-11T00:55:27.976801+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-vmware-ai-factory-enabling-faster-time"
+kind: "발표물"
 ---
 
 # Record 37cd6bf742 · Broadcom-Announces-VMware-AI-Factory-Enabling-Faste
@@ -16,7 +22,3 @@ Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and 
 New AI Infrastructure Automation and Private AI Services Deliver a Single Consistent Environment for Deploying, Governing, and Securing AI Workloads from Bare Metal to Inference LAS VEGAS, Aug. 31, 2026 (GLOBE NEWSWIRE) -- VMware Explore 2026 --&nbsp;Broadcom Inc.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

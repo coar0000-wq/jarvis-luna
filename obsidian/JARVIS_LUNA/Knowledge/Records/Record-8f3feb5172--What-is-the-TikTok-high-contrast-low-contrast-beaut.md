@@ -2,8 +2,12 @@
 title: "Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.475640+00:00
+updated_at: 2026-10-11T00:55:35.095981+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMHhCZDluNGFNZFhYOHoxZWhGTHZ6a25pZFVQMmJYdmw2dUctRTctdmZWLTJFSnhqM2M4bmdDTjEwMlVTdTBmcTZlcFhHVHFFQlYtQ0JqVFBQTHZnVnpnWENIektwYTMzcGlucEZTOWpOckFxNGYyejlldm56MjR5OVBlZUkzRXh3NmJ3NURBN2RtV2tVejlEOXd1aVhZd2pvSU1R?oc=5"
 ---
 
 # Record 8f3feb5172 · What-is-the-TikTok-high-contrast-low-contrast-beaut
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is the TikTok high contrast, low contrast beauty trend? A makeup artist explains - Cosmopolitan
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

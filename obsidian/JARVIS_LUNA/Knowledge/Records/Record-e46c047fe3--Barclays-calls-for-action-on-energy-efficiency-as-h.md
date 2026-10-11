@@ -2,8 +2,14 @@
 title: "Record e46c047fe3 · Barclays-calls-for-action-on-energy-efficiency-as-half-of-UK-adults-sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.053045+00:00
+updated_at: 2026-10-11T00:55:27.873756+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/100/barclays-calls-for-action-on-energy-efficiency-as-half-of-uk-adu/"
+kind: "발표물"
 ---
 
 # Record e46c047fe3 · Barclays-calls-for-action-on-energy-efficiency-as-half-of-UK-adults-sa
@@ -16,7 +22,3 @@ Barclays calls for action on energy efficiency as half of UK adults say home upg
 Barclays has published a new policy snapshot examining demand for energy efficient homes and the barriers to delivering upgrades across the housing market.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

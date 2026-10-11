@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.061123+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "투자은행금융"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb20tUzdlQy1lek5xeERWV2I3cGp1bjJpazh2bnFXcDF1RUdLazEzSVprM3lodTRLTjdIVGtkT2hUczJaaU5vczNfSkxOUHdZZ2dxRElNTjdJMzRMNS1EYndSUlJpQV9acVFlazZCVmMzZkszTlFTUWVTX0JnQUFTREpaeTEyWXdxeW1nVmJHdmZpNnpydGR2OXdpeTNMQnRPNGJfcE1wUGI?oc=5"
 ---
 
 # Record 1780 · Amorepacific-expands-K-beauty-portfolio-in-India-with-Mamonde-launch--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Amorepacific expands K-beauty portfolio in India with Mamonde launch - Global Cosmetics News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]

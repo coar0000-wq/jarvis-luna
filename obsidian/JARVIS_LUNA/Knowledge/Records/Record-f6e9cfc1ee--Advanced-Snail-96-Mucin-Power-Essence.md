@@ -2,8 +2,12 @@
 title: "Record f6e9cfc1ee · Advanced-Snail-96-Mucin-Power-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.719390+00:00
+updated_at: 2026-10-11T00:55:38.969272+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "sokoglam.com"
+url: "https://sokoglam.com/products/cosrx-advanced-snail-96-mucin-power-essence"
 ---
 
 # Record f6e9cfc1ee · Advanced-Snail-96-Mucin-Power-Essence
@@ -16,7 +20,3 @@ Advanced Snail 96 Mucin Power Essence
 Advanced Snail 96 Mucin Power Essence · COSRX · $20.9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

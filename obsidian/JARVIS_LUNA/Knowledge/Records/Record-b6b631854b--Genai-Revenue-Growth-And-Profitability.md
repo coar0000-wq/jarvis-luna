@@ -2,8 +2,14 @@
 title: "Record b6b631854b · Genai-Revenue-Growth-And-Profitability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.532108+00:00
+updated_at: 2026-10-11T00:55:50.939773+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/genai-revenue-growth-and-profitability"
+kind: "발표물"
 ---
 
 # Record b6b631854b · Genai-Revenue-Growth-And-Profitability
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Genai Revenue Growth And Profitability
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

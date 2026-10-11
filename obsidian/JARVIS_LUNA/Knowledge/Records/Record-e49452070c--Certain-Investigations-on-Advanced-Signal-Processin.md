@@ -2,8 +2,14 @@
 title: "Record e49452070c · Certain-Investigations-on-Advanced-Signal-Processin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.469764+00:00
+updated_at: 2026-10-11T00:55:19.272330+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1142/s0219877026400080"
+kind: "논문"
 ---
 
 # Record e49452070c · Certain-Investigations-on-Advanced-Signal-Processin
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Certain Investigations on Advanced Signal Processing and K -Medoid Cluster for Faults Quality Analysis in Textile Industry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

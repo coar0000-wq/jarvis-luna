@@ -2,8 +2,12 @@
 title: "Record f005b2d373 · Clear-Improvement-Active-Charcoal-Mask-to-Clear-Pores"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.628597+00:00
+updated_at: 2026-10-11T00:55:52.550402+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/clear-improvement-active-charcoal-mask-clear-pores-xlsImpprod15071355"
 ---
 
 # Record f005b2d373 · Clear-Improvement-Active-Charcoal-Mask-to-Clear-Pores
@@ -16,7 +20,3 @@ Clear Improvement Active Charcoal Face Mask to Clear Pores
 Clear Improvement Active Charcoal Face Mask to Clear Pores · Origins · $20
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

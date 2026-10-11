@@ -2,8 +2,12 @@
 title: "Record aa4f62e3e5 · Entropy-Regularized-Optimal-Transport-for-Time-Vary"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.017236+00:00
+updated_at: 2026-10-11T00:55:12.637062+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09829v1"
 ---
 
 # Record aa4f62e3e5 · Entropy-Regularized-Optimal-Transport-for-Time-Vary
@@ -16,7 +20,3 @@ Entropy-Regularized Optimal Transport for Time-Varying Multi-Agent Coverage Cont
 This paper addresses time-varying coverage control for multi-agent systems, formulated as the tracking of an evolving target density via entropy-regularized semi-discrete optimal transport. Unlike the hard Laguerre partition of the unregularized formulation, entropic regularization assigns fractions of the mass at each point to all agents, simplifying the design and numerical implementation of the
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

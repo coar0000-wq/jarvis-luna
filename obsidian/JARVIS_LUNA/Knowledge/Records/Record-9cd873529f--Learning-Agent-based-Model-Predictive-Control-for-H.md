@@ -2,8 +2,12 @@
 title: "Record 9cd873529f · Learning-Agent-based-Model-Predictive-Control-for-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.075885+00:00
+updated_at: 2026-10-11T00:55:13.372536+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11871v1"
 ---
 
 # Record 9cd873529f · Learning-Agent-based-Model-Predictive-Control-for-H
@@ -16,7 +20,3 @@ Learning Agent-based Model Predictive Control for Holistic Vehicle Performance
 Agent-based model predictive control (AMPC) has recently been proposed as a distributed scheme that collaborates with all agents to achieve optimal holistic performance. However, its optimality highly depends on the prediction accuracy that requires all agents or their contributions to be known, which is too idealistic for actual implementation. This research proposes a novel practical hybrid cont
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

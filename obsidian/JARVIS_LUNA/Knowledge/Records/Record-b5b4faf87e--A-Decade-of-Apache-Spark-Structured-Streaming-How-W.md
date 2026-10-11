@@ -2,8 +2,14 @@
 title: "Record b5b4faf87e · A-Decade-of-Apache-Spark-Structured-Streaming-How-We-Evolved-The-Archi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.514574+00:00
+updated_at: 2026-10-11T00:55:20.105643+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.14778/3827998.3828023"
+kind: "논문"
 ---
 
 # Record b5b4faf87e · A-Decade-of-Apache-Spark-Structured-Streaming-How-We-Evolved-The-Archi
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Decade of Apache Spark Structured Streaming: How We Evolved The Architecture To Meet Real-World Needs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record bae4f8414e · From-Data-to-Dialogue-How-SP-Global-Energy-Made-Its-Structured-Data-Es"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.428635+00:00
+updated_at: 2026-10-11T00:55:48.871434+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/data-dialogue-how-sp-global-energy-made-its-structured-data-estate-conversational-databricks"
+kind: "발표물"
 ---
 
 # Record bae4f8414e · From-Data-to-Dialogue-How-SP-Global-Energy-Made-Its-Structured-Data-Es
@@ -16,7 +22,3 @@ From Data to Dialogue: How S&P Global Energy Made Its Structured Data Estate Con
 S&amp;P Global's goal was to fundamentally improve how customers discover and consume...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

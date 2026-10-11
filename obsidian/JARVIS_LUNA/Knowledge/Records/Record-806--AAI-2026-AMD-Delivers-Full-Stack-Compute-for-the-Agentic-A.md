@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.400176+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era"
 ---
 
 # Record 806 · AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Agentic-AI-Era
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AAI 2026: AMD Delivers Full-Stack Compute for the Agentic AI Era
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

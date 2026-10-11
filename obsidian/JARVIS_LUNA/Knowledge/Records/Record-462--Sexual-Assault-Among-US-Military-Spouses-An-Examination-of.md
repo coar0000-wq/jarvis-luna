@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.006731+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1177/08862605261476090"
 ---
 
 # Record 462 · Sexual-Assault-Among-US-Military-Spouses-An-Examination-of-Prevalence-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Sexual Assault Among U.S. Military Spouses: An Examination of Prevalence, Characteristics, and Associations With Individual and Military Factors
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

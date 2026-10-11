@@ -2,87 +2,66 @@
 title: "기관 · Mistral AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:59:00.724406+00:00
+updated_at: 2026-10-11T00:55:56.888313+00:00
 tags: [org, real-data]
+record_count: 72
 ---
 
 # 기관 · Mistral AI
 
-실제 수집 레코드 **72건**이 이 기관에 연결되어 있습니다. (논문 41건, 발표물 31건)
+유형별: 논문 41건, 발표물 31건
 
-- [[Record-e3e441f96a--The-cognitive-biases-that-may-exacerbate-inflationa]]
-- [[Record-03cc79c273--A-modified-secant-formulation-to-predict-the-overal]]
-- [[Record-15c38bb299--Window-flow-control-in-FIFO-networks-with-cross-tra]]
-- [[Record-f34cf6ec9a--Scale-Cant-Overcome-Pragmatics-The-Impact-of-Report]]
-- [[Record-29f669ffa5--Quelle-place-pour-la-lutte-informationnelle-dans-le]]
-- [[Record-c705761661--AutoNeRF-Training-Implicit-Scene-Representations-wi]]
-- [[Record-939b541a91--Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe]]
-- [[Record-c1c0b427a3--Reasoning-Arena-Trace-Tournaments-When-Verifiable-R]]
-- [[Record-9dda18db8f--Counsel-A-Meta-Evaluation-Dataset-for-Agentic-Tasks]]
-- [[Record-34e42c3de4--Le-Critique-Privileged-Value-Functions-for-LLM-Rein]]
-- [[Record-800bf20127--Apollo-Restore-A-Foundation-LLM-for-Historical-Gree]]
-- [[Record-68330dbc68--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-c4ee054ffa--Complete-Derivation-of-Physics-from-551-Dimensional]]
-- [[Record-90a3f1c9ee--Dark-Matter-and-Dark-Energy-from-551-Dimensional-Ge]]
-- [[Record-4e5901ed44--Electron-Mass-from-10-Dimensional-Geometric-Couplin]]
-- [[Record-19bbfd37f5--Baryon-Asymmetry-from-Asymmetric-Decoherence-η--10¹]]
-- [[Record-d1380fa649--Baryon-Asymmetry-from-Asymmetric-Decoherence-η--10¹]]
-- [[Record-b63ab92fea--Neutrino-Masses-from-Geometric-Leakage-mν--007-eV-f]]
-- [[Record-413710f800--Neutrino-Masses-from-Geometric-Leakage-mν--007-eV-f]]
-- [[Record-b58b7cd109--Yang-Mills-Mass-Gap-from-L-Tensor-Confinement-Δ--20]]
-- [[Record-7a2ab453a5--Yang-Mills-Mass-Gap-from-L-Tensor-Confinement-Δ--20]]
-- [[Record-a19eca8a77--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-320c04686a--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]]
-- [[Record-921c95f0b2--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-7cd125d104--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-07bfecc9b4--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-77eb814003--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-416c004e0d--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-6c79ef2238--Unified-Theory-Complete-Derivation-of-Physics-from-]]
-- [[Record-bc657a1845--Information-Geometry-of-Financial-Markets-Deriving-]]
-- [[Record-3b6e24b1ec--Information-Geometry-of-Financial-Markets-Deriving-]]
-- [[Record-d2a71b1b86--Information-Geometry-of-Financial-Markets-Deriving-]]
-- [[Record-5e7d6d2ad6--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]]
-- [[Record-adaf94690b--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]]
-- [[Record-97c9a42838--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]]
-- [[Record-45e2d8b4a5--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]]
-- [[Record-54fdc0f414--场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-A]]
-- [[Record-6fb3d9179f--场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-A]]
-- [[Record-11914828a5--Emmi-joins-Mistral-to-accelerate-the-AI-native-indu]]
-- [[Record-a9b6961535--Agentic-Search-More-accurate-and-efficient-results-]]
-- [[Record-bdc120f6c2--AI-Now-Summit-2026]]
-- [[Record-a67af3410b--Connect-the-dots-Build-with-built-in-and-custom-MCP]]
-- [[Record-9effb6c300--Introducing-Forge]]
-- [[Record-597c808f7f--Hallo-Deutschland]]
-- [[Record-b2ddbbaa54--Introducing-physics-AI-at-Mistral-the-foundation-fo]]
-- [[Record-1929444a42--Leanstral-15-Proof-Abundance-for-All]]
-- [[Record-2baf5368ef--Leanstral-Open-Source-foundation-for-trustworthy-vi]]
-- [[Record-42e9c4faad--Modernizing-complex-legacy-code-with-AI-agents]]
-- [[Record-b1897493fd--Your-Prompts-and-Skills-need-a-system-of-record]]
-- [[Record-43cc32c598--Mistral-AI-partners-with-NVIDIA-to-accelerate-open-]]
-- [[Record-7db995c30f--Mistral-raises-3B-to-make-sovereign-open-weight-AI-]]
-- [[Record-a35147859a--Introducing-Mistral-Small-4]]
-- [[Record-830fb9aa9b--Cloudera-and-Mistral-Partner-to-Bring-Specialized-S]]
-- [[Record-27df5194ce--Mistral-x-HUMAIN]]
-- [[Record-467dc9d436--Mistral-and-Mozilla-are-bringing-open-private-and-m]]
-- [[Record-b7c187c43b--Bringing-more-control-over-your-connectors]]
-- [[Record-5da62f2b87--Introducing-Mistral-OCR-4]]
-- [[Record-1f841ad1fa--Physics-AI-research-thats-shaping-the-industry]]
-- [[Record-4368f29d3e--Rails-testing-on-autopilot-Building-an-agent-that-w]]
-- [[Record-c1e2b11cbf--In-region-inference-open-models-and-new-European-in]]
-- [[Record-9588f0d947--Introducing-Robostral-Navigate]]
-- [[Record-2c4ad69167--Introducing-Search-Toolkit]]
-- [[Record-d06e668fc7--Introducing-Shieldstral]]
-- [[Record-2c3c935798--Spaces-A-CLI-Built-for-Humans-and-Agents]]
-- [[Record-ce3b487fc6--Vibe-gets-to-work]]
-- [[Record-b37c496dd1--Remote-agents-in-Vibe-Powered-by-Mistral-Medium-35]]
-- [[Record-d650af9a9d--Voxtral-transcribes-at-the-speed-of-sound]]
-- [[Record-2f96f7b14d--Speaking-of-Voxtral]]
-- [[Record-9e689f81f6--Workflows-for-work-that-runs-the-business]]
-- [[Record-bac9dfb114--Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe]]
-- [[Record-7ec9777dd5--Reasoning-Arena-Trace-Tournaments-When-Verifiable-R]]
+실제 수집 레코드 **72건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+
+### 주제별 건수
+
+| 항목 | 건수 |
+|---|---|
+| [[AI-에이전트]] | 72 |
+| [[과학수학]] | 12 |
+| [[머신러닝-연구]] | 6 |
+| [[LLM언어모델]] | 4 |
+| [[인프라클라우드]] | 3 |
+| [[컴퓨터-비전]] | 1 |
+| [[뷰티스킨케어]] | 1 |
+| [[법률규제]] | 1 |
+| [[음성오디오]] | 1 |
+| [[경영전략]] | 1 |
+
+### 최근 레코드 12건
+
 - [[Record-f82abccd24--Counsel-A-Meta-Evaluation-Dataset-for-Agentic-Tasks]]
+- [[Record-7ec9777dd5--Reasoning-Arena-Trace-Tournaments-When-Verifiable-R]]
+- [[Record-bac9dfb114--Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe]]
+- [[Record-9e689f81f6--Workflows-for-work-that-runs-the-business]]
+- [[Record-2f96f7b14d--Speaking-of-Voxtral]]
+- [[Record-d650af9a9d--Voxtral-transcribes-at-the-speed-of-sound]]
+- [[Record-b37c496dd1--Remote-agents-in-Vibe-Powered-by-Mistral-Medium-35]]
+- [[Record-ce3b487fc6--Vibe-gets-to-work]]
+- [[Record-2c3c935798--Spaces-A-CLI-Built-for-Humans-and-Agents]]
+- [[Record-d06e668fc7--Introducing-Shieldstral]]
+- [[Record-2c4ad69167--Introducing-Search-Toolkit]]
+- [[Record-9588f0d947--Introducing-Robostral-Navigate]]
+
+### 전체 레코드 (표)
+
+```base
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+    - org == "Mistral AI"
+views:
+  - type: table
+    name: 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+    limit: 200
+```
 
 ## Connected nodes
 
-[[Record-e3e441f96a--The-cognitive-biases-that-may-exacerbate-inflationa]] [[Record-03cc79c273--A-modified-secant-formulation-to-predict-the-overal]] [[Record-15c38bb299--Window-flow-control-in-FIFO-networks-with-cross-tra]] [[Record-f34cf6ec9a--Scale-Cant-Overcome-Pragmatics-The-Impact-of-Report]] [[Record-29f669ffa5--Quelle-place-pour-la-lutte-informationnelle-dans-le]] [[Record-c705761661--AutoNeRF-Training-Implicit-Scene-Representations-wi]] [[Record-939b541a91--Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe]] [[Record-c1c0b427a3--Reasoning-Arena-Trace-Tournaments-When-Verifiable-R]] [[Record-9dda18db8f--Counsel-A-Meta-Evaluation-Dataset-for-Agentic-Tasks]] [[Record-34e42c3de4--Le-Critique-Privileged-Value-Functions-for-LLM-Rein]] [[Record-800bf20127--Apollo-Restore-A-Foundation-LLM-for-Historical-Gree]] [[Record-68330dbc68--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-c4ee054ffa--Complete-Derivation-of-Physics-from-551-Dimensional]] [[Record-90a3f1c9ee--Dark-Matter-and-Dark-Energy-from-551-Dimensional-Ge]] [[Record-4e5901ed44--Electron-Mass-from-10-Dimensional-Geometric-Couplin]] [[Record-19bbfd37f5--Baryon-Asymmetry-from-Asymmetric-Decoherence-η--10¹]] [[Record-d1380fa649--Baryon-Asymmetry-from-Asymmetric-Decoherence-η--10¹]] [[Record-b63ab92fea--Neutrino-Masses-from-Geometric-Leakage-mν--007-eV-f]] [[Record-413710f800--Neutrino-Masses-from-Geometric-Leakage-mν--007-eV-f]] [[Record-b58b7cd109--Yang-Mills-Mass-Gap-from-L-Tensor-Confinement-Δ--20]] [[Record-7a2ab453a5--Yang-Mills-Mass-Gap-from-L-Tensor-Confinement-Δ--20]] [[Record-a19eca8a77--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-320c04686a--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]] [[Record-921c95f0b2--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-7cd125d104--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-07bfecc9b4--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-77eb814003--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-416c004e0d--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-6c79ef2238--Unified-Theory-Complete-Derivation-of-Physics-from-]] [[Record-bc657a1845--Information-Geometry-of-Financial-Markets-Deriving-]] [[Record-3b6e24b1ec--Information-Geometry-of-Financial-Markets-Deriving-]] [[Record-d2a71b1b86--Information-Geometry-of-Financial-Markets-Deriving-]] [[Record-5e7d6d2ad6--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]] [[Record-adaf94690b--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]] [[Record-97c9a42838--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]] [[Record-45e2d8b4a5--Derivation-of-α-Particle-Masses-and-Cosmological-Pa]] [[Record-54fdc0f414--场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-A]] [[Record-6fb3d9179f--场计算一种不打分的自组织架构Field-Computation-A-Self-Organizing-A]] [[Record-11914828a5--Emmi-joins-Mistral-to-accelerate-the-AI-native-indu]] [[Record-a9b6961535--Agentic-Search-More-accurate-and-efficient-results-]] [[Record-bdc120f6c2--AI-Now-Summit-2026]] [[Record-a67af3410b--Connect-the-dots-Build-with-built-in-and-custom-MCP]] [[Record-9effb6c300--Introducing-Forge]] [[Record-597c808f7f--Hallo-Deutschland]] [[Record-b2ddbbaa54--Introducing-physics-AI-at-Mistral-the-foundation-fo]] [[Record-1929444a42--Leanstral-15-Proof-Abundance-for-All]] [[Record-2baf5368ef--Leanstral-Open-Source-foundation-for-trustworthy-vi]] [[Record-42e9c4faad--Modernizing-complex-legacy-code-with-AI-agents]] [[Record-b1897493fd--Your-Prompts-and-Skills-need-a-system-of-record]] [[Record-43cc32c598--Mistral-AI-partners-with-NVIDIA-to-accelerate-open-]] [[Record-7db995c30f--Mistral-raises-3B-to-make-sovereign-open-weight-AI-]] [[Record-a35147859a--Introducing-Mistral-Small-4]] [[Record-830fb9aa9b--Cloudera-and-Mistral-Partner-to-Bring-Specialized-S]] [[Record-27df5194ce--Mistral-x-HUMAIN]] [[Record-467dc9d436--Mistral-and-Mozilla-are-bringing-open-private-and-m]] [[Record-b7c187c43b--Bringing-more-control-over-your-connectors]] [[Record-5da62f2b87--Introducing-Mistral-OCR-4]] [[Record-1f841ad1fa--Physics-AI-research-thats-shaping-the-industry]] [[Record-4368f29d3e--Rails-testing-on-autopilot-Building-an-agent-that-w]] [[Record-c1e2b11cbf--In-region-inference-open-models-and-new-European-in]] [[Record-9588f0d947--Introducing-Robostral-Navigate]] [[Record-2c4ad69167--Introducing-Search-Toolkit]] [[Record-d06e668fc7--Introducing-Shieldstral]] [[Record-2c3c935798--Spaces-A-CLI-Built-for-Humans-and-Agents]] [[Record-ce3b487fc6--Vibe-gets-to-work]] [[Record-b37c496dd1--Remote-agents-in-Vibe-Powered-by-Mistral-Medium-35]] [[Record-d650af9a9d--Voxtral-transcribes-at-the-speed-of-sound]] [[Record-2f96f7b14d--Speaking-of-Voxtral]] [[Record-9e689f81f6--Workflows-for-work-that-runs-the-business]] [[Record-bac9dfb114--Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supe]] [[Record-7ec9777dd5--Reasoning-Arena-Trace-Tournaments-When-Verifiable-R]] [[Record-f82abccd24--Counsel-A-Meta-Evaluation-Dataset-for-Agentic-Tasks]] [[AI-에이전트]] [[LLM언어모델]] [[경영전략]] [[과학수학]] [[머신러닝-연구]] [[법률규제]] [[뷰티스킨케어]] [[음성오디오]] [[인프라클라우드]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.842686+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aSERhbl9iazVaRDRoU213blBFZ3FwbUJFUXdQUmV2QlpqaXlvVngtUWpBMlZHTVhsUW5vUjZfMm8xam9DWC1IdjlTM2lzYlZJZUFzQnJmeVo5WjhXYmgzVlc0NkNNLVd3MXpvSnMwdjk?oc=5"
 ---
 
 # Record 1314 · Mythbusting-the-Biggest-TikTok-Skin-Care-Trends-Weve-Seen-in-2024---Ne
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Mythbusting the Biggest TikTok Skin-Care Trends We’ve Seen in 2024 - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

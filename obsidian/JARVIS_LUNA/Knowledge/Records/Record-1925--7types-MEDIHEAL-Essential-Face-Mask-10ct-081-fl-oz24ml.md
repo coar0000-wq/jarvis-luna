@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.292919+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA48723304"
 ---
 
 # Record 1925 · 7types-MEDIHEAL-Essential-Face-Mask-10ct-081-fl-oz24ml
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml) · 평점 4.8 · 리뷰 1,072
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

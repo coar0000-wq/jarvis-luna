@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.340176+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01601v1"
 ---
 
 # Record 056 · Adaptive-Critical-Token-Aware-Retrieval-for-Repository-Level-Code-Gene
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

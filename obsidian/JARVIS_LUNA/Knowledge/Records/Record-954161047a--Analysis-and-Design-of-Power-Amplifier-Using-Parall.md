@@ -2,8 +2,14 @@
 title: "Record 954161047a · Analysis-and-Design-of-Power-Amplifier-Using-Parallel-Combined-Multise"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.432967+00:00
+updated_at: 2026-10-11T00:55:18.674795+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1109/lssc.2026.3665218"
+kind: "논문"
 ---
 
 # Record 954161047a · Analysis-and-Design-of-Power-Amplifier-Using-Parallel-Combined-Multise
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Analysis and Design of Power Amplifier Using Parallel-Combined Multisegment Transformer
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.754849+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=37zOjqRl-3Q"
 ---
 
 # Record 2900 · Shopify-POS-checkout-is-over-a-minute-faster
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify POS checkout is over a minute faster
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

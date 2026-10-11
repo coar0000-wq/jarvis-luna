@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.098208+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigAFBVV95cUxPa2dnTUcwVFpScWtqaUNITjFsNDVsR1NFSHpINW1xZ0J6Q3ZoVG12MDF6Y210VHJaQkFKZTBzaWFWUm1RTGRlZDFyWlRra2ZxOE1GMldzdFN1MnJiTktIWUw3QjVRQndZMEZMQ3VabFk2Uk1qdk14VTcwMEw3OFU1Vw?oc=5"
 ---
 
 # Record 436 · Is-Your-Scalp-the-New-It-Body-Part---The-New-York-Times
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Is Your Scalp the New ‘It’ Body Part? - The New York Times
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

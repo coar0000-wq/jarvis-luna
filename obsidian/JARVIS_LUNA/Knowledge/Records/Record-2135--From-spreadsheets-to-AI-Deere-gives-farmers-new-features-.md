@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.284612+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/"
 ---
 
 # Record 2135 · From-spreadsheets-to-AI-Deere-gives-farmers-new-features-in-Operations
@@ -16,7 +20,3 @@ From spreadsheets to AI: Deere gives farmers new features in Operations Center, 
 <p>John Deere has launched JD, an AI tool that turns historical farm data into actionable insights to boost profitability.</p> <p>The post <a href="https://www.therobotreport.com/from-spreadsheets-ai-john-deeres-new-jd-operations-center-features/">From spreadsheets to AI: Deere gives farmers new features in Operations Center, JD</a> appeared first on <a href="https://www.therobotreport.com">The Ro
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.918426+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxOOG1WR05JLUZSb2NBbmVsMVBaN19ZRkZJalJHY2w3ZDhWZ2pxRVdKdmhPMTd5OUc4Z3E3d05sQktwN2hSOGFYRmNtNmNhckpQWWFPaEVwM25VWlRmUEtUVkVoc19Jbk1vNXcweXJZOVBFX2VMeW1NNW5IZ1N4NkZBeTRLUGFSU1dMMDZ5ay0wWWJLNllCbExIbEZ4S0Zqdw?oc=5"
 ---
 
 # Record 659 · Save-up-to-50-on-K-beauty-and-more-in-iHerbs-anniversary-sale---Nineco
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Save up to 50% on K-beauty and more in iHerb’s anniversary sale - Nine.com.au
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

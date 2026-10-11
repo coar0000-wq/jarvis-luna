@@ -2,8 +2,14 @@
 title: "Record f5ebdde1a2 · Post-Earthquake-Damage-Assessment-Using-a-UAV-Acquired-Photogrammetry-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.712041+00:00
+updated_at: 2026-10-11T00:55:38.834265+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7213566767"
+kind: "논문"
 ---
 
 # Record f5ebdde1a2 · Post-Earthquake-Damage-Assessment-Using-a-UAV-Acquired-Photogrammetry-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Post-Earthquake Damage Assessment Using a UAV-Acquired Photogrammetry Model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

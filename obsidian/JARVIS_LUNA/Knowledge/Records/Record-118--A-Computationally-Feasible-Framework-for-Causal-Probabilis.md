@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.352525+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04177v1"
 ---
 
 # Record 118 · A-Computationally-Feasible-Framework-for-Causal-Probabilistic-Explanat
@@ -15,7 +19,3 @@ tags: [record, real-data]
 A Computationally Feasible Framework for Causal Probabilistic Explanation
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

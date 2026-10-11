@@ -2,8 +2,12 @@
 title: "Record 2e9b0a21b0 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-Ho"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.221392+00:00
+updated_at: 2026-10-11T00:55:30.682269+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZQTVTVTVjeTdhcnkzbEpnaUJMbHlhWjM5OE1rcHUwR0dxUG1rcVVtclBlRWRCY2VvNEIyWlVnUXNOek5xR0FwQzEzVUxUMGVyVDdYTzItQ2w1a0NiWWVnU296ZXl1cXpUWkVDOFozcw?oc=5"
 ---
 
 # Record 2e9b0a21b0 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-Ho
@@ -15,7 +19,3 @@ tags: [record, real-data]
 eCommerce Expo Was AI-Heavy, but Ultimately About How We Keep Shopping Personal - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

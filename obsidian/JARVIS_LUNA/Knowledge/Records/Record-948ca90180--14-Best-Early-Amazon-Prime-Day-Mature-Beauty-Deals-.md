@@ -2,8 +2,12 @@
 title: "Record 948ca90180 · 14-Best-Early-Amazon-Prime-Day-Mature-Beauty-Deals-2026"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.909907+00:00
+updated_at: 2026-10-11T00:55:42.087745+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-early-amazon-prime-day-mature-beauty-deals"
 ---
 
 # Record 948ca90180 · 14-Best-Early-Amazon-Prime-Day-Mature-Beauty-Deals-2026
@@ -16,7 +20,3 @@ tags: [record, real-data]
 14 Best Early Amazon Prime Day Mature Beauty Deals 2026
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

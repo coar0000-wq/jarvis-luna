@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.752273+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT3V2UHNDa0xHSE5HZFE5ay1DRkFyeDg4bVFaN2MzMFkzcTRvRDVUOUJlajFESGlKUUpTdzAtaTM4ZFNiRjRXeVNhWnkwczFaUF93d1ZucnZ5UVNwc1IxQk5tRy1NeXRCUWc3cDlzbVJib0dTTjFxaUVLVUpHa0diWHVNRl9Lb29WbU5R?oc=5"
 ---
 
 # Record 1472 · These-are-my-favourite-K-beauty-products---The-Times
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These are my favourite K-beauty products - The Times
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

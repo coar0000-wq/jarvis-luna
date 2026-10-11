@@ -2,8 +2,12 @@
 title: "Record 6713ddc055 · A-face-lift-once-a-month-Growing-pressure-to-conform-amid-the-rise-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.547436+00:00
+updated_at: 2026-10-11T00:55:36.342624+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNVJvcE40aTNrNzY2WG4tbS1Wb1BWdTBGQzF0MzFHbFhRcU9aczFBb2xXbWV1V1JpQWFfTDJ5Z0N6dU5yMlhjTGE2QlMtUXpLa0E2NEYxRmZiRkswQ1JZaXYxSHNVUXkwMmVpYVF2RUZpSXdRU29yWTR0TVBZb2tfQ0dUeGNjUjRfWUJ5cklERjlkcU5YQmhCVU1XLU5oYWhRalFreWNNV1hIRkplWFNxbzJ3RmZabURQQkFRcXlQQS1VRnU2a0o5eg?oc=5"
 ---
 
 # Record 6713ddc055 · A-face-lift-once-a-month-Growing-pressure-to-conform-amid-the-rise-of-
@@ -16,7 +20,3 @@ tags: [record, real-data]
 'A face lift once a month': Growing pressure to conform amid the rise of Korea's 'K-Beauty' - France 24
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

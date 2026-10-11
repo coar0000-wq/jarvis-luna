@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.677984+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFenk5bE41YzhNVG9KaHVKSjY2UnQ2YlZjUXJjR1VBUlI3NWE4TjljUFUtQ3hidG5lNTNvODV5ZDNnTVAzMnFoNlpOaWFUdF9pUzBMdUZsVnZ0eXJJeUZsc1dJbFZwTzZmT1ZzbjBtZno4UWJV?oc=5"
 ---
 
 # Record 281 · Korean-retail-giant-to-open-second-Calif-store-after-blockbuster-launc
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Korean retail giant to open second Calif. store after blockbuster launch - SFGATE
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

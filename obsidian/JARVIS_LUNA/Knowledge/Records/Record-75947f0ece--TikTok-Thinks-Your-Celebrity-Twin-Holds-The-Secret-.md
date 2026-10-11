@@ -2,8 +2,12 @@
 title: "Record 75947f0ece · TikTok-Thinks-Your-Celebrity-Twin-Holds-The-Secret-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.287722+00:00
+updated_at: 2026-10-11T00:55:31.772274+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ReWE5QkkyMmxNTnVPYWg5cjh1b3dVdlphQngybXZ6dElEamtHTGJhNEFycG81cUdPcTUzSGliem5HR2phQ1pCMG8zUDdfZUVjS1ZsakxWQzRGUmtxdFBDcF91aDVVWElMdEx6NDNJemE2RHdNNlVhcQ?oc=5"
 ---
 
 # Record 75947f0ece · TikTok-Thinks-Your-Celebrity-Twin-Holds-The-Secret-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok Thinks Your Celebrity Twin Holds The Secret To Better Makeup - bustle.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record adb009cf37 · Shopify-enables-AI-agents-to-complete-purchases-directly-on-its-platfo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.347553+00:00
+updated_at: 2026-10-11T00:55:32.924049+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFZHRVRlUDlBeDYyWGJMbmNCVjByNGd3MWtFRGpEc3RiZVNabWpSRFY5NVUzU3NGRUZXT25maHZHbXgwWlhHVC1FSnJPcGgyOUx0V1pEcTdra0N2TUNhaGlNYTFWd29LQkt2SXkyQXR5V0d6MzBkeGhQSWhlNUhXZ3ZxUVZmSEE?oc=5"
 ---
 
 # Record adb009cf37 · Shopify-enables-AI-agents-to-complete-purchases-directly-on-its-platfo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify enables AI agents to complete purchases directly on its platform, enhancing e-commerce automation. - Pluang
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

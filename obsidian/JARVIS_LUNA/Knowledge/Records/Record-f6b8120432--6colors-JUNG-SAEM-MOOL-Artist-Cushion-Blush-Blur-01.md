@@ -2,8 +2,12 @@
 title: "Record f6b8120432 · 6colors-JUNG-SAEM-MOOL-Artist-Cushion-Blush-Blur-014-oz4g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.762919+00:00
+updated_at: 2026-10-11T00:55:39.631326+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA12773331"
 ---
 
 # Record f6b8120432 · 6colors-JUNG-SAEM-MOOL-Artist-Cushion-Blush-Blur-014-oz4g
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [6colors] JUNG SAEM MOOL Artist Cushion Blush Blur 0.14 oz.(4g) · 평점 4.8 · 리뷰 350
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.475554+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "의료바이오", "AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/biosafety-at-the-frontier"
 ---
 
 # Record 2321 · Biosecurity-at-the-frontier
@@ -16,7 +21,3 @@ Biosecurity at the frontier
 LatchBio evaluated Grok's performance on biosecurity monitoring and adversarial biological tasks. They found that Grok 4.6 detects and refuses dangerous queries more reliably than any other frontier system.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[의료바이오]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

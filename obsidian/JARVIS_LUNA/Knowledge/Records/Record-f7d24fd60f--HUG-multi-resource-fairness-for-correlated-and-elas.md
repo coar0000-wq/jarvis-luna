@@ -2,8 +2,14 @@
 title: "Record f7d24fd60f · HUG-multi-resource-fairness-for-correlated-and-elas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.661016+00:00
+updated_at: 2026-10-11T00:55:37.789874+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "openalex.org"
+url: "https://openalex.org/W2339906866"
+kind: "논문"
 ---
 
 # Record f7d24fd60f · HUG-multi-resource-fairness-for-correlated-and-elas
@@ -15,7 +21,3 @@ tags: [record, real-data]
 HUG: multi-resource fairness for correlated and elastic demands
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

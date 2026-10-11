@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.735749+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/080/uk-businesses-welcome-political-reset-but-seek-greater-policy-ce/"
 ---
 
 # Record 802 · UK-businesses-welcome-political-reset-but-seek-greater-policy-certaint
@@ -16,7 +21,3 @@ UK businesses welcome political reset but seek greater policy certainty | Barcla
 Barclays’ Q2 2026 Business Prosperity Index1 reveals that business confidence has rebounded following changes in the Government.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

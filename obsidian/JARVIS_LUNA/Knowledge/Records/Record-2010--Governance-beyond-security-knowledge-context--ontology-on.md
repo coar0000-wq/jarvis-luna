@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.408190+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/governance-beyond-security-knowledge-context-ontology-lakehouse"
 ---
 
 # Record 2010 · Governance-beyond-security-knowledge-context--ontology-on-the-lakehous
@@ -16,7 +21,3 @@ Governance beyond security: knowledge, context & ontology on the lakehouse
 Ask most organizations what data governance for AI means, and you’ll hear a security...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

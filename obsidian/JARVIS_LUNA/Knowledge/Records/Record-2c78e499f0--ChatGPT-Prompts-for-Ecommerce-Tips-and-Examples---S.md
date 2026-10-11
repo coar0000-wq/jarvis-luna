@@ -2,8 +2,12 @@
 title: "Record 2c78e499f0 · ChatGPT-Prompts-for-Ecommerce-Tips-and-Examples---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.146458+00:00
+updated_at: 2026-10-11T00:55:29.394029+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBtOFNweDRmSFNrUlpGaFZuby1sM0xSMjlzZDd2WjJULUNLelBVYWhNQTVCVm9hbUtCN256OVd2SnpSYUxsYTN2c25ZZkZmUnNQTTlzZDlEOHpEY28?oc=5"
 ---
 
 # Record 2c78e499f0 · ChatGPT-Prompts-for-Ecommerce-Tips-and-Examples---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ChatGPT Prompts for Ecommerce: Tips and Examples - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

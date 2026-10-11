@@ -2,8 +2,14 @@
 title: "Record 82a32f495f · A-Smart-Derivative-Contract-with-Collateral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.543159+00:00
+updated_at: 2026-10-11T00:55:20.516875+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.5454714"
+kind: "논문"
 ---
 
 # Record 82a32f495f · A-Smart-Derivative-Contract-with-Collateral
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Smart Derivative Contract with Collateral
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

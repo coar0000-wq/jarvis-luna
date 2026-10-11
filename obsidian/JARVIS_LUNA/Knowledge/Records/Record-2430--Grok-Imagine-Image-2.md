@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:08.022987+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-imagine-image-2"
 ---
 
 # Record 2430 · Grok-Imagine-Image-2
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Grok Imagine Image 2
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

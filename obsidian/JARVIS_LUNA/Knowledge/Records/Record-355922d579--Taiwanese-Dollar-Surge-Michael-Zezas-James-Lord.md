@@ -2,8 +2,14 @@
 title: "Record 355922d579 · Taiwanese-Dollar-Surge-Michael-Zezas-James-Lord"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.549655+00:00
+updated_at: 2026-10-11T00:55:51.322795+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/taiwanese-dollar-surge-michael-zezas-james-lord"
+kind: "발표물"
 ---
 
 # Record 355922d579 · Taiwanese-Dollar-Surge-Michael-Zezas-James-Lord
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Taiwanese Dollar Surge Michael Zezas James Lord
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

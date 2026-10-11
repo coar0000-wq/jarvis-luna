@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.441408+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "의료바이오", "반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tcst.2026.3693758"
 ---
 
 # Record 499 · Hybrid-Model--Data-Fault-Diagnosis-for-Wafer-Handler-Robots-Tilt-and-B
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Hybrid Model--Data Fault Diagnosis for Wafer Handler Robots: Tilt and Broken Belt Cases
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[의료바이오]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

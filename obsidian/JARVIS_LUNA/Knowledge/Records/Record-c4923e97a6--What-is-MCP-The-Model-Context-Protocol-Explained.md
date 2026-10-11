@@ -2,8 +2,14 @@
 title: "Record c4923e97a6 · What-is-MCP-The-Model-Context-Protocol-Explained"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.238628+00:00
+updated_at: 2026-10-11T00:55:15.339897+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "DataWalk"
+domain: "datawalk.com"
+url: "https://datawalk.com/what-is-mcp-the-model-context-protocol-explained/"
+kind: "발표물"
 ---
 
 # Record c4923e97a6 · What-is-MCP-The-Model-Context-Protocol-Explained
@@ -16,7 +22,3 @@ What is MCP? The Model Context Protocol Explained
 The post What is MCP? The Model Context Protocol Explained appeared first on DataWalk .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--DataWalk]] [[JARVIS Real Knowledge Index]]

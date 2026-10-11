@@ -2,8 +2,12 @@
 title: "Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.108787+00:00
+updated_at: 2026-10-11T00:55:28.679064+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOb0tvZ3pOTlNCZkFfSWxSMXhydU9FWXFsTFhTeFU4dzkwS0RVM2RBNnh6Y2lNT0Vvc2czaUZxOVJvVUJndUN5em5fZzgyX2xXeWdFMV9CYkZxZTFUMklGelE4Q21tTzV5VVY4cEQtUDRGcC1Rc2ZyV3ZSZHpHRGdzRWpncWQyT1BNekpqM19ISXNETWRrdWozYmo5WURYb3hndXFJRk5reTZnTDY1WXNvbVV5WFVSb0s3c0tFakJua1ladjlFMVZnZDV5WFJtN1YzZmlpTmpKTlBXa09fWkE?oc=5"
 ---
 
 # Record 14f4c8cb6a · TikTok-launches-Beauty-Fest-2026-with-Own-Your-Beau
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok launches Beauty Fest 2026 with 'Own Your Beautiful: The Glow Up Masterclass' - GMA Network
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

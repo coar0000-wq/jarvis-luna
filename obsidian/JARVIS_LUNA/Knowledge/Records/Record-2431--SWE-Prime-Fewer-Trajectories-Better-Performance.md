@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.842391+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27449v1"
 ---
 
 # Record 2431 · SWE-Prime-Fewer-Trajectories-Better-Performance
@@ -15,7 +19,3 @@ tags: [record, real-data]
 SWE-Prime: Fewer Trajectories, Better Performance
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

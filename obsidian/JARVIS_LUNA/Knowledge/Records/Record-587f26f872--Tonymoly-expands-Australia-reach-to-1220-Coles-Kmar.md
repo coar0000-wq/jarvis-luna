@@ -2,8 +2,12 @@
 title: "Record 587f26f872 · Tonymoly-expands-Australia-reach-to-1220-Coles-Kmar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.235888+00:00
+updated_at: 2026-10-11T00:55:30.926500+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uTUF0Zk9GWWh1Z1JIc2ZXcDBYNG9UTzVHWmxTY0o0a2d4MnhrMFBreXF5SFotZm9PSVhJaXJETmlpVUtOU1lBX0NjZmpjMUlvbVdmWnlmTExKOEhDN1JYV2wwT0VDR3ZwYmRVMmtB0gFyQVVfeXFMTnRwOWtSb25kaDV5S29yTllTRUd5cWloU2FXNnEzNmI1Y0dvQUpqSmY4YlpwaWFsd1RGdE1zY1E3Qk1QejFNOTVTQ3RWb1pCckszQWlmZ3phTC04SGdEdzBWSkczalNoT1pUbzVJemhMWnFn?oc=5"
 ---
 
 # Record 587f26f872 · Tonymoly-expands-Australia-reach-to-1220-Coles-Kmar
@@ -16,7 +20,3 @@ Tonymoly expands Australia reach to 1,220 Coles, Kmart, Target stores - Korea Bi
 Tonymoly expands Australia reach to 1,220 Coles, Kmart, Target stores - Korea Biomedical Review
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

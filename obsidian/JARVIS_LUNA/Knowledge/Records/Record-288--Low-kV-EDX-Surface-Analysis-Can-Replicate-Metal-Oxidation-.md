@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.845946+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsomega.6c00986"
 ---
 
 # Record 288 · Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxidation-Trends-of-XP
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Low-kV EDX Surface Analysis Can Replicate Metal Oxidation Trends of XPS for Semiconductor Package Assembly
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

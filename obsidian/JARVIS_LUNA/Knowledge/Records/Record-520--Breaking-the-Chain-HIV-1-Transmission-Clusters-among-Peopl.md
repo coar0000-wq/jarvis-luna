@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.644347+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1097/qai.0000000000003955"
 ---
 
 # Record 520 · Breaking-the-Chain-HIV-1-Transmission-Clusters-among-People-who-Inject
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Breaking the Chain: HIV-1 Transmission Clusters among People who Inject Drugs in North Carolina, 2010 to 2023
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

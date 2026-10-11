@@ -2,8 +2,14 @@
 title: "Record 8ed1599eb9 · Improving-our-alignment-and-security-practices"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.390493+00:00
+updated_at: 2026-10-11T00:55:48.281631+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "보안프라이버시", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/improving-alignment-security-efforts"
+kind: "발표물"
 ---
 
 # Record 8ed1599eb9 · Improving-our-alignment-and-security-practices
@@ -16,7 +22,3 @@ Improving our alignment and security practices
 On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

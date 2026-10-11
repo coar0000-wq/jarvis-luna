@@ -2,8 +2,14 @@
 title: "Record 429c672917 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reduci"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.017222+00:00
+updated_at: 2026-10-11T00:55:27.534075+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.70917/ijcisim-2026-5217"
+kind: "논문"
 ---
 
 # Record 429c672917 · LLM-Prompt-Interfaces-as-Execution-Contracts-Reduci
@@ -15,7 +21,3 @@ tags: [record, real-data]
 LLM Prompt Interfaces as Execution Contracts: Reducing Unsafe Tool Invocation Across the Incident Lifecycle in AIOps
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 4ce18d12d4 · Dr-Pawpaw-Multipurpose-Tinted-Rich-Mocha-Balm-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.903819+00:00
+updated_at: 2026-10-11T00:55:41.988683+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/review/drpawpaw-multipurpose-tinted-balm-review-2026"
 ---
 
 # Record 4ce18d12d4 · Dr-Pawpaw-Multipurpose-Tinted-Rich-Mocha-Balm-Review
@@ -16,7 +20,3 @@ Dr. Pawpaw Multipurpose Tinted Rich Mocha Balm Review
 Dr. Pawpaw Multipurpose Tinted Rich Mocha Balm Review
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

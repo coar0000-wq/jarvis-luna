@@ -2,8 +2,14 @@
 title: "Record 9c89c2751b · Snowflake-Unlocks-Better-AI-Economics-with-Dynamic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.077625+00:00
+updated_at: 2026-10-11T00:55:28.197052+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["모델-라우팅MoE", "데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Snowflake-Unlocks-Better-AI-Economics-with-Dynamic-Model-Routing-Delivering-More-Value-to-Customers/default.aspx"
+kind: "발표물"
 ---
 
 # Record 9c89c2751b · Snowflake-Unlocks-Better-AI-Economics-with-Dynamic-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Snowflake Unlocks Better AI Economics with Dynamic Model Routing, Delivering More Value to Customers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[모델-라우팅MoE]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

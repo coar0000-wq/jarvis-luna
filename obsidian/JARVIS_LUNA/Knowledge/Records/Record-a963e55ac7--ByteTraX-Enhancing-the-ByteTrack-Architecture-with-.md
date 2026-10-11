@@ -2,8 +2,12 @@
 title: "Record a963e55ac7 · ByteTraX-Enhancing-the-ByteTrack-Architecture-with-Optimised-Threshold"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.891451+00:00
+updated_at: 2026-10-11T00:55:25.586643+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["경영전략", "보안프라이버시"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.37801"
 ---
 
 # Record a963e55ac7 · ByteTraX-Enhancing-the-ByteTrack-Architecture-with-Optimised-Threshold
@@ -16,7 +20,3 @@ ByteTraX: Enhancing the ByteTrack Architecture with Optimised Thresholding
 The ByteTrack algorithm is a widely used and computationally efficient multi-object tracking architecture. Its core innovation lies in the combination of lenient bounding box associations with tracklet similarity matching to robustly deal with object occlusions. However, this strategy is nevertheless vulnerable to erroneous track reclassification and identity switching, as detection confidence sco
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[경영전략]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 1bbfbdbdaa · Domain-Adaptive-Pretraining-Enhances-Water-Treatment-Semantic-Represen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.783602+00:00
+updated_at: 2026-10-11T00:55:24.229344+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.26034"
+kind: "논문"
 ---
 
 # Record 1bbfbdbdaa · Domain-Adaptive-Pretraining-Enhances-Water-Treatment-Semantic-Represen
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Domain-Adaptive Pretraining Enhances Water Treatment Semantic Representation for Large-Scale Structured Literature Mining
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

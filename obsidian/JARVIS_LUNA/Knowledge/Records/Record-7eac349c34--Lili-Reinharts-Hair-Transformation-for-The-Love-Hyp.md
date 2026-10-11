@@ -2,8 +2,12 @@
 title: "Record 7eac349c34 · Lili-Reinharts-Hair-Transformation-for-The-Love-Hypothesis-Was-Both-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.933624+00:00
+updated_at: 2026-10-11T00:55:42.475994+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/love-hypothesis-lili-reinhart-hair-interview"
 ---
 
 # Record 7eac349c34 · Lili-Reinharts-Hair-Transformation-for-The-Love-Hypothesis-Was-Both-an
@@ -16,7 +20,3 @@ Lili Reinhart’s Hair Transformation for The Love Hypothesis Was Both an Art an
 Lili Reinhart’s Hair Transformation for The Love Hypothesis Was Both an Art and a Science
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

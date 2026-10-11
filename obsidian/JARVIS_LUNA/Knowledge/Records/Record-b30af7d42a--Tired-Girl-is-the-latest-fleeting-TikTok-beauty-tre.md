@@ -2,8 +2,12 @@
 title: "Record b30af7d42a · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-tre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.448582+00:00
+updated_at: 2026-10-11T00:55:34.606784+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb3NfeE9aTFpmMXZkelBsLTREa0cxRVpQNHoxUlFxYVprRWszcHlaQ0taTzc2cFhqMWlSeVkxdU1Wd0RhbXlObVZFbTVBSWsyR19zSEtxcWlhS05peTBUdmEtMkRkTnNtTzFXeThtTVhBUkhtT2pETS1KbGF1QVdrRjJBR1FqMVdJNzJqTDRnZXMwQTU1NjJRc01WZw?oc=5"
 ---
 
 # Record b30af7d42a · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-tre
@@ -15,7 +19,3 @@ tags: [record, real-data]
 'Tired Girl' is the latest fleeting TikTok beauty trend - CTV News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

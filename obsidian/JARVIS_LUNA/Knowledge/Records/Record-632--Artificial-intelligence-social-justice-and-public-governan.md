@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.536185+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.23900/ra.v24i118.1706"
 ---
 
 # Record 632 · Artificial-intelligence-social-justice-and-public-governance-perspecti
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Artificial intelligence, social justice, and public governance: perspectives from the global south
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

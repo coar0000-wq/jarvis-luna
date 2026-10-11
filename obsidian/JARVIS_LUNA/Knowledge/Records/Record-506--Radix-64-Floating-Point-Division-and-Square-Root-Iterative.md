@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.074981+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tc.2023.3280136"
 ---
 
 # Record 506 · Radix-64-Floating-Point-Division-and-Square-Root-Iterative-and-Pipelin
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Radix-64 Floating-Point Division and Square Root: Iterative and Pipelined Units
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

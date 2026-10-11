@@ -2,8 +2,12 @@
 title: "Record 53ea3ef212 · Is-Shipyard-Welding-the-Right-First-Job-for-Humanoi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.746517+00:00
+updated_at: 2026-10-11T00:55:39.393596+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/persona-ai-humanoid-robot-welding"
 ---
 
 # Record 53ea3ef212 · Is-Shipyard-Welding-the-Right-First-Job-for-Humanoi
@@ -16,7 +20,3 @@ Is Shipyard Welding the Right First Job for Humanoid Robots?
 <img src="https://spectrum.ieee.org/media-library/two-men-supervise-a-humanoid-robot-as-it-completes-a-welding-task-in-an-industrial-warehouse.jpg?id=67626093&width=1245&height=700&coordinates=0%2C187%2C0%2C188"/><br/><br/><p>Humanoids desperately need to stop making YouTube videos and get a job already, and <a href="https://persona.ai/" rel="noopener noreferrer" target="_blank">Persona AI</a> is
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

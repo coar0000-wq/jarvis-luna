@@ -2,8 +2,14 @@
 title: "Record 66321e57ae · News---Grok-4-6"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.743634+00:00
+updated_at: 2026-10-11T00:55:54.737467+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-6"
+kind: "발표물"
 ---
 
 # Record 66321e57ae · News---Grok-4-6
@@ -15,7 +21,3 @@ tags: [record, real-data]
 News   Grok 4 6
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

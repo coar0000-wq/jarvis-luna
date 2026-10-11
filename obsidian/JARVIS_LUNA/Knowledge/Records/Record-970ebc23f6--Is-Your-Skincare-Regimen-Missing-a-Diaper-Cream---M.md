@@ -2,8 +2,12 @@
 title: "Record 970ebc23f6 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.320977+00:00
+updated_at: 2026-10-11T00:55:32.423011+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVTNwOHdocWFjZDJUalJzUFFQZlBSOGVLRWtscF9DM2U5SkNRM2t0RDU4RXZWZ1hNX1JISWtYYUpWbE95aFJGZXpVVHFSaXdISE5wMnFQUjFmZXhHMlVRb0VuTnZGT3IyT0NRa0FCYmcybGpTdnZjeU9rZVR5bS1BeA?oc=5"
 ---
 
 # Record 970ebc23f6 · Is-Your-Skincare-Regimen-Missing-a-Diaper-Cream---M
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Is Your Skincare Regimen Missing a Diaper Cream? - Marie Claire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

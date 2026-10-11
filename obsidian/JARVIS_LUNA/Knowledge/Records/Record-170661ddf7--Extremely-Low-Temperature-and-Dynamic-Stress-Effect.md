@@ -2,8 +2,14 @@
 title: "Record 170661ddf7 · Extremely-Low-Temperature-and-Dynamic-Stress-Effects-on-NBTI-in-PMOS-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.396457+00:00
+updated_at: 2026-10-11T00:55:18.012208+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1088/1361-6641/aea7cc"
+kind: "논문"
 ---
 
 # Record 170661ddf7 · Extremely-Low-Temperature-and-Dynamic-Stress-Effects-on-NBTI-in-PMOS-F
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Extremely Low-Temperature and Dynamic Stress Effects on NBTI in PMOS-FETs with Variable Oxide Thicknesses
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 0a42b52bc0 · Detection-and-Tracking-of-SARS-CoV-2-Lineages-throu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.568106+00:00
+updated_at: 2026-10-11T00:55:20.938374+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.3201/eid3113.241411"
+kind: "논문"
 ---
 
 # Record 0a42b52bc0 · Detection-and-Tracking-of-SARS-CoV-2-Lineages-throu
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Detection and Tracking of SARS-CoV-2 Lineages through National Wastewater Surveillance System Pathogen Genomics
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

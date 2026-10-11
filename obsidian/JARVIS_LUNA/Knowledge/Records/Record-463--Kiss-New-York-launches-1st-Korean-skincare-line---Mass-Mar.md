@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.328217+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHNsQ0pST0M2ZTAxYThLZGlKTnItaHNiTnhxWkFOVC1TN0hoTHBBYllCeHg1cDMtb3pRRUkwOWt1NGdhYzVGVF9GZHEwbm5Sb0xWcFN4cEZGTVhveE00UHo2WmVDbEZ0emJuMTEyclJBc0VJWE43WFdad3FvM21fTDRadnJjbWs?oc=5"
 ---
 
 # Record 463 · Kiss-New-York-launches-1st-Korean-skincare-line---Mass-Market-Retailer
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Kiss New York launches 1st Korean skincare line - Mass Market Retailers
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

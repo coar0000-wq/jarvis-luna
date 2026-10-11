@@ -2,8 +2,14 @@
 title: "Record a34e97ed3a · Industriestandort-Deutschland-droht-struktureller-Verlust-an-Wettbewer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.274043+00:00
+updated_at: 2026-10-11T00:55:15.934255+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s10273-022-3342-x"
+kind: "논문"
 ---
 
 # Record a34e97ed3a · Industriestandort-Deutschland-droht-struktureller-Verlust-an-Wettbewer
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Industriestandort Deutschland droht struktureller Verlust an Wettbewerbsfähigkeit
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

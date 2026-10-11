@@ -2,8 +2,14 @@
 title: "Record 7344d06892 · FİNANS-VE-EMPERYALİZM-OSMANLI-COĞRAFYASINDA-ALMAN-BANKALARI-1897-1914"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.551738+00:00
+updated_at: 2026-10-11T00:55:20.643521+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.21563/sutad.1222246"
+kind: "논문"
 ---
 
 # Record 7344d06892 · FİNANS-VE-EMPERYALİZM-OSMANLI-COĞRAFYASINDA-ALMAN-BANKALARI-1897-1914
@@ -15,7 +21,3 @@ tags: [record, real-data]
 FİNANS VE EMPERYALİZM: OSMANLI COĞRAFYASINDA ALMAN BANKALARI (1897-1914)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

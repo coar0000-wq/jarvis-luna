@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.571295+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE4wcHZyVm00ZXY2dkdsS1dWS3BMLUFrSEdseTJaQUNUVmliV21aV2JEbDJjS0N3SW15R1IzSk9hNXVELW9oYXc0VXhXRUJvUHhqRG5zN3hHUGJMN2ZsbW02YWxrUXdaMWtiMm53N3FjSmNQZw?oc=5"
 ---
 
 # Record 276 · Pinterest-IG-and-TikTok-Agree-Toasted-Blush-Will-Be-a-Huge-Makeup-Tren
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Pinterest, IG, and TikTok Agree: "Toasted Blush" Will Be a Huge Makeup Trend This Winter - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

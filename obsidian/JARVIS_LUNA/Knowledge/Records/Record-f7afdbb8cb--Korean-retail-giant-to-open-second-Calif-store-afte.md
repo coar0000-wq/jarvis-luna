@@ -2,8 +2,12 @@
 title: "Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-afte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.267723+00:00
+updated_at: 2026-10-11T00:55:31.408273+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTFBFenk5bE41YzhNVG9KaHVKSjY2UnQ2YlZjUXJjR1VBUlI3NWE4TjljUFUtQ3hidG5lNTNvODV5ZDNnTVAzMnFoNlpOaWFUdF9pUzBMdUZsVnZ0eXJJeUZsc1dJbFZwTzZmT1ZzbjBtZno4UWJV?oc=5"
 ---
 
 # Record f7afdbb8cb · Korean-retail-giant-to-open-second-Calif-store-afte
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Korean retail giant to open second Calif. store after blockbuster launch - SFGATE
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

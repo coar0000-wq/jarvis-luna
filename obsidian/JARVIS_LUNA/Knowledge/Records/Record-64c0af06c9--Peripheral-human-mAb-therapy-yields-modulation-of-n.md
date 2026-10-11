@@ -2,8 +2,14 @@
 title: "Record 64c0af06c9 · Peripheral-human-mAb-therapy-yields-modulation-of-neuroinflammation-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.393737+00:00
+updated_at: 2026-10-11T00:55:17.963180+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1080/22221751.2026.2736987"
+kind: "논문"
 ---
 
 # Record 64c0af06c9 · Peripheral-human-mAb-therapy-yields-modulation-of-neuroinflammation-an
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Peripheral human mAb therapy yields modulation of neuroinflammation and long-term functional recovery from lyssavirus infection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

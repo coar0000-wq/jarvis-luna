@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.985675+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "openalex.org"
+url: "https://openalex.org/W7163594953"
 ---
 
 # Record 1820 · Characterization-of-Multi-Model-Agentic-AI-Systems-on-General-Tasks-vi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Characterization of Multi-Model Agentic AI Systems on General Tasks via Trace-Driven Simulation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

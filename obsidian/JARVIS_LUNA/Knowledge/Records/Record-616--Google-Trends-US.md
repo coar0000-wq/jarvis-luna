@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.173416+00:00
 tags: [knowledge-graph, record]
+source: "us_beauty"
+topics: ["AI-Research"]
+domain: "trends.google.com"
+url: "https://trends.google.com/trends/explore?geo=US"
 ---
 
 # Record 616 · Google-Trends-US
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Google Trends US
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

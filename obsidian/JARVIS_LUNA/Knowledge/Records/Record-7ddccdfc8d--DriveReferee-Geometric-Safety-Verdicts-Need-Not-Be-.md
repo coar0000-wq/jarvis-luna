@@ -2,8 +2,12 @@
 title: "Record 7ddccdfc8d · DriveReferee-Geometric-Safety-Verdicts-Need-Not-Be-Learned-for-Driving"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.165576+00:00
+updated_at: 2026-10-11T00:55:14.400849+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "모델-라우팅MoE", "머신러닝-연구", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.22762"
 ---
 
 # Record 7ddccdfc8d · DriveReferee-Geometric-Safety-Verdicts-Need-Not-Be-Learned-for-Driving
@@ -16,7 +20,3 @@ DriveReferee: Geometric Safety Verdicts Need Not Be Learned for Driving World-Ac
 Generative world-action models (WAMs) jointly generate future video and vehicle actions, while their action branches remain primarily optimized by expert imitation. Yet imitation provides no explicit closed-loop geometric verdict for generated trajectories, making verification important during both training and deployment. Closed-loop evaluators can check collision and drivable-area violations, bu
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

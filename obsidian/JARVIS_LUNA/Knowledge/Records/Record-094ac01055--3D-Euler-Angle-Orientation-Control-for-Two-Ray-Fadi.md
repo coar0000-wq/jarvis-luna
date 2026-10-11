@@ -2,8 +2,12 @@
 title: "Record 094ac01055 · 3D-Euler-Angle-Orientation-Control-for-Two-Ray-Fadi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.061473+00:00
+updated_at: 2026-10-11T00:55:13.185937+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11476v1"
 ---
 
 # Record 094ac01055 · 3D-Euler-Angle-Orientation-Control-for-Two-Ray-Fadi
@@ -16,7 +20,3 @@ tags: [record, real-data]
 Maritime Air-to-Sea links are dominated by a line-of-sight ray and a sea-surface reflected ray whose destructive combination produces deep fades. Existing mitigation strategies optimize Unmanned Aerial Vehicle position or trajectory but leave attitude unexploited. This paper treats the full three dimensional attitude as a physical-layer control variable that shapes the two-ray interference through
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

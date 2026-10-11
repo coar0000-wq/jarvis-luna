@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.473704+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "trends.google.com"
+url: "https://trends.google.com/trends/explore?geo=US"
 ---
 
 # Record 1920 · Google-Trends-US
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Google Trends US
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record f2f40912eb · MedMamba-Recasting-Mamba-for-Medical-Time-Series-Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.673809+00:00
+updated_at: 2026-10-11T00:55:38.031297+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7160727558"
+kind: "논문"
 ---
 
 # Record f2f40912eb · MedMamba-Recasting-Mamba-for-Medical-Time-Series-Cl
@@ -15,7 +21,3 @@ tags: [record, real-data]
 MedMamba: Recasting Mamba for Medical Time Series Classification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

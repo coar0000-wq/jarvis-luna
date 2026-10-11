@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.152616+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=63awrDdTPCg"
 ---
 
 # Record 676 · 10가지-여름-미스트-비교-미스트는-이거사세요-딱-결정해-드립니다-좋은-미스트-고르는-방법도-꼭-챙겨가세요
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 10가지 여름 미스트 비교❗️ 미스트는 이거사세요! 딱 결정해 드립니다. 좋은 미스트 고르는 방법도 꼭 챙겨가세요
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

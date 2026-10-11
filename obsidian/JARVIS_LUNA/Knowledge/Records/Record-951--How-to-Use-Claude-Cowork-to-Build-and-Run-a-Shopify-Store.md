@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.937073+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=IQDtl0Dacjo"
 ---
 
 # Record 951 · How-to-Use-Claude-Cowork-to-Build-and-Run-a-Shopify-Store
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How to Use Claude Cowork to Build and Run a Shopify Store
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

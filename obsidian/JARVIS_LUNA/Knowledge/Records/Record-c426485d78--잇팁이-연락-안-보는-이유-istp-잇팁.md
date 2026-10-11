@@ -2,8 +2,12 @@
 title: "Record c426485d78 · 잇팁이-연락-안-보는-이유-istp-잇팁"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.689021+00:00
+updated_at: 2026-10-11T00:55:53.552266+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/7-GRnBUdcoc"
 ---
 
 # Record c426485d78 · 잇팁이-연락-안-보는-이유-istp-잇팁
@@ -15,7 +19,3 @@ tags: [record, real-data]
 잇팁이 연락 안 보는 이유 #istp #잇팁
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

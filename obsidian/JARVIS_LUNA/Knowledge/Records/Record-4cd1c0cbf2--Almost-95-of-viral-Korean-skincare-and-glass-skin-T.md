@@ -2,8 +2,12 @@
 title: "Record 4cd1c0cbf2 · Almost-95-of-viral-Korean-skincare-and-glass-skin-TikTok-videos-contai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.424959+00:00
+updated_at: 2026-10-11T00:55:34.249921+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUXFYVW1WX05YazM2d1VsOFh4MWp4ZGNyN0JMaDU1bEFEX2dPclFxVUZTWFRFV0FhbGo0WkJwOXFzc1pONlFUZTFtYjRCTXZsZFZBNThWUXhqYmFjR1ZkWjJqUzNQMmxvdU1FbmhSck9vMmx4WDAyQkRMTHBfanZaTnFyb2RCUVhoUFpNd3o2U01DLTZLZGN3?oc=5"
 ---
 
 # Record 4cd1c0cbf2 · Almost-95-of-viral-Korean-skincare-and-glass-skin-TikTok-videos-contai
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Almost 95% of viral Korean skincare and 'glass skin' TikTok videos contain misleading claims, new study shows - Yahoo Finance
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

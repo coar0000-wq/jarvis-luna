@@ -2,8 +2,14 @@
 title: "Record 3dd414ffab · Global-Ecommerce-Growth-Forecast-2022"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.510382+00:00
+updated_at: 2026-10-11T00:55:50.464076+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["이커머스Shopify", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/global-ecommerce-growth-forecast-2022"
+kind: "발표물"
 ---
 
 # Record 3dd414ffab · Global-Ecommerce-Growth-Forecast-2022
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Global Ecommerce Growth Forecast 2022
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[이커머스Shopify]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

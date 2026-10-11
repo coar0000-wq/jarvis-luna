@@ -2,8 +2,14 @@
 title: "Record 66b94aeef9 · What-makes-wearable-devices-usable-Lessons-learned-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.386789+00:00
+updated_at: 2026-10-11T00:55:17.848710+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.1080/03091902.2025.2583495"
+kind: "논문"
 ---
 
 # Record 66b94aeef9 · What-makes-wearable-devices-usable-Lessons-learned-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 What makes wearable devices usable? Lessons learned from a 47-day Antarctic ski expedition to the South Pole (INSPIRE22)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

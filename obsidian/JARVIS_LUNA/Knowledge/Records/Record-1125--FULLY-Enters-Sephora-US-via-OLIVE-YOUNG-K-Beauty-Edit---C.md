@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.173241+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE92akszSkVlRmtraHhWWFhMZmd3ZEZ2OXJYaE45b2VsZ3hzbG1aQkNCQWV2Y2JOTzdZNUNOWmM4aEpGdWdxcXJfOTBCWlBQMXZ5WFNmR2xESzdaQzJ3RGhiYnFpSF9ORVJxUnk5d1dxTm41UdIBhgFBVV95cUxOQlNWQkhUeXR1cG9rTWwyZjJsVXZVSTFZUnpJTTJ2LTdUWmNhM3EtTXFRUm04U0FQSmVHOVFmWmVIaFMxYmdqdE1UcU5OcmoyeFJ2RlMyZ3R3ZVI5MkNLY2hqeWtWZXhGU1o3bURScTZaWmpGYXBudnMyUGVPZnFGblBhX2RCUQ?oc=5"
 ---
 
 # Record 1125 · FULLY-Enters-Sephora-US-via-OLIVE-YOUNG-K-Beauty-Edit---CHOSUNBIZ---Ch
@@ -15,7 +19,3 @@ tags: [record, real-data]
 FULLY Enters Sephora US via ‘OLIVE YOUNG K-Beauty Edit’ - CHOSUNBIZ - Chosunbiz
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

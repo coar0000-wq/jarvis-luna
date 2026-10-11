@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.068729+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2aHRscWZyZ3Y5eEVaUkVwMDUwY0Q2NmlFcWd0R3hETFZiVTd5NExCQVhmM1F1RWxqaWxRaFFFMVozU2NadGxGN3NvRTg4X0NrS3NmYg?oc=5"
 ---
 
 # Record 093 · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---R
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Gentle allure: how the internet is adopting the ‘demure’ beauty trend - RUSSH
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

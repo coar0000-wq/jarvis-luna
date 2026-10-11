@@ -2,8 +2,12 @@
 title: "Record 5113e2c804 · Unifying-Power-Flow-and-Electromagnetic-Transient-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.005427+00:00
+updated_at: 2026-10-11T00:55:12.491941+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08933v1"
 ---
 
 # Record 5113e2c804 · Unifying-Power-Flow-and-Electromagnetic-Transient-M
@@ -16,7 +20,3 @@ Unifying Power Flow and Electromagnetic Transient Modeling
 Grid tools are separated by timescales: steady-state analysis is performed by power flow (PF), whereas the fastest dynamics are captured by electromagnetic transient (EMT) simulation. Although operating at varying timescales, different tools should produce consistent results when analyzing the same grid conditions. However, the PF steady-state solution does not match the time-to-infinity EMT respo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

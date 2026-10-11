@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.848076+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLWxOVHM5ZXdvNFg0SzI1NlNxSXlieUpFMGpkdkJON1kyQ2h4SzdyXzdaOHJvV2VxcEF6UFFVNTV2SGY1Y1BnY3JYOTd6R2tDMlgxU3I2UlNrUlowTEtmSVdXV1dzT1ctSGFSNEU3cTg1UU1uUmk1aldyb3d4TW13bUIySzdoT0N6N1RMN1MxQWZHVkNHMjlMMUR3T0x5MThYcmFQYnlIQVpUVV9fSlE?oc=5"
 ---
 
 # Record 1687 · Shopifys-results-show-that-AI-is-already-a-driver-of-eCommerce-growth-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify’s results show that AI is already a driver of eCommerce growth - Marketing4eCommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

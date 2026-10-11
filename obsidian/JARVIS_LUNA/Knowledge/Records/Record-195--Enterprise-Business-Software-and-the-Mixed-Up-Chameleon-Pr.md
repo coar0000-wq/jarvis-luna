@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:35.998501+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "Palantir"
+domain: "blog.palantir.com"
+url: "https://blog.palantir.com/enterprise-business-software-and-the-mixed-up-chameleon-problem-f16df333bc71?source=rss----3c87dc14372f---4"
 ---
 
 # Record 195 · Enterprise-Business-Software-and-the-Mixed-Up-Chameleon-Problem
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Enterprise Business Software and the Mixed-Up Chameleon Problem
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.934974+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVN2MXhKdVZEclB1UkpFMlNqYUdOQnhSUnhtRjNsalppMmRSMGM5Mlc5T2RQZng2WUEwMUp6UnZMckx2Z3hmaGlnd3I1RzlwOXR5dWFxRjFYQ2hZd2xUa0ZXbldiQzRlVVRfVTJtUHEzV1k0RXd2VmZwTHY5QlpkUzlRYkVhcTJaa2hqbDJ5emkyOHh0amc?oc=5"
 ---
 
 # Record 434 · Exploring-the-viral-TikTok-trend-of-Sunscreen-Contouring---CHCH
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Exploring the viral TikTok trend of ‘Sunscreen Contouring’ - CHCH
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

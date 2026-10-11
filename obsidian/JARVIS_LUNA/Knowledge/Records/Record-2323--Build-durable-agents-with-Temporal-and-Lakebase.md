@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.121049+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/build-durable-agents-temporal-and-lakebase"
 ---
 
 # Record 2323 · Build-durable-agents-with-Temporal-and-Lakebase
@@ -16,7 +21,3 @@ Build durable agents with Temporal and Lakebase
 A personal-loan underwriting agent gathers evidence, applies policy, and may wait...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

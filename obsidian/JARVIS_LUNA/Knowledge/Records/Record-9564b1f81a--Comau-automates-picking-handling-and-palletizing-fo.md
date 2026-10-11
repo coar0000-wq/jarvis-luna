@@ -2,8 +2,12 @@
 title: "Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.573393+00:00
+updated_at: 2026-10-11T00:55:51.735344+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/"
 ---
 
 # Record 9564b1f81a · Comau-automates-picking-handling-and-palletizing-fo
@@ -16,7 +20,3 @@ Comau automates picking, handling, and palletizing for Decathlon
 <p>Comau's system incorporates its MyCo cobot, ROS2 software architecture, AI-powered vision systems, and a modular gripper.</p> <p>The post <a href="https://www.therobotreport.com/comau-automates-picking-handling-and-palletizing-for-decathlon/">Comau automates picking, handling, and palletizing for Decathlon</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

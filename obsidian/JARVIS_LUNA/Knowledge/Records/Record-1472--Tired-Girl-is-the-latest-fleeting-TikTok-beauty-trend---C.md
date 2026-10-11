@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.092891+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb3NfeE9aTFpmMXZkelBsLTREa0cxRVpQNHoxUlFxYVprRWszcHlaQ0taTzc2cFhqMWlSeVkxdU1Wd0RhbXlObVZFbTVBSWsyR19zSEtxcWlhS05peTBUdmEtMkRkTnNtTzFXeThtTVhBUkhtT2pETS1KbGF1QVdrRjJBR1FqMVdJNzJqTDRnZXMwQTU1NjJRc01WZw?oc=5"
 ---
 
 # Record 1472 · Tired-Girl-is-the-latest-fleeting-TikTok-beauty-trend---CTV-News
@@ -15,7 +19,3 @@ tags: [record, real-data]
 'Tired Girl' is the latest fleeting TikTok beauty trend - CTV News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

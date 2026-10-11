@@ -2,8 +2,12 @@
 title: "Record 1562028630 · News--Retailer-Olive-Youngs-expansion-mirrors-K-bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.483503+00:00
+updated_at: 2026-10-11T00:55:35.239313+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYl9HLWJXV2V5bk53Sks2R1kyM3RGbF9jX1kxWURHY2ZvMmlJTTVaNlo3YWhORnlsWV9hMGJ2QmxVMEtZVjFienR1cDR5SWw0VjRjWmwzeGZURGxWYktHcEk5ZmhnSm1YektIbUNqYnVrejQ2ZUhUeWxERmlxODVKczVGdkRkTE0xSUM2bmNrNjh1MFRlMUVmV2VEb0wxZ0daM3Z0b1lB?oc=5"
 ---
 
 # Record 1562028630 · News--Retailer-Olive-Youngs-expansion-mirrors-K-bea
@@ -15,7 +19,3 @@ tags: [record, real-data]
 News | Retailer Olive Young's expansion mirrors K-beauty demand in US - CoStar
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

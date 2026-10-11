@@ -2,8 +2,14 @@
 title: "Record 0784c744d0 · Samsung-Introduces-New-Over-the-Range-Microwave-Wit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.578255+00:00
+updated_at: 2026-10-11T00:55:36.699753+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-introduces-new-over-the-range-microwave-with-dualvent-technology"
+kind: "발표물"
 ---
 
 # Record 0784c744d0 · Samsung-Introduces-New-Over-the-Range-Microwave-Wit
@@ -16,7 +22,3 @@ Samsung Introduces New Over-the-Range Microwave With DualVent Technology
 Samsung Electronics today announced its new Over-the-Range Microwave in the U.S. and Canada beginning September 2026. The new model introduces DualVent technology, a ventilation system with air intakes at both the bottom and front of the microwave. Additional features include Auto Connectivity and a fingerprint resistant finish that helps maintain the microwave’s clean appearance. “Consumers […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

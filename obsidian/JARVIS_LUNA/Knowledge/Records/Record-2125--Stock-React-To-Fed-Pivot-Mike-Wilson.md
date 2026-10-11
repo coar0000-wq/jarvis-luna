@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.065066+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/stock-react-to-fed-pivot-mike-wilson"
 ---
 
 # Record 2125 · Stock-React-To-Fed-Pivot-Mike-Wilson
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Stock React To Fed Pivot Mike Wilson
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

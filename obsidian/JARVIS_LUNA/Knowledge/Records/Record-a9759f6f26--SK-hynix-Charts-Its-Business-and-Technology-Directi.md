@@ -2,8 +2,14 @@
 title: "Record a9759f6f26 · SK-hynix-Charts-Its-Business-and-Technology-Directi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.612937+00:00
+updated_at: 2026-10-11T00:55:37.051297+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/future-forum-2026-3/"
+kind: "발표물"
 ---
 
 # Record a9759f6f26 · SK-hynix-Charts-Its-Business-and-Technology-Directi
@@ -16,7 +22,3 @@ SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum�
 ▲ SK hynix CEO Kwak Noh-Jung delivering the welcoming remarks at the 2026 Future Forum
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

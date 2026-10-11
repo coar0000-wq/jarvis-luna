@@ -2,8 +2,12 @@
 title: "Record 8507e36459 · NEW-2026-Anessa-Sunscreen-Gel-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.716980+00:00
+updated_at: 2026-10-11T00:55:54.212499+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=8Rb21ZRRwxo"
 ---
 
 # Record 8507e36459 · NEW-2026-Anessa-Sunscreen-Gel-Review
@@ -15,7 +19,3 @@ tags: [record, real-data]
 *NEW* 2026 Anessa Sunscreen Gel Review
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

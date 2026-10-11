@@ -2,8 +2,14 @@
 title: "Record 3e4d961a5b · Engineered-interfaces-in-electronic-materials-for-e"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.363760+00:00
+updated_at: 2026-10-11T00:55:17.419904+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41578-026-00949-9"
+kind: "논문"
 ---
 
 # Record 3e4d961a5b · Engineered-interfaces-in-electronic-materials-for-e
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Engineered interfaces in electronic materials for energy-efficient computing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

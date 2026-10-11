@@ -2,8 +2,12 @@
 title: "Record ed34a3e2de · Beauty-and-Brains-LSU-Student-opens-K-Beauty-store-in-Baton-Rouge---ls"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.491910+00:00
+updated_at: 2026-10-11T00:55:35.374773+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHNzUW9mMzlzWWlmU004RW0wN2pjOWgzSi1EUHR2Z3BCQ2wzX2xqNlI2XzBUejc5NndBVGVNTHNoOThwZmhrUVJiNWZQWlRfLXgwM0dVLV92MjZmUUk0Mk5KYjllMHFyT2lIa21INWRjTWRTaXhjTGU2b3FmTzR4UXVLQ2hQaS1NcUVsUlpDVTVtdXY1U2RyakJSUGpZbVdoNkxLVFV3aGo?oc=5"
 ---
 
 # Record ed34a3e2de · Beauty-and-Brains-LSU-Student-opens-K-Beauty-store-in-Baton-Rouge---ls
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Beauty and Brains: LSU Student opens K-Beauty store in Baton Rouge - lsureveille.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record aebe351900 · Interview-The-People-Behind-the-Galaxy-Z-Series-Camera-Innovations-②-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.564886+00:00
+updated_at: 2026-10-11T00:55:36.495120+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a1-how-portrait-video-recreates-the-look-of-professional-camera-lenses"
+kind: "발표물"
 ---
 
 # Record aebe351900 · Interview-The-People-Behind-the-Galaxy-Z-Series-Camera-Innovations-②-H
@@ -16,7 +22,3 @@ tags: [record, real-data]
 Unveiled at Galaxy Unpacked July 2026, Samsung Electronics’ Galaxy Z series introduces My FanCam — a new feature that lets users focus their edits on a person of their choice — as well as an enhanced Portrait Video that recreates the look of professional camera lenses. While the two features offer different camera experiences, both draw […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

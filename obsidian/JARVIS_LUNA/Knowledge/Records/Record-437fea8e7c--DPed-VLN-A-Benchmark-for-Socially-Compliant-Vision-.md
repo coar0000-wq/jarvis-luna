@@ -2,8 +2,12 @@
 title: "Record 437fea8e7c · DPed-VLN-A-Benchmark-for-Socially-Compliant-Vision-and-Language-Naviga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.747342+00:00
+updated_at: 2026-10-11T00:55:23.740409+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전", "로보틱스"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.21504"
 ---
 
 # Record 437fea8e7c · DPed-VLN-A-Benchmark-for-Socially-Compliant-Vision-and-Language-Naviga
@@ -16,7 +20,3 @@ DPed-VLN: A Benchmark for Socially Compliant Vision-and-Language Navigation in D
 Vision-and-language navigation (VLN) has advanced rapidly in static indoor environments, but robots operating in human-populated spaces must ground language while responding to moving pedestrians and social-safety constraints. We present DPed-VLN, a Habitat 3.0 benchmark for dynamic-pedestrian VLN that couples 33,093 navigation episodes with paired global and prior-augmented instructions, ORCA-con
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

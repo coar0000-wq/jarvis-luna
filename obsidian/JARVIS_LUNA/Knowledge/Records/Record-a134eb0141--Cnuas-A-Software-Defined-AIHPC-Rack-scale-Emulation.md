@@ -2,8 +2,12 @@
 title: "Record a134eb0141 · Cnuas-A-Software-Defined-AIHPC-Rack-scale-Emulation-Platform-and-Hyper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.097513+00:00
+updated_at: 2026-10-11T00:55:13.577438+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.15889"
 ---
 
 # Record a134eb0141 · Cnuas-A-Software-Defined-AIHPC-Rack-scale-Emulation-Platform-and-Hyper
@@ -16,7 +20,3 @@ Cnuas: A Software-Defined AI/HPC Rack-scale Emulation Platform and Hyperscale Da
 Modern AI and HPC systems integrate accelerators, high-speed networks, and management controllers at rack scale. Developing software for this infrastructure typically requires access to scarce, costly hardware, while software abstractions can obscure how workloads depend on resources across servers and accelerators. This paper presents Cnuas, an open-source, experimental rack-scale emulation platf
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

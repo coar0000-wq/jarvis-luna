@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.663222+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/090/barclays-strengthens-japan-cash-equities-franchise-with-senior-s/"
 ---
 
 # Record 862 · Barclays-strengthens-Japan-Cash-Equities-franchise-with-senior-sales-t
@@ -16,7 +21,3 @@ Barclays strengthens Japan Cash Equities franchise with senior sales trading app
 Barclays today announced the appointments of Takeo Kamai as Head of High-Touch Sales Trading, Japan, and Warren Kim, to its Cash Equities business.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

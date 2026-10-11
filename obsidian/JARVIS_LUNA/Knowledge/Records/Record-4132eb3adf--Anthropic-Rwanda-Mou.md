@@ -2,8 +2,14 @@
 title: "Record 4132eb3adf · Anthropic-Rwanda-Mou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.360721+00:00
+updated_at: 2026-10-11T00:55:47.976941+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-rwanda-mou"
+kind: "발표물"
 ---
 
 # Record 4132eb3adf · Anthropic-Rwanda-Mou
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Anthropic Rwanda Mou
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

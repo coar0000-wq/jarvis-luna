@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.618108+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acs.jpcc.6c00522"
 ---
 
 # Record 422 · Hydrogen-Radical-Permeation-Dynamics-through-Ultrathin-ALD-Al-2-O-3-La
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Hydrogen Radical Permeation Dynamics through Ultrathin ALD Al 2 O 3 Layers Revealed by In Situ Ellipsometry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

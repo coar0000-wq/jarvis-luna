@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.605927+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.ultramic.2026.114409"
 ---
 
 # Record 287 · Temperature-dependent-mean-inner-potential-of-polystyrene-spheres-meas
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Temperature-dependent mean inner potential of polystyrene spheres measured using off-axis electron holography
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

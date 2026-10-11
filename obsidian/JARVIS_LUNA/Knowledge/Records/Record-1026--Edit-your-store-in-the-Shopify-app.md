@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.208292+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/yfkBbe8wa0Q"
 ---
 
 # Record 1026 · Edit-your-store-in-the-Shopify-app
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Edit your store in the Shopify app
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

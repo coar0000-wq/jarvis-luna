@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.690723+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHVUx3Znh5RVNXMHVEUWtvXy1wRDQ0N3ZxajBCRTFxSHJoblgydkJFTm1CaXhQeVJ0YUx4MDN3dzNtaE9BcDhuYUNSbllmZw?oc=5"
 ---
 
 # Record 976 · So-What-Exactly-Is-K-Beauty---coveteurcom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 So, What Exactly Is K-Beauty? - coveteur.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

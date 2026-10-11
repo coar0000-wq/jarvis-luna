@@ -2,8 +2,12 @@
 title: "Record 97e22cad0b · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.231684+00:00
+updated_at: 2026-10-11T00:55:30.871929+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rQTZaQjhQbThYaDZGQlI5cGprSzlQVTlrUzI1VV9zNWNaOVR2R29CbmE0OGs1b1p6LTFsazAwZU00OVRFSXlCNE5YZ1huTlJxUFY0ZW5SQ2ZoalhsT3lkOWRmNjk4QWpBRFlMdQ?oc=5"
 ---
 
 # Record 97e22cad0b · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How To Lead AI Transformation: Ecommerce Guide (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

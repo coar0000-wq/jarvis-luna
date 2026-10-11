@@ -2,8 +2,12 @@
 title: "Record 19bf3dca63 · A-Mathematical-Theory-of-Pragmatic-Information"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.047524+00:00
+updated_at: 2026-10-11T00:55:13.035583+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10986v1"
 ---
 
 # Record 19bf3dca63 · A-Mathematical-Theory-of-Pragmatic-Information
@@ -16,7 +20,3 @@ A Mathematical Theory of Pragmatic Information
 We propose a pragmatic information theory unifying communication, control, and decision-making. Its core is the isoteleia mapping, formalizing equifinality: distinct semantic paths leading to the same optimal action are pragmatically equivalent. This induces a three-tier hierarchy of syntactic, semantic, and pragmatic information, each abstraction discarding task-irrelevant distinctions. We develo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[과학수학]] [[JARVIS Real Knowledge Index]]

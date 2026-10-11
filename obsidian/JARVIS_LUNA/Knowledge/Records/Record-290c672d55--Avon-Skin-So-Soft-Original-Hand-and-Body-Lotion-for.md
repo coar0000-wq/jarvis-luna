@@ -2,8 +2,12 @@
 title: "Record 290c672d55 · Avon-Skin-So-Soft-Original-Hand-and-Body-Lotion-for-Woman-Paraben-Free"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.664138+00:00
+updated_at: 2026-10-11T00:55:53.187310+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Avon-Skin-so-Soft-Original-Oil-Jojoba-Body-Lotion-350ml-11-8fl-oz/600207594"
 ---
 
 # Record 290c672d55 · Avon-Skin-So-Soft-Original-Hand-and-Body-Lotion-for-Woman-Paraben-Free
@@ -16,7 +20,3 @@ Avon Skin So Soft Original Hand and Body Lotion for Woman, Paraben Free, 11.8 fl
 Avon Skin So Soft Original Hand and Body Lotion for Woman, Paraben Free, 11.8 fl oz · 평점 4.6 · 리뷰 762
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record efc239afc3 · ConvCue-Complementary-Visual-Inductive-Biases-for-Vision-Language-Mode"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.858213+00:00
+updated_at: 2026-10-11T00:55:25.191351+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.34196"
 ---
 
 # Record efc239afc3 · ConvCue-Complementary-Visual-Inductive-Biases-for-Vision-Language-Mode
@@ -16,7 +20,3 @@ ConvCue: Complementary Visual Inductive Biases for Vision-Language Models
 Modern vision-language models (VLMs) achieve strong performance across a broad range of multimodal tasks, yet still struggle with visual questions that require fine-grained discrimination and spatial understanding. These limitations motivate investigating whether supplementary visual representations can improve existing VLMs without replacing their native visual encoders. Pretrained convolutional
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

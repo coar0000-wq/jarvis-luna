@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.419137+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-9891519/v1"
 ---
 
 # Record 688 · Fear-of-the-new-a-predatory-invader-provokes-stronger-non-consumptive-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Fear of the new: a predatory invader provokes stronger non-consumptive effects on a keystone native prey than a native predator
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

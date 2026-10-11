@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.367372+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/wxrfHSYM9tY"
 ---
 
 # Record 2115 · Why-Is-Nobody-Talking-About-These
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why Is Nobody Talking About These?!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

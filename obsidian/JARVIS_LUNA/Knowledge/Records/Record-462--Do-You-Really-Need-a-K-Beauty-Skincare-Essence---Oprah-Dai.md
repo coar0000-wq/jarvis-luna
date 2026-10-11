@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.124136+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUUJ6TlZBSVhxRE9CMm00cG04X0FjQUZOTkN2QzNGcUdYNmNmUldlU2hTSEVGN0xkaFhMQVRYNXNDM0lsU3RqTGpMcE1jRUZQdmVfbTNScl9zX0N6SXpySFdyam8zeThPbUMyN1I2STFBWElLWXBmTEswNm5PVC1rMHZtMC0zUQ?oc=5"
 ---
 
 # Record 462 · Do-You-Really-Need-a-K-Beauty-Skincare-Essence---Oprah-Daily
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Do You Really Need a K-Beauty Skincare Essence? - Oprah Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

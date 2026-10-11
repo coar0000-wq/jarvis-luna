@@ -2,8 +2,14 @@
 title: "Record ac4c0bdc7a · Bridging-Machine-Learning-and-Algorithmic-Information-Theory-Part-VII-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.582519+00:00
+updated_at: 2026-10-11T00:55:21.182288+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.3390/e28101084"
+kind: "논문"
 ---
 
 # Record ac4c0bdc7a · Bridging-Machine-Learning-and-Algorithmic-Information-Theory-Part-VII-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Bridging Machine Learning and Algorithmic Information Theory, Part VII: Algorithmic Information Kernels and Kernel Discrepancies on Countable Spaces
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

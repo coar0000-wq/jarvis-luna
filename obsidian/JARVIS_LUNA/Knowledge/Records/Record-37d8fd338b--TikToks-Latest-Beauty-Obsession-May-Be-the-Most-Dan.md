@@ -2,8 +2,12 @@
 title: "Record 37d8fd338b · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.460495+00:00
+updated_at: 2026-10-11T00:55:34.821574+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠", "모델-라우팅MoE", "의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2h3bW9fMW1BdF9NcUlLRHRuZzNPSDcwQzFkVHlnQmF4V3VtRkJUdDNwVG02Q19YTHJleVQzNHliZmpuaG45aWtrMlhDdEh5OWYyUHFTbUFMemdGLVNqc2pqcHBnNkt3WFBrTUhKdzNVUDAxWEYxOVhjVlJaUmFfMTBuXzhIVndzS2xqaThSb3luTndhX0ZQNm0yV01YNkk?oc=5"
 ---
 
 # Record 37d8fd338b · TikToks-Latest-Beauty-Obsession-May-Be-the-Most-Dan
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok's Latest Beauty Obsession May Be the Most Dangerous Yet, Skin Experts Say - Medical Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[모델-라우팅MoE]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

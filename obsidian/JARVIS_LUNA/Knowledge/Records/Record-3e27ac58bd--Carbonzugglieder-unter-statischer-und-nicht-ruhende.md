@@ -2,8 +2,14 @@
 title: "Record 3e27ac58bd · Carbonzugglieder-unter-statischer-und-nicht-ruhende"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.258738+00:00
+updated_at: 2026-10-11T00:55:15.690682+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1002/bate.70066"
+kind: "논문"
 ---
 
 # Record 3e27ac58bd · Carbonzugglieder-unter-statischer-und-nicht-ruhende
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Carbonzugglieder unter statischer und nicht ruhender Beanspruchung
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

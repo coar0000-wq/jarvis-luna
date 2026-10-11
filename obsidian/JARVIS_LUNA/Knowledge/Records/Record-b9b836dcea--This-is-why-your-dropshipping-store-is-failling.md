@@ -2,8 +2,12 @@
 title: "Record b9b836dcea · This-is-why-your-dropshipping-store-is-failling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.703834+00:00
+updated_at: 2026-10-11T00:55:53.926202+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/cgYBBWXB4eE"
 ---
 
 # Record b9b836dcea · This-is-why-your-dropshipping-store-is-failling
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This is why your dropshipping store is failling
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.493960+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tc.2025.3648544"
 ---
 
 # Record 401 · Fused-FP8-Many-Terms-Dot-Product-With-Scaling-and-FP32-Accumulation
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Fused FP8 Many-Terms Dot Product With Scaling and FP32 Accumulation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

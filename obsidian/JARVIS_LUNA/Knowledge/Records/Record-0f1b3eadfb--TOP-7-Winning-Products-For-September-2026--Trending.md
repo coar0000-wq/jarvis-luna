@@ -2,8 +2,12 @@
 title: "Record 0f1b3eadfb · TOP-7-Winning-Products-For-September-2026--Trending"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.716135+00:00
+updated_at: 2026-10-11T00:55:54.197695+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=6Zb3PdVx-qs"
 ---
 
 # Record 0f1b3eadfb · TOP-7-Winning-Products-For-September-2026--Trending
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TOP 7 Winning Products For September 2026 | Trending CJdropshipping
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

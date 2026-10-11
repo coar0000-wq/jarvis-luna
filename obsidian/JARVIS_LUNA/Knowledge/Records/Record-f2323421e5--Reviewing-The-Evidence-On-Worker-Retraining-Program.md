@@ -2,8 +2,14 @@
 title: "Record f2323421e5 · Reviewing-The-Evidence-On-Worker-Retraining-Program"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.398745+00:00
+updated_at: 2026-10-11T00:55:48.431755+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+kind: "발표물"
 ---
 
 # Record f2323421e5 · Reviewing-The-Evidence-On-Worker-Retraining-Program
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Reviewing The Evidence On Worker Retraining Programs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

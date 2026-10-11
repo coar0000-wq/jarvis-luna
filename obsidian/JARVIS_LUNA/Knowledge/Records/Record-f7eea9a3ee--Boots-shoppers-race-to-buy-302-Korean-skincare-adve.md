@@ -2,8 +2,12 @@
 title: "Record f7eea9a3ee · Boots-shoppers-race-to-buy-302-Korean-skincare-advent-calendar-for-und"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.432234+00:00
+updated_at: 2026-10-11T00:55:34.380454+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSFFqLTJyd19qa3lCYmgteFBmU3U2REhWSFo5OElqUWFaSlE1MEd0aklQS1pOTEQ3bEsxUjNTcjh1Zmx5TTRfY2FIQ3pyMWdSdExEZUNPcmVlQkJWSFJQei1vaEJLNlhZcFMtanV1UC1IQUNmSWp1dHJjQjY0ZU1oMG9tMkJvN09jZ2hJSW5pcEtaZlhXbnUxbDRB0gGfAUFVX3lxTE9SVTFGUGY5ZjF2UThIU3hpMmZ0RG4zOGhBcXFGSlVtOUw2WHdDS0JOZDNvNXRjRmdicnJOWnJoeFJDUGRSM2VvWnZjRVQzUm9xcUczcnN1RU9qbzU5QmItRHhxcjRJeFdnSVdUQUUyS3k5NzNFWjFXbVZlWi10RGZJVkh3S0xVNkFiU2ZER3A5ZldSdER5cTl2VnNmYVR0bw?oc=5"
 ---
 
 # Record f7eea9a3ee · Boots-shoppers-race-to-buy-302-Korean-skincare-advent-calendar-for-und
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Boots shoppers race to buy £302 Korean skincare advent calendar for under £90 - Manchester Evening News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

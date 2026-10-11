@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.015300+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fWUxidy11TjA5UFpneE9KNXBwRHRqTVhodF9pLWdVWlcwajFnUU1Va3IzeGtZRTYyQ0g5TTcwOWZzRjV6ZDJnLV9BcUVJSXpWWWo4cWgyQWFja2M?oc=5"
 ---
 
 # Record 1133 · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Dropshipping: What It Is and Top Tools to Use (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

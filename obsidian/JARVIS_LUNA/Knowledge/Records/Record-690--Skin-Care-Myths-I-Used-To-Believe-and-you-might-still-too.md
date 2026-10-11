@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.704994+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=1_v0eddr1Jo"
 ---
 
 # Record 690 · Skin-Care-Myths-I-Used-To-Believe-and-you-might-still-too
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Skin Care Myths I Used To Believe (and you might still too)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

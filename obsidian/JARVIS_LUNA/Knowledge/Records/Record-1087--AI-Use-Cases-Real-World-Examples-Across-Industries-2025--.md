@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.790575+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCM0tLTkJ5RjM5ZEhJOXVZeGRJQkJPMXJxSHpHQjBNVHZCR085RzVrU3N5NWt3RGplZDV6OE5qY2dHSHgtUTRCZ25mc1IyVDRUNzlFazB3dw?oc=5"
 ---
 
 # Record 1087 · AI-Use-Cases-Real-World-Examples-Across-Industries-2025---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Use Cases: Real-World Examples Across Industries (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

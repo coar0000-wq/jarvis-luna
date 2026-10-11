@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.348922+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03892v1"
 ---
 
 # Record 100 · GraFT-A-Training-Free-Framework-for-Spatial-Reasoning-in-Multimodal-La
@@ -16,7 +20,3 @@ GraFT: A Training-Free Framework for Spatial Reasoning in Multimodal Large Langu
 3D spatial reasoning underpins understanding and acting in the physical world, yet it remains unreliable in current multimodal large language models (MLLMs). These models falter at precise geometric measurement, at transforming between egocentric and allocentric viewpoints, and at grounding fine-grained appearance. The most common remedies fine-tune the model on large-scale curated spatial-reasoni
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

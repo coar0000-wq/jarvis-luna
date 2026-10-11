@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T21:10:00.192583+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트", "LLM언어모델"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/claude-opus-4-5"
 ---
 
 # Record 57f01cae30 · Introducing-Claude-Opus-45
@@ -16,7 +21,3 @@ Introducing Claude Opus 4.5
 Claude Opus 4.5 is our new flagship model, with state-of-the-art coding and agentic performance at lower pricing.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[LLM언어모델]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

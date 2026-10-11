@@ -2,8 +2,14 @@
 title: "Record bdb56837c1 · Thoughts-On-The-Market-Fixed-Income-Roller-Coaster-Bonds"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.524002+00:00
+updated_at: 2026-10-11T00:55:50.711537+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/thoughts-on-the-market-fixed-income-roller-coaster-bonds"
+kind: "발표물"
 ---
 
 # Record bdb56837c1 · Thoughts-On-The-Market-Fixed-Income-Roller-Coaster-Bonds
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Thoughts On The Market Fixed Income Roller Coaster Bonds
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

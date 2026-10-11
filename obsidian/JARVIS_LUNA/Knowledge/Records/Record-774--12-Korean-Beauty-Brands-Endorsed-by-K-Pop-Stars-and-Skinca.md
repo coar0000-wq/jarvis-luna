@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.952402+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX0QyenNNVjFXaGNuSUdsNVp2MG1MaVhCWGdORGx5ci1FbllEaUx3Q0Z0UWk4dlhpT0tMbmN6OHkzQ1Vjc2NjOVRVWmZFUnp5akRwMkRhTGJBNF9kVVZNZWdpeFZ0SjBGcFZFUVo0N09ZTXJkeldycExyUDNwOHFacTkyNGlNTzZWSFJ4MU5IVHRCVWYzdWVGOUtkSThmTzQ2cDNWTDVna1hOTTNOdFNUOEQ2aTJyZmVvanV3TVRhbw?oc=5"
 ---
 
 # Record 774 · 12-Korean-Beauty-Brands-Endorsed-by-K-Pop-Stars-and-Skincare-Junkies-A
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 12 Korean Beauty Brands Endorsed by K-Pop Stars and Skincare Junkies Alike - Billboard
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

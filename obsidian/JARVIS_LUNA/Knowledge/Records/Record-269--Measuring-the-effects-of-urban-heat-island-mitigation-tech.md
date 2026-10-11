@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.840436+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.uclim.2016.02.003"
 ---
 
 # Record 269 · Measuring-the-effects-of-urban-heat-island-mitigation-techniques-in-th
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Measuring the effects of urban heat island mitigation techniques in the field: Application to the case of pavement-watering in Paris
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

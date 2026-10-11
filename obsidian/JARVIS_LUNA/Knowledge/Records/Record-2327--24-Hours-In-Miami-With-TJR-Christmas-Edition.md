@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.116418+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=iLKhG-YLnmY"
 ---
 
 # Record 2327 · 24-Hours-In-Miami-With-TJR-Christmas-Edition
@@ -15,7 +19,3 @@ tags: [record, real-data]
 24 Hours In Miami With TJR (Christmas Edition)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

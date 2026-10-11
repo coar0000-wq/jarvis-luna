@@ -2,8 +2,14 @@
 title: "Record 262199fcbf · Emissivity-of-Mo₅Si₃C-thin-films-for-radiative-cooling-in-EUV-pellicle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.333155+00:00
+updated_at: 2026-10-11T00:55:16.906773+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.surfin.2026.109712"
+kind: "논문"
 ---
 
 # Record 262199fcbf · Emissivity-of-Mo₅Si₃C-thin-films-for-radiative-cooling-in-EUV-pellicle
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Emissivity of Mo₅Si₃C thin films for radiative cooling in EUV pellicles
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

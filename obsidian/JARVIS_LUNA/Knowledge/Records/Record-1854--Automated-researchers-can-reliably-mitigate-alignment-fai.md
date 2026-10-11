@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.669831+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "머신러닝-연구", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
 ---
 
 # Record 1854 · Automated-researchers-can-reliably-mitigate-alignment-failures
@@ -16,7 +21,3 @@ Automated researchers can reliably mitigate alignment failures
 We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

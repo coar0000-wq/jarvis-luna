@@ -2,8 +2,14 @@
 title: "Record 31736a88c6 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.348399+00:00
+updated_at: 2026-10-11T00:55:17.179587+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsenergylett.6c01660"
+kind: "논문"
 ---
 
 # Record 31736a88c6 · Nonmonotonic-Li-Content-Evolution-and-Size-Dependen
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Nonmonotonic Li-Content Evolution and Size-Dependent Lithium Accessibility in Degraded High-Nickel Cathodes
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

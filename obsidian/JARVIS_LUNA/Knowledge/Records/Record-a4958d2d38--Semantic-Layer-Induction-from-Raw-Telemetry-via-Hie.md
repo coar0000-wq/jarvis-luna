@@ -2,8 +2,12 @@
 title: "Record a4958d2d38 · Semantic-Layer-Induction-from-Raw-Telemetry-via-Hierarchical-LLM-and-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.719767+00:00
+updated_at: 2026-10-11T00:55:23.440596+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["경영전략", "LLM언어모델"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.19615"
 ---
 
 # Record a4958d2d38 · Semantic-Layer-Induction-from-Raw-Telemetry-via-Hierarchical-LLM-and-R
@@ -16,7 +20,3 @@ Semantic Layer Induction from Raw Telemetry via Hierarchical LLM and RAG Abstrac
 Modern applications generate massive volumes of raw telemetry data, but translating those noisy, heterogeneous event streams into actionable business insights remains a fundamental challenge. Data engineers and analysts expend substantial effort reconciling semantic discrepancies, hand-crafting parsing logics, and maintaining fragile mappings between raw data and business KPIs. In this paper, we p
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[경영전략]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

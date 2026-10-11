@@ -2,8 +2,12 @@
 title: "Record f0ca567bc0 · How-Peach--Lily-Helped-Build-K-Beautys-US-Success-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.286426+00:00
+updated_at: 2026-10-11T00:55:31.760580+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xQTdMTWxzX0J3M2ZPTnV6S2dncEwxQjgxbE9LdS0tRllDY29FTkViUkFtR2hWamIzYUR5RHRJN0N5MkdDUldERFNNX3VwV3pZTzk0bHp4NU54ZFFucXZRZFRLdlROQTBRc2FRb29ZWGpuWXhlQWIwSA?oc=5"
 ---
 
 # Record f0ca567bc0 · How-Peach--Lily-Helped-Build-K-Beautys-US-Success-S
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How Peach & Lily Helped Build K-Beauty’s US Success Story - BeautyMatter
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

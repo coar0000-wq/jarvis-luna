@@ -2,8 +2,12 @@
 title: "Record 19134c9939 · High-Contrast-TikToks-New-Beauty-Trend---highxtarco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.251002+00:00
+updated_at: 2026-10-11T00:55:31.174489+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rZ1lGSjhVU09qWkZXRGZhRDN5Y3JGUFNWeHRqQXducUtmc2kwNnJrZkJZdFNSSTg0dXZFanE1X1JabndtZjdzRG1MdTBXUURzTHRZeUtGZHhFVnR3OW84cU9TRUl3dnF0b003RjNLNi0?oc=5"
 ---
 
 # Record 19134c9939 · High-Contrast-TikToks-New-Beauty-Trend---highxtarco
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ‘High Contrast’: TikTok’s New Beauty Trend - highxtar.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

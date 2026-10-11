@@ -2,8 +2,12 @@
 title: "Record 5196d85331 · 12-Best-Beauty-Advent-Calendars-2026-to-Delight-Eve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.897818+00:00
+updated_at: 2026-10-11T00:55:41.900757+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/gallery/best-beauty-advent-calendars"
 ---
 
 # Record 5196d85331 · 12-Best-Beauty-Advent-Calendars-2026-to-Delight-Eve
@@ -16,7 +20,3 @@ tags: [record, real-data]
 12 Best Beauty Advent Calendars 2026 to Delight Everyone on Your List
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record c868d266f1 · Starface-Star-Balm-So-Strawberry-Lip-Balm--Moisturizer-015-oz-1-Pack--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.288575+00:00
+updated_at: 2026-10-11T00:55:47.022254+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Starface-Star-Balm%C2%AE-Strawberry-Moisturizer/dp/B0HBCVZTB4/ref=zg_bsnr_g_beauty_d_sccl_29/133-7130756-4573415"
 ---
 
 # Record c868d266f1 · Starface-Star-Balm-So-Strawberry-Lip-Balm--Moisturizer-015-oz-1-Pack--
@@ -16,7 +20,3 @@ Starface Star Balm® So Strawberry, Lip Balm & Moisturizer, 0.15 oz, 1 Pack | De
 Starface Star Balm® So Strawberry, Lip Balm & Moisturizer, 0.15 oz, 1 Pack | Dermatologist Tested • Long-Lasting Hydration, Soothes Chapped Lips • Shea, Cocoa Butter & Coconut Oil • Vegan & Cruelty-Free · $4.89 · 평점 4.6 · 리뷰 627
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

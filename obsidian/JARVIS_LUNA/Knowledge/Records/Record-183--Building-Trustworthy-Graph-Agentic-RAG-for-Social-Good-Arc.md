@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.365519+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06391v1"
 ---
 
 # Record 183 · Building-Trustworthy-Graph-Agentic-RAG-for-Social-Good-Architectures-F
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Building Trustworthy Graph-Agentic RAG for Social Good: Architectures, Failure Propagation, and Assurance by Construction
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record dbc96e50f9 · ILLIYOON-Ceramide-Ato-Soothing-Gel-591-fl-oz175ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.860163+00:00
+updated_at: 2026-10-11T00:55:41.173855+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA88751602"
 ---
 
 # Record dbc96e50f9 · ILLIYOON-Ceramide-Ato-Soothing-Gel-591-fl-oz175ml
@@ -16,7 +20,3 @@ ILLIYOON Ceramide Ato Soothing Gel 5.91 fl. oz.(175ml)
 ILLIYOON Ceramide Ato Soothing Gel 5.91 fl. oz.(175ml) · 평점 4.9 · 리뷰 74
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

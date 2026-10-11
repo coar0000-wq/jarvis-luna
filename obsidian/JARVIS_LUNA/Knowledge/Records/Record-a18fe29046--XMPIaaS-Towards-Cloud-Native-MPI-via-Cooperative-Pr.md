@@ -2,8 +2,12 @@
 title: "Record a18fe29046 · XMPIaaS-Towards-Cloud-Native-MPI-via-Cooperative-Process-Migration"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.102331+00:00
+updated_at: 2026-10-11T00:55:13.648856+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16531"
 ---
 
 # Record a18fe29046 · XMPIaaS-Towards-Cloud-Native-MPI-via-Cooperative-Process-Migration
@@ -16,7 +20,3 @@ XMPIaaS: Towards Cloud Native MPI via Cooperative Process Migration
 Message Passing Interface (MPI) has been the dominant programming model for High Performance Computing (HPC) for three decades, and as HPC workloads increasingly migrate to cloud infrastructure for scalability and cost efficiency, MPI applications must contend with an execution environment fundamentally unlike traditional supercomputers: ephemeral resources, dynamic pricing and preemptable instanc
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

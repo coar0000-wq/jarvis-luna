@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.115124+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.3390/buildings16122374"
 ---
 
 # Record 672 · Deep-Learning-Based-Safety-Legislation-Recommendation-System-for-Const
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Deep Learning-Based Safety Legislation Recommendation System for Construction Safety Reports
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

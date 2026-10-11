@@ -2,8 +2,12 @@
 title: "Record d37d46d485 · From-Labubus-to-lip-stains-TikTok-reveals-the-bigge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.190296+00:00
+updated_at: 2026-10-11T00:55:30.067676+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZVkzMGpTeGVmRlEtVmVNNHAzUjZSd2t2SEQ4Rkwtc0hWNXZJa3VnT3pqWTBrRUlVcXd0NWo0UDZFd2VnTjcxSVVqZFQteTBWdDVIaXN4dVNDX0luTVJpci1tNE5JdTg?oc=5"
 ---
 
 # Record d37d46d485 · From-Labubus-to-lip-stains-TikTok-reveals-the-bigge
@@ -15,7 +19,3 @@ tags: [record, real-data]
 From Labubus to lip stains: TikTok reveals the biggest shopping trends of 2025 so far - TikTok Newsroom
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

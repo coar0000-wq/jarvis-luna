@@ -2,8 +2,14 @@
 title: "Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.071969+00:00
+updated_at: 2026-10-11T00:55:28.105043+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["음성오디오", "데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-participate-jefferies-2026-global-industrials-conference"
+kind: "발표물"
 ---
 
 # Record 63e2c51559 · Leidos-to-participate-in-the-Jefferies-2026-Global-
@@ -16,7 +22,3 @@ Leidos to participate in the Jefferies 2026 Global Industrials Conference
 Live audio webcast available on September 9, 2026, from 11:30 a.m. to 12:05 p.m. ET RESTON, Va., Sept. 9, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS) today announced it will participate in Jefferies' 2026 Global Industrials Conference being held in New York City, New York.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[음성오디오]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

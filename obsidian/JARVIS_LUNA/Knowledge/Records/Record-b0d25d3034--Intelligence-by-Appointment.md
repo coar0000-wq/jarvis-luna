@@ -2,8 +2,12 @@
 title: "Record b0d25d3034 · Intelligence-by-Appointment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.897620+00:00
+updated_at: 2026-10-11T00:55:11.003970+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "http://arxiv.org/abs/2603.05225"
 ---
 
 # Record b0d25d3034 · Intelligence-by-Appointment
@@ -16,7 +20,3 @@ Intelligence by Appointment
 Intelligent systems increasingly have more decision-relevant capabilities and resources than they can use everywhere at once. This paper develops intelligence by appointment as a research program for making the right capability present at the right place and moment without surrendering continuing coverage, resource limits, deadlines, or bounded authority. An appointment is a temporary, governed, a
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

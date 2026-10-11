@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.365386+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/njQd5we-IRk"
 ---
 
 # Record 2106 · 3-Products-That-Could-Be-Your-Next-Bestseller
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 Products That Could Be Your Next Bestseller 🔥
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

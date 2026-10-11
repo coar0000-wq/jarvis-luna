@@ -2,8 +2,14 @@
 title: "Record 42ed43ff25 · Safe-mobility-Analysis-of-drivers-behavior-at-the-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.334854+00:00
+updated_at: 2026-10-11T00:55:16.932559+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.trf.2023.07.010"
+kind: "논문"
 ---
 
 # Record 42ed43ff25 · Safe-mobility-Analysis-of-drivers-behavior-at-the-s
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Safe mobility: Analysis of drivers' behavior at the stop bar of signalized intersections using mixed-effects modeling
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

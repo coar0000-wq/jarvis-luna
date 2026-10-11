@@ -2,8 +2,12 @@
 title: "Record b5096a24b8 · 5-Peptide-Collagen-Lip-Fill-Tinted-Treatment"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.615403+00:00
+updated_at: 2026-10-11T00:55:52.396032+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/5-peptide-collagen-lip-fill-tinted-treatment-pimprod2060918"
 ---
 
 # Record b5096a24b8 · 5-Peptide-Collagen-Lip-Fill-Tinted-Treatment
@@ -16,7 +20,3 @@ tags: [record, real-data]
 5 Peptide Collagen Lip Fill Tinted Treatment · COSRX · $16
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

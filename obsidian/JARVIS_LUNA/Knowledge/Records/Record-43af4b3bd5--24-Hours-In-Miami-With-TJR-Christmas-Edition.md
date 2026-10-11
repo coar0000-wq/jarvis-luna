@@ -2,8 +2,12 @@
 title: "Record 43af4b3bd5 · 24-Hours-In-Miami-With-TJR-Christmas-Edition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.734438+00:00
+updated_at: 2026-10-11T00:55:54.561791+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=iLKhG-YLnmY"
 ---
 
 # Record 43af4b3bd5 · 24-Hours-In-Miami-With-TJR-Christmas-Edition
@@ -15,7 +19,3 @@ tags: [record, real-data]
 24 Hours In Miami With TJR (Christmas Edition)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

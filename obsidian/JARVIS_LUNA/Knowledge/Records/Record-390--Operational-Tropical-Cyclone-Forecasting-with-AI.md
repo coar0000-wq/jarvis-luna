@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.416434+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41586-026-10953-2"
 ---
 
 # Record 390 · Operational-Tropical-Cyclone-Forecasting-with-AI
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Operational Tropical Cyclone Forecasting with AI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

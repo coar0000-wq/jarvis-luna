@@ -2,8 +2,12 @@
 title: "Record 096d6feb97 · EvoSherlock-Towards-Agentic-Lifelong-Evolution-for-Unseen-Long-Tailed-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.134332+00:00
+updated_at: 2026-10-11T00:55:14.005369+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "AI-에이전트", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.19201"
 ---
 
 # Record 096d6feb97 · EvoSherlock-Towards-Agentic-Lifelong-Evolution-for-Unseen-Long-Tailed-
@@ -16,7 +20,3 @@ EvoSherlock: Towards Agentic Lifelong Evolution for Unseen Long-Tailed Security-
 Existing Security-oriented Video Understanding (SVU) systems assume a \emph{closed world}, \ie static category sets, abundant labels, and the premise that all event types are known upfront. Real-world security-critical events break these assumptions: they follow long-tailed distributions, new types emerge continuously, and critical security events may offer only a few samples. We formalize this ga
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[AI-에이전트]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.102991+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/economic-expansion-2024-how-to-invest"
 ---
 
 # Record 2401 · Economic-Expansion-2024-How-To-Invest
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Economic Expansion 2024 How To Invest
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

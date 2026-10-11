@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.842404+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acs.jctc.6c01034"
 ---
 
 # Record 438 · Periodic-GFN2--x-TB-in-CP2K-Multipolar-Ewald-Electrostatics-k-Point-Sa
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Periodic GFN2- x TB in CP2K: Multipolar Ewald Electrostatics, k-Point Sampling, and Transferability Benchmarks for Solids
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

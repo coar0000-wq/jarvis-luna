@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.784720+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31076v1"
 ---
 
 # Record 023 · Learning-to-Evaluate-Before-Improving-Automatic-Rubric-Induction-for-A
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

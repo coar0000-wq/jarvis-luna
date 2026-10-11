@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:25.835985+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiY0FVX3lxTE00dGQwREVhWUVtb0ItRDRFSjlxYTBzcTV6Tm9xUXpqZkNTS1U0eDVQNl9jQzZIMlJvT0Y5SnBrdUIwY0dPaVNNdUJnZnFIMXNENzhHTXgzWXUzSW15cVdIU0Y1NA?oc=5"
 ---
 
 # Record 1147 · These-Are-the-8-Best-Beauty-Trends-of-2025---Vogue
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These Are the 8 Best Beauty Trends of 2025 - Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

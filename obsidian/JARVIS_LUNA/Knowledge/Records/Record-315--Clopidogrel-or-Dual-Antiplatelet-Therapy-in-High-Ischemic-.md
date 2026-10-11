@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.284266+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1056/nejmoa2608533"
 ---
 
 # Record 315 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Ischemic-Risk-Patient
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Clopidogrel or Dual Antiplatelet Therapy in High-Ischemic-Risk Patients
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

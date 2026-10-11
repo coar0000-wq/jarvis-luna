@@ -2,8 +2,14 @@
 title: "Record ce3b487fc6 · Vibe-gets-to-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.098429+00:00
+updated_at: 2026-10-11T00:55:28.516920+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/vibe-agent/"
+kind: "발표물"
 ---
 
 # Record ce3b487fc6 · Vibe-gets-to-work
@@ -16,7 +22,3 @@ Vibe gets to work.
 The unified agent for long-horizon productivity and coding, launching with Work and Code modes. Plus, a new Vibe VS Code extension.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

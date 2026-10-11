@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.729184+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=IgkDbdcjQhk"
 ---
 
 # Record 2776 · How-I-Find-1KDay-Winning-Dropshipping-Products-Using-Claude-AI-FREE-ME
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How I Find $1K/Day Winning Dropshipping Products Using Claude AI (FREE METHOD)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

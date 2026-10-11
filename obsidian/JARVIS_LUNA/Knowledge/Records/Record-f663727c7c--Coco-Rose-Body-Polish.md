@@ -2,8 +2,12 @@
 title: "Record f663727c7c · Coco-Rose-Body-Polish"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.471932+00:00
+updated_at: 2026-10-11T00:55:49.764287+00:00
 tags: [record, real-data]
+source: "organic_skincare"
+topics: ["뷰티스킨케어"]
+domain: "www.herbivorebotanicals.com"
+url: "https://www.herbivorebotanicals.com/"
 ---
 
 # Record f663727c7c · Coco-Rose-Body-Polish
@@ -16,7 +20,3 @@ Coco Rose Body Polish
 Coco Rose Body Polish · Herbivore Botanicals · Body · $36.0 · body, exfoliating
 
 **출처:** Source · organic_skincare
-
-## Connected nodes
-
-[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

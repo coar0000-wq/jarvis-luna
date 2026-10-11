@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.099151+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/longest-lasting-perfumes"
 ---
 
 # Record 2236 · Your-Guide-to-the-Perfumes-That-Last-All-Day-and-Night
@@ -16,7 +20,3 @@ Your Guide to the Perfumes That Last All Day and Night
 Your Guide to the Perfumes That Last All Day and Night
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

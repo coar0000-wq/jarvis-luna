@@ -2,8 +2,14 @@
 title: "Record 4ec5b6cfad · Segmented-Exchange-Markets-and-US-Monetary-Spillovers-Beyond-the-Trile"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.546081+00:00
+updated_at: 2026-10-11T00:55:20.572457+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.6245598"
+kind: "논문"
 ---
 
 # Record 4ec5b6cfad · Segmented-Exchange-Markets-and-US-Monetary-Spillovers-Beyond-the-Trile
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Segmented Exchange Markets and U.S. Monetary Spillovers: Beyond the Trilemma
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 27df5194ce · Mistral-x-HUMAIN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.094357+00:00
+updated_at: 2026-10-11T00:55:28.454844+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/mistral-x-humain/"
+kind: "발표물"
 ---
 
 # Record 27df5194ce · Mistral-x-HUMAIN
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mistral x HUMAIN
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

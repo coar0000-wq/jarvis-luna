@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.062085+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.62225/2583049x.2025.5.6.5676"
 ---
 
 # Record 719 · An-Advanced-Regulatory-Technology-Framework-for-Improving-Financial-Tr
@@ -15,7 +20,3 @@ tags: [record, real-data]
 An Advanced Regulatory Technology Framework for Improving Financial Transparency and Fraud Reporting Accuracy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

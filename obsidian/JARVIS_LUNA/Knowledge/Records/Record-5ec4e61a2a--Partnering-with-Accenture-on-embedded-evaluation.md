@@ -2,8 +2,14 @@
 title: "Record 5ec4e61a2a · Partnering-with-Accenture-on-embedded-evaluation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.352066+00:00
+updated_at: 2026-10-11T00:55:47.771503+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/accenture-embedded-evaluation"
+kind: "발표물"
 ---
 
 # Record 5ec4e61a2a · Partnering-with-Accenture-on-embedded-evaluation
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Accenture Embedded Evaluation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

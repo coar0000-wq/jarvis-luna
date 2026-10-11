@@ -2,8 +2,12 @@
 title: "Record 049fb5eb93 · Micellar-water-fresh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.873200+00:00
+updated_at: 2026-10-11T00:55:41.440461+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/20864774"
 ---
 
 # Record 049fb5eb93 · Micellar-water-fresh
@@ -16,7 +20,3 @@ Micellar water fresh
 Micellar water fresh · Cien
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

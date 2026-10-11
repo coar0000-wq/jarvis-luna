@@ -2,8 +2,14 @@
 title: "Record 835a331a5b · From-Atari-to-EVE-Online-Building-on-15-Years-of-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.241230+00:00
+updated_at: 2026-10-11T00:55:15.388192+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
+kind: "발표물"
 ---
 
 # Record 835a331a5b · From-Atari-to-EVE-Online-Building-on-15-Years-of-AI
@@ -16,7 +22,3 @@ From Atari to EVE Online: Building on 15 Years of AI Research in Games
 Google DeepMind partners with game studios to prototype breakthrough AI gameplay.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

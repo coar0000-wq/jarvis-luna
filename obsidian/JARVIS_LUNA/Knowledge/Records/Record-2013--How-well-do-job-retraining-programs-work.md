@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:39.037496+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
 ---
 
 # Record 2013 · How-well-do-job-retraining-programs-work
@@ -16,7 +21,3 @@ How well do job retraining programs work?
 An evidence review from Anthropic's Economic Research team
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

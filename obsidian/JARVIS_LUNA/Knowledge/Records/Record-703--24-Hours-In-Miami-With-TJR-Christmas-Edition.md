@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.676499+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=iLKhG-YLnmY"
 ---
 
 # Record 703 · 24-Hours-In-Miami-With-TJR-Christmas-Edition
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 24 Hours In Miami With TJR (Christmas Edition)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

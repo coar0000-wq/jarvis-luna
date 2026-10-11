@@ -2,8 +2,12 @@
 title: "Record 16adfcd1f5 · SemDHT-Certified-Semantic-Discovery-for-Peer-to-Peer-Agent-Networks-ov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.168322+00:00
+updated_at: 2026-10-11T00:55:14.434251+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["마케팅광고", "AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.23539"
 ---
 
 # Record 16adfcd1f5 · SemDHT-Certified-Semantic-Discovery-for-Peer-to-Peer-Agent-Networks-ov
@@ -16,7 +20,3 @@ SemDHT: Certified Semantic Discovery for Peer-to-Peer Agent Networks over Exact-
 Agents may need capabilities exposed through external agent endpoints or service APIs. When a requester is not already bound to a provider, it must discover advertised capabilities matching its task and interface requirements. Over exact-key distributed hash tables (DHTs), broad retrieval transfers large candidate lists, whereas selective retrieval may miss relevant providers or require more repli
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[마케팅광고]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

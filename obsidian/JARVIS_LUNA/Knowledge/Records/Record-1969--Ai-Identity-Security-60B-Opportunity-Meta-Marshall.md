@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.826873+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-identity-security-60b-opportunity-meta-marshall"
 ---
 
 # Record 1969 · Ai-Identity-Security-60B-Opportunity-Meta-Marshall
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Ai Identity Security 60B Opportunity Meta Marshall
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

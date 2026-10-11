@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.245515+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3160920402005"
 ---
 
 # Record 1954 · Masque-Purifiant-Naturel-à-LArgile-Verte
@@ -16,7 +20,3 @@ Masque Purifiant Naturel à L'Argile Verte.
 Masque Purifiant Naturel à L'Argile Verte. · Argile, Juvaflorine
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

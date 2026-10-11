@@ -2,8 +2,14 @@
 title: "Record e76f8a1bf7 · Middle-East-Conflict-Oil-Prices-Martijn-Rats"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.546064+00:00
+updated_at: 2026-10-11T00:55:51.244298+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/middle-east-conflict-oil-prices-martijn-rats"
+kind: "발표물"
 ---
 
 # Record e76f8a1bf7 · Middle-East-Conflict-Oil-Prices-Martijn-Rats
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Middle East Conflict Oil Prices Martijn Rats
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

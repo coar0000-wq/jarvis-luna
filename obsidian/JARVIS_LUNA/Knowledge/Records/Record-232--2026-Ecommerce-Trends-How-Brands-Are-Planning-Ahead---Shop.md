@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.568015+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tVEtRdzBvQzIzcjcwUldCSkx2NFhDTm9wVF81OUkyeGtqY1J4aXVpX183T2N0MXl1QzlPMGplTUdScDdQemdmUUt2UHpaOFNCbFMxXzZycXlqZVVJbVN2YUd5Sm9neC1fZFhDXw?oc=5"
 ---
 
 # Record 232 · 2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 2026 Ecommerce Trends: How Brands Are Planning Ahead - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

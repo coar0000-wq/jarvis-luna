@@ -2,8 +2,12 @@
 title: "Record 43d60a7a0a · We-tested-more-than-a-dozen-viral-Medicube-products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.310590+00:00
+updated_at: 2026-10-11T00:55:32.230279+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkT1NralB4YzNQSklyUVNfcVdBMDRCMG1FdXJQWERnaXpxRDlyZUlTYlVDSTNDS05HWFlad3ZVR1d3RFYzdXF0TXgxQkNNOU5XOEwwbUk3ZDBLSzRBTGI1NjlVXzBBTEdLdGY4dWxndkdla2hacGM4akQ0X0c?oc=5"
 ---
 
 # Record 43d60a7a0a · We-tested-more-than-a-dozen-viral-Medicube-products
@@ -15,7 +19,3 @@ tags: [record, real-data]
 We tested more than a dozen viral Medicube products — these are the ones actually worth it - NBC News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

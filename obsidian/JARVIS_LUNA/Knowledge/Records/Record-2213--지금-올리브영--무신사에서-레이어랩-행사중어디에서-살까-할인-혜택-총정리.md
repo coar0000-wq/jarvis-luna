@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.678637+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=uZiST37zOLs"
 ---
 
 # Record 2213 · 지금-올리브영--무신사에서-레이어랩-행사중어디에서-살까-할인-혜택-총정리
@@ -15,7 +19,3 @@ tags: [record, real-data]
 지금 올리브영 & 무신사에서 레이어랩 행사중❗️어디에서 살까? 할인 혜택 총정리✨
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

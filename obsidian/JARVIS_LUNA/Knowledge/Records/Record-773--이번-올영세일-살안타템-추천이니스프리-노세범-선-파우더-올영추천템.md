@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.539871+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/qIMWas-Ziv8"
 ---
 
 # Record 773 · 이번-올영세일-살안타템-추천이니스프리-노세범-선-파우더-올영추천템
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 이번 올영세일 살안타템 추천☀️이니스프리 노세범 선 파우더‼️ #올영추천템
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

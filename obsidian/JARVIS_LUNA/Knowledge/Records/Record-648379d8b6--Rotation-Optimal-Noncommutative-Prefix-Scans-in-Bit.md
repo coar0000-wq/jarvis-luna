@@ -2,8 +2,14 @@
 title: "Record 648379d8b6 · Rotation-Optimal-Noncommutative-Prefix-Scans-in-Bit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.691496+00:00
+updated_at: 2026-10-11T00:55:38.416848+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "openalex.org"
+url: "https://openalex.org/W7167748469"
+kind: "논문"
 ---
 
 # Record 648379d8b6 · Rotation-Optimal-Noncommutative-Prefix-Scans-in-Bit
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Rotation-Optimal Noncommutative Prefix Scans in Bit-Reversed Homomorphic Layouts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

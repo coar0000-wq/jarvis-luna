@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.308946+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/video-friday-nasa-lunar-rover"
 ---
 
 # Record 1868 · Video-Friday-An-Earthbound-Mars-Rover-for-the-Moon
@@ -16,7 +20,3 @@ Video Friday: An Earthbound Mars Rover for the Moon
 <img src="https://spectrum.ieee.org/media-library/mars-style-rover-prototype-on-rugged-ground-under-a-clear-sky-with-the-moon-visible.png?id=67083121&width=1245&height=700&coordinates=0%2C0%2C0%2C0"/><br/><br/><p><span><a href="https://spectrum.ieee.org/tag/video-friday" target="_blank">Video Friday</a> is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IE
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

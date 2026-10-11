@@ -2,8 +2,12 @@
 title: "Record a2bb0d036d · Manage-all-your-AI-channels-in-one-place"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.762140+00:00
+updated_at: 2026-10-11T00:55:54.964508+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/H_UYtbQB_XI"
 ---
 
 # Record a2bb0d036d · Manage-all-your-AI-channels-in-one-place
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Manage all your AI channels in one place
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

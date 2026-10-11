@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.844260+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsanm.6c02033"
 ---
 
 # Record 445 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W-Field-Effect-Trans
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Geometry-dependent Halogen Contact Doping in W–WSe2–W Field-Effect Transistors: A First-Principles Quantum-Transport Study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

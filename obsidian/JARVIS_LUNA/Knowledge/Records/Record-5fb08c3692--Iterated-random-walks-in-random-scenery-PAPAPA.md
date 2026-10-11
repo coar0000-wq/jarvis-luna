@@ -2,8 +2,14 @@
 title: "Record 5fb08c3692 · Iterated-random-walks-in-random-scenery-PAPAPA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.620208+00:00
+updated_at: 2026-10-11T00:55:21.877256+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2504.08485"
+kind: "논문"
 ---
 
 # Record 5fb08c3692 · Iterated-random-walks-in-random-scenery-PAPAPA
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Iterated random walks in random scenery (PAPAPA)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

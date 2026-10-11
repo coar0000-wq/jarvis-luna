@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.278280+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["법률규제", "AI-에이전트", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.26093v1"
 ---
 
 # Record 2334 · Agentic-Autoresearch-for-Cell-Edge-Power-Control-Radically-Redefining-
@@ -16,7 +20,3 @@ Agentic Autoresearch for Cell-Edge Power Control: Radically Redefining the Resea
 Designing machine learning algorithms for wireless resource management is labour-intensive: the architecture, the loss function and the training recipe are all specified by hand. We demonstrate that this design layer can be surrendered to an autonomous agent in its entirety. We adopt the autoresearch protocol, in which an AI coding agent edits a training script, runs a fixed-budget experiment, and retains or discards the change according to a single immutable metric. We grant the agent authority over the architecture family, the input representation, the output parameterization, the loss function and the task-sampling law, and set it a target chosen for its difficulty: sum-least-percentile-rate power control across a multicell network. The formulation targets cell-edge throughput and is non-convex, non-smooth and strongly NP-hard away from its max-min vertex. Safeguards render the results trustworthy: a hash-pinned evaluator, an enforced inference contract and a pre-registered falsifier per experiment. In eighty-one unattended experiments over twenty-six hours, the agent reached $99.5\%$ of a converged minorization-maximization reference in one fixed-cost inference pass, at roughly $600\times$ lower inference cost, closing $94\%$ of the gap from its first working architecture, with one parameter set serving every network size and percentile target. It recovered provable structure rather than tuned constants: the output parameterization it discovered reproduces the exact max-min-optimal allocation at the minimum percentile, for every value of the trained weights.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[법률규제]] [[AI-에이전트]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.815708+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/history-bras-corsets-perspectives-podcast"
 ---
 
 # Record 2267 · How-Corsets-and-Bras-Have-Helped-Reinforce-Beauty-Standards-Throughout
@@ -16,7 +20,3 @@ How Corsets and Bras Have Helped Reinforce Beauty Standards Throughout History
 How Corsets and Bras Have Helped Reinforce Beauty Standards Throughout History
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

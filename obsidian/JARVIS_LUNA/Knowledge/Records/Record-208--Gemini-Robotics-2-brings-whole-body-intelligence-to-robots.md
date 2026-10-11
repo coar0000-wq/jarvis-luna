@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.431562+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
 ---
 
 # Record 208 · Gemini-Robotics-2-brings-whole-body-intelligence-to-robots
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Gemini Robotics 2 brings whole body intelligence to robots
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

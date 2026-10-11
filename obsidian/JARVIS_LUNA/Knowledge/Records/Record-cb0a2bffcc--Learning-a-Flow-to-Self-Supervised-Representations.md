@@ -2,8 +2,12 @@
 title: "Record cb0a2bffcc · Learning-a-Flow-to-Self-Supervised-Representations"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.817483+00:00
+updated_at: 2026-10-11T00:55:24.649781+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["보안프라이버시"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.29350"
 ---
 
 # Record cb0a2bffcc · Learning-a-Flow-to-Self-Supervised-Representations
@@ -16,7 +20,3 @@ Learning a Flow to Self-Supervised Representations
 Explicit geometric references offer a direct way to structure self-supervised representations. Existing adversarial distribution-matching formulations, however, require costly encoder-critic optimization. We introduce Flow-Based Distribution Matching (FBDM), a non-adversarial framework that learns this reference-directed geometry through spherical conditional velocity regression. An ETF-inspired r
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record de61d32777 · A-QA-with-K-Beauty-and-colored-contacts-shop-Hapa-Kristin---225-Magazi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.492529+00:00
+updated_at: 2026-10-11T00:55:35.388078+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTFNwMllkRGg4M3VtbGE5b3RLLWRxakNXWDlIT3JKNEIzOEp2NHE4LVlqd3JaRlRQUGRvSmp1MkVuME5nMjB1NkJXNS1Eem5uNnFwSFVKYWltdUc5WDNDSTFZTlh6UG10WXJjNkk5N1RxZUladnQ0aHlwS1c3QXBKTzF2WE1ITV9QdWQzZjFxM0NSbF9hQzRzTWJ4Y2ZTN3g0YWZEUEdKTjVpdw?oc=5"
 ---
 
 # Record de61d32777 · A-QA-with-K-Beauty-and-colored-contacts-shop-Hapa-Kristin---225-Magazi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 A Q&A with K-Beauty and colored contacts shop Hapa Kristin - 225 Magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

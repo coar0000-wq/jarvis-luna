@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.438554+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/7-GRnBUdcoc"
 ---
 
 # Record 2142 · 잇팁이-연락-안-보는-이유-istp-잇팁
@@ -15,7 +19,3 @@ tags: [record, real-data]
 잇팁이 연락 안 보는 이유 #istp #잇팁
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

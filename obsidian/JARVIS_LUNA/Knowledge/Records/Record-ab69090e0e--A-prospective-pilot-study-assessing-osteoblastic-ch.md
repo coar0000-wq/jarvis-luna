@@ -2,8 +2,14 @@
 title: "Record ab69090e0e · A-prospective-pilot-study-assessing-osteoblastic-changes-of-vascular-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.493738+00:00
+updated_at: 2026-10-11T00:55:19.727659+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1186/s12882-026-04810-7"
+kind: "논문"
 ---
 
 # Record ab69090e0e · A-prospective-pilot-study-assessing-osteoblastic-changes-of-vascular-c
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A prospective pilot study assessing osteoblastic changes of vascular calcifications in chronic kidney disease subjects on hemodialysis using 18F-NaF sodium fluoride positron emission tomography PET
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

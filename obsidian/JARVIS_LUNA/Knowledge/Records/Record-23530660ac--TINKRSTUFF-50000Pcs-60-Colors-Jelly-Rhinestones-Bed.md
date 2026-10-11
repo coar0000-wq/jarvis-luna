@@ -2,8 +2,12 @@
 title: "Record 23530660ac · TINKRSTUFF-50000Pcs-60-Colors-Jelly-Rhinestones-Bedazzling-Kit--All-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.289741+00:00
+updated_at: 2026-10-11T00:55:47.037758+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/TINKRSTUFF-50000Pcs-Colors-Rhinestones-Bedazzling/dp/B0H8JTD972/ref=zg_bsnr_g_beauty_d_sccl_10/146-2119587-8197020"
 ---
 
 # Record 23530660ac · TINKRSTUFF-50000Pcs-60-Colors-Jelly-Rhinestones-Bedazzling-Kit--All-in
@@ -16,7 +20,3 @@ TINKRSTUFF 50000Pcs 60 Colors Jelly Rhinestones Bedazzling Kit | All-in-One Beda
 TINKRSTUFF 50000Pcs 60 Colors Jelly Rhinestones Bedazzling Kit | All-in-One Bedazzler Kit, Multicolors Gems, 4Pcs B7000 Jewelry Glue, Diamond Art Tools, for Shoes Books Crafts Nail Art · $16.99 · 평점 4.7 · 리뷰 1,889
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

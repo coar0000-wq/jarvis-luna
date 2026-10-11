@@ -2,8 +2,12 @@
 title: "Record d121c48b2a · Crème-de-jour-Cible-les-rides-Lift--Lissage-immédiat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.874934+00:00
+updated_at: 2026-10-11T00:55:41.466249+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3178040695153"
 ---
 
 # Record d121c48b2a · Crème-de-jour-Cible-les-rides-Lift--Lissage-immédiat
@@ -16,7 +20,3 @@ Crème de jour, Cible les rides Lift + Lissage immédiat
 Crème de jour, Cible les rides Lift + Lissage immédiat · Diadermine
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

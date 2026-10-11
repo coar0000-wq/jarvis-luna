@@ -2,8 +2,14 @@
 title: "Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.072571+00:00
+updated_at: 2026-10-11T00:55:28.113917+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-selected-provide-flight-proven-infrared-sensors-sierra"
+kind: "발표물"
 ---
 
 # Record b6ed6cd88e · Leidos-selected-to-provide-flight-proven-infrared-s
@@ -16,7 +22,3 @@ Leidos selected to provide flight-proven infrared sensors to Sierra Space for mi
 RESTON, Va., Aug. 3, 2026 /PRNewswire/ -- Building on a track record of delivering advanced sensing technologies for the Space Development Agency's (SDA) proliferated low Earth orbit architecture, Leidos &nbsp;(NYSE: LDOS) was selected by Sierra Space to provide infrared sensing payloads, onboard
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 0ff795b616 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previously-Amazon-Basics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.955971+00:00
+updated_at: 2026-10-11T00:55:42.819645+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Amazon-Basics-Cotton-Rounds-Count/dp/B09542G9ZN/ref=zg_bs_g_beauty_d_sccl_5/133-9075271-3334349"
 ---
 
 # Record 0ff795b616 · Amazon-Essentials-100-Cotton-Rounds-100-Count-Previously-Amazon-Basics
@@ -16,7 +20,3 @@ Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics)
 Amazon Essentials 100% Cotton Rounds, 100 Count (Previously Amazon Basics) · $2.96 · 평점 4.7 · 리뷰 54,246
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

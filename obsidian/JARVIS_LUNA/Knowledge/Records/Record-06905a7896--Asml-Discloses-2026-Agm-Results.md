@@ -2,8 +2,14 @@
 title: "Record 06905a7896 · Asml-Discloses-2026-Agm-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.410760+00:00
+updated_at: 2026-10-11T00:55:48.563728+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/press-releases/2026/asml-discloses-2026-agm-results"
+kind: "발표물"
 ---
 
 # Record 06905a7896 · Asml-Discloses-2026-Agm-Results
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Asml Discloses 2026 Agm Results
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

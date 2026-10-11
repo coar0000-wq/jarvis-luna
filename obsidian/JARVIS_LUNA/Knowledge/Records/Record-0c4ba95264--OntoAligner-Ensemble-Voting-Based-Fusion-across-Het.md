@@ -2,8 +2,12 @@
 title: "Record 0c4ba95264 · OntoAligner-Ensemble-Voting-Based-Fusion-across-Het"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.915073+00:00
+updated_at: 2026-10-11T00:55:11.402838+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31137v1"
 ---
 
 # Record 0c4ba95264 · OntoAligner-Ensemble-Voting-Based-Fusion-across-Het
@@ -15,7 +19,3 @@ tags: [record, real-data]
 OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

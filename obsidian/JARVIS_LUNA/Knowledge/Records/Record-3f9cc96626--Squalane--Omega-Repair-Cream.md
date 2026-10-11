@@ -2,8 +2,12 @@
 title: "Record 3f9cc96626 · Squalane--Omega-Repair-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.423874+00:00
+updated_at: 2026-10-11T00:55:48.797254+00:00
 tags: [record, real-data]
+source: "organic_skincare"
+topics: ["의료바이오", "뷰티스킨케어"]
+domain: "www.biossance.com"
+url: "https://www.biossance.com/"
 ---
 
 # Record 3f9cc96626 · Squalane--Omega-Repair-Cream
@@ -16,7 +20,3 @@ Squalane + Omega Repair Cream
 Squalane + Omega Repair Cream · Biossance · Moisturizer · $54.0 · squalane, barrier
 
 **출처:** Source · organic_skincare
-
-## Connected nodes
-
-[[Source--organic_skincare]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.075545+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Barclays"
+domain: "openalex.org"
+url: "https://openalex.org/W7172559232"
 ---
 
 # Record 1981 · Amortizing-the-Calibration-Triple-A-Projection-Consistent-Neural-Opera
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Amortizing the Calibration Triple: A Projection-Consistent Neural Operator for Local-Stochastic Volatility
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

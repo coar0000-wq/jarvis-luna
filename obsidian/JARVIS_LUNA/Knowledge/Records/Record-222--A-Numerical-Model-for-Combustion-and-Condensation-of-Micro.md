@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.081133+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s42405-026-01279-4"
 ---
 
 # Record 222 · A-Numerical-Model-for-Combustion-and-Condensation-of-Micron-sized-Alum
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A Numerical Model for Combustion and Condensation of Micron-sized Aluminum Particle in Transition Regime
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

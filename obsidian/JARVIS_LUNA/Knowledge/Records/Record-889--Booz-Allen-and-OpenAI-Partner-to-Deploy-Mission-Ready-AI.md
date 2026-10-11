@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.166807+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "보안프라이버시", "인프라클라우드", "데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "investors.boozallen.com"
+url: "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-and-openai-partner-deploy-mission-ready-ai"
 ---
 
 # Record 889 · Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Ready-AI
@@ -16,7 +21,3 @@ Booz Allen and OpenAI Partner to Deploy Mission-Ready AI
 Accelerating secure AI deployment for U.S. agencies and commercial enterprises MCLEAN, Va. --(BUSINESS WIRE)--Jun. 29, 2026-- Booz Allen Hamilton (NYSE: BAH) today announced a new partnership with OpenAI to promote advanced AI innovation across national security and critical infrastructure
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[보안프라이버시]] [[인프라클라우드]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

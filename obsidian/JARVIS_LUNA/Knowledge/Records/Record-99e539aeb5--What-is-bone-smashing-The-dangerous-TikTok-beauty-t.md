@@ -2,8 +2,12 @@
 title: "Record 99e539aeb5 · What-is-bone-smashing-The-dangerous-TikTok-beauty-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.543213+00:00
+updated_at: 2026-10-11T00:55:36.268029+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQczAzc2ZSNkZOanZvZDlNcUllM0ZUU2hKdmxRQzF3cjVwZVJvQXhwalJGQTljN1JfWVNZSEkxcFVEVGs1SS1IZEJqSUZqaXdWQ2NNSkdqZ2dZbHpsbzIwanp2TG5lUGhiRHVJN2JoSTdRNmRNOXRsdW5KdWdBbVQ2WF9zaFctVDJGbEd5LTJuNWZBOWtSdTJ0NjJISFp2Z0hDa3lXTWNzRkdpUFBfUk52NXJTbW9TMnpGVV9OSUIyb2FvM3M?oc=5"
 ---
 
 # Record 99e539aeb5 · What-is-bone-smashing-The-dangerous-TikTok-beauty-t
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is bone smashing? The dangerous TikTok beauty trend surgeons are warning against - cbsnews.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

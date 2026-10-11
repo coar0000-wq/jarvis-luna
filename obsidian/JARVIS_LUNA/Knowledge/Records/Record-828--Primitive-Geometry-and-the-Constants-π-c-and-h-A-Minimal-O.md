@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:13.976582+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21531839"
 ---
 
 # Record 828 · Primitive-Geometry-and-the-Constants-π-c-and-h-A-Minimal-Ontology-for-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Primitive Geometry and the Constants π, c, and h: A Minimal Ontology for Closure Theory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

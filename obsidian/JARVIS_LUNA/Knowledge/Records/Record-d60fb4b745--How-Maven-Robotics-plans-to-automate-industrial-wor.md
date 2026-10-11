@@ -2,8 +2,12 @@
 title: "Record d60fb4b745 · How-Maven-Robotics-plans-to-automate-industrial-work-one-task-at-a-tim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.583702+00:00
+updated_at: 2026-10-11T00:55:51.869237+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/"
 ---
 
 # Record d60fb4b745 · How-Maven-Robotics-plans-to-automate-industrial-work-one-task-at-a-tim
@@ -16,7 +20,3 @@ How Maven Robotics plans to automate industrial work, one task at a time
 <p>With the $100 million it raised earlier this month, Maven Robotics is looking towards mass producing its mobile manipulator robot.</p> <p>The post <a href="https://www.therobotreport.com/how-maven-robotics-plans-automate-industrial-work-one-task-at-a-time/">How Maven Robotics plans to automate industrial work, one task at a time</a> appeared first on <a href="https://www.therobotreport.com">The
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

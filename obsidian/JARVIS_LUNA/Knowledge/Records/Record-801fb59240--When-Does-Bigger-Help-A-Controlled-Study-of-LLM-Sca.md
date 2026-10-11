@@ -2,8 +2,12 @@
 title: "Record 801fb59240 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Sca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.914752+00:00
+updated_at: 2026-10-11T00:55:11.394667+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31118v1"
 ---
 
 # Record 801fb59240 · When-Does-Bigger-Help-A-Controlled-Study-of-LLM-Sca
@@ -15,7 +19,3 @@ tags: [record, real-data]
 When Does Bigger Help? A Controlled Study of LLM Scale for Ontology Learning
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

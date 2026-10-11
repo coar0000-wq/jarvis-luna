@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.128583+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaVVVeDZySXZmWkJZR2F1VmEtR0NObi1QcnBfNEYzRGd6U0I0MHhncUVkdVg2bmphQXJsa1NPWHRJSUZlNlpNMW9uSm9HanZfd2tYX2plLTFmUHBxbUs4M05lRkJCak5tOUdlYURyNkRrMnpoZ1BYTy1KUmNRVWFZNHA5dTR5dGktU3lFTjBsSVJTZ1NlZ2V0RkdB?oc=5"
 ---
 
 # Record 625 · How-Every-Zodiac-Sign-Can-Accomplish-the-Astrological-Makeup-Trend-Tak
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 How Every Zodiac Sign Can Accomplish the Astrological Makeup Trend Taking Over TikTok - L'OFFICIEL USA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

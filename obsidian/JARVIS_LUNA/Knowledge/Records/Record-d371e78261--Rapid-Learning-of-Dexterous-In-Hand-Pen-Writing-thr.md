@@ -2,8 +2,12 @@
 title: "Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-thr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.073101+00:00
+updated_at: 2026-10-11T00:55:13.333343+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11775v1"
 ---
 
 # Record d371e78261 · Rapid-Learning-of-Dexterous-In-Hand-Pen-Writing-thr
@@ -16,7 +20,3 @@ Rapid Learning of Dexterous In-Hand Pen Writing through Real-Time Jacobian Estim
 Dexterous in-hand manipulation of a grasped object with an anthropomorphic hand is an unsolved frontier for robot dexterity. The contact-richness and highly dynamic nature of object-hand interactions tend to require extensive modeling or data-collection efforts for learning-based approaches. Modern simulators used for reinforcement learning (RL) cannot fully replicate the required contact complexi
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

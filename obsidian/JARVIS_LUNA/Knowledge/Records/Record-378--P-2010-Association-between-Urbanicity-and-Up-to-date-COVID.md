@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.630919+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "의료바이오", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1093/ofid/ofae631.2167"
 ---
 
 # Record 378 · P-2010-Association-between-Urbanicity-and-Up-to-date-COVID-19-Vaccinat
@@ -15,7 +20,3 @@ tags: [record, real-data]
 P-2010. Association between Urbanicity and Up-to-date COVID-19 Vaccination Coverage among Healthcare Personnel and Residents of Nursing Homes - National Healthcare Safety Network, United States, March 3, 2024
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

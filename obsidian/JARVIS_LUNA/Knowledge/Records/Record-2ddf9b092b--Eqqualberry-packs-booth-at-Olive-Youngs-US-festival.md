@@ -2,8 +2,12 @@
 title: "Record 2ddf9b092b · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.134203+00:00
+updated_at: 2026-10-11T00:55:29.161551+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1Vk4yOXVtM1N4YzdiUFZPYldkeG5kR2FhUWExd3ZkZjd2MFo1YW9KSjlfUkZ2anNUSnhYME9IUGxjNHZhNk1XdlVFSERiVWVwUURPa0E4TQ?oc=5"
 ---
 
 # Record 2ddf9b092b · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Eqqualberry packs booth at Olive Young's US festival - The Korea Herald
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

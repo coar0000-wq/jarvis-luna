@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.439927+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1093/pnasnexus/pgaf019"
 ---
 
 # Record 580 · Perceived-self-and-social-relevance-of-content-motivates-news-sharing-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Perceived self and social relevance of content motivates news sharing across cultures and topics
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

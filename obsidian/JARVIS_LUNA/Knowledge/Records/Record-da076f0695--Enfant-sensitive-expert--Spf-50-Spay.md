@@ -2,8 +2,12 @@
 title: "Record da076f0695 · Enfant-sensitive-expert--Spf-50-Spay"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.885154+00:00
+updated_at: 2026-10-11T00:55:41.639199+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["모델-라우팅MoE", "뷰티스킨케어"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3600542520263"
 ---
 
 # Record da076f0695 · Enfant-sensitive-expert--Spf-50-Spay
@@ -16,7 +20,3 @@ Enfant sensitive expert + Spf 50+ Spay
 Enfant sensitive expert + Spf 50+ Spay · Garnier
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[모델-라우팅MoE]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

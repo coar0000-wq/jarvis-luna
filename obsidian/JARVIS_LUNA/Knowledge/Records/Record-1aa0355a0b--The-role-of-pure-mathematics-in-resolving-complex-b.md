@@ -2,8 +2,14 @@
 title: "Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.292797+00:00
+updated_at: 2026-10-11T00:55:16.220036+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "과학수학", "투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.biosystems.2025.105575"
+kind: "논문"
 ---
 
 # Record 1aa0355a0b · The-role-of-pure-mathematics-in-resolving-complex-b
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The role of pure mathematics in resolving complex biological problems: Applications to F1-ATPase, achievements, and future directions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[과학수학]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

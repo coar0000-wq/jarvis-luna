@@ -2,8 +2,12 @@
 title: "Record 66ec664714 · Your-K-Beauty-Skin-Care-Cheat-Sheet---Bustle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.304814+00:00
+updated_at: 2026-10-11T00:55:32.105653+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyMjRMU203TGVXQTByYnlrbDZOamtpWDZQTkhZRmJqOHMzNEVCQ3FXOTN2RHpnRnAtQkxsNzlSMFdBQ1UxNHNMQmpUdkJvYUs0aVYwZ2NKWXhITFBCcW1ILWIxdlU2UTBpaTQ4UDRKemdqMHF2bVF6ZW51d3FrY1k?oc=5"
 ---
 
 # Record 66ec664714 · Your-K-Beauty-Skin-Care-Cheat-Sheet---Bustle
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Your K-Beauty Skin Care Cheat Sheet - Bustle
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

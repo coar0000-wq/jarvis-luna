@@ -2,8 +2,12 @@
 title: "Record 7494598fe2 · Guaiaazulene-the-Korean-skincare-ingredient-that-soothes-sensitive-ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.414939+00:00
+updated_at: 2026-10-11T00:55:34.066599+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcktzY0JkYm9yLUtqYVFpSzBWZHlVMkJSWnJqamVyWlRQbGppVEM0X0htallyWTFkaUFUdlpjNzl6djIxbzFOX2xEOE1laWhseUY1QUJ1WnhRZS1kbnp5eUswYXRONktLbkNCbVItbEpsQk1sOFNCNWUtOGYwVEJJUTc2SGV4V0hrc3FLMmhVOGJ5RnJo?oc=5"
 ---
 
 # Record 7494598fe2 · Guaiaazulene-the-Korean-skincare-ingredient-that-soothes-sensitive-ski
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Guaiaazulene: the Korean skincare ingredient that soothes sensitive skin fast - parisselectbook.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

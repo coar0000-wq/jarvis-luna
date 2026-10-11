@@ -2,8 +2,14 @@
 title: "Record 225ee0c0b7 · Fast-excursion-limit-of-the-Heston-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.681306+00:00
+updated_at: 2026-10-11T00:55:38.205498+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "openalex.org"
+url: "https://openalex.org/W7164090411"
+kind: "논문"
 ---
 
 # Record 225ee0c0b7 · Fast-excursion-limit-of-the-Heston-model
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Fast-excursion limit of the Heston model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

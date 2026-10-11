@@ -2,8 +2,14 @@
 title: "Record 0fca1d4dd3 · Read-Restrictions-and-Catalog-Labels-Unifying-governance-across-engine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.442681+00:00
+updated_at: 2026-10-11T00:55:49.099506+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/read-restrictions-and-catalog-labels-unifying-governance-across-engines-and-catalogs"
+kind: "발표물"
 ---
 
 # Record 0fca1d4dd3 · Read-Restrictions-and-Catalog-Labels-Unifying-governance-across-engine
@@ -16,7 +22,3 @@ Read Restrictions and Catalog Labels: Unifying governance across engines and cat
 In our previous posts, we showed how open table formats, open APIs and unified governance...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

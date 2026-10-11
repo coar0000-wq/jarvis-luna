@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.330839+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.5149595"
 ---
 
 # Record 517 · Discussing-a-Framework-for-the-Responsible-Use-of-Facial-Recognition-T
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Discussing a Framework for the Responsible Use of Facial Recognition Technology in Law Enforcement - The National Artificial Intelligence Advisory Committee Law Enforcement Subcommittee (NAIAC-LE Subcommittee)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

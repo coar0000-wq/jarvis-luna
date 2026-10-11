@@ -2,8 +2,12 @@
 title: "Record 12cef60bc8 · Underrated-Korean-Skin-Care-You-Need-To-Try"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.741182+00:00
+updated_at: 2026-10-11T00:55:54.681230+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=v2IBIBN6IT0"
 ---
 
 # Record 12cef60bc8 · Underrated-Korean-Skin-Care-You-Need-To-Try
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Underrated Korean Skin Care You Need To Try
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

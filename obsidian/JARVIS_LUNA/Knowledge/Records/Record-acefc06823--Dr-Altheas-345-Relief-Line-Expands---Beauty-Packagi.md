@@ -2,8 +2,12 @@
 title: "Record acefc06823 · Dr-Altheas-345-Relief-Line-Expands---Beauty-Packaging"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.363199+00:00
+updated_at: 2026-10-11T00:55:33.111989+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "반도체하드웨어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1d4a0R3cmMtZEYxQlI5aHhOd19PUlhrY3BjbDRQZS16RklKWDdCY0dVMjRxZXEtVlFLVUxVUjM1QUw4dkJYS2RWM2J5VjNHVWtmRUlxbVVJNFRtRXpvR1JQQUVzdElqbGVmaV9wazJnRFdoNmYzb0FXOFdST2ZpVnZHdGEyTzht?oc=5"
 ---
 
 # Record acefc06823 · Dr-Altheas-345-Relief-Line-Expands---Beauty-Packaging
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Dr. Althea’s 345 Relief Line Expands - Beauty Packaging
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

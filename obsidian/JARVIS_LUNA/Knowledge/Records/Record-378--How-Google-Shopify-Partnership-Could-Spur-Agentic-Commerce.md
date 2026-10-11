@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.378247+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Agents"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0ttNE5GZEdqQTAzNXBWYUZQeXo2TVIydk9vSXFQeWJzMElZLUFuYlFyUTJWb2h2S2xOQkxWYUNvbm9VZHdjakNrSWZISHFNeTF0eGVPSGw2Vnc5ZWRpczhNUWpxeGpvTFBDODVLbjlEX1VLY3pZTGlWb0Jxa3A0eHdieWdWQmdmbkwtaHVn?oc=5"
 ---
 
 # Record 378 · How-Google-Shopify-Partnership-Could-Spur-Agentic-Commerce-Boom---Inve
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 How Google, Shopify Partnership Could Spur Agentic Commerce Boom - Investor's Business Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

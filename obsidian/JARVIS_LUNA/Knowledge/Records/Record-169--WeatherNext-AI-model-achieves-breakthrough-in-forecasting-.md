@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.572812+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
 ---
 
 # Record 169 · WeatherNext-AI-model-achieves-breakthrough-in-forecasting-cyclones
@@ -15,7 +20,3 @@ tags: [record, real-data]
 WeatherNext: AI model achieves breakthrough in forecasting cyclones
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record cd2403170c · Shop-the-2026-Allure-Best-of-Beauty-Fragrance-Winning-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.895440+00:00
+updated_at: 2026-10-11T00:55:41.855128+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/best-of-beauty-2026-winners/scent"
 ---
 
 # Record cd2403170c · Shop-the-2026-Allure-Best-of-Beauty-Fragrance-Winning-Products
@@ -16,7 +20,3 @@ Shop the 2026 Allure Best of Beauty Fragrance Winning Products
 Shop the 2026 Allure Best of Beauty Fragrance Winning Products
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

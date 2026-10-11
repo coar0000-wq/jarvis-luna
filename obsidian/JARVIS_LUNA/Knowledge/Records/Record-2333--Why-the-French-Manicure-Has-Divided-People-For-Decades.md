@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.738688+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/french-manicure-history-50th-anniversary-jeff-pink"
 ---
 
 # Record 2333 · Why-the-French-Manicure-Has-Divided-People-For-Decades
@@ -16,7 +20,3 @@ Why the French Manicure Has Divided People For Decades
 Why the French Manicure Has Divided People For Decades
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

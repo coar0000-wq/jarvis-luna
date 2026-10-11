@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.684874+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NYXZiREJaaFBaSmpidl9TczNRY0NLUnpvcEVpczdIcWtKRkI0cDhLb2VJVWZxa2ktU2VmWHZYY3NJQUlaZ0JFeVdvN3dyMVlVOTV3bTcybnluNU85WU5PSUY0X191VThLUDR0YjBR?oc=5"
 ---
 
 # Record 152 · What-is-the-Bebot-style-and-why-TikTok-revived-2000s-makeup-find-out-h
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 What is the Bebot style and why TikTok revived 2000s makeup, find out how to join this trend - latination.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

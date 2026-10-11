@@ -2,8 +2,12 @@
 title: "Record 152adcb62d · ANYbotics-opens-the-door-for-inspections-with-ANYmal-robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.569101+00:00
+updated_at: 2026-10-11T00:55:51.673664+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/"
 ---
 
 # Record 152adcb62d · ANYbotics-opens-the-door-for-inspections-with-ANYmal-robots
@@ -16,7 +20,3 @@ ANYbotics opens the door for inspections with ANYmal robots
 <p>ANYbotics partnered with dormakaba and LEGIC Identsystems to enable the ANYmal quadruped to gain access like a badged employee.</p> <p>The post <a href="https://www.therobotreport.com/anybotics-opens-the-door-for-inspections-with-anymal-robots/">ANYbotics opens the door for inspections with ANYmal robots</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

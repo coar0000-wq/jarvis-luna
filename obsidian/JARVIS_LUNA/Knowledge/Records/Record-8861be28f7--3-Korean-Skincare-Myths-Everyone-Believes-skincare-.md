@@ -2,8 +2,12 @@
 title: "Record 8861be28f7 · 3-Korean-Skincare-Myths-Everyone-Believes-skincare-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.691097+00:00
+updated_at: 2026-10-11T00:55:53.633937+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/AlS1_egCV4E"
 ---
 
 # Record 8861be28f7 · 3-Korean-Skincare-Myths-Everyone-Believes-skincare-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 Korean Skincare Myths Everyone Believes #skincare #kbeauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

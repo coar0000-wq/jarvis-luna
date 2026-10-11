@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.671216+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbnZSQmxna3dyUU1SQXdHYXdneW0yX0RDYlZ5cDJxNTc0R1FmVUpYNUw2cERmbENMdjN2NHlPcGo5a0tRcjg2cURYTS1aZExhSW1hQWo4RGlXM0g4NzlDQWg2Nk5nbGV6WEVVbGxuQmZlX1hsNko2aVJYODQ5Z3BXUG5ISXBfQk9JYTdnNFoxX2d4dw?oc=5"
 ---
 
 # Record 1531 · Are-Frosted-Lips-Cool-Again---Hypebae
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Are Frosted Lips Cool Again? - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

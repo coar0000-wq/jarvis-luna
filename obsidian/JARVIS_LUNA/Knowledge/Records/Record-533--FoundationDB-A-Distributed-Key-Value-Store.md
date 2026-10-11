@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.512314+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3592838"
 ---
 
 # Record 533 · FoundationDB-A-Distributed-Key-Value-Store
@@ -15,7 +20,3 @@ tags: [record, real-data]
 FoundationDB: A Distributed Key-Value Store
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

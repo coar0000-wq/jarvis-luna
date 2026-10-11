@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.879025+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rZ1lGSjhVU09qWkZXRGZhRDN5Y3JGUFNWeHRqQXducUtmc2kwNnJrZkJZdFNSSTg0dXZFanE1X1JabndtZjdzRG1MdTBXUURzTHRZeUtGZHhFVnR3OW84cU9TRUl3dnF0b003RjNLNi0?oc=5"
 ---
 
 # Record 258 · High-Contrast-TikToks-New-Beauty-Trend---HIGHXTAR
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 ‘High Contrast’: TikTok’s New Beauty Trend - HIGHXTAR.
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

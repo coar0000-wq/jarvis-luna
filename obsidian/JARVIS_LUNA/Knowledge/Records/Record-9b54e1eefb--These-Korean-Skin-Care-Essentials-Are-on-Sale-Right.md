@@ -2,8 +2,12 @@
 title: "Record 9b54e1eefb · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.226669+00:00
+updated_at: 2026-10-11T00:55:30.780956+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYVGluRU5NVTlXb1FWemxVbHo2Y0pMWlJ0RUVOSzhMZEZLTWpwWkkyYnJpem1ZUkJjRXFleHhsTC1CdHhhUndTU0FncUdkbGZleFJoZHBseFJhaUxaWEZaYm5Ca29nRHo2TnoycGxXRQ?oc=5"
 ---
 
 # Record 9b54e1eefb · These-Korean-Skin-Care-Essentials-Are-on-Sale-Right
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These Korean Skin Care Essentials Are on Sale Right Now - Teen Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

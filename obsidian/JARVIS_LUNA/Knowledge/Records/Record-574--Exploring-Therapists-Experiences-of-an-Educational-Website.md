@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.344159+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.3390/healthcare13020159"
 ---
 
 # Record 574 · Exploring-Therapists-Experiences-of-an-Educational-Website-to-Support-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Exploring Therapists’ Experiences of an Educational Website to Support Telehealth Delivery of Constraint-Induced Movement Therapy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

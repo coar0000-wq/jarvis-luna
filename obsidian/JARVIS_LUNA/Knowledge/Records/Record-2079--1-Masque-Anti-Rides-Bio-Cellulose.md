@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.543961+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3331300096460"
 ---
 
 # Record 2079 · 1-Masque-Anti-Rides-Bio-Cellulose
@@ -16,7 +20,3 @@ tags: [record, real-data]
 1 Masque Anti-Rides Bio-Cellulose · Barbara Gould
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

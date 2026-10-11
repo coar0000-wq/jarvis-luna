@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.741935+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE1Db3JNRDRyZHFSSzlFUy0tVkFhSkNuNjlFNzV3T2NsTHNlaWNqQ0t3cEYxeC1uV0t1djFjTVBPVHEtRmVBQS1nM3BaS3NZZXVWdmhvUVNXTUhBZ3A0ZFJyX3NGOWhvX0JYWkdLUWFqVUVrdw?oc=5"
 ---
 
 # Record 1219 · In-Alarming-News-Rubbing-Poo-On-Your-Face-Appears-To-Be-The-Latest-Tik
@@ -15,7 +19,3 @@ tags: [record, real-data]
 In Alarming News, Rubbing Poo On Your Face Appears To Be The Latest TikTok Beauty Trend - Grazia Daily UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

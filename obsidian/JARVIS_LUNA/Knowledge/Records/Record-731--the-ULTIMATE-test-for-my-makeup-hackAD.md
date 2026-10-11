@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.738986+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/QMky2XRx6_I"
 ---
 
 # Record 731 · the-ULTIMATE-test-for-my-makeup-hackAD
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 the ULTIMATE test for my makeup hack🔥AD*
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 13db15169b · gimmicky-or-result-driven-skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.727862+00:00
+updated_at: 2026-10-11T00:55:54.434525+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Uyab4c_D2Kc"
 ---
 
 # Record 13db15169b · gimmicky-or-result-driven-skincare
@@ -15,7 +19,3 @@ tags: [record, real-data]
 gimmicky? or result-driven skincare~? 🫣
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

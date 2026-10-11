@@ -2,8 +2,14 @@
 title: "Record 1f6f1d401f · Barclays-Appoints-Peter-Luck-Chairman-Of-Uk-Investm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.418440+00:00
+updated_at: 2026-10-11T00:55:48.684045+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/070/barclays-appoints-peter-luck-chairman-of-uk-investment-banking/"
+kind: "발표물"
 ---
 
 # Record 1f6f1d401f · Barclays-Appoints-Peter-Luck-Chairman-Of-Uk-Investm
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Barclays Appoints Peter Luck Chairman Of Uk Investment Banking
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

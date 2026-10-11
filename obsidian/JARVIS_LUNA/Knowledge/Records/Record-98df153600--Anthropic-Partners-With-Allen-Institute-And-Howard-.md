@@ -2,8 +2,14 @@
 title: "Record 98df153600 · Anthropic-Partners-With-Allen-Institute-And-Howard-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.358962+00:00
+updated_at: 2026-10-11T00:55:47.932833+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-partners-with-allen-institute-and-howard-hughes-medical-institute"
+kind: "발표물"
 ---
 
 # Record 98df153600 · Anthropic-Partners-With-Allen-Institute-And-Howard-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Anthropic Partners With Allen Institute And Howard Hughes Medical Institute
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

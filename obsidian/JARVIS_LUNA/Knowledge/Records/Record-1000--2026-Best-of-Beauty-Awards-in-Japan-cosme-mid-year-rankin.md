@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.940171+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=j_MTEPw12Qk"
 ---
 
 # Record 1000 · 2026-Best-of-Beauty-Awards-in-Japan-cosme-mid-year-rankings
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 2026 Best of Beauty Awards in Japan! @cosme *mid-year* rankings~
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

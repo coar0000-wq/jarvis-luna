@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.409574+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.carbon.2026.121956"
 ---
 
 # Record 418 · Distinction-between-inelastic-scattering-and-dephasing-exponents-by-cu
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Distinction between inelastic scattering and dephasing exponents by current heating in gated epitaxial graphene
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

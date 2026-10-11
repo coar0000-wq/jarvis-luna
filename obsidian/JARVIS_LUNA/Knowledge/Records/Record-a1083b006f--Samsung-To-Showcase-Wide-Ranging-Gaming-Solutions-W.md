@@ -2,8 +2,14 @@
 title: "Record a1083b006f · Samsung-To-Showcase-Wide-Ranging-Gaming-Solutions-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.585595+00:00
+updated_at: 2026-10-11T00:55:36.776986+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-to-showcase-wide-ranging-gaming-solutions-with-immersive-exhibition-at-gamescom-2026"
+kind: "발표물"
 ---
 
 # Record a1083b006f · Samsung-To-Showcase-Wide-Ranging-Gaming-Solutions-W
@@ -16,7 +22,3 @@ Samsung To Showcase Wide-Ranging Gaming Solutions With Immersive Exhibition at G
 Samsung Electronics today announced that it will be displaying its comprehensive gaming ecosystem spanning PC, console, and mobile games at Gamescom 2026, which is one of the world’s largest gaming events taking place in Cologne, Germany from Aug. 26-30. Across a 1,090-square-meter exhibition space, Samsung will present its full package of gaming devices under its […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

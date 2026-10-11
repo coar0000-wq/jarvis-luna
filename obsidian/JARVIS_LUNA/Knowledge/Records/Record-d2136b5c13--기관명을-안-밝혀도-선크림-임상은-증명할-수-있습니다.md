@@ -2,8 +2,12 @@
 title: "Record d2136b5c13 · 기관명을-안-밝혀도-선크림-임상은-증명할-수-있습니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.708516+00:00
+updated_at: 2026-10-11T00:55:54.053468+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["의료바이오"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/lcJ4aYFXtTI"
 ---
 
 # Record d2136b5c13 · 기관명을-안-밝혀도-선크림-임상은-증명할-수-있습니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 기관명을 안 밝혀도 선크림 임상은 증명할 수 있습니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

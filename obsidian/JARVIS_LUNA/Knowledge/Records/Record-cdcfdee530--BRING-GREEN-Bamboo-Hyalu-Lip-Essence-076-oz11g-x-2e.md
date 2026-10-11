@@ -2,8 +2,12 @@
 title: "Record cdcfdee530 · BRING-GREEN-Bamboo-Hyalu-Lip-Essence-076-oz11g-x-2ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.841522+00:00
+updated_at: 2026-10-11T00:55:40.894428+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA75122866"
 ---
 
 # Record cdcfdee530 · BRING-GREEN-Bamboo-Hyalu-Lip-Essence-076-oz11g-x-2ea
@@ -16,7 +20,3 @@ BRING GREEN Bamboo Hyalu Lip Essence 0.76 oz.(11g) x 2ea
 BRING GREEN Bamboo Hyalu Lip Essence 0.76 oz.(11g) x 2ea · 평점 4.9 · 리뷰 6,310
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

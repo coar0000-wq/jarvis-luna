@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.103956+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.5236908"
 ---
 
 # Record 626 · The-National-Artificial-Intelligence-Advisory-Committee-NAIAC--Recomme
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The National Artificial Intelligence Advisory Committee (NAIAC)- Recommendation: Require Public Summary Reporting on Use of High-Risk AI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.077007+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=mYv9qkjXRRo"
 ---
 
 # Record 720 · Claude-AI--Dropshipping--797M-WTF-Did-Claude-Just-Do
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Claude AI + Dropshipping = $7.97M (WTF Did Claude Just Do?!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.567593+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
 ---
 
 # Record 149 · From-Atari-to-EVE-Online-Building-on-15-Years-of-AI-Research-in-Games
@@ -16,7 +21,3 @@ From Atari to EVE Online: Building on 15 Years of AI Research in Games
 Google DeepMind partners with game studios to prototype breakthrough AI gameplay.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

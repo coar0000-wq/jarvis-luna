@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.043407+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1POFF3WkRqeklucG5UcENVa0VMMkpSVFl5bUhsVERZUlY4T09ybWxKYk1VQ2ZsWUV1aFNwZklIbWtsZXRsTnRtZTJNazhFX19YMHc?oc=5"
 ---
 
 # Record 877 · k-beauty---Womans-World
@@ -15,7 +19,3 @@ tags: [record, real-data]
 k-beauty - Woman's World
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

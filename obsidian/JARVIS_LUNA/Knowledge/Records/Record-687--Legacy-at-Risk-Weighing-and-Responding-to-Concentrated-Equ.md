@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.624696+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.3905/jwm.2026.014"
 ---
 
 # Record 687 · Legacy-at-Risk-Weighing-and-Responding-to-Concentrated-Equitys-Vulnera
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Legacy at Risk: Weighing and Responding to Concentrated Equity’s Vulnerability to Drawdowns
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.213735+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "openalex.org"
+url: "https://openalex.org/W7162605904"
 ---
 
 # Record 1815 · More-Skills-Worse-Agents-Skill-Shadowing-Degrades-Performance-When-Exp
@@ -15,7 +20,3 @@ tags: [record, real-data]
 More Skills, Worse Agents? Skill Shadowing Degrades Performance When Expanding Skill Libraries
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record edf74927e8 · EvoLib-Turning-experience-into-evolving-knowledge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.498310+00:00
+updated_at: 2026-10-11T00:55:50.259877+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "인프라클라우드", "AI-에이전트"]
+org: "Microsoft Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge/"
+kind: "발표물"
 ---
 
 # Record edf74927e8 · EvoLib-Turning-experience-into-evolving-knowledge
@@ -16,7 +22,3 @@ EvoLib: Turning experience into evolving knowledge
 LLMs do not get smarter just by remembering more. EvoLib turns experience into evolving knowledge, taking reusable skills and insights that help models learn and adapt across tasks long after deployment. The post EvoLib: Turning experience into evolving knowledge appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[인프라클라우드]] [[AI-에이전트]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

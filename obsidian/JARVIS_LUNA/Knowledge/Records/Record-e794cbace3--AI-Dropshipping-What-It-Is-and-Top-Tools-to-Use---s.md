@@ -2,8 +2,12 @@
 title: "Record e794cbace3 · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use---shopifycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.142037+00:00
+updated_at: 2026-10-11T00:55:29.315806+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QQ05BZnFYa1FkYml2cHhjZ0VqSk1nWG9pLVo1clJmQUZFUzExTnhvakI5ZU9ocVM5azRQbnJBRXVXVDJSWmlSTmJsSzFBMG9wQ1lGdERHUFRLLUU?oc=5"
 ---
 
 # Record e794cbace3 · AI-Dropshipping-What-It-Is-and-Top-Tools-to-Use---shopifycom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Dropshipping: What It Is and Top Tools to Use - shopify.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

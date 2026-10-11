@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.097491+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aaXdQb3ZzcURzV3BDMm94SEl5SUdzejgtM0tBVXcyRTBJOUxyZFhlQ3U1ejRNRlgzbEM5Umd6c3VGLWY3cS1YQXhObm1iN1cyWUZhSXUtR2R1WTcyRVE?oc=5"
 ---
 
 # Record 104 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 AI Business Ideas: 15 Ways to Start in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

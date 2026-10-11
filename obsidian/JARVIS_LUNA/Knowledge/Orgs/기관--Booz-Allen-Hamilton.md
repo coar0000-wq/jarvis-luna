@@ -2,66 +2,68 @@
 title: "기관 · Booz Allen Hamilton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:59:00.624913+00:00
+updated_at: 2026-10-11T00:55:56.764256+00:00
 tags: [org, real-data]
+record_count: 51
 ---
 
 # 기관 · Booz Allen Hamilton
 
-실제 수집 레코드 **51건**이 이 기관에 연결되어 있습니다. (논문 39건, 발표물 12건)
+유형별: 논문 39건, 발표물 12건
 
-- [[Record-ffbeb6b5c9--Towards-an-AI-biomedical-scientist-Accelerating-dis]]
-- [[Record-0769b64cb2--Dr-Juliet-M-Daniel-1964-2026-Dancing-to-the-Rhythm-]]
-- [[Record-0dc4b29ddc--VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-i]]
-- [[Record-5e584fad81--Vapor-phase-HMDS-passivation-improves-performance-a]]
-- [[Record-c62891c313--Lissajous-coherent-states-via-projection]]
-- [[Record-281740fc98--113-Upstream-with-the-Paddle-Wastewater-Based-Genom]]
-- [[Record-fa2985587f--P-590-Go-with-the-Flow-An-Early-Look-at-a-Pilot-Hig]]
-- [[Record-0bc246ee85--P-599-If-Youre-On-time-Youre-Late-Early-Detection-o]]
-- [[Record-c1a6792ec4--P-707-Trends-in-Respiratory-Virus-associated-Hospit]]
-- [[Record-1cfc035f99--Think-Build-Heal-Also-tell-the-story]]
-- [[Record-0fec19ebf7--Harnessing-Multiteam-Systems-in-the-Development-of-]]
-- [[Record-d3ca88285c--Cross-Program-Secondary-Analyses-and-Public-Health-]]
-- [[Record-a43adbf7a2--Photonic-qubit-encoding-interconversion-for-heterog]]
-- [[Record-f2f387b681--Multiphoton-interference-with-a-symmetric-SU-N--bea]]
-- [[Record-24c8f14900--Influence-of-mobility-and-workfamily-conflict-on-US]]
-- [[Record-6876ccf472--Preliminary-Evidence-of-Construct-Validity-and-Reli]]
-- [[Record-562b47b4e6--The-CDCAPHL-next-generation-sequencing-quality-init]]
-- [[Record-d4162a201b--Mental-Health-and-Substance-Use-Treatment-Telehealt]]
-- [[Record-951554084c--Fundamentals-of-a-Laboratory-Security-Program-in-Bi]]
-- [[Record-8ecf960380--Sustainable-Community-Wide-Model-to-Enhance-Cancer-]]
-- [[Record-58f628ccb8--Aerosol-and-vapor-detection-via-infrared-laser-refl]]
-- [[Record-22e111a10e--Active-Surveillance-for-Invasive-Mold-Disease--Four]]
-- [[Record-c590f83e01--Mapping-social-determinants-of-health-in-NIH-resear]]
-- [[Record-ecc0a97f4e--Surrogate-Decision-Making-Confidence-Across-Acute-a]]
-- [[Record-270cceb24d--Designing-for-use-Embedding-data-usability-into-Ear]]
-- [[Record-915a768782--Transmon-Architecture-for-Emission-and-Detection-of]]
-- [[Record-72b70ea1d3--Lissajous-coherent-states-via-projection]]
-- [[Record-da89dcaa08--ASSEMBLAGE-DEEPHISTORY-A-Cross-Build-Binary-Dataset]]
-- [[Record-d776b21349--Optimal-Recovery-for-Solving-Variational-Problems]]
-- [[Record-5c960e6dad--A-Systematic-Comparative-Analysis-of-RAGAS-versus-L]]
-- [[Record-9af4bdaec9--A-Systematic-Comparative-Analysis-of-RAGAS-versus-L]]
-- [[Record-f00a4b970a--Methylation-profiling-in-the-Million-Veteran-Progra]]
-- [[Record-2c4217a82f--Combinatorial-effects-of-gene-dosage-polygenic-back]]
-- [[Record-054f67930b--GWAS-Meta-analysis-Identifies-Novel-Associated-Loci]]
-- [[Record-778294cb80--PTSD-is-Associated-with-Advanced-Epigenetic-Age-in-]]
-- [[Record-89a8e7301b--Single-cell-profiling-resolves-gain--and-loss-of-fu]]
-- [[Record-30fd885616--Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Bu]]
-- [[Record-e83912f3ab--Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Rea]]
-- [[Record-70fcaa9ee3--Booz-Allen-Charts-Autonomous-AI-Threats-and-Unveils]]
-- [[Record-4f922d54af--Booz-Allen-Completes-Acquisition-of-Ultra-IC-Missio]]
-- [[Record-73ae84c09e--Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Prod]]
-- [[Record-debf58003c--Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-]]
-- [[Record-40da85c9c1--Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Not]]
-- [[Record-eb2c05f204--Booz-Allen-Hamilton-to-Host-Conference-Call-to-Disc]]
-- [[Record-4809c103ed--Booz-Allen-to-Host-Conference-Call-to-Discuss-Secon]]
-- [[Record-ea52e4fde3--New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chin]]
-- [[Record-6f7d50c757--New-Booz-Allen-Survey-Finds-Federal-Agencies-Are-Ac]]
-- [[Record-e85c5c94e4--US-Navy-Task-Force-59-Founder-Michael-D-Brasseur-Jo]]
-- [[Record-082b0dd5f0--Transmon-Architecture-for-Emission-and-Detection-of]]
-- [[Record-24751db50f--Lissajous-coherent-states-via-projection]]
+실제 수집 레코드 **51건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+
+### 주제별 건수
+
+| 항목 | 건수 |
+|---|---|
+| [[데이터분석]] | 51 |
+| [[경영전략]] | 12 |
+| [[의료바이오]] | 7 |
+| [[보안프라이버시]] | 7 |
+| [[LLM언어모델]] | 4 |
+| [[인프라클라우드]] | 2 |
+| [[머신러닝-연구]] | 2 |
+| [[투자은행금융]] | 2 |
+| [[마케팅광고]] | 1 |
+| [[과학수학]] | 1 |
+| [[AI-에이전트]] | 1 |
+| [[로보틱스]] | 1 |
+
+### 최근 레코드 12건
+
 - [[Record-8d995b83d5--ASSEMBLAGE-DEEPHISTORY-A-Cross-Build-Binary-Dataset]]
+- [[Record-24751db50f--Lissajous-coherent-states-via-projection]]
+- [[Record-082b0dd5f0--Transmon-Architecture-for-Emission-and-Detection-of]]
+- [[Record-e85c5c94e4--US-Navy-Task-Force-59-Founder-Michael-D-Brasseur-Jo]]
+- [[Record-6f7d50c757--New-Booz-Allen-Survey-Finds-Federal-Agencies-Are-Ac]]
+- [[Record-ea52e4fde3--New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chin]]
+- [[Record-4809c103ed--Booz-Allen-to-Host-Conference-Call-to-Discuss-Secon]]
+- [[Record-eb2c05f204--Booz-Allen-Hamilton-to-Host-Conference-Call-to-Disc]]
+- [[Record-40da85c9c1--Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Not]]
+- [[Record-debf58003c--Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-]]
+- [[Record-73ae84c09e--Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Prod]]
+- [[Record-4f922d54af--Booz-Allen-Completes-Acquisition-of-Ultra-IC-Missio]]
+
+### 전체 레코드 (표)
+
+```base
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+    - org == "Booz Allen Hamilton"
+views:
+  - type: table
+    name: 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+    limit: 200
+```
 
 ## Connected nodes
 
-[[Record-ffbeb6b5c9--Towards-an-AI-biomedical-scientist-Accelerating-dis]] [[Record-0769b64cb2--Dr-Juliet-M-Daniel-1964-2026-Dancing-to-the-Rhythm-]] [[Record-0dc4b29ddc--VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-i]] [[Record-5e584fad81--Vapor-phase-HMDS-passivation-improves-performance-a]] [[Record-c62891c313--Lissajous-coherent-states-via-projection]] [[Record-281740fc98--113-Upstream-with-the-Paddle-Wastewater-Based-Genom]] [[Record-fa2985587f--P-590-Go-with-the-Flow-An-Early-Look-at-a-Pilot-Hig]] [[Record-0bc246ee85--P-599-If-Youre-On-time-Youre-Late-Early-Detection-o]] [[Record-c1a6792ec4--P-707-Trends-in-Respiratory-Virus-associated-Hospit]] [[Record-1cfc035f99--Think-Build-Heal-Also-tell-the-story]] [[Record-0fec19ebf7--Harnessing-Multiteam-Systems-in-the-Development-of-]] [[Record-d3ca88285c--Cross-Program-Secondary-Analyses-and-Public-Health-]] [[Record-a43adbf7a2--Photonic-qubit-encoding-interconversion-for-heterog]] [[Record-f2f387b681--Multiphoton-interference-with-a-symmetric-SU-N--bea]] [[Record-24c8f14900--Influence-of-mobility-and-workfamily-conflict-on-US]] [[Record-6876ccf472--Preliminary-Evidence-of-Construct-Validity-and-Reli]] [[Record-562b47b4e6--The-CDCAPHL-next-generation-sequencing-quality-init]] [[Record-d4162a201b--Mental-Health-and-Substance-Use-Treatment-Telehealt]] [[Record-951554084c--Fundamentals-of-a-Laboratory-Security-Program-in-Bi]] [[Record-8ecf960380--Sustainable-Community-Wide-Model-to-Enhance-Cancer-]] [[Record-58f628ccb8--Aerosol-and-vapor-detection-via-infrared-laser-refl]] [[Record-22e111a10e--Active-Surveillance-for-Invasive-Mold-Disease--Four]] [[Record-c590f83e01--Mapping-social-determinants-of-health-in-NIH-resear]] [[Record-ecc0a97f4e--Surrogate-Decision-Making-Confidence-Across-Acute-a]] [[Record-270cceb24d--Designing-for-use-Embedding-data-usability-into-Ear]] [[Record-915a768782--Transmon-Architecture-for-Emission-and-Detection-of]] [[Record-72b70ea1d3--Lissajous-coherent-states-via-projection]] [[Record-da89dcaa08--ASSEMBLAGE-DEEPHISTORY-A-Cross-Build-Binary-Dataset]] [[Record-d776b21349--Optimal-Recovery-for-Solving-Variational-Problems]] [[Record-5c960e6dad--A-Systematic-Comparative-Analysis-of-RAGAS-versus-L]] [[Record-9af4bdaec9--A-Systematic-Comparative-Analysis-of-RAGAS-versus-L]] [[Record-f00a4b970a--Methylation-profiling-in-the-Million-Veteran-Progra]] [[Record-2c4217a82f--Combinatorial-effects-of-gene-dosage-polygenic-back]] [[Record-054f67930b--GWAS-Meta-analysis-Identifies-Novel-Associated-Loci]] [[Record-778294cb80--PTSD-is-Associated-with-Advanced-Epigenetic-Age-in-]] [[Record-89a8e7301b--Single-cell-profiling-resolves-gain--and-loss-of-fu]] [[Record-30fd885616--Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Bu]] [[Record-e83912f3ab--Booz-Allen-and-OpenAI-Partner-to-Deploy-Mission-Rea]] [[Record-70fcaa9ee3--Booz-Allen-Charts-Autonomous-AI-Threats-and-Unveils]] [[Record-4f922d54af--Booz-Allen-Completes-Acquisition-of-Ultra-IC-Missio]] [[Record-73ae84c09e--Booz-Allen-Expands-Mission-Grade-Cyber-Defense-Prod]] [[Record-debf58003c--Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-]] [[Record-40da85c9c1--Booz-Allen-Hamilton-Announces-Pricing-of-Senior-Not]] [[Record-eb2c05f204--Booz-Allen-Hamilton-to-Host-Conference-Call-to-Disc]] [[Record-4809c103ed--Booz-Allen-to-Host-Conference-Call-to-Discuss-Secon]] [[Record-ea52e4fde3--New-Booz-Allen-Analysis-Reveals-Risks-in-Using-Chin]] [[Record-6f7d50c757--New-Booz-Allen-Survey-Finds-Federal-Agencies-Are-Ac]] [[Record-e85c5c94e4--US-Navy-Task-Force-59-Founder-Michael-D-Brasseur-Jo]] [[Record-082b0dd5f0--Transmon-Architecture-for-Emission-and-Detection-of]] [[Record-24751db50f--Lissajous-coherent-states-via-projection]] [[Record-8d995b83d5--ASSEMBLAGE-DEEPHISTORY-A-Cross-Build-Binary-Dataset]] [[AI-에이전트]] [[LLM언어모델]] [[경영전략]] [[과학수학]] [[데이터분석]] [[로보틱스]] [[마케팅광고]] [[머신러닝-연구]] [[보안프라이버시]] [[의료바이오]] [[인프라클라우드]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
+[[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.465234+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["데이터분석"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qCBiHAs13is"
 ---
 
 # Record 2188 · 올영세일-11-더블기획-진행-중-완전히-달라진-레이어랩-초고보습-D판테놀-크림--어떻게-더-개선됐는지-철저-분석해-드릴게요
@@ -15,7 +19,3 @@ tags: [record, real-data]
 💙 올영세일 1+1 더블기획 진행 중 💙❗️완전히 달라진 레이어랩 초고보습 D판테놀 크림 ❗️ 어떻게 더 개선됐는지 철저 분석해 드릴게요.
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 54b1eb7258 · A-New-Study-Analyzing-400000-Reddit-Posts-Links-GLP-1-Usage-to-Lesser-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.927424+00:00
+updated_at: 2026-10-11T00:55:42.370898+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/glp-1-reddit-new-study-side-effects"
 ---
 
 # Record 54b1eb7258 · A-New-Study-Analyzing-400000-Reddit-Posts-Links-GLP-1-Usage-to-Lesser-
@@ -16,7 +20,3 @@ A New Study Analyzing 400,000 Reddit Posts Links GLP-1 Usage to Lesser-Known Sid
 A New Study Analyzing 400,000 Reddit Posts Links GLP-1 Usage to Lesser-Known Side Effects
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.067743+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE4wcHZyVm00ZXY2dkdsS1dWS3BMLUFrSEdseTJaQUNUVmliV21aV2JEbDJjS0N3SW15R1IzSk9hNXVELW9oYXc0VXhXRUJvUHhqRG5zN3hHUGJMN2ZsbW02YWxrUXdaMWtiMm53N3FjSmNQZw?oc=5"
 ---
 
 # Record 1160 · Pinterest-IG-and-TikTok-Agree-Toasted-Blush-Will-Be-a-Huge-Makeup-Tren
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Pinterest, IG, and TikTok Agree: "Toasted Blush" Will Be a Huge Makeup Trend This Winter - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

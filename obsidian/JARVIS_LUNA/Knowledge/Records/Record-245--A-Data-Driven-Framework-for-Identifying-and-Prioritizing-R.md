@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.377684+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09137v1"
 ---
 
 # Record 245 · A-Data-Driven-Framework-for-Identifying-and-Prioritizing-RPA-Opportuni
@@ -15,7 +19,3 @@ tags: [record, real-data]
 A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 42b5b394cf · A-Confidence-Aware-Multimodal-Fusion-Framework-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.033319+00:00
+updated_at: 2026-10-11T00:55:12.876498+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10339v1"
 ---
 
 # Record 42b5b394cf · A-Confidence-Aware-Multimodal-Fusion-Framework-for-
@@ -16,7 +20,3 @@ A Confidence-Aware Multimodal Fusion Framework for Industrial Human-Robot Collab
 A confidence-aware multimodal fusion framework (CAMF) is proposed to realize reliable human intention prediction for industrial human-robot collaboration. This framework fuses four heterogeneous modalities including object 6D pose, gaze, skeletal motion and IMU-based hand motion. It embeds a confidence-trend-driven dynamic fusion mechanism into BiLSTM to adaptively balance bidirectional temporal f
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

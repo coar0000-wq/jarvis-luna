@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.238173+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/how-fda-building-secure-ai-ready-data-foundation-databricks-government"
 ---
 
 # Record 1871 · How-the-FDA-is-building-a-secure-AI-ready-data-foundation-on-Databrick
@@ -16,7 +21,3 @@ How the FDA is building a secure, AI-ready data foundation on Databricks for Gov
 Modernizing a federal data platform is a little like steering an aircraft carrier while rebuilding the engine mid-ocean...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

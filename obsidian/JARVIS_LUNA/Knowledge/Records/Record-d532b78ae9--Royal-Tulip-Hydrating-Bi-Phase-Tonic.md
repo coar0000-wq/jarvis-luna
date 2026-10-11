@@ -2,8 +2,12 @@
 title: "Record d532b78ae9 · Royal-Tulip-Hydrating-Bi-Phase-Tonic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.654652+00:00
+updated_at: 2026-10-11T00:55:53.039998+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/royal-tulip-hydrating-bi-phase-tonic-pimprod2057151"
 ---
 
 # Record d532b78ae9 · Royal-Tulip-Hydrating-Bi-Phase-Tonic
@@ -16,7 +20,3 @@ Royal Tulip Hydrating Bi-Phase Tonic
 Royal Tulip Hydrating Bi-Phase Tonic · Bloomeffects · $39
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

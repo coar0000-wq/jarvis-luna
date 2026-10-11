@@ -2,8 +2,12 @@
 title: "Record 89cb64e584 · Efficient-Algorithms-for-Energy-Aware-Single-Machine-Scheduling-with-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.060848+00:00
+updated_at: 2026-10-11T00:55:13.178207+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["물류통관"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11455"
 ---
 
 # Record 89cb64e584 · Efficient-Algorithms-for-Energy-Aware-Single-Machine-Scheduling-with-B
@@ -16,7 +20,3 @@ Efficient Algorithms for Energy-Aware Single-Machine Scheduling with Battery Sto
 Energy-aware scheduling has become a central challenge in modern manufacturing environments. As industries increasingly aim to reduce operational costs and carbon emissions, aligning production activities with electricity tariffs is increasingly important. The integration of battery energy storage system (BESS) further enhances the potential to reduce energy purchase costs; however, incorporating
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[물류통관]] [[JARVIS Real Knowledge Index]]

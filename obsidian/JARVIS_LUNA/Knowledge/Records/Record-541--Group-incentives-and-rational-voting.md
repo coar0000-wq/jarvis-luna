@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.592051+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.1177/0951629816630439"
 ---
 
 # Record 541 · Group-incentives-and-rational-voting
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Group incentives and rational voting
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 17c099c880 · FolDeX-A-Physical-World-Benchmark-for-Long-Horizon-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.030020+00:00
+updated_at: 2026-10-11T00:55:12.840751+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10243v1"
 ---
 
 # Record 17c099c880 · FolDeX-A-Physical-World-Benchmark-for-Long-Horizon-
@@ -16,7 +20,3 @@ FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Defo
 Embodied AI, including vision-language-action and world-action models, must operate reliably in the physical world. Yet methods that perform well in simulation can degrade substantially on real robots, especially in long-horizon deformable-object manipulation, where policies must track changing states and execute reliable multi-stage bimanual interactions. Existing real-robot benchmarks mainly foc
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.977836+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Z-Jlkhs_uI8"
 ---
 
 # Record 2614 · You-can-build-an-eCommerce-business-from-anywhere-But-some-connections
@@ -15,7 +19,3 @@ tags: [record, real-data]
 You can build an eCommerce business from anywhere. But some connections are better made in person. 🤝
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

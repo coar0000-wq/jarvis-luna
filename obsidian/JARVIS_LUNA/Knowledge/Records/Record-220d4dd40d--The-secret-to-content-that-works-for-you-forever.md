@@ -2,8 +2,12 @@
 title: "Record 220d4dd40d · The-secret-to-content-that-works-for-you-forever"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.761603+00:00
+updated_at: 2026-10-11T00:55:54.955856+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["소셜콘텐츠"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/5u5xANNqYxQ"
 ---
 
 # Record 220d4dd40d · The-secret-to-content-that-works-for-you-forever
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The secret to content that works for you forever
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

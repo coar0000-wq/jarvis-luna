@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.419051+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7172068206"
 ---
 
 # Record 1811 · Extremal-Chowla-sets-and-their-linear-analogues-A-human-AI-mathematica
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Extremal Chowla sets and their linear analogues: A human-AI mathematical investigation using Co-Scientist
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

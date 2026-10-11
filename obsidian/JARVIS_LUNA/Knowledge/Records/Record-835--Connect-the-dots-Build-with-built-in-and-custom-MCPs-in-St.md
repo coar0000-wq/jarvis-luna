@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.089493+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/connectors/"
 ---
 
 # Record 835 · Connect-the-dots-Build-with-built-in-and-custom-MCPs-in-Studio
@@ -16,7 +21,3 @@ Connect the dots: Build with built-in and custom MCPs in Studio
 Connect enterprise data to your AI applications with reusable connectors, direct tool calling, and human-in-the-loop approval controls.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.029484+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.indcrop.2026.124276"
 ---
 
 # Record 320 · Temperature-responsive-thermal-composites-enabled-by-liquid-metal-impr
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Temperature-responsive thermal composites enabled by liquid-metal impregnation of fatty-acid–cellulose nanofiber phase-change frameworks
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

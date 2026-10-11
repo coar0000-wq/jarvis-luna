@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.846873+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/bldqxE1CBL0"
 ---
 
 # Record 2060 · Found-a-product-you-want-to-sell-but-cant-find-it-on-CJ
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Found a product you want to sell but can‘t find it on CJ? 👀
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

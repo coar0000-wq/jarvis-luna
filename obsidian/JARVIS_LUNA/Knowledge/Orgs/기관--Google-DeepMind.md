@@ -2,110 +2,68 @@
 title: "기관 · Google DeepMind"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:59:00.676453+00:00
+updated_at: 2026-10-11T00:55:56.833574+00:00
 tags: [org, real-data]
+record_count: 95
 ---
 
 # 기관 · Google DeepMind
 
-실제 수집 레코드 **95건**이 이 기관에 연결되어 있습니다. (논문 63건, 발표물 32건)
+유형별: 논문 63건, 발표물 32건
 
-- [[Record-a821810ee2--Accelerating-the-frontiers-of-scientific-discovery-]]
-- [[Record-68ead6b6af--Advancing-Private-AI-Compute-with-secure-server-sid]]
-- [[Record-f0e27f432f--AlphaGenome-Atlas-A-predictive-map-of-every-possibl]]
-- [[Record-e424724a1f--DiffusionGemma-4x-faster-text-generation]]
-- [[Record-13f77bbb5c--Empowering-Indias-next-generation-of-innovators-wit]]
-- [[Record-835a331a5b--From-Atari-to-EVE-Online-Building-on-15-Years-of-AI]]
-- [[Record-ce56aa83d0--Gemini-4-Argon-our-next-era-of-frontier-intelligenc]]
-- [[Record-74b1125af8--Gemini-Omni-11-Flash-lets-you-build-with-more-contr]]
-- [[Record-42a1992e4b--Gemini-Robotics-2-brings-whole-body-intelligence-to]]
-- [[Record-614d79e4a8--Gemini-Robotics-ER-2-powering-robotics-with-video-u]]
-- [[Record-f6b3f80972--Google-DeepMind-and-A24-announce-first-of-its-kind-]]
-- [[Record-ac6eb92768--Intelligent-transcription-with-Gemini-35-Transcribe]]
-- [[Record-20b040f8e5--Introducing-agentic-video-understanding-with-Gemini]]
-- [[Record-172fd12b4f--Introducing-computer-use-in-Gemini-35-Flash]]
-- [[Record-b5de177ccc--Introducing-Gemini-35-Flash-Cyber]]
-- [[Record-e38a2bc247--Introducing-Gemini-36-Flash-35-Flash-Lite-and-35-Fl]]
-- [[Record-43643a3dd8--Introducing-Gemini-37-Flash]]
-- [[Record-63b19b50b4--Introducing-Gemini-38-Flash-and-38-Flash-Cyber]]
-- [[Record-947e89eaa8--Introducing-Gemini-38-Live-and-38-Live-Extended-Thi]]
-- [[Record-34692efacd--Introducing-Gemini-38-Live-with-Live-Avatar]]
-- [[Record-c696e8b1f3--Introducing-SynthID-Bio]]
-- [[Record-2b0379511e--Introducing-WeatherNext-3-our-most-advanced-and-acc]]
-- [[Record-53ad893ddb--Our-approach-to-bioresilience]]
-- [[Record-71c43cf780--Piloting-the-worlds-first-double-blind-AI-evaluatio]]
-- [[Record-d721843382--Proactive-cyber-defense-for-governments-and-enterpr]]
-- [[Record-1357a9ae79--Putting-sign-language-AI-into-users-hands]]
-- [[Record-81481aa316--Gemini-38-text-to-speech-says-hello]]
-- [[Record-45bc33c734--Securing-the-future-of-AI-agents]]
-- [[Record-270bf5aff1--Start-building-with-Nano-Banana-2-Lite-and-Gemini-O]]
-- [[Record-334cabed9c--Unlocking-UK-house-building-with-AI-accelerated-pla]]
-- [[Record-1986eab2e2--WeatherNext-AI-model-achieves-breakthrough-in-forec]]
-- [[Record-05b5e14c97--Were-launching-Lyria-35-in-Google-Flow-Music-with-a]]
-- [[Record-e442c46537--Patient-facing-generative-artificial-intelligence-i]]
-- [[Record-bf068b0218--Bridging-Algorithmic-Information-Theory-and-Machine]]
-- [[Record-cb72a08400--Human-learning-of-probability-distributions-is-bias]]
-- [[Record-5425e6f9ad--Reinforcement-learning-control-of-quantum-error-cor]]
-- [[Record-ccba051d5a--An-encyclopedia-of-human-enhancergene-regulatory-in]]
-- [[Record-4800782909--Agentic-profiles-for-effective-AI-governance]]
-- [[Record-7c239b1773--Operational-tropical-cyclone-forecasting-with-AI]]
-- [[Record-e89481c078--Function-preserving-watermarking-of-AI-generated-pr]]
-- [[Record-ac1cab79d7--Causal-evidence-that-language-models-use-confidence]]
-- [[Record-091100c732--Mathematical-discovery-and-exploration-can-be-done-]]
-- [[Record-9d075320c5--Gaussian-Invariant-Markov-Chain-Monte-Carlo]]
-- [[Record-e6890b7046--Applications-of-a-novel-model-based-real-time-obser]]
-- [[Record-c2d9d5adc2--Off-normal-simulations-of-radiative-collapse-events]]
-- [[Record-24accb0077--Generalizing-equilibrium-propagation-to-Lagrangian-]]
-- [[Record-f97544c17a--Denario-Project-Deep-Knowledge-Artificial-Intellige]]
-- [[Record-ec89221635--Extracting-Anyon-Statistics-from-Neural-Network-Fra]]
-- [[Record-6a4479b95d--Grounding-Robot-Generalization-in-Training-Data-via]]
-- [[Record-e9fcc231ea--Visual-Storytelling-An-Embodied-Companion-Arts-and-]]
-- [[Record-60ae6c6fee--The-next-Turing-tests-Reimagining-conceptions-and-m]]
-- [[Record-70575793c9--Strange-bifurcation-diagrams]]
-- [[Record-81977e484d--Bridging-language-and-action-A-survey-of-language-c]]
-- [[Record-8013350705--Employing-and-working-with-childminding-assistants-]]
-- [[Record-5e03634fa9--Helping-children-manage-transitions]]
-- [[Record-82274fe669--A-childminders-guide-to-settling-in]]
-- [[Record-acfe2d22c5--Towards-globally-equitable-bioinformatics-adoption]]
-- [[Record-91fd7b2deb--An-AI-Co-Data-Scientist-for-Prioritizing-Candidate-]]
-- [[Record-717dbb9657--AI-manipulation-is-context-dependent]]
-- [[Record-8fced2f402--AlphaFold-Database-expands-to-proteome-scale-quater]]
-- [[Record-b9037bd7a6--Age-and-generational-differences-in-anthropomorphis]]
-- [[Record-c46381a9fc--Category-Native-Solomonoff-Approximation-From-Algor]]
-- [[Record-ac4c0bdc7a--Bridging-Machine-Learning-and-Algorithmic-Informati]]
-- [[Record-a8c3e9e956--Visual-General-Intelligence-A-White-Paper]]
-- [[Record-4333afbca9--The-2026-PNPL-Competition-Word-Classification-and-E]]
-- [[Record-b08a1274ec--Mind-the-Gap-Exposing-LLM-Translation-Blind-Spots-U]]
-- [[Record-502b1a59fc--Inducing-Emergent-Misalignment-from-Reward-Hacks-wi]]
-- [[Record-fb5d85577a--Charts-Are-Beyond-Pixels-Probing-for-Layer-Wise-Cha]]
-- [[Record-6dc418fdd9--Tapes-Together-Strong-The-Co-evolution-of-Computati]]
-- [[Record-f07b1a4ffa--Dream-RSI-Recursive-Self-Improvement-through-Evolvi]]
-- [[Record-1ab3e39c15--Locating-Hidden-Failures-Makes-Long-Horizon-Agents-]]
-- [[Record-77d2d35e33--When-Does-Reasoning-Help-in-Machine-Translation-A-H]]
-- [[Record-0c596ad87b--STEVE-Stabilizing-Textual-Gradient-Based-Prompt-Opt]]
-- [[Record-cd271d1c02--Working-with-Agentic-Teammates-When-a-New-Organizat]]
-- [[Record-40efd636cf--Earth-Mother-Geothermal-Solution-Closed-loop--Miner]]
-- [[Record-16ab8ac45d--Earth-Mother-Geothermal-Solution-Closed-loop--Miner]]
-- [[Record-70c04b4e74--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]]
-- [[Record-2d69c9cab3--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]]
-- [[Record-420889dfd3--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]]
-- [[Record-adac0ab375--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]]
-- [[Record-d95516051e--Perturb-ME-Scalable-mechanism-discovery-from-phenot]]
-- [[Record-1e5717cfa4--Calibrating-Classifiers-Across-Covariates-Hierarchi]]
-- [[Record-ae4dffba64--AlphaGenome-Atlas-in-silico-mutagenesis-of-the-enti]]
-- [[Record-1442510a27--Efficient-Analytic-Uncertainty-Quantification-for-M]]
-- [[Record-6b817e0763--Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embed]]
-- [[Record-5dfe5fce25--Detecting-and-Controlling-Sycophancy-with-Cascading]]
-- [[Record-981f39779f--B3O-Scalable-Boltzmann-Batch-Bayesian-Optimization]]
-- [[Record-800cd81560--Introduction-to-Stochastic-Differential-Equations-f]]
-- [[Record-5955c30909--AlphaWiSE-Adaptive-Weight-Interpolation-for-Continu]]
-- [[Record-cdc6e65403--Extremal-Chowla-sets-and-their-linear-analogues-A-h]]
-- [[Record-7fccba769e--BayesAME-Bayesian-Active-Model-Evaluation]]
-- [[Record-67da717226--ReToken-One-Token-to-Improve-Vision-Language-Models]]
-- [[Record-97307f83a7--Role-Steering-of-Language-Models-for-Social-Simulat]]
-- [[Record-5b4fa30810--Retrofitting-Linear-Attention-into-Diffusion-Langua]]
+실제 수집 레코드 **95건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+
+### 주제별 건수
+
+| 항목 | 건수 |
+|---|---|
+| [[AI-에이전트]] | 95 |
+| [[LLM언어모델]] | 8 |
+| [[로보틱스]] | 7 |
+| [[컴퓨터-비전]] | 5 |
+| [[의료바이오]] | 5 |
+| [[과학수학]] | 4 |
+| [[머신러닝-연구]] | 3 |
+| [[소셜콘텐츠]] | 2 |
+| [[음성오디오]] | 2 |
+| [[투자은행금융]] | 1 |
+| [[보안프라이버시]] | 1 |
+| [[법률규제]] | 1 |
+
+### 최근 레코드 12건
+
 - [[Record-1812ae1e5d--AI-Finds-A-Way]]
+- [[Record-5b4fa30810--Retrofitting-Linear-Attention-into-Diffusion-Langua]]
+- [[Record-97307f83a7--Role-Steering-of-Language-Models-for-Social-Simulat]]
+- [[Record-67da717226--ReToken-One-Token-to-Improve-Vision-Language-Models]]
+- [[Record-7fccba769e--BayesAME-Bayesian-Active-Model-Evaluation]]
+- [[Record-cdc6e65403--Extremal-Chowla-sets-and-their-linear-analogues-A-h]]
+- [[Record-5955c30909--AlphaWiSE-Adaptive-Weight-Interpolation-for-Continu]]
+- [[Record-800cd81560--Introduction-to-Stochastic-Differential-Equations-f]]
+- [[Record-981f39779f--B3O-Scalable-Boltzmann-Batch-Bayesian-Optimization]]
+- [[Record-5dfe5fce25--Detecting-and-Controlling-Sycophancy-with-Cascading]]
+- [[Record-6b817e0763--Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embed]]
+- [[Record-1442510a27--Efficient-Analytic-Uncertainty-Quantification-for-M]]
+
+### 전체 레코드 (표)
+
+```base
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+    - org == "Google DeepMind"
+views:
+  - type: table
+    name: 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+    limit: 200
+```
 
 ## Connected nodes
 
-[[Record-a821810ee2--Accelerating-the-frontiers-of-scientific-discovery-]] [[Record-68ead6b6af--Advancing-Private-AI-Compute-with-secure-server-sid]] [[Record-f0e27f432f--AlphaGenome-Atlas-A-predictive-map-of-every-possibl]] [[Record-e424724a1f--DiffusionGemma-4x-faster-text-generation]] [[Record-13f77bbb5c--Empowering-Indias-next-generation-of-innovators-wit]] [[Record-835a331a5b--From-Atari-to-EVE-Online-Building-on-15-Years-of-AI]] [[Record-ce56aa83d0--Gemini-4-Argon-our-next-era-of-frontier-intelligenc]] [[Record-74b1125af8--Gemini-Omni-11-Flash-lets-you-build-with-more-contr]] [[Record-42a1992e4b--Gemini-Robotics-2-brings-whole-body-intelligence-to]] [[Record-614d79e4a8--Gemini-Robotics-ER-2-powering-robotics-with-video-u]] [[Record-f6b3f80972--Google-DeepMind-and-A24-announce-first-of-its-kind-]] [[Record-ac6eb92768--Intelligent-transcription-with-Gemini-35-Transcribe]] [[Record-20b040f8e5--Introducing-agentic-video-understanding-with-Gemini]] [[Record-172fd12b4f--Introducing-computer-use-in-Gemini-35-Flash]] [[Record-b5de177ccc--Introducing-Gemini-35-Flash-Cyber]] [[Record-e38a2bc247--Introducing-Gemini-36-Flash-35-Flash-Lite-and-35-Fl]] [[Record-43643a3dd8--Introducing-Gemini-37-Flash]] [[Record-63b19b50b4--Introducing-Gemini-38-Flash-and-38-Flash-Cyber]] [[Record-947e89eaa8--Introducing-Gemini-38-Live-and-38-Live-Extended-Thi]] [[Record-34692efacd--Introducing-Gemini-38-Live-with-Live-Avatar]] [[Record-c696e8b1f3--Introducing-SynthID-Bio]] [[Record-2b0379511e--Introducing-WeatherNext-3-our-most-advanced-and-acc]] [[Record-53ad893ddb--Our-approach-to-bioresilience]] [[Record-71c43cf780--Piloting-the-worlds-first-double-blind-AI-evaluatio]] [[Record-d721843382--Proactive-cyber-defense-for-governments-and-enterpr]] [[Record-1357a9ae79--Putting-sign-language-AI-into-users-hands]] [[Record-81481aa316--Gemini-38-text-to-speech-says-hello]] [[Record-45bc33c734--Securing-the-future-of-AI-agents]] [[Record-270bf5aff1--Start-building-with-Nano-Banana-2-Lite-and-Gemini-O]] [[Record-334cabed9c--Unlocking-UK-house-building-with-AI-accelerated-pla]] [[Record-1986eab2e2--WeatherNext-AI-model-achieves-breakthrough-in-forec]] [[Record-05b5e14c97--Were-launching-Lyria-35-in-Google-Flow-Music-with-a]] [[Record-e442c46537--Patient-facing-generative-artificial-intelligence-i]] [[Record-bf068b0218--Bridging-Algorithmic-Information-Theory-and-Machine]] [[Record-cb72a08400--Human-learning-of-probability-distributions-is-bias]] [[Record-5425e6f9ad--Reinforcement-learning-control-of-quantum-error-cor]] [[Record-ccba051d5a--An-encyclopedia-of-human-enhancergene-regulatory-in]] [[Record-4800782909--Agentic-profiles-for-effective-AI-governance]] [[Record-7c239b1773--Operational-tropical-cyclone-forecasting-with-AI]] [[Record-e89481c078--Function-preserving-watermarking-of-AI-generated-pr]] [[Record-ac1cab79d7--Causal-evidence-that-language-models-use-confidence]] [[Record-091100c732--Mathematical-discovery-and-exploration-can-be-done-]] [[Record-9d075320c5--Gaussian-Invariant-Markov-Chain-Monte-Carlo]] [[Record-e6890b7046--Applications-of-a-novel-model-based-real-time-obser]] [[Record-c2d9d5adc2--Off-normal-simulations-of-radiative-collapse-events]] [[Record-24accb0077--Generalizing-equilibrium-propagation-to-Lagrangian-]] [[Record-f97544c17a--Denario-Project-Deep-Knowledge-Artificial-Intellige]] [[Record-ec89221635--Extracting-Anyon-Statistics-from-Neural-Network-Fra]] [[Record-6a4479b95d--Grounding-Robot-Generalization-in-Training-Data-via]] [[Record-e9fcc231ea--Visual-Storytelling-An-Embodied-Companion-Arts-and-]] [[Record-60ae6c6fee--The-next-Turing-tests-Reimagining-conceptions-and-m]] [[Record-70575793c9--Strange-bifurcation-diagrams]] [[Record-81977e484d--Bridging-language-and-action-A-survey-of-language-c]] [[Record-8013350705--Employing-and-working-with-childminding-assistants-]] [[Record-5e03634fa9--Helping-children-manage-transitions]] [[Record-82274fe669--A-childminders-guide-to-settling-in]] [[Record-acfe2d22c5--Towards-globally-equitable-bioinformatics-adoption]] [[Record-91fd7b2deb--An-AI-Co-Data-Scientist-for-Prioritizing-Candidate-]] [[Record-717dbb9657--AI-manipulation-is-context-dependent]] [[Record-8fced2f402--AlphaFold-Database-expands-to-proteome-scale-quater]] [[Record-b9037bd7a6--Age-and-generational-differences-in-anthropomorphis]] [[Record-c46381a9fc--Category-Native-Solomonoff-Approximation-From-Algor]] [[Record-ac4c0bdc7a--Bridging-Machine-Learning-and-Algorithmic-Informati]] [[Record-a8c3e9e956--Visual-General-Intelligence-A-White-Paper]] [[Record-4333afbca9--The-2026-PNPL-Competition-Word-Classification-and-E]] [[Record-b08a1274ec--Mind-the-Gap-Exposing-LLM-Translation-Blind-Spots-U]] [[Record-502b1a59fc--Inducing-Emergent-Misalignment-from-Reward-Hacks-wi]] [[Record-fb5d85577a--Charts-Are-Beyond-Pixels-Probing-for-Layer-Wise-Cha]] [[Record-6dc418fdd9--Tapes-Together-Strong-The-Co-evolution-of-Computati]] [[Record-f07b1a4ffa--Dream-RSI-Recursive-Self-Improvement-through-Evolvi]] [[Record-1ab3e39c15--Locating-Hidden-Failures-Makes-Long-Horizon-Agents-]] [[Record-77d2d35e33--When-Does-Reasoning-Help-in-Machine-Translation-A-H]] [[Record-0c596ad87b--STEVE-Stabilizing-Textual-Gradient-Based-Prompt-Opt]] [[Record-cd271d1c02--Working-with-Agentic-Teammates-When-a-New-Organizat]] [[Record-40efd636cf--Earth-Mother-Geothermal-Solution-Closed-loop--Miner]] [[Record-16ab8ac45d--Earth-Mother-Geothermal-Solution-Closed-loop--Miner]] [[Record-70c04b4e74--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]] [[Record-2d69c9cab3--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]] [[Record-420889dfd3--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]] [[Record-adac0ab375--On-the-Finite-Upper-Bound-f6--24600-and-Structural-]] [[Record-d95516051e--Perturb-ME-Scalable-mechanism-discovery-from-phenot]] [[Record-1e5717cfa4--Calibrating-Classifiers-Across-Covariates-Hierarchi]] [[Record-ae4dffba64--AlphaGenome-Atlas-in-silico-mutagenesis-of-the-enti]] [[Record-1442510a27--Efficient-Analytic-Uncertainty-Quantification-for-M]] [[Record-6b817e0763--Speaking-Numbers-to-LLMs-Multi-Wavelet-Number-Embed]] [[Record-5dfe5fce25--Detecting-and-Controlling-Sycophancy-with-Cascading]] [[Record-981f39779f--B3O-Scalable-Boltzmann-Batch-Bayesian-Optimization]] [[Record-800cd81560--Introduction-to-Stochastic-Differential-Equations-f]] [[Record-5955c30909--AlphaWiSE-Adaptive-Weight-Interpolation-for-Continu]] [[Record-cdc6e65403--Extremal-Chowla-sets-and-their-linear-analogues-A-h]] [[Record-7fccba769e--BayesAME-Bayesian-Active-Model-Evaluation]] [[Record-67da717226--ReToken-One-Token-to-Improve-Vision-Language-Models]] [[Record-97307f83a7--Role-Steering-of-Language-Models-for-Social-Simulat]] [[Record-5b4fa30810--Retrofitting-Linear-Attention-into-Diffusion-Langua]] [[Record-1812ae1e5d--AI-Finds-A-Way]] [[AI-에이전트]] [[LLM언어모델]] [[과학수학]] [[로보틱스]] [[머신러닝-연구]] [[법률규제]] [[보안프라이버시]] [[소셜콘텐츠]] [[음성오디오]] [[의료바이오]] [[컴퓨터-비전]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
+[[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 10071f2497 · Shopify-embraces-agentic-AI-with-Google-Microsoft-p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.503265+00:00
+updated_at: 2026-10-11T00:55:35.570784+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxON255Q1NYOTNnUkRTYW5zMUV1NEQyV1BwUkl6Ml9FYVhzVF92eDd6UGtLRUJFVnRGbWhBdjlTeEVVVkNIRHZFUnRDYmpjUFpUd0dSdW9aZHd3WU9BVk5ZcmRpeldJOTV1Y1FzZkpubVpEY1J2WUV3S05sREwtTFE4Z2NjWDE3Nkx4a1BXWS1MdUtLbWhWeTBHbGhWX0VVVjJoSTBNNER2UzB0VUYtUVE?oc=5"
 ---
 
 # Record 10071f2497 · Shopify-embraces-agentic-AI-with-Google-Microsoft-p
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify embraces agentic AI with Google, Microsoft partnerships - theglobeandmail.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

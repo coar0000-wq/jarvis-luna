@@ -2,8 +2,12 @@
 title: "Record 879b04f782 · Structured-Reasoning-Agentic-Framework-for-Interpretable-Critical-View"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.844277+00:00
+updated_at: 2026-10-11T00:55:24.985761+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.31524"
 ---
 
 # Record 879b04f782 · Structured-Reasoning-Agentic-Framework-for-Interpretable-Critical-View
@@ -16,7 +20,3 @@ Structured Reasoning Agentic Framework for Interpretable Critical View of Safety
 Surgical scene understanding is critical for computer-assisted intervention, yet laparoscopic cholecystectomy remains challenged by the complex anatomy of the hepatocystic triangle and the risk of bile duct injury. Existing methods for Critical View of Safety (CVS) assessment typically treat it as a holistic prediction task, mapping visual features directly to criterion-level labels. This black-bo
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

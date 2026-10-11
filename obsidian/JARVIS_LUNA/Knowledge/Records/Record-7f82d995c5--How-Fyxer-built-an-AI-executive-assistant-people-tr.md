@@ -2,8 +2,14 @@
 title: "Record 7f82d995c5 · How-Fyxer-built-an-AI-executive-assistant-people-trust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.634270+00:00
+updated_at: 2026-10-11T00:55:37.435121+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "음성오디오", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/fyxer"
+kind: "발표물"
 ---
 
 # Record 7f82d995c5 · How-Fyxer-built-an-AI-executive-assistant-people-trust
@@ -16,7 +22,3 @@ How Fyxer built an AI executive assistant people trust
 Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[음성오디오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.595049+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.inffus.2026.104237"
 ---
 
 # Record 250 · The-effect-of-data-poisoning-on-counterfactual-explanations
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The effect of data poisoning on counterfactual explanations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

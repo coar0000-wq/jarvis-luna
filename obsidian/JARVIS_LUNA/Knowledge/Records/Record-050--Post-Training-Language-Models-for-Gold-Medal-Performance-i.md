@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.789995+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.02849v1"
 ---
 
 # Record 050 · Post-Training-Language-Models-for-Gold-Medal-Performance-in-Coding-Com
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Post-Training Language Models for Gold-Medal Performance in Coding Competitions
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

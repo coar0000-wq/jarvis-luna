@@ -2,8 +2,12 @@
 title: "Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.984069+00:00
+updated_at: 2026-10-11T00:55:12.286186+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["뷰티스킨케어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06484v1"
 ---
 
 # Record e49fc2d01e · Second-Order-Smooth-Planning-with-Optimal-Transport
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Second-Order Smooth Planning with Optimal-Transport Bellman Smoothing
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

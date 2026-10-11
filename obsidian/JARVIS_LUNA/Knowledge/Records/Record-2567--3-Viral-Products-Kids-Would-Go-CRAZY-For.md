@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.360704+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/q69CoKFFmrg"
 ---
 
 # Record 2567 · 3-Viral-Products-Kids-Would-Go-CRAZY-For
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 Viral Products Kids Would Go CRAZY For 🤩
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

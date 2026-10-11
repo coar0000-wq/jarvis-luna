@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.766122+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/P0-JhQ37nhw"
 ---
 
 # Record 2228 · Luxury-brand-secrets-they-dont-want-you-to-know
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Luxury brand secrets they don't want you to know 🤫
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

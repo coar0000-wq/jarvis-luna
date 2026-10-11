@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.248889+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "소셜콘텐츠", "법률규제"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YbW1KQVprUTRtSmVTVVhvbTRxSUE2eEl3MkpiZG5yN1dGb1dTTFpVbEs0TFo4a2dyZFBsa0dtQzg3VmIxdi10WUJncExHY1RacXpSdk94UzYzbjdkN1BIc0Y2NTZsNWgtWmJ4Z1h3TGQ5aWM?oc=5"
 ---
 
 # Record 1235 · StoreClaw-Aims-to-Unify-AI-Powered-Cross-Border-E-Commerce-Operations-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 StoreClaw Aims to Unify AI-Powered Cross-Border E-Commerce Operations Across Amazon, Shopify, and TikTok Shop - Pandaily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[소셜콘텐츠]] [[법률규제]] [[JARVIS Real Knowledge Index]]

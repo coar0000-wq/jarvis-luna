@@ -2,8 +2,14 @@
 title: "Record 33f98722c2 · Offloaded-inference-for-real-world-physical-AI-robotics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.502642+00:00
+updated_at: 2026-10-11T00:55:50.318966+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "AI-에이전트"]
+org: "Microsoft Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/"
+kind: "발표물"
 ---
 
 # Record 33f98722c2 · Offloaded-inference-for-real-world-physical-AI-robotics
@@ -16,7 +22,3 @@ Offloaded inference for real-world physical AI robotics
 Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[AI-에이전트]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

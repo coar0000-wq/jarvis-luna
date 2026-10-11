@@ -2,8 +2,14 @@
 title: "Record 6dbdc53ba4 · Video-Voices-of-Galaxy-Meet-Lefa-Makgato-Championin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.590379+00:00
+updated_at: 2026-10-11T00:55:36.830967+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "음성오디오", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/video-voices-of-galaxy-meet-lefa-makgato-championing-africas-next-generation-of-innovators"
+kind: "발표물"
 ---
 
 # Record 6dbdc53ba4 · Video-Voices-of-Galaxy-Meet-Lefa-Makgato-Championin
@@ -16,7 +22,3 @@ tags: [record, real-data]
 For Lefa Makgato, CSR Manager at Samsung Electronics Africa, empowering the next generation of digital innovators is more than a mission — it’s the driving force behind her work leading Samsung’s CSR initiatives across Africa. Growing up in a small township in South Africa, Lefa Makgato didn’t know what to dream about because technology felt […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[음성오디오]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

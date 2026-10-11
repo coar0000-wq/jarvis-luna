@@ -2,8 +2,14 @@
 title: "Record d3a33771a2 · High-Volume-Acquisition-Rate-Nonlinear-Imaging-Enables-Robust-3-D-Ultr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.448213+00:00
+updated_at: 2026-10-11T00:55:18.969901+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tuffc.2025.3589815"
+kind: "논문"
 ---
 
 # Record d3a33771a2 · High-Volume-Acquisition-Rate-Nonlinear-Imaging-Enables-Robust-3-D-Ultr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 High-Volume Acquisition Rate Nonlinear Imaging Enables Robust 3-D Ultrasound Localization Microscopy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

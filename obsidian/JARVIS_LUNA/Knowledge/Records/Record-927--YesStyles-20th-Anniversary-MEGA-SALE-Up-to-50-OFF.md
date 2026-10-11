@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.410561+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=_FoWzpR-EPY"
 ---
 
 # Record 927 · YesStyles-20th-Anniversary-MEGA-SALE-Up-to-50-OFF
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 YesStyle's 20th Anniversary MEGA SALE! Up to 50% OFF~
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

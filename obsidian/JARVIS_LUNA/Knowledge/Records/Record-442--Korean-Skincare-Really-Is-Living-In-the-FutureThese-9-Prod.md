@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.860865+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZngzOVM1NVd0V0NhUEFpbDU1SFN0Vk9sWm1vY200S3pCRHhVWWJ1MmNNSDl0VXN0amQ3OHNRaWIzOTBueTZ2RDlUQl9tX0VQcFpZaUdTQ3Q2MjRMTU9aNGN0Nkd4UlRuQ1BIanE4ZXVYRmh4RmZsaEtIb2Q0RkNUMjU5ZFA?oc=5"
 ---
 
 # Record 442 · Korean-Skincare-Really-Is-Living-In-the-FutureThese-9-Products-Are-Pro
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Korean Skincare Really Is Living In the Future—These 9 Products Are Proof - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

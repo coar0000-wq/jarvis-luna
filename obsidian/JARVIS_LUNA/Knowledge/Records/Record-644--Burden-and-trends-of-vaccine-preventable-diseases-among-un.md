@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.475454+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.30574/wjarr.2026.29.3.0776"
 ---
 
 # Record 644 · Burden-and-trends-of-vaccine-preventable-diseases-among-under-five-chi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Burden and trends of vaccine-preventable diseases among under-five children in the federal capital territory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

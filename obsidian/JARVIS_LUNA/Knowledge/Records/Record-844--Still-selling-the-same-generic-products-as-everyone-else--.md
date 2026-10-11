@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.181345+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/K1g_B3espJc"
 ---
 
 # Record 844 · Still-selling-the-same-generic-products-as-everyone-else---CJ-ODM
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Still selling the same generic products as everyone else? 👀 | CJ ODM
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

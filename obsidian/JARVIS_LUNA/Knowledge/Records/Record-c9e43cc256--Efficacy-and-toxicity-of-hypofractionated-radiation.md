@@ -2,8 +2,14 @@
 title: "Record c9e43cc256 · Efficacy-and-toxicity-of-hypofractionated-radiation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.330181+00:00
+updated_at: 2026-10-11T00:55:16.772144+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.radonc.2025.111200"
+kind: "논문"
 ---
 
 # Record c9e43cc256 · Efficacy-and-toxicity-of-hypofractionated-radiation
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Efficacy and toxicity of hypofractionated radiation therapy for patients with hematologic malignancies: A COVID-era ILROG collaborative report
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

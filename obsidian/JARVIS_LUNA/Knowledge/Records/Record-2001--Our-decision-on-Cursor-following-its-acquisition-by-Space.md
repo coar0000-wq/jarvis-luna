@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.778779+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
 ---
 
 # Record 2001 · Our-decision-on-Cursor-following-its-acquisition-by-SpaceX
@@ -16,7 +21,3 @@ Our decision on Cursor following its acquisition by SpaceX
 Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

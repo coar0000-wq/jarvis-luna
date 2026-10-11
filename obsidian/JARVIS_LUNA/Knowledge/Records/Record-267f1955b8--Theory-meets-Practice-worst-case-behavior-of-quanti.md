@@ -2,8 +2,14 @@
 title: "Record 267f1955b8 · Theory-meets-Practice-worst-case-behavior-of-quanti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.661955+00:00
+updated_at: 2026-10-11T00:55:37.812294+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "openalex.org"
+url: "https://openalex.org/W3130356934"
+kind: "논문"
 ---
 
 # Record 267f1955b8 · Theory-meets-Practice-worst-case-behavior-of-quanti
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Theory meets Practice: worst case behavior of quantile algorithms
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 1dce3a090b · TM-APR-Thermal-Temporal-Memory-Localization-via-Analytic-Online-Adapta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.792218+00:00
+updated_at: 2026-10-11T00:55:24.334268+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전", "인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.26766"
 ---
 
 # Record 1dce3a090b · TM-APR-Thermal-Temporal-Memory-Localization-via-Analytic-Online-Adapta
@@ -16,7 +20,3 @@ TM-APR: Thermal Temporal-Memory Localization via Analytic Online Adaptation
 Thermal Visual Place Recognition (Thermal VPR) maps camera observations to metric poses within a mapped environment, serving as a prerequisite for autonomous navigation. However, thermal VPR suffers from severe environmental dependence, heavy online retraining overheads, and an inability to model dynamic non-linear shifts, causing existing frameworks to fail during online deployment. To achieve ro
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

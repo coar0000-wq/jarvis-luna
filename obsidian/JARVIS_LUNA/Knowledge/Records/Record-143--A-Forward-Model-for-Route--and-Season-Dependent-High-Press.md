@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.357557+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05029v1"
 ---
 
 # Record 143 · A-Forward-Model-for-Route--and-Season-Dependent-High-Pressure-Compress
@@ -16,7 +20,3 @@ A Forward Model for Route- and Season-Dependent High-Pressure Compressor Efficie
 Civil turbofan engines lose compressor efficiency every time they fly through particle-laden air. Fouling of the high-pressure compressor (HPC) is the dominant recoverable performance-loss mechanism. Existing studies treat environmental particle exposure, blade-row deposition and stage-performance deterioration as separate problems, which limits understanding of the issue. Stage-stacking approache
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

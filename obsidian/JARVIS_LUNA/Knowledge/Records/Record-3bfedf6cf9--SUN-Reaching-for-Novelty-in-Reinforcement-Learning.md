@@ -2,8 +2,12 @@
 title: "Record 3bfedf6cf9 · SUN-Reaching-for-Novelty-in-Reinforcement-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.993473+00:00
+updated_at: 2026-10-11T00:55:12.372142+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08642v1"
 ---
 
 # Record 3bfedf6cf9 · SUN-Reaching-for-Novelty-in-Reinforcement-Learning
@@ -16,7 +20,3 @@ SUN: Reaching for Novelty in Reinforcement Learning
 Exploration in reinforcement learning (RL) remains a fundamental challenge. Recent goal-conditioned RL strategies (which select goals to encourage broader state coverage) have shown promising results, but none scores a goal by novelty and reachability jointly: the two signals are traded off by hand, applied in sequence, or one is neglected outright. In this paper, we introduce a reachability-aware
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

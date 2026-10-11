@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.861668+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7167154077"
 ---
 
 # Record 2090 · Plasma-double-layer-development-during-high-power-EUV-exposure
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Plasma double layer development during high power EUV exposure
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

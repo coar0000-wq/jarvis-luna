@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.379668+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09868v1"
 ---
 
 # Record 255 · Optimal-Dispatch-of-a-Hydrogen-Colocated-Renewable-Powered-Desalinatio
@@ -16,7 +20,3 @@ Optimal Dispatch of a Hydrogen-Colocated Renewable-Powered Desalination Plant
 This paper develops an analytical framework for profit-maximizing dispatch of water, electricity, and green hydrogen in a renewable-powered water desalination plant (WDP) combining thermal and reverse osmosis (RO) desalination. The optimal dispatch reveals that the schedules of the desalination units, electrolyzer, and grid interaction can all be characterized in closed form as functions of renewa
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[JARVIS Real Knowledge Index]]

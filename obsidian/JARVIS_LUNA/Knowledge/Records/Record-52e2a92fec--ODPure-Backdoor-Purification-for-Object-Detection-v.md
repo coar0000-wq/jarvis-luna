@@ -2,8 +2,12 @@
 title: "Record 52e2a92fec · ODPure-Backdoor-Purification-for-Object-Detection-via-Ensemble-Corrupt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.807660+00:00
+updated_at: 2026-10-11T00:55:24.535402+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["보안프라이버시"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.28239"
 ---
 
 # Record 52e2a92fec · ODPure-Backdoor-Purification-for-Object-Detection-via-Ensemble-Corrupt
@@ -16,7 +20,3 @@ ODPure: Backdoor Purification for Object Detection via Ensemble Corruption Conse
 With the development of applications like autonomous driving, object detection has gained significant attention, while also highlighting critical vulnerabilities like backdoor attacks that severely compromise model integrity. Specifically, such attacks involve altering the categories of objects (i.e., object misclassification), removing bounding boxes (i.e., object disappearance), or generating bo
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

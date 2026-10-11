@@ -2,8 +2,14 @@
 title: "Record efecd6b5fb · VLAQuantBench-Closed-Loop-Evaluation-of-Post-Training-Quantization-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.777705+00:00
+updated_at: 2026-10-11T00:55:24.133304+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "컴퓨터-비전", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.25376"
+kind: "논문"
 ---
 
 # Record efecd6b5fb · VLAQuantBench-Closed-Loop-Evaluation-of-Post-Training-Quantization-for
@@ -15,7 +21,3 @@ tags: [record, real-data]
 VLAQuantBench: Closed-Loop Evaluation of Post-Training Quantization for Vision-Language-Action Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[컴퓨터-비전]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

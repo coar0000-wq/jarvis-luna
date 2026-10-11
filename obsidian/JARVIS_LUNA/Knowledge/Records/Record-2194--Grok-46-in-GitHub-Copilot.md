@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.876039+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-6-github-copilot"
 ---
 
 # Record 2194 · Grok-46-in-GitHub-Copilot
@@ -16,7 +21,3 @@ Grok 4.6 in GitHub Copilot
 Grok 4.6, our latest coding model, is now available in GitHub Copilot.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

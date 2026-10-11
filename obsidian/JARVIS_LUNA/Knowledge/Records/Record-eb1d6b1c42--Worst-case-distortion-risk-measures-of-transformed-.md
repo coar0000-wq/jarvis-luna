@@ -2,8 +2,14 @@
 title: "Record eb1d6b1c42 · Worst-case-distortion-risk-measures-of-transformed-losses-with-uncerta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.338504+00:00
+updated_at: 2026-10-11T00:55:16.981312+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1017/asb.2025.10074"
+kind: "논문"
 ---
 
 # Record eb1d6b1c42 · Worst-case-distortion-risk-measures-of-transformed-losses-with-uncerta
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Worst-case distortion risk measures of transformed losses with uncertain distributions lying in Wasserstein balls
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

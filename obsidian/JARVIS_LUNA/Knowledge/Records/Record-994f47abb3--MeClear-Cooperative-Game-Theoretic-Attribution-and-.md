@@ -2,8 +2,12 @@
 title: "Record 994f47abb3 · MeClear-Cooperative-Game-Theoretic-Attribution-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.011478+00:00
+updated_at: 2026-10-11T00:55:12.538026+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09115v1"
 ---
 
 # Record 994f47abb3 · MeClear-Cooperative-Game-Theoretic-Attribution-and-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

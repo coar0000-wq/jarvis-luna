@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.152271+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/themes/global-tariffs"
 ---
 
 # Record 2451 · Global-Tariffs
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Global Tariffs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

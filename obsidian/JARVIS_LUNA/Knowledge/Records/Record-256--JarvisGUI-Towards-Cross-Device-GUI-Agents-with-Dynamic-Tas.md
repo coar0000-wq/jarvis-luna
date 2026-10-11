@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.798190+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10451v1"
 ---
 
 # Record 256 · JarvisGUI-Towards-Cross-Device-GUI-Agents-with-Dynamic-Task-Compositio
@@ -15,7 +19,3 @@ tags: [record, real-data]
 JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

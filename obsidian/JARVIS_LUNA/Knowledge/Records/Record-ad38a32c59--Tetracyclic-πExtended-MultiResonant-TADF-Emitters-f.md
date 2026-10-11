@@ -2,8 +2,14 @@
 title: "Record ad38a32c59 · Tetracyclic-πExtended-MultiResonant-TADF-Emitters-for-Green-PSFOLEDs-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.251950+00:00
+updated_at: 2026-10-11T00:55:15.587741+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1002/adfm.78000"
+kind: "논문"
 ---
 
 # Record ad38a32c59 · Tetracyclic-πExtended-MultiResonant-TADF-Emitters-for-Green-PSFOLEDs-W
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Tetracyclic π‐Extended Multi‐Resonant TADF Emitters for Green PSF‐OLEDs With 37.7% EQE and BT.2020‐Compatible Top‐Emitting Devices
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

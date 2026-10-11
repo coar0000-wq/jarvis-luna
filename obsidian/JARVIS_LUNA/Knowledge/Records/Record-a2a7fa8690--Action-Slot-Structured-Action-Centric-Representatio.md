@@ -2,8 +2,12 @@
 title: "Record a2a7fa8690 · Action-Slot-Structured-Action-Centric-Representation-Learning-for-Mult"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.169462+00:00
+updated_at: 2026-10-11T00:55:14.443750+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.24127"
 ---
 
 # Record a2a7fa8690 · Action-Slot-Structured-Action-Centric-Representation-Learning-for-Mult
@@ -16,7 +20,3 @@ Action-Slot: Structured Action-Centric Representation Learning for Multi-Agent A
 Atomic activity understanding aims to recognize and localize structured traffic behaviors that jointly encode motion patterns and their grounding in road topology. Unlike conventional action recognition, atomic activities are multi-agent, multi-label, and topology-aware: multiple activities co-occur while many agents remain inactive. We introduce Action-Slot, a structured action-centric representa
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

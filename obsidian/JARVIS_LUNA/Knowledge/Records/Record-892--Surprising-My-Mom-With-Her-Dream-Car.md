@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.404463+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=CE2r2OpJmk8"
 ---
 
 # Record 892 · Surprising-My-Mom-With-Her-Dream-Car
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Surprising My Mom With Her Dream Car
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

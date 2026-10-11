@@ -2,8 +2,12 @@
 title: "Record 53b6da4542 · Kinda-sad-Laneige-patrons-lament-online-store-closure-in-Philippines--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.540267+00:00
+updated_at: 2026-10-11T00:55:36.217930+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTGhFUWN4NzBWZGYzdnRQRWM5MFo1VzNnVnJTcmVnUllrdEhraDJWTVdGS0xUQjJYYjBONHNIT1M3RUtVQjZBQi00MnpMRjVYLTlTbXpsaEdzaG12dmJkMXNsQzhNakdONHZFaGNxRVByV3l1di1VUlNMQklhY0dHcVFydDh1MHp1bnVmNlhSY0h6SEFVNkJ4WmdCRVJEVllFTFVocS1ZTDB3RmdnaHYxcXVNQWVjTEJSWFhCcnE2UDB4ZGM?oc=5"
 ---
 
 # Record 53b6da4542 · Kinda-sad-Laneige-patrons-lament-online-store-closure-in-Philippines--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ‘Kinda sad’: Laneige patrons lament online store closure in Philippines - Interaksyon
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

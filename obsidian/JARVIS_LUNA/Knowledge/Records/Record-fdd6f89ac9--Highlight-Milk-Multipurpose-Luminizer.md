@@ -2,8 +2,12 @@
 title: "Record fdd6f89ac9 · Highlight-Milk-Multipurpose-Luminizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.559641+00:00
+updated_at: 2026-10-11T00:55:51.541399+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.sephora.com"
+url: "https://www.sephora.com/product/highlight-milk-multipurpose-luminzer-P525016"
 ---
 
 # Record fdd6f89ac9 · Highlight-Milk-Multipurpose-Luminizer
@@ -16,7 +20,3 @@ Highlight Milk Multipurpose Luminizer
 Highlight Milk Multipurpose Luminizer · rhode · $28
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

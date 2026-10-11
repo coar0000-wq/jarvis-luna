@@ -2,8 +2,12 @@
 title: "Record 410f5b0595 · Found-a-product-you-want-to-sell-but-cant-find-it-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.703006+00:00
+updated_at: 2026-10-11T00:55:53.877117+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/bldqxE1CBL0"
 ---
 
 # Record 410f5b0595 · Found-a-product-you-want-to-sell-but-cant-find-it-o
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Found a product you want to sell but can‘t find it on CJ? 👀
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

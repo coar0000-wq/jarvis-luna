@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.912219+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTXVfWGVZdDU2dGJZMmp3dE9WR1dsTk54ZFdKRHd6aGswQk5pSHFvMWo3anNEbjdLQmhHakU1WTV6VmI1NFBsLTZ6VDhnUW1NN29abnk2OVlPSlgxRDBSN1lzYkwxaW13dUZoWDRFelZVY0lYWHlzM3p4VnpieVNPeFZUbWM?oc=5"
 ---
 
 # Record 455 · I-Flew-Home-From-Seoul-With-20-New-ProductsThese-Are-My-Favorites---ma
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 I Flew Home From Seoul With 20+ New Products—These Are My Favorites - marieclaire.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

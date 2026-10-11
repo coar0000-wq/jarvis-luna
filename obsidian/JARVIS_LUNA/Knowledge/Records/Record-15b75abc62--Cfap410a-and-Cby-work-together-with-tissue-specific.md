@@ -2,8 +2,14 @@
 title: "Record 15b75abc62 · Cfap410a-and-Cby-work-together-with-tissue-specific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.006526+00:00
+updated_at: 2026-10-11T00:55:27.371990+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.09.08.749861"
+kind: "논문"
 ---
 
 # Record 15b75abc62 · Cfap410a-and-Cby-work-together-with-tissue-specific
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Cfap410a and Cby work together with tissue-specific requirements to build Drosophila ciliary transition zones
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

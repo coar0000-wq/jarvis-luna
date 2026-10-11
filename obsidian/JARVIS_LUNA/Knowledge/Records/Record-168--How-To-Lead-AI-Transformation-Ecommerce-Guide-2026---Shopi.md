@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.106937+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fc2xKazdzb096SlhROVFtaDlONVRaNWJfTVdhQkRkVHBENHJMU2Jtck9hMmN5TjVLdFVxZmhybkgtejVKVXFsdUJydzVmaUNNRUtiREEzR0pnY0NtQWItZkFvR1h1N2xz?oc=5"
 ---
 
 # Record 168 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 How To Lead AI Transformation: Ecommerce Guide (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

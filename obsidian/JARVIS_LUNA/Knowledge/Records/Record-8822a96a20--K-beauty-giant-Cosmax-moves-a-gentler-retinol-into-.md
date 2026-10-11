@@ -2,8 +2,12 @@
 title: "Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.242213+00:00
+updated_at: 2026-10-11T00:55:31.026957+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUdDdvR2d2OVFOalFSSmtja1NjWlY0R3FVUUI3THBYR1c1YXo0SEh5WkVYZHJWQWdsdjI3eWRFNi1ZZ0l1MF9XOWtTNlFsUHczczFpNWo0SVR6bU14b1RidEkwSU10TnVKbkdEMU5n0gFyQVVfeXFMT1AxUmtWUF9xczdQd0hNbkxXdTE2OC1LSm11Y00tVUQyVEpjYnlGazJqd09FODQwc1RheV9haVJzOHBWZXhra0ZhX09UREJHUlhfdXE1b19UZWdtOUpHNXlNWHNkdlVybFJER1pKZ0JKYktR?oc=5"
 ---
 
 # Record 8822a96a20 · K-beauty-giant-Cosmax-moves-a-gentler-retinol-into-
@@ -16,7 +20,3 @@ K-beauty giant Cosmax moves a gentler retinol into stick form - Korea Biomedical
 K-beauty giant Cosmax moves a gentler retinol into stick form - Korea Biomedical Review
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

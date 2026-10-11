@@ -2,8 +2,14 @@
 title: "Record 58844de1bb · Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Reliable-Large-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.630653+00:00
+updated_at: 2026-10-11T00:55:22.081631+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2605.07417"
+kind: "논문"
 ---
 
 # Record 58844de1bb · Effective-and-Memory-Efficient-Alternatives-to-ECC-for-Reliable-Large-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Effective and Memory-Efficient Alternatives to ECC for Reliable Large-Scale DNNs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

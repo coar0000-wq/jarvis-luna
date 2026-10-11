@@ -2,8 +2,12 @@
 title: "Record 33820c93e4 · The-top-3-most-influential-TikTok-trends-in-beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.314866+00:00
+updated_at: 2026-10-11T00:55:32.315269+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IdnhwTUUtRlkwN3lOTFBTX2FXdkIybFZOODBYSUllUFpwTkFMblMyYVQ1d2ZCSnJUVXBWUS1qNFRHUkdibmlldmVETUZTTThOSUFsUGdkQXFUbGl0UmdtZEQ3dGpWRlhoRk9FNmdDdm5VRm9iR0cwX3VjOEdVdw?oc=5"
 ---
 
 # Record 33820c93e4 · The-top-3-most-influential-TikTok-trends-in-beauty-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The top 3 most influential TikTok trends in beauty - Cosmetics Business
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

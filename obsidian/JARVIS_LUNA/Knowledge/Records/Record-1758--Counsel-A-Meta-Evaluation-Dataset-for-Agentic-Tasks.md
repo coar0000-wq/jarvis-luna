@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.780402+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "머신러닝-연구"]
+org: "Mistral-AI"
+domain: "openalex.org"
+url: "https://openalex.org/W7165818325"
 ---
 
 # Record 1758 · Counsel-A-Meta-Evaluation-Dataset-for-Agentic-Tasks
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Counsel: A Meta-Evaluation Dataset for Agentic Tasks
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[머신러닝-연구]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

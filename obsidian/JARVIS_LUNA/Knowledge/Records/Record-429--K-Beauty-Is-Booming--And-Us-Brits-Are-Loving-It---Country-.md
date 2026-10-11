@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.582477+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeU5ma1UzWlFGRU03QTJrbzRxVkttanhONThlb3phdHBSQlFpNWhxVUhpVW4wcEV1Sm90UXpfd3lfU01JcW15ZFVkNlhEbzVwNVdOZmNwa2JYMGUwR0J4Nms1cUU3MWZzaFIwRU1Jd1B1X2V3ZDN4NVdXVnRKVVFPV1dqMlY?oc=5"
 ---
 
 # Record 429 · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---Country-and-Town-Hou
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 K-Beauty Is Booming – And Us Brits Are Loving It - Country and Town House
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

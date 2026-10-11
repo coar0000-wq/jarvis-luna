@@ -2,8 +2,12 @@
 title: "Record 9fb4f495f7 · 10colors-alternativestereo-Lip-Potion-Caramel-Glaze-027-fl-oz8ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.867757+00:00
+updated_at: 2026-10-11T00:55:41.293555+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA96661380"
 ---
 
 # Record 9fb4f495f7 · 10colors-alternativestereo-Lip-Potion-Caramel-Glaze-027-fl-oz8ml
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [10colors] alternativestereo Lip Potion Caramel Glaze 0.27 fl. oz.(8ml) · 평점 4.8 · 리뷰 7,393
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

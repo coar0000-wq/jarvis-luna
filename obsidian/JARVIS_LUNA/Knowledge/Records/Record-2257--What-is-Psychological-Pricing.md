@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.687556+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/UCJ32U2TyX4"
 ---
 
 # Record 2257 · What-is-Psychological-Pricing
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is Psychological Pricing?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 9152ae2107 · Q2-2024-Financial-Results"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.408604+00:00
+updated_at: 2026-10-11T00:55:48.510987+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/press-releases/2024/q2-2024-financial-results"
+kind: "발표물"
 ---
 
 # Record 9152ae2107 · Q2-2024-Financial-Results
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Q2 2024 Financial Results
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

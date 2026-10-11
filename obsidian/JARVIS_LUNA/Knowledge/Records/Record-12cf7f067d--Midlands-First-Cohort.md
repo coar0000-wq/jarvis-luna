@@ -2,8 +2,14 @@
 title: "Record 12cf7f067d · Midlands-First-Cohort"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.450147+00:00
+updated_at: 2026-10-11T00:55:49.261982+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/community-transformation/10000-small-businesses/uk/insights/midlands-first-cohort"
+kind: "발표물"
 ---
 
 # Record 12cf7f067d · Midlands-First-Cohort
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Midlands First Cohort
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

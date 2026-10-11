@@ -2,8 +2,14 @@
 title: "Record 6292a0714a · Reconfigurable-interferometric-form-and-mid-spatial"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.502938+00:00
+updated_at: 2026-10-11T00:55:19.908687+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1364/oe.605857"
+kind: "논문"
 ---
 
 # Record 6292a0714a · Reconfigurable-interferometric-form-and-mid-spatial
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Reconfigurable interferometric form and mid-spatial frequency metrology for extended reality freeform optics
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.285381+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZQTVTVTVjeTdhcnkzbEpnaUJMbHlhWjM5OE1rcHUwR0dxUG1rcVVtclBlRWRCY2VvNEIyWlVnUXNOek5xR0FwQzEzVUxUMGVyVDdYTzItQ2w1a0NiWWVnU296ZXl1cXpUWkVDOFozcw?oc=5"
 ---
 
 # Record 238 · eCommerce-Expo-Was-AI-Heavy-but-Ultimately-About-How-We-Keep-Shopping-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 eCommerce Expo Was AI-Heavy, but Ultimately About How We Keep Shopping Personal - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

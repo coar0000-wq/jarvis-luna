@@ -2,8 +2,14 @@
 title: "Record 7948c39493 · Funding-grants-for-new-research-into-AI-and-teen-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.655938+00:00
+updated_at: 2026-10-11T00:55:37.715961+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/teen-development-research-grants"
+kind: "발표물"
 ---
 
 # Record 7948c39493 · Funding-grants-for-new-research-into-AI-and-teen-de
@@ -16,7 +22,3 @@ Funding grants for new research into AI and teen development
 Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

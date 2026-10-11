@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.981008+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=CE2r2OpJmk8"
 ---
 
 # Record 2380 · Surprising-My-Mom-With-Her-Dream-Car
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Surprising My Mom With Her Dream Car
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

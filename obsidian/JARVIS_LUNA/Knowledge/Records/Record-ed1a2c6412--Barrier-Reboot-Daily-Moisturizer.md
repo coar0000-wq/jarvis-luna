@@ -2,8 +2,12 @@
 title: "Record ed1a2c6412 · Barrier-Reboot-Daily-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.619389+00:00
+updated_at: 2026-10-11T00:55:52.477117+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/barrier-reboot-daily-moisturizer-pimprod2061561"
 ---
 
 # Record ed1a2c6412 · Barrier-Reboot-Daily-Moisturizer
@@ -16,7 +20,3 @@ Barrier Reboot Daily Moisturizer
 Barrier Reboot Daily Moisturizer · ANUA · $24
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

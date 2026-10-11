@@ -2,8 +2,12 @@
 title: "Record 2f36a9bc24 · Macquarie-bets-on-K-beauty-manufacturing-with-220M-ODM-deal---Dealroom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.429156+00:00
+updated_at: 2026-10-11T00:55:34.327479+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYWxveHpCYzRsS29FaE1TdldBUHc3RlZvOEUzR2dldlRiTi1wUWlvdVQwcllLZ2UxcEZ1czM3eGFpX2xFZVFkOXctSFVtX3k3T1d4bU9NLVBfY0JXMzdGMEVnU2UzSUVWZnQ4ZUdSNlBnQll2TWNqX29tc0p0M21MWmlpcVROalFfTzRjM0VVQ0c2anRGSlBwTQ?oc=5"
 ---
 
 # Record 2f36a9bc24 · Macquarie-bets-on-K-beauty-manufacturing-with-220M-ODM-deal---Dealroom
@@ -16,7 +20,3 @@ Macquarie bets on K-beauty manufacturing with ~$220M ODM deal - Dealroom
 Macquarie bets on K-beauty manufacturing with ~$220M ODM deal - Dealroom
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

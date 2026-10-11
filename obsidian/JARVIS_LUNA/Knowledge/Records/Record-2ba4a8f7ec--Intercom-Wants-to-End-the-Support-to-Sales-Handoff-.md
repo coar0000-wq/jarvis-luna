@@ -2,8 +2,12 @@
 title: "Record 2ba4a8f7ec · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem---CX-Today"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.157978+00:00
+updated_at: 2026-10-11T00:55:29.482321+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByZEdveWpWVkxTWU5GQ2NPalhIMU0wanNxeU13aUlad0JySHFIY3BoVjR1b0hMTDhpR2ZTS2xrMVNLcFFQVEtRak95MzZ4N0QwZnlWa0ZpR3dQUQ?oc=5"
 ---
 
 # Record 2ba4a8f7ec · Intercom-Wants-to-End-the-Support-to-Sales-Handoff-Problem---CX-Today
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Intercom Wants to End the Support-to-Sales Handoff Problem - CX Today
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

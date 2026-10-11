@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.670090+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "법률규제", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/practical-approach-end-end-solvency-ii-reporting-databricks"
 ---
 
 # Record 2467 · A-practical-approach-to-end-to-end-Solvency-II-reporting-in-Databricks
@@ -16,7 +21,3 @@ A practical approach to end-to-end Solvency II reporting in Databricks
 Solvency II reporting is not only a regulatory submission. It is a business process...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[법률규제]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

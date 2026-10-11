@@ -2,8 +2,12 @@
 title: "Record 03050c92ad · How-TikToks-morningshed-went-viral---The-Guardian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.497182+00:00
+updated_at: 2026-10-11T00:55:35.465905+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdTlWNFRZYXZQUHgxYnhlOEUzVTk0ZEtzMU5jbkMtUjZDWWp0bmZ5ZHd0aU5Mbm82X0JDMzZLc2Z3d05lVmVlcW1mMFVpbzZlMXBDZ0thZVZFVHhLMWZ0eXhCVkVudC1xTmhZOXRNT0V2VmZhaUJmQkd4bVk4UGJtcEw0ajV4UlVlMmdhQWJmRFBhaFY5bk51M0RPOGFydGRfeXpnZS1YRThKX28?oc=5"
 ---
 
 # Record 03050c92ad · How-TikToks-morningshed-went-viral---The-Guardian
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How TikTok’s ‘#morningshed’ went viral - The Guardian
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

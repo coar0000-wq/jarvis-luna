@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.244514+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "AI-에이전트", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/video-no-unfolding-needed-a-day-with-galaxy-z-flip8s-flexwindow"
 ---
 
 # Record 1726 · Video-No-Unfolding-Needed-A-Day-With-Galaxy-Z-Flip8s-FlexWindow
@@ -16,7 +21,3 @@ tags: [record, real-data]
 The thinnest and lightest Galaxy Z Flip yet, Galaxy Z Flip8 delivers greater convenience anytime, anywhere in a compact form factor that fits comfortably in one hand. A standout feature of Galaxy Z Flip8 is its upgraded cover display, FlexWindow. Users can take photos, access frequently used apps, and experience agentic AI — all without […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

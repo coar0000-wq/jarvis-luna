@@ -2,8 +2,12 @@
 title: "Record 9101277b50 · TANGO-Humanoid-Navigation-in-Cluttered-Environments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.015520+00:00
+updated_at: 2026-10-11T00:55:12.609614+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09158v1"
 ---
 
 # Record 9101277b50 · TANGO-Humanoid-Navigation-in-Cluttered-Environments
@@ -16,7 +20,3 @@ TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-La
 We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

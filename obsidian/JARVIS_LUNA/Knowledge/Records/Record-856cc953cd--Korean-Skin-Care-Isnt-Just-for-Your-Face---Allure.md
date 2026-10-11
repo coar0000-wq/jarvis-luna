@@ -2,8 +2,12 @@
 title: "Record 856cc953cd · Korean-Skin-Care-Isnt-Just-for-Your-Face---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.215190+00:00
+updated_at: 2026-10-11T00:55:30.533939+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwTGNaNVY5YV9hSXYtUEpMZ3ZVUzQ5X0VFS0Uzb25TZTU3akFRTDFLQTZTbWhBXzBVYUdpQUlNbUxkOThUVmpNWXFFRHJuV2hXT2F5VndUb0RpbzNyWHBfdXBOOG9GN25v?oc=5"
 ---
 
 # Record 856cc953cd · Korean-Skin-Care-Isnt-Just-for-Your-Face---Allure
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Korean Skin Care Isn't Just for Your Face - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

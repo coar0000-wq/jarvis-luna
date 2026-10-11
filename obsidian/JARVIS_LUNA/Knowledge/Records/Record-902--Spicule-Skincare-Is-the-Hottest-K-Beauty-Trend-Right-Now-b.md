@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.761842+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcS1LR3Y4NFV6Z1dCNlJWaHBvMW1mdVYtMGZWZDN4ajJab2I5QVNJNmM2bGU5NFRTNE5vSVRVNndRZXpDcjhHelBkU2QydWYtVHhPTlFnOHBlMVVUbmhJcXM1Vmg0ZGJ6YUVjWS1uWi1uN1Q2YVVUZzl3UzFJaEF1TnR0TVM5STdIeDJMVmRiOTBhQzZnRVIyRTF1eGZxLXpSLU5ueXo3SUhPbkdwMnY4LW9TQmUwMUt6R0otby1ZX0NtaGlkYTZaVm1sQkU4OEhUeFVFNHNWNlFla2VWeURDdlh3?oc=5"
 ---
 
 # Record 902 · Spicule-Skincare-Is-the-Hottest-K-Beauty-Trend-Right-Now-but-Dermatolo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Spicule Skincare Is the Hottest K-Beauty Trend Right Now, but Dermatologists Say It's Not What You Think - graziamagazine.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

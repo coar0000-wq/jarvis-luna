@@ -2,8 +2,14 @@
 title: "Record 887b26f48f · Quantizing-gravitational-fields-with-an-entropy-cor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.673495+00:00
+updated_at: 2026-10-11T00:55:38.022814+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7160726697"
+kind: "논문"
 ---
 
 # Record 887b26f48f · Quantizing-gravitational-fields-with-an-entropy-cor
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Quantizing gravitational fields with an entropy-corrected action principle
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

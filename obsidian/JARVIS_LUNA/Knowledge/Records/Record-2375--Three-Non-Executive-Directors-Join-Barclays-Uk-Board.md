@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.840679+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/080/three-non-executive-directors-join-barclays-uk-board/"
 ---
 
 # Record 2375 · Three-Non-Executive-Directors-Join-Barclays-Uk-Board
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Three Non Executive Directors Join Barclays Uk Board
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

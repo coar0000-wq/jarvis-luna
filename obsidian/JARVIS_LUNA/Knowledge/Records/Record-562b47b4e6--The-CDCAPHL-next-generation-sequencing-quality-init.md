@@ -2,8 +2,14 @@
 title: "Record 562b47b4e6 · The-CDCAPHL-next-generation-sequencing-quality-init"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.465619+00:00
+updated_at: 2026-10-11T00:55:19.211410+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1128/jcm.00213-26"
+kind: "논문"
 ---
 
 # Record 562b47b4e6 · The-CDCAPHL-next-generation-sequencing-quality-init
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The CDC/APHL next generation sequencing quality initiative: practical guidance to implementing quality management systems in laboratories performing next generation sequencing (phase 2)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

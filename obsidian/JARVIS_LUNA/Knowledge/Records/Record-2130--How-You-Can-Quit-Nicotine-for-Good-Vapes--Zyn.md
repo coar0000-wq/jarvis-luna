@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.739427+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=bM0JmNqMFjM"
 ---
 
 # Record 2130 · How-You-Can-Quit-Nicotine-for-Good-Vapes--Zyn
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How You Can Quit Nicotine for Good (Vapes + Zyn)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

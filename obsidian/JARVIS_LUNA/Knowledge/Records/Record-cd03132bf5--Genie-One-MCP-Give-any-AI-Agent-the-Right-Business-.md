@@ -2,8 +2,14 @@
 title: "Record cd03132bf5 · Genie-One-MCP-Give-any-AI-Agent-the-Right-Business-Context"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.431930+00:00
+updated_at: 2026-10-11T00:55:48.925307+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/genie-one-mcp-give-any-ai-agent-right-business-context"
+kind: "발표물"
 ---
 
 # Record cd03132bf5 · Genie-One-MCP-Give-any-AI-Agent-the-Right-Business-Context
@@ -16,7 +22,3 @@ Genie One MCP: Give any AI Agent the Right Business Context
 Business leaders often have access to plenty of data, but still can’t get a reliable...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

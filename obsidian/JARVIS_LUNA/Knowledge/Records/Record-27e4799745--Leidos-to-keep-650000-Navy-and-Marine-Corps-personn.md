@@ -2,8 +2,14 @@
 title: "Record 27e4799745 · Leidos-to-keep-650000-Navy-and-Marine-Corps-personnel-securely-connect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.070942+00:00
+updated_at: 2026-10-11T00:55:28.096125+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-keep-650000-navy-and-marine-corps-personnel-securely"
+kind: "발표물"
 ---
 
 # Record 27e4799745 · Leidos-to-keep-650000-Navy-and-Marine-Corps-personnel-securely-connect
@@ -16,7 +22,3 @@ Leidos to keep 650,000 Navy and Marine Corps personnel securely connected worldw
 Department of Navy awards $875 million for second option year on contract to secure and maintain critical networks worldwide RESTON, Va., Sept. 14, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS)&nbsp;will continue helping keep more than 650,000 U.S. Navy and Marine Corps personnel securely connected by
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.137425+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE11SW9Qem5PV3dkZEFGVTVfRE1JVTNqbGFRX0QxTkMyNkZBeTFsNnhQWUpwYmlRQVVlVENiNUpjZTNvU1JZZXhjMGVNYzM0ZmdMSWthdjNqdGJLTnBaZnJaRTJmcXc5X3FZbkEyaG1HR0FxRnpJQmdzaGktcnBUZw?oc=5"
 ---
 
 # Record 1271 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I-Noticed-a-Differen
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Target's K-Beauty Skincare Gem Has Shoppers Raving: 'I Noticed a Difference After One Night' - parade.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

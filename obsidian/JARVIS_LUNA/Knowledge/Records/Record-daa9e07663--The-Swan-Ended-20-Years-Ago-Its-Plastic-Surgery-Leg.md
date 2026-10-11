@@ -2,8 +2,12 @@
 title: "Record daa9e07663 · The-Swan-Ended-20-Years-Ago-Its-Plastic-Surgery-Legacy-Lives-On"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.944664+00:00
+updated_at: 2026-10-11T00:55:42.618941+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/the-swan-series-plastic-surgery-legacy-haworth-dubrow"
 ---
 
 # Record daa9e07663 · The-Swan-Ended-20-Years-Ago-Its-Plastic-Surgery-Legacy-Lives-On
@@ -16,7 +20,3 @@ tags: [record, real-data]
 'The Swan' Ended 20 Years Ago. Its Plastic Surgery Legacy Lives On.
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

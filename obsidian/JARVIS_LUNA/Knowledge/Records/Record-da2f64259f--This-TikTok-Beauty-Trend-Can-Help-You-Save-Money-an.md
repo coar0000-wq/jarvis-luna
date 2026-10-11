@@ -2,8 +2,12 @@
 title: "Record da2f64259f · This-TikTok-Beauty-Trend-Can-Help-You-Save-Money-and-Cut-Down-on-Clutt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.275929+00:00
+updated_at: 2026-10-11T00:55:31.549220+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QVlp1UGRhWlEyejViMHkySVlSODdHaktDWW5oUDlxRll6eFNmcW1LUzFVZWQxajlIemxHN09CLXQ4Vm9ONC1RYzFuaVp6UGZ0azZTaHlJQVUwV3ZrVlBmVkRlUEgwTFJTcUhjMnhLY2pWWU95dHZHeGh5dw?oc=5"
 ---
 
 # Record da2f64259f · This-TikTok-Beauty-Trend-Can-Help-You-Save-Money-and-Cut-Down-on-Clutt
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This TikTok Beauty Trend Can Help You Save Money and Cut Down on Clutter - Yahoo Lifestyle Canada
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

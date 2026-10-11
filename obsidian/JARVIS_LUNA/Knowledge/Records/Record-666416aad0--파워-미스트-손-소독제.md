@@ -2,8 +2,12 @@
 title: "Record 666416aad0 · 파워-미스트-손-소독제"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.558337+00:00
+updated_at: 2026-10-11T00:55:51.513507+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.sephora.com"
+url: "https://www.sephora.com"
 ---
 
 # Record 666416aad0 · 파워-미스트-손-소독제
@@ -16,7 +20,3 @@ tags: [record, real-data]
 파워 미스트 손 소독제 · 터치랜드 · $10.0 · 평점 4.1 · 리뷰 2,900
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

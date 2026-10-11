@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.208617+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV2dmX3J3N3JEVFJ6cm4tNVgxbXJiUzhYbExaR3lGRUExLTk1M1dBQWJtRks4WDdJNFZkSXYxdU56OWxiMWxOelRYRTNpOGpoZ1A5Q3RpaXpMUVU3bE0wQ2lYdEQ3djU1U3MxZXNxWVR3UHpXeXBXT0FtdlN3T2xMZ29pWlRXbmI4?oc=5"
 ---
 
 # Record 1330 · Im-A-K-Beauty-Expert-Living-In-Seoul--These-9-Products-Are-About-To-Be
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I'm A K-Beauty Expert Living In Seoul — These 9 Products Are About To Be Everywhere - Refinery29
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

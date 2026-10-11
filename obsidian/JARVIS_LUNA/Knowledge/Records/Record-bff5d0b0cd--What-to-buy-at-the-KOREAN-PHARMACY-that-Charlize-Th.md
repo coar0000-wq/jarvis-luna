@@ -2,8 +2,12 @@
 title: "Record bff5d0b0cd · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.707698+00:00
+updated_at: 2026-10-11T00:55:54.031522+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/kLP780UL-vU"
 ---
 
 # Record bff5d0b0cd · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Th
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What to buy at the KOREAN PHARMACY that Charlize Theron visited!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

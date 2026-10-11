@@ -2,8 +2,14 @@
 title: "Record 82274fe669 · A-childminders-guide-to-settling-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.501850+00:00
+updated_at: 2026-10-11T00:55:19.880515+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.12968/eyed.2026.24.24.04"
+kind: "논문"
 ---
 
 # Record 82274fe669 · A-childminders-guide-to-settling-in
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A childminder's guide to settling in
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

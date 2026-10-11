@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.889079+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=j_MTEPw12Qk"
 ---
 
 # Record 2525 · 2026-Best-of-Beauty-Awards-in-Japan-cosme-mid-year-rankings
@@ -15,7 +19,3 @@ tags: [record, real-data]
 2026 Best of Beauty Awards in Japan! @cosme *mid-year* rankings~
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

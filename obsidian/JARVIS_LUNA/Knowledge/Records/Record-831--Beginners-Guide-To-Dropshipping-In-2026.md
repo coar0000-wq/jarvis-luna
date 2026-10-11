@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.544062+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=_KmXbRiJVyg"
 ---
 
 # Record 831 · Beginners-Guide-To-Dropshipping-In-2026
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Beginners Guide To Dropshipping In 2026
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

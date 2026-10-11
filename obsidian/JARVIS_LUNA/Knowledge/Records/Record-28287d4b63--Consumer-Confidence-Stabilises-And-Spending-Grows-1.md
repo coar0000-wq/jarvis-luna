@@ -2,8 +2,14 @@
 title: "Record 28287d4b63 · Consumer-Confidence-Stabilises-And-Spending-Grows-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.042134+00:00
+updated_at: 2026-10-11T00:55:27.643690+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/070/consumer-confidence-stabilises-and-spending-grows-1-9-per-cent-i/"
+kind: "발표물"
 ---
 
 # Record 28287d4b63 · Consumer-Confidence-Stabilises-And-Spending-Grows-1
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Consumer Confidence Stabilises And Spending Grows 1 9 Per Cent I
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

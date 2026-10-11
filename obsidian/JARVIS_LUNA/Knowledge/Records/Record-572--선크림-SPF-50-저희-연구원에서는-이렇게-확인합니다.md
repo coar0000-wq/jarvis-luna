@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.741889+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/oE4PQahVsI4"
 ---
 
 # Record 572 · 선크림-SPF-50-저희-연구원에서는-이렇게-확인합니다
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 선크림 SPF 50+, 저희 연구원에서는 이렇게 확인합니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

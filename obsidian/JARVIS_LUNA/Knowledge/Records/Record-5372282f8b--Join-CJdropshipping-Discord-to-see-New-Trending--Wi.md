@@ -2,8 +2,12 @@
 title: "Record 5372282f8b · Join-CJdropshipping-Discord-to-see-New-Trending--Wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.737162+00:00
+updated_at: 2026-10-11T00:55:54.606225+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=nEPNmf3iu-k"
 ---
 
 # Record 5372282f8b · Join-CJdropshipping-Discord-to-see-New-Trending--Wi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Join CJdropshipping Discord to see New, Trending & Winning products in real time.
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

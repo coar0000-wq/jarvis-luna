@@ -2,8 +2,12 @@
 title: "Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.794768+00:00
+updated_at: 2026-10-11T00:55:55.326737+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.24846v1"
 ---
 
 # Record dcc4383572 · FedV-KGQA-Multi-Hop-Question-Answering-over-Vertica
@@ -16,7 +20,3 @@ FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Gr
 Real-world data for knowledge graph question answering is often distributed across different organizations due to governance and data sovereignty constraints. While centralized systems exist, they cannot answer multi-hop questions when the required facts are split across vertically partitioned silos. In this paper, we propose FedV-KGQA, a framework for multi-hop reasoning over knowledge graphs in which organizations share entities but own disjoint sets of relations. Our approach combines local graph enrichment and knowledge graph embeddings to ensure raw triples and relation parameters never leave each silo, establishing a structural data boundary without requiring centralized graph access. We further introduce a topic entity anchoring mechanism that grounds questions in the correct graph neighborhood without any runtime inter-silo communication. We evaluate 12 model configurations across three benchmarks and show that FedV-KGQA performs strongly, remains close to centralized performance, generalizes to 3-hop reasoning, and is robust to embedding perturbations.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.189566+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=HzBSFGYQ2_M"
 ---
 
 # Record 735 · Daisy-Edgar-Jones-Skincare-Routine-Is-WILD
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Daisy Edgar-Jones' Skincare Routine Is WILD
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

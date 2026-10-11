@@ -2,8 +2,12 @@
 title: "Record 8e4d8c6212 · LLaTSA-Large-Language-Model-Aligned-General-Purpose-Transient-Stabilit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.092850+00:00
+updated_at: 2026-10-11T00:55:13.515462+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.14374"
 ---
 
 # Record 8e4d8c6212 · LLaTSA-Large-Language-Model-Aligned-General-Purpose-Transient-Stabilit
@@ -16,7 +20,3 @@ LLaTSA: Large Language Model-Aligned General-Purpose Transient Stability Analysi
 Dynamic trajectory prediction has become an important paradigm for data-driven transient stability analysis (TSA), yet most existing predictors remain system-specific and require substantial retraining when network configurations, generation mixes, or state-variable sets change. Uni-TSA introduced a general-purpose TSA framework that combines channel-independent modeling with a pretrained large la
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

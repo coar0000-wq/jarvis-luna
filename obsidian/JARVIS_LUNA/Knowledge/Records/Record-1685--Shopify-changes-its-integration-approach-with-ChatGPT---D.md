@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.511320+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMmFYZ0ZRemxwVk5hQ19VLVBBd0IxWXBMTnhJX1dlZ3JzcXdOZkJZcUltYUJHWlg1MmVLXzJzektzcElFLTVrQWJfMzloNC04aFkzbnR6eWNhcGswQ2pldlNIeEZpd291OXYzbk0zVk9xY1BlVWM5WHlEUGZZMFh4c1RyS1BOdE1rX00tQXNrcUHSAZYBQVVfeXFMT1ZVY3dEcW1hanI1T25EbEFCRkNtUDhNSmg3ZkhxSEcxaTBLek1LdDJheGRHc1Nic1h1SkdKSmlSRWpPcWI4VVFiLUoyTjZ5bGxad1ZBdjFvQWxKa1FSVnB3UWlPM3l0ZXh1cGdFLWJHeTNPU0xnWHVIZFZEWWlrcWFOMmFHN2tPb3FWLXBRSElUaXBLeEpn?oc=5"
 ---
 
 # Record 1685 · Shopify-changes-its-integration-approach-with-ChatGPT---Digital-Commer
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify changes its integration approach with ChatGPT - Digital Commerce 360
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

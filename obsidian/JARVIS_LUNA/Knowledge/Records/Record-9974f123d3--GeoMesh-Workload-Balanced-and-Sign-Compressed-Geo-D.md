@@ -2,8 +2,12 @@
 title: "Record 9974f123d3 · GeoMesh-Workload-Balanced-and-Sign-Compressed-Geo-Distributed-LLM-Trai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.126688+00:00
+updated_at: 2026-10-11T00:55:13.936347+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구", "반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.18388"
 ---
 
 # Record 9974f123d3 · GeoMesh-Workload-Balanced-and-Sign-Compressed-Geo-Distributed-LLM-Trai
@@ -16,7 +20,3 @@ GeoMesh: Workload-Balanced and Sign-Compressed Geo-Distributed LLM Training
 Large language models are increasingly trained on GPUs distributed across multiple regions, but geo-distributed training is challenging in practice. Real clusters often contain GPUs with different speeds and memory capacities, and they communicate over slow wide-area networks. Our analysis shows that this creates serious problems: existing synchronous methods preserve stable updates, but fast GPUs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

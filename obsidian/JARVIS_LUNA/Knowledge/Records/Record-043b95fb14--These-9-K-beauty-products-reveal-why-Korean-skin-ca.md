@@ -2,8 +2,12 @@
 title: "Record 043b95fb14 · These-9-K-beauty-products-reveal-why-Korean-skin-ca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.298713+00:00
+updated_at: 2026-10-11T00:55:32.012040+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTFBwY1M2Rzlxcm1YVHZuV1FpV183RFhfb21ySkhsR3FaYm5GS2FITTdhSE5nVVhqUllkcGpwLVBxM1BxLUFCNEtWcW9JS2lCMmxTQ1l2em01cUZtR0xNN1BnaElZUUFOekVVUU11WjZxNEFCWHZqNFk2SEFB?oc=5"
 ---
 
 # Record 043b95fb14 · These-9-K-beauty-products-reveal-why-Korean-skin-ca
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These 9 K-beauty products reveal why Korean skin care is all anyone can talk about - The Week
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

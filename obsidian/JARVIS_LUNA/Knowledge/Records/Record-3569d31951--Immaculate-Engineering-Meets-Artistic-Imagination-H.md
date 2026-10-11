@@ -2,8 +2,14 @@
 title: "Record 3569d31951 · Immaculate-Engineering-Meets-Artistic-Imagination-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.557157+00:00
+updated_at: 2026-10-11T00:55:36.483918+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "컴퓨터-비전", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/immaculate-engineering-meets-artistic-imagination-highlights-from-design-miami-seoul-2026"
+kind: "발표물"
 ---
 
 # Record 3569d31951 · Immaculate-Engineering-Meets-Artistic-Imagination-H
@@ -16,7 +22,3 @@ Immaculate Engineering Meets Artistic Imagination: Highlights From Design Miami 
 What happens when human imagination, artificial intelligence, art and technology come together? From September 1 to 6, Samsung Electronics presented a special exhibition themed “Design is an Act of Love” during Design Miami Seoul 2026 at Dongdaemun Design Plaza (DDP) in Seoul. The exhibition offered a fresh interpretation of Samsung’s human-centered design vision. Inspired by […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.421916+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.1080/0025570x.2026.2644116"
 ---
 
 # Record 414 · Apollonius-Rides-Again-in-a-Taxicab
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Apollonius Rides Again …in a Taxicab!
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

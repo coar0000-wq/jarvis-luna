@@ -2,8 +2,14 @@
 title: "Record eb2c05f204 · Booz-Allen-Hamilton-to-Host-Conference-Call-to-Disc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.057703+00:00
+updated_at: 2026-10-11T00:55:27.925872+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "investors.boozallen.com"
+url: "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-hamilton-host-conference-call-discuss-first-13"
+kind: "발표물"
 ---
 
 # Record eb2c05f204 · Booz-Allen-Hamilton-to-Host-Conference-Call-to-Disc
@@ -16,7 +22,3 @@ Booz Allen Hamilton to Host Conference Call to Discuss First Quarter Fiscal 2027
 MCLEAN, Va. --(BUSINESS WIRE)--Jun. 12, 2026-- Booz Allen Hamilton Holding Corporation (NYSE: BAH), the parent company of advanced technology company Booz Allen Hamilton Inc., will host a conference call at 8 a.m. EDT on Friday, July 24, 2026, to discuss the financial results for the First Quarter
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

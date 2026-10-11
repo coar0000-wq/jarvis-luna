@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.100951+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa3pkRGp4QnVaTGV5OHItTnh4ZUNObFBBZUYyRVJjX2VYeEg0QVgyY3haREdyUUZPME1YeVVoS2NSNzJMYWROZ1NBZFF0RDZPSkVHUWpCTFpMd0NRZ29tTVlhT3ZCbFpUa2xPelAyUkQwTUtkZnZwNGRiOFUwdVU4aDhB?oc=5"
 ---
 
 # Record 1315 · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agentic-AI-Holiday-Strat
@@ -15,7 +19,3 @@ tags: [record, real-data]
 2025 Will Be the First Year Brands Develop an Agentic AI Holiday Strategy - ADWEEK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

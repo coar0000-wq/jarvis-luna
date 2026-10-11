@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.069166+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "openalex.org"
+url: "https://openalex.org/W7204671257"
 ---
 
 # Record 2119 · GeoMAD-Geometry-Aware-Multi-View-Anomaly-Detection-via-Deformable-Fusi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 GeoMAD: Geometry-Aware Multi-View Anomaly Detection via Deformable Fusion and Distributional Alignment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

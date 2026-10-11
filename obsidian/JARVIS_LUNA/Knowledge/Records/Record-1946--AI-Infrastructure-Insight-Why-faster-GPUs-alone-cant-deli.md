@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.023672+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/ai-infrastructure-insight-ep2-1/"
 ---
 
 # Record 1946 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor
@@ -15,7 +20,3 @@ tags: [record, real-data]
 [AI Infrastructure Insight] Why faster GPUs alone can’t deliver AI performance
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

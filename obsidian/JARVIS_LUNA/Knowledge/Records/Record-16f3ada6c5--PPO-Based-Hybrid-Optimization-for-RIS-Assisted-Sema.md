@@ -2,8 +2,14 @@
 title: "Record 16f3ada6c5 · PPO-Based-Hybrid-Optimization-for-RIS-Assisted-Semantic-Vehicular-Edge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.665336+00:00
+updated_at: 2026-10-11T00:55:37.864154+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7134991966"
+kind: "논문"
 ---
 
 # Record 16f3ada6c5 · PPO-Based-Hybrid-Optimization-for-RIS-Assisted-Semantic-Vehicular-Edge
@@ -15,7 +21,3 @@ tags: [record, real-data]
 PPO-Based Hybrid Optimization for RIS-Assisted Semantic Vehicular Edge Computing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.606231+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "인프라클라우드", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/ai-infrastructure-insight-ep2/"
 ---
 
 # Record 1692 · AI-Infrastructure-Insight-Why-faster-GPUs-alone-cant-deliver-AI-perfor
@@ -16,7 +21,3 @@ tags: [record, real-data]
 AI is no longer defined by a single model or chip. For AI to operate effectively in real-world services and industrial applications, it takes faster compute, greater memory bandwidth, higher-performance networking, more efficient storage, and stable power and cooling working
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

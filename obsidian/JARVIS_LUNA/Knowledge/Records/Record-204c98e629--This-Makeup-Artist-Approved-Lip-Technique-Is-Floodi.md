@@ -2,8 +2,12 @@
 title: "Record 204c98e629 · This-Makeup-Artist-Approved-Lip-Technique-Is-Floodi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.493446+00:00
+updated_at: 2026-10-11T00:55:35.412163+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYWVSMlQtUFRVak5EVDR2TGkxSWJnYVdFX1hZc1NEcmp5T2RXY2I3SmRrRUk0TUlaa0lodE0tSS1FRl96cGdoRzMteERaQ3FROElycXFEM2gxVDdFb2pSeWxSbkh3dVRfMG42N3dVVjU1Z2ZZdUNnRnM0TTE1LW1NQjFaVmZ0ME8tSmkxd3duclBKeVhIdWNPalNUSXhwUFgwVHhpZWRERmdCZw?oc=5"
 ---
 
 # Record 204c98e629 · This-Makeup-Artist-Approved-Lip-Technique-Is-Floodi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This Makeup Artist-Approved Lip Technique Is Flooding Our TikTok Feeds - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

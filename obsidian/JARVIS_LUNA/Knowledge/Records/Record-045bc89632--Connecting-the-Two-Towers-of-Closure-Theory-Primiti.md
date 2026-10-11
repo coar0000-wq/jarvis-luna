@@ -2,8 +2,14 @@
 title: "Record 045bc89632 · Connecting-the-Two-Towers-of-Closure-Theory-Primitive-Closure-Scales-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.979549+00:00
+updated_at: 2026-10-11T00:55:26.918418+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22896952"
+kind: "논문"
 ---
 
 # Record 045bc89632 · Connecting-the-Two-Towers-of-Closure-Theory-Primitive-Closure-Scales-H
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Connecting the Two Towers of Closure Theory: Primitive Closure Scales, Hyperbolic–Circular Geometry, and the Publication of Physical Invariants
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

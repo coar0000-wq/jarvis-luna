@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.485176+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTFBaT3FWdXVWQ1pWaUllaDFMYTR6T216QVFLeGtlUTNCWmJHd3M0dGtGNGhSYXU2a1Q0M0pmSmhLR25XTzdUWGEtS2tnaVhuSnROV1ZUS1Q0Sm1CRlh3WGU2WVZUSm1aTzhXenpldUVPR3NGc3VrVm1LQ25mZw?oc=5"
 ---
 
 # Record 1143 · The-Deeper-Meaning-Behind-TikToks-Conservative-Girl-Makeup-Trend---Pop
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Deeper Meaning Behind TikTok's "Conservative Girl" Makeup Trend - Popsugar
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

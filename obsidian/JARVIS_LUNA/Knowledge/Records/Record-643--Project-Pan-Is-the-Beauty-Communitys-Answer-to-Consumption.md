@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.361164+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUU5na1hINzdSNGhaQnR1bUlzVU1uNC05RDVTWkhpM2hVWXIyUmJSdmd4dF9wNWhNam1nVUxsNkJuR2xjYlpjMFRYRjJvSG02SU1DbmhQVG1VOExMV0JMWGQ0QkFMTWx4aWF0WllhUkJnd2dMenpfRF80SnFpSXgyaVdxcThTYXpydXBsMk5wb3V4SGZyVjhxMkVVUDAtV0VaX0E?oc=5"
 ---
 
 # Record 643 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Consumption-Overload---
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Project Pan Is the Beauty Community’s Answer to Consumption Overload - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

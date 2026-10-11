@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.678214+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=tC-qIswHYhY"
 ---
 
 # Record 2210 · Ranking-Every-Viral-Korean-Sunscreen-here-are-the-best
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Ranking Every Viral Korean Sunscreen (here are the best!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

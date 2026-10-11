@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.398378+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots"
 ---
 
 # Record 1860 · Anthropic-And-Iceland-Announce-One-Of-The-World-S-First-National-Ai-Ed
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Anthropic And Iceland Announce One Of The World S First National Ai Education Pilots
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.181509+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Z-Jlkhs_uI8"
 ---
 
 # Record 675 · You-can-build-an-eCommerce-business-from-anywhere-But-some-connections
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 You can build an eCommerce business from anywhere. But some connections are better made in person. 🤝
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

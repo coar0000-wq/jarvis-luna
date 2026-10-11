@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.370122+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "DataWalk"
+domain: "datawalk.com"
+url: "https://datawalk.com/disparate-data-ai-agents-investigations/"
 ---
 
 # Record 193 · 5-Reasons-Why-Disparate-Data-Blocks-AI-Investigation-Agents
@@ -16,7 +21,3 @@ tags: [record, real-data]
 The post 5 Reasons Why Disparate Data Blocks AI Investigation Agents appeared first on DataWalk .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--DataWalk]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record e3584a6955 · CARLAverse-A-Highly-Modular-Distributed-and-Multimo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.062099+00:00
+updated_at: 2026-10-11T00:55:13.187399+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11478v1"
 ---
 
 # Record e3584a6955 · CARLAverse-A-Highly-Modular-Distributed-and-Multimo
@@ -16,7 +20,3 @@ CARLAverse: A Highly Modular, Distributed, and Multimodal Framework for Human-in
 The development of autonomous driving demands comprehensive testing in mixed-traffic scenarios involving vulnerable road users (VRUs), where purely artificial agents often fail to capture authentic human social negotiations. While human-in-the-loop (HITL) simulators enable safe investigation of these interactions, existing multi-agent platforms struggle with the network latency and synchronization
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

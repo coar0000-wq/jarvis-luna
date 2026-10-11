@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:24.958649+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.maturitas.2026.109075"
 ---
 
 # Record 242 · Consistency-of-efficacy-and-safety-of-elinzanetant-for-vasomotor-sympt
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Consistency of efficacy and safety of elinzanetant for vasomotor symptoms and sleep disturbance associated with menopause across different populations: a review of the OASIS clinical trial program
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

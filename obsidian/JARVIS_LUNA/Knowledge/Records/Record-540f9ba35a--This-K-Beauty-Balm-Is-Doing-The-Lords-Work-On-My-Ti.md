@@ -2,8 +2,12 @@
 title: "Record 540f9ba35a · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Ti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.443238+00:00
+updated_at: 2026-10-11T00:55:34.466973+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX1JidEVaQ0YwSk9ydjY0SS04dEE2eWFWYWg3OExETjhDMDFXOXd3NXl3LXQ4YkFHSFpCRGFOWnA4dTJ4Z2VWM1RSZTZfN0o2Yks5U3NRMDBQcklFR09QNHNOMXJKaFFydUFqRjVtUGJMTjhIelBYN3dxY3NVTlhFbnd1THlIZ3VtOHRBdUNFUVNKdTFWNm14QnB30gGfAUFVX3lxTE5XRFhDZFVOVXFfTzFvZnlTY0lIcFhDOW9kbEk5azRpTlhvcE9Cd1ZVZ2p0UU9rVTBTUm9qZzNmTzFpV0MwaUkyaDd1WEQ4M3NlRGlWREswSTgxWHE5ZmdZZ25fSHNqMU91ZTVVSkQ0cmJhN0pQS3RLdjhjd2ZvRXVOOC1HR2c1M2lPZFRhd3ppczY3S2hnUFBrQmdLaTJCNA?oc=5"
 ---
 
 # Record 540f9ba35a · This-K-Beauty-Balm-Is-Doing-The-Lords-Work-On-My-Ti
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This K-Beauty Balm Is Doing The Lord’s Work On My Tired Under-Eyes — And It's Less Than $15 - HuffPost
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

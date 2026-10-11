@@ -2,8 +2,12 @@
 title: "Record 48281fb240 · From-Pixels-to-Semantics-Edge-AI-for-UAV-Based-Critical-Infrastructure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.711289+00:00
+updated_at: 2026-10-11T00:55:23.314266+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.18448"
 ---
 
 # Record 48281fb240 · From-Pixels-to-Semantics-Edge-AI-for-UAV-Based-Critical-Infrastructure
@@ -16,7 +20,3 @@ From Pixels to Semantics: Edge AI for UAV-Based Critical Infrastructure Inspecti
 Critical infrastructure assets such as bridges, tunnels, dams, and power line networks require timely and scalable inspection. While conventional manual inspection remains costly and hazardous, unmanned aerial vehicle (UAV)-based inspection has emerged as an efficient alternative for monitoring difficult-to-access structures. Existing UAV inspection pipelines have evolved from cloud-centric offlin
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

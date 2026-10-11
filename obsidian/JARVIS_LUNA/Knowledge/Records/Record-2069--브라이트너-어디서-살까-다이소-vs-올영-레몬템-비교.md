@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.848712+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/fdJIB50A04E"
 ---
 
 # Record 2069 · 브라이트너-어디서-살까-다이소-vs-올영-레몬템-비교
@@ -15,7 +19,3 @@ tags: [record, real-data]
 브라이트너 어디서 살까? 다이소 vs 올영 레몬템 비교
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

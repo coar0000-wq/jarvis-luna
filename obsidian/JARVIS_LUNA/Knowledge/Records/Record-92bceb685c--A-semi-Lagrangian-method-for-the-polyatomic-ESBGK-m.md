@@ -2,8 +2,14 @@
 title: "Record 92bceb685c · A-semi-Lagrangian-method-for-the-polyatomic-ESBGK-model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.642136+00:00
+updated_at: 2026-10-11T00:55:22.342943+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.21191"
+kind: "논문"
 ---
 
 # Record 92bceb685c · A-semi-Lagrangian-method-for-the-polyatomic-ESBGK-model
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A semi-Lagrangian method for the polyatomic ESBGK model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

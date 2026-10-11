@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.088915+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/gallery/best-the-ordinary-products"
 ---
 
 # Record 2068 · 12-Best-The-Ordinary-Products-for-an-Affordable-Beauty-Routine
@@ -16,7 +20,3 @@ tags: [record, real-data]
 12 Best The Ordinary Products for an Affordable Beauty Routine
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

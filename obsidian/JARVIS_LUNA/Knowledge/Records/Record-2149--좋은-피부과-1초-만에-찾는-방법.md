@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.508803+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/-wDQyrGApzM"
 ---
 
 # Record 2149 · 좋은-피부과-1초-만에-찾는-방법
@@ -15,7 +19,3 @@ tags: [record, real-data]
 좋은 피부과 1초 만에 찾는 방법
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

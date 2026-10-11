@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.925869+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVW9CbkhlQnpSMVpCd0JiSGJnQ3dwRkJ5ZWJ1MkVUY1U0NHpYX2pabmJRQ3V0Vk4wVzBVdHNoZU1TS1hteW5xR3lXeU1vMmVpLTZtakVxVkM2VXd3NVNnY1UyQlh4anFxT0JIcjVfMjA3TndXN2tSVEkxaUtCRmtBM0ZYR2luR1JRQURnMmFqcVFybVE?oc=5"
 ---
 
 # Record 525 · The-Top-Beauty-Trends-to-Watch-in-2025---The-Business-of-Fashion
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The Top Beauty Trends to Watch in 2025 - The Business of Fashion
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

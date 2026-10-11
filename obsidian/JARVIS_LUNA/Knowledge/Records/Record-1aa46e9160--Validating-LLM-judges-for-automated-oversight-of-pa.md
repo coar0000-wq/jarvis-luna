@@ -2,8 +2,14 @@
 title: "Record 1aa46e9160 · Validating-LLM-judges-for-automated-oversight-of-patient-communication"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.008169+00:00
+updated_at: 2026-10-11T00:55:27.394299+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.09.16.26363176"
+kind: "논문"
 ---
 
 # Record 1aa46e9160 · Validating-LLM-judges-for-automated-oversight-of-patient-communication
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Validating LLM judges for automated oversight of patient communication
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

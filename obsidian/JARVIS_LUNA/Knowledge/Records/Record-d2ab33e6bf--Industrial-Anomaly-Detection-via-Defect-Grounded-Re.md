@@ -2,8 +2,12 @@
 title: "Record d2ab33e6bf · Industrial-Anomaly-Detection-via-Defect-Grounded-Reasoning-in-Visual-L"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.820735+00:00
+updated_at: 2026-10-11T00:55:24.689636+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.29457"
 ---
 
 # Record d2ab33e6bf · Industrial-Anomaly-Detection-via-Defect-Grounded-Reasoning-in-Visual-L
@@ -16,7 +20,3 @@ Industrial Anomaly Detection via Defect-Grounded Reasoning in Visual Latent Spac
 Industrial anomaly detection (IAD) is evolving beyond conventional detection and localization toward multimodal inspection systems that can describe, explain, and reason about fine-grained defects. Although recent multimodal large language model (MLLM)-based methods improve anomaly understanding through textual reasoning and visual guidance, they face two limitations in fine-grained inspection. Fi
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

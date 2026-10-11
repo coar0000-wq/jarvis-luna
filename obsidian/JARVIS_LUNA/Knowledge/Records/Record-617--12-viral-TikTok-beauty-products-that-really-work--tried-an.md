@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.913391+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQjEtZ3BIMDc3NEc4elNSWnVpdWwyc1lpeHNyRjl6OXc3ZkJrWndVOVJjRDMyQ1VvbzdoaFVwM25NS1F3RXlOZEdKNG00SW5kamNJaDBTMk5nQlZNanNIQXY5bVdNbUdKWnRkVVlqNldjeWlrMGp2ajVjNE9TZ01INXA4NDhCRnNaem5wbzFhbmxBbEExbFBF?oc=5"
 ---
 
 # Record 617 · 12-viral-TikTok-beauty-products-that-really-work--tried-and-tested---t
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 12 viral TikTok beauty products that really work — tried and tested - thetimes.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

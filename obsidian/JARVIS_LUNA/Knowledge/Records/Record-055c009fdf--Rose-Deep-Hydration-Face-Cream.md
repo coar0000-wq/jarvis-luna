@@ -2,8 +2,12 @@
 title: "Record 055c009fdf · Rose-Deep-Hydration-Face-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.654086+00:00
+updated_at: 2026-10-11T00:55:53.031191+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/rose-deep-hydration-face-cream-pimprod2025112"
 ---
 
 # Record 055c009fdf · Rose-Deep-Hydration-Face-Cream
@@ -16,7 +20,3 @@ Rose Deep Hydration Face Cream
 Rose Deep Hydration Face Cream · fresh · $19
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

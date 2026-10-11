@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.038415+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "openalex.org"
+url: "https://openalex.org/W7124818268"
 ---
 
 # Record 2000 · Transmon-Architecture-for-Emission-and-Detection-of-Single-Microwave-P
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Transmon Architecture for Emission and Detection of Single Microwave Photons
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

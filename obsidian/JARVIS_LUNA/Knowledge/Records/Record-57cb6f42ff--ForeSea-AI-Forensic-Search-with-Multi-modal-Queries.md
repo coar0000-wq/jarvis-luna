@@ -2,8 +2,14 @@
 title: "Record 57cb6f42ff · ForeSea-AI-Forensic-Search-with-Multi-modal-Queries"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.666999+00:00
+updated_at: 2026-10-11T00:55:37.888876+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7140954095"
+kind: "논문"
 ---
 
 # Record 57cb6f42ff · ForeSea-AI-Forensic-Search-with-Multi-modal-Queries
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ForeSea: AI Forensic Search with Multi-modal Queries for Video Surveillance
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

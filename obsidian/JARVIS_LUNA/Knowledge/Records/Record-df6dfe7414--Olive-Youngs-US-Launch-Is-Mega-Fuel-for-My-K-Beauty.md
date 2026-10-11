@@ -2,8 +2,12 @@
 title: "Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.382089+00:00
+updated_at: 2026-10-11T00:55:33.445798+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbjlOMmNqTi0yZlhEb0NuUEtwckxCX09FLUx2anVTV2x5TktLOFlqejRuTjJPQ1JLTlBNUFVnV0Y0WFlIQ01fNUdDcWIxZ0cwVndMdW4wRzU2Tk4wc0FKMU40WlRaSnBnSjZfYUdpcXhVZlJYYW5nMVNrci1EQ0Y5dWJfRUdiV2l3akk4Vg?oc=5"
 ---
 
 # Record df6dfe7414 · Olive-Youngs-US-Launch-Is-Mega-Fuel-for-My-K-Beauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young’s U.S. Launch Is Mega Fuel for My K-Beauty Obsession - Marie Claire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

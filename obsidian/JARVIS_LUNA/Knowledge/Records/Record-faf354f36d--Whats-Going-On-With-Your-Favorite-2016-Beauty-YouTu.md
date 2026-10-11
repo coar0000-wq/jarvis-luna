@@ -2,8 +2,12 @@
 title: "Record faf354f36d · Whats-Going-On-With-Your-Favorite-2016-Beauty-YouTu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.905472+00:00
+updated_at: 2026-10-11T00:55:42.019247+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/2016-beauty-youtubers-interview"
 ---
 
 # Record faf354f36d · Whats-Going-On-With-Your-Favorite-2016-Beauty-YouTu
@@ -16,7 +20,3 @@ What’s Going On With Your Favorite 2016 Beauty YouTubers?
 What’s Going On With Your Favorite 2016 Beauty YouTubers?
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

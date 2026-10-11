@@ -2,8 +2,12 @@
 title: "Record eb5af7bdac · SatNav-A-Scalable-Benchmark-for-Long-Horizon-UAV-Vision-Language-Navig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.843715+00:00
+updated_at: 2026-10-11T00:55:24.977671+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "머신러닝-연구", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.31507"
 ---
 
 # Record eb5af7bdac · SatNav-A-Scalable-Benchmark-for-Long-Horizon-UAV-Vision-Language-Navig
@@ -16,7 +20,3 @@ SatNav: A Scalable Benchmark for Long-Horizon UAV Vision-Language Navigation fro
 Urban uncrewed aerial vehicle (UAV) vision-language navigation (VLN) requires agents to follow instructions across extended urban spaces, inherently demanding long-term memory and geospatial grounding. However, scaling existing benchmarks remains difficult because of their reliance on costly reconstructed 3D assets, limiting geographic diversity and episode scale. To address this, we introduce Sat
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

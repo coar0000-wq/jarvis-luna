@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.308510+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcDlxLVVDczhWTUtPRF9GNmlZTHozMG9nU1kwdVJZbDhJUnFjcXRibkY1akhqTlFDc0xUZHBseGlMamExQ1RIVzNWY2hzUnYtdjVLTG9aaUpuQU51SVA5aTg3QlNYVVVXSWI3UHpnc19BQUJQZkQ4cFlHU3FBdTNsMlRqQlhQeXJ0R0E?oc=5"
 ---
 
 # Record 1375 · 3-Canadian-Beauty-Experts-Share-Their-Favourite-K-Beauty-Products---FA
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 Canadian Beauty Experts Share Their Favourite K-Beauty Products - FASHION Magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

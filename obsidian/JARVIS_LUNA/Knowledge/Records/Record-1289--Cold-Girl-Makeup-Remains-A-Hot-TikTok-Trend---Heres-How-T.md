@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.095343+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE5tR0dyWGllWUpwVjg0cmJ6Vl90bnJIOERIVlk1RXlZLUR1LUhHUEtkUDY4N1Z1ekRrUWFTMFZFMnR5WG1tZ0Flb1lDU2NGTDZ0YlhEU1MtaDM0c3JqOUpfdjAyQXFpNTZKdE4tOFp3RjZhaFNsMDliWExORmQyUQ?oc=5"
 ---
 
 # Record 1289 · Cold-Girl-Makeup-Remains-A-Hot-TikTok-Trend---Heres-How-To-Pull-It-Off
@@ -15,7 +19,3 @@ tags: [record, real-data]
 'Cold Girl Makeup' Remains A Hot TikTok Trend - Here's How To Pull It Off - women.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

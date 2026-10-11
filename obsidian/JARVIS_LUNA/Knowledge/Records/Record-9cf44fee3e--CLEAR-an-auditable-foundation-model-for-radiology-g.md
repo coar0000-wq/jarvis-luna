@@ -2,8 +2,14 @@
 title: "Record 9cf44fee3e · CLEAR-an-auditable-foundation-model-for-radiology-g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.362458+00:00
+updated_at: 2026-10-11T00:55:17.391679+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41551-026-01741-4"
+kind: "논문"
 ---
 
 # Record 9cf44fee3e · CLEAR-an-auditable-foundation-model-for-radiology-g
@@ -15,7 +21,3 @@ tags: [record, real-data]
 CLEAR: an auditable foundation model for radiology grounded in clinical concepts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

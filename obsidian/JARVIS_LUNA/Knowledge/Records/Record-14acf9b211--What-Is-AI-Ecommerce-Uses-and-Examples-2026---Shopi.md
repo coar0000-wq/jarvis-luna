@@ -2,8 +2,12 @@
 title: "Record 14acf9b211 · What-Is-AI-Ecommerce-Uses-and-Examples-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.138532+00:00
+updated_at: 2026-10-11T00:55:29.240772+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5X3N2WjBtU21KeGNwa29DdW1iRTlSOE0tYUhCN2dNbnAyeTJEZG9YMWhDWW9NSlBsVmcxd0t1MHkyQmw2ZHZLcjRnOHV6VW1CNEtkbQ?oc=5"
 ---
 
 # Record 14acf9b211 · What-Is-AI-Ecommerce-Uses-and-Examples-2026---Shopi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Is AI: Ecommerce Uses and Examples (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.288225+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE44SUhYbndIMjZ0Z1AwWDFRcERFN0h6eGlSVTU0WURWMmt6Y3pqaU9vamRUSDRvZ0lPZ0FRV1d1M29pbEJPdVRVbWVlRVRfQVV1RVhMZ0JJbFJwcEhkSG9UVTFPTkpKWGUydVc1SEZqYndJMTg?oc=5"
 ---
 
 # Record 286 · TikToks-Icy-Glam-Makeup-Trend-Explained---Hypebae
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 TikTok’s Icy Glam Makeup Trend, Explained - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

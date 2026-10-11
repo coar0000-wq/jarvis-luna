@@ -2,8 +2,12 @@
 title: "Record b520fd39f8 · TikToks-facial-harmony-trend-is-back-so-heres-why-m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.510614+00:00
+updated_at: 2026-10-11T00:55:35.695182+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVU1KX1lCV24xVDJ1UlpmaUNHT1JHQTNLemZmTnFad3NOUkNoNWtGVVpfNHM3cGlNZ185SlBWV1UtRjFxLTNYVE51ME9NT2IwV2s5SjllYks1b3hrUTI0UV9tdTRvRVl2STI4QkVfUU5VVW5qUTNja2ZwOHNVUjdNSU5rWS1ibElzYi05R3lnVGs0UnhJSGtFQU5lZ2tlNnFsNnRMckMxRWhFOGNtQXVRVw?oc=5"
 ---
 
 # Record b520fd39f8 · TikToks-facial-harmony-trend-is-back-so-heres-why-m
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok’s ‘facial harmony’ trend is back, so here’s why ‘midfaces’ are on your feed again - The Tab
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 3780858886 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.508233+00:00
+updated_at: 2026-10-11T00:55:35.653607+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd25vUHFJN1h3UnJhaDJRVHdiRGJMTXZJNXFLUTh6bHh1ZkFWR3BJZVJKMDZSNkFUUEcyUXpSeUYzaFBiZGdPNmpfcWc4TlV3Y0pZbDF1T0R1SGdiZDA4ajdmaWMtNzR2eHFfcURILUwxekNzdEF2TWdSN3RqTEI4b1EwdW9FcFl3MFI1SmRQd29zM1FQVXZXZmExeWl6SlR5bjlVZlY5dHNzcU11RlZn?oc=5"
 ---
 
 # Record 3780858886 · K-Beauty-boom-Korean-skincare-sales-surge-as-glass-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty boom: Korean skincare sales surge as ‘glass skin’ trend takes over social media - wtsp.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

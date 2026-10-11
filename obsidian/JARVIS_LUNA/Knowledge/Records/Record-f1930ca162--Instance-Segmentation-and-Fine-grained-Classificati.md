@@ -2,8 +2,12 @@
 title: "Record f1930ca162 · Instance-Segmentation-and-Fine-grained-Classification-for-Urban-Buildi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.137639+00:00
+updated_at: 2026-10-11T00:55:14.026536+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.19631"
 ---
 
 # Record f1930ca162 · Instance-Segmentation-and-Fine-grained-Classification-for-Urban-Buildi
@@ -16,7 +20,3 @@ Instance Segmentation and Fine-grained Classification for Urban Buildings with A
 Accurate instance-level and functional understanding of urban buildings in large-scale point clouds is essential for digital city modeling and urban analysis. However, the extensive spatial coverage of urban scenes leads most existing methods to rely on predefined blocks for training and evaluation, although such partitions are rarely available in real-world applications and introduce additional p
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

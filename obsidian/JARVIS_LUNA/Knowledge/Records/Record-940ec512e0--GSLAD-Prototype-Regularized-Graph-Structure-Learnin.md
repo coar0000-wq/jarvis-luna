@@ -2,8 +2,12 @@
 title: "Record 940ec512e0 · GSLAD-Prototype-Regularized-Graph-Structure-Learning-for-Multivariate-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.680698+00:00
+updated_at: 2026-10-11T00:55:22.956778+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.15483"
 ---
 
 # Record 940ec512e0 · GSLAD-Prototype-Regularized-Graph-Structure-Learning-for-Multivariate-
@@ -16,7 +20,3 @@ GSLAD: Prototype-Regularized Graph Structure Learning for Multivariate Time Seri
 Unsupervised multivariate time series anomaly detection methods typically identify anomalies through forecasting, reconstruction, or representation discrepancies. However, industrial faults may first alter inter-variable structural patterns while individual trajectories remain close to normal, resulting in weak anomaly signals. In this paper, we propose GSLAD, a prototype-regularized graph structu
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 548286c019 · Shopify-and-Amazon-outperform-as-online-retail-fell"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.362870+00:00
+updated_at: 2026-10-11T00:55:33.105461+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHRhYWJmbjFsVmpYc3RQcWVEcnVfTjJmUVlyS21UZUpzWlFXZUItM096bzN4U3dQcHZVam9BYzJpc09jSkI3b3djTmFESWZTNGRWbkI4Rnk2V1VKcVFwVEdjNXFMekV2ZXJyeXFnWUVSSVZfS05Ja1NQdnBKUjFvZXVZYjFfd1Vh0gGOAUFVX3lxTFBuRWloMGhhNUl3UFIxamdvLTdYNnBKSk8zbVY1cUE4MnMtcm4tdlNIekVVbUpqa1hheEExWDRKT1lxTGtFNUllXzVMUkI2aUh2SUgwMHNGVFZlUjMwRjYyRUFCZDF1U0tsU2pZQkJNMVZZNnhoR2NqVGlSZVFTYVF4MEVEeDVWd0VTcDdjV1E?oc=5"
 ---
 
 # Record 548286c019 · Shopify-and-Amazon-outperform-as-online-retail-fell
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify and Amazon outperform as online retail fell in October Ecommerce Stock Index results - Digital Commerce 360
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

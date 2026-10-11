@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.403608+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s00024-026-04068-y"
 ---
 
 # Record 385 · From-Paper-to-Pixels-Lessons-Learnt-from-Creating-and-Using-the-Nuclea
@@ -15,7 +20,3 @@ tags: [record, real-data]
 From Paper to Pixels: Lessons Learnt from Creating and Using the Nuclear Explosion Legacy Data Repository
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

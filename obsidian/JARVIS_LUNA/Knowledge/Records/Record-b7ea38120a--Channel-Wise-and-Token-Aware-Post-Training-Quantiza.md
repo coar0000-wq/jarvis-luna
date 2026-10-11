@@ -2,8 +2,12 @@
 title: "Record b7ea38120a · Channel-Wise-and-Token-Aware-Post-Training-Quantization-for-Visual-Sta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.103912+00:00
+updated_at: 2026-10-11T00:55:13.666007+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16656"
 ---
 
 # Record b7ea38120a · Channel-Wise-and-Token-Aware-Post-Training-Quantization-for-Visual-Sta
@@ -16,7 +20,3 @@ Channel-Wise and Token-Aware Post-Training Quantization for Visual State Space D
 State space models (SSMs), particularly Mamba, have emerged as efficient alternatives to attention-based architectures and have been extended to vision through ViM, VMamba, and Visual State Space Duality (VSSD). Yet the low-bit post-training quantization (PTQ) behavior of VSSD remains insufficiently understood. A weight-activation split on VSSD-Tiny identifies activation quantization as the domina
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

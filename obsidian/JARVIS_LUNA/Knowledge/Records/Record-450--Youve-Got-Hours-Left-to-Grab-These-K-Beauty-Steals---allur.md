@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.584023+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVWM3cDM1WTBvV2JGeWlvcmYxOWdxY1VvRnRRQ3VNX2lZZmJzSVFDMnlFWTRxZElhRVpra0tyVmxvQ3FSLTd6cW5CZi1xNXFYUHdxRTdUbEFBTWwzODNzRnB3QVZDY1N0RFlJVlZTUjBLdVRoRHBjcHJRMjNLY2h0Nm1IU2Y5dw?oc=5"
 ---
 
 # Record 450 · Youve-Got-Hours-Left-to-Grab-These-K-Beauty-Steals---allurecom
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 You’ve Got Hours Left to Grab These K-Beauty Steals - allure.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

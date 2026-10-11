@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.009412+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/vmware-explore-2026-brings-technical-sessions-labs-and-certs-it"
 ---
 
 # Record 964 · VMware-Explore-2026-Brings-Technical-Sessions-Labs-and-Certs-to-IT-Pra
@@ -16,7 +21,3 @@ VMware Explore 2026 Brings Technical Sessions, Labs and Certs to IT Practitioner
 PALO ALTO, Calif., Aug. 17, 2026 (GLOBE NEWSWIRE) -- Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and infrastructure software solutions, today announced event highlights and programming for VMware Explore 2026, taking place August
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

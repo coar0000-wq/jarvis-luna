@@ -2,8 +2,12 @@
 title: "Record 1254a6d072 · QuantWM-Temporally-Consistent-2-Bit-KV-Cache-Quantization-for-World-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.787798+00:00
+updated_at: 2026-10-11T00:55:24.283769+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "머신러닝-연구", "컴퓨터-비전", "인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.26425"
 ---
 
 # Record 1254a6d072 · QuantWM-Temporally-Consistent-2-Bit-KV-Cache-Quantization-for-World-Mo
@@ -16,7 +20,3 @@ QuantWM: Temporally Consistent 2-Bit KV Cache Quantization for World Models and 
 KV cache memory has become a major deployment bottleneck for video generation and world models, which motivates low-bit quantization study for efficiency. Existing 2-bit KV cache quantization methods can achieve nearly lossless performance on video benchmarks such as VBench, however, we find that they still cause severe temporal flickering and visual degradation. Meanwhile, deeper investigates sho
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[머신러닝-연구]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

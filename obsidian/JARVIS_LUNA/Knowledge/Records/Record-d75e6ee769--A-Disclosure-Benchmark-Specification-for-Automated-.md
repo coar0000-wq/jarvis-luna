@@ -2,8 +2,14 @@
 title: "Record d75e6ee769 · A-Disclosure-Benchmark-Specification-for-Automated-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.968865+00:00
+updated_at: 2026-10-11T00:55:26.753507+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22549463"
+kind: "논문"
 ---
 
 # Record d75e6ee769 · A-Disclosure-Benchmark-Specification-for-Automated-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.1
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

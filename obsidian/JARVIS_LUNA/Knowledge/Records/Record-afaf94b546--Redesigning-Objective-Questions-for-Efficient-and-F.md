@@ -2,8 +2,14 @@
 title: "Record afaf94b546 · Redesigning-Objective-Questions-for-Efficient-and-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.444176+00:00
+updated_at: 2026-10-11T00:55:18.878621+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1109/te.2026.3693554"
+kind: "논문"
 ---
 
 # Record afaf94b546 · Redesigning-Objective-Questions-for-Efficient-and-F
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Redesigning Objective Questions for Efficient and Fair Assessment in Theoretical STEM Courses
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

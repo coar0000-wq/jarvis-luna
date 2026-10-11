@@ -2,8 +2,12 @@
 title: "Record 0e5dfd9398 · spray-invisible-haute-protection-vinosun-pritect-indice-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.879635+00:00
+updated_at: 2026-10-11T00:55:41.555090+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3522931003761"
 ---
 
 # Record 0e5dfd9398 · spray-invisible-haute-protection-vinosun-pritect-indice-50
@@ -16,7 +20,3 @@ spray invisible haute protection vinosun pritect indice 50
 spray invisible haute protection vinosun pritect indice 50 · caudalie
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

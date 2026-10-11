@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.896928+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WX18zUjYxQkhxbGY2WmdWSXAxSEh2R3lPOWtqQjU0a1QtaVlpWndSamZMZHlBNzhhWlVfZ09uR3lxSmpzVGx2YWR0WFFaQS1GMVVibnRSaE1JV0lGMUY4OFFOZDhQSkdpYjQ5S2dMZVVaVkRZb1NEVG5mczRXRlk?oc=5"
 ---
 
 # Record 360 · Im-41-but-I-Look-a-Decade-Younger-Thanks-to-5-Firming-and-Plumping-K-B
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 I’m 41, but I Look a Decade Younger Thanks to 5 Firming and Plumping K-Beauty Skin Care Products—From Just $17 - instyle.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

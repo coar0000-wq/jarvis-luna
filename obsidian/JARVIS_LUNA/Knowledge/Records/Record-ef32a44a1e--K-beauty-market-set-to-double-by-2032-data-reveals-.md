@@ -2,8 +2,12 @@
 title: "Record ef32a44a1e · K-beauty-market-set-to-double-by-2032-data-reveals-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.341763+00:00
+updated_at: 2026-10-11T00:55:32.795996+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxQblBuNlM4TnVXUmJ4eHdNYWtZMXhzbjNhck5Sbm55ZjVGZ01oai1LLWlSOG5tMUp3ME00YU5nXzJETWxpXzl4OHYtTzIxVkRBVjhiTVlfVjhpQ0tVdkN6Yk9GOG93RTNGTU9PYjJseGlURXExNTFfMmJ5QXdvV1VIaGh5NHY?oc=5"
 ---
 
 # Record ef32a44a1e · K-beauty-market-set-to-double-by-2032-data-reveals-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty market set to double by 2032, data reveals - TheIndustry.beauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

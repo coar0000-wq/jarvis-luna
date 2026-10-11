@@ -2,8 +2,14 @@
 title: "Record b55bddec5e · Sepsis-Program-Activities-in-Acute-Care-Hospitals--National-Healthcare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.523750+00:00
+updated_at: 2026-10-11T00:55:20.157515+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.15585/mmwr.mm7234a2"
+kind: "논문"
 ---
 
 # Record b55bddec5e · Sepsis-Program-Activities-in-Acute-Care-Hospitals--National-Healthcare
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Sepsis Program Activities in Acute Care Hospitals — National Healthcare Safety Network, United States, 2022
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

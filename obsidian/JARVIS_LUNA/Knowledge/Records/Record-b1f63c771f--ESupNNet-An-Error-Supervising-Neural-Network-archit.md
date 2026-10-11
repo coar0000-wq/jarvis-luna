@@ -2,8 +2,12 @@
 title: "Record b1f63c771f · ESupNNet-An-Error-Supervising-Neural-Network-architecture-for-error-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.176250+00:00
+updated_at: 2026-10-11T00:55:14.520292+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.26374"
 ---
 
 # Record b1f63c771f · ESupNNet-An-Error-Supervising-Neural-Network-architecture-for-error-de
@@ -16,7 +20,3 @@ ESupNNet: An Error Supervising Neural Network architecture for error detection a
 This work presents a novel approach to detect misclassification errors in CNNs caused by soft errors in their parameters. We propose an architecture that uses inter-class relations induced by the CNN that needs protection. The architecture has minimal resources overhead and does not require modifying the CNN, which makes it a competent solution that can be used with other error protection techniqu
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

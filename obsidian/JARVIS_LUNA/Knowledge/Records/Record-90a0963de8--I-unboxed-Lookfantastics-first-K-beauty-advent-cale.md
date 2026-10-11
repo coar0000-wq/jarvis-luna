@@ -2,8 +2,12 @@
 title: "Record 90a0963de8 · I-unboxed-Lookfantastics-first-K-beauty-advent-calendar--and-its-serio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.101507+00:00
+updated_at: 2026-10-11T00:55:28.578902+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNk12WW14ZkVxa2NzQkNibV9ZczJ3T2U2VnV5ZzREa3ZDY1JBTmtjbVNDMUJ2UTlfSklwTXMyNXRtTWkwbUR0VkM1WExVS0R4RW5obkx1YUg1dE5XTFhvLTdySFNwc1F5cGlGZjJSc29OYUREd0R1RWYtVEVoN1lDZ0lXY2J6Vm8tUjZkcXpqSGF4ZjJXSnR0SE9mY3RYa1RxSVRFbTduOFZRT3FGLXY5UERGRTg4RGVqRFFlcW0yYzNLWlFwdHVTOFk2eDhSUkVxRUE?oc=5"
 ---
 
 # Record 90a0963de8 · I-unboxed-Lookfantastics-first-K-beauty-advent-calendar--and-its-serio
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I unboxed Lookfantastic’s first K-beauty advent calendar – and it’s seriously good - The Independent
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

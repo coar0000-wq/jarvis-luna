@@ -2,8 +2,12 @@
 title: "Record 5ef78b7005 · New-Ecommerce-Tools-May-6-2026---Practical-Ecommerc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.244321+00:00
+updated_at: 2026-10-11T00:55:31.063238+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YdVZ1UEcwQWd0NDZ2UklfNlNjS2NQWlMzdmlnWXRhQVFvRnB5ZjViTFdnQzNVMU5RUXN5S0FNUmszZVI5V09sWGo1LU9IeXZWNXJDd0Y4MWpUNmxpRk1rcUNoUXhkRmg0dGFtSF9DcEhiV2s?oc=5"
 ---
 
 # Record 5ef78b7005 · New-Ecommerce-Tools-May-6-2026---Practical-Ecommerc
@@ -15,7 +19,3 @@ tags: [record, real-data]
 New Ecommerce Tools: May 6, 2026 - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

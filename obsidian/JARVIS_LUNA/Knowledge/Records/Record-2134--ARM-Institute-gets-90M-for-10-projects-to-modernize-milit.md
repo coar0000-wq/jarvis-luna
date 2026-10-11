@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.067368+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/"
 ---
 
 # Record 2134 · ARM-Institute-gets-90M-for-10-projects-to-modernize-military-manufactu
@@ -16,7 +20,3 @@ ARM Institute gets $90M for 10 projects to modernize military manufacturing
 <p>Fifteen member organizations will deliver viable working solutions within a two-year timeframe, the ARM Institute said.</p> <p>The post <a href="https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/">ARM Institute gets $90M for 10 projects to modernize military manufacturing</a> appeared first on <a href="https://www.therobotreport.com">The R
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

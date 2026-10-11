@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.051289+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/worldwide/greater-china/insights/four-key-themes-from-communacopia"
 ---
 
 # Record 2071 · Four-Key-Themes-From-Communacopia
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Four Key Themes From Communacopia
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

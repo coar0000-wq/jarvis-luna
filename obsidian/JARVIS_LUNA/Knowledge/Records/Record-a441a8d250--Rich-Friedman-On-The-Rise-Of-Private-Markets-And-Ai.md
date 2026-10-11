@@ -2,8 +2,14 @@
 title: "Record a441a8d250 · Rich-Friedman-On-The-Rise-Of-Private-Markets-And-Ai-Investing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.458536+00:00
+updated_at: 2026-10-11T00:55:49.419412+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/rich-friedman-on-the-rise-of-private-markets-and-ai-investing"
+kind: "발표물"
 ---
 
 # Record a441a8d250 · Rich-Friedman-On-The-Rise-Of-Private-Markets-And-Ai-Investing
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Rich Friedman On The Rise Of Private Markets And Ai Investing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

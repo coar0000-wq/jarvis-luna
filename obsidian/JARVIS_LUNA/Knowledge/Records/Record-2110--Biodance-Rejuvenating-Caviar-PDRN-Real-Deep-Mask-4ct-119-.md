@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.472825+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA89221713"
 ---
 
 # Record 2110 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4ct-119-oz34g
@@ -16,7 +20,3 @@ Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)
 Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

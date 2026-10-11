@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.417734+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41598-026-48854-z"
 ---
 
 # Record 396 · Antiviral-and-anti-inflammatory-effects-of-Tabamide-A-derivative-TA25-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Antiviral and anti-inflammatory effects of Tabamide A derivative, TA25, against human rhinovirus and multiple zoonotic viruses in vitro and in silico
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

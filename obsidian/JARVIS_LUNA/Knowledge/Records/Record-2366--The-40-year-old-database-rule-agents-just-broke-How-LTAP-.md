@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.921883+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/40-year-old-database-rule-agents-just-broke-how-ltap-unifies-oltp-and-olap-workloads"
 ---
 
 # Record 2366 · The-40-year-old-database-rule-agents-just-broke-How-LTAP-unifies-OLTP-
@@ -16,7 +21,3 @@ The 40-year-old database rule agents just broke: How LTAP unifies OLTP and OLAP 
 Jonathan Katz has spent his career on both sides of a line that most of the data...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

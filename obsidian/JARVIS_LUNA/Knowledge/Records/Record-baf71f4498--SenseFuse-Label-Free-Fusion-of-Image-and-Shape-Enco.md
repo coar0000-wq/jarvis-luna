@@ -2,8 +2,12 @@
 title: "Record baf71f4498 · SenseFuse-Label-Free-Fusion-of-Image-and-Shape-Encoders-for-Open-Vocab"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.736864+00:00
+updated_at: 2026-10-11T00:55:23.557038+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "로보틱스", "데이터분석"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.20475"
 ---
 
 # Record baf71f4498 · SenseFuse-Label-Free-Fusion-of-Image-and-Shape-Encoders-for-Open-Vocab
@@ -16,7 +20,3 @@ SenseFuse: Label-Free Fusion of Image and Shape Encoders for Open-Vocabulary 3D 
 Open-vocabulary scene understanding is fundamental for robotics, laying the groundwork for spatial reasoning and object manipulation. While closed-vocabulary 3D instance segmentation heavily leverages 3D shape information, state-of-the-art open-vocabulary methods remain predominantly restricted to 2D image features or image-distilled representations during mask labeling. In this paper, we propose
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[로보틱스]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

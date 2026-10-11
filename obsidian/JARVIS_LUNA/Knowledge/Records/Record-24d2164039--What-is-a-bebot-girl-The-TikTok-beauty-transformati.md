@@ -2,8 +2,12 @@
 title: "Record 24d2164039 · What-is-a-bebot-girl-The-TikTok-beauty-transformati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.491595+00:00
+updated_at: 2026-10-11T00:55:35.373602+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeWc3ZldjSEdUQUZCYjlXOWtBR2E0dmtabGZSOGRYWjVzRVlmbnRxYTNnaXNZOEFJb0tnMGppRU5NalVQVmFYeGIwcmNVbkI4QzF5WHdpVV9uXzQ4ZmgxNl85a3B4QUlTaG93aEdMV3hscDVMUVFTWEtfNHJjaDdrSFY2SkgzaTl3UHZ4WEtLbXBQeTlSbnEya1pOckhyZDRIYnd3ckExYUk?oc=5"
 ---
 
 # Record 24d2164039 · What-is-a-bebot-girl-The-TikTok-beauty-transformati
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is a “bebot” girl? The TikTok beauty transformation trend, explained - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

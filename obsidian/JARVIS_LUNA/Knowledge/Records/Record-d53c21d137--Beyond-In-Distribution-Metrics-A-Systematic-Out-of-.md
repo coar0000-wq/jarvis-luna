@@ -2,8 +2,12 @@
 title: "Record d53c21d137 · Beyond-In-Distribution-Metrics-A-Systematic-Out-of-Distribution-Evalua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.694916+00:00
+updated_at: 2026-10-11T00:55:23.133889+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "의료바이오"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.17068"
 ---
 
 # Record d53c21d137 · Beyond-In-Distribution-Metrics-A-Systematic-Out-of-Distribution-Evalua
@@ -16,7 +20,3 @@ Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of C
 Congenital heart disease (CHD) diagnosis and surgical planning often require patient-specific 3D anatomical models, but manual segmentation is labor-intensive, particularly in complex anatomies. Although deep-learning methods can automate this process, they are typically evaluated in-distribution, despite clinically relevant shifts in scanner, protocol, institution, population, and imaging modalit
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

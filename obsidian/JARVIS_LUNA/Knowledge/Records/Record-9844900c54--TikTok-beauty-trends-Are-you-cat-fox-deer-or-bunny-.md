@@ -2,8 +2,12 @@
 title: "Record 9844900c54 · TikTok-beauty-trends-Are-you-cat-fox-deer-or-bunny-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.317742+00:00
+updated_at: 2026-10-11T00:55:32.367086+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTFAycHV6T3ZjOW9GaDhkUFAxX1NicndzQnRrSkNjMzJCSEVKeFU1UEZjbVEzczJOcUQyUlZPOUVuMjlwRTFjMS10aVg2a1NCWGR1SUdrc1Nhb3VsRmNwS2pldWVhMG5NTWlxZEFLN0VDb1RVNHpSSFVNdXNxUnlsd9IBgwFBVV95cUxPWEN4NG5QbDdDUHFERXFFc3JqYXE2bEx6TUotOXhtSnFMMW9kMmwzb1Q4REdyblJIQXU4Y0pvNDNTdGw5VmhRVTNhOHVKZk85U05xLV9vaHkwWUJvTVJZY29QU3BjbXFHLWh6S1J3cWZjd1kyZDZTd3lJVkFDcXJ1X2Y1OA?oc=5"
 ---
 
 # Record 9844900c54 · TikTok-beauty-trends-Are-you-cat-fox-deer-or-bunny-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok beauty trends: Are you cat, fox, deer, or bunny pretty? - Prestige Online - Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

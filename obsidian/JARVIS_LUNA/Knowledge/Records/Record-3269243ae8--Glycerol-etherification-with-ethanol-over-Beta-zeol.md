@@ -2,8 +2,14 @@
 title: "Record 3269243ae8 · Glycerol-etherification-with-ethanol-over-Beta-zeol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.317469+00:00
+updated_at: 2026-10-11T00:55:16.547202+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.jcat.2026.117130"
+kind: "논문"
 ---
 
 # Record 3269243ae8 · Glycerol-etherification-with-ethanol-over-Beta-zeol
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Glycerol etherification with ethanol over Beta zeolites of varied void polarity
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

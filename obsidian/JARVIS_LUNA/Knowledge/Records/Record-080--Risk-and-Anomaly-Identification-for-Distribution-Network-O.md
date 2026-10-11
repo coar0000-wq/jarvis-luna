@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.344674+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03308v1"
 ---
 
 # Record 080 · Risk-and-Anomaly-Identification-for-Distribution-Network-Optimal-Opera
@@ -16,7 +20,3 @@ Risk and Anomaly Identification for Distribution Network Optimal Operation Based
 Reliable operation of modern distribution networks requires timely identification of operational risks and anomalous events under pervasive uncertainty. In practice, operators must identify risks that are inherent in stochastic yet in-distribution conditions, and anomalies that correspond to out-of-distribution behaviors such as unusual load patterns, extreme weather or cyber-physical attacks. Thi
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

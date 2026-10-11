@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.499848+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3689727"
 ---
 
 # Record 441 · Mix-Testing-Specifying-and-Testing-ABI-Compatibility-of-CC-Atomics-Imp
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Mix Testing: Specifying and Testing ABI Compatibility of C/C++ Atomics Implementations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.387000+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10421v1"
 ---
 
 # Record 291 · Emergency-Department-Revisit-Quality-Review-Screening-Exploring-Human-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Emergency Department Revisit Quality Review Screening: Exploring Human Decision-Making and Artificial Intelligence Support
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

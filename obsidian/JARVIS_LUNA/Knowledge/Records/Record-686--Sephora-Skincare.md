@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.735139+00:00
 tags: [knowledge-graph, record]
+source: "us_beauty"
+topics: ["AI-Research"]
+domain: "www.sephora.com"
+url: "https://www.sephora.com/shop/skincare"
 ---
 
 # Record 686 · Sephora-Skincare
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Sephora Skincare
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

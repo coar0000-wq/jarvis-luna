@@ -2,8 +2,12 @@
 title: "Record 1479501d99 · Top-15-Must-Buy-Serums-from-Olive-Young-in-2026---funlidaycom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.344943+00:00
+updated_at: 2026-10-11T00:55:32.877865+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRkRkQi1TY3h2YmlWZlEzSlRKNV9lMXNXSDdBQ2RBVHBmb0NCcThJa1Q1MkNsbVVISHhZSUNyU3BncGxQQndHbDk5cnJwbFhXVHBKa2tPQXJ1WlBFRzFrbnR5NXU1ek9GYUVOcUlVTHROZTZscjFJVUlmR1had2JockFNUWIxUQ?oc=5"
 ---
 
 # Record 1479501d99 · Top-15-Must-Buy-Serums-from-Olive-Young-in-2026---funlidaycom
@@ -16,7 +20,3 @@ Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com
 Top 15 Must-Buy Serums from Olive Young in 2026 - funliday.com
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

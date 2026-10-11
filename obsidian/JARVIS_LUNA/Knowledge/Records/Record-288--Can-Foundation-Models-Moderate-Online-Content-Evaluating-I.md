@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.386493+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10410v1"
 ---
 
 # Record 288 · Can-Foundation-Models-Moderate-Online-Content-Evaluating-Instruction--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

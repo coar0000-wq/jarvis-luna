@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.886929+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/"
 ---
 
 # Record 2569 · Unitree-shares-down-53-from-IPO-debut
@@ -16,7 +20,3 @@ Unitree shares down 53% from IPO debut
 <p>The market is pulling back on Unitree's $66 billion valuation from its debut on the Shanghai Stock Exchange just last month.</p> <p>The post <a href="https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/">Unitree shares down 53% from IPO debut</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

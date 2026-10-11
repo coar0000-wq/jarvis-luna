@@ -2,8 +2,12 @@
 title: "Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.398376+00:00
+updated_at: 2026-10-11T00:55:33.762421+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0dRZmFUbXEwMHg5MHZ5QUZJc0d2WTlqN2RLeXc5WGp1VWJVTWE1WmZnTU5kZlQzYXZEQi1JdEphZUg3ajlxcENZWmxzM0pmcm00Z0Y1ZE1MRFlLUGNUalZOaExWeVRlTl96Qnlmb1NsLTVKRmlqbmF2TWZueThfaWJYcl9NSFE3Z3BpV25OS0R0UQ?oc=5"
 ---
 
 # Record b2974ae6cd · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-i
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How AI Shopping Could Turn Fashion Advertising on its Head - Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

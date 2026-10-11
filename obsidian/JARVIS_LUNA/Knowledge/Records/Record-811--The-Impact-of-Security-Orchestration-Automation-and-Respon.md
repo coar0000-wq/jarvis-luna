@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.578912+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "보안프라이버시", "데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.61841/turcomat.v10i3.14323"
 ---
 
 # Record 811 · The-Impact-of-Security-Orchestration-Automation-and-Response-SOAR-on-S
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The Impact of Security Orchestration, Automation, and Response (SOAR) on Security Operations Center (SOC) Efficiency: A Comprehensive Analysis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[보안프라이버시]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

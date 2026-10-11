@@ -2,8 +2,14 @@
 title: "Record a1b72811dd · 1Password-increases-engineering-productivity-21-wit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.623125+00:00
+updated_at: 2026-10-11T00:55:37.227612+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/1password"
+kind: "발표물"
 ---
 
 # Record a1b72811dd · 1Password-increases-engineering-productivity-21-wit
@@ -16,7 +22,3 @@ tags: [record, real-data]
 Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

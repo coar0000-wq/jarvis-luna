@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.109565+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1093/etojnl/vgae024"
 ---
 
 # Record 366 · Rapid-screening-of-shellfish-tainting-from-oil-spills-using-an-antibod
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Rapid screening of shellfish tainting from oil spills using an antibody-based biosensor
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

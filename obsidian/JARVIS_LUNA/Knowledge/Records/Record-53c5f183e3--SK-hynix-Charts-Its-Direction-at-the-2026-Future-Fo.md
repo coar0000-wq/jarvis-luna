@@ -2,8 +2,14 @@
 title: "Record 53c5f183e3 · SK-hynix-Charts-Its-Direction-at-the-2026-Future-ForumNow-Is-the-Golde"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.616036+00:00
+updated_at: 2026-10-11T00:55:37.120638+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/sk-hynix-charts-its-direction-at-the-2026-future-forum-now-is-the-golden-time-to-leap-forward/"
+kind: "발표물"
 ---
 
 # Record 53c5f183e3 · SK-hynix-Charts-Its-Direction-at-the-2026-Future-ForumNow-Is-the-Golde
@@ -15,7 +21,3 @@ tags: [record, real-data]
 SK hynix Charts Its Direction at the 2026 Future Forum—”Now Is the Golden Time to Leap Forward”
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

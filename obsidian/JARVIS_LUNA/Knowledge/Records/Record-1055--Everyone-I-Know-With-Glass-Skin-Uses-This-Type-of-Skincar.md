@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.618946+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE56bU4ySjhxSkVmMFVOM0J2bHpSWUJYaTN5QzBDWDBwR0llVGRJMFFQQ1hXdFdsWXM3ejZTZzdzOG4yd0VaLXVEYnFiVFU3eHVXdTY0emk5U3c3d2ZBMmlwbVZPMVEwMTBTeTZiRg?oc=5"
 ---
 
 # Record 1055 · Everyone-I-Know-With-Glass-Skin-Uses-This-Type-of-SkincareI-Tried-It-f
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Everyone I Know With Glass Skin Uses This Type of Skincare—I Tried It for a Month and I Have Thoughts - whowhatwear.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

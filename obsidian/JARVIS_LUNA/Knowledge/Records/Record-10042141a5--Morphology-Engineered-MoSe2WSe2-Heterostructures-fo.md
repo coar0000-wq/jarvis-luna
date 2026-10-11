@@ -2,8 +2,14 @@
 title: "Record 10042141a5 · Morphology-Engineered-MoSe2WSe2-Heterostructures-for-Directional-Terah"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.352067+00:00
+updated_at: 2026-10-11T00:55:17.242474+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsphotonics.6c00965"
+kind: "논문"
 ---
 
 # Record 10042141a5 · Morphology-Engineered-MoSe2WSe2-Heterostructures-for-Directional-Terah
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Morphology-Engineered MoSe2/WSe2 Heterostructures for Directional Terahertz Emission
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

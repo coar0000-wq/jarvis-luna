@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.323912+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/-LGZZwKfIkc"
 ---
 
 # Record 835 · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-kbeauty
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 진짜 급하게 데이트 갈 준비 #GRWM 💨 #메이크업 #kbeauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

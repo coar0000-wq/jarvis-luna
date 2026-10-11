@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.934722+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22051544"
 ---
 
 # Record 688 · MCP-Under-Attack---Security-Risks-in-the-Model-Context-Protocol-Ecosys
@@ -15,7 +20,3 @@ tags: [record, real-data]
 MCP Under Attack - Security Risks in the Model Context Protocol Ecosystem
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.291822+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=tC-qIswHYhY"
 ---
 
 # Record 743 · Ranking-Every-Viral-Korean-Sunscreen-here-are-the-best
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Ranking Every Viral Korean Sunscreen (here are the best!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record d35bbd95ef · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agent"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.330836+00:00
+updated_at: 2026-10-11T00:55:32.589395+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa3pkRGp4QnVaTGV5OHItTnh4ZUNObFBBZUYyRVJjX2VYeEg0QVgyY3haREdyUUZPME1YeVVoS2NSNzJMYWROZ1NBZFF0RDZPSkVHUWpCTFpMd0NRZ29tTVlhT3ZCbFpUa2xPelAyUkQwTUtkZnZwNGRiOFUwdVU4aDhB?oc=5"
 ---
 
 # Record d35bbd95ef · 2025-Will-Be-the-First-Year-Brands-Develop-an-Agent
@@ -15,7 +19,3 @@ tags: [record, real-data]
 2025 Will Be the First Year Brands Develop an Agentic AI Holiday Strategy - ADWEEK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.091745+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HQ1FVV1JqbTZLdURSUUhaV1pKRHZPU2E5RmVHT1BpOWFsdG1uLXJMd1FNX1hPZlNLOXVjZ3hLNmwyMXV0bV9QQUNTN095aXRKdlhKMUhKTElWajA4aS03UG8yY05sMnhmc2pMcg?oc=5"
 ---
 
 # Record 245 · Out-of-Hundreds-These-Are-Our-Favorite-K-Beauty-Picks-at-Nordstrom---A
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Out of Hundreds, These Are Our Favorite K-Beauty Picks at Nordstrom - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 2c25dc9c6d · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.427357+00:00
+updated_at: 2026-10-11T00:55:18.580139+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/jssc.2025.3545483"
+kind: "논문"
 ---
 
 # Record 2c25dc9c6d · A-32-Gbs-036-pJbit-3-nm-Chiplet-IO-Using-25-D-CoWoS
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A 32 Gb/s 0.36 pJ/bit 3 nm Chiplet IO Using 2.5-D CoWoS Package With Real-Time and Per-Lane CDR and Bathtub Monitoring
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

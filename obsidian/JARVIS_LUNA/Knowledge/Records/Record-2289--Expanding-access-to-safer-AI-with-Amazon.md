@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.821155+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-amazon"
 ---
 
 # Record 2289 · Expanding-access-to-safer-AI-with-Amazon
@@ -16,7 +21,3 @@ Expanding access to safer AI with Amazon
 Amazon will invest up to $4 billion in Anthropic and become its primary cloud provider, with models trained on AWS Trainium and Inferentia.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

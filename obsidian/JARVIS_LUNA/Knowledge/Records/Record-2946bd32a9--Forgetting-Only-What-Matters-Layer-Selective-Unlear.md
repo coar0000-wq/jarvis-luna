@@ -2,8 +2,12 @@
 title: "Record 2946bd32a9 · Forgetting-Only-What-Matters-Layer-Selective-Unlear"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.040894+00:00
+updated_at: 2026-10-11T00:55:12.959330+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10439v1"
 ---
 
 # Record 2946bd32a9 · Forgetting-Only-What-Matters-Layer-Selective-Unlear
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.169872+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTmxBZXQxZXNEcDA1LVYxN3l1c2lpSXdlcDhja1hhUnRJSExBbFRBd1l0dW5RVldOcmFSQnhWMHdoZnZSazhwWnVGTVg3Rm8wSG1XdzNnZEFNM1cwZHE1SHUtc1NEaDctSDljSFBuTG5LMnJjNlM0VmphVlJmdF9SYjVvTU8yNW9nMlJxdDNsUU5qT0llTUpSZmtkLWxvZTFyTmcxUi1QM2VFYnFUWUYyWXFuVzlfXzA?oc=5"
 ---
 
 # Record 766 · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-for-global-travel-re
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Duty Free Global Beauty builds K-beauty portfolio for global travel retail expansion - Moodie Davitt Report
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

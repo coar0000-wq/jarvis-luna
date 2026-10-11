@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:39.089761+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Tl6ur4G0H5E"
 ---
 
 # Record 2207 · unsexy-7-step-korean-weekly-skincare-prep-to-stay-low-maintence
@@ -15,7 +19,3 @@ tags: [record, real-data]
 unsexy 7-step korean weekly skincare prep to stay low maintence👌🏻
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

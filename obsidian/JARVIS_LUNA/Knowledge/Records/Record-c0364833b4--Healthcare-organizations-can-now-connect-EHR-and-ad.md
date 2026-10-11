@@ -2,8 +2,14 @@
 title: "Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.629060+00:00
+updated_at: 2026-10-11T00:55:37.317584+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+kind: "발표물"
 ---
 
 # Record c0364833b4 · Healthcare-organizations-can-now-connect-EHR-and-ad
@@ -16,7 +22,3 @@ Healthcare organizations can now connect EHR and additional industry data to Cha
 ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

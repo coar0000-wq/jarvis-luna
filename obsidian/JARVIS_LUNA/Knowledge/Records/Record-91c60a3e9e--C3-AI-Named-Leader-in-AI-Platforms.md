@@ -2,8 +2,14 @@
 title: "Record 91c60a3e9e · C3-AI-Named-Leader-in-AI-Platforms"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.087696+00:00
+updated_at: 2026-10-11T00:55:28.338188+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "C3 AI"
+domain: "ir.c3.ai"
+url: "https://ir.c3.ai/news-releases/news-release-details/c3-ai-named-leader-ai-platforms"
+kind: "발표물"
 ---
 
 # Record 91c60a3e9e · C3-AI-Named-Leader-in-AI-Platforms
@@ -16,7 +22,3 @@ C3 AI Named Leader in AI Platforms
 Customers “rave about the business value...” — and the evaluation scored C3 AI highest in the current offering category REDWOOD CITY, Calif. --(BUSINESS WIRE)--Aug. 10, 2026-- C3 AI (NYSE: AI), the Enterprise AI application software company, announced it was recognized as a Leader by Forrester
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--C3-AI]] [[JARVIS Real Knowledge Index]]

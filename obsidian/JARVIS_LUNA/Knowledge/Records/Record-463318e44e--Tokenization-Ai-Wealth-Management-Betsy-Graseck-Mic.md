@@ -2,8 +2,14 @@
 title: "Record 463318e44e · Tokenization-Ai-Wealth-Management-Betsy-Graseck-Michael-Cyprys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.551755+00:00
+updated_at: 2026-10-11T00:55:51.368133+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/tokenization-ai-wealth-management-betsy-graseck-michael-cyprys"
+kind: "발표물"
 ---
 
 # Record 463318e44e · Tokenization-Ai-Wealth-Management-Betsy-Graseck-Michael-Cyprys
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Tokenization Ai Wealth Management Betsy Graseck Michael Cyprys
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

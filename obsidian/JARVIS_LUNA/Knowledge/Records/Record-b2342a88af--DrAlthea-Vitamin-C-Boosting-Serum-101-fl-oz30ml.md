@@ -2,8 +2,12 @@
 title: "Record b2342a88af · DrAlthea-Vitamin-C-Boosting-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.836033+00:00
+updated_at: 2026-10-11T00:55:40.803810+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA69981011"
 ---
 
 # Record b2342a88af · DrAlthea-Vitamin-C-Boosting-Serum-101-fl-oz30ml
@@ -16,7 +20,3 @@ Dr.Althea Vitamin C Boosting Serum 1.01 fl. oz.(30ml)
 Dr.Althea Vitamin C Boosting Serum 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 838
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

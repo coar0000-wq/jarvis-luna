@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.542864+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Ps9c5NP3uds"
 ---
 
 # Record 814 · I-Studied-AI-Digital-Products-for-1000-Hours-Only-These-Make-100KMonth
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 I Studied AI Digital Products for 1,000 Hours Only These Make $100K/Month
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

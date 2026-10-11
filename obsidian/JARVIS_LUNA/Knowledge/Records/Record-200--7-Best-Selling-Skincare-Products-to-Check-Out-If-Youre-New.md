@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.241896+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTFBORmhFbHRmai1RdnlLV1l0S1NPN3FNa3MtSmZYYUdwczZOcXNoTE15QURuMlBlUE1SbUpSWVBYMlF4S01EdG9qZWJ5em1sZkRMMWdjOENsdVB6ODlDR1RraFd6OEg5alFDQ0JWcjVtdnN6Xzg?oc=5"
 ---
 
 # Record 200 · 7-Best-Selling-Skincare-Products-to-Check-Out-If-Youre-New-to-K-Beauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 7 Best-Selling Skincare Products to Check Out If You're New to K-Beauty - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

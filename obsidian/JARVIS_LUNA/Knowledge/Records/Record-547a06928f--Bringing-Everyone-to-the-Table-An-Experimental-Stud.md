@@ -2,8 +2,14 @@
 title: "Record 547a06928f · Bringing-Everyone-to-the-Table-An-Experimental-Study-of-LLM-Facilitate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.478420+00:00
+updated_at: 2026-10-11T00:55:19.462450+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3816907"
+kind: "논문"
 ---
 
 # Record 547a06928f · Bringing-Everyone-to-the-Table-An-Experimental-Study-of-LLM-Facilitate
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Bringing Everyone to the Table: An Experimental Study of LLM-Facilitated Group Decision Making
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

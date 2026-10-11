@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.631693+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA55782610"
 ---
 
 # Record 2264 · VT-PDRN-Reedle-Shot-Hair-Ampoule-700dl-050-fl-oz15ml
@@ -16,7 +20,3 @@ VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml)
 VT PDRN Reedle Shot Hair Ampoule 700dl 0.50 fl. oz.(15ml) · 평점 4.6 · 리뷰 136
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

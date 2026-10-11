@@ -2,8 +2,12 @@
 title: "Record affb5b319d · Codebook-Guided-Cross-Modal-Knowledge-Distillation-for-Structurally-He"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.886169+00:00
+updated_at: 2026-10-11T00:55:25.523847+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.37243"
 ---
 
 # Record affb5b319d · Codebook-Guided-Cross-Modal-Knowledge-Distillation-for-Structurally-He
@@ -16,7 +20,3 @@ Codebook-Guided Cross-Modal Knowledge Distillation for Structurally Heterogeneou
 Cross-modal knowledge distillation transfers knowledge from a teacher modality to a student modality. Existing feature-level alignment methods typically assume that teacher and student features reside in structurally alignable representation spaces. However, this assumption does not hold when cross-modal features are structurally heterogeneous and lack clear unit-level correspondence, such as 2D s
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.751917+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=ieeCpOjMNeI"
 ---
 
 # Record 647 · things-ive-learned-getting-rich-in-my-20s
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 things i've learned "getting rich" in my 20s...
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

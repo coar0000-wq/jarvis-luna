@@ -2,8 +2,12 @@
 title: "Record ae775b067a · K-Beauty-Brand-Hanhoo-Expands-National-Retail-Footprint---PR-Newswire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.511233+00:00
+updated_at: 2026-10-11T00:55:35.709246+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajItUHB4aUh2VUxHSk5CS3d4dHVzaDduZlFmMlVsRlk4MXNPMVZNamZETS1IdjhOS1dfWWhaQm5FUkFIZC16WHgxU05tX2d3czd4WE9ORDREXzRDNldicVUzcFlsblMtQXNGN0dQTnFQd3h3cGN0bVNweDUtWC1nb0tCVzVIdVVXOXJuUE9Eb0pOQ0dLTUpVYUhtTHpuOGFDRDJ0TldBWkRhRkJfUS1YTw?oc=5"
 ---
 
 # Record ae775b067a · K-Beauty-Brand-Hanhoo-Expands-National-Retail-Footprint---PR-Newswire
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty Brand Hanhoo Expands National Retail Footprint - PR Newswire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.153077+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Agents"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbHhCbEpJbHlvdWM0WG85MFZkNnQ4WEFpczRrSlZGRUlFaWtvNXVvcXJkM01vcGcyR00xRE9XbGs4VFk3OVZJbkF6cWNNdjBkY0hKV19JaXZxWkpadUI4SjhBTVB1WktYNEpJVG5QZnM0anRibnZheEluNlVLdlZKNFlraXlFYk55T1RCUnRFMHVheGh1Sk1EUjN5UHA1cjRYc1lfUWNhaXE3Z1VKT2hnT04yQ0I0QQ?oc=5"
 ---
 
 # Record 777 · Shopify-quietly-sets-boundaries-for-AI-agents-on-merchant-sites---Mode
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Shopify quietly sets boundaries for AI agents on merchant sites - Modern Retail
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

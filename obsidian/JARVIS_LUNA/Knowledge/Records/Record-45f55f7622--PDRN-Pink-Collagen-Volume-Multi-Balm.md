@@ -2,8 +2,12 @@
 title: "Record 45f55f7622 · PDRN-Pink-Collagen-Volume-Multi-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.649459+00:00
+updated_at: 2026-10-11T00:55:52.930004+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/pdrn-pink-collagen-volume-multi-balm-pimprod2059072"
 ---
 
 # Record 45f55f7622 · PDRN-Pink-Collagen-Volume-Multi-Balm
@@ -16,7 +20,3 @@ PDRN Pink Collagen Volume Multi Balm
 PDRN Pink Collagen Volume Multi Balm · medicube · $21.9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

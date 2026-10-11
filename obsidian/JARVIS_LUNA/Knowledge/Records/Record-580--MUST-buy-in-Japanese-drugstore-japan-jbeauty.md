@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.652264+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/LkGS7slZk4o"
 ---
 
 # Record 580 · MUST-buy-in-Japanese-drugstore-japan-jbeauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 MUST buy in Japanese drugstore👌💯 #japan #jbeauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

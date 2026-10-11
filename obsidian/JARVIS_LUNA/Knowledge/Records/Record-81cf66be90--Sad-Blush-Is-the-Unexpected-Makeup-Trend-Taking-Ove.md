@@ -2,8 +2,12 @@
 title: "Record 81cf66be90 · Sad-Blush-Is-the-Unexpected-Makeup-Trend-Taking-Ove"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.258027+00:00
+updated_at: 2026-10-11T00:55:31.245375+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTFBEWEdRWC1XNUEwRF9KQ1hoZTM5WWlYaGZtb0x2bUtpcU5wRzdvdkxnY3FPUnNSeVVLbzJjNFRLWXFqV0VVV0Y3TC1lV1J3Tkh0TXN2YVJlaHRndVE5Z3FrOEF1RTM0QzNWSjNoZlFUMlFCUQ?oc=5"
 ---
 
 # Record 81cf66be90 · Sad-Blush-Is-the-Unexpected-Makeup-Trend-Taking-Ove
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ‘Sad Blush’ Is the Unexpected Makeup Trend Taking Over TikTok This Winter - Glamour
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

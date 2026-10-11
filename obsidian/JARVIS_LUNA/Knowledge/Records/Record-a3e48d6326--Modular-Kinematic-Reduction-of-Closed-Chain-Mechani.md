@@ -2,8 +2,12 @@
 title: "Record a3e48d6326 · Modular-Kinematic-Reduction-of-Closed-Chain-Mechani"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.055681+00:00
+updated_at: 2026-10-11T00:55:13.125212+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11338v1"
 ---
 
 # Record a3e48d6326 · Modular-Kinematic-Reduction-of-Closed-Chain-Mechani
@@ -16,7 +20,3 @@ Modular Kinematic Reduction of Closed-Chain Mechanisms Using Path Assembly and D
 Closed kinematic chains complicate modular modeling by coupling active and passive coordinates through nonlinear closure constraints. This paper presents a Path-Assembled Closure Differential Mapping (PACDM) framework for modular closure resolution and kinematic reduction. Each closure element compares two ordered transformation paths with common endpoints, with their mismatch expressed through th
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 158abd6f19 · Digital-Electronic-System-on-Chip-Design-Methodologies-Tools-Evolution"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.587570+00:00
+updated_at: 2026-10-11T00:55:21.267789+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.3390/mi15020247"
+kind: "논문"
 ---
 
 # Record 158abd6f19 · Digital-Electronic-System-on-Chip-Design-Methodologies-Tools-Evolution
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Digital Electronic System-on-Chip Design: Methodologies, Tools, Evolution, and Trends
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

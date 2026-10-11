@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.599187+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/5LhtOJt-QRM"
 ---
 
 # Record 2341 · What-does-CJ-actually-check-before-your-order-ships
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What does CJ actually check before your order ships? 🔍
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

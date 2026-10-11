@@ -2,8 +2,12 @@
 title: "Record 168e3ee1e3 · Learn-how-AVs-and-robotics-are-laying-the-groundwor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.589221+00:00
+updated_at: 2026-10-11T00:55:51.944810+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스", "인프라클라우드"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/"
 ---
 
 # Record 168e3ee1e3 · Learn-how-AVs-and-robotics-are-laying-the-groundwor
@@ -16,7 +20,3 @@ Learn how AVs and robotics are laying the groundwork for field deployments at Ro
 <p>ASI CEO Mel Torrie will explore why the intersection of autonomous vehicles and robotics will further revolutionize field deployments.</p> <p>The post <a href="https://www.therobotreport.com/learn-how-avs-robotics-are-laying-groundwork-field-deployments-robobusiness/">Learn how AVs and robotics are laying the groundwork for field deployments at RoboBusiness</a> appeared first on <a href="https:
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

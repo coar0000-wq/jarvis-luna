@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.379491+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1001/jamanetworkopen.2026.30781"
 ---
 
 # Record 231 · Inhaled-Corticosteroids-Continuation-in-the-First-Trimester-and-Pregna
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Inhaled Corticosteroids Continuation in the First Trimester and Pregnancy Outcomes in Women With Asthma
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

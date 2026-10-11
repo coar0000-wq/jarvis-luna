@@ -2,8 +2,12 @@
 title: "Record 11f372a2da · Green-Apple-Brightening-Peel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.088522+00:00
+updated_at: 2026-10-11T00:55:28.351899+00:00
 tags: [record, real-data]
+source: "organic_skincare"
+topics: ["뷰티스킨케어"]
+domain: "juicebeauty.com"
+url: "https://juicebeauty.com/"
 ---
 
 # Record 11f372a2da · Green-Apple-Brightening-Peel
@@ -16,7 +20,3 @@ Green Apple Brightening Peel
 Green Apple Brightening Peel · Juice Beauty · Treatment · $48.0 · organic, peel
 
 **출처:** Source · organic_skincare
-
-## Connected nodes
-
-[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.824739+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["모델-라우팅MoE", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/ben-bernanke"
 ---
 
 # Record 2305 · Ben-Bernanke-joins-the-Long-Term-Benefit-Trust
@@ -16,7 +21,3 @@ Ben Bernanke joins the Long-Term Benefit Trust
 Former Federal Reserve Chair Ben Bernanke has been appointed to Anthropic's Long-Term Benefit Trust, bringing expertise on AI's economic impacts.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[모델-라우팅MoE]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.891313+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxPejlOcU9tZ21EWkVNbjJDRXNQTk8wM3hYNFBnU3lPYVkzakx1YXp4all6dFVfV0lubjVmWGs5M2Z1UlVNdGhpQ1hmYXJMMnpCS21TNXFVMEpHWU5pcUdVQkszbEV2LUs4RmNlckpHRC1XaEQwUndoUlVlMmdKcm1JQldYLUVHMWtLWG5ickhJSkVncFlG?oc=5"
 ---
 
 # Record 1464 · Viral-TikTok-makeup-trends-to-elevate-your-New-Years-glam---holacom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Viral TikTok makeup trends to elevate your New Year’s glam - hola.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

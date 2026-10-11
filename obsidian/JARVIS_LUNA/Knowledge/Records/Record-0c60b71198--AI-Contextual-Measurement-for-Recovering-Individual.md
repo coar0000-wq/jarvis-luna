@@ -2,8 +2,12 @@
 title: "Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.920916+00:00
+updated_at: 2026-10-11T00:55:11.506361+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.02821v1"
 ---
 
 # Record 0c60b71198 · AI-Contextual-Measurement-for-Recovering-Individual
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Contextual Measurement for Recovering Individual and Group-Level Effects: Validation Against Survey Measures and an Occupational Application
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

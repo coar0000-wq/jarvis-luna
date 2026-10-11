@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.071704+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "openalex.org"
+url: "https://openalex.org/W7168329054"
 ---
 
 # Record 1952 · Lessons-learned-from-ongoing-coordination-between-NRAOGBO-and-LEO-NGSO
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Lessons learned from ongoing coordination between NRAO/GBO and LEO NGSO satellite constellations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

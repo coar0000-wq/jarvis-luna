@@ -2,8 +2,12 @@
 title: "Record 6b4362eda4 · RAMP-Robust-Adaptive-Mixed-Precision-Quantization-for-Edge-CPU-Vision-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.189101+00:00
+updated_at: 2026-10-11T00:55:14.727408+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.28262"
 ---
 
 # Record 6b4362eda4 · RAMP-Robust-Adaptive-Mixed-Precision-Quantization-for-Edge-CPU-Vision-
@@ -16,7 +20,3 @@ RAMP: Robust Adaptive Mixed-Precision Quantization for Edge CPU Vision Models
 Deploying deep learning models on edge CPUs is bottlenecked by computational and memory constraints. Mixed-precision quantization promises to reduce inference latency while preserving accuracy. However, quantization affects different layer types in inconsistent ways, so identifying where accuracy loss is minimized and latency reduction is maximized is critical, as the effect accumulates over a ful
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

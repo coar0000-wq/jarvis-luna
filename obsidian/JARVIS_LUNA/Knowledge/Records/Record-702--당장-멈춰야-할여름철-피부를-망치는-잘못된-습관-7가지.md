@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.676325+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=hyLsZp6C3ck"
 ---
 
 # Record 702 · 당장-멈춰야-할여름철-피부를-망치는-잘못된-습관-7가지
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 ❗️당장 멈춰야 할❗️여름철 피부를 망치는 잘못된 습관 7가지
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

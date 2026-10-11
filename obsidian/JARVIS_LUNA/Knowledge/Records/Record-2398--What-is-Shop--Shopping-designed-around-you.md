@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.547581+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=KsujQDvKdHk"
 ---
 
 # Record 2398 · What-is-Shop--Shopping-designed-around-you
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is Shop? | Shopping designed around you
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

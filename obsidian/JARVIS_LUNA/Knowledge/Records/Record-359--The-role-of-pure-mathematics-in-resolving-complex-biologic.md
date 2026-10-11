@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.330997+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "과학수학", "투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.biosystems.2025.105575"
 ---
 
 # Record 359 · The-role-of-pure-mathematics-in-resolving-complex-biological-problems-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The role of pure mathematics in resolving complex biological problems: Applications to F1-ATPase, achievements, and future directions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[과학수학]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

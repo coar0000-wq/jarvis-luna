@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.120269+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "openalex.org"
+url: "https://openalex.org/W7164090411"
 ---
 
 # Record 2032 · Fast-excursion-limit-of-the-Heston-model
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Fast-excursion limit of the Heston model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

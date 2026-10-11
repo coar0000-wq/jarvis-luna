@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.687678+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.3390/ijgi11040254"
 ---
 
 # Record 606 · Geospatial-Web-Services-Discovery-through-Semantic-Annotation-of-WPS
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Geospatial Web Services Discovery through Semantic Annotation of WPS
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

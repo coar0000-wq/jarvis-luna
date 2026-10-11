@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.914924+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR2pRVUlJSXF2U1ZnSnYtOEtyVHlZam16MGo2M0hJUWd4SnNjbnAyTkx1bFRneDZ1RTB6T1duOWtvdWxpUk9qQklNSjhrVnpaMWVpZjFRNXV5TG5mWkhNRFpIbXNkbkluQ09pNTZ6Sk5tdDBJdW94cXc2NThSSk1mU21fVk41eDTSAYwBQVVfeXFMTXBNSmVOOWtjRUtQY2NGMUI4dHJ2NjRzUy0wTHhOSXBxd1BTeTBPdFBnVWdoUUl6VnBzVllGeUNTYmlOb01LWWcwVi1PZ0RWOW9XVmdHRmFRTDNfbnhkTFZkSVQ1X2ZhQ25rWTQxY1ZURXJaVTI3WWZUTzZiZDQza29pYnE5REMyUUpHZ0c?oc=5"
 ---
 
 # Record 475 · This-TikTok-Beauty-Trend-Has-Made-People-Obsessed-With-A-Relentless-Pu
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 This TikTok Beauty Trend Has Made People Obsessed With A 'Relentless Pursuit Of Perfection' - HuffPost
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

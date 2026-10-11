@@ -2,8 +2,14 @@
 title: "Record 98f399cafa · Optimal-insurance-design-under-limited-liability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.456389+00:00
+updated_at: 2026-10-11T00:55:19.064393+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1111/jori.70016"
+kind: "논문"
 ---
 
 # Record 98f399cafa · Optimal-insurance-design-under-limited-liability
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Optimal insurance design under limited liability
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

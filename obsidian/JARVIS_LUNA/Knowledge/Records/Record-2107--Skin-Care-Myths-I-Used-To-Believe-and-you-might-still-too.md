@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.448108+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=1_v0eddr1Jo"
 ---
 
 # Record 2107 · Skin-Care-Myths-I-Used-To-Believe-and-you-might-still-too
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Skin Care Myths I Used To Believe (and you might still too)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

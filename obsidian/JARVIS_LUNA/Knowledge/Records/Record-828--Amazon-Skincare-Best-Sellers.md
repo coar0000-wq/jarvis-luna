@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.323425+00:00
 tags: [{', '.join(tags)}]
+source: "us_beauty"
+topics: ["AI-Research"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Best-Sellers-Beauty-Skin-Care-Products/zgbs/beauty/11060451"
 ---
 
 # Record 828 · Amazon-Skincare-Best-Sellers
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Amazon Skincare Best Sellers
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

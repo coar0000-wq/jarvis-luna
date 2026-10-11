@@ -2,8 +2,12 @@
 title: "Record d23191dfe8 · How-I-Find-1KDay-Winning-Dropshipping-Products-Usin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.720950+00:00
+updated_at: 2026-10-11T00:55:54.308688+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=IgkDbdcjQhk"
 ---
 
 # Record d23191dfe8 · How-I-Find-1KDay-Winning-Dropshipping-Products-Usin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How I Find $1K/Day Winning Dropshipping Products Using Claude AI (FREE METHOD)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.258025+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/news-subscription"
 ---
 
 # Record 2012 · Sign-up-for-ASML-news-alerts
@@ -16,7 +21,3 @@ Sign up for ASML news alerts
 Receive an email when ASML publishes a new press release, announcement, story, or share buyback update.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

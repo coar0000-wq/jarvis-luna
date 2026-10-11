@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.342708+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.3390/diagnostics16172755"
 ---
 
 # Record 568 · Ultrasound-Guided-Pharmacopuncture-Targeting-the-Myotendinous-Junction
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Ultrasound-Guided Pharmacopuncture Targeting the Myotendinous Junction for Refractory Common Extensor Tendinopathy: A Case Series
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

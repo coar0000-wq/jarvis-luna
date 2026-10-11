@@ -2,8 +2,12 @@
 title: "Record c9f88c0ced · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.333184+00:00
+updated_at: 2026-10-11T00:55:32.637205+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTmpoeEFyajdBNkM0S1BKNlhXYUNneDR5d21ES0xLTUFfVHllV2VYTUpTRmJROTNrcEpuRnVWNG1jdzFBc1lGcDVNS1AwY0YyNUxLNjYtN3dkR0lfZ1d1NkZfQXNvOXVSUVYtUFVGZnRidnFWYmZ5LTI2bVU0ME5ybl9rbw?oc=5"
 ---
 
 # Record c9f88c0ced · Why-the-Keep-Your-Lower-Bleph-Trend-Is-a-Quiet-Rebe
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why the "Keep Your Lower Bleph" Trend Is a Quiet Rebellion Against Perfection - Marie Claire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

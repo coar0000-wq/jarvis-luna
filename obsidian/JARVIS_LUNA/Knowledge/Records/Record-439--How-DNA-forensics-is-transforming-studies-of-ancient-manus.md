@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.622646+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.1038/d41586-026-01029-2"
 ---
 
 # Record 439 · How-DNA-forensics-is-transforming-studies-of-ancient-manuscripts
@@ -15,7 +20,3 @@ tags: [record, real-data]
 How DNA forensics is transforming studies of ancient manuscripts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

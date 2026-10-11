@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.436743+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/jstsp.2024.3457014"
 ---
 
 # Record 478 · Deep-Learning-Based-Auto-Encoder-for-Time-Offset-Sub-Faster-Than-Nyqui
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Deep Learning-Based Auto-Encoder for Time-Offset Sub-Faster-Than-Nyquist Downlink NOMA With Timing Errors and Imperfect CSI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

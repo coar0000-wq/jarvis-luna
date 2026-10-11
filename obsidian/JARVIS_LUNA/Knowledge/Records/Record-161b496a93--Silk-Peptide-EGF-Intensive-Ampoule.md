@@ -2,8 +2,12 @@
 title: "Record 161b496a93 · Silk-Peptide-EGF-Intensive-Ampoule"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.655550+00:00
+updated_at: 2026-10-11T00:55:53.061186+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/silk-peptide-egf-intensive-ampoule-pimprod2056686"
 ---
 
 # Record 161b496a93 · Silk-Peptide-EGF-Intensive-Ampoule
@@ -16,7 +20,3 @@ Silk Peptide EGF Intensive Ampoule
 Silk Peptide EGF Intensive Ampoule · SUNGBOON EDITOR · $28
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.951500+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUERsXzJfMWd0N1FpbkNkQjFuNnRIX192aFdMOVFlVWJTT1dzMEJYZFB3bzNRdHJnTlZjNXdmc2xkSWxRNWpHMHZTYjVLT3lmME1mRktoSXZCYzJyZkYxa0FyS2I3ZUx4d29hNnh4bG5fUS1vb3kzNWVXZWdPVWJKNnY4SXVhTlBybmJjYlZKaXBYbFpXLWwyWmU2ay1Zb1M2RkhlcjNMZkhJdTJ0NUZsY09kN2tya0dZ?oc=5"
 ---
 
 # Record 766 · Shopify-sees-strong-revenue-as-e-commerce-business-grows-despite-tarif
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Shopify sees strong revenue as e-commerce business grows despite tariff gloom - Reuters
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

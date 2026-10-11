@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.435027+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.3390/hemato7020022"
 ---
 
 # Record 752 · Flow-Cytometry-Immunophenotyping-in-Hematology-Clinical-Practice-Panac
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Flow Cytometry Immunophenotyping in Hematology Clinical Practice: Panacea or a Diagnostic Tool? Conclusions from a Case Report
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

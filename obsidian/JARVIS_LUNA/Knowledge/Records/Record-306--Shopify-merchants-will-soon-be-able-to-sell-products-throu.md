@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.836852+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jVXBnRk9PUWhFSWl3dVg1Ry11MGcxVDhJUTNtQjk2WEVJTDFlNEU5VHpFR3FvOHZEU2pmS0lMV3RMdklyS1k2LU1KU3lhYjhPeHpIaDQzSnlVcUxFMjF6ZkdMQU1wS0U4ZllKWVgtM0VLU3Vs?oc=5"
 ---
 
 # Record 306 · Shopify-merchants-will-soon-be-able-to-sell-products-through-ChatGPT--
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Shopify merchants will soon be able to sell products through ChatGPT - CBC
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

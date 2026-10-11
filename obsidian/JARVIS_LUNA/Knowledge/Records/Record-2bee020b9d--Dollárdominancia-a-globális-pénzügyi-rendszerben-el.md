@@ -2,8 +2,14 @@
 title: "Record 2bee020b9d · Dollárdominancia-a-globális-pénzügyi-rendszerben-elégedetlenség-elmozd"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.560693+00:00
+updated_at: 2026-10-11T00:55:20.806605+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.25201/hsz.25.2.5"
+kind: "논문"
 ---
 
 # Record 2bee020b9d · Dollárdominancia-a-globális-pénzügyi-rendszerben-elégedetlenség-elmozd
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Dollárdominancia a globális pénzügyi rendszerben: elégedetlenség elmozdulás nélkül
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

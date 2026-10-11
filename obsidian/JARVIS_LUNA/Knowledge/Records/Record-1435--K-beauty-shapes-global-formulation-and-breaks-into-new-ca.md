@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.328559+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWxFUXJ2Yk44c3dxckM4OWNtZHpjMXdEN2tJZ1N3V2lpemJYbDNIWFR4ZFRldEkzZk1GRHZ2bUxiT1hYbjVVcGs4enJWNjhWZlNQOHFod28yUFpOOThyaEhvbHAyRlYxWEpxZ2V3N2dQekVnZHRIQjA2MV9QM25kNXdqRmFMYkxvZ2dqNkZ6aUpybHhpSmxtUg?oc=5"
 ---
 
 # Record 1435 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---Pe
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty shapes global formulation and breaks into new categories - Personal Care Insights
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

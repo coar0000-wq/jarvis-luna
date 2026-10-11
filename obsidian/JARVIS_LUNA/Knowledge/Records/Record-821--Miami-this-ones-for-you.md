@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.178002+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/2qnuJYH8CL8"
 ---
 
 # Record 821 · Miami-this-ones-for-you
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Miami, this one’s for you 🔥
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

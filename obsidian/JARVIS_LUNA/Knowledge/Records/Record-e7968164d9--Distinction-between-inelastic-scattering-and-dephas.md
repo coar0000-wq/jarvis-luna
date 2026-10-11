@@ -2,8 +2,14 @@
 title: "Record e7968164d9 · Distinction-between-inelastic-scattering-and-dephas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.293838+00:00
+updated_at: 2026-10-11T00:55:16.235361+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.carbon.2026.121956"
+kind: "논문"
 ---
 
 # Record e7968164d9 · Distinction-between-inelastic-scattering-and-dephas
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Distinction between inelastic scattering and dephasing exponents by current heating in gated epitaxial graphene
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

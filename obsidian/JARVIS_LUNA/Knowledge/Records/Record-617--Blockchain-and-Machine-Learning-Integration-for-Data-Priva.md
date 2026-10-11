@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.919893+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "doi.org"
+url: "https://doi.org/10.47672/ejt.2006"
 ---
 
 # Record 617 · Blockchain-and-Machine-Learning-Integration-for-Data-Privacy-and-Secur
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Blockchain and Machine Learning Integration for Data Privacy and Security
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

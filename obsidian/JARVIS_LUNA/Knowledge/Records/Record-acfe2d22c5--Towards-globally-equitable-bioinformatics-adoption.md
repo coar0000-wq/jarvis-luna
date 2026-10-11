@@ -2,8 +2,14 @@
 title: "Record acfe2d22c5 · Towards-globally-equitable-bioinformatics-adoption"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.505034+00:00
+updated_at: 2026-10-11T00:55:19.941332+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pbio.3003839"
+kind: "논문"
 ---
 
 # Record acfe2d22c5 · Towards-globally-equitable-bioinformatics-adoption
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Towards globally equitable bioinformatics adoption
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

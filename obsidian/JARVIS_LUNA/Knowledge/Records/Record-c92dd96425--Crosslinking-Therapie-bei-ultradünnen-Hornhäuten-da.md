@@ -2,8 +2,14 @@
 title: "Record c92dd96425 · Crosslinking-Therapie-bei-ultradünnen-Hornhäuten-das-ELZA-sub400-Proto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.271513+00:00
+updated_at: 2026-10-11T00:55:15.883974+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s00347-026-02467-z"
+kind: "논문"
 ---
 
 # Record c92dd96425 · Crosslinking-Therapie-bei-ultradünnen-Hornhäuten-das-ELZA-sub400-Proto
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Crosslinking-Therapie bei ultradünnen Hornhäuten: das ELZA-sub400-Protokoll
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

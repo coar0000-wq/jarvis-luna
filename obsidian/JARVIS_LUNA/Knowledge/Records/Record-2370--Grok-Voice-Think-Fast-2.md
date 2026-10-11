@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:39.122300+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["음성오디오", "AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-voice-think-fast-2"
 ---
 
 # Record 2370 · Grok-Voice-Think-Fast-2
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Grok Voice Think Fast 2
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[음성오디오]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

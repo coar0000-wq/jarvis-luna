@@ -2,8 +2,12 @@
 title: "Record 7e8ee1f687 · CoAdapt-An-LLM-based-Framework-for-Adaptive-Collaborative-Perception-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.108710+00:00
+updated_at: 2026-10-11T00:55:13.717291+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "LLM언어모델", "로보틱스", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16852"
 ---
 
 # Record 7e8ee1f687 · CoAdapt-An-LLM-based-Framework-for-Adaptive-Collaborative-Perception-i
@@ -16,7 +20,3 @@ CoAdapt: An LLM-based Framework for Adaptive Collaborative Perception in IIoT Ro
 Industrial IoT environments increasingly deploy autonomous mobile robots for tasks such as material handling, product assembly, or infrastructure inspection. In such deployments, collaborative perception enables robots to share LiDAR observations and collectively construct a richer model of their environment than an individual agent could produce alone. However, industrial environments are dynamic
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[로보틱스]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

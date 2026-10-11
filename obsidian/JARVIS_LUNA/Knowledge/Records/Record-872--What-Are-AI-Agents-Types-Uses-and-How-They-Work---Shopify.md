@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.042737+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yejdQMjNJWDIwWFhYbTcxX2JyWFJjX1FLTmJqSmxqR0lDWV9wNy1UVDFURURmUmYyb1UxQXBvbXoydDh4ejVEeXllMDJTZkt1eGNz?oc=5"
 ---
 
 # Record 872 · What-Are-AI-Agents-Types-Uses-and-How-They-Work---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Are AI Agents? Types, Uses, and How They Work - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

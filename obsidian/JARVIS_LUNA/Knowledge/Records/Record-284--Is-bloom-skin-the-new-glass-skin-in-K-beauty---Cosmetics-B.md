@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.288087+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mOTlqeDVjaFZ0VVlkUVVpVHh4SXp5dXdqajJwNXNseGUyenVwUU1mUV8tNUpsU1N4bEpUQjhyZ2hWQnhVWVRKZU05ci12emRUcDc3dmRBT00zM25kSjVMSy1Gbm1CRTVMblFMT0ZCTFhyTjg?oc=5"
 ---
 
 # Record 284 · Is-bloom-skin-the-new-glass-skin-in-K-beauty---Cosmetics-Business
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Is ‘bloom skin’ the new ‘glass skin’ in K-beauty? - Cosmetics Business
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

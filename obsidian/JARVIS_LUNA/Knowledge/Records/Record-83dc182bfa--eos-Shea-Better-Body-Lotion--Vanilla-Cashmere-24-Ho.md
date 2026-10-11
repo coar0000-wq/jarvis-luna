@@ -2,8 +2,12 @@
 title: "Record 83dc182bfa · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Hour-Moisture-16-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.327702+00:00
+updated_at: 2026-10-11T00:55:47.466268+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/eos-Cashmere-Moisture-Lightweight-Non-Greasy/dp/B08KT2Z93D/ref=zg_bs_g_beauty_d_sccl_2/137-0462483-0665063"
 ---
 
 # Record 83dc182bfa · eos-Shea-Better-Body-Lotion--Vanilla-Cashmere-24-Hour-Moisture-16-fl-o
@@ -16,7 +20,3 @@ eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz
 eos Shea Better Body Lotion- Vanilla Cashmere, 24-Hour Moisture, 16 fl oz · $9.97 · 평점 4.7 · 리뷰 76,116
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

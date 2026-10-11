@@ -2,8 +2,12 @@
 title: "Record edaf5a45a8 · DoubleDown-Lip-Definer-2-in-1-Liner-and-Balm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.633038+00:00
+updated_at: 2026-10-11T00:55:52.629709+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/doubledown-lip-definer-2-in-1-liner-balm-pimprod2059017"
 ---
 
 # Record edaf5a45a8 · DoubleDown-Lip-Definer-2-in-1-Liner-and-Balm
@@ -16,7 +20,3 @@ DoubleDown Lip Definer 2-in-1 Liner and Balm
 DoubleDown Lip Definer 2-in-1 Liner and Balm · SACHEU · $12
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record ce5508c16c · Introducing-Grok-Voice-Transcribe-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.748848+00:00
+updated_at: 2026-10-11T00:55:54.840424+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["음성오디오", "AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-voice-transcribe-2"
+kind: "발표물"
 ---
 
 # Record ce5508c16c · Introducing-Grok-Voice-Transcribe-20
@@ -16,7 +22,3 @@ Introducing Grok Voice Transcribe 2.0
 Announcing SpaceXAI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[음성오디오]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

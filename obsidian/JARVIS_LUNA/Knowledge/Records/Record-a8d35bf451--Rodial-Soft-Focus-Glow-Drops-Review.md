@@ -2,8 +2,12 @@
 title: "Record a8d35bf451 · Rodial-Soft-Focus-Glow-Drops-Review"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.904718+00:00
+updated_at: 2026-10-11T00:55:42.010225+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/review/rodial-soft-focus-glow-drops-review-2026"
 ---
 
 # Record a8d35bf451 · Rodial-Soft-Focus-Glow-Drops-Review
@@ -16,7 +20,3 @@ Rodial Soft Focus Glow Drops Review
 Rodial Soft Focus Glow Drops Review
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

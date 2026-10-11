@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.029319+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7171749674"
 ---
 
 # Record 2096 · Tensor-Network-Simulation-of-the-Heisenberg-Model-on-Heavy-Hex-Lattice
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Tensor Network Simulation of the Heisenberg Model on Heavy-Hex Lattices
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 70bc7b947b · Workload-Insights-from-the-Snowflake-Data-Cloud-What-Do-Production-Ana"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.512408+00:00
+updated_at: 2026-10-11T00:55:20.074595+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.14778/3750601.3750632"
+kind: "논문"
 ---
 
 # Record 70bc7b947b · Workload-Insights-from-the-Snowflake-Data-Cloud-What-Do-Production-Ana
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Workload Insights from the Snowflake Data Cloud: What Do Production Analytic Queries Really Look Like?
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

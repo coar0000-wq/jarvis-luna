@@ -2,8 +2,12 @@
 title: "Record 6b912b93c2 · Forever-Eye-Masks"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.720920+00:00
+updated_at: 2026-10-11T00:55:39.000797+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "sokoglam.com"
+url: "https://sokoglam.com/products/dieux-forever-eye-masks"
 ---
 
 # Record 6b912b93c2 · Forever-Eye-Masks
@@ -16,7 +20,3 @@ Forever Eye Masks
 Forever Eye Masks · Dieux · $25.0
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

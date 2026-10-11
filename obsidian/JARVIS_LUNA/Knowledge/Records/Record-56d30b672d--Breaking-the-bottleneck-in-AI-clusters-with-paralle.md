@@ -2,8 +2,14 @@
 title: "Record 56d30b672d · Breaking-the-bottleneck-in-AI-clusters-with-paralle"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.361047+00:00
+updated_at: 2026-10-11T00:55:17.361980+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41467-026-76764-1"
+kind: "논문"
 ---
 
 # Record 56d30b672d · Breaking-the-bottleneck-in-AI-clusters-with-paralle
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Breaking the bottleneck in AI clusters with parallel photonic integration
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

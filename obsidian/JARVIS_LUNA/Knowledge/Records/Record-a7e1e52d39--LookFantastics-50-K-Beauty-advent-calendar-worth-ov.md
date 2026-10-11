@@ -2,8 +2,12 @@
 title: "Record a7e1e52d39 · LookFantastics-50-K-Beauty-advent-calendar-worth-over-140-containing-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.421210+00:00
+updated_at: 2026-10-11T00:55:34.166038+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMWdlVVcxSlVFOXBqaHVZNHNncWk4RzlBNUx1VmhrRlJSd2RqM0NsZ19ITi1LU0pQTUQybFowcWlHM210SkZEdFlON0NGNjNiVUkwTk1MWjlyUlVfWGEyUnBMSDBrc0kzVkpWOGxLT3JSUlNuMDR0UTVQdVd6WkcxWVlkZmNZRWtvSWpza0dHMzVWQkZjbUtV0gGcAUFVX3lxTE5KdXVIOFRwOWlWTnppMTZncHJIN2hCcnpMSS1GUW5mQVpiVExuR1dVeDZrNC1hQlZfZUpWa0tYX0NVN1pMd3pvYm9jLW1qQnl0d1JJaV9fZUdFOWo1bExmUlp5MkRCSUxRS2dld080a2NtS2syNUFULXU5NzVtaV9QVVhNaTc5Mjd1U3pERmJJeG05QjZiUWlIakNFNA?oc=5"
 ---
 
 # Record a7e1e52d39 · LookFantastics-50-K-Beauty-advent-calendar-worth-over-140-containing-M
@@ -15,7 +19,3 @@ tags: [record, real-data]
 LookFantastic's £50 K-Beauty advent calendar worth over £140 containing Medicube - liverpoolecho.co.uk
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

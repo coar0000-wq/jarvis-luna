@@ -2,8 +2,12 @@
 title: "Record 4205f8bb05 · In-Defense-of-TikToks-Morning-Shed-Trend---Glamour"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.200939+00:00
+updated_at: 2026-10-11T00:55:30.238222+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3M0hyNmpqY3JtMkczR3BpY3JzczJMbGl1UF9xQk54aFc5c3ozT2NLSHY3NlZQck1VTVBWN0JJUWZIUEcydlpmbVBFUG5yNXMtNjRQSVVOQ0x6SkVTMUgzTHBVcVhKZw?oc=5"
 ---
 
 # Record 4205f8bb05 · In-Defense-of-TikToks-Morning-Shed-Trend---Glamour
@@ -15,7 +19,3 @@ tags: [record, real-data]
 In Defense of TikTok’s ‘Morning Shed’ Trend - Glamour
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

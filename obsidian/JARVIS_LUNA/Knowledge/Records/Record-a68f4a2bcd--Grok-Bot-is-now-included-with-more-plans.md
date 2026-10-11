@@ -2,8 +2,14 @@
 title: "Record a68f4a2bcd · Grok-Bot-is-now-included-with-more-plans"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.746243+00:00
+updated_at: 2026-10-11T00:55:54.787705+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-bot-more-plans"
+kind: "발표물"
 ---
 
 # Record a68f4a2bcd · Grok-Bot-is-now-included-with-more-plans
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Grok Bot More Plans
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

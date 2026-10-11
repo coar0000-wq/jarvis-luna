@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.156173+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEpaNFMxajlrSDR4UGdCV1d4am13OUdpTGJfM3ZCbTJjaEtIRk5Dcm9vS21vWnl0S2t1cllxWThkZ2ZFMDdGTnluLWlqTnEySnc3WVhtRGhEdEN6WnA0RG5RNzd1SmVHMlRtTHpTcGFyT0kzeEwwVk5SM0ozSFNYYWlBZnEzYnI1WVVrelgxczAzRHdGWUM0dzl1dkVKaGp0Uklj?oc=5"
 ---
 
 # Record 675 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on-Building-Lasting-B
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 K-beauty’s Next Chapter: Amorepacific CEO Sean Kim on Building Lasting Brands, Innovation, and Personalization - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

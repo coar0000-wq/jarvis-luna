@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.657502+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스", "보안프라이버시"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/fcc-covered-list-mobile-robots"
 ---
 
 # Record 1811 · What-Robotics-Companies-Think-About-the-US-Foreign-Robot-Ban
@@ -16,7 +20,3 @@ What Robotics Companies Think About the U.S. Foreign Robot Ban
 <img src="https://spectrum.ieee.org/media-library/photo-collage-of-humanoid-quadruped-and-unmanned-ground-vehicle-robots.jpg?id=67563239&width=1245&height=700&coordinates=0%2C469%2C0%2C469"/><br/><br/><p>The U.S. Federal Communications Commission (FCC) “Covered List,” originally published in 2021, identifies communications equipment and services that it says pose a threat to national security. <sp
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

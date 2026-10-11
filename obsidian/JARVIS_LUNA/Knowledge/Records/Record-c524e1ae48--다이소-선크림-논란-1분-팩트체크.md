@@ -2,8 +2,12 @@
 title: "Record c524e1ae48 · 다이소-선크림-논란-1분-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.713203+00:00
+updated_at: 2026-10-11T00:55:54.136811+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/zFhpthyNT8w"
 ---
 
 # Record c524e1ae48 · 다이소-선크림-논란-1분-팩트체크
@@ -15,7 +19,3 @@ tags: [record, real-data]
 다이소 선크림 논란, 1분 팩트체크
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

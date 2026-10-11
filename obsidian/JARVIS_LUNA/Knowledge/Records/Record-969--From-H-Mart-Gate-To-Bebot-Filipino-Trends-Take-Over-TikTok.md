@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.402719+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTTdVY1Jobl9WYzVtbWpUUURNaGVzdmVaTUtSalVOUWFCWFdKajZSeHdMOTRGc3E3SXQ0VjA1UVVWM3NZcVlqemMxR3ItaVRsbmNYenBuZVowZTBOVlZRMk12UWphZUtkQUo1a2hScGxzay1LN3VHWnUtYjJaU0VycWdKZ3FvX1llQkpLY2Zhd1JSMjd5aDJmUmFhbnozZmpOTjVNaW1uWmFzeUtxdG5mQjdmdGc3Sl9XeTdaNjFvXzY0aXFoOUwwd2E4aWFoUlNieThKUg?oc=5"
 ---
 
 # Record 969 · From-H-Mart-Gate-To-Bebot-Filipino-Trends-Take-Over-TikTok-But-Where-A
@@ -15,7 +19,3 @@ tags: [record, real-data]
 From H-Mart Gate To Bebot, Filipino Trends Take Over TikTok– But, Where Are The Filipino Content Creators? - thewatchdogonline.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

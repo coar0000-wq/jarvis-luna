@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.400009+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/shieldstral/"
 ---
 
 # Record 958 · Introducing-Shieldstral
@@ -16,7 +21,3 @@ Introducing Shieldstral.
 Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

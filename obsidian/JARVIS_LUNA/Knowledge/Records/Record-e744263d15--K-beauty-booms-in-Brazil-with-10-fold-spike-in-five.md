@@ -2,8 +2,12 @@
 title: "Record e744263d15 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.499551+00:00
+updated_at: 2026-10-11T00:55:35.497846+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTlVrRmVkSjd5ek8xYTlmRWo0dzVRYkdqRjU4NUR0YllGUUtkd1VoelpnLVc1NHFQdjd2WHZ6S2ljRkR5dzZSRmJoRmtkUGdMVU1XdHBENzFDSS1OemRmeGJyX3hTYnVaTHlQczRPN0VmYm5LaVB2c2Q1eVAtR2pEZ0cwSE94THZUQ0JSd2hWVkFIWUlMOGN5LW5qaklYNHpVdXZBelFJdVdmdngt?oc=5"
 ---
 
 # Record e744263d15 · K-beauty-booms-in-Brazil-with-10-fold-spike-in-five
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty booms in Brazil with 10-fold spike in five years - Korea JoongAng Daily
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record add9bc85e7 · AI-Content-Creation-5-Best-Tools-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.179096+00:00
+updated_at: 2026-10-11T00:55:29.874742+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ZX3diTTZFOHN4OG5hQXdJdjlWdkY2SXJLMklRajltZ0lSY1NVSW1Jel9PODlaTUFOT1RZY2RfOURrcTdOQ195aldITmQ1Umdrd2N1cndtOXZ4c1hGOUh4ZQ?oc=5"
 ---
 
 # Record add9bc85e7 · AI-Content-Creation-5-Best-Tools-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Content Creation: 5 Best Tools in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

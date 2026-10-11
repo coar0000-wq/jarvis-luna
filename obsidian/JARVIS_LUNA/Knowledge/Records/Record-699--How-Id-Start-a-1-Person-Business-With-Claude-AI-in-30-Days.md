@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.706681+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=7-Sg2RKNMZE"
 ---
 
 # Record 699 · How-Id-Start-a-1-Person-Business-With-Claude-AI-in-30-Days
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How I'd Start a 1-Person Business With Claude AI in 30 Days
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

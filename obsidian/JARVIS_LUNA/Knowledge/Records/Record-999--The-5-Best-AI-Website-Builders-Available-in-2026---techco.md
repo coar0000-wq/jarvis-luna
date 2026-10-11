@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.058749+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xWklJODN3eHhVYnhrNDV1Ni12bU5JZUNXTTU1MHZWTWRYeEVkUWNjbWdyVDhDejloaVp6NGlCazFrQmVOenUtQVJJaTlqYzliUElqVS05eTFkaDdwaVlmRXU1SEVLR1Rz?oc=5"
 ---
 
 # Record 999 · The-5-Best-AI-Website-Builders-Available-in-2026---techco
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The 5 Best AI Website Builders Available in 2026 - tech.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

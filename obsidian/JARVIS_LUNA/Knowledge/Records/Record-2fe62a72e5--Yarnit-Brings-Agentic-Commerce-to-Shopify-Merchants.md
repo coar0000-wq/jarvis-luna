@@ -2,8 +2,12 @@
 title: "Record 2fe62a72e5 · Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.553771+00:00
+updated_at: 2026-10-11T00:55:36.456050+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdld0aFZWRnFIUUtrYmh6REt4REJtTXF4a3AzcnZWYkJMNHQ0bGhTbVNYbXNQWXZiemlwM1E2R3JDYjlSMHZkWHZMcEh3TkVIWVVRbTdRM09XUkdpaDZjTlQ5UlpfMkFWZGR2Mnc1Mkl4Wlk5T0Exd3JjZUxiSWx6U1hzRF82Y3BFa0hJUDJteE5FSWZGMXNTTDFZVWxwcmJqdngwUEVMTkF4c0s2OU0zX0xYb0pwWnhHY2p5SDZKdWhfc1E0OWdHUmx0TC02QQ?oc=5"
 ---
 
 # Record 2fe62a72e5 · Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Yarnit Brings Agentic Commerce to Shopify Merchants with CatalogIQ and Creative OS - ANI News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

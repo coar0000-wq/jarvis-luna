@@ -2,8 +2,14 @@
 title: "Record 03fe5aab91 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.581249+00:00
+updated_at: 2026-10-11T00:55:36.751804+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "컴퓨터-비전", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-presents-design-is-an-act-of-love-at-design-miami-seoul-2026"
+kind: "발표물"
 ---
 
 # Record 03fe5aab91 · Samsung-Presents-Design-Is-an-Act-of-Love-at-Design
@@ -16,7 +22,3 @@ Samsung Presents ‘Design Is an Act of Love’ at Design Miami Seoul 2026
 Samsung Electronics today announced the opening of “Design is an Act of Love” at Design Miami Seoul 2026, a global design event taking place in Seoul from Sept. 1-6. The exhibition celebrates a human-centered design vision rooted in a deep understanding of and care for people. Visitors will experience Samsung’s Expressive Design through works by […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

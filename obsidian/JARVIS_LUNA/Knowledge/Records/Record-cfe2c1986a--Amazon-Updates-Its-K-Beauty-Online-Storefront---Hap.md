@@ -2,8 +2,12 @@
 title: "Record cfe2c1986a · Amazon-Updates-Its-K-Beauty-Online-Storefront---Hap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.367691+00:00
+updated_at: 2026-10-11T00:55:33.227822+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxONF9FMm9BcWxMWEJZWUY2RV8wWVJjYnpwZG4wZW84WXlfaE4yTElOV05VdEZYUlNhNm8wTDFLOEVmd0R1MW1KREFDdDVVZWg4VnVOS2ZFZUV1eFU5TUFkTXcxWFh0SWFtaktRcUlfOElFWnRJTWt6X1JQWnk4TGlRSkswbDhCOHdDLXc?oc=5"
 ---
 
 # Record cfe2c1986a · Amazon-Updates-Its-K-Beauty-Online-Storefront---Hap
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Amazon Updates Its K-Beauty Online Storefront - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

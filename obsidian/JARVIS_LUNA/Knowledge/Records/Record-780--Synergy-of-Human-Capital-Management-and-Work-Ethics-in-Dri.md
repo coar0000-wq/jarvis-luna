@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.571360+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22122576"
 ---
 
 # Record 780 · Synergy-of-Human-Capital-Management-and-Work-Ethics-in-Driving-OCB-and
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Synergy of Human Capital Management and Work Ethics in Driving OCB and Superior Performance
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

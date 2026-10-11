@@ -2,8 +2,14 @@
 title: "Record 047a55d9a3 · Anthropic-Education-Report-The-AI-Fluency-Index--Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.392570+00:00
+updated_at: 2026-10-11T00:55:48.321835+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/AI-fluency-index"
+kind: "발표물"
 ---
 
 # Record 047a55d9a3 · Anthropic-Education-Report-The-AI-Fluency-Index--Cl
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ai Fluency Index
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

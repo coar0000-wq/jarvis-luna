@@ -2,8 +2,12 @@
 title: "Record 9c9576a235 · Healthy-Feet-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.871709+00:00
+updated_at: 2026-10-11T00:55:41.402420+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오", "뷰티스킨케어"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/0722510026003"
 ---
 
 # Record 9c9576a235 · Healthy-Feet-Cream
@@ -16,7 +20,3 @@ Healthy Feet Cream
 Healthy Feet Cream · O’Keefes
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

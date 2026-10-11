@@ -2,8 +2,12 @@
 title: "Record 5a46ed2329 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.329131+00:00
+updated_at: 2026-10-11T00:55:32.564468+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbGk0RzBleFhiQ2JZYk1LSWlkUDJUdXoxVHhONE5jMU84dXM0RTdZOFo1UDFhV1lheWdxeHNBQURZdVd1NWRxMmJPUWoxdWY4ZUhGdXlUMFdOUFlZbENLVkd1QnEyUFplMzF5WktIcGV2NG90RTh6VGZkU195cWJWdmNR?oc=5"
 ---
 
 # Record 5a46ed2329 · The-Year-in-Viral-TikTok-Beauty-Products---The-Cut
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Year in Viral TikTok Beauty Products - The Cut
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

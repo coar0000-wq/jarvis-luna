@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.219143+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "openalex.org"
+url: "https://openalex.org/W7166399675"
 ---
 
 # Record 1840 · Valuing-American-options-and-Flexible-Forwards-contracts-in-time-depen
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Valuing American options and Flexible Forwards contracts in time-dependent models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

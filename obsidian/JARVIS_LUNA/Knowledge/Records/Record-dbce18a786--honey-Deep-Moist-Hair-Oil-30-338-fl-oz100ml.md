@@ -2,8 +2,12 @@
 title: "Record dbce18a786 · honey-Deep-Moist-Hair-Oil-30-338-fl-oz100ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.846410+00:00
+updated_at: 2026-10-11T00:55:40.941264+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA76593279"
 ---
 
 # Record dbce18a786 · honey-Deep-Moist-Hair-Oil-30-338-fl-oz100ml
@@ -16,7 +20,3 @@ tags: [record, real-data]
 &honey Deep Moist Hair Oil 3.0, 3.38 fl. oz.(100ml) · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

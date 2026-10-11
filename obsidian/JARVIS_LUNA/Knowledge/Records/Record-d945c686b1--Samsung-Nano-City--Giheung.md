@@ -2,8 +2,14 @@
 title: "Record d945c686b1 · Samsung-Nano-City--Giheung"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.579182+00:00
+updated_at: 2026-10-11T00:55:36.709132+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-nano-city-giheung"
+kind: "발표물"
 ---
 
 # Record d945c686b1 · Samsung-Nano-City--Giheung
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Samsung Nano City – Giheung
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

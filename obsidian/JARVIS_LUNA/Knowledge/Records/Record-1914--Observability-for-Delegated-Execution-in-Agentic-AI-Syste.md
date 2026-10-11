@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.871740+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Splunk"
+domain: "openalex.org"
+url: "https://openalex.org/W7164234267"
 ---
 
 # Record 1914 · Observability-for-Delegated-Execution-in-Agentic-AI-Systems
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Observability for Delegated Execution in Agentic AI Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

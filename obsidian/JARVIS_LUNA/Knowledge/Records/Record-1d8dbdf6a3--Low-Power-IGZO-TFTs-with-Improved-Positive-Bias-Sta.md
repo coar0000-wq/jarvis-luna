@@ -2,8 +2,14 @@
 title: "Record 1d8dbdf6a3 · Low-Power-IGZO-TFTs-with-Improved-Positive-Bias-Sta"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.586870+00:00
+updated_at: 2026-10-11T00:55:21.264840+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.3390/jlpea16030031"
+kind: "논문"
 ---
 
 # Record 1d8dbdf6a3 · Low-Power-IGZO-TFTs-with-Improved-Positive-Bias-Sta
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Low-Power IGZO TFTs with Improved Positive Bias Stability via Atomic Layer Deposition-Based H2O Treatment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

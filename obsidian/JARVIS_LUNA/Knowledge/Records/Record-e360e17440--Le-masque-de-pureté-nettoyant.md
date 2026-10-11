@@ -2,8 +2,12 @@
 title: "Record e360e17440 · Le-masque-de-pureté-nettoyant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.885782+00:00
+updated_at: 2026-10-11T00:55:41.655745+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3600550972153"
 ---
 
 # Record e360e17440 · Le-masque-de-pureté-nettoyant
@@ -16,7 +20,3 @@ Le masque de pureté nettoyant
 Le masque de pureté nettoyant · La Provençale
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

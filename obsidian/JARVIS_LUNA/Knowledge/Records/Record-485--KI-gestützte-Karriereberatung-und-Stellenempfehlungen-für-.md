@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.011640+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1365/s40702-026-01306-8"
 ---
 
 # Record 485 · KI-gestützte-Karriereberatung-und-Stellenempfehlungen-für-den-Schweize
@@ -15,7 +20,3 @@ tags: [record, real-data]
 KI-gestützte Karriereberatung und Stellenempfehlungen für den Schweizer Arbeitsmarkt: Einblicke und erste Ergebnisse aus einem laufenden Kooperations-Projekt
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

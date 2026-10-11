@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.666627+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA39684183"
 ---
 
 # Record 2046 · 2sizes-ILLIYOON-Ceramide-Ato-Concentrate-Cream
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2sizes] ILLIYOON Ceramide Ato Concentrate Cream · 평점 5 · 리뷰 4
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.862737+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91SzVVRmZ6VHlYWnptUFFIa3FRRGxPUmFpbXZyeWp5QXNqaVJwSkp3ZF9vNnp6VjA2ejJtYTdqcldadTZkVk93R2ZoNUNKNFNxeTFlV1cyZlFzbUE?oc=5"
 ---
 
 # Record 113 · ChatGPT-Prompts-for-Ecommerce-Tips-and-Examples---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 ChatGPT Prompts for Ecommerce: Tips and Examples - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

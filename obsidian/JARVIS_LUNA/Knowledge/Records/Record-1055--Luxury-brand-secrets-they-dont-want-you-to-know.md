@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.197590+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/P0-JhQ37nhw"
 ---
 
 # Record 1055 · Luxury-brand-secrets-they-dont-want-you-to-know
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Luxury brand secrets they don't want you to know 🤫
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

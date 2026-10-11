@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.341623+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/5LwJxN1YTx0"
 ---
 
 # Record 2052 · 개털도-엔젤링-만들어주는-머릿결-구원템-구독자이벤트-샴푸추천
@@ -15,7 +19,3 @@ tags: [record, real-data]
 🐶개털도 엔젤링 만들어주는 머릿결 구원템⭐️ #구독자이벤트 #샴푸추천
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

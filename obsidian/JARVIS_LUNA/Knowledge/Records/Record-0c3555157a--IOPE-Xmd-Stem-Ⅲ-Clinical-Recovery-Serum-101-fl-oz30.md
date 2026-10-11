@@ -2,8 +2,12 @@
 title: "Record 0c3555157a · IOPE-Xmd-Stem-Ⅲ-Clinical-Recovery-Serum-101-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.828588+00:00
+updated_at: 2026-10-11T00:55:40.645655+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "의료바이오"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA62188135"
 ---
 
 # Record 0c3555157a · IOPE-Xmd-Stem-Ⅲ-Clinical-Recovery-Serum-101-fl-oz30ml
@@ -16,7 +20,3 @@ IOPE Xmd Stem Ⅲ Clinical Recovery Serum 1.01 fl. oz.(30ml)
 IOPE Xmd Stem Ⅲ Clinical Recovery Serum 1.01 fl. oz.(30ml) · 평점 4.9 · 리뷰 9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

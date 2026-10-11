@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.113447+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.3389/fimmu.2026.1925859"
 ---
 
 # Record 665 · Augmenting-interferon-β-and-anti-PD-L1-antibody-bolsters-non-ablative-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Augmenting interferon-β and anti-PD-L1 antibody bolsters non-ablative radiotherapy to leverage potent abscopal effect in metastatic cancers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

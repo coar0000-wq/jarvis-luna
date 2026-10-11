@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.069197+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/2-W81cvVnL4"
 ---
 
 # Record 506 · 수영인의-올영-기획세트-추천-올영추천템-기획세트
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 수영인의 올영 기획세트 추천💦‼️ #올영추천템 #기획세트
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

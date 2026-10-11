@@ -2,8 +2,12 @@
 title: "Record f9ed09f952 · Less-Data-Better-Timing-Student-Curriculum-Coupling-for-VLM-On-Policy-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.914334+00:00
+updated_at: 2026-10-11T00:55:25.843142+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["경영전략", "소셜콘텐츠", "LLM언어모델", "머신러닝-연구", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.40055"
 ---
 
 # Record f9ed09f952 · Less-Data-Better-Timing-Student-Curriculum-Coupling-for-VLM-On-Policy-
@@ -16,7 +20,3 @@ Less Data, Better Timing: Student-Curriculum Coupling for VLM On-Policy Distilla
 On-policy distillation (OPD) provides dense supervision directly on student-generated trajectories, making it an effective post-training strategy for vision-language models in temporal video grounding (TVG). However, existing pipelines typically construct the training curriculum from a fixed teacher and the initial student state, implicitly assuming that selected examples retain positive supervisi
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[경영전략]] [[소셜콘텐츠]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

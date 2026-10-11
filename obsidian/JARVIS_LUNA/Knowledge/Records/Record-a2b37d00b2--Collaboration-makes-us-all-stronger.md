@@ -2,8 +2,14 @@
 title: "Record a2b37d00b2 · Collaboration-makes-us-all-stronger"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.427839+00:00
+updated_at: 2026-10-11T00:55:48.854366+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/collaboration-makes-us-all-stronger"
+kind: "발표물"
 ---
 
 # Record a2b37d00b2 · Collaboration-makes-us-all-stronger
@@ -16,7 +22,3 @@ Collaboration makes us all stronger
 The best security bugs come with a good storySome of our best security investments haven't been tools or scanners...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

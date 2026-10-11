@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:24.979833+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1080/1350486x.2026.2713436"
 ---
 
 # Record 336 · Analytical-Valuation-of-Vulnerable-Derivative-Claims-with-Bilateral-Ca
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Analytical Valuation of Vulnerable Derivative Claims with Bilateral Cash Flows under Credit, Funding and Wrong Way Risk
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

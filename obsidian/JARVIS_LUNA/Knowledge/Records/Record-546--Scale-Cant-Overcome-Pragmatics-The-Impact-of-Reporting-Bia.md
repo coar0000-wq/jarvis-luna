@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.451765+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "컴퓨터-비전", "AI-에이전트"]
+org: "Mistral-AI"
+domain: "doi.org"
+url: "https://doi.org/10.1162/tacl.a.690"
 ---
 
 # Record 546 · Scale-Cant-Overcome-Pragmatics-The-Impact-of-Reporting-Bias-on-Vision-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Scale Can’t Overcome Pragmatics: The Impact of Reporting Bias on Vision-Language Reasoning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

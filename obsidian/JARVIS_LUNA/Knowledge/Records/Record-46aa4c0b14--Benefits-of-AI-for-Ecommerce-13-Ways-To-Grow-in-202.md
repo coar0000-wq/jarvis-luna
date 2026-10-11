@@ -2,8 +2,12 @@
 title: "Record 46aa4c0b14 · Benefits-of-AI-for-Ecommerce-13-Ways-To-Grow-in-202"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.152383+00:00
+updated_at: 2026-10-11T00:55:29.436637+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fdXpjVWdaUHdPNFRpTkdORE1fTnpUQmE0cXZjMGhVTlhiRHNCNDFHV1NwNGdleGVIcFNIak11SG1XQ05DUnpveWxJZlJQZU5lbnJGUS11OGtKQQ?oc=5"
 ---
 
 # Record 46aa4c0b14 · Benefits-of-AI-for-Ecommerce-13-Ways-To-Grow-in-202
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Benefits of AI for Ecommerce: 13 Ways To Grow in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

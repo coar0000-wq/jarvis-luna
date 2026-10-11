@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.387068+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/090/barclays-private-bank-launches-singapore--booking-centre-to-serv/"
 ---
 
 # Record 760 · Barclays-Private-Bank-launches-Singapore-booking-centre-to-serve-globa
@@ -16,7 +21,3 @@ Barclays Private Bank launches Singapore booking centre to serve globally connec
 Barclays today announces the launch of its Private Bank booking centre in Singapore.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

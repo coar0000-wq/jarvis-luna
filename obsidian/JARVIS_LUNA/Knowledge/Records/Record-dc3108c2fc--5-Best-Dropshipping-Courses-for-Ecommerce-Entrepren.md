@@ -2,8 +2,12 @@
 title: "Record dc3108c2fc · 5-Best-Dropshipping-Courses-for-Ecommerce-Entrepren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.210170+00:00
+updated_at: 2026-10-11T00:55:30.385921+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11eFduYm1pN0VWVmVsRG1lMG1KcEF2Z3Z4UHU3NG5ITTBuRnZ3dUtvNGJmdkxEZUVGWVJSXzNIWUhJSGlJaUV2SjVoOW1XZTcySTBpRjZZaTd6UVFYcDdxSFpUUnBjeXcw?oc=5"
 ---
 
 # Record dc3108c2fc · 5-Best-Dropshipping-Courses-for-Ecommerce-Entrepren
@@ -15,7 +19,3 @@ tags: [record, real-data]
 5 Best Dropshipping Courses for Ecommerce Entrepreneurs - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

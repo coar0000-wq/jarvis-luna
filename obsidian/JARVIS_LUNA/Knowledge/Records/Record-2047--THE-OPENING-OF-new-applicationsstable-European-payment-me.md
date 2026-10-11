@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.435252+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/LlXUuXJutVg"
 ---
 
 # Record 2047 · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops
@@ -15,7 +19,3 @@ tags: [record, real-data]
 THE OPENING OF new applications.!stable European payment methods #cjdropshipping #ecommerce
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.372621+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08802v1"
 ---
 
 # Record 219 · Graph-Based-Safe-Reinforcement-Learning-for-Multi-Agent-Systems-with-T
@@ -16,7 +20,3 @@ Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varyin
 This paper presents a graph-based safe multi-agent reinforcement learning (MARL) framework for cooperative navigation with time-varying topology. To address the critical challenge of ensuring safety in environments with sensing constraints, a safety-decoupled mechanism is introduced through a Control Barrier-Like Function (CBLF) action screening layer. This mechanism bridges the gap between discre
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record af55fb7dbf · 피부-장벽-의외로-많이-잘못-알고-있습니다꼭-알아야-할-6가지"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.732964+00:00
+updated_at: 2026-10-11T00:55:54.523701+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=gD0RZu93wJg"
 ---
 
 # Record af55fb7dbf · 피부-장벽-의외로-많이-잘못-알고-있습니다꼭-알아야-할-6가지
@@ -15,7 +19,3 @@ tags: [record, real-data]
 피부 장벽, 의외로 많이 잘못 알고 있습니다｜꼭 알아야 할 6가지
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

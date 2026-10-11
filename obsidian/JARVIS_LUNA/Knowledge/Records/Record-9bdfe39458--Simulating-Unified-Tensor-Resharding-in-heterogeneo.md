@@ -2,8 +2,14 @@
 title: "Record 9bdfe39458 · Simulating-Unified-Tensor-Resharding-in-heterogeneo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.687357+00:00
+updated_at: 2026-10-11T00:55:38.345549+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "openalex.org"
+url: "https://openalex.org/W7166399755"
+kind: "논문"
 ---
 
 # Record 9bdfe39458 · Simulating-Unified-Tensor-Resharding-in-heterogeneo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Simulating Unified Tensor Resharding in heterogeneous AI systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

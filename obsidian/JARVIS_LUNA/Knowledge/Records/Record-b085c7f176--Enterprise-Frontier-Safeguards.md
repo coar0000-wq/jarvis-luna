@@ -2,8 +2,14 @@
 title: "Record b085c7f176 · Enterprise-Frontier-Safeguards"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.387726+00:00
+updated_at: 2026-10-11T00:55:48.224977+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+kind: "발표물"
 ---
 
 # Record b085c7f176 · Enterprise-Frontier-Safeguards
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Enterprise Frontier Safeguards
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.656742+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
 ---
 
 # Record 2396 · Improving-Fable-5-S-Biology-Safeguards
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Improving Fable 5 S Biology Safeguards
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

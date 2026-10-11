@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.825105+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/U5ULiaf4H1E"
 ---
 
 # Record 2885 · Meet-our-new-all-in-one-POS-device
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Meet our new all-in-one POS device
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

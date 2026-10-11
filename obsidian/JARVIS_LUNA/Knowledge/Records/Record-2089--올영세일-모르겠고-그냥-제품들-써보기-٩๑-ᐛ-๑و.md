@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.361630+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/dC9ZozuX_eU"
 ---
 
 # Record 2089 · 올영세일-모르겠고-그냥-제품들-써보기-٩๑-ᐛ-๑و
@@ -15,7 +19,3 @@ tags: [record, real-data]
 올영세일? 모르겠고 그냥 제품들 써보기 ٩(๑ ᐛ ๑)و
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

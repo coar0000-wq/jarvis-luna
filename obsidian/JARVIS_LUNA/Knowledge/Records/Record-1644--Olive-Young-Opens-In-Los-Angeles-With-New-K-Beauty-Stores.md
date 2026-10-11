@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.223133+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEhBQ1VvY2M1TTU1ZnBsb1diTlNGMnhwUzVuT09EVjlWM1pTTGJLWFQ5R0kxeHVxRnA2TWwtY1UydGN3NEVkbFpOcU1ySldZSk45OXFHeUY3V1dpMEZKem42RmtUcFNKbUhBZUU3QlJwY3hTWlU4Mi1NV3c3bU9xRnFJZ2xoVHIyRXMtTUpNTDV6elNUYnc1Q1VLb19RanFHR3BpQVlEYWpRYWVLajFFbTV5VQ?oc=5"
 ---
 
 # Record 1644 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-Stores---Forbes
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young Opens In Los Angeles With New K-Beauty Stores - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

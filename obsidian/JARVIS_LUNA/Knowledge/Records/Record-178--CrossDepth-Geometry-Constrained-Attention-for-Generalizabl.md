@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.364606+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05397v1"
 ---
 
 # Record 178 · CrossDepth-Geometry-Constrained-Attention-for-Generalizable-Multi-View
@@ -16,7 +20,3 @@ CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround
 Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocular appearance cues. These cues can appear differently across images and may therefore be interprete
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

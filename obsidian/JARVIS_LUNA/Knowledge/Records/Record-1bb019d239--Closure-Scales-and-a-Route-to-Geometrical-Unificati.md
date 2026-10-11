@@ -2,8 +2,14 @@
 title: "Record 1bb019d239 · Closure-Scales-and-a-Route-to-Geometrical-Unification-Intrinsic-Closur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.978027+00:00
+updated_at: 2026-10-11T00:55:26.896987+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22831823"
+kind: "논문"
 ---
 
 # Record 1bb019d239 · Closure-Scales-and-a-Route-to-Geometrical-Unification-Intrinsic-Closur
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Closure Scales and a Route to Geometrical Unification: Intrinsic Closure to Relational and Observable Physics
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

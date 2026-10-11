@@ -2,8 +2,12 @@
 title: "Record 7611409bf0 · DrAlthea-345-Relief-Cream-169-Fl-Oz-Ver2---Pack-of-1--Instant-Hydratio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.059356+00:00
+updated_at: 2026-10-11T00:55:44.035485+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Dr-Althea-Moisturizer-Soothing-Recovery-Niacinamide/dp/B0FKGJYFC8/ref=zg_bs_g_beauty_d_sccl_23/133-1430941-0942154"
 ---
 
 # Record 7611409bf0 · DrAlthea-345-Relief-Cream-169-Fl-Oz-Ver2---Pack-of-1--Instant-Hydratio
@@ -16,7 +20,3 @@ Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, 
 Dr.Althea 345 Relief Cream, 1.69 Fl Oz (Ver.2 - Pack of 1) | Instant Hydration, Blemish & Post-Acne Vegan Face Moisturizer for Sensitive Skin · $18.9 · 평점 4.6 · 리뷰 22,923
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

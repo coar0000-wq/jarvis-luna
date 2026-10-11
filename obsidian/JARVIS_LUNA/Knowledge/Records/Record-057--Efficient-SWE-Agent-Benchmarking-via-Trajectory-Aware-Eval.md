@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.340353+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01603v1"
 ---
 
 # Record 057 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Aware-Evaluation
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

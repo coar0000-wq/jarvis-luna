@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.507855+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-10011930/v1"
 ---
 
 # Record 497 · Separating-Biological-and-Choice-Effects-in-Randomized-Trials-Completi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Separating Biological and Choice Effects in Randomized Trials: Completing Causal Inference with β-Identification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.794313+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA66893538"
 ---
 
 # Record 2075 · THOME-The-Glow-Signature
@@ -16,7 +20,3 @@ THOME The Glow Signature
 THOME The Glow Signature · 평점 4.7 · 리뷰 25
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

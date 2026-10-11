@@ -2,8 +2,14 @@
 title: "Record 1d1e0d4c20 · Quantification-of-cervical-and-lumbar-spine-health-in-navy-high-perfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.494565+00:00
+updated_at: 2026-10-11T00:55:19.743587+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "인프라클라우드", "의료바이오", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1186/s12891-026-10440-9"
+kind: "논문"
 ---
 
 # Record 1d1e0d4c20 · Quantification-of-cervical-and-lumbar-spine-health-in-navy-high-perfor
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Quantification of cervical and lumbar spine health in navy high-performance craft crewmen across the training and deployment cycle
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[인프라클라우드]] [[의료바이오]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

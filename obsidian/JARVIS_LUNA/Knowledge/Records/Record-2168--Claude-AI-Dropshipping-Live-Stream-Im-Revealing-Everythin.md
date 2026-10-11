@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.379101+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Vb9-z4UGmkU"
 ---
 
 # Record 2168 · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Everything
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude AI Dropshipping Live Stream (I’m Revealing Everything)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

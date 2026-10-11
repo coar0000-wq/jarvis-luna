@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.179210+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
 ---
 
 # Record 935 · AMD-Reports-Second-Quarter-2026-Financial-Results
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AMD Reports Second Quarter 2026 Financial Results
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.587838+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/daybreak-for-frontline-defenders"
 ---
 
 # Record 2053 · Daybreak-for-Frontline-Defenders-1B-to-protect-essential-services
@@ -16,7 +21,3 @@ Daybreak for Frontline Defenders: $1B to protect essential services
 OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

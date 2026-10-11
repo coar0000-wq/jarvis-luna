@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.842539+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/adaptive-instructed-retriever-frontier-quality-search-2x-lower-latency"
 ---
 
 # Record 2383 · Adaptive-Instructed-Retriever-Frontier-Quality-Search-at-2x-Lower-Late
@@ -16,7 +21,3 @@ Adaptive Instructed-Retriever: Frontier-Quality Search at 2x Lower Latency
 Effective enterprise data agents require search that is both accurate and fast. Earlier...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

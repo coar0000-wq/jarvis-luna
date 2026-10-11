@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.390026+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/DjIW20Ggh7Y"
 ---
 
 # Record 808 · What-Ive-Repurchased-from-OLIVEYOUNG-OVER-AND-OVER-AGAIN-100-worth-it
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 What I've Repurchased from OLIVEYOUNG OVER AND OVER AGAIN! 100% worth it~!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

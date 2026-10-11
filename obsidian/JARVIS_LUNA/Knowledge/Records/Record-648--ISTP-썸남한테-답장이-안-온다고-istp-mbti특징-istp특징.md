@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.283856+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/kp7SOPG0CcU"
 ---
 
 # Record 648 · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-istp특징
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 ISTP 썸남한테 답장이 안 온다고? #istp #mbti특징 #istp특징
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

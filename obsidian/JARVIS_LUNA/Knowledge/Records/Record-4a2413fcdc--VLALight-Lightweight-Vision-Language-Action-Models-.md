@@ -2,8 +2,12 @@
 title: "Record 4a2413fcdc · VLALight-Lightweight-Vision-Language-Action-Models-for-Emergency-Aware"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.831397+00:00
+updated_at: 2026-10-11T00:55:24.804163+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["마케팅광고", "LLM언어모델", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.30709"
 ---
 
 # Record 4a2413fcdc · VLALight-Lightweight-Vision-Language-Action-Models-for-Emergency-Aware
@@ -16,7 +20,3 @@ VLALight: Lightweight Vision-Language-Action Models for Emergency-Aware Traffic 
 Traffic signal control (TSC) is essential for mitigating urban congestion. Recent advances in vision-language models (VLMs) enable richer interpretation of intersection scenes, opening new opportunities for visual-context-aware TSC. However, the loose coupling and repeated information conversion between modules can lead to the loss of fine-grained visual details, while sequential inference introdu
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[마케팅광고]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

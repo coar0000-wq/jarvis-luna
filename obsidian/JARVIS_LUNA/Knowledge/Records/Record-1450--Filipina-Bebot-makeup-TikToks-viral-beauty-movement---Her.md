@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.130743+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOC1Hc3JmS0lZM2dZcHBDQjI5b1JXSUtFRG5Ca0hLREJRcld5QWtCQ1dQSFhZWXFSRXZjNUJ2akpOUTk3dHdhalRPU0dYczFjSXplem1VYzgyVGpTbk5tVG0tOEMyTDBYYmVZU05pMVdWQU81MGN4eDN0a3JlMENmeW9RaG1vUHNtczlXdC1oRlJhY0k?oc=5"
 ---
 
 # Record 1450 · Filipina-Bebot-makeup-TikToks-viral-beauty-movement---Her-World-Singap
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Filipina Bebot makeup: TikTok’s viral beauty movement - Her World Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

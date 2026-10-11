@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.145290+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22237470"
 ---
 
 # Record 800 · From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow-for-Profiling-and-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 From Bottleneck to Breakthrough: A Hands-On Workflow for Profiling and Optimizing HPC Applications on AMD GPUs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

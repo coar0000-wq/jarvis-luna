@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.621849+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1021/jacs.6c11994"
 ---
 
 # Record 436 · Decoupling-the-Impact-of-Surface-Functionalization-over-Pt-at-the-Cath
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Decoupling the Impact of Surface Functionalization over Pt at the Cathode on Kinetics and Mass Transport in PEMFCs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

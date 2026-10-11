@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.786695+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01560v1"
 ---
 
 # Record 033 · H3-World-Turning-Language-Understanding-into-World-Control
@@ -15,7 +19,3 @@ tags: [record, real-data]
 H3-World: Turning Language Understanding into World Control
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

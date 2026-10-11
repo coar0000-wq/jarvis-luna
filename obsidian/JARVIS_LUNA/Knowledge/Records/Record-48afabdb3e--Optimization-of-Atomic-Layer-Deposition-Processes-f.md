@@ -2,8 +2,14 @@
 title: "Record 48afabdb3e · Optimization-of-Atomic-Layer-Deposition-Processes-for-Enhanced-Semicon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.989802+00:00
+updated_at: 2026-10-11T00:55:27.083093+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.60087/jaigs.v1i1.192"
+kind: "논문"
 ---
 
 # Record 48afabdb3e · Optimization-of-Atomic-Layer-Deposition-Processes-for-Enhanced-Semicon
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Optimization of Atomic Layer Deposition Processes for Enhanced Semiconductor Performance
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

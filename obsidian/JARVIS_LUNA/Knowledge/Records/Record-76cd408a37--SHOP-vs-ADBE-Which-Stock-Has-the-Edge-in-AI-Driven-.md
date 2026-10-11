@@ -2,8 +2,12 @@
 title: "Record 76cd408a37 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.471912+00:00
+updated_at: 2026-10-11T00:55:35.024693+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMUtNX1F3WDQ2YTZRT0NIcTRaUjVqOF9GQ3RyeUJJU2RLak1XTng5WnhlWURMcHhaNVN4eTJrMndPb1pwd1BUeGtTdS1BUi1UMVc3M1NTZENJUHVHUTRnWkkzTW9KUm1MMGFKNWVDdzZsZ1d3bU1rbmlYVkpKUFpybkJzeWhvUEFsSmNpWVZEV25tbnh4aDNNNW0tb0xKRlA3djQ0?oc=5"
 ---
 
 # Record 76cd408a37 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - Zacks Investment Research
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

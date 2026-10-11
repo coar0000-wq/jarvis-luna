@@ -2,8 +2,12 @@
 title: "Record eb45301276 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.860850+00:00
+updated_at: 2026-10-11T00:55:41.185040+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오", "뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA89221713"
 ---
 
 # Record eb45301276 · Biodance-Rejuvenating-Caviar-PDRN-Real-Deep-Mask-4c
@@ -16,7 +20,3 @@ Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)
 Biodance Rejuvenating Caviar PDRN Real Deep Mask 4ct 1.19 oz.(34g)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

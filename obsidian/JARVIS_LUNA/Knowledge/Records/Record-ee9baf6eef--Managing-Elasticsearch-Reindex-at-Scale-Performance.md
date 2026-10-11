@@ -2,8 +2,14 @@
 title: "Record ee9baf6eef · Managing-Elasticsearch-Reindex-at-Scale-Performance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.234468+00:00
+updated_at: 2026-10-11T00:55:15.261107+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "blog.palantir.com"
+url: "https://blog.palantir.com/managing-elasticsearch-reindex-at-scale-performance-reliability-and-observability-cf948d0efd47?source=rss----3c87dc14372f---4"
+kind: "발표물"
 ---
 
 # Record ee9baf6eef · Managing-Elasticsearch-Reindex-at-Scale-Performance
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Managing Elasticsearch Reindex at Scale: Performance, Reliability, and Observability
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

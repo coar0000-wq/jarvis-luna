@@ -2,8 +2,12 @@
 title: "Record 621928dd83 · Yuzu-Vitamin-C-Bright-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.732466+00:00
+updated_at: 2026-10-11T00:55:39.196175+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "sokoglam.com"
+url: "https://sokoglam.com/products/saturday_skin_yuzu-vitamin-c-bright-eye-cream"
 ---
 
 # Record 621928dd83 · Yuzu-Vitamin-C-Bright-Eye-Cream
@@ -16,7 +20,3 @@ Yuzu Vitamin C Bright Eye Cream
 Yuzu Vitamin C Bright Eye Cream · SATURDAY SKIN · $32.0
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.835076+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/0GzeG-MLuT8"
 ---
 
 # Record 2004 · 화장품-부작용-이렇게-하세요
@@ -15,7 +19,3 @@ tags: [record, real-data]
 화장품 부작용? 이렇게 하세요!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

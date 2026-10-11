@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.122768+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=yk4Ab7YVjBs"
 ---
 
 # Record 2353 · 선크림-QA잘못-알고-있던-선크림-상식-20가지
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선크림 Q&A｜잘못 알고 있던 선크림 상식 20가지
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

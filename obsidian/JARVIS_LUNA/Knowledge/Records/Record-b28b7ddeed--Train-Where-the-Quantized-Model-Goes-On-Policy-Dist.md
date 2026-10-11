@@ -2,8 +2,12 @@
 title: "Record b28b7ddeed · Train-Where-the-Quantized-Model-Goes-On-Policy-Distillation-for-Low-Bi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.791122+00:00
+updated_at: 2026-10-11T00:55:24.318353+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["과학수학"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.26708"
 ---
 
 # Record b28b7ddeed · Train-Where-the-Quantized-Model-Goes-On-Policy-Distillation-for-Low-Bi
@@ -16,7 +20,3 @@ Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoni
 Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired. Long generations often degenerate into repetitive loops, exhausting the decoding budget without completing a solution. We trace this gap to quantization-amplified exposure bias: QAD trains on fixed co
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[과학수학]] [[JARVIS Real Knowledge Index]]

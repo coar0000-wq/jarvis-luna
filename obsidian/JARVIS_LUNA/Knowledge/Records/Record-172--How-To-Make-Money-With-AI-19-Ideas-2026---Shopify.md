@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.908278+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzZ01UU0dzb1RaSmgybzd3SmtqbkhyZWZBa0dNd0NXQlFNR29IbUg4Zmd5d1IwbW9JUldzaV9WSXF3RVdkVFhjQUN6WVhqZnFYSkZ6UEExQkotTEQydTNmcVZiaGVIT1YteHc?oc=5"
 ---
 
 # Record 172 · How-To-Make-Money-With-AI-19-Ideas-2026---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 How To Make Money With AI: 19 Ideas (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

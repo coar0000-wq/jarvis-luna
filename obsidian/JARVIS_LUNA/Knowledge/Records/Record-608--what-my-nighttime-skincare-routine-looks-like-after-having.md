@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.142168+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/J2AAU7q3X0w"
 ---
 
 # Record 608 · what-my-nighttime-skincare-routine-looks-like-after-having-twins-newmo
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 what my nighttime skincare routine looks like after having twins! #newmom
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

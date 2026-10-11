@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.690937+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.36489/nursing.2026v31i333p13075-13086"
 ---
 
 # Record 620 · Vivência-da-Amamentação-no-Pós-Parto-Imediato-Sobre-a-Ótica-das-Puérpe
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Vivência da Amamentação no Pós-Parto Imediato Sobre a Ótica das Puérperas
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

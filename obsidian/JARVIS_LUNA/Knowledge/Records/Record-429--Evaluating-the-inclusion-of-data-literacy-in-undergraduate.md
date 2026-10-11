@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.056259+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1080/08832323.2024.2417285"
 ---
 
 # Record 429 · Evaluating-the-inclusion-of-data-literacy-in-undergraduate-economics-c
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Evaluating the inclusion of data literacy in undergraduate economics curriculum at research-intensive universities
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

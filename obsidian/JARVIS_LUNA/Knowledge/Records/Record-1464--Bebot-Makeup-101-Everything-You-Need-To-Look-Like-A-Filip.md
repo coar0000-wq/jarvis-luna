@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.606120+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE93YlpyYlhrYkJrVzFNMElscldFTUdNbFVZWXhZTlVTN0Y5ellyRVdjRzVodDNJcGxPem1aRDVGa0VXalRqaXVvWWJ3eDEyaHNOQ1EwV0NXQThfUkpWWGN6dWJaRWlkN0tZZVRzVlhiRXR5WUlFQWlxMkU1MEo?oc=5"
 ---
 
 # Record 1464 · Bebot-Makeup-101-Everything-You-Need-To-Look-Like-A-Filipina-Y2K-Baddi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Bebot Makeup 101: Everything You Need To Look Like A Filipina Y2K Baddie - Cosmo.ph
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

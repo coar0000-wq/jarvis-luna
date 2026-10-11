@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.802335+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델", "반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04103v1"
 ---
 
 # Record 097 · Corner-Cases-Headland-Coverage-Path-Planning-for-Autonomous-Driving-in
@@ -16,7 +20,3 @@ Corner Cases: Headland Coverage Path Planning for Autonomous Driving in Arable F
 This paper presents a new method for headland coverage path planning for arable fields. Several earlier approaches suggest covering the headland with nested polygons and smooth turns, however, covering the field corners entirely requires manoeuvres with reversing. In the new method, the polygon corners are modified to allow a reversing turn. A comparison to two other methods considering gap, overl
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

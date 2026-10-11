@@ -2,8 +2,14 @@
 title: "Record ac1cab79d7 · Causal-evidence-that-language-models-use-confidence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.374184+00:00
+updated_at: 2026-10-11T00:55:17.615977+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s42256-026-01293-x"
+kind: "논문"
 ---
 
 # Record ac1cab79d7 · Causal-evidence-that-language-models-use-confidence
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Causal evidence that language models use confidence to drive behaviour
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

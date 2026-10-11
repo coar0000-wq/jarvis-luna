@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.557177+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qY2ExcmhHR0M4ZkxfLXR5SnN4SzNZY01ZOFZ1Nk90dnBmcFlzZlV6MW5nOGxvdUFoaGlMdlFuY1NsWGFlRVRZOVltakNpS1JTS1dGag?oc=5"
 ---
 
 # Record 088 · AI-Prompts-for-Ecommerce-14-Examples---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 AI Prompts for Ecommerce: 14 Examples - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

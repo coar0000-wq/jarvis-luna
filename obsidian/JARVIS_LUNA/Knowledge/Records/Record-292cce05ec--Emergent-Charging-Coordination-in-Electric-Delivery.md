@@ -2,8 +2,12 @@
 title: "Record 292cce05ec · Emergent-Charging-Coordination-in-Electric-Delivery"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.986765+00:00
+updated_at: 2026-10-11T00:55:12.324636+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07689v1"
 ---
 
 # Record 292cce05ec · Emergent-Charging-Coordination-in-Electric-Delivery
@@ -16,7 +20,3 @@ Emergent Charging Coordination in Electric Delivery Fleets
 In electric delivery fleets, mid-shift charging is non-trivial: each vehicle must decide when, where and how much to charge to finish on time with battery above a safety floor. The choices are coupled: queues build where too many vehicles pick the same station. Prior work resolves this coupling with central dispatching, precomputed schedules or reservations, machinery that charging infrastructure
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

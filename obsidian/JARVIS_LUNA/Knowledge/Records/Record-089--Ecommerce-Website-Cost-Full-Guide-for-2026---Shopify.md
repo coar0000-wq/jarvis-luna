@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.000691+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1akxvMm1lZzQzbm5EWVB5UFZWcHphUkNPTzJmRUhEZ2lWU2djRzR5ZXNza3VId2EtOXZzSkROMW9ScUJEc1hWdjE3WjlLeEVCbTBuLXBRWWJRR0xZN1VFYw?oc=5"
 ---
 
 # Record 089 · Ecommerce-Website-Cost-Full-Guide-for-2026---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Ecommerce Website Cost: Full Guide for 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

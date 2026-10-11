@@ -2,8 +2,14 @@
 title: "Record 74b1125af8 · Gemini-Omni-11-Flash-lets-you-build-with-more-contr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.241820+00:00
+updated_at: 2026-10-11T00:55:15.403296+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+kind: "발표물"
 ---
 
 # Record 74b1125af8 · Gemini-Omni-11-Flash-lets-you-build-with-more-contr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Gemini Omni 1.1 Flash lets you build with more control
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 477bf9b7c5 · A-traffic-management-system-for-large-and-heterogen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.036100+00:00
+updated_at: 2026-10-11T00:55:12.897555+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["물류통관"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10400v1"
 ---
 
 # Record 477bf9b7c5 · A-traffic-management-system-for-large-and-heterogen
@@ -16,7 +20,3 @@ A traffic management system for large and heterogeneous vehicles in narrow indus
 The coordination of Automated Guided Vehicles (AGVs) in high-density industrial environments represents a critical challenge within Logistics 4.0, as traditional traffic management methods often lead to inefficiencies caused by negotiation-based priority assignment. To overcome the resulting limitations, this paper presents an innovative AGV traffic management system based on a Lifelong Multi-Agen
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[물류통관]] [[JARVIS Real Knowledge Index]]

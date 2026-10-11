@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.502332+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NU0dBckNrZnlJM2RwUUh1cTBQeHJhdFh5dW5mWXc2WVQ0VG02WEZzLUxFTG9XRnZRQXl3a25lNkJEYzR2TkN5SThxYXBaUmFVeWk0WHZRZVVkTVloVXNoaWNvUHc3VFlTSll3UmswVE10VWNkMHVrNWFPQ0g?oc=5"
 ---
 
 # Record 347 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Should-You---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 You Can Try to Vibe Code Your Commerce Stack, but Should You? - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

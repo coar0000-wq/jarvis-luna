@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-11T16:31:03.884159+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities"
 ---
 
 # Record 7160cfc6b1 · Measuring-AI-capabilities-in-intelligence-targeting-and-conventional-w
@@ -16,7 +21,3 @@ Measuring AI capabilities in intelligence targeting and conventional weapons
 Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

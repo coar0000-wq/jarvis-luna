@@ -2,8 +2,12 @@
 title: "Record a76e73a2b9 · Halloween-Nail-Stickers-Cute-Ghost-Black-Cat-Pumpkin-Nail-Art-Stickers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.087967+00:00
+updated_at: 2026-10-11T00:55:44.480341+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Halloween-Stickers-Ghost-Black-Pumpkin/dp/B0HCN77SWC/ref=zg_bsnr_g_beauty_d_sccl_43/133-1430941-0942154"
 ---
 
 # Record a76e73a2b9 · Halloween-Nail-Stickers-Cute-Ghost-Black-Cat-Pumpkin-Nail-Art-Stickers
@@ -16,7 +20,3 @@ Halloween Nail Stickers, Cute Ghost Black Cat Pumpkin Nail Art Stickers | These 
 Halloween Nail Stickers, Cute Ghost Black Cat Pumpkin Nail Art Stickers | These Cute Nail Decals Are Designed With Ghost, Black Cat, Pumpkin And Flower For Fun Halloween Nail Looks, 1 Sheet · $6.29 · 평점 4.5
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

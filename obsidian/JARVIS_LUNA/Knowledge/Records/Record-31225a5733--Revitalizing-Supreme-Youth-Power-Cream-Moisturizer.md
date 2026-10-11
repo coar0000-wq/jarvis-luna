@@ -2,8 +2,12 @@
 title: "Record 31225a5733 · Revitalizing-Supreme-Youth-Power-Cream-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.653460+00:00
+updated_at: 2026-10-11T00:55:53.018571+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/revitalizing-supreme-youth-power-cream-moisturizer-pimprod2030772"
 ---
 
 # Record 31225a5733 · Revitalizing-Supreme-Youth-Power-Cream-Moisturizer
@@ -16,7 +20,3 @@ Revitalizing Supreme+ Youth Power Cream Moisturizer
 Revitalizing Supreme+ Youth Power Cream Moisturizer · Estée Lauder · $70
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.841877+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acs.chemmater.6c01199"
 ---
 
 # Record 436 · Atomic-Layer-Deposition-of-High-Density-GeSe-Films-for-Stable-Vertical
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Atomic Layer Deposition of High-Density GeSe Films for Stable Vertical Ovonic Threshold Switching and Selector-Only Memory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

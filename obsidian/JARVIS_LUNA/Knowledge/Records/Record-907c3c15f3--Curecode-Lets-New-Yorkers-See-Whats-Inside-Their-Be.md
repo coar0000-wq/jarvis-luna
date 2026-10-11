@@ -2,8 +2,12 @@
 title: "Record 907c3c15f3 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.497514+00:00
+updated_at: 2026-10-11T00:55:35.467493+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekJfZ1R4UmRRYlozRklXdDNkR0p1MUNrNmdhMFNnTzgzUzROZHZBWXNnM2dWQ09hdU1RTG16QVZsWm54RFhyc3FpRXJ4MGlIN05zLVFQcTdrZEFlalFRdnpPcXFSRTNiRkY2TzF1S3NDcXhEZGV6bjQ0WUNmWl9paWNsOTM5QWE1SUFkMW5zZ2tPNDc1bTZWX1Nvc0E1QUstaS1kRjJIcDVMM3c?oc=5"
 ---
 
 # Record 907c3c15f3 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Be
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Curecode Lets New Yorkers See What’s Inside Their Beauty Products - EIN News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

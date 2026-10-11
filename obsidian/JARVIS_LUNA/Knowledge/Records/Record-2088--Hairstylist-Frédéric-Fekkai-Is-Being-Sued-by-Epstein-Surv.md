@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.676385+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/hairstylist-frederic-fekkai-lawsuit-grooming-accusations"
 ---
 
 # Record 2088 · Hairstylist-Frédéric-Fekkai-Is-Being-Sued-by-Epstein-Survivors-for-All
@@ -16,7 +20,3 @@ Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly E
 Hairstylist Frédéric Fekkai Is Being Sued by Epstein Survivors for Allegedly Enabling Gender-Motivated Violence
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

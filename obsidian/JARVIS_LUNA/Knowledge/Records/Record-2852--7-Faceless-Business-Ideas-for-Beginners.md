@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.422511+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=4ulpu2uos8I"
 ---
 
 # Record 2852 · 7-Faceless-Business-Ideas-for-Beginners
@@ -15,7 +19,3 @@ tags: [record, real-data]
 7 Faceless Business Ideas for Beginners
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record e2aac1d04f · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-istp특징"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.708245+00:00
+updated_at: 2026-10-11T00:55:54.046478+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/kp7SOPG0CcU"
 ---
 
 # Record e2aac1d04f · ISTP-썸남한테-답장이-안-온다고-istp-mbti특징-istp특징
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ISTP 썸남한테 답장이 안 온다고? #istp #mbti특징 #istp특징
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

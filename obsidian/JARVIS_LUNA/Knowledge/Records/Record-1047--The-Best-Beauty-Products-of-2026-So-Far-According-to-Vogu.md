@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.705710+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zZG91NDhGN29HeXlYMzlOUy0xSDYtSXFVbjJnSWRJOWlYNzM4UWVSeVZ1bHBDc2czOTVaWVViLTFBeFVsUTlTdll1VERlVE5Rc25ObXVZdUl5RThLOUE?oc=5"
 ---
 
 # Record 1047 · The-Best-Beauty-Products-of-2026-So-Far-According-to-Vogues-Beauty-Tea
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Best Beauty Products of 2026 So Far, According to Vogue’s Beauty Team - Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

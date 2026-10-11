@@ -1,0 +1,83 @@
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+views:
+  - type: table
+    name: 전체 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+      - url
+  - type: table
+    name: Google-Search
+    filters:
+      and:
+        - source == "Google-Search"
+    order:
+      - file.name
+      - topics
+      - org
+      - domain
+  - type: table
+    name: YouTube
+    filters:
+      and:
+        - source == "YouTube"
+    order:
+      - file.name
+      - topics
+      - org
+      - domain
+  - type: table
+    name: arXiv
+    filters:
+      and:
+        - source == "arXiv"
+    order:
+      - file.name
+      - topics
+      - org
+      - domain
+  - type: table
+    name: institutions
+    filters:
+      and:
+        - source == "institutions"
+    order:
+      - file.name
+      - topics
+      - org
+      - domain
+  - type: table
+    name: organic_skincare
+    filters:
+      and:
+        - source == "organic_skincare"
+    order:
+      - file.name
+      - topics
+      - org
+      - domain
+  - type: table
+    name: robotics
+    filters:
+      and:
+        - source == "robotics"
+    order:
+      - file.name
+      - topics
+      - org
+      - domain
+  - type: table
+    name: us_beauty
+    filters:
+      and:
+        - source == "us_beauty"
+    order:
+      - file.name
+      - topics
+      - org
+      - domain

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.715327+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/"
 ---
 
 # Record 2256 · How-better-grippers-can-unlock-physical-AI
@@ -16,7 +20,3 @@ How better grippers can unlock physical AI
 <p>Physical AI depends on smarter grippers to give robots the dexterity, sensing and adaptability needed to handle real-world tasks.</p> <p>The post <a href="https://www.therobotreport.com/how-better-grippers-can-unlock-physical-ai/">How better grippers can unlock physical AI</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

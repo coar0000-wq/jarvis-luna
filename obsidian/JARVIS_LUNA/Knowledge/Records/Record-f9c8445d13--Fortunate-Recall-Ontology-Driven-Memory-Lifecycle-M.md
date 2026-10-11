@@ -2,8 +2,12 @@
 title: "Record f9c8445d13 · Fortunate-Recall-Ontology-Driven-Memory-Lifecycle-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.037675+00:00
+updated_at: 2026-10-11T00:55:12.918893+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10413v1"
 ---
 
 # Record f9c8445d13 · Fortunate-Recall-Ontology-Driven-Memory-Lifecycle-M
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.184148+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/YPvfFqVRNBY"
 ---
 
 # Record 863 · 비누-클렌저-진짜-잘-지워질까-브러시퍼프-세척-비교
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 비누 클렌저 진짜 잘 지워질까? 브러시·퍼프 세척 비교
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 4eb7aefb24 · Sébium-gel-mousse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.878327+00:00
+updated_at: 2026-10-11T00:55:41.526661+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3401578653709"
 ---
 
 # Record 4eb7aefb24 · Sébium-gel-mousse
@@ -16,7 +20,3 @@ Sébium gel mousse
 Sébium gel mousse · Bioderma
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

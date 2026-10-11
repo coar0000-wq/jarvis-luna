@@ -2,8 +2,14 @@
 title: "Record 83a73ffe5e · Anthropic-Raises-Series-F-At-Usd183B-Post-Money-Val"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.360476+00:00
+updated_at: 2026-10-11T00:55:47.969884+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+kind: "발표물"
 ---
 
 # Record 83a73ffe5e · Anthropic-Raises-Series-F-At-Usd183B-Post-Money-Val
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Anthropic Raises Series F At Usd183B Post Money Valuation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 0cd78ecbd4 · AI-Search-Engines-5-Best-Tools-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.163233+00:00
+updated_at: 2026-10-11T00:55:29.591471+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wTTVTNnRvRERaOG9nU0V6QnRWYXNzQ2sxeDBuZUQzSWlId0k1bEEtc2FzZ05NMUR2U3pYeUUxTnBpQ1p5R1J1NEw2aklfcG9IVmpXTi1Wc2pVWkUy?oc=5"
 ---
 
 # Record 0cd78ecbd4 · AI-Search-Engines-5-Best-Tools-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Search Engines: 5 Best Tools in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.252964+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCMTVDZm00TWp5dG90emZrQm5mN0VZVnJ5bkNvbnJNQ1JKYV9IenBKTjBnZGlZMGN4Uy02VmNLeFRFcC1EWUxGNjN4RldtQlJRQ0xuUFBmM1FrUU5fdW5XRWFMQjItNVdCdm9F?oc=5"
 ---
 
 # Record 1052 · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---NewBeauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Meet The French Makeup Trend Taking Over TikTok - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

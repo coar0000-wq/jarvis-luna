@@ -2,8 +2,14 @@
 title: "Record 8c564f4f56 · Cummins-Inc-Liable-for-Misappropriation-of-C3-AI-Tr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.088197+00:00
+updated_at: 2026-10-11T00:55:28.345234+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "C3 AI"
+domain: "ir.c3.ai"
+url: "https://ir.c3.ai/news-releases/news-release-details/cummins-inc-liable-misappropriation-c3-ai-trade-secrets"
+kind: "발표물"
 ---
 
 # Record 8c564f4f56 · Cummins-Inc-Liable-for-Misappropriation-of-C3-AI-Tr
@@ -16,7 +22,3 @@ Cummins Inc. Liable for Misappropriation of C3 AI Trade Secrets
 Jury Awards C3 AI $23.3 Million in Damages REDWOOD CITY, Calif. --(BUSINESS WIRE)--May 20, 2026-- C3.ai, Inc. (NYSE: AI), the Enterprise AI application software company, today announced that on May 19, 2026, a jury in the Superior Court of the State of Delaware returned a unanimous verdict in favor
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--C3-AI]] [[JARVIS Real Knowledge Index]]

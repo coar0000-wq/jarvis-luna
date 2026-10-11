@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.216331+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/future-forum-2026-5/"
 ---
 
 # Record 1991 · SK-hynix-Charts-Its-Business-and-Technology-Direction-at-the-2026-Futu
@@ -16,7 +21,3 @@ SK hynix Charts Its Business and Technology Direction at the 2026 Future Forum�
 ▲ SK hynix Vice President Euicheol Lim, head of the Solution AT department, delivering the second keynote presentation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

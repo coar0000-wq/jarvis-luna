@@ -2,8 +2,12 @@
 title: "Record 26ec9a41da · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.529325+00:00
+updated_at: 2026-10-11T00:55:36.073456+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVFhyc1BSLVNnMi1FeHd5QXAtQng5VUlxWFY1dzJva1hvQnl5YWsxNl8tX2VCdFJXODljcW90MkhHZ1lEN3pjZHgtWXBkSzlJdmVza2pVQ0JRSGZNTTQyRzNjaDlBNGJIdEJqOF9xQVVqc2EyYWRMdTBMdE11MGdCd204ODRCdi1YbkNoR3RKY3J3VFRxbXp5a0xpYkZQX3ZGRGx3ay1uQTc1a1ZjOWdmMjA4clNSZjlD?oc=5"
 ---
 
 # Record 26ec9a41da · As-a-K-Beauty-Fan-of-10-Plus-Years-Heres-What-to-Bu
@@ -15,7 +19,3 @@ tags: [record, real-data]
 As a K-Beauty Fan of 10-Plus Years, Here’s What to Buy on Sale During Prime Day - hollywoodreporter.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

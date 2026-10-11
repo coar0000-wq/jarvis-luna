@@ -2,8 +2,12 @@
 title: "Record 4952d335bf · The-5-Best-Sunscreens-2026-Expert-Approved---Fortun"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.127801+00:00
+updated_at: 2026-10-11T00:55:28.996604+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTE04NldmdnZiVzNNZEg4ekdkM0FVMlV6aXhHVVpSV21GRTE0TE0tOVBTX203dHZQQ0xEejlHVTVNQ0ZXNmZ0Wi1kQzVQZUt0V1N3Nk1kTUM4QQ?oc=5"
 ---
 
 # Record 4952d335bf · The-5-Best-Sunscreens-2026-Expert-Approved---Fortun
@@ -16,7 +20,3 @@ The 5 Best Sunscreens (2026): Expert Approved - Fortune
 The 5 Best Sunscreens (2026): Expert Approved - Fortune
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

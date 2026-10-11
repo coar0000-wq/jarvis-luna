@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.668468+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=9zh3Raq4FVc"
 ---
 
 # Record 2138 · Claude--Shopify--12000Month
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude + Shopify = $12,000/Month
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

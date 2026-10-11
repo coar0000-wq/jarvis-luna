@@ -2,8 +2,12 @@
 title: "Record 50f388d119 · 7-Best-Ecommerce-Analytics-Platforms-for-DTC-Brands"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.189257+00:00
+updated_at: 2026-10-11T00:55:30.058755+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify", "데이터분석"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rZktSWEpid3RqbWs0cmc4Q0pULWZNdGh6cVpxZVdFOHVMOXB5N3dNT0dqN0NlWlNyOEtUWm0yeFZMLTF6LW53TzFJVVRCVkFQUHNycldlX2JzY0hLZElkOTVmZXpyTVE?oc=5"
 ---
 
 # Record 50f388d119 · 7-Best-Ecommerce-Analytics-Platforms-for-DTC-Brands
@@ -15,7 +19,3 @@ tags: [record, real-data]
 7 Best Ecommerce Analytics Platforms for DTC Brands: Features, Pricing, and ROI Compared (2026) - Ask Luca
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record f33545d076 · PolyOCR-Venus-Unified-OCR-Foundation-Models-for-Text-Centric-Visual-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.890917+00:00
+updated_at: 2026-10-11T00:55:25.578193+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.37712"
 ---
 
 # Record f33545d076 · PolyOCR-Venus-Unified-OCR-Foundation-Models-for-Text-Centric-Visual-In
@@ -16,7 +20,3 @@ PolyOCR-Venus: Unified OCR Foundation Models for Text-Centric Visual Intelligenc
 Optical Character Recognition (OCR) is evolving from plain-text transcription toward general visual intelligence, requiring models to recognize, localize, and reason over textual information in complex visual environments. However, existing OCR systems often excel at only some tasks and struggle to balance recognition, parsing, and reasoning across scenarios. In this report, we present PolyOCR, a
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

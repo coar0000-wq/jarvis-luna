@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.334378+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28421v1"
 ---
 
 # Record 019 · Program-Learning-with-Verifiable-Rewards-Symbolic-Backpropagation-for-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Program Learning with Verifiable Rewards: Symbolic Backpropagation for Post-Training LLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.689731+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDVRUjQ3ZjluYWw3eGpNQVFQNHV6VFo4SF9TeFR2VllTYzE5cDhkRDRhLXZDLWFPMlBCVkRIakc5d3ZmcHpXbVphN2xmRWxZUWx1cTUyU0J2QzJ2NmdmNVBuVTgzWHNObkt6NE9BN3hPQmhWUzdCeEp2YUEwRUZCLS1B?oc=5"
 ---
 
 # Record 375 · Does-Olive-Young-US-Live-Up-to-the-Hype---Allure
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Does Olive Young US Live Up to the Hype? - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

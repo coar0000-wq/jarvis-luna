@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.291877+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTE1aQUVncTZMVmNlcTV4SmdGZGNYVmFpa09vNWNWMVByWldSQ25lX2xfWk9lUnA2cWJuS215M3F2UmYtN0ZqZ2FEdE5tS3JXUGc3elN5TE1kUHdOZE9sTGRpMDdRcE9zSnFtZFVXM0FwdDBCM3hTY3JiX2pYVQ?oc=5"
 ---
 
 # Record 345 · Dr-Forhair-Lands-At-Sephora-As-K-Beautys-Haircare-Wave-Builds---Beauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Dr. Forhair Lands At Sephora As K-Beauty’s Haircare Wave Builds - Beauty Independent
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

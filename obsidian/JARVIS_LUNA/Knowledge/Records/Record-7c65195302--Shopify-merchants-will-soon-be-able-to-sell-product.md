@@ -2,8 +2,12 @@
 title: "Record 7c65195302 · Shopify-merchants-will-soon-be-able-to-sell-product"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.267415+00:00
+updated_at: 2026-10-11T00:55:31.401597+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jVXBnRk9PUWhFSWl3dVg1Ry11MGcxVDhJUTNtQjk2WEVJTDFlNEU5VHpFR3FvOHZEU2pmS0lMV3RMdklyS1k2LU1KU3lhYjhPeHpIaDQzSnlVcUxFMjF6ZkdMQU1wS0U4ZllKWVgtM0VLU3Vs?oc=5"
 ---
 
 # Record 7c65195302 · Shopify-merchants-will-soon-be-able-to-sell-product
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify merchants will soon be able to sell products through ChatGPT - CBC
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

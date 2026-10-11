@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:24.999189+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.11113/intrest.v20n1.436"
 ---
 
 # Record 426 · Residential-Price-Forecasting-in-Shaoxing-using-Gaussian-Process-Regre
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Residential Price Forecasting in Shaoxing using Gaussian Process Regression with Bayesian Optimisation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

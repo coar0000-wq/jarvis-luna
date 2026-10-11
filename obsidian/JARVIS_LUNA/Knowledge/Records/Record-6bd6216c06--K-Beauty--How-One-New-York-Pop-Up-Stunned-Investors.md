@@ -2,8 +2,12 @@
 title: "Record 6bd6216c06 · K-Beauty--How-One-New-York-Pop-Up-Stunned-Investors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.241251+00:00
+updated_at: 2026-10-11T00:55:31.018223+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxdDQ3cEs0Q1VlSHhJTE9kY2lJLU9wZnQyQTBNdEItaHlJak9wSUxaQlA0aV9iQXVoaXNMcjdvYmltYmp3Rk0wX1V5OW4wU0JCcFNJUnVmUEJCdmVGSE9mZUgzdVNRdmhWVGllR21B?oc=5"
 ---
 
 # Record 6bd6216c06 · K-Beauty--How-One-New-York-Pop-Up-Stunned-Investors
@@ -16,7 +20,3 @@ K-Beauty — How One New York Pop-Up Stunned Investors and Buyers - The Korea Da
 K-Beauty — How One New York Pop-Up Stunned Investors and Buyers - The Korea Daily
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

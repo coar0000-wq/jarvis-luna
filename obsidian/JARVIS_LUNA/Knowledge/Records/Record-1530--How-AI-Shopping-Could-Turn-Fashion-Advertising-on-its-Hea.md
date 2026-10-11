@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.671014+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0dRZmFUbXEwMHg5MHZ5QUZJc0d2WTlqN2RLeXc5WGp1VWJVTWE1WmZnTU5kZlQzYXZEQi1JdEphZUg3ajlxcENZWmxzM0pmcm00Z0Y1ZE1MRFlLUGNUalZOaExWeVRlTl96Qnlmb1NsLTVKRmlqbmF2TWZueThfaWJYcl9NSFE3Z3BpV25OS0R0UQ?oc=5"
 ---
 
 # Record 1530 · How-AI-Shopping-Could-Turn-Fashion-Advertising-on-its-Head---Vogue
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How AI Shopping Could Turn Fashion Advertising on its Head - Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

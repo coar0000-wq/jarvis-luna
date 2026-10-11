@@ -2,8 +2,12 @@
 title: "Record e518ff452a · Video-Friday-A-World-Cup-for-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.756095+00:00
+updated_at: 2026-10-11T00:55:39.509850+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/video-friday-robot-world-cup"
 ---
 
 # Record e518ff452a · Video-Friday-A-World-Cup-for-Robots
@@ -16,7 +20,3 @@ Video Friday: A World Cup for Robots
 <img src="https://spectrum.ieee.org/media-library/humanoid-robots-play-soccer-as-a-ball-flies-toward-the-goal-in-a-tournament-arena.jpg?id=67119515&width=980"/><br/><br/><p><span><a href="https://spectrum.ieee.org/tag/video-friday" target="_blank">Video Friday</a> is your weekly selection of <a data-linked-post="2677074152" href="https://spectrum.ieee.org/video-friday-robot-grippers" target="_blan
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

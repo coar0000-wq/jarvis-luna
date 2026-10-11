@@ -2,8 +2,12 @@
 title: "Record f2fee9e003 · Robot-Finger-Feels-in-Color"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.748212+00:00
+updated_at: 2026-10-11T00:55:39.404948+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/robot-finger"
 ---
 
 # Record f2fee9e003 · Robot-Finger-Feels-in-Color
@@ -16,7 +20,3 @@ Robot Finger Feels in Color
 <img src="https://spectrum.ieee.org/media-library/close-up-of-a-sensor-for-a-robotic-fingertip-and-raised-relief-images-of-a-leaf-and-a-u-s-penny.jpg?id=67542077&width=1245&height=700&coordinates=0%2C187%2C0%2C188"/><br/><br/><p><span>Imagine running your fingertip over the surface of a U.S. penny. You would feel the ridges of the raised letters and numbers, Abe Lincoln’s bearded side profile, and
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

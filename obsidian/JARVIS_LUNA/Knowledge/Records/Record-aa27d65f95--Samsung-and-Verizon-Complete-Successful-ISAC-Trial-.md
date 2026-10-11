@@ -2,8 +2,14 @@
 title: "Record aa27d65f95 · Samsung-and-Verizon-Complete-Successful-ISAC-Trial-Over-Virtualized-Ne"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.568530+00:00
+updated_at: 2026-10-11T00:55:36.531042+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event"
+kind: "발표물"
 ---
 
 # Record aa27d65f95 · Samsung-and-Verizon-Complete-Successful-ISAC-Trial-Over-Virtualized-Ne
@@ -16,7 +22,3 @@ Samsung and Verizon Complete Successful ISAC Trial Over Virtualized Network at G
 Samsung Electronics and Verizon have successfully completed an Integrated Sensing and Communication (ISAC) trial at a major international soccer fan event in Dallas, Texas, enabling real-time sensing-driven intelligence across a virtualized network. This landmark milestone represents one of the industry’s first practical implementations of a key technology for 6G, signaling how operators are lever
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

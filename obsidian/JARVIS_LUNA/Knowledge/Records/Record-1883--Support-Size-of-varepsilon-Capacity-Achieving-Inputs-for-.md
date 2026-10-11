@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.062549+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7154865307"
 ---
 
 # Record 1883 · Support-Size-of-varepsilon-Capacity-Achieving-Inputs-for-the-Amplitude
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Support Size of $\varepsilon$-Capacity-Achieving Inputs for the Amplitude-Constrained AWGN Channel
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

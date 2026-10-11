@@ -2,8 +2,12 @@
 title: "Record d7ba36ea83 · This-is-life-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.768985+00:00
+updated_at: 2026-10-11T00:55:55.145615+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qajaXseoF7Q"
 ---
 
 # Record d7ba36ea83 · This-is-life-on-Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This is life on Shopify
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

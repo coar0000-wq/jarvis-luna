@@ -2,8 +2,12 @@
 title: "Record 8a03464967 · 9colors-alternativestereo-Lip-Potion-Sugar-Glaze-Mini-Lip-Tint-013-fl-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.817615+00:00
+updated_at: 2026-10-11T00:55:40.424265+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA50320378"
 ---
 
 # Record 8a03464967 · 9colors-alternativestereo-Lip-Potion-Sugar-Glaze-Mini-Lip-Tint-013-fl-
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio) · 평점 4.7 · 리뷰 4,190
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

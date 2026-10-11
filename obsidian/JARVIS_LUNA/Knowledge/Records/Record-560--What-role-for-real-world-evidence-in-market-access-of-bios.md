@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.340905+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.3389/fphar.2025.1538866"
 ---
 
 # Record 560 · What-role-for-real-world-evidence-in-market-access-of-biosimilars
@@ -15,7 +20,3 @@ tags: [record, real-data]
 What role for real-world evidence in market access of biosimilars?
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

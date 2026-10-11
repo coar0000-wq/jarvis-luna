@@ -2,8 +2,14 @@
 title: "Record 60efaf744a · Priorities-and-principles-for-effective-third-party-assessments"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.650631+00:00
+updated_at: 2026-10-11T00:55:37.642876+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/priorities-principles-third-party-assessments"
+kind: "발표물"
 ---
 
 # Record 60efaf744a · Priorities-and-principles-for-effective-third-party-assessments
@@ -16,7 +22,3 @@ Priorities and principles for effective third party assessments
 OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

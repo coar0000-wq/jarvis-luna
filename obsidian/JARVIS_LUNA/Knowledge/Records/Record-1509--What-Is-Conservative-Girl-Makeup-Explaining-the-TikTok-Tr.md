@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.143728+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWG44VUI4Vmx4QlluU0djS19JX3A5LVR3Vjl6Nm9wY3cxNThrUzBsUFgzTE5uNUJoWXdmZWx1MnhpSDRxcE1aXzZjV2RHZ19ibmw0OHpVZm9tbkJlT01ZV3gtcXEzeE9nMksxcmd2cnNpTWFtMmJydGswOGRZVkhGemQySXYybVROZ1hTSm9QN0hTRkNKYjNrOGtn?oc=5"
 ---
 
 # Record 1509 · What-Is-Conservative-Girl-Makeup-Explaining-the-TikTok-Trend-on-Republ
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Is Conservative Girl Makeup? Explaining the TikTok Trend on Republican Makeup - L'OFFICIEL USA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.660063+00:00
+updated_at: 2026-10-11T00:55:37.770214+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
+kind: "발표물"
 ---
 
 # Record 5c8d75ef9c · Better-answers-broader-thinking-What-students-gain-
@@ -16,7 +22,3 @@ Better answers, broader thinking: What students gain from ChatGPT and critical-t
 A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

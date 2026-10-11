@@ -2,8 +2,14 @@
 title: "Record 6e449c7e59 · Multiplatform-Genomic-and-Transcriptomic-Profiling-of-Breast-Carcinoma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.584077+00:00
+updated_at: 2026-10-11T00:55:21.208774+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.3390/genes17101190"
+kind: "논문"
 ---
 
 # Record 6e449c7e59 · Multiplatform-Genomic-and-Transcriptomic-Profiling-of-Breast-Carcinoma
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Multiplatform Genomic and Transcriptomic Profiling of Breast Carcinomas with an Invasive Micropapillary Component
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

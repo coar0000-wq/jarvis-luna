@@ -2,8 +2,14 @@
 title: "Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Li"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.571788+00:00
+updated_at: 2026-10-11T00:55:36.601009+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-electronics-to-establish-hvac-production-line-in-korea"
+kind: "발표물"
 ---
 
 # Record 1a4350f63b · Samsung-Electronics-To-Establish-HVAC-Production-Li
@@ -16,7 +22,3 @@ Samsung Electronics To Establish HVAC Production Line in Korea
 Samsung Electronics today announced that it will establish a FläktGroup HVAC production line in Korea to target the rapidly growing HVAC market, including the production of advanced cooling solutions for AI data centers. The company plans to invest approximately KRW 240 billion (USD 158 million) to build a 21,500m2 HVAC production line at its operations […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

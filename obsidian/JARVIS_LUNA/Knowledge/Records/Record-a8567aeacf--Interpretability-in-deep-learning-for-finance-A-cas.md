@@ -2,8 +2,14 @@
 title: "Record a8567aeacf · Interpretability-in-deep-learning-for-finance-A-cas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.330519+00:00
+updated_at: 2026-10-11T00:55:16.778680+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.risk.2025.100030"
+kind: "논문"
 ---
 
 # Record a8567aeacf · Interpretability-in-deep-learning-for-finance-A-cas
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Interpretability in deep learning for finance: A case study for the Heston model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

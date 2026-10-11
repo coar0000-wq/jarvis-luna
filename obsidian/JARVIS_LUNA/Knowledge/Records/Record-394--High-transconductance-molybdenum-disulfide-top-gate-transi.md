@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.559358+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41928-026-01672-7"
 ---
 
 # Record 394 · High-transconductance-molybdenum-disulfide-top-gate-transistors-using-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 High-transconductance molybdenum disulfide top-gate transistors using epitaxial interface engineering
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

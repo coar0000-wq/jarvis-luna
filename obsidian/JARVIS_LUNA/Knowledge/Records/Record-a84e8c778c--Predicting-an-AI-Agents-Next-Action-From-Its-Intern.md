@@ -2,8 +2,14 @@
 title: "Record a84e8c778c · Predicting-an-AI-Agents-Next-Action-From-Its-Intern"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.960719+00:00
+updated_at: 2026-10-11T00:55:26.597376+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21959279"
+kind: "논문"
 ---
 
 # Record a84e8c778c · Predicting-an-AI-Agents-Next-Action-From-Its-Intern
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Predicting an AI Agent's Next Action From Its Internal State Before It Acts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

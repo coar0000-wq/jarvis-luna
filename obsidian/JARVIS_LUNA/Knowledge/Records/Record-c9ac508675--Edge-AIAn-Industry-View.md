@@ -2,8 +2,14 @@
 title: "Record c9ac508675 · Edge-AIAn-Industry-View"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.436440+00:00
+updated_at: 2026-10-11T00:55:18.733827+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1109/mdat.2025.3576338"
+kind: "논문"
 ---
 
 # Record c9ac508675 · Edge-AIAn-Industry-View
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Edge AI—An Industry View
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

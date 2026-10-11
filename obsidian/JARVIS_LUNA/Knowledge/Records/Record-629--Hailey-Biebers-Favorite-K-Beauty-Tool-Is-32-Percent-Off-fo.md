@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.598637+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZnFNSmxIMDRmT0VXQm1iNE5wNXVSUWR1MlhyaXRMOFA0U0VRcEJhMjUyZjBpVHFzdV9veFVZajF4ZC03WjQ4bk85UnRBUmdPeUlKVm91Rl93SFBqWV92Z2dpWjM1ZHZxeUE1UGMwTEwyUkdyeFgyNjM1YVhtYmJDRHZHRV9JTzVNTjAtbWFNUDRra25MaVNBUkVtRnhCR2s?oc=5"
 ---
 
 # Record 629 · Hailey-Biebers-Favorite-K-Beauty-Tool-Is-32-Percent-Off-for-Amazons-Bi
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Hailey Bieber’s Favorite K-Beauty Tool Is 32 Percent Off for Amazon’s Big Spring Sale - ELLE
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

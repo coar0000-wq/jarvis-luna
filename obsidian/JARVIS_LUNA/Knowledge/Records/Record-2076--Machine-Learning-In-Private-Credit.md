@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.271473+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/markets-and-economy/markets/machine-learning-in-private-credit"
 ---
 
 # Record 2076 · Machine-Learning-In-Private-Credit
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Machine Learning In Private Credit
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

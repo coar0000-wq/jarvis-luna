@@ -2,8 +2,14 @@
 title: "Record 7a3851080f · Conceptual-framework-for-AI-governance-data-privacy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.916000+00:00
+updated_at: 2026-10-11T00:55:25.870354+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "의료바이오", "투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.51594/csitrj.v7i4.2246"
+kind: "논문"
 ---
 
 # Record 7a3851080f · Conceptual-framework-for-AI-governance-data-privacy
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Conceptual framework for AI governance, data privacy compliance, and financial sustainability in digital health
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[의료바이오]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.853791+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTFAycHV6T3ZjOW9GaDhkUFAxX1NicndzQnRrSkNjMzJCSEVKeFU1UEZjbVEzczJOcUQyUlZPOUVuMjlwRTFjMS10aVg2a1NCWGR1SUdrc1Nhb3VsRmNwS2pldWVhMG5NTWlxZEFLN0VDb1RVNHpSSFVNdXNxUnlsd9IBgwFBVV95cUxPWEN4NG5QbDdDUHFERXFFc3JqYXE2bEx6TUotOXhtSnFMMW9kMmwzb1Q4REdyblJIQXU4Y0pvNDNTdGw5VmhRVTNhOHVKZk85U05xLV9vaHkwWUJvTVJZY29QU3BjbXFHLWh6S1J3cWZjd1kyZDZTd3lJVkFDcXJ1X2Y1OA?oc=5"
 ---
 
 # Record 402 · TikTok-beauty-trends-Are-you-cat-fox-deer-or-bunny-pretty---Prestige-O
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 TikTok beauty trends: Are you cat, fox, deer, or bunny pretty? - Prestige Online - Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

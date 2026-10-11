@@ -2,8 +2,14 @@
 title: "Record bf4b3eaf39 · Laundering-induced-property-changes-in-virgin-and-r"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.273698+00:00
+updated_at: 2026-10-11T00:55:15.926123+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s10163-026-02703-3"
+kind: "논문"
 ---
 
 # Record bf4b3eaf39 · Laundering-induced-property-changes-in-virgin-and-r
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Laundering-induced property changes in virgin and recycled polyester and nylon fabrics: implications for durability and cleaning performance
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

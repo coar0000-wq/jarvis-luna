@@ -2,8 +2,12 @@
 title: "Record 398e07ec99 · The-Best-Korean-Skin-Care-Products---The-New-York-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.303812+00:00
+updated_at: 2026-10-11T00:55:32.084533+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OU1FQdkt2SVEyekFhbEE0RTZrM19NQVF2MjZ1NHVOZl9tbTBMN1ZtVDhubHBQZTFMLW1CQUR4RG5MdC1WRXR1Z0xESUxzMU4xQ2Q0TGNBWVEtSzFBbnJBRWtlOWJFU1FCWjFJTUJVRFBoN09tNEM3QWI1TDVSSUU?oc=5"
 ---
 
 # Record 398e07ec99 · The-Best-Korean-Skin-Care-Products---The-New-York-T
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Best Korean Skin-Care Products - nytimes.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 049fcaeb9e · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.526125+00:00
+updated_at: 2026-10-11T00:55:36.022452+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "물류통관", "투자은행금융"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTmxBZXQxZXNEcDA1LVYxN3l1c2lpSXdlcDhja1hhUnRJSExBbFRBd1l0dW5RVldOcmFSQnhWMHdoZnZSazhwWnVGTVg3Rm8wSG1XdzNnZEFNM1cwZHE1SHUtc1NEaDctSDljSFBuTG5LMnJjNlM0VmphVlJmdF9SYjVvTU8yNW9nMlJxdDNsUU5qT0llTUpSZmtkLWxvZTFyTmcxUi1QM2VFYnFUWUYyWXFuVzlfXzA?oc=5"
 ---
 
 # Record 049fcaeb9e · Duty-Free-Global-Beauty-builds-K-beauty-portfolio-f
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Duty Free Global Beauty builds K-beauty portfolio for global travel retail expansion - Moodie Davitt Report
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[물류통관]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]

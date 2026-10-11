@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.134682+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/O6qZ6JMhTf8"
 ---
 
 # Record 2535 · The-Secret-to-More-Sales-on-Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Secret to More Sales on Shopify 🤫
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

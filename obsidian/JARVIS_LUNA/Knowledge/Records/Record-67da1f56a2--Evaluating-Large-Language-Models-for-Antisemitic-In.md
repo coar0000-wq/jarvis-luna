@@ -2,8 +2,14 @@
 title: "Record 67da1f56a2 · Evaluating-Large-Language-Models-for-Antisemitic-Incident-Classificati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.011821+00:00
+updated_at: 2026-10-11T00:55:27.441448+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.66144/y2a6qps"
+kind: "논문"
 ---
 
 # Record 67da1f56a2 · Evaluating-Large-Language-Models-for-Antisemitic-Incident-Classificati
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Evaluating Large Language Models for Antisemitic Incident Classification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

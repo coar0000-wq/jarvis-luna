@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.997773+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/H_UYtbQB_XI"
 ---
 
 # Record 935 · Manage-all-your-AI-channels-in-one-place
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Manage all your AI channels in one place
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.521347+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/economic-outlook-mid-year-2023-global-gdp-slowing"
 ---
 
 # Record 2322 · Economic-Outlook-Mid-Year-2023-Global-Gdp-Slowing
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Economic Outlook Mid Year 2023 Global Gdp Slowing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

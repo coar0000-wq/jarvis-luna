@@ -2,8 +2,12 @@
 title: "Record 58f28182fa · Trajectory-Based-Co-Optimization-of-Arrival-Schedul"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.927472+00:00
+updated_at: 2026-10-11T00:55:11.585783+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03234v1"
 ---
 
 # Record 58f28182fa · Trajectory-Based-Co-Optimization-of-Arrival-Schedul
@@ -16,7 +20,3 @@ Trajectory-Based Co-Optimization of Arrival Scheduling and Descent Path Design i
 Terminal arrival scheduling and descent procedure design are studied in two largely separate literatures. Scheduling models reduce each aircraft to a travel time and deliver target landing times, and fuel-efficient descent procedures are designed one aircraft at a time with the schedule taken as given, although both decide where an arriving aircraft absorbs delay before final approach. Existing fo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

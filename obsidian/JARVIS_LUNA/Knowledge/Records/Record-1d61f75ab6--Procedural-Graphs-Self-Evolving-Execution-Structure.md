@@ -2,8 +2,12 @@
 title: "Record 1d61f75ab6 · Procedural-Graphs-Self-Evolving-Execution-Structure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.014945+00:00
+updated_at: 2026-10-11T00:55:12.608104+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09153v1"
 ---
 
 # Record 1d61f75ab6 · Procedural-Graphs-Self-Evolving-Execution-Structure
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Procedural Graphs: Self-Evolving Execution Structures for LLM Agents
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

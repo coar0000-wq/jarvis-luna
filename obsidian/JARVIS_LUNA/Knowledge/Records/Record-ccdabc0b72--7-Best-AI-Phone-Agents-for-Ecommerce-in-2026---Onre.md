@@ -2,8 +2,12 @@
 title: "Record ccdabc0b72 · 7-Best-AI-Phone-Agents-for-Ecommerce-in-2026---Onrec"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.396069+00:00
+updated_at: 2026-10-11T00:55:33.718637+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcEMwbF9lZzJud1A3d3FhWTV2RVk5SFRzNE80MUlGSFZPWHplTXdzUnVwWjJCblZPNVdtQ0FEeXhRSVd4SzhSSEo2bmZ0M0ZvZkNlaUlDTFhYaGhiTzk1dThGemU5N0lSOWhTbXZhbldqTG00LXFzcVg3bUJaakJDMTZMT2ZYLTZ3YUFWa3ZLYXo?oc=5"
 ---
 
 # Record ccdabc0b72 · 7-Best-AI-Phone-Agents-for-Ecommerce-in-2026---Onrec
@@ -15,7 +19,3 @@ tags: [record, real-data]
 7 Best AI Phone Agents for Ecommerce in 2026 - onrec.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.722421+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/02PAjp6LtV0"
 ---
 
 # Record 2282 · Why-your-vitamin-c-serum-might-not-be-removing-unwanted-age-spots--hyp
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why your vitamin c serum might not be removing unwanted age spots & hyperpigmentation!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

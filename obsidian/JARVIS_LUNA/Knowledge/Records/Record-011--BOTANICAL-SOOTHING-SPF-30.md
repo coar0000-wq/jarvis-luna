@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.333086+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "api.fda.gov"
+url: "https://api.fda.gov/drug/label.json?search=id:474bb04f-2be5-2dd9-e063-6394a90a6a3c"
 ---
 
 # Record 011 · BOTANICAL-SOOTHING-SPF-30
@@ -16,7 +20,3 @@ BOTANICAL SOOTHING SPF-30
 BOTANICAL SOOTHING SPF-30
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

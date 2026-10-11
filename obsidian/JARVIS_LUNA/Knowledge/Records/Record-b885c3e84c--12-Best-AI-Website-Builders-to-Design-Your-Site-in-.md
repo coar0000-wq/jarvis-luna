@@ -2,8 +2,12 @@
 title: "Record b885c3e84c · 12-Best-AI-Website-Builders-to-Design-Your-Site-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.161694+00:00
+updated_at: 2026-10-11T00:55:29.560278+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CMzZqUm5Zd2FRZW9MTGVCcVd6RlN3ek5QcDdoamdFTHZ6ZVBxTzVXUHBFOEoyN3diWWhvYXNUMUNTUURDUTRMTUJscWVqTVlBTmhrZ0lTOHJfZkpRcGdz?oc=5"
 ---
 
 # Record b885c3e84c · 12-Best-AI-Website-Builders-to-Design-Your-Site-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 12 Best AI Website Builders to Design Your Site in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

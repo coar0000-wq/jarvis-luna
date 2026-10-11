@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.309084+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1117/1.oe.65.7.077106"
 ---
 
 # Record 422 · Estimation-of-Auger-recombination-coefficient-C-from-DC-measurements-i
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Estimation of Auger recombination coefficient C from DC measurements in high-power 1550 nm lasers for LiDAR applications
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

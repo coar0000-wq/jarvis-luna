@@ -2,8 +2,14 @@
 title: "Record 7abd7d1bea · Mid-Year-2018-Strategy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.514937+00:00
+updated_at: 2026-10-11T00:55:50.526066+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/mid-year-2018-strategy"
+kind: "발표물"
 ---
 
 # Record 7abd7d1bea · Mid-Year-2018-Strategy
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mid Year 2018 Strategy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

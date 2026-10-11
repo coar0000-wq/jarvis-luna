@@ -2,8 +2,12 @@
 title: "Record 5efd907642 · BIODANCE-Caviar-PDRN-Eye-Cream-Under-Eye-Cream-for-Sagging-Eye-Bags-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.987775+00:00
+updated_at: 2026-10-11T00:55:43.148598+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "의료바이오"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/BIODANCE-Sagging-Puffiness-Puffing-Contour/dp/B0H2CL87TC/ref=zg_bsnr_g_beauty_d_sccl_39/146-2119587-8197020"
 ---
 
 # Record 5efd907642 · BIODANCE-Caviar-PDRN-Eye-Cream-Under-Eye-Cream-for-Sagging-Eye-Bags-an
@@ -16,7 +20,3 @@ BIODANCE Caviar PDRN Eye Cream, Under Eye Cream for Sagging Eye Bags and Puffine
 BIODANCE Caviar PDRN Eye Cream, Under Eye Cream for Sagging Eye Bags and Puffiness, De-Puffing and Contour Lifting, Self Care Gifts for Women, Korean Skin Care | 1.01 fl.oz · $24.99 · 평점 4.6 · 리뷰 113
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

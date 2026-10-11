@@ -2,8 +2,12 @@
 title: "Record 0b99289ea9 · Dakota-Johnson-Matched-Her-Nails-to-Her-Visible-UnderwearSee-the-Photo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.919642+00:00
+updated_at: 2026-10-11T00:55:42.250666+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/dakota-johnson-black-nails-sheer-dress"
 ---
 
 # Record 0b99289ea9 · Dakota-Johnson-Matched-Her-Nails-to-Her-Visible-UnderwearSee-the-Photo
@@ -16,7 +20,3 @@ Dakota Johnson Matched Her Nails to Her Visible Underwear—See the Photos
 Dakota Johnson Matched Her Nails to Her Visible Underwear—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

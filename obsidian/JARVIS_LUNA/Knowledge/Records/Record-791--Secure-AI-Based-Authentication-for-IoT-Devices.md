@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.647455+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "doi.org"
+url: "https://doi.org/10.59543/jidmis.v3.941"
 ---
 
 # Record 791 · Secure-AI-Based-Authentication-for-IoT-Devices
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Secure AI-Based Authentication for IoT Devices
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

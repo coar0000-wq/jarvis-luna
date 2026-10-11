@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.968412+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
 ---
 
 # Record 1755 · Bringing-ChatGPT-for-Teachers-to-more-US-school-districts
@@ -16,7 +21,3 @@ Bringing ChatGPT for Teachers to more U.S. school districts
 ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

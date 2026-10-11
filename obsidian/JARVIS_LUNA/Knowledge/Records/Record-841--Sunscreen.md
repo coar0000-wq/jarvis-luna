@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.658486+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "en.wikipedia.org"
+url: "https://en.wikipedia.org/wiki/Sunscreen"
 ---
 
 # Record 841 · Sunscreen
@@ -16,7 +20,3 @@ Sunscreen
 Sunscreen
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

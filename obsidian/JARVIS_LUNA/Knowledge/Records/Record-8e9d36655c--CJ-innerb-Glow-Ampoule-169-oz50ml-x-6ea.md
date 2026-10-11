@@ -2,8 +2,12 @@
 title: "Record 8e9d36655c · CJ-innerb-Glow-Ampoule-169-oz50ml-x-6ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.842938+00:00
+updated_at: 2026-10-11T00:55:40.925831+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA75834956"
 ---
 
 # Record 8e9d36655c · CJ-innerb-Glow-Ampoule-169-oz50ml-x-6ea
@@ -16,7 +20,3 @@ CJ innerb Glow Ampoule 1.69 oz.(50ml) x 6ea
 CJ innerb Glow Ampoule 1.69 oz.(50ml) x 6ea · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

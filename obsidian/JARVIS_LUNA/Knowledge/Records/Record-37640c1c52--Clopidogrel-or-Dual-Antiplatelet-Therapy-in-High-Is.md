@@ -2,8 +2,14 @@
 title: "Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Is"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.377096+00:00
+updated_at: 2026-10-11T00:55:17.673709+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1056/nejmoa2608533"
+kind: "논문"
 ---
 
 # Record 37640c1c52 · Clopidogrel-or-Dual-Antiplatelet-Therapy-in-High-Is
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Clopidogrel or Dual Antiplatelet Therapy in High-Ischemic-Risk Patients
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

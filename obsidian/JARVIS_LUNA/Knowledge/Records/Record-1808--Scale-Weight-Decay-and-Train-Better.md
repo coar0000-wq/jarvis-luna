@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.418309+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "openalex.org"
+url: "https://openalex.org/W7171749713"
 ---
 
 # Record 1808 · Scale-Weight-Decay-and-Train-Better
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Scale Weight Decay and Train Better
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

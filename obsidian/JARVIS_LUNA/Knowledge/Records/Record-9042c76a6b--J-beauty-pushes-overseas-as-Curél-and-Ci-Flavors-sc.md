@@ -2,8 +2,12 @@
 title: "Record 9042c76a6b · J-beauty-pushes-overseas-as-Curél-and-Ci-Flavors-scale-globally---Pers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.308727+00:00
+updated_at: 2026-10-11T00:55:32.196513+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CcHdTNkYybnpiN3FLTWhqazhiREZpN0ZIclU2elVYcDhZMFhhTmVZSnFvb3dMWGZfMG5sc1Q1YjdqN2hUM1dYTV9kSXU5ZFQtQ0hiV3l6ZWFGcVAtMFY2ank1NzI2V1daZUpkMDdhRFg0Vkw1dldHeFR1RHo?oc=5"
 ---
 
 # Record 9042c76a6b · J-beauty-pushes-overseas-as-Curél-and-Ci-Flavors-scale-globally---Pers
@@ -15,7 +19,3 @@ tags: [record, real-data]
 J-beauty pushes overseas as Curél and Ci Flavors scale globally - Personal Care Insights
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

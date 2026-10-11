@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.623070+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=P0WPruXYyio"
 ---
 
 # Record 2459 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-Just-Make
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude UGC + Dropshipping = $180K/Month (WTF Did Claude Just Make?!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

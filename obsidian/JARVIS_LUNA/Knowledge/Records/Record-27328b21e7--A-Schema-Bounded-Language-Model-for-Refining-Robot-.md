@@ -2,8 +2,12 @@
 title: "Record 27328b21e7 · A-Schema-Bounded-Language-Model-for-Refining-Robot-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.964192+00:00
+updated_at: 2026-10-11T00:55:12.036703+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "LLM언어모델", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05133v1"
 ---
 
 # Record 27328b21e7 · A-Schema-Bounded-Language-Model-for-Refining-Robot-
@@ -16,7 +20,3 @@ A Schema Bounded Language Model for Refining Robot Policies Without Destabilizin
 This paper addresses navigation by composite heterogeneous robots in a decentralized system when policy reasoning and local control operate at different update levels. In a NetLogo--Python implementation, three robots share motion dynamics but use different LLM backends. Each robot independently combines a large language model (LLM) policy agent, an Upper Confidence Bound (UCB) bandit, and a Doubl
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[LLM언어모델]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

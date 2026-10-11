@@ -2,8 +2,12 @@
 title: "Record 2c868e9409 · 12-Makeup-Trends-to-Experiment-With-in-Fall-2026-Fe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.188534+00:00
+updated_at: 2026-10-11T00:55:30.056062+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OdzQ0OXlSbWVrOW1FUXdtSURIcjVsZnJhNEFleWtxZnRjcDdESjdFZlBXUVR0eEM0Tzg2NDN2M2tqU0pEaXd6TTZBOE5yRkVZR2ZBQU1DNWp1RTlxN2V6UHNHUUFJb28?oc=5"
 ---
 
 # Record 2c868e9409 · 12-Makeup-Trends-to-Experiment-With-in-Fall-2026-Fe
@@ -15,7 +19,3 @@ tags: [record, real-data]
 12 Makeup Trends to Experiment With in Fall 2026: Feathery Eyebrows, Barely-There Mascara, & More - Teen Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

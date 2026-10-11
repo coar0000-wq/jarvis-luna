@@ -2,8 +2,14 @@
 title: "Record 42a1992e4b · Gemini-Robotics-2-brings-whole-body-intelligence-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.242135+00:00
+updated_at: 2026-10-11T00:55:15.410521+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+kind: "발표물"
 ---
 
 # Record 42a1992e4b · Gemini-Robotics-2-brings-whole-body-intelligence-to
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Gemini Robotics 2 brings whole body intelligence to robots
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.646939+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["법률규제"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/taraji-p-henson-gold-nails"
 ---
 
 # Record 2343 · Taraji-P-Henson-Makes-a-Flawless-Case-for-Matching-Your-Manicure-to-Yo
@@ -16,7 +20,3 @@ Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelr
 Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelry — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[법률규제]] [[JARVIS Real Knowledge Index]]

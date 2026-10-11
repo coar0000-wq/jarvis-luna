@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.279503+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41586-026-10781-4"
 ---
 
 # Record 300 · An-encyclopedia-of-human-enhancergene-regulatory-interactions
@@ -15,7 +20,3 @@ tags: [record, real-data]
 An encyclopedia of human enhancer–gene regulatory interactions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

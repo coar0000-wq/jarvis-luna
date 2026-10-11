@@ -2,8 +2,12 @@
 title: "Record ce22b969b3 · 7-Faceless-Business-Ideas-for-Beginners"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.767409+00:00
+updated_at: 2026-10-11T00:55:55.109512+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=4ulpu2uos8I"
 ---
 
 # Record ce22b969b3 · 7-Faceless-Business-Ideas-for-Beginners
@@ -15,7 +19,3 @@ tags: [record, real-data]
 7 Faceless Business Ideas for Beginners
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[JARVIS Real Knowledge Index]]

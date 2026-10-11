@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.926383+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.3390/photonics13040385"
 ---
 
 # Record 769 · An-Integrated-Tunable-Focus-Light-Field-Imaging-System-for-3D-Seed-Phe
@@ -15,7 +20,3 @@ tags: [record, real-data]
 An Integrated Tunable-Focus Light Field Imaging System for 3D Seed Phenotyping: From Co-Optimized Optical Design to Computational Reconstruction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

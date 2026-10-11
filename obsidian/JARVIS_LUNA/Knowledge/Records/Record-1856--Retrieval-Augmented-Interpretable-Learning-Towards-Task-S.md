@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.369476+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "openalex.org"
+url: "https://openalex.org/W7170112025"
 ---
 
 # Record 1856 · Retrieval-Augmented-Interpretable-Learning-Towards-Task-Specific-Zero-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Retrieval-Augmented Interpretable Learning: Towards Task-Specific Zero-Shot Models in Healthcare
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record f44d73cc31 · The-Role-of-Cytology-Histology-and-Molecular-Pathology-in-the-Diagnost"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.578850+00:00
+updated_at: 2026-10-11T00:55:21.112735+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.3390/cancers18111814"
+kind: "논문"
 ---
 
 # Record f44d73cc31 · The-Role-of-Cytology-Histology-and-Molecular-Pathology-in-the-Diagnost
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Role of Cytology, Histology and Molecular Pathology in the Diagnostic Process of Thyroid Nodules
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

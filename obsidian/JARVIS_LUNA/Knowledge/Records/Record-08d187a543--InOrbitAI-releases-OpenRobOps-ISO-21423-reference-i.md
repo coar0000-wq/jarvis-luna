@@ -2,8 +2,12 @@
 title: "Record 08d187a543 · InOrbitAI-releases-OpenRobOps-ISO-21423-reference-implementation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.586973+00:00
+updated_at: 2026-10-11T00:55:51.909968+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/"
 ---
 
 # Record 08d187a543 · InOrbitAI-releases-OpenRobOps-ISO-21423-reference-implementation
@@ -16,7 +20,3 @@ InOrbit.AI releases OpenRobOps ISO 21423 reference implementation
 <p>OpenRobOps gives robotics developers a foundation to deliver a fleet manager with support for the upcoming interoperability standard. </p> <p>The post <a href="https://www.therobotreport.com/inorbit-ai-releases-openrobops-iso-21423-reference-implementation/">InOrbit.AI releases OpenRobOps ISO 21423 reference implementation</a> appeared first on <a href="https://www.therobotreport.com">The Robot
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

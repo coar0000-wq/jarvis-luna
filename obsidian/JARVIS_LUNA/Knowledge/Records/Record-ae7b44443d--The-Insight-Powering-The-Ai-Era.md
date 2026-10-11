@@ -2,8 +2,14 @@
 title: "Record ae7b44443d · The-Insight-Powering-The-Ai-Era"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.471099+00:00
+updated_at: 2026-10-11T00:55:49.744070+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/the-insight-powering-the-ai-era"
+kind: "발표물"
 ---
 
 # Record ae7b44443d · The-Insight-Powering-The-Ai-Era
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Insight Powering The Ai Era
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

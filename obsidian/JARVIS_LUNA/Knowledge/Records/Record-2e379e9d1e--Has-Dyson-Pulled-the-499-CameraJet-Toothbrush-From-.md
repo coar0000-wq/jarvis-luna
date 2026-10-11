@@ -2,8 +2,12 @@
 title: "Record 2e379e9d1e · Has-Dyson-Pulled-the-499-CameraJet-Toothbrush-From-Shelves"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.922554+00:00
+updated_at: 2026-10-11T00:55:42.288989+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/dyson-toothbrush-issues-glitch"
 ---
 
 # Record 2e379e9d1e · Has-Dyson-Pulled-the-499-CameraJet-Toothbrush-From-Shelves
@@ -16,7 +20,3 @@ Has Dyson Pulled the $499 CameraJet Toothbrush From Shelves?
 Has Dyson Pulled the $499 CameraJet Toothbrush From Shelves?
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

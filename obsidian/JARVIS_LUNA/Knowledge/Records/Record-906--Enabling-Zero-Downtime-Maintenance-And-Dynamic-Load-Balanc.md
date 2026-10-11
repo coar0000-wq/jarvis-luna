@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.959399+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.63278/jicrcr.vi.3723"
 ---
 
 # Record 906 · Enabling-Zero-Downtime-Maintenance-And-Dynamic-Load-Balancing-Through-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Enabling Zero-Downtime Maintenance And Dynamic Load Balancing Through Intelligent Workload Migration In Enterprise Data Centers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

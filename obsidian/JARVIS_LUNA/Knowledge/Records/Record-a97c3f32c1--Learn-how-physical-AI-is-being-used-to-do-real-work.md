@@ -2,8 +2,12 @@
 title: "Record a97c3f32c1 · Learn-how-physical-AI-is-being-used-to-do-real-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.589743+00:00
+updated_at: 2026-10-11T00:55:51.946284+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/"
 ---
 
 # Record a97c3f32c1 · Learn-how-physical-AI-is-being-used-to-do-real-work
@@ -16,7 +20,3 @@ Learn how physical AI is being used to do real work at RoboBusiness
 <p>Leaders at Amazon Robotics, Teradyne Robotics, and Cobot will discuss how they're applying physical AI to robots operating in customer environments.</p> <p>The post <a href="https://www.therobotreport.com/learn-how-physical-ai-is-being-used-to-do-real-work-at-robobusiness/">Learn how physical AI is being used to do real work at RoboBusiness</a> appeared first on <a href="https://www.therobotrep
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

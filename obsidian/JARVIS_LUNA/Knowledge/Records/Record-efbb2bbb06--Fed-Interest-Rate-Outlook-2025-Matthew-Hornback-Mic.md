@@ -2,8 +2,14 @@
 title: "Record efbb2bbb06 · Fed-Interest-Rate-Outlook-2025-Matthew-Hornback-Michael-Gapen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.541473+00:00
+updated_at: 2026-10-11T00:55:51.161270+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/fed-interest-rate-outlook-2025-matthew-hornback-michael-gapen"
+kind: "발표물"
 ---
 
 # Record efbb2bbb06 · Fed-Interest-Rate-Outlook-2025-Matthew-Hornback-Michael-Gapen
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Fed Interest Rate Outlook 2025 Matthew Hornback Michael Gapen
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.775420+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
 ---
 
 # Record 1988 · A-milestone-in-expanding-access-to-AI
@@ -16,7 +21,3 @@ A milestone in expanding access to AI
 ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

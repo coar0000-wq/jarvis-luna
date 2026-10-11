@@ -2,8 +2,12 @@
 title: "Record 64fc756432 · How-autonomous-fleets-are-changing-whats-possible-in-American-agricult"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.581669+00:00
+updated_at: 2026-10-11T00:55:51.842296+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/"
 ---
 
 # Record 64fc756432 · How-autonomous-fleets-are-changing-whats-possible-in-American-agricult
@@ -16,7 +20,3 @@ How autonomous fleets are changing what’s possible in American agriculture
 <p>Autonomous tractors can help American agriculture, as exemplified in ASI's collaboration with U.S. Sugar and Everglades Equipment.</p> <p>The post <a href="https://www.therobotreport.com/how-autonomous-fleets-are-changing-whats-possible-american-agriculture/">How autonomous fleets are changing what&#8217;s possible in American agriculture</a> appeared first on <a href="https://www.therobotrepor
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

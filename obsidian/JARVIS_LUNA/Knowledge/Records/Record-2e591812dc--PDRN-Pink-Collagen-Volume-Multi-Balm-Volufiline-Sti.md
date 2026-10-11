@@ -2,8 +2,12 @@
 title: "Record 2e591812dc · PDRN-Pink-Collagen-Volume-Multi-Balm-Volufiline-Stick-2PCSCollagen-Plu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.035938+00:00
+updated_at: 2026-10-11T00:55:43.757867+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Collagen-Multi-Volufiline-Stick-Plump/dp/B0C3459125/ref=zg_bsnr_g_beauty_d_sccl_32/147-8204049-1700168"
 ---
 
 # Record 2e591812dc · PDRN-Pink-Collagen-Volume-Multi-Balm-Volufiline-Stick-2PCSCollagen-Plu
@@ -16,7 +20,3 @@ PDRN Pink Collagen Volume Multi Balm, Volufiline Stick 2PCS,Collagen Plump | Hyd
 PDRN Pink Collagen Volume Multi Balm, Volufiline Stick 2PCS,Collagen Plump | Hydrating Multi Wand, Smooth Fine Lines & Wrinkles, Nourishing Collagen Stick for Face, Eye & Lip Care · $22.98 · 평점 4.8 · 리뷰 2,674
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

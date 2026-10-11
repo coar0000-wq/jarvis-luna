@@ -2,8 +2,14 @@
 title: "Record acd59003ad · XGRAG-A-Graph-Native-Framework-for-Explaining-KG-based-Retrieval-Augme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.627913+00:00
+updated_at: 2026-10-11T00:55:22.036461+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2604.24623"
+kind: "논문"
 ---
 
 # Record acd59003ad · XGRAG-A-Graph-Native-Framework-for-Explaining-KG-based-Retrieval-Augme
@@ -15,7 +21,3 @@ tags: [record, real-data]
 XGRAG: A Graph-Native Framework for Explaining KG-based Retrieval-Augmented Generation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

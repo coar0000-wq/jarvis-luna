@@ -2,8 +2,14 @@
 title: "Record 9977e98886 · On-Smart-Derivative-and-Smart-Bond-Contracts-How-Smart-Financial-Contr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.540461+00:00
+updated_at: 2026-10-11T00:55:20.467267+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.5200210"
+kind: "논문"
 ---
 
 # Record 9977e98886 · On-Smart-Derivative-and-Smart-Bond-Contracts-How-Smart-Financial-Contr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 On Smart Derivative and Smart Bond Contracts: How Smart Financial Contracts can advance Digital Market Infrastructures
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record daf7153e3e · The-Art-of-Closed-Formula-Defaults-Search-Free-Code-Generation-for-Ten"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.671948+00:00
+updated_at: 2026-10-11T00:55:22.857628+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.10937"
+kind: "논문"
 ---
 
 # Record daf7153e3e · The-Art-of-Closed-Formula-Defaults-Search-Free-Code-Generation-for-Ten
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Art of Closed-Formula Defaults: Search-Free Code Generation for Tensor Operators
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

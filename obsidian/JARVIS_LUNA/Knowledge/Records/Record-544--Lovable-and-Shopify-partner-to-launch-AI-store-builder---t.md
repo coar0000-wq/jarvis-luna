@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.115561+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTG5KOWVlQzVhb2JUTE1CQmNTbFdkVjVWMms1TFZ5WVJGMndUaV9fcjVKdkxqWndvdV8xUktNSzRhUV9FSHBSeDRMdDdMcEh6Ym85ckpKb1M0TXlxekdIaGVtdUlMYUxwby1ZVWlVUUVZMkFfZ2RPWHVnOTM5U3g2c1F1UWd3cEdTSTJjNVVR?oc=5"
 ---
 
 # Record 544 · Lovable-and-Shopify-partner-to-launch-AI-store-builder---thekeywordco
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Lovable and Shopify partner to launch AI store builder - thekeyword.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

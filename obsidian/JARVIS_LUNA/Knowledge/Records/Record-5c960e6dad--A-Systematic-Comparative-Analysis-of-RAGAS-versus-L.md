@@ -2,8 +2,14 @@
 title: "Record 5c960e6dad · A-Systematic-Comparative-Analysis-of-RAGAS-versus-LLM-as-Judge-for-Gen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.978364+00:00
+updated_at: 2026-10-11T00:55:26.897998+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22878599"
+kind: "논문"
 ---
 
 # Record 5c960e6dad · A-Systematic-Comparative-Analysis-of-RAGAS-versus-LLM-as-Judge-for-Gen
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Systematic Comparative Analysis of RAGAS versus LLM-as-Judge for Generative AI Factuality Assessment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

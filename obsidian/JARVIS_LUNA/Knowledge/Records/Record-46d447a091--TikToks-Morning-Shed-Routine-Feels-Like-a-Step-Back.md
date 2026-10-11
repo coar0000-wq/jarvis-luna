@@ -2,8 +2,12 @@
 title: "Record 46d447a091 · TikToks-Morning-Shed-Routine-Feels-Like-a-Step-Back"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.288712+00:00
+updated_at: 2026-10-11T00:55:31.794204+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kZ1FiVE1oNFVpUklmbmx3LTh2NmZWOGloZnRUX2NWZ28tM2xPRzJOYkhucGEzaU01R25jbHUxQzN4NkdiczMteEZlZDA4eE9kTWVVbFlQc3JWX1FveDg4SUpVRTBXdkluclkyWko3RDFSWlV4N0hpaA?oc=5"
 ---
 
 # Record 46d447a091 · TikToks-Morning-Shed-Routine-Feels-Like-a-Step-Back
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok's Morning Shed Routine Feels Like a Step Backwards for Self-Love - L'OFFICIEL USA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

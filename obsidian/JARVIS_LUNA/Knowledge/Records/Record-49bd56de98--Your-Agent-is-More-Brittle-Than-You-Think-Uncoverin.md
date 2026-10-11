@@ -2,8 +2,14 @@
 title: "Record 49bd56de98 · Your-Agent-is-More-Brittle-Than-You-Think-Uncoverin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.667692+00:00
+updated_at: 2026-10-11T00:55:37.899172+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "LLM언어모델", "보안프라이버시", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7152331654"
+kind: "논문"
 ---
 
 # Record 49bd56de98 · Your-Agent-is-More-Brittle-Than-You-Think-Uncoverin
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Your Agent is More Brittle Than You Think: Uncovering Indirect Injection Vulnerabilities in Agentic LLMs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[보안프라이버시]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

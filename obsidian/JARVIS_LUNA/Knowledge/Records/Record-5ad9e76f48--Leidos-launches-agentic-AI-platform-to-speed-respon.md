@@ -2,8 +2,14 @@
 title: "Record 5ad9e76f48 · Leidos-launches-agentic-AI-platform-to-speed-response-to-cyber-threats"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.071485+00:00
+updated_at: 2026-10-11T00:55:28.097857+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "보안프라이버시", "데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-launches-agentic-ai-platform-speed-response-cyber-threats"
+kind: "발표물"
 ---
 
 # Record 5ad9e76f48 · Leidos-launches-agentic-AI-platform-to-speed-response-to-cyber-threats
@@ -16,7 +22,3 @@ Leidos launches agentic AI platform to speed response to cyber threats
 UpHold Effect™ Agentic SOC Automation helps federal security teams move from alert overload to clear guidance and automated response while keeping human analysts in control. RESTON, Va., Sept. 29, 2026 /PRNewswire/ -- Leidos (NYSE:LDOS) is introducing UpHold Effect™ Agentic SOC Automation, a
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[보안프라이버시]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:24.947817+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s10291-025-01890-0"
 ---
 
 # Record 193 · Employing-artificial-intelligence-in-Galileo-orbital-error-prediction-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Employing artificial intelligence in Galileo orbital error prediction for real-time offline positioning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

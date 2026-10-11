@@ -2,8 +2,12 @@
 title: "Record a87e774449 · The-K-Beauty-Products-Our-Editors-Swear-by-for-Glow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.343395+00:00
+updated_at: 2026-10-11T00:55:32.839869+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVTdOYl9GZGJCRXphbFlyeTBTS21uaG5rZjh1YV90eEtiUk43S1F1WVZiUmdpSWpyTE85elU2NUFVa0VNdnZmeUhPZFBTQTVjN0JYUlFoa09FRDUwa2h5V29VR2s0b3M2eEdjWXB3NU5RVDI2SUtfUzdMRU1DX01FZXVDYm1BQQ?oc=5"
 ---
 
 # Record a87e774449 · The-K-Beauty-Products-Our-Editors-Swear-by-for-Glow
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The K-Beauty Products Our Editors Swear by for Glowing Skin Are on Sale for Prime Day - Good Housekeeping
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

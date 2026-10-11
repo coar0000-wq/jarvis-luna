@@ -2,8 +2,12 @@
 title: "Record 31d11caf32 · Frame-to-Panorama-Localization-and-Context-Aware-Sampling-for-Scene-Sp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.819639+00:00
+updated_at: 2026-10-11T00:55:24.679960+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "인프라클라우드", "데이터분석"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.29447"
 ---
 
 # Record 31d11caf32 · Frame-to-Panorama-Localization-and-Context-Aware-Sampling-for-Scene-Sp
@@ -16,7 +20,3 @@ Frame-to-Panorama Localization and Context-Aware Sampling for Scene-Specific Shi
 Smart maritime infrastructures provide continuous access to heterogeneous sensing streams, enabling repeated experimentation, digital-twin development, and AI-based maritime services. However, sensing hardware alone is not sufficient for scene-specific model development: historical video streams must also be spatially indexed, contextualized, and reduced to informative subsets for annotation. This
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[인프라클라우드]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

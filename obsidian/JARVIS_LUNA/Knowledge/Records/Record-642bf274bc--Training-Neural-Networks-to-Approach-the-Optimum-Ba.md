@@ -2,8 +2,12 @@
 title: "Record 642bf274bc · Training-Neural-Networks-to-Approach-the-Optimum-Bayes-Estimator-in-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.147490+00:00
+updated_at: 2026-10-11T00:55:14.174865+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.20465"
 ---
 
 # Record 642bf274bc · Training-Neural-Networks-to-Approach-the-Optimum-Bayes-Estimator-in-De
@@ -16,7 +20,3 @@ Training Neural Networks to Approach the Optimum Bayes Estimator in Dense Multi-
 We train neural networks on synthesized frames to approach the optimum Bayes estimator for dense emitter localization. The result justifies the future work on training neural networks to achieve high-throughput large-FOV super spatiotemporal resolution SMLM.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

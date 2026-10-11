@@ -2,8 +2,14 @@
 title: "Record eef9c9e362 · Grok-Bot-for-Enterprise"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.745979+00:00
+updated_at: 2026-10-11T00:55:54.778297+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-bot-for-enterprise"
+kind: "발표물"
 ---
 
 # Record eef9c9e362 · Grok-Bot-for-Enterprise
@@ -16,7 +22,3 @@ Grok Bot for Enterprise
 Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

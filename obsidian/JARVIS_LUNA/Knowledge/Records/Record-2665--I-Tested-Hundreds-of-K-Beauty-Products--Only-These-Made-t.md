@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.931555+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=FTnMHdKLz20"
 ---
 
 # Record 2665 · I-Tested-Hundreds-of-K-Beauty-Products--Only-These-Made-the-Cut
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Tested Hundreds of K-Beauty Products — Only These Made the Cut
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

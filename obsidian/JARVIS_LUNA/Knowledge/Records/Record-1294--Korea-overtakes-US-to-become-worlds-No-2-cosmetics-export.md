@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.838091+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE91a1IzWkJ4c1JtM3BxMVJkZzdJaVhMak41M2lIU0xmUmxtWlBVNWxobTBrNWZTVFlwVGZ0dFRrUkRoTGhtMnZOSzZacHZ1ejlmbVJzUjg2UjZNMjlLdXRWR3ktS21KaGJXWUliZ3RB0gFyQVVfeXFMT2NnellPM2QwNzhJMjl3R1ZRbDVqb1ZUQkdvTHZGZ0RleldHQ3JuNjBNRFdmdWZYNjF3aWNKMEJDRGo4VUx5NG56ZHk4UExJaUl1RmMxLTlmWW9WN0VxSUd4ckpHYUVObWhWaXQtemxCU3J3?oc=5"
 ---
 
 # Record 1294 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-exporter---Korea-Bi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Korea overtakes US to become world’s No. 2 cosmetics exporter - Korea Biomedical Review
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

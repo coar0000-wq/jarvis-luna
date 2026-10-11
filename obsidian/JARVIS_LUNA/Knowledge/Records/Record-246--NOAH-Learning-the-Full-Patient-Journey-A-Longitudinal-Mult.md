@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.377848+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09140v1"
 ---
 
 # Record 246 · NOAH-Learning-the-Full-Patient-Journey-A-Longitudinal-Multimodal-Time-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

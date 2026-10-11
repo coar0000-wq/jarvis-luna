@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.860608+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "openalex.org"
+url: "https://openalex.org/W7166900032"
 ---
 
 # Record 2085 · Evaluating-the-Fourier-Approximation-in-Pulsar-Timing-Array-Analysis
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Evaluating the Fourier Approximation in Pulsar Timing Array Analysis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

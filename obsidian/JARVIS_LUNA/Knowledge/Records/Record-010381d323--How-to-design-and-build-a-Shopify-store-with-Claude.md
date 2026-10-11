@@ -2,8 +2,12 @@
 title: "Record 010381d323 · How-to-design-and-build-a-Shopify-store-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.766852+00:00
+updated_at: 2026-10-11T00:55:55.106614+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/zrJRlnfQTR0"
 ---
 
 # Record 010381d323 · How-to-design-and-build-a-Shopify-store-with-Claude
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to design and build a Shopify store with Claude
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

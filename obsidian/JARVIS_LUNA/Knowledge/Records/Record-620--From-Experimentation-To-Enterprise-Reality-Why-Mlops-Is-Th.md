@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.613481+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18194145"
 ---
 
 # Record 620 · From-Experimentation-To-Enterprise-Reality-Why-Mlops-Is-The-Backbone-O
@@ -15,7 +20,3 @@ tags: [record, real-data]
 From Experimentation To Enterprise Reality: Why Mlops Is The Backbone Of Production AI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

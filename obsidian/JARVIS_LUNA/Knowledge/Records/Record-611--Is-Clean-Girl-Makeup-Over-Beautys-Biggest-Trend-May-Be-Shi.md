@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.913013+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZUtEaHdqNTZJQi1rSy16b2gwbVBJamVpQUNoWnRTcEZnSVpDNkk0dVBfbjVQNk4yS2dMd0Y4Q0lhQWduZHFqakZ4Q2VBeVdDYXpNMlVkaGpVUmh5RFdIbHFUWXhvZXJyUlRndE56WXd4Y0tZU0p6dVk3N251RU1feHlmeklCall3T3hHakhmTl81UnprWllN?oc=5"
 ---
 
 # Record 611 · Is-Clean-Girl-Makeup-Over-Beautys-Biggest-Trend-May-Be-Shifting---ELLE
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Is Clean-Girl Makeup Over? Beauty’s Biggest Trend May Be Shifting - ELLE
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

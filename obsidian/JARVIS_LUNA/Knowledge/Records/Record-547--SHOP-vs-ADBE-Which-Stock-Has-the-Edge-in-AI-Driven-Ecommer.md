@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.132434+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxNenpSUXdfM1M1UERROFdlUlhZZjRiN2tfSVpCSkRnQnZfNEhxRnRDNDdwVmlRVGlNQjA4Skt1R3VkSEpaRFpJR2ZrNmhELVBEQWFYVFh0c1JLZ1dsZVAtNU4xWlVCaTgwMkNybTFjT1ZvZFUyWXc0cWNEMUNQclVmYmN0eEk3aHFIN251WHpvQkRQN3NjNnFsOE9WSTUzbWVYTUw0c0dDTlg3R3pHbWpwN0R5ME9UWU0?oc=5"
 ---
 
 # Record 547 · SHOP-vs-ADBE-Which-Stock-Has-the-Edge-in-AI-Driven-Ecommerce---Trading
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 SHOP vs. ADBE: Which Stock Has the Edge in AI-Driven Ecommerce? - TradingView
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

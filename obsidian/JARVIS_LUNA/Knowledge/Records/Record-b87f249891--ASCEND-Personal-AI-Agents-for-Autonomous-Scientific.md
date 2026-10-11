@@ -2,8 +2,12 @@
 title: "Record b87f249891 · ASCEND-Personal-AI-Agents-for-Autonomous-Scientific-Computing-Across-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.848974+00:00
+updated_at: 2026-10-11T00:55:25.088762+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "의료바이오", "반도체하드웨어"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.32868"
 ---
 
 # Record b87f249891 · ASCEND-Personal-AI-Agents-for-Autonomous-Scientific-Computing-Across-H
@@ -16,7 +20,3 @@ ASCEND: Personal AI Agents for Autonomous Scientific Computing Across HPC Cluste
 Traditional scientific computing requires researchers to translate intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that supports several placements of the agent and, in the arrangement used for every case
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[의료바이오]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

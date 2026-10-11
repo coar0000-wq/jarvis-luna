@@ -2,8 +2,12 @@
 title: "Record e29069eb6e · Traffic-Congestion-Control-for-ARZ-Model-with-an-Ar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.930332+00:00
+updated_at: 2026-10-11T00:55:11.623594+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03345v1"
 ---
 
 # Record e29069eb6e · Traffic-Congestion-Control-for-ARZ-Model-with-an-Ar
@@ -16,7 +20,3 @@ Traffic Congestion Control for ARZ Model with an Arbitrarily Large Input Delay
 This paper addresses the stabilization problem for Aw-Rascle-Zhang (ARZ) traffic model in the presence of an arbitrarily large input delay. The linearized ARZ model is a $2 \times 2$ hyperbolic partial differential equation (PDE) system with proximal reflection, which introduces significant analytical challenges when combined with input delays. To tackle this problem, we propose a backstepping-bas
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

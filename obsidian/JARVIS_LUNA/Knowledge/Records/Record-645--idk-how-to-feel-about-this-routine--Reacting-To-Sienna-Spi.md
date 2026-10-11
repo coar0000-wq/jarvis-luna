@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.090402+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=f4LcP_MZ0o4"
 ---
 
 # Record 645 · idk-how-to-feel-about-this-routine--Reacting-To-Sienna-Spiro
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 idk how to feel about this routine ... (Reacting To Sienna Spiro)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

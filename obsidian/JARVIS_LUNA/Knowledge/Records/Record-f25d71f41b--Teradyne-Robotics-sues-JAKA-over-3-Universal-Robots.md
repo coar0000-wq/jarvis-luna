@@ -2,8 +2,12 @@
 title: "Record f25d71f41b · Teradyne-Robotics-sues-JAKA-over-3-Universal-Robots"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.605373+00:00
+updated_at: 2026-10-11T00:55:52.173227+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["법률규제", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/"
 ---
 
 # Record f25d71f41b · Teradyne-Robotics-sues-JAKA-over-3-Universal-Robots
@@ -16,7 +20,3 @@ Teradyne Robotics sues JAKA over 3 Universal Robots patents
 <p>New details reveal the lawsuit involves three Universal Robots patents about robot interfaces, safety brakes, and joints.</p> <p>The post <a href="https://www.therobotreport.com/teradyne-robotics-sues-jaka-over-3-universal-robots-patents/">Teradyne Robotics sues JAKA over 3 Universal Robots patents</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[법률규제]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

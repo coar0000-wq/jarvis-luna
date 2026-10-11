@@ -2,8 +2,14 @@
 title: "Record 7da488ab0a · A-Comprehensive-Evaluation-of-a-SolarPowered-MultiVehicle-System-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.014939+00:00
+updated_at: 2026-10-11T00:55:27.503993+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.69626/cai.2025.0157"
+kind: "논문"
 ---
 
 # Record 7da488ab0a · A-Comprehensive-Evaluation-of-a-SolarPowered-MultiVehicle-System-for-A
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Comprehensive Evaluation of a Solar–Powered Multi–Vehicle System for Autonomous Soil Mineral Detection in Agriculture
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

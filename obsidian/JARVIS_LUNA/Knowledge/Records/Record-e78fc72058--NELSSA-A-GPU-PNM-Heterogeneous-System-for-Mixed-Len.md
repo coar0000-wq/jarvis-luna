@@ -2,8 +2,14 @@
 title: "Record e78fc72058 · NELSSA-A-GPU-PNM-Heterogeneous-System-for-Mixed-Length-LLM-Serving-via"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.653451+00:00
+updated_at: 2026-10-11T00:55:22.546997+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "SK hynix"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2607.26633"
+kind: "논문"
 ---
 
 # Record e78fc72058 · NELSSA-A-GPU-PNM-Heterogeneous-System-for-Mixed-Length-LLM-Serving-via
@@ -15,7 +21,3 @@ tags: [record, real-data]
 NELSSA: A GPU-PNM Heterogeneous System for Mixed-Length LLM Serving via Length-based Request Placement
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

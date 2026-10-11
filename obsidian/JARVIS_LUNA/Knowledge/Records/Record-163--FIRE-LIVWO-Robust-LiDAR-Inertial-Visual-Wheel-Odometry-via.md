@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.361775+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05325v1"
 ---
 
 # Record 163 · FIRE-LIVWO-Robust-LiDAR-Inertial-Visual-Wheel-Odometry-via-Failure-Imm
@@ -16,7 +20,3 @@ FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWav
 Achieving robust SLAM in large-scale underground coal mines with complex structures and severe degeneracies remains highly challenging. Dense smoke and dust cause substantial loss of visual information and degrade LiDAR point-cloud features, while long, self-similar corridors induce geometric degeneration, leading to pronounced odometry drift. To address these issues, we propose FIRE-LIVWO: Failur
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 45bc33c734 · Securing-the-future-of-AI-agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.248316+00:00
+updated_at: 2026-10-11T00:55:15.531537+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
+kind: "발표물"
 ---
 
 # Record 45bc33c734 · Securing-the-future-of-AI-agents
@@ -16,7 +22,3 @@ Securing the future of AI agents
 Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

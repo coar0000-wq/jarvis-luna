@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.186781+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/gMUrs1-zJkU"
 ---
 
 # Record 881 · 광고--3kg-감량한-48시간-단식-찐-후기-다이어트-다이어터
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 광고❌ ￼-3kg 감량한 48시간 단식 찐 후기🔥 #다이어트 #다이어터
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record afa2a4286a · Robust-Fault-Detection-in-Mechanical-Multimodal-Time-Series-via-Self-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.682717+00:00
+updated_at: 2026-10-11T00:55:22.986885+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.16314"
 ---
 
 # Record afa2a4286a · Robust-Fault-Detection-in-Mechanical-Multimodal-Time-Series-via-Self-S
@@ -16,7 +20,3 @@ Robust Fault Detection in Mechanical Multimodal Time Series via Self-Supervised 
 Fault detection is essential in industrial systems, enabling early identification of abnormal behaviour and improving safety, reliability, and operational efficiency. Modern systems increasingly rely on heterogeneous sensing modalities that capture complementary aspects of the underlying physical process. However, existing data-driven anomaly detection methods often process each modality independe
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

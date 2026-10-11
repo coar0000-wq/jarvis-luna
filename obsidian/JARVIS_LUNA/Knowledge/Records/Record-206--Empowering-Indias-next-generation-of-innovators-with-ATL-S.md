@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.373149+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["로보틱스", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/"
 ---
 
 # Record 206 · Empowering-Indias-next-generation-of-innovators-with-ATL-Saathi
@@ -16,7 +21,3 @@ Empowering India’s next generation of innovators with ATL Saathi
 Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[로보틱스]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

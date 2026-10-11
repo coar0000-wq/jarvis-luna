@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.474163+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=unsz__ZbAN4"
 ---
 
 # Record 2315 · Realistic-Day-In-The-Life-Of-A-Multi-Millionaire-In-Miami
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Realistic Day In The Life Of A Multi-Millionaire In Miami
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

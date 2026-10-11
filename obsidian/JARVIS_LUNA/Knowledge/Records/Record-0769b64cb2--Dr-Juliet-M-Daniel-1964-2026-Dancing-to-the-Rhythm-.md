@@ -2,8 +2,14 @@
 title: "Record 0769b64cb2 · Dr-Juliet-M-Daniel-1964-2026-Dancing-to-the-Rhythm-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.357961+00:00
+updated_at: 2026-10-11T00:55:17.316384+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41388-026-03922-6"
+kind: "논문"
 ---
 
 # Record 0769b64cb2 · Dr-Juliet-M-Daniel-1964-2026-Dancing-to-the-Rhythm-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Dr. Juliet M. Daniel (1964-2026): Dancing to the Rhythm of Kaiso
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.104708+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipAFBVV95cUxQR0FidndBZVN1aUVsdmZ4VHhMV2FRMmc0R3FlUnVVb0ZCbVFiVDZ5TXNVWHhHSlVyTmhyYUlzelVlcXJ1SWN4TDNkM2tTc3V0dHRCSDRZdWYtYUFrcHA2RGVCQVYwdld1eDZYYlJENHBwRVFVOHpSdHk1S09RYmFSbmZXcXNQRXVDcFRnTFdBaWM3T2M0NV9QSHRCYVo4VldiYmhEaA?oc=5"
 ---
 
 # Record 1531 · K-beautys-Top-Antiaging-Brand-Is-Landing-Stateside---WWD
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty’s Top Antiaging Brand Is Landing Stateside - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 5901757652 · PharmaPlain-SOUL-trial-looking-at-the-effect-of-ora"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.401121+00:00
+updated_at: 2026-10-11T00:55:18.083226+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.1093/ehjcvp/pvag055"
+kind: "논문"
 ---
 
 # Record 5901757652 · PharmaPlain-SOUL-trial-looking-at-the-effect-of-ora
@@ -15,7 +21,3 @@ tags: [record, real-data]
 PharmaPlain: SOUL trial looking at the effect of oral semaglutide on cardiovascular outcomes in people with type 2 diabetes and atherosclerotic cardiovascular disease and/or chronic kidney disease
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

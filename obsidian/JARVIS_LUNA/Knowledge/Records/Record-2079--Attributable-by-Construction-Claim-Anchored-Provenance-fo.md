@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.859340+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "openalex.org"
+url: "https://openalex.org/W7165972836"
 ---
 
 # Record 2079 · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Attributable by Construction: Claim-Anchored Provenance for Multi-Document Summarization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

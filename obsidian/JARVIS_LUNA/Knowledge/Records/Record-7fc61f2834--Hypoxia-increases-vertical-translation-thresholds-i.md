@@ -2,8 +2,14 @@
 title: "Record 7fc61f2834 · Hypoxia-increases-vertical-translation-thresholds-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.489042+00:00
+updated_at: 2026-10-11T00:55:19.642383+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1177/09574271261483520"
+kind: "논문"
 ---
 
 # Record 7fc61f2834 · Hypoxia-increases-vertical-translation-thresholds-i
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Hypoxia increases vertical translation thresholds in patients with unilateral vestibular hypofunction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 906edd63a5 · A-Deep-Generative-Model-for-Synthesizing-Labeled-Wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.979320+00:00
+updated_at: 2026-10-11T00:55:12.209123+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05396v1"
 ---
 
 # Record 906edd63a5 · A-Deep-Generative-Model-for-Synthesizing-Labeled-Wi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 A Deep Generative Model for Synthesizing Labeled Wireless Signals
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

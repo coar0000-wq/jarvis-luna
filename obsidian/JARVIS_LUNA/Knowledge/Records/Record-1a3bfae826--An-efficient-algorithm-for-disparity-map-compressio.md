@@ -2,8 +2,14 @@
 title: "Record 1a3bfae826 · An-efficient-algorithm-for-disparity-map-compressio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.336353+00:00
+updated_at: 2026-10-11T00:55:16.945211+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.vlsi.2023.102069"
+kind: "논문"
 ---
 
 # Record 1a3bfae826 · An-efficient-algorithm-for-disparity-map-compressio
@@ -15,7 +21,3 @@ tags: [record, real-data]
 An efficient algorithm for disparity map compression based on spatial correlations and its low-cost hardware architecture
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

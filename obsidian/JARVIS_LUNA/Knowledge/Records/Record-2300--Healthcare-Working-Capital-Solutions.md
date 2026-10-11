@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.515699+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/treasury/trade-working-capital/healthcare-working-capital-solutions"
 ---
 
 # Record 2300 · Healthcare-Working-Capital-Solutions
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Healthcare Working Capital Solutions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.013858+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1002/cjs.70039"
 ---
 
 # Record 257 · A-Markov-approach-to-credit-rating-migration-conditional-on-economic-s
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A Markov approach to credit rating migration conditional on economic states
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

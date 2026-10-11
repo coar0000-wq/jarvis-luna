@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.271828+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb20tUzdlQy1lek5xeERWV2I3cGp1bjJpazh2bnFXcDF1RUdLazEzSVprM3lodTRLTjdIVGtkT2hUczJaaU5vczNfSkxOUHdZZ2dxRElNTjdJMzRMNS1EYndSUlJpQV9acVFlazZCVmMzZkszTlFTUWVTX0JnQUFTREpaeTEyWXdxeW1nVmJHdmZpNnpydGR2OXdpeTNMQnRPNGJfcE1wUGI?oc=5"
 ---
 
 # Record 503 · Amorepacific-expands-K-beauty-portfolio-in-India-with-Mamonde-launch--
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Amorepacific expands K-beauty portfolio in India with Mamonde launch - Global Cosmetics News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

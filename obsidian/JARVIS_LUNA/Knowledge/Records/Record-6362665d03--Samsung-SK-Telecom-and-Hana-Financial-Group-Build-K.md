@@ -2,8 +2,14 @@
 title: "Record 6362665d03 · Samsung-SK-Telecom-and-Hana-Financial-Group-Build-Koreas-First-Private"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.583998+00:00
+updated_at: 2026-10-11T00:55:36.758622+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["뷰티스킨케어", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector"
+kind: "발표물"
 ---
 
 # Record 6362665d03 · Samsung-SK-Telecom-and-Hana-Financial-Group-Build-Koreas-First-Private
@@ -16,7 +22,3 @@ Samsung, SK Telecom, and Hana Financial Group Build Korea’s First Private 5G S
 Samsung Electronics today announced that the company serves as the sole vendor to deliver its private 5G network solutions, powering a smart office at Hana Financial Group’s new headquarters in Incheon, South Korea. As the first of its kind in the Korean financial sector, this new connected office elevates convenience in mobility and provides a […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[뷰티스킨케어]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

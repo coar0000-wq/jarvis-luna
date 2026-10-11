@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.188513+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=oSWpFwcybTw"
 ---
 
 # Record 999 · 6월-올영-세일-품절-전-사야하는-올리브영-추천템-여름-스킨케어-추천템과-건강한-간식까지
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 6월 올영 세일🔥 품절 전 사야하는 올리브영 추천템🛍️ 여름 스킨케어 추천템과 건강한 간식까지!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

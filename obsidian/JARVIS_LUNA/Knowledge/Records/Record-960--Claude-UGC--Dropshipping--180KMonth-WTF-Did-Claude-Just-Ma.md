@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.937629+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=P0WPruXYyio"
 ---
 
 # Record 960 · Claude-UGC--Dropshipping--180KMonth-WTF-Did-Claude-Just-Make
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Claude UGC + Dropshipping = $180K/Month (WTF Did Claude Just Make?!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.146780+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "doi.org"
+url: "https://doi.org/10.54855/ijaile.26322"
 ---
 
 # Record 806 · Leveraging-Generative-AI-To-Foster-Teachers-Creativity-in-Lesson-Desig
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Leveraging Generative AI To Foster Teachers’ Creativity in Lesson Design
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

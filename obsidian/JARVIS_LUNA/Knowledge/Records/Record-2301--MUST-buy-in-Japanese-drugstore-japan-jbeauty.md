@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.963380+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/LkGS7slZk4o"
 ---
 
 # Record 2301 · MUST-buy-in-Japanese-drugstore-japan-jbeauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 MUST buy in Japanese drugstore👌💯 #japan #jbeauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

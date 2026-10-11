@@ -2,8 +2,12 @@
 title: "Record d54d322793 · The-Rise-of-Verbal-Reinforcement-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.917675+00:00
+updated_at: 2026-10-11T00:55:11.448105+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01597v1"
 ---
 
 # Record d54d322793 · The-Rise-of-Verbal-Reinforcement-Learning
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Rise of Verbal Reinforcement Learning
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

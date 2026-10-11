@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.497033+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91SzVVRmZ6VHlYWnptUFFIa3FRRGxPUmFpbXZyeWp5QXNqaVJwSkp3ZF9vNnp6VjA2ejJtYTdqcldadTZkVk93R2ZoNUNKNFNxeTFlV1cyZlFzbUE?oc=5"
 ---
 
 # Record 915 · ChatGPT-Prompts-for-Ecommerce-Tips-and-Examples---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ChatGPT Prompts for Ecommerce: Tips and Examples - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

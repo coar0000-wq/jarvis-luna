@@ -2,8 +2,14 @@
 title: "Record f42b105107 · Detecting-And-Countering-Malicious-Uses-Of-Claude-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.367058+00:00
+updated_at: 2026-10-11T00:55:48.128586+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025"
+kind: "발표물"
 ---
 
 # Record f42b105107 · Detecting-And-Countering-Malicious-Uses-Of-Claude-M
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Detecting And Countering Malicious Uses Of Claude March 2025
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

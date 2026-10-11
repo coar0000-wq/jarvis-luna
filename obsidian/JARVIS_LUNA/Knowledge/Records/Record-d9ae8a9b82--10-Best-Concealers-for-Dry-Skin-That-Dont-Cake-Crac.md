@@ -2,8 +2,12 @@
 title: "Record d9ae8a9b82 · 10-Best-Concealers-for-Dry-Skin-That-Dont-Cake-Crack-or-Crease"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.918583+00:00
+updated_at: 2026-10-11T00:55:42.228635+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/concealer-for-dry-skin"
 ---
 
 # Record d9ae8a9b82 · 10-Best-Concealers-for-Dry-Skin-That-Dont-Cake-Crack-or-Crease
@@ -16,7 +20,3 @@ tags: [record, real-data]
 10 Best Concealers for Dry Skin That Don’t Cake, Crack, or Crease
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

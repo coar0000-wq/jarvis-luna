@@ -2,8 +2,12 @@
 title: "Record c2877d7aa7 · New-Ecommerce-Tools-March-25-2026---Practical-Ecomm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.261696+00:00
+updated_at: 2026-10-11T00:55:31.306917+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5TnV1aGRHUmpsejYtUlBoOTdfckZWSjV6U3ZVTWZ6bkE2T3NieWpaa1htQXM3eFVPWXVtMHFOXzEzTEozU3NpR2U5LTZNQUVldDZJQm1sSWNLdW1WWVhCNTlOMDZvSGIwa2h4VlBieGc4SDU2bndJ?oc=5"
 ---
 
 # Record c2877d7aa7 · New-Ecommerce-Tools-March-25-2026---Practical-Ecomm
@@ -15,7 +19,3 @@ tags: [record, real-data]
 New Ecommerce Tools: March 25, 2026 - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

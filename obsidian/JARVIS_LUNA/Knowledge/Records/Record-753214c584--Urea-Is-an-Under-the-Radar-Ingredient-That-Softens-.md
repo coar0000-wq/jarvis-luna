@@ -2,8 +2,12 @@
 title: "Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.915227+00:00
+updated_at: 2026-10-11T00:55:42.163412+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-urea-moisturizer"
 ---
 
 # Record 753214c584 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-
@@ -16,7 +20,3 @@ Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe
 Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

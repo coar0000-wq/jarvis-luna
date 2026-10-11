@@ -2,8 +2,14 @@
 title: "Record 6cad4f0315 · Ai-Spending-Boom-Pay-Off-Brian-Nowak"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.537382+00:00
+updated_at: 2026-10-11T00:55:51.067106+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-spending-boom-pay-off-brian-nowak"
+kind: "발표물"
 ---
 
 # Record 6cad4f0315 · Ai-Spending-Boom-Pay-Off-Brian-Nowak
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ai Spending Boom Pay Off Brian Nowak
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

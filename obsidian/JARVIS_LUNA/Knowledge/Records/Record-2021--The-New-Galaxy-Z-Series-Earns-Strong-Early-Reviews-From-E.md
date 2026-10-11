@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.687341+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/the-new-galaxy-z-series-earns-strong-early-reviews-from-european-consumers"
 ---
 
 # Record 2021 · The-New-Galaxy-Z-Series-Earns-Strong-Early-Reviews-From-European-Consu
@@ -16,7 +21,3 @@ The New Galaxy Z Series Earns Strong Early Reviews From European Consumers
 Samsung Electronics’ new Galaxy Z Fold8 Ultra, Galaxy Z Fold8, and Galaxy Z Flip8 have received strong early reviews from European consumers, following record-breaking pre-orders for the lineup in the region. The new Galaxy Z series has earned an average consumer review score of 4.8 out of 5 stars, with users highlighting its innovative design, […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

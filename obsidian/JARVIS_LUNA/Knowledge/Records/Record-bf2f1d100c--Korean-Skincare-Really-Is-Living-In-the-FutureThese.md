@@ -2,8 +2,12 @@
 title: "Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.340403+00:00
+updated_at: 2026-10-11T00:55:32.768890+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZngzOVM1NVd0V0NhUEFpbDU1SFN0Vk9sWm1vY200S3pCRHhVWWJ1MmNNSDl0VXN0amQ3OHNRaWIzOTBueTZ2RDlUQl9tX0VQcFpZaUdTQ3Q2MjRMTU9aNGN0Nkd4UlRuQ1BIanE4ZXVYRmh4RmZsaEtIb2Q0RkNUMjU5ZFA?oc=5"
 ---
 
 # Record bf2f1d100c · Korean-Skincare-Really-Is-Living-In-the-FutureThese
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Korean Skincare Really Is Living In the Future—These 9 Products Are Proof - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

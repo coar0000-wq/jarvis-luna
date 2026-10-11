@@ -2,8 +2,12 @@
 title: "Record 477f895209 · Top-7-Trending-PET-Products-To-Sell-Now--CJdropship"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.726745+00:00
+updated_at: 2026-10-11T00:55:54.412036+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=U3R1DqvQM_w"
 ---
 
 # Record 477f895209 · Top-7-Trending-PET-Products-To-Sell-Now--CJdropship
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Top 7 Trending PET Products To Sell Now | CJdropshipping Picks
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

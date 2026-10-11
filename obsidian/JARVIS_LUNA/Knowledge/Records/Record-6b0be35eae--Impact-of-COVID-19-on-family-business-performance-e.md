@@ -2,8 +2,14 @@
 title: "Record 6b0be35eae · Impact-of-COVID-19-on-family-business-performance-evidence-from-listed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.420086+00:00
+updated_at: 2026-10-11T00:55:18.461832+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1108/jfbm-11-2021-0143"
+kind: "논문"
 ---
 
 # Record 6b0be35eae · Impact-of-COVID-19-on-family-business-performance-evidence-from-listed
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Impact of COVID-19 on family business performance: evidence from listed companies in Germany
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

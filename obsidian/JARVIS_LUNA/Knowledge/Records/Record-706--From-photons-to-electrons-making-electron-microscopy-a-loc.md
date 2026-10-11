@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.691150+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.26434/chemrxiv.15006831/v2"
 ---
 
 # Record 706 · From-photons-to-electrons-making-electron-microscopy-a-local-discovery
@@ -15,7 +20,3 @@ tags: [record, real-data]
 From photons to electrons: making electron microscopy a local discovery engine for materials
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

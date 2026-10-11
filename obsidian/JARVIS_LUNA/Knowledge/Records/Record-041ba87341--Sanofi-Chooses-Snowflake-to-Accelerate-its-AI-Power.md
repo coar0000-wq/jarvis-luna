@@ -2,8 +2,14 @@
 title: "Record 041ba87341 · Sanofi-Chooses-Snowflake-to-Accelerate-its-AI-Power"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.075137+00:00
+updated_at: 2026-10-11T00:55:28.150491+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Sanofi-Chooses-Snowflake-to-Accelerate-its-AI-Powered-Drug-Development/default.aspx"
+kind: "발표물"
 ---
 
 # Record 041ba87341 · Sanofi-Chooses-Snowflake-to-Accelerate-its-AI-Power
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Sanofi Chooses Snowflake to Accelerate its AI-Powered Drug Development
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record c1e2b11cbf · In-region-inference-open-models-and-new-European-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.096726+00:00
+updated_at: 2026-10-11T00:55:28.488161+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+kind: "발표물"
 ---
 
 # Record c1e2b11cbf · In-region-inference-open-models-and-new-European-in
@@ -16,7 +22,3 @@ In-region inference, open models, and new European infrastructure for sovereign 
 Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

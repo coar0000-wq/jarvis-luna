@@ -2,8 +2,14 @@
 title: "Record 6b639c6c23 · Board-governance-in-Southeast-Europe-towards-strong"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.555407+00:00
+updated_at: 2026-10-11T00:55:20.703214+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.22598/zefzg.2026.1.143"
+kind: "논문"
 ---
 
 # Record 6b639c6c23 · Board-governance-in-Southeast-Europe-towards-strong
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Board governance in Southeast Europe: towards stronger training and qualification standards for non-executive and supervisory board members
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

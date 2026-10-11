@@ -2,8 +2,12 @@
 title: "Record b7fae6cf06 · Koopman-Based-Model-Predictive-Control-for-Simultan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.990721+00:00
+updated_at: 2026-10-11T00:55:12.345299+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08008v1"
 ---
 
 # Record b7fae6cf06 · Koopman-Based-Model-Predictive-Control-for-Simultan
@@ -16,7 +20,3 @@ Koopman-Based Model Predictive Control for Simultaneous State of Charge and Temp
 Cell-to-cell electrical and thermal variations produce nonuniform state of charge (SoC) and temperature distributions in lithium-ion battery packs. This paper proposes a Koopman-operator-based framework for simultaneous SoC and temperature balancing of series-connected cells. Cell-specific Koopman predictors identified using extended dynamic mode decomposition are assembled into neighboring-cell e
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

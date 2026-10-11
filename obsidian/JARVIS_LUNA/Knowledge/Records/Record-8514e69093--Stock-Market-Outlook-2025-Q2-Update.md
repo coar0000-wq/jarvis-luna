@@ -2,8 +2,14 @@
 title: "Record 8514e69093 · Stock-Market-Outlook-2025-Q2-Update"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.534088+00:00
+updated_at: 2026-10-11T00:55:50.977971+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/stock-market-outlook-2025-q2-update"
+kind: "발표물"
 ---
 
 # Record 8514e69093 · Stock-Market-Outlook-2025-Q2-Update
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Stock Market Outlook 2025 Q2 Update
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

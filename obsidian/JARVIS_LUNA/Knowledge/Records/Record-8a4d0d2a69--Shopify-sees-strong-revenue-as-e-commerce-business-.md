@@ -2,8 +2,12 @@
 title: "Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.530058+00:00
+updated_at: 2026-10-11T00:55:36.080966+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify", "물류통관"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUERsXzJfMWd0N1FpbkNkQjFuNnRIX192aFdMOVFlVWJTT1dzMEJYZFB3bzNRdHJnTlZjNXdmc2xkSWxRNWpHMHZTYjVLT3lmME1mRktoSXZCYzJyZkYxa0FyS2I3ZUx4d29hNnh4bG5fUS1vb3kzNWVXZWdPVWJKNnY4SXVhTlBybmJjYlZKaXBYbFpXLWwyWmU2ay1Zb1M2RkhlcjNMZkhJdTJ0NUZsY09kN2tya0dZ?oc=5"
 ---
 
 # Record 8a4d0d2a69 · Shopify-sees-strong-revenue-as-e-commerce-business-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify sees strong revenue as e-commerce business grows despite tariff gloom - Reuters
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

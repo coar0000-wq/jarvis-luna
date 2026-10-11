@@ -2,8 +2,14 @@
 title: "Record b0b2e6cb15 · Top-5-System-Table-Queries-for-Understanding-Your-Databricks-Costs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.444930+00:00
+updated_at: 2026-10-11T00:55:49.142790+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/top-5-system-table-queries-understanding-your-databricks-costs"
+kind: "발표물"
 ---
 
 # Record b0b2e6cb15 · Top-5-System-Table-Queries-for-Understanding-Your-Databricks-Costs
@@ -16,7 +22,3 @@ Top 5 System Table Queries for Understanding Your Databricks Costs
 Databricks&nbsp;system tables provide a wealth of information into how you use Databricks and what it costs....
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

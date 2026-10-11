@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.399939+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution"
 ---
 
 # Record 805 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Low-Latency-and-High-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AMD and Cerebras Announce Industry-Leading Ultra-Low-Latency and High Throughput AI Inference Solution
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

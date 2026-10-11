@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.387588+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA67698081"
 ---
 
 # Record 1925 · REJURAN-Turnover-Ampoule-101-fl-oz30ml
@@ -16,7 +20,3 @@ REJURAN Turnover Ampoule 1.01 fl. oz.(30ml)
 REJURAN Turnover Ampoule 1.01 fl. oz.(30ml) · 평점 5 · 리뷰 9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record b98a3d7ac9 · Sorry-Clean-Girl-Messy-Hair--Makeup-Is-Back---The-Z"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.209594+00:00
+updated_at: 2026-10-11T00:55:30.370427+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnb211dGNSVE4tVHpGVXpUYVNNdDZCcGdtYi0tb2l2TnVGLWRVZklSOGl5b0U3bnJQRzRNV3FLTEQ0VktXejBDWTJBRWtaTkp6SXBDc2VZMW1mU2cxWjhYcHhWV0t5Zm1EME9z?oc=5"
 ---
 
 # Record b98a3d7ac9 · Sorry-Clean-Girl-Messy-Hair--Makeup-Is-Back---The-Z
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Sorry "Clean Girl," Messy Hair & Makeup Is Back - The Zoe Report
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.969401+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=NgjMvYwfxs4"
 ---
 
 # Record 927 · Guangzhou-isnt-just-a-city-to-visit-Its-also-a-city-to-source
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Guangzhou isn't just a city to visit. It's also a city to source. 🇨🇳
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

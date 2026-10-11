@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.836149+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.parco.2021.102840"
 ---
 
 # Record 413 · Porting-hypre-to-heterogeneous-computer-architectures-Strategies-and-e
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Porting hypre to heterogeneous computer architectures: Strategies and experiences
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

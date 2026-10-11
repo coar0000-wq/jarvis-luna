@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.351346+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어", "데이터분석"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/9GBLlfK-soY"
 ---
 
 # Record 2043 · 화장품-성분-분석-안심하고-내려놓았다가-피부-망합니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 화장품 성분 분석, 안심하고 내려놓았다가 피부 망합니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

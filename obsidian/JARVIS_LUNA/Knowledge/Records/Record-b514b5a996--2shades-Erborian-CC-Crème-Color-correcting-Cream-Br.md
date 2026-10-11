@@ -2,8 +2,12 @@
 title: "Record b514b5a996 · 2shades-Erborian-CC-Crème-Color-correcting-Cream-Broad-Spectrum-SPF-25"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.858628+00:00
+updated_at: 2026-10-11T00:55:41.154403+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA87862216"
 ---
 
 # Record b514b5a996 · 2shades-Erborian-CC-Crème-Color-correcting-Cream-Broad-Spectrum-SPF-25
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2shades] Erborian CC Crème Color-correcting Cream Broad Spectrum SPF 25 Sunscreen With Centella Asiatica 0.5 oz.(15ml) · 평점 5 · 리뷰 1
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

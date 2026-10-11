@@ -2,8 +2,14 @@
 title: "Record 5b628cf00f · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Netwo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.274764+00:00
+updated_at: 2026-10-11T00:55:15.949186+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "의료바이오", "투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s10278-026-02155-z"
+kind: "논문"
 ---
 
 # Record 5b628cf00f · CMB-Net-A-Clinically-Modulated-Boundary-Aware-Netwo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 CMB-Net: A Clinically Modulated Boundary-Aware Network for Anatomical Segmentation of the Cervical Transformation Zone in Colposcopy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[의료바이오]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record ed3447e6de · Centering-Knowledge-Along-the-Responsible-LLM-Supply-Chain-An-Empirica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.478775+00:00
+updated_at: 2026-10-11T00:55:19.469246+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3816909"
+kind: "논문"
 ---
 
 # Record ed3447e6de · Centering-Knowledge-Along-the-Responsible-LLM-Supply-Chain-An-Empirica
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Centering Knowledge Along the Responsible LLM Supply Chain: An Empirical Study & Multi-Stakeholder Taxonomy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

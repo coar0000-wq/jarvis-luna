@@ -2,8 +2,14 @@
 title: "Record 1c1ce99e45 · Unified-Workload-Management-Through-Kubernetes-Nati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.926785+00:00
+updated_at: 2026-10-11T00:55:26.050384+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18433800"
+kind: "논문"
 ---
 
 # Record 1c1ce99e45 · Unified-Workload-Management-Through-Kubernetes-Nati
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Unified Workload Management Through Kubernetes-Native APIs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

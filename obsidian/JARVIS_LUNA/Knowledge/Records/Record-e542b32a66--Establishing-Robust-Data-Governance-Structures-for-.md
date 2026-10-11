@@ -2,8 +2,14 @@
 title: "Record e542b32a66 · Establishing-Robust-Data-Governance-Structures-for-Artificial-Intellig"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.926199+00:00
+updated_at: 2026-10-11T00:55:26.040491+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "인프라클라우드", "투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18276908"
+kind: "논문"
 ---
 
 # Record e542b32a66 · Establishing-Robust-Data-Governance-Structures-for-Artificial-Intellig
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Establishing Robust Data Governance Structures for Artificial Intelligence Deployment in Financial Institutions: A Compliance and Trust Perspective
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[인프라클라우드]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

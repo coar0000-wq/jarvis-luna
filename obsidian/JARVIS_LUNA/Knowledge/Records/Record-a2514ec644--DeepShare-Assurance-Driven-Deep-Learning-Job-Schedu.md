@@ -2,8 +2,12 @@
 title: "Record a2514ec644 · DeepShare-Assurance-Driven-Deep-Learning-Job-Scheduling-for-Multi-Tena"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.104964+00:00
+updated_at: 2026-10-11T00:55:13.681382+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16682"
 ---
 
 # Record a2514ec644 · DeepShare-Assurance-Driven-Deep-Learning-Job-Scheduling-for-Multi-Tena
@@ -16,7 +20,3 @@ DeepShare: Assurance-Driven Deep Learning Job Scheduling for Multi-Tenant Cluste
 Multi-tenant GPU clusters frequently remain underutilized even when tenants experience long queueing delays, because quota control, queue ordering, preemption, and GPU sharing are driven by different local signals. We present DeepShare, a scheduler that uses a continuous tenant-assurance signal to coordinate these decisions at runtime. DeepShare combines elastic quota borrowing, tenant-specific ru
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

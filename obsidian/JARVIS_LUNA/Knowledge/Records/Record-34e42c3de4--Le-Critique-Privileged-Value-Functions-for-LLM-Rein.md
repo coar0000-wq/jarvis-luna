@@ -2,8 +2,14 @@
 title: "Record 34e42c3de4 · Le-Critique-Privileged-Value-Functions-for-LLM-Reinforcement-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.660551+00:00
+updated_at: 2026-10-11T00:55:22.642816+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "머신러닝-연구", "AI-에이전트"]
+org: "Mistral AI"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2608.16739"
+kind: "논문"
 ---
 
 # Record 34e42c3de4 · Le-Critique-Privileged-Value-Functions-for-LLM-Reinforcement-Learning
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Le Critique: Privileged Value Functions for LLM Reinforcement Learning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

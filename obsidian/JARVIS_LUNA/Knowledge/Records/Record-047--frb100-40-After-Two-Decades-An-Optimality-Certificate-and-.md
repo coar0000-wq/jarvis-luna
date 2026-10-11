@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.789359+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.02804v1"
 ---
 
 # Record 047 · frb100-40-After-Two-Decades-An-Optimality-Certificate-and-a-Preregiste
@@ -15,7 +19,3 @@ tags: [record, real-data]
 frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

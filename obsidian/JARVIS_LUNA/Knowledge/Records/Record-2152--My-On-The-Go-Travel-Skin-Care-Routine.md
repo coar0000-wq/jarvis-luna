@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.375573+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=P5mJOa_AAHs"
 ---
 
 # Record 2152 · My-On-The-Go-Travel-Skin-Care-Routine
@@ -15,7 +19,3 @@ tags: [record, real-data]
 My On-The-Go Travel Skin Care Routine ✨
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

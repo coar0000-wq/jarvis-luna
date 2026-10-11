@@ -2,8 +2,14 @@
 title: "Record 24751db50f · Lissajous-coherent-states-via-projection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.664347+00:00
+updated_at: 2026-10-11T00:55:37.847457+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "openalex.org"
+url: "https://openalex.org/W7133365071"
+kind: "논문"
 ---
 
 # Record 24751db50f · Lissajous-coherent-states-via-projection
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Lissajous coherent states via projection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

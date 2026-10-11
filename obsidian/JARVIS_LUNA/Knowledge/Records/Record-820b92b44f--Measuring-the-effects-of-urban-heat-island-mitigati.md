@@ -2,8 +2,14 @@
 title: "Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.335621+00:00
+updated_at: 2026-10-11T00:55:16.934863+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.uclim.2016.02.003"
+kind: "논문"
 ---
 
 # Record 820b92b44f · Measuring-the-effects-of-urban-heat-island-mitigati
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Measuring the effects of urban heat island mitigation techniques in the field: Application to the case of pavement-watering in Paris
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.047592+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lT3ljYVpOMUlXTXZySzh1cllERmtsQU5GbExxbHg1c2NlOGx5TXNaRDVWTDA5NldINDltLWxxTUFoUHotdHhoLU5hZmdJU3F3NWVINlpKRy1FRHU0REVZS0l6NUptYUFUSDcyZnlzUXRBT003V201cFBFbVV1QQ?oc=5"
 ---
 
 # Record 1242 · Glow-up-K-beauty-launches-at-the-Okinawa-Exchange---Stripes-Okinawa
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Glow up: K-beauty launches at the Okinawa Exchange - Stripes Okinawa
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

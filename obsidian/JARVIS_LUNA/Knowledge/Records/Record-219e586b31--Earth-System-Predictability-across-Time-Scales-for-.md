@@ -2,8 +2,14 @@
 title: "Record 219e586b31 · Earth-System-Predictability-across-Time-Scales-for-a-Resilient-Society"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.486529+00:00
+updated_at: 2026-10-11T00:55:19.604936+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1175/bams-d-24-0155.1"
+kind: "논문"
 ---
 
 # Record 219e586b31 · Earth-System-Predictability-across-Time-Scales-for-a-Resilient-Society
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Earth System Predictability across Time Scales for a Resilient Society: A Research Community Perspective
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

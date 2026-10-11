@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.868929+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/hd-GYNnp8eY"
 ---
 
 # Record 2426 · K-Beauty-Twins-Which-One-Wins
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty Twins: Which One Wins? 👀
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

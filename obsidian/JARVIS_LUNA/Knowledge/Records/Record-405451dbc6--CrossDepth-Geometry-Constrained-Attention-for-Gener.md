@@ -2,8 +2,12 @@
 title: "Record 405451dbc6 · CrossDepth-Geometry-Constrained-Attention-for-Gener"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.979867+00:00
+updated_at: 2026-10-11T00:55:12.215479+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05397v1"
 ---
 
 # Record 405451dbc6 · CrossDepth-Geometry-Constrained-Attention-for-Gener
@@ -16,7 +20,3 @@ CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround
 Reliable 3D understanding of the surrounding environment is a core requirement for autonomous driving. Multi-view surround camera rigs provide broad scene coverage, but the spatially adjacent images typically overlap only minimally. Consequently, the depth of most pixels must be inferred from monocular appearance cues. These cues can appear differently across images and may therefore be interprete
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

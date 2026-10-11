@@ -2,8 +2,12 @@
 title: "Record 9e91ef7801 · LightMIS-Ultra-Lightweight-Medical-Image-Segmentation-Without-a-Stage-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.189635+00:00
+updated_at: 2026-10-11T00:55:14.735181+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.28327"
 ---
 
 # Record 9e91ef7801 · LightMIS-Ultra-Lightweight-Medical-Image-Segmentation-Without-a-Stage-
@@ -16,7 +20,3 @@ LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Deco
 We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmentation without a learned stage-wise decoder. LightMIS aligns the outputs of a five-level encoder to a common resolution using Scale-Aligned Projection blocks, aggregates them once, and refines the fused representation with an Adaptive Fusion Cascade. The cascade combines Adaptive Ke
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

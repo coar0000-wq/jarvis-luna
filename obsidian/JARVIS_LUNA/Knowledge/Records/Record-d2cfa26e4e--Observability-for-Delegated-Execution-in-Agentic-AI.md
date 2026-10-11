@@ -2,8 +2,14 @@
 title: "Record d2cfa26e4e · Observability-for-Delegated-Execution-in-Agentic-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.681632+00:00
+updated_at: 2026-10-11T00:55:38.206898+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Splunk"
+domain: "openalex.org"
+url: "https://openalex.org/W7164234267"
+kind: "논문"
 ---
 
 # Record d2cfa26e4e · Observability-for-Delegated-Execution-in-Agentic-AI
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Observability for Delegated Execution in Agentic AI Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 661a3c8ac1 · Tech-Startups-Insiders-Lessons-For-Growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.519711+00:00
+updated_at: 2026-10-11T00:55:50.639759+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/tech-startups-insiders-lessons-for-growth"
+kind: "발표물"
 ---
 
 # Record 661a3c8ac1 · Tech-Startups-Insiders-Lessons-For-Growth
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Tech Startups Insiders Lessons For Growth
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

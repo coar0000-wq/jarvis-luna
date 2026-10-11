@@ -2,8 +2,12 @@
 title: "Record d78a24ee63 · How-Brands-Use-AI-Examples-and-Strategies-2025---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.155733+00:00
+updated_at: 2026-10-11T00:55:29.443957+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WeXNFMmFRRHp4ODQ4QkFHVjlvSlNXMmxGYkZiNFVkMFN5MVBIMFMzQWpON1dqVWRVSWVYNFRIaW11blhLUkRHTlgtVTRTazZISGdJNmZrMlpoUQ?oc=5"
 ---
 
 # Record d78a24ee63 · How-Brands-Use-AI-Examples-and-Strategies-2025---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How Brands Use AI: Examples and Strategies (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

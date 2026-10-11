@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.257210+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/YPvfFqVRNBY"
 ---
 
 # Record 2016 · 비누-클렌저-진짜-잘-지워질까-브러시퍼프-세척-비교
@@ -15,7 +19,3 @@ tags: [record, real-data]
 비누 클렌저 진짜 잘 지워질까? 브러시·퍼프 세척 비교
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

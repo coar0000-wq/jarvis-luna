@@ -2,8 +2,14 @@
 title: "Record e8c6d0f8bf · Discovery-of-a-millisecond-pulsar-with-a-CO-white-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.280158+00:00
+updated_at: 2026-10-11T00:55:16.047366+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s11433-026-2951-1"
+kind: "논문"
 ---
 
 # Record e8c6d0f8bf · Discovery-of-a-millisecond-pulsar-with-a-CO-white-d
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Discovery of a millisecond pulsar with a CO white dwarf companion
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.648500+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Intel"
+domain: "openalex.org"
+url: "https://openalex.org/W7170111931"
 ---
 
 # Record 1777 · Planning-with-Transformers-Chain-of-Computation-and-Structured-Context
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Planning with Transformers: Chain of Computation and Structured Context Windows
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

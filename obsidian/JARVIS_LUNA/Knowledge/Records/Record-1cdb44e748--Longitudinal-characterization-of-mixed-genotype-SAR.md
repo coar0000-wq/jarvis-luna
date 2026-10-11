@@ -2,8 +2,14 @@
 title: "Record 1cdb44e748 · Longitudinal-characterization-of-mixed-genotype-SARS-CoV-2-infections-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.467082+00:00
+updated_at: 2026-10-11T00:55:19.238767+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1128/spectrum.01806-26"
+kind: "논문"
 ---
 
 # Record 1cdb44e748 · Longitudinal-characterization-of-mixed-genotype-SARS-CoV-2-infections-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Longitudinal characterization of mixed-genotype SARS-CoV-2 infections in a military cohort reveals compartmentalized viral populations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

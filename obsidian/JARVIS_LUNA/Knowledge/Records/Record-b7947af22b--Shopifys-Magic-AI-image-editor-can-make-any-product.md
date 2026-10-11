@@ -2,8 +2,12 @@
 title: "Record b7947af22b · Shopifys-Magic-AI-image-editor-can-make-any-product"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.328506+00:00
+updated_at: 2026-10-11T00:55:32.549622+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "컴퓨터-비전"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVENRc1gxblpKd1lmSzcySnJpWEZaMUd1UDlzQnRmdDQ0YlgzZkJVSDJuOG5KTHpEbWg2MzN6bDF2VEpuT2c1TU9yVUs2VFBkU1c5Z3V2czNxbnlwQ1JhX0cweDYtbzdSbmE2VzlLdGFsckhkLUdWRDh6aEdCWk90U05n?oc=5"
 ---
 
 # Record b7947af22b · Shopifys-Magic-AI-image-editor-can-make-any-product
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify’s “Magic” AI image editor can make any product pics look professional - The Verge
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

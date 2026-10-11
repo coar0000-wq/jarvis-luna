@@ -2,8 +2,14 @@
 title: "Record e82e06b549 · Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.644410+00:00
+updated_at: 2026-10-11T00:55:22.391565+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.26633"
+kind: "논문"
 ---
 
 # Record e82e06b549 · Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-systems
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Simulating Unified Tensor Resharding in heterogeneous AI systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

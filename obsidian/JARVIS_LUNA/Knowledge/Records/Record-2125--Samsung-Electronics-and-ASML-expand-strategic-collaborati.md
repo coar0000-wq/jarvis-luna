@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.095959+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/press-releases/2026/samsung-electronics-and-asml-expand-collaboration-on-next-generation-semiconductor-manufacturing"
 ---
 
 # Record 2125 · Samsung-Electronics-and-ASML-expand-strategic-collaboration-for-next-g
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Samsung Electronics and ASML expand strategic collaboration for next-generation semiconductor manufacturing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

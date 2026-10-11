@@ -2,8 +2,14 @@
 title: "Record cb26cd2e8d · Recursive-Learning-of-Feedforward-and-Compliance-Compensation-Paramete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.635464+00:00
+updated_at: 2026-10-11T00:55:22.164080+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.03533"
+kind: "논문"
 ---
 
 # Record cb26cd2e8d · Recursive-Learning-of-Feedforward-and-Compliance-Compensation-Paramete
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Recursive Learning of Feedforward and Compliance Compensation Parameters for Precision Motion Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

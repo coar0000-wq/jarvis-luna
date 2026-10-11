@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.455792+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=QFzaILBfg9o"
 ---
 
 # Record 2143 · Proven-Ways-To-Make-10KMonth-With-AI-No-BS-Guide
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Proven Ways To Make $10K/Month With AI (No-BS Guide)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

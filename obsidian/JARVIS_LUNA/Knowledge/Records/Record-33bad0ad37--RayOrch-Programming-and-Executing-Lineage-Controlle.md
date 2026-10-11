@@ -2,8 +2,12 @@
 title: "Record 33bad0ad37 · RayOrch-Programming-and-Executing-Lineage-Controlled-Multi-Grain-Dataf"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.131062+00:00
+updated_at: 2026-10-11T00:55:13.972362+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "머신러닝-연구", "반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.18703"
 ---
 
 # Record 33bad0ad37 · RayOrch-Programming-and-Executing-Lineage-Controlled-Multi-Grain-Dataf
@@ -16,7 +20,3 @@ RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for 
 Preparing high quality training data for foundation models requires scalable pipelines that transform heterogeneous documents and videos into structured records. Such pipelines expand each parent item into an ordered and input dependent sequence of children, whose counts may be long tailed. GPUs should batch children across parents while preserving parent relationships, child order, completion sta
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[머신러닝-연구]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

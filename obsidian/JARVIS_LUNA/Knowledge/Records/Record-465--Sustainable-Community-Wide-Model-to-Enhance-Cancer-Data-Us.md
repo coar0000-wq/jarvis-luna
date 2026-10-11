@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.503366+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1200/cci-26-00123"
 ---
 
 # Record 465 · Sustainable-Community-Wide-Model-to-Enhance-Cancer-Data-Usage-and-Util
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Sustainable Community-Wide Model to Enhance Cancer Data Usage and Utility
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

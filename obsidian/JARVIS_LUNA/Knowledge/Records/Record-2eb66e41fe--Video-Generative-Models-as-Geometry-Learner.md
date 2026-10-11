@@ -2,8 +2,12 @@
 title: "Record 2eb66e41fe · Video-Generative-Models-as-Geometry-Learner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.911435+00:00
+updated_at: 2026-10-11T00:55:11.316662+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28549v1"
 ---
 
 # Record 2eb66e41fe · Video-Generative-Models-as-Geometry-Learner
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Video Generative Models as Geometry Learner
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

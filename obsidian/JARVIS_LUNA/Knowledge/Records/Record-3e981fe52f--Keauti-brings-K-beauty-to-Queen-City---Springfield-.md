@@ -2,8 +2,12 @@
 title: "Record 3e981fe52f · Keauti-brings-K-beauty-to-Queen-City---Springfield-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.273514+00:00
+updated_at: 2026-10-11T00:55:31.498449+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZVhLTzJCdjNtajVENC16TEVSempfaks3T0Nmc1FJcExOdGlpSFpxSk9pb2drUHAtQ1cyc0c1amRsLUZQWmlFXzM5cW5DczVsRExKMENRbDdqOGNEVUFCaDdfNXNsRGxnOWU5d2xxcHVxYWd3Tnc?oc=5"
 ---
 
 # Record 3e981fe52f · Keauti-brings-K-beauty-to-Queen-City---Springfield-
@@ -16,7 +20,3 @@ Keauti brings K-beauty to Queen City - Springfield Business Journal
 Keauti brings K-beauty to Queen City - Springfield Business Journal
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

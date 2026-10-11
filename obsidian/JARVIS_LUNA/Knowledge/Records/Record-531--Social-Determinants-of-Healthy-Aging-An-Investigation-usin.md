@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.378464+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1101/2025.01.02.25319907"
 ---
 
 # Record 531 · Social-Determinants-of-Healthy-Aging-An-Investigation-using-the-All-of
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Social Determinants of Healthy Aging: An Investigation using the All of Us Cohort
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

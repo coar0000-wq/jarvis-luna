@@ -2,8 +2,12 @@
 title: "Record a181b82830 · Selective-Agent-Guidance-via-Entropy-Learning-Auton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.916576+00:00
+updated_at: 2026-10-11T00:55:11.428858+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01567v1"
 ---
 
 # Record a181b82830 · Selective-Agent-Guidance-via-Entropy-Learning-Auton
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

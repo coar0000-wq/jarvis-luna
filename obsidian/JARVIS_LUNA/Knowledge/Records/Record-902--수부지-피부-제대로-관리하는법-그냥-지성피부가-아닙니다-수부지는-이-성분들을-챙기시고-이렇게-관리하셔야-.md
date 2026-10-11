@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.966680+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=4K-qZwGcsEs"
 ---
 
 # Record 902 · 수부지-피부-제대로-관리하는법-그냥-지성피부가-아닙니다-수부지는-이-성분들을-챙기시고-이렇게-관리하셔야-합니다
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 ❗️수부지 피부 제대로 관리하는법❗️ 그냥 지성피부가 아닙니다. 수부지는 이 성분들을 챙기시고 이렇게 관리하셔야 합니다.
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 6edb0f179f · Nail-Defense-Strengthening-Protein-Treatment-by-Orly-for-Women---06-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.674442+00:00
+updated_at: 2026-10-11T00:55:53.303849+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Nail-Defense-Strengthening-Protein-Treatment-by-Orly-for-Women-0-6-oz-Nail-Polish/52397152"
 ---
 
 # Record 6edb0f179f · Nail-Defense-Strengthening-Protein-Treatment-by-Orly-for-Women---06-oz
@@ -16,7 +20,3 @@ Nail Defense Strengthening Protein Treatment by Orly for Women - 0.6 oz Nail Pol
 Nail Defense Strengthening Protein Treatment by Orly for Women - 0.6 oz Nail Polish · 평점 4.7 · 리뷰 59
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

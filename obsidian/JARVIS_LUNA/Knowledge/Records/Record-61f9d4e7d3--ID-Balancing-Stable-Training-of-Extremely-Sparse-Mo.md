@@ -2,8 +2,12 @@
 title: "Record 61f9d4e7d3 · ID-Balancing-Stable-Training-of-Extremely-Sparse-MoE-via-PID-Based-Loa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.904097+00:00
+updated_at: 2026-10-11T00:55:25.715484+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "모델-라우팅MoE", "머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.39137"
 ---
 
 # Record 61f9d4e7d3 · ID-Balancing-Stable-Training-of-Extremely-Sparse-MoE-via-PID-Based-Loa
@@ -16,7 +20,3 @@ ID Balancing: Stable Training of Extremely Sparse MoE via PID-Based Load Control
 Scaling Large Language Models (LLMs) via Mixture-of-Experts (MoE) enables massive parameter growth with nearly constant per-token computation. However, further scaling the parameter count requires increasingly sparse routing, where expert load imbalance becomes more severe. This imbalance reduces parameter utilization and training efficiency, and can undermine training stability, becoming a bottle
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

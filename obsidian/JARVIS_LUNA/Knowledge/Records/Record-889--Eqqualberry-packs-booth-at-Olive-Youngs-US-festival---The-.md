@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.421810+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1Vk4yOXVtM1N4YzdiUFZPYldkeG5kR2FhUWExd3ZkZjd2MFo1YW9KSjlfUkZ2anNUSnhYME9IUGxjNHZhNk1XdlVFSERiVWVwUURPa0E4TQ?oc=5"
 ---
 
 # Record 889 · Eqqualberry-packs-booth-at-Olive-Youngs-US-festival---The-Korea-Herald
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Eqqualberry packs booth at Olive Young's US festival - The Korea Herald
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

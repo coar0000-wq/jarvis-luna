@@ -2,8 +2,14 @@
 title: "Record 3100940168 · Progress-in-Formalizing-Sphere-Packing-in-Dimension"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.671535+00:00
+updated_at: 2026-10-11T00:55:37.980400+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "openalex.org"
+url: "https://openalex.org/W7159546869"
+kind: "논문"
 ---
 
 # Record 3100940168 · Progress-in-Formalizing-Sphere-Packing-in-Dimension
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Progress in Formalizing Sphere Packing in Dimension 8
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 7eac37c4ee · LA-COLORS-Color-Craze-Nail-Polish-Tropical-Paradise-044-fl-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.670967+00:00
+updated_at: 2026-10-11T00:55:53.252487+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/L-A-COLORS-Color-Craze-Nail-Polish-Tropical-Paradise-0-44-fl-oz/219702622"
 ---
 
 # Record 7eac37c4ee · LA-COLORS-Color-Craze-Nail-Polish-Tropical-Paradise-044-fl-oz
@@ -16,7 +20,3 @@ L.A. COLORS Color Craze Nail Polish, Tropical Paradise, 0.44 fl. oz
 L.A. COLORS Color Craze Nail Polish, Tropical Paradise, 0.44 fl. oz · 평점 4.5 · 리뷰 2,071
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

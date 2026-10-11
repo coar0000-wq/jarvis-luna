@@ -2,8 +2,12 @@
 title: "Record b347936a4f · 선크림-집에서도-필요할까-재도포는-언제-해야-할까"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.693241+00:00
+updated_at: 2026-10-11T00:55:53.681554+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/GpnRD6lOXB0"
 ---
 
 # Record b347936a4f · 선크림-집에서도-필요할까-재도포는-언제-해야-할까
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선크림, 집에서도 필요할까? 재도포는 언제 해야 할까?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

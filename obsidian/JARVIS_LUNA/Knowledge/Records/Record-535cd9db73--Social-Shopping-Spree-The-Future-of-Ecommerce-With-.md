@@ -2,8 +2,12 @@
 title: "Record 535cd9db73 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.417983+00:00
+updated_at: 2026-10-11T00:55:34.120001+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV2dlR0Y0N3IyV19zQXZiQlJWUC1OYllzeFR2SDE3amp0LWtOX2ZQcksxUDVhaGhsVXNHVUQxZURwUWlhUVFlWlpuU1NCQV94dzE0ZFdpN3JTYzZJcmpvbGR6VnN4eDJsN0h6c0NFcnpkbng0cjk1bjc0dTRDYzFBdmlseUhuTWtORmU2Q0I3ZGFkTC1WVHc?oc=5"
 ---
 
 # Record 535cd9db73 · Social-Shopping-Spree-The-Future-of-Ecommerce-With-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Social Shopping Spree: The Future of Ecommerce With Shopify - ADWEEK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

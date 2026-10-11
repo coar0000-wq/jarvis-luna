@@ -2,8 +2,14 @@
 title: "Record e27c8c8be6 · Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.692934+00:00
+updated_at: 2026-10-11T00:55:38.440728+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7168054722"
+kind: "논문"
 ---
 
 # Record e27c8c8be6 · Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Toward a Unified GPU-Aware OpenSHMEM Specification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

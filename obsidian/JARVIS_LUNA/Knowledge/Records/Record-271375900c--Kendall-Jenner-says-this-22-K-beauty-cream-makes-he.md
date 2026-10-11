@@ -2,8 +2,12 @@
 title: "Record 271375900c · Kendall-Jenner-says-this-22-K-beauty-cream-makes-her-skin-hydrated-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.479578+00:00
+updated_at: 2026-10-11T00:55:35.163937+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNmlmOFIySUJfMXJNM1JTaHRPSDBRbExoSjBsN2pxZGRVMlFaSHpvMnY0RWUtS0Ytb2Q2YVBlWWFHTS1DWTNWQlV4NHJBVHNSWXE3azR1Y2VEZ0lGWVhrYldNZHdqbzlhREMxZzFYUXNRLWt4NXJiOGpMMTBoSm1teTBXcnZPaXhjSURoNkVZRkVsSllPRXFldWtJZGtYZF9MOUM3NA?oc=5"
 ---
 
 # Record 271375900c · Kendall-Jenner-says-this-22-K-beauty-cream-makes-her-skin-hydrated-and
@@ -16,7 +20,3 @@ Kendall Jenner says this $22 K-beauty cream makes her skin ‘hydrated and plump
 Kendall Jenner says this $22 K-beauty cream makes her skin ‘hydrated and plump’ - Page Six
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record a23a8bde76 · CodeScout-Contextual-Problem-Statement-Enhancement-for-Software-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.664985+00:00
+updated_at: 2026-10-11T00:55:37.855723+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "openalex.org"
+url: "https://openalex.org/W7134291120"
+kind: "논문"
 ---
 
 # Record a23a8bde76 · CodeScout-Contextual-Problem-Statement-Enhancement-for-Software-Agents
@@ -15,7 +21,3 @@ tags: [record, real-data]
 CodeScout: Contextual Problem Statement Enhancement for Software Agents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

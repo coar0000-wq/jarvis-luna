@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.604115+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-introduces-new-ai-platform-find-fix-cybersecurity"
 ---
 
 # Record 901 · Leidos-introduces-new-AI-platform-to-find-fix-cybersecurity-vulnerabil
@@ -16,7 +21,3 @@ Leidos introduces new AI platform to find, fix cybersecurity vulnerabilities
 RESTON, Va., July 29, 2026 /PRNewswire/ -- Government and commercial organizations could soon thwart potential cybersecurity threats by deploying Parcata ™, a proprietary platform Leidos &nbsp;(NYSE: LDOS) has developed to autonomously find and fix software vulnerabilities.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

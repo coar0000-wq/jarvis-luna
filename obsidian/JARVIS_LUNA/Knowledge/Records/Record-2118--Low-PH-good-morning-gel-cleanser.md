@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.803252+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/8809416470511"
 ---
 
 # Record 2118 · Low-PH-good-morning-gel-cleanser
@@ -16,7 +20,3 @@ Low PH good morning gel cleanser
 Low PH good morning gel cleanser · COSRX
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

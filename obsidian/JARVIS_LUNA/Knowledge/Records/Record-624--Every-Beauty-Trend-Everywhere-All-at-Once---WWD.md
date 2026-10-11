@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.892852+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxPYWJpY3E5UnZsMXdhbENheTdYUGJIWnBkOXE5SnBVekRYakgyRWxMUW9scVpUaTllZXlTbVU4dFRKNFBLZjlLbERNY0RKOXVadjA4bTd3LWtya2tWU3lUZXk0ZUgwaXYxWW9QVWFubG5acDdycXppMzFCa0dXaTNlbDhNdHNUeFBmaEpteDU0c3BsTExIem9vRXpRVk5SQQ?oc=5"
 ---
 
 # Record 624 · Every-Beauty-Trend-Everywhere-All-at-Once---WWD
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Every Beauty Trend, Everywhere, All at Once - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 7e616c1c8d · Ulta-Beauty-Is-Using-Flock-Cameras-at-Some-Stores"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.945322+00:00
+updated_at: 2026-10-11T00:55:42.630335+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/ulta-beauty-flock-petition"
 ---
 
 # Record 7e616c1c8d · Ulta-Beauty-Is-Using-Flock-Cameras-at-Some-Stores
@@ -16,7 +20,3 @@ Ulta Beauty Is Using Flock Cameras at Some Stores
 Ulta Beauty Is Using Flock Cameras at Some Stores
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 279e75999c · Short-Term-Traffic-Speed-Prediction-Integrating-Traffic-Flow-Theory-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.378238+00:00
+updated_at: 2026-10-11T00:55:17.699795+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1061/jtepbs.teeng-9834"
+kind: "논문"
 ---
 
 # Record 279e75999c · Short-Term-Traffic-Speed-Prediction-Integrating-Traffic-Flow-Theory-fo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Short-Term Traffic Speed Prediction Integrating Traffic Flow Theory for Enhanced Urban Congestion Mitigation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

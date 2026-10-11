@@ -2,8 +2,12 @@
 title: "Record 8ae86a22bb · How-does-Comet-Browser-work"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.697940+00:00
+updated_at: 2026-10-11T00:55:53.763434+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/R0ChNbraQ2M"
 ---
 
 # Record 8ae86a22bb · How-does-Comet-Browser-work
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How does Comet Browser work?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

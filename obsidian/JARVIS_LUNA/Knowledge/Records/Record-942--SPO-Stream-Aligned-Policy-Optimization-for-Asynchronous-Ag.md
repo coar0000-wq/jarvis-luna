@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:52:06.343083+00:00
 tags: [{', '.join(tags)}]
+source: "arXiv"
+topics: ["Machine-Learning-Research", "AI-Agents"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.24870v1"
 ---
 
 # Record 942 · SPO-Stream-Aligned-Policy-Optimization-for-Asynchronous-Agentic-RL
@@ -16,7 +20,3 @@ SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL
 Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens one advantage per trajectory before optimizing a token-mean actor loss. We show that trajectory centering generally does not center the token-weighted quantity consumed by the actor, and fix the mismatch by standardizing terminal-outcome advantages under the action-token measure. We additionally organize prompt evidence by the policy event that generated it rather than learner receipt order. Across matched runs on ALFWorld at two model scales and on Math-TIR, SPO++ improves online learning efficiency over SPO. A paired ablation identifies action-token-measure normalization as the strongest tested component.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[Machine-Learning-Research]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

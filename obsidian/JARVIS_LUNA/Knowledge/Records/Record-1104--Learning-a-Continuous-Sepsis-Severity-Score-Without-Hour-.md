@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.342097+00:00
 tags: [knowledge-graph, record, arxiv]
+source: "arXiv"
+topics: ["AI-Image-Generation", "Machine-Learning-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27421v1"
 ---
 
 # Record 1104 · Learning-a-Continuous-Sepsis-Severity-Score-Without-Hour-by-Hour-Super
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, arxiv]
 Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Image-Generation]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]

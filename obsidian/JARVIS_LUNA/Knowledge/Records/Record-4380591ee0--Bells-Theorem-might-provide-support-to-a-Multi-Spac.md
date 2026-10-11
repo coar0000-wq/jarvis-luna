@@ -2,8 +2,14 @@
 title: "Record 4380591ee0 · Bells-Theorem-might-provide-support-to-a-Multi-Spac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.949602+00:00
+updated_at: 2026-10-11T00:55:26.322308+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.20759276"
+kind: "논문"
 ---
 
 # Record 4380591ee0 · Bells-Theorem-might-provide-support-to-a-Multi-Spac
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Bell's Theorem might provide support to a Multi-Space-Times model of the Universe
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

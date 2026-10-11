@@ -2,8 +2,12 @@
 title: "Record c1877b34bd · White-Hair-Spray-Washable-Natural-Temporary-Hair-Dye-for-Kids-Hallowee"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.314214+00:00
+updated_at: 2026-10-11T00:55:47.303754+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/White-Washable-Natural-Temporary-Halloween/dp/B0HCT9VYZC/ref=zg_bsnr_g_beauty_d_sccl_41/133-1430941-0942154"
 ---
 
 # Record c1877b34bd · White-Hair-Spray-Washable-Natural-Temporary-Hair-Dye-for-Kids-Hallowee
@@ -16,7 +20,3 @@ White Hair Spray, Washable Natural Temporary Hair Dye for Kids Halloween | Tempo
 White Hair Spray, Washable Natural Temporary Hair Dye for Kids Halloween | Temporary Hair Dye Spray, Easy Wash Out. For Women Men. Halloween Party Cosplay Christmas. All Hair Types · $9.98 · 평점 3.9 · 리뷰 11
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

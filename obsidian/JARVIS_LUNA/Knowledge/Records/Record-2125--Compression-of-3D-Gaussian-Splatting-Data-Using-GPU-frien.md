@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.249895+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7169689229"
 ---
 
 # Record 2125 · Compression-of-3D-Gaussian-Splatting-Data-Using-GPU-friendly-Graphics-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Compression of 3D Gaussian Splatting Data Using GPU-friendly Graphics Texture Coding
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

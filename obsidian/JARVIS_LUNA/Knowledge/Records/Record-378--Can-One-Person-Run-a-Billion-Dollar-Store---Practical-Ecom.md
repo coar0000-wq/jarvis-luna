@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.689921+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSDRkUFRYRVd2ZmtmWG0weEUyS2NEMkxCMEFFQUJ0SmR5bTNOUGVQcDgtcFpvV2laRkVvR3ZPdXg4bjRCNy1iU0VHQkQtOFE3T3hLck1VVmI0ODNaUm1sZTloQjNQc3RkYWlJQ0g2aVI1cWstQWJvR3MzcG51N0lrWmpn?oc=5"
 ---
 
 # Record 378 · Can-One-Person-Run-a-Billion-Dollar-Store---Practical-Ecommerce
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Can One Person Run a Billion-Dollar Store? - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

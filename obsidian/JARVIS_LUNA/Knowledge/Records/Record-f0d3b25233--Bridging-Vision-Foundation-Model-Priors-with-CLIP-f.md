@@ -2,8 +2,12 @@
 title: "Record f0d3b25233 · Bridging-Vision-Foundation-Model-Priors-with-CLIP-for-Spatial-aware-Fe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.087449+00:00
+updated_at: 2026-10-11T00:55:13.455955+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구", "컴퓨터-비전", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.12454"
 ---
 
 # Record f0d3b25233 · Bridging-Vision-Foundation-Model-Priors-with-CLIP-for-Spatial-aware-Fe
@@ -16,7 +20,3 @@ Bridging Vision Foundation Model Priors with CLIP for Spatial-aware Few-shot Ano
 Vision-Language Models such as CLIP enable effective few-shot medical anomaly detection (AD) via strong image-text semantic alignment. However, their globally contrastive pretraining lacks explicit spatial supervision, limiting precise lesion localization. In contrast, Vision Foundation Models (VFMs) such as DINO learn spatially coherent patch representations via self-distillation and local-to-glo
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

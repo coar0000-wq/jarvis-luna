@@ -2,8 +2,14 @@
 title: "Record a6e2f078f4 · SK-hynix-Launches-SK-hynix-Ventures-in-Silicon-Valley-to-Expand-Global"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.616956+00:00
+updated_at: 2026-10-11T00:55:37.139307+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/sk-hynix-ventures/"
+kind: "발표물"
 ---
 
 # Record a6e2f078f4 · SK-hynix-Launches-SK-hynix-Ventures-in-Silicon-Valley-to-Expand-Global
@@ -16,7 +22,3 @@ SK hynix Launches ‘SK hynix Ventures’ in Silicon Valley to Expand Global AI 
 ▪ CEO Kwak Noh-Jung and key executives, alongside global VCs and startup leaders, attend the inaugural ‘SK hynix Ventures Day’ in Silicon Valley ▪ Company to expand investments across the entire AI ecosystem ▪ Discussing strategies to strengthen partnerships with
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

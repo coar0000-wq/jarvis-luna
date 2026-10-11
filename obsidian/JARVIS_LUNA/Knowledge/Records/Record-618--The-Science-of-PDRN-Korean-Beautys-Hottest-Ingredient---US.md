@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.891812+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNeVJiV0puYy01YnJFZkxvdkVCQmhzcGZzMnk5NTZQTy1GMi1oVmlZSEdHMS1wLU5ZbVltLVdtdmtiX2Q2Y0tyZWJ0QkRoT0kzZHJPSW40dnN4OTZaNDh1N0dReEcycTJPRkRWbUV2X3BtVm5kM3Z3anN3dmMwNFN1WDBLZTd1QTZRNlhWTzJGMHdsNkduWmdWQ2ZncG5uZw?oc=5"
 ---
 
 # Record 618 · The-Science-of-PDRN-Korean-Beautys-Hottest-Ingredient---USC-Dornsife
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The Science of PDRN: Korean Beauty’s Hottest Ingredient - USC Dornsife
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

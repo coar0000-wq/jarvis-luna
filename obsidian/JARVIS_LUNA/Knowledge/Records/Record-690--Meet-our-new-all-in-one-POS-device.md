@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.097707+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/U5ULiaf4H1E"
 ---
 
 # Record 690 · Meet-our-new-all-in-one-POS-device
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Meet our new all-in-one POS device
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

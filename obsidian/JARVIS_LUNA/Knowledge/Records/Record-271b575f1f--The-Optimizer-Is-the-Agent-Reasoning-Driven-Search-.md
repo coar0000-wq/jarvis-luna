@@ -2,8 +2,14 @@
 title: "Record 271b575f1f · The-Optimizer-Is-the-Agent-Reasoning-Driven-Search-across-Prompts-Prog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.657490+00:00
+updated_at: 2026-10-11T00:55:22.606317+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "LLM언어모델", "데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2608.06714"
+kind: "논문"
 ---
 
 # Record 271b575f1f · The-Optimizer-Is-the-Agent-Reasoning-Driven-Search-across-Prompts-Prog
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

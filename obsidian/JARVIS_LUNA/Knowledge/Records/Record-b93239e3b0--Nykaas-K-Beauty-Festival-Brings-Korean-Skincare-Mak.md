@@ -2,8 +2,12 @@
 title: "Record b93239e3b0 · Nykaas-K-Beauty-Festival-Brings-Korean-Skincare-Makeup-And-Haircare-To"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.182128+00:00
+updated_at: 2026-10-11T00:55:29.932105+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ld0o1QXJ1QkNLM2dhWHQzSENJZl9LSERGd1B6ZlQ3OE5jMUkzVzJSd1FtYWs5dGJnc1M4Ump3MWFJNzI3QlktV2htMEwxNGxzZUFJUUJld0tPczNPaDBPTGFR?oc=5"
 ---
 
 # Record b93239e3b0 · Nykaas-K-Beauty-Festival-Brings-Korean-Skincare-Makeup-And-Haircare-To
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Nykaa’s K-Beauty Festival Brings Korean Skincare, Makeup And Haircare To Bengaluru - IFAB MEDIA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 5d85a58a2d · Lessons-learned-from-ongoing-coordination-between-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.694287+00:00
+updated_at: 2026-10-11T00:55:38.464263+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "openalex.org"
+url: "https://openalex.org/W7168329054"
+kind: "논문"
 ---
 
 # Record 5d85a58a2d · Lessons-learned-from-ongoing-coordination-between-N
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Lessons learned from ongoing coordination between NRAO/GBO and LEO NGSO satellite constellations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

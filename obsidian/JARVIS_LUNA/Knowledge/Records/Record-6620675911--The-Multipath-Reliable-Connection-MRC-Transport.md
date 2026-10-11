@@ -2,8 +2,14 @@
 title: "Record 6620675911 · The-Multipath-Reliable-Connection-MRC-Transport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.683243+00:00
+updated_at: 2026-10-11T00:55:38.251540+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "openalex.org"
+url: "https://openalex.org/W7165219839"
+kind: "논문"
 ---
 
 # Record 6620675911 · The-Multipath-Reliable-Connection-MRC-Transport
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Multipath Reliable Connection (MRC) Transport
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record d06d0ed857 · SAID-Semantic-Acoustic-Imaging-Detector-for-Sound-Event-Localization-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.843165+00:00
+updated_at: 2026-10-11T00:55:24.969983+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "음성오디오"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.31492"
 ---
 
 # Record d06d0ed857 · SAID-Semantic-Acoustic-Imaging-Detector-for-Sound-Event-Localization-a
@@ -16,7 +20,3 @@ SAID: Semantic Acoustic Imaging Detector for Sound Event Localization and Detect
 In daily life, people hear speech, footsteps, and music around them. We can often recognize these sounds and judge where they come from. Each sound source can be shown on a separate acoustic map, a rectangular image covering $360^{\circ}$ horizontally and $180^{\circ}$ vertically. The map shows the directions occupied by the source as a region and the sound energy within that region. A class label
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[음성오디오]] [[JARVIS Real Knowledge Index]]

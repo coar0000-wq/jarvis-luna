@@ -2,8 +2,12 @@
 title: "Record 56fa63c3da · The-5-Best-AI-Website-Builders-Available-in-2026---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.211102+00:00
+updated_at: 2026-10-11T00:55:30.402665+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xWklJODN3eHhVYnhrNDV1Ni12bU5JZUNXTTU1MHZWTWRYeEVkUWNjbWdyVDhDejloaVp6NGlCazFrQmVOenUtQVJJaTlqYzliUElqVS05eTFkaDdwaVlmRXU1SEVLR1Rz?oc=5"
 ---
 
 # Record 56fa63c3da · The-5-Best-AI-Website-Builders-Available-in-2026---
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The 5 Best AI Website Builders Available in 2026 - tech.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

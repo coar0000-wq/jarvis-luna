@@ -2,8 +2,12 @@
 title: "Record e819c12ea3 · Learning-a-Continuous-Sepsis-Severity-Score-Without"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.815147+00:00
+updated_at: 2026-10-11T00:55:55.487228+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27421v1"
 ---
 
 # Record e819c12ea3 · Learning-a-Continuous-Sepsis-Severity-Score-Without
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Learning a Continuous Sepsis Severity Score Without Hour-by-Hour Supervision: A Two-Site Retrospective Study
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

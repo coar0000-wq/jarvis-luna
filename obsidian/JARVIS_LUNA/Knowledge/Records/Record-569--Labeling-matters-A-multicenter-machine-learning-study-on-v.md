@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.598256+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "데이터분석", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pone.0357179"
 ---
 
 # Record 569 · Labeling-matters-A-multicenter-machine-learning-study-on-visual-field-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Labeling matters: A multicenter machine learning study on visual field progression in Glaucoma
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[데이터분석]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

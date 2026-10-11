@@ -2,8 +2,14 @@
 title: "Record da60360e8d · KI-gestützte-Karriereberatung-und-Stellenempfehlungen-für-den-Schweize"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.504369+00:00
+updated_at: 2026-10-11T00:55:19.931829+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1365/s40702-026-01306-8"
+kind: "논문"
 ---
 
 # Record da60360e8d · KI-gestützte-Karriereberatung-und-Stellenempfehlungen-für-den-Schweize
@@ -15,7 +21,3 @@ tags: [record, real-data]
 KI-gestützte Karriereberatung und Stellenempfehlungen für den Schweizer Arbeitsmarkt: Einblicke und erste Ergebnisse aus einem laufenden Kooperations-Projekt
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

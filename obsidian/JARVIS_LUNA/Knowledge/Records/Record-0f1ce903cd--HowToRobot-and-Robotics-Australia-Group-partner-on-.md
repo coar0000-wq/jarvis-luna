@@ -2,8 +2,12 @@
 title: "Record 0f1ce903cd · HowToRobot-and-Robotics-Australia-Group-partner-on-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.584802+00:00
+updated_at: 2026-10-11T00:55:51.881226+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/howtorobot-robotics-australia-group-partner-platform-encourage-robot-adoption/"
 ---
 
 # Record 0f1ce903cd · HowToRobot-and-Robotics-Australia-Group-partner-on-
@@ -16,7 +20,3 @@ HowToRobot and Robotics Australia Group partner on platform to encourage robot a
 <p>The initiative is intended to help businesses in Australia identify automation opportunities, test them, and connect with local suppliers.</p> <p>The post <a href="https://www.therobotreport.com/howtorobot-robotics-australia-group-partner-platform-encourage-robot-adoption/">HowToRobot and Robotics Australia Group partner on platform to encourage robot adoption</a> appeared first on <a href="htt
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

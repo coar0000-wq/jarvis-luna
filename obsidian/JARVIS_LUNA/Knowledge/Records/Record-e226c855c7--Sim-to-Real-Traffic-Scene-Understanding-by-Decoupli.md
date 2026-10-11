@@ -2,8 +2,12 @@
 title: "Record e226c855c7 · Sim-to-Real-Traffic-Scene-Understanding-by-Decoupling-Semantics-from-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.711847+00:00
+updated_at: 2026-10-11T00:55:23.324262+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.18562"
 ---
 
 # Record e226c855c7 · Sim-to-Real-Traffic-Scene-Understanding-by-Decoupling-Semantics-from-C
@@ -16,7 +20,3 @@ Sim-to-Real Traffic Scene Understanding by Decoupling Semantics from Caption Gen
 Track 2 of the AI City Challenge 2026 requires both visual question answering (VQA) and traffic event description generation under a challenging synthetic-to real domain shift. Existing vision-language approaches often entangle semantic understanding with language generation, making them susceptible to hallucination and inconsistent reasoning across event phases. In this work, we propose a decoupl
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record c23c6644ff · FIDO-for-User-Sole-Contol-in-the-EUDI-Wallet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.554263+00:00
+updated_at: 2026-10-11T00:55:20.693490+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.22541/au.172456735.58663962/v1"
+kind: "논문"
 ---
 
 # Record c23c6644ff · FIDO-for-User-Sole-Contol-in-the-EUDI-Wallet
@@ -15,7 +21,3 @@ tags: [record, real-data]
 FIDO for User Sole Contol in the EUDI Wallet
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

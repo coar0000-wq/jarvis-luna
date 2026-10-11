@@ -2,8 +2,12 @@
 title: "Record 2075777ec9 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.478262+00:00
+updated_at: 2026-10-11T00:55:35.142497+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEpaNFMxajlrSDR4UGdCV1d4am13OUdpTGJfM3ZCbTJjaEtIRk5Dcm9vS21vWnl0S2t1cllxWThkZ2ZFMDdGTnluLWlqTnEySnc3WVhtRGhEdEN6WnA0RG5RNzd1SmVHMlRtTHpTcGFyT0kzeEwwVk5SM0ozSFNYYWlBZnEzYnI1WVVrelgxczAzRHdGWUM0dzl1dkVKaGp0Uklj?oc=5"
 ---
 
 # Record 2075777ec9 · K-beautys-Next-Chapter-Amorepacific-CEO-Sean-Kim-on
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty’s Next Chapter: Amorepacific CEO Sean Kim on Building Lasting Brands, Innovation, and Personalization - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record d5e7148985 · Comparative-machine-learning-analysis-identifies-ra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.575868+00:00
+updated_at: 2026-10-11T00:55:21.063043+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.3389/frph.2026.1908391"
+kind: "논문"
 ---
 
 # Record d5e7148985 · Comparative-machine-learning-analysis-identifies-ra
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Comparative machine learning analysis identifies random forest and adaboost as superior models for the evaluation of semen quality and reproductive hormones
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

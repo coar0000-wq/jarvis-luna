@@ -2,8 +2,14 @@
 title: "Record cee9bc4be9 · Patient-safety-as-a-measure-of-resilience-in-US-hospitals-central-line"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.340518+00:00
+updated_at: 2026-10-11T00:55:17.017932+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1017/ice.2024.167"
+kind: "논문"
 ---
 
 # Record cee9bc4be9 · Patient-safety-as-a-measure-of-resilience-in-US-hospitals-central-line
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Patient safety as a measure of resilience in US hospitals: central line-associated bloodstream infections, July 2020 through June 2021
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 8750041f9b · High-contrast-EUV-imaging-enabled-by-topological-qu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.503250+00:00
+updated_at: 2026-10-11T00:55:19.915894+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1364/oe.607043"
+kind: "논문"
 ---
 
 # Record 8750041f9b · High-contrast-EUV-imaging-enabled-by-topological-qu
@@ -15,7 +21,3 @@ tags: [record, real-data]
 High contrast EUV imaging enabled by topological quasi phase-only masks
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

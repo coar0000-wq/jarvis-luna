@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.522604+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/z9nD0PcM238"
 ---
 
 # Record 2242 · This-ONE-simple-step-is-keeping-u-away-from-that-GLASS-SKIN
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This ONE simple step is keeping u away from that GLASS SKIN~!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

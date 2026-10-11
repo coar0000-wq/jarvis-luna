@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.061058+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zZFN6UnZic0Y4S2FsbDVfRjJCRkYzZlJsX093SHRMU1VydnY2MzBWbEtpSkNqZUk4dC0wczZtTExqYk1TX2I2TkNRcXVNYzJld09feEc0SVpLLWlfVXpqaEd6TzZyRER5azVn?oc=5"
 ---
 
 # Record 206 · Retail-Chatbots-Types-Use-Cases-and-Examples-2025---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Retail Chatbots: Types, Use Cases, and Examples (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

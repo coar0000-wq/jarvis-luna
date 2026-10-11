@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.158118+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVWhiZmZJWm16MGVjcE9OT1B0MFltRWtZVHJrTy1DemJ2d21nUXBHZlZZSjMwd2ctbE9zYUMxN0FBX09zdHp3b0FTRFBGWHhpbjZvVDktYVd1WjlNeFpLUVBrTkF0M1UwM1N3TGZ0UmNqN1d5NGpiNUdlc3dsQ2lXMDlDQWFzdFRoLVdLSmhVSXg0VGRBeGtOckNBOFU5T3MweS0tTWR3?oc=5"
 ---
 
 # Record 688 · Stay-Ai-Raises-151M-to-Develop-the-Next-Generation-Subscription--Loyal
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Stay Ai Raises $15.1M to Develop the Next Generation Subscription & Loyalty Platform for Shopify Brands - newswire.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

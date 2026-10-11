@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.653736+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "openalex.org"
+url: "https://openalex.org/W7202230809"
 ---
 
 # Record 2000 · Model-Confidence-Under-Answer-Preserving-Attacks-An-Informativeness-Ma
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Model Confidence Under Answer-Preserving Attacks: An Informativeness-Manipulability Frontier
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

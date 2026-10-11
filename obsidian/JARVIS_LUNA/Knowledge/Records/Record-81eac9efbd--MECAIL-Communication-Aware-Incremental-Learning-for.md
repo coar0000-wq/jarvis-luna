@@ -2,8 +2,12 @@
 title: "Record 81eac9efbd · MECAIL-Communication-Aware-Incremental-Learning-for-Object-Detection-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.770018+00:00
+updated_at: 2026-10-11T00:55:24.021333+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24455"
 ---
 
 # Record 81eac9efbd · MECAIL-Communication-Aware-Incremental-Learning-for-Object-Detection-w
@@ -16,7 +20,3 @@ MECAIL: Communication-Aware Incremental Learning for Object Detection with 14.6 
 Intelligent transportation systems require Incremental Learning (IL) to continually improve their overall performance in dynamic environments. However, most edge devices lack the computational resources to support on-device IL, requiring updates to be transmitted from centralized servers. We propose using this setup to obtain dense, specialized module coverage that adapts a fixed base model to spe
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

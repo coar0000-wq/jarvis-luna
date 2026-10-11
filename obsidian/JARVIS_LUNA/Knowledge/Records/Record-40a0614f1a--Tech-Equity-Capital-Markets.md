@@ -2,8 +2,14 @@
 title: "Record 40a0614f1a · Tech-Equity-Capital-Markets"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.487861+00:00
+updated_at: 2026-10-11T00:55:50.073394+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/podcast-hub/making-sense/tech-equity-capital-markets"
+kind: "발표물"
 ---
 
 # Record 40a0614f1a · Tech-Equity-Capital-Markets
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Tech Equity Capital Markets
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 0737a00bd3 · Taraji-P-Henson-Makes-a-Flawless-Case-for-Matching-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.942311+00:00
+updated_at: 2026-10-11T00:55:42.597989+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/taraji-p-henson-gold-nails"
 ---
 
 # Record 0737a00bd3 · Taraji-P-Henson-Makes-a-Flawless-Case-for-Matching-
@@ -16,7 +20,3 @@ Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelr
 Taraji P. Henson Makes a Flawless Case for Matching Your Manicure to Your Jewelry — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

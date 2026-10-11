@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.031748+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQblVqUmN0Z0VaVTVVTFhCNGRndzlVT3JiaVZTeE5uYkxSbjNtOTYxRmhRYWhnU2RzOThmVFF6c2xzeEFHdTdLRExieUF2WElLZTlRTWVvbkltN1l2em11RXVMenBEZGVYREIyM0tBOFEtdFhiM0pBeGhWWFN0cy1ob0xB?oc=5"
 ---
 
 # Record 274 · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-Heres-the-Fix---Shop
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Most Retailers Are Getting Half-Baked AI Insights. Here's the Fix. - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

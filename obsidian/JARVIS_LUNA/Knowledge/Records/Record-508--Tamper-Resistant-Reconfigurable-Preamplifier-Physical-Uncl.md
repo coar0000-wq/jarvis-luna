@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.075436+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tcad.2024.3367818"
 ---
 
 # Record 508 · Tamper-Resistant-Reconfigurable-Preamplifier-Physical-Unclonable-Funct
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Tamper Resistant Reconfigurable Preamplifier Physical Unclonable Function With Self-Destruct
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 44436688db · DSPI-Net-a-dual-stream-perception-interaction-netwo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.399110+00:00
+updated_at: 2026-10-11T00:55:18.052868+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1088/2631-8695/aea1de"
+kind: "논문"
 ---
 
 # Record 44436688db · DSPI-Net-a-dual-stream-perception-interaction-netwo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 DSPI-Net: a dual-stream perception interaction network for lightweight remote sensing image dehazing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

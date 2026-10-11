@@ -2,8 +2,12 @@
 title: "Record 516888e8ff · ActSafeGuard-Differentiable-and-Training-Aligned-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.067938+00:00
+updated_at: 2026-10-11T00:55:13.254126+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "컴퓨터-비전", "로보틱스", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11697v1"
 ---
 
 # Record 516888e8ff · ActSafeGuard-Differentiable-and-Training-Aligned-Co
@@ -16,7 +20,3 @@ ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flo
 Vision-Language-Action (VLA) and World-Action Models (WAMs) have demonstrated strong capabilities in general-purpose robotic manipulation, yet their generated actions may violate hard physical constraints and therefore be unsafe or infeasible for deployment. Existing safety approaches either optimize statistical safety objectives without deterministic per-step guarantees or correct unsafe actions
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[컴퓨터-비전]] [[로보틱스]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

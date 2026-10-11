@@ -2,8 +2,12 @@
 title: "Record 6b1398d85f · LED-Light-Therapy-Face-Mask-7-Color-Skin-Care-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.642065+00:00
+updated_at: 2026-10-11T00:55:52.801093+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/led-light-therapy-face-mask-7-color-skin-care-mask-mkt77005591"
 ---
 
 # Record 6b1398d85f · LED-Light-Therapy-Face-Mask-7-Color-Skin-Care-Mask
@@ -16,7 +20,3 @@ LED Light Therapy Face Mask 7 Color Skin Care Mask
 LED Light Therapy Face Mask 7 Color Skin Care Mask · PURSONIC · $49.99
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

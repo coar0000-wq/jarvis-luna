@@ -2,8 +2,12 @@
 title: "Record ad7677f3ff · LACVERT-Body-Peeling-101-fl-oz300ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.806885+00:00
+updated_at: 2026-10-11T00:55:40.251677+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA41440420"
 ---
 
 # Record ad7677f3ff · LACVERT-Body-Peeling-101-fl-oz300ml
@@ -16,7 +20,3 @@ LACVERT Body Peeling 10.1 fl. oz.(300ml)
 LACVERT Body Peeling 10.1 fl. oz.(300ml) · 평점 4.7 · 리뷰 662
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

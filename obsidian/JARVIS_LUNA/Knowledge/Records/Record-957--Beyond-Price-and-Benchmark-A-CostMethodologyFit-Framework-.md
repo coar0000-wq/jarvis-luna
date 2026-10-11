@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.509019+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.64823/ijcsa.2601002"
 ---
 
 # Record 957 · Beyond-Price-and-Benchmark-A-CostMethodologyFit-Framework-for-Selectin
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Beyond Price and Benchmark: A Cost–Methodology–Fit Framework for Selecting AI Developer Tools, with a Proposed Evaluation Protocol
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 72238bf048 · 2options-CHUNGMIJUNG-Kelp-Shampoo-1757-fl-oz520ml-Single--Set"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.788073+00:00
+updated_at: 2026-10-11T00:55:39.914371+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA30205426"
 ---
 
 # Record 72238bf048 · 2options-CHUNGMIJUNG-Kelp-Shampoo-1757-fl-oz520ml-Single--Set
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2options] CHUNGMIJUNG Kelp Shampoo 17.57 fl. oz.(520ml) (Single / Set) · 평점 4.9 · 리뷰 923
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

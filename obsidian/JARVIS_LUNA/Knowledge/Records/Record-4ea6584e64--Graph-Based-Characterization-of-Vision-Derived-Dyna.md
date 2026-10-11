@@ -2,8 +2,12 @@
 title: "Record 4ea6584e64 · Graph-Based-Characterization-of-Vision-Derived-Dyna"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.016075+00:00
+updated_at: 2026-10-11T00:55:12.621800+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "컴퓨터-비전", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09666v1"
 ---
 
 # Record 4ea6584e64 · Graph-Based-Characterization-of-Vision-Derived-Dyna
@@ -16,7 +20,3 @@ Graph-Based Characterization of Vision-Derived Dynamic Modes for Structural Dama
 This study presents a graph theoretic framework for characterizing damage-induced changes in the dynamics of a vibrating cantilever beam from non-contact video measurements. Within this approach, dynamics of the beam under healthy and damaged conditions with crack depths of 5, 10, and 13 mm are initially modeled using delay-embedded dynamic mode decomposition (DMD) from vision-based measurements.
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

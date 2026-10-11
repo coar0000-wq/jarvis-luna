@@ -2,89 +2,68 @@
 title: "기관 · AMD"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:59:00.592501+00:00
+updated_at: 2026-10-11T00:55:56.722438+00:00
 tags: [org, real-data]
+record_count: 74
 ---
 
 # 기관 · AMD
 
-실제 수집 레코드 **74건**이 이 기관에 연결되어 있습니다. (논문 63건, 발표물 11건)
+유형별: 논문 63건, 발표물 11건
 
-- [[Record-3228b60de2--Electrical-Failure-Analysis-of-Speckled-Shmoo-and-S]]
-- [[Record-772e506b89--Effectiveness-of-Photon-Emission-Microscopy-in-Iden]]
-- [[Record-8dab068410--Porphyrinic-MOF-Confined-Nanozyme-Hydrogel-with-CuS]]
-- [[Record-29979a82af--Study-on-the-Green-Extraction-Process-of-Lignin-and]]
-- [[Record-bb49a62d54--Moiré-artifact-reduction-in-grating-interferometry-]]
-- [[Record-6176ca10cb--TopoFlow-topography-aware-pollutant-Flow-learning-f]]
-- [[Record-4ef92569b6--Carbon-nanotube-microelectrode-arrays-enable-scalab]]
-- [[Record-8201e6d39a--Forecasts-of-residential-property-price-indices-for]]
-- [[Record-1db1207492--When-Intelligence-Overloads-Infrastructure-A-Foreca]]
-- [[Record-4952066109--Right-Sized-Security-Configurable-Security-Engine-f]]
-- [[Record-8b7330db7c--Edgepreserving-noise-for-diffusion-models]]
-- [[Record-3ee07a431c--Residential-Price-Forecasting-in-Shaoxing-using-Gau]]
-- [[Record-dc4b4fb2c9--Trilinos-Enabling-Scientific-Computing-across-Diver]]
-- [[Record-25d9fadb68--Ray-Tracing-Massive-Amounts-of-Animated-Geometry]]
-- [[Record-a63dcd8d95--A-Survey-of-Distributed-Asynchronous-Many-Task-Mode]]
-- [[Record-c8e258a8e4--Electrolytic-Reduction-of-CO-2-in-a-Flowing-Electro]]
-- [[Record-0077e236d8--Genotype-Specific-Electrophysiological-Remodeling-i]]
-- [[Record-f8497707c3--1-From-photons-to-electrons-making-electron-microsc]]
-- [[Record-825f9a547f--From-photons-to-electrons-making-electron-microscop]]
-- [[Record-9a9bda034a--Revisiting-gastric-cancer-disparities-in-Asian-Amer]]
-- [[Record-ee78b92c69--300-GHz-digital-holography-imaging-based-on-a-silve]]
-- [[Record-47ef05b27f--Indium-Thermal-Interface-Material-Assembly-Manufact]]
-- [[Record-ce883c2a4a--AI-PDN-Performance-and-Efficiency-Improvement-Enabl]]
-- [[Record-c3a34584c7--Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification]]
-- [[Record-8910ee0843--FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for]]
-- [[Record-16a5c49635--When-Close-Enough-Is-Not-Enough-Autoregressive-Drif]]
-- [[Record-94936e111c--HeteroMosaic-Exposing-and-Exploiting-Heterogeneous-]]
-- [[Record-0fd2a82dc6--From-Bit-Position-Sensitivity-to-Unequal-Error-Prot]]
-- [[Record-f8e79bc708--Tensor-Network-Simulation-of-the-Heisenberg-Model-o]]
-- [[Record-0b33d0188a--Shape-Mutating-Expert-CompressionLorExperts-and-BTE]]
-- [[Record-50a1ee3dcf--AsmEvo-Agentic-Assembly-Level-Optimization-of-AMD-G]]
-- [[Record-c50a9ca43b--The-Pauli-Lightcone-Information-Theoretic-Error-Mit]]
-- [[Record-d9d94a88aa--Performance-Characterization-of-SPEC-CPU-2026-on-AM]]
-- [[Record-9c7324ad0f--Lindblad-Multiproduct-Formulas]]
-- [[Record-daf7153e3e--The-Art-of-Closed-Formula-Defaults-Search-Free-Code]]
-- [[Record-30cc5122be--AMDKernelVault-Large-Scale-Datasets-and-Agentic-Tra]]
-- [[Record-f24de1260c--Programming-AMD-XDNA-NPUs-with-Open-source-Compiler]]
-- [[Record-4380591ee0--Bells-Theorem-might-provide-support-to-a-Multi-Spac]]
-- [[Record-9cdf348d51--Bells-Theorem-might-provide-support-to-a-Multi-Spac]]
-- [[Record-6c45473b46--Supporting-the-Assumption-that-Space-Time-is-an-Eme]]
-- [[Record-d96e529244--Supporting-the-Assumption-that-Space-Time-is-an-Eme]]
-- [[Record-529d37bf59--From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow]]
-- [[Record-5505d2f5c0--From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow]]
-- [[Record-a45a8527a8--A-Charged-Lense-Thirring-Effect-Experiment-that-mig]]
-- [[Record-e3de118055--A-Charged-Lense-Thirring-Effect-Experiment-that-mig]]
-- [[Record-9c6caac201--Augmented-Data-Management-for-Cache-Performance-Cyb]]
-- [[Record-beb4a31731--AIML-for-Yield-Learning-and-Test-Optimization-in-Se]]
-- [[Record-abfe2433d0--Open-source-Hardware-Independent-GPU-Acceleration-f]]
-- [[Record-44e4908f5f--A-practical-pipeline-for-volume-rendering-of-trilli]]
-- [[Record-7a2e1023ea--AMD-to-Report-Fiscal-Second-Quarter-2026-Financial-]]
-- [[Record-be29db3a60--AMD-Appoints-Alan-Smith-as-Newest-Corporate-Fellow]]
-- [[Record-4455df9d4b--Microsoft-to-Deploy-Next-Gen-AMD-Instinct-and-AMD-E]]
-- [[Record-80607c6dd9--AMD-and-Anthropic-Announce-Strategic-Partnership-to]]
-- [[Record-1ce5d7e274--AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Lo]]
-- [[Record-6a5e41b951--AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Ag]]
-- [[Record-dae7d1b0dd--AMD-Reports-Second-Quarter-2026-Financial-Results]]
-- [[Record-a5d4fbb4fa--AMD-Acquires-Taalas-to-Advance-Compute-Solutions-fo]]
-- [[Record-2e75b79278--AMD-Appoints-Tim-Ryan-to-Board-of-Directors]]
-- [[Record-7c3de3980d--AMD-Cisco-and-HUMAIN-Expand-Saudi-Arabias-AI-Infras]]
-- [[Record-0453a8f863--AMD-to-Acquire-World-Labs-to-Advance-the-Future-of-]]
-- [[Record-f0c9675c1b--Voxel-Deformation-Aware-Neural-Intersection-Functio]]
-- [[Record-cd112b2ccd--Stabilizing-Efficient-Reasoning-with-Step-Level-Adv]]
-- [[Record-cfd80bc555--Library-Aware-Doubles-and-Iterative-Repair-for-Larg]]
-- [[Record-702efbd5a0--HPP-Hierarchical-Programmatic-Probing-for-Long-Vide]]
-- [[Record-46aac1d4bc--GPU-First-Heisenberg-Picture-Tensor-Network-Dynamic]]
-- [[Record-363ef13347--Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea]]
-- [[Record-1d49f0de6c--Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with]]
-- [[Record-e27c8c8be6--Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification]]
-- [[Record-b66f89eba7--FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for]]
-- [[Record-f4ff1c8f8c--When-Close-Enough-Is-Not-Enough-Autoregressive-Drif]]
-- [[Record-d1444810c0--HeteroMosaic-Exposing-and-Exploiting-Heterogeneous-]]
-- [[Record-3c7d820399--From-Bit-Position-Sensitivity-to-Unequal-Error-Prot]]
-- [[Record-75b46ee03f--Tensor-Network-Simulation-of-the-Heisenberg-Model-o]]
+실제 수집 레코드 **74건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+
+### 주제별 건수
+
+| 항목 | 건수 |
+|---|---|
+| [[반도체하드웨어]] | 74 |
+| [[LLM언어모델]] | 5 |
+| [[AI-에이전트]] | 5 |
+| [[과학수학]] | 4 |
+| [[인프라클라우드]] | 2 |
+| [[보안프라이버시]] | 2 |
+| [[머신러닝-연구]] | 2 |
+| [[법률규제]] | 1 |
+| [[컴퓨터-비전]] | 1 |
+| [[모델-라우팅MoE]] | 1 |
+| [[의료바이오]] | 1 |
+| [[소셜콘텐츠]] | 1 |
+
+### 최근 레코드 12건
+
 - [[Record-7e8f9702a7--A-Volumetrically-Stabilized-Mixed-Formulation-of-th]]
+- [[Record-75b46ee03f--Tensor-Network-Simulation-of-the-Heisenberg-Model-o]]
+- [[Record-3c7d820399--From-Bit-Position-Sensitivity-to-Unequal-Error-Prot]]
+- [[Record-d1444810c0--HeteroMosaic-Exposing-and-Exploiting-Heterogeneous-]]
+- [[Record-f4ff1c8f8c--When-Close-Enough-Is-Not-Enough-Autoregressive-Drif]]
+- [[Record-b66f89eba7--FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for]]
+- [[Record-e27c8c8be6--Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification]]
+- [[Record-1d49f0de6c--Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with]]
+- [[Record-363ef13347--Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea]]
+- [[Record-46aac1d4bc--GPU-First-Heisenberg-Picture-Tensor-Network-Dynamic]]
+- [[Record-702efbd5a0--HPP-Hierarchical-Programmatic-Probing-for-Long-Vide]]
+- [[Record-cfd80bc555--Library-Aware-Doubles-and-Iterative-Repair-for-Larg]]
+
+### 전체 레코드 (표)
+
+```base
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+    - org == "AMD"
+views:
+  - type: table
+    name: 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+    limit: 200
+```
 
 ## Connected nodes
 
-[[Record-3228b60de2--Electrical-Failure-Analysis-of-Speckled-Shmoo-and-S]] [[Record-772e506b89--Effectiveness-of-Photon-Emission-Microscopy-in-Iden]] [[Record-8dab068410--Porphyrinic-MOF-Confined-Nanozyme-Hydrogel-with-CuS]] [[Record-29979a82af--Study-on-the-Green-Extraction-Process-of-Lignin-and]] [[Record-bb49a62d54--Moiré-artifact-reduction-in-grating-interferometry-]] [[Record-6176ca10cb--TopoFlow-topography-aware-pollutant-Flow-learning-f]] [[Record-4ef92569b6--Carbon-nanotube-microelectrode-arrays-enable-scalab]] [[Record-8201e6d39a--Forecasts-of-residential-property-price-indices-for]] [[Record-1db1207492--When-Intelligence-Overloads-Infrastructure-A-Foreca]] [[Record-4952066109--Right-Sized-Security-Configurable-Security-Engine-f]] [[Record-8b7330db7c--Edgepreserving-noise-for-diffusion-models]] [[Record-3ee07a431c--Residential-Price-Forecasting-in-Shaoxing-using-Gau]] [[Record-dc4b4fb2c9--Trilinos-Enabling-Scientific-Computing-across-Diver]] [[Record-25d9fadb68--Ray-Tracing-Massive-Amounts-of-Animated-Geometry]] [[Record-a63dcd8d95--A-Survey-of-Distributed-Asynchronous-Many-Task-Mode]] [[Record-c8e258a8e4--Electrolytic-Reduction-of-CO-2-in-a-Flowing-Electro]] [[Record-0077e236d8--Genotype-Specific-Electrophysiological-Remodeling-i]] [[Record-f8497707c3--1-From-photons-to-electrons-making-electron-microsc]] [[Record-825f9a547f--From-photons-to-electrons-making-electron-microscop]] [[Record-9a9bda034a--Revisiting-gastric-cancer-disparities-in-Asian-Amer]] [[Record-ee78b92c69--300-GHz-digital-holography-imaging-based-on-a-silve]] [[Record-47ef05b27f--Indium-Thermal-Interface-Material-Assembly-Manufact]] [[Record-ce883c2a4a--AI-PDN-Performance-and-Efficiency-Improvement-Enabl]] [[Record-c3a34584c7--Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification]] [[Record-8910ee0843--FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for]] [[Record-16a5c49635--When-Close-Enough-Is-Not-Enough-Autoregressive-Drif]] [[Record-94936e111c--HeteroMosaic-Exposing-and-Exploiting-Heterogeneous-]] [[Record-0fd2a82dc6--From-Bit-Position-Sensitivity-to-Unequal-Error-Prot]] [[Record-f8e79bc708--Tensor-Network-Simulation-of-the-Heisenberg-Model-o]] [[Record-0b33d0188a--Shape-Mutating-Expert-CompressionLorExperts-and-BTE]] [[Record-50a1ee3dcf--AsmEvo-Agentic-Assembly-Level-Optimization-of-AMD-G]] [[Record-c50a9ca43b--The-Pauli-Lightcone-Information-Theoretic-Error-Mit]] [[Record-d9d94a88aa--Performance-Characterization-of-SPEC-CPU-2026-on-AM]] [[Record-9c7324ad0f--Lindblad-Multiproduct-Formulas]] [[Record-daf7153e3e--The-Art-of-Closed-Formula-Defaults-Search-Free-Code]] [[Record-30cc5122be--AMDKernelVault-Large-Scale-Datasets-and-Agentic-Tra]] [[Record-f24de1260c--Programming-AMD-XDNA-NPUs-with-Open-source-Compiler]] [[Record-4380591ee0--Bells-Theorem-might-provide-support-to-a-Multi-Spac]] [[Record-9cdf348d51--Bells-Theorem-might-provide-support-to-a-Multi-Spac]] [[Record-6c45473b46--Supporting-the-Assumption-that-Space-Time-is-an-Eme]] [[Record-d96e529244--Supporting-the-Assumption-that-Space-Time-is-an-Eme]] [[Record-529d37bf59--From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow]] [[Record-5505d2f5c0--From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow]] [[Record-a45a8527a8--A-Charged-Lense-Thirring-Effect-Experiment-that-mig]] [[Record-e3de118055--A-Charged-Lense-Thirring-Effect-Experiment-that-mig]] [[Record-9c6caac201--Augmented-Data-Management-for-Cache-Performance-Cyb]] [[Record-beb4a31731--AIML-for-Yield-Learning-and-Test-Optimization-in-Se]] [[Record-abfe2433d0--Open-source-Hardware-Independent-GPU-Acceleration-f]] [[Record-44e4908f5f--A-practical-pipeline-for-volume-rendering-of-trilli]] [[Record-7a2e1023ea--AMD-to-Report-Fiscal-Second-Quarter-2026-Financial-]] [[Record-be29db3a60--AMD-Appoints-Alan-Smith-as-Newest-Corporate-Fellow]] [[Record-4455df9d4b--Microsoft-to-Deploy-Next-Gen-AMD-Instinct-and-AMD-E]] [[Record-80607c6dd9--AMD-and-Anthropic-Announce-Strategic-Partnership-to]] [[Record-1ce5d7e274--AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Lo]] [[Record-6a5e41b951--AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Ag]] [[Record-dae7d1b0dd--AMD-Reports-Second-Quarter-2026-Financial-Results]] [[Record-a5d4fbb4fa--AMD-Acquires-Taalas-to-Advance-Compute-Solutions-fo]] [[Record-2e75b79278--AMD-Appoints-Tim-Ryan-to-Board-of-Directors]] [[Record-7c3de3980d--AMD-Cisco-and-HUMAIN-Expand-Saudi-Arabias-AI-Infras]] [[Record-0453a8f863--AMD-to-Acquire-World-Labs-to-Advance-the-Future-of-]] [[Record-f0c9675c1b--Voxel-Deformation-Aware-Neural-Intersection-Functio]] [[Record-cd112b2ccd--Stabilizing-Efficient-Reasoning-with-Step-Level-Adv]] [[Record-cfd80bc555--Library-Aware-Doubles-and-Iterative-Repair-for-Larg]] [[Record-702efbd5a0--HPP-Hierarchical-Programmatic-Probing-for-Long-Vide]] [[Record-46aac1d4bc--GPU-First-Heisenberg-Picture-Tensor-Network-Dynamic]] [[Record-363ef13347--Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea]] [[Record-1d49f0de6c--Rendering-Aware-Bayesian-3D-Gaussian-Splatting-with]] [[Record-e27c8c8be6--Toward-a-Unified-GPU-Aware-OpenSHMEM-Specification]] [[Record-b66f89eba7--FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for]] [[Record-f4ff1c8f8c--When-Close-Enough-Is-Not-Enough-Autoregressive-Drif]] [[Record-d1444810c0--HeteroMosaic-Exposing-and-Exploiting-Heterogeneous-]] [[Record-3c7d820399--From-Bit-Position-Sensitivity-to-Unequal-Error-Prot]] [[Record-75b46ee03f--Tensor-Network-Simulation-of-the-Heisenberg-Model-o]] [[Record-7e8f9702a7--A-Volumetrically-Stabilized-Mixed-Formulation-of-th]] [[AI-에이전트]] [[LLM언어모델]] [[과학수학]] [[머신러닝-연구]] [[모델-라우팅MoE]] [[반도체하드웨어]] [[법률규제]] [[보안프라이버시]] [[소셜콘텐츠]] [[의료바이오]] [[인프라클라우드]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]
+[[JARVIS Real Knowledge Index]]

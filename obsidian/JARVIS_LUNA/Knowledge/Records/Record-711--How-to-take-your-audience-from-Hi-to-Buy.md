@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.760905+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/FcsakJ0mdrY"
 ---
 
 # Record 711 · How-to-take-your-audience-from-Hi-to-Buy
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How to take your audience from "Hi!" to "Buy!"
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

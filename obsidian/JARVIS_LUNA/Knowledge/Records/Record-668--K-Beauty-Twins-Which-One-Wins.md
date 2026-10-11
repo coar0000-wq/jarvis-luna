@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.700950+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/hd-GYNnp8eY"
 ---
 
 # Record 668 · K-Beauty-Twins-Which-One-Wins
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 K-Beauty Twins: Which One Wins? 👀
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

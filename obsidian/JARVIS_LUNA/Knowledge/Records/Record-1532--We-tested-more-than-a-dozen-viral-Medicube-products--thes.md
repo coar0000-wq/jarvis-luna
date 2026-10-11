@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.608423+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkT1NralB4YzNQSklyUVNfcVdBMDRCMG1FdXJQWERnaXpxRDlyZUlTYlVDSTNDS05HWFlad3ZVR1d3RFYzdXF0TXgxQkNNOU5XOEwwbUk3ZDBLSzRBTGI1NjlVXzBBTEdLdGY4dWxndkdla2hacGM4akQ0X0c?oc=5"
 ---
 
 # Record 1532 · We-tested-more-than-a-dozen-viral-Medicube-products--these-are-the-one
@@ -15,7 +19,3 @@ tags: [record, real-data]
 We tested more than a dozen viral Medicube products — these are the ones actually worth it - nbcnews.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

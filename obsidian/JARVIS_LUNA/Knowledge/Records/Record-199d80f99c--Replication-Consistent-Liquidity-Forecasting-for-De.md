@@ -2,8 +2,14 @@
 title: "Record 199d80f99c · Replication-Consistent-Liquidity-Forecasting-for-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.672894+00:00
+updated_at: 2026-10-11T00:55:38.009012+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7160458231"
+kind: "논문"
 ---
 
 # Record 199d80f99c · Replication-Consistent-Liquidity-Forecasting-for-De
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Replication-Consistent Liquidity Forecasting for Derivatives -- Forward Funding Sensitivities and a Liquidity Valuation Adjustment for Settlement Lags
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

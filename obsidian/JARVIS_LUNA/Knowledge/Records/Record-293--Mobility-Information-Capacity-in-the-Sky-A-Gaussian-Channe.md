@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.387444+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10436v1"
 ---
 
 # Record 293 · Mobility-Information-Capacity-in-the-Sky-A-Gaussian-Channel-Perspectiv
@@ -16,7 +20,3 @@ Mobility Information Capacity in the Sky: A Gaussian Channel Perspective
 Existing airspace capacity metrics mainly quantify occupancy or flow, although the same number of aerial vehicles may result in different motion alternatives. This letter establishes \emph{mobility information capacity} as an information-theoretic measure for low-altitude wireless networks. It quantifies the maximum information that trajectory observations reveal about intentional maneuver inputs
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

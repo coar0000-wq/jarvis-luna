@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:25.952648+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxPckJuNmN3ZWFha3d0ME5LbTUxbVBmMHEzZm5iLXNrXzRfbXlFQVNjRE5HdU41LVd1azExY0JIVEhqcnFMMjZNRnhCd0ExUUktOWNQSGgxaU5tSHFONF9INnFZektKNjhmQjRLc2hDUm12b0tMSjJDOEFoNi05VEpSMUVYTnBWUnZQaTRrX3piT3VmRUF2SXc?oc=5"
 ---
 
 # Record 1652 · Driven-by-TikTok-trends-new-beauty-brands-target-children---The-Japan-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Driven by TikTok trends, new beauty brands target children - The Japan Times
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

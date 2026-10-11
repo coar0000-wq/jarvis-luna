@@ -2,8 +2,12 @@
 title: "Record 4a7eb9c0df · Batiste-Original-Droogshampoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.876493+00:00
+updated_at: 2026-10-11T00:55:41.499594+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3331300062656"
 ---
 
 # Record 4a7eb9c0df · Batiste-Original-Droogshampoo
@@ -16,7 +20,3 @@ Batiste Original Droogshampoo
 Batiste Original Droogshampoo · Batiste
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

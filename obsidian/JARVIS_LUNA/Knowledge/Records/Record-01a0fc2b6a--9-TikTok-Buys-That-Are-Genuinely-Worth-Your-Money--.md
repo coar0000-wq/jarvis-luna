@@ -2,8 +2,12 @@
 title: "Record 01a0fc2b6a · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.171777+00:00
+updated_at: 2026-10-11T00:55:29.751955+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NcG1ibEpXaGtraDZldjNHS3MyTWwtU3VkeGp6NUlEcE9rc21DanUtZEtuREI3MUdJNEh3RWxuSmhqTG1qejlnMXl0X3J3bHdCOXR4Y2lRNVJqWUpsQVE?oc=5"
 ---
 
 # Record 01a0fc2b6a · 9-TikTok-Buys-That-Are-Genuinely-Worth-Your-Money--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 9 TikTok Buys That Are Genuinely Worth Your Money - SheerLuxe
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

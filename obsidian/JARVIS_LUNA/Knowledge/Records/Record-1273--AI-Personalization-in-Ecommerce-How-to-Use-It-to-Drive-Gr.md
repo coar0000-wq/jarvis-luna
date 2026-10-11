@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.833266+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE56aGVCYUc2eDF0aHpheXdkQ0p3UnVYTElyM1ZJTGxURzluN1BWcmNBYThMajVxTlVkRlpTSjh0RnpXQlBCc1hCSHBaOWNxVER4X1JURVc4RUVwdURITlFCVFRXTzZXdncwbkxmMQ?oc=5"
 ---
 
 # Record 1273 · AI-Personalization-in-Ecommerce-How-to-Use-It-to-Drive-Growth---Shopif
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Personalization in Ecommerce: How to Use It to Drive Growth - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

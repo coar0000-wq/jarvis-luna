@@ -2,8 +2,14 @@
 title: "Record 9e1b53a4a2 · Better-than-Optimal-Improving-Adaptive-Stochastic-Q"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.475106+00:00
+updated_at: 2026-10-11T00:55:19.350258+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3771564"
+kind: "논문"
 ---
 
 # Record 9e1b53a4a2 · Better-than-Optimal-Improving-Adaptive-Stochastic-Q
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Better than Optimal: Improving Adaptive Stochastic Quantization Using Shared Randomness
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

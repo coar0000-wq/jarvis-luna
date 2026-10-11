@@ -2,8 +2,12 @@
 title: "Record 717d18ed5a · LLM-Generated-Feature-Pools-for-Time-Series-Anomaly-Detection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.162350+00:00
+updated_at: 2026-10-11T00:55:14.356173+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.21801"
 ---
 
 # Record 717d18ed5a · LLM-Generated-Feature-Pools-for-Time-Series-Anomaly-Detection
@@ -16,7 +20,3 @@ LLM-Generated Feature Pools for Time Series Anomaly Detection
 We study how far a simple statistical pipeline can go on univariate time series anomaly detection under a strict selection protocol. The method extracts a small pool of statistics over sliding windows, scores each window with a transductive robust (MAD) model, and selects a feature subset per domain on a held-out tuning split. On TSB-AD-U it reaches $0.529$ per-series VUS-PR, above the best neural
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

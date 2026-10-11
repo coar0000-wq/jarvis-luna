@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.626438+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=uZiST37zOLs"
 ---
 
 # Record 954 · 지금-올리브영--무신사에서-레이어랩-행사중어디에서-살까-할인-혜택-총정리
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 지금 올리브영 & 무신사에서 레이어랩 행사중❗️어디에서 살까? 할인 혜택 총정리✨
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

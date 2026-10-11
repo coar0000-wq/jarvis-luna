@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.397431+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/GpnRD6lOXB0"
 ---
 
 # Record 588 · 선크림-집에서도-필요할까-재도포는-언제-해야-할까
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 선크림, 집에서도 필요할까? 재도포는 언제 해야 할까?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

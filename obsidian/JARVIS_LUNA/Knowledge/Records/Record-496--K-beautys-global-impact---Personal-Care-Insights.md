@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.870147+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGc5QjR2OTZ1b1EwU2luQWVTaEVZTFcwdzNfMjRrRnAwMTJxNEpqREx5VlVhZmU3WjRwTmcycVQ1Zy1raTJtekxObU5UazZFa1YwS2RGZ3VTbkgwXzA2Uzc1NkdqRG5pcUFDby16MzNJWkFta0JEaG9PLUl0MnMtX3RqX3VaMmhqZDdZeQ?oc=5"
 ---
 
 # Record 496 · K-beautys-global-impact---Personal-Care-Insights
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 K-beauty’s global impact - Personal Care Insights
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

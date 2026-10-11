@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.488527+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/zFhpthyNT8w"
 ---
 
 # Record 2111 · 다이소-선크림-논란-1분-팩트체크
@@ -15,7 +19,3 @@ tags: [record, real-data]
 다이소 선크림 논란, 1분 팩트체크
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.333835+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "api.fda.gov"
+url: "https://api.fda.gov/drug/label.json?search=id:d8bfce91-7eeb-4696-ae5f-b4fa7514f928"
 ---
 
 # Record 016 · Clear-Acne-Spot-Treatment
@@ -16,7 +20,3 @@ Clear Acne Spot Treatment
 Clear Acne Spot Treatment
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

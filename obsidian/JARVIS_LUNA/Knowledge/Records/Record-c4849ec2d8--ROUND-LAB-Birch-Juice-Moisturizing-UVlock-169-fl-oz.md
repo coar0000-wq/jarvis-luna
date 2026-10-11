@@ -2,8 +2,12 @@
 title: "Record c4849ec2d8 · ROUND-LAB-Birch-Juice-Moisturizing-UVlock-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.795524+00:00
+updated_at: 2026-10-11T00:55:40.048478+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA36175558"
 ---
 
 # Record c4849ec2d8 · ROUND-LAB-Birch-Juice-Moisturizing-UVlock-169-fl-oz50ml
@@ -16,7 +20,3 @@ ROUND LAB Birch Juice Moisturizing UVlock 1.69 fl. oz.(50ml)
 ROUND LAB Birch Juice Moisturizing UVlock 1.69 fl. oz.(50ml) · 평점 4 · 리뷰 23
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.189003+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=FTnMHdKLz20"
 ---
 
 # Record 731 · I-Tested-Hundreds-of-K-Beauty-Products--Only-These-Made-the-Cut
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 I Tested Hundreds of K-Beauty Products — Only These Made the Cut
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

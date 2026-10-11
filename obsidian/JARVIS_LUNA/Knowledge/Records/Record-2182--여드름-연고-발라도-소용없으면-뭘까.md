@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.235939+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=UJvfHb8EtWc"
 ---
 
 # Record 2182 · 여드름-연고-발라도-소용없으면-뭘까
@@ -15,7 +19,3 @@ tags: [record, real-data]
 여드름 연고 발라도 소용없으면 뭘까?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

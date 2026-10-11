@@ -2,8 +2,14 @@
 title: "Record f97544c17a · Denario-Project-Deep-Knowledge-Artificial-Intelligence-Agents-for-Scie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.415756+00:00
+updated_at: 2026-10-11T00:55:18.360493+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1103/kk55-gc95"
+kind: "논문"
 ---
 
 # Record f97544c17a · Denario-Project-Deep-Knowledge-Artificial-Intelligence-Agents-for-Scie
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Denario Project: Deep Knowledge Artificial Intelligence Agents for Scientific Discovery
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

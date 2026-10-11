@@ -2,8 +2,14 @@
 title: "Record 7be8c4badd · Extensive-Calcific-Chronic-Pancreatitis-Developing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.019842+00:00
+updated_at: 2026-10-11T00:55:27.555477+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.7759/cureus.113323"
+kind: "논문"
 ---
 
 # Record 7be8c4badd · Extensive-Calcific-Chronic-Pancreatitis-Developing-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Extensive Calcific Chronic Pancreatitis Developing Within Three Years After Acute Pancreatitis and Incidentally Detected During Urologic Evaluation in a 34-Year-Old Man: A Case Report
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

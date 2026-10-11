@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.598438+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6U25BV0UxVHZpTExOMVpGeVliQkU5VnhfdmlhTnpZazdQeEdrVmpYVGxtZ0lnVWVTdWU2WjBpRTZ0RFBVNWlzcDVHNG5aYkt6WTB6ZUZtSEQyTXpV?oc=5"
 ---
 
 # Record 097 · 20-Viral-TikTok-Beauty-Products-That-Are-Actually-Worth-the-Hype---The
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 20+ Viral TikTok Beauty Products That Are Actually Worth the Hype - The Everymom
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

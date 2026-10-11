@@ -2,8 +2,12 @@
 title: "Record 4476656527 · These-are-the-biggest-Korean-beauty-trends-RN-and-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.306825+00:00
+updated_at: 2026-10-11T00:55:32.150434+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE1HMzlQYlVrekwybFA2dFpIbnVGMU81d0N4TjlwUjFGSXppcVRYUUg0NGJfbDhrS2ktaUdfdURmVzluQVo0Y3RoZEkyTF9CemxjcnM1amR5dllGamE0c21MS2hEWjlneGYtTWc0WWFFcXNvZWtBOGwtcWNVSHE?oc=5"
 ---
 
 # Record 4476656527 · These-are-the-biggest-Korean-beauty-trends-RN-and-h
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These are the biggest Korean beauty trends RN, and how to recreate them - Glamour UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

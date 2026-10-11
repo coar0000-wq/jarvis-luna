@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.644223+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "openalex.org"
+url: "https://openalex.org/W7167748759"
 ---
 
 # Record 1761 · Governing-Generative-AI-Across-Financial-Institutions-A-Framework-for-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Governing Generative AI Across Financial Institutions: A Framework for Generative AI Risk Control
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

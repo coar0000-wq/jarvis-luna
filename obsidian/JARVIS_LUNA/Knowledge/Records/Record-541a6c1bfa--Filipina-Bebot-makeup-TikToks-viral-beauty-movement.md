@@ -2,8 +2,12 @@
 title: "Record 541a6c1bfa · Filipina-Bebot-makeup-TikToks-viral-beauty-movement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.404860+00:00
+updated_at: 2026-10-11T00:55:33.892298+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOC1Hc3JmS0lZM2dZcHBDQjI5b1JXSUtFRG5Ca0hLREJRcld5QWtCQ1dQSFhZWXFSRXZjNUJ2akpOUTk3dHdhalRPU0dYczFjSXplem1VYzgyVGpTbk5tVG0tOEMyTDBYYmVZU05pMVdWQU81MGN4eDN0a3JlMENmeW9RaG1vUHNtczlXdC1oRlJhY0k?oc=5"
 ---
 
 # Record 541a6c1bfa · Filipina-Bebot-makeup-TikToks-viral-beauty-movement
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Filipina Bebot makeup: TikTok’s viral beauty movement - Her World Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

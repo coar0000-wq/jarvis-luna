@@ -2,8 +2,14 @@
 title: "Record 4bbeb2f448 · Food-environment-and-profitability-exploring-the-triple-bottom-line-in"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.421791+00:00
+updated_at: 2026-10-11T00:55:18.486727+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1108/meq-10-2025-0709"
+kind: "논문"
 ---
 
 # Record 4bbeb2f448 · Food-environment-and-profitability-exploring-the-triple-bottom-line-in
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Food, environment, and profitability: exploring the triple bottom line in restaurant businesses
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

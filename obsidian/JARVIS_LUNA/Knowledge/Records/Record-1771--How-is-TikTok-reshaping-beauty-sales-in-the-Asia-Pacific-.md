@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.645869+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbEF3Z01tdGppc2QzUVlFNXk2Q3U1WWtGMU5sa3FYeWdkNHhzLTNINjI0aWdKLVFJLV9YQjVtbUpqT181cjVDXzdmZjY2a2FMRkNjVTRtMEFlQUhZNk1ZcGs1RzFPUEkxQU1lRWt1NTBZVEx5Zl9VY045SHotWHUxeUVyWUlZNDNOYk5IdWx4dzViMXhCMEZna3Rn?oc=5"
 ---
 
 # Record 1771 · How-is-TikTok-reshaping-beauty-sales-in-the-Asia-Pacific-region---Reta
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How is TikTok reshaping beauty sales in the Asia-Pacific region? - Retail Asia
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

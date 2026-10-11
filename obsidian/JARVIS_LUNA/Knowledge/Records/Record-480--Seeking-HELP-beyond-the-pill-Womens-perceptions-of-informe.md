@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.505589+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pone.0349065"
 ---
 
 # Record 480 · Seeking-HELP-beyond-the-pill-Womens-perceptions-of-informed-consent-fo
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Seeking HELP beyond the pill: Women’s perceptions of informed consent for medication abortion: Mixed methods research
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

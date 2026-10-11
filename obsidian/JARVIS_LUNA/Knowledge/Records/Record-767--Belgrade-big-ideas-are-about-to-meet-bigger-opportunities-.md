@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.539407+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/nSmqANOH2yQ"
 ---
 
 # Record 767 · Belgrade-big-ideas-are-about-to-meet-bigger-opportunities---CJEC-Belgr
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Belgrade, big ideas are about to meet bigger opportunities. 🔥 | CJEC Belgrade 2026
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

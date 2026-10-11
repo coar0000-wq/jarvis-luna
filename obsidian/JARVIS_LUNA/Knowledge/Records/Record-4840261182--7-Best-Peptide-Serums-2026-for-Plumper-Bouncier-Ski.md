@@ -2,8 +2,12 @@
 title: "Record 4840261182 · 7-Best-Peptide-Serums-2026-for-Plumper-Bouncier-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.900299+00:00
+updated_at: 2026-10-11T00:55:41.936219+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/gallery/best-peptide-skin-care-products"
 ---
 
 # Record 4840261182 · 7-Best-Peptide-Serums-2026-for-Plumper-Bouncier-Skin
@@ -16,7 +20,3 @@ tags: [record, real-data]
 7 Best Peptide Serums 2026 for Plumper, Bouncier Skin
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

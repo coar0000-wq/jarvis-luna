@@ -2,8 +2,12 @@
 title: "Record 2d679e361b · What-is-Contrast-Makeup-Breaking-Down-TikToks-Lates"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.225808+00:00
+updated_at: 2026-10-11T00:55:30.771654+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2bFE1SWdhV2ZBeURBV1ViVlhtMDBiLXdVcHBGV0VRWHJTZklaTGhITE9GcDZVUG5JUEhUYi1vaGlKQzNPOEg5N2lsU2E5RTZSVlZ0RGMtbVlvZ3oxaU9MckZrZnNWWWlyWHpsRV9pNA?oc=5"
 ---
 
 # Record 2d679e361b · What-is-Contrast-Makeup-Breaking-Down-TikToks-Lates
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is Contrast Makeup? Breaking Down TikTok’s Latest Beauty Trend - S Magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

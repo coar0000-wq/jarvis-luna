@@ -2,8 +2,12 @@
 title: "Record 4e80ffadb8 · Amazon-to-invest-100M-in-new-Indiana-manufacturing-facility"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.568029+00:00
+updated_at: 2026-10-11T00:55:51.657571+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["물류통관", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/"
 ---
 
 # Record 4e80ffadb8 · Amazon-to-invest-100M-in-new-Indiana-manufacturing-facility
@@ -16,7 +20,3 @@ Amazon to invest $100M in new Indiana manufacturing facility
 <p>The new facility will produce products that power Amazon's fulfillment and robotics network across North America.</p> <p>The post <a href="https://www.therobotreport.com/amazon-to-invest-100m-in-new-indiana-manufacturing-facility/">Amazon to invest $100M in new Indiana manufacturing facility</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[물류통관]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

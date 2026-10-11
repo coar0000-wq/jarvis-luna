@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.750803+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Microsoft-Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/"
 ---
 
 # Record 2070 · Verifying-Rust-cryptography-in-SymCrypt-from-standards-to-code
@@ -16,7 +21,3 @@ Verifying Rust cryptography in SymCrypt, from standards to code
 Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

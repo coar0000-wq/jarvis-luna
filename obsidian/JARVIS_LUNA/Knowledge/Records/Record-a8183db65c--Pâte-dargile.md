@@ -2,8 +2,12 @@
 title: "Record a8183db65c · Pâte-dargile"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.876192+00:00
+updated_at: 2026-10-11T00:55:41.490990+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3329310012495"
 ---
 
 # Record a8183db65c · Pâte-dargile
@@ -16,7 +20,3 @@ Pâte d'argile
 Pâte d'argile · Copar, Laboratoires Biocos, Lovea, Lovea Nature
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

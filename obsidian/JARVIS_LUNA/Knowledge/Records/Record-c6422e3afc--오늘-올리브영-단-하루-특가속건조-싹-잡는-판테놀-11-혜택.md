@@ -2,8 +2,12 @@
 title: "Record c6422e3afc · 오늘-올리브영-단-하루-특가속건조-싹-잡는-판테놀-11-혜택"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.684503+00:00
+updated_at: 2026-10-11T00:55:53.458580+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/-BaO7HHXgpI"
 ---
 
 # Record c6422e3afc · 오늘-올리브영-단-하루-특가속건조-싹-잡는-판테놀-11-혜택
@@ -15,7 +19,3 @@ tags: [record, real-data]
 오늘 올리브영 단 하루 특가❗속건조 싹 잡는 판테놀 1+1 혜택
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

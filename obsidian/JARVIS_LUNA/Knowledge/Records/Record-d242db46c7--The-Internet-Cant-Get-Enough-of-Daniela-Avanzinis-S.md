@@ -2,8 +2,12 @@
 title: "Record d242db46c7 · The-Internet-Cant-Get-Enough-of-Daniela-Avanzinis-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.400512+00:00
+updated_at: 2026-10-11T00:55:33.805532+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZTJKeHo5c1hBNi0yS2tFYUoybEszWUQycEVVSEtBYTJvWDAyWDlGMGFrSV9OUWVEQXJ5TW4zVXZFZFlwbUZrOG5pMUxiTVp4NnU4TEliSnIyWC11azNJUWY2T3RRR0RJaTc1WGRBcFEtM09IMlNXeHJMNHFEOWlSX0xVeXo2MVhDREg3ekpXa0Vpdw?oc=5"
 ---
 
 # Record d242db46c7 · The-Internet-Cant-Get-Enough-of-Daniela-Avanzinis-S
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Internet Can't Get Enough of Daniela Avanzini's Signature Siren Makeup - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

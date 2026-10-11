@@ -2,8 +2,12 @@
 title: "Record d99bb282c2 · Dangers-of-AI-Risks-and-How-to-Manage-Them---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.166381+00:00
+updated_at: 2026-10-11T00:55:29.622729+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93MHFwSVZ5eEEySzNPS2VYNmdyZ0xHeDNUcXF2QVo0Wl80MklZcjBOaE45aXhfcWloeGxkUEJQck5EaXlGdWw0dnI5azRxaXBqYWJjS18yQ3R6eUNG?oc=5"
 ---
 
 # Record d99bb282c2 · Dangers-of-AI-Risks-and-How-to-Manage-Them---Shopif
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Dangers of AI: Risks and How to Manage Them - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

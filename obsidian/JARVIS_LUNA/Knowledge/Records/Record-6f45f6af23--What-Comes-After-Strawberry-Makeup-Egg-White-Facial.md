@@ -2,8 +2,12 @@
 title: "Record 6f45f6af23 · What-Comes-After-Strawberry-Makeup-Egg-White-Facial"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.543901+00:00
+updated_at: 2026-10-11T00:55:36.282403+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdHAzdVlJX0lQb0xZOGtaZXNZb0cxdjc5ZXpRc0xTMkVkWHZXMU5KdVowZzdUQkxxVHBWNEJqa0JKNGNwY2F2U0MzZi1GSl9YUjlwTGJsTmpUQVl0WUl1N3dkZUJ3TTI0c2hKNXpxRjZEazN4LW9qQjg0aTY0TkdJaXZZbFNwaUpWNWMwalZPTVFMY2JIT1dWZ1VzNVJubmFyV1I3NGpVbVFjTWU0LXpYelYtTVFoeUNneWVsekxhSHl4SnVW?oc=5"
 ---
 
 # Record 6f45f6af23 · What-Comes-After-Strawberry-Makeup-Egg-White-Facial
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Comes After ‘Strawberry Makeup’? Egg White Facials. - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

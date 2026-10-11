@@ -2,8 +2,12 @@
 title: "Record e6440895e6 · Nearly-95-of-Viral-K-Beauty-and-Glass-Skin-TikToks-Mislead---The-Derma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.383769+00:00
+updated_at: 2026-10-11T00:55:33.470944+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjJfczkwX3V6UkJmVXk1X2pGczNfaXhDV0VsZmRCaU9MaUNsc2dNSUFQQW4xWUdDZnpxRlJaX1psNlpaN1o3eExBZGdyZDVOZ2VmSUl0SnhGZk4xSTJTR21xbHQ5Vms2clBFclFWWEc0cm9YWFRIS3ExdlVQVFBiQ3VXZUExRDQzVWxqS1lB?oc=5"
 ---
 
 # Record e6440895e6 · Nearly-95-of-Viral-K-Beauty-and-Glass-Skin-TikToks-Mislead---The-Derma
@@ -16,7 +20,3 @@ Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatol
 Nearly 95% of Viral K-Beauty and ‘Glass Skin’ TikToks Mislead - The Dermatology Digest
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

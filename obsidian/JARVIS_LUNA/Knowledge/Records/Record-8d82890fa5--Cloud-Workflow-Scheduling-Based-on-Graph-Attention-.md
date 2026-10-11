@@ -2,8 +2,12 @@
 title: "Record 8d82890fa5 · Cloud-Workflow-Scheduling-Based-on-Graph-Attention-Driven-Hierarchical"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.095154+00:00
+updated_at: 2026-10-11T00:55:13.542068+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "머신러닝-연구", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.14952"
 ---
 
 # Record 8d82890fa5 · Cloud-Workflow-Scheduling-Based-on-Graph-Attention-Driven-Hierarchical
@@ -16,7 +20,3 @@ Cloud Workflow Scheduling Based on Graph Attention-Driven Hierarchical Reinforce
 Dynamic cloud workflow scheduling must balance deadline satisfaction, container utilization, and energy consumption while dealing with stochastic task-execution speeds, placement-dependent communication, and coupled task and container decisions. Workflows are naturally modeled as directed acyclic graphs (DAGs), but conventional vector- or matrix-based states do not fully capture their dependency t
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[머신러닝-연구]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

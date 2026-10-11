@@ -2,8 +2,14 @@
 title: "Record 14b346d0ba · Distilling-Safe-LLM-Systems-via-Soft-Prompts-for-On-Device-Settings"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.637725+00:00
+updated_at: 2026-10-11T00:55:22.212244+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.09388"
+kind: "논문"
 ---
 
 # Record 14b346d0ba · Distilling-Safe-LLM-Systems-via-Soft-Prompts-for-On-Device-Settings
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Distilling Safe LLM Systems via Soft Prompts for On Device Settings
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

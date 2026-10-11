@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.011008+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1364/oe.605857"
 ---
 
 # Record 482 · Reconfigurable-interferometric-form-and-mid-spatial-frequency-metrolog
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Reconfigurable interferometric form and mid-spatial frequency metrology for extended reality freeform optics
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

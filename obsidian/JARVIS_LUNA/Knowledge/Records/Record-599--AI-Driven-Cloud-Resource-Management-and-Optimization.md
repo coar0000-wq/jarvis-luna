@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.036535+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.36948/ijfmr.2025.v07i06.63274"
 ---
 
 # Record 599 · AI-Driven-Cloud-Resource-Management-and-Optimization
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AI-Driven Cloud Resource Management and Optimization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record fd0e2ce328 · BenchShield-Formal-Model-Backed-Instrumentation-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.048599+00:00
+updated_at: 2026-10-11T00:55:13.043892+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "LLM언어모델", "머신러닝-연구", "보안프라이버시", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11028v1"
 ---
 
 # Record fd0e2ce328 · BenchShield-Formal-Model-Backed-Instrumentation-for
@@ -16,7 +20,3 @@ BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Age
 LM-agent benchmarks increasingly function as interactive evaluation infrastructure. Agents observe state, call tools, modify workspaces, submit artifacts, and receive rewards from outcome procedures. This interactivity makes evaluations vulnerable to reward hacking: an agent improves its measured score by exploiting the reward-relevant trajectory instead of solving the intended task. Existing defe
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[LLM언어모델]] [[머신러닝-연구]] [[보안프라이버시]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

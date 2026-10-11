@@ -2,8 +2,12 @@
 title: "Record b00a21dbc9 · IBIB-A-Protocol-for-Measuring-Enterprise-AI-Systems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.044543+00:00
+updated_at: 2026-10-11T00:55:13.008938+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10494v1"
 ---
 
 # Record b00a21dbc9 · IBIB-A-Protocol-for-Measuring-Enterprise-AI-Systems
@@ -15,7 +19,3 @@ tags: [record, real-data]
 IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

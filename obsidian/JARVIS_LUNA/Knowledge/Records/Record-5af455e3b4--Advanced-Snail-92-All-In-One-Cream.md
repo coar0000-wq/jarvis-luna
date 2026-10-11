@@ -2,8 +2,12 @@
 title: "Record 5af455e3b4 · Advanced-Snail-92-All-In-One-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.719040+00:00
+updated_at: 2026-10-11T00:55:38.962400+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "sokoglam.com"
+url: "https://sokoglam.com/products/cosrx-advanced-snail-92-all-in-one-cream"
 ---
 
 # Record 5af455e3b4 · Advanced-Snail-92-All-In-One-Cream
@@ -16,7 +20,3 @@ Advanced Snail 92 All In One Cream
 Advanced Snail 92 All In One Cream · COSRX · $10.4
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.177386+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake/default.aspx"
 ---
 
 # Record 927 · Thomson-Reuters-Powers-Trusted-Enterprise-AI-at-Scale-on-Snowflake
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Thomson Reuters Powers Trusted Enterprise AI at Scale on Snowflake
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

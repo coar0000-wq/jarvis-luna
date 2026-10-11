@@ -2,8 +2,12 @@
 title: "Record f5aa1bdd7b · I-tried-the-rubber-band-TikTok-beauty-trend-and-thi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.374691+00:00
+updated_at: 2026-10-11T00:55:33.342954+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTkY4aExoQjhuaS1sZWZwQ1AzZUpJU1phd3dURDMwQlpFTi1DWXgzTndpaWRyUnVCbGd6amtVeUZ3dEk3eGdXaTNzX1I5NldRX1pwR3J2TkFLNTQxMFJjc2lIS0ZsTTB4ZHJGWUVJVVpudVZQdmxpQ0pKOXNXWFYzeU9tMTVfcDNJQ05F?oc=5"
 ---
 
 # Record f5aa1bdd7b · I-tried-the-rubber-band-TikTok-beauty-trend-and-thi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I tried the rubber band TikTok beauty trend and this is what I found - Yahoo Life UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

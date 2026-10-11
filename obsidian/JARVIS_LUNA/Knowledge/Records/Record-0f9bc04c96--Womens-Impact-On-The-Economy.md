@@ -2,8 +2,14 @@
 title: "Record 0f9bc04c96 · Womens-Impact-On-The-Economy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.528501+00:00
+updated_at: 2026-10-11T00:55:50.821115+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/womens-impact-on-the-economy"
+kind: "발표물"
 ---
 
 # Record 0f9bc04c96 · Womens-Impact-On-The-Economy
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Womens Impact On The Economy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

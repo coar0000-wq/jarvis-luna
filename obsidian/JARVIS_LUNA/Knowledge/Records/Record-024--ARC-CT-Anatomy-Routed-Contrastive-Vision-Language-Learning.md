@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.335164+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28455v1"
 ---
 
 # Record 024 · ARC-CT-Anatomy-Routed-Contrastive-Vision-Language-Learning-for-3D-Ches
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ARC-CT: Anatomy-Routed Contrastive Vision-Language Learning for 3D Chest CT
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

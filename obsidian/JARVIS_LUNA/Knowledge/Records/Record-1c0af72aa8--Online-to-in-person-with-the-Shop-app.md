@@ -2,8 +2,12 @@
 title: "Record 1c0af72aa8 · Online-to-in-person-with-the-Shop-app"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.767666+00:00
+updated_at: 2026-10-11T00:55:55.118540+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=9LkIxHbr1Ik"
 ---
 
 # Record 1c0af72aa8 · Online-to-in-person-with-the-Shop-app
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Online to in person with the Shop app
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

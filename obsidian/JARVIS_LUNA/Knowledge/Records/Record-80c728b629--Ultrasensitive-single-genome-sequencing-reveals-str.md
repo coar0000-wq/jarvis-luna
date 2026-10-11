@@ -2,8 +2,14 @@
 title: "Record 80c728b629 · Ultrasensitive-single-genome-sequencing-reveals-str"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.004731+00:00
+updated_at: 2026-10-11T00:55:27.339630+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.08.21.746200"
+kind: "논문"
 ---
 
 # Record 80c728b629 · Ultrasensitive-single-genome-sequencing-reveals-str
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ultrasensitive single-genome sequencing reveals strong purifying selection in acute HIV- 1 infection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

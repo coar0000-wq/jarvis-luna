@@ -2,8 +2,14 @@
 title: "Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.269289+00:00
+updated_at: 2026-10-11T00:55:15.855545+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1002/smtd.70910"
+kind: "논문"
 ---
 
 # Record b5d83446bd · Networked-Solid-Polymer-Electrolyte-Enabling-5C-Fas
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Networked Solid Polymer Electrolyte Enabling 5C Fast Cycling and Enhanced Stability of Oriented LiCoO 2 All‐Solid‐State Thin Film Batteries
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

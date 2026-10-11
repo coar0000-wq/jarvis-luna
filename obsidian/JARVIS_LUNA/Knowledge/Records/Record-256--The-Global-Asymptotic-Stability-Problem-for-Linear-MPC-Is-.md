@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.379869+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09930v1"
 ---
 
 # Record 256 · The-Global-Asymptotic-Stability-Problem-for-Linear-MPC-Is-Undecidable
@@ -16,7 +20,3 @@ The Global Asymptotic Stability Problem for Linear MPC Is Undecidable
 We prove that deciding global asymptotic stability for constrained finite-horizon linear model predictive control is undecidable. This holds at horizon one with identity state, input, and terminal weights, unique optimizers, and global feasibility. Separate reductions cover predicted-state boxes, hard input boxes, and quadratically softened input boxes. A fourth reduction fixes the state and input
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

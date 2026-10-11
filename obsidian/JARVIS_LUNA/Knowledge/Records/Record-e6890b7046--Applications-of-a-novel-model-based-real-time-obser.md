@@ -2,8 +2,14 @@
 title: "Record e6890b7046 · Applications-of-a-novel-model-based-real-time-observer-for-electron-de"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.397210+00:00
+updated_at: 2026-10-11T00:55:18.021141+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1088/1741-4326/aeab66"
+kind: "논문"
 ---
 
 # Record e6890b7046 · Applications-of-a-novel-model-based-real-time-observer-for-electron-de
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Applications of a novel model-based real-time observer for electron density profile control experiments in TCV
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

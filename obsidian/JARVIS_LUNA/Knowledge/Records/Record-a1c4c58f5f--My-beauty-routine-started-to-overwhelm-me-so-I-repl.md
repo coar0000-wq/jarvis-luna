@@ -2,8 +2,12 @@
 title: "Record a1c4c58f5f · My-beauty-routine-started-to-overwhelm-me-so-I-repl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.345638+00:00
+updated_at: 2026-10-11T00:55:32.886798+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVzduZ092dl81cFdySU9Md2pxY0w4Z2FRTlpuOGxudFY3UWVLcWV6UU1qb0VBLXotb0h5bUYtTFNFMWMyYkZNeDhaRVUyQk4teUJpZkMtWHU5VVd4d0JyVXhUelcxVWR4WkVaRTFIZE90RE5JWXh0S1VEbk1FbGtoZFR6b1kzQQ?oc=5"
 ---
 
 # Record a1c4c58f5f · My-beauty-routine-started-to-overwhelm-me-so-I-repl
@@ -15,7 +19,3 @@ tags: [record, real-data]
 My beauty routine started to overwhelm me so I replaced it with these two viral K-beauty products - Grazia Daily UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

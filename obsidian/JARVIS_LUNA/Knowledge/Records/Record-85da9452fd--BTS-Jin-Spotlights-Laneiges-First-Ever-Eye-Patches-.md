@@ -2,8 +2,12 @@
 title: "Record 85da9452fd · BTS-Jin-Spotlights-Laneiges-First-Ever-Eye-Patches---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.490951+00:00
+updated_at: 2026-10-11T00:55:35.359477+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ0VycnA1WG5mZ0JFMFAwcW81SXN5ZkpKOVpJQkdOb0JfWGY3Z3BMLWlfQXg1MGRkZmdvU00xZlRucGRBTzhJcTdMVi1idWhOblpiYzhCbEw0UkRPQXdZOWhoSWZhRmtLYnpsTFVZcGs3ZE1pekNNTnR0RVJSRE84VzhkUmRFaTd3RkJTaERQdGwtNFBhQ0RxSnJPbWpZZzcwRFZ5MkhqTzQ?oc=5"
 ---
 
 # Record 85da9452fd · BTS-Jin-Spotlights-Laneiges-First-Ever-Eye-Patches---Hypebae
@@ -16,7 +20,3 @@ BTS Jin Spotlights Laneige's First-Ever Eye Patches - Hypebae
 BTS Jin Spotlights Laneige's First-Ever Eye Patches - Hypebae
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.907930+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["AI-에이전트"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=K1nR7pe49cM"
 ---
 
 # Record 2603 · Actionable-insights-for-agentic-selling
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Actionable insights for agentic selling
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

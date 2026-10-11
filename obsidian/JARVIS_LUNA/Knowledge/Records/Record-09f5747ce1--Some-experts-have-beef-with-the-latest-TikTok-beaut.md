@@ -2,8 +2,12 @@
 title: "Record 09f5747ce1 · Some-experts-have-beef-with-the-latest-TikTok-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.385257+00:00
+updated_at: 2026-10-11T00:55:33.497376+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdF9jMnNGTmlkbjZLeUJkSjhWMDVDcVE1bE9fdlkzMndsZC15MGowWHB2S05DVXJVN1pxcDk3Q1g4alpxX05JTjY3YThGa3dxb1prTkVLTEZNZ0hVSEQ2QmN0QUt5aWZvVlR2NmlMM2tRS0lfa1Fla1loaXRUWm5jdW5mRFVSakhDbk1iMF9n?oc=5"
 ---
 
 # Record 09f5747ce1 · Some-experts-have-beef-with-the-latest-TikTok-beaut
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Some experts have beef with the latest TikTok beauty trend: tallow - Straight Arrow
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 306645b46a · Retinol-Youth-Renewal-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.653135+00:00
+updated_at: 2026-10-11T00:55:53.017435+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/retinol-youth-renewal-serum-pimprod2059715"
 ---
 
 # Record 306645b46a · Retinol-Youth-Renewal-Serum
@@ -16,7 +20,3 @@ Retinol Youth Renewal Serum
 Retinol Youth Renewal Serum · Murad · $37
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 095c4ef399 · Sally-Hansen-Insta-Dri-Nail-Color-Polish-Asap-Apple-031-fl-oz-Quick-Dr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.678662+00:00
+updated_at: 2026-10-11T00:55:53.378643+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Sally-Hansen-Insta-Dri-Nail-Color-Polish-Asap-Apple-0-31-fl-oz-Quick-Dry/159739147"
 ---
 
 # Record 095c4ef399 · Sally-Hansen-Insta-Dri-Nail-Color-Polish-Asap-Apple-031-fl-oz-Quick-Dr
@@ -16,7 +20,3 @@ Sally Hansen Insta-Dri Nail Color Polish, Asap Apple, 0.31 fl oz, Quick Dry
 Sally Hansen Insta-Dri Nail Color Polish, Asap Apple, 0.31 fl oz, Quick Dry · $5.44 · 평점 4.4 · 리뷰 15,346
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

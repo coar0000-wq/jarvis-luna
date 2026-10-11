@@ -2,8 +2,12 @@
 title: "Record f924d93dbc · 2options-GOODAL-Green-Tangerine-Vita-C-Dark-Spot-Care-Cream-Alpha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.801210+00:00
+updated_at: 2026-10-11T00:55:40.162358+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA39149376"
 ---
 
 # Record f924d93dbc · 2options-GOODAL-Green-Tangerine-Vita-C-Dark-Spot-Care-Cream-Alpha
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2options] GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha · 평점 4.9 · 리뷰 176
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

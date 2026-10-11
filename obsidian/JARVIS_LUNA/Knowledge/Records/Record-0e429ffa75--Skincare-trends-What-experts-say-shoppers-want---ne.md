@@ -2,8 +2,12 @@
 title: "Record 0e429ffa75 · Skincare-trends-What-experts-say-shoppers-want---newhopecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.531438+00:00
+updated_at: 2026-10-11T00:55:36.096308+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT1ZXUDE2dVMwenlvMUlTbjFpTDltNTNqWE1ONURsOHV0eVd2UXItaVVmdXVkT0g3TV9TUmFRUmc1RXdjMktjMm1xMllMN2RmTnI1a3RqRTBLX0VwZEdueWhvMGNhbXhYeFp4M00xQTRNT2lyZ1FwMGZ3b2pqRjNsQTR6VTlDLUszN2s0VVFlLUJ1ckZFaXNnX1JIRVdKb3RKRndCOG1vVkNwekoxQ2ZPYzdES2ZBRWZ2Umc?oc=5"
 ---
 
 # Record 0e429ffa75 · Skincare-trends-What-experts-say-shoppers-want---newhopecom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Skincare trends: What experts say shoppers want - New Hope Network
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

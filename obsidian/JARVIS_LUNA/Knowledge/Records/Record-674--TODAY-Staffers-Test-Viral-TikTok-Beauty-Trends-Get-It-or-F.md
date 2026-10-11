@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.312596+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRk95bGV1b0pnM042RHU1Wm5OXzhxYjNiZXZESTNEd05OZllnNWxOeHozYU9sYUQ1UGxyR2VGbnl6NUZmMzg1M3FsckpiUGY1YXVkRG8xc0ZMMjliNzNzZTBaVVpicElva1FVbXY0ejhHUlZlMHRJNmZIVEhvcng2TG9pTHFmNUdMSlZmY1liN3h5NEpDSDRZRk9PYllucWM?oc=5"
 ---
 
 # Record 674 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-It-or-Forget-It---T
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 TODAY Staffers Test Viral TikTok Beauty Trends: Get It or Forget It? - TODAY.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

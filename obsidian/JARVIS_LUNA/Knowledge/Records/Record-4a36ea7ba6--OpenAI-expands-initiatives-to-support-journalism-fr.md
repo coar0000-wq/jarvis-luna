@@ -2,8 +2,14 @@
 title: "Record 4a36ea7ba6 · OpenAI-expands-initiatives-to-support-journalism-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.655053+00:00
+updated_at: 2026-10-11T00:55:37.701785+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
+kind: "발표물"
 ---
 
 # Record 4a36ea7ba6 · OpenAI-expands-initiatives-to-support-journalism-fr
@@ -16,7 +22,3 @@ OpenAI expands initiatives to support journalism from classrooms to newsrooms
 OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

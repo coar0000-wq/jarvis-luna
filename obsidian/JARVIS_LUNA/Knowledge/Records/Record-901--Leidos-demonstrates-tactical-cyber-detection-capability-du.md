@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.385450+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-demonstrates-tactical-cyber-detection-capability-during"
 ---
 
 # Record 901 · Leidos-demonstrates-tactical-cyber-detection-capability-during-Valiant
@@ -16,7 +21,3 @@ Leidos demonstrates tactical cyber detection capability during Valiant Shield 20
 RESTON, Va., July 27, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE: LDOS) successfully demonstrated a tactical cyber detection capability during Valiant Shield 2026, showing how military operators can spot potential cyber threats to connected mission systems in real time.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

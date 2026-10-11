@@ -2,8 +2,14 @@
 title: "Record 5074f4b36f · Logit-Distillation-on-Manifolds-Mapping-by-Learning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.679598+00:00
+updated_at: 2026-10-11T00:55:38.169107+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7163595589"
+kind: "논문"
 ---
 
 # Record 5074f4b36f · Logit-Distillation-on-Manifolds-Mapping-by-Learning
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Logit Distillation on Manifolds: Mapping by Learning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

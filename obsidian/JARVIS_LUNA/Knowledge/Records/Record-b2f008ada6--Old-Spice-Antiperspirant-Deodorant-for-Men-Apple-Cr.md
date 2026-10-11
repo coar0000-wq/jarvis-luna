@@ -2,8 +2,12 @@
 title: "Record b2f008ada6 · Old-Spice-Antiperspirant-Deodorant-for-Men-Apple-Crumbro-Scent-26-oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.206183+00:00
+updated_at: 2026-10-11T00:55:45.961547+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Old-Spice-Antiperspirant-Deodorant-Crumbro/dp/B0GZLCJX94/ref=zg_bsnr_g_beauty_d_sccl_10/139-6512042-2160214"
 ---
 
 # Record b2f008ada6 · Old-Spice-Antiperspirant-Deodorant-for-Men-Apple-Crumbro-Scent-26-oz--
@@ -16,7 +20,3 @@ Old Spice Antiperspirant Deodorant for Men, Apple Crumbro Scent, 2.6 oz | Dry Fe
 Old Spice Antiperspirant Deodorant for Men, Apple Crumbro Scent, 2.6 oz | Dry Feel | Apple Cider Notes | 24/7 Sweat & Odor Protection | Skin Conditioners | Limited Edition | Fallidudes Collection · $6.79 · 평점 4.5 · 리뷰 3,173
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

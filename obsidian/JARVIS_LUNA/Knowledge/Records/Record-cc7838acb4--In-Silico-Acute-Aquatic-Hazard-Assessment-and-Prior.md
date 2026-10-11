@@ -2,8 +2,14 @@
 title: "Record cc7838acb4 · In-Silico-Acute-Aquatic-Hazard-Assessment-and-Prioritization-Using-a-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.261097+00:00
+updated_at: 2026-10-11T00:55:15.717206+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1002/etc.5826"
+kind: "논문"
 ---
 
 # Record cc7838acb4 · In-Silico-Acute-Aquatic-Hazard-Assessment-and-Prioritization-Using-a-G
@@ -15,7 +21,3 @@ tags: [record, real-data]
 In Silico Acute Aquatic Hazard Assessment and Prioritization Using a Grouped Target Site Model: A Case Study of Organic Substances Reported in Permian Basin Hydraulic Fracturing Operations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

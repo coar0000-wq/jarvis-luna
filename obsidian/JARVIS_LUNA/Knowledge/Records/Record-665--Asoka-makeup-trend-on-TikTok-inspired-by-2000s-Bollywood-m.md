@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.940177+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkU0WlhNWWZaTV9rX3lQTWJkc1J2eVgtZlp3Xzkwc0FwVGRtQWlXMFlZWFdJRm5KTVFwZ1R1MldUcFlTMC02cVFaeVhvQ1NabXJ1bTZVVGZodXNSNXJVdWZtLVpwZzMwbGJmc1hQQkM4dzdmQUtNcGRYLVBuX1FLX2dvcVhCMWpNUmVtQXVMa3h0ZHl5bUNLT1JKZ2hfNENzV1A4?oc=5"
 ---
 
 # Record 665 · Asoka-makeup-trend-on-TikTok-inspired-by-2000s-Bollywood-movie---NBC-N
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 'Asoka' makeup trend on TikTok inspired by 2000s Bollywood movie - NBC News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

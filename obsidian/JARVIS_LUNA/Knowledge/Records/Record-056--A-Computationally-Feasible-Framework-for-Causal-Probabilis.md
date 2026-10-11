@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.859022+00:00
 tags: [knowledge-graph, record, arxiv]
+source: "arXiv"
+topics: ["AI-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04177v1"
 ---
 
 # Record 056 · A-Computationally-Feasible-Framework-for-Causal-Probabilistic-Explanat
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, arxiv]
 A Computationally Feasible Framework for Causal Probabilistic Explanation
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

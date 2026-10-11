@@ -2,8 +2,12 @@
 title: "Record 797e9c6514 · AI-Copywriting-Tools-12-Best-Options-for-Content-20"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.169897+00:00
+updated_at: 2026-10-11T00:55:29.702317+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JQkZLX3lNc0ltUnhFTWJHdkh5WXpiN2NVZl9LTE1IM25IejQ5SERVZl9UVzVUUjlXaFN2bzlpTUU5NXNtQ1d3TkNyR2U3czVtY3Z4ajZVbUhQYnE0eHc?oc=5"
 ---
 
 # Record 797e9c6514 · AI-Copywriting-Tools-12-Best-Options-for-Content-20
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Copywriting Tools: 12 Best Options for Content (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

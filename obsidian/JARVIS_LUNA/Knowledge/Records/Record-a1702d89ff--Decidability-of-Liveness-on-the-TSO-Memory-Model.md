@@ -2,8 +2,14 @@
 title: "Record a1702d89ff · Decidability-of-Liveness-on-the-TSO-Memory-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.474478+00:00
+updated_at: 2026-10-11T00:55:19.336985+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3766061"
+kind: "논문"
 ---
 
 # Record a1702d89ff · Decidability-of-Liveness-on-the-TSO-Memory-Model
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Decidability of Liveness on the TSO Memory Model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

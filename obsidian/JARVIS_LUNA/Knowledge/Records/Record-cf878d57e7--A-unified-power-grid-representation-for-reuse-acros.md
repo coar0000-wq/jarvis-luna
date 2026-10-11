@@ -2,8 +2,12 @@
 title: "Record cf878d57e7 · A-unified-power-grid-representation-for-reuse-acros"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.986237+00:00
+updated_at: 2026-10-11T00:55:12.317135+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07650v1"
 ---
 
 # Record cf878d57e7 · A-unified-power-grid-representation-for-reuse-acros
@@ -16,7 +20,3 @@ A unified power-grid representation for reuse across network structures and comp
 Data-driven power-system models are typically developed for specific grids and computational tasks, but their performance can deteriorate markedly or even fail when network structures or analytical objectives change. This paper develops a unified grid representation that separates physical-grid description from downstream computation. A self-supervised encoder represents each grid as a variable nu
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

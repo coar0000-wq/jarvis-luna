@@ -2,8 +2,12 @@
 title: "Record c02d79364a · Why-Mexico-is-K-beautys-next-big-bet---theinvestorcokr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.156418+00:00
+updated_at: 2026-10-11T00:55:29.457653+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YYWctaG5DU2t0OVVxM2l6aHg2UEVnXzl0UHJPREpyUGc2ajQ1UWlHaDkxVTRRRnN6WkUzWU9iTkc5cTNRVlpQYkdzc2plN1JzX2ZGeTNicGFSUQ?oc=5"
 ---
 
 # Record c02d79364a · Why-Mexico-is-K-beautys-next-big-bet---theinvestorcokr
@@ -16,7 +20,3 @@ Why Mexico is K-beauty’s next big bet - theinvestor.co.kr
 Why Mexico is K-beauty’s next big bet - theinvestor.co.kr
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

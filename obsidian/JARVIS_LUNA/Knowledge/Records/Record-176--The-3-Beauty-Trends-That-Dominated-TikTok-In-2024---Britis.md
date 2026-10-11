@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.055920+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wNk8wTEZmMS1tV0xMM0s5M2FZak95Z190R0M0ZTg5VFk2LUJlZm5BTHhSQmg0ZTVHM2Q3UlVKTjVLVGVxTXlVTnVnME50XzdIOEI2blQydGlOYTBoUzJkZUxPbWFhaDQ?oc=5"
 ---
 
 # Record 176 · The-3-Beauty-Trends-That-Dominated-TikTok-In-2024---British-Vogue
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The 3 Beauty Trends That Dominated TikTok In 2024 - British Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

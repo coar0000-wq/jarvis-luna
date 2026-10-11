@@ -2,8 +2,12 @@
 title: "Record cc5f482eea · A-Threshold-Constant-for-Exact-Community-Recovery-in-the-Degree-Correc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.096924+00:00
+updated_at: 2026-10-11T00:55:13.569698+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.15793"
 ---
 
 # Record cc5f482eea · A-Threshold-Constant-for-Exact-Community-Recovery-in-the-Degree-Correc
@@ -16,7 +20,3 @@ A Threshold Constant for Exact Community Recovery in the Degree-Corrected Poisso
 We study exact community recovery in the Degree-Corrected Poisson Stochastic Block Model (DC-SBM) through the maximum profile likelihood estimator. Our main contribution is identifying an explicit complexity constant $C(π,S)$, which closely captures the exact recovery threshold. This constant combines a weighted Chernoff--Hellinger separation between communities with a Kullback--Leibler correction
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

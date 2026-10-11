@@ -2,8 +2,14 @@
 title: "Record 064e4e3f91 · Real-time-Software-Enablement-in-Zonal-Controllers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.284362+00:00
+updated_at: 2026-10-11T00:55:16.110351+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s38314-023-1478-0"
+kind: "논문"
 ---
 
 # Record 064e4e3f91 · Real-time-Software-Enablement-in-Zonal-Controllers
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Real-time Software Enablement in Zonal Controllers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

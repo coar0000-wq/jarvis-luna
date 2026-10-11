@@ -2,8 +2,12 @@
 title: "Record b32df51b25 · 2colors-medicube-Age-R-Booster-Pro-Mini-Plus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.797064+00:00
+updated_at: 2026-10-11T00:55:40.078622+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA37299398"
 ---
 
 # Record b32df51b25 · 2colors-medicube-Age-R-Booster-Pro-Mini-Plus
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2colors] medicube Age-R Booster Pro Mini Plus · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 007bd291ac · Shopify-Debuts-AI-Powered-Store-Builder-for-Merchan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.512174+00:00
+updated_at: 2026-10-11T00:55:35.732232+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVliRVE1Z1piVE1wQ0lJX0JXVFEwSGd2M3ZMXzRCc2wzeWYwSnd3d01lYmNXV1RCWnF4RFF5Sl9SMVZQVGpjWWJXRkFLeU9JU2JwYlFKeDZyVXFxQ3JsUEhkLXhCZDBxX09QVmprNjRvLVhubWx5YkFiOF85aERsUUlLQ3RZT0RrWm1oZkVpbkw0a1Y2LTZVWHd0LU0zc1Naa0RNQ2dSaTdSQnVxbUgzUg?oc=5"
 ---
 
 # Record 007bd291ac · Shopify-Debuts-AI-Powered-Store-Builder-for-Merchan
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify Debuts AI-Powered Store Builder for Merchants - pymnts.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

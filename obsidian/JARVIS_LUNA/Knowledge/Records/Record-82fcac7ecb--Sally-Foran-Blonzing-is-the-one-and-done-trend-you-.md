@@ -2,8 +2,12 @@
 title: "Record 82fcac7ecb · Sally-Foran-Blonzing-is-the-one-and-done-trend-you-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.321325+00:00
+updated_at: 2026-10-11T00:55:32.432592+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY2dUZXc3Ymk1eEhDdW4zWlpZTVl0bjlzbG9BN25fcy1WSXVWNlVZS0psNDdqOFJwUVczRG1MUEdmSDE1ZHY1ZldxV000Q1gtMFE2WnlNSzdNNDhyRWp0NjBMMEpmel9MaExMT1ZtVnpLWnN2dkVSU0lkdzhJUXBCdg?oc=5"
 ---
 
 # Record 82fcac7ecb · Sally-Foran-Blonzing-is-the-one-and-done-trend-you-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Sally Foran: Blonzing is the one and done trend you should try - Irish Examiner
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

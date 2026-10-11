@@ -2,8 +2,14 @@
 title: "Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microsc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.562385+00:00
+updated_at: 2026-10-11T00:55:20.825167+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.26434/chemrxiv.15006831/v1"
+kind: "논문"
 ---
 
 # Record f8497707c3 · 1-From-photons-to-electrons-making-electron-microsc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 1 From photons to electrons: making electron microscopy a local discovery engine for materials
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

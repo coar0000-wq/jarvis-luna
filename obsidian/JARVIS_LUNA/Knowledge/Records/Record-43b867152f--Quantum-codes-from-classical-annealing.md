@@ -2,8 +2,14 @@
 title: "Record 43b867152f · Quantum-codes-from-classical-annealing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.699758+00:00
+updated_at: 2026-10-11T00:55:38.564635+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "투자은행금융"]
+org: "JPMorgan Chase"
+domain: "openalex.org"
+url: "https://openalex.org/W7170989633"
+kind: "논문"
 ---
 
 # Record 43b867152f · Quantum-codes-from-classical-annealing
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Quantum codes from classical annealing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

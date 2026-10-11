@@ -2,8 +2,12 @@
 title: "Record 81386dd8c4 · Freehand-Sketching-for-End-User-Programming-of-Robo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.049796+00:00
+updated_at: 2026-10-11T00:55:13.055486+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["모델-라우팅MoE", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11078v1"
 ---
 
 # Record 81386dd8c4 · Freehand-Sketching-for-End-User-Programming-of-Robo
@@ -16,7 +20,3 @@ Freehand Sketching for End-User Programming of Robot Swarms
 Robot swarms are increasingly used in applications where accessible interaction with non-expert users is desirable. This paper investigates freehand sketching as an end-user programming interface for specifying robot swarm geometries. Users communicate spatial intent through a drawing, while the swarm autonomously extracts target formation points, constructs a rigid formation graph, assigns robots
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[모델-라우팅MoE]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

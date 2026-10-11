@@ -2,8 +2,14 @@
 title: "Record 672463f4db · SK-hynix-Hosts-2026-Global-Forum-Sharing-Its-Technology-Vision-and-Fut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.601848+00:00
+updated_at: 2026-10-11T00:55:36.933476+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "컴퓨터-비전", "반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/2026-global-forum/"
+kind: "발표물"
 ---
 
 # Record 672463f4db · SK-hynix-Hosts-2026-Global-Forum-Sharing-Its-Technology-Vision-and-Fut
@@ -16,7 +22,3 @@ SK hynix Hosts ‘2026 Global Forum,’ Sharing Its Technology Vision and Future
 On the 18th (local time), SK hynix hosted its ‘2026 Global Forum’ at the Marriott Hotel in Santa Clara, California, US. SK hynix has held the forum every year since 2012 to introduce its technology vision and growth direction to
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

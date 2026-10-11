@@ -2,8 +2,14 @@
 title: "Record 188de7dbbd · Macula-Spatial-Patterns-and-Their-Association-With-Central-Visual-Fiel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.409853+00:00
+updated_at: 2026-10-11T00:55:18.265802+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1097/ijg.0000000000002706"
+kind: "논문"
 ---
 
 # Record 188de7dbbd · Macula-Spatial-Patterns-and-Their-Association-With-Central-Visual-Fiel
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Macula Spatial Patterns and Their Association With Central Visual Field Progression in Glaucoma Using Artificial Intelligence
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

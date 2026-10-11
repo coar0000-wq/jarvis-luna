@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.865798+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11eFduYm1pN0VWVmVsRG1lMG1KcEF2Z3Z4UHU3NG5ITTBuRnZ3dUtvNGJmdkxEZUVGWVJSXzNIWUhJSGlJaUV2SjVoOW1XZTcySTBpRjZZaTd6UVFYcDdxSFpUUnBjeXcw?oc=5"
 ---
 
 # Record 183 · 5-Best-Dropshipping-Courses-for-Ecommerce-Entrepreneurs---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 5 Best Dropshipping Courses for Ecommerce Entrepreneurs - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 26b0f2216e · Sara-Tan-shares-hottest-K-beauty-products---KTLA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.301247+00:00
+updated_at: 2026-10-11T00:55:32.041829+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xZUMyWHVzb0IyMVRQWHVwcjk3aVdmOS1hdGJUY29CbTE3RXAwaHJZUVdVX1o4VFYtNnJWcjBBTW10bmRwZkVoTG5MamhrOWpUWDQ0RnNjVnFqRGI1c0p3WnMzRWR2c1p6SlRBejlkUFhlek0wRHJDck1lYXA2ams?oc=5"
 ---
 
 # Record 26b0f2216e · Sara-Tan-shares-hottest-K-beauty-products---KTLA
@@ -16,7 +20,3 @@ Sara Tan shares hottest K-beauty products - KTLA
 Sara Tan shares hottest K-beauty products - KTLA
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

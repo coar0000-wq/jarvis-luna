@@ -2,8 +2,12 @@
 title: "Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.704733+00:00
+updated_at: 2026-10-11T00:55:53.945038+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/f60sSXFgWEg"
 ---
 
 # Record 04b7b817f1 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This is why you need to be using Vitamin C in your skincare routine!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

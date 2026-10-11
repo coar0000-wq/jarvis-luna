@@ -2,8 +2,14 @@
 title: "Record f73269e30b · Optimal-Exercise-and-Pricing-of-Swing-Options-with-Global-Constraints-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.276396+00:00
+updated_at: 2026-10-11T00:55:15.979630+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s10614-025-10994-1"
+kind: "논문"
 ---
 
 # Record f73269e30b · Optimal-Exercise-and-Pricing-of-Swing-Options-with-Global-Constraints-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Optimal Exercise and Pricing of Swing Options with Global Constraints under the Regime-Switching Model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

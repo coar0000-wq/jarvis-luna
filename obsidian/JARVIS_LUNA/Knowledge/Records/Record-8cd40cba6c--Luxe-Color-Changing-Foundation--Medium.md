@@ -2,8 +2,12 @@
 title: "Record 8cd40cba6c · Luxe-Color-Changing-Foundation--Medium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.102077+00:00
+updated_at: 2026-10-11T00:55:44.655998+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Luxe-Color-Changing-Foundation-Medium/dp/B0G1VBDXYF/ref=zg_bs_g_beauty_d_sccl_41/146-2119587-8197020"
 ---
 
 # Record 8cd40cba6c · Luxe-Color-Changing-Foundation--Medium
@@ -16,7 +20,3 @@ Luxe Color Changing Foundation – Medium
 Luxe Color Changing Foundation – Medium · $15.99 · 평점 4 · 리뷰 7,574
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

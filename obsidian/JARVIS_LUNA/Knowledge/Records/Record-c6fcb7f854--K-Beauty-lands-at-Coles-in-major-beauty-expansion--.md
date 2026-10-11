@@ -2,8 +2,12 @@
 title: "Record c6fcb7f854 · K-Beauty-lands-at-Coles-in-major-beauty-expansion---Retail-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.339048+00:00
+updated_at: 2026-10-11T00:55:32.735394+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUlFHclNjeFIyNlFlcWpRaTNUWkRFT3hzaUpPSGNCUEljTFV2VDN4dHNWanRLRW5DelgtVUMyREYzRnJ1SGFCVjVLc3EzSVlqd0s4RUtCWFJSbGNJa0w2Z216Q3g0VEtmdG1fT19iQS1MbEpsYUVTSHJFWF9Kci0tUjFIWXM?oc=5"
 ---
 
 # Record c6fcb7f854 · K-Beauty-lands-at-Coles-in-major-beauty-expansion---Retail-Beauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty lands at Coles in major beauty expansion - Retail Beauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

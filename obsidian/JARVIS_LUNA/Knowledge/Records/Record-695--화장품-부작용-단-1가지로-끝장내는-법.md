@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.156095+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=L-cHgKTG1N8"
 ---
 
 # Record 695 · 화장품-부작용-단-1가지로-끝장내는-법
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 화장품 부작용? 단 1가지로 끝장내는 법!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

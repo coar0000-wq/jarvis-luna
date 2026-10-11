@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.384739+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "Citigroup"
+domain: "openalex.org"
+url: "https://openalex.org/W7170111744"
 ---
 
 # Record 1796 · Leveraging-von-Mises-Message-Passing-for-Massive-MIMO-Detection
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Leveraging von Mises Message-Passing for Massive MIMO Detection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

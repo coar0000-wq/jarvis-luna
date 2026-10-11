@@ -2,8 +2,14 @@
 title: "Record d6b9f5e651 · Introducing-GPT-61-Sol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.641608+00:00
+updated_at: 2026-10-11T00:55:37.516679+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/introducing-gpt-6-1-sol"
+kind: "발표물"
 ---
 
 # Record d6b9f5e651 · Introducing-GPT-61-Sol
@@ -16,7 +22,3 @@ Introducing GPT-6.1 Sol
 Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

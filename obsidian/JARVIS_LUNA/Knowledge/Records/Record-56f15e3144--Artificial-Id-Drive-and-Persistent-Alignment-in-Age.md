@@ -2,8 +2,12 @@
 title: "Record 56f15e3144 · Artificial-Id-Drive-and-Persistent-Alignment-in-Age"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.084554+00:00
+updated_at: 2026-10-11T00:55:13.410234+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11911v1"
 ---
 
 # Record 56f15e3144 · Artificial-Id-Drive-and-Persistent-Alignment-in-Age
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Artificial Id: Drive and Persistent Alignment in Agentic AI
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

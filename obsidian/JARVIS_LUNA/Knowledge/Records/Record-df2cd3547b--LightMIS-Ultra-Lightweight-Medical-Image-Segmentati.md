@@ -2,8 +2,12 @@
 title: "Record df2cd3547b · LightMIS-Ultra-Lightweight-Medical-Image-Segmentation-Without-a-Stage-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.808704+00:00
+updated_at: 2026-10-11T00:55:24.543432+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "의료바이오"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.28327"
 ---
 
 # Record df2cd3547b · LightMIS-Ultra-Lightweight-Medical-Image-Segmentation-Without-a-Stage-
@@ -16,7 +20,3 @@ LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Deco
 We present LightMIS, a scalable family of ultra-lightweight convolutional networks for 2D binary medical image segmentation without a learned stage-wise decoder. LightMIS aligns the outputs of a five-level encoder to a common resolution using Scale-Aligned Projection blocks, aggregates them once, and refines the fused representation with an Adaptive Fusion Cascade. The cascade combines Adaptive Ke
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 2974bbfb7b · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.337695+00:00
+updated_at: 2026-10-11T00:55:32.725511+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeU5ma1UzWlFGRU03QTJrbzRxVkttanhONThlb3phdHBSQlFpNWhxVUhpVW4wcEV1Sm90UXpfd3lfU01JcW15ZFVkNlhEbzVwNVdOZmNwa2JYMGUwR0J4Nms1cUU3MWZzaFIwRU1Jd1B1X2V3ZDN4NVdXVnRKVVFPV1dqMlY?oc=5"
 ---
 
 # Record 2974bbfb7b · K-Beauty-Is-Booming--And-Us-Brits-Are-Loving-It---C
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty Is Booming – And Us Brits Are Loving It - Country and Town House
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

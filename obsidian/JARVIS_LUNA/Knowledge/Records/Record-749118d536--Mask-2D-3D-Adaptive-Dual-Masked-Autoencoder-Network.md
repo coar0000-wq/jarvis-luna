@@ -2,8 +2,12 @@
 title: "Record 749118d536 · Mask-2D-3D-Adaptive-Dual-Masked-Autoencoder-Network-for-Image-to-Point"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.121026+00:00
+updated_at: 2026-10-11T00:55:13.870619+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.18088"
 ---
 
 # Record 749118d536 · Mask-2D-3D-Adaptive-Dual-Masked-Autoencoder-Network-for-Image-to-Point
@@ -16,7 +20,3 @@ Mask 2D-3D: Adaptive Dual-Masked Autoencoder Network for Image-to-Point Cloud Re
 Detection-free methods for image-to-point cloud registration are prone to erroneous correspondences caused by domain and modality discrepancies, limited sensitivity of feature extractors, and the presence of non-overlapping regions. The Masked Autoencoder (MAE) has shown strong performance in visual representation for images and point clouds. It may be helpful to apply this approach to image-to-po
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

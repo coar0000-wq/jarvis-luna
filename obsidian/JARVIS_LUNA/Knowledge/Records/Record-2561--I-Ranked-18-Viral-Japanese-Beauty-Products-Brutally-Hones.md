@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.579273+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Ws6xXBa7BPI"
 ---
 
 # Record 2561 · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Ranked 18 Viral Japanese Beauty Products (Brutally Honest)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

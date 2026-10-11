@@ -2,8 +2,14 @@
 title: "Record 47ef05b27f · Indium-Thermal-Interface-Material-Assembly-Manufacturability-and-Relia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.604838+00:00
+updated_at: 2026-10-11T00:55:21.569006+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.4071/001c.162061"
+kind: "논문"
 ---
 
 # Record 47ef05b27f · Indium-Thermal-Interface-Material-Assembly-Manufacturability-and-Relia
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Indium Thermal Interface Material Assembly Manufacturability and Reliability
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

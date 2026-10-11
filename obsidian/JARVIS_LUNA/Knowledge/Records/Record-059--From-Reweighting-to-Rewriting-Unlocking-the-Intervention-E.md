@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.340680+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.02771v1"
 ---
 
 # Record 059 · From-Reweighting-to-Rewriting-Unlocking-the-Intervention-Effects-of-In
@@ -15,7 +19,3 @@ tags: [record, real-data]
 From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

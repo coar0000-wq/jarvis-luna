@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.938651+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "doi.org"
+url: "https://doi.org/10.55041/ijcope.v2i8.305"
 ---
 
 # Record 707 · Explainable-AI-in-Supply-Chain-Management-Opportunities-and-Research-C
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Explainable AI in Supply Chain Management: Opportunities and Research Challenges
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

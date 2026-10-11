@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.682044+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/physics-ai-research/"
 ---
 
 # Record 937 · Physics-AI-research-thats-shaping-the-industry
@@ -16,7 +21,3 @@ Physics AI research that’s shaping the industry.
 Published breakthroughs pushing the state of the art.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.535118+00:00
+updated_at: 2026-10-11T00:55:20.342651+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-9294634/v1"
+kind: "논문"
 ---
 
 # Record 6a29e373d0 · Stress-and-Substitution-A-Theory-of-Opaque-Capital-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Stress and Substitution: A Theory of Opaque-Capital Allocation under Macro-Financial Pressure; Germany Illustration with Public-Data Validation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

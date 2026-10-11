@@ -2,8 +2,14 @@
 title: "Record f4a9947413 · NAVIGATING-BUSINESS-INTELLIGENCE-TOOLS-STRATEGIES-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.598689+00:00
+updated_at: 2026-10-11T00:55:21.456016+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.37547/tajet/volume06issue10-14a"
+kind: "논문"
 ---
 
 # Record f4a9947413 · NAVIGATING-BUSINESS-INTELLIGENCE-TOOLS-STRATEGIES-T
@@ -15,7 +21,3 @@ tags: [record, real-data]
 NAVIGATING BUSINESS INTELLIGENCE TOOLS: STRATEGIES TO DRIVE BUSINESS GROWTH
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

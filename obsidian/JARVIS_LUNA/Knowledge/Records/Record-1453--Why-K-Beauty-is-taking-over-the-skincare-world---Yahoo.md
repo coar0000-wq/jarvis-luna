@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:25.988693+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FSi1uVDZIUUw2Z21IbVEtRW5WanVWdFhNZ0F4NmNhTlJuYWQwcjlraEJpN0FhaEY0b2x3dVlWZjlfMXZzNG16VjYwUmtKLVBXNTc0aHNrbzZJdHlNeG9XaWdLQm9CNkYwbF9KR0FUUjVySC1lanZRTlh0NnVtQQ?oc=5"
 ---
 
 # Record 1453 · Why-K-Beauty-is-taking-over-the-skincare-world---Yahoo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why K-Beauty is taking over the skincare world - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

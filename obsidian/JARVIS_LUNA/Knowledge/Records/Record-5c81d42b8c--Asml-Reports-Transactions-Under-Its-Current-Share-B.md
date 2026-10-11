@@ -2,8 +2,14 @@
 title: "Record 5c81d42b8c · Asml-Reports-Transactions-Under-Its-Current-Share-B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.415204+00:00
+updated_at: 2026-10-11T00:55:48.635170+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/share-buyback/2026/asml-reports-transactions-under-its-current-share-buyback-program-25"
+kind: "발표물"
 ---
 
 # Record 5c81d42b8c · Asml-Reports-Transactions-Under-Its-Current-Share-B
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Asml Reports Transactions Under Its Current Share Buyback Program 25
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

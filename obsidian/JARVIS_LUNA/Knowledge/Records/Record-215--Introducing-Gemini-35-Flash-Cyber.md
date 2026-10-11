@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.375871+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
 ---
 
 # Record 215 · Introducing-Gemini-35-Flash-Cyber
@@ -16,7 +21,3 @@ Introducing Gemini 3.5 Flash Cyber
 Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

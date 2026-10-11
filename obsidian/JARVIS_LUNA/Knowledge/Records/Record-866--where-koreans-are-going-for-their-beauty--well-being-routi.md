@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.167442+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Nu53l3Fnobk"
 ---
 
 # Record 866 · where-koreans-are-going-for-their-beauty--well-being-routine-sauna-in-
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 where koreans are going for their beauty & well being routine! sauna in korea #bathhouse #sauna
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

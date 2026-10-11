@@ -2,8 +2,14 @@
 title: "Record aed148d62b · Estimating-heatwave-induced-excess-mortality-in-Ind"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.572118+00:00
+updated_at: 2026-10-11T00:55:20.997701+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.3389/fenvh.2026.1789071"
+kind: "논문"
 ---
 
 # Record aed148d62b · Estimating-heatwave-induced-excess-mortality-in-Ind
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Estimating heatwave-induced excess mortality in India's districts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

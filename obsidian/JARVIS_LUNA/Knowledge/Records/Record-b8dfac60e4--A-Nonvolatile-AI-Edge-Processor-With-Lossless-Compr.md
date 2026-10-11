@@ -2,8 +2,14 @@
 title: "Record b8dfac60e4 · A-Nonvolatile-AI-Edge-Processor-With-Lossless-Compressed-Computing-STT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.428801+00:00
+updated_at: 2026-10-11T00:55:18.602481+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1109/jssc.2026.3705432"
+kind: "논문"
 ---
 
 # Record b8dfac60e4 · A-Nonvolatile-AI-Edge-Processor-With-Lossless-Compressed-Computing-STT
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Nonvolatile AI-Edge Processor With Lossless-Compressed-Computing STT-MRAM Near-Memory-Compute Macro Using Dynamic Floating-/Fixed-Point Accumulation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

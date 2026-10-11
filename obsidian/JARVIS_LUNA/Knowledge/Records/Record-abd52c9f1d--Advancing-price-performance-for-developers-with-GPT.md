@@ -2,8 +2,14 @@
 title: "Record abd52c9f1d · Advancing-price-performance-for-developers-with-GPT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.635114+00:00
+updated_at: 2026-10-11T00:55:37.443990+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/gpt-5-6-in-kiro"
+kind: "발표물"
 ---
 
 # Record abd52c9f1d · Advancing-price-performance-for-developers-with-GPT
@@ -16,7 +22,3 @@ Advancing price-performance for developers with GPT‑5.6 in Kiro
 GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

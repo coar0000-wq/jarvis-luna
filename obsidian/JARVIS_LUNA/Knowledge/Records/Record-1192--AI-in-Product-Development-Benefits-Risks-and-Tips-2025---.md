@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:25.899903+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mS3h1RUFTZFQwTUd0QkNKV1pSZ2ZEdGxxUkNaMXBoNG9Jam1jVFVHRHRveW9QZWV3c1dFa29nTkxlQlhkU0dJUzd6Q2lEdnhzenVCbDdGUGx3cGVPNEFzUXFxNkc?oc=5"
 ---
 
 # Record 1192 · AI-in-Product-Development-Benefits-Risks-and-Tips-2025---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI in Product Development: Benefits, Risks, and Tips (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

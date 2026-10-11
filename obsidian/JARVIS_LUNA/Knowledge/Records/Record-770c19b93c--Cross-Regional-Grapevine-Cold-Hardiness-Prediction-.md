@@ -2,8 +2,12 @@
 title: "Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.913848+00:00
+updated_at: 2026-10-11T00:55:11.379676+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31097v1"
 ---
 
 # Record 770c19b93c · Cross-Regional-Grapevine-Cold-Hardiness-Prediction-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Cross-Regional Grapevine Cold Hardiness Prediction via Learned Multimodal Latent Representations
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

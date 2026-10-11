@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.285417+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7165816707"
 ---
 
 # Record 1769 · A-semi-Lagrangian-method-for-the-polyatomic-ESBGK-model
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A semi-Lagrangian method for the polyatomic ESBGK model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

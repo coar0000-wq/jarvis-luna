@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.336147+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28524v1"
 ---
 
 # Record 030 · Texture-Image-Classification-Using-DWT-AlexNet-Feature-Fusion-and-Deep
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

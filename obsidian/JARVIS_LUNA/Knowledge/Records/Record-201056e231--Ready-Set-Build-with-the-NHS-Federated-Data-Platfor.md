@@ -2,8 +2,14 @@
 title: "Record 201056e231 · Ready-Set-Build-with-the-NHS-Federated-Data-Platfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.234789+00:00
+updated_at: 2026-10-11T00:55:15.268348+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "blog.palantir.com"
+url: "https://blog.palantir.com/ready-set-build-with-the-nhs-federated-data-platform-41405fa4c226?source=rss----3c87dc14372f---4"
+kind: "발표물"
 ---
 
 # Record 201056e231 · Ready-Set-Build-with-the-NHS-Federated-Data-Platfor
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ready, Set, Build with the NHS Federated Data Platform
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

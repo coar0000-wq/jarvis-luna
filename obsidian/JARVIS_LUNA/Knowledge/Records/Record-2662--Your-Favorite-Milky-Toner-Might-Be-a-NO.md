@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.907960+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/o5mj8BE57bs"
 ---
 
 # Record 2662 · Your-Favorite-Milky-Toner-Might-Be-a-NO
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Your Favorite Milky Toner Might Be a NO
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

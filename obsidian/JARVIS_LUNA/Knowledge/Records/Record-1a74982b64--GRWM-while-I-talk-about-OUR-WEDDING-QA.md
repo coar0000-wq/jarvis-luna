@@ -2,8 +2,12 @@
 title: "Record 1a74982b64 · GRWM-while-I-talk-about-OUR-WEDDING-QA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.725305+00:00
+updated_at: 2026-10-11T00:55:54.388154+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=QjxZk3cJx9k"
 ---
 
 # Record 1a74982b64 · GRWM-while-I-talk-about-OUR-WEDDING-QA
@@ -15,7 +19,3 @@ tags: [record, real-data]
 GRWM while I talk about OUR WEDDING💍✨ Q&A!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

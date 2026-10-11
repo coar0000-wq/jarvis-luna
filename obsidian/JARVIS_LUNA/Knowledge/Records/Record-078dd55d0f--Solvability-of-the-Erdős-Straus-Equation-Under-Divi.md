@@ -2,8 +2,14 @@
 title: "Record 078dd55d0f · Solvability-of-the-Erdős-Straus-Equation-Under-Divisibility-Conditions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.547717+00:00
+updated_at: 2026-10-11T00:55:20.601971+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.6413898"
+kind: "논문"
 ---
 
 # Record 078dd55d0f · Solvability-of-the-Erdős-Straus-Equation-Under-Divisibility-Conditions
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Solvability of the Erdős-Straus Equation Under Divisibility Conditions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

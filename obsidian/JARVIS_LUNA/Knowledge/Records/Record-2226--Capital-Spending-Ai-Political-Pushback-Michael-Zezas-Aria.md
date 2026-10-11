@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.108309+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/capital-spending-ai-political-pushback-michael-zezas-ariana-salvatore"
 ---
 
 # Record 2226 · Capital-Spending-Ai-Political-Pushback-Michael-Zezas-Ariana-Salvatore
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Capital Spending Ai Political Pushback Michael Zezas Ariana Salvatore
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

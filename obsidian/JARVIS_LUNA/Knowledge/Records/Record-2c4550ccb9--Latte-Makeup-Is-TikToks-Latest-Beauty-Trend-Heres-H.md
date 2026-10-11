@@ -2,8 +2,12 @@
 title: "Record 2c4550ccb9 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.494114+00:00
+updated_at: 2026-10-11T00:55:35.419914+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU0s2czdWcVFQRzhpQjYxc2VrVjY4TEVqTmVhaHp6OTYxX3FPbkdMRUp4Q0hzbnQ5bWUyWER0d2pSUGxscExmaVJJaDdCNE1YSk50V0lqS25lTGdHZEhRMkxveV8ta0ZDb3ROSGpvbWVhMjZVMElIS2Q0MGY2Z1ZpREZ1MDJ6MmhJZVdPV3l4cXc1ZTNETXlXMEQ0TFgyM3VEbkdFWGxHUm9yUQ?oc=5"
 ---
 
 # Record 2c4550ccb9 · Latte-Makeup-Is-TikToks-Latest-Beauty-Trend-Heres-H
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Latte Makeup Is TikTok's Latest Beauty Trend: Here's How To Get The Look - Girls' Life
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

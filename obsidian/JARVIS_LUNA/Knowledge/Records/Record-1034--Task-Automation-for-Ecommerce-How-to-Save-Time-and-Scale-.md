@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.179356+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5EeFFGbC0wU2x5MjkzUEgzdzFwNHhNRUh3TUVvMFhVZEthRzJLbkptYTZoenJzc0VxQUxyMlp4amhPRVBoQzQ3UWxaZjhOUEhLdkZGNG83UGh3ZFpsYjNwRlF0dUk1QQ?oc=5"
 ---
 
 # Record 1034 · Task-Automation-for-Ecommerce-How-to-Save-Time-and-Scale-2025---Shopif
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Task Automation for Ecommerce: How to Save Time and Scale (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

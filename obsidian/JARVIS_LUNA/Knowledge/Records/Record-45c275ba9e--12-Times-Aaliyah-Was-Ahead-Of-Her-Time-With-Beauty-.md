@@ -2,8 +2,12 @@
 title: "Record 45c275ba9e · 12-Times-Aaliyah-Was-Ahead-Of-Her-Time-With-Beauty-Trends---essencecom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.280562+00:00
+updated_at: 2026-10-11T00:55:31.647582+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJUVVFUmVaZHZxRTZzZGVyZ2QyeXBadFZkWVdZUUg0ZC1xM1o5WjZUb0J5STlvQWZYU3Y0V3p1aVdQU2lVUjA1X2FYZWE4X0ZNY2R0ZmI5ZTFfekVacGx2X2RqbldpMXNkQ0dVTWFiU1dTSzN1cEJKeDduRQ?oc=5"
 ---
 
 # Record 45c275ba9e · 12-Times-Aaliyah-Was-Ahead-Of-Her-Time-With-Beauty-Trends---essencecom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 12 Times Aaliyah Was Ahead Of Her Time With Beauty Trends - essence.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

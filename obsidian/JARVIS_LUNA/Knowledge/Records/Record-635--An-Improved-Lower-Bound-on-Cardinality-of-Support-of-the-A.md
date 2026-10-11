@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.450082+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tit.2026.3697668"
 ---
 
 # Record 635 · An-Improved-Lower-Bound-on-Cardinality-of-Support-of-the-Amplitude-Con
@@ -15,7 +20,3 @@ tags: [record, real-data]
 An Improved Lower Bound on Cardinality of Support of the Amplitude-Constrained AWGN Channel
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

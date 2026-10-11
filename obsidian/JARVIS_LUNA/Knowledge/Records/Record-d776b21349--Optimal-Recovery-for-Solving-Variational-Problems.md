@@ -2,8 +2,14 @@
 title: "Record d776b21349 · Optimal-Recovery-for-Solving-Variational-Problems"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.826498+00:00
+updated_at: 2026-10-11T00:55:24.752612+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.30049"
+kind: "논문"
 ---
 
 # Record d776b21349 · Optimal-Recovery-for-Solving-Variational-Problems
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Optimal Recovery for Solving Variational Problems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

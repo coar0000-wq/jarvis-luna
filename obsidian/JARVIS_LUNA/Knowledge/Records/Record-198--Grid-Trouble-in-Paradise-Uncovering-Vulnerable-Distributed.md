@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.368242+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07783v1"
 ---
 
 # Record 198 · Grid-Trouble-in-Paradise-Uncovering-Vulnerable-Distributed-Energy-Reso
@@ -16,7 +20,3 @@ Grid Trouble in Paradise: Uncovering Vulnerable Distributed Energy Resources and
 Grid-connected solar distributed energy resources (DERs), such as solar inverters and monitoring platforms, have been deployed at unprecedented scale over the past few years, with global solar capacity more than doubling since 2022. To support monitoring and control, many of these systems are Internet-connected and configured by installers or end users, yet the real-world scale of their Internet e
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

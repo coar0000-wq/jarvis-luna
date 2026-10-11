@@ -2,8 +2,12 @@
 title: "Record 57ae5ca9af · Optimal-chemo-immunotherapy-scheduling-A-hybrid-QPS"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.053322+00:00
+updated_at: 2026-10-11T00:55:13.097977+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11213v1"
 ---
 
 # Record 57ae5ca9af · Optimal-chemo-immunotherapy-scheduling-A-hybrid-QPS
@@ -16,7 +20,3 @@ Optimal chemo-immunotherapy scheduling: A hybrid QPSO-SQP approach with Michaeli
 Optimal scheduling of combined chemo-immunotherapy is often formulated as a control-affine optimal control problem, which generically yields boundary-selected (bang-bang-type) protocols unless singular arcs occur. This structure, while convenient, neglects saturating pharmacodynamics at high dose rates. We incorporate Michaelis-Menten saturation directly into the therapy channels, making the dynam
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

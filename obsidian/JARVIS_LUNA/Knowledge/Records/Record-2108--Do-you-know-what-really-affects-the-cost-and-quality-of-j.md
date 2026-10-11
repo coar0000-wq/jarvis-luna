@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.222209+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/fLMt9WLwFP8"
 ---
 
 # Record 2108 · Do-you-know-what-really-affects-the-cost-and-quality-of-jewelry
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Do you know what really affects the cost and quality of jewelry? 💎
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

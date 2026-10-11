@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.523349+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
 ---
 
 # Record 1032 · Broadcom-Inc-Announces-Third-Quarter-Fiscal-Year-2026-Financial-Result
@@ -16,7 +21,3 @@ Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results and Qua
 Revenue of $29.6 billion for the third quarter, up 86 percent from the prior year period GAAP operating income of $16.0 billion for the third quarter; Non-GAAP operating income of $20.1 billion for the third quarter GAAP diluted EPS of $2.68 for the third quarter; Non-GAAP diluted EPS of $3.32 for
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

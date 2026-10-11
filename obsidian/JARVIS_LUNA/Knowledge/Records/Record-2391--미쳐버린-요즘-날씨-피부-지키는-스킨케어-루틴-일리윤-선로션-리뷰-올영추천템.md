@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.609270+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/cW19Ymuwnxw"
 ---
 
 # Record 2391 · 미쳐버린-요즘-날씨-피부-지키는-스킨케어-루틴-일리윤-선로션-리뷰-올영추천템
@@ -15,7 +19,3 @@ tags: [record, real-data]
 😵미쳐버린 요즘 날씨 피부 지키는 스킨케어 루틴 +일리윤 선로션 리뷰 #올영추천템
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

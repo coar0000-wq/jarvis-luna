@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.296224+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/AgIQT8Mrx1s"
 ---
 
 # Record 2178 · 71-year-old-korean-mama-finally-found-a-vitamin-c-serum-thatll-make-he
@@ -15,7 +19,3 @@ tags: [record, real-data]
 71-year-old korean mama finally found a vitamin c serum that'll make her skin look like this!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

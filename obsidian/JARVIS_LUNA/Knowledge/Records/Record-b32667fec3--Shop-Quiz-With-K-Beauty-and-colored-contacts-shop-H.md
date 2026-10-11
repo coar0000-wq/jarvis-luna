@@ -2,8 +2,12 @@
 title: "Record b32667fec3 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.292355+00:00
+updated_at: 2026-10-11T00:55:31.874023+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xMzJBLW5FelJDZlpPcjY1ZFZSR2MyZG50Sy12UGtjQmV5YUZwLTk2djlZendUd0ppVlVQalhsREdlWjI1SGR0R3BkeWY4Nks3R2x0Wmw2b1VqVEotS01XQkkyT0dKa0tscTF5ZnliVFNkZFRtVlpEOFJ3?oc=5"
 ---
 
 # Record b32667fec3 · Shop-Quiz-With-K-Beauty-and-colored-contacts-shop-H
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shop Quiz! With K-Beauty and colored contacts shop Hapa Kristin - inRegister
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

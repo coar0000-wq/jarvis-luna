@@ -2,8 +2,14 @@
 title: "Record 479952f9bf · Corporate-Pension-Risk-Transfers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.500384+00:00
+updated_at: 2026-10-11T00:55:19.843034+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.1287/mnsc.2024.05523"
+kind: "논문"
 ---
 
 # Record 479952f9bf · Corporate-Pension-Risk-Transfers
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Corporate Pension Risk Transfers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

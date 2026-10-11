@@ -2,8 +2,14 @@
 title: "Record b7c187c43b · Bringing-more-control-over-your-connectors"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.095142+00:00
+updated_at: 2026-10-11T00:55:28.465127+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/more-control-over-connectors/"
+kind: "발표물"
 ---
 
 # Record b7c187c43b · Bringing-more-control-over-your-connectors
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Bringing more control over your connectors
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

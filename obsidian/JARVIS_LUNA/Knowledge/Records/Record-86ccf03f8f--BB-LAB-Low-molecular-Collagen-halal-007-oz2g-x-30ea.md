@@ -2,8 +2,12 @@
 title: "Record 86ccf03f8f · BB-LAB-Low-molecular-Collagen-halal-007-oz2g-x-30ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.774304+00:00
+updated_at: 2026-10-11T00:55:39.728633+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA17018525"
 ---
 
 # Record 86ccf03f8f · BB-LAB-Low-molecular-Collagen-halal-007-oz2g-x-30ea
@@ -16,7 +20,3 @@ BB LAB Low-molecular Collagen (halal) 0.07 oz.(2g) x 30ea
 BB LAB Low-molecular Collagen (halal) 0.07 oz.(2g) x 30ea · 평점 4 · 리뷰 3
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

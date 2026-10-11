@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.828812+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.target.com"
+url: "https://www.target.com/c/beauty/-/N-5xu0o"
 ---
 
 # Record 1979 · Target-Beauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Target Beauty
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

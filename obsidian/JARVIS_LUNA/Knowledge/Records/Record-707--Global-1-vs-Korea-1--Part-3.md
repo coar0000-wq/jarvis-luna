@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.737005+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/7Vx-gfHfFBQ"
 ---
 
 # Record 707 · Global-1-vs-Korea-1--Part-3
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Global #1 vs Korea #1 👀 (Part 3)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

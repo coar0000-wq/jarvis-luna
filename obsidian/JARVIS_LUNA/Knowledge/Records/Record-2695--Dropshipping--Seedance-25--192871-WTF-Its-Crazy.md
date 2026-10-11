@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.938172+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=VXf2IivluLI"
 ---
 
 # Record 2695 · Dropshipping--Seedance-25--192871-WTF-Its-Crazy
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Dropshipping + Seedance 2.5 = $192,871 (WTF It’s Crazy)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

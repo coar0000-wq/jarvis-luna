@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.621515+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7168434205"
 ---
 
 # Record 1803 · FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for-AI-accelerators
@@ -15,7 +20,3 @@ tags: [record, real-data]
 FastTPS: An Optimized Method for LLM Token Phase for AI accelerators
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

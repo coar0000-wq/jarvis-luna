@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.786685+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7169688845"
 ---
 
 # Record 1787 · AlphaWiSE-Adaptive-Weight-Interpolation-for-Continual-Multimodal-Repre
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AlphaWiSE: Adaptive Weight Interpolation for Continual Multimodal Representation Learning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

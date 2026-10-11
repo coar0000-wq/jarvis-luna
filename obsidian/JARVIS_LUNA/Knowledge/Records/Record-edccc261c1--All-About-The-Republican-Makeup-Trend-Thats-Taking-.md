@@ -2,8 +2,12 @@
 title: "Record edccc261c1 · All-About-The-Republican-Makeup-Trend-Thats-Taking-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.330127+00:00
+updated_at: 2026-10-11T00:55:32.580766+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRV9QWHN0NXNCZ01yVlhEeXZuSnBnNTExUEQxUFRWdWZ4MTFYX1JxUV8xeGRLdlRVaUJmbzRDZFFUUnpBMEdyMDRXS210c1RvRW00RnEwUy1tX0hGUDlLLXhneHFvUkRNOE5nZHp1RDVwVGJJWkVBSnVIbmN0NjRldjV3?oc=5"
 ---
 
 # Record edccc261c1 · All-About-The-Republican-Makeup-Trend-Thats-Taking-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 All About The ‘Republican Makeup’ Trend That’s Taking Over TikTok - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

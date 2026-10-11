@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.605080+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVliRVE1Z1piVE1wQ0lJX0JXVFEwSGd2M3ZMXzRCc2wzeWYwSnd3d01lYmNXV1RCWnF4RFF5Sl9SMVZQVGpjWWJXRkFLeU9JU2JwYlFKeDZyVXFxQ3JsUEhkLXhCZDBxX09QVmprNjRvLVhubWx5YkFiOF85aERsUUlLQ3RZT0RrWm1oZkVpbkw0a1Y2LTZVWHd0LU0zc1Naa0RNQ2dSaTdSQnVxbUgzUg?oc=5"
 ---
 
 # Record 707 · Shopify-Debuts-AI-Powered-Store-Builder-for-Merchants---PYMNTScom
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Shopify Debuts AI-Powered Store Builder for Merchants - PYMNTS.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

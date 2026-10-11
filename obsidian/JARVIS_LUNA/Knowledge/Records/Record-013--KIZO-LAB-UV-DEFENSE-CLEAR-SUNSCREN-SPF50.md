@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.333401+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "api.fda.gov"
+url: "https://api.fda.gov/drug/label.json?search=id:497ed1ba-ebe5-a00a-e063-6394a90a447c"
 ---
 
 # Record 013 · KIZO-LAB-UV-DEFENSE-CLEAR-SUNSCREN-SPF50
@@ -16,7 +20,3 @@ KIZO LAB UV DEFENSE CLEAR SUNSCREN SPF50
 KIZO LAB UV DEFENSE CLEAR SUNSCREN SPF50
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

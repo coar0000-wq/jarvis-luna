@@ -2,8 +2,12 @@
 title: "Record 7d3a84362d · EVERYTHING-I-bought-in-Japan-as-a-Japanese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.731709+00:00
+updated_at: 2026-10-11T00:55:54.497810+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=eYI9nWAan_U"
 ---
 
 # Record 7d3a84362d · EVERYTHING-I-bought-in-Japan-as-a-Japanese
@@ -15,7 +19,3 @@ tags: [record, real-data]
 EVERYTHING I bought in Japan as a Japanese~ 🇯🇵✨
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

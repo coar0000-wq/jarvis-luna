@@ -2,8 +2,12 @@
 title: "Record 955ffa75b9 · Belief-State-Engine-Augmenting-LLMs-for-Principled-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.021670+00:00
+updated_at: 2026-10-11T00:55:12.673205+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10036v1"
 ---
 
 # Record 955ffa75b9 · Belief-State-Engine-Augmenting-LLMs-for-Principled-
@@ -16,7 +20,3 @@ Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Obser
 Large language model agents produce fluent action sequences across a wide range of tasks, yet they fail in characteristic ways once the environment becomes partially observable. Ambiguous feedback pushes them into premature commitments. A single informative observation can collapse their uncertainty onto the wrong hypothesis. Policies drift as the history grows. We trace these symptoms to a common
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 1ce5d7e274 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Lo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.080819+00:00
+updated_at: 2026-10-11T00:55:28.256176+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1293/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference-solution"
+kind: "발표물"
 ---
 
 # Record 1ce5d7e274 · AMD-and-Cerebras-Announce-Industry-Leading-Ultra-Lo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AMD and Cerebras Announce Industry-Leading Ultra-Low-Latency and High Throughput AI Inference Solution
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

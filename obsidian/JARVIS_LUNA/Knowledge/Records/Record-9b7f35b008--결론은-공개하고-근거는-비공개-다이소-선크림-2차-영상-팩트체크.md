@@ -2,8 +2,12 @@
 title: "Record 9b7f35b008 · 결론은-공개하고-근거는-비공개-다이소-선크림-2차-영상-팩트체크"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.727298+00:00
+updated_at: 2026-10-11T00:55:54.420651+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=US0fWW7-elY"
 ---
 
 # Record 9b7f35b008 · 결론은-공개하고-근거는-비공개-다이소-선크림-2차-영상-팩트체크
@@ -15,7 +19,3 @@ tags: [record, real-data]
 결론은 공개하고 근거는 비공개? 다이소 선크림 2차 영상 팩트체크
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

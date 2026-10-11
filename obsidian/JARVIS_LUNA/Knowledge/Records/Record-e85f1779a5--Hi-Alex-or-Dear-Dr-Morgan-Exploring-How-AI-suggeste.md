@@ -2,8 +2,14 @@
 title: "Record e85f1779a5 · Hi-Alex-or-Dear-Dr-Morgan-Exploring-How-AI-suggested-Politeness-Strate"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.479223+00:00
+updated_at: 2026-10-11T00:55:19.476896+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3816942"
+kind: "논문"
 ---
 
 # Record e85f1779a5 · Hi-Alex-or-Dear-Dr-Morgan-Exploring-How-AI-suggested-Politeness-Strate
@@ -15,7 +21,3 @@ tags: [record, real-data]
 "Hi Alex" or "Dear Dr. Morgan"?: Exploring How AI-suggested Politeness Strategies Influence Email Writing and Social Perception Among Native and Non-native Speakers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

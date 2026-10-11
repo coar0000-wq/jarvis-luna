@@ -2,8 +2,14 @@
 title: "Record a213a4c2b7 · Towards-a-Data-Analysis-Recommendation-System"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.660370+00:00
+updated_at: 2026-10-11T00:55:37.776158+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "openalex.org"
+url: "https://openalex.org/W1799670520"
+kind: "논문"
 ---
 
 # Record a213a4c2b7 · Towards-a-Data-Analysis-Recommendation-System
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Towards a Data Analysis Recommendation System
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

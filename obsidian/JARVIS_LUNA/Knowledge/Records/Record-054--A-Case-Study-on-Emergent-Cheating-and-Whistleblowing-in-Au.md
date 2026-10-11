@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.858899+00:00
 tags: [knowledge-graph, record, arxiv]
+source: "arXiv"
+topics: ["AI-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04170v1"
 ---
 
 # Record 054 · A-Case-Study-on-Emergent-Cheating-and-Whistleblowing-in-Autonomous-Res
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, arxiv]
 A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

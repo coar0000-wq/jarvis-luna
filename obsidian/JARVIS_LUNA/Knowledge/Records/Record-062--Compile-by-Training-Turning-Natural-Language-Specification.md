@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.859397+00:00
 tags: [knowledge-graph, record, arxiv]
+source: "arXiv"
+topics: ["Machine-Learning-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04199v1"
 ---
 
 # Record 062 · Compile-by-Training-Turning-Natural-Language-Specifications-into-Local
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, arxiv]
 Compile by Training: Turning Natural-Language Specifications into Local Neural Functions
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]

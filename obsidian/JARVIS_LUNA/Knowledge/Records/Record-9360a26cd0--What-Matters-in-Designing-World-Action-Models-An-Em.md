@@ -2,8 +2,14 @@
 title: "Record 9360a26cd0 · What-Matters-in-Designing-World-Action-Models-An-Empirical-Study"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.762241+00:00
+updated_at: 2026-10-11T00:55:23.917641+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24048"
+kind: "논문"
 ---
 
 # Record 9360a26cd0 · What-Matters-in-Designing-World-Action-Models-An-Empirical-Study
@@ -15,7 +21,3 @@ tags: [record, real-data]
 What Matters in Designing World Action Models: An Empirical Study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

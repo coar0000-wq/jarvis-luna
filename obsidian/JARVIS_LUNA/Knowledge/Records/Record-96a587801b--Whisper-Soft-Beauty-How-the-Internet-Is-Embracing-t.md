@@ -2,8 +2,12 @@
 title: "Record 96a587801b · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.332824+00:00
+updated_at: 2026-10-11T00:55:32.628998+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdU5RUkFCN1NtUWJLdkpRMW43dWJfUTFfNlQwSFJuZmtkTHBWT0lILWNqMENRSnJEXzhXcUxYdjNsalRvNTJwMG5HZnZVUTUzZTBGVk9VT1VVV3dCbE5NQTExR2Jsd2RQMFdXM0phLU1MamN6VGRsRk9DUjdFQXg5Z3B3?oc=5"
 ---
 
 # Record 96a587801b · Whisper-Soft-Beauty-How-the-Internet-Is-Embracing-t
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Whisper-Soft Beauty: How the Internet Is Embracing the Demure Beauty Trend - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

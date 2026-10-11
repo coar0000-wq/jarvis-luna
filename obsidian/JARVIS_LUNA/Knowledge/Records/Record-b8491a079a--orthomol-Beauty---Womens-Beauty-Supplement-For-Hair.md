@@ -2,8 +2,12 @@
 title: "Record b8491a079a · orthomol-Beauty---Womens-Beauty-Supplement-For-Hair-Skin--Nail-Health-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.855529+00:00
+updated_at: 2026-10-11T00:55:41.089692+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "의료바이오"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA84319379"
 ---
 
 # Record b8491a079a · orthomol-Beauty---Womens-Beauty-Supplement-For-Hair-Skin--Nail-Health-
@@ -16,7 +20,3 @@ orthomol Beauty - Women's Beauty Supplement For Hair, Skin & Nail Health With Co
 orthomol Beauty - Women's Beauty Supplement For Hair, Skin & Nail Health With Collagen & CoQ 10 (30-day Supply)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

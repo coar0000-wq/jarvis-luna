@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.391399+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Image-Generation"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVFVKQTBOaUFMWWJXZ0NCZXVqVlpyTWM2TUhwS19seFFDSTVmcmc2dk5FWktpcFlVeXpOTEJlSWUzSEV4QzN6MzduNlp4eXlEUlVuSTJhX0JiNWt2ZU9wazNpMm9ZaGZESDdQUnJOMGZ3SkF1VXBBQmFFc1JLN3o2dVRwN3lNcGdQb3c4bzdMRUhSX1V0cHE0NG4xZE5Ed2JwSnhuV2ZhMEtvTzRBUW5GdENpOA?oc=5"
 ---
 
 # Record 522 · Shopify-Faces-Generative-AI-eCommerce-Competition-with-10Web---Forbes
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Shopify Faces Generative AI eCommerce Competition with 10Web - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Image-Generation]] [[JARVIS Real Knowledge Index]]

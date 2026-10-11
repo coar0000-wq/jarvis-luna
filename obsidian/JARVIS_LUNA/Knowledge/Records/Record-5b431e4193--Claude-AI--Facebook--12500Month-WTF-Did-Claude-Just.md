@@ -2,8 +2,12 @@
 title: "Record 5b431e4193 · Claude-AI--Facebook--12500Month-WTF-Did-Claude-Just"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.732683+00:00
+updated_at: 2026-10-11T00:55:54.517267+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=fXot7pv9d-k"
 ---
 
 # Record 5b431e4193 · Claude-AI--Facebook--12500Month-WTF-Did-Claude-Just
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude AI + Facebook = $12,500/Month (WTF Did Claude Just Do?!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

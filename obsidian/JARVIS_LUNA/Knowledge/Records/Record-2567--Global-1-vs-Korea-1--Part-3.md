@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.909943+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/7Vx-gfHfFBQ"
 ---
 
 # Record 2567 · Global-1-vs-Korea-1--Part-3
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Global #1 vs Korea #1 👀 (Part 3)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

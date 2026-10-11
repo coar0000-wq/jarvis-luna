@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.411253+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.electacta.2026.149938"
 ---
 
 # Record 427 · Dual-Site-Catalysis-in-Cu2ZnSnS4-Derived-Electrocatalysts-for-Selectiv
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Dual-Site Catalysis in Cu2ZnSnS4-Derived Electrocatalysts for Selectivity-Tunable High-Rate Electrochemical CO2 Reduction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 596f99d94c · There-are-K-Beauty-Toner-Pads-for-Legit-Every-Skincare-ConcernEditors-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.292811+00:00
+updated_at: 2026-10-11T00:55:31.881971+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTE51X3N0RkJ5UUFOczdKQ2xiV24wOEJsMGlUUU1vTnJIWGZXd0VJVDZtcExtbHh5VWwwUVpzYXVqYklvc29sSF9zaUtnbDUybF9iTGxVWE1PVkxOZGVacVNUT2REeG42TGtPaGNUdjF6a08zSG40M3Z5d0JR?oc=5"
 ---
 
 # Record 596f99d94c · There-are-K-Beauty-Toner-Pads-for-Legit-Every-Skincare-ConcernEditors-
@@ -16,7 +20,3 @@ There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love Th
 There are K-Beauty Toner Pads for Legit Every Skincare Concern—Editors Love These 9 for Smooth, Glowy Skin - cosmopolitan.com
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

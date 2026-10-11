@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.710153+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=O5YCzj2AD3c"
 ---
 
 # Record 718 · His-skin-care-routine-is-somethin-else-whew
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 His skin care routine is... somethin else whew
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record b77cf8f952 · Collision-Snapshot-Guided-Time-Reversed-Safety-Crit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.983017+00:00
+updated_at: 2026-10-11T00:55:12.265624+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06433v1"
 ---
 
 # Record b77cf8f952 · Collision-Snapshot-Guided-Time-Reversed-Safety-Crit
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Collision Snapshot Guided Time-Reversed Safety-Critical Scenario Generation
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

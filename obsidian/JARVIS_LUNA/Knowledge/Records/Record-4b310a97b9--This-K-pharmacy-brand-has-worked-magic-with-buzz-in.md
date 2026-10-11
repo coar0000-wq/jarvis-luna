@@ -2,8 +2,12 @@
 title: "Record 4b310a97b9 · This-K-pharmacy-brand-has-worked-magic-with-buzz-ingredient-PDRN--and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.391006+00:00
+updated_at: 2026-10-11T00:55:33.604582+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUXRPemtXbzktWU9TWUx1eGFUQUtwR0ZVOHdqWGpBSVR5RVhoelMzdzJtOXhUaXZsY1hIdF9ySElTNHJnQ3RSTWo1dFV5VUszS1ZIM1hsd2drdFEyemdpdjFBR0p5UW1KM0tJNVFRM00tUGIzM0dhU0MzOWtJNWhmQUZRbXNiRmpmLXpzY0dRbw?oc=5"
 ---
 
 # Record 4b310a97b9 · This-K-pharmacy-brand-has-worked-magic-with-buzz-ingredient-PDRN--and-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This K-pharmacy brand has worked magic with buzz ingredient PDRN – and now you can snap it up in Boots - Get the Gloss
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

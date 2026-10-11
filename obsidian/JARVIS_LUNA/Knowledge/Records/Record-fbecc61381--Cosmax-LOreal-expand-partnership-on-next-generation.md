@@ -2,8 +2,12 @@
 title: "Record fbecc61381 · Cosmax-LOreal-expand-partnership-on-next-generation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.133519+00:00
+updated_at: 2026-10-11T00:55:29.151470+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oMmM5MHJDemVfd1NMbzhlTWh1VzZPN1hXN2d5MFBlanItRnhTcWp2cnpmZkt4WVlOb1A1d0EwQUd4VjNJMHNUTXQ1RkItVTNjcjRzcUo3SQ?oc=5"
 ---
 
 # Record fbecc61381 · Cosmax-LOreal-expand-partnership-on-next-generation
@@ -16,7 +20,3 @@ Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Hera
 Cosmax, L'Oreal expand partnership on next-generation cosmetics - The Korea Herald
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

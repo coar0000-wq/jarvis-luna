@@ -2,8 +2,12 @@
 title: "Record 9c5ca72c42 · The-Operable-Pareto-Front-Distilling-Offline-Search-into-Run-Time-Cont"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.119213+00:00
+updated_at: 2026-10-11T00:55:13.851176+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.17992"
 ---
 
 # Record 9c5ca72c42 · The-Operable-Pareto-Front-Distilling-Offline-Search-into-Run-Time-Cont
@@ -16,7 +20,3 @@ The Operable Pareto Front: Distilling Offline Search into Run-Time Control for M
 A UAV mobile edge computing (MEC) fleet trades energy against delay, and its schedules form a Pareto front; we call a scheduler operable when the fleet can be asked for any point on that front at run time. We propose PrefDT, to the best of our knowledge the first preference-conditioned Decision Transformer for the problem of joint trajectory, association and offloading scheduling. Its idea comes f
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

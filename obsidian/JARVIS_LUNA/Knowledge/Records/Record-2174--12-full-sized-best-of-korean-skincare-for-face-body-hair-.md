@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.462313+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=hEVrSm-Also"
 ---
 
 # Record 2174 · 12-full-sized-best-of-korean-skincare-for-face-body-hair-with-63-disco
@@ -15,7 +19,3 @@ tags: [record, real-data]
 12 full sized best of korean skincare for face body hair with 63% discount, free global shipping!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[물류통관]] [[JARVIS Real Knowledge Index]]

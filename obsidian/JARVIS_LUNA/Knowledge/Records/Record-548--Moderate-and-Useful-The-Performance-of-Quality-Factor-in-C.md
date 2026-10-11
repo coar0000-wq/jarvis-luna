@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.593611+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1177/21576203261457355"
 ---
 
 # Record 548 · Moderate-and-Useful-The-Performance-of-Quality-Factor-in-Chinese-Marke
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Moderate and Useful: The Performance of Quality Factor in Chinese Market
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

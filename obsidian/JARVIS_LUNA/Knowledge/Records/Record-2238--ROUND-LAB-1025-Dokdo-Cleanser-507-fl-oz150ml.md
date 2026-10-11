@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.723619+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA10245858"
 ---
 
 # Record 2238 · ROUND-LAB-1025-Dokdo-Cleanser-507-fl-oz150ml
@@ -16,7 +20,3 @@ ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml)
 ROUND LAB 1025 Dokdo Cleanser 5.07 fl. oz.(150ml) · 평점 4.8 · 리뷰 9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

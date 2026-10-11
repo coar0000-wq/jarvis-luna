@@ -2,8 +2,12 @@
 title: "Record 712c7638ed · REJURAN-COSMETICS-Brings-K-Beauty-to-LAFC-Korean-Heritage-Night-as-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.477245+00:00
+updated_at: 2026-10-11T00:55:35.126417+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMl9JODkzY2ZPRFlYZ0FkNERkWWJiTFNKVy1lM253UFJDakh0VTRpblRDQ0g5RXZvZzk3VVhSczVNUGh5czJZV1pldE5MbjZaX1k5bTNQSHBmdm5xVFVCR2xNTE1tM3BCaGRDRWp3S0c3UFUtT0dLd2dSaEVzdnUwRU8wYWR4aHhfWTVvdWwtVWI2MXRQM1VDeEpoa1R6NWU5MEE4?oc=5"
 ---
 
 # Record 712c7638ed · REJURAN-COSMETICS-Brings-K-Beauty-to-LAFC-Korean-Heritage-Night-as-Pro
@@ -15,7 +19,3 @@ tags: [record, real-data]
 REJURAN® COSMETICS Brings K-Beauty to LAFC Korean Heritage Night as Proud Skincare Partner - Yahoo Finance
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

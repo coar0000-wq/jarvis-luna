@@ -2,8 +2,14 @@
 title: "Record 1ce4b9b0ec · Using-Machine-Learning-to-Detect-Financial-Statement-Fraud-A-Cross-Cou"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.587236+00:00
+updated_at: 2026-10-11T00:55:21.266382+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.3390/jrfm18110605"
+kind: "논문"
 ---
 
 # Record 1ce4b9b0ec · Using-Machine-Learning-to-Detect-Financial-Statement-Fraud-A-Cross-Cou
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Using Machine Learning to Detect Financial Statement Fraud: A Cross-Country Analysis Applied to Wirecard AG
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

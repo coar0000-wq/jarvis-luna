@@ -2,8 +2,14 @@
 title: "Record 8268957442 · Ai-Powered-B2B-Fraud-Is-Forcing-Companies-To-Rethink-Trust"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.477937+00:00
+updated_at: 2026-10-11T00:55:49.869411+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/fraud/fraud-prevention/ai-powered-b2b-fraud-is-forcing-companies-to-rethink-trust"
+kind: "발표물"
 ---
 
 # Record 8268957442 · Ai-Powered-B2B-Fraud-Is-Forcing-Companies-To-Rethink-Trust
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ai Powered B2B Fraud Is Forcing Companies To Rethink Trust
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

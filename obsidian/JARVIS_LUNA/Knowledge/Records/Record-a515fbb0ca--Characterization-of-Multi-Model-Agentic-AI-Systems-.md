@@ -2,8 +2,14 @@
 title: "Record a515fbb0ca · Characterization-of-Multi-Model-Agentic-AI-Systems-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.679286+00:00
+updated_at: 2026-10-11T00:55:38.157854+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "SK hynix"
+domain: "openalex.org"
+url: "https://openalex.org/W7163594953"
+kind: "논문"
 ---
 
 # Record a515fbb0ca · Characterization-of-Multi-Model-Agentic-AI-Systems-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Characterization of Multi-Model Agentic AI Systems on General Tasks via Trace-Driven Simulation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

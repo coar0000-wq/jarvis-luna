@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.563857+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoc3k3Skp0RTBJUURIV0NXa1hiTGg2bGlXaEV4MjF5WVJ1VG5uSi05WWJlVHNMQ0h1T3BfX1VJTFFmVFhLRkxXcVd2OWRNY1dWa3VpWkxmMUFIRUVRejk2d24xOXRXQQ?oc=5"
 ---
 
 # Record 175 · SEO-Checklist-50-Tips-to-Optimize-Your-Website-2026---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 SEO Checklist: 50 Tips to Optimize Your Website (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

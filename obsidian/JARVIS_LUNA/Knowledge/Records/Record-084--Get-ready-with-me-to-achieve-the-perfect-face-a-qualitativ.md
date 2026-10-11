@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.551098+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pMWJ4U1NSZzIzSk9aUzVvWnoxSE14S3hVZnRTSldfLXhTQWdXc0hOWlpLa1RaQlk2WkJtSnZPS3RfZHg1VUgzRlc0Yi1rY2RCSXlJVFVyWm5DMHBxMGxv?oc=5"
 ---
 
 # Record 084 · Get-ready-with-me-to-achieve-the-perfect-face-a-qualitative-study-into
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Get ready with me to achieve the perfect face: a qualitative study into meaning-making of facial beauty content on social media by Dutch girls and young women - Nature
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

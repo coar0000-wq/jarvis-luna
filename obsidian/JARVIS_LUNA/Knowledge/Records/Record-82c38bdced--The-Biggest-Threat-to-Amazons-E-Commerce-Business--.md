@@ -2,8 +2,12 @@
 title: "Record 82c38bdced · The-Biggest-Threat-to-Amazons-E-Commerce-Business--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.466191+00:00
+updated_at: 2026-10-11T00:55:34.906803+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxOamZLaGI0U0FRSlFQbmlVVFJzSUI0YkhoV0pocGE0bXMxRWU5ck1jb01LVlhXQmY1TWctSlpoMkhfNUxjN0FRN3kyWF9IY1AzNlBrck9yUmpfZHpldW9Od0JjUkpMaV9XaWdDeHVQR240VXJ3bldJYV9tcUk5eEdZbS1mMkl1RXljenMtcEkwLVozVmltYkF6ZHlFelllbkdp?oc=5"
 ---
 
 # Record 82c38bdced · The-Biggest-Threat-to-Amazons-E-Commerce-Business--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Biggest Threat to Amazon’s E-Commerce Business - Brownstone Research
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

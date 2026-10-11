@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.177714+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "doi.org"
+url: "https://doi.org/10.60087/jaigs.v3i1.191"
 ---
 
 # Record 734 · Integration-of-AI-and-Machine-Learning-in-Semiconductor-Manufacturing-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Integration of AI and Machine Learning in Semiconductor Manufacturing for Defect Detection and Yield Improvement
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 89a7468815 · SAGE-Source-Anchored-Guidance-via-Frequency-Equalization-for-Hierarchi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.830310+00:00
+updated_at: 2026-10-11T00:55:24.795247+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.30703"
 ---
 
 # Record 89a7468815 · SAGE-Source-Anchored-Guidance-via-Frequency-Equalization-for-Hierarchi
@@ -16,7 +20,3 @@ SAGE: Source-Anchored Guidance via Frequency Equalization for Hierarchical RGB-T
 Spatial misregistration and cross-modal discrepancies often cause ghosting, structural blurring, and content imbalance in RGB-T fusion. Existing methods typically decouple appearance adaptation, geometric alignment, and information fusion, limiting dependency propagation across stages. We propose Source-Anchored Guidance via Frequency Equalization for Hierarchical RGB-T Alignment and Fusion (SAGE)
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

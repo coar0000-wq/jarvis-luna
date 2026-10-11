@@ -2,8 +2,14 @@
 title: "Record 1fe37d6c9b · Unifying-Image-Quality-Assessment-Datasets-MOSAIQ-500K-and-MOSAIQ-Benc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.712351+00:00
+updated_at: 2026-10-11T00:55:38.840647+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "컴퓨터-비전", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "openalex.org"
+url: "https://openalex.org/W7213675657"
+kind: "논문"
 ---
 
 # Record 1fe37d6c9b · Unifying-Image-Quality-Assessment-Datasets-MOSAIQ-500K-and-MOSAIQ-Benc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Unifying Image Quality Assessment Datasets: MOSAIQ-500K and MOSAIQ-Bench
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

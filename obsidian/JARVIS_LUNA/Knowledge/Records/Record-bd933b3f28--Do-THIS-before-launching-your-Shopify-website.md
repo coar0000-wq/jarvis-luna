@@ -2,8 +2,12 @@
 title: "Record bd933b3f28 · Do-THIS-before-launching-your-Shopify-website"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.688735+00:00
+updated_at: 2026-10-11T00:55:53.541119+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/5XOg7a9Ff5Q"
 ---
 
 # Record bd933b3f28 · Do-THIS-before-launching-your-Shopify-website
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Do THIS before launching your Shopify website!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

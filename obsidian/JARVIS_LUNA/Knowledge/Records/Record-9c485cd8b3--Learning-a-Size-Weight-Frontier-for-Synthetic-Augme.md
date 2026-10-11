@@ -2,8 +2,12 @@
 title: "Record 9c485cd8b3 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.912252+00:00
+updated_at: 2026-10-11T00:55:11.331693+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28576v1"
 ---
 
 # Record 9c485cd8b3 · Learning-a-Size-Weight-Frontier-for-Synthetic-Augme
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Learning a Size-Weight Frontier for Synthetic-Augmented Inference
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

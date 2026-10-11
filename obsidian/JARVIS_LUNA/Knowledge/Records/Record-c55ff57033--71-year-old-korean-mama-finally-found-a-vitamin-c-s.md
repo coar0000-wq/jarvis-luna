@@ -2,8 +2,12 @@
 title: "Record c55ff57033 · 71-year-old-korean-mama-finally-found-a-vitamin-c-s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.690792+00:00
+updated_at: 2026-10-11T00:55:53.599346+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/AgIQT8Mrx1s"
 ---
 
 # Record c55ff57033 · 71-year-old-korean-mama-finally-found-a-vitamin-c-s
@@ -15,7 +19,3 @@ tags: [record, real-data]
 71-year-old korean mama finally found a vitamin c serum that'll make her skin look like this!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

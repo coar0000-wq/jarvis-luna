@@ -2,8 +2,12 @@
 title: "Record 90f6ab7490 · Large-Language-Models-LLMs-for-Telecom-Root-Cause-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.920538+00:00
+updated_at: 2026-10-11T00:55:11.497725+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.02805v1"
 ---
 
 # Record 90f6ab7490 · Large-Language-Models-LLMs-for-Telecom-Root-Cause-A
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

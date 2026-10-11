@@ -2,8 +2,12 @@
 title: "Record 452579d0ec · His-skin-care-routine-is-somethin-else-whew"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.722498+00:00
+updated_at: 2026-10-11T00:55:54.337942+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=O5YCzj2AD3c"
 ---
 
 # Record 452579d0ec · His-skin-care-routine-is-somethin-else-whew
@@ -15,7 +19,3 @@ tags: [record, real-data]
 His skin care routine is... somethin else whew
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

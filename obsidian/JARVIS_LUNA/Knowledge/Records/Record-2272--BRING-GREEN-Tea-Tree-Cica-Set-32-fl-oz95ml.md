@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.729245+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA74399653"
 ---
 
 # Record 2272 · BRING-GREEN-Tea-Tree-Cica-Set-32-fl-oz95ml
@@ -16,7 +20,3 @@ BRING GREEN Tea Tree Cica Set 3.2 fl. oz.(95ml)
 BRING GREEN Tea Tree Cica Set 3.2 fl. oz.(95ml) · 평점 4.7 · 리뷰 3
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

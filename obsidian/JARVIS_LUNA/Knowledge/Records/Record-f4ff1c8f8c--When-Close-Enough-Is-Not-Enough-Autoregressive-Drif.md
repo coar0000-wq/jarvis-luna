@@ -2,8 +2,14 @@
 title: "Record f4ff1c8f8c · When-Close-Enough-Is-Not-Enough-Autoregressive-Drif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.694970+00:00
+updated_at: 2026-10-11T00:55:38.479061+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7169473728"
+kind: "논문"
 ---
 
 # Record f4ff1c8f8c · When-Close-Enough-Is-Not-Enough-Autoregressive-Drif
@@ -15,7 +21,3 @@ tags: [record, real-data]
 When Close Enough Is Not Enough: Autoregressive Drift in Quantum Circuit Synthesis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

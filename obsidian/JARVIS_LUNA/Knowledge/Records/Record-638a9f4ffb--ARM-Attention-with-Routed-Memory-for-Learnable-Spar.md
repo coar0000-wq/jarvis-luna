@@ -2,8 +2,12 @@
 title: "Record 638a9f4ffb · ARM-Attention-with-Routed-Memory-for-Learnable-Sparse-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.769364+00:00
+updated_at: 2026-10-11T00:55:24.012740+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24417"
 ---
 
 # Record 638a9f4ffb · ARM-Attention-with-Routed-Memory-for-Learnable-Sparse-Control
@@ -16,7 +20,3 @@ ARM: Attention with Routed-Memory for Learnable Sparse Control
 Despite advances in long-context inference, large language models (LLMs) remain fundamentally limited by the key-value (KV) caching mechanisms that are necessary for stable computation. Techniques such as selective token eviction and pruning have vastly mitigated these issues, but often discard core information to manage the growing cache. In this paper, we propose Attention with Routed Memory (AR
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

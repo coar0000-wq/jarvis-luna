@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.808752+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/securing-the-future-of-ai-agents/"
 ---
 
 # Record 301 · Securing-the-future-of-AI-agents
@@ -16,7 +21,3 @@ Securing the future of AI agents
 Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

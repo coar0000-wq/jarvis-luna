@@ -2,8 +2,14 @@
 title: "Record aaef033dfa · Fable-Safeguards-Jailbreak-Framework"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.389428+00:00
+updated_at: 2026-10-11T00:55:48.258299+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
+kind: "발표물"
 ---
 
 # Record aaef033dfa · Fable-Safeguards-Jailbreak-Framework
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Fable Safeguards Jailbreak Framework
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

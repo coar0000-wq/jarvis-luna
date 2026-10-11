@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.147339+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBFMm5ldndPWjZoY2dpUjRvMy1kaU1Tc1FTUU9helAwSURMVTBHalJEbWJlb0FBeS12LUVCVG00clMyU2hqcTJ2OVQwbDR6NmljZEdrSllXT2kxRjhlYnZxaDJn?oc=5"
 ---
 
 # Record 972 · Filler-Fatigue-Caused-TikToks-Latest-Makeup-Trend---Allure
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Filler Fatigue Caused TikTok’s Latest Makeup Trend - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

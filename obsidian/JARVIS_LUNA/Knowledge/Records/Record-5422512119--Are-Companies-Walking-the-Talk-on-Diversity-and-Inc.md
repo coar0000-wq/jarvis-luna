@@ -2,8 +2,14 @@
 title: "Record 5422512119 · Are-Companies-Walking-the-Talk-on-Diversity-and-Inclusion-A-Holistic-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.489415+00:00
+updated_at: 2026-10-11T00:55:19.651264+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1177/09711023251400101"
+kind: "논문"
 ---
 
 # Record 5422512119 · Are-Companies-Walking-the-Talk-on-Diversity-and-Inclusion-A-Holistic-E
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Are Companies Walking the Talk on Diversity and Inclusion? A Holistic Examination of Human Capital Disclosure Practices
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

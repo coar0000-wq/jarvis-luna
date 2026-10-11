@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.391766+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/LlXUuXJutVg"
 ---
 
 # Record 818 · THE-OPENING-OF-new-applicationsstable-European-payment-methods-cjdrops
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 THE OPENING OF new applications.!stable European payment methods #cjdropshipping #ecommerce
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

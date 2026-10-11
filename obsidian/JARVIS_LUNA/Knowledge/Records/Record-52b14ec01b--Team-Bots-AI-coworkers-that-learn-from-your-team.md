@@ -2,8 +2,14 @@
 title: "Record 52b14ec01b · Team-Bots-AI-coworkers-that-learn-from-your-team"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.749747+00:00
+updated_at: 2026-10-11T00:55:54.862915+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["모델-라우팅MoE", "AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/team-bots"
+kind: "발표물"
 ---
 
 # Record 52b14ec01b · Team-Bots-AI-coworkers-that-learn-from-your-team
@@ -16,7 +22,3 @@ Team Bots: shared AI teammates that learn as they work
 Give a Grok Bot the files, apps, and expertise it needs, then share it so your whole team can work from the same context.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[모델-라우팅MoE]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.663646+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qZDN4MS1NMVYyQ09pQjdBVWRTWWI3ekMzcmZjNGFISWZqMDM1WkF0b1hiN2E2MmZNS2cwQ3Q0QnpkZGFHRGEwUnFrV2Y4X01WVE83S1dlcl8wYUY5WkhpMXJyRWh1dzZ6YkE?oc=5"
 ---
 
 # Record 194 · Is-Foam-the-New-Serum-in-Skincare---Happi--Household-And-Personal-Prod
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Is Foam the New Serum in Skincare? - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

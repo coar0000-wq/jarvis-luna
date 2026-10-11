@@ -2,8 +2,14 @@
 title: "Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.324159+00:00
+updated_at: 2026-10-11T00:55:16.659078+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.maturitas.2026.109075"
+kind: "논문"
 ---
 
 # Record c4723afcc5 · Consistency-of-efficacy-and-safety-of-elinzanetant-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Consistency of efficacy and safety of elinzanetant for vasomotor symptoms and sleep disturbance associated with menopause across different populations: a review of the OASIS clinical trial program
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

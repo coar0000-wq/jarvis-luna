@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.750414+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=cazSVlE5_OI"
 ---
 
 # Record 636 · Reacting-to-EJAE-Audrey--Rei-Amis-Skin-Care-Routines
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Reacting to EJAE, Audrey, & Rei Ami's Skin Care Routines!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

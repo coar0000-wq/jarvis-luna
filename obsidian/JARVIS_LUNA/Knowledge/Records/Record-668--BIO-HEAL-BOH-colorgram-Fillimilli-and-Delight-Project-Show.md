@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.940496+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTnRwRXI3OENHQXY0ZjNpYzBfZkFRT0lhc3hRZHZnVm5tR3JIaWdrOHhsNzJjY2k3Uk1oZTAyS3Y0Wi1WV3BtN1NSaU1jeGpRRWNUTEx1clM3SkZqSUtrWS1Xb3ZwaHhfc0hMWG1DRVA1dVdza0ptVVJJQUtuOG9zTVBPa0FoNFJzckVtd3hsbTFndTdFRmVkdkNOMmF2ZzUzQXlR?oc=5"
 ---
 
 # Record 668 · BIO-HEAL-BOH-colorgram-Fillimilli-and-Delight-Project-Showcase-K-Beaut
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 BIO HEAL BOH, colorgram, Fillimilli and Delight Project Showcase K-Beauty and Lifestyle Trends at OLIVE YOUNG FESTA LA 2026 - Yahoo Finance
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

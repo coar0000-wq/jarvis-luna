@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.570377+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoc3k3Skp0RTBJUURIV0NXa1hiTGg2bGlXaEV4MjF5WVJ1VG5uSi05WWJlVHNMQ0h1T3BfX1VJTFFmVFhLRkxXcVd2OWRNY1dWa3VpWkxmMUFIRUVRejk2d24xOXRXQQ?oc=5"
 ---
 
 # Record 1286 · SEO-Checklist-50-Tips-to-Optimize-Your-Website-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 SEO Checklist: 50 Tips to Optimize Your Website (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

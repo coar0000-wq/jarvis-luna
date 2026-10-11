@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.700811+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openalex.org"
+url: "https://openalex.org/W7170225478"
 ---
 
 # Record 1856 · Measuring-Reward-Seeking-via-Contrastive-Belief-Updates
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Measuring Reward-Seeking via Contrastive Belief Updates
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 70b4946452 · What-is-an-MCP-server"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.237520+00:00
+updated_at: 2026-10-11T00:55:15.321094+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "DataWalk"
+domain: "datawalk.com"
+url: "https://datawalk.com/what-is-an-mcp-server/"
+kind: "발표물"
 ---
 
 # Record 70b4946452 · What-is-an-MCP-server
@@ -16,7 +22,3 @@ What is an MCP server?
 The post What is an MCP server? appeared first on DataWalk .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--DataWalk]] [[JARVIS Real Knowledge Index]]

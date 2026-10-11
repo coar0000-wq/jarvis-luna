@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.992004+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=mO2Im_GCQnM"
 ---
 
 # Record 904 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products---including-new-Tone
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 ELIXIR Day Care Revolution Review | ALL 6 products - including *new* Tone-up Beige
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

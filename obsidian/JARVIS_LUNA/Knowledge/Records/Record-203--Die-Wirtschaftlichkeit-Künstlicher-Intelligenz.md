@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.256550+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s42354-021-0357-1"
 ---
 
 # Record 203 · Die-Wirtschaftlichkeit-Künstlicher-Intelligenz
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Die Wirtschaftlichkeit Künstlicher Intelligenz
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

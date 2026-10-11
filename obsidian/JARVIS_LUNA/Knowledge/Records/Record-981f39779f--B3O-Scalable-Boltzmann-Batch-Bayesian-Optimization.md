@@ -2,8 +2,14 @@
 title: "Record 981f39779f · B3O-Scalable-Boltzmann-Batch-Bayesian-Optimization"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.689380+00:00
+updated_at: 2026-10-11T00:55:38.382890+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7166901122"
+kind: "논문"
 ---
 
 # Record 981f39779f · B3O-Scalable-Boltzmann-Batch-Bayesian-Optimization
@@ -15,7 +21,3 @@ tags: [record, real-data]
 B3O: Scalable Boltzmann Batch Bayesian Optimization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

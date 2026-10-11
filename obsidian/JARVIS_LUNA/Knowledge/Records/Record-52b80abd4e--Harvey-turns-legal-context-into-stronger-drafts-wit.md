@@ -2,8 +2,14 @@
 title: "Record 52b80abd4e · Harvey-turns-legal-context-into-stronger-drafts-with-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.636681+00:00
+updated_at: 2026-10-11T00:55:37.462449+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "법률규제", "LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
+kind: "발표물"
 ---
 
 # Record 52b80abd4e · Harvey-turns-legal-context-into-stronger-drafts-with-GPT-6-Astra
@@ -16,7 +22,3 @@ Harvey turns legal context into stronger drafts with GPT-6 Astra
 GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[법률규제]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

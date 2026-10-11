@@ -2,8 +2,12 @@
 title: "Record a9fe73710c · What-are-spicules-This-is-why-the-K-beauty-buzzword-keeps-popping-up-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.302253+00:00
+updated_at: 2026-10-11T00:55:32.058734+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Jdkl1Vzg1TmlYbS1rUU9Ia1FBQ1BzSFZyOUp2TXFsNmQ0dnRyYk41U1ZFRjg5OTZsNXFqTUFLWHZDa1J2TG5qRllTVWprbkstZVVaRHIwVktDWF9lZUJrX0tVc0ZKRGVyaFRXSE1hY0xVZTJEdWd2dHN5WU15clE?oc=5"
 ---
 
 # Record a9fe73710c · What-are-spicules-This-is-why-the-K-beauty-buzzword-keeps-popping-up-i
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What are spicules? This is why the K-beauty buzzword keeps popping up in your skincare - Indy100 | News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

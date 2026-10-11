@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.666117+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/tl3w6bNHdys"
 ---
 
 # Record 2119 · 클렌징폼-뭐-사요-이렇게만-고르세요
@@ -15,7 +19,3 @@ tags: [record, real-data]
 클렌징폼 뭐 사요? 이렇게만 고르세요!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

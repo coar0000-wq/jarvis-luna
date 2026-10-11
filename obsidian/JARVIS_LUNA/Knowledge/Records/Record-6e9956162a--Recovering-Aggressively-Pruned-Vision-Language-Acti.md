@@ -2,8 +2,12 @@
 title: "Record 6e9956162a · Recovering-Aggressively-Pruned-Vision-Language-Action-Models-with-Offl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.718679+00:00
+updated_at: 2026-10-11T00:55:23.425417+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전", "로보틱스"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.19579"
 ---
 
 # Record 6e9956162a · Recovering-Aggressively-Pruned-Vision-Language-Action-Models-with-Offl
@@ -16,7 +20,3 @@ Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden
 Vision-language-action (VLA) models let robots follow language instructions, but their language backbones of several billion parameters are the main obstacle to running them on robot hardware. Structured pruning reduces that backbone, and removing 63% of it from OpenVLA-OFT drops LIBERO-Long success from 93.2% to 0.8%. A recent approach restores such a model with supervised fine-tuning followed by
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

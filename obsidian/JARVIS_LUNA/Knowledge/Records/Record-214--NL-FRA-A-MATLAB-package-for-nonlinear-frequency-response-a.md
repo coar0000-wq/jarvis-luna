@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.371597+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08723v1"
 ---
 
 # Record 214 · NL-FRA-A-MATLAB-package-for-nonlinear-frequency-response-analysis
@@ -16,7 +20,3 @@ NL-FRA: A MATLAB package for nonlinear frequency response analysis
 Nonlinear Output Frequency Response Functions (NOFRFs) provide a one-dimensional frequency-domain representation of nonlinear dynamics, enabling direct decomposition of an output spectrum into contributions from different orders of nonlinearity. NL-FRA (NonLinear Frequency Response Analysis) is an open-source MATLAB package implementing a data-driven Least Squares (LS) method for estimating NOFRFs
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

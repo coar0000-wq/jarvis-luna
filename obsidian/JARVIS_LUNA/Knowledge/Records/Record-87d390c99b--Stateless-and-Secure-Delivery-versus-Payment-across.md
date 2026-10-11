@@ -2,8 +2,14 @@
 title: "Record 87d390c99b · Stateless-and-Secure-Delivery-versus-Payment-across-Blockchains"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.616264+00:00
+updated_at: 2026-10-11T00:55:21.807594+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2311.05966"
+kind: "논문"
 ---
 
 # Record 87d390c99b · Stateless-and-Secure-Delivery-versus-Payment-across-Blockchains
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Stateless and Secure Delivery versus Payment across Blockchains
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

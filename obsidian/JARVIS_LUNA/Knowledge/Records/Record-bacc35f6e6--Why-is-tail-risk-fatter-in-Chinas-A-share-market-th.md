@@ -2,8 +2,14 @@
 title: "Record bacc35f6e6 · Why-is-tail-risk-fatter-in-Chinas-A-share-market-than-in-the-US-market"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.392954+00:00
+updated_at: 2026-10-11T00:55:17.953840+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1080/16081625.2026.2632592"
+kind: "논문"
 ---
 
 # Record bacc35f6e6 · Why-is-tail-risk-fatter-in-Chinas-A-share-market-than-in-the-US-market
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Why is tail risk fatter in China’s A-share market than in the US market? – based on the XGBoost machine learning method
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

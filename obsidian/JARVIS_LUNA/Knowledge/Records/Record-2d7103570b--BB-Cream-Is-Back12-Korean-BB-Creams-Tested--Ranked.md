@@ -2,8 +2,12 @@
 title: "Record 2d7103570b · BB-Cream-Is-Back12-Korean-BB-Creams-Tested--Ranked"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.724116+00:00
+updated_at: 2026-10-11T00:55:54.370276+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=PcHCz7JksVk"
 ---
 
 # Record 2d7103570b · BB-Cream-Is-Back12-Korean-BB-Creams-Tested--Ranked
@@ -15,7 +19,3 @@ tags: [record, real-data]
 BB Cream Is Back—12 Korean BB Creams Tested & Ranked ✅
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

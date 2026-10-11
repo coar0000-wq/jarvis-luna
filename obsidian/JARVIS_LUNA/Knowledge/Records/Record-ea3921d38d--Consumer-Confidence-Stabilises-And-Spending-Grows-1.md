@@ -2,8 +2,14 @@
 title: "Record ea3921d38d · Consumer-Confidence-Stabilises-And-Spending-Grows-1"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.419048+00:00
+updated_at: 2026-10-11T00:55:48.686331+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/070/consumer-confidence-stabilises-and-spending-grows-1-9-per-cent-i/"
+kind: "발표물"
 ---
 
 # Record ea3921d38d · Consumer-Confidence-Stabilises-And-Spending-Grows-1
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Consumer Confidence Stabilises And Spending Grows 1 9 Per Cent I
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

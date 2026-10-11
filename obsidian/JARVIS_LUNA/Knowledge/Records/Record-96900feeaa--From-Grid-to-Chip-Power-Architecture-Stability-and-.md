@@ -2,8 +2,12 @@
 title: "Record 96900feeaa · From-Grid-to-Chip-Power-Architecture-Stability-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.066237+00:00
+updated_at: 2026-10-11T00:55:13.232484+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11649v1"
 ---
 
 # Record 96900feeaa · From-Grid-to-Chip-Power-Architecture-Stability-and-
@@ -16,7 +20,3 @@ From Grid to Chip: Power Architecture, Stability, and Flexibility of AI Data Cen
 The rapid growth of artificial intelligence (AI) computing is transforming data centers into large, dynamic electrical loads. Their deployment is primarily constrained by energy availability and grid-connection capacity, which is further aggravated by the ability of power-delivery architectures, control systems, and computing workloads to operate reliably during fast grid disturbances. This articl
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

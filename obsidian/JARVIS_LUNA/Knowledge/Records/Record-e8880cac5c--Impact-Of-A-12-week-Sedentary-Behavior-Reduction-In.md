@@ -2,8 +2,14 @@
 title: "Record e8880cac5c · Impact-Of-A-12-week-Sedentary-Behavior-Reduction-Intervention-On-Self-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.498878+00:00
+updated_at: 2026-10-11T00:55:19.812167+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1249/01.mss.0001261624.99441.64"
+kind: "논문"
 ---
 
 # Record e8880cac5c · Impact-Of-A-12-week-Sedentary-Behavior-Reduction-Intervention-On-Self-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Impact Of A 12-week Sedentary Behavior Reduction Intervention On Self-reported Sleep Quality
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

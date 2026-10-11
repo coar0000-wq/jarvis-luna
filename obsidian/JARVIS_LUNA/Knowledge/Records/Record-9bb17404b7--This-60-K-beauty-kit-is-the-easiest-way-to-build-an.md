@@ -2,8 +2,12 @@
 title: "Record 9bb17404b7 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an-entire-8-step-skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.410251+00:00
+updated_at: 2026-10-11T00:55:34.003607+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0dRLXVyMXp2WmpJeUlMX2FMLWt6b3pJMDdWVGp0Y3pEVnE0SnhXRUF4aXA4NzhWanZZLWRkNVA1T3pJUmg1dXBoQVk1NlZpWGJZREZ0RFpUcUs4cnNsWENWRW9vUzh4dWIwbFp3bWZHWE40VUdOUUxEOF9Ca3Q1OGxhTEtYb0lVQ2t0VjJNbVR0ZVQw?oc=5"
 ---
 
 # Record 9bb17404b7 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an-entire-8-step-skin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

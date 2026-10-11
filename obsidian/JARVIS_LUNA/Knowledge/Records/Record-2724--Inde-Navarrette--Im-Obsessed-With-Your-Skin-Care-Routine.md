@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.390550+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=HTVhnahxInY"
 ---
 
 # Record 2724 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Routine
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Inde Navarrette- I'm Obsessed With Your Skin Care Routine 😍
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

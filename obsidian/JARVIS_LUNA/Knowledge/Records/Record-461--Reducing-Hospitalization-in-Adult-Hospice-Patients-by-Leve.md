@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.064327+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "의료바이오", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1097/njh.0000000000001233"
 ---
 
 # Record 461 · Reducing-Hospitalization-in-Adult-Hospice-Patients-by-Leveraging-Endof
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Reducing Hospitalization in Adult Hospice Patients by Leveraging End‑of‑Life Conversations: A Quality Improvement Project
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

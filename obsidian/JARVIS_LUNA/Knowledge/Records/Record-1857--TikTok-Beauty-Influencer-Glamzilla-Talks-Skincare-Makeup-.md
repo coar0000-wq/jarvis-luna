@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.967370+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdllGLW1WdkVheWJrbjlFdnEwcDBLYzRjMU5qX256cnNQcnFxclhLcm9lX1o4SU9hN0FMcVB5QXh2TGRNNmhDTW1mZG83VnAxX09FMlU0cU5VS3ZOMXJsQXhqck5mQTY1T3NhVlgxTGk2b2Rtd3hVY29hVVZiX2dnMVNCMDd1RTlTY3ViSmdReEFOMmNtRDBIUHY1T2pSUl9FbnlkTTF6Z2I5Y24zb0VTcnA3dFVQUQ?oc=5"
 ---
 
 # Record 1857 · TikTok-Beauty-Influencer-Glamzilla-Talks-Skincare-Makeup--Wellness-Tre
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok Beauty Influencer Glamzilla Talks Skincare, Makeup & Wellness Trends for 2023 - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

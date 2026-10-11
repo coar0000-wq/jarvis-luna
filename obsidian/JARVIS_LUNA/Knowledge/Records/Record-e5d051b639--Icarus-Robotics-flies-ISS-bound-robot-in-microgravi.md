@@ -2,8 +2,12 @@
 title: "Record e5d051b639 · Icarus-Robotics-flies-ISS-bound-robot-in-microgravity-for-the-first-ti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.585348+00:00
+updated_at: 2026-10-11T00:55:51.882901+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/"
 ---
 
 # Record e5d051b639 · Icarus-Robotics-flies-ISS-bound-robot-in-microgravity-for-the-first-ti
@@ -16,7 +20,3 @@ Icarus Robotics flies ISS-bound robot in microgravity for the first time
 <p>This is the last major test of the system before Icarus Robotics will be sending JOY the the ISS in early 2027.</p> <p>The post <a href="https://www.therobotreport.com/icarus-robotics-flies-iss-bound-robot-in-microgravity-for-the-first-time/">Icarus Robotics flies ISS-bound robot in microgravity for the first time</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

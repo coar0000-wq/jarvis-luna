@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.353508+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWEFPYU5TdmtxaTJYamxIVEI5YlVsci1QTE5KN0hRVmFkcWk0T2hfQm5sWlFCYmFDdDE2bmZZRC1KUGhzSUJHRDhERzdxZmNhRE5YcldjcmpRcGotQXZRUk9LX0l4VHNIVE9URENlMUMyX2lmaGEyUExPQW9PVWFtYzJ2dWFDc1dESGo4aGJYRFlDUkJnSi1tQ19XTzZNWXNUaU5IR1Y2bzJMUVdZcE9qMUd2c1RMYmM?oc=5"
 ---
 
 # Record 1663 · The-Transformation-of-Ecommerce-Shopifys-SHOP-AI-Powered-Strategy-for-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Transformation of Ecommerce: Shopify’s (SHOP) AI-Powered Strategy for Retail Success - RS Web Solutions
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

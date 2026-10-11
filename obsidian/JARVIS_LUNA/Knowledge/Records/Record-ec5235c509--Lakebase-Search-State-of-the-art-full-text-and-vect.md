@@ -2,8 +2,14 @@
 title: "Record ec5235c509 · Lakebase-Search-State-of-the-art-full-text-and-vector-search-for-Postg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.439802+00:00
+updated_at: 2026-10-11T00:55:49.054062+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/lakebase-search-state-art-full-text-and-vector-search-postgres"
+kind: "발표물"
 ---
 
 # Record ec5235c509 · Lakebase-Search-State-of-the-art-full-text-and-vector-search-for-Postg
@@ -16,7 +22,3 @@ Lakebase Search: State-of-the-art full text and vector search for Postgres
 Traditional OLTP systems weren't built for the search demands of AI agents. They...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record a6ca1759a1 · The-Illiquidity-Budget-in-Modern-Portfolios-Structu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.547382+00:00
+updated_at: 2026-10-11T00:55:20.594468+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.6313378"
+kind: "논문"
 ---
 
 # Record a6ca1759a1 · The-Illiquidity-Budget-in-Modern-Portfolios-Structu
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Illiquidity Budget in Modern Portfolios: Structural Limits to Private Market Allocation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

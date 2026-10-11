@@ -2,8 +2,12 @@
 title: "Record 9248544ccc · Reflection-aware-Generative-Novel-View-Synthesis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.978345+00:00
+updated_at: 2026-10-11T00:55:12.187869+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05382v1"
 ---
 
 # Record 9248544ccc · Reflection-aware-Generative-Novel-View-Synthesis
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Reflection-aware Generative Novel View Synthesis
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

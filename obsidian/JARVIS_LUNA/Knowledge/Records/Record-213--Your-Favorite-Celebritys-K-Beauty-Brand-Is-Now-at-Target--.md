@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.871067+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE5YajJVT3dZbWdfdlZNMmZIYWVrQ1dTZTc2NmhDWXB6TV85MS1WWEpWcHJMWVA3OFR0N2lucVFzYzdyY3hQQklxZl9kSGdVYms2REx3MG5PRVNkTHZqb2JLZWlrLWxHVEJhNXVNYnFPUQ?oc=5"
 ---
 
 # Record 213 · Your-Favorite-Celebritys-K-Beauty-Brand-Is-Now-at-Target---NewBeauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Your Favorite Celebrity’s K-Beauty Brand Is Now at Target - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.236409+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxNclVSWXljT2lObGJWa2VENjJYdmt3QmlMY19mdjc0SXV2WHd0b28zYlVLQzQ2d1ZsWGRzSHNsXzBwUFpUSWZTaGVfbk1uUVdGSmhKYzJlRjlKdk9WQXo4UnEyeUVoREpiOWJ3M0JtTWRoRVlqaUllZDZBakV0ZFh3cXdFWmRTeFVFMXRESVpoXzY2cWhfS1Y5UGlOMkQ0c0hwN055SkdITFpmWHRl?oc=5"
 ---
 
 # Record 1554 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Want-Her-Look---Forbe
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ‘Moo Deng Makeup’: Why Fans Of The Viral Baby Hippo Want Her Look - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

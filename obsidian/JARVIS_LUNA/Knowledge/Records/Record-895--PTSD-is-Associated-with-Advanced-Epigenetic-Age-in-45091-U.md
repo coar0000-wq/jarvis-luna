@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.739551+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.08.07.26359954"
 ---
 
 # Record 895 · PTSD-is-Associated-with-Advanced-Epigenetic-Age-in-45091-US-Military-V
@@ -15,7 +20,3 @@ tags: [record, real-data]
 PTSD is Associated with Advanced Epigenetic Age in 45,091 US Military Veterans
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

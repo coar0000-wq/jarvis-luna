@@ -2,8 +2,14 @@
 title: "Record 6a5e41b951 · AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Ag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.081158+00:00
+updated_at: 2026-10-11T00:55:28.257427+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1294/aai-2026-amd-delivers-full-stack-compute-for-the-agentic-ai-era"
+kind: "발표물"
 ---
 
 # Record 6a5e41b951 · AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Ag
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AAI 2026: AMD Delivers Full-Stack Compute for the Agentic AI Era
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

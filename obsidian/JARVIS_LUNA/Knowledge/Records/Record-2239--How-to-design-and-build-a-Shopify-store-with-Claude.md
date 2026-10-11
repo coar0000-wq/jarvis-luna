@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.888294+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/zrJRlnfQTR0"
 ---
 
 # Record 2239 · How-to-design-and-build-a-Shopify-store-with-Claude
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to design and build a Shopify store with Claude
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

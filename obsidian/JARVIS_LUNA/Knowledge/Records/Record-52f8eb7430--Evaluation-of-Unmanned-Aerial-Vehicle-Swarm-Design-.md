@@ -2,8 +2,14 @@
 title: "Record 52f8eb7430 · Evaluation-of-Unmanned-Aerial-Vehicle-Swarm-Design-Through-Metrics-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.560345+00:00
+updated_at: 2026-10-11T00:55:20.798204+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.2514/1.c037434"
+kind: "논문"
 ---
 
 # Record 52f8eb7430 · Evaluation-of-Unmanned-Aerial-Vehicle-Swarm-Design-Through-Metrics-of-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Evaluation of Unmanned Aerial Vehicle Swarm Design Through Metrics of Survivability
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

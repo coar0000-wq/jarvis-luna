@@ -2,8 +2,12 @@
 title: "Record 604dd984d6 · Latency-Optimal-Geo-Distributed-Storage-over-Struct"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.968544+00:00
+updated_at: 2026-10-11T00:55:12.065662+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["뷰티스킨케어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05229v1"
 ---
 
 # Record 604dd984d6 · Latency-Optimal-Geo-Distributed-Storage-over-Struct
@@ -16,7 +20,3 @@ Latency-Optimal Geo-Distributed Storage over Structured Networks
 We study latency-optimal file assignment in geo-distributed storage systems modeled as weighted graphs, where edge weights represent communication delays and each node stores one (possibly coded) file. Our goal is to minimize the average time required to retrieve an original file, taken uniformly over all nodes and files. We show that for every fixed number of files $k \geq 3$, computing a latency
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

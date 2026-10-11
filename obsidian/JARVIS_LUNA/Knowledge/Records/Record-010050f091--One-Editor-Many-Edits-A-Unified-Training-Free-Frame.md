@@ -2,8 +2,12 @@
 title: "Record 010050f091 · One-Editor-Many-Edits-A-Unified-Training-Free-Frame"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.950381+00:00
+updated_at: 2026-10-11T00:55:11.867024+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04190v1"
 ---
 
 # Record 010050f091 · One-Editor-Many-Edits-A-Unified-Training-Free-Frame
@@ -15,7 +19,3 @@ tags: [record, real-data]
 One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

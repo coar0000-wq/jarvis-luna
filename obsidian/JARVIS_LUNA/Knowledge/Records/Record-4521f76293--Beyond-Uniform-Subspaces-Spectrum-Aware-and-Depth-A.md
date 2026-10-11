@@ -2,8 +2,12 @@
 title: "Record 4521f76293 · Beyond-Uniform-Subspaces-Spectrum-Aware-and-Depth-Adaptive-Fusion-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.774427+00:00
+updated_at: 2026-10-11T00:55:24.080704+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24612"
 ---
 
 # Record 4521f76293 · Beyond-Uniform-Subspaces-Spectrum-Aware-and-Depth-Adaptive-Fusion-for-
@@ -16,7 +20,3 @@ Beyond Uniform Subspaces: Spectrum-Aware and Depth-Adaptive Fusion for Multi-Tas
 Model merging aims to consolidate multiple task-specific models without access to extra training process. However, existing subspace-based methods largely rely on a uniform treatment of task updates, overlooking their intrinsic spectral and depth-wise heterogeneity. We identify two key deviations from this assumption: different tasks require different subspace capacity and exhibit different tolera
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

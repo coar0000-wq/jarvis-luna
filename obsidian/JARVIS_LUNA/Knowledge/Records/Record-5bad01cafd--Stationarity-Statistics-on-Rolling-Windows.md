@@ -2,8 +2,14 @@
 title: "Record 5bad01cafd · Stationarity-Statistics-on-Rolling-Windows"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.275687+00:00
+updated_at: 2026-10-11T00:55:15.964275+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s10614-020-09974-4"
+kind: "논문"
 ---
 
 # Record 5bad01cafd · Stationarity-Statistics-on-Rolling-Windows
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Stationarity Statistics on Rolling Windows
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 2d440ecb24 · PDRN-Hyaluronic-Acid-100-Moisturizing-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.648340+00:00
+updated_at: 2026-10-11T00:55:52.913917+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/pdrn-hyaluronic-acid-100-moisturizing-cream-pimprod2053248"
 ---
 
 # Record 2d440ecb24 · PDRN-Hyaluronic-Acid-100-Moisturizing-Cream
@@ -16,7 +20,3 @@ PDRN Hyaluronic Acid 100 Moisturizing Cream
 PDRN Hyaluronic Acid 100 Moisturizing Cream · ANUA · $24
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

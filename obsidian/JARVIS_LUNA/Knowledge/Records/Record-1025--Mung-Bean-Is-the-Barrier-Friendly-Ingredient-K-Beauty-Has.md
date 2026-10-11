@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.701105+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iYjExb1dGVG04MkV1bUVOem9EMEd0M2ZGdGdMVlNDN2xkcjNIUXY2MTNmNEZBRFVlNU1SN3ZUNEdtWFVrUVN6dGdhX1h0aFNNUXcwSzE4OXZVcGtFT1k0?oc=5"
 ---
 
 # Record 1025 · Mung-Bean-Is-the-Barrier-Friendly-Ingredient-K-Beauty-Has-Loved-for-Ce
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Mung Bean Is the Barrier-Friendly Ingredient K-Beauty Has Loved for Centuries - Byrdie
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

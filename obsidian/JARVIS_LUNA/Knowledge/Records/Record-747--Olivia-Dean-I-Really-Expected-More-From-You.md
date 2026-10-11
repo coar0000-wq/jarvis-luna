@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.164480+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qiJ0qGtBGN0"
 ---
 
 # Record 747 · Olivia-Dean-I-Really-Expected-More-From-You
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Olivia Dean, I Really Expected More From You :/
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

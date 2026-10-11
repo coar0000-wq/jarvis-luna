@@ -2,8 +2,14 @@
 title: "Record 392f54018d · Samsung-Seoul-RD-Campus--Umyeon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.582148+00:00
+updated_at: 2026-10-11T00:55:36.754575+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-seoul-rd-campus-umyeon"
+kind: "발표물"
 ---
 
 # Record 392f54018d · Samsung-Seoul-RD-Campus--Umyeon
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Samsung Seoul R&D Campus – Umyeon
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

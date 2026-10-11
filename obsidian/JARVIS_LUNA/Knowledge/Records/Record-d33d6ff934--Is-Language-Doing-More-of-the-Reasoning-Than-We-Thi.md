@@ -2,8 +2,14 @@
 title: "Record d33d6ff934 · Is-Language-Doing-More-of-the-Reasoning-Than-We-Think"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.975159+00:00
+updated_at: 2026-10-11T00:55:26.853347+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22730891"
+kind: "논문"
 ---
 
 # Record d33d6ff934 · Is-Language-Doing-More-of-the-Reasoning-Than-We-Think
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Is Language Doing More of the Reasoning Than We Think
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

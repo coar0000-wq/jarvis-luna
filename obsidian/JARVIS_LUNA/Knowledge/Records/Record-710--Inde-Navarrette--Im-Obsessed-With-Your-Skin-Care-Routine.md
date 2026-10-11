@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.708705+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=HTVhnahxInY"
 ---
 
 # Record 710 · Inde-Navarrette--Im-Obsessed-With-Your-Skin-Care-Routine
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Inde Navarrette- I'm Obsessed With Your Skin Care Routine 😍
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

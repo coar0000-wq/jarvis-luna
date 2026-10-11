@@ -2,8 +2,12 @@
 title: "Record f5f0c6dde4 · Triple-Prep-SPF-40"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.902601+00:00
+updated_at: 2026-10-11T00:55:11.081147+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "api.fda.gov"
+url: "https://api.fda.gov/drug/label.json?search=id:47fc4312-dc25-9486-e063-6394a90a0899"
 ---
 
 # Record f5f0c6dde4 · Triple-Prep-SPF-40
@@ -16,7 +20,3 @@ Triple Prep SPF 40
 Triple Prep SPF 40
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.716005+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1RfNmlvWXdFVWJOQUNETWp2bXhweGNpX3Ntbkt1Xy1RUUdGeWpSNWxHX0oxcl9qc29sV2RIaVRmbGVEZnBRYUl6NWduUzNJTkU3UlNTblktWHQ1Q0lqa1ZwMVpsVnNMOWpkY0FiYmtZTnllVG82ZGdKS3RRWEEzZ21lZV9pSFdVaGVZZUI5anpJSmt4aDJvaDBlbEtfNmloUmc?oc=5"
 ---
 
 # Record 1492 · Well-turn-to-AI-before-hiring-new-staff-says-Shopify-CEO---thestacktec
@@ -15,7 +19,3 @@ tags: [record, real-data]
 We’ll turn to AI before hiring new staff says Shopify CEO - thestack.technology
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

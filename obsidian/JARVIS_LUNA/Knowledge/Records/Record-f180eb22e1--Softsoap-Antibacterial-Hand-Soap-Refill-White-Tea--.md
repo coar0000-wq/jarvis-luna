@@ -2,8 +2,12 @@
 title: "Record f180eb22e1 · Softsoap-Antibacterial-Hand-Soap-Refill-White-Tea--Berry-Scent-50-fl-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.286252+00:00
+updated_at: 2026-10-11T00:55:46.996128+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Softsoap-Antibacterial-Liquid-Refill-White/dp/B081FFRGZB/ref=zg_bs_g_beauty_d_sccl_29/133-7130756-4573415"
 ---
 
 # Record f180eb22e1 · Softsoap-Antibacterial-Hand-Soap-Refill-White-Tea--Berry-Scent-50-fl-o
@@ -16,7 +20,3 @@ Softsoap Antibacterial Hand Soap Refill, White Tea & Berry Scent, 50 fl oz | Liq
 Softsoap Antibacterial Hand Soap Refill, White Tea & Berry Scent, 50 fl oz | Liquid, Paraben-Free, Phthalate-Free, Washes Away Germs, for Bathroom & Kitchen, Daily Handwashing, Gentle on Hands · $5.97 · 평점 4.6 · 리뷰 24,789
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

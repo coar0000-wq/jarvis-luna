@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.989207+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1wNElIbTlsQ0xDM25IRjA4aldrU3d0YWEyY09HY1VNWVFmUmJxZWV5VEVLNldYX3NPU3o2WGxIampRaTRUaUowZ2dmQTUwZ0w5UGRvaTVQM2NQWmMt?oc=5"
 ---
 
 # Record 940 · Bloomreach-partners-with-Shopify-to-deliver-AI-powered-personalization
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Bloomreach partners with Shopify to deliver AI-powered personalization, helping enterprises increase revenue by over 300% (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

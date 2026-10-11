@@ -2,8 +2,12 @@
 title: "Record 9dffa9542d · The-5-Best-AI-Website-Builders-for-UK-SMEs-Tested-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.184652+00:00
+updated_at: 2026-10-11T00:55:29.991393+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yRzNFNmlaT0c4YzVKZ2pOQkZnclZDUFlWOGl1Vmg1OFpaLTFNbU5YUmdOSDh4SmdPU21EQk5fY1k4VGZ5YnJ2WGg3ajZmN2xXcktWVWVpQ2VjOXB0ZkZIQVhnSXJrbWM?oc=5"
 ---
 
 # Record 9dffa9542d · The-5-Best-AI-Website-Builders-for-UK-SMEs-Tested-b
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The 5 Best AI Website Builders for UK SMEs: Tested by Us - Startups.co.uk
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[JARVIS Real Knowledge Index]]

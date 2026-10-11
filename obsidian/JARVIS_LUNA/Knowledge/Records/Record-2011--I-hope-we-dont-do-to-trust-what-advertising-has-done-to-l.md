@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.247029+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "openalex.org"
+url: "https://openalex.org/W7159891488"
 ---
 
 # Record 2011 · I-hope-we-dont-do-to-trust-what-advertising-has-done-to-love
@@ -15,7 +20,3 @@ tags: [record, real-data]
 I hope we don't do to trust what advertising has done to love
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

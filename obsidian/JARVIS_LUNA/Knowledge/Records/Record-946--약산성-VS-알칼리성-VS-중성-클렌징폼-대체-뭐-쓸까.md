@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.196283+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=TZ0YwFvqGdk"
 ---
 
 # Record 946 · 약산성-VS-알칼리성-VS-중성-클렌징폼-대체-뭐-쓸까
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 약산성 VS 알칼리성 VS 중성 클렌징폼, 대체 뭐 쓸까?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

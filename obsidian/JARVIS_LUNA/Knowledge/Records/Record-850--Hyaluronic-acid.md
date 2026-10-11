@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.522149+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "en.wikipedia.org"
+url: "https://en.wikipedia.org/wiki/Hyaluronic_acid"
 ---
 
 # Record 850 · Hyaluronic-acid
@@ -16,7 +20,3 @@ Hyaluronic acid
 Hyaluronic acid
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

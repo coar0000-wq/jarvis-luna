@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.412615+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s12276-025-01531-z"
 ---
 
 # Record 373 · Comprehensive-profiling-of-RNA-modification-related-genes-identifies-R
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Comprehensive profiling of RNA modification-related genes identifies RNA m7G binding protein CBP20 as a therapeutic target for tumor growth inhibition
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

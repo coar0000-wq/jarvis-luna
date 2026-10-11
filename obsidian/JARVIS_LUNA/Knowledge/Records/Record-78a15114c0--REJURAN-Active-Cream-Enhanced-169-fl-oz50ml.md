@@ -2,8 +2,12 @@
 title: "Record 78a15114c0 · REJURAN-Active-Cream-Enhanced-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.818988+00:00
+updated_at: 2026-10-11T00:55:40.453731+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA51829710"
 ---
 
 # Record 78a15114c0 · REJURAN-Active-Cream-Enhanced-169-fl-oz50ml
@@ -16,7 +20,3 @@ REJURAN Active Cream Enhanced 1.69 fl. oz.(50ml)
 REJURAN Active Cream Enhanced 1.69 fl. oz.(50ml) · 평점 5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

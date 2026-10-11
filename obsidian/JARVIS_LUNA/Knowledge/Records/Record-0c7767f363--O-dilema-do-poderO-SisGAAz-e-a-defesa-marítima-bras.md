@@ -2,8 +2,14 @@
 title: "Record 0c7767f363 · O-dilema-do-poderO-SisGAAz-e-a-defesa-marítima-brasileira"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.563791+00:00
+updated_at: 2026-10-11T00:55:20.856703+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.26792/rbed.v13i1.75518"
+kind: "논문"
 ---
 
 # Record 0c7767f363 · O-dilema-do-poderO-SisGAAz-e-a-defesa-marítima-brasileira
@@ -15,7 +21,3 @@ tags: [record, real-data]
 O dilema do poder:O SisGAAz e a defesa marítima brasileira
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

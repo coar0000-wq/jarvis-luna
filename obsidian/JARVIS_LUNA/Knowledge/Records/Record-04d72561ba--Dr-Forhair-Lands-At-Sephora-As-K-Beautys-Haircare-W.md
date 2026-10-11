@@ -2,8 +2,12 @@
 title: "Record 04d72561ba · Dr-Forhair-Lands-At-Sephora-As-K-Beautys-Haircare-W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.276914+00:00
+updated_at: 2026-10-11T00:55:31.577144+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTE1aQUVncTZMVmNlcTV4SmdGZGNYVmFpa09vNWNWMVByWldSQ25lX2xfWk9lUnA2cWJuS215M3F2UmYtN0ZqZ2FEdE5tS3JXUGc3elN5TE1kUHdOZE9sTGRpMDdRcE9zSnFtZFVXM0FwdDBCM3hTY3JiX2pYVQ?oc=5"
 ---
 
 # Record 04d72561ba · Dr-Forhair-Lands-At-Sephora-As-K-Beautys-Haircare-W
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Dr. Forhair Lands At Sephora As K-Beauty’s Haircare Wave Builds - Beauty Independent
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

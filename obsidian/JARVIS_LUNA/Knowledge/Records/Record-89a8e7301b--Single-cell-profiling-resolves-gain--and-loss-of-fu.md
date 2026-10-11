@@ -2,8 +2,14 @@
 title: "Record 89a8e7301b · Single-cell-profiling-resolves-gain--and-loss-of-function-mechanisms-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.009338+00:00
+updated_at: 2026-10-11T00:55:27.403901+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.09.26.754690"
+kind: "논문"
 ---
 
 # Record 89a8e7301b · Single-cell-profiling-resolves-gain--and-loss-of-function-mechanisms-i
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Single-cell profiling resolves gain- and loss-of-function mechanisms in CASR to advance mechanism-aware variant classification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 3b5ed3d291 · Farmers-are-facing-more-pressure-CNH-says-robotics-can-help"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.577221+00:00
+updated_at: 2026-10-11T00:55:51.788070+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/"
 ---
 
 # Record 3b5ed3d291 · Farmers-are-facing-more-pressure-CNH-says-robotics-can-help
@@ -16,7 +20,3 @@ Farmers are facing more pressure; CNH says robotics can help
 <p>Labor availability, costs, productivity, and efficiency are common concerns of farmers that technology can address, according to CNH. </p> <p>The post <a href="https://www.therobotreport.com/farmers-are-facing-more-pressure-cnh-says-robotics-can-help/">Farmers are facing more pressure; CNH says robotics can help</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

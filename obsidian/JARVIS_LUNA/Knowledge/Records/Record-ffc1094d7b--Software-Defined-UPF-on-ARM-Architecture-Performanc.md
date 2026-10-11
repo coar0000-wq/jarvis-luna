@@ -2,8 +2,14 @@
 title: "Record ffc1094d7b · Software-Defined-UPF-on-ARM-Architecture-Performance-and-Industry-Vert"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.918396+00:00
+updated_at: 2026-10-11T00:55:25.904771+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.52088/ijesty.v6i2.1966"
+kind: "논문"
 ---
 
 # Record ffc1094d7b · Software-Defined-UPF-on-ARM-Architecture-Performance-and-Industry-Vert
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Software-Defined UPF on ARM: Architecture, Performance, and Industry-Vertical Applications at the 5G Edge
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

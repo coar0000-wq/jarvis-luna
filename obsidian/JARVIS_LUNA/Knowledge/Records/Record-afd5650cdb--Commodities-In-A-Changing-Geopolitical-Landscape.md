@@ -2,8 +2,14 @@
 title: "Record afd5650cdb · Commodities-In-A-Changing-Geopolitical-Landscape"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.480792+00:00
+updated_at: 2026-10-11T00:55:49.927852+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/markets-and-economy/markets/commodities-in-a-changing-geopolitical-landscape"
+kind: "발표물"
 ---
 
 # Record afd5650cdb · Commodities-In-A-Changing-Geopolitical-Landscape
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Commodities In A Changing Geopolitical Landscape
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

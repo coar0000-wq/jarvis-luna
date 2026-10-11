@@ -2,8 +2,14 @@
 title: "Record 7db995c30f · Mistral-raises-3B-to-make-sovereign-open-weight-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.093361+00:00
+updated_at: 2026-10-11T00:55:28.434895+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+kind: "발표물"
 ---
 
 # Record 7db995c30f · Mistral-raises-3B-to-make-sovereign-open-weight-AI-
@@ -16,7 +22,3 @@ Mistral raises €3B to make sovereign, open-weight AI the technology frontier
 Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record aaeaca7179 · NOAH-Learning-the-Full-Patient-Journey-A-Longitudin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.014144+00:00
+updated_at: 2026-10-11T00:55:12.586949+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09140v1"
 ---
 
 # Record aaeaca7179 · NOAH-Learning-the-Full-Patient-Journey-A-Longitudin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

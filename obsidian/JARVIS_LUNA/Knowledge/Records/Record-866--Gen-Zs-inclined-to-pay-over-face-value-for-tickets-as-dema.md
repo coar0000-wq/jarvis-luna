@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.161185+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/050/gen-zs-inclined-to-pay-over-face-value-for-tickets--as-demand-an/"
 ---
 
 # Record 866 · Gen-Zs-inclined-to-pay-over-face-value-for-tickets-as-demand-and-AI-dr
@@ -16,7 +21,3 @@ Gen Zs inclined to pay over face value for tickets, as demand and AI drive summe
 Fans aged 18-29 would pay an extra £55 on average for resale tickets – more than double the national average of £25
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

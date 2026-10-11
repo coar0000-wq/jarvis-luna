@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.473938+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=ujaqG-LnoSE"
 ---
 
 # Record 2314 · How-To-Start-A-1-Person-AI-Business-0-to-1M
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How To Start A 1-Person AI Business ($0 to $1M)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[JARVIS Real Knowledge Index]]

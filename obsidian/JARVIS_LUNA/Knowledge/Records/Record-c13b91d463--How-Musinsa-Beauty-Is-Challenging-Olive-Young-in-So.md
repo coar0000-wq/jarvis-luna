@@ -2,8 +2,12 @@
 title: "Record c13b91d463 · How-Musinsa-Beauty-Is-Challenging-Olive-Young-in-South-Koreas-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.373125+00:00
+updated_at: 2026-10-11T00:55:33.310003+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYmJDQ0lpR0Nwc05UbW9BTmhNRkVsMFM2M1gxRG1vTU94UVFNZHZCWWZvbVp6ZDlDVnRmRHhOaUhEdnBzTmY0RS13dkd5cWoyNkc1ZjZPS3ZuNm1yWThISEdfdWZfbk5acTdWTzc5S1FKenVUVzJ2Ym5reVE3SFZQZnEwNTl5NFM2OHRZ?oc=5"
 ---
 
 # Record c13b91d463 · How-Musinsa-Beauty-Is-Challenging-Olive-Young-in-South-Koreas-K-Beauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How Musinsa Beauty Is Challenging Olive Young in South Korea’s K-Beauty Market - beautymatter.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 87cdc82b56 · The-Top-Trends-That-Will-Define-Beauty-in-2026---Th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.406532+00:00
+updated_at: 2026-10-11T00:55:33.926206+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxORnZkQ2hmazl2clNmRWhpT29BSzhuSGp5UXduRzZpU3NFdWFrdWdvRFdDZF9BeXEwaVR1MkdwR1U3WVRoNDNNN2VLRHpKZks0VGJ5ZnRUa2tYZVJPZ0tWYy1lZHlER2dlN2FTQnRKNTRoMDByQVpzSTNnLXpJQlBZWXhqMzVxYTFJRHpwaUlpZWRuSlE?oc=5"
 ---
 
 # Record 87cdc82b56 · The-Top-Trends-That-Will-Define-Beauty-in-2026---Th
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Top Trends That Will Define Beauty in 2026 - The Business of Fashion
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

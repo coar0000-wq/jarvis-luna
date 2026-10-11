@@ -2,8 +2,14 @@
 title: "Record 34e7c5e37b · SEVRA-BENCH-Social-Engineering-of-Vulnerabilities-in-Review-Agents"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.639959+00:00
+updated_at: 2026-10-11T00:55:22.247340+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "보안프라이버시", "데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.13757"
+kind: "논문"
 ---
 
 # Record 34e7c5e37b · SEVRA-BENCH-Social-Engineering-of-Vulnerabilities-in-Review-Agents
@@ -15,7 +21,3 @@ tags: [record, real-data]
 SEVRA-BENCH: Social Engineering of Vulnerabilities in Review Agents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[보안프라이버시]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

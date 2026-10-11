@@ -2,8 +2,12 @@
 title: "Record cf4b568fda · FOODOLOGY-Coleology-Cut-Pro-002-oz1g-600-Mg-x-60ea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.760123+00:00
+updated_at: 2026-10-11T00:55:39.571914+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA11015862"
 ---
 
 # Record cf4b568fda · FOODOLOGY-Coleology-Cut-Pro-002-oz1g-600-Mg-x-60ea
@@ -16,7 +20,3 @@ FOODOLOGY Coleology Cut Pro 0.02 oz.(1g) (600 Mg) x 60ea
 FOODOLOGY Coleology Cut Pro 0.02 oz.(1g) (600 Mg) x 60ea · 평점 5 · 리뷰 3
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

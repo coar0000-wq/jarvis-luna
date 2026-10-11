@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.681217+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xYUtxeUNxMDlxMkgwb1p6ZFhKVW9aR3F3cXZ4ell1QXZRN05yMVJOWlNWZEhiTEZpaVVIbFU3VGZabWY5M05GRzQ3RkI1cVZLMm9jRGpBbEFUN0pnUVhZc05ZYzFTX2otSWJWUEticW5xRWJFTUUzVVBB0gF_QVVfeXFMUHNZWXRfUDBXM00wWGNUaUY5aFRJTVNIUlk0UlptYnpKaUd6UWcwbGtoOUR6V296R29ZaXpkbUJxaEhpLU9qdnlpU0dCajlQNVJuT29iZ1RRd0xCVlROZGRnZXI0d084RVlFRldCaC1zeTVydDY1aVIzN0hFZ0U0aw?oc=5"
 ---
 
 # Record 323 · For-many-seeking-beauty-treatments-TikTok-is-the-blueprint---NewsNatio
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 For many seeking beauty treatments, TikTok is the ‘blueprint’ - NewsNation
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.311717+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/oE4PQahVsI4"
 ---
 
 # Record 2242 · 선크림-SPF-50-저희-연구원에서는-이렇게-확인합니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선크림 SPF 50+, 저희 연구원에서는 이렇게 확인합니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

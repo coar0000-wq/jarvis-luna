@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.807481+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=NgjMvYwfxs4"
 ---
 
 # Record 2782 · Guangzhou-isnt-just-a-city-to-visit-Its-also-a-city-to-source
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Guangzhou isn't just a city to visit. It's also a city to source. 🇨🇳
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

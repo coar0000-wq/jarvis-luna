@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.044639+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7160969316"
 ---
 
 # Record 2024 · Sub-Gaussian-Concentration-and-Entropic-Normality-of-the-Maximum-Likel
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Sub-Gaussian Concentration and Entropic Normality of the Maximum Likelihood Estimator
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

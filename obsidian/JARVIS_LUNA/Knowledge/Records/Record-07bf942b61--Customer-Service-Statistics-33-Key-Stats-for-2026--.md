@@ -2,8 +2,12 @@
 title: "Record 07bf942b61 · Customer-Service-Statistics-33-Key-Stats-for-2026--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.188854+00:00
+updated_at: 2026-10-11T00:55:30.057391+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VanowRktiRTJZN0pEM2lTbjVKWjY2R29ac1VFdk1KQ0NSQmNXN1BubjZGckstZlh0Z2ZMYXN2VTJCVzFQbWdsQXY5dTJxRk1UeGc1ZGh5emIzVHZhS3FFMEl5elc4eTA?oc=5"
 ---
 
 # Record 07bf942b61 · Customer-Service-Statistics-33-Key-Stats-for-2026--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Customer Service Statistics: 33 Key Stats for 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

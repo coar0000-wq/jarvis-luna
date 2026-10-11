@@ -2,8 +2,12 @@
 title: "Record 7fbcebdb3b · The-evolution-of-Digit-Agility-Robotics-journey-from-Cassie-to-Digit-5"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.606056+00:00
+updated_at: 2026-10-11T00:55:52.183367+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/"
 ---
 
 # Record 7fbcebdb3b · The-evolution-of-Digit-Agility-Robotics-journey-from-Cassie-to-Digit-5
@@ -16,7 +20,3 @@ The evolution of Digit: Agility Robotics’ journey from Cassie to Digit 5
 <p>From Cassie, to five different versions of Digit, Agility Robotics has adapted its technology to fit industrial tasks. </p> <p>The post <a href="https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/">The evolution of Digit: Agility Robotics&#8217; journey from Cassie to Digit 5</a> appeared first on <a href="https://www.therobotreport.com">The Ro
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

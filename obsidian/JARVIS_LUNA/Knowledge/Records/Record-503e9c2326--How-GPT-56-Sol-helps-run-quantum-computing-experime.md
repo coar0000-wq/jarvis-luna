@@ -2,8 +2,14 @@
 title: "Record 503e9c2326 · How-GPT-56-Sol-helps-run-quantum-computing-experime"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.629819+00:00
+updated_at: 2026-10-11T00:55:37.342781+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "과학수학", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/codex-quantum-computing-experiments"
+kind: "발표물"
 ---
 
 # Record 503e9c2326 · How-GPT-56-Sol-helps-run-quantum-computing-experime
@@ -16,7 +22,3 @@ How GPT-5.6 Sol helps run quantum computing experiments
 See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[과학수학]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 5ccb1575d5 · Impact-of-Source-Contact-Segmentation-on-the-Electr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.266039+00:00
+updated_at: 2026-10-11T00:55:15.800975+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1002/pssa.70498"
+kind: "논문"
 ---
 
 # Record 5ccb1575d5 · Impact-of-Source-Contact-Segmentation-on-the-Electr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Impact of Source Contact Segmentation on the Electrical Characteristics of 4H‐SiC Planar MOSFETs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

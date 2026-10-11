@@ -2,8 +2,12 @@
 title: "Record c6fd31a9a0 · UniAfford-Token-Routed-Multitask-Learning-for-Generalizable-2D-3D-Affo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.886800+00:00
+updated_at: 2026-10-11T00:55:25.533277+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전", "로보틱스"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.37264"
 ---
 
 # Record c6fd31a9a0 · UniAfford-Token-Routed-Multitask-Learning-for-Generalizable-2D-3D-Affo
@@ -16,7 +20,3 @@ UniAfford: Token-Routed Multitask Learning for Generalizable 2D-3D Affordance Pe
 Affordance perception aims to localize actionable regions supporting embodied interaction, yet 2D and 3D affordance grounding have evolved as separate problems, with different task definitions, supervision formats, datasets, and evaluation protocols. This fragmentation limits the learning of transferable object-affordance semantics across visual and geometric spaces. We propose Token Router for Ta
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

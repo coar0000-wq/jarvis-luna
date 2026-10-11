@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.643235+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "openalex.org"
+url: "https://openalex.org/W7167981313"
 ---
 
 # Record 1958 · Macroeconomic-Message-Passing-for-Anticipating-Foreign-Exchange-Regime
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Macroeconomic Message Passing for Anticipating Foreign Exchange Regime Changes: A Deep Logical Learning Approach using Graph Tsetlin Machines
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

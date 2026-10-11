@@ -2,8 +2,12 @@
 title: "Record f7c1856273 · Augmenting-Visual-Anomaly-Detection-with-Automated-Interpretability"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.219306+00:00
+updated_at: 2026-10-11T00:55:15.103438+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.33818"
 ---
 
 # Record f7c1856273 · Augmenting-Visual-Anomaly-Detection-with-Automated-Interpretability
@@ -16,7 +20,3 @@ Augmenting Visual Anomaly Detection with Automated Interpretability
 Visual anomaly detectors identify deviations from known-normal data, but their anomaly signals may mix evidence of actual anomalies with benign visual variation. We investigate whether automated interpretability can augment visual anomaly detectors by identifying and intervening on different components of this signal. We decompose PatchCore nearest-normal residuals into sparse features using Spars
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

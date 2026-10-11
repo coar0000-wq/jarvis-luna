@@ -2,8 +2,14 @@
 title: "Record 7ebaddf9a6 · Accelerated-Determination-of-the-S-N-Curve-for-Fibe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.567386+00:00
+updated_at: 2026-10-11T00:55:20.924648+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.31224/8089"
+kind: "논문"
 ---
 
 # Record 7ebaddf9a6 · Accelerated-Determination-of-the-S-N-Curve-for-Fibe
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Accelerated Determination of the S-N Curve for Fiber-reinforced Composites Using a Quasistatic Tri-modal Tensile Test System
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

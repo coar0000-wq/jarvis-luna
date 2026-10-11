@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.972526+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com"
 ---
 
 # Record 2217 · 장수-세럼-스킨-스트랭스
@@ -16,7 +20,3 @@ tags: [record, real-data]
 장수 세럼 스킨 스트랭스 · 타차 (Tatcha) · $30.0 · 평점 4.8 · 리뷰 587
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

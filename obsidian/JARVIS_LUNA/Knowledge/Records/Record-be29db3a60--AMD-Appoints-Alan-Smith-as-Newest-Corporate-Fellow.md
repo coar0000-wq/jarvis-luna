@@ -2,8 +2,14 @@
 title: "Record be29db3a60 · AMD-Appoints-Alan-Smith-as-Newest-Corporate-Fellow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.079686+00:00
+updated_at: 2026-10-11T00:55:28.234698+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1290/amd-appoints-alan-smith-as-newest-corporate-fellow"
+kind: "발표물"
 ---
 
 # Record be29db3a60 · AMD-Appoints-Alan-Smith-as-Newest-Corporate-Fellow
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AMD Appoints Alan Smith as Newest Corporate Fellow
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

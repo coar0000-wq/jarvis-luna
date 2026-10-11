@@ -2,8 +2,12 @@
 title: "Record 33a2f7bd22 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.370953+00:00
+updated_at: 2026-10-11T00:55:33.282439+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeFg4RnI5cHE5dEVIaDhnSEVvTmFmTUZRNjh3ZG9qMGxvcDB5NzN0WFA0aGhGQlNrX195WHQ5V1Q0S21YeE1mQjJwSmtsM3lrVG1ZMndOOGpESXo2MVZ2dl85YlhUVEgxQkZEODJ2by15d2ZOM0dXN0d6OXI5UlBqd2FaUWkyb2hYVkE?oc=5"
 ---
 
 # Record 33a2f7bd22 · 30-K-Beauty-Skincare-Deals-You-Can-Snag-on-Amazon-f
@@ -15,7 +19,3 @@ tags: [record, real-data]
 30+ K-Beauty Skincare Deals You Can Snag on Amazon for Up to 50% Off Right Now - Charlotte Observer
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

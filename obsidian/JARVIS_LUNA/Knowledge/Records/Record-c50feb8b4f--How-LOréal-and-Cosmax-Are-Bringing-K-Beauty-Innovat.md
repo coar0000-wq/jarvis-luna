@@ -2,8 +2,12 @@
 title: "Record c50feb8b4f · How-LOréal-and-Cosmax-Are-Bringing-K-Beauty-Innovation-into-Global-RD-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.368090+00:00
+updated_at: 2026-10-11T00:55:33.235854+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxOajNPOE1Ga3dSNFc2NWRwX3Y1VXo2WXdKR2F6U2VBYUtzV3BPVGlOc0dVaE4xQmpqMEpkX0Z0WC1aNG4tZFhzMTRMWXpGZnAzNUVLbWtFbjNYSHBDTDc5a2pfMFNVM0JGanNnRURKazRBWDRmd3FDdjdsYXNMQU4zdnFVOW9EZEFoOUE?oc=5"
 ---
 
 # Record c50feb8b4f · How-LOréal-and-Cosmax-Are-Bringing-K-Beauty-Innovation-into-Global-RD-
@@ -16,7 +20,3 @@ How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - Bea
 How L’Oréal and Cosmax Are Bringing K-Beauty Innovation into Global R&D - BeautyMatter
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

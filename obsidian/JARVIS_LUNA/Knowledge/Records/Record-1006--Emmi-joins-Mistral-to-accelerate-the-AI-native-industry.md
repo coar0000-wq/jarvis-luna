@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.020293+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/accelerate-ai-native-industry/"
 ---
 
 # Record 1006 · Emmi-joins-Mistral-to-accelerate-the-AI-native-industry
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Emmi joins Mistral to accelerate the AI-native industry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

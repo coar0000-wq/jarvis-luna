@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.625742+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RU2ZJT2ppSjJFYjJyWWhfcmkyaDVramtIS2RDajhkd0w2ejFFYTJhUWdxYTg4Z3hhSWdrR19GSUNKU1BYRWdneWp3U2wzeVVwdHF0RDVpZXk3cnp5aV9ENVF1YXNmNGNvYUJjU3lBUnhPOU1ZWXM3LQ?oc=5"
 ---
 
 # Record 1317 · All-the-Best-Korean-Beauty-Products-That-Weve-Written-About-on-the-Str
@@ -15,7 +19,3 @@ tags: [record, real-data]
 All the Best Korean-Beauty Products (That We’ve Written About on the Strategist) - nymag.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

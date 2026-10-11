@@ -2,8 +2,12 @@
 title: "Record b0129e4688 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.518888+00:00
+updated_at: 2026-10-11T00:55:35.831458+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdEhBQ1VvY2M1TTU1ZnBsb1diTlNGMnhwUzVuT09EVjlWM1pTTGJLWFQ5R0kxeHVxRnA2TWwtY1UydGN3NEVkbFpOcU1ySldZSk45OXFHeUY3V1dpMEZKem42RmtUcFNKbUhBZUU3QlJwY3hTWlU4Mi1NV3c3bU9xRnFJZ2xoVHIyRXMtTUpNTDV6elNUYnc1Q1VLb19RanFHR3BpQVlEYWpRYWVLajFFbTV5VQ?oc=5"
 ---
 
 # Record b0129e4688 · Olive-Young-Opens-In-Los-Angeles-With-New-K-Beauty-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young Opens In Los Angeles With New K-Beauty Stores - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

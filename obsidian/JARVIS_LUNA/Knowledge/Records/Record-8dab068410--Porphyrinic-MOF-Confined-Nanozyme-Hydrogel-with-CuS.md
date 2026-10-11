@@ -2,8 +2,14 @@
 title: "Record 8dab068410 · Porphyrinic-MOF-Confined-Nanozyme-Hydrogel-with-CuS-Mediated-Photoregu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.346123+00:00
+updated_at: 2026-10-11T00:55:17.131125+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsami.6c04886"
+kind: "논문"
 ---
 
 # Record 8dab068410 · Porphyrinic-MOF-Confined-Nanozyme-Hydrogel-with-CuS-Mediated-Photoregu
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Porphyrinic MOF-Confined Nanozyme Hydrogel with CuS-Mediated Photoregulation for Infected Wound Healing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

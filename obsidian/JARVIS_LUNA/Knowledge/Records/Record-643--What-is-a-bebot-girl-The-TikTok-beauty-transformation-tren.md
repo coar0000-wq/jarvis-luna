@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.946633+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeWc3ZldjSEdUQUZCYjlXOWtBR2E0dmtabGZSOGRYWjVzRVlmbnRxYTNnaXNZOEFJb0tnMGppRU5NalVQVmFYeGIwcmNVbkI4QzF5WHdpVV9uXzQ4ZmgxNl85a3B4QUlTaG93aEdMV3hscDVMUVFTWEtfNHJjaDdrSFY2SkgzaTl3UHZ4WEtLbXBQeTlSbnEya1pOckhyZDRIYnd3ckExYUk?oc=5"
 ---
 
 # Record 643 · What-is-a-bebot-girl-The-TikTok-beauty-transformation-trend-explained-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 What is a “bebot” girl? The TikTok beauty transformation trend, explained - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.306361+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
 ---
 
 # Record 271 · AlphaGenome-Atlas-A-predictive-map-of-every-possible-DNA-letter-change
@@ -16,7 +21,3 @@ AlphaGenome Atlas: A predictive map of every possible DNA letter change in the h
 AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

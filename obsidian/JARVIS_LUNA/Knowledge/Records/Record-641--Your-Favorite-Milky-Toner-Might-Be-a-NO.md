@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.402135+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/o5mj8BE57bs"
 ---
 
 # Record 641 · Your-Favorite-Milky-Toner-Might-Be-a-NO
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Your Favorite Milky Toner Might Be a NO
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

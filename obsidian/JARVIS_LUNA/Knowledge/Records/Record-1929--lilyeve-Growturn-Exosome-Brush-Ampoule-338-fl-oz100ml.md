@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.388597+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA98417491"
 ---
 
 # Record 1929 · lilyeve-Growturn-Exosome-Brush-Ampoule-338-fl-oz100ml
@@ -16,7 +20,3 @@ lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml)
 lilyeve Grow:turn Exosome Brush Ampoule 3.38 fl. oz.(100ml) · 평점 4.6 · 리뷰 7
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

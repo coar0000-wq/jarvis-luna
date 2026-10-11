@@ -2,8 +2,12 @@
 title: "Record e58b5288a0 · AI-based-detection-of-worsening-heart-failure-from-low-resolution-tele"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.203661+00:00
+updated_at: 2026-10-11T00:55:14.916082+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.29742"
 ---
 
 # Record e58b5288a0 · AI-based-detection-of-worsening-heart-failure-from-low-resolution-tele
@@ -16,7 +20,3 @@ AI-based detection of worsening heart failure from low-resolution telemonitoring
 Objective: Heart failure (HF) presents a healthcare challenge due to its high comorbidity burden, aging patient population and frequent hospitalizations. Remote monitoring offers a promising approach to managing HF patients by early detection of health deterioration. Developing autonomous systems to detect signs of worsening in telemonitoring data is of interest to reduce the workload of healthcar
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

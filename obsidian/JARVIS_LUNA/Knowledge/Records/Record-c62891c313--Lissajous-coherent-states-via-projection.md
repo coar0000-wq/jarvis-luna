@@ -2,8 +2,14 @@
 title: "Record c62891c313 · Lissajous-coherent-states-via-projection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.397803+00:00
+updated_at: 2026-10-11T00:55:18.034377+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1088/1751-8121/ae8895"
+kind: "논문"
 ---
 
 # Record c62891c313 · Lissajous-coherent-states-via-projection
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Lissajous coherent states via projection
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record ecba139667 · HANYUL-Red-Rice-Hydrating-Serum-507-fl-oz150ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.841161+00:00
+updated_at: 2026-10-11T00:55:40.887476+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA74916928"
 ---
 
 # Record ecba139667 · HANYUL-Red-Rice-Hydrating-Serum-507-fl-oz150ml
@@ -16,7 +20,3 @@ HANYUL Red Rice Hydrating Serum 5.07 fl. oz.(150ml)
 HANYUL Red Rice Hydrating Serum 5.07 fl. oz.(150ml)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

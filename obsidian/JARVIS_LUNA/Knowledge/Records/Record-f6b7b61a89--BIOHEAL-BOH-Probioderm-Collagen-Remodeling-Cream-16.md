@@ -2,8 +2,12 @@
 title: "Record f6b7b61a89 · BIOHEAL-BOH-Probioderm-Collagen-Remodeling-Cream-169-fl-oz50ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.787337+00:00
+updated_at: 2026-10-11T00:55:39.900769+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오", "뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA29860176"
 ---
 
 # Record f6b7b61a89 · BIOHEAL-BOH-Probioderm-Collagen-Remodeling-Cream-169-fl-oz50ml
@@ -16,7 +20,3 @@ BIOHEAL BOH Probioderm Collagen Remodeling Cream 1.69 fl. oz.(50ml)
 BIOHEAL BOH Probioderm Collagen Remodeling Cream 1.69 fl. oz.(50ml) · 평점 5 · 리뷰 1
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

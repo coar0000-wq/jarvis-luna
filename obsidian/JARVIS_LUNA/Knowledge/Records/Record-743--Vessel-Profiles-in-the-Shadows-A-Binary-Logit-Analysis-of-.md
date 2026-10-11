@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.470321+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-9098405/v1"
 ---
 
 # Record 743 · Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analysis-of-Technical-an
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Vessel Profiles in the Shadows: A Binary Logit Analysis of Technical and Operational Divergence in Global Tanker Fleets
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.777223+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/eYdwkHMM3JM"
 ---
 
 # Record 2515 · Talk-to-Sidekick-on-your-Apple-Watch
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Talk to Sidekick on your Apple Watch
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

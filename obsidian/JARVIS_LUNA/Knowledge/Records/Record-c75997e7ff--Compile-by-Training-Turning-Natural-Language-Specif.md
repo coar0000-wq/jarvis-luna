@@ -2,8 +2,12 @@
 title: "Record c75997e7ff · Compile-by-Training-Turning-Natural-Language-Specif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.952023+00:00
+updated_at: 2026-10-11T00:55:11.885620+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04199v1"
 ---
 
 # Record c75997e7ff · Compile-by-Training-Turning-Natural-Language-Specif
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Compile by Training: Turning Natural-Language Specifications into Local Neural Functions
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

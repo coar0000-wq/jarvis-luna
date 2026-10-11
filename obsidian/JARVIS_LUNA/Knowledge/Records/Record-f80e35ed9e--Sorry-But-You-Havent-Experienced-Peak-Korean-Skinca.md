@@ -2,8 +2,12 @@
 title: "Record f80e35ed9e · Sorry-But-You-Havent-Experienced-Peak-Korean-Skinca"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.221718+00:00
+updated_at: 2026-10-11T00:55:30.683545+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iYU0zaEUyWk5EdHNQeXJta0dSUG5La0RUaG5rNkt4ZzQ1Mld0VWsxLU5HckwzWjU4bGpDMWV6ZnZxSDd3emNRMEhrblRpajRfODlzVmJ3dlV0S3JzRnNMVDVMNEdta1kwQi0wWTVnNA?oc=5"
 ---
 
 # Record f80e35ed9e · Sorry-But-You-Havent-Experienced-Peak-Korean-Skinca
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Sorry, But You Haven't Experienced Peak Korean Skincare Until You've Tried These 10 Masks - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

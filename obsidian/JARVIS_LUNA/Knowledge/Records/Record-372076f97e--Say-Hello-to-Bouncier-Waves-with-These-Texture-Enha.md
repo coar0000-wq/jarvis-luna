@@ -2,8 +2,12 @@
 title: "Record 372076f97e · Say-Hello-to-Bouncier-Waves-with-These-Texture-Enha"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.914520+00:00
+updated_at: 2026-10-11T00:55:42.160222+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-shampoos-for-wavy-hair"
 ---
 
 # Record 372076f97e · Say-Hello-to-Bouncier-Waves-with-These-Texture-Enha
@@ -16,7 +20,3 @@ Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos
 Say Hello to Bouncier Waves with These Texture-Enhancing Shampoos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.502057+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/090/barclays-strengthens-japan-cash-equities-franchise-with-senior-s/"
 ---
 
 # Record 2239 · Barclays-Strengthens-Japan-Cash-Equities-Franchise-With-Senior-S
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Barclays Strengthens Japan Cash Equities Franchise With Senior S
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

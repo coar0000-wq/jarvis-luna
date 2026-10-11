@@ -2,8 +2,12 @@
 title: "Record 62b48e0ca0 · Co-Evolving-Harnesses-and-Models-On-Policy-Correcti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.013402+00:00
+updated_at: 2026-10-11T00:55:12.570125+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09134v1"
 ---
 
 # Record 62b48e0ca0 · Co-Evolving-Harnesses-and-Models-On-Policy-Correcti
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

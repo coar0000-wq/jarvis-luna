@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.332366+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=U3R1DqvQM_w"
 ---
 
 # Record 968 · Top-7-Trending-PET-Products-To-Sell-Now--CJdropshipping-Picks
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Top 7 Trending PET Products To Sell Now | CJdropshipping Picks
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

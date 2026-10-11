@@ -2,8 +2,14 @@
 title: "Record 6bd1910bb5 · Technical-NoteImproved-Sample-Complexity-Bounds-in-Stochastic-Optimiza"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.500725+00:00
+updated_at: 2026-10-11T00:55:19.851127+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1287/opre.2018.0340"
+kind: "논문"
 ---
 
 # Record 6bd1910bb5 · Technical-NoteImproved-Sample-Complexity-Bounds-in-Stochastic-Optimiza
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Technical Note—Improved Sample-Complexity Bounds in Stochastic Optimization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

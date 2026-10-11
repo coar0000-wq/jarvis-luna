@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:25.863426+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE9iM0lLc091SHB4dzBKTGt6SFRtRWRnT2g4YWhKRkRoMmFPRnZrc0lzUXNTOGU5aUZoakVaZ0NHSW1iN2J3SXR1bkZJVDRTQ2xfMG12Mno3NWtUV29GSkVRYktFbUFFUnp4ZHVpUEsxcw?oc=5"
 ---
 
 # Record 1265 · Everything-We-Love-About-K-Beauty-Curated-Into-One-Box---Allure
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Everything We Love About K-Beauty, Curated Into One Box - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

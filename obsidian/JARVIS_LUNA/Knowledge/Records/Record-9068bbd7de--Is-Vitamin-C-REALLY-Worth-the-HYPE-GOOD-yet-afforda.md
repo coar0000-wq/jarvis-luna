@@ -2,8 +2,12 @@
 title: "Record 9068bbd7de · Is-Vitamin-C-REALLY-Worth-the-HYPE-GOOD-yet-afforda"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.698805+00:00
+updated_at: 2026-10-11T00:55:53.788980+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/SODreJspUxE"
 ---
 
 # Record 9068bbd7de · Is-Vitamin-C-REALLY-Worth-the-HYPE-GOOD-yet-afforda
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Is Vitamin C REALLY Worth the HYPE?! GOOD yet affordable Vitamin C that actually works!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

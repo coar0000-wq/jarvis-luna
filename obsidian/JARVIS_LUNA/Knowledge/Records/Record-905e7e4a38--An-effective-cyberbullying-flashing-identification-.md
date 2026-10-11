@@ -2,8 +2,14 @@
 title: "Record 905e7e4a38 · An-effective-cyberbullying-flashing-identification-on-whatsapp-using-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.367099+00:00
+updated_at: 2026-10-11T00:55:17.489331+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41598-025-28765-1"
+kind: "논문"
 ---
 
 # Record 905e7e4a38 · An-effective-cyberbullying-flashing-identification-on-whatsapp-using-P
@@ -15,7 +21,3 @@ tags: [record, real-data]
 An effective cyberbullying-flashing identification on whatsapp using PTS-GReLU-GRU with harmful level prediction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

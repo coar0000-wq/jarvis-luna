@@ -2,8 +2,12 @@
 title: "Record f1aa4cb377 · COVER-Identifiable-Evaluation-of-Coalition-Routing"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.909632+00:00
+updated_at: 2026-10-11T00:55:11.279022+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28475v1"
 ---
 
 # Record f1aa4cb377 · COVER-Identifiable-Evaluation-of-Coalition-Routing
@@ -15,7 +19,3 @@ tags: [record, real-data]
 COVER: Identifiable Evaluation of Coalition Routing
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

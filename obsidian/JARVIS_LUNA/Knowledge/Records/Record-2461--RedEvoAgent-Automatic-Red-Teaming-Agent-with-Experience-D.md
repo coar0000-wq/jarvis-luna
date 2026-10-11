@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.374309+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27439v1"
 ---
 
 # Record 2461 · RedEvoAgent-Automatic-Red-Teaming-Agent-with-Experience-Driven-Skill-E
@@ -15,7 +19,3 @@ tags: [record, real-data]
 RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

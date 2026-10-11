@@ -2,8 +2,14 @@
 title: "Record 3daa0beee3 · Flow-Cytometry-Immunophenotyping-in-Hematology-Clin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.585514+00:00
+updated_at: 2026-10-11T00:55:21.235507+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.3390/hemato7020022"
+kind: "논문"
 ---
 
 # Record 3daa0beee3 · Flow-Cytometry-Immunophenotyping-in-Hematology-Clin
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Flow Cytometry Immunophenotyping in Hematology Clinical Practice: Panacea or a Diagnostic Tool? Conclusions from a Case Report
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

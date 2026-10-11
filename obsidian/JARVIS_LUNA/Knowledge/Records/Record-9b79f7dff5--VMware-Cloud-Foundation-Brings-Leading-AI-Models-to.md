@@ -2,8 +2,14 @@
 title: "Record 9b79f7dff5 · VMware-Cloud-Foundation-Brings-Leading-AI-Models-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.065375+00:00
+updated_at: 2026-10-11T00:55:28.026997+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/vmware-cloud-foundation-brings-leading-ai-models-private-ai"
+kind: "발표물"
 ---
 
 # Record 9b79f7dff5 · VMware-Cloud-Foundation-Brings-Leading-AI-Models-to
@@ -16,7 +22,3 @@ VMware Cloud Foundation Brings Leading AI Models to the Private AI Cloud
 Nemotron 3, Gemma 4, cotomi, Qwen3.7-Max, and GLM-5.2 Validated to Run on VMware Cloud Foundation LAS VEGAS, Aug. 31, 2026 (GLOBE NEWSWIRE) -- VMware Explore 2026 -- &nbsp; Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and infrastructure
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

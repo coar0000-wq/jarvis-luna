@@ -2,8 +2,14 @@
 title: "Record d650af9a9d · Voxtral-transcribes-at-the-speed-of-sound"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.099087+00:00
+updated_at: 2026-10-11T00:55:28.539016+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/voxtral-transcribe-2/"
+kind: "발표물"
 ---
 
 # Record d650af9a9d · Voxtral-transcribes-at-the-speed-of-sound
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Voxtral transcribes at the speed of sound.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

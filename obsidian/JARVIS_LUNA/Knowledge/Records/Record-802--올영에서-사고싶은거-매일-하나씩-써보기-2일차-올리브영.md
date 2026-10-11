@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.613136+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/ECXMzwZjd_I"
 ---
 
 # Record 802 · 올영에서-사고싶은거-매일-하나씩-써보기-2일차-올리브영
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 올영에서 사고싶은거 매일 하나씩 써보기 2일차 #올리브영
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

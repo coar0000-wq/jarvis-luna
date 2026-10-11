@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.801500+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델", "컴퓨터-비전", "과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04070v1"
 ---
 
 # Record 094 · Continuous-Actions-from-Discrete-Minds-Latent-Aligned-Planning-for-End
@@ -16,7 +20,3 @@ Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End A
 Bridging the gap between the discrete reasoning of Vision-Language Models and the continuous, physics-constrained nature of autonomous driving remains a significant challenge. In this work, we introduce LaPla, a unified Vision-Language-Action (VLA) framework featuring latent-aligned planning to seamlessly ground semantic understanding in precise motion execution. We first design an action tokenize
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[컴퓨터-비전]] [[과학수학]] [[JARVIS Real Knowledge Index]]

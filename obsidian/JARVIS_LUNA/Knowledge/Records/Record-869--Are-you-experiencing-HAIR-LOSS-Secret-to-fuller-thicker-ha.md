@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.326261+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/MVHt-RPQKrk"
 ---
 
 # Record 869 · Are-you-experiencing-HAIR-LOSS-Secret-to-fuller-thicker-hair--stronger
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Are you experiencing HAIR LOSS? Secret to fuller thicker hair & stronger roots!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

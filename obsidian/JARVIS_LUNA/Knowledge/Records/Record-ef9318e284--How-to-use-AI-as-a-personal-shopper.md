@@ -2,8 +2,12 @@
 title: "Record ef9318e284 · How-to-use-AI-as-a-personal-shopper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.764715+00:00
+updated_at: 2026-10-11T00:55:55.049748+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/jEG3g7G7-JY"
 ---
 
 # Record ef9318e284 · How-to-use-AI-as-a-personal-shopper
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to use AI as a personal shopper
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

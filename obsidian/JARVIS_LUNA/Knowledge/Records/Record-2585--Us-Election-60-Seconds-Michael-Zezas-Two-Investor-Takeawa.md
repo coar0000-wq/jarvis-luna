@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.776630+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/us-election-60-seconds-michael-zezas-two-investor-takeaways"
 ---
 
 # Record 2585 · Us-Election-60-Seconds-Michael-Zezas-Two-Investor-Takeaways
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Us Election 60 Seconds Michael Zezas Two Investor Takeaways
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

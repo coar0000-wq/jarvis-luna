@@ -2,8 +2,12 @@
 title: "Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.423937+00:00
+updated_at: 2026-10-11T00:55:34.227230+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdU96bWtLQjBydnhYalkzd2h4SmJBbUNZdjZvdzJ5T2VDcl91OEdVWkk0SnZyd29kSGxpUjU0N21rREthcDlPWHNQQVNVTE5vTDN4MWZ6RmZDZW8wVFJhQnI2SmJkREJPd3RUbUxBWWZzVkFGY2Z2MVY2aDZCR1VVbnhtUnN1RXhJWElMTXBUSEVuekpKb3lz?oc=5"
 ---
 
 # Record 6aa4c03cc1 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 19 New K-Beauty Brands Are Coming to Sephora. Here’s What to Buy. - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

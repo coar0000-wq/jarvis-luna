@@ -2,8 +2,14 @@
 title: "Record 69d5d89e3f · Strategy-technology-industry-and-politics-challenge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.391367+00:00
+updated_at: 2026-10-11T00:55:17.925472+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1080/14702436.2023.2279626"
+kind: "논문"
 ---
 
 # Record 69d5d89e3f · Strategy-technology-industry-and-politics-challenge
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Strategy, technology, industry and politics: challenges for the 21 st Chairman of the Joint Chiefs of Staff
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

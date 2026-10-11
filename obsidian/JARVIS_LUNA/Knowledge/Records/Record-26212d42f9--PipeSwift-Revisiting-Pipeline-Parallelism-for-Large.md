@@ -2,8 +2,12 @@
 title: "Record 26212d42f9 · PipeSwift-Revisiting-Pipeline-Parallelism-for-Large-Scale-Completion-O"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.100790+00:00
+updated_at: 2026-10-11T00:55:13.629348+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16491"
 ---
 
 # Record 26212d42f9 · PipeSwift-Revisiting-Pipeline-Parallelism-for-Large-Scale-Completion-O
@@ -16,7 +20,3 @@ PipeSwift: Revisiting Pipeline Parallelism for Large-Scale Completion-Oriented A
 LLM agents execute long-horizon workflows where each model response determines the progress of subsequent tool interactions and environment transitions. Unlike chatbot serving, where TTFT and TPOT SLO constraints are critical, agentic workloads are completion-oriented and increasingly governed by job completion time (JCT). This shift challenges existing LLM serving designs optimized around token S
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.959031+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/lU6WIgu0Wzg"
 ---
 
 # Record 997 · How-to-collect-payments-with-your-Claude-website
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How to collect payments with your Claude website
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

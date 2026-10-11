@@ -2,8 +2,12 @@
 title: "Record 8174fcc123 · How-Id-Start-a-1-Person-Business-With-Claude-AI-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.716422+00:00
+updated_at: 2026-10-11T00:55:54.198902+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=7-Sg2RKNMZE"
 ---
 
 # Record 8174fcc123 · How-Id-Start-a-1-Person-Business-With-Claude-AI-in-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How I'd Start a 1-Person Business With Claude AI in 30 Days
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

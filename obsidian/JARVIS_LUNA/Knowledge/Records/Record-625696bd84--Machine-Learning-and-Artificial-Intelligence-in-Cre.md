@@ -2,8 +2,14 @@
 title: "Record 625696bd84 · Machine-Learning-and-Artificial-Intelligence-in-Credit-Risk-Management"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.548388+00:00
+updated_at: 2026-10-11T00:55:20.609536+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.6516458"
+kind: "논문"
 ---
 
 # Record 625696bd84 · Machine-Learning-and-Artificial-Intelligence-in-Credit-Risk-Management
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Machine Learning and Artificial Intelligence in Credit Risk Management: A Review of Contemporary Approaches
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

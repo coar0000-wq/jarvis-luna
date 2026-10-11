@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T13:45:04.851758+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vdWtNekRGdWxCRDlfMGRFT0hzV2VKclhGTng4Z1VDY0lwMmpFXzJwajhyMHA4MGRhZk93WmtJY3ZzZWIyUXhQUHFBOFRYTVo4MktLbFBJMU9KMGFHUGVJ?oc=5"
 ---
 
 # Record 103 · 15-Best-AI-Marketing-Tools-for-Ecommerce-Now-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 15+ Best AI Marketing Tools for Ecommerce Now in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

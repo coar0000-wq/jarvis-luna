@@ -2,8 +2,14 @@
 title: "Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-inte"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.359734+00:00
+updated_at: 2026-10-11T00:55:17.343128+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "SK hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41467-026-72969-6"
+kind: "논문"
 ---
 
 # Record 0933c2ba2e · CMOS-compatible-ferroelectric-tunnel-junctions-inte
@@ -15,7 +21,3 @@ tags: [record, real-data]
 CMOS-compatible ferroelectric tunnel junctions integrate stochastic sampling and deterministic computing for image generation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

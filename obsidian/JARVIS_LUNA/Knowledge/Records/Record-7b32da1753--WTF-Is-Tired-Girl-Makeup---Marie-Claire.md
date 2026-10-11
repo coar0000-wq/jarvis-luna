@@ -2,8 +2,12 @@
 title: "Record 7b32da1753 · WTF-Is-Tired-Girl-Makeup---Marie-Claire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.209852+00:00
+updated_at: 2026-10-11T00:55:30.378648+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtMUFsYWZ4X0VmQnh3LUxpVjhnSWtrUGw0ajd2WEtjbDRjUUFNQjcxell1ZlNHQjAyX2VmdzRENW5BazFicUNEOVRtOHNqTTBGSHJPTjBTb3dGVkcwR240Z1pYU3QySG5ZRWVz?oc=5"
 ---
 
 # Record 7b32da1753 · WTF-Is-Tired-Girl-Makeup---Marie-Claire
@@ -15,7 +19,3 @@ tags: [record, real-data]
 WTF Is Tired Girl Makeup? - Marie Claire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Qu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.943728+00:00
+updated_at: 2026-10-11T00:55:11.774103+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["법률규제", "컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03984v1"
 ---
 
 # Record 83b8d7ab21 · MulDP-Multimodal-Diffusion-Policy-for-Autonomous-Qu
@@ -16,7 +20,3 @@ MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation a
 Quadruped robots have demonstrated impressive agility in parkour locomotion across complex terrains. However, most systems still rely on human intervention for high-level planning, and autonomous parkour navigation remains underexplored. The key challenges include fine-grained velocity regulation, long-horizon anticipatory behaviors, and tight coupling between perception and embodied execution. To
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[법률규제]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

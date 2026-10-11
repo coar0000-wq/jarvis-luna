@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.361050+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41598-026-36189-8"
 ---
 
 # Record 469 · Association-of-long-COVID-with-health-related-quality-of-life-outcomes
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Association of long COVID with health-related quality-of-life outcomes
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

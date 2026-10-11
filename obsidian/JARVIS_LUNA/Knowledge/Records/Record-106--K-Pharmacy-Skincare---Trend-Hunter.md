@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.064377+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11eGRTZHpjNXpUbVZkXzRVRS1DdlgzdlNscFBwRE1wTk9BbGZBdi1qdmM3RV9fLWpYdlI4bmpDLXBkWE5fT0VMLWN4OEpYd3lwQzA0VGpDWnR0eVhMd093aXBra9IBaEFVX3lxTFBuN2ZXYmlaMmQ1a25oVUU2c2ctNERkQXhPTi1CVDlMM3BzdGw1bnNTRjc0LVpwVVBGMjkzNjRYaFJSQ2l6ZDJTQmFYX1NIUnUzUmZaeURPb3UycGZqQU9DZUVVenRPVUs5?oc=5"
 ---
 
 # Record 106 · K-Pharmacy-Skincare---Trend-Hunter
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 K-Pharmacy Skincare - Trend Hunter
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

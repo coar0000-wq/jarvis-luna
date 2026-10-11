@@ -2,8 +2,12 @@
 title: "Record 478ea57adc · Forecast-Ensemble-Based-Active-Binary-Threshold-Que"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.971375+00:00
+updated_at: 2026-10-11T00:55:12.096968+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05307v1"
 ---
 
 # Record 478ea57adc · Forecast-Ensemble-Based-Active-Binary-Threshold-Que
@@ -16,7 +20,3 @@ Forecast-Ensemble-Based Active Binary-Threshold Query Design for Interval Data A
 Data assimilation estimates the evolving state of a dynamical system by combining model forecasts with observations. While many conventional methods assume point-valued measurements, practical sensing systems may instead provide coarse information such as binary, ordinal, inequality, or interval-valued reports. Interval Data Assimilation (IDA) provides a principled framework for assimilating such
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

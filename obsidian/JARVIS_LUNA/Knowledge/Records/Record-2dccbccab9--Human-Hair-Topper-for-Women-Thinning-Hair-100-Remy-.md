@@ -2,8 +2,12 @@
 title: "Record 2dccbccab9 · Human-Hair-Topper-for-Women-Thinning-Hair-100-Remy-Human-Hair-Invisibl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.669746+00:00
+updated_at: 2026-10-11T00:55:53.238116+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Human-Hair-Hair-Topper-for-Women-Thinning-Hair-Invisible-Lace-Base-with-Adjustable-Clips-for-Adding-Volume-Cover-100-Remy-Human-Hair-10inch/19412364822"
 ---
 
 # Record 2dccbccab9 · Human-Hair-Topper-for-Women-Thinning-Hair-100-Remy-Human-Hair-Invisibl
@@ -16,7 +20,3 @@ Human Hair Topper for Women Thinning Hair 100% Remy Human Hair Invisible Lace Ba
 Human Hair Topper for Women Thinning Hair 100% Remy Human Hair Invisible Lace Base with Adjustable Clips for Adding Volume Cover, 10inch · $28.56 · 평점 4.1 · 리뷰 13
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

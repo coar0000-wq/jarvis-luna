@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.333343+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=eYI9nWAan_U"
 ---
 
 # Record 985 · EVERYTHING-I-bought-in-Japan-as-a-Japanese
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 EVERYTHING I bought in Japan as a Japanese~ 🇯🇵✨
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

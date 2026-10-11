@@ -2,8 +2,12 @@
 title: "Record 755116bca0 · Benchmarking-Attention-for-Tabular-Foundation-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.841551+00:00
+updated_at: 2026-10-11T00:55:24.951478+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.31306"
 ---
 
 # Record 755116bca0 · Benchmarking-Attention-for-Tabular-Foundation-Models
@@ -16,7 +20,3 @@ Benchmarking Attention for Tabular Foundation Models
 Tabular in-context learners such as TabPFN, Mitra, or ConTextTab rely on alternating row and column attention over 2D sequences of latent embeddings. These attention patterns differ markedly from the one-dimensional case in language models: row attention involves longer sequences while column attention operates on much shorter ones, and the strided memory layout of tabular data makes producing con
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

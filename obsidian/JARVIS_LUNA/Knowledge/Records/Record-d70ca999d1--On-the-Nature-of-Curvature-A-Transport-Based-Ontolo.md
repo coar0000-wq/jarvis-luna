@@ -2,8 +2,14 @@
 title: "Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontolo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.951645+00:00
+updated_at: 2026-10-11T00:55:26.404986+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21400052"
+kind: "논문"
 ---
 
 # Record d70ca999d1 · On-the-Nature-of-Curvature-A-Transport-Based-Ontolo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 On the Nature of Curvature: A Transport-Based Ontology for Closure Theory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

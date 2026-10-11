@@ -2,8 +2,14 @@
 title: "Record dbe42569b9 · How-Claudes-values-vary-by-model-and-language"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.394808+00:00
+updated_at: 2026-10-11T00:55:48.354432+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/claude-values-models-languages"
+kind: "발표물"
 ---
 
 # Record dbe42569b9 · How-Claudes-values-vary-by-model-and-language
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Claude Values Models Languages
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.789871+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=InNjQ0hzy9E"
 ---
 
 # Record 2248 · 3-MONTHS-of-empties-mostly-J--K-Beauty-2026-Q2
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 MONTHS of empties!! mostly J & K-Beauty~ [2026 Q2]
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

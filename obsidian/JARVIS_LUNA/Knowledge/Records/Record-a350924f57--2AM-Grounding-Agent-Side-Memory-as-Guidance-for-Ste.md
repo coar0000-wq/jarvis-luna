@@ -2,8 +2,12 @@
 title: "Record a350924f57 · 2AM-Grounding-Agent-Side-Memory-as-Guidance-for-Ste"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.054521+00:00
+updated_at: 2026-10-11T00:55:13.114203+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11308v1"
 ---
 
 # Record a350924f57 · 2AM-Grounding-Agent-Side-Memory-as-Guidance-for-Ste
@@ -16,7 +20,3 @@ tags: [record, real-data]
 Long-horizon robot manipulation requires memory, but not necessarily inside the action policy. To address such tasks, current agentic systems often combine VLAs with planners and geometric tools, sometimes using additional depth or calibrated geometry. These systems confound attribution: gains may come from richer observations or alternative motor tools, while failures may stem from either the pol
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

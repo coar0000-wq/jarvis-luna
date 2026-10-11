@@ -2,8 +2,14 @@
 title: "Record 85eeaea6ca · Finding-the-Right-Tables-and-Columns-A-Benchmark-and-Corpus-Adaptive-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.650569+00:00
+updated_at: 2026-10-11T00:55:22.490135+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2607.13311"
+kind: "논문"
 ---
 
 # Record 85eeaea6ca · Finding-the-Right-Tables-and-Columns-A-Benchmark-and-Corpus-Adaptive-E
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Finding the Right Tables and Columns: A Benchmark and Corpus-Adaptive Embeddings for SQL Schema Retrieval
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

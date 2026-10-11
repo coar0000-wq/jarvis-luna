@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.790512+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "openalex.org"
+url: "https://openalex.org/W7172068543"
 ---
 
 # Record 1805 · NELSSA-A-GPU-PNM-Heterogeneous-System-for-Mixed-Length-LLM-Serving-via
@@ -15,7 +20,3 @@ tags: [record, real-data]
 NELSSA: A GPU-PNM Heterogeneous System for Mixed-Length LLM Serving via Length-based Request Placement
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.814261+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/dyson-camerajet-electric-toothbrush-dentists-weigh-in"
 ---
 
 # Record 2262 · Is-the-Dyson-Toothbrush-Worth-499-We-Asked-4-Dentists
@@ -16,7 +20,3 @@ Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.
 Is the Dyson Toothbrush Worth $499? We Asked 4 Dentists.
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

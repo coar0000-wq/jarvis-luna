@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.613439+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.seps.2026.102543"
 ---
 
 # Record 404 · Risk-averse-placement-optimization-in-refugee-resettlement
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Risk-averse placement optimization in refugee resettlement
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

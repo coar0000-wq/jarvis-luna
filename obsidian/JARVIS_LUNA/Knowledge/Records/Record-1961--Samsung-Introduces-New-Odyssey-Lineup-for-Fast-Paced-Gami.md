@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.207255+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-introduces-new-odyssey-lineup-for-fast-paced-gaming-at-gamescom-2026"
 ---
 
 # Record 1961 · Samsung-Introduces-New-Odyssey-Lineup-for-Fast-Paced-Gaming-at-Gamesco
@@ -16,7 +21,3 @@ Samsung Introduces New Odyssey Lineup for Fast-Paced Gaming at Gamescom 2026
 Samsung Electronics today announced its 2027 Odyssey gaming monitor lineup at Gamescom 2026, the world’s largest gaming event, being held in Cologne, Germany from Aug. 26-30. The new lineup introduces multiple Odyssey models that feature world-first innovations, empowering players with greater versatility across speed, screen size, picture quality, and flexible display modes. “Players come to […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

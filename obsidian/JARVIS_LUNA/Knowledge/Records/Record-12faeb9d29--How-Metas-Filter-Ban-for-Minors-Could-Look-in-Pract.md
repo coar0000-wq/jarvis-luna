@@ -2,8 +2,12 @@
 title: "Record 12faeb9d29 · How-Metas-Filter-Ban-for-Minors-Could-Look-in-Pract"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.935685+00:00
+updated_at: 2026-10-11T00:55:42.507324+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/meta-beauty-filter-ban-teens"
 ---
 
 # Record 12faeb9d29 · How-Metas-Filter-Ban-for-Minors-Could-Look-in-Pract
@@ -16,7 +20,3 @@ How Meta's Filter Ban for Minors Could Look in Practice
 How Meta's Filter Ban for Minors Could Look in Practice
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

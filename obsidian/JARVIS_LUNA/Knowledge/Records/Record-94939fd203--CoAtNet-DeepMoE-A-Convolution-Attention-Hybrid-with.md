@@ -2,8 +2,12 @@
 title: "Record 94939fd203 · CoAtNet-DeepMoE-A-Convolution-Attention-Hybrid-with-DeepSeek-Mixture-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.120410+00:00
+updated_at: 2026-10-11T00:55:13.859967+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.18038"
 ---
 
 # Record 94939fd203 · CoAtNet-DeepMoE-A-Convolution-Attention-Hybrid-with-DeepSeek-Mixture-o
@@ -16,7 +20,3 @@ CoAtNet-DeepMoE: A Convolution-Attention Hybrid with DeepSeek Mixture-of-Experts
 The world population is growing rapidly, and technology is improving in parallel. Meeting the huge demand for food for these 7 billion people not only depends on increasing food production but also on reducing food loss. Crop losses due to disease affect both the food supply and the financial and economic stability of a country. Tomatoes are among the top food-producing crops globally, and a signi
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

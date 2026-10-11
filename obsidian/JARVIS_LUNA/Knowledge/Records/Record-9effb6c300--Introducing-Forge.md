@@ -2,8 +2,14 @@
 title: "Record 9effb6c300 · Introducing-Forge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.090387+00:00
+updated_at: 2026-10-11T00:55:28.377237+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/forge/"
+kind: "발표물"
 ---
 
 # Record 9effb6c300 · Introducing-Forge
@@ -16,7 +22,3 @@ Introducing Forge
 Today, we’re introducing Forge, a system for enterprises to build frontier-grade AI models grounded in their proprietary knowledge.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

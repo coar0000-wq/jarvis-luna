@@ -2,8 +2,12 @@
 title: "Record 1f4964c098 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.035491+00:00
+updated_at: 2026-10-11T00:55:12.896221+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10388v1"
 ---
 
 # Record 1f4964c098 · Economic-Evaluation-of-V2G-Enabled-Fast-Charging-St
@@ -16,7 +20,3 @@ Economic Evaluation of V2G-Enabled Fast Charging Stations Under Endogenous EV Ad
 Building fast charging stations (FCSs) is crucial for transportation electrification, but there exists an indirect network effect: while the increasing number of electric vehicles (EVs) decides the FCS capacity expansion, the spatial locations of these facilities strongly influence drivers' willingness to adopt EVs. Ignoring this interaction can lead to bad capital investments and exacerbate power
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

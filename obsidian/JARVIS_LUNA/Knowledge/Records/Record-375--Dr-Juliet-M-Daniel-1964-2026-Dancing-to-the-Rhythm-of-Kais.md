@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.473646+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41388-026-03922-6"
 ---
 
 # Record 375 · Dr-Juliet-M-Daniel-1964-2026-Dancing-to-the-Rhythm-of-Kaiso
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Dr. Juliet M. Daniel (1964-2026): Dancing to the Rhythm of Kaiso
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

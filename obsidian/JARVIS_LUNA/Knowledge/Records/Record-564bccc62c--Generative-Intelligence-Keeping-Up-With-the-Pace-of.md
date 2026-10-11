@@ -2,8 +2,14 @@
 title: "Record 564bccc62c · Generative-Intelligence-Keeping-Up-With-the-Pace-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.566262+00:00
+updated_at: 2026-10-11T00:55:20.904003+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.30953/thmt.v9.505"
+kind: "논문"
 ---
 
 # Record 564bccc62c · Generative-Intelligence-Keeping-Up-With-the-Pace-of
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Generative Intelligence: Keeping Up With the Pace of Applied Intelligence Near Term
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

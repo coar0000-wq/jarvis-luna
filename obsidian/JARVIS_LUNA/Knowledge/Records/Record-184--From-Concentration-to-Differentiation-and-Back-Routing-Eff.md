@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.365680+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06403v1"
 ---
 
 # Record 184 · From-Concentration-to-Differentiation-and-Back-Routing-Effective-Rank-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 From Concentration to Differentiation and Back: Routing Effective Rank in MoE Reasoning Cohorts
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

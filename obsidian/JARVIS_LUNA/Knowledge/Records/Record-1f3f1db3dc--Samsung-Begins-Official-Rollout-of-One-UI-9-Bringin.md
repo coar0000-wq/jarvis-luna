@@ -2,8 +2,14 @@
 title: "Record 1f3f1db3dc · Samsung-Begins-Official-Rollout-of-One-UI-9-Bringing-the-Latest-Galaxy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.570357+00:00
+updated_at: 2026-10-11T00:55:36.572031+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-begins-official-rollout-of-one-ui-9-bringing-the-latest-galaxy-experiences-to-more-devices"
+kind: "발표물"
 ---
 
 # Record 1f3f1db3dc · Samsung-Begins-Official-Rollout-of-One-UI-9-Bringing-the-Latest-Galaxy
@@ -16,7 +22,3 @@ Samsung Begins Official Rollout of One UI 9, Bringing the Latest Galaxy Experien
 Samsung Electronics today announced the expansion of One UI 9 to more Galaxy devices, with the rollout beginning today starting with the Galaxy S26, S26+, and S26 Ultra. Following its debut on Galaxy Z Fold8 Ultra, Fold8, and Flip8, One UI 9 brings an easier, more seamless mobile experience across form factors, as well as […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

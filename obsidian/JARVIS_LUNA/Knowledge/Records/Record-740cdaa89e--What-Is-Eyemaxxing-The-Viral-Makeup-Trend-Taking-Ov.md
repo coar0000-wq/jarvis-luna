@@ -2,8 +2,12 @@
 title: "Record 740cdaa89e · What-Is-Eyemaxxing-The-Viral-Makeup-Trend-Taking-Ov"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.132843+00:00
+updated_at: 2026-10-11T00:55:29.136808+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5sMm9USElIWmpLNmJZeXFtejF3QjNXMXFiNlRycDBZZ1RodWI3eF8tX1FVUVpXdGlkaDV5TW5vLXBzWGpfSkFEU0dTLXRIcG9BdDdrTVRPNA?oc=5"
 ---
 
 # Record 740cdaa89e · What-Is-Eyemaxxing-The-Viral-Makeup-Trend-Taking-Ov
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Is ‘Eyemaxxing’? The Viral Makeup Trend Taking Over TikTok - parade.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

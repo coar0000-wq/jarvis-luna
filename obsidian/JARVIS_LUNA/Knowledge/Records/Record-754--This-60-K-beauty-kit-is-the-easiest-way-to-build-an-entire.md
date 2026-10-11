@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.380724+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZkZjd1Z3RmNVazQtc3I1NlptXy1FYVFTOEctbl9iclYwVDkxVTdmNHd3UXFyQzNVa0txZVNsZkZYazRSR1F6YWhZMTIxbGxTYWFDNDJNMkdTaElobFdBX0lVMnkxZkF1LWxGcVN2V1BWQTJEb05wNENBMXpoaWhqTThPaERzVk1iSC1EZkJNVjFLZVZpczNKTFFYZmNTWFpOVVJLU3BuLWFqQXFQWTYxYjBIMjdxUzFtYkI1R0Fyc1Q?oc=5"
 ---
 
 # Record 754 · This-60-K-beauty-kit-is-the-easiest-way-to-build-an-entire-8-step-skin
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 This £60 K-beauty kit is the easiest way to build an entire 8-step skincare routine from scratch - inkl
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

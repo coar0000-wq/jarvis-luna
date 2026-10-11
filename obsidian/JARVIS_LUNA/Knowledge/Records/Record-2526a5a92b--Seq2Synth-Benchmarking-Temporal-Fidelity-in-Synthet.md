@@ -2,8 +2,14 @@
 title: "Record 2526a5a92b · Seq2Synth-Benchmarking-Temporal-Fidelity-in-Synthet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.476746+00:00
+updated_at: 2026-10-11T00:55:19.435884+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3799682.3841108"
+kind: "논문"
 ---
 
 # Record 2526a5a92b · Seq2Synth-Benchmarking-Temporal-Fidelity-in-Synthet
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Seq2Synth: Benchmarking Temporal Fidelity in Synthetic Sequential Tabular Data
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

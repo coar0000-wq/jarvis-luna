@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.959530+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/rzk4_FFtdIg"
 ---
 
 # Record 1000 · How-to-use-Shopify-Sidekick-in-your-weekly-routine
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How to use Shopify Sidekick in your weekly routine
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

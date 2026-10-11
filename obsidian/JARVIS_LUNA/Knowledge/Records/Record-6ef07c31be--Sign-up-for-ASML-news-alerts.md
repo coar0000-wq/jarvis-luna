@@ -2,8 +2,14 @@
 title: "Record 6ef07c31be · Sign-up-for-ASML-news-alerts"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.407701+00:00
+updated_at: 2026-10-11T00:55:48.491101+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "www.asml.com"
+url: "https://www.asml.com/en/news/news-subscription"
+kind: "발표물"
 ---
 
 # Record 6ef07c31be · Sign-up-for-ASML-news-alerts
@@ -16,7 +22,3 @@ Sign up for ASML news alerts
 Receive an email when ASML publishes a new press release, announcement, story, or share buyback update.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

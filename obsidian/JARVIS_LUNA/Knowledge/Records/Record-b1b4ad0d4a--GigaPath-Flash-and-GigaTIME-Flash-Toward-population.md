@@ -2,8 +2,14 @@
 title: "Record b1b4ad0d4a · GigaPath-Flash-and-GigaTIME-Flash-Toward-population"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.499889+00:00
+updated_at: 2026-10-11T00:55:50.287099+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Microsoft Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/"
+kind: "발표물"
 ---
 
 # Record b1b4ad0d4a · GigaPath-Flash-and-GigaTIME-Flash-Toward-population
@@ -16,7 +22,3 @@ GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with effici
 What if pathology foundation models could do more with less? GigaPath-Flash and GigaTIME-Flash cut computational demands while maintaining strong performance, opening the door to larger studies and broader exploration. The post GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

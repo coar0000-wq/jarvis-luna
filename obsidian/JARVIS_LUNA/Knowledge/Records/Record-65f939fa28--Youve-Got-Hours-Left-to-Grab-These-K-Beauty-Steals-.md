@@ -2,8 +2,12 @@
 title: "Record 65f939fa28 · Youve-Got-Hours-Left-to-Grab-These-K-Beauty-Steals-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.346894+00:00
+updated_at: 2026-10-11T00:55:32.915822+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVWM3cDM1WTBvV2JGeWlvcmYxOWdxY1VvRnRRQ3VNX2lZZmJzSVFDMnlFWTRxZElhRVpra0tyVmxvQ3FSLTd6cW5CZi1xNXFYUHdxRTdUbEFBTWwzODNzRnB3QVZDY1N0RFlJVlZTUjBLdVRoRHBjcHJRMjNLY2h0Nm1IU2Y5dw?oc=5"
 ---
 
 # Record 65f939fa28 · Youve-Got-Hours-Left-to-Grab-These-K-Beauty-Steals-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 You’ve Got Hours Left to Grab These K-Beauty Steals - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

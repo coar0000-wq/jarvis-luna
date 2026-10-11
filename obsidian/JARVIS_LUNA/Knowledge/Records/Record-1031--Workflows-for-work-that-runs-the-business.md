@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.026197+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/workflows/"
 ---
 
 # Record 1031 · Workflows-for-work-that-runs-the-business
@@ -16,7 +21,3 @@ Workflows for work that runs the business
 Workflows is now in public preview.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

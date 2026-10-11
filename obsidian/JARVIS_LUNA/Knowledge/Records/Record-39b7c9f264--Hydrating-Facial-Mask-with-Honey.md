@@ -2,8 +2,12 @@
 title: "Record 39b7c9f264 · Hydrating-Facial-Mask-with-Honey"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.424179+00:00
+updated_at: 2026-10-11T00:55:48.798438+00:00
 tags: [record, real-data]
+source: "organic_skincare"
+topics: ["뷰티스킨케어"]
+domain: "www.burtsbees.com"
+url: "https://www.burtsbees.com/"
 ---
 
 # Record 39b7c9f264 · Hydrating-Facial-Mask-with-Honey
@@ -16,7 +20,3 @@ Hydrating Facial Mask with Honey
 Hydrating Facial Mask with Honey · Burt's Bees · Mask · $14.0 · honey, hydrating
 
 **출처:** Source · organic_skincare
-
-## Connected nodes
-
-[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.183638+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/hKttdvzqVsE"
 ---
 
 # Record 691 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 I Bought A Product From This Viral AI UGC Ad
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

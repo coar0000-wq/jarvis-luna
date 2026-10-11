@@ -2,8 +2,12 @@
 title: "Record 9d1693e002 · Predefined-Time-Leaderless-Consensus-Under-Denial-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.073625+00:00
+updated_at: 2026-10-11T00:55:13.340069+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11781v1"
 ---
 
 # Record 9d1693e002 · Predefined-Time-Leaderless-Consensus-Under-Denial-o
@@ -16,7 +20,3 @@ Predefined-Time Leaderless Consensus Under Denial-of-Service Attacks
 This paper addresses predefined-time resilient consensus of leaderless second-order nonlinear multi-agent systems under denial-of-service (DoS) attacks, motivated by coordination requirements in safety-critical applications. The agents are subject to bounded external disturbances and communicate over a strongly connected directed graph whose links are simultaneously disabled during attacks. We dev
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

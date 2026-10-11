@@ -2,8 +2,12 @@
 title: "Record 1d4407a309 · Toward-GPU-Resident-Climate-Models-A-Feasibility-Study-on-Lossy-Compre"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.171690+00:00
+updated_at: 2026-10-11T00:55:14.467241+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.24294"
 ---
 
 # Record 1d4407a309 · Toward-GPU-Resident-Climate-Models-A-Feasibility-Study-on-Lossy-Compre
@@ -16,7 +20,3 @@ Toward GPU-Resident Climate Models: A Feasibility Study on Lossy Compression for
 Operational pseudospectral atmospheric models such as the ECMWF Integrated Forecasting System (IFS) run today almost exclusively on CPUs; GPU ports are under active development but not yet used in production. These models rely on the Spherical Harmonic Transform (SHT). Each time-step requires forward and inverse SHTs, and both passes depend on global pencil transposition that redistribute multi-di
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

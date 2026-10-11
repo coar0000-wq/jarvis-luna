@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.816759+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1002/pssa.70498"
 ---
 
 # Record 333 · Impact-of-Source-Contact-Segmentation-on-the-Electrical-Characteristic
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Impact of Source Contact Segmentation on the Electrical Characteristics of 4H‐SiC Planar MOSFETs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.189938+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=ujaqG-LnoSE"
 ---
 
 # Record 1008 · How-To-Start-A-1-Person-AI-Business-0-to-1M
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How To Start A 1-Person AI Business ($0 to $1M)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

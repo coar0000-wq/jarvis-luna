@@ -2,8 +2,12 @@
 title: "Record 6cb292e7a4 · 7-Best-LOréal-Paris-Skin-Care-Products-for-Fine-Lines-Dullness-and-Dry"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.911679+00:00
+updated_at: 2026-10-11T00:55:42.121194+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-loreal-paris-skin-care-products"
 ---
 
 # Record 6cb292e7a4 · 7-Best-LOréal-Paris-Skin-Care-Products-for-Fine-Lines-Dullness-and-Dry
@@ -16,7 +20,3 @@ tags: [record, real-data]
 7 Best L’Oréal Paris Skin-Care Products for Fine Lines, Dullness, and Dryness
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

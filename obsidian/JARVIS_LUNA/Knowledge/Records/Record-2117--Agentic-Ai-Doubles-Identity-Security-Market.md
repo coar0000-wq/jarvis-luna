@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.063126+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "보안프라이버시", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/agentic-ai-doubles-identity-security-market"
 ---
 
 # Record 2117 · Agentic-Ai-Doubles-Identity-Security-Market
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Agentic Ai Doubles Identity Security Market
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[보안프라이버시]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

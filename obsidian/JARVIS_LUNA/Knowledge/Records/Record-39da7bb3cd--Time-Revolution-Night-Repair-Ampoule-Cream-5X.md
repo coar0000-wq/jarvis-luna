@@ -2,8 +2,12 @@
 title: "Record 39da7bb3cd · Time-Revolution-Night-Repair-Ampoule-Cream-5X"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.728794+00:00
+updated_at: 2026-10-11T00:55:39.131961+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "sokoglam.com"
+url: "https://sokoglam.com/products/missha-time-revolution-night-repair-ampoule-cream-5x"
 ---
 
 # Record 39da7bb3cd · Time-Revolution-Night-Repair-Ampoule-Cream-5X
@@ -16,7 +20,3 @@ Time Revolution Night Repair Ampoule Cream 5X
 Time Revolution Night Repair Ampoule Cream 5X · MISSHA · $42.0
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

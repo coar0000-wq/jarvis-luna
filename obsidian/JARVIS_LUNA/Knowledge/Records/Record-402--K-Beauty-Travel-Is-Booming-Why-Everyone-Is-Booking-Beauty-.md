@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.115180+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5d010RE5pV2xVaGRqenQ2d081Y0cyUGZLUFFya3Y0R3V0S285LVdyNFR3eDc5djlxWi1iNUFqUGhDam9xSGpLdzZrSUtNRnl6Rl9ERGthUU5hMWZTZ1J4azhYcFRtRlphS045VF9EXzdVX2lrQ3l4dWRKdmnSAXxBVV95cUxPbW9kcnp0TEZPOTN0ZEpWYTFtMmsybEszSHhuSmF2QnUya3Y1QTA4elFFSVdZZFV2V3pwZS1zWDRCOWRUWFdqMnJ2TjNtTVRqcHQwdEpIOUMzMGUyN0k2T2tZS3VOOEpfbGtteXhJMjRONFJLemhDT3J4M3Yx?oc=5"
 ---
 
 # Record 402 · K-Beauty-Travel-Is-Booming-Why-Everyone-Is-Booking-Beauty-Trips-to-Sou
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 K-Beauty Travel Is Booming: Why Everyone Is Booking Beauty Trips to South Korea - Sacramento Bee
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

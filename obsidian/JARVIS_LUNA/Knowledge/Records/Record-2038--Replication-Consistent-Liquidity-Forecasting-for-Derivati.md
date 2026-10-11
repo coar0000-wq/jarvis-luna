@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.787658+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche-Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7160458231"
 ---
 
 # Record 2038 · Replication-Consistent-Liquidity-Forecasting-for-Derivatives----Forwar
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Replication-Consistent Liquidity Forecasting for Derivatives -- Forward Funding Sensitivities and a Liquidity Valuation Adjustment for Settlement Lags
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

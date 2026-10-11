@@ -2,8 +2,12 @@
 title: "Record e42e3714e8 · Predefined-Time-Resilient-Integral-Reinforcement-Le"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.074262+00:00
+updated_at: 2026-10-11T00:55:13.347695+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11815v1"
 ---
 
 # Record e42e3714e8 · Predefined-Time-Resilient-Integral-Reinforcement-Le
@@ -16,7 +20,3 @@ Predefined-Time Resilient Integral Reinforcement Learning for Input-Constrained 
 This paper investigates optimal control for nonlinear systems with unknown dynamics, input constraints, disturbances, and adversarial signals. The objective is to develop a learning-based control method that allows the designer to prescribe the desired convergence time in advance. An integral reinforcement-learning framework is proposed to avoid requiring exact knowledge of the system dynamics whi
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

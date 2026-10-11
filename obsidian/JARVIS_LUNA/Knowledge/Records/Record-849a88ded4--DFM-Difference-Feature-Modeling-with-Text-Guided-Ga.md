@@ -2,8 +2,14 @@
 title: "Record 849a88ded4 · DFM-Difference-Feature-Modeling-with-Text-Guided-Ga"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.689757+00:00
+updated_at: 2026-10-11T00:55:38.389676+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "투자은행금융"]
+org: "Goldman Sachs"
+domain: "openalex.org"
+url: "https://openalex.org/W7166902498"
+kind: "논문"
 ---
 
 # Record 849a88ded4 · DFM-Difference-Feature-Modeling-with-Text-Guided-Ga
@@ -15,7 +21,3 @@ tags: [record, real-data]
 DFM: Difference Feature Modeling with Text-Guided Gated Contrastive Loss for Remote Sensing Image Change Captioning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

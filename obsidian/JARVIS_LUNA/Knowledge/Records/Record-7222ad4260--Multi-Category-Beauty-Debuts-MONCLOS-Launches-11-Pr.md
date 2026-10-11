@@ -2,8 +2,12 @@
 title: "Record 7222ad4260 · Multi-Category-Beauty-Debuts-MONCLOS-Launches-11-Products-at-Target-Be"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.240241+00:00
+updated_at: 2026-10-11T00:55:30.998812+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KQlJsbkdqMTVMOUdPVWFSX1I0WTVPQlhseVJmajFMSzFBU0dmRHNEYVZTa0MzaGF3RWowMUM2Zlh4SElYUURSRGt1YkhmVmZLdDljc0M4ZmZGMlJIcWlqOXNZSTRjcWJiWnVzVE9R?oc=5"
 ---
 
 # Record 7222ad4260 · Multi-Category-Beauty-Debuts-MONCLOS-Launches-11-Products-at-Target-Be
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Multi-Category Beauty Debuts: MONCLOS Launches 11 Products at Target Beauty Studio - trendhunter.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

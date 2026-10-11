@@ -2,8 +2,12 @@
 title: "Record e422f5edc6 · Neuropeptide-Deep-Crease-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.647405+00:00
+updated_at: 2026-10-11T00:55:52.904827+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/neuropeptide-deep-crease-serum-pimprod2054469"
 ---
 
 # Record e422f5edc6 · Neuropeptide-Deep-Crease-Serum
@@ -16,7 +20,3 @@ Neuropeptide Deep Crease Serum
 Neuropeptide Deep Crease Serum · Perricone MD · $189
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

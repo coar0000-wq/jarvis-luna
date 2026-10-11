@@ -2,8 +2,14 @@
 title: "Record 753eaae4a3 · Quantum-Counterparty-Credit-Risk-A-Study-of-Path-De"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.689067+00:00
+updated_at: 2026-10-11T00:55:38.376266+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7166900750"
+kind: "논문"
 ---
 
 # Record 753eaae4a3 · Quantum-Counterparty-Credit-Risk-A-Study-of-Path-De
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Quantum Counterparty Credit Risk: A Study of Path-Dependent Derivatives
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

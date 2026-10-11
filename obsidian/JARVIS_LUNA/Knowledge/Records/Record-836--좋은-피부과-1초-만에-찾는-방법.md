@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.323978+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/-wDQyrGApzM"
 ---
 
 # Record 836 · 좋은-피부과-1초-만에-찾는-방법
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 좋은 피부과 1초 만에 찾는 방법
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

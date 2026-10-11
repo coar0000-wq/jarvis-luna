@@ -2,8 +2,12 @@
 title: "Record 4829d73d23 · Milani-Highly-Rated-Lash-Extensions-Tubing-Mascara-Black"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.673270+00:00
+updated_at: 2026-10-11T00:55:53.288088+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Milani-Highly-Rated-Lash-Extensions-Tubing-Mascara-Black/1003424982"
 ---
 
 # Record 4829d73d23 · Milani-Highly-Rated-Lash-Extensions-Tubing-Mascara-Black
@@ -16,7 +20,3 @@ Milani Highly Rated Lash Extensions Tubing Mascara, Black
 Milani Highly Rated Lash Extensions Tubing Mascara, Black · 평점 4.3 · 리뷰 2,322
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.930844+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/YjSjuKj8vxI"
 ---
 
 # Record 839 · 선크림-클렌징-이렇게-하세요
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 선크림 클렌징 이렇게 하세요
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.989197+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7165424259"
 ---
 
 # Record 1834 · Sparse-add-on-controller-design-A-Youla-approach-to-system-level-perfo
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Sparse add-on controller design: A Youla approach to system-level performance
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 34a392f2ea · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.190642+00:00
+updated_at: 2026-10-11T00:55:30.075035+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLYW52dnlOTEp6MU04S1Y0WFJBVXNqNFNuTTBBZ1R0Q0RJRF9RbWtxR0NYelczclRMd09wcFV0SWNZVUNPTVBSTkFCdGxqdG5sUDRPMmZBYzZ0M0xITk80Q2xoTkFhZ1k?oc=5"
 ---
 
 # Record 34a392f2ea · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 K-Beauty Brands About to Be America’s Next Obsessions - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

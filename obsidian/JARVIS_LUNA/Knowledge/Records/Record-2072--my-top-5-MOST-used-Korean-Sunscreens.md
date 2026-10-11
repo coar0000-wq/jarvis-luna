@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.263952+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=9zmJ2fyFvn8"
 ---
 
 # Record 2072 · my-top-5-MOST-used-Korean-Sunscreens
@@ -15,7 +19,3 @@ tags: [record, real-data]
 my top 5 MOST used Korean Sunscreens!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.306527+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tvcg.2025.3535896"
 ---
 
 # Record 411 · VISTA-A-Visual-Analytics-Framework-to-Enhance-Foundation-Model-Generat
@@ -15,7 +20,3 @@ tags: [record, real-data]
 VISTA: A Visual Analytics Framework to Enhance Foundation Model-Generated Data Labels
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.400444+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/dB4ufNwn1kE"
 ---
 
 # Record 622 · Can-I-Make-a-Better-Ad-Than-This-Viral-Brand-Using-AI
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Can I Make a Better Ad Than This Viral Brand Using AI?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

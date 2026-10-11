@@ -2,8 +2,14 @@
 title: "Record 97377f7a0f · Abelian-Group-Codes-for-Classical-Quantum-Channels-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.445156+00:00
+updated_at: 2026-10-11T00:55:18.903254+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/tit.2026.3687161"
+kind: "논문"
 ---
 
 # Record 97377f7a0f · Abelian-Group-Codes-for-Classical-Quantum-Channels-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Abelian Group Codes for Classical-Quantum Channels: One-Shot and Asymptotic Rate Bounds
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

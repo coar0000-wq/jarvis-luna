@@ -2,8 +2,14 @@
 title: "Record 41dc5b8e37 · Verifiable-Random-Sampling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.703208+00:00
+updated_at: 2026-10-11T00:55:38.610340+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "openalex.org"
+url: "https://openalex.org/W7172068486"
+kind: "논문"
 ---
 
 # Record 41dc5b8e37 · Verifiable-Random-Sampling
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Verifiable Random Sampling
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

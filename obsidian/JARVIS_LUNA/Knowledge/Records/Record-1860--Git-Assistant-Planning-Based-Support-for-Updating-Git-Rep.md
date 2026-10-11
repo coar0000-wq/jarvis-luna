@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:38.981798+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "openalex.org"
+url: "https://openalex.org/W7168328521"
 ---
 
 # Record 1860 · Git-Assistant-Planning-Based-Support-for-Updating-Git-Repositories
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Git-Assistant: Planning-Based Support for Updating Git Repositories
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

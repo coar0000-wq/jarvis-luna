@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.896704+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.12968/eyed.2026.24.23.07"
 ---
 
 # Record 652 · Employing-and-working-with-childminding-assistants-a-guide
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Employing and working with childminding assistants: a guide
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

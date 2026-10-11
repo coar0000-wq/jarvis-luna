@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.728995+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "머신러닝-연구", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22216468"
 ---
 
 # Record 854 · Fine-Tuning-Fragility
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Fine-Tuning Fragility
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

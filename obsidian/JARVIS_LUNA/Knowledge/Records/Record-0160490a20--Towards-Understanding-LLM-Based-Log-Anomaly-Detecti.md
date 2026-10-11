@@ -2,8 +2,12 @@
 title: "Record 0160490a20 · Towards-Understanding-LLM-Based-Log-Anomaly-Detection-An-Empirical-Stu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.212824+00:00
+updated_at: 2026-10-11T00:55:15.039579+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "머신러닝-연구", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.31371"
 ---
 
 # Record 0160490a20 · Towards-Understanding-LLM-Based-Log-Anomaly-Detection-An-Empirical-Stu
@@ -16,7 +20,3 @@ Towards Understanding LLM-Based Log Anomaly Detection: An Empirical Study of Per
 Large language models (LLMs) have demonstrated promising performance in log anomaly detection, yet how their adaptation strategies, architectures, and deployment configurations affect detection effectiveness remains insufficiently understood. To investigate these factors, we conduct a systematic empirical analysis across three public log datasets, examining different adaptation strategies, model a
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[머신러닝-연구]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

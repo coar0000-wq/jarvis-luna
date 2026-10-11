@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.883681+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRV9QWHN0NXNCZ01yVlhEeXZuSnBnNTExUEQxUFRWdWZ4MTFYX1JxUV8xeGRLdlRVaUJmbzRDZFFUUnpBMEdyMDRXS210c1RvRW00RnEwUy1tX0hGUDlLLXhneHFvUkRNOE5nZHp1RDVwVGJJWkVBSnVIbmN0NjRldjV3?oc=5"
 ---
 
 # Record 453 · All-About-The-Republican-Makeup-Trend-Thats-Taking-Over-TikTok---WWD
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 All About The ‘Republican Makeup’ Trend That’s Taking Over TikTok - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

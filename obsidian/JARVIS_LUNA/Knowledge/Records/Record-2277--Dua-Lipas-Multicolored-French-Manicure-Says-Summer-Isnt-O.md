@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.288570+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/dua-lipa-colorful-french-manicure"
 ---
 
 # Record 2277 · Dua-Lipas-Multicolored-French-Manicure-Says-Summer-Isnt-Over-YetSee-th
@@ -16,7 +20,3 @@ Dua Lipa's Multicolored French Manicure Says Summer Isn't Over Yet—See the Pho
 Dua Lipa's Multicolored French Manicure Says Summer Isn't Over Yet—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

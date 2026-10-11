@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.084328+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Agents"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=K1nR7pe49cM"
 ---
 
 # Record 772 · Actionable-insights-for-agentic-selling
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Actionable insights for agentic selling
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

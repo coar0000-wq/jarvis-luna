@@ -2,8 +2,12 @@
 title: "Record d773892483 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Fa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.419602+00:00
+updated_at: 2026-10-11T00:55:34.147185+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWlnak4xOTY3RFk5dGxpcC1oQXpJdVdMejJ2ZEEyaTI4dGlMcEpNM0V0bVlJS295Zkg5ZUVjMGowWWhGd3RGd2lPajl6bWRsUVpIYklsUVlzV3BTcGVFVk9uZDI3OEwwNkNDcFpKSVlpRDJUMUNQZzdtV1EwendxSkU3UnR2ZUMzOWRaZzg5UVk0Q2hVX2c?oc=5"
 ---
 
 # Record d773892483 · Olive-Young-Is-Now-At-SephoraShop-These-K-Beauty-Fa
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young Is Now At Sephora—Shop These K-Beauty Favorites First - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

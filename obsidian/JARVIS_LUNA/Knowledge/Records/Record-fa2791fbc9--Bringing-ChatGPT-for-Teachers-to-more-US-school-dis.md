@@ -2,8 +2,14 @@
 title: "Record fa2791fbc9 · Bringing-ChatGPT-for-Teachers-to-more-US-school-dis"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.627892+00:00
+updated_at: 2026-10-11T00:55:37.297282+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
+kind: "발표물"
 ---
 
 # Record fa2791fbc9 · Bringing-ChatGPT-for-Teachers-to-more-US-school-dis
@@ -16,7 +22,3 @@ Bringing ChatGPT for Teachers to more U.S. school districts
 ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

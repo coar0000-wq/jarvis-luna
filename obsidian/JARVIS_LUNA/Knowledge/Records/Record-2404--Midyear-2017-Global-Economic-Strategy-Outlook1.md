@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.327602+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/midyear-2017-global-economic-strategy-outlook1"
 ---
 
 # Record 2404 · Midyear-2017-Global-Economic-Strategy-Outlook1
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Midyear 2017 Global Economic Strategy Outlook1
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

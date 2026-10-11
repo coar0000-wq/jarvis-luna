@@ -2,8 +2,12 @@
 title: "Record 7d83abbdb7 · Stabilizing-Traffic-Flow-Via-Autonomous-Vehicles-A-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.991858+00:00
+updated_at: 2026-10-11T00:55:12.361004+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08218v1"
 ---
 
 # Record 7d83abbdb7 · Stabilizing-Traffic-Flow-Via-Autonomous-Vehicles-A-
@@ -16,7 +20,3 @@ Stabilizing Traffic Flow Via Autonomous Vehicles: A Less Conservative Approach
 This paper explores stabilizing traffic flow using a minimum number of autonomous vehicles (AVs) under control constraints. In contrast to most studies, we consider a heterogeneous parameter setup scenario for human-driven vehicles (HVs) to reflect real-world differences in driving behavior. While current literature uses an H-Infinity based sufficient condition to ensure the string stability of tr
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

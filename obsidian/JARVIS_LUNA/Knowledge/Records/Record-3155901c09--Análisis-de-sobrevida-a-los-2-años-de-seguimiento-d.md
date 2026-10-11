@@ -2,8 +2,14 @@
 title: "Record 3155901c09 · Análisis-de-sobrevida-a-los-2-años-de-seguimiento-del-Primer-Estudio-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.021537+00:00
+updated_at: 2026-10-11T00:55:27.573409+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.7775/rac.v73i3.3969"
+kind: "논문"
 ---
 
 # Record 3155901c09 · Análisis-de-sobrevida-a-los-2-años-de-seguimiento-del-Primer-Estudio-N
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Análisis de sobrevida a los 2 años de seguimiento del Primer Estudio Nacional, Multicéntrico y Prospectivo de Fibrilación Auricular C´rónica en la República Argentina
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

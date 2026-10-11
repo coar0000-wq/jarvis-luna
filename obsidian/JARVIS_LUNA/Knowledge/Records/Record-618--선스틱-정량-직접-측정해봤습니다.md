@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.658948+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/jqMFVlgmRC0"
 ---
 
 # Record 618 · 선스틱-정량-직접-측정해봤습니다
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 선스틱 정량, 직접 측정해봤습니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

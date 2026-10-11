@@ -2,8 +2,12 @@
 title: "Record 3d5d9c606b · Artistry-Youth-Xtend-Lifting-Smoothing-Foundation-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.898831+00:00
+updated_at: 2026-10-11T00:55:11.012412+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "api.fda.gov"
+url: "https://api.fda.gov/drug/label.json?search=id:085b50a9-68d7-d6e6-e063-6394a90a09be"
 ---
 
 # Record 3d5d9c606b · Artistry-Youth-Xtend-Lifting-Smoothing-Foundation-S
@@ -16,7 +20,3 @@ Artistry Youth Xtend Lifting Smoothing Foundation Shade Chiffon L2C1
 Artistry Youth Xtend Lifting Smoothing Foundation Shade Chiffon L2C1
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

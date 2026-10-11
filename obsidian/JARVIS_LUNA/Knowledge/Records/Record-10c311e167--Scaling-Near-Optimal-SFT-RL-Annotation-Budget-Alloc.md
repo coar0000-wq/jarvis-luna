@@ -2,8 +2,12 @@
 title: "Record 10c311e167 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Alloc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.916870+00:00
+updated_at: 2026-10-11T00:55:11.439201+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "데이터분석"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01573v1"
 ---
 
 # Record 10c311e167 · Scaling-Near-Optimal-SFT-RL-Annotation-Budget-Alloc
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

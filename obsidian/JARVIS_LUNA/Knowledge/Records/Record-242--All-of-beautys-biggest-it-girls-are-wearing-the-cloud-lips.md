@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.285618+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE5SMkJlQk9NY2xwUmFfbFlCU0NYOW9DVDJJQUI2V3RvSE9LMnhpSzdHTFRUN2sxcFhWZ0pQcHFsX21zX3d0dFBfMTJlOXJMVjI4RUFMX3hzTHB1a1lDM2RvTHU4T0t1dWttaFVxeVJVVQ?oc=5"
 ---
 
 # Record 242 · All-of-beautys-biggest-it-girls-are-wearing-the-cloud-lips-trend---her
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 All of beauty's biggest 'it' girls are wearing the cloud lips trend - here's how to get the look - Grazia Daily UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

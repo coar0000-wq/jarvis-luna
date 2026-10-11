@@ -2,8 +2,14 @@
 title: "Record cf200795ba · Newswire-tone-overlay-commodity-portfolios"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.317155+00:00
+updated_at: 2026-10-11T00:55:16.538665+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.jbankfin.2025.107501"
+kind: "논문"
 ---
 
 # Record cf200795ba · Newswire-tone-overlay-commodity-portfolios
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Newswire tone-overlay commodity portfolios
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

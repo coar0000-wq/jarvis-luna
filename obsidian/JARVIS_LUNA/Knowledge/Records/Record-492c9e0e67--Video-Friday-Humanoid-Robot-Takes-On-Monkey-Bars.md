@@ -2,8 +2,12 @@
 title: "Record 492c9e0e67 · Video-Friday-Humanoid-Robot-Takes-On-Monkey-Bars"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.752408+00:00
+updated_at: 2026-10-11T00:55:39.468434+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/video-friday-disaster-response-robots"
 ---
 
 # Record 492c9e0e67 · Video-Friday-Humanoid-Robot-Takes-On-Monkey-Bars
@@ -16,7 +20,3 @@ Video Friday: Humanoid Robot Takes On Monkey Bars
 <img src="https://spectrum.ieee.org/media-library/humanoid-robot-moves-across-scaffolding-rigged-as-playground-monkey-bars-in-a-lab-while-trying-to-keep-its-balance.gif?id=67756707&width=1245&height=700&coordinates=0%2C105%2C0%2C106"/><br/><br/><p><span>Video Friday is your weekly selection of awesome robotics videos, collected by your friends at </span><em>IEEE Spectrum</em><span> robotics. We al
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

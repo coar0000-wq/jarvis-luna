@@ -2,8 +2,12 @@
 title: "Record e6080bb797 · Inside-a-Korean-One-Stop-Spa-skincare-laser-med-spa-and-head-spa-Pt-2-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.510937+00:00
+updated_at: 2026-10-11T00:55:35.703039+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZzh6YmpEUmJiSUJFZ0RaU1lGZDB3cGpSQmhJRzJtMDM1MEI5TlF1NURhRmk3VjVhb0RRN1pNVjZsN0NZSElQT2tVclc3YzYyZHA3ZFY5U2VTOXk0TkFESjRhaW1FbzFndW5Gd1RtbGRNQll0QmFpUXZlbjEzU0hpQlRVcGxBcTVhVFFzLW95eXVxYU55TXB1ZldhaU1tVURLNzA1Vy1BbTRyWEI5Mjlobw?oc=5"
 ---
 
 # Record e6080bb797 · Inside-a-Korean-One-Stop-Spa-skincare-laser-med-spa-and-head-spa-Pt-2-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Inside a Korean One-Stop Spa: skincare, laser, med spa and head spa (Pt. 2) - Hawaii News Now
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

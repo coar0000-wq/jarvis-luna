@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.785400+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스", "투자은행금융"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/"
 ---
 
 # Record 2638 · Medtronic-invests-700M-in-surgical-partner-Cornerstone-Robotics
@@ -16,7 +20,3 @@ Medtronic invests $700M in surgical partner Cornerstone Robotics
 <p>Medtronic and Cornerstone Robotics are building a multi-port portfolio anchored by the Hugo surgical system and expanded by Sentire.</p> <p>The post <a href="https://www.therobotreport.com/medtronic-invests-700m-in-surgical-partner-cornerstone-robotics/">Medtronic invests $700M in surgical partner Cornerstone Robotics</a> appeared first on <a href="https://www.therobotreport.com">The Robot Repo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]

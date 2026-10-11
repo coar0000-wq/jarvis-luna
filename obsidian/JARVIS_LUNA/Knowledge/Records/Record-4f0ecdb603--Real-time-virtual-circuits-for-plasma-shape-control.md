@@ -2,8 +2,12 @@
 title: "Record 4f0ecdb603 · Real-time-virtual-circuits-for-plasma-shape-control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.909356+00:00
+updated_at: 2026-10-11T00:55:11.273105+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28468v1"
 ---
 
 # Record 4f0ecdb603 · Real-time-virtual-circuits-for-plasma-shape-control
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Real-time virtual circuits for plasma shape control via neural network emulators: experimental demonstration on MAST Upgrade
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[과학수학]] [[JARVIS Real Knowledge Index]]

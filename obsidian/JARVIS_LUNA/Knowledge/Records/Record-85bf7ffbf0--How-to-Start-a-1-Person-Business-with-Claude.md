@@ -2,8 +2,12 @@
 title: "Record 85bf7ffbf0 · How-to-Start-a-1-Person-Business-with-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.768744+00:00
+updated_at: 2026-10-11T00:55:55.137450+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=irtf9-m-9uc"
 ---
 
 # Record 85bf7ffbf0 · How-to-Start-a-1-Person-Business-with-Claude
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to Start a 1-Person Business with Claude
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

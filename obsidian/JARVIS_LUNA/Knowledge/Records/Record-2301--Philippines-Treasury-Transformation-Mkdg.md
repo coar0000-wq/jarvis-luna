@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.515912+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/treasury/treasury-management/philippines-treasury-transformation-mkdg"
 ---
 
 # Record 2301 · Philippines-Treasury-Transformation-Mkdg
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Philippines Treasury Transformation Mkdg
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

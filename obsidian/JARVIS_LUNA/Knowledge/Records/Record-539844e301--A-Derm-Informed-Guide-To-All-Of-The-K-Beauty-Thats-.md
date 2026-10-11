@@ -2,8 +2,12 @@
 title: "Record 539844e301 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.418963+00:00
+updated_at: 2026-10-11T00:55:34.133780+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWEJNWlEwVUtMdnkxdWlkcm91RUw3bjRUYmtESEpjZW5TaDN4ajFrdlBvMVNfREJLUHNscUMwbVRMQjdQUEF0N1dicVp4X3RTRFFnT0JpOGc0LUs5X2dVaUduRC1POFlkOWY1QVAxazM4TW5aVjdqb0t4bUlWTm00NE94cXQzeXdIdjhSMThMZmh5X2lEaFE?oc=5"
 ---
 
 # Record 539844e301 · A-Derm-Informed-Guide-To-All-Of-The-K-Beauty-Thats-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 A Derm-Informed Guide To All Of The K-Beauty That's Showing Up In Your Algorithm Right Now - HuffPost
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

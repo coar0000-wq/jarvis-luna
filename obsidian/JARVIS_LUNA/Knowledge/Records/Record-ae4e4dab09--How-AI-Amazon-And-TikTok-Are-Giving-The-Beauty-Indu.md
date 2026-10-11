@@ -2,8 +2,12 @@
 title: "Record ae4e4dab09 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Indu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.541348+00:00
+updated_at: 2026-10-11T00:55:36.248597+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZEhXd2Z3LUJpc1FqNnM5VHF4WllfLTRjVGZqV2lTVGVHcHVTbnBHd3lvNHlmdTROR01IRkZNc25WVnRHTlZvM21MaDdwOGpEbDh5ZzB4OE9ORHZrVzZtNmk1a05qVWU1UEdNVk1mYUNibHFwTGVpV0llamFOMy1EemJIUHJibnk3ai1RbDFaazRoN21YZThVU3B3M2ljZThsV2hJZzNhNXpFQW1XY0UtZlhsMnVmRVgyeUUtZHA3WmRJeXM?oc=5"
 ---
 
 # Record ae4e4dab09 · How-AI-Amazon-And-TikTok-Are-Giving-The-Beauty-Indu
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How AI, Amazon And TikTok Are Giving The Beauty Industry A Makeover - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

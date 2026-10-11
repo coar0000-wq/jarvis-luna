@@ -2,8 +2,12 @@
 title: "Record def94d0109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.161080+00:00
+updated_at: 2026-10-11T00:55:29.544464+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pMWJ4U1NSZzIzSk9aUzVvWnoxSE14S3hVZnRTSldfLXhTQWdXc0hOWlpLa1RaQlk2WkJtSnZPS3RfZHg1VUgzRlc0Yi1rY2RCSXlJVFVyWm5DMHBxMGxv?oc=5"
 ---
 
 # Record def94d0109 · Get-ready-with-me-to-achieve-the-perfect-face-a-qua
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Get ready with me to achieve the perfect face: a qualitative study into meaning-making of facial beauty content on social media by Dutch girls and young women - Nature
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

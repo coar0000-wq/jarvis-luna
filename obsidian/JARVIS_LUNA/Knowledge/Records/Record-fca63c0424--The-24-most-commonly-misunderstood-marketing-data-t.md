@@ -2,8 +2,14 @@
 title: "Record fca63c0424 · The-24-most-commonly-misunderstood-marketing-data-terms"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.433427+00:00
+updated_at: 2026-10-11T00:55:48.949473+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/helping-marketing-data-engineering-same-word-different-meaning"
+kind: "발표물"
 ---
 
 # Record fca63c0424 · The-24-most-commonly-misunderstood-marketing-data-terms
@@ -16,7 +22,3 @@ The 24 most commonly misunderstood marketing data terms
 Imagine you’re a marketer planning a win-back campaign and you ask your data team for a list of “inactive customers.” Y...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

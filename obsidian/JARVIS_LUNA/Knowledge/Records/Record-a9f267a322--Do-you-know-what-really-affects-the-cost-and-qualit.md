@@ -2,8 +2,12 @@
 title: "Record a9f267a322 · Do-you-know-what-really-affects-the-cost-and-qualit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.705074+00:00
+updated_at: 2026-10-11T00:55:53.946340+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/fLMt9WLwFP8"
 ---
 
 # Record a9f267a322 · Do-you-know-what-really-affects-the-cost-and-qualit
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Do you know what really affects the cost and quality of jewelry? 💎
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

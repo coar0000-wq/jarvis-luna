@@ -2,8 +2,14 @@
 title: "Record 41dfa6da67 · Informational-Entropic-Gravity-IEG-Deriving-G-from-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.570702+00:00
+updated_at: 2026-10-11T00:55:20.975766+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.33774/coe-2025-6xdxr"
+kind: "논문"
 ---
 
 # Record 41dfa6da67 · Informational-Entropic-Gravity-IEG-Deriving-G-from-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Informational Entropic Gravity (IEG): Deriving G from the Informational Basis of Spacetime within the F-HUB Framework
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

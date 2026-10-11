@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.708987+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2107.02905"
 ---
 
 # Record 775 · An-in-silico-drug-repurposing-pipeline-to-identify-drugs-with-the-pote
@@ -15,7 +20,3 @@ tags: [record, real-data]
 An in silico drug repurposing pipeline to identify drugs with the potential to inhibit SARS-CoV-2 replication
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

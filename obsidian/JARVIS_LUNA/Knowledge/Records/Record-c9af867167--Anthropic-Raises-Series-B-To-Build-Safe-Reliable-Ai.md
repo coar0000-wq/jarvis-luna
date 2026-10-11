@@ -2,8 +2,14 @@
 title: "Record c9af867167 · Anthropic-Raises-Series-B-To-Build-Safe-Reliable-Ai"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.360182+00:00
+updated_at: 2026-10-11T00:55:47.961694+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai"
+kind: "발표물"
 ---
 
 # Record c9af867167 · Anthropic-Raises-Series-B-To-Build-Safe-Reliable-Ai
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Anthropic Raises Series B To Build Safe Reliable Ai
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

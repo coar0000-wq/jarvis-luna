@@ -2,8 +2,14 @@
 title: "Record 36a6256b47 · Caregiver-reported-stress-in-praderWilli-syndrome-associations-with-hy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.497247+00:00
+updated_at: 2026-10-11T00:55:19.789235+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1186/s41687-026-01208-9"
+kind: "논문"
 ---
 
 # Record 36a6256b47 · Caregiver-reported-stress-in-praderWilli-syndrome-associations-with-hy
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Caregiver-reported stress in prader–Willi syndrome: associations with hyperphagia severity and socioeconomic context
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.037019+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.spc.2026.07.009"
 ---
 
 # Record 351 · Decision-support-platform-for-transparent-and-modular-design-of-sustai
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Decision-support platform for transparent and modular design of sustainable waste management systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 38db17ef33 · Adaptogen-Deep-Moisture-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.684198+00:00
+updated_at: 2026-10-11T00:55:53.456916+00:00
 tags: [record, real-data]
+source: "organic_skincare"
+topics: ["뷰티스킨케어"]
+domain: "www.youthtothepeople.com"
+url: "https://www.youthtothepeople.com/"
 ---
 
 # Record 38db17ef33 · Adaptogen-Deep-Moisture-Cream
@@ -16,7 +20,3 @@ Adaptogen Deep Moisture Cream
 Adaptogen Deep Moisture Cream · Youth To The People · Moisturizer · $58.0 · vegan, moisturizer
 
 **출처:** Source · organic_skincare
-
-## Connected nodes
-
-[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

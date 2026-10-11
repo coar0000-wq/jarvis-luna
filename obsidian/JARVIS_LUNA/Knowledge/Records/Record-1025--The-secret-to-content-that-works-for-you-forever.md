@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.193037+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/5u5xANNqYxQ"
 ---
 
 # Record 1025 · The-secret-to-content-that-works-for-you-forever
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 The secret to content that works for you forever
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

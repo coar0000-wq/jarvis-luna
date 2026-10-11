@@ -2,8 +2,14 @@
 title: "Record 7e614ee3d3 · Institutional-Consulting-Solutions---Our-Insights"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.557069+00:00
+updated_at: 2026-10-11T00:55:51.482925+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/what-we-do/wealth-management/institutional-consulting-solutions/our-insights"
+kind: "발표물"
 ---
 
 # Record 7e614ee3d3 · Institutional-Consulting-Solutions---Our-Insights
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Institutional Consulting Solutions   Our Insights
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

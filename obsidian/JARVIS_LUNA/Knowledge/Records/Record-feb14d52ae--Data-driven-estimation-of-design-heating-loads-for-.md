@@ -2,8 +2,12 @@
 title: "Record feb14d52ae · Data-driven-estimation-of-design-heating-loads-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.985656+00:00
+updated_at: 2026-10-11T00:55:12.309320+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07619v1"
 ---
 
 # Record feb14d52ae · Data-driven-estimation-of-design-heating-loads-for-
@@ -16,7 +20,3 @@ Data-driven estimation of design heating loads for HVAC equipment sizing
 Oversized heating and cooling equipment can unnecessarily increase up-front costs, energy costs, pollutant emissions, and strain on electrical infrastructure. This paper develops two data-driven methods for estimating heating loads at design conditions to improve equipment sizing. One method uses smart thermostat data; the other uses utility bills. We test the methods on a dataset that we gathered
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

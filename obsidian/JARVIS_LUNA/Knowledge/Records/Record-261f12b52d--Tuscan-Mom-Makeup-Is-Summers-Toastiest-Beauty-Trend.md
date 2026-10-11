@@ -2,8 +2,12 @@
 title: "Record 261f12b52d · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.145849+00:00
+updated_at: 2026-10-11T00:55:29.385400+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCLUc1TldaLTEtRm9HZUg3MHYyVldmWktKSkRkTlFiS0RqMDZBN21QM3FnMENvaC16Nkhxa3o3Z2NyRUlSZFBVVEdoc2UwSVZlZVI4MjU3WGlZOEU?oc=5"
 ---
 
 # Record 261f12b52d · Tuscan-Mom-Makeup-Is-Summers-Toastiest-Beauty-Trend
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "Tuscan Mom Makeup" Is Summer's Toastiest Beauty Trend - bustle.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

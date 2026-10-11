@@ -2,8 +2,14 @@
 title: "Record f82179b88e · SK-hynix-Hosts-2026-Global-Forum-Sharing-Its-Technology-Vision-and-Fut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.599077+00:00
+updated_at: 2026-10-11T00:55:36.875768+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "컴퓨터-비전", "반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/2026-global-forum-13/"
+kind: "발표물"
 ---
 
 # Record f82179b88e · SK-hynix-Hosts-2026-Global-Forum-Sharing-Its-Technology-Vision-and-Fut
@@ -15,7 +21,3 @@ tags: [record, real-data]
 SK hynix Hosts ‘2026 Global Forum,’ Sharing Its Technology Vision and Future Strategy for the AI Era
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

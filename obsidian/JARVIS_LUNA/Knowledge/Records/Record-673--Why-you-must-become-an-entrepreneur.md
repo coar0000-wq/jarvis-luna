@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.701874+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/keE32kvBREk"
 ---
 
 # Record 673 · Why-you-must-become-an-entrepreneur
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Why you must become an entrepreneur
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

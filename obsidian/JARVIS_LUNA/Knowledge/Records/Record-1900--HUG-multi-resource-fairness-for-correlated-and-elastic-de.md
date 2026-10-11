@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.755152+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "openalex.org"
+url: "https://openalex.org/W2339906866"
 ---
 
 # Record 1900 · HUG-multi-resource-fairness-for-correlated-and-elastic-demands
@@ -15,7 +20,3 @@ tags: [record, real-data]
 HUG: multi-resource fairness for correlated and elastic demands
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

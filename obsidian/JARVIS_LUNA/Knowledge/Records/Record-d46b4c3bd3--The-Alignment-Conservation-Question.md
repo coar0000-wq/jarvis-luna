@@ -2,8 +2,14 @@
 title: "Record d46b4c3bd3 · The-Alignment-Conservation-Question"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.962625+00:00
+updated_at: 2026-10-11T00:55:26.637470+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22051539"
+kind: "논문"
 ---
 
 # Record d46b4c3bd3 · The-Alignment-Conservation-Question
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Alignment Conservation Question
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

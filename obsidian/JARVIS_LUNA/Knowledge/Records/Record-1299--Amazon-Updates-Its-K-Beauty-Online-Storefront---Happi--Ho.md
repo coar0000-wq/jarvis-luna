@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.159079+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxONF9FMm9BcWxMWEJZWUY2RV8wWVJjYnpwZG4wZW84WXlfaE4yTElOV05VdEZYUlNhNm8wTDFLOEVmd0R1MW1KREFDdDVVZWg4VnVOS2ZFZUV1eFU5TUFkTXcxWFh0SWFtaktRcUlfOElFWnRJTWt6X1JQWnk4TGlRSkswbDhCOHdDLXc?oc=5"
 ---
 
 # Record 1299 · Amazon-Updates-Its-K-Beauty-Online-Storefront---Happi--Household-And-P
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Amazon Updates Its K-Beauty Online Storefront - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

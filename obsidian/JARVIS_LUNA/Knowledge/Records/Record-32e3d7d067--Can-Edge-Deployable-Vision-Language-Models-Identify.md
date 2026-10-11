@@ -2,8 +2,12 @@
 title: "Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.085179+00:00
+updated_at: 2026-10-11T00:55:13.426609+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11916v1"
 ---
 
 # Record 32e3d7d067 · Can-Edge-Deployable-Vision-Language-Models-Identify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Can Edge-Deployable Vision-Language Models Identify Species?
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

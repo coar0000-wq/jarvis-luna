@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.069612+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1109/jmw.2026.3669005"
 ---
 
 # Record 483 · Building-Intuition-in-Amplifier-Design-Using-Load-Pull-Based-Multi-Obj
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Building Intuition in Amplifier Design Using Load-Pull Based Multi-Objective Visualization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.686730+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.6313378"
 ---
 
 # Record 689 · The-Illiquidity-Budget-in-Modern-Portfolios-Structural-Limits-to-Priva
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The Illiquidity Budget in Modern Portfolios: Structural Limits to Private Market Allocation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

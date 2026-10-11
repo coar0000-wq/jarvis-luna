@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.001580+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/loveholidays"
 ---
 
 # Record 1982 · How-loveholidays-is-making-everyone-a-builder-with-Codex
@@ -16,7 +21,3 @@ How loveholidays is making everyone a builder with Codex
 Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

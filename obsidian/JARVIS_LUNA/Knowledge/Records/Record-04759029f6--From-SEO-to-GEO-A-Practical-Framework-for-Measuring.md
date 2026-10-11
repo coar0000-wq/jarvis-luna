@@ -2,8 +2,14 @@
 title: "Record 04759029f6 · From-SEO-to-GEO-A-Practical-Framework-for-Measuring-Brand-Visibility-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.981231+00:00
+updated_at: 2026-10-11T00:55:26.945636+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.23066248"
+kind: "논문"
 ---
 
 # Record 04759029f6 · From-SEO-to-GEO-A-Practical-Framework-for-Measuring-Brand-Visibility-i
@@ -15,7 +21,3 @@ tags: [record, real-data]
 From SEO to GEO: A Practical Framework for Measuring Brand Visibility in AI Search
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

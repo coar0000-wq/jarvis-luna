@@ -2,8 +2,12 @@
 title: "Record b8840e8f87 · K-Beautys-Biggest-Hits-Have-Landed-in-This-Advent-Calendar---British-V"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.282475+00:00
+updated_at: 2026-10-11T00:55:31.681831+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yMktpdDZNSGxoZVR4bUJYUHFINzVvR2hrWG91T0w4RElBckxVSmlDU3RFV1h3NGF0S0ZnTTNscHNPOTBRaHJuTENEVnd0bzMyaWxFS25uOFljdFRRaWJyV3B0MWk1Mk5TclpUSnNvMXpjVy13WmFnSg?oc=5"
 ---
 
 # Record b8840e8f87 · K-Beautys-Biggest-Hits-Have-Landed-in-This-Advent-Calendar---British-V
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty’s Biggest Hits Have Landed in This Advent Calendar - British Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

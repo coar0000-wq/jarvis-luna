@@ -2,8 +2,12 @@
 title: "Record 46694bce3e · 화장품-성분-분석-안심하고-내려놓았다가-피부-망합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.690467+00:00
+updated_at: 2026-10-11T00:55:53.591727+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어", "데이터분석"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/9GBLlfK-soY"
 ---
 
 # Record 46694bce3e · 화장품-성분-분석-안심하고-내려놓았다가-피부-망합니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 화장품 성분 분석, 안심하고 내려놓았다가 피부 망합니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

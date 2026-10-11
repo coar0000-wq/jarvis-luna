@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.591819+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
 ---
 
 # Record 2071 · Paul-Christiano-joins-OpenAI-Foundation-Board
@@ -16,7 +21,3 @@ Paul Christiano joins OpenAI Foundation Board
 Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

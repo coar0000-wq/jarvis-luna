@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.208474+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxQclc5OW9QclpTZExVbVJGcV9sZEllR3NVbmVPRkNrUXBQODFiWnl5N182Q3hoYWNKLUw1WjkxNHA1dE9KZG1XNnNUMkdpLXllZm5UaFBQUlFmV2h5YjI2clNveWdTenNRNDJLVTBaX1JjeWxOOGR1SlFiQkVOYkF4RHNUX1R0UGotYjRoYTFHN0FTOE9FaENGUGlqRHllTzNKNE9fWEZDUFV1RC1pNl9vSDBocGNHbms?oc=5"
 ---
 
 # Record 1857 · Shopify-eCommerce-Refocus-Includes-Recruiting-Celebrity-Brands-like-Th
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify eCommerce Refocus Includes Recruiting Celebrity Brands like The Row - PYMNTS.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

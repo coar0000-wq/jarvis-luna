@@ -2,8 +2,14 @@
 title: "Record e94fc2f0f0 · Formalizing-Fermats-Last-Theorem"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.396225+00:00
+updated_at: 2026-10-11T00:55:48.382257+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+kind: "발표물"
 ---
 
 # Record e94fc2f0f0 · Formalizing-Fermats-Last-Theorem
@@ -16,7 +22,3 @@ Formalizing Fermat's Last Theorem
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

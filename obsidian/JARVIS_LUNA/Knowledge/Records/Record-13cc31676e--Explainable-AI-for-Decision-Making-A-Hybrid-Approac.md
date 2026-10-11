@@ -2,8 +2,14 @@
 title: "Record 13cc31676e · Explainable-AI-for-Decision-Making-A-Hybrid-Approach-to-Trustworthy-Co"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.553606+00:00
+updated_at: 2026-10-11T00:55:20.683967+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.22399/ijcesen.1684"
+kind: "논문"
 ---
 
 # Record 13cc31676e · Explainable-AI-for-Decision-Making-A-Hybrid-Approach-to-Trustworthy-Co
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Explainable AI for Decision-Making: A Hybrid Approach to Trustworthy Computing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

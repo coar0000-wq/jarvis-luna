@@ -2,8 +2,12 @@
 title: "Record 3574616539 · 11-Lazy-Ways-To-Make-Money-With-AI-No-Experience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.725599+00:00
+updated_at: 2026-10-11T00:55:54.389449+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=RzFHcZA6uxA"
 ---
 
 # Record 3574616539 · 11-Lazy-Ways-To-Make-Money-With-AI-No-Experience
@@ -15,7 +19,3 @@ tags: [record, real-data]
 11 Lazy Ways To Make Money With AI (No Experience)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

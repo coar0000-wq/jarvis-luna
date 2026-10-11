@@ -2,8 +2,14 @@
 title: "Record debf58003c · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.056622+00:00
+updated_at: 2026-10-11T00:55:27.917693+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "investors.boozallen.com"
+url: "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-hamilton-announces-first-quarter-fiscal-year-2027"
+kind: "발표물"
 ---
 
 # Record debf58003c · Booz-Allen-Hamilton-Announces-First-Quarter-Fiscal-
@@ -16,7 +22,3 @@ Booz Allen Hamilton Announces First Quarter Fiscal Year 2027 Results
 MCLEAN, Va. --(BUSINESS WIRE)--Jul. 24, 2026-- Booz Allen Hamilton Holding Corporation (NYSE: BAH), the parent company of advanced technology company Booz Allen Hamilton Inc., today announced preliminary results for the first quarter fiscal 2027. This press release features multimedia.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

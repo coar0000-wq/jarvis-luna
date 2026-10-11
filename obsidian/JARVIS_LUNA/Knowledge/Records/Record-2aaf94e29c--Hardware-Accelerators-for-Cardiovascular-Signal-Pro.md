@@ -2,8 +2,14 @@
 title: "Record 2aaf94e29c · Hardware-Accelerators-for-Cardiovascular-Signal-Pro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.587907+00:00
+updated_at: 2026-10-11T00:55:21.269125+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.3390/mi17010051"
+kind: "논문"
 ---
 
 # Record 2aaf94e29c · Hardware-Accelerators-for-Cardiovascular-Signal-Pro
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Hardware Accelerators for Cardiovascular Signal Processing: A System-on-Chip Perspective
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

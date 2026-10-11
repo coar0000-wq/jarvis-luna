@@ -2,81 +2,66 @@
 title: "기관 · Deutsche Bank"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:59:00.661166+00:00
+updated_at: 2026-10-11T00:55:56.813780+00:00
 tags: [org, real-data]
+record_count: 66
 ---
 
 # 기관 · Deutsche Bank
 
-실제 수집 레코드 **66건**이 이 기관에 연결되어 있습니다. (논문 66건)
+유형별: 논문 66건
 
-- [[Record-3e27ac58bd--Carbonzugglieder-unter-statischer-und-nicht-ruhende]]
-- [[Record-f1d537d576--A-Markov-approach-to-credit-rating-migration-condit]]
-- [[Record-a34e97ed3a--Industriestandort-Deutschland-droht-struktureller-V]]
-- [[Record-fa684ba05a--Algorithmic-Fairness-in-AI]]
-- [[Record-40e765592a--Hypersensitivity-associated-with-molar-incisor-hypo]]
-- [[Record-643b44ba6c--Vergleich-der-Genauigkeit-zweier-Methoden-zur-Karie]]
-- [[Record-c72888f73f--Forward-looking-disclosure-of-customer-metrics-in-I]]
-- [[Record-dc573dd73f--Decision-models-and-online-betting-behavior-Compari]]
-- [[Record-c35fbe3e8d--The-effective-use-of-artificial-intelligence-in-pat]]
-- [[Record-6e28d85bd0--A-meta-inspiral-merger-ringdown-consistency-test-of]]
-- [[Record-dd6505e24a--The-coevolution-of-corporate-capabilities-in-intell]]
-- [[Record-6b0be35eae--Impact-of-COVID-19-on-family-business-performance-e]]
-- [[Record-8bc523d75e--Cryptocurrencies-and-CBDC-The-Route-Ahead]]
-- [[Record-b1e573f4b8--Social-trills-of-the-pipistrelle-bat--Pipistrellus-]]
-- [[Record-8787208b0d--OPTIMAL-SELLING-TIME-OF-A-STOCK-UNDER-CAPITAL-GAINS]]
-- [[Record-bc3fc802bd--Determinants-of-Tele-Palliative-Care-Utilization-Am]]
-- [[Record-ea4916bcca--Lifetime-Earnings-in-the-United-States-over-Six-Dec]]
-- [[Record-c093f6c775--Pre-hedging]]
-- [[Record-242b0d0561--Generative-KI-in-der-Finanzbranche-Strategische-tec]]
-- [[Record-54b4ef44ea--Drivers-of-international-convergence-in-digital-two]]
-- [[Record-7d2cc49549--Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analy]]
-- [[Record-6a29e373d0--Stress-and-Substitution-A-Theory-of-Opaque-Capital-]]
-- [[Record-9f3147fd06--Analytic-RFR-Option-Pricing-with-Smile-and-Skew]]
-- [[Record-9977e98886--On-Smart-Derivative-and-Smart-Bond-Contracts-How-Sm]]
-- [[Record-63263a22d4--Supervised-Similarity-for-Firm-Linkages]]
-- [[Record-ab42475da1--Fast-Reliable-Pricing-and-Calibration-of-the-Rough-]]
-- [[Record-82a32f495f--A-Smart-Derivative-Contract-with-Collateral]]
-- [[Record-5cceeb36f6--Replication-Consistent-Liquidity-Forecasting-for-De]]
-- [[Record-eb3c45813b--Small-Language-Models-and-Spec-Driven-Development-f]]
-- [[Record-8ca709ad51--A-Note-on-Distance-Function-Weighted-Graph-Convolut]]
-- [[Record-f743256053--The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow]]
-- [[Record-a6ca1759a1--The-Illiquidity-Budget-in-Modern-Portfolios-Structu]]
-- [[Record-078dd55d0f--Solvability-of-the-Erdős-Straus-Equation-Under-Divi]]
-- [[Record-5ab20a75b5--Smart-Bond-Contract-Pilot-Forensics]]
-- [[Record-998ec23e53--Insider-Law-Aspects-in-the-Issuance-of-Bonds]]
-- [[Record-22c13c6d27--Insiderrechtliche-Praxisfragen-bei-der-Emission-von]]
-- [[Record-149035026b--Faster-Forward-Sensitivities-Reduced-Stochastic-Hed]]
-- [[Record-7344d06892--FİNANS-VE-EMPERYALİZM-OSMANLI-COĞRAFYASINDA-ALMAN-B]]
-- [[Record-274495061c--A-realized-covariance-approach-in-reexamining-crypt]]
-- [[Record-6b639c6c23--Board-governance-in-Southeast-Europe-towards-strong]]
-- [[Record-a229acce5b--Artificial-Intelligence-and-Data-Protection-How-to-]]
-- [[Record-1ce4b9b0ec--Using-Machine-Learning-to-Detect-Financial-Statemen]]
-- [[Record-0c4ee90dd5--Renforcer-le-diagnostic-et-les-thèmes-transversaux-]]
-- [[Record-05d4b78a2e--Intergenerational-Equity-in-Models-of-Climate-Chang]]
-- [[Record-87d390c99b--Stateless-and-Secure-Delivery-versus-Payment-across]]
-- [[Record-902c3d0b21--Intergenerational-Equitable-Climate-Change-Mitigati]]
-- [[Record-329880c7a3--A-Markov-approach-to-credit-rating-migration-condit]]
-- [[Record-61d051c5bb--STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli]]
-- [[Record-acd59003ad--XGRAG-A-Graph-Native-Framework-for-Explaining-KG-ba]]
-- [[Record-873ed6e984--Logit-Distillation-on-Manifolds-Mapping-by-Learning]]
-- [[Record-9318a7d61b--Performanceeinbruch-in-der-mündlichen-Zweitsprachpr]]
-- [[Record-96f1f48cfe--Performanceeinbruch-in-der-mündlichen-Zweitsprachpr]]
-- [[Record-9e4f73a96b--Werkraum-Zeit-Artefakte-als-temporale-Forderungsstr]]
-- [[Record-83830f2880--Werkraum-Zeit-Artefakte-als-temporale-Forderungsstr]]
-- [[Record-1a96db0d1f--The-Digital-Euro-A-New-Era-for-the-European-Monetar]]
-- [[Record-819a1c39a1--Mixed-Marriages-in-Indonesia-and-Citizenship-Issues]]
-- [[Record-84bcb36841--Why-and-how-to-embrace-entity-resolution-and-contex]]
-- [[Record-d8428f5e78--A-token-based-operating-model-unifying-traditional-]]
-- [[Record-c236f4717a--Embedded-finance-An-evaluation-of-current-and-futur]]
-- [[Record-c2d77fbd15--KI-Nutzerakzeptanz-am-Beispiel-von-Chatbots-im-Onli]]
-- [[Record-730fefdfed--XGRAG-A-Graph-Native-Framework-for-Explaining-KG-ba]]
-- [[Record-9b25c34290--STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli]]
-- [[Record-199d80f99c--Replication-Consistent-Liquidity-Forecasting-for-De]]
-- [[Record-8c83addebd--Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbe]]
-- [[Record-5074f4b36f--Logit-Distillation-on-Manifolds-Mapping-by-Learning]]
+실제 수집 레코드 **66건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+
+### 주제별 건수
+
+| 항목 | 건수 |
+|---|---|
+| [[투자은행금융]] | 66 |
+| [[경영전략]] | 5 |
+| [[LLM언어모델]] | 3 |
+| [[의료바이오]] | 2 |
+| [[법률규제]] | 2 |
+| [[인프라클라우드]] | 1 |
+| [[AI-에이전트]] | 1 |
+| [[머신러닝-연구]] | 1 |
+| [[보안프라이버시]] | 1 |
+| [[과학수학]] | 1 |
+
+### 최근 레코드 12건
+
 - [[Record-753eaae4a3--Quantum-Counterparty-Credit-Risk-A-Study-of-Path-De]]
+- [[Record-5074f4b36f--Logit-Distillation-on-Manifolds-Mapping-by-Learning]]
+- [[Record-8c83addebd--Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbe]]
+- [[Record-199d80f99c--Replication-Consistent-Liquidity-Forecasting-for-De]]
+- [[Record-9b25c34290--STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli]]
+- [[Record-730fefdfed--XGRAG-A-Graph-Native-Framework-for-Explaining-KG-ba]]
+- [[Record-c2d77fbd15--KI-Nutzerakzeptanz-am-Beispiel-von-Chatbots-im-Onli]]
+- [[Record-c236f4717a--Embedded-finance-An-evaluation-of-current-and-futur]]
+- [[Record-d8428f5e78--A-token-based-operating-model-unifying-traditional-]]
+- [[Record-84bcb36841--Why-and-how-to-embrace-entity-resolution-and-contex]]
+- [[Record-819a1c39a1--Mixed-Marriages-in-Indonesia-and-Citizenship-Issues]]
+- [[Record-1a96db0d1f--The-Digital-Euro-A-New-Era-for-the-European-Monetar]]
+
+### 전체 레코드 (표)
+
+```base
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+    - org == "Deutsche Bank"
+views:
+  - type: table
+    name: 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+    limit: 200
+```
 
 ## Connected nodes
 
-[[Record-3e27ac58bd--Carbonzugglieder-unter-statischer-und-nicht-ruhende]] [[Record-f1d537d576--A-Markov-approach-to-credit-rating-migration-condit]] [[Record-a34e97ed3a--Industriestandort-Deutschland-droht-struktureller-V]] [[Record-fa684ba05a--Algorithmic-Fairness-in-AI]] [[Record-40e765592a--Hypersensitivity-associated-with-molar-incisor-hypo]] [[Record-643b44ba6c--Vergleich-der-Genauigkeit-zweier-Methoden-zur-Karie]] [[Record-c72888f73f--Forward-looking-disclosure-of-customer-metrics-in-I]] [[Record-dc573dd73f--Decision-models-and-online-betting-behavior-Compari]] [[Record-c35fbe3e8d--The-effective-use-of-artificial-intelligence-in-pat]] [[Record-6e28d85bd0--A-meta-inspiral-merger-ringdown-consistency-test-of]] [[Record-dd6505e24a--The-coevolution-of-corporate-capabilities-in-intell]] [[Record-6b0be35eae--Impact-of-COVID-19-on-family-business-performance-e]] [[Record-8bc523d75e--Cryptocurrencies-and-CBDC-The-Route-Ahead]] [[Record-b1e573f4b8--Social-trills-of-the-pipistrelle-bat--Pipistrellus-]] [[Record-8787208b0d--OPTIMAL-SELLING-TIME-OF-A-STOCK-UNDER-CAPITAL-GAINS]] [[Record-bc3fc802bd--Determinants-of-Tele-Palliative-Care-Utilization-Am]] [[Record-ea4916bcca--Lifetime-Earnings-in-the-United-States-over-Six-Dec]] [[Record-c093f6c775--Pre-hedging]] [[Record-242b0d0561--Generative-KI-in-der-Finanzbranche-Strategische-tec]] [[Record-54b4ef44ea--Drivers-of-international-convergence-in-digital-two]] [[Record-7d2cc49549--Vessel-Profiles-in-the-Shadows-A-Binary-Logit-Analy]] [[Record-6a29e373d0--Stress-and-Substitution-A-Theory-of-Opaque-Capital-]] [[Record-9f3147fd06--Analytic-RFR-Option-Pricing-with-Smile-and-Skew]] [[Record-9977e98886--On-Smart-Derivative-and-Smart-Bond-Contracts-How-Sm]] [[Record-63263a22d4--Supervised-Similarity-for-Firm-Linkages]] [[Record-ab42475da1--Fast-Reliable-Pricing-and-Calibration-of-the-Rough-]] [[Record-82a32f495f--A-Smart-Derivative-Contract-with-Collateral]] [[Record-5cceeb36f6--Replication-Consistent-Liquidity-Forecasting-for-De]] [[Record-eb3c45813b--Small-Language-Models-and-Spec-Driven-Development-f]] [[Record-8ca709ad51--A-Note-on-Distance-Function-Weighted-Graph-Convolut]] [[Record-f743256053--The-Emperor-Has-No-Cash-Flows-Integrating-Cash-Flow]] [[Record-a6ca1759a1--The-Illiquidity-Budget-in-Modern-Portfolios-Structu]] [[Record-078dd55d0f--Solvability-of-the-Erdős-Straus-Equation-Under-Divi]] [[Record-5ab20a75b5--Smart-Bond-Contract-Pilot-Forensics]] [[Record-998ec23e53--Insider-Law-Aspects-in-the-Issuance-of-Bonds]] [[Record-22c13c6d27--Insiderrechtliche-Praxisfragen-bei-der-Emission-von]] [[Record-149035026b--Faster-Forward-Sensitivities-Reduced-Stochastic-Hed]] [[Record-7344d06892--FİNANS-VE-EMPERYALİZM-OSMANLI-COĞRAFYASINDA-ALMAN-B]] [[Record-274495061c--A-realized-covariance-approach-in-reexamining-crypt]] [[Record-6b639c6c23--Board-governance-in-Southeast-Europe-towards-strong]] [[Record-a229acce5b--Artificial-Intelligence-and-Data-Protection-How-to-]] [[Record-1ce4b9b0ec--Using-Machine-Learning-to-Detect-Financial-Statemen]] [[Record-0c4ee90dd5--Renforcer-le-diagnostic-et-les-thèmes-transversaux-]] [[Record-05d4b78a2e--Intergenerational-Equity-in-Models-of-Climate-Chang]] [[Record-87d390c99b--Stateless-and-Secure-Delivery-versus-Payment-across]] [[Record-902c3d0b21--Intergenerational-Equitable-Climate-Change-Mitigati]] [[Record-329880c7a3--A-Markov-approach-to-credit-rating-migration-condit]] [[Record-61d051c5bb--STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli]] [[Record-acd59003ad--XGRAG-A-Graph-Native-Framework-for-Explaining-KG-ba]] [[Record-873ed6e984--Logit-Distillation-on-Manifolds-Mapping-by-Learning]] [[Record-9318a7d61b--Performanceeinbruch-in-der-mündlichen-Zweitsprachpr]] [[Record-96f1f48cfe--Performanceeinbruch-in-der-mündlichen-Zweitsprachpr]] [[Record-9e4f73a96b--Werkraum-Zeit-Artefakte-als-temporale-Forderungsstr]] [[Record-83830f2880--Werkraum-Zeit-Artefakte-als-temporale-Forderungsstr]] [[Record-1a96db0d1f--The-Digital-Euro-A-New-Era-for-the-European-Monetar]] [[Record-819a1c39a1--Mixed-Marriages-in-Indonesia-and-Citizenship-Issues]] [[Record-84bcb36841--Why-and-how-to-embrace-entity-resolution-and-contex]] [[Record-d8428f5e78--A-token-based-operating-model-unifying-traditional-]] [[Record-c236f4717a--Embedded-finance-An-evaluation-of-current-and-futur]] [[Record-c2d77fbd15--KI-Nutzerakzeptanz-am-Beispiel-von-Chatbots-im-Onli]] [[Record-730fefdfed--XGRAG-A-Graph-Native-Framework-for-Explaining-KG-ba]] [[Record-9b25c34290--STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli]] [[Record-199d80f99c--Replication-Consistent-Liquidity-Forecasting-for-De]] [[Record-8c83addebd--Germany-is-A-Reliable-AND-Strategic-Partner-OF-Uzbe]] [[Record-5074f4b36f--Logit-Distillation-on-Manifolds-Mapping-by-Learning]] [[Record-753eaae4a3--Quantum-Counterparty-Credit-Risk-A-Study-of-Path-De]] [[AI-에이전트]] [[LLM언어모델]] [[경영전략]] [[과학수학]] [[머신러닝-연구]] [[법률규제]] [[보안프라이버시]] [[의료바이오]] [[인프라클라우드]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
+[[JARVIS Real Knowledge Index]]

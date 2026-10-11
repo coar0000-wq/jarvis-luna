@@ -2,8 +2,12 @@
 title: "Record 2d2707adfd · Lovable-and-Shopify-partner-to-launch-AI-store-buil"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.384927+00:00
+updated_at: 2026-10-11T00:55:33.496360+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTG5KOWVlQzVhb2JUTE1CQmNTbFdkVjVWMms1TFZ5WVJGMndUaV9fcjVKdkxqWndvdV8xUktNSzRhUV9FSHBSeDRMdDdMcEh6Ym85ckpKb1M0TXlxekdIaGVtdUlMYUxwby1ZVWlVUUVZMkFfZ2RPWHVnOTM5U3g2c1F1UWd3cEdTSTJjNVVR?oc=5"
 ---
 
 # Record 2d2707adfd · Lovable-and-Shopify-partner-to-launch-AI-store-buil
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Lovable and Shopify partner to launch AI store builder - thekeyword.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

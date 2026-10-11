@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T11:58:36.127976+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=4pN16Ju0Lbw"
 ---
 
 # Record 2369 · Millionaire-Explains-How-To-Get-Rich-With-0
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Millionaire Explains: How To Get Rich With $0
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

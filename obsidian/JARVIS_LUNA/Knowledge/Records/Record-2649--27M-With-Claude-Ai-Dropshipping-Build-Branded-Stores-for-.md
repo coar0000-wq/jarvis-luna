@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.160049+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=bETBkG5fidk"
 ---
 
 # Record 2649 · 27M-With-Claude-Ai-Dropshipping-Build-Branded-Stores-for-FREE
@@ -15,7 +19,3 @@ tags: [record, real-data]
 $2.7M With Claude Ai Dropshipping (Build Branded Stores for FREE)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

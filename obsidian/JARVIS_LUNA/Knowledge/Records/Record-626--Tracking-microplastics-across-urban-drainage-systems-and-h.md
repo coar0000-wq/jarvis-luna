@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.470699+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.2166/wqrj.2026.054"
 ---
 
 # Record 626 · Tracking-microplastics-across-urban-drainage-systems-and-highway-runof
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Tracking microplastics across urban drainage systems and highway runoff: a snapshot assessment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

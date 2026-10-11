@@ -2,8 +2,12 @@
 title: "Record 2cf4516e0b · CrowdCue-Specialist-Cue-Conditioning-for-Vision-Language-Crowd-Countin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.166681+00:00
+updated_at: 2026-10-11T00:55:14.417523+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.23012"
 ---
 
 # Record 2cf4516e0b · CrowdCue-Specialist-Cue-Conditioning-for-Vision-Language-Crowd-Countin
@@ -16,7 +20,3 @@ CrowdCue: Specialist-Cue Conditioning for Vision-Language Crowd Counting
 Generative vision-language models (VLMs) offer a counting paradigm in which one model produces both a count and a natural-language account of the scene, yet their raw counting accuracy sits in the range of sub-million-parameter specialist regressors. The open question is whether auxiliary guidance from a pretrained specialist can lift them into useful territory, and through which channel that guid
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

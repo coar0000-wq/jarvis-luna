@@ -2,8 +2,12 @@
 title: "Record 01c16f12dc · Zendaya-Debuted-Her-New-Pixie-Cut-at-the-2026-Emmys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.947178+00:00
+updated_at: 2026-10-11T00:55:42.662951+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/zendaya-pixie-cut-2026-emmys"
 ---
 
 # Record 01c16f12dc · Zendaya-Debuted-Her-New-Pixie-Cut-at-the-2026-Emmys
@@ -16,7 +20,3 @@ Zendaya Debuted Her New Pixie Cut at the 2026 Emmys—See the Photos
 Zendaya Debuted Her New Pixie Cut at the 2026 Emmys—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

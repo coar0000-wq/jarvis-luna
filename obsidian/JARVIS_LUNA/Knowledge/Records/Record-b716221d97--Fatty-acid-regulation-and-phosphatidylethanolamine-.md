@@ -2,8 +2,14 @@
 title: "Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.383748+00:00
+updated_at: 2026-10-11T00:55:17.800824+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "의료바이오", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1073/pnas.2614150123"
+kind: "논문"
 ---
 
 # Record b716221d97 · Fatty-acid-regulation-and-phosphatidylethanolamine-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Fatty acid regulation and phosphatidylethanolamine biosynthesis are important for hepatitis E virus replication
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

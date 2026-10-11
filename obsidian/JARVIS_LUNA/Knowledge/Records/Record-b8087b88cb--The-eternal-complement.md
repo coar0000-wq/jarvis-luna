@@ -2,8 +2,14 @@
 title: "Record b8087b88cb · The-eternal-complement"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.656853+00:00
+updated_at: 2026-10-11T00:55:37.723838+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/the-eternal-complement"
+kind: "발표물"
 ---
 
 # Record b8087b88cb · The-eternal-complement
@@ -16,7 +22,3 @@ The eternal complement
 Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

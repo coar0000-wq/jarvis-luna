@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.468614+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.61373/bh026a.0024"
 ---
 
 # Record 892 · Therapeutic-apheresis-An-effective-strategy-for-a-combined-targeting-o
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Therapeutic apheresis: An effective strategy for a combined targeting of circulating lipoproteins, inflammatory markers, PFAS, and microplastics in cardiometabolic and neurodegenerative disease?
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

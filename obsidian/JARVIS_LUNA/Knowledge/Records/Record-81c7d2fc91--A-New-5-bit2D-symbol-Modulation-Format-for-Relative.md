@@ -2,8 +2,14 @@
 title: "Record 81c7d2fc91 · A-New-5-bit2D-symbol-Modulation-Format-for-Relative-Intensity-Noise-do"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.621145+00:00
+updated_at: 2026-10-11T00:55:21.894270+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2506.01761"
+kind: "논문"
 ---
 
 # Record 81c7d2fc91 · A-New-5-bit2D-symbol-Modulation-Format-for-Relative-Intensity-Noise-do
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A New 5 bit/2D-symbol Modulation Format for Relative Intensity Noise-dominated IM-DD Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

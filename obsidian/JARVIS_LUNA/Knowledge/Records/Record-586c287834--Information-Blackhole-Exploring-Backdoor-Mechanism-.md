@@ -2,8 +2,12 @@
 title: "Record 586c287834 · Information-Blackhole-Exploring-Backdoor-Mechanism-in-3D-Point-Cloud-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.218208+00:00
+updated_at: 2026-10-11T00:55:15.084591+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["보안프라이버시", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.33569"
 ---
 
 # Record 586c287834 · Information-Blackhole-Exploring-Backdoor-Mechanism-in-3D-Point-Cloud-R
@@ -16,7 +20,3 @@ Information Blackhole: Exploring Backdoor Mechanism in 3D Point Cloud Reconstruc
 Point cloud autoencoders are fundamental components for 3D world representation and support many safety-critical downstream applications. Existing studies have extensively investigated backdoor attacks on point cloud classification, whereas backdoor attacks against point cloud autoencoders remain largely unexplored. However, their backdoor behaviors differ substantially due to the intrinsic struct
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[보안프라이버시]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.480663+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.3390/aerospace10110960"
 ---
 
 # Record 799 · Data-Downloaded-via-Parachute-from-a-NASA-Super-Pressure-Balloon
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Data Downloaded via Parachute from a NASA Super-Pressure Balloon
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

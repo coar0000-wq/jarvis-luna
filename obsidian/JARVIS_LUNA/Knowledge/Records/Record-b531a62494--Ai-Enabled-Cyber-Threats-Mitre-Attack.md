@@ -2,8 +2,14 @@
 title: "Record b531a62494 · Ai-Enabled-Cyber-Threats-Mitre-Attack"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.351388+00:00
+updated_at: 2026-10-11T00:55:47.752994+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack"
+kind: "발표물"
 ---
 
 # Record b531a62494 · Ai-Enabled-Cyber-Threats-Mitre-Attack
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ai Enabled Cyber Threats Mitre Attack
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

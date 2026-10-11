@@ -2,8 +2,12 @@
 title: "Record 08d858b763 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-G"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.204697+00:00
+updated_at: 2026-10-11T00:55:30.296928+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE13cUdNVEw1LXVyXzdta0JUZVI5azVxSVkxcWxqWDBJWjlLYjFUSzVkVWZVRGx3NGEySkR2elZ2LXB4TllIWm9hTS1xb1o2b0dNZUFFX2xDamRvUjNjZUtjZ25lcEZ0VDRCRUVj?oc=5"
 ---
 
 # Record 08d858b763 · These-K-Beauty-Picks-for-Oily-Skin-Give-You-Glass-G
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These K-Beauty Picks for Oily Skin Give You Glass Glow, Not Grease - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 8b906b1e42 · A-Primal-Dual-Formulation-for-Pricing-Static-Voltag"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.059679+00:00
+updated_at: 2026-10-11T00:55:13.166621+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11436v1"
 ---
 
 # Record 8b906b1e42 · A-Primal-Dual-Formulation-for-Pricing-Static-Voltag
@@ -16,7 +20,3 @@ A Primal-Dual Formulation for Pricing Static Voltage Stability Services within a
 In modern power systems with high penetration of Inverter-Based Resources (IBR), most converters operate in Grid-Following (GFL) mode. Some buses exhibit inherently low Short-Circuit Ratios (SCRs), a property majorly shaped by network topology. The integration of GFL-IBR onto such weak buses thus demands attention to static voltage stability. To address this issue, market mechanisms have been prop
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[JARVIS Real Knowledge Index]]

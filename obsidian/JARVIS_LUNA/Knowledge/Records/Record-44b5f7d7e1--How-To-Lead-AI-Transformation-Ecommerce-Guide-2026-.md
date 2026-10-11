@@ -2,8 +2,12 @@
 title: "Record 44b5f7d7e1 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.212981+00:00
+updated_at: 2026-10-11T00:55:30.444580+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fc2xKazdzb096SlhROVFtaDlONVRaNWJfTVdhQkRkVHBENHJMU2Jtck9hMmN5TjVLdFVxZmhybkgtejVKVXFsdUJydzVmaUNNRUtiREEzR0pnY0NtQWItZkFvR1h1N2xz?oc=5"
 ---
 
 # Record 44b5f7d7e1 · How-To-Lead-AI-Transformation-Ecommerce-Guide-2026-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How To Lead AI Transformation: Ecommerce Guide (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

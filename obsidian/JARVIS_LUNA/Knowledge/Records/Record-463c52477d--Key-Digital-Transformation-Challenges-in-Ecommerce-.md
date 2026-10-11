@@ -2,8 +2,12 @@
 title: "Record 463c52477d · Key-Digital-Transformation-Challenges-in-Ecommerce-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.313928+00:00
+updated_at: 2026-10-11T00:55:32.292831+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rUEwydmN0VU9lMVl2X0NuMldBLWJqQU0xX0JIZWwycEwyUHhnQ2FjajgzbWszanVDNHU2QUpjc1F6UGdTRW1pUVd5VGhJTXVCUDkyMjl3MFNsRzJyWFRpUm51NXhiWkttWEFnMG54V3FQR2JZS0FhZG5VTXR2QQ?oc=5"
 ---
 
 # Record 463c52477d · Key-Digital-Transformation-Challenges-in-Ecommerce-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Key Digital Transformation Challenges in Ecommerce for 2026 and How to Solve Them - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

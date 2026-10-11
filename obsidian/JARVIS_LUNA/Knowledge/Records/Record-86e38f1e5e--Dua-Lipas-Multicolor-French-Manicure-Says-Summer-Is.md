@@ -2,8 +2,12 @@
 title: "Record 86e38f1e5e · Dua-Lipas-Multicolor-French-Manicure-Says-Summer-Is"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.921103+00:00
+updated_at: 2026-10-11T00:55:42.265582+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/dua-lipa-colorful-french-manicure"
 ---
 
 # Record 86e38f1e5e · Dua-Lipas-Multicolor-French-Manicure-Says-Summer-Is
@@ -16,7 +20,3 @@ Dua Lipa's Multicolor French Manicure Says Summer Isn't Over Yet—See the Photo
 Dua Lipa's Multicolor French Manicure Says Summer Isn't Over Yet—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

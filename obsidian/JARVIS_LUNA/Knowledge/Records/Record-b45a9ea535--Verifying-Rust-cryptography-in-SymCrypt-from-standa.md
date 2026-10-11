@@ -2,8 +2,14 @@
 title: "Record b45a9ea535 · Verifying-Rust-cryptography-in-SymCrypt-from-standa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.504324+00:00
+updated_at: 2026-10-11T00:55:50.342712+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Microsoft Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/verifying-rust-cryptography-in-symcrypt-from-standards-to-code/"
+kind: "발표물"
 ---
 
 # Record b45a9ea535 · Verifying-Rust-cryptography-in-SymCrypt-from-standa
@@ -16,7 +22,3 @@ Verifying Rust cryptography in SymCrypt, from standards to code
 Cryptographic code supports vital protections in modern computing systems. Learn how a new method helps verify code as developers write it while preserving speed and adaptability as it gets implemented and evolves. The post Verifying Rust cryptography in SymCrypt, from standards to code appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

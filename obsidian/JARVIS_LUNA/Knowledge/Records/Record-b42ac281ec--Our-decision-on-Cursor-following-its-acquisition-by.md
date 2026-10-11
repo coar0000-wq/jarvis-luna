@@ -2,8 +2,14 @@
 title: "Record b42ac281ec · Our-decision-on-Cursor-following-its-acquisition-by"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.647343+00:00
+updated_at: 2026-10-11T00:55:37.607161+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+kind: "발표물"
 ---
 
 # Record b42ac281ec · Our-decision-on-Cursor-following-its-acquisition-by
@@ -16,7 +22,3 @@ Our decision on Cursor following its acquisition by SpaceX
 Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

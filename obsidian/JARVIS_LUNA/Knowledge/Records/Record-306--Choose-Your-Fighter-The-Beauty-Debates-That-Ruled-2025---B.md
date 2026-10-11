@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.289446+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE5SOUFyQWtjdi1OSnhCTUc5cS1iaWhKNzNrbmdfX3JkN0I4anZSVmVfNmJMcG5JVzRfLXVFOGdFbTNrcmd6TXotelBhSDQzb3BDM3BVazJiV2VMVDdjWlFxMjFfd29rdWZYM1lXMHZ0MUNNQQ?oc=5"
 ---
 
 # Record 306 · Choose-Your-Fighter-The-Beauty-Debates-That-Ruled-2025---Bustle
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Choose Your Fighter: The Beauty Debates That Ruled 2025 - Bustle
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:08.010521+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=cazSVlE5_OI"
 ---
 
 # Record 2377 · Reacting-to-EJAE-Audrey--Rei-Amis-Skin-Care-Routines
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Reacting to EJAE, Audrey, & Rei Ami's Skin Care Routines!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

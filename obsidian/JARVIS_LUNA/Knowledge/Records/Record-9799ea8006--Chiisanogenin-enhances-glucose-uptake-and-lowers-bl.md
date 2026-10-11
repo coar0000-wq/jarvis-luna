@@ -2,8 +2,14 @@
 title: "Record 9799ea8006 · Chiisanogenin-enhances-glucose-uptake-and-lowers-bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.292410+00:00
+updated_at: 2026-10-11T00:55:16.213973+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.biopha.2025.118281"
+kind: "논문"
 ---
 
 # Record 9799ea8006 · Chiisanogenin-enhances-glucose-uptake-and-lowers-bl
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Chiisanogenin enhances glucose uptake and lowers blood glucose via insulin signaling activation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record eac1673fe3 · Groupwise-Selective-State-Space-Filtering-for-Accurate-and-Streaming-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.852379+00:00
+updated_at: 2026-10-11T00:55:25.133018+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.33400"
 ---
 
 # Record eac1673fe3 · Groupwise-Selective-State-Space-Filtering-for-Accurate-and-Streaming-A
@@ -16,7 +20,3 @@ Groupwise Selective State-Space Filtering for Accurate and Streaming Action Boun
 Action boundary detection partitions untrimmed video into intervals without assigning action classes. We present a boundary-detection adapter operating on pre-extracted video features, learning temporal representations via groupwise selective scans. Learned group fusion and temporal modeling convert these into transition scores, which are decoded into boundary timestamps. Trained with boundary-tim
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

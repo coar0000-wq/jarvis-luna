@@ -2,8 +2,12 @@
 title: "Record 5e628f5345 · Neutrogena-Makeup-Remover-Micellar-Wipes-2-Pack-of-25-Ct--Plant-Based-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.163943+00:00
+updated_at: 2026-10-11T00:55:45.488978+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Neutrogena-Makeup-Remover-Micellar-Wipes/dp/B00U2VQZDS/ref=zg_bs_g_beauty_d_sccl_6/144-2162321-0004104"
 ---
 
 # Record 5e628f5345 · Neutrogena-Makeup-Remover-Micellar-Wipes-2-Pack-of-25-Ct--Plant-Based-
@@ -16,7 +20,3 @@ Neutrogena Makeup Remover Micellar Wipes, 2 Pack of 25 Ct | Plant-Based Micellar
 Neutrogena Makeup Remover Micellar Wipes, 2 Pack of 25 Ct | Plant-Based Micellar Water Cleansing Cloths, Gently Removes Oil, Dirt & Waterproof Makeup, No Heavy Residue, Alcohol-Free · $9.97 · 평점 4.8 · 리뷰 121,937
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 3530575706 · Model-Hardware-Standard-Research-Preview"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.392331+00:00
+updated_at: 2026-10-11T00:55:48.320729+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+kind: "발표물"
 ---
 
 # Record 3530575706 · Model-Hardware-Standard-Research-Preview
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Model Hardware Standard Research Preview
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

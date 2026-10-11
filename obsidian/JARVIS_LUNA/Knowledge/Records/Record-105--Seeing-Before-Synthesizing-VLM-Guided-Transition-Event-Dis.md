@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.804063+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04183v1"
 ---
 
 # Record 105 · Seeing-Before-Synthesizing-VLM-Guided-Transition-Event-Discovery-for-W
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

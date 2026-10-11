@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.357580+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "의료바이오", "투자은행금융"]
+org: "Goldman-Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.19673133"
 ---
 
 # Record 634 · Agent-Brain-A-Biologically-Inspired-Memory-System-for-Autonomous-AI-Ag
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents, with Head-to-Head Evaluation on LongMemEval
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[의료바이오]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

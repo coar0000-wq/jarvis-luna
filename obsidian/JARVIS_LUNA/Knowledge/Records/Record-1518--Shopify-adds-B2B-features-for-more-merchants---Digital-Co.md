@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.668507+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc1RwMWl3cFRCdkNlekdTdl85bUZrUUFWTG4yd1VmNnZFa3gwNUFiSFpCbGR1cVBvR1Q5ZHdOblQtb1hyVzQwRnZiZDIxZkNKakQzX1g4SkpqVnc1UWl5US1IUTF4eTJYTEFGdDZZdzlUZ0NENDh0dEJyZTNRbFM5eHlEWVdVRXhpSmloSzRMa9IBlAFBVV95cUxQV09pMmpBQlZTRWUzQ3Y3VnZhVlAzUUpMTDNvVlZBS0tPQU5qUF9XSXFlZ1N3Rmpsamd2Rl9LWmhtV0plclRyQlBrakRpYVEyMnRRRF9kdTBnSmN3ZnlEQ2I0S3lTVVpQZnNqMHlEdFRFSHFlZWpNRGZPQnU0V0Z1TWxZeEVVWVBCYnd5WkF4Y3B5a0t4?oc=5"
 ---
 
 # Record 1518 · Shopify-adds-B2B-features-for-more-merchants---Digital-Commerce-360
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify adds B2B features for more merchants - Digital Commerce 360
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

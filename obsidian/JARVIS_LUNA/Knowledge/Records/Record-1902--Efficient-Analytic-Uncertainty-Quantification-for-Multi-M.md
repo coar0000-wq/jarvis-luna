@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.898144+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7166252570"
 ---
 
 # Record 1902 · Efficient-Analytic-Uncertainty-Quantification-for-Multi-Modal-Regressi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Efficient Analytic Uncertainty Quantification for Multi-Modal Regression
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

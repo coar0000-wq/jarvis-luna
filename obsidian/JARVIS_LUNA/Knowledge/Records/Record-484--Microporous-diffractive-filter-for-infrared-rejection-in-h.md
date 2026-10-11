@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.011407+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1364/oe.608226"
 ---
 
 # Record 484 · Microporous-diffractive-filter-for-infrared-rejection-in-high-harmonic
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Microporous diffractive filter for infrared rejection in high-harmonic generation setups
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

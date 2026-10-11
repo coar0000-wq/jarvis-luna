@@ -2,8 +2,12 @@
 title: "Record be7ad314c7 · Beyond-In-Distribution-Metrics-A-Systematic-Out-of-Distribution-Evalua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.112023+00:00
+updated_at: 2026-10-11T00:55:13.752212+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.17068"
 ---
 
 # Record be7ad314c7 · Beyond-In-Distribution-Metrics-A-Systematic-Out-of-Distribution-Evalua
@@ -16,7 +20,3 @@ Beyond In-Distribution Metrics: A Systematic Out-of-Distribution Evaluation of C
 Congenital heart disease (CHD) diagnosis and surgical planning often require patient-specific 3D anatomical models, but manual segmentation is labor-intensive, particularly in complex anatomies. Although deep-learning methods can automate this process, they are typically evaluated in-distribution, despite clinically relevant shifts in scanner, protocol, institution, population, and imaging modalit
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record fd45402085 · Olivia-Dean-I-Really-Expected-More-From-You"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.739072+00:00
+updated_at: 2026-10-11T00:55:54.646714+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qiJ0qGtBGN0"
 ---
 
 # Record fd45402085 · Olivia-Dean-I-Really-Expected-More-From-You
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olivia Dean, I Really Expected More From You :/
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

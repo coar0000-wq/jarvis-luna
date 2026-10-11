@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.632224+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaDFRSFV5ZjRrQ1RmMVVSVGtwOG5RZ1VFUl9JS3R1aW5ZcW1PUXMtalgzSlR6ajI1NHh1YWRJZ29fZHlQdWRmbjYxS3JzRkNoSjZkSDBneUhISjBRd1ZPR2JWZ1hmZGpvZ25GMGpWRUxlb0lJcF9ReW81MGNySzlGa2J5NGJUVkRicFBYNkItbEk?oc=5"
 ---
 
 # Record 1684 · Natural-Botox-TikTok-trend-DIY-anti-age-skin-hacks---nss-G-Club
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Natural Botox TikTok trend: DIY anti-age skin hacks - nss G-Club
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record cf72cb34b2 · AI-Customer-Insights-How-To-Use-Them-in-Your-Busine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.184342+00:00
+updated_at: 2026-10-11T00:55:29.981837+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpZGZlamJwR3MydUZMTEwzVFFpWDRKQ0VlYTNaeU83dXYyUHF5V2JUYkEwd1p0UWlnR2pVLU9pejRTc2p2RjZrWUN0SmRXUHdLZVpyeGZmdlJ5M0NVN3RWRkNR?oc=5"
 ---
 
 # Record cf72cb34b2 · AI-Customer-Insights-How-To-Use-Them-in-Your-Busine
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Customer Insights: How To Use Them in Your Business - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

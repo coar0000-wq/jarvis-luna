@@ -2,8 +2,12 @@
 title: "Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.952597+00:00
+updated_at: 2026-10-11T00:55:11.893350+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04429v1"
 ---
 
 # Record cfa3417c31 · Waves-on-the-Walls-Empirical-Characterization-of-mm
@@ -16,7 +20,3 @@ Waves on the Walls: Empirical Characterization of mmWave Lateral Waves for Enhan
 High-frequency millimeter-wave (mmWave) communication systems are constrained by the surrounding environment, where walls are traditionally treated as obstacles that block or reflect signals indoors. Consequently, current beamforming strategies are tailored to circumvent these obstructions. In this paper, a paradigm shift is introduced that leverages lateral wave propagation along building interfa
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T19:18:43.633289+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=mO2Im_GCQnM"
 ---
 
 # Record 2503 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products---including-new-Tone
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ELIXIR Day Care Revolution Review | ALL 6 products - including *new* Tone-up Beige
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

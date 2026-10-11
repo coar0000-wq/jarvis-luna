@@ -2,8 +2,14 @@
 title: "Record c08402b8f2 · Barclays-scales-Claude-to-upgrade-operations-and-improve-client-experi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.361736+00:00
+updated_at: 2026-10-11T00:55:47.994288+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/barclays-scales-claude"
+kind: "발표물"
 ---
 
 # Record c08402b8f2 · Barclays-scales-Claude-to-upgrade-operations-and-improve-client-experi
@@ -16,7 +22,3 @@ Barclays scales Claude to upgrade operations and improve client experience
 Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

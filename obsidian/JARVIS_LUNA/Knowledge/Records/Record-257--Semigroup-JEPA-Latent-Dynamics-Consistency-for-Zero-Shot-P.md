@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.798408+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10464v1"
 ---
 
 # Record 257 · Semigroup-JEPA-Latent-Dynamics-Consistency-for-Zero-Shot-Physics-Gener
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[과학수학]] [[JARVIS Real Knowledge Index]]

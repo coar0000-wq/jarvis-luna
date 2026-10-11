@@ -2,8 +2,12 @@
 title: "Record 1723b5814f · Learning-to-build-covering-structures-with-continuo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.994019+00:00
+updated_at: 2026-10-11T00:55:12.373287+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08669v1"
 ---
 
 # Record 1723b5814f · Learning-to-build-covering-structures-with-continuo
@@ -16,7 +20,3 @@ Learning to build covering structures with continuous adjustments
 Robotic construction offers the potential to use materials more efficiently and create complex geometries, but current methods rely on rigid, high-precision plans that cannot accommodate the tolerances, inaccuracies, and unexpected changes inherent in physical fabrication. In this work, we introduce a reinforcement learning approach that forgoes predefined plans entirely, instead generating constr
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

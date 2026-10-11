@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.798633+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10494v1"
 ---
 
 # Record 258 · IBIB-A-Protocol-for-Measuring-Enterprise-AI-Systems-by-Serving-Route-N
@@ -15,7 +19,3 @@ tags: [record, real-data]
 IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

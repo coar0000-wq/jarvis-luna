@@ -2,8 +2,14 @@
 title: "Record 39b901174b · Introducing-Grok-47"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.744961+00:00
+updated_at: 2026-10-11T00:55:54.768428+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-7"
+kind: "발표물"
 ---
 
 # Record 39b901174b · Introducing-Grok-47
@@ -16,7 +22,3 @@ Introducing Grok 4.7
 SpaceXAI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

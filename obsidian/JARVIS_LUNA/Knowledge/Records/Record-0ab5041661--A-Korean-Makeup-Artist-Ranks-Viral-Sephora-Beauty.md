@@ -2,8 +2,12 @@
 title: "Record 0ab5041661 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.715489+00:00
+updated_at: 2026-10-11T00:55:54.188901+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=5nEpjCKIQTM"
 ---
 
 # Record 0ab5041661 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 A Korean Makeup Artist Ranks Viral Sephora Beauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

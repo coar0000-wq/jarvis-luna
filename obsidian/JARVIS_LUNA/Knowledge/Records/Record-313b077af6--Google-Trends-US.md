@@ -2,8 +2,12 @@
 title: "Record 313b077af6 · Google-Trends-US"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.758457+00:00
+updated_at: 2026-10-11T00:55:39.545754+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "trends.google.com"
+url: "https://trends.google.com/trends/explore?geo=US"
 ---
 
 # Record 313b077af6 · Google-Trends-US
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Google Trends US
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

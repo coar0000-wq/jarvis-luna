@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.055158+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/LYWRdmWm0ro"
 ---
 
 # Record 588 · ISTP-특징--대충-사는데-뭔가-잘-풀림-istp-istp특징
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 ISTP 특징 : 대충 사는데 뭔가 잘 풀림(?) #istp #istp특징
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

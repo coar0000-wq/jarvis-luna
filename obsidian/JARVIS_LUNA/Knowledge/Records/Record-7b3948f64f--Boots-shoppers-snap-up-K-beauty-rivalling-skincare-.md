@@ -2,8 +2,12 @@
 title: "Record 7b3948f64f · Boots-shoppers-snap-up-K-beauty-rivalling-skincare-gift-set-reduced-fr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.416974+00:00
+updated_at: 2026-10-11T00:55:34.100497+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUpYbU9tTzNJN3c3MUJqYWRHLUpTWW8xUUhqSUtKOEg2YmFuZk50MkdFbmliZXhBTHZGd3ZENW1XejZUckp2N0gwX3NselljZm1NSlJ6SlJtRHFvV2xKM3hsTVVIamZNVXBubXE4X0hBR1dLdjE1WmFkbzQzdUZBbXlnOEk1UjJ6QjJLcWN2VWtMZWVNVnfSAZsBQVVfeXFMTl9uV3lCR2FwNkwxQ1JwN05jNzRRSnRQb3FhM01pOUN0NVlHelUxeVFTSGhKN0pQbVdxNXhSMURYQ09zMjE5WUF4R2phVHhXVkFMTlY5WTg4SGhfR195bEJVXzQxTDRob3BXT1NDZV9zeWphMVUzbFRkYjNfSWxCazhRdmlWMnpHSzFJZ3gzVmtoVnhORVlyOFZtMEU?oc=5"
 ---
 
 # Record 7b3948f64f · Boots-shoppers-snap-up-K-beauty-rivalling-skincare-gift-set-reduced-fr
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Boots shoppers snap up K-beauty rivalling skincare gift set reduced from £70 to £35 - Manchester Evening News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:52:06.322540+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=UosqlC_fFRk"
 ---
 
 # Record 825 · Claude-AI--Digital-Products--39411-WTF-It-Actually-Worked
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Claude AI + Digital Products = $39,411 (WTF, It Actually Worked)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

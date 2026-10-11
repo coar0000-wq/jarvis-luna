@@ -2,8 +2,12 @@
 title: "Record d3a006edef · 4colors-CLIO-Sharp-So-Simple-Waterproof-Pencil-Liner-0004-oz014g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.838678+00:00
+updated_at: 2026-10-11T00:55:40.855004+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA72370831"
 ---
 
 # Record d3a006edef · 4colors-CLIO-Sharp-So-Simple-Waterproof-Pencil-Liner-0004-oz014g
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [4colors] CLIO Sharp, So Simple Waterproof Pencil Liner 0.004 oz.(0.14g) · 평점 4.2 · 리뷰 9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

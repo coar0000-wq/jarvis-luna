@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.409748+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=klmEkOZB9Uw"
 ---
 
 # Record 723 · Day-In-The-Life-Of-A-Multi-Millionaire-In-Buenos-Aires
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Day In The Life Of A Multi-Millionaire In Buenos Aires
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Loo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.964739+00:00
+updated_at: 2026-10-11T00:55:12.038014+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05156v1"
 ---
 
 # Record 2f5a4f8aaf · Locational-Marginal-Pricing-for-Adaptive-Robust-Loo
@@ -16,7 +20,3 @@ Locational Marginal Pricing for Adaptive Robust Look-Ahead Dispatch with Casual 
 This paper develops a marginal pricing mechanism for adaptive robust look-ahead economic dispatch (LAED) under net-load uncertainty. In current market practice, deterministic multi-interval dispatch can misprice flexibility when forecast error is large. Fully adaptive robust (FAR) dispatch captures this uncertainty, but competing worst-case trajectories can imply different marginal values of deman
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[JARVIS Real Knowledge Index]]

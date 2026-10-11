@@ -2,8 +2,14 @@
 title: "Record 01020ecae3 · Amortizing-the-Calibration-Triple-A-Projection-Cons"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.705814+00:00
+updated_at: 2026-10-11T00:55:38.692921+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Barclays"
+domain: "openalex.org"
+url: "https://openalex.org/W7172559232"
+kind: "논문"
 ---
 
 # Record 01020ecae3 · Amortizing-the-Calibration-Triple-A-Projection-Cons
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Amortizing the Calibration Triple: A Projection-Consistent Neural Operator for Local-Stochastic Volatility
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

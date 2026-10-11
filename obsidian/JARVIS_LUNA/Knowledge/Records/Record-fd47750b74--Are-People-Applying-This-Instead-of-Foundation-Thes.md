@@ -2,8 +2,12 @@
 title: "Record fd47750b74 · Are-People-Applying-This-Instead-of-Foundation-Thes"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.328138+00:00
+updated_at: 2026-10-11T00:55:32.542892+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUVZBcjNPd1BIeWhLcFF6dnVSdk94aERJR3R5Ykd1WnZKNTREemttS2JwUnM5UGZDV0tVcWVTNnQ3eUJMZFBuVGNPWGMwdmhwUTdvaVZIWDJxa0lvRU92V3FNX2RVdXBWakRQdGlPT2tuNEl0cmQ1X1pPVFVrX3BwMVd3?oc=5"
 ---
 
 # Record fd47750b74 · Are-People-Applying-This-Instead-of-Foundation-Thes
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Are People Applying This Instead of Foundation These Days? BB Cream Is Back, but It Has Changed - sportschosun.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

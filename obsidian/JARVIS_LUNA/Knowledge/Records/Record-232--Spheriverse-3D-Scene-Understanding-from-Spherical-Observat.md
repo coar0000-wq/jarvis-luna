@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.375332+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09012v1"
 ---
 
 # Record 232 · Spheriverse-3D-Scene-Understanding-from-Spherical-Observations-in-the-
@@ -16,7 +20,3 @@ Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild
 Spherical observations provide global visual context for 3D scene understanding. However, visual information is encoded in an angular domain, whereas the physical world is represented in Cartesian coordinates. This cross-space representation gap complicates geometric correspondence and semantic evidence aggregation. To delve into this challenge, we introduce Spheriverse, comprising $64,400$ tempor
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 714d62fb5d · The-investor-base-for-sovereign-debt-Why-diversific"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.594379+00:00
+updated_at: 2026-10-11T00:55:21.378876+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.34989/sap-2026-29"
+kind: "논문"
 ---
 
 # Record 714d62fb5d · The-investor-base-for-sovereign-debt-Why-diversific
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The investor base for sovereign debt: Why diversification matters
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

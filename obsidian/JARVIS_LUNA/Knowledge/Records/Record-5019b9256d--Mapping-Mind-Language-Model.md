@@ -2,8 +2,14 @@
 title: "Record 5019b9256d · Mapping-Mind-Language-Model"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.398103+00:00
+updated_at: 2026-10-11T00:55:48.418513+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/mapping-mind-language-model"
+kind: "발표물"
 ---
 
 # Record 5019b9256d · Mapping-Mind-Language-Model
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mapping Mind Language Model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

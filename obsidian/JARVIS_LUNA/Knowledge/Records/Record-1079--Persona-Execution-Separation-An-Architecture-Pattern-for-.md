@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.987348+00:00
 tags: [knowledge-graph, record, arxiv]
+source: "arXiv"
+topics: ["AI-Agents"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27427v1"
 ---
 
 # Record 1079 · Persona-Execution-Separation-An-Architecture-Pattern-for-Evolving-LLM-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, arxiv]
 Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

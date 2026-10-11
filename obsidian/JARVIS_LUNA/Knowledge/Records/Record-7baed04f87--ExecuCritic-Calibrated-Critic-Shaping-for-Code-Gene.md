@@ -2,8 +2,14 @@
 title: "Record 7baed04f87 · ExecuCritic-Calibrated-Critic-Shaping-for-Code-Generation-with-Verifia"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.685897+00:00
+updated_at: 2026-10-11T00:55:23.037166+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.16604"
+kind: "논문"
 ---
 
 # Record 7baed04f87 · ExecuCritic-Calibrated-Critic-Shaping-for-Code-Generation-with-Verifia
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ExecuCritic: Calibrated Critic Shaping for Code Generation with Verifiable Rewards
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

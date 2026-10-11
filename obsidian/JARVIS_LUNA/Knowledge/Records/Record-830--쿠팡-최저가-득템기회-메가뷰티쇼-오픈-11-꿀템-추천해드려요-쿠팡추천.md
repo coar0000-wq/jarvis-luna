@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.958627+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/DNrWpK3pbEQ"
 ---
 
 # Record 830 · 쿠팡-최저가-득템기회-메가뷰티쇼-오픈-11-꿀템-추천해드려요-쿠팡추천
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 쿠팡 최저가 득템기회 메가뷰티쇼 오픈🎉🌟 1+1 꿀템 추천해드려요 #쿠팡추천
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

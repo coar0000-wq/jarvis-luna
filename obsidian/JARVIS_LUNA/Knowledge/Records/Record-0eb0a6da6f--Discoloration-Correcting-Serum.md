@@ -2,8 +2,12 @@
 title: "Record 0eb0a6da6f · Discoloration-Correcting-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.630876+00:00
+updated_at: 2026-10-11T00:55:52.597246+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/discoloration-correcting-serum-pimprod2023928"
 ---
 
 # Record 0eb0a6da6f · Discoloration-Correcting-Serum
@@ -16,7 +20,3 @@ Discoloration Correcting Serum
 Discoloration Correcting Serum · Good Molecules · $9.6
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

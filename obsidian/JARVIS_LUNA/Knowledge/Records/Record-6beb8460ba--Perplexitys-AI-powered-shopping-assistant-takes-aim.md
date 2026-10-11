@@ -2,8 +2,12 @@
 title: "Record 6beb8460ba · Perplexitys-AI-powered-shopping-assistant-takes-aim"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.528330+00:00
+updated_at: 2026-10-11T00:55:36.049617+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb0xYUzN1ZXFyQXRodFo0MVNPU1NkRF8tUEgtRTkySW1sSnlFWWw4em1wWlNkQW9rWURpdGhwYWY0cVQySGxNSHhTR3hQWWZZRzdwRGRTMzY4c1c3Q01KbzViNVppM2JZWHVZeXNIRjFFUmlWWDNFVF9NZjl5RG5ocWp5dFppeTBBU0ViZ0NSejAybXNuZ1hiN0dtY09waGtUdm9kLXpyQjlIUUl3T3FtSUZoZXgtWnYw?oc=5"
 ---
 
 # Record 6beb8460ba · Perplexitys-AI-powered-shopping-assistant-takes-aim
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Perplexity’s AI-powered shopping assistant takes aim at Amazon and Google Shopping - Modern Retail
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

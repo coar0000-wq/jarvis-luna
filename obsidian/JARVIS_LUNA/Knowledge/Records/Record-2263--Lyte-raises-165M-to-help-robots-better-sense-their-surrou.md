@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.717555+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/"
 ---
 
 # Record 2263 · Lyte-raises-165M-to-help-robots-better-sense-their-surroundings
@@ -16,7 +20,3 @@ Lyte raises $165M to help robots better sense their surroundings
 <p>Lyte AI plans to use its second round of funding this year to scale production of its AI and perception capabilities.</p> <p>The post <a href="https://www.therobotreport.com/lyte-raises-165m-help-robots-better-sense-their-surroundings/">Lyte raises $165M to help robots better sense their surroundings</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

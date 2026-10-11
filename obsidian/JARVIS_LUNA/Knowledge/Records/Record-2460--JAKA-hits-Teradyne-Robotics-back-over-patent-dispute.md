@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.339656+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["법률규제", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/"
 ---
 
 # Record 2460 · JAKA-hits-Teradyne-Robotics-back-over-patent-dispute
@@ -16,7 +20,3 @@ JAKA hits Teradyne Robotics back over patent dispute
 <p>JAKA is now taking legal action against Teradyne Robotics to end public dissemination of statements it considers "false, misleading and damaging."</p> <p>The post <a href="https://www.therobotreport.com/jaka-hits-teradyne-robotics-back-over-patent-dispute/">JAKA hits Teradyne Robotics back over patent dispute</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[법률규제]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

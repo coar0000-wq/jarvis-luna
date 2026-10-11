@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:39.109468+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=B9VtN97EDuQ"
 ---
 
 # Record 2272 · 나이아신아마이드-3탄-함량이-높을수록-무조건-효과도-좋아질까-피부-고민별-제품-추천과-효능-정리이렇게-쓰셔야-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ❗️나이아신아마이드 3탄❗️🎉 함량이 높을수록 무조건 효과도 좋아질까? 피부 고민별 제품 추천과 효능 정리❗️이렇게 쓰셔야 제대로 효과 볼 수 있습니다.
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

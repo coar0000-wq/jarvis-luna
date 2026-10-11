@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.202375+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaVNfOXM4S0dzT0Z5dnJZLXZwZHR4bHM0MlFuUnBLdEJfU21ta0xScWRoeE01bmNjSVljNlpWZnVlZUw1Ykt2YVJGeHZTYTdXRWJnc2ZXUVRzWGNwQW42blpjbkEtYTdQNkRhaDVoWGtNYzUydUt5WVI0WEt1UUhkWjJ0YlM?oc=5"
 ---
 
 # Record 1294 · Kikay-Is-Backand-It-Signals-a-New-Era-of-Unapologetic-Girlhood---previ
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "Kikay" Is Back—and It Signals a New Era of Unapologetic Girlhood - preview.ph
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record c426f45b14 · Bayesian-Tensor-Autoencoder-with-Physics-informed-Predictive-Prior-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.212290+00:00
+updated_at: 2026-10-11T00:55:15.033121+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.31157"
 ---
 
 # Record c426f45b14 · Bayesian-Tensor-Autoencoder-with-Physics-informed-Predictive-Prior-for
@@ -16,7 +20,3 @@ Bayesian Tensor Autoencoder with Physics-informed Predictive Prior for Multi-dim
 Multi-dimensional time series, inherently tensorial, are common in practice. Despite great progress in time series anomaly detection, most existing methods are confined to uni-/multi-variate time series. When handling multi-dimensional time series using these methods, reshaping operations are required, which inevitably break the intrinsic correlations and thus lead to performance degradation. In u
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[과학수학]] [[JARVIS Real Knowledge Index]]

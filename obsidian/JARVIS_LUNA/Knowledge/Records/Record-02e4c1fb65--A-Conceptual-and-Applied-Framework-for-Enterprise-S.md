@@ -2,8 +2,14 @@
 title: "Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.986037+00:00
+updated_at: 2026-10-11T00:55:27.015692+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.56201/ijssmr.vol.12no2.2026.pg124.143"
+kind: "논문"
 ---
 
 # Record 02e4c1fb65 · A-Conceptual-and-Applied-Framework-for-Enterprise-S
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Conceptual and Applied Framework for Enterprise ServiceNow Program Design, Governance, And Scalable Delivery Across Organizations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

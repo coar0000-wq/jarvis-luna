@@ -2,8 +2,12 @@
 title: "Record 3846dc54f0 · Intelligent-Fault-and-Lightning-Detection-Algorithm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.007183+00:00
+updated_at: 2026-10-11T00:55:12.508528+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09000v1"
 ---
 
 # Record 3846dc54f0 · Intelligent-Fault-and-Lightning-Detection-Algorithm
@@ -16,7 +20,3 @@ Intelligent Fault and Lightning Detection Algorithm for VSC-MTDC grids based on 
 To address the existing challenges in fault detection for voltage source converter-based multi-terminal DC (VSC-MTDC) grids, this paper proposes an intelligent fault and lightning detection algorithm based on S transform and Residual Network with hybrid attention mechanism (RWHAM).The DC line double-ended initial current traveling waves (ICTWs) are first converted into time-frequency matrices by p
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

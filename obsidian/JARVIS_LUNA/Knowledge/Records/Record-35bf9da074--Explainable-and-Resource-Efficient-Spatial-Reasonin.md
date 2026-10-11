@@ -2,8 +2,14 @@
 title: "Record 35bf9da074 · Explainable-and-Resource-Efficient-Spatial-Reasonin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.704173+00:00
+updated_at: 2026-10-11T00:55:38.668374+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Intel"
+domain: "openalex.org"
+url: "https://openalex.org/W7172068670"
+kind: "논문"
 ---
 
 # Record 35bf9da074 · Explainable-and-Resource-Efficient-Spatial-Reasonin
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Explainable and Resource-Efficient Spatial Reasoning in Multimodal LLMs for Decision-Critical Applications
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

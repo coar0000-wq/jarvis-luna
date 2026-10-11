@@ -2,8 +2,12 @@
 title: "Record a86f0081cd · K-beauty-clinics-drugstores-gear-up-for-Golden-Week-as-Chinese-spendin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.247596+00:00
+updated_at: 2026-10-11T00:55:31.103152+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WWTV3RE15TTc0V2EyVmxnX2RWYUdvRV9iZ0xNU29YZ0RfM0lTSFZES210bzZLU1NWbnJPaVh2LS1MVEE3bjFXNjdXcnNpTnhTU24tSmpqcDRZXzU5WWR5NVBvU19yOENEWU84U253ZWp0ZlU?oc=5"
 ---
 
 # Record a86f0081cd · K-beauty-clinics-drugstores-gear-up-for-Golden-Week-as-Chinese-spendin
@@ -16,7 +20,3 @@ K-beauty clinics, drugstores gear up for Golden Week as Chinese spending tops $2
 K-beauty clinics, drugstores gear up for Golden Week as Chinese spending tops $270 mn - KED Global
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

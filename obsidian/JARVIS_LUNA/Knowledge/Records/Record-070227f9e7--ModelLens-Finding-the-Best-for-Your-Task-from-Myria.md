@@ -2,8 +2,14 @@
 title: "Record 070227f9e7 · ModelLens-Finding-the-Best-for-Your-Task-from-Myria"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.674469+00:00
+updated_at: 2026-10-11T00:55:38.054513+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7160968250"
+kind: "논문"
 ---
 
 # Record 070227f9e7 · ModelLens-Finding-the-Best-for-Your-Task-from-Myria
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ModelLens: Finding the Best for Your Task from Myriads of Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

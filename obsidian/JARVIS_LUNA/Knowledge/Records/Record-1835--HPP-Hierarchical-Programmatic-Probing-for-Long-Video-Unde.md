@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.989468+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7165816020"
 ---
 
 # Record 1835 · HPP-Hierarchical-Programmatic-Probing-for-Long-Video-Understanding-by-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 HPP: Hierarchical Programmatic Probing for Long Video Understanding by Decoupling Perception and Reasoning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

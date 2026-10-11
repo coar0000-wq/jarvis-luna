@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.084268+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.csbj.2023.12.045"
 ---
 
 # Record 236 · Assessing-the-effect-of-selective-serotonin-reuptake-inhibitors-in-the
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Assessing the effect of selective serotonin reuptake inhibitors in the prevention of post-acute sequelae of COVID-19
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

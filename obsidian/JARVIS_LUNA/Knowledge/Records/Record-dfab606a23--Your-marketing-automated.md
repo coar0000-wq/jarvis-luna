@@ -2,8 +2,12 @@
 title: "Record dfab606a23 · Your-marketing-automated"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.763425+00:00
+updated_at: 2026-10-11T00:55:55.017526+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Xv3_zFQnmAY"
 ---
 
 # Record dfab606a23 · Your-marketing-automated
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Your marketing, automated
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

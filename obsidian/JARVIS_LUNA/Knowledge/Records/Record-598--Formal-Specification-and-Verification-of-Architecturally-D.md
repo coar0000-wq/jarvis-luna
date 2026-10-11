@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.443340+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1109/access.2023.3346501"
 ---
 
 # Record 598 · Formal-Specification-and-Verification-of-Architecturally-Defined-Attes
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Formal Specification and Verification of Architecturally-Defined Attestation Mechanisms in Arm CCA and Intel TDX
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

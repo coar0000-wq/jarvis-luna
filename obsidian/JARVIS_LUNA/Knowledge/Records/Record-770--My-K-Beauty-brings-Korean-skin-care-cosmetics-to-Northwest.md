@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.951953+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVlVMMVJ5VlY1VXczdGgyaGhMeUNhd0cxRDVzR2VEdzRIQkFzdW1jQ0Z6TTJ3Sk5SZmc2X3RDVmIxZW1JMjFnSWNSNG1DX1BGenF6NC1jWWU5clY2Y1I3UklGdkUwSjdGc0NFTEFNb24xb0Y3RkVfOG5ZMkxzblU5Y1R1MV9MUW16UE1kbUZ0eVQ2TS1wSlpFODgzQ3BPVkJCTmJWMzVfMWY1N0xjYzhKS0c2ZHA3TS1HNmJGQg?oc=5"
 ---
 
 # Record 770 · My-K-Beauty-brings-Korean-skin-care-cosmetics-to-Northwest-Austin---Co
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 My K Beauty brings Korean skin care, cosmetics to Northwest Austin - Community Impact
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

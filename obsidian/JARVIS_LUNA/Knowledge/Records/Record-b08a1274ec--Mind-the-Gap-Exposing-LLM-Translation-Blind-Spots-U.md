@@ -2,8 +2,14 @@
 title: "Record b08a1274ec · Mind-the-Gap-Exposing-LLM-Translation-Blind-Spots-Using-the-AlphaMWE-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.669381+00:00
+updated_at: 2026-10-11T00:55:22.794515+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.06634"
+kind: "논문"
 ---
 
 # Record b08a1274ec · Mind-the-Gap-Exposing-LLM-Translation-Blind-Spots-Using-the-AlphaMWE-M
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mind the Gap: Exposing LLM Translation Blind Spots Using the AlphaMWE Multilingual Parallel Corpus
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

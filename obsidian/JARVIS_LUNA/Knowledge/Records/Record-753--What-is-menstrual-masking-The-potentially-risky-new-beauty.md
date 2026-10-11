@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.380549+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYWNmakIzSGRPdHNadVNVZzhQazkwZHdHa3cxdkR5QjJqNW0tQTNDR2tBeTVUUU8tYmgzcVRQUG1MSklrTk5yaWo5S2JXSWNwdkxkNlpQN0hCM1hLcVRtYUhYQW9DUUdtSjVVYTh2bmhyOHpBT2NmWlZHOENvMllVc1JPcUNLdjVyZC15eWE2Tm9fb0k1MTRXZ0ZoaDJOdGNlT1lwSGg4akV4VTBBT0ZRQ1lYZ3ZlQnM3QzczVkZOOA?oc=5"
 ---
 
 # Record 753 · What-is-menstrual-masking-The-potentially-risky-new-beauty-trend---ind
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 What is menstrual masking? The potentially risky new beauty trend - independent.co.uk
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

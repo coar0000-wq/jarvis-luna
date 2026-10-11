@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.748764+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/070/uk-businesses-see-defence-investment-plan-as-catalyst-for-growth/"
 ---
 
 # Record 932 · Uk-Businesses-See-Defence-Investment-Plan-As-Catalyst-For-Growth
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Uk Businesses See Defence Investment Plan As Catalyst For Growth
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.826161+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/claude-science-ai-workbench"
 ---
 
 # Record 2311 · Claude-Science-an-AI-workbench-for-scientists
@@ -16,7 +21,3 @@ Claude Science, an AI workbench for scientists
 Claude Science integrates the tools researchers use most, produces auditable artifacts, and provides flexible access to computing resources.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

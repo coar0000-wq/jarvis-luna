@@ -2,8 +2,14 @@
 title: "Record e5fe5e0ec3 · Цифровое-сопровождение-клиентов-при-посещении-торговых-центров-стратег"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.608278+00:00
+updated_at: 2026-10-11T00:55:21.628875+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.47576/2949-1886.2025.5.5.028"
+kind: "논문"
 ---
 
 # Record e5fe5e0ec3 · Цифровое-сопровождение-клиентов-при-посещении-торговых-центров-стратег
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Цифровое сопровождение клиентов при посещении торговых центров: стратегия и способы реализации
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record d4d6bdcf99 · Design-and-Implementation-of-a-Blockchain-Enabled-Crowdfunding-Platfor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.984507+00:00
+updated_at: 2026-10-11T00:55:26.988418+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.55041/ijsrem53362"
+kind: "논문"
 ---
 
 # Record d4d6bdcf99 · Design-and-Implementation-of-a-Blockchain-Enabled-Crowdfunding-Platfor
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Design and Implementation of a Blockchain-Enabled Crowdfunding Platform for Secure Transactions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

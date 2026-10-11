@@ -2,8 +2,14 @@
 title: "Record 45e2d8b4a5 · Derivation-of-α-Particle-Masses-and-Cosmological-Parameters-from-11-Di"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.938122+00:00
+updated_at: 2026-10-11T00:55:26.143162+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18771802"
+kind: "논문"
 ---
 
 # Record 45e2d8b4a5 · Derivation-of-α-Particle-Masses-and-Cosmological-Parameters-from-11-Di
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Derivation of α, Particle Masses, and Cosmological Parameters from 11-Dimensional Geometry with Zero Free Parameters (Papers I–VIII)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

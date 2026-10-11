@@ -2,8 +2,12 @@
 title: "Record 6df4686173 · A-Dual-Stream-Regulated-Reconstruction-and-Segmentation-Network-with-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.149233+00:00
+updated_at: 2026-10-11T00:55:14.191698+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["법률규제", "컴퓨터-비전", "과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.20562"
 ---
 
 # Record 6df4686173 · A-Dual-Stream-Regulated-Reconstruction-and-Segmentation-Network-with-H
@@ -16,7 +20,3 @@ A Dual-Stream Regulated Reconstruction and Segmentation Network with Hierarchica
 Automated quality assessment, enhancement, and segmentation of multiple structures in $0.064\,\mathrm{T}$ ultra-low-field pediatric MRI are limited by a low signal-to-noise ratio, weak anatomical boundaries, and frequent artifacts. We present a unified framework for the LISA 2026 Challenge that performs all three tasks together within one inference pipeline. A network with two coupled streams, bui
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[법률규제]] [[컴퓨터-비전]] [[과학수학]] [[JARVIS Real Knowledge Index]]

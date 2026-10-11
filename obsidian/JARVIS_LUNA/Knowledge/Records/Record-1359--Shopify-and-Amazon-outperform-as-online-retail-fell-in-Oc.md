@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.157889+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcHRhYWJmbjFsVmpYc3RQcWVEcnVfTjJmUVlyS21UZUpzWlFXZUItM096bzN4U3dQcHZVam9BYzJpc09jSkI3b3djTmFESWZTNGRWbkI4Rnk2V1VKcVFwVEdjNXFMekV2ZXJyeXFnWUVSSVZfS05Ja1NQdnBKUjFvZXVZYjFfd1Vh0gGOAUFVX3lxTFBuRWloMGhhNUl3UFIxamdvLTdYNnBKSk8zbVY1cUE4MnMtcm4tdlNIekVVbUpqa1hheEExWDRKT1lxTGtFNUllXzVMUkI2aUh2SUgwMHNGVFZlUjMwRjYyRUFCZDF1U0tsU2pZQkJNMVZZNnhoR2NqVGlSZVFTYVF4MEVEeDVWd0VTcDdjV1E?oc=5"
 ---
 
 # Record 1359 · Shopify-and-Amazon-outperform-as-online-retail-fell-in-October-Ecommer
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify and Amazon outperform as online retail fell in October Ecommerce Stock Index results - Digital Commerce 360
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

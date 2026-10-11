@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.073406+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Vb9-z4UGmkU"
 ---
 
 # Record 694 · Claude-AI-Dropshipping-Live-Stream-Im-Revealing-Everything
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Claude AI Dropshipping Live Stream (I’m Revealing Everything)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record f1d537d576 · A-Markov-approach-to-credit-rating-migration-condit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.259077+00:00
+updated_at: 2026-10-11T00:55:15.692002+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1002/cjs.70039"
+kind: "논문"
 ---
 
 # Record f1d537d576 · A-Markov-approach-to-credit-rating-migration-condit
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Markov approach to credit rating migration conditional on economic states
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

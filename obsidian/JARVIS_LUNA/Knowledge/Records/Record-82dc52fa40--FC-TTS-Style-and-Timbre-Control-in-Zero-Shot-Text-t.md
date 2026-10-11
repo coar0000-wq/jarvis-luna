@@ -2,8 +2,14 @@
 title: "Record 82dc52fa40 · FC-TTS-Style-and-Timbre-Control-in-Zero-Shot-Text-to-Speech-with-Disen"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.677921+00:00
+updated_at: 2026-10-11T00:55:38.121406+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["음성오디오", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7162605792"
+kind: "논문"
 ---
 
 # Record 82dc52fa40 · FC-TTS-Style-and-Timbre-Control-in-Zero-Shot-Text-to-Speech-with-Disen
@@ -15,7 +21,3 @@ tags: [record, real-data]
 FC-TTS: Style and Timbre Control in Zero-Shot Text-to-Speech with Disentangled Speech Representations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[음성오디오]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

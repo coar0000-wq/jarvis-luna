@@ -2,8 +2,12 @@
 title: "Record 88a89653a9 · AI-in-Ecommerce-7-Key-Use-Cases-for-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.124672+00:00
+updated_at: 2026-10-11T00:55:28.936401+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oLVhITUtObGhSMC0yckgtQUM4WXVzNUtHQUNVd3Z0a3BWUmtlcVpWb1hnUWxJWUJuRjU5eVAyRGRleGNNTGVmY01meUFwQXAtUzU4?oc=5"
 ---
 
 # Record 88a89653a9 · AI-in-Ecommerce-7-Key-Use-Cases-for-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI in Ecommerce: 7 Key Use Cases for 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

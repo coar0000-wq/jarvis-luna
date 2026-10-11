@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.851384+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "과학수학", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41586-026-10759-2"
 ---
 
 # Record 473 · Reinforcement-learning-control-of-quantum-error-correction
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Reinforcement learning control of quantum error correction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[과학수학]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

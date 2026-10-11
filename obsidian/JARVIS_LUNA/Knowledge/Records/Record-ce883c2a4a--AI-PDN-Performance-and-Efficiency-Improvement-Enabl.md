@@ -2,8 +2,14 @@
 title: "Record ce883c2a4a · AI-PDN-Performance-and-Efficiency-Improvement-Enabled-by-Saras-STILETM"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.605172+00:00
+updated_at: 2026-10-11T00:55:21.576325+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.4071/001c.166924"
+kind: "논문"
 ---
 
 # Record ce883c2a4a · AI-PDN-Performance-and-Efficiency-Improvement-Enabled-by-Saras-STILETM
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AI PDN Performance and Efficiency Improvement Enabled by Saras STILE(TM)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

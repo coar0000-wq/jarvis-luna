@@ -2,8 +2,12 @@
 title: "Record 8833292056 · Policy-Iteration-for-Domain-Randomized-Linear-Quadr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.956429+00:00
+updated_at: 2026-10-11T00:55:11.936958+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04794v1"
 ---
 
 # Record 8833292056 · Policy-Iteration-for-Domain-Randomized-Linear-Quadr
@@ -16,7 +20,3 @@ Policy Iteration for Domain Randomized Linear Quadratic Systems
 In this work, we study policy optimization under domain randomization for linear quadratic control, focusing on learning a single state-feedback controller that minimizes the average cost across systems with uncertain dynamics. We propose a policy iteration algorithm with a step-size rule that preserves stability across all sampled systems at each iteration. We show that the method yields monotoni
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

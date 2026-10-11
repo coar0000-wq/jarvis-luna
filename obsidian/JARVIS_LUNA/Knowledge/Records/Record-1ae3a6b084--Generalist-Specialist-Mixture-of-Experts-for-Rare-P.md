@@ -2,8 +2,12 @@
 title: "Record 1ae3a6b084 · Generalist-Specialist-Mixture-of-Experts-for-Rare-Pathology-Detection-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.130478+00:00
+updated_at: 2026-10-11T00:55:13.970856+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.18688"
 ---
 
 # Record 1ae3a6b084 · Generalist-Specialist-Mixture-of-Experts-for-Rare-Pathology-Detection-
@@ -16,7 +20,3 @@ Generalist-Specialist Mixture-of-Experts for Rare Pathology Detection in Multimo
 AI models for multimodal medical imaging must balance modality-specific specialization with cross-modal shared representations, a trade-off that pure Mixture-of-Experts (MoE) architectures currently fail to satisfy. Expert-based routing improves in-domain learning but may sacrifice cross-modal signals, which appear particularly important for rare (low-prevalence) pathologies in our experiments. To
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 9883e418ed · Digital-Privacy-Trends-Challenges-and-the-Future"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.436726+00:00
+updated_at: 2026-10-11T00:55:18.743199+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1109/mitp.2025.3546433"
+kind: "논문"
 ---
 
 # Record 9883e418ed · Digital-Privacy-Trends-Challenges-and-the-Future
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Digital Privacy: Trends, Challenges, and the Future
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

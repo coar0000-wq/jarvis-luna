@@ -2,8 +2,12 @@
 title: "Record b03dab8660 · TikTok-Says-Its-Time-To-Put-Your-Shell-Back-On-With"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.284470+00:00
+updated_at: 2026-10-11T00:55:31.718822+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Jb3Y5MmRjY2dBTFg3akZvR2ZyUzdqYnJOMHpNSzZnendZMS1qUDlOcHd5M1JqLXhYWndwSTdTUWx3eXBQUTZJWEZTSlk0VUNtM0hmLVItdUdvUW9pYjA0dHZvVXRyOU1ZT2FVc3Y4T0h0WkEyU1M3RQ?oc=5"
 ---
 
 # Record b03dab8660 · TikTok-Says-Its-Time-To-Put-Your-Shell-Back-On-With
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok Says It’s Time To “Put Your Shell Back On” With A Full Self-Care Reset - Bustle
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.662603+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1128/spectrum.00573-26"
 ---
 
 # Record 592 · Long-term-stability-at-80C-of-oral-wash-and-saliva-samples-for-microbi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Long-term stability at −80°C of oral wash and saliva samples for microbiome analyses
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.313095+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd2NuMkpsWWVaandGRE9tNWdhblNjY0I2Q2JxTUtUMlAzT0I5TmhyVTVscXVnSEhSenhRX3VVeXZJeC02dFBHcEFpcFEzeXh5bFdTU050X1luSTI5TGZFM0ZzMkFSTHVfdlprVlRRS2pOdlhNUU9QNlRuQkNNOGJaZjA1bFBYV190VjYwNXZB?oc=5"
 ---
 
 # Record 1404 · I-Spent-6-Weeks-in-KoreaThese-Are-the-K-Beauty-Products-Everyones-Buzz
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Spent 6 Weeks in Korea–These Are the K-Beauty Products Everyone's Buzzing About - Good Housekeeping
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

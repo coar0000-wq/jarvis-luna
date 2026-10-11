@@ -2,8 +2,14 @@
 title: "Record fccaa0c5a6 · Trump-Tariffs-Stock-Market-Crash-How-To-Invest"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.525175+00:00
+updated_at: 2026-10-11T00:55:50.740509+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/trump-tariffs-stock-market-crash-how-to-invest"
+kind: "발표물"
 ---
 
 # Record fccaa0c5a6 · Trump-Tariffs-Stock-Market-Crash-How-To-Invest
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Trump Tariffs Stock Market Crash How To Invest
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

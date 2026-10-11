@@ -2,8 +2,14 @@
 title: "Record f6e0a3b3f5 · Samsung-Introduces-Galaxy-Tab-S12-Series-The-Ultimate-Productivity-Pow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.577015+00:00
+updated_at: 2026-10-11T00:55:36.684662+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-introduces-galaxy-tab-s12-series-the-ultimate-productivity-powerhouse-built-for-growth"
+kind: "발표물"
 ---
 
 # Record f6e0a3b3f5 · Samsung-Introduces-Galaxy-Tab-S12-Series-The-Ultimate-Productivity-Pow
@@ -16,7 +22,3 @@ Samsung Introduces Galaxy Tab S12 Series: The Ultimate Productivity Powerhouse B
 Samsung Electronics today unveiled the Galaxy Tab S12 series — Galaxy Tab S12 Ultra and Tab S12+ — delivering Samsung’s most capable and versatile tablet experience yet. Packing breakthrough performance, long-lasting battery life, and the latest Galaxy AI into Galaxy Tab’s signature ultra-thin design, the new lineup turns complex workflows into effortless, everyday achievements whether […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

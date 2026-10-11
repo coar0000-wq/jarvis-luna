@@ -2,8 +2,12 @@
 title: "Record 01799767bf · Bella-Hadids-Gingham-Headscarf-Carries-Summer-Picnic-Vibes-Into-Fall--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.908234+00:00
+updated_at: 2026-10-11T00:55:42.062083+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/bella-hadid-gingham-headscarf"
 ---
 
 # Record 01799767bf · Bella-Hadids-Gingham-Headscarf-Carries-Summer-Picnic-Vibes-Into-Fall--
@@ -16,7 +20,3 @@ Bella Hadid’s Gingham Headscarf Carries Summer Picnic Vibes Into Fall — See 
 Bella Hadid’s Gingham Headscarf Carries Summer Picnic Vibes Into Fall — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

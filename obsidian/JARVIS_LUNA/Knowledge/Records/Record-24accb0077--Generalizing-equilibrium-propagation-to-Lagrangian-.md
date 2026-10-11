@@ -2,8 +2,14 @@
 title: "Record 24accb0077 · Generalizing-equilibrium-propagation-to-Lagrangian-systems-with-arbitr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.399495+00:00
+updated_at: 2026-10-11T00:55:18.060237+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1088/2634-4386/aeac80"
+kind: "논문"
 ---
 
 # Record 24accb0077 · Generalizing-equilibrium-propagation-to-Lagrangian-systems-with-arbitr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Generalizing equilibrium propagation to Lagrangian systems with arbitrary boundary conditions & equivalence with Hamiltonian echo learning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

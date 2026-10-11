@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.884257+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeTkzZUwtVHo1NnZIeXlweTNTNDRjbFlHOUtOUzNQNGIwbkhnT1lRRlBqeVllZFVwRlFJbHZvbFFaMEZaek9aQ09hMm1IQ0ZVM0RPU3ptUnRGeDlTcnhDZktUMFoyc3Z2X3p5NUMtM2FOODhGaGpFQmtBN0tyT05PaWg2dw?oc=5"
 ---
 
 # Record 462 · Shopifys-AI-Strategy-Analysis-of-Dominance-in-Ecommerce---Kloverai
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Shopify’s AI Strategy: Analysis of Dominance in Ecommerce - Klover.ai
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

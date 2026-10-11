@@ -2,8 +2,12 @@
 title: "Record 14b1ab5191 · Torriden-Cellmazing-Low-Molecular-Collagen-Firming-Gel-Mask-4ct-127-oz"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.849485+00:00
+updated_at: 2026-10-11T00:55:40.963003+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA79357553"
 ---
 
 # Record 14b1ab5191 · Torriden-Cellmazing-Low-Molecular-Collagen-Firming-Gel-Mask-4ct-127-oz
@@ -16,7 +20,3 @@ Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g)
 Torriden Cellmazing Low Molecular Collagen Firming Gel Mask 4ct 1.27 oz.(36g) · 평점 3 · 리뷰 1
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

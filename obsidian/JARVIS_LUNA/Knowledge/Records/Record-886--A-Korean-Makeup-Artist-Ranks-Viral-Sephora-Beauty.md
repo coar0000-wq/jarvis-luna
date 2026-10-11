@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.939046+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=5nEpjCKIQTM"
 ---
 
 # Record 886 · A-Korean-Makeup-Artist-Ranks-Viral-Sephora-Beauty
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 A Korean Makeup Artist Ranks Viral Sephora Beauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

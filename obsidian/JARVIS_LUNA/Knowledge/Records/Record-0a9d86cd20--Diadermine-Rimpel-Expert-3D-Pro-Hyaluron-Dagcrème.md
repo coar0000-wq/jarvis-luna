@@ -2,8 +2,12 @@
 title: "Record 0a9d86cd20 · Diadermine-Rimpel-Expert-3D-Pro-Hyaluron-Dagcrème"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.874218+00:00
+updated_at: 2026-10-11T00:55:41.457999+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["모델-라우팅MoE"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3178040554894"
 ---
 
 # Record 0a9d86cd20 · Diadermine-Rimpel-Expert-3D-Pro-Hyaluron-Dagcrème
@@ -16,7 +20,3 @@ Diadermine Rimpel Expert 3D Pro-Hyaluron Dagcrème
 Diadermine Rimpel Expert 3D Pro-Hyaluron Dagcrème
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

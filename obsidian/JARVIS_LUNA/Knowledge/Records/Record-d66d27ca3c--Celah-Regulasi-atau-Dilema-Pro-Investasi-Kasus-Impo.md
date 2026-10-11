@@ -2,8 +2,14 @@
 title: "Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.563468+00:00
+updated_at: 2026-10-11T00:55:20.850093+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.26740/mitrans.v4n2.p515-525"
+kind: "논문"
 ---
 
 # Record d66d27ca3c · Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Celah Regulasi atau Dilema Pro-Investasi? Kasus Impor Truk CBU Tiongkok di Indonesia
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

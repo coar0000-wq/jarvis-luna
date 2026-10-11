@@ -2,8 +2,12 @@
 title: "Record af3a35c4d0 · Mobility-Information-Capacity-in-the-Sky-A-Gaussian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.040477+00:00
+updated_at: 2026-10-11T00:55:12.952769+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10436v1"
 ---
 
 # Record af3a35c4d0 · Mobility-Information-Capacity-in-the-Sky-A-Gaussian
@@ -16,7 +20,3 @@ Mobility Information Capacity in the Sky: A Gaussian Channel Perspective
 Existing airspace capacity metrics mainly quantify occupancy or flow, although the same number of aerial vehicles may result in different motion alternatives. This letter establishes \emph{mobility information capacity} as an information-theoretic measure for low-altitude wireless networks. It quantifies the maximum information that trajectory observations reveal about intentional maneuver inputs
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

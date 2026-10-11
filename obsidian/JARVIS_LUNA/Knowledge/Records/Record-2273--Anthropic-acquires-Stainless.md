@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.843282+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-acquires-stainless"
 ---
 
 # Record 2273 · Anthropic-acquires-Stainless
@@ -16,7 +21,3 @@ Anthropic acquires Stainless
 Anthropic has acquired Stainless, a builder of SDK and MCP server tooling, to strengthen Claude's ability to connect to external data and tools.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

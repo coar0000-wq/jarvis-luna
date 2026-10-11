@@ -2,8 +2,12 @@
 title: "Record e7aa2af833 · No-Photoshop-Try-this-tool-instead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.764183+00:00
+updated_at: 2026-10-11T00:55:55.033288+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/eYEw5djh4gQ"
 ---
 
 # Record e7aa2af833 · No-Photoshop-Try-this-tool-instead
@@ -15,7 +19,3 @@ tags: [record, real-data]
 No Photoshop? Try this tool instead!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

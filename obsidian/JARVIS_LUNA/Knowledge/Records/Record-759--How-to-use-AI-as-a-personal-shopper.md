@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.082563+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/jEG3g7G7-JY"
 ---
 
 # Record 759 · How-to-use-AI-as-a-personal-shopper
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How to use AI as a personal shopper
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

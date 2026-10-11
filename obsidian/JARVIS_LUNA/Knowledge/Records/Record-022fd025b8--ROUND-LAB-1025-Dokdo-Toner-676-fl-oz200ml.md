@@ -2,8 +2,12 @@
 title: "Record 022fd025b8 · ROUND-LAB-1025-Dokdo-Toner-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.812224+00:00
+updated_at: 2026-10-11T00:55:40.348097+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA46196074"
 ---
 
 # Record 022fd025b8 · ROUND-LAB-1025-Dokdo-Toner-676-fl-oz200ml
@@ -16,7 +20,3 @@ ROUND LAB 1025 Dokdo Toner 6.76 fl. oz.(200ml)
 ROUND LAB 1025 Dokdo Toner 6.76 fl. oz.(200ml) · 평점 4.6 · 리뷰 13
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

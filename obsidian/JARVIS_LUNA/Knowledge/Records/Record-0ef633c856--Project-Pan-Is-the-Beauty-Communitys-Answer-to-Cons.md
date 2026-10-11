@@ -2,8 +2,12 @@
 title: "Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Cons"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.469646+00:00
+updated_at: 2026-10-11T00:55:34.984688+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUU5na1hINzdSNGhaQnR1bUlzVU1uNC05RDVTWkhpM2hVWXIyUmJSdmd4dF9wNWhNam1nVUxsNkJuR2xjYlpjMFRYRjJvSG02SU1DbmhQVG1VOExMV0JMWGQ0QkFMTWx4aWF0WllhUkJnd2dMenpfRF80SnFpSXgyaVdxcThTYXpydXBsMk5wb3V4SGZyVjhxMkVVUDAtV0VaX0E?oc=5"
 ---
 
 # Record 0ef633c856 · Project-Pan-Is-the-Beauty-Communitys-Answer-to-Cons
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Project Pan Is the Beauty Community’s Answer to Consumption Overload - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

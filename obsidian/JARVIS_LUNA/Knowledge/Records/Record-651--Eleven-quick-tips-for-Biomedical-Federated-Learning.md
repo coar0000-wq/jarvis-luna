@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.409908+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pcbi.1014530"
 ---
 
 # Record 651 · Eleven-quick-tips-for-Biomedical-Federated-Learning
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Eleven quick tips for Biomedical Federated Learning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record f1279c8c2d · LOreal-Paris-Infallible-3-Second-Setting-Spray-Mist-36H-Wear-Natural-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.672177+00:00
+updated_at: 2026-10-11T00:55:53.273114+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/L-Oreal-Paris-Infallible-3-Second-Setting-Mist-with-Microfine-up-to-36H-Wear-Clear-1-76-fl-oz/5216421750"
 ---
 
 # Record f1279c8c2d · LOreal-Paris-Infallible-3-Second-Setting-Spray-Mist-36H-Wear-Natural-F
@@ -16,7 +20,3 @@ L'Oreal Paris Infallible 3-Second Setting Spray Mist 36H Wear Natural Finish 1.7
 L'Oreal Paris Infallible 3-Second Setting Spray Mist 36H Wear Natural Finish 1.76 oz, Clear · $12.12 · 평점 4.5 · 리뷰 3,432
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

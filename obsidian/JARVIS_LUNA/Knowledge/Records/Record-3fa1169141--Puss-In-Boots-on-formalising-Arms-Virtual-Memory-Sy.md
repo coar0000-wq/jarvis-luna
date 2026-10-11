@@ -2,8 +2,14 @@
 title: "Record 3fa1169141 · Puss-In-Boots-on-formalising-Arms-Virtual-Memory-Sy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.662313+00:00
+updated_at: 2026-10-11T00:55:37.813979+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "openalex.org"
+url: "https://openalex.org/W4396820127"
+kind: "논문"
 ---
 
 # Record 3fa1169141 · Puss-In-Boots-on-formalising-Arms-Virtual-Memory-Sy
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Puss In Boots: on formalising Arm's Virtual Memory System Architecture (extended version)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record a256192011 · H3-World-Turning-Language-Understanding-into-World-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.915953+00:00
+updated_at: 2026-10-11T00:55:11.414043+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01560v1"
 ---
 
 # Record a256192011 · H3-World-Turning-Language-Understanding-into-World-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 H3-World: Turning Language Understanding into World Control
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

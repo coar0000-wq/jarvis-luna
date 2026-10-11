@@ -2,8 +2,14 @@
 title: "Record 156a588b13 · Portability-of-Fortrans-do-concurrent-on-GPUs-II"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.662133+00:00
+updated_at: 2026-10-11T00:55:22.666826+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2608.20586"
+kind: "논문"
 ---
 
 # Record 156a588b13 · Portability-of-Fortrans-do-concurrent-on-GPUs-II
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Portability of Fortran's 'do concurrent' on GPUs II
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.705413+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/"
 ---
 
 # Record 2649 · Why-vision-AI-is-the-safety-backbone-of-the-automated-job-site
@@ -16,7 +20,3 @@ Why vision AI is the safety backbone of the automated job site
 <p>Vision AI doesn't replace robots or human judgement; it provides the continuous perception that allows both to operate safely together.</p> <p>The post <a href="https://www.therobotreport.com/why-vision-ai-is-safety-backbone-of-automated-job-site/">Why vision AI is the safety backbone of the automated job site</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.<
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

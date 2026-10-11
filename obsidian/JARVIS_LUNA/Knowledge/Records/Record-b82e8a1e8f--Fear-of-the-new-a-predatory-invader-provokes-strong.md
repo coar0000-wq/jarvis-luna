@@ -2,8 +2,14 @@
 title: "Record b82e8a1e8f · Fear-of-the-new-a-predatory-invader-provokes-strong"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.535799+00:00
+updated_at: 2026-10-11T00:55:20.364714+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-9891519/v1"
+kind: "논문"
 ---
 
 # Record b82e8a1e8f · Fear-of-the-new-a-predatory-invader-provokes-strong
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Fear of the new: a predatory invader provokes stronger non-consumptive effects on a keystone native prey than a native predator
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record b8a5192c05 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.736542+00:00
+updated_at: 2026-10-11T00:55:54.592486+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=mO2Im_GCQnM"
 ---
 
 # Record b8a5192c05 · ELIXIR-Day-Care-Revolution-Review--ALL-6-products--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ELIXIR Day Care Revolution Review | ALL 6 products - including *new* Tone-up Beige
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

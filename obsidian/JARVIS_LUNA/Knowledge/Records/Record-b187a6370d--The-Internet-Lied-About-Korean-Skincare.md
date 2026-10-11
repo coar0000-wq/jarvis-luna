@@ -2,8 +2,12 @@
 title: "Record b187a6370d · The-Internet-Lied-About-Korean-Skincare"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.717256+00:00
+updated_at: 2026-10-11T00:55:54.218333+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=99lO319Juvk"
 ---
 
 # Record b187a6370d · The-Internet-Lied-About-Korean-Skincare
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Internet Lied About Korean Skincare
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

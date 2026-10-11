@@ -2,8 +2,12 @@
 title: "Record f7d5867a31 · Consider-Me-Your-K-Beauty-InsiderThese-Are-13-Skin-Care-Products-I-Saw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.246877+00:00
+updated_at: 2026-10-11T00:55:31.093952+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Pekw3MkFSb1U1SFhzaV9sTjJUWVpKakdydlNhTFlrMVpoazNJX3VEV3ZfMlBUdS1UV3hKaDEtVXhZdV9YeEhVWmVkY3BReWNXTXJtSzNfWXhkYmdZVHF2Wk5Gc082ZWtPakdmc2NHUmxvR1U?oc=5"
 ---
 
 # Record f7d5867a31 · Consider-Me-Your-K-Beauty-InsiderThese-Are-13-Skin-Care-Products-I-Saw
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Consider Me Your K-Beauty Insider—These Are 13 Skin Care Products I Saw Locals Buying on My Last Trip to Korea - instyle.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

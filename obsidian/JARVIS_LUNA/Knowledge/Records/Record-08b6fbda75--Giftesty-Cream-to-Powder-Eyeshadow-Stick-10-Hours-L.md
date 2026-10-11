@@ -2,8 +2,12 @@
 title: "Record 08b6fbda75 · Giftesty-Cream-to-Powder-Eyeshadow-Stick-10-Hours-Long-Lasting-Waterpr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.668463+00:00
+updated_at: 2026-10-11T00:55:53.219905+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Giftesty-Cream-to-Powder-Eyeshadow-Stick-10-Hours-Long-Lasting-Waterproof-Crease-proof-Smooth-Texture-for-Natural-All-day-Eye-Makeup/20391067612"
 ---
 
 # Record 08b6fbda75 · Giftesty-Cream-to-Powder-Eyeshadow-Stick-10-Hours-Long-Lasting-Waterpr
@@ -16,7 +20,3 @@ Giftesty Cream-to-Powder Eyeshadow Stick, 10 Hours Long Lasting Waterproof & Cre
 Giftesty Cream-to-Powder Eyeshadow Stick, 10 Hours Long Lasting Waterproof & Crease-proof, Smooth Texture for Natural All-day Eye Makeup · $0.99 · 평점 4.5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

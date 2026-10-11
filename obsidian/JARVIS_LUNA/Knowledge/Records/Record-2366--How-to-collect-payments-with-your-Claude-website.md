@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.488592+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/lU6WIgu0Wzg"
 ---
 
 # Record 2366 · How-to-collect-payments-with-your-Claude-website
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to collect payments with your Claude website
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

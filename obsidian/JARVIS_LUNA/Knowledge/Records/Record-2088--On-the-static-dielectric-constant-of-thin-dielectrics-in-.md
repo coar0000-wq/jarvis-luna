@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.131935+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "openalex.org"
+url: "https://openalex.org/W7172067869"
 ---
 
 # Record 2088 · On-the-static-dielectric-constant-of-thin-dielectrics-in-extremely-sca
@@ -15,7 +20,3 @@ tags: [record, real-data]
 On the static dielectric constant of thin dielectrics in extremely scaled silicon nanosheet transistors
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.404902+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7163598155"
 ---
 
 # Record 1752 · Recursive-Learning-of-Feedforward-and-Compliance-Compensation-Paramete
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Recursive Learning of Feedforward and Compliance Compensation Parameters for Precision Motion Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.376140+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.09066v1"
 ---
 
 # Record 236 · A-Distributed-Consensus-Particle-Filter-for-Target-Tracking-using-Auto
@@ -16,7 +20,3 @@ A Distributed Consensus Particle Filter for Target Tracking using Autonomous Sur
 Maritime target tracking over large distances often requires multi-agent teams without centralized coordination, and intermittent communication. Each agent must maintain an independent estimate that can take advantage of opportunistic communications availability when possible. This can lead to overly confident local estimates in the absence of external data. In this work, we propose an augmentatio
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

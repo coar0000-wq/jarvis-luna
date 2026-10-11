@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.545304+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/introducing-physics-ai-at-mistral/"
 ---
 
 # Record 944 · Introducing-physics-AI-at-Mistral-the-foundation-for-engineering-accel
@@ -16,7 +21,3 @@ Introducing physics AI at Mistral: the foundation for engineering acceleration.
 A new class of AI models that predict the behavior of physical systems, powering the engineers and hardware products of tomorrow.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

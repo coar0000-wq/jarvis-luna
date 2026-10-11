@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.799384+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "모델-라우팅MoE", "머신러닝-연구", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03906v1"
 ---
 
 # Record 086 · Revisiting-Topological-Graphs-for-Macro-Action-based-Closed-loop-Reinf
@@ -16,7 +20,3 @@ Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement L
 Vision-Language Navigation in Continuous Environments (VLN-CE) requires an agent to follow natural language instructions through unseen environments. Existing imitation learning (IL) pipelines struggle in this closed-loop setting: behavior cloning suffers from distribution shift, and DAgger's expert actions become ambiguous upon trajectory deviation. While Reinforcement Learning (RL) offers a natu
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

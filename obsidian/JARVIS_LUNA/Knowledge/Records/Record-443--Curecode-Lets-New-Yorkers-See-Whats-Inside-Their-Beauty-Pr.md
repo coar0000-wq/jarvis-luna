@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.059575+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekJfZ1R4UmRRYlozRklXdDNkR0p1MUNrNmdhMFNnTzgzUzROZHZBWXNnM2dWQ09hdU1RTG16QVZsWm54RFhyc3FpRXJ4MGlIN05zLVFQcTdrZEFlalFRdnpPcXFSRTNiRkY2TzF1S3NDcXhEZGV6bjQ0WUNmWl9paWNsOTM5QWE1SUFkMW5zZ2tPNDc1bTZWX1Nvc0E1QUstaS1kRjJIcDVMM3c?oc=5"
 ---
 
 # Record 443 · Curecode-Lets-New-Yorkers-See-Whats-Inside-Their-Beauty-Products---EIN
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Curecode Lets New Yorkers See What’s Inside Their Beauty Products - EIN News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

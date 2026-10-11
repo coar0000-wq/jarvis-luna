@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.834465+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/-LGZZwKfIkc"
 ---
 
 # Record 2001 · 진짜-급하게-데이트-갈-준비-GRWM--메이크업-kbeauty
@@ -15,7 +19,3 @@ tags: [record, real-data]
 진짜 급하게 데이트 갈 준비 #GRWM 💨 #메이크업 #kbeauty
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

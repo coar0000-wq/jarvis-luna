@@ -2,8 +2,12 @@
 title: "Record cc161a9b05 · SVR-Spray-Sun-Secure-SPF-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.886660+00:00
+updated_at: 2026-10-11T00:55:41.679680+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3662361002146"
 ---
 
 # Record cc161a9b05 · SVR-Spray-Sun-Secure-SPF-50
@@ -16,7 +20,3 @@ SVR Spray Sun Secure SPF 50+
 SVR Spray Sun Secure SPF 50+ · SVR
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 99c9c3355f · Taylor-Swifts-Diamond-Frost-Nails-Made-the-VMAs-2026-ShimmerSee-the-Ph"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.942716+00:00
+updated_at: 2026-10-11T00:55:42.599352+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/taylor-swift-frosted-diamond-nails-vmas-2026"
 ---
 
 # Record 99c9c3355f · Taylor-Swifts-Diamond-Frost-Nails-Made-the-VMAs-2026-ShimmerSee-the-Ph
@@ -16,7 +20,3 @@ Taylor Swift's Diamond Frost Nails Made the VMAs 2026 Shimmer—See the Photos
 Taylor Swift's Diamond Frost Nails Made the VMAs 2026 Shimmer—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

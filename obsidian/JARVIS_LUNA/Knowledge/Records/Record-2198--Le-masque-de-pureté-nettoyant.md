@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.285240+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3600550972153"
 ---
 
 # Record 2198 · Le-masque-de-pureté-nettoyant
@@ -16,7 +20,3 @@ Le masque de pureté nettoyant
 Le masque de pureté nettoyant · La Provençale
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

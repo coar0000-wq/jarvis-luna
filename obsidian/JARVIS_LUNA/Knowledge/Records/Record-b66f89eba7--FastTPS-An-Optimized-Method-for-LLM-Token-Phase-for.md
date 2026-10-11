@@ -2,8 +2,14 @@
 title: "Record b66f89eba7 · FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.694618+00:00
+updated_at: 2026-10-11T00:55:38.470835+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7168434205"
+kind: "논문"
 ---
 
 # Record b66f89eba7 · FastTPS-An-Optimized-Method-for-LLM-Token-Phase-for
@@ -15,7 +21,3 @@ tags: [record, real-data]
 FastTPS: An Optimized Method for LLM Token Phase for AI accelerators
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

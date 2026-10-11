@@ -2,8 +2,14 @@
 title: "Record 7d2ee42d11 · Managing-as-a-UX-Researcher-No-Two-Paths-Are-Alike"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.489719+00:00
+updated_at: 2026-10-11T00:55:19.659239+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1177/1071181321651041"
+kind: "논문"
 ---
 
 # Record 7d2ee42d11 · Managing-as-a-UX-Researcher-No-Two-Paths-Are-Alike
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Managing as a UX Researcher: No Two Paths Are Alike
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

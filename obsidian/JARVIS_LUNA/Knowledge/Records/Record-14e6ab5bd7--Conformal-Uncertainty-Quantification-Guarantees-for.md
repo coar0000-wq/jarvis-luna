@@ -2,8 +2,12 @@
 title: "Record 14e6ab5bd7 · Conformal-Uncertainty-Quantification-Guarantees-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.909925+00:00
+updated_at: 2026-10-11T00:55:11.285741+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28515v1"
 ---
 
 # Record 14e6ab5bd7 · Conformal-Uncertainty-Quantification-Guarantees-for
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Conformal Uncertainty Quantification Guarantees for Neural Operators
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

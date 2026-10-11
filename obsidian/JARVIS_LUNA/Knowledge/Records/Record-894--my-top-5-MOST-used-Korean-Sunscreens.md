@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.940403+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=9zmJ2fyFvn8"
 ---
 
 # Record 894 · my-top-5-MOST-used-Korean-Sunscreens
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 my top 5 MOST used Korean Sunscreens!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.145432+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxNclVSWXljT2lObGJWa2VENjJYdmt3QmlMY19mdjc0SXV2WHd0b28zYlVLQzQ2d1ZsWGRzSHNsXzBwUFpUSWZTaGVfbk1uUVdGSmhKYzJlRjlKdk9WQXo4UnEyeUVoREpiOWJ3M0JtTWRoRVlqaUllZDZBakV0ZFh3cXdFWmRTeFVFMXRESVpoXzY2cWhfS1Y5UGlOMkQ0c0hwN055SkdITFpmWHRl?oc=5"
 ---
 
 # Record 729 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Want-Her-Look---Forbe
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 ‘Moo Deng Makeup’: Why Fans Of The Viral Baby Hippo Want Her Look - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

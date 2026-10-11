@@ -2,8 +2,12 @@
 title: "Record 403db45275 · SUN-Persistent-Programs-For-Language-Grounded-Contr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.915678+00:00
+updated_at: 2026-10-11T00:55:11.412934+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31167v1"
 ---
 
 # Record 403db45275 · SUN-Persistent-Programs-For-Language-Grounded-Contr
@@ -15,7 +19,3 @@ tags: [record, real-data]
 SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

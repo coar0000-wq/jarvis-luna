@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.581058+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdjlyM1Q3MktraU9ZcWV4N1NGcXZtZ1FmU1RQdE8xcWxsMk5xUVAwU1lBZTBEYUJ4M2pBY2JJblRRYXEyUHViWjI3NTdrZi05TE1WMzhpd2tmLXlFMUQ2TmV6VEJJV1ZLTWtQNVdxQXVFUUNCaFdLLUVYX2liM2NpeWlOZVBuaHZHZ0d2WTlaUTBQS2RnTnBTeTFPd2oybU1qdmRtSmFmTmNQUzYxbGZJLVp0THdNSUJkLUlKX1RZNTdoT1F0TTc3cWFHNkoxbUw1c1ZmMGVEYk42N3Z1QzRLbW56c1pIcXNxUXVrMUtOZHVOdw?oc=5"
 ---
 
 # Record 877 · Salmon-sperm-facials-and-the-return-of-the-perm-The-best-wildest-and-w
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Salmon sperm facials and the return of the perm: The best, wildest and weirdest beauty trends of 2025 - SMH.com.au
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

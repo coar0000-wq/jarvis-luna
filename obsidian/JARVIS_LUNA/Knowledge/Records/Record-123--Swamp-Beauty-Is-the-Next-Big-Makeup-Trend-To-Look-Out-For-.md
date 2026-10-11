@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.804550+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MVm5peEoxWTFyek1QTk02ZmVsZ2czRm5rTWJYSmYwT3VqZndmTEFOYmRIelpLOXBVQkJQUzYxSy1UME94VE1VM0hEa1VCRWlHZnpZY0kyT1lQSWlzbVE?oc=5"
 ---
 
 # Record 123 · Swamp-Beauty-Is-the-Next-Big-Makeup-Trend-To-Look-Out-For---NewBeauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Swamp Beauty Is the Next Big Makeup Trend To Look Out For - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

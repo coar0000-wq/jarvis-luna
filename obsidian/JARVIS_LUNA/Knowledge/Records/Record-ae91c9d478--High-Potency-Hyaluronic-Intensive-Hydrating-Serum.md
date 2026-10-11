@@ -2,8 +2,12 @@
 title: "Record ae91c9d478 · High-Potency-Hyaluronic-Intensive-Hydrating-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.637832+00:00
+updated_at: 2026-10-11T00:55:52.712582+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/high-potency-hyaluronic-intensive-hydrating-serum-pimprod2032132"
 ---
 
 # Record ae91c9d478 · High-Potency-Hyaluronic-Intensive-Hydrating-Serum
@@ -16,7 +20,3 @@ High Potency Hyaluronic Intensive Hydrating Serum
 High Potency Hyaluronic Intensive Hydrating Serum · Perricone MD · $135
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record d62379e05e · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.425081+00:00
+updated_at: 2026-10-11T00:55:18.542369+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1109/jiot.2023.3331654"
+kind: "논문"
 ---
 
 # Record d62379e05e · Enabling-ImageNet-Scale-Deep-Learning-on-MCUs-for-A
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Enabling ImageNet-Scale Deep Learning on MCUs for Accurate and Efficient Inference
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

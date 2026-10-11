@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.953088+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/75DKB013fu4"
 ---
 
 # Record 609 · How-to-Make-Money-Online-with-the-Shopify-Product-Network
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How to Make Money Online with the Shopify Product Network
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record c33a18fe38 · Privacy-Preserving-Federated-Fraud-Detection-in-Payment-Transactions-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.625559+00:00
+updated_at: 2026-10-11T00:55:21.990278+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2603.13617"
+kind: "논문"
 ---
 
 # Record c33a18fe38 · Privacy-Preserving-Federated-Fraud-Detection-in-Payment-Transactions-w
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Privacy-Preserving Federated Fraud Detection in Payment Transactions with NVIDIA FLARE
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

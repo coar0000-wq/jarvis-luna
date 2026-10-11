@@ -2,8 +2,12 @@
 title: "Record d5bf9f8000 · Best-AI-SEO-Tools-for-Ecommerce-in-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.128118+00:00
+updated_at: 2026-10-11T00:55:29.003275+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16bDVPVFB6bGd5Q3RRRmJFRW5kR0xLTG9lUDRLaDdjN1FOSE5va2FSWkZZcW84TWh5SDlxckwwSjBJRzdGTENXVUpQZnQ3ZjJSLXZacUYxaw?oc=5"
 ---
 
 # Record d5bf9f8000 · Best-AI-SEO-Tools-for-Ecommerce-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Best AI SEO Tools for Ecommerce in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

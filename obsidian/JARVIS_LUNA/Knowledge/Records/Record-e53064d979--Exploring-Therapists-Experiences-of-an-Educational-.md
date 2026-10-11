@@ -2,8 +2,14 @@
 title: "Record e53064d979 · Exploring-Therapists-Experiences-of-an-Educational-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.585144+00:00
+updated_at: 2026-10-11T00:55:21.227962+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.3390/healthcare13020159"
+kind: "논문"
 ---
 
 # Record e53064d979 · Exploring-Therapists-Experiences-of-an-Educational-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Exploring Therapists’ Experiences of an Educational Website to Support Telehealth Delivery of Constraint-Induced Movement Therapy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

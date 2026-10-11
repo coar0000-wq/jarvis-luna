@@ -2,8 +2,12 @@
 title: "Record 83a3c6e7c0 · Predictive-audio-representations-for-early-detection-and-tracking-of-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.673134+00:00
+updated_at: 2026-10-11T00:55:22.874535+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "로보틱스", "음성오디오"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.13595"
 ---
 
 # Record 83a3c6e7c0 · Predictive-audio-representations-for-early-detection-and-tracking-of-h
@@ -16,7 +20,3 @@ Predictive audio representations for early detection and tracking of hidden dyna
 Predicting potential dangers is core to safety. Forecasting the presence of other traffic agents is core to danger prediction. Occluded traffic agents challenge detection systems as they might become visible too late, leaving the autonomous vehicle too little time to identify, plan and act accordingly in a robust and safe way. Previous works proved that auditory perception, being omnidirectional a
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[로보틱스]] [[음성오디오]] [[JARVIS Real Knowledge Index]]

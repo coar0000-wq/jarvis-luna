@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.401759+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/lcJ4aYFXtTI"
 ---
 
 # Record 637 · 기관명을-안-밝혀도-선크림-임상은-증명할-수-있습니다
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 기관명을 안 밝혀도 선크림 임상은 증명할 수 있습니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

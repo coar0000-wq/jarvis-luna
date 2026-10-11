@@ -2,8 +2,14 @@
 title: "Record 524fe2c5c3 · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.675506+00:00
+updated_at: 2026-10-11T00:55:38.075389+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7161203717"
+kind: "논문"
 ---
 
 # Record 524fe2c5c3 · ORCE-Order-Aware-Alignment-of-Verbalized-Confidence
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ORCE: Order-Aware Alignment of Verbalized Confidence in Large Language Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

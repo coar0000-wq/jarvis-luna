@@ -2,8 +2,14 @@
 title: "Record 855b4870b7 · Perceived-self-and-social-relevance-of-content-moti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.408905+00:00
+updated_at: 2026-10-11T00:55:18.255800+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1093/pnasnexus/pgaf019"
+kind: "논문"
 ---
 
 # Record 855b4870b7 · Perceived-self-and-social-relevance-of-content-moti
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Perceived self and social relevance of content motivates news sharing across cultures and topics
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

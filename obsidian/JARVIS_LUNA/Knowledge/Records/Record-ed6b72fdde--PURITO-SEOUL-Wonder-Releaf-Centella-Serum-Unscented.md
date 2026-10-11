@@ -2,8 +2,12 @@
 title: "Record ed6b72fdde · PURITO-SEOUL-Wonder-Releaf-Centella-Serum-Unscented-202-fl-oz60ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.868127+00:00
+updated_at: 2026-10-11T00:55:41.301085+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA97002132"
 ---
 
 # Record ed6b72fdde · PURITO-SEOUL-Wonder-Releaf-Centella-Serum-Unscented-202-fl-oz60ml
@@ -16,7 +20,3 @@ PURITO SEOUL Wonder Releaf Centella Serum Unscented 2.02 fl. oz.(60ml)
 PURITO SEOUL Wonder Releaf Centella Serum Unscented 2.02 fl. oz.(60ml) · 평점 4.8 · 리뷰 1,336
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

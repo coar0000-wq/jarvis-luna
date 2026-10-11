@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.797741+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10439v1"
 ---
 
 # Record 254 · Forgetting-Only-What-Matters-Layer-Selective-Unlearning-toward-Robust-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

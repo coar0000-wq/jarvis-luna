@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.908158+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirwFBVV95cUxQajJRUmNrUkJlam55R0tGS1FKaWJFUEhObXYtZEdLVjBrWDFUX0ZWMmx1RHU4bGNkQXpFaXNrc2IzblExamZtR2Y3QXBZZkllQ2UxTm9qTWlQblF3eXVXVVNmTldFYXlCbm9LbC1ybldWNVdmTk9JTDJzM0l0Y25wNThxLVFQd3VWM0ZNZVVCcjExQ0hFQ1MzLUI5OVFlSUkzbUh4aEJRS2dBdk5laldz?oc=5"
 ---
 
 # Record 710 · Perplexity-Rolls-Out-Its-AI-Powered-Ecommerce-Experience-in-the-US---A
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Perplexity Rolls Out Its AI-Powered Ecommerce Experience in the US - ADWEEK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

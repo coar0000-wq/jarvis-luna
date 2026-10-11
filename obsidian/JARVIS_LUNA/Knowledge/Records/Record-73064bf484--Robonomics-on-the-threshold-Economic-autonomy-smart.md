@@ -2,8 +2,12 @@
 title: "Record 73064bf484 · Robonomics-on-the-threshold-Economic-autonomy-smart-cities-and-crypto-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.601314+00:00
+updated_at: 2026-10-11T00:55:52.115125+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/"
 ---
 
 # Record 73064bf484 · Robonomics-on-the-threshold-Economic-autonomy-smart-cities-and-crypto-
@@ -16,7 +20,3 @@ Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets
 <p>Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households.</p> <p>The post <a href="https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/">Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids</a> appeared first on <a href="https://www.therobotreport.com
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.287312+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-at-home-teeth-whitening-kit"
 ---
 
 # Record 2272 · 6-Best-At-Home-Teeth-Whitening-Kits-for-a-Brighter-Smile
@@ -16,7 +20,3 @@ tags: [record, real-data]
 6 Best At-Home Teeth-Whitening Kits for a Brighter Smile
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

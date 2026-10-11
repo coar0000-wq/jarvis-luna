@@ -2,8 +2,14 @@
 title: "Record bde50faca5 · Geopolitics-Vs-Markets-How-Might-The-Us-China-And-Iran-Reshape-Global-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.486753+00:00
+updated_at: 2026-10-11T00:55:50.050726+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/podcast-hub/making-sense/geopolitics-vs-markets-how-might-the-us-china-and-iran-reshape-global-risk"
+kind: "발표물"
 ---
 
 # Record bde50faca5 · Geopolitics-Vs-Markets-How-Might-The-Us-China-And-Iran-Reshape-Global-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Geopolitics Vs Markets How Might The Us China And Iran Reshape Global Risk
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

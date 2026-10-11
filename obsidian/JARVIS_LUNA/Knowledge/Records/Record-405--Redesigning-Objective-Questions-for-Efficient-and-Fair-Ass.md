@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.305029+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1109/te.2026.3693554"
 ---
 
 # Record 405 · Redesigning-Objective-Questions-for-Efficient-and-Fair-Assessment-in-T
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Redesigning Objective Questions for Efficient and Fair Assessment in Theoretical STEM Courses
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 9020be5f68 · AgenticSwarm-Semantic-Perception-and-Adaptive-Task-Allocation-for-Hete"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.160215+00:00
+updated_at: 2026-10-11T00:55:14.324663+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.21716"
 ---
 
 # Record 9020be5f68 · AgenticSwarm-Semantic-Perception-and-Adaptive-Task-Allocation-for-Hete
@@ -16,7 +20,3 @@ AgenticSwarm: Semantic Perception and Adaptive Task Allocation for Heterogeneous
 Multi UAV missions in complex environments require the system to understand both the surrounding scene and the intent of a human operator while maintaining feasible task allocation as mission conditions change. This paper presents AgenticSwarm, an agentic framework for semantic perception and adaptive task allocation in heterogeneous multi UAV missions. An agent interprets aerial imagery and natur
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

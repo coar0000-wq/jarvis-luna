@@ -2,8 +2,12 @@
 title: "Record d3d05e7f4c · 용량-많아서-샀는데-돈-낭비하는-가성비-화장품의-배신"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.698473+00:00
+updated_at: 2026-10-11T00:55:53.782280+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/RnUPfMzgqPQ"
 ---
 
 # Record d3d05e7f4c · 용량-많아서-샀는데-돈-낭비하는-가성비-화장품의-배신
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "용량 많아서 샀는데.." 돈 낭비하는 가성비 화장품의 배신
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

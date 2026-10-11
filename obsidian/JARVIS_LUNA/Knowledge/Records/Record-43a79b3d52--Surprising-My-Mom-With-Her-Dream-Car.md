@@ -2,8 +2,12 @@
 title: "Record 43a79b3d52 · Surprising-My-Mom-With-Her-Dream-Car"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.718455+00:00
+updated_at: 2026-10-11T00:55:54.249522+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=CE2r2OpJmk8"
 ---
 
 # Record 43a79b3d52 · Surprising-My-Mom-With-Her-Dream-Car
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Surprising My Mom With Her Dream Car
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

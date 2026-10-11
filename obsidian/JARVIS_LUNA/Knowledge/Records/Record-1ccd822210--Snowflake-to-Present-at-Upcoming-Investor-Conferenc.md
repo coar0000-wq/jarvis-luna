@@ -2,8 +2,14 @@
 title: "Record 1ccd822210 · Snowflake-to-Present-at-Upcoming-Investor-Conferenc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.078334+00:00
+updated_at: 2026-10-11T00:55:28.212418+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Snowflake-to-Present-at-Upcoming-Investor-Conferences/default.aspx"
+kind: "발표물"
 ---
 
 # Record 1ccd822210 · Snowflake-to-Present-at-Upcoming-Investor-Conferenc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Snowflake to Present at Upcoming Investor Conferences
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

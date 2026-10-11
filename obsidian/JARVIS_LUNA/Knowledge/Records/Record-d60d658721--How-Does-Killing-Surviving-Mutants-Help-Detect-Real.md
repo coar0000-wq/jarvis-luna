@@ -2,8 +2,14 @@
 title: "Record d60d658721 · How-Does-Killing-Surviving-Mutants-Help-Detect-Real-Bugs-with-Assertio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.480550+00:00
+updated_at: 2026-10-11T00:55:19.500945+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3832232"
+kind: "논문"
 ---
 
 # Record d60d658721 · How-Does-Killing-Surviving-Mutants-Help-Detect-Real-Bugs-with-Assertio
@@ -15,7 +21,3 @@ tags: [record, real-data]
 How Does Killing Surviving Mutants Help Detect Real Bugs with Assertion Generation? A Controlled Experiment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

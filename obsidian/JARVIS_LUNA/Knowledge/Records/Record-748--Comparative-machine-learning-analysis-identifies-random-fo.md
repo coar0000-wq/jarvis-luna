@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.921065+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.3389/frph.2026.1908391"
 ---
 
 # Record 748 · Comparative-machine-learning-analysis-identifies-random-forest-and-ada
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Comparative machine learning analysis identifies random forest and adaboost as superior models for the evaluation of semen quality and reproductive hormones
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

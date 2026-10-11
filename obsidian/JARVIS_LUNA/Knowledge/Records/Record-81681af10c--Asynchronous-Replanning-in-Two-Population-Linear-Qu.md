@@ -2,8 +2,12 @@
 title: "Record 81681af10c · Asynchronous-Replanning-in-Two-Population-Linear-Qu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.058515+00:00
+updated_at: 2026-10-11T00:55:13.157234+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11424v1"
 ---
 
 # Record 81681af10c · Asynchronous-Replanning-in-Two-Population-Linear-Qu
@@ -16,7 +20,3 @@ Asynchronous Replanning in Two Population Linear Quadratic Mean Field Games: Inf
 We study asynchronous replanning in a two population linear quadratic mean field game in which the populations may begin from different beliefs and hence use different plans. Each population observes its own aggregate trajectory and a public record of implemented revisions, while its continuation best response depends on the opponent's current plan. We identify the information required for replann
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

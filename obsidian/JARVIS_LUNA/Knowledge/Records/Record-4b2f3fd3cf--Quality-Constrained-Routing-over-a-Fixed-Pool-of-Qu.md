@@ -2,8 +2,12 @@
 title: "Record 4b2f3fd3cf · Quality-Constrained-Routing-over-a-Fixed-Pool-of-Quantized-Mixture-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.087973+00:00
+updated_at: 2026-10-11T00:55:13.464376+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["모델-라우팅MoE", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.12550"
 ---
 
 # Record 4b2f3fd3cf · Quality-Constrained-Routing-over-a-Fixed-Pool-of-Quantized-Mixture-of-
@@ -16,7 +20,3 @@ Quality-Constrained Routing over a Fixed Pool of Quantized Mixture-of-Experts In
 Quantized Mixture-of-Experts (MoE) services can hold several pre-materialized instances of one base model, but quantization damage varies sharply across requests and bitwidths. Because instance materialization and replica counts consume memory and require slow reconfiguration, we treat them as upstream provisioning decisions and study routing within a fixed resident pool. Within this fixed-pool bo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[모델-라우팅MoE]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

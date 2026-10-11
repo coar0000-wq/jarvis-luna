@@ -2,8 +2,12 @@
 title: "Record 189dd2438e · K-Beauty-Brand-Hanhoo-Expands-National-Retail-Footprint---Morningstar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.526866+00:00
+updated_at: 2026-10-11T00:55:36.032380+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaEhwaFZZWEtPcVl6R2UtUVktU3F3VmxfMVZySEJrUE5wZXQzUmRFRWtDQ3luem1ObUJZNEY0TXhDVFk0Ti1oeHJwQjhDNzBJV3p1RngzYmVDVHVBckRwaFJVOS0zUkhaU3BHclZKZWJ6aUpxckVDVVRIYmxzTjNFMzQ0YWQ1cHFkY1g5bjdSenpmQlJ5cTNyUXFYcTVBSDA4T1h0Y1pkaUF6QWVxYzhtVzZIamNvLWc?oc=5"
 ---
 
 # Record 189dd2438e · K-Beauty-Brand-Hanhoo-Expands-National-Retail-Footprint---Morningstar
@@ -16,7 +20,3 @@ K-Beauty Brand Hanhoo Expands National Retail Footprint - Morningstar
 K-Beauty Brand Hanhoo Expands National Retail Footprint - Morningstar
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

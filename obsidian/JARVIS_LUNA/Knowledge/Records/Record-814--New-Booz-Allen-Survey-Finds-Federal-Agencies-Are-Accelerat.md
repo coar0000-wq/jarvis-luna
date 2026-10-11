@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.739159+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트", "보안프라이버시", "데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "investors.boozallen.com"
+url: "https://investors.boozallen.com/news-releases/news-release-details/new-booz-allen-survey-finds-federal-agencies-are-accelerating"
 ---
 
 # Record 814 · New-Booz-Allen-Survey-Finds-Federal-Agencies-Are-Accelerating-Agentic-
@@ -16,7 +21,3 @@ New Booz Allen Survey Finds Federal Agencies Are Accelerating Agentic AI Adoptio
 2026 publication highlights growing concerns around security, accountability, and governance as AI agents move into mission environments MCLEAN, Va. --(BUSINESS WIRE)--Jul. 21, 2026-- As federal agencies rapidly adopt agentic AI systems capable of acting autonomously, a new Booz Allen survey
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[보안프라이버시]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

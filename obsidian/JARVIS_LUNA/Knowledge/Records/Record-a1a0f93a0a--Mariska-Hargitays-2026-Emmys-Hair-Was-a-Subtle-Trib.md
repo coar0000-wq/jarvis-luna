@@ -2,8 +2,12 @@
 title: "Record a1a0f93a0a · Mariska-Hargitays-2026-Emmys-Hair-Was-a-Subtle-Trib"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.934663+00:00
+updated_at: 2026-10-11T00:55:42.497153+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/mariska-hargitay-emmys-2026-hair"
 ---
 
 # Record a1a0f93a0a · Mariska-Hargitays-2026-Emmys-Hair-Was-a-Subtle-Trib
@@ -16,7 +20,3 @@ Mariska Hargitay's 2026 Emmys Hair Was a Subtle Tribute to Her Mom—See the Pho
 Mariska Hargitay's 2026 Emmys Hair Was a Subtle Tribute to Her Mom—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

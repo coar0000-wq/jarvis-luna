@@ -2,8 +2,14 @@
 title: "Record 22bf7c19fc · Agent-Brain-A-Biologically-Inspired-Memory-System-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.941513+00:00
+updated_at: 2026-10-11T00:55:26.196062+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "의료바이오", "투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.19673133"
+kind: "논문"
 ---
 
 # Record 22bf7c19fc · Agent-Brain-A-Biologically-Inspired-Memory-System-f
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Agent Brain: A Biologically Inspired Memory System for Autonomous AI Agents, with Head-to-Head Evaluation on LongMemEval
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[의료바이오]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

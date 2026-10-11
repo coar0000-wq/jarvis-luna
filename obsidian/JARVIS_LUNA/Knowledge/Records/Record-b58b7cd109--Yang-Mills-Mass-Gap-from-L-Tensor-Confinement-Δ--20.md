@@ -2,8 +2,14 @@
 title: "Record b58b7cd109 · Yang-Mills-Mass-Gap-from-L-Tensor-Confinement-Δ--200-MeV-from-551-Geom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.922425+00:00
+updated_at: 2026-10-11T00:55:25.972571+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18135564"
+kind: "논문"
 ---
 
 # Record b58b7cd109 · Yang-Mills-Mass-Gap-from-L-Tensor-Confinement-Δ--200-MeV-from-551-Geom
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Yang-Mills Mass Gap from L-Tensor Confinement: Δ ≈ 200 MeV from 5+5+1 Geometry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

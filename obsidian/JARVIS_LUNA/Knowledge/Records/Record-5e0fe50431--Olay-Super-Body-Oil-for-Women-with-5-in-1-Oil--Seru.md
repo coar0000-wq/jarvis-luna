@@ -2,8 +2,12 @@
 title: "Record 5e0fe50431 · Olay-Super-Body-Oil-for-Women-with-5-in-1-Oil--Serum-Complex-with-Jojo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.202588+00:00
+updated_at: 2026-10-11T00:55:45.913856+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Olay-Squalene-Bakuchiol-Collagen-Phthalates/dp/B0H5KZSPMP/ref=zg_bsnr_g_beauty_d_sccl_12/133-7130756-4573415"
 ---
 
 # Record 5e0fe50431 · Olay-Super-Body-Oil-for-Women-with-5-in-1-Oil--Serum-Complex-with-Jojo
@@ -16,7 +20,3 @@ Olay Super Body Oil for Women, with 5-in-1 Oil + Serum Complex with Jojoba Oil, 
 Olay Super Body Oil for Women, with 5-in-1 Oil + Serum Complex with Jojoba Oil, Squalene Oil, Bakuchiol, Collagen peptide, and Vitamin E, Free of Sulfates, Parabens & Phthalates, 4 Fl Oz · $14.97 · 평점 4.7 · 리뷰 483
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

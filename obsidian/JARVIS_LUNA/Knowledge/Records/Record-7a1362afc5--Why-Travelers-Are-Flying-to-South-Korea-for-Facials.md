@@ -2,8 +2,12 @@
 title: "Record 7a1362afc5 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.289810+00:00
+updated_at: 2026-10-11T00:55:31.823010+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5MGMwUVc0MmE0aFZtZHVJT2IwTVJBVTJYTU5UZ2dsMEpyVG1PNERiLVhQeFNzbVZ2eGlLTTgyNl9tZElyOWNKbWFKUTF5UXNwMkJ3dDcxZGhkZC0yaXN0c0htbWtXTHZtbnhUcTAtZFhWeU1PdGxOONIBeEFVX3lxTE96X3JQSXplTUkxNnBNUjhMU1N3cnhqcldJbGhLWWs0VmhkUXVFa0pma3QweWk5b1F0T1pNTzRpWVJSOGtEQlU0NmZqSVFzem1Zd2JwTjgxTmpPXy04RHpidVVBRlpsN252cktGYkFVNHZsTEE3MUs4bA?oc=5"
 ---
 
 # Record 7a1362afc5 · Why-Travelers-Are-Flying-to-South-Korea-for-Facials
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why Travelers Are Flying to South Korea for Facials, Lasers and Glass Skin Treatments - Charlotte Observer
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

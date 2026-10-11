@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.593349+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdU96bWtLQjBydnhYalkzd2h4SmJBbUNZdjZvdzJ5T2VDcl91OEdVWkk0SnZyd29kSGxpUjU0N21rREthcDlPWHNQQVNVTE5vTDN4MWZ6RmZDZW8wVFJhQnI2SmJkREJPd3RUbUxBWWZzVkFGY2Z2MVY2aDZCR1VVbnhtUnN1RXhJWElMTXBUSEVuekpKb3lz?oc=5"
 ---
 
 # Record 572 · 19-New-K-Beauty-Brands-Are-Coming-to-Sephora-Heres-What-to-Buy---Yahoo
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 19 New K-Beauty Brands Are Coming to Sephora. Here’s What to Buy. - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

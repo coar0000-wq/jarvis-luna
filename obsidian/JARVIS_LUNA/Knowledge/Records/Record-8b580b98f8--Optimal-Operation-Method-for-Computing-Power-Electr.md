@@ -2,8 +2,12 @@
 title: "Record 8b580b98f8 · Optimal-Operation-Method-for-Computing-Power-Electric-Power-Coordinati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.173959+00:00
+updated_at: 2026-10-11T00:55:14.485969+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.25594"
 ---
 
 # Record 8b580b98f8 · Optimal-Operation-Method-for-Computing-Power-Electric-Power-Coordinati
@@ -16,7 +20,3 @@ Optimal Operation Method for Computing Power-Electric Power Coordination Conside
 With the rapid growth of computing demand and the large-scale integration of renewable energy, how to realize the coordinated optimal operation of computing networks and power networks has become an important issue to be addressed. However, existing studies mainly focus on the impacts of spatiotemporal migration of computing loads on power system operation, while the internal task processing proce
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

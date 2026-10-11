@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.394908+00:00
 tags: [knowledge-graph, record]
+source: "us_beauty"
+topics: ["AI-Research"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/browse/beauty/1085666"
 ---
 
 # Record 560 · Walmart-Beauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Walmart Beauty
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

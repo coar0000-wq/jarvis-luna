@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.073768+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
 ---
 
 # Record 2275 · Reviewing-The-Evidence-On-Worker-Retraining-Programs
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Reviewing The Evidence On Worker Retraining Programs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

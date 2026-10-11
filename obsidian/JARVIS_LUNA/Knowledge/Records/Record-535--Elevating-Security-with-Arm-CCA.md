@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.512748+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1145/3685700"
 ---
 
 # Record 535 · Elevating-Security-with-Arm-CCA
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Elevating Security with Arm CCA
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

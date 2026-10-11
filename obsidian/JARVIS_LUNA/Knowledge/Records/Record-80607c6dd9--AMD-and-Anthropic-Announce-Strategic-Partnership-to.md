@@ -2,8 +2,14 @@
 title: "Record 80607c6dd9 · AMD-and-Anthropic-Announce-Strategic-Partnership-to"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.080457+00:00
+updated_at: 2026-10-11T00:55:28.249921+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus"
+kind: "발표물"
 ---
 
 # Record 80607c6dd9 · AMD-and-Anthropic-Announce-Strategic-Partnership-to
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of AMD Instinct MI450 Series GPUs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

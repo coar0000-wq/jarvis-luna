@@ -2,8 +2,12 @@
 title: "Record a385e70a72 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Fol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.533962+00:00
+updated_at: 2026-10-11T00:55:36.128687+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUWJjU2lpS0U5TFZieGlLenQwLXllQlpZRVBTSWFPYUxBRGRvZm5hYV9BcXc2S0plaHhfNHFEX2ZYc09DVlVGdlotcl9Md3ZhcW1NT3ZXOF9UZzZUd3lIcFpQcloxSTJqVlpNdGZNaDUzbW9LUWtzVnZQWXlBdGdvQV9EdkZVSzZOWjdiTjd0T1BuU0JtX1U0VWc0eXI1c2l6ZHZSajRxT0dhb0ZFeEs4QXQxYzhfTkhhU2UydnFB?oc=5"
 ---
 
 # Record a385e70a72 · REJURAN-COSMETICS-Launches-at-Sephora-Singapore-Fol
@@ -15,7 +19,3 @@ tags: [record, real-data]
 REJURAN COSMETICS Launches at Sephora Singapore Following Strong Local Demand - The Malaysian Reserve
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

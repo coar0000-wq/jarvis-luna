@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.523309+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY1h6WExLMWQ5dlVrcU9DckZUNlV6NVB3Uk16N2xuSGtVMkxialVPazVLWkY5eDFlMWcweEtjYUZfWEp4VE1MSmw1TmMyazB3NzZLZTNjSEdSbmh6NzRUTU5kZnpZbGIyaF8tN21oaXAxNmx5QzdWc2xsc2tCN0lNaldnWmhkRmVXWmo5YXlEZUNqai1CSVpTQUM0NEVibG1BOHN1TjV3?oc=5"
 ---
 
 # Record 584 · Beyond-TikTok-PH-Beauty-industrys-global-ambition---ABS-CBN
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Beyond TikTok: PH Beauty industry's global ambition - ABS-CBN
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

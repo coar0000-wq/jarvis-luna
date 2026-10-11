@@ -2,8 +2,14 @@
 title: "Record eb674100bb · Basis-completes-a-tax-workbook-2x-faster-with-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.627123+00:00
+updated_at: 2026-10-11T00:55:37.281028+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/basis-tax-workbook-with-astra"
+kind: "발표물"
 ---
 
 # Record eb674100bb · Basis-completes-a-tax-workbook-2x-faster-with-GPT-6-Astra
@@ -16,7 +22,3 @@ Basis completes a tax workbook 2x faster with GPT-6 Astra
 GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 6c8073301f · Can-AI-Agents-Deliver-Verifiable-Network-Wide-Outco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.025988+00:00
+updated_at: 2026-10-11T00:55:12.809929+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10181v1"
 ---
 
 # Record 6c8073301f · Can-AI-Agents-Deliver-Verifiable-Network-Wide-Outco
@@ -16,7 +20,3 @@ Can AI Agents Deliver Verifiable Network-Wide Outcomes Across Authority Boundari
 AI agents are increasingly involved in network automation, where they can initiate configuration changes through mediated operational interfaces and assess the resulting state. Nonetheless, operational networks usually span many devices and administrative domains. Realizing an operator's intent requires coordinating agents with distinct authority scopes that define the resources they can access, t
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

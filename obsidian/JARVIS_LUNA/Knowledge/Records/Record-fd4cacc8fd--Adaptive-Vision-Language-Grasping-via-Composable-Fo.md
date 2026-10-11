@@ -2,8 +2,12 @@
 title: "Record fd4cacc8fd · Adaptive-Vision-Language-Grasping-via-Composable-Fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.946446+00:00
+updated_at: 2026-10-11T00:55:11.801839+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04096v1"
 ---
 
 # Record fd4cacc8fd · Adaptive-Vision-Language-Grasping-via-Composable-Fo
@@ -16,7 +20,3 @@ Adaptive Vision-Language Grasping via Composable Foundation Priors and Generaliz
 This paper proposes AdaRoboVLG, a task-adaptive Vision-Language-Grasp (VLG) framework that supports generalizable grasp synthesis across different robotic hands. Unlike existing VLG methods that tightly couple foundation models with end-to-end grasp policies, AdaRoboVLG learns an efficient generalizable base policy that generates and evaluates physically feasible grasp candidates through explicit
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

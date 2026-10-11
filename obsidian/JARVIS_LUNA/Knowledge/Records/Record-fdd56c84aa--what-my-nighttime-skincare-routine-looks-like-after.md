@@ -2,8 +2,12 @@
 title: "Record fdd56c84aa · what-my-nighttime-skincare-routine-looks-like-after"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.694178+00:00
+updated_at: 2026-10-11T00:55:53.703510+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/J2AAU7q3X0w"
 ---
 
 # Record fdd56c84aa · what-my-nighttime-skincare-routine-looks-like-after
@@ -15,7 +19,3 @@ tags: [record, real-data]
 what my nighttime skincare routine looks like after having twins! #newmom
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

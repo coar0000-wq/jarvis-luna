@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T09:24:36.746111+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=QFzaILBfg9o"
 ---
 
 # Record 817 · Proven-Ways-To-Make-10KMonth-With-AI-No-BS-Guide
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Proven Ways To Make $10K/Month With AI (No-BS Guide)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

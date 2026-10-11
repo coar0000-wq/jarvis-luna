@@ -2,8 +2,12 @@
 title: "Record 75cad9111e · Semigroup-JEPA-Latent-Dynamics-Consistency-for-Zero"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.042518+00:00
+updated_at: 2026-10-11T00:55:12.978187+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10464v1"
 ---
 
 # Record 75cad9111e · Semigroup-JEPA-Latent-Dynamics-Consistency-for-Zero
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[과학수학]] [[JARVIS Real Knowledge Index]]

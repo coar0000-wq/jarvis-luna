@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.315342+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Agents"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEcybWxPbHdqZDBxYkwxTmY2YzN0Ri0wejZ5Tm5udEtacGhRUFZWTGxfY3V3Q1A2eVpfUGxaSGQxYXUxM0VYcm1XWEZWc1VMUEZ4MUp1NHlPYk9SS3E1NmJhYm9QaW1ZdWYyY1didWIycGNGMDdRLURFWjFUa1FubllsSnFhbWJidUpfY0JwYVFSZnpoS2N3RkZrYkdyc0pxajdPNXNjQQ?oc=5"
 ---
 
 # Record 716 · Shopify-Lays-Out-New-Rules-Governing-AI-Agents---pymntscom
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Shopify Lays Out New Rules Governing AI Agents - pymnts.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

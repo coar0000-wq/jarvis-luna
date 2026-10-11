@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.470559+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "LLM언어모델"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMid0FVX3lxTE96OUx6TTNFcG9QZkhGOXQwYVlhS1Y2bjV2MlpURUhTXzVkTTBjOGh1ejJpYUlwamFXOTFtWFNoSnY4ZjJ6RXFhZm1Ca1RhdDNEbTBYdl9SVzZmcWJlb3ZXYUZJc1pwT0ZPQ2pNV2ltZGdvOE1KLV9Z?oc=5"
 ---
 
 # Record 1257 · Meiyume-bets-on-longevity-skinification-and-alcohol-free-fragrance-for
@@ -16,7 +20,3 @@ Meiyume bets on longevity, skinification and alcohol-free fragrance for AW26 - P
 Meiyume bets on longevity, skinification and alcohol-free fragrance for AW26 - Premium Beauty News
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

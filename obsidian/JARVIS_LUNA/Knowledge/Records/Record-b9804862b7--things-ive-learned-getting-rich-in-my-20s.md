@@ -2,8 +2,12 @@
 title: "Record b9804862b7 · things-ive-learned-getting-rich-in-my-20s"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.735109+00:00
+updated_at: 2026-10-11T00:55:54.575201+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=ieeCpOjMNeI"
 ---
 
 # Record b9804862b7 · things-ive-learned-getting-rich-in-my-20s
@@ -15,7 +19,3 @@ tags: [record, real-data]
 things i've learned "getting rich" in my 20s...
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

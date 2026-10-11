@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.698369+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/the-work-now-within-reach"
 ---
 
 # Record 2083 · The-Work-Now-Within-Reach
@@ -16,7 +21,3 @@ The Work Now Within Reach
 Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

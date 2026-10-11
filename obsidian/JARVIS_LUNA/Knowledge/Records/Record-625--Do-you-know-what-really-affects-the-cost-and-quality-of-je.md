@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.400725+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/fLMt9WLwFP8"
 ---
 
 # Record 625 · Do-you-know-what-really-affects-the-cost-and-quality-of-jewelry
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Do you know what really affects the cost and quality of jewelry? 💎
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

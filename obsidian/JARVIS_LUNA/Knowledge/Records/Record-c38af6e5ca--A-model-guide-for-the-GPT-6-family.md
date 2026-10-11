@@ -2,8 +2,14 @@
 title: "Record c38af6e5ca · A-model-guide-for-the-GPT-6-family"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.650226+00:00
+updated_at: 2026-10-11T00:55:37.633552+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트", "LLM언어모델"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/practical-guide-building-gpt-6"
+kind: "발표물"
 ---
 
 # Record c38af6e5ca · A-model-guide-for-the-GPT-6-family
@@ -16,7 +22,3 @@ A model guide for the GPT-6 family
 Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[LLM언어모델]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

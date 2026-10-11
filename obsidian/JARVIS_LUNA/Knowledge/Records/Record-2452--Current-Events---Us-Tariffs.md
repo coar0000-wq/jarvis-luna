@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.327924+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/global-research/current-events/us-tariffs"
 ---
 
 # Record 2452 · Current-Events---Us-Tariffs
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Current Events   Us Tariffs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

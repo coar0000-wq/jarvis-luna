@@ -2,8 +2,14 @@
 title: "Record a5d4fbb4fa · AMD-Acquires-Taalas-to-Advance-Compute-Solutions-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.081806+00:00
+updated_at: 2026-10-11T00:55:28.270916+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "ir.amd.com"
+url: "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market"
+kind: "발표물"
 ---
 
 # Record a5d4fbb4fa · AMD-Acquires-Taalas-to-Advance-Compute-Solutions-fo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

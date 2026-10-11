@@ -2,8 +2,12 @@
 title: "Record e736073f01 · I-Tested-20-Korean-SunscreensBest-for-Your-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.693847+00:00
+updated_at: 2026-10-11T00:55:53.696897+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/IfiDSvICaIM"
 ---
 
 # Record e736073f01 · I-Tested-20-Korean-SunscreensBest-for-Your-Skin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Tested 20 Korean Sunscreens—Best for Your Skin
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

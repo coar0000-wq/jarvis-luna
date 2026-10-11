@@ -2,8 +2,12 @@
 title: "Record bac68eca08 · Coupling-Aware-Aggregation-of-Multi-Zone-HVAC-Loads"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.928618+00:00
+updated_at: 2026-10-11T00:55:11.604225+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03253v1"
 ---
 
 # Record bac68eca08 · Coupling-Aware-Aggregation-of-Multi-Zone-HVAC-Loads
@@ -16,7 +20,3 @@ Coupling-Aware Aggregation of Multi-Zone HVAC Loads under Uncertainty: A Two-lev
 Aggregating building heating, ventilation, and air-conditioning (HVAC) loads unlocks substantial demand-side flexibility for power systems. Yet multi-zone coupling creates intricate interdependencies and uncertainty propagation, complicating the quantification of aggregate flexibility. To address this issue, this paper proposes a coupling-aware two-level aggregation framework. At the building leve
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

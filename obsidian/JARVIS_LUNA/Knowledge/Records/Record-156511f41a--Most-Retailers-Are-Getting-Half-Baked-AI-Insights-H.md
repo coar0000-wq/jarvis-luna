@@ -2,8 +2,12 @@
 title: "Record 156511f41a · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.331791+00:00
+updated_at: 2026-10-11T00:55:32.612606+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQblVqUmN0Z0VaVTVVTFhCNGRndzlVT3JiaVZTeE5uYkxSbjNtOTYxRmhRYWhnU2RzOThmVFF6c2xzeEFHdTdLRExieUF2WElLZTlRTWVvbkltN1l2em11RXVMenBEZGVYREIyM0tBOFEtdFhiM0pBeGhWWFN0cy1ob0xB?oc=5"
 ---
 
 # Record 156511f41a · Most-Retailers-Are-Getting-Half-Baked-AI-Insights-H
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Most Retailers Are Getting Half-Baked AI Insights. Here's the Fix. - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

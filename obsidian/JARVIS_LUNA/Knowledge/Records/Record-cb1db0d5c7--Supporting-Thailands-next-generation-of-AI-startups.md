@@ -2,8 +2,14 @@
 title: "Record cb1db0d5c7 · Supporting-Thailands-next-generation-of-AI-startups"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.655485+00:00
+updated_at: 2026-10-11T00:55:37.708386+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "의료바이오", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/supporting-next-generation-ai-startups-thailand"
+kind: "발표물"
 ---
 
 # Record cb1db0d5c7 · Supporting-Thailands-next-generation-of-AI-startups
@@ -16,7 +22,3 @@ Supporting Thailand’s next generation of AI startups
 OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[의료바이오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

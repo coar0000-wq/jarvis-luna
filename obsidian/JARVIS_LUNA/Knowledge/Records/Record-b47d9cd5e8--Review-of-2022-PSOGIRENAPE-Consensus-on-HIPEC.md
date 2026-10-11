@@ -2,8 +2,14 @@
 title: "Record b47d9cd5e8 · Review-of-2022-PSOGIRENAPE-Consensus-on-HIPEC"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.262549+00:00
+updated_at: 2026-10-11T00:55:15.744306+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1002/jso.27885"
+kind: "논문"
 ---
 
 # Record b47d9cd5e8 · Review-of-2022-PSOGIRENAPE-Consensus-on-HIPEC
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Review of 2022 PSOGI/RENAPE Consensus on HIPEC
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

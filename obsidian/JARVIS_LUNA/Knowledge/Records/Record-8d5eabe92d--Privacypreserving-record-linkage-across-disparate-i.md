@@ -2,8 +2,14 @@
 title: "Record 8d5eabe92d · Privacypreserving-record-linkage-across-disparate-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.263700+00:00
+updated_at: 2026-10-11T00:55:15.766841+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "의료바이오", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1002/lrh2.10404"
+kind: "논문"
 ---
 
 # Record 8d5eabe92d · Privacypreserving-record-linkage-across-disparate-i
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Privacy‐preserving record linkage across disparate institutions and datasets to enable a learning health system: The national COVID cohort collaborative ( N3C ) experience
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[의료바이오]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

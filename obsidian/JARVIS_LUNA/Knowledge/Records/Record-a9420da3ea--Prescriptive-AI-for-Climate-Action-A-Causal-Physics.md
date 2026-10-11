@@ -2,8 +2,14 @@
 title: "Record a9420da3ea · Prescriptive-AI-for-Climate-Action-A-Causal-Physics-Informed-Optimizat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.983370+00:00
+updated_at: 2026-10-11T00:55:26.968720+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.54905/disssi.v62i341.e18d3283"
+kind: "논문"
 ---
 
 # Record a9420da3ea · Prescriptive-AI-for-Climate-Action-A-Causal-Physics-Informed-Optimizat
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Prescriptive AI for Climate Action: A Causal Physics-Informed Optimization Framework for High- Impact Methane Abatement
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

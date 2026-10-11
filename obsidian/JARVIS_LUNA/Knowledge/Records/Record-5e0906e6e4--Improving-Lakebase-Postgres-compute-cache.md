@@ -2,8 +2,14 @@
 title: "Record 5e0906e6e4 · Improving-Lakebase-Postgres-compute-cache"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.437897+00:00
+updated_at: 2026-10-11T00:55:49.025169+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/improving-lakebase-postgres-compute-cache"
+kind: "발표물"
 ---
 
 # Record 5e0906e6e4 · Improving-Lakebase-Postgres-compute-cache
@@ -16,7 +22,3 @@ Improving Lakebase Postgres compute cache
 The disaggregated storage model of Lakebase Postgres provides a feature rich, flexible...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

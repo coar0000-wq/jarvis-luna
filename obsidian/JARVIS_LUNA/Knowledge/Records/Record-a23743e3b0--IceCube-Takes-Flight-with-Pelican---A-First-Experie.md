@@ -2,8 +2,12 @@
 title: "Record a23743e3b0 · IceCube-Takes-Flight-with-Pelican---A-First-Experience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.846354+00:00
+updated_at: 2026-10-11T00:55:25.059741+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.31851"
 ---
 
 # Record a23743e3b0 · IceCube-Takes-Flight-with-Pelican---A-First-Experience
@@ -16,7 +20,3 @@ IceCube Takes Flight with Pelican - A First Experience
 The IceCube Neutrino Observatory has removed GridFTP and x.509 certificate authentication for data transfers, migrating to the Pelican Platform, the Open Science Data Federation, and WLGC tokens. While this is a common solution on the computing infrastructure we use, we required several customizations to work with our existing data storage structure and make it easier for scientists to use. We wro
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

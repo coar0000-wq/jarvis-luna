@@ -2,8 +2,14 @@
 title: "Record f72b0921ae · Effective-and-Memory-Efficient-Alternatives-to-ECC-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.674151+00:00
+updated_at: 2026-10-11T00:55:38.045667+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "openalex.org"
+url: "https://openalex.org/W7160968156"
+kind: "논문"
 ---
 
 # Record f72b0921ae · Effective-and-Memory-Efficient-Alternatives-to-ECC-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Effective and Memory-Efficient Alternatives to ECC for Reliable Large-Scale DNNs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

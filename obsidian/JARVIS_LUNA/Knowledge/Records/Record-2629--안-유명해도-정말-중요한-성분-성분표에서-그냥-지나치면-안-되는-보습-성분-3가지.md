@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.244304+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=_w1qKQehNvc"
 ---
 
 # Record 2629 · 안-유명해도-정말-중요한-성분-성분표에서-그냥-지나치면-안-되는-보습-성분-3가지
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ❗️안 유명해도 정말 중요한 성분❗️ 성분표에서 그냥 지나치면 안 되는 보습 성분 3가지
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

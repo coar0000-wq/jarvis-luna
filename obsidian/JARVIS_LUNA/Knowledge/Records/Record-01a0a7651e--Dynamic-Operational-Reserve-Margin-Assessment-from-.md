@@ -2,8 +2,12 @@
 title: "Record 01a0a7651e · Dynamic-Operational-Reserve-Margin-Assessment-from-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.922892+00:00
+updated_at: 2026-10-11T00:55:11.533003+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03066v1"
 ---
 
 # Record 01a0a7651e · Dynamic-Operational-Reserve-Margin-Assessment-from-
@@ -16,7 +20,3 @@ Dynamic Operational Reserve Margin Assessment from Risk-Constrained Unit Commitm
 We propose Dynamic Reserve Margin (DRM) as a time-varying operational adequacy metric derived from risk-constrained unit commitment (RCUC) states. DRM quantifies reserve adequacy using the additional generation capacity that committed generators can provide within a 5-minute response window relative to uncertainty and contingency reserve requirements. We introduce a complementary Reserve Risk Enve
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[JARVIS Real Knowledge Index]]

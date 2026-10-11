@@ -2,8 +2,14 @@
 title: "Record 64fc8b29a6 · Ai-Monetization-Race-To-Roi-Tmt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.529830+00:00
+updated_at: 2026-10-11T00:55:50.842920+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/ai-monetization-race-to-roi-tmt"
+kind: "발표물"
 ---
 
 # Record 64fc8b29a6 · Ai-Monetization-Race-To-Roi-Tmt
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ai Monetization Race To Roi Tmt
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

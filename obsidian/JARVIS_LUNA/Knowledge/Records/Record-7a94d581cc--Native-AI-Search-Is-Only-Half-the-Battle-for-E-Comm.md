@@ -2,8 +2,12 @@
 title: "Record 7a94d581cc · Native-AI-Search-Is-Only-Half-the-Battle-for-E-Comm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.512891+00:00
+updated_at: 2026-10-11T00:55:35.741455+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdkhsQzJITFpzblNJSHFCZktrckJKNGpWd2FKcnZGUU5ya3Jtdl9EX01FT3F2anRrcmlHMGFyMm5XbVdaUVYxbllBXzF2U0p4SjhJTXdVNkJOODBLSGlEZGlGSWFyRWJ0ZTZPRVpWSy1PdEhSaF9fWGJrMk83VWh2b3ZoTFZXX2lRb3N2VHdaZW9YV1E5LXhXTklSb3ZuTVJaS055aVcwUDJFWWJCelZjQg?oc=5"
 ---
 
 # Record 7a94d581cc · Native-AI-Search-Is-Only-Half-the-Battle-for-E-Comm
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Native AI Search Is Only Half the Battle for E-Commerce Brands - E-Commerce Times
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 97307f83a7 · Role-Steering-of-Language-Models-for-Social-Simulat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.705471+00:00
+updated_at: 2026-10-11T00:55:38.685548+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7172557415"
+kind: "논문"
 ---
 
 # Record 97307f83a7 · Role-Steering-of-Language-Models-for-Social-Simulat
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Role Steering of Language Models for Social Simulations
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

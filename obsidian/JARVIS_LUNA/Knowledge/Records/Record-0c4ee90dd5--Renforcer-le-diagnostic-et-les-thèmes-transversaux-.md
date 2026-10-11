@@ -2,8 +2,14 @@
 title: "Record 0c4ee90dd5 · Renforcer-le-diagnostic-et-les-thèmes-transversaux-du-réseau-régional-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.597804+00:00
+updated_at: 2026-10-11T00:55:21.446593+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.37432/jieph-confpro5-00252"
+kind: "논문"
 ---
 
 # Record 0c4ee90dd5 · Renforcer-le-diagnostic-et-les-thèmes-transversaux-du-réseau-régional-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Renforcer le diagnostic et les thèmes transversaux du réseau régional des laboratoires de référence: la stratégie OOAS développée pour l’achat d’équipements de laboratoire
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 4126bbefe1 · 9-Best-Moisturizers-for-Mature-Skin-for-Fine-Lines-and-Deep-Wrinkles"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.898837+00:00
+updated_at: 2026-10-11T00:55:41.917948+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/gallery/best-creams-serums-mature-skin-dermatologist-recommendations"
 ---
 
 # Record 4126bbefe1 · 9-Best-Moisturizers-for-Mature-Skin-for-Fine-Lines-and-Deep-Wrinkles
@@ -16,7 +20,3 @@ tags: [record, real-data]
 9 Best Moisturizers for Mature Skin for Fine Lines and Deep Wrinkles
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

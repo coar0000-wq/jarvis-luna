@@ -2,8 +2,12 @@
 title: "Record 1097da2269 · Distributed-Optimization-of-Modular-Production-Syst"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.065648+00:00
+updated_at: 2026-10-11T00:55:13.230985+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11615v1"
 ---
 
 # Record 1097da2269 · Distributed-Optimization-of-Modular-Production-Syst
@@ -16,7 +20,3 @@ Distributed Optimization of Modular Production Systems using Model-based Reinfor
 This paper presents a novel approach for data-driven self-learning control of highly flexible, modular manufacturing systems. Specifically, we employ a novel framework for model-based reinforcement learning which introduces approximate inverse process models within the training of reinforcement policies. This approach disentangles the learning of actuation dynamics and the dynamics in state space,
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

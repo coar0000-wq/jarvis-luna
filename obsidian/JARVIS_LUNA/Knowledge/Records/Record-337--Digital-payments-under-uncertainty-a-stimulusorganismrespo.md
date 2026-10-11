@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.857607+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1080/10371656.2026.2680752"
 ---
 
 # Record 337 · Digital-payments-under-uncertainty-a-stimulusorganismresponse-perspect
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Digital payments under uncertainty: a stimulus–organism–response perspective on mobile wallet adoption in mountain tourism
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

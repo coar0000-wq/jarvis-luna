@@ -2,8 +2,12 @@
 title: "Record 2896846880 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Wa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.498568+00:00
+updated_at: 2026-10-11T00:55:35.483914+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxNclVSWXljT2lObGJWa2VENjJYdmt3QmlMY19mdjc0SXV2WHd0b28zYlVLQzQ2d1ZsWGRzSHNsXzBwUFpUSWZTaGVfbk1uUVdGSmhKYzJlRjlKdk9WQXo4UnEyeUVoREpiOWJ3M0JtTWRoRVlqaUllZDZBakV0ZFh3cXdFWmRTeFVFMXRESVpoXzY2cWhfS1Y5UGlOMkQ0c0hwN055SkdITFpmWHRl?oc=5"
 ---
 
 # Record 2896846880 · Moo-Deng-Makeup-Why-Fans-Of-The-Viral-Baby-Hippo-Wa
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ‘Moo Deng Makeup’: Why Fans Of The Viral Baby Hippo Want Her Look - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record e7118c4b86 · Scalable-Packet-Tracking-on-FPGAs-for-Erasure-Coded-RDMA-over-Lossy-WA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.712919+00:00
+updated_at: 2026-10-11T00:55:38.843367+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Microsoft"
+domain: "openalex.org"
+url: "https://openalex.org/W7213988555"
+kind: "논문"
 ---
 
 # Record e7118c4b86 · Scalable-Packet-Tracking-on-FPGAs-for-Erasure-Coded-RDMA-over-Lossy-WA
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Scalable Packet Tracking on FPGAs for Erasure-Coded RDMA over Lossy WANs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

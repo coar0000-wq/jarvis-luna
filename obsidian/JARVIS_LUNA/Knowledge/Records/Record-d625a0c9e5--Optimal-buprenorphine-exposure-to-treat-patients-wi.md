@@ -2,8 +2,14 @@
 title: "Record d625a0c9e5 · Optimal-buprenorphine-exposure-to-treat-patients-wi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.574761+00:00
+updated_at: 2026-10-11T00:55:21.041949+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.3389/fphar.2026.1839067"
+kind: "논문"
 ---
 
 # Record d625a0c9e5 · Optimal-buprenorphine-exposure-to-treat-patients-wi
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Optimal buprenorphine exposure to treat patients with opioid use disorder in the era of fentanyl and polysubstance use
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

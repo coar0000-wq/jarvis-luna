@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.185640+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/cXYRpS-i6_A"
 ---
 
 # Record 873 · How-I-Finally-Quit-Zyn
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How I Finally Quit Zyn
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

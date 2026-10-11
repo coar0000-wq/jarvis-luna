@@ -2,8 +2,12 @@
 title: "Record 6c10fdf127 · Adaptation-Needs-in-Robotic-Systems-Assessing-Behav"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.973620+00:00
+updated_at: 2026-10-11T00:55:12.127735+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05331v1"
 ---
 
 # Record 6c10fdf127 · Adaptation-Needs-in-Robotic-Systems-Assessing-Behav
@@ -16,7 +20,3 @@ Adaptation Needs in Robotic Systems: Assessing Behavior Trees and Their Enhancem
 Robotic systems increasingly operate in dynamic, uncertain, and open-ended environments, where design-time assumptions may no longer hold, and adaptation becomes necessary to maintain effective and safe operation. Behavior Trees (BTs) are widely used in robotic control architectures due to their modularity, readability, and reactivity. This raises a central question: are BTs sufficient to meet the
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

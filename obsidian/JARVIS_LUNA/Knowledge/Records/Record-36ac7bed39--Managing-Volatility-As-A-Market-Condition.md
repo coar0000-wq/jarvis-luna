@@ -2,8 +2,14 @@
 title: "Record 36ac7bed39 · Managing-Volatility-As-A-Market-Condition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.482999+00:00
+updated_at: 2026-10-11T00:55:49.980867+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition"
+kind: "발표물"
 ---
 
 # Record 36ac7bed39 · Managing-Volatility-As-A-Market-Condition
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Managing Volatility As A Market Condition
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

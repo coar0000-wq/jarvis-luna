@@ -2,8 +2,12 @@
 title: "Record d75083f7b7 · Dime-Beauty-Co-Skin-Care-ProductsAllure-Beauty-Box-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.903475+00:00
+updated_at: 2026-10-11T00:55:41.982281+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/review/dime-beauty-member-choice-review-2026"
 ---
 
 # Record d75083f7b7 · Dime-Beauty-Co-Skin-Care-ProductsAllure-Beauty-Box-
@@ -16,7 +20,3 @@ Dime Beauty Co. Skin-Care Products—Allure Beauty Box Member Choice Review
 Dime Beauty Co. Skin-Care Products—Allure Beauty Box Member Choice Review
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

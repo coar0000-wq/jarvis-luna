@@ -2,8 +2,14 @@
 title: "Record d0bc9c93d8 · Samsung-Medison-Expands-Womens-Health-Diagnostic-Po"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.578878+00:00
+updated_at: 2026-10-11T00:55:36.701102+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-medison-expands-womens-health-diagnostic-portfolio-with-launch-of-premium-ultrasound-hera-z10"
+kind: "발표물"
 ---
 
 # Record d0bc9c93d8 · Samsung-Medison-Expands-Womens-Health-Diagnostic-Po
@@ -16,7 +22,3 @@ Samsung Medison Expands Women’s Health Diagnostic Portfolio With Launch of Pre
 Samsung Medison launched its premium obstetrics and gynecology (OB/GYN) ultrasound diagnostic system, the HERA Z10. Alongside the flagship HERA Z20, the new system officially completes the HERA Z Series (Z20 & Z10) lineup. With global trends showing an increase in maternal age and pregnancy-related complications, precision imaging for prenatal diagnostics and rapid clinical decision-making have […
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record a8fcffe040 · i-sold-everything"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.715203+00:00
+updated_at: 2026-10-11T00:55:54.180745+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=5SSzRxFOM9c"
 ---
 
 # Record a8fcffe040 · i-sold-everything
@@ -15,7 +19,3 @@ tags: [record, real-data]
 i sold everything
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

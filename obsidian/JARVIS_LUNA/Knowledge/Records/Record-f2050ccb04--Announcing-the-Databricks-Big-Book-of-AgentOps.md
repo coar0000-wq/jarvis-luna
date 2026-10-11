@@ -2,8 +2,14 @@
 title: "Record f2050ccb04 · Announcing-the-Databricks-Big-Book-of-AgentOps"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.425609+00:00
+updated_at: 2026-10-11T00:55:48.823709+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/announcing-databricks-big-book-agentops"
+kind: "발표물"
 ---
 
 # Record f2050ccb04 · Announcing-the-Databricks-Big-Book-of-AgentOps
@@ -16,7 +22,3 @@ Announcing the Databricks Big Book of AgentOps
 What is AgentOps?AgentOps is the operating discipline for building, deploying and...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

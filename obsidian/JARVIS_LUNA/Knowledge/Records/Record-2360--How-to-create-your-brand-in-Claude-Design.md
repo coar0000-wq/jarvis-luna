@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.976588+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/y_l_fPDU1YU"
 ---
 
 # Record 2360 · How-to-create-your-brand-in-Claude-Design
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to create your brand in Claude Design! ✨
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

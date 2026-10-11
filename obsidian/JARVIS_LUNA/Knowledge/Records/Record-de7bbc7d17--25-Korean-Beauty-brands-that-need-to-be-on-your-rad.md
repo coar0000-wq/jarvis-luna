@@ -2,8 +2,12 @@
 title: "Record de7bbc7d17 · 25-Korean-Beauty-brands-that-need-to-be-on-your-radar---RUSSH"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.139441+00:00
+updated_at: 2026-10-11T00:55:29.252749+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zS1NtRnE5eEE3RVhmNUR2WUdXck5jc1RxWDNSUEFTaXhiTmE2Y3lKcHZPX09iemREdE56cWhLazl5cmQ1RjN3QXdLTXcxQ3Y5YzRuaVpn?oc=5"
 ---
 
 # Record de7bbc7d17 · 25-Korean-Beauty-brands-that-need-to-be-on-your-radar---RUSSH
@@ -15,7 +19,3 @@ tags: [record, real-data]
 25 Korean Beauty brands that need to be on your radar - RUSSH
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

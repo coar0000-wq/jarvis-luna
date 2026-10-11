@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.872723+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE91a1IzWkJ4c1JtM3BxMVJkZzdJaVhMak41M2lIU0xmUmxtWlBVNWxobTBrNWZTVFlwVGZ0dFRrUkRoTGhtMnZOSzZacHZ1ejlmbVJzUjg2UjZNMjlLdXRWR3ktS21KaGJXWUliZ3RB0gFyQVVfeXFMT2NnellPM2QwNzhJMjl3R1ZRbDVqb1ZUQkdvTHZGZ0RleldHQ3JuNjBNRFdmdWZYNjF3aWNKMEJDRGo4VUx5NG56ZHk4UExJaUl1RmMxLTlmWW9WN0VxSUd4ckpHYUVObWhWaXQtemxCU3J3?oc=5"
 ---
 
 # Record 275 · Korea-overtakes-US-to-become-worlds-No-2-cosmetics-exporter---Korea-Bi
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Korea overtakes US to become world’s No. 2 cosmetics exporter - Korea Biomedical Review
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

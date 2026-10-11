@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.524086+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTkY4aExoQjhuaS1sZWZwQ1AzZUpJU1phd3dURDMwQlpFTi1DWXgzTndpaWRyUnVCbGd6amtVeUZ3dEk3eGdXaTNzX1I5NldRX1pwR3J2TkFLNTQxMFJjc2lIS0ZsTTB4ZHJGWUVJVVpudVZQdmxpQ0pKOXNXWFYzeU9tMTVfcDNJQ05F?oc=5"
 ---
 
 # Record 1481 · I-tried-the-rubber-band-TikTok-beauty-trend-and-this-is-what-I-found--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I tried the rubber band TikTok beauty trend and this is what I found - Yahoo Life UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

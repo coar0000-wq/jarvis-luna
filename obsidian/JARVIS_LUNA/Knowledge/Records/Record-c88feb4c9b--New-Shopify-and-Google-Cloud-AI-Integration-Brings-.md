@@ -2,8 +2,12 @@
 title: "Record c88feb4c9b · New-Shopify-and-Google-Cloud-AI-Integration-Brings-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.203471+00:00
+updated_at: 2026-10-11T00:55:30.276150+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "인프라클라우드"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPR0djX0xaNVM3c0dSbXJUT0JkOGlTQ3RvV2x3YlR3ZVlrdThBSkVDRjlobENDdENUQjBUZWhlRHNFZHczYzRZRWNvb19rLXhRRmQwSE1xLWNUSk5VVmpRVWdIMFhsR3JDZWJsZXI3a1FOc01lcVh4TEF0MFhwWjlRdm9wT2lqcmhuNWhCYXB1R2FsbnNEZzlrY0hBUE1hZW1ZVzZ1M0s0b2xqUXJCOWZDUzNteDgyak5nMi1nQXhCbTR5OGJZV09YYzd3dzNGMW9YWFl4aWJ3LWJnWkZlRVJwWFp3bk0xblp0dnNkOFIzMGx2bmN0UDdTck8tMVJpZw?oc=5"
 ---
 
 # Record c88feb4c9b · New-Shopify-and-Google-Cloud-AI-Integration-Brings-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 New Shopify and Google Cloud AI Integration Brings Advanced Ecommerce Capabilities to Retailers and Merchants Worldwide - Google Cloud Press Corner
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

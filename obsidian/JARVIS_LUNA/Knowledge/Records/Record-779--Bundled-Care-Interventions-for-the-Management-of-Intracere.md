@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.441544+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.4037/ccn2026556"
 ---
 
 # Record 779 · Bundled-Care-Interventions-for-the-Management-of-Intracerebral-Hemorrh
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Bundled Care Interventions for the Management of Intracerebral Hemorrhage: A Review
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

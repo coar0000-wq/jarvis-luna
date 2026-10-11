@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.037097+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvakxHUWU1QWVUc211T0VKUkJJTV9OMnVhRlVGVXNsc3c3aW5Ya1pVQzdnckZ2cEVsT0NmMHBlQXdTTDdOVWRyamVJZFFab3YwUk1rc0F3eDNtMkRSYXk5TWljOEk?oc=5"
 ---
 
 # Record 1230 · Olive-Young-Has-Landed-In-Sephora-MalaysiaHeres-What-To-Shop-According
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young Has Landed In Sephora Malaysia—Here’s What To Shop According To Your Skin Type - Grazia Malaysia
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

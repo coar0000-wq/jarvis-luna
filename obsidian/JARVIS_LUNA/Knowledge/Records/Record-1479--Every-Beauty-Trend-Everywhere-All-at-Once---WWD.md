@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.339300+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxPYWJpY3E5UnZsMXdhbENheTdYUGJIWnBkOXE5SnBVekRYakgyRWxMUW9scVpUaTllZXlTbVU4dFRKNFBLZjlLbERNY0RKOXVadjA4bTd3LWtya2tWU3lUZXk0ZUgwaXYxWW9QVWFubG5acDdycXppMzFCa0dXaTNlbDhNdHNUeFBmaEpteDU0c3BsTExIem9vRXpRVk5SQQ?oc=5"
 ---
 
 # Record 1479 · Every-Beauty-Trend-Everywhere-All-at-Once---WWD
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Every Beauty Trend, Everywhere, All at Once - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

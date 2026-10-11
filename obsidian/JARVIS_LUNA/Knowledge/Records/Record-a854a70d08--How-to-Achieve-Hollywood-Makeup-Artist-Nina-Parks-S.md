@@ -2,8 +2,12 @@
 title: "Record a854a70d08 · How-to-Achieve-Hollywood-Makeup-Artist-Nina-Parks-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.335591+00:00
+updated_at: 2026-10-11T00:55:32.683546+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRDE0TS1KMDRXQTJFTWlLb3Q1MHJyMGdBN3JHQWlLZ1JzZU5aTlBnVEVZQ09jRDVCU2JuVzVCbGwwMmJwY3pXMWVNNFZfQTVDdmFMWklvZW0wZlRaY3I1T05DZ1VNYUROQk90OHAyVlNtd0pqMldzMy1CeEJZQnZfQlFJaw?oc=5"
 ---
 
 # Record a854a70d08 · How-to-Achieve-Hollywood-Makeup-Artist-Nina-Parks-S
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to Achieve Hollywood Makeup Artist Nina Park’s Signature Soft and Sculpted Look - Preview.ph
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

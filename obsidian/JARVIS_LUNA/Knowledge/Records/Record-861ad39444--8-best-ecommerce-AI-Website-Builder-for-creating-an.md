@@ -2,8 +2,12 @@
 title: "Record 861ad39444 · 8-best-ecommerce-AI-Website-Builder-for-creating-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.281496+00:00
+updated_at: 2026-10-11T00:55:31.665348+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTFBpU29tczMwM1pKaUdZYld0aThjYVRYWlE1c3k2VXc4RDBpUDdLOEx5bDg1OHljdURVUG5Xc25PWUxVZDY0RGl2OEFNM1ZYelFhN3FTVm1ySC1hRFk5amtVbkpudm9ZSFFCaEVQX1hleGRKWHV0d1NzSDhJdw?oc=5"
 ---
 
 # Record 861ad39444 · 8-best-ecommerce-AI-Website-Builder-for-creating-an
@@ -15,7 +19,3 @@ tags: [record, real-data]
 8 best ecommerce AI Website Builder for creating an online store - Hostinger
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 34a0b97407 · fedlora-partition-variance-code-configurations-and-run-artifacts-for-P"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.089067+00:00
+updated_at: 2026-10-11T00:55:13.472796+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.13512"
 ---
 
 # Record 34a0b97407 · fedlora-partition-variance-code-configurations-and-run-artifacts-for-P
@@ -16,7 +20,3 @@ fedlora-partition-variance: code, configurations, and run artifacts for Partitio
 Pre-registered 204-run study decomposing held-out-loss variance in federated LoRA fine-tuning into partition-draw, partition-by-method interaction, and training-seed components. Includes frozen configurations, grid definitions, the pre-registered analysis plan, the verifier, per-run metadata, and analysis outputs. Adapter weights are not included.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

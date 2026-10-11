@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.161661+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/-BaO7HHXgpI"
 ---
 
 # Record 830 · 오늘-올리브영-단-하루-특가속건조-싹-잡는-판테놀-11-혜택
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 오늘 올리브영 단 하루 특가❗속건조 싹 잡는 판테놀 1+1 혜택
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

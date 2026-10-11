@@ -2,8 +2,12 @@
 title: "Record d2fd819cfa · Pro-SEO-tips-for-product-pages"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.765521+00:00
+updated_at: 2026-10-11T00:55:55.068232+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/oHx39xLZwHo"
 ---
 
 # Record d2fd819cfa · Pro-SEO-tips-for-product-pages
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Pro SEO tips for product pages
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

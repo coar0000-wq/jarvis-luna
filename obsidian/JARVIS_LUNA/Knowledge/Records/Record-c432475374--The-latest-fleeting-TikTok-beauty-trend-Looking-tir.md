@@ -2,8 +2,12 @@
 title: "Record c432475374 · The-latest-fleeting-TikTok-beauty-trend-Looking-tir"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.493142+00:00
+updated_at: 2026-10-11T00:55:35.404856+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ1B2QmlRT0pwNERrRmJITGVQQmdyX0wycDlRR0twZXRMOWRkS0J4YXp3cGN4X2xLSzZVUnVFelYyWDFNbzR0dWRKcXVkTlV4YXlFMVQzLWpDMlJhU0tPY2xCXy13LWV4T092eElRY2ZOSEl1M2gwZWxzcDZoOFE2dXJ4Y2xaZTduZVlLYVdNR1lvOHFMd3lZdEJkei1wOEFEZGdKOUZORGc4QQ?oc=5"
 ---
 
 # Record c432475374 · The-latest-fleeting-TikTok-beauty-trend-Looking-tir
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The latest fleeting TikTok beauty trend? Looking tired - KESQ
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

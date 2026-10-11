@@ -2,8 +2,12 @@
 title: "Record 0bd256e3cf · La-Roche-Posay-Toleriane-Double-Repair-Face-Moistur"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.263676+00:00
+updated_at: 2026-10-11T00:55:46.711096+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Roche-Posay-Toleriane-Double-Repair-Moisturizer/dp/B01N9SPQHQ/ref=zg_bs_g_beauty_d_sccl_12/134-4860327-2688437"
 ---
 
 # Record 0bd256e3cf · La-Roche-Posay-Toleriane-Double-Repair-Face-Moistur
@@ -16,7 +20,3 @@ La Roche-Posay Toleriane Double Repair Face Moisturizer
 La Roche-Posay Toleriane Double Repair Face Moisturizer · $24.99 · 평점 4.6 · 리뷰 51,662
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

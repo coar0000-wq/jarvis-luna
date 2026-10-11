@@ -2,8 +2,14 @@
 title: "Record 19b2d723b7 · Earliest-iron-blooms-discovered-off-the-Carmel-coas"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.356935+00:00
+updated_at: 2026-10-11T00:55:17.307820+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s40494-026-02409-7"
+kind: "논문"
 ---
 
 # Record 19b2d723b7 · Earliest-iron-blooms-discovered-off-the-Carmel-coas
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Earliest iron blooms discovered off the Carmel coast revise Mediterranean trade in raw metal ca. 600 BCE
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

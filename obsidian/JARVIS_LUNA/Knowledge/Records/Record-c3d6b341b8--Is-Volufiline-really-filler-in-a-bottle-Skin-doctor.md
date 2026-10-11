@@ -2,8 +2,12 @@
 title: "Record c3d6b341b8 · Is-Volufiline-really-filler-in-a-bottle-Skin-doctor-weighs-in-on-TikTo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.349697+00:00
+updated_at: 2026-10-11T00:55:32.967684+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeDdSWGtzMmhLNnhIT0N6OHFUYTQ5OEY5cGNrY1hlSk4wRk5nbzZOc3NyZGxob0l5Z0kya2tlYkJWVVNoVHN4SktncG1tYm03MWYzSFhkRVNXS2VKZkNFT3pPOFZMd0JXUlNhOC1LTG1aNS03QnM3eVNHRXZyTGcwWVRMaVp1X3M?oc=5"
 ---
 
 # Record c3d6b341b8 · Is-Volufiline-really-filler-in-a-bottle-Skin-doctor-weighs-in-on-TikTo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Is Volufiline really 'filler in a bottle'? Skin doctor weighs in on TikTok's next big beauty trend - Indy100 | News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

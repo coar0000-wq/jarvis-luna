@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.357411+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/j8rtHlkIKOU"
 ---
 
 # Record 2206 · Expensive-SHT-thats-Worth-Every-Single-Dollar-K-Beauty-Edition
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Expensive SH*T that's Worth Every Single Dollar! K-Beauty Edition
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

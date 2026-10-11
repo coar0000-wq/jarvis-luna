@@ -2,8 +2,14 @@
 title: "Record e46b9ff42e · BamiBERT-A-New-BERT-based-Language-Model-for-Vietnamese"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.646684+00:00
+updated_at: 2026-10-11T00:55:22.433158+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2607.02259"
+kind: "논문"
 ---
 
 # Record e46b9ff42e · BamiBERT-A-New-BERT-based-Language-Model-for-Vietnamese
@@ -15,7 +21,3 @@ tags: [record, real-data]
 BamiBERT: A New BERT-based Language Model for Vietnamese
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

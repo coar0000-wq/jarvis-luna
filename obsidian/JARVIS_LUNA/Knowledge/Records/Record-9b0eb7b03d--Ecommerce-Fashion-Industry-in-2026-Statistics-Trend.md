@@ -2,8 +2,12 @@
 title: "Record 9b0eb7b03d · Ecommerce-Fashion-Industry-in-2026-Statistics-Trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.266160+00:00
+updated_at: 2026-10-11T00:55:31.381193+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BS3prMC1VVElPRFN3Vmo4OUNXdnYxRjNmeWFlOFRPXzZBdkJUSzdxR0tRcUhzRVRkdFg3czBEQUlDellGei1rdlZfSjBWY3hlUlI0VUhBdko0cWR2Z3BsX2hHeTZHcVJJeW9kcFRjc0ZOT0Zz?oc=5"
 ---
 
 # Record 9b0eb7b03d · Ecommerce-Fashion-Industry-in-2026-Statistics-Trend
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Ecommerce Fashion Industry in 2026: Statistics, Trends and Strategies - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

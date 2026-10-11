@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.824977+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical"
 ---
 
 # Record 2306 · Chris-Olahs-remarks-on-Pope-Leo-XIVs-encyclical
@@ -16,7 +21,3 @@ Chris Olah's remarks on Pope Leo XIV's encyclical
 The full text of Anthropic co-founder Chris Olah's remarks on the Pope's encyclical on AI, "Magnifica humanitas."
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

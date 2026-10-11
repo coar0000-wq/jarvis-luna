@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.399032+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1002/advs.77390"
 ---
 
 # Record 361 · TripleLevel-ContentAddressable-Vertical-NAND-Flash-Memory
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Triple‐Level Content‐Addressable Vertical NAND Flash Memory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

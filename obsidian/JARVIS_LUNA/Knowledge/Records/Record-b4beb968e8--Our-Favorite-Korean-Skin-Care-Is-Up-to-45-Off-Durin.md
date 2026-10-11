@@ -2,8 +2,12 @@
 title: "Record b4beb968e8 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-Durin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.295548+00:00
+updated_at: 2026-10-11T00:55:31.938952+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KSC12Q3NLMU9YTkdiR2JpUnRXWDdrd2Nfajd0c3JVcE40SWJnUnVaLUhnMDU1ajJ1WGk5VjlvX0JnblNYbmJad2pWd244TGE2S2dZN2NYY0RRODRTaU5NeFNKU25PSWc4NjdsckRCa2R5aTBWQWI5Rjh3?oc=5"
 ---
 
 # Record b4beb968e8 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-Durin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Our Favorite Korean Skin Care Is Up to 45% Off During Amazon’s Big Spring Sale - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

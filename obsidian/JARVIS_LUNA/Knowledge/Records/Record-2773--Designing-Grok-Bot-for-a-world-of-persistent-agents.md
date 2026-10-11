@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.933170+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "LLM언어모델"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/designing-grok-bot"
 ---
 
 # Record 2773 · Designing-Grok-Bot-for-a-world-of-persistent-agents
@@ -16,7 +21,3 @@ Designing Grok Bot for a world of persistent agents
 How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

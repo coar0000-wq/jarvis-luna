@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.117994+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/"
 ---
 
 # Record 2467 · Boston-Dynamics-veterans-launch-Dynamic-Creatures-to-bring-characters-
@@ -16,7 +20,3 @@ Boston Dynamics veterans launch Dynamic Creatures to bring characters to life wi
 <p>Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments.</p> <p>The post <a href="https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/">Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics</a> appeared first on <a h
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

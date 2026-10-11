@@ -2,8 +2,12 @@
 title: "Record a736464cf2 · Clinique-Almost-Lipstick-Tinted-Lip-Balm-in-Black-Honey--Sheer--Lightw"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.032090+00:00
+updated_at: 2026-10-11T00:55:43.702422+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Clinique-Almost-Lipstick-Black-Honey/dp/B0032RMX3U/ref=zg_bs_g_beauty_d_sccl_14/140-4229340-3306918"
 ---
 
 # Record a736464cf2 · Clinique-Almost-Lipstick-Tinted-Lip-Balm-in-Black-Honey--Sheer--Lightw
@@ -16,7 +20,3 @@ Clinique Almost Lipstick Tinted Lip Balm in Black Honey | Sheer + Lightweight Mo
 Clinique Almost Lipstick Tinted Lip Balm in Black Honey | Sheer + Lightweight Moisturizing Lipstick · $21.25 · 평점 4.5 · 리뷰 16,167
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

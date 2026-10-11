@@ -2,8 +2,12 @@
 title: "Record e4baba8bf4 · A-Reconfigurable-Hybrid-Convolutional-Fully-Connect"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.925659+00:00
+updated_at: 2026-10-11T00:55:11.560445+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03174v1"
 ---
 
 # Record e4baba8bf4 · A-Reconfigurable-Hybrid-Convolutional-Fully-Connect
@@ -16,7 +20,3 @@ A Reconfigurable Hybrid Convolutional-Fully Connected Neuromorphic Core for Biom
 This work presents a programmable FPGA-based architecture for spiking convolutional neural network (SCNN) inference, with real-time hypoxia classification serving as a biomedical edge application. The architecture implements a hybrid spiking convolutional-fully connected (CNN-FC) topology on a programmable, quantized, layer-based neuromorphic hardware core. Early layers perform spiking convolution
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

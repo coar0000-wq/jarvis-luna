@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.774723+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "AI-에이전트"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/regional-inference-open-models-new-compute/"
 ---
 
 # Record 1024 · In-region-inference-open-models-and-new-European-infrastructure-for-so
@@ -16,7 +21,3 @@ In-region inference, open models, and new European infrastructure for sovereign 
 Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

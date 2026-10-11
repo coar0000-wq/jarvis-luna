@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.250253+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-urea-moisturizer"
 ---
 
 # Record 1977 · Urea-Is-an-Under-the-Radar-Ingredient-That-Softens-Skin-from-Head-to-T
@@ -16,7 +20,3 @@ Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe
 Urea Is an Under-the-Radar Ingredient That Softens Skin from Head to Toe
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

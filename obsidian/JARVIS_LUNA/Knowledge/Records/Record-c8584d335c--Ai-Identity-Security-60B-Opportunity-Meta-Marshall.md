@@ -2,8 +2,14 @@
 title: "Record c8584d335c · Ai-Identity-Security-60B-Opportunity-Meta-Marshall"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.536783+00:00
+updated_at: 2026-10-11T00:55:51.051713+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-identity-security-60b-opportunity-meta-marshall"
+kind: "발표물"
 ---
 
 # Record c8584d335c · Ai-Identity-Security-60B-Opportunity-Meta-Marshall
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Ai Identity Security 60B Opportunity Meta Marshall
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.091159+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/building-ai-systems-for-capital-markets/transcript.pdf"
 ---
 
 # Record 2351 · Building-Ai-Systems-For-Capital-Markets---Transcript
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Building Ai Systems For Capital Markets   Transcript
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

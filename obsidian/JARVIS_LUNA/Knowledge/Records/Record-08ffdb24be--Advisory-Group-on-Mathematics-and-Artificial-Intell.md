@@ -2,8 +2,14 @@
 title: "Record 08ffdb24be · Advisory-Group-on-Mathematics-and-Artificial-Intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.623541+00:00
+updated_at: 2026-10-11T00:55:37.236762+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/advisory-group-on-mathematics-and-ai"
+kind: "발표물"
 ---
 
 # Record 08ffdb24be · Advisory-Group-on-Mathematics-and-Artificial-Intelligence
@@ -16,7 +22,3 @@ Advisory Group on Mathematics and Artificial Intelligence
 OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

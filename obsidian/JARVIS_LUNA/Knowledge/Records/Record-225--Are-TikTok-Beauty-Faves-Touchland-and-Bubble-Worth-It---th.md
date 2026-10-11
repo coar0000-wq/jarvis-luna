@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.881699+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE5UTFI4RU9JMloycUtjbWR3Um1vU2NOUGVObVdOZUl5UERwd3ZQaTA4NFlUWUpZZUl4TzZ0NTMwQ0dfdDZsc1I2MGNWNWk1QU80dm1BbWZnSFB5SkxFaWtzeGFIZDFTdTRpOEk0ellJZ9IBdEFVX3lxTE55X2pqT2NMRkhPMGNxb1YtRjVhendRc2I3SHJFWUZ1aDRyOTQ0eDdBcXBMSEZQcW5wcUpUN2FKRFoyX3kxekttUjZEVU1tclVqVVF4T1pyV1U1NzR0bjlPaG9fRE1IeHFBTS10bjRDTnVNdVBQ?oc=5"
 ---
 
 # Record 225 · Are-TikTok-Beauty-Faves-Touchland-and-Bubble-Worth-It---thekitca
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Are TikTok Beauty Faves Touchland and Bubble Worth It? - thekit.ca
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

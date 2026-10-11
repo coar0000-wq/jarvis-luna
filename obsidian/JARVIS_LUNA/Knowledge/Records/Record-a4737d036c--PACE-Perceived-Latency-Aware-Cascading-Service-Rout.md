@@ -2,8 +2,12 @@
 title: "Record a4737d036c · PACE-Perceived-Latency-Aware-Cascading-Service-Rout"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.033906+00:00
+updated_at: 2026-10-11T00:55:12.878684+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["모델-라우팅MoE"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10372v1"
 ---
 
 # Record a4737d036c · PACE-Perceived-Latency-Aware-Cascading-Service-Rout
@@ -16,7 +20,3 @@ PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for Q
 We present the PACE, a framework for retrieval-augmented dialogue serving that formalizes Perceived Time-to-First-Response (PTFR) as a QoE objective and minimizes it under quality/cost constraints. Unlike prior work on cascaded routing, semantic caching, or adaptive retrieval, PACE jointly controls which answer source composes the response and what fills the waiting window. Deployed on a humanoid-
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

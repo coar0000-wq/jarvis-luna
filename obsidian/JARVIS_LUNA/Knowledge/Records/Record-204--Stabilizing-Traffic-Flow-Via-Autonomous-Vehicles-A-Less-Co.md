@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.369477+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08218v1"
 ---
 
 # Record 204 · Stabilizing-Traffic-Flow-Via-Autonomous-Vehicles-A-Less-Conservative-A
@@ -16,7 +20,3 @@ Stabilizing Traffic Flow Via Autonomous Vehicles: A Less Conservative Approach
 This paper explores stabilizing traffic flow using a minimum number of autonomous vehicles (AVs) under control constraints. In contrast to most studies, we consider a heterogeneous parameter setup scenario for human-driven vehicles (HVs) to reflect real-world differences in driving behavior. While current literature uses an H-Infinity based sufficient condition to ensure the string stability of tr
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

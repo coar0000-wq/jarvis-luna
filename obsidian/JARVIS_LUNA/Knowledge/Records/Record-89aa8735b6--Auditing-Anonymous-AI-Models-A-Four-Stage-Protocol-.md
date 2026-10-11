@@ -2,8 +2,12 @@
 title: "Record 89aa8735b6 · Auditing-Anonymous-AI-Models-A-Four-Stage-Protocol-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.915376+00:00
+updated_at: 2026-10-11T00:55:11.404009+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31142v1"
 ---
 
 # Record 89aa8735b6 · Auditing-Anonymous-AI-Models-A-Four-Stage-Protocol-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

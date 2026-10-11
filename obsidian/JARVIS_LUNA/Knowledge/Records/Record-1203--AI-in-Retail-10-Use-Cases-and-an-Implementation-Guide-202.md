@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:25.849400+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45V1g4ZmNjR01GNmZ6UnVZT0lXc2lqQUxKMlFOZ1ZSUmNTZ0w2Q1l0UGphaG9jUW9jU0JnNXEtaWlBYl9aaDN5TEdyX2xDbVlJSkFQQVVrTXNvelNubVh5WmctRHhodw?oc=5"
 ---
 
 # Record 1203 · AI-in-Retail-10-Use-Cases-and-an-Implementation-Guide-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI in Retail: 10 Use Cases and an Implementation Guide (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

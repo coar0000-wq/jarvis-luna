@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.106525+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.2196/85816"
 ---
 
 # Record 637 · Risk-Factors-for-Noninitiation-and-Dropout-in-Blended-Therapy-in-Inpat
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Risk Factors for Noninitiation and Dropout in Blended Therapy in Inpatient Psychiatric Patients: Retrospective Cohort Study.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

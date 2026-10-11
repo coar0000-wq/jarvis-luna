@@ -2,8 +2,12 @@
 title: "Record c7cd0692ae · Distributed-Droop-Free-Control-of-Grid-Forming-Inve"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.987891+00:00
+updated_at: 2026-10-11T00:55:12.327303+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07777v1"
 ---
 
 # Record c7cd0692ae · Distributed-Droop-Free-Control-of-Grid-Forming-Inve
@@ -16,7 +20,3 @@ Distributed Droop-Free Control of Grid-Forming Inverters with Dynamic Line and L
 Droop-free distributed control has emerged as a promising alternative to conventional linear droop control for coordinating inverter-based resources in AC microgrids. However, existing droop-free methods typically rely on quasi-steady state network models that neglect fast electromagnetic transients and assume a decoupled dependence of active and reactive power on frequency and voltage, respective
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

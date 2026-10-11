@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.153843+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.3390/s26123800"
 ---
 
 # Record 610 · Movement-Based-Low-Back-Pain-Subgroups-Using-Motion-Tape-Strain-Data-w
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Movement-Based Low Back Pain Subgroups Using Motion Tape Strain Data with Biomechanical and Causal Feature Engineering
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

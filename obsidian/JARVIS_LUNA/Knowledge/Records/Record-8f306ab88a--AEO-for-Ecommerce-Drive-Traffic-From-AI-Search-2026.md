@@ -2,8 +2,12 @@
 title: "Record 8f306ab88a · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.172122+00:00
+updated_at: 2026-10-11T00:55:29.753191+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YNnc5azZlNzdzVHc3Vk9YZnJMSlRUaVY5N3AxdnRtV01FT2loS3EycDBnREh2QlozdVoxTUhhQS1vdnRodGNVV2FVc2hzNnptbzVxeWF6dlRMSWNKTkE?oc=5"
 ---
 
 # Record 8f306ab88a · AEO-for-Ecommerce-Drive-Traffic-From-AI-Search-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AEO for Ecommerce: Drive Traffic From AI Search (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

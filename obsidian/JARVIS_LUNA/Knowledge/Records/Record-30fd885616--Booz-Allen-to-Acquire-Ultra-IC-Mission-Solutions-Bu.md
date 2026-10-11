@@ -2,8 +2,14 @@
 title: "Record 30fd885616 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Bu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.054048+00:00
+updated_at: 2026-10-11T00:55:27.884406+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "보안프라이버시", "투자은행금융", "데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "investors.boozallen.com"
+url: "https://investors.boozallen.com/news-releases/news-release-details/booz-allen-acquire-ultra-ic-mission-solutions-business-further"
+kind: "발표물"
 ---
 
 # Record 30fd885616 · Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Bu
@@ -16,7 +22,3 @@ Booz Allen to Acquire Ultra I&C Mission Solutions Business, Further Strengthenin
 Combination will enhance technology solutions for national security missions MCLEAN, Va. --(BUSINESS WIRE)--Jun. 22, 2026-- Booz Allen Hamilton (NYSE: BAH) today announced that it has entered into a definitive agreement with the Cobham Ultra Group, an Advent portfolio company, to acquire its Ultra
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[보안프라이버시]] [[투자은행금융]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

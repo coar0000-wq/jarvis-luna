@@ -2,8 +2,12 @@
 title: "Record ae5b7042d6 · When-Masking-Helps-or-Hurts-Robustness-in-Compressed-CLIP-A-Pre-Deploy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.912596+00:00
+updated_at: 2026-10-11T00:55:25.817797+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "인프라클라우드", "의료바이오"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.39704"
 ---
 
 # Record ae5b7042d6 · When-Masking-Helps-or-Hurts-Robustness-in-Compressed-CLIP-A-Pre-Deploy
@@ -16,7 +20,3 @@ When Masking Helps or Hurts Robustness in Compressed CLIP: A Pre-Deployment Diag
 This paper demonstrate that whether masking-based token pruning helps or hurts worst-group robustness can be predicted before deployment, without labels or fine-tuning. A systematic study of semantic masking across 8 spurious-correlation benchmarks shows its effect on worst-group accuracy is highly unstable: it improves accuracy by up to 82.5\% relative on some datasets and degrades it by up to 10
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[인프라클라우드]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

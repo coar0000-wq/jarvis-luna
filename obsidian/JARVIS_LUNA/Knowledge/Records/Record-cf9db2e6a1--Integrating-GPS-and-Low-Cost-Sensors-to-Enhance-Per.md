@@ -2,8 +2,14 @@
 title: "Record cf9db2e6a1 · Integrating-GPS-and-Low-Cost-Sensors-to-Enhance-Personal-PM25-Exposure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.308586+00:00
+updated_at: 2026-10-11T00:55:16.376723+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.envpol.2026.129149"
+kind: "논문"
 ---
 
 # Record cf9db2e6a1 · Integrating-GPS-and-Low-Cost-Sensors-to-Enhance-Personal-PM25-Exposure
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Integrating GPS and low-cost sensors to enhance personal PM2.5 exposure modeling for schoolchildren
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

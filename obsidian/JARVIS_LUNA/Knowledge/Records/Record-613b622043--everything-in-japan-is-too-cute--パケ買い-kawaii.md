@@ -2,8 +2,12 @@
 title: "Record 613b622043 · everything-in-japan-is-too-cute--パケ買い-kawaii"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.696779+00:00
+updated_at: 2026-10-11T00:55:53.746838+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/OFFV5Cxcr6g"
 ---
 
 # Record 613b622043 · everything-in-japan-is-too-cute--パケ買い-kawaii
@@ -15,7 +19,3 @@ tags: [record, real-data]
 everything in japan is too cute 🫪💗 #パケ買い #kawaii
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

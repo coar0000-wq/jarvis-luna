@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.484264+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/make-eyes-look-open-with-makeup"
 ---
 
 # Record 2160 · How-to-Make-Your-Eyes-Look-More-Open-With-MakeupPhotos
@@ -16,7 +20,3 @@ How to Make Your Eyes Look More Open With Makeup—Photos
 How to Make Your Eyes Look More Open With Makeup—Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

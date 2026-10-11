@@ -2,8 +2,14 @@
 title: "Record 7961ee86c5 · Consumer-Agents-Signal-New-Phase-For-Ai-Growth"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.453189+00:00
+updated_at: 2026-10-11T00:55:49.333131+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "투자은행금융"]
+org: "Goldman Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/insights/articles/consumer-agents-signal-new-phase-for-ai-growth"
+kind: "발표물"
 ---
 
 # Record 7961ee86c5 · Consumer-Agents-Signal-New-Phase-For-Ai-Growth
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Consumer Agents Signal New Phase For Ai Growth
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

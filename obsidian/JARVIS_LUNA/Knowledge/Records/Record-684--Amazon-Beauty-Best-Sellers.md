@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.532889+00:00
 tags: [knowledge-graph, record]
+source: "us_beauty"
+topics: ["AI-Research"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Best-Sellers-Beauty/zgbs/beauty"
 ---
 
 # Record 684 · Amazon-Beauty-Best-Sellers
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Amazon Beauty Best Sellers
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

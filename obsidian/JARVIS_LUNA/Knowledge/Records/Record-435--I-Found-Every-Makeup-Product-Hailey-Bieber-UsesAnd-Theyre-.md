@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.383435+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVkhvbVhUYmJUVU5va2pnUXA3UDJqaHR5UDRsSzlGbUhhQmZ6S2M3LWlrSElQSnVudEhJVnNOUHQ5TUJyVXFGSG85Y05UaGcya1RKQnlHZUNBN0htZVZDX2FUWHZyQkhDdk5FQlNLT3BnS2FnT3EtbzQ3TnB0VnR2Und5ZVhBcXpudU1yMmZyYWV3ME1keGVnWDBB?oc=5"
 ---
 
 # Record 435 · I-Found-Every-Makeup-Product-Hailey-Bieber-UsesAnd-Theyre-All-Under-10
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 I Found Every Makeup Product Hailey Bieber Uses—And They’re All Under $100 - ELLE
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

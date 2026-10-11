@@ -2,8 +2,12 @@
 title: "Record ed9ac8d6b9 · Nutrafol-Womens-Balance-Hair-Growth-Supplements-Age-45-1-Month-Bottle-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.185015+00:00
+updated_at: 2026-10-11T00:55:45.672348+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오", "뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Nutrafol-Supplements-Clinically-Dermatologist-Recommended/dp/B07QZ5CTTF/ref=zg_bs_g_beauty_d_sccl_32/133-7130756-4573415"
 ---
 
 # Record ed9ac8d6b9 · Nutrafol-Womens-Balance-Hair-Growth-Supplements-Age-45-1-Month-Bottle-
@@ -16,7 +20,3 @@ Nutrafol Women's Balance Hair Growth Supplements, Age 45+, 1-Month Bottle | #1 D
 Nutrafol Women's Balance Hair Growth Supplements, Age 45+, 1-Month Bottle | #1 Dermatologist-Recommended Hair Growth Supplement Brand, Clinically Tested for Visibly Thicker Hair and Scalp Coverage · $88 · 평점 4.1 · 리뷰 15,960
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

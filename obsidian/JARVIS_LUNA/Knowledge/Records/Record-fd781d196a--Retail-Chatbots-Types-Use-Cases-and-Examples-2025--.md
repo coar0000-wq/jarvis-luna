@@ -2,8 +2,12 @@
 title: "Record fd781d196a · Retail-Chatbots-Types-Use-Cases-and-Examples-2025--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.207977+00:00
+updated_at: 2026-10-11T00:55:30.340627+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zZFN6UnZic0Y4S2FsbDVfRjJCRkYzZlJsX093SHRMU1VydnY2MzBWbEtpSkNqZUk4dC0wczZtTExqYk1TX2I2TkNRcXVNYzJld09feEc0SVpLLWlfVXpqaEd6TzZyRER5azVn?oc=5"
 ---
 
 # Record fd781d196a · Retail-Chatbots-Types-Use-Cases-and-Examples-2025--
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Retail Chatbots: Types, Use Cases, and Examples (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

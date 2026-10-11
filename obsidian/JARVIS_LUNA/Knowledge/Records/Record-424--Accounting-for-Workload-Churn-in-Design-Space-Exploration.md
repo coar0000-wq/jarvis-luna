@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.120345+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1109/mm.2026.3702030"
 ---
 
 # Record 424 · Accounting-for-Workload-Churn-in-Design-Space-Exploration
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Accounting for Workload Churn in Design Space Exploration
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

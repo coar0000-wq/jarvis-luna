@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.552538+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.4230/lipics.concur.2026.1"
 ---
 
 # Record 700 · On-the-Role-of-Prose-in-Specifications-Invited-Talk
@@ -15,7 +20,3 @@ tags: [record, real-data]
 On the Role of Prose in Specifications (Invited Talk)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

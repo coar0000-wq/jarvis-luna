@@ -2,8 +2,14 @@
 title: "Record 81398f3ca4 · What-Is-A-Financial-Plan"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.535446+00:00
+updated_at: 2026-10-11T00:55:51.016673+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/what-is-a-financial-plan"
+kind: "발표물"
 ---
 
 # Record 81398f3ca4 · What-Is-A-Financial-Plan
@@ -15,7 +21,3 @@ tags: [record, real-data]
 What Is A Financial Plan
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

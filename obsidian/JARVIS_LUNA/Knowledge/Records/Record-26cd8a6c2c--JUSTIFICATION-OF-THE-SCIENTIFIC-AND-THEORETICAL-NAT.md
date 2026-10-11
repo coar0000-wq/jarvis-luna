@@ -2,8 +2,14 @@
 title: "Record 26cd8a6c2c · JUSTIFICATION-OF-THE-SCIENTIFIC-AND-THEORETICAL-NATURE-OF-THE-SUBJECT-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.945305+00:00
+updated_at: 2026-10-11T00:55:26.261136+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.20138208"
+kind: "논문"
 ---
 
 # Record 26cd8a6c2c · JUSTIFICATION-OF-THE-SCIENTIFIC-AND-THEORETICAL-NATURE-OF-THE-SUBJECT-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 JUSTIFICATION OF THE SCIENTIFIC AND THEORETICAL NATURE OF THE SUBJECT "INTRODUCTION OF STUDENTS OF HIGHER MEDICAL SPECIALIZATIONS TO THE MEDICAL PROFESSION" AND ITS IMPORTANCE IN MODERN MEDICAL EDUCATION
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

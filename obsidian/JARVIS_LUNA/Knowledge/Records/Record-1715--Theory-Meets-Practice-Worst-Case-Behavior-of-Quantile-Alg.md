@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.272869+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "openalex.org"
+url: "https://openalex.org/W3130356934"
 ---
 
 # Record 1715 · Theory-Meets-Practice-Worst-Case-Behavior-of-Quantile-Algorithms
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Theory Meets Practice: Worst Case Behavior of Quantile Algorithms
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

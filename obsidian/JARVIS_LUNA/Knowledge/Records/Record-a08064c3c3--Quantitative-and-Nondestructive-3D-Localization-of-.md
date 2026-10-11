@@ -2,8 +2,14 @@
 title: "Record a08064c3c3 · Quantitative-and-Nondestructive-3D-Localization-of-Thermally-Active-El"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.281566+00:00
+updated_at: 2026-10-11T00:55:16.070027+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s11668-026-02591-7"
+kind: "논문"
 ---
 
 # Record a08064c3c3 · Quantitative-and-Nondestructive-3D-Localization-of-Thermally-Active-El
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Quantitative and Nondestructive 3D Localization of Thermally Active Electrical Defects Using Lock-in Thermography
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

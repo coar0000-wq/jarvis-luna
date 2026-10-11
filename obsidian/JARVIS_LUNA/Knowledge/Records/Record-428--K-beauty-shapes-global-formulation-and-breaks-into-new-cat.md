@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.382801+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWxFUXJ2Yk44c3dxckM4OWNtZHpjMXdEN2tJZ1N3V2lpemJYbDNIWFR4ZFRldEkzZk1GRHZ2bUxiT1hYbjVVcGs4enJWNjhWZlNQOHFod28yUFpOOThyaEhvbHAyRlYxWEpxZ2V3N2dQekVnZHRIQjA2MV9QM25kNXdqRmFMYkxvZ2dqNkZ6aUpybHhpSmxtUg?oc=5"
 ---
 
 # Record 428 · K-beauty-shapes-global-formulation-and-breaks-into-new-categories---Pe
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 K-beauty shapes global formulation and breaks into new categories - Personal Care Insights
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

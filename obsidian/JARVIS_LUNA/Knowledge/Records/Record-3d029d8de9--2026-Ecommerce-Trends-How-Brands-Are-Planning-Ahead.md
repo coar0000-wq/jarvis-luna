@@ -2,8 +2,12 @@
 title: "Record 3d029d8de9 · 2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.229778+00:00
+updated_at: 2026-10-11T00:55:30.839677+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tVEtRdzBvQzIzcjcwUldCSkx2NFhDTm9wVF81OUkyeGtqY1J4aXVpX183T2N0MXl1QzlPMGplTUdScDdQemdmUUt2UHpaOFNCbFMxXzZycXlqZVVJbVN2YUd5Sm9neC1fZFhDXw?oc=5"
 ---
 
 # Record 3d029d8de9 · 2026-Ecommerce-Trends-How-Brands-Are-Planning-Ahead
@@ -15,7 +19,3 @@ tags: [record, real-data]
 2026 Ecommerce Trends: How Brands Are Planning Ahead - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

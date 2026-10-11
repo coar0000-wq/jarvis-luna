@@ -2,8 +2,12 @@
 title: "Record 197f00645a · Exploring-the-viral-TikTok-trend-of-Sunscreen-Conto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.416244+00:00
+updated_at: 2026-10-11T00:55:34.092729+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVN2MXhKdVZEclB1UkpFMlNqYUdOQnhSUnhtRjNsalppMmRSMGM5Mlc5T2RQZng2WUEwMUp6UnZMckx2Z3hmaGlnd3I1RzlwOXR5dWFxRjFYQ2hZd2xUa0ZXbldiQzRlVVRfVTJtUHEzV1k0RXd2VmZwTHY5QlpkUzlRYkVhcTJaa2hqbDJ5emkyOHh0amc?oc=5"
 ---
 
 # Record 197f00645a · Exploring-the-viral-TikTok-trend-of-Sunscreen-Conto
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Exploring the viral TikTok trend of ‘Sunscreen Contouring’ - CHCH
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

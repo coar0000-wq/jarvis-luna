@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.292621+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=yk4Ab7YVjBs"
 ---
 
 # Record 753 · 선크림-QA잘못-알고-있던-선크림-상식-20가지
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 선크림 Q&A｜잘못 알고 있던 선크림 상식 20가지
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 7665628bf8 · Discovery-of-a-millisecond-pulsar-with-a-CO-white-d"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.666330+00:00
+updated_at: 2026-10-11T00:55:37.874480+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "openalex.org"
+url: "https://openalex.org/W7139147348"
+kind: "논문"
 ---
 
 # Record 7665628bf8 · Discovery-of-a-millisecond-pulsar-with-a-CO-white-d
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Discovery of a millisecond pulsar with a CO white dwarf companion
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 23a395aa9d · Investing-In-Bonds-Vs-Stocks-2023"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.512286+00:00
+updated_at: 2026-10-11T00:55:50.484432+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/investing-in-bonds-vs-stocks-2023"
+kind: "발표물"
 ---
 
 # Record 23a395aa9d · Investing-In-Bonds-Vs-Stocks-2023
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Investing In Bonds Vs Stocks 2023
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

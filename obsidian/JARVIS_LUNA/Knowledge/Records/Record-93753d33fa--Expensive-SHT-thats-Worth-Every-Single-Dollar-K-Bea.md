@@ -2,8 +2,12 @@
 title: "Record 93753d33fa · Expensive-SHT-thats-Worth-Every-Single-Dollar-K-Bea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.706793+00:00
+updated_at: 2026-10-11T00:55:53.991072+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/j8rtHlkIKOU"
 ---
 
 # Record 93753d33fa · Expensive-SHT-thats-Worth-Every-Single-Dollar-K-Bea
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Expensive SH*T that's Worth Every Single Dollar! K-Beauty Edition
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

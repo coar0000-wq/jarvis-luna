@@ -2,8 +2,14 @@
 title: "Record bf0568cd44 · Explainable-AI-in-Supply-Chain-Management-Opportuni"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.984161+00:00
+updated_at: 2026-10-11T00:55:26.981875+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.55041/ijcope.v2i8.305"
+kind: "논문"
 ---
 
 # Record bf0568cd44 · Explainable-AI-in-Supply-Chain-Management-Opportuni
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Explainable AI in Supply Chain Management: Opportunities and Research Challenges
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

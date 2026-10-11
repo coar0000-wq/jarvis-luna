@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.865336+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zOUxCMWF4VW96V0JRY01fcjBUTGNwYUcxcTd1Z0Nxa2ZYMmk5OXEwbVNCenJNTEJMME1Xb2FyU21LT0VtRmQ0aXUwUWU2Q0MzbWEzYUxEZjc?oc=5"
 ---
 
 # Record 103 · AI-Influencers-What-They-Are-and-How-They-Work-2025---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 AI Influencers: What They Are and How They Work (2025) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

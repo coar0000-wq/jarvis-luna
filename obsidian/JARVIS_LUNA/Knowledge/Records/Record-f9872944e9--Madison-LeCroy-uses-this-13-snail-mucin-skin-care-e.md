@@ -2,8 +2,12 @@
 title: "Record f9872944e9 · Madison-LeCroy-uses-this-13-snail-mucin-skin-care-every-single-night-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.481919+00:00
+updated_at: 2026-10-11T00:55:35.206719+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVFOcDNSNU5FazZmWTllWXZrM0ZPdE0zcll3Qk9WbWFhdEIzZmhpVVZRY29xbE8xMDZ5VjNIR083a0FrbEUxU2RSNHkxNWFnczE0U0dDenNXdlMzOU50cmdBM1JxcmxYbHEtZFpXQ1FXNXY0Smxnb3ZxYWdoTEFIY3BaZkJucHhWMEJZTVAtV2ZpWEtZTmdNZUkxbXotelFLOUxWLVJ3?oc=5"
 ---
 
 # Record f9872944e9 · Madison-LeCroy-uses-this-13-snail-mucin-skin-care-every-single-night-R
@@ -16,7 +20,3 @@ Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘
 Madison LeCroy uses this $13 snail mucin skin care ‘every single night’: ‘Really does work’ - Page Six
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.420930+00:00
 tags: [{', '.join(tags)}]
+source: "arXiv"
+topics: ["Machine-Learning-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27406v1"
 ---
 
 # Record 825 · CLAP-Cross-Embodiment-Video-World-Models-are-Zero-Shot-Physical-Simula
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]

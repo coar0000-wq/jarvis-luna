@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.848890+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41467-025-66502-4"
 ---
 
 # Record 463 · Room-temperature-valley-selective-emission-in-Si-MoSe2-heterostructure
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Room-temperature valley-selective emission in Si-MoSe2 heterostructures enabled by high-quality-factor chiroptical cavities
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

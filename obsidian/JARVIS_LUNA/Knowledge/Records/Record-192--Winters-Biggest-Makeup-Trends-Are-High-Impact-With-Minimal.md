@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.867700+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sQWFiWUxyaGpIYVdHNVFvTzJqSTB4WGRCR0E2YVowRGVpQjBrN0I1eUYwcEVndWpjV0ZKTWprbS05MEZ6azBCWUFOUHRCRzZvQzdPcmZhbE84MVg1MnlHQTZVTWo?oc=5"
 ---
 
 # Record 192 · Winters-Biggest-Makeup-Trends-Are-High-Impact-With-Minimal-Effort---Al
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Winter’s Biggest Makeup Trends Are High-Impact With Minimal Effort - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

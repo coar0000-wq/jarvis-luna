@@ -2,8 +2,14 @@
 title: "Record 100aa12e4f · Plasma-five-protein-risk-score-for-prognostic-stratification-in-patien"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.371526+00:00
+updated_at: 2026-10-11T00:55:17.560468+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "과학수학", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41598-026-70815-9"
+kind: "논문"
 ---
 
 # Record 100aa12e4f · Plasma-five-protein-risk-score-for-prognostic-stratification-in-patien
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Plasma five-protein risk score for prognostic stratification in patients with advanced hepatocellular carcinoma treated with atezolizumab plus bevacizumab
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[과학수학]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

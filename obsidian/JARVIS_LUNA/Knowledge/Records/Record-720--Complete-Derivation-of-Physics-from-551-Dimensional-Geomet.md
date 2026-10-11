@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.492741+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Mistral-AI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18122056"
 ---
 
 # Record 720 · Complete-Derivation-of-Physics-from-551-Dimensional-Geometry
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Complete Derivation of Physics from 5+5+1 Dimensional Geometry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

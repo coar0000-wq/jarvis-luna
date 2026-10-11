@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.186345+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more"
 ---
 
 # Record 1924 · Expanding-Genie-Agents-Deep-analysis-file-reasoning-and-more
@@ -16,7 +21,3 @@ Expanding Genie Agents: Deep analysis, file reasoning, and more
 At Data and AI Summit, we&nbsp;announced the evolution of Genie Spaces to Genie Agents,...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

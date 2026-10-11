@@ -2,8 +2,12 @@
 title: "Record 5c7f2b4fc7 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.347869+00:00
+updated_at: 2026-10-11T00:55:32.930307+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "투자은행금융"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZmNfZERUOVVhRFhXNkN6QUVfY3VILUctQmF6VzlpZ0NvTV90dmZGWktJbGpkV3A0Yms4Nk9DV0xVS3g5d3pnajlOQXlJVnJrQ2IzTjR1WTZPVWZRdjRzU0NINUQwZS1OYUpxYmM5ZHJZNGV4Zk5pRElaTWJ6TWMtbkYzWEkxc2M?oc=5"
 ---
 
 # Record 5c7f2b4fc7 · I-Credit-These-Cult-Favorite-K-Beauty-Products-for-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Credit These Cult-Favorite K-Beauty Products for My Skin's Glassy Glow - Marie Claire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.367813+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.07690v1"
 ---
 
 # Record 196 · Online-Constrained-Control-of-Storage-Systems-via-Simplex-Disturbance-
@@ -16,7 +20,3 @@ Online Constrained Control of Storage Systems via Simplex Disturbance-Action Pol
 We study online control of a scalar storage system with nonnegative adversarial resource arrivals and state-dependent action constraints. The adversarial, time-varying cost depends on both state and action. At each time, the controller selects a feasible action before the current resource arrival and cost are revealed. To handle the coupling between feasibility and online learning, we introduce Si
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

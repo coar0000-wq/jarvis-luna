@@ -2,8 +2,14 @@
 title: "Record a15e8d4194 · Circulatory-pathology-in-osteoarthritic-subchondral"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.320503+00:00
+updated_at: 2026-10-11T00:55:16.594040+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.joca.2026.08.004"
+kind: "논문"
 ---
 
 # Record a15e8d4194 · Circulatory-pathology-in-osteoarthritic-subchondral
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Circulatory pathology in osteoarthritic subchondral bone
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

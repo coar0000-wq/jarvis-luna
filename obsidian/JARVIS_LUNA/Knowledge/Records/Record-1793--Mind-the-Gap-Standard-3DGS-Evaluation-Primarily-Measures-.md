@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.620098+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7167380375"
 ---
 
 # Record 1793 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Measures-Near-Trajecto
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Mind the Gap: Standard 3DGS Evaluation Primarily Measures Near-Trajectory Interpolation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

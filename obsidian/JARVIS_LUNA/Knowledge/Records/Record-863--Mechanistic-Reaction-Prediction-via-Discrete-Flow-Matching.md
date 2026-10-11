@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.980513+00:00
 tags: [{', '.join(tags)}]
+source: "arXiv"
+topics: ["AI-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27429v1"
 ---
 
 # Record 863 · Mechanistic-Reaction-Prediction-via-Discrete-Flow-Matching-on-Graph-St
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

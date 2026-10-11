@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.815142+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/florence-pugh-messy-bun-scarf"
 ---
 
 # Record 2265 · Florence-Pugh-Elevated-the-Messiest-Bun-With-the-Fanciest-Scarf--See-P
@@ -16,7 +20,3 @@ Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos
 Florence Pugh Elevated the Messiest Bun With the Fanciest Scarf — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.536430+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Leidos"
+domain: "investors.leidos.com"
+url: "https://investors.leidos.com/news-releases/news-release-details/leidos-support-naval-health-research-center-studies-improve"
 ---
 
 # Record 907 · Leidos-to-support-Naval-Health-Research-Center-with-studies-to-improve
@@ -16,7 +21,3 @@ Leidos to support Naval Health Research Center with studies to improve health an
 RESTON, Va., Aug. 25, 2026 /PRNewswire/ -- Leidos &nbsp;(NYSE:LDOS) was recently awarded a contract by the Naval Health Research Center (NHRC) to provide behavioral health research, operational assessments, and data-driven analyses that strengthen the psychological health and operational readiness of
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

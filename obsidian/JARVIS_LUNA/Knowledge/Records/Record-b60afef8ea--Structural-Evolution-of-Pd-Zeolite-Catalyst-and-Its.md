@@ -2,8 +2,14 @@
 title: "Record b60afef8ea · Structural-Evolution-of-Pd-Zeolite-Catalyst-and-Its"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.348050+00:00
+updated_at: 2026-10-11T00:55:17.171792+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acscatal.6c04462"
+kind: "논문"
 ---
 
 # Record b60afef8ea · Structural-Evolution-of-Pd-Zeolite-Catalyst-and-Its
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Structural Evolution of Pd-Zeolite Catalyst and Its Consequence in the Activation and Deactivation for Methane Combustion
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.935143+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzVoRDBNNUt3R2k4QVBsWXVhOWJYLTBnRWhtbngxZEJieHlqMU96OWp1ZWZYTl9lQ19pTEtDaWF2TVEwRmprN3dHUExsVEN5UGU4ZHRaV3hsTDJIaldDbGFpbEE3aFd2eW9SeGhNeHo3WDRpRHNhZ3ZXbEVuazBtdy1Pa2tWNzJqVWd4UlVyNS1DcEhQZ1JBdHhKbWg?oc=5"
 ---
 
 # Record 627 · Olive-Young-to-launch-first-US-K-beauty-festival---FashionNetwork---Th
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Olive Young to launch first US K-beauty festival - FashionNetwork - The World's Fashion Business News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

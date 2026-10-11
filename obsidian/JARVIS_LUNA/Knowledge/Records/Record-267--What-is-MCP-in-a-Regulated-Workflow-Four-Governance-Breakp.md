@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.305169+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "AI-에이전트", "데이터분석"]
+org: "DataWalk"
+domain: "datawalk.com"
+url: "https://datawalk.com/what-is-mcp-in-a-regulated-workflow/"
 ---
 
 # Record 267 · What-is-MCP-in-a-Regulated-Workflow-Four-Governance-Breakpoints
@@ -16,7 +21,3 @@ What is MCP in a Regulated Workflow? Four Governance Breakpoints
 The post What is MCP in a Regulated Workflow? Four Governance Breakpoints appeared first on DataWalk .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[AI-에이전트]] [[데이터분석]] [[기관--DataWalk]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record b7f5d4ba1f · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icot"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.309392+00:00
+updated_at: 2026-10-11T00:55:16.385099+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.esmoop.2026.106339"
+kind: "논문"
 ---
 
 # Record b7f5d4ba1f · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icot
@@ -15,7 +21,3 @@ tags: [record, real-data]
 32eP Long term efficacy and safety of adjuvant icotinib with or without chemotherapy in EGFR-mutated non-small cell lung cancer: A systematic review and meta-analysis of latest evidence
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

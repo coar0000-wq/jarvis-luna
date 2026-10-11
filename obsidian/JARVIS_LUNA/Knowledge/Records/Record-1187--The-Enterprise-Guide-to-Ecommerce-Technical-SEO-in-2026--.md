@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.073576+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IdlNXeFplWjdYOU9WOVh6NzBCenAtdDBEbkd1ZjFLZF9saFA5LWJPNVRhQVVqWHdvc0t4QWdJa0p4Y19RdjBTdlFlcjgxTHh0bWxueElodFNSU2pXNmthdHZPN3U0SjhIWXBHSElOOVQ0WHBR?oc=5"
 ---
 
 # Record 1187 · The-Enterprise-Guide-to-Ecommerce-Technical-SEO-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Enterprise Guide to Ecommerce Technical SEO in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

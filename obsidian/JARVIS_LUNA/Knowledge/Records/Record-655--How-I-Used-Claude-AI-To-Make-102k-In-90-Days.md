@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.092006+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=jMJbbu3RE_E"
 ---
 
 # Record 655 · How-I-Used-Claude-AI-To-Make-102k-In-90-Days
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How I Used Claude AI To Make $102k In 90 Days
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

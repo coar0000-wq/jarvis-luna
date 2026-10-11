@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.027137+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7169688888"
 ---
 
 # Record 2087 · VideoSEMA-a-scalable-and-efficient-Mamba-like-attention-for-video-unde
@@ -15,7 +20,3 @@ tags: [record, real-data]
 VideoSEMA: a scalable and efficient Mamba-like attention for video understanding
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

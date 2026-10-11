@@ -2,8 +2,14 @@
 title: "Record 54b4ef44ea · Drivers-of-international-convergence-in-digital-two"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.507190+00:00
+updated_at: 2026-10-11T00:55:19.972637+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pone.0342410"
+kind: "논문"
 ---
 
 # Record 54b4ef44ea · Drivers-of-international-convergence-in-digital-two
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Drivers of international convergence in digital two-sided platform markets: The case of dominant business model components in online lending
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

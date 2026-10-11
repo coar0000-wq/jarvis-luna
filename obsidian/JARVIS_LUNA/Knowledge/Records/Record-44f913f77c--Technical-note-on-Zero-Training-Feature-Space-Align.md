@@ -2,8 +2,12 @@
 title: "Record 44f913f77c · Technical-note-on-Zero-Training-Feature-Space-Alignment-via-Informatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.887385+00:00
+updated_at: 2026-10-11T00:55:25.545114+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.37302"
 ---
 
 # Record 44f913f77c · Technical-note-on-Zero-Training-Feature-Space-Alignment-via-Informatio
@@ -16,7 +20,3 @@ Technical note on: Zero-Training Feature-Space Alignment via Information Geometr
 Deep vision models often degrade under distribution shift. Test-time adaptation can improve robustness but typically requires iterative optimization, hyperparameter tuning, and multiple forward-backward passes. We propose Zero-Training Fisher Geometry Alignment (ZFGA), a closed-form method that improves robustness under covariate shift without modifying model parameters. ZFGA is based on the obser
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

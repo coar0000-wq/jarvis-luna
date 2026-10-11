@@ -2,8 +2,14 @@
 title: "Record 42957007b2 · Code-Switching-Information-Retrieval-Benchmarks-Analysis-and-the-Limit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.669572+00:00
+updated_at: 2026-10-11T00:55:37.932065+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "데이터분석"]
+org: "Snowflake"
+domain: "openalex.org"
+url: "https://openalex.org/W7155246967"
+kind: "논문"
 ---
 
 # Record 42957007b2 · Code-Switching-Information-Retrieval-Benchmarks-Analysis-and-the-Limit
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Code-Switching Information Retrieval: Benchmarks, Analysis, and the Limits of Current Retrievers
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

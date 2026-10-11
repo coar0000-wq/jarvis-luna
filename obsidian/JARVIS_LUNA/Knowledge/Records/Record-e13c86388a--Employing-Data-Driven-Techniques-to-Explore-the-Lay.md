@@ -2,8 +2,14 @@
 title: "Record e13c86388a · Employing-Data-Driven-Techniques-to-Explore-the-Lay"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.001609+00:00
+updated_at: 2026-10-11T00:55:27.276824+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.07.29.26359262"
+kind: "논문"
 ---
 
 # Record e13c86388a · Employing-Data-Driven-Techniques-to-Explore-the-Lay
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Employing Data-Driven Techniques to Explore the Lay Public’s Health Concerns with Vaping E-Cigarettes
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

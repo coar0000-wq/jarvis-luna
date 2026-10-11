@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.477412+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/HrrvLwkVhc0"
 ---
 
 # Record 2236 · Meet-your-stores-new-AI-assistant
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Meet your store’s new AI assistant
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

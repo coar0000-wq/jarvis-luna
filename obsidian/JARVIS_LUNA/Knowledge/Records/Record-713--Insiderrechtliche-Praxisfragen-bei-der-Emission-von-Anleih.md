@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.912003+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.6651858"
 ---
 
 # Record 713 · Insiderrechtliche-Praxisfragen-bei-der-Emission-von-Anleihen
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Insiderrechtliche Praxisfragen bei der Emission von Anleihen
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

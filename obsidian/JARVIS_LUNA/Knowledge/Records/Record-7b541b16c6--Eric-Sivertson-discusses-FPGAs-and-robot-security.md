@@ -2,8 +2,12 @@
 title: "Record 7b541b16c6 · Eric-Sivertson-discusses-FPGAs-and-robot-security"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.576137+00:00
+updated_at: 2026-10-11T00:55:51.771049+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스", "보안프라이버시", "반도체하드웨어"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/"
 ---
 
 # Record 7b541b16c6 · Eric-Sivertson-discusses-FPGAs-and-robot-security
@@ -16,7 +20,3 @@ Eric Sivertson discusses FPGAs and robot security
 <p>An interview with Eric Sivertson of Lattice Semiconductor about FPGAs and how they can improve robot safety and security.</p> <p>The post <a href="https://www.therobotreport.com/eric-sivertson-discusses-fpgas-robot-security/">Eric Sivertson discusses FPGAs and robot security</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[보안프라이버시]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

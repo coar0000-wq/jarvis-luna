@@ -2,8 +2,12 @@
 title: "Record be9a473771 · Beyond-the-Foreground-FOV-Aware-Polyp-Image-Synthesis-via-Lesion-Guide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.143746+00:00
+updated_at: 2026-10-11T00:55:14.133641+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "데이터분석"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.19966"
 ---
 
 # Record be9a473771 · Beyond-the-Foreground-FOV-Aware-Polyp-Image-Synthesis-via-Lesion-Guide
@@ -16,7 +20,3 @@ Beyond the Foreground: FOV-Aware Polyp Image Synthesis via Lesion-Guided Adaptiv
 Synthetic image and mask pairs can alleviate scarce colonoscopy annotations, but realistic synthesis requires preserving the supplied lesion while generating compatible mucosa. Existing foreground-guided methods treat all non-foreground pixels as background and rely mainly on local integration. Directly applying them to colonoscopy causes two problems: non-mucosal black regions contaminate generat
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

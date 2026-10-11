@@ -2,8 +2,14 @@
 title: "Record 3368e02f48 · Expanding-Support-For-Scientists"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.388857+00:00
+updated_at: 2026-10-11T00:55:48.256302+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/expanding-support-for-scientists"
+kind: "발표물"
 ---
 
 # Record 3368e02f48 · Expanding-Support-For-Scientists
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Expanding Support For Scientists
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

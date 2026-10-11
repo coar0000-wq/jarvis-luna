@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.542137+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=InNjQ0hzy9E"
 ---
 
 # Record 804 · 3-MONTHS-of-empties-mostly-J--K-Beauty-2026-Q2
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 3 MONTHS of empties!! mostly J & K-Beauty~ [2026 Q2]
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

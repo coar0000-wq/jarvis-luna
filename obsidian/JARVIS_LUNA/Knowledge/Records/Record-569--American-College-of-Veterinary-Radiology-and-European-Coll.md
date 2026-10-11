@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.678433+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.2460/javma.25.01.0027"
 ---
 
 # Record 569 · American-College-of-Veterinary-Radiology-and-European-College-of-Veter
@@ -15,7 +20,3 @@ tags: [record, real-data]
 American College of Veterinary Radiology and European College of Veterinary Diagnostic Imaging position statement on artificial intelligence
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

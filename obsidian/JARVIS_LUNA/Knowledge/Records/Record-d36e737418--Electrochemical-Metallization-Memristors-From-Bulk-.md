@@ -2,8 +2,14 @@
 title: "Record d36e737418 · Electrochemical-Metallization-Memristors-From-Bulk-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.251537+00:00
+updated_at: 2026-10-11T00:55:15.579895+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1002/adfm.76117"
+kind: "논문"
 ---
 
 # Record d36e737418 · Electrochemical-Metallization-Memristors-From-Bulk-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Electrochemical Metallization Memristors: From Bulk to 2D Materials
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

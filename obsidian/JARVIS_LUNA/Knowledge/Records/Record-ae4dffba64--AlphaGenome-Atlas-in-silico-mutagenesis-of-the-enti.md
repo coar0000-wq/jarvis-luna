@@ -2,8 +2,14 @@
 title: "Record ae4dffba64 · AlphaGenome-Atlas-in-silico-mutagenesis-of-the-entire-human-genome-imp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.008577+00:00
+updated_at: 2026-10-11T00:55:27.395741+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.09.16.26363192"
+kind: "논문"
 ---
 
 # Record ae4dffba64 · AlphaGenome-Atlas-in-silico-mutagenesis-of-the-entire-human-genome-imp
@@ -15,7 +21,3 @@ tags: [record, real-data]
 AlphaGenome Atlas: in silico mutagenesis of the entire human genome improves prioritization and interpretation of non-coding variants
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

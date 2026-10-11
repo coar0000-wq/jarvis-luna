@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.871450+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/trump-tariffs-stock-market-crash-how-to-invest"
 ---
 
 # Record 2508 · Trump-Tariffs-Stock-Market-Crash-How-To-Invest
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Trump Tariffs Stock Market Crash How To Invest
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

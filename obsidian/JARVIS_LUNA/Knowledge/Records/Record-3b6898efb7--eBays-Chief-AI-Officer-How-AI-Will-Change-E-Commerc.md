@@ -2,8 +2,12 @@
 title: "Record 3b6898efb7 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.390253+00:00
+updated_at: 2026-10-11T00:55:33.595553+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb19HMDB4eWkycE5FUE95WlFLYWhZSmdpLUR3cjZxTGg3MVI2Y3JHTTM3NDVhRElhWFdBcmVsd1pTb1ZDSUQwaGFTaTBVdnJjcDN4YUhleEh1WVp3a3JXb2RaZjV4dE1KRTRJQ0ZwcjF3b3FncE56NmoyRFF1azBtb1BkdVJBbGt4bXV5dEZlaw?oc=5"
 ---
 
 # Record 3b6898efb7 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerc
@@ -15,7 +19,3 @@ tags: [record, real-data]
 eBay's Chief AI Officer: How AI Will Change E-Commerce - Business Insider
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

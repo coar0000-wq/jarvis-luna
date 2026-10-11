@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.093564+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.toxlet.2026.113176"
 ---
 
 # Record 281 · Utility-of-monocyte-derived-cells-to-investigate-immune-mediated-drug-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Utility of monocyte-derived cells to investigate immune-mediated drug-induced liver injury
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

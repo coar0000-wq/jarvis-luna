@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.304884+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb19HMDB4eWkycE5FUE95WlFLYWhZSmdpLUR3cjZxTGg3MVI2Y3JHTTM3NDVhRElhWFdBcmVsd1pTb1ZDSUQwaGFTaTBVdnJjcDN4YUhleEh1WVp3a3JXb2RaZjV4dE1KRTRJQ0ZwcjF3b3FncE56NmoyRFF1azBtb1BkdVJBbGt4bXV5dEZlaw?oc=5"
 ---
 
 # Record 553 · eBays-Chief-AI-Officer-How-AI-Will-Change-E-Commerce---Business-Inside
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 eBay's Chief AI Officer: How AI Will Change E-Commerce - Business Insider
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

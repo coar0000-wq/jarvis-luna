@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.175716+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/080/britain-is-more-yimby-than-nimby--as-social-housing-tops-consume/"
 ---
 
 # Record 2294 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-Tops-Consume
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Britain Is More Yimby Than Nimby As Social Housing Tops Consume
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

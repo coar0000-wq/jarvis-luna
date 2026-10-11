@@ -2,8 +2,14 @@
 title: "Record cf529e04fd · ИССЛЕДОВАНИЕ-ТРАНСФОРМАЦИИ-ОРНАМЕНТОВ-ЦЯНСКОЙ-ВЫШИВКИ-С-ИСПОЛЬЗОВАНИЕМ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.991572+00:00
+updated_at: 2026-10-11T00:55:27.120492+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.60797/irj.2026.167.13"
+kind: "논문"
 ---
 
 # Record cf529e04fd · ИССЛЕДОВАНИЕ-ТРАНСФОРМАЦИИ-ОРНАМЕНТОВ-ЦЯНСКОЙ-ВЫШИВКИ-С-ИСПОЛЬЗОВАНИЕМ
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ИССЛЕДОВАНИЕ ТРАНСФОРМАЦИИ ОРНАМЕНТОВ ЦЯНСКОЙ ВЫШИВКИ С ИСПОЛЬЗОВАНИЕМ ИСКУССТВЕННОГО ИНТЕЛЛЕКТА И ДИНАМИЧЕСКОГО ВИЗУАЛЬНОГО ДИЗАЙНА С СЕМИОТИЧЕСКОЙ ТОЧКИ ЗРЕНИЯ
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

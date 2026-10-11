@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T13:04:50.267692+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7165817730"
 ---
 
 # Record 1823 · Reliability-Assessment-and-Performance-Enhancement-of-Reset-Control-Sy
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Reliability Assessment and Performance Enhancement of Reset Control Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.334705+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28433v1"
 ---
 
 # Record 021 · Prove2Me-An-Open-Collaborative-Platform-for-Scaling-Math-Formalization
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Prove2Me: An Open Collaborative Platform for Scaling Math Formalization
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[과학수학]] [[JARVIS Real Knowledge Index]]

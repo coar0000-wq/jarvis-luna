@@ -2,8 +2,12 @@
 title: "Record 5887b53e8a · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-c"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.459497+00:00
+updated_at: 2026-10-11T00:55:34.802248+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTVhUY0dZNFl1ZG93dkhucWJJZzNReUNyQ0NnSFlfOGt2WW1OMkpsOW9UTEhYOUxPVUxxSWNTQnItLTVmMjBILWFZcVpLaDlkMmt6ajd0T2tBbnY4QUJrNUV6aDA0MTJxNUNobjVDcmJCN1lpZmExRzNsc0FLbWhpRzVucG9fYXZ6OFBUanl4WUd6akEyOHNkSlduaUY3Umc?oc=5"
 ---
 
 # Record 5887b53e8a · Why-Is-Veralab-slowing-down-K-Beauty-retail-and-e-c
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why Is Veralab slowing down? K-Beauty, retail and e-commerce shift - nss magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

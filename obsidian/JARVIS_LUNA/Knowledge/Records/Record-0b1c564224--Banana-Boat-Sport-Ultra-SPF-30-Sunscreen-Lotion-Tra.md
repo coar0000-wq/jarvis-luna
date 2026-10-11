@@ -2,8 +2,12 @@
 title: "Record 0b1c564224 · Banana-Boat-Sport-Ultra-SPF-30-Sunscreen-Lotion-Travel-Sunscreen-Sport"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.664941+00:00
+updated_at: 2026-10-11T00:55:53.189803+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/Banana-Boat-Sport-Ultra-SPF-30-Sunscreen-Lotion-Travel-Sunscreen-Sport-Adult-Sunblock-Lotion-1-oz/28664310"
 ---
 
 # Record 0b1c564224 · Banana-Boat-Sport-Ultra-SPF-30-Sunscreen-Lotion-Travel-Sunscreen-Sport
@@ -16,7 +20,3 @@ Banana Boat Sport Ultra SPF 30 Sunscreen Lotion, Travel Sunscreen Sport, Adult S
 Banana Boat Sport Ultra SPF 30 Sunscreen Lotion, Travel Sunscreen Sport, Adult Sunblock Lotion, 1 oz · 평점 4.6 · 리뷰 428
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

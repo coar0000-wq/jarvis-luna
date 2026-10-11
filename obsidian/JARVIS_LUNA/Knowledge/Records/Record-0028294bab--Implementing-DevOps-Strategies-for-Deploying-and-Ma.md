@@ -2,8 +2,14 @@
 title: "Record 0028294bab · Implementing-DevOps-Strategies-for-Deploying-and-Managing-Machine-Lear"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.982651+00:00
+updated_at: 2026-10-11T00:55:26.961000+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.54660/.ijmrge.2024.5.4.1367-1371"
+kind: "논문"
 ---
 
 # Record 0028294bab · Implementing-DevOps-Strategies-for-Deploying-and-Managing-Machine-Lear
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Implementing DevOps Strategies for Deploying and Managing Machine Learning Models in Lakehouse Platforms
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

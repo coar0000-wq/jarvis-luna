@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.796778+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03720v1"
 ---
 
 # Record 076 · RoughSense-Lightweight-Terrain-Induced-Rover-Vibration-Prediction-Usin
@@ -16,7 +20,3 @@ RoughSense: Lightweight Terrain-Induced Rover Vibration Prediction Using Point C
 Autonomous navigation in space requires reliable terrain assessment for safe operations, especially in underground environments with limited communication, computing resources, and power budget. This paper presents a lightweight method for real-time vibration-aware traversability mapping using a Light Detecting And Ranging (LiDAR) point cloud and Inertial Measurement Unit (IMU) measurements. An in
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

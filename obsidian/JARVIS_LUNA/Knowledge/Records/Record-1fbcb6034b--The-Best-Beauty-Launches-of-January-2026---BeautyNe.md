@@ -2,8 +2,12 @@
 title: "Record 1fbcb6034b · The-Best-Beauty-Launches-of-January-2026---BeautyNewsDaily"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.250685+00:00
+updated_at: 2026-10-11T00:55:31.173056+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qMVVHZjVtSXNpdW5LWHFoMi1nZk5FMkFCaEl5cFJCWkNrb1AxaGYxTUVvRUtNVWNabDFFRVRKVlRIRzdpZ29sVk5MNERUWjJkT0s3aTRJRWF2NmpEeFlyR0c1ZjA4Q1pHQk9FYU1lTmw?oc=5"
 ---
 
 # Record 1fbcb6034b · The-Best-Beauty-Launches-of-January-2026---BeautyNewsDaily
@@ -16,7 +20,3 @@ The Best Beauty Launches of January 2026 - BeautyNewsDaily
 The Best Beauty Launches of January 2026 - BeautyNewsDaily
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

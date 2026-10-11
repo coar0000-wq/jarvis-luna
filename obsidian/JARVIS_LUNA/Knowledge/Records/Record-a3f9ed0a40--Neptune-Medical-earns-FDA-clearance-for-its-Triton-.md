@@ -2,8 +2,12 @@
 title: "Record a3f9ed0a40 · Neptune-Medical-earns-FDA-clearance-for-its-Triton-1-robotic-system"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.593286+00:00
+updated_at: 2026-10-11T00:55:51.992657+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["법률규제", "로보틱스", "의료바이오"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/"
 ---
 
 # Record a3f9ed0a40 · Neptune-Medical-earns-FDA-clearance-for-its-Triton-1-robotic-system
@@ -16,7 +20,3 @@ Neptune Medical earns FDA clearance for its Triton 1 robotic system
 <p>Neptune said Triton can elevate any endoscopist's capabilities for screening, surveillance, and diagnostic colonoscopies.</p> <p>The post <a href="https://www.therobotreport.com/neptune-medical-earns-fda-clearance-triton-1-robotic-system/">Neptune Medical earns FDA clearance for its Triton 1 robotic system</a> appeared first on <a href="https://www.therobotreport.com">The Robot Report</a>.</p>
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[법률규제]] [[로보틱스]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

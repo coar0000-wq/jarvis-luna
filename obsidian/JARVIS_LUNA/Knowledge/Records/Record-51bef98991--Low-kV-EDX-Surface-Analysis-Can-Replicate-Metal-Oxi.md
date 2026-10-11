@@ -2,8 +2,14 @@
 title: "Record 51bef98991 · Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.351731+00:00
+updated_at: 2026-10-11T00:55:17.235228+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsomega.6c00986"
+kind: "논문"
 ---
 
 # Record 51bef98991 · Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxi
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Low-kV EDX Surface Analysis Can Replicate Metal Oxidation Trends of XPS for Semiconductor Package Assembly
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

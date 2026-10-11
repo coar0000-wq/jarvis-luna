@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.861207+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DV2dtWkdWM2YtYmdRdmVIMG1tem1COFNYTDZEWFAxLTNwMXdvWGNqdlZaT3hrVjBTc2xMYjR0OGNiQkxWLWxrNEFnenc?oc=5"
 ---
 
 # Record 088 · Video-K-beauty-trend-reshaping-views-of-masculinity---ABC-News---Break
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Video K-beauty trend reshaping views of masculinity - ABC News - Breaking News, Latest News and Videos
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

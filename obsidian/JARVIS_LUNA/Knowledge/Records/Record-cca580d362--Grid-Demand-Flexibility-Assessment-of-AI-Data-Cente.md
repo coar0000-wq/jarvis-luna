@@ -2,8 +2,12 @@
 title: "Record cca580d362 · Grid-Demand-Flexibility-Assessment-of-AI-Data-Centers-via-Batch-Worklo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.231490+00:00
+updated_at: 2026-10-11T00:55:15.217429+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.38020"
 ---
 
 # Record cca580d362 · Grid-Demand-Flexibility-Assessment-of-AI-Data-Centers-via-Batch-Worklo
@@ -16,7 +20,3 @@ Grid Demand Flexibility Assessment of AI Data Centers via Batch Workload Tempora
 The rapid growth of artificial intelligence (AI) data centers has introduced new challenges to power system operation. As their power demand becomes larger and more variable, quantitatively characterizing their demand flexibility is increasingly important for effective power system coordination. However, heterogeneous workload characteristics and resource requirements make this flexibility difficu
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

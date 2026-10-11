@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.859266+00:00
 tags: [knowledge-graph, record, arxiv]
+source: "arXiv"
+topics: ["AI-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04197v1"
 ---
 
 # Record 060 · ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Diversify-and-S
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, arxiv]
 ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

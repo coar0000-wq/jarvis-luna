@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.808986+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/"
 ---
 
 # Record 302 · Start-building-with-Nano-Banana-2-Lite-and-Gemini-Omni-Flash
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Start building with Nano Banana 2 Lite and Gemini Omni Flash
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

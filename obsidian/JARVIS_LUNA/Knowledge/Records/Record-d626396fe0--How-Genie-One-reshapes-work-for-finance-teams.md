@@ -2,8 +2,14 @@
 title: "Record d626396fe0 · How-Genie-One-reshapes-work-for-finance-teams"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.436102+00:00
+updated_at: 2026-10-11T00:55:49.001330+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/how-genie-one-reshapes-work-finance-teams"
+kind: "발표물"
 ---
 
 # Record d626396fe0 · How-Genie-One-reshapes-work-for-finance-teams
@@ -16,7 +22,3 @@ How Genie One reshapes work for finance teams
 A finance team’s job is not simply to report the numbers: it’s to interpret what...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

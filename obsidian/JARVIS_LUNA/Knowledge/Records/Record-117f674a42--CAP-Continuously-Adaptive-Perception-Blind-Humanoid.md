@@ -2,8 +2,12 @@
 title: "Record 117f674a42 · CAP-Continuously-Adaptive-Perception-Blind-Humanoid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.063306+00:00
+updated_at: 2026-10-11T00:55:13.201993+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11553v1"
 ---
 
 # Record 117f674a42 · CAP-Continuously-Adaptive-Perception-Blind-Humanoid
@@ -16,7 +20,3 @@ CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Deno
 Humanoid locomotion across complex terrain demands forward-looking exteroception to anticipate obstacles, yet this signal is unreliable in real-world deployment, failing partially and intermittently. Existing perceptive policies often assume that depth observations remain clean and in-distribution, while recent attempts to unify perceptive and blind control typically route or switch between separa
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

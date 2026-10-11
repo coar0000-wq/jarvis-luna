@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.190524+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/070/-uk-business-equity-investment-rises-by-more-than-a-quarter-in-h/"
 ---
 
 # Record 780 · Uk-Business-Equity-Investment-Rises-By-More-Than-A-Quarter-In-H
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Uk Business Equity Investment Rises By More Than A Quarter In H
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

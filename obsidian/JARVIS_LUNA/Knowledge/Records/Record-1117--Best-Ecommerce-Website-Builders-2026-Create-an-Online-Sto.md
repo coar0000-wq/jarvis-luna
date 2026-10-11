@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.146806+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE9BU1hOYWZ4aG5RZUFncUZHU21taFY1aXVTMU1KYXJMWHBkRl9jR1NBV3JSOVozRHdmLWdWNzZaazNiV09WY082N0NLZ1RyaXdHa1pNcUdidU51NHdsT1pGUnR2emFGTjRJbjVKZHUxWlVGUQ?oc=5"
 ---
 
 # Record 1117 · Best-Ecommerce-Website-Builders-2026-Create-an-Online-Store---techco
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Best Ecommerce Website Builders 2026: Create an Online Store - tech.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

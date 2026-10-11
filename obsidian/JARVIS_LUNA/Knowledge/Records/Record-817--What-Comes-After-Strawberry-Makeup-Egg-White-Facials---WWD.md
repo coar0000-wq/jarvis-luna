@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.322484+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdHAzdVlJX0lQb0xZOGtaZXNZb0cxdjc5ZXpRc0xTMkVkWHZXMU5KdVowZzdUQkxxVHBWNEJqa0JKNGNwY2F2U0MzZi1GSl9YUjlwTGJsTmpUQVl0WUl1N3dkZUJ3TTI0c2hKNXpxRjZEazN4LW9qQjg0aTY0TkdJaXZZbFNwaUpWNWMwalZPTVFMY2JIT1dWZ1VzNVJubmFyV1I3NGpVbVFjTWU0LXpYelYtTVFoeUNneWVsekxhSHl4SnVW?oc=5"
 ---
 
 # Record 817 · What-Comes-After-Strawberry-Makeup-Egg-White-Facials---WWD
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 What Comes After ‘Strawberry Makeup’? Egg White Facials. - WWD
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.504934+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "AI-에이전트"]
+org: "Google-DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pbio.3003839"
 ---
 
 # Record 476 · Towards-globally-equitable-bioinformatics-adoption
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Towards globally equitable bioinformatics adoption
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

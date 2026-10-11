@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.115205+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=gD0RZu93wJg"
 ---
 
 # Record 2322 · 피부-장벽-의외로-많이-잘못-알고-있습니다꼭-알아야-할-6가지
@@ -15,7 +19,3 @@ tags: [record, real-data]
 피부 장벽, 의외로 많이 잘못 알고 있습니다｜꼭 알아야 할 6가지
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

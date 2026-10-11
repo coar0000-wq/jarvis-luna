@@ -2,8 +2,14 @@
 title: "Record 88c6d14cbc · LifeSciBench-Evaluating-Language-Models-on-Realisti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.004063+00:00
+updated_at: 2026-10-11T00:55:27.325336+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "모델-라우팅MoE", "AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.08.13.744657"
+kind: "논문"
 ---
 
 # Record 88c6d14cbc · LifeSciBench-Evaluating-Language-Models-on-Realisti
@@ -15,7 +21,3 @@ tags: [record, real-data]
 LifeSciBench: Evaluating Language Models on Realistic, Expert-Level Tasks in the Life Sciences
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[모델-라우팅MoE]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

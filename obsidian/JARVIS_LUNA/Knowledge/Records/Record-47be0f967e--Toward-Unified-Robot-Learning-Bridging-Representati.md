@@ -2,8 +2,12 @@
 title: "Record 47be0f967e · Toward-Unified-Robot-Learning-Bridging-Representati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.942051+00:00
+updated_at: 2026-10-11T00:55:11.748194+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03927v1"
 ---
 
 # Record 47be0f967e · Toward-Unified-Robot-Learning-Bridging-Representati
@@ -16,7 +20,3 @@ Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, 
 For robots to operate reliably in real-world environments, they need to perceive their surroundings, act, and reason about the consequences of those actions. Rapid progress in the domains of representation learning, VLA models, and world models has significantly enhanced the capabilities of robot learning systems, enabling robots to work in increasingly complex environments. However, these paradig
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

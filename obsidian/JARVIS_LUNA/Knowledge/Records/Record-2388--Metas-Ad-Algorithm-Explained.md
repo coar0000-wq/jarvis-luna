@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.347064+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/WH6vhVBC_OQ"
 ---
 
 # Record 2388 · Metas-Ad-Algorithm-Explained
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Meta's Ad Algorithm Explained
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

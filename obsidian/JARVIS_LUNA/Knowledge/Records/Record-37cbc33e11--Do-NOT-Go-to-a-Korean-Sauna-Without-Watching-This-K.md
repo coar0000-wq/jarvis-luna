@@ -2,8 +2,12 @@
 title: "Record 37cbc33e11 · Do-NOT-Go-to-a-Korean-Sauna-Without-Watching-This-K"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.711184+00:00
+updated_at: 2026-10-11T00:55:54.099096+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/soCyBut6btg"
 ---
 
 # Record 37cbc33e11 · Do-NOT-Go-to-a-Korean-Sauna-Without-Watching-This-K
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Do NOT Go to a Korean Sauna Without Watching This! Korean Sauna Jimjilbang 101:)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 7a282fa6b9 · Does-Olive-Young-US-Live-Up-to-the-Hype---Allure"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.324041+00:00
+updated_at: 2026-10-11T00:55:32.478520+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNDVRUjQ3ZjluYWw3eGpNQVFQNHV6VFo4SF9TeFR2VllTYzE5cDhkRDRhLXZDLWFPMlBCVkRIakc5d3ZmcHpXbVphN2xmRWxZUWx1cTUyU0J2QzJ2NmdmNVBuVTgzWHNObkt6NE9BN3hPQmhWUzdCeEp2YUEwRUZCLS1B?oc=5"
 ---
 
 # Record 7a282fa6b9 · Does-Olive-Young-US-Live-Up-to-the-Hype---Allure
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Does Olive Young US Live Up to the Hype? - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

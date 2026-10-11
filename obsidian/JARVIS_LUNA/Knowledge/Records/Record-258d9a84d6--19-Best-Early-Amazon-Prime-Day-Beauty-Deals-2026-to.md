@@ -2,8 +2,12 @@
 title: "Record 258d9a84d6 · 19-Best-Early-Amazon-Prime-Day-Beauty-Deals-2026-to-Shop-Now"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.909584+00:00
+updated_at: 2026-10-11T00:55:42.086590+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-early-amazon-prime-day-beauty-deals"
 ---
 
 # Record 258d9a84d6 · 19-Best-Early-Amazon-Prime-Day-Beauty-Deals-2026-to-Shop-Now
@@ -16,7 +20,3 @@ tags: [record, real-data]
 19 Best Early Amazon Prime Day Beauty Deals 2026 to Shop Now
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

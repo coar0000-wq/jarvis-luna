@@ -2,8 +2,12 @@
 title: "Record 18483e0180 · QMSR-Query-Conditioned-Mask-wise-Expert-Routing-for-Robust-Open-Vocabu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.131624+00:00
+updated_at: 2026-10-11T00:55:13.973580+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.18752"
 ---
 
 # Record 18483e0180 · QMSR-Query-Conditioned-Mask-wise-Expert-Routing-for-Robust-Open-Vocabu
@@ -16,7 +20,3 @@ QMSR: Query-Conditioned Mask-wise Expert Routing for Robust Open-Vocabulary Unde
 Open-vocabulary object retrieval remains challenging in complex underwater environments. Although underwater image enhancement (UIE) can improve visual quality, fixed UIE strategies may even underperform the Raw representation in retrieval, indicating that enhancement should not be applied as a uniform preprocessing step. To address this problem, we propose \textbf{QMSR}, a query-conditioned mask-
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.406133+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/collaboration-makes-us-all-stronger"
 ---
 
 # Record 1901 · Collaboration-makes-us-all-stronger
@@ -16,7 +21,3 @@ Collaboration makes us all stronger
 The best security bugs come with a good storySome of our best security investments haven't been tools or scanners...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 84e834a768 · Marangoni-Flow-Control-Framework-for-Uniform-Thin-F"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.346891+00:00
+updated_at: 2026-10-11T00:55:17.146089+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsami.6c10360"
+kind: "논문"
 ---
 
 # Record 84e834a768 · Marangoni-Flow-Control-Framework-for-Uniform-Thin-F
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Marangoni Flow Control Framework for Uniform Thin-Film Formation in Inkjet-Printed Light-Emitting Devices
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

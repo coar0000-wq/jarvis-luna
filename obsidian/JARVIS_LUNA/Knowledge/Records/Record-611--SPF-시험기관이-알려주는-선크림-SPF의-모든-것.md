@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.085206+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=J0u4ovCS9_k"
 ---
 
 # Record 611 · SPF-시험기관이-알려주는-선크림-SPF의-모든-것
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 SPF 시험기관이 알려주는 선크림 SPF의 모든 것
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

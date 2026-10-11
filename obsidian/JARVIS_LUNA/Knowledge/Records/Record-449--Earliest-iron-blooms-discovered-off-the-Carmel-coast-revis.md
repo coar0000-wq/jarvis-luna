@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.355593+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s40494-026-02409-7"
 ---
 
 # Record 449 · Earliest-iron-blooms-discovered-off-the-Carmel-coast-revise-Mediterran
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Earliest iron blooms discovered off the Carmel coast revise Mediterranean trade in raw metal ca. 600 BCE
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

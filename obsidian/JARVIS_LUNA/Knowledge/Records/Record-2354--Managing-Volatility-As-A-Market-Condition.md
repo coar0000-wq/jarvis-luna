@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.187726+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/markets-and-economy/markets/managing-volatility-as-a-market-condition"
 ---
 
 # Record 2354 · Managing-Volatility-As-A-Market-Condition
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Managing Volatility As A Market Condition
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

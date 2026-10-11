@@ -2,8 +2,12 @@
 title: "Record 7d01f23550 · 2-Piece-Madagascar-Centella-Hyalu-Cica-Water-Fit-Sun-Serum-UV-Twin-Pac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.614514+00:00
+updated_at: 2026-10-11T00:55:52.372728+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/2-piece-madagascar-centella-hyalu-cica-water-fit-sun-serum-uv-twin-pack-pimprod2059875"
 ---
 
 # Record 7d01f23550 · 2-Piece-Madagascar-Centella-Hyalu-Cica-Water-Fit-Sun-Serum-UV-Twin-Pac
@@ -16,7 +20,3 @@ tags: [record, real-data]
 2 Piece Madagascar Centella Hyalu-Cica Water-Fit Sun Serum UV Twin Pack · SKIN1004 · $38
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

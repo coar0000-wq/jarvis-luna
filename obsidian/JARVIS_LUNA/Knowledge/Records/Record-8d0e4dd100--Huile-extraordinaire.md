@@ -2,8 +2,12 @@
 title: "Record 8d0e4dd100 · Huile-extraordinaire"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.883731+00:00
+updated_at: 2026-10-11T00:55:41.616404+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/3600522410874"
 ---
 
 # Record 8d0e4dd100 · Huile-extraordinaire
@@ -16,7 +20,3 @@ Huile extraordinaire
 Huile extraordinaire · L'Oréal Paris, Elseve
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 61742fc40c · Emma-Stones-Hair-Is-Suddenly-So-Long--See-Photos"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.923277+00:00
+updated_at: 2026-10-11T00:55:42.299393+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/emma-stone-long-wavy-hair-2026"
 ---
 
 # Record 61742fc40c · Emma-Stones-Hair-Is-Suddenly-So-Long--See-Photos
@@ -16,7 +20,3 @@ Emma Stone's Hair Is Suddenly So Long — See Photos
 Emma Stone's Hair Is Suddenly So Long — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

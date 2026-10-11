@@ -2,8 +2,14 @@
 title: "Record 75b46ee03f · Tensor-Network-Simulation-of-the-Heisenberg-Model-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.700132+00:00
+updated_at: 2026-10-11T00:55:38.573619+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7171749674"
+kind: "논문"
 ---
 
 # Record 75b46ee03f · Tensor-Network-Simulation-of-the-Heisenberg-Model-o
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Tensor Network Simulation of the Heisenberg Model on Heavy-Hex Lattices
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

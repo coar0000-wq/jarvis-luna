@@ -2,8 +2,12 @@
 title: "Record f4b3162a69 · 수부지-피부-제대로-관리하는법-그냥-지성피부가-아닙니다-수부지는-이-성분들을-챙기시고-이렇게-관리하셔야-합니다"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.714686+00:00
+updated_at: 2026-10-11T00:55:54.166783+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=4K-qZwGcsEs"
 ---
 
 # Record f4b3162a69 · 수부지-피부-제대로-관리하는법-그냥-지성피부가-아닙니다-수부지는-이-성분들을-챙기시고-이렇게-관리하셔야-합니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ❗️수부지 피부 제대로 관리하는법❗️ 그냥 지성피부가 아닙니다. 수부지는 이 성분들을 챙기시고 이렇게 관리하셔야 합니다.
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

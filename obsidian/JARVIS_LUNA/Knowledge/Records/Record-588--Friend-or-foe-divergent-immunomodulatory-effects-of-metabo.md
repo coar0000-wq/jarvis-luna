@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.683180+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.3389/fimmu.2026.1879043"
 ---
 
 # Record 588 · Friend-or-foe-divergent-immunomodulatory-effects-of-metabolites-derive
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Friend or foe: divergent immunomodulatory effects of metabolites derived from the virucidal zinc finger inhibitor SAMT-247
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

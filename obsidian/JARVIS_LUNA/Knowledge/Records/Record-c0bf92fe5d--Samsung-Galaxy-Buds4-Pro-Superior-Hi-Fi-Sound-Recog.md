@@ -2,8 +2,14 @@
 title: "Record c0bf92fe5d · Samsung-Galaxy-Buds4-Pro-Superior-Hi-Fi-Sound-Recog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.574249+00:00
+updated_at: 2026-10-11T00:55:36.641405+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["모델-라우팅MoE", "음성오디오", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-galaxy-buds4-pro-superior-hi-fi-sound-recognized-by-audio-experts"
+kind: "발표물"
 ---
 
 # Record c0bf92fe5d · Samsung-Galaxy-Buds4-Pro-Superior-Hi-Fi-Sound-Recog
@@ -16,7 +22,3 @@ Samsung Galaxy Buds4 Pro Superior Hi-Fi Sound Recognized by Audio Experts
 Samsung Electronics today announced that Galaxy Buds4 Pro has received the EISA In-Ear Headphones 2026-2027 Award by the Expert Imaging and Sound Association (EISA). This marks the first time a Galaxy Buds product has earned this recognition from EISA, underscoring Samsung’s continued commitment to audio innovation, superior sound quality, intelligent adaptive listening technologies, and user-focu
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[모델-라우팅MoE]] [[음성오디오]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

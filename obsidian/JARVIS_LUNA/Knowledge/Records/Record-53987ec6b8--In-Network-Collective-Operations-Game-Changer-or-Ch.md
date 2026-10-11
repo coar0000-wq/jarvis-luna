@@ -2,8 +2,14 @@
 title: "Record 53987ec6b8 · In-Network-Collective-Operations-Game-Changer-or-Ch"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.433632+00:00
+updated_at: 2026-10-11T00:55:18.688860+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.1109/mc.2025.3616048"
+kind: "논문"
 ---
 
 # Record 53987ec6b8 · In-Network-Collective-Operations-Game-Changer-or-Ch
@@ -15,7 +21,3 @@ tags: [record, real-data]
 In-Network Collective Operations: Game Changer or Challenge for AI Workloads?
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 2cd898a70c · Shopify-POS-checkout-is-over-a-minute-faster"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.767144+00:00
+updated_at: 2026-10-11T00:55:55.107914+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=37zOjqRl-3Q"
 ---
 
 # Record 2cd898a70c · Shopify-POS-checkout-is-over-a-minute-faster
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify POS checkout is over a minute faster
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

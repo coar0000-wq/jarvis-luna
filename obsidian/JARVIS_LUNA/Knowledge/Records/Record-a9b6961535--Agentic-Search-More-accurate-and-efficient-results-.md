@@ -2,8 +2,14 @@
 title: "Record a9b6961535 · Agentic-Search-More-accurate-and-efficient-results-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.089251+00:00
+updated_at: 2026-10-11T00:55:28.354179+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/agentic-search/"
+kind: "발표물"
 ---
 
 # Record a9b6961535 · Agentic-Search-More-accurate-and-efficient-results-
@@ -16,7 +22,3 @@ Agentic Search. More accurate and efficient results from your AI systems.
 The retrieval layer that helps AI systems navigate, read, and verify information inside even the most complex documents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

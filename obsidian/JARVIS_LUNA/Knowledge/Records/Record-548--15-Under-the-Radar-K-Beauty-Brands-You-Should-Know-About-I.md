@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.344297+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc1VyMC11Zzd0YmlIc1RELWhqLUNjdVJuamF3NVdzTGRmQ1JuR2tYaEdEVEV4d2p6ZGxYODl3ZHQtZEg4aTlrZ1VxTlpvcURXVEFVaHdUSWJpUVdEVEVKM0c0b3RZc2NPbHE4dE9xOEFZQjRFWlUyTkNZSWtzM0xSWC1mMXF0OUg2MWdMM3NDV29ZeEk?oc=5"
 ---
 
 # Record 548 · 15-Under-the-Radar-K-Beauty-Brands-You-Should-Know-About-In-2026---Mar
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 15 Under-the-Radar K-Beauty Brands You Should Know About In 2026 - Marie Claire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

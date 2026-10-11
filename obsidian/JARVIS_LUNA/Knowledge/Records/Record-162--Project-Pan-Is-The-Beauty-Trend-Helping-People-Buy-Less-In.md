@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.562888+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XcW0zNlZXM2VNS0RfVHI2WFhNTXNvYU9nbHdzZ1FLYS1uQUxZZ2txWE9ySHFPYWY1YVdPZnU3YVVodHU3ejRpd3diYmQxaldZbG8yTlh2S2Y4ZGRrQmVialdoYS0?oc=5"
 ---
 
 # Record 162 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-Less-In-2026---Bust
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 "Project Pan" Is The Beauty Trend Helping People Buy Less In 2026 - Bustle
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

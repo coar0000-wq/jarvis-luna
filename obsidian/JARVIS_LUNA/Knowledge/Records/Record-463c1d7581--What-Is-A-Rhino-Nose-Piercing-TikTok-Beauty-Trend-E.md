@@ -2,8 +2,12 @@
 title: "Record 463c1d7581 · What-Is-A-Rhino-Nose-Piercing-TikTok-Beauty-Trend-E"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.453372+00:00
+updated_at: 2026-10-11T00:55:34.693994+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNNkRTTE5EOXZJaEtEMTJvWlVmeEc0ZUpONFlFTkEwVTZTNUNUSHlwUXV0bHpuNk1tX0ZleUNwZTZjaGNjeEdiX05QZmRVNkR3a2RIYW5RTzQ0Wk1KT0daSTkyUFQ3bGI0dEJ5cGZJREVteE1RZHpFZTVwQV9pZWJQRlUzLW9HbERYaGVZUW9FYzJrWTN2cElIZlpFd2Jydw?oc=5"
 ---
 
 # Record 463c1d7581 · What-Is-A-Rhino-Nose-Piercing-TikTok-Beauty-Trend-E
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Is A Rhino Nose Piercing? TikTok Beauty Trend Explained - Betches
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

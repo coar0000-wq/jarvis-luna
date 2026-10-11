@@ -2,8 +2,12 @@
 title: "Record 1083afaab2 · Peptide-Lip-Shape-Contouring-Lip-Shaper"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.560931+00:00
+updated_at: 2026-10-11T00:55:51.563801+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.sephora.com"
+url: "https://www.sephora.com/product/peptide-lip-shape-P517509"
 ---
 
 # Record 1083afaab2 · Peptide-Lip-Shape-Contouring-Lip-Shaper
@@ -16,7 +20,3 @@ Peptide Lip Shape Contouring Lip Shaper
 Peptide Lip Shape Contouring Lip Shaper · rhode · $24
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

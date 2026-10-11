@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.178239+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/HJmBI178Fik"
 ---
 
 # Record 651 · Global-1-vs--Korea-1--Pick-Before-Me--Part-5
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Global #1 vs 🇰🇷 Korea #1 — Pick Before Me | Part 5
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

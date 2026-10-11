@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.331492+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠", "의료바이오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNMU13YXkwQmowSnJEallzSkpfSjFGU2lDWkU4a0t1U0hBTjNKNThpelhhZy1XVW8xdWp4WF9aWXlVdW9QT3dBSW9NQllKa2g1MnZaX2s5OTc1M3V2VHNDVWtkYUNxNGo1N3I2ZkV4RkNMWF96MnRISlROdTVxTjE0dEhtY2ljQ09Ja01MY1FuWHYxbm45Y1h0Yk9qWlUwUQ?oc=5"
 ---
 
 # Record 1522 · TikTok-Skin-Care-Routines-Are-Harmful-and-Expensive-Researchers-Say---
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok Skin Care Routines Are Harmful and Expensive, Researchers Say - Healthline
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

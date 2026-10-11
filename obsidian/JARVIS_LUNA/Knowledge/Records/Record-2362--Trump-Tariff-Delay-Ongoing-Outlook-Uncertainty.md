@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.529859+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["물류통관", "투자은행금융"]
+org: "Morgan-Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/articles/trump-tariff-delay-ongoing-outlook-uncertainty"
 ---
 
 # Record 2362 · Trump-Tariff-Delay-Ongoing-Outlook-Uncertainty
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Trump Tariff Delay Ongoing Outlook Uncertainty
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[물류통관]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

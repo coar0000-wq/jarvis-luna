@@ -2,8 +2,14 @@
 title: "Record 74b762b0d7 · PhysicsInformed-AgentAnalytics-Framework-With-Causal-Validation-for-Cr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.262257+00:00
+updated_at: 2026-10-11T00:55:15.737111+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석", "과학수학", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1002/jsid.70101"
+kind: "논문"
 ---
 
 # Record 74b762b0d7 · PhysicsInformed-AgentAnalytics-Framework-With-Causal-Validation-for-Cr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Physics‐Informed Agent‐Analytics Framework With Causal Validation for Crease Prediction in Multilayer Flexible Cover Stacks
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[과학수학]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

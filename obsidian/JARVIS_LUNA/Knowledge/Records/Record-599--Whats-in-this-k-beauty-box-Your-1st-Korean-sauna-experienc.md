@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.140738+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Aty0xiQjBmg"
 ---
 
 # Record 599 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-experience-that-you-d
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 What's in this k-beauty box? Your 1st Korean sauna experience that you didn't know you needed!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

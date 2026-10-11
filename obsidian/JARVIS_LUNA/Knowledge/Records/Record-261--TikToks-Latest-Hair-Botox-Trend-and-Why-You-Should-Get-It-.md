@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.286712+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JbjdDZ01WMkNjWlpYaWxnTW8zUEZNUEZpUm9NUE83b2pYeUZYUEdHVEtnVm54MXNBTXJaclJHS04tTEhCeFhBWGpoZFYxdk1oNTZvMC1EbjlIUFpBb1NLQVRSNWhESFlWVXZLUw?oc=5"
 ---
 
 # Record 261 · TikToks-Latest-Hair-Botox-Trend-and-Why-You-Should-Get-It---LOFFICIEL-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 TikTok's Latest Hair Botox Trend and Why You Should Get It - L'OFFICIEL USA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

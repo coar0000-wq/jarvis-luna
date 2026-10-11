@@ -2,8 +2,12 @@
 title: "Record 0c3aa42646 · Data-Based-Clustering-and-Control-of-Similar-Biolog"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.941494+00:00
+updated_at: 2026-10-11T00:55:11.746802+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03921v1"
 ---
 
 # Record 0c3aa42646 · Data-Based-Clustering-and-Control-of-Similar-Biolog
@@ -16,7 +20,3 @@ Data-Based Clustering and Control of Similar Biological Systems
 Cybergenetic control of gene expression enables applications in synthetic biology, drug development, and biomanufacturing. Microfluidic platforms allow the parallel control of large cell populations. However, the resulting computational burden and intrinsic biological heterogeneity limit the scalability of conventional control strategies. In this work, we propose a similarity-based framework to re
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

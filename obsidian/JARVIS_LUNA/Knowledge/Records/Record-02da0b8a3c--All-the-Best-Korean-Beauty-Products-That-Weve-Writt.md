@@ -2,8 +2,12 @@
 title: "Record 02da0b8a3c · All-the-Best-Korean-Beauty-Products-That-Weve-Writt"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.287408+00:00
+updated_at: 2026-10-11T00:55:31.771237+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RU2ZJT2ppSjJFYjJyWWhfcmkyaDVramtIS2RDajhkd0w2ejFFYTJhUWdxYTg4Z3hhSWdrR19GSUNKU1BYRWdneWp3U2wzeVVwdHF0RDVpZXk3cnp5aV9ENVF1YXNmNGNvYUJjU3lBUnhPOU1ZWXM3LQ?oc=5"
 ---
 
 # Record 02da0b8a3c · All-the-Best-Korean-Beauty-Products-That-Weve-Writt
@@ -15,7 +19,3 @@ tags: [record, real-data]
 All the Best Korean-Beauty Products (That We’ve Written About on the Strategist) - New York Magazine
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

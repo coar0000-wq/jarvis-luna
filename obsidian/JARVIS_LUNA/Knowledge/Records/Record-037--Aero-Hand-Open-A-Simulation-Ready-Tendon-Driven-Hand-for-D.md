@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.337183+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28578v1"
 ---
 
 # Record 037 · Aero-Hand-Open-A-Simulation-Ready-Tendon-Driven-Hand-for-Dexterous-Man
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

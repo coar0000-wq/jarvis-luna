@@ -2,8 +2,12 @@
 title: "Record 044051109b · 11-Of-The-Best-Clear-Sunscreens-For-Black--Brown-Sk"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.137014+00:00
+updated_at: 2026-10-11T00:55:29.212518+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZTWU0R2c2bXdNckV1N29mSDJWb201UGxUT2ZOajNjZ0oyRkJHTWVQdzdSME5YT0M2M0g2YXFrSnZGZWk3Mmx2S3VkVUx3bk9jMVV5dQ?oc=5"
 ---
 
 # Record 044051109b · 11-Of-The-Best-Clear-Sunscreens-For-Black--Brown-Sk
@@ -16,7 +20,3 @@ tags: [record, real-data]
 11 Of The Best Clear Sunscreens For Black & Brown Skin - Coveteur
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

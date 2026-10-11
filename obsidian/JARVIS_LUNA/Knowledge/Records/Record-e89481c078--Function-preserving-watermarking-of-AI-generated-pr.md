@@ -2,8 +2,14 @@
 title: "Record e89481c078 · Function-preserving-watermarking-of-AI-generated-proteins"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.365852+00:00
+updated_at: 2026-10-11T00:55:17.464103+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41586-026-10965-y"
+kind: "논문"
 ---
 
 # Record e89481c078 · Function-preserving-watermarking-of-AI-generated-proteins
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Function-preserving watermarking of AI-generated proteins
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

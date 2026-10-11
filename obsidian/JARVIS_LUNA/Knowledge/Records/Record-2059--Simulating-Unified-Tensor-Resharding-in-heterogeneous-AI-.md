@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.053609+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "openalex.org"
+url: "https://openalex.org/W7166399755"
 ---
 
 # Record 2059 · Simulating-Unified-Tensor-Resharding-in-heterogeneous-AI-systems
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Simulating Unified Tensor Resharding in heterogeneous AI systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

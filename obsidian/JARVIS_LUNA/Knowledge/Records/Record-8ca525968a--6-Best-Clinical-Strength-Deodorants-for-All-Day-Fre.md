@@ -2,8 +2,12 @@
 title: "Record 8ca525968a · 6-Best-Clinical-Strength-Deodorants-for-All-Day-Freshness"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.909252+00:00
+updated_at: 2026-10-11T00:55:42.080140+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-clinical-strength-deodorants"
 ---
 
 # Record 8ca525968a · 6-Best-Clinical-Strength-Deodorants-for-All-Day-Freshness
@@ -16,7 +20,3 @@ tags: [record, real-data]
 6 Best Clinical-Strength Deodorants for All-Day Freshness
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

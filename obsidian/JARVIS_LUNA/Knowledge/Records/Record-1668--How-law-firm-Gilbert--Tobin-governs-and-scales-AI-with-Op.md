@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.620687+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/gilbert-tobin"
 ---
 
 # Record 1668 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-with-OpenAI
@@ -16,7 +21,3 @@ How law firm Gilbert + Tobin governs and scales AI with OpenAI
 See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

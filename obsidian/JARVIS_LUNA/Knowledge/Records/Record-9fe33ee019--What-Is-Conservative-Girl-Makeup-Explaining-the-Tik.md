@@ -2,8 +2,12 @@
 title: "Record 9fe33ee019 · What-Is-Conservative-Girl-Makeup-Explaining-the-Tik"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.442877+00:00
+updated_at: 2026-10-11T00:55:34.460028+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWG44VUI4Vmx4QlluU0djS19JX3A5LVR3Vjl6Nm9wY3cxNThrUzBsUFgzTE5uNUJoWXdmZWx1MnhpSDRxcE1aXzZjV2RHZ19ibmw0OHpVZm9tbkJlT01ZV3gtcXEzeE9nMksxcmd2cnNpTWFtMmJydGswOGRZVkhGemQySXYybVROZ1hTSm9QN0hTRkNKYjNrOGtn?oc=5"
 ---
 
 # Record 9fe33ee019 · What-Is-Conservative-Girl-Makeup-Explaining-the-Tik
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What Is Conservative Girl Makeup? Explaining the TikTok Trend on Republican Makeup - L'OFFICIEL USA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

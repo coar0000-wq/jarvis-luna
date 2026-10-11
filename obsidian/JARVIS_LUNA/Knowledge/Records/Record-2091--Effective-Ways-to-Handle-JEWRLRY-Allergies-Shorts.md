@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.219089+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["소셜콘텐츠"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/V5G7GbuxajQ"
 ---
 
 # Record 2091 · Effective-Ways-to-Handle-JEWRLRY-Allergies-Shorts
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Effective Ways to Handle JEWRLRY Allergies #Shorts
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

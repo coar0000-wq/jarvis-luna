@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.025538+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE9tdUplWUZvMDNFZEZmNncwclZJWXFSdVZuUTd6MG9rbmhVVldXcnYweDFDcjVDUVA5Q3ZEazhFNV81S0s5Ulp1R1NlcTMtWWJ6UDZESWJfcTlNaUZkbzlGdnlFX0Q4VUpzYWp3bHpySjVtUQ?oc=5"
 ---
 
 # Record 1129 · I-Tried-320-Of-Medicube-Korean-Skincare---Now-I-Get-The-Hype---Refiner
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Tried $320 Of Medicube Korean Skincare — & Now I Get The Hype - Refinery29
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

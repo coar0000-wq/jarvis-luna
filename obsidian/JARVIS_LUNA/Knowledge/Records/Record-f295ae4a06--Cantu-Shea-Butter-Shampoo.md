@@ -2,8 +2,12 @@
 title: "Record f295ae4a06 · Cantu-Shea-Butter-Shampoo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.872305+00:00
+updated_at: 2026-10-11T00:55:41.420117+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/0817513015311"
 ---
 
 # Record f295ae4a06 · Cantu-Shea-Butter-Shampoo
@@ -16,7 +20,3 @@ Cantu Shea Butter Shampoo
 Cantu Shea Butter Shampoo · cantu shea butter
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

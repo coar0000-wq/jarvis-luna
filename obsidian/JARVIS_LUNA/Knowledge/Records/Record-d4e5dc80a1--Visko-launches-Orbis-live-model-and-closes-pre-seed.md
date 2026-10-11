@@ -2,8 +2,12 @@
 title: "Record d4e5dc80a1 · Visko-launches-Orbis-live-model-and-closes-pre-seed"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.610612+00:00
+updated_at: 2026-10-11T00:55:52.319484+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/"
 ---
 
 # Record d4e5dc80a1 · Visko-launches-Orbis-live-model-and-closes-pre-seed
@@ -16,7 +20,3 @@ Visko launches Orbis live model and closes pre-seed funding round
 <p>Visko says Orbis streams 4K video at 24 frames per second, responds to user intervention, and sustains hour-scale generation without drift.</p> <p>The post <a href="https://www.therobotreport.com/visko-launches-orbis-live-model-closes-pre-seed-funding-round/">Visko launches Orbis live model and closes pre-seed funding round</a> appeared first on <a href="https://www.therobotreport.com">The Robo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

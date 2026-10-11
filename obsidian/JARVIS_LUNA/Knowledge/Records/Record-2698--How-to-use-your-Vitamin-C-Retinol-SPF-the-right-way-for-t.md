@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.794963+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/PaHbgC888qQ"
 ---
 
 # Record 2698 · How-to-use-your-Vitamin-C-Retinol-SPF-the-right-way-for-the-best-way-t
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to use your Vitamin C, Retinol, SPF the right way for the best way to age gracefully🍋#antiaging
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

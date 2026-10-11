@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.320367+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal"
 ---
 
 # Record 1932 · Gold-Is-Forecast-To-Climb-As-Central-Banks-Buy-The-Precious-Metal
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Gold Is Forecast To Climb As Central Banks Buy The Precious Metal
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

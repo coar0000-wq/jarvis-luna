@@ -2,8 +2,14 @@
 title: "Record 9f6777cc83 · ETV5-reduces-androgen-receptor-expression-and-induc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.383093+00:00
+updated_at: 2026-10-11T00:55:17.792087+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1073/pnas.2420313122"
+kind: "논문"
 ---
 
 # Record 9f6777cc83 · ETV5-reduces-androgen-receptor-expression-and-induc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ETV5 reduces androgen receptor expression and induces neural stem–like properties during neuroendocrine prostate cancer development
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 331004ad78 · Estimating-Inconsistency-Response-Surfaces-under-Un"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.055119+00:00
+updated_at: 2026-10-11T00:55:13.123651+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11331v1"
 ---
 
 # Record 331004ad78 · Estimating-Inconsistency-Response-Surfaces-under-Un
@@ -16,7 +20,3 @@ Estimating Inconsistency Response Surfaces under Uncertainty in Cyber-Physical S
 Cyber-Physical Systems (CPS) are commonly represented through multiple interconnected models. During development, CPS consistency requires that shared model elements remain compatible across these models. Uncertainty, for example, due to sensor noise or model abstraction, changes the admissible values of model elements and can introduce inconsistencies, i.e., situations in which models can no long
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

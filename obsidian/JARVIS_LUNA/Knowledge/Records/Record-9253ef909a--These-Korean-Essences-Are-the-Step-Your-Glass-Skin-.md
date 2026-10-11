@@ -2,8 +2,12 @@
 title: "Record 9253ef909a · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.173410+00:00
+updated_at: 2026-10-11T00:55:29.771129+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2dm5kOW9pUXBkREUzT2FtRDEwZGU4ODBKcTQzc0F6U0J1RU5YeVJKclYzR29yUzdsUUg1VHplUlVibTMxTy1zbkU3WjVXRGdKN3NUV3A0WFZzcUl6NVE?oc=5"
 ---
 
 # Record 9253ef909a · These-Korean-Essences-Are-the-Step-Your-Glass-Skin-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These Korean Essences Are the Step Your Glass-Skin Routine Is Missing - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

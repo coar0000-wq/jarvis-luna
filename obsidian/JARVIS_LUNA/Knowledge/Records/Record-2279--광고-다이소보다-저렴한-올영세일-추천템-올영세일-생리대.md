@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.987397+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/aF30McyZJj0"
 ---
 
 # Record 2279 · 광고-다이소보다-저렴한-올영세일-추천템-올영세일-생리대
@@ -15,7 +19,3 @@ tags: [record, real-data]
 광고❌ 다이소보다 저렴한 올영세일 추천템 #올영세일 #생리대
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

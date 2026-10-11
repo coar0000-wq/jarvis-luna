@@ -2,8 +2,12 @@
 title: "Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermosc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.025436+00:00
+updated_at: 2026-10-11T00:55:12.799830+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["컴퓨터-비전", "로보틱스", "뷰티스킨케어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10169v1"
 ---
 
 # Record e0dee6c8c5 · Multi-Robot-Scanner-for-Automated-Full-Body-Dermosc
@@ -16,7 +20,3 @@ Multi-Robot Scanner for Automated Full-Body Dermoscopic Imaging
 This paper outlines the specifications and design approach used to construct a full body imaging scanner capable of capturing skin lesions at a dermatoscopic level using cameras mounted on the end-effectors of four UR10 manipulators. The system possesses a view-planning algorithm capable of appropriately selecting the best camera position to acquire images of moles, a high-level controller to allo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[컴퓨터-비전]] [[로보틱스]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record f4af9c80fa · Oral-Fungal-Infection-Impacts-Epithelial-Innate-Imm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.484432+00:00
+updated_at: 2026-10-11T00:55:19.572843+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1158/0008-5472.can-26-0070"
+kind: "논문"
 ---
 
 # Record f4af9c80fa · Oral-Fungal-Infection-Impacts-Epithelial-Innate-Imm
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Oral Fungal Infection Impacts Epithelial Innate Immunity to Promote Local and Distal Squamous Cell Carcinoma Progression
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

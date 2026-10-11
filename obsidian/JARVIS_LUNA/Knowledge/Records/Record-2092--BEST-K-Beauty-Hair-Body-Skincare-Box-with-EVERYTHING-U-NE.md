@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.362303+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/fcqharWxxDo"
 ---
 
 # Record 2092 · BEST-K-Beauty-Hair-Body-Skincare-Box-with-EVERYTHING-U-NEED
@@ -15,7 +19,3 @@ tags: [record, real-data]
 BEST K-Beauty Hair Body Skincare Box with EVERYTHING U NEED~!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

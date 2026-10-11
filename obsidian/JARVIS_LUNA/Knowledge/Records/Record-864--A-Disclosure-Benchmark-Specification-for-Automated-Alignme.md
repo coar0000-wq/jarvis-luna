@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.461790+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22179465"
 ---
 
 # Record 864 · A-Disclosure-Benchmark-Specification-for-Automated-Alignment-Research-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A Disclosure Benchmark Specification for Automated Alignment Research — Version 1.2
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

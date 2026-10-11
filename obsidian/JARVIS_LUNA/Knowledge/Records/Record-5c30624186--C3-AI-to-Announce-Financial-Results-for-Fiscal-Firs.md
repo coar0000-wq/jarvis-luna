@@ -2,8 +2,14 @@
 title: "Record 5c30624186 · C3-AI-to-Announce-Financial-Results-for-Fiscal-Firs"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.083920+00:00
+updated_at: 2026-10-11T00:55:28.297869+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "데이터분석"]
+org: "C3 AI"
+domain: "ir.c3.ai"
+url: "https://ir.c3.ai/news-releases/news-release-details/c3-ai-announce-financial-results-fiscal-first-quarter-2027"
+kind: "발표물"
 ---
 
 # Record 5c30624186 · C3-AI-to-Announce-Financial-Results-for-Fiscal-Firs
@@ -16,7 +22,3 @@ C3 AI to Announce Financial Results for Fiscal First Quarter 2027 on September 2
 REDWOOD CITY, Calif. --(BUSINESS WIRE)--Aug. 20, 2026-- C3 AI (NYSE: AI), the Enterprise AI application software company, today announced it will issue its financial results for the fiscal first quarter, which ended July 31, 2026, following the close of the U.S.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[데이터분석]] [[기관--C3-AI]] [[JARVIS Real Knowledge Index]]

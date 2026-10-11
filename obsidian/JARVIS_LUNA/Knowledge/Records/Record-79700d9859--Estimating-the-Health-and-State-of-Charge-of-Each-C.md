@@ -2,8 +2,12 @@
 title: "Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.953194+00:00
+updated_at: 2026-10-11T00:55:11.902220+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04487v1"
 ---
 
 # Record 79700d9859 · Estimating-the-Health-and-State-of-Charge-of-Each-C
@@ -16,7 +20,3 @@ Estimating the Health and State of Charge of Each Cell in a Second-Life Battery 
 Effective use of battery storage depends on reliable estimation of its state of health (SOH) and state of charge (SOC). Model-based state estimation requires the open-circuit voltage (OCV) curve, which is typically unknown for second-life batteries. We present a framework that jointly estimates the states and parameters of an equivalent circuit model solely from field operation data, using Gaussia
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

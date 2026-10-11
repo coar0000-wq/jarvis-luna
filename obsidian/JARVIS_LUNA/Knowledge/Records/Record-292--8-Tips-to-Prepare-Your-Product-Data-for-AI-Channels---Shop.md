@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.093125+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE1GSmJjV0tjSmljWElWZWR2NGtNVEFrTFh5YnVERlRaeDhCUFlpeTN5d1ZvVG5iTEFYaEpBTEp4QmdtRjNTLVR0YkdYbXFuX1NzZjlhM3pMb2NCR0hPZVNMcUFrZEZ6WVdMYjBiUFA3bnhoTjBvaTJVdFRZSjk?oc=5"
 ---
 
 # Record 292 · 8-Tips-to-Prepare-Your-Product-Data-for-AI-Channels---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 8 Tips to Prepare Your Product Data for AI Channels - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

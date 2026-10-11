@@ -2,8 +2,12 @@
 title: "Record 539adc8cff · 20shades-TIRTIR-Mask-Fit-AI-Filter-Cushion-063-oz18"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.820134+00:00
+updated_at: 2026-10-11T00:55:40.470804+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA52938847"
 ---
 
 # Record 539adc8cff · 20shades-TIRTIR-Mask-Fit-AI-Filter-Cushion-063-oz18
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [20shades] TIRTIR Mask Fit AI Filter Cushion 0.63 oz.(18g) · 평점 4.4 · 리뷰 463
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

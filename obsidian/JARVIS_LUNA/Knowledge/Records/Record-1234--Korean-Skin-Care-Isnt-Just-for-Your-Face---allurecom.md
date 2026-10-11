@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:25.908341+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwTGNaNVY5YV9hSXYtUEpMZ3ZVUzQ5X0VFS0Uzb25TZTU3akFRTDFLQTZTbWhBXzBVYUdpQUlNbUxkOThUVmpNWXFFRHJuV2hXT2F5VndUb0RpbzNyWHBfdXBOOG9GN25v?oc=5"
 ---
 
 # Record 1234 · Korean-Skin-Care-Isnt-Just-for-Your-Face---allurecom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Korean Skin Care Isn't Just for Your Face - allure.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

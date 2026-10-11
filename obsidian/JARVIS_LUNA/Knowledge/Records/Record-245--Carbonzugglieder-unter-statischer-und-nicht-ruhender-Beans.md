@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.441521+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1002/bate.70066"
 ---
 
 # Record 245 · Carbonzugglieder-unter-statischer-und-nicht-ruhender-Beanspruchung
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Carbonzugglieder unter statischer und nicht ruhender Beanspruchung
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

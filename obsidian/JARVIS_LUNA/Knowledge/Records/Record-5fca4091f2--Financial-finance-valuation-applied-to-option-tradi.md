@@ -2,8 +2,14 @@
 title: "Record 5fca4091f2 · Financial-finance-valuation-applied-to-option-trading"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.516465+00:00
+updated_at: 2026-10-11T00:55:20.133006+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.1515/strm-2025-0021"
+kind: "논문"
 ---
 
 # Record 5fca4091f2 · Financial-finance-valuation-applied-to-option-trading
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Financial finance valuation applied to option trading
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

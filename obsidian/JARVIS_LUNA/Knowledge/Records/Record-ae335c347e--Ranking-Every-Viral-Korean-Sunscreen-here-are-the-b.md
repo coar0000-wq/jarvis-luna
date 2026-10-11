@@ -2,8 +2,12 @@
 title: "Record ae335c347e · Ranking-Every-Viral-Korean-Sunscreen-here-are-the-b"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.739383+00:00
+updated_at: 2026-10-11T00:55:54.653299+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=tC-qIswHYhY"
 ---
 
 # Record ae335c347e · Ranking-Every-Viral-Korean-Sunscreen-here-are-the-b
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Ranking Every Viral Korean Sunscreen (here are the best!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

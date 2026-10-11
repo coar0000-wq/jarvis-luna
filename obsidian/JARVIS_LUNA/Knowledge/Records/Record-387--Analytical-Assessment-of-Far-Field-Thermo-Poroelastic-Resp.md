@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.403970+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s00603-026-05872-7"
 ---
 
 # Record 387 · Analytical-Assessment-of-Far-Field-Thermo-Poroelastic-Response-and-The
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Analytical Assessment of Far-Field Thermo-Poroelastic Response and Thermally Induced Failure Potential in the Host Rock Around Underground Radioactive Waste Repositories
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

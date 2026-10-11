@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:25.518450+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.3390/electronics15173807"
 ---
 
 # Record 571 · ISER-Instance-Specific-Early-Stopping-with-Dynamic-Low-Rank-Adaptation
@@ -15,7 +20,3 @@ tags: [record, real-data]
 ISER: Instance-Specific Early Stopping with Dynamic Low-Rank Adaptation for Learned Image Compression
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

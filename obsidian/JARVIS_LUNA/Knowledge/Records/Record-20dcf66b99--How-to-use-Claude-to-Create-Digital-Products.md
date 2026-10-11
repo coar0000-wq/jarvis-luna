@@ -2,8 +2,12 @@
 title: "Record 20dcf66b99 · How-to-use-Claude-to-Create-Digital-Products"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.769272+00:00
+updated_at: 2026-10-11T00:55:55.152761+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=tZW0x_tDhSk"
 ---
 
 # Record 20dcf66b99 · How-to-use-Claude-to-Create-Digital-Products
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to use Claude to Create Digital Products
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

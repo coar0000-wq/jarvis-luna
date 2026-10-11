@@ -2,8 +2,14 @@
 title: "Record 9e8440dab7 · ТЕКСТЫ-ОПИСАНИЯ-В-СИСТЕМЕ-НАУЧНОГО-ТЕКСТА-КОММУНИКАТИВНО-ТИПОЛОГИЧЕСКИ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.014540+00:00
+updated_at: 2026-10-11T00:55:27.493349+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.69617/nuuz.v1i1.9.13028"
+kind: "논문"
 ---
 
 # Record 9e8440dab7 · ТЕКСТЫ-ОПИСАНИЯ-В-СИСТЕМЕ-НАУЧНОГО-ТЕКСТА-КОММУНИКАТИВНО-ТИПОЛОГИЧЕСКИ
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ТЕКСТЫ-ОПИСАНИЯ В СИСТЕМЕ НАУЧНОГО ТЕКСТА: КОММУНИКАТИВНО-ТИПОЛОГИЧЕСКИЕ ПАРАМЕТРЫ
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

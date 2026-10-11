@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.561707+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Palantir"
+domain: "blog.palantir.com"
+url: "https://blog.palantir.com/connecting-agents-to-decisions-277dee8ddb40?source=rss----3c87dc14372f---4"
 ---
 
 # Record 127 · Connecting-Agents-to-Decisions
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Connecting Agents to Decisions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record e51551c891 · AI-Tools-for-Ecommerce-11-Best-Options-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.193213+00:00
+updated_at: 2026-10-11T00:55:30.114136+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PdW42TFJ4eUlKdmJoaWVpd1V5c09jeHVOMGUxdzlHbmUxNHBVUkxfNVZEc19NeE1FYzVpU19LWEhYZ0JQSTJ1U2JQZGhpUy0zWVJvU2NpMF9uNWFGVHd2OER4WGc?oc=5"
 ---
 
 # Record e51551c891 · AI-Tools-for-Ecommerce-11-Best-Options-2026---Shopi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Tools for Ecommerce: 11 Best Options (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

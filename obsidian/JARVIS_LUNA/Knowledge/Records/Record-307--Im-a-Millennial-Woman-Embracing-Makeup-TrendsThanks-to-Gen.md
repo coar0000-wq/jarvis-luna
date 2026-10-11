@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.077802+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTE8xa2tRMXRvX3ZVM0MxRGVQX3A3Wi13RkU1WTVFYlljcWNXNm5IbV9fOXpuS2J3d3NZRnNCRVNzSzl3VWlOQ25uazQxYnhSM0MwYjY0OVZlZTJZMG9xZ25YQWVFclFPREg1S1dFV1FVbkFOdw?oc=5"
 ---
 
 # Record 307 · Im-a-Millennial-Woman-Embracing-Makeup-TrendsThanks-to-Gen-Z---Best-He
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 I’m a Millennial Woman Embracing Makeup Trends—Thanks to Gen Z - Best Health Magazine Canada
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

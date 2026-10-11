@@ -2,8 +2,14 @@
 title: "Record 46aac1d4bc · GPU-First-Heisenberg-Picture-Tensor-Network-Dynamic"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.690428+00:00
+updated_at: 2026-10-11T00:55:38.398723+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7167154752"
+kind: "논문"
 ---
 
 # Record 46aac1d4bc · GPU-First-Heisenberg-Picture-Tensor-Network-Dynamic
@@ -15,7 +21,3 @@ tags: [record, real-data]
 GPU-First Heisenberg-Picture Tensor Network Dynamics for the 2D Transverse-Field Ising Model
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.868218+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1097/phh.0000000000002417"
 ---
 
 # Record 537 · Harnessing-Multiteam-Systems-in-the-Development-of-a-Multifaceted-Data
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Harnessing Multiteam Systems in the Development of a Multifaceted Data Repository for Emergency Public Health Response
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

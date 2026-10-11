@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.474933+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.26907/0021-3446-2026-6-64-81"
 ---
 
 # Record 642 · Boundary-value-problem-for-a-degenerate-high-order-equation-with-singu
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Boundary value problem for a degenerate high-order equation with singular coefficients
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

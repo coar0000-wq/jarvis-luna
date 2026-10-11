@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.206096+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWWhhazFjUTF2UUxDRTNNT0JQTnI1YnlPaFVNMHFqMmtDZ0J2S3NFS2tCV1BtRnAtN0VBQmNIazZwN1hMZm5rSURmT0hCdmxOMFczS2Y5S0J2QmFHZnNKQjhjQVRXa2RaZ0UxaVU0M2ZGQmRxSHFEcV90S25oR3NraVFYUkNLTVo0LTYyTzZlV3JQVVhH?oc=5"
 ---
 
 # Record 1406 · Shopify-says-AI-agents-will-not-bypass-its-checkout-systems---thekeywo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify says AI agents will not bypass its checkout systems - thekeyword.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

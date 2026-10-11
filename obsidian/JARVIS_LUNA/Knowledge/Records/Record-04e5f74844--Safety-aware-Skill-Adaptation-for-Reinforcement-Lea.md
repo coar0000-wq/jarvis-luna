@@ -2,8 +2,12 @@
 title: "Record 04e5f74844 · Safety-aware-Skill-Adaptation-for-Reinforcement-Lea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.059111+00:00
+updated_at: 2026-10-11T00:55:13.165119+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11433v1"
 ---
 
 # Record 04e5f74844 · Safety-aware-Skill-Adaptation-for-Reinforcement-Lea
@@ -16,7 +20,3 @@ Safety-aware Skill Adaptation for Reinforcement Learning in Dynamic Environments
 Skill adaptation frameworks based on reinforcement learning often require restrictive assumptions to maintain stability, such as fixed observations or tightly controlled exploration schedules. In cluttered and dynamic environments, however, unrestricted exploration can lead to unsafe behaviour and unstable learning, particularly when task-relevant observations lie near obstacles or involve moving
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

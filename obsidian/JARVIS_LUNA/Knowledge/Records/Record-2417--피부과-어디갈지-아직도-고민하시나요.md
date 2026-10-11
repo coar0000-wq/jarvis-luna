@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.752743+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=SVhDZCEFlcE"
 ---
 
 # Record 2417 · 피부과-어디갈지-아직도-고민하시나요
@@ -15,7 +19,3 @@ tags: [record, real-data]
 피부과 어디갈지 아직도 고민하시나요?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

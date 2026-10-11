@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.583499+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE5URWZMQlc3Z0NHU2ZIRnNYdWJldWlxZnl6VTJmc0dpOS1oRWtBaVMyYjEyTW4tbTRRSkNkWjdMTDQxU0pGa1BkVEJqZmVaTnQ5UFNCU3NrN0NzaDBSUjRkY2t6TmhMWUwzYXVZdDFn?oc=5"
 ---
 
 # Record 1370 · Korean-Skincare-Isnt-Just-for-Your-FaceThese-High-Performance-Bodycare
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Korean Skincare Isn't Just for Your Face—These High-Performance Bodycare Products Will Elevate Your Routine - Who What Wear
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

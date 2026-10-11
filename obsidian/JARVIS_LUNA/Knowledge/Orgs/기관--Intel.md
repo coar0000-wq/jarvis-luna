@@ -2,73 +2,66 @@
 title: "기관 · Intel"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:59:00.681270+00:00
+updated_at: 2026-10-11T00:55:56.840048+00:00
 tags: [org, real-data]
+record_count: 58
 ---
 
 # 기관 · Intel
 
-실제 수집 레코드 **58건**이 이 기관에 연결되어 있습니다. (논문 58건)
+유형별: 논문 58건
 
-- [[Record-a08064c3c3--Quantitative-and-Nondestructive-3D-Localization-of-]]
-- [[Record-58f891f9a7--Co-design-of-a-trustworthy-AI-based-prognostic-tool]]
-- [[Record-c4723afcc5--Consistency-of-efficacy-and-safety-of-elinzanetant-]]
-- [[Record-51bef98991--Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxi]]
-- [[Record-a5662d681d--Suspended-thin-film-lithium-niobate-modulator-for-b]]
-- [[Record-9cf44fee3e--CLEAR-an-auditable-foundation-model-for-radiology-g]]
-- [[Record-3e4d961a5b--Engineered-interfaces-in-electronic-materials-for-e]]
-- [[Record-3b6262a893--AI-enhanced-adaptive-virtual-screening-of-large-lib]]
-- [[Record-f637e24cd4--Correlating-atomic-structure-with-carrier-transport]]
-- [[Record-386a851d8c--Molecular-dynamics-study-of-ferroelectric-switching]]
-- [[Record-1233152e7a--Comparing-classical-and-quantum-machine-learning-ap]]
-- [[Record-44436688db--DSPI-Net-a-dual-stream-perception-interaction-netwo]]
-- [[Record-d4312164a2--The-Standardization-Challenge-of-AI-Native-Networks]]
-- [[Record-afaf94b546--Redesigning-Objective-Questions-for-Efficient-and-F]]
-- [[Record-8f4558fdf4--Depth-profiling-chemical-changes-in-chemically-ampl]]
-- [[Record-69a2f57a82--Control-of-topography-for-scanner-patterning-using-]]
-- [[Record-5dc27e78ab--Rapid-phage-susceptibility-determination-using-a-se]]
-- [[Record-e49452070c--Certain-Investigations-on-Advanced-Signal-Processin]]
-- [[Record-ddbffc405e--GraphSeqNet-Enhancing-Student-Performance-Predictio]]
-- [[Record-97d05abdb0--CarDroid-Container-Based-Architecture-for-Graphic-I]]
-- [[Record-b951606b18--UniC-A-Unified-Automotive-Cockpit-Domain-Management]]
-- [[Record-0fd9157cbb--NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN]]
-- [[Record-271554b406--Interconnect-diameter-effects-on-the-thermo-mechani]]
-- [[Record-5b283062bc--University-students-AI-attitudes-an-experiential-tr]]
-- [[Record-88d065c102--Artificial-intelligence-social-justice-and-public-g]]
-- [[Record-ab668e20f3--Inovação-desenvolvimento-e-tecnologias-uma-revisão-]]
-- [[Record-d9825aab92--Effects-of-5G-frequencies-on-sperm-parameters-matin]]
-- [[Record-f70fe4988b--Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostruct]]
-- [[Record-d66d27ca3c--Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impo]]
-- [[Record-4adec16b8f--Multicenter-Validation-of-Foundation-Model-Adaptati]]
-- [[Record-0082372375--StEdge-A-Low-Power-Real-Time-Hardware-Accelerator-f]]
-- [[Record-8bc9a3793e--Differential-Effects-of-35-GHz-and-24-GHz-5G-Radiof]]
-- [[Record-aafdfe5fa1--MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBR]]
-- [[Record-1bb4ad27cd--Pre-Compiled-Pipeline-Shards-for-Distributed-LLM-In]]
-- [[Record-156a588b13--Portability-of-Fortrans-do-concurrent-on-GPUs-II]]
-- [[Record-d3caddae56--Building-A-CSFQ-Inspired-Transport-for-Switched-CXL]]
-- [[Record-bcb9ec353c--TEE-X-TEE-aware-Acceleration-Framework-for-Large-Vi]]
-- [[Record-d75c23d751--Kronecker-Products-Polarity-Quotients-and-Large-Gra]]
-- [[Record-8210ac59c3--From-Generation-to-Discovery-Diffusion-Mutation-Ker]]
-- [[Record-146176723a--CURA-Certified-Runtime-Alarms-for-Computer-Use-Agen]]
-- [[Record-f82f03452a--HBQ-Hierarchical-Scaling-Block-Quantization-with-Ha]]
-- [[Record-238b15b47a--Speculative-Macro-Commit-for-Faster-Tool-Using-Agen]]
-- [[Record-c0680c1b42--Breaking-the-158-bit-Barrier-for-Ternary-LLMs]]
-- [[Record-7baed04f87--ExecuCritic-Calibrated-Critic-Shaping-for-Code-Gene]]
-- [[Record-64ceed5f94--Segmentação-de-plantas-daninhas-em-canaviais-a-part]]
-- [[Record-d9b26d8266--Synergy-of-Human-Capital-Management-and-Work-Ethics]]
-- [[Record-4d650b82b2--Synergy-of-Human-Capital-Management-and-Work-Ethics]]
-- [[Record-8ca952d7a9--Side-Channel-Secure-CSIDH-with-Projective-Coordinat]]
-- [[Record-a73cfb95aa--Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs]]
-- [[Record-9d459d7474--Population-Intelligence-Smallest-Model-Numerical-Ex]]
-- [[Record-1aa46e9160--Validating-LLM-judges-for-automated-oversight-of-pa]]
-- [[Record-16675ccf6c--REINFORCING-MEDIA-GOVERNANCE-IN-INDONESIAN-DYNAMIC-]]
-- [[Record-46859f38aa--AI-citizen-science-data-and-expert-opinions-towards]]
-- [[Record-f18f4aab93--Planning-with-Transformers-Chain-of-Computation-and]]
-- [[Record-3dec84879b--Retrieval-Augmented-Interpretable-Learning-Towards-]]
-- [[Record-3f7bfa7679--gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-]]
-- [[Record-35bf9da074--Explainable-and-Resource-Efficient-Spatial-Reasonin]]
+실제 수집 레코드 **58건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+
+### 주제별 건수
+
+| 항목 | 건수 |
+|---|---|
+| [[반도체하드웨어]] | 58 |
+| [[LLM언어모델]] | 8 |
+| [[의료바이오]] | 6 |
+| [[컴퓨터-비전]] | 4 |
+| [[AI-에이전트]] | 3 |
+| [[머신러닝-연구]] | 2 |
+| [[인프라클라우드]] | 1 |
+| [[과학수학]] | 1 |
+| [[투자은행금융]] | 1 |
+| [[모델-라우팅MoE]] | 1 |
+
+### 최근 레코드 12건
+
 - [[Record-cb1c984986--Lightweight-Vision-Transformer-Compression-for-On-D]]
+- [[Record-35bf9da074--Explainable-and-Resource-Efficient-Spatial-Reasonin]]
+- [[Record-3f7bfa7679--gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-]]
+- [[Record-3dec84879b--Retrieval-Augmented-Interpretable-Learning-Towards-]]
+- [[Record-f18f4aab93--Planning-with-Transformers-Chain-of-Computation-and]]
+- [[Record-46859f38aa--AI-citizen-science-data-and-expert-opinions-towards]]
+- [[Record-16675ccf6c--REINFORCING-MEDIA-GOVERNANCE-IN-INDONESIAN-DYNAMIC-]]
+- [[Record-1aa46e9160--Validating-LLM-judges-for-automated-oversight-of-pa]]
+- [[Record-9d459d7474--Population-Intelligence-Smallest-Model-Numerical-Ex]]
+- [[Record-a73cfb95aa--Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs]]
+- [[Record-8ca952d7a9--Side-Channel-Secure-CSIDH-with-Projective-Coordinat]]
+- [[Record-4d650b82b2--Synergy-of-Human-Capital-Management-and-Work-Ethics]]
+
+### 전체 레코드 (표)
+
+```base
+filters:
+  and:
+    - file.inFolder("Knowledge/Records")
+    - org == "Intel"
+views:
+  - type: table
+    name: 레코드
+    order:
+      - file.name
+      - source
+      - topics
+      - org
+      - domain
+    limit: 200
+```
 
 ## Connected nodes
 
-[[Record-a08064c3c3--Quantitative-and-Nondestructive-3D-Localization-of-]] [[Record-58f891f9a7--Co-design-of-a-trustworthy-AI-based-prognostic-tool]] [[Record-c4723afcc5--Consistency-of-efficacy-and-safety-of-elinzanetant-]] [[Record-51bef98991--Low-kV-EDX-Surface-Analysis-Can-Replicate-Metal-Oxi]] [[Record-a5662d681d--Suspended-thin-film-lithium-niobate-modulator-for-b]] [[Record-9cf44fee3e--CLEAR-an-auditable-foundation-model-for-radiology-g]] [[Record-3e4d961a5b--Engineered-interfaces-in-electronic-materials-for-e]] [[Record-3b6262a893--AI-enhanced-adaptive-virtual-screening-of-large-lib]] [[Record-f637e24cd4--Correlating-atomic-structure-with-carrier-transport]] [[Record-386a851d8c--Molecular-dynamics-study-of-ferroelectric-switching]] [[Record-1233152e7a--Comparing-classical-and-quantum-machine-learning-ap]] [[Record-44436688db--DSPI-Net-a-dual-stream-perception-interaction-netwo]] [[Record-d4312164a2--The-Standardization-Challenge-of-AI-Native-Networks]] [[Record-afaf94b546--Redesigning-Objective-Questions-for-Efficient-and-F]] [[Record-8f4558fdf4--Depth-profiling-chemical-changes-in-chemically-ampl]] [[Record-69a2f57a82--Control-of-topography-for-scanner-patterning-using-]] [[Record-5dc27e78ab--Rapid-phage-susceptibility-determination-using-a-se]] [[Record-e49452070c--Certain-Investigations-on-Advanced-Signal-Processin]] [[Record-ddbffc405e--GraphSeqNet-Enhancing-Student-Performance-Predictio]] [[Record-97d05abdb0--CarDroid-Container-Based-Architecture-for-Graphic-I]] [[Record-b951606b18--UniC-A-Unified-Automotive-Cockpit-Domain-Management]] [[Record-0fd9157cbb--NEXUS-Speeding-Up-the-Next-Wave-of-AI-Workloads-GNN]] [[Record-271554b406--Interconnect-diameter-effects-on-the-thermo-mechani]] [[Record-5b283062bc--University-students-AI-attitudes-an-experiential-tr]] [[Record-88d065c102--Artificial-intelligence-social-justice-and-public-g]] [[Record-ab668e20f3--Inovação-desenvolvimento-e-tecnologias-uma-revisão-]] [[Record-d9825aab92--Effects-of-5G-frequencies-on-sperm-parameters-matin]] [[Record-f70fe4988b--Transition-Metal-Modified-Zinc-Oxide-ZnO-Nanostruct]] [[Record-d66d27ca3c--Celah-Regulasi-atau-Dilema-Pro-Investasi-Kasus-Impo]] [[Record-4adec16b8f--Multicenter-Validation-of-Foundation-Model-Adaptati]] [[Record-0082372375--StEdge-A-Low-Power-Real-Time-Hardware-Accelerator-f]] [[Record-8bc9a3793e--Differential-Effects-of-35-GHz-and-24-GHz-5G-Radiof]] [[Record-aafdfe5fa1--MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBR]] [[Record-1bb4ad27cd--Pre-Compiled-Pipeline-Shards-for-Distributed-LLM-In]] [[Record-156a588b13--Portability-of-Fortrans-do-concurrent-on-GPUs-II]] [[Record-d3caddae56--Building-A-CSFQ-Inspired-Transport-for-Switched-CXL]] [[Record-bcb9ec353c--TEE-X-TEE-aware-Acceleration-Framework-for-Large-Vi]] [[Record-d75c23d751--Kronecker-Products-Polarity-Quotients-and-Large-Gra]] [[Record-8210ac59c3--From-Generation-to-Discovery-Diffusion-Mutation-Ker]] [[Record-146176723a--CURA-Certified-Runtime-Alarms-for-Computer-Use-Agen]] [[Record-f82f03452a--HBQ-Hierarchical-Scaling-Block-Quantization-with-Ha]] [[Record-238b15b47a--Speculative-Macro-Commit-for-Faster-Tool-Using-Agen]] [[Record-c0680c1b42--Breaking-the-158-bit-Barrier-for-Ternary-LLMs]] [[Record-7baed04f87--ExecuCritic-Calibrated-Critic-Shaping-for-Code-Gene]] [[Record-64ceed5f94--Segmentação-de-plantas-daninhas-em-canaviais-a-part]] [[Record-d9b26d8266--Synergy-of-Human-Capital-Management-and-Work-Ethics]] [[Record-4d650b82b2--Synergy-of-Human-Capital-Management-and-Work-Ethics]] [[Record-8ca952d7a9--Side-Channel-Secure-CSIDH-with-Projective-Coordinat]] [[Record-a73cfb95aa--Manifold-Agentic-Reasoning-Extending-Agentic-POMDPs]] [[Record-9d459d7474--Population-Intelligence-Smallest-Model-Numerical-Ex]] [[Record-1aa46e9160--Validating-LLM-judges-for-automated-oversight-of-pa]] [[Record-16675ccf6c--REINFORCING-MEDIA-GOVERNANCE-IN-INDONESIAN-DYNAMIC-]] [[Record-46859f38aa--AI-citizen-science-data-and-expert-opinions-towards]] [[Record-f18f4aab93--Planning-with-Transformers-Chain-of-Computation-and]] [[Record-3dec84879b--Retrieval-Augmented-Interpretable-Learning-Towards-]] [[Record-3f7bfa7679--gMAGNUS-Fast-SpGEMM-on-GPUs-for-Irregular-Matrices-]] [[Record-35bf9da074--Explainable-and-Resource-Efficient-Spatial-Reasonin]] [[Record-cb1c984986--Lightweight-Vision-Transformer-Compression-for-On-D]] [[AI-에이전트]] [[LLM언어모델]] [[과학수학]] [[머신러닝-연구]] [[모델-라우팅MoE]] [[반도체하드웨어]] [[의료바이오]] [[인프라클라우드]] [[컴퓨터-비전]] [[투자은행금융]] [[JARVIS Real Knowledge Index]]
+[[JARVIS Real Knowledge Index]]

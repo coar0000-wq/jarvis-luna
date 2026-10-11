@@ -2,8 +2,12 @@
 title: "Record 8cc0cfdc6c · Formation-Matrix-and-Energy-based-Control-of-Multi-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.948082+00:00
+updated_at: 2026-10-11T00:55:11.820889+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04158v1"
 ---
 
 # Record 8cc0cfdc6c · Formation-Matrix-and-Energy-based-Control-of-Multi-
@@ -16,7 +20,3 @@ Formation Matrix and Energy-based Control of Multi-Agent Systems
 This paper presents an energy-based controller for a multiagent robotic system designed to achieve and maintain a specific formation while moving on a plane and avoiding collisions between agents. The controller emulates a network of elementary spring-damper modules connecting pairs of agents. This network, with its de-energized states representing the desired formation, determines the system's dy
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 8b96329aed · Investigating-three-real-world-incidents-in-our-cyb"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.391379+00:00
+updated_at: 2026-10-11T00:55:48.296186+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "보안프라이버시", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+kind: "발표물"
 ---
 
 # Record 8b96329aed · Investigating-three-real-world-incidents-in-our-cyb
@@ -16,7 +22,3 @@ Investigating three real-world incidents in our cybersecurity evaluations
 In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained unauthorized access to the real systems of three different organizations.  Below we describe what happened, how it happened, and what we’re changing. We encourage other AI labs to p
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

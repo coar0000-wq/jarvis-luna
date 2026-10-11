@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.273929+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsnano.6c02189"
 ---
 
 # Record 276 · Revisiting-the-Schottky-Mott-Relation-for-MetalTransition-Metal-Dichal
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Revisiting the Schottky-Mott Relation for Metal/Transition Metal Dichalcogenide Interfaces: The Role of Interface Dipoles
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.891446+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1364/ao.604722"
 ---
 
 # Record 483 · Aerosol-and-vapor-detection-via-infrared-laser-reflectance-from-common
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Aerosol and vapor detection via infrared laser reflectance from common surfaces: all that shimmers is not gold
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

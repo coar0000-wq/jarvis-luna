@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.738425+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/aCqYLzd-AlQ"
 ---
 
 # Record 546 · You-dont-need-to-use-an-expensive-Vitamin-C-Serum-heres-why
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 You don't need to use an expensive Vitamin C Serum, here's why!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

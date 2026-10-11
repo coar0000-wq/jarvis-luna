@@ -2,8 +2,14 @@
 title: "Record 75d76df61b · Effects-of-Ge-composition-on-strain-relaxation-and-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.325567+00:00
+updated_at: 2026-10-11T00:55:16.684935+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.mssp.2026.111134"
+kind: "논문"
 ---
 
 # Record 75d76df61b · Effects-of-Ge-composition-on-strain-relaxation-and-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Effects of Ge composition on strain relaxation and phosphorus activation in implanted SiGe/Si heterostructures
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

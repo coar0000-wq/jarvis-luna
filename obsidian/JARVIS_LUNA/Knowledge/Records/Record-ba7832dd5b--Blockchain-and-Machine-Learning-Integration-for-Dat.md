@@ -2,8 +2,14 @@
 title: "Record ba7832dd5b · Blockchain-and-Machine-Learning-Integration-for-Dat"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.608942+00:00
+updated_at: 2026-10-11T00:55:21.644510+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.47672/ejt.2006"
+kind: "논문"
 ---
 
 # Record ba7832dd5b · Blockchain-and-Machine-Learning-Integration-for-Dat
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Blockchain and Machine Learning Integration for Data Privacy and Security
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

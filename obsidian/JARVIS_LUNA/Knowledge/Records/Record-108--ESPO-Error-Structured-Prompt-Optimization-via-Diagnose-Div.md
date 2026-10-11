@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.804732+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04197v1"
 ---
 
 # Record 108 · ESPO-Error-Structured-Prompt-Optimization-via-Diagnose-Diversify-and-S
@@ -15,7 +19,3 @@ tags: [record, real-data]
 ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

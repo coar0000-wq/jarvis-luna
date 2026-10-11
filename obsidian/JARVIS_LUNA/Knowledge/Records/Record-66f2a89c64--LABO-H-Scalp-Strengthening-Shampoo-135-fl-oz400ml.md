@@ -2,8 +2,12 @@
 title: "Record 66f2a89c64 · LABO-H-Scalp-Strengthening-Shampoo-135-fl-oz400ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.812603+00:00
+updated_at: 2026-10-11T00:55:40.349404+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA47370528"
 ---
 
 # Record 66f2a89c64 · LABO-H-Scalp-Strengthening-Shampoo-135-fl-oz400ml
@@ -16,7 +20,3 @@ LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml)
 LABO-H Scalp Strengthening Shampoo 13.5 fl. oz.(400ml) · 평점 5 · 리뷰 4
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

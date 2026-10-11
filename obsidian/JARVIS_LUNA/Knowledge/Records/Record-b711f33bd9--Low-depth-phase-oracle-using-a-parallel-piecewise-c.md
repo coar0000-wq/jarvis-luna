@@ -2,8 +2,14 @@
 title: "Record b711f33bd9 · Low-depth-phase-oracle-using-a-parallel-piecewise-circuit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.416063+00:00
+updated_at: 2026-10-11T00:55:18.367970+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.1103/m32k-7nq2"
+kind: "논문"
 ---
 
 # Record b711f33bd9 · Low-depth-phase-oracle-using-a-parallel-piecewise-circuit
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Low-depth phase oracle using a parallel piecewise circuit
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

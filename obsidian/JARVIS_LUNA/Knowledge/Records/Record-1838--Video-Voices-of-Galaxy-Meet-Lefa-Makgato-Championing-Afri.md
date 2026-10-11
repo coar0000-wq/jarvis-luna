@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.613347+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "음성오디오", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/video-voices-of-galaxy-meet-lefa-makgato-championing-africas-next-generation-of-innovators"
 ---
 
 # Record 1838 · Video-Voices-of-Galaxy-Meet-Lefa-Makgato-Championing-Africas-Next-Gene
@@ -16,7 +21,3 @@ tags: [record, real-data]
 For Lefa Makgato, CSR Manager at Samsung Electronics Africa, empowering the next generation of digital innovators is more than a mission — it’s the driving force behind her work leading Samsung’s CSR initiatives across Africa. Growing up in a small township in South Africa, Lefa Makgato didn’t know what to dream about because technology felt […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[음성오디오]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

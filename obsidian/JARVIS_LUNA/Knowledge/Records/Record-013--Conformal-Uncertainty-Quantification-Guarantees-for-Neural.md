@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.782785+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28515v1"
 ---
 
 # Record 013 · Conformal-Uncertainty-Quantification-Guarantees-for-Neural-Operators
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Conformal Uncertainty Quantification Guarantees for Neural Operators
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

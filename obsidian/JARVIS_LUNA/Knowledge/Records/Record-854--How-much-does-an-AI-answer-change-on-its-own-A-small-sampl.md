@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.947231+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21606839"
 ---
 
 # Record 854 · How-much-does-an-AI-answer-change-on-its-own-A-small-sample-measuremen
@@ -15,7 +20,3 @@ tags: [record, real-data]
 How much does an AI answer change on its own? A small-sample measurement of generative-engine volatility
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.340514+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.02760v1"
 ---
 
 # Record 058 · Measurement-Driven-Sub-Network-Selection-for-On-Premise-Retrieval-Augm
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

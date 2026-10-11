@@ -2,8 +2,14 @@
 title: "Record 62003111f3 · Disrupting-a-new-covert-influence-campaign-from-Rus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.632242+00:00
+updated_at: 2026-10-11T00:55:37.408941+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+kind: "발표물"
 ---
 
 # Record 62003111f3 · Disrupting-a-new-covert-influence-campaign-from-Rus
@@ -16,7 +22,3 @@ Disrupting a new covert influence campaign from Russia
 OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

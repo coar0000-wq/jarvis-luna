@@ -2,8 +2,14 @@
 title: "Record 0dc4b29ddc · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-i"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.358265+00:00
+updated_at: 2026-10-11T00:55:17.317452+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41418-025-01621-5"
+kind: "논문"
 ---
 
 # Record 0dc4b29ddc · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-i
@@ -15,7 +21,3 @@ tags: [record, real-data]
 VCAM-1/Ezrin axis antagonizes myocardial damage in ischemia-reperfusion injury
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

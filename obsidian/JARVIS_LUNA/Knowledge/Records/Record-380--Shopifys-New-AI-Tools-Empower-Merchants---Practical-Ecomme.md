@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.111897+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE44ZTA1VHU0MFE3QzBlS0JSVzdvay16TGI2M1NSQWlIXzRMcjM4dVZ0bnRzZVNEN1hmZjM4b1REZVFna0poSmNicWpKcDE0Q2l0ZUdXdFRFSW9LTnhPUnJRQ0VCdHpyOE5MWE1iT2JUd2RQWFI3U3J4eEl3NE1sX1E?oc=5"
 ---
 
 # Record 380 · Shopifys-New-AI-Tools-Empower-Merchants---Practical-Ecommerce
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Shopify’s New AI Tools Empower Merchants - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

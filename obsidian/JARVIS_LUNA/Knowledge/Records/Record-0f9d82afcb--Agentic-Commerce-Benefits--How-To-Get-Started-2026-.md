@@ -2,8 +2,12 @@
 title: "Record 0f9d82afcb · Agentic-Commerce-Benefits--How-To-Get-Started-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.148810+00:00
+updated_at: 2026-10-11T00:55:29.435386+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzMkVOZXFRTVpnSk4wTVQ1OEs1VzBVR3lzbTluQmI3bmVCeFlwZ1JzMUxsV2ZKWTVVS0lXdzlIcmFfdFBoZ1lSWFl1UERiYVNjWkdKNEN2dEY?oc=5"
 ---
 
 # Record 0f9d82afcb · Agentic-Commerce-Benefits--How-To-Get-Started-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Agentic Commerce: Benefits & How To Get Started (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 141817cd4e · Niacinamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.023517+00:00
+updated_at: 2026-10-11T00:55:27.612408+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "en.wikipedia.org"
+url: "https://en.wikipedia.org/wiki/Niacinamide"
 ---
 
 # Record 141817cd4e · Niacinamide
@@ -16,7 +20,3 @@ Niacinamide
 Niacinamide
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

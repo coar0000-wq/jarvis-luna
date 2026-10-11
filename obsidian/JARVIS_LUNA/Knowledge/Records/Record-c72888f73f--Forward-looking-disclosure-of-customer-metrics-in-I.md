@@ -2,8 +2,14 @@
 title: "Record c72888f73f · Forward-looking-disclosure-of-customer-metrics-in-IPO-prospectuses-sto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.314160+00:00
+updated_at: 2026-10-11T00:55:16.480564+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.ijresmar.2025.10.007"
+kind: "논문"
 ---
 
 # Record c72888f73f · Forward-looking-disclosure-of-customer-metrics-in-IPO-prospectuses-sto
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Forward-looking disclosure of customer metrics in IPO prospectuses: stock market reactions and long-term profitability
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

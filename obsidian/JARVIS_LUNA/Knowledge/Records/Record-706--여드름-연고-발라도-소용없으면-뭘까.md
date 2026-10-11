@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.288801+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=UJvfHb8EtWc"
 ---
 
 # Record 706 · 여드름-연고-발라도-소용없으면-뭘까
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 여드름 연고 발라도 소용없으면 뭘까?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

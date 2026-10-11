@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.350917+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/gMUrs1-zJkU"
 ---
 
 # Record 2110 · 광고--3kg-감량한-48시간-단식-찐-후기-다이어트-다이어터
@@ -15,7 +19,3 @@ tags: [record, real-data]
 광고❌ ￼-3kg 감량한 48시간 단식 찐 후기🔥 #다이어트 #다이어터
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

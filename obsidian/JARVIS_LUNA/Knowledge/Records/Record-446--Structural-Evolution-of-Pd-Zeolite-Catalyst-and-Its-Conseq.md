@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.844513+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acscatal.6c04462"
 ---
 
 # Record 446 · Structural-Evolution-of-Pd-Zeolite-Catalyst-and-Its-Consequence-in-the
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Structural Evolution of Pd-Zeolite Catalyst and Its Consequence in the Activation and Deactivation for Methane Combustion
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

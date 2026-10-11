@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.903264+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.17179/excli2023-6356"
 ---
 
 # Record 679 · Machine-learning-approaches-to-study-the-structure-activity-relationsh
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Machine learning approaches to study the structure-activity relationships of LpxC inhibitors
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

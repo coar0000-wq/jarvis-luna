@@ -2,8 +2,12 @@
 title: "Record 07368daaba · GoDaddy-Vs-Shopify-2026-Comparison---forbescom"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.262260+00:00
+updated_at: 2026-10-11T00:55:31.315692+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMid0FVX3lxTFB6dFlOUk41ajVsZkxmODNBOHpiOU02TElfMFd5cGRURHlzbDNMTWIwaW5WWUkxZTI3QTlLd0p2RnlqU3NOYlFabHZEWWlCU21kQ0JBLUYxRzRYZHF3dWtadTBtWGo3cGFVMVB6a0Q2cTVWdFZKbUtN?oc=5"
 ---
 
 # Record 07368daaba · GoDaddy-Vs-Shopify-2026-Comparison---forbescom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 GoDaddy Vs. Shopify (2026 Comparison) - Forbes
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.237586+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52ZHNESG5LZ2Z2S3J2bXpNTDJhbjlLTTJWOW9GSEt3TFBzbE9zbkR1LWp2ZDVMczUzNUtkN1h1Q1laX2ZTUFRuQkszWDhKaVdVaXRmLWktOXlvSEptY1ZtTG4wVkljeTNH?oc=5"
 ---
 
 # Record 152 · Operational-AI-Explained-Benefits-and-Use-Cases-in-Ecommerce---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Operational AI Explained: Benefits and Use Cases in Ecommerce - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

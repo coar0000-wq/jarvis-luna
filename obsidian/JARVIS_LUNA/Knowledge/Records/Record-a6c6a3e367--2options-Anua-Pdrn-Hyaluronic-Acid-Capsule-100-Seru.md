@@ -2,8 +2,12 @@
 title: "Record a6c6a3e367 · 2options-Anua-Pdrn-Hyaluronic-Acid-Capsule-100-Serum-Mask-077-fl-oz23m"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.854772+00:00
+updated_at: 2026-10-11T00:55:41.076364+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA84178713"
 ---
 
 # Record a6c6a3e367 · 2options-Anua-Pdrn-Hyaluronic-Acid-Capsule-100-Serum-Mask-077-fl-oz23m
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml) · 평점 4.8 · 리뷰 804
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

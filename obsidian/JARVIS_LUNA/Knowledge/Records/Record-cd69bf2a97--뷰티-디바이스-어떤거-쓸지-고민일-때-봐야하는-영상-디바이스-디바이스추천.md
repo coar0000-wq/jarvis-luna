@@ -2,8 +2,12 @@
 title: "Record cd69bf2a97 · 뷰티-디바이스-어떤거-쓸지-고민일-때-봐야하는-영상-디바이스-디바이스추천"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.699430+00:00
+updated_at: 2026-10-11T00:55:53.803492+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/UrjBF1CRVDY"
 ---
 
 # Record cd69bf2a97 · 뷰티-디바이스-어떤거-쓸지-고민일-때-봐야하는-영상-디바이스-디바이스추천
@@ -15,7 +19,3 @@ tags: [record, real-data]
 뷰티 디바이스 어떤거 쓸지 고민일 때 봐야하는 영상 #디바이스 #디바이스추천
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

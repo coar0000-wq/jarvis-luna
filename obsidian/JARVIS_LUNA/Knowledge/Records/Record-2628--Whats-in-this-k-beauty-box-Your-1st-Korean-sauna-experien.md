@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.369094+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/Aty0xiQjBmg"
 ---
 
 # Record 2628 · Whats-in-this-k-beauty-box-Your-1st-Korean-sauna-experience-that-you-d
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What's in this k-beauty box? Your 1st Korean sauna experience that you didn't know you needed!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

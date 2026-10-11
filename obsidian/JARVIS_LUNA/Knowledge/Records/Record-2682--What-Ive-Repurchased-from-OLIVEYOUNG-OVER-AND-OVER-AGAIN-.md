@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.792491+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/DjIW20Ggh7Y"
 ---
 
 # Record 2682 · What-Ive-Repurchased-from-OLIVEYOUNG-OVER-AND-OVER-AGAIN-100-worth-it
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What I've Repurchased from OLIVEYOUNG OVER AND OVER AGAIN! 100% worth it~!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

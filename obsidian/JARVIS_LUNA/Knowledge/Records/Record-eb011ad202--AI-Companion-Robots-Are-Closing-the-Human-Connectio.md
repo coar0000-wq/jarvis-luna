@@ -2,8 +2,12 @@
 title: "Record eb011ad202 · AI-Companion-Robots-Are-Closing-the-Human-Connectio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.745980+00:00
+updated_at: 2026-10-11T00:55:39.384579+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "spectrum.ieee.org"
+url: "https://spectrum.ieee.org/ollobot-ai-companion-robot"
 ---
 
 # Record eb011ad202 · AI-Companion-Robots-Are-Closing-the-Human-Connectio
@@ -16,7 +20,3 @@ AI Companion Robots Are Closing the Human Connection in Modern Homes
 <img src="https://spectrum.ieee.org/media-library/cute-home-robot-on-carpet-in-cozy-living-room-with-beige-sofa-and-warm-lighting.jpg?id=67154308&width=1245&height=700&coordinates=0%2C260%2C0%2C261"/><br/><br/><p><em>This article is brought to you by <a href="https://ollobot.com/" target="_blank">Ollobot</a>.</em></p><p>From about 2017, individuals began to truly connect with the initial wave of c
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

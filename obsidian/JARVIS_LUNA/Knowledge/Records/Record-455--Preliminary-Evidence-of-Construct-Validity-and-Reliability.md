@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.651100+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1123/jmld.2025-0068"
 ---
 
 # Record 455 · Preliminary-Evidence-of-Construct-Validity-and-Reliability-of-the-Supi
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Preliminary Evidence of Construct Validity and Reliability of the Supine-to-Stand and Go Task as a Functional Motor Competence Assessment in Young Adults
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.332061+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Qbpz1c_YjKM"
 ---
 
 # Record 963 · current-non-sponsored-skincare-routine
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 current *non-sponsored* skincare routine!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

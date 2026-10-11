@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.343165+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03136v1"
 ---
 
 # Record 073 · Structural-Compatibility-and-Uniform-Stability-of-Temporally-Degenerat
@@ -16,7 +20,3 @@ Structural Compatibility and Uniform Stability of Temporally Degenerate Paraboli
 Modern feedback design for distributed parameter systems presupposes that the closed-loop dynamics define a well-posed evolution problem. This presupposition becomes nontrivial for temporally degenerate parabolic systems, where temporal degeneracy affects not only the analytical properties of the evolution equation but also the mathematical formulation of the feedback interconnection itself. It is
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[과학수학]] [[JARVIS Real Knowledge Index]]

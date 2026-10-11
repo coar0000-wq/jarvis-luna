@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.018336+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "의료바이오", "데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-4957517/v1"
 ---
 
 # Record 516 · Identifying-Key-Predictive-Variables-in-Medical-Records-Using-a-Large-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Identifying Key Predictive Variables in Medical Records Using a Large Language Model (LLM)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

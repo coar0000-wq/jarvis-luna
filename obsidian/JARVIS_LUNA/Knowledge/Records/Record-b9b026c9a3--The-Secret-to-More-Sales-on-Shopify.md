@@ -2,8 +2,12 @@
 title: "Record b9b026c9a3 · The-Secret-to-More-Sales-on-Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.696475+00:00
+updated_at: 2026-10-11T00:55:53.738474+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/O6qZ6JMhTf8"
 ---
 
 # Record b9b026c9a3 · The-Secret-to-More-Sales-on-Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Secret to More Sales on Shopify 🤫
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.542495+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=OBYnTaeDda4"
 ---
 
 # Record 809 · The-best-slow-aging-tips-by-my-Korean-mother-in-law-with-glass-skin-an
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 The best slow-aging tips by my Korean mother-in-law with glass skin! #antiaging #wrinkles #plumpskin
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

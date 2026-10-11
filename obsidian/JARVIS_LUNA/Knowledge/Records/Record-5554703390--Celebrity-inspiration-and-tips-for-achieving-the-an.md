@@ -2,8 +2,12 @@
 title: "Record 5554703390 · Celebrity-inspiration-and-tips-for-achieving-the-anti-blush-appearance"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.539164+00:00
+updated_at: 2026-10-11T00:55:36.201977+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN1h3QklKcU8zZGg1aFZ5ZzBaLUgxbWZUZ3BhRDc2aTdfZ1pwWFBmMlY0dkJ4S2VfT2N3eG5lRXBoSmFpU2R2ME5fT2VIVHdzNlVteDRqY1Bqd1JxWmtSQmtVYklvelpFYXo3b2JKRWxYZUNud2JlV3h1TUhGX20wbFhrcFpoY3ZxUnRXVHl1UWJZMnZkYVlJOWxJOFBPSVlzVGZSM1JfWXpiM2ZpZDgweTB4MjFpdFl6NG11YmxoOXV4UdIBxwFBVV95cUxQQXBvcmJuTm9CVmNNWk9XbExhZDNSRTlWeVkyd2p4QkhzaFExZGxxZHk2dnB2czVPWTNlSEQzRV9tZXlOUXpUWUszTVF5djZDRl9FaDl6emg4R1JOOURlbWtnVk80cVlrZlBqeUhaUE8temQwRGZvSUpUY2J3cnBILUxEd0JSNFhJSXpjNVFrSG05VVZsRDFXanNRTTdEMFJPOFJmTjBteEhSeGVDS1RQVDZfSG1YZjNhQzZZUFA3OFM1c1h6OGZ3?oc=5"
 ---
 
 # Record 5554703390 · Celebrity-inspiration-and-tips-for-achieving-the-anti-blush-appearance
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Celebrity inspiration and tips for achieving the “anti-blush” appearance - Prestige Online - Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

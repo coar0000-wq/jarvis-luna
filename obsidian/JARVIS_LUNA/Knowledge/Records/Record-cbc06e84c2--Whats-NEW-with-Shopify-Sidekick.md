@@ -2,8 +2,12 @@
 title: "Record cbc06e84c2 · Whats-NEW-with-Shopify-Sidekick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.690193+00:00
+updated_at: 2026-10-11T00:55:53.583132+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/8Rth8YRLaDY"
 ---
 
 # Record cbc06e84c2 · Whats-NEW-with-Shopify-Sidekick
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What’s NEW with Shopify Sidekick?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

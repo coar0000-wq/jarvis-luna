@@ -2,8 +2,12 @@
 title: "Record 67f6378db9 · 좋은-피부과-1초-만에-찾는-방법"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.685081+00:00
+updated_at: 2026-10-11T00:55:53.475362+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/-wDQyrGApzM"
 ---
 
 # Record 67f6378db9 · 좋은-피부과-1초-만에-찾는-방법
@@ -15,7 +19,3 @@ tags: [record, real-data]
 좋은 피부과 1초 만에 찾는 방법
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

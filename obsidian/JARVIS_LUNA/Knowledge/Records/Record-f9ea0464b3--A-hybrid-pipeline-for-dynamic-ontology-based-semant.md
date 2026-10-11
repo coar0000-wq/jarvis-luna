@@ -2,8 +2,12 @@
 title: "Record f9ea0464b3 · A-hybrid-pipeline-for-dynamic-ontology-based-semant"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.939823+00:00
+updated_at: 2026-10-11T00:55:11.722158+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03891v1"
 ---
 
 # Record f9ea0464b3 · A-hybrid-pipeline-for-dynamic-ontology-based-semant
@@ -16,7 +20,3 @@ A hybrid pipeline for dynamic ontology-based semantic mapping
 Semantic mapping plays a crucial role in the ability of a robot to interact with objects, operate and navigate a complex environment. The most common pipeline for semantic mapping consists of geometric mapping and localization (SLAM), perception, semantic fusion and semantic representation. However, more recent works also integrate a form of prior knowledge in their application, most notably knowl
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

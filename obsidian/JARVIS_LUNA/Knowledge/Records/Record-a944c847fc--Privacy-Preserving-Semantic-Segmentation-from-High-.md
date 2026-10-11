@@ -2,8 +2,12 @@
 title: "Record a944c847fc · Privacy-Preserving-Semantic-Segmentation-from-High-Resolution-Depth-an"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.190235+00:00
+updated_at: 2026-10-11T00:55:14.743639+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.28360"
 ---
 
 # Record a944c847fc · Privacy-Preserving-Semantic-Segmentation-from-High-Resolution-Depth-an
@@ -16,7 +20,3 @@ Privacy-Preserving Semantic Segmentation from High-Resolution Depth and Ultra-Lo
 As mobile robots become increasingly integrated into everyday environments, privacy risks arising from onboard cameras have become a growing concern. Ultra-low-resolution (ULR) RGB can mitigate visual privacy exposure at the source, but ULR appearance alone substantially limits semantic and spatial understanding. We therefore introduce a privacy-preserving asymmetric sensing setting that combines
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

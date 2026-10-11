@@ -2,8 +2,14 @@
 title: "Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospit"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.408209+00:00
+updated_at: 2026-10-11T00:55:18.245296+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1093/ofid/ofaf695.919"
+kind: "논문"
 ---
 
 # Record c1a6792ec4 · P-707-Trends-in-Respiratory-Virus-associated-Hospit
@@ -15,7 +21,3 @@ tags: [record, real-data]
 P-707. Trends in Respiratory Virus-associated Hospitalizations – National Healthcare Safety Network, United States, 2024 - 2025
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

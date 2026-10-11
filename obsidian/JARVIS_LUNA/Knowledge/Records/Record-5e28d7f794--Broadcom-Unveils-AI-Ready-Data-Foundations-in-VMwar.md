@@ -2,8 +2,14 @@
 title: "Record 5e28d7f794 · Broadcom-Unveils-AI-Ready-Data-Foundations-in-VMwar"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.064902+00:00
+updated_at: 2026-10-11T00:55:28.019386+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "보안프라이버시", "인프라클라우드", "반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-ai-ready-data-foundations-vmware-tanzu-platform"
+kind: "발표물"
 ---
 
 # Record 5e28d7f794 · Broadcom-Unveils-AI-Ready-Data-Foundations-in-VMwar
@@ -16,7 +22,3 @@ Broadcom Unveils AI-Ready Data Foundations in VMware Tanzu Platform to Power Sec
 New Capabilities Pair Governed AI Agents with Governed Data Inside the Private Cloud to Solve Security, Accuracy, and Operational Cost Challenges LAS VEGAS, Aug. 31, 2026 (GLOBE NEWSWIRE) -- VMware Explore 2026 -- &nbsp; Today at VMware Explore, Broadcom Inc.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[보안프라이버시]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

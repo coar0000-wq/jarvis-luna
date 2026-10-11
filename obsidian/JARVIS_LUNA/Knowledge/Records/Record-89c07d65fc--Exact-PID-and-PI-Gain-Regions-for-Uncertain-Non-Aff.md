@@ -2,8 +2,12 @@
 title: "Record 89c07d65fc · Exact-PID-and-PI-Gain-Regions-for-Uncertain-Non-Aff"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.051177+00:00
+updated_at: 2026-10-11T00:55:13.071956+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["법률규제"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11130v1"
 ---
 
 # Record 89c07d65fc · Exact-PID-and-PI-Gain-Regions-for-Uncertain-Non-Aff
@@ -16,7 +20,3 @@ Exact PID and PI Gain Regions for Uncertain Non-Affine MIMO Systems
 Characterizing all PID gains that guarantee uniform exponential regulation of uncertain nonlinear systems remains a fundamental problem. Most existing results provide only sufficient conditions derived from a particular Lyapunov construction. This paper gives exact gain regions, defined directly by uniform regulation over the entire uncertainty class, for two classes of nonaffine MIMO systems with
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[법률규제]] [[JARVIS Real Knowledge Index]]

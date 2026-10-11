@@ -2,8 +2,12 @@
 title: "Record 479c3e4699 · Ericka-Hart-Talks-Pleasure-Reconstructive-Surgery-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.923633+00:00
+updated_at: 2026-10-11T00:55:42.305795+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/ericka-hart-perspectives-podcast-interview"
 ---
 
 # Record 479c3e4699 · Ericka-Hart-Talks-Pleasure-Reconstructive-Surgery-a
@@ -16,7 +20,3 @@ Ericka Hart Talks Pleasure, Reconstructive Surgery, and Being a Hot Cancer Survi
 Ericka Hart Talks Pleasure, Reconstructive Surgery, and Being a Hot Cancer Survivor
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

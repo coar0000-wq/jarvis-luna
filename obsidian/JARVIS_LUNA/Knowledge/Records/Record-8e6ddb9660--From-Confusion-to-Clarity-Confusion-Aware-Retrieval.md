@@ -2,8 +2,12 @@
 title: "Record 8e6ddb9660 · From-Confusion-to-Clarity-Confusion-Aware-Retrieval"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.916266+00:00
+updated_at: 2026-10-11T00:55:11.421450+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01564v1"
 ---
 
 # Record 8e6ddb9660 · From-Confusion-to-Clarity-Confusion-Aware-Retrieval
@@ -15,7 +19,3 @@ tags: [record, real-data]
 From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

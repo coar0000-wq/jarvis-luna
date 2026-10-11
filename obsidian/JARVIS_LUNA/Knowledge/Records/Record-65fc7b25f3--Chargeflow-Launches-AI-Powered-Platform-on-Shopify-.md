@@ -2,8 +2,12 @@
 title: "Record 65fc7b25f3 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.502617+00:00
+updated_at: 2026-10-11T00:55:35.555207+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd1ZjZzBFbVk1bmJqNDJjbXctaUxjSG92MHExN2FXNzBxU245TEphVEd1Q1hHLTNMLWlEbUVVMUk2ZmNJaE1UZmhSMWhkbkVTSlJQcGNSOV9ENmxoYmhVdWo5QVlMLUxTa0dMZXM3MVRrVU1HV2VySVlPOE02Ny1hemIyNGhWVGdmOG53WHdkZTJiM2RJUGk5V2FTaDdsREFLUllYZUNya29zOU9N?oc=5"
 ---
 
 # Record 65fc7b25f3 · Chargeflow-Launches-AI-Powered-Platform-on-Shopify-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Chargeflow Launches AI-Powered Platform on Shopify to Help E-Commerce Businesses Fight False Chargebacks - Newswire.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

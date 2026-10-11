@@ -2,8 +2,14 @@
 title: "Record 536151d492 · Expanding-Genie-Agents-Deep-analysis-file-reasoning"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.430826+00:00
+updated_at: 2026-10-11T00:55:48.903207+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/expanding-genie-agents-deep-analysis-file-reasoning-and-more"
+kind: "발표물"
 ---
 
 # Record 536151d492 · Expanding-Genie-Agents-Deep-analysis-file-reasoning
@@ -16,7 +22,3 @@ Expanding Genie Agents: Deep analysis, file reasoning, and more
 At Data and AI Summit, we&nbsp;announced the evolution of Genie Spaces to Genie Agents,...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

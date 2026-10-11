@@ -2,8 +2,12 @@
 title: "Record 80df60319a · CMAMBADEPTH-Self-supervised-Monocular-Depth-Estimation-with-Channel-Ma"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.771101+00:00
+updated_at: 2026-10-11T00:55:24.029905+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.24494"
 ---
 
 # Record 80df60319a · CMAMBADEPTH-Self-supervised-Monocular-Depth-Estimation-with-Channel-Ma
@@ -16,7 +20,3 @@ CMAMBADEPTH: Self-supervised Monocular Depth Estimation with Channel Mamba and H
 Accurate monocular depth estimation serves as a core enabler for single camera scene understanding. However, existing self-supervised monocular depth estimation methods generally suffer from the bottleneck of inefficient cross-scale information interaction and difficulty in balancing local and global spatial modeling. In this paper, we propose CMambaDepth, a self-supervised framework that achieves
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

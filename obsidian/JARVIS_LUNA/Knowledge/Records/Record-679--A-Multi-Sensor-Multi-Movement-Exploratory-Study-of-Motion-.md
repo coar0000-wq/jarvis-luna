@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.547620+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.3390/s26134187"
 ---
 
 # Record 679 · A-Multi-Sensor-Multi-Movement-Exploratory-Study-of-Motion-Tape-Strain-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A Multi-Sensor, Multi-Movement Exploratory Study of Motion Tape Strain Data for Low Back Pain Classification
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

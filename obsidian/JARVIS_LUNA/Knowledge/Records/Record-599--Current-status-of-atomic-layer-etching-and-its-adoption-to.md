@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.883546+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1116/6.0005592"
 ---
 
 # Record 599 · Current-status-of-atomic-layer-etching-and-its-adoption-to-low-k-fine-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Current status of atomic layer etching and its adoption to low-k fine patterning: An industrial perspective
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

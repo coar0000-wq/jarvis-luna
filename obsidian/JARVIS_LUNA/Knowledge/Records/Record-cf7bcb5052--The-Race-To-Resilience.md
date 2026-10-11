@@ -2,8 +2,14 @@
 title: "Record cf7bcb5052 · The-Race-To-Resilience"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.492298+00:00
+updated_at: 2026-10-11T00:55:50.153249+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/sustainability/climate/the-race-to-resilience"
+kind: "발표물"
 ---
 
 # Record cf7bcb5052 · The-Race-To-Resilience
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Race To Resilience
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

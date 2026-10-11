@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.293572+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTFBqdHdlcUxodjVXWDNZY0pBTkFna0Ewb1FZYzJUTDl5SWdOYVJKZmdnSUg2RDQ5NlQ4Mmp0ZXBuemZJeDdOanpfcWhwSnprcUh0cy1aNWFMVHdZSUdXS3JkWW00dmEyWmVBcUlRNFp2V1ZzdS1yRU5wMg?oc=5"
 ---
 
 # Record 373 · The-biggest-TikTok-beauty-trends-of-2024---Womens-Health-Australia
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The biggest TikTok beauty trends of 2024 - Women's Health Australia
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.294344+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiekFVX3lxTE9KSC12Q3NLMU9YTkdiR2JpUnRXWDdrd2Nfajd0c3JVcE40SWJnUnVaLUhnMDU1ajJ1WGk5VjlvX0JnblNYbmJad2pWd244TGE2S2dZN2NYY0RRODRTaU5NeFNKU25PSWc4NjdsckRCa2R5aTBWQWI5Rjh3?oc=5"
 ---
 
 # Record 385 · Our-Favorite-Korean-Skin-Care-Is-Up-to-45-Off-During-Amazons-Big-Sprin
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Our Favorite Korean Skin Care Is Up to 45% Off During Amazon’s Big Spring Sale - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

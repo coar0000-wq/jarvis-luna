@@ -2,8 +2,12 @@
 title: "Record 0d61c3eed2 · Nicole-Kidmans-Curtain-Bangs-Swept-the-Emmys-2026-R"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.936111+00:00
+updated_at: 2026-10-11T00:55:42.508980+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/nicole-kidman-curtain-bangs-emmys-2026"
 ---
 
 # Record 0d61c3eed2 · Nicole-Kidmans-Curtain-Bangs-Swept-the-Emmys-2026-R
@@ -16,7 +20,3 @@ Nicole Kidman's Curtain Bangs Swept the Emmys 2026 Red Carpet—See the Photos
 Nicole Kidman's Curtain Bangs Swept the Emmys 2026 Red Carpet—See the Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

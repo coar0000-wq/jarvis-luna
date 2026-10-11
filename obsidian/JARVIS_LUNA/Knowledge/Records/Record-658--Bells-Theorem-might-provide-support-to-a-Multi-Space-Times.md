@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.928524+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.20759277"
 ---
 
 # Record 658 · Bells-Theorem-might-provide-support-to-a-Multi-Space-Times-model-of-th
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Bell's Theorem might provide support to a Multi-Space-Times model of the Universe
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 4adec16b8f · Multicenter-Validation-of-Foundation-Model-Adaptati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.579226+00:00
+updated_at: 2026-10-11T00:55:21.119259+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.3390/cancers18172836"
+kind: "논문"
 ---
 
 # Record 4adec16b8f · Multicenter-Validation-of-Foundation-Model-Adaptati
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Multicenter Validation of Foundation Model Adaptation for Automated Pancreatic Tumor Delineation on CT Scans
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

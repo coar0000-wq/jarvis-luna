@@ -2,8 +2,14 @@
 title: "Record e1119e1883 · An-Integrated-Tunable-Focus-Light-Field-Imaging-Sys"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.590136+00:00
+updated_at: 2026-10-11T00:55:21.305544+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.3390/photonics13040385"
+kind: "논문"
 ---
 
 # Record e1119e1883 · An-Integrated-Tunable-Focus-Light-Field-Imaging-Sys
@@ -15,7 +21,3 @@ tags: [record, real-data]
 An Integrated Tunable-Focus Light Field Imaging System for 3D Seed Phenotyping: From Co-Optimized Optical Design to Computational Reconstruction
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

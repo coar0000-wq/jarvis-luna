@@ -2,8 +2,14 @@
 title: "Record de1d5e7853 · CD38-inhibition-preserves-adult-human-hematopoietic-stem-cells"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.358562+00:00
+updated_at: 2026-10-11T00:55:17.318418+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41419-026-09239-2"
+kind: "논문"
 ---
 
 # Record de1d5e7853 · CD38-inhibition-preserves-adult-human-hematopoietic-stem-cells
@@ -15,7 +21,3 @@ tags: [record, real-data]
 CD38 inhibition preserves adult human hematopoietic stem cells
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

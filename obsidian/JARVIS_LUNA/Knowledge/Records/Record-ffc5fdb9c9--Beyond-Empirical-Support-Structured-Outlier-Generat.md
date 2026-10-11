@@ -2,8 +2,12 @@
 title: "Record ffc5fdb9c9 · Beyond-Empirical-Support-Structured-Outlier-Generation-via-Sinkhorn-Op"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.213383+00:00
+updated_at: 2026-10-11T00:55:15.041322+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.31470"
 ---
 
 # Record ffc5fdb9c9 · Beyond-Empirical-Support-Structured-Outlier-Generation-via-Sinkhorn-Op
@@ -16,7 +20,3 @@ Beyond Empirical Support: Structured Outlier Generation via Sinkhorn Optimal Tra
 Outliers are essential for evaluating and improving the robustness of machine learning systems, especially when future distributions may differ significantly from historical training data. In high-stakes applications, robustness often depends on rare cases that finite datasets fail to capture, making simple resampling or perturbation insufficient for stress scenario generation. Existing outlier sy
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

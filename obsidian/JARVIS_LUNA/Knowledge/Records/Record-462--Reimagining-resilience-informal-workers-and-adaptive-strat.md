@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.433184+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.1108/ijssp-01-2026-0051"
 ---
 
 # Record 462 · Reimagining-resilience-informal-workers-and-adaptive-strategies-for-po
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Reimagining resilience: informal workers and adaptive strategies for post-disaster urban futures in Lagos, Nigeria
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

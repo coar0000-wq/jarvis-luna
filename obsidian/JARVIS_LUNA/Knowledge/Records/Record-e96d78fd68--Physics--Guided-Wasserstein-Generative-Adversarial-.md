@@ -2,8 +2,14 @@
 title: "Record e96d78fd68 · Physics--Guided-Wasserstein-Generative-Adversarial-Network-for-Magneti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.321561+00:00
+updated_at: 2026-10-11T00:55:16.611271+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "과학수학", "데이터분석"]
+org: "Snowflake"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.jpse.2026.100602"
+kind: "논문"
 ---
 
 # Record e96d78fd68 · Physics--Guided-Wasserstein-Generative-Adversarial-Network-for-Magneti
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Physics- Guided Wasserstein Generative Adversarial Network for Magnetic Flux Leakage Signal Augmentation in Pipeline Defect Characterization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[과학수학]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

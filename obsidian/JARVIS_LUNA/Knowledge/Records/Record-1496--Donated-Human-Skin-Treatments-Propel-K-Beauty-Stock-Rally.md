@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.527970+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijgFBVV95cUxNakdNM2pXRHpIZ2JDb2loZUpYRS1mOW41alZscXVUalpPYkVUUkQzX0hvSjZHeEdhMm5rUkJMM2g4WG9ZZkpFcGVuaGZNZjUwVDF3U0tFMXlzMENFdWhQOUpTTVlPelhzb1BEVDkyWGp0VURQOFpXY0tPeFhmdDdnckVjbXVncE0xM2pGNkln?oc=5"
 ---
 
 # Record 1496 · Donated-Human-Skin-Treatments-Propel-K-Beauty-Stock-Rally---Briefs-Fin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Donated Human Skin Treatments Propel K-Beauty Stock Rally - Briefs Finance
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.011774+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/an-easier-way-to-switch-to-the-new-galaxy-z-fold8"
 ---
 
 # Record 1908 · An-Easier-Way-To-Switch-to-the-New-Galaxy-Z-Fold8
@@ -16,7 +21,3 @@ An Easier Way To Switch to the New Galaxy Z Fold8
 Getting a new phone should be exciting, but moving data from an existing device can sometimes feel like a hassle. Especially for users switching from iOS to Galaxy, being able to bring existing data and settings across easily is an important part of the experience. Smart Switch is Samsung’s data transfer app that allows users […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

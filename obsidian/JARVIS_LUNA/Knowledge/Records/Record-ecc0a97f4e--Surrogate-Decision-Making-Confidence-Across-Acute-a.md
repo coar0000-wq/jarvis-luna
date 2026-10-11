@@ -2,8 +2,14 @@
 title: "Record ecc0a97f4e · Surrogate-Decision-Making-Confidence-Across-Acute-a"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.536219+00:00
+updated_at: 2026-10-11T00:55:20.376005+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-9973826/v1"
+kind: "논문"
 ---
 
 # Record ecc0a97f4e · Surrogate-Decision-Making-Confidence-Across-Acute-a
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Surrogate Decision-Making Confidence Across Acute and General Scenarios: Predictors and Ethical Reasoning in a Mixed-Methods Study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 72fac850bd · Planning-a-trip-to-Hangzhou-Save-this-guide-before-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.738762+00:00
+updated_at: 2026-10-11T00:55:54.638215+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qR5TK4SjRdg"
 ---
 
 # Record 72fac850bd · Planning-a-trip-to-Hangzhou-Save-this-guide-before-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Planning a trip to Hangzhou? Save this guide before you go. 🇨🇳
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

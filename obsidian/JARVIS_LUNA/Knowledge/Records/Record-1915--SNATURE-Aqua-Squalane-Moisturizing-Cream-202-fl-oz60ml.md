@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.384912+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA16733220"
 ---
 
 # Record 1915 · SNATURE-Aqua-Squalane-Moisturizing-Cream-202-fl-oz60ml
@@ -16,7 +20,3 @@ S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml)
 S.NATURE Aqua Squalane Moisturizing Cream 2.02 fl. oz.(60ml) · 평점 4.9 · 리뷰 16
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

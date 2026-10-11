@@ -2,8 +2,12 @@
 title: "Record 27761f57b6 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.462105+00:00
+updated_at: 2026-10-11T00:55:34.852649+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRk95bGV1b0pnM042RHU1Wm5OXzhxYjNiZXZESTNEd05OZllnNWxOeHozYU9sYUQ1UGxyR2VGbnl6NUZmMzg1M3FsckpiUGY1YXVkRG8xc0ZMMjliNzNzZTBaVVpicElva1FVbXY0ejhHUlZlMHRJNmZIVEhvcng2TG9pTHFmNUdMSlZmY1liN3h5NEpDSDRZRk9PYllucWM?oc=5"
 ---
 
 # Record 27761f57b6 · TODAY-Staffers-Test-Viral-TikTok-Beauty-Trends-Get-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TODAY Staffers Test Viral TikTok Beauty Trends: Get It or Forget It? - TODAY.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

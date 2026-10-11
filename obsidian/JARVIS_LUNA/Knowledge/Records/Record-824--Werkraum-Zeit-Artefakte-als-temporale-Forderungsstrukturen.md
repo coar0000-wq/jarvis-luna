@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.452266+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.20746511"
 ---
 
 # Record 824 · Werkraum-Zeit-Artefakte-als-temporale-Forderungsstrukturen--Zeitwürdig
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Werkraum Zeit: Artefakte als temporale Forderungsstrukturen — Zeitwürdigkeit, gebundene Zukunft und relationale Zeitethik
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

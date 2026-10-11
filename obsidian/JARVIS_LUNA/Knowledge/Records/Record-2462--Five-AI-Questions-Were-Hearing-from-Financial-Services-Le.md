@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.758257+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/five-ai-questions-were-hearing-financial-services-leaders"
 ---
 
 # Record 2462 · Five-AI-Questions-Were-Hearing-from-Financial-Services-Leaders
@@ -16,7 +21,3 @@ Five AI Questions We're Hearing from Financial Services Leaders
 Last year at Sibos Frankfurt, the question was whether AI works. This year: can your...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

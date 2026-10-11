@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.581460+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.05.20.26353693"
 ---
 
 # Record 820 · GWAS-Meta-analysis-Identifies-Novel-Associated-Loci-and-Points-to-Caus
@@ -15,7 +20,3 @@ tags: [record, real-data]
 GWAS Meta-analysis Identifies Novel Associated Loci and Points to Causal Tissues in Central Serous Chorioretinopathy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.612901+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "Deutsche-Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7158423094"
 ---
 
 # Record 1737 · STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Application-Rigorous-Eva
@@ -15,7 +20,3 @@ tags: [record, real-data]
 STELLAR-E: a Synthetic, Tailored, End-to-end LLM Application Rigorous Evaluator
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 9f3147fd06 · Analytic-RFR-Option-Pricing-with-Smile-and-Skew"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.536865+00:00
+updated_at: 2026-10-11T00:55:20.390834+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.4309981"
+kind: "논문"
 ---
 
 # Record 9f3147fd06 · Analytic-RFR-Option-Pricing-with-Smile-and-Skew
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Analytic RFR Option Pricing with Smile and Skew
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

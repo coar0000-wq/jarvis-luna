@@ -2,8 +2,12 @@
 title: "Record 89cb64c62b · Causal-Attribution-for-Agentic-Decisions-Estimators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.983361+00:00
+updated_at: 2026-10-11T00:55:12.272121+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.06445v1"
 ---
 
 # Record 89cb64c62b · Causal-Attribution-for-Agentic-Decisions-Estimators
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 1de99da047 · innisfree-Green-Tea-Enzyme-Vitamin-C-Brightening-Serum-1-fl-oz30ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.782345+00:00
+updated_at: 2026-10-11T00:55:39.869346+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA26728016"
 ---
 
 # Record 1de99da047 · innisfree-Green-Tea-Enzyme-Vitamin-C-Brightening-Serum-1-fl-oz30ml
@@ -16,7 +20,3 @@ innisfree Green Tea Enzyme Vitamin C Brightening Serum 1 fl. oz.(30ml)
 innisfree Green Tea Enzyme Vitamin C Brightening Serum 1 fl. oz.(30ml) · 평점 4.5 · 리뷰 2
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.134452+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "LLM언어모델"]
+org: "OpenAI"
+domain: "openalex.org"
+url: "https://openalex.org/W7172559358"
 ---
 
 # Record 2100 · Learning-to-Coordinate-Symbolic-Tools-LLM-Agents-for-Verified-Sum-of-S
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Learning to Coordinate Symbolic Tools: LLM Agents for Verified Sum-of-Squares Certificates
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.758402+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "음성오디오"]
+org: "Mistral-AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/voxtral-tts/"
 ---
 
 # Record 888 · Speaking-of-Voxtral
@@ -16,7 +21,3 @@ Speaking of Voxtral
 Voxtral TTS: A frontier, open-weights text-to-speech model that’s fast, instantly adaptable, and produces lifelike speech for voice agents.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[음성오디오]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.394647+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1117/1.jmm.25.3.034603"
 ---
 
 # Record 592 · Depth-profiling-chemical-changes-in-chemically-amplified-resists-for-E
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Depth profiling chemical changes in chemically amplified resists for EUV lithography
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

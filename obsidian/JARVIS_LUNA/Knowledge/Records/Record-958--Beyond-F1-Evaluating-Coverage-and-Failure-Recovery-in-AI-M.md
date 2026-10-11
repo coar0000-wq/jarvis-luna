@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:52:06.346220+00:00
 tags: [{', '.join(tags)}]
+source: "arXiv"
+topics: ["Machine-Learning-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27424v1"
 ---
 
 # Record 958 · Beyond-F1-Evaluating-Coverage-and-Failure-Recovery-in-AI-Model-Securit
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[Machine-Learning-Research]] [[JARVIS Real Knowledge Index]]

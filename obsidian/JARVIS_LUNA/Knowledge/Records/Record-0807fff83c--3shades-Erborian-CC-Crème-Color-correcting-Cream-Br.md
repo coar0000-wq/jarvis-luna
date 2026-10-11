@@ -2,8 +2,12 @@
 title: "Record 0807fff83c · 3shades-Erborian-CC-Crème-Color-correcting-Cream-Broad-Spectrum-SPF-25"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.785471+00:00
+updated_at: 2026-10-11T00:55:39.898340+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA29011865"
 ---
 
 # Record 0807fff83c · 3shades-Erborian-CC-Crème-Color-correcting-Cream-Broad-Spectrum-SPF-25
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [3shades] Erborian CC Crème Color-correcting Cream Broad Spectrum SPF 25 Sunscreen With Centella Asiatica 1.5 oz.(45ml)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

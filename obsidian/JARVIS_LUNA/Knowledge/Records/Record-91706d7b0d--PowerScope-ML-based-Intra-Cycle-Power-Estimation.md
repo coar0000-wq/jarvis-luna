@@ -2,8 +2,14 @@
 title: "Record 91706d7b0d · PowerScope-ML-based-Intra-Cycle-Power-Estimation"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.707472+00:00
+updated_at: 2026-10-11T00:55:38.722095+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "openalex.org"
+url: "https://openalex.org/W7202005803"
+kind: "논문"
 ---
 
 # Record 91706d7b0d · PowerScope-ML-based-Intra-Cycle-Power-Estimation
@@ -15,7 +21,3 @@ tags: [record, real-data]
 PowerScope: ML-based Intra-Cycle Power Estimation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

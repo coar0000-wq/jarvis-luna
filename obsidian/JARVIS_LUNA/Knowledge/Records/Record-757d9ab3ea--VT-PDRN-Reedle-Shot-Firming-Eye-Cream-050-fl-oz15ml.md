@@ -2,8 +2,12 @@
 title: "Record 757d9ab3ea · VT-PDRN-Reedle-Shot-Firming-Eye-Cream-050-fl-oz15ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.830956+00:00
+updated_at: 2026-10-11T00:55:40.698376+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA65932535"
 ---
 
 # Record 757d9ab3ea · VT-PDRN-Reedle-Shot-Firming-Eye-Cream-050-fl-oz15ml
@@ -16,7 +20,3 @@ VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream
 VT PDRN Reedle Shot Firming Eye Cream 0.50 fl. oz.(15ml) Refill Set (+ Eye Cream Refill 0.50 fl. oz.(15ml)) · 평점 5 · 리뷰 1
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

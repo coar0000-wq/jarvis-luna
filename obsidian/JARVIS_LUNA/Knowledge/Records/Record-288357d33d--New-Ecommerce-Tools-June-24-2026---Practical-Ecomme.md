@@ -2,8 +2,12 @@
 title: "Record 288357d33d · New-Ecommerce-Tools-June-24-2026---Practical-Ecomme"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.269877+00:00
+updated_at: 2026-10-11T00:55:31.435093+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YR0lkbDUtblJOajFhYkVreGlscDlCRnFtS2dBdy0xendNOVlZSmhidUlTUGJXcjVOb3JzNEk4eTRTaDhrX1V0Q1dmYzRSZkxXMjlNY0t0NkhZRV9FdUlLZS1YYzYwRVNIeHFXTmk4VUxBa2dIOGc?oc=5"
 ---
 
 # Record 288357d33d · New-Ecommerce-Tools-June-24-2026---Practical-Ecomme
@@ -15,7 +19,3 @@ tags: [record, real-data]
 New Ecommerce Tools: June 24, 2026 - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

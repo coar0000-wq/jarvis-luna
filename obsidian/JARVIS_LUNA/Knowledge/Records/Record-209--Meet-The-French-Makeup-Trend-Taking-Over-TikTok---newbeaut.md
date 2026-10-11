@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.283666+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCMTVDZm00TWp5dG90emZrQm5mN0VZVnJ5bkNvbnJNQ1JKYV9IenBKTjBnZGlZMGN4Uy02VmNLeFRFcC1EWUxGNjN4RldtQlJRQ0xuUFBmM1FrUU5fdW5XRWFMQjItNVdCdm9F?oc=5"
 ---
 
 # Record 209 · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---newbeautycom
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Meet The French Makeup Trend Taking Over TikTok - newbeauty.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

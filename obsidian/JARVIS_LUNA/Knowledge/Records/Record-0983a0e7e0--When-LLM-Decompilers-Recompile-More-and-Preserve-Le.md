@@ -2,8 +2,12 @@
 title: "Record 0983a0e7e0 · When-LLM-Decompilers-Recompile-More-and-Preserve-Le"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.976198+00:00
+updated_at: 2026-10-11T00:55:12.168858+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05370v1"
 ---
 
 # Record 0983a0e7e0 · When-LLM-Decompilers-Recompile-More-and-Preserve-Le
@@ -15,7 +19,3 @@ tags: [record, real-data]
 When LLM Decompilers Recompile More and Preserve Less
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

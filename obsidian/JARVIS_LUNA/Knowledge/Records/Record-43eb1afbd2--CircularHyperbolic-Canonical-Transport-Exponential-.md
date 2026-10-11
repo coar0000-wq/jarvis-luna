@@ -2,8 +2,14 @@
 title: "Record 43eb1afbd2 · CircularHyperbolic-Canonical-Transport-Exponential-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.953128+00:00
+updated_at: 2026-10-11T00:55:26.427887+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21477918"
+kind: "논문"
 ---
 
 # Record 43eb1afbd2 · CircularHyperbolic-Canonical-Transport-Exponential-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Circular–Hyperbolic Canonical Transport Exponential Structure, Frame Rotation and the Possible Emergence of Helical Fibre Geometry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

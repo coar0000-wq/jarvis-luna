@@ -2,8 +2,12 @@
 title: "Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-expo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.123464+00:00
+updated_at: 2026-10-11T00:55:28.913140+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nV254bll1NUcweTJEOWwxNUZpVzdnZnVmeU9OTy1fbWIzUDdpMklDSHBnSzlNaHpRb2hUU2hrc1Mya0xHRUFINlJrbmNiSVBxb1ZN?oc=5"
 ---
 
 # Record 99828da4a3 · As-K-beauty-continues-to-grow-by-expanding-its-expo
@@ -15,7 +19,3 @@ tags: [record, real-data]
 As K-beauty continues to grow by expanding its export market to the U.S. and Europe, there are mixed.. - 매일경제
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

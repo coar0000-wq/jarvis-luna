@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.342570+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "로보틱스", "반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03067v1"
 ---
 
 # Record 070 · GPU-Accelerated-Astrodynamics-World-Models-for-Spacecraft-Rendezvous-a
@@ -16,7 +20,3 @@ GPU-Accelerated Astrodynamics World Models for Spacecraft Rendezvous and Proximi
 World models are an emerging paradigm in representation learning in which an agent jointly learns state-action dynamics and observation models from offline trajectory data, enabling multi-step planning and trajectory prediction with uncertainty estimates. They have shown strong results in robotics and game environments, but, to the best of our knowledge, have not previously been applied to the spa
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[로보틱스]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

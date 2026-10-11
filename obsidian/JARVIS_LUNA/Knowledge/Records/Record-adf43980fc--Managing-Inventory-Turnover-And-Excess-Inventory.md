@@ -2,8 +2,14 @@
 title: "Record adf43980fc · Managing-Inventory-Turnover-And-Excess-Inventory"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.493478+00:00
+updated_at: 2026-10-11T00:55:50.175762+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/treasury/trade-working-capital/managing-inventory-turnover-and-excess-inventory"
+kind: "발표물"
 ---
 
 # Record adf43980fc · Managing-Inventory-Turnover-And-Excess-Inventory
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Managing Inventory Turnover And Excess Inventory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

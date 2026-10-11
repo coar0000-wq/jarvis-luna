@@ -2,8 +2,12 @@
 title: "Record 53916e6c69 · AI-agents-for-ecommerce-how-they-work-top-tools-and"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.167653+00:00
+updated_at: 2026-10-11T00:55:29.657305+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0ZjVwVW44LVlJU21NeDV1cFN5STYwWVM2WTE4SjFzaGoyUWlzbENhanFwNUktVldkUXNUaEVpb21rS1BKVFB1LWJOZDFvM05qOWJJRU04VC1RYXlv?oc=5"
 ---
 
 # Record 53916e6c69 · AI-agents-for-ecommerce-how-they-work-top-tools-and
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI agents for ecommerce: how they work, top tools, and how to build one - Netguru
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

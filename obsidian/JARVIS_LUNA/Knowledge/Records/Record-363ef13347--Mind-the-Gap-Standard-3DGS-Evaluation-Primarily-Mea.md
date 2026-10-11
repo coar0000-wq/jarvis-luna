@@ -2,8 +2,14 @@
 title: "Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.691154+00:00
+updated_at: 2026-10-11T00:55:38.415426+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7167380375"
+kind: "논문"
 ---
 
 # Record 363ef13347 · Mind-the-Gap-Standard-3DGS-Evaluation-Primarily-Mea
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mind the Gap: Standard 3DGS Evaluation Primarily Measures Near-Trajectory Interpolation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

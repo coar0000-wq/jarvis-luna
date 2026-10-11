@@ -2,8 +2,12 @@
 title: "Record 4ecb380d3b · Olive-Young-to-launch-first-US-K-beauty-festival---"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.452446+00:00
+updated_at: 2026-10-11T00:55:34.672757+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzVoRDBNNUt3R2k4QVBsWXVhOWJYLTBnRWhtbngxZEJieHlqMU96OWp1ZWZYTl9lQ19pTEtDaWF2TVEwRmprN3dHUExsVEN5UGU4ZHRaV3hsTDJIaldDbGFpbEE3aFd2eW9SeGhNeHo3WDRpRHNhZ3ZXbEVuazBtdy1Pa2tWNzJqVWd4UlVyNS1DcEhQZ1JBdHhKbWg?oc=5"
 ---
 
 # Record 4ecb380d3b · Olive-Young-to-launch-first-US-K-beauty-festival---
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young to launch first US K-beauty festival - FashionNetwork - The World's Fashion Business News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

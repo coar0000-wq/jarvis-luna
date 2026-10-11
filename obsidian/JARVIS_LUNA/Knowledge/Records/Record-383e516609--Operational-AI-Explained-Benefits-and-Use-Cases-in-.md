@@ -2,8 +2,12 @@
 title: "Record 383e516609 · Operational-AI-Explained-Benefits-and-Use-Cases-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.212038+00:00
+updated_at: 2026-10-11T00:55:30.428737+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52ZHNESG5LZ2Z2S3J2bXpNTDJhbjlLTTJWOW9GSEt3TFBzbE9zbkR1LWp2ZDVMczUzNUtkN1h1Q1laX2ZTUFRuQkszWDhKaVdVaXRmLWktOXlvSEptY1ZtTG4wVkljeTNH?oc=5"
 ---
 
 # Record 383e516609 · Operational-AI-Explained-Benefits-and-Use-Cases-in-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Operational AI Explained: Benefits and Use Cases in Ecommerce - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

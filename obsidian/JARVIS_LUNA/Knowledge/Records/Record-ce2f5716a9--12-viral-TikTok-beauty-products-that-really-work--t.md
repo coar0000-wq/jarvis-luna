@@ -2,8 +2,12 @@
 title: "Record ce2f5716a9 · 12-viral-TikTok-beauty-products-that-really-work--t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.424268+00:00
+updated_at: 2026-10-11T00:55:34.234356+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQjEtZ3BIMDc3NEc4elNSWnVpdWwyc1lpeHNyRjl6OXc3ZkJrWndVOVJjRDMyQ1VvbzdoaFVwM25NS1F3RXlOZEdKNG00SW5kamNJaDBTMk5nQlZNanNIQXY5bVdNbUdKWnRkVVlqNldjeWlrMGp2ajVjNE9TZ01INXA4NDhCRnNaem5wbzFhbmxBbEExbFBF?oc=5"
 ---
 
 # Record ce2f5716a9 · 12-viral-TikTok-beauty-products-that-really-work--t
@@ -15,7 +19,3 @@ tags: [record, real-data]
 12 viral TikTok beauty products that really work — tried and tested - thetimes.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

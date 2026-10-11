@@ -2,8 +2,12 @@
 title: "Record 200856fee4 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.478872+00:00
+updated_at: 2026-10-11T00:55:35.153077+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify", "데이터분석"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY25WWkdKZXhuUWRXTHhaQnFMUUlzRVpvNlpYVVJ5Q1I5M2hFU1NZakV1MGM4aFN5T1A5d3B1UDNpZlV3LV9XbC1nYndZZ0tJZzJ6NVpoamMxSEMta2ZDUmxPcllyNERBM0ZHUWw0UWI0cUpxdVV0dEFKRm9PNklfNTJfUnFEZXdPTzFWTUZva2RIUHUtSzdONzF0UnVFT1dvZW85WQ?oc=5"
 ---
 
 # Record 200856fee4 · Shopify-acquires-the-team-from-Peel-Insights-an-AI-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify acquires the team from Peel Insights, an AI-driven analytics startup - Business Insider
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

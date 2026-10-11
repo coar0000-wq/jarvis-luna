@@ -2,8 +2,12 @@
 title: "Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Sc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.958605+00:00
+updated_at: 2026-10-11T00:55:11.962120+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04893v1"
 ---
 
 # Record 57c467021c · Reasoning-Without-Inference-Cost-Latent-Semantic-Sc
@@ -16,7 +20,3 @@ Reasoning Without Inference Cost: Latent Semantic Scaffolding for Robot VLA Poli
 Vision-language-action (VLA) models are trained by imitation and capture what action to take but not why; adding causal reasoning improves manipulation, but current methods pay for it at inference time - generating reasoning tokens or rolling out predicted future states at every step, a cost that compounds over long horizons. We ask whether this benefit can instead be captured during training and
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 7133a6be64 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Ski"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.253829+00:00
+updated_at: 2026-10-11T00:55:31.197369+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDRGk1R0xCS3V6OV9lV04tMkRRRnBCVkZIUHF6U2ZZLW5rRVVKbGpWcU84bElBTS1wZmNsd0o4UVVCd3R3ZHZ6ZWxqcU54QldmbU5nTnYydUttMUtUZllyaHJVNU9lZ3AzcGdQQkgxYnI?oc=5"
 ---
 
 # Record 7133a6be64 · PSA-These-K-Beauty-Products-Are-Perfect-for-Dry-Ski
@@ -15,7 +19,3 @@ tags: [record, real-data]
 PSA: These K-Beauty Products Are Perfect for Dry Skin - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

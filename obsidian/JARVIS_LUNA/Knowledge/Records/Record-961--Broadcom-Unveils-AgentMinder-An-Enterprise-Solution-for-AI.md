@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.008596+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "보안프라이버시", "반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-agentminder-enterprise-solution-ai-agent"
 ---
 
 # Record 961 · Broadcom-Unveils-AgentMinder-An-Enterprise-Solution-for-AI-Agent-Gover
@@ -16,7 +21,3 @@ Broadcom Unveils AgentMinder, An Enterprise Solution for AI Agent Governance and
 New Solution Makes It Possible for Enterprises to Use AI Agents While Ensuring They Follow Company Rules and Security Standards Broadcom Utilizes AgentMinder to Scale Enterprise Grade Agentic AI LAS VEGAS, Aug. 31, 2026 (GLOBE NEWSWIRE) -- VMware Explore 2026 -- Broadcom Inc.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[보안프라이버시]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

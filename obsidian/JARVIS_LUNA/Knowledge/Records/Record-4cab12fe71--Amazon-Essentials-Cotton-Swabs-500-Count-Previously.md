@@ -2,8 +2,12 @@
 title: "Record 4cab12fe71 · Amazon-Essentials-Cotton-Swabs-500-Count-Previously-Amazon-Basics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.969468+00:00
+updated_at: 2026-10-11T00:55:43.010640+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Amazon-Basics-Cotton-Swabs-500ct/dp/B09541P9WH/ref=zg_bs_g_beauty_d_sccl_5/147-9490890-8327709"
 ---
 
 # Record 4cab12fe71 · Amazon-Essentials-Cotton-Swabs-500-Count-Previously-Amazon-Basics
@@ -16,7 +20,3 @@ Amazon Essentials Cotton Swabs, 500 Count (Previously Amazon Basics)
 Amazon Essentials Cotton Swabs, 500 Count (Previously Amazon Basics) · $2.67 · 평점 4.7 · 리뷰 74,016
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

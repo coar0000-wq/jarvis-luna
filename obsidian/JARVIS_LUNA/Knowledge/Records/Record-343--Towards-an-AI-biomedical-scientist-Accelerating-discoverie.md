@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.465790+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.tjpad.2025.100398"
 ---
 
 # Record 343 · Towards-an-AI-biomedical-scientist-Accelerating-discoveries-in-neurode
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Towards an AI biomedical scientist: Accelerating discoveries in neurodegenerative disease
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

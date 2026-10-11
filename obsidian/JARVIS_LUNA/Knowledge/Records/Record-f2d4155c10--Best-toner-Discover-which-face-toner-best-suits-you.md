@@ -2,8 +2,12 @@
 title: "Record f2d4155c10 · Best-toner-Discover-which-face-toner-best-suits-your-skin-type-and-bud"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.179452+00:00
+updated_at: 2026-10-11T00:55:29.880940+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hcW5ZR2hNR0ZGQ2dvaTVvUTFyRmRhOTJfUXlkVlhicmYzT01PZzFPREtQSXJRZHRDZEc2M0RtazdoSkRucVlSdEZoZ1ZZRXV0eWpfZFY3TVZrN1ByQkNyeQ?oc=5"
 ---
 
 # Record f2d4155c10 · Best-toner-Discover-which-face-toner-best-suits-your-skin-type-and-bud
@@ -16,7 +20,3 @@ Best toner: Discover which face toner best suits your skin type and budget - Mam
 Best toner: Discover which face toner best suits your skin type and budget - Mamabella
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

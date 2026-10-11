@@ -2,8 +2,12 @@
 title: "Record 859dc9cee4 · Artificial-Intelligence-Analytics-A-Guide-for-Busin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.243186+00:00
+updated_at: 2026-10-11T00:55:31.039050+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify", "데이터분석"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE12bE5VOXR4NmlJSUhLN0lxcTZmZVVVTjhCbkpsVXZVT0xySGdBZHRWdTdfVTNoQXVvdzJQZW5YLWhjcVJ1Mk5udU4xMW1xQmx1RzJyTVhiNnktcDBCU1NjWGlxTXB0NjZoY3hlNWF3SkVQUFU?oc=5"
 ---
 
 # Record 859dc9cee4 · Artificial-Intelligence-Analytics-A-Guide-for-Busin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Artificial Intelligence Analytics: A Guide for Business Owners - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

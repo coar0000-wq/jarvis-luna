@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.258041+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.biopha.2025.118281"
 ---
 
 # Record 209 · Chiisanogenin-enhances-glucose-uptake-and-lowers-blood-glucose-via-ins
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Chiisanogenin enhances glucose uptake and lowers blood glucose via insulin signaling activation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

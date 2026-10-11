@@ -2,8 +2,12 @@
 title: "Record a857125ce3 · No-Restart-Elasticity-in-an-Adaptive-Runtime-System-for-Cloud-Native-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.847394+00:00
+updated_at: 2026-10-11T00:55:25.068721+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.32217"
 ---
 
 # Record a857125ce3 · No-Restart-Elasticity-in-an-Adaptive-Runtime-System-for-Cloud-Native-H
@@ -16,7 +20,3 @@ No-Restart Elasticity in an Adaptive Runtime System for Cloud-Native HPC
 Exploiting discounted spot instances for HPC requires an application to change its resource allocation at runtime, shrinking ahead of an interruption and expanding onto replacement capacity. Existing elasticity mechanisms implement rescaling as a full process teardown followed by a cold restart at the new processor count, and the restart stage accounts for up to 95% of the total overhead, growing
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

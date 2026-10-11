@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.530986+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGc5QjR2OTZ1b1EwU2luQWVTaEVZTFcwdzNfMjRrRnAwMTJxNEpqREx5VlVhZmU3WjRwTmcycVQ1Zy1raTJtekxObU5UazZFa1YwS2RGZ3VTbkgwXzA2Uzc1NkdqRG5pcUFDby16MzNJWkFta0JEaG9PLUl0MnMtX3RqX3VaMmhqZDdZeQ?oc=5"
 ---
 
 # Record 1322 · K-beautys-global-impact---Personal-Care-Insights
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty’s global impact - Personal Care Insights
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

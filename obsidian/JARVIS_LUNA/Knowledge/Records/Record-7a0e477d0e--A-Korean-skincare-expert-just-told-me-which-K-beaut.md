@@ -2,8 +2,12 @@
 title: "Record 7a0e477d0e · A-Korean-skincare-expert-just-told-me-which-K-beaut"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.186726+00:00
+updated_at: 2026-10-11T00:55:30.021595+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "모델-라우팅MoE"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81Zy01RlVCdE51SS1SZ2JjSE1aSHBMdEdPRGxYSHlHZ2p3RDFKQ3YyZE9vQkZuWXVSeGVsS2JTdFZlWG84S0hEdG45M0dsc0VaODFEb2Z6T0M5RG95a2tfNGZpVFZnZXc?oc=5"
 ---
 
 # Record 7a0e477d0e · A-Korean-skincare-expert-just-told-me-which-K-beaut
@@ -15,7 +19,3 @@ tags: [record, real-data]
 'A Korean skincare expert just told me which K-beauty trend is completely overhyped.' - Mamamia
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

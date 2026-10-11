@@ -2,8 +2,14 @@
 title: "Record 1f93380281 · The-Impact-of-Macroprudential-Policy-on-Credit-Growth-in-Nine-Euro-Are"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.559621+00:00
+updated_at: 2026-10-11T00:55:20.788319+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.2478/ngoe-2023-0007"
+kind: "논문"
 ---
 
 # Record 1f93380281 · The-Impact-of-Macroprudential-Policy-on-Credit-Growth-in-Nine-Euro-Are
@@ -15,7 +21,3 @@ tags: [record, real-data]
 The Impact of Macroprudential Policy on Credit Growth in Nine Euro Area Economies
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

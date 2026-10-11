@@ -2,8 +2,14 @@
 title: "Record c894cddd32 · Camouflaged-Object-Detection-with-boundary-localization-in-complex-bac"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.307826+00:00
+updated_at: 2026-10-11T00:55:16.362579+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.engappai.2025.112047"
+kind: "논문"
 ---
 
 # Record c894cddd32 · Camouflaged-Object-Detection-with-boundary-localization-in-complex-bac
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Camouflaged Object Detection with boundary localization in complex backgrounds
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

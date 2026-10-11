@@ -2,8 +2,14 @@
 title: "Record 0027655752 · Introducing-CARE-X-Towards-Clinically-Useful-Radiol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.501066+00:00
+updated_at: 2026-10-11T00:55:50.307247+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "의료바이오", "AI-에이전트"]
+org: "Microsoft Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/"
+kind: "발표물"
 ---
 
 # Record 0027655752 · Introducing-CARE-X-Towards-Clinically-Useful-Radiol
@@ -16,7 +22,3 @@ Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supe
 Radiology AI is evolving beyond report generation. CARE-X explores a unified approach that combines flexible reasoning, calibrated predictions, and measurement-based tools for chest X-ray interpretation. The post Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[의료바이오]] [[AI-에이전트]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

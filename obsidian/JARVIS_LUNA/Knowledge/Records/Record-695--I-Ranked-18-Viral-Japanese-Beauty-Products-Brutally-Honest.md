@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.073538+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Ws6xXBa7BPI"
 ---
 
 # Record 695 · I-Ranked-18-Viral-Japanese-Beauty-Products-Brutally-Honest
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 I Ranked 18 Viral Japanese Beauty Products (Brutally Honest)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 67fd39a104 · Connecting-Agents-to-Decisions"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.232129+00:00
+updated_at: 2026-10-11T00:55:15.227365+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Palantir"
+domain: "blog.palantir.com"
+url: "https://blog.palantir.com/connecting-agents-to-decisions-277dee8ddb40?source=rss----3c87dc14372f---4"
+kind: "발표물"
 ---
 
 # Record 67fd39a104 · Connecting-Agents-to-Decisions
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Connecting Agents to Decisions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

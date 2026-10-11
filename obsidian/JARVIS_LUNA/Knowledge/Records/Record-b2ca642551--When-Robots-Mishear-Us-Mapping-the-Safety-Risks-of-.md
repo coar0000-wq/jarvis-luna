@@ -2,8 +2,12 @@
 title: "Record b2ca642551 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.910222+00:00
+updated_at: 2026-10-11T00:55:11.286793+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["로보틱스", "음성오디오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28518v1"
 ---
 
 # Record b2ca642551 · When-Robots-Mishear-Us-Mapping-the-Safety-Risks-of-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[로보틱스]] [[음성오디오]] [[JARVIS Real Knowledge Index]]

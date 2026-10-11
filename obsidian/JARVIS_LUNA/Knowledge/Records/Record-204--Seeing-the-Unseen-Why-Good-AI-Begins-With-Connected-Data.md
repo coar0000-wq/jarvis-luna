@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.001288+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "DataWalk"
+domain: "datawalk.com"
+url: "https://datawalk.com/five-considerations-ai-anti-financial-crime/"
 ---
 
 # Record 204 · Seeing-the-Unseen-Why-Good-AI-Begins-With-Connected-Data
@@ -16,7 +21,3 @@ Seeing the Unseen: Why Good AI Begins With Connected Data
 The post Seeing the Unseen: Why Good AI Begins With Connected Data appeared first on DataWalk .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--DataWalk]] [[JARVIS Real Knowledge Index]]

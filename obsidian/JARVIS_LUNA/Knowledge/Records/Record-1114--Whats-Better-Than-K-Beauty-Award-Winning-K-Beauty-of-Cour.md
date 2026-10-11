@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.631358+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTFBGU1ctOE1Sczc4N3kyV244bXRuMUphV0VwV1NFS2NXb3dhOFpTalBiREtlakdZTi05eGZFczE0eDNnc3hDcS16Z3pGQTFNR2lHR1p0a3U4eEN5QWNzTGNpUU50bVR4bFhLVUZycEQ3Xy1Odw?oc=5"
 ---
 
 # Record 1114 · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-of-Course---Allure
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What's Better Than K-Beauty? Award-Winning K-Beauty, of Course - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

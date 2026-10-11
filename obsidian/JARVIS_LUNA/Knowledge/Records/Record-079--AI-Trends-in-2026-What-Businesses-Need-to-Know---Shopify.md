@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.556557+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82ZVNSZHgxOGh4c2pickFsWWw5Nk1YU2tyMTJjYWJGS3A0UjNIMjJNVDVuODJkeS1MTXJnUmhrQUFfWG1iYXJGRmJYV2E3MjhCeU5v?oc=5"
 ---
 
 # Record 079 · AI-Trends-in-2026-What-Businesses-Need-to-Know---Shopify
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 AI Trends in 2026: What Businesses Need to Know - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

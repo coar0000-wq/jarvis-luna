@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.076653+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/bH_3Kf1iwtk"
 ---
 
 # Record 555 · Nicotine-Cravings-Are-Brutal
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Nicotine Cravings Are Brutal…
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

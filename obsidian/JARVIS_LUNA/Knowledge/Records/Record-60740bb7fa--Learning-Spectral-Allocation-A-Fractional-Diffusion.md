@@ -2,8 +2,12 @@
 title: "Record 60740bb7fa · Learning-Spectral-Allocation-A-Fractional-Diffusion-Framework-for-Adap"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.793959+00:00
+updated_at: 2026-10-11T00:55:24.358005+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "의료바이오"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.27217"
 ---
 
 # Record 60740bb7fa · Learning-Spectral-Allocation-A-Fractional-Diffusion-Framework-for-Adap
@@ -16,7 +20,3 @@ Learning Spectral Allocation: A Fractional Diffusion Framework for Adaptive Volu
 We address adaptive computation in 3D medical image segmentation: instead of designing another backbone, we ask how much spectral mixing each network stage needs and let optimization answer. We derive FHEAT, a two-parameter operator family, from the discrete cosine transform (DCT) solution of a fractional heat equation. A fractional order alpha and a diffusion strength D govern the operator, and a
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

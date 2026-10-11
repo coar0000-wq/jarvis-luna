@@ -2,8 +2,12 @@
 title: "Record d970ff5c69 · Blog-Survey-of-Optimizers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.911955+00:00
+updated_at: 2026-10-11T00:55:11.325415+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28557v1"
 ---
 
 # Record d970ff5c69 · Blog-Survey-of-Optimizers
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Blog: Survey of Optimizers
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

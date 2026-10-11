@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.782577+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28475v1"
 ---
 
 # Record 012 · COVER-Identifiable-Evaluation-of-Coalition-Routing
@@ -15,7 +19,3 @@ tags: [record, real-data]
 COVER: Identifiable Evaluation of Coalition Routing
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 5498e0e8e4 · Decoder-Agnostic-Token-Merging-for-Vision-Transformers-A-Systematic-St"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.709115+00:00
+updated_at: 2026-10-11T00:55:23.289079+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전", "인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.18279"
 ---
 
 # Record 5498e0e8e4 · Decoder-Agnostic-Token-Merging-for-Vision-Transformers-A-Systematic-St
@@ -16,7 +20,3 @@ Decoder-Agnostic Token Merging for Vision Transformers: A Systematic Study of G2
 Vision Transformers (ViTs) have achieved state-of-the-art performance across a range of computer vision tasks, mainly thanks to the self-attention mechanism. However, its complexity, increasing quadratically with the number of tokens, remains the major obstacle to ViT efficiency and deployment at scale. Token merging reduces this cost by aggregating redundant tokens. Yet existing methods are typic
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

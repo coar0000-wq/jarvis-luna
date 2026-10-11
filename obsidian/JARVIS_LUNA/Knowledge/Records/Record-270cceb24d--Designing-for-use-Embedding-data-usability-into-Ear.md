@@ -2,8 +2,14 @@
 title: "Record 270cceb24d · Designing-for-use-Embedding-data-usability-into-Earth-science-mission-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.554658+00:00
+updated_at: 2026-10-11T00:55:20.700922+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz Allen Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.22541/essoar.15008768/v1"
+kind: "논문"
 ---
 
 # Record 270cceb24d · Designing-for-use-Embedding-data-usability-into-Earth-science-mission-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Designing for use: Embedding data usability into Earth science mission conception, implementation, and evaluation to accelerate discovery
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

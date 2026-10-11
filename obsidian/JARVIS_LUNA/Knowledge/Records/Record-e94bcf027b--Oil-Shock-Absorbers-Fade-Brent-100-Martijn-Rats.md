@@ -2,8 +2,14 @@
 title: "Record e94bcf027b · Oil-Shock-Absorbers-Fade-Brent-100-Martijn-Rats"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.547549+00:00
+updated_at: 2026-10-11T00:55:51.274514+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/oil-shock-absorbers-fade-brent-100-martijn-rats"
+kind: "발표물"
 ---
 
 # Record e94bcf027b · Oil-Shock-Absorbers-Fade-Brent-100-Martijn-Rats
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Oil Shock Absorbers Fade Brent 100 Martijn Rats
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.783957+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28553v1"
 ---
 
 # Record 019 · Logos-An-Agent-Harness-on-a-Cross-Process-Bus
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Logos: An Agent Harness on a Cross-Process Bus
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.140782+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.21960684"
 ---
 
 # Record 780 · Local-Involution-Pariety-and-Exchange-Symmetry-in-Bipartite-Quantum-Sy
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Local-Involution Pariety and Exchange Symmetry in Bipartite Quantum Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

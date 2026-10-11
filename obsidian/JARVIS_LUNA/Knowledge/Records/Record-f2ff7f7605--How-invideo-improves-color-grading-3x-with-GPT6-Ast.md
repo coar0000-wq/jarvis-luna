@@ -2,8 +2,14 @@
 title: "Record f2ff7f7605 · How-invideo-improves-color-grading-3x-with-GPT6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.643535+00:00
+updated_at: 2026-10-11T00:55:37.546403+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/invideo-builds-with-gpt-6-astra"
+kind: "발표물"
 ---
 
 # Record f2ff7f7605 · How-invideo-improves-color-grading-3x-with-GPT6-Astra
@@ -16,7 +22,3 @@ How invideo improves color grading 3x with GPT‑6 Astra
 With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

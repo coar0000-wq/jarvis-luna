@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.798587+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=h0MVERD1X5Y"
 ---
 
 # Record 2289 · Top-7-Dropshipping-Products-Global-2026--CJ-Selections
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Top 7 Dropshipping Products Global 2026 | CJ Selections
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

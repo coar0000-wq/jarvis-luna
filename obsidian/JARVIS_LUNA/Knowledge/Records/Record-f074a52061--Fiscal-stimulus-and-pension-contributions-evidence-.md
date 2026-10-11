@@ -2,8 +2,14 @@
 title: "Record f074a52061 · Fiscal-stimulus-and-pension-contributions-evidence-from-the-TCJA"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.341260+00:00
+updated_at: 2026-10-11T00:55:17.034203+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1017/s1474747224000106"
+kind: "논문"
 ---
 
 # Record f074a52061 · Fiscal-stimulus-and-pension-contributions-evidence-from-the-TCJA
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Fiscal stimulus and pension contributions: evidence from the TCJA
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

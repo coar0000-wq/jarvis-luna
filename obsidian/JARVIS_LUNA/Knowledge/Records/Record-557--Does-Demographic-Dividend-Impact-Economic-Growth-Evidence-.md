@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.087079+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1177/00194662261457512"
 ---
 
 # Record 557 · Does-Demographic-Dividend-Impact-Economic-Growth-Evidence-from-G-20-Co
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Does Demographic Dividend Impact Economic Growth? Evidence from G-20 Countries
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

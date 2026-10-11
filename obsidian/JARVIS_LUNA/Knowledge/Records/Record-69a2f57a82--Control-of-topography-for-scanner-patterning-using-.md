@@ -2,8 +2,14 @@
 title: "Record 69a2f57a82 · Control-of-topography-for-scanner-patterning-using-inkjet-adaptive-pla"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.460966+00:00
+updated_at: 2026-10-11T00:55:19.130028+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1117/1.jmm.25.4.041805"
+kind: "논문"
 ---
 
 # Record 69a2f57a82 · Control-of-topography-for-scanner-patterning-using-inkjet-adaptive-pla
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Control of topography for scanner patterning using inkjet adaptive planarization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

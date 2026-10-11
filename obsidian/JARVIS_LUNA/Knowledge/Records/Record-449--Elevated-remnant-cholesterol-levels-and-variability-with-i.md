@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.415316+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.jpsychores.2026.112984"
 ---
 
 # Record 449 · Elevated-remnant-cholesterol-levels-and-variability-with-incident-ment
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Elevated remnant cholesterol levels and variability with incident mental disorders in adults with type 1 diabetes: a nationwide cohort study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

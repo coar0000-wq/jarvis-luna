@@ -2,8 +2,14 @@
 title: "Record b7821e4e18 · Orchard-An-open-framework-for-scalable-agentic-AI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.503815+00:00
+updated_at: 2026-10-11T00:55:50.328652+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "인프라클라우드"]
+org: "Microsoft Research"
+domain: "www.microsoft.com"
+url: "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
+kind: "발표물"
 ---
 
 # Record b7821e4e18 · Orchard-An-open-framework-for-scalable-agentic-AI
@@ -16,7 +22,3 @@ Orchard: An open framework for scalable agentic AI
 Orchard is an open-source framework for the research community to train and evaluate AI agents across task types. It reduces complexity while supporting strong performance from smaller models by enabling researchers to reuse the same infrastructure. The post Orchard: An open framework for scalable agentic AI appeared first on Microsoft Research .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[인프라클라우드]] [[기관--Microsoft-Research]] [[JARVIS Real Knowledge Index]]

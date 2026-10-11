@@ -2,8 +2,12 @@
 title: "Record c2a9ace2a2 · Nicotine-Cravings-Are-Brutal"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.702667+00:00
+updated_at: 2026-10-11T00:55:53.870021+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/bH_3Kf1iwtk"
 ---
 
 # Record c2a9ace2a2 · Nicotine-Cravings-Are-Brutal
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Nicotine Cravings Are Brutal…
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

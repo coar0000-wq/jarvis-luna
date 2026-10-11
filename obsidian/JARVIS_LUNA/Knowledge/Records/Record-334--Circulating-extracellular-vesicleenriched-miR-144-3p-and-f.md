@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.618811+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41598-026-69238-3"
 ---
 
 # Record 334 · Circulating-extracellular-vesicleenriched-miR-144-3p-and-functional-re
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Circulating extracellular vesicle–enriched miR-144-3p and functional regulation of the mTOR pathway in multiple myeloma
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

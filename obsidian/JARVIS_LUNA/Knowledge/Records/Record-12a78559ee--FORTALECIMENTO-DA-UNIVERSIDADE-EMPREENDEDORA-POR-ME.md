@@ -2,8 +2,14 @@
 title: "Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-ME"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.016448+00:00
+updated_at: 2026-10-11T00:55:27.525656+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.70773/revistatopicos/786386679"
+kind: "논문"
 ---
 
 # Record 12a78559ee · FORTALECIMENTO-DA-UNIVERSIDADE-EMPREENDEDORA-POR-ME
@@ -15,7 +21,3 @@ tags: [record, real-data]
 FORTALECIMENTO DA UNIVERSIDADE EMPREENDEDORA POR MEIO DE PROGRAMAS INSTITUCIONAIS: PROGRAMA EMPREENDE DA UFC
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

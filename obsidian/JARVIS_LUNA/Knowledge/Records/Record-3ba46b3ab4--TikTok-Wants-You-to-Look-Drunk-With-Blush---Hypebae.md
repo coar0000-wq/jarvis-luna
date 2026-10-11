@@ -2,8 +2,12 @@
 title: "Record 3ba46b3ab4 · TikTok-Wants-You-to-Look-Drunk-With-Blush---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.320683+00:00
+updated_at: 2026-10-11T00:55:32.421890+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOW1NUTNWQjdBNk5UWmVCc2RBVmRWYTBzcGptMmRBTlp6OUxhRmhuZE5hVWI2d0VZRVJ5RkRJbTZsQUc4VUdZdFlqYm5Fb21Ia3doaFU0ajNmR2VtTlBnM0ozNUk1WE5MeEdnenJxWUJjdmNGcVQtVEhtQ25BcEpQLQ?oc=5"
 ---
 
 # Record 3ba46b3ab4 · TikTok-Wants-You-to-Look-Drunk-With-Blush---Hypebae
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok Wants You to Look Drunk With Blush - hypebae.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

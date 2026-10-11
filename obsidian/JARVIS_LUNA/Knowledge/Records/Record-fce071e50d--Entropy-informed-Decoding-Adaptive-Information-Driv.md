@@ -2,8 +2,14 @@
 title: "Record fce071e50d · Entropy-informed-Decoding-Adaptive-Information-Driv"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.675148+00:00
+updated_at: 2026-10-11T00:55:38.066638+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7161089913"
+kind: "논문"
 ---
 
 # Record fce071e50d · Entropy-informed-Decoding-Adaptive-Information-Driv
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Entropy-informed Decoding: Adaptive Information-Driven Branching
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

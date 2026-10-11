@@ -2,8 +2,14 @@
 title: "Record 7982b06a1d · Education-Report-How-educators-use-Claude"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.356899+00:00
+updated_at: 2026-10-11T00:55:47.884807+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude"
+kind: "발표물"
 ---
 
 # Record 7982b06a1d · Education-Report-How-educators-use-Claude
@@ -16,7 +22,3 @@ Education Report: How educators use Claude
 Research on 74,000 educator conversations shows how faculty use Claude for teaching, research, and building interactive learning tools.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

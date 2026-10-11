@@ -2,8 +2,14 @@
 title: "Record 4c54a60e24 · Insights-From-The-Inside"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.480502+00:00
+updated_at: 2026-10-11T00:55:49.921082+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/markets-and-economy/insights-from-the-inside"
+kind: "발표물"
 ---
 
 # Record 4c54a60e24 · Insights-From-The-Inside
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Insights From The Inside
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

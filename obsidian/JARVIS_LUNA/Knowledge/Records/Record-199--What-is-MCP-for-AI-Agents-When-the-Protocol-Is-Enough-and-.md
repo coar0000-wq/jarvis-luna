@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.371485+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "DataWalk"
+domain: "datawalk.com"
+url: "https://datawalk.com/what-is-mcp-for-ai-agents-when-the-protocol-is-enough-and-when-you-need-the-layers-above-it/"
 ---
 
 # Record 199 · What-is-MCP-for-AI-Agents-When-the-Protocol-Is-Enough-and-When-You-Nee
@@ -16,7 +21,3 @@ What is MCP for AI Agents? When the Protocol Is Enough, and When You Need the La
 The post What is MCP for AI Agents? When the Protocol Is Enough, and When You Need the Layers Above It appeared first on DataWalk .
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--DataWalk]] [[JARVIS Real Knowledge Index]]

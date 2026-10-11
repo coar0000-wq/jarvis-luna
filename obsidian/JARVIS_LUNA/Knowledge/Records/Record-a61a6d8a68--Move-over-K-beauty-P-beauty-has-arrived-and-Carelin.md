@@ -2,8 +2,12 @@
 title: "Record a61a6d8a68 · Move-over-K-beauty-P-beauty-has-arrived-and-Carelin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.109848+00:00
+updated_at: 2026-10-11T00:55:28.694399+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLWQ5MFlwVUtkMUhPMmRHM2RGaC1HRnZ4bHIzNXQxOTdaWFFyekw3WmpMLUNzWDV0VGVZQTFZelZVQVIwbW9OdFpjcWpTSEZnV2ZMNGdKaXQwX3FFOTNiSU9JRlc0MWZmWlpOeFh3YjVFY2VydVQ3M1FIZEFzMWx6bUJFOEdXNlpHQmVHT2pfOWVDaXk0emZ6UnZKUElEMUs2X2pDLWRKZmJFY18xUFdDUjVyUjVrS1ZLeEhMMUdEV2pzTjJBWVhZenRmcWNJQTlmZWNkZ1R5YUJQVW5RU3VSQWF3?oc=5"
 ---
 
 # Record a61a6d8a68 · Move-over-K-beauty-P-beauty-has-arrived-and-Carelin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Move over, K-beauty: P-beauty has arrived and Careline cosmetics is about to launch its smartest product yet - BusinessMirror
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

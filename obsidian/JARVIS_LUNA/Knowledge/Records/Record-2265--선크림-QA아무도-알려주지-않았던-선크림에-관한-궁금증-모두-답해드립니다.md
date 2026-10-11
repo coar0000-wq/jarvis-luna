@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.525939+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=H3iLq9I8AVg"
 ---
 
 # Record 2265 · 선크림-QA아무도-알려주지-않았던-선크림에-관한-궁금증-모두-답해드립니다
@@ -15,7 +19,3 @@ tags: [record, real-data]
 선크림 Q&A💡아무도 알려주지 않았던 선크림에 관한 궁금증 모두 답해드립니다!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

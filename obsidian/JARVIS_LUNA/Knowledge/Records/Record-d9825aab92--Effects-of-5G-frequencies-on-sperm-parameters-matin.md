@@ -2,8 +2,14 @@
 title: "Record d9825aab92 · Effects-of-5G-frequencies-on-sperm-parameters-mating-success-and-offsp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.561683+00:00
+updated_at: 2026-10-11T00:55:20.817568+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.25259/ijmr_3658_2025"
+kind: "논문"
 ---
 
 # Record d9825aab92 · Effects-of-5G-frequencies-on-sperm-parameters-mating-success-and-offsp
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Effects of 5G frequencies on sperm parameters, mating success, and offspring outcomes in rats
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

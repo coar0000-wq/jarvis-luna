@@ -2,8 +2,12 @@
 title: "Record ea82f8a320 · Elementwise-Positivity-of-the-Solution-to-Lyapunov-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.066819+00:00
+updated_at: 2026-10-11T00:55:13.245200+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11651v1"
 ---
 
 # Record ea82f8a320 · Elementwise-Positivity-of-the-Solution-to-Lyapunov-
@@ -16,7 +20,3 @@ Elementwise Positivity of the Solution to Lyapunov Equation for Hurwitz Companio
 We prove, with the aid of AI, that for every real symmetric forcing matrix $Q\succeq0$, the unique solution of a continuous-time Lyapunov equation is entrywise nonnegative whenever the state matrix is a real Hurwitz companion matrix. This proves an earlier conjecture. The proof makes no assumption on the spectrum of the state matrix, and is made possible by means of using Horner polynomial matrice
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

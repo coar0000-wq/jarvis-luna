@@ -2,8 +2,14 @@
 title: "Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamesco"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.576350+00:00
+updated_at: 2026-10-11T00:55:36.675902+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/samsung-hosts-playgalaxy-cup-world-final-at-gamescom-2026"
+kind: "발표물"
 ---
 
 # Record fb429cc3ad · Samsung-Hosts-PlayGalaxy-Cup-World-Final-at-Gamesco
@@ -16,7 +22,3 @@ Samsung Hosts #PlayGalaxy Cup World Final at Gamescom 2026
 Samsung Electronics today announced that it hosted the #PlayGalaxy Cup World Final from Aug. 27-28, and that the final was held at the company’s booth as part of its larger exhibition at Gamescom 2026, held at Koelnmesse in Cologne, Germany, from Aug. 26-30. The #PlayGalaxy Cup is a global mobile gaming tournament designed to showcase […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

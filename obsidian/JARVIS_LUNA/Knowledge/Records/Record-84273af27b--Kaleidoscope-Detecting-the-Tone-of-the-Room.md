@@ -2,8 +2,14 @@
 title: "Record 84273af27b · Kaleidoscope-Detecting-the-Tone-of-the-Room"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.490013+00:00
+updated_at: 2026-10-11T00:55:19.666533+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1177/10711813241260746"
+kind: "논문"
 ---
 
 # Record 84273af27b · Kaleidoscope-Detecting-the-Tone-of-the-Room
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Kaleidoscope: Detecting the Tone of the Room
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

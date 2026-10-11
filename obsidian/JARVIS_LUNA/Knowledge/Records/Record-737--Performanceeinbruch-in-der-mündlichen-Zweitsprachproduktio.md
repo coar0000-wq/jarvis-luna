@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.561247+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.20028577"
 ---
 
 # Record 737 · Performanceeinbruch-in-der-mündlichen-Zweitsprachproduktion-akademisch
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Performanceeinbruch in der mündlichen Zweitsprachproduktion akademisch qualifizierter Migrantinnen: Theoretische Grundlage eines stress- und identitätssensiblen Lehrrahmens
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

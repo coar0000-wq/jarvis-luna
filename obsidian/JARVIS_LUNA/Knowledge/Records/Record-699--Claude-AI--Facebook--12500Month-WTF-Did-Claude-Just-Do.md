@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T10:30:26.675703+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=fXot7pv9d-k"
 ---
 
 # Record 699 · Claude-AI--Facebook--12500Month-WTF-Did-Claude-Just-Do
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Claude AI + Facebook = $12,500/Month (WTF Did Claude Just Do?!)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

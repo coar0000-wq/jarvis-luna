@@ -2,8 +2,14 @@
 title: "Record a00923bf4d · Introducing-the-Australian-Youth-Safety-Blueprint"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.626714+00:00
+updated_at: 2026-10-11T00:55:37.273724+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/australian-youth-safety-blueprint"
+kind: "발표물"
 ---
 
 # Record a00923bf4d · Introducing-the-Australian-Youth-Safety-Blueprint
@@ -16,7 +22,3 @@ Introducing the Australian Youth Safety Blueprint
 OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

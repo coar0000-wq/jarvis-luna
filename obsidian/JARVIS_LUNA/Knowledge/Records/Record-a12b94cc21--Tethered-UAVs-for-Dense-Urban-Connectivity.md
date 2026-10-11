@@ -2,8 +2,12 @@
 title: "Record a12b94cc21 · Tethered-UAVs-for-Dense-Urban-Connectivity"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.038232+00:00
+updated_at: 2026-10-11T00:55:12.927179+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10414v1"
 ---
 
 # Record a12b94cc21 · Tethered-UAVs-for-Dense-Urban-Connectivity
@@ -16,7 +20,3 @@ Tethered UAVs for Dense Urban Connectivity
 This paper evaluates the downlink performance of 5G non-terrestrial networks (NTNs) realized via tethered unmanned aerial vehicle (TUAV)-mounted base stations, and compares it against conventional 5G terrestrial networks (TNs) in a realistic dense urban scenario. Unlike battery-limited UAVs, TUAVs are connected to ground stations via lightweight cables, enabling stable positioning and near-line-of
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

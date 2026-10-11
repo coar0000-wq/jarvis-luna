@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.629568+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41699-026-00728-8"
 ---
 
 # Record 466 · Advances-in-gate-stack-development-for-p-type-2D-channel-FETs-through-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Advances in gate stack development for p-type 2D channel FETs through sacrificial WSe2 bilayer oxidation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

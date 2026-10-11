@@ -2,8 +2,14 @@
 title: "Record 018ae1b1aa · From-Experimentation-To-Enterprise-Reality-Why-Mlop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.924383+00:00
+updated_at: 2026-10-11T00:55:26.004345+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18194145"
+kind: "논문"
 ---
 
 # Record 018ae1b1aa · From-Experimentation-To-Enterprise-Reality-Why-Mlop
@@ -15,7 +21,3 @@ tags: [record, real-data]
 From Experimentation To Enterprise Reality: Why Mlops Is The Backbone Of Production AI
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

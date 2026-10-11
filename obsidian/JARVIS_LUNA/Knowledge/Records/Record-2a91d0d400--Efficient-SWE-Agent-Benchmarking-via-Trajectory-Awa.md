@@ -2,8 +2,12 @@
 title: "Record 2a91d0d400 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Awa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.918618+00:00
+updated_at: 2026-10-11T00:55:11.464525+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01603v1"
 ---
 
 # Record 2a91d0d400 · Efficient-SWE-Agent-Benchmarking-via-Trajectory-Awa
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 6288e50e76 · Machine-Learning-Based-Insurance-Claim-Prediction-U"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.983805+00:00
+updated_at: 2026-10-11T00:55:26.975512+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.55041/ijcope.v2i8.304"
+kind: "논문"
 ---
 
 # Record 6288e50e76 · Machine-Learning-Based-Insurance-Claim-Prediction-U
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Machine Learning-Based Insurance Claim Prediction Using Customer Behavioral and Policy Data: A Conceptual Framework for Intelligent Risk Assessment and Decision Support
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

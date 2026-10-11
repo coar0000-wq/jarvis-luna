@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.243423+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EMl9lVE1wWldiUkRfLTV4N1FON1daNWo0Mk9jbWd0UFdKdG1sZHhCZ1ZmWlEyVTlvYmE1LU1QckYzNWVPV0t1NnN0VGJWb1FZVFlrTWVLXzlNc0c0UjB4S3RwTk5JZlBHakxlQjIwNTk?oc=5"
 ---
 
 # Record 210 · A-50-Year-Olds-Skin-Looks-Better-Than-It-Did-at-25-Thanks-to-This-15-K
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 A 50-Year-Old’s Skin “Looks Better” Than It Did at 25 Thanks to This $15 K-Beauty Firming Cream - instyle.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

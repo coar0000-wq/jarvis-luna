@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.376535+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "openalex.org"
+url: "https://openalex.org/W7164615323"
 ---
 
 # Record 1753 · A2SGAdaptive-and-Asymmetric-Surrogate-Gradients-for-Training-Deep-Spik
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A2SG:Adaptive and Asymmetric Surrogate Gradients for Training Deep Spiking Neural Networks
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

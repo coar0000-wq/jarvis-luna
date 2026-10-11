@@ -2,8 +2,12 @@
 title: "Record 94b164de42 · Claude-AI--Digital-Products--39411-WTF-It-Actually-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.727580+00:00
+updated_at: 2026-10-11T00:55:54.428333+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=UosqlC_fFRk"
 ---
 
 # Record 94b164de42 · Claude-AI--Digital-Products--39411-WTF-It-Actually-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude AI + Digital Products = $39,411 (WTF, It Actually Worked)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

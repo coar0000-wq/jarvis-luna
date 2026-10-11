@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:24.959522+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.nanoen.2026.112064"
 ---
 
 # Record 246 · A-semi-transparent-strategy-for-sustainable-radiative-cooling
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A semi-transparent strategy for sustainable radiative cooling
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

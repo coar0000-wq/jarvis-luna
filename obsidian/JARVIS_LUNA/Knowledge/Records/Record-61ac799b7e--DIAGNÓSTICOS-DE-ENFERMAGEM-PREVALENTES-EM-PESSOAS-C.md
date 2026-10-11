@@ -2,8 +2,14 @@
 title: "Record 61ac799b7e · DIAGNÓSTICOS-DE-ENFERMAGEM-PREVALENTES-EM-PESSOAS-COM-HIPERTENSÃO-ARTE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.714690+00:00
+updated_at: 2026-10-11T00:55:38.885923+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "openalex.org"
+url: "https://openalex.org/W7215530444"
+kind: "논문"
 ---
 
 # Record 61ac799b7e · DIAGNÓSTICOS-DE-ENFERMAGEM-PREVALENTES-EM-PESSOAS-COM-HIPERTENSÃO-ARTE
@@ -15,7 +21,3 @@ tags: [record, real-data]
 DIAGNÓSTICOS DE ENFERMAGEM PREVALENTES EM PESSOAS COM HIPERTENSÃO ARTERIAL SISTÊMICA NAS CONSULTAS DE ENFERMAGEM EM AMBULATÓRIO DE CARDIOLOGIA: DIAGNÓSTICOS DE ENFERMAGEM PREVALENTES EM PESSOAS COM HIPERTENSÃO ARTERIAL SISTÊMICA NAS CONSULTAS DE ENFERMAGEM EM AMBULATÓRIO DE CARDIOLOGIA
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

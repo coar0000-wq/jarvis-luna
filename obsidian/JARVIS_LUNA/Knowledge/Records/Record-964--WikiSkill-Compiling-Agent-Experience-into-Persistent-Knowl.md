@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:52:06.347202+00:00
 tags: [{', '.join(tags)}]
+source: "arXiv"
+topics: ["AI-Agents"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27454v1"
 ---
 
 # Record 964 · WikiSkill-Compiling-Agent-Experience-into-Persistent-Knowledge-for-Ski
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

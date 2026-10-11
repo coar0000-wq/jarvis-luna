@@ -2,8 +2,14 @@
 title: "Record f48f63747d · Digitalising-Is-Not-Digitalising-for-Sustainability-Decomposing-the-Di"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.529965+00:00
+updated_at: 2026-10-11T00:55:20.248839+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-10732340/v1"
+kind: "논문"
 ---
 
 # Record f48f63747d · Digitalising-Is-Not-Digitalising-for-Sustainability-Decomposing-the-Di
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Digitalising Is Not Digitalising for Sustainability: Decomposing the Digital Transformation–ESG Relationship in African Listed Firms
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.110039+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=U3R1DqvQM_w"
 ---
 
 # Record 2301 · Top-7-Trending-PET-Products-To-Sell-Now--CJdropshipping-Picks
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Top 7 Trending PET Products To Sell Now | CJdropshipping Picks
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

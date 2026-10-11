@@ -2,8 +2,12 @@
 title: "Record ff4b3cf82d · Instagram-Changed-Everything-Again-New-Updates-You-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.779632+00:00
+updated_at: 2026-10-11T00:55:55.234662+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["소셜콘텐츠"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=dU_U1Pmmu5c"
 ---
 
 # Record ff4b3cf82d · Instagram-Changed-Everything-Again-New-Updates-You-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Instagram Changed Everything Again: New Updates You Need to Know in 2026
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

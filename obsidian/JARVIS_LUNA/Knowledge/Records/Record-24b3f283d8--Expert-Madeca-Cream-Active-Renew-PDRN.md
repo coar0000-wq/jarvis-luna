@@ -2,8 +2,12 @@
 title: "Record 24b3f283d8 · Expert-Madeca-Cream-Active-Renew-PDRN"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.633984+00:00
+updated_at: 2026-10-11T00:55:52.653312+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["모델-라우팅MoE", "뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/expert-madeca-cream-active-renew-pdrn-pimprod2061131"
 ---
 
 # Record 24b3f283d8 · Expert-Madeca-Cream-Active-Renew-PDRN
@@ -16,7 +20,3 @@ Expert Madeca Cream Active Renew PDRN
 Expert Madeca Cream Active Renew PDRN · Centellian24 · $38
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[모델-라우팅MoE]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

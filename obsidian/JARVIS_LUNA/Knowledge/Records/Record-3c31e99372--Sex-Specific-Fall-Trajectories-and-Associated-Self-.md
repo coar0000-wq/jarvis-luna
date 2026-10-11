@@ -2,8 +2,14 @@
 title: "Record 3c31e99372 · Sex-Specific-Fall-Trajectories-and-Associated-Self-Reported-Risk-Facto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.316867+00:00
+updated_at: 2026-10-11T00:55:16.537148+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.jamda.2025.105542"
+kind: "논문"
 ---
 
 # Record 3c31e99372 · Sex-Specific-Fall-Trajectories-and-Associated-Self-Reported-Risk-Facto
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Sex-Specific Fall Trajectories and Associated Self-Reported Risk Factors: A Prospective Analysis of the 3-Year 5-Country DO-HEALTH Trial
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

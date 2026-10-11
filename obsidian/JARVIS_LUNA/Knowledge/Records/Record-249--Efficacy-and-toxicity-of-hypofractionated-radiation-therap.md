@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.267632+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.radonc.2025.111200"
 ---
 
 # Record 249 · Efficacy-and-toxicity-of-hypofractionated-radiation-therapy-for-patien
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Efficacy and toxicity of hypofractionated radiation therapy for patients with hematologic malignancies: A COVID-era ILROG collaborative report
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.374028+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "AI-에이전트", "로보틱스"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
 ---
 
 # Record 210 · Gemini-Robotics-ER-2-powering-robotics-with-video-understanding-task-o
@@ -16,7 +21,3 @@ Gemini Robotics ER 2: powering robotics with video understanding, task orchestra
 Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[AI-에이전트]] [[로보틱스]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

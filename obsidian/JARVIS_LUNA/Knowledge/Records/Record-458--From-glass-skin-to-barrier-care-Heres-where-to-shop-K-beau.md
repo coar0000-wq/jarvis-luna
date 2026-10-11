@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.298952+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd3hPbmhLakhWblU4LTZZc1RtckdBUUxyM0FkSTMxcUdsLUpuTXR2N2pqZ2lnMEdUbnRWNUp6UlJuaWNkMVJlOU93ZURXTlR4LWlTb2Z5Ukd4OWR0Nk8xdTg1WEM3aGNndzhxeEM2b1ROWnpBckxhUnMxV0xfR0RBbFBn?oc=5"
 ---
 
 # Record 458 · From-glass-skin-to-barrier-care-Heres-where-to-shop-K-beauty-products-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 From glass skin to barrier care: Here’s where to shop K-beauty products in Canada - Global News
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

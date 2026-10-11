@@ -2,8 +2,12 @@
 title: "Record 2213ea8097 · AI-Personal-Shopper-How-AI-Agents-Can-Help-Customers-Shop-2026---Shopi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.166094+00:00
+updated_at: 2026-10-11T00:55:29.621515+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85WUV4U2xrMWhzZTduZ0tFVmFwLVM3eUx3dUx6emIta3dIMGNncEE1cVdRS3hLLVhPc0ZXTVpMZUo1SG5tQkRZT2ZNVEdqMnp0SkhFbnlXSklhN2Fy?oc=5"
 ---
 
 # Record 2213ea8097 · AI-Personal-Shopper-How-AI-Agents-Can-Help-Customers-Shop-2026---Shopi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Personal Shopper: How AI Agents Can Help Customers Shop (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

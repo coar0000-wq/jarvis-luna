@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.613908+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Dataiku"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.simpa.2022.100250"
 ---
 
 # Record 406 · Cardinal-a-metric-based-Active-learning-framework
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Cardinal, a metric-based Active learning framework
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Dataiku]] [[JARVIS Real Knowledge Index]]

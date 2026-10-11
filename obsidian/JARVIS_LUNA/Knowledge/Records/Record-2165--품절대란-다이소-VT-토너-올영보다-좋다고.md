@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:39.077541+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/1yLYkcogR54"
 ---
 
 # Record 2165 · 품절대란-다이소-VT-토너-올영보다-좋다고
@@ -15,7 +19,3 @@ tags: [record, real-data]
 품절대란 다이소 VT 토너, 올영보다 좋다고?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

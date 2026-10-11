@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.928539+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/insights/the-markets/why-gold-is-expected-to-rise-to-record-highs"
 ---
 
 # Record 2396 · Why-Gold-Is-Expected-To-Rise-To-Record-Highs
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Why Gold Is Expected To Rise To Record Highs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

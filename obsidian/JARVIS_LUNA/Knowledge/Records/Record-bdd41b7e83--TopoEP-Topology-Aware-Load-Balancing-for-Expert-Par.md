@@ -2,8 +2,12 @@
 title: "Record bdd41b7e83 · TopoEP-Topology-Aware-Load-Balancing-for-Expert-Parallel-MoE-Training"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.869077+00:00
+updated_at: 2026-10-11T00:55:25.338197+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE", "머신러닝-연구", "반도체하드웨어"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.35481"
 ---
 
 # Record bdd41b7e83 · TopoEP-Topology-Aware-Load-Balancing-for-Expert-Parallel-MoE-Training
@@ -16,7 +20,3 @@ TopoEP: Topology-Aware Load Balancing for Expert-Parallel MoE Training
 Dynamic routing creates severe load imbalance in large-scale expert-parallel Mixture-of-Experts (MoE) training, turning GPUs that host hot experts into stragglers. As each MoE layer waits for its slowest rank, these stragglers prolong the expert-parallel stage and reduce overall training efficiency. Existing expert-parallelism load-balancing (EPLB) systems commonly compute load-balancing plans on
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

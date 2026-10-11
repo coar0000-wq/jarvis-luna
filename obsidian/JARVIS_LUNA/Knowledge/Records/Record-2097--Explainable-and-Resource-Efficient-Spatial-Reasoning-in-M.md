@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.263681+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Intel"
+domain: "openalex.org"
+url: "https://openalex.org/W7172068670"
 ---
 
 # Record 2097 · Explainable-and-Resource-Efficient-Spatial-Reasoning-in-Multimodal-LLM
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Explainable and Resource-Efficient Spatial Reasoning in Multimodal LLMs for Decision-Critical Applications
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

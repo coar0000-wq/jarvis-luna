@@ -2,8 +2,14 @@
 title: "Record e38a2bc247 · Introducing-Gemini-36-Flash-35-Flash-Lite-and-35-Fl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.244584+00:00
+updated_at: 2026-10-11T00:55:15.442621+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/"
+kind: "발표물"
 ---
 
 # Record e38a2bc247 · Introducing-Gemini-36-Flash-35-Flash-Lite-and-35-Fl
@@ -16,7 +22,3 @@ Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber
 We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

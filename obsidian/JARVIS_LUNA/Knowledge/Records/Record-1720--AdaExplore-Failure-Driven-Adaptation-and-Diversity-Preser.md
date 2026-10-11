@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.370208+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "openalex.org"
+url: "https://openalex.org/W7155244595"
 ---
 
 # Record 1720 · AdaExplore-Failure-Driven-Adaptation-and-Diversity-Preserving-Search-f
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

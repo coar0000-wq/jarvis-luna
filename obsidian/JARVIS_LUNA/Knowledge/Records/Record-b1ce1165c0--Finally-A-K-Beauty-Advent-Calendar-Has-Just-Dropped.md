@@ -2,8 +2,12 @@
 title: "Record b1ce1165c0 · Finally-A-K-Beauty-Advent-Calendar-Has-Just-Dropped-And-Its-Already-Se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.431546+00:00
+updated_at: 2026-10-11T00:55:34.363520+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWTIyWDNXQl9lUno5TXd3VHp4enF4emNXSjBXRFo3Smh2bVNxQU0xbjVsTzYxTXo2cDlUT1VXWHJkdGxWWTl1N095MFVqNEZ3VnI0SWlQSXV4WlZuV1BTS3FGMkJGWGh6b09GNTg2MkNsMVF3MDlqdGUyajlFeDFyTEtyaFVsUUhzQ01uTzhoWV9lSzFEODkycFRn?oc=5"
 ---
 
 # Record b1ce1165c0 · Finally-A-K-Beauty-Advent-Calendar-Has-Just-Dropped-And-Its-Already-Se
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Finally! A K-Beauty Advent Calendar Has Just Dropped, And It’s Already Selling Fast - Grazia Daily UK
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

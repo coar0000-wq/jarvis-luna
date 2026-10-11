@@ -2,8 +2,12 @@
 title: "Record ee40ff867b · Does-PDRN-Really-Do-Anything"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.741725+00:00
+updated_at: 2026-10-11T00:55:54.683805+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=wrmkqe2rK5g"
 ---
 
 # Record ee40ff867b · Does-PDRN-Really-Do-Anything
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Does PDRN Really Do Anything?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

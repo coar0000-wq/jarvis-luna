@@ -2,8 +2,14 @@
 title: "Record b9406ae170 · Jalapeños-first-results-show-industry-leading-speed-and-efficiency-in-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.644027+00:00
+updated_at: 2026-10-11T00:55:37.554553+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/jalapeno-first-results"
+kind: "발표물"
 ---
 
 # Record b9406ae170 · Jalapeños-first-results-show-industry-leading-speed-and-efficiency-in-
@@ -16,7 +22,3 @@ Jalapeño’s first results show industry-leading speed and efficiency in AI inf
 Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

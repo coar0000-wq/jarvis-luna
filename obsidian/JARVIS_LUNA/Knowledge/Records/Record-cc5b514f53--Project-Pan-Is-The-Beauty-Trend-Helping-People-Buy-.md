@@ -2,8 +2,12 @@
 title: "Record cc5b514f53 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.193511+00:00
+updated_at: 2026-10-11T00:55:30.121056+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XcW0zNlZXM2VNS0RfVHI2WFhNTXNvYU9nbHdzZ1FLYS1uQUxZZ2txWE9ySHFPYWY1YVdPZnU3YVVodHU3ejRpd3diYmQxaldZbG8yTlh2S2Y4ZGRrQmVialdoYS0?oc=5"
 ---
 
 # Record cc5b514f53 · Project-Pan-Is-The-Beauty-Trend-Helping-People-Buy-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "Project Pan" Is The Beauty Trend Helping People Buy Less In 2026 - Bustle
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

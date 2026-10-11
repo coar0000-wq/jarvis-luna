@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.623929+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41418-025-01621-5"
 ---
 
 # Record 444 · VCAM-1Ezrin-axis-antagonizes-myocardial-damage-in-ischemia-reperfusion
@@ -15,7 +20,3 @@ tags: [record, real-data]
 VCAM-1/Ezrin axis antagonizes myocardial damage in ischemia-reperfusion injury
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

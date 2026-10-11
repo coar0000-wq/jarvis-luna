@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.415618+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-10109396/v1"
 ---
 
 # Record 674 · Interpretable-Kolmogorov-Arnold-Network-Using-Vertical-NAND-Flash-Memo
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Interpretable Kolmogorov-Arnold Network Using Vertical NAND Flash Memory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

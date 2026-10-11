@@ -2,8 +2,12 @@
 title: "Record b232e246ca · Amazon-Skincare-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.989161+00:00
+updated_at: 2026-10-11T00:55:43.171466+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Best-Sellers-Beauty-Skin-Care-Products/zgbs/beauty/11060451"
 ---
 
 # Record b232e246ca · Amazon-Skincare-Best-Sellers
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Amazon Skincare Best Sellers
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.634467+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA81995088"
 ---
 
 # Record 2278 · 2colors-medicube-AGE-R-Booster-Pro
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [2colors] medicube AGE-R Booster Pro · 평점 5 · 리뷰 5
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

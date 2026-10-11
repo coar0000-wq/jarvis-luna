@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.261228+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.ic.2023.105110"
 ---
 
 # Record 223 · Exchange-of-indivisible-goods-under-matroid-constraints
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Exchange of indivisible goods under matroid constraints
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

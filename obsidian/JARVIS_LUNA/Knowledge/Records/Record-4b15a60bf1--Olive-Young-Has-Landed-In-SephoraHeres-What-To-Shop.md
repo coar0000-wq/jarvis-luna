@@ -2,8 +2,12 @@
 title: "Record 4b15a60bf1 · Olive-Young-Has-Landed-In-SephoraHeres-What-To-Shop"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.453734+00:00
+updated_at: 2026-10-11T00:55:34.701837+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNVEZyOUdtMkhXc2oxRl9IM0Q2OU9DYVBIY0VqS1R0VXVKRnI3M3hmT1RUeVZTNnc5UDVOZ0VwWHo1aXZ3dm5nSDNmWXZabnBmVF9Hclg2cjljcTd1WEJwdVhYVUpIZFZ3bXVuRDd2WjNPSXZLRTNTazRKMHExSlNQd05MNmJCZWxZcGpJb1V3RDl0X0FrMjhPM3h0T0xnQQ?oc=5"
 ---
 
 # Record 4b15a60bf1 · Olive-Young-Has-Landed-In-SephoraHeres-What-To-Shop
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young Has Landed In Sephora—Here’s What To Shop According To Your Skin Type - Grazia Singapore
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

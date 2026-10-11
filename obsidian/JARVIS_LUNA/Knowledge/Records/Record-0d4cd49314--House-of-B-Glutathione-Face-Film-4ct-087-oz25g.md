@@ -2,8 +2,12 @@
 title: "Record 0d4cd49314 · House-of-B-Glutathione-Face-Film-4ct-087-oz25g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.788776+00:00
+updated_at: 2026-10-11T00:55:39.929752+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA30363732"
 ---
 
 # Record 0d4cd49314 · House-of-B-Glutathione-Face-Film-4ct-087-oz25g
@@ -16,7 +20,3 @@ House of B Glutathione Face Film 4ct 0.87 oz.(25g)
 House of B Glutathione Face Film 4ct 0.87 oz.(25g) · 평점 4.7 · 리뷰 109
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

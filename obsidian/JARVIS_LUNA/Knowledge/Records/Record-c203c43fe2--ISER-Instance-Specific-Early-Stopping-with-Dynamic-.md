@@ -2,8 +2,14 @@
 title: "Record c203c43fe2 · ISER-Instance-Specific-Early-Stopping-with-Dynamic-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.583689+00:00
+updated_at: 2026-10-11T00:55:21.200426+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.3390/electronics15173807"
+kind: "논문"
 ---
 
 # Record c203c43fe2 · ISER-Instance-Specific-Early-Stopping-with-Dynamic-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ISER: Instance-Specific Early Stopping with Dynamic Low-Rank Adaptation for Learned Image Compression
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

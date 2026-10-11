@@ -2,8 +2,14 @@
 title: "Record 2a73575818 · Thoughts-On-The-Market-Cross-Asset-Strategy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.522886+00:00
+updated_at: 2026-10-11T00:55:50.701740+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Morgan Stanley"
+domain: "www.morganstanley.com"
+url: "https://www.morganstanley.com/ideas/thoughts-on-the-market-cross-asset-strategy"
+kind: "발표물"
 ---
 
 # Record 2a73575818 · Thoughts-On-The-Market-Cross-Asset-Strategy
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Thoughts On The Market Cross Asset Strategy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

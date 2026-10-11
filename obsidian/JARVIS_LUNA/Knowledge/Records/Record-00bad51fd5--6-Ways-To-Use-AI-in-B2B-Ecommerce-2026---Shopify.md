@@ -2,8 +2,12 @@
 title: "Record 00bad51fd5 · 6-Ways-To-Use-AI-in-B2B-Ecommerce-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.168964+00:00
+updated_at: 2026-10-11T00:55:29.691625+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQMlRNUTNoX3hzSWN5UzY3UjdXcmQwTEkwYUQ4XzJwalFpRXV4SnZSNzV6eEFNZFY1a2N2V0FYdnJSSW1udWlvbXowSkdxVlNORlVFU3VWMlFrcE9y?oc=5"
 ---
 
 # Record 00bad51fd5 · 6-Ways-To-Use-AI-in-B2B-Ecommerce-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 6 Ways To Use AI in B2B Ecommerce (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

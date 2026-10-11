@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.304002+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce", "AI-Agents"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWHVsRzJxbGJVTlVBQ3JiWmpSb0NEd3k0V24xa21qTjIwY09hNG00VENUdzZBc2R1VW9PbjBmalRMQWhRUFdUYTJiX29rLURZdGowU2plbGs5Q1FjQnBkZkJjMXlHY2dHbXVKNTF3SzhOWi04R055d2JwLU0xc1JpbllPZ2hIOGt2a0hNdNIBkgFBVV95cUxPcGl5WnRqZV9rdXZDNWxHM054ck4zS1lxYktkM3lYSUVENnJkMk9DVFMwRklMbHJNc0Yxa0hMeWlraGNhVnNZV0tLOEZfZE5xeTFwMmZoc3pJTXI4eTJhUnBpeC1MQk8yWUFLYXgyTzFDTTZUenpuNTdqQkh3WTJpN3piclE2cjdNSy1KbGFkem4tZw?oc=5"
 ---
 
 # Record 540 · 100-Thieves-to-launch-Shopify-enabled-AI-agent-using-Theta-Labs---Bloc
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 100 Thieves to launch Shopify-enabled AI agent using Theta Labs - BlockchainGamerBiz
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[AI-Agents]] [[JARVIS Real Knowledge Index]]

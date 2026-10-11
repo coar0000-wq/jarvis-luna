@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.189160+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/q69CoKFFmrg"
 ---
 
 # Record 897 · 3-Viral-Products-Kids-Would-Go-CRAZY-For
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 3 Viral Products Kids Would Go CRAZY For 🤩
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

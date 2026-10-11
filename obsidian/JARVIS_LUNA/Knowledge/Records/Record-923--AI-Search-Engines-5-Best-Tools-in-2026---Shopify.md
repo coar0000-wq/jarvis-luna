@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.049414+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBqdzVfQ2lOMGtaYVo0amNkNmU2ZXlLQ0NpeHB5SnNobUh5dTdkcy04MGxqMUJCZEFHU2JfWGZKaEQwNlc1UE11T25GVzVJN3hwVFVnNEltTmtQaFpP?oc=5"
 ---
 
 # Record 923 · AI-Search-Engines-5-Best-Tools-in-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Search Engines: 5 Best Tools in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

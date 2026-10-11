@@ -2,8 +2,12 @@
 title: "Record 7fd5587b68 · Degree-Men-UltraClear-Antiperspirant-Deodorant-2-Count-27-oz--For-long"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.043935+00:00
+updated_at: 2026-10-11T00:55:43.842022+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Degree-Men-UltraClear-Antiperspirant-Deodorant/dp/B075JRT85B/ref=zg_bs_g_beauty_d_sccl_33/133-1430941-0942154"
 ---
 
 # Record 7fd5587b68 · Degree-Men-UltraClear-Antiperspirant-Deodorant-2-Count-27-oz--For-long
@@ -16,7 +20,3 @@ Degree Men UltraClear Antiperspirant Deodorant, 2 Count, 2.7 oz | For long days,
 Degree Men UltraClear Antiperspirant Deodorant, 2 Count, 2.7 oz | For long days, provides 72-hour sweat and odor protection with MotionSense Technology. · $7.98 · 평점 4.7 · 리뷰 43,259
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

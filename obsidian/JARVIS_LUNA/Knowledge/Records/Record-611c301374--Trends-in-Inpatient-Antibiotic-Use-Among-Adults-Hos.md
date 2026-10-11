@@ -2,8 +2,14 @@
 title: "Record 611c301374 · Trends-in-Inpatient-Antibiotic-Use-Among-Adults-Hospitalized-During-th"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.400654+00:00
+updated_at: 2026-10-11T00:55:18.076389+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1093/cid/ciad261"
+kind: "논문"
 ---
 
 # Record 611c301374 · Trends-in-Inpatient-Antibiotic-Use-Among-Adults-Hospitalized-During-th
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Trends in Inpatient Antibiotic Use Among Adults Hospitalized During the Coronavirus Disease 2019 Pandemic in Argentina, Brazil, and Chile, 2018–2021
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

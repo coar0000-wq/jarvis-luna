@@ -2,8 +2,12 @@
 title: "Record f097f76f7e · We-Built-a-Shopify-Storefront-AI-Agent-With-Claude-Opus-46---Medium"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.474216+00:00
+updated_at: 2026-10-11T00:55:35.065202+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트", "LLM언어모델"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa2NyWWxXUU9rT0FTdmsxaC1hS1FSWnVHRkVBQ0JuaWRZbXBiZU94c2V1UU9HUHFlcnZMVnZReF9fdFNodjJjcVFkQ203SXR5aGtScFpodFpyRzNpcHZ6dV9ublVaRG1aVEIxZkhwWDJYRVlIXzFpNTNCTl91cXh4QjhzQ1poSk5lRGM0azB1eXBpOERzZUlwa180dnhHSVFUOTRj?oc=5"
 ---
 
 # Record f097f76f7e · We-Built-a-Shopify-Storefront-AI-Agent-With-Claude-Opus-46---Medium
@@ -15,7 +19,3 @@ tags: [record, real-data]
 We Built a Shopify Storefront AI Agent With Claude Opus 4.6. - Medium
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

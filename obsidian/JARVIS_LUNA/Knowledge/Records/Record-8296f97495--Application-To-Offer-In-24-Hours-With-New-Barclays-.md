@@ -2,8 +2,14 @@
 title: "Record 8296f97495 · Application-To-Offer-In-24-Hours-With-New-Barclays-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.422652+00:00
+updated_at: 2026-10-11T00:55:48.769436+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/090/-application-to-offer-in-24-hours-with-new-barclays-fast-track-r/"
+kind: "발표물"
 ---
 
 # Record 8296f97495 · Application-To-Offer-In-24-Hours-With-New-Barclays-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Application To Offer In 24 Hours With New Barclays Fast Track R
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

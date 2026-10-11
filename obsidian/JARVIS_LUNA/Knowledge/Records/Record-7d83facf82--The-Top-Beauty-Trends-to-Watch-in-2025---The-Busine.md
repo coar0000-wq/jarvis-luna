@@ -2,8 +2,12 @@
 title: "Record 7d83facf82 · The-Top-Beauty-Trends-to-Watch-in-2025---The-Busine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.406822+00:00
+updated_at: 2026-10-11T00:55:33.932181+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVW9CbkhlQnpSMVpCd0JiSGJnQ3dwRkJ5ZWJ1MkVUY1U0NHpYX2pabmJRQ3V0Vk4wVzBVdHNoZU1TS1hteW5xR3lXeU1vMmVpLTZtakVxVkM2VXd3NVNnY1UyQlh4anFxT0JIcjVfMjA3TndXN2tSVEkxaUtCRmtBM0ZYR2luR1JRQURnMmFqcVFybVE?oc=5"
 ---
 
 # Record 7d83facf82 · The-Top-Beauty-Trends-to-Watch-in-2025---The-Busine
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Top Beauty Trends to Watch in 2025 - The Business of Fashion
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

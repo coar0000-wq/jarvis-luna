@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T12:13:33.406710+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=SVhDZCEFlcE"
 ---
 
 # Record 690 · 피부과-어디갈지-아직도-고민하시나요
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 피부과 어디갈지 아직도 고민하시나요?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

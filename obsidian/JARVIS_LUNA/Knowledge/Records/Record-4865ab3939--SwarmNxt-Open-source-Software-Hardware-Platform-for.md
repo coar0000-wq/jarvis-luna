@@ -2,8 +2,12 @@
 title: "Record 4865ab3939 · SwarmNxt-Open-source-Software-Hardware-Platform-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.057375+00:00
+updated_at: 2026-10-11T00:55:13.141908+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11382v1"
 ---
 
 # Record 4865ab3939 · SwarmNxt-Open-source-Software-Hardware-Platform-for
@@ -16,7 +20,3 @@ SwarmNxt: Open-source Software-Hardware Platform for Fast and Agile Aerial Swarm
 Aerial robot swarms have the potential to transform time-critical safety, security, and search-and-rescue operations. By coordinating multiple robots, they can rapidly survey disaster sites, map collapsed or GPS-denied environments, and search cluttered areas faster than a single robot, reducing response times and minimizing risks to first responders. Realizing this potential, however, requires ro
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

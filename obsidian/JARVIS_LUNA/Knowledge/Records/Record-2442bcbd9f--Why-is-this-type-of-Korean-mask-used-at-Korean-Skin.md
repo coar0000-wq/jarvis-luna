@@ -2,8 +2,12 @@
 title: "Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.687156+00:00
+updated_at: 2026-10-11T00:55:53.514267+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/3cj4qZJNxGs"
 ---
 
 # Record 2442bcbd9f · Why-is-this-type-of-Korean-mask-used-at-Korean-Skin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why is this type of Korean mask used at Korean Skincare Clinic after the treatments!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

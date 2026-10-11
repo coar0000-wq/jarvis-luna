@@ -2,8 +2,12 @@
 title: "Record 43406e78da · Tracking-the-Unseen-An-Occlusion-Robust-Framework-for-Target-Tracking-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.697646+00:00
+updated_at: 2026-10-11T00:55:23.164403+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["보안프라이버시"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.17427"
 ---
 
 # Record 43406e78da · Tracking-the-Unseen-An-Occlusion-Robust-Framework-for-Target-Tracking-
@@ -16,7 +20,3 @@ Tracking the Unseen: An Occlusion-Robust Framework for Target Tracking Under Ful
 Real-time multi-object tracking systems remain highly vulnerable to full and long-term occlusion, where targets temporarily or completely disappear from the camera's field of view. Conventional trackers may terminate trajectories prematurely, resulting in identity loss and reduced situational awareness in applications such as defense and surveillance. This work proposes an occlusion-robust target
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

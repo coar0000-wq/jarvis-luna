@@ -2,8 +2,12 @@
 title: "Record f0b7dc51b5 · Latent-Twin-Operator"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.870668+00:00
+updated_at: 2026-10-11T00:55:25.355653+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.35531"
 ---
 
 # Record f0b7dc51b5 · Latent-Twin-Operator
@@ -16,7 +20,3 @@ Latent Twin Operator
 Surrogate models deployed on real physical systems rarely see data at fixed resolutions: sensor configurations vary across deployments and may evolve over time as sensing infrastructure changes. We introduce the Latent Twin Operator (LTO), a latent-space surrogate for time-evolving PDEs with a Convolutional Conditional Neural Process (ConvCNP)-style encoder and decoder that accepts a context set o
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

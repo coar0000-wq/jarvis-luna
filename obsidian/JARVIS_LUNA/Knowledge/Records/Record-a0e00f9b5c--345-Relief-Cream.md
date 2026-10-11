@@ -2,8 +2,12 @@
 title: "Record a0e00f9b5c · 345-Relief-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.614793+00:00
+updated_at: 2026-10-11T00:55:52.381949+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/345-relief-cream-pimprod2056740"
 ---
 
 # Record a0e00f9b5c · 345-Relief-Cream
@@ -16,7 +20,3 @@ tags: [record, real-data]
 345 Relief Cream · Dr. Althea · $18.9
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

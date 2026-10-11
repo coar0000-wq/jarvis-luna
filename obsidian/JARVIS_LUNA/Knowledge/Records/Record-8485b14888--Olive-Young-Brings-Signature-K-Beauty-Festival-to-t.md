@@ -2,8 +2,12 @@
 title: "Record 8485b14888 · Olive-Young-Brings-Signature-K-Beauty-Festival-to-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.486127+00:00
+updated_at: 2026-10-11T00:55:35.277420+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "반도체하드웨어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcWx5ZHNIMDl5YU1ETVRpcDE1N2NyQ2xaYzBodlFkUlkzTnFyZEtIWWlqdXdtdkVYYVBxaS1HaDVES002RlJ5eDUtV3BrTmRSaDM4ZjFfRDVjczdJUVJEeF9EcU93S1AzeG5pWHdjckNFN0J6QklxN2wtMTBFSUdXaGN5ZTd4eGlVZmxQLWUtcFZ3WHZTQnVvS3BCU20zWFp5UTA4NWhuRQ?oc=5"
 ---
 
 # Record 8485b14888 · Olive-Young-Brings-Signature-K-Beauty-Festival-to-t
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olive Young Brings Signature K-Beauty Festival to the U.S. - Beauty Packaging
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

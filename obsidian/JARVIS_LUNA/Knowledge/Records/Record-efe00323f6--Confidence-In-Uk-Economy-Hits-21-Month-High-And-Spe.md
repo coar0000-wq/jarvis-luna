@@ -2,8 +2,14 @@
 title: "Record efe00323f6 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.421143+00:00
+updated_at: 2026-10-11T00:55:48.737780+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/080/confidence-in-uk-economy-hits-21-month-high-and-spending-climbs-/"
+kind: "발표물"
 ---
 
 # Record efe00323f6 · Confidence-In-Uk-Economy-Hits-21-Month-High-And-Spe
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Confidence In Uk Economy Hits 21 Month High And Spending Climbs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

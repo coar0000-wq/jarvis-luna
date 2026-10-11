@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.634730+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
 ---
 
 # Record 1889 · Formalizing-Fermats-Last-Theorem
@@ -16,7 +21,3 @@ Formalizing Fermat's Last Theorem
 Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 6d301217bd · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Re"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.428020+00:00
+updated_at: 2026-10-11T00:55:18.589187+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/jssc.2025.3648748"
+kind: "논문"
 ---
 
 # Record 6d301217bd · An-Antenna-to-Bits-F-Band-120-Gbps-CMOS-RF-64QAM-Re
@@ -15,7 +21,3 @@ tags: [record, real-data]
 An Antenna-to-Bits F-Band 120-Gbps CMOS RF-64QAM Receiver
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

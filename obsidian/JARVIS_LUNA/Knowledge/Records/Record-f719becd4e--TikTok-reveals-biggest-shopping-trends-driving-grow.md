@@ -2,8 +2,12 @@
 title: "Record f719becd4e · TikTok-reveals-biggest-shopping-trends-driving-growth-in-beauty---TheI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.418631+00:00
+updated_at: 2026-10-11T00:55:34.126902+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRGNZSXZzbWZMTHhGSlpTZVBSMWw5eXMxRTk2VnJBNW5sWl8wbWo5VGNGZnhhNElCanh3dk8zSFZQbGlYYlltV2VWaTNuT1pvdkR6eDFnR2EyTnNsZE9PSE1OcW5kenVPcVZ2c2hwME9QZVI1NGFkY1VwNFYzRmxLbFdrOXJFUlRta3RXZldJTk9vR1Nzemc?oc=5"
 ---
 
 # Record f719becd4e · TikTok-reveals-biggest-shopping-trends-driving-growth-in-beauty---TheI
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok reveals biggest shopping trends driving growth in beauty - TheIndustry.beauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

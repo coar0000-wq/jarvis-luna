@@ -2,8 +2,12 @@
 title: "Record 8278e8f410 · P3-SAM-SAM-with-Perceptual-Parallel-Prompt-for-Few-Shot-Strip-Steel-Su"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.156829+00:00
+updated_at: 2026-10-11T00:55:14.283311+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.21424"
 ---
 
 # Record 8278e8f410 · P3-SAM-SAM-with-Perceptual-Parallel-Prompt-for-Few-Shot-Strip-Steel-Su
@@ -16,7 +20,3 @@ P$^3$-SAM: SAM with Perceptual Parallel Prompt for Few-Shot Strip Steel Surface 
 Few-shot semantic segmentation (FSS) of strip steel surface defects (S$^3$D) has posed significant challenges distinct from natural scenes. Unlike natural images, S$^3$D task exhibits unique characteristics including low local contrast, uneven illumination, and complex fine-grained texture patterns. Although recent methods based on Segment Anything Model (SAM) have shown promise in FSS on natural
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

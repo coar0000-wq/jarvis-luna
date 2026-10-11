@@ -2,8 +2,14 @@
 title: "Record b44c829b27 · How-Claude-is-uplifting-biomolecular-modeling"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.394535+00:00
+updated_at: 2026-10-11T00:55:48.346170+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "의료바이오", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+kind: "발표물"
 ---
 
 # Record b44c829b27 · How-Claude-is-uplifting-biomolecular-modeling
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Claude Uplifts Biomolecular Modeling
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[의료바이오]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

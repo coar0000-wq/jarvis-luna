@@ -2,8 +2,14 @@
 title: "Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-arc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.310142+00:00
+updated_at: 2026-10-11T00:55:16.400010+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.est.2026.124242"
+kind: "논문"
 ---
 
 # Record bdf990d8ba · Controlling-lithiation-distribution-via-layered-arc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Controlling lithiation distribution via layered architecture for high-performance SiC/graphite anodes
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

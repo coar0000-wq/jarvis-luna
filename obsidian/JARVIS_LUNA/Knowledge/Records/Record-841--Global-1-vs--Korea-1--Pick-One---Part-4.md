@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.929923+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/1lNogShKeEE"
 ---
 
 # Record 841 · Global-1-vs--Korea-1--Pick-One---Part-4
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Global #1 vs 🇰🇷 Korea #1 — Pick One 👀 | Part 4
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

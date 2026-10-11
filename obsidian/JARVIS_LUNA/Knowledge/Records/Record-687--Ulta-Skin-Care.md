@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T04:35:16.533198+00:00
 tags: [knowledge-graph, record]
+source: "us_beauty"
+topics: ["AI-Research"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/shop/skin-care"
 ---
 
 # Record 687 · Ulta-Skin-Care
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Ulta Skin Care
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

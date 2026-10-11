@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.634570+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYWVSMlQtUFRVak5EVDR2TGkxSWJnYVdFX1hZc1NEcmp5T2RXY2I3SmRrRUk0TUlaa0lodE0tSS1FRl96cGdoRzMteERaQ3FROElycXFEM2gxVDdFb2pSeWxSbkh3dVRfMG42N3dVVjU1Z2ZZdUNnRnM0TTE1LW1NQjFaVmZ0ME8tSmkxd3duclBKeVhIdWNPalNUSXhwUFgwVHhpZWRERmdCZw?oc=5"
 ---
 
 # Record 1590 · This-Makeup-Artist-Approved-Lip-Technique-Is-Flooding-Our-TikTok-Feeds
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This Makeup Artist-Approved Lip Technique Is Flooding Our TikTok Feeds - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

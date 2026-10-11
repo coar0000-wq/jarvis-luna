@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.357980+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["물류통관", "인프라클라우드"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05084v1"
 ---
 
 # Record 145 · ToPos-Automated-Optimal-Positioning-on-Topographic-Manifolds-using-Con
@@ -16,7 +20,3 @@ ToPos: Automated Optimal Positioning on Topographic Manifolds using Constrained 
 Reliable autonomous mapping, environmental sampling, last-mile logistics, and infrastructure deployment depend on the optimal surface area-balanced distribution of Spatial Reference Sites (SRS). Conventional 2D Euclidean methods often fail in high-relief environments by neglecting topographic variations and physical obstructions. This leads to significant planimetric distortion, spatial clustering
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[물류통관]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

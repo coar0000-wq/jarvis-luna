@@ -2,8 +2,14 @@
 title: "Record e812485259 · No-plans-have-been-confirmed-regarding-the-reported-talks-between-SK-h"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.610717+00:00
+updated_at: 2026-10-11T00:55:37.037764+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/fact-10/"
+kind: "발표물"
 ---
 
 # Record e812485259 · No-plans-have-been-confirmed-regarding-the-reported-talks-between-SK-h
@@ -16,7 +22,3 @@ No plans have been confirmed regarding the reported talks between SK hynix and I
 ○ This relates to a recent report published on September 16, 2026, titled, “SK Hynix in talks with Intel about deal to make memory chips in the US for the first time, sources say.” The report states that “SK hynix
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

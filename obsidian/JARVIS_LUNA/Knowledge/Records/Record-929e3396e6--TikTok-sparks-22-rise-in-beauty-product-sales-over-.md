@@ -2,8 +2,12 @@
 title: "Record 929e3396e6 · TikTok-sparks-22-rise-in-beauty-product-sales-over-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.118037+00:00
+updated_at: 2026-10-11T00:55:28.808685+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS1BDQmdsV0V4ZkMxbHZfTTJxSnd0ZjFIZzhYVGxwWDlqbVBRTGpxX2ROOVFrd3YtbFNlNGEyRDRBUWVWNFl3SGlPX1lQMFMyRTdvNGFkSkpkdnctd3BLU0oyOTdRUTF1T25vVlpmTHF1LUxzU0tEeTI1THVQaG05NUlydmQxRDE5Vkt0R3JVMmpzUmo2a3d0TV85VzlmZzRRQ2VfTDJkUXBQSEQxVERxaGduMGpsTGZHbGRUSkdrUzlCMFdMX2RZMF9lWTFiajJQS25DTEJwZnFXa1FXZDBQU0ctUXdCZ2J0ZW1scmw0UkhZdw?oc=5"
 ---
 
 # Record 929e3396e6 · TikTok-sparks-22-rise-in-beauty-product-sales-over-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok sparks 22% rise in beauty product sales over social media in 2024 - Euromonitor
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

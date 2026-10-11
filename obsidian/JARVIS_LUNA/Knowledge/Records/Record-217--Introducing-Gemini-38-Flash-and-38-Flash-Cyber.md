@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.433739+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
 ---
 
 # Record 217 · Introducing-Gemini-38-Flash-and-38-Flash-Cyber
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Introducing Gemini 3.8 Flash and 3.8 Flash Cyber
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

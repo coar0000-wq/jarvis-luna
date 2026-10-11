@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:03.604560+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.esmoop.2026.106339"
 ---
 
 # Record 370 · 32eP-Long-term-efficacy-and-safety-of-adjuvant-icotinib-with-or-withou
@@ -15,7 +20,3 @@ tags: [record, real-data]
 32eP Long term efficacy and safety of adjuvant icotinib with or without chemotherapy in EGFR-mutated non-small cell lung cancer: A systematic review and meta-analysis of latest evidence
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

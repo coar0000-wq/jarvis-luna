@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.898676+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["의료바이오"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-products-for-hair-breakage"
 ---
 
 # Record 2256 · 6-Best-Products-for-Hair-Breakage-for-Stronger-Healthier-Looking-Stran
@@ -16,7 +20,3 @@ tags: [record, real-data]
 6 Best Products for Hair Breakage for Stronger, Healthier-Looking Strands
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

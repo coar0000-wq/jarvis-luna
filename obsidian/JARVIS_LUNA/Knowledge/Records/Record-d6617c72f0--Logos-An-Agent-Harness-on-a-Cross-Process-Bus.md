@@ -2,8 +2,12 @@
 title: "Record d6617c72f0 · Logos-An-Agent-Harness-on-a-Cross-Process-Bus"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.911705+00:00
+updated_at: 2026-10-11T00:55:11.317765+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28553v1"
 ---
 
 # Record d6617c72f0 · Logos-An-Agent-Harness-on-a-Cross-Process-Bus
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Logos: An Agent Harness on a Cross-Process Bus
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.868528+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.1108/jsma-02-2025-0057"
 ---
 
 # Record 382 · Successor-selection-and-strategic-performance-in-family-businesses-the
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Successor selection and strategic performance in family businesses: the influence of gender, family ties, education, and experience
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

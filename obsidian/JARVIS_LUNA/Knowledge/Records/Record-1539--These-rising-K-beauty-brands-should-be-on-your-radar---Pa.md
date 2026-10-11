@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.136330+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFB5OTE3UUgzbGlLaDBncTh2Q05NZUlwWnFoZTZPOWFGU0lMQTVoSXphUHJSOGVDZXZ2U1dQaWg1Qi11TlFfeUpqVWthNjBOUUgxTkw0UXhRc2hKLWF6dGxKRE05SEwyUDZaVnNvZkZtM0FCcGhLN01oQjJZd193SDcwMjZYZDZr?oc=5"
 ---
 
 # Record 1539 · These-rising-K-beauty-brands-should-be-on-your-radar---Page-Six
@@ -15,7 +19,3 @@ tags: [record, real-data]
 These rising K-beauty brands should be on your radar - Page Six
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

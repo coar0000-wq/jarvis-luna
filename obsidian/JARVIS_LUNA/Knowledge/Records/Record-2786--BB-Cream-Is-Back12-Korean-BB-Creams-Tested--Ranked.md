@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.731105+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=PcHCz7JksVk"
 ---
 
 # Record 2786 · BB-Cream-Is-Back12-Korean-BB-Creams-Tested--Ranked
@@ -15,7 +19,3 @@ tags: [record, real-data]
 BB Cream Is Back—12 Korean BB Creams Tested & Ranked ✅
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

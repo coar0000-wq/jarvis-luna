@@ -2,8 +2,12 @@
 title: "Record d170782f04 · Cosmetics"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.022780+00:00
+updated_at: 2026-10-11T00:55:27.598341+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "en.wikipedia.org"
+url: "https://en.wikipedia.org/wiki/Cosmetics"
 ---
 
 # Record d170782f04 · Cosmetics
@@ -16,7 +20,3 @@ Cosmetics
 Cosmetics
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

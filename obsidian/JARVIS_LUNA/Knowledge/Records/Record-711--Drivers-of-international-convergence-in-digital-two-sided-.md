@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.464327+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "투자은행금융"]
+org: "Deutsche-Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1371/journal.pone.0342410"
 ---
 
 # Record 711 · Drivers-of-international-convergence-in-digital-two-sided-platform-mar
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Drivers of international convergence in digital two-sided platform markets: The case of dominant business model components in online lending
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

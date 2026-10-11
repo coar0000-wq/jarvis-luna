@@ -2,8 +2,14 @@
 title: "Record 8bc523d75e · Cryptocurrencies-and-CBDC-The-Route-Ahead"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.450202+00:00
+updated_at: 2026-10-11T00:55:19.005276+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.1111/1758-5899.13017"
+kind: "논문"
 ---
 
 # Record 8bc523d75e · Cryptocurrencies-and-CBDC-The-Route-Ahead
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Cryptocurrencies and CBDC: The Route Ahead
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

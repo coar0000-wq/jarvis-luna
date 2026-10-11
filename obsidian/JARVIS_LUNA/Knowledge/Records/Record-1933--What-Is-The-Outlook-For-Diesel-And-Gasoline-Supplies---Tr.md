@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T07:05:25.325505+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman-Sachs"
+domain: "www.goldmansachs.com"
+url: "https://www.goldmansachs.com/pdfs/insights/goldman-sachs-exchanges/what-is-the-outlook-for-diesel-and-gasoline-supplies/transcript.pdf"
 ---
 
 # Record 1933 · What-Is-The-Outlook-For-Diesel-And-Gasoline-Supplies---Transcript
@@ -15,7 +20,3 @@ tags: [record, real-data]
 What Is The Outlook For Diesel And Gasoline Supplies   Transcript
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

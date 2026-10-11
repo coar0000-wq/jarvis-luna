@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.312975+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeFVlNnNZUFVPdkYxMGNFOXRISE1Bc3dHdGNHdE0yWjVzanpoZXJaT2MxTldHSXlwUmIwcl9KeDVRNUVHTE9sbktkd3U5OUpLOFdRalhwaDlHem5nN2hNUW53SWl3Vmtpdm9wVlU0Nkl1VWx4SkljTk9fdW0zc2h0c0hZSnNvVzlsSVV6bWpQUVdXdkhQZUxpWV9GbXZRekM5?oc=5"
 ---
 
 # Record 681 · Hot-beauty-trends-on-TikTok-From-Jelly-Makeup-to-Broccoli-Freckles---H
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Hot beauty trends on TikTok: From ‘Jelly Makeup’ to ‘Broccoli Freckles’ - HOLA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

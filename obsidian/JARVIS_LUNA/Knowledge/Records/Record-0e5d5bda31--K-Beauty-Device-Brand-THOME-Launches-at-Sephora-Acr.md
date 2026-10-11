@@ -2,8 +2,12 @@
 title: "Record 0e5d5bda31 · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Acr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.447539+00:00
+updated_at: 2026-10-11T00:55:34.596110+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcTI5LTV3LVB4MHg0SzJxVjk0V1BqbnY1eWZ2MnMxTXdlY3c5akFzS2x0b0JLMllSODgwYmNLVE9ZS3V4OEpoUGNEZFBUTk1WaG9VWGU2eGxZSlN5cU4zSWhXc0E1ZjNrU2NjOU1mM3I3UUNDWE5Tak4yNWFfek5PTDlTSEdjV3NXMVJxeG1aeFhmNzJoclFlYmFsbw?oc=5"
 ---
 
 # Record 0e5d5bda31 · K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Acr
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-Beauty Device Brand THOME Launches at Sephora Across 580+ U.S. Stores - finance.yahoo.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

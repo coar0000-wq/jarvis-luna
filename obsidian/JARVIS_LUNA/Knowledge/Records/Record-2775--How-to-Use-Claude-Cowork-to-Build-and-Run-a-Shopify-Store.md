@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.728997+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=IQDtl0Dacjo"
 ---
 
 # Record 2775 · How-to-Use-Claude-Cowork-to-Build-and-Run-a-Shopify-Store
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How to Use Claude Cowork to Build and Run a Shopify Store
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

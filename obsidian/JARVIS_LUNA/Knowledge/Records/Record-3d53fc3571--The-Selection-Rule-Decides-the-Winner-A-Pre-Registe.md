@@ -2,8 +2,12 @@
 title: "Record 3d53fc3571 · The-Selection-Rule-Decides-the-Winner-A-Pre-Registered-Audit-of-Open-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.217085+00:00
+updated_at: 2026-10-11T00:55:15.081939+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.33370"
 ---
 
 # Record 3d53fc3571 · The-Selection-Rule-Decides-the-Winner-A-Pre-Registered-Audit-of-Open-S
@@ -16,7 +20,3 @@ The Selection Rule Decides the Winner: A Pre-Registered Audit of Open-Set Graph 
 Open-set graph anomaly detection trains on a few labeled anomalies from one class and must also find anomaly classes that were never labeled. Published results share three conventions: the test score is read at the best epoch on the test set, baseline numbers are copied from earlier papers, and most anomalies are minority classes relabeled as anomalous. We ask how much of the reported ranking thes
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

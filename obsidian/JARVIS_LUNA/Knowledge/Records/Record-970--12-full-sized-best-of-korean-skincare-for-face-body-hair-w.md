@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.199813+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=hEVrSm-Also"
 ---
 
 # Record 970 · 12-full-sized-best-of-korean-skincare-for-face-body-hair-with-63-disco
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 12 full sized best of korean skincare for face body hair with 63% discount, free global shipping!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

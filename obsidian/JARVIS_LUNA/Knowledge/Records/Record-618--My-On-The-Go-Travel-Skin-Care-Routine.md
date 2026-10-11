@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.086293+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=P5mJOa_AAHs"
 ---
 
 # Record 618 · My-On-The-Go-Travel-Skin-Care-Routine
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 My On-The-Go Travel Skin Care Routine ✨
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

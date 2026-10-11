@@ -2,8 +2,14 @@
 title: "Record 819a1c39a1 · Mixed-Marriages-in-Indonesia-and-Citizenship-Issues-a-Call-for-Dual-Ci"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.992419+00:00
+updated_at: 2026-10-11T00:55:27.136467+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Deutsche Bank"
+domain: "doi.org"
+url: "https://doi.org/10.61394/jihtb.v9i1.348"
+kind: "논문"
 ---
 
 # Record 819a1c39a1 · Mixed-Marriages-in-Indonesia-and-Citizenship-Issues-a-Call-for-Dual-Ci
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Mixed Marriages in Indonesia and Citizenship Issues: a Call for Dual Citizenship Reform For Children From Mixed Marriages
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

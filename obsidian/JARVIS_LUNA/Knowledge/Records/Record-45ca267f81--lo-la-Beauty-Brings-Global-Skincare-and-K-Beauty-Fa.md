@@ -2,8 +2,12 @@
 title: "Record 45ca267f81 · lo-la-Beauty-Brings-Global-Skincare-and-K-Beauty-Favorites-to-Egyptian"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.537607+00:00
+updated_at: 2026-10-11T00:55:36.184010+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeDdtMjNWcTRHeVFBM3ljQXc5ODlBanRnV19PaERHZWpUWG15QlUyU2psQnd6OVRyME9yNWhyaEV2eXJ5aU5OYVBzNmdIcGlzY2NVYzlucnNING1zY1JzZUJfeGtlZFp4SkNrN0NPSFdzWExaTVJQWmxLdGVqR1kyVVdHQVVUY2dUbDhOUF8yZG9JMF94YVhSLVlUcVdjc1Z3aHloeG5adWM4R0NnOGEtdS1KQ0VValZUdUU0cjdCcVA?oc=5"
 ---
 
 # Record 45ca267f81 · lo-la-Beauty-Brings-Global-Skincare-and-K-Beauty-Favorites-to-Egyptian
@@ -15,7 +19,3 @@ tags: [record, real-data]
 lo la Beauty Brings Global Skincare and K-Beauty Favorites to Egyptian Shoppers - egyptian-gazette.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record d7fe79c08f · ModelLens-Finding-the-Best-for-Your-Task-from-Myriads-of-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.630339+00:00
+updated_at: 2026-10-11T00:55:22.075293+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2605.07075"
+kind: "논문"
 ---
 
 # Record d7fe79c08f · ModelLens-Finding-the-Best-for-Your-Task-from-Myriads-of-Models
@@ -15,7 +21,3 @@ tags: [record, real-data]
 ModelLens: Finding the Best for Your Task from Myriads of Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

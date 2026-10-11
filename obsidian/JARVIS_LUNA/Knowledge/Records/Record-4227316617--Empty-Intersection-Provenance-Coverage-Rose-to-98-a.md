@@ -2,8 +2,12 @@
 title: "Record 4227316617 · Empty-Intersection-Provenance-Coverage-Rose-to-98-and-Neither-Verifica"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.828613+00:00
+updated_at: 2026-10-11T00:55:24.777461+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["인프라클라우드"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.30308"
 ---
 
 # Record 4227316617 · Empty-Intersection-Provenance-Coverage-Rose-to-98-and-Neither-Verifica
@@ -16,7 +20,3 @@ Empty Intersection: Provenance Coverage Rose to 98% and Neither Verification Dec
 Two structural defenses for provenance, a grade on every row, so that a verification routine cannot mistake the system's own output for an observation, and a single write ingress, so that the grade is enforced rather than merely conventional, were measured against the production deployment that motivated them, over a frozen snapshot of 194,620 rows and the two verification decisions the snapshot s
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.814883+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["이커머스Shopify", "물류통관"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=nEPNmf3iu-k"
 ---
 
 # Record 2832 · Join-CJdropshipping-Discord-to-see-New-Trending--Winning-products-in-r
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Join CJdropshipping Discord to see New, Trending & Winning products in real time.
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[이커머스Shopify]] [[물류통관]] [[JARVIS Real Knowledge Index]]

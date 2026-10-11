@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.119107+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=oSWpFwcybTw"
 ---
 
 # Record 2338 · 6월-올영-세일-품절-전-사야하는-올리브영-추천템-여름-스킨케어-추천템과-건강한-간식까지
@@ -15,7 +19,3 @@ tags: [record, real-data]
 6월 올영 세일🔥 품절 전 사야하는 올리브영 추천템🛍️ 여름 스킨케어 추천템과 건강한 간식까지!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

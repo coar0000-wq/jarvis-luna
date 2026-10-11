@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.155766+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "openalex.org"
+url: "https://openalex.org/W7164701415"
 ---
 
 # Record 1775 · ITME-Inference-Tiered-Memory-Expansion-with-Disaggregated-CXL-Hybrid-M
@@ -15,7 +20,3 @@ tags: [record, real-data]
 ITME: Inference Tiered Memory Expansion with Disaggregated CXL-Hybrid Memories
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

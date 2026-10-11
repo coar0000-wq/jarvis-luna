@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T17:23:28.768777+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "Mistral-AI"
+domain: "openalex.org"
+url: "https://openalex.org/W7128745336"
 ---
 
 # Record 1704 · Data-Repetition-Beats-Data-Scaling-in-Long-CoT-Supervised-Fine-Tuning
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Data Repetition Beats Data Scaling in Long-CoT Supervised Fine-Tuning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

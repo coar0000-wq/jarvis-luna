@@ -2,8 +2,14 @@
 title: "Record 3355d44172 · Grok-Build-on-web-and-mobile"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.746837+00:00
+updated_at: 2026-10-11T00:55:54.805436+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-build-for-everyone"
+kind: "발표물"
 ---
 
 # Record 3355d44172 · Grok-Build-on-web-and-mobile
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Grok Build For Everyone
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

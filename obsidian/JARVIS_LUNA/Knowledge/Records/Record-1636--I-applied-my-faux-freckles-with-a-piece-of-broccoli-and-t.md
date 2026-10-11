@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.934331+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYWhmRHNyTUQ3TVBkNHNrbEFRNWdydU5GU2tRa3lmdXU2VndfZWxpVXpEdVg1Z3J1dzF6NFNkOE10Z3lSbkJKMGlwLUxpYkN5RTZYMEVndWF4a0wwbzNMNl9NOUd0LVN3Yk93VS1zdWVPMjg4bU92UVNxVHFEWFROM3NzMk82MFd6VUdzRXdvXzNBVWNUY2NiWE5RUFF5MEpUWmcySTJSZTB5UFVfekdv?oc=5"
 ---
 
 # Record 1636 · I-applied-my-faux-freckles-with-a-piece-of-broccoli-and-the-results-we
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "I applied my faux freckles with a piece of broccoli and the results were interesting, to say the least" - cosmopolitan.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

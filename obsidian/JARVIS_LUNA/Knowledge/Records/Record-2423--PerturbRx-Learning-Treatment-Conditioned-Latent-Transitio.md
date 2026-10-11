@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:26.144236+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "의료바이오"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.21349v1"
 ---
 
 # Record 2423 · PerturbRx-Learning-Treatment-Conditioned-Latent-Transitions-for-Patien
@@ -16,7 +20,3 @@ PerturbRx: Learning Treatment-Conditioned Latent Transitions for Patient Drug Re
 Scarce data and tumor heterogeneity limit patient-level cancer treatment-response prediction. Existing approaches predict response from pretreatment molecular profiles and drug representations, without explicitly modeling the molecular changes expected under treatment. We propose PerturbRx, a treatment-conditioned representation learning framework that learns intervention-induced latent transitions and uses them as patient-drug response features. PerturbRx trains a drug- and dose-conditioned transition predictor from context-matched but cell-unpaired control and treated single-cell populations, then freezes and transfers the predictor to pretreatment patient profiles without requiring post-treatment measurements. The transition is combined with patient and drug representations to predict response. Across TCGA and patient-derived xenograft benchmarks, PerturbRx achieves the strongest aggregate predictive performance among the evaluated methods. These results support perturbation-pretrained latent transitions as useful representations for patient-level drug-response prediction.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

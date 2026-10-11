@@ -2,8 +2,14 @@
 title: "Record 89e2ff90da · Cryptosporidium-PI4K-inhibitor-EDI048-is-a-gut-restricted-parasiticida"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.363446+00:00
+updated_at: 2026-10-11T00:55:17.413508+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "CACI International"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41564-024-01810-x"
+kind: "논문"
 ---
 
 # Record 89e2ff90da · Cryptosporidium-PI4K-inhibitor-EDI048-is-a-gut-restricted-parasiticida
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Cryptosporidium PI(4)K inhibitor EDI048 is a gut-restricted parasiticidal agent to treat paediatric enteric cryptosporidiosis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

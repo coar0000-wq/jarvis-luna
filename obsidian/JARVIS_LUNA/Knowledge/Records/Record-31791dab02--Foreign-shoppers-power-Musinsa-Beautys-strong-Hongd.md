@@ -2,8 +2,12 @@
 title: "Record 31791dab02 · Foreign-shoppers-power-Musinsa-Beautys-strong-Hongd"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.130037+00:00
+updated_at: 2026-10-11T00:55:29.048855+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VS3VTYjJWOURCakFXVExmTzlrandNdktEUm5IemxDNkVRdGlxWTh0ZVozSzc4Q1d1dXB1UUxsVDdqdWwxbmlNbkprLVVOVUNXeWJkWGZjNA?oc=5"
 ---
 
 # Record 31791dab02 · Foreign-shoppers-power-Musinsa-Beautys-strong-Hongd
@@ -16,7 +20,3 @@ Foreign shoppers power Musinsa Beauty’s strong Hongdae debut - The Korea Heral
 Foreign shoppers power Musinsa Beauty’s strong Hongdae debut - The Korea Herald
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

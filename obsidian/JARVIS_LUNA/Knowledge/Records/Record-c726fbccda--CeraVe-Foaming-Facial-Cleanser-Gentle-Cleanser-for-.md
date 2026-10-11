@@ -2,8 +2,12 @@
 title: "Record c726fbccda · CeraVe-Foaming-Facial-Cleanser-Gentle-Cleanser-for-Oily-Skin-16fl-oz--"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.006781+00:00
+updated_at: 2026-10-11T00:55:43.382283+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/CeraVe-Foaming-Facial-Cleanser-Face/dp/B01N1LL62W/ref=zg_bs_g_beauty_d_sccl_35/133-1430941-0942154"
 ---
 
 # Record c726fbccda · CeraVe-Foaming-Facial-Cleanser-Gentle-Cleanser-for-Oily-Skin-16fl-oz--
@@ -16,7 +20,3 @@ CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz | Skin Ca
 CeraVe Foaming Facial Cleanser, Gentle Cleanser for Oily Skin, 16fl oz | Skin Care with Hyaluronic Acid & Niacinamide, Makeup Remover, Daily Face Wash For Men & Women, Fragrance Free, Oil Control · $14.24 · 평점 4.8 · 리뷰 105,444
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

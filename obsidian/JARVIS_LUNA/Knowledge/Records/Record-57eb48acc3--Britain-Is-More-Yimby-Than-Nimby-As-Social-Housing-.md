@@ -2,8 +2,14 @@
 title: "Record 57eb48acc3 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.420838+00:00
+updated_at: 2026-10-11T00:55:48.730510+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "www.barclayscorporate.com"
+url: "https://www.barclayscorporate.com/news/press-releases/20260/080/britain-is-more-yimby-than-nimby--as-social-housing-tops-consume/"
+kind: "발표물"
 ---
 
 # Record 57eb48acc3 · Britain-Is-More-Yimby-Than-Nimby-As-Social-Housing-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Britain Is More Yimby Than Nimby As Social Housing Tops Consume
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

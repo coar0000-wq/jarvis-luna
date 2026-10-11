@@ -2,8 +2,14 @@
 title: "Record 5b8d3a56b0 · НАУЧНЫЙ-ТЕКСТ-АКАДЕМИЧЕСКОЕ-ПИСЬМО-И-НАУЧНЫЙ-ДИСКУРС-ЛИНГВИСТИЧЕСКАЯ-И"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.016087+00:00
+updated_at: 2026-10-11T00:55:27.518891+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.70728/human.v02.i04.009"
+kind: "논문"
 ---
 
 # Record 5b8d3a56b0 · НАУЧНЫЙ-ТЕКСТ-АКАДЕМИЧЕСКОЕ-ПИСЬМО-И-НАУЧНЫЙ-ДИСКУРС-ЛИНГВИСТИЧЕСКАЯ-И
@@ -15,7 +21,3 @@ tags: [record, real-data]
 НАУЧНЫЙ ТЕКСТ, АКАДЕМИЧЕСКОЕ ПИСЬМО И НАУЧНЫЙ ДИСКУРС: ЛИНГВИСТИЧЕСКАЯ ИНТЕРПРЕТАЦИЯ И ПОНЯТИЙНЫЕ ГРАНИЦЫ
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

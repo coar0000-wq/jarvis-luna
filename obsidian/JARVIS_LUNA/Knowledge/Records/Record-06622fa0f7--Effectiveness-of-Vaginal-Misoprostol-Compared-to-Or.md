@@ -2,8 +2,14 @@
 title: "Record 06622fa0f7 · Effectiveness-of-Vaginal-Misoprostol-Compared-to-Or"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.595527+00:00
+updated_at: 2026-10-11T00:55:21.406678+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.36348/sijog.2026.v09i08.001"
+kind: "논문"
 ---
 
 # Record 06622fa0f7 · Effectiveness-of-Vaginal-Misoprostol-Compared-to-Or
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Effectiveness of Vaginal Misoprostol Compared to Oral Misoprostol in the Medical Management of Missed Abortion During First Trimester of Pregnancy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

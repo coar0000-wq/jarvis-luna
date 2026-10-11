@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.871955+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "컴퓨터-비전", "투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "openalex.org"
+url: "https://openalex.org/W7202230724"
 ---
 
 # Record 2138 · Confidence-Estimation-for-Financial-Vision-Language-Models-in-Chart-an
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Confidence Estimation for Financial Vision-Language Models in Chart and Document Understanding
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

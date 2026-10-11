@@ -2,8 +2,12 @@
 title: "Record c9b1f8f29f · 올영세일X레이어랩-오늘이-마지막-완전히-달라진-레이어랩-초고보습-D판테놀-크림--어떻게-더-개선됐는지-철저-분석해-드릴게요"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.738445+00:00
+updated_at: 2026-10-11T00:55:54.631562+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["데이터분석"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qCBiHAs13is"
 ---
 
 # Record c9b1f8f29f · 올영세일X레이어랩-오늘이-마지막-완전히-달라진-레이어랩-초고보습-D판테놀-크림--어떻게-더-개선됐는지-철저-분석해-드릴게요
@@ -15,7 +19,3 @@ tags: [record, real-data]
 💙 올영세일X레이어랩 오늘이 마지막 💙❗️완전히 달라진 레이어랩 초고보습 D판테놀 크림 ❗️ 어떻게 더 개선됐는지 철저 분석해 드릴게요.
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.549987+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.3847/2041-8213/ae9c3e"
 ---
 
 # Record 689 · Constraining-Scattering-Medium-Geometry-with-Cyclic-Spectroscopy
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Constraining Scattering Medium Geometry with Cyclic Spectroscopy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

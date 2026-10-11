@@ -2,8 +2,14 @@
 title: "Record 4e5901ed44 · Electron-Mass-from-10-Dimensional-Geometric-Coupling-A-Prediction-from"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.920577+00:00
+updated_at: 2026-10-11T00:55:25.948069+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral AI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.18135479"
+kind: "논문"
 ---
 
 # Record 4e5901ed44 · Electron-Mass-from-10-Dimensional-Geometric-Coupling-A-Prediction-from
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Electron Mass from 10-Dimensional Geometric Coupling: A Prediction from the 5+5+1 Unified Framework
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

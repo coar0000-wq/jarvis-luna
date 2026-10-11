@@ -2,8 +2,12 @@
 title: "Record 9bf1e47a49 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.356910+00:00
+updated_at: 2026-10-11T00:55:33.046928+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbGhoVC1BLVZCV2huakJIMDRCZ0FfWXhyem1HNnczMVhvcWtCZm4tV1Y5WU9VVnVTQUJQVHY2UDlHdHVxcmtKS0s0TXV2eHE0d01EYnlzYnB4NjI0N1ZFam8xRkZ3YWE4alBvdGVQNG9NRlBlQ19vT1dqa0ZvV2Y5SnM1NVVHZTQ?oc=5"
 ---
 
 # Record 9bf1e47a49 · The-Big-Makeup-Trends-That-Matter-In-2026And-Those-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Big Makeup Trends That Matter In 2026—And Those That Don’t - Beauty Independent
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 4e240af39c · How-GLP-1-Weight-Loss-Drugs-Moved-Beyond-the-Doctor"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.926732+00:00
+updated_at: 2026-10-11T00:55:42.358011+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/glp-1-gray-market-telehealth-med-spas-compounding-pharmacies"
 ---
 
 # Record 4e240af39c · How-GLP-1-Weight-Loss-Drugs-Moved-Beyond-the-Doctor
@@ -16,7 +20,3 @@ How GLP-1 Weight Loss Drugs Left the Doctor’s Office
 How GLP-1 Weight Loss Drugs Left the Doctor’s Office
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

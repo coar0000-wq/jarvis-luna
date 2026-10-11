@@ -2,8 +2,12 @@
 title: "Record 9113559ead · 8colors-espoir-The-Brow-Balance-Pencil-003-oz01g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.798400+00:00
+updated_at: 2026-10-11T00:55:40.110004+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA38457497"
 ---
 
 # Record 9113559ead · 8colors-espoir-The-Brow-Balance-Pencil-003-oz01g
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [8colors] espoir The Brow Balance Pencil 0.03 oz.(0.1g)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record bd0b7aebbc · Review-on-Resistive-Termination-Techniques-Driven-by-Wireline-Channel-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.440920+00:00
+updated_at: 2026-10-11T00:55:18.823992+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/ojsscs.2024.3503546"
+kind: "논문"
 ---
 
 # Record bd0b7aebbc · Review-on-Resistive-Termination-Techniques-Driven-by-Wireline-Channel-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Review on Resistive Termination Techniques Driven by Wireline Channel Behaviors
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

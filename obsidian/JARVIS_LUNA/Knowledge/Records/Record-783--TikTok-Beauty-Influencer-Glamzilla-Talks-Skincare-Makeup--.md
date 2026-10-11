@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.319982+00:00
 tags: [{', '.join(tags)}]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdllGLW1WdkVheWJrbjlFdnEwcDBLYzRjMU5qX256cnNQcnFxclhLcm9lX1o4SU9hN0FMcVB5QXh2TGRNNmhDTW1mZG83VnAxX09FMlU0cU5VS3ZOMXJsQXhqck5mQTY1T3NhVlgxTGk2b2Rtd3hVY29hVVZiX2dnMVNCMDd1RTlTY3ViSmdReEFOMmNtRDBIUHY1T2pSUl9FbnlkTTF6Z2I5Y24zb0VTcnA3dFVQUQ?oc=5"
 ---
 
 # Record 783 · TikTok-Beauty-Influencer-Glamzilla-Talks-Skincare-Makeup--Wellness-Tre
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 TikTok Beauty Influencer Glamzilla Talks Skincare, Makeup & Wellness Trends for 2023 - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record c1c8b2626a · Analog-optical-computer-for-AI-inference-and-combin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.364374+00:00
+updated_at: 2026-10-11T00:55:17.427316+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41586-025-09430-z"
+kind: "논문"
 ---
 
 # Record c1c8b2626a · Analog-optical-computer-for-AI-inference-and-combin
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Analog optical computer for AI inference and combinatorial optimization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

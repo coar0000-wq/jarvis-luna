@@ -2,8 +2,12 @@
 title: "Record 09f0bcc910 · Goodal-Green-Tangerine-Vita-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.947503+00:00
+updated_at: 2026-10-11T00:55:42.664052+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com"
 ---
 
 # Record 09f0bcc910 · Goodal-Green-Tangerine-Vita-C-Serum
@@ -16,7 +20,3 @@ Goodal Green Tangerine Vita C Serum
 Goodal Green Tangerine Vita C Serum · $19.0
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

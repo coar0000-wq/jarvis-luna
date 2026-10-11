@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.485509+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["소셜콘텐츠"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/5u5xANNqYxQ"
 ---
 
 # Record 2352 · The-secret-to-content-that-works-for-you-forever
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The secret to content that works for you forever
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

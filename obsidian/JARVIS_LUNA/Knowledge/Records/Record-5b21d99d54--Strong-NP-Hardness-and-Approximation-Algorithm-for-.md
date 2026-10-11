@@ -2,8 +2,12 @@
 title: "Record 5b21d99d54 · Strong-NP-Hardness-and-Approximation-Algorithm-for-Weighted-Tardiness-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.191376+00:00
+updated_at: 2026-10-11T00:55:14.761761+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.28751"
 ---
 
 # Record 5b21d99d54 · Strong-NP-Hardness-and-Approximation-Algorithm-for-Weighted-Tardiness-
@@ -16,7 +20,3 @@ Strong NP-Hardness and Approximation Algorithm for Weighted Tardiness with Relea
 We study nonpreemptive scheduling on a single machine with release dates, due dates, positive job weights, and a common processing time. The objective is to minimize total weighted tardiness. Although closely related equal-processing-time problems admit polynomial-time algorithms, the complexity of this problem has remained open in the literature since 2010. We prove that its decision version is s
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.973552+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/090/barclays-launches-isa-and-life-insurance-reward-offers-worth-up-/"
 ---
 
 # Record 967 · Barclays-launches-ISA-and-Life-Insurance-reward-offers-worth-up-to-750
@@ -16,7 +21,3 @@ Barclays launches ISA and Life Insurance reward offers worth up to £750 | Barcl
 Eligible customers can receive up to £600 through the cash ISA transfer reward offer and up to £150 through the life insurance reward offer.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

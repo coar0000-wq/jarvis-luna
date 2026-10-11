@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.422528+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2aHRscWZyZ3Y5eEVaUkVwMDUwY0Q2NmlFcWd0R3hETFZiVTd5NExCQVhmM1F1RWxqaWxRaFFFMVozU2NadGxGN3NvRTg4X0NrS3NmYg?oc=5"
 ---
 
 # Record 892 · Gentle-allure-how-the-internet-is-adopting-the-demure-beauty-trend---R
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Gentle allure: how the internet is adopting the ‘demure’ beauty trend - RUSSH
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

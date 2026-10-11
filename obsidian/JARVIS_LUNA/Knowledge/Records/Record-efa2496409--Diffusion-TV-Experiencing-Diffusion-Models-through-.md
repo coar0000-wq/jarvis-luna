@@ -2,8 +2,12 @@
 title: "Record efa2496409 · Diffusion-TV-Experiencing-Diffusion-Models-through-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.981066+00:00
+updated_at: 2026-10-11T00:55:12.231737+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "로보틱스"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05404v1"
 ---
 
 # Record efa2496409 · Diffusion-TV-Experiencing-Diffusion-Models-through-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

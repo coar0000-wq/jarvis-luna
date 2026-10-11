@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.781744+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["머신러닝-연구", "과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28447v1"
 ---
 
 # Record 008 · Learning-to-Use-Tools-Reinforcement-Learning-for-Tool-Integrated-Mathe
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Learning to Use Tools: Reinforcement Learning for Tool-Integrated Mathematical Reasoning
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[머신러닝-연구]] [[과학수학]] [[JARVIS Real Knowledge Index]]

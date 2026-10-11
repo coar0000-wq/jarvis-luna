@@ -2,8 +2,14 @@
 title: "Record 4e56c73123 · Ringgs-AI-agents-resolve-up-to-65-of-customer-calls-with-OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.652526+00:00
+updated_at: 2026-10-11T00:55:37.675123+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "LLM언어모델", "음성오디오"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/ringg"
+kind: "발표물"
 ---
 
 # Record 4e56c73123 · Ringgs-AI-agents-resolve-up-to-65-of-customer-calls-with-OpenAI
@@ -16,7 +22,3 @@ Ringg’s AI agents resolve up to 65% of customer calls with OpenAI
 Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[LLM언어모델]] [[음성오디오]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

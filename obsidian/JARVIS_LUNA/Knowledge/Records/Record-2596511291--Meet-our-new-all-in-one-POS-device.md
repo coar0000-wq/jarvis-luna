@@ -2,8 +2,12 @@
 title: "Record 2596511291 · Meet-our-new-all-in-one-POS-device"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.762678+00:00
+updated_at: 2026-10-11T00:55:55.001076+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/U5ULiaf4H1E"
 ---
 
 # Record 2596511291 · Meet-our-new-all-in-one-POS-device
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Meet our new all-in-one POS device
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

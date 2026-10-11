@@ -2,8 +2,12 @@
 title: "Record 3654fe1dd0 · Your-Search-Results-Are-Getting-Sloptimized---The-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.376484+00:00
+updated_at: 2026-10-11T00:55:33.365786+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWTkxNDFjWkl0VDA0WjR0d1F2WXdmRnhEbTVoOVNwWkd4cXVVT0Z3alBHczZWblkzREdtVlA5ZlM4djlvT3I4MWxsbVliMlhsSEptN083bm9QMk9xTzU2eVVlT0R5bzQxV1dMQXpGQ1ZJc0l4bERaQm1MczJfcTU1dm0yWEI4cGF5Y084SQ?oc=5"
 ---
 
 # Record 3654fe1dd0 · Your-Search-Results-Are-Getting-Sloptimized---The-A
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Your Search Results Are Getting Sloptimized - The Atlantic
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

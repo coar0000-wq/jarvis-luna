@@ -2,8 +2,12 @@
 title: "Record 5650881c25 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopif"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.156065+00:00
+updated_at: 2026-10-11T00:55:29.450981+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5"
 ---
 
 # Record 5650881c25 · AI-Business-Ideas-15-Ways-to-Start-in-2026---Shopif
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Business Ideas: 15 Ways to Start in 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.516846+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "home.barclays"
+url: "https://home.barclays/news/press-releases/20260/070/lynne-burns-appointed-barclays-group-human-resources-director/"
 ---
 
 # Record 1001 · Lynne-Burns-Appointed-Barclays-Group-Human-Resources-Director
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Lynne Burns Appointed Barclays Group Human Resources Director
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

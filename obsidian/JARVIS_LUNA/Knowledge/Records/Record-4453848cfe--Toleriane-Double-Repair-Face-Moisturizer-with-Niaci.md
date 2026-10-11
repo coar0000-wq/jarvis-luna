@@ -2,8 +2,12 @@
 title: "Record 4453848cfe · Toleriane-Double-Repair-Face-Moisturizer-with-Niacinamide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.659410+00:00
+updated_at: 2026-10-11T00:55:53.117711+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007"
 ---
 
 # Record 4453848cfe · Toleriane-Double-Repair-Face-Moisturizer-with-Niacinamide
@@ -16,7 +20,3 @@ Toleriane Double Repair Face Moisturizer with Niacinamide
 Toleriane Double Repair Face Moisturizer with Niacinamide · La Roche-Posay · $9.74
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

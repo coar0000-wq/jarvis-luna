@@ -2,8 +2,12 @@
 title: "Record d8082eec60 · THOME-The-Glow-Signature"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.832693+00:00
+updated_at: 2026-10-11T00:55:40.733368+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA66893538"
 ---
 
 # Record d8082eec60 · THOME-The-Glow-Signature
@@ -16,7 +20,3 @@ THOME The Glow Signature
 THOME The Glow Signature · 평점 4.7 · 리뷰 26
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

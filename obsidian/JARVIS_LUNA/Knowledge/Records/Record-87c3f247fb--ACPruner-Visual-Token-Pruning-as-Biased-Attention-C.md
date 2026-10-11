@@ -2,8 +2,12 @@
 title: "Record 87c3f247fb · ACPruner-Visual-Token-Pruning-as-Biased-Attention-Coverage-Maximizatio"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.862408+00:00
+updated_at: 2026-10-11T00:55:25.251707+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "컴퓨터-비전"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.34558"
 ---
 
 # Record 87c3f247fb · ACPruner-Visual-Token-Pruning-as-Biased-Attention-Coverage-Maximizatio
@@ -16,7 +20,3 @@ ACPruner: Visual Token Pruning as Biased Attention Coverage Maximization in LVLM
 Large Vision-Language Models (LVLMs) face significant computational inefficiencies caused by the large number of visual tokens. Existing visual token pruning methods mainly focus on either retaining individually important tokens or selecting mutually diverse ones. In this work, we revisit visual token pruning from a coverage perspective and formulate it as a biased attention coverage maximization
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

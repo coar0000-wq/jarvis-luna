@@ -2,8 +2,14 @@
 title: "Record 35071af2a4 · Stress-Testing-GACE-1--A-Synthetic-Scenario-Study-of-Robustness-and-Bo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.550638+00:00
+updated_at: 2026-10-11T00:55:20.629059+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Goldman Sachs"
+domain: "doi.org"
+url: "https://doi.org/10.2139/ssrn.7317281"
+kind: "논문"
 ---
 
 # Record 35071af2a4 · Stress-Testing-GACE-1--A-Synthetic-Scenario-Study-of-Robustness-and-Bo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Stress-Testing G.A.C.E. 1 : A Synthetic Scenario Study of Robustness and Boundary Conditions
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Goldman-Sachs]] [[JARVIS Real Knowledge Index]]

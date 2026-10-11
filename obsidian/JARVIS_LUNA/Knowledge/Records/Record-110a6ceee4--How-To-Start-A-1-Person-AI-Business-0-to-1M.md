@@ -2,8 +2,12 @@
 title: "Record 110a6ceee4 · How-To-Start-A-1-Person-AI-Business-0-to-1M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.740600+00:00
+updated_at: 2026-10-11T00:55:54.668992+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["경영전략"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=ujaqG-LnoSE"
 ---
 
 # Record 110a6ceee4 · How-To-Start-A-1-Person-AI-Business-0-to-1M
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How To Start A 1-Person AI Business ($0 to $1M)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[경영전략]] [[JARVIS Real Knowledge Index]]

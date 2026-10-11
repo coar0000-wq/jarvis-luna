@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.961532+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/ECXMzwZjd_I"
 ---
 
 # Record 2293 · 올영에서-사고싶은거-매일-하나씩-써보기-2일차-올리브영
@@ -15,7 +19,3 @@ tags: [record, real-data]
 올영에서 사고싶은거 매일 하나씩 써보기 2일차 #올리브영
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:26.082662+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어", "의료바이오"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA48192624"
 ---
 
 # Record 2169 · BIOHEAL-BOH-Probioderm-3D-Lifting-Skincare-Set-32-fl-oz95ml
@@ -16,7 +20,3 @@ BIOHEAL BOH Probioderm 3D Lifting Skincare Set 3.2 fl. oz.(95ml)
 BIOHEAL BOH Probioderm 3D Lifting Skincare Set 3.2 fl. oz.(95ml)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[의료바이오]] [[JARVIS Real Knowledge Index]]

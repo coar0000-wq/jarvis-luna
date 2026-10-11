@@ -2,8 +2,12 @@
 title: "Record 1cf7b79774 · Equate-Beauty-Vitamin-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.662718+00:00
+updated_at: 2026-10-11T00:55:53.175801+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com"
 ---
 
 # Record 1cf7b79774 · Equate-Beauty-Vitamin-C-Serum
@@ -16,7 +20,3 @@ Equate Beauty Vitamin C Serum
 Equate Beauty Vitamin C Serum · $7.48
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

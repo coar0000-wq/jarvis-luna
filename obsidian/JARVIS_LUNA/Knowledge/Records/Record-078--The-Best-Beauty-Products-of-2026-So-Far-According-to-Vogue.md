@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.674672+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zZG91NDhGN29HeXlYMzlOUy0xSDYtSXFVbjJnSWRJOWlYNzM4UWVSeVZ1bHBDc2czOTVaWVViLTFBeFVsUTlTdll1VERlVE5Rc25ObXVZdUl5RThLOUE?oc=5"
 ---
 
 # Record 078 · The-Best-Beauty-Products-of-2026-So-Far-According-to-Vogues-Beauty-Tea
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The Best Beauty Products of 2026 So Far, According to Vogue’s Beauty Team - Vogue
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

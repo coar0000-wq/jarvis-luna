@@ -2,8 +2,14 @@
 title: "Record 415f8f1af1 · An-alignment-assessment-of-recent-cybersecurity-inc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.392869+00:00
+updated_at: 2026-10-11T00:55:48.323011+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+kind: "발표물"
 ---
 
 # Record 415f8f1af1 · An-alignment-assessment-of-recent-cybersecurity-inc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Alignment Assessment Cybersecurity Incidents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

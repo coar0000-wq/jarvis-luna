@@ -2,8 +2,14 @@
 title: "Record 7b7d8b867d · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.643765+00:00
+updated_at: 2026-10-11T00:55:22.374430+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.23989"
+kind: "논문"
 ---
 
 # Record 7b7d8b867d · Attributable-by-Construction-Claim-Anchored-Provenance-for-Multi-Docum
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Attributable by Construction: Claim-Anchored Provenance for Multi-Document Summarization
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

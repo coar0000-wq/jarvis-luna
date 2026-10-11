@@ -2,8 +2,14 @@
 title: "Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-w"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.634691+00:00
+updated_at: 2026-10-11T00:55:37.442796+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/gilbert-tobin"
+kind: "발표물"
 ---
 
 # Record 330fba6455 · How-law-firm-Gilbert--Tobin-governs-and-scales-AI-w
@@ -16,7 +22,3 @@ How law firm Gilbert + Tobin governs and scales AI with OpenAI
 See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

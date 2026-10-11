@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:25.815597+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "doi.org"
+url: "https://doi.org/10.1002/adfm.76117"
 ---
 
 # Record 160 · Electrochemical-Metallization-Memristors-From-Bulk-to-2D-Materials
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Electrochemical Metallization Memristors: From Bulk to 2D Materials
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

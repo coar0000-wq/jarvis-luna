@@ -2,8 +2,12 @@
 title: "Record 2a5eff5b8c · Decoding-Beautys-Viral-Vocabulary---The-Voice-of-Fashion"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.400187+00:00
+updated_at: 2026-10-11T00:55:33.804230+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어", "음성오디오"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWEdCcG52RDItX29CVkU2QjJvd1Q0SGcxbmo1ZGtYS2RGcGZzTHE4TV93aldRU0hFS0hUQ0RYWGU3RjVkaW5FNVd5VGhsd081Ul9xYVRhYnBNYnVMTmtROUNmLWtOc2Fyb2xBQThHTDc3SXN6akFrUUVnZndUeURZYlhsc1J5ZFB1eHVpc213SEs3UQ?oc=5"
 ---
 
 # Record 2a5eff5b8c · Decoding-Beautys-Viral-Vocabulary---The-Voice-of-Fashion
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Decoding Beauty’s Viral Vocabulary - The Voice of Fashion
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[음성오디오]] [[JARVIS Real Knowledge Index]]

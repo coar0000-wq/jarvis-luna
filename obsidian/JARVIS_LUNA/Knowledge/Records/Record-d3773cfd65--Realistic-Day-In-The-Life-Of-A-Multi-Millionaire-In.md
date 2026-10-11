@@ -2,8 +2,12 @@
 title: "Record d3773cfd65 · Realistic-Day-In-The-Life-Of-A-Multi-Millionaire-In"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.740903+00:00
+updated_at: 2026-10-11T00:55:54.670066+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=unsz__ZbAN4"
 ---
 
 # Record d3773cfd65 · Realistic-Day-In-The-Life-Of-A-Multi-Millionaire-In
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Realistic Day In The Life Of A Multi-Millionaire In Miami
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

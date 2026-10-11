@@ -2,8 +2,12 @@
 title: "Record 5ba6804e5f · Inside-looksmaxxing-the-extreme-cosmetic-social-med"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.485494+00:00
+updated_at: 2026-10-11T00:55:35.264083+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcTgwMENNOUJ3bnVMd2JZdTN4Q2ZleTVFOHRXamR5bERSaVRQWlFjTGphdmk5b3djMnNXaVAxTGRkSGJQdFd5TmJ0Y3ctclFQVlFNRkRpRnFEVGJ3RXdnbmRqQ2dDZm5QZVhIbFVDNVpTSnpzY1NlQlJ6a2p4WnU1akxDajVCV19xX2M3czdiUVgwUTM4NHhjWnV1Umlkb1ppenF1Q3I5TQ?oc=5"
 ---
 
 # Record 5ba6804e5f · Inside-looksmaxxing-the-extreme-cosmetic-social-med
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Inside looksmaxxing, the extreme cosmetic social media trend - bbc.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

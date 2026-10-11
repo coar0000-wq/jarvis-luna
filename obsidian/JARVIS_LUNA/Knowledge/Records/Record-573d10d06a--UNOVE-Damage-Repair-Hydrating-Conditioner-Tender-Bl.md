@@ -2,8 +2,12 @@
 title: "Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.772852+00:00
+updated_at: 2026-10-11T00:55:39.697377+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA15525477"
 ---
 
 # Record 573d10d06a · UNOVE-Damage-Repair-Hydrating-Conditioner-Tender-Bl
@@ -16,7 +20,3 @@ UNOVE Damage Repair Hydrating Conditioner Tender Bloom 9.8 fl. oz.(290ml)
 UNOVE Damage Repair Hydrating Conditioner Tender Bloom 9.8 fl. oz.(290ml) · 평점 5 · 리뷰 5
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

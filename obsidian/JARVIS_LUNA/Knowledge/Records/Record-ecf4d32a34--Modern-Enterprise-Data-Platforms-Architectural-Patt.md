@@ -2,8 +2,14 @@
 title: "Record ecf4d32a34 · Modern-Enterprise-Data-Platforms-Architectural-Patterns-and-Operationa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.568904+00:00
+updated_at: 2026-10-11T00:55:20.947060+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank of America"
+domain: "doi.org"
+url: "https://doi.org/10.32628/cseit2511651"
+kind: "논문"
 ---
 
 # Record ecf4d32a34 · Modern-Enterprise-Data-Platforms-Architectural-Patterns-and-Operationa
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Modern Enterprise Data Platforms: Architectural Patterns and Operational Strategies for Scalable Data Processing
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

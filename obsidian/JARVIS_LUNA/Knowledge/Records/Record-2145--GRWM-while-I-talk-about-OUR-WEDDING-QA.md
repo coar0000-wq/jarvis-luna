@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T19:49:04.456223+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=QjxZk3cJx9k"
 ---
 
 # Record 2145 · GRWM-while-I-talk-about-OUR-WEDDING-QA
@@ -15,7 +19,3 @@ tags: [record, real-data]
 GRWM while I talk about OUR WEDDING💍✨ Q&A!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

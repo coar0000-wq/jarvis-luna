@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.843039+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/beyond-embedding-how-secure-aibi-dashboards-every-viewer"
 ---
 
 # Record 2385 · Beyond-embedding-How-to-secure-AIBI-Dashboards-for-every-viewer
@@ -16,7 +21,3 @@ Beyond embedding: How to secure AI/BI Dashboards for every viewer
 The challengeEmbedding a Databricks AI/BI Dashboard in a customer-facing application is relatively straightforward...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

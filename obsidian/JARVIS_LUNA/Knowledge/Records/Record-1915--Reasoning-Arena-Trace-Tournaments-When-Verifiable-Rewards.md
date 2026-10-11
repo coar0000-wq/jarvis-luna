@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.871967+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Mistral-AI"
+domain: "openalex.org"
+url: "https://openalex.org/W7164234861"
 ---
 
 # Record 1915 · Reasoning-Arena-Trace-Tournaments-When-Verifiable-Rewards-Fall-Short
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Reasoning Arena: Trace Tournaments When Verifiable Rewards Fall Short
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 166d05e6d2 · current-non-sponsored-skincare-routine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.725005+00:00
+updated_at: 2026-10-11T00:55:54.386758+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Qbpz1c_YjKM"
 ---
 
 # Record 166d05e6d2 · current-non-sponsored-skincare-routine
@@ -15,7 +19,3 @@ tags: [record, real-data]
 current *non-sponsored* skincare routine!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

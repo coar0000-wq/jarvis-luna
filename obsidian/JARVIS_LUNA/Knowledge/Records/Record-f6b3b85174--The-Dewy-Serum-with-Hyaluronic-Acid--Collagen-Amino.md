@@ -2,8 +2,12 @@
 title: "Record f6b3b85174 · The-Dewy-Serum-with-Hyaluronic-Acid--Collagen-Amino-Acid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.630266+00:00
+updated_at: 2026-10-11T00:55:52.583679+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/dewy-serum-with-hyaluronic-acid-collagen-amino-acid-pimprod2049175"
 ---
 
 # Record f6b3b85174 · The-Dewy-Serum-with-Hyaluronic-Acid--Collagen-Amino-Acid
@@ -16,7 +20,3 @@ The Dewy Serum with Hyaluronic Acid & Collagen Amino Acid
 The Dewy Serum with Hyaluronic Acid & Collagen Amino Acid · TATCHA · $34
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

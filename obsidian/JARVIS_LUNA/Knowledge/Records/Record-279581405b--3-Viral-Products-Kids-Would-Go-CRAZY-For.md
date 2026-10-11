@@ -2,8 +2,12 @@
 title: "Record 279581405b · 3-Viral-Products-Kids-Would-Go-CRAZY-For"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.710566+00:00
+updated_at: 2026-10-11T00:55:54.090234+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/q69CoKFFmrg"
 ---
 
 # Record 279581405b · 3-Viral-Products-Kids-Would-Go-CRAZY-For
@@ -15,7 +19,3 @@ tags: [record, real-data]
 3 Viral Products Kids Would Go CRAZY For 🤩
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

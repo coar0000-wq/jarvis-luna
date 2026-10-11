@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.311186+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/"
 ---
 
 # Record 289 · Proactive-cyber-defense-for-governments-and-enterprises
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Proactive cyber defense for governments and enterprises
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

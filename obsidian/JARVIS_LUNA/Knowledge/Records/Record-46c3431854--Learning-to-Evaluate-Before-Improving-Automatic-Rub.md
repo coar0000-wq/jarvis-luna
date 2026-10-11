@@ -2,8 +2,12 @@
 title: "Record 46c3431854 · Learning-to-Evaluate-Before-Improving-Automatic-Rub"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.912881+00:00
+updated_at: 2026-10-11T00:55:11.346724+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.31076v1"
 ---
 
 # Record 46c3431854 · Learning-to-Evaluate-Before-Improving-Automatic-Rub
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

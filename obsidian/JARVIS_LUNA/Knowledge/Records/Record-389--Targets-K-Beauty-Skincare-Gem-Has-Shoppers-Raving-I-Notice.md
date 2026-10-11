@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.579572+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifkFVX3lxTE11SW9Qem5PV3dkZEFGVTVfRE1JVTNqbGFRX0QxTkMyNkZBeTFsNnhQWUpwYmlRQVVlVENiNUpjZTNvU1JZZXhjMGVNYzM0ZmdMSWthdjNqdGJLTnBaZnJaRTJmcXc5X3FZbkEyaG1HR0FxRnpJQmdzaGktcnBUZw?oc=5"
 ---
 
 # Record 389 · Targets-K-Beauty-Skincare-Gem-Has-Shoppers-Raving-I-Noticed-a-Differen
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Target's K-Beauty Skincare Gem Has Shoppers Raving: 'I Noticed a Difference After One Night' - parade.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record ab668e20f3 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.557605+00:00
+updated_at: 2026-10-11T00:55:20.740964+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.23900/ra.v24i118.1845"
+kind: "논문"
 ---
 
 # Record ab668e20f3 · Inovação-desenvolvimento-e-tecnologias-uma-revisão-integrativa-sobre-o
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Inovação, desenvolvimento e tecnologias: uma revisão integrativa sobre os impactos da IA na gestão e assistência em saúde
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

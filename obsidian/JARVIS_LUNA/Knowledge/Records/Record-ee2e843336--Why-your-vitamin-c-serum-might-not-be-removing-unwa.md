@@ -2,8 +2,12 @@
 title: "Record ee2e843336 · Why-your-vitamin-c-serum-might-not-be-removing-unwa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.685410+00:00
+updated_at: 2026-10-11T00:55:53.482703+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/02PAjp6LtV0"
 ---
 
 # Record ee2e843336 · Why-your-vitamin-c-serum-might-not-be-removing-unwa
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Why your vitamin c serum might not be removing unwanted age spots & hyperpigmentation!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

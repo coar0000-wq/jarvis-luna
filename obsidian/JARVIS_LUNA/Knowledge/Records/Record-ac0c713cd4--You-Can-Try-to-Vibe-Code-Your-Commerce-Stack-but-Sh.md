@@ -2,8 +2,12 @@
 title: "Record ac0c713cd4 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.308089+00:00
+updated_at: 2026-10-11T00:55:32.178929+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NU0dBckNrZnlJM2RwUUh1cTBQeHJhdFh5dW5mWXc2WVQ0VG02WEZzLUxFTG9XRnZRQXl3a25lNkJEYzR2TkN5SThxYXBaUmFVeWk0WHZRZVVkTVloVXNoaWNvUHc3VFlTSll3UmswVE10VWNkMHVrNWFPQ0g?oc=5"
 ---
 
 # Record ac0c713cd4 · You-Can-Try-to-Vibe-Code-Your-Commerce-Stack-but-Sh
@@ -15,7 +19,3 @@ tags: [record, real-data]
 You Can Try to Vibe Code Your Commerce Stack, but Should You? - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

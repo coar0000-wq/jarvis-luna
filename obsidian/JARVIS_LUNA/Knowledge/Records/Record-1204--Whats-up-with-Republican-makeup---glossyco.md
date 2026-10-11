@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.457947+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xd3BJTWlOLXN6ZHpzREd3OGNWUDlJb3hyUGkwbVhLcDVJQ2lrQXFlRHg5eGNpdmc2LWpBWG0zTFRZclJ2aGZOX2RzWk93LU5XSUFNTzNQaDNoMXJ5aDBXWDY3UEdxYXVCVVB0Y2pR?oc=5"
 ---
 
 # Record 1204 · Whats-up-with-Republican-makeup---glossyco
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What’s up with ‘Republican makeup’? - glossy.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

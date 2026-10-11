@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:25.985622+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE5KSHdvT291bExEUXo3Ql9nVGxxTTBpVFZ0WU5VSEYxRnZkc1JFaUVUaXp4Ukg1ei1HYVVZYnRjNnBqal9jOUQtcnV1UXpEMUwxRGRZMEZEYno3TGRDTkVFSHBMaWRxSFpBUEtYWXdqSDN1amJ2OWtJcE5xbHM?oc=5"
 ---
 
 # Record 1438 · 10-Online-Shopping-Trends-Shaping-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 10 Online Shopping Trends Shaping 2026 - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

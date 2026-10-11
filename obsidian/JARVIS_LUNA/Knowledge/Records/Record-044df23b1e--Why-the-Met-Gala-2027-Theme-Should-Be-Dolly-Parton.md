@@ -2,8 +2,12 @@
 title: "Record 044df23b1e · Why-the-Met-Gala-2027-Theme-Should-Be-Dolly-Parton"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.935340+00:00
+updated_at: 2026-10-11T00:55:42.505813+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/met-gala-2027-theme-dolly-parton"
 ---
 
 # Record 044df23b1e · Why-the-Met-Gala-2027-Theme-Should-Be-Dolly-Parton
@@ -16,7 +20,3 @@ Why the Met Gala 2027 Theme Should Be Dolly Parton
 Why the Met Gala 2027 Theme Should Be Dolly Parton
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

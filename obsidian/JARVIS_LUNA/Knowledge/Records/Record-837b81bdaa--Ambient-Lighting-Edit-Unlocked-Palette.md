@@ -2,8 +2,12 @@
 title: "Record 837b81bdaa · Ambient-Lighting-Edit-Unlocked-Palette"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.558652+00:00
+updated_at: 2026-10-11T00:55:51.520819+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.sephora.com"
+url: "https://www.sephora.com/product/ambient-lighting-edit-unlocked-palette-P526297"
 ---
 
 # Record 837b81bdaa · Ambient-Lighting-Edit-Unlocked-Palette
@@ -16,7 +20,3 @@ Ambient Lighting Edit Unlocked Palette
 Ambient Lighting Edit Unlocked Palette · Hourglass · $98
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

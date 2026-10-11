@@ -2,8 +2,12 @@
 title: "Record 8de23d1201 · Physics-Aware-Random-Walk-Fingerprints-for-Scalable"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.960831+00:00
+updated_at: 2026-10-11T00:55:11.993875+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구", "과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04943v1"
 ---
 
 # Record 8de23d1201 · Physics-Aware-Random-Walk-Fingerprints-for-Scalable
@@ -16,7 +20,3 @@ Physics-Aware Random Walk Fingerprints for Scalable Power Grid Graph Classificat
 Recent benchmarks such as PowerGraph provide large collections of power-grid graphs for cascading-failure classification. Graph neural networks (GNNs) achieve strong predictive performance on this task, but typically require end-to-end training and model-specific tuning, while their latent representations can be difficult to relate to physically meaningful propagation patterns. Random Walk Fingerp
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[과학수학]] [[JARVIS Real Knowledge Index]]

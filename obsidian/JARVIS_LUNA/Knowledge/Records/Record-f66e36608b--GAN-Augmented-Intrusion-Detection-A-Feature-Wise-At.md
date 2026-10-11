@@ -2,8 +2,14 @@
 title: "Record f66e36608b · GAN-Augmented-Intrusion-Detection-A-Feature-Wise-At"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.610170+00:00
+updated_at: 2026-10-11T00:55:21.687137+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.47852/bonviewaia620210960"
+kind: "논문"
 ---
 
 # Record f66e36608b · GAN-Augmented-Intrusion-Detection-A-Feature-Wise-At
@@ -15,7 +21,3 @@ tags: [record, real-data]
 GAN-Augmented Intrusion Detection: A Feature-Wise Attention MLP Framework for Imbalanced Network Traffic
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

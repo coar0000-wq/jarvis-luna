@@ -2,8 +2,12 @@
 title: "Record f77dd002af · Nykaa-Names-Anushka-Sen-Face-of-K-Beauty-Category---Global-Cosmetics-N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.393078+00:00
+updated_at: 2026-10-11T00:55:33.648918+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVm9LZ1J3NWswMldVSGhSTk1od1MyeDZLbm9sSUlNT1M1VnU3dm9xUlpiWmJMTFE2NXRHMUtiQlhfZDgxSFBMLUkzZlFaZXF6VnlENF91OTJuMzVib3l0dEVHYWtCd3NjU2tNaTNQRHR1bF9mdHducFBxakZrcGt5V0FsNXdlYXZCYmJnc2FWRQ?oc=5"
 ---
 
 # Record f77dd002af · Nykaa-Names-Anushka-Sen-Face-of-K-Beauty-Category---Global-Cosmetics-N
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Nykaa Names Anushka Sen Face of K-Beauty Category - globalcosmeticsnews.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.687760+00:00
 tags: [knowledge-graph, record]
+source: "us_beauty"
+topics: ["AI-Research"]
+domain: "www.target.com"
+url: "https://www.target.com/c/beauty/-/N-5xu0o"
 ---
 
 # Record 596 · Target-Beauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Target Beauty
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

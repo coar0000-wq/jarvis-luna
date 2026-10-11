@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:14.077338+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tMEpWb2l4YWd0dng2QnZSczB4V2hHNjZYUmlIR3AxX1EteHpkaTZaRzNsX213Z1FZNE1WdkI2UUhDNWJuNHk5SUdKTjVHTExlQ3JCb0FGSzlrZDFjREduYldlLTdYVklfb2FtRg?oc=5"
 ---
 
 # Record 1265 · TikToks-Tired-Girl-Makeup-Trend-Makes-Exhaustion-Look-Cute---Bustle
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok's "Tired Girl" Makeup Trend Makes Exhaustion Look Cute - Bustle
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

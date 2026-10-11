@@ -2,8 +2,14 @@
 title: "Record f02c599340 · Impact-of-United-States-Marine-Corps-Recruit-Traini"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.404899+00:00
+updated_at: 2026-10-11T00:55:18.138365+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1093/milmed/usag398"
+kind: "논문"
 ---
 
 # Record f02c599340 · Impact-of-United-States-Marine-Corps-Recruit-Traini
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Impact of United States Marine Corps Recruit Training on Stress Physiology and the Hypothalamic Pituitary Gonadal Axis in Male Marine Recruits
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

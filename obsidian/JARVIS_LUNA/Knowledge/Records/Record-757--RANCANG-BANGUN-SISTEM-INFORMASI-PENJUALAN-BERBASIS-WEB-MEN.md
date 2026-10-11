@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.184509+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.65624/9zvftb70"
 ---
 
 # Record 757 · RANCANG-BANGUN-SISTEM-INFORMASI-PENJUALAN-BERBASIS-WEB-MENGGUNAKAN-MET
@@ -15,7 +20,3 @@ tags: [record, real-data]
 RANCANG BANGUN SISTEM INFORMASI PENJUALAN BERBASIS WEB MENGGUNAKAN METODE PROTOTYPE DEPOT AQUAQU
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

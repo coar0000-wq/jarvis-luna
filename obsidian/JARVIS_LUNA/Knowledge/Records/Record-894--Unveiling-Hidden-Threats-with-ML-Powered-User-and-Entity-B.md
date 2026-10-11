@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.469106+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Splunk"
+domain: "doi.org"
+url: "https://doi.org/10.61841/turcomat.v15i1.14394"
 ---
 
 # Record 894 · Unveiling-Hidden-Threats-with-ML-Powered-User-and-Entity-Behavior-Anal
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Unveiling Hidden Threats with ML-Powered User and Entity Behavior Analytics (UEBA)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Splunk]] [[JARVIS Real Knowledge Index]]

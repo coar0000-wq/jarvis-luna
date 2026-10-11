@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.082874+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMieEFVX3lxTE9nc2ktNnQxVzlMTjl1MjR5MFYwSkMtVjI1Z0VhZlBLU0JqVlBjdHUyejJCVDV3OE9xYmF3ckhxR2VXLTk1Y3ZScXZfN0VPSU1ManFXYmFUWWxKTDN6cjFXTzk2OGxSVWxDOHIyeXZmRG9jUktfd2FIMg?oc=5"
 ---
 
 # Record 1431 · The-Vogue-Business-TikTok-Trend-Tracker---voguecom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Vogue Business TikTok Trend Tracker - vogue.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

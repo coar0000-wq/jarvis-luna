@@ -2,8 +2,12 @@
 title: "Record ddbf5fcf7a · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-o"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.258329+00:00
+updated_at: 2026-10-11T00:55:31.251188+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMickFVX3lxTFBGU1ctOE1Sczc4N3kyV244bXRuMUphV0VwV1NFS2NXb3dhOFpTalBiREtlakdZTi05eGZFczE0eDNnc3hDcS16Z3pGQTFNR2lHR1p0a3U4eEN5QWNzTGNpUU50bVR4bFhLVUZycEQ3Xy1Odw?oc=5"
 ---
 
 # Record ddbf5fcf7a · Whats-Better-Than-K-Beauty-Award-Winning-K-Beauty-o
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What's Better Than K-Beauty? Award-Winning K-Beauty, of Course - Allure
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

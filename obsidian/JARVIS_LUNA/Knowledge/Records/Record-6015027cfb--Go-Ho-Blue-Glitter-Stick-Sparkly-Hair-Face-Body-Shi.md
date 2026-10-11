@@ -2,8 +2,12 @@
 title: "Record 6015027cfb · Go-Ho-Blue-Glitter-Stick-Sparkly-Hair-Face-Body-Shimmer-for-Women-Kids"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.085143+00:00
+updated_at: 2026-10-11T00:55:44.438880+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Go-Ho-Glitter-Sparkly-Shimmer/dp/B0H8PDJKNL/ref=zg_bsnr_g_beauty_d_sccl_20/147-8204049-1700168"
 ---
 
 # Record 6015027cfb · Go-Ho-Blue-Glitter-Stick-Sparkly-Hair-Face-Body-Shimmer-for-Women-Kids
@@ -16,7 +20,3 @@ Go Ho Blue Glitter Stick, Sparkly Hair Face Body Shimmer for Women Kids | Self-a
 Go Ho Blue Glitter Stick, Sparkly Hair Face Body Shimmer for Women Kids | Self-adhesive,Waterproof Blue Face Paint Chunky Glitter for Rave,Festival,Concert,Halloween Cosplay,Cheerleader,Party Makeup · $8.98 · 평점 4.4 · 리뷰 362
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

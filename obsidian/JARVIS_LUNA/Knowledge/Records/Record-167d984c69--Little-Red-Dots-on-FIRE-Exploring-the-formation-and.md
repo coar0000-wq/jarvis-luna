@@ -2,8 +2,14 @@
 title: "Record 167d984c69 · Little-Red-Dots-on-FIRE-Exploring-the-formation-and-observational-sign"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.643430+00:00
+updated_at: 2026-10-11T00:55:22.373051+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2606.23683"
+kind: "논문"
 ---
 
 # Record 167d984c69 · Little-Red-Dots-on-FIRE-Exploring-the-formation-and-observational-sign
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Little Red Dots on FIRE: Exploring the formation and observational signatures of ultra-compact early galaxies
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

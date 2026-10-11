@@ -2,8 +2,12 @@
 title: "Record 130343f96d · Synchronization-of-directed-hypergraphs-with-hetero"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.933081+00:00
+updated_at: 2026-10-11T00:55:11.671118+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.03698v1"
 ---
 
 # Record 130343f96d · Synchronization-of-directed-hypergraphs-with-hetero
@@ -16,7 +20,3 @@ Synchronization of directed hypergraphs with heterogeneities via dynamic couplin
 Many real-world networks involve interactions among three or more agents that cannot be reduced to pairwise coupling, making hypergraphs a natural modeling framework. In this work, we study complete synchronization in directed hypergraphs of nonlinear agents with parameter mismatches under dynamic diffusive coupling. Although proportional-integral coupling schemes are known to achieve consensus in
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:24.292385+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/peony-fragrances"
 ---
 
 # Record 2293 · 14-Peony-Perfumes-to-Take-You-From-Summer-to-Fall
@@ -16,7 +20,3 @@ tags: [record, real-data]
 14 Peony Perfumes to Take You From Summer to Fall
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

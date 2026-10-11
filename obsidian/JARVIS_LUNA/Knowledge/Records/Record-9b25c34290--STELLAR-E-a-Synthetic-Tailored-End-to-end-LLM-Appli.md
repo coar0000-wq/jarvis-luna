@@ -2,8 +2,14 @@
 title: "Record 9b25c34290 · STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.670903+00:00
+updated_at: 2026-10-11T00:55:37.962067+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "투자은행금융"]
+org: "Deutsche Bank"
+domain: "openalex.org"
+url: "https://openalex.org/W7158423094"
+kind: "논문"
 ---
 
 # Record 9b25c34290 · STELLAR-E-a-Synthetic-Tailored-End-to-end-LLM-Appli
@@ -15,7 +21,3 @@ tags: [record, real-data]
 STELLAR-E: a Synthetic, Tailored, End-to-end LLM Application Rigorous Evaluator
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[투자은행금융]] [[기관--Deutsche-Bank]] [[JARVIS Real Knowledge Index]]

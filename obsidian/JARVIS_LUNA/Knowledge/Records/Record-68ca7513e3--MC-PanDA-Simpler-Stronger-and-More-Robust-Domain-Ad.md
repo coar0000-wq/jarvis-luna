@@ -2,8 +2,12 @@
 title: "Record 68ca7513e3 · MC-PanDA-Simpler-Stronger-and-More-Robust-Domain-Adaptive-Panoptic-Seg"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.912047+00:00
+updated_at: 2026-10-11T00:55:25.808049+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "데이터분석"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.39681"
 ---
 
 # Record 68ca7513e3 · MC-PanDA-Simpler-Stronger-and-More-Robust-Domain-Adaptive-Panoptic-Seg
@@ -16,7 +20,3 @@ MC-PanDA++: Simpler, Stronger, and More Robust Domain-Adaptive Panoptic Segmenta
 Unsupervised domain adaptation (UDA) reduces the annotation burden in panoptic segmentation by leveraging a cost-effectively labeled source domain (e.g., synthetic) and an unlabeled target domain to bridge the distribution gap. Existing panoptic UDA methods rely on teacher-student consistency learning built upon suboptimal per-pixel segmentation architectures. In contrast, state-of-the-art mask tr
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[데이터분석]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 3d6d2a4a9e · A-Mechanistic-Study-of-Tabular-Foundation-Models"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.676507+00:00
+updated_at: 2026-10-11T00:55:38.097838+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7162149369"
+kind: "논문"
 ---
 
 # Record 3d6d2a4a9e · A-Mechanistic-Study-of-Tabular-Foundation-Models
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Mechanistic Study of Tabular Foundation Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

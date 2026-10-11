@@ -2,8 +2,14 @@
 title: "Record d55972f126 · CHESS-AS-AN-EDUCATIONAL-TOOL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.558213+00:00
+updated_at: 2026-10-11T00:55:20.765549+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Arm Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.24234/miopap.v11i2.37"
+kind: "논문"
 ---
 
 # Record d55972f126 · CHESS-AS-AN-EDUCATIONAL-TOOL
@@ -15,7 +21,3 @@ tags: [record, real-data]
 CHESS AS AN EDUCATIONAL TOOL
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

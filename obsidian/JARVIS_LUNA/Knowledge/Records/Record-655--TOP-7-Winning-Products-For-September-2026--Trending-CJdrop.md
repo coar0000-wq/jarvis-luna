@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.067822+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=6Zb3PdVx-qs"
 ---
 
 # Record 655 · TOP-7-Winning-Products-For-September-2026--Trending-CJdropshipping
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 TOP 7 Winning Products For September 2026 | Trending CJdropshipping
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 47923d682e · How-I-Used-Claude-AI-To-Make-102k-In-90-Days"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.735646+00:00
+updated_at: 2026-10-11T00:55:54.583605+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=jMJbbu3RE_E"
 ---
 
 # Record 47923d682e · How-I-Used-Claude-AI-To-Make-102k-In-90-Days
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How I Used Claude AI To Make $102k In 90 Days
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

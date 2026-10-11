@@ -2,8 +2,12 @@
 title: "Record cdd95ceaea · Color-Changing-Lipstick-for-Women-PH-Lipstick-Color-Changing1Count--Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.038094+00:00
+updated_at: 2026-10-11T00:55:43.782577+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Color-Changing-Lipstick-Women-1Count/dp/B0HKFG2G18/ref=zg_bsnr_g_beauty_d_sccl_37/139-6512042-2160214"
 ---
 
 # Record cdd95ceaea · Color-Changing-Lipstick-for-Women-PH-Lipstick-Color-Changing1Count--Cl
@@ -16,7 +20,3 @@ Color Changing Lipstick for Women, PH Lipstick Color Changing(1Count) | Clear Li
 Color Changing Lipstick for Women, PH Lipstick Color Changing(1Count) | Clear Lip stick lipstick long lasting lip stick for women · $12.99 · 평점 5 · 리뷰 36
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.527375+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "머신러닝-연구", "투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-10406334/v1"
 ---
 
 # Record 596 · Adaptive-Multi-Agent-Deep-Reinforcement-Learning-for-Distributed-Zero-
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Adaptive Multi-Agent Deep Reinforcement Learning for Distributed Zero Trust Architectures in Global Financial Ecosystems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[머신러닝-연구]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

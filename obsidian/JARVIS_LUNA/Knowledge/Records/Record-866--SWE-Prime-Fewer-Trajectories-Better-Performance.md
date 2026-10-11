@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T19:36:54.980794+00:00
 tags: [{', '.join(tags)}]
+source: "arXiv"
+topics: ["AI-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27449v1"
 ---
 
 # Record 866 · SWE-Prime-Fewer-Trajectories-Better-Performance
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 SWE-Prime: Fewer Trajectories, Better Performance
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

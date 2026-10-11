@@ -2,8 +2,12 @@
 title: "Record ec05643ab1 · 10-Best-AI-Tools-for-Shopify-Owners-2026-Platforms-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.206750+00:00
+updated_at: 2026-10-11T00:55:30.315031+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZQU1rdC05UlJ3bDRuMFlrMWdWN3NlMXBUT1VRTUxxdW1HZDBCdnpYWU9lQlRSSkJ4cjA3MExEc1N4RVlKNGJBblZlbGd0OGhEcFVzLUtBU1lNT2ZWNjVySDRpbC1rR0ozVnJB?oc=5"
 ---
 
 # Record ec05643ab1 · 10-Best-AI-Tools-for-Shopify-Owners-2026-Platforms-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 10 Best AI Tools for Shopify Owners 2026: Platforms Ranked by Intelligence Depth - Ask Luca
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

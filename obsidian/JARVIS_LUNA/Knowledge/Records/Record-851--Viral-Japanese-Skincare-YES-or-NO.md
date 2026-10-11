@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T05:39:21.930551+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/72J-TwgK1H0"
 ---
 
 # Record 851 · Viral-Japanese-Skincare-YES-or-NO
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Viral Japanese Skincare: YES or NO?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

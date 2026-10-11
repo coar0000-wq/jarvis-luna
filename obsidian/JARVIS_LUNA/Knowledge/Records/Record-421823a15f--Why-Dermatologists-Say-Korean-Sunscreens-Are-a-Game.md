@@ -2,8 +2,12 @@
 title: "Record 421823a15f · Why-Dermatologists-Say-Korean-Sunscreens-Are-a-Game"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.232353+00:00
+updated_at: 2026-10-11T00:55:30.886491+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYSVhpV19HSHdPNzdPX2JLRjJvdWxIOVRBa3NSX2NfMUw3Tkc3MWJwa0s4ZERHUzFHcWNXSnByV2lYN09jMEJ2a3pjaGNzMzRsSjMzWktsMllRS2laWVZnMl9YQVBMLXA4Sm1rVQ?oc=5"
 ---
 
 # Record 421823a15f · Why-Dermatologists-Say-Korean-Sunscreens-Are-a-Game
@@ -16,7 +20,3 @@ Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODA
 Why Dermatologists Say Korean Sunscreens Are a Game-Changer for Your Skin - TODAY.com
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

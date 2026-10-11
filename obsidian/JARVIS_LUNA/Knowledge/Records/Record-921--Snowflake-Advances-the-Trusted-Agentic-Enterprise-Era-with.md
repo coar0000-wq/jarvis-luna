@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.175918+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "데이터분석"]
+org: "Snowflake"
+domain: "investors.snowflake.com"
+url: "https://investors.snowflake.com/news/news-details/2026/Snowflake-Advances-the-Trusted-Agentic-Enterprise-Era-with-Unified-Monitoring-and-Cost-Management/default.aspx"
 ---
 
 # Record 921 · Snowflake-Advances-the-Trusted-Agentic-Enterprise-Era-with-Unified-Mon
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Snowflake Advances the Trusted Agentic Enterprise Era with Unified Monitoring and Cost Management
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

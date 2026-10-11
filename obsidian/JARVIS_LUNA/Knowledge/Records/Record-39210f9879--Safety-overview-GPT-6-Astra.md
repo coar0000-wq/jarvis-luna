@@ -2,8 +2,14 @@
 title: "Record 39210f9879 · Safety-overview-GPT-6-Astra"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.652905+00:00
+updated_at: 2026-10-11T00:55:37.682866+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "보안프라이버시", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/safety-overview-gpt-6-astra"
+kind: "발표물"
 ---
 
 # Record 39210f9879 · Safety-overview-GPT-6-Astra
@@ -16,7 +22,3 @@ Safety overview: GPT-6 Astra
 GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[보안프라이버시]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

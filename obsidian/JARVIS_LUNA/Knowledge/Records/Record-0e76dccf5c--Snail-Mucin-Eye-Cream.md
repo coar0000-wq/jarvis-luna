@@ -2,8 +2,12 @@
 title: "Record 0e76dccf5c · Snail-Mucin-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.736401+00:00
+updated_at: 2026-10-11T00:55:39.256549+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "sokoglam.com"
+url: "https://sokoglam.com/products/then-i-met-you-snail-mucin-eye-cream"
 ---
 
 # Record 0e76dccf5c · Snail-Mucin-Eye-Cream
@@ -16,7 +20,3 @@ Snail Mucin Eye Cream
 Snail Mucin Eye Cream · Then I Met You · $46.0
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

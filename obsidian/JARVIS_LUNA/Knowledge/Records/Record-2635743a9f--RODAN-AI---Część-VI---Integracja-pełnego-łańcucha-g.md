@@ -2,8 +2,14 @@
 title: "Record 2635743a9f · RODAN-AI---Część-VI---Integracja-pełnego-łańcucha-głosowego-STTLLMTTS-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.977283+00:00
+updated_at: 2026-10-11T00:55:26.894871+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "음성오디오", "의료바이오", "AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22773810"
+kind: "논문"
 ---
 
 # Record 2635743a9f · RODAN-AI---Część-VI---Integracja-pełnego-łańcucha-głosowego-STTLLMTTS-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 RODAN AI - Część VI - Integracja pełnego łańcucha głosowego STT+LLM+TTS na Edge AI Box (OPPO A40m): implementacja orkiestratora, diagnostyka awarii i pomiar energetyczny
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[음성오디오]] [[의료바이오]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

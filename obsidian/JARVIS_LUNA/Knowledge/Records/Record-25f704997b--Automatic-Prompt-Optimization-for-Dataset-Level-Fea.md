@@ -2,8 +2,14 @@
 title: "Record 25f704997b · Automatic-Prompt-Optimization-for-Dataset-Level-Feature-Discovery"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.623156+00:00
+updated_at: 2026-10-11T00:55:21.938029+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "머신러닝-연구", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2601.13922"
+kind: "논문"
 ---
 
 # Record 25f704997b · Automatic-Prompt-Optimization-for-Dataset-Level-Feature-Discovery
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Automatic Prompt Optimization for Dataset-Level Feature Discovery
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[머신러닝-연구]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

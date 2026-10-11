@@ -2,8 +2,12 @@
 title: "Record c6284d9220 · NYX-Professional-Makeup-Bare-With-Me-Concealer-Serum-Light"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.673632+00:00
+updated_at: 2026-10-11T00:55:53.295968+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/NYX-Professional-Makeup-Bare-With-Me-Concealer-Serum-Medium-Coverage-Light-0-32-fl-oz/787827171"
 ---
 
 # Record c6284d9220 · NYX-Professional-Makeup-Bare-With-Me-Concealer-Serum-Light
@@ -16,7 +20,3 @@ NYX Professional Makeup Bare With Me Concealer Serum, Light
 NYX Professional Makeup Bare With Me Concealer Serum, Light · 평점 4.6 · 리뷰 2,036
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

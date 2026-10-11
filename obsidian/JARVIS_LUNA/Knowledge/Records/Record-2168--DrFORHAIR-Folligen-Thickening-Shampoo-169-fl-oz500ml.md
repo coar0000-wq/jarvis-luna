@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.150551+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA75197259"
 ---
 
 # Record 2168 · DrFORHAIR-Folligen-Thickening-Shampoo-169-fl-oz500ml
@@ -16,7 +20,3 @@ Dr.FORHAIR Folligen Thickening Shampoo 16.9 fl. oz.(500ml)
 Dr.FORHAIR Folligen Thickening Shampoo 16.9 fl. oz.(500ml)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

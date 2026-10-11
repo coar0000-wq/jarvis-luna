@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.790095+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=J0u4ovCS9_k"
 ---
 
 # Record 2249 · SPF-시험기관이-알려주는-선크림-SPF의-모든-것
@@ -15,7 +19,3 @@ tags: [record, real-data]
 SPF 시험기관이 알려주는 선크림 SPF의 모든 것
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

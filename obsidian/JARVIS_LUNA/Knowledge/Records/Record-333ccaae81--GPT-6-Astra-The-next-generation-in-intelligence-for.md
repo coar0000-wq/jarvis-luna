@@ -2,8 +2,14 @@
 title: "Record 333ccaae81 · GPT-6-Astra-The-next-generation-in-intelligence-for"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.635910+00:00
+updated_at: 2026-10-11T00:55:37.453232+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/gpt-6-astra-next-generation-work"
+kind: "발표물"
 ---
 
 # Record 333ccaae81 · GPT-6-Astra-The-next-generation-in-intelligence-for
@@ -16,7 +22,3 @@ GPT-6 Astra: The next generation in intelligence for work
 Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

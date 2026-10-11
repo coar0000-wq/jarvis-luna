@@ -2,8 +2,12 @@
 title: "Record 99a88ded21 · Proven-Ways-To-Make-10KMonth-With-AI-No-BS-Guide"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.724731+00:00
+updated_at: 2026-10-11T00:55:54.379824+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=QFzaILBfg9o"
 ---
 
 # Record 99a88ded21 · Proven-Ways-To-Make-10KMonth-With-AI-No-BS-Guide
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Proven Ways To Make $10K/Month With AI (No-BS Guide)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

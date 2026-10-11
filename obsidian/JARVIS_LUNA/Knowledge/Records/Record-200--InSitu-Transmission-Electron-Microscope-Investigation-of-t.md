@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.581422+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1002/smll.74761"
 ---
 
 # Record 200 · InSitu-Transmission-Electron-Microscope-Investigation-of-the-Calcinati
@@ -15,7 +20,3 @@ tags: [record, real-data]
 In‐Situ Transmission Electron Microscope Investigation of the Calcination Behavior and Mechanism of Solid‐State Electrolyte Li 1 . 3 Al 0 . 3 Ti 1 . 7 (PO 4 ) 3 (LATP)
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

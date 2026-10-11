@@ -2,8 +2,14 @@
 title: "Record 3b1390da16 · SK-hynix-Presents-New-Spectrum-for-AI-Infrastructure-at-AI-Infra-Summi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.607002+00:00
+updated_at: 2026-10-11T00:55:36.988667+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/ai-infra-summit-2026/"
+kind: "발표물"
 ---
 
 # Record 3b1390da16 · SK-hynix-Presents-New-Spectrum-for-AI-Infrastructure-at-AI-Infra-Summi
@@ -16,7 +22,3 @@ SK hynix Presents ‘New Spectrum’ for AI Infrastructure at ‘AI Infra Summit
 SK hynix took part in ‘AI Infra Summit 2026,’ held over three days on September 15th-17th (local time) in Santa Clara, California, US. The event served as a venue to examine the latest technology trends and discuss future directions across
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

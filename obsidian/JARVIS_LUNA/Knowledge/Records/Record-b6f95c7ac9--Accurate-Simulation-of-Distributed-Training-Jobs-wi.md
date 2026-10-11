@@ -2,8 +2,12 @@
 title: "Record b6f95c7ac9 · Accurate-Simulation-of-Distributed-Training-Jobs-with-Network-Contenti"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.167217+00:00
+updated_at: 2026-10-11T00:55:14.418817+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["소셜콘텐츠", "머신러닝-연구", "반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.23278"
 ---
 
 # Record b6f95c7ac9 · Accurate-Simulation-of-Distributed-Training-Jobs-with-Network-Contenti
@@ -16,7 +20,3 @@ Accurate Simulation of Distributed Training Jobs with Network Contention Modelin
 Trace-driven simulation is widely used to evaluate distributed training (DT) jobs in GPU clusters, but existing simulators either ignore network contention or approximate it with a fixed penalty. This misses how scheduling decisions determine which jobs share server network interfaces and inter-server links, thereby changing networking time during training. As a result, our motivating experiments
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[소셜콘텐츠]] [[머신러닝-연구]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T00:39:25.372142+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=vDhKRZQIvzE"
 ---
 
 # Record 2229 · I-Built-My-Dream-Porsche-Targa-Full-Transformation
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Built My Dream Porsche Targa (Full Transformation)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

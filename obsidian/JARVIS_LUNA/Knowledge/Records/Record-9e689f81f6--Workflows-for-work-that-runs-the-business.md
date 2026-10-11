@@ -2,8 +2,14 @@
 title: "Record 9e689f81f6 · Workflows-for-work-that-runs-the-business"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.099725+00:00
+updated_at: 2026-10-11T00:55:28.547439+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "AI-에이전트"]
+org: "Mistral AI"
+domain: "mistral.ai"
+url: "https://mistral.ai/news/workflows/"
+kind: "발표물"
 ---
 
 # Record 9e689f81f6 · Workflows-for-work-that-runs-the-business
@@ -16,7 +22,3 @@ Workflows for work that runs the business
 Workflows is now in public preview.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[AI-에이전트]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

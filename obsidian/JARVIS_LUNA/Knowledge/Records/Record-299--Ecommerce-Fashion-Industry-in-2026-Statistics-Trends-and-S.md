@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.572964+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BS3prMC1VVElPRFN3Vmo4OUNXdnYxRjNmeWFlOFRPXzZBdkJUSzdxR0tRcUhzRVRkdFg3czBEQUlDellGei1rdlZfSjBWY3hlUlI0VUhBdko0cWR2Z3BsX2hHeTZHcVJJeW9kcFRjc0ZOT0Zz?oc=5"
 ---
 
 # Record 299 · Ecommerce-Fashion-Industry-in-2026-Statistics-Trends-and-Strategies---
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Ecommerce Fashion Industry in 2026: Statistics, Trends and Strategies - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

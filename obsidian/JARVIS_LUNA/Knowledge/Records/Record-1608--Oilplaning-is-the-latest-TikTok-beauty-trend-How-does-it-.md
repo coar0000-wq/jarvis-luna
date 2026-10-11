@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T11:25:01.591394+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb3pnbE1OSHdFVmFGYWU5dXpvR2NxSnRwOWNsT2dRSWprcUlOWC1NV09SRFBwdkNiWktvdUVkZ0VvUjM1VVVZY0ZRaG0zbzAxVzNQR0FJQ0EyRzFCclpoSEgyT1FXUW55ZTNoTmZpRDliZ01wNzh5OEMzWG11dFM1dlhKdndPTlMyN1dUSnZTNW5lS1VDalBUUnBZSWhZWFJlS0ZwRlR5Z2ZKWFZlZURGaG1JdHZoZw?oc=5"
 ---
 
 # Record 1608 · Oilplaning-is-the-latest-TikTok-beauty-trend-How-does-it-work---AJCcom
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Oilplaning is the latest TikTok beauty trend. How does it work? - AJC.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

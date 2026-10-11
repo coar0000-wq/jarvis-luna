@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T08:39:26.239527+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["법률규제"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=OBYnTaeDda4"
 ---
 
 # Record 2605 · The-best-slow-aging-tips-by-my-Korean-mother-in-law-with-glass-skin-an
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The best slow-aging tips by my Korean mother-in-law with glass skin! #antiaging #wrinkles #plumpskin
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[법률규제]] [[JARVIS Real Knowledge Index]]

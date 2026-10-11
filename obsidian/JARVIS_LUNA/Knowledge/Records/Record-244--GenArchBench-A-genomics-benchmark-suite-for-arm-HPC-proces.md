@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T00:39:25.593397+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "반도체하드웨어"]
+org: "Arm-Holdings"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.future.2024.03.050"
 ---
 
 # Record 244 · GenArchBench-A-genomics-benchmark-suite-for-arm-HPC-processors
@@ -15,7 +20,3 @@ tags: [record, real-data]
 GenArchBench: A genomics benchmark suite for arm HPC processors
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[반도체하드웨어]] [[기관--Arm-Holdings]] [[JARVIS Real Knowledge Index]]

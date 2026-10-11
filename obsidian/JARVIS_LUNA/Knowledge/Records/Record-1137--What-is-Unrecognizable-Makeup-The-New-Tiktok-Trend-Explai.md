@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T09:18:26.138683+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXOUhORFRwWThqQmFHbFk4WnJoSWtEek1NWGktRm9lejcwSm1KeWZXVHJiRmdwZGx5Wlo1NjM3Rjl0VjctZDA5N2FtclJxZ1hkNDNWYXlDSGNHcTgtR1hiNDFOMFZaRWU4OC1ldy1RcWNSNjFzWXlTVFdYcw?oc=5"
 ---
 
 # Record 1137 · What-is-Unrecognizable-Makeup-The-New-Tiktok-Trend-Explained---Hypebae
@@ -15,7 +19,3 @@ tags: [record, real-data]
 What is Unrecognizable Makeup? The New Tiktok Trend, Explained - Hypebae
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

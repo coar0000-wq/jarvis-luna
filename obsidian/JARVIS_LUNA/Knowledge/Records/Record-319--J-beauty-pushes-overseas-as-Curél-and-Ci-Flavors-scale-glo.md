@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.131493+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CcHdTNkYybnpiN3FLTWhqazhiREZpN0ZIclU2elVYcDhZMFhhTmVZSnFvb3dMWGZfMG5sc1Q1YjdqN2hUM1dYTV9kSXU5ZFQtQ0hiV3l6ZWFGcVAtMFY2ank1NzI2V1daZUpkMDdhRFg0Vkw1dldHeFR1RHo?oc=5"
 ---
 
 # Record 319 · J-beauty-pushes-overseas-as-Curél-and-Ci-Flavors-scale-globally---Pers
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 J-beauty pushes overseas as Curél and Ci Flavors scale globally - Personal Care Insights
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

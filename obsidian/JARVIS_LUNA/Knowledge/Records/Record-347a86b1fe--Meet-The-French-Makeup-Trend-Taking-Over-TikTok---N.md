@@ -2,8 +2,12 @@
 title: "Record 347a86b1fe · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---N"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.209303+00:00
+updated_at: 2026-10-11T00:55:30.369199+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCMTVDZm00TWp5dG90emZrQm5mN0VZVnJ5bkNvbnJNQ1JKYV9IenBKTjBnZGlZMGN4Uy02VmNLeFRFcC1EWUxGNjN4RldtQlJRQ0xuUFBmM1FrUU5fdW5XRWFMQjItNVdCdm9F?oc=5"
 ---
 
 # Record 347a86b1fe · Meet-The-French-Makeup-Trend-Taking-Over-TikTok---N
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Meet The French Makeup Trend Taking Over TikTok - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

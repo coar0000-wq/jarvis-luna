@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.389635+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s11060-026-05753-7"
 ---
 
 # Record 274 · Variation-in-meningioma-recurrence-risk-estimates-across-observational
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Variation in meningioma recurrence risk estimates across observational cohorts: the influence of calendar time, WHO classifications, geographical settings, and healthcare systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

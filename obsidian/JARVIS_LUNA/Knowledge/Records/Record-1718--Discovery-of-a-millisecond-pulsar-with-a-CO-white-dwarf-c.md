@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-05T02:24:18.396622+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "openalex.org"
+url: "https://openalex.org/W7139147348"
 ---
 
 # Record 1718 · Discovery-of-a-millisecond-pulsar-with-a-CO-white-dwarf-companion
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Discovery of a millisecond pulsar with a CO white dwarf companion
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

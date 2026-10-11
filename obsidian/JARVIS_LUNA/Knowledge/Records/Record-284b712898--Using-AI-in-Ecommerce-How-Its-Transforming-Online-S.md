@@ -2,8 +2,12 @@
 title: "Record 284b712898 · Using-AI-in-Ecommerce-How-Its-Transforming-Online-S"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.162951+00:00
+updated_at: 2026-10-11T00:55:29.589932+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0tVUQ4M3BMY2RobFA1ejZxNEdiY3V6eTlCSDZwRmQ2bENUbHpuWkpDX3ZITFhwZzhTS1hMS0o5Tm5fdC12eUlZV2o2TFBzSTdZczVmSmlpZlcyVWs5?oc=5"
 ---
 
 # Record 284b712898 · Using-AI-in-Ecommerce-How-Its-Transforming-Online-S
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Using AI in ecommerce: Types, benefits, and how it’s changing online shopping - Triple Whale
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

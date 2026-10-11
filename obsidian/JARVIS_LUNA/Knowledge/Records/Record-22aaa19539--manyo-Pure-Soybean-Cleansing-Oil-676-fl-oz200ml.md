@@ -2,8 +2,12 @@
 title: "Record 22aaa19539 · manyo-Pure-Soybean-Cleansing-Oil-676-fl-oz200ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.791775+00:00
+updated_at: 2026-10-11T00:55:39.977670+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA32525107"
 ---
 
 # Record 22aaa19539 · manyo-Pure-Soybean-Cleansing-Oil-676-fl-oz200ml
@@ -16,7 +20,3 @@ manyo Pure Soybean Cleansing Oil 6.76 fl. oz.(200ml)
 manyo Pure Soybean Cleansing Oil 6.76 fl. oz.(200ml) · 평점 4.7 · 리뷰 2,684
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 7a75d7a950 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.345965+00:00
+updated_at: 2026-10-11T00:55:32.893242+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2t2bjhzejd5NTF6YlNORURCb3ZnSWk0Q1FxczZQZ3NYYmdTY0NhYW9LWHZQdTlrRjhxRmRmLTgxS1VkZXRXU3lsZnNMX1pFTE5OWDdXeWEzandjY3JpWk9WYXhaZ3lNbmtIZ0lkM2QtcnpxWE9KblV2NDNJakg4NjJjTnQxdw?oc=5"
 ---
 
 # Record 7a75d7a950 · Top-Skincare-Trends-For-2026And-Those-Losing-Their-
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Top Skincare Trends For 2026—And Those Losing Their Sizzle - Beauty Independent
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

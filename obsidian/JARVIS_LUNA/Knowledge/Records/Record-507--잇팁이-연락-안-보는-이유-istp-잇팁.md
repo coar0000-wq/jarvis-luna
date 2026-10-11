@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.733154+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/7-GRnBUdcoc"
 ---
 
 # Record 507 · 잇팁이-연락-안-보는-이유-istp-잇팁
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 잇팁이 연락 안 보는 이유 #istp #잇팁
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.735019+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung-Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/gamescom-2026-samsung-odyssey-breaks-boundaries-supporting-every-way-you-play"
 ---
 
 # Record 1824 · Gamescom-2026-Samsung-Odyssey-Breaks-Boundaries--Supporting-Every-Way-
@@ -16,7 +21,3 @@ Gamescom 2026: Samsung Odyssey Breaks Boundaries — Supporting Every Way You Pl
 Samsung Electronics returned to Gamescom 2026 in Cologne, Germany, where players, streamers, media, and industry partners gathered to experience the latest in gaming. At the Samsung booth, the company paired its latest products with games, activities, and partner experiences designed to support a variety of genres and play styles. Reflecting Gamescom 2026’s “The Heart of […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

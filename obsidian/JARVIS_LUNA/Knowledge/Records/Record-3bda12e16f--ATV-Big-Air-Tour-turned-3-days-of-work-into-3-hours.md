@@ -2,8 +2,14 @@
 title: "Record 3bda12e16f · ATV-Big-Air-Tour-turned-3-days-of-work-into-3-hours"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.626328+00:00
+updated_at: 2026-10-11T00:55:37.272551+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["마케팅광고", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/atv-big-air-tour"
+kind: "발표물"
 ---
 
 # Record 3bda12e16f · ATV-Big-Air-Tour-turned-3-days-of-work-into-3-hours
@@ -16,7 +22,3 @@ ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT
 ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[마케팅광고]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

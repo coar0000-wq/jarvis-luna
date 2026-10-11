@@ -2,8 +2,12 @@
 title: "Record e6de60ea30 · Amazon-Beauty-Best-Sellers"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.989408+00:00
+updated_at: 2026-10-11T00:55:43.180160+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Best-Sellers-Beauty/zgbs/beauty"
 ---
 
 # Record e6de60ea30 · Amazon-Beauty-Best-Sellers
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Amazon Beauty Best Sellers
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

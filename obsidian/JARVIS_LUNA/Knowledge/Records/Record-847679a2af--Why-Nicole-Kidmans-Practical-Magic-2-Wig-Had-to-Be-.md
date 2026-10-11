@@ -2,8 +2,12 @@
 title: "Record 847679a2af · Why-Nicole-Kidmans-Practical-Magic-2-Wig-Had-to-Be-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.938559+00:00
+updated_at: 2026-10-11T00:55:42.530207+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/practical-magic-2-sandra-bullock-nicole-kidman-beauty-looks"
 ---
 
 # Record 847679a2af · Why-Nicole-Kidmans-Practical-Magic-2-Wig-Had-to-Be-
@@ -16,7 +20,3 @@ Why Nicole Kidman’s "Practical Magic 2" Wig Had to Be So Different From the Or
 Why Nicole Kidman’s "Practical Magic 2" Wig Had to Be So Different From the Original
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

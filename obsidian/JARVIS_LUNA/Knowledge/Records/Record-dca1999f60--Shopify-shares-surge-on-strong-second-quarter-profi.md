@@ -2,8 +2,12 @@
 title: "Record dca1999f60 · Shopify-shares-surge-on-strong-second-quarter-profi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.397728+00:00
+updated_at: 2026-10-11T00:55:33.754476+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS245WHkxVlF2R3JnYW80SkcwdG43NWR3cWREeDFLYTVhN1JiQXNfZ1lISXRpamNsOVVpc1BVQy1jdjhwUUxiX3d3bHFOYm9oMjl0UTdHSmxlWFpLOHJVR3JsUEVzeXU4SUt6TGZHQzJ5REVZQUlxcWxoQ3lqVmFZSHdEZ3g3WTdXN1F4ZDFyRWszQQ?oc=5"
 ---
 
 # Record dca1999f60 · Shopify-shares-surge-on-strong-second-quarter-profi
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify shares surge on strong second quarter profit as AI helps drive sales - Financial Post
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

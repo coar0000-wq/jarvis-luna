@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T16:27:22.630667+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=irtf9-m-9uc"
 ---
 
 # Record 999 · How-to-Start-a-1-Person-Business-with-Claude
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 How to Start a 1-Person Business with Claude
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record d721843382 · Proactive-cyber-defense-for-governments-and-enterpr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.247327+00:00
+updated_at: 2026-10-11T00:55:15.513012+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "deepmind.google"
+url: "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/"
+kind: "발표물"
 ---
 
 # Record d721843382 · Proactive-cyber-defense-for-governments-and-enterpr
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Proactive cyber defense for governments and enterprises
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

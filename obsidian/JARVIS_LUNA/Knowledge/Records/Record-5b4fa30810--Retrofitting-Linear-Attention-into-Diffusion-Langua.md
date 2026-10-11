@@ -2,8 +2,14 @@
 title: "Record 5b4fa30810 · Retrofitting-Linear-Attention-into-Diffusion-Langua"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.707758+00:00
+updated_at: 2026-10-11T00:55:38.729550+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "컴퓨터-비전", "AI-에이전트"]
+org: "Google DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7202230636"
+kind: "논문"
 ---
 
 # Record 5b4fa30810 · Retrofitting-Linear-Attention-into-Diffusion-Langua
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Retrofitting Linear Attention into Diffusion Language Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

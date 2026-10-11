@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T14:12:25.841447+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yRzNFNmlaT0c4YzVKZ2pOQkZnclZDUFlWOGl1Vmg1OFpaLTFNbU5YUmdOSDh4SmdPU21EQk5fY1k4VGZ5YnJ2WGg3ajZmN2xXcktWVWVpQ2VjOXB0ZkZIQVhnSXJrbWM?oc=5"
 ---
 
 # Record 1169 · The-5-Best-AI-Website-Builders-for-UK-SMEs-Tested-by-Us---Startupscouk
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The 5 Best AI Website Builders for UK SMEs: Tested by Us - Startups.co.uk
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[JARVIS Real Knowledge Index]]

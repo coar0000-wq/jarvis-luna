@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.485159+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "doi.org"
+url: "https://doi.org/10.34989/sap-2026-29"
 ---
 
 # Record 823 · The-investor-base-for-sovereign-debt-Why-diversification-matters
@@ -15,7 +20,3 @@ tags: [record, real-data]
 The investor base for sovereign debt: Why diversification matters
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

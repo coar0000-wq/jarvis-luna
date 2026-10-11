@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:58.991945+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNHR1Y3hFSXJEdlNfY1hhQWhMbGU2Yk5XNGtvaFYzcTNNQWgyaldRdExTSTgzY0hvOXpPVV9MUlJkOWIyMGZMM0EwY192bFduQzJTTXM1MGtsYnUtM3hoOG83NHBiRlBielZqOTJ5LTNuU29ueG5ZS0NPZUhybGRFTEt4dzFHeEtSa05sWGZCeVRCcDdGeUdhb0dmSU9BcUJ2SWdwa2s1ak9VZTY0ZC15RmtXTVRKWlhmeHVxbDA5VHBNVzZBRVVnSmZ2d0wtZ1hP?oc=5"
 ---
 
 # Record 033 · Eyemaxxing-is-the-latest-beauty-trend-doing-the-rounds-So-is-it-legit-
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 ‘Eyemaxxing’ is the latest beauty trend doing the rounds. So, is it legit? - Nine.com.au
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

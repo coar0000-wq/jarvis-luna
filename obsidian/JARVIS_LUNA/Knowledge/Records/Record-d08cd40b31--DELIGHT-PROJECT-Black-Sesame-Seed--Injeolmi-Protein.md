@@ -2,8 +2,12 @@
 title: "Record d08cd40b31 · DELIGHT-PROJECT-Black-Sesame-Seed--Injeolmi-Protein-Shake-158-oz45g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.792182+00:00
+updated_at: 2026-10-11T00:55:39.979351+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA33086620"
 ---
 
 # Record d08cd40b31 · DELIGHT-PROJECT-Black-Sesame-Seed--Injeolmi-Protein-Shake-158-oz45g
@@ -16,7 +20,3 @@ DELIGHT PROJECT Black Sesame Seed & Injeolmi Protein Shake 1.58 oz.(45g)
 DELIGHT PROJECT Black Sesame Seed & Injeolmi Protein Shake 1.58 oz.(45g) · 평점 4.9 · 리뷰 558
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record c22d26b6fb · ForceN-to-give-a-crash-course-on-force-and-torque-sensing-for-humanoid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.577759+00:00
+updated_at: 2026-10-11T00:55:51.789289+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["경영전략", "로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/"
 ---
 
 # Record c22d26b6fb · ForceN-to-give-a-crash-course-on-force-and-torque-sensing-for-humanoid
@@ -16,7 +20,3 @@ ForceN to give a crash course on force and torque sensing for humanoids at RoboB
 <p>Attendees will learn about the many ways they can use force and torque sensors in humanoids and how to avoid breaking them while doing it.</p> <p>The post <a href="https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/">ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness</a> appeared first on <a href="https:
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[경영전략]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

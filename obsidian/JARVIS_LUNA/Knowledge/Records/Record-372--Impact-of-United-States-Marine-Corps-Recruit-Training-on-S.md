@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.110688+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1093/milmed/usag398"
 ---
 
 # Record 372 · Impact-of-United-States-Marine-Corps-Recruit-Training-on-Stress-Physio
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Impact of United States Marine Corps Recruit Training on Stress Physiology and the Hypothalamic Pituitary Gonadal Axis in Male Marine Recruits
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.160068+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["법률규제", "인프라클라우드", "데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2503.12986"
 ---
 
 # Record 644 · Some-linear-feedback-laws-for-stabilisation-of-sterile-insect-techniqu
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Some linear feedback laws for stabilisation of sterile insect technique control system
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[법률규제]] [[인프라클라우드]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

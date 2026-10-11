@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.850685+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1038/s41551-026-01741-4"
 ---
 
 # Record 470 · CLEAR-an-auditable-foundation-model-for-radiology-grounded-in-clinical
@@ -15,7 +20,3 @@ tags: [record, real-data]
 CLEAR: an auditable foundation model for radiology grounded in clinical concepts
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

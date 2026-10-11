@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T21:03:43.873425+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLYW52dnlOTEp6MU04S1Y0WFJBVXNqNFNuTTBBZ1R0Q0RJRF9RbWtxR0NYelczclRMd09wcFV0SWNZVUNPTVBSTkFCdGxqdG5sUDRPMmZBYzZ0M0xITk80Q2xoTkFhZ1k?oc=5"
 ---
 
 # Record 163 · 3-K-Beauty-Brands-About-to-Be-Americas-Next-Obsessions---NewBeauty
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 3 K-Beauty Brands About to Be America’s Next Obsessions - NewBeauty
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

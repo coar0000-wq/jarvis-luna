@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.581128+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.04.30.26352063"
 ---
 
 # Record 819 · Combinatorial-effects-of-gene-dosage-polygenic-background-and-environm
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Combinatorial effects of gene dosage, polygenic background and environment on complex traits
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

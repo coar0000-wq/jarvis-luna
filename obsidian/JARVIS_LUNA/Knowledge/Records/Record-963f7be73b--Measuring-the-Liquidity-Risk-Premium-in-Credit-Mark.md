@@ -2,8 +2,14 @@
 title: "Record 963f7be73b · Measuring-the-Liquidity-Risk-Premium-in-Credit-Mark"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.600012+00:00
+updated_at: 2026-10-11T00:55:21.475104+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.3905/jfi.2026.002"
+kind: "논문"
 ---
 
 # Record 963f7be73b · Measuring-the-Liquidity-Risk-Premium-in-Credit-Mark
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Measuring the Liquidity Risk Premium in Credit Markets
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record a33b68d84a · Copy-What-Is-Seen-Generate-What-Is-Not-Training-Free-Anomaly-Aware-Vid"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.716479+00:00
+updated_at: 2026-10-11T00:55:23.391418+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["소셜콘텐츠", "LLM언어모델", "머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.18836"
 ---
 
 # Record a33b68d84a · Copy-What-Is-Seen-Generate-What-Is-Not-Training-Free-Anomaly-Aware-Vid
@@ -16,7 +20,3 @@ Copy What Is Seen, Generate What Is Not: Training-Free Anomaly-Aware Video Resto
 A surveillance system that detects an anomaly often has to repair the footage as well, yet the two tasks are studied in isolation: training-free anomaly detectors stop at a score or a label, while training-free video editing answers to a user prompt rather than to a detector. This paper proposes AVR (Anomaly-aware Video Restoration), which closes that gap with frozen pretrained models alone and ge
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[소셜콘텐츠]] [[LLM언어모델]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

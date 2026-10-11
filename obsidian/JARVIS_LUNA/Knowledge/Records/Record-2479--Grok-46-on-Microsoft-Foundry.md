@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.766600+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어", "AI-에이전트"]
+org: "xAI"
+domain: "x.ai"
+url: "https://x.ai/news/grok-4-6-microsoft-foundry"
 ---
 
 # Record 2479 · Grok-46-on-Microsoft-Foundry
@@ -16,7 +21,3 @@ Grok 4.6 on Microsoft Foundry
 Grok 4.6 is now available via Microsoft Foundry.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[AI-에이전트]] [[기관--xAI]] [[JARVIS Real Knowledge Index]]

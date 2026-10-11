@@ -2,8 +2,14 @@
 title: "Record c73e5bbca7 · Systematic-Integration-of-genomics-with-transcripto"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.002684+00:00
+updated_at: 2026-10-11T00:55:27.295096+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.07.31.26357396"
+kind: "논문"
 ---
 
 # Record c73e5bbca7 · Systematic-Integration-of-genomics-with-transcripto
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Systematic Integration of genomics with transcriptomics for the Study of Coronary Artery Disease and Subclinical Atherosclerosis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

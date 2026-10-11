@@ -2,8 +2,14 @@
 title: "Record 529d37bf59 · From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.968188+00:00
+updated_at: 2026-10-11T00:55:26.739778+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "반도체하드웨어"]
+org: "AMD"
+domain: "doi.org"
+url: "https://doi.org/10.5281/zenodo.22237469"
+kind: "논문"
 ---
 
 # Record 529d37bf59 · From-Bottleneck-to-Breakthrough-A-Hands-On-Workflow
@@ -15,7 +21,3 @@ tags: [record, real-data]
 From Bottleneck to Breakthrough: A Hands-On Workflow for Profiling and Optimizing HPC Applications on AMD GPUs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

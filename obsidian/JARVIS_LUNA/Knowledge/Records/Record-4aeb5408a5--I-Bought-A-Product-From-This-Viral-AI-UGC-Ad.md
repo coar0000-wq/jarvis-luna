@@ -2,8 +2,12 @@
 title: "Record 4aeb5408a5 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.706217+00:00
+updated_at: 2026-10-11T00:55:53.973289+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["마케팅광고"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/hKttdvzqVsE"
 ---
 
 # Record 4aeb5408a5 · I-Bought-A-Product-From-This-Viral-AI-UGC-Ad
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Bought A Product From This Viral AI UGC Ad
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record f2694bfa96 · Path-to-Astra-critical-capabilities-and-frontier-sa"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.648223+00:00
+updated_at: 2026-10-11T00:55:37.615358+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["보안프라이버시", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/path-to-astra"
+kind: "발표물"
 ---
 
 # Record f2694bfa96 · Path-to-Astra-critical-capabilities-and-frontier-sa
@@ -16,7 +22,3 @@ Path to Astra: critical capabilities and frontier safeguards
 Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[보안프라이버시]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

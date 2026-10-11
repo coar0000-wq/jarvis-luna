@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.957084+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/HrrvLwkVhc0"
 ---
 
 # Record 986 · Meet-your-stores-new-AI-assistant
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Meet your store’s new AI assistant
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

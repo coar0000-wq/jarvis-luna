@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.212034+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=dU_U1Pmmu5c"
 ---
 
 # Record 1050 · Instagram-Changed-Everything-Again-New-Updates-You-Need-to-Know-in-202
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Instagram Changed Everything Again: New Updates You Need to Know in 2026
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record fc40ddafdd · Daybreak-for-Frontline-Defenders-1B-to-protect-esse"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.631068+00:00
+updated_at: 2026-10-11T00:55:37.386525+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["머신러닝-연구", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/daybreak-for-frontline-defenders"
+kind: "발표물"
 ---
 
 # Record fc40ddafdd · Daybreak-for-Frontline-Defenders-1B-to-protect-esse
@@ -16,7 +22,3 @@ Daybreak for Frontline Defenders: $1B to protect essential services
 OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[머신러닝-연구]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 62d5eb25a4 · Anthropic-acquires-Vercept"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.352382+00:00
+updated_at: 2026-10-11T00:55:47.778825+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/acquires-vercept"
+kind: "발표물"
 ---
 
 # Record 62d5eb25a4 · Anthropic-acquires-Vercept
@@ -16,7 +22,3 @@ Anthropic acquires Vercept
 Anthropic has acquired Vercept to strengthen Claude's computer use capabilities.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

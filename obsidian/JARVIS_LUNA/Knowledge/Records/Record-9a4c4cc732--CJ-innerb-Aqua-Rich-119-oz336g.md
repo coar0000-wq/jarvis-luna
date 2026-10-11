@@ -2,8 +2,12 @@
 title: "Record 9a4c4cc732 · CJ-innerb-Aqua-Rich-119-oz336g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.856697+00:00
+updated_at: 2026-10-11T00:55:41.114710+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA85925602"
 ---
 
 # Record 9a4c4cc732 · CJ-innerb-Aqua-Rich-119-oz336g
@@ -16,7 +20,3 @@ CJ innerb Aqua Rich 1.19 oz.(33.6g)
 CJ innerb Aqua Rich 1.19 oz.(33.6g)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

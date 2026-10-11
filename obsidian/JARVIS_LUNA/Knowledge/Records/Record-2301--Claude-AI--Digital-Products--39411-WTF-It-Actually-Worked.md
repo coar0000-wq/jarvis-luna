@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.325768+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["LLM언어모델"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=UosqlC_fFRk"
 ---
 
 # Record 2301 · Claude-AI--Digital-Products--39411-WTF-It-Actually-Worked
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Claude AI + Digital Products = $39,411 (WTF, It Actually Worked)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 0d56f95c6a · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.122049+00:00
+updated_at: 2026-10-11T00:55:28.895983+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["경영전략", "이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jVDJEWEk5cnN0cGVYcVhTaHFQNDFyR0FSNk5abFFUWGhld1hFclNOMG0tc2dRQk9lNGJqU01oWXQ3ZDRMNHIzaDJBY3A0NFliYnFr?oc=5"
 ---
 
 # Record 0d56f95c6a · AI-Trends-in-2026-What-Businesses-Need-to-Know---Sh
@@ -15,7 +19,3 @@ tags: [record, real-data]
 AI Trends in 2026: What Businesses Need to Know - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[경영전략]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

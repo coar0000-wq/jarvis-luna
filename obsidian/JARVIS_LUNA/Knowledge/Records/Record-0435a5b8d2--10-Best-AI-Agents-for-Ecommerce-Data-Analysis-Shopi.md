@@ -2,8 +2,12 @@
 title: "Record 0435a5b8d2 · 10-Best-AI-Agents-for-Ecommerce-Data-Analysis-Shopify-Amazon--DTC---As"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.192915+00:00
+updated_at: 2026-10-11T00:55:30.112859+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify", "AI-에이전트"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FRnVRcTVXdEo0N2E4UkZSa3EyRFBIWkIwb0lCQ3JUOVlobHhQUFMzdTJWZ05JVjdBWTBMZFJKcWprcmFyY3JaQTM4NkZqV0lwSzRtbzA1dEpJS1diOFR1eDAyeFY?oc=5"
 ---
 
 # Record 0435a5b8d2 · 10-Best-AI-Agents-for-Ecommerce-Data-Analysis-Shopify-Amazon--DTC---As
@@ -15,7 +19,3 @@ tags: [record, real-data]
 10 Best AI Agents for Ecommerce Data Analysis (Shopify, Amazon & DTC) - Ask Luca
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[AI-에이전트]] [[JARVIS Real Knowledge Index]]

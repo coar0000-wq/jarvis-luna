@@ -2,8 +2,12 @@
 title: "Record 63a91dafee · Move-Over-Glass-Skin-Cloud-Creams-Are-the-K-Beauty-Moisturizer-Trend-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.425900+00:00
+updated_at: 2026-10-11T00:55:34.271477+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "인프라클라우드"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVG9aY1FHMzhhLXduZzEwSzdfbnlpSWp2Y00yZTFzZENGdUI1X1dyYkZOUzdac0FxMFBqeTVKOFFTWHB6VVFIWmNNMjRwalBVTjZfc3VReFd4NmVYbDhKc003YTRZUG15bFVjczE3MWpBSm5iT3pmUmJWWWlKcV83N2RqQm5KUzk0UHdZc19iQ2syV19JdWlJTQ?oc=5"
 ---
 
 # Record 63a91dafee · Move-Over-Glass-Skin-Cloud-Creams-Are-the-K-Beauty-Moisturizer-Trend-T
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Move Over, Glass Skin: Cloud Creams Are the K-Beauty Moisturizer Trend Taking Over - Yahoo
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[인프라클라우드]] [[JARVIS Real Knowledge Index]]

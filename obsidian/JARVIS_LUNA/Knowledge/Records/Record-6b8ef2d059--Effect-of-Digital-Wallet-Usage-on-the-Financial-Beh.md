@@ -2,8 +2,14 @@
 title: "Record 6b8ef2d059 · Effect-of-Digital-Wallet-Usage-on-the-Financial-Beh"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.566631+00:00
+updated_at: 2026-10-11T00:55:20.912042+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.31098/ijebce.v6i2.3888"
+kind: "논문"
 ---
 
 # Record 6b8ef2d059 · Effect-of-Digital-Wallet-Usage-on-the-Financial-Beh
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Effect of Digital Wallet Usage on the Financial Behavior of Millennials in Metro Manila, Philippines
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

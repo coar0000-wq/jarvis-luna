@@ -2,8 +2,14 @@
 title: "Record ef9b7afe5f · Comment-on-Machine-learningbased-prediction-of-CAC-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.318887+00:00
+updated_at: 2026-10-11T00:55:16.573483+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.jfma.2026.04.089"
+kind: "논문"
 ---
 
 # Record ef9b7afe5f · Comment-on-Machine-learningbased-prediction-of-CAC-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Comment on “Machine learning–based prediction of CAC-defined cardiovascular risk using routine health examination data: a retrospective cross-sectional study in a Taiwanese population”
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

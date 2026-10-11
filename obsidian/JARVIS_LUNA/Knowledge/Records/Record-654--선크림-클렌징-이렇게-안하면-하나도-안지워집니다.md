@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.091846+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=j4UC2Yyz8Js"
 ---
 
 # Record 654 · 선크림-클렌징-이렇게-안하면-하나도-안지워집니다
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 선크림 클렌징 이렇게 안하면 하나도 안지워집니다
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

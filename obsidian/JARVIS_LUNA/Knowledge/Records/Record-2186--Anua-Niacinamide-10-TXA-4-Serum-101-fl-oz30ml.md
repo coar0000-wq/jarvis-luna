@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.053275+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA79297712"
 ---
 
 # Record 2186 · Anua-Niacinamide-10-TXA-4-Serum-101-fl-oz30ml
@@ -16,7 +20,3 @@ Anua Niacinamide 10 TXA 4 Serum 1.01 fl. oz.(30ml)
 Anua Niacinamide 10 TXA 4 Serum 1.01 fl. oz.(30ml) · 평점 4.7 · 리뷰 1,502
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

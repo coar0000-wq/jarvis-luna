@@ -2,8 +2,12 @@
 title: "Record 271f515d04 · Weave-Fine-Grained-Dynamic-SM-Scheduling-in-an-MoE-Megakernel-for-Comp"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.746188+00:00
+updated_at: 2026-10-11T00:55:23.730155+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE", "반도체하드웨어"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.21483"
 ---
 
 # Record 271f515d04 · Weave-Fine-Grained-Dynamic-SM-Scheduling-in-an-MoE-Megakernel-for-Comp
@@ -16,7 +20,3 @@ Weave: Fine-Grained Dynamic SM Scheduling in an MoE Megakernel for Compute-Commu
 Mixture-of-Experts (MoE) inference under expert parallelism (EP) turns each MoE layer into a distributed computation with costly dispatch and combine communication. State-of-the-art systems reduce this cost through communication-computation overlap, splitting the GPU's SMs for communication and computation respectively. However, this approach still leaves GPU resources wasted along two dimensions.
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

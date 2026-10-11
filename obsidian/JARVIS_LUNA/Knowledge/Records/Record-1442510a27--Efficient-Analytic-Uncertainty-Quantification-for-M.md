@@ -2,8 +2,14 @@
 title: "Record 1442510a27 · Efficient-Analytic-Uncertainty-Quantification-for-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.686675+00:00
+updated_at: 2026-10-11T00:55:38.336170+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7166252570"
+kind: "논문"
 ---
 
 # Record 1442510a27 · Efficient-Analytic-Uncertainty-Quantification-for-M
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Efficient Analytic Uncertainty Quantification for Multi-Modal Regression
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

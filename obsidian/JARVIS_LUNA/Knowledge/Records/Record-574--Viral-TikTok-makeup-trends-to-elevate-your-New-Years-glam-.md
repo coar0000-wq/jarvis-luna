@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.140867+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMilAFBVV95cUxPejlOcU9tZ21EWkVNbjJDRXNQTk8wM3hYNFBnU3lPYVkzakx1YXp4all6dFVfV0lubjVmWGs5M2Z1UlVNdGhpQ1hmYXJMMnpCS21TNXFVMEpHWU5pcUdVQkszbEV2LUs4RmNlckpHRC1XaEQwUndoUlVlMmdKcm1JQldYLUVHMWtLWG5ickhJSkVncFlG?oc=5"
 ---
 
 # Record 574 · Viral-TikTok-makeup-trends-to-elevate-your-New-Years-glam---holacom
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Viral TikTok makeup trends to elevate your New Year’s glam - hola.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record e1f3c543d3 · Universal-Robots-launches-its-seventh-generation-robot-platform-at-IMT"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.609568+00:00
+updated_at: 2026-10-11T00:55:52.239127+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["로보틱스"]
+domain: "www.therobotreport.com"
+url: "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/"
 ---
 
 # Record e1f3c543d3 · Universal-Robots-launches-its-seventh-generation-robot-platform-at-IMT
@@ -16,7 +20,3 @@ Universal Robots launches its seventh generation robot platform at IMTS
 <p>Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. </p> <p>The post <a href="https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/">Universal Robots launches its seventh generation robot platform at IMTS</a> appeared first on <a href="https://www.therobotreport.com">The Robot Repo
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[로보틱스]] [[JARVIS Real Knowledge Index]]

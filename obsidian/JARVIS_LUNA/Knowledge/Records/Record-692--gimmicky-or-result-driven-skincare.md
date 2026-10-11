@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T11:20:32.073130+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Uyab4c_D2Kc"
 ---
 
 # Record 692 · gimmicky-or-result-driven-skincare
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 gimmicky? or result-driven skincare~? 🫣
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 50b72889e1 · Implementing-comprehensive-geriatric-assessment-in-an-academic-hematol"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.573673+00:00
+updated_at: 2026-10-11T00:55:21.020723+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.3389/fonc.2025.1570889"
+kind: "논문"
 ---
 
 # Record 50b72889e1 · Implementing-comprehensive-geriatric-assessment-in-an-academic-hematol
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Implementing comprehensive geriatric assessment in an academic hematologic outpatient setting: experiences from medical doctors and patients
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

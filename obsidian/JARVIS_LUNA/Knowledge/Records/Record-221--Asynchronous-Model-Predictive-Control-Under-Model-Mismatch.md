@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.373031+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.08836v1"
 ---
 
 # Record 221 · Asynchronous-Model-Predictive-Control-Under-Model-Mismatch-Stability-a
@@ -16,7 +20,3 @@ Asynchronous Model Predictive Control Under Model Mismatch: Stability and Perfor
 Certainty-equivalence model predictive control (CE-MPC) is widely used for its simplicity and efficiency, but theoretical guarantees under asynchronous feedback remain limited. This paper establishes stability and performance guarantees for asynchronous CE-MPC of input-constrained nonlinear systems. We first derive a nominal stability condition and competitive-ratio bound that explicitly account f
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[미분류]] [[JARVIS Real Knowledge Index]]

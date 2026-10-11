@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.723821+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/qIMWas-Ziv8"
 ---
 
 # Record 2067 · 이번-올영세일-살안타템-추천이니스프리-노세범-선-파우더-올영추천템
@@ -15,7 +19,3 @@ tags: [record, real-data]
 이번 올영세일 살안타템 추천☀️이니스프리 노세범 선 파우더‼️ #올영추천템
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

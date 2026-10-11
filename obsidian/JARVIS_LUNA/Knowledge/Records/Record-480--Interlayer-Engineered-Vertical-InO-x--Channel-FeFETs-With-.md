@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.499911+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1109/led.2026.3712510"
 ---
 
 # Record 480 · Interlayer-Engineered-Vertical-InO-x--Channel-FeFETs-With-Two-Step-Ann
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Interlayer-Engineered Vertical InO x -Channel FeFETs With Two-Step Annealing for 2-bit/cell Operation
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

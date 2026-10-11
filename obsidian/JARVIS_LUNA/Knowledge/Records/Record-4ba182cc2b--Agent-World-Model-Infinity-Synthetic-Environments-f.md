@@ -2,8 +2,14 @@
 title: "Record 4ba182cc2b · Agent-World-Model-Infinity-Synthetic-Environments-for-Agentic-Reinforc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.663636+00:00
+updated_at: 2026-10-11T00:55:37.832621+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트", "머신러닝-연구", "데이터분석"]
+org: "Snowflake"
+domain: "openalex.org"
+url: "https://openalex.org/W7128648738"
+kind: "논문"
 ---
 
 # Record 4ba182cc2b · Agent-World-Model-Infinity-Synthetic-Environments-for-Agentic-Reinforc
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[머신러닝-연구]] [[데이터분석]] [[기관--Snowflake]] [[JARVIS Real Knowledge Index]]

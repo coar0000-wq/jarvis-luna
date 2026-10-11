@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.300825+00:00
 tags: [{', '.join(tags)}]
+source: "arXiv"
+topics: ["AI-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27442v1"
 ---
 
 # Record 844 · From-Static-to-Dynamic-Benchmarking-Real-World-Code-Review-with-MCR-Be
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

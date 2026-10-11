@@ -2,8 +2,14 @@
 title: "Record 5dc27e78ab · Rapid-phage-susceptibility-determination-using-a-se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.466688+00:00
+updated_at: 2026-10-11T00:55:19.232233+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.1128/spectrum.00782-26"
+kind: "논문"
 ---
 
 # Record 5dc27e78ab · Rapid-phage-susceptibility-determination-using-a-se
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Rapid phage susceptibility determination using a semi-automated bioluminescent ATP assay
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

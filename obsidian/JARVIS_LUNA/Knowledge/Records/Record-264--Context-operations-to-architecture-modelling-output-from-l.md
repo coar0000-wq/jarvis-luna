@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.381601+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10132v1"
 ---
 
 # Record 264 · Context-operations-to-architecture-modelling-output-from-large-languag
@@ -16,7 +20,3 @@ Context operations to architecture modelling output from large language models a
 The development of generative artificial intelligence resources enables opportunities of speeding up systems and engineering design work. This contribution introduces a framework of formal operations for assembling context in LLM-based engineering design. This framework involves the assembly of modular context units, including policy prompts, reference units with persistence, and user questions wi
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

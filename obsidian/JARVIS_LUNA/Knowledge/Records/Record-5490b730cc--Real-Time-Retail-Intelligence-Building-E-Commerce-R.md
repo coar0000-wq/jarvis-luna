@@ -2,8 +2,14 @@
 title: "Record 5490b730cc · Real-Time-Retail-Intelligence-Building-E-Commerce-Recommendations-with"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.443101+00:00
+updated_at: 2026-10-11T00:55:49.100875+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "이커머스Shopify", "데이터분석"]
+org: "Databricks"
+domain: "www.databricks.com"
+url: "https://www.databricks.com/blog/real-time-retail-intelligence-building-e-commerce-recommendations-lakebase-and-ai-search"
+kind: "발표물"
 ---
 
 # Record 5490b730cc · Real-Time-Retail-Intelligence-Building-E-Commerce-Recommendations-with
@@ -16,7 +22,3 @@ Real-Time Retail Intelligence: Building E-Commerce Recommendations with Lakebase
 The opportunity: Personalization as a revenue engineEvery second a shopper spends...
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[이커머스Shopify]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

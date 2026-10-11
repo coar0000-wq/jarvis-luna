@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.426808+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=tZW0x_tDhSk"
 ---
 
 # Record 1008 · How-to-use-Claude-to-Create-Digital-Products
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 How to use Claude to Create Digital Products
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.962867+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "모델-라우팅MoE", "AI-에이전트"]
+org: "OpenAI"
+domain: "doi.org"
+url: "https://doi.org/10.64898/2026.08.13.744657"
 ---
 
 # Record 921 · LifeSciBench-Evaluating-Language-Models-on-Realistic-Expert-Level-Task
@@ -15,7 +20,3 @@ tags: [record, real-data]
 LifeSciBench: Evaluating Language Models on Realistic, Expert-Level Tasks in the Life Sciences
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[모델-라우팅MoE]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record a4c02e1176 · Best-eCommerce-Development-Service-Companies-in-USA---ClickPost"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.239205+00:00
+updated_at: 2026-10-11T00:55:30.988639+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qczg3V3ZjSlJyTkZia1lyU1NFelJYTno4RHB3dm9jNkFYOE9JOUdpekU4YTV5NHE2WUt6elQwV014ajRDcU5jSHJFZEd3aGtmSi1vbDdNODJ1Y3JEQU9KZkpVbmFodlZxdkFrdi13?oc=5"
 ---
 
 # Record a4c02e1176 · Best-eCommerce-Development-Service-Companies-in-USA---ClickPost
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Best eCommerce Development Service Companies in USA - ClickPost
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

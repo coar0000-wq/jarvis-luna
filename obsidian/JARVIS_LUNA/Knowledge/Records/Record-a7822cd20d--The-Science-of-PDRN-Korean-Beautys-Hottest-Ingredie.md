@@ -2,8 +2,12 @@
 title: "Record a7822cd20d · The-Science-of-PDRN-Korean-Beautys-Hottest-Ingredie"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.454439+00:00
+updated_at: 2026-10-11T00:55:34.714602+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMingFBVV95cUxNeVJiV0puYy01YnJFZkxvdkVCQmhzcGZzMnk5NTZQTy1GMi1oVmlZSEdHMS1wLU5ZbVltLVdtdmtiX2Q2Y0tyZWJ0QkRoT0kzZHJPSW40dnN4OTZaNDh1N0dReEcycTJPRkRWbUV2X3BtVm5kM3Z3anN3dmMwNFN1WDBLZTd1QTZRNlhWTzJGMHdsNkduWmdWQ2ZncG5uZw?oc=5"
 ---
 
 # Record a7822cd20d · The-Science-of-PDRN-Korean-Beautys-Hottest-Ingredie
@@ -15,7 +19,3 @@ tags: [record, real-data]
 The Science of PDRN: Korean Beauty’s Hottest Ingredient - USC Dornsife
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

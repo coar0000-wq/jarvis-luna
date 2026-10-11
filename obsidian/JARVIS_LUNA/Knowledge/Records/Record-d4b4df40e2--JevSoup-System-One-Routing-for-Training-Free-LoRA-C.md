@@ -2,8 +2,12 @@
 title: "Record d4b4df40e2 · JevSoup-System-One-Routing-for-Training-Free-LoRA-Composition"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.836258+00:00
+updated_at: 2026-10-11T00:55:24.884185+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["모델-라우팅MoE", "머신러닝-연구"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.30922"
 ---
 
 # Record d4b4df40e2 · JevSoup-System-One-Routing-for-Training-Free-LoRA-Composition
@@ -16,7 +20,3 @@ JevSoup: System-One Routing for Training-Free LoRA Composition
 Building adaptable AI systems requires effective coordination of specialized capabilities across diverse tasks. Low-rank adaptation (LoRA) enables modular expertise, but existing routing approaches may require auxiliary data, additional training, or autoregressive decoding. We propose JevSoup, a training-free framework separating System One expert routing from System Two execution. Using only the
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[모델-라우팅MoE]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

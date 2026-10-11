@@ -2,8 +2,14 @@
 title: "Record d6a5276768 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.347668+00:00
+updated_at: 2026-10-11T00:55:17.163007+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsanm.6c02033"
+kind: "논문"
 ---
 
 # Record d6a5276768 · Geometry-dependent-Halogen-Contact-Doping-in-WWSe2W
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Geometry-dependent Halogen Contact Doping in W–WSe2–W Field-Effect Transistors: A First-Principles Quantum-Transport Study
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

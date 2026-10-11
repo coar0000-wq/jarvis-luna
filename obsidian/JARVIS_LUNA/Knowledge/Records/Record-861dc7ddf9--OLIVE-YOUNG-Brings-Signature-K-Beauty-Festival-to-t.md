@@ -2,8 +2,12 @@
 title: "Record 861dc7ddf9 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-t"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.107380+00:00
+updated_at: 2026-10-11T00:55:28.660079+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYy1xaTlhMm10N1hMMGQ2cERwdExGMWVxQ3RDNVZoUFBFU01iTlFqbVNEdEdOTnFHVXhDX2YxN0Q1eWpUdFZJdXZyS2k4anhrTVdhR1Q2dUpfdEIySDhFSm9CTHlsODNyTkZqOVFxRmpLWjF6S1hCVkxPVkhPZGl0RXhndzBFYzZLa25DOHl2RVgxSmRUb3NXSmF5alI2LTdSaFZtUmViRGFqeTZKY2tWODJ5VlZ6R05NVFc1d1A2azNOVWRJR2JsaC1nTklMVzlhOEh3TjJNN2ZwOXc?oc=5"
 ---
 
 # Record 861dc7ddf9 · OLIVE-YOUNG-Brings-Signature-K-Beauty-Festival-to-t
@@ -15,7 +19,3 @@ tags: [record, real-data]
 OLIVE YOUNG Brings Signature K-Beauty Festival to the U.S. with OLIVE YOUNG FESTA LA 2026 - PR Newswire
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

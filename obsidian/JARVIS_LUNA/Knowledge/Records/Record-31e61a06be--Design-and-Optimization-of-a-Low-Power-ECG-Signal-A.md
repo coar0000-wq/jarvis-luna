@@ -2,8 +2,14 @@
 title: "Record 31e61a06be · Design-and-Optimization-of-a-Low-Power-ECG-Signal-Amplifier-using-Self"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.534345+00:00
+updated_at: 2026-10-11T00:55:20.332783+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.21203/rs.3.rs-8802090/v1"
+kind: "논문"
 ---
 
 # Record 31e61a06be · Design-and-Optimization-of-a-Low-Power-ECG-Signal-Amplifier-using-Self
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Design and Optimization of a Low-Power ECG Signal Amplifier using Self-Cascode OTA in 90nm CMOS Technology
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.424154+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Citigroup"
+domain: "doi.org"
+url: "https://doi.org/10.1080/15321819.2026.2710420"
 ---
 
 # Record 424 · Decoding-the-PI3KAktmTOR-AMPK-signalling-nexus-molecular-crosstalk-met
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Decoding the PI3K/Akt/mTOR-AMPK signalling nexus: molecular crosstalk, metabolic reprogramming and therapeutic targeting in human disease
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Citigroup]] [[JARVIS Real Knowledge Index]]

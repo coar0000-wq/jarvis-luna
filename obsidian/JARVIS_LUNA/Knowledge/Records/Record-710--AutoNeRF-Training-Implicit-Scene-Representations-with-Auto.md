@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.554816+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["뷰티스킨케어", "AI-에이전트", "머신러닝-연구"]
+org: "Mistral-AI"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2304.11241"
 ---
 
 # Record 710 · AutoNeRF-Training-Implicit-Scene-Representations-with-Autonomous-Agent
@@ -15,7 +20,3 @@ tags: [record, real-data]
 AutoNeRF: Training Implicit Scene Representations with Autonomous Agents
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[뷰티스킨케어]] [[AI-에이전트]] [[머신러닝-연구]] [[기관--Mistral-AI]] [[JARVIS Real Knowledge Index]]

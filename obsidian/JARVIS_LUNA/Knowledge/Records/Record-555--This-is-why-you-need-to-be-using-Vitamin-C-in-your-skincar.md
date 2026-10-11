@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T11:41:16.739604+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/f60sSXFgWEg"
 ---
 
 # Record 555 · This-is-why-you-need-to-be-using-Vitamin-C-in-your-skincare-routine
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 This is why you need to be using Vitamin C in your skincare routine!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

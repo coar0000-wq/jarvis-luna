@@ -2,8 +2,12 @@
 title: "Record 16921ab801 · Q-tips-Cotton-Swabs-For-Hygiene-and-Beauty-Care-Original-Cotton-Swab-M"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.252388+00:00
+updated_at: 2026-10-11T00:55:46.580638+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Q-tips-Cotton-Hygiene-Beauty-Original/dp/B00J4YYFYA/ref=zg_bs_g_beauty_d_sccl_30/147-8204049-1700168"
 ---
 
 # Record 16921ab801 · Q-tips-Cotton-Swabs-For-Hygiene-and-Beauty-Care-Original-Cotton-Swab-M
@@ -16,7 +20,3 @@ Q-tips Cotton Swabs For Hygiene and Beauty Care Original Cotton Swab Made With 1
 Q-tips Cotton Swabs For Hygiene and Beauty Care Original Cotton Swab Made With 100% Cotton 750 Count · $5.25 · 평점 4.8 · 리뷰 20,140
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

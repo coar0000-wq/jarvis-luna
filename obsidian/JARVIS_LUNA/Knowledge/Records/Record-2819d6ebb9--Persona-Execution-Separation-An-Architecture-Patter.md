@@ -2,8 +2,12 @@
 title: "Record 2819d6ebb9 · Persona-Execution-Separation-An-Architecture-Patter"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.815812+00:00
+updated_at: 2026-10-11T00:55:55.505836+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["AI-에이전트", "LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27427v1"
 ---
 
 # Record 2819d6ebb9 · Persona-Execution-Separation-An-Architecture-Patter
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-에이전트]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

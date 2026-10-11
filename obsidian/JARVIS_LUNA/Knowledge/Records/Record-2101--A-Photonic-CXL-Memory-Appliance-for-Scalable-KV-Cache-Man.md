@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T16:40:04.030533+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "openalex.org"
+url: "https://openalex.org/W7172068284"
 ---
 
 # Record 2101 · A-Photonic-CXL-Memory-Appliance-for-Scalable-KV-Cache-Management-in-LL
@@ -15,7 +20,3 @@ tags: [record, real-data]
 A Photonic-CXL Memory Appliance for Scalable KV Cache Management in LLM Inference
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

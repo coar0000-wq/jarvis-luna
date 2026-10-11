@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T22:41:39.089175+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/QMky2XRx6_I"
 ---
 
 # Record 2202 · the-ULTIMATE-test-for-my-makeup-hackAD
@@ -15,7 +19,3 @@ tags: [record, real-data]
 the ULTIMATE test for my makeup hack🔥AD*
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T02:54:23.393058+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Booz-Allen-Hamilton"
+domain: "doi.org"
+url: "https://doi.org/10.1111/fare.70181"
 ---
 
 # Record 586 · Influence-of-mobility-and-workfamily-conflict-on-US-military-spouse-em
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Influence of mobility and work–family conflict on U.S. military spouse employment
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Booz-Allen-Hamilton]] [[JARVIS Real Knowledge Index]]

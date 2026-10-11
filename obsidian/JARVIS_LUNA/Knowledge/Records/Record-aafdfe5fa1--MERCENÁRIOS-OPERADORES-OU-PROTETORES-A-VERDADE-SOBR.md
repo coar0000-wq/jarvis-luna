@@ -2,8 +2,14 @@
 title: "Record aafdfe5fa1 · MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBRE-PMC-PSD-E-CPO"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.609818+00:00
+updated_at: 2026-10-11T00:55:21.677355+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Intel"
+domain: "doi.org"
+url: "https://doi.org/10.47820/recima21.v7i8.8689"
+kind: "논문"
 ---
 
 # Record aafdfe5fa1 · MERCENÁRIOS-OPERADORES-OU-PROTETORES-A-VERDADE-SOBRE-PMC-PSD-E-CPO
@@ -15,7 +21,3 @@ tags: [record, real-data]
 MERCENÁRIOS, OPERADORES OU PROTETORES? A VERDADE SOBRE PMC, PSD E CPO
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Intel]] [[JARVIS Real Knowledge Index]]

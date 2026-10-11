@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T08:40:52.740256+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qiJ0qGtBGN0"
 ---
 
 # Record 2836 · Olivia-Dean-I-Really-Expected-More-From-You
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Olivia Dean, I Really Expected More From You :/
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

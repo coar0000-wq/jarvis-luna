@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T19:06:24.788754+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Morgan-Stanley"
+domain: "openalex.org"
+url: "https://openalex.org/W7160968250"
 ---
 
 # Record 2043 · ModelLens-Finding-the-Best-for-Your-Task-from-Myriads-of-Models
@@ -15,7 +20,3 @@ tags: [record, real-data]
 ModelLens: Finding the Best for Your Task from Myriads of Models
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Morgan-Stanley]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 2f6f02b98f · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Ro"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.704808+00:00
+updated_at: 2026-10-11T00:55:38.677820+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "openalex.org"
+url: "https://openalex.org/W7172557097"
+kind: "논문"
 ---
 
 # Record 2f6f02b98f · Spectroscopy-of-the-Hyperfine-Structure-of-HD-in-Ro
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Spectroscopy of the Hyperfine Structure of HD$^+$ in Rotationally Excited States with 10-ppb Uncertainty
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

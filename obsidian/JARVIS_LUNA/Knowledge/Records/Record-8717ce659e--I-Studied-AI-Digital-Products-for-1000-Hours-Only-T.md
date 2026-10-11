@@ -2,8 +2,12 @@
 title: "Record 8717ce659e · I-Studied-AI-Digital-Products-for-1000-Hours-Only-T"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.724446+00:00
+updated_at: 2026-10-11T00:55:54.371632+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=Ps9c5NP3uds"
 ---
 
 # Record 8717ce659e · I-Studied-AI-Digital-Products-for-1000-Hours-Only-T
@@ -15,7 +19,3 @@ tags: [record, real-data]
 I Studied AI Digital Products for 1,000 Hours Only These Make $100K/Month
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

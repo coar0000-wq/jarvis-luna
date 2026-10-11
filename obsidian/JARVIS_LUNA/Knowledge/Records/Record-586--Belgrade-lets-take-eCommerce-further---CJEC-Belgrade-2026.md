@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.081324+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=0AGABvB89no"
 ---
 
 # Record 586 · Belgrade-lets-take-eCommerce-further---CJEC-Belgrade-2026
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Belgrade, let's take eCommerce further. 🚀 | CJEC Belgrade 2026
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

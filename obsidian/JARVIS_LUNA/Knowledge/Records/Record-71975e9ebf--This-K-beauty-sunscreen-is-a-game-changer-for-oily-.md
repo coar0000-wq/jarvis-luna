@@ -2,8 +2,12 @@
 title: "Record 71975e9ebf · This-K-beauty-sunscreen-is-a-game-changer-for-oily-skin---The-Independ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.548195+00:00
+updated_at: 2026-10-11T00:55:36.357952+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOajJuaWhEU0dCRWFaQ1FzWUpwbUtPRXJET1NmRUFJR01Qb2VoaUREUzBtZFZZLVB0elVmZmFpOENqdldFZXd2TkJGX3UzWXFzQ2RJRWpOb1ZtTFpfcGxYYkNDMUt0NmNzdmg2YzJWYTg3UmZ4RlotVjZ3UDdNQnRXMGtBVEgtU2FzY1BJb2JMY1RBa0pSeWpZLWdhZlVPWDh1ZXBady1DRjBaUkdFemdyZG1menFpSlc0VWZrMlQ0VF9vY0dqZkxVYg?oc=5"
 ---
 
 # Record 71975e9ebf · This-K-beauty-sunscreen-is-a-game-changer-for-oily-skin---The-Independ
@@ -16,7 +20,3 @@ This K-beauty sunscreen is a game-changer for oily skin - independent.co.uk
 This K-beauty sunscreen is a game-changer for oily skin - independent.co.uk
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

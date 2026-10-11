@@ -2,8 +2,12 @@
 title: "Record 99488de23b · Generative-Marketing-Mix-Modeling-A-Causal-Inferenc"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.084890+00:00
+updated_at: 2026-10-11T00:55:13.417508+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["경영전략", "마케팅광고"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.11915v1"
 ---
 
 # Record 99488de23b · Generative-Marketing-Mix-Modeling-A-Causal-Inferenc
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[경영전략]] [[마케팅광고]] [[JARVIS Real Knowledge Index]]

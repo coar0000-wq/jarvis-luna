@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.219234+00:00
 tags: [knowledge-graph, record, arxiv]
+source: "arXiv"
+topics: ["AI-Research"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27442v1"
 ---
 
 # Record 1088 · From-Static-to-Dynamic-Benchmarking-Real-World-Code-Review-with-MCR-Be
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, arxiv]
 From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

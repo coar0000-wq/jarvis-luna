@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T16:26:52.496320+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan-Chase"
+domain: "www.jpmorgan.com"
+url: "https://www.jpmorgan.com/insights/payments/embedded-finance-baas/unum-insurance-payments-concourse"
 ---
 
 # Record 2072 · Unum-Insurance-Payments-Concourse
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Unum Insurance Payments Concourse
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

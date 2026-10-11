@@ -2,8 +2,12 @@
 title: "Record 3193aa8719 · Learning-Terrain-Adaptive-Humanoid-Locomotion-on-Gr"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.031645+00:00
+updated_at: 2026-10-11T00:55:12.857825+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["과학수학"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.10286v1"
 ---
 
 # Record 3193aa8719 · Learning-Terrain-Adaptive-Humanoid-Locomotion-on-Gr
@@ -16,7 +20,3 @@ Learning Terrain-Adaptive Humanoid Locomotion on Granular Terrain
 Humanoid locomotion on granular terrain remains a significant challenge due to its complex foot-terrain interaction dynamics that are difficult to model. Existing approaches either ignore granular contact dynamics or incorporate simplified normal force models with heuristic tangential components. In this work, we present a physics-grounded granular contact model based on three-dimensional resistiv
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[과학수학]] [[JARVIS Real Knowledge Index]]

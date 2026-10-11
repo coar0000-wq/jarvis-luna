@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.553471+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+org: "Broadcom"
+domain: "doi.org"
+url: "https://doi.org/10.48047/jocaaa.2026.35.01.38"
 ---
 
 # Record 704 · Memory-Deduplication-and-Copy-on-Write-Optimization-in-Rapid-Virtual-M
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Memory Deduplication and Copy-on-Write Optimization in Rapid Virtual Machine Provisioning Systems
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

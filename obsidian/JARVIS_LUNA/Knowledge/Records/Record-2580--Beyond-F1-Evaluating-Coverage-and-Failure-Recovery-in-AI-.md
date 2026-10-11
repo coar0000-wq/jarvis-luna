@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T14:10:03.802683+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델", "보안프라이버시"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.27424v1"
 ---
 
 # Record 2580 · Beyond-F1-Evaluating-Coverage-and-Failure-Recovery-in-AI-Model-Securit
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[보안프라이버시]] [[JARVIS Real Knowledge Index]]

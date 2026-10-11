@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.093231+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=qR5TK4SjRdg"
 ---
 
 # Record 663 · Planning-a-trip-to-Hangzhou-Save-this-guide-before-you-go
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Planning a trip to Hangzhou? Save this guide before you go. 🇨🇳
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

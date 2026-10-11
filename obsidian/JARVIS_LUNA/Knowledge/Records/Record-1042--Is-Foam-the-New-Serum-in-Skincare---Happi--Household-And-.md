@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T02:18:26.008704+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qZDN4MS1NMVYyQ09pQjdBVWRTWWI3ekMzcmZjNGFISWZqMDM1WkF0b1hiN2E2MmZNS2cwQ3Q0QnpkZGFHRGEwUnFrV2Y4X01WVE83S1dlcl8wYUY5WkhpMXJyRWh1dzZ6YkE?oc=5"
 ---
 
 # Record 1042 · Is-Foam-the-New-Serum-in-Skincare---Happi--Household-And-Personal-Prod
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Is Foam the New Serum in Skincare? - Happi | Household And Personal Products Industry
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

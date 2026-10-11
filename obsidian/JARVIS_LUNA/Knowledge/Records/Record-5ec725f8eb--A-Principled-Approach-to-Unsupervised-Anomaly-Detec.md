@@ -2,8 +2,12 @@
 title: "Record 5ec725f8eb · A-Principled-Approach-to-Unsupervised-Anomaly-Detection"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.161834+00:00
+updated_at: 2026-10-11T00:55:14.349687+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.21800"
 ---
 
 # Record 5ec725f8eb · A-Principled-Approach-to-Unsupervised-Anomaly-Detection
@@ -16,7 +20,3 @@ A Principled Approach to Unsupervised Anomaly Detection
 Traditional unsupervised anomaly detection (UAD) methods are designed to flag or localise deviations from a normative distribution, ignoring the underlying generative mechanisms of the anomalies. Yet the nature of an anomaly is often as important as its presence. We reformulate UAD as a Bayesian inverse problem, in which the objective is to infer the most probable corruption responsible for each o
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

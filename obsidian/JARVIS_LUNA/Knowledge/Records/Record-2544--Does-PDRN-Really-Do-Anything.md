@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.892940+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["미분류"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=wrmkqe2rK5g"
 ---
 
 # Record 2544 · Does-PDRN-Really-Do-Anything
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Does PDRN Really Do Anything?
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[미분류]] [[JARVIS Real Knowledge Index]]

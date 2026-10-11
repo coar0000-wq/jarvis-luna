@@ -2,8 +2,12 @@
 title: "Record d6a0ea3af9 · Accelerated-Decoding-of-Centroid-Positional-Encoding-for-Instance-Segm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.109842+00:00
+updated_at: 2026-10-11T00:55:13.732709+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전", "반도체하드웨어"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.16874"
 ---
 
 # Record d6a0ea3af9 · Accelerated-Decoding-of-Centroid-Positional-Encoding-for-Instance-Segm
@@ -16,7 +20,3 @@ Accelerated Decoding of Centroid Positional Encoding for Instance Segmentation
 Beyond model inference, the decoding stage, which converts raw network outputs into task-level representations, constitutes a significant portion of the execution cost. Despite its practical impact, prediction decoding has received comparatively little attention and is often implemented using generic CPU routines or inefficient GPU kernels, limiting the benefits of advances in model efficiency. In
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[반도체하드웨어]] [[JARVIS Real Knowledge Index]]

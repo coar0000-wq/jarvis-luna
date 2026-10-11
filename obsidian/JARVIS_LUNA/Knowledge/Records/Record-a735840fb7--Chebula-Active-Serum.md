@@ -2,8 +2,12 @@
 title: "Record a735840fb7 · Chebula-Active-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.758746+00:00
+updated_at: 2026-10-11T00:55:39.546921+00:00
 tags: [record, real-data]
+source: "organic_skincare"
+topics: ["뷰티스킨케어"]
+domain: "truebotanicals.com"
+url: "https://truebotanicals.com/"
 ---
 
 # Record a735840fb7 · Chebula-Active-Serum
@@ -16,7 +20,3 @@ Chebula Active Serum
 Chebula Active Serum · True Botanicals · Serum · $90.0 · organic, serum
 
 **출처:** Source · organic_skincare
-
-## Connected nodes
-
-[[Source--organic_skincare]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record b74f7f4dad · Managing-Iterative-Hybrid-Quantum-Classical-Optimization-as-a-First-Cl"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.829184+00:00
+updated_at: 2026-10-11T00:55:24.779535+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["AI-에이전트", "과학수학"]
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.30532"
 ---
 
 # Record b74f7f4dad · Managing-Iterative-Hybrid-Quantum-Classical-Optimization-as-a-First-Cl
@@ -16,7 +20,3 @@ Managing Iterative Hybrid Quantum-Classical Optimization as a First-Class Scient
 Today's Quantum Processing Units (QPUs) are too small and too noisy to solve large combinatorial optimization problems directly, so practical hybrid solvers split a problem into pieces and iterate a decompose-solve-aggregate loop over whatever backends are available: classical heuristics, simulators, emulators, or a QPU. In practice, the loop is a driver script. It sits on top of the quantum-HPC m
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[AI-에이전트]] [[과학수학]] [[JARVIS Real Knowledge Index]]

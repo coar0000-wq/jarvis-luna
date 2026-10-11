@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T17:27:40.352608+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWG44VUI4Vmx4QlluU0djS19JX3A5LVR3Vjl6Nm9wY3cxNThrUzBsUFgzTE5uNUJoWXdmZWx1MnhpSDRxcE1aXzZjV2RHZ19ibmw0OHpVZm9tbkJlT01ZV3gtcXEzeE9nMksxcmd2cnNpTWFtMmJydGswOGRZVkhGemQySXYybVROZ1hTSm9QN0hTRkNKYjNrOGtn?oc=5"
 ---
 
 # Record 595 · What-Is-Conservative-Girl-Makeup-Explaining-the-TikTok-Trend-on-Republ
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 What Is Conservative Girl Makeup? Explaining the TikTok Trend on Republican Makeup - L'OFFICIEL USA
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-01T15:53:59.087049+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=RzFHcZA6uxA"
 ---
 
 # Record 623 · 11-Lazy-Ways-To-Make-Money-With-AI-No-Experience
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 11 Lazy Ways To Make Money With AI (No Experience)
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

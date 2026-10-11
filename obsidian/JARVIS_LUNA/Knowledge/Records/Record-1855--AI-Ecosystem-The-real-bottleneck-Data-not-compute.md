@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.744575+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "SK-hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/ai-ecosystem-series-ep2-2/"
 ---
 
 # Record 1855 · AI-Ecosystem-The-real-bottleneck-Data-not-compute
@@ -15,7 +20,3 @@ tags: [record, real-data]
 [AI Ecosystem] The real bottleneck: Data, not compute
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

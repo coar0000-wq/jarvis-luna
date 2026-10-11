@@ -2,8 +2,14 @@
 title: "Record 862f5caa12 · Tumor-data-extraction-from-unstructured-medical-reports-application-of"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.309784+00:00
+updated_at: 2026-10-11T00:55:16.392856+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "투자은행금융"]
+org: "UBS"
+domain: "doi.org"
+url: "https://doi.org/10.1016/j.esmorw.2026.100784"
+kind: "논문"
 ---
 
 # Record 862f5caa12 · Tumor-data-extraction-from-unstructured-medical-reports-application-of
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Tumor data extraction from unstructured medical reports: application of an artificial intelligence-enhanced tool in the Eastern Switzerland Cancer Registry
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

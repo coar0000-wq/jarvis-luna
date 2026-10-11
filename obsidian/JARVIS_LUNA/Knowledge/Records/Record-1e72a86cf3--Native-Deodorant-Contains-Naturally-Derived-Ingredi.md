@@ -2,8 +2,12 @@
 title: "Record 1e72a86cf3 · Native-Deodorant-Contains-Naturally-Derived-Ingredients-72-Hour-Odor-C"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.159749+00:00
+updated_at: 2026-10-11T00:55:45.428891+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Native-Deodorant-without-Aluminum-Parabens/dp/B07GB3NVN1/ref=zg_bs_g_beauty_d_sccl_16/139-6512042-2160214"
 ---
 
 # Record 1e72a86cf3 · Native-Deodorant-Contains-Naturally-Derived-Ingredients-72-Hour-Odor-C
@@ -16,7 +20,3 @@ Native Deodorant Contains Naturally Derived Ingredients, 72 Hour Odor Control, D
 Native Deodorant Contains Naturally Derived Ingredients, 72 Hour Odor Control, Deodorant for Women and Men, Aluminum Free, Coconut & Vanilla 2.65oz · $13.97 · 평점 4.4 · 리뷰 119,242
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

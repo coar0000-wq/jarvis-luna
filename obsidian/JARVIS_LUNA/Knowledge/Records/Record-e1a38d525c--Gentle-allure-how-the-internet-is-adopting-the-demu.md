@@ -2,8 +2,12 @@
 title: "Record e1a38d525c · Gentle-allure-how-the-internet-is-adopting-the-demu"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.138251+00:00
+updated_at: 2026-10-11T00:55:29.232470+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB2aHRscWZyZ3Y5eEVaUkVwMDUwY0Q2NmlFcWd0R3hETFZiVTd5NExCQVhmM1F1RWxqaWxRaFFFMVozU2NadGxGN3NvRTg4X0NrS3NmYg?oc=5"
 ---
 
 # Record e1a38d525c · Gentle-allure-how-the-internet-is-adopting-the-demu
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Gentle allure: how the internet is adopting the ‘demure’ beauty trend - RUSSH
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.540768+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.3389/fearc.2026.1775646"
 ---
 
 # Record 651 · Neolithic-coastal-adaptation-and-resilience-in-relation-to-environment
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Neolithic coastal adaptation and resilience in relation to environmental dynamics during the early Holocene in the Eastern Mediterranean
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

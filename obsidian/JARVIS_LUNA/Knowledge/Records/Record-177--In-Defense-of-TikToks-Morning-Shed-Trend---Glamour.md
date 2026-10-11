@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T20:02:05.814036+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3M0hyNmpqY3JtMkczR3BpY3JzczJMbGl1UF9xQk54aFc5c3ozT2NLSHY3NlZQck1VTVBWN0JJUWZIUEcydlpmbVBFUG5yNXMtNjRQSVVOQ0x6SkVTMUgzTHBVcVhKZw?oc=5"
 ---
 
 # Record 177 · In-Defense-of-TikToks-Morning-Shed-Trend---Glamour
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 In Defense of TikTok’s ‘Morning Shed’ Trend - Glamour
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

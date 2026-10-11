@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T09:12:28.457423+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=7yDvg298J00"
 ---
 
 # Record 2235 · 20-Korean-Sunscreens-Ranked-After-Real-Wear-Tests
@@ -15,7 +19,3 @@ tags: [record, real-data]
 20 Korean Sunscreens Ranked After Real Wear Tests
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

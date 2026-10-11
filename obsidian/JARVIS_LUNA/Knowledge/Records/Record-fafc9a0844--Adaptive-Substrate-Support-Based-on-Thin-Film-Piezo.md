@@ -2,8 +2,14 @@
 title: "Record fafc9a0844 · Adaptive-Substrate-Support-Based-on-Thin-Film-Piezoelectric-Actuators"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.712672+00:00
+updated_at: 2026-10-11T00:55:23.340925+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.48550/arxiv.2609.18653"
+kind: "논문"
 ---
 
 # Record fafc9a0844 · Adaptive-Substrate-Support-Based-on-Thin-Film-Piezoelectric-Actuators
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Adaptive Substrate Support Based on Thin-Film Piezoelectric Actuators
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record afee6488f2 · Simple-Adaptive-Query-Processing-vs-Learned-Query-Optimizers-Observati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.273320+00:00
+updated_at: 2026-10-11T00:55:15.916365+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Databricks"
+domain: "doi.org"
+url: "https://doi.org/10.1007/s00778-025-00936-6"
+kind: "논문"
 ---
 
 # Record afee6488f2 · Simple-Adaptive-Query-Processing-vs-Learned-Query-Optimizers-Observati
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Simple Adaptive Query Processing vs. Learned Query Optimizers: Observations and Analysis
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Databricks]] [[JARVIS Real Knowledge Index]]

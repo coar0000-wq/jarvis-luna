@@ -2,8 +2,12 @@
 title: "Record 4993891112 · Snail-slime"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.023979+00:00
+updated_at: 2026-10-11T00:55:27.614212+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "en.wikipedia.org"
+url: "https://en.wikipedia.org/wiki/Snail_slime"
 ---
 
 # Record 4993891112 · Snail-slime
@@ -16,7 +20,3 @@ Snail slime
 Snail slime
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

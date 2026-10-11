@@ -2,8 +2,14 @@
 title: "Record 29a111153f · Behind-AIs-Rapid-Growth-Lies-Memory--SK-hynix-Shares-Its-Next-Generati"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.621190+00:00
+updated_at: 2026-10-11T00:55:37.196879+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융", "반도체하드웨어"]
+org: "SK hynix"
+domain: "news.skhynix.com"
+url: "https://news.skhynix.com/en/tsmc-oip-conference-2026-4/"
+kind: "발표물"
 ---
 
 # Record 29a111153f · Behind-AIs-Rapid-Growth-Lies-Memory--SK-hynix-Shares-Its-Next-Generati
@@ -16,7 +22,3 @@ tags: [record, real-data]
 ▲ SK hynix’s next-generation server DRAM lineup featured in this exhibition
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[반도체하드웨어]] [[기관--SK-hynix]] [[JARVIS Real Knowledge Index]]

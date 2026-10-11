@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-03T00:28:42.186351+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/z9nD0PcM238"
 ---
 
 # Record 711 · This-ONE-simple-step-is-keeping-u-away-from-that-GLASS-SKIN
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 This ONE simple step is keeping u away from that GLASS SKIN~!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

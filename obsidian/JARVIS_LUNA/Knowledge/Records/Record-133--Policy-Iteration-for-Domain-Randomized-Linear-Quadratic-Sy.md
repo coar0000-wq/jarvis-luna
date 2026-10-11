@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.355438+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04794v1"
 ---
 
 # Record 133 · Policy-Iteration-for-Domain-Randomized-Linear-Quadratic-Systems
@@ -16,7 +20,3 @@ Policy Iteration for Domain Randomized Linear Quadratic Systems
 In this work, we study policy optimization under domain randomization for linear quadratic control, focusing on learning a single state-feedback controller that minimizes the average cost across systems with uncertain dynamics. We propose a policy iteration algorithm with a step-size rule that preserves stability across all sampled systems at each iteration. We show that the method yields monotoni
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

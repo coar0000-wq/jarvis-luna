@@ -2,8 +2,12 @@
 title: "Record a4bbb35a94 · K-beauty-is-landing-at-Coles---beautydirectorycomau"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.277198+00:00
+updated_at: 2026-10-11T00:55:31.578072+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GUmUzVHNwZ0JTOXlNVVVOZlZUazYyTkhOdkZuTVp1Mll1N2RqNUEyYU1DSmVMUmNEeS04TGJ6YTZhR253Xy1qZ1ZQcmNDbW9UR0ZVNi1wRFdmSkMxSkRMQzZHNDJqMng4c3V5ZGJjNUsxX1Z3Tk9tLXlzbw?oc=5"
 ---
 
 # Record a4bbb35a94 · K-beauty-is-landing-at-Coles---beautydirectorycomau
@@ -15,7 +19,3 @@ tags: [record, real-data]
 K-beauty is landing at Coles - beautydirectory |
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

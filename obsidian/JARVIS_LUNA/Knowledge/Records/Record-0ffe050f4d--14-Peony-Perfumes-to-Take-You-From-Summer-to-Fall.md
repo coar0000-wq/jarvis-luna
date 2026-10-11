@@ -2,8 +2,12 @@
 title: "Record 0ffe050f4d · 14-Peony-Perfumes-to-Take-You-From-Summer-to-Fall"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.938179+00:00
+updated_at: 2026-10-11T00:55:42.528725+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/peony-fragrances"
 ---
 
 # Record 0ffe050f4d · 14-Peony-Perfumes-to-Take-You-From-Summer-to-Fall
@@ -16,7 +20,3 @@ tags: [record, real-data]
 14 Peony Perfumes to Take You From Summer to Fall
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

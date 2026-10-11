@@ -2,8 +2,12 @@
 title: "Record fbdc534a12 · HANYUL-Artemisia-Soothing-Gel-Cream-186-fl-oz55ml"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.862696+00:00
+updated_at: 2026-10-11T00:55:41.217306+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA90296201"
 ---
 
 # Record fbdc534a12 · HANYUL-Artemisia-Soothing-Gel-Cream-186-fl-oz55ml
@@ -16,7 +20,3 @@ HANYUL Artemisia Soothing Gel Cream 1.86 fl. oz.(55ml)
 HANYUL Artemisia Soothing Gel Cream 1.86 fl. oz.(55ml)
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

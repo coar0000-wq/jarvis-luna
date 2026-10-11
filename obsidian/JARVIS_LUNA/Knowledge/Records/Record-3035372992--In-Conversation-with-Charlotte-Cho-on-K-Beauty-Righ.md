@@ -2,8 +2,12 @@
 title: "Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Righ"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.247211+00:00
+updated_at: 2026-10-11T00:55:31.101757+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RTnJsaW5WRDN6MUgyV1NFSGl4SW42UXY5RkR6S2dqNHhTZjlSdXc5MG5kZVZncUVMMW5JY1NBdVNZNVlJdy1YM3pTUHAwNTB3VGY1eHBMNWlvSkxONEk0ZFN5Q25uT3JSdHc2Z2VDSUk1ZkE?oc=5"
 ---
 
 # Record 3035372992 · In-Conversation-with-Charlotte-Cho-on-K-Beauty-Righ
@@ -15,7 +19,3 @@ tags: [record, real-data]
 In Conversation with Charlotte Cho on K Beauty Right Now - The Chalkboard Mag
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

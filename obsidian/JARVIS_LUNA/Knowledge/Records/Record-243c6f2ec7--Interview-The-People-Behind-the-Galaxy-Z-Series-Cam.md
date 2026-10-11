@@ -2,8 +2,14 @@
 title: "Record 243c6f2ec7 · Interview-The-People-Behind-the-Galaxy-Z-Series-Camera-Innovations-①-H"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.561503+00:00
+updated_at: 2026-10-11T00:55:36.493656+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["소셜콘텐츠", "반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "news.samsung.com"
+url: "https://news.samsung.com/global/interview-the-people-behind-the-galaxy-z-series-camera-innovations-%e2%91%a0-how-my-fancam-keeps-favorite-people-in-focus"
+kind: "발표물"
 ---
 
 # Record 243c6f2ec7 · Interview-The-People-Behind-the-Galaxy-Z-Series-Camera-Innovations-①-H
@@ -16,7 +22,3 @@ tags: [record, real-data]
 Unveiled at Galaxy Unpacked July 2026, Samsung Electronics’ Galaxy Z series introduces My FanCam — a new feature that lets users focus their edits on a person of their choice — as well as an enhanced Portrait Video that recreates the look of professional camera lenses. While the two features offer different camera experiences, both draw […]
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[소셜콘텐츠]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

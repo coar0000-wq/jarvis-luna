@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T05:01:10.693678+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "Google-DeepMind"
+domain: "openalex.org"
+url: "https://openalex.org/W7166400338"
 ---
 
 # Record 1826 · Detecting-and-Controlling-Sycophancy-with-Cascading-Linear-Features
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Detecting and Controlling Sycophancy with Cascading Linear Features
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--Google-DeepMind]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-f"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.659214+00:00
+updated_at: 2026-10-11T00:55:37.761863+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+kind: "발표물"
 ---
 
 # Record 39842fa0b3 · How-a-researcher-uses-Codex-and-ChatGPT-to-search-f
@@ -16,7 +22,3 @@ How a researcher uses Codex and ChatGPT to search for new antimicrobial molecule
 César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 279020ea0b · 7-Best-Olay-Body-Care-Products-for-Glowing-Skin-from-Head-to-Toe"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.913779+00:00
+updated_at: 2026-10-11T00:55:42.157730+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/best-olay-body-care-products"
 ---
 
 # Record 279020ea0b · 7-Best-Olay-Body-Care-Products-for-Glowing-Skin-from-Head-to-Toe
@@ -16,7 +20,3 @@ tags: [record, real-data]
 7 Best Olay Body-Care Products for Glowing Skin from Head to Toe
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

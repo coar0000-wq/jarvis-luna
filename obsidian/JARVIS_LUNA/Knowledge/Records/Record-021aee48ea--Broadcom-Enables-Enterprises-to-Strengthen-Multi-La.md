@@ -2,8 +2,14 @@
 title: "Record 021aee48ea · Broadcom-Enables-Enterprises-to-Strengthen-Multi-La"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.062152+00:00
+updated_at: 2026-10-11T00:55:27.986557+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["인프라클라우드", "반도체하드웨어"]
+org: "Broadcom"
+domain: "investors.broadcom.com"
+url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-enables-enterprises-strengthen-multi-layer-cyber"
+kind: "발표물"
 ---
 
 # Record 021aee48ea · Broadcom-Enables-Enterprises-to-Strengthen-Multi-La
@@ -16,7 +22,3 @@ Broadcom Enables Enterprises to Strengthen Multi-Layer Cyber Defense and Operati
 New Updates Layer Additional Defenses To VMware Cloud Foundation to Better Secure the Modern Private Cloud in the Frontier AI Era PALO ALTO, Calif., Aug. 06, 2026 (GLOBE NEWSWIRE) -- Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[인프라클라우드]] [[반도체하드웨어]] [[기관--Broadcom]] [[JARVIS Real Knowledge Index]]

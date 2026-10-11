@@ -2,8 +2,12 @@
 title: "Record babc5a651d · Beauty-of-Joseon-dazzles-UK-TikTok---The-Korea-Herald"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.132240+00:00
+updated_at: 2026-10-11T00:55:29.126296+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5lOXFGTEZFUG0wV1B0aGR0N0tyQklsY1JVRkZmYUUyNERVUEZQRE5xOTRoRzRYZHVzYkFmNlZMMjQ1dzNOQW1LbGZCZnNfczZab1pRVmVMNA?oc=5"
 ---
 
 # Record babc5a651d · Beauty-of-Joseon-dazzles-UK-TikTok---The-Korea-Herald
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Beauty of Joseon dazzles UK TikTok - The Korea Herald
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[뷰티스킨케어]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

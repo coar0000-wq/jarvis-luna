@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.436696+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["뷰티스킨케어", "의료바이오", "데이터분석"]
+org: "Palantir"
+domain: "doi.org"
+url: "https://doi.org/10.1001/jamanetworkopen.2024.0260"
 ---
 
 # Record 229 · Serum-Tumor-Markers-and-Outcomes-in-Patients-With-Appendiceal-Adenocar
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Serum Tumor Markers and Outcomes in Patients With Appendiceal Adenocarcinoma
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[뷰티스킨케어]] [[의료바이오]] [[데이터분석]] [[기관--Palantir]] [[JARVIS Real Knowledge Index]]

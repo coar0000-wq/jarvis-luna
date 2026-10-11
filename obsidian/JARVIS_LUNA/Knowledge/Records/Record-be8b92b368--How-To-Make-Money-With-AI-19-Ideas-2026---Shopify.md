@@ -2,8 +2,12 @@
 title: "Record be8b92b368 · How-To-Make-Money-With-AI-19-Ideas-2026---Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.217181+00:00
+updated_at: 2026-10-11T00:55:30.589188+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zcUVudGdXY0dKbnBUQzhiRWFQdmttQmRVVXEtWmFWOWMtaFdNWlFPV3lHQ0FSUFVRQ29ockVEdnQ1dEUyZ2F3V3EwSm5jeHp0UW4yWmJPQmg5eVRkVmhETEZkVlVTOHJXVWc?oc=5"
 ---
 
 # Record be8b92b368 · How-To-Make-Money-With-AI-19-Ideas-2026---Shopify
@@ -15,7 +19,3 @@ tags: [record, real-data]
 How To Make Money With AI: 19 Ideas (2026) - Shopify
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

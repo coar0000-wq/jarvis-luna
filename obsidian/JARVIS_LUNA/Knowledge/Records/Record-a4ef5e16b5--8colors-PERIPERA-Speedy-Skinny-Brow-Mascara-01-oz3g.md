@@ -2,8 +2,12 @@
 title: "Record a4ef5e16b5 · 8colors-PERIPERA-Speedy-Skinny-Brow-Mascara-01-oz3g"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.799620+00:00
+updated_at: 2026-10-11T00:55:40.132589+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA38760348"
 ---
 
 # Record a4ef5e16b5 · 8colors-PERIPERA-Speedy-Skinny-Brow-Mascara-01-oz3g
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [8colors] PERIPERA Speedy Skinny Brow Mascara 0.1 oz.(3g) · 평점 4.8 · 리뷰 21,850
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:36:36.292300+00:00
 tags: [{', '.join(tags)}]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/watch?v=v2IBIBN6IT0"
 ---
 
 # Record 749 · Underrated-Korean-Skin-Care-You-Need-To-Try
@@ -15,7 +19,3 @@ tags: [{', '.join(tags)}]
 Underrated Korean Skin Care You Need To Try
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

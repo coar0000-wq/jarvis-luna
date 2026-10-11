@@ -2,8 +2,12 @@
 title: "Record f76a282c2e · 3types-CORINGCO-Toktokhara-No-Glue-Eyelash-SANRIOComb-Mirror-Keyring"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.769913+00:00
+updated_at: 2026-10-11T00:55:39.640643+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "us.oliveyoung.com"
+url: "https://us.oliveyoung.com/products/UA13797912"
 ---
 
 # Record f76a282c2e · 3types-CORINGCO-Toktokhara-No-Glue-Eyelash-SANRIOComb-Mirror-Keyring
@@ -16,7 +20,3 @@ tags: [record, real-data]
 [3types] CORINGCO Toktokhara No Glue Eyelash (SANRIO)(+Comb Mirror Keyring) · 평점 4.8 · 리뷰 130
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

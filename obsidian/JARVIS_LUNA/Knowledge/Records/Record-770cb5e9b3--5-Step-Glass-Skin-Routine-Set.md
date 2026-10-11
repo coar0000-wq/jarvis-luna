@@ -2,8 +2,12 @@
 title: "Record 770cb5e9b3 · 5-Step-Glass-Skin-Routine-Set"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.615685+00:00
+updated_at: 2026-10-11T00:55:52.405687+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.ulta.com"
+url: "https://www.ulta.com/p/5-step-glass-skin-routine-set-pimprod2057060"
 ---
 
 # Record 770cb5e9b3 · 5-Step-Glass-Skin-Routine-Set
@@ -16,7 +20,3 @@ tags: [record, real-data]
 5-Step Glass Skin Routine Set · ANUA · $28
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

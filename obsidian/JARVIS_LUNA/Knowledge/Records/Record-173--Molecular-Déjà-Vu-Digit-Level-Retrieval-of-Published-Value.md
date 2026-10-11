@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T10:37:13.825941+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["LLM언어모델"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.05381v1"
 ---
 
 # Record 173 · Molecular-Déjà-Vu-Digit-Level-Retrieval-of-Published-Values-in-Frontie
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[LLM언어모델]] [[JARVIS Real Knowledge Index]]

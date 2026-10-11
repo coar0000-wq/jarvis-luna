@@ -2,8 +2,12 @@
 title: "Record b49288c785 · Sarah-Jessica-Parkers-Braid-Is-a-Quiet-Silver-Masterpiece"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.939475+00:00
+updated_at: 2026-10-11T00:55:42.547964+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/sarah-jessica-parker-quiet-silver-ribbon-braid"
 ---
 
 # Record b49288c785 · Sarah-Jessica-Parkers-Braid-Is-a-Quiet-Silver-Masterpiece
@@ -16,7 +20,3 @@ Sarah Jessica Parker's Braid Is a Quiet Silver Masterpiece
 Sarah Jessica Parker's Braid Is a Quiet Silver Masterpiece
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

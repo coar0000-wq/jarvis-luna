@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T22:24:12.386478+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["경영전략", "반도체하드웨어"]
+org: "TSMC"
+domain: "doi.org"
+url: "https://doi.org/10.1002/smll.75065"
 ---
 
 # Record 260 · Directly-Probing-StackingEngineered-Defect-State-Delocalization-in-Mar
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Directly Probing Stacking‐Engineered Defect State Delocalization in Marginally Twisted Bilayer WS 2
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[경영전략]] [[반도체하드웨어]] [[기관--TSMC]] [[JARVIS Real Knowledge Index]]

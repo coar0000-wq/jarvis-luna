@@ -2,8 +2,12 @@
 title: "Record f7251393b1 · PRIME-Perception-Feedback-with-Situational-Memory-Embeddings-in-VLA-Mo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.163948+00:00
+updated_at: 2026-10-11T00:55:14.376702+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["컴퓨터-비전"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.22040"
 ---
 
 # Record f7251393b1 · PRIME-Perception-Feedback-with-Situational-Memory-Embeddings-in-VLA-Mo
@@ -16,7 +20,3 @@ PRIME: Perception Feedback with Situational Memory Embeddings in VLA Models
 Current Vision-Language-Action (VLA) models for autonomous driving operate primarily through feedforward inference across the perception--reasoning--planning hierarchy. While modern architectures maintain temporal recurrence within the perceptual module, early perception remains blind to downstream reasoning and navigation goals, processing visual inputs agnostically without prioritizing cues info
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[컴퓨터-비전]] [[JARVIS Real Knowledge Index]]

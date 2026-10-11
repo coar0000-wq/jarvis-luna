@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T21:05:30.701703+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/kLP780UL-vU"
 ---
 
 # Record 672 · What-to-buy-at-the-KOREAN-PHARMACY-that-Charlize-Theron-visited
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 What to buy at the KOREAN PHARMACY that Charlize Theron visited!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

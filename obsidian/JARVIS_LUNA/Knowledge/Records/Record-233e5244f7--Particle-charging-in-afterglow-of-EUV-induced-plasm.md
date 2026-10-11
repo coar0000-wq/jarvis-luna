@@ -2,8 +2,14 @@
 title: "Record 233e5244f7 · Particle-charging-in-afterglow-of-EUV-induced-plasm"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.379870+00:00
+updated_at: 2026-10-11T00:55:17.729613+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["과학수학", "반도체하드웨어"]
+org: "ASML"
+domain: "doi.org"
+url: "https://doi.org/10.1063/5.0314458"
+kind: "논문"
 ---
 
 # Record 233e5244f7 · Particle-charging-in-afterglow-of-EUV-induced-plasm
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Particle charging in afterglow of EUV-induced plasma
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[과학수학]] [[반도체하드웨어]] [[기관--ASML]] [[JARVIS Real Knowledge Index]]

@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:53:29.336912+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/eYdwkHMM3JM"
 ---
 
 # Record 1040 · Talk-to-Sidekick-on-your-Apple-Watch
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Talk to Sidekick on your Apple Watch
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

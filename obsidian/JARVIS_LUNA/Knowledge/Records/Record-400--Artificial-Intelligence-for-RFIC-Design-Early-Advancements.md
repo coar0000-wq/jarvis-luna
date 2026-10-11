@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T13:43:53.303878+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Marvell-Technology"
+domain: "doi.org"
+url: "https://doi.org/10.1109/mssc.2026.3680917"
 ---
 
 # Record 400 · Artificial-Intelligence-for-RFIC-Design-Early-Advancements-Opportuniti
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Artificial Intelligence for RFIC Design: Early Advancements, Opportunities, and Challenges: From discovering nonintuitive design spaces to accelerated RFIC designs
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Marvell-Technology]] [[JARVIS Real Knowledge Index]]

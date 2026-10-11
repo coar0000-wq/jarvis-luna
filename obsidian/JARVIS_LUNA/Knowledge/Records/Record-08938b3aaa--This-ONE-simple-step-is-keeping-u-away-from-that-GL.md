@@ -2,8 +2,12 @@
 title: "Record 08938b3aaa · This-ONE-simple-step-is-keeping-u-away-from-that-GL"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.712954+00:00
+updated_at: 2026-10-11T00:55:54.135742+00:00
 tags: [record, real-data]
+source: "YouTube"
+topics: ["뷰티스킨케어"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/z9nD0PcM238"
 ---
 
 # Record 08938b3aaa · This-ONE-simple-step-is-keeping-u-away-from-that-GL
@@ -15,7 +19,3 @@ tags: [record, real-data]
 This ONE simple step is keeping u away from that GLASS SKIN~!
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

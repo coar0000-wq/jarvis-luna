@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.458369+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["의료바이오", "데이터분석"]
+org: "Microsoft"
+domain: "doi.org"
+url: "https://doi.org/10.1161/jaha.125.049029"
 ---
 
 # Record 680 · Using-Machine-Learning-to-Identify-Social-Risk-Factors-of-Hypertension
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Using Machine Learning to Identify Social Risk Factors of Hypertension and Diabetes in New York City: Evidence to Support the HealthyNYC Initiative
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[의료바이오]] [[데이터분석]] [[기관--Microsoft]] [[JARVIS Real Knowledge Index]]

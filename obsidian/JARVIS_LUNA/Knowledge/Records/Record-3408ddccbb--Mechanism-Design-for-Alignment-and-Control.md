@@ -2,8 +2,12 @@
 title: "Record 3408ddccbb · Mechanism-Design-for-Alignment-and-Control"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.917390+00:00
+updated_at: 2026-10-11T00:55:11.446870+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.01595v1"
 ---
 
 # Record 3408ddccbb · Mechanism-Design-for-Alignment-and-Control
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Mechanism Design for Alignment and Control
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

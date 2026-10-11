@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.336313+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2608.28534v1"
 ---
 
 # Record 031 · InstructMesh-Selective-Refinement-of-Generative-3D-Models-for-Fabricat
@@ -15,7 +19,3 @@ tags: [record, real-data]
 InstructMesh: Selective Refinement of Generative 3D Models for Fabrication
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]

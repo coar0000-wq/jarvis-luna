@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T04:33:57.062434+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xWklJODN3eHhVYnhrNDV1Ni12bU5JZUNXTTU1MHZWTWRYeEVkUWNjbWdyVDhDejloaVp6NGlCazFrQmVOenUtQVJJaTlqYzliUElqVS05eTFkaDdwaVlmRXU1SEVLR1Rz?oc=5"
 ---
 
 # Record 214 · The-5-Best-AI-Website-Builders-Available-in-2026---techco
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The 5 Best AI Website Builders Available in 2026 - tech.co
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

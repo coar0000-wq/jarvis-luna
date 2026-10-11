@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T20:57:33.867108+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "AMD"
+domain: "openalex.org"
+url: "https://openalex.org/W7170989332"
 ---
 
 # Record 2115 · From-Bit-Position-Sensitivity-to-Unequal-Error-Protection-for-DNN-Infe
@@ -15,7 +20,3 @@ tags: [record, real-data]
 From Bit-Position Sensitivity to Unequal Error Protection for DNN Inference Memory
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--AMD]] [[JARVIS Real Knowledge Index]]

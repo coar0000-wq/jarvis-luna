@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.432040+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Bank-of-America"
+domain: "openalex.org"
+url: "https://openalex.org/W7159546869"
 ---
 
 # Record 1943 · Progress-in-Formalizing-Sphere-Packing-in-Dimension-8
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Progress in Formalizing Sphere Packing in Dimension 8
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Bank-of-America]] [[JARVIS Real Knowledge Index]]

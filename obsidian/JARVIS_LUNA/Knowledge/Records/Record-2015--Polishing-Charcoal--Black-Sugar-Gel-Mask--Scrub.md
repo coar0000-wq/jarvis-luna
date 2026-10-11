@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-07T05:38:07.924438+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "world.openbeautyfacts.org"
+url: "https://world.openbeautyfacts.org/product/0072151421119"
 ---
 
 # Record 2015 · Polishing-Charcoal--Black-Sugar-Gel-Mask--Scrub
@@ -16,7 +20,3 @@ Polishing Charcoal + Black Sugar Gel Mask + Scrub
 Polishing Charcoal + Black Sugar Gel Mask + Scrub · Freeman
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,12 @@
 title: "Record 927f541378 · Selena-Gomezs-Sunset-Frost-Nails-Capture-Golden-Hour-in-a-Manicure--Se"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.940309+00:00
+updated_at: 2026-10-11T00:55:42.563461+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["미분류"]
+domain: "www.allure.com"
+url: "https://www.allure.com/story/selena-gomez-emmys-2026-sunset-frost-nails"
 ---
 
 # Record 927f541378 · Selena-Gomezs-Sunset-Frost-Nails-Capture-Golden-Hour-in-a-Manicure--Se
@@ -16,7 +20,3 @@ Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Phot
 Selena Gomez's Sunset Frost Nails Capture Golden Hour in a Manicure — See Photos
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[미분류]] [[JARVIS Real Knowledge Index]]

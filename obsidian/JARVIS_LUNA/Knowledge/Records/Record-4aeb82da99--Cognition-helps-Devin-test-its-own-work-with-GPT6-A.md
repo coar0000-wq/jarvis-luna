@@ -2,8 +2,14 @@
 title: "Record 4aeb82da99 · Cognition-helps-Devin-test-its-own-work-with-GPT6-A"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.630241+00:00
+updated_at: 2026-10-11T00:55:37.350127+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/cognition-devin-testing-with-astra"
+kind: "발표물"
 ---
 
 # Record 4aeb82da99 · Cognition-helps-Devin-test-its-own-work-with-GPT6-A
@@ -16,7 +22,3 @@ Cognition helps Devin test its own work with GPT‑6 Astra
 GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

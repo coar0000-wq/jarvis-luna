@@ -2,8 +2,14 @@
 title: "Record 1dcea8b0f8 · Introducing-ChatGPT-Images-25"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.640850+00:00
+updated_at: 2026-10-11T00:55:37.508610+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["컴퓨터-비전", "AI-에이전트"]
+org: "OpenAI"
+domain: "openai.com"
+url: "https://openai.com/index/introducing-chatgpt-images-2-5"
+kind: "발표물"
 ---
 
 # Record 1dcea8b0f8 · Introducing-ChatGPT-Images-25
@@ -16,7 +22,3 @@ Introducing ChatGPT Images 2.5
 ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[컴퓨터-비전]] [[AI-에이전트]] [[기관--OpenAI]] [[JARVIS Real Knowledge Index]]

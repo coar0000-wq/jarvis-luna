@@ -2,8 +2,12 @@
 title: "Record 6b93e7013a · LA-COLORS-Browie-Wowie-Lasting--Smudge-Proof-Creamy"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.670579+00:00
+updated_at: 2026-10-11T00:55:53.246444+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.walmart.com"
+url: "https://www.walmart.com/ip/L-A-COLORS-Browie-Wowie-Lasting-Smudge-Proof-Creamy-Brow-Promade-Soft-Brown/18850252262"
 ---
 
 # Record 6b93e7013a · LA-COLORS-Browie-Wowie-Lasting--Smudge-Proof-Creamy
@@ -16,7 +20,3 @@ L.A. COLORS Browie Wowie Lasting & Smudge-Proof Creamy Brow Promade, Soft Brown,
 L.A. COLORS Browie Wowie Lasting & Smudge-Proof Creamy Brow Promade, Soft Brown, 0.11 oz · 평점 4.5 · 리뷰 19
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

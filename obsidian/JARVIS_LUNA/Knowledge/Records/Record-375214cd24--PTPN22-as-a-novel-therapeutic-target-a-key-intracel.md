@@ -2,8 +2,14 @@
 title: "Record 375214cd24 · PTPN22-as-a-novel-therapeutic-target-a-key-intracellular-checkpoint-fo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.467900+00:00
+updated_at: 2026-10-11T00:55:19.240992+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Samsung Electronics"
+domain: "doi.org"
+url: "https://doi.org/10.1136/jitc-2026-016896"
+kind: "논문"
 ---
 
 # Record 375214cd24 · PTPN22-as-a-novel-therapeutic-target-a-key-intracellular-checkpoint-fo
@@ -15,7 +21,3 @@ tags: [record, real-data]
 PTPN22 as a novel therapeutic target: a key intracellular checkpoint for NK cell therapy
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Samsung-Electronics]] [[JARVIS Real Knowledge Index]]

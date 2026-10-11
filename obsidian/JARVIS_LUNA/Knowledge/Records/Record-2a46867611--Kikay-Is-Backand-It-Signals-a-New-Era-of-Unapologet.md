@@ -2,8 +2,12 @@
 title: "Record 2a46867611 · Kikay-Is-Backand-It-Signals-a-New-Era-of-Unapologet"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.340750+00:00
+updated_at: 2026-10-11T00:55:32.776355+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["미분류"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaVNfOXM4S0dzT0Z5dnJZLXZwZHR4bHM0MlFuUnBLdEJfU21ta0xScWRoeE01bmNjSVljNlpWZnVlZUw1Ykt2YVJGeHZTYTdXRWJnc2ZXUVRzWGNwQW42blpjbkEtYTdQNkRhaDVoWGtNYzUydUt5WVI0WEt1UUhkWjJ0YlM?oc=5"
 ---
 
 # Record 2a46867611 · Kikay-Is-Backand-It-Signals-a-New-Era-of-Unapologet
@@ -15,7 +19,3 @@ tags: [record, real-data]
 "Kikay" Is Back—and It Signals a New Era of Unapologetic Girlhood - preview.ph
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[미분류]] [[JARVIS Real Knowledge Index]]

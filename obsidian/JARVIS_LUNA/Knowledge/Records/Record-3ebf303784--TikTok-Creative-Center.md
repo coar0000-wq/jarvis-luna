@@ -2,8 +2,12 @@
 title: "Record 3ebf303784 · TikTok-Creative-Center"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.898411+00:00
+updated_at: 2026-10-11T00:55:11.010850+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["소셜콘텐츠"]
+domain: "ads.tiktok.com"
+url: "https://ads.tiktok.com/business/creativecenter/inspiration/popular/products/pc/en"
 ---
 
 # Record 3ebf303784 · TikTok-Creative-Center
@@ -15,7 +19,3 @@ tags: [record, real-data]
 TikTok Creative Center
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[소셜콘텐츠]] [[JARVIS Real Knowledge Index]]

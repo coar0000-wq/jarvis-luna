@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.206619+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["AI-Research"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/WH6vhVBC_OQ"
 ---
 
 # Record 1014 · Metas-Ad-Algorithm-Explained
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Meta's Ad Algorithm Explained
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

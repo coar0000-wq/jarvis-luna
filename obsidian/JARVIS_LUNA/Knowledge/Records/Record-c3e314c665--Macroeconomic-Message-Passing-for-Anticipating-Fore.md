@@ -2,8 +2,14 @@
 title: "Record c3e314c665 · Macroeconomic-Message-Passing-for-Anticipating-Fore"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.692614+00:00
+updated_at: 2026-10-11T00:55:38.432189+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "UBS"
+domain: "openalex.org"
+url: "https://openalex.org/W7167981313"
+kind: "논문"
 ---
 
 # Record c3e314c665 · Macroeconomic-Message-Passing-for-Anticipating-Fore
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Macroeconomic Message Passing for Anticipating Foreign Exchange Regime Changes: A Deep Logical Learning Approach using Graph Tsetlin Machines
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--UBS]] [[JARVIS Real Knowledge Index]]

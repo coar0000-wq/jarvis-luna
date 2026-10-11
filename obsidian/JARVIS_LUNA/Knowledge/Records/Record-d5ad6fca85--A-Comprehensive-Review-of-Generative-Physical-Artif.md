@@ -2,8 +2,14 @@
 title: "Record d5ad6fca85 · A-Comprehensive-Review-of-Generative-Physical-Artificial-Intelligence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.425665+00:00
+updated_at: 2026-10-11T00:55:18.556514+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["반도체하드웨어"]
+org: "Qualcomm"
+domain: "doi.org"
+url: "https://doi.org/10.1109/jiot.2026.3671268"
+kind: "논문"
 ---
 
 # Record d5ad6fca85 · A-Comprehensive-Review-of-Generative-Physical-Artificial-Intelligence
@@ -15,7 +21,3 @@ tags: [record, real-data]
 A Comprehensive Review of Generative Physical Artificial Intelligence
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[반도체하드웨어]] [[기관--Qualcomm]] [[JARVIS Real Knowledge Index]]

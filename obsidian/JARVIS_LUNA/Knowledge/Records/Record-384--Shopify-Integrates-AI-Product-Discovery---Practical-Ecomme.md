@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.112492+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["Shopify-Commerce"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE83cjVoaHVBUFdidkxCcUpzbFUzVUZNMUtscS03NVB3cGZ2MHN4V3BUaFdWQllCUmwyTTc3NWJWWC1mREc5em9TVVF1ZUxkUXJoM1ZnYXRWWFplZFN4cEVWWVZsUDV6UnU3c2tGRkxySjNfdXFaY1RtclJtNlFqRjg?oc=5"
 ---
 
 # Record 384 · Shopify-Integrates-AI-Product-Discovery---Practical-Ecommerce
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 Shopify Integrates AI Product Discovery - Practical Ecommerce
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

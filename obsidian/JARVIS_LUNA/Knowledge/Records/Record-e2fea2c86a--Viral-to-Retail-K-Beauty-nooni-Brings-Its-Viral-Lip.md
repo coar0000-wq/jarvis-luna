@@ -2,8 +2,12 @@
 title: "Record e2fea2c86a · Viral-to-Retail-K-Beauty-nooni-Brings-Its-Viral-Lip"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.185336+00:00
+updated_at: 2026-10-11T00:55:30.005847+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["마케팅광고", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TU2k5bU9DMWFraFREU29nU1o0ZnlVQ201YjVsTW56TkhvZlBMRUtEWVczd1Y0R2MwQXk4NkliSTZQOVpqT19lYl9GYllvM3VsNmtvNW42Yy1ZTzREUXJ4WVhNRzJjTFk?oc=5"
 ---
 
 # Record e2fea2c86a · Viral-to-Retail-K-Beauty-nooni-Brings-Its-Viral-Lip
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Viral-to-Retail K-Beauty: nooni Brings Its Viral Lip Oil to Target in Eight Shades - trendhunter.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[마케팅광고]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

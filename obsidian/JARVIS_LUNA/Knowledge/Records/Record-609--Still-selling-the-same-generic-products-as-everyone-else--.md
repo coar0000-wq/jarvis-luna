@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-02T16:46:33.142331+00:00
 tags: [knowledge-graph, record, youtube]
+source: "YouTube"
+topics: ["Shopify-Commerce"]
+domain: "www.youtube.com"
+url: "https://www.youtube.com/shorts/K1g_B3espJc"
 ---
 
 # Record 609 · Still-selling-the-same-generic-products-as-everyone-else---CJ-ODM
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record, youtube]
 Still selling the same generic products as everyone else? 👀 | CJ ODM
 
 **출처:** Source · YouTube
-
-## Connected nodes
-
-[[Source--YouTube]] [[Shopify-Commerce]] [[JARVIS Real Knowledge Index]]

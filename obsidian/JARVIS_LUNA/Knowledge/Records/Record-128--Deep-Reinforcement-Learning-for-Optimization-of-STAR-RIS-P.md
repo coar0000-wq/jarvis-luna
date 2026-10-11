@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T11:22:07.354406+00:00
 tags: [record, real-data]
+source: "robotics"
+topics: ["머신러닝-연구"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04536v1"
 ---
 
 # Record 128 · Deep-Reinforcement-Learning-for-Optimization-of-STAR-RIS-Phase-and-Ene
@@ -16,7 +20,3 @@ Deep Reinforcement Learning for Optimization of STAR-RIS Phase and Energy Splitt
 This paper considers a downlink communication framework comprising a simultaneously transmitting and reflecting reconfigurable intelligent surface (STAR-RIS)-aided by orthogonal time frequency space (OTFS) and non-orthogonal multiple access (NOMA) technologies. Further, delay-Doppler mobility in such frameworks renders classical alternating optimization impractical for per-coherence interval recon
 
 **출처:** Source · robotics
-
-## Connected nodes
-
-[[Source--robotics]] [[머신러닝-연구]] [[JARVIS Real Knowledge Index]]

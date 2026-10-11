@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-10T04:45:23.843190+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1021/acsaenm.6c00705"
 ---
 
 # Record 441 · Resolution-Enhanced-Vat-Photopolymerization-of-Emulsion-Templated-Foam
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Resolution-Enhanced Vat Photopolymerization of Emulsion-Templated Foams Using Metal−Organic Frameworks
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

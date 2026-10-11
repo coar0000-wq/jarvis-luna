@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-09T02:52:36.121854+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "Barclays"
+domain: "doi.org"
+url: "https://doi.org/10.3905/jfi.2026.002"
 ---
 
 # Record 701 · Measuring-the-Liquidity-Risk-Premium-in-Credit-Markets
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Measuring the Liquidity Risk Premium in Credit Markets
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--Barclays]] [[JARVIS Real Knowledge Index]]

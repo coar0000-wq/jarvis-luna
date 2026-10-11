@@ -2,8 +2,12 @@
 title: "Record 8749e4c759 · Shopify-Debuts-Tinker-App-for-AI-Powered-Stores---p"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.449943+00:00
+updated_at: 2026-10-11T00:55:34.634416+00:00
 tags: [record, real-data]
+source: "Google-Search"
+topics: ["이커머스Shopify"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMmpXdE81cm0wbTZELWhkUXk4ci1WLWVwNXd2UnFGUTFzckpRNlZJeHFVdlVwMWgweVhmS2dZQVNnQjctd2NuM1VLdXR5emtXQVJnUy0tT3NtMHYwZnA5V0h6N2IzY1JaaWxuRGVmR2hSUHZQdTV0LVZMNF9TUUZJUThDZ05aaEkwUHZMQzRPd0otWklIalFKTFpQb0k?oc=5"
 ---
 
 # Record 8749e4c759 · Shopify-Debuts-Tinker-App-for-AI-Powered-Stores---p
@@ -15,7 +19,3 @@ tags: [record, real-data]
 Shopify Debuts Tinker App for AI-Powered Stores - PYMNTS.com
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[이커머스Shopify]] [[JARVIS Real Knowledge Index]]

@@ -2,8 +2,14 @@
 title: "Record 2256c155d5 · Methicillin-Resistant-Staphylococcus-aureus-Bactere"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:58.020249+00:00
+updated_at: 2026-10-11T00:55:27.562738+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["투자은행금융"]
+org: "JPMorgan Chase"
+domain: "doi.org"
+url: "https://doi.org/10.7759/cureus.113469"
+kind: "논문"
 ---
 
 # Record 2256c155d5 · Methicillin-Resistant-Staphylococcus-aureus-Bactere
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Methicillin-Resistant Staphylococcus aureus Bacteremia Originating From a Ureteral Stent-Associated Urinary Tract Infection: A Case Report
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[투자은행금융]] [[기관--JPMorgan-Chase]] [[JARVIS Real Knowledge Index]]

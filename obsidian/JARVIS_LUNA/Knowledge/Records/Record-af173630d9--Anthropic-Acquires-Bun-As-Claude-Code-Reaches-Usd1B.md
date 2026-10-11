@@ -2,8 +2,14 @@
 title: "Record af173630d9 · Anthropic-Acquires-Bun-As-Claude-Code-Reaches-Usd1B"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:59.354556+00:00
+updated_at: 2026-10-11T00:55:47.825637+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["LLM언어모델", "AI-에이전트"]
+org: "Anthropic"
+domain: "www.anthropic.com"
+url: "https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone"
+kind: "발표물"
 ---
 
 # Record af173630d9 · Anthropic-Acquires-Bun-As-Claude-Code-Reaches-Usd1B
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Anthropic Acquires Bun As Claude Code Reaches Usd1B Milestone
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[LLM언어모델]] [[AI-에이전트]] [[기관--Anthropic]] [[JARVIS Real Knowledge Index]]

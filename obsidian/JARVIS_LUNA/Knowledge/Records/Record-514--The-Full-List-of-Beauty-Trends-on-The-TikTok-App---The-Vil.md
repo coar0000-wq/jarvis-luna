@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-04T00:17:51.131867+00:00
 tags: [knowledge-graph, record]
+source: "Google-Search"
+topics: ["AI-Research"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMijAFBVV95cUxNekgzdXJKTm54aDlKUWp0VDhySFFjQjdfb2xBcXpwUm42RERZS1EzZUhGc2N5LUF4emlZSFUyRHRvTnNsNEtPNVQ5V0FaaThKTnk2cnhSOEQ2bFRQd1VlNGhnY1oyeHRoNWJ3VzdjX3NXVjA0RTFjdEVsVkRRVUNoTGZOTWEtcUl6MGNOcA?oc=5"
 ---
 
 # Record 514 · The-Full-List-of-Beauty-Trends-on-The-TikTok-App---The-Villanovan
@@ -15,7 +19,3 @@ tags: [knowledge-graph, record]
 The Full List of Beauty Trends on The TikTok App - The Villanovan
 
 **출처:** Source · Google Search
-
-## Connected nodes
-
-[[Source--Google-Search]] [[AI-Research]] [[JARVIS Real Knowledge Index]]

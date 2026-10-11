@@ -4,6 +4,10 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-06T20:45:29.072330+00:00
 tags: [record, real-data]
+source: "us_beauty"
+topics: ["경영전략", "뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BU1ExLWtXRWdhZGpxUWN2TDFuWnZDQi1BZ0Z4RXNiaUtHdDV3YjZPX1c0aExWaE51LU9HN19CQmtMUEVkWHh3ZzhHWG11TlBGV19DSWZJVlhHSy03eVZxb3d6TC1BNG9OdXRHTkFyNmk4R3hi?oc=5"
 ---
 
 # Record 1181 · Keauti-brings-K-beauty-to-Queen-City---Springfield-Business-Journal
@@ -16,7 +20,3 @@ Keauti brings K-beauty to Queen City - Springfield Business Journal
 Keauti brings K-beauty to Queen City - Springfield Business Journal
 
 **출처:** Source · us_beauty
-
-## Connected nodes
-
-[[Source--us_beauty]] [[경영전략]] [[뷰티스킨케어]] [[JARVIS Real Knowledge Index]]

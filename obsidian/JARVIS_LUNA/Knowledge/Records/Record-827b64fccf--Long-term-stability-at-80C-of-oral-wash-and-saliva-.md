@@ -2,8 +2,14 @@
 title: "Record 827b64fccf · Long-term-stability-at-80C-of-oral-wash-and-saliva-"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:57.466354+00:00
+updated_at: 2026-10-11T00:55:19.225196+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "Leidos"
+domain: "doi.org"
+url: "https://doi.org/10.1128/spectrum.00573-26"
+kind: "논문"
 ---
 
 # Record 827b64fccf · Long-term-stability-at-80C-of-oral-wash-and-saliva-
@@ -15,7 +21,3 @@ tags: [record, real-data]
 Long-term stability at −80°C of oral wash and saliva samples for microbiome analyses
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--Leidos]] [[JARVIS Real Knowledge Index]]

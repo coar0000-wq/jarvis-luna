@@ -4,6 +4,11 @@ type: knowledge-graph
 status: generated-from-real-data
 updated_at: 2026-09-08T12:07:28.467840+00:00
 tags: [record, real-data]
+source: "institutions"
+topics: ["데이터분석"]
+org: "CACI-International"
+domain: "doi.org"
+url: "https://doi.org/10.1017/s1049023x25101349"
 ---
 
 # Record 351 · Virtual-Reality-Simulation-for-Assessment-of-Hemorrhage-Control-and-SA
@@ -15,7 +20,3 @@ tags: [record, real-data]
 Virtual Reality Simulation for Assessment of Hemorrhage Control and SALT Triage Performance: A Comparison of Prehospital to In-Hospital Emergency Responders
 
 **출처:** Source · institutions
-
-## Connected nodes
-
-[[Source--institutions]] [[데이터분석]] [[기관--CACI-International]] [[JARVIS Real Knowledge Index]]

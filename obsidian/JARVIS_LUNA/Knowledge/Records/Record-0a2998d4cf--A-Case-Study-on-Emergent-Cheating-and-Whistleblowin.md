@@ -2,8 +2,12 @@
 title: "Record 0a2998d4cf · A-Case-Study-on-Emergent-Cheating-and-Whistleblowin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-03T11:58:56.948712+00:00
+updated_at: 2026-10-11T00:55:11.835302+00:00
 tags: [record, real-data]
+source: "arXiv"
+topics: ["미분류"]
+domain: "arxiv.org"
+url: "https://arxiv.org/abs/2609.04170v1"
 ---
 
 # Record 0a2998d4cf · A-Case-Study-on-Emergent-Cheating-and-Whistleblowin
@@ -15,7 +19,3 @@ tags: [record, real-data]
 A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms
 
 **출처:** Source · arXiv
-
-## Connected nodes
-
-[[Source--arXiv]] [[미분류]] [[JARVIS Real Knowledge Index]]
