@@ -33,6 +33,20 @@ def _git(root, *args):
     return subprocess.run(['git','-C',str(root),*args],capture_output=True)
 
 
+def never_started(run, fetch_json, base):
+    """True only for a run GitHub cancelled before creating any job (concurrency supersede).
+
+    Shared group main-publish keeps one pending run; GitHub cancels the older pending
+    run. Such a run executed nothing, so it cannot have produced or changed safety
+    evidence. Proven per run through the authenticated jobs API; any doubt keeps it.
+    """
+    if run.get('status') != 'completed' or run.get('conclusion') != 'cancelled':
+        return False
+    payload = fetch_json(base + f"runs/{run['id']}/attempts/{run['run_attempt']}/jobs?per_page=100")
+    return (isinstance(payload, dict) and payload.get('total_count') == 0
+            and payload.get('jobs') == [])
+
+
 def verify_current(root):
     if (root/safety.PENDING).exists(): raise ValueError('source_restore_interrupted')
     files = safety._snapshot(root)
@@ -66,8 +80,10 @@ def restore_latest(root, *, fetch_json=fetch_github_json, fetch_bytes=fetch_arti
         if run.get('status') != 'completed': continue
         if type(run.get('id')) is not int or type(run.get('run_attempt')) is not int: raise ValueError('source_run_identity_invalid')
         candidates.append(run)
+    candidates = [r for r in sorted(candidates, key=lambda r:r['id'], reverse=True)]
+    while candidates and never_started(candidates[0], fetch_json, BASE): candidates.pop(0)
     if not candidates: raise ValueError('source_run_history_missing')
-    run = max(candidates, key=lambda r:r['id'])
+    run = candidates[0]
     commit = run.get('head_sha','')
     if not re.fullmatch(r'[0-9a-f]{40}',commit) or _git(root,'merge-base','--is-ancestor',commit,'HEAD').returncode:
         raise ValueError('source_run_not_main_ancestor')

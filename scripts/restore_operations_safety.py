@@ -408,6 +408,20 @@ def _active_workflow(raw):
     return 'operations-safety-' in text
 
 
+def never_started(run, fetch_json, base):
+    """True only for a run GitHub cancelled before creating any job (concurrency supersede).
+
+    Shared group main-publish keeps one pending run; GitHub cancels the older pending
+    run. Such a run executed nothing, so it cannot have produced or changed safety
+    evidence. Proven per run through the authenticated jobs API; any doubt keeps it.
+    """
+    if run.get('status') != 'completed' or run.get('conclusion') != 'cancelled':
+        return False
+    payload = fetch_json(base + f"runs/{run['id']}/attempts/{run['run_attempt']}/jobs?per_page=100")
+    return (isinstance(payload, dict) and payload.get('total_count') == 0
+            and payload.get('jobs') == [])
+
+
 def _latest(root, fetch_json, current_run_id):
     payload = fetch_json(BASE + 'runs?per_page=100')
     runs = payload.get('workflow_runs') if isinstance(payload, dict) else None
@@ -430,7 +444,12 @@ def _latest(root, fetch_json, current_run_id):
         raise Blocked('run_history_missing')
     if len({r['id'] for r in candidates}) != len(candidates):
         raise Blocked('run_history_ambiguous')
-    run = max(candidates, key=lambda r:r['id'])
+    candidates = sorted(candidates, key=lambda r:r['id'], reverse=True)
+    while candidates and never_started(candidates[0], fetch_json, BASE):
+        candidates.pop(0)
+    if not candidates:
+        raise Blocked('run_history_missing')
+    run = candidates[0]
     commit = run.get('head_sha', '')
     if not re.fullmatch('[0-9a-f]{40}', commit) or _git(root, 'merge-base', '--is-ancestor', commit, 'HEAD').returncode:
         raise Blocked('run_not_main_ancestor')
