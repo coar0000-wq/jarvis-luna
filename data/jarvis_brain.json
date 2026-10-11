@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T10:51:41.580088+00:00",
+  "source": "dashboard_runtime + shopify_demand_score + shopify_s_recommendations + listing_gate + shopify_daily_registry",
+  "desks": {
+    "skincare": {
+      "name": "스킨케어 전담팀",
+      "s_count": 8,
+      "public_ready": 2,
+      "live": 2,
+      "products": [
+        "1049276",
+        "1055167",
+        "1049275",
+        "1067498",
+        "1072554",
+        "1075857",
+        "1049285",
+        "1053482"
+      ],
+      "quota": 10
+    },
+    "makeup": {
+      "name": "메이크업 전담팀",
+      "s_count": 1,
+      "public_ready": 0,
+      "live": 0,
+      "products": [
+        "1072800"
+      ],
+      "quota": 2
+    },
+    "body": {
+      "name": "바디 전담팀",
+      "s_count": 1,
+      "public_ready": 0,
+      "live": 0,
+      "products": [
+        "1042246"
+      ],
+      "quota": 2
+    }
+  },
+  "products": [
+    {
+      "pd_no": "1049276",
+      "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 100,
+      "s_rule": "strong_form",
+      "public_ready": true,
+      "blocked_by": [],
+      "shopify_status": "ACTIVE",
+      "registered_at": "2026-10-10",
+      "price_usd": 14.99,
+      "margin_pct": 33.6,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
+      "next_action": "Shopify 공개 중",
+      "status_label": "ACTIVE"
+    },
+    {
+      "pd_no": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 98,
+      "s_rule": "ingredient+form",
+      "public_ready": true,
+      "blocked_by": [],
+      "shopify_status": null,
+      "registered_at": null,
+      "price_usd": 15.99,
+      "margin_pct": 32.0,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "next_action": "다음 일일 등록 대상",
+      "status_label": "공개 가능"
+    },
+    {
+      "pd_no": "1049275",
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 98,
+      "s_rule": "strong_form",
+      "public_ready": false,
+      "blocked_by": [
+        "price",
+        "legal",
+        "manufacturer_safety_record_missing",
+        "legal_full"
+      ],
+      "shopify_status": "deleted_by_owner",
+      "registered_at": "2026-10-10",
+      "price_usd": 22.99,
+      "margin_pct": 59.5,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
+      "next_action": "막힌 항목 해결: price, legal, manufacturer_safety_record_missing, legal_full",
+      "status_label": "deleted_by_owner"
+    },
+    {
+      "pd_no": "1067498",
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 96,
+      "s_rule": "ingredient+form",
+      "public_ready": true,
+      "blocked_by": [],
+      "shopify_status": "ACTIVE",
+      "registered_at": "2026-10-11",
+      "price_usd": 18.99,
+      "margin_pct": 33.0,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+      "next_action": "Shopify 공개 중",
+      "status_label": "ACTIVE"
+    },
+    {
+      "pd_no": "1072554",
+      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 96,
+      "s_rule": "ingredient+form",
+      "public_ready": true,
+      "blocked_by": [],
+      "shopify_status": null,
+      "registered_at": null,
+      "price_usd": 18.99,
+      "margin_pct": 38.4,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
+      "next_action": "다음 일일 등록 대상",
+      "status_label": "공개 가능"
+    },
+    {
+      "pd_no": "1075857",
+      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 94,
+      "s_rule": "ingredient+form",
+      "public_ready": false,
+      "blocked_by": [
+        "price"
+      ],
+      "shopify_status": null,
+      "registered_at": null,
+      "price_usd": 11.99,
+      "margin_pct": 31.4,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
+      "next_action": "막힌 항목 해결: price",
+      "status_label": "작업 중"
+    },
+    {
+      "pd_no": "1049285",
+      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 92,
+      "s_rule": "multi_token",
+      "public_ready": false,
+      "blocked_by": [
+        "price"
+      ],
+      "shopify_status": null,
+      "registered_at": null,
+      "price_usd": 10.99,
+      "margin_pct": 17.6,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
+      "next_action": "막힌 항목 해결: price",
+      "status_label": "작업 중"
+    },
+    {
+      "pd_no": "1053482",
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "desk": "skincare",
+      "desk_name": "스킨케어 전담팀",
+      "bucket": "스킨케어",
+      "grade": "S",
+      "score": 86,
+      "s_rule": "multi_token",
+      "public_ready": false,
+      "blocked_by": [
+        "copy",
+        "legal",
+        "legal_full"
+      ],
+      "shopify_status": null,
+      "registered_at": null,
+      "price_usd": 30.99,
+      "margin_pct": 56.7,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
+      "next_action": "막힌 항목 해결: copy, legal, legal_full",
+      "status_label": "작업 중"
+    },
+    {
+      "pd_no": "1042246",
+      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
+      "desk": "body",
+      "desk_name": "바디 전담팀",
+      "bucket": "바디케어",
+      "grade": "S",
+      "score": 83,
+      "s_rule": "category_desk_us_evidence",
+      "public_ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal",
+        "legal_full"
+      ],
+      "shopify_status": null,
+      "registered_at": null,
+      "price_usd": 22.99,
+      "margin_pct": 30.8,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042246",
+      "next_action": "막힌 항목 해결: copy, gosi, us_label, price, legal, legal_full",
+      "status_label": "작업 중"
+    },
+    {
+      "pd_no": "1072800",
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "desk": "makeup",
+      "desk_name": "메이크업 전담팀",
+      "bucket": "메이크업",
+      "grade": "S",
+      "score": 75,
+      "s_rule": "category_desk_us_evidence",
+      "public_ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal",
+        "legal_full"
+      ],
+      "shopify_status": null,
+      "registered_at": null,
+      "price_usd": 22.99,
+      "margin_pct": 48.8,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
+      "next_action": "막힌 항목 해결: copy, gosi, us_label, price, legal, legal_full",
+      "status_label": "작업 중"
+    }
+  ],
+  "teams": [
+    {
+      "id": "secretary",
+      "name": "비서실장",
+      "status": "failed",
+      "last_active": "2026-10-03T11:54:59.008115+00:00",
+      "summary": "2시간 주기 · 고시 30건 · US라벨 30건 · 카피 10건 · 등록 가능 0건 · 법률 차단 2건",
+      "next_action": "다이소 전체 workflow/publication: workflow_failure_not_superseded_by_same_scope_verified_publication"
+    },
+    {
+      "id": "sourcing",
+      "name": "상품 소싱팀",
+      "status": "failed",
+      "last_active": "2026-10-11T03:26:01.990413+00:00",
+      "summary": "356개 상품 · 등급 S 10 / A 83 / B 48 / C 215 · 새 자료 11건 · 영상 학습 5개",
+      "next_action": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication"
+    },
+    {
+      "id": "institutions",
+      "name": "기관 수집팀",
+      "status": "ok",
+      "last_active": "2026-10-03T11:40:00.731501+00:00",
+      "summary": "35곳 1,073건 · 미수집 12건 사유 기록 · 새 자료 183건 · 영상 학습 1개",
+      "next_action": null
+    },
+    {
+      "id": "market",
+      "name": "마케팅 조사팀",
+      "status": "ok",
+      "last_active": "2026-10-11T16:21:23.868036+09:00",
+      "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 31편 · 근거 73개 · 실험 35개 · 새 자료 117건 · 영상 학습 52개",
+      "next_action": null
+    },
+    {
+      "id": "listing",
+      "name": "리스팅 제작팀",
+      "status": "ok",
+      "last_active": "2026-10-11T07:21:23.461228+00:00",
+      "summary": "AI 입력 0/10 · 초안 준비 0/10 · 공개 준비 0/10 · Action 0건 · CP 10 · 카피 9 · 고시 10 · 가격 5 · 법률 8 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · 영상 학습 40개",
+      "next_action": "가격 5건 자동 재생성·재검증 필요"
+    },
+    {
+      "id": "pricing",
+      "name": "가격 정책팀",
+      "status": "ok",
+      "last_active": "2026-10-11T07:21:20.973285+00:00",
+      "summary": "개당 배송비 $6.27~$7.02 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 34건 · 영상 학습 18개",
+      "next_action": null
+    },
+    {
+      "id": "legal",
+      "name": "법률·규제팀",
+      "status": "ok",
+      "last_active": "2026-10-11T07:21:21.349579+00:00",
+      "summary": "자동 점검 10건 · 통과 8 · 등록 차단 2 · 참고 주의 2 · MoCRA 준비 2/7(면제 3) · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 74건 · 영상 학습 34개",
+      "next_action": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [피부결케어]VT 리들샷 10(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+    },
+    {
+      "id": "robotics",
+      "name": "로보틱스 수집",
+      "status": "ok",
+      "last_active": "2026-10-04T07:13:25.666391+00:00",
+      "summary": "66건 · arxiv 26 / rss 40 · 새 자료 43건 · 영상 60편 자막 검토 대기",
+      "next_action": null
+    },
+    {
+      "id": "design",
+      "name": "디자인팀",
+      "status": "ok",
+      "last_active": "2026-10-04T07:13:35.058922+00:00",
+      "summary": "스토어 2/12단계 · 오프라인 초안 3단계 · 레퍼런스 78건 (관련 44%) · 폰트 1950개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 79건 · 새 자료 119건 · 영상 학습 16개",
+      "next_action": "다음 단계: Shopify 스토어 개설 및 기본 설정"
+    },
+    {
+      "id": "channels",
+      "name": "채널 운영팀",
+      "status": "warning",
+      "last_active": "2026-10-05T02:25:21.582807+00:00",
+      "summary": "가동 0/15채널 · 낡음 13건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 학습 2개",
+      "next_action": null
+    },
+    {
+      "id": "knowledge",
+      "name": "지식 수집팀",
+      "status": "ok",
+      "last_active": "2026-10-04T07:14:10.938377+00:00",
+      "summary": "878건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 498 · 영상 학습 6개",
+      "next_action": null
+    },
+    {
+      "id": "graph",
+      "name": "옵시디언 그래프",
+      "status": "ok",
+      "last_active": "2026-10-11T16:21:16.842289+09:00",
+      "summary": "84,956노트 · 7,382링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 분류 규칙 그림자 검증은 아래 개선 증거에서 별도 표시 · 영상 30편 자막 검토 대기",
+      "next_action": null
+    }
+  ],
+  "shopify_store": [
+    {
+      "pd_no": "1049275",
+      "title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2 ml x 6 ea",
+      "category": "skincare",
+      "date": "2026-10-10",
+      "status": "deleted_by_owner",
+      "single_usd": null,
+      "single_margin_pct": null
+    },
+    {
+      "pd_no": "1045431",
+      "title": "Taeg Slim Brow Pencil 2 Ash Brown",
+      "category": "makeup",
+      "date": "2026-10-09",
+      "status": "DRAFT",
+      "single_usd": null,
+      "single_margin_pct": null
+    },
+    {
+      "pd_no": "1063230",
+      "title": "Dove Sensitive Bar 90 g",
+      "category": "body",
+      "date": "2026-10-09",
+      "status": "DRAFT",
+      "single_usd": null,
+      "single_margin_pct": null
+    },
+    {
+      "pd_no": "1049276",
+      "title": "VT Reedle Shot 300 Facial Boosting First Ampoule 2 ml x 6 ea",
+      "category": "skincare",
+      "date": "2026-10-10",
+      "status": "ACTIVE",
+      "single_usd": 14.99,
+      "single_margin_pct": 33.6
+    },
+    {
+      "pd_no": "1067498",
+      "title": "VT PDRN Radiance Cream 50 ml",
+      "category": "skincare",
+      "date": "2026-10-11",
+      "status": "ACTIVE",
+      "single_usd": 18.99,
+      "single_margin_pct": 33.0
+    }
+  ]
+}

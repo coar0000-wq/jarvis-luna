@@ -432,7 +432,7 @@ nav a{font-size:12px;}
 <!-- 오늘의 상품 등록 파이프라인 -->
 <div class="dp-section" id="daily-pipeline">
   <div class="dp-head"><h3>오늘의 상품 등록 파이프라인</h3><span class="dp-when" id="dp-when">불러오는 중…</span></div>
-  <div class="dp-sub">매일 오전 10시(KST), 카테고리별 1개씩 · 단품 + 1+1 · 마진 30% 이상 · 카드를 누르면 상세가 열려요</div>
+  <div class="dp-sub">스킨케어·메이크업·바디 전담팀이 각자 S등급을 맡아 매일 오전 10시(KST) 1개씩 등록 · 단품 + 1+1 · 선케어는 다루지 않음 · 카드를 누르면 상세가 열려요</div>
   <div class="dp-kpis" id="dp-kpis"></div>
   <div class="dp-grid" id="dp-grid"></div>
 </div>
@@ -1937,7 +1937,10 @@ a.classList.add('active');
 (async function(){
   var grid=document.getElementById('dp-grid'), kp=document.getElementById('dp-kpis'), when=document.getElementById('dp-when');
   if(!grid||!kp||!when) return;
-  var CATS=[['skincare','스킨케어','S등급만'],['makeup','메이크업','S등급만'],['body','바디케어','S등급만']];
+  var CATS=[['skincare','스킨케어 전담팀','S등급 · 스킨/토너·에센스/세럼/앰플·크림·로션·미스트/픽서'],['makeup','메이크업 전담팀','S등급 · 미국 실판매 근거'],['body','바디 전담팀','S등급 · 미국 실판매 근거']];
+  var DESK_OF={'스킨케어':'skincare','메이크업':'makeup','바디케어':'body'};
+  var deskS={skincare:0,makeup:0,body:0};
+  try{ var sr=await getJSON('data/daiso_real/shopify_s_recommendations.json'); ((sr&&sr.recommendations)||[]).forEach(function(r){ var d=DESK_OF[r.bucket]; if(d) deskS[d]++; }); }catch(e){}
   var STEPS=['등급 기록','가격·마진','고시·INCI 증적','상품 이미지','공개 기록'];
   function el(tag,cls,txt){var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e;}
   function kst(){ return new Date(Date.now()+9*3600*1000).toISOString().slice(0,10); }
@@ -1959,7 +1962,7 @@ a.classList.add('active');
   var live=0, draft=0, none=0;
   CATS.forEach(function(c){
     var it=latest(c[0]); var card=el('div','dp-card');
-    var cat=el('div','dp-cat'); cat.appendChild(el('span',null,c[1]+' · '+c[2]));
+    var cat=el('div','dp-cat'); cat.appendChild(el('span',null,c[1]+' · S 후보 '+deskS[c[0]]+'개'));
     var badge, st;
     if(!it){ badge=el('span','dp-badge dp-none','등록 없음'); none++; }
     else if(it.status==='ACTIVE'){ badge=el('span','dp-badge dp-ok','공개 기록'); if(it.date===today) live++; }
@@ -1987,7 +1990,7 @@ a.classList.add('active');
       row('shop.com 최저가', it.shop_com_lowest_usd!=null?'$'+Number(it.shop_com_lowest_usd).toFixed(2):'비교 상품 없음');
       row('가격 근거', it.price_basis||'-');
       row('초안 사유', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
-    } else { row('상태','등록 이력 없음'); row('후보 기준', c[2]); }
+    } else { row('상태','등록 이력 없음'); row('담당 기준', c[2]); }
     card.appendChild(det);
     card.addEventListener('click',function(){ card.classList.toggle('open'); });
     grid.appendChild(card);

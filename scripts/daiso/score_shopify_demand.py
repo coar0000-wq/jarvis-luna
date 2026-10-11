@@ -632,6 +632,70 @@ def _form(name):
     return "기타"
 
 
+
+# ---------------------------------------------------------------- 카테고리 전담팀 (2026-10-11)
+# 사용자 지시: S등급을 스킨케어 / 메이크업 / 바디 3개 카테고리로 나눠 전담팀이 각자 작업한다.
+# 예전에는 전체에서 점수 상위 10개만 S 로 남겨 10개 모두 스킨케어였다(메이크업 0, 바디 0).
+# - 카테고리 구분은 config/daiso_commerce_strategy.json 의 score_buckets 를 그대로 쓴다.
+# - 스킨케어는 기존 S 정원을 그대로 쓰고, 메이크업·바디 전담팀은 별도 정원(각 2)을 더 받는다.
+# - 스킨케어 = 다이소 스킨케어 종류만. 선케어·마스크팩·클렌징 등 전담팀 범위 밖은 S 가 되지 않는다.
+# - 메이크업·바디는 미국 실판매 목록 근거가 있는 상품만 전담팀 기준으로 S 를 준다.
+#   법률·라벨·안전·가격 게이트는 그대로라 S 가 곧 공개를 뜻하지 않는다.
+DESK_DEFAULT = {"skincare": ["스킨케어"],  # 다이소 스킨케어 종류만: 스킨/토너·에센스/세럼/앰플·크림·로션·미스트/픽서
+                "makeup": ["메이크업"], "body": ["바디케어"]}
+DESK_NAME = {"skincare": "스킨케어 전담팀", "makeup": "메이크업 전담팀", "body": "바디 전담팀"}
+DESK_QUOTA = {"makeup": 2, "body": 2}          # 나머지 정원은 스킨케어
+DESK_MIN_SCORE = {"makeup": 75, "body": 80}    # 전담팀 기준 최소 점수
+DESK_MIN_US_HITS = 2                           # 미국 실판매 목록 유사 상품 수
+DESK_EXCLUDE = ("핸드크림", "슬리퍼", "실내화", "풋크림")  # 사용자 지시로 제외해 온 품목
+
+
+def _load_desks() -> dict:
+    try:
+        cfg = json.loads((Path(__file__).resolve().parents[2] / "config" / "daiso_commerce_strategy.json")
+                         .read_text(encoding="utf-8"))
+        out = {c["tag"]: [b for b in (c.get("score_buckets") or []) if b != "선케어"] for c in cfg.get("categories") or []
+               if isinstance(c, dict) and c.get("tag") in DESK_NAME}
+        return out if set(out) == set(DESK_NAME) else dict(DESK_DEFAULT)
+    except (OSError, ValueError, KeyError, TypeError):
+        return dict(DESK_DEFAULT)
+
+
+CATEGORY_DESKS = _load_desks()
+
+
+def desk_of(bucket: str) -> str | None:
+    for tag, buckets in CATEGORY_DESKS.items():
+        if bucket in buckets:
+            return tag
+    return None
+
+
+def desk_promote(rows) -> None:
+    """메이크업·바디 전담팀 기준: 미국 실판매 근거 + 전담팀 최소 점수면 S 후보로 올린다."""
+    for r in rows:
+        desk = desk_of(r.get("bucket") or "")
+        r["desk"] = desk
+        if desk not in DESK_MIN_SCORE or r.get("grade") == "S":
+            continue
+        name = r.get("name") or ""
+        if (is_non_core(name) or us_blockers(name)[0] or any(k in name for k in DESK_EXCLUDE)
+                or r.get("s_rule") in ("sold_out", "non_core", "non_core_bucket")):
+            continue
+        if (r.get("shopify_score") or 0) >= DESK_MIN_SCORE[desk] and (r.get("us_market_hits") or 0) >= DESK_MIN_US_HITS:
+            r["grade"] = "S"
+            r["s_rule"] = "category_desk_us_evidence"
+            r["desk_note"] = (f"{DESK_NAME[desk]} 기준: 점수 {r.get('shopify_score')} ≥ {DESK_MIN_SCORE[desk]}, "
+                              f"미국 실판매 유사 {r.get('us_market_hits')}건")
+
+
+def desk_quotas(limit: int, kept) -> dict:
+    counts = {d: sum(1 for r in kept if r.get("desk") == d) for d in DESK_NAME}
+    quota = {d: min(DESK_QUOTA.get(d, 0), counts[d]) for d in DESK_QUOTA}
+    quota["skincare"] = limit  # 스킨케어 정원은 줄이지 않는다
+    return quota
+
+
 def s_slot_limit(rows, s_ratio=0.06):
     """S 정원. assign_grades 와 같은 식을 한 군데서만 계산한다.
 
@@ -643,6 +707,7 @@ def s_slot_limit(rows, s_ratio=0.06):
 
 
 def assign_grades(rows, s_ratio=0.06):
+    desk_promote(rows)
     cands = [r for r in rows if r.get("grade") == "S"]
     if not cands:
         return
@@ -668,11 +733,26 @@ def assign_grades(rows, s_ratio=0.06):
         seen[f] = seen.get(f, 0) + 1
         kept.append(r)
     limit = s_slot_limit(rows, s_ratio)
-    for r in kept[limit:]:
-        r["grade"] = "A"
-        r["downgrade_reason"] = "상위 %d위 밖" % limit
-        r["s_rule"] = "rank_cap"
-    for i, r in enumerate(kept[:limit], 1):
+    # 카테고리 전담팀별 정원 (2026-10-11). 전담팀 밖(헤어 등) 상품은 스킨케어 정원을 같이 쓴다.
+    quota = desk_quotas(limit, kept)
+    used = {d: 0 for d in quota}
+    winners = []
+    for r in kept:
+        d = r.get("desk")
+        if d not in quota:
+            # 사용자 지시 2026-10-11: 전담팀(스킨케어·메이크업·바디) 범위 밖(마스크팩·클렌징·헤어 등)은 S 로 두지 않는다.
+            r["grade"] = "A"
+            r["downgrade_reason"] = "전담팀 범위 밖 카테고리"
+            r["s_rule"] = "no_category_desk"
+            continue
+        if used[d] < quota[d]:
+            used[d] += 1
+            winners.append(r)
+        else:
+            r["grade"] = "A"
+            r["downgrade_reason"] = "%s 정원 %d개 밖" % (DESK_NAME.get(d, d), quota[d])
+            r["s_rule"] = "rank_cap"
+    for i, r in enumerate(winners, 1):
         r["s_rank"] = i
 
 
@@ -749,7 +829,11 @@ def main() -> int:
         "grade_summary": by_grade,
         # S 정원과 빈자리. 대시보드가 카탈로그 여유를 보여주는 데 쓴다.
         "s_slot_limit": s_slot_limit(scored),
-        "s_slot_open": max(0, s_slot_limit(scored) - by_grade["S"]),
+        "s_slot_open": max(0, s_slot_limit(scored) - sum(1 for x in scored if x["grade"] == "S" and x.get("desk") not in DESK_QUOTA)),
+        "category_desks": {d: {"name": DESK_NAME[d], "buckets": CATEGORY_DESKS.get(d, []),
+                               "s_quota": DESK_QUOTA.get(d, s_slot_limit(scored)),
+                               "s_count": sum(1 for x in scored if x["grade"] == "S" and x.get("desk") == d)}
+                           for d in DESK_NAME},
         "category_avg_score": cat_avg,
         "global_channels_used": list(MATCH_CHANNELS),
         "global_demand_signals": len(signals),
@@ -792,6 +876,7 @@ def main() -> int:
                 "pd_no": x.get("pd_no"),
                 "name": x.get("name"),
                 "bucket": x.get("bucket"),
+                "desk": x.get("desk") or "skincare",
                 "price_krw": x.get("price_krw"),
                 "shopify_score": x.get("shopify_score"),
                 "grade": "S",

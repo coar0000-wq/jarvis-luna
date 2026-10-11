@@ -187,9 +187,11 @@ class DailySafetyTests(unittest.TestCase):
                                         for c in lookup.call_args_list))
                 result = json.loads(Path("out/daiso_daily_beauty_result.json").read_text(encoding="utf-8"))
                 self.assertEqual(result["results"][0]["status"], "skipped_already_today")
-                self.assertEqual(result["results"][0]["s_candidates"], 10)
-                self.assertEqual([r["status"] for r in result["results"][1:]],
-                                 ["skipped_no_s_grade", "skipped_no_s_grade"])
+                self.assertEqual(result["results"][0]["s_candidates"], len(daily.s_ranked(daily.CATEGORIES[0])))
+                # 2026-10-11 카테고리 전담팀: 메이크업·바디도 S 후보가 생길 수 있다. 조회가 막히면 '적격 S 없음'.
+                expected = ["skipped_no_eligible_s_grade" if daily.s_ranked(cat) else "skipped_no_s_grade"
+                            for cat in daily.CATEGORIES[1:]]
+                self.assertEqual([r["status"] for r in result["results"][1:]], expected)
                 self.assertEqual([r["grade_required"] for r in result["results"]], ["S", "S", "S"])
             finally:
                 os.chdir(cwd)

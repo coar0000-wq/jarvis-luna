@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T08:40:20.762595+00:00",
+  "generated_at": "2026-10-11T10:51:38.913195+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 63,
+  "count": 61,
   "items": [
     {
       "canonical_product_id": "CP000215",
@@ -364,16 +364,6 @@
       "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
     },
     {
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 86,
-      "s_rule": "rank_cap",
-      "downgrade_reason": "상위 10위 밖",
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner"
-    },
-    {
       "canonical_product_id": "CP000144",
       "pd_no": "1059091",
       "name": "[화잘먹앰플] 미모 바이 마몽드 로지-히알론 수분 앰플 50 ml (아모레퍼시픽)",
@@ -402,6 +392,16 @@
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 27% · 토큰 hydrating · S제외:weak_solo_token"
+    },
+    {
+      "canonical_product_id": "CP000250",
+      "pd_no": "1072455",
+      "name": "큐어레스트 수분진정 버블에센스토너 95 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 86,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,348건 (글로벌 시그널 약함)"
     }
   ]
 }

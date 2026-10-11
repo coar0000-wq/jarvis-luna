@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T08:40:23.284782+00:00",
-  "source_gate_generated_at": "2026-10-11T08:40:22.580647+00:00",
+  "generated_at": "2026-10-11T10:51:41.036944+00:00",
+  "source_gate_generated_at": "2026-10-11T10:51:40.407106+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
@@ -9,11 +9,11 @@
     "public": "public_ready + legal approval + verified physical inventory + separate publish approval",
     "idempotency": "action_id + payload_hash"
   },
-  "draft_action_count": 4,
+  "draft_action_count": 3,
   "states": {
-    "WAITING_HUMAN_APPROVAL": 4
+    "WAITING_HUMAN_APPROVAL": 3
   },
-  "public_ready_item_count": 5,
+  "public_ready_item_count": 4,
   "public_actions": [],
   "public_blocked": true,
   "public_block_reason": "공개 실행기 미연결: 법률 승인·실재고·별도 공개 승인 검증 필요",
@@ -32,7 +32,7 @@
         "1055167"
       ],
       "variant_count": 1,
-      "payload_hash": "c4821982087fcf5990547b1d6bf47cfd2641c5a7b0e8da3220734af8288de90a",
+      "payload_hash": "0e3b35beba0d8112d2fc6d4ac212522e2a27c8c0f66f9ecf2dc7c5f3c46f995d",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000130",
         "products": [
@@ -122,180 +122,33 @@
         "gate_input_signature": {
           "schema_version": 2,
           "semantic_sources": {
-            "data/product_master.json": "2775654345a95470e34722b8d99bebc32c99200aa25b705d9a42852b3e74c5e9",
+            "data/product_master.json": "ab004af3cfd506d48a0b42ef11688b461ccb8ba9c409e20e374ea4f08513588f",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
             "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
-            "data/pricing_model.json": "7eefef4e28fca1478137af34fe1f47c3b5016085fa81a44efe7a43e624a00501",
-            "data/legal_products.json": "30fb12b0abfae80ce5478bff3a1753ae01c009ba3e28caecb24c1460bba67e73",
-            "data/daiso_real/shopify_s_recommendations.json": "28b87f5b4fd392855ef921cc47c8d2625b178597e27fa02fafc9fabbb2086fa0",
+            "data/pricing_model.json": "75c2f4e710e707447fa236053226535fdad30ea494ce2df1eae7749740fbadf4",
+            "data/legal_products.json": "a58a97fc772d2ec6573862185e2b592d42f65c5f3a1ae4b93ff89a8c605dd080",
+            "data/daiso_real/shopify_s_recommendations.json": "e3019ab2b16801d5e2a4318f15fda5324dc3303f85101ff46fe8b15962b1ab40",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-            "data/shopify_shortlist.json": "8366e3eec73a121b579ac9f7d48e4a09259afed2d4492dc2e70aee4482795b7e",
-            "data/legal_full.json": "8d463b729f5503b4ceb98cb80e311c78d70cf0526ab75391407d7d99688fe77e",
-            "data/mocra_readiness.json": "51abe1175d05403ddd94c3ea3cbc8a792c0bff3378a6ddf0935113420822cc1a",
+            "data/shopify_shortlist.json": "16dcc3c55713a6e5c3b5eb2e08b34e42d0074a5e9f006a77ea8dc916730dc099",
+            "data/legal_full.json": "fd62adafefcd9a4298f8734834b55e1f1e449262e5540b7ccd73cd0b0257b837",
+            "data/mocra_readiness.json": "afeedc8942d57977abd214b5789a10bf7a7d2ae945d054b5d7e52c3f9b6236ed",
             "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-            "data/manual/mocra_business.json": "20c791ebff2e9c2e6a3a8ad235c09cfca3a20a682320b003608834ae8b128929",
+            "data/manual/mocra_business.json": "e0d217b54a6519ba82401a67aad3cdaba860c993a0914ac51fea9ef8b268b5a4",
             "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-            "config/daiso_commerce_strategy.json": "52fe1df6f9dbb8cbd25b07ff1a4e49d79be90d545169bde3b8cb24a38d8c7096",
-            "masked/manufacturer_safety_record": "043b7bca549aced60494f1f03877a832bcae5a25c4cc6e7e698b322723b022fb",
+            "config/daiso_commerce_strategy.json": "d0ec7d5353e29f1994ad7f27932042e2f1e221f6ffdfc31cb0ba4f36b879f9a9",
+            "masked/manufacturer_safety_record": "0b16d5d58ddb606c5b34e2cfb8f3a4a216f5ac333e304b559baddf78494401ca",
             "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
-          "recommendations_sha256": "01cbc94cb1984b4dbfebb1d6c708dd6b20cf76a26bd090e200a0f450d755939a"
+          "recommendations_sha256": "789b6972a5c8ed258b272c67f11f4e59c09a4e8a9cbce8d0fab55f8aa249e1b7"
         },
-        "gate_semantic_sha256": "a0a4f116c1a765d6ed7a297da4b3e20b52cc2557ea5ea11564cd04c5fff260bc"
+        "gate_semantic_sha256": "6f2202b9227a21ee7b84e34e0c103cd4d39931111077b23205dcd44822109450"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "c4821982087fcf5990547b1d6bf47cfd2641c5a7b0e8da3220734af8288de90a"
-      },
-      "target_configuration": "unconfigured_blocked",
-      "state": "WAITING_HUMAN_APPROVAL",
-      "approval_required": true,
-      "execution": {
-        "enabled": false,
-        "reason": "L4 external write blocked: no trusted human verifier; target unconfigured"
-      },
-      "safety": {
-        "status": "draft",
-        "published": false,
-        "inventory": 0,
-        "inventory_policy": "deny"
-      },
-      "shopify_ids": {}
-    },
-    {
-      "action_id": "shopify:draft:CP000151",
-      "action_type": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
-      "object_type": "CanonicalProduct",
-      "object_id": "CP000151",
-      "shopify_group_key": "VG-CP000151",
-      "canonical_product_ids": [
-        "CP000151"
-      ],
-      "excluded_members": [],
-      "pd_nos": [
-        "1059834"
-      ],
-      "variant_count": 1,
-      "payload_hash": "436bc165638768b5d441305d289961251cb8ac5eddea5fa21570b14c183d0f46",
-      "immutablePayload": {
-        "shopify_group_key": "VG-CP000151",
-        "products": [
-          {
-            "Handle": "celderma-daily-transforming-firming-collagen-mask-28g",
-            "Title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-            "Body (HTML)": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, a 28g sheet mask designed to help improve the appearance of skin elasticity and firmness.</p><p>Simply apply to clean skin to help support a smooth-looking and radiant complexion for your daily K-beauty routine.</p><p><strong>Identity:</strong> Celderma Daily Transforming Firming Collagen Mask 28g</p><p><strong>Directions:</strong> 1) After cleansing, prepare the skin with toner. 2) Remove the films, then place the upper part centered on the eyes and the lower part centered on the mouth so the mask adheres to the face. 3) After about 20 to 40 minutes, remove the mask and lightly pat the essence remaining on the skin to absorb.</p><p><strong>Warnings:</strong> If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.</p><p><strong>Ingredients:</strong> Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol</p>",
-            "Vendor": "셀더마 데일리",
-            "Type": "Face Mask",
-            "Tags": "celderma, collagen-mask, sheet-mask, korean-skincare, face-mask, firming-mask, k-beauty",
-            "Published": "FALSE",
-            "Status": "draft",
-            "Option1 Name": "Title",
-            "Option1 Value": "28g",
-            "Variant SKU": "CP000151",
-            "Variant Price": "11.99",
-            "Variant Inventory Tracker": "shopify",
-            "Variant Inventory Qty": "0",
-            "Variant Inventory Policy": "deny",
-            "Variant Requires Shipping": "TRUE",
-            "Image Src": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-            "Image Position": "1",
-            "Image Alt Text": "Celderma Daily Transforming Firming Collagen Mask 28g",
-            "SEO Title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-            "SEO Description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g for a firming and radiant-looking complexion. Authentic Korean skincare delivered to the US.",
-            "Canonical Product ID": "CP000151",
-            "pd_no": "1059834",
-            "Legal Complete": "TRUE"
-          }
-        ],
-        "inventory": [
-          {
-            "Handle": "celderma-daily-transforming-firming-collagen-mask-28g",
-            "SKU": "CP000151",
-            "Canonical Product ID": "CP000151",
-            "pd_no": "1059834",
-            "Available": "0",
-            "Inventory Policy": "deny",
-            "Reason": "실재고 사람 입력 전 판매 차단"
-          }
-        ],
-        "safety": {
-          "status": "draft",
-          "published": false,
-          "inventory": 0,
-          "inventory_policy": "deny"
-        },
-        "schema_version": 2,
-        "action_id": "shopify:draft:CP000151",
-        "object_type": "CanonicalProduct",
-        "object_id": "CP000151",
-        "canonical_product_ids": [
-          "CP000151"
-        ],
-        "pd_nos": [
-          "1059834"
-        ],
-        "ontology_members": [
-          "CP000151"
-        ],
-        "excluded_members": [],
-        "images": [
-          {
-            "Handle": "celderma-daily-transforming-firming-collagen-mask-28g",
-            "Canonical Product ID": "CP000151",
-            "pd_no": "1059834",
-            "Image Src": "https://cdn.daisomall.co.kr/file/PD/20250429/dEtwcu53V3cOWvQ0SnSL1059834_00_01dEtwcu53V3cOWvQ0SnSL.jpg",
-            "Image Position": "1",
-            "Image Alt Text": "Celderma Daily Transforming Firming Collagen Mask 28g"
-          }
-        ],
-        "collections": [
-          {
-            "Collection Handle": "shopify-ready-s",
-            "Collection Title": "Shopify Ready S Grade",
-            "Product Handle": "celderma-daily-transforming-firming-collagen-mask-28g",
-            "Canonical Product IDs": "CP000151",
-            "Published": "FALSE"
-          }
-        ],
-        "context": {
-          "target_shop": null,
-          "operation": "CREATE_OR_UPDATE_SHOPIFY_DRAFT",
-          "api_version": null,
-          "remote_preconditions": null
-        },
-        "gate_input_signature": {
-          "schema_version": 2,
-          "semantic_sources": {
-            "data/product_master.json": "2775654345a95470e34722b8d99bebc32c99200aa25b705d9a42852b3e74c5e9",
-            "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-            "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
-            "data/pricing_model.json": "7eefef4e28fca1478137af34fe1f47c3b5016085fa81a44efe7a43e624a00501",
-            "data/legal_products.json": "30fb12b0abfae80ce5478bff3a1753ae01c009ba3e28caecb24c1460bba67e73",
-            "data/daiso_real/shopify_s_recommendations.json": "28b87f5b4fd392855ef921cc47c8d2625b178597e27fa02fafc9fabbb2086fa0",
-            "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-            "data/shopify_shortlist.json": "8366e3eec73a121b579ac9f7d48e4a09259afed2d4492dc2e70aee4482795b7e",
-            "data/legal_full.json": "8d463b729f5503b4ceb98cb80e311c78d70cf0526ab75391407d7d99688fe77e",
-            "data/mocra_readiness.json": "51abe1175d05403ddd94c3ea3cbc8a792c0bff3378a6ddf0935113420822cc1a",
-            "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-            "data/manual/mocra_business.json": "20c791ebff2e9c2e6a3a8ad235c09cfca3a20a682320b003608834ae8b128929",
-            "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-            "config/daiso_commerce_strategy.json": "52fe1df6f9dbb8cbd25b07ff1a4e49d79be90d545169bde3b8cb24a38d8c7096",
-            "masked/manufacturer_safety_record": "043b7bca549aced60494f1f03877a832bcae5a25c4cc6e7e698b322723b022fb",
-            "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
-          },
-          "recommendations_sha256": "01cbc94cb1984b4dbfebb1d6c708dd6b20cf76a26bd090e200a0f450d755939a"
-        },
-        "gate_semantic_sha256": "a0a4f116c1a765d6ed7a297da4b3e20b52cc2557ea5ea11564cd04c5fff260bc"
-      },
-      "authenticated_authorization": false,
-      "authorization": {
-        "status": "unverified",
-        "verifier": "not_configured",
-        "planning_acknowledged": false,
-        "bound_payload_hash": "436bc165638768b5d441305d289961251cb8ac5eddea5fa21570b14c183d0f46"
+        "bound_payload_hash": "0e3b35beba0d8112d2fc6d4ac212522e2a27c8c0f66f9ecf2dc7c5f3c46f995d"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -326,7 +179,7 @@
         "1067498"
       ],
       "variant_count": 1,
-      "payload_hash": "66cb22ace9bd45463e9eb9d5ccd35302fc453c2fba2b0cbf90f337d5073ee2ee",
+      "payload_hash": "b7226617e95c20865031dc337fb1f74356fa489967fa43971f354b37bafdac94",
       "immutablePayload": {
         "shopify_group_key": "VG-CP000216",
         "products": [
@@ -416,33 +269,33 @@
         "gate_input_signature": {
           "schema_version": 2,
           "semantic_sources": {
-            "data/product_master.json": "2775654345a95470e34722b8d99bebc32c99200aa25b705d9a42852b3e74c5e9",
+            "data/product_master.json": "ab004af3cfd506d48a0b42ef11688b461ccb8ba9c409e20e374ea4f08513588f",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
             "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
-            "data/pricing_model.json": "7eefef4e28fca1478137af34fe1f47c3b5016085fa81a44efe7a43e624a00501",
-            "data/legal_products.json": "30fb12b0abfae80ce5478bff3a1753ae01c009ba3e28caecb24c1460bba67e73",
-            "data/daiso_real/shopify_s_recommendations.json": "28b87f5b4fd392855ef921cc47c8d2625b178597e27fa02fafc9fabbb2086fa0",
+            "data/pricing_model.json": "75c2f4e710e707447fa236053226535fdad30ea494ce2df1eae7749740fbadf4",
+            "data/legal_products.json": "a58a97fc772d2ec6573862185e2b592d42f65c5f3a1ae4b93ff89a8c605dd080",
+            "data/daiso_real/shopify_s_recommendations.json": "e3019ab2b16801d5e2a4318f15fda5324dc3303f85101ff46fe8b15962b1ab40",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-            "data/shopify_shortlist.json": "8366e3eec73a121b579ac9f7d48e4a09259afed2d4492dc2e70aee4482795b7e",
-            "data/legal_full.json": "8d463b729f5503b4ceb98cb80e311c78d70cf0526ab75391407d7d99688fe77e",
-            "data/mocra_readiness.json": "51abe1175d05403ddd94c3ea3cbc8a792c0bff3378a6ddf0935113420822cc1a",
+            "data/shopify_shortlist.json": "16dcc3c55713a6e5c3b5eb2e08b34e42d0074a5e9f006a77ea8dc916730dc099",
+            "data/legal_full.json": "fd62adafefcd9a4298f8734834b55e1f1e449262e5540b7ccd73cd0b0257b837",
+            "data/mocra_readiness.json": "afeedc8942d57977abd214b5789a10bf7a7d2ae945d054b5d7e52c3f9b6236ed",
             "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-            "data/manual/mocra_business.json": "20c791ebff2e9c2e6a3a8ad235c09cfca3a20a682320b003608834ae8b128929",
+            "data/manual/mocra_business.json": "e0d217b54a6519ba82401a67aad3cdaba860c993a0914ac51fea9ef8b268b5a4",
             "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-            "config/daiso_commerce_strategy.json": "52fe1df6f9dbb8cbd25b07ff1a4e49d79be90d545169bde3b8cb24a38d8c7096",
-            "masked/manufacturer_safety_record": "043b7bca549aced60494f1f03877a832bcae5a25c4cc6e7e698b322723b022fb",
+            "config/daiso_commerce_strategy.json": "d0ec7d5353e29f1994ad7f27932042e2f1e221f6ffdfc31cb0ba4f36b879f9a9",
+            "masked/manufacturer_safety_record": "0b16d5d58ddb606c5b34e2cfb8f3a4a216f5ac333e304b559baddf78494401ca",
             "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
-          "recommendations_sha256": "01cbc94cb1984b4dbfebb1d6c708dd6b20cf76a26bd090e200a0f450d755939a"
+          "recommendations_sha256": "789b6972a5c8ed258b272c67f11f4e59c09a4e8a9cbce8d0fab55f8aa249e1b7"
         },
-        "gate_semantic_sha256": "a0a4f116c1a765d6ed7a297da4b3e20b52cc2557ea5ea11564cd04c5fff260bc"
+        "gate_semantic_sha256": "6f2202b9227a21ee7b84e34e0c103cd4d39931111077b23205dcd44822109450"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "66cb22ace9bd45463e9eb9d5ccd35302fc453c2fba2b0cbf90f337d5073ee2ee"
+        "bound_payload_hash": "b7226617e95c20865031dc337fb1f74356fa489967fa43971f354b37bafdac94"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",
@@ -475,7 +328,7 @@
         "1049276"
       ],
       "variant_count": 1,
-      "payload_hash": "de3336f0e89ffcbcfcd6f60bd711864cfb838b0458075770316d975afbc1baed",
+      "payload_hash": "fcfd10a41bd378704b249ca86fd0e25045f9e1ecca31968ce4d5da67bfe9514c",
       "immutablePayload": {
         "shopify_group_key": "VG-VT-REEDLE-SHOT",
         "products": [
@@ -568,33 +421,33 @@
         "gate_input_signature": {
           "schema_version": 2,
           "semantic_sources": {
-            "data/product_master.json": "2775654345a95470e34722b8d99bebc32c99200aa25b705d9a42852b3e74c5e9",
+            "data/product_master.json": "ab004af3cfd506d48a0b42ef11688b461ccb8ba9c409e20e374ea4f08513588f",
             "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
             "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
-            "data/pricing_model.json": "7eefef4e28fca1478137af34fe1f47c3b5016085fa81a44efe7a43e624a00501",
-            "data/legal_products.json": "30fb12b0abfae80ce5478bff3a1753ae01c009ba3e28caecb24c1460bba67e73",
-            "data/daiso_real/shopify_s_recommendations.json": "28b87f5b4fd392855ef921cc47c8d2625b178597e27fa02fafc9fabbb2086fa0",
+            "data/pricing_model.json": "75c2f4e710e707447fa236053226535fdad30ea494ce2df1eae7749740fbadf4",
+            "data/legal_products.json": "a58a97fc772d2ec6573862185e2b592d42f65c5f3a1ae4b93ff89a8c605dd080",
+            "data/daiso_real/shopify_s_recommendations.json": "e3019ab2b16801d5e2a4318f15fda5324dc3303f85101ff46fe8b15962b1ab40",
             "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-            "data/shopify_shortlist.json": "8366e3eec73a121b579ac9f7d48e4a09259afed2d4492dc2e70aee4482795b7e",
-            "data/legal_full.json": "8d463b729f5503b4ceb98cb80e311c78d70cf0526ab75391407d7d99688fe77e",
-            "data/mocra_readiness.json": "51abe1175d05403ddd94c3ea3cbc8a792c0bff3378a6ddf0935113420822cc1a",
+            "data/shopify_shortlist.json": "16dcc3c55713a6e5c3b5eb2e08b34e42d0074a5e9f006a77ea8dc916730dc099",
+            "data/legal_full.json": "fd62adafefcd9a4298f8734834b55e1f1e449262e5540b7ccd73cd0b0257b837",
+            "data/mocra_readiness.json": "afeedc8942d57977abd214b5789a10bf7a7d2ae945d054b5d7e52c3f9b6236ed",
             "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-            "data/manual/mocra_business.json": "20c791ebff2e9c2e6a3a8ad235c09cfca3a20a682320b003608834ae8b128929",
+            "data/manual/mocra_business.json": "e0d217b54a6519ba82401a67aad3cdaba860c993a0914ac51fea9ef8b268b5a4",
             "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-            "config/daiso_commerce_strategy.json": "52fe1df6f9dbb8cbd25b07ff1a4e49d79be90d545169bde3b8cb24a38d8c7096",
-            "masked/manufacturer_safety_record": "043b7bca549aced60494f1f03877a832bcae5a25c4cc6e7e698b322723b022fb",
+            "config/daiso_commerce_strategy.json": "d0ec7d5353e29f1994ad7f27932042e2f1e221f6ffdfc31cb0ba4f36b879f9a9",
+            "masked/manufacturer_safety_record": "0b16d5d58ddb606c5b34e2cfb8f3a4a216f5ac333e304b559baddf78494401ca",
             "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
           },
-          "recommendations_sha256": "01cbc94cb1984b4dbfebb1d6c708dd6b20cf76a26bd090e200a0f450d755939a"
+          "recommendations_sha256": "789b6972a5c8ed258b272c67f11f4e59c09a4e8a9cbce8d0fab55f8aa249e1b7"
         },
-        "gate_semantic_sha256": "a0a4f116c1a765d6ed7a297da4b3e20b52cc2557ea5ea11564cd04c5fff260bc"
+        "gate_semantic_sha256": "6f2202b9227a21ee7b84e34e0c103cd4d39931111077b23205dcd44822109450"
       },
       "authenticated_authorization": false,
       "authorization": {
         "status": "unverified",
         "verifier": "not_configured",
         "planning_acknowledged": false,
-        "bound_payload_hash": "de3336f0e89ffcbcfcd6f60bd711864cfb838b0458075770316d975afbc1baed"
+        "bound_payload_hash": "fcfd10a41bd378704b249ca86fd0e25045f9e1ecca31968ce4d5da67bfe9514c"
       },
       "target_configuration": "unconfigured_blocked",
       "state": "WAITING_HUMAN_APPROVAL",

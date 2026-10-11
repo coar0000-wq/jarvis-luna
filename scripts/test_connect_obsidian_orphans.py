@@ -295,7 +295,19 @@ class PlanTests(VaultCase):
 
 class CliTests(VaultCase):
     def args(self, *extra):
-        return ["--vault", str(self.vault), "--backup-root", str(self.backup), *extra]
+        # 아래 CLI 테스트는 추정·탐색 링크까지 만드는 예전 동작(--keep-inferred)을 검사한다.
+        return ["--vault", str(self.vault), "--backup-root", str(self.backup), "--keep-inferred", *extra]
+
+    def test_default_writes_only_data_declared_direct_hubs(self):
+        code, data, _ = run_cli("--vault", str(self.vault), "--backup-root", str(self.backup), "--apply")
+        self.assertEqual(code, 0)
+        written = [p.relative_to(self.vault).as_posix() for p in (self.vault / "Navigation").rglob("*.md")]
+        self.assertTrue(written)
+        for rel in written:
+            text = (self.vault / rel).read_text(encoding="utf-8")
+            self.assertNotIn("Inferred/", rel)
+            self.assertNotIn("Folders/", rel)
+            self.assertNotIn("inferred-", text.split("---", 2)[1] if text.startswith("---") else "")
 
     def test_dry_run_is_default_and_writes_nothing(self):
         before = snapshot_tree(self.vault)
@@ -381,7 +393,7 @@ class GitPrivateTests(VaultCase):
         subprocess.run(["git", "config", "user.name", "t"], cwd=self.tmp, check=True)
 
     def test_private_hubs_written_only_when_git_ignored(self):
-        args = ["--vault", str(self.vault), "--backup-root", str(self.backup), "--apply", "--include-private"]
+        args = ["--vault", str(self.vault), "--backup-root", str(self.backup), "--apply", "--include-private", "--keep-inferred"]
         run_cli(*args)                                           # not ignored -> skipped
         self.assertFalse((self.vault / "Navigation" / "_private").exists())
         code, data, _ = run_cli(*args, "--git-exclude-private")

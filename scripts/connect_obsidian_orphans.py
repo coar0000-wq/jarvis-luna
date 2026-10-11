@@ -61,6 +61,7 @@ TIER_TAG = "inferred-tag"
 TIER_TITLE = "inferred-title"
 TIER_NAV = "navigation-only"
 TIER_ORDER = (TIER_DIRECT, TIER_TAG, TIER_TITLE, TIER_NAV)
+DATA_TIERS = (TIER_DIRECT,)  # 기본값: 노트 속성이 선언한 직접 연결만 (추정·탐색 링크는 만들지 않음)
 
 TIER_TEXT = {
     TIER_DIRECT: (
@@ -851,7 +852,7 @@ def add_local_exclude(root: Path, pattern: str) -> bool:
 
 
 def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_links: int,
-            include_private: bool, private_safe: bool) -> dict:
+            include_private: bool, private_safe: bool, tiers: tuple[str, ...] | None = None) -> dict:
     """Read-only analysis and plan. Returns a dict with summary + internals."""
     nodes, scan_stats = scan_vault(vault, nav_dir, private_prefixes)
     baseline = [n for n in nodes if not n.generated]
@@ -862,6 +863,10 @@ def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_li
     existing_generated = {n.rel: n.rel.startswith(f"{nav_dir}/{PRIVATE_DIR}/")
                           for n in nodes if n.generated}
     groups = classify(orphans, baseline)
+    if tiers is not None:
+        # 2026-10-11 사용자 지시: 추정 관계(inferred-tag/title)와 단순 탐색(navigation-only) 링크는
+        # 데이터로 뒷받침되지 않으면 만들지 않는다. 노트 자신의 속성이 선언한 직접 연결만 남긴다.
+        groups = [g for g in groups if g.tier in tiers]
     non_generated_paths = {nkey(n.rel) for n in baseline}
     orphan_by_rel = {n.rel: n for n in orphans}
     baseline_by_rel = {n.rel: n for n in baseline}
@@ -896,6 +901,8 @@ def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_li
         members.sort(key=lambda r: (baseline_by_rel[r].private, nkey(r)))
         rep = members[0]
         bridges[baseline_by_rel[rep].private].append(rep)
+    if tiers is not None and TIER_NAV not in tiers:
+        bridges = {False: [], True: []}
     bridge_count = sum(len(v) for v in bridges.values())
     if bridge_count:
         for private, reps in bridges.items():
@@ -1038,6 +1045,8 @@ def main(argv: list[str] | None = None) -> int:
                     help="top-level vault folder treated as personal (repeatable; default: Personal)")
     ap.add_argument("--max-links-per-page", type=int, default=DEFAULT_MAX_LINKS)
     ap.add_argument("--apply", action="store_true", help="write hubs (default is a dry-run)")
+    ap.add_argument("--keep-inferred", action="store_true",
+                    help="also write inferred-tag/title and navigation-only hubs (off by default since 2026-10-11)")
     ap.add_argument("--include-private", action="store_true",
                     help="also write private hubs (only if git ignores them)")
     ap.add_argument("--git-exclude-private", action="store_true",
@@ -1079,7 +1088,8 @@ def main(argv: list[str] | None = None) -> int:
     ignored_now = bool(root and git_ignored(root, priv_abs / "x.md"))
     private_safe = ignored_now or (args.git_exclude_private and root is not None and priv_pattern is not None)
 
-    res = analyse(vault, nav_dir, prefixes, args.max_links_per_page, args.include_private, private_safe)
+    tiers = None if args.keep_inferred else DATA_TIERS
+    res = analyse(vault, nav_dir, prefixes, args.max_links_per_page, args.include_private, private_safe, tiers)
     s = res["summary"]
     diff = diff_against_disk(vault, res["write_files"])
     s["files"].update({"would_create": len(diff["create"]), "would_update": len(diff["update"]),

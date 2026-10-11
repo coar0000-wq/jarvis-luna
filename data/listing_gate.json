@@ -1,55 +1,56 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-11T08:40:22.580647+00:00",
+  "generated_at": "2026-10-11T10:51:40.407106+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "2775654345a95470e34722b8d99bebc32c99200aa25b705d9a42852b3e74c5e9",
+      "data/product_master.json": "ab004af3cfd506d48a0b42ef11688b461ccb8ba9c409e20e374ea4f08513588f",
       "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
       "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
-      "data/pricing_model.json": "7eefef4e28fca1478137af34fe1f47c3b5016085fa81a44efe7a43e624a00501",
-      "data/legal_products.json": "30fb12b0abfae80ce5478bff3a1753ae01c009ba3e28caecb24c1460bba67e73",
-      "data/daiso_real/shopify_s_recommendations.json": "28b87f5b4fd392855ef921cc47c8d2625b178597e27fa02fafc9fabbb2086fa0",
+      "data/pricing_model.json": "75c2f4e710e707447fa236053226535fdad30ea494ce2df1eae7749740fbadf4",
+      "data/legal_products.json": "a58a97fc772d2ec6573862185e2b592d42f65c5f3a1ae4b93ff89a8c605dd080",
+      "data/daiso_real/shopify_s_recommendations.json": "e3019ab2b16801d5e2a4318f15fda5324dc3303f85101ff46fe8b15962b1ab40",
       "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-      "data/shopify_shortlist.json": "8366e3eec73a121b579ac9f7d48e4a09259afed2d4492dc2e70aee4482795b7e",
-      "data/legal_full.json": "8d463b729f5503b4ceb98cb80e311c78d70cf0526ab75391407d7d99688fe77e",
-      "data/mocra_readiness.json": "51abe1175d05403ddd94c3ea3cbc8a792c0bff3378a6ddf0935113420822cc1a",
+      "data/shopify_shortlist.json": "16dcc3c55713a6e5c3b5eb2e08b34e42d0074a5e9f006a77ea8dc916730dc099",
+      "data/legal_full.json": "fd62adafefcd9a4298f8734834b55e1f1e449262e5540b7ccd73cd0b0257b837",
+      "data/mocra_readiness.json": "afeedc8942d57977abd214b5789a10bf7a7d2ae945d054b5d7e52c3f9b6236ed",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-      "data/manual/mocra_business.json": "20c791ebff2e9c2e6a3a8ad235c09cfca3a20a682320b003608834ae8b128929",
+      "data/manual/mocra_business.json": "e0d217b54a6519ba82401a67aad3cdaba860c993a0914ac51fea9ef8b268b5a4",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-      "config/daiso_commerce_strategy.json": "52fe1df6f9dbb8cbd25b07ff1a4e49d79be90d545169bde3b8cb24a38d8c7096",
-      "masked/manufacturer_safety_record": "043b7bca549aced60494f1f03877a832bcae5a25c4cc6e7e698b322723b022fb",
+      "config/daiso_commerce_strategy.json": "d0ec7d5353e29f1994ad7f27932042e2f1e221f6ffdfc31cb0ba4f36b879f9a9",
+      "masked/manufacturer_safety_record": "0b16d5d58ddb606c5b34e2cfb8f3a4a216f5ac333e304b559baddf78494401ca",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "01cbc94cb1984b4dbfebb1d6c708dd6b20cf76a26bd090e200a0f450d755939a"
+    "recommendations_sha256": "789b6972a5c8ed258b272c67f11f4e59c09a4e8a9cbce8d0fab55f8aa249e1b7"
   },
   "total": 10,
-  "agent_ready": 5,
-  "ready": 5,
-  "draft_ready": 5,
-  "public_ready": 5,
+  "agent_ready": 4,
+  "ready": 4,
+  "draft_ready": 4,
+  "public_ready": 4,
   "counts": {
     "ontology": 10,
-    "copy": 9,
-    "gosi": 10,
-    "us_label": 9,
+    "copy": 7,
+    "gosi": 8,
+    "us_label": 8,
     "price": 5,
-    "legal": 8,
-    "manufacturer_safety_record": 8,
-    "legal_full": 8
+    "legal": 6,
+    "manufacturer_safety_record": 9,
+    "legal_full": 6
   },
   "blockers": {
-    "copy": 1,
-    "us_label": 1,
+    "copy": 3,
+    "gosi": 2,
+    "us_label": 2,
     "price": 5,
-    "legal": 2,
-    "manufacturer_safety_record": 2
+    "legal": 4,
+    "manufacturer_safety_record": 1
   },
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "92f48bfc7476cd9e413b4cba57cf1f3a986c5fe9b40d1b3c8e6070a1fc9013cb",
+    "strategy_sha256": "9cf9a77e191b12e3cfd94da0008299aa297dc4f3dbc6b94601373870409063ee",
     "margin_hard_block": false,
     "products_with_profit_warnings": 6,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
@@ -762,132 +763,37 @@
     },
     {
       "rank": 8,
-      "canonical_product_id": "CP000151",
-      "pd_no": "1059834",
-      "product_id": "1059834",
-      "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "category": "마스크팩",
-      "price_krw": 2000,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834",
-      "copy": {
-        "title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "description_html": "<p>Discover the Celderma Daily Transforming Firming Collagen Mask, a 28g sheet mask designed to help improve the appearance of skin elasticity and firmness.</p><p>Simply apply to clean skin to help support a smooth-looking and radiant complexion for your daily K-beauty routine.</p>",
-        "seo_title": "Celderma Daily Transforming Firming Collagen Mask 28g",
-        "seo_description": "Shop the Celderma Daily Transforming Firming Collagen Mask 28g for a firming and radiant-looking complexion. Authentic Korean skincare delivered to the US.",
-        "tags": [
-          "celderma",
-          "collagen-mask",
-          "sheet-mask",
-          "korean-skincare",
-          "face-mask",
-          "firming-mask",
-          "k-beauty"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
+      "canonical_product_id": "CP000125",
+      "pd_no": "1053482",
+      "product_id": "1053482",
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 86,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
+      "copy": {},
+      "copy_status": "missing",
       "gosi": {
-        "volume": "28 g",
-        "maker": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+        "volume": "200ml",
+        "maker": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
         "origin": "한국",
-        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 시어버터, 아크릴레이트코폴리머, 아이리쉬모스추출물, 캐롭검, 다이프로필렌글라이콜, 베타인, 포타슘클로라이드, 하이드록시아세토페논, 수크로오스, 세틸하이드록시에틸셀룰로오스, 카",
+        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2",
         "gosi_ok": true
       },
       "us_label": {
-        "net_contents": "28 g",
-        "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
+        "net_contents": "200ml",
+        "manufacturer": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
         "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
+        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Propanediol, Sorbitol, Butylene Glycol, Niacinamide, Isopentyldiol, Glycereth-25 PCA Isostearate, Panthenol, Glyceryl Glucoside, Hydroxyacetophenone, 1,2-Hexanediol, Caprylyl Glycol, Ectoin, Fagus Sylvatica Bud Extract, Chamomilla Recutita (Matricaria) Flower Extract, Enantia Chlorantha Bark Extract, Hamamelis Virginiana (Witch Hazel) Extract, Betaine, Citric Acid, Gluconolactone, Lactic Acid, Salicylic Acid, Capryloyl Salicylic Acid, Xylitylglucoside, Anhydroxylitol, Xylitol, Vitis Vinifera (Grape) Fruit Extract, Diospyros Kaki Leaf Extract, Coffea Arabica (Coffee) Seed Extract, Polygonum Cuspidatum Root Extract, Carthamus Tinctorius (Safflower) Flower Extract, Camellia Sinensis Leaf Extract, Castanea Crenata (Chestnut) Shell Extract Castanea Crenata Shell Extract, Zanthoxylum Piperitum Fruit Extract, Butyl Avocadate, Centella Asiatica Extract, Ethylhexylglycerin, Glucose, Oleanolic Acid, Prunus Mume Fruit Extract, Malus Domestica Fruit Extract, Carica Papaya (Papaya) Fruit Extract, Citrus Junos Fruit Extract, Pinus Densiflora Leaf Extract, Artemisia Annua Extract, Polyglyceryl-10 Laurate, Benzyl Glycol, Hydrolyzed Glycosaminoglycans, Sodium Hyaluronate, Tocopherol, Lactobacillus/Soybean Ferment Extract, Portulaca Oleracea Extract, Origanum Vulgare Leaf Extract, Cinnamomum Cassia Bark Extract, Salix Alba (Willow) Bark Extract, Scutellaria Baicalensis Root Extract, Sodium Hyaluronate Crosspolymer, Chamaecyparis Obtusa Leaf Extract, Hydrolyzed Hyaluronic Acid, Acetyl Hexapeptide-8, Copper Tripeptide-1, Tripeptide-1, Palmitoyl Pentapeptide-4, Hydroxypropyltrimonium Hyaluronate, Alanine/Histidine/Lysine Polypeptide Copper HCl, Palmitoyl Tripeptide-1, Hexapeptide-9, Hyaluronic Acid, Sodium Acetylated Hyaluronate, Solanum Melongena (Eggplant) Fruit Extract, Magnolia Kobus Bark Extract, Terminalia Ferdinandiana Fruit Extract, Myrciaria Dubia Fruit Extract, Gardenia Florida Fruit Extract, Adenosine, Disodium EDTA, Allantoin, Mentha Piperita (Peppermint) Oil, Dipotassium Glycyrrhizate",
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 11.99,
-        "margin_pct": 31.4,
+        "price_usd": 30.99,
+        "margin_pct": 56.7,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
-        "profit_warnings": [
-          "margin_below_target:31.4%<40.0%"
-        ],
-        "blocks_registration": false
-      },
-      "legal": {
-        "status": "pass",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
-      },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
-      "legal_full_complete": true,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
-        "model_route_confidence": null,
-        "findings": [
-          "현재 정본 기준 추가 blocker 없음",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 9,
-      "canonical_product_id": "CP000038",
-      "pd_no": "1027327",
-      "product_id": "1027327",
-      "name": "바세린 마스크팩 집중보습",
-      "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 90,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027327&recmYn=N",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
-      "gosi": {
-        "volume": "23 ml / 0.78 fl. oz.",
-        "maker": "(주)메가코스 / 유니레버코리아(주)",
-        "origin": "대한민국",
-        "ingredients": "정제수, 글리세린, 세틸에틸헥사노에이트, 메틸프로판다이올, 1,2-헥사다이올, 부틸렌글라이콜, 세테아릴알코올, 글리세릴스테아레이트, 다이메티콘, 폴리솔베이트20, 피이지-100 스테아레이트, 페트롤라툼(1000 pp",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "23 ml / 0.78 fl. oz.",
-        "manufacturer": "(주)메가코스 / 유니레버코리아(주)",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "",
-        "us_label_ok": false
-      },
-      "price": {
-        "price_usd": 13.99,
-        "margin_pct": 47.0,
-        "register_blocked": true,
-        "price_evidence_ok": false,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [
-          "price_evidence_volume_unverified_product"
-        ],
         "profit_warnings": [],
         "blocks_registration": false
       },
@@ -897,31 +803,22 @@
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "us_label",
-        "price",
-        "legal",
-        "manufacturer_safety_record_missing"
+        "legal"
       ],
       "ready": false,
       "blocked_by": [
         "copy",
-        "us_label",
-        "price",
-        "legal",
-        "manufacturer_safety_record_missing"
+        "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "us_label",
-        "price",
         "legal",
-        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -935,17 +832,120 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 9,
+        "risk_points": 7,
         "team_routes": [
           "legal",
-          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, us_label, price, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, legal",
+          "public blockers: copy, legal, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 9,
+      "canonical_product_id": "CP000071",
+      "pd_no": "1042246",
+      "product_id": "1042246",
+      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
+      "category": "바디케어",
+      "price_krw": 3000,
+      "shopify_score": 83,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042246",
+      "copy": {},
+      "copy_status": "missing",
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 22.99,
+        "margin_pct": 30.8,
+        "register_blocked": true,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        ],
+        "profit_warnings": [
+          "margin_below_minimum:30.8%<35.0%",
+          "margin_below_target:30.8%<40.0%"
+        ],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+      },
+      "manufacturer_safety_record": {
+        "covered": true,
+        "reason": null
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 10,
+        "team_routes": [
+          "legal",
+          "pricing",
+          "sourcing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, gosi, us_label, price, legal",
+          "public blockers: copy, gosi, us_label, price, legal, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -955,48 +955,33 @@
     },
     {
       "rank": 10,
-      "canonical_product_id": "CP000075",
-      "pd_no": "1042619",
-      "product_id": "1042619",
-      "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "category": "마스크팩",
-      "price_krw": 1000,
-      "shopify_score": 86,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619",
-      "copy": {
-        "title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "description_html": "<p>Experience the refreshing hydration of the Celderma Daily Collagen Essence Gel Mask. This convenient 29g hydrogel mask helps deliver moisture for a visibly glowing and refreshed complexion.</p><p>Simply apply to clean skin and relax as the nourishing essence helps soothe and revitalize your face for a smooth, radiant look.</p>",
-        "seo_title": "Celderma Daily Collagen Essence Gel Mask 29g",
-        "seo_description": "Discover the Celderma Daily Collagen Essence Gel Mask 29g for a hydrated, radiant, and smooth-looking complexion. Easy daily skincare from Korea.",
-        "tags": [
-          "celderma",
-          "sheet-mask",
-          "collagen-mask",
-          "k-beauty",
-          "essence-gel-mask",
-          "hydrating-mask",
-          "facial-mask"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
+      "canonical_product_id": "CP000256",
+      "pd_no": "1072800",
+      "product_id": "1072800",
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "category": "메이크업",
+      "price_krw": 5000,
+      "shopify_score": 75,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
+      "copy": {},
+      "copy_status": "missing",
       "gosi": {
-        "volume": "29g",
-        "maker": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리",
-        "gosi_ok": true
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "29g",
-        "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
-        "us_label_ok": true
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 67.0,
+        "margin_pct": 48.8,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -1007,9 +992,9 @@
         "blocks_registration": false
       },
       "legal": {
-        "status": "pass",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
         "covered": true,
@@ -1017,17 +1002,29 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "price"
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
       ],
       "ready": false,
       "blocked_by": [
-        "price"
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "price"
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal",
+        "legal_full"
       ],
-      "legal_full_complete": true,
+      "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -1035,18 +1032,22 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "high",
-        "risk_points": 2,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 10,
         "team_routes": [
-          "pricing"
+          "legal",
+          "pricing",
+          "sourcing",
+          "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price",
-          "public blockers: price",
+          "draft blockers: copy, gosi, us_label, price, legal",
+          "public blockers: copy, gosi, us_label, price, legal, legal_full",
+          "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,

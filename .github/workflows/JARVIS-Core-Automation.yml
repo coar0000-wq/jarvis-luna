@@ -120,6 +120,10 @@ jobs:
             --collector-report data/agents/core_run_results.json \
             --report data/agents/release_quality_candidate.json
 
+      - name: JARVIS 두뇌(옵시디언) 동기화 - 팀·전담팀·S상품·Shopify
+        if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
+        run: python -B scripts/sync_jarvis_brain.py
+
       - name: 파생 상태 보고서 교체 사유 기록 (가드 유지)
         if: success() && steps.outcomes.outcome == 'success' && steps.quality.outcome == 'success'
         run: python -B scripts/collector_snapshot_history.py data/agents/daiso_pipeline_health.json
@@ -133,7 +137,7 @@ jobs:
         with:
           collector-report: data/agents/core_run_results.json
           execution-id: ${{ github.run_id }}:${{ github.run_attempt }}
-          paths: data
+          paths: data obsidian/JARVIS_LUNA/Brain
           message: JARVIS Core validated outcomes
 
       - name: Record truthful Core result

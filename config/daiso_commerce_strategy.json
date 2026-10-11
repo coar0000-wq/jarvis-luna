@@ -26,13 +26,23 @@
       "product_type": "Skincare",
       "shopify_taxonomy": "gid://shopify/TaxonomyCategory/hb-3-2-9",
       "score_buckets": [
-        "스킨케어",
-        "마스크팩",
-        "클렌징",
-        "선케어"
+        "스킨케어"
       ],
       "allowed_grades": [
         "S"
+      ],
+      "excluded_buckets": [
+        "선케어",
+        "마스크팩",
+        "클렌징"
+      ],
+      "excluded_note": "사용자 지시 2026-10-11: 스킨케어는 다이소 스킨케어 종류(스킨/토너, 에센스/세럼/앰플, 크림, 로션, 미스트/픽서)만 다룬다. 선케어는 하지 않는다. 마스크팩·클렌징은 스킨케어 전담팀 범위가 아니다.",
+      "skincare_types": [
+        "스킨/토너",
+        "에센스/세럼/앰플",
+        "크림",
+        "로션",
+        "미스트/픽서"
       ]
     },
     {

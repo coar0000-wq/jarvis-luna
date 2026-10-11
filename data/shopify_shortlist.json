@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T08:40:22.127993+00:00",
+  "generated_at": "2026-10-11T10:51:40.049737+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -13,19 +13,17 @@
     "dedupe": "미국 근거 상품 하나당 단위 하나",
     "sticky": "기존 단위는 밀려나지 않음"
   },
-  "active_unit_count": 5,
+  "active_unit_count": 4,
   "active_pd_nos": [
     "1049275",
     "1049276",
     "1049285",
     "1055167",
-    "1059834",
     "1067498"
   ],
   "eligible_pd_nos": [
     "1049276",
     "1055167",
-    "1059834",
     "1067498"
   ],
   "business_authority": false,
@@ -137,25 +135,9 @@
       "pd_nos": [
         "1059834"
       ],
-      "canonical_product_ids": [
-        "CP000151"
-      ],
-      "names": [
-        "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g"
-      ],
-      "eligible_pd_nos": [
-        "1059834"
-      ],
-      "business_ready": true,
-      "score": 90,
-      "evidence": {
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "channel": "tiktok_shop_us",
-        "similarity": 0.88
-      },
       "added_at": "2026-09-29T10:03:26.384568+00:00",
-      "status": "active",
-      "note": ""
+      "status": "paused",
+      "note": "스토어 대상에서 일시 제외: S등급·게이트 대상에서 빠짐"
     }
   ],
   "not_selected": [
@@ -182,26 +164,37 @@
       "reason": "게이트 초안 미준비: price"
     },
     {
-      "unit_id": "VG-CP000038",
+      "unit_id": "VG-CP000125",
       "pd_nos": [
-        "1027327"
+        "1053482"
       ],
       "names": [
-        "바세린 마스크팩 집중보습"
-      ],
-      "score": 90,
-      "reason": "게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing, price, us_label"
-    },
-    {
-      "unit_id": "VG-CP000075",
-      "pd_nos": [
-        "1042619"
-      ],
-      "names": [
-        "셀더마데일리 콜라겐 에센스겔 마스크 29 g"
+        "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml"
       ],
       "score": 86,
-      "reason": "게이트 초안 미준비: price"
+      "reason": "게이트 초안 미준비: copy, legal"
+    },
+    {
+      "unit_id": "VG-CP000071",
+      "pd_nos": [
+        "1042246"
+      ],
+      "names": [
+        "오릭스 퍼퓸 바디로션 500 ml 히노끼향"
+      ],
+      "score": 83,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, price, us_label"
+    },
+    {
+      "unit_id": "VG-CP000256",
+      "pd_nos": [
+        "1072800"
+      ],
+      "names": [
+        "줌 바이 정샘물 세범다운 쿠션"
+      ],
+      "score": 75,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, price, us_label"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."

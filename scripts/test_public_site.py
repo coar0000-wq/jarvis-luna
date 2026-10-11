@@ -42,7 +42,9 @@ class PublicSiteTests(unittest.TestCase):
         self.assertNotIn('files', strategy['input_coverage'])
         self.assertNotIn('receipts', strategy['team_work_plan'])
         self.assertEqual(set(strategy['categories']), {'skincare','makeup','body'})
-        self.assertEqual(strategy['categories']['skincare']['grade_counts']['S'],10)
+        # 2026-10-11 카테고리 전담팀: 스킨케어 S 수는 실제 점수 산출물(스킨케어 전담팀 S)과 같아야 한다.
+        desk_s=json.loads((ROOT/'data/daiso_real/shopify_demand_score.json').read_text(encoding='utf-8'))['category_desks']['skincare']['s_count']
+        self.assertEqual(strategy['categories']['skincare']['grade_counts']['S'],desk_s)
         self.assertIn('renderBeautyStrategy(beautyJ',html)
 
     def test_real_display_projection_build_and_check(self):

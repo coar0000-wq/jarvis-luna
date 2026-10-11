@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T08:40:23.115898+00:00",
+  "generated_at": "2026-10-11T10:51:40.886317+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
   "shortlist_status": "proposed",
-  "shortlist_units": 5,
+  "shortlist_units": 4,
   "baseline": {
     "file": "data/shopify_sync_state.json",
     "present": false,
@@ -15,17 +15,17 @@
   },
   "mode": "initial",
   "summary": {
-    "create": 4,
+    "create": 3,
     "update": 0,
     "unchanged": 0,
     "remove_proposed": 0
   },
   "delta_dir": "data/shopify_exports/delta",
   "delta_rows": {
-    "products.csv": 4,
-    "inventory.csv": 4,
-    "images.csv": 4,
-    "collections.csv": 4
+    "products.csv": 3,
+    "inventory.csv": 3,
+    "images.csv": 3,
+    "collections.csv": 3
   },
   "price_rule": "±$0.50 그리고 ±3% 안의 가격 변화는 변경으로 보지 않는다",
   "units": [
@@ -39,17 +39,6 @@
         "새 상품"
       ],
       "content_hash": "a556b5c8fdc173bda431070711ba378f1f9473ac035068d882800c5bb8e0328c"
-    },
-    {
-      "handle": "celderma-daily-transforming-firming-collagen-mask-28g",
-      "pd_nos": [
-        "1059834"
-      ],
-      "action": "create",
-      "changed": [
-        "새 상품"
-      ],
-      "content_hash": "d0a2b6bacb98aa8bd6d5ac3d8a5f3093a2b500ca801d8034a03b3698153246af"
     },
     {
       "handle": "vt-pdrn-radiance-cream-50-ml",
