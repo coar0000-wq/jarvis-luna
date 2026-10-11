@@ -1,38 +1,84 @@
 {
-  "schema_version": 1,
   "deletions": [
     {
-      "path": "data/daiso_real/shortlist_observations.json",
       "base_sha256": "ae9ee45bd8c35b39dddefb26c40b49b9c30d2899f0db28b5b87c8822d7d5cd4a",
-      "replacement_sha256": "e09015edf2668cda34012208fa72aa07d52dcf3141926a0aff6b5ea93f619958",
+      "delete_file": false,
       "ids": [
         "CP000106"
       ],
+      "path": "data/daiso_real/shortlist_observations.json",
       "policy_ref": "scripts/shortlist_observation_history.py",
-      "delete_file": false,
-      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
+      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained.",
+      "replacement_sha256": "e09015edf2668cda34012208fa72aa07d52dcf3141926a0aff6b5ea93f619958"
     },
     {
-      "path": "data/daiso_real/collection_status.json",
       "base_sha256": "c74af1b9653d01ab235184015805de4457b3b31def223b4d7eec3636efb671fd",
+      "delete_file": false,
       "ids": [
         "1066897"
       ],
-      "delete_file": false,
+      "path": "data/daiso_real/collection_status.json",
       "policy_ref": "owner_authorized:2026-10-10:collection_status.last_candidate_success",
       "reason": "Owner-authorized replacement of the last_candidate_success snapshot by a newer full collection; the previous candidate list is retained in git history and data/daiso_real/candidate_pool_history by SHA256."
     },
     {
-      "path": "data/daiso_real/collection_status.json",
       "base_sha256": "c74af1b9653d01ab235184015805de4457b3b31def223b4d7eec3636efb671fd",
-      "replacement_sha256": "aed12f07a1d59fb1b43fa9b121f572103da5d3fe413f8661aec76b7b2d837d7e",
+      "delete_file": false,
       "ids": [
         "Frankfurter API 1,348.28(2026-10-02)",
         "exchangerate-api 1,347.39(2026-10-03)"
       ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "path": "data/daiso_real/collection_status.json",
       "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "replacement_sha256": "aed12f07a1d59fb1b43fa9b121f572103da5d3fe413f8661aec76b7b2d837d7e"
+    },
+    {
+      "base_sha256": "c6a79a11204896e282247ac737cf7aa5373c748f7379f34b7d76427b781198e7",
+      "delete_file": false,
+      "ids": [
+        "1066897"
+      ],
+      "path": "data/daiso_real/candidate_pool.json",
+      "policy_ref": "scripts/candidate_pool_history.py",
+      "reason": "Execution last_run collected_ids replacement only; exact HEAD, prior and current pools retained by SHA256.",
+      "replacement_sha256": "9990e0eeab427c34ad4b2fad7d8a2bc9bcd4bd6f63d43115d353c2e1ec3f4ef5"
+    },
+    {
+      "base_sha256": "9982807c40386398c87d1c542eebc2677a2dad59bcb83e26fdac87cba473af3d",
+      "delete_file": false,
+      "ids": [
+        "CP000106",
+        "CP000107",
+        "CP000151"
+      ],
+      "path": "data/daiso_real/shortlist_observations.json",
+      "policy_ref": "scripts/shortlist_observation_history.py",
+      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained.",
+      "replacement_sha256": "9ed8d93790bf52592d05a75a3a965b7d91fddec2b5832ec1fdde26b368d45d95"
+    },
+    {
+      "base_sha256": "1a0d04e73eb0251b75929c8a3144f64d96928c86b09d15e69d6c4564118ad5a9",
+      "delete_file": false,
+      "ids": [
+        "finished_at"
+      ],
+      "path": "data/agents/workflow_freshness.json",
+      "policy_ref": "scripts/workflow_status_history.py",
+      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
+      "replacement_sha256": "ce45d7d040d301256bf07e942457d1b4316a0c65de8dceb6f7e9caeca76ddd26"
+    },
+    {
+      "base_sha256": "aed12f07a1d59fb1b43fa9b121f572103da5d3fe413f8661aec76b7b2d837d7e",
+      "delete_file": false,
+      "ids": [
+        "1066897"
+      ],
+      "path": "data/daiso_real/collection_status.json",
+      "policy_ref": "scripts/recover_daiso_candidates.py",
+      "reason": "Authenticated original collector snapshot recovery: sparse per-attempt zero skip counters were omitted by the old serializer; the complete queue tally proves zero. Only declared latest-execution candidate-ID lists rotate: prior candidate products remain unchanged in the pool, and the exact old status remains in the original main commit. Other removals require existing exact-base authorization. Original capture bytes and timestamps are unchanged and retained in GitHub attempt artifacts.",
+      "replacement_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49"
     }
-  ]
+  ],
+  "schema_version": 1
 }

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "items": {
+    "1066897": {
+      "pd_no": "1066897",
+      "name": "[촉촉윤광]퍼피 촉촉쿠션 통퍼프",
+      "brand": "다이소",
+      "site_category": "메이크업소품",
+      "price_krw": 1000,
+      "price_source": "json:price",
+      "sold_out": true,
+      "stock_note": "품절 표시 있음",
+      "stock_checked_at": "2026-10-03T00:45:29.985804+00:00",
+      "rating": null,
+      "review_count": null,
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/QyXiFjX4KFzV0U4Qs5vI1066897_00_00QyXiFjX4KFzV0U4Qs5vI.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
+      "collected_at": "2026-10-03T00:45:29.985817+00:00",
+      "source": "daisomall.co.kr 상품 상세 페이지",
+      "bucket": "메이크업",
+      "detailed_http_status": 200,
+      "candidate_status": "pending_comparison",
+      "approval_required": true,
+      "may_replace_operating_products": false,
+      "may_publish": false,
+      "first_seen_at": "2026-10-03T00:45:29.985817+00:00",
+      "last_seen_at": "2026-10-03T00:45:29.985817+00:00",
+      "observation": {
+        "execution_id": "37083305299:1:collect",
+        "method": "daiso_detail",
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
+        "captured_at": "2026-10-03T00:45:29.985817+00:00"
+      }
+    }
+  },
+  "purpose": "comparison_only",
+  "approval_required": true,
+  "may_replace_operating_products": false,
+  "may_publish": false,
+  "count": 1,
+  "generated_at": "2026-10-03T00:45:29.985872+00:00",
+  "last_run": {
+    "execution_id": "37083305299:1:collect",
+    "at": "2026-10-03T00:46:32.744310+00:00",
+    "new": 1,
+    "updated": 0,
+    "collected_ids": [
+      "1066897"
+    ]
+  }
+}

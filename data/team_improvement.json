@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T01:59:35.028364+00:00",
-  "runtime_at": "2026-10-11T10:57:05.865727+09:00",
+  "generated_at": "2026-10-11T04:52:00.619749+00:00",
+  "runtime_at": "2026-10-11T13:51:38.537001+09:00",
   "generator": "scripts/build_team_improvement.py",
   "meaning": "diagnostic_action_text_monitoring_only_not_measured_gain",
   "verified_gains": 0,
@@ -10,8 +10,8 @@
   "summary": {
     "teams": 11,
     "양호": 7,
-    "개선": 2,
-    "정체": 2,
+    "개선": 0,
+    "정체": 4,
     "후퇴": 0,
     "오래_막힘": 1
   },
@@ -19,7 +19,7 @@
     {
       "team": "sourcing",
       "name": "상품 소싱팀",
-      "회차": 8,
+      "회차": 9,
       "조치": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
       "처음_막힌_시각": "2026-10-05T04:38:22.313258+00:00"
     }
@@ -30,12 +30,12 @@
       "state": "정체",
       "open_action": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
       "open_kind": "auto_remediable",
-      "streak": 8,
+      "streak": 9,
       "since": "2026-10-05T04:38:22.313258+00:00",
       "stale": true,
       "status": "failed",
       "summary": "356개 상품 · 등급 S 10 / A 83 / B 48 / C 215 · 새 자료 11건 · 영상 학습 5개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "institutions": {
       "name": "기관 수집팀",
@@ -47,7 +47,7 @@
       "stale": false,
       "status": "ok",
       "summary": "35곳 1,073건 · 미수집 12건 사유 기록 · 새 자료 183건 · 영상 학습 1개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "market": {
       "name": "마케팅 조사팀",
@@ -59,19 +59,19 @@
       "stale": false,
       "status": "ok",
       "summary": "S등급 10개 · 고시 판독 남음 0건 · 유튜브 자막 31편 · 근거 73개 · 실험 35개 · 새 자료 117건 · 영상 학습 52개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "listing": {
       "name": "리스팅 제작팀",
-      "state": "일부개선",
+      "state": "정체",
       "open_action": "카피 1건, 영문라벨 1건, 법률 2건 원본 자료 또는 무료 생성 경로 확보 대기 · Shopify Draft Action 5건 사람 승인 대기",
       "open_kind": "human_approval_required",
-      "streak": 1,
+      "streak": 2,
       "since": "2026-10-11T01:59:35.028364+00:00",
       "stale": false,
       "status": "ok",
       "summary": "AI 입력 8/10 · 초안 준비 8/10 · 공개 준비 8/10 · Action 5건 · CP 10 · 카피 9 · 고시 10 · 가격 10 · 법률 8 · 스토어 대상 5단위/6SKU 제안(확정 대기) · 변경분 신규 5·수정 0·그대로 0 · Jev 판정 1건(이번 회차 재사용 · 누적 실호출 510회 · 마지막 10-03 20:53) · 영상 학습 40개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "pricing": {
       "name": "가격 정책팀",
@@ -83,19 +83,19 @@
       "stale": false,
       "status": "ok",
       "summary": "개당 배송비 $6.27~$7.02 · 무게 43~200g (고시용량 10) · DDU/DDP 4개 · 새 자료 34건 · 영상 학습 18개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "legal": {
       "name": "법률·규제팀",
-      "state": "일부개선",
+      "state": "정체",
       "open_action": "차단 2건: 바세린 마스크팩 집중보습(자동 점검 미통과: lab), [피부결케어]VT 리들샷 10(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
       "open_kind": "human_approval_required",
-      "streak": 1,
+      "streak": 2,
       "since": "2026-10-11T01:59:35.028364+00:00",
       "stale": false,
       "status": "ok",
       "summary": "자동 점검 10건 · 통과 8 · 등록 차단 2 · 참고 주의 2 · MoCRA 준비 2/7(면제 3) · 수출서류 HS 10건 · 라벨 4/6항목 자동 · 새 자료 74건 · 영상 학습 34개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "robotics": {
       "name": "로보틱스 수집",
@@ -107,19 +107,19 @@
       "stale": false,
       "status": "ok",
       "summary": "66건 · arxiv 26 / rss 40 · 새 자료 43건 · 영상 60편 자막 검토 대기",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "design": {
       "name": "디자인팀",
       "state": "정체",
       "open_action": "다음 단계: Shopify 스토어 개설 및 기본 설정",
       "open_kind": "external_dependency",
-      "streak": 136,
+      "streak": 137,
       "since": "2026-09-21T10:25:02.425945+00:00",
       "stale": false,
       "status": "ok",
       "summary": "스토어 2/12단계 · 오프라인 초안 3단계 · 레퍼런스 78건 (관련 44%) · 폰트 1950개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 79건 · 새 자료 119건 · 영상 학습 16개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "channels": {
       "name": "채널 운영팀",
@@ -131,7 +131,7 @@
       "stale": false,
       "status": "warning",
       "summary": "가동 0/15채널 · 낡음 13건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 학습 2개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "knowledge": {
       "name": "지식 수집팀",
@@ -143,7 +143,7 @@
       "stale": false,
       "status": "ok",
       "summary": "878건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 498 · 영상 학습 6개",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     },
     "graph": {
       "name": "옵시디언 그래프",
@@ -155,7 +155,7 @@
       "stale": false,
       "status": "ok",
       "summary": "84,956노트 · 7,382링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 분류 규칙 그림자 검증은 아래 개선 증거에서 별도 표시 · 영상 30편 자막 검토 대기",
-      "checked_at": "2026-10-11T01:59:35.028364+00:00"
+      "checked_at": "2026-10-11T04:52:00.619749+00:00"
     }
   },
   "history": [
@@ -1958,6 +1958,21 @@
       "후퇴": 0,
       "막힌_팀": [
         "design",
+        "sourcing"
+      ]
+    },
+    {
+      "at": "2026-10-11T04:52:00.619749+00:00",
+      "runtime_at": "2026-10-11T13:51:38.537001+09:00",
+      "teams": 11,
+      "양호": 7,
+      "개선": 0,
+      "정체": 4,
+      "후퇴": 0,
+      "막힌_팀": [
+        "design",
+        "legal",
+        "listing",
         "sourcing"
       ]
     }

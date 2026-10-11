@@ -1,0 +1,19 @@
+{
+  "artifact_id": 11690810402,
+  "artifact_sha256": "9c56ea085551973e2caff715920d57da96ea5035ad9827b79fe3cafc623bb3b4",
+  "candidate_count": 84,
+  "candidate_pool_sha256": "9990e0eeab427c34ad4b2fad7d8a2bc9bcd4bd6f63d43115d353c2e1ec3f4ef5",
+  "candidates_new": 83,
+  "kind": "candidate_metadata_recovery",
+  "operating_changed": false,
+  "original_execution_id": "38105151548:1:collect",
+  "original_finished_at": "2026-10-11T03:26:01.990413+00:00",
+  "original_head_sha": "fd029acba20f35e1ce0d898da1aa905abf1183bb",
+  "original_run_id": 38105151548,
+  "prepared_at": "2026-10-11T04:51:28.290634+00:00",
+  "public_authority": false,
+  "publication_run_id": "38112810818",
+  "recollected": false,
+  "schema_version": 1,
+  "source_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49"
+}

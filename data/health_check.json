@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:57:02.719854+00:00",
+  "generated_at": "2026-10-11T04:51:34.124531+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -11,10 +11,10 @@
   "kpi": {
     "last_success": "2026-10-05T07:04:37Z",
     "last_success_source": "github_actions_snapshot",
-    "collection_last_attempt": "2026-10-05T07:03:25.827784+00:00",
+    "collection_last_attempt": "2026-10-11T03:26:01.990413+00:00",
     "collection_last_success": "2026-09-29T00:48:58.284474+00:00",
-    "candidate_last_success": "2026-10-03T00:46:32.753823+00:00",
-    "candidate_new_this_attempt": 0,
+    "candidate_last_success": "2026-10-11T03:26:01.990413+00:00",
+    "candidate_new_this_attempt": 83,
     "candidate_rechecked_this_attempt": 0,
     "failed_jobs": "unknown",
     "failed_checks": 1,
@@ -23,30 +23,30 @@
     "queue": 2881,
     "stale_source": "marketing",
     "freshness_summary": {
-      "product_master": "just now",
-      "legal_full": "just now",
-      "shopify_sync": "just now",
-      "pricing": "just now",
-      "marketing": "just now",
-      "daiso": "5.8 days ago",
+      "product_master": "2.9 hours ago",
+      "legal_full": "2.9 hours ago",
+      "shopify_sync": "2.9 hours ago",
+      "pricing": "2.9 hours ago",
+      "marketing": "2.9 hours ago",
+      "daiso": "1.4 hours ago",
       "daiso_candidate_discovery": "unknown",
       "daiso_operating_capture": "unknown",
       "daiso_shortlist_price": "unknown",
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
-      "deep_heartbeat": "7.6 days ago",
-      "actions_monitor": "4.7 days ago",
-      "gosi": "8.3 days ago",
-      "product_discovery": "just now"
+      "deep_heartbeat": "7.7 days ago",
+      "actions_monitor": "4.8 days ago",
+      "gosi": "8.5 days ago",
+      "product_discovery": "2.9 hours ago"
     }
   },
   "summary": {
-    "success": 4,
+    "success": 5,
     "warning": 4,
     "waiting": 1,
-    "degraded": 1,
+    "degraded": 0,
     "failed": 1,
-    "no_change": 1,
+    "no_change": 0,
     "real_failures": 1
   },
   "checks": [
@@ -56,7 +56,7 @@
       "reason": "운영 상품 356개, CP 357개, S 10개",
       "count": 356,
       "s_count": 10,
-      "freshness": "just now",
+      "freshness": "2.9 hours ago",
       "is_failure": false
     },
     {
@@ -65,58 +65,58 @@
       "reason": "MoCRA 풀스키마 완료 8/10 · 공개 차단 2건 · 사람 입력 대기: legal_hard_block 2건, identity 1건, ingredients 1건, directions 1건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     },
     {
       "team": "shopify_sync",
       "status": "success",
       "reason": "shortlist proposed 5단위 · initial · create 5 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 10/10 · Trends 미연동",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     },
     {
       "team": "daiso",
-      "status": "degraded",
-      "reason": "수집 시도 138.9시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
-      "last_attempt_at": "2026-10-05T07:03:25.827784+00:00",
+      "status": "success",
+      "reason": "신규 비교 후보 수집 정상 완료: 신규 83건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "last_attempt_at": "2026-10-11T03:26:01.990413+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-      "last_attempt_status": "no_change",
-      "is_candidate_collection": false,
-      "candidates_new": 0,
+      "last_attempt_status": "candidates_collected",
+      "is_candidate_collection": true,
+      "candidates_new": 83,
       "candidates_updated": 0,
-      "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 193.175,
-      "attempt_age_hours": 138.894,
-      "success_age_hours": 289.135,
+      "last_candidate_success_at": "2026-10-11T03:26:01.990413+00:00",
+      "candidate_success_age_hours": 1.426,
+      "attempt_age_hours": 1.426,
+      "success_age_hours": 292.043,
       "data_stale": true,
-      "attempt_stale": true,
-      "is_no_change": true,
+      "attempt_stale": false,
+      "is_no_change": false,
       "is_failure": false,
       "daiso_pipeline": {
         "schema_version": 1,
         "scopes": {
           "candidate_discovery": {
             "status": "unverified",
-            "reason": "no_verified_source",
+            "reason": "no trusted matching collection receipt",
             "verified": false
           },
           "operating_capture": {
             "status": "unverified",
-            "reason": "no trusted matching collection receipt",
+            "reason": "no_verified_source",
             "verified": false
           },
           "shortlist_price": {
@@ -1471,30 +1471,30 @@
           "invalid validation history path"
         ],
         "operating_staleness": {
-          "status": "degraded",
-          "reason": "수집 시도 138.9시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
-          "last_attempt_at": "2026-10-05T07:03:25.827784+00:00",
+          "status": "success",
+          "reason": "신규 비교 후보 수집 정상 완료: 신규 83건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+          "last_attempt_at": "2026-10-11T03:26:01.990413+00:00",
           "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-          "last_attempt_status": "no_change",
-          "is_candidate_collection": false,
-          "candidates_new": 0,
+          "last_attempt_status": "candidates_collected",
+          "is_candidate_collection": true,
+          "candidates_new": 83,
           "candidates_updated": 0,
-          "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-          "candidate_success_age_hours": 193.175,
-          "attempt_age_hours": 138.894,
-          "success_age_hours": 289.135,
+          "last_candidate_success_at": "2026-10-11T03:26:01.990413+00:00",
+          "candidate_success_age_hours": 1.426,
+          "attempt_age_hours": 1.426,
+          "success_age_hours": 292.043,
           "data_stale": true,
-          "attempt_stale": true,
-          "is_no_change": true,
+          "attempt_stale": false,
+          "is_no_change": false,
           "is_failure": false
         }
       },
-      "freshness": "5.8 days ago"
+      "freshness": "1.4 hours ago"
     },
     {
       "team": "daiso_candidate_discovery",
       "status": "unverified",
-      "reason": "no_verified_source",
+      "reason": "no trusted matching collection receipt",
       "verified": false,
       "is_failure": false,
       "public_authority": false,
@@ -1503,7 +1503,7 @@
     {
       "team": "daiso_operating_capture",
       "status": "unverified",
-      "reason": "no trusted matching collection receipt",
+      "reason": "no_verified_source",
       "verified": false,
       "is_failure": false,
       "public_authority": false,
@@ -1539,14 +1539,14 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (182.0시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (184.9시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 182.034,
+      "age_hours": 184.943,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "7.6 days ago"
+      "freshness": "7.7 days ago"
     },
     {
       "team": "actions_monitor",
@@ -1554,22 +1554,22 @@
       "reason": "GitHub Actions 상태 조회 시각 미확인 또는 4.5시간 경과",
       "is_failure": false,
       "observed_at": "2026-10-06T09:29:31.520000Z",
-      "freshness": "4.7 days ago"
+      "freshness": "4.8 days ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "200.3h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "203.2h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
-      "freshness": "8.3 days ago"
+      "freshness": "8.5 days ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 0.0h 전",
+      "reason": "정상 2.9h 전",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "2.9 hours ago"
     }
   ],
   "daiso_pipeline": {
@@ -1577,12 +1577,12 @@
     "scopes": {
       "candidate_discovery": {
         "status": "unverified",
-        "reason": "no_verified_source",
+        "reason": "no trusted matching collection receipt",
         "verified": false
       },
       "operating_capture": {
         "status": "unverified",
-        "reason": "no trusted matching collection receipt",
+        "reason": "no_verified_source",
         "verified": false
       },
       "shortlist_price": {
@@ -2937,21 +2937,21 @@
       "invalid validation history path"
     ],
     "operating_staleness": {
-      "status": "degraded",
-      "reason": "수집 시도 138.9시간 경과 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
-      "last_attempt_at": "2026-10-05T07:03:25.827784+00:00",
+      "status": "success",
+      "reason": "신규 비교 후보 수집 정상 완료: 신규 83건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "last_attempt_at": "2026-10-11T03:26:01.990413+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-      "last_attempt_status": "no_change",
-      "is_candidate_collection": false,
-      "candidates_new": 0,
+      "last_attempt_status": "candidates_collected",
+      "is_candidate_collection": true,
+      "candidates_new": 83,
       "candidates_updated": 0,
-      "last_candidate_success_at": "2026-10-03T00:46:32.753823+00:00",
-      "candidate_success_age_hours": 193.175,
-      "attempt_age_hours": 138.894,
-      "success_age_hours": 289.135,
+      "last_candidate_success_at": "2026-10-11T03:26:01.990413+00:00",
+      "candidate_success_age_hours": 1.426,
+      "attempt_age_hours": 1.426,
+      "success_age_hours": 292.043,
       "data_stale": true,
-      "attempt_stale": true,
-      "is_no_change": true,
+      "attempt_stale": false,
+      "is_no_change": false,
       "is_failure": false
     }
   },
