@@ -1,13 +1,84 @@
 {
-  "action_cards": [],
+  "action_cards": [
+    {
+      "action_id": "shopify:draft:CP000109",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "955ad9cf5c52095e03bcca9a411d4f9c915072741678b6e5285d3a5963fd66df",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:CP000130",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "d0bc0a1b9e657cc8c5244cacaba72452acfd4bf030f83eeed13d309dba134904",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:CP000151",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "df2affd20db89a1dbae8c5821255e45247a14181d6406f10b1c7493eb57bff2b",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:CP000216",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "97e671594560979f74fb7b0ba97dc773a46d35fd46125e633141d49f64e6dbff",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    },
+    {
+      "action_id": "shopify:draft:VG-VT-REEDLE-SHOT",
+      "after": "Draft · 비공개 · 재고 0",
+      "before": "원격 상태 미검증",
+      "kind": "shopify_create_draft",
+      "level": 4,
+      "may_approve": false,
+      "may_execute": false,
+      "member_count": 1,
+      "payload_hash": "bd9995f7f5bb6c3a9f04597283065b21db1e7e781819a92c987c1a812786b2a6",
+      "reason": "원격 대상·인증 승인·커넥터 검증 필요",
+      "status": "WAITING_APPROVAL",
+      "target_configured": false
+    }
+  ],
   "audit": {
     "counts": {
-      "audited": 120,
-      "decisions": 13,
+      "audited": 240,
+      "decisions": 26,
       "failure": 0,
-      "legacy": 5022,
-      "outcomes": 13,
-      "prepared": 13,
+      "legacy": 5038,
+      "outcomes": 26,
+      "prepared": 26,
       "unavailable": 0
     },
     "external_authority": false,
@@ -15,28 +86,27 @@
   },
   "business": {
     "blockers": [
-      "책임자 라벨 정보",
       "제품별 제조사 안전성 자료",
       "필수 영문 라벨"
     ],
     "exempt": 3,
-    "ready": 1,
+    "ready": 2,
     "sales_allowed": false,
     "total": 7
   },
   "counts": {
-    "approval_waiting": 0,
-    "events": 5142,
+    "approval_waiting": 5,
+    "events": 5278,
     "external_verified": 0,
-    "handoffs_accepted": 65,
-    "local_verified": 725,
-    "source_recoveries_open": 7,
+    "handoffs_accepted": 70,
+    "local_verified": 738,
+    "source_recoveries_open": 10,
     "source_recoveries_verified": 6,
-    "tasks_total": 732,
-    "watchers_blocked": 6,
+    "tasks_total": 748,
+    "watchers_blocked": 10,
     "watchers_local": 2,
-    "watchers_partial": 1,
-    "watchers_ready": 3
+    "watchers_partial": 0,
+    "watchers_ready": 0
   },
   "engines": [
     {
@@ -93,7 +163,7 @@
     "training_performed": false,
     "verified_observations": 0
   },
-  "generated_at": "2026-10-06T09:22:34.102650+00:00",
+  "generated_at": "2026-10-11T01:57:06.059687+00:00",
   "organization": "기존 비서실장 > 11팀 팀장 > 전문 기능",
   "schema_version": 1,
   "source_procedures": {
@@ -338,17 +408,17 @@
       "legal": 1,
       "listing": 1,
       "market": 1,
-      "pricing": 1,
+      "pricing": 2,
       "robotics": 2,
-      "secretary": 0,
-      "sourcing": 1
+      "secretary": 1,
+      "sourcing": 2
     },
     "episodes": [
       {
         "attempt_limit": 2,
         "attempts": 0,
         "blocker_codes": [
-          "PARTIAL_SOURCE_COVERAGE"
+          "STALE_SOURCE_CAPTURE"
         ],
         "current_source": "data/channel_candidates.json",
         "dependencies_are_not_execution_authority": true,
@@ -358,7 +428,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
         "initial_source": "data/channel_candidates.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
         "owner": "channels",
         "receipt_id": null,
@@ -404,7 +474,7 @@
         "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
         "initial_evidence_hash": "de01f453a09befc1c3c4682701de6b7b4f6bd0f662e266c3786069585296268e",
         "initial_source": "data/design_team.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "설정된 공개 디자인 피드를 재수집하고 참조·실제 캡처시각 확인",
         "owner": "design",
         "receipt_id": null,
@@ -428,7 +498,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
         "initial_source": "data/obsidian_sync_status.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
         "owner": "graph",
         "receipt_id": null,
@@ -452,7 +522,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
         "initial_source": "data/institution_sources.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
         "owner": "institutions",
         "receipt_id": null,
@@ -476,7 +546,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
         "initial_source": "data/knowledge/real_sources.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
         "owner": "knowledge",
         "receipt_id": null,
@@ -544,7 +614,7 @@
         "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
         "initial_evidence_hash": "544d89cf4cf36d575fcfcdf1b976928b09fac86b98f8ebfb6a4be6b8c978c340",
         "initial_source": "data/google_trends_beauty.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "공식 트렌드 자료를 허용 범위에서 재수집하고 실제 캡처시각 확인",
         "owner": "market",
         "receipt_id": null,
@@ -575,6 +645,30 @@
         "source_team": "pricing",
         "status": "RECOVERED",
         "task_id": "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d"
+      },
+      {
+        "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/daiso_real/shortlist_observations.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 2,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "initial_evidence_hash": "d9407a51f83cec8ebb1bf610ba8fc95d2eaefcba5f213991fbe4eb3454b6ae4c",
+        "initial_source": "data/daiso_real/shortlist_observations.json",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "next_action": "실측 가격·정본 ID·원화 단위·실제 캡처시각 재확인",
+        "owner": "pricing",
+        "receipt_id": null,
+        "recovery_id": "recovery_pricing_000002",
+        "source": "data/daiso_real/shortlist_observations.json",
+        "source_team": "pricing",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_b71e869e78075f6c9d612020eeb0359f572cfaccab85d3b409d067d11ad4cf28"
       },
       {
         "attempt_limit": 2,
@@ -612,7 +706,7 @@
         "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
         "initial_evidence_hash": "3cf9266fbb2a73628963fea7daf1ad22ce3cfc17822a184f054b48a766bf3b0c",
         "initial_source": "data/robotics_sources.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "설정된 공개 로보틱스 수집기를 재실행하고 실제 캡처시각 확인",
         "owner": "robotics",
         "receipt_id": null,
@@ -621,6 +715,30 @@
         "source_team": "robotics",
         "status": "WAITING_SOURCE_RECOVERY",
         "task_id": "task_45b742cbebe7db07ac89c94fdbe1cd665ed6dec31d0d273f8ab3ae286daa9298"
+      },
+      {
+        "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/dashboard_runtime.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 1,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "initial_evidence_hash": "13894c8107560111befff19c726e5dade5c7772f690fe0c43911df7c34f59163",
+        "initial_source": "data/dashboard_runtime.json",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "next_action": "실제 워크플로 관찰로 고정 대시보드 재생성 후 관찰시각 확인",
+        "owner": "graph",
+        "receipt_id": null,
+        "recovery_id": "recovery_secretary_000001",
+        "source": "data/dashboard_runtime.json",
+        "source_team": "secretary",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_d31c44bb17b49fe6381fe1ef8aa4790bb95e5153347b3a964194d85d3a4ccd62"
       },
       {
         "attempt_limit": 2,
@@ -643,24 +761,36 @@
         "source_team": "sourcing",
         "status": "RECOVERED",
         "task_id": "task_6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f"
+      },
+      {
+        "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/daiso_real/shortlist_observations.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 2,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "initial_evidence_hash": "15604b3dc3567f2d7a88d2a3ee031a169a1f7617e704b572675f9c49a94e4739",
+        "initial_source": "data/daiso_real/shortlist_observations.json",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "next_action": "정해진 활성 후보만 읽기 전용으로 재수집하고 실제 캡처시각 확인",
+        "owner": "sourcing",
+        "receipt_id": null,
+        "recovery_id": "recovery_sourcing_000002",
+        "source": "data/daiso_real/shortlist_observations.json",
+        "source_team": "sourcing",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_03704753895054b409ec0fbe2120de17621293d6d3069bf3cd252bf4b5c3c712"
       }
     ],
     "schema_version": 1
   },
   "status": "local_only",
   "tasks": [
-    {
-      "deadline": null,
-      "depends_on": [],
-      "goal_id": "f67ee7146e427abceb5642e635d95050c40bef3237982f1414c55a5bb42bd357",
-      "kind": "snapshot_report",
-      "level": 2,
-      "parent_id": null,
-      "priority": "high",
-      "state": "COMPLETED",
-      "task_id": "task_f35a2720331a7fac5cdce1853e7561cc47f8a16e70c6b504c6111205c4bb59ff",
-      "team": "knowledge"
-    },
     {
       "deadline": null,
       "depends_on": [],
@@ -781,6 +911,18 @@
       "priority": "high",
       "state": "COMPLETED",
       "task_id": "task_f65dfd5c318bf861c986e3ed858908bdf71e6b1a71134bb7401cc2efd9d6fb9d",
+      "team": "knowledge"
+    },
+    {
+      "deadline": null,
+      "depends_on": [],
+      "goal_id": "84871b77f99b224f3380f95ae7b733065ae2ec4ebc11a2527e727d9233fb8faa",
+      "kind": "snapshot_report",
+      "level": 2,
+      "parent_id": null,
+      "priority": "high",
+      "state": "COMPLETED",
+      "task_id": "task_f69a46b0052c99d5a84801a118502be3f43442073b531c5ac28698b60f81eb61",
       "team": "knowledge"
     },
     {
@@ -1144,49 +1286,44 @@
   ],
   "watchers": [
     {
-      "captured_at": "2026-10-05T07:03:56.875731+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 0,
-        "fresh_records": 6,
-        "missing_records": 0,
-        "stale_records": 0,
-        "total_records": 6
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
-      "reason": "",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
-        "attempts": 1,
-        "blocker_codes": [],
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
         "current_source": "data/daiso_real/shortlist_observations.json",
         "dependencies_are_not_execution_authority": true,
-        "episode": 1,
+        "episode": 2,
         "escalation_code": null,
         "execution_enabled": false,
-        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "initial_evidence_hash": "4c41eb05a25bb38dc0c21139eb1328d07fe4cab432dcd28a655c989fcce2437a",
-        "initial_source": "data/product_master.json",
-        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "next_action": "실제 재관찰·영수증 검증 완료",
+        "first_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "initial_evidence_hash": "15604b3dc3567f2d7a88d2a3ee031a169a1f7617e704b572675f9c49a94e4739",
+        "initial_source": "data/daiso_real/shortlist_observations.json",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "next_action": "정해진 활성 후보만 읽기 전용으로 재수집하고 실제 캡처시각 확인",
         "owner": "sourcing",
-        "receipt_id": "receipt-c48c65dabd8a9ef2e45604cae0d676162b2d6dbdf784c77faf83861f8466d0e0",
-        "recovery_id": "recovery_sourcing_000001",
-        "source": "data/product_master.json",
+        "receipt_id": null,
+        "recovery_id": "recovery_sourcing_000002",
+        "source": "data/daiso_real/shortlist_observations.json",
         "source_team": "sourcing",
-        "status": "RECOVERED",
-        "task_id": "task_6301f75a724e8799d0fb64ba5bd944d944bef160c656cd221b8330197c75045f"
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_03704753895054b409ec0fbe2120de17621293d6d3069bf3cd252bf4b5c3c712"
       },
       "scope": "active_shopify_shortlist_only",
-      "status": "NO_CHANGE",
+      "status": "BLOCKED",
       "team": "sourcing"
     },
     {
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1202,7 +1339,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "62d54ee077064bd6ecd3206928837cca4d62a7fb17ae6d52c40adcc145e64655",
         "initial_source": "data/institution_sources.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "실패 공급원의 날짜·파싱 근거 확인 후 허용 범위에서 실제 재수집",
         "owner": "institutions",
         "receipt_id": null,
@@ -1220,7 +1357,7 @@
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1236,7 +1373,7 @@
         "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
         "initial_evidence_hash": "544d89cf4cf36d575fcfcdf1b976928b09fac86b98f8ebfb6a4be6b8c978c340",
         "initial_source": "data/google_trends_beauty.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "공식 트렌드 자료를 허용 범위에서 재수집하고 실제 캡처시각 확인",
         "owner": "market",
         "receipt_id": null,
@@ -1261,7 +1398,7 @@
         "total_records": 10
       },
       "observation_kind": "local_derived_read",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1290,42 +1427,37 @@
       "team": "listing"
     },
     {
-      "captured_at": "2026-10-05T07:03:56.875731+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 0,
-        "fresh_records": 6,
-        "missing_records": 0,
-        "stale_records": 0,
-        "total_records": 6
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
-      "reason": "",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
-        "attempts": 1,
-        "blocker_codes": [],
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
         "current_source": "data/daiso_real/shortlist_observations.json",
         "dependencies_are_not_execution_authority": true,
-        "episode": 1,
+        "episode": 2,
         "escalation_code": null,
         "execution_enabled": false,
-        "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "initial_evidence_hash": "54514880dd612832edf687fee1be877524912213b0b82f015392e90cda29e3a6",
-        "initial_source": "data/product_master.json",
-        "last_detected_at": "2026-10-04T06:39:43.124024+00:00",
-        "next_action": "실제 재관찰·영수증 검증 완료",
+        "first_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "initial_evidence_hash": "d9407a51f83cec8ebb1bf610ba8fc95d2eaefcba5f213991fbe4eb3454b6ae4c",
+        "initial_source": "data/daiso_real/shortlist_observations.json",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "next_action": "실측 가격·정본 ID·원화 단위·실제 캡처시각 재확인",
         "owner": "pricing",
-        "receipt_id": "receipt-72227f8c13a453f6043b7f7f499b60bfe58d3430882ef414c1d9a797c74d75e2",
-        "recovery_id": "recovery_pricing_000001",
-        "source": "data/product_master.json",
+        "receipt_id": null,
+        "recovery_id": "recovery_pricing_000002",
+        "source": "data/daiso_real/shortlist_observations.json",
         "source_team": "pricing",
-        "status": "RECOVERED",
-        "task_id": "task_beb7906033af56bda562d4bc72f5caff3abb7a203fd52d2d12b4f2573b6afb0d"
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_b71e869e78075f6c9d612020eeb0359f572cfaccab85d3b409d067d11ad4cf28"
       },
       "scope": "active_shopify_shortlist_only",
-      "status": "NO_CHANGE",
+      "status": "BLOCKED",
       "team": "pricing"
     },
     {
@@ -1339,7 +1471,7 @@
         "total_records": 10
       },
       "observation_kind": "local_derived_read",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "",
       "recovery": {
         "attempt_limit": 2,
@@ -1371,7 +1503,7 @@
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1387,7 +1519,7 @@
         "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
         "initial_evidence_hash": "3cf9266fbb2a73628963fea7daf1ad22ce3cfc17822a184f054b48a766bf3b0c",
         "initial_source": "data/robotics_sources.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "설정된 공개 로보틱스 수집기를 재실행하고 실제 캡처시각 확인",
         "owner": "robotics",
         "receipt_id": null,
@@ -1405,7 +1537,7 @@
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1421,7 +1553,7 @@
         "first_detected_at": "2026-10-06T09:13:20.922963+00:00",
         "initial_evidence_hash": "de01f453a09befc1c3c4682701de6b7b4f6bd0f662e266c3786069585296268e",
         "initial_source": "data/design_team.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "설정된 공개 디자인 피드를 재수집하고 참조·실제 캡처시각 확인",
         "owner": "design",
         "receipt_id": null,
@@ -1436,23 +1568,16 @@
       "team": "design"
     },
     {
-      "captured_at": "2026-10-05T02:25:10.366132+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 3,
-        "fresh_records": 4,
-        "missing_records": 3,
-        "stale_records": 0,
-        "total_records": 7
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
-      "reason": "PARTIAL_SOURCE_COVERAGE",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
         "attempts": 0,
         "blocker_codes": [
-          "PARTIAL_SOURCE_COVERAGE"
+          "STALE_SOURCE_CAPTURE"
         ],
         "current_source": "data/channel_candidates.json",
         "dependencies_are_not_execution_authority": true,
@@ -1462,7 +1587,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "33c4d4b036e74bc9049edf8e24e0f7ae2016d153d5f40ec52a5dab737f131c58",
         "initial_source": "data/channel_candidates.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "접근이 허용된 후보만 재탐색. 탐색 성공은 연동 등록이 아님",
         "owner": "channels",
         "receipt_id": null,
@@ -1473,14 +1598,14 @@
         "task_id": "task_99bb591710666e2b2a6e9815fc29f64144f41489c810ec828dbc3581bce63fcb"
       },
       "scope": "candidate_probes_only_not_registered_connectors",
-      "status": "PARTIAL",
+      "status": "BLOCKED",
       "team": "channels"
     },
     {
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1496,7 +1621,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "c6843ba0e0bb33123b5679bdd18997f3306d7748f035994475d08eafef3428fe",
         "initial_source": "data/knowledge/real_sources.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "원수집기의 실제 캡처시각·항목 ID를 보강한 후 허용 범위 재수집",
         "owner": "knowledge",
         "receipt_id": null,
@@ -1514,7 +1639,7 @@
       "captured_at": null,
       "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
       "reason": "STALE_SOURCE_CAPTURE",
       "recovery": {
         "attempt_limit": 2,
@@ -1530,7 +1655,7 @@
         "first_detected_at": "2026-10-04T06:39:43.124024+00:00",
         "initial_evidence_hash": "8ef09f30adf8fcc8d3e63d0b7b9444abf1be05cde6349f70bf9b9c703886e2b0",
         "initial_source": "data/obsidian_sync_status.json",
-        "last_detected_at": "2026-10-06T09:22:34.102650+00:00",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
         "next_action": "기존 Obsidian 동기화 경로·연결 권한 확인 후 실제 동기화 재관찰",
         "owner": "graph",
         "receipt_id": null,
@@ -1545,21 +1670,37 @@
       "team": "graph"
     },
     {
-      "captured_at": "2026-10-05T07:04:00.787090+00:00",
-      "coverage": {
-        "catalog_only": 0,
-        "failed_sources": 0,
-        "fresh_records": 5,
-        "missing_records": 0,
-        "stale_records": 0,
-        "total_records": 5
-      },
+      "captured_at": null,
+      "coverage": null,
       "observation_kind": "source_capture",
-      "observed_at": "2026-10-06T09:22:34.102650+00:00",
-      "reason": "",
-      "recovery": null,
+      "observed_at": "2026-10-11T01:57:06.059687+00:00",
+      "reason": "STALE_SOURCE_CAPTURE",
+      "recovery": {
+        "attempt_limit": 2,
+        "attempts": 0,
+        "blocker_codes": [
+          "STALE_SOURCE_CAPTURE"
+        ],
+        "current_source": "data/dashboard_runtime.json",
+        "dependencies_are_not_execution_authority": true,
+        "episode": 1,
+        "escalation_code": null,
+        "execution_enabled": false,
+        "first_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "initial_evidence_hash": "13894c8107560111befff19c726e5dade5c7772f690fe0c43911df7c34f59163",
+        "initial_source": "data/dashboard_runtime.json",
+        "last_detected_at": "2026-10-11T01:57:06.059687+00:00",
+        "next_action": "실제 워크플로 관찰로 고정 대시보드 재생성 후 관찰시각 확인",
+        "owner": "graph",
+        "receipt_id": null,
+        "recovery_id": "recovery_secretary_000001",
+        "source": "data/dashboard_runtime.json",
+        "source_team": "secretary",
+        "status": "WAITING_SOURCE_RECOVERY",
+        "task_id": "task_d31c44bb17b49fe6381fe1ef8aa4790bb95e5153347b3a964194d85d3a4ccd62"
+      },
       "scope": null,
-      "status": "NO_CHANGE",
+      "status": "BLOCKED",
       "team": "secretary"
     }
   ]

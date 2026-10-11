@@ -21,6 +21,18 @@
       "delete_file": false,
       "policy_ref": "owner_authorized:2026-10-10:collection_status.last_candidate_success",
       "reason": "Owner-authorized replacement of the last_candidate_success snapshot by a newer full collection; the previous candidate list is retained in git history and data/daiso_real/candidate_pool_history by SHA256."
+    },
+    {
+      "path": "data/daiso_real/collection_status.json",
+      "base_sha256": "c74af1b9653d01ab235184015805de4457b3b31def223b4d7eec3636efb671fd",
+      "replacement_sha256": "aed12f07a1d59fb1b43fa9b121f572103da5d3fe413f8661aec76b7b2d837d7e",
+      "ids": [
+        "Frankfurter API 1,348.28(2026-10-02)",
+        "exchangerate-api 1,347.39(2026-10-03)"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
     }
   ]
 }

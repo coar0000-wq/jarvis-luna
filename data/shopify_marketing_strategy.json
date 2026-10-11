@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T09:04:20.677473+09:00",
+  "generated_at": "2026-10-11T10:57:02.206312+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -3348,8 +3348,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 100,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3383,8 +3383,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 98,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3453,8 +3453,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 96,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3488,8 +3488,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 96,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3523,8 +3523,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 94,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3558,8 +3558,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 92,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3593,8 +3593,8 @@
       "bucket": "마스크팩",
       "grade": "S",
       "score": 90,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3663,8 +3663,8 @@
       "bucket": "마스크팩",
       "grade": "S",
       "score": 86,
-      "agent_ready": false,
-      "public_ready": false,
+      "agent_ready": true,
+      "public_ready": true,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3842,10 +3842,10 @@
     "Social Paradigm Group 영상의 대행사·브랜드 규모 홍보와 보편 매출·전환 벤치마크는 제외하고 단위경제 선행 진단과 자사 기준선 판정 원칙만 채택"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-05T04:27:35.700392+00:00",
+    "listing_gate_generated_at": "2026-10-11T01:57:02.112495+00:00",
     "s_product_count": 10,
     "product_playbook_count": 10,
-    "public_ready_count": 0,
-    "agent_ready_count": 0
+    "public_ready_count": 8,
+    "agent_ready_count": 8
   }
 }

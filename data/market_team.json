@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-09T09:04:20.696597+09:00",
+    "updated_at": "2026-10-11T10:57:02.216052+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -570,6 +570,20 @@
         "source": "youtube_channel"
       },
       {
+        "title": "ChatGPT Work + Dot: Build your AI Marketing Team (Agents + Skills)",
+        "url": "https://www.youtube.com/watch?v=BzS93V2zFTg",
+        "channel": "Grace Leung",
+        "views": 61516,
+        "note": "ChatGPT Work + Dot: 브랜드 컨텍스트 파일 + 재사용 스킬(광고 제작, 웹사이트 제작) + 역할별 에이전트(성장전략, 콘텐츠)와 스킬/에이전트 구분 기준. 협찬(HubSpot) 영상이라 할인·성과 수치는 근거로 쓰지 않음. 오너 공유 2026-10-10",
+        "teams": [
+          "market",
+          "listing",
+          "design",
+          "knowledge"
+        ],
+        "source": "youtube_manual"
+      },
+      {
         "title": "How to Market Your Shopify Store Like a PRO!",
         "url": "https://www.youtube.com/watch?v=r34jBooJwUw",
         "channel": "Learn With Shopify",
@@ -638,19 +652,6 @@
           "design"
         ],
         "source": "youtube_channel"
-      },
-      {
-        "title": "How to Use Claude Cowork to Build and Run a Shopify Store",
-        "url": "https://www.youtube.com/watch?v=IQDtl0Dacjo",
-        "channel": null,
-        "views": 34000,
-        "note": "",
-        "teams": [
-          "market",
-          "listing",
-          "design"
-        ],
-        "source": "youtube_channel"
       }
     ],
     "note": "실수집 가능한 소스만 반영한다. OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. OY 는 주 1회 로컬·브라우저 수집을 권장한다.",
@@ -668,8 +669,13 @@
     "근거_인사이트": 73,
     "주제": {
       "광고·크리에이티브": {
-        "자료_수": 7,
+        "자료_수": 9,
         "자료": [
+          {
+            "title": "ChatGPT Work + Dot: Build your AI Marketing Team (Agents + Skills)",
+            "url": "https://www.youtube.com/watch?v=BzS93V2zFTg",
+            "note": "ChatGPT Work + Dot: 브랜드 컨텍스트 파일 + 재사용 스킬(광고 제작, 웹사이트 제작) + 역할별 에이전트(성장전략, 콘텐츠)와 스킬/에이전트 구분 기준. 협찬(HubSpot) 영상이라 할인·성과 수치는 근거로 쓰지 않음. 오너 공유 2026-10-10"
+          },
           {
             "title": "The COMPLETE Meta Tutorial (Meta Ads, Meta Business Suite, Meta AI, Facebook Ads & More!)",
             "url": "https://www.youtube.com/watch?v=OE4WimLYVGE",
@@ -689,16 +695,11 @@
             "title": "Your 30 day plan to blow-up your clothing brand in 2026: Marketing strategy, ads + the algorithm 101",
             "url": "https://www.youtube.com/watch?v=YzTg8c5DnWI",
             "note": ""
-          },
-          {
-            "title": "Full Marketing Course for Dropshipping (Facebook Ads, Creatives, AI)",
-            "url": "https://www.youtube.com/watch?v=0r2iIy84Gm8",
-            "note": ""
           }
         ]
       },
       "전환·럜딩": {
-        "자료_수": 10,
+        "자료_수": 11,
         "자료": [
           {
             "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
@@ -1626,9 +1627,7 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
     },
@@ -1658,9 +1657,7 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
     },
@@ -1722,9 +1719,7 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
@@ -1754,9 +1749,7 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554"
     },
@@ -1786,9 +1779,7 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857"
     },
@@ -1818,9 +1809,7 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285"
     },
@@ -1850,9 +1839,7 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
     },
@@ -1908,50 +1895,12 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [
-        "legal"
-      ],
+      "agent_blocked_by": [],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
     }
   ],
   "competitor_watch": [
-    {
-      "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 16646,
-      "us_rank": 1,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
-      "brand": "S.NATURE",
-      "price_usd": 17.99,
-      "rating": 4.9,
-      "review_count": 21,
-      "us_rank": 2,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA16733220",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-      "brand": "Anua",
-      "price_usd": 29.0,
-      "rating": 4.8,
-      "review_count": 842,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA69419689",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
     {
       "name": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
       "brand": "Anua",
@@ -1987,10 +1936,46 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 53위 · 마스크팩 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA39329211",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 16646,
+      "us_rank": 1,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
+      "brand": "S.NATURE",
+      "price_usd": 17.99,
+      "rating": 4.9,
+      "review_count": 21,
+      "us_rank": 2,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA16733220",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
+      "brand": "Anua",
+      "price_usd": 29.0,
+      "rating": 4.8,
+      "review_count": 842,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA69419689",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 9건의 Draft Action 상태 확인",
+    "Shopify Draft Action 5건의 payload hash를 검토하고 사람 승인",
     "AI 선행 게이트 차단 1건의 증거 보강: legal, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
     "시장 가격대 100건 기준 중앙값 $22.49 주 1회 확인",
@@ -2019,9 +2004,9 @@
     ],
     "s_count": 10,
     "listing_ready_count": 9,
-    "last_score_run": "2026-10-05",
-    "last_pricing_run": "2026-10-05",
-    "exchange_rate": 1347.39
+    "last_score_run": "2026-10-11",
+    "last_pricing_run": "2026-10-11",
+    "exchange_rate": 1341.69
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."
 }
