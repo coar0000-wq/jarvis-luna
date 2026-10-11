@@ -191,7 +191,10 @@ class WorkflowTests(unittest.TestCase):
         from scripts.restore_operations_safety import WORKFLOWS as operation_callers
         recovery_path='.github/workflows/daiso-candidate-recovery.yml'
         self.assertNotIn(recovery_path,source_callers)
-        self.assertNotIn(recovery_path,operation_callers)
+        # Mandatory normal publication runs guarded local owner operations.
+        # Unlike source collection, this is genuine new operations history.
+        self.assertIn(recovery_path,operation_callers)
+        self.assertIn('JARVIS_OPERATIONS_CONTINUITY',publish['env'])
 
 
 class RecordedCaptureTests(unittest.TestCase):

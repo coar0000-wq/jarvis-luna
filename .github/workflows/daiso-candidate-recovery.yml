@@ -1,9 +1,9 @@
 name: Daiso Candidate Metadata Recovery
 
-# Metadata-only recovery is NOT a new source/operation caller. Restore only
-# authenticated genuine-caller checkpoints; do not classify this replay as a
-# source collection or grant it new ledger authority. Retained bundles below
-# are forensic copies, not newly executed procedure evidence.
+# Metadata-only replay is NOT a new source collector and grants no fresh
+# source-procedure authority. Its normal publish action DOES perform guarded
+# local owner operations, so retain and authenticate that operations history.
+# The source checkpoint is only a forensic copy of genuine-caller evidence.
 
 on:
   workflow_dispatch:
