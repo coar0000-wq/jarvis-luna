@@ -34,7 +34,8 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-daiso.txt
+        run: |
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-daiso.txt
       - name: Restore durable source safety before recovery
         id: source_safety
         env:

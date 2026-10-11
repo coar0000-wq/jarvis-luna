@@ -9,6 +9,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 from datetime import datetime, timezone
+import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts import recover_daiso_candidates as recovery
 from scripts import daiso_pipeline_inputs as proof
@@ -166,6 +167,26 @@ class PreparationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'only candidates-only'):
             recovery.prepare(root,members,run,{}, {'id':12},'b'*64)
         self.assertEqual((root/proof.STATUS).read_bytes(),base)
+
+
+class WorkflowTests(unittest.TestCase):
+    def test_recovery_yaml_is_dispatch_only_and_uses_normal_guarded_publication(self):
+        project=Path(__file__).resolve().parents[1]
+        workflow=yaml.safe_load((project/'.github/workflows/daiso-candidate-recovery.yml').read_text(encoding='utf-8'))
+        triggers=workflow.get('on',workflow.get(True))
+        self.assertEqual(set(triggers),{'workflow_dispatch'})
+        steps=workflow['jobs']['recover']['steps']
+        runs='\n'.join(str(s.get('run','')) for s in steps)
+        self.assertIn('restore_source_safety.py',runs)
+        self.assertIn('restore_operations_safety.py',runs)
+        self.assertNotIn('--verify-current',runs)
+        self.assertNotIn('collect_daiso.py',runs)
+        publish=next(s for s in steps if s.get('uses')=='./.github/actions/publish')
+        self.assertNotIn(proof.OPERATING,publish['with']['paths'].split())
+        self.assertIn(proof.STATUS,publish['with']['paths'].split())
+        self.assertIn(proof.POOL,publish['with']['paths'].split())
+        self.assertIn('operations-safety-',str(steps))
+        self.assertIn('source-safety-',str(steps))
 
 
 class RecordedCaptureTests(unittest.TestCase):
