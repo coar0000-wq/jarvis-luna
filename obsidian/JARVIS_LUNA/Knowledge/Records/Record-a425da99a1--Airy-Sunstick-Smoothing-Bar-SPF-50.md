@@ -2,7 +2,7 @@
 title: "Record a425da99a1 · Airy-Sunstick-Smoothing-Bar-SPF-50"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:38.896303+00:00
+updated_at: 2026-10-11T22:24:13.175855+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/abib-airy-sunstick-smoothing-bar"
 **제목:** Airy Sunstick Smoothing Bar SPF 50+
 
 Airy Sunstick Smoothing Bar SPF 50+
-Airy Sunstick Smoothing Bar SPF 50+ · Abib · $28.0
+Airy Sunstick Smoothing Bar SPF 50+ · Abib · $28
 
 **출처:** Source · us_beauty

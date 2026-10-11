@@ -2,7 +2,7 @@
 title: "Record f8538e16a6 · Is-2016-Makeup-Back-for-Good---Hypebae"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:33.298648+00:00
+updated_at: 2026-10-11T22:24:12.848811+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["뷰티스킨케어"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWFaR3ktSVlScFJucmJZU
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWFaR3ktSVlScFJucmJZUXNYNFF4Y1VnbThzbV9HcGlWenZ5am5xMHNLTGpuWW1pSXN2cGN5UTVVcVYwVkpNaUppLVRIX0YzSFN2NjRBQUNoQnVGTHppTUxwS0xqQjZaa3Vkclo0WTgwODAyellMUmRqMzZ6VV9MbHJSMmJXYlFUaVE?oc=5)
 
-**제목:** Is 2016 Makeup Back for Good? - hypebae.com
+**제목:** Is 2016 Makeup Back for Good? - Hypebae
 
-Is 2016 Makeup Back for Good? - hypebae.com
+Is 2016 Makeup Back for Good? - Hypebae
 
 **출처:** Source · Google Search

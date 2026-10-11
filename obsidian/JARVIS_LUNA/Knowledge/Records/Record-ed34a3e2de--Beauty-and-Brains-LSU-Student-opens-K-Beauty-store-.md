@@ -2,7 +2,7 @@
 title: "Record ed34a3e2de · Beauty-and-Brains-LSU-Student-opens-K-Beauty-store-in-Baton-Rouge---ls"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:35.374773+00:00
+updated_at: 2026-10-11T22:24:12.962790+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["뷰티스킨케어"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHNzUW9mMzlzWWlmU004R
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHNzUW9mMzlzWWlmU004RW0wN2pjOWgzSi1EUHR2Z3BCQ2wzX2xqNlI2XzBUejc5NndBVGVNTHNoOThwZmhrUVJiNWZQWlRfLXgwM0dVLV92MjZmUUk0Mk5KYjllMHFyT2lIa21INWRjTWRTaXhjTGU2b3FmTzR4UXVLQ2hQaS1NcUVsUlpDVTVtdXY1U2RyakJSUGpZbVdoNkxLVFV3aGo?oc=5)
 
-**제목:** Beauty and Brains: LSU Student opens K-Beauty store in Baton Rouge - lsureveille.com
+**제목:** Beauty and Brains: LSU Student opens K-Beauty store in Baton Rouge - The Reveille, LSU's student newspaper
 
-Beauty and Brains: LSU Student opens K-Beauty store in Baton Rouge - lsureveille.com
+Beauty and Brains: LSU Student opens K-Beauty store in Baton Rouge - The Reveille, LSU's student newspaper
 
 **출처:** Source · Google Search

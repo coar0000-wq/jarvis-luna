@@ -2,7 +2,7 @@
 title: "Record db56c86999 · Advanced-Snail-Peptide-Eye-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:38.977263+00:00
+updated_at: 2026-10-11T22:24:13.181033+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/cosrx-advanced-snail-peptide-eye-cream"
 **제목:** Advanced Snail Peptide Eye Cream
 
 Advanced Snail Peptide Eye Cream
-Advanced Snail Peptide Eye Cream · COSRX · $22.0
+Advanced Snail Peptide Eye Cream · COSRX · $22
 
 **출처:** Source · us_beauty

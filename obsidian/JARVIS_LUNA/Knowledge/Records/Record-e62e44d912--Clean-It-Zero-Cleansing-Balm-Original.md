@@ -2,7 +2,7 @@
 title: "Record e62e44d912 · Clean-It-Zero-Cleansing-Balm-Original"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:38.925436+00:00
+updated_at: 2026-10-11T22:24:13.178237+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/banila-co-clean-it-zero-classic"
 **제목:** Clean It Zero Cleansing Balm Original
 
 Clean It Zero Cleansing Balm Original
-Clean It Zero Cleansing Balm Original · BANILA CO · $21.0
+Clean It Zero Cleansing Balm Original · BANILA CO · $21
 
 **출처:** Source · us_beauty

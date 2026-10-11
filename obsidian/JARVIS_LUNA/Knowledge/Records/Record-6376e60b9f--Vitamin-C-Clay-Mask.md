@@ -2,7 +2,7 @@
 title: "Record 6376e60b9f · Vitamin-C-Clay-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:39.015152+00:00
+updated_at: 2026-10-11T22:24:13.183494+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/gleamin-vitamin-c-treatment-mask-with-brush"
 **제목:** Vitamin C Clay Mask
 
 Vitamin C Clay Mask
-Vitamin C Clay Mask · Gleamin · $40.0
+Vitamin C Clay Mask · Gleamin · $40
 
 **출처:** Source · us_beauty
