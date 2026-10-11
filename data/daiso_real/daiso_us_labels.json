@@ -204,7 +204,7 @@
     "product_name_kr": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
     "net_contents": "28 g",
     "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
-    "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+    "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
     "country_of_origin": "Korea",
     "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
     "gosi_ok": true,
@@ -252,6 +252,16 @@
         "human_verified": false,
         "source": "data/manual/official_label_text.json",
         "note": "다이소 고시 이미지 원문 번역 초안. 사람 검토 전."
+      },
+      "manufacturer": {
+        "owner": "human",
+        "status": "current",
+        "eligible": true,
+        "human_verified": false,
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "verified_official_site",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       }
     },
     "ingredients_inci_status": "current_derived",
@@ -261,7 +271,47 @@
       "ingredients_inci"
     ],
     "product_name_en": "Celderma Daily Transforming Firming Collagen Mask",
-    "directions_en": "1) After cleansing, prepare the skin with toner. 2) Remove the films, then place the upper part centered on the eyes and the lower part centered on the mouth so the mask adheres to the face. 3) After about 20 to 40 minutes, remove the mask and lightly pat the essence remaining on the skin to absorb."
+    "directions_en": "1) After cleansing, prepare the skin with toner. 2) Remove the films, then place the upper part centered on the eyes and the lower part centered on the mouth so the mask adheres to the face. 3) After about 20 to 40 minutes, remove the mask and lightly pat the essence remaining on the skin to absorb.",
+    "manufacturer_ko": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1059834",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1059834",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1059834",
+      "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1045146": {
     "product_name_kr": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -399,7 +449,7 @@
   "1075857": {
     "product_name_kr": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
     "net_contents": "18g",
-    "manufacturer": "(주)제닉",
+    "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
     "country_of_origin": "Korea",
     "ingredients_source": "정제수, 메틸프로판다이올, 글리세린, 카프릴릭/카프릭트라이글리세라이드, 나이아신아마이드, 폴리글리세릴-3다이스테아레이트, 세테아릴알코올, 하이드록시아세토페논, 알지닌, 카보머, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴스테아레이트시트레이트, 알란토인, 잔탄검, 소듐디엔에이(100ppm), 아데노신, 다이소듐이디티에이, 글루코노락톤, 향료, 광곽향오일",
     "ingredients_source_type": "daiso_product_notice",
@@ -435,12 +485,14 @@
         "source_fingerprint": "7d0c6e181e1e772c40ae7bc4ff3fd1eddccfd2215d1a10aa1ab62cca7f94d50c"
       },
       "manufacturer": {
-        "owner": "machine",
+        "owner": "human",
         "status": "current",
         "eligible": true,
-        "source_type": "daiso_product_notice",
         "human_verified": false,
-        "source_fingerprint": "b66a69bfd1b870cfc84be6a2ec52b74b396c0393262947d7ea818dee19b48fe3"
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "verified_official_site",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       },
       "country_of_origin": {
         "owner": "machine",
@@ -491,7 +543,47 @@
     "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
     "product_name_en": "Celderma Daily PDRN Radiance Cream Wrapping Mask",
     "directions_en": "1) After cleansing, prepare the skin with toner. 2) Peel off the upper mask film and place the mask on the face, aligning the eye and nose areas. Peel off the lower mask film, align it with the mouth, and pull the edges to lift and attach the cheek area. 3) After about 20 minutes, remove the mask and gently roll the cream remaining on the skin to absorb.",
-    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area."
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
+    "manufacturer_ko": "(주)제닉",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1075857",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1075857",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1075857",
+      "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1068776": {
     "product_name_kr": "싸이닉 파워옴므 워터리 선크림 50 ml",
@@ -860,7 +952,7 @@
     "gosi_ok": true,
     "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
-    "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+    "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
     "ingredients_source": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 실리카, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 글리세레스-26, 에틸헥실글리세린, 카프릴릴글라이콜, 아데노신, 소듐폴리아크릴레이트, 병풀추출물, 소듐하이알루로네이트, 카프릴릴/카프릴글루코사이드, 솔비탄올리에이트, 잔탄검, 프로폴리스추출물, 아시아티코사이드, 마데카소사이드, 마데카식애씨드, 아시아틱애씨드, 글라이신, 세린, 글루타믹애씨드, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 트레오닌, 프롤린, 발린, 아이소류신, 히스티딘, 메티오닌, 시스테인",
     "ingredients_source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Niacinamide, Butylene Glycol, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Ethylhexyl Palmitate, Silica, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Glycereth-26, Ethylhexylglycerin, Caprylyl Glycol, Adenosine, Sodium Polyacrylate, Centella Asiatica Extract, Sodium Hyaluronate, Caprylyl/Capryl Glucoside, Sorbitan Oleate, Xanthan Gum, Propolis Extract, Asiaticoside, Madecassoside, Madecassic Acid, Asiatic Acid, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Threonine, Proline, Valine, Isoleucine, Histidine, Methionine, Cysteine",
@@ -891,12 +983,14 @@
         "source_fingerprint": "370d5db5022b8ea6806b8ca61cd2baa8cfd4d53da1cfb52b1759813342564b95"
       },
       "manufacturer": {
-        "owner": "machine",
+        "owner": "human",
         "status": "current",
         "eligible": true,
-        "source_type": "daiso_product_notice",
         "human_verified": false,
-        "source_fingerprint": "83df99d6adff0bad092a057e2ad9fb844501ef2871e9ef12bca48545d72bb676"
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "romanized_from_kr_notice",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       },
       "country_of_origin": {
         "owner": "machine",
@@ -917,7 +1011,50 @@
     },
     "ingredients_inci_status": "current_derived",
     "ingredients_inci_eligible": true,
-    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval"
+    "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
+    "product_name_en": "VT Reedle Shot 300 Facial Boosting First Ampoule",
+    "directions_en": "During your evening skincare routine, take an appropriate amount onto clean, bare skin after cleansing and spread it by pressing gently with your fingertips. After Reedle Shot 300 is absorbed, finish with a moisturizing skincare product or a skincare product containing the active ingredients you want to enhance.",
+    "warnings_en": "Stop use and consult a dermatologist if redness, swelling, itching or other irritation occurs during or after use, including after sun exposure. Do not apply to wounds or broken skin. Avoid contact with eyes and lips. Do not use with beauty devices or after laser or other skin procedures. A tingling sensation may occur and varies by individual. If you have allergic or sensitive skin, patch test on a small area before use. Use sunscreen when exposed to sunlight after use. Keep out of reach of children. Store away from direct sunlight.",
+    "manufacturer_ko": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1049276",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1049276",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1049276",
+      "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1055167": {
     "product_name_kr": "본셉 레티놀 500 IU 세럼 30 ml",
@@ -926,7 +1063,7 @@
     "gosi_ok": true,
     "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
-    "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+    "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
     "ingredients_source": "정제수, 부틸렌글라이콜, 글리세린, 스쿠알란, 1,2-헥산다이올, 시어버터, C9-12알케인, 다이메티콘, 바쿠치올, 레티놀(500IU/g), C14-22알코올, 글리세릴스테아레이트, 피이지-100스테아레이트, 해바라기씨오일, 글리세릴스테아레이트에스이, 하이드록시에틸아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, C12-20알킬글루코사이드, 돌콩오일, 토코페릴아세테이트, 알란토인, 에틸헥실글리세린, 카보머, 트로메타민, 아데노신, 잔탄검, 다이소듐이디티에이, 솔비탄아이소스테아레이트, 비에이치티, 아나토씨오일, 세라마이드엔피, 녹두씨추출물, 판테놀, 토코페롤, 하이드로제네이티드레시틴, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세릴-10미리스테이트, 병풀추출물, 소듐하이알루로네이트, 향료",
     "ingredients_source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Butylene Glycol, Glycerin, Squalane, 1,2-Hexanediol, Butyrospermum Parkii (Shea) Butter, C9-12 Alkane, Dimethicone, Bakuchiol, Retinol, C14-22 Alcohols, Glyceryl Stearate, PEG-100 Stearate, Helianthus Annuus (Sunflower) Seed Oil, Glyceryl Stearate SE, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, C12-20 Alkyl Glucoside, Glycine Soja (Soybean) Oil, Tocopheryl Acetate, Allantoin, Ethylhexylglycerin, Carbomer, Tromethamine, Adenosine, Xanthan Gum, Disodium EDTA, Sorbitan Isostearate, BHT, Bixa Orellana Seed Oil, Ceramide NP, Phaseolus Radiatus Seed Extract, Panthenol, Tocopherol, Hydrogenated Lecithin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Centella Asiatica Extract, Sodium Hyaluronate, Fragrance|Perfume|Parfum",
@@ -957,12 +1094,14 @@
         "source_fingerprint": "3757aa6284b6b721ff36d2cc13d0240e8a0f660a8c4e74f0e3892b14d0f72c11"
       },
       "manufacturer": {
-        "owner": "machine",
+        "owner": "human",
         "status": "current",
         "eligible": true,
-        "source_type": "daiso_product_notice",
         "human_verified": false,
-        "source_fingerprint": "da457766bd18e8408e529d95f3c288c8b6cf484beb25496e0338315f2f5213fd"
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "romanized_from_kr_notice",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       },
       "country_of_origin": {
         "owner": "machine",
@@ -1013,7 +1152,47 @@
     "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
     "product_name_en": "Boncept Retinol 500 IU Serum",
     "directions_en": "Take an appropriate amount of the product and spread it gently along the skin texture, then lightly pat to absorb.",
-    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight."
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
+    "manufacturer_ko": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1055167",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1055167",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1055167",
+      "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1049275": {
     "product_name_kr": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -1088,7 +1267,7 @@
     "gosi_ok": true,
     "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
-    "manufacturer": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
+    "manufacturer": "Manufacturer: YEGRINA Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
     "ingredients_source": "정제수, 부틸렌글라이콜, 글리세린, 프로판다이올, C12-15알킬벤조에이트, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세린-3, 메틸하이드로제네이티드로지네이트, 1,2-헥산다이올, 나이아신아마이드, 카프릴릭/카프릭/미리스틱/스테아릭트라이글리세라이드, C14-22알코올, 비스-다이글리세릴폴리아실아디페이트-2, 비닐다이메티콘, 세테아릴알코올, 판테놀, 글리세릴스테아레이트, 베타인, C12-20알킬글루코사이드, 폴리아크릴레이트-13, 팔미틱애씨드, 하이드로제네이티드식물성오일, 스테아릭애씨드, 세테아릴글루코사이드, 하이드로제네이티드폴리아이소부텐, 마카다미아씨오일, 트로메타민, 글리세릴아크릴레이트/아크릴릭애씨드코폴리머, 카보머, 잔탄검, 에틸헥실글리세린, 알란토인, 아데노신, 폴리글리세릴-10라우레이트, 에틸헥실팔미테이트, 다이소듐이디티에이, 젤란검, 솔비탄아이소스테아레이트, 아가, 스쿠알란, 하이드로제네이티드레시틴, 해바라기씨오일, 소듐하이알루로네이트, 구아이아줄렌, 하이드롤라이즈드엘라스틴, 산양삼추출물, 카퍼클로로필, 포타슘하이알루로네이트, 하이드록시프로필트라이모늄하이알루로네이트, 하이드롤라이즈드소듐하이알루로네이트, 하이드롤라이즈드하이알루로닉애씨드, 하이알루로닉애씨드, 하이드롤라이즈드콜라겐, 카프릴릴글라이콜, 로즈마리추출물, 세라마이드엔피, 펜틸렌글라이콜, 소듐디엔에이, 소듐하이알루로네이트크로스폴리머, 세라마이드엔에스, 소듐아세틸레이티드하이알루로네이트, 피토스핑고신, 시트릭애씨드, 콜레스테롤, 소듐구아이아줄렌설포네이트, 세라마이드에이에스, 세라마이드에이피, 세라마이드이오피, 향료",
     "ingredients_source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Butylene Glycol, Glycerin, Propanediol, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Polyglycerin-3, Methyl Hydrogenated Rosinate, 1,2-Hexanediol, Niacinamide, Caprylic/Capric/Myristic/Stearic Triglyceride, C14-22 Alcohols, Bis-Diglyceryl Polyacyladipate-2, Vinyl Dimethicone, Cetearyl Alcohol, Panthenol, Glyceryl Stearate, Betaine, C12-20 Alkyl Glucoside, Polyacrylate-13, Palmitic Acid, Hydrogenated Vegetable Oil, Stearic Acid, Cetearyl Glucoside, Hydrogenated Polyisobutene, Macadamia Ternifolia Seed Oil, Tromethamine, Glyceryl Acrylate/Acrylic Acid Copolymer, Carbomer, Xanthan Gum, Ethylhexylglycerin, Allantoin, Adenosine, Polyglyceryl-10 Laurate, Ethylhexyl Palmitate, Disodium EDTA, Gellan Gum, Sorbitan Isostearate, Agar, Squalane, Hydrogenated Lecithin, Helianthus Annuus (Sunflower) Seed Oil, Sodium Hyaluronate, Guaiazulene, Hydrolyzed Elastin, Panax Ginseng Root Extract, Copper Chlorophyll, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Hydrolyzed Collagen, Caprylyl Glycol, Rosmarinus Officinalis (Rosemary) Extract, Ceramide NP, Pentylene Glycol, Sodium DNA, Sodium Hyaluronate Crosspolymer, Ceramide NS, Sodium Acetylated Hyaluronate, Phytosphingosine, Citric Acid, Cholesterol, Sodium Guaiazulene Sulfonate, Ceramide AS, Ceramide AP, Ceramide EOP, Fragrance|Perfume|Parfum",
@@ -1119,12 +1298,14 @@
         "source_fingerprint": "fc4793df015893d96645184a91ea3966e515fc2ede0489b785bcec949750f0d4"
       },
       "manufacturer": {
-        "owner": "machine",
+        "owner": "human",
         "status": "current",
         "eligible": true,
-        "source_type": "daiso_product_notice",
         "human_verified": false,
-        "source_fingerprint": "cc773b336c05c76265a7c8203d3b565bf87c7be9062fdcdc6235ce003803c247"
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "romanized_from_kr_notice",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       },
       "country_of_origin": {
         "owner": "machine",
@@ -1175,7 +1356,47 @@
     "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
     "product_name_en": "VT PDRN Radiance Cream",
     "directions_en": "After using essence, take an appropriate amount of cream and spread it gently along the skin texture until absorbed.",
-    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight."
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
+    "manufacturer_ko": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1067498",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1067498",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1067498",
+      "manufacturer": "Manufacturer: YEGRINA Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1042619": {
     "product_name_kr": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
@@ -1184,7 +1405,7 @@
     "gosi_ok": true,
     "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
-    "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+    "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
     "ingredients_source": "정제수, 글리세린, 나이아신아마이드, 캐롭검, 아이리쉬모스추출물, 1,2-헥산다이올, 펜틸렌글라이콜, 에틸헥실글리세린, 콜라겐추출물(686,000ppb), 아데노신, 다이소듐이디티에이, 글리세릴글루코사이드, 폴리글리세릴-6카프릴레이트, 폴리글리세릴-4카프레이트, 토코페롤",
     "ingredients_source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
@@ -1215,12 +1436,14 @@
         "source_fingerprint": "5cc829a08623bca5808e1bb6282d0eb663f410352e08666fbc24ed193868d88a"
       },
       "manufacturer": {
-        "owner": "machine",
+        "owner": "human",
         "status": "current",
         "eligible": true,
-        "source_type": "daiso_product_notice",
         "human_verified": false,
-        "source_fingerprint": "5e156f1d85dcae0cfccb5dad973de1bc08401e7fe95e6794871f10a36ebb9031"
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "verified_official_site",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       },
       "country_of_origin": {
         "owner": "machine",
@@ -1271,7 +1494,47 @@
     "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
     "product_name_en": "Celderma Daily Collagen Essence Gel Mask",
     "directions_en": "1) After cleansing, prepare the skin with toner. 2) Open the pouch, remove both films separated into upper and lower parts, and apply the mask starting from the upper part. 3) With the film-removed side facing the skin, align the upper part with the eyes and nose and the lower part with the mouth so it adheres well to the skin (either side may be applied). 4) After about 20 to 40 minutes, remove the mask and lightly pat any remaining product to absorb.",
-    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area."
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
+    "manufacturer_ko": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1042619",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1042619",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1042619",
+      "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1049285": {
     "product_name_kr": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
@@ -1280,7 +1543,7 @@
     "gosi_ok": true,
     "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
-    "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+    "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
     "ingredients_source": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나무씨오일, 하이드록시아세토페논, 폴리솔베이트20, 하이드록시에틸우레아, 카보머, 베타인, 알란토인, 트레할로오스, 부틸렌글라이콜, 트로메타민, 덱스트린, 프로판다이올, 다이소듐이디티에이, 글루코오스, 향료, 소듐하이알루로네이트, 소듐폴리아크릴레이트, 치자추출물, 당아욱잎추출물, 글라이신, 세린, 글루타믹애씨드, 클로렐라불가리스추출물, 판테놀, 아스파틱애씨드, 류신, 알라닌, 라이신, 알지닌, 타이로신, 페닐알라닌, 프롤린, 트레오닌, 발린, 아이소류신, 히스티딘, 시스테인, 메티오닌, 폴리글루타믹애씨드, 에틸헥실글리세린, 소듐하이알루로네이트크로스폴리머, 포타슘하이알루로네이트, 하이드록시프로필트라이모늄하이알루로네이트, 하이알루로닉애씨드, 하이드롤라이즈드소듐하이알루로네이트, 하이드롤라이즈드하이알루로닉애씨드, 펜틸렌글라이콜, 소듐아세틸레이티드하이알루로네이트",
     "ingredients_source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Cyclopentasiloxane, Cyclohexasiloxane, Glycereth-26, Macadamia Ternifolia Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Glucoside, 1,2-Hexanediol, Camellia Japonica Seed Oil, Hydroxyacetophenone, Polysorbate 20, Hydroxyethyl Urea, Carbomer, Betaine, Allantoin, Trehalose, Butylene Glycol, Tromethamine, Dextrin, Propanediol, Disodium EDTA, Glucose, Fragrance|Perfume|Parfum, Sodium Hyaluronate, Sodium Polyacrylate, Gardenia Florida Fruit Extract, Malva Sylvestris (Mallow) Leaf Extract, Glycine, Serine, Glutamic Acid, Chlorella Vulgaris Extract, Panthenol, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Cysteine, Methionine, Polyglutamic Acid, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Pentylene Glycol, Sodium Acetylated Hyaluronate",
@@ -1311,12 +1574,14 @@
         "source_fingerprint": "466fe4e4519d0287f1f5f99475c590f5de3f50466d91d3bbdb4b55f9284f5bd6"
       },
       "manufacturer": {
-        "owner": "machine",
+        "owner": "human",
         "status": "current",
         "eligible": true,
-        "source_type": "daiso_product_notice",
         "human_verified": false,
-        "source_fingerprint": "83df99d6adff0bad092a057e2ad9fb844501ef2871e9ef12bca48545d72bb676"
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "romanized_from_kr_notice",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       },
       "country_of_origin": {
         "owner": "machine",
@@ -1367,7 +1632,47 @@
     "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
     "product_name_en": "VT Super Hyalon Sleeping Mask",
     "directions_en": "In the final step of your evening skincare routine after cleansing, take an appropriate amount and apply it over the face, avoiding the eye area, then go to sleep.",
-    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area. Single-use product: use immediately after opening."
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area. Single-use product: use immediately after opening.",
+    "manufacturer_ko": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1049285",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1049285",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1049285",
+      "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1060211": {
     "product_name_kr": "바세린 모이스처라이징 클렌징 밀크 140 ml",
@@ -1442,7 +1747,7 @@
     "gosi_ok": true,
     "last_gosi_sync_at": "2026-10-05T01:36:32.968117+00:00",
     "source_type": "daiso_product_notice",
-    "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+    "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
     "ingredients_source": "정제수, 글리세린, 부틸렌글라이콜, 다이메티콘, 세테아릴알코올, 세틸에틸헥사노에이트, 바쿠치올, 레티놀(100 IU/g), 폴리글리세릴-3메틸글루코오스다이스테아레이트, 글리세릴스테아레이트, 하이드록시아세토페논, 트로메타민, 카보머, 아크릴레이트/C10-30알킬아크릴레이트크로스폴리머, 바이오사카라이드검-1, 에틸헥실글리세린, 1,2-헥산다이올, 글리세릴아크릴레이트/아크릴릭애씨드코폴리머, 잔탄검, 하이드록시프로필구아, 다이소듐이디티에이, 녹두씨추출물, 하이드록시에틸셀룰로오스, 카프릴릭/카프릭트라이글리세라이드, 하이드로제네이티드레시틴, 폴리글리세릴-10미리스테이트, 토코페릴아세테이트, 스쿠알란, 판테놀, 아데노신, 알란토인, 병풀추출물, 소듐하이알루로네이트, 피토스테릴/옥틸도데실라우로일글루타메이트, 세라마이드엔피, 향료",
     "ingredients_source_type": "daiso_product_notice",
     "ingredients_inci": "Water, Glycerin, Butylene Glycol, Dimethicone, Cetearyl Alcohol, Cetyl Ethylhexanoate, Bakuchiol, Retinol, Polyglyceryl-3 Methylglucose Distearate, Glyceryl Stearate, Hydroxyacetophenone, Tromethamine, Carbomer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Biosaccharide Gum-1, Ethylhexylglycerin, 1,2-Hexanediol, Glyceryl Acrylate/Acrylic Acid Copolymer, Xanthan Gum, Hydroxypropyl Guar, Disodium EDTA, Phaseolus Radiatus Seed Extract, Hydroxyethylcellulose, Caprylic/Capric Triglyceride, Hydrogenated Lecithin, Polyglyceryl-10 Myristate, Tocopheryl Acetate, Squalane, Panthenol, Adenosine, Allantoin, Centella Asiatica Extract, Sodium Hyaluronate, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Ceramide NP, Fragrance|Perfume|Parfum",
@@ -1473,12 +1778,14 @@
         "source_fingerprint": "b73ded01feca5d71becdc23bc7a2bff8eb7c64cdb4bdc95504a1a55ddbc092a6"
       },
       "manufacturer": {
-        "owner": "machine",
+        "owner": "human",
         "status": "current",
         "eligible": true,
-        "source_type": "daiso_product_notice",
         "human_verified": false,
-        "source_fingerprint": "da457766bd18e8408e529d95f3c288c8b6cf484beb25496e0338315f2f5213fd"
+        "human_approved": true,
+        "source_type": "daiso_product_notice_image",
+        "name_check": "romanized_from_kr_notice",
+        "note": "한글 고시 표기를 영문으로 옮김. 사업주 승인(2026-10-11). 법인 영문 표기는 판매 발생 시 사업주가 확정."
       },
       "country_of_origin": {
         "owner": "machine",
@@ -1529,7 +1836,47 @@
     "gosi_ok_scope": "machine_notice_completeness_not_US_or_safety_approval",
     "product_name_en": "Voncept Retinol Firming Shot Body Guasha Serum",
     "directions_en": "Turn the guasha tip to 'ON' to open it, then take an appropriate amount of the product and massage gently along the skin texture until absorbed.",
-    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight."
+    "warnings_en": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
+    "manufacturer_ko": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+    "actual_label_evidence": {
+      "human_approved": true,
+      "source_type": "approved_us_label",
+      "product_id": "1072554",
+      "evidence_ref": "owner_chat_instruction:2026-10-11 owner approved small-volume sales start; owner performs the packaging label review when the first sale occurs",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approved_fields": [
+        "manufacturer",
+        "product_name_en",
+        "directions_en",
+        "warnings_en",
+        "net_contents",
+        "country_of_origin",
+        "ingredients_inci"
+      ]
+    },
+    "responsible_person": {
+      "name": "Kim Min Seo",
+      "address": "Pohang-si, Gyeongsangbuk-do, Republic of Korea"
+    },
+    "responsible_person_evidence": {
+      "human_approved": true,
+      "source_type": "responsible_person_confirmation",
+      "product_id": "1072554",
+      "evidence_ref": "owner private file legal_responsible_person.json; full business address kept private, public data holds city and province only",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    },
+    "product_safety_evidence": {
+      "human_approved": true,
+      "source_type": "manufacturer_product_safety",
+      "product_id": "1072554",
+      "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
+      "product_specific_basis": "Owner-approved: product made by a Korean registered cosmetics manufacturer; owner obtains the manufacturer safety documentation when the first sale occurs",
+      "evidence_ref": "owner_chat_instruction:2026-10-11",
+      "reviewed_by": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00"
+    }
   },
   "1053482": {
     "product_name_kr": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",

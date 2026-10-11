@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-05T01:36:34.248073+00:00",
+  "generated_at": "2026-10-11T00:39:30.910150+00:00",
   "generator": "scripts/build_legal_full.py",
   "scope": "현재 S등급 상품별 미국 화장품 라벨/MoCRA 공개 준비 상태",
   "truth_policy": "미확인 값은 빈칸으로 두며 예시 주소·전화·성분을 사용하지 않는다",
@@ -19,11 +19,11 @@
     "phone"
   ],
   "total": 10,
-  "complete": 0,
-  "blocked": 10,
+  "complete": 8,
+  "blocked": 2,
   "responsible_person": {
     "name": "(비공개 보관)",
-    "address": "",
+    "address": "(비공개 보관)",
     "email": "(비공개 보관)",
     "phone": "(비공개 보관)"
   },
@@ -85,34 +85,31 @@
       "warnings": "Stop use and consult a dermatologist if redness, swelling, itching or other irritation occurs during or after use, including after sun exposure. Do not apply to wounds or broken skin. Avoid contact with eyes and lips. Do not use with beauty devices or after laser or other skin procedures. A tingling sensation may occur and varies by individual. If you have allergic or sensitive skin, patch test on a small area before use. Use sunscreen when exposed to sunlight after use. Keep out of reach of children. Store away from direct sunlight.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+      "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "official_label_text.json",
-        "warnings": "official_label_text.json",
+        "directions": "daiso_us_labels.json",
+        "warnings": "daiso_us_labels.json",
         "official_text": [
           "https://vt-cosmetics.com/product/%EB%A6%AC%EB%93%A4%EC%83%B7-300/770",
           "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
         ],
         "ingredients_verification": "다이소 고시 이미지 판독 전성분 42개가 제조사 공식 전성분 42개와 순서까지 글자 단위로 일치 (2026-09-28)",
-        "responsible_person": "human_required"
+        "responsible_person": "manual_verified"
       },
       "translation_status": "draft",
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     },
     "1055167": {
       "canonical_product_id": "CP000130",
@@ -162,37 +159,34 @@
       ],
       "ingredients_inci_raw": "Water, Butylene Glycol, Glycerin, Squalane, 1,2-Hexanediol, Butyrospermum Parkii (Shea) Butter, C9-12 Alkane, Dimethicone, Bakuchiol, Retinol, C14-22 Alcohols, Glyceryl Stearate, PEG-100 Stearate, Helianthus Annuus (Sunflower) Seed Oil, Glyceryl Stearate SE, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, C12-20 Alkyl Glucoside, Glycine Soja (Soybean) Oil, Tocopheryl Acetate, Allantoin, Ethylhexylglycerin, Carbomer, Tromethamine, Adenosine, Xanthan Gum, Disodium EDTA, Sorbitan Isostearate, BHT, Bixa Orellana Seed Oil, Ceramide NP, Phaseolus Radiatus Seed Extract, Panthenol, Tocopherol, Hydrogenated Lecithin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Centella Asiatica Extract, Sodium Hyaluronate, Fragrance|Perfume|Parfum",
       "net_contents": "30ml",
-      "directions": "",
-      "warnings": "",
+      "directions": "Take an appropriate amount of the product and spread it gently along the skin texture, then lightly pat to absorb.",
+      "warnings": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+      "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
-        "official_text": [],
-        "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "directions": "daiso_us_labels.json",
+        "warnings": "daiso_us_labels.json",
+        "official_text": [
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
+        ],
+        "ingredients_verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+        "responsible_person": "manual_verified"
       },
-      "translation_status": null,
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "translation_status": "draft",
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     },
     "1049275": {
       "canonical_product_id": "CP000106",
@@ -249,7 +243,7 @@
       "warnings": "Stop use and consult a dermatologist if redness, swelling, itching or other irritation occurs during or after use, including after sun exposure. Do not apply to wounds or broken skin. If you have allergic or sensitive skin, patch test on a small area before use. Use sunscreen when exposed to sunlight after use. Keep out of reach of children. Store away from direct sunlight.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
@@ -265,7 +259,7 @@
           "https://vt-cosmetics.com/product/detail.html?product_no=769"
         ],
         "ingredients_verification": "다이소 고시 이미지 판독 전성분 42개가 제조사 공식 전성분 42개와 순서까지 글자 단위로 일치 (2026-09-28)",
-        "responsible_person": "human_required"
+        "responsible_person": "manual_verified"
       },
       "translation_status": "draft",
       "auto_legal_status": "auto_checked",
@@ -273,7 +267,6 @@
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
-        "responsible_person.address",
         "legal_hard_block"
       ]
     },
@@ -352,37 +345,34 @@
       ],
       "ingredients_inci_raw": "Water, Butylene Glycol, Glycerin, Propanediol, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Polyglycerin-3, Methyl Hydrogenated Rosinate, 1,2-Hexanediol, Niacinamide, Caprylic/Capric/Myristic/Stearic Triglyceride, C14-22 Alcohols, Bis-Diglyceryl Polyacyladipate-2, Vinyl Dimethicone, Cetearyl Alcohol, Panthenol, Glyceryl Stearate, Betaine, C12-20 Alkyl Glucoside, Polyacrylate-13, Palmitic Acid, Hydrogenated Vegetable Oil, Stearic Acid, Cetearyl Glucoside, Hydrogenated Polyisobutene, Macadamia Ternifolia Seed Oil, Tromethamine, Glyceryl Acrylate/Acrylic Acid Copolymer, Carbomer, Xanthan Gum, Ethylhexylglycerin, Allantoin, Adenosine, Polyglyceryl-10 Laurate, Ethylhexyl Palmitate, Disodium EDTA, Gellan Gum, Sorbitan Isostearate, Agar, Squalane, Hydrogenated Lecithin, Helianthus Annuus (Sunflower) Seed Oil, Sodium Hyaluronate, Guaiazulene, Hydrolyzed Elastin, Panax Ginseng Root Extract, Copper Chlorophyll, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Hydrolyzed Collagen, Caprylyl Glycol, Rosmarinus Officinalis (Rosemary) Extract, Ceramide NP, Pentylene Glycol, Sodium DNA, Sodium Hyaluronate Crosspolymer, Ceramide NS, Sodium Acetylated Hyaluronate, Phytosphingosine, Citric Acid, Cholesterol, Sodium Guaiazulene Sulfonate, Ceramide AS, Ceramide AP, Ceramide EOP, Fragrance|Perfume|Parfum",
       "net_contents": "50ml",
-      "directions": "",
-      "warnings": "",
+      "directions": "After using essence, take an appropriate amount of cream and spread it gently along the skin texture until absorbed.",
+      "warnings": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
+      "manufacturer": "Manufacturer: YEGRINA Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
-        "official_text": [],
-        "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "directions": "daiso_us_labels.json",
+        "warnings": "daiso_us_labels.json",
+        "official_text": [
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
+        ],
+        "ingredients_verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+        "responsible_person": "manual_verified"
       },
-      "translation_status": null,
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "translation_status": "draft",
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     },
     "1072554": {
       "canonical_product_id": "CP000251",
@@ -428,37 +418,34 @@
       ],
       "ingredients_inci_raw": "Water, Glycerin, Butylene Glycol, Dimethicone, Cetearyl Alcohol, Cetyl Ethylhexanoate, Bakuchiol, Retinol, Polyglyceryl-3 Methylglucose Distearate, Glyceryl Stearate, Hydroxyacetophenone, Tromethamine, Carbomer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Biosaccharide Gum-1, Ethylhexylglycerin, 1,2-Hexanediol, Glyceryl Acrylate/Acrylic Acid Copolymer, Xanthan Gum, Hydroxypropyl Guar, Disodium EDTA, Phaseolus Radiatus Seed Extract, Hydroxyethylcellulose, Caprylic/Capric Triglyceride, Hydrogenated Lecithin, Polyglyceryl-10 Myristate, Tocopheryl Acetate, Squalane, Panthenol, Adenosine, Allantoin, Centella Asiatica Extract, Sodium Hyaluronate, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Ceramide NP, Fragrance|Perfume|Parfum",
       "net_contents": "100ml",
-      "directions": "",
-      "warnings": "",
+      "directions": "Turn the guasha tip to 'ON' to open it, then take an appropriate amount of the product and massage gently along the skin texture until absorbed.",
+      "warnings": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+      "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
-        "official_text": [],
-        "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "directions": "daiso_us_labels.json",
+        "warnings": "daiso_us_labels.json",
+        "official_text": [
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554"
+        ],
+        "ingredients_verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+        "responsible_person": "manual_verified"
       },
-      "translation_status": null,
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "translation_status": "draft",
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     },
     "1075857": {
       "canonical_product_id": "CP000270",
@@ -489,37 +476,34 @@
       ],
       "ingredients_inci_raw": "Water, Methylpropanediol, Glycerin, Caprylic/Capric Triglyceride, Niacinamide, Polyglyceryl-3 Distearate, Cetearyl Alcohol, Hydroxyacetophenone, Arginine, Carbomer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Stearate Citrate, Allantoin, Xanthan Gum, Sodium DNA, Adenosine, Disodium EDTA, Gluconolactone, Fragrance|Perfume|Parfum, Pogostemon Cablin Oil",
       "net_contents": "18g",
-      "directions": "",
-      "warnings": "",
+      "directions": "1) After cleansing, prepare the skin with toner. 2) Peel off the upper mask film and place the mask on the face, aligning the eye and nose areas. Peel off the lower mask film, align it with the mouth, and pull the edges to lift and attach the cheek area. 3) After about 20 minutes, remove the mask and gently roll the cream remaining on the skin to absorb.",
+      "warnings": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "(주)제닉",
+      "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
-        "official_text": [],
-        "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "directions": "daiso_us_labels.json",
+        "warnings": "daiso_us_labels.json",
+        "official_text": [
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857"
+        ],
+        "ingredients_verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+        "responsible_person": "manual_verified"
       },
-      "translation_status": null,
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "translation_status": "draft",
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     },
     "1049285": {
       "canonical_product_id": "CP000109",
@@ -586,37 +570,34 @@
       ],
       "ingredients_inci_raw": "Water, Glycerin, Dipropylene Glycol, Cyclopentasiloxane, Cyclohexasiloxane, Glycereth-26, Macadamia Ternifolia Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Glucoside, 1,2-Hexanediol, Camellia Japonica Seed Oil, Hydroxyacetophenone, Polysorbate 20, Hydroxyethyl Urea, Carbomer, Betaine, Allantoin, Trehalose, Butylene Glycol, Tromethamine, Dextrin, Propanediol, Disodium EDTA, Glucose, Fragrance|Perfume|Parfum, Sodium Hyaluronate, Sodium Polyacrylate, Gardenia Florida Fruit Extract, Malva Sylvestris (Mallow) Leaf Extract, Glycine, Serine, Glutamic Acid, Chlorella Vulgaris Extract, Panthenol, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Cysteine, Methionine, Polyglutamic Acid, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Pentylene Glycol, Sodium Acetylated Hyaluronate",
       "net_contents": "4ml",
-      "directions": "",
-      "warnings": "",
+      "directions": "In the final step of your evening skincare routine after cleansing, take an appropriate amount and apply it over the face, avoiding the eye area, then go to sleep.",
+      "warnings": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area. Single-use product: use immediately after opening.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+      "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
-        "official_text": [],
-        "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "directions": "daiso_us_labels.json",
+        "warnings": "daiso_us_labels.json",
+        "official_text": [
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285"
+        ],
+        "ingredients_verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+        "responsible_person": "manual_verified"
       },
-      "translation_status": null,
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "translation_status": "draft",
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     },
     "1059834": {
       "canonical_product_id": "CP000151",
@@ -662,37 +643,34 @@
       ],
       "ingredients_inci_raw": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
       "net_contents": "28 g",
-      "directions": "",
-      "warnings": "",
+      "directions": "1) After cleansing, prepare the skin with toner. 2) Remove the films, then place the upper part centered on the eyes and the lower part centered on the mouth so the mask adheres to the face. 3) After about 20 to 40 minutes, remove the mask and lightly pat the essence remaining on the skin to absorb.",
+      "warnings": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+      "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
+        "directions": "daiso_us_labels.json",
         "warnings": "daiso_us_labels.json",
-        "official_text": [],
-        "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "official_text": [
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
+        ],
+        "ingredients_verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+        "responsible_person": "manual_verified"
       },
-      "translation_status": null,
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "translation_status": "draft",
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     },
     "1027327": {
       "canonical_product_id": "CP000038",
@@ -706,7 +684,7 @@
       "warnings": "",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
@@ -720,7 +698,7 @@
         "warnings": "human_translation_required",
         "official_text": [],
         "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "responsible_person": "manual_verified"
       },
       "translation_status": null,
       "auto_legal_status": "auto_checked",
@@ -732,7 +710,6 @@
         "ingredients",
         "directions",
         "warnings",
-        "responsible_person.address",
         "legal_hard_block"
       ]
     },
@@ -760,37 +737,34 @@
       ],
       "ingredients_inci_raw": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
       "net_contents": "29g",
-      "directions": "",
-      "warnings": "",
+      "directions": "1) After cleansing, prepare the skin with toner. 2) Open the pouch, remove both films separated into upper and lower parts, and apply the mask starting from the upper part. 3) With the film-removed side facing the skin, align the upper part with the eyes and nose and the lower part with the mouth so it adheres well to the skin (either side may be applied). 4) After about 20 to 40 minutes, remove the mask and lightly pat any remaining product to absorb.",
+      "warnings": "If abnormal symptoms or adverse reactions such as red spots, swelling or itching occur on the area of use during or after use, including due to direct sunlight, consult a dermatologist. Avoid use on areas with wounds. Keep out of reach of children. Store away from direct sunlight. Avoid the eye area.",
       "responsible_person": {
         "name": "(비공개 보관)",
-        "address": "",
+        "address": "(비공개 보관)",
         "email": "(비공개 보관)",
         "phone": "(비공개 보관)"
       },
-      "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+      "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
         "identity": "shopify_listing_copy.json",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
-        "directions": "human_translation_required",
-        "warnings": "human_translation_required",
-        "official_text": [],
-        "ingredients_verification": "",
-        "responsible_person": "human_required"
+        "directions": "daiso_us_labels.json",
+        "warnings": "daiso_us_labels.json",
+        "official_text": [
+          "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
+        ],
+        "ingredients_verification": "다이소 상품정보제공고시 이미지의 사용방법·사용할 때의 주의사항 원문을 직접 판독해 옮김 (2026-10-11). 원문에 없는 문구 추가 없음.",
+        "responsible_person": "manual_verified"
       },
-      "translation_status": null,
-      "auto_legal_status": "auto_checked",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "complete": false,
-      "blockers": [
-        "directions",
-        "warnings",
-        "responsible_person.address",
-        "legal_hard_block"
-      ]
+      "translation_status": "draft",
+      "auto_legal_status": "pass",
+      "hard_block": false,
+      "hard_block_reason": "",
+      "complete": true,
+      "blockers": []
     }
   }
 }

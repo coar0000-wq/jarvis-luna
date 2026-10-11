@@ -1,45 +1,45 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-05T04:27:35.700392+00:00",
+  "generated_at": "2026-10-11T00:39:31.581747+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "b7e7e89efd65c47d634a30e881471a57b58f430e5e9effa87e018b7dba6ea7e9",
+      "data/product_master.json": "eb297212f180a932c2279ee659d6dcccf165cfd9d198426de43fbf4f9b6b39fe",
       "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-      "data/daiso_real/daiso_us_labels.json": "55ae90c53704e0ef803b6720fbaa6085781deac479e510ce059b4b785020cf58",
+      "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
       "data/pricing_model.json": "69ce64b7bb08a350fb70ab183553c5ac523d309b665a5b5e5d3f7d54104d88e4",
-      "data/legal_products.json": "cf9f50cf0c01909cbcd36d30836768394d3140f1904dda40eca5cf942a87105a",
-      "data/daiso_real/shopify_s_recommendations.json": "4cf7c3e0c878bbd15eb4c1a93eef99734e7ce5f00437784f65fdd5c86ef6660b",
+      "data/legal_products.json": "b1c8b4f7a3a4d87077210ca287f0a2e2c74f83a754cb65675c7af0d9269c11ca",
+      "data/daiso_real/shopify_s_recommendations.json": "fc4db2abcfc8858d8a6b56dde097bcd95393c96da619645a408afa3f937ceb1d",
       "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-      "data/shopify_shortlist.json": "d627cef44185c560f381f14c707d73a00eef0f250ae588737752ceb5dae3250e",
-      "data/legal_full.json": "d2b6fdbe3a229076857b3b5fd35db932794de2b971276dd6cf69a4921d95ed2b",
-      "data/mocra_readiness.json": "d7661e0299a4f66adc5f69aa99a890cf984889749ef0aca87c6df1ef98538b9f",
-      "data/manual/legal_rp_status.json": "cbe7fd99f0e4bd798078638c8701f0d122747c6acf8c9824fba5984e806c9cd8",
+      "data/shopify_shortlist.json": "0603437276e36943a64a4471b8bfee8dc9a4364260b6ad7c8b775012dc473665",
+      "data/legal_full.json": "8d463b729f5503b4ceb98cb80e311c78d70cf0526ab75391407d7d99688fe77e",
+      "data/mocra_readiness.json": "cd6ed18d9b1d3b493633f4840c5e9d52353020f5b580977808b8fbd6a358c853",
+      "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
       "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
-      "data/manual/official_label_text.json": "2123f19bd93336a96fd555d9f5565bb3fd599c7a37d0a58e5a7209b1de1a3c94",
+      "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "d6c45a0aa899c5feda0ba0376bfaa36aefa7e7b4fffe5cc2392d7749db0ce0a6"
+    "recommendations_sha256": "e955af64749bbf59fc9632cd7bd3c411bbafe2fb7a6b0722c3fa3cd8fc9385bf"
   },
   "total": 10,
-  "agent_ready": 0,
-  "ready": 0,
-  "draft_ready": 0,
-  "public_ready": 0,
+  "agent_ready": 8,
+  "ready": 8,
+  "draft_ready": 8,
+  "public_ready": 8,
   "counts": {
     "ontology": 10,
     "copy": 9,
     "gosi": 10,
     "us_label": 9,
     "price": 10,
-    "legal": 0,
-    "legal_full": 0
+    "legal": 8,
+    "legal_full": 8
   },
   "blockers": {
     "copy": 1,
     "us_label": 1,
-    "legal": 10
+    "legal": 2
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
@@ -99,7 +99,7 @@
       },
       "us_label": {
         "net_contents": "2ml",
-        "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+        "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Niacinamide, Butylene Glycol, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Ethylhexyl Palmitate, Silica, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Glycereth-26, Ethylhexylglycerin, Caprylyl Glycol, Adenosine, Sodium Polyacrylate, Centella Asiatica Extract, Sodium Hyaluronate, Caprylyl/Capryl Glucoside, Sorbitan Oleate, Xanthan Gum, Propolis Extract, Asiaticoside, Madecassoside, Madecassic Acid, Asiatic Acid, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Threonine, Proline, Valine, Isoleucine, Histidine, Methionine, Cysteine",
         "us_label_ok": true
@@ -110,24 +110,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -135,19 +128,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "low",
+        "risk_points": 0,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -190,7 +181,7 @@
       },
       "us_label": {
         "net_contents": "30ml",
-        "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+        "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Butylene Glycol, Glycerin, Squalane, 1,2-Hexanediol, Butyrospermum Parkii (Shea) Butter, C9-12 Alkane, Dimethicone, Bakuchiol, Retinol, C14-22 Alcohols, Glyceryl Stearate, PEG-100 Stearate, Helianthus Annuus (Sunflower) Seed Oil, Glyceryl Stearate SE, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, C12-20 Alkyl Glucoside, Glycine Soja (Soybean) Oil, Tocopheryl Acetate, Allantoin, Ethylhexylglycerin, Carbomer, Tromethamine, Adenosine, Xanthan Gum, Disodium EDTA, Sorbitan Isostearate, BHT, Bixa Orellana Seed Oil, Ceramide NP, Phaseolus Radiatus Seed Extract, Panthenol, Tocopherol, Hydrogenated Lecithin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Centella Asiatica Extract, Sodium Hyaluronate, Fragrance|Perfume|Parfum",
         "us_label_ok": true
@@ -201,24 +192,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -226,19 +210,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "low",
+        "risk_points": 0,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -372,7 +354,7 @@
       },
       "us_label": {
         "net_contents": "50ml",
-        "manufacturer": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
+        "manufacturer": "Manufacturer: YEGRINA Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Butylene Glycol, Glycerin, Propanediol, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Polyglycerin-3, Methyl Hydrogenated Rosinate, 1,2-Hexanediol, Niacinamide, Caprylic/Capric/Myristic/Stearic Triglyceride, C14-22 Alcohols, Bis-Diglyceryl Polyacyladipate-2, Vinyl Dimethicone, Cetearyl Alcohol, Panthenol, Glyceryl Stearate, Betaine, C12-20 Alkyl Glucoside, Polyacrylate-13, Palmitic Acid, Hydrogenated Vegetable Oil, Stearic Acid, Cetearyl Glucoside, Hydrogenated Polyisobutene, Macadamia Ternifolia Seed Oil, Tromethamine, Glyceryl Acrylate/Acrylic Acid Copolymer, Carbomer, Xanthan Gum, Ethylhexylglycerin, Allantoin, Adenosine, Polyglyceryl-10 Laurate, Ethylhexyl Palmitate, Disodium EDTA, Gellan Gum, Sorbitan Isostearate, Agar, Squalane, Hydrogenated Lecithin, Helianthus Annuus (Sunflower) Seed Oil, Sodium Hyaluronate, Guaiazulene, Hydrolyzed Elastin, Panax Ginseng Root Extract, Copper Chlorophyll, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Hydrolyzed Collagen, Caprylyl Glycol, Rosmarinus Officinalis (Rosemary) Extract, Ceramide NP, Pentylene Glycol, Sodium DNA, Sodium Hyaluronate Crosspolymer, Ceramide NS, Sodium Acetylated Hyaluronate, Phytosphingosine, Citric Acid, Cholesterol, Sodium Guaiazulene Sulfonate, Ceramide AS, Ceramide AP, Ceramide EOP, Fragrance|Perfume|Parfum",
         "us_label_ok": true
@@ -383,24 +365,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -408,19 +383,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "low",
+        "risk_points": 0,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -463,7 +436,7 @@
       },
       "us_label": {
         "net_contents": "100ml",
-        "manufacturer": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+        "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Glycerin, Butylene Glycol, Dimethicone, Cetearyl Alcohol, Cetyl Ethylhexanoate, Bakuchiol, Retinol, Polyglyceryl-3 Methylglucose Distearate, Glyceryl Stearate, Hydroxyacetophenone, Tromethamine, Carbomer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Biosaccharide Gum-1, Ethylhexylglycerin, 1,2-Hexanediol, Glyceryl Acrylate/Acrylic Acid Copolymer, Xanthan Gum, Hydroxypropyl Guar, Disodium EDTA, Phaseolus Radiatus Seed Extract, Hydroxyethylcellulose, Caprylic/Capric Triglyceride, Hydrogenated Lecithin, Polyglyceryl-10 Myristate, Tocopheryl Acetate, Squalane, Panthenol, Adenosine, Allantoin, Centella Asiatica Extract, Sodium Hyaluronate, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Ceramide NP, Fragrance|Perfume|Parfum",
         "us_label_ok": true
@@ -474,24 +447,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -499,19 +465,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "low",
+        "risk_points": 0,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -555,7 +519,7 @@
       },
       "us_label": {
         "net_contents": "18g",
-        "manufacturer": "(주)제닉",
+        "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Methylpropanediol, Glycerin, Caprylic/Capric Triglyceride, Niacinamide, Polyglyceryl-3 Distearate, Cetearyl Alcohol, Hydroxyacetophenone, Arginine, Carbomer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Stearate Citrate, Allantoin, Xanthan Gum, Sodium DNA, Adenosine, Disodium EDTA, Gluconolactone, Fragrance|Perfume|Parfum, Pogostemon Cablin Oil",
         "us_label_ok": true
@@ -566,24 +530,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -591,19 +548,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "low",
+        "risk_points": 0,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -646,7 +601,7 @@
       },
       "us_label": {
         "net_contents": "4ml",
-        "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+        "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Cyclopentasiloxane, Cyclohexasiloxane, Glycereth-26, Macadamia Ternifolia Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Glucoside, 1,2-Hexanediol, Camellia Japonica Seed Oil, Hydroxyacetophenone, Polysorbate 20, Hydroxyethyl Urea, Carbomer, Betaine, Allantoin, Trehalose, Butylene Glycol, Tromethamine, Dextrin, Propanediol, Disodium EDTA, Glucose, Fragrance|Perfume|Parfum, Sodium Hyaluronate, Sodium Polyacrylate, Gardenia Florida Fruit Extract, Malva Sylvestris (Mallow) Leaf Extract, Glycine, Serine, Glutamic Acid, Chlorella Vulgaris Extract, Panthenol, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Cysteine, Methionine, Polyglutamic Acid, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Pentylene Glycol, Sodium Acetylated Hyaluronate",
         "us_label_ok": true
@@ -657,24 +612,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -682,19 +630,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "low",
+        "risk_points": 0,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -737,7 +683,7 @@
       },
       "us_label": {
         "net_contents": "28 g",
-        "manufacturer": "(주)제닉 / 충청남도 논산시 성동면 산업단지로5길 5",
+        "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Glycerin, Cetyl Ethylhexanoate, Butyrospermum Parkii (Shea) Butter, Acrylates Copolymer, Chondrus Crispus Extract, Ceratonia Siliqua (Carob) Gum, Dipropylene Glycol, Betaine, Potassium Chloride, Hydroxyacetophenone, Sucrose, Cetyl Hydroxyethylcellulose, Caprylyl Glycol, Allantoin, Ethylhexylglycerin, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Adenosine, Hydrolyzed Vegetable Protein, 1,2-Hexanediol, Disodium EDTA, Fragrance|Perfume|Parfum, Ultramarines, Hydrated Silica, Disodium Phosphate, Silica Dimethyl Silylate, Dipotassium Glycyrrhizate, Butylene Glycol, Sodium Phosphate, Phaseolus Radiatus Sprout Extract, Brassica Oleracea Italica (Broccoli) Sprout Extract, Brassica Campestris (Rapeseed) Sprout Extract, Fast Acid Magenta, Tocopherol",
         "us_label_ok": true
@@ -748,24 +694,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -773,19 +712,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 5,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "low",
+        "risk_points": 0,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -918,7 +855,7 @@
       },
       "us_label": {
         "net_contents": "29g",
-        "manufacturer": "㈜제닉 (충청남도 논산시 성동면 산업단지로5길 5)",
+        "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
         "country_of_origin": "Korea",
         "ingredients_inci": "Water, Glycerin, Niacinamide, Ceratonia Siliqua (Carob) Gum, Chondrus Crispus Extract, 1,2-Hexanediol, Pentylene Glycol, Ethylhexylglycerin, Collagen Extract, Adenosine, Disodium EDTA, Glyceryl Glucoside, Polyglyceryl-6 Caprylate, Polyglyceryl-4 Caprate, Tocopherol",
         "us_label_ok": true
@@ -929,24 +866,17 @@
         "register_blocked": false
       },
       "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "legal"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "legal",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
+      "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -954,19 +884,17 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 6,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "clear",
+        "risk_level": "medium",
+        "risk_points": 1,
         "team_routes": [
-          "legal"
+          "listing"
         ],
-        "model_route": "human",
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
-          "legal hard block",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,

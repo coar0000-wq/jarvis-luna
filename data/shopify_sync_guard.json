@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T02:25:07.430558+00:00",
+  "generated_at": "2026-10-11T00:39:31.815596+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
@@ -22,9 +22,9 @@
   },
   "delta_dir": "data/shopify_exports/delta",
   "delta_rows": {
-    "products.csv": 6,
-    "inventory.csv": 6,
-    "images.csv": 6,
+    "products.csv": 5,
+    "inventory.csv": 5,
+    "images.csv": 5,
     "collections.csv": 5
   },
   "price_rule": "±$0.50 그리고 ±3% 안의 가격 변화는 변경으로 보지 않는다",
@@ -38,7 +38,7 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "a36c2692a888ca15de2dd74cf376069422ef7725fc9e97bb606041c695b9f1e2"
+      "content_hash": "a556b5c8fdc173bda431070711ba378f1f9473ac035068d882800c5bb8e0328c"
     },
     {
       "handle": "celderma-daily-transforming-firming-collagen-mask-28g",
@@ -49,7 +49,7 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "ab5fa738f6c00c9c134cadac989fd3ed05687cee84399eb03686995a245ee62f"
+      "content_hash": "d0a2b6bacb98aa8bd6d5ac3d8a5f3093a2b500ca801d8034a03b3698153246af"
     },
     {
       "handle": "vt-pdrn-radiance-cream-50-ml",
@@ -60,19 +60,18 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "99532e5beca4ab1a7e4ef710ac6daddcdb27bda9ed341061efe887bde7b19563"
+      "content_hash": "2d01ced506501c7abe451e7fcb6424c6d0d9056f0c8c1e9b81fb136839a2d97d"
     },
     {
       "handle": "vt-reedle-shot",
       "pd_nos": [
-        "1049275",
         "1049276"
       ],
       "action": "create",
       "changed": [
         "새 상품"
       ],
-      "content_hash": "3266430c6cadf4199ba46d9c729f7cb0e2461992ff349800c915feb259d4c084"
+      "content_hash": "2aa9de8d05bc95ef92191a53151d6c52ad93184156e5185c2f725299f8e8df75"
     },
     {
       "handle": "vt-super-hyalon-sleeping-mask-4ml-x-6ea",
@@ -83,7 +82,7 @@
       "changed": [
         "새 상품"
       ],
-      "content_hash": "b5180aa949b0d5d94af357fc9bd9d01159e02795681434d5403d8a74a09c0acd"
+      "content_hash": "7a180dde1a37005738384fa67f84b34fd5093dd5cfd502192ff4106d1b9aa90b"
     }
   ]
 }

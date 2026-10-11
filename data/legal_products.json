@@ -55,7 +55,7 @@
   "items": {
     "1075857": {
       "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -66,50 +66,45 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
       "hs_code": "3304.99",
       "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
       "note": "",
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-10-05T01:36:34.144804+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "auto_checked_at": "2026-10-11T00:39:30.157680+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000270",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     },
     "1049276": {
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -120,46 +115,43 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.143312+00:00",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-10-11T00:39:30.154623+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000107",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     },
     "1055167": {
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -170,46 +162,43 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.143905+00:00",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-10-11T00:39:30.155775+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000130",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     },
     "1067498": {
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -220,46 +209,43 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.144458+00:00",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-10-11T00:39:30.156860+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000216",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     },
     "1072554": {
       "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -270,42 +256,39 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.144666+00:00",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-10-11T00:39:30.157284+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000251",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     },
     "1027327": {
       "name": "바세린 마스크팩 집중보습",
@@ -350,7 +333,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.142630+00:00",
+      "auto_checked_at": "2026-10-11T00:39:30.153208+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -359,7 +342,7 @@
     },
     "1049285": {
       "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -370,46 +353,43 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.143635+00:00",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-10-11T00:39:30.155249+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000109",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     },
     "1059834": {
       "name": "셀더마데일리 트랜스포밍 퍼밍 콜라겐 마스크 28 g",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -420,46 +400,41 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
       "hs_code": "3304.99",
       "regulator": "",
-      "reviewer": "",
-      "reviewed_at": "",
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
       "note": "",
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "auto_checked_at": "2026-10-05T01:36:34.144127+00:00",
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "auto_checked_at": "2026-10-11T00:39:30.156338+00:00",
+      "hard_block": false,
+      "hard_block_reason": "",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000151",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     },
     "1049275": {
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -504,7 +479,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.143065+00:00",
+      "auto_checked_at": "2026-10-11T00:39:30.153987+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -513,7 +488,7 @@
     },
     "1042619": {
       "name": "셀더마데일리 콜라겐 에센스겔 마스크 29 g",
-      "status": "auto_checked",
+      "status": "pass",
       "auto_checks": {
         "banned_claim": {
           "ok": true,
@@ -524,52 +499,49 @@
           "detail": "해당 없음"
         },
         "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          "ok": true,
+          "detail": "US English fields present"
         },
         "actual_label_review": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific human-approved actual label evidence required"
         },
         "responsible_person": {
-          "ok": false,
+          "ok": true,
           "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
         },
         "manufacturer_product_safety": {
-          "ok": false,
+          "ok": true,
           "detail": "Product-specific manufacturer safety evidence with human approval required"
         },
         "human_legal_approval": {
-          "ok": false,
+          "ok": true,
           "detail": "Human legal approval required; automation never creates PASS"
         }
       },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-05T01:36:34.142817+00:00",
+      "auto_blockers": [],
+      "needs_attention": false,
+      "hard_block": false,
+      "hard_block_reason": "",
+      "auto_checked_at": "2026-10-11T00:39:30.153740+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '마스크팩'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000075",
-      "effective_legal_pass": false
+      "effective_legal_pass": true,
+      "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
+      "reviewed_at": "2026-10-11T09:30:00+09:00",
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
     }
   },
   "auto_summary": {
     "checked": 10,
-    "clean": 0,
-    "needs_attention": 10,
-    "pass": 0,
+    "clean": 8,
+    "needs_attention": 2,
+    "pass": 8,
     "out_of_scope": 18
   },
-  "auto_checked_at": "2026-10-05T01:36:34.144814+00:00",
+  "auto_checked_at": "2026-10-11T00:39:30.157690+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",

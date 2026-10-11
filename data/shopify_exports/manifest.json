@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T02:25:07.427039+00:00",
-  "source_gate_generated_at": "2026-10-05T02:25:07.212478+00:00",
+  "generated_at": "2026-10-11T00:39:31.783984+00:00",
+  "source_gate_generated_at": "2026-10-11T00:39:31.581747+00:00",
   "gate_total": 10,
-  "gate_ready": 9,
+  "gate_ready": 8,
   "shortlist_pd_nos": [
     "1049275",
     "1049276",
@@ -13,15 +13,13 @@
     "1067498"
   ],
   "scope": "shortlist 안의 게이트 준비 상품만 (S등급 전체가 아님)",
-  "public_ready": 0,
-  "legal_complete": 0,
-  "products_rows": 6,
-  "inventory_rows": 6,
-  "images_rows": 6,
+  "public_ready": 8,
+  "legal_complete": 8,
+  "products_rows": 5,
+  "inventory_rows": 5,
+  "images_rows": 5,
   "collections_rows": 5,
-  "variant_groups": {
-    "VG-VT-REEDLE-SHOT": 2
-  },
+  "variant_groups": {},
   "safety": "draft + unpublished + inventory 0; 실재고와 법률 책임자 확인 전 공개 금지",
   "files": [
     "products.csv",
