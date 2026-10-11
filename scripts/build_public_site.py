@@ -73,7 +73,23 @@ OPERATIONS = public_obj('schema_version generated_at status organization',
  feedback=public_fields('status verified_observations training_performed'),
  action_cards=[dict(public_fields('action_id kind level status reason member_count payload_hash target_configured before after'), may_approve=PUBLIC_FALSE, may_execute=PUBLIC_FALSE)])
 
+# Price strategy is display-only. Raw inputs, private profiles, hashes and receipts
+# are deliberately excluded; a projection never grants listing authority.
+BEAUTY_CATEGORY = obj('daiso_name product_count included_in_priority excluded_non_beauty_misfit quantity_usable', grade_counts=NUM_MAP, price_position_counts=NUM_MAP, profitability_risk_counts=NUM_MAP)
+BEAUTY_PRODUCT = obj('pd_no name_ko name_en category bucket_ko grade shopify_score included_in_priority manufacturer_safety_record_covered profitability_risk priority_rank',
+ quantity=fields('status primary_dim base_unit unit_amount pack_count total'),
+ own_price=obj('status kind price_usd source conflict observed_at_source',live_freshness=NUM_MAP),
+ price_position=fields('status verified below_lowest gap_pct own_unit_price comparator_unit_price base_unit basis'),
+ priority=obj('score evidence_status', components=NUM_MAP),
+ margin_advisory=obj('blocking waiver weight_estimated effective_target_margin_pct basis_price_usd price_source risk', scenarios={'*':fields('status price_usd landed_cost_usd fee_usd net_profit_usd margin_pct risk')}), flags=[True])
+BEAUTY_STRATEGY = obj('schema_version status as_of', policy=fields('margin_is_advisory_only margin_block_waived_by_user grade_changes_allowed a_auto_upgrade_allowed unknown_is_not_zero'),
+ categories={k:BEAUTY_CATEGORY for k in ('skincare','makeup','body')},
+ input_coverage=obj('',price_position=NUM_MAP,profitability_risk=NUM_MAP), products=[BEAUTY_PRODUCT],
+ team_work_plan=obj('status receipt_policy',teams=[obj('team state',tasks=[obj('task_id title state',blocked_on=[True],evidence_required=[True])])]),
+ review_24h=fields('status window_hours missing_metric_policy causality_policy'))
+
 SCHEMAS = {
+ 'data/beauty_price_strategy.json': BEAUTY_STRATEGY,
  'data/dashboard_runtime.json': obj('schema_version generated_at last_synced truth_note data_integrity_note', pipeline_health=fields('status optional_failure_count required_failure_count at generated_at execution_id'), teams=[TEAM], secretary=TEAM, team_summary=fields('corpus_records pipeline_done pipeline_total'), pipeline=[fields('id title status detail')], sources=obj('status record_count updated_at',source_counts=NUM_MAP), graph=obj('notes links dangling_links dangling_personal dangling_personal_note dangling_warn_threshold records sources topics last_generated',audit=fields('untagged_pct')), training=TRAINING,cumulative=obj('since runs_recorded',totals=NUM_MAP,prior_totals=NUM_MAP,added_this_run=NUM_MAP,current_snapshot=NUM_MAP),global_channels={'*':[CHANNEL_ROW]},global_channels_status={'*':CHANNEL_STATUS},exchange_rate=fields('rate as_of source updated_at'),commit_summary=fields('line agents_line'),agents_ops=fields('risk task_count at'),candidate_discovery=COMPARISON,operations=OPERATIONS,team_improvement_evidence=TEAM_IMPROVEMENT_EVIDENCE),
  'data/knowledge/training_status.json': dict(TRAINING,source_labels=NUM_MAP),
  'data/knowledge/real_sources.json': obj('updated collected_at',sources={'*':obj('count collected_at status',items=[fields('title url source published_at')])}),

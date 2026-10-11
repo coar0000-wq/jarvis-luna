@@ -32,6 +32,19 @@ class PublicSiteTests(unittest.TestCase):
         self.assertNotIn("legalBad?'bad':'done'", html)
         self.assertNotIn("!(it.images>0)", html)
 
+    def test_beauty_strategy_has_display_only_projection_and_follows_team_section(self):
+        html=(self.root/'index.html').read_text(encoding='utf-8')
+        self.assertLess(html.index('id="teams"'),html.index('id="daiso"'))
+        self.assertLess(html.index('id="daiso"'),html.index('id="operations-system"'))
+        strategy=json.loads((self.output/'data/beauty_price_strategy.json').read_text(encoding='utf-8'))
+        self.assertTrue(strategy['policy']['margin_is_advisory_only'])
+        self.assertFalse(strategy['policy']['grade_changes_allowed'])
+        self.assertNotIn('files', strategy['input_coverage'])
+        self.assertNotIn('receipts', strategy['team_work_plan'])
+        self.assertEqual(set(strategy['categories']), {'skincare','makeup','body'})
+        self.assertEqual(strategy['categories']['skincare']['grade_counts']['S'],10)
+        self.assertIn('renderBeautyStrategy(beautyJ',html)
+
     def test_real_display_projection_build_and_check(self):
         self.assertEqual(validate(self.output),self.manifest)
         price=json.loads((self.output/'data/pricing_model.json').read_text(encoding='utf-8'))
@@ -121,5 +134,22 @@ class PublicSiteTests(unittest.TestCase):
         try:link.symlink_to(self.root/'data/dashboard_runtime.json')
         except OSError:self.skipTest('symlink creation unavailable on this host')
         with self.assertRaisesRegex(ValueError,'symlink'):validate(self.output)
+
+def load_tests(loader, suite, pattern):
+    """Existing preflight/Pages entry point also runs the new offline regressions."""
+    import importlib.util
+    import sys
+    for name, relative in (
+        ('_daily_beauty_regression', 'tests/test_daiso_daily_beauty_to_shopify.py'),
+        ('_commerce_policy_regression', 'tests/test_daiso_commerce_strategy.py'),
+        ('_price_strategy_regression', 'scripts/test_beauty_price_strategy.py'),
+        ('_obsidian_navigation_regression', 'scripts/test_connect_obsidian_orphans.py'),
+    ):
+        spec=importlib.util.spec_from_file_location(name, ROOT/relative)
+        module=importlib.util.module_from_spec(spec)
+        sys.modules[name]=module
+        spec.loader.exec_module(module)
+        suite.addTests(loader.loadTestsFromModule(module))
+    return suite
 
 if __name__=='__main__':unittest.main(verbosity=2)

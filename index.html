@@ -450,6 +450,23 @@ nav a{font-size:12px;}
 
 
 
+<!-- Shopify 등록 후보 · 다이소 Dropshipping · S등급 우선순위 (통합) -->
+<div class="stats-section stats-merged">
+<div class="dashboard-card sd-card" id="daiso">
+<div class="sd-header">
+<div class="sd-title"><img class="icon-img" src="images/shopify.png" alt="Shopify" width="40" height="40">Shopify 등록 후보 · 다이소 Dropshipping</div>
+<div class="sd-sub" style="font-size:12px;color:#8b949e;">S등급 우선순위 · 원가/판매가 · 글로벌 매칭</div>
+</div>
+<div id="beauty-strategy" class="ops-note" aria-live="polite">3개 전문 카테고리 가격 전략 확인 중</div>
+<div id="daiso-panel"></div>
+<div id="mt-health"></div>
+<div class="sd-summary" id="sd-summary">불러오는 중…</div>
+<ul class="sd-list" id="sd-list">
+<li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
+</ul>
+</div>
+</div>
+
 <!-- Operations: public read-only projection, existing 11 teams + secretary retained. -->
 <section class="dashboard-card operations-section" id="operations-system" aria-labelledby="operations-title">
 <h3 id="operations-title">운영 시스템</h3>
@@ -466,22 +483,6 @@ nav a{font-size:12px;}
 <h4 style="margin-top:20px;">소스 감시 상태</h4><p class="ops-note">실제 외부 캡처와 로컬 파생 점검을 구분합니다. 부분 연결·차단은 담당 팀 복구 큐에서 추적하며, 소스 관찰은 판매 허용이나 외부 쓰기 권한을 뜻하지 않습니다.</p><div class="ops-table-wrap" id="operations-watchers"></div><h4 style="margin-top:20px;">담당 팀 소스 복구</h4><p class="ops-note">실제 재관찰과 검증 영수증이 일치해야 완료됩니다. 로컬 보고서 작성만으로 복구 완료 처리하지 않습니다.</p><div class="ops-table-wrap" id="operations-recovery"></div><h4 style="margin-top:20px;">지속 복구 실행 루프</h4><p class="ops-note" id="operations-procedure-note">실행 전 상태 저장, 2시간 쿨다운, 같은 장애 최대 2회. 실패한 발행에서도 예산·중단·이력을 보존하며 실제 소스 검증 없이 완료하지 않습니다.</p><div class="ops-table-wrap" id="operations-procedures"></div>
 <h4 style="margin-top:20px;">승인 요청 · 읽기 전용</h4><p class="ops-note">공개 대시보드는 승인과 실행 권한이 없습니다. 인증 승인 및 외부 실행은 이 화면에서 할 수 없습니다.</p><div class="ops-action-list" id="operations-actions"></div>
 </section>
-
-<!-- Shopify 등록 후보 · 다이소 Dropshipping · S등급 우선순위 (통합) -->
-<div class="stats-section stats-merged">
-<div class="dashboard-card sd-card" id="daiso">
-<div class="sd-header">
-<div class="sd-title"><img class="icon-img" src="images/shopify.png" alt="Shopify" width="40" height="40">Shopify 등록 후보 · 다이소 Dropshipping</div>
-<div class="sd-sub" style="font-size:12px;color:#8b949e;">S등급 우선순위 · 원가/판매가 · 글로벌 매칭</div>
-</div>
-<div id="daiso-panel"></div>
-<div id="mt-health"></div>
-<div class="sd-summary" id="sd-summary">불러오는 중…</div>
-<ul class="sd-list" id="sd-list">
-<li style="color:#666;font-size:13px;">데이터 로딩 중…</li>
-</ul>
-</div>
-</div>
 
 <!-- 마케팅 조사 분석팀 -->
 <div class="section-header"><img class="sh-img" src="images/teams/market.png" alt="" width="40" height="40">마케팅 조사 분석팀</div>
@@ -673,7 +674,7 @@ Product Discovery
 <div id="latest-items" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
 </div>
 
-<div class="dashboard-card" id="teams">
+<div class="dashboard-card" id="moe-training">
 <h4><span class="dashboard-card-icon">🚀</span>MoE 학습 상태</h4>
 <div id="training-panel" style="margin-top:15px;color:#999;font-size:13px;">불러오는 중…</div>
 </div>
@@ -1764,8 +1765,28 @@ const dot=document.querySelector('.live-dot'); if(dot) dot.style.background='#f8
 set('updated-at',msg);
 }
 
+function renderBeautyStrategy(doc){
+  const box=$('beauty-strategy'); if(!box) return;
+  box.replaceChildren();
+  const add=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;box.append(n);return n;};
+  if(!doc || !doc.categories || !doc.policy){add('p','전략 근거 없음 · 가격 우위나 판매 0으로 추정하지 않습니다.');return;}
+  add('h4','스킨케어 · 메이크업 · 바디케어 | S등급 전용');
+  add('p','마진·손익은 경고만 · 가격 근거, 안전자료, 영문 라벨, 재고, 이미지와 중복 검증은 유지합니다.');
+  const counts=['skincare','makeup','body'].map(k=>{const c=doc.categories[k];return c?c.daiso_name+' '+c.product_count+'개 / S '+(c.grade_counts||{}).S+'개':k+' 확인 전';});
+  add('p',counts.join(' · ')+' · S가 없으면 A등급으로 대체하지 않습니다.');
+  add('p','상업 우선순위 = 수요 점수 × 0.6 + 검증된 배송 포함 최저가 우위 점수(최대 40). 동일 품목·세트총량·통화·시장·시각을 맞추며, 미검증 가격은 가점 0입니다.');
+  const coverage=doc.input_coverage||{}, positions=coverage.price_position||{};
+  const verified=(positions.verified_below||0)+(positions.verified_not_below||0);
+  const safety=(doc.products||[]).filter(p=>p.grade==='S' && p.manufacturer_safety_record_covered!==true).length;
+  add('p','검증된 가격 비교 '+verified+'개 · 제품별 안전자료 미확인 S '+safety+'개 · 제품별 24시간 실적은 입력이 없으면 UNKNOWN입니다. 분석 기준: '+String(doc.as_of||'확인 전'));
+  const link=add('a','용량·가격·마진 경고·팀별 다음 업무 전체 근거');link.href='data/beauty_price_strategy.json';link.target='_blank';link.rel='noopener';
+  const labels={sourcing:'소싱',market:'시장',pricing:'가격',listing:'리스팅',legal:'법률',design:'디자인',channels:'채널',knowledge:'지식',graph:'그래프'};
+  const owners=((doc.team_work_plan||{}).teams||[]).map(t=>labels[t.team]||t.team);
+  add('p','팀 업무 계획: '+owners.join(' · ')+' | 근거 수집·검토 제안이며 완료·승인·매출 성과를 뜻하지 않습니다.');
+}
+
 async function loadData(){
-const [rt,tr,src,daiso,sd,sRec,pm,mkt,mRev,opsPlan,regJ]=await Promise.allSettled([
+const [rt,tr,src,daiso,sd,sRec,pm,mkt,mRev,opsPlan,regJ,beautyJ]=await Promise.allSettled([
 getJSON('data/dashboard_runtime.json'),
 getJSON('data/knowledge/training_status.json'),
 getJSON('data/knowledge/real_sources.json'),
@@ -1776,7 +1797,8 @@ getJSON('data/pricing_model.json'),
 getJSON('data/market_team.json'),
 getJSON('data/monthly_revenue.json'),
 getJSON('data/agents/ops_plan.json'),
-getJSON('data/shopify_daily_registry.json')
+getJSON('data/shopify_daily_registry.json'),
+getJSON('data/beauty_price_strategy.json')
 ]);
 /* 이미 Shopify 에 등록한 상품은 S등급 목록에서 바로 뺀다 */
 window.__registeredPd=new Set(); window.__registeredFam=new Set();
@@ -1834,6 +1856,7 @@ window.__sRec = sRec.status==='fulfilled'?sRec.value:null;
 window.__marketTeam = mkt.status==='fulfilled'?mkt.value:null;
 window.__collStatus = daiso.status==='fulfilled'?daiso.value:null;
 renderAgentPlan(opsPlan.status==='fulfilled'?opsPlan.value:null);
+renderBeautyStrategy(beautyJ.status==='fulfilled'?beautyJ.value:null);
 renderDaiso(daiso.status==='fulfilled'?daiso.value:null, window.__sRec);
 renderShopifyDemand(sd.status==='fulfilled'?sd.value:null, window.__sRec);
 renderProductDiscovery(sd.status==='fulfilled'?sd.value:null);

@@ -42,7 +42,8 @@
     "data/agents/collector_audit.json",
     "data/agents/signal_audit.json",
     "data/agents/score_explain.json",
-    "data/agents/listing_notes.json"
+    "data/agents/listing_notes.json",
+    "data/beauty_price_strategy.json"
   ],
   "commerce_inputs": [
     "data/daiso_real/products.json",
@@ -137,6 +138,14 @@
     [
       "scripts/discover_channels.py",
       "--cached-only"
+    ],
+    [
+      "scripts/build_beauty_price_strategy.py",
+      "--as-of",
+      "now",
+      "--output",
+      "data/beauty_price_strategy.json",
+      "--overwrite"
     ]
   ],
   "baseline_files": [

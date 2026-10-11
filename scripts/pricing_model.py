@@ -19,6 +19,7 @@
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import sys
@@ -26,6 +27,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+STRATEGY_PATH = ROOT / "config" / "daiso_commerce_strategy.json"
 SCORE = ROOT / "data" / "daiso_real" / "shopify_demand_score.json"
 SREC = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
 STATUS = ROOT / "data" / "daiso_real" / "collection_status.json"
@@ -121,6 +123,253 @@ def load_serp_prices() -> dict:
 SERP = load_serp_prices()
 
 
+def load_serp_collected_at() -> str | None:
+    """SerpApi 수집 시각. 근거의 신선도 판단에 쓴다. 없으면 None (신선도 불명 = 근거 불인정)."""
+    try:
+        d = json.loads(SERP_PATH.read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
+        return None
+    value = d.get("generated_at") if isinstance(d, dict) else None
+    return value if isinstance(value, str) and value.strip() else None
+
+
+SERP_COLLECTED_AT = load_serp_collected_at()
+
+
+# ---------------------------------------------------------------------------
+# 판매 전략 정책 (config/daiso_commerce_strategy.json)
+#
+# 2026-10-11 사용자 승인: 가격/마진은 더 이상 등록을 막는 하드블록이 아니다.
+# 목표 마진·손익분기 미달은 경고로 공개하고 등록은 진행한다.
+# 막는 것은 "가격 근거가 없거나 잘못된 경우" 뿐이다. 이 요건은 설정 파일로
+# 끌 수 없고, 끄려는 설정은 검증에서 거부된다.
+# ---------------------------------------------------------------------------
+STRATEGY_TAGS = ("skincare", "makeup", "body")
+
+
+def canonical_daiso_image_path(path) -> bool:
+    """허용 목록의 경로는 다이소 CDN 기준 절대경로('/...')만 된다. 호스트·스킴·쿼리·상위 경로는 거부."""
+    return (isinstance(path, str) and re.fullmatch(r"/[A-Za-z0-9_\-./]+", path) is not None
+            and "//" not in path and ".." not in path.split("/") and not path.endswith("/"))
+
+
+def validate_strategy(doc: dict) -> dict:
+    """정책 문서를 검증한다. 안전 요건을 풀어 주는 설정은 받아들이지 않는다(fail closed)."""
+    def need(cond: bool, msg: str) -> None:
+        if not cond:
+            raise ValueError(f"invalid commerce strategy: {msg}")
+
+    need(isinstance(doc, dict), "not an object")
+    cats = doc.get("categories")
+    need(isinstance(cats, list) and [c.get("tag") for c in cats if isinstance(c, dict)]
+         == list(STRATEGY_TAGS), "categories must be exactly skincare, makeup, body")
+    for c in cats:
+        for key in ("daiso_name", "daiso_category_no", "product_type", "shopify_taxonomy"):
+            need(isinstance(c.get(key), str) and c[key].strip(), f"{c.get('tag')}.{key} missing")
+        need(isinstance(c.get("score_buckets"), list) and c["score_buckets"]
+             and all(isinstance(b, str) and b for b in c["score_buckets"]), f"{c['tag']}.score_buckets")
+        need(c.get("allowed_grades") == ["S"], f"{c['tag']} must be S-only")
+    grades = doc.get("grade_policy") or {}
+    need(grades.get("allowed_grades") == ["S"] and grades.get("lower_grade_fallback") is False,
+         "grade_policy must be S-only without fallback")
+    price = doc.get("price_policy") or {}
+    need(price.get("mode") == "evidence_based_price", "price_policy.mode must be evidence_based_price")
+    need(price.get("margin_hard_block") is False, "price_policy.margin_hard_block must be false")
+    adv = price.get("margin_advisory") or {}
+    for key in ("target_margin", "minimum_margin", "estimated_weight_extra_margin"):
+        need(isinstance(adv.get(key), (int, float)) and not isinstance(adv.get(key), bool)
+             and 0 <= adv[key] < 1, f"margin_advisory.{key}")
+    ev = price.get("price_evidence") or {}
+    need(ev.get("required") is True, "price_evidence.required cannot be disabled")
+    need(ev.get("cost_plus_counts_as_evidence") is False, "cost-plus is not price evidence")
+    sources = ev.get("sources")
+    need(isinstance(sources, dict) and sources, "price_evidence.sources")
+    for name, src in sources.items():
+        need(isinstance(src, dict) and src.get("level") in {"product", "category"}
+             and isinstance(src.get("allowed"), bool), f"sources.{name}")
+        if src["allowed"]:
+            need(src["level"] == "product", f"sources.{name}: only product-level evidence may be allowed")
+            need(isinstance(src.get("min_sample"), int) and src["min_sample"] >= 1, f"sources.{name}.min_sample")
+            need(isinstance(src.get("max_age_days"), (int, float)) and src["max_age_days"] > 0,
+                 f"sources.{name}.max_age_days must be a positive freshness limit")
+    serp_rule = sources.get("serpapi_google_shopping")
+    need(serp_rule is None or serp_rule.get("price_claim") == "reference_price_basis_only",
+         "SerpApi evidence is a reference price basis only, never a market-minimum claim")
+    need(isinstance(ev.get("source_priority"), list)
+         and all(s in sources and sources[s]["allowed"] for s in ev["source_priority"]),
+         "price_evidence.source_priority must list allowed sources")
+    safety = price.get("manufacturer_safety_record") or {}
+    need(safety.get("required") is True and safety.get("deferred_plans_count_as_coverage") is False
+         and safety.get("scope") == "per product, not global",
+         "manufacturer_safety_record must stay required, per product, and not satisfied by deferred plans")
+    vol = price.get("volume_comparison") or {}
+    need(vol.get("required") is True, "volume_comparison.required cannot be disabled")
+    need(isinstance(vol.get("tolerance"), (int, float)) and 0 <= vol["tolerance"] <= 0.10, "volume tolerance")
+    need(vol.get("on_unknown_product_volume") == "reject_evidence"
+         and vol.get("on_unknown_comparison_volume") == "reject_evidence", "unknown volume must reject evidence")
+    img = doc.get("image_policy") or {}
+    need(img.get("mode") == "reviewed_product_only_allowlist" and img.get("require_allowlist") is True
+         and img.get("retain_face_verification") is True and img.get("human_faces_prohibited") is True,
+         "image_policy must keep the reviewed allowlist and face verification")
+    allow = img.get("reviewed_product_only_allowlist")
+    need(isinstance(allow, dict), "image allowlist must be an object")
+    for pd_no, entries in allow.items():
+        need(isinstance(entries, list), f"allowlist[{pd_no}] must be a list")
+        for entry in entries:
+            need(isinstance(entry, dict) and canonical_daiso_image_path(entry.get("path"))
+                 and re.fullmatch(r"[0-9a-f]{64}", str(entry.get("sha256") or ""))
+                 and str(entry.get("reviewed_by") or "").strip()
+                 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(entry.get("reviewed_at") or "")),
+                 f"allowlist[{pd_no}] entry needs path, sha256, reviewed_by, reviewed_at")
+    return doc
+
+
+def load_commerce_strategy(path: Path | None = None) -> dict:
+    """config/daiso_commerce_strategy.json 을 읽어 검증한다. 없거나 깨졌으면 예외(대체값 없음)."""
+    source = Path(path) if path else STRATEGY_PATH
+    raw = source.read_bytes()
+    doc = validate_strategy(json.loads(raw.decode("utf-8-sig")))
+    doc = dict(doc)
+    doc["_sha256"] = hashlib.sha256(raw).hexdigest()
+    return doc
+
+
+def parse_volume(text: str | None) -> dict | None:
+    """'2ml*6개입', '2 ml x 6', '1.69 fl oz' -> 총량. 용량 표기가 없으면 None.
+    daiso_daily_beauty_to_shopify.parse_size 와 같은 규칙이다(테스트가 둘의 일치를 확인한다)."""
+    s = (text or "").lower().replace("fl. oz", "fl oz")
+    m = re.search(r"(\d+(?:\.\d+)?)\s*(kg|ml|fl oz|oz|g|l)\b", s)
+    if not m:
+        return None
+    v, u = float(m.group(1)), m.group(2)
+    base, mult = {"ml": ("ml", 1), "l": ("ml", 1000), "fl oz": ("ml", 29.5735), "g": ("g", 1),
+                  "kg": ("g", 1000), "oz": ("g", 28.3495)}[u]
+    unit = v * mult
+    c = (re.search(r"[x*\u00d7]\s*(\d+)\b", s[m.end():])
+         or re.search(r"(\d+)\s*(?:ea|pcs|pc|\uac1c\uc785|\ub9e4\uc785|\uc785|ct|pack)\b", s[m.end():]))
+    pre = re.search(r"(\d+)\s*[x*\u00d7]\s*$", s[: m.start()])
+    count = int(c.group(1)) if c else (int(pre.group(1)) if pre else 1)
+    return {"unit": round(unit, 2), "base": base, "count": count, "total": round(unit * count, 2)}
+
+
+def _parse_time(value) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        stamp = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return stamp if stamp.tzinfo else stamp.replace(tzinfo=timezone.utc)
+
+
+def assess_price_evidence(evidence: dict | None, product_texts, now: datetime | None = None,
+                          strategy: dict | None = None) -> dict:
+    """가격 근거가 쓸 수 있는지 판정한다. 마진은 보지 않는다. 근거 자체만 본다.
+
+    evidence: {source, median_usd, sample_n, query, collected_at}
+      query 는 비교 대상의 이름이다 (용량 비교에 쓴다).
+    product_texts: 우리 상품의 이름들 (한글명, 영문 제목). 이 중 용량이 읽히는 첫 번째를 쓴다.
+    """
+    strategy = strategy or load_commerce_strategy()
+    price = strategy["price_policy"]
+    vol = price["volume_comparison"]
+    now = now or datetime.now(timezone.utc)
+    out = {"ok": False, "reasons": [], "source": None, "level": None, "age_days": None,
+           "volume_status": "not_checked"}
+    if not isinstance(evidence, dict) or not evidence:
+        out["reasons"].append("price_evidence_missing")
+        return out
+    source = str(evidence.get("source") or "")
+    out["source"] = source or None
+    rule = price["price_evidence"]["sources"].get(source)
+    reasons = out["reasons"]
+    if not rule or not rule["allowed"]:
+        reasons.append(f"price_evidence_source_not_allowed:{source or 'unknown'}")
+        out["level"] = rule["level"] if rule else None
+        return out
+    out["level"] = rule["level"]
+    median = evidence.get("median_usd")
+    if isinstance(median, bool) or not isinstance(median, (int, float)) or median != median or median <= 0:
+        reasons.append("price_evidence_price_invalid")
+    n = evidence.get("sample_n")
+    if isinstance(n, bool) or not isinstance(n, int) or n < rule["min_sample"]:
+        reasons.append(f"price_evidence_sample_too_small:{n}<{rule['min_sample']}")
+    stamp = _parse_time(evidence.get("collected_at"))
+    if stamp is None:
+        reasons.append("price_evidence_collected_at_missing")
+    else:
+        age = (now - stamp).total_seconds() / 86400
+        out["age_days"] = round(age, 2)
+        if age < -1:
+            reasons.append("price_evidence_dated_in_future")
+        elif age > rule["max_age_days"]:
+            reasons.append(f"price_evidence_stale:{age:.1f}d>{rule['max_age_days']}d")
+    # 용량 비교: 총량(개당 용량 x 입수)이 같아야 같은 상품의 가격이다.
+    ours = next((v for v in (parse_volume(t) for t in product_texts or []) if v), None)
+    theirs = parse_volume(evidence.get("query"))
+    if ours is None:
+        out["volume_status"] = "unverified_product_volume"
+        reasons.append("price_evidence_volume_unverified_product")
+    elif theirs is None:
+        out["volume_status"] = "unverified_comparison_volume"
+        reasons.append("price_evidence_volume_unverified_comparison")
+    elif ours["base"] != theirs["base"] or abs(ours["total"] - theirs["total"]) > vol["tolerance"] * max(
+            ours["total"], theirs["total"]):
+        out["volume_status"] = "mismatch"
+        reasons.append(f"price_evidence_volume_mismatch:ours={ours['total']}{ours['base']},"
+                       f"evidence={theirs['total']}{theirs['base']}")
+    else:
+        out["volume_status"] = "match"
+    out["ok"] = not reasons
+    return out
+
+
+def profitability_advisory(price: float, landed_total: float, weight_estimated: bool = False,
+                           strategy: dict | None = None) -> dict:
+    """마진 경고. 등록을 막지 않는다 (blocks_registration 은 항상 False).
+    price: 판매가, landed_total: 그 구성의 착지원가 합계(배송·관세 포함)."""
+    adv = (strategy or load_commerce_strategy())["price_policy"]["margin_advisory"]
+    fee = price * PAY_RATE + PAY_FIXED
+    net = price - landed_total - fee
+    margin = net / price if price else None
+    breakeven = (landed_total + PAY_FIXED) / (1 - PAY_RATE)
+    minimum = adv["minimum_margin"] + (adv["estimated_weight_extra_margin"] if weight_estimated else 0.0)
+    warnings = []
+    if price and price <= breakeven + 1e-9:
+        warnings.append("price_at_or_below_breakeven")
+    if margin is not None and margin + 0.0005 < minimum:
+        warnings.append(f"margin_below_minimum:{margin * 100:.1f}%<{minimum * 100:.1f}%")
+    if margin is not None and margin + 0.0005 < adv["target_margin"]:
+        warnings.append(f"margin_below_target:{margin * 100:.1f}%<{adv['target_margin'] * 100:.1f}%")
+    status = ("loss" if "price_at_or_below_breakeven" in warnings
+              else "below_minimum" if any(w.startswith("margin_below_minimum") for w in warnings)
+              else "below_target" if warnings else "ok")
+    return {"status": status, "warnings": warnings, "blocks_registration": False,
+            "net_profit_usd": round(net, 2), "margin_pct": round(margin * 100, 1) if margin is not None else None,
+            "breakeven_usd": round(breakeven, 2), "minimum_margin_pct": round(minimum * 100, 1),
+            "target_margin_pct": round(adv["target_margin"] * 100, 1),
+            "target_price_usd": round(landed_total / (1 - PAY_RATE - adv["target_margin"]), 2)}
+
+
+def product_market_evidence(pd_no) -> dict | None:
+    """상품별 SerpApi 시장가 근거. 없으면 None (지어내지 않는다)."""
+    hit = SERP.get(str(pd_no))
+    if not hit:
+        return None
+    return {"source": "serpapi_google_shopping", "median_usd": round(hit["median"], 2),
+            "sample_n": hit["n"], "query": hit.get("query"), "collected_at": SERP_COLLECTED_AT,
+            # SerpApi 중앙값은 참고 가격 근거다. 같은 상품으로 검증한 비교 대상만 '최저가' 를 말할 수 있다.
+            "price_claim": "reference_price_basis_only_not_market_minimum"}
+
+
+def evidence_price(evidence: dict, qty: int = 1, discount: float = 0.0,
+                   strategy: dict | None = None) -> float:
+    """근거 가격에서 판매가를 만든다 (SerpApi 중앙값의 price_factor, 보통 95%)."""
+    factor = ((strategy or load_commerce_strategy())["price_policy"]["price_evidence"]["sources"]
+              .get(evidence.get("source")) or {}).get("price_factor", 1.0)
+    return psych_price(float(evidence["median_usd"]) * factor * qty * (1 - discount))
+
+
 def market_benchmark() -> dict:
     """OliveYoung US 베스트셀러 실수집 가격으로 시장 기준을 잡는다.
 
@@ -176,6 +425,7 @@ def load_measured() -> dict:
 
 
 MEASURED = load_measured()
+STRATEGY = load_commerce_strategy()
 
 GOSI_PATH = ROOT / "data" / "gosi.json"
 
@@ -377,15 +627,24 @@ def main() -> int:
         """상품 한 건의 권장가. 상품별 시장가가 있으면 그것을 기준으로 잡는다."""
         base = row.get("market_median_usd") or MARKET["p25"]
         src = row.get("market_price_source") or "oliveyoung_us_benchmark"
+        evidence = (product_market_evidence(row.get("pd_no")) if src == "serpapi_google_shopping"
+                    else None) or {"source": src, "median_usd": base, "sample_n": MARKET.get("n"),
+                                   "query": None, "collected_at": None}
         if src == "serpapi_google_shopping":
             # 실판매 중앙값보다 살짝 아래로 들어간다. 신규 스토어의 진입 가격이다.
-            base = base * 0.95
+            # (비율은 config/daiso_commerce_strategy.json 의 price_factor)
+            price = evidence_price(evidence, qty, disc, STRATEGY)
+        else:
+            price = psych_price(base * qty * (1 - disc))
         land = row["landed_cost_usd"]
-        raw = base * qty * (1 - disc)
-        price = psych_price(raw)
         fee = price * PAY_RATE + PAY_FIXED
         net = price - land * qty - fee
-        breakeven = row["breakeven_usd"] * qty
+        # 2026-10-11 사용자 승인: 손익분기·목표마진 미달은 등록을 막지 않고 경고로 공개한다.
+        # register_blocked 는 이제 '가격 근거가 없거나 잘못된 경우' 만 뜻한다.
+        assessment = assess_price_evidence(evidence, [row.get("name")], strategy=STRATEGY)
+        price_ok = price > 0
+        blocked = (not price_ok) or (not assessment["ok"])
+        profit = profitability_advisory(price, land * qty, row.get("weight_source") == "estimated", STRATEGY)
         return {
             "pd_no": row.get("pd_no"), "name": row.get("name"),
             "qty": qty, "price_usd": round(price, 2),
@@ -396,10 +655,12 @@ def main() -> int:
             "margin_pct": round(net / price * 100, 1) if price else None,
             "market_median_usd": row.get("market_median_usd"),
             "market_price_source": src,
-            # 손익분기 아래면 등록하면 안 된다
-            "register_blocked": price <= breakeven,
-            "block_reason": (f"권장가 ${price:.2f} 가 손익분기 ${breakeven:.2f} 이하"
-                             if price <= breakeven else ""),
+            "price_evidence": {**evidence, "assessment_at_generation": assessment},
+            "profitability": profit,
+            "profit_warnings": profit["warnings"],
+            "register_blocked": blocked,
+            "block_reason": ("가격 근거 미달: " + ",".join(assessment["reasons"] or ["price_invalid"])
+                             if blocked else ""),
         }
 
     def per_product(qty, disc, mode="ddu"):
@@ -441,6 +702,15 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "exchange_rate": {"usd_to_krw": rate, "as_of": fx.get("as_of"),
                           "source": fx.get("source")},
+        "pricing_policy": {
+            "mode": STRATEGY["price_policy"]["mode"],
+            "strategy_file": "config/daiso_commerce_strategy.json",
+            "strategy_sha256": STRATEGY["_sha256"],
+            "margin_hard_block": False,
+            "serp_collected_at": SERP_COLLECTED_AT,
+            "note": ("register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. "
+                     "마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."),
+        },
         "cost_basis": {
             "shipping": SHIPPING_SOURCE,
             "tariff": f"{TARIFF_RATE:.0%} - 미국 화장품 HTS 3304 한국산 상호관세",

@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import manufacturer_safety
 from pathlib import Path
 from typing import Any
 
@@ -38,6 +39,7 @@ LABELS = DATA / "daiso_real" / "daiso_us_labels.json"
 GOSI = DATA / "gosi.json"
 PRODUCT_MASTER = DATA / "product_master.json"
 GATE = DATA / "listing_gate.json"
+COMMERCE_STRATEGY = ROOT / "config" / "daiso_commerce_strategy.json"
 
 
 def sha256_bytes(value: bytes) -> str:
@@ -73,23 +75,29 @@ def recommendation_signature(rows: list[dict]) -> str:
 
 def agent_input_signature(recommendations: list[dict]) -> dict[str, Any]:
     # Full ontology/copy/legal/policy evidence, not merely an ID registry.
-    # Private identity files are deliberately NEVER opened. Only published masked
-    # presence/status evidence is bound and only hashes leave this function.
+    # Private identity values are never included or hashed. The shared safety
+    # helper reads the private profile but exposes only per-product covered/reason;
+    # this minimal masked view binds coverage revocations without publishing identity.
     paths = [PRODUCT_MASTER, GOSI, LABELS, PRICING, LEGAL, RECOMMENDATIONS,
              DATA / "shopify_listing_copy.json", DATA / "shopify_shortlist.json",
              DATA / "legal_full.json", DATA / "mocra_readiness.json",
              DATA / "manual" / "legal_rp_status.json",
              DATA / "manual" / "mocra_business.json",
-             DATA / "manual" / "official_label_text.json"]
+             DATA / "manual" / "official_label_text.json", COMMERCE_STRATEGY]
     hashes = {}
     for source in paths:
-        relative = "data/" + source.relative_to(DATA).as_posix()
+        relative = ("config/daiso_commerce_strategy.json" if source == COMMERCE_STRATEGY
+                    else "data/" + source.relative_to(DATA).as_posix())
         try:
             document = json.loads(source.read_text(encoding="utf-8-sig"))
             evidence = {"status": "present", "document": semantic_document(document)}
         except (OSError, json.JSONDecodeError, UnicodeDecodeError):
             evidence = {"status": "missing_or_unreadable"}
         hashes[relative] = sha256_bytes(_canonical(evidence))
+    masked_safety = {str(row['pd_no']): manufacturer_safety.public_view(
+        manufacturer_safety.manufacturer_safety_record(row['pd_no'], DATA.parent))
+        for row in recommendations if isinstance(row, dict) and row.get('pd_no')}
+    hashes['masked/manufacturer_safety_record'] = sha256_bytes(_canonical(masked_safety))
     sop = DATA / "manual" / "mocra_adverse_event_sop.md"
     try:
         # Newline encoding is not legal meaning; real text and readability still bind.

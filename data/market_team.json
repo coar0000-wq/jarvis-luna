@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-11T10:57:02.216052+09:00",
+    "updated_at": "2026-10-11T16:21:23.797807+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1627,7 +1627,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
     },
@@ -1657,7 +1659,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
     },
@@ -1688,7 +1692,9 @@
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
       "agent_blocked_by": [
-        "legal"
+        "price",
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
@@ -1719,7 +1725,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
@@ -1749,7 +1757,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554"
     },
@@ -1779,7 +1789,10 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857"
     },
@@ -1809,7 +1822,10 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285"
     },
@@ -1839,7 +1855,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059834"
     },
@@ -1895,7 +1913,10 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042619"
     }

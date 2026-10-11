@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "policy_id": "daiso_commerce_strategy_2026-10-11",
+  "authorization": {
+    "source": "user instruction 2026-10-11",
+    "granted": "Remove the price/margin HARD block for S-grade Daiso beauty registration. Register with evidenced prices even when the margin is under target or breakeven, and disclose profitability warnings instead of skipping or drafting on price/margin alone.",
+    "not_granted": [
+      "missing or invalid price",
+      "missing, stale, non-comparable or volume-mismatched price evidence",
+      "legal / US label / manufacturer safety / hard_block / claims gates",
+      "image, stock, grade, duplicate and authentication gates",
+      "inventing FX rates or prices"
+    ]
+  },
+  "grade_policy": {
+    "allowed_grades": [
+      "S"
+    ],
+    "lower_grade_fallback": false
+  },
+  "categories": [
+    {
+      "tag": "skincare",
+      "daiso_name": "스킨케어",
+      "daiso_category_no": "BH_CTGR_00002",
+      "product_type": "Skincare",
+      "shopify_taxonomy": "gid://shopify/TaxonomyCategory/hb-3-2-9",
+      "score_buckets": [
+        "스킨케어",
+        "마스크팩",
+        "클렌징",
+        "선케어"
+      ],
+      "allowed_grades": [
+        "S"
+      ]
+    },
+    {
+      "tag": "makeup",
+      "daiso_name": "메이크업",
+      "daiso_category_no": "BH_CTGR_00006",
+      "product_type": "Makeup",
+      "shopify_taxonomy": "gid://shopify/TaxonomyCategory/hb-3-2-6",
+      "score_buckets": [
+        "메이크업"
+      ],
+      "allowed_grades": [
+        "S"
+      ]
+    },
+    {
+      "tag": "body",
+      "daiso_name": "바디케어",
+      "daiso_category_no": "BH_CTGR_00012",
+      "product_type": "Body Care",
+      "shopify_taxonomy": "gid://shopify/TaxonomyCategory/hb-3-2-1",
+      "score_buckets": [
+        "바디케어"
+      ],
+      "allowed_grades": [
+        "S"
+      ]
+    }
+  ],
+  "price_policy": {
+    "mode": "evidence_based_price",
+    "margin_hard_block": false,
+    "register_blocked_means": "missing or invalid price evidence only; never margin or breakeven",
+    "margin_advisory": {
+      "target_margin": 0.4,
+      "minimum_margin": 0.3,
+      "estimated_weight_extra_margin": 0.05,
+      "disclose_warnings": true,
+      "note": "Advisory only. Falling below any of these produces a profitability warning in the run result, registry and listing gate. It never skips, drafts or blocks."
+    },
+    "price_evidence": {
+      "required": true,
+      "cost_plus_counts_as_evidence": false,
+      "source_priority": [
+        "shop_com_live_comparable",
+        "serpapi_google_shopping"
+      ],
+      "sources": {
+        "shop_com_live_comparable": {
+          "level": "product",
+          "allowed": true,
+          "min_sample": 1,
+          "max_age_days": 1,
+          "undercut": "just below the lowest comparable shop.com price (.99 ending)"
+        },
+        "serpapi_google_shopping": {
+          "level": "product",
+          "allowed": true,
+          "min_sample": 5,
+          "max_age_days": 30,
+          "price_factor": 0.95,
+          "price_factor_note": "95% of the per-product US median, same rule as pricing_model.offer_for",
+          "price_claim": "reference_price_basis_only",
+          "price_claim_note": "A reference price basis. It is NOT the exact market-lowest price; only a verified same-item comparator (shop_com_live_comparable) may support a competitive-minimum claim."
+        },
+        "oliveyoung_us_benchmark": {
+          "level": "category",
+          "allowed": false,
+          "reason": "Category-wide benchmark is neither product-level nor volume-comparable"
+        }
+      }
+    },
+    "manufacturer_safety_record": {
+      "required": true,
+      "source_of_record": "data/manual/mocra_business.json overlaid by private data/manual/mocra_profile.json (private wins, never exposed)",
+      "covered_list": "safety_substantiation.covered_pd_nos",
+      "scope": "per product, not global",
+      "deferred_plans_count_as_coverage": false,
+      "failure_reason": "manufacturer_safety_record_missing"
+    },
+    "volume_comparison": {
+      "required": true,
+      "tolerance": 0.05,
+      "compare": "total volume (unit size x pack count) in the same base unit",
+      "on_unknown_product_volume": "reject_evidence",
+      "on_unknown_comparison_volume": "reject_evidence"
+    }
+  },
+  "image_policy": {
+    "mode": "reviewed_product_only_allowlist",
+    "require_allowlist": true,
+    "retain_face_verification": true,
+    "human_faces_prohibited": true,
+    "note": "Only images listed here (exact canonical Daiso CDN path AND sha256 of the downloaded bytes, with reviewed_by and reviewed_at) may be uploaded. Listed paths are fetched even when pdImgUrlList does not advertise them (union of advertised and listed paths). reviewed_by must state truthfully who or what inspected the image; automated visual inspection must say so and is not human approval. The YuNet face detector stays on as an additional veto and ordering step; it is NOT a guarantee that an image is face-free. An empty allowlist means no product gets images and every candidate stays DRAFT.",
+    "reviewed_product_only_allowlist": {
+      "1067498": [
+        {
+          "path": "/file/resize/PD/20251226/thumbnail/850/mj1awktWrHffrYiAWse31067498_00_02mj1awktWrHffrYiAWse3.jpg",
+          "sha256": "69bba2b15e1b352086f1b05cd70dd6d1830e7a62ebbfcf78c71769385d7bec60",
+          "reviewed_by": "Aside automated visual inspection (not human approval)",
+          "reviewed_at": "2026-10-11"
+        },
+        {
+          "path": "/file/resize/PD/20251226/thumbnail/850/J8Bz8SeL9hMwHZcU8STZ1067498_00_03J8Bz8SeL9hMwHZcU8STZ.jpg",
+          "sha256": "4f4118532bed6b93e2c2ba4f3550a4bf79000b1d5cb39c95dd5c1958d4f4c757",
+          "reviewed_by": "Aside automated visual inspection (not human approval)",
+          "reviewed_at": "2026-10-11"
+        }
+      ]
+    }
+  },
+  "allowlist_entry_format": {
+    "pd_no": [
+      {
+        "path": "/canonical/daiso/cdn/path.jpg (starts with a single slash; no scheme, host, query, fragment or ..)",
+        "sha256": "64 lowercase hex chars of the downloaded image bytes",
+        "reviewed_by": "truthful reviewer label, e.g. 'Aside automated visual inspection (not human approval)'",
+        "reviewed_at": "YYYY-MM-DD"
+      }
+    ]
+  }
+}

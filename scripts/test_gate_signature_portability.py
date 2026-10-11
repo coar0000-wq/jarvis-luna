@@ -31,6 +31,32 @@ class GateTextPortability(unittest.TestCase):
                 sop.write_bytes(b'Report within 30 days.\n')
                 self.assertNotEqual(before,gs.agent_input_signature([]))
 
+    def test_commerce_policy_change_invalidates_signature(self):
+        with tempfile.TemporaryDirectory() as td:
+            data=Path(td); policy=data/'strategy.json'
+            with self.fixture(data), patch.object(gs, 'COMMERCE_STRATEGY', policy):
+                policy.write_text('{"price_policy":{"margin_hard_block":false}}', encoding='utf-8')
+                before=gs.agent_input_signature([])
+                self.assertIn('config/daiso_commerce_strategy.json', before['semantic_sources'])
+                policy.write_text('{"price_policy":{"margin_hard_block":true}}', encoding='utf-8')
+                self.assertNotEqual(before, gs.agent_input_signature([]))
+
+    def test_private_coverage_revocation_changes_only_masked_safety_signature(self):
+        with tempfile.TemporaryDirectory() as td:
+            data=Path(td)/'data';(data/'manual').mkdir(parents=True)
+            public=data/'manual/mocra_business.json';private=data/'manual/mocra_profile.json'
+            public.write_text('{"safety_substantiation":{"covered_pd_nos":[]}}',encoding='utf-8')
+            private.write_text('{"private_identity":"DO_NOT_PUBLISH","safety_substantiation":{"covered_pd_nos":["1"]}}',encoding='utf-8')
+            with self.fixture(data):
+                before=gs.agent_input_signature([{'pd_no':'1'}])
+                private.write_text('{"private_identity":"DO_NOT_PUBLISH","safety_substantiation":{"covered_pd_nos":[]}}',encoding='utf-8')
+                after=gs.agent_input_signature([{'pd_no':'1'}])
+                self.assertNotEqual(before,after)
+                changed=[k for k in before['semantic_sources'] if before['semantic_sources'][k]!=after['semantic_sources'][k]]
+                self.assertEqual(changed,['masked/manufacturer_safety_record'])
+                self.assertNotIn('DO_NOT_PUBLISH',str(before))
+                self.assertNotIn('mocra_profile.json',str(before))
+
     def test_missing_and_unreadable_never_impersonate_present_text(self):
         with tempfile.TemporaryDirectory() as td:
             data=Path(td);(data/'manual').mkdir();sop=data/'manual/mocra_adverse_event_sop.md'

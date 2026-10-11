@@ -4,6 +4,7 @@ import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
@@ -12,6 +13,11 @@ sys.path.insert(0, str(SCRIPT.parent))
 spec = importlib.util.spec_from_file_location("daily", SCRIPT)
 daily = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(daily)
+REAL_SAFETY = daily.manufacturer_safety_record  # setUp 은 기본으로 '덮임' 으로 대체한다. 실제 함수는 이 참조로 검증한다.
+SAFETY_COVERED = {"pd_no": "123", "covered": True, "reason": None}
+
+# 가격 근거가 통과한 상태의 최소 픽스처 (price_unfit_reason 은 근거 필드가 없으면 통과시키지 않는다).
+EVIDENCE_OK = {"ok": True, "source": "serpapi_google_shopping", "reasons": []}
 
 
 class DailySafetyTests(unittest.TestCase):
@@ -21,6 +27,9 @@ class DailySafetyTests(unittest.TestCase):
         price_log = patch.object(daily, "log_price_position")
         price_log.start()
         self.addCleanup(price_log.stop)
+        covered = patch.object(daily, "manufacturer_safety_record", return_value=dict(SAFETY_COVERED))
+        covered.start()
+        self.addCleanup(covered.stop)
 
     def test_all_categories_s_only_without_a_fallback(self):
         skin = daily.s_ranked(daily.CATEGORIES[0])
@@ -124,7 +133,8 @@ class DailySafetyTests(unittest.TestCase):
                              "pdPrc": "3000", "_grade": "S", "_source": "jarvis_s_list"}
                 pricing = {"single": {"price_usd": 14.99, "margin_pct": 30},
                            "pack": {"ok": True, "price_usd": 25.99, "margin_pct": 30,
-                                    "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {}}
+                                    "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {},
+                    "evidence": dict(EVIDENCE_OK)}
                 with patch.object(daily, "DRY_RUN", False), patch.object(daily, "ONLY", set()), \
                      patch.object(daily, "BACKFILL_BANNER", False), \
                      patch.object(daily, "QUARANTINE_BLOCKED_PUBLIC", False), \
@@ -223,7 +233,8 @@ class DailySafetyTests(unittest.TestCase):
                      "_grade": "S", "_source": "jarvis_s_list"}
         pricing = {"single": {"price_usd": 14.99, "margin_pct": 30},
                    "pack": {"ok": True, "price_usd": 25.99, "margin_pct": 30,
-                            "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {}}
+                            "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {},
+                    "evidence": dict(EVIDENCE_OK)}
         for scenario, expected_reason in [
             ("missing", "listing_gate_missing_or_unreadable"),
             ("stale", "listing_gate_stale:"),
@@ -524,18 +535,678 @@ class DailySafetyTests(unittest.TestCase):
         self.assertIn("path: |\n            out/daiso_daily_beauty_result.json\n            data/shopify_daily_registry.json", workflow)
         self.assertIn("quarantine_blocked_public:", workflow)
 
-    def test_price_unfit_reason_excludes_bad_margin(self):
-        ok = {"single": {"price_usd": 14.99, "net_profit_usd": 4.0, "margin_pct": 33.6},
-              "pack": {"ok": True, "margin_pct": 48.7}, "min_margin": 0.30}
-        self.assertIsNone(daily.price_unfit_reason(3000, ok))
-        low = {**ok, "single": {"price_usd": 14.99, "net_profit_usd": 3.0, "margin_pct": 24.0}}
-        self.assertTrue(daily.price_unfit_reason(3000, low).startswith("single_margin_below_floor"))
-        self.assertEqual(daily.price_unfit_reason(3000, {**ok, "pack": {"ok": False, "margin_pct": 10}}), "bundle_margin_not_ok")
-        self.assertEqual(daily.price_unfit_reason(0, ok), "no_cost_price")
-        neg = {**ok, "single": {"price_usd": 9.0, "net_profit_usd": -1.0, "margin_pct": -5.0}}
-        self.assertEqual(daily.price_unfit_reason(3000, neg), "single_unprofitable")
-        est = {**ok, "min_margin": 0.35, "single": {"price_usd": 14.99, "net_profit_usd": 4.0, "margin_pct": 33.6}}
-        self.assertTrue(daily.price_unfit_reason(3000, est).startswith("single_margin_below_floor"))
+    # ------------------------------------------------------------------
+    # 가격/마진 정책 (2026-10-11 사용자 승인): 마진은 경고, 가격 근거는 필수
+    # ------------------------------------------------------------------
+    def _pr(self, **over):
+        pr = {"single": {"price_usd": 9.99, "net_profit_usd": -3.0, "margin_pct": -30.0},
+              "pack": {"ok": True, "margin_pct": -40.0}, "min_margin": 0.30, "evidence": dict(EVIDENCE_OK)}
+        pr.update(over)
+        return pr
+
+    def test_price_unfit_reason_ignores_margin_but_keeps_real_price_gates(self):
+        loss = self._pr()
+        self.assertIsNone(daily.price_unfit_reason(3000, loss))  # 적자여도 근거가 있으면 등록
+        self.assertIsNone(daily.price_unfit_reason(3000, self._pr(single={"price_usd": 9.99, "net_profit_usd": 0.0, "margin_pct": 0.0})))
+        self.assertEqual(daily.price_unfit_reason(0, loss), "no_cost_price")
+        self.assertEqual(daily.price_unfit_reason(None, loss), "no_cost_price")
+        missing = self._pr()
+        del missing["evidence"]
+        self.assertEqual(daily.price_unfit_reason(3000, missing), "price_evidence_invalid:price_evidence_missing")
+        stale = self._pr(evidence={"ok": False, "reasons": ["price_evidence_stale:40.0d>30d"]})
+        self.assertEqual(daily.price_unfit_reason(3000, stale), "price_evidence_invalid:price_evidence_stale:40.0d>30d")
+        self.assertTrue(daily.price_unfit_reason(3000, self._pr(evidence={"ok": "yes"})).startswith("price_evidence_invalid"))
+        for bad in (None, 0, -1, True, float("nan"), "9.99"):
+            with self.subTest(price=bad):
+                self.assertEqual(daily.price_unfit_reason(3000, self._pr(single={"price_usd": bad})), "single_price_invalid")
+        self.assertEqual(daily.price_unfit_reason(3000, self._pr(pack={"ok": False})), "bundle_price_invalid")
+
+    def _final(self, shop, base_price=None, base_evidence=None, landed1=8.0, landed2=14.0, weight_source="gosi_volume",
+               name="테스트 세럼 50 ml", title="Test Serum 50 ml"):
+        import pricing_model as pm
+        row = {"weight_source": weight_source, "weight_g_est": 100, "shipping_unit_usd": 5.0, "tariff_usd": 1.0}
+        with patch.object(daily, "_landed", side_effect=lambda pd, n, krw, qty: ((landed1 if qty == 1 else landed2), pm, row)), \
+             patch.object(daily, "shop_compare", return_value=shop), \
+             patch.object(daily, "fx_rate", return_value={"rate": 1400, "live": None, "saved": 1400}):
+            return daily.final_prices("1", name, 3000, title, base_price, base_evidence)
+
+    def _serp_evidence(self, days_old=1, query="Test Serum 50 ml", n=10, median=20.0):
+        stamp = (datetime.now(timezone.utc) - timedelta(days=days_old)).isoformat()
+        return {"source": "serpapi_google_shopping", "median_usd": median, "sample_n": n, "query": query, "collected_at": stamp}
+
+    def test_final_prices_follow_shop_com_evidence_below_breakeven_with_warnings(self):
+        shop = {"lowest_usd": 6.5, "match_count": 3, "matches": [{"title": "Test Serum 50 ml", "usd": 6.5}]}
+        pr = self._final(shop)
+        self.assertEqual(pr["single"]["price_usd"], 5.99)  # 최저가보다 낮게, 원가 바닥 없음
+        self.assertTrue(pr["evidence"]["ok"])
+        self.assertEqual(pr["evidence"]["source"], "shop_com_live_comparable")
+        self.assertLess(pr["single"]["net_profit_usd"], 0)
+        self.assertIn("single:price_at_or_below_breakeven", pr["profit_warnings"])
+        self.assertTrue(any(w.startswith("pack:margin_below_target") for w in pr["profit_warnings"]))
+        self.assertFalse(pr["profitability_blocks_registration"])
+        self.assertTrue(pr["pack"]["ok"])
+        self.assertIsNone(daily.price_unfit_reason(3000, pr))
+
+    def test_final_prices_reject_shop_com_volume_mismatch_and_use_fresh_serp(self):
+        shop = {"lowest_usd": 6.5, "match_count": 1, "matches": [{"title": "Test Serum 100 ml", "usd": 6.5}]}
+        evidence = self._serp_evidence()
+        pr = self._final(shop, 18.99, evidence)
+        self.assertEqual(pr["evidence"]["source"], "serpapi_google_shopping")
+        self.assertEqual(pr["single"]["price_usd"], 18.99)
+        self.assertTrue(any("price_evidence_volume_mismatch" in r for x in pr["evidence"]["rejected"] for r in x["reasons"]))
+        self.assertIsNone(daily.price_unfit_reason(3000, pr))
+
+    def test_final_prices_have_no_price_without_valid_evidence(self):
+        none = {"lowest_usd": None, "matches": []}
+        for label, evidence in (("none", None), ("stale", self._serp_evidence(days_old=90)),
+                                ("small", self._serp_evidence(n=2)), ("volume", self._serp_evidence(query="Test Serum 100 ml")),
+                                ("future", self._serp_evidence(days_old=-30))):
+            with self.subTest(case=label):
+                pr = self._final(none, 18.99, evidence)
+                self.assertIsNone(pr["single"]["price_usd"])
+                self.assertFalse(pr["evidence"]["ok"])
+                self.assertTrue(daily.price_unfit_reason(3000, pr).startswith("price_evidence_invalid:price_evidence_missing"))
+        unknown = self._final({"lowest_usd": 6.5, "match_count": 1, "matches": [{"title": "Test Serum", "usd": 6.5}]},
+                              None, None, name="테스트 세럼", title="Test Serum")
+        self.assertIsNone(unknown["single"]["price_usd"])
+        self.assertTrue(any("volume_unverified_product" in r for x in unknown["evidence"]["rejected"] for r in x["reasons"]))
+
+    def test_jarvis_price_uses_only_fresh_product_level_evidence_never_cost_plus(self):
+        import pricing_model as pm
+        now = datetime.now(timezone.utc).isoformat()
+        old = (datetime.now(timezone.utc) - timedelta(days=90)).isoformat()
+        serp = {"1": {"median": 24.5, "n": 20, "query": "VT Reedle 2ml x 6"}}
+        with patch.object(pm, "SERP", serp), patch.object(pm, "SERP_COLLECTED_AT", now):
+            fresh = daily.jarvis_price("1", "VT 리들샷 2 ml*6개입", 3000)
+            self.assertEqual(fresh["price_usd"], 23.99)
+            self.assertTrue(fresh["evidence_assessment"]["ok"])
+            self.assertIsNone(daily.jarvis_price("1", "VT 리들샷 50 ml", 3000)["price_usd"])  # 총량 불일치
+            self.assertIsNone(daily.jarvis_price("2", "VT 리들샷 2 ml*6개입", 3000)["price_usd"])  # 근거 없음
+        with patch.object(pm, "SERP", serp), patch.object(pm, "SERP_COLLECTED_AT", old):
+            self.assertIsNone(daily.jarvis_price("1", "VT 리들샷 2 ml*6개입", 3000)["price_usd"])  # 낡음
+        with patch.object(pm, "SERP", serp), patch.object(pm, "SERP_COLLECTED_AT", None):
+            self.assertIsNone(daily.jarvis_price("1", "VT 리들샷 2 ml*6개입", 3000)["price_usd"])  # 수집 시각 불명
+
+    def test_strategy_defines_three_s_only_categories_and_cannot_be_loosened(self):
+        import copy
+        import pricing_model as pm
+        self.assertEqual([c[0] for c in daily.CATEGORIES], ["skincare", "makeup", "body"])
+        self.assertEqual(daily.ALLOWED_GRADES, {"skincare": ("S",), "makeup": ("S",), "body": ("S",)})
+        self.assertEqual(daily.STRATEGY["price_policy"]["mode"], "evidence_based_price")
+        self.assertIs(daily.STRATEGY["price_policy"]["margin_hard_block"], False)
+        doc = json.loads(pm.STRATEGY_PATH.read_text(encoding="utf-8"))
+        pm.validate_strategy(copy.deepcopy(doc))
+        loosen = {
+            "grade A": lambda d: d["categories"][0].update(allowed_grades=["S", "A"]),
+            "grade fallback": lambda d: d["grade_policy"].update(lower_grade_fallback=True),
+            "category removed": lambda d: d.update(categories=d["categories"][:2]),
+            "mode": lambda d: d["price_policy"].update(mode="cost_plus"),
+            "margin hard block": lambda d: d["price_policy"].update(margin_hard_block=True),
+            "evidence optional": lambda d: d["price_policy"]["price_evidence"].update(required=False),
+            "cost plus evidence": lambda d: d["price_policy"]["price_evidence"].update(cost_plus_counts_as_evidence=True),
+            "category benchmark allowed": lambda d: d["price_policy"]["price_evidence"]["sources"]["oliveyoung_us_benchmark"].update(allowed=True),
+            "no freshness": lambda d: d["price_policy"]["price_evidence"]["sources"]["serpapi_google_shopping"].update(max_age_days=0),
+            "volume optional": lambda d: d["price_policy"]["volume_comparison"].update(required=False),
+            "volume loose": lambda d: d["price_policy"]["volume_comparison"].update(tolerance=0.5),
+            "unknown volume accepted": lambda d: d["price_policy"]["volume_comparison"].update(on_unknown_product_volume="accept"),
+            "serp claimed as market minimum": lambda d: d["price_policy"]["price_evidence"]["sources"]["serpapi_google_shopping"].update(price_claim="market_minimum"),
+            "safety record optional": lambda d: d["price_policy"]["manufacturer_safety_record"].update(required=False),
+            "safety deferred plan counts": lambda d: d["price_policy"]["manufacturer_safety_record"].update(deferred_plans_count_as_coverage=True),
+            **{f"non-canonical allowlist path {bad}": (lambda b: lambda d: d["image_policy"]["reviewed_product_only_allowlist"].update(
+                {"1": [{"path": b, "sha256": "a" * 64, "reviewed_by": "x", "reviewed_at": "2026-10-11"}]}))(bad)
+               for bad in ("https://evil.example/a.jpg", "//evil.example/a.jpg", "a.jpg", "/a/../b.jpg", "/a.jpg?x=1", "/a.jpg#f", "/dir/", "")},
+            "allowlist off": lambda d: d["image_policy"].update(require_allowlist=False),
+            "face check off": lambda d: d["image_policy"].update(retain_face_verification=False),
+            "faces allowed": lambda d: d["image_policy"].update(human_faces_prohibited=False),
+            "unreviewed allowlist entry": lambda d: d["image_policy"]["reviewed_product_only_allowlist"].update(
+                {"1": [{"path": "/a.jpg", "sha256": "abc"}]}),
+        }
+        for label, mutate in loosen.items():
+            with self.subTest(label=label):
+                bad = copy.deepcopy(doc)
+                mutate(bad)
+                with self.assertRaises(ValueError):
+                    pm.validate_strategy(bad)
+
+    def test_volume_parsers_agree_and_profitability_never_blocks(self):
+        import pricing_model as pm
+        for text in ("2ml*6개입", "2 ml x 6 ea", "90g", "1.69 fl oz", "3 x 90g", "Serum 30 ml", "no size", "", None):
+            with self.subTest(text=text):
+                self.assertEqual(daily.parse_size(text), pm.parse_volume(text))
+        loss = pm.profitability_advisory(5.0, 8.0)
+        self.assertEqual(loss["status"], "loss")
+        self.assertFalse(loss["blocks_registration"])
+        self.assertEqual(pm.profitability_advisory(100.0, 10.0)["warnings"], [])
+
+    def test_images_only_from_reviewed_allowlist_with_hash_and_face_check_retained(self):
+        import hashlib
+        import daiso_images
+
+        def digest(data):
+            return hashlib.sha256(data).hexdigest()
+        good, changed, unlisted = b"reviewed-bytes", b"replaced-bytes", b"never-reviewed"
+        entry = {"reviewed_by": "tester", "reviewed_at": "2026-10-11"}
+        policy = {"reviewed_product_only_allowlist": {"55": [
+            {"path": "/img/a.jpg", "sha256": digest(good), **entry},
+            {"path": "/img/b.jpg", "sha256": digest(good), **entry}]}}
+        cdn = daily.DAISO_CDN
+        payloads = {cdn + "/img/a.jpg": good, cdn + "/img/b.jpg": changed, cdn + "/img/c.jpg": unlisted}
+
+        class Response:
+            def __init__(self, data):
+                self.data = data
+            def read(self):
+                return self.data
+            def __enter__(self):
+                return self
+            def __exit__(self, *args):
+                return False
+        opened, selected = [], []
+        def fake_open(request, timeout=0):
+            opened.append(request.full_url)
+            return Response(payloads[request.full_url])
+        def fake_select(blobs):
+            selected.append(list(blobs))
+            return list(blobs), []
+        product = {"pdNo": "55", "pdImgUrl": "/img/a.jpg", "pdImgUrlList": ["/img/a.jpg", "/img/b.jpg", "/img/c.jpg"]}
+        with patch.object(daily, "IMAGE_POLICY", policy), patch.object(daily.urllib.request, "urlopen", fake_open), \
+             patch.object(daiso_images, "select_images", fake_select):
+            out = daily.prepare_images(product, None)
+        self.assertEqual(out["source_urls"], [cdn + "/img/a.jpg"])
+        self.assertEqual(selected, [[(cdn + "/img/a.jpg", good)]])  # 얼굴 검증 단계는 허용된 이미지에도 그대로 거친다
+        reasons = {d["url"]: d["reason"] for d in out["skipped"]}
+        self.assertEqual(reasons[cdn + "/img/b.jpg"], "reviewed_image_hash_mismatch")
+        self.assertEqual(reasons[cdn + "/img/c.jpg"], "not_in_reviewed_product_only_allowlist")
+        self.assertNotIn(cdn + "/img/c.jpg", opened)  # 허용 목록 밖은 내려받지도 않는다
+        # 얼굴 검증이 거부하면 허용 목록에 있어도 쓰지 않는다
+        with patch.object(daily, "IMAGE_POLICY", policy), patch.object(daily.urllib.request, "urlopen", fake_open), \
+             patch.object(daiso_images, "select_images", lambda blobs: ([], [{"url": blobs[0][0], "reason": "face_detected:1"}])):
+            vetoed = daily.prepare_images(product, None)
+        self.assertEqual(vetoed["source_urls"], [])
+        self.assertIn("face_detected:1", [d["reason"] for d in vetoed["skipped"]])
+        # 허용 목록이 비어 있으면 어떤 이미지도 쓰지 않고 내려받지도 않는다
+        opened.clear()
+        with patch.object(daily, "IMAGE_POLICY", {"reviewed_product_only_allowlist": {}}), \
+             patch.object(daily.urllib.request, "urlopen", fake_open):
+            empty = daily.prepare_images(product, None)
+        self.assertEqual((empty["source_urls"], opened), ([], []))
+        self.assertTrue(all(d["reason"] == "not_in_reviewed_product_only_allowlist" for d in empty["skipped"]))
+
+    def test_allowlisted_paths_are_fetched_even_when_not_advertised_with_hash_and_face_veto(self):
+        import hashlib
+        import daiso_images
+        cdn = daily.DAISO_CDN
+        thumb2, thumb3, raw = b"thumb-00-02", b"thumb-00-03", b"raw-advertised"
+        reviewer = "Aside automated visual inspection (not human approval)"
+        entry = lambda path, data: {"path": path, "sha256": hashlib.sha256(data).hexdigest(),  # noqa: E731
+                                    "reviewed_by": reviewer, "reviewed_at": "2026-10-11"}
+        policy = {"reviewed_product_only_allowlist": {"77": [entry("/t/850_00_02.jpg", thumb2), entry("/t/850_00_03.jpg", thumb3)]}}
+        payloads = {cdn + "/t/850_00_02.jpg": thumb2, cdn + "/t/850_00_03.jpg": thumb3, cdn + "/r/raw_00_01.jpg": raw}
+
+        class Response:
+            def __init__(self, data):
+                self.data = data
+            def read(self):
+                return self.data
+            def __enter__(self):
+                return self
+            def __exit__(self, *args):
+                return False
+        opened, selected = [], []
+        def fake_open(request, timeout=0):
+            opened.append(request.full_url)
+            return Response(payloads[request.full_url])
+        def fake_select(blobs):
+            selected.append([u for u, _ in blobs])
+            return list(blobs), []
+        product = {"pdNo": "77", "pdImgUrl": "/r/raw_00_01.jpg", "pdImgUrlList": ["/r/raw_00_01.jpg"]}  # 광고는 원본 1장뿐
+        with patch.object(daily, "IMAGE_POLICY", policy), patch.object(daily.urllib.request, "urlopen", fake_open), \
+             patch.object(daiso_images, "select_images", fake_select):
+            out = daily.prepare_images(product, None)
+        self.assertEqual(out["source_urls"], [cdn + "/t/850_00_02.jpg", cdn + "/t/850_00_03.jpg"])
+        self.assertEqual(selected, [out["source_urls"]])  # 얼굴 검증은 허용 목록 이미지에도 그대로
+        self.assertNotIn(cdn + "/r/raw_00_01.jpg", opened)  # 광고됐어도 허용 목록에 없으면 받지 않는다
+        self.assertEqual(out["skipped"], [{"url": cdn + "/r/raw_00_01.jpg", "reason": "not_in_reviewed_product_only_allowlist"}])
+        self.assertEqual(out["total"], 3)
+        # 광고 목록과 허용 목록이 겹치면 한 번만 받는다
+        opened.clear()
+        both = {"pdNo": "77", "pdImgUrl": "/t/850_00_02.jpg", "pdImgUrlList": ["/t/850_00_02.jpg", "/t/850_00_03.jpg"]}
+        with patch.object(daily, "IMAGE_POLICY", policy), patch.object(daily.urllib.request, "urlopen", fake_open), \
+             patch.object(daiso_images, "select_images", fake_select):
+            daily.prepare_images(both, None)
+        self.assertEqual(sorted(opened), sorted(set(opened)))
+        # 해시가 다르면 쓰지 않는다 / YuNet 거부도 유지된다
+        payloads[cdn + "/t/850_00_03.jpg"] = b"swapped"
+        with patch.object(daily, "IMAGE_POLICY", policy), patch.object(daily.urllib.request, "urlopen", fake_open), \
+             patch.object(daiso_images, "select_images", lambda blobs: (list(blobs)[:1], [{"url": "v", "reason": "face_detected:1"}])):
+            out = daily.prepare_images(product, None)
+        self.assertEqual(out["source_urls"], [cdn + "/t/850_00_02.jpg"])
+        self.assertEqual(sorted(d["reason"] for d in out["skipped"]),
+                         ["face_detected:1", "not_in_reviewed_product_only_allowlist", "reviewed_image_hash_mismatch"])
+
+    def _run_main(self, pricing, pick_effect, price_evidence=None, safety=None, safety_files=None):
+        import os
+        candidate = {"pdNo": "123", "pdNm": "본셉 세럼 30 ml", "brndNm": "본셉", "pdPrc": "3000",
+                     "_grade": "S", "_source": "jarvis_s_list"}
+        state = {"status": "DRAFT", "published": False}
+        shop = MagicMock()
+        shop.store = "test.myshopify.com"
+        shop.existing_products.return_value = []
+        shop.exists.return_value = False
+        shop.online_store_publication.return_value = "gid://shopify/Publication/1"
+        def create(item, on_created):
+            prod = {"id": "gid://shopify/Product/123", "handle": "bonsep-serum"}
+            on_created(prod)
+            return prod
+        shop.create.side_effect = create
+        shop.read_product.side_effect = lambda pid, pub: {
+            "id": "gid://shopify/Product/123", "handle": "bonsep-serum", "title": "Bonsep Serum 30 ml",
+            "status": state["status"], "publishedOnPublication": state["published"],
+            "variants": {"nodes": [{"sku": "DS-123-1", "price": f"{pricing['single']['price_usd'] or 0:.2f}"},
+                                    {"sku": "DS-123-2", "price": f"{pricing['pack']['price_usd'] or 0:.2f}"}]},
+            "media": {"nodes": [{"mediaContentType": "IMAGE", "status": "READY"}]}}
+        shop.set_status.side_effect = lambda pid, status: state.update(status=status)
+        shop.publish.side_effect = lambda pid, pub: state.update(published=True)
+        shop.publish_channels.return_value = {}
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root/"data").mkdir()
+            for relative, document in (safety_files or {}).items():
+                target = root/"data/manual"/relative
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(json.dumps(document), encoding="utf-8")
+            safety_fn = REAL_SAFETY if safety_files is not None else (safety or MagicMock(return_value=dict(SAFETY_COVERED)))
+            cwd = os.getcwd()
+            os.chdir(root)
+            safety_patch = patch.object(daily, "manufacturer_safety_record", safety_fn)  # with 중첩 한도(20) 때문에 분리
+            safety_patch.start()
+            try:
+                effect = pick_effect(candidate)
+                with patch.object(daily, "ROOT", root), patch.object(daily, "REGISTRY", root/"data/registry.json"), \
+                     patch.object(daily, "DRY_RUN", False), patch.object(daily, "ONLY", {"skincare"}), \
+                     patch.object(daily, "BACKFILL_BANNER", False), patch.object(daily, "QUARANTINE_BLOCKED_PUBLIC", False), \
+                     patch.object(daily, "Shopify", return_value=shop), \
+                     patch.object(daily, "s_ranked", return_value=[{"pd_no": "123", "grade": "S"}]), \
+                     patch.object(daily, "pick", side_effect=effect), \
+                     patch.object(daily, "gemini_copy", return_value=None), \
+                     patch.object(daily, "fallback_copy", return_value=("Bonsep Serum 30 ml", "<p>Serum.</p>")), \
+                     patch.object(daily, "jarvis_price", return_value={"price_usd": 9.99, "evidence": price_evidence}), \
+                     patch.object(daily, "final_prices", return_value=pricing), \
+                     patch.object(daily, "collect_gosi", return_value={"volume": "30 ml", "gosi_ok": True,
+                                                                        "missing": [], "ingredients": "INCI"}), \
+                     patch.object(daily, "build_us_label", return_value={"html": "<p>INCI.</p>", "reasons": [], "label": {}}), \
+                     patch.object(daily, "canonical_public_gate", return_value={"public_ready": True, "reasons": []}), \
+                     patch.object(daily, "has_claims", return_value=False), \
+                     patch.object(daily, "prepare_images", return_value={"source_urls": ["source"], "resource_urls": ["resource"],
+                                                                        "skipped": []}), \
+                     patch.dict(os.environ, {"SHOPIFY_STORE": "test.myshopify.com", "SHOPIFY_ADMIN_TOKEN": "test"}):
+                    code = daily.main()
+                result = json.loads((root/"out/daiso_daily_beauty_result.json").read_text(encoding="utf-8"))
+                registry_file = root/"data/registry.json"
+                registry = json.loads(registry_file.read_text(encoding="utf-8")) if registry_file.exists() else {"items": []}
+            finally:
+                safety_patch.stop()
+                os.chdir(cwd)
+        return code, result, registry, shop
+
+    def test_loss_making_but_evidenced_s_product_registers_with_warning(self):
+        warnings = ["single:price_at_or_below_breakeven", "pack:margin_below_target:-25.0%<40.0%"]
+        pricing = {"single": {"price_usd": 9.99, "margin_pct": -20.0, "net_profit_usd": -2.0},
+                   "pack": {"ok": True, "price_usd": 16.99, "margin_pct": -25.0, "net_profit_usd": -4.0, "compare_at_usd": 19.98},
+                   "basis": "test", "shop_compare": {}, "evidence": dict(EVIDENCE_OK), "profit_warnings": warnings}
+        code, result, registry, shop = self._run_main(pricing, lambda candidate: [candidate])
+        self.assertEqual(code, 0)
+        record = result["results"][0]
+        self.assertEqual(record["status"], "created")  # 건너뛰기도 초안도 아니다
+        self.assertEqual(record["draft_reasons"], [])
+        self.assertEqual(record["profitability_warnings"], warnings)
+        self.assertEqual(registry["items"][0]["status"], "ACTIVE")
+        self.assertEqual(registry["items"][0]["profitability_warnings"], warnings)
+        shop.set_status.assert_called_with("gid://shopify/Product/123", "ACTIVE")
+
+    # ------------------------------------------------------------------
+    # 제조사 안전성 기록 게이트 (안전 게이트, 마진과 무관)
+    # ------------------------------------------------------------------
+    def _profile_root(self, folder, public=None, private=None, labels=None):
+        root = Path(folder)
+        manual = root/"data/manual"
+        manual.mkdir(parents=True)
+        if public is not None:
+            (manual/"mocra_business.json").write_text(json.dumps(public), encoding="utf-8")
+        if private is not None:
+            (manual/"mocra_profile.json").write_text(private if isinstance(private, str) else json.dumps(private), encoding="utf-8")
+        if labels is not None:
+            (root/"data/daiso_real").mkdir(parents=True)
+            (root/"data/daiso_real/daiso_us_labels.json").write_text(json.dumps(labels), encoding="utf-8")
+        return root
+
+    def test_safety_record_requires_this_pd_no_in_covered_list_per_product(self):
+        reason = "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        public = {"safety_substantiation": {"covered_pd_nos": ["1067498"], "note": "n"}}
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", self._profile_root(folder, public)):
+            covered = REAL_SAFETY("1067498")
+            self.assertTrue(covered["covered"])
+            self.assertIsNone(covered["reason"])
+            self.assertTrue(REAL_SAFETY(1067498)["covered"])  # 숫자 pdNo 도 같은 기록
+            other = REAL_SAFETY("1059834")  # 다른 상품은 이 상품의 기록으로 덮이지 않는다
+            self.assertFalse(other["covered"])
+            self.assertEqual(other["reason"], reason)
+
+    def test_safety_record_ignores_deferred_plans_and_label_evidence(self):
+        labels = {"1067498": {"product_safety_evidence": {"human_approved": True, "source_type": "manufacturer_product_safety",
+                                                           "product_id": "1067498", "note": "obtain docs after first sale"}}}
+        public = {"safety_substantiation": {"covered_pd_nos": [], "note": "plan only"}}
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", self._profile_root(folder, public, labels=labels)):
+            result = REAL_SAFETY("1067498")
+        self.assertFalse(result["covered"])
+        self.assertTrue(result["reason"].startswith("manufacturer_safety_record_missing:"))
+
+    def test_safety_record_private_overlay_wins_and_is_never_exposed(self):
+        public = {"safety_substantiation": {"covered_pd_nos": ["1"]}}
+        secret = "PRIVATE-CONTACT-DO-NOT-LEAK"
+        private = {"owner_note": secret, "safety_substantiation": {"covered_pd_nos": ["2"]}}
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", self._profile_root(folder, public, private)):
+            added, replaced = REAL_SAFETY("2"), REAL_SAFETY("1")
+        self.assertTrue(added["covered"])  # 비공개가 공개 위에 엹힌다
+        self.assertFalse(replaced["covered"])  # 같은 키는 비공개가 이긴다 (build_mocra_readiness 와 같은 규칙)
+        self.assertNotIn(secret, json.dumps([added, replaced]))
+        self.assertEqual(added["private_profile"], "present")
+
+    def test_safety_record_fails_closed_on_unreadable_or_malformed_profile(self):
+        good = {"safety_substantiation": {"covered_pd_nos": ["1"]}}
+        cases = {
+            "public missing": (None, None, "profile_unreadable"),
+            "public not an object": ([], None, "profile_unreadable"),
+            "private unparseable": (good, "{broken", "profile_unreadable"),
+            "no substantiation block": ({"role": "reseller"}, None, "safety_substantiation_malformed"),
+            "covered not a list": ({"safety_substantiation": {"covered_pd_nos": "1"}}, None, "safety_substantiation_malformed"),
+        }
+        for label, (public, private, reason) in cases.items():
+            with self.subTest(case=label), tempfile.TemporaryDirectory() as folder, \
+                 patch.object(daily, "ROOT", self._profile_root(folder, public, private)):
+                result = REAL_SAFETY("1")
+                self.assertFalse(result["covered"])
+                self.assertEqual(result["reason"], "manufacturer_safety_record_missing:" + reason)
+
+    def _ok_pricing(self):
+        return {"single": {"price_usd": 9.99, "margin_pct": -20.0, "net_profit_usd": -2.0},
+                "pack": {"ok": True, "price_usd": 16.99, "margin_pct": -25.0, "net_profit_usd": -4.0, "compare_at_usd": 19.98},
+                "basis": "test", "shop_compare": {}, "evidence": dict(EVIDENCE_OK)}
+
+    def test_registration_runs_only_for_a_covered_product(self):
+        covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}}
+        code, result, registry, shop = self._run_main(self._ok_pricing(), lambda c: [c], safety_files=covered)
+        self.assertEqual(code, 0)
+        self.assertEqual(result["results"][0]["status"], "created")
+        shop.create.assert_called_once()
+
+    def test_registration_fails_closed_before_creation_when_record_absent_or_deferred(self):
+        for label, files in (("empty list", {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": []}}}),
+                             ("other product only", {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["999"]}}}),
+                             ("no profile", {})):
+            with self.subTest(case=label):
+                code, result, registry, shop = self._run_main(self._ok_pricing(), lambda c: [c, None], safety_files=files)
+                record = result["results"][0]
+                self.assertEqual(record["status"], "skipped_no_eligible_s_grade")
+                self.assertTrue(record["safety_excluded"][0]["reason"].startswith("manufacturer_safety_record_missing:"))
+                self.assertEqual(record["safety_excluded"][0]["pd_no"], "123")
+                shop.create.assert_not_called()
+                shop.set_status.assert_not_called()
+                shop.publish.assert_not_called()
+                self.assertEqual(registry["items"], [])
+
+    def test_uncovered_product_does_not_block_a_covered_one(self):
+        covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}}
+        code, result, registry, shop = self._run_main(
+            self._ok_pricing(), lambda c: [{**c, "pdNo": "999", "pdNm": "다른 세럼 30 ml"}, c], safety_files=covered)
+        self.assertEqual(code, 0)
+        record = result["results"][0]
+        self.assertEqual(record["status"], "created")
+        self.assertEqual(record["daiso_pdNo"], "123")
+        shop.create.assert_called_once()
+
+    def test_coverage_lost_before_create_blocks_creation_and_before_publish_keeps_draft(self):
+        lost = {"pd_no": "123", "covered": False, "reason": "manufacturer_safety_record_missing:test"}
+        code, result, registry, shop = self._run_main(
+            self._ok_pricing(), lambda c: [c], safety=MagicMock(side_effect=[dict(SAFETY_COVERED), lost]))
+        record = result["results"][0]
+        self.assertEqual(record["status"], "blocked_manufacturer_safety_record_missing")
+        shop.create.assert_not_called()
+        code, result, registry, shop = self._run_main(
+            self._ok_pricing(), lambda c: [c], safety=MagicMock(side_effect=[dict(SAFETY_COVERED), dict(SAFETY_COVERED), lost]))
+        record = result["results"][0]
+        self.assertEqual(record["status"], "created_draft")
+        self.assertIn("manufacturer_safety_record_missing:test", record["draft_reasons"])
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+
+    def test_serp_evidence_is_a_reference_basis_never_a_market_minimum_claim(self):
+        none = {"lowest_usd": None, "matches": []}
+        pr = self._final(none, 18.99, self._serp_evidence())
+        self.assertEqual(pr["evidence"]["detail"]["price_claim"], "reference_price_basis_only_not_market_minimum")
+        self.assertIn("시장 최저가 아님", pr["basis"])
+        shop = {"lowest_usd": 6.5, "match_count": 3, "matches": [{"title": "Test Serum 50 ml", "usd": 6.5}]}
+        verified = self._final(shop)
+        self.assertEqual(verified["evidence"]["detail"]["price_claim"], "undercuts_lowest_verified_same_item_comparator")
+        # 검증에서 탈락한 shop.com 최저가는 장부에 최저가로 남기지 않는다 (SerpApi 가격이 채택된 경우)
+        rejected_shop = {"lowest_usd": 6.5, "match_count": 1, "matches": [{"title": "Test Serum 100 ml", "usd": 6.5}]}
+        pricing = {**self._ok_pricing(), "shop_compare": rejected_shop,
+                   "evidence": {"ok": True, "source": "serpapi_google_shopping", "reasons": [],
+                                "detail": {"price_claim": "reference_price_basis_only_not_market_minimum"}}}
+        code, result, registry, _ = self._run_main(pricing, lambda c: [c])
+        entry = registry["items"][0]
+        self.assertIsNone(entry["shop_com_lowest_usd"])
+        self.assertEqual(entry["price_position"], "no_comparison")
+        self.assertEqual(entry["price_claim"], "reference_price_basis_only_not_market_minimum")
+        pricing["evidence"] = {"ok": True, "source": "shop_com_live_comparable", "reasons": [],
+                               "detail": {"price_claim": "undercuts_lowest_verified_same_item_comparator"}}
+        code, result, registry, _ = self._run_main(pricing, lambda c: [c])
+        self.assertEqual(registry["items"][0]["shop_com_lowest_usd"], 6.5)
+
+    # ------------------------------------------------------------------
+    # 상업 우선순위 (build_beauty_price_strategy, 오프라인) - 순서만 바꾸고 게이트·등급은 건드리지 않는다
+    # ------------------------------------------------------------------
+    def _priority_root(self, folder, market_hours=1.0, config=True, market=True, own_hours=1.0):
+        """S 두 개(S1 점수 90, S2 점수 86)와 검증된 가격 우위를 가질 수 있는 S2, A 하나(A1 점수 99)를 만든다."""
+        root = Path(folder)
+        data = root/"data"
+        stamp = lambda hours: (datetime.now(timezone.utc) - timedelta(hours=hours)).isoformat()  # noqa: E731
+        def row(pd, name, grade, score, **extra):
+            base = {"pd_no": pd, "name": name, "bucket": "스킨케어", "grade": grade, "shopify_score": score, "price_krw": 5000,
+                    "s_rule": "strong_form" if grade == "S" else "score_below_82",
+                    "best_global_match": {"channel": "x", "similarity": 0.7, "matched_tokens": ["serum"]},
+                    "score_breakdown": {"penalty": 0}, "canonical_product_id": "CP" + pd}
+            base.update(extra)
+            return base
+        def write(rel, value):
+            target = data/rel
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(json.dumps(value), encoding="utf-8")
+        write("daiso_real/shopify_demand_score.json", {"generated_at": stamp(0), "s_slot_limit": 10, "s_slot_open": 8, "all_scored": [
+            row("S1", "테스트 세럼 30 ml", "S", 90, s_rank=1), row("S2", "테스트 앩플 30 ml", "S", 86, s_rank=2),
+            row("A1", "테스트 크림 30 ml", "A", 99)]})
+        # TEST FIXTURE ONLY: an independently timed own-price observation, never a date-only production backfill.
+        write("shopify_daily_registry.json", {"snapshot_at": stamp(own_hours) if own_hours is not None else None, "items": [
+            {"pd_no": "S2", "status": "ACTIVE", "title": "Acme Glow Ampoule 30 ml", "single_usd": 10.0, "date": "2026-10-10"},
+            {"pd_no": "A1", "status": "ACTIVE", "title": "Acme Glow Cream 30 ml", "single_usd": 1.0, "date": "2026-10-10"}]})
+        write("daiso_real/candidate_comparison.json", {"excluded_market_sources": {}})
+        write("pricing_model.json", {"exchange_rate": {"usd_to_krw": 1341.69},
+                                 "cost_basis": {"payment_fee": "Shopify 3.9% + 3.5% = 7.4%"}, "scenarios": {}})
+        write("daiso_real/profitability_rule.json", {"min_margin_pct": 15.0, "min_net_profit_usd": 1.5})
+        if market:
+            def item(title, price, ship):
+                return {"product_id": "id-" + title[:8], "product": title, "brand": "Acme", "price_usd": price,
+                        "currency": "USD", "is_soldout": False, "shipping_usd": ship}
+            write("oliveyoung_us_products.json", {"collected_at": stamp(market_hours), "is_stale": False, "products": [
+                item("Acme Glow Ampoule 1.01 fl. oz.(30ml)", 30.0, 0.0), item("Acme Glow Cream 30ml", 30.0, 0.0)]})
+        if config is True:
+            (root/"config").mkdir()
+            (root/"config/daiso_commerce_strategy.json").write_text(
+                (SCRIPT.parents[1]/"config/daiso_commerce_strategy.json").read_text(encoding="utf-8"), encoding="utf-8")
+        elif isinstance(config, str):
+            (root/"config").mkdir()
+            (root/"config/daiso_commerce_strategy.json").write_text(config, encoding="utf-8")
+        return root
+
+    def _ranked(self, root, shipping="3.0"):
+        import os
+        env = {"OWN_SHIPPING_USD": shipping} if shipping is not None else {}
+        with patch.object(daily, "ROOT", root), patch.dict(os.environ, env):
+            if shipping is None:
+                os.environ.pop("OWN_SHIPPING_USD", None)
+            return daily.s_ranked(daily.CATEGORIES[0])
+
+    def test_verified_price_advantage_ranks_s_first_with_transparent_components(self):
+        with tempfile.TemporaryDirectory() as folder:
+            rows = self._ranked(self._priority_root(folder))
+        self.assertEqual([r["pd_no"] for r in rows], ["S2", "S1"])  # 정본 순서는 S1(90) -> S2(86)
+        top, other = rows[0]["_priority"], rows[1]["_priority"]
+        self.assertEqual(top["status"], "live_strategy")
+        self.assertEqual(top["evidence_status"], "verified_price_advantage")
+        self.assertTrue(top["price_position_verified"])
+        self.assertEqual(top["price_position"], "verified_below")
+        self.assertAlmostEqual(top["components"]["demand_score_x0.6"], 51.6, places=2)
+        self.assertGreater(top["components"]["verified_price_points"], 20)
+        self.assertAlmostEqual(top["score"], top["components"]["demand_score_x0.6"] + top["components"]["verified_price_points"], places=2)
+        self.assertEqual(top["canonical_index"], 1)
+        self.assertIn("0.6*shopify_score", top["formula"])
+        self.assertEqual(other["evidence_status"], "unknown_price_evidence")
+        self.assertEqual(other["components"]["verified_price_points"], 0)
+        self.assertAlmostEqual(other["score"], 54.0, places=2)
+        self.assertTrue(all(r["grade"] == "S" for r in rows))
+
+    def test_a_grade_is_never_upgraded_or_added_by_a_price_advantage(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = self._priority_root(folder)
+            rows = self._ranked(root)
+            import os
+            with patch.object(daily, "ROOT", root), patch.dict(os.environ, {"OWN_SHIPPING_USD": "3.0"}):
+                report_priority = daily.live_s_priority()
+        # A1 도 검증된 가격 우위가 있지만(점수 99) 후보가 되거나 S 로 승격되지 않는다
+        self.assertEqual(report_priority["by_pd"]["A1"]["price_position"], "verified_below")
+        self.assertNotIn("A1", [r["pd_no"] for r in rows])
+        self.assertTrue(all(r["grade"] == "S" for r in rows))
+        # 등급은 정본 점수표가 정한다: 전략 리포트가 등급을 바꾸면 정본 순서로 되돌아간다
+        with tempfile.TemporaryDirectory() as folder3:
+            root = self._priority_root(folder3)
+            import build_beauty_price_strategy as bps
+            real_build = bps.build_strategy
+            def upgrade(*args, **kwargs):
+                report = real_build(*args, **kwargs)
+                for prod in report["products"]:
+                    if prod["pd_no"] == "A1":
+                        prod["grade"] = "S"
+                return report
+            with patch.object(bps, "build_strategy", upgrade), patch.object(daily, "ROOT", root):
+                fallback = daily.live_s_priority()
+            self.assertEqual(fallback["status"], "fallback_canonical_order")
+            self.assertEqual(fallback["reason"], "strategy_grade_differs_from_canonical")
+            self.assertEqual(fallback["by_pd"], {})
+
+    def test_unknown_stale_or_unshipped_evidence_earns_no_price_points(self):
+        with tempfile.TemporaryDirectory() as folder:
+            stale = self._ranked(self._priority_root(folder, market_hours=24 * 30))
+        with tempfile.TemporaryDirectory() as folder:
+            no_shipping = self._ranked(self._priority_root(folder), shipping=None)
+        with tempfile.TemporaryDirectory() as folder:
+            no_market = self._ranked(self._priority_root(folder, market=False))
+        with tempfile.TemporaryDirectory() as folder:
+            stale_own = self._ranked(self._priority_root(folder, own_hours=30.0))
+        with tempfile.TemporaryDirectory() as folder:
+            missing_own_clock = self._ranked(self._priority_root(folder, own_hours=None))
+        for label, rows in ("stale", stale), ("own shipping unknown", no_shipping), ("no market", no_market), ("own price stale", stale_own), ("own price observation missing", missing_own_clock):
+            with self.subTest(case=label):
+                self.assertEqual([r["pd_no"] for r in rows], ["S1", "S2"])  # 정본 순서 유지
+                for r in rows:
+                    self.assertEqual(r["_priority"]["components"]["verified_price_points"], 0)
+                    self.assertFalse(r["_priority"]["price_position_verified"])
+                    self.assertNotEqual(r["_priority"]["evidence_status"], "verified_price_advantage")
+                    self.assertAlmostEqual(r["_priority"]["score"], r["shopify_score"] * 0.6, places=2)
+        # 배송비를 모르면 포지션은 provisional 이고 점수에 세지 않는다
+        s2 = next(r for r in no_shipping if r["pd_no"] == "S2")["_priority"]
+        self.assertEqual(s2["evidence_status"], "provisional_not_counted")
+        self.assertGreater(s2["components"]["provisional_price_points_not_counted"], 0)
+
+    def test_bad_strategy_or_inputs_fall_back_to_canonical_order_without_fake_scores(self):
+        import build_beauty_price_strategy as bps
+        cases = {
+            "malformed config": (dict(config="{not json"), "strategy_config_missing_invalid_or_mismatched"),
+            "missing config": (dict(config=False), "strategy_config_missing_invalid_or_mismatched"),
+            "policy id mismatch": (dict(config=json.dumps({**json.loads((SCRIPT.parents[1]/"config/daiso_commerce_strategy.json")
+                                                                       .read_text(encoding="utf-8")), "policy_id": "other"})),
+                                   "strategy_config_missing_invalid_or_mismatched"),
+        }
+        for label, (kwargs, reason) in cases.items():
+            with self.subTest(case=label), tempfile.TemporaryDirectory() as folder:
+                rows = self._ranked(self._priority_root(folder, **kwargs))
+                self.assertEqual([r["pd_no"] for r in rows], ["S1", "S2"])
+                for r in rows:
+                    meta = r["_priority"]
+                    self.assertEqual(meta["status"], "fallback_canonical_order")
+                    self.assertEqual(meta["reason"], reason)
+                    self.assertIsNone(meta["score"])
+                    self.assertIsNone(meta["components"])
+        # 계산 중 예외 / 비정상 리포트
+        broken = {
+            "builder raises": (RuntimeError("boom"), "strategy_error:RuntimeError"),
+            "unsafe policy flags": ("flags", "strategy_policy_flags_unsafe"),
+            "grade changes reported": ("changes", "strategy_changed_grades"),
+        }
+        for label, (effect, reason) in broken.items():
+            with self.subTest(case=label), tempfile.TemporaryDirectory() as folder:
+                root = self._priority_root(folder)
+                real_build = bps.build_strategy
+                def fake(*args, _effect=effect, **kwargs):
+                    if isinstance(_effect, Exception):
+                        raise _effect
+                    report = real_build(*args, **kwargs)
+                    if _effect == "flags":
+                        report["policy"]["network_calls"] = True
+                    else:
+                        report["s_preservation"]["grade_changes"] = ["S1"]
+                    return report
+                with patch.object(bps, "build_strategy", fake):
+                    rows = self._ranked(root)
+                self.assertEqual([r["pd_no"] for r in rows], ["S1", "S2"])
+                self.assertTrue(all(r["_priority"]["status"] == "fallback_canonical_order" and r["_priority"]["score"] is None
+                                    and r["_priority"]["reason"] == reason for r in rows))
+        # 정본 점수표가 깨지면 순서를 지어내지 않고 오류로 멈춘다
+        with tempfile.TemporaryDirectory() as folder:
+            root = self._priority_root(folder)
+            (root/"data/daiso_real/shopify_demand_score.json").write_text("{broken", encoding="utf-8")
+            with self.assertRaises(json.JSONDecodeError):
+                self._ranked(root)
+
+    def test_priority_is_offline_and_only_reorders_never_adds_or_removes(self):
+        import socket
+        import urllib.request
+        with tempfile.TemporaryDirectory() as folder:
+            root = self._priority_root(folder)
+            with patch.object(socket.socket, "connect", side_effect=AssertionError("network used")), \
+                 patch.object(urllib.request, "urlopen", side_effect=AssertionError("network used")):
+                rows = self._ranked(root)
+            canonical_ids = ["S1", "S2"]
+            self.assertEqual(sorted(r["pd_no"] for r in rows), canonical_ids)
+            self.assertEqual(rows[0]["_priority"]["status"], "live_strategy")
+        # pick 은 우선순위 메타를 상품에 실어 기록하고, 상품 조회·판매 가능·중복 검사는 그대로 거친다
+        lookup = lambda pd: {"pdNo": pd, "pdNm": "Product " + pd, "pdPrc": "3000", "soldOutYn": "N",  # noqa: E731
+                             "exhYn": "Y", "onlStckQy": 1, "pdImgUrl": "/x"}
+        with patch.object(daily, "daiso_lookup", side_effect=lookup):
+            picked = daily.pick(daily.CATEGORIES[0], None, set(), {"S2"}, {"items": []}, rows)  # 중복이면 다음 후보
+        self.assertEqual(picked["pdNo"], "S1")
+        self.assertEqual(picked["_priority"]["status"], "live_strategy")
+        self.assertEqual(picked["_priority"]["canonical_index"], 0)
+
+    def test_missing_price_evidence_still_skips_the_candidate(self):
+        pricing = {"single": {"price_usd": None}, "pack": {"ok": False, "price_usd": None}, "basis": "근거 없음",
+                   "shop_compare": {}, "evidence": {"ok": False, "reasons": ["price_evidence_missing"]}}
+        code, result, registry, shop = self._run_main(pricing, lambda candidate: [candidate, None])
+        self.assertEqual(code, 0)
+        record = result["results"][0]
+        self.assertEqual(record["status"], "skipped_no_eligible_s_grade")
+        self.assertTrue(record["price_excluded"][0]["reason"].startswith("price_evidence_invalid:price_evidence_missing"))
+        shop.create.assert_not_called()
+        self.assertEqual(registry["items"], [])
 
     def test_banner_exact_prefix(self):
         self.assertEqual(daily.TAGLINE_HTML, "<p><strong>한국여성들이 즐겨찾는 제품</strong></p>")

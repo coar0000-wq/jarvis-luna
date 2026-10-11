@@ -30,6 +30,8 @@ DATA = ROOT / "data"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
+import manufacturer_safety  # noqa: E402
+import pricing_model  # noqa: E402
 import typesafe_decision_support  # noqa: E402
 
 RECOMMENDATIONS = DATA / "daiso_real" / "shopify_s_recommendations.json"
@@ -134,7 +136,31 @@ def _real(text: Any) -> bool:
     return True
 
 
+def _profit_warnings(price: dict[str, Any], strategy: dict[str, Any]) -> list[str]:
+    """마진 경고 (공개용). 게이트 차단 사유가 아니다 (2026-10-11 사용자 승인: 가격/마진 하드블록 제거).
+
+    pricing_model.json 이 경고를 이미 계산했으면 그것을 쓰고, 없으면 있는 수치로만 판단한다.
+    수치가 없으면 지어내지 않고 'profit_unknown' 을 남긴다."""
+    given = price.get("profit_warnings")
+    if isinstance(given, list):
+        return [str(w) for w in given]
+    adv = strategy["price_policy"]["margin_advisory"]
+    margin, net = price.get("margin_pct"), price.get("net_profit_usd")
+    if isinstance(margin, bool) or not isinstance(margin, (int, float)):
+        return ["profit_unknown"]
+    warnings: list[str] = []
+    if isinstance(net, (int, float)) and not isinstance(net, bool) and net <= 0:
+        warnings.append("price_at_or_below_breakeven")
+    if margin < adv["minimum_margin"] * 100:
+        warnings.append(f"margin_below_minimum:{margin}%<{adv['minimum_margin'] * 100:.1f}%")
+    if margin < adv["target_margin"] * 100:
+        warnings.append(f"margin_below_target:{margin}%<{adv['target_margin'] * 100:.1f}%")
+    return warnings
+
+
 def main() -> int:
+    strategy = pricing_model.load_commerce_strategy()
+    gate_now = datetime.now(timezone.utc)
     recommendation_doc = load_json(RECOMMENDATIONS, {})
     copy_doc = load_json(COPY, {})
     pricing_doc = load_json(PRICING, {})
@@ -211,6 +237,7 @@ def main() -> int:
         "us_label": 0,
         "price": 0,
         "legal": 0,
+        "manufacturer_safety_record": 0,
     }
 
     for rank, product in enumerate(recommendations, start=1):
@@ -249,13 +276,23 @@ def main() -> int:
             and _real(label.get("country_of_origin"))
         )
 
-        has_price = bool(
-            price.get("price_usd")
-            and float(price.get("price_usd", 0)) > 0
-            and not price.get("register_blocked", False)
-        )
+        # 가격 게이트 = 유효한 가격 + 신선하고 용량이 맞는 상품 수준 가격 근거.
+        # 마진·손익분기 미달은 더 이상 차단 사유가 아니다(경고로만 공개).
+        price_value = price.get("price_usd")
+        price_valid = (isinstance(price_value, (int, float)) and not isinstance(price_value, bool)
+                       and price_value == price_value and price_value > 0)
+        evidence_check = pricing_model.assess_price_evidence(
+            price.get("price_evidence"), [price.get("name"), product.get("name")],
+            now=gate_now, strategy=strategy)
+        has_price = bool(price_valid and not price.get("register_blocked", False)
+                         and evidence_check["ok"])
+        profit_warnings = _profit_warnings(price, strategy) if price else ["profit_unknown"]
         hard_legal_block = bool(legal.get("hard_block"))
         has_legal = bool(legal) and not hard_legal_block
+
+        # 제조사 안전성 기록 (안전 게이트, 마진과 무관). daily 등록기와 같은 함수를 상품마다 부른다.
+        safety = manufacturer_safety.manufacturer_safety_record(pd_no, ROOT)
+        has_safety = safety["covered"] is True
 
         agent_blocked_by: list[str] = []
         if not has_ontology:
@@ -268,6 +305,8 @@ def main() -> int:
             agent_blocked_by.append("price")
         if not has_legal:
             agent_blocked_by.append("legal")
+        if not has_safety:
+            agent_blocked_by.append(manufacturer_safety.SAFETY_MISSING)
 
         blocked_by: list[str] = []
         if not has_ontology:
@@ -288,6 +327,9 @@ def main() -> int:
         if not has_legal:
             blocked_by.append("legal")
             blocker_counts["legal"] += 1
+        if not has_safety:
+            blocked_by.append(manufacturer_safety.SAFETY_MISSING)
+            blocker_counts["manufacturer_safety_record"] += 1
 
         public_blocked_by = list(blocked_by)
         if not legal_full.get("complete"):
@@ -366,12 +408,19 @@ def main() -> int:
                 "price_usd": price.get("price_usd"),
                 "margin_pct": price.get("margin_pct"),
                 "register_blocked": bool(price.get("register_blocked", False)),
+                "price_evidence_ok": bool(evidence_check["ok"]),
+                "price_evidence_source": evidence_check["source"],
+                "price_evidence_reasons": evidence_check["reasons"],
+                "profit_warnings": profit_warnings,
+                "blocks_registration": False,
             },
             "legal": {
                 "status": legal.get("status", "missing"),
                 "hard_block": hard_legal_block,
                 "hard_block_reason": legal.get("hard_block_reason", ""),
             },
+            # 공개 투영용: 덮임 여부와 사유 코드만. 비공개 프로필 값은 싣지 않는다.
+            "manufacturer_safety_record": manufacturer_safety.public_view(safety),
             "agent_ready": not agent_blocked_by,
             "agent_blocked_by": agent_blocked_by,
             "ready": not blocked_by,
@@ -469,9 +518,20 @@ def main() -> int:
             "us_label": total - blocker_counts["us_label"],
             "price": total - blocker_counts["price"],
             "legal": total - blocker_counts["legal"],
+            "manufacturer_safety_record": total - blocker_counts["manufacturer_safety_record"],
             "legal_full": sum(1 for row in results if row["legal_full_complete"]),
         },
         "blockers": {key: value for key, value in blocker_counts.items() if value},
+        "price_policy": {
+            "mode": strategy["price_policy"]["mode"],
+            "strategy_file": "config/daiso_commerce_strategy.json",
+            "strategy_sha256": strategy["_sha256"],
+            "margin_hard_block": False,
+            "products_with_profit_warnings": sum(
+                1 for row in results if (row.get("price") or {}).get("profit_warnings")),
+            "note": ("price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. "
+                     "마진 미달은 items[].price.profit_warnings 로 공개한다."),
+        },
         "typesafe_summary": typesafe_summary,
         "count": total,
         "note": (

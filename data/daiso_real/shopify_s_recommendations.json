@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:57:01.469288+00:00",
+  "generated_at": "2026-10-11T07:21:20.288645+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -29,13 +29,19 @@
         ],
         "match_score": 0.525
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -45,21 +51,20 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 2,
@@ -85,13 +90,19 @@
         ],
         "match_score": 0.44
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -101,21 +112,20 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 3,
@@ -144,14 +154,20 @@
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
-        "legal"
+        "price",
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
-        "legal"
+        "price",
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "price",
         "legal",
+        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "typesafe": {
@@ -164,22 +180,23 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 5,
+        "risk_points": 7,
         "team_routes": [
-          "legal"
+          "legal",
+          "pricing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: legal",
-          "public blockers: legal, legal_full",
+          "draft blockers: price, legal, manufacturer_safety_record_missing",
+          "public blockers: price, legal, manufacturer_safety_record_missing, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 4,
@@ -205,13 +222,19 @@
         ],
         "match_score": 0.531
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -221,21 +244,20 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 5,
@@ -261,13 +283,19 @@
         ],
         "match_score": 0.34
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -277,21 +305,20 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 6,
@@ -317,13 +344,22 @@
         ],
         "match_score": 0.404
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -333,21 +369,22 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
+        "risk_level": "high",
+        "risk_points": 2,
         "team_routes": [
-          "listing"
+          "pricing"
         ],
-        "model_route": "local",
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: price, manufacturer_safety_record_missing",
+          "public blockers: price, manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 7,
@@ -373,13 +410,22 @@
         ],
         "match_score": 0.315
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -389,21 +435,22 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
+        "risk_level": "high",
+        "risk_points": 2,
         "team_routes": [
-          "listing"
+          "pricing"
         ],
-        "model_route": "local",
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: price, manufacturer_safety_record_missing",
+          "public blockers: price, manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 8,
@@ -429,13 +476,19 @@
         ],
         "match_score": 0.528
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -445,21 +498,20 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 9,
@@ -490,55 +542,54 @@
       "agent_ready": false,
       "agent_blocked_by": [
         "us_label",
-        "legal"
+        "price",
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
         "copy",
         "us_label",
-        "legal"
+        "price",
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
         "us_label",
+        "price",
         "legal",
+        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
-        "enabled": true,
-        "mode": "typesafe_carried",
-        "source": "typesafe",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 7,
+        "risk_points": 9,
         "team_routes": [
           "legal",
+          "pricing",
           "listing"
         ],
         "model_route": "human",
-        "model_route_confidence": 0.88,
+        "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, us_label, legal",
-          "public blockers: copy, us_label, legal, legal_full",
-          "legal hard block"
+          "draft blockers: copy, us_label, price, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
         ],
-        "confidence": 0.9,
-        "usage": {
-          "input_tokens": 1113,
-          "output_tokens": 198
-        },
-        "free_credits_only": true,
-        "risk_score": 2.69,
-        "model": "jev-1.13.0",
-        "state_signature": "0c90ca404d04cdcca7369a3ae60ef51d5ea1a188472d4e2d7862f0e6e2f76e0c",
-        "decided_at": "2026-10-03T11:53:16.088460+00:00",
-        "carried_from": "2026-10-03T11:53:16.088460+00:00"
+        "confidence": null,
+        "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     },
     {
       "rank": 10,
@@ -564,13 +615,22 @@
         ],
         "match_score": 0.408
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
+      "blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "price",
+        "manufacturer_safety_record_missing"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -580,24 +640,25 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
+        "risk_level": "high",
+        "risk_points": 3,
         "team_routes": [
-          "listing"
+          "pricing"
         ],
-        "model_route": "local",
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: price, manufacturer_safety_record_missing",
+          "public blockers: price, manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T01:57:02.112495+00:00"
+      "gate_generated_at": "2026-10-11T07:21:23.461228+00:00"
     }
   ],
-  "agent_ready_count": 8,
-  "registerable_count": 8,
+  "agent_ready_count": 0,
+  "registerable_count": 0,
   "registerable_source": "data/listing_gate.json"
 }

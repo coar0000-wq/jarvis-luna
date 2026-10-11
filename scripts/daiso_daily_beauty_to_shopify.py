@@ -45,6 +45,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import base64
+import hashlib
 import tempfile
 import gate_signature
 from datetime import datetime, timezone
@@ -57,11 +58,17 @@ API_VERSION = os.environ.get("SHOPIFY_API_VERSION", "2025-10")
 
 UA = "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)"
 
+# 판매 전략 정책 (config/daiso_commerce_strategy.json): 3개 카테고리, S등급 전용, 근거 기반 가격,
+# 마진은 경고로만 공개, 이미지는 제품 전용으로 검수 기록이 있는 허용 목록. 파일이 없거나 안전 요건을 푸는 값이면 시작 단계에서 중단한다.
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+import manufacturer_safety  # noqa: E402
+import pricing_model  # noqa: E402
+
+STRATEGY = pricing_model.load_commerce_strategy()
 CATEGORIES = [
     # (태그, 다이소 카테고리명, 다이소 카테고리 번호, Shopify productType)
-    ("skincare", "스킨케어", "BH_CTGR_00002", "Skincare"),
-    ("makeup", "메이크업", "BH_CTGR_00006", "Makeup"),
-    ("body", "바디케어", "BH_CTGR_00012", "Body Care"),
+    (c["tag"], c["daiso_name"], c["daiso_category_no"], c["product_type"]) for c in STRATEGY["categories"]
 ]
 
 BRAND_EN = {
@@ -460,63 +467,37 @@ def gemini_copy(p, cat):
 
 # ---------------------------------------------------------------- JARVIS pricing (원가 + 배송 + 관세 + 수수료)
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "scripts"))
-TARGET_MARGIN = float(os.environ.get("TARGET_MARGIN", "0.40"))  # pricing_model.py 가 지키는 마진 40%
+# 마진은 경고 기준일 뿐 등록 조건이 아니다 (2026-10-11 사용자 승인). 환경변수로 기준값만 바꿀 수 있다.
+_ADVISORY = STRATEGY["price_policy"]["margin_advisory"]
+TARGET_MARGIN = float(os.environ.get("TARGET_MARGIN", str(_ADVISORY["target_margin"])))
 DUTY_MODE = os.environ.get("DUTY_MODE", "ddu")
 
 
-def jarvis_price(pd_no, name, krw):
-    """scripts/pricing_model.py 의 analyze() 로 착지원가를 구하고 마진 40% 가 되는 가격을 잡는다.
+def _evidence_dict(source, median, n, query, collected_at):
+    return {"source": source, "median_usd": median, "sample_n": n, "query": query, "collected_at": collected_at}
 
-    착지원가 = 상품원가 + 우체국 소형포장물 미국행 배송비 + 관세 15% (ddu 기준)
-    수수료   = Shopify 국제 7.4%
-    판매가   = 착지원가 / (1 - 수수료율 - 목표마진), 0.99 로 올림.
-    상품별 미국 실판매가가 data/serpapi_market.json 에 있으면 그 중앙값 95% 를 상한 기준으로 함께 본다.
+
+def jarvis_price(pd_no, name, krw):
+    """상품별 가격 근거(SerpApi 미국 실판매 중앙값)에서 판매가를 만든다. 마진으로 가격을 올리거나 막지 않는다.
+
+    정책: config/daiso_commerce_strategy.json 의 evidence_based_price.
+      - 근거가 있으면 중앙값 x price_factor(95%) 가 판매가다 (pricing_model.evidence_price, offer_for 와 같은 규칙).
+      - 근거가 없거나 신선도·표본·용량 비교를 못 맞추면 price_usd=None 과 사유를 돌려준다. 가격을 지어내지 않는다.
+      - 원가+배송+관세+목표마진으로 만든 가격은 가격 근거가 아니다(cost_plus_counts_as_evidence=false).
+    근거의 신선도와 용량 일치는 실행 시각 기준으로 지금 다시 판정한다 (낡은 data/pricing_model.json 을 믿지 않는다).
     """
     import pricing_model as pm  # noqa: PLC0415
 
-    # 이미 JARVIS 가 산출한 권장가가 있으면 그것이 우선이다 (상품별 미국 실판매가 기준).
-    try:
-        offers = json.loads((ROOT / "data/pricing_model.json").read_text(encoding="utf-8"))["offers_by_product"]["single"]
-        hit = next((o for o in offers if str(o.get("pd_no")) == str(pd_no) and not o.get("register_blocked")), None)
-    except (OSError, KeyError, json.JSONDecodeError):
-        hit = None
-    if hit:
-        return {
-            "price_usd": float(hit["price_usd"]),
-            "landed_cost_usd": hit["landed_cost_total_usd"],
-            "fee_usd": hit["fee_usd"],
-            "net_profit_usd": hit["net_profit_usd"],
-            "margin_pct": hit["margin_pct"],
-            "basis": "data/pricing_model.json 권장가 (" + str(hit.get("market_price_source")) + ")",
-        }
-
-    st = json.loads((ROOT / "data/daiso_real/collection_status.json").read_text(encoding="utf-8"))
-    rate = float((st.get("fx") or {}).get("usd_to_krw") or 0)
-    if not rate:
-        raise RuntimeError("환율이 없어 가격을 계산할 수 없다 (임의 환율 사용 금지)")
-    market = pm.market_benchmark() or {"p25": 0, "median": 0}
-    row = pm.analyze({"pd_no": pd_no, "name": name, "price_krw": krw}, rate, 1, market, DUTY_MODE)
-    landed = row["landed_cost_usd"]
-    raw = landed / (1 - pm.PAY_RATE - TARGET_MARGIN)
-    price = pm.psych_price(raw)
-    fee = price * pm.PAY_RATE
-    net = price - landed - fee
-    return {
-        "price_usd": round(price, 2),
-        "landed_cost_usd": landed,
-        "shipping_usd": row["shipping_unit_usd"],
-        "tariff_usd": row["tariff_usd"],
-        "fee_usd": round(fee, 2),
-        "net_profit_usd": round(net, 2),
-        "margin_pct": round(net / price * 100, 1),
-        "breakeven_usd": row["breakeven_usd"],
-        "weight_g": row["weight_g_est"],
-        "weight_source": row["weight_source"],
-        "fx": rate,
-        "duty_mode": DUTY_MODE,
-    }
+    evidence = pm.product_market_evidence(pd_no)
+    verdict = pm.assess_price_evidence(evidence, [name], strategy=STRATEGY)
+    base = {"price_usd": None, "evidence": evidence, "evidence_assessment": verdict,
+            "price_claim": "reference_price_basis_only_not_market_minimum",
+            "basis": "no product-level price evidence" if not evidence else "serpapi_google_shopping x price_factor"}
+    if evidence and verdict["ok"]:
+        base["price_usd"] = float(pm.evidence_price(evidence, 1, 0.0, STRATEGY))
+        base["basis"] = ("data/serpapi_market.json 상품별 미국 실판매 중앙값 x "
+                         f"{STRATEGY['price_policy']['price_evidence']['sources']['serpapi_google_shopping']['price_factor']}")
+    return base
 
 
 # ---------------------------------------------------------------- Gosi (상품정보제공고시) - 상세 이미지 판독
@@ -757,11 +738,8 @@ def build_us_label(pd_no, name_kr, g):
 # 설명란 맨 위에 항상 넣는 문구 (사용자 지시 2026-10-10: "한국 여성들이 즐겨찾는 제품")
 TAGLINE_HTML = "<p><strong>한국여성들이 즐겨찾는 제품</strong></p>"
 
-TAXONOMY = {
-    "skincare": "gid://shopify/TaxonomyCategory/hb-3-2-9",  # Health & Beauty > Personal Care > Cosmetics > Skin Care
-    "makeup": "gid://shopify/TaxonomyCategory/hb-3-2-6",  # ... > Makeup
-    "body": "gid://shopify/TaxonomyCategory/hb-3-2-1",  # ... > Bath & Body
-}
+# skincare hb-3-2-9 (Health & Beauty > Personal Care > Cosmetics > Skin Care), makeup hb-3-2-6, body hb-3-2-1 (Bath & Body)
+TAXONOMY = {c["tag"]: c["shopify_taxonomy"] for c in STRATEGY["categories"]}
 
 # ---------------------------------------------------------------- 1개 / 1+1(2개 세트) - JARVIS 판매 구성 (pricing_model.py)
 
@@ -769,61 +747,66 @@ BUNDLE_QTY = 2
 BUNDLE_DISCOUNT = 0.15  # pricing_model.BUNDLE_DISCOUNT 와 같은 값. 무료배송은 스토어 배송 설정에서 따로 건다.
 
 
-def bundle_offer(pd_no, name, krw, single_price):
-    """JARVIS 권장 세트가(data/pricing_model.json bundle)가 있으면 그것을, 없으면 단품가 x2 x (1-15%) 로 잡고 마진을 검증한다."""
-    import pricing_model as pm  # noqa: PLC0415
+# ---------------------------------------------------------------- 이미지: 제품 전용 검수 허용 목록 + 얼굴 검증 + 정사각 2048
 
-    price = None
-    try:
-        offers = json.loads((ROOT / "data/pricing_model.json").read_text(encoding="utf-8"))["offers_by_product"]["bundle"]
-        hit = next((o for o in offers if str(o.get("pd_no")) == str(pd_no) and not o.get("register_blocked")), None)
-        if hit:
-            price = float(hit["price_usd"])
-    except (OSError, KeyError, json.JSONDecodeError):
-        pass
-    st = json.loads((ROOT / "data/daiso_real/collection_status.json").read_text(encoding="utf-8"))
-    rate = float((st.get("fx") or {}).get("usd_to_krw") or 0)
-    market = pm.market_benchmark() or {"p25": 0, "median": 0}
-    row = pm.analyze({"pd_no": pd_no, "name": name, "price_krw": krw}, rate, BUNDLE_QTY, market, DUTY_MODE)
-    if price is None:
-        price = pm.psych_price(single_price * BUNDLE_QTY * (1 - BUNDLE_DISCOUNT))
-    landed = row["landed_cost_usd"] * BUNDLE_QTY  # 2개를 한 상자로 보내 배송비를 나눈 착지원가
-    fee = price * pm.PAY_RATE
-    net = price - landed - fee
-    return {
-        "price_usd": round(price, 2),
-        "compare_at_usd": round(single_price * BUNDLE_QTY, 2),
-        "landed_cost_usd": round(landed, 2),
-        "net_profit_usd": round(net, 2),
-        "margin_pct": round(net / price * 100, 1),
-        "ok": net > 0 and price > row["breakeven_usd"] * BUNDLE_QTY,
-    }
+IMAGE_POLICY = STRATEGY["image_policy"]
 
 
-# ---------------------------------------------------------------- 이미지: 다이소 이미지 전부 + 사람 얼굴 사진 제외 + 정사각 2048
+def reviewed_image_entries(pd_no, policy=None):
+    """'제품만 나오는 사진' 으로 검수해 허용 목록에 올린 이미지 (다이소 이미지 경로 -> 항목).
+    검수 주체는 항목의 reviewed_by 에 사실대로 적는다. 자동 시각 검사는 그렇게 밝히며 사람의 승인이 아니다."""
+    allow = (policy or IMAGE_POLICY)["reviewed_product_only_allowlist"]
+    return {e["path"]: e for e in (allow.get(str(pd_no)) or [])}
+
+
+def image_path(url):
+    return url[len(DAISO_CDN):] if url.startswith(DAISO_CDN) else url
+
 
 def prepare_images(p, shop):
-    """다이소 상품 이미지를 모두 받아 사람 얼굴이 있는 것만 뺀다(OpenCV YuNet). 대표컷은 깔끔한 제품 컷을 맨 앞으로.
+    """다이소 상품 이미지 중 제품 전용으로 검수 기록이 있는 허용 목록(config/daiso_commerce_strategy.json) 항목만 쓴다.
+    검수 주체(사람/자동 시각 검사)는 reviewed_by 에 그대로 남는다. 여기서 사람의 승인을 주장하지 않는다.
+
+    사람 얼굴 사진은 금지다. 얼굴 검출기(OpenCV YuNet)는 휴리스틱이라 '얼굴이 없다' 를 보장하지 못한다.
+    그래서 결정적 기준은 허용 목록이다: 경로가 목록에 있고, 내려받은 파일의 sha256 이 검수한 값과 같아야 한다.
+    받을 후보 = 상품이 광고한 경로(pdImgUrlList) ∪ 허용 목록 경로. 허용 목록 경로는 광고 목록에 없어도(예: 크기가 다른 원본만
+    광고하는 경우) 정규 다이소 CDN 아래에서 직접 받는다. 허용 목록 밖의 이미지는 내려받지도 올리지도 않는다.
+    허용된 이미지에도 해시 일치와 얼굴 검증(select_images)은 그대로 거친다.
+    사용할 이미지가 하나도 없으면 호출한 쪽이 no_usable_product_images 로 초안에 남긴다.
     모두 2048x2048 정사각 JPEG 로 바꿔 Shopify 에 올린다. 판독 도구가 실패한 이미지는 쓰지 않는다."""
     import daiso_images as di  # noqa: PLC0415
 
-    urls = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])]
-    blobs = []
+    allowed = reviewed_image_entries(p["pdNo"])
+    advertised = [DAISO_CDN + u for u in (p.get("pdImgUrlList") or [p["pdImgUrl"]])]
+    # 광고 경로 + 허용 목록 경로의 합집합 (순서: 광고 순서, 그다음 허용 목록 순서; 중복 제거). 허용 경로는 CDN 고정이다.
+    urls = list(dict.fromkeys(advertised + [DAISO_CDN + path for path in allowed]))
+    dropped, blobs = [], []
     for u in urls:
+        entry = allowed.get(image_path(u))
+        if entry is None:
+            dropped.append({"url": u, "reason": "not_in_reviewed_product_only_allowlist"})
+            continue
         try:
             req = urllib.request.Request(u, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=60) as r:
-                blobs.append((u, r.read()))
+                data = r.read()
         except Exception as exc:  # noqa: BLE001
             log(f"  image download failed: {exc}")
-    kept, dropped = di.select_images(blobs)
+            dropped.append({"url": u, "reason": f"download_failed:{type(exc).__name__}"})
+            continue
+        if hashlib.sha256(data).hexdigest() != entry["sha256"]:
+            dropped.append({"url": u, "reason": "reviewed_image_hash_mismatch"})
+            continue
+        blobs.append((u, data))
+    kept, face_dropped = di.select_images(blobs)
+    dropped.extend(face_dropped)
     resource_urls = []
     if shop is not None and not DRY_RUN:
         for n, (u, data) in enumerate(kept, 1):
             resource_urls.append(shop.upload_jpeg(di.to_square_jpeg(data), f"daiso-{p['pdNo']}-{n}.jpg"))
-    log(f"  images: total {len(urls)}, kept {len(kept)}, dropped {len(dropped)} {[d['reason'] for d in dropped]}")
+    log(f"  images: total {len(urls)}, reviewed {len(blobs)}, kept {len(kept)}, dropped {len(dropped)} {[d['reason'] for d in dropped]}")
     return {"source_urls": [u for u, _ in kept], "resource_urls": resource_urls, "skipped": dropped,
-            "total": len(urls)}
+            "total": len(urls), "reviewed_allowlist_entries": len(allowed)}
 
 
 
@@ -850,7 +833,8 @@ def same_total(a, b, tol=0.05):
 
 # ---------------------------------------------------------------- 가격: 원가+배송+관세+수수료 바닥 + shop.com 최저가 비교
 
-MIN_MARGIN = float(os.environ.get("MIN_MARGIN", "0.30"))  # 이 마진 밑으로는 절대 팔지 않는다 (바닥)
+# 최소 마진은 경고 기준이다. 2026-10-11 사용자 승인으로 더 이상 판매가 바닥이나 등록 차단 조건이 아니다.
+MIN_MARGIN = float(os.environ.get("MIN_MARGIN", str(STRATEGY["price_policy"]["margin_advisory"]["minimum_margin"])))
 _STOP = {"the", "and", "for", "with", "korean", "korea", "new", "set", "of", "by", "ml", "g", "ea", "pcs", "oz", "x"}
 
 
@@ -911,6 +895,7 @@ def shop_compare(title):
         prices = sorted(r["usd"] for r in matches)
     lowest = prices[0] if prices else None
     return {"query": query, "error": data.get("error"), "found": len(data.get("results", [])),
+            "match_count": len(matches),
             "matches": sorted(matches, key=lambda r: r["usd"])[:5], "lowest_usd": lowest}
 
 
@@ -946,52 +931,83 @@ def _landed(pd_no, name, krw, qty):
     return row["landed_cost_usd"] * qty, pm, row
 
 
-def final_prices(pd_no, name_kr, krw, title_en, base_price):
-    """판매가 결정.
-    바닥(floor) = 착지원가(원가+우체국 배송+관세 15%) / (1 - 결제수수료 7.4% - 최소마진)  -> 이 밑으로는 절대 안 판다.
-    shop.com 에 같은 상품이 있으면 그 최저가보다 약간 낮게 맞추되 바닥 아래로는 내리지 않는다. 없으면 JARVIS 권장가(base_price)."""
+def final_prices(pd_no, name_kr, krw, title_en, base_price, base_evidence=None):
+    """판매가 결정 (정책: evidence_based_price, config/daiso_commerce_strategy.json).
+
+    가격은 근거에서만 나온다. 원가·배송·관세·마진으로 가격을 올리거나 막지 않는다 (2026-10-11 사용자 승인).
+      1순위 shop.com 에서 지금 읽은 같은 상품(총량 일치)의 최저가보다 약간 낮게.
+      2순위 jarvis_price() 가 돌려준 상품별 SerpApi 중앙값 가격 (base_price + base_evidence).
+    두 근거 모두 신선도·표본·용량 비교(pricing_model.assess_price_evidence)를 통과해야 한다. 못 통과하면 가격은 None 이고
+    price_unfit_reason() 이 후보를 건너뛰게 한다 (가격을 지어내지 않는다).
+    착지원가 대비 마진은 profit_warnings 로 공개만 한다 (손익분기 이하여도 등록은 막지 않는다).
+    """
     import math  # noqa: PLC0415
 
     landed1, pm, row1 = _landed(pd_no, name_kr, krw, 1)
-    landed2, _, row2 = _landed(pd_no, name_kr, krw, BUNDLE_QTY)
-    fee = pm.PAY_RATE
-    # 무게를 실측하지 못하고 추정한 상품은 우체국 요금 구간이 틀릴 수 있어 마진을 5%p 더 확보한다
+    landed2, _, _row2 = _landed(pd_no, name_kr, krw, BUNDLE_QTY)
     estimated = row1.get("weight_source") == "estimated"
-    margin_floor = MIN_MARGIN + (0.05 if estimated else 0.0)
-
-    def up(v):  # 바닥 이상의 .99
-        return math.floor(v) + 0.99 if math.floor(v) + 0.99 >= v else math.floor(v) + 1.99
+    now = datetime.now(timezone.utc)
 
     def down(v):  # 값보다 낮은 .99
         return math.floor(v - 0.01) - 0.01 if v >= 2 else v
 
-    floor1 = up(landed1 / (1 - fee - margin_floor))
     cmp_ = shop_compare(title_en)
-    low = cmp_.get("lowest_usd")
-    if low:
-        target = max(down(low) if down(low) < low else low - 0.5, 0)
-        single, basis = max(floor1, round(target, 2)), "shop.com 최저가보다 낮게 (바닥 마진 보장)"
-        if low < floor1:
-            basis = "shop.com 최저가가 바닥보다 낮아 바닥가로 설정"
-    else:
-        single, basis = max(floor1, base_price), "shop.com 비교 불가 -> JARVIS 권장가 (바닥 마진 보장)"
-    single = round(single, 2)
+    texts = [name_kr, title_en]
+    price_rules = STRATEGY["price_policy"]["price_evidence"]
+    chosen, single, basis, rejected = None, None, None, []
+    for source in price_rules["source_priority"]:
+        if source == "shop_com_live_comparable":
+            low = cmp_.get("lowest_usd")
+            if not low:
+                continue
+            best = (cmp_.get("matches") or [{}])[0]
+            ev = _evidence_dict(source, low, cmp_.get("match_count") or len(cmp_.get("matches") or []),
+                                best.get("title"), now.isoformat())
+            verdict = pm.assess_price_evidence(ev, texts, now=now, strategy=STRATEGY)
+            if not verdict["ok"]:
+                rejected.append({"source": source, "reasons": verdict["reasons"]})
+                continue
+            target = max(down(low) if down(low) < low else low - 0.5, 0)
+            single, chosen, basis = round(target, 2), {**ev, "assessment": verdict, "price_claim": "undercuts_lowest_verified_same_item_comparator"}, \
+                "shop.com 동일 상품 최저가보다 낮게 (총량 일치 확인)"
+        elif source == "serpapi_google_shopping":
+            if not base_evidence or not base_price:
+                continue
+            verdict = pm.assess_price_evidence(base_evidence, texts, now=now, strategy=STRATEGY)
+            if not verdict["ok"]:
+                rejected.append({"source": source, "reasons": verdict["reasons"]})
+                continue
+            single, chosen, basis = round(float(base_price), 2), {**base_evidence, "assessment": verdict,
+                                                                   "price_claim": "reference_price_basis_only_not_market_minimum"}, \
+                "상품별 미국 실판매 중앙값 기준 참고 가격 (SerpApi, 시장 최저가 아님)"
+        if single is not None:
+            break
 
-    floor2 = up(landed2 / (1 - fee - margin_floor))
-    pack = max(pm.psych_price(single * BUNDLE_QTY * (1 - BUNDLE_DISCOUNT)), floor2)
-    pack = round(pack, 2)
+    evidence = ({"ok": True, "source": chosen["source"], "reasons": [], "detail": chosen, "rejected": rejected}
+                if chosen else {"ok": False, "source": None, "rejected": rejected,
+                                "reasons": ["price_evidence_missing"] + [r for x in rejected for r in x["reasons"]]})
 
-    def margin(price, landed):
-        net = price - landed - price * fee
-        return round(net, 2), round(net / price * 100, 1)
-
-    n1, m1 = margin(single, landed1)
-    n2, m2 = margin(pack, landed2)
+    single_row = {"price_usd": single, "landed_cost_usd": round(landed1, 2)}
+    pack_row = {"price_usd": None, "compare_at_usd": None, "landed_cost_usd": round(landed2, 2), "ok": False}
+    warnings = []
+    if single is not None:
+        pack = round(pm.psych_price(single * BUNDLE_QTY * (1 - BUNDLE_DISCOUNT)), 2)
+        adv1 = pm.profitability_advisory(single, landed1, estimated, STRATEGY)
+        adv2 = pm.profitability_advisory(pack, landed2, estimated, STRATEGY)
+        single_row.update(net_profit_usd=adv1["net_profit_usd"], margin_pct=adv1["margin_pct"],
+                          target_price_usd=adv1["target_price_usd"], profit_warnings=adv1["warnings"],
+                          profitability_status=adv1["status"])
+        pack_row.update(price_usd=pack, compare_at_usd=round(single * BUNDLE_QTY, 2), net_profit_usd=adv2["net_profit_usd"],
+                        margin_pct=adv2["margin_pct"], target_price_usd=adv2["target_price_usd"],
+                        profit_warnings=adv2["warnings"], profitability_status=adv2["status"],
+                        ok=0 < pack < single * BUNDLE_QTY)
+        warnings = [f"single:{w}" for w in adv1["warnings"]] + [f"pack:{w}" for w in adv2["warnings"]]
     return {
-        "single": {"price_usd": single, "landed_cost_usd": round(landed1, 2), "net_profit_usd": n1, "margin_pct": m1, "floor_usd": floor1},
-        "pack": {"price_usd": pack, "compare_at_usd": round(single * BUNDLE_QTY, 2), "landed_cost_usd": round(landed2, 2),
-                 "net_profit_usd": n2, "margin_pct": m2, "floor_usd": floor2, "ok": pack < single * BUNDLE_QTY and n2 > 0},
-        "basis": basis, "shop_compare": cmp_, "min_margin": margin_floor,
+        "single": single_row, "pack": pack_row,
+        "basis": basis or "근거 없음", "shop_compare": cmp_, "evidence": evidence,
+        "profit_warnings": warnings, "profitability_blocks_registration": False,
+        "min_margin": MIN_MARGIN + (STRATEGY["price_policy"]["margin_advisory"]["estimated_weight_extra_margin"] if estimated else 0.0),
+        "target_margin": TARGET_MARGIN,
         "weight_g": row1.get("weight_g_est"), "weight_source": row1.get("weight_source"), "shipping_usd": row1.get("shipping_unit_usd"),
         "tariff_usd": row1.get("tariff_usd"), "fx": fx_rate(),
     }
@@ -1044,25 +1060,24 @@ def save_registry(d):
 
 
 def price_unfit_reason(krw, pr):
-    """가격·마진 조건을 못 맞추는 상품이면 사유를 돌려준다(없으면 None). 이런 상품은 후보에서 제외한다.
-    값이 아예 없는 경우(필드 누락)는 판단하지 않고 통과시킨다. 판정은 확인된 수치로만 한다."""
+    """가격이 '실제로 쓸 수 없는' 상품이면 사유를 돌려준다(없으면 None). 이런 상품은 후보에서 제외한다.
+
+    2026-10-11 사용자 승인: 마진·손익분기 미달은 더 이상 사유가 아니다(profit_warnings 로 공개만 한다).
+    남은 사유는 원가 없음, 가격 근거 없음/낡음/표본 부족/용량 불일치, 판매가·세트가 무효 뿐이다.
+    근거 필드가 아예 없으면 통과시키지 않는다 (fail closed).
+    """
     if not krw or krw <= 0:
         return "no_cost_price"
-    s, k = pr.get("single") or {}, pr.get("pack") or {}
-    floor = pr.get("min_margin")
-    floor_pct = round(floor * 100, 1) if floor is not None else None
-    price, net, mg = s.get("price_usd"), s.get("net_profit_usd"), s.get("margin_pct")
-    if price is not None and price <= 0:
+    ev = pr.get("evidence")
+    if not isinstance(ev, dict) or ev.get("ok") is not True:
+        reasons = ev.get("reasons") if isinstance(ev, dict) else None
+        return "price_evidence_invalid:" + ",".join(str(r) for r in (reasons or ["price_evidence_missing"]))
+    price = (pr.get("single") or {}).get("price_usd")
+    if isinstance(price, bool) or not isinstance(price, (int, float)) or price != price or price <= 0:
         return "single_price_invalid"
-    if net is not None and net <= 0:
-        return "single_unprofitable"
-    if mg is not None and floor_pct is not None and mg + 0.05 < floor_pct:
-        return f"single_margin_below_floor:{mg}<{floor_pct}"
-    if k and k.get("ok") is False:
-        return "bundle_margin_not_ok"
-    kmg = k.get("margin_pct")
-    if kmg is not None and floor_pct is not None and kmg + 0.05 < floor_pct:
-        return f"bundle_margin_below_floor:{kmg}<{floor_pct}"
+    pack = pr.get("pack") or {}
+    if pack and pack.get("ok") is False:
+        return "bundle_price_invalid"
     return None
 
 
@@ -1075,7 +1090,7 @@ def price_position(our_usd, lowest_usd, margin_pct):
     """우리 단품가 vs shop.com 최저가. 마진 우선이라 최저가를 못 이기는 상품은 가격 외 전략 후보를 함께 적는다.
     판매 데이터가 없는 동안에는 결과(효과)를 추정하지 않고 관측값만 쌓는다."""
     if not lowest_usd:
-        return {"position": "no_comparison", "gap_pct": None, "hints": ["shop_com_match_missing: 비교 가능한 동일 상품 없음, 자비스 권장가 유지"]}
+        return {"position": "no_comparison", "gap_pct": None, "hints": ["shop_com_match_missing: 검증된 동일 상품 비교 없음. 가격은 참고 가격 근거일 뿐 시장 최저가가 아니다"]}
     gap = round((our_usd - lowest_usd) / lowest_usd * 100, 1)
     if gap <= 0:
         return {"position": "cheapest_or_equal", "gap_pct": gap, "hints": []}
@@ -1103,14 +1118,10 @@ def log_price_position(entry, pos):
 
 
 # JARVIS 채점(shopify_demand_score.json)의 버킷을 Shopify 3개 카테고리로 묶는다.
-BUCKETS = {
-    "skincare": {"스킨케어", "마스크팩", "클렌징", "선케어"},
-    "makeup": {"메이크업"},
-    "body": {"바디케어"},
-}
+BUCKETS = {c["tag"]: set(c["score_buckets"]) for c in STRATEGY["categories"]}
 GRADE_ORDER = {"S": 0, "A": 1}
 # 사용자 최신 지시(2026-10-11): 3개 카테고리 모두 S등급만. 없는 카테고리는 건너뛴다.
-ALLOWED_GRADES = {"skincare": ("S",), "makeup": ("S",), "body": ("S",)}
+ALLOWED_GRADES = {c["tag"]: tuple(c["allowed_grades"]) for c in STRATEGY["categories"]}
 
 
 def grade_label(cat):
@@ -1157,15 +1168,104 @@ def daiso_lookup(pd_no):
     return p
 
 
-def s_ranked(cat):
-    """Canonical S-grade rows only; missing or invalid source is an error, not permission to improvise."""
+PRIORITY_SOURCE = "scripts/build_beauty_price_strategy.py (offline, recomputed from the actual inputs at run time)"
+PRIORITY_FORMULA = "0.6*shopify_score + verified_price_points (only verified_below vs a verified delivered same-item minimum)"
+PRIORITY_FALLBACK = "fallback_canonical_order"
+
+
+def _fallback_priority(reason, as_of=None):
+    return {"status": PRIORITY_FALLBACK, "reason": reason, "as_of": as_of, "by_pd": {}}
+
+
+def _own_shipping_from_env():
+    """우리 고객 배송비(단품). 모르면 None -> 배달가 비교가 불가능해 검증된 가격 우위 점수가 0 이 된다. 지어내지 않는다."""
+    raw = os.environ.get("OWN_SHIPPING_USD", "").strip()
+    try:
+        value = float(raw) if raw else None
+    except ValueError:
+        return None
+    return value if value is not None and math.isfinite(value) and value >= 0 else None
+
+
+def live_s_priority(now=None):
+    """상업 우선순위(오프라인). 저장된 리포트를 믿지 않고 실제 입력 파일에서 지금 시각 기준으로 다시 계산한다.
+
+    - 네트워크 호출 없음. 등급(S/A)은 정본 점수표가 유일한 권위이고, 이 계산은 순서만 바꾼다. 후보를 더하거나 빼지 않는다.
+    - 전략/입력이 없거나 깨졌거나 정책이 일치하지 않으면 가짜 점수를 만들지 않고 정본 순서로 되돌아간다(status=fallback_canonical_order).
+    - 안전·가격 근거·이미지·재고·중복·인증 게이트는 건드리지 않는다. 이후 단계에서 그대로 적용된다.
+    """
+    as_of = now or datetime.now(timezone.utc)
+    stamp = as_of.isoformat()
+    try:
+        import build_beauty_price_strategy as bps  # noqa: PLC0415
+
+        docs, status = bps.load_inputs(ROOT / "data")
+        score = docs.get("score")
+        if not isinstance(score, dict) or not isinstance(score.get("all_scored"), list):
+            return _fallback_priority("score_input_missing_or_invalid", stamp)
+        report = bps.build_strategy(docs, status, as_of, bps.DEFAULT_MAX_AGE_HOURS, _own_shipping_from_env())
+        alignment, policy = report.get("config_alignment") or {}, report.get("policy") or {}
+        if alignment.get("config_loaded") is not True or alignment.get("policy_id") != STRATEGY.get("policy_id"):
+            return _fallback_priority("strategy_config_missing_invalid_or_mismatched", stamp)
+        if policy.get("network_calls") is not False or policy.get("grade_changes_allowed") is not False \
+                or policy.get("a_auto_upgrade_allowed") is not False:
+            return _fallback_priority("strategy_policy_flags_unsafe", stamp)
+        if (report.get("s_preservation") or {}).get("grade_changes") != []:
+            return _fallback_priority("strategy_changed_grades", stamp)
+        canonical = {str(r.get("pd_no")): r.get("grade") for r in score["all_scored"] if isinstance(r, dict)}
+        by_pd = {}
+        for prod in report.get("products") or []:
+            pd = str(prod.get("pd_no"))
+            if prod.get("grade") != canonical.get(pd) or prod.get("grade_changed_by_this_report") is not False:
+                return _fallback_priority("strategy_grade_differs_from_canonical", stamp)
+            pr = prod.get("priority") or {}
+            value = pr.get("score")
+            valid = isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value)
+            pos = prod.get("price_position") or {}
+            by_pd[pd] = {"score": float(value) if valid else None, "evidence_status": pr.get("evidence_status"),
+                         "components": pr.get("components") or {}, "price_position": pos.get("status"),
+                         "price_position_verified": pos.get("verified") is True, "priority_rank": prod.get("priority_rank")}
+        return {"status": "live_strategy", "reason": None, "as_of": stamp, "by_pd": by_pd}
+    except Exception as exc:  # noqa: BLE001  깨진 전략이 등록 흐름을 막거나 가짜 순위를 만들지 못하게 한다
+        return _fallback_priority(f"strategy_error:{type(exc).__name__}", stamp)
+
+
+def apply_priority(rows, priority):
+    """정본 순서의 S 행에 우선순위 메타를 붙이고, 점수가 있으면 점수순(동점은 정본 순서)으로 정렬한다. 행을 더하거나 빼지 않는다."""
+    ordered = []
+    for index, row in enumerate(rows):
+        info = (priority.get("by_pd") or {}).get(str(row.get("pd_no")))
+        live = priority.get("status") == "live_strategy"
+        meta = {"source": PRIORITY_SOURCE, "formula": PRIORITY_FORMULA, "as_of": priority.get("as_of"), "canonical_index": index,
+                "status": ("live_strategy" if live and info and info["score"] is not None
+                           else "row_unscored_canonical_position" if live else PRIORITY_FALLBACK),
+                "reason": priority.get("reason") if not live else (None if info and info["score"] is not None else "row_has_no_strategy_score"),
+                "shopify_score": row.get("shopify_score"), "score": None, "components": None, "evidence_status": None,
+                "price_position": None, "price_position_verified": False, "strategy_rank": None}
+        if live and info and info["score"] is not None:
+            meta.update(score=info["score"], components=info["components"], evidence_status=info["evidence_status"],
+                        price_position=info["price_position"], price_position_verified=info["price_position_verified"],
+                        strategy_rank=info["priority_rank"])
+        ordered.append(dict(row, _priority=meta))
+    scored = sorted((r for r in ordered if r["_priority"]["score"] is not None), key=lambda r: -r["_priority"]["score"])
+    return scored + [r for r in ordered if r["_priority"]["score"] is None]
+
+
+def s_ranked(cat, priority=None):
+    """Canonical S-grade rows only; missing or invalid source is an error, not permission to improvise.
+
+    Candidates and grades come only from the canonical score file (S only, config bucket map). The offline commercial
+    priority (live_s_priority) may reorder those S rows and annotates each with transparent `_priority` metadata; it never
+    adds, removes or upgrades anything. Without a usable strategy the canonical order (grade, shopify_score) is kept."""
     d = json.loads((ROOT / "data/daiso_real/shopify_demand_score.json").read_text(encoding="utf-8-sig"))
     if not isinstance(d.get("all_scored"), list):
         raise ValueError("Canonical grade list unavailable")
     allowed = ALLOWED_GRADES[cat[0]]
     rows = [r for r in d["all_scored"] if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") in allowed]
     rows.sort(key=lambda r: (GRADE_ORDER[r["grade"]], -float(r.get("shopify_score") or 0)))
-    return rows
+    if not rows:
+        return rows
+    return apply_priority(rows, priority if priority is not None else live_s_priority())
 
 
 def title_key(s):
@@ -1223,8 +1323,21 @@ def pick(cat, shop, names, ids, reg, rows=None, excluded=None):
         p = daiso_lookup(pd_no)
         if p and sellable(p) and not already_registered(p, reg, names, ids):
             p["_grade"], p["_source"], p["_score"] = row.get("grade") or "S", "jarvis_s_list", row.get("shopify_score")
+            p["_priority"] = row.get("_priority")
             return p
     return None
+
+
+SAFETY_MISSING = manufacturer_safety.SAFETY_MISSING
+
+
+def manufacturer_safety_record(pd_no):
+    """제품별 제조사 안전성 입증 자료(MoCRA) 확인. 안전 게이트이며 마진과 무관하다.
+
+    판정은 scripts/manufacturer_safety.py 한 곳에 있고, listing gate(build_listing_gate.py)도 같은 함수를 pdNo 마다 부른다.
+    그래서 여기서 '덮임' 인 상품이 게이트에서 막히는 일(또는 반대)이 없다. 비공개 값은 반환하지 않고, 읽을 수 없으면 덮이지 않은 것으로 본다.
+    라벨의 product_safety_evidence 나 계획/메모는 자료 보유로 세지 않는다. 승인이나 보유 사실을 지어내지 않는다."""
+    return manufacturer_safety.manufacturer_safety_record(pd_no, ROOT)
 
 
 def canonical_public_gate(pd_no):
@@ -1525,26 +1638,35 @@ def main():
                 continue
             excluded = set()
             price_excluded = []
+            safety_excluded = []
             while True:
                 p = pick(cat, shop, names, ids, reg, rows, excluded)
                 if not p:
                     log("  no available, sellable, unregistered S-grade candidate")
                     results.append({"category": cat[0], "status": "skipped_no_eligible_s_grade",
                                     "grade_required": grade_label(cat), "s_candidates": len(rows),
-                                    "price_excluded": price_excluded})
+                                    "price_excluded": price_excluded, "safety_excluded": safety_excluded})
                     break
+                # 안전 게이트(마진과 무관): 이 상품의 제조사 안전성 자료가 확인되지 않으면 만들지도 게시하지도 않고 다음 후보로 간다.
+                safety = manufacturer_safety_record(p["pdNo"])
+                if not safety["covered"]:
+                    log(f"  excluded (safety): {p['pdNo']} {clean_name(p['pdNm'])} -> {safety['reason']}")
+                    excluded.add(str(p["pdNo"]))
+                    safety_excluded.append({"pd_no": str(p["pdNo"]), "reason": safety["reason"]})
+                    continue
                 copy = gemini_copy(p, cat) or fallback_copy(p, cat)
                 title, html = copy
                 if already_registered(p, reg, names, ids, title):
                     excluded.add(str(p["pdNo"]))
                     continue
-                # 가격·마진이 안 맞는 상품은 목록에서 제외하고 다음 후보로 넘어간다 (초안으로 남기지 않는다).
+                # 가격을 쓸 수 없는 상품(원가 없음, 가격 근거 없음/낡음/용량 불일치, 무효 가격)만 건너뛰고 다음 후보로 넘어간다.
+                # 마진·손익분기 미달은 건너뛰거나 초안으로 돌리지 않는다. 경고로 공개한다 (2026-10-11 사용자 승인).
                 krw = int(p["pdPrc"])
                 base = jarvis_price(p["pdNo"], clean_name(p["pdNm"]), krw)
-                pr = final_prices(p["pdNo"], clean_name(p["pdNm"]), krw, title, base["price_usd"])
+                pr = final_prices(p["pdNo"], clean_name(p["pdNm"]), krw, title, base["price_usd"], base.get("evidence"))
                 why = price_unfit_reason(krw, pr)
                 if why:
-                    log(f"  excluded (price/margin): {p['pdNo']} {clean_name(p['pdNm'])} -> {why}")
+                    log(f"  excluded (price evidence/validity): {p['pdNo']} {clean_name(p['pdNm'])} -> {why}")
                     excluded.add(str(p["pdNo"]))
                     price_excluded.append({"pd_no": str(p["pdNo"]), "reason": why})
                     continue
@@ -1597,7 +1719,10 @@ def main():
                     }
                 )
             else:
-                reasons.append("bundle_margin_not_ok")
+                reasons.append("bundle_price_invalid")
+            profit_warnings = list(pr.get("profit_warnings") or [])
+            if profit_warnings:
+                log(f"  PROFITABILITY WARNING (registered anyway, price evidence ok): {profit_warnings}")
             item = {
                 "title": title,
                 "description_html": html,
@@ -1616,12 +1741,15 @@ def main():
             rec = {
                 "category": cat[0],
                 "grade_required": grade_label(cat), "grade": p["_grade"], "s_candidates": len(rows),
+                "priority": p.get("_priority"),
                 "daiso_pdNo": p["pdNo"],
                 "daiso_name": clean_name(p["pdNm"]),
                 "daiso_url": DAISO_ITEM + p["pdNo"],
                 "krw": krw,
                 "usd": item["price_usd"],
                 "pricing": pr,
+                "price_evidence": pr.get("evidence"),
+                "profitability_warnings": profit_warnings,
                 "bundle": bo,
                 "images_skipped": imgs["skipped"],
                 "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
@@ -1636,6 +1764,12 @@ def main():
                 rec["status"] = "dry_run"
             else:
                 # Re-read the entire catalogue just before writing; the daily cap and duplicate checks are unconditional.
+                safety = manufacturer_safety_record(p["pdNo"])
+                if not safety["covered"]:
+                    rec["status"] = "blocked_manufacturer_safety_record_missing"
+                    rec["safety_record"] = safety
+                    results.append(rec)
+                    continue
                 names, ids = shop_keys(shop.existing_products())
                 if already_registered(p, reg, names, ids, title) or shop.exists(p["pdNo"]):
                     rec["status"] = "skipped_duplicate_at_create"
@@ -1650,7 +1784,11 @@ def main():
                          "pack_usd": pr["pack"]["price_usd"] if pr["pack"]["ok"] else None,
                          "pack_margin_pct": pr["pack"]["margin_pct"] if pr["pack"]["ok"] else None,
                          "size": parse_size(clean_name(p["pdNm"])), "images": len(images),
-                         "price_basis": pr["basis"], "shop_com_lowest_usd": cmpd.get("lowest_usd"),
+                         "price_basis": pr["basis"], "shop_com_lowest_usd": (cmpd.get("lowest_usd") if (pr.get("evidence") or {}).get("source") == "shop_com_live_comparable" else None),
+                         "profitability_warnings": profit_warnings,
+                         "priority": p.get("_priority"),
+                         "price_evidence_source": (pr.get("evidence") or {}).get("source"),
+                         "price_claim": ((pr.get("evidence") or {}).get("detail") or {}).get("price_claim"),
                          "draft_reasons": reasons, "grade": p["_grade"], "source": p.get("_source")}
                 pos = price_position(entry.get("single_usd"), entry.get("shop_com_lowest_usd"), entry.get("single_margin_pct"))
                 entry["price_position"], entry["strategy_hints"] = pos["position"], pos["hints"]
@@ -1685,6 +1823,10 @@ def main():
                 # the actual public-sale boundary rather than trusting an earlier snapshot.
                 public_gate = canonical_public_gate(p["pdNo"])
                 rec["canonical_public_gate"] = public_gate
+                safety = manufacturer_safety_record(p["pdNo"])
+                rec["safety_record"] = safety
+                if not safety["covered"] and safety["reason"] not in reasons:
+                    reasons.append(safety["reason"])
                 for gate_reason in public_gate["reasons"]:
                     if gate_reason not in reasons:
                         reasons.append(gate_reason)
@@ -1740,11 +1882,12 @@ def main():
     if summary:
         with open(summary, "a", encoding="utf-8") as f:
             f.write("## 다이소 오늘의 뷰티 추천 -> Shopify 등록\n\n")
-            f.write("| 카테고리 | 상태 | 상품 | 가격 | 링크 |\n|---|---|---|---|---|\n")
+            f.write("| 카테고리 | 상태 | 상품 | 가격 | 링크 | 수익성 경고 |\n|---|---|---|---|---|---|\n")
             for r in results:
                 f.write(
                     f"| {r['category']} | {r['status']} | {r.get('title', r.get('error', ''))} | "
-                    f"{('$%.2f' % r['usd']) if 'usd' in r else ''} | {r.get('url', r.get('daiso_url', ''))} |\n"
+                    f"{('$%.2f' % r['usd']) if 'usd' in r else ''} | {r.get('url', r.get('daiso_url', ''))} | "
+                    f"{'; '.join(r.get('profitability_warnings') or []) or '-'} |\n"
                 )
     log(json.dumps(out, ensure_ascii=False, indent=2))
     return 1 if failures else 0

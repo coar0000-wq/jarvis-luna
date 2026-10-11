@@ -1,9 +1,17 @@
 {
-  "generated_at": "2026-10-11T01:57:01.599896+00:00",
+  "generated_at": "2026-10-11T07:21:20.973285+00:00",
   "exchange_rate": {
     "usd_to_krw": 1341.69,
     "as_of": "2026-10-11",
     "source": "ExchangeRate-API"
+  },
+  "pricing_policy": {
+    "mode": "evidence_based_price",
+    "strategy_file": "config/daiso_commerce_strategy.json",
+    "strategy_sha256": "080cb864965dfee92df034bed4da9305ed101a21391f3e58ecda2a9fcb91439f",
+    "margin_hard_block": false,
+    "serp_collected_at": "2026-10-01T23:39:34.955593+00:00",
+    "note": "register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -43,6 +51,34 @@
         "margin_pct": 55.8,
         "market_median_usd": 24.5,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 24.5,
+          "sample_n": 20,
+          "query": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 13.37,
+          "margin_pct": 55.8,
+          "breakeven_usd": 9.55,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 16.81
+        },
+        "profit_warnings": [],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -58,6 +94,40 @@
         "margin_pct": 26.6,
         "market_median_usd": 16.8,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 16.8,
+          "sample_n": 13,
+          "query": "VONSEP Retinol 500 IU Serum 30ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "below_minimum",
+          "warnings": [
+            "margin_below_minimum:26.6%<30.0%",
+            "margin_below_target:26.6%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 4.26,
+          "margin_pct": 26.6,
+          "breakeven_usd": 11.39,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 20.06
+        },
+        "profit_warnings": [
+          "margin_below_minimum:26.6%<30.0%",
+          "margin_below_target:26.6%<40.0%"
+        ],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -73,8 +143,37 @@
         "margin_pct": 54.1,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 12.45,
+          "margin_pct": 54.1,
+          "breakeven_usd": 9.55,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 16.81
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       },
       {
         "pd_no": "1067498",
@@ -88,6 +187,40 @@
         "margin_pct": 29.7,
         "market_median_usd": 18.38,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 18.38,
+          "sample_n": 20,
+          "query": "VT PDRN Radiance Cream 50 ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "below_minimum",
+          "warnings": [
+            "margin_below_minimum:29.7%<30.0%",
+            "margin_below_target:29.7%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 5.35,
+          "margin_pct": 29.7,
+          "breakeven_usd": 12.21,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 21.5
+        },
+        "profit_warnings": [
+          "margin_below_minimum:29.7%<30.0%",
+          "margin_below_target:29.7%<40.0%"
+        ],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -103,6 +236,38 @@
         "margin_pct": 33.0,
         "market_median_usd": 19.93,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 19.93,
+          "sample_n": 9,
+          "query": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "below_target",
+          "warnings": [
+            "margin_below_target:33.0%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 6.27,
+          "margin_pct": 33.0,
+          "breakeven_usd": 12.21,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 21.5
+        },
+        "profit_warnings": [
+          "margin_below_target:33.0%<40.0%"
+        ],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -118,8 +283,44 @@
         "margin_pct": 26.0,
         "market_median_usd": 12.31,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 12.31,
+          "sample_n": 6,
+          "query": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_volume_unverified_product"
+            ],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "unverified_product_volume"
+          }
+        },
+        "profitability": {
+          "status": "below_minimum",
+          "warnings": [
+            "margin_below_minimum:26.0%<30.0%",
+            "margin_below_target:26.0%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 3.12,
+          "margin_pct": 26.0,
+          "breakeven_usd": 8.62,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 15.17
+        },
+        "profit_warnings": [
+          "margin_below_minimum:26.0%<30.0%",
+          "margin_below_target:26.0%<40.0%"
+        ],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
       },
       {
         "pd_no": "1049285",
@@ -133,8 +334,44 @@
         "margin_pct": 12.2,
         "market_median_usd": 11.55,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 11.55,
+          "sample_n": 20,
+          "query": "VT Hyaluron Sleeping Mask 4ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
+            ],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "mismatch"
+          }
+        },
+        "profitability": {
+          "status": "below_minimum",
+          "warnings": [
+            "margin_below_minimum:12.2%<30.0%",
+            "margin_below_target:12.2%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 1.34,
+          "margin_pct": 12.2,
+          "breakeven_usd": 9.55,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 16.81
+        },
+        "profit_warnings": [
+          "margin_below_minimum:12.2%<30.0%",
+          "margin_below_target:12.2%<40.0%"
+        ],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
       },
       {
         "pd_no": "1059834",
@@ -148,6 +385,40 @@
         "margin_pct": 26.0,
         "market_median_usd": 12.39,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 12.39,
+          "sample_n": 20,
+          "query": "CELDERMA Daily Collagen Sheet Mask 28 g",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "below_minimum",
+          "warnings": [
+            "margin_below_minimum:26.0%<30.0%",
+            "margin_below_target:26.0%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 3.12,
+          "margin_pct": 26.0,
+          "breakeven_usd": 8.62,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 15.17
+        },
+        "profit_warnings": [
+          "margin_below_minimum:26.0%<30.0%",
+          "margin_below_target:26.0%<40.0%"
+        ],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -163,8 +434,38 @@
         "margin_pct": 41.6,
         "market_median_usd": 14.16,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 14.16,
+          "sample_n": 20,
+          "query": "바세린 마스크팩 집중보습",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_volume_unverified_product"
+            ],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "unverified_product_volume"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 5.82,
+          "margin_pct": 41.6,
+          "breakeven_usd": 7.7,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 13.56
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
       },
       {
         "pd_no": "1042619",
@@ -178,8 +479,37 @@
         "margin_pct": 61.6,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 14.16,
+          "margin_pct": 61.6,
+          "breakeven_usd": 7.7,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 13.56
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       }
     ],
     "bundle": [
@@ -195,6 +525,34 @@
         "margin_pct": 64.0,
         "market_median_usd": 24.5,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 24.5,
+          "sample_n": 20,
+          "query": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 25.61,
+          "margin_pct": 64.0,
+          "breakeven_usd": 12.33,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 21.71
+        },
+        "profit_warnings": [],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -210,6 +568,38 @@
         "margin_pct": 36.9,
         "market_median_usd": 16.8,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 16.8,
+          "sample_n": 13,
+          "query": "VONSEP Retinol 500 IU Serum 30ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "below_target",
+          "warnings": [
+            "margin_below_target:36.9%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 10.32,
+          "margin_pct": 36.9,
+          "breakeven_usd": 16.85,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 29.66
+        },
+        "profit_warnings": [
+          "margin_below_target:36.9%<40.0%"
+        ],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -225,8 +615,37 @@
         "margin_pct": 63.3,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 24.68,
+          "margin_pct": 63.3,
+          "breakeven_usd": 12.33,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 21.71
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       },
       {
         "pd_no": "1067498",
@@ -240,6 +659,38 @@
         "margin_pct": 38.1,
         "market_median_usd": 18.38,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 18.38,
+          "sample_n": 20,
+          "query": "VT PDRN Radiance Cream 50 ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "below_target",
+          "warnings": [
+            "margin_below_target:38.1%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 11.43,
+          "margin_pct": 38.1,
+          "breakeven_usd": 17.65,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 31.06
+        },
+        "profit_warnings": [
+          "margin_below_target:38.1%<40.0%"
+        ],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -255,6 +706,34 @@
         "margin_pct": 40.8,
         "market_median_usd": 19.93,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 19.93,
+          "sample_n": 9,
+          "query": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 13.45,
+          "margin_pct": 40.8,
+          "breakeven_usd": 18.47,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 32.51
+        },
+        "profit_warnings": [],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -270,8 +749,38 @@
         "margin_pct": 40.4,
         "market_median_usd": 12.31,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 12.31,
+          "sample_n": 6,
+          "query": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_volume_unverified_product"
+            ],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "unverified_product_volume"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 8.07,
+          "margin_pct": 40.4,
+          "breakeven_usd": 11.27,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 19.85
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
       },
       {
         "pd_no": "1049285",
@@ -285,8 +794,42 @@
         "margin_pct": 32.5,
         "market_median_usd": 11.55,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 11.55,
+          "sample_n": 20,
+          "query": "VT Hyaluron Sleeping Mask 4ml",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
+            ],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "mismatch"
+          }
+        },
+        "profitability": {
+          "status": "below_target",
+          "warnings": [
+            "margin_below_target:32.5%<40.0%"
+          ],
+          "blocks_registration": false,
+          "net_profit_usd": 6.16,
+          "margin_pct": 32.5,
+          "breakeven_usd": 12.33,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 21.71
+        },
+        "profit_warnings": [
+          "margin_below_target:32.5%<40.0%"
+        ],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
       },
       {
         "pd_no": "1059834",
@@ -300,6 +843,34 @@
         "margin_pct": 42.9,
         "market_median_usd": 12.39,
         "market_price_source": "serpapi_google_shopping",
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 12.39,
+          "sample_n": 20,
+          "query": "CELDERMA Daily Collagen Sheet Mask 28 g",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": true,
+            "reasons": [],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "match"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 9.0,
+          "margin_pct": 42.9,
+          "breakeven_usd": 11.27,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 19.85
+        },
+        "profit_warnings": [],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -315,8 +886,38 @@
         "margin_pct": 54.6,
         "market_median_usd": 14.16,
         "market_price_source": "serpapi_google_shopping",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "serpapi_google_shopping",
+          "median_usd": 14.16,
+          "sample_n": 20,
+          "query": "바세린 마스크팩 집중보습",
+          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_volume_unverified_product"
+            ],
+            "source": "serpapi_google_shopping",
+            "level": "product",
+            "age_days": 9.32,
+            "volume_status": "unverified_product_volume"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 12.55,
+          "margin_pct": 54.6,
+          "breakeven_usd": 9.44,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 16.62
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
       },
       {
         "pd_no": "1042619",
@@ -330,8 +931,37 @@
         "margin_pct": 70.2,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
-        "register_blocked": false,
-        "block_reason": ""
+        "price_evidence": {
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
+          "assessment_at_generation": {
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
+          }
+        },
+        "profitability": {
+          "status": "ok",
+          "warnings": [],
+          "blocks_registration": false,
+          "net_profit_usd": 27.36,
+          "margin_pct": 70.2,
+          "breakeven_usd": 9.44,
+          "minimum_margin_pct": 30.0,
+          "target_margin_pct": 40.0,
+          "target_price_usd": 16.62
+        },
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       }
     ]
   },

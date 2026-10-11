@@ -489,6 +489,13 @@
       ],
       "error": []
     },
+    "scripts/collect_shop_com_categories.py": {
+      "reads": [],
+      "writes": [
+        "data/shop_com_categories.json"
+      ],
+      "error": []
+    },
     "scripts/collect_sokoglam.py": {
       "reads": [],
       "writes": [
@@ -596,6 +603,21 @@
         "data/daiso_real/shopify_demand_score.json",
         "data/daiso_real/shopify_s_recommendations.json",
         "data/daiso_real/shopify_s_rejected.json"
+      ],
+      "error": []
+    },
+    "scripts/daiso_daily_beauty_to_shopify.py": {
+      "reads": [
+        "data/daiso_real/collection_status.json",
+        "data/daiso_real/daiso_us_labels.json",
+        "data/daiso_real/shopify_demand_score.json",
+        "data/gosi.json",
+        "data/inci_dictionary.json",
+        "data/listing_gate.json",
+        "data/shopify_daily_registry.json"
+      ],
+      "writes": [
+        "data/price_strategy_log.json"
       ],
       "error": []
     },
@@ -1030,6 +1052,93 @@
     }
   },
   "workflows": {
+    ".github/workflows/daiso-candidate-recovery.yml": {
+      "publishes": true,
+      "regenerates_dashboard": false,
+      "runs_audit": false,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "Publish verified recovered candidate metadata",
+          "condition": null,
+          "paths": [
+            "data/daiso_real/collection_status.json",
+            "data/daiso_real/candidate_pool.json",
+            "data/daiso_real/candidate_pool_history",
+            "data/daiso_real/candidate_comparison.json",
+            "data/agents/daiso_pipeline_receipts.json",
+            "data/agents/daiso_pipeline_history",
+            "data/agents/daiso_candidate_recovery.json",
+            "data/publish_deletions.json"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": false,
+          "commerce_triggers": [],
+          "commands": [
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/recover_daiso_candidates.py",
+        "scripts/source_safety_checkpoint.py"
+      ],
+      "effective": [
+        "scripts/restore_source_safety.py",
+        "scripts/restore_operations_safety.py",
+        "scripts/recover_daiso_candidates.py",
+        "scripts/source_safety_checkpoint.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
+        "scripts/check_release_quality.py"
+      ]
+    },
+    ".github/workflows/daiso-daily-beauty-shopify.yml": {
+      "publishes": false,
+      "regenerates_dashboard": false,
+      "runs_audit": false,
+      "mandatory_release_gate": false,
+      "publish_profiles": [],
+      "runs": [
+        "scripts/daiso_daily_beauty_to_shopify.py",
+        "scripts/collect_shop_com_categories.py"
+      ],
+      "effective": [
+        "scripts/daiso_daily_beauty_to_shopify.py",
+        "scripts/collect_shop_com_categories.py"
+      ]
+    },
     ".github/workflows/daiso-discovery.yml": {
       "publishes": false,
       "regenerates_dashboard": false,
@@ -1135,6 +1244,14 @@
             [
               "scripts/discover_channels.py",
               "--cached-only"
+            ],
+            [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
             ],
             [
               "scripts/health_check_v2.py"
@@ -1250,6 +1367,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -1343,7 +1468,145 @@
         "scripts/pricing_model.py",
         "scripts/build_shopify_shortlist.py",
         "scripts/build_mocra_readiness.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/run_jarvis_operations.py",
+        "scripts/check_release_quality.py"
+      ]
+    },
+    ".github/workflows/fx-refresh.yml": {
+      "publishes": true,
+      "regenerates_dashboard": true,
+      "runs_audit": false,
+      "mandatory_release_gate": true,
+      "publish_profiles": [
+        {
+          "step": "발행 (원격 최신 위에 환율만, 커머스 재생성 + 최종 품질 검사)",
+          "condition": "steps.operations_safety.outputs.operations_continuity == 'verified'",
+          "paths": [
+            "data/daiso_real/collection_status.json",
+            "data/publish_deletions.json",
+            "data/operations/"
+          ],
+          "candidate_only": false,
+          "commerce_regeneration": true,
+          "commerce_triggers": [
+            "data/daiso_real/collection_status.json"
+          ],
+          "commands": [
+            [
+              "scripts/build_product_master.py"
+            ],
+            [
+              "scripts/daiso/score_shopify_demand.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/pricing_model.py"
+            ],
+            [
+              "scripts/check_legal_products.py"
+            ],
+            [
+              "scripts/build_legal_full.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_product_master.py",
+              "--inject-s"
+            ],
+            [
+              "scripts/build_shopify_shortlist.py"
+            ],
+            [
+              "scripts/build_mocra_readiness.py"
+            ],
+            [
+              "scripts/build_listing_gate.py"
+            ],
+            [
+              "scripts/build_market_team.py"
+            ],
+            [
+              "scripts/export_shopify_operational.py",
+              "--blocked-noop"
+            ],
+            [
+              "scripts/build_shopify_action_queue.py"
+            ],
+            [
+              "scripts/discover_channels.py",
+              "--cached-only"
+            ],
+            [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
+              "scripts/health_check_v2.py"
+            ],
+            [
+              "scripts/generate_dashboard_runtime.py"
+            ],
+            [
+              "scripts/run_jarvis_agents.py",
+              "--force"
+            ],
+            [
+              "scripts/run_jarvis_operations.py"
+            ],
+            [
+              "scripts/build_team_improvement.py"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "candidate"
+            ],
+            [
+              "scripts/check_release_quality.py",
+              "--phase",
+              "final"
+            ]
+          ],
+          "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"
+        }
+      ],
+      "runs": [
+        "scripts/restore_operations_safety.py",
+        "scripts/fetch_fx_rate.py",
+        "scripts/collector_snapshot_history.py"
+      ],
+      "effective": [
+        "scripts/restore_operations_safety.py",
+        "scripts/fetch_fx_rate.py",
+        "scripts/collector_snapshot_history.py",
+        "scripts/build_product_master.py",
+        "scripts/daiso/score_shopify_demand.py",
+        "scripts/pricing_model.py",
+        "scripts/check_legal_products.py",
+        "scripts/build_legal_full.py",
+        "scripts/build_listing_gate.py",
+        "scripts/build_shopify_shortlist.py",
+        "scripts/build_mocra_readiness.py",
+        "scripts/build_market_team.py",
+        "scripts/export_shopify_operational.py",
+        "scripts/build_shopify_action_queue.py",
+        "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
+        "scripts/health_check_v2.py",
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/run_jarvis_agents.py",
+        "scripts/run_jarvis_operations.py",
+        "scripts/build_team_improvement.py",
         "scripts/check_release_quality.py"
       ]
     },
@@ -1415,6 +1678,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -1464,6 +1735,7 @@
         "scripts/export_shopify_operational.py",
         "scripts/build_shopify_action_queue.py",
         "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/health_check_v2.py",
         "scripts/generate_dashboard_runtime.py",
         "scripts/run_jarvis_agents.py",
@@ -1566,6 +1838,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -1631,6 +1911,7 @@
         "scripts/pricing_model.py",
         "scripts/build_shopify_shortlist.py",
         "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/health_check_v2.py",
         "scripts/generate_dashboard_runtime.py",
         "scripts/run_jarvis_agents.py",
@@ -1734,6 +2015,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -1801,6 +2090,7 @@
         "scripts/pricing_model.py",
         "scripts/build_shopify_shortlist.py",
         "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/health_check_v2.py",
         "scripts/generate_dashboard_runtime.py",
         "scripts/run_jarvis_agents.py",
@@ -1903,6 +2193,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -1968,6 +2266,7 @@
         "scripts/pricing_model.py",
         "scripts/build_shopify_shortlist.py",
         "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/health_check_v2.py",
         "scripts/run_jarvis_agents.py",
         "scripts/run_jarvis_operations.py",
@@ -2044,6 +2343,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -2118,6 +2425,7 @@
         "scripts/export_shopify_operational.py",
         "scripts/build_shopify_action_queue.py",
         "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/audit_team_reports.py"
       ]
     },
@@ -2202,6 +2510,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -2368,6 +2684,7 @@
         "scripts/check_release_quality.py",
         "scripts/source_safety_checkpoint.py",
         "scripts/build_shopify_shortlist.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/audit_team_reports.py"
       ]
     },
@@ -2426,11 +2743,13 @@
       ],
       "runs": [
         "scripts/normalize_obsidian_links.py",
-        "scripts/generate_dashboard_runtime.py"
+        "scripts/generate_dashboard_runtime.py",
+        "scripts/collector_snapshot_history.py"
       ],
       "effective": [
         "scripts/normalize_obsidian_links.py",
         "scripts/generate_dashboard_runtime.py",
+        "scripts/collector_snapshot_history.py",
         "scripts/health_check_v2.py",
         "scripts/run_jarvis_agents.py",
         "scripts/run_jarvis_operations.py",
@@ -2514,6 +2833,7 @@
         "scripts/test_preflight_workflow.py",
         "scripts/test_daiso_collection_validation.py",
         "scripts/test_daiso_candidates.py",
+        "scripts/test_recover_daiso_candidates.py",
         "scripts/test_listing_copy_local.py",
         "scripts/test_operational_freshness.py",
         "scripts/test_workflow_status.py",
@@ -2573,6 +2893,7 @@
         "scripts/test_preflight_workflow.py",
         "scripts/test_daiso_collection_validation.py",
         "scripts/test_daiso_candidates.py",
+        "scripts/test_recover_daiso_candidates.py",
         "scripts/test_listing_copy_local.py",
         "scripts/test_operational_freshness.py",
         "scripts/test_workflow_status.py",
@@ -2638,6 +2959,7 @@
         "scripts/test_preflight_workflow.py",
         "scripts/test_daiso_collection_validation.py",
         "scripts/test_daiso_candidates.py",
+        "scripts/test_recover_daiso_candidates.py",
         "scripts/test_listing_copy_local.py",
         "scripts/test_operational_freshness.py",
         "scripts/test_workflow_status.py",
@@ -2690,6 +3012,7 @@
         "scripts/test_preflight_workflow.py",
         "scripts/test_daiso_collection_validation.py",
         "scripts/test_daiso_candidates.py",
+        "scripts/test_recover_daiso_candidates.py",
         "scripts/test_listing_copy_local.py",
         "scripts/test_operational_freshness.py",
         "scripts/test_workflow_status.py",
@@ -2817,7 +3140,8 @@
           "paths": [
             "data/serpapi_market.json",
             "data/serpapi_usage.json",
-            "data/youtube_serpapi.json"
+            "data/youtube_serpapi.json",
+            "data/publish_deletions.json"
           ],
           "candidate_only": false,
           "commerce_regeneration": false,
@@ -2858,11 +3182,13 @@
       ],
       "runs": [
         "scripts/collect_serpapi_market.py",
-        "scripts/collect_serpapi_youtube.py"
+        "scripts/collect_serpapi_youtube.py",
+        "scripts/collector_snapshot_history.py"
       ],
       "effective": [
         "scripts/collect_serpapi_market.py",
         "scripts/collect_serpapi_youtube.py",
+        "scripts/collector_snapshot_history.py",
         "scripts/health_check_v2.py",
         "scripts/generate_dashboard_runtime.py",
         "scripts/run_jarvis_agents.py",
@@ -2973,6 +3299,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -3055,10 +3389,24 @@
         "scripts/daiso/score_shopify_demand.py",
         "scripts/build_shopify_shortlist.py",
         "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/health_check_v2.py",
         "scripts/run_jarvis_operations.py",
         "scripts/check_release_quality.py",
         "scripts/audit_team_reports.py"
+      ]
+    },
+    ".github/workflows/shopify-markets-setup.yml": {
+      "publishes": false,
+      "regenerates_dashboard": false,
+      "runs_audit": false,
+      "mandatory_release_gate": false,
+      "publish_profiles": [],
+      "runs": [
+        "scripts/shopify_markets_setup.py"
+      ],
+      "effective": [
+        "scripts/shopify_markets_setup.py"
       ]
     },
     ".github/workflows/us-retail-collect.yml": {
@@ -3081,7 +3429,8 @@
             "data/market_team.json",
             "data/shopify_marketing_strategy.json",
             "data/listing_gate.json",
-            "data/knowledge/cumulative_history.json"
+            "data/knowledge/cumulative_history.json",
+            "data/publish_deletions.json"
           ],
           "candidate_only": false,
           "commerce_regeneration": true,
@@ -3139,6 +3488,14 @@
               "--cached-only"
             ],
             [
+              "scripts/build_beauty_price_strategy.py",
+              "--as-of",
+              "now",
+              "--output",
+              "data/beauty_price_strategy.json",
+              "--overwrite"
+            ],
+            [
               "scripts/health_check_v2.py"
             ],
             [
@@ -3173,11 +3530,13 @@
       ],
       "runs": [
         "scripts/collect_us_retail.py",
-        "scripts/collect_sokoglam.py"
+        "scripts/collect_sokoglam.py",
+        "scripts/collector_snapshot_history.py"
       ],
       "effective": [
         "scripts/collect_us_retail.py",
         "scripts/collect_sokoglam.py",
+        "scripts/collector_snapshot_history.py",
         "scripts/build_product_master.py",
         "scripts/daiso/score_shopify_demand.py",
         "scripts/pricing_model.py",
@@ -3190,6 +3549,7 @@
         "scripts/export_shopify_operational.py",
         "scripts/build_shopify_action_queue.py",
         "scripts/discover_channels.py",
+        "scripts/build_beauty_price_strategy.py",
         "scripts/health_check_v2.py",
         "scripts/generate_dashboard_runtime.py",
         "scripts/run_jarvis_agents.py",
@@ -3364,6 +3724,9 @@
     "data/youtube_serpapi.json": [
       "scripts/collect_serpapi_youtube.py"
     ],
+    "data/shop_com_categories.json": [
+      "scripts/collect_shop_com_categories.py"
+    ],
     "data/sokoglam_products.json": [
       "scripts/collect_sokoglam.py"
     ],
@@ -3397,6 +3760,9 @@
     ],
     "data/daiso_real/shopify_s_rejected.json": [
       "scripts/daiso/score_shopify_demand.py"
+    ],
+    "data/price_strategy_log.json": [
+      "scripts/daiso_daily_beauty_to_shopify.py"
     ],
     "data/channel_candidates.json": [
       "scripts/discover_channels.py"
