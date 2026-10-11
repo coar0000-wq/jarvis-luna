@@ -16,5 +16,6 @@
   "outline": true,
   "word-count": true,
   "file-recovery": true,
-  "properties": true
+  "properties": true,
+  "bases": true
 }

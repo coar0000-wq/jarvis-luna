@@ -48,6 +48,8 @@ ROTATING = {
     "data/us_beauty_products.json": ["products", "items", "by_store/*", "by_store/*/products", "by_store/*/items"],
     "data/serpapi_market.json": ["prices/items", "prices/failures", "trends/items", "trends/failures"],
     "data/knowledge/real_sources.json": ["sources/*/items"],
+    # 환율 관측은 통째로 새 값으로 바뀐다 (대조 목록·보조 필드 포함). 다른 칸은 그대로 지킨다.
+    "data/daiso_real/collection_status.json": ["fx"],
 }
 
 
@@ -69,8 +71,8 @@ def allowed_removals(rel: str, old, new, policy: dict, where: tuple[str, ...] = 
     """Identities removed only inside declared rotating lists; anything else raises."""
     contract = {"identity_fields": policy["identity_fields"]}
     if rotating(rel, where):
-        if not isinstance(old, list) or not isinstance(new, list):
-            raise ValueError(f"rotating container is not a list: {rel}/{'/'.join(where)}")
+        if not ((isinstance(old, list) and isinstance(new, list)) or (isinstance(old, dict) and isinstance(new, dict))):
+            raise ValueError(f"rotating container type changed: {rel}/{'/'.join(where)}")
         return list(removed_identities(old, new, contract))
     if isinstance(old, dict):
         if not isinstance(new, dict):

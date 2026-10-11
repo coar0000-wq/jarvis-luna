@@ -1,16 +1,61 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:Knowledge/Records",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
-    { "query": "path:Knowledge/Records", "color": { "a": 1, "rgb": 5809151 } },
-    { "query": "path:Knowledge/Topics", "color": { "a": 1, "rgb": 4176720 } },
-    { "query": "path:Knowledge/Sources", "color": { "a": 1, "rgb": 13801250 } },
-    { "query": "path:Briefings", "color": { "a": 1, "rgb": 10708727 } }
+    {
+      "query": "path:Knowledge/Sources",
+      "color": {
+        "a": 1,
+        "rgb": 13801250
+      }
+    },
+    {
+      "query": "path:Knowledge/Topics",
+      "color": {
+        "a": 1,
+        "rgb": 4176720
+      }
+    },
+    {
+      "query": "path:Knowledge/Orgs",
+      "color": {
+        "a": 1,
+        "rgb": 16750848
+      }
+    },
+    {
+      "query": "path:Knowledge/Teams",
+      "color": {
+        "a": 1,
+        "rgb": 10040319
+      }
+    },
+    {
+      "query": "path:Concepts",
+      "color": {
+        "a": 1,
+        "rgb": 5809151
+      }
+    },
+    {
+      "query": "path:Personal",
+      "color": {
+        "a": 1,
+        "rgb": 8421504
+      }
+    },
+    {
+      "query": "path:Phases OR path:Briefings",
+      "color": {
+        "a": 1,
+        "rgb": 10708727
+      }
+    }
   ],
   "collapse-display": false,
   "showArrow": false,

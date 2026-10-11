@@ -321,12 +321,111 @@ def source_name(row: dict) -> str:
     return "Source · " + slug(source, "Unknown")
 
 
-def write_note(path: Path, title: str, tags: list[str], links: list[str], body: str) -> None:
+SAMPLE_LINKS = 12  # 허브 노트에 남기는 대표 레코드 링크 수 (그래프가 읽히는 수준)
+UPDATED_RE = re.compile(r"^updated_at: .*$", re.M)
+
+
+def _yaml_value(value) -> str:
+    if isinstance(value, (list, tuple)):
+        return "[" + ", ".join(_yaml_value(v) for v in value) + "]"
+    if isinstance(value, bool):
+        return str(value).lower()
+    if isinstance(value, int):
+        return str(value)
+    text = str(value or "").replace("\\", "/").replace('"', "'").replace("\n", " ").strip()
+    return f'"{text}"'
+
+
+def write_note(path: Path, title: str, tags: list[str], links: list[str], body: str,
+               properties: dict | None = None) -> bool:
+    """노트를 쓴다. 내용이 같으면(updated_at 만 다르면) 파일을 건드리지 않는다.
+
+    2026-10-11: 레코드 노트는 링크 대신 속성(source/topics/org/domain/url)으로 데이터화한다.
+    링크는 허브(소스·주제·기관·인덱스) 사이와 허브의 대표 레코드 몇 건에만 남긴다.
+    레코드 8만여 건이 각각 4개씩 링크를 내던 구조(링크 36만 개)라 그래프 뷰가 읽히지 않았다.
+    """
     path.parent.mkdir(parents=True, exist_ok=True)
     unique_links = list(dict.fromkeys(links))
-    frontmatter = "---\n" + f'title: "{title.replace(chr(34), chr(39))}"\n' + "type: knowledge-graph\n" + "status: generated-from-real-data\n" + f"updated_at: {datetime.now(timezone.utc).isoformat()}\n" + f"tags: [{', '.join(tags)}]\n" + "---\n\n"
+    props = "".join(f"{k}: {_yaml_value(v)}\n" for k, v in (properties or {}).items() if v not in (None, "", []))
+    frontmatter = ("---\n" + f'title: "{title.replace(chr(34), chr(39))}"\n' + "type: knowledge-graph\n"
+                   + "status: generated-from-real-data\n" + f"updated_at: {datetime.now(timezone.utc).isoformat()}\n"
+                   + f"tags: [{', '.join(tags)}]\n" + props + "---\n\n")
     link_block = "\n## Connected nodes\n\n" + " ".join(wiki(link) for link in unique_links) + "\n" if unique_links else ""
-    path.write_text(frontmatter + f"# {title}\n\n" + body.strip() + "\n" + link_block, encoding="utf-8")
+    text = frontmatter + f"# {title}\n\n" + body.strip() + "\n" + link_block
+    if path.exists():
+        try:
+            old = path.read_text(encoding="utf-8")
+        except (OSError, UnicodeDecodeError):
+            old = ""
+        if UPDATED_RE.sub("", old) == UPDATED_RE.sub("", text):
+            return False
+    path.write_text(text, encoding="utf-8")
+    return True
+
+
+def short_source(src: str) -> str:
+    return slug(src.split("·", 1)[-1].strip(), "Unknown")
+
+
+def record_properties(record: str, row: dict, src: str, topics: list[str], org: str) -> dict:
+    url = str(row.get("url", "") or "")
+    return {"source": short_source(src), "topics": [slug(x) for x in topics],
+            "org": org, "domain": urlparse(url).netloc or "", "url": url,
+            "kind": str(row.get("kind") or "")}
+
+
+CONNECTED_RE = re.compile(r"\n## Connected nodes\n\n(.*?)\n?\Z", re.S)
+LINK_RE = re.compile(r"\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]")
+URL_RE = re.compile(r"원문: \[([^\]]*)\]\(([^)]*)\)")
+
+
+def migrate_record_links(folder: Path) -> int:
+    """예전 레코드 노트의 '## Connected nodes' 링크를 속성으로 옮기고 링크 줄을 지운다 (노트당 한 번)."""
+    changed = 0
+    for note in folder.glob("*.md"):
+        try:
+            text = note.read_text(encoding="utf-8")
+        except (OSError, UnicodeDecodeError):
+            continue
+        m = CONNECTED_RE.search(text)
+        if not m or not text.startswith("---\n") or "\n---\n" not in text[3:]:
+            continue
+        names = [x.strip() for x in LINK_RE.findall(m.group(1))]
+        source = next((n[len("Source--"):] for n in names if n.startswith("Source--")), "")
+        org = next((n[len("기관--"):] for n in names if n.startswith("기관--")), "")
+        topics = [n for n in names if not n.startswith(("Source--", "기관--")) and n != "JARVIS Real Knowledge Index"]
+        um = URL_RE.search(text)
+        props = {"source": source, "topics": topics, "org": org,
+                 "domain": um.group(1) if um else "", "url": um.group(2) if um else ""}
+        close = text.index("\n---\n", 3)
+        head = text[:close + 1]
+        if "\nsource:" not in head and "\ntopics:" not in head:
+            head += "".join(f"{k}: {_yaml_value(v)}\n" for k, v in props.items() if v not in (None, "", []))
+        rest = text[close + 1:m.start()]
+        note.write_text(head + rest.rstrip() + "\n", encoding="utf-8")
+        changed += 1
+    return changed
+
+
+def hub_body(count: int, label: str, breakdown_title: str, breakdown: dict, items: list[dict], data_block: str) -> str:
+    lines = [f"실제 수집 레코드 **{count:,}건**이 이 {label}에 속합니다. 레코드 하나하나는 링크 대신 "
+             "속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.", ""]
+    if breakdown:
+        lines += [f"### {breakdown_title}", "", "| 항목 | 건수 |", "|---|---|"]
+        lines += [f"| {wiki(k)} | {v:,} |" for k, v in sorted(breakdown.items(), key=lambda kv: -kv[1])]
+        lines.append("")
+    sample = items[-SAMPLE_LINKS:][::-1]
+    lines += [f"### 최근 레코드 {len(sample)}건", ""]
+    lines += [f"- {wiki(item['node'])}" for item in sample]
+    lines += ["", "### 전체 레코드 (표)", "", "```base", data_block.strip(), "```"]
+    return "\n".join(lines)
+
+
+def base_block(prop_filter: str) -> str:
+    return ("filters:\n  and:\n    - file.inFolder(\"Knowledge/Records\")\n"
+            f"    - {prop_filter}\n"
+            "views:\n  - type: table\n    name: 레코드\n    order:\n      - file.name\n      - source\n"
+            "      - topics\n      - org\n      - domain\n    limit: 200\n")
 
 
 def main() -> int:
@@ -370,42 +469,51 @@ def main() -> int:
         url = row.get("url", "")
         domain = urlparse(url).netloc or "unknown"
         body = f"> 실제 수집 레코드입니다. 원문: [{domain}]({url})\n\n**제목:** {title}\n\n{row.get('text', '').strip()}\n\n**출처:** {src}"
-        org_link = [f"기관 · {org}"] if org else []
-        write_note(KNOWLEDGE / "Records" / f"{slug(record)}.md", record, ["record", "real-data"], [src, *topic_names(row), *org_link, "JARVIS Real Knowledge Index"], body)
+        write_note(KNOWLEDGE / "Records" / f"{slug(record)}.md", record, ["record", "real-data"], [], body,
+                   properties=record_properties(record, row, src, topic_names(row), org))
 
     source_links: list[str] = []
     for src, items in sorted(source_records.items()):
         source_links.append(src)
-        links = [item["node"] for item in items] + sorted({topic for item in items for topic in topic_names(item["row"])}) + ["JARVIS Real Knowledge Index"]
-        body = f"실제 수집 레코드 **{len(items)}건**이 이 소스에 연결되어 있습니다.\n\n" + "\n".join(f"- {wiki(item['node'])}" for item in items)
-        write_note(KNOWLEDGE / "Sources" / f"{slug(src)}.md", src, ["source", "real-data"], links, body)
+        by_topic: dict[str, int] = defaultdict(int)
+        for item in items:
+            for tp in topic_names(item["row"]):
+                by_topic[tp] += 1
+        body = hub_body(len(items), "소스", "주제별 건수", dict(by_topic), items, base_block(f'source == "{short_source(src)}"'))
+        write_note(KNOWLEDGE / "Sources" / f"{slug(src)}.md", src, ["source", "real-data"], ["JARVIS Real Knowledge Index"], body,
+                   properties={"record_count": len(items)})
 
     topic_links: list[str] = []
     for topic, items in sorted(topic_records.items()):
         topic_links.append(topic)
-        links = [item["node"] for item in items] + sorted({source_name(item["row"]) for item in items}) + ["JARVIS Real Knowledge Index"]
-        body = f"실제 수집 레코드 **{len(items)}건**이 이 주제에 연결되어 있습니다.\n\n" + "\n".join(f"- {wiki(item['node'])}" for item in items)
-        write_note(KNOWLEDGE / "Topics" / f"{slug(topic)}.md", topic, ["topic", "real-data"], links, body)
+        by_src: dict[str, int] = defaultdict(int)
+        for item in items:
+            by_src[source_name(item["row"])] += 1
+        body = hub_body(len(items), "주제", "소스별 건수", dict(by_src), items, base_block(f'topics.contains("{slug(topic)}")'))
+        write_note(KNOWLEDGE / "Topics" / f"{slug(topic)}.md", topic, ["topic", "real-data"], ["JARVIS Real Knowledge Index"], body,
+                   properties={"record_count": len(items)})
 
     org_links: list[str] = []
     for org_node, items in sorted(org_records.items()):
         org_links.append(org_node)
-        links = ([item["node"] for item in items]
-                 + sorted({t for item in items for t in topic_names(item["row"])})
-                 + ["JARVIS Real Knowledge Index"])
+        by_topic_o: dict[str, int] = defaultdict(int)
+        for item in items:
+            for tp in topic_names(item["row"]):
+                by_topic_o[tp] += 1
         kinds: dict[str, int] = {}
         for item in items:
             k = str(item["row"].get("kind") or "기타")
             kinds[k] = kinds.get(k, 0) + 1
         breakdown = ", ".join(f"{k} {v}건" for k, v in sorted(kinds.items()))
-        body = (f"실제 수집 레코드 **{len(items)}건**이 이 기관에 연결되어 있습니다. ({breakdown})\n\n"
-                + "\n".join(f"- {wiki(item['node'])}" for item in items))
+        org_plain = org_node.split("·", 1)[-1].strip()
+        body = f"유형별: {breakdown}\n\n" + hub_body(len(items), "기관", "주제별 건수", dict(by_topic_o), items,
+                                                   base_block(f'org == "{org_plain}"'))
         write_note(KNOWLEDGE / "Orgs" / f"{slug(org_node)}.md", org_node,
-                   ["org", "real-data"], links, body)
+                   ["org", "real-data"], ["JARVIS Real Knowledge Index"], body, properties={"record_count": len(items)})
 
-    index_links = source_links + topic_links + org_links + record_nodes
+    index_links = source_links + topic_links + org_links  # 레코드는 속성·표로 조회한다 (2026-10-11)
     body = (
-        "이 인덱스는 실제 수집 코퍼스에서 자동 생성되었습니다. Graph View에서 소스·주제·개별 레코드의 3단계 연결을 제공합니다.\n\n"
+        "이 인덱스는 실제 수집 코퍼스에서 자동 생성되었습니다. 그래프는 인덱스와 소스·주제·기관 허브만 연결하고, 개별 레코드는 속성으로 데이터화해 표(Knowledge/JARVIS Records.base)로 조회합니다.\n\n"
         f"- 실제 레코드: **{len(rows)}건**\n"
         f"- 소스 노드: **{len(source_links)}개**\n"
         f"- 주제 노드: **{len(topic_links)}개**\n\n"
@@ -413,6 +521,18 @@ def main() -> int:
         "### Topic nodes\n\n" + "\n".join(f"- {wiki(link)}" for link in topic_links)
     )
     write_note(KNOWLEDGE / "JARVIS Real Knowledge Index.md", "JARVIS Real Knowledge Index", ["index", "real-data", "graph"], index_links, body)
+    migrated = migrate_record_links(KNOWLEDGE / "Records")
+    if migrated:
+        print(f"예전 레코드 노트 {migrated:,}건의 링크를 속성으로 옮김")
+    base = KNOWLEDGE / "JARVIS Records.base"
+    base_text = ("filters:\n  and:\n    - file.inFolder(\"Knowledge/Records\")\n"
+                 "views:\n  - type: table\n    name: 전체 레코드\n    order:\n      - file.name\n      - source\n"
+                 "      - topics\n      - org\n      - domain\n      - url\n")
+    for s in sorted(source_links):
+        base_text += (f"  - type: table\n    name: {short_source(s)}\n    filters:\n      and:\n"
+                      f"        - source == \"{short_source(s)}\"\n    order:\n      - file.name\n      - topics\n      - org\n      - domain\n")
+    if not base.exists() or base.read_text(encoding="utf-8") != base_text:
+        base.write_text(base_text, encoding="utf-8")
     save_ledger()
     print(json.dumps({"records": len(rows), "source_nodes": len(source_links), "topic_nodes": len(topic_links), "output": str(KNOWLEDGE)}, ensure_ascii=False))
     return 0

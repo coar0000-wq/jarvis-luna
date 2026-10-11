@@ -1,0 +1,51 @@
+name: 환율 단독 관측 발행 (USD/KRW)
+
+# 2026-10-11
+# 다이소 수집은 무변경·후보 모드일 때 환율을 직전 값으로 되돌린다 (운영 입력 보존 규칙,
+# test_operational_integration 이 고정). 그런데 모든 발행의 최종 품질 검사는 환율이
+# 4일 이내이기를 요구한다. 운영 상품이 4일 동안 바뀌지 않으면 환율이 갱신될 길이 없어
+# 모든 발행과 사이트 배포가 'FX stale' 로 막혔다 (10-03 이후 배포 중단의 원인).
+# 수집 규칙은 그대로 두고, 환율만 따로 관측해 정식 발행 경로(재생성 + 최종 품질 검사)로 올린다.
+on:
+  schedule:
+    - cron: "52 21 * * *"   # 매일 06:52 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # collection_status.json 을 다이소 수집과 함께 쓰므로 같은 잠금으로 직렬화한다.
+  group: main-publish
+  cancel-in-progress: false
+
+jobs:
+  fx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install locked publication dependencies
+        run: |
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
+
+      - name: 환율 받기 (두 곳 대조, 기준일 후퇴 금지)
+        run: python -u scripts/fetch_fx_rate.py
+
+      - name: 환율 대조 목록 교체 사유 기록 (가드 유지)
+        run: python -B scripts/collector_snapshot_history.py data/daiso_real/collection_status.json
+
+      - name: 발행 (원격 최신 위에 환율만, 커머스 재생성 + 최종 품질 검사)
+        uses: ./.github/actions/publish
+        with:
+          paths: data/daiso_real/collection_status.json data/publish_deletions.json
+          message: 환율 단독 관측 발행
+          regenerate-dashboard: 'true'
+          audit: 'false'
