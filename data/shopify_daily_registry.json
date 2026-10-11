@@ -69,6 +69,41 @@
         "listing_gate_public_blocked_by:legal,legal_full"
       ],
       "note": "2026-10-10 고시·성분·이미지 4장 확인 후 수동 공개(Online Store + 전 채널)."
+    },
+    {
+      "pd_no": "1067498",
+      "family": "vtpdrn광채크림50ml",
+      "name_kr": "VT PDRN 광채 크림 50 ml",
+      "title": "VT PDRN Radiance Cream 50 ml",
+      "category": "skincare",
+      "date": "2026-10-11",
+      "status": "ACTIVE",
+      "krw": 5000,
+      "single_usd": 18.99,
+      "single_margin_pct": 33.0,
+      "pack_usd": 32.99,
+      "pack_margin_pct": 43.1,
+      "size": {
+        "unit": 50.0,
+        "base": "ml",
+        "count": 1,
+        "total": 50.0
+      },
+      "images": 3,
+      "price_basis": "shop.com 최저가가 바닥보다 낮아 바닥가로 설정",
+      "shop_com_lowest_usd": 14.99,
+      "draft_reasons": [],
+      "grade": "S",
+      "source": "jarvis_s_list",
+      "price_position": "unfavorable",
+      "strategy_hints": [
+        "1+1 세트·번들로 직접 비교 회피",
+        "상품 이미지·설명(한국 인기 근거) 보강",
+        "가격 외 채널(SNS) 노출 우선",
+        "판매·클릭 데이터가 쌓이면 효과 검증"
+      ],
+      "shopify_id": "gid://shopify/Product/9538199421185",
+      "handle": "vt-pdrn-radiance-cream-50-ml"
     }
   ]
 }
