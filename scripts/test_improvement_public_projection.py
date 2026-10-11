@@ -33,7 +33,9 @@ class EvidencePublicTests(unittest.TestCase):
         value['teams']['unknown'] = {'identity': 'PRIVATE'}
         result = project(value, TEAM_IMPROVEMENT_EVIDENCE)
         self.assertEqual(set(result['teams']), set(TEAM_IDS))
-        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 32)
+        # The one bounded beauty-price file does not create an additional team-evidence payload.
+        self.assertEqual(len(STATIC_FILES) + len(SCHEMAS), 33)
+        self.assertIn('data/beauty_price_strategy.json', SCHEMAS)
         runtime = project({'team_improvement_evidence': value}, SCHEMAS['data/dashboard_runtime.json'])
         self.assertEqual(runtime['team_improvement_evidence'], result)
 
