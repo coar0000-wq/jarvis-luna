@@ -90,7 +90,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T21:27:31.786118+00:00",
+      "auto_checked_at": "2026-10-11T22:30:25.618369+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -137,7 +137,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T21:27:31.786880+00:00",
+      "auto_checked_at": "2026-10-11T22:30:25.619247+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -184,7 +184,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-11T21:27:31.787351+00:00",
+      "auto_checked_at": "2026-10-11T22:30:25.619805+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -237,7 +237,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T21:27:31.785634+00:00",
+      "auto_checked_at": "2026-10-11T22:30:25.617822+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -287,7 +287,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T21:27:31.786479+00:00",
+      "auto_checked_at": "2026-10-11T22:30:25.618790+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -339,7 +339,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T21:27:31.787372+00:00"
+      "auto_checked_at": "2026-10-11T22:30:25.619829+00:00"
     },
     "1068733": {
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
@@ -386,7 +386,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T21:27:31.787389+00:00"
+      "auto_checked_at": "2026-10-11T22:30:25.619848+00:00"
     },
     "1074979": {
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
@@ -433,7 +433,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-11T21:27:31.787408+00:00"
+      "auto_checked_at": "2026-10-11T22:30:25.619870+00:00"
     }
   },
   "auto_summary": {
@@ -443,7 +443,7 @@
     "pass": 3,
     "out_of_scope": 25
   },
-  "auto_checked_at": "2026-10-11T21:27:31.787415+00:00",
+  "auto_checked_at": "2026-10-11T22:30:25.619878+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
