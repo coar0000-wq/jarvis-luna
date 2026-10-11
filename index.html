@@ -1914,7 +1914,7 @@ a.classList.add('active');
 (async function(){
   var grid=document.getElementById('dp-grid'), kp=document.getElementById('dp-kpis'), when=document.getElementById('dp-when');
   if(!grid||!kp||!when) return;
-  var CATS=[['skincare','스킨케어','S등급만'],['makeup','메이크업','S 우선, 없으면 A'],['body','바디케어','S 우선, 없으면 A']];
+  var CATS=[['skincare','스킨케어','S등급만'],['makeup','메이크업','S등급만'],['body','바디케어','S등급만']];
   var STEPS=['등급 기록','가격·마진','고시·INCI 증적','상품 이미지','공개 기록'];
   function el(tag,cls,txt){var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e;}
   function kst(){ return new Date(Date.now()+9*3600*1000).toISOString().slice(0,10); }
@@ -1943,7 +1943,7 @@ a.classList.add('active');
     else if(it.status==='DRAFT'){ badge=el('span','dp-badge dp-warn','초안 기록'); draft++; }
     else { badge=el('span','dp-badge dp-none',it.status==='deleted_by_owner'?'삭제 이력':'상태 확인 필요'); }
     cat.appendChild(badge); card.appendChild(cat);
-    card.appendChild(el('div','dp-title', it? it.title : '오늘 기준 S/A 후보가 없거나 대기 중이에요'));
+    card.appendChild(el('div','dp-title', it? it.title : '오늘 기준 S등급 후보가 없거나 대기 중이에요'));
     var price='';
     if(it&&it.single_usd!=null){ price='$'+Number(it.single_usd).toFixed(2)+' (마진 '+it.single_margin_pct+'%)'; if(it.pack_usd) price+=' · 1+1 $'+Number(it.pack_usd).toFixed(2)+' ('+it.pack_margin_pct+'%)'; }
     card.appendChild(el('div','dp-price', price|| (it?'':'다음 실행에서 다시 확인')));

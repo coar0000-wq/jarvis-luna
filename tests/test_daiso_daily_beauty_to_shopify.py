@@ -15,16 +15,15 @@ spec.loader.exec_module(daily)
 
 
 class DailySafetyTests(unittest.TestCase):
-    def test_skincare_s_only_makeup_body_s_then_a(self):
+    def test_all_categories_s_only_without_a_fallback(self):
         skin = daily.s_ranked(daily.CATEGORIES[0])
         self.assertTrue(skin and all(x["grade"] == "S" for x in skin))
-        for cat in daily.CATEGORIES[1:]:
-            rows = daily.s_ranked(cat)
-            self.assertTrue(rows)
-            self.assertTrue(all(x["grade"] in ("S", "A") for x in rows))
-            self.assertEqual([x["grade"] for x in rows], sorted(x["grade"] for x in rows))  # S 가 항상 먼저
-        self.assertEqual(daily.grade_label(daily.CATEGORIES[0]), "S")
-        self.assertEqual(daily.grade_label(daily.CATEGORIES[2]), "S/A")
+        for cat in daily.CATEGORIES:
+            self.assertTrue(all(x["grade"] == "S" for x in daily.s_ranked(cat)))
+            self.assertEqual(daily.grade_label(cat), "S")
+            fixture={"all_scored":[{"pd_no":"a","bucket":cat[1],"grade":"A","shopify_score":99}]}
+            with patch.object(Path, "read_text", return_value=json.dumps(fixture)):
+                self.assertEqual(daily.s_ranked(cat), [])
 
     def test_pick_never_promotes_lower_grade_or_recommendations(self):
         rows = [{"pd_no": "1", "grade": "S", "shopify_score": 99}]
@@ -172,8 +171,8 @@ class DailySafetyTests(unittest.TestCase):
                 self.assertEqual(result["results"][0]["status"], "skipped_already_today")
                 self.assertEqual(result["results"][0]["s_candidates"], 10)
                 self.assertEqual([r["status"] for r in result["results"][1:]],
-                                 ["skipped_no_eligible_s_grade", "skipped_no_eligible_s_grade"])
-                self.assertEqual([r["grade_required"] for r in result["results"]], ["S", "S/A", "S/A"])
+                                 ["skipped_no_s_grade", "skipped_no_s_grade"])
+                self.assertEqual([r["grade_required"] for r in result["results"]], ["S", "S", "S"])
             finally:
                 os.chdir(cwd)
 

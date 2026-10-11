@@ -1109,8 +1109,8 @@ BUCKETS = {
     "body": {"바디케어"},
 }
 GRADE_ORDER = {"S": 0, "A": 1}
-# 사용자 지시(2026-10-10): 스킨케어는 S등급만. S등급이 거의 없는 메이크업·바디는 S 우선, 없으면 A등급까지 허용한다.
-ALLOWED_GRADES = {"skincare": ("S",), "makeup": ("S", "A"), "body": ("S", "A")}
+# 사용자 최신 지시(2026-10-11): 3개 카테고리 모두 S등급만. 없는 카테고리는 건너뛴다.
+ALLOWED_GRADES = {"skincare": ("S",), "makeup": ("S",), "body": ("S",)}
 
 
 def grade_label(cat):
