@@ -15,6 +15,13 @@ spec.loader.exec_module(daily)
 
 
 class DailySafetyTests(unittest.TestCase):
+    def setUp(self):
+        # These are mocked Shopify runs. Never leave a fictitious product in
+        # the repository's real price observation ledger.
+        price_log = patch.object(daily, "log_price_position")
+        price_log.start()
+        self.addCleanup(price_log.stop)
+
     def test_all_categories_s_only_without_a_fallback(self):
         skin = daily.s_ranked(daily.CATEGORIES[0])
         self.assertTrue(skin and all(x["grade"] == "S" for x in skin))
