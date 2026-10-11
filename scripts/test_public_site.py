@@ -21,6 +21,17 @@ class PublicSiteTests(unittest.TestCase):
     def tearDownClass(cls): cls.tmp.cleanup()
     def setUp(self): self.manifest=build(self.root,self.output,'a'*40)
 
+    def test_daily_pipeline_does_not_present_old_or_missing_evidence_as_today_passed(self):
+        html=(self.root/'index.html').read_text(encoding='utf-8')
+        self.assertIn("if(it.date===today) live++;", html)
+        self.assertIn("legalBad?'bad':null", html)
+        self.assertIn("it.grade?'done':null", html)
+        self.assertIn("it.status==='DRAFT'", html)
+        self.assertIn("it.status==='deleted_by_owner'?'삭제 이력'", html)
+        self.assertIn("Number(it.single_margin_pct)>=30", html)
+        self.assertNotIn("legalBad?'bad':'done'", html)
+        self.assertNotIn("!(it.images>0)", html)
+
     def test_real_display_projection_build_and_check(self):
         self.assertEqual(validate(self.output),self.manifest)
         price=json.loads((self.output/'data/pricing_model.json').read_text(encoding='utf-8'))
