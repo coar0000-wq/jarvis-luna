@@ -1,7 +1,7 @@
 {
-  "last_run_attempt_at": "2026-10-05T09:19:13.854297+00:00",
-  "last_request_at": "2026-10-05T09:21:43.854830+00:00",
-  "total_http_attempts": 15,
+  "last_run_attempt_at": "2026-10-11T13:42:10.943635+00:00",
+  "last_request_at": "2026-10-11T13:44:10.945463+00:00",
+  "total_http_attempts": 20,
   "expected_ids": [
     "CP000106",
     "CP000107",
@@ -10,7 +10,7 @@
     "CP000151",
     "CP000216"
   ],
-  "last_result_status": "cached",
+  "last_result_status": "complete",
   "policy": {
     "version": 2,
     "fresh_ttl_seconds": 86400,
@@ -105,6 +105,36 @@
       "reserved_at": "2026-10-05T09:21:43.854830+00:00",
       "kind": "product",
       "pd_no": "1067498"
+    },
+    {
+      "sequence": 16,
+      "reserved_at": "2026-10-11T13:42:10.943635+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 17,
+      "reserved_at": "2026-10-11T13:42:40.944107+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 18,
+      "reserved_at": "2026-10-11T13:43:10.944206+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
+    },
+    {
+      "sequence": 19,
+      "reserved_at": "2026-10-11T13:43:40.944920+00:00",
+      "kind": "product",
+      "pd_no": "1055167"
+    },
+    {
+      "sequence": 20,
+      "reserved_at": "2026-10-11T13:44:10.945463+00:00",
+      "kind": "product",
+      "pd_no": "1067498"
     }
   ],
   "migration": {
@@ -113,14 +143,14 @@
     "legacy_last_run_attempt_at": "2026-10-04T07:02:09.734108+00:00",
     "legacy_last_request_at": "2026-10-04T07:05:39.734815+00:00"
   },
-  "last_checked_at": "2026-10-06T09:15:09.094174+00:00",
+  "last_checked_at": "2026-10-11T13:44:11.044711+00:00",
   "member_attempts": {
     "1049275": {
-      "attempted_at": "2026-10-05T07:03:56.256828+00:00",
+      "attempted_at": "2026-10-11T13:42:40.944107+00:00",
       "outcome": "success"
     },
     "1049276": {
-      "attempted_at": "2026-10-05T09:19:43.854410+00:00",
+      "attempted_at": "2026-10-11T13:43:10.944206+00:00",
       "outcome": "success"
     },
     "1049285": {
@@ -128,7 +158,7 @@
       "outcome": "success"
     },
     "1055167": {
-      "attempted_at": "2026-10-05T09:20:43.854625+00:00",
+      "attempted_at": "2026-10-11T13:43:40.944920+00:00",
       "outcome": "success"
     },
     "1059834": {
@@ -136,7 +166,7 @@
       "outcome": "success"
     },
     "1067498": {
-      "attempted_at": "2026-10-05T09:21:43.854830+00:00",
+      "attempted_at": "2026-10-11T13:44:10.945463+00:00",
       "outcome": "success"
     }
   }

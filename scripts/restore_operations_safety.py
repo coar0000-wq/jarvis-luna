@@ -43,8 +43,9 @@ STATE = runner.STATE
 LEDGER = execution.ExecutionStore.filename
 PENDING = 'data/operations/.restore-pending.json'
 MAX_FILES = 1024
-MAX_FILE_BYTES = 8 * 1024 * 1024
-MAX_TOTAL_BYTES = 16 * 1024 * 1024
+# 운영 상태 한도(runner.STATE_MAX_BYTES, 24 MiB)와 맞춘다. 2026-10-11 상향, 기록 삭제 없음.
+MAX_FILE_BYTES = max(8 * 1024 * 1024, runner.STATE_MAX_BYTES)
+MAX_TOTAL_BYTES = 40 * 1024 * 1024
 MAX_ARCHIVE_BYTES = transport.MAX_ARCHIVE_BYTES
 REPORT = re.compile(r'data/operations/reports/[A-Za-z0-9][A-Za-z0-9_.-]{0,190}\.json\Z')
 UPLOAD_NAME = 'operations-safety-${{ github.run_id }}-${{ github.run_attempt }}'

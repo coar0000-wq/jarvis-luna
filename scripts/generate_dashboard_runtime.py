@@ -1017,16 +1017,16 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
     else:
         cards.append(_team("legal", "법률·규제팀", None,
                            "legal_products.json 없음", None, "missing"))
-    # 로보틱스 수집 ------------------------------------------------------
+    # AI 수집팀 (예전 로보틱스 수집, 2026-10-11 전환) ------------------------------------------------------
     rb = load_json(D / "robotics_sources.json", None)
     if rb:
         src = rb.get("sources") or {}
         parts = " / ".join(f'{k} {len((v or {}).get("items") or [])}' for k, v in src.items())
         cards.append(_team(
-            "robotics", "로보틱스 수집", rb.get("generated_at"),
+            "robotics", "AI 수집팀", rb.get("generated_at"),
             f'{rb.get("total", 0)}건 · {parts}' + feed_tail("robotics")))
     else:
-        cards.append(_team("robotics", "로보틱스 수집", None,
+        cards.append(_team("robotics", "AI 수집팀", None,
                            "robotics_sources.json 없음", None, "missing"))
 
     # 디자인팀 ------------------------------------------------------------

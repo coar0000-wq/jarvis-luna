@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T13:39:45.212790+00:00",
+  "generator": "scripts/build_team_baselines.py",
+  "policy": "팀마다 실제 산출물에서 센 지표 1개. 첫 측정값을 기준선으로 고정하고 매 실행 current 만 갱신한다. 내부 측정이며 매출·사업 성과 검증(verified_gain)이 아니다.",
+  "teams": {
+    "channels": {
+      "metric": "usable_channels",
+      "unit": "channels",
+      "direction": "increase",
+      "baseline": {
+        "value": 4,
+        "denominator": 7,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/channel_candidates.json"
+      },
+      "current": {
+        "value": 4,
+        "denominator": 7,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/channel_candidates.json"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "institutions": {
+      "metric": "collected_institution_items",
+      "unit": "items",
+      "direction": "increase",
+      "baseline": {
+        "value": 1073,
+        "denominator": 35,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/institution_sources.json"
+      },
+      "current": {
+        "value": 1073,
+        "denominator": 35,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/institution_sources.json"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "knowledge": {
+      "metric": "real_knowledge_items",
+      "unit": "items",
+      "direction": "increase",
+      "baseline": {
+        "value": 2017,
+        "denominator": 6,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/knowledge/real_sources.json"
+      },
+      "current": {
+        "value": 2017,
+        "denominator": 6,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/knowledge/real_sources.json"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "legal": {
+      "metric": "s_products_legal_complete",
+      "unit": "products",
+      "direction": "increase",
+      "baseline": {
+        "value": 3,
+        "denominator": 8,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/legal_full.json"
+      },
+      "current": {
+        "value": 3,
+        "denominator": 8,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/legal_full.json"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "listing": {
+      "metric": "listing_copies_ok",
+      "unit": "copies",
+      "direction": "increase",
+      "baseline": {
+        "value": 9,
+        "denominator": 9,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/shopify_listing_copy.json"
+      },
+      "current": {
+        "value": 9,
+        "denominator": 9,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/shopify_listing_copy.json"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "market": {
+      "metric": "us_market_products_observed",
+      "unit": "products",
+      "direction": "increase",
+      "baseline": {
+        "value": 185,
+        "denominator": null,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/amazon_products.json+walmart+oliveyoung"
+      },
+      "current": {
+        "value": 185,
+        "denominator": null,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/amazon_products.json+walmart+oliveyoung"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "pricing": {
+      "metric": "s_products_price_gate_passed",
+      "unit": "products",
+      "direction": "increase",
+      "baseline": {
+        "value": 4,
+        "denominator": 8,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/listing_gate.json"
+      },
+      "current": {
+        "value": 4,
+        "denominator": 8,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/listing_gate.json"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "robotics": {
+      "metric": "ai_items_collected",
+      "unit": "items",
+      "direction": "increase",
+      "baseline": {
+        "value": 235,
+        "denominator": 2,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/robotics_sources.json"
+      },
+      "current": {
+        "value": 235,
+        "denominator": 2,
+        "measured_at": "2026-10-11T13:39:45.212790+00:00",
+        "source_path": "data/robotics_sources.json"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    }
+  }
+}

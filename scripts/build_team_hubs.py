@@ -59,7 +59,7 @@ TEAM_TOPICS = {
                "모델-라우팅MoE", "컴퓨터-비전", "AI-Image-Generation", "음성오디오",
                "데이터분석", "보안프라이버시", "인프라클라우드", "과학수학"],
     "기관 수집팀": ["투자은행금융", "반도체하드웨어", "경영전략"],
-    "로보틱스 수집": ["로보틱스"],
+    "AI 수집팀": ["AI-Research", "AI-Agents", "AI-에이전트", "LLM언어모델", "AI-Image-Generation"],
 }
 
 # 전 팀 공통 지시. 모든 팀 노트에 같은 문구로 들어간다.
@@ -158,8 +158,8 @@ TEAM_META = {
     "기관 수집팀": ("투자은행·반도체·AI연구소 35곳의 발표물과 논문을 모은다.",
               ["기관 RSS·사이트맵", "OpenAlex"],
               ["data/institution_sources.json"]),
-    "로보틱스 수집": ("로봇 분야 논문과 매체를 모은다.",
-               ["arXiv cs.RO·eess.SY", "IEEE Spectrum", "Robot Report"],
+    "AI 수집팀": ("AI 논문·연구 블로그·유튜브를 모은다 (2026-10-11 로보틱스에서 전환).",
+               ["arXiv via OpenAlex (AI 주제)", "Hugging Face·OpenAI·Google Research·MIT TR AI", "AI 유튜브 채널 5곳"],
                ["data/robotics_sources.json"]),
 }
 
@@ -194,7 +194,7 @@ def git_ls(path: str) -> list[str]:
 SOURCE_TEAMS = {
     "institutions": ["기관 수집팀"],
     "arxiv": ["지식 수집팀"],
-    "robotics": ["로보틱스 수집"],
+    "robotics": ["AI 수집팀"],
     "google": ["지식 수집팀", "마케팅 조사팀"],
     "youtube": ["지식 수집팀", "디자인팀"],
     "us_beauty": ["마케팅 조사팀", "상품 소싱팀"],

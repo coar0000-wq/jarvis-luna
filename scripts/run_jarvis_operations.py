@@ -30,6 +30,11 @@ CHAIN = dict(zip(('sourcing','market','pricing','legal','listing'),
                  ('market','pricing','legal','listing','channels')))
 ENGINE_NAMES = {'manager':'Manager','router':'Router','task':'Task','handoff':'Handoff',
     'watch':'Watch/Event','approval':'Approval','execution':'Execution','knowledge':'Knowledge/Feedback'}
+# 운영 상태 저장 한도. 2026-10-11: 8 MiB 에 닿아 Core/Deep 발행이 10월 초부터 멈췄다
+# ("operations state storage capacity reached; pruning/reset forbidden"). 기록을 지우거나 줄이지 않고
+# 한도만 24 MiB 로 올린다. 복구 스냅샷(restore_operations_safety)·artifact 한도도 같이 올렸다.
+# 장기적으로는 완료된 감사 체인을 소유 아카이브로 옮기는 설계가 필요하다(지우기 금지 유지).
+STATE_MAX_BYTES = 24 * 1024 * 1024
 INPUTS = ('data/product_master.json','data/pricing_model.json','data/listing_gate.json',
           'data/legal_full.json','data/mocra_readiness.json','data/shopify_shortlist.json')
 
@@ -52,7 +57,7 @@ def atomic(root, relative, value):
     if relative == STATE:
         body = (json.dumps(value, ensure_ascii=False, sort_keys=True,
                            separators=(',', ':'), allow_nan=False) + '\n').encode('utf-8')
-        if len(body) > 8 * 1024 * 1024:
+        if len(body) > STATE_MAX_BYTES:
             raise ValueError('operations state storage capacity reached; pruning/reset forbidden')
     else:
         body = (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2,

@@ -78,6 +78,59 @@ def _unique(pairs):
     return result
 
 
+BASELINES = 'data/self_improve/team_baselines.json'
+
+
+def _apply_team_baselines(base, teams, end, max_age_days):
+    """2026-10-11 사용자 지시: '비교 자료 없음' 대신 기준선을 만들어 두고 비교를 시작한다.
+
+    scripts/build_team_baselines.py 가 실제 산출물에서 센 지표의 첫 값(기준선)과 최신 값(current).
+    기준선이 비어 있는 팀에만 채운다. 내부 측정일 뿐이라 권한·사업 성과·verified_gain 은 그대로 False.
+    파일이 없거나 형식이 틀리면 아무것도 바꾸지 않는다(fail closed).
+    """
+    try:
+        target = base / BASELINES
+        if target.is_symlink() or not target.resolve().is_relative_to(base):
+            return
+        raw = target.read_bytes()
+        if len(raw) > MAX_SOURCE_BYTES:
+            return
+        doc = json.loads(raw.decode('utf-8-sig'))
+        rows = doc.get('teams') if isinstance(doc, dict) and doc.get('schema_version') == 1 else None
+        if not isinstance(rows, dict):
+            return
+    except (OSError, UnicodeError, ValueError, RecursionError):
+        return
+    sha = hashlib.sha256(raw).hexdigest()
+
+    def bpoint(pt):
+        when = _clock(pt['measured_at'])
+        if when > end:
+            raise ValueError('future_observation')
+        den = pt.get('denominator')
+        return {'value': _count(pt['value']), 'denominator': _count(den) if den is not None else None,
+                'source_path': BASELINES, 'source_sha256': sha, 'clock_field': 'measured_at',
+                'clock_at': when.isoformat(), 'captured_at': None, 'evaluated_at': None,
+                'fresh': end - when <= timedelta(days=max_age_days), 'measured_from': str(pt.get('source_path') or '')[:120]}
+
+    for tid, row in rows.items():
+        team = teams.get(tid)
+        if team is None or team.get('baseline') is not None or not isinstance(row, dict):
+            continue
+        try:
+            baseline, current = bpoint(row['baseline']), bpoint(row['current'])
+        except (KeyError, TypeError, ValueError):
+            continue
+        same = baseline['clock_at'] == current['clock_at']
+        team.update(phase='monitoring', status='baseline_established_tracking', baseline=baseline, current=current,
+                    evidence_strength='internal_metric_baseline_not_business_gain',
+                    blockers=['awaiting_next_measurement'] if same else ['internal_metric_not_business_gain'])
+        team['metric'] = {'id': str(row.get('metric') or team['metric']['id'])[:60],
+                          'unit': str(row.get('unit') or team['metric']['unit'])[:20],
+                          'direction': 'decrease' if row.get('direction') == 'decrease' else 'increase',
+                          'business_metric': False}
+
+
 def build(root, *, now=None, reviewed_sha256=None, max_age_days=14):
     """Read at most six fixed files; return 11 teams and compact summary.
 
@@ -319,6 +372,7 @@ def build(root, *, now=None, reviewed_sha256=None, max_age_days=14):
             team.update(phase='blocked', status='historical_pilot_not_current')
             team['blockers'].append('stale_pilot_evidence')
         team['historical_observation_only'] = team['status'] == 'historical_pilot_not_current'
+    _apply_team_baselines(base, teams, end, max_age_days)
     counts = {phase: sum(t['phase'] == phase for t in teams.values()) for phase in PHASES}
     out = {'schema_version': 1, 'generated_at': end.isoformat(), 'mode': 'offline_read_only_projection',
            'source_allowlist': list(REVIEWED_SHA256), 'teams': teams, 'diagnostic_monitoring': diagnostic,

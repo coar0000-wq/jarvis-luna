@@ -88,6 +88,11 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python -u scripts/collect_workflow_status.py
 
+      # 2026-10-11 사용자 지시: 자기개선 '비교 자료 없음' 대신 팀별 기준선을 두고 매 실행 현재값을 잰다.
+      - name: 팀 자기개선 기준선·현재값 측정
+        continue-on-error: true
+        run: python -u scripts/build_team_baselines.py
+
       - name: Required current canonical runtime
         id: runtime_refresh
         if: steps.operations_safety.outputs.operations_continuity == 'verified'

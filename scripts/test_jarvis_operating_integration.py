@@ -79,7 +79,7 @@ class OperatingIntegration(unittest.TestCase):
         self.put(runner.STATE,{'retained':'prior exact bytes'})
         before = (self.root/runner.STATE).read_bytes()
         with self.assertRaisesRegex(ValueError,'storage capacity'):
-            runner.atomic(self.root,runner.STATE,{'oversized':'x'*(8*1024*1024)})
+            runner.atomic(self.root,runner.STATE,{'oversized':'x'*runner.STATE_MAX_BYTES})
         self.assertEqual((self.root/runner.STATE).read_bytes(),before)
 
     def test_real_reports_existing_teams_and_handoff(self):
