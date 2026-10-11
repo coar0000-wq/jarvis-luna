@@ -86,6 +86,23 @@ class SelectionTests(unittest.TestCase):
         state['observations']['fixture-new']['status'] = 'excluded'
         self.assertEqual(self.select(state=state)[0], [])
 
+    def test_zero_skip_counts_preserve_schema_after_candidate_ages(self):
+        p = pool()
+        _, recent = self.select(pool=p)
+        self.assertEqual(recent['skipped']['candidate_recently_verified'], 1)
+        p['items']['fixture-new']['collected_at'] = OLD
+        _, stale = self.select(pool=p)
+        self.assertEqual(stale['skipped']['candidate_recently_verified'], 0)
+        self.assertEqual(set(recent['skipped']), set(stale['skipped']))
+        self.assertEqual(set(stale['skipped']), set(store.DISCOVERY_SKIP_REASONS))
+        from publish_transaction import removed_identities
+        self.assertEqual(removed_identities(recent['skipped'], stale['skipped'],
+                                            {'identity_fields': []}), [])
+
+    def test_missing_queue_keeps_zero_counter_schema(self):
+        _, info = store.select_discovery({}, set(), now=NOW)
+        self.assertEqual(info['skipped'], dict.fromkeys(store.DISCOVERY_SKIP_REASONS, 0))
+
     def test_selection_does_not_mutate_inputs(self):
         q = {'items': [queue_row()]}; before = deepcopy(q)
         store.select_discovery(q, set(), now=NOW)

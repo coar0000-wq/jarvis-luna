@@ -7,6 +7,7 @@ on:
     workflows:
       - 배포 전 검증
       - Daiso Real Product Collection
+      - Daiso Candidate Metadata Recovery
       - Gemini url_context 웹 채널 수집
       - 고시 alt 수집 (브라우저)
       - 고시 수집·비전 추출
@@ -87,6 +88,7 @@ jobs:
             python scripts/test_preflight_workflow.py
             python scripts/test_daiso_collection_validation.py
             python scripts/test_daiso_candidates.py
+            python scripts/test_recover_daiso_candidates.py
             python scripts/test_listing_copy_local.py
             python scripts/test_operational_freshness.py
             python scripts/test_workflow_status.py

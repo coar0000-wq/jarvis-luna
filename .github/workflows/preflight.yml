@@ -47,6 +47,7 @@ jobs:
         run: |
           python scripts/test_daiso_collection_validation.py
           python scripts/test_daiso_candidates.py
+          python scripts/test_recover_daiso_candidates.py
           python scripts/test_listing_copy_local.py
           python scripts/test_operational_freshness.py
           python scripts/test_workflow_status.py

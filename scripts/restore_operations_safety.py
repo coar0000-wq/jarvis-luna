@@ -36,6 +36,7 @@ import run_jarvis_operations as runner
 REPOSITORY = transport.REPOSITORY
 BASE = 'https://api.github.com/repos/' + REPOSITORY + '/actions/'
 WORKFLOWS = frozenset(('.github/workflows/daiso-real-collection.yml',
+    '.github/workflows/daiso-candidate-recovery.yml',
     '.github/workflows/JARVIS-Core-Automation.yml', '.github/workflows/JARVIS-Deep-Analysis.yml',
     '.github/workflows/fx-refresh.yml'))
 STATE = runner.STATE

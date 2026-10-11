@@ -16,6 +16,18 @@ from urllib.parse import parse_qs, urlsplit
 UTC = timezone.utc
 DISCOVERY_BUCKETS = {'스킨케어', '마스크팩', '클렌징', '메이크업', '헤어케어', '바디케어'}
 PRODUCT_PATH = '/pd/pdr/SCR_PDR_0001'
+DISCOVERY_SKIP_REASONS = (
+    'malformed_queue_row', 'duplicate_or_missing_identity', 'operating_identity',
+    'parked_exclusion', 'unknown_or_non_core_bucket', 'invalid_detail_url',
+    'legal_exclusion', 'previously_rejected', 'failure_cooldown',
+    'candidate_recently_verified',
+)
+
+
+def discovery_skip_counts():
+    # Per-attempt counts must retain their schema when an old nonzero becomes 0.
+    # Omitting a zero incorrectly looks like a source-field deletion at publish.
+    return dict.fromkeys(DISCOVERY_SKIP_REASONS, 0)
 
 
 def timestamp(value):
@@ -84,10 +96,10 @@ def select_discovery(queue, operating_ids, pool=None, state=None, *, now=None,
     pool, state = pool_document(pool), state_document(state)
     if not isinstance(queue, dict) or not isinstance(queue.get('items'), list):
         return [], {'mode': 'candidate_discovery', 'reason': 'queue_missing',
-                    'new_identities': 0, 'revalidation_identities': 0, 'skipped': {}}
+                    'new_identities': 0, 'revalidation_identities': 0, 'skipped': discovery_skip_counts()}
     operating = {product_id(x) for x in operating_ids}
     parked = {product_id(x) for x in excluded_ids}
-    skipped, seen, fresh, recheck = {}, set(), {}, {}
+    skipped, seen, fresh, recheck = discovery_skip_counts(), set(), {}, {}
 
     def skip(reason):
         skipped[reason] = skipped.get(reason, 0) + 1
