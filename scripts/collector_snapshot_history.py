@@ -50,6 +50,8 @@ ROTATING = {
     "data/knowledge/real_sources.json": ["sources/*/items"],
     # 환율 관측은 통째로 새 값으로 바뀐다 (대조 목록·보조 필드 포함). 다른 칸은 그대로 지킨다.
     "data/daiso_real/collection_status.json": ["fx"],
+    # 파생 상태 보고서: 실행마다 실패 이력 창과 범위별 판정이 통째로 바뀐다.
+    "data/agents/daiso_pipeline_health.json": ["failed_workflow_history", "input_errors", "scopes", "operating_staleness", "metadata_precision"],
 }
 
 
@@ -125,11 +127,13 @@ def update(root: Path, paths: list[str]) -> dict:
         if not ids:
             report[rel] = "no_removals"
             continue
-        entry = {"path": rel, "base_sha256": sha(base), "replacement_sha256": sha(local), "ids": ids,
+        # replacement_sha256 는 넣지 않는다. 발행 시 원격 최신과 합친 결과가 local 과 달라질 수 있어
+        # (실지식 동기화 10-11 실패 원인) base 바이트와 사라진 식별자에만 묶는다.
+        entry = {"path": rel, "base_sha256": sha(base), "ids": ids,
                  "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
                  "policy_ref": POLICY_REF, "delete_file": False}
         result["deletions"].append(entry)
-        if not deletion_authorized(rel, base, ids, result, replacement=local):
+        if not deletion_authorized(rel, base, ids, result):
             raise ValueError(f"manifest entry does not satisfy removal contract: {rel}")
         report[rel] = f"authorized {len(ids)} rotated ids"
     if result != manifest:

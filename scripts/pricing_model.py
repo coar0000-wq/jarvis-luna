@@ -86,8 +86,9 @@ def psych_price(v: float) -> float:
 #   Shopify Payments 국제 blended  3.9%
 #   Managed Markets                3.5%  (관세 계산·징수 무료 포함)
 # 이전에는 국내 기준 2.9% + $0.30 을 쓰고 있었다. 국제는 2.5배다.
-PAY_RATE, PAY_FIXED = 0.074, 0.0
-PAY_NOTE = "Shopify Payments 국제 3.9% + Managed Markets 3.5% = 7.4%"
+# 2026-10-11 사용자 확인: 판매 후 카드사가 결제 금액의 2% 를 수수료로 가져간다. 그 외 결제 수수료는 없다.
+PAY_RATE, PAY_FIXED = 0.02, 0.0
+PAY_NOTE = "판매 후 카드사 결제 수수료 (사용자 확인 2026-10-11) = 2%"
 PACKAGING_G = 40            # 완충재 + 봉투 실측 대신 보수적 추정
 
 OLIVEYOUNG = ROOT / "data" / "oliveyoung_us_products.json"

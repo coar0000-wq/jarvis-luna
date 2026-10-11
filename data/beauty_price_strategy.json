@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-11T07:21:25.641143Z",
+  "as_of": "2026-10-11T08:40:23.784723Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -30,7 +30,7 @@
     "own_live_max_age_hours": 24.0,
     "own_shipping_usd": null,
     "fx_usd_krw": 1341.69,
-    "payment_fee_rate": 0.074,
+    "payment_fee_rate": 0.02,
     "advisory_floor": {
       "min_margin_pct": 30.0,
       "target_margin_pct": 40.0,
@@ -49,7 +49,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T07:21:20.288645+00:00",
+        "timestamp": "2026-10-11T08:40:20.762595+00:00",
         "record_count": 356
       },
       {
@@ -59,7 +59,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T07:21:22.237938+00:00",
+        "timestamp": "2026-10-11T08:40:21.990582+00:00",
         "record_count": 356
       },
       {
@@ -79,7 +79,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T07:21:20.973285+00:00",
+        "timestamp": "2026-10-11T08:40:21.100431+00:00",
         "record_count": null
       },
       {
@@ -99,8 +99,8 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T07:21:24.472558+00:00",
-        "record_count": 0
+        "timestamp": "2026-10-11T08:40:23.284782+00:00",
+        "record_count": 4
       },
       {
         "key": "shopify_products",
@@ -296,7 +296,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-03T11:42:15.459821+00:00",
-        "age_hours": 187.65,
+        "age_hours": 188.97,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -311,7 +311,7 @@
         "channel": "sokoglam_us",
         "present": true,
         "collected_at": "2026-10-03T11:52:29.376541+00:00",
-        "age_hours": 187.48,
+        "age_hours": 188.8,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -326,7 +326,7 @@
         "channel": "sephora",
         "present": true,
         "collected_at": "2026-10-03T00:00:16.480361+00:00",
-        "age_hours": 199.35,
+        "age_hours": 200.67,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -341,7 +341,7 @@
         "channel": "ulta_beauty",
         "present": true,
         "collected_at": "2026-10-03T00:00:16.480361+00:00",
-        "age_hours": 199.35,
+        "age_hours": 200.67,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -356,7 +356,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 620.03,
+        "age_hours": 621.35,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -371,7 +371,7 @@
         "channel": "amazon_best_sellers",
         "present": true,
         "collected_at": "2026-10-03T00:00:16.477735+00:00",
-        "age_hours": 199.35,
+        "age_hours": 200.67,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -386,7 +386,7 @@
         "channel": "amazon_new_beauty",
         "present": true,
         "collected_at": "2026-10-03T00:00:16.479473+00:00",
-        "age_hours": 199.35,
+        "age_hours": 200.67,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -401,7 +401,7 @@
         "channel": "amazon_movers_beauty",
         "present": true,
         "collected_at": "2026-10-03T00:00:16.479114+00:00",
-        "age_hours": 199.35,
+        "age_hours": 200.67,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -432,8 +432,8 @@
     "market_items_with_shipping": 0,
     "own_price": {
       "live": 2,
-      "draft_payload": 0,
-      "model_recommended": 8,
+      "draft_payload": 2,
+      "model_recommended": 6,
       "missing": 276
     },
     "pricing_model_landed_cost_products": 10,
@@ -452,9 +452,9 @@
       "unknown": 286
     },
     "profitability_risk": {
-      "below_advisory_floor": 4,
-      "below_target_margin": 4,
-      "ok": 2,
+      "below_advisory_floor": 1,
+      "below_target_margin": 6,
+      "ok": 3,
       "unknown": 276
     },
     "product_level_analytics_observations": 0
@@ -615,9 +615,7 @@
           "priority_rank": 1,
           "priority_score": 60.0,
           "score_bucket": "스킨케어",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         },
         {
           "pd_no": "1049275",
@@ -633,45 +631,35 @@
           "priority_rank": 3,
           "priority_score": 58.8,
           "score_bucket": "스킨케어",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         },
         {
           "pd_no": "1067498",
           "priority_rank": 4,
           "priority_score": 57.6,
           "score_bucket": "스킨케어",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         },
         {
           "pd_no": "1072554",
           "priority_rank": 5,
           "priority_score": 57.6,
           "score_bucket": "스킨케어",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         },
         {
           "pd_no": "1075857",
           "priority_rank": 6,
           "priority_score": 56.4,
           "score_bucket": "스킨케어",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         },
         {
           "pd_no": "1049285",
           "priority_rank": 7,
           "priority_score": 55.2,
           "score_bucket": "스킨케어",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         },
         {
           "pd_no": "1027327",
@@ -687,18 +675,14 @@
           "priority_rank": 9,
           "priority_score": 54.0,
           "score_bucket": "마스크팩",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         },
         {
           "pd_no": "1042619",
           "priority_rank": 10,
           "priority_score": 51.6,
           "score_bucket": "마스크팩",
-          "blockers": [
-            "manufacturer_safety_record_missing"
-          ]
+          "blockers": []
         }
       ],
       "makeup": [],
@@ -741,8 +725,8 @@
       },
       "own_price": {
         "live": 2,
-        "draft_payload": 0,
-        "model_recommended": 8,
+        "draft_payload": 2,
+        "model_recommended": 6,
         "missing": 209
       },
       "quantity_usable": 187,
@@ -756,9 +740,9 @@
         "unknown": 219
       },
       "profitability_risk_counts": {
-        "below_advisory_floor": 4,
-        "below_target_margin": 4,
-        "ok": 2,
+        "below_advisory_floor": 1,
+        "below_target_margin": 6,
+        "ok": 3,
         "unknown": 209
       },
       "priority_top5": [
@@ -793,7 +777,7 @@
           "evidence_status": "unknown_price_evidence"
         }
       ],
-      "strategy_note": "skincare: 10 S, 74 A; 2 with an own live/draft price; 0 with a verified price position; 3 non-beauty misfit(s) excluded from ranking. Price advantage is not claimed where unverified."
+      "strategy_note": "skincare: 10 S, 74 A; 4 with an own live/draft price; 0 with a verified price position; 3 non-beauty misfit(s) excluded from ranking. Price advantage is not claimed where unverified."
     },
     "makeup": {
       "daiso_name": "메이크업",
@@ -1270,7 +1254,7 @@
             "price_usd": 13.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -1302,7 +1286,7 @@
           "median_usd": 14.16,
           "max_usd": 52.0,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1354,25 +1338,25 @@
             "status": "computed",
             "price_usd": 13.99,
             "landed_cost_usd": 7.13,
-            "fee_usd": 1.04,
-            "net_profit_usd": 5.82,
-            "margin_pct": 41.6,
-            "risk": "below_target_margin"
+            "fee_usd": 0.28,
+            "net_profit_usd": 6.58,
+            "margin_pct": 47.0,
+            "risk": "ok"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 13.99,
             "landed_cost_usd": 4.37,
-            "fee_usd": 1.04,
-            "net_profit_usd": 8.58,
-            "margin_pct": 61.3,
+            "fee_usd": 0.28,
+            "net_profit_usd": 9.34,
+            "margin_pct": 66.8,
             "risk": "ok"
           }
         },
-        "risk": "below_target_margin",
+        "risk": "ok",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "below_target_margin",
+      "profitability_risk": "ok",
       "priority": {
         "score": 54.0,
         "evidence_status": "unknown_price_evidence",
@@ -1405,7 +1389,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": "마스크팩",
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -1460,7 +1444,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -1526,18 +1510,18 @@
             "status": "computed",
             "price_usd": 22.99,
             "landed_cost_usd": 7.13,
-            "fee_usd": 1.7,
-            "net_profit_usd": 14.16,
-            "margin_pct": 61.6,
+            "fee_usd": 0.46,
+            "net_profit_usd": 15.4,
+            "margin_pct": 67.0,
             "risk": "ok"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 22.99,
             "landed_cost_usd": 4.37,
-            "fee_usd": 1.7,
-            "net_profit_usd": 16.92,
-            "margin_pct": 73.6,
+            "fee_usd": 0.46,
+            "net_profit_usd": 18.16,
+            "margin_pct": 79.0,
             "risk": "ok"
           }
         },
@@ -1559,9 +1543,7 @@
       "priority_rank": 10,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -1630,7 +1612,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -1735,18 +1717,18 @@
             "status": "computed",
             "price_usd": 22.99,
             "landed_cost_usd": 8.84,
-            "fee_usd": 1.7,
-            "net_profit_usd": 12.45,
-            "margin_pct": 54.2,
+            "fee_usd": 0.46,
+            "net_profit_usd": 13.69,
+            "margin_pct": 59.5,
             "risk": "ok"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 22.99,
             "landed_cost_usd": 5.71,
-            "fee_usd": 1.7,
-            "net_profit_usd": 15.58,
-            "margin_pct": 67.8,
+            "fee_usd": 0.46,
+            "net_profit_usd": 16.82,
+            "margin_pct": 73.2,
             "risk": "ok"
           }
         },
@@ -1786,7 +1768,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": null,
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -1859,11 +1841,18 @@
             }
           },
           {
+            "kind": "draft_payload",
+            "price_usd": 23.99,
+            "source": "shopify_action_queue.json",
+            "status": "draft",
+            "observed_on": "2026-10-11T08:40:23.284782+00:00"
+          },
+          {
             "kind": "model_recommended",
             "price_usd": 23.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": true,
@@ -1939,7 +1928,7 @@
           "median_usd": 24.5,
           "max_usd": 56.9,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1989,18 +1978,18 @@
             "status": "computed",
             "price_usd": 14.99,
             "landed_cost_usd": 8.84,
-            "fee_usd": 1.11,
-            "net_profit_usd": 5.04,
-            "margin_pct": 33.6,
+            "fee_usd": 0.3,
+            "net_profit_usd": 5.85,
+            "margin_pct": 39.0,
             "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 14.99,
             "landed_cost_usd": 5.71,
-            "fee_usd": 1.11,
-            "net_profit_usd": 8.17,
-            "margin_pct": 54.5,
+            "fee_usd": 0.3,
+            "net_profit_usd": 8.98,
+            "margin_pct": 59.9,
             "risk": "ok"
           }
         },
@@ -2025,9 +2014,7 @@
       "priority_rank": 1,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -2041,7 +2028,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": null,
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -2096,7 +2083,7 @@
             "price_usd": 10.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -2134,7 +2121,7 @@
           "median_usd": 11.55,
           "max_usd": 23.75,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2186,19 +2173,19 @@
             "status": "computed",
             "price_usd": 10.99,
             "landed_cost_usd": 8.84,
-            "fee_usd": 0.81,
-            "net_profit_usd": 1.34,
-            "margin_pct": 12.2,
+            "fee_usd": 0.22,
+            "net_profit_usd": 1.93,
+            "margin_pct": 17.6,
             "risk": "below_advisory_floor"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 10.99,
             "landed_cost_usd": 5.71,
-            "fee_usd": 0.81,
-            "net_profit_usd": 4.47,
-            "margin_pct": 40.7,
-            "risk": "below_target_margin"
+            "fee_usd": 0.22,
+            "net_profit_usd": 5.06,
+            "margin_pct": 46.0,
+            "risk": "ok"
           }
         },
         "risk": "below_advisory_floor",
@@ -2219,9 +2206,7 @@
       "priority_rank": 7,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -2235,7 +2220,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": null,
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -2280,17 +2265,24 @@
         ]
       },
       "own_price": {
-        "status": "model_recommended",
-        "kind": "model_recommended",
+        "status": "draft_payload",
+        "kind": "draft_payload",
         "price_usd": 15.99,
-        "source": "pricing_model.json",
+        "source": "shopify_action_queue.json",
         "candidates": [
+          {
+            "kind": "draft_payload",
+            "price_usd": 15.99,
+            "source": "shopify_action_queue.json",
+            "status": "draft",
+            "observed_on": "2026-10-11T08:40:23.284782+00:00"
+          },
           {
             "kind": "model_recommended",
             "price_usd": 15.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -2328,7 +2320,7 @@
           "median_usd": 16.8,
           "max_usd": 58.81,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2372,31 +2364,31 @@
         "weight_estimated": true,
         "effective_target_margin_pct": 45.0,
         "basis_price_usd": 15.99,
-        "price_source": "pricing_model.json",
+        "price_source": "shopify_action_queue.json",
         "scenarios": {
           "ship_1_unit_order": {
             "status": "computed",
             "price_usd": 15.99,
             "landed_cost_usd": 10.55,
-            "fee_usd": 1.18,
-            "net_profit_usd": 4.26,
-            "margin_pct": 26.6,
-            "risk": "below_advisory_floor"
+            "fee_usd": 0.32,
+            "net_profit_usd": 5.12,
+            "margin_pct": 32.0,
+            "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 15.99,
             "landed_cost_usd": 7.8,
-            "fee_usd": 1.18,
-            "net_profit_usd": 7.01,
-            "margin_pct": 43.8,
-            "risk": "below_target_margin"
+            "fee_usd": 0.32,
+            "net_profit_usd": 7.87,
+            "margin_pct": 49.2,
+            "risk": "ok"
           }
         },
-        "risk": "below_advisory_floor",
+        "risk": "below_target_margin",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "below_advisory_floor",
+      "profitability_risk": "below_target_margin",
       "priority": {
         "score": 58.8,
         "evidence_status": "unknown_price_evidence",
@@ -2413,9 +2405,7 @@
       "priority_rank": 3,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -2429,7 +2419,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": "마스크팩",
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -2474,17 +2464,24 @@
         ]
       },
       "own_price": {
-        "status": "model_recommended",
-        "kind": "model_recommended",
+        "status": "draft_payload",
+        "kind": "draft_payload",
         "price_usd": 11.99,
-        "source": "pricing_model.json",
+        "source": "shopify_action_queue.json",
         "candidates": [
+          {
+            "kind": "draft_payload",
+            "price_usd": 11.99,
+            "source": "shopify_action_queue.json",
+            "status": "draft",
+            "observed_on": "2026-10-11T08:40:23.284782+00:00"
+          },
           {
             "kind": "model_recommended",
             "price_usd": 11.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -2523,7 +2520,7 @@
           "median_usd": 12.39,
           "max_usd": 37.98,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2567,31 +2564,31 @@
         "weight_estimated": true,
         "effective_target_margin_pct": 45.0,
         "basis_price_usd": 11.99,
-        "price_source": "pricing_model.json",
+        "price_source": "shopify_action_queue.json",
         "scenarios": {
           "ship_1_unit_order": {
             "status": "computed",
             "price_usd": 11.99,
             "landed_cost_usd": 7.98,
-            "fee_usd": 0.89,
-            "net_profit_usd": 3.12,
-            "margin_pct": 26.0,
-            "risk": "below_advisory_floor"
+            "fee_usd": 0.24,
+            "net_profit_usd": 3.77,
+            "margin_pct": 31.4,
+            "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 11.99,
             "landed_cost_usd": 5.22,
-            "fee_usd": 0.89,
-            "net_profit_usd": 5.88,
-            "margin_pct": 49.0,
+            "fee_usd": 0.24,
+            "net_profit_usd": 6.53,
+            "margin_pct": 54.5,
             "risk": "ok"
           }
         },
-        "risk": "below_advisory_floor",
+        "risk": "below_target_margin",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "below_advisory_floor",
+      "profitability_risk": "below_target_margin",
       "priority": {
         "score": 54.0,
         "evidence_status": "unknown_price_evidence",
@@ -2606,9 +2603,7 @@
       "priority_rank": 9,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -2622,7 +2617,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": null,
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -2688,11 +2683,18 @@
             }
           },
           {
+            "kind": "draft_payload",
+            "price_usd": 17.99,
+            "source": "shopify_action_queue.json",
+            "status": "draft",
+            "observed_on": "2026-10-11T08:40:23.284782+00:00"
+          },
+          {
             "kind": "model_recommended",
             "price_usd": 17.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": true,
@@ -2744,7 +2746,7 @@
           "median_usd": 18.38,
           "max_usd": 93.6,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2794,18 +2796,18 @@
             "status": "computed",
             "price_usd": 18.99,
             "landed_cost_usd": 11.31,
-            "fee_usd": 1.41,
-            "net_profit_usd": 6.27,
-            "margin_pct": 33.0,
+            "fee_usd": 0.38,
+            "net_profit_usd": 7.3,
+            "margin_pct": 38.4,
             "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 18.99,
             "landed_cost_usd": 8.17,
-            "fee_usd": 1.41,
-            "net_profit_usd": 9.41,
-            "margin_pct": 49.6,
+            "fee_usd": 0.38,
+            "net_profit_usd": 10.44,
+            "margin_pct": 55.0,
             "risk": "ok"
           }
         },
@@ -2829,9 +2831,7 @@
       "priority_rank": 4,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -2845,7 +2845,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": null,
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -2900,7 +2900,7 @@
             "price_usd": 18.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -2940,7 +2940,7 @@
           "median_usd": 19.93,
           "max_usd": 22.23,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2990,18 +2990,18 @@
             "status": "computed",
             "price_usd": 18.99,
             "landed_cost_usd": 11.31,
-            "fee_usd": 1.41,
-            "net_profit_usd": 6.27,
-            "margin_pct": 33.0,
+            "fee_usd": 0.38,
+            "net_profit_usd": 7.3,
+            "margin_pct": 38.4,
             "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 18.99,
             "landed_cost_usd": 8.55,
-            "fee_usd": 1.41,
-            "net_profit_usd": 9.03,
-            "margin_pct": 47.6,
+            "fee_usd": 0.38,
+            "net_profit_usd": 10.06,
+            "margin_pct": 53.0,
             "risk": "ok"
           }
         },
@@ -3023,9 +3023,7 @@
       "priority_rank": 5,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -3039,7 +3037,7 @@
       "category_daiso_name": "스킨케어",
       "reclassified_into_category_from_bucket": null,
       "us_legal_gate": null,
-      "manufacturer_safety_record_covered": false,
+      "manufacturer_safety_record_covered": true,
       "grade": "S",
       "grade_original": "S",
       "grade_changed_by_this_report": false,
@@ -3101,7 +3099,7 @@
             "price_usd": 11.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T07:21:20.973285+00:00"
+            "observed_on": "2026-10-11T08:40:21.100431+00:00"
           }
         ],
         "conflict": false,
@@ -3141,7 +3139,7 @@
           "median_usd": 12.31,
           "max_usd": 37.98,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -3193,25 +3191,25 @@
             "status": "computed",
             "price_usd": 11.99,
             "landed_cost_usd": 7.98,
-            "fee_usd": 0.89,
-            "net_profit_usd": 3.12,
-            "margin_pct": 26.0,
-            "risk": "below_advisory_floor"
+            "fee_usd": 0.24,
+            "net_profit_usd": 3.77,
+            "margin_pct": 31.4,
+            "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
             "price_usd": 11.99,
             "landed_cost_usd": 5.22,
-            "fee_usd": 0.89,
-            "net_profit_usd": 5.88,
-            "margin_pct": 49.0,
+            "fee_usd": 0.24,
+            "net_profit_usd": 6.53,
+            "margin_pct": 54.5,
             "risk": "ok"
           }
         },
-        "risk": "below_advisory_floor",
+        "risk": "below_target_margin",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "below_advisory_floor",
+      "profitability_risk": "below_target_margin",
       "priority": {
         "score": 56.4,
         "evidence_status": "unknown_price_evidence",
@@ -3228,9 +3226,7 @@
       "priority_rank": 6,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": true,
-        "all_blockers": [
-          "manufacturer_safety_record_missing"
-        ],
+        "all_blockers": [],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
     },
@@ -6641,7 +6637,7 @@
           "median_usd": 32.0,
           "max_usd": 153.0,
           "freshness": "stale",
-          "age_hours": 223.7,
+          "age_hours": 225.01,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -37488,7 +37484,7 @@
             "state": "input_required",
             "blocked_on": [
               "live_listing_with_quarantine_reasons_1",
-              "manufacturer_safety_record_missing_for_10_S_products"
+              "manufacturer_safety_record_missing_for_2_S_products"
             ],
             "evidence_required": [
               "legal_full / listing_gate result per live pd_no",
@@ -37597,6 +37593,56 @@
         "own_price_usd": 14.99,
         "review_applicable": true,
         "not_applicable_reason": null,
+        "price_change_anchor_at": "UNKNOWN",
+        "anchor_note": "registry holds a date only; supply an exact price-change/publish timestamp to anchor the 24h window",
+        "observation": null,
+        "metrics": {
+          "sessions": "UNKNOWN",
+          "product_views": "UNKNOWN",
+          "add_to_cart": "UNKNOWN",
+          "orders": "UNKNOWN",
+          "units": "UNKNOWN",
+          "revenue_usd": "UNKNOWN"
+        },
+        "evidence_requirements": [
+          "product-level Shopify analytics export (sessions, views, add-to-cart, orders, units) for the exact 24h window",
+          "price in force during the window (price history entry with timestamp)",
+          "explicit confirmation that no other price/promo/ad change happened in the window, or a list of what changed"
+        ]
+      },
+      {
+        "pd_no": "1055167",
+        "category": "skincare",
+        "grade": "S",
+        "own_price_status": "draft_payload",
+        "own_price_usd": 15.99,
+        "review_applicable": false,
+        "not_applicable_reason": "draft_payload_is_not_a_live_listing",
+        "price_change_anchor_at": "UNKNOWN",
+        "anchor_note": "registry holds a date only; supply an exact price-change/publish timestamp to anchor the 24h window",
+        "observation": null,
+        "metrics": {
+          "sessions": "UNKNOWN",
+          "product_views": "UNKNOWN",
+          "add_to_cart": "UNKNOWN",
+          "orders": "UNKNOWN",
+          "units": "UNKNOWN",
+          "revenue_usd": "UNKNOWN"
+        },
+        "evidence_requirements": [
+          "product-level Shopify analytics export (sessions, views, add-to-cart, orders, units) for the exact 24h window",
+          "price in force during the window (price history entry with timestamp)",
+          "explicit confirmation that no other price/promo/ad change happened in the window, or a list of what changed"
+        ]
+      },
+      {
+        "pd_no": "1059834",
+        "category": "skincare",
+        "grade": "S",
+        "own_price_status": "draft_payload",
+        "own_price_usd": 11.99,
+        "review_applicable": false,
+        "not_applicable_reason": "draft_payload_is_not_a_live_listing",
         "price_change_anchor_at": "UNKNOWN",
         "anchor_note": "registry holds a date only; supply an exact price-change/publish timestamp to anchor the 24h window",
         "observation": null,

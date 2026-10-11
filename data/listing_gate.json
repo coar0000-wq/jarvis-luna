@@ -1,34 +1,34 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-11T07:21:23.461228+00:00",
+  "generated_at": "2026-10-11T08:40:22.580647+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "5af4f29ffdee6e09312d5ed0366bfb07066a649ff17814d8fd0da8e248a9edce",
+      "data/product_master.json": "2775654345a95470e34722b8d99bebc32c99200aa25b705d9a42852b3e74c5e9",
       "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
       "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
-      "data/pricing_model.json": "ea8de4c82c384e7209e6b7a21cb2cd7eba26c52f0055ea179aa95b3a0495d625",
-      "data/legal_products.json": "8ef58ecf7c5043bb57e9916784861815add0081d65d5b1e0a4d1b8bf36314bd7",
-      "data/daiso_real/shopify_s_recommendations.json": "3001b78a27821e7e181da1227045985a0ddd76cc1d76ab69d553018d44cb0d01",
+      "data/pricing_model.json": "7eefef4e28fca1478137af34fe1f47c3b5016085fa81a44efe7a43e624a00501",
+      "data/legal_products.json": "30fb12b0abfae80ce5478bff3a1753ae01c009ba3e28caecb24c1460bba67e73",
+      "data/daiso_real/shopify_s_recommendations.json": "28b87f5b4fd392855ef921cc47c8d2625b178597e27fa02fafc9fabbb2086fa0",
       "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-      "data/shopify_shortlist.json": "723d6fa14ebe30a01f9a431a840fc3020201656dfd0fc9a7a003058acb00e95b",
+      "data/shopify_shortlist.json": "8366e3eec73a121b579ac9f7d48e4a09259afed2d4492dc2e70aee4482795b7e",
       "data/legal_full.json": "8d463b729f5503b4ceb98cb80e311c78d70cf0526ab75391407d7d99688fe77e",
-      "data/mocra_readiness.json": "cd6ed18d9b1d3b493633f4840c5e9d52353020f5b580977808b8fbd6a358c853",
+      "data/mocra_readiness.json": "51abe1175d05403ddd94c3ea3cbc8a792c0bff3378a6ddf0935113420822cc1a",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-      "data/manual/mocra_business.json": "00b4f8bf74c6229def491aab5484cca7c86b1de6e21b872318be577fa239145c",
+      "data/manual/mocra_business.json": "20c791ebff2e9c2e6a3a8ad235c09cfca3a20a682320b003608834ae8b128929",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
       "config/daiso_commerce_strategy.json": "52fe1df6f9dbb8cbd25b07ff1a4e49d79be90d545169bde3b8cb24a38d8c7096",
-      "masked/manufacturer_safety_record": "5bc0094e21706cc03ea97e21ddad10eba0455c741d9b6cadabf8f0355a34288e",
+      "masked/manufacturer_safety_record": "043b7bca549aced60494f1f03877a832bcae5a25c4cc6e7e698b322723b022fb",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "9a55db7dedd1fbab231a41d9ff1afd65b9ab20f1b0258611e825ef766f7bccab"
+    "recommendations_sha256": "01cbc94cb1984b4dbfebb1d6c708dd6b20cf76a26bd090e200a0f450d755939a"
   },
   "total": 10,
-  "agent_ready": 0,
-  "ready": 0,
-  "draft_ready": 0,
-  "public_ready": 0,
+  "agent_ready": 5,
+  "ready": 5,
+  "draft_ready": 5,
+  "public_ready": 5,
   "counts": {
     "ontology": 10,
     "copy": 9,
@@ -36,7 +36,7 @@
     "us_label": 9,
     "price": 5,
     "legal": 8,
-    "manufacturer_safety_record": 0,
+    "manufacturer_safety_record": 8,
     "legal_full": 8
   },
   "blockers": {
@@ -44,12 +44,12 @@
     "us_label": 1,
     "price": 5,
     "legal": 2,
-    "manufacturer_safety_record": 10
+    "manufacturer_safety_record": 2
   },
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "080cb864965dfee92df034bed4da9305ed101a21391f3e58ecda2a9fcb91439f",
+    "strategy_sha256": "92f48bfc7476cd9e413b4cba57cf1f3a986c5fe9b40d1b3c8e6070a1fc9013cb",
     "margin_hard_block": false,
     "products_with_profit_warnings": 6,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
@@ -118,7 +118,7 @@
       },
       "price": {
         "price_usd": 23.99,
-        "margin_pct": 55.8,
+        "margin_pct": 61.2,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -132,21 +132,15 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -157,14 +151,15 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "risk_level": "low",
+        "risk_points": 0,
+        "team_routes": [
+          "listing"
+        ],
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -214,14 +209,13 @@
       },
       "price": {
         "price_usd": 15.99,
-        "margin_pct": 26.6,
+        "margin_pct": 32.0,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_minimum:26.6%<30.0%",
-          "margin_below_target:26.6%<40.0%"
+          "margin_below_target:32.0%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -231,21 +225,15 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -256,14 +244,15 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "risk_level": "low",
+        "risk_points": 0,
+        "team_routes": [
+          "listing"
+        ],
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -313,7 +302,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 54.1,
+        "margin_pct": 59.5,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -422,14 +411,13 @@
       },
       "price": {
         "price_usd": 17.99,
-        "margin_pct": 29.7,
+        "margin_pct": 35.1,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_minimum:29.7%<30.0%",
-          "margin_below_target:29.7%<40.0%"
+          "margin_below_target:35.1%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -439,21 +427,15 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -464,14 +446,15 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "risk_level": "low",
+        "risk_points": 0,
+        "team_routes": [
+          "listing"
+        ],
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -521,13 +504,13 @@
       },
       "price": {
         "price_usd": 18.99,
-        "margin_pct": 33.0,
+        "margin_pct": 38.4,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_target:33.0%<40.0%"
+          "margin_below_target:38.4%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -537,21 +520,15 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -562,14 +539,15 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "risk_level": "low",
+        "risk_points": 0,
+        "team_routes": [
+          "listing"
+        ],
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -620,7 +598,7 @@
       },
       "price": {
         "price_usd": 11.99,
-        "margin_pct": 26.0,
+        "margin_pct": 31.4,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "serpapi_google_shopping",
@@ -628,8 +606,7 @@
           "price_evidence_volume_unverified_product"
         ],
         "profit_warnings": [
-          "margin_below_minimum:26.0%<30.0%",
-          "margin_below_target:26.0%<40.0%"
+          "margin_below_target:31.4%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -639,23 +616,20 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "ready": false,
       "blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "legal_full_complete": true,
       "typesafe": {
@@ -667,16 +641,16 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "high",
-        "risk_points": 2,
+        "risk_level": "medium",
+        "risk_points": 1,
         "team_routes": [
           "pricing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price, manufacturer_safety_record_missing",
-          "public blockers: price, manufacturer_safety_record_missing",
+          "draft blockers: price",
+          "public blockers: price",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -726,7 +700,7 @@
       },
       "price": {
         "price_usd": 10.99,
-        "margin_pct": 12.2,
+        "margin_pct": 17.6,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "serpapi_google_shopping",
@@ -734,8 +708,8 @@
           "price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
         ],
         "profit_warnings": [
-          "margin_below_minimum:12.2%<30.0%",
-          "margin_below_target:12.2%<40.0%"
+          "margin_below_minimum:17.6%<30.0%",
+          "margin_below_target:17.6%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -745,23 +719,20 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "ready": false,
       "blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "legal_full_complete": true,
       "typesafe": {
@@ -773,16 +744,16 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "high",
-        "risk_points": 2,
+        "risk_level": "medium",
+        "risk_points": 1,
         "team_routes": [
           "pricing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price, manufacturer_safety_record_missing",
-          "public blockers: price, manufacturer_safety_record_missing",
+          "draft blockers: price",
+          "public blockers: price",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -832,14 +803,13 @@
       },
       "price": {
         "price_usd": 11.99,
-        "margin_pct": 26.0,
+        "margin_pct": 31.4,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_minimum:26.0%<30.0%",
-          "margin_below_target:26.0%<40.0%"
+          "margin_below_target:31.4%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -849,21 +819,15 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "manufacturer_safety_record_missing"
-      ],
+      "agent_ready": true,
+      "agent_blocked_by": [],
+      "ready": true,
+      "blocked_by": [],
+      "public_ready": true,
+      "public_blocked_by": [],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -874,14 +838,15 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "risk_level": "low",
+        "risk_points": 0,
+        "team_routes": [
+          "listing"
+        ],
+        "model_route": "local",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "현재 정본 기준 추가 blocker 없음",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -916,7 +881,7 @@
       },
       "price": {
         "price_usd": 13.99,
-        "margin_pct": 41.6,
+        "margin_pct": 47.0,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "serpapi_google_shopping",
@@ -1031,7 +996,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 61.6,
+        "margin_pct": 67.0,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -1047,23 +1012,20 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "ready": false,
       "blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "price",
-        "manufacturer_safety_record_missing"
+        "price"
       ],
       "legal_full_complete": true,
       "typesafe": {
@@ -1076,15 +1038,15 @@
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
         "risk_level": "high",
-        "risk_points": 3,
+        "risk_points": 2,
         "team_routes": [
           "pricing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price, manufacturer_safety_record_missing",
-          "public blockers: price, manufacturer_safety_record_missing",
+          "draft blockers: price",
+          "public blockers: price",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
