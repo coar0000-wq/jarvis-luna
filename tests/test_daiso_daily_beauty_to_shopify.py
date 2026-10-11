@@ -4,6 +4,7 @@ import json
 import sys
 import tempfile
 import unittest
+from contextlib import ExitStack
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, patch
@@ -822,7 +823,9 @@ class DailySafetyTests(unittest.TestCase):
             safety_patch.start()
             try:
                 effect = pick_effect(candidate)
-                with patch.object(daily, "ROOT", root), patch.object(daily, "REGISTRY", root/"data/registry.json"), \
+                # Python 3.11 has a 20-block compiler limit; mock lifetimes stay identical.
+                with ExitStack() as stack:
+                    contexts = (patch.object(daily, "ROOT", root), patch.object(daily, "REGISTRY", root/"data/registry.json"), \
                      patch.object(daily, "DRY_RUN", False), patch.object(daily, "ONLY", {"skincare"}), \
                      patch.object(daily, "BACKFILL_BANNER", False), patch.object(daily, "QUARANTINE_BLOCKED_PUBLIC", False), \
                      patch.object(daily, "Shopify", return_value=shop), \
@@ -839,7 +842,9 @@ class DailySafetyTests(unittest.TestCase):
                      patch.object(daily, "has_claims", return_value=False), \
                      patch.object(daily, "prepare_images", return_value={"source_urls": ["source"], "resource_urls": ["resource"],
                                                                         "skipped": []}), \
-                     patch.dict(os.environ, {"SHOPIFY_STORE": "test.myshopify.com", "SHOPIFY_ADMIN_TOKEN": "test"}):
+                     patch.dict(os.environ, {"SHOPIFY_STORE": "test.myshopify.com", "SHOPIFY_ADMIN_TOKEN": "test"}))
+                    for context in contexts:
+                        stack.enter_context(context)
                     code = daily.main()
                 result = json.loads((root/"out/daiso_daily_beauty_result.json").read_text(encoding="utf-8"))
                 registry_file = root/"data/registry.json"
