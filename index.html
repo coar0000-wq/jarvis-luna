@@ -1137,7 +1137,7 @@ function previousMonthRevenueTile(t){
   const row = info.row;
   const amt = row && row.revenue_usd != null ? Number(row.revenue_usd) : null;
   if(amt == null || isNaN(amt)){
-    return t('dz-slate','전달 수입 ('+info.label+')','실매출 없음','Shopify 월 매출 입력 필요');
+    return t('dz-slate','전달 수입 ('+info.label+')','UNKNOWN','Shopify 월 매출 입력 필요 · 미입력은 매출 0이 아님');
   }
   // 임시·수동 추정값은 실측으로 보이면 안 된다 (2026-09-28: 임시값 $7,113 이 '실측 매출'로 떠 있었다).
   if(String(data.source||'').indexOf('temporary')>=0 || String(row.source||'').indexOf('temporary')>=0){
@@ -1153,7 +1153,7 @@ function previousMonthBanner(){
   const row = info.row;
   const amt = row && row.revenue_usd != null ? Number(row.revenue_usd) : null;
   if(amt == null || isNaN(amt)){
-    return '<div class="dz-note pm-warn">오늘 1일 · <b>'+info.label+'</b> 전달 수입이 아직 없습니다. data/monthly_revenue.json 에 실매출을 넣어 주세요.</div>';
+    return '<div class="dz-note pm-warn">오늘 1일 · <b>'+info.label+'</b> 지난달 매출 자료가 아직 없습니다. data/monthly_revenue.json 에 실제 관측 자료를 넣어 주세요.</div>';
   }
   return '<div class="dz-note" style="border:1px solid #238636;background:#23863622;padding:10px 12px;border-radius:8px;margin-top:10px;">📅 <b>오늘 1일</b> · 전달 (<b>'+info.label+'</b>) 수입 <b>$'+amt.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})+'</b>'+(row.orders!=null?' · 주문 '+row.orders+'건':'')+'</div>';
 }
@@ -1215,7 +1215,7 @@ function renderDaiso(status, sRec){
 
   box.innerHTML='<div class="dz-grid">'+
     t('dz-green','S등급 등록 후보',recs.length+'개','Shopify 1차 테스트')+
-    t('dz-blue','권장 판매가','$'+rec.toFixed(2),'단품 마진 '+margin.toFixed(0)+'%'+(pairMargin?' · 1+1 '+pairMargin.toFixed(0)+'%':''))+
+    t('dz-blue','참고 모델 판매가','$'+rec.toFixed(2),'계산 마진 '+margin.toFixed(0)+'%'+(pairMargin?' · 1+1 '+pairMargin.toFixed(0)+'%':'')+' · 실판매·최저가 검증 아님')+
     t('dz-slate','손익분기 (단품)','$'+be.toFixed(2),'개당 배송비 $'+ship.toFixed(2)+' 포함')+
     revTile+
   '</div>'+
