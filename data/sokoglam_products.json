@@ -2,19 +2,19 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-03T11:52:29.376541+00:00",
+  "collected_at": "2026-10-11T23:57:01.373790+00:00",
   "is_stale": false,
-  "count": 238,
+  "count": 230,
   "by_collection": {
-    "Best Sellers": 82,
-    "Skincare": 156
+    "Best Sellers": 79,
+    "Skincare": 151
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 238,
+    "n": 230,
     "min": 3.0,
-    "median": 27.0,
+    "median": 28.0,
     "max": 200.0
   },
   "products": [
@@ -134,29 +134,6 @@
       ]
     },
     {
-      "rank": 6,
-      "name": "Pore Cleansing Oil [BHA]",
-      "brand": "HANSKIN",
-      "price_usd": 27.0,
-      "category": "Oil Cleanser",
-      "collection": "Best Sellers",
-      "url": "https://sokoglam.com/products/hanskin-cleansing-oil-blackhead-bha",
-      "tags": [
-        "$20-$30",
-        "Acids & Actives",
-        "badge-bestofkbeauty",
-        "badge-bronze",
-        "badge-cleanbeauty",
-        "badge-vegan",
-        "best cleansing oil",
-        "best oil cleanser",
-        "BF Sale",
-        "BHA",
-        "BlackFriday2018",
-        "BOKB winners"
-      ]
-    },
-    {
       "rank": 7,
       "name": "Soft Shield Pimple Patch",
       "brand": "the klog",
@@ -206,7 +183,7 @@
       "rank": 10,
       "name": "Advanced Snail 92 All In One Cream",
       "brand": "COSRX",
-      "price_usd": 10.4,
+      "price_usd": 21.9,
       "category": "Facial Moisturizer",
       "collection": "Best Sellers",
       "url": "https://sokoglam.com/products/cosrx-advanced-snail-92-all-in-one-cream",
@@ -292,29 +269,6 @@
         "Free_Of::Animal_Products",
         "Free_Of::Artificial_Colors",
         "Free_Of::Artificial_Fragrances"
-      ]
-    },
-    {
-      "rank": 14,
-      "name": "Vitamin C Clay Mask",
-      "brand": "Gleamin",
-      "price_usd": 40.0,
-      "category": "Wash Off Masks",
-      "collection": "Best Sellers",
-      "url": "https://sokoglam.com/products/gleamin-vitamin-c-treatment-mask-with-brush",
-      "tags": [
-        "Aloe Vera Leaf Juice Extract",
-        "badge-vegan",
-        "dark spots",
-        "Face Mask",
-        "facial mask",
-        "Gleamin",
-        "hyperpigmentation",
-        "Kakadu Plum",
-        "mask",
-        "Product_Type::Wash Off Mask",
-        "Skin_Concern::Oil Control/Pores",
-        "Skin_Concern::Pigmentation"
       ]
     },
     {
@@ -430,29 +384,6 @@
         "female founded",
         "female founders",
         "Free_Of::Alcohol_Products"
-      ]
-    },
-    {
-      "rank": 20,
-      "name": "Licorice pH Balancing Cleansing Toner",
-      "brand": "ACWELL",
-      "price_usd": 18.0,
-      "category": "Toner",
-      "collection": "Best Sellers",
-      "url": "https://sokoglam.com/products/acwell-licorice-ph-balancing-cleansing-toner",
-      "tags": [
-        "$15-$20",
-        "A sku",
-        "Acwell",
-        "badge-cleanbeauty",
-        "badge-heritageheroes",
-        "badge-peoplesaward",
-        "badge-vegan",
-        "best seller",
-        "Best sellers 2021",
-        "Best Sellers Q12020",
-        "best sellers v.2",
-        "BlackFriday2018"
       ]
     },
     {
@@ -583,14 +514,14 @@
         "Anti-Aging/Wrinkles",
         "biodance",
         "collagen",
-        "new",
         "Product_Type::Sheet_Masks",
         "sheet mask",
         "sheet masks",
         "Skin_Concern::Anti-Aging/Wrinkles",
         "Skin_Type::Combination",
         "Skin_Type::Dry",
-        "Skin_Type::Normal"
+        "Skin_Type::Normal",
+        "Skin_Type::Oily"
       ]
     },
     {
@@ -1772,7 +1703,7 @@
         "korean face mask",
         "korean facial mask",
         "mask",
-        "new"
+        "Product_Type::Sheet_Masks"
       ]
     },
     {
@@ -2200,6 +2131,29 @@
     },
     {
       "rank": 26,
+      "name": "Exclusive Skin Flooding Kit",
+      "brand": "Soko Glam",
+      "price_usd": 90.0,
+      "category": "Skincare Set",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/soko-glam-exclusive-skin-flooding-set",
+      "tags": [
+        "Ashely Mixon",
+        "badge-exclusive",
+        "Best toner",
+        "black rice toner",
+        "calming toner",
+        "cleansing toner",
+        "Essence",
+        "exclusive",
+        "hydrating toner",
+        "Hydration toner",
+        "milky toner",
+        "new"
+      ]
+    },
+    {
+      "rank": 27,
       "name": "PDRN Rice & Green Tea Revitalizing Serum",
       "brand": "Knours",
       "price_usd": 26.0,
@@ -2222,7 +2176,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "PDRN Rice & Green Tea Clarifying Toner",
       "brand": "Knours",
       "price_usd": 25.0,
@@ -2245,7 +2199,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "Black Rice Toner",
       "brand": "I'M FROM",
       "price_usd": 28.0,
@@ -2268,7 +2222,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Watery Hyaluron Sunscreen Moisture Tube",
       "brand": "Abib",
       "price_usd": 25.0,
@@ -2291,7 +2245,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "name": "Hueglow Liquid Highlighter",
       "brand": "Live Tinted",
       "price_usd": 38.0,
@@ -2302,7 +2256,6 @@
         "glow",
         "highlighter",
         "live tinted",
-        "new",
         "Product_Type::Makeup",
         "Skin_Type::Combination",
         "Skin_Type::Dry",
@@ -2311,7 +2264,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 32,
       "name": "Holy Hyssop Serum 30",
       "brand": "Arencia",
       "price_usd": 35.0,
@@ -2334,7 +2287,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 33,
       "name": "One Perfect Plumping + Firming Eye Cream",
       "brand": "Knours",
       "price_usd": 28.0,
@@ -2357,7 +2310,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 34,
       "name": "Mugwort Calming Sheet Mask (10 Pack)",
       "brand": "ROUND LAB",
       "price_usd": 40.0,
@@ -2380,7 +2333,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 36,
       "name": "Apple Jam Scrub Foam",
       "brand": "Chasin’ Rabbits",
       "price_usd": 18.0,
@@ -2403,7 +2356,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "VT PDRN Cream 100",
       "brand": "VT COSMETICS",
       "price_usd": 26.0,
@@ -2423,7 +2376,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "VT Reti-A Reedle Shot 100",
       "brand": "VT COSMETICS",
       "price_usd": 32.0,
@@ -2446,7 +2399,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "Retinol Serum In Gel Mask Set (6 ea)",
       "brand": "IOPE",
       "price_usd": 35.0,
@@ -2460,16 +2413,16 @@
         "collagen mask",
         "exclusive",
         "IOPE",
-        "new",
         "retinol",
         "sheet mask",
         "sheet masks",
         "Skin_Concern::Anti-Aging/Wrinkles",
-        "Skin_Type::Combination"
+        "Skin_Type::Combination",
+        "Skin_Type::Dry"
       ]
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "Glass Skin Trio",
       "brand": "Then I Met You",
       "price_usd": 120.0,
@@ -2492,7 +2445,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 42,
       "name": "Golki Sculpt & Lift Guasha Roller™",
       "brand": "Then I Met You",
       "price_usd": 29.0,
@@ -2515,7 +2468,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 44,
       "name": "Dermalogy Double Vita Spot Toning Serum",
       "brand": "NEOGEN",
       "price_usd": 34.0,
@@ -2535,7 +2488,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 45,
       "name": "Dual Barrier Creamy Toner",
       "brand": "Celimax",
       "price_usd": 24.0,
@@ -2558,7 +2511,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 46,
       "name": "Solid In Cream",
       "brand": "Torriden",
       "price_usd": 31.0,
@@ -2581,7 +2534,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "name": "Collagen Enhancer Skin Renewal Mask",
       "brand": "LEADERS",
       "price_usd": 3.0,
@@ -2604,7 +2557,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "name": "Hydro Wave Deep Sea Cream",
       "brand": "Purito Seoul",
       "price_usd": 21.0,
@@ -2627,7 +2580,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 50,
       "name": "Wonder Releaf Centella Toner Unscented",
       "brand": "Purito Seoul",
       "price_usd": 24.0,
@@ -2650,7 +2603,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 51,
       "name": "Black Rice 5 Ceramide Barrier Moisturizing Cream",
       "brand": "Haruharu Wonder",
       "price_usd": 24.0,
@@ -2673,7 +2626,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 52,
       "name": "M Perfect Cover Serum BB Cream",
       "brand": "MISSHA",
       "price_usd": 26.0,
@@ -2695,7 +2648,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 53,
       "name": "MadeCera Cream Double Essence Firming Toner",
       "brand": "SKINRX LAB",
       "price_usd": 29.0,
@@ -2718,7 +2671,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 54,
       "name": "MadeCera Exo Peptide Fluid",
       "brand": "SKINRX LAB",
       "price_usd": 28.0,
@@ -2741,7 +2694,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 56,
       "name": "Vitamin C Expert 40% Mask Concentrate Cream",
       "brand": "IOPE",
       "price_usd": 59.0,
@@ -2764,7 +2717,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 57,
       "name": "Aquaringer Skin Clinic Mask",
       "brand": "LEADERS",
       "price_usd": 5.0,
@@ -2779,7 +2732,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 58,
       "name": "Sun Day Adventure Sunscreen Broad Spectrum SPF 50",
       "brand": "Purito Seoul",
       "price_usd": 21.5,
@@ -2802,7 +2755,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 59,
       "name": "Fresh Royal Blue Hyssop Cleanser",
       "brand": "Arencia",
       "price_usd": 35.0,
@@ -2825,7 +2778,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 60,
       "name": "Madecassoside Blemish Pad",
       "brand": "MEDIHEAL",
       "price_usd": 24.0,
@@ -2848,7 +2801,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "Supervitamin Body Wash+  Soothing",
       "brand": "iota",
       "price_usd": 23.0,
@@ -2871,7 +2824,7 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 63,
       "name": "Yuzu vitamin C + Water Blossom Serum",
       "brand": "SATURDAY SKIN",
       "price_usd": 34.0,
@@ -2894,7 +2847,7 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 64,
       "name": "Calming Biotics Essence Water",
       "brand": "LEADERS",
       "price_usd": 25.0,
@@ -2916,7 +2869,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 66,
       "name": "Wonder Releaf Centella Serum Unscented",
       "brand": "Purito Seoul",
       "price_usd": 23.0,
@@ -2939,7 +2892,7 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 68,
       "name": "Wonder Releaf Centella Eye Cream Unscented",
       "brand": "Purito Seoul",
       "price_usd": 16.0,
@@ -2962,7 +2915,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 69,
       "name": "Purify & Plump Duo Set",
       "brand": "Then I Met You",
       "price_usd": 29.0,
@@ -2985,7 +2938,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "The Real Noni Moisture Balancing Toner",
       "brand": "Celimax",
       "price_usd": 25.0,
@@ -3008,7 +2961,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 73,
       "name": "DIVE-IN Low Molecular Hyaluronic Acid Soothing Cream",
       "brand": "Torriden",
       "price_usd": 27.0,
@@ -3031,7 +2984,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 74,
       "name": "Super Vital Essential Oil Blending Serum",
       "brand": "IOPE",
       "price_usd": 120.0,
@@ -3054,7 +3007,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 75,
       "name": "SoonJung 5.5 Toner (350ml)",
       "brand": "ETUDE",
       "price_usd": 32.1,
@@ -3077,7 +3030,7 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 78,
       "name": "Kind Atmosphere Biome Mist",
       "brand": "Superegg",
       "price_usd": 24.0,
@@ -3100,7 +3053,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 79,
       "name": "Bio Conditioning Oil in Gel",
       "brand": "IOPE",
       "price_usd": 32.0,
@@ -3109,7 +3062,6 @@
       "url": "https://sokoglam.com/products/iope-bio-conditioing-oil-in-gel-150ml",
       "tags": [
         "IOPE",
-        "new",
         "Product_Type::Oil_Cleanser",
         "Skin_Concern::Anti-Aging/Wrinkles",
         "Skin_Concern::Dryness/Hydration",
@@ -3121,7 +3073,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 80,
       "name": "Bio Conditioning Essence Foam",
       "brand": "IOPE",
       "price_usd": 30.0,
@@ -3130,7 +3082,6 @@
       "url": "https://sokoglam.com/products/iope-bio-conditioing-essence-foam",
       "tags": [
         "IOPE",
-        "new",
         "Product_type::Water Cleanser",
         "Skin_Concern::Oil Control/Pores",
         "Skin_Concern::Sensitive",
@@ -3142,7 +3093,7 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 81,
       "name": "Vegan Collagen Eye Serum",
       "brand": "AXIS-Y",
       "price_usd": 21.0,
@@ -3165,7 +3116,7 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 82,
       "name": "Dark Spot Correcting Glow Toner",
       "brand": "AXIS-Y",
       "price_usd": 19.0,
@@ -3177,7 +3128,6 @@
         "dark spot",
         "dark spots",
         "hyperpigmentation",
-        "new",
         "Skin_Concern::Dryness/Hydration",
         "Skin_Concern::Dryness_/_Hydration",
         "Skin_Concern::Pigmentation",
@@ -3188,7 +3138,7 @@
       ]
     },
     {
-      "rank": 82,
+      "rank": 83,
       "name": "Liposome Repair Intensive Cream",
       "brand": "Shaishaishai",
       "price_usd": 28.0,
@@ -3211,7 +3161,7 @@
       ]
     },
     {
-      "rank": 83,
+      "rank": 84,
       "name": "Spot the Difference Blemish Treatment",
       "brand": "AXIS-Y",
       "price_usd": 16.0,
@@ -3234,7 +3184,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 85,
       "name": "BB Creme Au Ginseng",
       "brand": "ERBORIAN",
       "price_usd": 46.0,
@@ -3257,7 +3207,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 93,
       "name": "Beginner Retinol Gel 0.1%",
       "brand": "COCOKIND",
       "price_usd": 27.0,
@@ -3280,30 +3230,7 @@
       ]
     },
     {
-      "rank": 95,
-      "name": "Black Rice 10 Hyaluronic Cream (Unscented)",
-      "brand": "Haruharu Wonder",
-      "price_usd": 19.0,
-      "category": "Facial Moisturizer",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/haruharu-wonder-black-rice-hyaluronic-cream-unscented",
-      "tags": [
-        "badge-cleanbeauty",
-        "badge-vegan",
-        "Beauty of Joseon",
-        "Facial Moisturizer",
-        "haru haru",
-        "haruharu",
-        "haruharu wonder",
-        "Lightweight Moisturizer",
-        "moisturize",
-        "moisturizer",
-        "moisturizing",
-        "Product_Type::Moisturizer"
-      ]
-    },
-    {
-      "rank": 96,
+      "rank": 97,
       "name": "Moisturizing Shea Butter + Sweet Almond Oil Youth Cream",
       "brand": "Knours",
       "price_usd": 38.0,
@@ -3326,7 +3253,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 98,
       "name": "Hyaluronic Acid Daily Sun Gel SPF 30",
       "brand": "ISNTREE",
       "price_usd": 20.0,
@@ -3349,7 +3276,7 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 99,
       "name": "Black Rice Hyaluronic Toner For Sensitive Skin",
       "brand": "Haruharu Wonder",
       "price_usd": 17.0,
@@ -3372,7 +3299,7 @@
       ]
     },
     {
-      "rank": 99,
+      "rank": 100,
       "name": "Black Rice Moisture Cleansing Oil",
       "brand": "Haruharu Wonder",
       "price_usd": 22.0,
@@ -3395,7 +3322,7 @@
       ]
     },
     {
-      "rank": 100,
+      "rank": 101,
       "name": "Freeze Tag Ice Roller",
       "brand": "Chasin’ Rabbits",
       "price_usd": 28.0,
@@ -3418,7 +3345,7 @@
       ]
     },
     {
-      "rank": 103,
+      "rank": 104,
       "name": "Glass Skin On the Go",
       "brand": "HANSKIN",
       "price_usd": 23.0,
@@ -3435,7 +3362,7 @@
       ]
     },
     {
-      "rank": 104,
+      "rank": 105,
       "name": "Cera-nol Gel Toner Pads",
       "brand": "Biodance",
       "price_usd": 26.0,
@@ -3453,12 +3380,12 @@
         "hydrating toner",
         "Hydration toner",
         "moisture barrier",
-        "new",
-        "Product_Type::Toner"
+        "Product_Type::Toner",
+        "skin barrier"
       ]
     },
     {
-      "rank": 105,
+      "rank": 106,
       "name": "Midnight Blue Youth Activating Drop",
       "brand": "KLAIRS",
       "price_usd": 30.0,
@@ -3481,7 +3408,7 @@
       ]
     },
     {
-      "rank": 106,
+      "rank": 107,
       "name": "Tonal Scenery Reparative Serum",
       "brand": "Superegg",
       "price_usd": 72.0,
@@ -3504,7 +3431,7 @@
       ]
     },
     {
-      "rank": 108,
+      "rank": 109,
       "name": "Phyto Bubble Relief Foam",
       "brand": "Plodica",
       "price_usd": 15.0,
@@ -3527,7 +3454,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "Deep Antarctic Drop",
       "brand": "Serumkind",
       "price_usd": 29.22,
@@ -3550,7 +3477,7 @@
       ]
     },
     {
-      "rank": 110,
+      "rank": 111,
       "name": "Multi Vitamin Daily Nutrient Body Wash",
       "brand": "NATURIUM",
       "price_usd": 17.0,
@@ -3573,7 +3500,7 @@
       ]
     },
     {
-      "rank": 112,
+      "rank": 113,
       "name": "Jade Facial Roller",
       "brand": "GLOWIEST",
       "price_usd": 28.0,
@@ -3596,7 +3523,7 @@
       ]
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "Refreshing Sea Kelp Real Deep Mask (4 Pack)",
       "brand": "Biodance",
       "price_usd": 19.0,
@@ -3610,16 +3537,16 @@
         "korean face mask",
         "korean facial mask",
         "mask",
-        "new",
         "overnight mask",
         "Product_Type::Sheet_Masks",
         "sea kelp",
         "sebum",
-        "sebum control"
+        "sebum control",
+        "sheet mask"
       ]
     },
     {
-      "rank": 114,
+      "rank": 115,
       "name": "Phyto Bounce Eye Contour Solution",
       "brand": "Superegg",
       "price_usd": 50.0,
@@ -3642,7 +3569,7 @@
       ]
     },
     {
-      "rank": 115,
+      "rank": 116,
       "name": "The Real Noni Starter Kit",
       "brand": "Celimax",
       "price_usd": 18.0,
@@ -3665,7 +3592,7 @@
       ]
     },
     {
-      "rank": 118,
+      "rank": 119,
       "name": "Licorice pH Balancing Pore Cleansing Gel Foam",
       "brand": "ACWELL",
       "price_usd": 18.0,
@@ -3688,7 +3615,7 @@
       ]
     },
     {
-      "rank": 119,
+      "rank": 120,
       "name": "Bright Eyes Eye Cream",
       "brand": "Hero Cosmetics",
       "price_usd": 23.99,
@@ -3711,7 +3638,7 @@
       ]
     },
     {
-      "rank": 120,
+      "rank": 121,
       "name": "Clean it Zero Cleansing Balm Firming",
       "brand": "BANILA CO",
       "price_usd": 25.0,
@@ -3734,7 +3661,7 @@
       ]
     },
     {
-      "rank": 123,
+      "rank": 124,
       "name": "SOS Serum",
       "brand": "TIRTIR",
       "price_usd": 43.0,
@@ -3757,7 +3684,7 @@
       ]
     },
     {
-      "rank": 127,
+      "rank": 128,
       "name": "Vitamin C Complex Serum",
       "brand": "NATURIUM",
       "price_usd": 21.0,
@@ -3780,7 +3707,7 @@
       ]
     },
     {
-      "rank": 128,
+      "rank": 129,
       "name": "Castanea Crenata Inner Shell Pore Tightening Serum",
       "brand": "MOLVANY",
       "price_usd": 29.5,
@@ -3803,7 +3730,7 @@
       ]
     },
     {
-      "rank": 130,
+      "rank": 131,
       "name": "Retinaldehyde Cream Serum 0.05%",
       "brand": "NATURIUM",
       "price_usd": 29.0,
@@ -3826,7 +3753,7 @@
       ]
     },
     {
-      "rank": 133,
+      "rank": 134,
       "name": "Vitamin Collective Vitality Elixir",
       "brand": "Superegg",
       "price_usd": 65.0,
@@ -3849,7 +3776,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 135,
       "name": "Bong² Bounce Cream Deluxe Mini",
       "brand": "Then I Met You",
       "price_usd": 17.0,
@@ -3872,7 +3799,7 @@
       ]
     },
     {
-      "rank": 138,
+      "rank": 139,
       "name": "YULMU  Brightening Spot Cream",
       "brand": "INWARD",
       "price_usd": 31.0,
@@ -3895,7 +3822,7 @@
       ]
     },
     {
-      "rank": 139,
+      "rank": 140,
       "name": "The Vitamin C 13 Serum",
       "brand": "COSRX",
       "price_usd": 21.0,
@@ -3918,7 +3845,7 @@
       ]
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "Glutathiosome Dark Spot Serum Vita Drop",
       "brand": "Abib",
       "price_usd": 32.0,
@@ -3927,7 +3854,6 @@
       "url": "https://sokoglam.com/products/glutathiosome-dark-spot-serum-vita-drop",
       "tags": [
         "Abib",
-        "new",
         "Product_type::Serum/Ampoule",
         "serum",
         "serum/ampoule",
@@ -3938,7 +3864,7 @@
       ]
     },
     {
-      "rank": 141,
+      "rank": 142,
       "name": "Daydream Cushion Foundation SPF 50",
       "brand": "Em Cosmetics",
       "price_usd": 14.4,
@@ -3954,7 +3880,7 @@
       ]
     },
     {
-      "rank": 144,
+      "rank": 145,
       "name": "Clean it Zero Cleansing Balm Brightening",
       "brand": "BANILA CO",
       "price_usd": 25.0,
@@ -3977,7 +3903,7 @@
       ]
     },
     {
-      "rank": 146,
+      "rank": 147,
       "name": "The Sustainable Cleansing Pad Set",
       "brand": "SOKO GLAM",
       "price_usd": 16.0,
@@ -3998,7 +3924,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "Freshly Juiced Vitamin Charging Serum 10% Vitamin C",
       "brand": "KLAIRS",
       "price_usd": 35.0,
@@ -4021,7 +3947,7 @@
       ]
     },
     {
-      "rank": 151,
+      "rank": 152,
       "name": "Dermalogy Hyal Glow Rose Essence",
       "brand": "NEOGEN",
       "price_usd": 32.0,
@@ -4044,7 +3970,7 @@
       ]
     },
     {
-      "rank": 152,
+      "rank": 153,
       "name": "Time Stop Vitamin Ampoule",
       "brand": "THE PLANT BASE",
       "price_usd": 24.9,
@@ -4067,7 +3993,7 @@
       ]
     },
     {
-      "rank": 153,
+      "rank": 154,
       "name": "Jericho Rose Bifida Serum Firming Drop",
       "brand": "Abib",
       "price_usd": 32.0,
@@ -4090,7 +4016,7 @@
       ]
     },
     {
-      "rank": 154,
+      "rank": 155,
       "name": "Cellus Deep Moisture Cream",
       "brand": "LAGOM",
       "price_usd": 28.0,
@@ -4113,7 +4039,7 @@
       ]
     },
     {
-      "rank": 156,
+      "rank": 157,
       "name": "Sweet Dreams Lip Mask",
       "brand": "GLOWIEST",
       "price_usd": 22.0,
@@ -4134,7 +4060,7 @@
       ]
     },
     {
-      "rank": 157,
+      "rank": 158,
       "name": "Acne Pimple Master Patch",
       "brand": "COSRX",
       "price_usd": 6.0,
@@ -4157,7 +4083,7 @@
       ]
     },
     {
-      "rank": 162,
+      "rank": 163,
       "name": "Rose Quartz Gua Sha",
       "brand": "GLOWIEST",
       "price_usd": 26.0,
@@ -4180,7 +4106,7 @@
       ]
     },
     {
-      "rank": 164,
+      "rank": 165,
       "name": "Beauty Beam Rejuvenating Red",
       "brand": "CELLECT",
       "price_usd": 184.0,
@@ -4203,7 +4129,7 @@
       ]
     },
     {
-      "rank": 167,
+      "rank": 168,
       "name": "Dear Darling Water Tint",
       "brand": "ETUDE",
       "price_usd": 7.0,
@@ -4224,7 +4150,7 @@
       ]
     },
     {
-      "rank": 168,
+      "rank": 169,
       "name": "Melt + Cleanse Makeup Melting Balm",
       "brand": "SATURDAY SKIN",
       "price_usd": 30.0,
@@ -4247,7 +4173,7 @@
       ]
     },
     {
-      "rank": 171,
+      "rank": 172,
       "name": "Flex Gentle Brush",
       "brand": "BRITISH M",
       "price_usd": 21.0,
@@ -4267,7 +4193,7 @@
       ]
     },
     {
-      "rank": 173,
+      "rank": 174,
       "name": "Retinol Intense Reactivating Serum",
       "brand": "SOME BY MI",
       "price_usd": 31.79,
@@ -4290,7 +4216,7 @@
       ]
     },
     {
-      "rank": 174,
+      "rank": 175,
       "name": "Retinol Intense Advanced Triple Action Eye Cream",
       "brand": "SOME BY MI",
       "price_usd": 24.31,
@@ -4313,7 +4239,7 @@
       ]
     },
     {
-      "rank": 175,
+      "rank": 176,
       "name": "Clean It Zero Calming Cleansing Balm",
       "brand": "BANILA CO",
       "price_usd": 22.0,
@@ -4336,7 +4262,7 @@
       ]
     },
     {
-      "rank": 176,
+      "rank": 177,
       "name": "Soko Glam Collegiate Crewneck Sweatshirt",
       "brand": "SOKO GLAM",
       "price_usd": 40.0,
@@ -4356,7 +4282,7 @@
       ]
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "Beta Panthenol Repair Cream",
       "brand": "SOME BY MI",
       "price_usd": 27.12,
@@ -4379,48 +4305,7 @@
       ]
     },
     {
-      "rank": 178,
-      "name": "Green Flavonoid 2.5 Solution",
-      "brand": "The Lab By Blanc Doux",
-      "price_usd": 6.3,
-      "category": "Toner",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/the-lab-by-blanc-doux-green-flavonoid-2-5-solution-toner",
-      "tags": [
-        "acne senstive",
-        "Best toner",
-        "EXCLUDE SUMMER",
-        "green falvonoid",
-        "hydrating toner",
-        "inflammation",
-        "Product_Type::Toner",
-        "sensitive",
-        "sensitive skin",
-        "Skin_Concern::Acne",
-        "Skin_Concern::Redness",
-        "Skin_Concern::Sensitive"
-      ]
-    },
-    {
       "rank": 179,
-      "name": "Soft Spoken Velvet Lip Creme",
-      "brand": "Em Cosmetics",
-      "price_usd": 7.2,
-      "category": "Lip Color",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/em-cosmetics-soft-spoken-velvet-lip-creme",
-      "tags": [
-        "EM cosmetics",
-        "EXCLUDE SUMMER",
-        "lip",
-        "lip color",
-        "lip makeup",
-        "Lip Tint",
-        "Product_Type::Makeup"
-      ]
-    },
-    {
-      "rank": 180,
       "name": "Retino Collagen Small Molecule 300 Pore & Elasticity Mask",
       "brand": "CKD Guaranteed",
       "price_usd": 20.0,
@@ -4443,7 +4328,7 @@
       ]
     },
     {
-      "rank": 181,
+      "rank": 180,
       "name": "Fresh Royal Rosehip Cleanser",
       "brand": "Arencia",
       "price_usd": 35.0,
@@ -4466,7 +4351,7 @@
       ]
     },
     {
-      "rank": 182,
+      "rank": 181,
       "name": "Vita Brightening Skin Renewal Mask",
       "brand": "LEADERS",
       "price_usd": 5.0,
@@ -4487,7 +4372,7 @@
       ]
     },
     {
-      "rank": 183,
+      "rank": 182,
       "name": "Vitamin A Glow Retinol Serum",
       "brand": "HANSKIN",
       "price_usd": 36.0,
@@ -4510,7 +4395,7 @@
       ]
     },
     {
-      "rank": 186,
+      "rank": 185,
       "name": "Sun Project Rice Tinted Mineral Sunscreen SPF 40 Broad Spectrum",
       "brand": "THANK YOU FARMER",
       "price_usd": 26.0,
@@ -4523,7 +4408,7 @@
       ]
     },
     {
-      "rank": 187,
+      "rank": 186,
       "name": "Mediu Amino Pore-Tight Mask",
       "brand": "LEADERS",
       "price_usd": 3.0,
@@ -4546,7 +4431,7 @@
       ]
     },
     {
-      "rank": 188,
+      "rank": 187,
       "name": "Moistfull Collagen Emulsion",
       "brand": "ETUDE",
       "price_usd": 22.8,
@@ -4569,7 +4454,7 @@
       ]
     },
     {
-      "rank": 189,
+      "rank": 188,
       "name": "UV DEFENSE SUN PROTECTOR SPF 45",
       "brand": "IOPE",
       "price_usd": 32.0,
@@ -4592,7 +4477,7 @@
       ]
     },
     {
-      "rank": 190,
+      "rank": 189,
       "name": "Naked Cotton™ Classic",
       "brand": "WHITE RABBIT",
       "price_usd": 15.99,
@@ -4615,7 +4500,7 @@
       ]
     },
     {
-      "rank": 194,
+      "rank": 193,
       "name": "Moistfull Collagen Eye Cream",
       "brand": "ETUDE",
       "price_usd": 27.6,
@@ -4638,7 +4523,7 @@
       ]
     },
     {
-      "rank": 195,
+      "rank": 194,
       "name": "Rice Pure Cream In Ampoule",
       "brand": "THANK YOU FARMER",
       "price_usd": 32.0,
@@ -4661,7 +4546,7 @@
       ]
     },
     {
-      "rank": 196,
+      "rank": 195,
       "name": "Kombucha Hydro Glow Cream",
       "brand": "T'else",
       "price_usd": 28.0,
@@ -4684,7 +4569,7 @@
       ]
     },
     {
-      "rank": 198,
+      "rank": 197,
       "name": "Green Tea Fresh Toner",
       "brand": "ISNTREE",
       "price_usd": 20.0,
@@ -4707,7 +4592,7 @@
       ]
     },
     {
-      "rank": 201,
+      "rank": 200,
       "name": "Galactomyces Pure Vitamin C Glow Serum",
       "brand": "SOME BY MI",
       "price_usd": 28.05,
@@ -4730,7 +4615,7 @@
       ]
     },
     {
-      "rank": 202,
+      "rank": 201,
       "name": "Petite Bunny Gloss Bar",
       "brand": "TONY MOLY",
       "price_usd": 8.0,
@@ -4754,29 +4639,6 @@
     },
     {
       "rank": 203,
-      "name": "Fermentation Eye Cream",
-      "brand": "BENTON",
-      "price_usd": 13.5,
-      "category": "Eye cream",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/benton-fermentation-eye-cream",
-      "tags": [
-        "$20-$30",
-        "aloe",
-        "badge-bestofkbeautynom",
-        "badge-cleanbeauty",
-        "badge-gold",
-        "benton",
-        "bifida",
-        "BlackFriday2018",
-        "ceramide",
-        "cruelty-free",
-        "de-puff",
-        "de-puff eye"
-      ]
-    },
-    {
-      "rank": 204,
       "name": "Clean It Zero Cleansing Balm Revitalizing",
       "brand": "BANILA CO",
       "price_usd": 22.0,
@@ -4799,7 +4661,7 @@
       ]
     },
     {
-      "rank": 208,
+      "rank": 207,
       "name": "Wonder Rice Smoothing Toner",
       "brand": "TONY MOLY",
       "price_usd": 23.0,
@@ -4822,7 +4684,7 @@
       ]
     },
     {
-      "rank": 210,
+      "rank": 209,
       "name": "Aqua Hyaluronic Essence",
       "brand": "ROVECTIN",
       "price_usd": 31.0,
@@ -4845,7 +4707,7 @@
       ]
     },
     {
-      "rank": 213,
+      "rank": 212,
       "name": "AC Collection Acne Patch",
       "brand": "COSRX",
       "price_usd": 8.0,
@@ -4868,7 +4730,7 @@
       ]
     },
     {
-      "rank": 216,
+      "rank": 215,
       "name": "A-Clear Soothing Pink Eraser",
       "brand": "NEOGEN",
       "price_usd": 15.0,
@@ -4891,7 +4753,7 @@
       ]
     },
     {
-      "rank": 217,
+      "rank": 216,
       "name": "AC Clear Treatment Mask",
       "brand": "LEADERS",
       "price_usd": 5.0,
@@ -4915,29 +4777,6 @@
     },
     {
       "rank": 218,
-      "name": "Rub-A-Dub Refining Peel Gel",
-      "brand": "SATURDAY SKIN",
-      "price_usd": 28.0,
-      "category": "Physical",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/saturday-skin-rub-a-dub-refining-peel-gel",
-      "tags": [
-        "$20-$30",
-        "badge-femalefounded",
-        "BF Sale",
-        "chemical",
-        "combo_sensitive",
-        "cruelty-free",
-        "David Lopez's Gift Guide",
-        "female founded",
-        "female founders",
-        "Free_Of::Artificial_Colors",
-        "Free_Of::Artificial_Fragrances",
-        "Free_of::Parabens"
-      ]
-    },
-    {
-      "rank": 219,
       "name": "Fundamental Nourishing Eye Butter",
       "brand": "KLAIRS",
       "price_usd": 24.0,
@@ -4960,7 +4799,7 @@
       ]
     },
     {
-      "rank": 220,
+      "rank": 219,
       "name": "Real Complexion Hyaluron Exfoliating AHA Treatment",
       "brand": "HANSKIN",
       "price_usd": 27.0,
@@ -4984,29 +4823,6 @@
     },
     {
       "rank": 222,
-      "name": "Niacinamide Serum 12% Plus Zinc 2%",
-      "brand": "NATURIUM",
-      "price_usd": 17.0,
-      "category": "Serum/Ampoule",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/naturium-niacinamide-serum-12-plus-zinc-2",
-      "tags": [
-        "badge-beautyforgood",
-        "badge-femalefounded",
-        "badge-vegan",
-        "female founded",
-        "female founders",
-        "Free_Of::Alcohol_Products",
-        "Free_Of::Animal_Products",
-        "Free_Of::Artificial_Colors",
-        "Free_Of::Artificial_Fragrances",
-        "Free_Of::Essential_Oil",
-        "Free_Of::Mineral_Oil",
-        "Free_of::Parabens"
-      ]
-    },
-    {
-      "rank": 223,
       "name": "Dear, Klairs Fundamental Ampule Mist",
       "brand": "KLAIRS",
       "price_usd": 27.0,
@@ -5029,7 +4845,7 @@
       ]
     },
     {
-      "rank": 224,
+      "rank": 223,
       "name": "Retinol Complex Cream",
       "brand": "NATURIUM",
       "price_usd": 20.0,
@@ -5052,7 +4868,7 @@
       ]
     },
     {
-      "rank": 225,
+      "rank": 224,
       "name": "Fundamental Eye Awakening Gel",
       "brand": "KLAIRS",
       "price_usd": 25.0,
@@ -5075,7 +4891,7 @@
       ]
     },
     {
-      "rank": 226,
+      "rank": 225,
       "name": "Rovectin Intense Glow Oil",
       "brand": "ROVECTIN",
       "price_usd": 27.0,
@@ -5098,7 +4914,7 @@
       ]
     },
     {
-      "rank": 227,
+      "rank": 226,
       "name": "Vitamin C Glow Mask",
       "brand": "HANSKIN",
       "price_usd": 32.0,
@@ -5121,7 +4937,7 @@
       ]
     },
     {
-      "rank": 228,
+      "rank": 227,
       "name": "Dew-Glow Moisturizer SPF 50",
       "brand": "NATURIUM",
       "price_usd": 13.0,
@@ -5144,7 +4960,7 @@
       ]
     },
     {
-      "rank": 230,
+      "rank": 229,
       "name": "Dual Moist Toning Lotion",
       "brand": "OLIVARRIER",
       "price_usd": 22.0,
@@ -5167,7 +4983,7 @@
       ]
     },
     {
-      "rank": 233,
+      "rank": 232,
       "name": "Tri-Bio Treatment Essence",
       "brand": "SON REVE",
       "price_usd": 43.0,
@@ -5190,7 +5006,7 @@
       ]
     },
     {
-      "rank": 235,
+      "rank": 234,
       "name": "Fermentation Essence",
       "brand": "BENTON",
       "price_usd": 27.0,
@@ -5213,7 +5029,7 @@
       ]
     },
     {
-      "rank": 236,
+      "rank": 235,
       "name": "Real Complexion Hyaluron Eye Serum",
       "brand": "HANSKIN",
       "price_usd": 32.0,
@@ -5236,7 +5052,7 @@
       ]
     },
     {
-      "rank": 240,
+      "rank": 239,
       "name": "Real Firming Bakuchiol Serum",
       "brand": "NEOGEN",
       "price_usd": 38.0,
@@ -5259,7 +5075,7 @@
       ]
     },
     {
-      "rank": 242,
+      "rank": 241,
       "name": "Pore Clarifying Toner 10% Glycolic Acid",
       "brand": "SATURDAY SKIN",
       "price_usd": 30.0,
@@ -5283,29 +5099,6 @@
     },
     {
       "rank": 244,
-      "name": "Agas ACue Herbal Mask",
-      "brand": "INWARD",
-      "price_usd": 25.0,
-      "category": "Wash Off Masks",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/inward-agas-acue-herbal-mask",
-      "tags": [
-        "acne",
-        "acne & blemishes",
-        "acne care",
-        "badge-cleanbeauty",
-        "badge-vegan",
-        "botanical",
-        "Face Mask",
-        "Free_Of::Alcohol_Products",
-        "Free_Of::Animal_Products",
-        "Free_Of::Artificial_Colors",
-        "Free_Of::Artificial_Fragrances",
-        "Free_Of::Essential_Oil"
-      ]
-    },
-    {
-      "rank": 245,
       "name": "Dream Glow Tinted Lip Oil",
       "brand": "GLOWIEST",
       "price_usd": 24.0,
@@ -5323,7 +5116,7 @@
       ]
     },
     {
-      "rank": 246,
+      "rank": 245,
       "name": "Mindful Bubble Cleanse",
       "brand": "Chasin’ Rabbits",
       "price_usd": 23.0,
@@ -5346,7 +5139,7 @@
       ]
     },
     {
-      "rank": 247,
+      "rank": 246,
       "name": "Cleanse Me Softly Milk Cleanser",
       "brand": "SIORIS",
       "price_usd": 28.0,
@@ -5369,7 +5162,7 @@
       ]
     },
     {
-      "rank": 248,
+      "rank": 247,
       "name": "Real Fresh Green Tea Cleansing Oil",
       "brand": "NEOGEN",
       "price_usd": 32.0,
@@ -5387,6 +5180,29 @@
         "Free_Of::Animal_Products",
         "Free_Of::Artificial_Colors",
         "Free_Of::Artificial_Fragrances",
+        "Free_Of::Mineral_Oil",
+        "Free_of::Parabens"
+      ]
+    },
+    {
+      "rank": 250,
+      "name": "Deep In A Barrier Cream",
+      "brand": "SIORIS",
+      "price_usd": 34.0,
+      "category": "Facial Moisturizer",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/sioris-deep-in-a-barrier-cream",
+      "tags": [
+        "Acids & Actives",
+        "badge-cleanbeauty",
+        "badge-vegan",
+        "centella asiatica",
+        "Cruelty-free",
+        "Free_Of::Alcohol_Products",
+        "Free_Of::Animal_Products",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Artificial_Fragrances",
+        "Free_Of::Essential_Oil",
         "Free_Of::Mineral_Oil",
         "Free_of::Parabens"
       ]

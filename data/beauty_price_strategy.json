@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-11T22:30:26.566658Z",
+  "as_of": "2026-10-11T23:57:07.129542Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -49,7 +49,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T22:30:25.399340+00:00",
+        "timestamp": "2026-10-11T23:57:06.331956+00:00",
         "record_count": 356
       },
       {
@@ -59,7 +59,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T22:30:25.857700+00:00",
+        "timestamp": "2026-10-11T23:57:06.665273+00:00",
         "record_count": 356
       },
       {
@@ -79,7 +79,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T22:30:25.543008+00:00",
+        "timestamp": "2026-10-11T23:57:06.431096+00:00",
         "record_count": null
       },
       {
@@ -99,7 +99,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T22:30:26.356145+00:00",
+        "timestamp": "2026-10-11T23:57:07.023709+00:00",
         "record_count": 3
       },
       {
@@ -209,8 +209,8 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-03T11:52:29.376541+00:00",
-        "record_count": 238
+        "timestamp": "2026-10-11T23:57:01.373790+00:00",
+        "record_count": 230
       },
       {
         "key": "us_beauty_retail",
@@ -219,8 +219,8 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-03T00:00:16.480361+00:00",
-        "record_count": 123
+        "timestamp": "2026-10-11T23:56:57.138934+00:00",
+        "record_count": 127
       },
       {
         "key": "walmart_beauty",
@@ -239,7 +239,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-03T00:00:16.477735+00:00",
+        "timestamp": "2026-10-11T23:56:57.136448+00:00",
         "record_count": 46
       },
       {
@@ -249,7 +249,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-03T00:00:16.479473+00:00",
+        "timestamp": "2026-10-11T23:56:57.138036+00:00",
         "record_count": 46
       },
       {
@@ -259,7 +259,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-03T00:00:16.479114+00:00",
+        "timestamp": "2026-10-11T23:56:57.137763+00:00",
         "record_count": 0
       },
       {
@@ -298,7 +298,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-03T11:42:15.459821+00:00",
-        "age_hours": 202.8,
+        "age_hours": 204.25,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -312,26 +312,24 @@
         "source_id": "sokoglam_us",
         "channel": "sokoglam_us",
         "present": true,
-        "collected_at": "2026-10-03T11:52:29.376541+00:00",
-        "age_hours": 202.63,
+        "collected_at": "2026-10-11T23:57:01.373790+00:00",
+        "age_hours": 0.0,
         "verified": false,
         "reasons": [
-          "stale_by_age",
           "unverified_or_stale_source"
         ],
-        "items_total": 238,
-        "items_priced": 238,
+        "items_total": 230,
+        "items_priced": 230,
         "shipping_known_items": 0
       },
       {
         "source_id": "us_beauty_retail:sephora",
         "channel": "sephora",
         "present": true,
-        "collected_at": "2026-10-03T00:00:16.480361+00:00",
-        "age_hours": 214.5,
+        "collected_at": "2026-10-11T23:56:57.138934+00:00",
+        "age_hours": 0.0,
         "verified": false,
         "reasons": [
-          "stale_by_age",
           "unverified_or_stale_source"
         ],
         "items_total": 14,
@@ -342,15 +340,14 @@
         "source_id": "us_beauty_retail:ulta_beauty",
         "channel": "ulta_beauty",
         "present": true,
-        "collected_at": "2026-10-03T00:00:16.480361+00:00",
-        "age_hours": 214.5,
+        "collected_at": "2026-10-11T23:56:57.138934+00:00",
+        "age_hours": 0.0,
         "verified": false,
         "reasons": [
-          "stale_by_age",
           "unverified_or_stale_source"
         ],
-        "items_total": 109,
-        "items_priced": 109,
+        "items_total": 113,
+        "items_priced": 113,
         "shipping_known_items": 0
       },
       {
@@ -358,7 +355,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 635.18,
+        "age_hours": 636.63,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -372,11 +369,10 @@
         "source_id": "amazon_best_sellers",
         "channel": "amazon_best_sellers",
         "present": true,
-        "collected_at": "2026-10-03T00:00:16.477735+00:00",
-        "age_hours": 214.5,
+        "collected_at": "2026-10-11T23:56:57.136448+00:00",
+        "age_hours": 0.0,
         "verified": false,
         "reasons": [
-          "stale_by_age",
           "unverified_or_stale_source"
         ],
         "items_total": 46,
@@ -387,11 +383,10 @@
         "source_id": "amazon_new_beauty",
         "channel": "amazon_new_beauty",
         "present": true,
-        "collected_at": "2026-10-03T00:00:16.479473+00:00",
-        "age_hours": 214.5,
+        "collected_at": "2026-10-11T23:56:57.138036+00:00",
+        "age_hours": 0.0,
         "verified": false,
         "reasons": [
-          "stale_by_age",
           "unverified_or_stale_source"
         ],
         "items_total": 46,
@@ -402,11 +397,10 @@
         "source_id": "amazon_movers_beauty",
         "channel": "amazon_movers_beauty",
         "present": true,
-        "collected_at": "2026-10-03T00:00:16.479114+00:00",
-        "age_hours": 214.5,
+        "collected_at": "2026-10-11T23:56:57.137763+00:00",
+        "age_hours": 0.0,
         "verified": false,
         "reasons": [
-          "stale_by_age",
           "no_items"
         ],
         "items_total": 0,
@@ -429,8 +423,8 @@
         "shipping_known_items": 0
       }
     ],
-    "market_items_total": 607,
-    "market_items_priced": 569,
+    "market_items_total": 603,
+    "market_items_priced": 565,
     "market_items_with_shipping": 0,
     "own_price": {
       "live": 2,
@@ -1098,7 +1092,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": false,
@@ -1166,7 +1160,7 @@
           }
         ],
         "rejected_counts": {
-          "identity_mismatch": 607
+          "identity_mismatch": 603
         },
         "aggregate_reference": null
       },
@@ -1329,14 +1323,14 @@
             "price_usd": 23.99,
             "source": "shopify_action_queue.json",
             "status": "draft",
-            "observed_on": "2026-10-11T22:30:26.356145+00:00"
+            "observed_on": "2026-10-11T23:57:07.023709+00:00"
           },
           {
             "kind": "model_recommended",
             "price_usd": 23.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": true,
@@ -1402,7 +1396,7 @@
           }
         ],
         "rejected_counts": {
-          "identity_mismatch": 607
+          "identity_mismatch": 603
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
@@ -1412,7 +1406,7 @@
           "median_usd": 24.5,
           "max_usd": 56.9,
           "freshness": "stale",
-          "age_hours": 238.85,
+          "age_hours": 240.29,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1567,7 +1561,7 @@
             "price_usd": 30.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": false,
@@ -1589,7 +1583,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
@@ -1599,7 +1593,7 @@
           "median_usd": 32.0,
           "max_usd": 153.0,
           "freshness": "stale",
-          "age_hours": 238.85,
+          "age_hours": 240.29,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1751,14 +1745,14 @@
             "price_usd": 15.99,
             "source": "shopify_action_queue.json",
             "status": "draft",
-            "observed_on": "2026-10-11T22:30:26.356145+00:00"
+            "observed_on": "2026-10-11T23:57:07.023709+00:00"
           },
           {
             "kind": "model_recommended",
             "price_usd": 15.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": false,
@@ -1786,7 +1780,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "identity_mismatch": 607
+          "identity_mismatch": 603
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
@@ -1796,7 +1790,7 @@
           "median_usd": 16.8,
           "max_usd": 58.81,
           "freshness": "stale",
-          "age_hours": 238.85,
+          "age_hours": 240.29,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1965,14 +1959,14 @@
             "price_usd": 17.99,
             "source": "shopify_action_queue.json",
             "status": "draft",
-            "observed_on": "2026-10-11T22:30:26.356145+00:00"
+            "observed_on": "2026-10-11T23:57:07.023709+00:00"
           },
           {
             "kind": "model_recommended",
             "price_usd": 17.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": true,
@@ -2014,7 +2008,7 @@
           }
         ],
         "rejected_counts": {
-          "identity_mismatch": 607
+          "identity_mismatch": 603
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
@@ -2024,7 +2018,7 @@
           "median_usd": 18.38,
           "max_usd": 93.6,
           "freshness": "stale",
-          "age_hours": 238.85,
+          "age_hours": 240.29,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2177,7 +2171,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": false,
@@ -2199,7 +2193,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -2339,7 +2333,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -2463,7 +2457,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -2585,7 +2579,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -2708,7 +2702,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -2830,7 +2824,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -2952,7 +2946,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3074,7 +3068,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3198,7 +3192,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3322,7 +3316,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3446,7 +3440,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3566,7 +3560,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3688,7 +3682,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3811,7 +3805,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -3933,7 +3927,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -4056,7 +4050,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
@@ -4066,7 +4060,7 @@
           "median_usd": 11.55,
           "max_usd": 23.75,
           "freshness": "stale",
-          "age_hours": 238.85,
+          "age_hours": 240.29,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -4203,7 +4197,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -4327,7 +4321,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -4451,7 +4445,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -4575,7 +4569,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -4699,7 +4693,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -4821,7 +4815,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -4943,7 +4937,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5065,7 +5059,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5189,7 +5183,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5311,7 +5305,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5433,7 +5427,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5553,7 +5547,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5675,7 +5669,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5797,7 +5791,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -5921,7 +5915,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6043,7 +6037,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6169,7 +6163,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6291,7 +6285,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6413,7 +6407,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6535,7 +6529,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6657,7 +6651,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6781,7 +6775,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -6905,7 +6899,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -7030,7 +7024,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
@@ -7040,7 +7034,7 @@
           "median_usd": 19.93,
           "max_usd": 22.23,
           "freshness": "stale",
-          "age_hours": 238.85,
+          "age_hours": 240.29,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -7174,7 +7168,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -7296,7 +7290,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -7420,7 +7414,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -7542,7 +7536,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -7674,7 +7668,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
@@ -7684,7 +7678,7 @@
           "median_usd": 12.31,
           "max_usd": 37.98,
           "freshness": "stale",
-          "age_hours": 238.85,
+          "age_hours": 240.29,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -7823,7 +7817,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -7947,7 +7941,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8072,7 +8066,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8194,7 +8188,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8316,7 +8310,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8438,7 +8432,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8560,7 +8554,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8684,7 +8678,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8808,7 +8802,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -8930,7 +8924,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9052,7 +9046,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9174,7 +9168,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9296,7 +9290,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9418,7 +9412,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9540,7 +9534,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9662,7 +9656,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9786,7 +9780,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -9910,7 +9904,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10032,7 +10026,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10152,7 +10146,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10274,7 +10268,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10398,7 +10392,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10523,7 +10517,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10645,7 +10639,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10767,7 +10761,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -10887,7 +10881,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11009,7 +11003,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11131,7 +11125,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11253,7 +11247,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11375,7 +11369,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11499,7 +11493,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11621,7 +11615,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11742,7 +11736,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11864,7 +11858,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -11988,7 +11982,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12110,7 +12104,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12230,7 +12224,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12352,7 +12346,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12474,7 +12468,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12596,7 +12590,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12716,7 +12710,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12838,7 +12832,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -12960,7 +12954,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13082,7 +13076,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13206,7 +13200,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13330,7 +13324,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13450,7 +13444,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13572,7 +13566,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13694,7 +13688,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13818,7 +13812,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -13943,7 +13937,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14068,7 +14062,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14192,7 +14186,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14316,7 +14310,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14442,7 +14436,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14567,7 +14561,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14691,7 +14685,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14816,7 +14810,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -14940,7 +14934,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15065,7 +15059,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15190,7 +15184,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15315,7 +15309,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15440,7 +15434,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15564,7 +15558,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15688,7 +15682,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15812,7 +15806,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -15937,7 +15931,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16060,7 +16054,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16184,7 +16178,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16308,7 +16302,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16433,7 +16427,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16555,7 +16549,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16677,7 +16671,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16801,7 +16795,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -16926,7 +16920,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17051,7 +17045,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17178,7 +17172,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17303,7 +17297,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17428,7 +17422,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17553,7 +17547,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17677,7 +17671,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17802,7 +17796,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -17927,7 +17921,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18051,7 +18045,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18176,7 +18170,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18301,7 +18295,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18425,7 +18419,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18550,7 +18544,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18675,7 +18669,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18800,7 +18794,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -18925,7 +18919,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19049,7 +19043,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19173,7 +19167,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19299,7 +19293,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": false,
@@ -19321,7 +19315,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19461,7 +19455,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-11T22:30:25.543008+00:00"
+            "observed_on": "2026-10-11T23:57:06.431096+00:00"
           }
         ],
         "conflict": false,
@@ -19483,7 +19477,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19621,7 +19615,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19741,7 +19735,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19861,7 +19855,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -19980,7 +19974,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20100,7 +20094,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20220,7 +20214,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20340,7 +20334,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20461,7 +20455,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20581,7 +20575,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20703,7 +20697,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20822,7 +20816,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -20941,7 +20935,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21062,7 +21056,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21181,7 +21175,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21305,7 +21299,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21424,7 +21418,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21546,7 +21540,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21668,7 +21662,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21790,7 +21784,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -21909,7 +21903,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22029,7 +22023,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22149,7 +22143,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22271,7 +22265,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22391,7 +22385,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22512,7 +22506,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22632,7 +22626,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22751,7 +22745,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22871,7 +22865,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -22993,7 +22987,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23115,7 +23109,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23237,7 +23231,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23357,7 +23351,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23479,7 +23473,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23598,7 +23592,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23720,7 +23714,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23840,7 +23834,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -23962,7 +23956,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24083,7 +24077,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24203,7 +24197,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24323,7 +24317,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24443,7 +24437,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24563,7 +24557,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24683,7 +24677,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24805,7 +24799,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -24926,7 +24920,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25048,7 +25042,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25167,7 +25161,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25287,7 +25281,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25406,7 +25400,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25525,7 +25519,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25646,7 +25640,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25767,7 +25761,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -25889,7 +25883,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26011,7 +26005,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26133,7 +26127,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26255,7 +26249,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26377,7 +26371,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26497,7 +26491,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26619,7 +26613,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26741,7 +26735,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26863,7 +26857,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -26985,7 +26979,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -27107,7 +27101,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -27229,7 +27223,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -27349,7 +27343,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -27473,7 +27467,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -27595,7 +27589,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -27717,7 +27711,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
@@ -27839,7 +27833,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 607
+          "own_english_identity_missing": 603
         },
         "aggregate_reference": null
       },
