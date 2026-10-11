@@ -187,6 +187,11 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn(proof.POOL,publish['with']['paths'].split())
         self.assertIn('operations-safety-',str(steps))
         self.assertIn('source-safety-',str(steps))
+        from scripts.restore_source_safety import WORKFLOWS as source_callers
+        from scripts.restore_operations_safety import WORKFLOWS as operation_callers
+        recovery_path='.github/workflows/daiso-candidate-recovery.yml'
+        self.assertNotIn(recovery_path,source_callers)
+        self.assertNotIn(recovery_path,operation_callers)
 
 
 class RecordedCaptureTests(unittest.TestCase):

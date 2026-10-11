@@ -25,7 +25,6 @@ from scripts.github_artifact_io import REPOSITORY, fetch_github_json, fetch_arti
 from scripts import source_safety_checkpoint as safety
 
 WORKFLOWS = frozenset(('.github/workflows/daiso-real-collection.yml',
- '.github/workflows/daiso-candidate-recovery.yml',
  '.github/workflows/JARVIS-Core-Automation.yml', '.github/workflows/JARVIS-Deep-Analysis.yml'))
 BASE = 'https://api.github.com/repos/' + REPOSITORY + '/actions/'
 
