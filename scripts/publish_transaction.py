@@ -387,6 +387,14 @@ class Transaction:
         return bool(sources) and all(n == 'data/publish_deletions.json' or n.startswith(('data/daiso_real/candidate_', 'data/daiso_real/collection_status.json', 'data/daiso_real/crawl_state.json', 'data/daiso_real/shortlist_observations.json', 'data/daiso_real/.shortlist_observation_claim.json', 'data/agents/', 'data/knowledge/cumulative_history.json', 'data/health_check_history.jsonl', 'data/typesafe_advisory.json', 'data/typesafe_team_advisory.json', 'data/typesafe_shared_state.json', 'data/typesafe_call_log/')) for n in sources)
 
     def command(self, work, args):
+        # 2026-10-11: 운영 상태(data/operations)는 인증된 이력을 복구한 실행(Core·Deep·다이소 수집·환율·후보 복구)만 바꾼다.
+        # 그 밖의 수집기(실지식·미국 리테일·SerpApi·고시·리스팅 카피 등)는 run_jarvis_operations 가
+        # 'authenticated_runner_operations_continuity_required' 로 멈춰 10-09 이후 발행이 전부 막혔다.
+        # 이들은 운영 상태를 건드리지 않고(원격 최신 그대로) 나머지 런타임만 재생성한다. 가드 자체는 그대로다.
+        if (args and args[0] == 'scripts/run_jarvis_operations.py' and os.environ.get('GITHUB_ACTIONS') == 'true'
+                and os.environ.get('JARVIS_OPERATIONS_CONTINUITY') != 'verified'):
+            print('PUBLISH_OPERATIONS_UNCHANGED unauthenticated publisher; operations state kept at remote latest')
+            return
         env = dict(os.environ, TYPESAFE_ENABLED='0', GEMINI_FALLBACK_ENABLED='0',
                    GEMINI_ENABLED='0', TYPESAFE_ALLOW_PAID='0', PYTHONIOENCODING='utf-8')
         for key in ('TYPESAFE_API_KEY', 'GEMINI_API_KEY', 'GOOGLE_API_KEY'):
