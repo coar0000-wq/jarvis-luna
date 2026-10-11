@@ -20,6 +20,7 @@ on:
       - Shopify 영문 리스팅 카피 생성
       - 다이소 오늘의 뷰티추천 → Shopify 일일 등록
       - 미국 리테일 베스트셀러 수집 (브라우저)
+      - 환율 단독 관측 발행 (USD/KRW)
     types: [completed]
     branches: [main]
 
