@@ -143,10 +143,13 @@ jobs:
       #
       #   이제 이번 실행이 실제로 바꾼 파일만 얹는다. 대시보드는
       #   밀어넣을 그 트리에서 다시 만들고, 감사도 거기서 돌린다.
+      - name: 순위 스냅샷 교체 사유 기록 (가드 유지, 선언된 순위 목록만)
+        run: python -B scripts/collector_snapshot_history.py data/serpapi_market.json
+
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         uses: ./.github/actions/publish
         with:
-          paths: data/serpapi_market.json data/serpapi_usage.json data/youtube_serpapi.json
+          paths: data/serpapi_market.json data/serpapi_usage.json data/youtube_serpapi.json data/publish_deletions.json
           message: SerpApi 미국 시장가·트렌드·YouTube 수집
 
       - name: 앞 단계 실패 확인

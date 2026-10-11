@@ -115,6 +115,9 @@ jobs:
 
           echo '```' >> "$GITHUB_STEP_SUMMARY"
 
+      - name: 순위 스냅샷 교체 사유 기록 (가드 유지, 선언된 순위 목록만)
+        run: python -B scripts/collector_snapshot_history.py data/amazon_products.json data/walmart_products.json data/amazon_movers_products.json data/amazon_new_products.json data/sokoglam_products.json data/us_beauty_products.json
+
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         uses: ./.github/actions/publish
         with:
@@ -132,6 +135,7 @@ jobs:
             data/shopify_marketing_strategy.json
             data/listing_gate.json
             data/knowledge/cumulative_history.json
+            data/publish_deletions.json
           message: 미국 리테일 베스트셀러 수집 (Amazon / Ulta / Walmart / Sephora)
           regenerate-dashboard: 'true'
           audit: 'true'
