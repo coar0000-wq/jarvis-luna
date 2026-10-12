@@ -1788,10 +1788,10 @@ function renderBeautyStrategy(doc){
   box.replaceChildren();
   const add=(tag,text)=>{const n=document.createElement(tag);n.textContent=text;box.append(n);return n;};
   if(!doc || !doc.categories || !doc.policy){add('p','전략 근거 없음 · 가격 우위나 판매 0으로 추정하지 않습니다.');return;}
-  add('h4','스킨케어 · 메이크업 · 바디케어 | S등급 전용');
+  add('h4','스킨케어 · 메이크업 · 바디케어 | 가격 조사 범위');
   add('p','마진·손익은 경고만 · 가격 근거, 안전자료, 영문 라벨, 재고, 이미지와 중복 검증은 유지합니다.');
-  const counts=['skincare','makeup','body'].map(k=>{const c=doc.categories[k];return c?c.daiso_name+' '+c.product_count+'개 / S '+(c.grade_counts||{}).S+'개':k+' 확인 전';});
-  add('p',counts.join(' · ')+' · S가 없으면 A등급으로 대체하지 않습니다.');
+  const counts=['skincare','makeup','body'].map(k=>{const c=doc.categories[k];return c?c.daiso_name+' 조사 '+c.product_count+'개':k+' 확인 전';});
+  add('p',counts.join(' · ')+' · 조사 범위는 실제 등록 큐가 아닙니다. 등록은 위 전담팀의 정규 S큐만 검토하며, A등급 대체는 없습니다.');
   add('p','상업 우선순위 = 수요 점수 × 0.6 + 검증된 배송 포함 최저가 우위 점수(최대 40). 동일 품목·세트총량·통화·시장·시각을 맞추며, 미검증 가격은 가점 0입니다.');
   const coverage=doc.input_coverage||{}, positions=coverage.price_position||{};
   const verified=(positions.verified_below||0)+(positions.verified_not_below||0);
