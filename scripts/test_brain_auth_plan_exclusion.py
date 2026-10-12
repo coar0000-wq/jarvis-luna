@@ -27,6 +27,17 @@ class AuthPlanExclusion(unittest.TestCase):
                     brain.load_json(queue, root, {})
             self.assertFalse((root / brain.BRAIN / 'payloads').exists())
 
+    def test_public_token_price_is_numeric_only_and_not_a_general_exception(self):
+        for price in (0, 0.042, 1):
+            brain._check_secrets(json.dumps({'input_token_price_per_mtok_usd': price}).encode(),
+                                 {'input_token_price_per_mtok_usd': price})
+        for value in ('SYNTHETIC TOKEN', True, {'token': 'SYNTHETIC SECRET'}, -1, float('inf')):
+            with self.assertRaises(brain.PathExcluded):
+                brain._check_secrets(b'{}', {'input_token_price_per_mtok_usd': value})
+        for key in ('api_key', 'token', 'authorization', 'input_token_price', 'token_price_per_mtok_usd'):
+            with self.assertRaises(brain.PathExcluded):
+                brain._check_secrets(b'{}', {key: 0.042})
+
     def test_other_authorization_fields_still_fail_closed_without_raw_fallback(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

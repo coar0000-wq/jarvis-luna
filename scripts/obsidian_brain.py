@@ -455,7 +455,13 @@ def _check_secrets(raw, value=None):
         item = pending.pop()
         if isinstance(item, dict):
             for key, child in item.items():
-                if _SECRET_KEYS.search(str(key)) and child not in (None, '', False):
+                # Public accounting price is not a credential. The exact key
+                # accepts only finite nonnegative JSON numbers, never strings,
+                # booleans, containers or any other token/authorization field.
+                public_price = (key == 'input_token_price_per_mtok_usd'
+                                and type(child) in (int, float)
+                                and 0 <= child <= 1000000)
+                if _SECRET_KEYS.search(str(key)) and child not in (None, '', False) and not public_price:
                     raise PathExcluded('excluded_credential_field')
                 pending.append(child)
         elif isinstance(item, list):
