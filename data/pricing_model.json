@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:07:59.047439+00:00",
+  "generated_at": "2026-10-12T10:40:51.737583+00:00",
   "exchange_rate": {
     "usd_to_krw": 1341.69,
     "as_of": "2026-10-11",
@@ -8,7 +8,7 @@
   "pricing_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "7132fdc4322486736834632111846bc611ab0403854362f4bb24be034bf5267b",
+    "strategy_sha256": "6b742bd8da2b9147aa13cf1424aaa2e0a433cc82d53d2e45f892482e8da034e1",
     "margin_hard_block": false,
     "serp_collected_at": "2026-10-01T23:39:34.955593+00:00",
     "note": "register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
@@ -18,6 +18,42 @@
     "tariff": "15% - 미국 화장품 HTS 3304 한국산 상호관세",
     "de_minimis": "$800 면세 한도는 2025-08-29 전 국가 폐지, 2026-06-24 CBP 무기한 유예. 소액 소포도 과세 대상.",
     "payment_fee": "판매 후 카드사 결제 수수료 (사용자 확인 2026-10-11) = 2%",
+    "payment_fee_rate": 0.02,
+    "payment_fee_fixed_usd": 0.0,
+    "payment_fee_source": "user instruction2026-10-11",
+    "payment_fee_components": [
+      {
+        "name": "card_processor_after_sale",
+        "status": "KNOWN",
+        "rate": 0.02,
+        "fixed_usd": 0.0,
+        "source": "user instruction2026-10-11",
+        "included": true
+      },
+      {
+        "name": "shopify_supplemental_transaction_fee",
+        "status": "UNKNOWN",
+        "rate": null,
+        "fixed_usd": null,
+        "source": null,
+        "included": false
+      },
+      {
+        "name": "managed_markets_fee",
+        "status": "UNKNOWN",
+        "rate": null,
+        "fixed_usd": null,
+        "source": null,
+        "included": false
+      }
+    ],
+    "unknown_fees": [
+      "shopify_supplemental_transaction_fee",
+      "managed_markets_fee"
+    ],
+    "has_unknown_fees": true,
+    "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+    "full_profit_verified": false,
     "weight": "실측 0건은 data/weights.json 값을 썼다. 나머지는 다이소에 무게 정보가 없어 용량 표기로 추정한 값이라 실측이 필요하다.",
     "not_included": [
       "광고비(CAC)",
@@ -63,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -71,6 +107,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 14.67,
           "margin_pct": 61.2,
           "breakeven_usd": 9.02,
@@ -106,7 +149,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -116,6 +159,13 @@
             "margin_below_target:32.0%<40.0%"
           ],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 5.12,
           "margin_pct": 32.0,
           "breakeven_usd": 10.77,
@@ -162,6 +212,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 13.69,
           "margin_pct": 59.5,
           "breakeven_usd": 9.02,
@@ -197,7 +254,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -207,6 +264,13 @@
             "margin_below_target:35.1%<40.0%"
           ],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 6.32,
           "margin_pct": 35.1,
           "breakeven_usd": 11.54,
@@ -253,6 +317,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 11.22,
           "margin_pct": 48.8,
           "breakeven_usd": 11.54,
@@ -288,7 +359,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -296,6 +367,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 17.56,
           "margin_pct": 56.7,
           "breakeven_usd": 13.07,
@@ -340,6 +418,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 12.94,
           "margin_pct": 56.3,
           "breakeven_usd": 9.79,
@@ -384,6 +469,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 11.98,
           "margin_pct": 52.1,
           "breakeven_usd": 10.77,
@@ -421,7 +513,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -429,6 +521,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 27.77,
           "margin_pct": 69.4,
           "breakeven_usd": 11.65,
@@ -464,7 +563,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -472,6 +571,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 11.83,
           "margin_pct": 42.3,
           "breakeven_usd": 15.92,
@@ -516,6 +622,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 26.79,
           "margin_pct": 68.7,
           "breakeven_usd": 11.65,
@@ -551,7 +664,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -559,6 +672,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 13.05,
           "margin_pct": 43.5,
           "breakeven_usd": 16.67,
@@ -603,6 +723,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 21.87,
           "margin_pct": 56.1,
           "breakeven_usd": 16.67,
@@ -638,7 +765,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 10.19,
+            "age_days": 10.46,
             "volume_status": "match"
           }
         },
@@ -646,6 +773,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 30.21,
           "margin_pct": 58.1,
           "breakeven_usd": 21.16,
@@ -690,6 +824,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 24.55,
           "margin_pct": 63.0,
           "breakeven_usd": 13.94,
@@ -734,6 +875,13 @@
           "status": "ok",
           "warnings": [],
           "blocks_registration": false,
+          "unknown_fees": [
+            "shopify_supplemental_transaction_fee",
+            "managed_markets_fee"
+          ],
+          "has_unknown_fees": true,
+          "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
+          "full_profit_verified": false,
           "net_profit_usd": 22.61,
           "margin_pct": 58.0,
           "breakeven_usd": 15.92,

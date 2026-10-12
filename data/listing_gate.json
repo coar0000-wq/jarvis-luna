@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-12T04:07:59.640773+00:00",
+  "generated_at": "2026-10-12T11:04:39.413808+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -8,27 +8,27 @@
       "data/product_master.json": "7cb0fd2ec973e5f39ca2952a2ae4697ce1808337a23ef2b78de6a1973e9e8567",
       "data/gosi.json": "9957b715738857ece0929e82a179e94fb54bf1ce3527ccac08895cbbf14204ae",
       "data/daiso_real/daiso_us_labels.json": "d7a79995a77dbfa56f0bd8bc921447df00d502fc9eda7c94c933457be6aae564",
-      "data/pricing_model.json": "7bc1d0e1426bba679c7fdc55861d9b278f3141210efbec978fa690491fd943eb",
-      "data/legal_products.json": "03c061862b3ca83c4533aac36a6b72c4492d24e2d9663a87f8aa547ee29818eb",
-      "data/daiso_real/shopify_s_recommendations.json": "04c679e51d8ed4909214ef70555ec0849e08981845fd0011d9752bf6545f4095",
+      "data/pricing_model.json": "e3cff322c900c4a1428093c83bb1e33c483da794b8904b17adcc34f8de2a5491",
+      "data/legal_products.json": "e64ec3d5f2a38d4fdd6936808a063f07dbb30c9cc4e3d9dc4c366b12f01115dd",
+      "data/daiso_real/shopify_s_recommendations.json": "50fd4f506e94421eedc58384b44509f8455cc1a5cff925eaa43233791aeb5501",
       "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-      "data/shopify_shortlist.json": "4adf41dbaf2a83aaeddb41e440c42d4a16b309567d21c34d73ce3949dd7593d0",
+      "data/shopify_shortlist.json": "9be150c8c39332751a94dc350e135244a4f9496439a6a922a4cfd74a5d4cf817",
       "data/legal_full.json": "0276073f4346fda98b353aa0be77213ec08fdd1511f974b80269ef0daa82ec25",
-      "data/mocra_readiness.json": "4e2ecc698259bf08fb6e65a02018dc8c3dd79b4e0b05e88c0361b361614b1e3e",
+      "data/mocra_readiness.json": "991c5a9301bb19ee6e5f986a1b27c6b7e832bfb95210e32541ca28e74160aac7",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-      "data/manual/mocra_business.json": "1df96ae3c0b150bfa3d333426895ff5f83196e0206290563b7c1dacf033cd802",
+      "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
       "config/daiso_commerce_strategy.json": "beba67eaf6f383bc10cd709d03e9540cbe1c861af149bd850063367ae68855c2",
-      "masked/manufacturer_safety_record": "62e00718e18c30ce90468556ba05f050eaa50c67180f0cc14b930e317ed235b3",
+      "masked/manufacturer_safety_record": "571d55f781ea49448707b7c6439f551c52b746b067ce3358292bdbbc088d6358",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "9bbbc6619ff3418e6b1dcdfa6295091a4469067fb1864e242750b7ac50d0eca6"
+    "recommendations_sha256": "b91d45581aefa0ffa220f14373f21676493cc1ba9b63fff9c420e7076b3294fa"
   },
   "total": 8,
-  "agent_ready": 3,
-  "ready": 3,
-  "draft_ready": 3,
-  "public_ready": 3,
+  "agent_ready": 0,
+  "ready": 0,
+  "draft_ready": 0,
+  "public_ready": 0,
   "counts": {
     "ontology": 8,
     "copy": 4,
@@ -36,7 +36,7 @@
     "us_label": 5,
     "price": 4,
     "legal": 3,
-    "manufacturer_safety_record": 8,
+    "manufacturer_safety_record": 0,
     "legal_full": 3
   },
   "blockers": {
@@ -44,12 +44,13 @@
     "gosi": 3,
     "us_label": 3,
     "price": 4,
-    "legal": 5
+    "legal": 5,
+    "manufacturer_safety_record": 8
   },
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "7132fdc4322486736834632111846bc611ab0403854362f4bb24be034bf5267b",
+    "strategy_sha256": "6b742bd8da2b9147aa13cf1424aaa2e0a433cc82d53d2e45f892482e8da034e1",
     "margin_hard_block": false,
     "products_with_profit_warnings": 2,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
@@ -132,15 +133,21 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -151,15 +158,14 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -225,15 +231,21 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -244,15 +256,14 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -318,23 +329,26 @@
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
       "agent_ready": false,
       "agent_blocked_by": [
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "price",
         "legal",
+        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -348,7 +362,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 6,
+        "risk_points": 7,
         "team_routes": [
           "legal",
           "pricing"
@@ -356,8 +370,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price, legal",
-          "public blockers: price, legal, legal_full",
+          "draft blockers: price, legal, manufacturer_safety_record_missing",
+          "public blockers: price, legal, manufacturer_safety_record_missing, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -424,15 +438,21 @@
         "hard_block_reason": ""
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "legal_full_complete": true,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
@@ -443,15 +463,14 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
-        "team_routes": [
-          "listing"
-        ],
-        "model_route": "local",
+        "risk_level": "medium",
+        "risk_points": 1,
+        "team_routes": [],
+        "model_route": "gemini",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: manufacturer_safety_record_missing",
+          "public blockers: manufacturer_safety_record_missing",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -502,15 +521,16 @@
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
       "agent_ready": false,
       "agent_blocked_by": [
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
@@ -518,7 +538,8 @@
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
@@ -527,6 +548,7 @@
         "us_label",
         "price",
         "legal",
+        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -540,7 +562,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 9,
+        "risk_points": 10,
         "team_routes": [
           "legal",
           "pricing",
@@ -550,8 +572,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, price, legal",
-          "public blockers: copy, gosi, us_label, price, legal, legal_full",
+          "draft blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -601,22 +623,25 @@
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
         "copy",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
         "legal",
+        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -630,7 +655,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 7,
+        "risk_points": 8,
         "team_routes": [
           "legal",
           "listing"
@@ -638,8 +663,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, legal",
-          "public blockers: copy, legal, legal_full",
+          "draft blockers: copy, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, legal, manufacturer_safety_record_missing, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -691,15 +716,16 @@
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
       "agent_ready": false,
       "agent_blocked_by": [
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
@@ -707,7 +733,8 @@
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
@@ -716,6 +743,7 @@
         "us_label",
         "price",
         "legal",
+        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -729,7 +757,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 10,
+        "risk_points": 11,
         "team_routes": [
           "legal",
           "pricing",
@@ -739,8 +767,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, price, legal",
-          "public blockers: copy, gosi, us_label, price, legal, legal_full",
+          "draft blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -792,15 +820,16 @@
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       },
       "agent_ready": false,
       "agent_blocked_by": [
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
@@ -808,7 +837,8 @@
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
@@ -817,6 +847,7 @@
         "us_label",
         "price",
         "legal",
+        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -830,7 +861,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 10,
+        "risk_points": 11,
         "team_routes": [
           "legal",
           "pricing",
@@ -840,8 +871,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, price, legal",
-          "public blockers: copy, gosi, us_label, price, legal, legal_full",
+          "draft blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],

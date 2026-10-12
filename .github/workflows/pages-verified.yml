@@ -116,6 +116,7 @@ jobs:
             python -B -m unittest discover -s scripts -p "test_brain_plane.py"
             python -B -m unittest discover -s scripts -p "test_obsidian_brain.py"
             python -B -m unittest discover -s scripts -p "test_brain_large_graph.py"
+            python -B -m unittest discover -s scripts -p "test_brain_auth_plan_exclusion.py"
             python -B -m unittest discover -s scripts -p "test_ingest_obsidian_data.py"
             python -B -m unittest discover -s scripts -p "test_beauty_category_teams.py"
             python -B -m unittest discover -s scripts -p "test_payment_fees.py"

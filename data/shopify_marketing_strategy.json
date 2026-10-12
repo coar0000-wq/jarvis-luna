@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T13:07:59.741200+09:00",
+  "generated_at": "2026-10-12T19:43:47.282777+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -3348,8 +3348,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 100,
-      "agent_ready": true,
-      "public_ready": true,
+      "agent_ready": false,
+      "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3383,8 +3383,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 98,
-      "agent_ready": true,
-      "public_ready": true,
+      "agent_ready": false,
+      "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3453,8 +3453,8 @@
       "bucket": "스킨케어",
       "grade": "S",
       "score": 96,
-      "agent_ready": true,
-      "public_ready": true,
+      "agent_ready": false,
+      "public_ready": false,
       "recommended_insight_ids": [
         "MKT-002",
         "MKT-003",
@@ -3772,10 +3772,10 @@
     "Social Paradigm Group 영상의 대행사·브랜드 규모 홍보와 보편 매출·전환 벤치마크는 제외하고 단위경제 선행 진단과 자사 기준선 판정 원칙만 채택"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-12T04:07:59.640773+00:00",
+    "listing_gate_generated_at": "2026-10-12T10:40:52.487294+00:00",
     "s_product_count": 8,
     "product_playbook_count": 8,
-    "public_ready_count": 3,
-    "agent_ready_count": 3
+    "public_ready_count": 0,
+    "agent_ready_count": 0
   }
 }

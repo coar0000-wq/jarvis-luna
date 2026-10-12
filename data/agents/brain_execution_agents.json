@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "team": "agents",
+  "completed_at": "2026-10-12T10:57:05.200023+00:00",
+  "input_read_from_vault": true,
+  "output_stored": true,
+  "input_count": 9,
+  "output_count": 8,
+  "excluded_count": 1,
+  "source_default_count": 0,
+  "scope": "supported operational JSON only; private inputs excluded",
+  "analysis_only": true,
+  "business_approval": false,
+  "external_execution": false
+}

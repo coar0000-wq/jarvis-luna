@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "team": "runtime",
+  "completed_at": "2026-10-12T10:56:29.327859+00:00",
+  "input_read_from_vault": true,
+  "output_stored": true,
+  "input_count": 42,
+  "output_count": 1,
+  "excluded_count": 3,
+  "source_default_count": 1,
+  "scope": "supported operational JSON only; private inputs excluded",
+  "analysis_only": true,
+  "business_approval": false,
+  "external_execution": false
+}
