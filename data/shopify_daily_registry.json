@@ -104,6 +104,69 @@
       ],
       "shopify_id": "gid://shopify/Product/9538199421185",
       "handle": "vt-pdrn-radiance-cream-50-ml"
+    },
+    {
+      "pd_no": "1053482",
+      "family": "메디필엑스트라슈퍼9플러스모공진정토너200ml",
+      "name_kr": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "title": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+      "category": "skincare",
+      "date": "2026-10-12",
+      "status": "DRAFT",
+      "krw": 5000,
+      "single_usd": 30.99,
+      "single_margin_pct": 56.6,
+      "pack_usd": 52.99,
+      "pack_margin_pct": 58.8,
+      "size": {
+        "unit": 200.0,
+        "base": "ml",
+        "count": 1,
+        "total": 200.0
+      },
+      "images": 0,
+      "price_basis": "상품별 미국 실판매 중앙값 기준 참고 가격 (SerpApi, 시장 최저가 아님)",
+      "shop_com_lowest_usd": null,
+      "profitability_warnings": [],
+      "priority": {
+        "source": "scripts/build_beauty_price_strategy.py (offline, recomputed from the actual inputs at run time)",
+        "formula": "0.6*shopify_score + verified_price_points (only verified_below vs a verified delivered same-item minimum)",
+        "as_of": "2026-10-12T06:51:55.677835+00:00",
+        "canonical_index": 5,
+        "status": "live_strategy",
+        "reason": null,
+        "shopify_score": 86,
+        "score": 51.6,
+        "components": {
+          "demand_score_x0.6": 51.6,
+          "verified_price_points": 0.0,
+          "provisional_price_points_not_counted": 0.0
+        },
+        "evidence_status": "unknown_price_evidence",
+        "price_position": "unknown",
+        "price_position_verified": false,
+        "strategy_rank": 6
+      },
+      "price_evidence_source": "serpapi_google_shopping",
+      "price_claim": "reference_price_basis_only_not_market_minimum",
+      "draft_reasons": [
+        "listing_gate_legal_hard_block",
+        "listing_gate_public_not_ready",
+        "listing_gate_draft_not_ready",
+        "listing_gate_legal_full_incomplete",
+        "listing_gate_public_blocked_by:copy,legal,legal_full",
+        "brand_english_unverified:메디필",
+        "english_title_missing",
+        "no_usable_product_images"
+      ],
+      "grade": "S",
+      "source": "jarvis_s_list",
+      "price_position": "no_comparison",
+      "strategy_hints": [
+        "shop_com_match_missing: 검증된 동일 상품 비교 없음. 가격은 참고 가격 근거일 뿐 시장 최저가가 아니다"
+      ],
+      "shopify_id": "gid://shopify/Product/9549280772353",
+      "handle": "메디필-엑스트라-슈퍼-9-플러스-모공-진정-토너-200-ml"
     }
   ]
 }

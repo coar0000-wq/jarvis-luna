@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-11T06:45:21+00:00",
+  "collected_at": "2026-10-12T06:52:30+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -100,8 +100,8 @@
       "list_price_text": "",
       "price_usd": 39.0,
       "discount_pct": null,
-      "rating": 4.3,
-      "reviews": 4,
+      "rating": 4.4,
+      "reviews": 5,
       "url": "https://shop.com/products/10597519065407/vanillas-touch-mist",
       "page": "Explore"
     },
@@ -165,8 +165,8 @@
       "list_price_text": "$62.00",
       "price_usd": 45.0,
       "discount_pct": 27,
-      "rating": null,
-      "reviews": null,
+      "rating": 5.0,
+      "reviews": 1,
       "url": "https://shop.com/products/8504347426886/hair-repair-kit",
       "page": "Explore"
     },
@@ -218,7 +218,7 @@
       "price_usd": 84.0,
       "discount_pct": 16,
       "rating": 4.7,
-      "reviews": 1703,
+      "reviews": 1706,
       "url": "https://shop.com/products/8092623495/anti-aging-body-balm",
       "page": "Beauty"
     },
@@ -270,7 +270,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2845,
+      "reviews": 2846,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
@@ -296,7 +296,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 6577,
+      "reviews": 6608,
       "url": "https://shop.com/products/8532767277309/le-chouchou",
       "page": "Beauty"
     },
@@ -309,7 +309,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2069,
+      "reviews": 2071,
       "url": "https://shop.com/products/7739001766060/pout-preserve-hydrating-peptide-lip-treatment",
       "page": "Beauty"
     },
