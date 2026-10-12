@@ -19,6 +19,8 @@ except ModuleNotFoundError:
     from team_improvement_evidence import build as build_team_improvement_evidence
 
 # 기준 경로 설정
+import brain_plane
+
 ROOT = Path(__file__).resolve().parents[1]
 D = ROOT / "data"
 OUT = ROOT / "data" / "dashboard_runtime.json"
@@ -32,6 +34,8 @@ KST = timezone(timedelta(hours=9))
 
 def load_json(path: Path, default: any) -> any:
     """안전하게 JSON 파일을 로드합니다."""
+    if brain_plane.brain.current_execution(ROOT) is not None:
+        return brain_plane.read_json(path, ROOT, default)
     if not path.exists():
         return default
     try:
@@ -1222,7 +1226,7 @@ def agents_plan_heartbeat(root=ROOT):
     return {'risk':plan.get('risk'),'task_count':plan.get('task_count'),'at':run['generated_at']}
 
 
-def main() -> None:
+def _main() -> None:
     graph = graph_metrics()
     sources = source_metrics()
     training = training_metrics()
@@ -1276,6 +1280,8 @@ def main() -> None:
         "operations": load_json(ROOT / "data" / "operations" / "board.json", {}) or {},
         "team_improvement_evidence": build_team_improvement_evidence(ROOT, now=now),
         "agents_ops": agents_plan_heartbeat(ROOT),
+        "beauty_category_teams": load_json(ROOT / "data/agents/beauty_category_teams.json", {}) or {},
+        "brain_dataset": {k:v for k,v in (load_json(ROOT / "data/agents/brain_dataset_index.json", {}) or {}).items() if k in ("archived_file_count","path_excluded_count","source_rejected_count","scan_truncated","write_at","input_read_from_vault","coverage","downstream_direct_vault_consumption_verified")},
         "teams": teams,
         "secretary": secretary,
         "remediation_state": load_json(
@@ -1400,6 +1406,7 @@ def main() -> None:
     else:
         raise SystemExit("dashboard_runtime.json 기록 검증 실패")
 
+    brain_plane.record(OUT, ROOT)
     print(f"저장: {OUT}")
     print(f"  생성 {now}")
     print(f"  팀 {len(teams)}개 · 파이프라인 "
@@ -1407,6 +1414,11 @@ def main() -> None:
           f"{payload['team_summary']['pipeline_total']}")
     print(f"  노트 {graph['notes']} · 링크 {graph['links']} · "
           f"코퍼스 {payload['team_summary']['corpus_records']}")
+
+
+def main() -> None:
+    return brain_plane.execute(ROOT, team="runtime", task="dashboard-analysis",
+        operation="local-analysis", callback=_main)
 
 
 if __name__ == "__main__":

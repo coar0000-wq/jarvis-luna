@@ -32,6 +32,7 @@ import jarvis_operations as core
 import jarvis_recovery as recovery
 import jarvis_watch as watch
 import run_jarvis_operations as runner
+from operations_storage import OPS_STATE_MAX_BYTES, operations_file_max_bytes
 
 REPOSITORY = transport.REPOSITORY
 BASE = 'https://api.github.com/repos/' + REPOSITORY + '/actions/'
@@ -44,7 +45,9 @@ LEDGER = execution.ExecutionStore.filename
 PENDING = 'data/operations/.restore-pending.json'
 MAX_FILES = 1024
 MAX_FILE_BYTES = 8 * 1024 * 1024
-MAX_TOTAL_BYTES = 16 * 1024 * 1024
+BASE_TOTAL_BYTES = 16 * 1024 * 1024
+# Only the state exception adds capacity; ordinary files keep their old budgets.
+MAX_TOTAL_BYTES = BASE_TOTAL_BYTES + OPS_STATE_MAX_BYTES - MAX_FILE_BYTES
 MAX_ARCHIVE_BYTES = transport.MAX_ARCHIVE_BYTES
 REPORT = re.compile(r'data/operations/reports/[A-Za-z0-9][A-Za-z0-9_.-]{0,190}\.json\Z')
 UPLOAD_NAME = 'operations-safety-${{ github.run_id }}-${{ github.run_attempt }}'
@@ -79,10 +82,12 @@ def _pending(root):
 
 def _read(root, relative):
     path = execution._safe(root, relative)
-    if not path.is_file() or path.stat().st_size > MAX_FILE_BYTES:
+    limit = operations_file_max_bytes(relative, MAX_FILE_BYTES)
+    if not path.is_file() or path.stat().st_size > limit:
         raise Blocked('operations_file_missing_or_oversize')
-    raw = path.read_bytes()
-    if len(raw) > MAX_FILE_BYTES:
+    with path.open('rb') as stream:
+        raw = stream.read(limit + 1)
+    if len(raw) > limit:
         raise Blocked('operations_file_oversize')
     return raw
 
@@ -99,12 +104,25 @@ def _snapshot(root, *, staging=()):
         if not REPORT.fullmatch(relative) or not path.is_file():
             raise Blocked('unexpected_operations_report')
         files[relative] = _read(root, relative)
-    if len(files) > MAX_FILES or sum(map(len, files.values())) > MAX_TOTAL_BYTES:
-        raise Blocked('operations_snapshot_limit')
+    _validate_sizes(files)
     return files
 
 
+def _validate_sizes(files):
+    """Keep the original aggregate allowance except for oversized state bytes."""
+    if len(files) > MAX_FILES:
+        raise Blocked('operations_snapshot_limit')
+    for relative, raw in files.items():
+        if not isinstance(raw, bytes) or len(raw) > operations_file_max_bytes(relative, MAX_FILE_BYTES):
+            raise Blocked('operations_file_oversize')
+    state_size = len(files.get(STATE, b''))
+    total_limit = BASE_TOTAL_BYTES + max(0, state_size - MAX_FILE_BYTES)
+    if sum(map(len, files.values())) > total_limit:
+        raise Blocked('operations_snapshot_limit')
+
+
 def _validate_files(files):
+    _validate_sizes(files)
     if STATE not in files or LEDGER not in files:
         raise Blocked('operations_continuity_pair_missing')
     # Validate the entire candidate with existing safe IO/store and receipt APIs.
@@ -362,7 +380,7 @@ def _archive(raw):
             mode = entry.external_attr >> 16
             if (entry.flag_bits & 1 or entry.external_attr & 0x400 or stat.S_IFMT(mode) not in (0, stat.S_IFREG, stat.S_IFDIR)
                     or entry.compress_type not in (zipfile.ZIP_STORED, zipfile.ZIP_DEFLATED)
-                    or entry.file_size > MAX_FILE_BYTES or (entry.file_size > 1024 * 1024 and entry.file_size > max(1, entry.compress_size) * 200)):
+                    or (entry.file_size > 1024 * 1024 and entry.file_size > max(1, entry.compress_size) * 200)):
                 raise Blocked('archive_entry_unsafe')
             if entry.is_dir():
                 if name not in ('reports/', 'data/', 'data/operations/', 'data/operations/reports/') or entry.file_size:
@@ -379,12 +397,15 @@ def _archive(raw):
                 raise Blocked('archive_file_scope')
             if relative in files:
                 raise Blocked('archive_duplicate_target')
+            limit = operations_file_max_bytes(relative, MAX_FILE_BYTES)
+            if entry.file_size > limit:
+                raise Blocked('archive_entry_unsafe')
             total += entry.file_size
             if total > MAX_TOTAL_BYTES:
                 raise Blocked('archive_total_limit')
             with archive.open(entry) as stream:
-                body = stream.read(MAX_FILE_BYTES + 1)
-            if len(body) != entry.file_size or len(body) > MAX_FILE_BYTES:
+                body = stream.read(limit + 1)
+            if len(body) != entry.file_size or len(body) > limit:
                 raise Blocked('archive_read_limit')
             files[relative] = body
     _validate_files(files)

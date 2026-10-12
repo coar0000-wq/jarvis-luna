@@ -4,6 +4,8 @@ Covers scripts/pricing_model.py (evidence/advisory, offers) and scripts/build_li
 No network, no Shopify, no writes to the repository's data/ (everything runs in a temp dir).
 """
 import contextlib
+import copy
+import hashlib
 import io
 import json
 import sys
@@ -18,6 +20,34 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_listing_gate as gate  # noqa: E402
 import gate_signature  # noqa: E402
 import pricing_model as pm  # noqa: E402
+
+
+SYNTHETIC_COVERAGE = object()
+
+
+def synthetic_safety_profile(root, base=None):
+    """Real temporary files and SHA bindings; explicitly fictional, not production approval."""
+    manual = Path(root) / "data/manual"
+    manual.mkdir(parents=True, exist_ok=True)
+    dossier = b"SYNTHETIC TEST ONLY: exact SKU 1/formula dossier, not production substantiation."
+    adequacy = b"SYNTHETIC TEST ONLY: completed qualified adequacy review, not production approval."
+    dossier_path = "data/manual/private-synthetic-dossier.txt"
+    adequacy_path = "data/manual/private-synthetic-adequacy.txt"
+    (Path(root) / dossier_path).write_bytes(dossier)
+    (Path(root) / adequacy_path).write_bytes(adequacy)
+    document_sha = hashlib.sha256(dossier).hexdigest()
+    scope = {"scope_type": "exact_product_formula", "pd_nos": ["1"],
+             "formula_id": "PRIVATE-SYNTHETIC-FORMULA-NOT-PRODUCTION"}
+    record = {"document_type": "qualified_safety_dossier", "scope": scope,
+              "file": dossier_path, "sha256": document_sha,
+              "manual_review": {"method": "manual", "disposition": "adequate",
+                  "reviewer_qualified": True, "reviewed_by": "PRIVATE-SYNTHETIC-REVIEWER",
+                  "reviewed_at": "2026-01-01", "document_sha256": document_sha,
+                  "scope": copy.deepcopy(scope), "adequacy_type": "product_safety_substantiation",
+                  "adequacy_file": adequacy_path, "adequacy_sha256": hashlib.sha256(adequacy).hexdigest()}}
+    profile = copy.deepcopy(base) if base is not None else {"safety_substantiation": {"covered_pd_nos": ["1"]}}
+    profile["safety_substantiation"]["evidence_records"] = [record]
+    return profile
 
 
 def iso(days_ago=0):
@@ -137,10 +167,10 @@ class PricingModelPolicyTests(unittest.TestCase):
 
 
 class ListingGatePriceTests(unittest.TestCase):
-    # 테스트 전용 픽스처: 마진만 시험할 때 안전 입증이 '확인된' 상태를 명시적으로 만든다. 실제 운영 문서를 승인하는 것이 아니다.
-    COVERED = {"safety_substantiation": {"covered_pd_nos": ["1"], "note": "TEST FIXTURE ONLY"}}
+    # Materialize actual synthetic files/receipts in each temporary root, not owner declarations.
+    COVERED = SYNTHETIC_COVERAGE
 
-    def _gate(self, price, legal=None, safety=COVERED, private=None):
+    def _gate(self, price, legal=None, safety=COVERED, private=None, verified_private=False):
         legal = {"status": "ok", "hard_block": False} if legal is None else legal
         with tempfile.TemporaryDirectory() as folder:
             tmp = Path(folder)
@@ -171,6 +201,10 @@ class ListingGatePriceTests(unittest.TestCase):
             write(files["gosi"], {"items": {"1": {"ingredients": "정제수", "volume": "50 ml", "maker": "메이커", "origin": "한국"}}})
             manual = data / "manual"
             manual.mkdir(parents=True, exist_ok=True)
+            if safety is SYNTHETIC_COVERAGE:
+                safety = synthetic_safety_profile(tmp)
+            if verified_private:
+                private = synthetic_safety_profile(tmp, private)
             if safety is not None:
                 (manual / "mocra_business.json").write_text(
                     safety if isinstance(safety, str) else json.dumps(safety), encoding="utf-8")
@@ -210,6 +244,7 @@ class ListingGatePriceTests(unittest.TestCase):
         doc, item = self._gate(self._offer(profit_warnings=["price_at_or_below_breakeven"]))
         self.assertNotIn("price", item["blocked_by"])
         self.assertTrue(item["ready"])
+        self._assert_verified_public_record(item["manufacturer_safety_record"])
         self.assertTrue(item["price"]["price_evidence_ok"])
         self.assertEqual(item["price"]["profit_warnings"], ["price_at_or_below_breakeven"])
         self.assertFalse(item["price"]["blocks_registration"])
@@ -218,6 +253,7 @@ class ListingGatePriceTests(unittest.TestCase):
 
     def test_margin_warnings_are_derived_when_the_model_did_not_provide_them(self):
         _, item = self._gate(self._offer(margin_pct=12.0, net_profit_usd=1.0))
+        self._assert_verified_public_record(item["manufacturer_safety_record"])
         self.assertNotIn("price", item["blocked_by"])
         self.assertTrue(any(w.startswith("margin_below_minimum") for w in item["price"]["profit_warnings"]))
         self.assertTrue(any(w.startswith("margin_below_target") for w in item["price"]["profit_warnings"]))
@@ -251,6 +287,16 @@ class ListingGatePriceTests(unittest.TestCase):
     # ------------------------------------------------------------------
     # 제조사 안전성 기록: listing gate 가 daily 등록기와 같은 함수를 상품마다 부른다
     # ------------------------------------------------------------------
+    def _assert_verified_public_record(self, record):
+        self.assertTrue(record["covered"])
+        self.assertIsNone(record["reason"])
+        self.assertEqual(set(record), {"covered", "reason", "evidence_digest"})
+        self.assertRegex(record["evidence_digest"], r"^[0-9a-f]{64}$")
+        public = json.dumps(record)
+        for secret in ("PRIVATE-SYNTHETIC-REVIEWER", "PRIVATE-SYNTHETIC-FORMULA",
+                       "private-synthetic-dossier.txt", "private-synthetic-adequacy.txt"):
+            self.assertNotIn(secret, public)
+
     def _assert_safety_blocked(self, item):
         reason = "manufacturer_safety_record_missing"
         self.assertIn(reason, item["blocked_by"])
@@ -266,7 +312,7 @@ class ListingGatePriceTests(unittest.TestCase):
         doc, item = self._gate(self._offer())
         reason = "manufacturer_safety_record_missing"
         self.assertNotIn(reason, item["blocked_by"] + item["agent_blocked_by"] + item["public_blocked_by"])
-        self.assertEqual(item["manufacturer_safety_record"], {"covered": True, "reason": None})
+        self._assert_verified_public_record(item["manufacturer_safety_record"])
         self.assertEqual(doc["counts"]["manufacturer_safety_record"], 1)
         self.assertNotIn("manufacturer_safety_record", doc["blockers"])
 
@@ -296,12 +342,27 @@ class ListingGatePriceTests(unittest.TestCase):
     def test_private_overlay_can_cover_and_its_values_never_reach_the_gate_file(self):
         secret = "PRIVATE-VALUE-DO-NOT-LEAK"
         private = {"owner_contact": secret, "safety_substantiation": {"covered_pd_nos": ["1"], "note": secret}}
-        doc, item = self._gate(self._offer(), safety={"safety_substantiation": {"covered_pd_nos": []}}, private=private)
-        self.assertEqual(item["manufacturer_safety_record"], {"covered": True, "reason": None})
-        self.assertNotIn(secret, json.dumps(doc, ensure_ascii=False))
+        doc, item = self._gate(self._offer(), safety={"safety_substantiation": {"covered_pd_nos": []}},
+                               private=private, verified_private=True)
+        self._assert_verified_public_record(item["manufacturer_safety_record"])
+        public_doc = json.dumps(doc, ensure_ascii=False)
+        for private_value in (secret, "PRIVATE-SYNTHETIC-REVIEWER", "PRIVATE-SYNTHETIC-FORMULA",
+                              "data/manual/private-synthetic-dossier.txt", "data/manual/private-synthetic-adequacy.txt"):
+            self.assertNotIn(private_value, public_doc)
         blocked_doc, blocked = self._gate(self._offer(), safety=None, private={"owner_contact": secret})
         self.assertEqual(sorted(blocked["manufacturer_safety_record"]), ["covered", "reason"])  # 여부와 사유 코드뿐
         self.assertNotIn(secret, json.dumps(blocked_doc, ensure_ascii=False))
+
+    def test_owner_declared_verified_lists_and_future_promises_are_not_evidence(self):
+        declaration = {"safety_substantiation": {"covered_pd_nos": ["1"], "status": "검증완료",
+            "verified_by": "사업주", "basis": "판매 발생 시 사업주가 실제 자료를 확보해 보관한다"}}
+        for kwargs in ({"safety": declaration},
+                       {"safety": {"safety_substantiation": {"covered_pd_nos": []}}, "private": declaration}):
+            with self.subTest(source="private" if "private" in kwargs else "public"):
+                doc, item = self._gate(self._offer(), **kwargs)
+                self._assert_safety_blocked(item)
+                self.assertIn("scoped_evidence_missing", item["manufacturer_safety_record"]["reason"])
+                self.assertEqual(doc["counts"]["manufacturer_safety_record"], 0)
 
     def test_gate_and_daily_use_the_same_helper_with_the_same_answer(self):
         import importlib.util
@@ -317,9 +378,10 @@ class ListingGatePriceTests(unittest.TestCase):
             with self.subTest(profile=label), tempfile.TemporaryDirectory() as folder:
                 manual = Path(folder) / "data/manual"
                 manual.mkdir(parents=True)
-                if profile is not None:
+                local_profile = synthetic_safety_profile(folder) if profile is SYNTHETIC_COVERAGE else profile
+                if local_profile is not None:
                     (manual / "mocra_business.json").write_text(
-                        profile if isinstance(profile, str) else json.dumps(profile), encoding="utf-8")
+                        local_profile if isinstance(local_profile, str) else json.dumps(local_profile), encoding="utf-8")
                 shared = manufacturer_safety.public_view(manufacturer_safety.manufacturer_safety_record("1", folder))
                 with patch.object(daily, "ROOT", Path(folder)):
                     wrapper = manufacturer_safety.public_view(daily.manufacturer_safety_record("1"))

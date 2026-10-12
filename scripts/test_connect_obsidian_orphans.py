@@ -95,7 +95,7 @@ class VaultCase(unittest.TestCase):
         write(v, "Personal/한글 노트.md", "한글\n")
 
     def analyse(self, include_private=False, safe=False):
-        return co.analyse(self.vault, "Navigation", ("Personal",), 500, include_private, safe)
+        return co.analyse(self.vault, "Navigation", ("Personal",), 500, include_private, safe, legacy_inference=True)
 
 
 class ParsingTests(unittest.TestCase):
@@ -255,11 +255,11 @@ class PlanTests(VaultCase):
         for i in range(120):
             write(self.vault, f"Knowledge/Records/R{i:03d}.md",
                   '---\nsource: "arXiv"\ntopics: ["뷰티스킨케어"]\n---\n')
-        res = co.analyse(self.vault, "Navigation", ("Personal",), 50, False, False)
+        res = co.analyse(self.vault, "Navigation", ("Personal",), 50, False, False, legacy_inference=True)
         buckets = [f for f in res["write_files"] if f.role == "bucket"]
         self.assertGreaterEqual(len(buckets), 3)
         self.assertEqual(res["summary"]["projected"]["orphans_remaining"] - res["summary"]["projected"]["orphans_remaining_private"], 0)
-        again = co.analyse(self.vault, "Navigation", ("Personal",), 50, False, False)
+        again = co.analyse(self.vault, "Navigation", ("Personal",), 50, False, False, legacy_inference=True)
         self.assertEqual({f.rel: f.content for f in buckets},
                          {f.rel: f.content for f in again["write_files"] if f.role == "bucket"})   # deterministic
 
@@ -295,19 +295,7 @@ class PlanTests(VaultCase):
 
 class CliTests(VaultCase):
     def args(self, *extra):
-        # 아래 CLI 테스트는 추정·탐색 링크까지 만드는 예전 동작(--keep-inferred)을 검사한다.
-        return ["--vault", str(self.vault), "--backup-root", str(self.backup), "--keep-inferred", *extra]
-
-    def test_default_writes_only_data_declared_direct_hubs(self):
-        code, data, _ = run_cli("--vault", str(self.vault), "--backup-root", str(self.backup), "--apply")
-        self.assertEqual(code, 0)
-        written = [p.relative_to(self.vault).as_posix() for p in (self.vault / "Navigation").rglob("*.md")]
-        self.assertTrue(written)
-        for rel in written:
-            text = (self.vault / rel).read_text(encoding="utf-8")
-            self.assertNotIn("Inferred/", rel)
-            self.assertNotIn("Folders/", rel)
-            self.assertNotIn("inferred-", text.split("---", 2)[1] if text.startswith("---") else "")
+        return ["--vault", str(self.vault), "--backup-root", str(self.backup), "--legacy-inference", *extra]
 
     def test_dry_run_is_default_and_writes_nothing(self):
         before = snapshot_tree(self.vault)
@@ -330,7 +318,7 @@ class CliTests(VaultCase):
         self.assertFalse(any(r.startswith("Navigation/_private") for r in new))   # private not written
         self.assertFalse(any(r.endswith(".tmp-" + co.GENERATOR) for r in after))
         # verify pass: only private (not written) orphans remain, no public orphan
-        code, vdata, _ = run_cli("--vault", str(self.vault), "--verify")
+        code, vdata, _ = run_cli("--vault", str(self.vault), "--verify", "--legacy-inference")
         self.assertEqual(vdata["orphans_remaining"], vdata["orphans_remaining_private"])
         self.assertGreater(vdata["generated_hubs"], 0)
 
@@ -368,7 +356,7 @@ class CliTests(VaultCase):
         code, data, _ = run_cli(*self.args("--apply"))
         self.assertTrue(stale.exists())
         self.assertIn("retired", stale.read_text(encoding="utf-8"))
-        code, vdata, _ = run_cli("--vault", str(self.vault), "--verify")
+        code, vdata, _ = run_cli("--vault", str(self.vault), "--verify", "--legacy-inference")
         self.assertEqual(vdata["orphans_remaining"], vdata["orphans_remaining_private"])
 
     def test_report_never_contains_private_names_or_content(self):
@@ -393,7 +381,7 @@ class GitPrivateTests(VaultCase):
         subprocess.run(["git", "config", "user.name", "t"], cwd=self.tmp, check=True)
 
     def test_private_hubs_written_only_when_git_ignored(self):
-        args = ["--vault", str(self.vault), "--backup-root", str(self.backup), "--apply", "--include-private", "--keep-inferred"]
+        args = ["--vault", str(self.vault), "--backup-root", str(self.backup), "--apply", "--include-private", "--legacy-inference"]
         run_cli(*args)                                           # not ignored -> skipped
         self.assertFalse((self.vault / "Navigation" / "_private").exists())
         code, data, _ = run_cli(*args, "--git-exclude-private")
@@ -403,7 +391,7 @@ class GitPrivateTests(VaultCase):
                                 capture_output=True, text=True, encoding="utf-8").stdout
         self.assertNotIn("_private", status)                     # nothing private would be staged
         self.assertIn("Navigation/", status)                     # public hubs still visible to git
-        code, vdata, _ = run_cli("--vault", str(self.vault), "--verify")
+        code, vdata, _ = run_cli("--vault", str(self.vault), "--verify", "--legacy-inference")
         self.assertEqual(vdata["orphans_remaining"], 0)
         self.assertEqual(vdata["orphans_remaining_attachments"], 0)
         self.assertEqual(vdata["links"]["components"], 1)
@@ -412,6 +400,149 @@ class GitPrivateTests(VaultCase):
         run_cli(*args, "--git-exclude-private")
         excl = (self.tmp / ".git" / "info" / "exclude").read_text(encoding="utf-8")
         self.assertEqual(excl.count("/vault/Navigation/_private/"), 1)
+
+
+class EvidenceOnlyTests(VaultCase):
+    def evidence_args(self, *extra):
+        return ["--vault", str(self.vault), "--backup-root", str(self.backup), *extra]
+
+    def test_default_no_false_edges_and_all_declared_fields(self):
+        write(self.vault, "Knowledge/Teams/팀 · JARVIS.md", "team\n")
+        write(self.vault, "Linked Note.md", "---\nteam: JARVIS\n---\nplain\n")
+        write(self.vault, "Ideas/fuzzy.md", "---\ntopics: [뷰티 스킨케어]\n---\n")
+        result = co.analyse(self.vault, "Navigation", ("Personal",), 500, False, False)
+        self.assertEqual(result["summary"]["relation_mode"], "evidence-only")
+        self.assertEqual(result["summary"]["cluster_bridges"], 0)
+        self.assertTrue(all(g.tier == co.TIER_DIRECT for g in result["groups"]))
+        self.assertFalse(any(f.role in ("root", "retired") for f in result["files"]))
+        ledger = json.loads(next(f.content for f in result["files"] if f.role == "ledger"))
+        declarations = ledger["relations"]
+        self.assertEqual({r["field"] for r in declarations}, {"topics", "source", "org", "team"})
+        self.assertEqual({r["field"] for r in declarations if r["source_path"].endswith("Record-1.md")}, {"topics", "source"})
+        self.assertTrue(any(r["source_path"] == "Linked Note.md" and r["field"] == "team" for r in declarations))
+        self.assertFalse(any(r["source_path"] == "Ideas/fuzzy.md" for r in declarations))
+        for f in result["files"]:
+            if f.role == "ledger":
+                continue
+            for lk in co.extract_links(f.content):
+                target = co.Resolver(n.rel for n in result["nodes"]).resolve(f.rel, lk)
+                self.assertTrue(any(m["source_path"] == f.rel and m["resolved_target"] == target
+                                    and not m["semantic_relation"] for m in ledger["memberships"]))
+        text = "\n".join(f.content for f in result["files"])
+        for rel in ("Loose/lonely", "Ideas/a", "Ideas/b", "Attachments/unreferenced", "Ideas/Notes about"):
+            self.assertNotIn(rel, text)
+        self.assertGreater(result["summary"]["projected"]["orphans_remaining"], 0)
+        self.assertGreater(result["summary"]["projected"]["components"], 1)
+
+    def test_relation_hash_evidence_and_stale_verification(self):
+        before = snapshot_tree(self.vault)
+        code, data, _ = run_cli(*self.evidence_args("--apply"))
+        self.assertEqual(code, 0)
+        for rel, digest in before.items():
+            self.assertEqual(snapshot_tree(self.vault)[rel], digest)
+        ledger_path = self.vault / "Navigation/_local/typed-relations.json"
+        ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+        for r in ledger["relations"]:
+            self.assertEqual(r["source_sha256"], hashlib.sha256((self.vault / r["source_path"]).read_bytes()).hexdigest())
+            fm, _, _ = co.parse_frontmatter((self.vault / r["source_path"]).read_text(encoding="utf-8"))
+            self.assertIn(r["value"], co.as_list(fm[r["field"]]))
+            self.assertTrue((self.vault / r["resolved_target"]).is_file())
+        code, verify, _ = run_cli(*self.evidence_args("--verify"))
+        self.assertEqual(code, 0)  # orphans/components are not verification failures
+        self.assertGreater(verify["orphans_remaining"], 0)
+        self.assertGreater(verify["links"]["components"], 1)
+        self.assertIn("brain_operational_coverage", verify)
+        p = self.vault / ledger["relations"][0]["source_path"]
+        p.write_bytes(p.read_bytes() + b"\nchanged\n")
+        code, verify, _ = run_cli(*self.evidence_args("--verify"))
+        self.assertEqual(code, 1)
+        self.assertGreater(verify["brain_operational_coverage"]["stale_or_changed_generated_files"], 0)
+
+    def test_prune_only_owned_stale_backup_original_and_private_preserved(self):
+        stale = write(self.vault, "Navigation/Folders/old.md", f"---\n{co.MARKER}\n---\nold\n")
+        original = write(self.vault, "Navigation/Folders/original.md", "my original\n" + co.MARKER + "\n")
+        impostor = write(self.vault, "Navigation/Folders/impostor.md", f"---\ngenerated_by: {co.GENERATOR}_other\n---\nunknown\n")
+        private = write(self.vault, "Navigation/_private/Folders/old.md", f"---\n{co.MARKER}\nprivate: true\n---\nprivate\n")
+        before = snapshot_tree(self.vault)
+        code, data, _ = run_cli(*self.evidence_args("--prune-generated"))
+        self.assertEqual(code, 0)
+        self.assertEqual(data["files"]["would_prune"], 1)
+        self.assertEqual(before, snapshot_tree(self.vault))
+        self.assertFalse(self.backup.exists())
+        code, data, _ = run_cli(*self.evidence_args("--apply", "--prune-generated"))
+        self.assertEqual(code, 0)
+        self.assertEqual(data["applied"]["pruned"], 1)
+        self.assertFalse(stale.exists())
+        for p in (original, impostor, private):
+            self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(), before[p.relative_to(self.vault).as_posix()])
+        backup = Path(data["backup_dir"])
+        self.assertEqual(hashlib.sha256((backup / "files/Navigation/Folders/old.md").read_bytes()).hexdigest(), before["Navigation/Folders/old.md"])
+        manifest = json.loads((backup / "apply_manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["pruned_files"], ["Navigation/Folders/old.md"])
+        code, second, _ = run_cli(*self.evidence_args("--apply", "--prune-generated"))
+        self.assertEqual(code, 0)
+        self.assertEqual(second["applied"]["pruned"], 0)
+
+    def test_no_prune_leaves_stale_untouched(self):
+        stale = write(self.vault, "Navigation/Inferred/old.md", f"---\n{co.MARKER}\n---\nold\n")
+        raw = stale.read_bytes()
+        code, _, _ = run_cli(*self.evidence_args("--apply"))
+        self.assertEqual(code, 0)
+        self.assertEqual(stale.read_bytes(), raw)
+        code, data, _ = run_cli(*self.evidence_args("--verify"))
+        self.assertEqual(code, 1)
+        self.assertGreater(data["brain_operational_coverage"]["unplanned_owned_generated_files"], 0)
+
+    def test_refuses_unknown_ledger_and_unsafe_paths(self):
+        ledger = write(self.vault, "Navigation/_local/typed-relations.json", '{"unknown": true}')
+        original = ledger.read_bytes()
+        code, _, _ = run_cli(*self.evidence_args("--apply", "--prune-generated"))
+        self.assertEqual(code, 2)
+        self.assertEqual(ledger.read_bytes(), original)
+        self.assertFalse(self.backup.exists())
+        for nav in ("../escape", "Personal", "Navigation/../Personal", ".obsidian", "C:/escape"):
+            code, _, _ = run_cli(*self.evidence_args("--nav-dir", nav, "--apply"))
+            self.assertEqual(code, 2)
+
+    def test_ambiguous_exact_names_do_not_guess(self):
+        write(self.vault, "Knowledge/Topics/Source.md", "x\n")
+        write(self.vault, "Knowledge/Topics/Source.MD", "x\n")
+        # Case-sensitive filesystems can hold both; on Windows these coincide.
+        write(self.vault, "Knowledge/Sources/Source--Other.md", "x\n")
+        write(self.vault, "Knowledge/Sources/Other.md", "x\n")
+        write(self.vault, "Ideas/ambiguous.md", "---\nsource: Other\n---\n")
+        result = co.analyse(self.vault, "Navigation", ("Personal",), 500, False, False)
+        ledger = json.loads(next(f.content for f in result["files"] if f.role == "ledger"))
+        self.assertFalse(any(r["source_path"] == "Ideas/ambiguous.md" for r in ledger["relations"]))
+
+    def test_symlink_refusal(self):
+        target = write(self.tmp, "outside.md", "outside\n")
+        link = self.vault / "Navigation" / "link.md"
+        link.parent.mkdir(exist_ok=True)
+        try:
+            link.symlink_to(target)
+        except OSError:
+            self.skipTest("symlink creation not permitted")
+        code, _, _ = run_cli(*self.evidence_args("--apply", "--prune-generated"))
+        self.assertEqual(code, 2)
+        self.assertEqual(target.read_text(encoding="utf-8"), "outside\n")
+        self.assertTrue(link.is_symlink())
+
+    @unittest.skipUnless(shutil.which("git"), "git not available")
+    def test_ledger_and_backup_git_excluded_and_tracked_ledger_refused(self):
+        subprocess.run(["git", "init", "-q"], cwd=self.tmp, check=True)
+        code, data, _ = run_cli(*self.evidence_args("--apply"))
+        self.assertEqual(code, 0)
+        root = co.git_root(self.vault)
+        ledger = self.vault / "Navigation/_local/typed-relations.json"
+        self.assertTrue(co.git_ignored(root, ledger))
+        self.assertTrue(co.git_ignored(root, Path(data["backup_dir"]) / "apply_manifest.json"))
+        self.assertFalse(co.git_ignored(root, self.vault / "Navigation/Direct/x.md"))
+        subprocess.run(["git", "add", "-f", str(ledger)], cwd=self.tmp, check=True)
+        before = snapshot_tree(self.vault)
+        code, _, _ = run_cli(*self.evidence_args("--apply", "--prune-generated"))
+        self.assertEqual(code, 2)
+        self.assertEqual(before, snapshot_tree(self.vault))
 
 
 if __name__ == "__main__":

@@ -20,6 +20,8 @@ import jarvis_feedback as feedback
 import jarvis_watch as watch
 import jarvis_recovery as recovery
 import jarvis_audit as audit
+import brain_plane
+from operations_storage import OPS_STATE_MAX_BYTES
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE = 'data/operations/state.json'
@@ -36,6 +38,10 @@ INPUTS = ('data/product_master.json','data/pricing_model.json','data/listing_gat
 
 def read(root, relative, default=None):
     file = execution._safe(root, relative)
+    if brain_plane.brain.current_execution(root) is not None:
+        value = brain_plane.read_json(file, root, copy.deepcopy(default))
+        core.canonical(value)
+        return value
     if not file.exists():
         return copy.deepcopy(default)
     raw = file.read_bytes()
@@ -52,7 +58,7 @@ def atomic(root, relative, value):
     if relative == STATE:
         body = (json.dumps(value, ensure_ascii=False, sort_keys=True,
                            separators=(',', ':'), allow_nan=False) + '\n').encode('utf-8')
-        if len(body) > 8 * 1024 * 1024:
+        if len(body) > OPS_STATE_MAX_BYTES:
             raise ValueError('operations state storage capacity reached; pruning/reset forbidden')
     else:
         body = (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2,
@@ -77,6 +83,7 @@ def atomic(root, relative, value):
     finally:
         if os.path.exists(temp):
             os.unlink(temp)
+    brain_plane.record(dest, root)
 
 
 @contextmanager
@@ -462,7 +469,8 @@ def main():
             raise ValueError('operations_safety_restore_pending')
         if os.getenv('GITHUB_ACTIONS') == 'true' and os.getenv('JARVIS_OPERATIONS_CONTINUITY') != 'verified':
             raise ValueError('authenticated_runner_operations_continuity_required')
-        board = run(args.root, execute_local=not args.observe_only, goal=args.goal)
+        with brain_plane.command(args.root, team="operations", task="durable-local-operations", operation="local-analysis"):
+            board = run(args.root, execute_local=not args.observe_only, goal=args.goal)
         print('JARVIS_OPERATIONS_OK ' + json.dumps(board['counts'],sort_keys=True))
         return 0
     except (ValueError,OSError,KeyError,TypeError) as exc:

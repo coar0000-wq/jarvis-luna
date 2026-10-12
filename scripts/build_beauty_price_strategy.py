@@ -46,6 +46,8 @@ from datetime import datetime, timedelta, timezone
 from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from pathlib import Path
 
+from payment_fees import profit_flags
+
 SCHEMA_VERSION = 1
 GENERATOR = "scripts/build_beauty_price_strategy.py"
 UTC = timezone.utc
@@ -492,7 +494,7 @@ def margin_scenario(price_usd, landed_cost_usd, fee_rate, floor_margin_pct=None,
                     target_margin_pct=None) -> dict:
     price, landed, rate = _positive(price_usd), _dec(landed_cost_usd), _dec(fee_rate)
     if price is None or landed is None or rate is None:
-        return {"status": "unknown_missing_inputs", "risk": "unknown"}
+        return {"status": "unknown_missing_inputs", "risk": "unknown", **profit_flags()}
     fee = _q2(price * rate)
     net = price - landed - fee
     margin = net / price * 100
@@ -505,7 +507,7 @@ def margin_scenario(price_usd, landed_cost_usd, fee_rate, floor_margin_pct=None,
             risk = "below_advisory_floor"
         elif _dec(target_margin_pct) is not None and margin < _dec(target_margin_pct):
             risk = "below_target_margin"
-    return {"status": "computed", "price_usd": _f(price, 2), "landed_cost_usd": _f(landed, 2),
+    return {"status": "computed", **profit_flags(), "price_usd": _f(price, 2), "landed_cost_usd": _f(landed, 2),
             "fee_usd": _f(fee, 2), "net_profit_usd": _f(net, 2), "margin_pct": _f(margin, 1), "risk": risk}
 
 
@@ -517,7 +519,7 @@ def margin_advisory(price_usd, price_source, product_cost_usd, scenarios, fee_ra
     target = _dec(floors.get("target_margin_pct"))
     if target is not None and weight_estimated and _dec(floors.get("estimated_weight_extra_margin_pct")) is not None:
         target += _dec(floors.get("estimated_weight_extra_margin_pct"))
-    out = {"blocking": False, "waiver": "user_waived_margin_block", "advisory_floor": floors,
+    out = {"blocking": False, **profit_flags(), "waiver": "user_waived_margin_block", "advisory_floor": floors,
            "weight_estimated": bool(weight_estimated), "effective_target_margin_pct": _f(target, 2) if target is not None else None,
            "basis_price_usd": _f(price_usd, 2) if _positive(price_usd) else None, "price_source": price_source,
            "scenarios": {}, "risk": "unknown", "risk_basis": "unknown"}
@@ -1206,7 +1208,12 @@ def _gosi_volume(gosi, pd_no):
 
 
 def _fee_rate(pricing_model):
-    text = str(((pricing_model or {}).get("cost_basis") or {}).get("payment_fee") or "")
+    basis = (pricing_model or {}).get("cost_basis") or {}
+    if "payment_fee_rate" in basis:
+        value = basis["payment_fee_rate"]
+        rate = _dec(value) if isinstance(value, (int, float, Decimal)) and not isinstance(value, bool) else None
+        return rate if rate is not None and 0 <= rate < 1 else None
+    text = str(basis.get("payment_fee") or "")
     m = re.search(r"=\s*(\d+(?:\.\d+)?)\s*%", text)
     return Decimal(m.group(1)) / 100 if m else None
 
@@ -1504,6 +1511,7 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
         unknowns.append("No product-level orders/traffic input; all review metrics are UNKNOWN (not zero).")
     if fee_rate is None:
         unknowns.append("Payment-fee rate could not be read from pricing_model.cost_basis; margins stay unknown.")
+    unknowns.append("Supplemental Shopify transaction and Managed Markets fees are UNKNOWN, not assumed zero or added; modeled margins are not full verified profit.")
     unknowns.append(f"{len(landed)} products have a landed-cost scenario in pricing_model.json; all others have no margin beyond an upper bound.")
 
     coverage = {
@@ -1555,7 +1563,9 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
         },
         "parameters": {"max_age_hours": max_age_hours, "own_live_max_age_hours": own_live_max_hours, "own_shipping_usd": _f(own_shipping_usd, 2) if _dec(own_shipping_usd) is not None else None,
                        "fx_usd_krw": _f(fx, 2) if fx is not None else None,
-                       "payment_fee_rate": _f(fee_rate, 4) if fee_rate is not None else None, "advisory_floor": floors,
+                       "payment_fee_rate": _f(fee_rate, 4) if fee_rate is not None else None,
+                       "payment_fee_components": (pricing_model.get("cost_basis") or {}).get("payment_fee_components", []),
+                       **profit_flags(), "advisory_floor": floors,
                        "priority_formula": "0.6*shopify_score + verified_price_points (20 + min(20, 0.8*gap_pct) only for verified_below); rank orders by original grade first"},
         "input_coverage": coverage,
         "unknowns": unknowns,

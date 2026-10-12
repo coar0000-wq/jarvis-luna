@@ -64,3 +64,11 @@ data/manual/shopify_execution_context.json
 
 # Local report/manifest publication mutex, never publish a lock.
 data/.evaluation-publication.lock
+
+# Local-only operational evidence payloads and scoped manufacturer files.
+/obsidian/JARVIS_LUNA/BrainRuntime/
+/data/manual/manufacturer_safety_evidence.private.json
+/data/manual/manufacturer_safety_documents/
+
+# Full operational lineage index stays local.
+/data/agents/brain_dataset_index.json

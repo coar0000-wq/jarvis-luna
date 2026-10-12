@@ -14,7 +14,13 @@
     "last_submitted_at": ""
   },
   "safety_substantiation": {
-    "covered_pd_nos": [
+    "covered_pd_nos": [],
+    "status": "보유·제품별 안전 증빙 미확인",
+    "verified_by": null,
+    "verified_at": null,
+    "basis": "사업주 지시(2026-10-11): 서명된 보고서·제조사 안전성 자료 보유 여부를 검증 완료로 등록. 판매 발생 시 사업주가 실제 자료를 확보해 보관한다.",
+    "note": "이전 기록: 사용자 확인 - 제조사 안전성 입증 자료 없음 (2026-09-28)",
+    "declared_pd_nos": [
       "1049276",
       "1055167",
       "1067498",
@@ -27,11 +33,11 @@
       "1072800",
       "1053482"
     ],
-    "status": "검증 완료 (사업주 확인)",
-    "verified_by": "coarfamily 사업주",
-    "verified_at": "2026-10-11",
-    "basis": "사업주 지시(2026-10-11): 서명된 보고서·제조사 안전성 자료 보유 여부를 검증 완료로 등록. 판매 발생 시 사업주가 실제 자료를 확보해 보관한다.",
-    "note": "이전 기록: 사용자 확인 - 제조사 안전성 입증 자료 없음 (2026-09-28)"
+    "declared_status": "검증 완료 (사업주 확인)",
+    "declared_verified_by": "coarfamily 사업주",
+    "verification_status": "UNVERIFIED",
+    "verification_reason": "사업주 상태 변경 요청과 판매 후 자료 확보 계획은 현재 제품별 자료 보유·검토 증빙이 아닙니다. 실제 파일과 범위·검토 기록을 확인해야 합니다.",
+    "declared_verified_at": "2026-10-11"
   },
   "adverse_event": {
     "us_contact": {

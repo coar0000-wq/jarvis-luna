@@ -96,11 +96,13 @@ def build() -> dict:
         if not pd:
             continue
         row, g, rg = scored.get(pd, {}), gate.get(pd, {}), reg.get(pd, {})
+        if row.get("grade") != "S":
+            continue
         desk = rec.get("desk") or row.get("desk") or "skincare"
         price = g.get("price") or {}
         blocked = list(g.get("public_blocked_by") or [])
         status = rg.get("status") or ("공개 가능" if g.get("public_ready") else "작업 중")
-        nxt = ("Shopify 공개 중" if rg.get("status") == "ACTIVE" else
+        nxt = ("공개 이력 기록, 현재 Shopify 상태는 별도 확인 필요" if rg.get("status") == "ACTIVE" else
                "다음 일일 등록 대상" if g.get("public_ready") and not rg else
                ("막힌 항목 해결: " + ", ".join(blocked)) if blocked else "게이트 판정 대기")
         products.append({
@@ -121,16 +123,21 @@ def build() -> dict:
                     "products": [p["pd_no"] for p in mine],
                     "quota": ((score.get("category_desks") or {}).get(d) or {}).get("s_quota")}
 
+    analysis = ((runtime.get("brain_flow") or {}).get("executions") or {}).get("runtime") or {}
+    analysis_at = analysis.get("completed_at") if analysis.get("input_read_from_vault") and analysis.get("output_stored") else None
     teams = []
     sec = runtime.get("secretary") or {}
     if sec:
         teams.append({"id": "secretary", "name": "비서실장", "status": sec.get("status") or "ok",
-                      "last_active": sec.get("when"), "summary": sec.get("summary"), "next_action": sec.get("action")})
+                      "source_reported_at": sec.get("when"), "summary": sec.get("summary"), "next_action": sec.get("action")})
     for t in runtime.get("teams") or []:
         if isinstance(t, dict):
             teams.append({"id": t.get("id"), "name": t.get("name"), "status": t.get("status"),
-                          "last_active": t.get("when"), "summary": t.get("summary"),
+                          "source_reported_at": t.get("when"), "summary": t.get("summary"),
                           "next_action": t.get("action") or t.get("waiting")})
+    for team in teams:
+        team["analysis_completed_at"] = analysis_at
+        team["external_team_execution_verified"] = False
     store = [dict(pd_no=pd, **{k: r.get(k) for k in ("title", "category", "date", "status", "single_usd", "single_margin_pct")})
              for pd, r in reg.items()]
     return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -163,15 +170,15 @@ def write_vault(doc: dict) -> int:
                          {"desk": d, "s_count": info["s_count"], "public_ready": info["public_ready"],
                           "live": info["live"], "quota": info["quota"]}, body)
     for t in doc["teams"]:
-        hub = team_hub_link(t["name"]) if t["id"] != "secretary" else None
+        hub = None  # Title/name matches are not evidence relations.
         extra = ""
         if t["id"] == "sourcing":
             extra = "\n\n카테고리 전담팀: " + " · ".join(f"[[{n}]]" for n in DESK_NAME.values())
-        body = (f"상태 **{t['status']}** · 마지막 활동 {t['last_active'] or '기록 없음'}\n\n"
+        body = (f"상태 **{t['status']}** · 원본 보고 시각/표시 {t['source_reported_at'] or 'UNKNOWN'}\n\n로컬 분석 완료: {t.get('analysis_completed_at') or 'UNKNOWN'} (외부 팀 실행 증명 아님)\n\n"
                 f"{t.get('summary') or ''}\n\n다음 작업: {t.get('next_action') or '-'}"
-                + (f"\n\n지식 허브: {hub}" if hub else "") + extra + "\n\n[[JARVIS Brain]]")
+                + (f"\n\n지식 허브: {hub}" if hub else "") + extra)
         changed += write(BRAIN / "Teams" / f"{safe(t['name'])}.md", safe(t["name"]), "team-status",
-                         {"team_id": t["id"], "team_status": t["status"], "last_active": t["last_active"]}, body)
+                         {"team_id": t["id"], "team_status": t["status"], "source_reported_at": t["source_reported_at"], "analysis_completed_at": t.get("analysis_completed_at"), "external_team_execution_verified": False}, body)
     store_rows = ["| 상품 | 카테고리 | 등록일 | 상태 | 가격 | 마진 |", "|---|---|---|---|---|---|"]
     for s in doc["shopify_store"]:
         stem = prod_stem.get(s["pd_no"])
@@ -181,13 +188,13 @@ def write_vault(doc: dict) -> int:
     changed += write(BRAIN / "Shopify Store.md", "Shopify Store", "store",
                      {"live": sum(1 for s in doc["shopify_store"] if s.get("status") == "ACTIVE"),
                       "registered_total": len(doc["shopify_store"])},
-                     "Shopify coarfamily 에 등록된 다이소 상품입니다.\n\n" + "\n".join(store_rows) + "\n\n[[JARVIS Brain]]")
+                     "등록 이력 원장의 기록입니다. 현재 Shopify 상태나 매출을 검증한 자료가 아닙니다.\n\n" + "\n".join(store_rows))
     hub = ["## 카테고리 전담팀", ""] + [f"- [[{i['name']}]] · S {i['s_count']} · 공개 {i['live']}" for i in doc["desks"].values()]
-    hub += ["", "## 팀", ""] + [f"- [[{safe(t['name'])}]] · {t['status']} · {t['last_active'] or '-'}" for t in doc["teams"]]
-    hub += ["", "## 스토어와 지식", "", "- [[Shopify Store]]", "- [[JARVIS Real Knowledge Index]]", "- [[JARVIS Graph Hub]]"]
+    hub += ["", "## 팀", ""] + [f"- [[{safe(t['name'])}]] · {t['status']} · {t['source_reported_at'] or '-'}" for t in doc["teams"]]
+    hub += ["", "## 등록 이력", "", "- [[Shopify Store]]"]
     changed += write(BRAIN / "JARVIS Brain.md", "JARVIS Brain", "brain-hub",
                      {"desks": len(doc["desks"]), "teams": len(doc["teams"]), "s_products": len(doc["products"])},
-                     "JARVIS 데이터가 모이는 두뇌 허브입니다. 아래 노트는 2시간마다 실제 데이터로 갱신됩니다.\n\n" + "\n".join(hub))
+                     "공개 운영 상태의 요약 뷰입니다. 실행 증빙과 실제 입출력은 로컬 BrainRuntime에 별도로 저장합니다. 수집 시각과 분석 시각은 다릅니다.\n\n" + "\n".join(hub))
     return changed
 
 

@@ -591,7 +591,7 @@ class WhitespaceCompactionTests(unittest.TestCase):
               '_REVIEWED_STATE_BYTES':len(rawstate),'_REVIEWED_STATE_SHA':restore._sha(rawstate),
               '_REVIEWED_COMPACT_BYTES':len(compact),'_REVIEWED_COMPACT_SHA':restore._sha(compact),
               '_REVIEWED_ARCHIVE_MEMBERS':2,'MAX_FILE_BYTES':4096}
-        with patch.multiple(restore,**pins):
+        with patch.multiple(restore,**pins), patch('operations_storage.OPS_STATE_MAX_BYTES',4096):
             with self.assertRaises(ValueError): restore._archive(raw)
             files,evidence=restore._compact_reviewed_archive(raw)
             self.assertEqual(files[restore.STATE],compact)

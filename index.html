@@ -940,6 +940,23 @@ if(diff<7) return ['일','월','화','수','목','금','토'][t.getDay()]+'요�
 return (t.getMonth()+1)+'월 '+t.getDate()+'일';
 }
 
+
+function renderBrainFlow(d){
+  const anchor=$("team-list");if(!anchor)return;
+  let box=$("brain-flow-proof");if(!box){box=document.createElement("section");box.id="brain-flow-proof";box.style.cssText="margin:16px 0;padding:16px;border:1px solid var(--border);border-radius:12px";anchor.after(box);}
+  box.replaceChildren();const add=(tag,text)=>{const e=document.createElement(tag);e.textContent=text;box.append(e);return e;};
+  add("h3","옵시디언 입출력 · 카테고리 전담팀");
+  const dataset=d.brain_dataset||{};if(dataset.archived_file_count!=null)add("p","수집 JSON·JSONL·CSV "+dataset.archived_file_count+"개 저장·재읽기 검증 · 개인정보/비지원 자료 제외 · 모든 하위 프로그램의 직접 재사용 증명은 아닙니다.");
+  const flow=d.brain_flow||{},runs=flow.executions||{};
+  const names={runtime:"대시보드 분석",agents:"전담팀 분석",operations:"로컬 운영",graph:"그래프 기록"};
+  Object.keys(names).forEach(k=>{const r=runs[k];if(r)add("p",names[k]+": 입력 재사용 "+r.input_count+"개 / 출력 저장 "+r.output_count+"개 · 실제 로컬 실행 "+new Date(r.completed_at).toLocaleString("ko-KR",{timeZone:"Asia/Seoul"}));});
+  if(!Object.keys(runs).length)add("p","옵시디언 재사용 실행 증거 없음. 화면 생성 시각은 팀 실행 시각이 아닙니다.");
+  add("p","지원되는 운영 JSON의 핵심 분석 경로만 검증합니다. 개인정보·인증 원장은 제외되며, 분석 완료는 승인이나 Shopify 등록 완료가 아닙니다.");
+  const subs=(d.beauty_category_teams||{}).subteams||{};const label={skincare:"스킨케어",makeup:"메이크업",body:"바디"};
+  Object.keys(label).forEach(k=>{const t=subs[k];if(!t)return;const s=Number(t.canonical_s_count||0),eligible=(t.eligible_pd_nos||[]).length;add("p",label[k]+" 전담팀: 정규 S "+s+"개 · 현재 등록 적격 "+eligible+"개 · "+(s===0?"소싱 조사 필요, A등급 대체 없음":"제품별 미해결 증빙 작업 분리"));});
+  add("p","결제 모델: 판매금액의 카드 수수료 2%. 기타 수수료는 미확인으로 남기며, 모델 마진은 확정 순이익이 아닙니다.");
+}
+
 function renderTeams(d){
 const list=$('team-list'); if(!list) return;
 const teams=Array.isArray(d.teams)?d.teams:[];
@@ -1823,6 +1840,7 @@ set('side-experts',d.training.experts+'개');
 set('side-loss',d.training.final_loss!=null?d.training.final_loss.toFixed(4):'–');
 }
 renderTeams(d);
+renderBrainFlow(d);
 renderOperations(d.operations);
 renderTeamImprovement(d.team_improvement_evidence);
 renderPipeline(d);

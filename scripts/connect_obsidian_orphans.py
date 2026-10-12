@@ -1,31 +1,15 @@
 #!/usr/bin/env python3
-"""Connect orphan notes and attachments of the JARVIS_LUNA Obsidian vault.
+"""Build evidence-only frontmatter relation hubs for the JARVIS_LUNA vault.
 
-Purely additive navigation overlay:
-
-* Existing notes, attachments and ``.obsidian`` are NEVER modified or deleted.
-* Only generated hub notes are written, inside one folder (default ``Navigation``).
-* Every orphan (note or attachment with no resolvable link to or from another
-  non-generated file) gets one primary hub link, labelled by how honest the
-  relationship is:
-
-  direct-metadata  the orphan's own frontmatter (topics / org / source) names an
-                   existing note exactly (declared fact, not a judgement)
-  inferred-tag     the orphan shares a declared frontmatter tag with other orphans
-  inferred-title   the orphan's title contains the name of an existing concept /
-                   topic / org / team note (low confidence, needs human review)
-  navigation-only  nothing but "lives in the same folder" is known; the hub only
-                   makes the file reachable and claims NO topical relation
-
-* Private material (default: everything under ``Personal/`` or marked
-  ``private: true``) only ever appears in hubs under ``<nav>/_private/``.  Public
-  hubs never link there.  Those files are written only with ``--include-private``
-  and only when git ignores them (``--git-exclude-private`` adds a local-only
-  ``.git/info/exclude`` entry), so the auto-publishing vault sync cannot push them.
-* Dry-run is the default; ``--apply`` is explicit.  Changed generated files are
-  backed up first.  Output never prints private note names or contents.
-
-Standard library only.
+Dry-run and evidence-only are defaults. Only exact, unique topic/source/org/team
+frontmatter declarations produce links. Source hashes, field/value and resolved
+targets are persisted in Navigation/_local/typed-relations.json, locally excluded
+from git before apply. No title/tag inference or folder/cluster/root bridges.
+Orphans and disconnected components are legitimate. --legacy-inference explicitly
+restores the previous overlay. --prune-generated backs up and removes only owned
+stale generated files in Navigation; private pages also require --include-private
+and verified git exclusion. Original/unknown notes remain unchanged. Symlinks are
+refused. Standard library only.
 """
 from __future__ import annotations
 
@@ -47,7 +31,9 @@ from pathlib import Path
 from typing import Iterable
 
 GENERATOR = "connect_obsidian_orphans"
-GENERATOR_VERSION = 1
+GENERATOR_VERSION = 2
+LEDGER_DIR = "_local"
+LEDGER_NAME = "typed-relations.json"
 MARKER = f"generated_by: {GENERATOR}"
 ROOT_NAME = "JARVIS Orphan Navigation Hub"
 PRIVATE_ROOT_NAME = "JARVIS Private Orphan Navigation Hub"
@@ -61,7 +47,6 @@ TIER_TAG = "inferred-tag"
 TIER_TITLE = "inferred-title"
 TIER_NAV = "navigation-only"
 TIER_ORDER = (TIER_DIRECT, TIER_TAG, TIER_TITLE, TIER_NAV)
-DATA_TIERS = (TIER_DIRECT,)  # 기본값: 노트 속성이 선언한 직접 연결만 (추정·탐색 링크는 만들지 않음)
 
 TIER_TEXT = {
     TIER_DIRECT: (
@@ -92,11 +77,13 @@ DIRECT_FIELDS = {
     "topic": ("topic", "Knowledge/Topics", ""),
     "org": ("org", "Knowledge/Orgs", "기관--"),
     "source": ("source", "Knowledge/Sources", "Source--"),
+    "team": ("team", "Knowledge/Teams", "팀 · "),
 }
 FAMILY_LABEL = {
     "topic": "Topic",
     "org": "Org",
     "source": "Source",
+    "team": "Team",
     "tag": "Tag",
     "title": "Title",
     "folder": "Folder",
@@ -277,6 +264,7 @@ class Node:
     title: str = ""
     fm: dict = dataclasses.field(default_factory=dict)
     links: list = dataclasses.field(default_factory=list)
+    sha256: str = ""
 
     @property
     def ext(self) -> str:
@@ -354,12 +342,17 @@ def scan_vault(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...]) -> 
     prefixes = tuple(nkey(p.strip("/")) for p in private_prefixes)
     nav_low = nkey(nav_dir)
     for dirpath, dirnames, filenames in os.walk(_long(vault)):
+        for entry in dirnames + filenames:
+            if not entry.startswith(".") and Path(os.path.join(dirpath, entry)).is_symlink():
+                raise ValueError("symlinks are refused")
         dirnames[:] = sorted(d for d in dirnames if not d.startswith("."))
         for fn in sorted(filenames):
             if fn.startswith("."):
                 continue
             full = os.path.join(dirpath, fn)
             rel = os.path.relpath(full, _long(vault)).replace(os.sep, "/")
+            if rel == f"{nav_dir}/{LEDGER_DIR}/{LEDGER_NAME}":
+                continue  # local audit data is not an Obsidian graph node
             ext = posixpath.splitext(fn)[1].lower()
             node = Node(rel=rel, is_note=ext in (".md", ".canvas"))
             first = nkey(rel.split("/", 1)[0])
@@ -367,6 +360,7 @@ def scan_vault(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...]) -> 
             if node.is_note:
                 with open(full, "rb") as fh:
                     raw = fh.read()
+                node.sha256 = hashlib.sha256(raw).hexdigest()
                 try:
                     text = raw.decode("utf-8-sig")
                 except UnicodeDecodeError:
@@ -375,7 +369,7 @@ def scan_vault(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...]) -> 
                 in_nav = nkey(rel).startswith(nav_low + "/")
                 if ext == ".md":
                     fm, fm_raw, _ = parse_frontmatter(text)
-                    if in_nav and MARKER in fm_raw:
+                    if in_nav and fm.get("generated_by") == GENERATOR:
                         node.generated = True
                     node.fm = fm
                     node.title = str(fm.get("title") or "").strip() if not isinstance(fm.get("title"), list) else ""
@@ -837,6 +831,7 @@ def add_local_exclude(root: Path, pattern: str) -> bool:
     p = Path(r.stdout.strip())
     if not p.is_absolute():
         p = root / p
+    refuse_symlinks(p)
     p.parent.mkdir(parents=True, exist_ok=True)
     cur = p.read_text(encoding="utf-8", errors="replace") if p.exists() else ""
     if pattern in cur.splitlines():
@@ -851,8 +846,8 @@ def add_local_exclude(root: Path, pattern: str) -> bool:
 # --------------------------------------------------------------------------- main logic
 
 
-def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_links: int,
-            include_private: bool, private_safe: bool, tiers: tuple[str, ...] | None = None) -> dict:
+def analyse_legacy(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_links: int,
+            include_private: bool, private_safe: bool) -> dict:
     """Read-only analysis and plan. Returns a dict with summary + internals."""
     nodes, scan_stats = scan_vault(vault, nav_dir, private_prefixes)
     baseline = [n for n in nodes if not n.generated]
@@ -863,10 +858,6 @@ def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_li
     existing_generated = {n.rel: n.rel.startswith(f"{nav_dir}/{PRIVATE_DIR}/")
                           for n in nodes if n.generated}
     groups = classify(orphans, baseline)
-    if tiers is not None:
-        # 2026-10-11 사용자 지시: 추정 관계(inferred-tag/title)와 단순 탐색(navigation-only) 링크는
-        # 데이터로 뒷받침되지 않으면 만들지 않는다. 노트 자신의 속성이 선언한 직접 연결만 남긴다.
-        groups = [g for g in groups if g.tier in tiers]
     non_generated_paths = {nkey(n.rel) for n in baseline}
     orphan_by_rel = {n.rel: n for n in orphans}
     baseline_by_rel = {n.rel: n for n in baseline}
@@ -901,8 +892,6 @@ def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_li
         members.sort(key=lambda r: (baseline_by_rel[r].private, nkey(r)))
         rep = members[0]
         bridges[baseline_by_rel[rep].private].append(rep)
-    if tiers is not None and TIER_NAV not in tiers:
-        bridges = {False: [], True: []}
     bridge_count = sum(len(v) for v in bridges.values())
     if bridge_count:
         for private, reps in bridges.items():
@@ -975,10 +964,173 @@ def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_li
             "orphans": orphans, "groups": groups, "collisions": collisions}
 
 
+def refuse_symlinks(p: Path) -> None:
+    for part in (p, *p.parents):
+        if part.is_symlink():
+            raise ValueError("symlinks are refused")
+
+
+def owned_file(p: Path) -> bool:
+    refuse_symlinks(p)
+    if not p.is_file():
+        return False
+    if p.suffix.lower() == ".md":
+        fm, _, _ = parse_frontmatter(read_text(p))
+        return fm.get("generated_by") == GENERATOR
+    if p.suffix.lower() == ".json":
+        try:
+            obj = json.loads(read_text(p))
+            return isinstance(obj, dict) and obj.get("generated_by") == GENERATOR
+        except ValueError:
+            return False
+    return False
+
+
+def declared_relations(nodes: list[Node]) -> tuple[list[dict], int]:
+    """Exact, unique declared names or full vault paths only; never fuzzy/title inference."""
+    baseline = [n for n in nodes if not n.generated and n.ext == ".md"]
+    index = collections.defaultdict(lambda: collections.defaultdict(set))
+    for n in baseline:
+        for family, folder, prefix in set(DIRECT_FIELDS.values()):
+            if n.folder != folder:
+                continue
+            for name in (n.rel, link_target_str(n.rel), n.stem,
+                         n.stem[len(prefix):] if prefix and n.stem.startswith(prefix) else n.stem):
+                index[family][unicodedata.normalize("NFC", name)].add(n.rel)
+    by_rel = {n.rel: n for n in baseline}
+    records, unresolved = [], 0
+    for n in baseline:
+        for field, (family, _, _) in DIRECT_FIELDS.items():
+            for value in as_list(n.fm.get(field)):
+                key = value
+                if key.startswith("[[") and key.endswith("]]"):
+                    key = key[2:-2]  # no alias/fragment guesses
+                targets = index[family].get(unicodedata.normalize("NFC", key), set())
+                if len(targets) != 1 or n.rel in targets:
+                    unresolved += 1
+                    continue
+                target = next(iter(targets))
+                record = {"type": "declared-" + family, "source_path": n.rel,
+                          "source_sha256": n.sha256, "field": field, "value": value,
+                          "resolved_target": target, "target_sha256": by_rel[target].sha256,
+                          "private": n.private or by_rel[target].private}
+                record["id"] = hashlib.sha256(json.dumps(record, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()
+                records.append(record)
+    records = list({r["id"]: r for r in records}.values())
+    return sorted(records, key=lambda r: (r["source_path"], r["field"], r["value"])), unresolved
+
+
+def analyse(vault: Path, nav_dir: str, private_prefixes: tuple[str, ...], max_links: int,
+            include_private: bool, private_safe: bool, legacy_inference: bool = False,
+            prune_generated: bool = False) -> dict:
+    if legacy_inference:
+        result = analyse_legacy(vault, nav_dir, private_prefixes, max_links, include_private, private_safe)
+        result["summary"]["relation_mode"] = "legacy-inference"
+        if prune_generated:
+            result["write_files"] = [f for f in result["write_files"] if f.role != "retired"]
+        result["prune_files"] = stale_owned(vault, nav_dir, result["nodes"], result["write_files"],
+                                           include_private and private_safe) if prune_generated else []
+        return result
+    nodes, stats = scan_vault(vault, nav_dir, private_prefixes)
+    baseline = [n for n in nodes if not n.generated]
+    degree, info, _ = build_edges(baseline, False)
+    orphans = [n for n in baseline if not degree[n.rel]]
+    records, unresolved = declared_relations(baseline)
+    allowed = [r for r in records if not r["private"] or include_private and private_safe]
+    grouped = collections.defaultdict(list)
+    for r in allowed:
+        grouped[(r["private"], r["type"], r["resolved_target"])].append(r)
+    files, memberships, groups = [], [], []
+    for (private, relation_type, target), relations in sorted(grouped.items()):
+        family = relation_type[len("declared-"):]
+        digest = hashlib.sha256((relation_type + target).encode("utf-8")).hexdigest()[:16]
+        group = Group(TIER_DIRECT, family, posixpath.basename(link_target_str(target)), private,
+                      "exact frontmatter declaration; see local typed ledger", [target],
+                      sorted({r["source_path"] for r in relations}), digest)
+        groups.append(group)
+        # Ordered fixed-size pages: no artificial catalog/root/folder/cluster bridges.
+        for start in range(0, len(relations), max_links):
+            chunk = relations[start:start + max_links]
+            rel = f"{nav_dir}/" + (f"{PRIVATE_DIR}/" if private else "") + f"Direct/{family}-{digest}-p{start // max_links + 1:04d}.md"
+            lines = [frontmatter("Declared " + family + " relations", {"relation_tier": TIER_DIRECT,
+                      "private": private, "relation_mode": "evidence-only"}), "",
+                     "# Declared frontmatter relations", "",
+                     "Only exact declarations are represented. No relationship between members is inferred.",
+                     "Folder location, tags and title similarity are not evidence.", "",
+                     "- Declared target: " + make_link(target), ""]
+            for r in chunk:
+                lines.append("- " + make_link(r["source_path"]) + " | field/value: " +
+                             json.dumps({r["field"]: r["value"]}, ensure_ascii=False) + " | evidence: " + r["id"])
+            content = "\n".join(lines) + "\n"
+            files.append(PlannedFile(rel, content, private, "group"))
+            for member in sorted({target, *(r["source_path"] for r in chunk)}):
+                memberships.append({"type": "evidence-hub-membership", "source_path": rel,
+                                    "source_sha256": hashlib.sha256(content.encode("utf-8")).hexdigest(),
+                                    "resolved_target": member, "semantic_relation": False,
+                                    "evidence_ids": [r["id"] for r in chunk if member in (r["source_path"], r["resolved_target"])]})
+    ledger = {"generated_by": GENERATOR, "generator_version": GENERATOR_VERSION,
+              "schema": "typed-relation-ledger/v1", "local_only": True, "private": True,
+              "relation_mode": "evidence-only", "relations": allowed, "memberships": memberships}
+    ledger_rel = f"{nav_dir}/{LEDGER_DIR}/{LEDGER_NAME}"
+    files.append(PlannedFile(ledger_rel, json.dumps(ledger, ensure_ascii=False, sort_keys=True, indent=2) + "\n",
+                             True, "ledger"))
+    collisions = [f.rel for f in files if (vault / f.rel).exists() and not owned_file(vault / f.rel)]
+    write_files = [f for f in files if f.rel not in collisions]
+    stale = stale_owned(vault, nav_dir, nodes, write_files, include_private and private_safe)
+    all_stale = stale_owned(vault, nav_dir, nodes, write_files, True)
+    retained = [n for n in nodes if n.generated and n.rel not in {f.rel for f in write_files}
+                and n.rel not in ({f.rel for f in stale} if prune_generated else set())]
+    projected = baseline + retained + [Node(f.rel, True, links=extract_links(f.content))
+                                       for f in write_files if f.role != "ledger"]
+    pdeg, pinfo, _ = build_edges(projected, True)
+    left = [n for n in baseline if not pdeg[n.rel]]
+    covered = {r["source_path"] for r in allowed}
+    summary = {"vault": str(vault), "relation_mode": "evidence-only",
+               "nodes": {"total": len(baseline), "existing_generated_hubs_excluded": sum(n.generated for n in nodes),
+                         "private_nodes": sum(n.private for n in baseline), "decode_errors": stats["decode_errors"]},
+               "links": info, "orphans_baseline": {"total": len(orphans), "private": sum(n.private for n in orphans),
+                                                  "attachments": sum(not n.is_note for n in orphans)},
+               "cluster_bridges": 0, "tiers_primary_nodes": {t: len(covered) if t == TIER_DIRECT else 0 for t in TIER_ORDER},
+               "groups": {"total": len(groups), "private": sum(g.private for g in groups)},
+               "files": {"planned_total": len(files), "to_write": len(write_files), "collisions_refused": len(collisions),
+                         "private_skipped": len(records) - len(allowed),
+                         "stale_generated": len(all_stale), "stale_private_not_authorized": len(all_stale) - len(stale),
+                         "would_prune": len(stale) if prune_generated else 0},
+               "brain_operational_coverage": {"resolved_declared_relations": len(records), "ledger_relations": len(allowed),
+                                              "sources_with_evidence": len(covered), "unresolved_declarations": unresolved,
+                                              "private_relations_skipped": len(records) - len(allowed),
+                                              "no_evidence_nodes": len(baseline) - len({r["source_path"] for r in records}),
+                                              "meaning": "Coverage of declared evidence, not a claim that the whole Brain is complete."},
+               "projected": {"orphans_remaining": len(left), "orphans_remaining_private": sum(n.private for n in left),
+                             "attachment_orphans_remaining": sum(not n.is_note for n in left),
+                             "components": pinfo["components"], "largest_component": pinfo["largest_component"],
+                             "nodes_outside_largest_component": pinfo["nodes_outside_largest_component"],
+                             "unresolved_links_after": pinfo["unresolved_links"]}}
+    return {"summary": summary, "nodes": nodes, "orphans": orphans, "groups": groups, "files": files,
+            "write_files": write_files, "collisions": collisions, "prune_files": stale if prune_generated else []}
+
+
+def stale_owned(vault: Path, nav_dir: str, nodes: list[Node], files: list[PlannedFile], private_safe: bool) -> list[PlannedFile]:
+    planned = {f.rel for f in files}
+    result = []
+    for n in nodes:
+        if n.generated and n.rel not in planned and (not n.private or private_safe):
+            p = vault / n.rel
+            if n.rel.startswith(nav_dir + "/") and owned_file(p):
+                result.append(PlannedFile(n.rel, read_text(p), n.private, "prune"))
+    ledger = f"{nav_dir}/{LEDGER_DIR}/{LEDGER_NAME}"
+    if ledger not in planned and owned_file(vault / ledger):
+        result.append(PlannedFile(ledger, read_text(vault / ledger), True, "prune"))
+    return result
+
+
 def diff_against_disk(vault: Path, write_files: list[PlannedFile]) -> dict:
     create, update, same = [], [], []
     for f in write_files:
         p = vault / f.rel
+        refuse_symlinks(p)
+        if p.exists() and not owned_file(p):
+            raise ValueError("refusing to overwrite unowned file")
         if not p.exists():
             create.append(f)
         elif read_text(p).replace("\r\n", "\n") == f.content:
@@ -989,36 +1141,60 @@ def diff_against_disk(vault: Path, write_files: list[PlannedFile]) -> dict:
 
 
 def write_atomic(path: Path, content: str) -> None:
+    refuse_symlinks(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_name(path.name + ".tmp-" + GENERATOR)
-    with open(_long(tmp), "w", encoding="utf-8", newline="\n") as fh:
+    refuse_symlinks(tmp)
+    with open(_long(tmp), "x", encoding="utf-8", newline="\n") as fh:
         fh.write(content)
     os.replace(_long(tmp), _long(path))
 
 
 def apply_plan(vault: Path, diff: dict, backup_dir: Path) -> dict:
-    backed = 0
-    for f in diff["update"]:
-        src = vault / f.rel
+    refuse_symlinks(backup_dir)
+    if backup_dir.resolve().is_relative_to(vault.resolve()):
+        raise ValueError("backups must be outside the vault")
+    prune = diff.get("prune", [])
+    affected = diff["update"] + prune
+    # Preflight every mutation before writes. Recheck ownership immediately before deletion.
+    for f in diff["create"] + affected:
+        p = vault / f.rel
+        refuse_symlinks(p)
+        if f in diff["create"]:
+            if p.exists():
+                raise ValueError("new path appeared since planning")
+        elif not owned_file(p):
+            raise ValueError("refusing to mutate unowned file")
+        if f in prune and read_text(p) != f.content:
+            raise ValueError("stale file changed since planning")
+    backup_dir.mkdir(parents=True, exist_ok=False)
+    snapshots = {}
+    for f in affected:
+        raw = (vault / f.rel).read_bytes()
+        snapshots[f.rel] = raw
         dst = backup_dir / "files" / f.rel
+        refuse_symlinks(dst)
         dst.parent.mkdir(parents=True, exist_ok=True)
-        with open(_long(src), "rb") as a, open(_long(dst), "wb") as b:
-            b.write(a.read())
-        backed += 1
+        dst.write_bytes(raw)
+    manifest = {"generator": GENERATOR, "version": GENERATOR_VERSION,
+                "created_files": [f.rel for f in diff["create"]],
+                "updated_files": [f.rel for f in diff["update"]],
+                "pruned_files": [f.rel for f in prune], "unchanged_count": len(diff["unchanged"]),
+                "backups": len(affected), "backup_sha256": {r: hashlib.sha256(b).hexdigest() for r, b in snapshots.items()},
+                "note": "Rollback: restore ./files for updated/pruned entries; remove only manifest-created entries."}
+    write_atomic(backup_dir / "apply_manifest.json", json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     for f in diff["create"] + diff["update"]:
-        write_atomic(vault / f.rel, f.content)
-    manifest = {
-        "generator": GENERATOR, "version": GENERATOR_VERSION,
-        "created_files": [f.rel for f in diff["create"]],
-        "updated_files": [f.rel for f in diff["update"]],
-        "unchanged_count": len(diff["unchanged"]),
-        "backups": backed,
-        "note": "Rollback: restore files from ./files for updated entries; created entries can be removed manually.",
-    }
-    backup_dir.mkdir(parents=True, exist_ok=True)
-    with open(_long(backup_dir / "apply_manifest.json"), "w", encoding="utf-8") as fh:
-        json.dump(manifest, fh, ensure_ascii=False, indent=1)
-    return {"backups": backed, "created": len(diff["create"]), "updated": len(diff["update"])}
+        p = vault / f.rel
+        if f.rel in snapshots and (not owned_file(p) or p.read_bytes() != snapshots[f.rel]):
+            raise ValueError("generated file changed after backup")
+        write_atomic(p, f.content)
+    for f in prune:
+        p = vault / f.rel
+        if not owned_file(p) or p.read_bytes() != snapshots[f.rel]:
+            raise ValueError("stale file changed after backup; refusing deletion")
+        p.unlink()
+    return {"backups": len(affected), "created": len(diff["create"]), "updated": len(diff["update"]),
+            "pruned": len(prune)}
 
 
 GRAPH_PLAN = [
@@ -1035,7 +1211,7 @@ GRAPH_PLAN = [
 ]
 
 
-def main(argv: list[str] | None = None) -> int:
+def _main(argv: list[str] | None = None) -> int:
     here = Path(__file__).resolve().parent
     default_vault = here.parent / "obsidian" / "JARVIS_LUNA"
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
@@ -1045,8 +1221,8 @@ def main(argv: list[str] | None = None) -> int:
                     help="top-level vault folder treated as personal (repeatable; default: Personal)")
     ap.add_argument("--max-links-per-page", type=int, default=DEFAULT_MAX_LINKS)
     ap.add_argument("--apply", action="store_true", help="write hubs (default is a dry-run)")
-    ap.add_argument("--keep-inferred", action="store_true",
-                    help="also write inferred-tag/title and navigation-only hubs (off by default since 2026-10-11)")
+    ap.add_argument("--legacy-inference", action="store_true", help="opt into old inferred/folder/cluster connections")
+    ap.add_argument("--prune-generated", action="store_true", help="backup and remove only owned generated files absent from the new plan")
     ap.add_argument("--include-private", action="store_true",
                     help="also write private hubs (only if git ignores them)")
     ap.add_argument("--git-exclude-private", action="store_true",
@@ -1059,23 +1235,25 @@ def main(argv: list[str] | None = None) -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
 
+    refuse_symlinks(args.vault.absolute())
     vault = args.vault.resolve()
     if not vault.is_dir():
         print(f"error: vault not found: {vault}", file=sys.stderr)
         return 2
+    if args.nav_dir.startswith(("/", "\\")):
+        raise ValueError("nav-dir must be relative")
     nav_dir = args.nav_dir.strip("/")
     prefixes = tuple(args.private_prefixes or DEFAULT_PRIVATE_PREFIXES)
-
-    if args.verify:
-        nodes, _ = scan_vault(vault, nav_dir, prefixes)
-        deg, info, _ = build_edges(nodes, include_generated=True)
-        left = [n for n in nodes if deg.get(n.rel, 0) == 0]
-        gen = sum(1 for n in nodes if n.generated)
-        out = {"mode": "verify", "nodes": len(nodes), "generated_hubs": gen, "links": info,
-               "orphans_remaining": len(left), "orphans_remaining_private": sum(1 for n in left if n.private),
-               "orphans_remaining_attachments": sum(1 for n in left if not n.is_note)}
-        print(json.dumps(out, ensure_ascii=False, indent=1))
-        return 0 if not left else 1
+    if (not nav_dir or "\\" in nav_dir or ":" in nav_dir or any(x in ("", ".", "..") or x.startswith(".") for x in nav_dir.split("/"))
+            or Path(nav_dir).is_absolute() or nav_dir.split("/")[0] in prefixes):
+        raise ValueError("nav-dir must be a safe relative non-private folder")
+    if args.max_links_per_page < 1:
+        raise ValueError("max-links-per-page must be positive")
+    refuse_symlinks(vault / nav_dir)
+    if args.report:
+        refuse_symlinks(args.report.absolute())
+        if args.report.resolve().is_relative_to(vault):
+            raise ValueError("reports must be outside the vault")
 
     root = git_root(vault)
     priv_abs = vault / nav_dir / PRIVATE_DIR
@@ -1087,23 +1265,57 @@ def main(argv: list[str] | None = None) -> int:
             priv_pattern = None
     ignored_now = bool(root and git_ignored(root, priv_abs / "x.md"))
     private_safe = ignored_now or (args.git_exclude_private and root is not None and priv_pattern is not None)
+    if root is not None:
+        private_tracked = git(["ls-files", "--", str(priv_abs)], root)
+        private_safe = private_safe and bool(private_tracked and not private_tracked.returncode and not private_tracked.stdout.strip())
 
-    tiers = None if args.keep_inferred else DATA_TIERS
-    res = analyse(vault, nav_dir, prefixes, args.max_links_per_page, args.include_private, private_safe, tiers)
+    if args.verify:
+        nodes, _ = scan_vault(vault, nav_dir, prefixes)
+        deg, info, _ = build_edges(nodes, include_generated=True)
+        left = [n for n in nodes if not deg.get(n.rel, 0)]
+        out = {"mode": "verify", "relation_mode": "legacy-inference" if args.legacy_inference else "evidence-only",
+               "nodes": len(nodes), "generated_hubs": sum(n.generated for n in nodes), "links": info,
+               "orphans_remaining": len(left), "orphans_remaining_private": sum(n.private for n in left),
+               "orphans_remaining_attachments": sum(not n.is_note for n in left)}
+        if args.legacy_inference:
+            print(json.dumps(out, ensure_ascii=False, indent=1))
+            return 0 if not left else 1
+        expected = analyse(vault, nav_dir, prefixes, args.max_links_per_page, args.include_private, private_safe)
+        delta = diff_against_disk(vault, expected["write_files"])
+        ledger_path = vault / nav_dir / LEDGER_DIR / LEDGER_NAME
+        ledger_ignored = root is None or git_ignored(root, ledger_path)
+        if root is not None:
+            tracked = git(["ls-files", "--", str(ledger_path)], root)
+            ledger_ignored = ledger_ignored and bool(tracked and not tracked.returncode and not tracked.stdout.strip())
+        coverage = expected["summary"]["brain_operational_coverage"]
+        coverage.update({"missing_generated_files": len(delta["create"]), "stale_or_changed_generated_files": len(delta["update"]),
+                         "unplanned_owned_generated_files": expected["summary"]["files"]["stale_generated"],
+                         "ledger_local_only_safe": ledger_ignored, "collisions": len(expected["collisions"])})
+        out["brain_operational_coverage"] = coverage
+        print(json.dumps(out, ensure_ascii=False, indent=1))
+        return 1 if delta["create"] or delta["update"] or expected["collisions"] or coverage["unplanned_owned_generated_files"] or not ledger_ignored else 0
+
+    res = analyse(vault, nav_dir, prefixes, args.max_links_per_page, args.include_private, private_safe,
+                  legacy_inference=args.legacy_inference, prune_generated=args.prune_generated)
     s = res["summary"]
     diff = diff_against_disk(vault, res["write_files"])
+    diff["prune"] = res["prune_files"]
     s["files"].update({"would_create": len(diff["create"]), "would_update": len(diff["update"]),
                        "unchanged": len(diff["unchanged"])})
     s["mode"] = "apply" if args.apply else "dry-run"
     s["private_hubs_git_ignored_now"] = ignored_now
-    s["graph_settings_plan"] = GRAPH_PLAN
+    s["graph_settings_plan"] = GRAPH_PLAN if args.legacy_inference else ["No graph.json changes. Orphans and separate components are legitimate without declared evidence."]
     flags = []
+    if args.legacy_inference:
+        flags.append("--legacy-inference")
+    if args.prune_generated:
+        flags.append("--prune-generated")
     if args.include_private:
         flags.append("--include-private")
     if args.git_exclude_private:
         flags.append("--git-exclude-private")
-    s["suggested_apply_command"] = ("python scripts/connect_obsidian_orphans.py --apply "
-                                    + " ".join(flags or ["--include-private", "--git-exclude-private"])).strip()
+    s["suggested_apply_command"] = subprocess.list2cmdline(
+        ["python", "scripts/connect_obsidian_orphans.py", "--vault", str(vault), "--nav-dir", nav_dir, "--apply", *flags])
 
     if res["collisions"]:
         print(f"error: {len(res['collisions'])} planned hub path(s) collide with non-generated files; refusing those",
@@ -1118,8 +1330,31 @@ def main(argv: list[str] | None = None) -> int:
             if not git_ignored(root, priv_abs / "x.md"):
                 print("error: could not make the private folder git-ignored; aborting before any write", file=sys.stderr)
                 return 2
-        backup_root = args.backup_root or ((root or vault.parent) / "automation" / "logs" / GENERATOR)
-        backup_dir = backup_root / time.strftime("%Y%m%d-%H%M%S")
+        if res["collisions"]:
+            print("error: collisions detected; aborting all writes and pruning", file=sys.stderr)
+            print(json.dumps(s, ensure_ascii=False, indent=1))
+            return 2
+        local_abs = vault / nav_dir / LEDGER_DIR
+        if root is not None:
+            local_pattern = "/" + local_abs.relative_to(root).as_posix() + "/"
+            if not git_ignored(root, local_abs / LEDGER_NAME):
+                if not add_local_exclude(root, local_pattern) or not git_ignored(root, local_abs / LEDGER_NAME):
+                    raise ValueError("cannot enforce local-only ledger git exclusion")
+            tracked = git(["ls-files", "--", str(local_abs)], root)
+            if not tracked or tracked.returncode or tracked.stdout.strip():
+                raise ValueError("local ledger is tracked or tracking safety cannot be verified")
+        backup_root = args.backup_root or (vault.parent / "automation" / "logs" / GENERATOR)
+        refuse_symlinks(backup_root)
+        if backup_root.resolve().is_relative_to(vault):
+            raise ValueError("backups must be outside the vault")
+        if root is not None and backup_root.resolve().is_relative_to(root.resolve()):
+            backup_pattern = "/" + backup_root.resolve().relative_to(root.resolve()).as_posix() + "/"
+            if not add_local_exclude(root, backup_pattern) or not git_ignored(root, backup_root / "x.json"):
+                raise ValueError("cannot enforce local-only backup git exclusion")
+            tracked = git(["ls-files", "--", str(backup_root)], root)
+            if not tracked or tracked.returncode or tracked.stdout.strip():
+                raise ValueError("backup folder is tracked or tracking safety cannot be verified")
+        backup_dir = backup_root / (time.strftime("%Y%m%d-%H%M%S") + "-" + str(time.time_ns()))
         s["applied"] = apply_plan(vault, diff, backup_dir)
         s["backup_dir"] = str(backup_dir)
     if args.report:
@@ -1128,6 +1363,14 @@ def main(argv: list[str] | None = None) -> int:
             json.dump(s, fh, ensure_ascii=False, indent=1)
     print(json.dumps(s, ensure_ascii=False, indent=1))
     return 2 if res["collisions"] else 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    try:
+        return _main(argv)
+    except (OSError, ValueError) as exc:
+        print("error: unsafe path, ownership, or local-only storage condition; " + type(exc).__name__, file=sys.stderr)
+        return 2
 
 
 if __name__ == "__main__":

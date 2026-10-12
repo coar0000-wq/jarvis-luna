@@ -14,6 +14,7 @@ sys.path.insert(0, str(SCRIPT.parent))
 spec = importlib.util.spec_from_file_location("daily", SCRIPT)
 daily = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(daily)
+from test_manufacturer_safety import synthetic_receipt
 REAL_SAFETY = daily.manufacturer_safety_record  # setUp 은 기본으로 '덮임' 으로 대체한다. 실제 함수는 이 참조로 검증한다.
 SAFETY_COVERED = {"pd_no": "123", "covered": True, "reason": None}
 
@@ -815,9 +816,15 @@ class DailySafetyTests(unittest.TestCase):
             root = Path(folder)
             (root/"data").mkdir()
             for relative, document in (safety_files or {}).items():
+                if relative == "_synthetic_receipt_pd_no":
+                    continue
                 target = root/"data/manual"/relative
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_text(json.dumps(document), encoding="utf-8")
+            if safety_files is not None and safety_files.get("_synthetic_receipt_pd_no"):
+                receipt = synthetic_receipt(root, safety_files["_synthetic_receipt_pd_no"])
+                (root/"data/manual/manufacturer_safety_evidence.private.json").write_text(
+                    json.dumps({"schema_version": 1, "records": [receipt]}), encoding="utf-8")
             safety_fn = REAL_SAFETY if safety_files is not None else (safety or MagicMock(return_value=dict(SAFETY_COVERED)))
             cwd = os.getcwd()
             os.chdir(root)
@@ -874,7 +881,7 @@ class DailySafetyTests(unittest.TestCase):
     # ------------------------------------------------------------------
     # 제조사 안전성 기록 게이트 (안전 게이트, 마진과 무관)
     # ------------------------------------------------------------------
-    def _profile_root(self, folder, public=None, private=None, labels=None):
+    def _profile_root(self, folder, public=None, private=None, labels=None, synthetic_pd_no=None):
         root = Path(folder)
         manual = root/"data/manual"
         manual.mkdir(parents=True)
@@ -885,12 +892,18 @@ class DailySafetyTests(unittest.TestCase):
         if labels is not None:
             (root/"data/daiso_real").mkdir(parents=True)
             (root/"data/daiso_real/daiso_us_labels.json").write_text(json.dumps(labels), encoding="utf-8")
+        if synthetic_pd_no is not None:
+            receipt = synthetic_receipt(root, synthetic_pd_no)
+            profile_path = manual/("mocra_profile.json" if private is not None else "mocra_business.json")
+            profile = json.loads(profile_path.read_text(encoding="utf-8"))
+            profile["safety_substantiation"]["evidence_records"] = [receipt]
+            profile_path.write_text(json.dumps(profile), encoding="utf-8")
         return root
 
     def test_safety_record_requires_this_pd_no_in_covered_list_per_product(self):
-        reason = "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        reason = "manufacturer_safety_record_missing:scoped_evidence_missing"
         public = {"safety_substantiation": {"covered_pd_nos": ["1067498"], "note": "n"}}
-        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", self._profile_root(folder, public)):
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", self._profile_root(folder, public, synthetic_pd_no="1067498")):
             covered = REAL_SAFETY("1067498")
             self.assertTrue(covered["covered"])
             self.assertIsNone(covered["reason"])
@@ -912,7 +925,7 @@ class DailySafetyTests(unittest.TestCase):
         public = {"safety_substantiation": {"covered_pd_nos": ["1"]}}
         secret = "PRIVATE-CONTACT-DO-NOT-LEAK"
         private = {"owner_note": secret, "safety_substantiation": {"covered_pd_nos": ["2"]}}
-        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", self._profile_root(folder, public, private)):
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", self._profile_root(folder, public, private, synthetic_pd_no="2")):
             added, replaced = REAL_SAFETY("2"), REAL_SAFETY("1")
         self.assertTrue(added["covered"])  # 비공개가 공개 위에 엹힌다
         self.assertFalse(replaced["covered"])  # 같은 키는 비공개가 이긴다 (build_mocra_readiness 와 같은 규칙)
@@ -941,7 +954,7 @@ class DailySafetyTests(unittest.TestCase):
                 "basis": "test", "shop_compare": {}, "evidence": dict(EVIDENCE_OK)}
 
     def test_registration_runs_only_for_a_covered_product(self):
-        covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}}
+        covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}, "_synthetic_receipt_pd_no": "123"}
         code, result, registry, shop = self._run_main(self._ok_pricing(), lambda c: [c], safety_files=covered)
         self.assertEqual(code, 0)
         self.assertEqual(result["results"][0]["status"], "created")
@@ -963,7 +976,7 @@ class DailySafetyTests(unittest.TestCase):
                 self.assertEqual(registry["items"], [])
 
     def test_uncovered_product_does_not_block_a_covered_one(self):
-        covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}}
+        covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}, "_synthetic_receipt_pd_no": "123"}
         code, result, registry, shop = self._run_main(
             self._ok_pricing(), lambda c: [{**c, "pdNo": "999", "pdNm": "다른 세럼 30 ml"}, c], safety_files=covered)
         self.assertEqual(code, 0)

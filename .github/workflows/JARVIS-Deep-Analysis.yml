@@ -721,6 +721,7 @@ jobs:
         run: |
           cat > "$RUNNER_TEMP/deep_49.sh" <<'RELEASE_STAGE_deep_49'
           python -u scripts/build_error_report.py
+          python -u scripts/ingest_obsidian_data.py --root "$GITHUB_WORKSPACE"
           python -u scripts/health_check_v2.py
           RELEASE_STAGE_deep_49
           python scripts/collector_result.py run --name deep_49 --optional \

@@ -66,6 +66,15 @@ jobs:
           python scripts/test_typesafe_receipt.py
           python scripts/test_typesafe_wiring.py
           python scripts/test_gate_signature_portability.py
+          python -B -m unittest discover -s scripts -p "test_brain_plane.py"
+          python -B -m unittest discover -s scripts -p "test_obsidian_brain.py"
+          python -B -m unittest discover -s scripts -p "test_brain_large_graph.py"
+          python -B -m unittest discover -s scripts -p "test_ingest_obsidian_data.py"
+          python -B -m unittest discover -s scripts -p "test_beauty_category_teams.py"
+          python -B -m unittest discover -s scripts -p "test_payment_fees.py"
+          python -B -m unittest discover -s scripts -p "test_operations_storage.py"
+          python -B -m unittest discover -s scripts -p "test_manufacturer_safety.py"
+          python -B -m unittest discover -s scripts -p "test_connect_obsidian_orphans.py"
           python -B -m unittest discover -s scripts -p "test_jarvis*.py"
           python scripts/test_operations_public_projection.py
           python scripts/test_improvement_public_projection.py

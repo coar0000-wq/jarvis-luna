@@ -3,6 +3,7 @@ import contextlib
 import io
 import json
 import tempfile
+import subprocess
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -12,6 +13,9 @@ class RuntimeOperationsWiring(unittest.TestCase):
     def test_main_loads_verified_board_and_secretary_advisory_without_name_error(self):
         with tempfile.TemporaryDirectory() as td:
             root=Path(td); data=root/'data'; (data/'operations').mkdir(parents=True)
+            subprocess.run(['git','init','-q',str(root)],check=True)
+            (root/'.gitignore').write_text('/obsidian/JARVIS_LUNA/BrainRuntime/\n',encoding='utf-8')
+            (data/'exchange_rate.json').write_text(json.dumps({'rate':1370,'as_of':'2026-10-10','source':'fixture'}),encoding='utf-8')
             board={'schema_version':1,'status':'local_only','counts':{'external_verified':0}}
             (data/'operations'/'board.json').write_text(json.dumps(board),encoding='utf-8')
             (data/'typesafe_team_advisory.json').write_text(json.dumps({'teams':{'secretary':{

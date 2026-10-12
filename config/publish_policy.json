@@ -43,7 +43,14 @@
     "data/agents/signal_audit.json",
     "data/agents/score_explain.json",
     "data/agents/listing_notes.json",
-    "data/beauty_price_strategy.json"
+    "data/beauty_price_strategy.json",
+    "data/agents/beauty_category_teams.json",
+    "data/agents/brain_execution_runtime.json",
+    "data/agents/brain_execution_agents.json",
+    "data/agents/brain_execution_operations.json",
+    "data/agents/brain_execution_graph.json",
+    "data/jarvis_brain.json",
+    "data/agents/brain_dataset_index.json"
   ],
   "commerce_inputs": [
     "data/daiso_real/products.json",
@@ -72,6 +79,11 @@
     "data/shopify_exports/"
   ],
   "runtime_commands": [
+    [
+      "scripts/ingest_obsidian_data.py",
+      "--root",
+      "."
+    ],
     [
       "scripts/health_check_v2.py"
     ],

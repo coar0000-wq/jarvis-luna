@@ -3,16 +3,18 @@
 """한국→미국 실배송 기준 단가 모델.
 
 기존 대시보드의 "원가 x 2.2" 는 배송비·관세·결제수수료가 하나도 없는
-껍데기 계산이었다. 이 스크립트는 실제 비용을 전부 넣어 손익을 계산한다.
+껍데기 계산이었다. 이 스크립트는 알려진 비용만 넣어 추정 손익을 계산한다.
+미확인 추가 수수료와 제외 비용이 있어 전체 검증 순이익이 아니다.
 
-비용 근거 (전부 2026-08-31 실조회)
+비용 근거 (각 항목의 출처 참고)
   배송  우체국 국제통상 소형포장물 미국행 요금표
         ems.epost.go.kr/front.EmsDeliveryDelivery072.postal
   관세  미국 화장품 HTS 3304 한국산 상호관세 15%
         de minimis($800 면세)는 2025-08-29 전 국가 폐지,
         2026-06-24 CBP 무기한 유예로 소액 소포도 과세 대상
   환율  data/daiso_real/collection_status.json 의 실시간 조회값
-  수수료 Shopify 표준 온라인 결제 2.9% + $0.30
+  수수료 판매 후 카드사 2% + $0 (user instruction2026-10-11)
+         Shopify/Managed Markets 추가 수수료는 UNKNOWN, 계산에 더하지 않는다.
 
 무게는 다이소 수집 데이터에 없다. 상품명의 용량(ml/g)으로 추정하되
 추정임을 명시한다. 실제 배송 전 반드시 저울로 재야 한다.
@@ -25,6 +27,9 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+from payment_fees import (PAYMENT_FEE_RATE, PAYMENT_FEE_FIXED_USD, PAYMENT_FEE_NOTE,
+                          payment_cost_basis, profit_flags)
 
 ROOT = Path(__file__).resolve().parents[1]
 STRATEGY_PATH = ROOT / "config" / "daiso_commerce_strategy.json"
@@ -82,13 +87,9 @@ def psych_price(v: float) -> float:
     """미국식 가격 표기. 0.99 로 올림."""
     import math
     return math.floor(v) + 0.99 if v >= 1 else round(v, 2)
-# Shopify 국제 판매 실제 수수료 (2026-09-04 shopify.com/international/pricing 확인)
-#   Shopify Payments 국제 blended  3.9%
-#   Managed Markets                3.5%  (관세 계산·징수 무료 포함)
-# 이전에는 국내 기준 2.9% + $0.30 을 쓰고 있었다. 국제는 2.5배다.
-# 2026-10-11 사용자 확인: 판매 후 카드사가 결제 금액의 2% 를 수수료로 가져간다. 그 외 결제 수수료는 없다.
-PAY_RATE, PAY_FIXED = 0.02, 0.0
-PAY_NOTE = "판매 후 카드사 결제 수수료 (사용자 확인 2026-10-11) = 2%"
+# Explicit user card-processor component only; supplemental fees remain UNKNOWN.
+PAY_RATE, PAY_FIXED = PAYMENT_FEE_RATE, PAYMENT_FEE_FIXED_USD
+PAY_NOTE = PAYMENT_FEE_NOTE
 PACKAGING_G = 40            # 완충재 + 봉투 실측 대신 보수적 추정
 
 OLIVEYOUNG = ROOT / "data" / "oliveyoung_us_products.json"
@@ -345,7 +346,7 @@ def profitability_advisory(price: float, landed_total: float, weight_estimated: 
     status = ("loss" if "price_at_or_below_breakeven" in warnings
               else "below_minimum" if any(w.startswith("margin_below_minimum") for w in warnings)
               else "below_target" if warnings else "ok")
-    return {"status": status, "warnings": warnings, "blocks_registration": False,
+    return {"status": status, "warnings": warnings, "blocks_registration": False, **profit_flags(),
             "net_profit_usd": round(net, 2), "margin_pct": round(margin * 100, 1) if margin is not None else None,
             "breakeven_usd": round(breakeven, 2), "minimum_margin_pct": round(minimum * 100, 1),
             "target_margin_pct": round(adv["target_margin"] * 100, 1),
@@ -717,7 +718,7 @@ def main() -> int:
             "tariff": f"{TARIFF_RATE:.0%} - 미국 화장품 HTS 3304 한국산 상호관세",
             "de_minimis": ("$800 면세 한도는 2025-08-29 전 국가 폐지, "
                            "2026-06-24 CBP 무기한 유예. 소액 소포도 과세 대상."),
-            "payment_fee": PAY_NOTE,
+            **payment_cost_basis(),
             "weight": (
                 f"실측 {len(MEASURED)}건은 data/weights.json 값을 썼다. "
                 "나머지는 다이소에 무게 정보가 없어 용량 표기로 추정한 값이라 실측이 필요하다."
@@ -771,6 +772,7 @@ def main() -> int:
                    encoding="utf-8")
 
     print(f"환율 {rate} KRW/USD | 관세 {TARIFF_RATE:.0%} | 수수료 {PAY_NOTE}")
+    print("주의: 미확인 추가 수수료/제외 비용 전의 추정 손익이며 전체 검증 순이익이 아닙니다.")
     print(f"시장 벤치마크(올리브영 US): 하위25% ${MARKET['p25']} / 중앙값 ${MARKET['median']}\n")
     print(f"\n[권장 판매 구성]  광고비 0 기준")
     for lbl, o in (("단품", single), (f"{BUNDLE_SIZE}개 세트", bundle)):

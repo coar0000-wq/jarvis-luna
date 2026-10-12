@@ -16,6 +16,8 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+import brain_plane
+import beauty_category_teams
 
 ROOT = Path(__file__).resolve().parents[1]
 AGENTS = ROOT / "data" / "agents"
@@ -24,6 +26,8 @@ RUNTIME = ROOT / "data" / "dashboard_runtime.json"
 
 
 def load(path: Path, default: Any = None) -> Any:
+    if brain_plane.brain.current_execution(ROOT) is not None:
+        return brain_plane.read_json(path, ROOT, default if default is not None else {})
     if not path.exists():
         return default if default is not None else {}
     try:
@@ -35,6 +39,7 @@ def load(path: Path, default: Any = None) -> Any:
 def save(path: Path, obj: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    brain_plane.record(path, ROOT)
 
 
 def now_iso() -> str:
@@ -331,7 +336,7 @@ def should_run(force: bool, coll: dict, srec: dict, runtime: dict) -> tuple[bool
     return False, "skip_healthy"
 
 
-def main() -> int:
+def _main() -> int:
     force = os.environ.get("JARVIS_AGENTS_FORCE") == "1" or "--force" in os.sys.argv
     coll = load(DAISO / "collection_status.json", {})
     queue = load(DAISO / "beauty_queue.json", {})
@@ -371,6 +376,9 @@ def main() -> int:
         "task_count": ops.get("task_count"),
     })
 
+    category_work = beauty_category_teams.build(ROOT, now_iso())
+    save(AGENTS / "beauty_category_teams.json", category_work)
+
     # patch runtime commit_summary (optional, non-fatal)
     if RUNTIME.exists():
         try:
@@ -382,12 +390,15 @@ def main() -> int:
                 rt["commit_summary"] = prev
             else:
                 rt["commit_summary"] = {"line": prev or line, "agents_line": line}
+            rt["beauty_category_teams"] = category_work
             rt["agents_ops"] = {
                 "risk": ops.get("risk"),
                 "task_count": ops.get("task_count"),
                 "at": now_iso(),
             }
             save(RUNTIME, rt)
+        except brain_plane.brain.BrainError:
+            raise
         except Exception as e:
             print("runtime patch skip:", e)
 
@@ -395,6 +406,11 @@ def main() -> int:
     for t in ops.get("tasks") or []:
         print(f"  P{t.get('priority')}: {t.get('title')}")
     return 0
+
+
+def main() -> int:
+    return brain_plane.execute(ROOT, team="agents", task="category-and-team-analysis",
+        operation="local-analysis", callback=_main)
 
 
 if __name__ == "__main__":

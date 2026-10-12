@@ -97,6 +97,7 @@ jobs:
           python scripts/collector_result.py run --name runtime --required \
             --output "$RUNNER_TEMP/release-results/runtime.json" \
             --artifact data/dashboard_runtime.json -- bash -e -c '
+            python -u scripts/ingest_obsidian_data.py --root "$GITHUB_WORKSPACE"
             python -u scripts/health_check_v2.py
             python -u scripts/generate_dashboard_runtime.py
             python -u scripts/run_jarvis_agents.py --force
