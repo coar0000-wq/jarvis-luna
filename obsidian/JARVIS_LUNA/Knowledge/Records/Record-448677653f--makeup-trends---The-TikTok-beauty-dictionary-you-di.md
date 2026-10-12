@@ -1,0 +1,21 @@
+---
+title: "Record 448677653f · makeup-trends---The-TikTok-beauty-dictionary-you-didnt-know-you-needed"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-12T06:26:26.665864+00:00
+tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdzRHdW02djFoblZhbWdUaDFZMDJzb2xWbE9HaGhsNGRTYmMyUlUwUVEtVUY3NlNOcXNtQmlvaDRXYVBCc21FX1VweU41STZ3QWNiQ05pV0tzN1p1LUFyT0tlQ2l2RkNBcDJsZEJWWlVpbVVQSXJoVmlCR2dPZDJ3TF9LcnRGRnRWZkVsWDI0YndGdkgydUlkUXA4ckJKTE83aEtLY1V2R3VXZDhObFhsRjV2RnMtNGtsS1VnRHpDT0o?oc=5"
+---
+
+# Record 448677653f · makeup-trends---The-TikTok-beauty-dictionary-you-didnt-know-you-needed
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdzRHdW02djFoblZhbWdUaDFZMDJzb2xWbE9HaGhsNGRTYmMyUlUwUVEtVUY3NlNOcXNtQmlvaDRXYVBCc21FX1VweU41STZ3QWNiQ05pV0tzN1p1LUFyT0tlQ2l2RkNBcDJsZEJWWlVpbVVQSXJoVmlCR2dPZDJ3TF9LcnRGRnRWZkVsWDI0YndGdkgydUlkUXA4ckJKTE83aEtLY1V2R3VXZDhObFhsRjV2RnMtNGtsS1VnRHpDT0o?oc=5)
+
+**제목:** makeup trends - The TikTok beauty dictionary you didn’t know you needed - Cosmopolitan India
+
+makeup trends - The TikTok beauty dictionary you didn’t know you needed - Cosmopolitan India
+
+**출처:** Source · Google Search
