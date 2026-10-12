@@ -8,15 +8,15 @@
     "recorded_at": "2026-08-23T05:21:53.378147+00:00"
   },
   "totals": {
-    "records": 6958,
-    "notes": 85544,
-    "links": 380225
+    "records": 7253,
+    "notes": 85864,
+    "links": 380298
   },
   "last_snapshot": {
-    "records": 6958,
-    "notes": 84956,
-    "links": 7382,
-    "recorded_at": "2026-10-11T16:35:15.832421+09:00"
+    "records": 7253,
+    "notes": 85276,
+    "links": 7455,
+    "recorded_at": "2026-10-12T15:29:16.720529+09:00"
   },
   "runs": [
     {
@@ -1173,7 +1173,95 @@
         "notes": 0,
         "links": 0
       }
+    },
+    {
+      "at": "2026-10-12T06:27:36.350349+09:00",
+      "records": 6958,
+      "notes": 84981,
+      "links": 7451,
+      "added": {
+        "records": 0,
+        "notes": 25,
+        "links": 69
+      }
+    },
+    {
+      "at": "2026-10-12T07:27:24.063714+09:00",
+      "records": 7244,
+      "notes": 85267,
+      "links": 7455,
+      "added": {
+        "records": 286,
+        "notes": 286,
+        "links": 4
+      }
+    },
+    {
+      "at": "2026-10-12T07:27:52.466396+09:00",
+      "records": 7244,
+      "notes": 85267,
+      "links": 7455,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-10-12T07:30:29.633922+09:00",
+      "records": 7244,
+      "notes": 85267,
+      "links": 7455,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-10-12T08:57:09.862406+09:00",
+      "records": 7244,
+      "notes": 85267,
+      "links": 7455,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-10-12T13:08:04.714167+09:00",
+      "records": 7244,
+      "notes": 85267,
+      "links": 7455,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-10-12T15:29:07.298794+09:00",
+      "records": 7253,
+      "notes": 85276,
+      "links": 7455,
+      "added": {
+        "records": 9,
+        "notes": 9,
+        "links": 0
+      }
+    },
+    {
+      "at": "2026-10-12T15:29:16.720529+09:00",
+      "records": 7253,
+      "notes": 85276,
+      "links": 7455,
+      "added": {
+        "records": 0,
+        "notes": 0,
+        "links": 0
+      }
     }
   ],
-  "updated_at": "2026-10-11T16:35:15.832421+09:00"
+  "updated_at": "2026-10-12T15:29:16.720529+09:00"
 }

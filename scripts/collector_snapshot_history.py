@@ -51,6 +51,16 @@ ROTATING = {
     # 환율 관측은 통째로 새 값으로 바뀐다 (대조 목록·보조 필드 포함). 다른 칸은 그대로 지킨다.
     "data/daiso_real/collection_status.json": ["fx"],
     # 파생 상태 보고서: 실행마다 실패 이력 창과 범위별 판정이 통째로 바뀐다.
+    # 운영 보드: 매 실행 state.json 에서 통째로 다시 만드는 파생 화면(계획·작업·감시 목록). 원본 state 는 그대로 보존된다.
+    "data/operations/board.json": ["action_cards", "audit", "audit/counts", "business", "business/blockers", "counts", "engines", "feedback", "source_procedures", "source_procedures/continuity", "source_procedures/plans", "source_recovery", "source_recovery/counters", "source_recovery/episodes", "tasks", "watchers"],
+    # 운영 지식 그래프: 매 실행 state 에서 다시 만드는 파생 그래프(노드·엣지). 원본 state 는 보존된다.
+    "data/operations/knowledge_graph.json": ["nodes", "edges"],
+    # 운영 상태: 출처 복구 에피소드의 '현재 막힘 코드' 목록만. 출처가 회복되면 코드가 빠진다(이력·영수증은 그대로 보존).
+    "data/operations/state.json": ["source_recovery/episodes/*/blocker_codes"],
+    # AI 수집팀(예전 로보틱스): 논문·블로그·유튜브 최신 목록이 통째로 바뀐다. 2026-10-11 수집원 전환 포함.
+    "data/robotics_sources.json": ["sources/*/items", "sources/*/source_results", "sources/*/errors"],
+    # 전담팀 카테고리 목록(다이소몰 공개 목록): 실행마다 목록이 통째로 새 관측으로 바뀐다.
+    "data/daiso_real/desk_catalog.json": ["desks/*", "desks/*/products", "desks/*/categories", "errors", "kept_previous"],
     "data/agents/daiso_pipeline_health.json": ["failed_workflow_history", "input_errors", "scopes", "operating_staleness", "metadata_precision"],
 }
 

@@ -336,6 +336,9 @@ class Transaction:
         self.policy = json.loads((self.root/'config/publish_policy.json').read_text(encoding='utf-8'))
         self.collector_report = Path(collector_report).read_bytes() if collector_report else None
         self.execution_id = execution_id
+        self.publication_profile = ('non_operations' if os.environ.get('GITHUB_ACTIONS') == 'true'
+                                    and os.environ.get('JARVIS_OPERATIONS_CONTINUITY') != 'verified' else 'full')
+        self.executed_commands = []
         self.delta = self.capture()
         p = self.root/self.policy['deletion_manifest']
         self.manifest = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
@@ -359,6 +362,7 @@ class Transaction:
         for name in sorted(names - {''}):
             if not path_allowed(name, self.paths):
                 continue
+            self.reject_operations_delta([name])
             p = self.root/name
             if p.is_symlink():
                 raise PublishError(f'publication symlink not permitted: {name}')
@@ -371,6 +375,36 @@ class Transaction:
             if p.is_symlink():
                 raise PublishError(f'publication path is a symlink: {required}')
         return changes
+
+    def reject_operations_delta(self, names):
+        if self.publication_profile == 'non_operations':
+            for name in names:
+                if path_allowed(name, ['data/operations/']):
+                    raise PublishError(f'non-operations profile forbids operations delta: {name}')
+
+    def operations_snapshot(self, work):
+        directory = work/'data/operations'
+        if directory.is_symlink():
+            raise PublishError('operations directory symlink not permitted')
+        result = {}
+        if directory.exists():
+            for p in directory.rglob('*'):
+                if p.is_symlink():
+                    raise PublishError('operations artifact symlink not permitted')
+                if p.is_file():
+                    result[p.relative_to(work).as_posix()] = p.read_bytes()
+        return result
+
+    def verify_operations_unchanged(self, work, before):
+        if self.publication_profile == 'non_operations' and self.operations_snapshot(work) != before:
+            raise PublishError('non-operations profile changed fetched remote operations bytes')
+
+    def result(self, **values):
+        chain = self.policy['non_operations_runtime_commands'] if self.publication_profile == 'non_operations' else self.policy['runtime_commands']
+        return dict(values, publication_profile=self.publication_profile,
+                    declared_runtime_commands=chain, executed_commands=list(self.executed_commands),
+                    operations_producer_status=('executed' if ['scripts/run_jarvis_operations.py'] in self.executed_commands
+                                                else 'excluded_by_profile' if self.publication_profile == 'non_operations' else 'not_run'))
 
     def is_derived(self, name):
         return path_allowed(name, self.policy['derived_paths'])
@@ -394,6 +428,7 @@ class Transaction:
         p = subprocess.run([sys.executable, '-B', *args], cwd=work, env=env)
         if p.returncode:
             raise PublishError(f'offline final generation/check failed: {args[0]} ({p.returncode})')
+        self.executed_commands.append(list(args))
 
     def reapply_collector(self, work, report_path):
         if self.collector_report is None:
@@ -430,8 +465,12 @@ class Transaction:
         # false means no caller-requested regeneration; it cannot waive a rebase
         # or a source delta's final regeneration.
         if relevant or self.regenerate_dashboard:
-            for args in self.policy['runtime_commands']:
-                self.command(work, args)
+            if self.publication_profile == 'non_operations':
+                for args in self.policy['non_operations_runtime_commands']:
+                    self.command(work, args)
+            else:
+                for args in self.policy['runtime_commands']:
+                    self.command(work, args)
         extra = self.reapply_collector(work, report_dir/'collector-report.json')
         for phase in ('candidate', 'final'):
             self.command(work, ['scripts/check_release_quality.py', '--phase', phase,
@@ -446,6 +485,7 @@ class Transaction:
     def stage(self, work):
         names = set(git(work, 'diff', '--name-only', '-z', 'HEAD').stdout.decode().split('\0'))
         names.update(git(work, 'ls-files', '--others', '--exclude-standard', '-z').stdout.decode().split('\0'))
+        self.reject_operations_delta(names - {''})
         allowed = self.paths + self.policy['derived_paths'] + self.policy['generated_extra']
         for name in sorted(names - {''}):
             if not path_allowed(name, allowed):
@@ -457,8 +497,9 @@ class Transaction:
         return git(work, 'push', 'origin', 'HEAD:main', check=False).returncode == 0
 
     def run(self):
+        self.reject_operations_delta(self.delta)
         if not self.delta:
-            return {'status': 'no_change', 'base_sha': self.base, 'attempts': []}
+            return self.result(status='no_change', base_sha=self.base, attempts=[])
         temp_root = Path(os.environ.get('RUNNER_TEMP') or os.environ.get('TEMP') or self.root.parent)
         with tempfile.TemporaryDirectory(prefix='publish-transaction-', dir=temp_root) as folder:
             temp = Path(folder)
@@ -478,6 +519,7 @@ class Transaction:
                 work = temp/f'work-{number}'
                 git(self.root, 'worktree', 'add', '--detach', str(work), latest)
                 try:
+                    operations_before = self.operations_snapshot(work) if self.publication_profile == 'non_operations' else None
                     safety_before = None
                     if set(self.delta) & PERSISTENT_SOURCE_FILES:
                         from source_safety_checkpoint import _validate, _nonregression, ALLOWLIST
@@ -508,17 +550,19 @@ class Transaction:
                         _nonregression(safety_before, final_safety)
                         if final_safety != files:
                             raise PublishError('offline generators mutated source safety evidence')
-                    self.attempts.append({'attempt': number, 'remote_sha': latest, 'validated': True})
+                    self.verify_operations_unchanged(work, operations_before)
+                    self.attempts.append({'attempt': number, 'remote_sha': latest, 'validated': True,
+                                          'publication_profile': self.publication_profile})
                     if not self.stage(work):
-                        return {'status': 'no_change', 'base_sha': self.base, 'attempts': self.attempts}
+                        return self.result(status='no_change', base_sha=self.base, attempts=self.attempts)
                     if self.dry_run:
-                        return {'status': 'dry_run_validated', 'base_sha': self.base, 'attempts': self.attempts}
+                        return self.result(status='dry_run_validated', base_sha=self.base, attempts=self.attempts)
                     git(work, 'config', 'user.name', 'JARVIS')
                     git(work, 'config', 'user.email', 'jarvis@luna.bot')
                     git(work, 'commit', '-m', self.message)
                     commit = git(work, 'rev-parse', 'HEAD').stdout.decode().strip()
                     if self.push(work):
-                        return {'status': 'published', 'commit_sha': commit, 'base_sha': self.base, 'attempts': self.attempts}
+                        return self.result(status='published', commit_sha=commit, base_sha=self.base, attempts=self.attempts)
                     self.attempts[-1]['push_rejected'] = True
                 finally:
                     git(self.root, 'worktree', 'remove', '--force', str(work))

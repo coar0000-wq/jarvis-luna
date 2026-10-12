@@ -44,7 +44,7 @@ class PublishContractTests(unittest.TestCase):
         self.assertEqual(result['commerce_commands'][1], ['scripts/daiso/score_shopify_demand.py'])
 
     def test_removed_or_reordered_declared_producer_fails_closed(self):
-        for key in ('runtime_commands', 'commerce_commands'):
+        for key in ('runtime_commands', 'commerce_commands', 'non_operations_runtime_commands'):
             p = deepcopy(self.policy); p[key].pop(0); self.write(policy=p)
             with self.subTest(key=key), self.assertRaises(ValueError): self.contract()
         p = deepcopy(self.policy); p['runtime_commands'].reverse(); self.write(policy=p)
@@ -72,6 +72,34 @@ class PublishContractTests(unittest.TestCase):
             self.assertIn(old, self.wrapper)
             self.write(wrapper=self.wrapper.replace(old, new, 1))
             with self.subTest(old=old), self.assertRaises(ValueError): self.contract()
+
+    def test_operations_boundaries_cannot_be_removed(self):
+        for old,new in (("self.reject_operations_delta(self.delta)", "None"),
+                        ("self.reject_operations_delta(names - {''})", "None"),
+                        ("self.verify_operations_unchanged(work, operations_before)", "None"),
+                        ("for args in self.policy['non_operations_runtime_commands']:", "for args in []:")):
+            self.write(wrapper=self.wrapper.replace(old,new,1))
+            with self.subTest(old=old),self.assertRaises(ValueError):self.contract()
+
+    def test_command_silent_skip_is_rejected(self):
+        self.write(wrapper=self.wrapper.replace('        env = dict(os.environ', "        if args[0] == 'scripts/run_jarvis_operations.py':\n            return\n        env = dict(os.environ", 1))
+        with self.assertRaises(ValueError):self.contract()
+
+    def test_non_operations_profile_truthful_graph_coverage(self):
+        p=self.profiles('data/notes.json',['data/notes.json'])
+        self.assertEqual(p['publication_profile'],'non_operations')
+        self.assertEqual(p['operations_producer_status'],'excluded_by_profile')
+        self.assertEqual(p['producer_status'],'declared_conditional_not_execution_evidence')
+        self.assertNotIn(['scripts/run_jarvis_operations.py'],p['commands'])
+        self.assertEqual(p['profile_variants']['full'],graph._RUNTIME_CHAIN)
+
+    def test_verified_profile_declares_full_chain_not_execution_proof(self):
+        text=('jobs:\n  fixture:\n    env:\n      JARVIS_OPERATIONS_CONTINUITY: verified\n    steps:\n'
+              '      - uses: ./.github/actions/publish\n        with:\n          paths: data/notes.json\n')
+        p=graph._transaction_profiles(text,self.contract(),{})[0]
+        self.assertEqual(p['publication_profile'],'full')
+        self.assertEqual(p['declared_runtime_commands'],graph._RUNTIME_CHAIN)
+        self.assertEqual(p['operations_producer_status'],'declared_requires_verified_continuity')
 
     def test_mandatory_quality_command_and_phase_cannot_be_removed(self):
         for old, new in (("for phase in ('candidate', 'final'):", "for phase in ('candidate',):"),
@@ -102,7 +130,7 @@ class PublishContractTests(unittest.TestCase):
     def test_false_requested_regeneration_cannot_waive_source_runtime(self):
         p = self.profiles('data/notes.json', ['data/notes.json'])
         self.assertFalse(p['commerce_regeneration'])
-        self.assertEqual(p['commands'][:len(graph._RUNTIME_CHAIN)], graph._RUNTIME_CHAIN)
+        self.assertEqual(p['commands'][:len(graph._NON_OPERATIONS_RUNTIME_CHAIN)], graph._NON_OPERATIONS_RUNTIME_CHAIN)
         self.assertEqual(p['commands'][-2:], [['scripts/check_release_quality.py', '--phase', 'candidate'],
                                              ['scripts/check_release_quality.py', '--phase', 'final']])
 
@@ -110,7 +138,7 @@ class PublishContractTests(unittest.TestCase):
         p = self.profiles('data', ['data/daiso_real/products.json'])
         self.assertTrue(p['commerce_regeneration'])
         self.assertEqual(p['commands'][:len(graph._COMMERCE_CHAIN)], graph._COMMERCE_CHAIN)
-        self.assertEqual(p['commands'][len(graph._COMMERCE_CHAIN):len(graph._COMMERCE_CHAIN)+len(graph._RUNTIME_CHAIN)], graph._RUNTIME_CHAIN)
+        self.assertEqual(p['commands'][len(graph._COMMERCE_CHAIN):len(graph._COMMERCE_CHAIN)+len(graph._NON_OPERATIONS_RUNTIME_CHAIN)], graph._NON_OPERATIONS_RUNTIME_CHAIN)
         self.assertEqual(p['commerce_triggers'], ['data/daiso_real/products.json'])
 
     def test_candidate_only_never_claims_automatic_score_product_or_export(self):

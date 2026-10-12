@@ -2,7 +2,7 @@
 title: "Record 83c7ccd590 · TikToks-Viral-Male-Gaze-Vs-Female-Gaze-Makeup-Trend"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:32.065829+00:00
+updated_at: 2026-10-11T22:24:12.784872+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["마케팅광고", "뷰티스킨케어", "소셜콘텐츠"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMif0FVX3lxTE5QeTctNWFLMEMzWl9ZTE5TR
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMif0FVX3lxTE5QeTctNWFLMEMzWl9ZTE5TRzYxZm1nT2h4eVNSV2N5UlRUdldiVXAtdEc5enNWMVktaXhGcWRyQk5FVEtremFVNXJ6VWU4UGpMdUxzRHhUeHgyNEhQZmc0SGxLbDhWcDNFX0FOaGJydXJKTlhIVlY4STJIbGZjVTQ?oc=5)
 
-**제목:** TikTok's Viral "Male Gaze" Vs. "Female Gaze" Makeup Trend Asks Who Your Glam Is For - bustle.com
+**제목:** TikTok's Viral "Male Gaze" Vs. "Female Gaze" Makeup Trend Asks Who Your Glam Is For - Bustle
 
-TikTok's Viral "Male Gaze" Vs. "Female Gaze" Makeup Trend Asks Who Your Glam Is For - bustle.com
+TikTok's Viral "Male Gaze" Vs. "Female Gaze" Makeup Trend Asks Who Your Glam Is For - Bustle
 
 **출처:** Source · Google Search

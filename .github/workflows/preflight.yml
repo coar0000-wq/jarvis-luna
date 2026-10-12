@@ -74,6 +74,7 @@ jobs:
           python -B -m unittest discover -s scripts -p "test_payment_fees.py"
           python -B -m unittest discover -s scripts -p "test_operations_storage.py"
           python -B -m unittest discover -s scripts -p "test_manufacturer_safety.py"
+          python -B -m unittest discover -s scripts -p "test_mocra_scoped_safety.py"
           python -B -m unittest discover -s scripts -p "test_connect_obsidian_orphans.py"
           python -B -m unittest discover -s scripts -p "test_jarvis*.py"
           python scripts/test_operations_public_projection.py

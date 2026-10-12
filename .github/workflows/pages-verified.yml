@@ -113,6 +113,15 @@ jobs:
             python scripts/test_team_improvement_evidence.py
             python scripts/test_build_team_improvement.py
             python scripts/test_runtime_operations_wiring.py
+            python -B -m unittest discover -s scripts -p "test_brain_plane.py"
+            python -B -m unittest discover -s scripts -p "test_obsidian_brain.py"
+            python -B -m unittest discover -s scripts -p "test_brain_large_graph.py"
+            python -B -m unittest discover -s scripts -p "test_ingest_obsidian_data.py"
+            python -B -m unittest discover -s scripts -p "test_beauty_category_teams.py"
+            python -B -m unittest discover -s scripts -p "test_payment_fees.py"
+            python -B -m unittest discover -s scripts -p "test_operations_storage.py"
+            python -B -m unittest discover -s scripts -p "test_manufacturer_safety.py"
+            python -B -m unittest discover -s scripts -p "test_mocra_scoped_safety.py"
             python scripts/test_watch_source_adapters.py
             python scripts/test_watch_recovery_integration.py
             python scripts/test_source_collector_provenance.py

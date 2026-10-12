@@ -2,10 +2,10 @@
 title: "JARVIS Brain"
 type: brain-hub
 status: generated-from-jarvis-data
-updated_at: 2026-10-11T10:51:41.601422+00:00
+updated_at: 2026-10-11T13:31:28.052874+00:00
 desks: 3
 teams: 12
-s_products: 10
+s_products: 8
 ---
 
 # JARVIS Brain
@@ -14,9 +14,9 @@ JARVIS 데이터가 모이는 두뇌 허브입니다. 아래 노트는 2시간�
 
 ## 카테고리 전담팀
 
-- [[스킨케어 전담팀]] · S 8 · 공개 2
-- [[메이크업 전담팀]] · S 1 · 공개 0
-- [[바디 전담팀]] · S 1 · 공개 0
+- [[스킨케어 전담팀]] · S 6 · 공개 2
+- [[메이크업 전담팀]] · S 2 · 공개 0
+- [[바디 전담팀]] · S 0 · 공개 0
 
 ## 팀
 

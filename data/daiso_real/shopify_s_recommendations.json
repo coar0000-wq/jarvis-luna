@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-11T10:51:38.913195+00:00",
+  "generated_at": "2026-10-12T04:07:58.898232+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
-  "count": 10,
+  "count": 8,
   "priority_note": "Shopify 1차 등록 후보. 이 파일만 정본으로 사용.",
   "recommendations": [
     {
@@ -60,7 +60,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     },
     {
       "rank": 2,
@@ -117,7 +117,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     },
     {
       "rank": 3,
@@ -148,19 +148,16 @@
       "agent_ready": false,
       "agent_blocked_by": [
         "price",
-        "legal",
-        "manufacturer_safety_record_missing"
+        "legal"
       ],
       "blocked_by": [
         "price",
-        "legal",
-        "manufacturer_safety_record_missing"
+        "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "price",
         "legal",
-        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "typesafe": {
@@ -173,7 +170,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 7,
+        "risk_points": 6,
         "team_routes": [
           "legal",
           "pricing"
@@ -181,15 +178,15 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price, legal, manufacturer_safety_record_missing",
-          "public blockers: price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: price, legal",
+          "public blockers: price, legal, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     },
     {
       "rank": 4,
@@ -246,40 +243,58 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     },
     {
       "rank": 5,
-      "canonical_product_id": "CP000251",
-      "pd_no": "1072554",
-      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "canonical_product_id": "CP000230",
+      "pd_no": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
       "bucket": "스킨케어",
       "desk": "skincare",
       "price_krw": 5000,
-      "shopify_score": 96,
+      "shopify_score": 93,
       "grade": "S",
       "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260909/3UnEEcWgQD0IKB2N7HaJ1072554_00_013UnEEcWgQD0IKB2N7HaJ.jpg",
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 68% · 토큰 retinol, serum",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
+      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc",
       "matched_global": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.68,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Yuzu Vitamin C Bright Eye Cream",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "retinol",
-          "serum"
+          "cream",
+          "vitaminc"
         ],
-        "match_score": 0.34
+        "match_score": 0.31
       },
-      "registerable": true,
+      "registerable": false,
       "registerable_source": "data/listing_gate.json",
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ],
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal",
+        "legal_full"
+      ],
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -287,154 +302,31 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
         "team_routes": [
+          "legal",
+          "pricing",
+          "sourcing",
           "listing"
         ],
-        "model_route": "local",
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: copy, gosi, us_label, price, legal",
+          "public blockers: copy, gosi, us_label, price, legal, legal_full",
+          "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     },
     {
       "rank": 6,
-      "canonical_product_id": "CP000270",
-      "pd_no": "1075857",
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "bucket": "스킨케어",
-      "desk": "skincare",
-      "price_krw": 2000,
-      "shopify_score": 94,
-      "grade": "S",
-      "s_rule": "ingredient+form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn",
-      "matched_global": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.634,
-        "demand_weight": 0.637,
-        "matched_tokens": [
-          "cream",
-          "pdrn"
-        ],
-        "match_score": 0.404
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "price"
-      ],
-      "blocked_by": [
-        "price"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "price"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [
-          "pricing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: price",
-          "public blockers: price",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
-    },
-    {
-      "rank": 7,
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "bucket": "스킨케어",
-      "desk": "skincare",
-      "price_krw": 3000,
-      "shopify_score": 92,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
-      "recommend_reason": "글로벌 'TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare' (amazon_new_beauty) 유사 70% · 토큰 hydrating, mask",
-      "matched_global": {
-        "channel": "amazon_new_beauty",
-        "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
-        "similarity": 0.7,
-        "demand_weight": 0.45,
-        "matched_tokens": [
-          "hydrating",
-          "mask"
-        ],
-        "match_score": 0.315
-      },
-      "registerable": false,
-      "registerable_source": "data/listing_gate.json",
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "price"
-      ],
-      "blocked_by": [
-        "price"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "price"
-      ],
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [
-          "pricing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: price",
-          "public blockers: price",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
-    },
-    {
-      "rank": 8,
       "canonical_product_id": "CP000125",
       "pd_no": "1053482",
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
@@ -500,23 +392,32 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     },
     {
-      "rank": 9,
-      "canonical_product_id": "CP000071",
-      "pd_no": "1042246",
-      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-      "bucket": "바디케어",
-      "desk": "body",
+      "rank": 7,
+      "canonical_product_id": "CP000267",
+      "pd_no": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "bucket": "스킨케어",
+      "desk": "makeup",
       "price_krw": 3000,
-      "shopify_score": 83,
+      "shopify_score": 85,
       "grade": "S",
       "s_rule": "category_desk_us_evidence",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042246",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260520/ELHC4rgDgv6IcZmS39pv1042246_00_01ELHC4rgDgv6IcZmS39pv.png",
-      "recommend_reason": "바디케어 카테고리 · 평점 4.7 · 리뷰 2,498건 (글로벌 시그널 약함)",
-      "matched_global": null,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/vBSXuja9jWgInfVlOGRy1074979_00_00vBSXuja9jWgInfVlOGRy.jpg",
+      "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
+      "matched_global": {
+        "channel": "sokoglam_us",
+        "global_product": "Snail Mucin Eye Cream",
+        "similarity": 0.293,
+        "demand_weight": 0.95,
+        "matched_tokens": [
+          "cream"
+        ],
+        "match_score": 0.279
+      },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
@@ -570,23 +471,32 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     },
     {
-      "rank": 10,
-      "canonical_product_id": "CP000256",
-      "pd_no": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "bucket": "메이크업",
+      "rank": 8,
+      "canonical_product_id": "CP000231",
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "bucket": "스킨케어",
       "desk": "makeup",
       "price_krw": 5000,
-      "shopify_score": 75,
+      "shopify_score": 82,
       "grade": "S",
       "s_rule": "category_desk_us_evidence",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
-      "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)",
-      "matched_global": null,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
+      "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:match_too_weak",
+      "matched_global": {
+        "channel": "sokoglam_us",
+        "global_product": "Freshly Juiced Vitamin C Drop",
+        "similarity": 0.4,
+        "demand_weight": 0.76,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.304
+      },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
@@ -640,10 +550,10 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-11T10:51:40.407106+00:00"
+      "gate_generated_at": "2026-10-12T04:07:59.640773+00:00"
     }
   ],
-  "agent_ready_count": 4,
-  "registerable_count": 4,
+  "agent_ready_count": 3,
+  "registerable_count": 3,
   "registerable_source": "data/listing_gate.json"
 }

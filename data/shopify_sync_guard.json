@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T10:51:40.886317+00:00",
+  "generated_at": "2026-10-12T04:07:59.894266+00:00",
   "generator": "scripts/shopify_sync_guard.py",
   "ok": true,
   "violations": [],
   "shortlist_status": "proposed",
-  "shortlist_units": 4,
+  "shortlist_units": 3,
   "baseline": {
     "file": "data/shopify_sync_state.json",
     "present": false,

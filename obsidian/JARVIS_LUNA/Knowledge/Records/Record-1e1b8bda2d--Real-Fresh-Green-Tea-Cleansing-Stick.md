@@ -2,7 +2,7 @@
 title: "Record 1e1b8bda2d · Real-Fresh-Green-Tea-Cleansing-Stick"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:39.170315+00:00
+updated_at: 2026-10-11T22:24:13.196627+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/neogen-real-fresh-cleansing-stick-green-tea"
 **제목:** Real Fresh Green Tea Cleansing Stick
 
 Real Fresh Green Tea Cleansing Stick
-Real Fresh Green Tea Cleansing Stick · NEOGEN · $22.0
+Real Fresh Green Tea Cleansing Stick · NEOGEN · $22
 
 **출처:** Source · us_beauty

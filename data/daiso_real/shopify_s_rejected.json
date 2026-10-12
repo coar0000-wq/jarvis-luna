@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T10:51:38.913195+00:00",
+  "generated_at": "2026-10-12T04:07:58.898232+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 61,
+  "count": 59,
   "items": [
     {
       "canonical_product_id": "CP000215",
@@ -182,16 +182,6 @@
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
       "recommend_reason": "글로벌 '[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)' (oliveyoung_us) 유사 73% · 토큰 cream, moisturizer"
-    },
-    {
-      "canonical_product_id": "CP000230",
-      "pd_no": "1068721",
-      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc"
     },
     {
       "canonical_product_id": "CP000084",
@@ -402,6 +392,16 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,348건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000088",
+      "pd_no": "1044967",
+      "name": "어퓨 더퓨어 티트리 에센스 50ml",
+      "bucket": "스킨케어",
+      "shopify_score": 86,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 838건 (글로벌 시그널 약함)"
     }
   ]
 }

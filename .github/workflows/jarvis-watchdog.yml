@@ -1,0 +1,58 @@
+name: JARVIS 워치독 (컴퓨터 꺼져도 스스로 재가동)
+
+# 2026-10-11 사용자 목표: "ASIDE 컴퓨터 꺼져도 자비스가 스스로 작업하게 만드는 것".
+# GitHub 예약 실행은 부하가 많으면 건너뛴다. 실제로 Core(2시간 예약)는 5~7시간에 한 번만 돌았다.
+# 이 워치독은 30분마다 핵심 워크플로의 마지막 실행 시각을 보고, 너무 오래 멈췄으면 workflow_dispatch 로 다시 띄운다.
+# - main-publish 그룹 실행이 하나라도 대기/진행 중이면 아무것도 하지 않는다(대기 실행 교체·취소 방지).
+# - 한 번에 하나만 띄운다. 코드·데이터는 건드리지 않는다(읽기 + 실행 요청만).
+
+on:
+  schedule:
+    - cron: '11,41 * * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: jarvis-watchdog
+  cancel-in-progress: true
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 멈춘 핵심 워크플로 재가동
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          # main-publish 그룹 워크플로 파일
+          PUBLISH="JARVIS-Core-Automation.yml JARVIS-Deep-Analysis.yml daiso-real-collection.yml jarvis-real-knowledge.yml gosi-vision.yml shopify-listing-copy.yml fx-refresh.yml"
+          for wf in $PUBLISH; do
+            n=$(gh run list -R "$REPO" --workflow "$wf" --limit 10 --json status -q '[.[]|select(.status!="completed")]|length' 2>/dev/null || echo 0)
+            if [ "${n:-0}" != "0" ]; then
+              echo "WATCHDOG_WAIT $wf 실행/대기 중 -> 이번 회차는 쉰다"
+              echo "대기: $wf 실행/대기 중" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+          done
+          now=$(date -u +%s)
+          # 우선순위 순서: 파일 최대공백(시간)
+          for spec in "JARVIS-Core-Automation.yml:3" "JARVIS-Deep-Analysis.yml:3" "jarvis-real-knowledge.yml:7"; do
+            wf="${spec%%:*}"; max_h="${spec##*:}"
+            last=$(gh run list -R "$REPO" --workflow "$wf" --limit 1 --json createdAt -q '.[0].createdAt // ""')
+            if [ -z "$last" ]; then age_h=999; else age_h=$(( (now - $(date -u -d "$last" +%s)) / 3600 )); fi
+            echo "WATCHDOG_CHECK $wf last=$last age_h=$age_h max_h=$max_h"
+            if [ "$age_h" -ge "$max_h" ]; then
+              gh workflow run "$wf" -R "$REPO" --ref main
+              echo "WATCHDOG_DISPATCH $wf (마지막 실행 ${age_h}시간 전)"
+              echo "재가동: $wf (마지막 실행 ${age_h}시간 전)" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+          done
+          echo "WATCHDOG_OK 모두 제때 실행 중"
+          echo "정상: 핵심 워크플로 모두 제때 실행 중" >> "$GITHUB_STEP_SUMMARY"

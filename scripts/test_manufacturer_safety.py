@@ -62,6 +62,17 @@ class ManufacturerSafetyTests(unittest.TestCase):
         self.assertFalse(self.result()["covered"])
         self.assertIn("scoped_evidence_missing", self.result()["reason"])
 
+    def test_broad_daiso_quality_scope_never_substitutes_product_evidence(self):
+        self.public.write_text(json.dumps({"safety_substantiation": {
+            "covered_pd_nos": ["1"], "scope": "all_daiso_products",
+            "status": "검증 완료", "verified_by": "사업주", "verified_at": "2026-01-01",
+            "basis": "D.TQC / ISO 9001 / CCM; 자료는 판매 후 확보"}}), encoding="utf-8")
+        self.assertFalse(self.result()["covered"])
+        self.assertFalse(self.result("2")["covered"])
+        self.install()
+        self.assertTrue(self.result()["covered"])
+        self.assertFalse(self.result("2")["covered"])
+
     def test_missing_hash_mismatch_and_review_file_changes_fail_closed(self):
         self.install()
         dossier = self.root / self.record["file"]

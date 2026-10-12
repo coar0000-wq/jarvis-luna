@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-11T10:51:39.916683+00:00",
+  "generated_at": "2026-10-12T04:07:59.414657+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -3242,8 +3242,8 @@
       "review_count": 2498,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260520/ELHC4rgDgv6IcZmS39pv1042246_00_01ELHC4rgDgv6IcZmS39pv.png",
       "shopify_score": 83,
-      "grade": "S",
-      "s_rule": "category_desk_us_evidence",
+      "grade": "A",
+      "s_rule": "no_global_match",
       "score_breakdown": {
         "category": 20.2,
         "rating": 11.7,
@@ -3273,15 +3273,9 @@
         "sku": "CP000071"
       },
       "listing": {
-        "ready": false,
-        "blocked_by": [
-          "copy",
-          "gosi",
-          "us_label",
-          "price",
-          "legal"
-        ],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
       }
     },
     {
@@ -5106,10 +5100,9 @@
         "ready": false,
         "blocked_by": [
           "price",
-          "legal",
-          "manufacturer_safety_record_missing"
+          "legal"
         ],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -5165,7 +5158,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -5236,8 +5229,8 @@
       "review_count": 3884,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20250929/gblFwiiyQbV92ezzjLMk1049285_00_01gblFwiiyQbV92ezzjLMk.jpg",
       "shopify_score": 92,
-      "grade": "S",
-      "s_rule": "multi_token",
+      "grade": "A",
+      "s_rule": "no_category_desk",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -5267,11 +5260,9 @@
         "sku": "CP000109"
       },
       "listing": {
-        "ready": false,
-        "blocked_by": [
-          "price"
-        ],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
       }
     },
     {
@@ -6210,7 +6201,7 @@
           "copy",
           "legal"
         ],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -6470,7 +6461,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -11358,7 +11349,7 @@
       "listing": {
         "ready": true,
         "blocked_by": [],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -12053,8 +12044,8 @@
       "review_count": 2980,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
       "shopify_score": 93,
-      "grade": "A",
-      "s_rule": "form_cap",
+      "grade": "S",
+      "s_rule": "ingredient+form",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -12084,9 +12075,15 @@
         "sku": "CP000230"
       },
       "listing": {
-        "ready": null,
-        "blocked_by": [],
-        "gate_generated_at": null
+        "ready": false,
+        "blocked_by": [
+          "copy",
+          "gosi",
+          "us_label",
+          "price",
+          "legal"
+        ],
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -12105,8 +12102,8 @@
       "review_count": 423,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
       "shopify_score": 82,
-      "grade": "A",
-      "s_rule": "match_too_weak",
+      "grade": "S",
+      "s_rule": "category_desk_us_evidence",
       "score_breakdown": {
         "category": 25.0,
         "rating": 6.7,
@@ -12136,9 +12133,15 @@
         "sku": "CP000231"
       },
       "listing": {
-        "ready": null,
-        "blocked_by": [],
-        "gate_generated_at": null
+        "ready": false,
+        "blocked_by": [
+          "copy",
+          "gosi",
+          "us_label",
+          "price",
+          "legal"
+        ],
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -13197,8 +13200,8 @@
       "review_count": 1649,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260909/3UnEEcWgQD0IKB2N7HaJ1072554_00_013UnEEcWgQD0IKB2N7HaJ.jpg",
       "shopify_score": 96,
-      "grade": "S",
-      "s_rule": "ingredient+form",
+      "grade": "A",
+      "s_rule": "no_category_desk",
       "score_breakdown": {
         "category": 25.0,
         "rating": 11.7,
@@ -13228,9 +13231,9 @@
         "sku": "CP000251"
       },
       "listing": {
-        "ready": true,
+        "ready": null,
         "blocked_by": [],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "gate_generated_at": null
       }
     },
     {
@@ -13457,8 +13460,8 @@
       "review_count": 1267,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
       "shopify_score": 75,
-      "grade": "S",
-      "s_rule": "category_desk_us_evidence",
+      "grade": "A",
+      "s_rule": "rank_cap",
       "score_breakdown": {
         "category": 19.0,
         "rating": 10.0,
@@ -13488,15 +13491,9 @@
         "sku": "CP000256"
       },
       "listing": {
-        "ready": false,
-        "blocked_by": [
-          "copy",
-          "gosi",
-          "us_label",
-          "price",
-          "legal"
-        ],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
       }
     },
     {
@@ -14087,8 +14084,8 @@
       "review_count": 352,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260116/vBSXuja9jWgInfVlOGRy1074979_00_00vBSXuja9jWgInfVlOGRy.jpg",
       "shopify_score": 85,
-      "grade": "A",
-      "s_rule": "weak_solo_token",
+      "grade": "S",
+      "s_rule": "category_desk_us_evidence",
       "score_breakdown": {
         "category": 25.0,
         "rating": 10.0,
@@ -14118,9 +14115,15 @@
         "sku": "CP000267"
       },
       "listing": {
-        "ready": null,
-        "blocked_by": [],
-        "gate_generated_at": null
+        "ready": false,
+        "blocked_by": [
+          "copy",
+          "gosi",
+          "us_label",
+          "price",
+          "legal"
+        ],
+        "gate_generated_at": "2026-10-12T04:07:59.305433+00:00"
       }
     },
     {
@@ -14243,8 +14246,8 @@
       "review_count": 701,
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "shopify_score": 94,
-      "grade": "S",
-      "s_rule": "ingredient+form",
+      "grade": "A",
+      "s_rule": "no_category_desk",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -14274,11 +14277,9 @@
         "sku": "CP000270"
       },
       "listing": {
-        "ready": false,
-        "blocked_by": [
-          "price"
-        ],
-        "gate_generated_at": "2026-10-11T10:51:39.726991+00:00"
+        "ready": null,
+        "blocked_by": [],
+        "gate_generated_at": null
       }
     },
     {
@@ -18042,7 +18043,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "shopify_score": 85,
       "grade": "A",
-      "s_rule": "form_cap",
+      "s_rule": "no_category_desk",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,

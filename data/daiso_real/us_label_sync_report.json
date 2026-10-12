@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T01:36:32.968117+00:00",
-  "current_s_count": 10,
-  "filled": 5,
+  "generated_at": "2026-10-12T04:07:50.252016+00:00",
+  "current_s_count": 8,
+  "filled": 0,
   "replaced": 0,
   "complete": 24,
   "items": {
@@ -309,6 +309,61 @@
           "사유": "정본에서 가까운 표준명을 찾지 못했다"
         }
       ]
+    },
+    "1042246": {
+      "missing_fields": [
+        "net_contents",
+        "ingredients_inci",
+        "manufacturer",
+        "country_of_origin"
+      ],
+      "unresolved_ingredients": [],
+      "resolved_spellings": [],
+      "needs_review": []
+    },
+    "1072800": {
+      "missing_fields": [
+        "net_contents",
+        "ingredients_inci",
+        "manufacturer",
+        "country_of_origin"
+      ],
+      "unresolved_ingredients": [],
+      "resolved_spellings": [],
+      "needs_review": []
+    },
+    "1068721": {
+      "missing_fields": [
+        "net_contents",
+        "ingredients_inci",
+        "manufacturer",
+        "country_of_origin"
+      ],
+      "unresolved_ingredients": [],
+      "resolved_spellings": [],
+      "needs_review": []
+    },
+    "1068733": {
+      "missing_fields": [
+        "net_contents",
+        "ingredients_inci",
+        "manufacturer",
+        "country_of_origin"
+      ],
+      "unresolved_ingredients": [],
+      "resolved_spellings": [],
+      "needs_review": []
+    },
+    "1074979": {
+      "missing_fields": [
+        "net_contents",
+        "ingredients_inci",
+        "manufacturer",
+        "country_of_origin"
+      ],
+      "unresolved_ingredients": [],
+      "resolved_spellings": [],
+      "needs_review": []
     }
   }
 }

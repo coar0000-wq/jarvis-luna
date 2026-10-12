@@ -2,7 +2,7 @@
 title: "Record a38257647e · The-Skin-Balancing-Duo"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:39.267864+00:00
+updated_at: 2026-10-11T22:24:13.205581+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/then-i-met-you-the-skin-balancing-duo"
 **제목:** The Skin Balancing Duo
 
 The Skin Balancing Duo
-The Skin Balancing Duo · Then I Met You · $81.0
+The Skin Balancing Duo · Then I Met You · $81
 
 **출처:** Source · us_beauty

@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""로보틱스 자료 수집기.
+"""AI 자료 수집기 (예전 로보틱스 수집기).
+
+2026-10-11 사용자 지시: "로보틱스 수집 데이터 그만 수집하고 AI 관련된 유튜브, 논문 등 데이터 수집으로 바꿔서 데이터화"
+  -> 수집원을 AI 논문(arXiv via OpenAlex AI 주제) · AI 연구 블로그/뉴스 RSS · AI 유튜브 채널 RSS 로 바꿨다.
+  팀 id(robotics)와 파일 경로(data/robotics_sources.json)는 다른 생성기·복구기가 읽으므로 그대로 둔다.
+  화면 이름은 "AI 수집팀".
+
+(아래는 예전 로보틱스 수집기 설명)
 
 왜 만들었나
   2026-09-04 옵시디언 주제를 20개로 세분화했더니 "로보틱스" 가 3건뿐이었다.
@@ -55,13 +62,24 @@ OPENALEX_MAILTO = os.environ.get(
     "OPENALEX_MAILTO", "jarvis-luna@users.noreply.github.com")
 OPENALEX_DAYS = 21
 OPENALEX_TOPICS = [
-    ("T10715", "로보틱스"),
-    ("T11209", "제어·자율주행"),
+    ("T11714", "AI·멀티모달 모델"),
+    ("T10036", "AI·신경망 응용"),
+    ("T12026", "AI·설명 가능한 AI"),
 ]
+# AI 연구 블로그·뉴스 RSS 와 AI 유튜브 채널 공개 피드(키 불필요). 2026-10-11 실호출 확인.
 RSS_FEEDS = [
-    ("IEEE Spectrum Robotics", "https://spectrum.ieee.org/feeds/topic/robotics.rss"),
-    ("The Robot Report", "https://www.therobotreport.com/feed/"),
+    ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
+    ("OpenAI News", "https://openai.com/news/rss.xml"),
+    ("Google Research Blog", "https://research.google/blog/rss/"),
+    ("MIT Technology Review AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
+    ("YouTube · Two Minute Papers", "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"),
+    ("YouTube · Yannic Kilcher", "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew"),
+    ("YouTube · AI Explained", "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw"),
+    ("YouTube · Google DeepMind", "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"),
+    ("YouTube · OpenAI", "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"),
 ]
+ATOM = "{http://www.w3.org/2005/Atom}"
+MEDIA = "{http://search.yahoo.com/mrss/}"
 MAX_PER_SOURCE = 25
 
 
@@ -262,6 +280,16 @@ def collect_rss(previous=None) -> dict:
                         got.append({"title": title, "summary": clean(it.findtext("description"))[:400],
                                     "published": clean(it.findtext("pubDate")),
                                     "url": clean(it.findtext("link")), "feed": name, "source": "rss"})
+                # 유튜브 채널 피드는 Atom 이다(entry/link@href, media:description).
+                for en in root.findall(f"{ATOM}entry")[:MAX_PER_SOURCE]:
+                    title = clean(en.findtext(f"{ATOM}title"))
+                    link = en.find(f"{ATOM}link")
+                    if title:
+                        desc = en.find(f"{MEDIA}group/{MEDIA}description")
+                        got.append({"title": title, "summary": clean(desc.text if desc is not None else "")[:400],
+                                    "published": clean(en.findtext(f"{ATOM}published")),
+                                    "url": link.get("href") if link is not None else "", "feed": name,
+                                    "source": "youtube" if "youtube.com" in url else "rss"})
                 if not got:
                     raise ValueError("no usable RSS items")
                 captured = captured_rows(got, name, url)
@@ -288,11 +316,12 @@ def main() -> int:
     OUT.write_text(json.dumps({
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "generator": "scripts/collect_robotics.py",
-        "목적": ("옵시디언 주제 '로보틱스' 가 3건뿐이던 문제를 해결한다. "
-               "분류기는 정상이었고 수집원에 로봇 자료가 없었던 것이 원인이다."),
+        "목적": ("2026-10-11 사용자 지시로 로보틱스 대신 AI 자료를 모은다: "
+               "AI 논문(arXiv via OpenAlex), AI 연구 블로그·뉴스 RSS, AI 유튜브 채널."),
+        "topic": "AI",
         "접근_정책": ("arXiv 은 프로그램 접근용 export.arxiv.org 를 제공하며 "
                   "그 주소만 사용하고 요청 간 3초를 둔다. "
-                  "RSS 두 곳은 robots.txt 허용을 확인했다."),
+                  "RSS·유튜브 채널 피드는 공개 피드 주소만 쓴다."),
         "total": total,
         "sources": {"arxiv": arx, "rss": rss},
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

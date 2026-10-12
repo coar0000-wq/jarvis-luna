@@ -2,7 +2,7 @@
 title: "Record ede1490159 · Online-storefronts-RIP-Why-the-rumors-of-death-are-greatly-exaggerated"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:35.792774+00:00
+updated_at: 2026-10-12T06:26:26.650943+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["이커머스Shopify"]

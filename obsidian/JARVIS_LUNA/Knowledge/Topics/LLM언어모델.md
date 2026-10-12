@@ -2,24 +2,24 @@
 title: "LLM·언어모델"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:56.466491+00:00
+updated_at: 2026-10-11T22:24:15.175997+00:00
 tags: [topic, real-data]
-record_count: 425
+record_count: 497
 ---
 
 # LLM·언어모델
 
-실제 수집 레코드 **425건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **497건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 소스별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[Source--arXiv]] | 220 |
+| [[Source--arXiv]] | 223 |
 | [[Source--institutions]] | 150 |
-| [[Source--robotics]] | 30 |
+| [[Source--robotics]] | 98 |
 | [[Source--YouTube]] | 19 |
-| [[Source--Google-Search]] | 6 |
+| [[Source--Google-Search]] | 7 |
 
 ### 최근 레코드 12건
 

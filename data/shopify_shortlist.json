@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T10:51:40.049737+00:00",
+  "generated_at": "2026-10-12T04:07:59.479157+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -13,11 +13,10 @@
     "dedupe": "미국 근거 상품 하나당 단위 하나",
     "sticky": "기존 단위는 밀려나지 않음"
   },
-  "active_unit_count": 4,
+  "active_unit_count": 3,
   "active_pd_nos": [
     "1049275",
     "1049276",
-    "1049285",
     "1055167",
     "1067498"
   ],
@@ -112,23 +111,9 @@
       "pd_nos": [
         "1049285"
       ],
-      "canonical_product_ids": [
-        "CP000109"
-      ],
-      "names": [
-        "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입"
-      ],
-      "eligible_pd_nos": [],
-      "business_ready": false,
-      "score": 92,
-      "evidence": {
-        "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
-        "channel": "amazon_new_beauty",
-        "similarity": 0.7
-      },
       "added_at": "2026-09-30T14:53:35.834094+00:00",
-      "status": "active",
-      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: price"
+      "status": "paused",
+      "note": "스토어 대상에서 일시 제외: S등급·게이트 대상에서 빠짐"
     },
     {
       "unit_id": "VG-CP000151",
@@ -142,26 +127,15 @@
   ],
   "not_selected": [
     {
-      "unit_id": "VG-CP000251",
+      "unit_id": "VG-CP000230",
       "pd_nos": [
-        "1072554"
+        "1068721"
       ],
       "names": [
-        "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml"
+        "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml"
       ],
-      "score": 96,
-      "reason": "미국 매칭 유사도 0.68 < 0.7"
-    },
-    {
-      "unit_id": "VG-CP000270",
-      "pd_nos": [
-        "1075857"
-      ],
-      "names": [
-        "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매"
-      ],
-      "score": 94,
-      "reason": "게이트 초안 미준비: price"
+      "score": 93,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, price, us_label"
     },
     {
       "unit_id": "VG-CP000125",
@@ -175,25 +149,25 @@
       "reason": "게이트 초안 미준비: copy, legal"
     },
     {
-      "unit_id": "VG-CP000071",
+      "unit_id": "VG-CP000267",
       "pd_nos": [
-        "1042246"
+        "1074979"
       ],
       "names": [
-        "오릭스 퍼퓸 바디로션 500 ml 히노끼향"
+        "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너"
       ],
-      "score": 83,
+      "score": 85,
       "reason": "게이트 초안 미준비: copy, gosi, legal, price, us_label"
     },
     {
-      "unit_id": "VG-CP000256",
+      "unit_id": "VG-CP000231",
       "pd_nos": [
-        "1072800"
+        "1068733"
       ],
       "names": [
-        "줌 바이 정샘물 세범다운 쿠션"
+        "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g"
       ],
-      "score": 75,
+      "score": 82,
       "reason": "게이트 초안 미준비: copy, gosi, legal, price, us_label"
     }
   ],

@@ -628,12 +628,30 @@ class ConfigAlignmentTests(unittest.TestCase):
         self.assertEqual([x["pd_no"] for x in view], ["200"])
 
     def test_manufacturer_safety_coverage_is_per_product(self):
+        from test_manufacturer_safety import synthetic_receipt
         docs = self.docs()
-        docs["mocra_business"] = {"safety_substantiation": {"covered_pd_nos": ["200"]}}
-        r = build(docs)
-        self.assertTrue(product(r, "200")["manufacturer_safety_record_covered"])
-        self.assertFalse(product(r, "100")["manufacturer_safety_record_covered"])
-        self.assertNotIn("manufacturer_safety_record_missing", product(r, "200")["live_selection_preview"]["all_blockers"])
+        docs["mocra_business"] = {"safety_substantiation": {"covered_pd_nos": ["200"],
+            "scope": "all_daiso_products", "verified_by": "SYNTHETIC OWNER", "verified_at": "2026-01-01"}}
+        self.assertFalse(product(build(docs), "200")["manufacturer_safety_record_covered"])
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            receipt = synthetic_receipt(root, "200")
+            (root / "data/manual/mocra_business.json").write_text(
+                json.dumps(docs["mocra_business"]), encoding="utf-8")
+            (root / "data/manual/manufacturer_safety_evidence.private.json").write_text(
+                json.dumps({"schema_version": 1, "records": [receipt]}), encoding="utf-8")
+            self.assertTrue(bps.manufacturer_safety_record("200", root)["covered"])
+            docs["manufacturer_safety_record_views"] = {
+                "200": bps.safety_public_view(bps.manufacturer_safety_record("200", root)),
+                "100": bps.safety_public_view(bps.manufacturer_safety_record("100", root))}
+            r = build(docs)
+            self.assertTrue(product(r, "200")["manufacturer_safety_record_covered"])
+            self.assertFalse(product(r, "100")["manufacturer_safety_record_covered"])
+            self.assertNotIn("manufacturer_safety_record_missing", product(r, "200")["live_selection_preview"]["all_blockers"])
+            (root / receipt["file"]).unlink()
+            docs["manufacturer_safety_record_views"]["200"] = bps.safety_public_view(
+                bps.manufacturer_safety_record("200", root))
+            self.assertFalse(product(build(docs), "200")["manufacturer_safety_record_covered"])
 
     def test_volume_tolerance_from_config(self):
         near = self.docs(market_items=[oy_item("Acme Glow Serum 31ml", 40.0, ship=0.0)], own_price=5.0)  # 3.2% off

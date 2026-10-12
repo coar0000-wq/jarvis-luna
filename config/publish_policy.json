@@ -215,5 +215,25 @@
     "poetry.lock",
     "Pipfile",
     "Pipfile.lock"
+  ],
+  "non_operations_runtime_commands": [
+    [
+      "scripts/ingest_obsidian_data.py",
+      "--root",
+      "."
+    ],
+    [
+      "scripts/health_check_v2.py"
+    ],
+    [
+      "scripts/generate_dashboard_runtime.py"
+    ],
+    [
+      "scripts/run_jarvis_agents.py",
+      "--force"
+    ],
+    [
+      "scripts/build_team_improvement.py"
+    ]
   ]
 }

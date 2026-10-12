@@ -172,10 +172,11 @@ jobs:
       # -------------------------------------------------------
       # 환율 갱신
       # -------------------------------------------------------
+      # 2026-10-11: sync_channels 의 단일 출처 환율은 대조 목록·api_url 필드를 지워
+      # 발행이 'identity/field removal' 로 막혔다. 표준 수집기(두 곳 대조, 기준일 후퇴 금지)를 쓴다.
       - name: 환율 갱신
         continue-on-error: true
-        run: |
-          python -c "import sync_channels as s; s.fetch_and_update_fx_status()"
+        run: python -u scripts/fetch_fx_rate.py
 
       # -------------------------------------------------------
       # OliveYoung US 시장가
@@ -513,6 +514,9 @@ jobs:
       # 공통 publish 액션이 최신 main 위에 이번 실행의
       # 변경 파일만 안전하게 얹는다.
       # -------------------------------------------------------
+      - name: 환율·파생 상태 보고서 교체 사유 기록 (가드 유지)
+        run: python -B scripts/collector_snapshot_history.py data/daiso_real/collection_status.json data/agents/daiso_pipeline_health.json
+
       - name: 산출물 발행
         uses: ./.github/actions/publish
         with:

@@ -589,6 +589,7 @@ def score_one(p: dict, signals: list[dict], *, market_listings=None) -> dict:
         "pd_no": p.get("pd_no"),
         "name": name,
         "bucket": bucket,
+        "site_category": p.get("site_category"),
         "rebucketed": bool(rebucket_note),
         "price_krw": p.get("price_krw"),
         "rating": rating,
@@ -664,7 +665,46 @@ def _load_desks() -> dict:
 CATEGORY_DESKS = _load_desks()
 
 
-def desk_of(bucket: str) -> str | None:
+def _load_desk_scope() -> tuple[dict, dict]:
+    """다이소몰 카테고리 목록(desk_catalog.json)과 config 의 전담팀 소분류 이름."""
+    root = Path(__file__).resolve().parents[2]
+    member, cats = {}, {}
+    try:
+        cfg = json.loads((root / "config" / "daiso_commerce_strategy.json").read_text(encoding="utf-8"))
+        for tag, spec in (cfg.get("category_desks") or {}).items():
+            if tag in DESK_NAME and isinstance(spec, dict):
+                cats[tag] = {c.get("name") for c in spec.get("categories") or [] if isinstance(c, dict)}
+    except (OSError, ValueError, TypeError):
+        pass
+    try:
+        cat = json.loads((root / "data" / "daiso_real" / "desk_catalog.json").read_text(encoding="utf-8"))
+        for tag, info in (cat.get("desks") or {}).items():
+            if tag in DESK_NAME:
+                for p in info.get("products") or []:
+                    member.setdefault(str(p.get("pd_no")), tag)
+    except (OSError, ValueError, TypeError, AttributeError):
+        pass
+    return member, cats
+
+
+DESK_MEMBER, DESK_SITE_CATEGORIES = _load_desk_scope()
+
+
+def desk_of(bucket: str, pd_no: str | None = None, site_category: str | None = None) -> str | None:
+    """전담팀 판정 (사용자 지시 2026-10-11: 다이소몰 카테고리 목록 그대로).
+
+    1) 다이소몰 카테고리 목록(desk_catalog.json)에 있으면 그 전담팀
+    2) 목록에 없으면 상품 상세의 소분류(site_category)가 전담팀 소분류인지
+    3) 목록·소분류 정보가 아예 없을 때만 예전 버킷 기준
+    """
+    if pd_no and str(pd_no) in DESK_MEMBER:
+        return DESK_MEMBER[str(pd_no)]
+    if DESK_SITE_CATEGORIES:
+        for tag, names in DESK_SITE_CATEGORIES.items():
+            if site_category and site_category in names:
+                return tag
+        if DESK_MEMBER or site_category:
+            return None
     for tag, buckets in CATEGORY_DESKS.items():
         if bucket in buckets:
             return tag
@@ -674,7 +714,7 @@ def desk_of(bucket: str) -> str | None:
 def desk_promote(rows) -> None:
     """메이크업·바디 전담팀 기준: 미국 실판매 근거 + 전담팀 최소 점수면 S 후보로 올린다."""
     for r in rows:
-        desk = desk_of(r.get("bucket") or "")
+        desk = desk_of(r.get("bucket") or "", r.get("pd_no"), r.get("site_category"))
         r["desk"] = desk
         if desk not in DESK_MIN_SCORE or r.get("grade") == "S":
             continue
@@ -714,10 +754,11 @@ def assign_grades(rows, s_ratio=0.06):
     cands.sort(key=lambda r: (-r["shopify_score"], -(r.get("us_market_hits") or 0)))
     seen, kept = {}, []
     for r in cands:
-        f = _form(r["name"])
+        # 동일 제형 상위 2개 제한은 전담팀 안에서만 센다(메이크업 크림 브라이트너가 스킨케어 크림에 밀리지 않게).
+        f = (r.get("desk") or "", _form(r["name"]))
         if seen.get(f, 0) >= 2:
             r["grade"] = "A"
-            r["downgrade_reason"] = "동일 제형(%s) 상위 2개에 밀림" % f
+            r["downgrade_reason"] = "동일 제형(%s) 상위 2개에 밀림" % f[1]
             r["s_rule"] = "form_cap"
             continue
         # 글로벌 매칭이 이미 강하면 US 목록 0건이어도 유지

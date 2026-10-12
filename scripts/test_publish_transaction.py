@@ -252,6 +252,73 @@ class GitTransactionTests(unittest.TestCase):
     def tip(self):return pub.git(self.remote,'rev-parse','refs/heads/main').stdout.decode().strip()
     def transaction(self, cls=FixtureTransaction, **kwargs):return cls(self.local,'data','fixture publication',**kwargs)
 
+    def test_unverified_operations_delta_rejected_before_overlay(self):
+        for name in ('data/operations/state.json', 'data/operations/reports/private/board/evidence.bin'):
+            with self.subTest(name=name), patch.dict(os.environ, {'GITHUB_ACTIONS':'true', 'JARVIS_OPERATIONS_CONTINUITY':''}):
+                p=self.local/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(b'forbidden')
+                with patch.object(pub, 'overlay') as overlay, self.assertRaises(pub.PublishError):
+                    self.transaction().run()
+                overlay.assert_not_called()
+                p.unlink()
+
+    def test_generated_extra_operations_delta_rejected_before_any_stage(self):
+        self.add_local()
+        with patch.dict(os.environ, {'GITHUB_ACTIONS':'true', 'JARVIS_OPERATIONS_CONTINUITY':''}):
+            tx=self.transaction()
+        dump(self.other,'data/operations/reports/private/board/new.json',{'bad':True})
+        # generated_extra permits this prefix for full publication, not this profile.
+        with patch.object(pub, 'git', wraps=pub.git) as calls, self.assertRaises(pub.PublishError):
+            tx.stage(self.other)
+        self.assertFalse(any('add' in c.args for c in calls.call_args_list))
+
+    def test_non_operations_profile_preserves_all_fetched_remote_bytes(self):
+        names={'data/operations/state.bin':b'\x00\xffremote\r\n',
+               'data/operations/reports/private/board/latest.json':b'{ "unmodified": true }\n'}
+        for name,value in names.items():
+            p=self.other/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(value)
+        pub.git(self.other,'add','data');pub.git(self.other,'commit','-m','remote operations fixture');pub.git(self.other,'push','origin','main')
+        self.add_local()
+        with patch.dict(os.environ, {'GITHUB_ACTIONS':'true', 'JARVIS_OPERATIONS_CONTINUITY':''}):
+            result=self.transaction().run()
+        self.assertEqual(result['publication_profile'],'non_operations')
+        self.assertEqual(result['operations_producer_status'],'excluded_by_profile')
+        self.assertNotIn(['scripts/run_jarvis_operations.py'],result['declared_runtime_commands'])
+        self.assertEqual(result['executed_commands'],[])  # fixture override is not execution evidence
+        for name,value in names.items():self.assertEqual(pub.at_ref(self.remote,'main',name),value)
+
+    def test_non_operations_generator_mutation_fails_closed(self):
+        class BadGenerator(FixtureTransaction):
+            def regenerate_and_validate(self,work,*args):
+                dump(work,'data/operations/reports/private/board/extra.json',{'bad':True})
+        self.add_local();before=self.tip()
+        with patch.dict(os.environ, {'GITHUB_ACTIONS':'true', 'JARVIS_OPERATIONS_CONTINUITY':''}):
+            with self.assertRaises(pub.PublishError):self.transaction(BadGenerator).run()
+        self.assertEqual(self.tip(),before)
+
+    def test_profile_runtime_dispatch_and_actual_producer_status(self):
+        self.add_local()
+        for env,profile,expected in (({'GITHUB_ACTIONS':'true','JARVIS_OPERATIONS_CONTINUITY':''},'non_operations',POLICY['non_operations_runtime_commands']),
+                                     ({'GITHUB_ACTIONS':'true','JARVIS_OPERATIONS_CONTINUITY':'verified'},'full',POLICY['runtime_commands']),
+                                     ({'GITHUB_ACTIONS':'false','JARVIS_OPERATIONS_CONTINUITY':''},'full',POLICY['runtime_commands'])):
+            with self.subTest(profile=profile,env=env), patch.dict(os.environ,env):
+                tx=pub.Transaction(self.local,'data','fixture',audit=False)
+                reports=self.folder/'reports';reports.mkdir(exist_ok=True)
+                with patch.object(pub.subprocess,'run') as run:
+                    run.return_value.returncode=0
+                    tx.regenerate_and_validate(self.other,self.local,None,reports)
+                self.assertEqual(tx.executed_commands[:len(expected)],expected)
+                self.assertEqual(tx.result()['operations_producer_status'],'executed' if profile=='full' else 'excluded_by_profile')
+                self.assertEqual(tx.executed_commands[-2:],[['scripts/check_release_quality.py','--phase',phase,'--root',str(self.other),'--baseline',str(self.local),'--report',str(reports/f'{phase}.json')] for phase in ('candidate','final')])
+
+    def test_operations_command_never_silently_skips(self):
+        with patch.dict(os.environ, {'GITHUB_ACTIONS':'true', 'JARVIS_OPERATIONS_CONTINUITY':''}):
+            tx=self.transaction()
+            with patch.object(pub.subprocess,'run') as run:
+                run.return_value.returncode=17
+                with self.assertRaises(pub.PublishError):tx.command(self.other,['scripts/run_jarvis_operations.py'])
+            run.assert_called_once()
+            self.assertEqual(tx.executed_commands,[])
+
     def test_distinct_products_and_unrelated_remote_changes_preserved(self):
         self.add_local();self.add_remote();tx=self.transaction();result=tx.run()
         self.assertEqual(result['status'],'published')

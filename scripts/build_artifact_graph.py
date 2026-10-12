@@ -311,6 +311,7 @@ def scripts_in_text(text: str) -> list[str]:
 
 _PUBLISH_WRAPPER = "scripts/publish_transaction.py"
 _RUNTIME_CHAIN = [["scripts/ingest_obsidian_data.py","--root","."],["scripts/health_check_v2.py"],["scripts/generate_dashboard_runtime.py"],["scripts/run_jarvis_agents.py","--force"],["scripts/run_jarvis_operations.py"],["scripts/build_team_improvement.py"]]
+_NON_OPERATIONS_RUNTIME_CHAIN = [args for args in _RUNTIME_CHAIN if args[0] != "scripts/run_jarvis_operations.py"]
 _COMMERCE_CHAIN = [["scripts/build_product_master.py"],["scripts/daiso/score_shopify_demand.py"],["scripts/build_product_master.py","--inject-s"],["scripts/pricing_model.py"],["scripts/check_legal_products.py"],["scripts/build_legal_full.py"],["scripts/build_listing_gate.py"],["scripts/build_product_master.py","--inject-s"],["scripts/build_shopify_shortlist.py"],["scripts/build_mocra_readiness.py"],["scripts/build_listing_gate.py"],["scripts/build_market_team.py"],["scripts/export_shopify_operational.py","--blocked-noop"],["scripts/build_shopify_action_queue.py"],["scripts/discover_channels.py","--cached-only"],["scripts/build_beauty_price_strategy.py","--as-of","now","--output","data/beauty_price_strategy.json","--overwrite"]]
 
 def _ast_matches(node, expression):
@@ -344,6 +345,8 @@ def publish_wrapper_contract(action_text):
     policy = json.loads(policy_file.read_text(encoding="utf-8"))
     if policy.get("runtime_commands") != _RUNTIME_CHAIN or policy.get("commerce_commands") != _COMMERCE_CHAIN:
         raise ValueError("publish graph contract: required ordered producer chain changed")
+    if policy.get("non_operations_runtime_commands") != _NON_OPERATIONS_RUNTIME_CHAIN:
+        raise ValueError("publish graph contract: non-operations ordered chain changed")
     for key in ("commerce_inputs", "derived_paths", "candidate_protected"):
         if not isinstance(policy.get(key), list) or not policy[key]:
             raise ValueError(f"publish graph contract: missing {key}")
@@ -353,7 +356,7 @@ def publish_wrapper_contract(action_text):
     tree = ast.parse(wrapper.read_text(encoding="utf-8-sig"))
     cls = next((n for n in tree.body if isinstance(n, ast.ClassDef) and n.name == "Transaction"), None)
     methods = {n.name: n for n in cls.body if isinstance(n, ast.FunctionDef)} if cls else {}
-    if not {"__init__", "command", "candidate_only", "regenerate_and_validate", "run", "stage", "push"} <= methods.keys():
+    if not {"__init__", "command", "candidate_only", "regenerate_and_validate", "run", "stage", "push", "reject_operations_delta", "operations_snapshot", "verify_operations_unchanged"} <= methods.keys():
         raise ValueError("publish graph contract: required functions absent")
     main = next((n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == "main"), None)
     if not main or not any(isinstance(n, ast.Call) and isinstance(n.func, ast.Attribute) and n.func.attr == "run"
@@ -367,6 +370,14 @@ def publish_wrapper_contract(action_text):
     if not any(isinstance(n, ast.Constant) and n.value == "config/publish_policy.json" for n in ast.walk(methods["__init__"])):
         raise ValueError("publish graph contract: policy loader absent")
     command = methods["command"]
+    if any(isinstance(n, ast.Return) for n in ast.walk(command)):
+        raise ValueError("publish graph contract: producer command may not silently return")
+    if not any(isinstance(n, ast.Call) and _ast_matches(n.func, "subprocess.run") for n in ast.walk(command)):
+        raise ValueError("publish graph contract: actual subprocess dispatch absent")
+    if not any(isinstance(n, ast.Assign) and _ast_matches(n.value,
+            "('non_operations' if os.environ.get('GITHUB_ACTIONS') == 'true' and os.environ.get('JARVIS_OPERATIONS_CONTINUITY') != 'verified' else 'full')")
+            and any(isinstance(t, ast.Attribute) and t.attr == "publication_profile" and _ast_matches(t.value, "self") for t in n.targets) for n in methods["__init__"].body):
+        raise ValueError("publish graph contract: profile selection changed")
     if not any(isinstance(n, ast.If) and _ast_matches(n.test, "p.returncode")
                and any(isinstance(c, ast.Raise) for c in n.body) for n in command.body):
         raise ValueError("publish graph contract: command failure propagation absent")
@@ -384,12 +395,21 @@ def publish_wrapper_contract(action_text):
     dispatch_lines = []
     for test, key in (("commerce", "commerce_commands"), ("relevant or self.regenerate_dashboard", "runtime_commands")):
         guard = next((n for n in regen.body if isinstance(n, ast.If) and _ast_matches(n.test, test)), None)
-        if not guard or len(guard.body) != 1 or not isinstance(guard.body[0], ast.For):
+        if not guard or len(guard.body) != 1:
             raise ValueError("publish graph contract: required conditional dispatch absent")
-        loop = guard.body[0]
-        if (not _ast_matches(loop.iter, f"self.policy['{key}']") or len(loop.body) != 1
-                or not isinstance(loop.body[0], ast.Expr) or not _ast_matches(loop.body[0].value, "self.command(work, args)")):
-            raise ValueError("publish graph contract: declared ordered chain not executed")
+        if key == "runtime_commands":
+            profile = guard.body[0]
+            if (not isinstance(profile, ast.If) or not _ast_matches(profile.test, "self.publication_profile == 'non_operations'")
+                    or len(profile.body) != 1 or len(profile.orelse) != 1):
+                raise ValueError("publish graph contract: explicit profile dispatch absent")
+            loops = [(profile.body[0], "non_operations_runtime_commands"), (profile.orelse[0], key)]
+        else:
+            loops = [(guard.body[0], key)]
+        for loop, selected_key in loops:
+            if (not isinstance(loop, ast.For) or not _ast_matches(loop.iter, f"self.policy['{selected_key}']")
+                    or len(loop.body) != 1 or not isinstance(loop.body[0], ast.Expr)
+                    or not _ast_matches(loop.body[0].value, "self.command(work, args)")):
+                raise ValueError("publish graph contract: declared ordered chain not executed")
         dispatch_lines.append(guard.lineno)
     quality = next((n for n in regen.body if isinstance(n, ast.For) and isinstance(n.target, ast.Name) and n.target.id == "phase"
                     and _ast_matches(n.iter, "('candidate', 'final')")), None)
@@ -408,9 +428,16 @@ def publish_wrapper_contract(action_text):
         raise ValueError("publish graph contract: final merged-root gate or execution order changed")
     calls = [(n.lineno, n.func.attr) for n in ast.walk(methods["run"]) if isinstance(n, ast.Call)
              and isinstance(n.func, ast.Attribute) and isinstance(n.func.value, ast.Name) and n.func.value.id == "self"]
+    if not (isinstance(methods["run"].body[0], ast.Expr)
+            and _ast_matches(methods["run"].body[0].value, "self.reject_operations_delta(self.delta)")):
+        raise ValueError("publish graph contract: pre-overlay operations boundary absent")
+    if not any(isinstance(n, ast.Call) and _ast_matches(n, "self.reject_operations_delta(names - {''})")
+               for n in ast.walk(methods["stage"])):
+        raise ValueError("publish graph contract: pre-stage operations boundary absent")
     order = [min((line for line, name in calls if name == method), default=0)
              for method in ("regenerate_and_validate", "stage", "push")]
-    if not 0 < order[0] < order[1] < order[2]:
+    invariant_line = min((line for line, name in calls if name == "verify_operations_unchanged"), default=0)
+    if not 0 < order[0] < invariant_line < order[1] < order[2]:
         raise ValueError("publish graph contract: validation must precede stage/push")
     return policy
 
@@ -446,13 +473,27 @@ def _transaction_profiles(text, policy, scripts):
             commands = list(policy["commerce_commands"]) if commerce else []
             if candidate and _graph_path_allowed("data/daiso_real/candidate_pool.json", paths):
                 commands += [["scripts/build_daiso_candidate_comparison.py"]]
-            commands += policy["runtime_commands"]
+            env = dict(doc.get("env") or {})
+            env.update(job.get("env") or {})
+            env.update(step.get("env") or {})
+            # Workflow declaration is conditional coverage, never execution proof.
+            profile_name = 'full' if env.get('JARVIS_OPERATIONS_CONTINUITY') == 'verified' else 'non_operations'
+            runtime = policy["runtime_commands"] if profile_name == 'full' else policy["non_operations_runtime_commands"]
+            commands += runtime
             commands += [["scripts/check_release_quality.py", "--phase", p] for p in ("candidate", "final")]
             if str(params.get("audit", "true")).lower() == "true":
                 commands.append([AUDIT_SCRIPT])
             profiles.append({"step": step.get("name"), "condition": step.get("if"), "paths": paths,
                              "candidate_only": candidate, "commerce_regeneration": commerce,
                              "commerce_triggers": triggers, "commands": commands,
+                             "publication_profile": profile_name,
+                             "declared_runtime_commands": runtime,
+                             "producer_status": "declared_conditional_not_execution_evidence",
+                             "operations_producer_status": ("declared_requires_verified_continuity" if profile_name == 'full'
+                                                            else "excluded_by_profile"),
+                             "profile_selection": "GITHUB_ACTIONS=true and JARVIS_OPERATIONS_CONTINUITY!=verified selects non_operations",
+                             "profile_variants": {"full": policy["runtime_commands"],
+                                                  "non_operations": policy["non_operations_runtime_commands"]},
                              "runtime_condition": "nonempty source delta or requested regeneration; no-change skips publication"})
     return profiles
 
@@ -540,7 +581,7 @@ def build_graph() -> dict:
     terminal: set[str] = set()
     publish_text = PUBLISH_ACTION.read_text(encoding="utf-8-sig") if PUBLISH_ACTION.exists() else ""
     contract = publish_wrapper_contract(publish_text)
-    terminal_scripts = ([args[0] for args in contract["runtime_commands"]] if contract
+    terminal_scripts = ([args[0] for args in contract["non_operations_runtime_commands"]] if contract
                         else scripts_in_text(publish_text))
     # Conditional commerce chains are not global terminals: their stale edges
     # must remain visible in unrelated and candidate-only publications.

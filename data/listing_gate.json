@@ -1,64 +1,63 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-11T10:51:40.407106+00:00",
+  "generated_at": "2026-10-12T04:07:59.640773+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "ab004af3cfd506d48a0b42ef11688b461ccb8ba9c409e20e374ea4f08513588f",
-      "data/gosi.json": "87f2084c787dae8dd0fcebb1c973ec67c256b9356fc2ab07bde1000c10addd09",
-      "data/daiso_real/daiso_us_labels.json": "e28a9ecae40ad577a612255d0464b3bf7bcc0150c877250c2fe6775997cb6b7b",
-      "data/pricing_model.json": "75c2f4e710e707447fa236053226535fdad30ea494ce2df1eae7749740fbadf4",
-      "data/legal_products.json": "a58a97fc772d2ec6573862185e2b592d42f65c5f3a1ae4b93ff89a8c605dd080",
-      "data/daiso_real/shopify_s_recommendations.json": "e3019ab2b16801d5e2a4318f15fda5324dc3303f85101ff46fe8b15962b1ab40",
+      "data/product_master.json": "7cb0fd2ec973e5f39ca2952a2ae4697ce1808337a23ef2b78de6a1973e9e8567",
+      "data/gosi.json": "9957b715738857ece0929e82a179e94fb54bf1ce3527ccac08895cbbf14204ae",
+      "data/daiso_real/daiso_us_labels.json": "d7a79995a77dbfa56f0bd8bc921447df00d502fc9eda7c94c933457be6aae564",
+      "data/pricing_model.json": "7bc1d0e1426bba679c7fdc55861d9b278f3141210efbec978fa690491fd943eb",
+      "data/legal_products.json": "03c061862b3ca83c4533aac36a6b72c4492d24e2d9663a87f8aa547ee29818eb",
+      "data/daiso_real/shopify_s_recommendations.json": "04c679e51d8ed4909214ef70555ec0849e08981845fd0011d9752bf6545f4095",
       "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-      "data/shopify_shortlist.json": "16dcc3c55713a6e5c3b5eb2e08b34e42d0074a5e9f006a77ea8dc916730dc099",
-      "data/legal_full.json": "fd62adafefcd9a4298f8734834b55e1f1e449262e5540b7ccd73cd0b0257b837",
-      "data/mocra_readiness.json": "afeedc8942d57977abd214b5789a10bf7a7d2ae945d054b5d7e52c3f9b6236ed",
+      "data/shopify_shortlist.json": "4adf41dbaf2a83aaeddb41e440c42d4a16b309567d21c34d73ce3949dd7593d0",
+      "data/legal_full.json": "0276073f4346fda98b353aa0be77213ec08fdd1511f974b80269ef0daa82ec25",
+      "data/mocra_readiness.json": "4e2ecc698259bf08fb6e65a02018dc8c3dd79b4e0b05e88c0361b361614b1e3e",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
-      "data/manual/mocra_business.json": "e0d217b54a6519ba82401a67aad3cdaba860c993a0914ac51fea9ef8b268b5a4",
+      "data/manual/mocra_business.json": "1df96ae3c0b150bfa3d333426895ff5f83196e0206290563b7c1dacf033cd802",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-      "config/daiso_commerce_strategy.json": "d0ec7d5353e29f1994ad7f27932042e2f1e221f6ffdfc31cb0ba4f36b879f9a9",
-      "masked/manufacturer_safety_record": "0b16d5d58ddb606c5b34e2cfb8f3a4a216f5ac333e304b559baddf78494401ca",
+      "config/daiso_commerce_strategy.json": "beba67eaf6f383bc10cd709d03e9540cbe1c861af149bd850063367ae68855c2",
+      "masked/manufacturer_safety_record": "62e00718e18c30ce90468556ba05f050eaa50c67180f0cc14b930e317ed235b3",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "789b6972a5c8ed258b272c67f11f4e59c09a4e8a9cbce8d0fab55f8aa249e1b7"
+    "recommendations_sha256": "9bbbc6619ff3418e6b1dcdfa6295091a4469067fb1864e242750b7ac50d0eca6"
   },
-  "total": 10,
-  "agent_ready": 4,
-  "ready": 4,
-  "draft_ready": 4,
-  "public_ready": 4,
+  "total": 8,
+  "agent_ready": 3,
+  "ready": 3,
+  "draft_ready": 3,
+  "public_ready": 3,
   "counts": {
-    "ontology": 10,
-    "copy": 7,
-    "gosi": 8,
-    "us_label": 8,
-    "price": 5,
-    "legal": 6,
-    "manufacturer_safety_record": 9,
-    "legal_full": 6
+    "ontology": 8,
+    "copy": 4,
+    "gosi": 5,
+    "us_label": 5,
+    "price": 4,
+    "legal": 3,
+    "manufacturer_safety_record": 8,
+    "legal_full": 3
   },
   "blockers": {
-    "copy": 3,
-    "gosi": 2,
-    "us_label": 2,
-    "price": 5,
-    "legal": 4,
-    "manufacturer_safety_record": 1
+    "copy": 4,
+    "gosi": 3,
+    "us_label": 3,
+    "price": 4,
+    "legal": 5
   },
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "9cf9a77e191b12e3cfd94da0008299aa297dc4f3dbc6b94601373870409063ee",
+    "strategy_sha256": "7132fdc4322486736834632111846bc611ab0403854362f4bb24be034bf5267b",
     "margin_hard_block": false,
-    "products_with_profit_warnings": 6,
+    "products_with_profit_warnings": 2,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
   },
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "disabled_local_advisory": 10
+      "disabled_local_advisory": 8
     },
     "typesafe_calls": null,
     "free_credits_only": 0,
@@ -73,7 +72,7 @@
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 검증된 계정의 무료 크레딧 증빙과 공유 누적 한도 내에서만 가능하며 유료 override는 없다."
   },
-  "count": 10,
+  "count": 8,
   "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
   "items": [
     {
@@ -319,26 +318,23 @@
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "covered": true,
+        "reason": null
       },
       "agent_ready": false,
       "agent_blocked_by": [
         "price",
-        "legal",
-        "manufacturer_safety_record_missing"
+        "legal"
       ],
       "ready": false,
       "blocked_by": [
         "price",
-        "legal",
-        "manufacturer_safety_record_missing"
+        "legal"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "price",
         "legal",
-        "manufacturer_safety_record_missing",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -352,7 +348,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 7,
+        "risk_points": 6,
         "team_routes": [
           "legal",
           "pricing"
@@ -360,8 +356,8 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price, legal, manufacturer_safety_record_missing",
-          "public blockers: price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: price, legal",
+          "public blockers: price, legal, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -464,73 +460,76 @@
     },
     {
       "rank": 5,
-      "canonical_product_id": "CP000251",
-      "pd_no": "1072554",
-      "product_id": "1072554",
-      "name": "[탄력리프팅]본셉 레티놀 탄력샷 바디괄사 세럼 100 ml",
+      "canonical_product_id": "CP000230",
+      "pd_no": "1068721",
+      "product_id": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
       "category": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 96,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072554",
-      "copy": {
-        "title": "Voncept Retinol Firming Shot Body Guasha Serum 100ml",
-        "description_html": "<p>Discover the Voncept Retinol Firming Shot Body Guasha Serum, designed to help improve skin firmness and elasticity. This 100ml body serum combines the benefits of a targeted formula with an easy-to-use application.</p><p>Incorporate this body serum into your daily routine for smoother-looking skin and an overall refreshed appearance. Perfect for regular body care maintenance.</p>",
-        "seo_title": "Voncept Retinol Firming Shot Body Guasha Serum 100ml",
-        "seo_description": "Shop the Voncept Retinol Firming Shot Body Guasha Serum 100ml. A smoothing body serum formulated to support skin firmness and elasticity.",
-        "tags": [
-          "body-serum",
-          "retinol-serum",
-          "firming-serum",
-          "korean-beauty",
-          "body-care",
-          "guasha-serum",
-          "voncept"
-        ],
-        "product_type": "Body Serum"
-      },
-      "copy_status": "ok",
+      "shopify_score": 93,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+      "copy": {},
+      "copy_status": "missing",
       "gosi": {
-        "volume": "100ml",
-        "maker": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 부틸렌글라이콜, 다이메티콘, 세테아릴알코올, 세틸에틸헥사노에이트, 바쿠치올, 레티놀(100 IU/g), 폴리글리세릴-3메틸글루코오스다이스테아레이트, 글리세릴스테아레이트, 하이드록시아세토페논, 트로",
-        "gosi_ok": true
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
       },
       "us_label": {
-        "net_contents": "100ml",
-        "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Butylene Glycol, Dimethicone, Cetearyl Alcohol, Cetyl Ethylhexanoate, Bakuchiol, Retinol, Polyglyceryl-3 Methylglucose Distearate, Glyceryl Stearate, Hydroxyacetophenone, Tromethamine, Carbomer, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Biosaccharide Gum-1, Ethylhexylglycerin, 1,2-Hexanediol, Glyceryl Acrylate/Acrylic Acid Copolymer, Xanthan Gum, Hydroxypropyl Guar, Disodium EDTA, Phaseolus Radiatus Seed Extract, Hydroxyethylcellulose, Caprylic/Capric Triglyceride, Hydrogenated Lecithin, Polyglyceryl-10 Myristate, Tocopheryl Acetate, Squalane, Panthenol, Adenosine, Allantoin, Centella Asiatica Extract, Sodium Hyaluronate, Phytosteryl/Octyldodecyl Lauroyl Glutamate, Ceramide NP, Fragrance|Perfume|Parfum",
-        "us_label_ok": true
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
       },
       "price": {
-        "price_usd": 18.99,
-        "margin_pct": 38.4,
-        "register_blocked": false,
-        "price_evidence_ok": true,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [],
-        "profit_warnings": [
-          "margin_below_target:38.4%<40.0%"
+        "price_usd": 22.99,
+        "margin_pct": 48.8,
+        "register_blocked": true,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
         ],
+        "profit_warnings": [],
         "blocks_registration": false
       },
       "legal": {
-        "status": "pass",
-        "hard_block": false,
-        "hard_block_reason": ""
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
       },
       "manufacturer_safety_record": {
         "covered": true,
         "reason": null
       },
-      "agent_ready": true,
-      "agent_blocked_by": [],
-      "ready": true,
-      "blocked_by": [],
-      "public_ready": true,
-      "public_blocked_by": [],
-      "legal_full_complete": true,
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "price",
+        "legal",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -538,17 +537,22 @@
         "source": "deterministic_local",
         "paid_api_called": false,
         "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "low",
-        "risk_points": 0,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
         "team_routes": [
+          "legal",
+          "pricing",
+          "sourcing",
           "listing"
         ],
-        "model_route": "local",
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "현재 정본 기준 추가 blocker 없음",
+          "draft blockers: copy, gosi, us_label, price, legal",
+          "public blockers: copy, gosi, us_label, price, legal, legal_full",
+          "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -557,212 +561,6 @@
     },
     {
       "rank": 6,
-      "canonical_product_id": "CP000270",
-      "pd_no": "1075857",
-      "product_id": "1075857",
-      "name": "셀더마데일리 PDRN 광채 크림 랩핑 마스크 1매",
-      "category": "스킨케어",
-      "price_krw": 2000,
-      "shopify_score": 94,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075857",
-      "copy": {
-        "title": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-        "description_html": "<p>Discover the Celderma Daily PDRN Radiance Cream Wrapping Mask, designed to help you achieve a brighter-looking complexion and a dewy glow. This convenient sheet mask hugs the contours of the face to deliver a rich layer of cream.</p><p>Experience a smooths-the-look-of-fine-lines effect while deeply hydrating your skin for a fresh, radiant finish. Simply apply, let it sit, and reveal a glowing look.</p>",
-        "seo_title": "Celderma Daily PDRN Radiance Cream Wrapping Mask",
-        "seo_description": "Shop the Celderma Daily PDRN Radiance Cream Wrapping Mask for a radiant, glowing complexion and deep hydration. Convenient 1pc sheet mask for daily care.",
-        "tags": [
-          "celderma",
-          "pdrn-mask",
-          "radiance-cream",
-          "wrapping-mask",
-          "sheet-mask",
-          "k-beauty",
-          "facial-mask",
-          "hydration"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "18g",
-        "maker": "(주)제닉",
-        "origin": "한국",
-        "ingredients": "정제수, 메틸프로판다이올, 글리세린, 카프릴릭/카프릭트라이글리세라이드, 나이아신아마이드, 폴리글리세릴-3다이스테아레이트, 세테아릴알코올, 하이드록시아세토페논, 알지닌, 카보머, 암모늄아크릴로일다이메틸타우레이트/브이피",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "18g",
-        "manufacturer": "Manufacturer and distributor (responsible seller, Korea): GENIC Co., Ltd., Republic of Korea",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Methylpropanediol, Glycerin, Caprylic/Capric Triglyceride, Niacinamide, Polyglyceryl-3 Distearate, Cetearyl Alcohol, Hydroxyacetophenone, Arginine, Carbomer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Stearate Citrate, Allantoin, Xanthan Gum, Sodium DNA, Adenosine, Disodium EDTA, Gluconolactone, Fragrance|Perfume|Parfum, Pogostemon Cablin Oil",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 11.99,
-        "margin_pct": 31.4,
-        "register_blocked": true,
-        "price_evidence_ok": false,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [
-          "price_evidence_volume_unverified_product"
-        ],
-        "profit_warnings": [
-          "margin_below_target:31.4%<40.0%"
-        ],
-        "blocks_registration": false
-      },
-      "legal": {
-        "status": "pass",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
-      },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "price"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "price"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "price"
-      ],
-      "legal_full_complete": true,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [
-          "pricing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: price",
-          "public blockers: price",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 7,
-      "canonical_product_id": "CP000109",
-      "pd_no": "1049285",
-      "product_id": "1049285",
-      "name": "[수분보습]VT 슈퍼 히알론 슬리핑 마스크 4 ml 6개입",
-      "category": "스킨케어",
-      "price_krw": 3000,
-      "shopify_score": 92,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049285",
-      "copy": {
-        "title": "VT Super Hyalon Sleeping Mask 4ml x 6ea",
-        "description_html": "<p>Discover the VT Super Hyalon Sleeping Mask, designed to deliver deep moisture and hydration to your skin while you sleep. Each pack contains six convenient 4 ml individual pouches for easy daily use.</p><p>Apply this nourishing sleeping mask as the final step in your evening routine to wake up with a refreshed and hydrated-looking complexion.</p>",
-        "seo_title": "VT Super Hyalon Sleeping Mask 4ml 6 Pack",
-        "seo_description": "Shop the VT Super Hyalon Sleeping Mask in a convenient 6-pack. Delivers deep moisture and hydration overnight for a refreshed complexion.",
-        "tags": [
-          "vt-cosmetics",
-          "sleeping-mask",
-          "hyaluronic-acid",
-          "k-beauty",
-          "facial-mask",
-          "night-mask",
-          "hydrating-mask"
-        ],
-        "product_type": "Face Mask"
-      },
-      "copy_status": "ok",
-      "gosi": {
-        "volume": "4ml",
-        "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
-        "origin": "한국",
-        "ingredients": "정제수, 글리세린, 다이프로필렌글라이콜, 사이클로펜타실록세인, 사이클로헥사실록세인, 글리세레스-26, 마카다미아씨오일, 암모늄아크릴로일다이메틸타우레이트/브이피코폴리머, 글리세릴글루코사이드, 1,2-헥산다이올, 동백나",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "4ml",
-        "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Glycerin, Dipropylene Glycol, Cyclopentasiloxane, Cyclohexasiloxane, Glycereth-26, Macadamia Ternifolia Seed Oil, Ammonium Acryloyldimethyltaurate/VP Copolymer, Glyceryl Glucoside, 1,2-Hexanediol, Camellia Japonica Seed Oil, Hydroxyacetophenone, Polysorbate 20, Hydroxyethyl Urea, Carbomer, Betaine, Allantoin, Trehalose, Butylene Glycol, Tromethamine, Dextrin, Propanediol, Disodium EDTA, Glucose, Fragrance|Perfume|Parfum, Sodium Hyaluronate, Sodium Polyacrylate, Gardenia Florida Fruit Extract, Malva Sylvestris (Mallow) Leaf Extract, Glycine, Serine, Glutamic Acid, Chlorella Vulgaris Extract, Panthenol, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Proline, Threonine, Valine, Isoleucine, Histidine, Cysteine, Methionine, Polyglutamic Acid, Ethylhexylglycerin, Sodium Hyaluronate Crosspolymer, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hyaluronic Acid, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Pentylene Glycol, Sodium Acetylated Hyaluronate",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 10.99,
-        "margin_pct": 17.6,
-        "register_blocked": true,
-        "price_evidence_ok": false,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [
-          "price_evidence_volume_mismatch:ours=24.0ml,evidence=4.0ml"
-        ],
-        "profit_warnings": [
-          "margin_below_minimum:17.6%<30.0%",
-          "margin_below_target:17.6%<40.0%"
-        ],
-        "blocks_registration": false
-      },
-      "legal": {
-        "status": "pass",
-        "hard_block": false,
-        "hard_block_reason": ""
-      },
-      "manufacturer_safety_record": {
-        "covered": true,
-        "reason": null
-      },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "price"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "price"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "price"
-      ],
-      "legal_full_complete": true,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [
-          "pricing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: price",
-          "public blockers: price",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 8,
       "canonical_product_id": "CP000125",
       "pd_no": "1053482",
       "product_id": "1053482",
@@ -850,15 +648,15 @@
       }
     },
     {
-      "rank": 9,
-      "canonical_product_id": "CP000071",
-      "pd_no": "1042246",
-      "product_id": "1042246",
-      "name": "오릭스 퍼퓸 바디로션 500 ml 히노끼향",
-      "category": "바디케어",
+      "rank": 7,
+      "canonical_product_id": "CP000267",
+      "pd_no": "1074979",
+      "product_id": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "category": "스킨케어",
       "price_krw": 3000,
-      "shopify_score": 83,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042246",
+      "shopify_score": 85,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
       "copy": {},
       "copy_status": "missing",
       "gosi": {
@@ -877,17 +675,14 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 30.8,
+        "margin_pct": 56.3,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
         "price_evidence_reasons": [
           "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
         ],
-        "profit_warnings": [
-          "margin_below_minimum:30.8%<35.0%",
-          "margin_below_target:30.8%<40.0%"
-        ],
+        "profit_warnings": [],
         "blocks_registration": false
       },
       "legal": {
@@ -954,15 +749,15 @@
       }
     },
     {
-      "rank": 10,
-      "canonical_product_id": "CP000256",
-      "pd_no": "1072800",
-      "product_id": "1072800",
-      "name": "줌 바이 정샘물 세범다운 쿠션",
-      "category": "메이크업",
+      "rank": 8,
+      "canonical_product_id": "CP000231",
+      "pd_no": "1068733",
+      "product_id": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "category": "스킨케어",
       "price_krw": 5000,
-      "shopify_score": 75,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
+      "shopify_score": 82,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
       "copy": {},
       "copy_status": "missing",
       "gosi": {
@@ -981,7 +776,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 48.8,
+        "margin_pct": 52.1,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",

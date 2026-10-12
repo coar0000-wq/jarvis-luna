@@ -47,6 +47,7 @@ from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
 from pathlib import Path
 
 from payment_fees import profit_flags
+from manufacturer_safety import manufacturer_safety_record, public_view as safety_public_view
 
 SCHEMA_VERSION = 1
 GENERATOR = "scripts/build_beauty_price_strategy.py"
@@ -930,6 +931,11 @@ def load_inputs(data_dir: Path, analytics_path=None):
             except (OSError, ValueError) as exc:
                 entry["error"] = f"unreadable_json:{type(exc).__name__}"
         status.append(entry)
+    # Only actual scoped file/hash/adequacy checks supply safety coverage.
+    rows = (docs.get("score") or {}).get("all_scored", [])
+    ids = {str(row.get("pd_no")) for row in rows if isinstance(row, dict) and row.get("pd_no") is not None}
+    docs["manufacturer_safety_record_views"] = {pd: safety_public_view(
+        manufacturer_safety_record(pd, Path(data_dir).parent)) for pd in ids}
     return docs, status
 
 
@@ -1303,8 +1309,10 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
               "min_net_profit_usd": _f(prof.get("min_net_profit_usd"), 2) if _dec(prof.get("min_net_profit_usd")) is not None else None,
               "source": "config.price_policy.margin_advisory" + (" (builtin mirror)" if cfg["used_fallback"] else "") if cfg_min is not None
               else "daiso_real/profitability_rule.json"}
-    mocra = docs.get("mocra_business") or {}
-    safety_covered = {str(x) for x in ((mocra.get("safety_substantiation") or {}).get("covered_pd_nos") or [])}
+    safety_covered = {str(pd) for pd, view in (docs.get("manufacturer_safety_record_views") or {}).items()
+                      if isinstance(view, dict) and view.get("covered") is True
+                      and isinstance(view.get("evidence_digest"), str)
+                      and re.fullmatch(r"[0-9a-f]{64}", view["evidence_digest"])}
     landed = _landed(pricing_model)
     own_all = collect_own_prices(docs.get("registry"), docs.get("queue"), pricing_model)
     mt_names = {str(r.get("pd_no")): r.get("name_en") for r in (docs.get("market_team") or {}).get("s_grade_priority", []) if isinstance(r, dict)}
@@ -1316,9 +1324,10 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
     products = []
     for r in all_scored:
         bucket = r.get("bucket")
-        if bucket not in b2t:
+        # 2026-10-11 카테고리 전담팀: 점수 파일의 desk(다이소몰 카테고리 목록 기준)가 있으면 그 카테고리로 센다.
+        tag = r.get("desk") if r.get("desk") in tag_order else b2t.get(bucket)
+        if tag is None:
             continue
-        tag = b2t[bucket]
         pd = str(r.get("pd_no"))
         m = master.get(pd) or {}
         entry = own_all.get(pd) if pd in own_all else {"candidates": [], "inactive": [], "english_titles": [], "registry_size": None}
@@ -1451,7 +1460,7 @@ def build_strategy(docs: dict, file_status: list, as_of: datetime, max_age_hours
     grade_changes = [p["pd_no"] for p in products if p["grade"] != src_grade.get(p["pd_no"])]
     s_all = [r for r in all_scored if r.get("grade") == "S"]
     s_three = [p for p in products if p["grade"] == "S"]
-    s_uncovered = [str(r.get("pd_no")) for r in s_all if r.get("bucket") not in b2t]
+    s_uncovered = [str(r.get("pd_no")) for r in s_all if r.get("bucket") not in b2t and r.get("desk") not in tag_order]
     s_failed = [p["pd_no"] for p in s_three if not p["s_gate_audit"]["constraints_met"]]
 
     # coverage

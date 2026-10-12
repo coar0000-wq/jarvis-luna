@@ -55,6 +55,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from manufacturer_safety import manufacturer_safety_record
 
 ROOT = Path(__file__).resolve().parents[1]
 D = ROOT / "data"
@@ -180,8 +181,9 @@ def main() -> int:
     ))
 
     # ④ 안전성 입증 -------------------------------------------------------
-    substantiation = profile.get("safety_substantiation") or {}
-    covered = {str(x) for x in (substantiation.get("covered_pd_nos") or [])}
+    # Declarations and company-wide certificates never prove scoped adequacy.
+    covered = {pd for pd in scope_ids
+               if manufacturer_safety_record(pd, ROOT).get("covered") is True}
     missing_sub = sorted(scope_ids - covered)
     checks.append(check(
         "safety_substantiation", "제품별 안전성 입증 자료 보유",
@@ -189,7 +191,7 @@ def main() -> int:
         "판매 후보 전부 확보" if scope_ids and not missing_sub
         else f"미확보 {len(missing_sub)}건: {', '.join(missing_sub[:5])}"
              + (" 외" if len(missing_sub) > 5 else ""),
-        evidence="data/manual/mocra_profile.json",
+        evidence="제품·처방별 실제 안전성 문서와 적격 검토 영수증",
     ))
 
     # ⑤ 유해사례 접수 체계 -------------------------------------------------

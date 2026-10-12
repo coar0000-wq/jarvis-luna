@@ -1261,7 +1261,9 @@ def s_ranked(cat, priority=None):
     if not isinstance(d.get("all_scored"), list):
         raise ValueError("Canonical grade list unavailable")
     allowed = ALLOWED_GRADES[cat[0]]
-    rows = [r for r in d["all_scored"] if r.get("bucket") in BUCKETS[cat[0]] and r.get("grade") in allowed]
+    # 2026-10-11 카테고리 전담팀: 점수 파일의 desk(다이소몰 카테고리 목록 기준)가 있으면 그것으로 고른다.
+    rows = [r for r in d["all_scored"] if r.get("grade") in allowed
+            and ((r.get("desk") == cat[0]) if "desk" in r else (r.get("bucket") in BUCKETS[cat[0]]))]
     rows.sort(key=lambda r: (GRADE_ORDER[r["grade"]], -float(r.get("shopify_score") or 0)))
     if not rows:
         return rows

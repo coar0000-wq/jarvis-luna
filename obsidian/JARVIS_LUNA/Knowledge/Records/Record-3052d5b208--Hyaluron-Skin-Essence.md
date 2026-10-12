@@ -2,7 +2,7 @@
 title: "Record 3052d5b208 · Hyaluron-Skin-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:39.030401+00:00
+updated_at: 2026-10-11T22:24:13.184671+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/hanskin-hyaluron-skin-essence"
 **제목:** Hyaluron Skin Essence
 
 Hyaluron Skin Essence
-Hyaluron Skin Essence · HANSKIN · $25.0
+Hyaluron Skin Essence · HANSKIN · $25
 
 **출처:** Source · us_beauty

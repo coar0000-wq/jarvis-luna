@@ -163,5 +163,80 @@
         "reviewed_at": "YYYY-MM-DD"
       }
     ]
+  },
+  "category_desks": {
+    "_why": "사용자 지시 2026-10-11: 전담팀 범위는 다이소몰 카테고리 목록 그대로. 스킨케어=스킨/토너·에센스/세럼/앰플·크림·로션·미스트/픽서(사용자 캡처), 바디=바디케어>샤워/입욕(사용자 링크). 선케어는 하지 않는다.",
+    "skincare": {
+      "name": "스킨케어 전담팀",
+      "source": "사용자 캡처(다이소 스킨케어 종류) 2026-10-11",
+      "categories": [
+        {
+          "code": "CTGR_01064",
+          "middle": "CTGR_01051",
+          "name": "스킨/토너",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01051/CTGR_01064"
+        },
+        {
+          "code": "CTGR_01065",
+          "middle": "CTGR_01051",
+          "name": "에센스/세럼/앰플",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01051/CTGR_01065"
+        },
+        {
+          "code": "CTGR_01066",
+          "middle": "CTGR_01051",
+          "name": "크림",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01051/CTGR_01066"
+        },
+        {
+          "code": "CTGR_01067",
+          "middle": "CTGR_01051",
+          "name": "로션",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01051/CTGR_01067"
+        },
+        {
+          "code": "CTGR_01068",
+          "middle": "CTGR_01051",
+          "name": "미스트/픽서",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01051/CTGR_01068"
+        }
+      ]
+    },
+    "makeup": {
+      "name": "메이크업 전담팀",
+      "source": "다이소 메이크업 핵심 종류(사용자 지정 전 기본값)",
+      "categories": [
+        {
+          "code": "CTGR_01086",
+          "middle": "CTGR_01055",
+          "name": "베이스메이크업",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01055/CTGR_01086"
+        },
+        {
+          "code": "CTGR_01085",
+          "middle": "CTGR_01055",
+          "name": "립메이크업",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01055/CTGR_01085"
+        },
+        {
+          "code": "CTGR_01087",
+          "middle": "CTGR_01055",
+          "name": "아이메이크업",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01055/CTGR_01087"
+        }
+      ]
+    },
+    "body": {
+      "name": "바디 전담팀",
+      "source": "사용자 링크 2026-10-11 https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+      "categories": [
+        {
+          "code": "CTGR_01113",
+          "middle": "CTGR_01061",
+          "name": "샤워/입욕",
+          "url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113"
+        }
+      ]
+    }
   }
 }
