@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-12T19:40:51.373959+09:00",
+    "updated_at": "2026-10-14T08:52:30.928920+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1578,7 +1578,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
     },
@@ -1608,7 +1610,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
     },
@@ -1640,7 +1644,8 @@
       "copy_status": "ok",
       "agent_blocked_by": [
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
@@ -1671,7 +1676,9 @@
       ],
       "ad_keywords_source": "Gemini 영문 카피 태그",
       "copy_status": "ok",
-      "agent_blocked_by": [],
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
       "listing_ready": true,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
@@ -1698,7 +1705,8 @@
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721"
@@ -1723,7 +1731,8 @@
       "ad_keywords_source": "ontology 선행 게이트 차단",
       "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482"
@@ -1751,7 +1760,8 @@
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979"
@@ -1779,7 +1789,8 @@
         "gosi",
         "us_label",
         "price",
-        "legal"
+        "legal",
+        "manufacturer_safety_record_missing"
       ],
       "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733"
@@ -1824,8 +1835,8 @@
     }
   ],
   "weekly_actions": [
-    "Shopify Draft Action 3건의 payload hash를 검토하고 사람 승인",
-    "AI 선행 게이트 차단 4건의 증거 보강: gosi, legal, price, us_label",
+    "영문 카피가 준비된 4건의 Draft Action 상태 확인",
+    "AI 선행 게이트 차단 4건의 증거 보강: gosi, legal, manufacturer_safety_record_missing, price, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
     "시장 가격대 100건 기준 중앙값 $22.49 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
@@ -1853,8 +1864,8 @@
     ],
     "s_count": 8,
     "listing_ready_count": 4,
-    "last_score_run": "2026-10-12",
-    "last_pricing_run": "2026-10-12",
+    "last_score_run": "2026-10-13",
+    "last_pricing_run": "2026-10-13",
     "exchange_rate": 1341.69
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."

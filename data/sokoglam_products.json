@@ -2,19 +2,19 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-11T23:57:01.373790+00:00",
+  "collected_at": "2026-10-13T23:52:25.310864+00:00",
   "is_stale": false,
-  "count": 230,
+  "count": 233,
   "by_collection": {
-    "Best Sellers": 79,
-    "Skincare": 151
+    "Best Sellers": 81,
+    "Skincare": 152
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 230,
+    "n": 233,
     "min": 3.0,
-    "median": 28.0,
+    "median": 27.12,
     "max": 200.0
   },
   "products": [
@@ -177,6 +177,29 @@
         "fragrance free",
         "Free_Of::Alcohol_Products",
         "Free_Of::Artificial_Colors"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Bio-Lipid Restoring Body Lotion",
+      "brand": "NATURIUM",
+      "price_usd": 16.0,
+      "category": "Body",
+      "collection": "Best Sellers",
+      "url": "https://sokoglam.com/products/bio-lipid-restoring-body-lotion",
+      "tags": [
+        "badge-vegan",
+        "Body",
+        "body care",
+        "Body Lotion",
+        "cruelty free",
+        "female founded",
+        "female founders",
+        "fragrance free",
+        "Free_of::Parabens",
+        "Lotion",
+        "NATURIUM",
+        "Product_Type::Body"
       ]
     },
     {
@@ -1435,6 +1458,29 @@
       ]
     },
     {
+      "rank": 68,
+      "name": "Time Revolution Night Repair Ampoule Cream 5X",
+      "brand": "MISSHA",
+      "price_usd": 42.0,
+      "category": "Facial Moisturizer",
+      "collection": "Best Sellers",
+      "url": "https://sokoglam.com/products/missha-time-revolution-night-repair-ampoule-cream-5x",
+      "tags": [
+        "Anti-Aging/Wrinkles",
+        "badge-cleanbeauty",
+        "badge-vegan",
+        "combo_pigmentation",
+        "dry_pigmentation",
+        "extreme biome",
+        "Fermentation",
+        "hyperpigmentation",
+        "Ingredient_Type::Ferments",
+        "Missha",
+        "normal_pigmentation",
+        "pigmentation"
+      ]
+    },
+    {
       "rank": 69,
       "name": "Hydrating Jojoba Oil + Aloe Vera H2O Double Duty Mist",
       "brand": "Knours",
@@ -1710,7 +1756,7 @@
       "rank": 81,
       "name": "Quick Sunstick Protection Bar Broad Spectrum SP 50+",
       "brand": "Abib",
-      "price_usd": 28.0,
+      "price_usd": 19.6,
       "category": "Sunscreen",
       "collection": "Best Sellers",
       "url": "https://sokoglam.com/products/abib-quick-sunstick-protection-bar",
@@ -2508,29 +2554,6 @@
         "Skin_Type::Dry",
         "Skin_Type::Normal",
         "toner"
-      ]
-    },
-    {
-      "rank": 46,
-      "name": "Solid In Cream",
-      "brand": "Torriden",
-      "price_usd": 31.0,
-      "category": "Facial Moisturizer",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/torriden-solid-in-cream",
-      "tags": [
-        "Facial Moisturizer",
-        "moisture barrier",
-        "moisture cream",
-        "moisturize",
-        "moisturizer",
-        "moisturizing",
-        "Product_Type::Moisturizer",
-        "Skin_Concern::Anti-Aging/Wrinkles",
-        "Skin_Concern::Dryness/Hydration",
-        "Skin_Concern::Dryness_/_Hydration",
-        "Skin_Concern::Sensitive",
-        "Skin_Type::Combination"
       ]
     },
     {
@@ -3346,6 +3369,29 @@
     },
     {
       "rank": 104,
+      "name": "Gentle Black Fresh Cleansing Oil",
+      "brand": "KLAIRS",
+      "price_usd": 24.0,
+      "category": "Oil Cleanser",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/klairs-gentle-black-fresh-cleansing-oil",
+      "tags": [
+        "badge-cleanbeauty",
+        "badge-vegan",
+        "Cruelty-free",
+        "dry",
+        "fragrance free",
+        "Free_Of::Alcohol_Products",
+        "Free_Of::Animal_Products",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Artificial_Fragrances",
+        "Free_Of::Essential_Oil",
+        "Free_Of::Mineral_Oil",
+        "Free_of::Parabens"
+      ]
+    },
+    {
+      "rank": 105,
       "name": "Glass Skin On the Go",
       "brand": "HANSKIN",
       "price_usd": 23.0,
@@ -3362,7 +3408,7 @@
       ]
     },
     {
-      "rank": 105,
+      "rank": 106,
       "name": "Cera-nol Gel Toner Pads",
       "brand": "Biodance",
       "price_usd": 26.0,
@@ -3385,7 +3431,7 @@
       ]
     },
     {
-      "rank": 106,
+      "rank": 107,
       "name": "Midnight Blue Youth Activating Drop",
       "brand": "KLAIRS",
       "price_usd": 30.0,
@@ -3408,7 +3454,7 @@
       ]
     },
     {
-      "rank": 107,
+      "rank": 108,
       "name": "Tonal Scenery Reparative Serum",
       "brand": "Superegg",
       "price_usd": 72.0,
@@ -3431,7 +3477,7 @@
       ]
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "Phyto Bubble Relief Foam",
       "brand": "Plodica",
       "price_usd": 15.0,
@@ -3454,7 +3500,7 @@
       ]
     },
     {
-      "rank": 110,
+      "rank": 111,
       "name": "Deep Antarctic Drop",
       "brand": "Serumkind",
       "price_usd": 29.22,
@@ -3477,7 +3523,7 @@
       ]
     },
     {
-      "rank": 111,
+      "rank": 112,
       "name": "Multi Vitamin Daily Nutrient Body Wash",
       "brand": "NATURIUM",
       "price_usd": 17.0,
@@ -3500,7 +3546,7 @@
       ]
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "Jade Facial Roller",
       "brand": "GLOWIEST",
       "price_usd": 28.0,
@@ -3523,7 +3569,7 @@
       ]
     },
     {
-      "rank": 114,
+      "rank": 115,
       "name": "Refreshing Sea Kelp Real Deep Mask (4 Pack)",
       "brand": "Biodance",
       "price_usd": 19.0,
@@ -3546,7 +3592,7 @@
       ]
     },
     {
-      "rank": 115,
+      "rank": 116,
       "name": "Phyto Bounce Eye Contour Solution",
       "brand": "Superegg",
       "price_usd": 50.0,
@@ -3569,7 +3615,7 @@
       ]
     },
     {
-      "rank": 116,
+      "rank": 117,
       "name": "The Real Noni Starter Kit",
       "brand": "Celimax",
       "price_usd": 18.0,
@@ -3592,7 +3638,7 @@
       ]
     },
     {
-      "rank": 119,
+      "rank": 120,
       "name": "Licorice pH Balancing Pore Cleansing Gel Foam",
       "brand": "ACWELL",
       "price_usd": 18.0,
@@ -3615,7 +3661,7 @@
       ]
     },
     {
-      "rank": 120,
+      "rank": 121,
       "name": "Bright Eyes Eye Cream",
       "brand": "Hero Cosmetics",
       "price_usd": 23.99,
@@ -3638,7 +3684,7 @@
       ]
     },
     {
-      "rank": 121,
+      "rank": 122,
       "name": "Clean it Zero Cleansing Balm Firming",
       "brand": "BANILA CO",
       "price_usd": 25.0,
@@ -3661,7 +3707,7 @@
       ]
     },
     {
-      "rank": 124,
+      "rank": 125,
       "name": "SOS Serum",
       "brand": "TIRTIR",
       "price_usd": 43.0,
@@ -3684,7 +3730,7 @@
       ]
     },
     {
-      "rank": 128,
+      "rank": 129,
       "name": "Vitamin C Complex Serum",
       "brand": "NATURIUM",
       "price_usd": 21.0,
@@ -3707,7 +3753,7 @@
       ]
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "Castanea Crenata Inner Shell Pore Tightening Serum",
       "brand": "MOLVANY",
       "price_usd": 29.5,
@@ -3730,7 +3776,7 @@
       ]
     },
     {
-      "rank": 131,
+      "rank": 132,
       "name": "Retinaldehyde Cream Serum 0.05%",
       "brand": "NATURIUM",
       "price_usd": 29.0,
@@ -3753,7 +3799,7 @@
       ]
     },
     {
-      "rank": 134,
+      "rank": 135,
       "name": "Vitamin Collective Vitality Elixir",
       "brand": "Superegg",
       "price_usd": 65.0,
@@ -3776,7 +3822,7 @@
       ]
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "Bong² Bounce Cream Deluxe Mini",
       "brand": "Then I Met You",
       "price_usd": 17.0,
@@ -3799,7 +3845,7 @@
       ]
     },
     {
-      "rank": 139,
+      "rank": 140,
       "name": "YULMU  Brightening Spot Cream",
       "brand": "INWARD",
       "price_usd": 31.0,
@@ -3822,7 +3868,7 @@
       ]
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "The Vitamin C 13 Serum",
       "brand": "COSRX",
       "price_usd": 21.0,
@@ -3845,7 +3891,7 @@
       ]
     },
     {
-      "rank": 141,
+      "rank": 142,
       "name": "Glutathiosome Dark Spot Serum Vita Drop",
       "brand": "Abib",
       "price_usd": 32.0,
@@ -3864,7 +3910,7 @@
       ]
     },
     {
-      "rank": 142,
+      "rank": 143,
       "name": "Daydream Cushion Foundation SPF 50",
       "brand": "Em Cosmetics",
       "price_usd": 14.4,
@@ -3880,7 +3926,7 @@
       ]
     },
     {
-      "rank": 145,
+      "rank": 146,
       "name": "Clean it Zero Cleansing Balm Brightening",
       "brand": "BANILA CO",
       "price_usd": 25.0,
@@ -3903,7 +3949,7 @@
       ]
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "The Sustainable Cleansing Pad Set",
       "brand": "SOKO GLAM",
       "price_usd": 16.0,
@@ -3924,7 +3970,7 @@
       ]
     },
     {
-      "rank": 148,
+      "rank": 149,
       "name": "Freshly Juiced Vitamin Charging Serum 10% Vitamin C",
       "brand": "KLAIRS",
       "price_usd": 35.0,
@@ -3947,7 +3993,7 @@
       ]
     },
     {
-      "rank": 152,
+      "rank": 153,
       "name": "Dermalogy Hyal Glow Rose Essence",
       "brand": "NEOGEN",
       "price_usd": 32.0,
@@ -3970,7 +4016,7 @@
       ]
     },
     {
-      "rank": 153,
+      "rank": 154,
       "name": "Time Stop Vitamin Ampoule",
       "brand": "THE PLANT BASE",
       "price_usd": 24.9,
@@ -3993,7 +4039,7 @@
       ]
     },
     {
-      "rank": 154,
+      "rank": 155,
       "name": "Jericho Rose Bifida Serum Firming Drop",
       "brand": "Abib",
       "price_usd": 32.0,
@@ -4016,7 +4062,7 @@
       ]
     },
     {
-      "rank": 155,
+      "rank": 156,
       "name": "Cellus Deep Moisture Cream",
       "brand": "LAGOM",
       "price_usd": 28.0,
@@ -4039,7 +4085,7 @@
       ]
     },
     {
-      "rank": 157,
+      "rank": 158,
       "name": "Sweet Dreams Lip Mask",
       "brand": "GLOWIEST",
       "price_usd": 22.0,
@@ -4060,7 +4106,7 @@
       ]
     },
     {
-      "rank": 158,
+      "rank": 159,
       "name": "Acne Pimple Master Patch",
       "brand": "COSRX",
       "price_usd": 6.0,
@@ -4957,6 +5003,29 @@
         "J_dehydrated",
         "J_dry-skin",
         "J_dryness"
+      ]
+    },
+    {
+      "rank": 228,
+      "name": "Vita C Plus Spot Correcting & Firming Ampoule",
+      "brand": "MISSHA",
+      "price_usd": 39.0,
+      "category": "Serum/Ampoule",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/missha-vita-c-plus-spot-correcting-firming-ampoule",
+      "tags": [
+        "ampoule",
+        "anti-aging",
+        "badge-bestofkbeautynom",
+        "badge-cleanbeauty",
+        "Free_Of::Alcohol_Products",
+        "Free_Of::Animal_Products",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Artificial_Fragrances",
+        "Free_Of::Mineral_Oil",
+        "Free_of::Parabens",
+        "Free_Of::Sulphates",
+        "holiday shop 2021"
       ]
     },
     {
