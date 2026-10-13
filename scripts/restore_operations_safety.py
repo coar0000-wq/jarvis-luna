@@ -899,8 +899,11 @@ def main(argv=None):
         print('OPERATIONS_SAFETY_OK ' + json.dumps(result, sort_keys=True))
         return 0
     except (ValueError, OSError, KeyError, TypeError, AttributeError, OverflowError,
-            RecursionError, RuntimeError, subprocess.SubprocessError, zipfile.BadZipFile):
-        print('OPERATIONS_SAFETY_BLOCKED authenticated_history_or_reconciliation_required')
+            RecursionError, RuntimeError, subprocess.SubprocessError, zipfile.BadZipFile) as error:
+        # Only our fixed lowercase diagnostic codes may leave the process.
+        # Never print arbitrary exception text, paths, credentials or payloads.
+        code = str(error) if isinstance(error, Blocked) and re.fullmatch(r'[a-z][a-z0-9_]{0,119}', str(error)) else 'validation_or_transport_failure'
+        print('OPERATIONS_SAFETY_BLOCKED authenticated_history_or_reconciliation_required code=' + code)
         return 1
 
 
