@@ -119,7 +119,7 @@ def _source_path(path, root, extensions):
     # Shopify execution/planning records include authority bindings. Keep them
     # on their existing security path, never archive or count them as consumed.
     if lower == 'data/shopify_action_queue.json':
-        raise PathExcluded('excluded_authorization_plan_path')
+        raise PathExcluded('excluded_execution_plan_path')
     if (lower == 'data/operations/state.json' or lower.startswith('data/operations/state/')
             or any(p.startswith('.') for p in parts) or 'manual' in parts
             or any(x in lower for x in ('mocra_profile', 'safety_checkpoint',
@@ -570,7 +570,7 @@ def note_exclusion(path, root):
     try:
         _source_path(path, root, {'.json'})
     except PathExcluded as error:
-        if str(error) not in {'excluded_private_or_auth_path', 'excluded_authorization_plan_path',
+        if str(error) not in {'excluded_private_or_auth_path', 'excluded_execution_plan_path',
                              'excluded_unsupported_input_path', 'excluded_unsupported_format'}:
             raise
         if run:

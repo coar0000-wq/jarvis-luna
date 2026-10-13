@@ -46,15 +46,6 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python -u scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
 
-      # Local canonical processing is required; legacy synthetic home-vault
-      # Phase26 notes are not synchronization evidence and are no longer run.
-      - name: Required canonical source processing
-        id: obsidian_sync
-        run: |
-          python scripts/collector_result.py run --name canonical_source --required \
-            --output "$RUNNER_TEMP/release-results/canonical_source.json" \
-            --artifact data/product_master.json -- python scripts/build_product_master.py --inject-s
-
       - name: Optional YouTube source status (RSS robots blocked)
         id: youtube_collect
         continue-on-error: true
@@ -92,6 +83,15 @@ jobs:
       - name: 팀 자기개선 기준선·현재값 측정
         continue-on-error: true
         run: python -u scripts/build_team_baselines.py
+
+      # Regenerate the entire existing commerce chain after source recovery.
+      # A master-only refresh leaves listing_gate input signatures stale.
+      - name: Required canonical source processing
+        id: obsidian_sync
+        run: |
+          python scripts/collector_result.py run --name canonical_source --required \
+            --output "$RUNNER_TEMP/release-results/canonical_source.json" \
+            --artifact data/product_master.json -- python scripts/run_commerce_pipeline.py
 
       - name: Required current canonical runtime
         id: runtime_refresh

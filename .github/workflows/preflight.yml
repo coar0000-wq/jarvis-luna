@@ -59,6 +59,8 @@ jobs:
           python scripts/test_dependency_pins.py
           python scripts/test_public_site.py
           python scripts/test_publish_transaction.py
+          python -B -m unittest discover -s scripts -p "test_operations_publish_bytes.py"
+          python -B -m unittest discover -s scripts -p "test_commerce_pipeline_workflows.py"
           python scripts/test_release_quality.py
           python scripts/test_collector_result.py
           python scripts/test_typesafe_shared.py

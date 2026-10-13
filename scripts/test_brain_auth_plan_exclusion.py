@@ -22,7 +22,7 @@ class AuthPlanExclusion(unittest.TestCase):
             with brain.execution(root, task='test', team='runtime', operation='local-analysis') as run:
                 self.assertEqual(brain_plane.read_json(queue, root, {}), value)
                 self.assertEqual(run.consumed, {})
-                self.assertIn('excluded_authorization_plan_path', run.excluded)
+                self.assertIn('excluded_execution_plan_path', run.excluded)
                 with self.assertRaises(brain.PathExcluded):
                     brain.load_json(queue, root, {})
             self.assertFalse((root / brain.BRAIN / 'payloads').exists())

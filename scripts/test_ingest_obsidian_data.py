@@ -65,6 +65,7 @@ class IngestTests(unittest.TestCase):
 
     def test_private_and_secret_content_are_rejected_with_safe_counts(self):
         self.write('data/good.json', b'{}')
+        self.write('data/shopify_action_queue.json', b'{"authorization":"do-not-copy"}')
         for name in ('data/manual/mocra_profile.json', 'data/operations/state.json',
                      'data/typesafe_ledger.json', 'data/safety_checkpoints/x.json'):
             self.write(name, b'{"password":"do-not-copy"}')
@@ -73,7 +74,9 @@ class IngestTests(unittest.TestCase):
         self.write('data/bad.jsonl', b'invalid\n')
         report = ingest.ingest(self.root)
         self.assertEqual(report['archived_file_count'], 1)
-        self.assertGreaterEqual(report['path_excluded_count'], 4)
+        self.assertGreaterEqual(report['path_excluded_count'], 5)
+        self.assertEqual(report['path_excluded_codes']['excluded_execution_plan_path'], 1)
+        self.assertTrue(report['output_stored'])
         self.assertEqual(report['source_rejected_count'], 3)
         self.assertEqual(report['source_rejected_codes']['excluded_credential_field'], 2)
         serialized = json.dumps(report) + json.dumps(self.index())

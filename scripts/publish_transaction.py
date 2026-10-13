@@ -291,6 +291,14 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
         if remote not in (None, base):
             raise PublishError(f'concurrent file deletion conflict: {name}')
         return None
+    # Execution receipts bind raw report bytes. Never pretty-print or merge
+    # an operations report/ledger independently of its trusted safety snapshot.
+    operations_report = bool(re.fullmatch(r'data/operations/reports/[^/]+\.json', name))
+    if operations_report and remote not in (None, base, local):
+        if local == base:
+            parse_json(remote)
+            return remote
+        raise PublishError(f'concurrent operations report requires reconciliation: {name}')
     if name.endswith('.json'):
         l = parse_json(local)
         b = parse_json(base) if base is not None else {}
@@ -304,7 +312,7 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
             raise PublishError(f'remote deleted locally edited source: {name}')
         # Counter/checkpoint pairs retain exact caller bytes. Never manufacture
         # a hybrid ledger or destroy its byte-bound failed-run artifact evidence.
-        exact_stage = name in BYTE_BOUND_STAGE_FILES and remote in (None, base, local)
+        exact_stage = (name in BYTE_BOUND_STAGE_FILES or operations_report) and remote in (None, base, local)
         result = local if name in PERSISTENT_SOURCE_FILES or exact_stage else json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
         if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history):
             raise PublishError(f'replacement snapshot is not authorized after merge: {name}')

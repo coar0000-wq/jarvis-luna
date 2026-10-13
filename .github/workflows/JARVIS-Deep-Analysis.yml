@@ -605,11 +605,7 @@ jobs:
       - name: Product Master 게이트 동기화 + Shopify Export·Action 큐
         run: |
           cat > "$RUNNER_TEMP/deep_41.sh" <<'RELEASE_STAGE_deep_41'
-          python -u scripts/build_listing_gate.py
-          python -u scripts/build_product_master.py --inject-s
-          python -u scripts/prepare_commerce_export.py
-          python -u scripts/export_shopify_operational.py --blocked-noop
-          python -u scripts/build_shopify_action_queue.py
+          python -u scripts/run_commerce_pipeline.py
           RELEASE_STAGE_deep_41
           python scripts/collector_result.py run --name deep_41 --required \
             --output "$RUNNER_TEMP/release-results/deep_41.json" -- bash -e "$RUNNER_TEMP/deep_41.sh"

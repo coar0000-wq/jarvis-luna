@@ -21,6 +21,14 @@ class PublicSiteTests(unittest.TestCase):
     def tearDownClass(cls): cls.tmp.cleanup()
     def setUp(self): self.manifest=build(self.root,self.output,'a'*40)
 
+    def test_product_desk_survives_public_projection(self):
+        row = {'pd_no': '1072800', 'desk': 'makeup', 'site_category': '베이스메이크업',
+               'bucket': '스킨케어', 'private_owner_note': 'not public'}
+        public = project(row, PRODUCT)
+        self.assertEqual(public['desk'], 'makeup')
+        self.assertEqual(public['site_category'], '베이스메이크업')
+        self.assertNotIn('private_owner_note', public)
+
     def test_daily_pipeline_does_not_present_old_or_missing_evidence_as_today_passed(self):
         html=(self.root/'index.html').read_text(encoding='utf-8')
         self.assertIn("if(it.date===today) live++;", html)
