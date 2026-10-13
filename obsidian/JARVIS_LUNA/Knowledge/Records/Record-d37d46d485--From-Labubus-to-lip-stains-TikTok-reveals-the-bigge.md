@@ -2,7 +2,7 @@
 title: "Record d37d46d485 · From-Labubus-to-lip-stains-TikTok-reveals-the-bigge"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:30.067676+00:00
+updated_at: 2026-10-13T14:32:13.719765+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["소셜콘텐츠"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZVkzMGpTeGVmRlEtVmVNN
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZVkzMGpTeGVmRlEtVmVNNHAzUjZSd2t2SEQ4Rkwtc0hWNXZJa3VnT3pqWTBrRUlVcXd0NWo0UDZFd2VnTjcxSVVqZFQteTBWdDVIaXN4dVNDX0luTVJpci1tNE5JdTg?oc=5)
 
-**제목:** From Labubus to lip stains: TikTok reveals the biggest shopping trends of 2025 so far - TikTok Newsroom
+**제목:** From Labubus to lip stains: TikTok reveals the biggest shopping trends of 2025 so far - Newsroom | TikTok
 
-From Labubus to lip stains: TikTok reveals the biggest shopping trends of 2025 so far - TikTok Newsroom
+From Labubus to lip stains: TikTok reveals the biggest shopping trends of 2025 so far - Newsroom | TikTok
 
 **출처:** Source · Google Search
