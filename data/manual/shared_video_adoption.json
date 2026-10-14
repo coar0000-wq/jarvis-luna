@@ -524,7 +524,9 @@
         "learning": "data/team_learning.json",
         "feeds": "data/team_feeds.json",
         "review": "docs/learning/2026-10-13-multimodal-rea.md",
-        "verified_at": "2026-10-13T10:28:09.517Z"
+        "verified_at": "2026-10-14T10:05:52.135Z",
+        "brain": "data/jarvis_brain.json + obsidian/JARVIS_LUNA/Brain/Teams",
+        "dashboard": "data/dashboard_runtime.json + index.html"
       },
       "tool_execution_verified": false,
       "business_or_legal_approval": false
@@ -551,7 +553,9 @@
         "learning": "data/team_learning.json",
         "feeds": "data/team_feeds.json",
         "review": "docs/learning/2026-10-13-multimodal-rea.md",
-        "verified_at": "2026-10-13T10:28:09.517Z"
+        "verified_at": "2026-10-14T10:05:52.135Z",
+        "brain": "data/jarvis_brain.json + obsidian/JARVIS_LUNA/Brain/Teams",
+        "dashboard": "data/dashboard_runtime.json + index.html"
       },
       "tool_execution_verified": false,
       "business_or_legal_approval": false,
@@ -587,7 +591,9 @@
         "learning": "data/team_learning.json",
         "feeds": "data/team_feeds.json",
         "review": "docs/learning/2026-10-13-multimodal-rea.md",
-        "verified_at": "2026-10-13T10:28:09.517Z"
+        "verified_at": "2026-10-14T10:05:52.135Z",
+        "brain": "data/jarvis_brain.json + obsidian/JARVIS_LUNA/Brain/Teams",
+        "dashboard": "data/dashboard_runtime.json + index.html"
       },
       "tool_execution_verified": false,
       "business_or_legal_approval": false,

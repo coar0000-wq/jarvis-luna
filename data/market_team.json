@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-14T08:52:30.928920+09:00",
+    "updated_at": "2026-10-14T18:36:34.037925+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1864,8 +1864,8 @@
     ],
     "s_count": 8,
     "listing_ready_count": 4,
-    "last_score_run": "2026-10-13",
-    "last_pricing_run": "2026-10-13",
+    "last_score_run": "2026-10-14",
+    "last_pricing_run": "2026-10-14",
     "exchange_rate": 1341.69
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."

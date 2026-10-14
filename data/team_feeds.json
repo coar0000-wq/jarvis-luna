@@ -1,73 +1,73 @@
 {
-  "generated_at": "2026-10-13T10:25:02.517996+00:00",
+  "generated_at": "2026-10-14T09:36:49.348457+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3341,
+  "pool_size": 3342,
   "제목없어_버림": 38,
-  "unrouted": 11,
+  "unrouted": 8,
   "summary": {
     "sourcing": {
       "total": 378,
-      "recent": 364,
+      "recent": 6,
       "material": 22,
-      "material_recent": 8,
+      "material_recent": 6,
       "products": 356
     },
     "market": {
-      "total": 988,
-      "recent": 61,
-      "material": 988,
-      "material_recent": 61,
+      "total": 991,
+      "recent": 58,
+      "material": 991,
+      "material_recent": 58,
       "products": 0
     },
     "listing": {
-      "total": 161,
-      "recent": 32,
-      "material": 161,
-      "material_recent": 32,
+      "total": 160,
+      "recent": 28,
+      "material": 160,
+      "material_recent": 28,
       "products": 0
     },
     "pricing": {
       "total": 91,
-      "recent": 15,
+      "recent": 11,
       "material": 91,
-      "material_recent": 15,
+      "material_recent": 11,
       "products": 0
     },
     "legal": {
-      "total": 261,
-      "recent": 39,
-      "material": 261,
-      "material_recent": 39,
+      "total": 264,
+      "recent": 38,
+      "material": 264,
+      "material_recent": 38,
       "products": 0
     },
     "design": {
-      "total": 506,
-      "recent": 113,
-      "material": 506,
-      "material_recent": 113,
+      "total": 520,
+      "recent": 119,
+      "material": 520,
+      "material_recent": 119,
       "products": 0
     },
     "robotics": {
-      "total": 309,
-      "recent": 142,
-      "material": 309,
-      "material_recent": 142,
+      "total": 311,
+      "recent": 137,
+      "material": 311,
+      "material_recent": 137,
       "products": 0
     },
     "knowledge": {
-      "total": 386,
-      "recent": 126,
-      "material": 386,
-      "material_recent": 126,
+      "total": 401,
+      "recent": 138,
+      "material": 401,
+      "material_recent": 138,
       "products": 0
     },
     "institutions": {
       "total": 1192,
-      "recent": 165,
+      "recent": 133,
       "material": 1192,
-      "material_recent": 165,
+      "material_recent": 133,
       "products": 0
     },
     "graph": {

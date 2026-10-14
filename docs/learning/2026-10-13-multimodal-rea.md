@@ -38,7 +38,7 @@ NotebookLM이 가져온 자막에는 타임스탬프가 없다. `evidence.timest
 
 ## 팀에 공유하는 실행 항목
 
-정본은 `data/manual/team_youtube_insights.json`. 파생 `data/team_learning.json`과 `data/team_feeds.json`을 통해 11개 팀에 전달하고, 공개 Brain 팀 노트에 실제 출처 링크와 검토 지시를 기록한다. 이는 팀에 배포된 검토 과제이며 모든 팀의 도구 실행·외부 행위·매출 개선을 증명하지 않는다.
+정본은 `data/manual/team_youtube_insights.json`. 파생 `data/team_learning.json`과 `data/team_feeds.json`을 통해 11개 팀에 전달하고, 공개 Brain 팀 노트에 실제 출처 링크와 검토 지시를 기록한다. 대시보드 팀 카드에도 검토 과제·출처·검토일·타임스탬프 미제공 여부를 표시하도록 연결했다. 공개 투영은 Notebook 비공개 URL과 승인/권한 필드를 제외하며, 영상 링크는 검증된 ID의 YouTube URL로 정규화한다. 이는 팀에 배포된 검토 과제이며 모든 팀의 도구 실행·외부 행위·매출 개선을 증명하지 않는다.
 
 | 역할 | 담당 |
 |---|---|

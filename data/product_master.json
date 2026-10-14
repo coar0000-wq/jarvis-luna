@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-13T23:52:30.686607+00:00",
+  "generated_at": "2026-10-14T09:36:33.192924+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -5103,7 +5103,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {
@@ -5161,7 +5161,7 @@
         "blocked_by": [
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {
@@ -6205,7 +6205,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {
@@ -6467,7 +6467,7 @@
         "blocked_by": [
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {
@@ -11357,7 +11357,7 @@
         "blocked_by": [
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {
@@ -12092,7 +12092,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {
@@ -12151,7 +12151,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {
@@ -14134,7 +14134,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-13T23:52:30.616116+00:00"
+        "gate_generated_at": "2026-10-14T09:36:32.980450+00:00"
       }
     },
     {

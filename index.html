@@ -958,6 +958,40 @@ function renderBrainFlow(d){
   add("p","결제 모델: 판매금액의 카드 수수료 2%. 기타 수수료는 미확인으로 남기며, 모델 마진은 확정 순이익이 아닙니다.");
 }
 
+// Pure display-only projection: never treat a shared review as execution evidence.
+function renderTeamVideoReview(learning){
+  const item=learning && learning.this_week_action;
+  if(!item || item.status!=='shared-review-directive') return '';
+  const text=(v,n)=>typeof v==='string'?v.slice(0,n):'';
+  const escape=v=>String(v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  const tactic=text(item.tactic,160), action=text(item.action,600);
+  if(!tactic && !action) return '';
+  const evidence=item.evidence && typeof item.evidence==='object'?item.evidence:{};
+  let source='';
+  const raw=text(evidence.url,2049);
+  if(raw.length<=2048 && !/[\s\\]/.test(raw) && /^https:\/\/(?:youtube\.com|www\.youtube\.com|youtu\.be)(?::443)?(?:[/?#]|$)/i.test(raw)){
+    try{
+      const url=new URL(raw);
+      if(url.protocol==='https:' && ['youtube.com','www.youtube.com','youtu.be'].includes(url.hostname) && !url.username && !url.password && (!url.port || url.port==='443')){
+        let videoId='';
+        if(url.hostname==='youtu.be') videoId=(url.pathname.match(/^\/([A-Za-z0-9_-]{11})\/?$/)||[])[1]||'';
+        else if(url.pathname==='/watch'){
+          const ids=url.searchParams.getAll('v');
+          if(ids.length===1) videoId=ids[0];
+        }else videoId=(url.pathname.match(/^\/shorts\/([A-Za-z0-9_-]{11})\/?$/)||[])[1]||'';
+        if(/^[A-Za-z0-9_-]{11}$/.test(videoId)) source='https://www.youtube.com/watch?v='+videoId;
+      }
+    }catch(_){ /* Invalid sources are never rendered as links. */ }
+  }
+  const stamp=typeof evidence.timestamp==='number' && Number.isFinite(evidence.timestamp) && evidence.timestamp>=0?String(evidence.timestamp):text(evidence.timestamp,64);
+  const reviewed=text(item.reviewed_at,64)||'미확인';
+  return '<section class="team-video-review" style="margin-top:10px;padding:10px;border-left:2px solid #58a6ff;font-size:12px;line-height:1.6;">'+
+    '<div><strong>공유된 검토 과제, 실행 완료·성과·승인 증명 아님</strong></div>'+
+    '<div>'+escape(tactic)+'</div><div>'+escape(action)+'</div>'+
+    '<div>검토일: '+escape(reviewed)+' · 타임스탬프: '+escape(stamp||'미확인 (UNKNOWN)')+'</div>'+
+    '<div>'+(source?'<a class="team-link" href="'+escape(source)+'" target="_blank" rel="noopener noreferrer">YouTube 출처</a>':'검증된 YouTube 출처 링크 없음')+'</div></section>';
+}
+
 function renderTeams(d){
 const list=$('team-list'); if(!list) return;
 const teams=Array.isArray(d.teams)?d.teams:[];
@@ -1030,7 +1064,7 @@ return '<li class="team-row">'
 +'<div class="team-icon">'+mark+'</div>'
 +'<div class="team-body">'
 +'<div class="team-name">'+esc(t.name)+badge+'<span class="team-when">'+esc(teamWhen(t.when))+'</span></div>'
-+'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act+wait+notice
++'<div class="team-summary">'+esc(t.summary||'')+'</div>'+act+wait+notice+renderTeamVideoReview(t.youtube_learning)
 +'</div></li>';
 }).join('');
 // 노란색 숫자는 비서실장이 자동 해결·재검증할 항목만 센다.

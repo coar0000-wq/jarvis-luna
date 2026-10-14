@@ -7,7 +7,7 @@ import re
 import shutil
 import subprocess
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import parse_qs, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_PATH = '/jarvis-luna/'
@@ -21,7 +21,20 @@ NUM_MAP = {'*': True}
 MATCH = obj('channel global_product similarity demand_weight match_score', matched_tokens=[True])
 PRODUCT = obj('pd_no name name_en bucket desk site_category price_krw rating review_count url image_url shopify_score score grade s_rule us_market_hits us_median_price_usd recommend_reason reason downgrade_reason rank cost_krw landed_cost_usd breakeven_usd suggested_price_usd margin_pct shopify_action copy_status listing_ready public_ready', tags=[True], ad_keywords=[True], match=MATCH, matched_global=MATCH, best_global_match=MATCH)
 TRAINING = fields('status training_effective verdict validation_macro_f1 baseline_accuracy baseline_macro_f1 training_performed weights_updated records real_records model_type experts accuracy validation_accuracy final_loss gate_load_std tuning_promoted tuning_steps updated_at tuning_validation_accuracy tuning_validation_macro_f1 training_accuracy_on_corpus tuning_final_loss tuning_gate_load_std')
-TEAM = fields('id name when summary action action_kind waiting waiting_kind notice status phase phase_label color glyph badge')
+# Only these bounded, display-only learning fields may cross the public boundary.
+class ReviewText:
+    def __init__(self, limit): self.limit = limit
+REVIEW_URL = object()
+REVIEW_COUNT = object()
+REVIEW_STATUS = object()
+REVIEW_TIMESTAMP = object()
+REVIEW_EVIDENCE = {'url': REVIEW_URL, 'timestamp': REVIEW_TIMESTAMP,
+                   'timestamp_status': ReviewText(96), 'timestamp_basis': ReviewText(96)}
+REVIEW_ACTION = {'id': ReviewText(120), 'tactic': ReviewText(160), 'action': ReviewText(600),
+                 'reviewed_at': ReviewText(64), 'status': REVIEW_STATUS, 'evidence': REVIEW_EVIDENCE}
+YOUTUBE_LEARNING = {'status': ReviewText(64), 'insights': REVIEW_COUNT,
+                    'videos_available': REVIEW_COUNT, 'this_week_action': REVIEW_ACTION}
+TEAM = dict(fields('id name when summary action action_kind waiting waiting_kind notice status phase phase_label color glyph badge'), youtube_learning=YOUTUBE_LEARNING)
 CHANNEL_ROW = fields('product name title brand rank us_rank price price_usd url image_url views trend keyword search_volume count score rating review_count source channel daiso_bucket ingredients_text countries_tags hashtag category sub badge why')
 CHANNEL_STATUS = fields('status reason collected_at trust count source note error_code last_attempt_at last_successful_fetch_at last_data_changed_at new_count updated_count using_cached_data')
 RUN = fields('started_at finished_at requested ok parse_failed http_error status failure_reason candidates_new candidates_updated candidate_count operating_product_count collector_completed discovery_enabled operating_updates_enabled')
@@ -157,7 +170,42 @@ def safe_operation_scalar(value):
     return value
 
 
+def public_youtube_url(value):
+    if not isinstance(value, str) or len(value) > 2048 or re.search(r'[\s\\]', value): return None
+    if not re.match(r'https://(?:youtube\.com|www\.youtube\.com|youtu\.be)(?::443)?(?:[/?#]|$)', value, re.I): return None
+    try:
+        u = urlsplit(value)
+        if (u.scheme != 'https' or u.hostname not in {'youtube.com', 'www.youtube.com', 'youtu.be'}
+                or u.username is not None or u.password is not None or u.port not in (None, 443)):
+            return None
+    except ValueError:
+        return None
+    video_id = None
+    if u.hostname == 'youtu.be':
+        match = re.fullmatch(r'/([A-Za-z0-9_-]{11})/?', u.path)
+        video_id = match.group(1) if match else None
+    elif u.path == '/watch':
+        ids = parse_qs(u.query).get('v', [])
+        video_id = ids[0] if len(ids) == 1 else None
+    else:
+        match = re.fullmatch(r'/shorts/([A-Za-z0-9_-]{11})/?', u.path)
+        video_id = match.group(1) if match else None
+    if not isinstance(video_id, str) or not re.fullmatch(r'[A-Za-z0-9_-]{11}', video_id): return None
+    return 'https://www.youtube.com/watch?v=' + video_id
+
+
 def project(value, schema):
+    if isinstance(schema, ReviewText):
+        text = safe_operation_scalar(value) if isinstance(value, str) else None
+        return text[:schema.limit] if isinstance(text, str) else None
+    if schema is REVIEW_URL: return public_youtube_url(value)
+    if schema is REVIEW_COUNT: return min(value, 1000000) if type(value) is int and value >= 0 else None
+    if schema is REVIEW_STATUS: return value if value == 'shared-review-directive' else None
+    if schema is REVIEW_TIMESTAMP:
+        if value is None: return None
+        if type(value) in (int, float): return value if 0 <= value <= 10000000 else None
+        text = safe_operation_scalar(value) if isinstance(value, str) else None
+        return text[:64] if isinstance(text, str) else None
     if schema is PUBLIC_ZERO: return 0
     if schema is IMPROVEMENT_PHASE: return value if value in ('monitoring','proposal','shadow_evaluated','applied','blocked') else 'blocked'
     if schema is PUBLIC_FALSE: return False
