@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-14T05:21:51.777884+00:00",
-  "real_records": 7302,
+  "updated_at": "2026-10-14T12:20:59.855254+00:00",
+  "real_records": 7307,
   "source_labels": {
     "ai-image": 467,
-    "ai-research": 6450,
-    "shopify-commerce-image": 385
+    "ai-research": 6452,
+    "shopify-commerce-image": 388
   },
-  "corpus_sha256": "abab0d483a00f1011e9b83a2e42e5a42d6a138ec2ac4f567a2c86e1c2db08b74",
+  "corpus_sha256": "ff2b58539bb4fe25c18fdfef865ff98d30c1e25eb38a0aa56c1ed715e3c9b9f2",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,14 +14,14 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.9609695973705834,
+  "training_accuracy_on_corpus": 0.9609963049130971,
   "mean_gate_load": [
     0.304521,
     0.33023,
     0.365249
   ],
   "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "abab0d483a00f1011e9b83a2e42e5a42d6a138ec2ac4f567a2c86e1c2db08b74",
+  "trained_corpus_sha256": "ff2b58539bb4fe25c18fdfef865ff98d30c1e25eb38a0aa56c1ed715e3c9b9f2",
   "tuning_promoted": true,
   "tuning_steps": 300,
   "tuning_validation_accuracy": 0.9550321199143469,
@@ -44,10 +44,10 @@
   "학습_판정": "기준선보다 나음: 운영 가중치 교체",
   "features": "TF-IDF + L2 (min_df 3, 어휘 6868)",
   "말뭉치": "이 말뭉치로 학습한 가중치다.",
-  "tuning_final_loss": 0.25670466968983596,
-  "tuning_gate_load_std": 0.4698830481446934,
-  "records_before": 7296,
-  "records_added": 6,
+  "tuning_final_loss": 0.25660274403039784,
+  "tuning_gate_load_std": 0.4698817864634191,
+  "records_before": 7302,
+  "records_added": 5,
   "source_status": {
     "arxiv": "ok",
     "robotics": "ok",
