@@ -2,20 +2,20 @@
 title: "모델 라우팅·MoE"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-13T14:32:16.241053+00:00
+updated_at: 2026-10-14T21:54:53.646535+00:00
 tags: [topic, real-data]
-record_count: 131
+record_count: 133
 ---
 
 # 모델 라우팅·MoE
 
-실제 수집 레코드 **131건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **133건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 소스별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[Source--arXiv]] | 56 |
+| [[Source--arXiv]] | 58 |
 | [[Source--Google-Search]] | 28 |
 | [[Source--institutions]] | 17 |
 | [[Source--us_beauty]] | 16 |
