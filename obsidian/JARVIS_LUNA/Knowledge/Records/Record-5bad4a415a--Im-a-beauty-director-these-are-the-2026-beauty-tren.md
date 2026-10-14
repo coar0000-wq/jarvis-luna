@@ -2,7 +2,7 @@
 title: "Record 5bad4a415a · Im-a-beauty-director-these-are-the-2026-beauty-tren"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:30.137288+00:00
+updated_at: 2026-10-14T05:18:28.147552+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["뷰티스킨케어"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uVHZ4NG1tN1k2NVJ4aldOS
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uVHZ4NG1tN1k2NVJ4aldOSkdGNndPSGxMT2oyWnZ1M0NOOTJZSVpiUUQ5VlIyalQ4bjliR2NLUXdPTEFmR0dxeXpxMFVzeWdVWkFZRmQ0LWxKaFZEUDVSMkRLbUw?oc=5)
 
-**제목:** I’m a beauty director, these are the 2026 beauty trends I’ve tried and loved and you will too - getthegloss.com
+**제목:** I’m a beauty director, these are the 2026 beauty trends I’ve tried and loved and you will too - Get the Gloss
 
-I’m a beauty director, these are the 2026 beauty trends I’ve tried and loved and you will too - getthegloss.com
+I’m a beauty director, these are the 2026 beauty trends I’ve tried and loved and you will too - Get the Gloss
 
 **출처:** Source · Google Search
