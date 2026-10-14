@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:36:28.544837+00:00",
+  "generated_at": "2026-10-14T23:25:58.946106+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -65,7 +65,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     },
     {
       "rank": 2,
@@ -127,7 +127,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     },
     {
       "rank": 3,
@@ -199,7 +199,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     },
     {
       "rank": 4,
@@ -261,7 +261,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     },
     {
       "rank": 5,
@@ -344,7 +344,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     },
     {
       "rank": 6,
@@ -416,7 +416,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     },
     {
       "rank": 7,
@@ -498,7 +498,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     },
     {
       "rank": 8,
@@ -580,7 +580,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-14T09:36:33.705319+00:00"
+      "gate_generated_at": "2026-10-14T23:25:59.609941+00:00"
     }
   ],
   "agent_ready_count": 0,
