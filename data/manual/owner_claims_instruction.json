@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "requested_at": "2026-10-13",
+  "request_source": "owner conversation",
+  "requested": "법적증빙 부족은 사용용어만 조심하고 모두 통과시켜 이상있으면 내가 이야기 해줄게",
+  "accepted_scope": "사실 기반 표현과 질병·치료·근거 없는 효능 표현 금지; 사업주 지시와 실제 증빙 상태를 구분",
+  "blanket_evidence_approval_applied": false,
+  "owner_statement_is_safety_substantiation": false,
+  "missing_evidence_remains_missing": true,
+  "source": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra",
+  "implementation": ["data/us_claim_rules.json", "scripts/build_listing_copy_local.py", "scripts/check_legal_products.py", "scripts/manufacturer_safety.py"],
+  "note": "특정 신규 시험이나 제3자 인증만 필수인 것은 아니나 제품별 충분한 안전성 근거 기록은 실제 존재해야 한다. 문구 점검과 안전성 증빙은 별개다."
+}

@@ -143,6 +143,10 @@ def build(root, as_of):
             mapping.setdefault(tag, set()).add(tag)
 
     def category(row):
+        # Official desk membership is authoritative; a broad legacy bucket
+        # must not reroute makeup/body into skincare or fill an unknown desk.
+        if "desk" in row:
+            return row["desk"] if row["desk"] in CATEGORIES else None
         # No name guessing or advisory strategy/comparison grade promotion.
         key = row.get("bucket") or row.get("category_tag") or row.get("category") or ""
         tags = mapping.get(str(key), set())

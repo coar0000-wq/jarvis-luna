@@ -6,7 +6,8 @@
     "reviewed_actions_in_team_feed": 44,
     "applied_with_guard": 1,
     "queued": 1,
-    "applied": 1
+    "applied": 1,
+    "shared-to-team-feeds": 3
   },
   "videos": [
     {
@@ -501,6 +502,100 @@
       "shared": "2026-10-10",
       "takeaway": "KPI 카드 + 클릭 시 상세 패널 + 하단 탭 구조의 운영 대시보드",
       "applied_in": "index.html #daily-pipeline (오늘의 상품 등록 파이프라인, A안)"
+    },
+    {
+      "video_id": "-APXgRtYIAw",
+      "title": "구글 무료 AI 미쳤다. 영상 속 장면까지 찾는다 #Shorts #EmbeddingGemma2 #EmbeddingGemma #구글 #무료AI #RAG",
+      "teams": [
+        "knowledge",
+        "graph",
+        "robotics",
+        "institutions",
+        "design"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-13",
+      "reviewed": "2026-10-13",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56",
+      "takeaway": "멀티모달 검색은 텍스트·사진·영상·오디오를 분리 평가하며 원문·구간·파일 해시를 보존한다. DigUp Mac 데모와 모델의 Windows/Linux 통합을 구분한다.",
+      "rule": "영상 성능 수치를 JARVIS 성능/매출/법적 안전성으로 사용하지 않는다.",
+      "next": "EmbeddingGemma 2 실제 모델 추론은 환경·성능·라이선스 검증 후 별도 도입. Windows에서 Mac용 DigUp 설치 성공으로 표시하지 않는다.",
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-13-multimodal-rea.md",
+        "verified_at": "2026-10-13T10:28:09.517Z"
+      },
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false
+    },
+    {
+      "video_id": "tByhXkxDKDo",
+      "title": "소프트웨어는 끝났다? 앱 통째로 복사하는 미친 오픈소스.. ㄷㄷ",
+      "teams": [
+        "knowledge",
+        "graph",
+        "design",
+        "listing",
+        "channels",
+        "legal"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-13",
+      "reviewed": "2026-10-13",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56",
+      "takeaway": "REA는 분석도구를 연결하는 MCP/CLI다. 자사 또는 허용된 대상을 먼저 제한하고 근거·추정·unknown을 분리해 기능 변경을 검토한다.",
+      "rule": "영상 성능 수치를 JARVIS 성능/매출/법적 안전성으로 사용하지 않는다.",
+      "next": "REA MCP 설치와 실제 역공학은 별도 검증. 자사/권한 확인된 대상에 한정하고 유료 엔진·DRM·접근제어 우회 금지.",
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-13-multimodal-rea.md",
+        "verified_at": "2026-10-13T10:28:09.517Z"
+      },
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "method_applied_proof": [
+        "scripts/beauty_category_teams.py",
+        "scripts/test_beauty_category_teams.py",
+        "NotebookLM ID/title mismatch corrected against YouTube metadata"
+      ]
+    },
+    {
+      "video_id": "F0p9SX9T6As",
+      "title": "리버스 엔지니어링 도구, REA! 20분 만에 앱 복사 완료",
+      "teams": [
+        "knowledge",
+        "graph",
+        "robotics",
+        "sourcing",
+        "market",
+        "pricing",
+        "listing",
+        "legal",
+        "design",
+        "channels"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-13",
+      "reviewed": "2026-10-13",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56",
+      "takeaway": "준비-분석-독립평가를 분리하고 원본과 테스트 대조한다. 근거 오독 한 건도 전체 구조를 왜곡하므로 매핑 오류와 예외 케이스를 회귀 검사한다.",
+      "rule": "영상 성능 수치를 JARVIS 성능/매출/법적 안전성으로 사용하지 않는다.",
+      "next": "REA MCP 설치와 실제 역공학은 별도 검증. 자사/권한 확인된 대상에 한정하고 유료 엔진·DRM·접근제어 우회 금지.",
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-13-multimodal-rea.md",
+        "verified_at": "2026-10-13T10:28:09.517Z"
+      },
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "method_applied_proof": [
+        "scripts/beauty_category_teams.py",
+        "scripts/test_beauty_category_teams.py",
+        "NotebookLM ID/title mismatch corrected against YouTube metadata"
+      ]
     }
   ]
 }

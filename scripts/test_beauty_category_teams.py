@@ -167,6 +167,20 @@ class CategoryTeamsTests(unittest.TestCase):
         self.assertFalse(item["eligible_for_registration"])
         self.assertIn("registry_unavailable", item["blockers"])
 
+    def test_authoritative_desk_overrides_contaminated_legacy_bucket(self):
+        row = self.docs['demand_score']['all_scored'][0]
+        row['desk'] = 'makeup'
+        scopes = self.build()['subteams']
+        self.assertNotIn('1', scopes['skincare']['owned_pd_nos'])
+        self.assertIn('1', scopes['makeup']['owned_pd_nos'])
+        self.assertEqual(scopes['makeup']['canonical_s_count'], 1)
+
+    def test_explicit_unknown_desk_does_not_fall_back_to_bucket(self):
+        self.docs['demand_score']['all_scored'][0]['desk'] = None
+        result = self.build()
+        self.assertTrue(any(r['pd_no'] == '1' for r in result['excluded']))
+        self.assertFalse(any('1' in s['owned_pd_nos'] for s in result['subteams'].values()))
+
     def test_unmapped_category_is_not_guessed_from_name(self):
         self.docs["demand_score"]["all_scored"].append({"pd_no": "6", "bucket": "헤어케어", "name": "body makeup skincare", "grade": "S"})
         result = self.build()

@@ -371,6 +371,7 @@ jobs:
           cat > "$RUNNER_TEMP/deep_24.sh" <<'RELEASE_STAGE_deep_24'
           python -u scripts/build_youtube_review_queue.py
           python -u scripts/build_team_learning.py
+          python -u scripts/build_team_feeds.py
           RELEASE_STAGE_deep_24
           python scripts/collector_result.py run --name deep_24 --optional \
             --output "$RUNNER_TEMP/release-results/deep_24.json" -- bash -e "$RUNNER_TEMP/deep_24.sh"

@@ -78,8 +78,41 @@ def team_hub_link(name: str) -> str | None:
     return f"[[{stem}]]" if (VAULT / "Knowledge" / "Teams" / f"{stem}.md").exists() else None
 
 
+def review_text(value, limit: int = 1200) -> str:
+    # Source text must not synthesize Obsidian relations.
+    return str(value or "UNKNOWN").replace("[[", "［［").replace("]]", "］］").replace("\n", " ")[:limit]
+
+
+def team_video_reviews(learning: dict, team_id: str) -> list[dict]:
+    block = (learning.get("teams") or {}).get(team_id) or {}
+    items = block.get("items") or ([block["this_week_action"]] if block.get("this_week_action") else [])
+    return [{**item, "status": "shared-review-directive",
+             "external_team_execution_verified": False, "business_approval": False}
+            for item in items if isinstance(item, dict) and team_id in (item.get("teams") or [])][:10]
+
+
+def video_review_body(items: list[dict]) -> str:
+    if not items:
+        return ""
+    lines = ["", "", "## 영상 학습 공유 검토 지시", "",
+             "상태: shared-review-directive · 외부 도구 실행·검증된 성과·사업 승인 아님. 검토 시각은 수집/출처 최신성 시각이 아닙니다."]
+    for item in items:
+        ev = item.get("evidence") or {}
+        url = str(ev.get("url") or "")
+        source = f"[외부 영상 원문](<{url}>)" if url.startswith(("https://", "http://")) and not any(c in url for c in "<>\n\r") else "UNKNOWN"
+        lines += ["", f"- {review_text(item.get('tactic'), 200)} ({review_text(item.get('id'), 100)})",
+                  f"  - 적용 검토 과제: {review_text(item.get('action'))}",
+                  f"  - 근거: {source} · 영상 ID: {review_text(ev.get('video_id'), 100)}",
+                  f"  - 타임스탬프: {review_text(ev.get('timestamp'), 200)} · 기준: {review_text(ev.get('timestamp_basis') or ev.get('timestamp_status'), 200)}",
+                  f"  - 원본 검토 시각: {review_text(item.get('reviewed_at'), 100)}"]
+        if ev.get("chapter_hint"):
+            lines.append(f"  - 업로더 챕터 힌트 (자막 시각 아님): {review_text(ev['chapter_hint'], 300)}")
+    return "\n".join(lines)
+
+
 def build() -> dict:
     runtime = load("data/dashboard_runtime.json", {}) or {}
+    learning = load("data/team_learning.json", {}) or {}
     score = load("data/daiso_real/shopify_demand_score.json", {}) or {}
     srec = load("data/daiso_real/shopify_s_recommendations.json", {}) or {}
     gate = {str(r.get("pd_no")): r for r in (load("data/listing_gate.json", {}) or {}).get("items") or []
@@ -138,10 +171,11 @@ def build() -> dict:
     for team in teams:
         team["analysis_completed_at"] = analysis_at
         team["external_team_execution_verified"] = False
+        team["video_learning"] = team_video_reviews(learning, team.get("id"))
     store = [dict(pd_no=pd, **{k: r.get(k) for k in ("title", "category", "date", "status", "single_usd", "single_margin_pct")})
              for pd, r in reg.items()]
     return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(),
-            "source": "dashboard_runtime + shopify_demand_score + shopify_s_recommendations + listing_gate + shopify_daily_registry",
+            "source": "dashboard_runtime + shopify_demand_score + shopify_s_recommendations + listing_gate + shopify_daily_registry + team_learning",
             "desks": desks, "products": products, "teams": teams, "shopify_store": store}
 
 
@@ -176,7 +210,8 @@ def write_vault(doc: dict) -> int:
             extra = "\n\n카테고리 전담팀: " + " · ".join(f"[[{n}]]" for n in DESK_NAME.values())
         body = (f"상태 **{t['status']}** · 원본 보고 시각/표시 {t['source_reported_at'] or 'UNKNOWN'}\n\n로컬 분석 완료: {t.get('analysis_completed_at') or 'UNKNOWN'} (외부 팀 실행 증명 아님)\n\n"
                 f"{t.get('summary') or ''}\n\n다음 작업: {t.get('next_action') or '-'}"
-                + (f"\n\n지식 허브: {hub}" if hub else "") + extra)
+                + (f"\n\n지식 허브: {hub}" if hub else "") + extra
+                + video_review_body(t.get("video_learning") or []))
         changed += write(BRAIN / "Teams" / f"{safe(t['name'])}.md", safe(t["name"]), "team-status",
                          {"team_id": t["id"], "team_status": t["status"], "source_reported_at": t["source_reported_at"], "analysis_completed_at": t.get("analysis_completed_at"), "external_team_execution_verified": False}, body)
     store_rows = ["| 상품 | 카테고리 | 등록일 | 상태 | 가격 | 마진 |", "|---|---|---|---|---|---|"]

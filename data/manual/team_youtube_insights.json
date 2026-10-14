@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-28T12:19:33.892124+00:00",
-  "method": "Gemini Notebook(NotebookLM)으로 자막을 검토하고 타임스탬프 근거가 있는 실행 항목만 채택",
+  "updated_at": "2026-10-13T10:18:18.662Z",
+  "method": "NotebookLM 자막 소스 검토 + YouTube ID/제목/채널 메타데이터 대조. 소스 자막에 시각이 없으면 UNKNOWN으로 보존하고 업로더 챕터는 탐색 힌트로만 사용",
   "policy": "영상의 매출·전환 과장 수치는 근거로 쓰지 않는다. 제품 사실·법률 게이트·자사 측정값을 우선한다.",
   "videos": [
     {
@@ -107,6 +107,42 @@
       "url": "https://www.youtube.com/watch?v=nPbZ6lK2K08",
       "reviewed_at": "2026-09-28",
       "role": "legal 팀 검토"
+    },
+    {
+      "video_id": "-APXgRtYIAw",
+      "title": "구글 무료 AI 미쳤다. 영상 속 장면까지 찾는다 #Shorts #EmbeddingGemma2 #EmbeddingGemma #구글 #무료AI #RAG",
+      "channel": "잔재미코딩(DaveLee)",
+      "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
+      "reviewed_at": "2026-10-13",
+      "role": "knowledge,graph,robotics,institutions,design 팀 검토",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56",
+      "source_type": "notebooklm_transcript_review",
+      "mapping_verified": true,
+      "requested_start_seconds": 0
+    },
+    {
+      "video_id": "tByhXkxDKDo",
+      "title": "소프트웨어는 끝났다? 앱 통째로 복사하는 미친 오픈소스.. ㄷㄷ",
+      "channel": "성공지식백과",
+      "url": "https://www.youtube.com/watch?v=tByhXkxDKDo",
+      "reviewed_at": "2026-10-13",
+      "role": "knowledge,graph,design,listing,channels,legal 팀 검토",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56",
+      "source_type": "notebooklm_transcript_review",
+      "mapping_verified": true,
+      "requested_start_seconds": 110
+    },
+    {
+      "video_id": "F0p9SX9T6As",
+      "title": "리버스 엔지니어링 도구, REA! 20분 만에 앱 복사 완료",
+      "channel": "단테랩스",
+      "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
+      "reviewed_at": "2026-10-13",
+      "role": "knowledge,graph,robotics,sourcing,market,pricing,listing,legal,design,channels 팀 검토",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56",
+      "source_type": "notebooklm_transcript_review",
+      "mapping_verified": true,
+      "requested_start_seconds": 8
     }
   ],
   "insights": [
@@ -445,6 +481,161 @@
       "id": "CHN-20260928-02",
       "reviewed_at": "2026-09-28",
       "notebook_url": "https://notebook.google.com (JARVIS 주간 영상 검토 2026-09-28)"
+    },
+    {
+      "id": "KNW-20261013-01",
+      "pillar": "knowledge",
+      "tactic": "멀티모달 근거 검색과 매체별 평가",
+      "action": "텍스트·사진·영상·오디오를 매체별로 구분하여 출처 경로·원문 링크·파일 해시·구간을 보존하고 Top-5 회수율과 지연을 자사 정답셋으로 비교한다. 임베딩 검색 결과를 검증된 사실이나 옵시디언 확정 관계로 바로 승격하지 않는다.",
+      "evidence": {
+        "video_id": "-APXgRtYIAw",
+        "timestamp": null,
+        "timestamp_status": "not_provided_by_notebooklm",
+        "timestamp_basis": "unknown; uploader chapter is navigation only",
+        "chapter_hint": "전체 쇼츠",
+        "summary": "멀티모달 검색 지원과 개인 Mac 데모이며 Windows/Linux 배포나 JARVIS 성능을 입증하지 않는다.",
+        "source_type": "notebooklm_transcript_review",
+        "mapping_verified": true,
+        "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+      },
+      "prerequisites": [
+        "출처·ID·제목 대조",
+        "실제 모델/MCP 실행은 별도 검증",
+        "예외 케이스와 원본 비교"
+      ],
+      "kpis": [
+        "근거 매핑 불일치 수",
+        "unknown 보존 수",
+        "독립 회귀 테스트 통과 수"
+      ],
+      "teams": [
+        "knowledge",
+        "graph",
+        "robotics",
+        "institutions",
+        "design"
+      ],
+      "applicability": "JARVIS 기존 데이터·코드·팀 작업의 근거 기반 검토",
+      "confidence": "high",
+      "reviewed_at": "2026-10-13",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+    },
+    {
+      "id": "KNW-20261013-02",
+      "pillar": "knowledge",
+      "tactic": "Evidence와 Unknown을 분리한 기능 분석",
+      "action": "JARVIS 자사 코드의 기능 변경을 검토할 때 출처·근거·추정·unknown을 따로 기록한다. 확인되지 않은 설명·제목·넓은 bucket 대신 검증된 데이터 매핑을 사용하고 원본 기능을 회귀 테스트와 대조한다.",
+      "evidence": {
+        "video_id": "tByhXkxDKDo",
+        "timestamp": null,
+        "timestamp_status": "not_provided_by_notebooklm",
+        "timestamp_basis": "unknown; uploader chapter is navigation only",
+        "chapter_hint": "01:22 구조 / 03:32 기존 MCP와 차이 / 09:29 용도",
+        "summary": "REA는 기존 분석 도구를 에이전트에 연결한다. 그림판 데모가 모든 앱의 완벽한 복제나 재배포 권리를 입증하지 않는다.",
+        "source_type": "notebooklm_transcript_review",
+        "mapping_verified": true,
+        "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+      },
+      "prerequisites": [
+        "출처·ID·제목 대조",
+        "실제 모델/MCP 실행은 별도 검증",
+        "예외 케이스와 원본 비교"
+      ],
+      "kpis": [
+        "근거 매핑 불일치 수",
+        "unknown 보존 수",
+        "독립 회귀 테스트 통과 수"
+      ],
+      "teams": [
+        "knowledge",
+        "graph",
+        "design",
+        "listing",
+        "channels"
+      ],
+      "applicability": "JARVIS 기존 데이터·코드·팀 작업의 근거 기반 검토",
+      "confidence": "high",
+      "reviewed_at": "2026-10-13",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+    },
+    {
+      "id": "KNW-20261013-03",
+      "pillar": "knowledge",
+      "tactic": "준비·분석·독립평가 분리와 오독 회귀 검사",
+      "action": "준비 단계가 타깃·권한·정답 기준을 고정하고 분석 단계가 근거와 unknown을 제출한 뒤 독립 평가 단계가 원본 및 예외 케이스를 대조한다. 도구 실행·전체 복제·성과 향상을 검증 없이 완료로 표시하지 않는다.",
+      "evidence": {
+        "video_id": "F0p9SX9T6As",
+        "timestamp": null,
+        "timestamp_status": "not_provided_by_notebooklm",
+        "timestamp_basis": "unknown; uploader chapter is navigation only",
+        "chapter_hint": "07:17 실험 설계 / 14:37 채점표 / 17:14 기능 확장",
+        "summary": "소스 통제·역할 분리 실험에서 근거 오독이 구조를 바꾼 사례가 나왔다. 단일 실험의 점수는 JARVIS의 품질 지표가 아니다.",
+        "source_type": "notebooklm_transcript_review",
+        "mapping_verified": true,
+        "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+      },
+      "prerequisites": [
+        "출처·ID·제목 대조",
+        "실제 모델/MCP 실행은 별도 검증",
+        "예외 케이스와 원본 비교"
+      ],
+      "kpis": [
+        "근거 매핑 불일치 수",
+        "unknown 보존 수",
+        "독립 회귀 테스트 통과 수"
+      ],
+      "teams": [
+        "knowledge",
+        "graph",
+        "robotics",
+        "sourcing",
+        "market",
+        "pricing",
+        "listing",
+        "design",
+        "channels"
+      ],
+      "applicability": "JARVIS 기존 데이터·코드·팀 작업의 근거 기반 검토",
+      "confidence": "high",
+      "reviewed_at": "2026-10-13",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+    },
+    {
+      "id": "LEG-20261013-01",
+      "pillar": "compliance",
+      "tactic": "분석 권한과 제품 안전성 근거 분리",
+      "action": "REA 타깃의 소유·분석 허가·라이선스를 먼저 확인한다. 콘텐츠 문구 점검, 사업주 승인, 실제 상품 안전성·라벨 증빙은 다른 항목으로 기록하고 한 항목의 승인으로 나머지를 통과시키지 않는다.",
+      "evidence": {
+        "video_id": "F0p9SX9T6As",
+        "timestamp": null,
+        "timestamp_status": "not_provided_by_notebooklm",
+        "timestamp_basis": "unknown; uploader chapter is navigation only",
+        "chapter_hint": "21:37 저작권과 약관",
+        "summary": "역공학 권한과 소프트웨어 라이선스는 실제 대상별 검토가 필요하며 제품 안전성 증빙을 대신하지 않는다.",
+        "source_type": "notebooklm_transcript_review",
+        "mapping_verified": true,
+        "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+      },
+      "prerequisites": [
+        "출처·ID·제목 대조",
+        "실제 모델/MCP 실행은 별도 검증",
+        "예외 케이스와 원본 비교"
+      ],
+      "kpis": [
+        "근거 매핑 불일치 수",
+        "unknown 보존 수",
+        "독립 회귀 테스트 통과 수"
+      ],
+      "teams": [
+        "legal",
+        "listing",
+        "sourcing",
+        "knowledge"
+      ],
+      "applicability": "JARVIS 기존 데이터·코드·팀 작업의 근거 기반 검토",
+      "confidence": "high",
+      "reviewed_at": "2026-10-13",
+      "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
     }
   ],
   "rejected_claims": [
@@ -456,7 +647,11 @@
     "드랍쉬핑 스토어 커스텀을 통한 2~3배 고가격 성공 및 26만 건 주문 수치 주장 (IG0V7o6Z3ZE)",
     "Claude UI 디자인 시안 제작 시간 2주에서 1시간 미만 단축 및 외주 비용 400~600만원 절감 수치 주장 (9RUcYdww138)",
     "Liquid Death / Method Soap 등 신규 카테고리 창출 기업들의 수천만 달러 매출 성장 수치 주장 (k520NhbFhIE)",
-    "아마존 입점 시 플랫폼 수수료 30% + 창고비 15% 감안하여 한국 가격의 1.7배 설정 필수 수치 주장 (nPbZ6lK2K08)"
+    "아마존 입점 시 플랫폼 수수료 30% + 창고비 15% 감안하여 한국 가격의 1.7배 설정 필수 수치 주장 (nPbZ6lK2K08)",
+    "-APXgRtYIAw 개인 데모의 정확도·속도 수치를 JARVIS 성능으로 일반화하지 않음",
+    "NotebookLM 최초 답변의 REA 두 영상 ID/제목 뒤바뀜을 메타데이터 대조로 교정함",
+    "자막에서 제공되지 않은 타임스탬프는 만들지 않음",
+    "REA 상용 앱 완벽 복제·모델/MCP 설치 완료·제품 안전성 자동 승인 주장 제외"
   ],
   "rejected_items": []
 }

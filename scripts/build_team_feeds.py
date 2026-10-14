@@ -22,6 +22,8 @@ import json, re, time, urllib.request, html as H
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+from build_team_learning import brief, reviewed_datetime
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = DATA / "team_feeds.json"
@@ -267,6 +269,25 @@ def route(text: str) -> list[str]:
     return [team for team, kws in ROUTE.items() if any(k in low for k in kws)]
 
 
+def insight_rows(doc: dict) -> list[dict]:
+    """Declared routing and item review dates, not document update/capture dates."""
+    videos = {v.get("video_id"): v for v in doc.get("videos") or [] if isinstance(v, dict)}
+    rows = []
+    for ins in doc.get("insights") or []:
+        if not ins.get("tactic") or not ins.get("teams"):
+            continue
+        item = brief(ins, videos)
+        ev = item["evidence"]
+        dt = reviewed_datetime(ins.get("reviewed_at"))
+        rows.append({"title": f"[영상 학습 {ins.get('id')}] {ins['tactic']}", "url": ev["url"],
+                     "date": dt.date().isoformat() if dt else "", "date_basis": "reviewed_at",
+                     "reviewed_at": ins.get("reviewed_at"), "pool": "youtube_insight",
+                     "teams": ins["teams"], "evidence": ev, "status": "shared-review-directive",
+                     "summary": f"공유 검토 지시: {ins.get('action') or ''} (근거 {ev.get('timestamp') or 'UNKNOWN'}; 실행·성과 검증 아님)",
+                     "text": str(ins.get("action") or "")[:600]})
+    return rows
+
+
 def main() -> int:
     pools = []
     rs = load(DATA / "knowledge" / "real_sources.json")
@@ -348,18 +369,7 @@ def main() -> int:
     for src in (DATA / "manual" / "shopify_youtube_insights.json",
                 DATA / "manual" / "team_youtube_insights.json"):
         doc = load(src) or {}
-        vids = {v.get("video_id"): v for v in (doc.get("videos") or []) if isinstance(v, dict)}
-        for ins in (doc.get("insights") or []):
-            ev = ins.get("evidence") or {}
-            v = vids.get(ev.get("video_id")) or {}
-            url = v.get("url") or (f"https://www.youtube.com/watch?v={ev.get('video_id')}" if ev.get("video_id") else "")
-            if not ins.get("tactic") or not ins.get("teams"):
-                continue
-            pools.append({"title": f"[영상 학습 {ins.get('id')}] {ins['tactic']}", "url": url,
-                          "date": str(doc.get("updated_at") or "")[:10], "pool": "youtube_insight",
-                          "teams": ins.get("teams") or [],
-                          "summary": f"{ins.get('action', '')} (근거 {ev.get('timestamp', '')})",
-                          "text": str(ins.get("action") or "")[:600]})
+        pools.extend(insight_rows(doc))
 
     yc = load(DATA / "youtube_channels.json")
     for c in ((yc or {}).get("items") or []):
@@ -405,7 +415,7 @@ def main() -> int:
             unrouted += 1
             continue
         for t in hits:
-            row = {k: it[k] for k in ("title", "url", "pool", "summary") if k in it}
+            row = {k: it[k] for k in ("title", "url", "pool", "summary", "teams", "reviewed_at", "date_basis", "evidence", "status") if k in it}
             row["date"] = iso_date(it.get("date", ""))
             # 사람이 직접 넣은 것은 위에 둔다. 골라 넣은 자료가 자동
             # 수집분에 밀려 안 보이면 넣은 의미가 없다.
