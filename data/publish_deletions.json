@@ -244,33 +244,16 @@
       "delete_file": false
     },
     {
-      "path": "data/knowledge/moe_tuning_report.json",
-      "base_sha256": "249ef74a0300b1b61fbf1f6964d22b0d1eea1d88b403f1bed3b6b5a3c9ebe020",
-      "replacement_sha256": "e2bc0146724f7e288c88f2b9bb1d0ce598d329898debf7a39cad4e96e90e385b",
-      "ids": [
-        "0.001007",
-        "0.001145",
-        "0.997847"
-      ],
-      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
-      "policy_ref": "scripts/moe_evaluation_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/knowledge/real_sources.json",
-      "base_sha256": "32a99c1be0a6cc7718533fb7fb9574dfdea3dc0dff7ff583c0e940e2f70a6985",
+      "base_sha256": "343e6ab2a71179518c1d582c8b6b5200930211cbdcb5b9efe7ef4c04cbd68975",
       "ids": [
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaE42dkVYNXJyRE85UEtaenk4endfdWpTaTIxbW9INWdBd1Z1bm1zaW5odWxUaWlXd1U2b3pvVlRDNWUwMEo3eXQzMEZxQmxBc3pXemExbDJaWEdSeklWR05WQlNUd2ZpWGwtanNxUVdwM3pOaFJLZWRYNnF2cGJSelNpbklQbG9GSHRlZzN1N0hLOEY2Y1Z5MXpSQlc3ZUNfMFl0N1dOMnRmM1RVeFMwbEExVTZEUHJBM2IwOEJNMkVmNEQ2TWxFSUtXei14TmlSTnVVVVp0bXdVQ0E?oc=5",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85V1RnLU1nUnJKaVhwd19BLTNIS1RzRXpPbjVENUZycW1mOURrdy16dWh2b1ZFQ0JUN2I4dUdZdXpxVVpLSGVJOWVrbUZCZWloOFE?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Bc2pYX0tMS0pIVGl5cmFvZF9TQmkxTEhjQWM0LU1ranZuSnh0bVBucE42TjJlLXhwQUh3cEN6c2xmMzRFZE9QTC1JRTY4NGVyLUFjRTl4YkljdVk?oc=5",
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTM3dWS3FGdWtSOG9Yak8wclNZSFJVZ3dzem9kRXczVUNHZ2FpRHVSbUtLRkxoZVdhekotYWlmZUdrakRxeVBhaXd3X3UyQV9tZzZoa0FyODItUGx3Skw4?oc=5",
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SeDcyanR1YTlpMWEyNlk5WEp3MHdYLW13OVNsUEFqbEtNRmtnT2NOdm9kaEJEdkpCUGkwNTNWRVVqeEtfR1lZS3VQX2RLbl9NWENrdDVNRlZ4OTlNZ0owbDRCQlA?oc=5",
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WY0Nqb1JBYUxSZkxMeFZMcWtRMWZ1Mzk0SkhGN2k4RjVJc0ZOR1p6bzAzZ3ZiYTN3cHBJX184TTM2bEJQRFFFNlIwWmZtNE5USEZ3TXNYT29zN3cyZ2tfcmFDVEJlZw?oc=5",
-        "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjQjBtU2RsRGFLQnhyWkZLeFdKa2pZVVRpaURhTlg3bGNsU0hjX2ZSVFdoQlh1bFFhZHMzeEdrbWVEQXptaUlYc0xWdXZVNU84SVdFVFhNU2JOUkw2Q0N0ZmRTQ1FBeXZsUkkxNWRiUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFR0Slg1M0dud2k3S1dqNld0N3lBeWZqSVczWndQNkZuVTJmRVlqV3FFSDVlREw0VVZpOEY4MTAzZ3VDb192c0Z2MWRhalBjeTBPNGVOTVlYWXFDTkw0RjFIeFhCaHUyVV9acWhBWnh5WjdvdGhibnM5ZDRpdW1vNm5peDkxV1drMkp6dEZ6V2IyZw?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSTRhMG01MkxJOFhMVVljdFRnSzV0RmFZaTg2ZnVPbW5vT3NrTEhhTTRuMkxCVmVGY0V4UHpYZXhmelYxWlp6WG9DNV82Si1hN2xDQzlBNmo1dER0YW5xR3pCTkxQX1E5OWpmQnhGZmZ2MGFaeUxXcGZVY1JEYy0tZ0JYT1lIc3FHTVE5RWRGaEdRd3FRbUU4RWJmV29nTFQ1OWpkWmp3VQ?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSkpqMmtIb0NjRjN3djhoaHZjdEQtQ3M5cEota1N1NTVtMDhKMjVVWmd2cmd3eVVQMnJtOERkaExaMk9OeThCRGMwaVhnc25UUVVwcXpod0pYbGRfeW1yVUhiakJoUWlIVTdDRm1sUVRHNU9PZzBaNVU4V2phcjNFNkRJUTd0Ymw5YTJGZUFnMzIxZFFCc3V5LVhpV181TU1fQ3ZqamUwR3R6RHYzNk0xeg?oc=5",
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fS1ItX0gtclFfSDFOdC1ka1RXRnpDMTN1VHlJZE5iQno0eHhoNm9ZNkNNclIwQ0U1cXZmUTZIcUlnSHlQN1BEcFBQQm1rQ255SExOVXhoRThjbEZjLXZMZVFtUzVVMW1BTVdVUA?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMc2VTdkpJTjUtM0g4azhIVXdaVUtCd3hqNDNGak9FM2t0OHFLcEZNLVQ5UTV2YnFhT0JSTlpXQlJQTjhyUjdiMlZnTDVIdFljTTJ6RlFseUJGZW9wTHNMRjFsNklENVJYcXR0NQ?oc=5",
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSE02eTRlczlNYkpRLWJfNzNVMVNEMXA4UmVXREZiM09NWjlncXdKRTRROGRuV0QtWXlxVWw4NGdlTW5YcHQzckZlbkFfUXI1OVhfZEFPallRQnNJeHVwLTRJYkxpaVUyN0U1NXo0SEV5RWdqOEw1N0plM25nck1pbQ?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEdXZkJ4elFVYXdPUmZybHc0SXhWS2ItY1N6SmgzYmtxMWxUeHMxYmhVbVJqYXRXNDBqZUphaVRWaWU5aVowZVRramhWaU1KUXRKZnllWFJfMW0yUmpjamxnLWVCOG1NeDg3N2F1N2JLQ2dSOFVkR0ZOOUh1VEFiZlcxV3Q1NlRUcUtSeDFB?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeU5xbHV3ZlRVbzhTTW93RUVydWM5cmFZU2t6X19UWl90NlA2Z2ZTZFA1UEFDMWtsa2Z2dzdoaWVaazF5OFpxRmljbGlSQUZwYWdvaUhuS2t3UTdJQnZuMGNnQkhrYkdZZ2c5SnRFVFNJZmZQWGtGeGxrUUtmWS1jaUN3cjZTVEVtOENpNGhPTUNrQdIBlwFBVV95cUxNX0JSTWV1eWJOVXBOUFdWUmh2ZVNjWUZNWVRQUGxvSDM4aXluUk43Y1I2aW5vZ0hDaWZKN19zb3VSVUpZdXF4VUVoYklhMTE4TFhvWWsxQnRvOXNtQjRlUEl4WC1MV2YweTNOcTQxbHBwMElPUGxQekw1X1Y0MVNYS0FKYldvNXVIdVNKanFyRlo1elhUSEx3?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNkZZd2k1dnVPX1VDRGR3dUVTcmlOTzRFWFJWU2JuUk82ZERxYkQ5RDFXMWFMMG12MmdHaVh4SzBsTkFwbG1HNDlwTmxvRmN0RlgtTU00dlV3a1NtODk1cEJlQ2ZyTEVlS0lXM21oelFXYTliaXdpOTNCbjhvbl9hME5ocGZaWkF1LVBrS19tNFB4cUF2Wm9tTEpwWFk?oc=5",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYW52MjFVbUxBbXpNOE8tWmRUZ19uX21kVi1IMk5TWm5ZMmpsWXliSDR4NTBtQzlfbkJsbkJoMW5qdVpyd3JCU1NMNmRtdTNWWjMyZ2NIZXJEZmRCLTlzNzJRWW96MmZKN3FZVm1IRXo5YVZ3OGMyOW5BdkRKVGE1NnBVVlk3S202WkFXNDVBckZ0aU5MU1RBVWxxaWFjaGVIdWtrVEpvLUJ6Qkw1R3BPVVZ2Zw?oc=5"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
