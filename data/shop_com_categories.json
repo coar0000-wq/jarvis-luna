@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-13T07:17:53+00:00",
+  "collected_at": "2026-10-14T05:43:31+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -191,8 +191,8 @@
       "list_price_text": "",
       "price_usd": 35.0,
       "discount_pct": null,
-      "rating": 3.0,
-      "reviews": 2,
+      "rating": 3.7,
+      "reviews": 3,
       "url": "https://shop.com/products/9503625838831/a-taste-of-caviar-mini-caviar-stick-eye-shadow-trio",
       "page": "Explore"
     },
@@ -218,7 +218,7 @@
       "price_usd": 26.0,
       "discount_pct": null,
       "rating": 4.7,
-      "reviews": 451,
+      "reviews": 453,
       "url": "https://shop.com/products/6538134650937/brow-pop",
       "page": "Beauty"
     },
@@ -309,7 +309,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2071,
+      "reviews": 2073,
       "url": "https://shop.com/products/7739001766060/pout-preserve-hydrating-peptide-lip-treatment",
       "page": "Beauty"
     },
@@ -322,7 +322,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2847,
+      "reviews": 2848,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
