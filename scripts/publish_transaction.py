@@ -89,6 +89,11 @@ def identity(rows, fields):
 
 def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None):
     candidate = name == 'data/daiso_real/candidate_pool.json'
+    # Import diagnostics are exact replacements, regardless of which producer
+    # wrote the manifest. Missing hashes must not fall through a legacy entry.
+    import_report = name == 'data/shopify_import_report.json'
+    if import_report and (base is None or replacement is None or removed is None):
+        return False
     if candidate:
         if base is None or replacement is None or removed is None:
             return False
@@ -100,6 +105,8 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None, cand
     for record in (manifest or {}).get('deletions', []):
         if (isinstance(record, dict) and record.get('path') == name
                 and record.get('base_sha256') == sha(base)
+                and (not import_report or (record.get('replacement_sha256') == sha(replacement)
+                    and record.get('delete_file') is False))
                 and (candidate or record.get('policy_ref') != 'scripts/candidate_pool_history.py')
                 and (not candidate or (record.get('policy_ref') == 'scripts/candidate_pool_history.py'
                     and record.get('ids') == sorted(set(removed)) and record.get('delete_file') is False))

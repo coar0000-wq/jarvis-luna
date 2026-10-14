@@ -40,6 +40,12 @@ on:
         required: false
         default: 'MD family'
 
+      offline_verification:
+        description: '검증 발행: 모델 API 없이 로컬 생성기와 규칙 기반 게이트만 실행'
+        type: boolean
+        required: false
+        default: false
+
   # S등급 정본이 갱신되면 자동 실행
   push:
     paths:
@@ -64,7 +70,7 @@ jobs:
 
     # 게이트가 돌 때 Jev 보조 판정도 같이 남긴다. 무료 크레딧 한도 안에서만 한다.
     env:
-      TYPESAFE_ENABLED: ${{ github.ref == 'refs/heads/main' && '1' || '0' }}
+      TYPESAFE_ENABLED: ${{ github.ref == 'refs/heads/main' && inputs.offline_verification != true && '1' || '0' }}
       TYPESAFE_FREE_CREDITS_ONLY: '1'
       TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_SHARED_API_KEY }}
       TYPESAFE_ORG_ID: ${{ vars.TYPESAFE_ORG_ID }}
@@ -76,7 +82,7 @@ jobs:
       TYPESAFE_ACCOUNT_MAX_COST_USD: '1.0'
       TYPESAFE_MAX_CALLS: '40'
       TYPESAFE_MAX_INPUT_TOKENS: '60000'
-      GEMINI_FALLBACK_ENABLED: '1'
+      GEMINI_FALLBACK_ENABLED: ${{ inputs.offline_verification == true && '0' || '1' }}
       GEMINI_FREE_TIER_ONLY: '1'
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
@@ -215,7 +221,7 @@ jobs:
       # 할당량(429)이 끝나도 여기서 멈추지 않는다. 다음 단계의 무료
       # 로컬 생성기가 빈 칸을 메우고, 검증 단계가 결과를 다시 본다.
       - name: Gemini 영문 카피 생성
-        if: steps.guard.outputs.ready == 'true'
+        if: ${{ steps.guard.outputs.ready == 'true' && inputs.offline_verification != true }}
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -514,6 +520,11 @@ jobs:
       # 공통 publish 액션이 최신 main 위에 이번 실행의
       # 변경 파일만 안전하게 얹는다.
       # -------------------------------------------------------
+      # Only retired diagnostic skipped rows, bound to exact base/replacement bytes.
+      # Product/safety/label sources and collector rotation scopes are unchanged.
+      - name: Shopify 임포트 진단 보고서 교체 사유 기록 (가드 유지)
+        run: python -B scripts/build_shopify_import_csv.py --record-publication
+
       - name: 환율·파생 상태 보고서 교체 사유 기록 (가드 유지)
         run: python -B scripts/collector_snapshot_history.py data/daiso_real/collection_status.json data/agents/daiso_pipeline_health.json
 

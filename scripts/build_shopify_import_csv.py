@@ -31,6 +31,8 @@ Shopify 규격 근거
 """
 from __future__ import annotations
 
+import argparse
+import subprocess
 import csv
 import json
 import os
@@ -74,6 +76,124 @@ def handle_of(title: str, pd_no: str) -> str:
 def clean_tag(t: str) -> str:
     t = re.sub(r"[^a-z0-9\- ]+", "", str(t).lower()).strip()
     return re.sub(r"\s+", "-", t)[:40]
+
+
+
+REPORT_REL = "data/shopify_import_report.json"
+PUBLICATION_REF = "scripts/build_shopify_import_csv.py"
+
+
+def report_removal_ids(old: dict, new: dict, policy: dict) -> list[str]:
+    """Only retired rows in the derived skipped list may disappear.
+
+    Never authorize root/nested field removal or the removal of evidence from
+    surviving rows. This is not a product, safety, label or owner-deletion waiver.
+    """
+    from scripts.publish_transaction import identity, removed_identities
+
+    def preserve(before, after, where):
+        if isinstance(before, dict):
+            if not isinstance(after, dict) or not before.keys() <= after.keys():
+                raise ValueError(f"report field/container removal: {where}")
+            for key, value in before.items():
+                preserve(value, after[key], f"{where}/{key}")
+        elif isinstance(before, list):
+            if not isinstance(after, list):
+                raise ValueError(f"report list replaced: {where}")
+            field = identity(before + after, policy["identity_fields"])
+            if field:
+                rows = {str(row[field]): row for row in after}
+                for row in before:
+                    if str(row[field]) not in rows:
+                        raise ValueError(f"report identity removal outside skipped: {where}")
+                    preserve(row, rows[str(row[field])], where)
+            elif any(value not in after for value in before):
+                raise ValueError(f"report list evidence removed: {where}")
+        elif isinstance(before, str):
+            if not isinstance(after, str) or (before.strip() and not after.strip()):
+                raise ValueError(f"report text evidence removed/type changed: {where}")
+        elif isinstance(before, bool):
+            if not isinstance(after, bool):
+                raise ValueError(f"report boolean type changed: {where}")
+        elif isinstance(before, (int, float)):
+            # Counts and current prices may legitimately become zero. Booleans,
+            # nulls and numeric-looking strings are not numeric observations.
+            if not isinstance(after, (int, float)) or isinstance(after, bool):
+                raise ValueError(f"report numeric type changed: {where}")
+        elif isinstance(after, (dict, list)):
+            raise ValueError(f"report scalar/container type changed: {where}")
+
+    if not isinstance(old, dict) or not isinstance(new, dict):
+        raise ValueError("report must remain an object")
+    if "skipped" not in old or "skipped" not in new:
+        raise ValueError("report skipped list missing")
+    rows = []
+    for doc in (old, new):
+        items = doc["skipped"]
+        if not isinstance(items, list) or any(
+                not isinstance(row, dict) or not isinstance(row.get("pd_no"), str)
+                or not row["pd_no"] for row in items):
+            raise ValueError("report skipped rows require explicit pd_no")
+        indexed = {row["pd_no"]: row for row in items}
+        if len(indexed) != len(items):
+            raise ValueError("duplicate skipped pd_no")
+        rows.append(indexed)
+    previous, current = rows
+    preserve({k: v for k, v in old.items() if k != "skipped"},
+             {k: v for k, v in new.items() if k != "skipped"}, REPORT_REL)
+    for pd_no in previous.keys() & current.keys():
+        preserve(previous[pd_no], current[pd_no], f"skipped/{pd_no}")
+    ids = sorted(previous.keys() - current.keys())
+    if set(removed_identities(old, new, policy, where=REPORT_REL)) != set(ids):
+        raise ValueError("report removals are not exclusively retired skipped rows")
+    return ids
+
+
+def record_publication(root: Path) -> dict:
+    """Bind this diagnostic replacement to exact committed and produced bytes.
+
+    The prior report is read from Git at the recorded base_commit. The publisher
+    verifies exact base/replacement bytes, not the commit pointer independently.
+    Any later edit or concurrent merge changing those bytes invalidates this manifest.
+    """
+    root = Path(root)
+    if str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    from scripts.publish_transaction import deletion_authorized, overlay, sha
+
+    commit = subprocess.run(["git", "-C", str(root), "rev-parse", "HEAD"],
+                            check=True, capture_output=True, text=True).stdout.strip()
+    base = subprocess.run(["git", "-C", str(root), "show", f"{commit}:{REPORT_REL}"],
+                          check=True, capture_output=True).stdout
+    replacement = (root / REPORT_REL).read_bytes()
+    policy = json.loads((root / "config/publish_policy.json").read_text(encoding="utf-8"))
+    ids = report_removal_ids(json.loads(base), json.loads(replacement), policy)
+    mpath = root / "data/publish_deletions.json"
+    manifest = json.loads(mpath.read_text(encoding="utf-8")) if mpath.exists() else {"schema_version": 1, "deletions": []}
+    if manifest.get("schema_version") != 1 or not isinstance(manifest.get("deletions"), list):
+        raise ValueError("publish deletion manifest malformed")
+    if any(not isinstance(entry, dict) for entry in manifest["deletions"]):
+        raise ValueError("publish deletion manifest entries malformed")
+    # Keep every unrelated authorization intact; refresh only this producer's entry.
+    result = dict(manifest)
+    result["deletions"] = [entry for entry in manifest["deletions"]
+                           if not (entry.get("path") == REPORT_REL
+                                   and entry.get("policy_ref") == PUBLICATION_REF)]
+    if ids:
+        result["deletions"].append({
+            "path": REPORT_REL, "base_commit": commit,
+            "base_sha256": sha(base), "replacement_sha256": sha(replacement),
+            "ids": ids, "delete_file": False, "policy_ref": PUBLICATION_REF,
+            "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted.",
+        })
+        if not deletion_authorized(REPORT_REL, base, ids, result, replacement=replacement):
+            raise ValueError("report replacement manifest rejected")
+        # Check the actual publisher serialization too, before persisting any entry.
+        if overlay(REPORT_REL, base, replacement, base, policy, result) != replacement:
+            raise ValueError("report bytes must match publisher serialization")
+    if result != manifest:
+        mpath.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    return {"path": REPORT_REL, "retired_skipped_ids": ids, "base_commit": commit}
 
 
 def main() -> int:
@@ -227,7 +347,7 @@ def main() -> int:
         ],
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n",
-                      encoding="utf-8")
+                      encoding="utf-8", newline="\n")
 
     print(f"CSV {len(rows)}건 -> {OUT.relative_to(ROOT)}")
     print(f"환율: {fx_note}")
@@ -246,4 +366,11 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--record-publication", action="store_true",
+                        help="Record exact report-only replacement reason, without generating data")
+    args = parser.parse_args()
+    if args.record_publication:
+        print(json.dumps(record_publication(ROOT), ensure_ascii=False))
+    else:
+        sys.exit(main())
