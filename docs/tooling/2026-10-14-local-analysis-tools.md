@@ -22,7 +22,7 @@
 - 텍스트/코드270M 설정, CPU BF16, 오프라인, `trust_remote_code=False`. FP16은 사용하지 않는다.
 - 실제 추론 검증 **4/4 통과**: 텍스트와 코드에서 각각768d·정규화256d를 생성하고 모든 벡터 유한값·단위 길이·정답top1을 확인했다. 실제 로드271,002,624 parameters, CPU AVX2 software BF16, peak RSS1,372,971,008 bytes, 테스트37.968초. 이는 작은 소유 fixture 실측이며 전체 지식 검색 품질/벤치마크를 입증하지 않는다.
 - 256d 실제 top1 cosine: 텍스트0.8697633, 코드0.7554138. 별도 실사용 `search.py` CLI도 정답문서top1 및 종료코드0 확인. 명시적으로 선택한 JSON 문서만 읽고 자동 파일 탐색을 하지 않으며 기본256-token truncation 한계를 표시한다.
-- 이미지·오디오·영상 추론은 검증하지 않았고 성능 향상을 주장하지 않는다.
+- 이 기본 증거는2026-10-14 텍스트·코드 검증이다. 추가 이미지 검증의 성공 여부는 별도 로컬 `vision-evidence.json`에서 확인해야 한다. 오디오·영상 추론과 전체 지식 검색 성능 향상은 검증하지 않았다.
 - 첫 pip 실행이 상속된 플랫폼 `PIP_PREFIX`를 따라 공용 런타임에 설치된 환경변수 충돌이 있었다. 삭제/강제 롤백 없이 별도 venv로 다시 설치했고 두 환경의 의존성 검사를 통과했다. 후속 설치는 명시적 owned prefix만 사용한다.
 
 ## JARVIS 호출 경로
@@ -47,7 +47,9 @@ $env:JARVIS_LOCAL_TOOLS_ROOT = '<영구 설치 디렉터리>'
 
 ## 카피 게시 가드
 
-`shopify_import_report.json`의 이전 skipped 진단 행이 현재 후보8개로 교체되며 발생한 identity removal을 보고서 한 경로에만 허용한다. 정확한 기존/새 바이트 SHA256과 삭제 사유가 필수이고 hash 누락·변조·동시 변경·필드/빈 증거 삭제는 거부한다. `base_commit`은 과거 보고서 위치 기록이며 publisher가 독립 검증하는 것은 정확한 바이트 해시다. 제품·라벨·안전·owner-deleted1049275 제약은 그대로 유지한다. 새 보고서 테스트15개와 기존 publisher merge 테스트18개 통과. 실제 게시 검증용 `workflow_dispatch.offline_verification=true`는 TypeSafe·Gemini API를 비활성화하고 로컬 생성·안전 게이트·게시 검증은 유지한다. 평상시 자동화 동작은 바꾸지 않는다.
+`shopify_import_report.json`의 이전 skipped 진단 행이 현재 후보8개로 교체되며 발생한 identity removal을 보고서 한 경로에만 허용한다. 정확한 기존/새 바이트 SHA256과 삭제 사유가 필수이고 hash 누락·변조·동시 변경·필드/빈 증거 삭제는 거부한다. `base_commit`은 과거 보고서 위치 기록이며 publisher가 독립 검증하는 것은 정확한 바이트 해시다. 제품·라벨·안전·owner-deleted1049275 제약은 그대로 유지한다. 추가로 `shopify_listing_copy.json`의 과거 초안10개를 현재 S8개로 정리할 때, 이전 공개 초안을 `draft_history`에 별도 해시와 `historical_not_approval=true`로 보존한다. 기존 history는 변경하지 않고 시간 갱신만으로 이력을 늘리지 않는다. 현재 항목은 정본 S·게이트와 일치해야 하며, 과거 초안은 CSV·등록 가능 개수에 포함하지 않는다.
+
+2026-10-15 최신 정본 위에서 카피 교체7개·보고서15개·기존 로컬 카피14개·전체 publisher46개, 총82개 테스트 통과. 테스트 입력은 고정된 격리 fixture이고 현재 데이터 갱신 후에도 유지된다. 별도로 실제 최신 데이터를 복사한 격리 교체도 검증했고 원본 바이트는 그대로다. 실제 게시 검증용 `workflow_dispatch.offline_verification=true`는 TypeSafe·Gemini API를 비활성화하고 로컬 생성·안전 게이트·게시 검증은 유지한다. 평상시 자동화 동작은 바꾸지 않는다.
 
 ## 공식 근거
 

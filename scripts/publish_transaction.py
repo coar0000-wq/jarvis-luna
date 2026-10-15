@@ -87,7 +87,18 @@ def identity(rows, fields):
     return None
 
 
-def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None):
+def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None, copy_evidence=None):
+    listing_copy = name == 'data/shopify_listing_copy.json'
+    if listing_copy:
+        if base is None or replacement is None or removed is None or copy_evidence is None:
+            return False
+        try:
+            from scripts.build_listing_copy_local import verify_copy_replacement
+            expected_copy_ids = verify_copy_replacement(base, replacement, *copy_evidence)
+            if sorted(set(removed)) != expected_copy_ids:
+                return False
+        except (ValueError, TypeError, KeyError):
+            return False
     candidate = name == 'data/daiso_real/candidate_pool.json'
     # Import diagnostics are exact replacements, regardless of which producer
     # wrote the manifest. Missing hashes must not fall through a legacy entry.
@@ -105,6 +116,9 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None, cand
     for record in (manifest or {}).get('deletions', []):
         if (isinstance(record, dict) and record.get('path') == name
                 and record.get('base_sha256') == sha(base)
+                and (not listing_copy or (record.get('replacement_sha256') == sha(replacement)
+                    and record.get('policy_ref') == 'scripts/build_listing_copy_local.py'
+                    and record.get('ids') == expected_copy_ids and record.get('delete_file') is False))
                 and (not import_report or (record.get('replacement_sha256') == sha(replacement)
                     and record.get('delete_file') is False))
                 and (candidate or record.get('policy_ref') != 'scripts/candidate_pool_history.py')
@@ -265,7 +279,7 @@ BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
     'data/daiso_real/candidate_pool.json','data/agents/daiso_pipeline_receipts.json'))
 
 
-def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None):
+def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None):
     # Exact immutable history bytes must never be reformatted, merged or pruned.
     # Their filenames bind SHA256 of the original snapshots, not parsed JSON.
     if name.startswith(IMMUTABLE_HISTORY_PREFIXES):
@@ -283,7 +297,15 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
         return local
     if name in PERSISTENT_SOURCE_FILES and remote not in (None, base, local):
         raise PublishError(f'competing safety checkpoint requires reconciliation: {name}')
-    authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local, candidate_history=candidate_history)
+    if name == 'data/shopify_listing_copy.json' and base is not None:
+        try:
+            from scripts.build_listing_copy_local import verify_copy_replacement
+            if copy_evidence is None or local is None:
+                raise ValueError('copy evidence missing')
+            verify_copy_replacement(base, local, *copy_evidence)
+        except (ValueError, TypeError, KeyError) as exc:
+            raise PublishError('listing copy canonical/history evidence invalid') from exc
+    authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local, candidate_history=candidate_history, copy_evidence=copy_evidence)
     if name == 'data/daiso_real/candidate_pool.json' and base is not None and local is not None:
         try:
             from scripts.candidate_pool_history import replacement_ids, verify_evidence
@@ -321,7 +343,7 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
         # a hybrid ledger or destroy its byte-bound failed-run artifact evidence.
         exact_stage = (name in BYTE_BOUND_STAGE_FILES or operations_report) and remote in (None, base, local)
         result = local if name in PERSISTENT_SOURCE_FILES or exact_stage else json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
-        if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history):
+        if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history, copy_evidence=copy_evidence):
             raise PublishError(f'replacement snapshot is not authorized after merge: {name}')
         return result
     if remote in (None, base, local):
@@ -367,6 +389,10 @@ class Transaction:
                 actual = self.delta[name][1] if name in self.delta else at_ref(self.root, self.base, name)
                 if actual != self.candidate_history[digest]:
                     raise PublishError('candidate archive omitted from publication paths')
+        self.copy_evidence = None
+        if 'data/shopify_listing_copy.json' in self.delta:
+            from scripts.build_listing_copy_local import SOURCE_REL, GATE_REL
+            self.copy_evidence = ((self.root/SOURCE_REL).read_bytes(), (self.root/GATE_REL).read_bytes())
         self.attempts = []
 
     def capture(self):
@@ -545,7 +571,7 @@ class Transaction:
                             continue  # Regenerate, never reuse stale derivatives.
                         p = work/name
                         remote = p.read_bytes() if p.exists() else None
-                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history)
+                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence)
                         if value is None:
                             p.unlink(missing_ok=True)
                         else:
@@ -559,6 +585,13 @@ class Transaction:
                             raise PublishError('source safety pair validation failed') from exc
                     reports = temp/f'reports-{number}'; reports.mkdir()
                     self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
+                    if self.copy_evidence is not None:
+                        from scripts.build_listing_copy_local import COPY_REL, SOURCE_REL, GATE_REL, verify_copy_replacement
+                        try:
+                            verify_copy_replacement(self.delta[COPY_REL][0], (work/COPY_REL).read_bytes(),
+                                                    (work/SOURCE_REL).read_bytes(), (work/GATE_REL).read_bytes())
+                        except (ValueError, TypeError, KeyError) as exc:
+                            raise PublishError('final listing copy differs from regenerated canonical gate/history') from exc
                     if safety_before is not None:
                         final_safety = {n:(work/n).read_bytes() for n in ALLOWLIST if (work/n).exists()}
                         _validate(final_safety)

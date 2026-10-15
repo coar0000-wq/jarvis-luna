@@ -523,7 +523,9 @@ jobs:
       # Only retired diagnostic skipped rows, bound to exact base/replacement bytes.
       # Product/safety/label sources and collector rotation scopes are unchanged.
       - name: Shopify 임포트 진단 보고서 교체 사유 기록 (가드 유지)
-        run: python -B scripts/build_shopify_import_csv.py --record-publication
+        run: |
+          python -B scripts/build_listing_copy_local.py --record-publication
+          python -B scripts/build_shopify_import_csv.py --record-publication
 
       - name: 환율·파생 상태 보고서 교체 사유 기록 (가드 유지)
         run: python -B scripts/collector_snapshot_history.py data/daiso_real/collection_status.json data/agents/daiso_pipeline_health.json

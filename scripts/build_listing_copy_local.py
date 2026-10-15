@@ -135,6 +135,141 @@ def local_copy(name: str, gate_row: dict) -> dict:
     }
 
 
+COPY_REL = "data/shopify_listing_copy.json"
+SOURCE_REL = "data/daiso_real/shopify_s_recommendations.json"
+GATE_REL = "data/listing_gate.json"
+HISTORY_KEY = "draft_history"
+
+
+def verify_current(doc, source, gate):
+    """Current rows equal canonical S members; historical drafts are not approval."""
+    if source.get("canonical") is not True:
+        raise ValueError("copy requires canonical S source")
+    def index(rows):
+        if not isinstance(rows, list) or any(not isinstance(r, dict) or not r.get("pd_no") for r in rows):
+            raise ValueError("copy/source/gate rows require pd_no")
+        result = {str(r["pd_no"]): r for r in rows}
+        if len(result) != len(rows):
+            raise ValueError("duplicate copy/source/gate identity")
+        return result
+    canonical = index(source.get("recommendations"))
+    current = index(doc.get("items"))
+    gates = index(gate.get("items"))
+    if set(current) != set(canonical) or not set(current) <= set(gates):
+        raise ValueError("current copy membership differs from canonical S/gate")
+    for key in ("generated_at", "generator", "model", "source", "note"):
+        if not isinstance(doc.get(key), str) or not doc[key].strip():
+            raise ValueError("blank current copy provenance")
+    eligible = 0
+    for pd_no, row in current.items():
+        gr = gates[pd_no]
+        for target, key in (("name_ko", "name"), ("bucket", "bucket"), ("price_krw", "price_krw"),
+                            ("rating", "rating"), ("review_count", "review_count"), ("shopify_score", "shopify_score"),
+                            ("source_url", "url"), ("image_url", "image_url")):
+            if target not in row or row[target] != canonical[pd_no].get(key):
+                raise ValueError("current copy source facts differ from canonical S")
+        if row.get("canonical_product_id") != gr.get("canonical_product_id"):
+            raise ValueError("current copy canonical identity differs from gate")
+        if not gr.get("agent_ready"):
+            blocked = list(gr.get("agent_blocked_by") or ["ontology_gate_missing"])
+            if (row.get("copy") is not None or row.get("copy_status") != "skipped_prerequisite"
+                    or row.get("generation_mode") != "none" or row.get("agent_blocked_by") != blocked
+                    or row.get("error") != "ontology 선행 게이트 미통과: " + ", ".join(blocked)):
+                raise ValueError("blocked current copy must retain current gate blockers")
+        else:
+            eligible += 1
+    if (doc.get("total") != len(current) or doc.get("eligible") != eligible
+            or doc.get("ok") != eligible or doc.get("skipped_prerequisite") != len(current) - eligible):
+        raise ValueError("current copy counters do not match canonical gate")
+    return set(canonical)
+
+
+def history_required(previous, current):
+    old = {str(r["pd_no"]): r for r in previous.get("items", [])}
+    new = {str(r["pd_no"]): r for r in current.get("items", [])}
+    return bool(set(old) - set(new)) or any(isinstance(row.get("copy"), dict) and new[pd].get("copy") is None for pd, row in old.items() if pd in new)
+
+
+def archive_previous(payload, previous, raw):
+    import hashlib
+    history = dict(previous.get(HISTORY_KEY) or {})
+    history.update(payload.get(HISTORY_KEY) or {})
+    if history_required(previous, payload):
+        digest = hashlib.sha256(raw).hexdigest()
+        snapshot = {k: v for k, v in previous.items() if k != HISTORY_KEY}
+        snapshot_digest = hashlib.sha256(json.dumps(snapshot, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+        entry = {"base_sha256": digest, "snapshot_sha256": snapshot_digest, "historical_not_approval": True,
+                 "snapshot": snapshot,
+                 "provenance": "Exact committed prior bytes remain in Git at base_sha256; snapshot excludes separately retained draft_history."}
+        if digest in history and history[digest] != entry:
+            raise ValueError("historical draft evidence changed")
+        history[digest] = entry
+    if history:
+        payload[HISTORY_KEY] = history
+
+
+def verify_copy_replacement(base, replacement, source, gate):
+    import hashlib
+    old, new = json.loads(base), json.loads(replacement)
+    canonical = verify_current(new, json.loads(source), json.loads(gate))
+    old_history, history = old.get(HISTORY_KEY) or {}, new.get(HISTORY_KEY) or {}
+    if not isinstance(history, dict) or any(history.get(k) != v for k, v in old_history.items()):
+        raise ValueError("historical draft evidence removed or changed")
+    digest = hashlib.sha256(base).hexdigest()
+    allowed_history = set(old_history) | ({digest} if history_required(old, new) else set())
+    if set(history) - allowed_history:
+        raise ValueError("unproven new historical draft source")
+    if history_required(old, new):
+        entry = history.get(digest) or {}
+        expected_snapshot = {k: v for k, v in old.items() if k != HISTORY_KEY}
+        expected_digest = hashlib.sha256(json.dumps(expected_snapshot, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+        if (entry.get("base_sha256") != digest or entry.get("snapshot_sha256") != expected_digest or entry.get("historical_not_approval") is not True
+                or entry.get("snapshot") != {k: v for k, v in old.items() if k != HISTORY_KEY}):
+            raise ValueError("prior copy snapshot not preserved as non-approval history")
+    if not set(old) <= set(new):
+        raise ValueError("copy root schema field removed")
+    current = {str(r["pd_no"]): r for r in new["items"]}
+    for row in old.get("items", []):
+        if str(row["pd_no"]) in current and not set(row) <= set(current[str(row["pd_no"])]):
+            raise ValueError("surviving copy row schema field removed")
+    return sorted({str(r["pd_no"]) for r in old.get("items", [])} - canonical)
+
+
+def record_publication(root):
+    import subprocess
+    import sys
+    root = Path(root)
+    if str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    from scripts.publish_transaction import removed_identities, overlay, sha
+    commit = subprocess.run(["git", "-C", str(root), "rev-parse", "HEAD"], check=True, capture_output=True, text=True).stdout.strip()
+    base = subprocess.run(["git", "-C", str(root), "show", f"{commit}:{COPY_REL}"], check=True, capture_output=True).stdout
+    out = root / COPY_REL
+    payload = json.loads(out.read_bytes())
+    archive_previous(payload, json.loads(base), base)
+    replacement = (json.dumps(payload, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+    evidence = ((root / SOURCE_REL).read_bytes(), (root / GATE_REL).read_bytes())
+    ids = verify_copy_replacement(base, replacement, *evidence)
+    policy = json.loads((root / "config/publish_policy.json").read_bytes())
+    removed = sorted(set(removed_identities(json.loads(base), payload, policy, where=COPY_REL)))
+    if removed != ids:
+        raise ValueError("copy removals are not exclusively retired canonical S members")
+    mpath = root / "data/publish_deletions.json"
+    manifest = json.loads(mpath.read_bytes()) if mpath.exists() else {"schema_version": 1, "deletions": []}
+    if manifest.get("schema_version") != 1 or not isinstance(manifest.get("deletions"), list):
+        raise ValueError("invalid deletion manifest")
+    result = dict(manifest)
+    result["deletions"] = [r for r in manifest["deletions"] if not (r.get("path") == COPY_REL and r.get("policy_ref") == "scripts/build_listing_copy_local.py")]
+    if ids:
+        result["deletions"].append({"path": COPY_REL, "base_sha256": sha(base), "replacement_sha256": sha(replacement),
+            "base_commit": commit, "ids": ids, "delete_file": False, "policy_ref": "scripts/build_listing_copy_local.py",
+            "reason": "Retired canonical S draft rows moved to preserved non-approval draft_history; current rows exactly match canonical S and current gate. Exact prior bytes remain in Git."})
+    overlay(COPY_REL, base, replacement, base, policy, result, copy_evidence=evidence)
+    out.write_bytes(replacement)
+    mpath.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    return {"path": COPY_REL, "retired_ids": ids, "historical_not_approval": True}
+
+
 def main() -> int:
     source = load(SRC, {})
     gate = load(GATE, {})
@@ -220,10 +355,19 @@ def main() -> int:
         "generated_local": generated,
         "items": items,
     }
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if previous.get(HISTORY_KEY):
+        payload[HISTORY_KEY] = previous[HISTORY_KEY]
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"LOCAL_COPY_OK carried={carried} generated={generated} skipped={skipped}")
     return 0
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--record-publication", action="store_true")
+    args = parser.parse_args()
+    if args.record_publication:
+        print(json.dumps(record_publication(ROOT), ensure_ascii=False))
+    else:
+        raise SystemExit(main())
