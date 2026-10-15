@@ -19,6 +19,15 @@ class CommercePipelineTests(unittest.TestCase):
         self.assertLess(text.index('Bounded existing-team source recovery'), text.index('Required canonical source processing'))
         self.assertLess(text.index('scripts/run_commerce_pipeline.py'), text.index('Required current canonical runtime'))
 
+    def test_gosi_exports_keep_zero_ready_products_as_blocked_noop(self):
+        expected = ['python', '-u', 'scripts/export_shopify_operational.py', '--blocked-noop']
+        for workflow in ('gosi-vision.yml', 'gosi-alt.yml'):
+            with self.subTest(workflow=workflow):
+                text = (ROOT / '.github/workflows' / workflow).read_text(encoding='utf-8')
+                calls = [line.strip().split() for line in text.splitlines()
+                         if line.strip().startswith('python -u scripts/export_shopify_operational.py')]
+                self.assertEqual(calls, [expected])
+
     def test_deep_uses_same_complete_chain(self):
         text = (ROOT / '.github/workflows/JARVIS-Deep-Analysis.yml').read_text(encoding='utf-8')
         stage = text.split("cat > \"$RUNNER_TEMP/deep_41.sh\" <<'RELEASE_STAGE_deep_41'", 1)[1].split('RELEASE_STAGE_deep_41', 1)[0]
