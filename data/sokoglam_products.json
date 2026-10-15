@@ -2,19 +2,19 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-14T23:25:53.729254+00:00",
+  "collected_at": "2026-10-15T23:16:35.245283+00:00",
   "is_stale": false,
-  "count": 234,
+  "count": 238,
   "by_collection": {
-    "Best Sellers": 80,
-    "Skincare": 154
+    "Best Sellers": 83,
+    "Skincare": 155
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 234,
+    "n": 238,
     "min": 3.0,
-    "median": 27.12,
+    "median": 27.0,
     "max": 200.0
   },
   "products": [
@@ -131,6 +131,29 @@
         "Best Sellers Q12020",
         "best sellers v.2",
         "BlackFriday2018"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Pore Cleansing Oil [BHA]",
+      "brand": "HANSKIN",
+      "price_usd": 27.0,
+      "category": "Oil Cleanser",
+      "collection": "Best Sellers",
+      "url": "https://sokoglam.com/products/hanskin-cleansing-oil-blackhead-bha",
+      "tags": [
+        "$20-$30",
+        "Acids & Actives",
+        "badge-bestofkbeauty",
+        "badge-bronze",
+        "badge-cleanbeauty",
+        "badge-vegan",
+        "best cleansing oil",
+        "best oil cleanser",
+        "BF Sale",
+        "BHA",
+        "BlackFriday2018",
+        "BOKB winners"
       ]
     },
     {
@@ -384,6 +407,29 @@
         "female founded",
         "female founders",
         "Free_Of::Alcohol_Products"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Licorice pH Balancing Cleansing Toner",
+      "brand": "ACWELL",
+      "price_usd": 18.0,
+      "category": "Toner",
+      "collection": "Best Sellers",
+      "url": "https://sokoglam.com/products/acwell-licorice-ph-balancing-cleansing-toner",
+      "tags": [
+        "$15-$20",
+        "A sku",
+        "Acwell",
+        "badge-cleanbeauty",
+        "badge-heritageheroes",
+        "badge-peoplesaward",
+        "badge-vegan",
+        "best seller",
+        "Best sellers 2021",
+        "Best Sellers Q12020",
+        "best sellers v.2",
+        "BlackFriday2018"
       ]
     },
     {
@@ -719,6 +765,29 @@
         "dryness",
         "dryness/hydration",
         "exclusive"
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Perfect Cover BB Cream SPF 42 PA+++",
+      "brand": "MISSHA",
+      "price_usd": 11.0,
+      "category": "BB/CC Cream",
+      "collection": "Best Sellers",
+      "url": "https://sokoglam.com/products/missha-perfect-cover-bb-cream-spf-42-pa-1",
+      "tags": [
+        "$20-$30",
+        "Anti-Aging/Wrinkles",
+        "BB Cream",
+        "Best Deals",
+        "BlackFriday2018",
+        "C SKU",
+        "combination",
+        "dry",
+        "dryness/",
+        "face makeup - BB Cream",
+        "Free_Of::Artificial_Fragrances",
+        "Free_Of::Essential_Oil"
       ]
     },
     {
@@ -4842,6 +4911,29 @@
         "Free_Of::Mineral_Oil",
         "Free_of::Parabens",
         "Free_Of::Silicone"
+      ]
+    },
+    {
+      "rank": 217,
+      "name": "Rub-A-Dub Refining Peel Gel",
+      "brand": "SATURDAY SKIN",
+      "price_usd": 28.0,
+      "category": "Physical",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/saturday-skin-rub-a-dub-refining-peel-gel",
+      "tags": [
+        "$20-$30",
+        "badge-femalefounded",
+        "BF Sale",
+        "chemical",
+        "combo_sensitive",
+        "cruelty-free",
+        "David Lopez's Gift Guide",
+        "female founded",
+        "female founders",
+        "Free_Of::Artificial_Colors",
+        "Free_Of::Artificial_Fragrances",
+        "Free_of::Parabens"
       ]
     },
     {
