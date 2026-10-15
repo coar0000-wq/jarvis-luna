@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-14T05:43:31+00:00",
+  "collected_at": "2026-10-15T05:29:18+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -113,8 +113,8 @@
       "list_price_text": "",
       "price_usd": 49.0,
       "discount_pct": null,
-      "rating": null,
-      "reviews": null,
+      "rating": 5.0,
+      "reviews": 1,
       "url": "https://shop.com/products/15398035062851/musky-lily-of-the-valley",
       "page": "Explore"
     },
@@ -218,7 +218,7 @@
       "price_usd": 26.0,
       "discount_pct": null,
       "rating": 4.7,
-      "reviews": 453,
+      "reviews": 454,
       "url": "https://shop.com/products/6538134650937/brow-pop",
       "page": "Beauty"
     },
@@ -250,14 +250,14 @@
     },
     {
       "title": "Vanilla Verve - Vitamin C Body Oil",
-      "brand": "CYKLAR",
+      "brand": "Cyklar",
       "section": "Top rated",
       "price_text": "$38.00",
       "list_price_text": "",
       "price_usd": 38.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 410,
+      "reviews": 412,
       "url": "https://shop.com/products/10520246485295/vanilla-verve-vitamin-c-body-oil",
       "page": "Beauty"
     },
@@ -270,7 +270,7 @@
       "price_usd": 31.0,
       "discount_pct": null,
       "rating": 4.5,
-      "reviews": 530,
+      "reviews": 531,
       "url": "https://shop.com/products/7781766791343/running-late-perfume",
       "page": "Beauty"
     },
@@ -283,7 +283,7 @@
       "price_usd": 17.0,
       "discount_pct": null,
       "rating": 4.7,
-      "reviews": 2251,
+      "reviews": 2252,
       "url": "https://shop.com/products/6627292643383/the-glow-getter-multi-oil-hydrating-body-wash",
       "page": "Beauty"
     },
