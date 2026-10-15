@@ -22,18 +22,6 @@
       "reason": "Owner-authorized replacement of the last_candidate_success snapshot by a newer full collection; the previous candidate list is retained in git history and data/daiso_real/candidate_pool_history by SHA256."
     },
     {
-      "base_sha256": "c74af1b9653d01ab235184015805de4457b3b31def223b4d7eec3636efb671fd",
-      "delete_file": false,
-      "ids": [
-        "Frankfurter API 1,348.28(2026-10-02)",
-        "exchangerate-api 1,347.39(2026-10-03)"
-      ],
-      "path": "data/daiso_real/collection_status.json",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "replacement_sha256": "aed12f07a1d59fb1b43fa9b121f572103da5d3fe413f8661aec76b7b2d837d7e"
-    },
-    {
       "base_sha256": "c6a79a11204896e282247ac737cf7aa5373c748f7379f34b7d76427b781198e7",
       "delete_file": false,
       "ids": [
@@ -260,6 +248,51 @@
         "https://www.ulta.com/p/triple-lipid-activating-serum-pimprod2060102",
         "https://www.ulta.com/p/visible-brightening-clearly-radiant-spot-correcting-capsules-pimprod2050175",
         "https://www.ulta.com/p/vitamin-c-anti-aging-night-moisturizer-mkt77012417"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/shopify_listing_copy.json",
+      "base_sha256": "d78925ffbe4772a4e5ecbd7b5e162c2346f79c6a0558faa8f36fda3dced68c05",
+      "replacement_sha256": "426f9ccbfdaaf246d86b319085ab0482955792dd97a98ffcd8d270bba2e5065f",
+      "base_commit": "8efbdbb62ad0b4ab2e4eaa35cc23a547e6ca472d",
+      "ids": [
+        "1027327",
+        "1042619",
+        "1049285",
+        "1059834",
+        "1072554",
+        "1075857"
+      ],
+      "delete_file": false,
+      "policy_ref": "scripts/build_listing_copy_local.py",
+      "reason": "Retired canonical S draft rows moved to preserved non-approval draft_history; current rows exactly match canonical S and current gate. Exact prior bytes remain in Git."
+    },
+    {
+      "path": "data/shopify_import_report.json",
+      "base_commit": "8efbdbb62ad0b4ab2e4eaa35cc23a547e6ca472d",
+      "base_sha256": "90968bb0bc0560be8134a53b101e1959229f24f59195ea07ea32441fe732e536",
+      "replacement_sha256": "e765d0cf5388d1b1350901ee09d45239a9abec87f3d110935a5493559317f58d",
+      "ids": [
+        "1027327",
+        "1042619",
+        "1049285",
+        "1059834",
+        "1072554",
+        "1075857"
+      ],
+      "delete_file": false,
+      "policy_ref": "scripts/build_shopify_import_csv.py",
+      "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted."
+    },
+    {
+      "path": "data/daiso_real/collection_status.json",
+      "base_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49",
+      "ids": [
+        "Frankfurter API 1,341.49(2026-10-09)",
+        "exchangerate-api 1,341.69(2026-10-11)"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

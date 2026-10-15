@@ -1,20 +1,20 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-14T23:25:59.609941+00:00",
+  "generated_at": "2026-10-15T10:37:04.516704+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "c4ba3378df1e616c19d611a48ca71a523a890ff21212245d649c2edfbf9dc58f",
+      "data/product_master.json": "98f25f9277862046d95542c5d2485e5aacdaf0256a87dc0a449507971bf45007",
       "data/gosi.json": "9957b715738857ece0929e82a179e94fb54bf1ce3527ccac08895cbbf14204ae",
-      "data/daiso_real/daiso_us_labels.json": "d7a79995a77dbfa56f0bd8bc921447df00d502fc9eda7c94c933457be6aae564",
-      "data/pricing_model.json": "00ea8669626cc18d2f44587a3e62f79916624505c64d45431e2157fe35bb032a",
-      "data/legal_products.json": "0350f33954dcefff87900342c8699698719b35f55a91dd4002af0d14551d5c6d",
-      "data/daiso_real/shopify_s_recommendations.json": "50fd4f506e94421eedc58384b44509f8455cc1a5cff925eaa43233791aeb5501",
-      "data/shopify_listing_copy.json": "06ff5fc9bff8bcf8943cfc98a931582d9ad8c0cecddcf2ae4743bb55dad92601",
-      "data/shopify_shortlist.json": "9be150c8c39332751a94dc350e135244a4f9496439a6a922a4cfd74a5d4cf817",
-      "data/legal_full.json": "0276073f4346fda98b353aa0be77213ec08fdd1511f974b80269ef0daa82ec25",
-      "data/mocra_readiness.json": "991c5a9301bb19ee6e5f986a1b27c6b7e832bfb95210e32541ca28e74160aac7",
+      "data/daiso_real/daiso_us_labels.json": "266a74a53de54a0fcd004260ef2e855e1353037184e31e63dc46e2d546cdc2db",
+      "data/pricing_model.json": "570d66a03545440558484e36238cda2993d554500f7a51c44fc89a3dab5baa68",
+      "data/legal_products.json": "f46d612786973dae258f8a6a19267c56a5c2317834aae3c905a5826a2e5dfabf",
+      "data/daiso_real/shopify_s_recommendations.json": "e3467be114fa6657ffa081238b5030c8e264f9e0a64813667c708d0a9c8a4351",
+      "data/shopify_listing_copy.json": "2437b6addd34c2a38a5c334e4f92031ce1e4d5a7e9af9165013f51c73c135c60",
+      "data/shopify_shortlist.json": "9ede6f0772598b1e01c8f00f8f2106768c9ae54323de739ddd1a92d364982b1c",
+      "data/legal_full.json": "fbe290100830c1df0275b2e56571d5bea050fb0e1423f9e43ac8ead568b2d17e",
+      "data/mocra_readiness.json": "c4a52fdb825d0f7b6e39fb9dd59983aae145c0c20944343a3d03c539e520c2e8",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
       "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
@@ -22,7 +22,7 @@
       "masked/manufacturer_safety_record": "571d55f781ea49448707b7c6439f551c52b746b067ce3358292bdbbc088d6358",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "b91d45581aefa0ffa220f14373f21676493cc1ba9b63fff9c420e7076b3294fa"
+    "recommendations_sha256": "adb857742bd4bc5f5621a8c26b8457dd0159e45a9b517db33082b7626f320550"
   },
   "total": 8,
   "agent_ready": 0,
@@ -31,16 +31,16 @@
   "public_ready": 0,
   "counts": {
     "ontology": 8,
-    "copy": 4,
+    "copy": 0,
     "gosi": 5,
     "us_label": 5,
     "price": 4,
     "legal": 3,
     "manufacturer_safety_record": 0,
-    "legal_full": 3
+    "legal_full": 0
   },
   "blockers": {
-    "copy": 4,
+    "copy": 8,
     "gosi": 3,
     "us_label": 3,
     "price": 4,
@@ -65,9 +65,15 @@
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "ledger_unavailable",
+      "stopped": "",
+      "global_stopped": "",
+      "workflow_stopped": "",
+      "workflow_id": "Shopify 영문 리스팅 카피 생성:38721329955:1",
+      "estimated_cost_usd": 0.0,
+      "account_estimated_cost_usd": 0.000544698,
+      "purchased_credits": false,
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "purchased_credits": false
+      "input_token_price_per_mtok_usd": 0.042
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
@@ -86,23 +92,8 @@
       "price_krw": 3000,
       "shopify_score": 100,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
-      "copy": {
-        "title": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-        "description_html": "<p>Discover the VT Reedle Shot 300 Facial Boosting First Ampoule, designed for smooth skin texture care. This set includes six convenient 2ml ampoules to help prep your skin.</p><p>Apply this boosting first ampoule as the initial step in your daily skincare routine for a refreshed and revitalized complexion.</p>",
-        "seo_title": "VT Reedle Shot 300 Facial Boosting First Ampoule 6 Pack",
-        "seo_description": "Shop the VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6 pack for smooth skin texture care. Convenient daily facial ampoules from Korea.",
-        "tags": [
-          "vt-cosmetics",
-          "reedle-shot",
-          "facial-ampoule",
-          "korean-skincare",
-          "skin-texture",
-          "boosting-ampoule",
-          "k-beauty"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "2ml",
         "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
@@ -119,7 +110,7 @@
       },
       "price": {
         "price_usd": 23.99,
-        "margin_pct": 61.2,
+        "margin_pct": 61.1,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -142,13 +133,16 @@
       ],
       "ready": false,
       "blocked_by": [
+        "copy",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "manufacturer_safety_record_missing"
+        "copy",
+        "manufacturer_safety_record_missing",
+        "legal_full"
       ],
-      "legal_full_complete": true,
+      "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -157,15 +151,18 @@
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -182,23 +179,8 @@
       "price_krw": 5000,
       "shopify_score": 98,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
-      "copy": {
-        "title": "Bonsep Retinol 500 IU Serum 30 ml",
-        "description_html": "<p>Discover the Bonsep Retinol 500 IU Serum in a convenient 30 ml size, formulated to help smooth the look of fine lines for a more refined appearance.</p><p>Incorporating this serum into your daily skincare routine supports a smoother-looking texture and a brighter-looking complexion with consistent use.</p>",
-        "seo_title": "Bonsep Retinol 500 IU Serum 30 ml",
-        "seo_description": "Shop the Bonsep Retinol 500 IU Serum 30 ml to support a smoother-looking skin texture and a brighter-looking complexion. Perfect for daily skincare.",
-        "tags": [
-          "retinol-serum",
-          "korean-skincare",
-          "face-serum",
-          "bonsep",
-          "skincare-routine",
-          "brightening-serum",
-          "retinol-500-iu"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "30ml",
         "maker": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
@@ -215,13 +197,13 @@
       },
       "price": {
         "price_usd": 15.99,
-        "margin_pct": 32.0,
+        "margin_pct": 31.9,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_target:32.0%<40.0%"
+          "margin_below_target:31.9%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -240,13 +222,16 @@
       ],
       "ready": false,
       "blocked_by": [
+        "copy",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "manufacturer_safety_record_missing"
+        "copy",
+        "manufacturer_safety_record_missing",
+        "legal_full"
       ],
-      "legal_full_complete": true,
+      "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -255,15 +240,18 @@
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -280,23 +268,8 @@
       "price_krw": 3000,
       "shopify_score": 98,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
-      "copy": {
-        "title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
-        "description_html": "<p>Experience this facial boosting first ampoule designed for skin texture care. Each set includes six convenient 2ml ampoules for your daily routine.</p><p>Apply gently onto the face as a first step to help prep the skin for subsequent skincare steps, leaving it feeling refreshed.</p>",
-        "seo_title": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
-        "seo_description": "Shop the VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6-pack for daily skin texture care and a smooth, prepped complexion.",
-        "tags": [
-          "vt-cosmetics",
-          "reedle-shot",
-          "facial-ampoule",
-          "korean-skincare",
-          "skin-texture",
-          "boosting-ampoule",
-          "k-beauty"
-        ],
-        "product_type": "Face Serum"
-      },
-      "copy_status": "ok",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "2ml",
         "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
@@ -340,12 +313,14 @@
       ],
       "ready": false,
       "blocked_by": [
+        "copy",
         "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
+        "copy",
         "price",
         "legal",
         "manufacturer_safety_record_missing",
@@ -362,16 +337,17 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 7,
+        "risk_points": 8,
         "team_routes": [
           "legal",
-          "pricing"
+          "pricing",
+          "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: price, legal, manufacturer_safety_record_missing",
-          "public blockers: price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, price, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, price, legal, manufacturer_safety_record_missing, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -389,23 +365,8 @@
       "price_krw": 5000,
       "shopify_score": 96,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
-      "copy": {
-        "title": "VT PDRN Radiance Cream 50 ml",
-        "description_html": "<p>Discover the VT PDRN Radiance Cream in a convenient 50 ml size, designed to bring a luminous glow to your daily skincare routine.</p><p>This nourishing cream helps enhance your natural radiance for a brighter-looking complexion with every application.</p>",
-        "seo_title": "VT PDRN Radiance Cream 50 ml - K-Beauty Skincare",
-        "seo_description": "Shop the VT PDRN Radiance Cream 50 ml for a glowing and radiant complexion. Authentic Korean skincare delivered to your door.",
-        "tags": [
-          "vt-pdrn",
-          "radiance-cream",
-          "korean-skincare",
-          "facial-cream",
-          "glow-skin",
-          "vt-cosmetics",
-          "k-beauty"
-        ],
-        "product_type": "Face Cream"
-      },
-      "copy_status": "ok",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "50ml",
         "maker": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
@@ -447,13 +408,16 @@
       ],
       "ready": false,
       "blocked_by": [
+        "copy",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
-        "manufacturer_safety_record_missing"
+        "copy",
+        "manufacturer_safety_record_missing",
+        "legal_full"
       ],
-      "legal_full_complete": true,
+      "legal_full_complete": false,
       "typesafe": {
         "framework": "typesafe_system_one_compatible",
         "enabled": false,
@@ -462,15 +426,18 @@
         "paid_api_called": false,
         "enforced": false,
         "grade_advisory": "keep_s",
-        "legal_gate_advisory": "clear",
-        "risk_level": "medium",
-        "risk_points": 1,
-        "team_routes": [],
-        "model_route": "gemini",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: manufacturer_safety_record_missing",
-          "public blockers: manufacturer_safety_record_missing",
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -488,7 +455,7 @@
       "shopify_score": 93,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
       "copy": {},
-      "copy_status": "missing",
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "",
         "maker": "",
@@ -592,7 +559,7 @@
       "shopify_score": 86,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
       "copy": {},
-      "copy_status": "missing",
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "200ml",
         "maker": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
@@ -609,7 +576,7 @@
       },
       "price": {
         "price_usd": 30.99,
-        "margin_pct": 56.7,
+        "margin_pct": 56.6,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -683,7 +650,7 @@
       "shopify_score": 85,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
       "copy": {},
-      "copy_status": "missing",
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "",
         "maker": "",
@@ -700,7 +667,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 56.3,
+        "margin_pct": 56.2,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -787,7 +754,7 @@
       "shopify_score": 82,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
       "copy": {},
-      "copy_status": "missing",
+      "copy_status": "skipped_prerequisite",
       "gosi": {
         "volume": "",
         "maker": "",
@@ -804,7 +771,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 52.1,
+        "margin_pct": 52.0,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",

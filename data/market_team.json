@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-15T08:25:59.716274+09:00",
+    "updated_at": "2026-10-15T19:37:04.614565+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1317,11 +1317,7 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [
-        "boosting ampoule",
-        "facial ampoule",
-        "korean skincare"
-      ],
+      "gemini_tags": [],
       "linked_s_products": [
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -1366,11 +1362,7 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [
-        "facial cream",
-        "korean skincare",
-        "radiance cream"
-      ],
+      "gemini_tags": [],
       "linked_s_products": [
         "[영양광채]VT PDRN 광채 크림 50 ml",
         "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
@@ -1452,12 +1444,7 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [
-        "brightening serum",
-        "face serum",
-        "korean skincare",
-        "retinol serum"
-      ],
+      "gemini_tags": [],
       "linked_s_products": [
         "본셉 레티놀 500 IU 세럼 30 ml"
       ],
@@ -1498,9 +1485,7 @@
         }
       ],
       "us_example_count": 3,
-      "gemini_tags": [
-        "vt pdrn"
-      ],
+      "gemini_tags": [],
       "linked_s_products": [
         "[영양광채]VT PDRN 광채 크림 50 ml"
       ],
@@ -1557,7 +1542,7 @@
       "canonical_product_id": "CP000107",
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "name_en": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
+      "name_en": null,
       "bucket": "스킨케어",
       "score": 100,
       "rating": 4.9,
@@ -1567,21 +1552,14 @@
       "breakeven_usd": null,
       "suggested_price_usd": 15.0,
       "margin_pct": null,
-      "shopify_action": "1차 Draft Action 검토",
-      "ad_keywords": [
-        "vt-cosmetics",
-        "reedle-shot",
-        "facial-ampoule",
-        "korean-skincare",
-        "skin-texture",
-        "boosting-ampoule"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "copy_status": "ok",
+      "shopify_action": "선행 증거 보강",
+      "ad_keywords": [],
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
         "manufacturer_safety_record_missing"
       ],
-      "listing_ready": true,
+      "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276"
     },
     {
@@ -1589,7 +1567,7 @@
       "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
-      "name_en": "Bonsep Retinol 500 IU Serum 30 ml",
+      "name_en": null,
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -1599,21 +1577,14 @@
       "breakeven_usd": null,
       "suggested_price_usd": 15.0,
       "margin_pct": null,
-      "shopify_action": "1차 Draft Action 검토",
-      "ad_keywords": [
-        "retinol-serum",
-        "korean-skincare",
-        "face-serum",
-        "bonsep",
-        "skincare-routine",
-        "brightening-serum"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "copy_status": "ok",
+      "shopify_action": "선행 증거 보강",
+      "ad_keywords": [],
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
         "manufacturer_safety_record_missing"
       ],
-      "listing_ready": true,
+      "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167"
     },
     {
@@ -1621,7 +1592,7 @@
       "canonical_product_id": "CP000106",
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "name_en": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+      "name_en": null,
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
@@ -1631,23 +1602,16 @@
       "breakeven_usd": null,
       "suggested_price_usd": 15.0,
       "margin_pct": null,
-      "shopify_action": "1차 Draft Action 검토",
-      "ad_keywords": [
-        "vt-cosmetics",
-        "reedle-shot",
-        "facial-ampoule",
-        "korean-skincare",
-        "skin-texture",
-        "boosting-ampoule"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "copy_status": "ok",
+      "shopify_action": "선행 증거 보강",
+      "ad_keywords": [],
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
         "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
-      "listing_ready": true,
+      "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
     },
     {
@@ -1655,7 +1619,7 @@
       "canonical_product_id": "CP000216",
       "pd_no": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "name_en": "VT PDRN Radiance Cream 50 ml",
+      "name_en": null,
       "bucket": "스킨케어",
       "score": 96,
       "rating": 4.8,
@@ -1665,21 +1629,14 @@
       "breakeven_usd": null,
       "suggested_price_usd": 15.0,
       "margin_pct": null,
-      "shopify_action": "1차 Draft Action 검토",
-      "ad_keywords": [
-        "vt-pdrn",
-        "radiance-cream",
-        "korean-skincare",
-        "facial-cream",
-        "glow-skin",
-        "vt-cosmetics"
-      ],
-      "ad_keywords_source": "Gemini 영문 카피 태그",
-      "copy_status": "ok",
+      "shopify_action": "선행 증거 보강",
+      "ad_keywords": [],
+      "ad_keywords_source": "ontology 선행 게이트 차단",
+      "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
         "manufacturer_safety_record_missing"
       ],
-      "listing_ready": true,
+      "listing_ready": false,
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498"
     },
     {
@@ -1835,8 +1792,7 @@
     }
   ],
   "weekly_actions": [
-    "영문 카피가 준비된 4건의 Draft Action 상태 확인",
-    "AI 선행 게이트 차단 4건의 증거 보강: gosi, legal, manufacturer_safety_record_missing, price, us_label",
+    "AI 선행 게이트 차단 8건의 증거 보강: gosi, legal, manufacturer_safety_record_missing, price, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
     "시장 가격대 100건 기준 중앙값 $22.49 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
@@ -1863,10 +1819,10 @@
       "wikipedia_interest"
     ],
     "s_count": 8,
-    "listing_ready_count": 4,
-    "last_score_run": "2026-10-14",
-    "last_pricing_run": "2026-10-14",
-    "exchange_rate": 1341.69
+    "listing_ready_count": 0,
+    "last_score_run": "2026-10-15",
+    "last_pricing_run": "2026-10-15",
+    "exchange_rate": 1339.81
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."
 }

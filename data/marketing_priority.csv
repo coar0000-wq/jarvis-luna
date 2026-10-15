@@ -1,8 +1,8 @@
 rank,canonical_product_id,pd_no,product,keyword,intent,score,shopify_action
-1,CP000107,1049276,[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입,vt-cosmetics|reedle-shot|facial-ampoule,purchase,100,1차 Draft Action 검토
-2,CP000130,1055167,본셉 레티놀 500 IU 세럼 30 ml,retinol-serum|korean-skincare|face-serum,purchase,98,1차 Draft Action 검토
-3,CP000106,1049275,[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입,vt-cosmetics|reedle-shot|facial-ampoule,purchase,98,1차 Draft Action 검토
-4,CP000216,1067498,[영양광채]VT PDRN 광채 크림 50 ml,vt-pdrn|radiance-cream|korean-skincare,purchase,96,1차 Draft Action 검토
+1,CP000107,1049276,[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입,,purchase,100,선행 증거 보강
+2,CP000130,1055167,본셉 레티놀 500 IU 세럼 30 ml,,purchase,98,선행 증거 보강
+3,CP000106,1049275,[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입,,purchase,98,선행 증거 보강
+4,CP000216,1067498,[영양광채]VT PDRN 광채 크림 50 ml,,purchase,96,선행 증거 보강
 5,CP000230,1068721,클리덤 리포좀 비타민C 캡슐잡티크림 55 ml,,purchase,93,선행 증거 보강
 6,CP000125,1053482,메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml,,purchase,86,선행 증거 보강
 7,CP000267,1074979,[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너,,purchase,85,선행 증거 보강

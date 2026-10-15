@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-14T23:25:59.202993+00:00",
+  "generated_at": "2026-10-15T10:37:04.141274+00:00",
   "generator": "scripts/build_legal_full.py",
   "scope": "현재 S등급 상품별 미국 화장품 라벨/MoCRA 공개 준비 상태",
   "truth_policy": "미확인 값은 빈칸으로 두며 예시 주소·전화·성분을 사용하지 않는다",
@@ -19,8 +19,8 @@
     "phone"
   ],
   "total": 8,
-  "complete": 3,
-  "blocked": 5,
+  "complete": 0,
+  "blocked": 8,
   "responsible_person": {
     "name": "(비공개 보관)",
     "address": "(비공개 보관)",
@@ -34,7 +34,7 @@
       "canonical_product_id": "CP000107",
       "pd_no": "1049276",
       "name_ko": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "identity": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
+      "identity": "",
       "ingredients": [
         "Water",
         "Dipropylene Glycol",
@@ -92,7 +92,7 @@
       "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
-        "identity": "shopify_listing_copy.json",
+        "identity": "human_required",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
         "directions": "daiso_us_labels.json",
@@ -108,14 +108,16 @@
       "auto_legal_status": "pass",
       "hard_block": false,
       "hard_block_reason": "",
-      "complete": true,
-      "blockers": []
+      "complete": false,
+      "blockers": [
+        "identity"
+      ]
     },
     "1055167": {
       "canonical_product_id": "CP000130",
       "pd_no": "1055167",
       "name_ko": "본셉 레티놀 500 IU 세럼 30 ml",
-      "identity": "Bonsep Retinol 500 IU Serum 30 ml",
+      "identity": "",
       "ingredients": [
         "Water",
         "Butylene Glycol",
@@ -170,7 +172,7 @@
       "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
-        "identity": "shopify_listing_copy.json",
+        "identity": "human_required",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
         "directions": "daiso_us_labels.json",
@@ -185,14 +187,16 @@
       "auto_legal_status": "pass",
       "hard_block": false,
       "hard_block_reason": "",
-      "complete": true,
-      "blockers": []
+      "complete": false,
+      "blockers": [
+        "identity"
+      ]
     },
     "1049275": {
       "canonical_product_id": "CP000106",
       "pd_no": "1049275",
       "name_ko": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "identity": "VT Reedle Shot 100 Facial Boosting First Ampoule 2ml x 6ea",
+      "identity": "",
       "ingredients": [
         "Water",
         "Dipropylene Glycol",
@@ -250,7 +254,7 @@
       "manufacturer": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
       "country_of_origin": "Korea",
       "sources": {
-        "identity": "shopify_listing_copy.json",
+        "identity": "human_required",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
         "directions": "official_label_text.json",
@@ -267,6 +271,7 @@
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "complete": false,
       "blockers": [
+        "identity",
         "legal_hard_block"
       ]
     },
@@ -274,7 +279,7 @@
       "canonical_product_id": "CP000216",
       "pd_no": "1067498",
       "name_ko": "[영양광채]VT PDRN 광채 크림 50 ml",
-      "identity": "VT PDRN Radiance Cream 50 ml",
+      "identity": "",
       "ingredients": [
         "Water",
         "Butylene Glycol",
@@ -356,7 +361,7 @@
       "manufacturer": "Manufacturer: YEGRINA Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
       "country_of_origin": "Korea",
       "sources": {
-        "identity": "shopify_listing_copy.json",
+        "identity": "human_required",
         "ingredients": "daiso_us_labels.json",
         "net_contents": "daiso_us_labels.json",
         "directions": "daiso_us_labels.json",
@@ -371,8 +376,10 @@
       "auto_legal_status": "pass",
       "hard_block": false,
       "hard_block_reason": "",
-      "complete": true,
-      "blockers": []
+      "complete": false,
+      "blockers": [
+        "identity"
+      ]
     },
     "1068721": {
       "canonical_product_id": "CP000230",

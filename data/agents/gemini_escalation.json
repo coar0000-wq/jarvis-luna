@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T11:55:38.976078+00:00",
+  "generated_at": "2026-10-15T10:36:58.244314+00:00",
   "generator": "scripts/gemini_escalation.py",
   "policy": "data/manual/model_routing_policy.json",
-  "enabled": true,
+  "enabled": false,
   "free_tier_only": true,
   "model": "gemini-flash-lite-latest",
   "max_calls_per_run": 1,
@@ -12,45 +12,14 @@
   "paid_api_called": false,
   "canonical_gate_changed": false,
   "external_action_executed": false,
-  "call_count": 1,
-  "called": true,
+  "call_count": 0,
+  "called": false,
   "reasons": [
     "repeated_unresolved_auto_issues=1"
   ],
-  "advice": {
-    "risk": "medium",
-    "diagnosis": "아마존 뷰티 채널 데이터가 비어 있으며, 법률·규제 및 리스팅 수동 승인 대기 건이 반복 미해결 상태로 남아 있습니다.",
-    "next_safe_checks": [
-      "아마존 뷰티 채널 수집기 상태 및 로그 확인",
-      "data/manual/inci_overrides.json 파일의 성분 고시 원문 무결성 검증",
-      "Shopify draft 등록 대기 5건의 조건 충족 여부 확인",
-      "바세린 마스크팩 라벨 및 사업자 검증 자료 존재 여부 대조"
-    ],
-    "requires_human": true,
-    "evidence_gaps": [
-      "amazon_movers_beauty 채널의 0건 수집 원인에 대한 상세 로그",
-      "고시 원문이 손상된 성분 9종에 대한 올바른 INCI 오버라이드 데이터"
-    ],
-    "forbidden_actions": [
-      "external publish",
-      "payment",
-      "advertising",
-      "canonical gate override"
-    ]
-  },
-  "usage": {
-    "promptTokenCount": 890,
-    "candidatesTokenCount": 266,
-    "totalTokenCount": 1156,
-    "promptTokensDetails": [
-      {
-        "modality": "TEXT",
-        "tokenCount": 890
-      }
-    ],
-    "serviceTier": "standard"
-  },
+  "advice": null,
+  "usage": null,
   "error": "",
   "policy_schema_version": 1,
-  "status": "advisory_ready"
+  "status": "disabled"
 }
