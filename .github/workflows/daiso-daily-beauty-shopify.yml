@@ -1,7 +1,10 @@
 name: 다이소 오늘의 뷰티추천 → Shopify 일일 등록
 
 # 매일 10:00 KST (= 01:00 UTC)에 정본 S등급에서
-# 스킨케어 / 메이크업 / 바디케어 각 최대 1개를 고른다. S등급 부재 시 건너뛴다.
+# 스킨케어 / 메이크업 / 바디케어 각 최대 1개를 고른다.
+# 별도 연구용 초안 기능의 소스는 포함하지만 현재 S-only 정책에서는 비활성이다.
+# 정책의 명시적 opt-in과 정확한 private 승인 없이는 비-S 초안도 만들지 않는다.
+# 이 코드 배포는 Shopify 실행·안전/FDA 검증·공개판매 승인이 아니다.
 #
 # 필요한 저장소 시크릿
 #   SHOPIFY_STORE           예: coarfamily.myshopify.com
@@ -52,6 +55,8 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
       ONLY_CATEGORIES: ${{ github.event.inputs.only_categories || '' }}
+      # Tracked source histories are never rewritten by this registrar. Fresh proof is retained as an artifact.
+      BODY_FALLBACK_CATALOG_PATH: 'out/body_shower_catalog.json'
       BACKFILL_BANNER: ${{ github.event.inputs.backfill_banner || '1' }}
       QUARANTINE_BLOCKED_PUBLIC: ${{ github.event.inputs.quarantine_blocked_public || '0' }}
       # 사용자 승인(2026-10-10): 다이소 원본 이미지를 상품 이미지로 사용해도 된다.
@@ -71,7 +76,16 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: 일일 등록 안전성 단위 테스트
-        run: python -B -m unittest discover -s tests -p test_daiso_daily_beauty_to_shopify.py
+        run: |
+          python -B -m unittest discover -s tests -p test_daiso_daily_beauty_to_shopify.py
+          python -B -m unittest discover -s tests -p test_body_category_fallback.py
+          python -B -m unittest discover -s tests -p test_collect_desk_catalog_order.py
+          python -B -m unittest discover -s scripts -p test_owner_draft_approval.py
+
+      # Experimental source only. Enable only after a separately reviewed policy/authority change.
+      - name: 바디 샤워·입욕 원래 목록 순서 수집 (현재 비활성)
+        if: ${{ false }}
+        run: python -B scripts/daiso/collect_desk_catalog.py --desk body --output out/body_shower_catalog.json
 
       - name: 다이소 추천 선택 후 Shopify 등록
         run: python scripts/daiso_daily_beauty_to_shopify.py

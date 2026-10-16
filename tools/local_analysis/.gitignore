@@ -1,0 +1,23 @@
+# Machine-local bridge configuration and runtime components
+/config.local.json
+/documents.json
+/runtime/
+/fixtures/
+# Python/model installation and downloaded public manifest
+/embeddinggemma/.venv/
+/embeddinggemma/model/
+/embeddinggemma/model-tree.json
+/embeddinggemma/hf-cache/
+/embeddinggemma/torch-cache/
+/embeddinggemma/tmp/
+# Generated local reports, authored fixture images, embeddings and partial downloads
+/embeddinggemma/integrity.json
+/embeddinggemma/evidence.json
+/embeddinggemma/vision-evidence.json
+/embeddinggemma/wait-state.json
+/embeddinggemma/embeddings_*.npz
+/embeddinggemma/vision-fixture-*.png
+/embeddinggemma/*.log
+/embeddinggemma/*.partial
+/embeddinggemma/__pycache__/
+/tests/.scratch-*/

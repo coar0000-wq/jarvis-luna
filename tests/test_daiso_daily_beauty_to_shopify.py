@@ -1,5 +1,6 @@
 """Offline tests. No Shopify writes or live Daiso calls."""
 import importlib.util
+import copy
 import json
 import sys
 import tempfile
@@ -1273,6 +1274,415 @@ class DailySafetyTests(unittest.TestCase):
 
     def test_banner_exact_prefix(self):
         self.assertEqual(daily.TAGLINE_HTML, "<p><strong>한국여성들이 즐겨찾는 제품</strong></p>")
+
+
+class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
+    """Real pick/queue/reservation logic; isolated files and mocked network."""
+
+    def setUp(self):
+        # Optional-path fixtures must opt in explicitly. No shipped config is changed.
+        policy = copy.deepcopy(daily.STRATEGY)
+        policy["grade_policy"][daily.BODY_RESEARCH_DRAFT_OPT_IN] = True
+        guard = patch.object(daily.pricing_model, "load_commerce_strategy", return_value=policy)
+        guard.start()
+        self.addCleanup(guard.stop)
+
+    def test_shipped_absent_false_or_nonboolean_policy_denies_even_with_approval(self):
+        shipped = daily.STRATEGY
+        self.assertIsNot(shipped["grade_policy"].get(daily.BODY_RESEARCH_DRAFT_OPT_IN), True)
+        policies = [copy.deepcopy(shipped)]
+        for value in (False, None, "true", 1):
+            policy = copy.deepcopy(shipped)
+            policy["grade_policy"][daily.BODY_RESEARCH_DRAFT_OPT_IN] = value
+            policies.append(policy)
+        absent = copy.deepcopy(shipped)
+        absent["grade_policy"].pop(daily.BODY_RESEARCH_DRAFT_OPT_IN, None)
+        policies.append(absent)
+        for policy in policies:
+            with self.subTest(policy=policy["grade_policy"]), patch.object(
+                    daily.pricing_model, "load_commerce_strategy", return_value=policy):
+                _, row, registry, shop = self.run_body(approved=True)
+                self.assertEqual(row["fallback_reason"], "body_category_research_draft_policy_not_enabled")
+                self.assertEqual(registry, {"items": []})
+                shop.create.assert_not_called()
+
+    def test_policy_read_failure_denies_category_permission(self):
+        with patch.object(daily.pricing_model, "load_commerce_strategy", side_effect=ValueError("invalid")), \
+             patch.object(daily.owner_draft_approval, "category_approved", return_value=True):
+            self.assertFalse(daily.body_category_draft_approved())
+
+    def test_mixed_source_creates_only_numeric_draft_with_original_index(self):
+        _, row, registry, shop = self.run_body(ids=("PD20261016001", "9001", "P100002", "9002"))
+        self.assertEqual(row["daiso_pdNo"], "9001")
+        self.assertEqual(row["selection_provenance"]["source_index"], 1)
+        audit = row["selection_provenance"]["unsupported_listing_products"]
+        self.assertEqual([r["pd_no"] for r in audit], ["PD20261016001", "P100002"])
+        self.assertEqual(registry[daily.body_fallback.QUEUE_KEY]["ordered_pd_nos"], ["9001", "9002"])
+        self.assertEqual(shop.create.call_args.args[0]["status"], "DRAFT")
+        shop.publish.assert_not_called()
+
+    def run_body(self, s_rows=None, ids=("9001", "9002"), registry=None, approved=True,
+                 source_change=None, detail_change=None, price_block=(), safety_block=(),
+                 dry=False, uncertain=False, revoke=False, invalidate=False, category="body",
+                 shop_products=None, gosi_data=None, revoke_policy=False):
+        import os
+        import copy
+        bf = daily.body_fallback
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root/"data/daiso_real").mkdir(parents=True)
+            source = {"code": bf.CATEGORY_CODE, "url": bf.SOURCE_URL,
+                      "fetch_status": "ok", "complete": True,
+                      "fetched_at": datetime.now(timezone.utc).isoformat(),
+                      "listing_products": [{"pd_no": pd, "name": "Body " + pd,
+                                            "small_category_code": bf.CATEGORY_CODE,
+                                            "url": daily.DAISO_ITEM + pd} for pd in ids]}
+            if source_change:
+                source_change(source)
+            catalog = root/"data/daiso_real/desk_catalog.json"
+            def write_catalog():
+                catalog.write_text(json.dumps({"desks": {"body": {"categories": [source]}}}), encoding="utf-8")
+            write_catalog()
+            reg = copy.deepcopy(registry if registry is not None else {"items": []})
+            registry_file = root/"registry.json"
+            registry_file.write_text(json.dumps(reg), encoding="utf-8")
+            approval = {"value": approved}
+            shop = MagicMock()
+            shop.store = "test.myshopify.com"
+            shop.existing_products.return_value = shop_products or []
+            shop.exists.return_value = False
+            shop.online_store_publication.return_value = "pub"
+            shop.publish_channels.return_value = {}
+            last = [None]
+            def lookup(pd):
+                last[0] = str(pd)
+                p = {"pdNo": str(pd), "pdNm": "Body " + str(pd), "brndNm": "도브",
+                     "pdPrc": "3000", "soldOutYn": "N", "exhYn": "Y", "onlStckQy": 2,
+                     "pdImgUrl": "/body.jpg", "_current_detail_available": True}
+                return detail_change(p) if detail_change else p
+            pricing = {"single": {"price_usd": 14.99, "margin_pct": 30},
+                       "pack": {"ok": True, "price_usd": 25.99, "margin_pct": 30,
+                                "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {},
+                       "evidence": dict(EVIDENCE_OK)}
+            def images(p, unused_shop):
+                if revoke_policy:
+                    daily.pricing_model.load_commerce_strategy.return_value["grade_policy"][daily.BODY_RESEARCH_DRAFT_OPT_IN] = False
+                if revoke:
+                    approval["value"] = False
+                if invalidate:
+                    source["listing_products"] = []
+                    write_catalog()
+                return {"source_urls": ["source"], "resource_urls": ["resource"], "skipped": []}
+            def create(item, callback):
+                if uncertain:
+                    raise TimeoutError("unknown create outcome")
+                prod = {"id": "gid://shopify/Product/9001", "handle": "body"}
+                callback(prod)
+                return prod
+            shop.create.side_effect = create
+            cwd = os.getcwd()
+            os.chdir(root)
+            try:
+                with ExitStack() as stack:
+                    for name, value in {"ROOT": root, "REGISTRY": registry_file, "DRY_RUN": dry,
+                                        "ONLY": {category}, "BACKFILL_BANNER": False,
+                                        "QUARANTINE_BLOCKED_PUBLIC": False}.items():
+                        stack.enter_context(patch.object(daily, name, value))
+                    stack.enter_context(patch.dict(os.environ, {"SHOPIFY_STORE": "test.myshopify.com",
+                        "SHOPIFY_ADMIN_TOKEN": "test", "GITHUB_STEP_SUMMARY": ""}))
+                    stack.enter_context(patch.object(daily, "Shopify", return_value=shop))
+                    stack.enter_context(patch.object(daily, "s_ranked", return_value=s_rows or []))
+                    stack.enter_context(patch.object(daily.owner_draft_approval, "category_approved",
+                                                    side_effect=lambda *args: approval["value"]))
+                    stack.enter_context(patch.object(daily, "owner_approved_draft", return_value=False))
+                    stack.enter_context(patch.object(daily, "daiso_lookup", side_effect=lookup))
+                    stack.enter_context(patch.object(daily, "manufacturer_safety_record", side_effect=lambda pd:
+                        {"covered": str(pd) not in safety_block, "reason": "missing" if str(pd) in safety_block else None}))
+                    gemini = stack.enter_context(patch.object(daily, "gemini_copy", return_value=None))
+                    stack.enter_context(patch.object(daily, "fallback_copy", side_effect=lambda p, cat: ("Dove " + p["pdNo"], "<p>Body.</p>")))
+                    stack.enter_context(patch.object(daily, "jarvis_price", return_value={"price_usd": 14.99}))
+                    stack.enter_context(patch.object(daily, "final_prices", return_value=pricing))
+                    real_reason = daily.price_unfit_reason
+                    stack.enter_context(patch.object(daily, "price_unfit_reason", side_effect=lambda krw, pr:
+                        "test_price_missing" if last[0] in price_block else real_reason(krw, pr)))
+                    gosi = stack.enter_context(patch.object(daily, "collect_gosi", return_value=(
+                        gosi_data if gosi_data is not None else {"gosi_ok": True, "missing": [], "ingredients": "INCI"})))
+                    stack.enter_context(patch.object(daily, "build_us_label", return_value={"html": "<p>Label.</p>", "reasons": [], "label": {}}))
+                    stack.enter_context(patch.object(daily, "canonical_public_gate", return_value={"public_ready": True, "reasons": []}))
+                    stack.enter_context(patch.object(daily, "prepare_images", side_effect=images))
+                    stack.enter_context(patch.object(daily, "log_price_position"))
+                    stack.enter_context(patch.object(daily, "verify_product", return_value={
+                        "variants": {"nodes": [{}, {}]}, "media": {"nodes": [{}]},
+                        "status": "DRAFT", "publishedOnPublication": False}))
+                    stack.enter_context(patch.object(daily, "log"))
+                    code = daily.main()
+                    self.assertTrue(all(call.args[0].get("_source") != bf.SELECTION_SOURCE
+                                        for call in gemini.call_args_list))
+                    if shop.create.called:
+                        selected_fallback = "draft-only-category-fallback" in shop.create.call_args.args[0]["tags"]
+                        if selected_fallback:
+                            self.assertEqual(gosi.call_args.kwargs, {"allow_ai": False})
+                        else:
+                            self.assertEqual(gosi.call_args.kwargs, {})
+                    if not s_rows:
+                        gemini.assert_not_called()
+                    elif shop.create.called and "jarvis-grade-s" in shop.create.call_args.args[0]["tags"]:
+                        gemini.assert_called()
+                result = json.loads((root/"out/daiso_daily_beauty_result.json").read_text(encoding="utf-8"))
+                saved = json.loads(registry_file.read_text(encoding="utf-8"))
+                return code, result["results"][0], saved, shop
+            finally:
+                os.chdir(cwd)
+
+    def test_s_first_does_not_prepare_fallback_queue(self):
+        _, row, reg, shop = self.run_body(s_rows=[{"pd_no": "8001", "grade": "S"}])
+        self.assertEqual(row["daiso_pdNo"], "8001")
+        self.assertEqual(row["grade"], "S")
+        self.assertNotIn(daily.body_fallback.QUEUE_KEY, reg)
+        self.assertEqual(row["s_candidates"], 1)
+
+    def test_no_s_forced_draft_even_safety_and_public_gates_covered(self):
+        _, row, reg, shop = self.run_body()
+        self.assertEqual(row["status"], "created_draft", row)
+        self.assertEqual(row["grade"], "-")
+        self.assertEqual(row["selection_source"], daily.body_fallback.SELECTION_SOURCE)
+        self.assertEqual(row["selection_provenance"]["source_index"], 0)
+        self.assertEqual(row["selection_provenance"]["category_code"], daily.body_fallback.CATEGORY_CODE)
+        self.assertIn("owner_category_fallback_draft_only", row["draft_reasons"])
+        self.assertIn(daily.body_fallback.QUEUE_KEY, reg)
+        self.assertEqual(shop.create.call_args.args[0]["status"], "DRAFT")
+        self.assertNotIn("jarvis-grade-s", shop.create.call_args.args[0]["tags"])
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+        shop.publish_channels.assert_not_called()
+
+    def test_exhausted_s_stock_duplicates_price_and_safety_use_fallback(self):
+        rows = [{"pd_no": str(i), "grade": "S"} for i in range(8001, 8005)]
+        def change(p):
+            if p["pdNo"] == "8001":
+                p["soldOutYn"] = "Y"
+            return p
+        _, row, _, _ = self.run_body(s_rows=rows, detail_change=change,
+            price_block=("8003",), safety_block=("8004",),
+            registry={"items": [{"pd_no": "8002", "name_kr": "previous", "status": "deleted_by_owner"}]})
+        self.assertEqual(row["daiso_pdNo"], "9001")
+        self.assertEqual(row["s_candidates"], 4)
+
+    def test_one_per_kst_day_cap(self):
+        _, row, reg, shop = self.run_body(registry={"items": [
+            {"pd_no": "7001", "category": "body", "date": daily.kst_today(), "status": "DRAFT"}]})
+        self.assertEqual(row["status"], "skipped_already_today")
+        shop.create.assert_not_called()
+        self.assertNotIn(daily.body_fallback.QUEUE_KEY, reg)
+
+    def test_missing_or_nonboolean_category_approval_fail_closed(self):
+        for approved in (False, "true", 1, None):
+            with self.subTest(approved=approved):
+                _, row, reg, shop = self.run_body(approved=approved)
+                self.assertIn("approval_missing_or_revoked", row["fallback_reason"])
+                self.assertEqual(reg, {"items": []})
+                shop.create.assert_not_called()
+
+    def test_revoked_policy_before_reservation_has_no_write_or_queue_advance(self):
+        _, row, registry, shop = self.run_body(revoke_policy=True)
+        self.assertEqual(row["status"], "skipped_body_category_fallback_invalidated")
+        self.assertEqual(registry, {"items": []})
+        shop.create.assert_not_called()
+
+    def test_revoked_approval_before_reservation_has_no_write_or_queue_advance(self):
+        _, row, reg, shop = self.run_body(revoke=True)
+        self.assertEqual(row["status"], "skipped_body_category_fallback_invalidated")
+        self.assertEqual(reg, {"items": []})
+        shop.create.assert_not_called()
+
+    def test_source_invalidated_before_reservation_has_no_write(self):
+        _, row, reg, shop = self.run_body(invalidate=True)
+        self.assertEqual(row["fallback_reason"], "body_category_source_membership_missing")
+        self.assertEqual(reg, {"items": []})
+        shop.create.assert_not_called()
+
+    def test_stale_wrong_and_partial_source_fail_closed(self):
+        mutations = [lambda s: s.update(fetched_at=(datetime.now(timezone.utc)-timedelta(hours=25)).isoformat()),
+                     lambda s: s.update(url="https://example.com/wrong"),
+                     lambda s: s.update(complete=False),
+                     lambda s: s["listing_products"][0].update(small_category_code="wrong")]
+        for mutation in mutations:
+            with self.subTest(mutation=mutation):
+                _, row, reg, shop = self.run_body(source_change=mutation)
+                self.assertTrue(row["fallback_reason"])
+                self.assertEqual(reg, {"items": []})
+                shop.create.assert_not_called()
+
+    def test_current_detail_unavailable_never_uses_source_price_or_stock(self):
+        for change in (lambda p: None, lambda p: dict(p, _current_detail_available=False),
+                       lambda p: dict(p, pdPrc="0"), lambda p: dict(p, onlStckQy=0)):
+            with self.subTest(change=change):
+                _, row, reg, shop = self.run_body(detail_change=change)
+                self.assertEqual(row["fallback_reason"], "no_eligible_body_category_fallback")
+                self.assertEqual(reg, {"items": []})
+                shop.create.assert_not_called()
+
+    def test_deleted_and_shopify_duplicate_identity_are_skipped(self):
+        _, row, _, _ = self.run_body(ids=("1049275", "9001", "9002"),
+            shop_products=[{"title": "Existing", "tags": ["daiso-pd-9001"], "variants": {"nodes": []}}])
+        self.assertEqual(row["daiso_pdNo"], "9002")
+        _, row, _, _ = self.run_body(registry={"items": [
+            {"pd_no": "9001", "name_kr": "Body 9002", "status": "deleted_by_owner"}]})
+        self.assertEqual(row["fallback_reason"], "no_eligible_body_category_fallback")
+
+    def test_dry_run_does_not_write_queue(self):
+        _, row, reg, shop = self.run_body(dry=True)
+        self.assertEqual(row["status"], "dry_run")
+        self.assertEqual(reg, {"items": []})
+        shop.create.assert_not_called()
+
+    def test_scope_only_bypasses_safety_for_nonpublic_fallback(self):
+        _, row, _, shop = self.run_body(safety_block=("9001",))
+        self.assertEqual(row["status"], "created_draft")
+        self.assertFalse(row["safety_record"]["covered"])
+        self.assertIn("safety_evidence_unverified_owner_draft_only", row["draft_reasons"])
+        shop.publish.assert_not_called()
+
+    def test_no_fallback_for_skincare_or_makeup(self):
+        for category in ("skincare", "makeup"):
+            _, row, reg, shop = self.run_body(category=category)
+            self.assertEqual(row["status"], "skipped_no_s_grade")
+            self.assertEqual(reg, {"items": []})
+            shop.create.assert_not_called()
+
+    def test_fallback_missing_gosi_remains_a_draft_hold(self):
+        _, row, _, shop = self.run_body(gosi_data={"gosi_ok": False, "missing": ["ingredients", "maker", "origin"]})
+        self.assertEqual(row["status"], "created_draft")
+        self.assertIn("gosi_missing:ingredients,maker,origin", row["draft_reasons"])
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+
+    def test_gosi_ai_disabled_with_key_preserves_cache_api_and_makes_no_gemini_request(self):
+        import os
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root/"data").mkdir()
+            (root/"data/gosi.json").write_text(json.dumps({"items": {"9001": {"ingredients": "Cached INCI"}}}), encoding="utf-8")
+            with patch.object(daily, "ROOT", root), \
+                 patch.dict(os.environ, {"GEMINI_API_KEY": "offline-test-key"}), \
+                 patch.object(daily, "http_json", return_value=(200, {"data": [
+                     {"ntfcIemCd": "1", "ntfcIemCn": "30 ml"}]})) as requests, \
+                 patch.object(daily, "detail_image_urls") as detail_images, \
+                 patch.object(daily, "vision_read") as vision, \
+                 patch.object(daily.urllib.request, "urlopen") as direct_requests:
+                gosi = daily.collect_gosi("9001", allow_ai=False)
+            self.assertEqual(gosi["ingredients"], "Cached INCI")
+            self.assertEqual(gosi["volume"], "30 ml")
+            self.assertFalse(gosi["gosi_ok"])
+            self.assertEqual(gosi["missing"], ["maker", "origin"])
+            self.assertEqual(requests.call_count, 1)
+            self.assertTrue(all(call.args[0].startswith("https://fapi.daisomall.co.kr/")
+                                for call in requests.call_args_list))
+            self.assertFalse(any("generativelanguage" in call.args[0] for call in requests.call_args_list))
+            detail_images.assert_not_called()
+            vision.assert_not_called()
+            direct_requests.assert_not_called()
+
+    def test_gosi_default_keeps_canonical_ai_extraction_behavior(self):
+        import os
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", Path(folder)), \
+             patch.dict(os.environ, {"GEMINI_API_KEY": "offline-test-key"}), \
+             patch.object(daily, "gosi_from_api", return_value={}), \
+             patch.object(daily, "detail_image_urls", return_value=["image"]) as images, \
+             patch.object(daily, "vision_read", return_value={
+                 "ingredients": "INCI", "volume": "30 ml", "maker": "Maker", "origin": "Korea"}) as vision:
+            gosi = daily.collect_gosi("9001")
+        self.assertTrue(gosi["gosi_ok"])
+        images.assert_called_once_with("9001")
+        vision.assert_called_once()
+
+    def test_real_lookup_requires_positive_current_detail_not_search_defaults(self):
+        hit = {"pdNo": "9001", "pdNm": "Body 9001", "pdPrc": "3000", "soldOutYn": "N",
+               "ONL_STCK_QY": 10, "pdImgUrl": "/body.jpg"}
+        for detail, expected in (({}, False), ({"pdPrc": 3000, "stckQy": 0}, False),
+                                 ({"pdPrc": 0, "stckQy": 10}, False),
+                                 ({"pdPrc": 3000, "stckQy": 10, "exhYn": "N"}, False),
+                                 ({"pdPrc": 3000, "stckQy": 10}, True)):
+            with self.subTest(detail=detail):
+                response = MagicMock()
+                response.__enter__.return_value.read.return_value = json.dumps(hit).encode()
+                with patch.object(daily.urllib.request, "urlopen", return_value=response), \
+                     patch.object(daily, "daiso_post", return_value={"data": detail}):
+                    product = daily.daiso_lookup("9001")
+                self.assertIs(product["_current_detail_available"], expected)
+
+    def test_missing_category_source_fails_closed_without_registry_change(self):
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", Path(folder)), \
+             patch.object(daily.owner_draft_approval, "category_approved", return_value=True):
+            reg = {"items": []}
+            rows, reason, queue = daily.body_fallback_rows(reg)
+            self.assertEqual(rows, [])
+            self.assertEqual(reason, "body_category_source_missing_or_unreadable")
+            self.assertIsNone(queue)
+            self.assertEqual(reg, {"items": []})
+
+    def test_catalog_override_reads_only_explicit_repo_source_and_records_hash(self):
+        import os
+        bf = daily.body_fallback
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            source = root/"out/body_shower_catalog.json"
+            source.parent.mkdir()
+            catalog = {"desks": {"body": {"categories": [{
+                "code": bf.CATEGORY_CODE, "url": bf.SOURCE_URL, "fetch_status": "ok", "complete": True,
+                "fetched_at": datetime.now(timezone.utc).isoformat(),
+                "listing_products": [{"pd_no": "9001", "name": "Body", "url": daily.DAISO_ITEM + "9001"}]
+            }]}}}
+            raw = json.dumps(catalog).encode("utf-8")
+            source.write_bytes(raw)
+            with patch.object(daily, "ROOT", root), \
+                 patch.object(daily.owner_draft_approval, "category_approved", return_value=True), \
+                 patch.dict(os.environ, {"BODY_FALLBACK_CATALOG_PATH": "out/body_shower_catalog.json"}):
+                reg = {"items": []}
+                rows, reason, queue = daily.body_fallback_rows(reg)
+                self.assertIsNone(reason)
+                self.assertEqual(rows[0]["pd_no"], "9001")
+                self.assertEqual(rows[0]["_priority"]["catalog_path"], "out/body_shower_catalog.json")
+                self.assertEqual(rows[0]["_priority"]["catalog_sha256"], daily.hashlib.sha256(raw).hexdigest())
+                self.assertIsNotNone(queue)
+                self.assertEqual(reg, {"items": []})
+
+    def test_explicit_catalog_override_invalid_or_missing_never_uses_default(self):
+        import os
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            default = root/"data/daiso_real/desk_catalog.json"
+            default.parent.mkdir(parents=True)
+            default.write_text("{}", encoding="utf-8")
+            overrides = ("", "../outside.json", str(root/"absolute.json"), "C:relative.json", "out/missing.json")
+            for override in overrides:
+                with self.subTest(override=override), patch.object(daily, "ROOT", root), \
+                     patch.object(daily.owner_draft_approval, "category_approved", return_value=True), \
+                     patch.dict(os.environ, {"BODY_FALLBACK_CATALOG_PATH": override}):
+                    rows, reason, queue = daily.body_fallback_rows({"items": []})
+                    self.assertEqual(rows, [])
+                    self.assertIn(reason, {"body_category_catalog_path_invalid", "body_category_source_missing_or_unreadable"})
+                    self.assertIsNone(queue)
+
+    def test_uncertain_created_id_also_blocks_future_fallback(self):
+        registry = {"items": [{"pd_no": "9001", "category": "body", "date": "yesterday",
+                              "status": "created_unverified", "shopify_id": "gid://shopify/Product/9001",
+                              "source": daily.body_fallback.SELECTION_SOURCE}]}
+        _, row, saved, shop = self.run_body(registry=registry)
+        self.assertEqual(row["fallback_reason"], "uncertain_fallback_outcome")
+        self.assertEqual(saved, registry)
+        shop.create.assert_not_called()
+
+    def test_uncertain_create_durably_blocks_next_day_fallback(self):
+        code, row, reg, shop = self.run_body(uncertain=True)
+        self.assertEqual(code, 1)
+        self.assertEqual(reg["items"][0]["status"], "create_reserved")
+        self.assertEqual(reg["items"][0]["source"], daily.body_fallback.SELECTION_SOURCE)
+        reg["items"][0]["date"] = "yesterday"
+        _, row, saved, shop = self.run_body(registry=reg)
+        self.assertEqual(row["fallback_reason"], "uncertain_fallback_outcome")
+        self.assertEqual(saved, reg)
+        shop.create.assert_not_called()
 
 
 if __name__ == "__main__":

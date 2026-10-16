@@ -9,7 +9,7 @@ JARVIS LUNA - 정본 S등급 다이소 뷰티 후보 -> Shopify 일일 등록
 흐름
 ----
 1. 정본 채점표에서 S등급만 읽고 스킨케어 / 메이크업 / 바디케어 각 최대 1개를 고른다.
-   해당 카테고리에 S등급이 없으면 이유와 후보 수를 남기고 건너뛴다.
+   바디 연구 초안 예외는 별도 정책 opt-in과 정확한 비공개 소유자 승인이 모두 있을 때만 시도한다.
 2. 판매 가능(품절 아님, 재고 > 0) 이고, 이미 Shopify 에 등록하지 않은 상품만 고른다.
    이력 레지스트리와 Shopify 전체 카탈로그의 번호·이름·태그·SKU로 중복을 막는다.
 3. 영문 제목/설명을 만든다. GEMINI_API_KEY(무료 티어)가 있으면 사용하고,
@@ -36,6 +36,7 @@ ONLY_CATEGORIES          예: "skincare,body" (테스트용)
 from __future__ import annotations
 
 import json
+import copy
 import math
 import os
 import re
@@ -64,6 +65,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import manufacturer_safety  # noqa: E402
 import owner_draft_approval  # noqa: E402
+import body_category_fallback as body_fallback  # noqa: E402
 import pricing_model  # noqa: E402
 
 STRATEGY = pricing_model.load_commerce_strategy()
@@ -577,15 +579,15 @@ def vision_read(img_url, pd_no, key, model):
     return {k: _clean(j.get(k)) for k in ("volume", "ingredients", "maker", "origin", "warnings", "expiry")}
 
 
-def collect_gosi(pd_no):
+def collect_gosi(pd_no, allow_ai=True):
     try:
-        return _collect_gosi(pd_no)
+        return _collect_gosi(pd_no, allow_ai=allow_ai)
     except Exception as exc:  # noqa: BLE001  고시 수집이 어떻게 실패해도 작업은 계속한다 (초안으로 남는다)
         log(f"  gosi failed, continuing as draft: {exc}")
         return {"gosi_ok": False, "missing": list(NEED), "_source": "error"}
 
 
-def _collect_gosi(pd_no):
+def _collect_gosi(pd_no, allow_ai=True):
     """고시 4항목(성분·용량·제조사·제조국)을 모은다. 못 채우면 빈 값으로 둔다. 지어내지 않는다."""
     g = {}
     # 0) 이미 수집된 JARVIS 정본 (data/gosi.json)
@@ -601,7 +603,7 @@ def _collect_gosi(pd_no):
         g.setdefault(k, v)
     # 2) 상세 이미지 판독 (표는 상세 이미지 아래쪽에 있다)
     key = os.environ.get("GEMINI_API_KEY", "").strip()
-    if key and any(not g.get(k) for k in NEED):
+    if allow_ai and key and any(not g.get(k) for k in NEED):
         model = os.environ.get("GEMINI_VISION_MODEL", "gemini-flash-latest")
         imgs = detail_image_urls(pd_no)
         log(f"  gosi: detail images {len(imgs)}")
@@ -1121,7 +1123,7 @@ def log_price_position(entry, pos):
 # JARVIS 채점(shopify_demand_score.json)의 버킷을 Shopify 3개 카테고리로 묶는다.
 BUCKETS = {c["tag"]: set(c["score_buckets"]) for c in STRATEGY["categories"]}
 GRADE_ORDER = {"S": 0, "A": 1}
-# 사용자 최신 지시(2026-10-11): 3개 카테고리 모두 S등급만. 없는 카테고리는 건너뛴다.
+# 정본 등급은 3개 카테고리 모두 S만. 바디 카테고리 초안 예외는 등급을 부여하지 않는다.
 ALLOWED_GRADES = {c["tag"]: tuple(c["allowed_grades"]) for c in STRATEGY["categories"]}
 
 
@@ -1161,6 +1163,12 @@ def daiso_lookup(pd_no):
         return None
     info = (daiso_post("/pd/pdr/pdDtl/selPdDtlInfo", pd_no) or {}).get("data") or {}
     p = dict(hit)
+    try:
+        p["_current_detail_available"] = (int(str(info.get("pdPrc") or "0")) > 0
+                                          and int(str(info.get("stckQy") or "0")) > 0
+                                          and info.get("exhYn") != "N" and info.get("soldOutYn") != "Y")
+    except (TypeError, ValueError):
+        p["_current_detail_available"] = False
     p["brndNm"] = str(hit.get("brndNm") or info.get("brndNm") or "").split(">")[0].strip()
     p["onlStckQy"] = info.get("stckQy") or hit.get("ONL_STCK_QY") or 0
     p["pdPrc"] = str(info.get("pdPrc") or hit.get("pdPrc") or "0")
@@ -1324,8 +1332,16 @@ def pick(cat, shop, names, ids, reg, rows=None, excluded=None):
         if not pd_no or str(pd_no) in (excluded or set()) or str(pd_no) in ids or any(str(i.get("pd_no")) == str(pd_no) for i in reg["items"]):
             continue
         p = daiso_lookup(pd_no)
+        fallback = row.get("selection_source") == body_fallback.SELECTION_SOURCE
+        if fallback and (cat[0] != "body" or str(pd_no) == "1049275" or
+                         not p or p.get("_current_detail_available") is not True or
+                         str(p.get("pdNo")) != str(pd_no)):
+            continue
         if p and sellable(p) and not already_registered(p, reg, names, ids):
-            p["_grade"], p["_source"], p["_score"] = row.get("grade") or "S", "jarvis_s_list", row.get("shopify_score")
+            if fallback:
+                p["_grade"], p["_source"], p["_score"] = "-", body_fallback.SELECTION_SOURCE, None
+            else:
+                p["_grade"], p["_source"], p["_score"] = row.get("grade") or "S", "jarvis_s_list", row.get("shopify_score")
             p["_priority"] = row.get("_priority")
             return p
     return None
@@ -1336,6 +1352,60 @@ SAFETY_MISSING = manufacturer_safety.SAFETY_MISSING
 
 def owner_approved_draft(pd_no):
     return owner_draft_approval.approved(pd_no, ROOT)
+
+
+BODY_RESEARCH_DRAFT_OPT_IN = "body_category_research_draft_fallback"
+
+
+def body_research_draft_policy_enabled():
+    """Separate default-off policy exception, re-read at every authorization boundary."""
+    try:
+        policy = pricing_model.load_commerce_strategy().get("grade_policy")
+        return isinstance(policy, dict) and policy.get(BODY_RESEARCH_DRAFT_OPT_IN) is True
+    except (OSError, UnicodeError, ValueError, TypeError, AttributeError):
+        return False
+
+
+def body_category_draft_approved():
+    """Both policy and revocable category scope are required; never safety clearance."""
+    if not body_research_draft_policy_enabled():
+        return False
+    try:
+        return owner_draft_approval.category_approved(
+            body_fallback.CATEGORY_CODE, body_fallback.SOURCE_URL, ROOT) is True
+    except (AttributeError, OSError, ValueError, TypeError):
+        return False
+
+
+def body_fallback_rows(reg):
+    """Validate fresh source on a private copy; dry runs/skips never advance history."""
+    if not body_research_draft_policy_enabled():
+        return [], "body_category_research_draft_policy_not_enabled", None
+    if not body_category_draft_approved():
+        return [], "owner_category_fallback_approval_missing_or_revoked", None
+    # Explicit workflow output is authoritative: never silently use tracked data
+    # if an override is missing/invalid. Absolute, escaping and symlink-escaping
+    # paths cannot authorize a source outside this repository.
+    raw_path = os.environ.get("BODY_FALLBACK_CATALOG_PATH", "data/daiso_real/desk_catalog.json")
+    try:
+        relative = Path(raw_path.replace("\\", "/"))
+        root = ROOT.resolve()
+        if (not raw_path.strip() or ":" in raw_path or relative.is_absolute() or relative.drive or relative.root
+                or ".." in relative.parts):
+            return [], "body_category_catalog_path_invalid", None
+        source_path = (root / relative).resolve()
+        if not source_path.is_relative_to(root):
+            return [], "body_category_catalog_path_invalid", None
+        raw = source_path.read_bytes()
+        catalog = json.loads(raw.decode("utf-8-sig"))
+    except (OSError, UnicodeError, ValueError, RuntimeError):
+        return [], "body_category_source_missing_or_unreadable", None
+    staged = copy.deepcopy(reg)
+    rows, reason = body_fallback.prepare_queue(catalog, staged)
+    for row in rows:
+        row["_priority"]["catalog_path"] = source_path.relative_to(root).as_posix()
+        row["_priority"]["catalog_sha256"] = hashlib.sha256(raw).hexdigest()
+    return rows, reason, staged.get(body_fallback.QUEUE_KEY) if reason is None else None
 
 
 def manufacturer_safety_record(pd_no):
@@ -1638,7 +1708,9 @@ def main():
             continue
         try:
             rows = s_ranked(cat)
-            if not rows:
+            s_candidate_count = len(rows)
+            fallback_mode = False
+            if not rows and cat[0] != "body":
                 log("  no canonical S-grade candidate in category")
                 results.append({"category": cat[0], "status": "skipped_no_s_grade",
                                 "grade_required": grade_label(cat), "s_candidates": 0})
@@ -1648,20 +1720,31 @@ def main():
             safety_excluded = []
             while True:
                 p = pick(cat, shop, names, ids, reg, rows, excluded)
+                if not p and cat[0] == "body" and not fallback_mode:
+                    fallback_mode = True
+                    rows, fallback_reason, _ = body_fallback_rows(reg)
+                    if rows:
+                        continue
                 if not p:
-                    log("  no available, sellable, unregistered S-grade candidate")
-                    results.append({"category": cat[0], "status": "skipped_no_eligible_s_grade",
-                                    "grade_required": grade_label(cat), "s_candidates": len(rows),
-                                    "price_excluded": price_excluded, "safety_excluded": safety_excluded})
+                    log("  no available, sellable, unregistered candidate")
+                    skipped = {"category": cat[0],
+                               "status": "skipped_no_eligible_s_grade" if s_candidate_count else "skipped_no_s_grade",
+                               "grade_required": grade_label(cat), "s_candidates": s_candidate_count,
+                               "price_excluded": price_excluded, "safety_excluded": safety_excluded}
+                    if fallback_mode:
+                        skipped["fallback_reason"] = fallback_reason or "no_eligible_body_category_fallback"
+                    results.append(skipped)
                     break
                 # The owner may approve a non-public draft, never safety coverage or publication.
                 safety = manufacturer_safety_record(p["pdNo"])
-                if not safety["covered"] and not owner_approved_draft(p["pdNo"]):
+                draft_permission = body_category_draft_approved() if fallback_mode else owner_approved_draft(p["pdNo"])
+                if (fallback_mode and not draft_permission) or (not safety["covered"] and not draft_permission):
                     log(f"  excluded (safety): {p['pdNo']} {clean_name(p['pdNm'])} -> {safety['reason']}")
                     excluded.add(str(p["pdNo"]))
                     safety_excluded.append({"pd_no": str(p["pdNo"]), "reason": safety["reason"]})
                     continue
-                copy = gemini_copy(p, cat) or fallback_copy(p, cat)
+                # Category fallback adds no metered/unknown-cost copy request.
+                copy = fallback_copy(p, cat) if fallback_mode else (gemini_copy(p, cat) or fallback_copy(p, cat))
                 title, html = copy
                 if already_registered(p, reg, names, ids, title):
                     excluded.add(str(p["pdNo"]))
@@ -1681,7 +1764,7 @@ def main():
                 break
             if not p:
                 continue
-            g = collect_gosi(p["pdNo"])
+            g = collect_gosi(p["pdNo"], allow_ai=False) if fallback_mode else collect_gosi(p["pdNo"])
             label = build_us_label(p["pdNo"], clean_name(p["pdNm"]), g)
             if has_claims(title, html):  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
                 title, html = fallback_copy(p, cat)
@@ -1689,6 +1772,8 @@ def main():
             html = TAGLINE_HTML + html + label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
             reasons = list(label["reasons"])
+            if fallback_mode:
+                reasons.append("owner_category_fallback_draft_only")
             if not safety["covered"]:
                 reasons.append("safety_evidence_unverified_owner_draft_only")
             public_gate = canonical_public_gate(p["pdNo"])
@@ -1738,6 +1823,7 @@ def main():
                 "vendor": BRAND_EN.get((p.get("brndNm") or "").strip(), p.get("brndNm") or "Daiso"),
                 "product_type": cat[3],
                 "tags": [cat[0], "daiso-daily", f"daiso-pd-{p['pdNo']}", "k-beauty"]
+                + (["owner-body-shower-category-fallback", "draft-only-category-fallback"] if fallback_mode else [])
                 + ([f"jarvis-grade-{p['_grade'].lower()}"] if p.get("_grade") not in (None, "-") else []),
                 "images": images,
                 "category": TAXONOMY[cat[0]],
@@ -1749,7 +1835,9 @@ def main():
             log(f"  pick: {p['pdNo']} {clean_name(p['pdNm'])} | {krw} KRW -> ${item['price_usd']:.2f} | {title}")
             rec = {
                 "category": cat[0],
-                "grade_required": grade_label(cat), "grade": p["_grade"], "s_candidates": len(rows),
+                "grade_required": grade_label(cat), "grade": p["_grade"], "s_candidates": s_candidate_count,
+                "selection_source": p.get("_source"),
+                "selection_provenance": p.get("_priority") if fallback_mode else None,
                 "priority": p.get("_priority"),
                 "daiso_pdNo": p["pdNo"],
                 "daiso_name": clean_name(p["pdNm"]),
@@ -1774,7 +1862,12 @@ def main():
             else:
                 # Re-read the entire catalogue just before writing; the daily cap and duplicate checks are unconditional.
                 safety = manufacturer_safety_record(p["pdNo"])
-                draft_approved = owner_approved_draft(p["pdNo"])
+                draft_approved = body_category_draft_approved() if fallback_mode else owner_approved_draft(p["pdNo"])
+                if fallback_mode and not draft_approved:
+                    rec["status"] = "skipped_body_category_fallback_invalidated"
+                    rec["fallback_reason"] = "owner_category_fallback_approval_missing_or_revoked"
+                    results.append(rec)
+                    continue
                 if not safety["covered"] and not draft_approved:
                     rec["status"] = "blocked_manufacturer_safety_record_missing"
                     rec["safety_record"] = safety
@@ -1791,6 +1884,21 @@ def main():
                     rec["status"] = "skipped_duplicate_at_create"
                     results.append(rec)
                     continue
+                fallback_queue = None
+                if fallback_mode:
+                    fresh_rows, invalid_reason, fallback_queue = body_fallback_rows(reg)
+                    fresh_row = next((r for r in fresh_rows if str(r["pd_no"]) == str(p["pdNo"])), None)
+                    if invalid_reason or not fresh_row:
+                        rec["status"] = "skipped_body_category_fallback_invalidated"
+                        rec["fallback_reason"] = invalid_reason or "body_category_source_membership_missing"
+                        results.append(rec)
+                        continue
+                    p["_priority"] = fresh_row["_priority"]
+                    rec["selection_provenance"] = p["_priority"]
+                    rec["priority"] = p["_priority"]
+                    item["status"] = "DRAFT"
+                    if "owner_category_fallback_draft_only" not in reasons:
+                        reasons.append("owner_category_fallback_draft_only")
                 cmpd = pr.get("shop_compare") or {}
                 entry = {"pd_no": str(p["pdNo"]), "family": family_key(clean_name(p["pdNm"])),
                          "name_kr": clean_name(p["pdNm"]), "title": title, "category": cat[0],
@@ -1805,13 +1913,17 @@ def main():
                          "priority": p.get("_priority"),
                          "price_evidence_source": (pr.get("evidence") or {}).get("source"),
                          "price_claim": ((pr.get("evidence") or {}).get("detail") or {}).get("price_claim"),
-                         "draft_reasons": reasons, "grade": p["_grade"], "source": p.get("_source")}
+                         "draft_reasons": reasons, "grade": p["_grade"], "source": p.get("_source"),
+                         "s_candidates": s_candidate_count, "selection_source": p.get("_source"),
+                         "selection_provenance": p.get("_priority") if fallback_mode else None}
                 pos = price_position(entry.get("single_usd"), entry.get("shop_com_lowest_usd"), entry.get("single_margin_pct"))
                 entry["price_position"], entry["strategy_hints"] = pos["position"], pos["hints"]
                 try:
                     log_price_position(entry, pos)
                 except OSError as exc:
                     log(f"  price log skipped: {exc}")
+                if fallback_mode:
+                    reg[body_fallback.QUEUE_KEY] = fallback_queue
                 reg["items"].append(entry)
                 current_entry = entry
                 save_registry(reg)  # unknown network outcome must remain a durable duplicate block
@@ -1846,7 +1958,11 @@ def main():
                 for gate_reason in public_gate["reasons"]:
                     if gate_reason not in reasons:
                         reasons.append(gate_reason)
-                if not reasons:
+                if fallback_mode:
+                    item["status"] = "DRAFT"
+                    if "owner_category_fallback_draft_only" not in reasons:
+                        reasons.append("owner_category_fallback_draft_only")
+                if not reasons and not fallback_mode:
                     try:
                         shop.set_status(prod["id"], "ACTIVE")
                         shop.publish(prod["id"], pub)

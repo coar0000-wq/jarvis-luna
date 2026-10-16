@@ -122,6 +122,9 @@ jobs:
             python -B -m unittest discover -s scripts -p "test_payment_fees.py"
             python -B -m unittest discover -s scripts -p "test_operations_storage.py"
             python -B -m unittest discover -s scripts -p "test_manufacturer_safety.py"
+            python -B -m unittest discover -s tests -p "test_body_category_fallback.py"
+            python -B -m unittest discover -s tests -p "test_collect_desk_catalog_order.py"
+            python tools/local_analysis/tests/validate.py
             python -B -m unittest discover -s scripts -p "test_mocra_scoped_safety.py"
             python scripts/test_watch_source_adapters.py
             python scripts/test_watch_recovery_integration.py

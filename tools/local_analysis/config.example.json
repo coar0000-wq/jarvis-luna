@@ -1,0 +1,7 @@
+{
+  "node": "<existing-node-executable>",
+  "rea_entry": "<existing-rea-cli-entry-js>",
+  "ghidra": "<existing-ghidra-directory>",
+  "java_home": "<existing-jdk-directory>",
+  "temp": "<existing-private-temporary-directory>"
+}

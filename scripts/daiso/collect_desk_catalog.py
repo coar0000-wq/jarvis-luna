@@ -21,6 +21,7 @@
 """
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import sys
@@ -90,6 +91,31 @@ def row(doc: dict) -> dict | None:
             "url": PRODUCT.format(pd_no), "image_url": (CDN + img) if img.startswith("/") else img}
 
 
+def valid_category_page(payload: dict, total: int, docs: list[dict]) -> bool:
+    """Validate the same final document block that documents() selects.
+
+    Missing/malformed envelopes must not look like an explicitly empty category.
+    Keep validation separate from extraction so legacy products/errors are retained.
+    """
+    if not isinstance(payload, dict) or not isinstance(payload.get("resultSet"), dict):
+        return False
+    blocks = payload["resultSet"].get("result")
+    if not isinstance(blocks, list):
+        return False
+    block = next((b for b in reversed(blocks)
+                  if isinstance(b, dict) and b.get("resultDocuments") is not None), None)
+    if block is None:
+        return False
+    raw_total = block.get("totalSize")
+    total_text = str(raw_total).strip().replace(",", "")
+    raw_docs = block.get("resultDocuments")
+    if not total_text.isdecimal() or not isinstance(raw_docs, list):
+        return False
+    if len(docs) != len(raw_docs) or any(not str(d.get("pdNo") or "").strip() for d in docs):
+        return False
+    return (total == 0 and not docs) or (total > 0 and bool(docs))
+
+
 def collect(cfg: dict) -> dict:
     desks, errors, calls = {}, [], 0
     for desk, spec in cfg.items():
@@ -98,31 +124,62 @@ def collect(cfg: dict) -> dict:
         seen, cats = {}, []
         for cat in spec.get("categories") or []:
             code, got, total = cat.get("code"), 0, 0
+            listing, totals = {}, []
+            fetch_status, valid_pages = "ok", True
+            reached_end = False
             for page in range(1, MAX_PAGES + 1):
                 if calls:
                     time.sleep(DELAY)
                 calls += 1
                 try:
-                    total, docs = documents(fetch(code, page))
+                    payload = fetch(code, page)
+                    total, docs = documents(payload)
                 except Exception as e:  # noqa: BLE001 - 네트워크 오류는 기록만 하고 다음 카테고리로
                     errors.append({"desk": desk, "category": cat.get("name"), "code": code, "page": page,
                                    "error": f"{type(e).__name__}: {e}"[:200]})
+                    fetch_status = "error"
                     break
+                valid_pages = valid_category_page(payload, total, docs) and valid_pages
+                totals.append(total)
                 for d in docs:
                     r = row(d)
+                    if r and r["pd_no"] not in listing:
+                        listing[r["pd_no"]] = r
                     if r and r["pd_no"] not in seen:
                         seen[r["pd_no"]] = r
                         got += 1
                 if not docs or page * PER_PAGE >= total:
+                    reached_end = True
                     break
-            cats.append({**cat, "site_total": total, "collected": got})
+            if fetch_status == "ok":
+                if not valid_pages or len(set(totals)) != 1:
+                    fetch_status = "invalid_response"
+                elif not reached_end:
+                    fetch_status = "truncated"
+                elif len(listing) != total:
+                    fetch_status = "incomplete"
+            cats.append({**cat, "site_total": total, "collected": got,
+                         "fetched_at": datetime.now(timezone.utc).isoformat(),
+                         "fetch_status": fetch_status, "complete": fetch_status == "ok",
+                         "listing_products": list(listing.values())})
         products = sorted(seen.values(), key=lambda r: (-r["total_orders"], -r["review_count"], r["pd_no"]))
         desks[desk] = {"name": spec.get("name"), "source": spec.get("source"), "categories": cats,
                        "product_count": len(products), "products": products}
     return {"desks": desks, "errors": errors, "calls": calls}
 
 
-def main() -> int:
+def main(argv=()) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--desk', choices=('skincare', 'makeup', 'body'))
+    parser.add_argument('--output', help='Repository-relative output, e.g. out/body_shower_catalog.json')
+    args = parser.parse_args(argv)
+    out = OUT
+    if args.output:
+        supplied = Path(args.output)
+        out = (ROOT / supplied).resolve()
+        if supplied.is_absolute() or not out.is_relative_to(ROOT.resolve()) or out == ROOT.resolve():
+            print('DESK_CATALOG_FAIL output must be a repository-relative file')
+            return 2
     try:
         cfg = json.loads(CONFIG.read_text(encoding="utf-8")).get("category_desks") or {}
     except (OSError, ValueError) as e:
@@ -131,11 +188,16 @@ def main() -> int:
     if not cfg:
         print("DESK_CATALOG_SKIP no category_desks in config")
         return 0
+    if args.desk:
+        if args.desk not in cfg:
+            print(f'DESK_CATALOG_FAIL configured desk missing: {args.desk}')
+            return 2
+        cfg = {args.desk: cfg[args.desk]}
     got = collect(cfg)
     old = {}
-    if OUT.exists():
+    if out.exists():
         try:
-            old = json.loads(OUT.read_text(encoding="utf-8"))
+            old = json.loads(out.read_text(encoding="utf-8"))
         except ValueError:
             old = {}
     desks = got["desks"]
@@ -155,12 +217,12 @@ def main() -> int:
     if not any(d.get("products") for d in desks.values()):
         print(f"DESK_CATALOG_FAIL no products; errors={got['errors'][:3]}")
         return 0
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("DESK_CATALOG_OK " + " ".join(f"{k}={v['product_count']}" for k, v in desks.items())
           + f" calls={got['calls']} errors={len(got['errors'])}")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(sys.argv[1:]))
