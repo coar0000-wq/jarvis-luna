@@ -66,6 +66,17 @@ class CollectorSnapshotTests(unittest.TestCase):
         self.assertFalse(csh.rotating(rel, ("sources", "arxiv", "provenance", "items")))
         self.assertFalse(csh.rotating(rel, ("sources",)))
 
+    def test_daiso_candidate_ids_rotate_but_other_lists_stay_guarded(self):
+        # 2026-10-16 회귀: 매 실행 바뀌는 candidate_ids 때문에 Daiso 수집 워크플로가 10-03 이후 계속 실패했다.
+        rel = "data/daiso_real/collection_status.json"
+        run = lambda ids, buckets: {"candidate_ids": ids, "prefetch_policy": {"eligible_buckets": buckets}}
+        old = {s: run(["A", "B"], ["x", "y"]) for s in ("last_run", "last_attempt", "last_candidate_success")}
+        new = {s: run(["B", "C"], ["x", "y"]) for s in old}
+        self.assertEqual(sorted(csh.allowed_removals(rel, old, new, POLICY)), ["A", "A", "A"])
+        bad = {s: run(["A", "B"], ["x"]) for s in old}
+        with self.assertRaises(ValueError):
+            csh.allowed_removals(rel, old, bad, POLICY)
+
     def test_unchanged_file_writes_nothing(self):
         before = (self.root / "data/publish_deletions.json").read_bytes()
         self.assertEqual(csh.update(self.root, [self.rel])[self.rel], "unchanged")

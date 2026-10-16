@@ -168,6 +168,25 @@ class ProvenanceTests(unittest.TestCase):
             with patch.object(a, 'GOSI', f), patch.object(a.sys, 'argv', ['alt', '--force', 'a']):
                 self.assertEqual(a.main(), 0)
 
+    def test_stop_cooldown_expires_but_fails_closed(self):
+        # 2026-10-16 회귀: 10-11 정지가 영구로 남아 고시 수집이 5일간 매 회차 즉시 종료됐다.
+        from datetime import datetime, timedelta, timezone
+        now = datetime(2026, 10, 16, 12, tzinfo=timezone.utc)
+        old = {'provider': 'daiso', 'code': 403, 'category': 'auth', 'stopped_at': (now - timedelta(hours=25)).isoformat()}
+        fresh = dict(old, stopped_at=(now - timedelta(hours=2)).isoformat())
+        doc = {'provider_stops': [old]}
+        h.assert_not_stopped(doc, {'daiso'}, now=now)
+        self.assertEqual(doc['provider_stops'], [])
+        self.assertEqual(doc['provider_stop_history'][0]['stopped_at'], old['stopped_at'])
+        with self.assertRaises(h.ProviderStop):
+            h.assert_not_stopped({'provider_stops': [fresh]}, {'daiso'}, now=now)
+        with self.assertRaises(h.ProviderStop):  # 시각이 없으면 계속 닫힌다
+            h.assert_not_stopped({'provider_stops': [{'provider': 'daiso', 'code': 403}]}, {'daiso'}, now=now)
+        doc = {'provider_stops': [old]}
+        h.persist_stop(doc, h.ProviderStop('daiso', 403, 'auth'))
+        self.assertEqual(len(doc['provider_stops']), 1)
+        self.assertNotEqual(doc['provider_stops'][0]['stopped_at'], old['stopped_at'])
+
     def test_rendered_scope_requires_bound_source_bytes(self):
         alt = '제조국: country'
         row = {}

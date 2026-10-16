@@ -47,9 +47,21 @@ ROTATING = {
     "data/sokoglam_products.json": ["products"],
     "data/us_beauty_products.json": ["products", "items", "by_store/*", "by_store/*/products", "by_store/*/items"],
     "data/serpapi_market.json": ["prices/items", "prices/failures", "trends/items", "trends/failures"],
+    # 2026-10-16: YouTube 검색 결과도 실행마다 통째로 바뀐다. 선언이 없어서 SerpApi 수집이 10-06 이후
+    # 'identity/field removal requires reason manifest: data/youtube_serpapi.json' 으로 발행에 실패했고,
+    # 그 사이 새로 S등급이 된 4개(1049275·1068721·1074979·1068733)는 상품별 미국 시장가를 한 번도 못 받았다.
+    # 검색어 목록(queries)은 설정이라 그대로 지킨다.
+    "data/youtube_serpapi.json": ["videos", "top_by_views"],
     "data/knowledge/real_sources.json": ["sources/*/items"],
     # 환율 관측은 통째로 새 값으로 바뀐다 (대조 목록·보조 필드 포함). 다른 칸은 그대로 지킨다.
-    "data/daiso_real/collection_status.json": ["fx"],
+    # 2026-10-16: last_run/last_attempt/last_candidate_success 의 candidate_ids 는 '이번 실행이 본 후보'
+    # 목록이라 매 실행 통째로 바뀐다. 여기 선언이 없어서 Daiso Real Product Collection 이 수집을 다
+    # 끝낸 뒤 이 단계에서 'identity removal outside rotating lists: .../last_run/candidate_ids' 로
+    # 10-03 이후 매 실행 실패했다(소싱팀 overall_workflow 미복구의 원인).
+    # recover_daiso_candidates.py 는 이미 같은 세 경로만 교체를 허용하고 있다. 후보 상품 자체의
+    # 보존은 candidate_pool.json 쪽 가드가 계속 지킨다. 다른 칸은 그대로 막는다.
+    "data/daiso_real/collection_status.json": ["fx", "last_run/candidate_ids", "last_attempt/candidate_ids",
+                                               "last_candidate_success/candidate_ids"],
     # 파생 상태 보고서: 실행마다 실패 이력 창과 범위별 판정이 통째로 바뀐다.
     # 운영 보드: 매 실행 state.json 에서 통째로 다시 만드는 파생 화면(계획·작업·감시 목록). 원본 state 는 그대로 보존된다.
     "data/operations/board.json": ["action_cards", "audit", "audit/counts", "business", "business/blockers", "counts", "engines", "feedback", "source_procedures", "source_procedures/continuity", "source_procedures/plans", "source_recovery", "source_recovery/counters", "source_recovery/episodes", "tasks", "watchers"],

@@ -58,18 +58,48 @@ def classify_stop(exc, provider):
         return ProviderStop(provider, 403, 'auth')
     return None
 
-def assert_not_stopped(doc, providers):
+# 2026-10-16: 정지가 영구였다. 10-11 21:27 에 daiso 403·gemini 429 가 한 번씩 기록된 뒤 지우는 코드가
+# 없어서, 고시 수집기 두 개가 그 뒤 모든 회차에 시작하자마자 멈췄다('다음 회차 재판독' 이 오지 않았다).
+# 같은 날 다이소몰은 200 을 돌려줬다. 403/429 는 대개 일시적이다(IP 차단·일일 할당량).
+# 그래서 정지에 대기 시간을 둔다. 대기 중에는 --force 로도 못 넘는다. 새 403/429 가 나면 타이머를 다시 건다.
+# stopped_at 이 없거나 못 읽으면 계속 정지로 본다(실패하면 닫힌 쪽).
+STOP_COOLDOWN_HOURS = {'auth': 24, 'quota': 24}
+
+
+def _stop_expired(stop, now):
+    try:
+        at = datetime.fromisoformat(str(stop.get('stopped_at')).replace('Z', '+00:00'))
+    except (TypeError, ValueError):
+        return False
+    if at.tzinfo is None:
+        return False
+    hours = STOP_COOLDOWN_HOURS.get(stop.get('category'), 24)
+    return (now - at).total_seconds() >= hours * 3600
+
+
+def assert_not_stopped(doc, providers, now=None):
     stops = doc.get('provider_stops', [])
     if not isinstance(stops, list) or any(not isinstance(x, dict) for x in stops):
         raise ValueError('invalid persisted circuit state')
-    for stop in stops:
+    now = now or datetime.now(timezone.utc)
+    active = [x for x in stops if not _stop_expired(x, now)]
+    if len(active) != len(stops):
+        # 지우지 않고 이력으로 옮긴다. 언제 막혔고 언제 풀렸는지는 남긴다.
+        history = doc.setdefault('provider_stop_history', [])
+        for x in stops:
+            if x not in active:
+                history.append(dict(x, expired_at=now.isoformat()))
+        del history[:-50]
+        doc['provider_stops'] = active
+    for stop in active:
         if stop.get('provider') in providers:
             raise ProviderStop(stop['provider'], stop.get('code'), stop.get('category', 'persisted_stop'))
 
 def persist_stop(doc, exc):
     event = {'provider': exc.provider, 'code': exc.code, 'category': exc.category, 'stopped_at': utcnow()}
-    if not any(x.get('provider') == exc.provider for x in doc.get('provider_stops', [])):
-        doc.setdefault('provider_stops', []).append(event)
+    stops = doc.setdefault('provider_stops', [])
+    # 같은 공급자의 예전 정지가 남아 있으면 새 시각으로 바꾼다. 안 바꾸면 대기 시간이 다시 걸리지 않는다.
+    stops[:] = [x for x in stops if x.get('provider') != exc.provider] + [event]
 
 def attempt(row, when, source, status, **details):
     row.setdefault('observation_attempts', []).append(dict(attempted_at=when, source=source, status=status, **details))
@@ -113,11 +143,17 @@ def replacement_ids(before, current, policy):
     contract = {'identity_fields': policy['identity_fields']}
     permitted = []
     def visit(old, new, where=()):
-        allowed = where in {('vision_failures',), ('vision_deferred',)} or (len(where) == 3 and where[0] == 'items' and where[2] == '텍스트_미수집')
+        # provider_stops 는 '지금 막힌 공급자' 상태라 대기 시간이 지나면 빠지고 새 정지는 시각이 바뀐다(2026-10-16).
+        # 풀린 기록은 provider_stop_history 에 덧붙여 남는다(그 목록은 일반 규칙대로 추가만 허용).
+        allowed = where in {('vision_failures',), ('vision_deferred',), ('provider_stops',)} or (len(where) == 3 and where[0] == 'items' and where[2] == '텍스트_미수집')
         if allowed:
             if not isinstance(old, list) or not isinstance(new, list):
                 raise ValueError('diagnostic must remain list')
-            if where[-1] == 'vision_failures':
+            if where == ('provider_stops',):
+                if any(not isinstance(x, dict) or not set(x) <= {'provider', 'code', 'category', 'stopped_at'}
+                       or not isinstance(x.get('provider'), str) for x in old + new):
+                    raise ValueError('provider stop diagnostic malformed')
+            elif where[-1] == 'vision_failures':
                 if any(not isinstance(x, dict) or set(x) != {'pd_no', 'reason'} or not all(isinstance(v, str) for v in x.values()) for x in old + new):
                     raise ValueError('failure diagnostic malformed')
             elif any(not isinstance(x, str) for x in old + new):

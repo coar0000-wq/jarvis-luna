@@ -273,6 +273,13 @@ def main() -> int:
                     page.goto(PAGE.format(pd_no), timeout=60000, wait_until='domcontentloaded')
                     if stop_box: raise stop_box[0]
                     btn = page.locator('button:has-text("상품설명 더보기")')
+                    # 2026-10-16: domcontentloaded 직후 count() 로 바로 봤더니 SPA 가 버튼을 그리기 전이라
+                    # 세 상품 모두 expanded_button_clicked=False 였다(같은 페이지를 networkidle 후 보면 버튼이 있다).
+                    # 버튼이 뜰 때까지 기다린다. 없는 상품도 있으니 시간 초과는 '버튼 없음' 으로 둔다.
+                    try:
+                        btn.first.wait_for(state='visible', timeout=15000)
+                    except Exception:
+                        pass
                     expanded = bool(btn.count())
                     if expanded: btn.first.click(timeout=8000)
                     alt, reached_end, last_height, stable = '', False, -1, 0
