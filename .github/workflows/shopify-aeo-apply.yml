@@ -1,0 +1,67 @@
+name: Shopify AEO 적용 + 옵시디언 노트
+
+# 수동 실행. apply=0 이면 점검만(대상 수만 세고 스토어는 안 바꿈), apply=1 이면
+# 활성 테마에 llms.txt / agents.md / ai-agent-schema 업로드 + 상품 본문에 AEO 블록 추가.
+# 결과(템플릿·옵시디언 노트·리포트)는 main 에 커밋한다.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: '1 이면 실제로 변경 (0 이면 점검만)'
+        required: false
+        default: '0'
+
+concurrency:
+  group: main-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  aeo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+      SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+      SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+      APPLY: ${{ github.event.inputs.apply || '0' }}
+      OBSIDIAN_NOTES_DIR: obsidian/JARVIS_LUNA/Shopify-AEO
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: AEO 적용 실행
+        run: python scripts/apply_shopify_aeo_and_obsidian.py
+
+      - name: 결과 요약
+        if: always()
+        run: |
+          if [ -f data/shopify_aeo_apply_report.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat data/shopify_aeo_apply_report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "리포트 파일 없음" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: 결과 커밋
+        if: always()
+        run: |
+          git config user.name "jarvis-bot"
+          git config user.email "jarvis-bot@users.noreply.github.com"
+          git add templates_shopify "$OBSIDIAN_NOTES_DIR" data/shopify_aeo_apply_report.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git commit -m "Shopify AEO 적용 결과 (apply=${APPLY})"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 10
+          done
+          echo "push 실패" >&2
+          exit 1
