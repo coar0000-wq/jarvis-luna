@@ -113,38 +113,6 @@
       "delete_file": false
     },
     {
-      "path": "data/knowledge/moe_tuning_report.json",
-      "base_sha256": "b468ffc0f474e7454a746199f71f7b85408e77f851563ad8356d3f281f4e0b82",
-      "replacement_sha256": "cc0adff22b96e9aa37e08b669b61673bc61495670e25fe243801ca4a79d20aaf",
-      "ids": [
-        "0.997835"
-      ],
-      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
-      "policy_ref": "scripts/moe_evaluation_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/knowledge/real_sources.json",
-      "base_sha256": "2d6457ce55da4c27c868db40ce90d875cff7316db937995afb38bde56e20f1c7",
-      "ids": [
-        "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOFhXSWFFb2ZaSEVHbUwzSjlYWUtidVRuZkctWmRsM0N5c3NoNEF2X0xLd2tlSXdNTm9jUmpUbld2NWo0cXByVlZiTl81bnZ1UEUza2xuaHFuRWJrRlZqeHNNTVlQRXRwa1IxRmJBZEQ1dzUxWDVVQl9nQVdhVlgzdkV4eDNUcjlQdEUzdkFGd0t1YUFKSDc3c0NROXVzUnhzMndCam1MRGJrRGpiUl9oVkFRUE1QNGxQc0tWOHpobkRMYnh1d3dNSEItdWhTenoxdWY4MkxPSzQxV0psLWg3aU85T0VfUVlDVjA0WjNR0gHzAUFVX3lxTE1lbGpQQjRvVDE0eFRrbTYzWEd4Tk9lZXZWUFdpaTV2dTZvLS0wZFdIV2dzT3dyZGFGMm1ySFFHa1lHaDU3dDZLS1FHUDhEM3dwaXpjcmRibm5JTXdtVGY0aFJuSjhWU3BaU1llWDViYjlQcGhiSjhhRG02N25JanR4RTRzS25mX29vbFZuaktTTkg0NmQ0SzU2ZDI4dWVIUjdkV2lrVnA2b1VvTzJJY3o2TWZFMEJiZEpzT29iY0FDZGZUQWFxRWh5T2FzYXFMOGFHdExqU0JRbVFJOGg4c3ktUFJhWWV1MWgzSzZBc3Jsa2JtWQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ITEZObjdZOElpeHQ2eGJoYUdRZGZHbjBwWXVWN0FzeWtSQzRfVmJwVGNranRhR2M4akY1NFEtOEFQMksyX1N6WjZkQi14TlE?oc=5",
-        "https://news.google.com/rss/articles/CBMia0FVX3lxTFBib0ZfYWRDWFF0clJ1MHFMeFZuc2l0OEhTMkM0VnlyQTFnZWNjWEUzWTVxWTFuMXRCT21Oblpic095Z0hhM2dXX1NsaWpJcXhJSkRPSExlbU5mZkprQmdTelNQMGdlNkpfNGNV?oc=5",
-        "https://news.google.com/rss/articles/CBMickFVX3lxTFBEWEdRWC1XNUEwRF9KQ1hoZTM5WWlYaGZtb0x2bUtpcU5wRzdvdkxnY3FPUnNSeVVLbzJjNFRLWXFqV0VVV0Y3TC1lV1J3Tkh0TXN2YVJlaHRndVE5Z3FrOEF1RTM0QzNWSjNoZlFUMlFCUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FT0JqZk8tT1NWU2hYNWVfTjZNQXlCVUtMZ3VZOWRzRHZGSEFVZXZzYVVMTkNHSVI3cXdtbTJVZlB2dTE3RDhLY3lJaVA1SEFNQWhlVTZmbUh2VGVKaUF3WjVwVjdBNXhfWU5lUE1KY0hNM3dVcGJsNnpDWdIBe0FVX3lxTE9ET21CX19UcUZFOG1wbkNtYkZDX1ZkWlhHMUwtNlFxTW9uYjJtY014UldKMmdpRjdlQUIyRzRITkdSR0ExUktFd0lGX0h0b21CTXV0M3BUNGpTcHN2dWRLNmt1REoycVIzWlM3S3ctbV83QTJ6dkhBNm9tVQ?oc=5",
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xQTdMTWxzX0J3M2ZPTnV6S2dncEwxQjgxbE9LdS0tRllDY29FTkViUkFtR2hWamIzYUR5RHRJN0N5MkdDUldERFNNX3VwV3pZTzk0bHp4NU54ZFFucXZRZFRLdlROQTBRc2FRb29ZWGpuWXhlQWIwSA?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeU5xbHV3ZlRVbzhTTW93RUVydWM5cmFZU2t6X19UWl90NlA2Z2ZTZFA1UEFDMWtsa2Z2dzdoaWVaazF5OFpxRmljbGlSQUZwYWdvaUhuS2t3UTdJQnZuMGNnQkhrYkdZZ2c5SnRFVFNJZmZQWGtGeGxrUUtmWS1jaUN3cjZTVEVtOENpNGhPTUNrQdIBlwFBVV95cUxNX0JSTWV1eWJOVXBOUFdWUmh2ZVNjWUZNWVRQUGxvSDM4aXluUk43Y1I2aW5vZ0hDaWZKN19zb3VSVUpZdXF4VUVoYklhMTE4TFhvWWsxQnRvOXNtQjRlUEl4WC1MV2YweTNOcTQxbHBwMElPUGxQekw1X1Y0MVNYS0FKYldvNXVIdVNKanFyRlo1elhUSEx3?oc=5",
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdnlscm0zWkRUSjZiVVhpaDVEMVR1ZTFrNTFtQ041bndYT0trd3dHcDZpM2EtdmpDWThKaWZTRmc5cnVQZkJqVkIyTllXX3RqdEFiRHFfY09pMFVFaUJyWFNmNWh6c2NwU2I4RXI5UEpfMldCeHhnQ3FrM2ZLdXJYd3ZRSlpoZ3gxT3RJaGJiRDNTZjlWMHdr?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmYxVEVoWmtaTjhwRXJfUmhkYmUtMjJaZHExMDIwSV8xcGF5Z3JQdXFOSExGRGkwNWhUZkxJaUpHVWtyX1ZJVU1BNzRnTWRMZVJ0eVAxWHhOdy03TXJzRlB3RHp1dS02S01QRDZmMmNMb2tDZW9jSm9nNGtLNGJyTUtjYkk4d2tCcnE5LXdtSXRTdlU3bElRcXc4R2YxRmxldndFVm9Sbw?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR20xVFRxQWQySFozWmVpWFB1N0dlNmcyWXJvTFNHR0JBZ2xFanI5UWNad2FyWmV2ckpGOVZEVWFBbDRTZDd6TUJZbERaR0I5c1RhZ1Q3ZlFhY21GWDczZzkxZmxla3prcFFHYVdERDlrUWMwNGNfOEtNSWJobVJWT1FqZHNfM1BYd1MxR3NycEF6NVo5S3pmM0hrc2ZqUEpXWUw5NzlqdjR2Zw?oc=5",
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSkpqMmtIb0NjRjN3djhoaHZjdEQtQ3M5cEota1N1NTVtMDhKMjVVWmd2cmd3eVVQMnJtOERkaExaMk9OeThCRGMwaVhnc25UUVVwcXpod0pYbGRfeW1yVUhiakJoUWlIVTdDRm1sUVRHNU9PZzBaNVU4V2phcjNFNkRJUTd0Ymw5YTJGZUFnMzIxZFFCc3V5LVhpV181TU1fQ3ZqamUwR3R6RHYzNk0xeg?oc=5",
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdzdjaUtabUxBNmxpNi1UdmZrY2pEZEV6SGZkaGlHMjRBZjBOY1VuSWJCM2RqcFMtMUp6SGF1aDB1VGRJUE1XSEZFUGdTOTFla09WTnpFVXhQcWQ1blUtbTRBeXkwTkJaeFQ1WjZlSkI1cG9STXloSlNHWDNXNGtGVVhJeHV6NmdobDAtR0ZZei1JZzBlRnlqeS13RmNkWG1jQnRkNHhIWFl0bnRGVVAweEJ3SlJfdmZ5QkRndjFwem9EUQ?oc=5"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/amazon_products.json",
       "base_sha256": "a46eb273511f5f53411dad9620ff648d890f928905c57f2ea2c9280cedae7333",
       "ids": [
@@ -281,6 +249,35 @@
         "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xlsImpprod15321287",
         "https://www.ulta.com/p/vital-perfection-uplifting-firming-advanced-cream-pimprod2044271",
         "https://www.ulta.com/p/works-discovery-set-pimprod2046622"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/moe_tuning_report.json",
+      "base_sha256": "cc0adff22b96e9aa37e08b669b61673bc61495670e25fe243801ca4a79d20aaf",
+      "replacement_sha256": "1098710f9b0c939ac4569bf3f39a37ee13f2348302e60cb52582d0278c2be335",
+      "ids": [
+        "0.001013",
+        "0.001152"
+      ],
+      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
+      "policy_ref": "scripts/moe_evaluation_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/real_sources.json",
+      "base_sha256": "4b5adbf46c165a21c63cc36d513690ac72b808f6e023eb933cfddbf464946cb4",
+      "ids": [
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sakFkcURRMTE0enVpV2xZd0sxVno4c3FURlVpT2daUUNFN0U0UE5HQUQtTmNuTUhSRUZ5d2xjcjBJNVBTdzIzNWg4MEtJMWs?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83X1JUejRJRzVyNjhtUUhaLThkS3pkMkRQZUcwX2sxaDZDdDBQVGJJQW1EdmxSZnFCN2tRNEpPWVVNclkxeTlQVDRFczYwU2drT0p3?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZVkzMGpTeGVmRlEtVmVNNHAzUjZSd2t2SEQ4Rkwtc0hWNXZJa3VnT3pqWTBrRUlVcXd0NWo0UDZFd2VnTjcxSVVqZFQteTBWdDVIaXN4dVNDX0luTVJpci1tNE5JdTg?oc=5",
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE5idUp3Z2hMWDFOR19vdU1YaHNvRVZZZExhLUxtVDc0RVUzZFA4Y1FnNWlIOVc1OUtKbGZXNTMza3dhVTlYZlkyR2hiRS12WVVfZzkzRmhFNHVjNGpSSFRwN1ZLc0JQUzJSbU9tZVBfYw?oc=5",
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE1YekdrNENob0dOTEd5UERjMTBXYWVEWDZQTWtzOGNXc0tyN0s0ejdDT3JQRUdhdExCel9pTUNKRmV5M1FaMlM5TWRrdHAydU1nenZOWVl0Rlo1VGxDM1ZJeGJzR09ncDZnQVRVZVBFTExGUXFaNXppVF9aN2E?oc=5",
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsLWc1NWRvWURQeWZZOHNtb29sSUdYZ2ktVlc3RlRmWXduT3dPWGN5a3lwUzZBRE56TlFxVHdPVVNNLUlsTlNiMnNUZG8zZkpLYm1aR1BFUEJwSmxBYkw3b2pQSXhQbTJtMGdiMVIzbm9QTkpGNkpmLVg0eXE?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdTlWNFRZYXZQUHgxYnhlOEUzVTk0ZEtzMU5jbkMtUjZDWWp0bmZ5ZHd0aU5Mbm82X0JDMzZLc2Z3d05lVmVlcW1mMFVpbzZlMXBDZ0thZVZFVHhLMWZ0eXhCVkVudC1xTmhZOXRNT0V2VmZhaUJmQkd4bVk4UGJtcEw0ajV4UlVlMmdhQWJmRFBhaFY5bk51M0RPOGFydGRfeXpnZS1YRThKX28?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOODRfbzJTaXJPbzJuTWJXbk96VlNLLUNGYklDTXBqeEtCVFkxYkRPR1ljVzhmYVoxb0RJbjZXV3lWWDRJNUpIZGo1SEdSSzhmSEdWZ0p1dmJWYk9oNFlrUmhybFlQX28zYXRlXzRESkdoYkFieS1XR250S0IxMmZ2MFo4bmFJemlzQ09UOUlxZG5LVnp0ZDVFdEdQN3R5SEk5TjYxQjN0U2QzTTVIdlpoa0c4d1lxT19a?oc=5"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
