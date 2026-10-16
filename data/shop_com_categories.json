@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-15T05:29:18+00:00",
+  "collected_at": "2026-10-16T05:21:50+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -87,8 +87,8 @@
       "list_price_text": "$90.00",
       "price_usd": 60.0,
       "discount_pct": null,
-      "rating": null,
-      "reviews": null,
+      "rating": 5.0,
+      "reviews": 1,
       "url": "https://shop.com/products/15400749957210/the-musky-layers-set",
       "page": "Explore"
     },
@@ -178,8 +178,8 @@
       "list_price_text": "",
       "price_usd": 25.0,
       "discount_pct": null,
-      "rating": null,
-      "reviews": null,
+      "rating": 5.0,
+      "reviews": 1,
       "url": "https://shop.com/products/8144926900324/hold-all-medium-hold-hairspray",
       "page": "Explore"
     },
@@ -218,7 +218,7 @@
       "price_usd": 26.0,
       "discount_pct": null,
       "rating": 4.7,
-      "reviews": 454,
+      "reviews": 455,
       "url": "https://shop.com/products/6538134650937/brow-pop",
       "page": "Beauty"
     },
@@ -283,7 +283,7 @@
       "price_usd": 17.0,
       "discount_pct": null,
       "rating": 4.7,
-      "reviews": 2252,
+      "reviews": 2253,
       "url": "https://shop.com/products/6627292643383/the-glow-getter-multi-oil-hydrating-body-wash",
       "page": "Beauty"
     },
@@ -322,7 +322,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2848,
+      "reviews": 2849,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
@@ -335,7 +335,7 @@
       "price_usd": 25.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 138,
+      "reviews": 139,
       "url": "https://shop.com/products/7658344186086/hand-nail-balm",
       "page": "Beauty"
     },

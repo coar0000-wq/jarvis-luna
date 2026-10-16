@@ -167,6 +167,70 @@
       ],
       "shopify_id": "gid://shopify/Product/9549280772353",
       "handle": "메디필-엑스트라-슈퍼-9-플러스-모공-진정-토너-200-ml"
+    },
+    {
+      "pd_no": "1055167",
+      "family": "본셉레티놀500iu세럼30ml",
+      "name_kr": "본셉 레티놀 500 IU 세럼 30 ml",
+      "title": "Bonsup Retinol 500 IU Serum 30 ml",
+      "category": "skincare",
+      "date": "2026-10-16",
+      "status": "DRAFT",
+      "krw": 5000,
+      "single_usd": 15.99,
+      "single_margin_pct": 32.0,
+      "pack_usd": 27.99,
+      "pack_margin_pct": 42.3,
+      "size": {
+        "unit": 30.0,
+        "base": "ml",
+        "count": 1,
+        "total": 30.0
+      },
+      "images": 0,
+      "price_basis": "상품별 미국 실판매 중앙값 기준 참고 가격 (SerpApi, 시장 최저가 아님)",
+      "shop_com_lowest_usd": null,
+      "profitability_warnings": [
+        "single:margin_below_target:32.0%<40.0%"
+      ],
+      "priority": {
+        "source": "scripts/build_beauty_price_strategy.py (offline, recomputed from the actual inputs at run time)",
+        "formula": "0.6*shopify_score + verified_price_points (only verified_below vs a verified delivered same-item minimum)",
+        "as_of": "2026-10-16T05:21:28.644002+00:00",
+        "canonical_index": 1,
+        "status": "live_strategy",
+        "reason": null,
+        "shopify_score": 98,
+        "score": 58.8,
+        "components": {
+          "demand_score_x0.6": 58.8,
+          "verified_price_points": 0.0,
+          "provisional_price_points_not_counted": 0.0
+        },
+        "evidence_status": "unknown_price_evidence",
+        "price_position": "unknown",
+        "price_position_verified": false,
+        "strategy_rank": 3
+      },
+      "price_evidence_source": "serpapi_google_shopping",
+      "price_claim": "reference_price_basis_only_not_market_minimum",
+      "draft_reasons": [
+        "safety_evidence_unverified_owner_draft_only",
+        "listing_gate_public_not_ready",
+        "listing_gate_draft_not_ready",
+        "listing_gate_legal_full_incomplete",
+        "listing_gate_public_blocked_by:copy,manufacturer_safety_record_missing,legal_full",
+        "no_usable_product_images",
+        "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      ],
+      "grade": "S",
+      "source": "jarvis_s_list",
+      "price_position": "no_comparison",
+      "strategy_hints": [
+        "shop_com_match_missing: 검증된 동일 상품 비교 없음. 가격은 참고 가격 근거일 뿐 시장 최저가가 아니다"
+      ],
+      "shopify_id": "gid://shopify/Product/9590781214977",
+      "handle": "bonsup-retinol-500-iu-serum-30-ml"
     }
   ]
 }
