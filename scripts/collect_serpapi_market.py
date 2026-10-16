@@ -35,6 +35,8 @@ PRODUCT_LIMIT = 14       # S등급 전부
 KEYWORD_LIMIT = 8
 TIMEOUT = 30
 DELAY = 2.0              # 시간당 50회 제한을 넉넉히 지킨다
+RANKING_PRICE_LIMIT = 3  # 2026-10-16: 메이크업 실시간 랭킹 대체 후보 상위 3개 (월 상한 안에서)
+STRATEGY = ROOT / "config" / "daiso_commerce_strategy.json"
 
 
 def load(path: Path, default=None):
@@ -94,6 +96,42 @@ def to_usd(x) -> float | None:
     return None
 
 
+def ranking_targets(skip: set[str]) -> list[dict]:
+    """메이크업 실시간 랭킹 대체 후보 중 가격 근거가 필요한 상위 몇 개.
+
+    2026-10-16: 일일 등록이 S 없는 날 랭킹 1위(메이크업 픽서)를 골랐지만 'price_evidence_missing' 으로
+    제외됐다. 이 수집기는 S 만 시장가를 받아서 랭킹 상품은 가격 근거가 영영 없었다.
+    가격 규칙은 그대로 두고(상품별 근거 필수), 근거를 받을 대상만 넓힌다.
+    비비·쿠션·팩트 등은 일일 등록에서 고시 확인 없이는 어차피 빠지므로 여기서도 쓰지 않는다.
+    """
+    policy = (load(STRATEGY) or {}).get("makeup_ranking_fallback") or {}
+    if not policy.get("enabled"):
+        return []
+    q = urllib.parse.urlencode({"pageNum": 1, "cntPerPage": 30, "largeExhCtgrNo": policy.get("large_ctgr"),
+                                "middleExhCtgrNo": policy.get("middle_ctgr")})
+    req = urllib.request.Request(policy["api_url"] + "?" + q, headers={
+        "User-Agent": "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)",
+        "Accept": "application/json", "Referer": policy.get("page_url", "")})
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            rows = (json.loads(r.read().decode("utf-8", "replace")).get("resultSet") or {}).get("result") or []
+    except Exception as exc:  # noqa: BLE001  랭킹을 못 읽으면 대상을 늘리지 않는다
+        print(f"[serpapi] ranking fetch failed: {exc}")
+        return []
+    if rows and isinstance(rows[0], dict) and "resultDocuments" in rows[0]:
+        rows = rows[0]["resultDocuments"]
+    risk = [f.lower() for f in policy.get("spf_risk_forms") or []]
+    out = []
+    for i, x in enumerate(rows, 1):
+        pd, name = str(x.get("pdNo") or ""), str(x.get("pdNm") or "")
+        if not pd or pd in skip or x.get("soldOutYn") == "Y" or any(f in name.lower() for f in risk):
+            continue
+        out.append({"pd_no": pd, "name": name, "ranking_display_rank": i})
+        if len(out) >= RANKING_PRICE_LIMIT:
+            break
+    return out
+
+
 def collect_prices(key: str, ledger: dict) -> dict:
     score = load(DATA / "daiso_real" / "shopify_demand_score.json")
     copy = load(DATA / "shopify_listing_copy.json")
@@ -103,6 +141,7 @@ def collect_prices(key: str, ledger: dict) -> dict:
               for i in copy.get("items", [])}
     targets = sorted([x for x in score.get("all_scored") or [] if x.get("grade") == "S"],
                      key=lambda x: -(x.get("shopify_score") or 0))[:PRODUCT_LIMIT]
+    targets += ranking_targets({str(x.get("pd_no")) for x in targets})
     items, fails = [], []
     for x in targets:
         pd = str(x.get("pd_no"))
@@ -131,6 +170,8 @@ def collect_prices(key: str, ledger: dict) -> dict:
             "median_usd": round(median(prices), 2) if prices else None,
             "max_usd": round(max(prices), 2) if prices else None,
             "engine": "google_shopping", "cached": note == "cached",
+            **({"source_scope": "makeup_ranking_fallback", "ranking_display_rank": x["ranking_display_rank"]}
+               if x.get("ranking_display_rank") else {}),
         })
         time.sleep(DELAY)
     return {"status": "ok" if items else "failed",

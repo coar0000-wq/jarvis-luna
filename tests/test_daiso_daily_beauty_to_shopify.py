@@ -216,8 +216,11 @@ class DailySafetyTests(unittest.TestCase):
                      patch.object(daily, "load_registry", return_value={"items": [
                          {"date": "2026-10-10", "category": "skincare", "pd_no": "1"}]}), \
                      patch.object(daily, "daiso_lookup", return_value=None) as lookup, \
+                     patch.object(daily, "fetch_makeup_ranking", return_value=[]) as ranking, \
                      patch.dict(os.environ, {"FORCE": "1", "SHOPIFY_STORE": "", "SHOPIFY_ADMIN_TOKEN": "", "SHOPIFY_CLIENT_SECRET": ""}):
                     self.assertEqual(daily.main(), 0)
+                    # 2026-10-16: 메이크업만 S 가 없을 때 실시간 랭킹을 본다(테스트는 네트워크 없이 빈 랭킹).
+                    ranking.assert_called_once()
                     # 스킨케어는 오늘 이미 등록 -> 조회 없음. 메이크업·바디는 S/A 후보를 조회하지만 없으면 건너뛴다.
                     self.assertTrue(all(c.args[0] not in {r["pd_no"] for r in daily.s_ranked(daily.CATEGORIES[0])}
                                         for c in lookup.call_args_list))
@@ -225,7 +228,8 @@ class DailySafetyTests(unittest.TestCase):
                 self.assertEqual(result["results"][0]["status"], "skipped_already_today")
                 self.assertEqual(result["results"][0]["s_candidates"], len(daily.s_ranked(daily.CATEGORIES[0])))
                 # 2026-10-11 카테고리 전담팀: 메이크업·바디도 S 후보가 생길 수 있다. 조회가 막히면 '적격 S 없음'.
-                expected = ["skipped_no_eligible_s_grade" if daily.s_ranked(cat) else "skipped_no_s_grade"
+                expected = ["skipped_no_eligible_s_or_ranking" if daily.ranking_enabled(cat)
+                            else "skipped_no_eligible_s_grade" if daily.s_ranked(cat) else "skipped_no_s_grade"
                             for cat in daily.CATEGORIES[1:]]
                 self.assertEqual([r["status"] for r in result["results"][1:]], expected)
                 self.assertEqual([r["grade_required"] for r in result["results"]], ["S", "S", "S"])
@@ -1427,6 +1431,8 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
                         "SHOPIFY_ADMIN_TOKEN": "test", "GITHUB_STEP_SUMMARY": ""}))
                     stack.enter_context(patch.object(daily, "Shopify", return_value=shop))
                     stack.enter_context(patch.object(daily, "s_ranked", return_value=s_rows or []))
+                    # 메이크업 실시간 랭킹 대체(2026-10-16)는 테스트에서 네트워크를 타지 않게 빈 랭킹으로 막는다.
+                    stack.enter_context(patch.object(daily, "fetch_makeup_ranking", return_value=[]))
                     stack.enter_context(patch.object(daily.owner_draft_approval, "category_approved",
                                                     side_effect=lambda *args: approval["value"]))
                     stack.enter_context(patch.object(daily, "owner_approved_draft", return_value=False))
@@ -1579,9 +1585,13 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
         shop.publish.assert_not_called()
 
     def test_no_fallback_for_skincare_or_makeup(self):
-        for category in ("skincare", "makeup"):
+        # 바디 카테고리 대체는 바디만. 메이크업은 2026-10-16 사업주 지시로 실시간 랭킹 대체(비공개 초안)가 따로 있다.
+        # 여기서는 랭킹이 비어 있으니 아무것도 만들지 않아야 한다.
+        expected = {"skincare": "skipped_no_s_grade", "makeup": "skipped_no_eligible_s_or_ranking"}
+        for category, status in expected.items():
             _, row, reg, shop = self.run_body(category=category)
-            self.assertEqual(row["status"], "skipped_no_s_grade")
+            self.assertEqual(row["status"], status)
+            self.assertNotIn("fallback_reason", row)
             self.assertEqual(reg, {"items": []})
             shop.create.assert_not_called()
 

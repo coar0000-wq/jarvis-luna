@@ -239,5 +239,52 @@
         }
       ]
     }
+  },
+  "makeup_ranking_fallback": {
+    "enabled": true,
+    "category": "makeup",
+    "trigger": "no_eligible_canonical_s",
+    "source": "daiso_realtime_ranking",
+    "page_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01055",
+    "api_url": "https://www.daisomall.co.kr/ssn/search/GoodsBestSale",
+    "large_ctgr": "CTGR_01050",
+    "middle_ctgr": "CTGR_01055",
+    "max_per_day": 1,
+    "status": "DRAFT_ONLY",
+    "public_sale_authorized": false,
+    "decided_by": "owner_conversation",
+    "decided_at": "2026-10-16",
+    "request": "자비스프로그램에 카테고리 메이크업 제품 등록에 S급 없으면 링크>>https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01055 실시간 랭킹메이크업 하나씩 등록되게 자동화해줘",
+    "_why": "S 정본 등급은 바꾸지 않는다. 메이크업에 등록 가능한 S 가 없는 날만 실시간 랭킹 순서대로 하루 1개를 비공개 초안으로 만든다. 가격 근거·중복·품절·선케어·미국 판매 제약·고시·라벨 검사는 S 와 똑같이 거친다. 공개는 하지 않는다.",
+    "spf_risk_forms": [
+      "비비",
+      "bb",
+      "쿠션",
+      "팩트",
+      "파운데이션",
+      "톤업",
+      "cc",
+      "선",
+      "spf"
+    ],
+    "uv_filter_ingredients": [
+      "에칠헥실메톡시신나메이트",
+      "호모살레이트",
+      "옥토크릴렌",
+      "에칠헥실살리실레이트",
+      "비스-에칠헥실옥시페놀메톡시페닐트리아진",
+      "디에칠아미노하이드록시벤조일헥실벤조에이트",
+      "에칠헥실트리아존",
+      "폴리실리콘-15",
+      "부틸메톡시디벤조일메탄",
+      "징크옥사이드",
+      "ethylhexyl methoxycinnamate",
+      "homosalate",
+      "octocrylene",
+      "avobenzone",
+      "zinc oxide"
+    ],
+    "max_candidates_checked": 8,
+    "price_evidence": "S 와 같다. 상품별 미국 실판매 근거 필수. scripts/collect_serpapi_market.py 가 랭킹 대체 후보 상위 3개(비비·쿠션 등 제외)의 시장가를 함께 받는다."
   }
 }

@@ -1358,6 +1358,110 @@ def pick(cat, shop, names, ids, reg, rows=None, excluded=None):
     return None
 
 
+# ---------------------------------------------------------------------------
+# 메이크업 실시간 랭킹 대체 (2026-10-16 사용자 지시)
+#   "카테고리 메이크업 제품 등록에 S급 없으면 실시간 랭킹 메이크업 하나씩 등록되게"
+#   - 정본 S 등급은 바꾸지 않는다(grade_policy S 전용 그대로). 별도 출처의 '비공개 초안' 이다.
+#   - 메이크업에 등록 가능한 S 가 없을 때만, 랭킹 순서대로 하루 1개.
+#   - 품절·재고·중복·미국 판매 제약(선케어·미백 등)·가격 근거·고시·라벨 검사는 S 와 똑같다.
+#   - 비비·쿠션·팩트·파운데이션은 이름에 SPF 가 없어도 자외선차단인 경우가 많다(1068733 이 그랬다).
+#     이 형태는 고시 전성분이 확인되고 자외선 차단 성분이 없을 때만 올린다.
+#   - 공개(ACTIVE)하지 않는다. 사람이 S 파이프라인(고시·라벨·법률)으로 확인해야 공개된다.
+RANKING_SOURCE = "daiso_realtime_ranking"
+RANKING = STRATEGY.get("makeup_ranking_fallback") or {}
+
+
+def ranking_enabled(cat) -> bool:
+    return bool(RANKING.get("enabled")) and cat[0] == RANKING.get("category") == "makeup"
+
+
+def fetch_makeup_ranking():
+    """다이소몰 '실시간 랭킹 메이크업' 목록(현재 순위 순). 실패하면 예외 (빈 목록으로 지어내지 않는다)."""
+    query = urllib.parse.urlencode({"pageNum": 1, "cntPerPage": 30, "largeExhCtgrNo": RANKING["large_ctgr"],
+                                    "middleExhCtgrNo": RANKING["middle_ctgr"]})
+    req = urllib.request.Request(RANKING["api_url"] + "?" + query,
+                                 headers={"User-Agent": UA, "Accept": "application/json",
+                                          "Referer": RANKING["page_url"]})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        raw = r.read()
+    rows = (json.loads(raw.decode("utf-8", "replace")).get("resultSet") or {}).get("result") or []
+    if isinstance(rows, list) and rows and isinstance(rows[0], dict) and "resultDocuments" in rows[0]:
+        rows = rows[0]["resultDocuments"]
+    rows = [x for x in rows if isinstance(x, dict) and x.get("pdNo")]
+    if not rows:
+        raise RuntimeError("ranking response has no products")
+    # 화면의 '현재 순위 1, 2, 3…' 은 응답 순서다. NOW_RANK(144, 296, 274…)는 화면 순위가 아니라서 정렬에 쓰지 않는다.
+    for i, x in enumerate(rows, 1):
+        x["_display_rank"] = i
+    receipt = {"url": RANKING["page_url"], "api": RANKING["api_url"], "fetched_at": datetime.now(timezone.utc).isoformat(),
+               "sha256": hashlib.sha256(raw).hexdigest(), "count": len(rows)}
+    for x in rows:
+        x["_receipt"] = receipt
+    return rows
+
+
+def _ranking_regulated(name, pd_no, g):
+    """선케어·미백 등 미국 판매 제약이면 사유, 아니면 None. 근거를 못 보면 막는 쪽이다."""
+    from daiso.score_shopify_demand import us_blockers  # noqa: PLC0415  정본 판정과 같은 함수
+    kind, why = us_blockers(name, pd_no)
+    if kind:
+        return f"us_blocker:{kind}:{why}"
+    if REGULATED_RE.search(name or "") or REGULATED_RE.search(g.get("functional", "") or ""):
+        return "regulated_functional_or_name"
+    ingredients = (g.get("ingredients") or "").lower()
+    hit = next((u for u in RANKING["uv_filter_ingredients"] if u.lower() in ingredients), None)
+    if hit:
+        return f"uv_filter_in_ingredients:{hit}"
+    low = (name or "").lower()
+    if any(f in low for f in RANKING["spf_risk_forms"]) and not ingredients:
+        return "spf_unverified_base_makeup"
+    return None
+
+
+def pick_ranking(cat, shop, names, ids, reg, rows, excluded, skipped):
+    """랭킹 순서대로 첫 번째 적격 상품. 고시까지 확인해 p['_gosi'] 에 담아 둔다."""
+    from daiso.score_shopify_demand import is_non_core  # noqa: PLC0415
+    seen = {str(i.get("pd_no")) for i in reg["items"]}
+    # 상위 몇 개만 본다. 후보마다 가격 비교(shop.com 브라우저)가 1분 넘게 걸려 30개를 다 보면 작업 시간이 넘친다.
+    for row in rows[:RANKING["max_candidates_checked"]]:
+        pd_no = str(row.get("pdNo"))
+        if pd_no in (excluded or set()) or pd_no in ids or pd_no in seen:
+            continue
+        excluded.add(pd_no)
+        name = clean_name(row.get("pdNm") or "")
+        if row.get("soldOutYn") == "Y":
+            skipped.append({"pd_no": pd_no, "rank": row.get("_display_rank"), "reason": "sold_out"})
+            continue
+        if is_non_core(name):
+            skipped.append({"pd_no": pd_no, "rank": row.get("_display_rank"), "reason": "non_core"})
+            continue
+        p = daiso_lookup(pd_no)
+        if not p or not sellable(p) or already_registered(p, reg, names, ids):
+            skipped.append({"pd_no": pd_no, "rank": row.get("_display_rank"), "reason": "not_sellable_or_registered"})
+            continue
+        # 바디 카테고리 대체와 같은 원칙: 대체 경로는 유료·미상 비용 호출(Gemini 비전)을 하지 않는다.
+        g = collect_gosi(pd_no, allow_ai=False)
+        why = _ranking_regulated(name, pd_no, g)
+        if why:
+            log(f"  ranking skip {pd_no} {name}: {why}")
+            skipped.append({"pd_no": pd_no, "rank": row.get("_display_rank"), "reason": why})
+            continue
+        p["_grade"], p["_source"], p["_score"] = "RANK", RANKING_SOURCE, None
+        p["_priority"] = None
+        p["_gosi"] = g
+        p["_ranking"] = {"display_rank": row.get("_display_rank"), "now_rank_field": row.get("NOW_RANK"),
+                         "rating": row.get("avgStscVal"), "reviews": row.get("revwCnt"), "receipt": row.get("_receipt")}
+        return p
+    return None
+
+
+def draft_allowed(p) -> bool:
+    """비공개 초안 허용: 상품별 사업주 승인, 또는 사업주가 정한 메이크업 랭킹 대체 정책."""
+    if owner_approved_draft(p["pdNo"]):
+        return True
+    return p.get("_source") == RANKING_SOURCE and bool(RANKING.get("enabled")) and RANKING.get("status") == "DRAFT_ONLY"
+
+
 SAFETY_MISSING = manufacturer_safety.SAFETY_MISSING
 
 
@@ -1721,7 +1825,9 @@ def main():
             rows = s_ranked(cat)
             s_candidate_count = len(rows)
             fallback_mode = False
-            if not rows and cat[0] != "body":
+            # 2026-10-16: 메이크업은 S 가 없으면 실시간 랭킹 대체(비공개 초안)로 넘어간다. 바디는 main 의 카테고리 대체.
+            use_ranking = ranking_enabled(cat)
+            if not rows and cat[0] != "body" and not use_ranking:
                 log("  no canonical S-grade candidate in category")
                 results.append({"category": cat[0], "status": "skipped_no_s_grade",
                                 "grade_required": grade_label(cat), "s_candidates": 0})
@@ -1729,33 +1835,57 @@ def main():
             excluded = set()
             price_excluded = []
             safety_excluded = []
+            ranking_skipped = []
+            ranking_rows = None
+            ranking_mode = bool(use_ranking and not rows)
+            if ranking_mode:
+                log("  no canonical S-grade candidate -> makeup realtime ranking fallback (draft only)")
             while True:
-                p = pick(cat, shop, names, ids, reg, rows, excluded)
+                if ranking_mode:
+                    if ranking_rows is None:
+                        try:
+                            ranking_rows = fetch_makeup_ranking()
+                            log(f"  ranking: {len(ranking_rows)} products from {RANKING['page_url']}")
+                        except Exception as exc:  # noqa: BLE001  랭킹을 못 읽으면 지어내지 않고 사유를 남긴다
+                            log(f"  ranking fetch failed: {exc}")
+                            ranking_rows = []
+                            ranking_skipped.append({"reason": f"ranking_fetch_failed:{str(exc)[:200]}"})
+                    p = pick_ranking(cat, shop, names, ids, reg, ranking_rows, excluded, ranking_skipped)
+                else:
+                    p = pick(cat, shop, names, ids, reg, rows, excluded)
                 if not p and cat[0] == "body" and not fallback_mode:
                     fallback_mode = True
                     rows, fallback_reason, _ = body_fallback_rows(reg)
                     if rows:
                         continue
+                if not p and use_ranking and not ranking_mode:
+                    log("  no eligible S-grade -> makeup realtime ranking fallback (draft only)")
+                    ranking_mode = True
+                    continue
                 if not p:
                     log("  no available, sellable, unregistered candidate")
                     skipped = {"category": cat[0],
-                               "status": "skipped_no_eligible_s_grade" if s_candidate_count else "skipped_no_s_grade",
+                               "status": ("skipped_no_eligible_s_or_ranking" if use_ranking else
+                                          "skipped_no_eligible_s_grade" if s_candidate_count else "skipped_no_s_grade"),
                                "grade_required": grade_label(cat), "s_candidates": s_candidate_count,
                                "price_excluded": price_excluded, "safety_excluded": safety_excluded}
                     if fallback_mode:
                         skipped["fallback_reason"] = fallback_reason or "no_eligible_body_category_fallback"
+                    if use_ranking:
+                        skipped["ranking_skipped"] = ranking_skipped
                     results.append(skipped)
                     break
                 # The owner may approve a non-public draft, never safety coverage or publication.
                 safety = manufacturer_safety_record(p["pdNo"])
-                draft_permission = body_category_draft_approved() if fallback_mode else owner_approved_draft(p["pdNo"])
+                draft_permission = body_category_draft_approved() if fallback_mode else draft_allowed(p)
                 if (fallback_mode and not draft_permission) or (not safety["covered"] and not draft_permission):
                     log(f"  excluded (safety): {p['pdNo']} {clean_name(p['pdNm'])} -> {safety['reason']}")
                     excluded.add(str(p["pdNo"]))
                     safety_excluded.append({"pd_no": str(p["pdNo"]), "reason": safety["reason"]})
                     continue
                 # Category fallback adds no metered/unknown-cost copy request.
-                copy = fallback_copy(p, cat) if fallback_mode else (gemini_copy(p, cat) or fallback_copy(p, cat))
+                ranking_pick = p.get("_source") == RANKING_SOURCE
+                copy = fallback_copy(p, cat) if (fallback_mode or ranking_pick) else (gemini_copy(p, cat) or fallback_copy(p, cat))
                 title, html = copy
                 if already_registered(p, reg, names, ids, title):
                     excluded.add(str(p["pdNo"]))
@@ -1775,7 +1905,7 @@ def main():
                 break
             if not p:
                 continue
-            g = collect_gosi(p["pdNo"], allow_ai=False) if fallback_mode else collect_gosi(p["pdNo"])
+            g = p.get("_gosi") or (collect_gosi(p["pdNo"], allow_ai=False) if fallback_mode else collect_gosi(p["pdNo"]))
             label = build_us_label(p["pdNo"], clean_name(p["pdNm"]), g)
             if has_claims(title, html):  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
                 title, html = fallback_copy(p, cat)
@@ -1785,6 +1915,9 @@ def main():
             reasons = list(label["reasons"])
             if fallback_mode:
                 reasons.append("owner_category_fallback_draft_only")
+            if p.get("_source") == RANKING_SOURCE:
+                # 랭킹 대체는 언제나 비공개 초안이다 (사업주 결정 2026-10-16, config makeup_ranking_fallback).
+                reasons.append("ranking_fallback_draft_only")
             if not safety["covered"]:
                 reasons.append("safety_evidence_unverified_owner_draft_only")
             public_gate = canonical_public_gate(p["pdNo"])
@@ -1835,6 +1968,7 @@ def main():
                 "product_type": cat[3],
                 "tags": [cat[0], "daiso-daily", f"daiso-pd-{p['pdNo']}", "k-beauty"]
                 + (["owner-body-shower-category-fallback", "draft-only-category-fallback"] if fallback_mode else [])
+                + (["makeup-realtime-ranking-fallback", "draft-only-ranking-fallback"] if p.get("_source") == RANKING_SOURCE else [])
                 + ([f"jarvis-grade-{p['_grade'].lower()}"] if p.get("_grade") not in (None, "-") else []),
                 "images": images,
                 "category": TAXONOMY[cat[0]],
@@ -1850,6 +1984,8 @@ def main():
                 "selection_source": p.get("_source"),
                 "selection_provenance": p.get("_priority") if fallback_mode else None,
                 "priority": p.get("_priority"),
+                "source": p.get("_source"),
+                **({"ranking": p["_ranking"]} if p.get("_ranking") else {}),
                 "daiso_pdNo": p["pdNo"],
                 "daiso_name": clean_name(p["pdNm"]),
                 "daiso_url": DAISO_ITEM + p["pdNo"],
@@ -1873,7 +2009,7 @@ def main():
             else:
                 # Re-read the entire catalogue just before writing; the daily cap and duplicate checks are unconditional.
                 safety = manufacturer_safety_record(p["pdNo"])
-                draft_approved = body_category_draft_approved() if fallback_mode else owner_approved_draft(p["pdNo"])
+                draft_approved = body_category_draft_approved() if fallback_mode else draft_allowed(p)
                 if fallback_mode and not draft_approved:
                     rec["status"] = "skipped_body_category_fallback_invalidated"
                     rec["fallback_reason"] = "owner_category_fallback_approval_missing_or_revoked"
@@ -1926,7 +2062,8 @@ def main():
                          "price_claim": ((pr.get("evidence") or {}).get("detail") or {}).get("price_claim"),
                          "draft_reasons": reasons, "grade": p["_grade"], "source": p.get("_source"),
                          "s_candidates": s_candidate_count, "selection_source": p.get("_source"),
-                         "selection_provenance": p.get("_priority") if fallback_mode else None}
+                         "selection_provenance": p.get("_priority") if fallback_mode else None,
+                         **({"ranking_display_rank": p["_ranking"]["display_rank"]} if p.get("_ranking") else {})}
                 pos = price_position(entry.get("single_usd"), entry.get("shop_com_lowest_usd"), entry.get("single_margin_pct"))
                 entry["price_position"], entry["strategy_hints"] = pos["position"], pos["hints"]
                 try:

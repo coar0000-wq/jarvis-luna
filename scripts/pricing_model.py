@@ -223,6 +223,27 @@ def validate_strategy(doc: dict) -> dict:
                  and str(entry.get("reviewed_by") or "").strip()
                  and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(entry.get("reviewed_at") or "")),
                  f"allowlist[{pd_no}] entry needs path, sha256, reviewed_by, reviewed_at")
+    # 2026-10-16 사용자 지시: 메이크업에 등록할 S 가 없으면 다이소 실시간 랭킹(메이크업)에서 하루 1개를 초안으로 올린다.
+    # S 전용 등급 정책(grade_policy)은 그대로 둔다. 이 키는 등급을 내리는 것이 아니라 '별도 출처의 비공개 초안' 이다.
+    # 안전 요건을 푸는 값(다른 카테고리, 하루 1개 초과, 공개 허용)은 받지 않는다.
+    rank = doc.get("makeup_ranking_fallback")
+    if rank is not None:
+        need(isinstance(rank, dict), "makeup_ranking_fallback must be an object")
+        need(rank.get("category") == "makeup", "ranking fallback is makeup-only")
+        need(rank.get("status") == "DRAFT_ONLY" and rank.get("public_sale_authorized") is False,
+             "ranking fallback creates non-public drafts only")
+        need(rank.get("max_per_day") == 1, "ranking fallback is one product per day")
+        need(rank.get("trigger") == "no_eligible_canonical_s", "ranking fallback only when no eligible S")
+        need(rank.get("decided_by") == "owner_conversation" and isinstance(rank.get("decided_at"), str),
+             "ranking fallback needs the owner decision record")
+        need(isinstance(rank.get("enabled"), bool), "ranking fallback enabled flag")
+        need(isinstance(rank.get("max_candidates_checked"), int) and not isinstance(rank["max_candidates_checked"], bool)
+             and 1 <= rank["max_candidates_checked"] <= 30, "ranking fallback max_candidates_checked 1..30")
+        need(str(rank.get("api_url") or "").startswith("https://www.daisomall.co.kr/ssn/search/GoodsBestSale"),
+             "ranking fallback source must be Daiso realtime ranking")
+        for key in ("spf_risk_forms", "uv_filter_ingredients"):
+            need(isinstance(rank.get(key), list) and rank[key] and all(isinstance(x, str) and x for x in rank[key]),
+                 f"ranking fallback {key}")
     return doc
 
 
