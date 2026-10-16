@@ -78,6 +78,41 @@ class ProductChangeProofTests(unittest.TestCase):
         row=self.read(ledger.LEDGER_PATH)['changes'][0]
         self.assertEqual(row['execution_id'],'fixture:1');self.assertEqual(row['action'],'exclude')
 
+    def test_registration_hold_does_not_turn_a_viable_offer_into_a_loss(self):
+        row = offer('2', True)
+        row.update(register_blocked=True, block_reason='price_evidence_missing')
+        self.assertEqual(ledger.validate_offer(row)['net_profit_calculated_usd'], 5.0)
+        self.assertFalse(ledger.below_policy(row, self.rule))
+        self.assertTrue(row['register_blocked'])
+
+    def test_registration_hold_does_not_hide_below_policy_or_negative_offers(self):
+        for blocked in (False, True):
+            for fee, net, margin in ((1.0, 0.0, 0.0), (2.0, -1.0, -10.0)):
+                with self.subTest(blocked=blocked, net=net):
+                    row = offer('1')
+                    row.update(register_blocked=blocked, fee_usd=fee,
+                               net_profit_usd=net, margin_pct=margin)
+                    self.assertTrue(ledger.below_policy(row, self.rule))
+
+    def test_registration_hold_never_bypasses_monetary_arithmetic(self):
+        row = offer('2', True)
+        row.update(register_blocked=True, net_profit_usd=99.0)
+        with self.assertRaisesRegex(ValueError, 'arithmetic mismatch'):
+            ledger.validate_offer(row)
+
+    def test_registration_holds_preserved_in_exact_exclusion_proofs(self):
+        for form in ('single', 'bundle'):
+            for row in self.pricing['offers_by_product'][form]:
+                row.update(register_blocked=True, block_reason='price_evidence_missing')
+        self.save(ledger.PRICING_PATH, self.pricing)
+        before_pricing = (self.root / ledger.PRICING_PATH).read_bytes()
+        self.assertEqual(self.run_collector('--apply'), 0)
+        self.assertEqual([p['pd_no'] for p in self.read(ledger.PRODUCT_PATH)['products']], ['2'])
+        self.assertEqual((self.root / ledger.PRICING_PATH).read_bytes(), before_pricing)
+        self.assert_valid()
+        captured = self.read(ledger.LEDGER_PATH)['changes'][0]['evidence']['offers']
+        self.assertTrue(all(row['register_blocked'] for row in captured))
+
     def test_dry_run_writes_nothing(self):
         before=self.bytes();self.assertEqual(self.run_collector(),0);self.assertEqual(before,self.bytes())
 

@@ -68,8 +68,9 @@ def validate_offer(row):
     # Inputs/net have cent rounding; margin has one decimal rounding.
     if abs(actual_net-net)>0.021: raise ValueError('offer net-profit arithmetic mismatch')
     if abs(net/price*100-margin)>0.11: raise ValueError('offer margin arithmetic mismatch')
-    if row.get('register_blocked') and actual_net>=0:
-        raise ValueError('register_blocked cannot replace a proven loss calculation')
+    # Registration holds describe price-evidence eligibility, not profitability.
+    # Preserve that hold; exclusion/restoration must use the validated monetary
+    # facts and explicit thresholds, never infer a loss from register_blocked.
     return {'net_profit_calculated_usd':round(actual_net,8),'margin_calculated_pct':round(net/price*100,8)}
 
 
