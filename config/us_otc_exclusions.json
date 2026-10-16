@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "purpose": "상품명에 SPF·선크림 표기가 없지만 고시로 자외선차단 기능성이 확인된 상품. 미국에서 OTC 의약품이라 판매하지 않는다.",
+  "policy": "사용자 결정 2026-10-16: 선케어는 제외. 이름만 보던 판정이 팩트·쿠션의 SPF 를 놓쳐서 근거와 함께 여기 적는다. 고시가 수집되면 scripts/daiso/score_shopify_demand.py 가 고시 문구로도 같은 판정을 한다.",
+  "items": [
+    {
+      "pd_no": "1068733",
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "kind": "otc_drug",
+      "reason": "고시 기능성 화장품: 미백 / 주름개선 / 자외선차단(SPF50+, PA++++) 3중 기능성",
+      "evidence_url": "https://cdn.daisomall.co.kr/file/PD/20250923/cDhDUXdmrGaPjZTnt8ii1068733_01_01cDhDUXdmrGaPjZTnt8ii.jpg/dims/resize/850/quality/100",
+      "evidence_scope": "상세 이미지 하단 「상품정보제공 고시」 표의 '기능성 화장품' 행",
+      "observed_at": "2026-10-16T12:40:00+00:00",
+      "decided_by": "user",
+      "decided_at": "2026-10-16"
+    }
+  ]
+}

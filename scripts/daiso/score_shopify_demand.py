@@ -477,12 +477,47 @@ KR_CLAIM_RISK = {
 }
 
 
-def us_blockers(name: str) -> tuple[str, str]:
+# 2026-10-16: 이름만 봤다. '[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트'(1068733) 는 이름에 SPF 가 없어
+# S 후보가 됐는데, 고시 표에는 '자외선차단(SPF50+, PA++++) 3중 기능성' 이 있었다. 팩트·쿠션은 이런 일이 흔하다.
+# 사용자 결정: 선케어는 제외. 그래서 이름 + 고시 문구 + 사용자 확인 목록 세 곳을 본다.
+US_OTC_EXCLUSIONS = ROOT / "config" / "us_otc_exclusions.json"
+GOSI_PATH = ROOT / "data" / "gosi.json"
+GOSI_SUN = ("자외선차단", "자외선 차단", "spf", "pa+", "선차단")
+# 기능성 칸만 본다. 레티놀·비타민C 는 사용법·주의사항에 "자외선 차단제를 함께" 가 흔해서 거기까지 보면 오판한다.
+GOSI_SUN_FIELDS = ("functional",)
+_SUN_EVIDENCE: dict[str, str] | None = None
+
+
+def sun_evidence() -> dict[str, str]:
+    """pd_no -> 선케어 근거. 사용자 확인 목록과 고시 문구에서 만든다."""
+    global _SUN_EVIDENCE
+    if _SUN_EVIDENCE is not None:
+        return _SUN_EVIDENCE
+    out: dict[str, str] = {}
+    for it in (load_json(US_OTC_EXCLUSIONS, {}) or {}).get("items") or []:
+        if it.get("pd_no") and it.get("kind") == "otc_drug":
+            out[str(it["pd_no"])] = f"고시 확인: {it.get('reason') or '자외선차단'}"
+    for pd_no, row in ((load_json(GOSI_PATH, {}) or {}).get("items") or {}).items():
+        if not isinstance(row, dict) or str(pd_no) in out:
+            continue
+        for f in GOSI_SUN_FIELDS:
+            text = str(row.get(f) or "").lower()
+            hit = next((k for k in GOSI_SUN if k in text), None)
+            if hit:
+                out[str(pd_no)] = f"고시 {f} 의 '{hit}'"
+                break
+    _SUN_EVIDENCE = out
+    return out
+
+
+def us_blockers(name: str, pd_no: str | None = None) -> tuple[str, str]:
     """(구분, 사유). 문제 없으면 ("", "")."""
     low = (name or "").lower()
     for k in US_OTC_SUN:
         if k in low:
             return "otc_drug", f"'{k}' - 미국에서 OTC 의약품(Drug Facts 라벨 필요)"
+    if pd_no is not None and str(pd_no) in sun_evidence():
+        return "otc_drug", f"{sun_evidence()[str(pd_no)]} - 미국에서 OTC 의약품(Drug Facts 라벨 필요)"
     for k, why in KR_CLAIM_RISK.items():
         if k in name:
             return "claim_risk", why
@@ -490,7 +525,7 @@ def us_blockers(name: str) -> tuple[str, str]:
 
 
 def qualify_s(name: str, bucket: str, total: int, matches: list,
-              sold_out: bool = False) -> tuple[bool, str]:
+              sold_out: bool = False, pd_no: str | None = None) -> tuple[bool, str]:
     """S등급 단일 게이트. True면 등록 후보.
 
     품절은 여기서 막는다.
@@ -506,7 +541,7 @@ def qualify_s(name: str, bucket: str, total: int, matches: list,
         return False, "sold_out"
     if is_non_core(name):
         return False, "non_core"
-    kind, _why = us_blockers(name)
+    kind, _why = us_blockers(name, pd_no)
     if kind:
         return False, kind
     if bucket not in CORE_BUCKETS:
@@ -585,7 +620,7 @@ def score_one(p: dict, signals: list[dict], *, market_listings=None) -> dict:
     total = max(5, min(100, round(
         cat_pts + rating_pts + review_pts + price_pts + kw_pts + us_pts - penalty)))
 
-    ok_s, s_rule = qualify_s(name, bucket, total, matches, bool(p.get("sold_out")))
+    ok_s, s_rule = qualify_s(name, bucket, total, matches, bool(p.get("sold_out")), p.get("pd_no"))
     if ok_s:
         grade = "S"
     elif not non_core and total >= 75:
@@ -595,7 +630,7 @@ def score_one(p: dict, signals: list[dict], *, market_listings=None) -> dict:
     else:
         grade = "C"
 
-    us_kind, us_why = us_blockers(name)
+    us_kind, us_why = us_blockers(name, p.get("pd_no"))
     if non_core:
         reason = "비핵심 상품 (펫·잡화·구강 등)"
     elif us_kind:
@@ -750,7 +785,7 @@ def desk_promote(rows) -> None:
         if desk not in DESK_MIN_SCORE or r.get("grade") == "S":
             continue
         name = r.get("name") or ""
-        if (is_non_core(name) or us_blockers(name)[0] or any(k in name for k in DESK_EXCLUDE)
+        if (is_non_core(name) or us_blockers(name, r.get("pd_no"))[0] or any(k in name for k in DESK_EXCLUDE)
                 or r.get("s_rule") in ("sold_out", "non_core", "non_core_bucket")):
             continue
         if (r.get("shopify_score") or 0) >= DESK_MIN_SCORE[desk] and (r.get("us_market_hits") or 0) >= DESK_MIN_US_HITS:

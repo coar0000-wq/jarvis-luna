@@ -107,11 +107,17 @@ def _apply_team_baselines(base, teams, end, max_age_days):
         when = _clock(pt['measured_at'])
         if when > end:
             raise ValueError('future_observation')
+        # 2026-10-16: 근거 파일 자신의 시각(source_clock)이 있으면 그것으로 신선도를 본다.
+        # measured_at 은 '센 시각' 이라 2주 넘게 안 바뀐 산출물도 오늘 측정처럼 보였다.
+        field, basis = 'measured_at', when
+        if pt.get('source_clock') is not None:
+            basis = min(_clock(pt['source_clock']), when)
+            field = 'source_clock'
         den = pt.get('denominator')
         return {'value': _count(pt['value']), 'denominator': _count(den) if den is not None else None,
-                'source_path': BASELINES, 'source_sha256': sha, 'clock_field': 'measured_at',
-                'clock_at': when.isoformat(), 'captured_at': None, 'evaluated_at': None,
-                'fresh': end - when <= timedelta(days=max_age_days), 'measured_from': str(pt.get('source_path') or '')[:120]}
+                'source_path': BASELINES, 'source_sha256': sha, 'clock_field': field,
+                'clock_at': basis.isoformat(), 'captured_at': None, 'evaluated_at': None,
+                'fresh': end - basis <= timedelta(days=max_age_days), 'measured_from': str(pt.get('source_path') or '')[:120]}
 
     for tid, row in rows.items():
         team = teams.get(tid)
@@ -125,6 +131,10 @@ def _apply_team_baselines(base, teams, end, max_age_days):
         team.update(phase='monitoring', status='baseline_established_tracking', baseline=baseline, current=current,
                     evidence_strength='internal_metric_baseline_not_business_gain',
                     blockers=['awaiting_next_measurement'] if same else ['internal_metric_not_business_gain'])
+        if not current['fresh']:
+            # 기준선은 있지만 지금 값의 근거 산출물이 14일 넘게 안 바뀌었다. 감시로 두면 정상처럼 보인다.
+            team.update(phase='blocked', status='baseline_source_stale')
+            team['blockers'] = ['stale_observation']
         team['metric'] = {'id': str(row.get('metric') or team['metric']['id'])[:60],
                           'unit': str(row.get('unit') or team['metric']['unit'])[:20],
                           'direction': 'decrease' if row.get('direction') == 'decrease' else 'increase',

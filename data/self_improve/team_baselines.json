@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T13:39:45.212790+00:00",
+  "generated_at": "2026-10-16T12:48:11.894500+00:00",
   "generator": "scripts/build_team_baselines.py",
-  "policy": "팀마다 실제 산출물에서 센 지표 1개. 첫 측정값을 기준선으로 고정하고 매 실행 current 만 갱신한다. 내부 측정이며 매출·사업 성과 검증(verified_gain)이 아니다.",
+  "policy": "팀마다 실제 산출물에서 센 지표 1개. 첫 측정값을 기준선으로 고정하고 매 실행 current 만 갱신한다. 신선도는 근거 파일 자신의 시각(source_clock)으로 본다. 내부 측정이며 매출·사업 성과 검증(verified_gain)이 아니다. 기준: docs/team_improvement_criteria.md",
   "teams": {
     "channels": {
       "metric": "usable_channels",
@@ -17,8 +17,50 @@
       "current": {
         "value": 4,
         "denominator": 7,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/channel_candidates.json"
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/channel_candidates.json",
+        "source_clock": "2026-10-05T02:25:21.582807+00:00"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": 0
+    },
+    "design": {
+      "metric": "relevant_reference_count",
+      "unit": "references",
+      "direction": "increase",
+      "baseline": {
+        "value": 34,
+        "denominator": 78,
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/design_team.json#references.quality",
+        "source_clock": "2026-10-04T07:13:43.095950+00:00"
+      },
+      "current": {
+        "value": 34,
+        "denominator": 78,
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/design_team.json#references.quality",
+        "source_clock": "2026-10-04T07:13:43.095950+00:00"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+    },
+    "graph": {
+      "metric": "uncategorized_records",
+      "unit": "records",
+      "direction": "decrease",
+      "baseline": {
+        "value": 512,
+        "denominator": 6955,
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/self_improve/status.json#loops.topics",
+        "source_clock": "2026-10-03T11:43:28.206034+00:00"
+      },
+      "current": {
+        "value": 512,
+        "denominator": 6955,
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/self_improve/status.json#loops.topics",
+        "source_clock": "2026-10-03T11:43:28.206034+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
     },
@@ -35,10 +77,12 @@
       "current": {
         "value": 1073,
         "denominator": 35,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/institution_sources.json"
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/institution_sources.json",
+        "source_clock": "2026-10-03T11:40:00.731501+00:00"
       },
-      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": 0
     },
     "knowledge": {
       "metric": "real_knowledge_items",
@@ -51,12 +95,14 @@
         "source_path": "data/knowledge/real_sources.json"
       },
       "current": {
-        "value": 2017,
+        "value": 2186,
         "denominator": 6,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/knowledge/real_sources.json"
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/knowledge/real_sources.json",
+        "source_clock": null
       },
-      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": 169
     },
     "legal": {
       "metric": "s_products_legal_complete",
@@ -69,12 +115,14 @@
         "source_path": "data/legal_full.json"
       },
       "current": {
-        "value": 3,
+        "value": 0,
         "denominator": 8,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/legal_full.json"
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/legal_full.json",
+        "source_clock": "2026-10-16T10:37:15.285741+00:00"
       },
-      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": -3
     },
     "listing": {
       "metric": "listing_copies_ok",
@@ -87,12 +135,14 @@
         "source_path": "data/shopify_listing_copy.json"
       },
       "current": {
-        "value": 9,
-        "denominator": 9,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/shopify_listing_copy.json"
+        "value": 0,
+        "denominator": null,
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/shopify_listing_copy.json",
+        "source_clock": "2026-10-15T10:36:47.684668+00:00"
       },
-      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": -9
     },
     "market": {
       "metric": "us_market_products_observed",
@@ -107,10 +157,12 @@
       "current": {
         "value": 185,
         "denominator": null,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/amazon_products.json+walmart+oliveyoung"
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/amazon_products.json+walmart+oliveyoung",
+        "source_clock": "2026-09-15T11:19:23.782Z"
       },
-      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": 0
     },
     "pricing": {
       "metric": "s_products_price_gate_passed",
@@ -125,10 +177,12 @@
       "current": {
         "value": 4,
         "denominator": 8,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/listing_gate.json"
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/listing_gate.json",
+        "source_clock": "2026-10-16T10:37:15.745836+00:00"
       },
-      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": 0
     },
     "robotics": {
       "metric": "ai_items_collected",
@@ -143,8 +197,30 @@
       "current": {
         "value": 235,
         "denominator": 2,
-        "measured_at": "2026-10-11T13:39:45.212790+00:00",
-        "source_path": "data/robotics_sources.json"
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/robotics_sources.json",
+        "source_clock": "2026-10-11T13:35:28.740085+00:00"
+      },
+      "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)",
+      "change": 0
+    },
+    "sourcing": {
+      "metric": "useful_fetch_count",
+      "unit": "fetches",
+      "direction": "increase",
+      "baseline": {
+        "value": 10,
+        "denominator": 110,
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/daiso_real/collection_status.json#last_success",
+        "source_clock": "2026-09-29T00:48:58.284474+00:00"
+      },
+      "current": {
+        "value": 10,
+        "denominator": 110,
+        "measured_at": "2026-10-16T12:48:11.894500+00:00",
+        "source_path": "data/daiso_real/collection_status.json#last_success",
+        "source_clock": "2026-09-29T00:48:58.284474+00:00"
       },
       "baseline_note": "첫 측정값을 기준선으로 고정 (2026-10-11 사용자 지시)"
     }

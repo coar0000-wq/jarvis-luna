@@ -1,59 +1,94 @@
 {
   "collapse-filter": false,
-  "search": "-path:Knowledge/Records",
-  "showTags": true,
+  "search": "-path:Knowledge/Records -path:Personal/templates -path:.trash",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Knowledge/Sources",
+      "query": "file:\"JARVIS Graph Hub\" OR file:\"JARVIS Brain\" OR file:\"JARVIS Dashboard Sync\" OR file:README OR tag:#hub",
       "color": {
         "a": 1,
-        "rgb": 13801250
+        "rgb": 16766287
+      }
+    },
+    {
+      "query": "path:Brain/Teams OR path:Knowledge/Teams",
+      "color": {
+        "a": 1,
+        "rgb": 11766015
+      }
+    },
+    {
+      "query": "path:Brain/Desks",
+      "color": {
+        "a": 1,
+        "rgb": 2541274
+      }
+    },
+    {
+      "query": "path:Brain/Products OR file:\"Shopify Store\"",
+      "color": {
+        "a": 1,
+        "rgb": 6732650
       }
     },
     {
       "query": "path:Knowledge/Topics",
       "color": {
         "a": 1,
-        "rgb": 4176720
+        "rgb": 4367861
+      }
+    },
+    {
+      "query": "path:Knowledge/Sources",
+      "color": {
+        "a": 1,
+        "rgb": 16740419
       }
     },
     {
       "query": "path:Knowledge/Orgs",
       "color": {
         "a": 1,
-        "rgb": 16750848
+        "rgb": 16754470
       }
     },
     {
-      "query": "path:Knowledge/Teams",
+      "query": "path:Phases",
       "color": {
         "a": 1,
-        "rgb": 10040319
+        "rgb": 15483002
+      }
+    },
+    {
+      "query": "path:Briefings",
+      "color": {
+        "a": 1,
+        "rgb": 15753874
       }
     },
     {
       "query": "path:Concepts",
       "color": {
         "a": 1,
-        "rgb": 5809151
+        "rgb": 5093036
+      }
+    },
+    {
+      "query": "path:Personal/Claude",
+      "color": {
+        "a": 1,
+        "rgb": 9479342
       }
     },
     {
       "query": "path:Personal",
       "color": {
         "a": 1,
-        "rgb": 8421504
-      }
-    },
-    {
-      "query": "path:Phases OR path:Briefings",
-      "color": {
-        "a": 1,
-        "rgb": 10708727
+        "rgb": 7697781
       }
     }
   ],
