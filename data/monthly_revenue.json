@@ -1,10 +1,34 @@
 {
-  "updated_at": "2026-09-28T13:00:00+00:00",
+  "updated_at": "2026-10-16T13:25:00+00:00",
   "currency": "USD",
-  "source": "none",
-  "truth_note": "미국 판매 개시 전. 2026-08 에 적혀 있던 $7,113 은 임시 기재값이라고 사용자 확인(2026-09-28) 후 지웠다. 실매출이 생기면 Shopify 월 매출만 넣는다.",
+  "source": "owner_input",
+  "truth_note": "2026-09 $10,083 은 사업주 입력값(2026-10-16). Shopify 주문 합계로 대조되면 source 를 shopify 로 바꾼다. 2026-08 임시값 $7,113 은 2026-09-28 사용자 확인으로 삭제한 상태 유지.",
   "months": [
-    {"year": 2026, "month": 8, "label": "2026-08", "revenue_usd": null, "orders": null, "note": "임시 기재값 삭제 (사용자 확인 2026-09-28)"}
+    {
+      "year": 2026,
+      "month": 8,
+      "label": "2026-08",
+      "revenue_usd": null,
+      "orders": null,
+      "note": "임시 기재값 삭제 (사용자 확인 2026-09-28)"
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "label": "2026-09",
+      "revenue_usd": 10083,
+      "orders": null,
+      "source": "owner_input",
+      "note": "사업주가 직접 입력 (2026-10-16 대화: '전달 수입 (2026-09) 10083달러 표시해줘'). Shopify 주문 데이터와 대조 전."
+    }
   ],
-  "last_month": {"year": 2026, "month": 8, "label": "2026-08", "revenue_usd": null, "orders": null, "note": "임시 기재값 삭제"}
+  "last_month": {
+    "year": 2026,
+    "month": 9,
+    "label": "2026-09",
+    "revenue_usd": 10083,
+    "orders": null,
+    "source": "owner_input",
+    "note": "사업주가 직접 입력 (2026-10-16 대화: '전달 수입 (2026-09) 10083달러 표시해줘'). Shopify 주문 데이터와 대조 전."
+  }
 }

@@ -1215,7 +1215,9 @@ function previousMonthRevenueTile(t){
   if(String(data.source||'').indexOf('temporary')>=0 || String(row.source||'').indexOf('temporary')>=0){
     return t('dz-slate','전달 수입 ('+info.label+')','임시값','실매출 아님 · 표시 안 함');
   }
-  const orders = row.orders != null ? ('주문 '+row.orders+'건') : '실측 매출';
+  // 사업주 입력값(source=owner_input)은 보조 문구 없이 금액만 보인다 (2026-10-16 사용자 지시). 출처는 데이터 파일에 남아 있다.
+  const owner = String(row.source||data.source||'') === 'owner_input';
+  const orders = row.orders != null ? ('주문 '+row.orders+'건') : (owner ? '' : '실측 매출');
   return t('dz-green','전달 수입 ('+info.label+')','$'+amt.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}), orders);
 }
 
