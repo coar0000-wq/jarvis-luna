@@ -537,10 +537,16 @@ def main() -> int:
     s_rows.sort(key=lambda r: (r.get("rank", 9999), -(r.get("score") or 0)))
     now = datetime.now(KST)
 
-    live = [k for k, m in status.items() if m.get("count", 0) > 0]
+    # 2026-10-16: count>0 만 보던 기준이 13일·31일 지난 채널까지 '실데이터 13/15' 로 셌다.
+    # 같은 화면 채널 운영팀 카드는 status==ok 로 '가동 0/15'. 기준을 ok 로 맞춘다.
+    # 상태값이 없는 구버전 런타임은 판정 근거가 없으니 건수로 본다.
+    live = [k for k, m in status.items()
+            if m.get("count", 0) > 0 and (m.get("status") == "ok" or not m.get("status"))]
     # 구버전 런타임은 데이터가 있는 채널의 trust 가 null 이다.
     # 그때는 신뢰 집계를 못 하므로 미판정으로 둔다.
-    graded = [k for k in live if status[k].get("trust")]
+    # 신뢰 등급 판정 여부는 '데이터가 있는 채널' 기준이다. live(ok만)로 보면 전부 낡은 날
+    # 등급이 있는데도 '구버전이라 미판정' 으로 잘못 나온다.
+    graded = [k for k, m in status.items() if m.get("count", 0) > 0 and m.get("trust")]
     has_trust = bool(graded)
     verified = [k for k, m in status.items() if m.get("trust") == "verified"]
 

@@ -63,7 +63,7 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .hero-text h1{font-size:52px;font-weight:700;color:#fff;line-height:1.3;margin-bottom:25px;text-transform:uppercase;text-shadow:3px 3px 10px rgba(0,0,0,0.9);letter-spacing:1px;}
 .hero-text p{font-size:16px;color:#e8e8e8;line-height:1.7;margin-bottom:35px;text-shadow:2px 2px 6px rgba(0,0,0,0.7);}
 .hero-buttons{display:flex;gap:15px;justify-content:flex-end;}
-.btn{padding:14px 32px;border-radius:6px;font-size:15px;font-weight:500;border:2px solid transparent;cursor:pointer;transition:all 0.3s;text-shadow:1px 1px 3px rgba(0,0,0,0.3);}
+.btn{display:inline-block;text-align:center;padding:14px 32px;border-radius:6px;font-size:15px;font-weight:500;border:2px solid transparent;cursor:pointer;transition:all 0.3s;text-shadow:1px 1px 3px rgba(0,0,0,0.3);}
 .btn-primary{background:#f5f5f5;color:#2a2a2a;border-color:#f5f5f5;}
 .btn-primary:hover{background:transparent;color:#f5f5f5;border-color:#f5f5f5;}
 .btn-secondary{background:transparent;color:#f5f5f5;border-color:#f5f5f5;}
@@ -94,7 +94,8 @@ box-shadow:inset 0 0 60px rgba(0,0,0,0.5),0 8px 32px rgba(0,0,0,0.3);}
 .team-name{font-size:14px;color:#f0f0f0;font-weight:500;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
 .team-when{font-size:12px;color:#6e7681;white-space:nowrap;margin-left:auto;padding-left:12px;}
 .team-summary{font-size:12.5px;color:#8b949e;margin-top:3px;line-height:1.5;}
-.team-action{display:inline-block;margin-top:6px;font-size:11.5px;color:#e3b341;background:rgba(210,153,34,0.12);border:1px solid rgba(210,153,34,0.35);border-radius:5px;padding:3px 9px;}
+/* 2026-10-16: workflow_failure_not_superseded_by_... 같은 긴 코드가 안 끊겨 모바일에서 416px 로 넘쳤다. */
+.team-action{display:inline-block;max-width:100%;overflow-wrap:anywhere;word-break:break-word;margin-top:6px;font-size:11.5px;color:#e3b341;background:rgba(210,153,34,0.12);border:1px solid rgba(210,153,34,0.35);border-radius:5px;padding:3px 9px;}
 .team-action.wait{color:#58a6ff;background:rgba(88,166,255,0.10);border-color:rgba(88,166,255,0.35);}
 .team-action.info{color:#8b949e;background:rgba(139,148,158,0.08);border-color:rgba(139,148,158,0.25);font-weight:400;}
 .team-badge{font-size:10px;letter-spacing:0.5px;border-radius:4px;padding:1px 6px;border:1px solid;}
@@ -316,6 +317,8 @@ nav a{font-size:12px;}
 .pm-duty{background:rgba(88,166,255,.07);border:1px solid rgba(88,166,255,.22);border-radius:10px;padding:11px 13px;margin-top:12px;font-size:12.5px;color:#8b949e;line-height:1.6;}
 .pm-duty b{color:#58a6ff;}
 .pm-tbl{width:100%;border-collapse:collapse;margin:9px 0 6px;font-size:12px;}
+/* 2026-10-16: 390px 폭에서 가격표가 394px 로 넘쳐 페이지 전체가 가로로 밀렸다. 표만 스크롤시킨다. */
+.pm-tbl-wrap{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;}
 .pm-tbl th{text-align:left;color:#6e7681;font-weight:600;padding:4px 6px;border-bottom:1px solid rgba(139,148,158,.18);}
 .pm-tbl td{padding:5px 6px;border-bottom:1px solid rgba(139,148,158,.08);color:#c9d1d9;}
 .pm-cau{font-size:11px;color:#f0883e;}
@@ -333,7 +336,7 @@ nav a{font-size:12px;}
 .sd-cost{font-size:11px;color:#8b949e;margin-top:2px;}
 
 
-.agent-card{margin:0 0 18px;padding:14px 16px;border-radius:10px;border:1px solid #30363d;background:#0d1117;}
+.agent-card{margin:0 0 18px;padding:14px 16px;border-radius:10px;border:1px solid #30363d;background:#0d1117;overflow-wrap:anywhere;word-break:break-word;}
 .agent-card h4{margin:0 0 8px;font-size:14px;color:#e6edf3;}
 .agent-card ol{margin:8px 0 0;padding-left:20px;color:#c9d1d9;font-size:13px;line-height:1.55;}
 .agent-card li{margin-bottom:6px;}
@@ -402,14 +405,15 @@ nav a{font-size:12px;}
 .dp-detail span:last-child{text-align:right;}
 </style>
 </head>
-<body>
+<body id="top">
 <header>
-<div class="logo">MD family</div>
+<a class="logo" href="#top" style="text-decoration:none;">MD family</a>
 <nav>
-<a class="active">Dashboard</a>
-<a>Knowledge Graph</a>
-<a>Strategy</a>
-<a>Teams</a>
+<!-- 2026-10-16: href 없는 <a> 라 눌러도 아무 일이 없었다. 해당 섹션으로 이동시킨다. -->
+<a class="active" href="#daily-pipeline">Dashboard</a>
+<a href="#knowledge-graph">Knowledge Graph</a>
+<a href="#daiso">Strategy</a>
+<a href="#teams">Teams</a>
 </nav>
 <div class="live-indicator">
 <span class="live-dot"></span>
@@ -422,8 +426,8 @@ nav a{font-size:12px;}
 <div class="hero">
 <div class="hero-text">
 <div class="hero-buttons">
-<button class="btn btn-primary">Get Started</button>
-<button class="btn btn-secondary">Learn More</button>
+<a class="btn btn-primary" href="#daily-pipeline" style="text-decoration:none;">오늘 등록 현황</a>
+<a class="btn btn-secondary" href="#operations-system" style="text-decoration:none;">운영 방식 보기</a>
 </div>
 </div>
 </div>
@@ -721,14 +725,14 @@ Product Discovery
 </div>
 
 <!-- 최하단으로 이동된 3개 박스 -->
-<div class="dashboard-grid">
+<div class="dashboard-grid" id="knowledge-graph">
 <div class="stat-card">
 <h4>지식 레코드 (누적)</h4>
 <div class="value"><span id="stat-records">–</span></div>
 <div class="stat-detail" id="stat-records-detail"></div>
 </div>
 <div class="stat-card">
-<h4>그래프 노트 · 링크 (누적)</h4>
+<h4>그래프 노트 · 링크 (누적 생성)</h4>
 <div class="value"><span id="stat-graph">–</span></div>
 <div class="stat-detail" id="stat-graph-detail"></div>
 </div>
@@ -801,7 +805,9 @@ function renderProductDiscovery(sd){
       slot.textContent = 'S ' + sNow + '개';
       slot.className = 'pd-slot';
     }else if(open > 0){
-      slot.textContent = 'S ' + sNow + '/' + limit + ' · 빈자리 ' + open;
+      // 빈자리는 카테고리 전담 쿼터 상품을 뺀 일반 S 기준이라 limit - S 와 다를 수 있다.
+      slot.textContent = 'S ' + sNow + '/' + limit + ' · 일반 빈자리 ' + open;
+      slot.title = '카테고리 전담 쿼터 상품은 정원 계산에서 제외';
       slot.className = 'pd-slot';
     }else{
       slot.textContent = 'S ' + sNow + '/' + limit + ' · 정원 차음';
@@ -1085,8 +1091,20 @@ const steps = Array.isArray(rt.pipeline)?rt.pipeline:[];
 if(!steps.length){ list.innerHTML='<li><span class="log-text">파이프라인 기록 없음</span></li>'; return; }
 list.innerHTML = steps.map(s=>{
 const [label,color] = STATUS_LABEL[s.status]||[s.status||'알 수 없음','#999'];
-return '<li><span class="log-text">'+esc(s.title)+'<br><span style="color:#666;font-size:11px;">'+esc(s.detail||'')+'</span></span><span class="log-time" style="color:'+color+';">'+esc(label)+'</span></li>';
+return '<li><span class="log-text">'+esc(s.title)+'<br><span style="color:#666;font-size:11px;">'+esc(s.detail||'')+'</span></span><span class="log-time"'+(s.status==='ready_for_pages'?' data-pages-step="1"':'')+' style="color:'+color+';">'+esc(label)+'</span></li>';
 }).join('');
+// 2026-10-16: publish 단계는 배포 '전' 에 ready_for_pages 로 기록된다. 그 파일이 그대로 배포되니
+// 사이트가 떠 있는 동안에도 늘 '배포 대기' 로 보였다. 지금 보고 있는 사이트의 deployment.json 이
+// 읽히면 그것이 배포 완료 증거다. 읽히지 않으면 원래 표시를 그대로 둔다.
+const cell = list.querySelector('[data-pages-step]');
+if(cell){
+  getJSON('deployment.json').then(dep=>{
+    if(dep && /^[0-9a-f]{40}$/.test(String(dep.commit||''))){
+      cell.textContent='배포됨 · '+dep.commit.slice(0,7);
+      cell.style.color='#3fb950';
+    }
+  }).catch(()=>{});
+}
 }
 
 function renderSources(ts){
@@ -1157,7 +1175,9 @@ const g=d.graph||{};
 const gBox=$('stat-graph-detail');
 if(gBox){
 const other=Math.max(0,(g.notes||0)-(g.records||0)-(g.sources||0)-(g.topics||0));
-gBox.innerHTML=row('개별 자료 노트',n(g.records)+'개')+row('주제 노트',n(g.topics)+'개')+row('출처 노트',n(g.sources)+'개')+(other?row('허브 · 색인',n(other)+'개'):'')+row('노트 간 연결',n(g.links)+'개')+
+// 2026-10-16: 제목 숫자는 실행마다 생긴 수의 누적(102,582·413,034)이고 아래 행은 현재 볼트(86,391·9,393)라
+// 같은 카드에 두 기준이 설명 없이 섞였다. 현재 볼트 값을 맨 위에 따로 적는다.
+gBox.innerHTML=row('현재 볼트',n(g.notes)+'노트 · '+n(g.links)+'링크')+row('개별 자료 노트',n(g.records)+'개')+row('주제 노트',n(g.topics)+'개')+row('출처 노트',n(g.sources)+'개')+(other?row('허브 · 색인',n(other)+'개'):'')+row('노트 간 연결',n(g.links)+'개')+
 '<span class="cap">수집한 자료를 Obsidian 노트로 변환해 주제·출처로 상호 연결한 지식 그래프입니다. 끊어진 링크 '+n(g.dangling_links)+'건.</span>';
 }
 }
@@ -1254,11 +1274,11 @@ function renderDaiso(status, sRec){
   const ship=avg('shipping_unit_usd'), tar=avg('tariff_usd');
   const mkt=(pm&&pm.market_benchmark)||{};
   const rec=Number(mkt.p25||0);
-  const margin=rec?((rec-landed-(rec*0.029+0.06))/rec*100):0;
+  const margin=rec?((rec-landed-payFee(rec))/rec*100):0;
   // 1+1 은 개당 배송비가 절반 아래로 떨어져 마진이 달라진다. 함께 보여준다.
   const pairRows=Object.values(pair);
   const pairLanded=pairRows.length?pairRows.reduce((a,r)=>a+Number(r.landed_cost_usd||0),0)/pairRows.length:0;
-  const pairMargin=(rec&&pairLanded)?((rec-pairLanded-(rec*0.029+0.06))/rec*100):0;
+  const pairMargin=(rec&&pairLanded)?((rec-pairLanded-payFee(rec))/rec*100):0;
 
   const sLanded=Object.values(single).reduce((a,r)=>a+Number(r.landed_cost_usd||0),0)/Math.max(1,Object.keys(single).length);
 
@@ -1267,7 +1287,7 @@ function renderDaiso(status, sRec){
 
   box.innerHTML='<div class="dz-grid">'+
     t('dz-green','S등급 등록 후보',recs.length+'개','Shopify 1차 테스트')+
-    t('dz-blue','참고 모델 판매가','$'+rec.toFixed(2),'계산 마진 '+margin.toFixed(0)+'%'+(pairMargin?' · 1+1 '+pairMargin.toFixed(0)+'%':'')+' · 실판매·최저가 검증 아님')+
+    t('dz-blue','참고 판매가 (시장 하위25%)','$'+rec.toFixed(2),'계산 마진 '+margin.toFixed(0)+'%'+(pairMargin?' · 1+1 '+pairMargin.toFixed(0)+'%':'')+' · 실판매·최저가 검증 아님')+
     t('dz-slate','손익분기 (단품)','$'+be.toFixed(2),'개당 배송비 $'+ship.toFixed(2)+' 포함')+
     revTile+
   '</div>'+
@@ -1278,6 +1298,10 @@ function renderDaiso(status, sRec){
     ' (하위25% $'+(mkt.p25||'-')+' · 중앙값 $'+(mkt.median||'-')+')'+
     ' · 환율 '+esc(String(asOf||''))+'</div>';
 }
+
+// 2026-10-16: 화면이 결제 수수료를 2.9%+$0.06 으로 따로 계산했다. 서버(scripts/payment_fees.py)와
+// 같은 페이지의 '결제 모델: 카드 수수료 2%' 문구는 2%+$0 이다. 같은 숫자를 쓰도록 맞춘다.
+function payFee(p){ var PAY_RATE = 0.02, PAY_FIXED = 0; return p*PAY_RATE + PAY_FIXED; }
 
 // 판매 구성(단품/2개 세트) 권장가. 경영 판단 결과를 화면에 고정한다.
 function offersPanel(pm){
@@ -1291,10 +1315,10 @@ function offersPanel(pm){
     '<td>$'+x.net_profit_usd.toFixed(2)+'</td>'+
     '<td>'+x.margin_pct.toFixed(0)+'%</td>'+
     '<td>'+(x.orders_for_500usd||'–')+'건</td></tr>';
-  return '<div class="dz-note pm-offer"><b>권장 판매 구성</b> · 광고비 0 기준'+
-    '<table class="pm-tbl"><tr><th>구성</th><th>판매가</th><th>개당</th><th>할인</th>'+
+  return '<div class="dz-note pm-offer"><b>권장 판매 구성</b> · 상품별 권장가 중앙값 기준 · 광고비 0'+
+    '<div class="pm-tbl-wrap"><table class="pm-tbl"><tr><th>구성</th><th>판매가</th><th>개당</th><th>할인</th>'+
     '<th>순익</th><th>마진</th><th>월$500</th></tr>'+
-    row('단품 1개',o.single,false)+row('2개 세트',o.bundle,true)+'</table>'+
+    row('단품 1개',o.single,false)+row('2개 세트',o.bundle,true)+'</table></div>'+
     '<span class="of-note">2개 세트가 단품보다 순익 '+(o.bundle_vs_single||'-')+'배. '+
     esc(o['판단_근거']||'')+'</span></div>';
 }
@@ -1307,12 +1331,12 @@ function dutyModePanel(pm, sell){
   const du=avg('ddu_1개_묶음배송','landed_cost_usd');
   const dp=avg('ddp_1개_묶음배송','landed_cost_usd');
   const duty=avg('ddp_1개_묶음배송','tariff_usd');
-  const m=l=>((sell-l-(sell*0.029+0.06))/sell*100).toFixed(0);
+  const m=l=>((sell-l-payFee(sell))/sell*100).toFixed(0);
   return '<div class="dz-note pm-duty"><b>관세 부담 방식 미정</b> — 스토어 개설 후 Markets 설정을 확인하고 고르세요.'+
-    '<table class="pm-tbl"><tr><th>방식</th><th>착지원가</th><th>마진</th><th>고객 추가 부담</th></tr>'+
+    '<div class="pm-tbl-wrap"><table class="pm-tbl"><tr><th>방식</th><th>착지원가</th><th>마진</th><th>고객 추가 부담</th></tr>'+
     '<tr><td>DDU · 판매가에 관세 포함</td><td>$'+du.toFixed(2)+'</td><td>'+m(du)+'%</td><td>없음</td></tr>'+
     '<tr><td>DDP · 결제 시 관세 별도</td><td>$'+dp.toFixed(2)+'</td><td>'+m(dp)+'%</td><td>+$'+duty.toFixed(2)+'</td></tr>'+
-    '</table><span class="pm-cau">'+esc(note['주의']||'')+'</span></div>';
+    '</table></div><span class="pm-cau">'+esc(note['주의']||'')+'</span></div>';
 }
 
 // 가격 셀. 실제 원가 모델(배송·관세·수수료 포함)이 있을 때만 표시한다.
@@ -1322,7 +1346,7 @@ function sellCell(p){
   const mkt=(window.__pricing&&window.__pricing.market_benchmark)||{};
   const rec=Number(mkt.p25||0);
   if(!rec) return '';
-  const net=rec-r.landed_cost_usd-(rec*0.029+0.06);
+  const net=rec-r.landed_cost_usd-payFee(rec);
   return '<div class="sd-sell">$'+rec.toFixed(2)+
     '<small>순익 $'+net.toFixed(2)+'</small></div>';
 }
@@ -1472,7 +1496,7 @@ function renderMarketTeam(mt){
     // S등급 개수는 상단 daiso-panel 과 중복되지 않게 제외
     hl.innerHTML='<div class="dz-grid">'+
       t('dz-blue','영문 카피 준비',(h.listing_ready_count||0)+'건','S목록 중 리스팅 가능')+
-      t('dz-blue','실데이터 채널',(h.signals_live||0)+'/'+(h.signals_total||0),
+      t('dz-blue','최신 채널(갱신 정상)',(h.signals_live||0)+'/'+(h.signals_total||0),
         h.trust_graded?('검증 '+(h.signals_verified||0)+'개'):'신뢰 등급 미판정')+
       t('dz-amber','적용 환율',h.exchange_rate?Number(h.exchange_rate).toLocaleString('ko-KR'):'–','KRW/USD')+
       t('dz-slate','최근 점수 산출',esc(h.last_score_run||'–'),'원가 모델 '+esc(h.last_pricing_run||'–'))+
@@ -1552,9 +1576,14 @@ function renderMarketingChannels(d){
     if(!el) return;
     const stt = d.global_channels_status || {};
     const keys = Object.keys(stt);
-    const live = keys.filter(k => (stt[k].count||0) > 0 && (stt[k].status||'') !== 'disabled');
+    // 2026-10-16: 예전엔 count>0 이면 셌다. 13일·31일 지난 채널까지 '실데이터 13/15' 로 나와
+    // 채널 운영팀 카드 '가동 0/15'(status==='ok') 와 같은 화면에서 어긋났다. 기준을 ok 하나로 맞춘다.
+    const active = keys.filter(k => (stt[k].status||'') !== 'disabled');
+    const live = active.filter(k => (stt[k].count||0) > 0 && stt[k].status === 'ok');
+    const stale = active.filter(k => (stt[k].count||0) > 0 && stt[k].status === 'stale').length;
     const note = d.data_integrity_note || '';
-    el.innerHTML = '실데이터 수신 ' + live.length + '/' + keys.length + '개 채널'
+    el.innerHTML = '최신 데이터 수신 ' + live.length + '/' + active.length + '개 채널'
+      + (stale ? ' · 갱신 지연 ' + stale + '개(지난 자료 표시)' : '')
       + (note ? '<br><span class="ch-note-sub">'+esc(note)+'</span>' : '');
   })();
 
@@ -1586,10 +1615,10 @@ function renderMarketingChannels(d){
       const meta = stt[key] || {};
       const n = (gc[key]||[]).length || meta.count || 0;
       const st = meta.status || (n ? 'ok' : 'empty');
-      if(st === 'disabled' || st === 'failed' || (st !== 'ok' && !n)){
+      if(st === 'disabled' || st === 'failed' || st === 'unverified' || (st !== 'ok' && !n)){
         const span = document.createElement('span');
         span.className = 'ch-off';
-        span.textContent = st === 'disabled' ? '중단' : (st === 'failed' ? '실패' : '없음');
+        span.textContent = st === 'disabled' ? '중단' : (st === 'failed' ? '실패' : (st === 'unverified' ? '미검증' : '없음'));
         h4.appendChild(span);
       }
     });
@@ -1602,6 +1631,17 @@ function renderMarketingChannels(d){
   const render = (id, items, mapFn, badgeColor="green", key="")=>{
     const el = document.getElementById(id);
     if(!el) return;
+
+    // 2026-10-16: tiktok_shop_us 는 status=unverified · collected_at 없음 · 원본 URL 없음인데
+    // 상품 5개와 조회수(2.4M 등)를 '공개 페이지 직접 파싱' 출처로 보여줬다. 그 숫자를 만드는
+    // 수집기가 저장소에 없다. 수집 시각도 출처도 확인 안 되는 행은 보여주지 않는다(가짜 데이터 금지).
+    if(items && items.length && (st[key]||{}).status === 'unverified' && !(st[key]||{}).collected_at){
+      const meta = st[key] || {};
+      el.innerHTML = '<li class="ch-empty"><span class="ch-badge">미검증 · 표시 안 함</span>'+
+        '<div class="ch-reason">수집 시각·원본 출처가 없어 '+items.length+'건을 숨겼습니다.'+
+        (meta.reason?' ('+esc(meta.reason)+')':'')+'</div></li>';
+      return;
+    }
 
     if(!items || !items.length){
       const meta = st[key] || {};
@@ -1757,7 +1797,12 @@ function renderOperations(ops){
   fb.append(el('p',state(feedback.status)),el('p','검증된 관찰 '+num(feedback.verified_observations),'ops-muted'),el('p',feedback.training_performed===true?'학습 수행 보고 있음':'학습 수행 없음 또는 확인 전','ops-muted'));
   const audit=ops.audit||{},auditCounts=audit.counts||{},auditBox=$('operations-audit');auditBox.replaceChildren(el('h4','판단·실행 감사'));
   auditBox.append(el('p','미래 전용 연결 기록 '+num(auditCounts.audited)+' · 기존 기록 '+num(auditCounts.legacy)),el('p','판단 '+num(auditCounts.decisions)+' · 실행 준비 '+num(auditCounts.prepared)+' · 결과 '+num(auditCounts.outcomes)+' · 실패/차단 '+num(auditCounts.failure),'ops-muted'),el('p','이유·증거·정확한 내용·승인 상태·결과는 비공개 감사 기록에서 연결합니다. 해시는 승인 증명이 아니며 이 화면은 실행할 수 없습니다.','ops-muted'));
-  table('operations-tasks',['작업','팀','종류','단계','실제 상태'],arr(ops.tasks).map(t=>[scalar(t.task_id),scalar(t.team),scalar(t.kind),level(t.level),state(t.state)]));
+  // 2026-10-16: 64자 해시 task_id 40행이 그대로 나와 모바일 페이지가 32,000px 까지 길어졌다.
+  // 완료 아닌 작업을 먼저, 최대 10행, id 는 앞 12자만 보인다. 나머지는 건수로 밝힌다(숨기지 않는다).
+  const allTasks=arr(ops.tasks).slice().sort((a,b)=>(String(a&&a.state)==='COMPLETED')-(String(b&&b.state)==='COMPLETED'));
+  const shortId=v=>{const x=String(scalar(v)||'');return x.length>17?x.replace(/^task_/,'').slice(0,12)+'…':x;};
+  table('operations-tasks',['작업','팀','종류','단계','실제 상태'],allTasks.slice(0,10).map(t=>[shortId(t.task_id),scalar(t.team),scalar(t.kind),level(t.level),state(t.state)]));
+  if(allTasks.length>10){const more=el('p','외 '+(allTasks.length-10)+'건 (공개본 최근 '+allTasks.length+'건 중) · 전체 작업 '+num(counts.tasks_total)+'건','ops-muted');$('operations-tasks').append(more);}
   const watcherScope=w=>{if(w.observation_kind==='local_derived_read')return '로컬 파생 읽기 · 입력 서명 검증';const scope={active_shopify_shortlist_only:'활성 후보만',candidate_probes_only_not_registered_connectors:'후보 탐색 · 연동 등록 아님',collected_records_with_provider_coverage:'기관 관찰 자료',genuine_captured_items_excluding_registered_catalog:'진짜 캡처 항목 · 등록 카탈로그 제외'}[w.scope]||'실제 소스';const c=w.coverage||{};return scope+' · '+num(c.fresh_records)+' / '+num(c.total_records)+(c.failed_sources?' · 실패 공급원 '+num(c.failed_sources):'');};
   table('operations-watchers',['팀','실제 상태','검증 범위','차단 사유','캡처 또는 로컬 점검 시각','담당 팀 복구'],arr(ops.watchers).map(w=>[scalar(w.team),state(w.status),watcherScope(w),w.reason||'보고된 차단 없음',w.observation_kind==='local_derived_read'?'로컬 읽기: '+scalar(w.observed_at):scalar(w.captured_at),w.recovery?scalar(w.recovery.owner)+' · '+state(w.recovery.status):'현재 복구 작업 없음']));
   table('operations-recovery',['감시 소스','담당 팀','복구 상태','검증 시도','다음 조치'],arr((ops.source_recovery||{}).episodes).map(r=>[scalar(r.source_team),scalar(r.owner),state(r.status),num(r.attempts)+' / '+num(r.attempt_limit),scalar(r.next_action)]));
@@ -1957,26 +2002,51 @@ a.classList.add('active');
 });
 </script>
 <script>
+/* 내부 사유 코드를 사람이 읽는 말로 바꾼다. 모르는 코드는 원문 그대로 둔다(숨기지 않는다). */
+function reasonText(codes){
+  var map={
+    listing_gate_public_not_ready:'공개 게이트 미통과', listing_gate_draft_not_ready:'초안 게이트 미통과',
+    listing_gate_legal_full_incomplete:'법률 전체 검토 미완료', listing_gate_legal_hard_block:'법률 차단',
+    no_usable_product_images:'쓸 수 있는 상품 이미지 없음', english_title_missing:'영문 상품명 없음',
+    safety_evidence_unverified_owner_draft_only:'안전성 근거 미확인(초안만 허용)'
+  };
+  var part={copy:'카피',legal:'법률',legal_full:'법률 전체',manufacturer_safety_record_missing:'제조사 안전자료',price:'가격',gosi:'고시',us_label:'영문 라벨'};
+  var seen={}, out=[];
+  (codes||[]).forEach(function(c){
+    c=String(c); var t;
+    if(map[c]) t=map[c];
+    else if(c.indexOf('listing_gate_public_blocked_by:')===0) t='공개 차단: '+c.split(':')[1].split(',').map(function(x){return part[x]||x;}).join('·');
+    else if(c.indexOf('manufacturer_safety_record_missing')===0) t='제조사 안전자료 없음';
+    else if(c.indexOf('brand_english_unverified:')===0) t='영문 브랜드명 미확인('+c.split(':')[1]+')';
+    else t=c;
+    if(!seen[t]){seen[t]=1; out.push(t);}
+  });
+  return out.join(', ');
+}
 /* Shopify 일일 등록 현황: data/shopify_daily_registry.json (GitHub Actions 가 매일 10:00 KST 에 갱신) */
 (async function(){
   var sum=document.getElementById('shopify-daily-summary'), list=document.getElementById('shopify-daily-list');
   if(!sum||!list) return;
   try{
     var d=await getJSON('data/shopify_daily_registry.json');
-    var items=(d&&d.items)||[];
-    var live=items.filter(function(i){return i.status==='ACTIVE';}).length;
+    // 2026-10-16: 공개가 아니면 전부 '초안' 으로 셌다. deleted_by_owner(사용자가 지운 것)까지
+    // 초안 5 로 나왔다(실제 초안 4). 목록도 배열 역순이라 날짜가 뒤섞였다. 상태별로 세고 날짜순으로 둔다.
+    var items=((d&&d.items)||[]).slice().sort(function(a,b){return String(a.date||'').localeCompare(String(b.date||''));});
+    var cnt=function(s){return items.filter(function(i){return i.status===s;}).length;};
+    var live=cnt('ACTIVE'), draft=cnt('DRAFT'), gone=cnt('deleted_by_owner');
+    var other=items.length-live-draft-gone;
     var last=items.length?items[items.length-1].date:'-';
-    sum.textContent='누적 '+items.length+'개 · 공개 '+live+' · 초안 '+(items.length-live)+' · 최근 등록 '+last+' · 하루 카테고리별 1개, 단품+1+1';
+    sum.textContent='누적 '+items.length+'개 · 공개 '+live+' · 초안 '+draft+(gone?' · 삭제 '+gone:'')+(other?' · 상태 확인 필요 '+other:'')+' · 최근 등록 '+last+' · 하루 카테고리별 1개, 단품+1+1';
     list.innerHTML='';
     if(!items.length){ var e=document.createElement('li'); e.style.cssText='color:#666;font-size:13px;padding:10px 0;'; e.textContent='아직 등록된 상품이 없습니다.'; list.appendChild(e); return; }
     items.slice(-12).reverse().forEach(function(i){
       var li=document.createElement('li'); li.style.cssText='padding:8px 0;font-size:12.5px;line-height:1.5;';
       var cat={skincare:'스킨케어',makeup:'메이크업',body:'바디'}[i.category]||i.category;
       var sz=i.size?(i.size.unit+i.size.base+(i.size.count>1?' x '+i.size.count:'')):'용량 표기 없음';
-      var price=i.single_usd!=null?('$'+i.single_usd.toFixed(2)+' (마진 '+i.single_margin_pct+'%)'+(i.pack_usd?' · 1+1 $'+i.pack_usd.toFixed(2)+' ('+i.pack_margin_pct+'%)':'')):'';
+      var price=i.single_usd!=null?('$'+i.single_usd.toFixed(2)+' (마진 '+i.single_margin_pct+'%)'+(i.pack_usd?' · 1+1 $'+i.pack_usd.toFixed(2)+' ('+i.pack_margin_pct+'%)':'')):'가격 미산정';
       var cmp=i.shop_com_lowest_usd?(' · shop.com 최저 $'+Number(i.shop_com_lowest_usd).toFixed(2)):' · shop.com 비교 없음';
-      var st=i.status==='ACTIVE'?'공개':'초안';
-      var why=(i.draft_reasons&&i.draft_reasons.length)?(' · 사유: '+i.draft_reasons.join(', ')):'';
+      var st={ACTIVE:'공개',DRAFT:'초안',deleted_by_owner:'삭제됨'}[i.status]||'상태 확인 필요';
+      var why=(i.draft_reasons&&i.draft_reasons.length)?(' · 사유: '+reasonText(i.draft_reasons)):'';
       var head=document.createElement('strong'); head.textContent='['+cat+'] '+i.title;
       var meta=document.createElement('div'); meta.style.color='#8b949e';
       meta.textContent=i.date+' · '+st+' · '+sz+' · 이미지 '+(i.images||0)+'장 · '+price+cmp+why;

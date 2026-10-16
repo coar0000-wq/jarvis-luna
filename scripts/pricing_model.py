@@ -70,8 +70,8 @@ DUTY_MODES = ("ddu", "ddp")
 #
 #   할인율 15% 를 고른 이유
 #     - 5~10% 는 미국 소비자에게 체감이 안 된다
-#     - 20% 로 내리면 마진이 36.7% 로 떨어져 반품·파손 완충이 사라진다
-#     - 15% 면 마진 40% 를 지키면서 단품 대비 순익 2.2배
+#     - (처음 정할 때 기록) 20% 면 마진 36.7%, 15% 면 마진 40%·순익 2.2배였다.
+#       원가·시장가가 바뀌어 지금 값은 다르다. 화면 문구는 offers.판단_근거 에서 매번 계산한다.
 #   무료배송은 2개 주문 배송비가 이미 원가에 포함돼 있어 추가 부담이 없다.
 BUNDLE_SIZE = 2
 BUNDLE_DISCOUNT = 0.15
@@ -697,6 +697,12 @@ def main() -> int:
 
     single = offer(1, 0.0)
     bundle = offer(BUNDLE_SIZE, BUNDLE_DISCOUNT)
+    # 2026-10-16: 판단_근거가 고정 문자열이었다("20%면 36.7%", "15%면 마진 40%·순익 2.2배").
+    # 같은 카드에 계산값(세트 마진 59.1%, 순익 1.9배)이 나란히 떠서 서로 달랐다.
+    # 비교용 20% 세트도 같은 offer() 로 계산해 문장에 넣는다.
+    bundle_deeper = offer(BUNDLE_SIZE, BUNDLE_DISCOUNT + 0.05)
+    bundle_ratio = (round(bundle["net_profit_usd"] / single["net_profit_usd"], 1)
+                    if single["net_profit_usd"] > 0 else None)
     single_each = per_product(1, 0.0)
     bundle_each = per_product(BUNDLE_SIZE, BUNDLE_DISCOUNT)
 
@@ -756,13 +762,13 @@ def main() -> int:
             "single": single,
             "bundle": bundle,
             "free_shipping_min_qty": FREE_SHIP_MIN_QTY,
-            "bundle_vs_single": (round(bundle["net_profit_usd"] / single["net_profit_usd"], 1)
-                                 if single["net_profit_usd"] > 0 else None),
+            "bundle_vs_single": bundle_ratio,
             "판단_근거": (
-                f"{BUNDLE_DISCOUNT:.0%} 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 없고, "
-                "20%면 마진이 36.7%로 떨어져 반품·파손 완충이 사라진다. "
-                "15%면 마진 40%를 지키면서 단품 대비 순익 2.2배다. "
-                "무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다."),
+                f"{BUNDLE_DISCOUNT:.0%} 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 작다는 판단이다. "
+                f"계산값으로 {BUNDLE_DISCOUNT + 0.05:.0%}면 세트 마진 {bundle_deeper['margin_pct']}%, "
+                f"{BUNDLE_DISCOUNT:.0%}면 {bundle['margin_pct']}%이고 "
+                f"단품 대비 순익은 {bundle_ratio}배다. "
+                f"무료배송은 {BUNDLE_SIZE}개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다."),
             "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)",
         },
         "scenarios": scenarios,

@@ -268,6 +268,37 @@ def form_compatible(a: str, b: str) -> bool:
     return any(a in g and b in g for g in FORM_EQUIV)
 
 
+def provenanced_channels(dashboard: dict) -> dict:
+    """수집 시각이 있는 채널만 매칭 근거로 넘긴다.
+
+    2026-10-16 실측: S등급 8개 중 4개가 tiktok_shop_us 행과 매칭돼 있었다.
+    그 채널은 status=unverified · collected_at 없음 · 행마다 원본 URL 없음이고,
+    data/tiktok_shop.json(2026-09-02) 의 조회수(2.4M·1.8M…)를 만든 수집기가 저장소에 없다.
+    가중치는 1.0 으로 전 채널 최고였다. 출처를 확인할 수 없는 행이 등급을 올리고 있었다.
+    build_daiso_candidate_comparison.py 는 이미 같은 채널을 'unverified_or_stale_source' 로
+    빼고 있어서 두 경로의 판단이 달랐다. 여기서도 같은 기준으로 뺀다.
+    낡았지만(stale) 수집 시각이 있는 실수집 채널은 그대로 쓴다. 오래된 것과 출처 없는 것은 다르다.
+    """
+    gc = dashboard.get("global_channels") or {}
+    st = dashboard.get("global_channels_status") or {}
+    if not isinstance(gc, dict):
+        return {}
+    if not st:
+        # 상태표가 없는 구버전 런타임은 판정할 근거가 없다. 조용히 다 빼면 점수가 0 이 되고
+        # 조용히 다 쓰면 위 문제가 그대로다. 그대로 쓰되 로그에 남긴다.
+        print("  [경고] global_channels_status 없음 - 채널 출처 검사 생략")
+        return gc
+    kept = {}
+    for channel, items in gc.items():
+        meta = st.get(channel) or {}
+        status = str(meta.get("status") or "").lower()
+        if status in ("unverified", "disabled") or not meta.get("collected_at"):
+            print(f"  [제외] {channel}: status={status or '-'} collected_at={meta.get('collected_at') or '없음'}")
+            continue
+        kept[channel] = items
+    return kept
+
+
 def extract_signals(global_channels: dict) -> list[dict]:
     signals = []
     if not isinstance(global_channels, dict):
@@ -831,7 +862,7 @@ def main() -> int:
             img_by_name[(p.get("name") or "").strip()] = p["image_url"]
 
     dashboard = load_json(DASHBOARD, {}) or {}
-    signals = extract_signals(dashboard.get("global_channels") or {})
+    signals = extract_signals(provenanced_channels(dashboard))
     scored = [score_one(p, signals) for p in products]
     for s in scored:
         s["canonical_product_id"] = cp_registry.get(str(s.get("pd_no") or ""))

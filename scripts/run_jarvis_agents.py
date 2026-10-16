@@ -46,6 +46,21 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def short_detail(text: str, limit: int = 180) -> str:
+    """대시보드 제안 카드용 요약.
+
+    2026-10-16: act[:180] 이 URL 한가운데를 잘라 'https://www.daisomall.co.kr/pd/pdr/S' 같은
+    깨진 링크가 공개 화면에 나갔다. URL 은 빼고(원문은 refs 의 런타임에 있다) 단어 경계에서 자른다.
+    """
+    import re
+    t = re.sub(r"https?://\S+", "", str(text or ""))
+    t = re.sub(r"\s{2,}", " ", t).strip()
+    if len(t) <= limit:
+        return t
+    cut = t[:limit].rsplit(" ", 1)[0]
+    return (cut or t[:limit]).rstrip(" ,·/") + "…"
+
+
 def channel_live_count(runtime: dict) -> tuple[int, int, list[dict]]:
     st = runtime.get("global_channels_status") or {}
     gc = runtime.get("global_channels") or {}
@@ -65,11 +80,15 @@ def channel_live_count(runtime: dict) -> tuple[int, int, list[dict]]:
         active.append(k)
         if status == "failed":
             continue
-        if int(n or 0) > 0:
+        # 2026-10-16: count>0 이면 라이브로 셌다. 13~31일 지난 채널까지 '13/14 라이브' 가 됐고
+        # 채널 운영팀 카드 '가동 0/15'(status==ok) 와 어긋났다. 라이브 = status ok 로 맞춘다.
+        # 상태표가 없는 구버전 런타임만 예전처럼 건수로 판단한다.
+        if int(n or 0) > 0 and (status == "ok" or not st):
             live.append(k)
         # stale hint
         src = meta.get("source") or meta.get("note") or ""
-        if "수동" in str(src) or "fallback" in str(src).lower() or status == "empty":
+        if ("수동" in str(src) or "fallback" in str(src).lower()
+                or status in ("empty", "stale", "unverified")):
             stale.append({"channel": k, "count": n, "status": status or "unknown", "note": str(src)[:120]})
     return len(live), len(active), stale
 
@@ -275,7 +294,7 @@ def agent_ops(collector: dict, signal: dict, score: dict, listing: dict, runtime
             tasks.append({
                 "priority": 4,
                 "title": f"팀 자동조치 감시 · {t.get('name') or t.get('id')}",
-                "detail": act[:180],
+                "detail": short_detail(act),
                 "refs": ["data/dashboard_runtime.json", "data/agents/remediation_state.json"],
                 "approve": "비서실장: 다음 주기 재검증",
             })
@@ -284,7 +303,7 @@ def agent_ops(collector: dict, signal: dict, score: dict, listing: dict, runtime
             tasks.append({
                 "priority": 5,
                 "title": f"팀 대기 · {t.get('name') or t.get('id')}",
-                "detail": waiting[:180],
+                "detail": short_detail(waiting),
                 "refs": ["data/dashboard_runtime.json", "data/agents/remediation_state.json"],
                 "approve": ("사람: 한 번만 승인·원본 정보 제공" if kind == "human_approval_required"
                             else "외부 조건 충족 시 비서실장이 자동 재검증"),
