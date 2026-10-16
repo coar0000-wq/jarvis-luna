@@ -1,6 +1,6 @@
 {
   "제목": "미국 화장품 표현 규칙",
-  "왜": "미국에는 기능성화장품 제도가 없다. 미백·주름개선처럼 신체 구조나 기능을 바꾼다고 주장하면 그 순간 화장품이 아니라 의약품(drug)으로 분류된다. 승인 없이 팔면 미승인 신약이 된다. 그래서 애초에 쓰지 않는다.",
+  "왜": "화장품의 치료·예방·신체 구조 또는 기능 변화 주장은 의약품 분류 문제를 일으킬 수 있다. 단어만으로 일률 판정하지 않으며 아래 목록은 FDA 공식 금칙어 목록이 아닌 보수적인 사내 문구 점검 규칙이다.",
   "적용": "카피 생성 프롬프트에 넣고, 생성 결과에서 다시 검사한다. 걸리면 경고가 아니라 그 항목을 버린다. 스토어에 올라가지 않는다.",
   "면책": "법률 자문이 아니다. 판매 위험을 줄이기 위한 사내 표기 기준이다.",
   "표현과_증빙_분리": "오너 2026-10-13 지시: 사용 용어를 보수적으로 처리한다. 허용 문구도 실제 제품 자료가 뒷받침해야 하며 문구 검사를 통과해도 제조사 안전성·실제 라벨·INCI·필수 경고 증빙이 자동 완료되는 것은 아니다. 증빙이 없는 효능 주장은 만들지 않는다.",
@@ -68,6 +68,12 @@
       "total sun block",
       "all-day protection",
       "waterproof"
+    ],
+    "허위 FDA 승인 주장": [
+      "fda approved",
+      "fda-approved",
+      "fda certified",
+      "fda-certified"
     ]
   },
   "safe_alternatives": {
@@ -92,5 +98,12 @@
     "for a dewy finish",
     "helps skin feel"
   ],
-  "출처_메모": "미국은 화장품과 의약품을 '의도된 용도' 로 나눈다. 구조·기능을 바꾼다는 주장을 하면 의약품이 된다는 것이 핵심이고, 위 목록은 그 기준으로 실무에서 피하는 표현을 모은 것이다."
+  "출처_메모": "미국은 화장품과 의약품을 '의도된 용도' 로 나눈다. 구조·기능을 바꾼다는 주장을 하면 의약품이 된다는 것이 핵심이고, 위 목록은 그 기준으로 실무에서 피하는 표현을 모은 것이다.",
+  "review_scope": "fda_cosmetic_wording_only",
+  "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+  "wording_pass_is_overall_legal_clearance": false,
+  "official_sources": [
+    "https://www.fda.gov/cosmetics/cosmetics-labeling/cosmetics-labeling-claims",
+    "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/it-cosmetic-drug-or-both-or-it-soap"
+  ]
 }

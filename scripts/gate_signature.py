@@ -83,6 +83,7 @@ def agent_input_signature(recommendations: list[dict]) -> dict[str, Any]:
              DATA / "legal_full.json", DATA / "mocra_readiness.json",
              DATA / "manual" / "legal_rp_status.json",
              DATA / "manual" / "mocra_business.json",
+             DATA / "manual" / "owner_draft_approvals.json", DATA / "us_claim_rules.json",
              DATA / "manual" / "official_label_text.json", COMMERCE_STRATEGY]
     hashes = {}
     for source in paths:

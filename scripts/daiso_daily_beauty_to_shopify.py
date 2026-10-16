@@ -63,6 +63,7 @@ UA = "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)"
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import manufacturer_safety  # noqa: E402
+import owner_draft_approval  # noqa: E402
 import pricing_model  # noqa: E402
 
 STRATEGY = pricing_model.load_commerce_strategy()
@@ -1333,6 +1334,10 @@ def pick(cat, shop, names, ids, reg, rows=None, excluded=None):
 SAFETY_MISSING = manufacturer_safety.SAFETY_MISSING
 
 
+def owner_approved_draft(pd_no):
+    return owner_draft_approval.approved(pd_no, ROOT)
+
+
 def manufacturer_safety_record(pd_no):
     """제품별 제조사 안전성 입증 자료(MoCRA) 확인. 안전 게이트이며 마진과 무관하다.
 
@@ -1649,9 +1654,9 @@ def main():
                                     "grade_required": grade_label(cat), "s_candidates": len(rows),
                                     "price_excluded": price_excluded, "safety_excluded": safety_excluded})
                     break
-                # 안전 게이트(마진과 무관): 이 상품의 제조사 안전성 자료가 확인되지 않으면 만들지도 게시하지도 않고 다음 후보로 간다.
+                # The owner may approve a non-public draft, never safety coverage or publication.
                 safety = manufacturer_safety_record(p["pdNo"])
-                if not safety["covered"]:
+                if not safety["covered"] and not owner_approved_draft(p["pdNo"]):
                     log(f"  excluded (safety): {p['pdNo']} {clean_name(p['pdNm'])} -> {safety['reason']}")
                     excluded.add(str(p["pdNo"]))
                     safety_excluded.append({"pd_no": str(p["pdNo"]), "reason": safety["reason"]})
@@ -1684,6 +1689,8 @@ def main():
             html = TAGLINE_HTML + html + label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
             reasons = list(label["reasons"])
+            if not safety["covered"]:
+                reasons.append("safety_evidence_unverified_owner_draft_only")
             public_gate = canonical_public_gate(p["pdNo"])
             reasons.extend(public_gate["reasons"])
             # 용량 교차 검증: 다이소 상품명 / 고시 / 영문 제목 이 서로 맞아야 한다
@@ -1767,11 +1774,18 @@ def main():
             else:
                 # Re-read the entire catalogue just before writing; the daily cap and duplicate checks are unconditional.
                 safety = manufacturer_safety_record(p["pdNo"])
-                if not safety["covered"]:
+                draft_approved = owner_approved_draft(p["pdNo"])
+                if not safety["covered"] and not draft_approved:
                     rec["status"] = "blocked_manufacturer_safety_record_missing"
                     rec["safety_record"] = safety
                     results.append(rec)
                     continue
+                if not safety["covered"]:
+                    if "safety_evidence_unverified_owner_draft_only" not in reasons:
+                        reasons.append("safety_evidence_unverified_owner_draft_only")
+                    item["status"] = "DRAFT"
+                    rec["owner_approved_nonpublic_draft"] = True
+                    rec["safety_record"] = safety
                 names, ids = shop_keys(shop.existing_products())
                 if already_registered(p, reg, names, ids, title) or shop.exists(p["pdNo"]):
                     rec["status"] = "skipped_duplicate_at_create"

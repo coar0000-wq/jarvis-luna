@@ -90,7 +90,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-16T02:58:22.081815+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.981876+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -98,7 +98,16 @@
       "effective_legal_pass": true,
       "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
       "reviewed_at": "2026-10-11T09:30:00+09:00",
-      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보.",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     },
     "1055167": {
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
@@ -137,7 +146,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-16T02:58:22.082295+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.983246+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -145,7 +154,16 @@
       "effective_legal_pass": true,
       "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
       "reviewed_at": "2026-10-11T09:30:00+09:00",
-      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보.",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     },
     "1067498": {
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
@@ -184,7 +202,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-16T02:58:22.082589+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.984216+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -192,7 +210,16 @@
       "effective_legal_pass": true,
       "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
       "reviewed_at": "2026-10-11T09:30:00+09:00",
-      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보."
+      "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보.",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     },
     "1049275": {
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
@@ -237,12 +264,21 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-16T02:58:22.081516+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.981104+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000106",
-      "effective_legal_pass": false
+      "effective_legal_pass": false,
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     },
     "1053482": {
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
@@ -287,12 +323,21 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-16T02:58:22.082060+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.982566+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000125",
-      "effective_legal_pass": false
+      "effective_legal_pass": false,
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     },
     "1068721": {
       "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
@@ -339,10 +384,19 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-16T02:58:22.082602+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.984718+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     },
     "1068733": {
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
@@ -389,10 +443,19 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-16T02:58:22.082614+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.985211+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     },
     "1074979": {
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
@@ -439,10 +502,19 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-16T02:58:22.082627+00:00",
+      "auto_checked_at": "2026-10-16T04:09:06.985706+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)"
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": true
+      }
     }
   },
   "auto_summary": {
@@ -452,7 +524,7 @@
     "pass": 3,
     "out_of_scope": 25
   },
-  "auto_checked_at": "2026-10-16T02:58:22.082632+00:00",
+  "auto_checked_at": "2026-10-16T04:09:06.985723+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",

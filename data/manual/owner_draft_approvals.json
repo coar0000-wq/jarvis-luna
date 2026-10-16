@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-16T04:05:34.860Z",
+  "source": "owner_conversation",
+  "conversation_session": "bjU7Kty7hiBdi3UQ",
+  "requested": "FDA 에서 사용금지 하는 단어 용어만 법률검토해, 모두 승인으로 바꿔",
+  "scope": "nonpublic_draft_only",
+  "requested_review_scope": "fda_cosmetic_wording_only",
+  "public_sale_authorized": false,
+  "safety_evidence_verified": false,
+  "fda_approval": false,
+  "note": "사업주 승인과 실물 안전성 증빙을 분리한다. 비공개 초안만 허용하며 기존 공개판매·실제 라벨·가격·중복·사업주 삭제 이력 검증은 유지한다. 미확인 자료를 검증 완료로 만들지 않는다.",
+  "items": {
+    "1049275": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    },
+    "1049276": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    },
+    "1053482": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    },
+    "1055167": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    },
+    "1067498": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    },
+    "1068721": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    },
+    "1068733": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    },
+    "1074979": {
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true
+    }
+  }
+}

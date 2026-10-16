@@ -20,6 +20,7 @@ from typing import Any
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import owner_draft_approval
 from sync_gosi_to_us_labels import current_s_registry, rows_by_id, real, field_current
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -113,6 +114,17 @@ def us_requirements(label: dict, pd_no: str) -> dict:
         "responsible_person": {"ok": bool(rp_ok), "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"},
         "manufacturer_product_safety": {"ok": bool(safety_ok), "detail": "Product-specific manufacturer safety evidence with human approval required"},
     }
+
+
+def review_wording(text: str, banned: list[str]) -> dict:
+    hits = sorted({term for term in banned
+                   if re.search(r'(?<!\w)' + re.escape(term) + r'(?!\w)', text, re.I)})
+    return {"scope": "fda_cosmetic_wording_only",
+            "status": ("NOT_REVIEWED_NO_COPY" if not text.strip()
+                       else "FLAGGED_FOR_REVIEW" if hits else "NO_RULE_HITS"),
+            "flagged_terms": hits,
+            "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+            "safety_approval": False, "overall_legal_clearance": False}
 
 
 def main() -> int:
@@ -235,7 +247,10 @@ def main() -> int:
             as_text(tag) for tag in (copy.get("tags") or [])
         )
 
-        claim_hits = sorted({term for term in banned if term in text_blob.lower()})
+        # A wording screen is not product safety, FDA approval, or overall legal clearance.
+        row["claims_review"] = review_wording(text_blob, banned)
+        row["claims_review"]["owner_approved_nonpublic_draft"] = owner_draft_approval.approved(pd_no, ROOT)
+        claim_hits = row["claims_review"]["flagged_terms"]
         product_blob = " ".join(
             as_text(value)
             for value in (

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:58:21.944119+00:00",
+  "generated_at": "2026-10-16T04:09:06.812431+00:00",
   "exchange_rate": {
     "usd_to_krw": 1339.81,
     "as_of": "2026-10-15",
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -149,7 +149,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -254,7 +254,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -359,7 +359,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -513,7 +513,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -563,7 +563,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -664,7 +664,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -765,7 +765,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 14.14,
+            "age_days": 14.19,
             "volume_status": "match"
           }
         },
@@ -933,7 +933,7 @@
       "price_usd": 38.99,
       "unit_price_usd": 19.5,
       "landed_cost_total_usd": 15.16,
-      "shipping_in_cost_usd": 7.86,
+      "shipping_in_cost_usd": 7.87,
       "fee_usd": 0.78,
       "net_profit_usd": 23.05,
       "margin_pct": 59.1,

@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-16T02:58:22.618850+00:00",
+  "generated_at": "2026-10-16T04:09:08.042047+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -8,8 +8,8 @@
       "data/product_master.json": "98f25f9277862046d95542c5d2485e5aacdaf0256a87dc0a449507971bf45007",
       "data/gosi.json": "9957b715738857ece0929e82a179e94fb54bf1ce3527ccac08895cbbf14204ae",
       "data/daiso_real/daiso_us_labels.json": "9340df7b506bad258376546d9ea255ceb46f19303b10f053f96ff5903dc8b4e4",
-      "data/pricing_model.json": "fa756e2ec86caa9d3b755767195dbbb8f5ccd729c482bdeae53bac8508cd9507",
-      "data/legal_products.json": "e85136a62769040ad3cb1a7936aba12e1ad923c748514d537942ee35ff1ea508",
+      "data/pricing_model.json": "ba7c36e12dbdf59129e1cbc7ecda86e14fa897392a2b9f41f1d9ac311a8a8f00",
+      "data/legal_products.json": "bfc479af986c509ccc289676066941295bf57b6e6abec5df36d60d6bb8f7c6a4",
       "data/daiso_real/shopify_s_recommendations.json": "e3467be114fa6657ffa081238b5030c8e264f9e0a64813667c708d0a9c8a4351",
       "data/shopify_listing_copy.json": "2437b6addd34c2a38a5c334e4f92031ce1e4d5a7e9af9165013f51c73c135c60",
       "data/shopify_shortlist.json": "9ede6f0772598b1e01c8f00f8f2106768c9ae54323de739ddd1a92d364982b1c",
@@ -17,6 +17,8 @@
       "data/mocra_readiness.json": "c4a52fdb825d0f7b6e39fb9dd59983aae145c0c20944343a3d03c539e520c2e8",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
       "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
+      "data/manual/owner_draft_approvals.json": "cad4ede9440c1c7176f87b2fc79216884c3f2ca89fd50d962f46ae8be926a9ec",
+      "data/us_claim_rules.json": "d0ea3f50a5601b9e7e6ebc17cc931b7f89735c12223d6fe6463169c942456732",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
       "config/daiso_commerce_strategy.json": "beba67eaf6f383bc10cd709d03e9540cbe1c861af149bd850063367ae68855c2",
       "masked/manufacturer_safety_record": "571d55f781ea49448707b7c6439f551c52b746b067ce3358292bdbbc088d6358",

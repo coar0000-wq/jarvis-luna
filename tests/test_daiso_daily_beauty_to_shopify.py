@@ -15,6 +15,7 @@ spec = importlib.util.spec_from_file_location("daily", SCRIPT)
 daily = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(daily)
 from test_manufacturer_safety import synthetic_receipt
+from test_owner_draft_approval import decision_document
 REAL_SAFETY = daily.manufacturer_safety_record  # setUp 은 기본으로 '덮임' 으로 대체한다. 실제 함수는 이 참조로 검증한다.
 SAFETY_COVERED = {"pd_no": "123", "covered": True, "reason": None}
 
@@ -881,6 +882,48 @@ class DailySafetyTests(unittest.TestCase):
     # ------------------------------------------------------------------
     # 제조사 안전성 기록 게이트 (안전 게이트, 마진과 무관)
     # ------------------------------------------------------------------
+    def test_owner_approved_missing_safety_creates_only_nonpublic_draft(self):
+        pricing = {"single": {"price_usd": 14.99, "margin_pct": 30},
+                   "pack": {"ok": True, "price_usd": 25.99, "margin_pct": 30,
+                            "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {},
+                   "evidence": dict(EVIDENCE_OK)}
+        files = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": []}},
+                 "owner_draft_approvals.json": decision_document()}
+        code, result, registry, shop = self._run_main(
+            pricing, lambda candidate: [candidate], safety_files=files)
+        self.assertEqual(code, 0)
+        row = result["results"][0]
+        self.assertEqual(row["status"], "created_draft")
+        self.assertTrue(row["owner_approved_nonpublic_draft"])
+        self.assertFalse(row["safety_record"]["covered"])
+        self.assertIn("safety_evidence_unverified_owner_draft_only", row["draft_reasons"])
+        self.assertEqual(registry["items"][0]["status"], "DRAFT")
+        self.assertEqual(shop.create.call_args.args[0]["status"], "DRAFT")
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+        shop.publish_channels.assert_not_called()
+
+    def test_owner_draft_approval_revoked_before_create_blocks_write(self):
+        pricing = {"single": {"price_usd": 14.99, "margin_pct": 30},
+                   "pack": {"ok": True, "price_usd": 25.99, "margin_pct": 30,
+                            "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {},
+                   "evidence": dict(EVIDENCE_OK)}
+        missing = {"covered": False, "reason": "manufacturer_safety_record_missing:test"}
+        with patch.object(daily, "owner_approved_draft", side_effect=[True, False]):
+            code, result, registry, shop = self._run_main(
+                pricing, lambda candidate: [candidate], safety=lambda pd: dict(missing))
+        self.assertEqual(code, 0)
+        self.assertEqual(result["results"][0]["status"], "blocked_manufacturer_safety_record_missing")
+        self.assertEqual(registry["items"], [])
+        shop.create.assert_not_called()
+        shop.publish.assert_not_called()
+
+    def test_owner_draft_approval_never_recreates_owner_deleted_identity(self):
+        with patch.object(daily, "owner_approved_draft", return_value=True):
+            self.assertTrue(daily.already_registered(
+                {"pdNo": "1049275", "pdNm": "Deleted owner product"},
+                {"items": [{"pd_no": "1049275", "status": "deleted_by_owner"}]}, set(), set()))
+
     def _profile_root(self, folder, public=None, private=None, labels=None, synthetic_pd_no=None):
         root = Path(folder)
         manual = root/"data/manual"

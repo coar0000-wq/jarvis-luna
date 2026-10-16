@@ -8,6 +8,30 @@
   "owner_statement_is_safety_substantiation": false,
   "missing_evidence_remains_missing": true,
   "source": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra",
-  "implementation": ["data/us_claim_rules.json", "scripts/build_listing_copy_local.py", "scripts/check_legal_products.py", "scripts/manufacturer_safety.py"],
-  "note": "특정 신규 시험이나 제3자 인증만 필수인 것은 아니나 제품별 충분한 안전성 근거 기록은 실제 존재해야 한다. 문구 점검과 안전성 증빙은 별개다."
+  "implementation": [
+    "data/us_claim_rules.json",
+    "scripts/build_listing_copy_local.py",
+    "scripts/check_legal_products.py",
+    "scripts/manufacturer_safety.py"
+  ],
+  "note": "특정 신규 시험이나 제3자 인증만 필수인 것은 아니나 제품별 충분한 안전성 근거 기록은 실제 존재해야 한다. 문구 점검과 안전성 증빙은 별개다.",
+  "owner_updates": [
+    {
+      "recorded_at": "2026-10-16T04:05:34.860Z",
+      "request": "FDA 에서 사용금지 하는 단어 용어만 법률검토해, 모두 승인으로 바꿔",
+      "owner_approved_pd_nos": [
+        "1049276",
+        "1055167",
+        "1049275",
+        "1067498",
+        "1068721",
+        "1053482",
+        "1074979",
+        "1068733"
+      ],
+      "implemented_scope": "nonpublic_draft_only; separate FDA wording screen",
+      "safety_verification_granted": false,
+      "public_sale_authorization_granted": false
+    }
+  ]
 }
