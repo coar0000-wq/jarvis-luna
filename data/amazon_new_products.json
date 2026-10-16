@@ -6,154 +6,154 @@
   "assist_at": "",
   "source_url": "https://www.amazon.com/gp/new-releases/beauty/",
   "robots_note": "/gp/new-releases/ 허용 (2026-09-28 확인)",
-  "collected_at": "2026-10-15T23:16:31.316728+00:00",
+  "collected_at": "2026-10-16T23:00:55.553116+00:00",
   "count": 46,
   "reason": "",
   "is_stale": false,
   "stale_from": "",
   "skipped_sponsored": 0,
   "price_stats": {
-    "n": 46,
+    "n": 44,
     "min": 1.87,
-    "p25": 8.99,
+    "p25": 9.39,
     "median": 14.99,
     "max": 119.99
   },
   "products": [
     {
       "rank": 1,
+      "name": "Tree Hut Pumpkin Roll Body Scrub, Fall Scented Body Care, 18 Oz | Exfoliating & Nourishing Sugar Scrub with Shea Butter, Body Exfoliator for All Skin Types, Self Care Gifts for Women",
+      "asin": "B0GZJ52XVM",
+      "price_usd": 4.99,
+      "rating": 4.8,
+      "review_count": 90,
+      "url": "https://www.amazon.com/Tree-Hut-Exfoliating-Nourishing-Exfoliator/dp/B0GZJ52XVM/ref=zg_bsnr_g_beauty_d_sccl_1/130-8700738-2514302"
+    },
+    {
+      "rank": 2,
       "name": "Olay Super Serum Hand & Body Lotion, Luminous & Resilient Skin, 17 fl oz | 24HR Moisture for Women | Fast Absorbing 5+ Ingredient Complex for Bright, Even, Firm Skin | Sweet Vanilla & Soft Woods Scent",
       "asin": "B0H2FR3KH1",
       "price_usd": 14.97,
       "rating": 4.6,
-      "review_count": 17121,
-      "url": "https://www.amazon.com/Olay-Super-Lotion-Luminous-Resilient/dp/B0H2FR3KH1/ref=zg_bsnr_g_beauty_d_sccl_1/130-3000152-3370227"
+      "review_count": 17168,
+      "url": "https://www.amazon.com/Olay-Luminous-Resilient-Absorbing-Ingredient/dp/B0H2FR3KH1/ref=zg_bsnr_g_beauty_d_sccl_2/130-8700738-2514302"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Tree Hut Pumpkin Roll Fall Scented Body Wash, 18 Fl Oz | Nourishing & Moisturizing Shower Gel w/ Shea Butter & Essential Oils, Soft & Smooth Skin, Gentle Cleanser For All Skin Types",
       "asin": "B0GZJ9RQPK",
       "price_usd": 9.39,
       "rating": 4.6,
-      "review_count": 15222,
-      "url": "https://www.amazon.com/Tree-Hut-Pumpkin-Roll-Scented/dp/B0GZJ9RQPK/ref=zg_bsnr_g_beauty_d_sccl_2/130-3000152-3370227"
-    },
-    {
-      "rank": 3,
-      "name": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-      "asin": "B0G48T5CM2",
-      "price_usd": 27.99,
-      "rating": 4.4,
-      "review_count": 1458,
-      "url": "https://www.amazon.com/Centellian24-Shot-PDRN-Firming-Cream/dp/B0G48T5CM2/ref=zg_bsnr_g_beauty_d_sccl_3/130-3000152-3370227"
+      "review_count": 15203,
+      "url": "https://www.amazon.com/Tree-Hut-Nourishing-Moisturizing-Essential/dp/B0GZJ9RQPK/ref=zg_bsnr_g_beauty_d_sccl_3/130-8700738-2514302"
     },
     {
       "rank": 4,
-      "name": "JCFIRE 96 Spooky Glow Temporary Tattoos for Kids, Halloween Party Favors | 96 unique pre-cut spooky tattoos; 8 sheets x 12; glow after light exposure; waterproof 3-5 days; for costumes and party fun",
-      "asin": "B0H9CN15XD",
-      "price_usd": 8.99,
-      "rating": 4.7,
-      "review_count": 1709,
-      "url": "https://www.amazon.com/JCFIRE-Temporary-Halloween-exposure-waterproof/dp/B0H9CN15XD/ref=zg_bsnr_g_beauty_d_sccl_4/130-3000152-3370227"
-    },
-    {
-      "rank": 5,
       "name": "Neutrogena Ultra Sheer Daily Face Sunscreen SPF 70 with BEMT, 1.4 Fl. Oz | Lightweight Next-Gen Face Sunscreen with Cloud-Tech, Micro-Peptides, No White Cast, Invisible Finish & Cloud-Like Feel",
       "asin": "B0H4278QK5",
       "price_usd": 16.97,
-      "rating": 3.9,
-      "review_count": 81,
-      "url": "https://www.amazon.com/Neutrogena-Lightweight-Cloud-Tech-Micro-Peptides-Cloud-Like/dp/B0H4278QK5/ref=zg_bsnr_g_beauty_d_sccl_5/130-3000152-3370227"
+      "rating": 4,
+      "review_count": 84,
+      "url": "https://www.amazon.com/Neutrogena-Lightweight-Cloud-Tech-Micro-Peptides-Cloud-Like/dp/B0H4278QK5/ref=zg_bsnr_g_beauty_d_sccl_4/130-8700738-2514302"
+    },
+    {
+      "rank": 5,
+      "name": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
+      "asin": "B0G48T5CM2",
+      "price_usd": 27.95,
+      "rating": 4.4,
+      "review_count": 1471,
+      "url": "https://www.amazon.com/CENTELLIAN-24-Wrinkles-Puffiness-Refreshed-Looking/dp/B0G48T5CM2/ref=zg_bsnr_g_beauty_d_sccl_5/130-8700738-2514302"
     },
     {
       "rank": 6,
-      "name": "The Ordinary Lacto-PDRN 4% + B9 Eye Cream, Nourishing Cream to Firm and Hydrate the Eye Area",
-      "asin": "B0H3MJYF35",
-      "price_usd": 9.5,
-      "rating": 4,
-      "review_count": 29,
-      "url": "https://www.amazon.com/Ordinary-Lacto-PDRN-Cream-Nourishing-Hydrate/dp/B0H3MJYF35/ref=zg_bsnr_g_beauty_d_sccl_6/130-3000152-3370227"
+      "name": "JCFIRE 96 Spooky Glow Temporary Tattoos for Kids, Halloween Party Favors | 96 unique pre-cut spooky tattoos; 8 sheets x 12; glow after light exposure; waterproof 3-5 days; for costumes and party fun",
+      "asin": "B0H9CN15XD",
+      "price_usd": 9.49,
+      "rating": 4.7,
+      "review_count": 1714,
+      "url": "https://www.amazon.com/JCFIRE-Temporary-Halloween-exposure-waterproof/dp/B0H9CN15XD/ref=zg_bsnr_g_beauty_d_sccl_6/130-8700738-2514302"
     },
     {
       "rank": 7,
+      "name": "The Ordinary Lacto-PDRN 4% + B9 Eye Cream, Nourishing Cream to Firm and Hydrate the Eye Area",
+      "asin": "B0H3MJYF35",
+      "price_usd": 9.5,
+      "rating": 4.1,
+      "review_count": 32,
+      "url": "https://www.amazon.com/Ordinary-Lacto-PDRN-Cream-Nourishing-Hydrate/dp/B0H3MJYF35/ref=zg_bsnr_g_beauty_d_sccl_7/130-8700738-2514302"
+    },
+    {
+      "rank": 8,
       "name": "Heyhae Semi Cured Gel Nail Strips - Hey, Berry First Kiss | Wine Jelly | Sun Cured No UV Light Needed, Salon Quality, Easy Apply & Remove | 28 Strips, Prep Pad, Nail File, Wooden Stick",
       "asin": "B0HCX7CDRN",
       "price_usd": 9.99,
       "rating": 4,
-      "review_count": 3124,
-      "url": "https://www.amazon.com/Heyhae-Semi-Cured-Nail-Strips/dp/B0HCX7CDRN/ref=zg_bsnr_g_beauty_d_sccl_7/130-3000152-3370227"
+      "review_count": 2973,
+      "url": "https://www.amazon.com/Heyhae-Semi-Cured-Nail-Strips/dp/B0HCX7CDRN/ref=zg_bsnr_g_beauty_d_sccl_8/130-8700738-2514302"
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "name": "Pantene Deep Nourishing Cream to Mist Leave In Spray, Co-Created with Abbey Yung, Heat Protectant & Detangler Spray for Hair. 5 fl oz",
+      "asin": "B0HFM6BJJ7",
+      "price_usd": 14.99,
+      "rating": 4.5,
+      "review_count": 74,
+      "url": "https://www.amazon.com/Pantene-Nourishing-Co-Created-Protectant-Detangler/dp/B0HFM6BJJ7/ref=zg_bsnr_g_beauty_d_sccl_9/130-8700738-2514302"
+    },
+    {
+      "rank": 10,
       "name": "Olay Super Body Oil for Women 5-in-1 Oil + Serum for Luminous Skin, 4 fl oz | Complex with Jojoba Oil, Squalene Oil, Bakuchiol, Collagen Peptide, & Vitamin E | Free of Sulfates, Parabens, & Phthalates",
       "asin": "B0H5KZSPMP",
       "price_usd": 14.97,
       "rating": 4.7,
-      "review_count": 773,
-      "url": "https://www.amazon.com/Olay-Super-Women-Serum-Luminous/dp/B0H5KZSPMP/ref=zg_bsnr_g_beauty_d_sccl_8/130-3000152-3370227"
-    },
-    {
-      "rank": 9,
-      "name": "Heyhae Semi Cured Gel Nail Strips - Hey, Caught in your web | Halloween | Sun Cured No UV Light Needed, Salon Quality, Easy Apply & Remove | 28 Strips, Prep Pad, Nail File, Wooden Stick",
-      "asin": "B0HCXFTLPL",
-      "price_usd": 14.99,
-      "rating": 4.2,
-      "review_count": 1125,
-      "url": "https://www.amazon.com/Heyhae-Semi-Cured-Nail-Strips/dp/B0HCXFTLPL/ref=zg_bsnr_g_beauty_d_sccl_9/130-3000152-3370227"
-    },
-    {
-      "rank": 10,
-      "name": "Pantene Deep Nourishing Cream to Mist Leave In Spray, Co-Created with Abbey Yung, Heat Protectant & Detangler Spray for Hair. 5 fl oz",
-      "asin": "B0HFM6BJJ7",
-      "price_usd": 14.99,
-      "rating": 4.4,
-      "review_count": 71,
-      "url": "https://www.amazon.com/Pantene-Nourishing-Co-Created-Protectant-Detangler/dp/B0HFM6BJJ7/ref=zg_bsnr_g_beauty_d_sccl_10/130-3000152-3370227"
+      "review_count": 812,
+      "url": "https://www.amazon.com/Olay-Luminous-Squalene-Bakuchiol-Phthalates/dp/B0H5KZSPMP/ref=zg_bsnr_g_beauty_d_sccl_10/130-8700738-2514302"
     },
     {
       "rank": 11,
-      "name": "4 Pcs Professional Tweezers Set, Precision Tip for Eyebrows, Facial Hair, Splinter & Ingrown Hair, Gift for Men & Women Pink",
-      "asin": "B0HKLHP8L3",
-      "price_usd": 1.87,
-      "rating": 4.4,
-      "review_count": null,
-      "url": "https://www.amazon.com/Professional-Tweezers-Precision-Eyebrows-Splinter/dp/B0HKLHP8L3/ref=zg_bsnr_g_beauty_d_sccl_11/130-3000152-3370227"
+      "name": "Heyhae Semi Cured Gel Nail Strips - Hey, Caught in your web | Halloween | Sun Cured No UV Light Needed, Salon Quality, Easy Apply & Remove | 28 Strips, Prep Pad, Nail File, Wooden Stick",
+      "asin": "B0HCXFTLPL",
+      "price_usd": null,
+      "rating": 4.2,
+      "review_count": 1111,
+      "url": "https://www.amazon.com/Heyhae-Semi-Cured-Nail-Strips/dp/B0HCXFTLPL/ref=zg_bsnr_g_beauty_d_sccl_11/130-8700738-2514302"
     },
     {
       "rank": 12,
-      "name": "YGZ Beard Trimmer for Men, Electric Razor Hair Clippers for Men, Gifts | 4-in-1 Grooming Kit With Guide Combs for Beard, Body, Hair, Nose, Ear, IPX7 Waterproof, USB-C Charging, Gifts for men",
-      "asin": "B0H6W613MY",
-      "price_usd": 24.98,
-      "rating": 4.7,
-      "review_count": 44,
-      "url": "https://www.amazon.com/YGZ-Beard-Trimmer-Electric-Clippers/dp/B0H6W613MY/ref=zg_bsnr_g_beauty_d_sccl_12/130-3000152-3370227"
+      "name": "Color Changing Foundation for Mature Skin - 2 Pack | Shade-Adapting Liquid Makeup Buildable Lightweight Coverage Natural Skin-Like Finish with Niacinamide Squalane Vitamin E",
+      "asin": "B0HGKKW25X",
+      "price_usd": null,
+      "rating": 4.3,
+      "review_count": 2461,
+      "url": "https://www.amazon.com/Color-Changing-Foundation-Mature-Skin/dp/B0HGKKW25X/ref=zg_bsnr_g_beauty_d_sccl_12/130-8700738-2514302"
     },
     {
       "rank": 13,
+      "name": "4 Pcs Professional Tweezers Set, Precision Tip for Eyebrows, Facial Hair, Splinter & Ingrown Hair, Gift for Men & Women Pink",
+      "asin": "B0HKLHP8L3",
+      "price_usd": 1.87,
+      "rating": 4.1,
+      "review_count": null,
+      "url": "https://www.amazon.com/Professional-Tweezers-Precision-Eyebrows-Splinter/dp/B0HKLHP8L3/ref=zg_bsnr_g_beauty_d_sccl_13/130-8700738-2514302"
+    },
+    {
+      "rank": 14,
+      "name": "YGZ Beard Trimmer for Men, Electric Razor Hair Clippers for Men, Gifts | 4-in-1 Grooming Kit With Guide Combs for Beard, Body, Hair, Nose, Ear, IPX7 Waterproof, USB-C Charging, Gifts for men",
+      "asin": "B0H6W613MY",
+      "price_usd": 24.98,
+      "rating": 4.8,
+      "review_count": 54,
+      "url": "https://www.amazon.com/YGZ-Electric-Clippers-Grooming-Waterproof/dp/B0H6W613MY/ref=zg_bsnr_g_beauty_d_sccl_14/130-8700738-2514302"
+    },
+    {
+      "rank": 15,
       "name": "Olay Body Wash for Women, Cozy Caramel with Maple & Vanilla Scent, 22 fl oz | 24/7 Skin-Loving Freshness & Radiant Skin | Plant-Based Cleansers, Vitamin B3 & Antioxidant | Holiday Limited Edition",
       "asin": "B0H2FW4J3B",
       "price_usd": 8.97,
       "rating": 4.6,
-      "review_count": 5470,
-      "url": "https://www.amazon.com/Olay-Skin-Loving-Freshness-Plant-Based-Antioxidant/dp/B0H2FW4J3B/ref=zg_bsnr_g_beauty_d_sccl_13/130-3000152-3370227"
-    },
-    {
-      "rank": 14,
-      "name": "Halloween Glitter Stick for Face, Body & Hair Accessories for Women Kids | Orange Purple and Black Chunky Glitter Stick for Festivals & Celebrations & Cosplay Costume Party, Halloween Makeup Glitter",
-      "asin": "B0HCZ8Z2T8",
-      "price_usd": 7.28,
-      "rating": 4.3,
-      "review_count": 29,
-      "url": "https://www.amazon.com/Halloween-Glitter-Stick-Body-Accessories/dp/B0HCZ8Z2T8/ref=zg_bsnr_g_beauty_d_sccl_14/130-3000152-3370227"
-    },
-    {
-      "rank": 15,
-      "name": "Color Changing Foundation for Mature Skin - 2 Pack | Shade-Adapting Liquid Makeup Buildable Lightweight Coverage Natural Skin-Like Finish with Niacinamide Squalane Vitamin E",
-      "asin": "B0HGKKW25X",
-      "price_usd": 20.99,
-      "rating": 4.3,
-      "review_count": 2460,
-      "url": "https://www.amazon.com/Color-Changing-Foundation-Mature-Skin/dp/B0HGKKW25X/ref=zg_bsnr_g_beauty_d_sccl_15/130-3000152-3370227"
+      "review_count": 5477,
+      "url": "https://www.amazon.com/Olay-Skin-Loving-Freshness-Plant-Based-Antioxidant/dp/B0H2FW4J3B/ref=zg_bsnr_g_beauty_d_sccl_15/130-8700738-2514302"
     },
     {
       "rank": 16,
@@ -161,8 +161,8 @@
       "asin": "B0GCQKBZMC",
       "price_usd": 6.99,
       "rating": 4.8,
-      "review_count": 795,
-      "url": "https://www.amazon.com/ChapStick-Candy-Cane-Balm-Pack/dp/B0GCQKBZMC/ref=zg_bsnr_g_beauty_d_sccl_16/130-3000152-3370227"
+      "review_count": 798,
+      "url": "https://www.amazon.com/ChapStick-Candy-Cane-Balm-Pack/dp/B0GCQKBZMC/ref=zg_bsnr_g_beauty_d_sccl_16/130-8700738-2514302"
     },
     {
       "rank": 17,
@@ -170,8 +170,8 @@
       "asin": "B0H2FRHDNN",
       "price_usd": 15.94,
       "rating": 4.6,
-      "review_count": 992,
-      "url": "https://www.amazon.com/Olay-Beauty-Women-Moisture-Butter/dp/B0H2FRHDNN/ref=zg_bsnr_g_beauty_d_sccl_17/130-3000152-3370227"
+      "review_count": 997,
+      "url": "https://www.amazon.com/Olay-Moisture-Moisturizers-Vitamin-Complex/dp/B0H2FRHDNN/ref=zg_bsnr_g_beauty_d_sccl_17/130-8700738-2514302"
     },
     {
       "rank": 18,
@@ -179,8 +179,8 @@
       "asin": "B0H2YR367R",
       "price_usd": 15.99,
       "rating": 4.4,
-      "review_count": 27511,
-      "url": "https://www.amazon.com/Magnetic-Eyelashes-Natural-Magentic-Reusable/dp/B0H2YR367R/ref=zg_bsnr_g_beauty_d_sccl_18/130-3000152-3370227"
+      "review_count": 27513,
+      "url": "https://www.amazon.com/Magnetic-Eyelashes-Applicator-Comfortable-JIMIRE/dp/B0H2YR367R/ref=zg_bsnr_g_beauty_d_sccl_18/130-8700738-2514302"
     },
     {
       "rank": 19,
@@ -188,89 +188,89 @@
       "asin": "B0H75NDJYX",
       "price_usd": 8.98,
       "rating": 4.6,
-      "review_count": 26,
-      "url": "https://www.amazon.com/Yellow-Halloween-Makeup-Water-Based-2-37Oz/dp/B0H75NDJYX/ref=zg_bsnr_g_beauty_d_sccl_19/130-3000152-3370227"
+      "review_count": 30,
+      "url": "https://www.amazon.com/Yellow-Halloween-Makeup-Water-Based-2-37Oz/dp/B0H75NDJYX/ref=zg_bsnr_g_beauty_d_sccl_19/130-8700738-2514302"
     },
     {
       "rank": 20,
-      "name": "BIODANCE Caviar PDRN Serum, Hydrating, Nourishing Facial Serum with Salmon DNA PDRN, Caviar for Elasticity, Barrier Care, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 0.50 fl.oz",
-      "asin": "B0H4G5TBGM",
-      "price_usd": 15.99,
-      "rating": 4.5,
-      "review_count": 351,
-      "url": "https://www.amazon.com/BIODANCE-Hydrating-Nourishing-Elasticity-Essentials/dp/B0H4G5TBGM/ref=zg_bsnr_g_beauty_d_sccl_20/130-3000152-3370227"
+      "name": "Clinsunate Halloween Scar Temporary Tattoos, 12 Sheets, Fake Blood Effects | Waterproof fake scar and stitch tattoos in 6 styles for Halloween makeup, zombie costumes and party looks.",
+      "asin": "B0H9D646PM",
+      "price_usd": 8.49,
+      "rating": 4.6,
+      "review_count": 87,
+      "url": "https://www.amazon.com/Clinsunate-Halloween-Temporary-Waterproof-costumes/dp/B0H9D646PM/ref=zg_bsnr_g_beauty_d_sccl_20/130-8700738-2514302"
     },
     {
       "rank": 21,
+      "name": "Dr.Melaxin Mela-C·E ZERO-FIT Invisible Ultra Thin Pimple Patches for Face, 0.013mm Post-Blemish Spot Stickers for Red Marks & Skin Tone with Vitamin C, E & Ferulic Acid, Korean Skincare, 72 Count",
+      "asin": "B0HDCJG9KY",
+      "price_usd": 23,
+      "rating": 3.6,
+      "review_count": 60,
+      "url": "https://www.amazon.com/Dr-Melaxin-ZERO-FIT-Invisible-Post-Blemish-Stickers/dp/B0HDCJG9KY/ref=zg_bsnr_g_beauty_d_sccl_21/130-8700738-2514302"
+    },
+    {
+      "rank": 22,
+      "name": "Neutrogena Clear Face Sunscreen Acne-Prone Skin SPF 60 with BEMT, 1.4 Fl Oz | Lightweight, Next-Gen Face Sunscreen powered by Cloud-Tech with Niacinamide. Non-Comedogenic, No White Cast, Cloud-Like Feel",
+      "asin": "B0H4X4X468",
+      "price_usd": 16.99,
+      "rating": 4.1,
+      "review_count": 39,
+      "url": "https://www.amazon.com/Neutrogena-Acne-Prone-Lightweight-Niacinamide-Non-Comedogenic/dp/B0H4X4X468/ref=zg_bsnr_g_beauty_d_sccl_22/130-8700738-2514302"
+    },
+    {
+      "rank": 23,
+      "name": "Halloween Glitter Stick for Face, Body & Hair Accessories for Women Kids | Orange Purple and Black Chunky Glitter Stick for Festivals & Celebrations & Cosplay Costume Party, Halloween Makeup Glitter",
+      "asin": "B0HCZ8Z2T8",
+      "price_usd": 7.28,
+      "rating": 4.3,
+      "review_count": 29,
+      "url": "https://www.amazon.com/Halloween-Glitter-Stick-Body-Accessories/dp/B0HCZ8Z2T8/ref=zg_bsnr_g_beauty_d_sccl_23/130-8700738-2514302"
+    },
+    {
+      "rank": 24,
       "name": "SHPAVVER Head Shavers for Bald Men: 5-in-1 IPX7 Waterproof Grooming Kit - 7D Floating Electric Razor With Magnetic Removable Head - Wet/Dry LED Display - Type-C Fast Charging, Black",
       "asin": "B0HGYDDD96",
       "price_usd": 65.99,
       "rating": 4.3,
-      "review_count": 8728,
-      "url": "https://www.amazon.com/SHPAVVER-Head-Shavers-Bald-Men/dp/B0HGYDDD96/ref=zg_bsnr_g_beauty_d_sccl_21/130-3000152-3370227"
+      "review_count": 8732,
+      "url": "https://www.amazon.com/SHPAVVER-Head-Shavers-Bald-Men/dp/B0HGYDDD96/ref=zg_bsnr_g_beauty_d_sccl_24/130-8700738-2514302"
     },
     {
-      "rank": 22,
-      "name": "Nighttime Magnesium Lotion with Arnica – Highly Concentrated Magnesium for Muscles & Joints – Apply to Legs or Feet Before Bed – Skin-Friendly, Large 10 oz",
-      "asin": "B0H4RHVGQS",
-      "price_usd": 17.99,
-      "rating": 3.8,
-      "review_count": 36,
-      "url": "https://www.amazon.com/Nighttime-Magnesium-Lotion-Arnica-Skin-Friendly/dp/B0H4RHVGQS/ref=zg_bsnr_g_beauty_d_sccl_22/130-3000152-3370227"
-    },
-    {
-      "rank": 23,
+      "rank": 25,
       "name": "Vzidadm 2PC Fluffy Hair Shaping Spray & Blue Fragrance Fluffy Shaping Spray | Fluffy Shaping spray, Volume Spray, Hair Spray Extra Hold for Fine, Flat, or Thinning Hair Types",
       "asin": "B0HJ8222R4",
       "price_usd": 14.99,
-      "rating": 4.5,
-      "review_count": 106,
-      "url": "https://www.amazon.com/Vzidadm-Fluffy-Shaping-Spray-Fragrance/dp/B0HJ8222R4/ref=zg_bsnr_g_beauty_d_sccl_23/130-3000152-3370227"
+      "rating": 4.4,
+      "review_count": 108,
+      "url": "https://www.amazon.com/Vzidadm-Fluffy-Shaping-Spray-Fragrance/dp/B0HJ8222R4/ref=zg_bsnr_g_beauty_d_sccl_25/130-8700738-2514302"
     },
     {
-      "rank": 24,
+      "rank": 26,
+      "name": "BIODANCE Caviar PDRN Serum, Hydrating, Nourishing Facial Serum with Salmon DNA PDRN, Caviar for Elasticity, Barrier Care, Travel Essentials & Self Care Gifts for Women, Korean Skin Care | 0.50 fl.oz",
+      "asin": "B0H4G5TBGM",
+      "price_usd": 15.99,
+      "rating": 4.5,
+      "review_count": 360,
+      "url": "https://www.amazon.com/BIODANCE-Hydrating-Nourishing-Elasticity-Essentials/dp/B0H4G5TBGM/ref=zg_bsnr_g_beauty_d_sccl_26/130-8700738-2514302"
+    },
+    {
+      "rank": 27,
+      "name": "Halloween Nail Stickers, Cute Ghost Black Cat Pumpkin Nail Art Stickers | These Cute Nail Decals Are Designed With Ghost, Black Cat, Pumpkin And Flower For Fun Halloween Nail Looks, 1 Sheet",
+      "asin": "B0HCN77SWC",
+      "price_usd": 6.59,
+      "rating": 4.4,
+      "review_count": 32,
+      "url": "https://www.amazon.com/Halloween-Stickers-Ghost-Black-Pumpkin/dp/B0HCN77SWC/ref=zg_bsnr_g_beauty_d_sccl_27/130-8700738-2514302"
+    },
+    {
+      "rank": 28,
       "name": "ROWMATE Graphene V-Line Mask Chin Up Mask V Shaped Face Mask Chin Strap for Sleeping,Jawline Shaper,Lilac,Medium",
       "asin": "B0H9RXBZDM",
       "price_usd": 9.29,
       "rating": 4.3,
-      "review_count": 472,
-      "url": "https://www.amazon.com/ROWMATE-Graphene-V-Line-Sleeping-Jawline/dp/B0H9RXBZDM/ref=zg_bsnr_g_beauty_d_sccl_24/130-3000152-3370227"
-    },
-    {
-      "rank": 25,
-      "name": "MAYBELLINE Super Stay Peel Off Lip Liner Lip Stain, Up to 24H Tattoo-Like Wear, Transfer-Proof Matte Finish, Hydrating Formula With Vitamin E, Aura (Mauve Nude)",
-      "asin": "B0GWNQ3TT4",
-      "price_usd": 9.97,
-      "rating": 3.5,
-      "review_count": 389,
-      "url": "https://www.amazon.com/MAYBELLINE-Tattoo-Like-Transfer-Proof-Hydrating-Formula/dp/B0GWNQ3TT4/ref=zg_bsnr_g_beauty_d_sccl_25/130-3000152-3370227"
-    },
-    {
-      "rank": 26,
-      "name": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
-      "asin": "B0GMPMZB3G",
-      "price_usd": 19.95,
-      "rating": 4.3,
-      "review_count": 1494,
-      "url": "https://www.amazon.com/Abib-Plumping-Peptides-Forehead-Anti-Aging/dp/B0GMPMZB3G/ref=zg_bsnr_g_beauty_d_sccl_26/130-3000152-3370227"
-    },
-    {
-      "rank": 27,
-      "name": "Clinsunate Halloween Scar Temporary Tattoos, 12 Sheets, Fake Blood Effects | Waterproof fake scar and stitch tattoos in 6 styles for Halloween makeup, zombie costumes and party looks.",
-      "asin": "B0H9D646PM",
-      "price_usd": 7.99,
-      "rating": 4.6,
-      "review_count": 86,
-      "url": "https://www.amazon.com/Clinsunate-Halloween-Temporary-Waterproof-costumes/dp/B0H9D646PM/ref=zg_bsnr_g_beauty_d_sccl_27/130-3000152-3370227"
-    },
-    {
-      "rank": 28,
-      "name": "Olay Enrich Boosting Body Oil for Women, 3-in-1 Oil + Serum Complex 4 fl oz | With Argan Oil, Roseship Oil, & Collagen Peptide | Free of Sulfates, Parabens, & Phthalates | Vanilla, Plum, & Amber Scent",
-      "asin": "B0H5KTSHN5",
-      "price_usd": 12.95,
-      "rating": 4.8,
-      "review_count": 642,
-      "url": "https://www.amazon.com/Olay-Enrich-Boosting-Women-Complex/dp/B0H5KTSHN5/ref=zg_bsnr_g_beauty_d_sccl_28/130-3000152-3370227"
+      "review_count": 476,
+      "url": "https://www.amazon.com/ROWMATE-Graphene-V-Line-Sleeping-Jawline/dp/B0H9RXBZDM/ref=zg_bsnr_g_beauty_d_sccl_28/130-8700738-2514302"
     },
     {
       "rank": 29,
@@ -278,89 +278,89 @@
       "asin": "B0HB7NVM1Q",
       "price_usd": 16.99,
       "rating": 4.9,
-      "review_count": 44,
-      "url": "https://www.amazon.com/Starface-Hydro-Star%C2%AE-Compact-Pimple-Exclusive/dp/B0HB7NVM1Q/ref=zg_bsnr_g_beauty_d_sccl_29/130-3000152-3370227"
+      "review_count": 43,
+      "url": "https://www.amazon.com/Starface-Hydro-Star%C2%AE-Compact-Pimple-Exclusive/dp/B0HB7NVM1Q/ref=zg_bsnr_g_beauty_d_sccl_29/130-8700738-2514302"
     },
     {
       "rank": 30,
-      "name": "Dr.Melaxin S-ZINC ZERO-FIT Invisible Ultra Thin Pimple Patches for Face, Acne Patches 0.013mm Clear Zit Stickers Under Makeup with Sulfur, Salicylic Acid, AHA & PHA, Korean Skincare, 72 Count",
-      "asin": "B0HDCJ7B72",
-      "price_usd": 23,
-      "rating": 3,
-      "review_count": 68,
-      "url": "https://www.amazon.com/Dr-Melaxin-ZERO-FIT-Invisible-Stickers-Salicylic/dp/B0HDCJ7B72/ref=zg_bsnr_g_beauty_d_sccl_30/130-3000152-3370227"
+      "name": "Olay Enrich Boosting Body Oil for Women, 3-in-1 Oil + Serum Complex 4 fl oz | With Argan Oil, Roseship Oil, & Collagen Peptide | Free of Sulfates, Parabens, & Phthalates | Vanilla, Plum, & Amber Scent",
+      "asin": "B0H5KTSHN5",
+      "price_usd": 12.95,
+      "rating": 4.8,
+      "review_count": 666,
+      "url": "https://www.amazon.com/Olay-Boosting-Roseship-Collagen-Phthalates/dp/B0H5KTSHN5/ref=zg_bsnr_g_beauty_d_sccl_30/130-8700738-2514302"
     },
     {
       "rank": 31,
-      "name": "Halloween Nail Stickers, Cute Ghost Black Cat Pumpkin Nail Art Stickers | These Cute Nail Decals Are Designed With Ghost, Black Cat, Pumpkin And Flower For Fun Halloween Nail Looks, 1 Sheet",
-      "asin": "B0HCN77SWC",
-      "price_usd": 6.59,
-      "rating": 4.4,
-      "review_count": 28,
-      "url": "https://www.amazon.com/Halloween-Stickers-Ghost-Black-Pumpkin/dp/B0HCN77SWC/ref=zg_bsnr_g_beauty_d_sccl_31/130-3000152-3370227"
+      "name": "2Pcs Face Love Foundation Stick,2-in-1 Color Changing Foundation Stick with Brush – Natural Finish, Buildable Coverage, Moisturizing Long-Lasting Makeup for Mature Skin & All Types",
+      "asin": "B0HDHZ35FT",
+      "price_usd": 28.99,
+      "rating": 3.3,
+      "review_count": 54,
+      "url": "https://www.amazon.com/Foundation-Stick-Color-Changing-Brush/dp/B0HDHZ35FT/ref=zg_bsnr_g_beauty_d_sccl_31/130-8700738-2514302"
     },
     {
       "rank": 32,
+      "name": "WTVANE 280Pcs Thick Lash Clusters 260D Eyelash Clusters 14-24mm | Mega Volume Cluster Eyelash Extensions D Curl Individual Lashes Dramatic Fluffie Mink False Eyelashes Soft Band Empress Look",
+      "asin": "B0HDZLG2B8",
+      "price_usd": 17.49,
+      "rating": 4.6,
+      "review_count": 45,
+      "url": "https://www.amazon.com/WTVANE-280Pcs-Clusters-Eyelash-14-24mm/dp/B0HDZLG2B8/ref=zg_bsnr_g_beauty_d_sccl_32/130-8700738-2514302"
+    },
+    {
+      "rank": 33,
       "name": "Plantovika Henna Cones Made from 100% Natural Leaves | Fresh Ready-to-Use Pre-Filled Paste, Henna Tube | Dark Reddish Brown | No Additives | Long Lasting Color | Pack of 3",
       "asin": "B0HCTG974V",
       "price_usd": 6.99,
       "rating": 4.4,
-      "review_count": 906,
-      "url": "https://www.amazon.com/Plantovika-Natural-Pre-Filled-Reddish-Additives/dp/B0HCTG974V/ref=zg_bsnr_g_beauty_d_sccl_32/130-3000152-3370227"
-    },
-    {
-      "rank": 33,
-      "name": "WTVANE 280Pcs Thick Lash Clusters 260D Eyelash Clusters 14-24mm | Mega Volume Cluster Eyelash Extensions D Curl Individual Lashes Dramatic Fluffie Mink False Eyelashes Soft Band Empress Look",
-      "asin": "B0HDZLG2B8",
-      "price_usd": 17.49,
-      "rating": 4.7,
-      "review_count": 42,
-      "url": "https://www.amazon.com/WTVANE-280Pcs-Clusters-Eyelash-14-24mm/dp/B0HDZLG2B8/ref=zg_bsnr_g_beauty_d_sccl_33/130-3000152-3370227"
+      "review_count": 910,
+      "url": "https://www.amazon.com/Plantovika-Natural-Pre-Filled-Reddish-Additives/dp/B0HCTG974V/ref=zg_bsnr_g_beauty_d_sccl_33/130-8700738-2514302"
     },
     {
       "rank": 34,
-      "name": "2Pcs Face Love Foundation Stick,2-in-1 Color Changing Foundation Stick with Brush – Natural Finish, Buildable Coverage, Moisturizing Long-Lasting Makeup for Mature Skin & All Types",
-      "asin": "B0HDHZ35FT",
-      "price_usd": 28.99,
-      "rating": 3.2,
-      "review_count": 53,
-      "url": "https://www.amazon.com/Foundation-Stick-Color-Changing-Brush/dp/B0HDHZ35FT/ref=zg_bsnr_g_beauty_d_sccl_34/130-3000152-3370227"
+      "name": "MAYBELLINE Super Stay Peel Off Lip Liner Lip Stain, Up to 24H Tattoo-Like Wear, Transfer-Proof Matte Finish, Hydrating Formula With Vitamin E, Aura (Mauve Nude)",
+      "asin": "B0GWNQ3TT4",
+      "price_usd": 9.97,
+      "rating": 3.5,
+      "review_count": 393,
+      "url": "https://www.amazon.com/MAYBELLINE-Tattoo-Like-Transfer-Proof-Hydrating-Formula/dp/B0GWNQ3TT4/ref=zg_bsnr_g_beauty_d_sccl_34/130-8700738-2514302"
     },
     {
       "rank": 35,
-      "name": "REMEDY 15% Azelaic Acid Complex Advanced Clarifying Serum | Redness, Dark Spots and Blemish-Prone Skin, Water-Light Texture, Sensitive Skin Tested, By Dermatologist Dr. Shah, 1 fl oz",
-      "asin": "B0HGKNXFX6",
-      "price_usd": 24.99,
-      "rating": 4.4,
-      "review_count": 51,
-      "url": "https://www.amazon.com/Clarifying-Blemish-Prone-Water-Light-Sensitive-Dermatologist/dp/B0HGKNXFX6/ref=zg_bsnr_g_beauty_d_sccl_35/130-3000152-3370227"
+      "name": "Abib PDRN Volume fill-it Booster Cream 2.5 tube | Facial Volume Plumping with PDRN 15,000ppm Peptides Retinal | For Forehead, Smile Lines & Neck Wrinkles | Anti-Aging Firming | 1.01 fl oz",
+      "asin": "B0GMPMZB3G",
+      "price_usd": 19.95,
+      "rating": 4.3,
+      "review_count": 1498,
+      "url": "https://www.amazon.com/Abib-Plumping-Peptides-Forehead-Anti-Aging/dp/B0GMPMZB3G/ref=zg_bsnr_g_beauty_d_sccl_35/130-8700738-2514302"
     },
     {
       "rank": 36,
-      "name": "Forever Lip Stain NEW (Rosewood) | Semi-Permanent Lip Tint – Transfer-Proof Wear – No Bleeding or Feathering – Lip Liner & Lip Color in One",
-      "asin": "B0GMDH2FV1",
-      "price_usd": 28,
-      "rating": 2.2,
-      "review_count": 167,
-      "url": "https://www.amazon.com/PRIME-PROMETICS-Forever-Stain-Rosewood/dp/B0GMDH2FV1/ref=zg_bsnr_g_beauty_d_sccl_36/130-3000152-3370227"
+      "name": "Ogee Sculpted Face Stick - Certified Organic Bronzer Stick (Copper) | Radiant Cocoa, Certified Organic Bronzer Stick & Contour, Multi-Use Bronzer Stick for Face",
+      "asin": "B0H275WTV3",
+      "price_usd": 42,
+      "rating": 4.4,
+      "review_count": 3493,
+      "url": "https://www.amazon.com/Ogee-Sculpted-Face-Stick-Certified/dp/B0H275WTV3/ref=zg_bsnr_g_beauty_d_sccl_36/130-8700738-2514302"
     },
     {
       "rank": 37,
-      "name": "CeraVe Super Boost Anti-Aging Serum with Peptides & Hyaluronic Acid | Face Serum with Ceramides, Peptides, Hyaluronic Acid, Vitamin B12 & LHA, Fine Lines & Wrinkles, Hydrating Milky Texture",
-      "asin": "B0GVTLNWXQ",
-      "price_usd": 24.97,
-      "rating": 4.5,
-      "review_count": 70,
-      "url": "https://www.amazon.com/CeraVe-Super-Anti-Aging-Peptides-Hyaluronic/dp/B0GVTLNWXQ/ref=zg_bsnr_g_beauty_d_sccl_37/130-3000152-3370227"
+      "name": "REMEDY 15% Azelaic Acid Complex Advanced Clarifying Serum | Redness, Dark Spots and Blemish-Prone Skin, Water-Light Texture, Sensitive Skin Tested, By Dermatologist Dr. Shah, 1 fl oz",
+      "asin": "B0HGKNXFX6",
+      "price_usd": 24.99,
+      "rating": 4.3,
+      "review_count": 54,
+      "url": "https://www.amazon.com/Clarifying-Blemish-Prone-Water-Light-Sensitive-Dermatologist/dp/B0HGKNXFX6/ref=zg_bsnr_g_beauty_d_sccl_37/130-8700738-2514302"
     },
     {
       "rank": 38,
-      "name": "PDRN Pink Collagen Volume Multi Balm, Eye Balm Stick 2PCS,Collagen Plump | Hydrating Multi Wand, Smooth Fine Lines & Wrinkles, Nourishing Collagen Stick for Face, Eye & Lip Care",
-      "asin": "B0C3459125",
-      "price_usd": 19.65,
-      "rating": 4.7,
-      "review_count": 4825,
-      "url": "https://www.amazon.com/Collagen-Hydrating-Smooth-Wrinkles-Nourishing/dp/B0C3459125/ref=zg_bsnr_g_beauty_d_sccl_38/130-3000152-3370227"
+      "name": "Prime Prometics Forever Lip Stain for Mature Women (Blush) | Semi-Permanent Lip Tint – Transfer-Proof Wear – No Bleeding or Feathering – Lip Liner & Lip Color in One",
+      "asin": "B0HFWF7VDN",
+      "price_usd": 28,
+      "rating": 2.2,
+      "review_count": 175,
+      "url": "https://www.amazon.com/Prime-Prometics-Forever-Mature-Semi-Permanent/dp/B0HFWF7VDN/ref=zg_bsnr_g_beauty_d_sccl_38/130-8700738-2514302"
     },
     {
       "rank": 39,
@@ -368,8 +368,8 @@
       "asin": "B0GX2KY3Z2",
       "price_usd": 119.99,
       "rating": 4.1,
-      "review_count": 83,
-      "url": "https://www.amazon.com/MANSCAPED%C2%AE-Mower%C2%AE-Ultra-Groin-Trimmer/dp/B0GX2KY3Z2/ref=zg_bsnr_g_beauty_d_sccl_39/130-3000152-3370227"
+      "review_count": 85,
+      "url": "https://www.amazon.com/MANSCAPED%C2%AE-Mower%C2%AE-Ultra-Groin-Trimmer/dp/B0GX2KY3Z2/ref=zg_bsnr_g_beauty_d_sccl_39/130-8700738-2514302"
     },
     {
       "rank": 40,
@@ -377,62 +377,62 @@
       "asin": "B0H9X2N59R",
       "price_usd": 7.99,
       "rating": 4.1,
-      "review_count": 32,
-      "url": "https://www.amazon.com/Purple-Chalk-Washable-Temporary-Adults/dp/B0H9X2N59R/ref=zg_bsnr_g_beauty_d_sccl_40/130-3000152-3370227"
+      "review_count": 33,
+      "url": "https://www.amazon.com/Purple-Chalk-Washable-Temporary-Adults/dp/B0H9X2N59R/ref=zg_bsnr_g_beauty_d_sccl_40/130-8700738-2514302"
     },
     {
       "rank": 41,
-      "name": "Purple Temporary Hair Color Spray for Kids Women Men,One-Day Hair Color Dye | Quick Styling Temporary Hair Color Spray,Non Damaging Washable Purple Hair Color Wax for Halloween,Game Day,Cosplay Party",
-      "asin": "B0H6JLM5PT",
-      "price_usd": 8.98,
-      "rating": 4.6,
-      "review_count": 27,
-      "url": "https://www.amazon.com/Purple-Temporary-Color-Spray-One-Day/dp/B0H6JLM5PT/ref=zg_bsnr_g_beauty_d_sccl_41/130-3000152-3370227"
+      "name": "CeraVe Super Boost Anti-Aging Serum with Peptides & Hyaluronic Acid | Face Serum with Ceramides, Peptides, Hyaluronic Acid, Vitamin B12 & LHA, Fine Lines & Wrinkles, Hydrating Milky Texture",
+      "asin": "B0GVTLNWXQ",
+      "price_usd": 24.97,
+      "rating": 4.5,
+      "review_count": 72,
+      "url": "https://www.amazon.com/CeraVe-Super-Anti-Aging-Peptides-Hyaluronic/dp/B0GVTLNWXQ/ref=zg_bsnr_g_beauty_d_sccl_41/130-8700738-2514302"
     },
     {
       "rank": 42,
-      "name": "2 Pack 2026 New Upgraded Zig Zag Headbands for Women, Comfortable Non Slip Wavy Comb Headband with Reinforced Flexible Teeth, Fashion Hair Accessories for Slicked Back Styles, Ideal Gifts for Wome",
-      "asin": "B0HC4B16S7",
-      "price_usd": 7.99,
-      "rating": 3.8,
-      "review_count": 41,
-      "url": "https://www.amazon.com/Upgraded-Headbands-Comfortable-Reinforced-Accessories/dp/B0HC4B16S7/ref=zg_bsnr_g_beauty_d_sccl_42/130-3000152-3370227"
+      "name": "Blonde Hair Spray Temporary Hair Color Spray for Kids Women Men (4.06 Oz) | Vibrant Quick-Dry, Washable Hair Color Spray, Temporary Hair Dye for Halloween, Cosplay, Christmas, Parties, Festivals",
+      "asin": "B0HJPXFB8L",
+      "price_usd": 9.99,
+      "rating": 4.3,
+      "review_count": 21,
+      "url": "https://www.amazon.com/Temporary-Quick-Dry-Halloween-Christmas-Festivals/dp/B0HJPXFB8L/ref=zg_bsnr_g_beauty_d_sccl_42/130-8700738-2514302"
     },
     {
       "rank": 43,
-      "name": "Juskaa Chin Strap for Sleeping,Adjustable Chin Strap,Jaw Strap,Jawline Shaper,V Line Lifting Mask,Black,M",
-      "asin": "B0HCNJ16D5",
+      "name": "Yunmiss Nose and Ear Hair Trimmer for Men Women,2 in 1 LED Display Eyebrow Hair Trimmer with USB Rechargeable,2026 Portble Waterproof Facial Hair Removal with Dual-Edge Blades for Travel",
+      "asin": "B0GH7RHHGX",
       "price_usd": 9.99,
-      "rating": 4.6,
-      "review_count": 229,
-      "url": "https://www.amazon.com/Juskaa-Sleeping-Adjustable-Jawline-Lifting/dp/B0HCNJ16D5/ref=zg_bsnr_g_beauty_d_sccl_43/130-3000152-3370227"
+      "rating": 4.9,
+      "review_count": 98,
+      "url": "https://www.amazon.com/Yunmiss-Display-Eyebrow-Trimmer-Clipper/dp/B0GH7RHHGX/ref=zg_bsnr_g_beauty_d_sccl_43/130-8700738-2514302"
     },
     {
       "rank": 44,
-      "name": "JUNG SAEM MOOL Skin Nuder Cushion | Refill Not Included (21W Medium) | weightless skin fit Full coverage korean foundation makeup, cushion foundation, skin tint concealer foundation, tattoo cover",
-      "asin": "B0FBX37X5K",
-      "price_usd": 32,
-      "rating": 4.2,
-      "review_count": 848,
-      "url": "https://www.amazon.com/Cushion-Korean-Makeup-Refill-Included/dp/B0FBX37X5K/ref=zg_bsnr_g_beauty_d_sccl_44/130-3000152-3370227"
-    },
-    {
-      "rank": 45,
       "name": "5% Minoxidil Foam for Men and Women, Hair Regrowth Treatment for Thinning Hair, Easy-to-Apply Topical Foam",
       "asin": "B0HF8MJ8YG",
       "price_usd": 32.99,
       "rating": 4.4,
-      "review_count": 232,
-      "url": "https://www.amazon.com/Minoxidil-Regrowth-Treatment-Thinning-Topical/dp/B0HF8MJ8YG/ref=zg_bsnr_g_beauty_d_sccl_45/130-3000152-3370227"
+      "review_count": 234,
+      "url": "https://www.amazon.com/Minoxidil-Regrowth-Treatment-Thinning-Topical/dp/B0HF8MJ8YG/ref=zg_bsnr_g_beauty_d_sccl_44/130-8700738-2514302"
+    },
+    {
+      "rank": 45,
+      "name": "PDRN Pink Collagen Volume Multi Balm, Eye Balm Stick 2PCS,Collagen Plump | Hydrating Multi Wand, Smooth Fine Lines & Wrinkles, Nourishing Collagen Stick for Face, Eye & Lip Care",
+      "asin": "B0C3459125",
+      "price_usd": 19.65,
+      "rating": 4.6,
+      "review_count": 4831,
+      "url": "https://www.amazon.com/Collagen-Hydrating-Smooth-Wrinkles-Nourishing/dp/B0C3459125/ref=zg_bsnr_g_beauty_d_sccl_45/130-8700738-2514302"
     },
     {
       "rank": 46,
-      "name": "TYMO 4.0 Hair Blow Dryer Brush, Lightweight Ionic Blowout Hair Dryer Brush | 3X Faster Drying 5-in-1 Blowout Brush Adds Shine, Volume & Fullness for Anti-Frizz Straight, Curl & Blowout Style, Champagne",
-      "asin": "B0HF7XMX3T",
-      "price_usd": 79.99,
-      "rating": 4,
-      "review_count": 1630,
-      "url": "https://www.amazon.com/TYMO-Dryer-Brush-Lightweight-Blowout/dp/B0HF7XMX3T/ref=zg_bsnr_g_beauty_d_sccl_46/130-3000152-3370227"
+      "name": "2Pcs Facelove Foundation Stick, Facellove Changing Foundation Stick, 2-in-1 Color-Changing Foundation Stick, Hydrating, Long-Lasting",
+      "asin": "B0HJ29NGT6",
+      "price_usd": 29.99,
+      "rating": 3,
+      "review_count": 23,
+      "url": "https://www.amazon.com/Foundation-Facellove-Color-Changing-Hydrating-Long-Lasting/dp/B0HJ29NGT6/ref=zg_bsnr_g_beauty_d_sccl_46/130-8700738-2514302"
     }
   ]
 }

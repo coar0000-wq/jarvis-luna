@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-15T23:16:35.245283+00:00",
+  "collected_at": "2026-10-16T23:01:00.110314+00:00",
   "is_stale": false,
-  "count": 238,
+  "count": 236,
   "by_collection": {
-    "Best Sellers": 83,
-    "Skincare": 155
+    "Best Sellers": 82,
+    "Skincare": 154
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 238,
+    "n": 236,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -1550,25 +1550,6 @@
       ]
     },
     {
-      "rank": 70,
-      "name": "Air Angel Peptide Plumping Gel Cream",
-      "brand": "Dieux",
-      "price_usd": 35.0,
-      "category": "Facial Moisturizer",
-      "collection": "Best Sellers",
-      "url": "https://sokoglam.com/products/dieux-air-angel-peptide-plumping-gel-cream",
-      "tags": [
-        "dieux",
-        "dieux skin",
-        "Facial Moisturizer",
-        "new",
-        "Skin_Type::Combination",
-        "Skin_Type::Dry",
-        "Skin_Type::Normal",
-        "Skin_Type::Oily"
-      ]
-    },
-    {
       "rank": 71,
       "name": "Forever Eye Masks",
       "brand": "Dieux",
@@ -2150,29 +2131,6 @@
         "Skin_Type::Normal",
         "Skin_Type::Oily",
         "standard seoul"
-      ]
-    },
-    {
-      "rank": 23,
-      "name": "Raw Activator Serum",
-      "brand": "May Coop",
-      "price_usd": 38.0,
-      "category": "Serum/Ampoule",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/may-coop-raw-activator-serum",
-      "tags": [
-        "barrier protection",
-        "CYBER2025",
-        "maple",
-        "maple sap",
-        "maple tree sap",
-        "May Coop",
-        "moisture barrier",
-        "Product_type::Serum/Ampoule",
-        "serum",
-        "serum/ampoule",
-        "skin barrier",
-        "Skin_Concern::Anti-Aging/Wrinkles"
       ]
     },
     {
