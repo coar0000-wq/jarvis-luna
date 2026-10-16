@@ -2,22 +2,22 @@
 title: "Source · Google Search"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-16T11:51:11.552538+00:00
+updated_at: 2026-10-16T16:54:19.961078+00:00
 tags: [source, real-data]
-record_count: 1239
+record_count: 1240
 ---
 
 # Source · Google Search
 
-실제 수집 레코드 **1,239건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **1,240건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 주제별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[뷰티스킨케어]] | 809 |
+| [[뷰티스킨케어]] | 810 |
 | [[이커머스Shopify]] | 372 |
-| [[소셜콘텐츠]] | 206 |
+| [[소셜콘텐츠]] | 207 |
 | [[경영전략]] | 91 |
 | [[마케팅광고]] | 80 |
 | [[AI-에이전트]] | 47 |
