@@ -2,7 +2,7 @@
 title: "Record c0d483a361 · Human-Skin-Is-the-Newest-Ingredient-in-the-K-Beauty"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:35.562187+00:00
+updated_at: 2026-10-16T11:51:10.192495+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["뷰티스킨케어"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1Gc
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkxGbEZDNEpITy1jaE1GcWU3R3U3UUZTMTNYVGRVU2JQeWkwTGdTSVdqNkhYbVpLTXptU1VCRlBDbWVPbEZDRDl0ZlhoNktoYi1OTWNhMG9Va2hwMjRleERjMlBHZ3FPY2xSZnZLZFRvV1ZZV19KOGhTSG1xSmxpWkQxSDZpcHlzWWVOQ2dOLTBCVi1zX3JOOHRXN1ltVFpYTDVpZE1WdER5ckVwVXc?oc=5)
 
-**제목:** Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg.com
+**제목:** Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg
 
-Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg.com
+Human Skin Is the Newest Ingredient in the K-Beauty Boom - Bloomberg
 
 **출처:** Source · Google Search

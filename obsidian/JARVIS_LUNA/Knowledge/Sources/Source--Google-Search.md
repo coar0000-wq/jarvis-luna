@@ -2,20 +2,20 @@
 title: "Source · Google Search"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-16T04:57:05.612074+00:00
+updated_at: 2026-10-16T11:51:11.552538+00:00
 tags: [source, real-data]
-record_count: 1233
+record_count: 1239
 ---
 
 # Source · Google Search
 
-실제 수집 레코드 **1,233건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **1,239건**이 이 소스에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 주제별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[뷰티스킨케어]] | 803 |
+| [[뷰티스킨케어]] | 809 |
 | [[이커머스Shopify]] | 372 |
 | [[소셜콘텐츠]] | 206 |
 | [[경영전략]] | 91 |
@@ -38,6 +38,7 @@ record_count: 1233
 
 - [[Record-2fe62a72e5--Yarnit-Brings-Agentic-Commerce-to-Shopify-Merchants]]
 - [[Record-a340ceb2bc--Chasing-Glass-Skin-95-Of-Korean-Skincare-Videos-Had]]
+- [[Record-d9550ba3f1--K-beauty-brand-Mamonde-names-Nitanshi-Goel-as-first]]
 - [[Record-99d1681a1c--KOREAS-1-SKINCARE-BRAND-DRG-ACCELERATES-US-EXPANSIO]]
 - [[Record-88c48e99b1--Walmart-has-Laneige-Estee-Lauder-more-skincare-up-t]]
 - [[Record-d28ee67b31--Coles-launches-Korean-beauty-items-from-250-for-the]]
@@ -47,7 +48,6 @@ record_count: 1233
 - [[Record-82ed203262--Anuas-KPop-Demon-Hunters-K-Beauty-Collab-Features-F]]
 - [[Record-9bb6b5681b--K-Beauty-Device-Brand-THOME-Launches-at-Sephora-Acr]]
 - [[Record-ce2b11430a--This-K-beauty-advent-calendar-is-only-50--and-its-s]]
-- [[Record-c9e9558d63--Weve-had-an-exclusive-look-at-Lookfantastics-first-]]
 
 ### 전체 레코드 (표)
 
