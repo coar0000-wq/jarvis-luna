@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-16T23:01:05.181319Z",
+  "as_of": "2026-10-17T02:50:10.466645Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -82,7 +82,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-16T23:01:04.395477+00:00",
+        "timestamp": "2026-10-17T02:50:09.054935+00:00",
         "record_count": 356
       },
       {
@@ -92,7 +92,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-16T23:01:04.702939+00:00",
+        "timestamp": "2026-10-17T02:50:09.592832+00:00",
         "record_count": 356
       },
       {
@@ -112,7 +112,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-16T23:01:04.486394+00:00",
+        "timestamp": "2026-10-17T02:50:09.213606+00:00",
         "record_count": null
       },
       {
@@ -123,7 +123,7 @@
         "loaded": true,
         "error": null,
         "timestamp": null,
-        "record_count": 7
+        "record_count": 8
       },
       {
         "key": "queue",
@@ -132,7 +132,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-16T23:01:05.048061+00:00",
+        "timestamp": "2026-10-17T02:50:10.182817+00:00",
         "record_count": 0
       },
       {
@@ -331,7 +331,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-03T11:42:15.459821+00:00",
-        "age_hours": 323.31,
+        "age_hours": 327.13,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -346,7 +346,7 @@
         "channel": "sokoglam_us",
         "present": true,
         "collected_at": "2026-10-16T23:01:00.110314+00:00",
-        "age_hours": 0.0,
+        "age_hours": 3.82,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -360,7 +360,7 @@
         "channel": "sephora",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.585606+00:00",
-        "age_hours": 0.0,
+        "age_hours": 3.82,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -374,7 +374,7 @@
         "channel": "ulta_beauty",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.585606+00:00",
-        "age_hours": 0.0,
+        "age_hours": 3.82,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -388,7 +388,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 755.69,
+        "age_hours": 759.51,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -403,7 +403,7 @@
         "channel": "amazon_best_sellers",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.551649+00:00",
-        "age_hours": 0.0,
+        "age_hours": 3.82,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -417,7 +417,7 @@
         "channel": "amazon_new_beauty",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.553116+00:00",
-        "age_hours": 0.0,
+        "age_hours": 3.82,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -431,7 +431,7 @@
         "channel": "amazon_movers_beauty",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.552888+00:00",
-        "age_hours": 0.0,
+        "age_hours": 3.82,
         "verified": false,
         "reasons": [
           "no_items"
@@ -532,7 +532,8 @@
       "allowed_grades": [
         "S"
       ],
-      "lower_grade_fallback": false
+      "lower_grade_fallback": false,
+      "body_category_research_draft_fallback": true
     },
     "category_to_score_buckets": {
       "skincare": [
@@ -1140,7 +1141,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": false,
@@ -1394,7 +1395,7 @@
             "price_usd": 23.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": true,
@@ -1470,7 +1471,7 @@
           "median_usd": 24.5,
           "max_usd": 56.9,
           "freshness": "stale",
-          "age_hours": 359.36,
+          "age_hours": 363.18,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1649,7 +1650,7 @@
             "price_usd": 30.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": false,
@@ -1690,7 +1691,7 @@
           "median_usd": 32.0,
           "max_usd": 153.0,
           "freshness": "stale",
-          "age_hours": 359.36,
+          "age_hours": 363.18,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1868,7 +1869,7 @@
             "price_usd": 15.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": false,
@@ -1906,7 +1907,7 @@
           "median_usd": 16.8,
           "max_usd": 58.81,
           "freshness": "stale",
-          "age_hours": 359.36,
+          "age_hours": 363.18,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2099,7 +2100,7 @@
             "price_usd": 17.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": true,
@@ -2151,7 +2152,7 @@
           "median_usd": 18.38,
           "max_usd": 93.6,
           "freshness": "stale",
-          "age_hours": 359.36,
+          "age_hours": 363.18,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2327,7 +2328,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": false,
@@ -4351,7 +4352,7 @@
           "median_usd": 11.55,
           "max_usd": 23.75,
           "freshness": "stale",
-          "age_hours": 359.36,
+          "age_hours": 363.18,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -7517,7 +7518,7 @@
           "median_usd": 19.93,
           "max_usd": 22.23,
           "freshness": "stale",
-          "age_hours": 359.36,
+          "age_hours": 363.18,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -8201,7 +8202,7 @@
           "median_usd": 12.31,
           "max_usd": 37.98,
           "freshness": "stale",
-          "age_hours": 359.36,
+          "age_hours": 363.18,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -20568,7 +20569,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": false,
@@ -20752,7 +20753,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-16T23:01:04.486394+00:00"
+            "observed_on": "2026-10-17T02:50:09.213606+00:00"
           }
         ],
         "conflict": false,
