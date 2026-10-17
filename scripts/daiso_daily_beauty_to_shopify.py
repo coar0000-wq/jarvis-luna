@@ -353,8 +353,9 @@ mutation($product:ProductCreateInput!,$media:[CreateMediaInput!]){
                     "productOptions": [{"name": "Pack", "values": [{"name": item["variants"][0]["name"]}]}],
                 },
                 "media": [
-                    {"originalSource": u, "alt": item["title"], "mediaContentType": "IMAGE"}
-                    for u in item["images"]
+                    {"originalSource": u, "mediaContentType": "IMAGE",
+                     "alt": ((item.get("image_alts") or [])[i:i + 1] or [item["title"]])[0] or item["title"]}
+                    for i, u in enumerate(item["images"])
                 ],
             },
         )["productCreate"]
@@ -766,8 +767,55 @@ def image_path(url):
     return url[len(DAISO_CDN):] if url.startswith(DAISO_CDN) else url
 
 
-def prepare_images(p, shop):
-    """다이소 상품 이미지 중 제품 전용으로 검수 기록이 있는 허용 목록(config/daiso_commerce_strategy.json) 항목만 쓴다.
+LOCALIZE_POLICY = IMAGE_POLICY.get("detail_localization") or {}
+LOCALIZE_DETAIL_IMAGES = (os.environ.get("LOCALIZE_DETAIL_IMAGES", "0").strip().lower() in {"1", "true", "yes"}
+                          and LOCALIZE_POLICY.get("enabled") is True)
+
+
+def localized_images(p, shop, title):
+    """1084687 수작업 방식(사용자 지정 기본 방식)으로 상세 이미지를 영문 패널로 만든다.
+
+    2026-10-17: 사용자가 Shopify 9590780723457 을 이미지 등록 기본 방식으로 지정했는데
+    일일 등록은 검수 허용 목록 썸네일만 올렸고(허용 목록은 1067498 하나) 나머지는
+    이미지 0장이었다. 상세 이미지 영문화(scripts/daiso/localize_detail_images.py)를
+    먼저 시도하고, 실패하면 아래 허용 목록 경로로 돌아간다. 실패 사유는 매니페스트에 남는다.
+    """
+    if not LOCALIZE_DETAIL_IMAGES:
+        return None
+    sys.path.insert(0, str(ROOT / "scripts" / "daiso"))
+    import localize_detail_images as ldi  # noqa: PLC0415
+
+    out_dir = Path(os.environ.get("RUNNER_TEMP") or tempfile.gettempdir()) / "localized" / str(p["pdNo"])
+    try:
+        man = ldi.localize_product(str(p["pdNo"]), title, out_dir, ldi.translator_from_env())
+    except Exception as exc:  # noqa: BLE001  영문화가 어떻게 실패해도 등록 흐름은 계속한다 (초안으로 남는다)
+        log(f"  localize failed: {type(exc).__name__}: {exc}")
+        return {"status": "failed", "reasons": [f"localize_exception:{type(exc).__name__}"], "outputs": []}
+    if not DRY_RUN:
+        ldi.write_manifest(man)
+    log(f"  localize: {man['status']} {man.get('summary')} {man.get('reasons')}")
+    if man["status"] != "ok":
+        return man
+    files, alts, resource_urls = [], [], []
+    for o in man["outputs"]:
+        path = out_dir / o["file"]
+        data = path.read_bytes()
+        if hashlib.sha256(data).hexdigest() != o["sha256"]:
+            raise RuntimeError(f"localized output changed after QA: {o['file']}")
+        files.append(str(path))
+        alts.append(o["alt"])
+        if shop is not None and not DRY_RUN:
+            resource_urls.append(shop.upload_jpeg(data, o["file"]))
+    man["_files"], man["_alts"], man["_resource_urls"] = files, alts, resource_urls
+    return man
+
+
+def prepare_images(p, shop, title=None):
+    """상세 이미지 영문화(기본)를 먼저 하고, 그다음 제품 전용 검수 허용 목록 이미지를 붙인다.
+
+    영문 패널이 하나도 없으면 예전처럼 허용 목록 이미지만 쓴다.
+
+    다이소 상품 이미지 중 제품 전용으로 검수 기록이 있는 허용 목록(config/daiso_commerce_strategy.json) 항목만 쓴다.
     검수 주체(사람/자동 시각 검사)는 reviewed_by 에 그대로 남는다. 여기서 사람의 승인을 주장하지 않는다.
 
     사람 얼굴 사진은 금지다. 얼굴 검출기(OpenCV YuNet)는 휴리스틱이라 '얼굴이 없다' 를 보장하지 못한다.
@@ -808,8 +856,24 @@ def prepare_images(p, shop):
         for n, (u, data) in enumerate(kept, 1):
             resource_urls.append(shop.upload_jpeg(di.to_square_jpeg(data), f"daiso-{p['pdNo']}-{n}.jpg"))
     log(f"  images: total {len(urls)}, reviewed {len(blobs)}, kept {len(kept)}, dropped {len(dropped)} {[d['reason'] for d in dropped]}")
-    return {"source_urls": [u for u, _ in kept], "resource_urls": resource_urls, "skipped": dropped,
-            "total": len(urls), "reviewed_allowlist_entries": len(allowed)}
+    source_urls = [u for u, _ in kept]
+    alts = [title or ""] * len(source_urls)
+    localization = None
+    loc = localized_images(p, shop, title or "") if title is not None else None
+    if loc is not None:
+        localization = {"status": loc.get("status"), "summary": loc.get("summary"), "reasons": loc.get("reasons"),
+                        "translator": loc.get("translator"),
+                        "manifest": f"data/image_localization/{p['pdNo']}.json"}
+        if loc.get("status") == "ok":
+            # 영문 패널을 앞에, 검수 허용 목록 제품 사진을 뒤에 둔다 (수작업은 01 이 대표 제품 패널이었다).
+            source_urls = loc["_files"] + source_urls
+            resource_urls = loc["_resource_urls"] + resource_urls
+            alts = loc["_alts"] + alts
+        else:
+            dropped.append({"url": DAISO_ITEM + str(p["pdNo"]), "reason": "detail_localization_failed:" +
+                            ",".join(loc.get("reasons") or [])})
+    return {"source_urls": source_urls, "resource_urls": resource_urls, "skipped": dropped, "alts": alts,
+            "localization": localization, "total": len(urls), "reviewed_allowlist_entries": len(allowed)}
 
 
 
@@ -1939,7 +2003,7 @@ def main():
                 reasons.append("english_title_missing")
             if not g["gosi_ok"]:
                 reasons.append("gosi_missing:" + ",".join(g["missing"]))
-            imgs = prepare_images(p, shop)
+            imgs = prepare_images(p, shop, title=title)
             if not imgs["source_urls"] or (shop is not None and not DRY_RUN and not imgs["resource_urls"]):
                 reasons.append("no_usable_product_images")
             if shop is not None and not DRY_RUN and not pub:
@@ -1971,6 +2035,8 @@ def main():
                 + (["makeup-realtime-ranking-fallback", "draft-only-ranking-fallback"] if p.get("_source") == RANKING_SOURCE else [])
                 + ([f"jarvis-grade-{p['_grade'].lower()}"] if p.get("_grade") not in (None, "-") else []),
                 "images": images,
+                # 이미지마다 대체텍스트를 따로 둔다. 1084687 수작업 초안은 11장 alt 가 모두 비어 있었다.
+                "image_alts": list(imgs.get("alts") or [])[: len(images)],
                 "category": TAXONOMY[cat[0]],
                 "variants": variants,
                 "price_usd": pr["single"]["price_usd"],
@@ -1996,6 +2062,7 @@ def main():
                 "profitability_warnings": profit_warnings,
                 "bundle": bo,
                 "images_skipped": imgs["skipped"],
+                "image_localization": imgs.get("localization"),
                 "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
                 "us_label": label["label"],
                 "draft_reasons": reasons,

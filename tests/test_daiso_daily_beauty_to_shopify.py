@@ -842,6 +842,28 @@ class DailySafetyTests(unittest.TestCase):
         self.assertEqual(sorted(d["reason"] for d in out["skipped"]),
                          ["face_detected:1", "not_in_reviewed_product_only_allowlist", "reviewed_image_hash_mismatch"])
 
+    def test_detail_localization_is_off_by_default_and_merged_first_when_on(self):
+        # 2026-10-17 사용자 지정 기본 방식(1084687): 영문 패널을 먼저, 허용 목록 사진을 뒤에.
+        product = {"pdNo": "88", "pdImgUrl": "/x.jpg", "pdImgUrlList": ["/x.jpg"]}
+        empty_policy = {"reviewed_product_only_allowlist": {}}
+        self.assertFalse(daily.LOCALIZE_DETAIL_IMAGES)       # 환경변수 없이는 켜지지 않는다
+        with patch.object(daily, "IMAGE_POLICY", empty_policy):
+            off = daily.prepare_images(product, None, title="Cream")
+        self.assertIsNone(off["localization"])
+        ok = {"status": "ok", "summary": {"used": 2}, "reasons": [], "translator": "stub",
+              "_files": ["/tmp/01-a-en.jpg", "/tmp/02-b-en.jpg"], "_alts": ["Cream — A", "Cream — B"],
+              "_resource_urls": []}
+        with patch.object(daily, "IMAGE_POLICY", empty_policy), patch.object(daily, "localized_images", return_value=ok):
+            on = daily.prepare_images(product, None, title="Cream")
+        self.assertEqual(on["source_urls"], ["/tmp/01-a-en.jpg", "/tmp/02-b-en.jpg"])
+        self.assertEqual(on["alts"], ["Cream — A", "Cream — B"])
+        self.assertEqual(on["localization"]["manifest"], "data/image_localization/88.json")
+        failed = {"status": "failed", "reasons": ["translator_unavailable"], "summary": None}
+        with patch.object(daily, "IMAGE_POLICY", empty_policy), patch.object(daily, "localized_images", return_value=failed):
+            fb = daily.prepare_images(product, None, title="Cream")
+        self.assertEqual(fb["source_urls"], [])
+        self.assertIn("detail_localization_failed:translator_unavailable", [d["reason"] for d in fb["skipped"]])
+
     def _run_main(self, pricing, pick_effect, price_evidence=None, safety=None, safety_files=None):
         import os
         candidate = {"pdNo": "123", "pdNm": "본셉 세럼 30 ml", "brndNm": "본셉", "pdPrc": "3000",
@@ -1415,7 +1437,7 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
                        "pack": {"ok": True, "price_usd": 25.99, "margin_pct": 30,
                                 "compare_at_usd": 29.98}, "basis": "test", "shop_compare": {},
                        "evidence": dict(EVIDENCE_OK)}
-            def images(p, unused_shop):
+            def images(p, unused_shop, title=None):  # 2026-10-17 prepare_images(..., title=) 시그니처
                 if revoke_policy:
                     daily.pricing_model.load_commerce_strategy.return_value["grade_policy"][daily.BODY_RESEARCH_DRAFT_OPT_IN] = False
                 if revoke:

@@ -138,6 +138,20 @@
     "retain_face_verification": true,
     "human_faces_prohibited": true,
     "note": "Only images listed here (exact canonical Daiso CDN path AND sha256 of the downloaded bytes, with reviewed_by and reviewed_at) may be uploaded. Listed paths are fetched even when pdImgUrlList does not advertise them (union of advertised and listed paths). reviewed_by must state truthfully who or what inspected the image; automated visual inspection must say so and is not human approval. The YuNet face detector stays on as an additional veto and ordering step; it is NOT a guarantee that an image is face-free. An empty allowlist means no product gets images and every candidate stays DRAFT.",
+    "detail_localization": {
+      "enabled": true,
+      "reference_example": "data/manual/image_localization/1084687.json",
+      "reference_shopify_product": "gid://shopify/Product/9590780723457",
+      "owner_decision": "2026-10-17 owner: use this product's image registration method as the default for JARVIS",
+      "method": "Daiso rendered /description/ images -> panels -> Korean line OCR -> translation -> non-generative inpaint + English text",
+      "generative_images": false,
+      "face_veto": true,
+      "residual_korean_lines_allowed": 0,
+      "claim_rules": "data/us_claim_rules.json",
+      "translation_required": true,
+      "manifest_dir": "data/image_localization",
+      "note": "Localized panels bypass the thumbnail allowlist because they are the supplier's own detail images, but every panel must pass the face veto, the US claim guard and a residual-Korean OCR check or it is dropped with a recorded reason. Passing is not legal or safety approval. Without a translator nothing is localized and the allowlist path is used."
+    },
     "reviewed_product_only_allowlist": {
       "1067498": [
         {

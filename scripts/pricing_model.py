@@ -213,6 +213,18 @@ def validate_strategy(doc: dict) -> dict:
     need(img.get("mode") == "reviewed_product_only_allowlist" and img.get("require_allowlist") is True
          and img.get("retain_face_verification") is True and img.get("human_faces_prohibited") is True,
          "image_policy must keep the reviewed allowlist and face verification")
+    loc = img.get("detail_localization")
+    if loc is not None:
+        # 2026-10-17 사용자 지정 기본 방식(1084687). 허용 목록 밖의 다이소 상세 이미지를 쓰므로
+        # 대신 지켜야 할 안전 조건을 설정에서 풀 수 없게 고정한다.
+        need(isinstance(loc, dict) and isinstance(loc.get("enabled"), bool), "detail_localization.enabled must be a bool")
+        need(loc.get("generative_images") is False, "detail_localization must not generate images")
+        need(loc.get("face_veto") is True, "detail_localization must keep the face veto")
+        need(loc.get("residual_korean_lines_allowed") == 0, "detail_localization must reject residual Korean")
+        need(loc.get("claim_rules") == "data/us_claim_rules.json", "detail_localization must use the US claim rules")
+        need(loc.get("translation_required") is True, "detail_localization must not invent English without a translator")
+        need(loc.get("reference_example") == "data/manual/image_localization/1084687.json",
+             "detail_localization reference must stay the owner-designated example")
     allow = img.get("reviewed_product_only_allowlist")
     need(isinstance(allow, dict), "image allowlist must be an object")
     for pd_no, entries in allow.items():

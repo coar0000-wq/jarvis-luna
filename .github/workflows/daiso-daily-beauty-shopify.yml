@@ -48,7 +48,8 @@ permissions:
 jobs:
   register:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # 상세 이미지 영문화가 상품당 약 3분 (1084687 실측 2분 53초, 패널 12장). 3개 카테고리 기준 여유를 둔다.
+    timeout-minutes: 50
     steps:
       - name: 최신 main 확인
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
@@ -62,13 +63,17 @@ jobs:
         run: |
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-shopify.txt
           python -m playwright install --with-deps chromium
+          # 상세 이미지 영문화(1084687 방식)의 글줄 판독. 무료·로컬 OCR.
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor tesseract-ocr-eng
+          tesseract --list-langs
 
       - name: 일일 등록 안전성 단위 테스트
         run: |
           python -B - <<'PY'
           import os, shutil, socket, tempfile, unittest
           from pathlib import Path
-          for key in ('SHOPIFY_STORE', 'SHOPIFY_CLIENT_ID', 'SHOPIFY_CLIENT_SECRET', 'GEMINI_API_KEY', 'DRY_RUN', 'ONLY_CATEGORIES', 'BODY_FALLBACK_CATALOG_PATH', 'BACKFILL_BANNER', 'QUARANTINE_BLOCKED_PUBLIC', 'ALLOW_ORIGINAL_IMAGES'):
+          for key in ('SHOPIFY_STORE', 'SHOPIFY_CLIENT_ID', 'SHOPIFY_CLIENT_SECRET', 'GEMINI_API_KEY', 'DRY_RUN', 'ONLY_CATEGORIES', 'BODY_FALLBACK_CATALOG_PATH', 'BACKFILL_BANNER', 'QUARANTINE_BLOCKED_PUBLIC', 'ALLOW_ORIGINAL_IMAGES', 'LOCALIZE_DETAIL_IMAGES'):
               os.environ.pop(key, None)
           def blocked(*args, **kwargs):
               raise AssertionError('Network disabled for isolated registrar tests')
@@ -110,6 +115,10 @@ jobs:
           BACKFILL_BANNER: ${{ github.event.inputs.backfill_banner || '1' }}
           QUARANTINE_BLOCKED_PUBLIC: ${{ github.event.inputs.quarantine_blocked_public || '0' }}
           ALLOW_ORIGINAL_IMAGES: '1'
+          # 사용자 지정 기본 방식(Shopify 9590780723457 / data/manual/image_localization/1084687.json):
+          # 다이소 상세 이미지를 영문 패널로 바꿔 올린다. 번역은 무료 Gemini 가 패널을 보고 한다.
+          LOCALIZE_DETAIL_IMAGES: '1'
+          GEMINI_FREE_TIER_ONLY: '1'
         run: python scripts/daiso_daily_beauty_to_shopify.py
 
       - name: 바디 원래 목록 수집 증거 보관
@@ -132,6 +141,7 @@ jobs:
           git config user.name "jarvis-bot"
           git config user.email "jarvis-bot@users.noreply.github.com"
           git add data/shopify_daily_registry.json data/shop_com_categories.json
+          if [ -d data/image_localization ]; then git add data/image_localization; fi
           if git diff --cached --quiet; then echo "no registry change"; exit 0; fi
           git commit -m "chore(shopify): 일일 등록 이력 $(date -u +%F)"
           pushed=0
