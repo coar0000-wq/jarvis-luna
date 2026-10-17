@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T14:33:35.386941+00:00",
+  "generated_at": "2026-10-17T15:12:30.457488+00:00",
   "exchange_rate": {
     "usd_to_krw": 1334.89,
     "as_of": "2026-10-17",
@@ -252,7 +252,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.1,
+            "age_days": 0.12,
             "volume_status": "match"
           }
         },
@@ -610,7 +610,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.1,
+            "age_days": 0.12,
             "volume_status": "match"
           }
         },
