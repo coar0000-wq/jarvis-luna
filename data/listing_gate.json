@@ -1,15 +1,15 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-17T06:20:15.058289+00:00",
+  "generated_at": "2026-10-17T10:09:04.343416+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
       "data/product_master.json": "d3194d13ca683c98e36b5455b0470ff766d70bc7713ade89960051611af030bf",
-      "data/gosi.json": "9957b715738857ece0929e82a179e94fb54bf1ce3527ccac08895cbbf14204ae",
-      "data/daiso_real/daiso_us_labels.json": "7a4ecd57b4edae204299ea2e71a14f13b7f77f5a1cef56eb77326ba759d628c8",
-      "data/pricing_model.json": "73179bb168e45fe7f0a9fdd2093d7b889f101a8017b33b7169f126c6694b35b6",
-      "data/legal_products.json": "b0e47ea07a86c29bd865fad6a01c45f13e1cdb25cf5633eb11f7a85693f13ab1",
+      "data/gosi.json": "65c4a1bf58af9ecfd59a8526718d38eb4a2dce44a4048d49eeb268e96c4e73d7",
+      "data/daiso_real/daiso_us_labels.json": "1396f05aaec16f8db17c55efeb35e787b6a8af37c13a8b59f19abeab5685d121",
+      "data/pricing_model.json": "0b3734581c31c5b1d5b419265fc98d540152bf500a192a8a0028a1140f3eb191",
+      "data/legal_products.json": "dda00bbbce938b1115f3d5a1f6eb17b8597d29a8895fe596f30e83cb4a1166d9",
       "data/daiso_real/shopify_s_recommendations.json": "dbcf31ef40943d8bbeabe595a419556db631097345981b470b6d0bbb6f14f85c",
       "data/shopify_listing_copy.json": "141d8cf3e77594212726b9cded932f08330bf22604f3977b2e53813692ecc514",
       "data/shopify_shortlist.json": "ad0bd0a93d3a2a4103156804812250880717de56267a657660b71684d93524bc",
@@ -67,15 +67,9 @@
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "",
-      "global_stopped": "",
-      "workflow_stopped": "",
-      "workflow_id": "Shopify 영문 리스팅 카피 생성:39009423799:1",
-      "estimated_cost_usd": 0.0,
-      "account_estimated_cost_usd": 0.000544698,
-      "purchased_credits": false,
+      "stopped": "ledger_unavailable",
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "input_token_price_per_mtok_usd": 0.042
+      "purchased_credits": false
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
