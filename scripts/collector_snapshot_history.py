@@ -80,7 +80,11 @@ ROTATING = {
     # seo/items 9->0 으로 Core 발행이 막혔다. 팩의 목록 칸만 교체 단위로 둔다(디자인 시스템 값은 그대로 막힘).
     "data/design/offline_pack.json": ["seo/items", "sections/home", "sections/home/*/products", "assets"],
     "data/daiso_real/desk_catalog.json": ["desks/*", "desks/*/products", "desks/*/categories", "errors", "kept_previous"],
-    "data/agents/daiso_pipeline_health.json": ["failed_workflow_history", "input_errors", "scopes", "operating_staleness", "metadata_precision"],
+    # 2026-10-17: daiso_pipeline_inputs.py 가 보고서를 {history_path, validation_sha256, health:{...}} 형식으로
+    # 쓰도록 바뀐 뒤(10-06 이후) Core 가 한 번도 발행하지 못해, 첫 발행에서 옛 평면 칸(status 등)이 빠진다.
+    # 파생 보고서라 status 도 교체 단위로 둔다. schema_version·public_authority 삭제는 그대로 막힌다.
+    "data/agents/daiso_pipeline_health.json": ["failed_workflow_history", "input_errors", "scopes", "operating_staleness",
+                                               "metadata_precision", "status"],
 }
 
 
@@ -102,6 +106,8 @@ def allowed_removals(rel: str, old, new, policy: dict, where: tuple[str, ...] = 
     """Identities removed only inside declared rotating lists; anything else raises."""
     contract = {"identity_fields": policy["identity_fields"]}
     if rotating(rel, where):
+        if not isinstance(old, (list, dict)) and not isinstance(new, (list, dict)):
+            return []  # 선언된 요약 값(예: status 문자열)은 새 값으로 바뀐다
         if not ((isinstance(old, list) and isinstance(new, list)) or (isinstance(old, dict) and isinstance(new, dict))):
             raise ValueError(f"rotating container type changed: {rel}/{'/'.join(where)}")
         return list(removed_identities(old, new, contract))
