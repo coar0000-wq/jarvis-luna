@@ -2,7 +2,7 @@
 title: "Record abf7a5e8e4 · Dermalogy-Real-Vitamin-C-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.195673+00:00
+updated_at: 2026-10-17T16:14:09.085917+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/neogen-dermalogy-real-vitamin-c-serum"
 **제목:** Dermalogy Real Vitamin C Serum
 
 Dermalogy Real Vitamin C Serum
-Dermalogy Real Vitamin C Serum · NEOGEN · $38
+Dermalogy Real Vitamin C Serum · NEOGEN · $38.0
 
 **출처:** Source · us_beauty

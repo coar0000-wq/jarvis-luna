@@ -2,7 +2,7 @@
 title: "Record 2c6633c97c · Birch-Milk-Refining-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.202239+00:00
+updated_at: 2026-10-17T16:14:09.089890+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/then-i-met-you-birch-milk-refining-toner"
 **제목:** Birch Milk Refining Toner
 
 Birch Milk Refining Toner
-Birch Milk Refining Toner · Then I Met You · $35
+Birch Milk Refining Toner · Then I Met You · $35.0
 
 **출처:** Source · us_beauty

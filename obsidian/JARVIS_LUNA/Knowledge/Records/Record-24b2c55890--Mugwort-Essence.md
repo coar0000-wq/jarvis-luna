@@ -2,7 +2,7 @@
 title: "Record 24b2c55890 · Mugwort-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.185605+00:00
+updated_at: 2026-10-17T16:14:09.079868+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["미분류"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/im-from-mugwort-essence-160ml"
 **제목:** Mugwort Essence
 
 Mugwort Essence
-Mugwort Essence · I'M FROM · $40
+Mugwort Essence · I'M FROM · $40.0
 
 **출처:** Source · us_beauty

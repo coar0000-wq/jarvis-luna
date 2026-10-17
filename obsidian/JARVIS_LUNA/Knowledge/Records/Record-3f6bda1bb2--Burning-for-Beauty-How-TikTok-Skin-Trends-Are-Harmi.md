@@ -2,7 +2,7 @@
 title: "Record 3f6bda1bb2 · Burning-for-Beauty-How-TikTok-Skin-Trends-Are-Harmi"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:30.733477+00:00
+updated_at: 2026-10-17T16:14:08.744003+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["뷰티스킨케어", "소셜콘텐츠"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMib0FVX3lxTE5idUp3Z2hMWDFOR19vdU1Ya
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMib0FVX3lxTE5idUp3Z2hMWDFOR19vdU1YaHNvRVZZZExhLUxtVDc0RVUzZFA4Y1FnNWlIOVc1OUtKbGZXNTMza3dhVTlYZlkyR2hiRS12WVVfZzkzRmhFNHVjNGpSSFRwN1ZLc0JQUzJSbU9tZVBfYw?oc=5)
 
-**제목:** Burning for Beauty: How TikTok Skin Trends Are Harming Young Girls - ScienceDaily
+**제목:** Burning for Beauty: How TikTok Skin Trends Are Harming Young Girls - Science Daily
 
-Burning for Beauty: How TikTok Skin Trends Are Harming Young Girls - ScienceDaily
+Burning for Beauty: How TikTok Skin Trends Are Harming Young Girls - Science Daily
 
 **출처:** Source · Google Search

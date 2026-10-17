@@ -2,7 +2,7 @@
 title: "Record cf6902c2db · The-Glow-Getter-Multi-Oil-Body-Wash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.200253+00:00
+updated_at: 2026-10-17T16:14:09.088673+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/the-glow-getter-multi-oil-body-wash"
 **제목:** The Glow Getter Multi-Oil Body Wash
 
 The Glow Getter Multi-Oil Body Wash
-The Glow Getter Multi-Oil Body Wash · NATURIUM · $6
+The Glow Getter Multi-Oil Body Wash · NATURIUM · $6.0
 
 **출처:** Source · us_beauty

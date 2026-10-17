@@ -2,7 +2,7 @@
 title: "Record 465831482a · Real-Ferment-Micro-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.196152+00:00
+updated_at: 2026-10-17T16:14:09.086158+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["미분류"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/neogen-real-ferment-micro-essence"
 **제목:** Real Ferment Micro Essence
 
 Real Ferment Micro Essence
-Real Ferment Micro Essence · NEOGEN · $38
+Real Ferment Micro Essence · NEOGEN · $38.0
 
 **출처:** Source · us_beauty

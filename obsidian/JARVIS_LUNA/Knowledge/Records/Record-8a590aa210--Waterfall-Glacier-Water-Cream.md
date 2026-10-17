@@ -2,7 +2,7 @@
 title: "Record 8a590aa210 · Waterfall-Glacier-Water-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.198539+00:00
+updated_at: 2026-10-17T16:14:09.087590+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/saturday-skin-waterfall-glacier-water-cream"
 **제목:** Waterfall Glacier Water Cream
 
 Waterfall Glacier Water Cream
-Waterfall Glacier Water Cream · SATURDAY SKIN · $25
+Waterfall Glacier Water Cream · SATURDAY SKIN · $25.0
 
 **출처:** Source · us_beauty

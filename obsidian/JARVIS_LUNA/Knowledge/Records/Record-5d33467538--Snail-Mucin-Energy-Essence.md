@@ -2,7 +2,7 @@
 title: "Record 5d33467538 · Snail-Mucin-Energy-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.200706+00:00
+updated_at: 2026-10-17T16:14:09.088960+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["미분류"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/the-klog-snail-mucin-energy-essence"
 **제목:** Snail Mucin Energy Essence
 
 Snail Mucin Energy Essence
-Snail Mucin Energy Essence · the klog · $17
+Snail Mucin Energy Essence · the klog · $17.0
 
 **출처:** Source · us_beauty

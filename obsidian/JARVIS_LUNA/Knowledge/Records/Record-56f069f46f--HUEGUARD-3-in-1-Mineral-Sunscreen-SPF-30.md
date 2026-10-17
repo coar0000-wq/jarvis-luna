@@ -2,7 +2,7 @@
 title: "Record 56f069f46f · HUEGUARD-3-in-1-Mineral-Sunscreen-SPF-30"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.191849+00:00
+updated_at: 2026-10-17T16:14:09.083611+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/live-tinted-hueguard-3-in-1-mineral-spf-30"
 **제목:** HUEGUARD® 3-in-1 Mineral Sunscreen SPF 30
 
 HUEGUARD® 3-in-1 Mineral Sunscreen SPF 30
-HUEGUARD® 3-in-1 Mineral Sunscreen SPF 30 · Live Tinted · $34
+HUEGUARD® 3-in-1 Mineral Sunscreen SPF 30 · Live Tinted · $34.0
 
 **출처:** Source · us_beauty

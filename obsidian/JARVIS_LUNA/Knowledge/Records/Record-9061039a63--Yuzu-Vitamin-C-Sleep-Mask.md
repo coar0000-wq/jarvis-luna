@@ -2,7 +2,7 @@
 title: "Record 9061039a63 · Yuzu-Vitamin-C-Sleep-Mask"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.206063+00:00
+updated_at: 2026-10-17T16:14:09.092175+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/yuzu-vitamin-c-sleep-mask"
 **제목:** Yuzu Vitamin C Sleep Mask
 
 Yuzu Vitamin C Sleep Mask
-Yuzu Vitamin C Sleep Mask · SATURDAY SKIN · $29
+Yuzu Vitamin C Sleep Mask · SATURDAY SKIN · $29.0
 
 **출처:** Source · us_beauty

@@ -2,7 +2,7 @@
 title: "Record 379ed2d225 · Birch-Juice-Moisturizing-UVLOCK-SPF-45-Broad-Spectrum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.197616+00:00
+updated_at: 2026-10-17T16:14:09.087050+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/rounds-lab-birch-juice-moisturizing-uvlock"
 **제목:** Birch Juice Moisturizing UVLOCK SPF 45 Broad Spectrum
 
 Birch Juice Moisturizing UVLOCK SPF 45 Broad Spectrum
-Birch Juice Moisturizing UVLOCK SPF 45 Broad Spectrum · ROUND LAB · $28
+Birch Juice Moisturizing UVLOCK SPF 45 Broad Spectrum · ROUND LAB · $28.0
 
 **출처:** Source · us_beauty

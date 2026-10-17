@@ -2,7 +2,7 @@
 title: "Record 0bfadf299f · PDRN-Caffeine-Shot-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.187047+00:00
+updated_at: 2026-10-17T16:14:09.080728+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/iope-pdrn-caffeine-shot-serum-30ml"
 **제목:** PDRN Caffeine Shot Serum
 
 PDRN Caffeine Shot Serum
-PDRN Caffeine Shot Serum · IOPE · $43
+PDRN Caffeine Shot Serum · IOPE · $43.0
 
 **출처:** Source · us_beauty

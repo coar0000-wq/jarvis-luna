@@ -2,7 +2,7 @@
 title: "Record 076ea1c211 · Time-Revolution-Night-Repair-Ampoule-5X"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.193165+00:00
+updated_at: 2026-10-17T16:14:09.084377+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["미분류"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/missha-time-revolution-night-repair-ampoule-
 **제목:** Time Revolution Night Repair Ampoule 5X
 
 Time Revolution Night Repair Ampoule 5X
-Time Revolution Night Repair Ampoule 5X · MISSHA · $54
+Time Revolution Night Repair Ampoule 5X · MISSHA · $54.0
 
 **출처:** Source · us_beauty

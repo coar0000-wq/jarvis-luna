@@ -1,0 +1,22 @@
+---
+title: "Record 94b7f512a1 · elf-Instant-Lift-Brow-Pencil-Dual-Sided-Neutral-Brown--Retractable-Pre"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-17T16:14:09.528075+00:00
+tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/l-f-Retractable-Precision-Tip-Natural-Looking-Cruelty-Free/dp/B00WAJAKOU/ref=zg_bs_g_beauty_d_sccl_27/130-8700738-2514302"
+---
+
+# Record 94b7f512a1 · elf-Instant-Lift-Brow-Pencil-Dual-Sided-Neutral-Brown--Retractable-Pre
+
+> 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/l-f-Retractable-Precision-Tip-Natural-Looking-Cruelty-Free/dp/B00WAJAKOU/ref=zg_bs_g_beauty_d_sccl_27/130-8700738-2514302)
+
+**제목:** e.l.f. Instant Lift Brow Pencil, Dual-Sided, Neutral Brown | Retractable Precision-Tip Brow Pencil with Grooming Spoolie for Buildable Natural-Looking Color, Vegan & Cruelty-Free
+
+e.l.f. Instant Lift Brow Pencil, Dual-Sided, Neutral Brown | Retractable Precision-Tip Brow Pencil with Grooming Spoolie for Buildable Natural-Looking Color, Vegan & Cruelty-Free
+e.l.f. Instant Lift Brow Pencil, Dual-Sided, Neutral Brown | Retractable Precision-Tip Brow Pencil with Grooming Spoolie for Buildable Natural-Looking Color, Vegan & Cruelty-Free · $4 · 평점 4.6 · 리뷰 77,275
+
+**출처:** Source · us_beauty

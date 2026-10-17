@@ -2,7 +2,7 @@
 title: "Record 560d2fea56 · Calming-Lotus-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.198079+00:00
+updated_at: 2026-10-17T16:14:09.087314+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/rovectin-clean-lotus-water-cream"
 **제목:** Calming Lotus Cream
 
 Calming Lotus Cream
-Calming Lotus Cream · ROVECTIN · $20
+Calming Lotus Cream · ROVECTIN · $20.0
 
 **출처:** Source · us_beauty

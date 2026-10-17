@@ -2,7 +2,7 @@
 title: "Record f076e1a34c · Toleriane-Hydrating-Gentle-Face-Cleanser-for-Dry-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:53.124986+00:00
+updated_at: 2026-10-17T16:14:09.721530+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://www.ulta.com/p/toleriane-hydrating-gentle-face-cleanser-dry-skin-x
 **제목:** Toleriane Hydrating Gentle Face Cleanser for Dry Skin
 
 Toleriane Hydrating Gentle Face Cleanser for Dry Skin
-Toleriane Hydrating Gentle Face Cleanser for Dry Skin · La Roche-Posay · $7.49
+Toleriane Hydrating Gentle Face Cleanser for Dry Skin · La Roche-Posay · $9.99
 
 **출처:** Source · us_beauty

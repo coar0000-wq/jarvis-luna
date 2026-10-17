@@ -2,7 +2,7 @@
 title: "Record 0d5d519cff · The-Smoother-Glycolic-Acid-Exfoliating-Body-Wash"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.201750+00:00
+updated_at: 2026-10-17T16:14:09.089635+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/the-smoother-glycolic-acid-exfoliating-body-
 **제목:** The Smoother Glycolic Acid Exfoliating Body Wash
 
 The Smoother Glycolic Acid Exfoliating Body Wash
-The Smoother Glycolic Acid Exfoliating Body Wash · NATURIUM · $17
+The Smoother Glycolic Acid Exfoliating Body Wash · NATURIUM · $17.0
 
 **출처:** Source · us_beauty

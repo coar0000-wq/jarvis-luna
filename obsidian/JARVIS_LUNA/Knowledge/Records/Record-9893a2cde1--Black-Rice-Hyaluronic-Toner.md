@@ -2,7 +2,7 @@
 title: "Record 9893a2cde1 · Black-Rice-Hyaluronic-Toner"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.179486+00:00
+updated_at: 2026-10-17T16:14:09.076164+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/black-rice-hyaluronic-toner"
 **제목:** Black Rice Hyaluronic Toner
 
 Black Rice Hyaluronic Toner
-Black Rice Hyaluronic Toner · Haruharu Wonder · $22
+Black Rice Hyaluronic Toner · Haruharu Wonder · $22.0
 
 **출처:** Source · us_beauty

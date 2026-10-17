@@ -2,7 +2,7 @@
 title: "Record b012bd1daf · Instant-Angel-Lipid-Rich-Firming-Moisturizer"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.183053+00:00
+updated_at: 2026-10-17T16:14:09.078437+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/dieux-instant-angel-lipid-rich-firming-moist
 **제목:** Instant Angel Lipid-Rich Firming Moisturizer
 
 Instant Angel Lipid-Rich Firming Moisturizer
-Instant Angel Lipid-Rich Firming Moisturizer · Dieux · $45
+Instant Angel Lipid-Rich Firming Moisturizer · Dieux · $45.0
 
 **출처:** Source · us_beauty

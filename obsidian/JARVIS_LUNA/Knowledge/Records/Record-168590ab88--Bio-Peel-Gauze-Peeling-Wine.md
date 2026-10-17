@@ -2,7 +2,7 @@
 title: "Record 168590ab88 · Bio-Peel-Gauze-Peeling-Wine"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.194424+00:00
+updated_at: 2026-10-17T16:14:09.085146+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["의료바이오"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/neogen-bio-peel-gauze-peeling-wine"
 **제목:** Bio-Peel Gauze Peeling Wine
 
 Bio-Peel Gauze Peeling Wine
-Bio-Peel Gauze Peeling Wine · NEOGEN · $27
+Bio-Peel Gauze Peeling Wine · NEOGEN · $27.0
 
 **출처:** Source · us_beauty

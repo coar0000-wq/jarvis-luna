@@ -2,7 +2,7 @@
 title: "Record 579267447e · The-Giving-Essence"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.205138+00:00
+updated_at: 2026-10-17T16:14:09.091624+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["미분류"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/then-i-met-you-the-giving-essence"
 **제목:** The Giving Essence
 
 The Giving Essence
-The Giving Essence · Then I Met You · $53
+The Giving Essence · Then I Met You · $53.0
 
 **출처:** Source · us_beauty

@@ -2,7 +2,7 @@
 title: "Record 974418d0f5 · Bio-Peel-Gauze-Peeling-Lemon"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.193928+00:00
+updated_at: 2026-10-17T16:14:09.084878+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["의료바이오"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/neogen-bio-peel-gauze-peeling-lemon"
 **제목:** Bio-Peel Gauze Peeling Lemon
 
 Bio-Peel Gauze Peeling Lemon
-Bio-Peel Gauze Peeling Lemon · NEOGEN · $27
+Bio-Peel Gauze Peeling Lemon · NEOGEN · $27.0
 
 **출처:** Source · us_beauty

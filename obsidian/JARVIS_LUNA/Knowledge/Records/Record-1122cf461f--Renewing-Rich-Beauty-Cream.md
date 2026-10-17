@@ -2,7 +2,7 @@
 title: "Record 1122cf461f · Renewing-Rich-Beauty-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.203914+00:00
+updated_at: 2026-10-17T16:14:09.090935+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/then-i-met-you-renewing-rich-beauty-cream"
 **제목:** Renewing Rich Beauty Cream
 
 Renewing Rich Beauty Cream
-Renewing Rich Beauty Cream · Then I Met You · $60
+Renewing Rich Beauty Cream · Then I Met You · $60.0
 
 **출처:** Source · us_beauty

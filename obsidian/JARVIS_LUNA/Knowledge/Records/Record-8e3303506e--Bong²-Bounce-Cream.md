@@ -2,7 +2,7 @@
 title: "Record 8e3303506e · Bong²-Bounce-Cream"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T22:24:13.202704+00:00
+updated_at: 2026-10-17T16:14:09.090182+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://sokoglam.com/products/then-i-met-you-bong2-bounce-cream"
 **제목:** Bong² Bounce Cream
 
 Bong² Bounce Cream
-Bong² Bounce Cream · Then I Met You · $46
+Bong² Bounce Cream · Then I Met You · $46.0
 
 **출처:** Source · us_beauty

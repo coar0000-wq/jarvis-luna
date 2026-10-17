@@ -2,7 +2,7 @@
 title: "Record 86783d94e8 · Hyaluronic-Acid-Serum"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:52.748617+00:00
+updated_at: 2026-10-17T16:14:09.706684+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://www.ulta.com/p/hyaluronic-acid-serum-pimprod2023925"
 **제목:** Hyaluronic Acid Serum
 
 Hyaluronic Acid Serum
-Hyaluronic Acid Serum · Good Molecules · $4.8
+Hyaluronic Acid Serum · Good Molecules · $6
 
 **출처:** Source · us_beauty

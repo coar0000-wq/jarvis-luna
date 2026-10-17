@@ -2,7 +2,7 @@
 title: "Record 3b7d9ab514 · 7-Color-LED-Photon-Super-Mask--NIR-Technology"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:52.413229+00:00
+updated_at: 2026-10-17T16:14:09.691896+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["미분류"]
@@ -17,6 +17,6 @@ url: "https://www.ulta.com/p/7-color-led-photon-super-mask-nir-technology-mkt770
 **제목:** 7 Color LED Photon Super Mask + NIR Technology
 
 7 Color LED Photon Super Mask + NIR Technology
-7 Color LED Photon Super Mask + NIR Technology · Glo24k · $202.99
+7 Color LED Photon Super Mask + NIR Technology · Glo24k · $188.99
 
 **출처:** Source · us_beauty
