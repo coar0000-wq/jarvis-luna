@@ -1,16 +1,16 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-17T04:58:56.767933+00:00",
-  "s_count": 8,
+  "generated_at": "2026-10-17T06:20:49.979765+00:00",
+  "s_count": 7,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
     {
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 100,
-      "why": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
-      "global": "Skin1004 Madagascar Centella Ampoule",
-      "channel": "tiktok_shop_us",
+      "why": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "global": "Time Revolution Night Repair Ampoule 5X",
+      "channel": "sokoglam_us",
       "tokens": [
         "ampoule"
       ]
@@ -19,9 +19,9 @@
       "pd_no": "1055167",
       "name": "본셉 레티놀 500 IU 세럼 30 ml",
       "score": 98,
-      "why": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 88% · 토큰 retinol, serum",
-      "global": "Some By Mi Retinol Intense Reactivating Serum",
-      "channel": "tiktok_shop_us",
+      "why": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
+      "global": "Expert Retinol Super Bounce Serum",
+      "channel": "sokoglam_us",
       "tokens": [
         "retinol",
         "serum"
@@ -31,9 +31,9 @@
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 98,
-      "why": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
-      "global": "Skin1004 Madagascar Centella Ampoule",
-      "channel": "tiktok_shop_us",
+      "why": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "global": "Time Revolution Night Repair Ampoule 5X",
+      "channel": "sokoglam_us",
       "tokens": [
         "ampoule"
       ]
@@ -63,18 +63,6 @@
       ]
     },
     {
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "score": 86,
-      "why": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "global": "ANUA Heartleaf 77 Soothing Toner",
-      "channel": "tiktok_shop_us",
-      "tokens": [
-        "calming",
-        "toner"
-      ]
-    },
-    {
       "pd_no": "1074979",
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "score": 85,
@@ -86,15 +74,13 @@
       ]
     },
     {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "score": 82,
-      "why": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:match_too_weak",
-      "global": "Freshly Juiced Vitamin C Drop",
-      "channel": "sokoglam_us",
-      "tokens": [
-        "vitaminc"
-      ]
+      "pd_no": "1072800",
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "score": 75,
+      "why": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)",
+      "global": null,
+      "channel": null,
+      "tokens": []
     }
   ],
   "gaps": [],

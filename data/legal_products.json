@@ -90,7 +90,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-17T02:50:09.309661+00:00",
+      "auto_checked_at": "2026-10-17T06:20:14.543555+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -146,7 +146,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-17T02:50:09.310972+00:00",
+      "auto_checked_at": "2026-10-17T06:20:14.544196+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -202,7 +202,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-17T02:50:09.311738+00:00",
+      "auto_checked_at": "2026-10-17T06:20:14.544976+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -264,70 +264,11 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-17T02:50:09.308906+00:00",
+      "auto_checked_at": "2026-10-17T06:20:14.542796+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
       "canonical_product_id": "CP000106",
-      "effective_legal_pass": false,
-      "claims_review": {
-        "scope": "fda_cosmetic_wording_only",
-        "status": "NOT_REVIEWED_NO_COPY",
-        "flagged_terms": [],
-        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
-        "safety_approval": false,
-        "overall_legal_clearance": false,
-        "owner_approved_nonpublic_draft": true
-      }
-    },
-    "1053482": {
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
-        },
-        "actual_label_review": {
-          "ok": false,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": false,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": false,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": false,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-17T02:50:09.310319+00:00",
-      "hs_code": "3304.99",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
-      "canonical_product_id": "CP000125",
       "effective_legal_pass": false,
       "claims_review": {
         "scope": "fda_cosmetic_wording_only",
@@ -384,66 +325,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-17T02:50:09.311945+00:00",
-      "hs_code": "3304.99",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
-      "claims_review": {
-        "scope": "fda_cosmetic_wording_only",
-        "status": "NOT_REVIEWED_NO_COPY",
-        "flagged_terms": [],
-        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
-        "safety_approval": false,
-        "overall_legal_clearance": false,
-        "owner_approved_nonpublic_draft": true
-      }
-    },
-    "1068733": {
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "canonical_product_id": "CP000231",
-      "status": "auto_checked",
-      "effective_legal_pass": false,
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
-        },
-        "actual_label_review": {
-          "ok": false,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": false,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": false,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": false,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-17T02:50:09.312128+00:00",
+      "auto_checked_at": "2026-10-17T06:20:14.545164+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -502,7 +384,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-17T02:50:09.312309+00:00",
+      "auto_checked_at": "2026-10-17T06:20:14.545574+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -515,16 +397,72 @@
         "overall_legal_clearance": false,
         "owner_approved_nonpublic_draft": true
       }
+    },
+    "1072800": {
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "canonical_product_id": "CP000256",
+      "status": "auto_checked",
+      "effective_legal_pass": false,
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, net_contents, manufacturer, country_of_origin, product_name_en, directions_en, warnings_en"
+        },
+        "actual_label_review": {
+          "ok": false,
+          "detail": "Product-specific human-approved actual label evidence required"
+        },
+        "responsible_person": {
+          "ok": false,
+          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+        },
+        "manufacturer_product_safety": {
+          "ok": false,
+          "detail": "Product-specific manufacturer safety evidence with human approval required"
+        },
+        "human_legal_approval": {
+          "ok": false,
+          "detail": "Human legal approval required; automation never creates PASS"
+        }
+      },
+      "auto_blockers": [
+        "label_fields",
+        "actual_label_review",
+        "responsible_person",
+        "manufacturer_product_safety",
+        "human_legal_approval"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "auto_checked_at": "2026-10-17T06:20:14.545340+00:00",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": false
+      }
     }
   },
   "auto_summary": {
-    "checked": 8,
+    "checked": 7,
     "clean": 3,
-    "needs_attention": 5,
+    "needs_attention": 4,
     "pass": 3,
-    "out_of_scope": 25
+    "out_of_scope": 26
   },
-  "auto_checked_at": "2026-10-17T02:50:09.312321+00:00",
+  "auto_checked_at": "2026-10-17T06:20:14.545587+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -1508,14 +1446,79 @@
         "auto_checked_at": "2026-10-11T13:21:29.980594+00:00"
       }
     },
-    "1072800": {
-      "name": "줌 바이 정샘물 세범다운 쿠션",
+    "1053482": {
+      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
       "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
-      "뺀_시각": "2026-10-11T13:31:25.861234+00:00",
+      "뺀_시각": "2026-10-17T06:20:14.537989+00:00",
       "마지막_판정": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
       "row": {
-        "name": "줌 바이 정샘물 세범다운 쿠션",
-        "canonical_product_id": "CP000256",
+        "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          },
+          "actual_label_review": {
+            "ok": false,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": false,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": false,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": false,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "auto_blockers": [
+          "label_fields",
+          "actual_label_review",
+          "responsible_person",
+          "manufacturer_product_safety",
+          "human_legal_approval"
+        ],
+        "needs_attention": true,
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+        "auto_checked_at": "2026-10-17T02:50:09.310319+00:00",
+        "hs_code": "3304.99",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+        "canonical_product_id": "CP000125",
+        "effective_legal_pass": false,
+        "claims_review": {
+          "scope": "fda_cosmetic_wording_only",
+          "status": "NOT_REVIEWED_NO_COPY",
+          "flagged_terms": [],
+          "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+          "safety_approval": false,
+          "overall_legal_clearance": false,
+          "owner_approved_nonpublic_draft": true
+        }
+      }
+    },
+    "1068733": {
+      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-17T06:20:14.538008+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "row": {
+        "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
+        "canonical_product_id": "CP000231",
         "status": "auto_checked",
         "effective_legal_pass": false,
         "auto_checks": {
@@ -1558,9 +1561,21 @@
         "needs_attention": true,
         "hard_block": true,
         "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-        "auto_checked_at": "2026-10-11T13:21:29.983722+00:00"
+        "auto_checked_at": "2026-10-17T02:50:09.312128+00:00",
+        "hs_code": "3304.99",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+        "claims_review": {
+          "scope": "fda_cosmetic_wording_only",
+          "status": "NOT_REVIEWED_NO_COPY",
+          "flagged_terms": [],
+          "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+          "safety_approval": false,
+          "overall_legal_clearance": false,
+          "owner_approved_nonpublic_draft": true
+        }
       }
     }
   },
-  "_범위": "지금 S등급 8건만 점검한다. 출처는 canonical registry-bound score/master current S union. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
+  "_범위": "지금 S등급 7건만 점검한다. 출처는 canonical registry-bound score/master current S union. S등급에서 빠진 상품은 out_of_scope 로 옮기고 점검·집계에서 뺀다. 지우지는 않으므로 다시 S등급이 되면 그때까지의 판정이 살아난다. 예전에는 한 번 들어온 상품을 영원히 보존해서, 팔 계획도 없는 상품 때문에 고칠 수 없는 차단 경고가 계속 떴다."
 }

@@ -1,12 +1,12 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-10-17T04:58:56.767973+00:00",
+  "generated_at": "2026-10-17T06:20:49.979985+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
     {
       "priority": 2,
-      "title": "채널 시그널 점검 (13/14 라이브)",
+      "title": "채널 시그널 점검 (0/14 라이브)",
       "detail": "empty/수동·낡은 채널 갱신",
       "refs": [
         "data/agents/signal_audit.json"
@@ -15,7 +15,7 @@
     },
     {
       "priority": 3,
-      "title": "S등급 8건 중 게이트 통과분 Shopify draft 등록",
+      "title": "S등급 7건 중 게이트 통과분 Shopify draft 등록",
       "detail": "운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지",
       "refs": [
         "data/shopify_exports/manifest.json",
@@ -37,7 +37,7 @@
     {
       "priority": 4,
       "title": "팀 자동조치 감시 · 마케팅 조사팀",
-      "detail": "고시 표 3건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721 / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용",
+      "detail": "고시 표 3건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] / 1072800 줌 바이 정샘물 세범다운…",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -61,11 +61,11 @@
     "items": [
       {
         "n": 1,
-        "text": "채널 시그널 점검 (13/14 라이브) — empty/수동·낡은 채널 갱신"
+        "text": "채널 시그널 점검 (0/14 라이브) — empty/수동·낡은 채널 갱신"
       },
       {
         "n": 2,
-        "text": "S등급 8건 중 게이트 통과분 Shopify draft 등록 — 운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지"
+        "text": "S등급 7건 중 게이트 통과분 Shopify draft 등록 — 운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지"
       },
       {
         "n": 3,

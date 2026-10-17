@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T11:50:09.948199+09:00",
+  "generated_at": "2026-10-17T15:20:15.168723+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -3517,41 +3517,6 @@
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "product": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "grade": "S",
-      "score": 86,
-      "agent_ready": false,
-      "public_ready": false,
-      "recommended_insight_ids": [
-        "MKT-002",
-        "MKT-003",
-        "MKT-004",
-        "MKT-016",
-        "MKT-023",
-        "MKT-025",
-        "MKT-026",
-        "MKT-032",
-        "MKT-034",
-        "MKT-035",
-        "MKT-047",
-        "MKT-049",
-        "MKT-051",
-        "MKT-013",
-        "MKT-014",
-        "MKT-015"
-      ],
-      "organic_first_actions": [
-        "구매 질문형 PDP/FAQ 초안",
-        "제품 제형·사용 순서 숏폼 콘티",
-        "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
-      ],
-      "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "고민 키워드는 탐색 태그로만 사용하고 임상·치료 효과로 확대하지 않음"
-    },
-    {
       "canonical_product_id": "CP000267",
       "pd_no": "1074979",
       "product": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
@@ -3587,12 +3552,12 @@
       "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
-      "canonical_product_id": "CP000231",
-      "pd_no": "1068733",
-      "product": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
+      "canonical_product_id": "CP000256",
+      "pd_no": "1072800",
+      "product": "줌 바이 정샘물 세범다운 쿠션",
+      "bucket": "메이크업",
       "grade": "S",
-      "score": 82,
+      "score": 75,
       "agent_ready": false,
       "public_ready": false,
       "recommended_insight_ids": [
@@ -3609,7 +3574,6 @@
         "MKT-047",
         "MKT-049",
         "MKT-051",
-        "MKT-013",
         "MKT-014",
         "MKT-015"
       ],
@@ -3772,9 +3736,9 @@
     "Social Paradigm Group 영상의 대행사·브랜드 규모 홍보와 보편 매출·전환 벤치마크는 제외하고 단위경제 선행 진단과 자사 기준선 판정 원칙만 채택"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-17T02:50:09.837734+00:00",
-    "s_product_count": 8,
-    "product_playbook_count": 8,
+    "listing_gate_generated_at": "2026-10-17T06:20:15.058289+00:00",
+    "s_product_count": 7,
+    "product_playbook_count": 7,
     "public_ready_count": 0,
     "agent_ready_count": 0
   }

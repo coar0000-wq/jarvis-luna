@@ -68,51 +68,6 @@
       "replacement_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49"
     },
     {
-      "path": "data/shopify_listing_copy.json",
-      "base_sha256": "d78925ffbe4772a4e5ecbd7b5e162c2346f79c6a0558faa8f36fda3dced68c05",
-      "replacement_sha256": "426f9ccbfdaaf246d86b319085ab0482955792dd97a98ffcd8d270bba2e5065f",
-      "base_commit": "8efbdbb62ad0b4ab2e4eaa35cc23a547e6ca472d",
-      "ids": [
-        "1027327",
-        "1042619",
-        "1049285",
-        "1059834",
-        "1072554",
-        "1075857"
-      ],
-      "delete_file": false,
-      "policy_ref": "scripts/build_listing_copy_local.py",
-      "reason": "Retired canonical S draft rows moved to preserved non-approval draft_history; current rows exactly match canonical S and current gate. Exact prior bytes remain in Git."
-    },
-    {
-      "path": "data/shopify_import_report.json",
-      "base_commit": "8efbdbb62ad0b4ab2e4eaa35cc23a547e6ca472d",
-      "base_sha256": "90968bb0bc0560be8134a53b101e1959229f24f59195ea07ea32441fe732e536",
-      "replacement_sha256": "e765d0cf5388d1b1350901ee09d45239a9abec87f3d110935a5493559317f58d",
-      "ids": [
-        "1027327",
-        "1042619",
-        "1049285",
-        "1059834",
-        "1072554",
-        "1075857"
-      ],
-      "delete_file": false,
-      "policy_ref": "scripts/build_shopify_import_csv.py",
-      "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted."
-    },
-    {
-      "path": "data/daiso_real/collection_status.json",
-      "base_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49",
-      "ids": [
-        "Frankfurter API 1,341.49(2026-10-09)",
-        "exchangerate-api 1,341.69(2026-10-11)"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/amazon_products.json",
       "base_sha256": "02e5ca8d0c9910477b9137751b72601868642ae671342ff815ba4849b5152f9f",
       "ids": [
@@ -292,6 +247,43 @@
         "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSnRBNm05UW1lS1RaNm5BODVzTFM0dXdhVWFkek1iaDVlTTJCckRnZkdrYWROWHBGeVBsb05YSDVJTXh6bDRBWnhScXNBcWZsemxDZlJoTU03WDMyZjVVSDRscUYxMUMzZzU5OXk1c2hPT0dRb1VxejgtRmU2ajZNT19ESDE5RGU4WEJieHZfZ2F1UQ?oc=5",
         "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRWt6d09fSG1VMUd5SXEwMVZZQ1NQWE0xWXJUUkZROTh0WU1yVVRLSzZKVXNuSmFVNnlPY3lTNE9oR3MyV0l0bTU2TXRVRHdPMXlZSHhPN3FKTG9Tb1lVZkE0dFVKYUtFUEVPekpQMHJGOWdSSDN3N0F3UFp6N0xaajRxMzc4UFdveUJOdS16MlNzM1d3akpUZUF2Ni1Ic0hac3ktQkFDbU5PYlE5U1E?oc=5",
         "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX2ltdnRiRjBTaXpKMGZhUDhXNWs5U1BhUjRsRGRMMHk3YUpXN3lyUk1tbkk1aHBQdmtZU3NUZWhMRm1qckJZejZZdHVMZXZoZHphOWFwSk5OSXNUdFNHMlJTVEVqRWxmcUVqS3llbHpLc0NfZU5lS1VBcWx5Z3JuRFlYWEswbDducjYwcU9aUTBRd3FhWGNzWXhmeXlnYWtnSkV1QkZMdWk4eDRrazZTRU03VHRaNFRuZEtyNUZoRzdLU0o0c3AtTGpESldkZw?oc=5"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/shopify_listing_copy.json",
+      "base_sha256": "426f9ccbfdaaf246d86b319085ab0482955792dd97a98ffcd8d270bba2e5065f",
+      "replacement_sha256": "987abf6d6e9d816134bfd9d1b3d19522eace10d823f635709a6c418443e81455",
+      "base_commit": "d85106bcc3741e9699fed2256e3144405f8b2b72",
+      "ids": [
+        "1053482",
+        "1068733"
+      ],
+      "delete_file": false,
+      "policy_ref": "scripts/build_listing_copy_local.py",
+      "reason": "Retired canonical S draft rows moved to preserved non-approval draft_history; current rows exactly match canonical S and current gate. Exact prior bytes remain in Git."
+    },
+    {
+      "path": "data/shopify_import_report.json",
+      "base_commit": "d85106bcc3741e9699fed2256e3144405f8b2b72",
+      "base_sha256": "e765d0cf5388d1b1350901ee09d45239a9abec87f3d110935a5493559317f58d",
+      "replacement_sha256": "392cf0ea28185870d8f2df51c167120b9e60ccb86dae27720b353ff14378a337",
+      "ids": [
+        "1053482",
+        "1068733"
+      ],
+      "delete_file": false,
+      "policy_ref": "scripts/build_shopify_import_csv.py",
+      "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted."
+    },
+    {
+      "path": "data/daiso_real/collection_status.json",
+      "base_sha256": "3d68729a2b4fc4faa85cce0b5c11eae3aa0ce349b58eb4f3b9311cd2402e6f2f",
+      "ids": [
+        "Frankfurter API 1,336.79(2026-10-14)",
+        "exchangerate-api 1,339.81(2026-10-15)"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

@@ -1,13 +1,13 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-10-17T04:58:56.767945+00:00",
-  "s_count": 8,
+  "generated_at": "2026-10-17T06:20:49.979778+00:00",
+  "s_count": 7,
   "registerable_count": 0,
   "csv_path": "data/shopify_exports/products.csv",
   "manifest_path": "data/shopify_exports/manifest.json",
   "items": [],
   "legal_blocks": [
-    "차단 5건: [피부결케어]VT 리들샷 10(자동 점검 미통과: lab), 메디필 엑스트라 슈퍼 9 플러(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+    "차단 4건: [피부결케어]VT 리들샷 10(자동 점검 미통과: lab), 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
   ],
   "suggestions": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "action": "resolve_legal_blocks",
-      "detail": "차단 5건: [피부결케어]VT 리들샷 10(자동 점검 미통과: lab), 메디필 엑스트라 슈퍼 9 플러(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
+      "detail": "차단 4건: [피부결케어]VT 리들샷 10(자동 점검 미통과: lab), 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
     }
   ]
 }

@@ -1,58 +1,58 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-17T06:08:23.160427+00:00",
+  "generated_at": "2026-10-17T06:20:15.058289+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "98f25f9277862046d95542c5d2485e5aacdaf0256a87dc0a449507971bf45007",
+      "data/product_master.json": "d3194d13ca683c98e36b5455b0470ff766d70bc7713ade89960051611af030bf",
       "data/gosi.json": "9957b715738857ece0929e82a179e94fb54bf1ce3527ccac08895cbbf14204ae",
-      "data/daiso_real/daiso_us_labels.json": "fa428b266597f92fe48eca79f9f822efdaa65d8ffdad6dfd45ff1ab81f5d5a43",
-      "data/pricing_model.json": "d806d8e2f7fa4a1de16ecb7e91210103426bf1ed4490572d92a45f015633cd59",
-      "data/legal_products.json": "e9fa06c6035b11ee506f6548d76db8022e4433d1e13b920b473c365cadddf77a",
-      "data/daiso_real/shopify_s_recommendations.json": "e3467be114fa6657ffa081238b5030c8e264f9e0a64813667c708d0a9c8a4351",
-      "data/shopify_listing_copy.json": "2437b6addd34c2a38a5c334e4f92031ce1e4d5a7e9af9165013f51c73c135c60",
-      "data/shopify_shortlist.json": "9ede6f0772598b1e01c8f00f8f2106768c9ae54323de739ddd1a92d364982b1c",
-      "data/legal_full.json": "fbe290100830c1df0275b2e56571d5bea050fb0e1423f9e43ac8ead568b2d17e",
-      "data/mocra_readiness.json": "c4a52fdb825d0f7b6e39fb9dd59983aae145c0c20944343a3d03c539e520c2e8",
+      "data/daiso_real/daiso_us_labels.json": "7a4ecd57b4edae204299ea2e71a14f13b7f77f5a1cef56eb77326ba759d628c8",
+      "data/pricing_model.json": "73179bb168e45fe7f0a9fdd2093d7b889f101a8017b33b7169f126c6694b35b6",
+      "data/legal_products.json": "b0e47ea07a86c29bd865fad6a01c45f13e1cdb25cf5633eb11f7a85693f13ab1",
+      "data/daiso_real/shopify_s_recommendations.json": "dbcf31ef40943d8bbeabe595a419556db631097345981b470b6d0bbb6f14f85c",
+      "data/shopify_listing_copy.json": "141d8cf3e77594212726b9cded932f08330bf22604f3977b2e53813692ecc514",
+      "data/shopify_shortlist.json": "ad0bd0a93d3a2a4103156804812250880717de56267a657660b71684d93524bc",
+      "data/legal_full.json": "4d1102e1c9a323b4872784a88a28c9137e6d706a6ea90904178fa2811f115fd5",
+      "data/mocra_readiness.json": "864702369d469879d5dd7ff1899efab917aca8aa7bd2f5a3fea779f0dc539e77",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
       "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
       "data/manual/owner_draft_approvals.json": "c9314abe5f1e4a58067adbc6b18a3894082c018a8dfa3ad6f9acfeab8a64e20d",
       "data/us_claim_rules.json": "d0ea3f50a5601b9e7e6ebc17cc931b7f89735c12223d6fe6463169c942456732",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
       "config/daiso_commerce_strategy.json": "5be122dd5b362e272306426b9dd5a08e9812a33c6699f7d56d6a443b352b37d2",
-      "masked/manufacturer_safety_record": "571d55f781ea49448707b7c6439f551c52b746b067ce3358292bdbbc088d6358",
+      "masked/manufacturer_safety_record": "d77fd639a012be272427ae7a18c79b6423d5f677771a7a3cbd641f24450daa77",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "adb857742bd4bc5f5621a8c26b8457dd0159e45a9b517db33082b7626f320550"
+    "recommendations_sha256": "18dcf34035fdfb6b71b6d2cd63421db4a58764f3d021a75b6016dafd641bad14"
   },
-  "total": 8,
+  "total": 7,
   "agent_ready": 0,
   "ready": 0,
   "draft_ready": 0,
   "public_ready": 0,
   "counts": {
-    "ontology": 8,
+    "ontology": 7,
     "copy": 0,
-    "gosi": 5,
-    "us_label": 5,
-    "price": 4,
+    "gosi": 4,
+    "us_label": 4,
+    "price": 3,
     "legal": 3,
     "manufacturer_safety_record": 0,
     "legal_full": 0
   },
   "blockers": {
-    "copy": 8,
+    "copy": 7,
     "gosi": 3,
     "us_label": 3,
     "price": 4,
-    "legal": 5,
-    "manufacturer_safety_record": 8
+    "legal": 4,
+    "manufacturer_safety_record": 7
   },
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "d243f360e43314c55da753cd23fb80ae61bc226985e53e071d94355e35bedebb",
+    "strategy_sha256": "6c318440d199c36befa879170bf431ce1f092c7d73c91c85b033f35af2c29c2c",
     "margin_hard_block": false,
     "products_with_profit_warnings": 2,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
@@ -60,22 +60,28 @@
   "typesafe_summary": {
     "framework": "typesafe_system_one_compatible",
     "mode_counts": {
-      "disabled_local_advisory": 8
+      "disabled_local_advisory": 7
     },
     "typesafe_calls": null,
     "free_credits_only": 0,
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "ledger_unavailable",
+      "stopped": "",
+      "global_stopped": "",
+      "workflow_stopped": "",
+      "workflow_id": "Shopify 영문 리스팅 카피 생성:39009423799:1",
+      "estimated_cost_usd": 0.0,
+      "account_estimated_cost_usd": 0.000544698,
+      "purchased_credits": false,
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "purchased_credits": false
+      "input_token_price_per_mtok_usd": 0.042
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
     "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 검증된 계정의 무료 크레딧 증빙과 공유 누적 한도 내에서만 가능하며 유료 override는 없다."
   },
-  "count": 8,
+  "count": 7,
   "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
   "items": [
     {
@@ -106,7 +112,7 @@
       },
       "price": {
         "price_usd": 23.99,
-        "margin_pct": 61.1,
+        "margin_pct": 61.0,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -193,13 +199,13 @@
       },
       "price": {
         "price_usd": 15.99,
-        "margin_pct": 31.9,
+        "margin_pct": 31.6,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_target:31.9%<40.0%"
+          "margin_below_target:31.6%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -282,7 +288,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 59.5,
+        "margin_pct": 59.4,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -379,13 +385,13 @@
       },
       "price": {
         "price_usd": 17.99,
-        "margin_pct": 35.1,
+        "margin_pct": 34.9,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
         "profit_warnings": [
-          "margin_below_target:35.1%<40.0%"
+          "margin_below_target:34.9%<40.0%"
         ],
         "blocks_registration": false
       },
@@ -468,7 +474,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 48.8,
+        "margin_pct": 48.6,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -546,97 +552,6 @@
     },
     {
       "rank": 6,
-      "canonical_product_id": "CP000125",
-      "pd_no": "1053482",
-      "product_id": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "category": "스킨케어",
-      "price_krw": 5000,
-      "shopify_score": 86,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "copy": {},
-      "copy_status": "skipped_prerequisite",
-      "gosi": {
-        "volume": "200ml",
-        "maker": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
-        "origin": "한국",
-        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 프로판다이올, 솔비톨, 부틸렌글라이콜, 나이아신아마이드, 아이소펜틸다이올, 글리세레스-25피씨에이아이소스테아레이트, 판테놀, 글리세릴글루코사이드, 하이드록시아세토페논, 1,2",
-        "gosi_ok": true
-      },
-      "us_label": {
-        "net_contents": "200ml",
-        "manufacturer": "화장품제조업자: 제품 내 별도표기 / 화장품책임판매업자: 주식회사 스킨이데아",
-        "country_of_origin": "Korea",
-        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Propanediol, Sorbitol, Butylene Glycol, Niacinamide, Isopentyldiol, Glycereth-25 PCA Isostearate, Panthenol, Glyceryl Glucoside, Hydroxyacetophenone, 1,2-Hexanediol, Caprylyl Glycol, Ectoin, Fagus Sylvatica Bud Extract, Chamomilla Recutita (Matricaria) Flower Extract, Enantia Chlorantha Bark Extract, Hamamelis Virginiana (Witch Hazel) Extract, Betaine, Citric Acid, Gluconolactone, Lactic Acid, Salicylic Acid, Capryloyl Salicylic Acid, Xylitylglucoside, Anhydroxylitol, Xylitol, Vitis Vinifera (Grape) Fruit Extract, Diospyros Kaki Leaf Extract, Coffea Arabica (Coffee) Seed Extract, Polygonum Cuspidatum Root Extract, Carthamus Tinctorius (Safflower) Flower Extract, Camellia Sinensis Leaf Extract, Castanea Crenata (Chestnut) Shell Extract Castanea Crenata Shell Extract, Zanthoxylum Piperitum Fruit Extract, Butyl Avocadate, Centella Asiatica Extract, Ethylhexylglycerin, Glucose, Oleanolic Acid, Prunus Mume Fruit Extract, Malus Domestica Fruit Extract, Carica Papaya (Papaya) Fruit Extract, Citrus Junos Fruit Extract, Pinus Densiflora Leaf Extract, Artemisia Annua Extract, Polyglyceryl-10 Laurate, Benzyl Glycol, Hydrolyzed Glycosaminoglycans, Sodium Hyaluronate, Tocopherol, Lactobacillus/Soybean Ferment Extract, Portulaca Oleracea Extract, Origanum Vulgare Leaf Extract, Cinnamomum Cassia Bark Extract, Salix Alba (Willow) Bark Extract, Scutellaria Baicalensis Root Extract, Sodium Hyaluronate Crosspolymer, Chamaecyparis Obtusa Leaf Extract, Hydrolyzed Hyaluronic Acid, Acetyl Hexapeptide-8, Copper Tripeptide-1, Tripeptide-1, Palmitoyl Pentapeptide-4, Hydroxypropyltrimonium Hyaluronate, Alanine/Histidine/Lysine Polypeptide Copper HCl, Palmitoyl Tripeptide-1, Hexapeptide-9, Hyaluronic Acid, Sodium Acetylated Hyaluronate, Solanum Melongena (Eggplant) Fruit Extract, Magnolia Kobus Bark Extract, Terminalia Ferdinandiana Fruit Extract, Myrciaria Dubia Fruit Extract, Gardenia Florida Fruit Extract, Adenosine, Disodium EDTA, Allantoin, Mentha Piperita (Peppermint) Oil, Dipotassium Glycyrrhizate",
-        "us_label_ok": true
-      },
-      "price": {
-        "price_usd": 30.99,
-        "margin_pct": 56.6,
-        "register_blocked": false,
-        "price_evidence_ok": true,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [],
-        "profit_warnings": [],
-        "blocks_registration": false
-      },
-      "legal": {
-        "status": "auto_checked",
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
-      },
-      "manufacturer_safety_record": {
-        "covered": false,
-        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
-      },
-      "agent_ready": false,
-      "agent_blocked_by": [
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "ready": false,
-      "blocked_by": [
-        "copy",
-        "legal",
-        "manufacturer_safety_record_missing"
-      ],
-      "public_ready": false,
-      "public_blocked_by": [
-        "copy",
-        "legal",
-        "manufacturer_safety_record_missing",
-        "legal_full"
-      ],
-      "legal_full_complete": false,
-      "typesafe": {
-        "framework": "typesafe_system_one_compatible",
-        "enabled": false,
-        "mode": "disabled_local_advisory",
-        "source": "deterministic_local",
-        "paid_api_called": false,
-        "enforced": false,
-        "grade_advisory": "hold",
-        "legal_gate_advisory": "block",
-        "risk_level": "critical",
-        "risk_points": 8,
-        "team_routes": [
-          "legal",
-          "listing"
-        ],
-        "model_route": "human",
-        "model_route_confidence": null,
-        "findings": [
-          "draft blockers: copy, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, legal, manufacturer_safety_record_missing, legal_full",
-          "legal hard block",
-          "TypeSafe local fallback: disabled_local_advisory"
-        ],
-        "confidence": null,
-        "usage": null
-      }
-    },
-    {
-      "rank": 7,
       "canonical_product_id": "CP000267",
       "pd_no": "1074979",
       "product_id": "1074979",
@@ -663,7 +578,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 56.2,
+        "margin_pct": 56.1,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -740,15 +655,15 @@
       }
     },
     {
-      "rank": 8,
-      "canonical_product_id": "CP000231",
-      "pd_no": "1068733",
-      "product_id": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "category": "스킨케어",
+      "rank": 7,
+      "canonical_product_id": "CP000256",
+      "pd_no": "1072800",
+      "product_id": "1072800",
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "category": "메이크업",
       "price_krw": 5000,
-      "shopify_score": 82,
-      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
+      "shopify_score": 75,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
       "copy": {},
       "copy_status": "skipped_prerequisite",
       "gosi": {
@@ -767,7 +682,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 52.0,
+        "margin_pct": 48.6,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",

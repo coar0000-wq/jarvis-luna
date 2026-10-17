@@ -1,7 +1,7 @@
 {
   "agent": "Signal-Audit",
-  "generated_at": "2026-10-17T04:58:56.767914+00:00",
-  "live_channels": 13,
+  "generated_at": "2026-10-17T06:20:49.979743+00:00",
+  "live_channels": 0,
   "total_channels": 14,
   "empty_or_failed": [
     {
@@ -10,9 +10,92 @@
       "status": "stale"
     }
   ],
-  "stale_or_manual": [],
+  "stale_or_manual": [
+    {
+      "channel": "allure_media",
+      "count": 30,
+      "status": "stale",
+      "note": "allure.com/feed/rss"
+    },
+    {
+      "channel": "amazon_best_sellers",
+      "count": 46,
+      "status": "stale",
+      "note": "amazon.com/gp/bestsellers/beauty (실수집)"
+    },
+    {
+      "channel": "amazon_movers_beauty",
+      "count": 0,
+      "status": "stale",
+      "note": "amazon.com/gp/movers-and-shakers/beauty (실수집)"
+    },
+    {
+      "channel": "amazon_new_beauty",
+      "count": 46,
+      "status": "stale",
+      "note": "amazon.com/gp/new-releases/beauty (실수집)"
+    },
+    {
+      "channel": "google_trends_us",
+      "count": 40,
+      "status": "stale",
+      "note": "google news rss (beauty queries) + trends daily filtered"
+    },
+    {
+      "channel": "oliveyoung_us",
+      "count": 60,
+      "status": "stale",
+      "note": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "channel": "open_beauty_facts",
+      "count": 60,
+      "status": "stale",
+      "note": "world.openbeautyfacts.org /api/v2 (오픈데이터)"
+    },
+    {
+      "channel": "openfda_sunscreen",
+      "count": 20,
+      "status": "stale",
+      "note": "api.fda.gov/drug/label (openFDA 공식)"
+    },
+    {
+      "channel": "sephora",
+      "count": 14,
+      "status": "stale",
+      "note": "공개 페이지 직접 파싱"
+    },
+    {
+      "channel": "sokoglam_us",
+      "count": 60,
+      "status": "stale",
+      "note": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)"
+    },
+    {
+      "channel": "tiktok_shop_us",
+      "count": 15,
+      "status": "unverified",
+      "note": "공개 페이지 직접 파싱"
+    },
+    {
+      "channel": "ulta_beauty",
+      "count": 60,
+      "status": "stale",
+      "note": "공개 페이지 직접 파싱"
+    }
+  ],
   "severity": true,
   "suggestions": [
+    {
+      "action": "refresh_stale_channels",
+      "channels": [
+        "allure_media",
+        "amazon_best_sellers",
+        "amazon_movers_beauty",
+        "amazon_new_beauty",
+        "google_trends_us"
+      ]
+    },
     {
       "action": "investigate_empty_channels",
       "channels": [

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T02:50:09.660551+00:00",
+  "generated_at": "2026-10-17T06:20:14.886167+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -42,9 +42,9 @@
       "business_ready": false,
       "score": 100,
       "evidence": {
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "channel": "tiktok_shop_us",
-        "similarity": 0.7
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "channel": "sokoglam_us",
+        "similarity": 0.667
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",
@@ -65,9 +65,9 @@
       "business_ready": false,
       "score": 98,
       "evidence": {
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "channel": "tiktok_shop_us",
-        "similarity": 0.88
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "channel": "sokoglam_us",
+        "similarity": 0.853
       },
       "added_at": "2026-09-29T10:03:26.384563+00:00",
       "status": "active",
@@ -128,17 +128,6 @@
       "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, price, us_label"
     },
     {
-      "unit_id": "VG-CP000125",
-      "pd_nos": [
-        "1053482"
-      ],
-      "names": [
-        "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml"
-      ],
-      "score": 86,
-      "reason": "게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing"
-    },
-    {
       "unit_id": "VG-CP000267",
       "pd_nos": [
         "1074979"
@@ -150,14 +139,14 @@
       "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, price, us_label"
     },
     {
-      "unit_id": "VG-CP000231",
+      "unit_id": "VG-CP000256",
       "pd_nos": [
-        "1068733"
+        "1072800"
       ],
       "names": [
-        "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g"
+        "줌 바이 정샘물 세범다운 쿠션"
       ],
-      "score": 82,
+      "score": 75,
       "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, price, us_label"
     }
   ],

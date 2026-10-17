@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T02:50:09.054935+00:00",
+  "generated_at": "2026-10-17T06:20:14.294717+00:00",
   "total_products": 356,
   "grade_summary": {
-    "S": 8,
-    "A": 85,
+    "S": 7,
+    "A": 86,
     "B": 48,
     "C": 215
   },
   "s_slot_limit": 10,
-  "s_slot_open": 4,
+  "s_slot_open": 5,
   "category_desks": {
     "skincare": {
       "name": "스킨케어 전담팀",
@@ -16,7 +16,7 @@
         "스킨케어"
       ],
       "s_quota": 10,
-      "s_count": 6
+      "s_count": 5
     },
     "makeup": {
       "name": "메이크업 전담팀",
@@ -58,7 +58,7 @@
     "amazon_movers_beauty",
     "amazon_new_beauty"
   ],
-  "global_demand_signals": 328,
+  "global_demand_signals": 314,
   "products_with_global_match": 166,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
@@ -112,7 +112,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -120,26 +120,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -159,9 +149,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000107",
       "desk": "skincare",
       "s_rank": 1
@@ -190,7 +190,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 12,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -198,28 +198,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.88,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.44
+        "match_score": 0.405
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-          "similarity": 0.88,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.44
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Expert Retinol Super Bounce Serum",
@@ -241,9 +230,19 @@
             "serum"
           ],
           "match_score": 0.363
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.263
         }
       ],
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 88% · 토큰 retinol, serum",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
       "canonical_product_id": "CP000130",
       "desk": "skincare",
       "s_rank": 3
@@ -272,7 +271,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -280,26 +279,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -319,9 +308,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000106",
       "desk": "skincare",
       "s_rank": 2
@@ -490,86 +489,6 @@
       "s_rank": 5
     },
     {
-      "pd_no": "1053482",
-      "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
-      "bucket": "스킨케어",
-      "site_category": "스킨/토너",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 592,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
-      "shopify_score": 86,
-      "grade": "S",
-      "s_rule": "multi_token",
-      "us_market_hits": 1,
-      "us_median_price_usd": 25.99,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 16.8,
-        "price": 10.0,
-        "keyword": 3,
-        "us_market_fit": 18.4,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 14,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.6,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "calming",
-          "toner"
-        ],
-        "match_score": 0.57
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.6,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "calming",
-            "toner"
-          ],
-          "match_score": 0.57
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Round Lab Dokdo Toner",
-          "similarity": 0.333,
-          "demand_weight": 0.65,
-          "matched_tokens": [
-            "toner"
-          ],
-          "match_score": 0.217
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Rice Toner",
-          "similarity": 0.4,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "toner"
-          ],
-          "match_score": 0.19
-        }
-      ],
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
-      "canonical_product_id": "CP000125",
-      "desk": "skincare",
-      "s_rank": 6
-    },
-    {
       "pd_no": "1074979",
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "bucket": "스킨케어",
@@ -646,86 +565,46 @@
       "canonical_product_id": "CP000267",
       "desk": "makeup",
       "desk_note": "메이크업 전담팀 기준: 점수 85 ≥ 75, 미국 실판매 유사 13건",
-      "s_rank": 7
+      "s_rank": 6
     },
     {
-      "pd_no": "1068733",
-      "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
-      "bucket": "스킨케어",
+      "pd_no": "1072800",
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "bucket": "메이크업",
       "site_category": "베이스메이크업",
       "rebucketed": false,
       "price_krw": 5000,
-      "rating": 4.4,
-      "review_count": 423,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
-      "shopify_score": 82,
+      "rating": 4.6,
+      "review_count": 1267,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
+      "shopify_score": 75,
       "grade": "S",
       "s_rule": "category_desk_us_evidence",
-      "us_market_hits": 23,
-      "us_median_price_usd": 22.5,
+      "us_market_hits": 2,
+      "us_median_price_usd": 32.0,
       "score_breakdown": {
-        "category": 25.0,
-        "rating": 6.7,
-        "reviews": 15.9,
+        "category": 19.0,
+        "rating": 10.0,
+        "reviews": 18.8,
         "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 19.0,
+        "keyword": 0,
+        "us_market_fit": 17.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "sokoglam_us",
-        "global_product": "Freshly Juiced Vitamin C Drop",
-        "similarity": 0.4,
-        "demand_weight": 0.76,
-        "matched_tokens": [
-          "vitaminc"
-        ],
-        "match_score": 0.304
-      },
-      "global_matches": [
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Freshly Juiced Vitamin C Drop",
-          "similarity": 0.4,
-          "demand_weight": 0.76,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.304
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.3,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.225
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
-          "similarity": 0.36,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.212
-        }
-      ],
-      "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:match_too_weak",
-      "canonical_product_id": "CP000231",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "메이크업 카테고리 · 평점 4.6 · 리뷰 1,267건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000256",
       "desk": "makeup",
-      "desk_note": "메이크업 전담팀 기준: 점수 82 ≥ 75, 미국 실판매 유사 23건",
-      "s_rank": 8
+      "desk_note": "메이크업 전담팀 기준: 점수 75 ≥ 75, 미국 실판매 유사 2건",
+      "s_rank": 7
     }
   ],
   "all_scored": [
@@ -753,7 +632,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -761,26 +640,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -800,9 +669,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000107",
       "desk": "skincare",
       "s_rank": 1
@@ -908,7 +787,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 12,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -916,28 +795,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.88,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.44
+        "match_score": 0.405
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-          "similarity": 0.88,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.44
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Expert Retinol Super Bounce Serum",
@@ -959,9 +827,19 @@
             "serum"
           ],
           "match_score": 0.363
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.263
         }
       ],
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 88% · 토큰 retinol, serum",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
       "canonical_product_id": "CP000130",
       "desk": "skincare",
       "s_rank": 3
@@ -990,7 +868,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -998,26 +876,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -1037,9 +905,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000106",
       "desk": "skincare",
       "s_rank": 2
@@ -1068,7 +946,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1076,26 +954,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -1115,9 +983,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000085",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
@@ -1146,7 +1024,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1154,26 +1032,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -1193,9 +1061,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000117",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
@@ -1224,7 +1102,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1232,26 +1110,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -1271,9 +1139,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000197",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
@@ -1331,16 +1209,6 @@
           "match_score": 0.304
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.3,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.225
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
           "similarity": 0.36,
@@ -1349,6 +1217,16 @@
             "vitaminc"
           ],
           "match_score": 0.212
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.42,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.199
         }
       ],
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:match_too_weak",
@@ -1379,7 +1257,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1387,26 +1265,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -1426,9 +1294,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000101",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
@@ -1539,7 +1417,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1547,28 +1425,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.68,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.34
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-          "similarity": 0.68,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.34
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Expert Retinol Super Bounce Serum",
@@ -1590,9 +1457,19 @@
             "serum"
           ],
           "match_score": 0.278
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.215
         }
       ],
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 68% · 토큰 retinol, serum",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum",
       "canonical_product_id": "CP000251",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -1650,16 +1527,6 @@
           "match_score": 0.38
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
           "similarity": 0.46,
@@ -1668,88 +1535,21 @@
             "vitaminc"
           ],
           "match_score": 0.27
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.52,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.247
         }
       ],
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 50% · 토큰 vitaminc · S제외:match_too_weak",
       "canonical_product_id": "CP000181",
       "desk": null
-    },
-    {
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
-      "bucket": "스킨케어",
-      "site_category": "에센스/세럼/앰플",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1595,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
-      "shopify_score": 96,
-      "grade": "A",
-      "s_rule": "match_too_weak",
-      "us_market_hits": 21,
-      "us_median_price_usd": 24.4,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 19.4,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 24.8,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.3
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Time Revolution Night Repair Ampoule 5X",
-          "similarity": 0.367,
-          "demand_weight": 0.617,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.226
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.4,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.196
-        }
-      ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak",
-      "canonical_product_id": "CP000100",
-      "desk": "skincare"
     },
     {
       "pd_no": "1067500",
@@ -1828,6 +1628,83 @@
       "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak",
       "canonical_product_id": "CP000218",
       "desk": null
+    },
+    {
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "site_category": "에센스/세럼/앰플",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1595,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251002/dGPcdv5GMSvAapO6LS5d1048581_00_00dGPcdv5GMSvAapO6LS5d.png",
+      "shopify_score": 96,
+      "grade": "A",
+      "s_rule": "match_too_weak",
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.4,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 19.4,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.367,
+        "demand_weight": 0.617,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.226
+      },
+      "global_matches": [
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Revolution Night Repair Ampoule 5X",
+          "similarity": 0.367,
+          "demand_weight": 0.617,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.226
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.4,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
+        }
+      ],
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak",
+      "canonical_product_id": "CP000100",
+      "desk": "skincare"
     },
     {
       "pd_no": "1064419",
@@ -2055,24 +1932,24 @@
           "match_score": 0.405
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.5,
-          "demand_weight": 0.6,
+          "channel": "oliveyoung_us",
+          "global_product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
+          "similarity": 0.553,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "collagen"
           ],
-          "match_score": 0.3
+          "match_score": 0.271
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
+          "similarity": 0.5,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.245
         }
       ],
       "recommend_reason": "글로벌 'Time Stop Collagen Ampoule' (sokoglam_us) 유사 85% · 토큰 ampoule, collagen",
@@ -3118,86 +2995,6 @@
       "downgrade_reason": "전담팀 범위 밖 카테고리"
     },
     {
-      "pd_no": "1041749",
-      "name": "식물원 병풀 클리어 앰플 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "에센스/세럼/앰플",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.8,
-      "review_count": 461,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/ymPUxMwICZXjc3irnJAl1041749_00_00ymPUxMwICZXjc3irnJAl.jpg",
-      "shopify_score": 91,
-      "grade": "A",
-      "s_rule": "form_cap",
-      "us_market_hits": 22,
-      "us_median_price_usd": 24.9,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 13.3,
-        "reviews": 16.1,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 21.2,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 17,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.92,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule",
-          "centella"
-        ],
-        "match_score": 0.69
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.92,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule",
-            "centella"
-          ],
-          "match_score": 0.69
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Purito Centella Unscented Serum",
-          "similarity": 0.52,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.26
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Time Revolution Night Repair Ampoule 5X",
-          "similarity": 0.367,
-          "demand_weight": 0.617,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.226
-        }
-      ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 92% · 토큰 ampoule, centella",
-      "canonical_product_id": "CP000067",
-      "desk": "skincare",
-      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
-    },
-    {
       "pd_no": "1071644",
       "name": "파티온 노스카나인 퍼스트스텝 흔적수분크림 50 ml",
       "bucket": "스킨케어",
@@ -3278,6 +3075,83 @@
       "canonical_product_id": "CP000242",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
+    },
+    {
+      "pd_no": "1041749",
+      "name": "식물원 병풀 클리어 앰플 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "에센스/세럼/앰플",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.8,
+      "review_count": 461,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20231201/ymPUxMwICZXjc3irnJAl1041749_00_00ymPUxMwICZXjc3irnJAl.jpg",
+      "shopify_score": 91,
+      "grade": "A",
+      "s_rule": "match_too_weak",
+      "us_market_hits": 22,
+      "us_median_price_usd": 24.9,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 13.3,
+        "reviews": 16.1,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 21.2,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.367,
+        "demand_weight": 0.617,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.226
+      },
+      "global_matches": [
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Revolution Night Repair Ampoule 5X",
+          "similarity": 0.367,
+          "demand_weight": 0.617,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.226
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Madagascar Centella Travel Kit",
+          "similarity": 0.5,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.212
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.4,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.196
+        }
+      ],
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak",
+      "canonical_product_id": "CP000067",
+      "desk": "skincare"
     },
     {
       "pd_no": "1062135",
@@ -3380,7 +3254,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3388,28 +3262,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.88,
-        "demand_weight": 0.6,
+        "channel": "sokoglam_us",
+        "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "collagen",
           "mask"
         ],
-        "match_score": 0.528
+        "match_score": 0.405
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.88,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "collagen",
-            "mask"
-          ],
-          "match_score": 0.528
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
@@ -3431,9 +3294,19 @@
             "mask"
           ],
           "match_score": 0.36
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
+          "similarity": 0.553,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.271
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 88% · 토큰 collagen, mask",
+      "recommend_reason": "글로벌 'Bio Collagen-Real Deep Mask (4 Pack)' (sokoglam_us) 유사 85% · 토큰 collagen, mask",
       "canonical_product_id": "CP000151",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -3794,26 +3667,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "COSRX Advanced Snail 96 Mucin Essence",
-        "similarity": 0.28,
-        "demand_weight": 0.9,
+        "channel": "sokoglam_us",
+        "global_product": "Advanced Snail 96 Mucin Power Essence",
+        "similarity": 0.272,
+        "demand_weight": 0.855,
         "matched_tokens": [
           "essence"
         ],
-        "match_score": 0.252
+        "match_score": 0.233
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "COSRX Advanced Snail 96 Mucin Essence",
-          "similarity": 0.28,
-          "demand_weight": 0.9,
-          "matched_tokens": [
-            "essence"
-          ],
-          "match_score": 0.252
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Advanced Snail 96 Mucin Power Essence",
@@ -3833,9 +3696,19 @@
             "essence"
           ],
           "match_score": 0.152
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "The Giving Essence",
+          "similarity": 0.293,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.139
         }
       ],
-      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Advanced Snail 96 Mucin Power Essence' (sokoglam_us) 유사 27% · 토큰 essence · S제외:weak_solo_token",
       "canonical_product_id": "CP000340",
       "desk": "skincare"
     },
@@ -3957,7 +3830,7 @@
         "keyword": 3,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3965,26 +3838,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
         "similarity": 0.272,
-        "demand_weight": 0.6,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.163
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -4004,9 +3867,19 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Yuzu Vitamin C Sleep Mask",
+          "similarity": 0.267,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:weak_solo_token",
       "canonical_product_id": "CP000029",
       "desk": null
     },
@@ -4034,7 +3907,7 @@
         "keyword": 0,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4042,26 +3915,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Medicube Zero Pore Pad",
+        "channel": "sokoglam_us",
+        "global_product": "Pore Cleansing Oil [BHA]",
         "similarity": 0.433,
-        "demand_weight": 0.8,
+        "demand_weight": 0.712,
         "matched_tokens": [
           "pore"
         ],
-        "match_score": 0.347
+        "match_score": 0.309
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Medicube Zero Pore Pad",
-          "similarity": 0.433,
-          "demand_weight": 0.8,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.347
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Pore Cleansing Oil [BHA]",
@@ -4082,9 +3945,20 @@
             "pore"
           ],
           "match_score": 0.303
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Clear Improvement Active Charcoal Face Mask to Clear Pores",
+          "similarity": 0.689,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "mask",
+            "pore"
+          ],
+          "match_score": 0.293
         }
       ],
-      "recommend_reason": "글로벌 'Medicube Zero Pore Pad' (tiktok_shop_us) 유사 43% · 토큰 pore · S제외:match_too_weak",
+      "recommend_reason": "글로벌 'Pore Cleansing Oil [BHA]' (sokoglam_us) 유사 43% · 토큰 pore · S제외:match_too_weak",
       "canonical_product_id": "CP000157",
       "desk": null
     },
@@ -4193,7 +4067,7 @@
         "keyword": 3,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4201,28 +4075,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
-        "similarity": 0.68,
-        "demand_weight": 0.6,
+        "channel": "sokoglam_us",
+        "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "collagen",
           "mask"
         ],
-        "match_score": 0.408
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.68,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "collagen",
-            "mask"
-          ],
-          "match_score": 0.408
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
@@ -4243,9 +4106,19 @@
             "collagen"
           ],
           "match_score": 0.222
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
+          "similarity": 0.4,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.196
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 68% · 토큰 collagen, mask",
+      "recommend_reason": "글로벌 'Bio Collagen-Real Deep Mask (4 Pack)' (sokoglam_us) 유사 65% · 토큰 collagen, mask",
       "canonical_product_id": "CP000075",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -4262,8 +4135,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053482",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/S3WHamdJK4z5s7WVkYus1053482_00_00S3WHamdJK4z5s7WVkYus.jpg",
       "shopify_score": 86,
-      "grade": "S",
-      "s_rule": "multi_token",
+      "grade": "A",
+      "s_rule": "match_too_weak",
       "us_market_hits": 1,
       "us_median_price_usd": 25.99,
       "score_breakdown": {
@@ -4274,7 +4147,7 @@
         "keyword": 3,
         "us_market_fit": 18.4,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 5,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4282,38 +4155,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.6,
-        "demand_weight": 0.95,
+        "channel": "sokoglam_us",
+        "global_product": "Rice Toner",
+        "similarity": 0.4,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "calming",
           "toner"
         ],
-        "match_score": 0.57
+        "match_score": 0.19
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.6,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "calming",
-            "toner"
-          ],
-          "match_score": 0.57
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Round Lab Dokdo Toner",
-          "similarity": 0.333,
-          "demand_weight": 0.65,
-          "matched_tokens": [
-            "toner"
-          ],
-          "match_score": 0.217
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Rice Toner",
@@ -4323,12 +4174,31 @@
             "toner"
           ],
           "match_score": 0.19
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Hydrating Milky Toner",
+          "similarity": 0.28,
+          "demand_weight": 0.595,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.167
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Torriden Dive-in Toner 10.14 fl. oz.(300ml)",
+          "similarity": 0.3,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "toner"
+          ],
+          "match_score": 0.147
         }
       ],
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 60% · 토큰 calming, toner",
+      "recommend_reason": "글로벌 'Rice Toner' (sokoglam_us) 유사 40% · 토큰 toner · S제외:match_too_weak",
       "canonical_product_id": "CP000125",
-      "desk": "skincare",
-      "s_rank": 6
+      "desk": "skincare"
     },
     {
       "pd_no": "1059091",
@@ -4354,7 +4224,7 @@
         "keyword": 5,
         "us_market_fit": 12.4,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4362,26 +4232,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.367,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.3
+        "match_score": 0.226
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -4401,9 +4261,19 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:match_too_weak",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak",
       "canonical_product_id": "CP000144",
       "desk": "skincare"
     },
@@ -4439,26 +4309,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "COSRX Advanced Snail 96 Mucin Essence",
-        "similarity": 0.28,
-        "demand_weight": 0.9,
+        "channel": "sokoglam_us",
+        "global_product": "Advanced Snail 96 Mucin Power Essence",
+        "similarity": 0.272,
+        "demand_weight": 0.855,
         "matched_tokens": [
           "essence"
         ],
-        "match_score": 0.252
+        "match_score": 0.233
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "COSRX Advanced Snail 96 Mucin Essence",
-          "similarity": 0.28,
-          "demand_weight": 0.9,
-          "matched_tokens": [
-            "essence"
-          ],
-          "match_score": 0.252
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Advanced Snail 96 Mucin Power Essence",
@@ -4478,9 +4338,19 @@
             "essence"
           ],
           "match_score": 0.152
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "The Giving Essence",
+          "similarity": 0.293,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "essence"
+          ],
+          "match_score": 0.139
         }
       ],
-      "recommend_reason": "글로벌 'COSRX Advanced Snail 96 Mucin Essence' (tiktok_shop_us) 유사 28% · 토큰 essence · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Advanced Snail 96 Mucin Power Essence' (sokoglam_us) 유사 27% · 토큰 essence · S제외:weak_solo_token",
       "canonical_product_id": "CP000159",
       "desk": null
     },
@@ -4875,7 +4745,7 @@
       "canonical_product_id": "CP000267",
       "desk": "makeup",
       "desk_note": "메이크업 전담팀 기준: 점수 85 ≥ 75, 미국 실판매 유사 13건",
-      "s_rank": 7
+      "s_rank": 6
     },
     {
       "pd_no": "1049277",
@@ -4932,16 +4802,6 @@
           "match_score": 0.335
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.37,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.277
-        },
-        {
           "channel": "amazon_new_beauty",
           "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
           "similarity": 0.6,
@@ -4952,6 +4812,17 @@
             "mask"
           ],
           "match_score": 0.27
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.433,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "hydrating",
+            "mask"
+          ],
+          "match_score": 0.184
         }
       ],
       "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 49% · 토큰 calming, centella · S제외:match_too_weak",
@@ -5771,8 +5642,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/rb7tUhT1C5xKYvlAevXm1068733_00_00rb7tUhT1C5xKYvlAevXm.jpg",
       "shopify_score": 82,
-      "grade": "S",
-      "s_rule": "category_desk_us_evidence",
+      "grade": "A",
+      "s_rule": "otc_drug",
       "us_market_hits": 23,
       "us_median_price_usd": 22.5,
       "score_breakdown": {
@@ -5785,8 +5656,8 @@
         "rebucket_note": "",
         "global_similarity_reference_only": 8,
         "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
+        "us_block_kind": "otc_drug",
+        "us_block_reason": "고시 확인: 고시 기능성 화장품: 미백 / 주름개선 / 자외선차단(SPF50+, PA++++) 3중 기능성 - 미국에서 OTC 의약품(Drug Facts 라벨 필요)",
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
@@ -5812,16 +5683,6 @@
           "match_score": 0.304
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.3,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.225
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
           "similarity": 0.36,
@@ -5830,13 +5691,21 @@
             "vitaminc"
           ],
           "match_score": 0.212
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.42,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.199
         }
       ],
-      "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:match_too_weak",
+      "recommend_reason": "미국 판매 제약: 고시 확인: 고시 기능성 화장품: 미백 / 주름개선 / 자외선차단(SPF50+, PA++++) 3중 기능성 - 미국에서 OTC 의약품(Drug Facts 라벨 필요)",
       "canonical_product_id": "CP000231",
-      "desk": "makeup",
-      "desk_note": "메이크업 전담팀 기준: 점수 82 ≥ 75, 미국 실판매 유사 23건",
-      "s_rank": 8
+      "desk": "makeup"
     },
     {
       "pd_no": "1044110",
@@ -6232,24 +6101,25 @@
           "match_score": 0.403
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.42,
-          "demand_weight": 0.75,
+          "channel": "amazon_new_beauty",
+          "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
+          "similarity": 0.5,
+          "demand_weight": 0.45,
+          "matched_tokens": [
+            "calming",
+            "hydrating"
+          ],
+          "match_score": 0.225
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Madagascar Centella Travel Kit",
+          "similarity": 0.4,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.315
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.3,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "calming"
-          ],
-          "match_score": 0.285
+          "match_score": 0.17
         }
       ],
       "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 59% · 토큰 calming, centella · S제외:score_below_82",
@@ -6311,24 +6181,25 @@
           "match_score": 0.403
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.42,
-          "demand_weight": 0.75,
+          "channel": "amazon_new_beauty",
+          "global_product": "TONYMOLY I'm Face Sheet Masks - Hydrating & Soothing Korean Skincare",
+          "similarity": 0.5,
+          "demand_weight": 0.45,
+          "matched_tokens": [
+            "calming",
+            "mask"
+          ],
+          "match_score": 0.225
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Madagascar Centella Travel Kit",
+          "similarity": 0.4,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.315
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.3,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "calming"
-          ],
-          "match_score": 0.285
+          "match_score": 0.17
         }
       ],
       "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 59% · 토큰 calming, centella · S제외:score_below_82",
@@ -6624,7 +6495,7 @@
         "keyword": 0,
         "us_market_fit": 16.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -6632,26 +6503,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.52,
-        "demand_weight": 0.75,
+        "channel": "ulta_beauty",
+        "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+        "similarity": 0.456,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "centella"
         ],
-        "match_score": 0.39
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.52,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.39
-        },
         {
           "channel": "ulta_beauty",
           "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
@@ -6663,17 +6524,27 @@
           "match_score": 0.31
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Purito Centella Unscented Serum",
-          "similarity": 0.52,
-          "demand_weight": 0.5,
+          "channel": "ulta_beauty",
+          "global_product": "Madagascar Centella Travel Kit",
+          "similarity": 0.5,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.26
+          "match_score": 0.212
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "La Roche-Posay Cicaplast Balm B5, Barrier Repair Cream for Dry Skin | Skin healing cream with centella asiatica, shea butter & panthenol. Multi-purpose face, body & hand balm. Baby safe.",
+          "similarity": 0.439,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.209
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 46% · 토큰 centella · S제외:score_below_82",
       "canonical_product_id": "CP000059",
       "desk": null
     },
@@ -6738,7 +6609,7 @@
         "keyword": 3,
         "us_market_fit": 17.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -6746,26 +6617,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.52,
-        "demand_weight": 0.75,
+        "channel": "ulta_beauty",
+        "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+        "similarity": 0.456,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "centella"
         ],
-        "match_score": 0.39
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.52,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.39
-        },
         {
           "channel": "ulta_beauty",
           "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
@@ -6777,17 +6638,27 @@
           "match_score": 0.31
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Purito Centella Unscented Serum",
-          "similarity": 0.52,
-          "demand_weight": 0.5,
+          "channel": "ulta_beauty",
+          "global_product": "Madagascar Centella Travel Kit",
+          "similarity": 0.5,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.26
+          "match_score": 0.212
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "La Roche-Posay Cicaplast Balm B5, Barrier Repair Cream for Dry Skin | Skin healing cream with centella asiatica, shea butter & panthenol. Multi-purpose face, body & hand balm. Baby safe.",
+          "similarity": 0.439,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "centella"
+          ],
+          "match_score": 0.209
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 52% · 토큰 centella · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 46% · 토큰 centella · S제외:score_below_82",
       "canonical_product_id": "CP000061",
       "desk": null
     },
@@ -7011,8 +6882,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260105/BBuw9crU6REV3VrtkYez1072800_00_00BBuw9crU6REV3VrtkYez.jpg",
       "shopify_score": 75,
-      "grade": "A",
-      "s_rule": "rank_cap",
+      "grade": "S",
+      "s_rule": "category_desk_us_evidence",
       "us_market_hits": 2,
       "us_median_price_usd": 32.0,
       "score_breakdown": {
@@ -7036,7 +6907,7 @@
       "canonical_product_id": "CP000256",
       "desk": "makeup",
       "desk_note": "메이크업 전담팀 기준: 점수 75 ≥ 75, 미국 실판매 유사 2건",
-      "downgrade_reason": "메이크업 전담팀 정원 2개 밖"
+      "s_rank": 7
     },
     {
       "pd_no": "1061880",
@@ -7287,7 +7158,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7295,36 +7166,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.293,
-        "demand_weight": 1.0,
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "similarity": 0.272,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.293
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.293,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -7334,9 +7185,29 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.133
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000145",
       "desk": "skincare"
     },
@@ -7518,7 +7389,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7526,36 +7397,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.293,
-        "demand_weight": 1.0,
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "similarity": 0.272,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.293
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.293,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -7565,242 +7416,31 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.133
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000150",
       "desk": null
-    },
-    {
-      "pd_no": "1057357",
-      "name": "VT 리들샷 500 페이셜 부스팅 퍼스트 앰플 2 ml*8개입",
-      "bucket": "스킨케어",
-      "site_category": "에센스/세럼/앰플",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057357",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260903/enudAwqph38oKmPNOHcz1057357_00_01enudAwqph38oKmPNOHcz.jpg",
-      "shopify_score": 65,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 21,
-      "us_median_price_usd": 24.4,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 24.8,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 14,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.525
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Time Revolution Night Repair Ampoule 5X",
-          "similarity": 0.667,
-          "demand_weight": 0.617,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.411
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.343
-        }
-      ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
-      "canonical_product_id": "CP000141",
-      "desk": "skincare"
-    },
-    {
-      "pd_no": "1060644",
-      "name": "더랩 바이 블랑두 클리어 히알 물광 부스터 앰플 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "에센스/세럼/앰플",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060644",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/wfPC4Z9JWor0Iq7HY3ZD1060644_00_00wfPC4Z9JWor0Iq7HY3ZD.jpg",
-      "shopify_score": 65,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 21,
-      "us_median_price_usd": 24.4,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 24.8,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 14,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.525
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Time Revolution Night Repair Ampoule 5X",
-          "similarity": 0.667,
-          "demand_weight": 0.617,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.411
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.343
-        }
-      ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
-      "canonical_product_id": "CP000165",
-      "desk": "skincare"
-    },
-    {
-      "pd_no": "1071642",
-      "name": "파티온 노스카나인 퍼스트스텝 흔적앰플 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "에센스/세럼/앰플",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071642",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251202/EGzX930is0fvOMC37MbX1071642_00_00EGzX930is0fvOMC37MbX.png",
-      "shopify_score": 65,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 21,
-      "us_median_price_usd": 24.4,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 24.8,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 14,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
-        "matched_tokens": [
-          "ampoule"
-        ],
-        "match_score": 0.525
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Time Revolution Night Repair Ampoule 5X",
-          "similarity": 0.667,
-          "demand_weight": 0.617,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.411
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
-          "similarity": 0.7,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.343
-        }
-      ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
-      "canonical_product_id": "CP000241",
-      "desk": "skincare"
     },
     {
       "pd_no": "1061697",
@@ -7961,6 +7601,237 @@
       "desk": "body"
     },
     {
+      "pd_no": "1057357",
+      "name": "VT 리들샷 500 페이셜 부스팅 퍼스트 앰플 2 ml*8개입",
+      "bucket": "스킨케어",
+      "site_category": "에센스/세럼/앰플",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057357",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260903/enudAwqph38oKmPNOHcz1057357_00_01enudAwqph38oKmPNOHcz.jpg",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.4,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 11,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.411
+      },
+      "global_matches": [
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Revolution Night Repair Ampoule 5X",
+          "similarity": 0.667,
+          "demand_weight": 0.617,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.411
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.7,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
+        }
+      ],
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
+      "canonical_product_id": "CP000141",
+      "desk": "skincare"
+    },
+    {
+      "pd_no": "1060644",
+      "name": "더랩 바이 블랑두 클리어 히알 물광 부스터 앰플 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "에센스/세럼/앰플",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060644",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/wfPC4Z9JWor0Iq7HY3ZD1060644_00_00wfPC4Z9JWor0Iq7HY3ZD.jpg",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.4,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 11,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.411
+      },
+      "global_matches": [
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Revolution Night Repair Ampoule 5X",
+          "similarity": 0.667,
+          "demand_weight": 0.617,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.411
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.7,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
+        }
+      ],
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
+      "canonical_product_id": "CP000165",
+      "desk": "skincare"
+    },
+    {
+      "pd_no": "1071642",
+      "name": "파티온 노스카나인 퍼스트스텝 흔적앰플 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "에센스/세럼/앰플",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071642",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251202/EGzX930is0fvOMC37MbX1071642_00_00EGzX930is0fvOMC37MbX.png",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 21,
+      "us_median_price_usd": 24.4,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 11,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
+        "matched_tokens": [
+          "ampoule"
+        ],
+        "match_score": 0.411
+      },
+      "global_matches": [
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Revolution Night Repair Ampoule 5X",
+          "similarity": 0.667,
+          "demand_weight": 0.617,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.411
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.7,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
+        }
+      ],
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
+      "canonical_product_id": "CP000241",
+      "desk": "skincare"
+    },
+    {
       "pd_no": "1072419",
       "name": "SNP 프렙 미간 주름패치 8개입",
       "bucket": "스킨케어",
@@ -8092,17 +7963,6 @@
           "match_score": 0.353
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
-          "similarity": 0.634,
-          "demand_weight": 0.55,
-          "matched_tokens": [
-            "serum",
-            "vitaminc"
-          ],
-          "match_score": 0.349
-        },
-        {
           "channel": "sokoglam_us",
           "global_product": "Dermalogy Real Vitamin C Serum",
           "similarity": 0.68,
@@ -8112,6 +7972,16 @@
             "vitaminc"
           ],
           "match_score": 0.323
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Freshly Juiced Vitamin C Drop",
+          "similarity": 0.4,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.304
         }
       ],
       "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
@@ -8142,7 +8012,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8150,26 +8020,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.367,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.3
+        "match_score": 0.226
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -8189,9 +8049,19 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000232",
       "desk": "skincare"
     },
@@ -9427,7 +9297,7 @@
         "keyword": 5,
         "us_market_fit": 19.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9435,26 +9305,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.367,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.3
+        "match_score": 0.226
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -9474,9 +9334,19 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000246",
       "desk": "skincare"
     },
@@ -9823,7 +9693,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9831,28 +9701,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.68,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.34
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-          "similarity": 0.68,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.34
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Expert Retinol Super Bounce Serum",
@@ -9874,9 +9733,20 @@
             "serum"
           ],
           "match_score": 0.278
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.5,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask",
+            "serum"
+          ],
+          "match_score": 0.245
         }
       ],
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 68% · 토큰 retinol, serum · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum · S제외:score_below_82",
       "canonical_product_id": "CP000127",
       "desk": null
     },
@@ -10015,16 +9885,6 @@
           "match_score": 0.304
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.3,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.225
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
           "similarity": 0.36,
@@ -10033,6 +9893,16 @@
             "vitaminc"
           ],
           "match_score": 0.212
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.42,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.199
         }
       ],
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:score_below_82",
@@ -10394,14 +10264,14 @@
           "match_score": 0.192
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.25,
-          "demand_weight": 0.75,
+          "channel": "sokoglam_us",
+          "global_product": "Expert Retinol Super Bounce Serum",
+          "similarity": 0.337,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "ampoule"
+            "retinol"
           ],
-          "match_score": 0.188
+          "match_score": 0.16
         }
       ],
       "recommend_reason": "글로벌 'Retinol Expert 0.1%' (sokoglam_us) 유사 40% · 토큰 retinol · S제외:score_below_82",
@@ -10509,7 +10379,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -10517,36 +10387,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.293,
-        "demand_weight": 1.0,
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "similarity": 0.272,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.293
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.293,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -10556,9 +10406,29 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.133
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000012",
       "desk": null
     },
@@ -10859,83 +10729,6 @@
       "desk": null
     },
     {
-      "pd_no": "1004153",
-      "name": "에센셜 마스크시트 그린티",
-      "bucket": "마스크팩",
-      "site_category": "시트팩",
-      "rebucketed": false,
-      "price_krw": 500,
-      "rating": 4.8,
-      "review_count": 543,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004153",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/bTJY6z043hsBAqIzrKBN1004153_00_00bTJY6z043hsBAqIzrKBN.jpg",
-      "shopify_score": 57,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 13.3,
-        "reviews": 16.6,
-        "price": 4.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 7,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.293,
-        "demand_weight": 1.0,
-        "matched_tokens": [
-          "mask"
-        ],
-        "match_score": 0.293
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.293,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.133
-        }
-      ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
-      "canonical_product_id": "CP000021",
-      "desk": null
-    },
-    {
       "pd_no": "1076691",
       "name": "김정문알로에 라센스 로에 큐어 인텐시브 2x 크림 3.5 g",
       "bucket": "스킨케어",
@@ -11088,6 +10881,83 @@
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
       "canonical_product_id": "CP000191",
       "desk": "body"
+    },
+    {
+      "pd_no": "1004153",
+      "name": "에센셜 마스크시트 그린티",
+      "bucket": "마스크팩",
+      "site_category": "시트팩",
+      "rebucketed": false,
+      "price_krw": 500,
+      "rating": 4.8,
+      "review_count": 543,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004153",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260402/bTJY6z043hsBAqIzrKBN1004153_00_00bTJY6z043hsBAqIzrKBN.jpg",
+      "shopify_score": 57,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 13.3,
+        "reviews": 16.6,
+        "price": 4.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 3,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "similarity": 0.272,
+        "demand_weight": 0.49,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.133
+      },
+      "global_matches": [
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+          "similarity": 0.272,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.133
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
+        }
+      ],
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "canonical_product_id": "CP000021",
+      "desk": null
     },
     {
       "pd_no": "1067399",
@@ -11298,7 +11168,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 12,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11306,28 +11176,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.88,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.44
+        "match_score": 0.405
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-          "similarity": 0.88,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.44
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Expert Retinol Super Bounce Serum",
@@ -11349,9 +11208,19 @@
             "serum"
           ],
           "match_score": 0.363
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.263
         }
       ],
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 88% · 토큰 retinol, serum · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum · S제외:score_below_82",
       "canonical_product_id": "CP000302",
       "desk": "skincare"
     },
@@ -11379,7 +11248,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11387,26 +11256,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -11426,9 +11285,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000305",
       "desk": "skincare"
     },
@@ -11456,7 +11325,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11464,26 +11333,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -11503,9 +11362,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000329",
       "desk": "skincare"
     },
@@ -11533,7 +11402,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11541,26 +11410,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -11580,9 +11439,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000309",
       "desk": "skincare"
     },
@@ -11610,7 +11479,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11618,26 +11487,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -11657,9 +11516,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000307",
       "desk": "skincare"
     },
@@ -11687,7 +11556,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11695,26 +11564,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -11734,9 +11593,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000301",
       "desk": "skincare"
     },
@@ -11764,7 +11633,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11772,26 +11641,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -11811,9 +11670,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000310",
       "desk": "skincare"
     },
@@ -11841,7 +11710,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11849,28 +11718,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.68,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.34
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-          "similarity": 0.68,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.34
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Expert Retinol Super Bounce Serum",
@@ -11892,9 +11750,19 @@
             "serum"
           ],
           "match_score": 0.278
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.215
         }
       ],
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 68% · 토큰 retinol, serum · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum · S제외:score_below_82",
       "canonical_product_id": "CP000293",
       "desk": null
     },
@@ -11953,17 +11821,6 @@
           "match_score": 0.353
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Goodal Green Tangerine Vita C Dark Spot Serum",
-          "similarity": 0.634,
-          "demand_weight": 0.55,
-          "matched_tokens": [
-            "serum",
-            "vitaminc"
-          ],
-          "match_score": 0.349
-        },
-        {
           "channel": "sokoglam_us",
           "global_product": "Dermalogy Real Vitamin C Serum",
           "similarity": 0.68,
@@ -11973,6 +11830,16 @@
             "vitaminc"
           ],
           "match_score": 0.323
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Freshly Juiced Vitamin C Drop",
+          "similarity": 0.4,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.304
         }
       ],
       "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
@@ -12032,16 +11899,6 @@
           "match_score": 0.38
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
           "similarity": 0.46,
@@ -12050,6 +11907,16 @@
             "vitaminc"
           ],
           "match_score": 0.27
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.52,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.247
         }
       ],
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 50% · 토큰 vitaminc · S제외:score_below_82",
@@ -12109,16 +11976,6 @@
           "match_score": 0.38
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
           "similarity": 0.46,
@@ -12127,6 +11984,16 @@
             "vitaminc"
           ],
           "match_score": 0.27
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.52,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.247
         }
       ],
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 50% · 토큰 vitaminc · S제외:score_below_82",
@@ -12234,7 +12101,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12242,26 +12109,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.367,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.3
+        "match_score": 0.226
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -12281,9 +12138,19 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000331",
       "desk": "skincare"
     },
@@ -12378,7 +12245,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -12386,26 +12253,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
         "similarity": 0.272,
-        "demand_weight": 0.6,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.163
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -12425,9 +12282,19 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Yuzu Vitamin C Sleep Mask",
+          "similarity": 0.267,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000177",
       "desk": null
     },
@@ -13876,7 +13743,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -13884,28 +13751,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-        "similarity": 0.68,
-        "demand_weight": 0.5,
+        "channel": "sokoglam_us",
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.34
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Some By Mi Retinol Intense Reactivating Serum",
-          "similarity": 0.68,
-          "demand_weight": 0.5,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.34
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Expert Retinol Super Bounce Serum",
@@ -13927,9 +13783,20 @@
             "serum"
           ],
           "match_score": 0.278
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.5,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask",
+            "serum"
+          ],
+          "match_score": 0.245
         }
       ],
-      "recommend_reason": "글로벌 'Some By Mi Retinol Intense Reactivating Serum' (tiktok_shop_us) 유사 68% · 토큰 retinol, serum · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum · S제외:score_below_82",
       "canonical_product_id": "CP000285",
       "desk": null
     },
@@ -14247,24 +14114,24 @@
           "match_score": 0.405
         },
         {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.5,
-          "demand_weight": 0.6,
+          "channel": "oliveyoung_us",
+          "global_product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
+          "similarity": 0.553,
+          "demand_weight": 0.49,
           "matched_tokens": [
             "collagen"
           ],
-          "match_score": 0.3
+          "match_score": 0.271
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
+          "similarity": 0.5,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.245
         }
       ],
       "recommend_reason": "글로벌 'Time Stop Collagen Ampoule' (sokoglam_us) 유사 85% · 토큰 ampoule, collagen · S제외:score_below_82",
@@ -14730,85 +14597,6 @@
       "desk": null
     },
     {
-      "pd_no": "1057355",
-      "name": "에이솔루션 어성초 칼라민 진정콕 스팟 10 ml",
-      "bucket": "스킨케어",
-      "site_category": "스팟케어",
-      "rebucketed": false,
-      "price_krw": 3000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057355",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251128/yyVrsNuBgLTOztuOFsyH1057355_00_00yyVrsNuBgLTOztuOFsyH.png",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 22.99,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 3,
-        "us_market_fit": 12.9,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 21,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "ANUA Heartleaf 77 Soothing Toner",
-        "similarity": 0.92,
-        "demand_weight": 0.95,
-        "matched_tokens": [
-          "calming",
-          "heartleaf"
-        ],
-        "match_score": 0.874
-      },
-      "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "ANUA Heartleaf 77 Soothing Toner",
-          "similarity": 0.92,
-          "demand_weight": 0.95,
-          "matched_tokens": [
-            "calming",
-            "heartleaf"
-          ],
-          "match_score": 0.874
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
-          "similarity": 0.336,
-          "demand_weight": 0.68,
-          "matched_tokens": [
-            "calming"
-          ],
-          "match_score": 0.229
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Calming Lotus Cream",
-          "similarity": 0.4,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "calming"
-          ],
-          "match_score": 0.19
-        }
-      ],
-      "recommend_reason": "글로벌 'ANUA Heartleaf 77 Soothing Toner' (tiktok_shop_us) 유사 92% · 토큰 calming, heartleaf · S제외:score_below_82",
-      "canonical_product_id": "CP000140",
-      "desk": null
-    },
-    {
       "pd_no": "B202604026723",
       "name": "본셉 레티놀 500 IU 크림 50 ml",
       "bucket": "스킨케어",
@@ -15069,7 +14857,7 @@
         "keyword": 5,
         "us_market_fit": 19.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -15077,26 +14865,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.7,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.525
+        "match_score": 0.411
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.7,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.525
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -15116,9 +14894,19 @@
             "ampoule"
           ],
           "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 70% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000312",
       "desk": "skincare"
     },
@@ -15226,7 +15014,7 @@
         "keyword": 5,
         "us_market_fit": 20.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -15234,26 +15022,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Retinol Expert 0.1%",
+        "similarity": 0.553,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "ampoule"
+          "retinol"
         ],
-        "match_score": 0.3
+        "match_score": 0.263
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Retinol Expert 0.1%",
@@ -15273,9 +15051,19 @@
             "retinol"
           ],
           "match_score": 0.263
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Expert Retinol Super Bounce Serum",
+          "similarity": 0.487,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.231
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Retinol Expert 0.1%' (sokoglam_us) 유사 55% · 토큰 retinol · S제외:score_below_82",
       "canonical_product_id": "CP000313",
       "desk": "skincare"
     },
@@ -15392,6 +15180,83 @@
       "recommend_reason": "글로벌 'Eye Gotta Glow Brightening Under-Eye Mask 6-Pack' (ulta_beauty) 유사 34% · 토큰 brightening · S제외:score_below_82",
       "canonical_product_id": "CP000321",
       "desk": "skincare"
+    },
+    {
+      "pd_no": "1057355",
+      "name": "에이솔루션 어성초 칼라민 진정콕 스팟 10 ml",
+      "bucket": "스킨케어",
+      "site_category": "스팟케어",
+      "rebucketed": false,
+      "price_krw": 3000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057355",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251128/yyVrsNuBgLTOztuOFsyH1057355_00_00yyVrsNuBgLTOztuOFsyH.png",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 22.99,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 3,
+        "us_market_fit": 12.9,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 6,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+        "similarity": 0.336,
+        "demand_weight": 0.68,
+        "matched_tokens": [
+          "calming"
+        ],
+        "match_score": 0.229
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+          "similarity": 0.336,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "calming"
+          ],
+          "match_score": 0.229
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Calming Lotus Cream",
+          "similarity": 0.4,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "calming"
+          ],
+          "match_score": 0.19
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] ongredients Skin Barrier Calming Lotion 7.43 fl. oz.(220ml)",
+          "similarity": 0.367,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "calming"
+          ],
+          "match_score": 0.18
+        }
+      ],
+      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 34% · 토큰 calming · S제외:score_below_82",
+      "canonical_product_id": "CP000140",
+      "desk": null
     },
     {
       "pd_no": "B202608127273",
@@ -16142,7 +16007,7 @@
         "keyword": 3,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16150,26 +16015,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Biodance Bio-Collagen Real Deep Mask",
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
         "similarity": 0.272,
-        "demand_weight": 0.6,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.163
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -16189,9 +16044,19 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Yuzu Vitamin C Sleep Mask",
+          "similarity": 0.267,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'Biodance Bio-Collagen Real Deep Mask' (tiktok_shop_us) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000289",
       "desk": null
     },
@@ -16669,7 +16534,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16677,36 +16542,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.293,
-        "demand_weight": 1.0,
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "similarity": 0.272,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.293
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.293,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -16716,9 +16561,29 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.133
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000045",
       "desk": null
     },
@@ -17079,7 +16944,7 @@
         "keyword": 5,
         "us_market_fit": 12.4,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -17087,26 +16952,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "Skin1004 Madagascar Centella Ampoule",
-        "similarity": 0.4,
-        "demand_weight": 0.75,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.367,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.3
+        "match_score": 0.226
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Skin1004 Madagascar Centella Ampoule",
-          "similarity": 0.4,
-          "demand_weight": 0.75,
-          "matched_tokens": [
-            "ampoule"
-          ],
-          "match_score": 0.3
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Time Revolution Night Repair Ampoule 5X",
@@ -17126,9 +16981,19 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
-      "recommend_reason": "글로벌 'Skin1004 Madagascar Centella Ampoule' (tiktok_shop_us) 유사 40% · 토큰 ampoule · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000306",
       "desk": "skincare"
     },
@@ -18230,7 +18095,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -18238,36 +18103,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "tiktok_shop_us",
-        "global_product": "TIRTIR Mask Fit Red Cushion",
-        "similarity": 0.293,
-        "demand_weight": 1.0,
+        "channel": "oliveyoung_us",
+        "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
+        "similarity": 0.272,
+        "demand_weight": 0.49,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.293
+        "match_score": 0.133
       },
       "global_matches": [
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "TIRTIR Mask Fit Red Cushion",
-          "similarity": 0.293,
-          "demand_weight": 1.0,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.293
-        },
-        {
-          "channel": "tiktok_shop_us",
-          "global_product": "Biodance Bio-Collagen Real Deep Mask",
-          "similarity": 0.272,
-          "demand_weight": 0.6,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.163
-        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
@@ -18277,9 +18122,29 @@
             "mask"
           ],
           "match_score": 0.133
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Vitamin C Clay Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.133
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
+          "similarity": 0.26,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.127
         }
       ],
-      "recommend_reason": "글로벌 'TIRTIR Mask Fit Red Cushion' (tiktok_shop_us) 유사 29% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000284",
       "desk": null
     },
