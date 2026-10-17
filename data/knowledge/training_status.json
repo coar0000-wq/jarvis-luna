@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-16T16:56:24.257424+00:00",
+  "updated_at": "2026-10-17T04:58:17.780395+00:00",
   "real_records": 7433,
   "source_labels": {
     "ai-image": 499,
     "ai-research": 6542,
     "shopify-commerce-image": 392
   },
-  "corpus_sha256": "779b010b174a9825f04867096ab16a2fefbcaa1c23367645ded42e5f982024a5",
+  "corpus_sha256": "be5d34f4e6a20ac663259c34aa7a93ca7600955ada96decce39391430a81595a",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -21,7 +21,7 @@
     0.365249
   ],
   "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "779b010b174a9825f04867096ab16a2fefbcaa1c23367645ded42e5f982024a5",
+  "trained_corpus_sha256": "be5d34f4e6a20ac663259c34aa7a93ca7600955ada96decce39391430a81595a",
   "tuning_promoted": true,
   "tuning_steps": 300,
   "tuning_validation_accuracy": 0.951271186440678,
@@ -44,10 +44,10 @@
   "학습_판정": "기준선보다 나음: 운영 가중치 교체",
   "features": "TF-IDF + L2 (min_df 3, 어휘 6987)",
   "말뭉치": "이 말뭉치로 학습한 가중치다.",
-  "tuning_final_loss": 0.2598348569717933,
-  "tuning_gate_load_std": 0.46987223717744375,
-  "records_before": 7432,
-  "records_added": 1,
+  "tuning_final_loss": 0.25983493538422997,
+  "tuning_gate_load_std": 0.4698722665474737,
+  "records_before": 7433,
+  "records_added": 0,
   "source_status": {
     "arxiv": "ok",
     "robotics": "ok",

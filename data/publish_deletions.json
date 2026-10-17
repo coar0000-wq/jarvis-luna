@@ -113,20 +113,6 @@
       "delete_file": false
     },
     {
-      "path": "data/knowledge/real_sources.json",
-      "base_sha256": "f77f97ae390108c91d498e42b6eabaf5a23db53781b123dbf90082dcf25af256",
-      "ids": [
-        "https://news.google.com/rss/articles/CBMic0FVX3lxTE15NWxFR0tpUGZmWkVFcGxHckNhMTdlZXUzOUIwYURIaEI1dE92MUtMZzV6UFZabW9TODlOeW02U3gwUnMtcV80NXJVYVlaZ0Jtc1RjSlBKcWgtSVBXTEg4NERMNU5BSi00U3BnaHVCZ28yNG8?oc=5",
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUHBuMjVoQzNLUjFYcHE0ZXB2eFF4TV9NcnBjdEdBTnlzUjcwVExlbGRLMFkxTjdVSWpLeHgyUXczTjZCLXJEWURBZEpBUVVfdng3Z2dWSUNrWmpEdmVqanVVQWxyQUtrNHBPbjZSNUhOeE01T1BLUg?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yaEc4ZnB1U19VSmtHLW5jalFvMXMxWDZIYUJ2Y29udGZYZlhDS05jbk91X0tOeDVlaDRwVXF1bVU5ZC1USk1WZ25rbFFXYXE3cWd3VS02MVp2aXBNelRLUU5MS1NEZXR1YXRIa2dIdFBXVU9CbDloSG9OcUcxTm8?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcS0yVXdxZWQyZlhfeTRtbFdJdzdZNnJWOEJpQWZudG5xeUN0SzlqWFBKdzZxQTZZSHFyWHQyYS1fc3pQOWZET1dxUUJUY0ZWbkdvV2M4cWFRdnNVU3U2X09iVHBlMGI4VmJPRklLQlZObDBCbHB5NWFrTnlVSUR1bDVzWUtSVU9MRGNjQWh6eGpEX3dVdnJVTWVxM0JfMXkyM3lidm01VQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX3dLNFQ4a25RNG9DcUptZVlBUmhVWG1lbkFGbUF5VGtLaVRRajQwVnNyM29id1MwRWNKU29Ma2VUXzh0dkhqNGhDNnlqVnROLXFFaHRsTUVMOVQ4dXZJZks0bmRqdmZHQ2dMZjdJVkdFSndqVmNKUWlWYndjeERzRWVfc2lST0N0cFRHN2phNm5EcHlLTnpMZkN6cWtwRmJpbm1YRmdjNDBpTUsyTmtnVVNBb2c4b0lGdVBPMkd4U285SEpWa3RPeQ?oc=5"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/amazon_products.json",
       "base_sha256": "02e5ca8d0c9910477b9137751b72601868642ae671342ff815ba4849b5152f9f",
       "ids": [
@@ -273,6 +259,39 @@
         "https://www.ulta.com/p/take-day-off-cleansing-balm-makeup-remover-xlsImpprod11771009",
         "https://www.ulta.com/p/tranexamic-acid-6-creme-tone-balancing-tube-pimprod2061771",
         "https://www.ulta.com/p/triple-lipid-peptide-cream-pimprod2060094"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/moe_tuning_report.json",
+      "base_sha256": "4b2a0c3e07288d61342785362ef027bbc8bc3a1922c3f079c8895523c5a5a371",
+      "replacement_sha256": "cf40f818428975eb424cc62d766a4b581d1e21abac78accfa30b6f3cbd1d2a64",
+      "ids": [
+        "0.001154"
+      ],
+      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
+      "policy_ref": "scripts/moe_evaluation_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/real_sources.json",
+      "base_sha256": "be14b7b2bedd017f8e89ed345026b90130063f0389e17dd98c2134b52dacdbb7",
+      "ids": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13bG1DTDF5Z29oWkVOMXplR1lrZ1JYc1NiNTdRS1g1ZXc0TVNmMWUzRWhMN1hDR3g4amQtT0lEajZtRW53VGItcW12bmZtb0k2X1k0?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SYk8xOGxEbEtHTUlHaEp1aXl4YW9jNkI0eVVud3pqNUdMc0lnMmtYSEFQanF4NFYxd19zSHNUeUtsbTlyVTBiRUc5UFo3OHRzLTdlOExMUjZRYlRp?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UVVZzcDNsNklueURqRE9ZbjhvWlJuMnZqaUxUdF95d3pNTlR6RHBfMlZaTkdXVTlqd09aWXg2d2d5eVFpR1RGdl9DWUVTSURKV3pSSzBoNkw0UDBuMm9xQTFnYlpUZnFm?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fS1ItX0gtclFfSDFOdC1ka1RXRnpDMTN1VHlJZE5iQno0eHhoNm9ZNkNNclIwQ0U1cXZmUTZIcUlnSHlQN1BEcFBQQm1rQ255SExOVXhoRThjbEZjLXZMZVFtUzVVMW1BTVdVUA?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMc2VTdkpJTjUtM0g4azhIVXdaVUtCd3hqNDNGak9FM2t0OHFLcEZNLVQ5UTV2YnFhT0JSTlpXQlJQTjhyUjdiMlZnTDVIdFljTTJ6RlFseUJGZW9wTHNMRjFsNklENVJYcXR0NQ?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4bFN3TU9GLV9LU0h1ekJIc2pwemJCaTVaemhFSmpfWDVoWlE4UlZsZkNlVVJxZkk2R05GbFo4dlM3Qk45bloyZ0tsTHdNUjIyYW53UndfSlpBcE9vMkdzUWZKYll0ZVBoMkVTWk1FSDU4NTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMXZBblFaREdoc2FnZFQxNWlYZDhTaHdrNUk3OHluOHdYVHF2ZXE1bElaZXBLYnJaWW91aVBBWm9zb3FoVlpxZDlEZWVma2lUcWRzNThwTUVIR1F6Y3RJWVdidzJBVDFEd0VPM1BkcnpGd293Vm5UcmJpaERjS19yTg?oc=5",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMDczZEljNEo1N202RnBjaDVKUWtoQXJFV1UzOFRLQXhMWjNDT08teDVvUXEwMEFsS1l4ZmZBXzJWMVRtcW9UUnFSS0h2Rk5TbFFBTFFRYTJFMXpHOEhJWkZFYWlvZU01M29BcE11WS11aUdZQU5vRGFHaW1tQ2lCQWVnYXk5OVMyM1E?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU0UyS1BMamdOc3pwdVU0V1VIaFU5aHVQTW1ZZWlya2VSRnQ3TlNvUW41Zzh4NTRMcGpZTTctVVFtZXBTWklpQUNSeHM3Vlk4WVBqRGJhWWd5alUxVnJ0eDBMMGxIQklxNmcySzZRNUZrRmhRZVZHOFpwdjlBR0xzclFkWGlSY2hLZS1yaERCTkI?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeDRpakZtTDI1dzNibllZdkh0ZEs1ZzJqcl93ZmhUQWs2V1dvQnNGeV83aXAwbUNHNDkwR3ZQRVU0MEJDZGxBdkxXMEt2QUR5eEdkM0FwY0Jib3drdjdCMEItN29kTUd0MU12WTlwNGVQOVo3Y0xocldoYjNEUVZVd2U3a0dTT0ozQnNmUGd3VHU?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSnRBNm05UW1lS1RaNm5BODVzTFM0dXdhVWFkek1iaDVlTTJCckRnZkdrYWROWHBGeVBsb05YSDVJTXh6bDRBWnhScXNBcWZsemxDZlJoTU03WDMyZjVVSDRscUYxMUMzZzU5OXk1c2hPT0dRb1VxejgtRmU2ajZNT19ESDE5RGU4WEJieHZfZ2F1UQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRWt6d09fSG1VMUd5SXEwMVZZQ1NQWE0xWXJUUkZROTh0WU1yVVRLSzZKVXNuSmFVNnlPY3lTNE9oR3MyV0l0bTU2TXRVRHdPMXlZSHhPN3FKTG9Tb1lVZkE0dFVKYUtFUEVPekpQMHJGOWdSSDN3N0F3UFp6N0xaajRxMzc4UFdveUJOdS16MlNzM1d3akpUZUF2Ni1Ic0hac3ktQkFDbU5PYlE5U1E?oc=5",
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX2ltdnRiRjBTaXpKMGZhUDhXNWs5U1BhUjRsRGRMMHk3YUpXN3lyUk1tbkk1aHBQdmtZU3NUZWhMRm1qckJZejZZdHVMZXZoZHphOWFwSk5OSXNUdFNHMlJTVEVqRWxmcUVqS3llbHpLc0NfZU5lS1VBcWx5Z3JuRFlYWEswbDducjYwcU9aUTBRd3FhWGNzWXhmeXlnYWtnSkV1QkZMdWk4eDRrazZTRU03VHRaNFRuZEtyNUZoRzdLU0o0c3AtTGpESldkZw?oc=5"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
