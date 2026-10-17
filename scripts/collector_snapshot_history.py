@@ -72,7 +72,10 @@ ROTATING = {
     # 운영 지식 그래프: 매 실행 state 에서 다시 만드는 파생 그래프(노드·엣지). 원본 state 는 보존된다.
     "data/operations/knowledge_graph.json": ["nodes", "edges"],
     # 운영 상태: 출처 복구 에피소드의 '현재 막힘 코드' 목록만. 출처가 회복되면 코드가 빠진다(이력·영수증은 그대로 보존).
-    "data/operations/state.json": ["source_recovery/episodes/*/blocker_codes"],
+    # 2026-10-17: 감시 기록의 latest_attempt 는 "지금 가장 최근 실행" 관측이라, 실행 중인 회차로 바뀌면
+    # finished_at·conclusion 이 빠진다(Core 39039584239). last_success 등 다른 칸은 그대로 막는다.
+    "data/operations/state.json": ["source_recovery/episodes/*/blocker_codes",
+                                   "watch/sources/*/records/*/value/latest_attempt"],
     # AI 수집팀(예전 로보틱스): 논문·블로그·유튜브 최신 목록이 통째로 바뀐다. 2026-10-11 수집원 전환 포함.
     "data/robotics_sources.json": ["sources/*/items", "sources/*/source_results", "sources/*/errors"],
     # 전담팀 카테고리 목록(다이소몰 공개 목록): 실행마다 목록이 통째로 새 관측으로 바뀐다.
