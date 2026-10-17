@@ -319,6 +319,49 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/serpapi_market.json",
+      "base_sha256": "a59bcdf102508723e14495ccd01c9161099b437141912112f4532999095c87af",
+      "ids": [
+        "1027327",
+        "1049285",
+        "1053482",
+        "1059834",
+        "1061918",
+        "1072554",
+        "1075857"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/youtube_serpapi.json",
+      "base_sha256": "8c70d89c5c09bd35435c13f3974c63cb7b9d3885acac334f9a39a9e83e158e1d",
+      "ids": [
+        "https://www.youtube.com/watch?v=-Zd4LFYd81o",
+        "https://www.youtube.com/watch?v=8X-WQ0dmp2w",
+        "https://www.youtube.com/watch?v=8ZNbjcKRWN4",
+        "https://www.youtube.com/watch?v=B7z0vcKS67k",
+        "https://www.youtube.com/watch?v=HhEYO5ug0s4",
+        "https://www.youtube.com/watch?v=N9Jn4kiXpYw",
+        "https://www.youtube.com/watch?v=NHyp7hbxoOQ",
+        "https://www.youtube.com/watch?v=RTrRKB0iXwQ",
+        "https://www.youtube.com/watch?v=ReYEYoLsppk",
+        "https://www.youtube.com/watch?v=Sb9IF7wBnus",
+        "https://www.youtube.com/watch?v=TrW9Unuosxw",
+        "https://www.youtube.com/watch?v=Wrkw9HjOP4w",
+        "https://www.youtube.com/watch?v=Ygon6LfntkY",
+        "https://www.youtube.com/watch?v=YzTg8c5DnWI",
+        "https://www.youtube.com/watch?v=_-y0NZ30VKE",
+        "https://www.youtube.com/watch?v=duhK4POgaCg",
+        "https://www.youtube.com/watch?v=pLhQOYMGa88",
+        "https://www.youtube.com/watch?v=u8MT_KBxgi0"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
     }
   ],
   "schema_version": 1

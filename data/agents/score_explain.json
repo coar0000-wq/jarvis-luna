@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-17T12:11:15.029587+00:00",
+  "generated_at": "2026-10-17T12:19:00.515707+00:00",
   "s_count": 7,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
