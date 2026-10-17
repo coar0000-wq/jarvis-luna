@@ -62,9 +62,13 @@ PROCEDURES = dict(public_obj('schema_version generated_at status organization so
 AUDIT_SUMMARY = dict(public_obj('mode', counts=public_fields('audited legacy decisions prepared outcomes failure unavailable')), external_authority=PUBLIC_FALSE)
 IMPROVEMENT_SOURCE = public_fields('path sha256 reviewed_exact_bytes captured_at generated_at policy_updated_at applied_at evaluated_at metadata_clock_field metadata_clock_at fresh capture_clock_verified')
 IMPROVEMENT_POINT = public_fields('value denominator source_path source_sha256 clock_field clock_at captured_at evaluated_at fresh')
+# 2026-10-17: 팀별 git 이력 근거(scripts/team_history_evidence.py). 판정 문자열·숫자·커밋 앞 12자만 공개한다.
+IMPROVEMENT_HISTORY_CMP = public_fields('verdict from to from_value to_value from_denominator to_denominator from_ratio to_ratio denominator_changed from_commit to_commit')
+IMPROVEMENT_HISTORY = public_obj('source_path source_sha256 generated_at ref_commit window_days evidence_strength latest_commit_url source_refreshes_in_window',
+ vs_previous_day=IMPROVEMENT_HISTORY_CMP, vs_7_days=IMPROVEMENT_HISTORY_CMP)
 IMPROVEMENT_ROW = dict(public_obj('id status evidence_strength historical_observation_only evaluation_validation source_input_digests_verified',
  metric=public_obj('id unit direction', business_metric=PUBLIC_FALSE),
- baseline=IMPROVEMENT_POINT, current=IMPROVEMENT_POINT, shadow=IMPROVEMENT_POINT,
+ baseline=IMPROVEMENT_POINT, current=IMPROVEMENT_POINT, shadow=IMPROVEMENT_POINT, history_evidence=IMPROVEMENT_HISTORY,
  evidence=[IMPROVEMENT_SOURCE], blockers=[PUBLIC_TEXT],
  proposal=public_obj('goal scope', business_draft=PUBLIC_FALSE),
  existing_bounded_configuration=public_obj('verified dropped_references', scope=[PUBLIC_TEXT], new_changes_allowed=PUBLIC_FALSE)),

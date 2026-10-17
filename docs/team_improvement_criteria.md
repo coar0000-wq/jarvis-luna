@@ -75,3 +75,22 @@
 | 지식 | 감시 | 2,017 > 2,186 | 10-16 | 증가 |
 | 디자인·그래프 | 감시 | 34 > 34 / 78 · 512 > 512 / 6,955 | 10-04 · 10-03 | 첫 기준선. 다음 측정 대기. 10-17·10-18 지나면 14일 초과로 차단 |
 | 기관·가격·AI·채널 | 감시 | 변화 없음 | 10-03 ~ 10-16 | 다음 측정 대기 |
+
+## 추가 근거: git 이력 시계열 (2026-10-17)
+
+기준선 1개와 현재값 1개만으로는 "어제보다 나은가" 를 판정하기 어렵다. 현재값은 Core·Deep
+자동화가 돌 때만 갱신되는데, 두 자동화가 멈추면 11팀이 모두 같은 숫자로 굳는다.
+
+그래서 같은 측정 함수(`build_team_baselines.measure`)를 날짜별 마지막 커밋의 실제 파일에
+적용한 21일 시계열을 근거로 하나 더 둔다.
+
+- 생성: `scripts/team_history_evidence.py` → `data/self_improve/team_history_evidence.json`
+  (발행 재생성 때 `generate_dashboard_runtime.py` 가 먼저 갱신한다. 얕은 clone 이면 기존 파일 유지)
+- 판정 (7일 전·하루 전 대비)
+  - `improved` / `same` / `worse` : 지표 방향(increase/decrease)에 맞춘 비교
+  - `source_not_refreshed` : 두 시점 근거 파일 시각이 같다. 값이 같아도 '개선 없음' 이 아니라 '다시 재지 않음'
+  - `not_comparable` : 분모(대상 범위)가 한쪽에만 있다
+  - 분모가 둘 다 있고 다르면 비율로 판정하고 `denominator_changed` 를 남긴다
+  - `insufficient_history` : 비교 시점에 근거 파일이 없었다
+- 사람은 커밋 SHA 로 같은 파일을 열어 숫자를 직접 확인할 수 있다.
+- 사업 성과 검증이 아니다. 단계(phase)·상태(status)는 바꾸지 않는다.

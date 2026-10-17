@@ -28,11 +28,30 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "self_improve" / "team_baselines.json"
 
 
-def load(rel: str):
+def _disk(rel: str):
     try:
         return json.loads((ROOT / rel).read_text(encoding="utf-8-sig"))
     except (OSError, ValueError):
         return None
+
+
+# 2026-10-17: 과거 커밋 시점의 파일로도 같은 측정을 하려고 읽는 방법을 바꿔 끼울 수 있게 했다
+# (scripts/team_history_evidence.py). 측정 규칙을 두 군데에 두면 숫자가 어긋난다.
+_LOADER = _disk
+
+
+def load(rel: str):
+    return _LOADER(rel)
+
+
+def measure_with(loader) -> dict:
+    """주어진 읽기 함수(rel -> dict|None)로 measure() 를 돌린다."""
+    global _LOADER
+    prev, _LOADER = _LOADER, loader
+    try:
+        return measure()
+    finally:
+        _LOADER = prev
 
 
 def n(v) -> int:

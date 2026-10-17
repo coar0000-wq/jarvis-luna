@@ -79,6 +79,57 @@ def _unique(pairs):
 
 
 BASELINES = 'data/self_improve/team_baselines.json'
+HISTORY = 'data/self_improve/team_history_evidence.json'
+HISTORY_VERDICTS = {'improved', 'same', 'worse', 'source_not_refreshed', 'insufficient_history', 'not_comparable'}
+
+
+def _apply_history_evidence(base, teams, end):
+    """추가 근거 (2026-10-17 사용자: '11팀 자가개선 증거 추가근거검토 마련'): git 이력 시계열.
+
+    scripts/team_history_evidence.py 가 같은 측정 함수를 날짜별 커밋의 실제 파일 바이트에 적용한 결과.
+    단계(phase)·상태(status)는 바꾸지 않는다. 판정 근거를 하나 더 붙일 뿐이다.
+    파일이 없거나 형식이 틀리면 아무것도 붙이지 않는다(fail closed). 사업 성과 검증이 아니다.
+    """
+    try:
+        target = base / HISTORY
+        if target.is_symlink() or not target.resolve().is_relative_to(base):
+            return
+        raw = target.read_bytes()
+        if len(raw) > MAX_SOURCE_BYTES:
+            return
+        doc = json.loads(raw.decode('utf-8-sig'))
+        rows = doc.get('teams') if isinstance(doc, dict) and doc.get('schema_version') == 1 else None
+        if not isinstance(rows, dict) or _clock(doc['generated_at']) > end:
+            return
+    except (OSError, UnicodeError, ValueError, RecursionError, KeyError, TypeError):
+        return
+    sha = hashlib.sha256(raw).hexdigest()
+
+    def brief(v):
+        if not isinstance(v, dict) or v.get('verdict') not in HISTORY_VERDICTS:
+            return None
+        keep = ('verdict', 'from', 'to', 'from_value', 'to_value', 'from_denominator', 'to_denominator',
+                'from_ratio', 'to_ratio', 'denominator_changed', 'from_commit', 'to_commit')
+        out = {k: v[k] for k in keep if k in v}
+        for k in ('from_commit', 'to_commit'):      # 출력 한도(MAX_OUTPUT_BYTES) 안에 두려고 12자만 둔다
+            if isinstance(out.get(k), str):
+                out[k] = out[k][:12]
+        return out
+
+    for tid, row in rows.items():
+        team = teams.get(tid)
+        if team is None or not isinstance(row, dict):
+            continue
+        latest = row.get('latest') if isinstance(row.get('latest'), dict) else {}
+        team['history_evidence'] = {
+            'source_path': HISTORY, 'source_sha256': sha, 'generated_at': str(doc.get('generated_at'))[:40],
+            'ref_commit': str(doc.get('ref_commit') or '')[:40], 'window_days': doc.get('window_days'),
+            'evidence_strength': 'git_history_same_metric_not_business_gain',
+            'latest_commit_url': str(latest.get('commit_url') or '')[:120],
+            'vs_previous_day': brief(row.get('vs_previous_day')),
+            'vs_7_days': brief(row.get('vs_7_days')),
+            'source_refreshes_in_window': row.get('source_refreshes_in_window'),
+        }
 
 
 def _apply_team_baselines(base, teams, end, max_age_days):
@@ -383,7 +434,8 @@ def build(root, *, now=None, reviewed_sha256=None, max_age_days=14):
             team['blockers'].append('stale_pilot_evidence')
         team['historical_observation_only'] = team['status'] == 'historical_pilot_not_current'
     _apply_team_baselines(base, teams, end, max_age_days)
-    counts = {phase: sum(t['phase'] == phase for t in teams.values()) for phase in PHASES}
+    _apply_history_evidence(base, teams, end)
+    counts ={phase: sum(t['phase'] == phase for t in teams.values()) for phase in PHASES}
     out = {'schema_version': 1, 'generated_at': end.isoformat(), 'mode': 'offline_read_only_projection',
            'source_allowlist': list(REVIEWED_SHA256), 'teams': teams, 'diagnostic_monitoring': diagnostic,
            'source_errors': [{'path': p, 'reason': e} for p, e in sorted(errors.items())],

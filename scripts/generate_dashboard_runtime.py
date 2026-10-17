@@ -391,6 +391,30 @@ def rebuild_channels_from_sources():
     return gl, st
 
 
+def refresh_team_history_evidence(days: int = 21) -> None:
+    """팀 자기개선 추가 근거(git 이력 시계열)를 먼저 갱신한다. 아래 team_improvement_evidence 가 읽는다.
+
+    2026-10-17: 발행 재생성 순서(config/publish_policy.json runtime_commands)는 artifact graph
+    계약으로 고정돼 있어 새 명령을 넣지 않고, 이미 그 순서 안에 있는 이 스크립트에서 부른다.
+    얕은 clone 이면 창 전체 이력이 없으므로 기존 파일을 그대로 둔다 (풍부한 근거를 '이력 부족' 으로 덮지 않는다).
+    실패해도 대시보드 생성은 계속한다.
+    """
+    import importlib.util
+    path = ROOT / "scripts" / "team_history_evidence.py"
+    try:
+        spec = importlib.util.spec_from_file_location("_team_history_evidence", path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        if not mod.history_covers(days, "HEAD"):
+            print("[team-history] 얕은 이력 — 기존 근거 파일 유지")
+            return
+        doc = mod.build(days, "HEAD")
+        mod.OUT.parent.mkdir(parents=True, exist_ok=True)
+        mod.OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    except Exception as exc:  # noqa: BLE001
+        print(f"[team-history] 갱신 실패 — 기존 근거 파일 유지: {type(exc).__name__}: {exc}")
+
+
 def age_channel_status(gcs):
     """Apply an idempotent source-time overlay without inventing capture times."""
     return age_channels(gcs, stale_hours=STALE_HOURS)
@@ -1271,6 +1295,7 @@ def _main() -> None:
     _p = load_json(OUT, {}) or {}
     prev_global = _p.get("global_channels") if isinstance(_p, dict) else None
     prev_gcs = _p.get("global_channels_status") if isinstance(_p, dict) else None
+    refresh_team_history_evidence()
     fresh_global, fresh_gcs = rebuild_channels_from_sources()
     if fresh_global:
         prev_global, prev_gcs = fresh_global, fresh_gcs

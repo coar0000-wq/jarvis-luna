@@ -50,7 +50,8 @@
     "data/agents/brain_execution_operations.json",
     "data/agents/brain_execution_graph.json",
     "data/jarvis_brain.json",
-    "data/agents/brain_dataset_index.json"
+    "data/agents/brain_dataset_index.json",
+    "data/self_improve/team_history_evidence.json"
   ],
   "commerce_inputs": [
     "data/daiso_real/products.json",
