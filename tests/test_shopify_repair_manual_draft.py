@@ -23,7 +23,7 @@ class FakeGraphQL:
         self.ignore_description = False
         self.ignore_unpublish = False
         self.state = {
-            "shop": {"id": "gid://shopify/Shop/123", "myshopifyDomain": repair.STORE},
+            "shop": {"id": repair.SHOP_ID, "myshopifyDomain": repair.CANONICAL_STORE},
             "currentAppInstallation": {"accessScopes": [{"handle": s} for s in sorted(repair.SCOPES)]},
             "publications": self.connection([{"id": "gid://shopify/Publication/10"},
                                              {"id": "gid://shopify/Publication/20"}]),
@@ -126,17 +126,27 @@ class RepairTests(unittest.TestCase):
         self.client.state["shop"]["myshopifyDomain"] = "other.myshopify.com"
         result = self.blocked("wrong_store")
         self.assertEqual(result["identity_observation"], {
-            "shop_id": "gid://shopify/Shop/123", "myshopify_domain": "other.myshopify.com",
+            "shop_id": repair.SHOP_ID, "myshopify_domain": "other.myshopify.com",
             "product_id": repair.PRODUCT, "product_status": "DRAFT"})
         self.assertEqual(result["last_observed_status"], "DRAFT")
         self.assertNotIn("before_sha256", result)
         self.assertEqual(len(self.saved), 1)  # No description/proof backup on wrong store.
         self.assertIn("shop{id myshopifyDomain}", repair.READ)
 
-    def test_possible_canonical_alias_still_blocked_with_identity(self):
-        self.client.state["shop"]["myshopifyDomain"] = "rb3zh1-i1.myshopify.com"
-        result = self.blocked("wrong_store")
-        self.assertEqual(result["identity_observation"]["myshopify_domain"], "rb3zh1-i1.myshopify.com")
+    def test_verified_canonical_identity_passes_without_mutations(self):
+        result = self.run_repair(dry_run=True)
+        self.assertEqual(result["status"], "dry_run")
+        self.assertEqual(self.client.mutations, [])
+        self.assertEqual(self.saved[0][1]["before"]["shop_id"], repair.SHOP_ID)
+        self.assertEqual(self.saved[0][1]["before"]["canonical_domain"], repair.CANONICAL_STORE)
+
+    def test_wrong_shop_id_with_correct_canonical_domain_blocks(self):
+        self.client.state["shop"]["id"] = "gid://shopify/Shop/123"
+        self.blocked("wrong_store")
+
+    def test_missing_shop_id_with_correct_canonical_domain_blocks(self):
+        self.client.state["shop"].pop("id")
+        self.blocked("wrong_store")
 
     def test_wrong_store_dryrun_identity_with_zero_mutations(self):
         self.client.state["shop"]["myshopifyDomain"] = "other.myshopify.com"

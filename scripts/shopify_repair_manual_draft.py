@@ -20,7 +20,10 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 PD = "1084687"
 PRODUCT = "gid://shopify/Product/9590780723457"
-STORE = "coarfamily.myshopify.com"
+STORE = "coarfamily.myshopify.com"  # Existing transport / exact environment endpoint.
+# Pinned from live read-only report 38990202025 for this existing product.
+SHOP_ID = "gid://shopify/Shop/82748997889"
+CANONICAL_STORE = "rb3zh1-i1.myshopify.com"
 TAG = "daiso-pd-1084687"
 VARIANTS = {"gid://shopify/ProductVariant/50764170789121": "Single (1 pc)",
             "gid://shopify/ProductVariant/50764170821889": "1+1 (2 pcs)"}
@@ -165,7 +168,7 @@ def identity_observation(data):
 def read_guard(client, local):
     d = gql(client, READ, {"id": PRODUCT})
     shop = d.get("shop") if isinstance(d.get("shop"), dict) else {}
-    if shop.get("myshopifyDomain") != STORE:
+    if shop.get("id") != SHOP_ID or shop.get("myshopifyDomain") != CANONICAL_STORE:
         error = Blocked("wrong_store")
         error.identity_observation = identity_observation(d)
         raise error
@@ -209,6 +212,7 @@ def read_guard(client, local):
             all(type(s.get("isPublished")) is bool for s in states), "publication_state_unavailable")
     return {"descriptionHtml": p["descriptionHtml"], "before_sha256": sha(p["descriptionHtml"]),
             "status": p["status"], "product_id": PRODUCT, "store": STORE,
+            "shop_id": shop["id"], "canonical_domain": shop["myshopifyDomain"],
             "tags": sorted(p["tags"]), "vendor": p["vendor"], "product_type": p["productType"],
             "variants": sorted(variants, key=lambda v: v["id"]), "media": media,
             "publication_ids": sorted(pub_ids),
@@ -217,7 +221,7 @@ def read_guard(client, local):
 
 
 def unchanged(a, b):
-    keys = ("product_id", "store", "status", "tags", "vendor", "product_type", "variants", "media", "publication_ids")
+    keys = ("product_id", "store", "shop_id", "canonical_domain", "status", "tags", "vendor", "product_type", "variants", "media", "publication_ids")
     require(all(a[k] == b[k] for k in keys), "protected_fields_changed")
 
 
