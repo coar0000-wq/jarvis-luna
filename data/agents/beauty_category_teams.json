@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/beauty_category_teams.py",
   "status": "analysis_complete",
-  "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+  "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
   "canonical_team_ids": [
     "sourcing",
     "institutions",
@@ -21,7 +21,7 @@
       "subteam_id": "beauty_skincare",
       "category_tag": "skincare",
       "status": "analysis_complete",
-      "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+      "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
       "work_status": "source_research_required",
       "S_only": true,
       "allowed_grades": [
@@ -53,9 +53,11 @@
         "1056650",
         "1057357",
         "1059091",
+        "1059093",
         "1059095",
         "1059838",
         "1060542",
+        "1060643",
         "1060644",
         "1060645",
         "1061529",
@@ -91,6 +93,7 @@
         "1076691",
         "1079291",
         "1079292",
+        "1087764",
         "B202604026513",
         "B202604026531",
         "B202604026571",
@@ -172,7 +175,7 @@
             "price_evidence_required",
             "us_label"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
           "registration_executed_at": null,
@@ -224,7 +227,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010710",
           "registration_executed_at": null,
@@ -262,7 +265,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -274,7 +277,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:11:13.650065+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035039",
           "registration_executed_at": null,
@@ -301,7 +304,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -313,7 +316,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:10:41.371139+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039086",
           "registration_executed_at": null,
@@ -340,7 +343,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -352,7 +355,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:32:42.663903+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039088",
           "registration_executed_at": null,
@@ -391,7 +394,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
           "registration_executed_at": null,
@@ -441,7 +444,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044553",
           "registration_executed_at": null,
@@ -491,7 +494,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044554",
           "registration_executed_at": null,
@@ -541,7 +544,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044555",
           "registration_executed_at": null,
@@ -591,7 +594,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044967",
           "registration_executed_at": null,
@@ -629,7 +632,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "S",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -641,7 +644,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:58:03.892688+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1046896",
           "registration_executed_at": null,
@@ -680,7 +683,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
           "registration_executed_at": null,
@@ -730,7 +733,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
           "registration_executed_at": null,
@@ -780,7 +783,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049274",
           "registration_executed_at": null,
@@ -830,7 +833,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051749",
           "registration_executed_at": null,
@@ -880,7 +883,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051751",
           "registration_executed_at": null,
@@ -930,7 +933,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055165",
           "registration_executed_at": null,
@@ -980,7 +983,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055168",
           "registration_executed_at": null,
@@ -1030,7 +1033,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055169",
           "registration_executed_at": null,
@@ -1080,7 +1083,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056647",
           "registration_executed_at": null,
@@ -1118,7 +1121,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -1130,7 +1133,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:17:33.078334+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056648",
           "registration_executed_at": null,
@@ -1169,7 +1172,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056649",
           "registration_executed_at": null,
@@ -1219,7 +1222,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056650",
           "registration_executed_at": null,
@@ -1269,7 +1272,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057357",
           "registration_executed_at": null,
@@ -1319,7 +1322,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059091",
           "registration_executed_at": null,
@@ -1353,6 +1356,45 @@
           }
         },
         {
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "S",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:26:06.164895+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059093",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
           "pd_no": "1059095",
           "category_tag": "skincare",
           "canonical_grade": "B",
@@ -1369,7 +1411,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059095",
           "registration_executed_at": null,
@@ -1407,7 +1449,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -1419,7 +1461,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:24:26.182610+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059838",
           "registration_executed_at": null,
@@ -1446,7 +1488,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "S",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -1458,9 +1500,48 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:14:22.669479+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060542",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "S",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:22:54.827753+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060643",
           "registration_executed_at": null,
           "publish_executed_at": null,
           "actual_sales": {
@@ -1497,7 +1578,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060644",
           "registration_executed_at": null,
@@ -1547,7 +1628,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060645",
           "registration_executed_at": null,
@@ -1597,7 +1678,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061529",
           "registration_executed_at": null,
@@ -1647,7 +1728,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061619",
           "registration_executed_at": null,
@@ -1697,7 +1778,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061697",
           "registration_executed_at": null,
@@ -1747,7 +1828,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061698",
           "registration_executed_at": null,
@@ -1797,7 +1878,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
           "registration_executed_at": null,
@@ -1847,7 +1928,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061920",
           "registration_executed_at": null,
@@ -1897,7 +1978,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062135",
           "registration_executed_at": null,
@@ -1947,7 +2028,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
           "registration_executed_at": null,
@@ -1997,7 +2078,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062777",
           "registration_executed_at": null,
@@ -2047,7 +2128,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
           "registration_executed_at": null,
@@ -2097,7 +2178,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064417",
           "registration_executed_at": null,
@@ -2147,7 +2228,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064419",
           "registration_executed_at": null,
@@ -2197,7 +2278,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067496",
           "registration_executed_at": null,
@@ -2247,7 +2328,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068720",
           "registration_executed_at": null,
@@ -2285,7 +2366,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "S",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -2297,7 +2378,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:01:43.728429+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068722",
           "registration_executed_at": null,
@@ -2336,7 +2417,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068857",
           "registration_executed_at": null,
@@ -2386,7 +2467,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
           "registration_executed_at": null,
@@ -2424,7 +2505,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -2436,7 +2517,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:52:16.120512+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071641",
           "registration_executed_at": null,
@@ -2475,7 +2556,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071642",
           "registration_executed_at": null,
@@ -2525,7 +2606,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071644",
           "registration_executed_at": null,
@@ -2575,7 +2656,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072416",
           "registration_executed_at": null,
@@ -2625,7 +2706,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072417",
           "registration_executed_at": null,
@@ -2675,7 +2756,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072455",
           "registration_executed_at": null,
@@ -2725,7 +2806,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
           "registration_executed_at": null,
@@ -2775,7 +2856,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073250",
           "registration_executed_at": null,
@@ -2825,7 +2906,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073405",
           "registration_executed_at": null,
@@ -2875,7 +2956,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:42:46.866445+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075032",
           "registration_executed_at": null,
@@ -2914,7 +2995,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075033",
           "registration_executed_at": null,
@@ -2964,7 +3045,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076121",
           "registration_executed_at": null,
@@ -3014,7 +3095,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076691",
           "registration_executed_at": null,
@@ -3052,7 +3133,7 @@
           "category_tag": "skincare",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "C",
+          "comparison_grade": "B",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -3064,7 +3145,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:45:57.229145+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079291",
           "registration_executed_at": null,
@@ -3103,7 +3184,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079292&recmYn=N",
           "registration_executed_at": null,
@@ -3137,6 +3218,45 @@
           }
         },
         {
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "B",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:20:16.995469+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1087764",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
           "pd_no": "B202604026513",
           "category_tag": "skincare",
           "canonical_grade": "C",
@@ -3153,7 +3273,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026513&recmYn=N",
           "registration_executed_at": null,
@@ -3203,7 +3323,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026531&recmYn=N",
           "registration_executed_at": null,
@@ -3253,7 +3373,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026571&recmYn=N",
           "registration_executed_at": null,
@@ -3303,7 +3423,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026581&recmYn=N",
           "registration_executed_at": null,
@@ -3353,7 +3473,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026591&recmYn=N",
           "registration_executed_at": null,
@@ -3403,7 +3523,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:36:25.556944+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026601",
           "registration_executed_at": null,
@@ -3442,7 +3562,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026602&recmYn=N",
           "registration_executed_at": null,
@@ -3492,7 +3612,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026603&recmYn=N",
           "registration_executed_at": null,
@@ -3542,7 +3662,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026611&recmYn=N",
           "registration_executed_at": null,
@@ -3592,7 +3712,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026621&recmYn=N",
           "registration_executed_at": null,
@@ -3642,7 +3762,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026622&recmYn=N",
           "registration_executed_at": null,
@@ -3692,7 +3812,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026631&recmYn=N",
           "registration_executed_at": null,
@@ -3742,7 +3862,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026632&recmYn=N",
           "registration_executed_at": null,
@@ -3792,7 +3912,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026641&recmYn=N",
           "registration_executed_at": null,
@@ -3842,7 +3962,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026651&recmYn=N",
           "registration_executed_at": null,
@@ -3892,7 +4012,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026661&recmYn=N",
           "registration_executed_at": null,
@@ -3942,7 +4062,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026671&recmYn=N",
           "registration_executed_at": null,
@@ -3992,7 +4112,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026672&recmYn=N",
           "registration_executed_at": null,
@@ -4042,7 +4162,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026681&recmYn=N",
           "registration_executed_at": null,
@@ -4092,7 +4212,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026723&recmYn=N",
           "registration_executed_at": null,
@@ -4142,7 +4262,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026733&recmYn=N",
           "registration_executed_at": null,
@@ -4192,7 +4312,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026734&recmYn=N",
           "registration_executed_at": null,
@@ -4242,7 +4362,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026743&recmYn=N",
           "registration_executed_at": null,
@@ -4292,7 +4412,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
           "registration_executed_at": null,
@@ -4342,7 +4462,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:35:53.714634+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604169083",
           "registration_executed_at": null,
@@ -4381,7 +4501,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202033&recmYn=N",
           "registration_executed_at": null,
@@ -4431,7 +4551,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:13:51.546555+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202266",
           "registration_executed_at": null,
@@ -4470,7 +4590,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608126988&recmYn=N",
           "registration_executed_at": null,
@@ -4520,7 +4640,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127016&recmYn=N",
           "registration_executed_at": null,
@@ -4570,7 +4690,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:20:44.119360+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127040",
           "registration_executed_at": null,
@@ -4609,7 +4729,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:04:53.275353+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127172",
           "registration_executed_at": null,
@@ -4648,7 +4768,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127173&recmYn=N",
           "registration_executed_at": null,
@@ -4698,7 +4818,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:55:26.535116+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127190",
           "registration_executed_at": null,
@@ -4737,7 +4857,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127192&recmYn=N",
           "registration_executed_at": null,
@@ -4787,7 +4907,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127199&recmYn=N",
           "registration_executed_at": null,
@@ -4837,7 +4957,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127240&recmYn=N",
           "registration_executed_at": null,
@@ -4887,7 +5007,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127263&recmYn=N",
           "registration_executed_at": null,
@@ -4937,7 +5057,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127273&recmYn=N",
           "registration_executed_at": null,
@@ -8429,6 +8549,150 @@
           "approval_receipt": null
         },
         {
+          "task_id": "beauty:skincare:1059093:canonical_source_research",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:fresh_gate",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:resolve_legal_full_required",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:resolve_listing_gate_not_ready",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:resolve_manufacturer_safety_record_required",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:resolve_price_evidence_required",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:comparable_price_evidence",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:actual_sales_evidence",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:image_evidence",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:publication_evidence",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:source_provenance",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1059093:category_evidence_links",
+          "pd_no": "1059093",
+          "category_tag": "skincare",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
           "task_id": "beauty:skincare:1059095:canonical_source_research",
           "pd_no": "1059095",
           "category_tag": "skincare",
@@ -8851,6 +9115,150 @@
         {
           "task_id": "beauty:skincare:1060542:category_evidence_links",
           "pd_no": "1060542",
+          "category_tag": "skincare",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:canonical_source_research",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:fresh_gate",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:resolve_legal_full_required",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:resolve_listing_gate_not_ready",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:resolve_manufacturer_safety_record_required",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:resolve_price_evidence_required",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:comparable_price_evidence",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:actual_sales_evidence",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:image_evidence",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:publication_evidence",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:source_provenance",
+          "pd_no": "1060643",
+          "category_tag": "skincare",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1060643:category_evidence_links",
+          "pd_no": "1060643",
           "category_tag": "skincare",
           "owner_team_id": "graph",
           "kind": "category_evidence_links",
@@ -13987,6 +14395,150 @@
         {
           "task_id": "beauty:skincare:1079292:category_evidence_links",
           "pd_no": "1079292",
+          "category_tag": "skincare",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:canonical_source_research",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:fresh_gate",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:resolve_legal_full_required",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:resolve_listing_gate_not_ready",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:resolve_manufacturer_safety_record_required",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:resolve_price_evidence_required",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:comparable_price_evidence",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:actual_sales_evidence",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:image_evidence",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:publication_evidence",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:source_provenance",
+          "pd_no": "1087764",
+          "category_tag": "skincare",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:skincare:1087764:category_evidence_links",
+          "pd_no": "1087764",
           "category_tag": "skincare",
           "owner_team_id": "graph",
           "kind": "category_evidence_links",
@@ -19482,12 +20034,12 @@
       "counts": {
         "registration": 1,
         "eligible": 0,
-        "source_research": 99,
-        "evidence_tasks": 1208
+        "source_research": 102,
+        "evidence_tasks": 1244
       },
       "analysis_proof": {
         "operation": "local_category_queue_analysis",
-        "executed_at": "2026-10-17T12:19:01.171269Z",
+        "executed_at": "2026-10-17T13:28:57.524240Z",
         "clock_source": "caller_supplied_as_of",
         "analyzed_pd_nos": [
           "1010710",
@@ -19514,9 +20066,11 @@
           "1056650",
           "1057357",
           "1059091",
+          "1059093",
           "1059095",
           "1059838",
           "1060542",
+          "1060643",
           "1060644",
           "1060645",
           "1061529",
@@ -19552,6 +20106,7 @@
           "1076691",
           "1079291",
           "1079292",
+          "1087764",
           "B202604026513",
           "B202604026531",
           "B202604026571",
@@ -19603,7 +20158,7 @@
           "demand_score": "48e3f36931df079601f9a6aa4a091454f1907789100844f0f6c63d6609885d44",
           "registry": "6376b2a5032bf8c3db299c718ac89aeb5584fa7dfe46319ee49802ea09f46b40",
           "listing_gate": "7b0e037c567333e56dd635a97ea9cbe2c11fe6e30a026d6dc26a5bc114af7fc4",
-          "candidate_comparison": "534c5d060a997e9d897401a748643f29dc8d379b1e3cc3a0e1f829daeeb28960",
+          "candidate_comparison": "1e4c73c6a040d650054c1ba15328a2904297b4b340fe9e17dd9794a89c70547f",
           "beauty_strategy": "246779bb80b7dd7bed4203a260f3f3441690e9320a7560d1e4c8229db2f56db2"
         },
         "research_executed": false,
@@ -19611,8 +20166,8 @@
         "output_counts": {
           "registration": 1,
           "eligible": 0,
-          "source_research": 99,
-          "evidence_tasks": 1208
+          "source_research": 102,
+          "evidence_tasks": 1244
         }
       }
     },
@@ -19620,7 +20175,7 @@
       "subteam_id": "beauty_makeup",
       "category_tag": "makeup",
       "status": "analysis_complete",
-      "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+      "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
       "work_status": "source_research_required",
       "S_only": true,
       "allowed_grades": [
@@ -19633,6 +20188,7 @@
         "1035214",
         "1039238",
         "1039628",
+        "1041114",
         "1041890",
         "1044402",
         "1044404",
@@ -19654,14 +20210,22 @@
         "1066897",
         "1066898",
         "1066900",
+        "1067386",
         "1067395",
         "1067396",
         "1067399",
+        "1067862",
+        "1067863",
+        "1067867",
         "1068733",
+        "1071676",
         "1072794",
+        "1072797",
         "1072800",
         "1072801",
         "1074979",
+        "1078840",
+        "1079334",
         "69036",
         "B202604016089",
         "B202604016139",
@@ -19715,7 +20279,7 @@
             "price_evidence_required",
             "us_label"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
           "registration_executed_at": null,
@@ -19772,7 +20336,7 @@
             "price_evidence_required",
             "us_label"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
           "registration_executed_at": null,
@@ -19824,7 +20388,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:26:01.961405+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018036",
           "registration_executed_at": null,
@@ -19863,7 +20427,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030629",
           "registration_executed_at": null,
@@ -19913,7 +20477,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:16:30.478231+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035214",
           "registration_executed_at": null,
@@ -19952,7 +20516,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039238",
           "registration_executed_at": null,
@@ -20002,9 +20566,48 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:32:11.245434+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039628",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "B",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:24:30.916824+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041114",
           "registration_executed_at": null,
           "publish_executed_at": null,
           "actual_sales": {
@@ -20041,7 +20644,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041890",
           "registration_executed_at": null,
@@ -20091,7 +20694,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044402",
           "registration_executed_at": null,
@@ -20141,7 +20744,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044404",
           "registration_executed_at": null,
@@ -20191,7 +20794,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044846",
           "registration_executed_at": null,
@@ -20241,7 +20844,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048918",
           "registration_executed_at": null,
@@ -20291,7 +20894,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051735",
           "registration_executed_at": null,
@@ -20341,7 +20944,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1052418",
           "registration_executed_at": null,
@@ -20391,7 +20994,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055153",
           "registration_executed_at": null,
@@ -20441,7 +21044,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:08:03.498673+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057226",
           "registration_executed_at": null,
@@ -20480,7 +21083,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060501",
           "registration_executed_at": null,
@@ -20530,7 +21133,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060505",
           "registration_executed_at": null,
@@ -20580,7 +21183,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061139",
           "registration_executed_at": null,
@@ -20630,7 +21233,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061146",
           "registration_executed_at": null,
@@ -20680,7 +21283,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061477",
           "registration_executed_at": null,
@@ -20730,7 +21333,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064171",
           "registration_executed_at": null,
@@ -20780,7 +21383,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064335",
           "registration_executed_at": null,
@@ -20830,7 +21433,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065154",
           "registration_executed_at": null,
@@ -20880,7 +21483,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:03:51.187333+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065368",
           "registration_executed_at": null,
@@ -20919,7 +21522,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-03T00:45:29.985817+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
           "registration_executed_at": null,
@@ -20958,7 +21561,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:41:43.315672+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066898",
           "registration_executed_at": null,
@@ -20997,9 +21600,48 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:38:31.220125+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066900",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:21:51.071493+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067386",
           "registration_executed_at": null,
           "publish_executed_at": null,
           "actual_sales": {
@@ -21036,7 +21678,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067395",
           "registration_executed_at": null,
@@ -21086,7 +21728,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067396",
           "registration_executed_at": null,
@@ -21136,7 +21778,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067399",
           "registration_executed_at": null,
@@ -21170,6 +21812,123 @@
           }
         },
         {
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:18:09.077980+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067862",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:21:19.296041+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067863",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:27:42.393871+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067867",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
           "pd_no": "1068733",
           "category_tag": "makeup",
           "canonical_grade": "A",
@@ -21186,7 +21945,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
           "registration_executed_at": null,
@@ -21220,6 +21979,45 @@
           }
         },
         {
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:25:02.449962+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071676",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
           "pd_no": "1072794",
           "category_tag": "makeup",
           "canonical_grade": "B",
@@ -21236,7 +22034,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072794",
           "registration_executed_at": null,
@@ -21270,6 +22068,45 @@
           }
         },
         {
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:28:14.134209+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072797",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
           "pd_no": "1072801",
           "category_tag": "makeup",
           "canonical_grade": null,
@@ -21286,9 +22123,87 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:00:40.454298+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072801",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:20:48.383708+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078840",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "C",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:19:45.192137+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079334",
           "registration_executed_at": null,
           "publish_executed_at": null,
           "actual_sales": {
@@ -21325,7 +22240,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:51:13.773691+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=69036",
           "registration_executed_at": null,
@@ -21364,7 +22279,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:19:40.043862+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016089",
           "registration_executed_at": null,
@@ -21403,7 +22318,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:22:51.552914+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016139",
           "registration_executed_at": null,
@@ -21442,7 +22357,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:57:32.065477+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016219",
           "registration_executed_at": null,
@@ -21481,7 +22396,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:54:23.015729+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026351",
           "registration_executed_at": null,
@@ -21520,7 +22435,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:10:09.610377+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026361",
           "registration_executed_at": null,
@@ -21559,7 +22474,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:07:00.480423+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026372",
           "registration_executed_at": null,
@@ -21598,7 +22513,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:29:02.111096+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026391",
           "registration_executed_at": null,
@@ -21637,7 +22552,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:44:54.262552+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026392",
           "registration_executed_at": null,
@@ -21676,7 +22591,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:35:22.662265+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026401",
           "registration_executed_at": null,
@@ -22411,6 +23326,150 @@
         {
           "task_id": "beauty:makeup:1039628:category_evidence_links",
           "pd_no": "1039628",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:canonical_source_research",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:fresh_gate",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:resolve_legal_full_required",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:resolve_listing_gate_not_ready",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:resolve_manufacturer_safety_record_required",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:resolve_price_evidence_required",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:comparable_price_evidence",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:actual_sales_evidence",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:image_evidence",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:publication_evidence",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:source_provenance",
+          "pd_no": "1041114",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1041114:category_evidence_links",
+          "pd_no": "1041114",
           "category_tag": "makeup",
           "owner_team_id": "graph",
           "kind": "category_evidence_links",
@@ -25445,6 +26504,150 @@
           "approval_receipt": null
         },
         {
+          "task_id": "beauty:makeup:1067386:canonical_source_research",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:fresh_gate",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:resolve_legal_full_required",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:resolve_listing_gate_not_ready",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:resolve_manufacturer_safety_record_required",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:resolve_price_evidence_required",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:comparable_price_evidence",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:actual_sales_evidence",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:image_evidence",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:publication_evidence",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:source_provenance",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067386:category_evidence_links",
+          "pd_no": "1067386",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
           "task_id": "beauty:makeup:1067395:canonical_source_research",
           "pd_no": "1067395",
           "category_tag": "makeup",
@@ -25877,6 +27080,438 @@
           "approval_receipt": null
         },
         {
+          "task_id": "beauty:makeup:1067862:canonical_source_research",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:fresh_gate",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:resolve_legal_full_required",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:resolve_listing_gate_not_ready",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:resolve_manufacturer_safety_record_required",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:resolve_price_evidence_required",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:comparable_price_evidence",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:actual_sales_evidence",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:image_evidence",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:publication_evidence",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:source_provenance",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067862:category_evidence_links",
+          "pd_no": "1067862",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:canonical_source_research",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:fresh_gate",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:resolve_legal_full_required",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:resolve_listing_gate_not_ready",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:resolve_manufacturer_safety_record_required",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:resolve_price_evidence_required",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:comparable_price_evidence",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:actual_sales_evidence",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:image_evidence",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:publication_evidence",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:source_provenance",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067863:category_evidence_links",
+          "pd_no": "1067863",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:canonical_source_research",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:fresh_gate",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:resolve_legal_full_required",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:resolve_listing_gate_not_ready",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:resolve_manufacturer_safety_record_required",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:resolve_price_evidence_required",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:comparable_price_evidence",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:actual_sales_evidence",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:image_evidence",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:publication_evidence",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:source_provenance",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1067867:category_evidence_links",
+          "pd_no": "1067867",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
           "task_id": "beauty:makeup:1068733:canonical_source_research",
           "pd_no": "1068733",
           "category_tag": "makeup",
@@ -26021,6 +27656,150 @@
           "approval_receipt": null
         },
         {
+          "task_id": "beauty:makeup:1071676:canonical_source_research",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:fresh_gate",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:resolve_legal_full_required",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:resolve_listing_gate_not_ready",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:resolve_manufacturer_safety_record_required",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:resolve_price_evidence_required",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:comparable_price_evidence",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:actual_sales_evidence",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:image_evidence",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:publication_evidence",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:source_provenance",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1071676:category_evidence_links",
+          "pd_no": "1071676",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
           "task_id": "beauty:makeup:1072794:canonical_source_research",
           "pd_no": "1072794",
           "category_tag": "makeup",
@@ -26155,6 +27934,150 @@
         {
           "task_id": "beauty:makeup:1072794:category_evidence_links",
           "pd_no": "1072794",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:canonical_source_research",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:fresh_gate",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:resolve_legal_full_required",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:resolve_listing_gate_not_ready",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:resolve_manufacturer_safety_record_required",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:resolve_price_evidence_required",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:comparable_price_evidence",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:actual_sales_evidence",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:image_evidence",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:publication_evidence",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:source_provenance",
+          "pd_no": "1072797",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1072797:category_evidence_links",
+          "pd_no": "1072797",
           "category_tag": "makeup",
           "owner_team_id": "graph",
           "kind": "category_evidence_links",
@@ -26779,6 +28702,294 @@
         {
           "task_id": "beauty:makeup:1074979:category_evidence_links",
           "pd_no": "1074979",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:canonical_source_research",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:fresh_gate",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:resolve_legal_full_required",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:resolve_listing_gate_not_ready",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:resolve_manufacturer_safety_record_required",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:resolve_price_evidence_required",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:comparable_price_evidence",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:actual_sales_evidence",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:image_evidence",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:publication_evidence",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:source_provenance",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1078840:category_evidence_links",
+          "pd_no": "1078840",
+          "category_tag": "makeup",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:canonical_source_research",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:fresh_gate",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:resolve_legal_full_required",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:resolve_listing_gate_not_ready",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:resolve_manufacturer_safety_record_required",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:resolve_price_evidence_required",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:comparable_price_evidence",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:actual_sales_evidence",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:image_evidence",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:publication_evidence",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:source_provenance",
+          "pd_no": "1079334",
+          "category_tag": "makeup",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:makeup:1079334:category_evidence_links",
+          "pd_no": "1079334",
           "category_tag": "makeup",
           "owner_team_id": "graph",
           "kind": "category_evidence_links",
@@ -28229,19 +30440,21 @@
           "approval_receipt": null
         }
       ],
-      "skipped_registered_pd_nos": [],
+      "skipped_registered_pd_nos": [
+        "1045431"
+      ],
       "canonical_s_count": 2,
       "eligible_pd_nos": [],
       "s_zero": false,
       "counts": {
         "registration": 2,
         "eligible": 0,
-        "source_research": 42,
-        "evidence_tasks": 544
+        "source_research": 51,
+        "evidence_tasks": 652
       },
       "analysis_proof": {
         "operation": "local_category_queue_analysis",
-        "executed_at": "2026-10-17T12:19:01.171269Z",
+        "executed_at": "2026-10-17T13:28:57.524240Z",
         "clock_source": "caller_supplied_as_of",
         "analyzed_pd_nos": [
           "1018036",
@@ -28249,6 +30462,7 @@
           "1035214",
           "1039238",
           "1039628",
+          "1041114",
           "1041890",
           "1044402",
           "1044404",
@@ -28270,14 +30484,22 @@
           "1066897",
           "1066898",
           "1066900",
+          "1067386",
           "1067395",
           "1067396",
           "1067399",
+          "1067862",
+          "1067863",
+          "1067867",
           "1068733",
+          "1071676",
           "1072794",
+          "1072797",
           "1072800",
           "1072801",
           "1074979",
+          "1078840",
+          "1079334",
           "69036",
           "B202604016089",
           "B202604016139",
@@ -28289,13 +30511,15 @@
           "B202604026392",
           "B202604026401"
         ],
-        "skipped_registered_pd_nos": [],
+        "skipped_registered_pd_nos": [
+          "1045431"
+        ],
         "input_sha256": {
           "category_config": "cf6008d740be099e12b5fde983fb746942e731fc5fd5aa2704a78b43447d3f4f",
           "demand_score": "48e3f36931df079601f9a6aa4a091454f1907789100844f0f6c63d6609885d44",
           "registry": "6376b2a5032bf8c3db299c718ac89aeb5584fa7dfe46319ee49802ea09f46b40",
           "listing_gate": "7b0e037c567333e56dd635a97ea9cbe2c11fe6e30a026d6dc26a5bc114af7fc4",
-          "candidate_comparison": "534c5d060a997e9d897401a748643f29dc8d379b1e3cc3a0e1f829daeeb28960",
+          "candidate_comparison": "1e4c73c6a040d650054c1ba15328a2904297b4b340fe9e17dd9794a89c70547f",
           "beauty_strategy": "246779bb80b7dd7bed4203a260f3f3441690e9320a7560d1e4c8229db2f56db2"
         },
         "research_executed": false,
@@ -28303,8 +30527,8 @@
         "output_counts": {
           "registration": 2,
           "eligible": 0,
-          "source_research": 42,
-          "evidence_tasks": 544
+          "source_research": 51,
+          "evidence_tasks": 652
         }
       }
     },
@@ -28312,7 +30536,7 @@
       "subteam_id": "beauty_body",
       "category_tag": "body",
       "status": "analysis_complete",
-      "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+      "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
       "work_status": "source_research_required",
       "S_only": true,
       "allowed_grades": [
@@ -28329,6 +30553,7 @@
         "1032884",
         "1035035",
         "1035059",
+        "1039849",
         "1041889",
         "1042531",
         "1047040",
@@ -28338,6 +30563,7 @@
         "1061947",
         "1063229",
         "1068710",
+        "1072854",
         "1072857",
         "B202605202245"
       ],
@@ -28365,7 +30591,7 @@
           "category_tag": "body",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "C",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -28377,7 +30603,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:07:32.440557+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004477",
           "registration_executed_at": null,
@@ -28404,7 +30630,7 @@
           "category_tag": "body",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "C",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -28416,7 +30642,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:39:02.693834+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004478",
           "registration_executed_at": null,
@@ -28443,7 +30669,7 @@
           "category_tag": "body",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "C",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -28455,7 +30681,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:01:11.602416+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010719",
           "registration_executed_at": null,
@@ -28494,7 +30720,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1021470",
           "registration_executed_at": null,
@@ -28544,7 +30770,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:48:36.036757+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027333",
           "registration_executed_at": null,
@@ -28571,7 +30797,7 @@
           "category_tag": "body",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "C",
+          "comparison_grade": "A",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -28583,7 +30809,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:29:34.105029+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030798",
           "registration_executed_at": null,
@@ -28622,7 +30848,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:17:01.913321+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032884",
           "registration_executed_at": null,
@@ -28661,7 +30887,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035035",
           "registration_executed_at": null,
@@ -28711,7 +30937,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035059",
           "registration_executed_at": null,
@@ -28745,6 +30971,45 @@
           }
         },
         {
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "B",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:25:34.536216+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039849",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
           "pd_no": "1041889",
           "category_tag": "body",
           "canonical_grade": null,
@@ -28761,7 +31026,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:42:14.503016+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041889",
           "registration_executed_at": null,
@@ -28800,7 +31065,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042531",
           "registration_executed_at": null,
@@ -28850,7 +31115,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047040",
           "registration_executed_at": null,
@@ -28900,7 +31165,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051792",
           "registration_executed_at": null,
@@ -28950,7 +31215,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:45:25.887522+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053464",
           "registration_executed_at": null,
@@ -28989,7 +31254,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056104",
           "registration_executed_at": null,
@@ -29039,7 +31304,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061947",
           "registration_executed_at": null,
@@ -29089,7 +31354,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1063229",
           "registration_executed_at": null,
@@ -29139,7 +31404,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068710",
           "registration_executed_at": null,
@@ -29173,11 +31438,11 @@
           }
         },
         {
-          "pd_no": "1072857",
+          "pd_no": "1072854",
           "category_tag": "body",
           "canonical_grade": null,
           "canonical_source": null,
-          "comparison_grade": "B",
+          "comparison_grade": "C",
           "S_only": true,
           "eligible_for_registration": false,
           "requires_live_revalidation": true,
@@ -29189,7 +31454,46 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
+          "source_observed_at": "2026-10-17T13:19:13.919736+00:00",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072854",
+          "registration_executed_at": null,
+          "publish_executed_at": null,
+          "actual_sales": {
+            "status": "UNKNOWN",
+            "orders": null,
+            "units": null,
+            "reason": "No product-level transaction evidence consumed by this analysis"
+          },
+          "price_position": {
+            "status": "unknown"
+          },
+          "profitability_warnings": {},
+          "manufacturer_safety": {
+            "status": "not_verified_by_this_analysis",
+            "gate_record_covered": null,
+            "current_record_covered": false,
+            "current_record_reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          }
+        },
+        {
+          "pd_no": "1072857",
+          "category_tag": "body",
+          "canonical_grade": null,
+          "canonical_source": null,
+          "comparison_grade": "A",
+          "S_only": true,
+          "eligible_for_registration": false,
+          "requires_live_revalidation": true,
+          "blockers": [
+            "canonical_S_required",
+            "legal_full_required",
+            "listing_gate_not_ready",
+            "manufacturer_safety_record_required",
+            "price_evidence_required",
+            "unique_product_gate_required"
+          ],
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T03:20:12.354780+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072857",
           "registration_executed_at": null,
@@ -29228,7 +31532,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-17T12:19:01.171269Z",
+          "analysis_executed_at": "2026-10-17T13:28:57.524240Z",
           "source_observed_at": "2026-10-11T02:54:54.907476+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202245",
           "registration_executed_at": null,
@@ -30549,6 +32853,150 @@
           "approval_receipt": null
         },
         {
+          "task_id": "beauty:body:1039849:canonical_source_research",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:fresh_gate",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:resolve_legal_full_required",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:resolve_listing_gate_not_ready",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:resolve_manufacturer_safety_record_required",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:resolve_price_evidence_required",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:comparable_price_evidence",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:actual_sales_evidence",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:image_evidence",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:publication_evidence",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:source_provenance",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1039849:category_evidence_links",
+          "pd_no": "1039849",
+          "category_tag": "body",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
           "task_id": "beauty:body:1041889:canonical_source_research",
           "pd_no": "1041889",
           "category_tag": "body",
@@ -31845,6 +34293,150 @@
           "approval_receipt": null
         },
         {
+          "task_id": "beauty:body:1072854:canonical_source_research",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "sourcing",
+          "kind": "canonical_source_research",
+          "status": "source_research_required",
+          "requirement": "Collect exact product demand evidence; comparison/A/B/C never substitutes for canonical S.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:fresh_gate",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "listing",
+          "kind": "fresh_gate",
+          "status": "source_research_required",
+          "requirement": "Rebuild listing_gate from current signed inputs and revalidate before registration.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:resolve_legal_full_required",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "legal",
+          "kind": "resolve_legal_full_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: legal_full_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:resolve_listing_gate_not_ready",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "listing",
+          "kind": "resolve_listing_gate_not_ready",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: listing_gate_not_ready",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:resolve_manufacturer_safety_record_required",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "legal",
+          "kind": "resolve_manufacturer_safety_record_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: manufacturer_safety_record_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:resolve_price_evidence_required",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "pricing",
+          "kind": "resolve_price_evidence_required",
+          "status": "source_research_required",
+          "requirement": "Resolve exact product evidence blocker: price_evidence_required",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:comparable_price_evidence",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "pricing",
+          "kind": "comparable_price_evidence",
+          "status": "source_research_required",
+          "requirement": "Collect dated exact-item, same-volume seller price and shipping evidence; unknown is not lowest.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:actual_sales_evidence",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "market",
+          "kind": "actual_sales_evidence",
+          "status": "source_research_required",
+          "requirement": "Obtain product-level orders/units and observation window; reviews, similarity and registry do not prove sales.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:image_evidence",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "design",
+          "kind": "image_evidence",
+          "status": "source_research_required",
+          "requirement": "Record exact-product image source, usage permission and actual listing asset inspection; do not claim review execution.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:publication_evidence",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "channels",
+          "kind": "publication_evidence",
+          "status": "source_research_required",
+          "requirement": "After authorized execution, obtain Shopify ID and channel/publication receipt; proposed listing is not published.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:source_provenance",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "knowledge",
+          "kind": "source_provenance",
+          "status": "source_research_required",
+          "requirement": "Link source timestamp and URL separately from local analysis and publication receipts.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
+          "task_id": "beauty:body:1072854:category_evidence_links",
+          "pd_no": "1072854",
+          "category_tag": "body",
+          "owner_team_id": "graph",
+          "kind": "category_evidence_links",
+          "status": "source_research_required",
+          "requirement": "Link this PD to its dedicated category, evidence tasks and canonical shared-role owners.",
+          "executed_at": null,
+          "handoff_receipt": null,
+          "approval_receipt": null
+        },
+        {
           "task_id": "beauty:body:1072857:canonical_source_research",
           "pd_no": "1072857",
           "category_tag": "body",
@@ -32140,12 +34732,12 @@
       "counts": {
         "registration": 0,
         "eligible": 0,
-        "source_research": 20,
-        "evidence_tasks": 240
+        "source_research": 22,
+        "evidence_tasks": 264
       },
       "analysis_proof": {
         "operation": "local_category_queue_analysis",
-        "executed_at": "2026-10-17T12:19:01.171269Z",
+        "executed_at": "2026-10-17T13:28:57.524240Z",
         "clock_source": "caller_supplied_as_of",
         "analyzed_pd_nos": [
           "1004477",
@@ -32157,6 +34749,7 @@
           "1032884",
           "1035035",
           "1035059",
+          "1039849",
           "1041889",
           "1042531",
           "1047040",
@@ -32166,6 +34759,7 @@
           "1061947",
           "1063229",
           "1068710",
+          "1072854",
           "1072857",
           "B202605202245"
         ],
@@ -32175,7 +34769,7 @@
           "demand_score": "48e3f36931df079601f9a6aa4a091454f1907789100844f0f6c63d6609885d44",
           "registry": "6376b2a5032bf8c3db299c718ac89aeb5584fa7dfe46319ee49802ea09f46b40",
           "listing_gate": "7b0e037c567333e56dd635a97ea9cbe2c11fe6e30a026d6dc26a5bc114af7fc4",
-          "candidate_comparison": "534c5d060a997e9d897401a748643f29dc8d379b1e3cc3a0e1f829daeeb28960",
+          "candidate_comparison": "1e4c73c6a040d650054c1ba15328a2904297b4b340fe9e17dd9794a89c70547f",
           "beauty_strategy": "246779bb80b7dd7bed4203a260f3f3441690e9320a7560d1e4c8229db2f56db2"
         },
         "research_executed": false,
@@ -32183,8 +34777,8 @@
         "output_counts": {
           "registration": 0,
           "eligible": 0,
-          "source_research": 20,
-          "evidence_tasks": 240
+          "source_research": 22,
+          "evidence_tasks": 264
         }
       }
     }
@@ -32227,8 +34821,8 @@
       "loaded": true,
       "error": null,
       "source_observed_at": null,
-      "document_generated_at": "2026-10-11T04:51:33.906419+00:00",
-      "semantic_sha256": "534c5d060a997e9d897401a748643f29dc8d379b1e3cc3a0e1f829daeeb28960"
+      "document_generated_at": "2026-10-17T13:28:33.331140+00:00",
+      "semantic_sha256": "1e4c73c6a040d650054c1ba15328a2904297b4b340fe9e17dd9794a89c70547f"
     },
     "beauty_strategy": {
       "path": "data/beauty_price_strategy.json",
@@ -32959,6 +35553,10 @@
     },
     {
       "pd_no": "1070654",
+      "reason": "category_missing_ambiguous_or_out_of_scope"
+    },
+    {
+      "pd_no": "1070655",
       "reason": "category_missing_ambiguous_or_out_of_scope"
     },
     {

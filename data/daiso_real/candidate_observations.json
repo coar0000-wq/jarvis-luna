@@ -30,7 +30,127 @@
       "at": "2026-10-05T07:03:25.816515+00:00",
       "reason": "Outside verified candidate scope",
       "execution_id": "37275531536:1:collect"
+    },
+    "1067862": {
+      "status": "accepted",
+      "at": "2026-10-17T13:18:09.077980+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1045431": {
+      "status": "accepted",
+      "at": "2026-10-17T13:18:41.617816+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1072854": {
+      "status": "accepted",
+      "at": "2026-10-17T13:19:13.919736+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1079334": {
+      "status": "accepted",
+      "at": "2026-10-17T13:19:45.192137+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1087764": {
+      "status": "accepted",
+      "at": "2026-10-17T13:20:16.995469+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1078840": {
+      "status": "accepted",
+      "at": "2026-10-17T13:20:48.383708+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1067863": {
+      "status": "accepted",
+      "at": "2026-10-17T13:21:19.296041+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1067386": {
+      "status": "accepted",
+      "at": "2026-10-17T13:21:51.071493+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1060643": {
+      "status": "accepted",
+      "at": "2026-10-17T13:22:54.827753+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1041114": {
+      "status": "accepted",
+      "at": "2026-10-17T13:24:30.916824+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1071676": {
+      "status": "accepted",
+      "at": "2026-10-17T13:25:02.449962+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1039849": {
+      "status": "accepted",
+      "at": "2026-10-17T13:25:34.536216+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1059093": {
+      "status": "accepted",
+      "at": "2026-10-17T13:26:06.164895+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1070655": {
+      "status": "accepted",
+      "at": "2026-10-17T13:27:10.074833+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1067867": {
+      "status": "accepted",
+      "at": "2026-10-17T13:27:42.393871+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1072797": {
+      "status": "accepted",
+      "at": "2026-10-17T13:28:14.134209+00:00",
+      "reason": "",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1045058": {
+      "status": "not_beauty",
+      "at": "2026-10-17T13:28:14.141421+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1030480": {
+      "status": "not_beauty",
+      "at": "2026-10-17T13:28:14.141477+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1001263": {
+      "status": "not_beauty",
+      "at": "2026-10-17T13:28:14.141534+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "39035849660:1:collect"
+    },
+    "1073720": {
+      "status": "not_beauty",
+      "at": "2026-10-17T13:28:14.141577+00:00",
+      "reason": "Outside verified candidate scope",
+      "execution_id": "39035849660:1:collect"
     }
   },
-  "generated_at": "2026-10-05T07:03:25.816515+00:00"
+  "generated_at": "2026-10-17T13:28:14.141577+00:00"
 }
