@@ -17,8 +17,20 @@ from pathlib import Path
 
 try:
     import product_accuracy
+    from ai_shopping_copy import append_shopping_copy
 except ModuleNotFoundError:
     from . import product_accuracy
+    from .ai_shopping_copy import append_shopping_copy
+
+
+def find_banned(value):
+    # Gemini imports this module for its neutral draft. Resolve the shared
+    # rules lazily so neither CLI entry point has a partial-import cycle.
+    try:
+        from gemini_listing_copy import find_banned as check
+    except ModuleNotFoundError:
+        from .gemini_listing_copy import find_banned as check
+    return check(value)
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -130,7 +142,7 @@ def local_copy(name: str, gate_row: dict) -> dict:
         + (f"; net contents {volume}" if volume else "")
         + f". Check the final US label for {title} before publication."
     )[:320]
-    return {
+    result = {
         "title": title,
         "description_html": description,
         "seo_title": title,
@@ -138,6 +150,13 @@ def local_copy(name: str, gate_row: dict) -> dict:
         "tags": tags,
         "product_type": product_type,
     }
+    result = append_shopping_copy(result, title, product_type, volume,
+                                  pd_no=str(gate_row.get("pd_no") or ""),
+                                  field_evidence=gate_row.get("field_evidence"))
+    bad = find_banned(result)
+    if bad:
+        raise ValueError("banned expressions: " + ", ".join(bad))
+    return result
 
 
 COPY_REL = "data/shopify_listing_copy.json"
@@ -165,7 +184,7 @@ def verify_current(doc, source, gate):
     for key in ("generated_at", "generator", "model", "source", "note"):
         if not isinstance(doc.get(key), str) or not doc[key].strip():
             raise ValueError("blank current copy provenance")
-    eligible = review_required = 0
+    eligible = review_required = failed = 0
     for pd_no, row in current.items():
         gr = gates[pd_no]
         for target, key in (("name_ko", "name"), ("bucket", "bucket"), ("price_krw", "price_krw"),
@@ -187,11 +206,16 @@ def verify_current(doc, source, gate):
                 if not isinstance(row.get("copy"), dict):
                     raise ValueError("held current copy must retain its text")
                 review_required += 1
+            elif row.get("copy_status") == "failed":
+                if row.get("copy") is not None or not row.get("error"):
+                    raise ValueError("failed current copy must be empty with a reason")
+                failed += 1
             elif row.get("copy_status") != "ok":
-                raise ValueError("eligible current copy must be ok or review_required")
+                raise ValueError("eligible current copy must be ok, review_required or failed")
     if (doc.get("total") != len(current) or doc.get("eligible") != eligible
-            or doc.get("ok") != eligible - review_required
+            or doc.get("ok") != eligible - review_required - failed
             or doc.get("review_required", 0) != review_required
+            or doc.get("failed", 0) != failed
             or doc.get("skipped_prerequisite") != len(current) - eligible):
         raise ValueError("current copy counters do not match canonical gate")
     return set(canonical)
@@ -294,7 +318,7 @@ def main() -> int:
               for x in (previous.get("items") or []) if isinstance(x, dict)}
 
     items = []
-    carried = generated = skipped = 0
+    carried = generated = skipped = failed = 0
     for product in products:
         pd_no = str(product.get("pd_no") or "")
         gate_row = gate_by.get(pd_no) or {}
@@ -324,14 +348,19 @@ def main() -> int:
             skipped += 1
             continue
 
-        neutral = local_copy(clean(product.get("name")), gate_row)
+        neutral_error = ""
+        try:
+            neutral = local_copy(clean(product.get("name")), gate_row)
+        except ValueError as exc:
+            neutral, neutral_error = None, str(exc)
         accuracy_product = {**product, "brand_english": brand_of(clean(product.get("name"))),
                             "net_contents": volume_of(gate_row, clean(product.get("name")))}
         if (old.get("copy_status") in ("ok", "review_required")
                 and isinstance(old.get("copy"), dict)
                 and old.get("generation_mode") != LEGACY_LOCAL_MODE):
             accuracy = product_accuracy.review_copy(accuracy_product, old["copy"], neutral, ROOT)
-            held = bool(accuracy["unsupported_fields"] or accuracy["source_conflicts"])
+            held = bool(accuracy["unsupported_fields"] or accuracy["source_conflicts"]
+                        or find_banned(old["copy"]))
             items.append({
                 **common,
                 "copy": old["copy"],
@@ -346,6 +375,12 @@ def main() -> int:
             carried += 1
             continue
 
+        if neutral is None:
+            items.append({**common, "copy": None, "copy_status": "failed",
+                          "generation_mode": LOCAL_MODE, "agent_blocked_by": [],
+                          "error": neutral_error})
+            failed += 1
+            continue
         accuracy = product_accuracy.review_copy(accuracy_product, neutral, neutral, ROOT)
         held = bool(accuracy["unsupported_fields"] or accuracy["source_conflicts"])
         items.append({
@@ -371,10 +406,10 @@ def main() -> int:
             "제품명·제형·용량 기반으로 생성하며, 효능·인증·임상 결과는 생성하지 않는다."
         ),
         "total": len(items),
-        "eligible": carried + generated,
+        "eligible": carried + generated + failed,
         "ok": sum(row["copy_status"] == "ok" for row in items),
         "review_required": sum(row["copy_status"] == "review_required" for row in items),
-        "failed": 0,
+        "failed": failed,
         "skipped_prerequisite": skipped,
         "carried_forward": carried,
         "generated_local": generated,

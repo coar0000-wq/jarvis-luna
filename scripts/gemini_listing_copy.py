@@ -33,6 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
 import product_accuracy  # noqa: E402
 import build_listing_copy_local as local_copy_builder  # noqa: E402
+from ai_shopping_copy import append_shopping_copy, banned_expressions
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
@@ -59,6 +60,10 @@ Source price (KRW, retail in Korea): {price_krw}
 Customer rating on daisomall.co.kr: {rating} from {reviews} reviews
 
 Write the English listing. Rules you must follow:
+- Use only the supplied source facts. Do not invent skin suitability, application
+  directions, contraindications, discounts, stock, shipping/returns, review
+  counts, safety or FDA approval. Do not propose shopping advice or FAQs;
+  those are appended deterministically from admitted evidence, not model text.
 - Base everything on the Korean product name only. Do not invent ingredients,
   certifications, clinical results, or country-of-manufacture claims.
 - NEVER use any of these phrases. They turn a cosmetic into an unapproved drug
@@ -160,9 +165,7 @@ BANNED, BANNED_TEXT = load_rules()
 
 def find_banned(copy: dict) -> list[str]:
     """생성 결과에 금지 표현이 남았는지 본다. 남으면 그 항목은 버린다."""
-    blob = " ".join(str(copy.get(k) or "") for k in REQUIRED).lower()
-    blob += " " + " ".join(str(t) for t in (copy.get("tags") or []))
-    return sorted({t for t in BANNED if t in blob.lower()})
+    return banned_expressions(copy, BANNED)
 
 
 def generate(key: str, model: str, p: dict) -> tuple[dict | None, str]:
@@ -219,6 +222,37 @@ def generate(key: str, model: str, p: dict) -> tuple[dict | None, str]:
             continue
         return obj, ""
     return None, last or "원인 미상"
+
+
+def new_copy(key: str, model: str, product: dict, gate_row: dict, *, previous=None) -> tuple[dict | None, str]:
+    """Enrich a new response locally, without another provider call.
+
+    A supplied previous copy is text only, never a reusable accuracy approval.
+    The entry point rechecks retained text through product_accuracy. Model
+    extension fields are never admitted as field authority or shopping advice.
+    """
+    from build_listing_copy_local import type_of, volume_of
+    if not gate_row.get("agent_ready"):
+        return None, "prerequisite blocked"
+    if (isinstance(previous, dict) and previous.get("copy_status") == "ok"
+            and isinstance(previous.get("copy"), dict)):
+        from copy import deepcopy
+        return deepcopy(previous["copy"]), ""
+    generated, error = generate(key, model, product)
+    if generated is None:
+        return None, error
+    # Check even discarded extensions, keeping the existing fail-closed rule.
+    bad = find_banned(generated)
+    if bad:
+        return None, "금지 표현 포함: " + ", ".join(bad[:5])
+    name = product.get("name") or ""
+    enriched = append_shopping_copy(
+        {key: generated[key] for key in REQUIRED}, generated["title"],
+        type_of(name), volume_of(gate_row, name),
+        pd_no=str(product.get("pd_no") or ""),
+        field_evidence=gate_row.get("field_evidence"))
+    bad = find_banned(enriched)
+    return (None, "금지 표현 포함: " + ", ".join(bad[:5])) if bad else (enriched, "")
 
 
 def _sha256_bytes(value: bytes) -> str:
@@ -280,9 +314,19 @@ def main() -> int:
             if not p.get(k) and d.get(k) is not None:
                 p[k] = d[k]
 
+    # Preserve prior manual/Gemini text, but re-run current accuracy checks.
+    previous = {}
+    if OUT.exists():
+        previous_doc = json.loads(OUT.read_text(encoding="utf-8-sig"))
+        previous = {str(row.get("pd_no")): row for row in previous_doc.get("items", [])
+                    if isinstance(row, dict)}
+    def reusable(p):
+        old = previous.get(str(p.get("pd_no")), {})
+        return (old.get("copy_status") in ("ok", "review_required")
+                and isinstance(old.get("copy"), dict))
     eligible_expected = sum(
         1 for p in products
-        if (gate_by.get(str(p.get("pd_no") or "")) or {}).get("agent_ready")
+        if (gate_by.get(str(p.get("pd_no") or "")) or {}).get("agent_ready") and not reusable(p)
     )
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if eligible_expected and not key:
@@ -292,8 +336,8 @@ def main() -> int:
         model, how = pick_model(key)
         print(f"모델: {model}  ({how})")
     else:
-        model, how = "", "호출 안 함: agent_ready 상품 0건"
-        print("agent_ready 상품이 0건이라 Gemini API를 호출하지 않습니다.")
+        model, how = "", "호출 안 함: 새로 생성할 상품 0건"
+        print("새로 생성할 적격 상품이 없어 Gemini API를 호출하지 않습니다.")
 
     items, ok, fail, skipped, eligible, review_required = [], 0, 0, 0, 0, 0
     for i, p in enumerate(products, 1):
@@ -325,18 +369,41 @@ def main() -> int:
             continue
 
         eligible += 1
-        copy, err = generate(key, model, p)
-        # A wording pass does not support product facts. Keep a neutral draft
-        # even when the model fails or invents source-free claims.
-        neutral = local_copy_builder.local_copy(p.get("name", ""), gate_row)
+        neutral_error = ""
+        try:
+            neutral = local_copy_builder.local_copy(p.get("name", ""), gate_row)
+        except ValueError as exc:
+            neutral, neutral_error = None, str(exc)
         accuracy_product = {**p, "brand_english": local_copy_builder.brand_of(p.get("name", "")),
                             "net_contents": local_copy_builder.volume_of(gate_row, p.get("name", ""))}
-        copy, accuracy = product_accuracy.select_copy(accuracy_product, copy, neutral, ROOT)
+        from_cache = reusable(p)
+        retained = previous[pd_no] if from_cache else {}
+        if from_cache:
+            from copy import deepcopy
+            copy, err = deepcopy(retained["copy"]), ""
+            accuracy = product_accuracy.review_copy(accuracy_product, copy, neutral, ROOT)
+            held = bool(accuracy["unsupported_fields"] or accuracy["source_conflicts"]
+                        or find_banned(copy))
+            status = "review_required" if held else "ok"
+            if held:
+                err = "product_accuracy_copy_review_required"
+        elif neutral is None:
+            copy, err = None, neutral_error
+            accuracy = product_accuracy.review_copy(accuracy_product, copy, neutral, ROOT)
+            status = "failed"
+        else:
+            copy, err = new_copy(key, model, p, gate_row)
+            # A wording pass and deterministic FAQ are not factual approval.
+            # Retain upstream exact-support selection, including neutral fallback.
+            copy, accuracy = product_accuracy.select_copy(accuracy_product, copy, neutral, ROOT)
+            status = ("failed" if copy is None else
+                      "review_required" if accuracy["source_conflicts"] else "ok")
         row = {
+            **retained,
             **common,
             "copy": copy,
             "product_accuracy": accuracy,
-            "copy_status": "review_required" if accuracy["source_conflicts"] else ("ok" if copy else "failed"),
+            "copy_status": status,
             "agent_blocked_by": [],
             "error": err,
         }
@@ -350,7 +417,8 @@ def main() -> int:
         else:
             fail += 1
             print(f"  [{i:2d}/{len(products)}] FAIL {p.get('name','')[:34]} :: {err[:70]}")
-        time.sleep(DELAY)
+        if not from_cache:
+            time.sleep(DELAY)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({

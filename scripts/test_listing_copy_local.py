@@ -186,7 +186,10 @@ class ListingCopyLocalTest(unittest.TestCase):
         no_size = listing.local_copy("VT PDRN 크림", {})
         self.assertNotIn("net contents", no_size["description_html"])
         self.assertNotIn("net contents", no_size["seo_description"])
-        self.assertFalse(any(c.isdigit() for c in json.dumps(no_size)))
+        # FAQ markup must not invent numerical product facts.
+        self.assertFalse(any(c.isdigit() for c in check_slop.strip_html(no_size["description_html"])))
+        self.assertFalse(any(c.isdigit() for c in no_size["seo_description"]))
+        self.assertFalse(any("size" in faq["question"] for faq in no_size["ai_shopping_copy"]["faq"]))
 
     def test_unknown_brand_preserves_source_name_without_origin_inference(self):
         value = listing.local_copy("Example Unknown 세럼", {})
@@ -199,6 +202,36 @@ class ListingCopyLocalTest(unittest.TestCase):
         self.assertNotIn("<b>", value["description_html"])
         self.assertIn("&lt;b&gt;", value["description_html"])
         self.assertIn("&amp;", value["description_html"])
+
+    def test_new_local_sections_reach_description_without_network_or_gate_mutation(self):
+        import gemini_listing_copy
+        gates = [gate()]
+        before = copy.deepcopy(gates)
+        with patch.object(gemini_listing_copy, "http_json", side_effect=AssertionError("network")):
+            result = self.run_fixture(gates=gates)
+        value = result["items"][0]["copy"]
+        self.assertIn("Product FAQ", value["description_html"])
+        self.assertIn("face cream", value["description_html"])
+        self.assertEqual(value["ai_shopping_copy"]["usage_scenario"], "")
+        self.assertNotIn("Usage scenario", value["description_html"])
+        self.assertEqual(gates, before)
+        self.assertFalse(result["paid_api_called"])
+
+    def test_banned_local_identity_fails_closed(self):
+        import gemini_listing_copy
+        with patch.object(gemini_listing_copy, "BANNED", ["pdrn"]):
+            result = self.run_fixture()
+        self.assertIsNone(result["items"][0]["copy"])
+        self.assertEqual(result["items"][0]["copy_status"], "failed")
+        self.assertEqual(result["failed"], 1)
+        self.assertEqual(result["ok"], 0)
+        self.assertEqual(result["eligible"], 1)
+        self.assertEqual(listing.verify_current(
+            result, {"canonical": True, "recommendations": [product()]}, {"items": [gate()]}), {"1"})
+        invalid = copy.deepcopy(result)
+        invalid["items"][0]["copy"] = {"title": "must not be published"}
+        with self.assertRaises(ValueError):
+            listing.verify_current(invalid, {"canonical": True, "recommendations": [product()]}, {"items": [gate()]})
 
     def test_identical_facts_are_not_disguised_to_evade_gate(self):
         value = listing.local_copy(FIXTURES[0][0], gate())
