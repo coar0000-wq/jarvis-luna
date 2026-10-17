@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-17T02:50:09.837734+00:00",
+  "generated_at": "2026-10-17T06:08:23.160427+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -8,7 +8,7 @@
       "data/product_master.json": "98f25f9277862046d95542c5d2485e5aacdaf0256a87dc0a449507971bf45007",
       "data/gosi.json": "9957b715738857ece0929e82a179e94fb54bf1ce3527ccac08895cbbf14204ae",
       "data/daiso_real/daiso_us_labels.json": "fa428b266597f92fe48eca79f9f822efdaa65d8ffdad6dfd45ff1ab81f5d5a43",
-      "data/pricing_model.json": "063046fd5fbb5f5cb0d67bce0f4e4f17b8446018d8dc90e3c136bad666912591",
+      "data/pricing_model.json": "d806d8e2f7fa4a1de16ecb7e91210103426bf1ed4490572d92a45f015633cd59",
       "data/legal_products.json": "e9fa06c6035b11ee506f6548d76db8022e4433d1e13b920b473c365cadddf77a",
       "data/daiso_real/shopify_s_recommendations.json": "e3467be114fa6657ffa081238b5030c8e264f9e0a64813667c708d0a9c8a4351",
       "data/shopify_listing_copy.json": "2437b6addd34c2a38a5c334e4f92031ce1e4d5a7e9af9165013f51c73c135c60",
@@ -20,7 +20,7 @@
       "data/manual/owner_draft_approvals.json": "c9314abe5f1e4a58067adbc6b18a3894082c018a8dfa3ad6f9acfeab8a64e20d",
       "data/us_claim_rules.json": "d0ea3f50a5601b9e7e6ebc17cc931b7f89735c12223d6fe6463169c942456732",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-      "config/daiso_commerce_strategy.json": "db60e80f20f144f8df341be9aad4a5923a93e5b0211778ea5ab0ab209a62cc79",
+      "config/daiso_commerce_strategy.json": "5be122dd5b362e272306426b9dd5a08e9812a33c6699f7d56d6a443b352b37d2",
       "masked/manufacturer_safety_record": "571d55f781ea49448707b7c6439f551c52b746b067ce3358292bdbbc088d6358",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
@@ -52,7 +52,7 @@
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "d1e6956487a9219580a3f2df3b004a1d1348b843017b48cab2b3c18739cba0a1",
+    "strategy_sha256": "d243f360e43314c55da753cd23fb80ae61bc226985e53e071d94355e35bedebb",
     "margin_hard_block": false,
     "products_with_profit_warnings": 2,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
