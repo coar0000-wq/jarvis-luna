@@ -812,6 +812,80 @@ def _restore(root, current, incoming, run):
         # Never remove the pending marker after a failed/interrupted mutation.
 
 
+RETAIN_STEP = 'Retain immutable operations safety history'
+MAX_ARTIFACTLESS_WALK = 60
+
+
+def _gated_retention(workflow_raw):
+    """The producer's retention step exists and only runs on verified operations continuity."""
+    text = workflow_raw.decode('utf-8')
+    at = text.find('- name: ' + RETAIN_STEP)
+    if at < 0:
+        return False
+    block = text[at:at + 400]
+    return "operations_continuity == 'verified'" in block.split('uses:')[0]
+
+
+def _non_actuating_predecessor(root, run, fetch_json, current_run_id):
+    """Walk back over artifactless producer runs that provably never opened the operations gate.
+
+    2026-10-17: a single artifactless run (e.g. blocked because another producer was queued,
+    producer_run_not_completed) broke the chain forever, and with 3-day retention the last real
+    history expired (10-12..10-17 deadlock). Every operations write in the producers is gated on
+    operations_continuity == 'verified', and so is the retention step (always()). If that step was
+    *skipped* in the run's only attempt, the gate never opened, so the run cannot have produced
+    operations history that main or an older artifact lacks. Each skipped run is proved with fresh
+    authenticated jobs/steps, its workflow bytes at head_sha and main ancestry; the first run that
+    does carry an operations artifact is returned and still goes through digest, lineage and
+    full nonregression checks. Anything else (cancelled/timed out, retries, unknown topology,
+    retention attempted) stays blocked.
+    """
+    payload = fetch_json(BASE + 'runs?per_page=100')
+    runs = payload.get('workflow_runs') if isinstance(payload, dict) else None
+    if not isinstance(runs, list):
+        raise Blocked('run_history_unavailable')
+    chain = sorted((r for r in runs if isinstance(r, dict) and r.get('path') in WORKFLOWS
+                    and r.get('head_branch') == 'main' and r.get('status') == 'completed'
+                    and (r.get('head_repository') or {}).get('full_name') == REPOSITORY
+                    and type(r.get('id')) is int and str(r.get('id')) != str(current_run_id)
+                    and r['id'] <= run['id']), key=lambda r: r['id'], reverse=True)
+    if not chain or chain[0]['id'] != run['id']:
+        raise Blocked('artifactless_walk_anchor_mismatch')
+    for steps, candidate in enumerate(chain):
+        if steps >= MAX_ARTIFACTLESS_WALK:
+            break
+        if never_started(candidate, fetch_json, BASE):
+            continue
+        response = fetch_json(BASE + f"runs/{candidate['id']}/artifacts?per_page=100")
+        rows = response.get('artifacts') if isinstance(response, dict) else None
+        if not isinstance(rows, list) or type(response.get('total_count')) is not int or response['total_count'] != len(rows):
+            raise Blocked('artifact_listing_incomplete')
+        name = f"operations-safety-{candidate['id']}-{candidate.get('run_attempt')}"
+        found = [a for a in rows if isinstance(a, dict) and a.get('name') == name]
+        if found:
+            commit = candidate.get('head_sha', '')
+            if not re.fullmatch('[0-9a-f]{40}', commit) or _git(root, 'merge-base', '--is-ancestor', commit, 'HEAD').returncode:
+                raise Blocked('run_not_main_ancestor')
+            return candidate, found
+        if candidate.get('run_attempt') != 1 or candidate.get('conclusion') not in ('success', 'failure'):
+            raise Blocked('artifactless_run_actuation_unproved')
+        commit = candidate.get('head_sha', '')
+        if not re.fullmatch('[0-9a-f]{40}', commit) or _git(root, 'merge-base', '--is-ancestor', commit, 'HEAD').returncode:
+            raise Blocked('run_not_main_ancestor')
+        workflow = _git(root, 'show', commit + ':' + candidate['path'])
+        if workflow.returncode or not _gated_retention(workflow.stdout):
+            raise Blocked('artifactless_run_actuation_unproved')
+        jobs = fetch_json(BASE + f"runs/{candidate['id']}/attempts/1/jobs?per_page=100")
+        rows = jobs.get('jobs') if isinstance(jobs, dict) else None
+        if (not isinstance(rows, list) or not rows or jobs.get('total_count') != len(rows)
+                or any(not isinstance(j, dict) or j.get('status') != 'completed' for j in rows)):
+            raise Blocked('artifactless_run_actuation_unproved')
+        retain = [s for j in rows for s in (j.get('steps') or []) if isinstance(s, dict) and s.get('name') == RETAIN_STEP]
+        if not retain or any(s.get('status') != 'completed' or s.get('conclusion') != 'skipped' for s in retain):
+            raise Blocked('artifactless_run_actuation_unproved')
+    raise Blocked('operations_artifact_predecessor_not_found')
+
+
 def restore_latest(root, *, fetch_json=transport.fetch_github_json,
                    fetch_bytes=transport.fetch_artifact_bytes, current_run_id=None, fetch_log=_fetch_job_log):
     root = Path(root).absolute()
@@ -826,7 +900,13 @@ def restore_latest(root, *, fetch_json=transport.fetch_github_json,
         raise Blocked('artifact_listing_incomplete')
     name = f"operations-safety-{run['id']}-{run['run_attempt']}"
     artifacts = [a for a in rows if isinstance(a, dict) and a.get('name') == name]
-    if not artifacts:
+    walked = None
+    if not artifacts and str(run['id']) not in _ZERO_GAPS and not (
+            len(rows) == 1 and isinstance(rows[0], dict) and {k:rows[0].get(k) for k in _ABORT_SOURCE} == _ABORT_SOURCE):
+        walked = _non_actuating_predecessor(root, run, fetch_json, current_run_id)
+    if walked is not None:
+        run, artifacts = walked
+    elif not artifacts:
         if str(run['id']) in _ZERO_GAPS:
             run = _zero_operations_predecessor(root, run, fetch_json, current_run_id, fetch_log)
         else:

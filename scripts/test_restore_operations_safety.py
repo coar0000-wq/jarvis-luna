@@ -607,4 +607,59 @@ class WhitespaceCompactionTests(unittest.TestCase):
                 with self.assertRaises(ValueError): restore._compact_reviewed_archive(raw)
 
 
+class NonActuatingWalkTests(unittest.TestCase):
+    """2026-10-17: artifactless runs whose retention step was skipped are walked over; nothing else."""
+    REPO = {'full_name': restore.REPOSITORY}
+    WF = (b"      - name: Retain immutable operations safety history\n"
+          b"        if: always() && steps.operations_safety.outputs.operations_continuity == 'verified'\n"
+          b"        uses: actions/upload-artifact@x\n")
+
+    def run_row(self, rid, conclusion='failure', attempt=1):
+        return {'id': rid, 'run_attempt': attempt, 'head_sha': 'a' * 40, 'head_branch': 'main', 'status': 'completed',
+                'conclusion': conclusion, 'path': '.github/workflows/JARVIS-Core-Automation.yml',
+                'head_repository': self.REPO}
+
+    def fetcher(self, runs, artifacts, retain='skipped'):
+        def fetch(url):
+            if url.endswith('runs?per_page=100'):
+                return {'workflow_runs': runs}
+            rid = int(url.split('runs/')[1].split('/')[0])
+            if '/artifacts' in url:
+                rows = artifacts.get(rid, [])
+                return {'total_count': len(rows), 'artifacts': rows}
+            steps = [{'name': 'Restore immutable operations safety before execution', 'status': 'completed', 'conclusion': 'success'},
+                     {'name': restore.RETAIN_STEP, 'status': 'completed', 'conclusion': retain}]
+            return {'total_count': 1, 'jobs': [{'status': 'completed', 'steps': steps}]}
+        return fetch
+
+    def git(self, wf=None):
+        return lambda root, *a: subprocess.CompletedProcess(a, 0, wf if a[0] == 'show' else b'', b'')
+
+    def test_skips_gate_closed_runs_to_latest_artifact(self):
+        runs = [self.run_row(30), self.run_row(20), self.run_row(10, 'success')]
+        art = {'name': 'operations-safety-10-1', 'expired': False}
+        with patch.object(restore, '_git', self.git(self.WF)):
+            run, found = restore._non_actuating_predecessor(Path('.'), runs[0], self.fetcher(runs, {10: [art]}), None)
+        self.assertEqual((run['id'], found), (10, [art]))
+
+    def test_attempted_retention_or_retry_or_cancel_stays_blocked(self):
+        art = {10: [{'name': 'operations-safety-10-1', 'expired': False}]}
+        for runs, retain in (([self.run_row(30), self.run_row(10)], 'failure'),
+                             ([self.run_row(30, attempt=2), self.run_row(10)], 'skipped'),
+                             ([self.run_row(30, 'cancelled'), self.run_row(10)], 'skipped')):
+            with patch.object(restore, '_git', self.git(self.WF)), self.assertRaises(restore.Blocked):
+                restore._non_actuating_predecessor(Path('.'), runs[0], self.fetcher(runs, art, retain), None)
+
+    def test_ungated_retention_workflow_stays_blocked(self):
+        runs = [self.run_row(30), self.run_row(10)]
+        ungated = self.WF.replace(b"steps.operations_safety.outputs.operations_continuity == 'verified'", b"true")
+        with patch.object(restore, '_git', self.git(ungated)), self.assertRaises(restore.Blocked):
+            restore._non_actuating_predecessor(Path('.'), runs[0], self.fetcher(runs, {10: [{'name': 'operations-safety-10-1'}]}), None)
+
+    def test_no_artifact_in_window_stays_blocked(self):
+        runs = [self.run_row(30), self.run_row(20)]
+        with patch.object(restore, '_git', self.git(self.WF)), self.assertRaises(restore.Blocked):
+            restore._non_actuating_predecessor(Path('.'), runs[0], self.fetcher(runs, {}), None)
+
+
 if __name__ == '__main__': unittest.main()
