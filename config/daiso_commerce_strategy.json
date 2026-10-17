@@ -16,7 +16,8 @@
     "allowed_grades": [
       "S"
     ],
-    "lower_grade_fallback": false
+    "lower_grade_fallback": false,
+    "body_category_research_draft_fallback": true
   },
   "categories": [
     {

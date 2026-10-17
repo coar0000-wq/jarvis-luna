@@ -51,5 +51,25 @@
       "decision_type": "business_decision",
       "draft_only": true
     }
-  }
+  },
+  "category_scopes": [
+    {
+      "category": "body",
+      "category_code": "CTGR_01113",
+      "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+      "recorded_at": "2026-10-16T18:05:36+09:00",
+      "requested": "바디 S랭크 안잡히면 샤워/입욕 카테고리에서 순서대로 매일 등록해줘",
+      "status": "OWNER_APPROVED",
+      "decision_type": "business_decision",
+      "draft_only": true,
+      "selection_condition": "no_eligible_canonical_s",
+      "daily_limit": 1,
+      "ordering": "source_category_list_order",
+      "promote_to_s": false,
+      "public_sale_authorized": false,
+      "safety_evidence_verified": false,
+      "fda_approval": false,
+      "note": "기존 바디 일일 한도를 유지하는 카테고리 한정 비공개 초안 예외. 출처 순서 대기열·실시간 상품/재고/가격·이미지·라벨·중복/삭제·불확실한 등록 결과 검증을 유지한다. 정본 S등급과 운영 이력은 변경하지 않는다."
+    }
+  ]
 }

@@ -86,6 +86,39 @@ class DailySafetyTests(unittest.TestCase):
                 daily.load_registry()
             daily.save_registry({"items": [{"pd_no": "101", "status": "create_reserved"}]})
             self.assertEqual(daily.load_registry()["items"][0]["pd_no"], "101")
+            original = daily.REGISTRY.read_bytes()
+            # Reproduce the intermittent Windows failure without relying on a
+            # scanner/file-lock race. Only the same atomic rename is retried.
+            for winerror in (5, 32, 33):
+                denied = PermissionError("temporary destination lock")
+                denied.winerror = winerror
+                with self.subTest(winerror=winerror), patch.object(daily.os, "name", "nt"), \
+                     patch.object(daily.os, "replace", side_effect=[denied, denied, None]) as replace, \
+                     patch.object(daily.time, "sleep") as wait:
+                    daily.save_registry({"items": [{"pd_no": "102", "status": "create_reserved"}]})
+                    self.assertEqual(replace.call_count, 3)
+                    self.assertEqual(len({call.args for call in replace.call_args_list}), 1)
+                    self.assertEqual([call.args[0] for call in wait.call_args_list], [0.02, 0.04])
+                self.assertEqual(daily.REGISTRY.read_bytes(), original)
+            denied = PermissionError("persistent destination lock")
+            denied.winerror = 5
+            with patch.object(daily.os, "name", "nt"), \
+                 patch.object(daily.os, "replace", side_effect=denied) as replace, \
+                 patch.object(daily.time, "sleep") as wait:
+                with self.assertRaises(PermissionError):
+                    daily.save_registry({"items": [{"pd_no": "102", "status": "create_reserved"}]})
+                self.assertEqual(replace.call_count, 5)
+                self.assertEqual(wait.call_count, 4)
+            self.assertEqual(daily.REGISTRY.read_bytes(), original)
+            self.assertEqual(list(daily.REGISTRY.parent.glob(".shopify_daily_*")), [])
+            # Other permission failures do not receive a broad retry/bypass.
+            with patch.object(daily.os, "replace", side_effect=PermissionError("not a Windows lock")) as replace, \
+                 patch.object(daily.time, "sleep") as wait:
+                with self.assertRaises(PermissionError):
+                    daily.save_registry({"items": []})
+                replace.assert_called_once()
+                wait.assert_not_called()
+            self.assertEqual(daily.REGISTRY.read_bytes(), original)
 
     def test_create_always_draft_and_persists_id_before_variant_update(self):
         shop = daily.Shopify.__new__(daily.Shopify)
@@ -1287,17 +1320,16 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
         guard.start()
         self.addCleanup(guard.stop)
 
-    def test_shipped_absent_false_or_nonboolean_policy_denies_even_with_approval(self):
-        shipped = daily.STRATEGY
-        self.assertIsNot(shipped["grade_policy"].get(daily.BODY_RESEARCH_DRAFT_OPT_IN), True)
-        policies = [copy.deepcopy(shipped)]
+    def test_absent_false_or_nonboolean_policy_denies_even_with_approval(self):
+        # The deployment may explicitly opt in. Missing/invalid policy must still
+        # fail closed independently of the current production business choice.
+        absent = copy.deepcopy(daily.STRATEGY)
+        absent["grade_policy"].pop(daily.BODY_RESEARCH_DRAFT_OPT_IN, None)
+        policies = [absent]
         for value in (False, None, "true", 1):
-            policy = copy.deepcopy(shipped)
+            policy = copy.deepcopy(absent)
             policy["grade_policy"][daily.BODY_RESEARCH_DRAFT_OPT_IN] = value
             policies.append(policy)
-        absent = copy.deepcopy(shipped)
-        absent["grade_policy"].pop(daily.BODY_RESEARCH_DRAFT_OPT_IN, None)
-        policies.append(absent)
         for policy in policies:
             with self.subTest(policy=policy["grade_policy"]), patch.object(
                     daily.pricing_model, "load_commerce_strategy", return_value=policy):
@@ -1552,7 +1584,7 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
 
     def test_fallback_missing_gosi_remains_a_draft_hold(self):
         _, row, _, shop = self.run_body(gosi_data={"gosi_ok": False, "missing": ["ingredients", "maker", "origin"]})
-        self.assertEqual(row["status"], "created_draft")
+        self.assertEqual(row["status"], "created_draft", row)
         self.assertIn("gosi_missing:ingredients,maker,origin", row["draft_reasons"])
         shop.set_status.assert_not_called()
         shop.publish.assert_not_called()

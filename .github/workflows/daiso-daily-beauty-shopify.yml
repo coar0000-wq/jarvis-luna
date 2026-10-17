@@ -2,8 +2,9 @@ name: 다이소 오늘의 뷰티추천 → Shopify 일일 등록
 
 # 매일 10:00 KST (= 01:00 UTC)에 정본 S등급에서
 # 스킨케어 / 메이크업 / 바디케어 각 최대 1개를 고른다.
-# 별도 연구용 초안 기능의 소스는 포함하지만 현재 S-only 정책에서는 비활성이다.
-# 정책의 명시적 opt-in과 정확한 private 승인 없이는 비-S 초안도 만들지 않는다.
+# 바디의 적격 정본 S가 없으면 사용자 승인 샤워/입욕 목록 순서로 비공개 초안만 최대 1개 등록한다.
+# 등급은 승격하지 않는다. 명시적 body opt-in과 정확한 카테고리 승인을 매 권한 경계에서 재검증한다.
+# 바디 예외의 카피/고시는 규칙 기반·기존 캐시/공개 API만 사용하고 Gemini 호출을 하지 않는다.
 # 이 코드 배포는 Shopify 실행·안전/FDA 검증·공개판매 승인이 아니다.
 #
 # 필요한 저장소 시크릿
@@ -82,13 +83,21 @@ jobs:
           python -B -m unittest discover -s tests -p test_collect_desk_catalog_order.py
           python -B -m unittest discover -s scripts -p test_owner_draft_approval.py
 
-      # Experimental source only. Enable only after a separately reviewed policy/authority change.
-      - name: 바디 샤워·입욕 원래 목록 순서 수집 (현재 비활성)
-        if: ${{ false }}
+      # Owner-approved body-only DRAFT exception. Registrar rechecks exact policy and scope before reservation/create.
+      - name: 바디 샤워·입욕 원래 목록 순서 수집
         run: python -B scripts/daiso/collect_desk_catalog.py --desk body --output out/body_shower_catalog.json
 
       - name: 다이소 추천 선택 후 Shopify 등록
         run: python scripts/daiso_daily_beauty_to_shopify.py
+
+      - name: 바디 원래 목록 수집 증거 보관
+        if: ${{ always() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # actions/upload-artifact@v4
+        with:
+          name: body-shower-catalog-source
+          path: out/body_shower_catalog.json
+          if-no-files-found: ignore
+          retention-days: 3
 
       - name: shop.com 카테고리 수집 (수집 채널 현황, 읽기 전용)
         if: ${{ always() }}

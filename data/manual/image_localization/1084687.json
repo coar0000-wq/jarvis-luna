@@ -1,0 +1,691 @@
+{
+  "product_id": "1084687",
+  "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1084687&recmYn=N",
+  "retailer_title": "[미백케어]닥터씨피유 락토엑소좀 글루타치온 캡슐크림 60 g",
+  "retailer_price_krw": 5000,
+  "brand": "Dr.CPU+",
+  "english_title": "Dr.CPU+ Lacto Exosome Glutathione Capsule Cream",
+  "source_files": [
+    "99.png",
+    "10.png",
+    "11.png",
+    "22.png",
+    "33.png",
+    "44.png",
+    "55.png",
+    "66.png",
+    "77.png",
+    "100.png",
+    "88.png"
+  ],
+  "physical_product_photos_regenerated": false,
+  "editing_method": "non-generative local text compositing over supplied photographs; no paid image API",
+  "source_information": {
+    "image_net_contents": "60 mL",
+    "retailer_title_quantity": "60 g",
+    "quantity_conflict_unresolved": true,
+    "manufacturer_korean": "(주)코테온",
+    "responsible_seller_korean": "(주)가영코스메틱",
+    "english_legal_company_names_verified": false,
+    "source_classification": "미백·주름개선 2중 기능성 화장품"
+  },
+  "marketing_adaptations": [
+    "Whitening and anti-wrinkle promotion replaced with cosmetic wording; no FDA approval or clinical claim introduced.",
+    "Other colored formulas shown in range photographs are marked as not included in this yellow-cream listing.",
+    "Original English package printing remains unchanged.",
+    "500 ppm glutathione, 30,000 ppb Lactobacillus vesicles, and 1:1 / 2:1 / 1:2 mixing ratios preserved."
+  ],
+  "ingredients": [
+    {
+      "kr": "정제수",
+      "en": "Water",
+      "dictionary_key": "정제수",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "부틸렌글라이콜",
+      "en": "Butylene Glycol",
+      "dictionary_key": "부틸렌글라이콜",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "비타민나무수",
+      "en": "Hippophae Rhamnoides Water",
+      "dictionary_key": "비타민나무수",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "글리세린",
+      "en": "Glycerin",
+      "dictionary_key": "글리세린",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "프로판다이올",
+      "en": "Propanediol",
+      "dictionary_key": "프로판다이올",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "메틸트라이메티콘",
+      "en": "Methyl Trimethicone",
+      "dictionary_key": "메틸트라이메티콘",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "나이아신아마이드",
+      "en": "Niacinamide",
+      "dictionary_key": "나이아신아마이드",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "카프릴릭/카프릭트라이글리세라이드",
+      "en": "Caprylic/Capric Triglyceride",
+      "dictionary_key": "카프릴릭/카프릭트라이글리세라이드",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "세테아릴알코올",
+      "en": "Cetearyl Alcohol",
+      "dictionary_key": "세테아릴알코올",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "1,2-헥산다이올",
+      "en": "1,2-Hexanediol",
+      "dictionary_key": "1,2-헥산다이올",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "해바라기씨오일",
+      "en": "Helianthus Annuus (Sunflower) Seed Oil",
+      "dictionary_key": "해바라기씨오일",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "아스코빅애씨드",
+      "en": "Ascorbic Acid",
+      "dictionary_key": "아스코빅애씨드",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "판테놀",
+      "en": "Panthenol",
+      "dictionary_key": "판테놀",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "글루타티온",
+      "en": "Glutathione (500 ppm)",
+      "dictionary_key": "글루타티온",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "소듐하이알루로네이트",
+      "en": "Sodium Hyaluronate",
+      "dictionary_key": "소듐하이알루로네이트",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "다이프로필렌글라이콜",
+      "en": "Dipropylene Glycol",
+      "dictionary_key": "다이프로필렌글라이콜",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "베헤닐알코올",
+      "en": "Behenyl Alcohol",
+      "dictionary_key": "베헤닐알코올",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "스테아릭애씨드",
+      "en": "Stearic Acid",
+      "dictionary_key": "스테아릭애씨드",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "돌콩오일",
+      "en": "Glycine Soja (Soybean) Oil",
+      "dictionary_key": "돌콩오일",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "소듐폴리아크릴레이트",
+      "en": "Sodium Polyacrylate",
+      "dictionary_key": "소듐폴리아크릴레이트",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "토코페릴아세테이트",
+      "en": "Tocopheryl Acetate",
+      "dictionary_key": "토코페릴아세테이트",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "아데노신",
+      "en": "Adenosine",
+      "dictionary_key": "아데노신",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "에틸헥실글리세린",
+      "en": "Ethylhexylglycerin",
+      "dictionary_key": "에틸헥실글리세린",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "펜틸렌글라이콜",
+      "en": "Pentylene Glycol",
+      "dictionary_key": "펜틸렌글라이콜",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "다이포타슘글리시리제이트",
+      "en": "Dipotassium Glycyrrhizate",
+      "dictionary_key": "다이포타슘글리시리제이트",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "트라넥사믹애씨드",
+      "en": "Tranexamic Acid",
+      "dictionary_key": "트라넥사믹애씨드",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "감초뿌리추출물",
+      "en": "Glycyrrhiza Uralensis (Licorice) Root Extract",
+      "dictionary_key": "감초뿌리추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "루이보스추출물",
+      "en": "Aspalathus Linearis Extract",
+      "dictionary_key": "루이보스추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "락토바실러스세포외소포",
+      "en": "Lactobacillus Extracellular Vesicles (30,000 ppb)",
+      "dictionary_key": "락토바실러스세포외소포",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "당호박추출물",
+      "en": "Cucurbita Pepo (Pumpkin) Fruit Extract",
+      "dictionary_key": "호박추출물^ 당호박추출물",
+      "method": "dictionary_declared_alias"
+    },
+    {
+      "kr": "자몽추출물",
+      "en": "Citrus Paradisi (Grapefruit) Fruit Extract",
+      "dictionary_key": "자몽추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "당근추출물",
+      "en": "Daucus Carota Sativa (Carrot) Root Extract",
+      "dictionary_key": "당근추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "망고추출물",
+      "en": "Mangifera Indica (Mango) Fruit Extract",
+      "dictionary_key": "망고추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "바나나추출물",
+      "en": "Musa Sapientum (Banana) Fruit Extract",
+      "dictionary_key": "바나나추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "오렌지추출물",
+      "en": "Citrus Aurantium Dulcis (Orange) Fruit Extract",
+      "dictionary_key": "오렌지추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "파프리카추출물",
+      "en": "Capsicum Annuum Fruit Extract",
+      "dictionary_key": "파프리카추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "아나토씨오일",
+      "en": "Bixa Orellana Seed Oil",
+      "dictionary_key": "아나토씨오일",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "세라마이드엔피",
+      "en": "Ceramide NP",
+      "dictionary_key": "세라마이드엔피",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "세라마이드엔에스",
+      "en": "Ceramide NS",
+      "dictionary_key": "세라마이드엔에스",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "콜레스테롤",
+      "en": "Cholesterol",
+      "dictionary_key": "콜레스테롤",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "토코페롤",
+      "en": "Tocopherol",
+      "dictionary_key": "토코페롤",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "피토스핑고신",
+      "en": "Phytosphingosine",
+      "dictionary_key": "피토스핑고신",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "세라마이드에이에스",
+      "en": "Ceramide AS",
+      "dictionary_key": "세라마이드에이에스",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "세라마이드에이피",
+      "en": "Ceramide AP",
+      "dictionary_key": "세라마이드에이피",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "세라마이드이오피",
+      "en": "Ceramide EOP",
+      "dictionary_key": "세라마이드이오피",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "세테아릴올리베이트",
+      "en": "Cetearyl Olivate",
+      "dictionary_key": "세테아릴올리베이트",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "아크릴레이트/C10-30알킬아크릴레이트크로스폴리머",
+      "en": "Acrylates/C10-30 Alkyl Acrylate Crosspolymer",
+      "dictionary_key": "아크릴레이트/C10-30알킬아크릴레이트크로스폴리머",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "알지닌",
+      "en": "Arginine",
+      "dictionary_key": "알지닌",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "솔비탄올리베이트",
+      "en": "Sorbitan Olivate",
+      "dictionary_key": "솔비탄올리베이트",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "카프릴릴글라이콜",
+      "en": "Caprylyl Glycol",
+      "dictionary_key": "카프릴릴글라이콜",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "베타인",
+      "en": "Betaine",
+      "dictionary_key": "베타인",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "옥틸도데세스-16",
+      "en": "Octyldodeceth-16",
+      "dictionary_key": "옥틸도데세스-16",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "알란토인",
+      "en": "Allantoin",
+      "dictionary_key": "알란토인",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "하이드로제네이티드레시틴",
+      "en": "Hydrogenated Lecithin",
+      "dictionary_key": "하이드로제네이티드레시틴",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "모하비유카뿌리추출물",
+      "en": "Yucca Schidigera Root Extract",
+      "dictionary_key": "모하비유카뿌리추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "몰약수지추출물",
+      "en": "Commiphora Myrrha Resin Extract",
+      "dictionary_key": "몰약수지추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "소엽잎추출물",
+      "en": "Perilla Frutescens Leaf Extract",
+      "dictionary_key": "소엽잎추출물",
+      "method": "exact_dictionary_key"
+    },
+    {
+      "kr": "향료",
+      "en": "Fragrance",
+      "dictionary_key": "향료",
+      "method": "dictionary_english_synonym"
+    }
+  ],
+  "ingredients_review_status": "dictionary-backed working translation; not an authenticated US label review",
+  "directions": "At the final step of your skin-care routine, apply a suitable amount evenly over the face. May also be used on dry areas. Use the included spatula and gently blend the capsules and gel.",
+  "warnings": "Stop use and consult a professional if redness, swelling, itching or other irritation occurs during use or after sun exposure. Do not use on damaged skin. Keep out of reach of children and store away from direct sunlight.",
+  "expiry": "See the marking on the product.",
+  "skin_type": "All skin types, as stated by the supplier.",
+  "country": "Republic of Korea",
+  "publication_holds": [
+    "quantity_conflict_60g_vs_60mL",
+    "actual_label_and_safety_verification_pending",
+    "selling_prices_pending_verified_price_basis"
+  ],
+  "registration_intent": "non-public draft only; manual owner-provided example, not an S-grade promotion",
+  "registration": {
+    "status": "DRAFT",
+    "product_id": "9590780723457",
+    "admin_url": "https://admin.shopify.com/store/coarfamily/products/9590780723457",
+    "completion": "DRAFT_MEDIA_AND_VARIANTS_VERIFIED_DESCRIPTION_REPAIR_PENDING",
+    "attached_media_count": 11,
+    "media": [
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/01-glutathione-main-en_800x800.png?v=1792140836",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/02-glutathione-texture-en_800x800.png?v=1792140836",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/03-customize-your-routine-en_800x800.png?v=1792140837",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/04-lacto-exosome-formula-en_800x800.png?v=1792140837",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/05-dual-formula-en_800x800.png?v=1792140836",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/06-capsules-and-gel-en_800x800.png?v=1792140836",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/07-how-to-use-en_800x800.png?v=1792140837",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/08-mixing-ratios-en_800x800.png?v=1792140836",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/09-formula-range-en_800x800.png?v=1792140837",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/10-range-styled-en_800x800.png?v=1792140836",
+        "alt": "",
+        "loaded": true
+      },
+      {
+        "src": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/11-product-information-en_800x800.png?v=1792140836",
+        "alt": "",
+        "loaded": true
+      }
+    ],
+    "vendor": "Dr.CPU+",
+    "product_type": "Skincare",
+    "source_tag": "daiso-pd-1084687",
+    "inventory_tracking": false,
+    "variants": [
+      {
+        "id": "50764170789121",
+        "name": "Single (1 pc)",
+        "units": 1,
+        "admin_price_placeholder_usd": 0,
+        "selling_price_verified": false
+      },
+      {
+        "id": "50764170821889",
+        "name": "1+1 (2 pcs)",
+        "units": 2,
+        "admin_price_placeholder_usd": 0,
+        "selling_price_verified": false
+      }
+    ],
+    "channel_removal_confirmed": false,
+    "public_sale_authorized": false,
+    "safety_evidence_verified": false,
+    "verification": "Fresh Shopify admin read after reload; two persisted variant IDs and eleven loaded CDN image elements observed; unexpected unverified append removed.",
+    "receipt_recorded_at_utc": "2026-10-16T09:48:58.997Z",
+    "latest_observation": {
+      "status": "DRAFT",
+      "normal_sales_channels_shown_selected": 6,
+      "unexpected_mixed_language_copy": true,
+      "observed_at_utc": "2026-10-17T00:39:33.427Z",
+      "browser_repair_save_unconfirmed": true,
+      "api_repair_pending": true
+    }
+  },
+  "visual_qa": {
+    "numbered_assets_reviewed": 11,
+    "residual_korean_explanatory_text_observed": false,
+    "final_panel_05_header_and_asterisks_corrected": true,
+    "full_size_text_panels_checked": [
+      "05",
+      "06",
+      "07",
+      "08",
+      "11"
+    ],
+    "legal_or_safety_verification_claim": false
+  },
+  "outputs": [
+    {
+      "file": "01-glutathione-main-en.png",
+      "sha256": "1528e72136ceaea8cf062e47af88b294bc793ef81198c5bfcaefada5d229efec",
+      "bytes": 1111490,
+      "width": 938,
+      "height": 1380,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "02-glutathione-texture-en.png",
+      "sha256": "51f6c487e81feb68b4774e94c6dc77c9687ae5a2996d6bca8bc936b82323399d",
+      "bytes": 1799400,
+      "width": 968,
+      "height": 1382,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "03-customize-your-routine-en.png",
+      "sha256": "047a0ab0ee3ed5e8031ed6df5d171e4621a403d0bc186e190daa248bde31e3ef",
+      "bytes": 2032513,
+      "width": 1380,
+      "height": 2342,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "04-lacto-exosome-formula-en.png",
+      "sha256": "6265d1cad542971fd1e00cd1393e28eb74c0b67036e9d2b647d88f293777d8d2",
+      "bytes": 2423662,
+      "width": 1370,
+      "height": 2344,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "05-dual-formula-en.png",
+      "sha256": "8e7540333917eb5bb1302f8baf2957728d5e5690e2ed633a622d824d067f88a8",
+      "bytes": 615725,
+      "width": 1470,
+      "height": 2420,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "06-capsules-and-gel-en.png",
+      "sha256": "18e0c3c04d63916ff0cde7a7edbf6f1a8e5c752055e820308304003cae02b6f3",
+      "bytes": 1759025,
+      "width": 1368,
+      "height": 2494,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "07-how-to-use-en.png",
+      "sha256": "4c376c27daaaab02798aeea615a49a9729efd93c3709b09b8b1d1eea1fd9ff46",
+      "bytes": 1668081,
+      "width": 1422,
+      "height": 2088,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "08-mixing-ratios-en.png",
+      "sha256": "1eeefc249a4715995d72430dc0426bc933f499d64af22a777d87452500538898",
+      "bytes": 457733,
+      "width": 1400,
+      "height": 1778,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "09-formula-range-en.png",
+      "sha256": "0853dcb48f57467f8eaf954e08e43042c835bd13f402d603cc1512226b25574e",
+      "bytes": 2457267,
+      "width": 1382,
+      "height": 1818,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "10-range-styled-en.png",
+      "sha256": "510630eae5f6a9cbcc32e738641f793860f153fb89e73a9645da936ad4e9e225",
+      "bytes": 1766056,
+      "width": 958,
+      "height": 1482,
+      "under_25_megapixels": true
+    },
+    {
+      "file": "11-product-information-en.png",
+      "sha256": "42d8d582cbc0965ac676a6117bfe9218f14dc6430768df44fc0eaa11cb2fa216",
+      "bytes": 244295,
+      "width": 1400,
+      "height": 2660,
+      "under_25_megapixels": true
+    }
+  ],
+  "source_integrity": [
+    {
+      "file": "99.png",
+      "sha256": "f2a5ccb51115c6a297d9f61a79834a867707005922a69a481151b3c9bf8de84d",
+      "bytes": 317732,
+      "width": 469,
+      "height": 690
+    },
+    {
+      "file": "10.png",
+      "sha256": "916d8f2864cb9deee4312ba15a8dadddbe1d7ea36aadb42226b268c6470648cd",
+      "bytes": 485346,
+      "width": 484,
+      "height": 691
+    },
+    {
+      "file": "11.png",
+      "sha256": "fddbb858823515e66b70191caf247e036673e804766b9aa026e2b569b06f51cf",
+      "bytes": 810627,
+      "width": 690,
+      "height": 1171
+    },
+    {
+      "file": "22.png",
+      "sha256": "6ac374c9cb6a5a321ad5c8e3db87ea9fd24a96f2ac5dcf1e03f579494b60636c",
+      "bytes": 857493,
+      "width": 685,
+      "height": 1172
+    },
+    {
+      "file": "33.png",
+      "sha256": "4004e95b15d4f5858c32c4829f75c05ea41c2a68ae76b58468f9969b47d87991",
+      "bytes": 485507,
+      "width": 735,
+      "height": 1210
+    },
+    {
+      "file": "44.png",
+      "sha256": "892b8949eca8238021f4470ce4b9479b9b1d657278773c02d6b780393f62ed1d",
+      "bytes": 701737,
+      "width": 684,
+      "height": 1247
+    },
+    {
+      "file": "55.png",
+      "sha256": "0fe3f30fdaef3762f3ae8ae6aee536cde330a7cd1c0e7e1458de36c317bd9952",
+      "bytes": 518387,
+      "width": 711,
+      "height": 1044
+    },
+    {
+      "file": "66.png",
+      "sha256": "58be2038039260748daf842f433513cef3b4755fc11d77d7a202a53e60641d81",
+      "bytes": 258161,
+      "width": 700,
+      "height": 889
+    },
+    {
+      "file": "77.png",
+      "sha256": "ee95a26f0398302514ce4222fc4ba0fa1efcf9d5e0008e14c73332e640732f13",
+      "bytes": 719911,
+      "width": 691,
+      "height": 861
+    },
+    {
+      "file": "100.png",
+      "sha256": "c9cbe56145b4ff73fa273fc7e674fe95870f6216664be1e8f00907b0b7939739",
+      "bytes": 484866,
+      "width": 479,
+      "height": 689
+    },
+    {
+      "file": "88.png",
+      "sha256": "d67a4dbd5cf2f0d111fcd173402effebeb7be09dd58d0122c16dd60aef0eb249",
+      "bytes": 296846,
+      "width": 659,
+      "height": 1187
+    }
+  ],
+  "render_reproduction_test": {
+    "generated_assets": 11,
+    "identical_file_hashes": 9,
+    "non_identical_outputs": [
+      "05-dual-formula-en.png",
+      "11-product-information-en.png"
+    ],
+    "visual_check_of_non_identical_outputs": "pass",
+    "bit_exact_reproducibility_claim": false
+  },
+  "desired_description_html": "<p>A capsule-and-gel face cream from <strong>Dr.CPU+</strong>.</p><p>Mix the yellow cream capsules with the clear gel to suit your preferred texture. The supplied product information lists glutathione (500 ppm) and Lactobacillus extracellular vesicles (30,000 ppb).</p><h3>How to use</h3><p>Use the included spatula. Blend capsules and gel on your hand or face, spread evenly, and gently pat to finish.</p><ul><li>Daily mix: capsules to gel 1:1</li><li>Richer-feeling mix: 2:1</li><li>Lighter-feeling mix: 1:2</li></ul><h3>Cautions</h3><p>Stop use and consult a professional if irritation occurs. Do not use on damaged skin. Keep out of reach of children and store away from direct sunlight.</p><h3>What is included</h3><p>Yellow Glutathione formula only. Pink PDRN and green Cica products shown in range photographs are not included. Choose a single item or a 1+1 pair.</p><h3>Source and publication hold</h3><p>Daiso Mall item 1084687. Supplied images show 60 mL; the retailer title states 60 g. Confirm net contents and selling prices before publication. This product remains an unpublished draft.</p>",
+  "description_target_provenance": "Previously written source-backed English draft; current task authorizes nonpublic draft registration and repair, not safety/public-sale clearance."
+}

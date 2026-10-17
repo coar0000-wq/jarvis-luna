@@ -1054,7 +1054,18 @@ def save_registry(d):
             f.write("\n")
             f.flush()
             os.fsync(f.fileno())
-        os.replace(name, REGISTRY)
+        # Windows can briefly deny replacement while another process holds the
+        # destination without delete-sharing. Retry only the same fsynced atomic
+        # rename, never truncate/unlink the registry or repeat a remote mutation.
+        for attempt in range(5):
+            try:
+                os.replace(name, REGISTRY)
+                break
+            except PermissionError as exc:
+                if (os.name != "nt" or getattr(exc, "winerror", None) not in (5, 32, 33)
+                        or attempt == 4):
+                    raise
+                time.sleep(0.02 * (2 ** attempt))
     finally:
         if name and os.path.exists(name):
             os.unlink(name)

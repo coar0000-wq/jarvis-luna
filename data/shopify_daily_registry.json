@@ -49,10 +49,10 @@
       "pack_usd": 25.99,
       "pack_margin_pct": 48.7,
       "size": {
-        "unit": 2.0,
+        "unit": 2,
         "base": "ml",
         "count": 6,
-        "total": 12.0
+        "total": 12
       },
       "images": 4,
       "price_basis": "shop.com 최저가가 바닥보다 낮아 바닥가로 설정",
@@ -80,14 +80,14 @@
       "status": "ACTIVE",
       "krw": 5000,
       "single_usd": 18.99,
-      "single_margin_pct": 33.0,
+      "single_margin_pct": 33,
       "pack_usd": 32.99,
       "pack_margin_pct": 43.1,
       "size": {
-        "unit": 50.0,
+        "unit": 50,
         "base": "ml",
         "count": 1,
-        "total": 50.0
+        "total": 50
       },
       "images": 3,
       "price_basis": "shop.com 최저가가 바닥보다 낮아 바닥가로 설정",
@@ -119,10 +119,10 @@
       "pack_usd": 52.99,
       "pack_margin_pct": 58.8,
       "size": {
-        "unit": 200.0,
+        "unit": 200,
         "base": "ml",
         "count": 1,
-        "total": 200.0
+        "total": 200
       },
       "images": 0,
       "price_basis": "상품별 미국 실판매 중앙값 기준 참고 가격 (SerpApi, 시장 최저가 아님)",
@@ -139,8 +139,8 @@
         "score": 51.6,
         "components": {
           "demand_score_x0.6": 51.6,
-          "verified_price_points": 0.0,
-          "provisional_price_points_not_counted": 0.0
+          "verified_price_points": 0,
+          "provisional_price_points_not_counted": 0
         },
         "evidence_status": "unknown_price_evidence",
         "price_position": "unknown",
@@ -178,14 +178,14 @@
       "status": "DRAFT",
       "krw": 5000,
       "single_usd": 15.99,
-      "single_margin_pct": 32.0,
+      "single_margin_pct": 32,
       "pack_usd": 27.99,
       "pack_margin_pct": 42.3,
       "size": {
-        "unit": 30.0,
+        "unit": 30,
         "base": "ml",
         "count": 1,
-        "total": 30.0
+        "total": 30
       },
       "images": 0,
       "price_basis": "상품별 미국 실판매 중앙값 기준 참고 가격 (SerpApi, 시장 최저가 아님)",
@@ -204,8 +204,8 @@
         "score": 58.8,
         "components": {
           "demand_score_x0.6": 58.8,
-          "verified_price_points": 0.0,
-          "provisional_price_points_not_counted": 0.0
+          "verified_price_points": 0,
+          "provisional_price_points_not_counted": 0
         },
         "evidence_status": "unknown_price_evidence",
         "price_position": "unknown",
@@ -231,6 +231,60 @@
       ],
       "shopify_id": "gid://shopify/Product/9590781214977",
       "handle": "bonsup-retinol-500-iu-serum-30-ml"
+    },
+    {
+      "pd_no": "1084687",
+      "family": "닥터씨피유락토엑소좀글루타치온캡슐크림60g",
+      "name_kr": "[미백케어]닥터씨피유 락토엑소좀 글루타치온 캡슐크림 60 g",
+      "title": "Dr.CPU+ Lacto Exosome Glutathione Capsule Cream",
+      "category": "skincare",
+      "date": "2026-10-16",
+      "status": "DRAFT",
+      "shopify_id": "gid://shopify/Product/9590780723457",
+      "source": "manual_owner_image_localization_example",
+      "grade": "-",
+      "owner_requested_nonpublic_draft": true,
+      "canonical_s_promotion": false,
+      "daiso_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1084687&recmYn=N",
+      "krw": 5000,
+      "single_usd": null,
+      "pack_usd": null,
+      "admin_price_placeholder_usd": 0,
+      "images": 11,
+      "variants": 2,
+      "inventory_tracking": false,
+      "variant_ids": [
+        "50764170789121",
+        "50764170821889"
+      ],
+      "source_tag": "daiso-pd-1084687",
+      "image_localization_manifest": "data/manual/image_localization/1084687.json",
+      "draft_reasons": [
+        "manual_owner_example_outside_canonical_s",
+        "quantity_conflict_60g_vs_60mL",
+        "selling_price_evidence_pending",
+        "safety_evidence_unverified_owner_draft_only",
+        "authenticated_us_label_review_pending"
+      ],
+      "verification": {
+        "status": "DRAFT",
+        "normal_sales_channels_shown_selected": 6,
+        "images": 11,
+        "variants": 2,
+        "api_repair_pending": true,
+        "global_channel_removal_verified": false,
+        "observed_at_utc": "2026-10-17T00:47:46.978Z"
+      },
+      "verification_history": [
+        {
+          "read_back_after_reload": true,
+          "status": "DRAFT",
+          "published_channels": 0,
+          "images_loaded": 11,
+          "variants": 2,
+          "observed_at_utc": "2026-10-16T09:50:25.628Z"
+        }
+      ]
     }
   ]
 }
