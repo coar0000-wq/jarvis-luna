@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-16T05:21:50+00:00",
+  "collected_at": "2026-10-17T05:16:23+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -178,8 +178,8 @@
       "list_price_text": "",
       "price_usd": 25.0,
       "discount_pct": null,
-      "rating": 5.0,
-      "reviews": 1,
+      "rating": 4.5,
+      "reviews": 2,
       "url": "https://shop.com/products/8144926900324/hold-all-medium-hold-hairspray",
       "page": "Explore"
     },
@@ -257,7 +257,7 @@
       "price_usd": 38.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 412,
+      "reviews": 413,
       "url": "https://shop.com/products/10520246485295/vanilla-verve-vitamin-c-body-oil",
       "page": "Beauty"
     },
@@ -283,7 +283,7 @@
       "price_usd": 17.0,
       "discount_pct": null,
       "rating": 4.7,
-      "reviews": 2253,
+      "reviews": 2254,
       "url": "https://shop.com/products/6627292643383/the-glow-getter-multi-oil-hydrating-body-wash",
       "page": "Beauty"
     },
@@ -296,7 +296,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.7,
-      "reviews": 431,
+      "reviews": 432,
       "url": "https://shop.com/products/7264517849261/luxe-leave-in-conditioning-detangler",
       "page": "Beauty"
     },
@@ -322,7 +322,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2849,
+      "reviews": 2850,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
