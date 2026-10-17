@@ -1,45 +1,21 @@
 {
   "agent": "Signal-Audit",
-  "generated_at": "2026-10-17T10:09:31.416787+00:00",
-  "live_channels": 0,
+  "generated_at": "2026-10-17T11:14:23.222505+00:00",
+  "live_channels": 4,
   "total_channels": 14,
   "empty_or_failed": [
     {
       "channel": "amazon_movers_beauty",
       "count": 0,
-      "status": "stale"
+      "status": "empty"
     }
   ],
   "stale_or_manual": [
     {
-      "channel": "allure_media",
-      "count": 30,
+      "channel": "walmart_beauty",
+      "count": 39,
       "status": "stale",
-      "note": "allure.com/feed/rss"
-    },
-    {
-      "channel": "amazon_best_sellers",
-      "count": 46,
-      "status": "stale",
-      "note": "amazon.com/gp/bestsellers/beauty (실수집)"
-    },
-    {
-      "channel": "amazon_movers_beauty",
-      "count": 0,
-      "status": "stale",
-      "note": "amazon.com/gp/movers-and-shakers/beauty (실수집)"
-    },
-    {
-      "channel": "amazon_new_beauty",
-      "count": 46,
-      "status": "stale",
-      "note": "amazon.com/gp/new-releases/beauty (실수집)"
-    },
-    {
-      "channel": "google_trends_us",
-      "count": 40,
-      "status": "stale",
-      "note": "google news rss (beauty queries) + trends daily filtered"
+      "note": "walmart.com/browse/beauty/1085666 (실수집)"
     },
     {
       "channel": "oliveyoung_us",
@@ -48,10 +24,28 @@
       "note": "us.oliveyoung.com/best-sellers 실수집"
     },
     {
-      "channel": "open_beauty_facts",
-      "count": 60,
+      "channel": "google_trends_us",
+      "count": 40,
       "status": "stale",
-      "note": "world.openbeautyfacts.org /api/v2 (오픈데이터)"
+      "note": "google news rss (beauty queries) + trends daily filtered"
+    },
+    {
+      "channel": "amazon_movers_beauty",
+      "count": 0,
+      "status": "empty",
+      "note": "amazon.com/gp/movers-and-shakers/beauty (실수집)"
+    },
+    {
+      "channel": "wikipedia_interest",
+      "count": 8,
+      "status": "stale",
+      "note": "wikimedia.org REST pageviews API (공식)"
+    },
+    {
+      "channel": "allure_media",
+      "count": 30,
+      "status": "stale",
+      "note": "allure.com/feed/rss"
     },
     {
       "channel": "openfda_sunscreen",
@@ -60,28 +54,22 @@
       "note": "api.fda.gov/drug/label (openFDA 공식)"
     },
     {
-      "channel": "sephora",
-      "count": 14,
-      "status": "stale",
-      "note": "공개 페이지 직접 파싱"
-    },
-    {
-      "channel": "sokoglam_us",
-      "count": 60,
-      "status": "stale",
-      "note": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)"
-    },
-    {
       "channel": "tiktok_shop_us",
       "count": 15,
       "status": "unverified",
       "note": "공개 페이지 직접 파싱"
     },
     {
-      "channel": "ulta_beauty",
-      "count": 60,
+      "channel": "sephora",
+      "count": 14,
       "status": "stale",
       "note": "공개 페이지 직접 파싱"
+    },
+    {
+      "channel": "open_beauty_facts",
+      "count": 60,
+      "status": "stale",
+      "note": "world.openbeautyfacts.org /api/v2 (오픈데이터)"
     }
   ],
   "severity": true,
@@ -89,11 +77,11 @@
     {
       "action": "refresh_stale_channels",
       "channels": [
-        "allure_media",
-        "amazon_best_sellers",
+        "walmart_beauty",
+        "oliveyoung_us",
+        "google_trends_us",
         "amazon_movers_beauty",
-        "amazon_new_beauty",
-        "google_trends_us"
+        "wikipedia_interest"
       ]
     },
     {

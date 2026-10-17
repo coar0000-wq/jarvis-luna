@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:09:03.854707+00:00",
+  "generated_at": "2026-10-17T11:13:46.323145+00:00",
   "exchange_rate": {
     "usd_to_krw": 1334.89,
     "as_of": "2026-10-17",
@@ -8,7 +8,7 @@
   "pricing_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "6c318440d199c36befa879170bf431ce1f092c7d73c91c85b033f35af2c29c2c",
+    "strategy_sha256": "2de6e62538161f651f245e70b73fd831bf6b42d0bf375c9062c60f212cb70c8a",
     "margin_hard_block": false,
     "serp_collected_at": "2026-10-01T23:39:34.955593+00:00",
     "note": "register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.44,
+            "age_days": 15.48,
             "volume_status": "match"
           }
         },
@@ -149,7 +149,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.44,
+            "age_days": 15.48,
             "volume_status": "match"
           }
         },
@@ -254,7 +254,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.44,
+            "age_days": 15.48,
             "volume_status": "match"
           }
         },
@@ -463,7 +463,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.44,
+            "age_days": 15.48,
             "volume_status": "match"
           }
         },
@@ -513,7 +513,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.44,
+            "age_days": 15.48,
             "volume_status": "match"
           }
         },
@@ -614,7 +614,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.44,
+            "age_days": 15.48,
             "volume_status": "match"
           }
         },
