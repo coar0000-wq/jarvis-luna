@@ -34,7 +34,7 @@ LIMITATION = ("Publication verification covers only the complete API-accessible 
               "Shopify productUpdate has no atomic description-SHA compare-and-swap; "
               "a concurrent edit after the immediate preflight remains possible.")
 READ = """query ManualDraftRepairRead($id:ID!){
- shop{myshopifyDomain} currentAppInstallation{accessScopes{handle}}
+ shop{id myshopifyDomain} currentAppInstallation{accessScopes{handle}}
  publications(first:50){nodes{id} pageInfo{hasNextPage}}
  product(id:$id){id status tags vendor productType descriptionHtml
  variants(first:3){nodes{id title price inventoryItem{tracked}} pageInfo{hasNextPage}}
@@ -146,9 +146,29 @@ def filename(url):
     return re.sub(r"_\d+x\d+(?=\.png$)", "", unquote(urlsplit(url).path).rsplit("/", 1)[-1])
 
 
+def identity_observation(data):
+    """Allowlisted, bounded identity-only evidence; never copy API payloads."""
+    shop = data.get("shop") if isinstance(data.get("shop"), dict) else {}
+    product = data.get("product") if isinstance(data.get("product"), dict) else {}
+
+    def bounded(value, pattern):
+        return value if isinstance(value, str) and len(value) <= 100 and re.fullmatch(pattern, value) else None
+
+    return {"shop_id": bounded(shop.get("id"), r"gid://shopify/Shop/[0-9]{1,20}"),
+            "myshopify_domain": bounded(shop.get("myshopifyDomain"),
+                r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.myshopify\.com"),
+            "product_id": bounded(product.get("id"), r"gid://shopify/Product/[0-9]{1,20}"),
+            "product_status": product.get("status") if product.get("status") in
+                ("DRAFT", "ACTIVE", "ARCHIVED", "UNLISTED") else None}
+
+
 def read_guard(client, local):
     d = gql(client, READ, {"id": PRODUCT})
-    require(d.get("shop", {}).get("myshopifyDomain") == STORE, "wrong_store")
+    shop = d.get("shop") if isinstance(d.get("shop"), dict) else {}
+    if shop.get("myshopifyDomain") != STORE:
+        error = Blocked("wrong_store")
+        error.identity_observation = identity_observation(d)
+        raise error
     installation = d.get("currentAppInstallation")
     require(isinstance(installation, dict), "malformed_scopes")
     scope_rows = installation.get("accessScopes")
@@ -260,6 +280,8 @@ def repair(client, local, *, dry_run=True, expected_before_sha256=None,
     except Exception as exc:
         report["status"] = "partial" if report["mutation_attempts"] else "blocked"
         report["reason"] = str(exc) if isinstance(exc, Blocked) else "local_or_proof_failure"
+        if isinstance(exc, Blocked) and str(exc) == "wrong_store":
+            report["identity_observation"] = getattr(exc, "identity_observation", {})
         # Read-only fallback confirms Draft even if publication permission disappears.
         try:
             p = gql(client, STATUS, {"id": PRODUCT}).get("product") or {}

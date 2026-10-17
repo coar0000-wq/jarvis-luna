@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-16T23:01:04.845507+00:00",
+  "generated_at": "2026-10-17T01:12:06.135698+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -17,10 +17,10 @@
       "data/mocra_readiness.json": "c4a52fdb825d0f7b6e39fb9dd59983aae145c0c20944343a3d03c539e520c2e8",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
       "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
-      "data/manual/owner_draft_approvals.json": "cad4ede9440c1c7176f87b2fc79216884c3f2ca89fd50d962f46ae8be926a9ec",
+      "data/manual/owner_draft_approvals.json": "c9314abe5f1e4a58067adbc6b18a3894082c018a8dfa3ad6f9acfeab8a64e20d",
       "data/us_claim_rules.json": "d0ea3f50a5601b9e7e6ebc17cc931b7f89735c12223d6fe6463169c942456732",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-      "config/daiso_commerce_strategy.json": "beba67eaf6f383bc10cd709d03e9540cbe1c861af149bd850063367ae68855c2",
+      "config/daiso_commerce_strategy.json": "db60e80f20f144f8df341be9aad4a5923a93e5b0211778ea5ab0ab209a62cc79",
       "masked/manufacturer_safety_record": "571d55f781ea49448707b7c6439f551c52b746b067ce3358292bdbbc088d6358",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
@@ -52,7 +52,7 @@
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "7132fdc4322486736834632111846bc611ab0403854362f4bb24be034bf5267b",
+    "strategy_sha256": "d1e6956487a9219580a3f2df3b004a1d1348b843017b48cab2b3c18739cba0a1",
     "margin_hard_block": false,
     "products_with_profit_warnings": 2,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."

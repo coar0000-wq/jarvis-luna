@@ -23,7 +23,7 @@ class FakeGraphQL:
         self.ignore_description = False
         self.ignore_unpublish = False
         self.state = {
-            "shop": {"myshopifyDomain": repair.STORE},
+            "shop": {"id": "gid://shopify/Shop/123", "myshopifyDomain": repair.STORE},
             "currentAppInstallation": {"accessScopes": [{"handle": s} for s in sorted(repair.SCOPES)]},
             "publications": self.connection([{"id": "gid://shopify/Publication/10"},
                                              {"id": "gid://shopify/Publication/20"}]),
@@ -124,7 +124,54 @@ class RepairTests(unittest.TestCase):
 
     def test_wrong_store(self):
         self.client.state["shop"]["myshopifyDomain"] = "other.myshopify.com"
-        self.blocked("wrong_store")
+        result = self.blocked("wrong_store")
+        self.assertEqual(result["identity_observation"], {
+            "shop_id": "gid://shopify/Shop/123", "myshopify_domain": "other.myshopify.com",
+            "product_id": repair.PRODUCT, "product_status": "DRAFT"})
+        self.assertEqual(result["last_observed_status"], "DRAFT")
+        self.assertNotIn("before_sha256", result)
+        self.assertEqual(len(self.saved), 1)  # No description/proof backup on wrong store.
+        self.assertIn("shop{id myshopifyDomain}", repair.READ)
+
+    def test_possible_canonical_alias_still_blocked_with_identity(self):
+        self.client.state["shop"]["myshopifyDomain"] = "rb3zh1-i1.myshopify.com"
+        result = self.blocked("wrong_store")
+        self.assertEqual(result["identity_observation"]["myshopify_domain"], "rb3zh1-i1.myshopify.com")
+
+    def test_wrong_store_dryrun_identity_with_zero_mutations(self):
+        self.client.state["shop"]["myshopifyDomain"] = "other.myshopify.com"
+        result = self.run_repair(dry_run=True)
+        self.assertEqual(result["status"], "blocked")
+        self.assertEqual(result["reason"], "wrong_store")
+        self.assertEqual(result["identity_observation"]["product_id"], repair.PRODUCT)
+        self.assertEqual(self.client.mutations, [])
+
+    def test_identity_records_returned_product_not_assumed_target(self):
+        self.client.state["shop"]["myshopifyDomain"] = "other.myshopify.com"
+        self.client.state["product"].update(id="gid://shopify/Product/456", status="ACTIVE")
+        result = self.blocked("wrong_store")
+        self.assertEqual(result["identity_observation"]["product_id"], "gid://shopify/Product/456")
+        self.assertEqual(result["identity_observation"]["product_status"], "ACTIVE")
+        self.assertEqual(result["last_observed_status"], "unknown")
+
+    def test_identity_diagnostic_rejects_unsafe_or_oversized_values(self):
+        self.client.state["shop"].update(id="gid://shopify/Shop/" + "1" * 101,
+            myshopifyDomain="other.myshopify.com/?token=never-copy", headers="never-copy")
+        self.client.state["product"].update(id="gid://shopify/Product/456?token=never-copy",
+            status="DRAFT never-copy", descriptionHtml="never-copy")
+        result = self.blocked("wrong_store")
+        self.assertEqual(result["identity_observation"], {
+            "shop_id": None, "myshopify_domain": None, "product_id": None, "product_status": None})
+        self.assertNotIn("never-copy", json.dumps(self.saved, default=str))
+
+    def test_identity_diagnostic_handles_malformed_shop_and_product(self):
+        for value in (None, [], "never-copy"):
+            with self.subTest(value=value):
+                self.client = FakeGraphQL(self.local)
+                self.client.state["shop"] = value
+                self.client.state["product"] = value
+                result = self.blocked("wrong_store")
+                self.assertTrue(all(v is None for v in result["identity_observation"].values()))
 
     def test_wrong_product(self):
         self.client.state["product"]["id"] = "gid://shopify/Product/999"
