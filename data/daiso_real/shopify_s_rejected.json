@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:13:46.168221+00:00",
+  "generated_at": "2026-10-17T12:10:52.748071+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 59,
   "items": [
@@ -104,16 +104,6 @@
       "recommend_reason": "글로벌 'XMD Stem III Clinical Recovery Serum' (sokoglam_us) 유사 27% · 토큰 serum · S제외:weak_solo_token"
     },
     {
-      "canonical_product_id": "CP000262",
-      "pd_no": "1073405",
-      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 96,
-      "s_rule": "weak_solo_token",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'd'alba Piedmont White Truffle First Spray serum Pro 2X Peptide (3.38 fl oz) | Zero Gravity Hydration Mist with Nano Peptide Exosome for Dry Skin, Better Makeup Wear & Anti-Aging Firming Care' (amazon_new_beauty) 유사 25% · 토큰 serum · S제외:weak_solo_token"
-    },
-    {
       "canonical_product_id": "CP000083",
       "pd_no": "1044553",
       "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
@@ -122,6 +112,16 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000262",
+      "pd_no": "1073405",
+      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 96,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,616건 (글로벌 시그널 약함)"
     },
     {
       "canonical_product_id": "CP000134",
@@ -281,7 +281,7 @@
       "shopify_score": 90,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Eye Gotta Glow Brightening Under-Eye Mask 6-Pack' (ulta_beauty) 유사 34% · 토큰 brightening · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000344",
@@ -341,7 +341,7 @@
       "shopify_score": 88,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)' (oliveyoung_us) 유사 27% · 토큰 mask · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000157",
@@ -349,9 +349,9 @@
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
       "shopify_score": 87,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Pore Cleansing Oil [BHA]' (sokoglam_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(기타) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials' (amazon_best_sellers) 유사 64% · 토큰 mask, pore"
     },
     {
       "canonical_product_id": "CP000125",

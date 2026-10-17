@@ -29,7 +29,7 @@
       "price_unit": "product",
       "source": {
         "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049275",
-        "collected_at": "2026-10-11T13:42:41.022442+00:00",
+        "collected_at": "2026-10-17T11:40:15.131751+00:00",
         "capture_kind": "successful_http_parse"
       },
       "provenance": {
@@ -38,7 +38,7 @@
         "parse_status": "exact_pd_no_numeric_price",
         "identity_key": "pdNo",
         "price_key": "pdPrc",
-        "response_sha256": "840c350b829c69e0cdc4e84ddc5e56c79bf724e46396d4b37db2b27e27d61f5d",
+        "response_sha256": "63ea635bc9101e08b57fec659d63caf7ce1775f1a48b06afe1fbdc89690761ae",
         "robots_checked": true,
         "crawl_delay_seconds": 30
       }
@@ -50,7 +50,7 @@
       "price_unit": "product",
       "source": {
         "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049276",
-        "collected_at": "2026-10-11T13:43:11.041500+00:00",
+        "collected_at": "2026-10-17T11:40:45.099431+00:00",
         "capture_kind": "successful_http_parse"
       },
       "provenance": {
@@ -59,7 +59,7 @@
         "parse_status": "exact_pd_no_numeric_price",
         "identity_key": "pdNo",
         "price_key": "pdPrc",
-        "response_sha256": "7afd2088d2a2e49f4baae561bec2805b0043840839517c22e3072d35938ef733",
+        "response_sha256": "86a9c0776a07e4a8314e7720c16618c3f1a718dd864b04532b1ea436cda4390d",
         "robots_checked": true,
         "crawl_delay_seconds": 30
       }
@@ -71,7 +71,7 @@
       "price_unit": "product",
       "source": {
         "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1055167",
-        "collected_at": "2026-10-11T13:43:41.043459+00:00",
+        "collected_at": "2026-10-17T11:41:15.135077+00:00",
         "capture_kind": "successful_http_parse"
       },
       "provenance": {
@@ -80,7 +80,7 @@
         "parse_status": "exact_pd_no_numeric_price",
         "identity_key": "pdNo",
         "price_key": "pdPrc",
-        "response_sha256": "4cec2dae0f2ebb5528e12a8f6a31ce63471d48048ee2c7da786955b084cf630a",
+        "response_sha256": "a0b689756268ad25153b01e579106bd609e8829291b9c2cf91f2883401a304ac",
         "robots_checked": true,
         "crawl_delay_seconds": 30
       }
@@ -92,7 +92,7 @@
       "price_unit": "product",
       "source": {
         "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1067498",
-        "collected_at": "2026-10-11T13:44:11.024944+00:00",
+        "collected_at": "2026-10-17T11:41:45.132806+00:00",
         "capture_kind": "successful_http_parse"
       },
       "provenance": {
@@ -101,7 +101,7 @@
         "parse_status": "exact_pd_no_numeric_price",
         "identity_key": "pdNo",
         "price_key": "pdPrc",
-        "response_sha256": "af7c785b574d6606bec739fa59c6e59b16426d80af4267974fd81dd91f8043f1",
+        "response_sha256": "3db261ac3588d9d68a797132a95f37847f68d4a2776808fc1169d86ca6c86205",
         "robots_checked": true,
         "crawl_delay_seconds": 30
       }
@@ -112,7 +112,7 @@
       "kind": "robots",
       "pd_no": null,
       "url": "https://www.daisomall.co.kr/robots.txt",
-      "attempted_at": "2026-10-11T13:42:10.943635+00:00",
+      "attempted_at": "2026-10-17T11:39:44.375076+00:00",
       "attempt_number": 1,
       "http_status": 200,
       "parse_status": "robots_parsed",
@@ -122,41 +122,41 @@
       "kind": "product",
       "pd_no": "1049275",
       "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049275",
-      "attempted_at": "2026-10-11T13:42:40.944107+00:00",
+      "attempted_at": "2026-10-17T11:40:14.375243+00:00",
       "attempt_number": 1,
       "http_status": 200,
       "parse_status": "exact_pd_no_numeric_price",
-      "response_bytes": 10731
+      "response_bytes": 10603
     },
     {
       "kind": "product",
       "pd_no": "1049276",
       "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049276",
-      "attempted_at": "2026-10-11T13:43:10.944206+00:00",
+      "attempted_at": "2026-10-17T11:40:44.375403+00:00",
       "attempt_number": 1,
       "http_status": 200,
       "parse_status": "exact_pd_no_numeric_price",
-      "response_bytes": 10509
+      "response_bytes": 11339
     },
     {
       "kind": "product",
       "pd_no": "1055167",
       "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1055167",
-      "attempted_at": "2026-10-11T13:43:40.944920+00:00",
+      "attempted_at": "2026-10-17T11:41:14.375553+00:00",
       "attempt_number": 1,
       "http_status": 200,
       "parse_status": "exact_pd_no_numeric_price",
-      "response_bytes": 11696
+      "response_bytes": 10992
     },
     {
       "kind": "product",
       "pd_no": "1067498",
       "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1067498",
-      "attempted_at": "2026-10-11T13:44:10.945463+00:00",
+      "attempted_at": "2026-10-17T11:41:44.375702+00:00",
       "attempt_number": 1,
       "http_status": 200,
       "parse_status": "exact_pd_no_numeric_price",
-      "response_bytes": 9327
+      "response_bytes": 9973
     }
   ],
   "http_attempt_count": 5,
@@ -174,36 +174,36 @@
   "catalog_count": 356,
   "registry_count": 357,
   "input_hashes_before": {
-    "data/product_master.json": "5c97b39a0e01ed067182f22c5198a17b7e678fc1df88b0c854a9fafbf0a05f16",
-    "data/daiso_real/products.json": "571d69b6b0f997c49d49ba44eb1c6b89e45ebd52ecfdca0b408b692f4a9a429c",
-    "data/daiso_real/collection_status.json": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49",
-    "data/daiso_real/shopify_s_recommendations.json": "d30762f60e97450a099b28dd2ff11821afc7b6d03a4c9277da1b089d441d4e65",
-    "data/shopify_shortlist.json": "bb3518dbfbfa810dbba9a929d12c6b2a49827596508c4874b7f893335cb8d852",
-    "data/listing_gate.json": "afd2cf87d48a86dc26e88ca0fcaa4786623290fce7fa40d17a9bb162fb5fccf9",
-    "data/legal_full.json": "e445feead5e058f71033f204701b88c1a0f5b3afde1d195ace916ecb7cb06fa5",
-    "data/legal_products.json": "49a6abf0cf20d521f263c3c3286ef1388097758ae0b7ae1caacc213dc1037107",
-    "data/pricing_model.json": "72608bf115d10d10e0efbb40b1df9247b0aa5d416908ce44bca8d64bb9d22ee9",
-    "data/mocra_readiness.json": "7e32eac3c2c200b91d730f2e9fbaf396e824010eae8b96f8335b6cce8939099d",
-    "data/shopify_listing_copy.json": "0e86b6b0de696c034707f0dd15e33710a3a1adea70c1fe0e43e76914a36591b2",
-    "data/shopify_action_queue.json": "9a32684d84ca6cd14533a25e7690b7f740e22682c25f377554e786927150157b",
-    "data/daiso_real/candidate_pool.json": "9990e0eeab427c34ad4b2fad7d8a2bc9bcd4bd6f63d43115d353c2e1ec3f4ef5",
-    "data/daiso_real/candidate_observations.json": "61ff9aa6b6b699d3d5822767d8294e5906d817d48f8d68a49ebe7079edc8c2ca"
+    "data/product_master.json": "411dcc4024f361fa61357c39471a6d3c44c3ab57aabf5b78e34d81e529e45daa",
+    "data/daiso_real/products.json": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "data/daiso_real/collection_status.json": "c0412acc574676744448347a2c6efdce311f5b35ea805d9954d37e09a07443f9",
+    "data/daiso_real/shopify_s_recommendations.json": "43d99413373776a0f6de208f25faef2640ae54809a0c1edfa737b7907f036b1f",
+    "data/shopify_shortlist.json": "e409c62ae81b8b50ccea290b87d61d8f5c0575256633f60663f25799ff1c50e0",
+    "data/listing_gate.json": "31e141625f360118f1345629433de96657ee26460b69659de140a0430c089ae9",
+    "data/legal_full.json": "0ca9c38fa33bad321844ff71292877123e702ee268c1c5f4c0e0d417a89dc102",
+    "data/legal_products.json": "f071271eda41f56c5685034826401065d7cb8c869499b5453ec97d21a53a7f38",
+    "data/pricing_model.json": "3b04fc4faf789638d4f1926554cd334ef3b6859c9f024cda41fa77cad45537ce",
+    "data/mocra_readiness.json": "32fd3b79621700adc25fc2c533667f59a732eb8b6fdc35fb2ec0818b249c0143",
+    "data/shopify_listing_copy.json": "987abf6d6e9d816134bfd9d1b3d19522eace10d823f635709a6c418443e81455",
+    "data/shopify_action_queue.json": "3837ceeea8d5ee1ef4290b82dfffe710e9f80c410b009fffe4c88f36fefcfb90",
+    "data/daiso_real/candidate_pool.json": "fc72df2a0ba5504fcba5692c86371bd0756e0abe588d5d8b12f02e0139e855ba",
+    "data/daiso_real/candidate_observations.json": "68869314301325521f39828c98dd6753b4ed0496b7254c7296df8ce9e24bc7aa"
   },
   "input_hashes_after": {
-    "data/product_master.json": "5c97b39a0e01ed067182f22c5198a17b7e678fc1df88b0c854a9fafbf0a05f16",
-    "data/daiso_real/products.json": "571d69b6b0f997c49d49ba44eb1c6b89e45ebd52ecfdca0b408b692f4a9a429c",
-    "data/daiso_real/collection_status.json": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49",
-    "data/daiso_real/shopify_s_recommendations.json": "d30762f60e97450a099b28dd2ff11821afc7b6d03a4c9277da1b089d441d4e65",
-    "data/shopify_shortlist.json": "bb3518dbfbfa810dbba9a929d12c6b2a49827596508c4874b7f893335cb8d852",
-    "data/listing_gate.json": "afd2cf87d48a86dc26e88ca0fcaa4786623290fce7fa40d17a9bb162fb5fccf9",
-    "data/legal_full.json": "e445feead5e058f71033f204701b88c1a0f5b3afde1d195ace916ecb7cb06fa5",
-    "data/legal_products.json": "49a6abf0cf20d521f263c3c3286ef1388097758ae0b7ae1caacc213dc1037107",
-    "data/pricing_model.json": "72608bf115d10d10e0efbb40b1df9247b0aa5d416908ce44bca8d64bb9d22ee9",
-    "data/mocra_readiness.json": "7e32eac3c2c200b91d730f2e9fbaf396e824010eae8b96f8335b6cce8939099d",
-    "data/shopify_listing_copy.json": "0e86b6b0de696c034707f0dd15e33710a3a1adea70c1fe0e43e76914a36591b2",
-    "data/shopify_action_queue.json": "9a32684d84ca6cd14533a25e7690b7f740e22682c25f377554e786927150157b",
-    "data/daiso_real/candidate_pool.json": "9990e0eeab427c34ad4b2fad7d8a2bc9bcd4bd6f63d43115d353c2e1ec3f4ef5",
-    "data/daiso_real/candidate_observations.json": "61ff9aa6b6b699d3d5822767d8294e5906d817d48f8d68a49ebe7079edc8c2ca"
+    "data/product_master.json": "411dcc4024f361fa61357c39471a6d3c44c3ab57aabf5b78e34d81e529e45daa",
+    "data/daiso_real/products.json": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "data/daiso_real/collection_status.json": "c0412acc574676744448347a2c6efdce311f5b35ea805d9954d37e09a07443f9",
+    "data/daiso_real/shopify_s_recommendations.json": "43d99413373776a0f6de208f25faef2640ae54809a0c1edfa737b7907f036b1f",
+    "data/shopify_shortlist.json": "e409c62ae81b8b50ccea290b87d61d8f5c0575256633f60663f25799ff1c50e0",
+    "data/listing_gate.json": "31e141625f360118f1345629433de96657ee26460b69659de140a0430c089ae9",
+    "data/legal_full.json": "0ca9c38fa33bad321844ff71292877123e702ee268c1c5f4c0e0d417a89dc102",
+    "data/legal_products.json": "f071271eda41f56c5685034826401065d7cb8c869499b5453ec97d21a53a7f38",
+    "data/pricing_model.json": "3b04fc4faf789638d4f1926554cd334ef3b6859c9f024cda41fa77cad45537ce",
+    "data/mocra_readiness.json": "32fd3b79621700adc25fc2c533667f59a732eb8b6fdc35fb2ec0818b249c0143",
+    "data/shopify_listing_copy.json": "987abf6d6e9d816134bfd9d1b3d19522eace10d823f635709a6c418443e81455",
+    "data/shopify_action_queue.json": "3837ceeea8d5ee1ef4290b82dfffe710e9f80c410b009fffe4c88f36fefcfb90",
+    "data/daiso_real/candidate_pool.json": "fc72df2a0ba5504fcba5692c86371bd0756e0abe588d5d8b12f02e0139e855ba",
+    "data/daiso_real/candidate_observations.json": "68869314301325521f39828c98dd6753b4ed0496b7254c7296df8ce9e24bc7aa"
   },
   "inputs_byte_identical": true,
   "retained_previous_products": [
@@ -544,6 +544,90 @@
         "robots_checked": true,
         "crawl_delay_seconds": 30
       }
+    },
+    {
+      "canonical_product_id": "CP000106",
+      "pd_no": "1049275",
+      "price_krw": 3000,
+      "price_unit": "product",
+      "source": {
+        "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049275",
+        "collected_at": "2026-10-11T13:42:41.022442+00:00",
+        "capture_kind": "successful_http_parse"
+      },
+      "provenance": {
+        "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
+        "http_status": 200,
+        "parse_status": "exact_pd_no_numeric_price",
+        "identity_key": "pdNo",
+        "price_key": "pdPrc",
+        "response_sha256": "840c350b829c69e0cdc4e84ddc5e56c79bf724e46396d4b37db2b27e27d61f5d",
+        "robots_checked": true,
+        "crawl_delay_seconds": 30
+      }
+    },
+    {
+      "canonical_product_id": "CP000107",
+      "pd_no": "1049276",
+      "price_krw": 3000,
+      "price_unit": "product",
+      "source": {
+        "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049276",
+        "collected_at": "2026-10-11T13:43:11.041500+00:00",
+        "capture_kind": "successful_http_parse"
+      },
+      "provenance": {
+        "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
+        "http_status": 200,
+        "parse_status": "exact_pd_no_numeric_price",
+        "identity_key": "pdNo",
+        "price_key": "pdPrc",
+        "response_sha256": "7afd2088d2a2e49f4baae561bec2805b0043840839517c22e3072d35938ef733",
+        "robots_checked": true,
+        "crawl_delay_seconds": 30
+      }
+    },
+    {
+      "canonical_product_id": "CP000130",
+      "pd_no": "1055167",
+      "price_krw": 5000,
+      "price_unit": "product",
+      "source": {
+        "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1055167",
+        "collected_at": "2026-10-11T13:43:41.043459+00:00",
+        "capture_kind": "successful_http_parse"
+      },
+      "provenance": {
+        "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
+        "http_status": 200,
+        "parse_status": "exact_pd_no_numeric_price",
+        "identity_key": "pdNo",
+        "price_key": "pdPrc",
+        "response_sha256": "4cec2dae0f2ebb5528e12a8f6a31ce63471d48048ee2c7da786955b084cf630a",
+        "robots_checked": true,
+        "crawl_delay_seconds": 30
+      }
+    },
+    {
+      "canonical_product_id": "CP000216",
+      "pd_no": "1067498",
+      "price_krw": 5000,
+      "price_unit": "product",
+      "source": {
+        "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1067498",
+        "collected_at": "2026-10-11T13:44:11.024944+00:00",
+        "capture_kind": "successful_http_parse"
+      },
+      "provenance": {
+        "endpoint": "https://www.daisomall.co.kr/ssn/search/SearchGoods",
+        "http_status": 200,
+        "parse_status": "exact_pd_no_numeric_price",
+        "identity_key": "pdNo",
+        "price_key": "pdPrc",
+        "response_sha256": "af7c785b574d6606bec739fa59c6e59b16426d80af4267974fd81dd91f8043f1",
+        "robots_checked": true,
+        "crawl_delay_seconds": 30
+      }
     }
   ],
   "observation_history": [
@@ -678,14 +762,77 @@
         "request_history_sha256": "727401763b2d8228492f66eb1b24dfd6225a5a07b7f62deccbf0f689308dc3c6"
       },
       "status": "complete"
+    },
+    {
+      "attempts": [
+        {
+          "kind": "robots",
+          "pd_no": null,
+          "url": "https://www.daisomall.co.kr/robots.txt",
+          "attempted_at": "2026-10-11T13:42:10.943635+00:00",
+          "attempt_number": 1,
+          "http_status": 200,
+          "parse_status": "robots_parsed",
+          "response_bytes": 1275
+        },
+        {
+          "kind": "product",
+          "pd_no": "1049275",
+          "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049275",
+          "attempted_at": "2026-10-11T13:42:40.944107+00:00",
+          "attempt_number": 1,
+          "http_status": 200,
+          "parse_status": "exact_pd_no_numeric_price",
+          "response_bytes": 10731
+        },
+        {
+          "kind": "product",
+          "pd_no": "1049276",
+          "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1049276",
+          "attempted_at": "2026-10-11T13:43:10.944206+00:00",
+          "attempt_number": 1,
+          "http_status": 200,
+          "parse_status": "exact_pd_no_numeric_price",
+          "response_bytes": 10509
+        },
+        {
+          "kind": "product",
+          "pd_no": "1055167",
+          "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1055167",
+          "attempted_at": "2026-10-11T13:43:40.944920+00:00",
+          "attempt_number": 1,
+          "http_status": 200,
+          "parse_status": "exact_pd_no_numeric_price",
+          "response_bytes": 11696
+        },
+        {
+          "kind": "product",
+          "pd_no": "1067498",
+          "url": "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1067498",
+          "attempted_at": "2026-10-11T13:44:10.945463+00:00",
+          "attempt_number": 1,
+          "http_status": 200,
+          "parse_status": "exact_pd_no_numeric_price",
+          "response_bytes": 9327
+        }
+      ],
+      "budget_checkpoint": {
+        "total_http_attempts": 20,
+        "last_run_attempt_at": "2026-10-11T13:42:10.943635+00:00",
+        "last_request_at": "2026-10-11T13:44:10.945463+00:00",
+        "last_checked_at": "2026-10-11T13:44:11.044711+00:00",
+        "policy_version": 2,
+        "request_history_sha256": "38b8389d13578041cf20f96b4c815c39b93d2ad666117d99fea022b3e98162b6"
+      },
+      "status": "complete"
     }
   ],
   "budget_checkpoint": {
-    "total_http_attempts": 20,
-    "last_run_attempt_at": "2026-10-11T13:42:10.943635+00:00",
-    "last_request_at": "2026-10-11T13:44:10.945463+00:00",
-    "last_checked_at": "2026-10-11T13:44:11.044711+00:00",
+    "total_http_attempts": 25,
+    "last_run_attempt_at": "2026-10-17T11:39:44.375076+00:00",
+    "last_request_at": "2026-10-17T11:41:44.375702+00:00",
+    "last_checked_at": "2026-10-17T11:41:45.140851+00:00",
     "policy_version": 2,
-    "request_history_sha256": "38b8389d13578041cf20f96b4c815c39b93d2ad666117d99fea022b3e98162b6"
+    "request_history_sha256": "34f6d4a92a687164cfe650ce3809424bcfdfe1abf84bf3fbf0f254c24de13b9c"
   }
 }

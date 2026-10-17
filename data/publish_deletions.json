@@ -46,17 +46,6 @@
       "replacement_sha256": "9ed8d93790bf52592d05a75a3a965b7d91fddec2b5832ec1fdde26b368d45d95"
     },
     {
-      "base_sha256": "1a0d04e73eb0251b75929c8a3144f64d96928c86b09d15e69d6c4564118ad5a9",
-      "delete_file": false,
-      "ids": [
-        "finished_at"
-      ],
-      "path": "data/agents/workflow_freshness.json",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "replacement_sha256": "ce45d7d040d301256bf07e942457d1b4316a0c65de8dceb6f7e9caeca76ddd26"
-    },
-    {
       "base_sha256": "aed12f07a1d59fb1b43fa9b121f572103da5d3fe413f8661aec76b7b2d837d7e",
       "delete_file": false,
       "ids": [
@@ -284,6 +273,48 @@
       "ids": [
         "Frankfurter API 1,336.79(2026-10-14)",
         "exchangerate-api 1,339.81(2026-10-15)"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/agents/workflow_freshness.json",
+      "base_sha256": "1a0d04e73eb0251b75929c8a3144f64d96928c86b09d15e69d6c4564118ad5a9",
+      "replacement_sha256": "904e5de13db5075b554558df0939c0b1cd7093418f0aa58485012d9e84a12373",
+      "ids": [
+        "finished_at"
+      ],
+      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
+      "policy_ref": "scripts/workflow_status_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "aa762906446588987de8576a34106e00648d5053c072a5a62393a44fe07236fe",
+      "ids": [
+        "action:intent:task_03704753895054b409ec0fbe2120de17621293d6d3069bf3cd252bf4b5c3c712",
+        "action:intent:task_243c7def57e035b8c59fe7f6edd55052e6439a3d7a814674e08fac399bdb42a6",
+        "action:intent:task_b71e869e78075f6c9d612020eeb0359f572cfaccab85d3b409d067d11ad4cf28",
+        "action:intent:task_d31c44bb17b49fe6381fe1ef8aa4790bb95e5153347b3a964194d85d3a4ccd62",
+        "relation:273bfebd6bc2138d70044c95",
+        "relation:37ac44128790c61010acb4c2",
+        "relation:57781a8beba478bd220ea178",
+        "relation:5e8a5697d1593e9df65d5997",
+        "relation:c40c4b8b93cc816ce69bd6a7",
+        "relation:cf6c562a32c00a85152cbf67",
+        "relation:e6c531830a0c14d96fb54fbb",
+        "relation:fa374ab8549dbbb304696dbf"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "2a605e1dab0acfaaa5ccd6860b549a6a244a9989ae85a308d1d83dc42926868c",
+      "ids": [
+        "STALE_SOURCE_CAPTURE"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
