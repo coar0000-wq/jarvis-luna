@@ -662,4 +662,42 @@ class NonActuatingWalkTests(unittest.TestCase):
             restore._non_actuating_predecessor(Path('.'), runs[0], self.fetcher(runs, {}), None)
 
 
+class StaleQueuedCheckoutTests(unittest.TestCase):
+    """2026-10-17: a queued producer must not open the operations gate on a stale checkout."""
+
+    def git(self, cwd, *args):
+        return subprocess.run(['git', '-C', str(cwd), *args], capture_output=True, text=True, check=True).stdout.strip()
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory(); base = Path(self.tmp.name)
+        self.origin, self.work = base / 'origin.git', base / 'work'
+        subprocess.run(['git', 'init', '-q', '--bare', '-b', 'main', str(self.origin)], check=True)
+        subprocess.run(['git', 'clone', '-q', str(self.origin), str(self.work)], check=True, capture_output=True)
+        for k, v in (('user.name', 't'), ('user.email', 't@t'), ('core.autocrlf', 'false')):
+            self.git(self.work, 'config', k, v)
+        self.commit({'data/operations/state.json': '{"sequence": 1}\n'})
+        self.start = self.git(self.work, 'rev-parse', 'HEAD')
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def commit(self, files):
+        for rel, text in files.items():
+            p = self.work / rel; p.parent.mkdir(parents=True, exist_ok=True); p.write_text(text, encoding='utf-8')
+        self.git(self.work, 'add', '-A'); self.git(self.work, 'commit', '-q', '-m', 'x'); self.git(self.work, 'push', '-q', 'origin', 'HEAD:main')
+
+    def test_fresh_and_data_only_advance_pass(self):
+        restore._require_fresh_checkout(self.work, self.start)
+        self.commit({'data/gosi.json': '{}\n'})
+        self.git(self.work, 'checkout', '-q', self.start)
+        restore._require_fresh_checkout(self.work, self.start)
+
+    def test_operations_advance_blocks(self):
+        self.commit({'data/operations/state.json': '{"sequence": 2}\n'})
+        self.git(self.work, 'checkout', '-q', self.start)
+        with self.assertRaises(restore.Blocked) as caught:
+            restore._require_fresh_checkout(self.work, self.start)
+        self.assertEqual(str(caught.exception), 'stale_queued_checkout_operations_advanced')
+
+
 if __name__ == '__main__': unittest.main()

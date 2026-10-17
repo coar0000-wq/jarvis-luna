@@ -955,6 +955,36 @@ def restore_latest(root, *, fetch_json=transport.fetch_github_json,
     return {'continuity':'verified', 'status':'authenticated_operations_safety_restored', 'run_id':run['id'], 'normalization':normalization}
 
 
+def _require_fresh_checkout(root, commit):
+    """Block a producer that waited in the main-publish queue while another producer published.
+
+    2026-10-17: Deep 39031572551 was queued at 63d30cea while Core 39031260074 published 9c982c60.
+    Core's publication adds operations records in its own transaction worktree (sequence
+    5072 -> 5170), so the queued Deep restored Core's *artifact* and grew a parallel ledger branch
+    (5184) that can never be reconciled with main (report_lost_or_byte_conflict). A run whose
+    checkout is no longer main's tip must not open the operations gate; the next scheduled run
+    starts from the current tip. Its retention step is then skipped, which the artifactless walk
+    proves as non-actuating, so the chain stays intact.
+    """
+    remote = _git(root, 'ls-remote', 'origin', 'refs/heads/main')
+    fields = remote.stdout.split() if remote.returncode == 0 else []
+    tip = fields[0].decode('ascii', 'replace') if fields else ''
+    if not re.fullmatch('[0-9a-f]{40}', tip):
+        raise Blocked('remote_main_unavailable')
+    if tip == commit:
+        return
+    # Data-only publications that leave operations untouched (gosi, listing copy, SerpApi ...) are
+    # harmless; only a newer operations snapshot on main forks the ledger.
+    fetched = _git(root, 'fetch', '--quiet', '--no-tags', 'origin', tip)
+    if fetched.returncode:
+        raise Blocked('remote_main_unavailable')
+    changed = _git(root, 'diff', '--quiet', commit, tip, '--', 'data/operations')
+    if changed.returncode == 1:
+        raise Blocked('stale_queued_checkout_operations_advanced')
+    if changed.returncode:
+        raise Blocked('remote_main_unavailable')
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
@@ -971,6 +1001,7 @@ def main(argv=None):
             head = _git(args.root, 'rev-parse', '--verify', 'HEAD')
             if not re.fullmatch('[0-9a-f]{40}', commit) or head.returncode or head.stdout.strip() != commit.encode('ascii'):
                 raise Blocked('authenticated_current_head_required')
+            _require_fresh_checkout(args.root, commit)
             result = restore_latest(args.root, current_run_id=os.environ.get('GITHUB_RUN_ID'))
         output = os.environ.get('GITHUB_OUTPUT')
         if output:
