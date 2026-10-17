@@ -156,6 +156,11 @@ def producer_changed(name, policy):
             or name in policy.get('producer_root_names', ['pyproject.toml', 'uv.lock', 'poetry.lock', 'Pipfile', 'Pipfile.lock']))
 
 
+# Whole-file reports written by more than one workflow; the publishing execution's report wins atomically.
+LATEST_EXECUTION_REPORTS = frozenset(('data/agents/release_quality_candidate.json',
+                                      'data/agents/release_quality_final.json'))
+
+
 def merge_json(base, local, remote, policy, *, where='', authorize_delete=None):
     """Preserve independent additions; same-identity competing edits fail closed."""
     if local == remote:
@@ -165,6 +170,11 @@ def merge_json(base, local, remote, policy, *, where='', authorize_delete=None):
     if remote == base:
         return deepcopy(local)
     if volatile_container(where, policy, snapshots_only=True):
+        if where in LATEST_EXECUTION_REPORTS and isinstance(local, dict) and isinstance(remote, dict):
+            # 2026-10-17: Core 와 Deep 이 같은 품질 보고서를 쓴다. 앞 실행이 발행하는 동안 main-publish
+            # 대기열에서 기다린 실행은 옛 커밋에서 시작해 발행 때 늘 여기서 막혔다(Deep 39031572551).
+            # 섞지 않고 지금 발행하는 실행의 보고서 하나를 통째로 쓴다. 앞 보고서는 git 이력에 남는다.
+            return deepcopy(local)
         # One execution's report is atomic. Never manufacture a hybrid report
         # from two independently completed runs, even when fields do not overlap.
         raise PublishError(f'competing execution snapshots: {where}')

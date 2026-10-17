@@ -198,6 +198,16 @@ class VolatilePolicyTests(unittest.TestCase):
         remote={'last_attempt':{'execution_id':'remote','status':'failed'}}
         with self.assertRaises(pub.PublishError):self.apply('data/daiso_real/collection_status.json',old,local,remote)
 
+    def test_shared_quality_report_takes_publishing_execution_whole(self):
+        # 2026-10-17: Core 발행 동안 대기한 Deep 이 같은 품질 보고서 때문에 발행에 실패했다.
+        old={'execution_id':'old','status':'warning','checks':[{'id':'a','ok':False}]}
+        local={'execution_id':'deep','status':'passed','checks':[{'id':'a','ok':True}]}
+        remote={'execution_id':'core','status':'warning','checks':[{'id':'b','ok':False}],'extra':1}
+        for name in ('data/agents/release_quality_candidate.json','data/agents/release_quality_final.json'):
+            with self.subTest(name=name):self.assertEqual(self.apply(name,old,local,remote),local)
+        with self.assertRaises(pub.PublishError):
+            self.apply('data/agents/core_run_results.json',old,local,remote)
+
     def test_last_good_records_cannot_be_dropped_with_volatile_waiver(self):
         old={'last_success':{'execution_id':'good'},'last_attempt':{'old':1}}
         new={'last_attempt':{'status':'no_change'}}
