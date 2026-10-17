@@ -74,8 +74,9 @@ ROTATING = {
     # 운영 상태: 출처 복구 에피소드의 '현재 막힘 코드' 목록만. 출처가 회복되면 코드가 빠진다(이력·영수증은 그대로 보존).
     # 2026-10-17: 감시 기록의 latest_attempt 는 "지금 가장 최근 실행" 관측이라, 실행 중인 회차로 바뀌면
     # finished_at·conclusion 이 빠진다(Core 39039584239). last_success 등 다른 칸은 그대로 막는다.
+    # 2026-10-18: watch/pending_events 는 처리 대기 큐라, 처리되면 빠진다(Core 39063638782). seen_events 는 그대로 막는다.
     "data/operations/state.json": ["source_recovery/episodes/*/blocker_codes",
-                                   "watch/sources/*/records/*/value/latest_attempt"],
+                                   "watch/sources/*/records/*/value/latest_attempt", "watch/pending_events"],
     # AI 수집팀(예전 로보틱스): 논문·블로그·유튜브 최신 목록이 통째로 바뀐다. 2026-10-11 수집원 전환 포함.
     "data/robotics_sources.json": ["sources/*/items", "sources/*/source_results", "sources/*/errors"],
     # 전담팀 카테고리 목록(다이소몰 공개 목록): 실행마다 목록이 통째로 새 관측으로 바뀐다.
@@ -101,7 +102,11 @@ ROTATING = {
     "data/youtube_review_queue.json": ["videos"],
     "data/agents/channel_expansion.json": ["verified_candidates", "unverified_candidates"],
     "data/design_team.json": ["references/items", "reference_workflow_updated_at"],
-    "data/market_team.json": ["demand_signals/manual_trends"],
+    # 2026-10-18: S 목록이 바뀌면 시장팀 보드의 우선순위·키워드·경쟁·주간 액션도 통째로 다시 만들어진다
+    # (Deep 39045168903/39058477196: s_grade_priority). 보드는 파생 화면이다.
+    "data/market_team.json": ["demand_signals/*", "s_grade_priority", "keyword_board", "competitor_watch",
+                              "weekly_actions", "marketing_playbook/*", "shopify_strategy/launch_order",
+                              "health/live_channels"],
     "data/team_learning.json": ["teams/*/review_pending"],
     "data/youtube_manual.json": ["updated_at"],
     "data/daiso_real/desk_catalog.json": ["desks/*", "desks/*/products", "desks/*/categories", "errors", "kept_previous"],
