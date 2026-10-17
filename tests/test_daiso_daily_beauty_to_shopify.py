@@ -1789,5 +1789,58 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
         shop.create.assert_not_called()
 
 
+class DraftImageBackfillTests(unittest.TestCase):
+    """2026-10-17: 이미지 0장 비공개 초안에 미디어만 붙이고 상태·가격은 건드리지 않는다."""
+
+    def reg(self):
+        return {"items": [
+            {"pd_no": "1", "status": "DRAFT", "images": 0, "title": "Bonsup Retinol 500 IU Serum 30 ml",
+             "shopify_id": "gid://shopify/Product/1", "single_usd": 15.99,
+             "draft_reasons": ["no_usable_product_images", "listing_gate_public_not_ready"]},
+            {"pd_no": "2", "status": "DRAFT", "images": 0, "title": "한글 제목", "shopify_id": "gid://shopify/Product/2"},
+            {"pd_no": "3", "status": "ACTIVE", "images": 0, "title": "Active", "shopify_id": "gid://shopify/Product/3"},
+            {"pd_no": "4", "status": "DRAFT", "images": 4, "title": "Has images", "shopify_id": "gid://shopify/Product/4"},
+        ]}
+
+    def test_attaches_media_only_to_imageless_english_drafts(self):
+        reg, shop = self.reg(), MagicMock()
+        shop.gql.return_value = {"productUpdate": {"product": {"id": "x", "status": "DRAFT"}, "userErrors": []}}
+        imgs = {"resource_urls": ["r1", "r2"], "alts": ["a1", "a2"], "skipped": [], "localization": {"status": "ok"}}
+        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "1"}), \
+                patch.object(daily, "prepare_images", return_value=imgs) as prep, \
+                patch.object(daily, "save_registry") as save:
+            out = daily.backfill_draft_images(shop, reg)
+        self.assertEqual([r["status"] for r in out], ["attached", "skipped"])
+        self.assertEqual(prep.call_count, 1)
+        variables = shop.gql.call_args[0][1]
+        self.assertEqual(variables["id"], "gid://shopify/Product/1")
+        self.assertEqual([m["alt"] for m in variables["media"]], ["a1", "a2"])
+        self.assertNotIn("status", shop.gql.call_args[0][0].split("media:$media")[0].split("product:{")[1])
+        item = reg["items"][0]
+        self.assertEqual((item["images"], item["status"], item["single_usd"]), (2, "DRAFT", 15.99))
+        self.assertEqual(item["draft_reasons"], ["listing_gate_public_not_ready"])
+        save.assert_called_once_with(reg)
+
+    def test_no_images_or_errors_leave_registry_unchanged(self):
+        reg, shop = self.reg(), MagicMock()
+        before = copy.deepcopy(reg)
+        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "1"}), \
+                patch.object(daily, "prepare_images", return_value={"resource_urls": [], "skipped": [{"reason": "x"}]}), \
+                patch.object(daily, "save_registry") as save:
+            out = daily.backfill_draft_images(shop, reg)
+        self.assertEqual(out[0]["status"], "no_usable_images")
+        shop.gql.assert_not_called()
+        save.assert_not_called()
+        self.assertEqual(reg, before)
+        shop.gql.return_value = {"productUpdate": {"product": None, "userErrors": [{"message": "bad"}]}}
+        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "1"}), \
+                patch.object(daily, "prepare_images", return_value={"resource_urls": ["r"], "alts": [], "skipped": []}), \
+                patch.object(daily, "save_registry") as save:
+            out = daily.backfill_draft_images(shop, reg)
+        self.assertEqual(out[0]["status"], "failed")
+        save.assert_not_called()
+        self.assertEqual(reg, before)
+
+
 if __name__ == "__main__":
     unittest.main()

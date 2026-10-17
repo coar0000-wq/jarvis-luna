@@ -1874,6 +1874,66 @@ def verify_product(shop, product_id, item, pub_id, published=False):
     return p
 
 
+BACKFILL_DRAFT_IMAGES = os.environ.get("BACKFILL_DRAFT_IMAGES", "0").strip().lower() in {"1", "true", "yes"}
+BACKFILL_DRAFT_IMAGES_LIMIT = int(os.environ.get("BACKFILL_DRAFT_IMAGES_LIMIT", "3"))
+
+
+def backfill_draft_images(shop, registry):
+    """이미지 0장으로 남은 비공개 초안에 상세 이미지 영문화(1084687 방식)를 다시 적용한다.
+
+    2026-10-17: 새 방식은 '새로 만드는' 상품에만 적용돼, 그 전에 허용 목록 이미지가 없어 0장으로
+    남은 초안(1053482·1055167·1042249)은 영영 이미지가 없었다. 상태(DRAFT)·가격·공개는 건드리지 않고
+    미디어만 붙인다. 영문 상품명이 없으면(한글 제목) 건너뛴다. 실패해도 일일 등록은 계속한다.
+    """
+    out = []
+    todo = [it for it in registry.get("items") or []
+            if isinstance(it, dict) and str(it.get("status") or "").upper() == "DRAFT"
+            and it.get("images") == 0 and str(it.get("shopify_id") or "").startswith("gid://shopify/Product/")]
+    for it in todo[:BACKFILL_DRAFT_IMAGES_LIMIT]:
+        pd, title = str(it.get("pd_no")), str(it.get("title") or "")
+        row = {"pd_no": pd, "shopify_id": it["shopify_id"]}
+        if not title or re.search(r"[가-힣]", title):
+            out.append({**row, "status": "skipped", "reason": "english_title_missing"})
+            continue
+        try:
+            p = daiso_lookup(pd)
+            if not p:
+                out.append({**row, "status": "skipped", "reason": "daiso_lookup_failed"})
+                continue
+            imgs = prepare_images(p, shop, title=title)
+            urls = imgs["resource_urls"]
+            row["localization"] = imgs.get("localization")
+            if not urls:
+                out.append({**row, "status": "no_usable_images",
+                            "reasons": [d.get("reason") for d in imgs.get("skipped") or []][:10]})
+                continue
+            alts = imgs.get("alts") or []
+            d = shop.gql(
+                """
+mutation($id:ID!,$media:[CreateMediaInput!]){
+  productUpdate(product:{id:$id},media:$media){product{id status} userErrors{field message}}
+}""",
+                {"id": it["shopify_id"],
+                 "media": [{"originalSource": u, "mediaContentType": "IMAGE",
+                            "alt": (alts[i:i + 1] or [title])[0] or title} for i, u in enumerate(urls)]},
+            )["productUpdate"]
+            if d["userErrors"]:
+                raise RuntimeError(f"productUpdate media: {d['userErrors']}")
+            if (d.get("product") or {}).get("status") != "DRAFT":
+                raise RuntimeError("product status changed during image backfill")
+            it["images"] = len(urls)
+            it["image_backfill"] = {"at": datetime.now(timezone.utc).isoformat(), "count": len(urls),
+                                    "localization": imgs.get("localization")}
+            it["draft_reasons"] = [r for r in it.get("draft_reasons") or [] if r != "no_usable_product_images"]
+            out.append({**row, "status": "attached", "count": len(urls)})
+        except Exception as exc:  # noqa: BLE001  한 상품 실패가 일일 등록을 막지 않는다
+            log(f"  image backfill failed {pd}: {exc}")
+            out.append({**row, "status": "failed", "error": str(exc)[:300]})
+    if any(r["status"] == "attached" for r in out):
+        save_registry(registry)
+    return out
+
+
 def main():
     shop = None
     names, ids = set(), set()
@@ -1929,6 +1989,10 @@ def main():
             with open("out/daiso_daily_beauty_result.json", "w", encoding="utf-8") as f:
                 json.dump(out, f, ensure_ascii=False, indent=2)
             return 2
+    image_backfill = []
+    if shop is not None and not DRY_RUN and BACKFILL_DRAFT_IMAGES:
+        image_backfill = backfill_draft_images(shop, reg)
+        log(f"draft image backfill: {image_backfill}")
     write_blocked = False
     for cat in CATEGORIES:
         if ONLY and cat[0] not in ONLY:
@@ -2277,6 +2341,7 @@ def main():
         "run_at": datetime.now(timezone.utc).isoformat(),
         "dry_run": DRY_RUN,
         "banner_backfill": backfill,
+        "draft_image_backfill": image_backfill,
         "quarantine_blocked_public": quarantined,
         "results": results,
     }
