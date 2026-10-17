@@ -220,6 +220,22 @@ class ImportReportPublicationTests(unittest.TestCase):
         for command in ("python scripts/build_listing_copy_local.py", "python scripts/build_listing_gate.py", "python scripts/build_shopify_import_csv.py", "uses: ./.github/actions/publish"):
             self.assertIn(command, workflow)
 
+    def test_workflow_rescores_current_policy_before_copy_and_price(self):
+        workflow = (ROOT / ".github/workflows/shopify-listing-copy.yml").read_text(encoding="utf-8")
+        marker = "      - name: 현재 정책으로 S등급 정본 재생성\n"
+        self.assertIn(marker, workflow)
+        rescore = workflow.split(marker, 1)[1].split("      - name:", 1)[0]
+        commands = [line.strip() for line in rescore.splitlines() if line.strip().startswith("python ")]
+        self.assertEqual(commands, ["python scripts/build_product_master.py",
+                                    "python scripts/daiso/score_shopify_demand.py",
+                                    "python scripts/build_product_master.py --inject-s"])
+        position = workflow.index(marker)
+        for consumer in ("      - name: S등급 정본 확인", "      - name: 실배송 원가 모델 계산",
+                         "      - name: LLM 선행 ontology 게이트 갱신", "      - name: Gemini 영문 카피 생성",
+                         "      - name: 빈 카피 무료 보완"):
+            self.assertLess(position, workflow.index(consumer))
+        self.assertIn("uses: ./.github/actions/publish", workflow)
+
     def test_workflow_records_after_generation_before_publish(self):
         workflow = (ROOT / ".github/workflows/shopify-listing-copy.yml").read_text(encoding="utf-8")
         self.assertLess(workflow.index("python scripts/build_shopify_import_csv.py"), workflow.index("--record-publication"))

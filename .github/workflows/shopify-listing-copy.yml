@@ -138,6 +138,15 @@ jobs:
       # -------------------------------------------------------
       # S등급 입력 확인
       # -------------------------------------------------------
+      # 정책 변경 뒤 커밋된 과거 S목록을 그대로 카피에 쓰면, 발행기의
+      # 동일 재채점에서 구성원이 바뀌어 최종 카피/게이트 검증이 실패한다.
+      # 모델·카피·가격 처리 전에 현재 소스와 코드로 정본을 먼저 재생성한다.
+      - name: 현재 정책으로 S등급 정본 재생성
+        run: |
+          python scripts/build_product_master.py
+          python scripts/daiso/score_shopify_demand.py
+          python scripts/build_product_master.py --inject-s
+
       - name: S등급 정본 확인
         run: |
           python3 - <<'PY'
