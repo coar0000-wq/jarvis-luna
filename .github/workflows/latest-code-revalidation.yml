@@ -1,0 +1,102 @@
+name: Latest code revalidation (no publication)
+
+# Diagnostics only, not a producer or proof of collection/publication recovery.
+# Real safety restoration is checked in disposable runner checkouts. Nothing is
+# published or retained as a successor safety snapshot by this workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: latest-code-revalidation
+  cancel-in-progress: false
+
+env:
+  TYPESAFE_ENABLED: '0'
+  GEMINI_ENABLED: '0'
+  GEMINI_FALLBACK_ENABLED: '0'
+
+jobs:
+  offline-regressions:
+    if: github.ref == 'refs/heads/main'
+    name: Offline regressions - ${{ matrix.scope }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - scope: core
+            tests: scripts/test_collector_result.py scripts/test_actions_release_integration.py scripts/test_runtime_operations_wiring.py scripts/test_source_safety_checkpoint.py scripts/test_latest_code_revalidation_workflow.py
+          - scope: deep
+            tests: scripts/test_commerce_pipeline_workflows.py scripts/test_release_quality.py scripts/test_shopify_shortlist_guard.py scripts/test_operations_publish_bytes.py scripts/test_listing_copy_publication.py
+          - scope: fx
+            tests: scripts/test_collector_snapshot_history.py scripts/test_publish_transaction.py scripts/test_publish_graph_contract.py scripts/test_gate_signature_portability.py
+          - scope: daiso
+            tests: scripts/test_daiso_collection_validation.py scripts/test_daiso_candidates.py scripts/test_recover_daiso_candidates.py scripts/test_daiso_pipeline_inputs.py scripts/test_gosi_observation_provenance.py scripts/test_us_otc_sun_exclusion.py scripts/test_makeup_ranking_fallback.py
+          - scope: serpapi
+            tests: scripts/test_collector_snapshot_history.py scripts/test_source_collector_provenance.py scripts/test_publish_graph_contract.py
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install offline verification dependencies
+        run: |
+          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-verification.txt
+      - name: Run fixture-only regressions
+        env:
+          TEST_MODULES: ${{ matrix.tests }}
+          # These markers apply only to synthetic test fixtures, never to the
+          # independent authenticated-history checks below.
+          JARVIS_SOURCE_CONTINUITY: 'verified'
+          JARVIS_OPERATIONS_CONTINUITY: 'verified'
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Commit: $GITHUB_SHA; scope: ${{ matrix.scope }}" >> "$GITHUB_STEP_SUMMARY"
+          for test in $TEST_MODULES; do
+            python -B "$test"
+          done
+          echo 'Offline regressions passed. No production collection/publication was attempted.' >> "$GITHUB_STEP_SUMMARY"
+
+  authenticated-history:
+    if: github.ref == 'refs/heads/main'
+    name: Actual source and operations continuity
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Authenticate source history without production execution
+        id: source
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -B scripts/restore_source_safety.py --root "$GITHUB_WORKSPACE"
+      - name: Authenticate operations history without production execution
+        id: operations
+        if: always()
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -B scripts/restore_operations_safety.py --root "$GITHUB_WORKSPACE"
+      - name: Report actual continuity without overriding failures
+        if: always()
+        env:
+          SOURCE_OUTCOME: ${{ steps.source.outcome }}
+          OPERATIONS_OUTCOME: ${{ steps.operations.outcome }}
+        shell: bash
+        run: |
+          echo "Commit: $GITHUB_SHA" >> "$GITHUB_STEP_SUMMARY"
+          echo "Authenticated source history: $SOURCE_OUTCOME" >> "$GITHUB_STEP_SUMMARY"
+          echo "Authenticated operations history: $OPERATIONS_OUTCOME" >> "$GITHUB_STEP_SUMMARY"
+          echo 'No bootstrap, verify-current override, collector, model API, production execution, publication or snapshot upload was attempted.' >> "$GITHUB_STEP_SUMMARY"
+          test "$SOURCE_OUTCOME" = success && test "$OPERATIONS_OUTCOME" = success
