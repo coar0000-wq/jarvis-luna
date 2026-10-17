@@ -23,7 +23,7 @@ JARVIS LUNA × Shopify (rb3zh1-i1.myshopify.com) × Obsidian 원클릭 자동 �
   export SHOPIFY_STORE="rb3zh1-i1.myshopify.com"
   export SHOPIFY_CLIENT_ID=... SHOPIFY_CLIENT_SECRET=...   # 또는 SHOPIFY_ADMIN_TOKEN=shpat_...
   APPLY=0 python3 scripts/apply_shopify_aeo_and_obsidian.py   # 점검만 (기본값)
-  APPLY=1 python3 scripts/apply_shopify_aeo_and_obsidian.py   # 실제 스토어 변경
+  APPLY=1 은 안전 검토 완료 전 차단된다 (실제 상품/테마 변경 금지).
 
 JARVIS 등록 시 변경 (2026-10-16):
   - 인증: SHOPIFY_ACCESS_TOKEN 하나만 받던 것을 저장소 규칙(SHOPIFY_STORE + client_credentials
@@ -68,6 +68,15 @@ REPORT = {
     "products_already_done": 0,
     "errors": [],
 }
+
+
+def require_inspection_only() -> None:
+    """Live content is unreviewed: no remote writes until evidence/rollback gates exist."""
+    if APPLY:
+        raise RuntimeError(
+            "AEO live apply is disabled: product-specific claims, listing approval, "
+            "fail-closed uploads, readback and rollback must be reviewed first."
+        )
 
 
 def resolve_token() -> str:
@@ -330,6 +339,8 @@ def build_aeo_semantic_block(title: str, existing_html: str) -> str:
 # ---------------------------------------------------------------------------
 
 def shopify_request(method: str, endpoint: str, payload: dict | None = None) -> dict:
+    if method.upper() != "GET" or payload is not None:
+        raise RuntimeError("AEO inspection permits GET requests without payloads only")
     url = f"https://{STORE_DOMAIN}/admin/api/{API_VERSION}/{endpoint.lstrip('/')}"
     headers = {
         "X-Shopify-Access-Token": ACCESS_TOKEN,
@@ -344,6 +355,7 @@ def shopify_request(method: str, endpoint: str, payload: dict | None = None) -> 
 
 
 def deploy_to_shopify_live() -> None:
+    require_inspection_only()
     try:
         token = resolve_token()
     except Exception as e:  # 토큰 발급 실패는 조용히 넘기지 않고 리포트에 남긴다
@@ -483,6 +495,7 @@ tags: [JARVIS-LUNA, Shopify-Product, UCP-Ready, AEO-Optimized]
 
 
 if __name__ == "__main__":
+    require_inspection_only()
     write_local_assets()
     try:
         deploy_to_shopify_live()

@@ -1,13 +1,13 @@
 name: Shopify AEO 적용 + 옵시디언 노트
 
-# 수동 실행. apply=0 이면 점검만(대상 수만 세고 스토어는 안 바꿈), apply=1 이면
-# 활성 테마에 llms.txt / agents.md / ai-agent-schema 업로드 + 상품 본문에 AEO 블록 추가.
-# 결과(템플릿·옵시디언 노트·리포트)는 main 에 커밋한다.
+# 점검 전용. 미검증 템플릿은 로컬 초안이며 실제 상품/테마 수정은 차단한다.
 on:
   workflow_dispatch:
     inputs:
       apply:
-        description: '1 이면 실제로 변경 (0 이면 점검만)'
+        description: '점검 전용 (실제 수정은 안전 검토 전 차단)'
+        type: choice
+        options: ['0']
         required: false
         default: '0'
 
@@ -20,16 +20,19 @@ permissions:
 
 jobs:
   aeo:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
       SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
       SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
       SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
-      APPLY: ${{ github.event.inputs.apply || '0' }}
+      APPLY: '0'
       OBSIDIAN_NOTES_DIR: obsidian/JARVIS_LUNA/Shopify-AEO
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -49,7 +52,7 @@ jobs:
           fi
 
       - name: 결과 커밋
-        if: always()
+        if: success()
         run: |
           git config user.name "jarvis-bot"
           git config user.email "jarvis-bot@users.noreply.github.com"

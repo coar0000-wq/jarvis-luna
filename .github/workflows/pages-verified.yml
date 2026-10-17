@@ -155,6 +155,7 @@ jobs:
             python scripts/test_shopify_shortlist_guard.py
             python scripts/test_us_otc_sun_exclusion.py
             python scripts/test_team_baseline_source_clock.py
+            python scripts/test_shopify_aeo_inspection.py
             python scripts/test_makeup_ranking_fallback.py
             python scripts/test_collector_snapshot_history.py
             python scripts/build_artifact_graph.py --check

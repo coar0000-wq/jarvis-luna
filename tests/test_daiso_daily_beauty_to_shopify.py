@@ -11,6 +11,15 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
+# Isolate ambient workflow values before the registrar captures them at import time.
+_AMBIENT_ENV = ("BODY_FALLBACK_CATALOG_PATH", "DRY_RUN", "ONLY_CATEGORIES")
+_SAVED_ENV = {key: os.environ.pop(key) for key in _AMBIENT_ENV if key in os.environ}
+
+
+def tearDownModule():
+    os.environ.update(_SAVED_ENV)
+
+
 SCRIPT = Path(__file__).resolve().parents[1] / "scripts/daiso_daily_beauty_to_shopify.py"
 sys.path.insert(0, str(SCRIPT.parent))
 spec = importlib.util.spec_from_file_location("daily", SCRIPT)
@@ -18,22 +27,6 @@ daily = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(daily)
 from test_manufacturer_safety import synthetic_receipt
 from test_owner_draft_approval import decision_document
-# 2026-10-17: 일일 등록 워크플로는 job 전체에 BODY_FALLBACK_CATALOG_PATH=out/body_shower_catalog.json 을 건다.
-# 그 파일은 테스트 '다음' 단계에서 만들어지므로, 값이 테스트로 새면 바디 대체 테스트 16건이
-# body_category_source_missing_or_unreadable 로 실패했다(실행 38990990017). 로컬은 변수가 없어 통과해서 안 보였다.
-# 테스트는 주변 환경에 기대지 않는다. 경로를 확인하는 테스트는 patch.dict 로 직접 넣는다.
-_AMBIENT_ENV = ("BODY_FALLBACK_CATALOG_PATH", "DRY_RUN", "ONLY_CATEGORIES")
-_SAVED_ENV = {}
-
-
-def setUpModule():
-    for key in _AMBIENT_ENV:
-        if key in os.environ:
-            _SAVED_ENV[key] = os.environ.pop(key)
-
-
-def tearDownModule():
-    os.environ.update(_SAVED_ENV)
 
 
 REAL_SAFETY = daily.manufacturer_safety_record  # setUp 은 기본으로 '덮임' 으로 대체한다. 실제 함수는 이 참조로 검증한다.
