@@ -68,6 +68,10 @@ jobs:
           sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-kor tesseract-ocr-eng
           tesseract --list-langs
 
+      - name: 상세 이미지 영문화 단위 테스트
+        # numpy/Pillow/OpenCV/tesseract 가 설치된 이 잡에서 돈다 (pages-verified 는 pyflakes/pyyaml 만 설치).
+        run: python -B scripts/test_localize_detail_images.py
+
       - name: 일일 등록 안전성 단위 테스트
         run: |
           python -B - <<'PY'

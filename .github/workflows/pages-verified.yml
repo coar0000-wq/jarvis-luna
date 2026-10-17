@@ -160,7 +160,6 @@ jobs:
             python scripts/test_channel_runtime_rebuild.py
             python scripts/test_obsidian_graph_groups.py
             python scripts/test_design_store_open.py
-            python scripts/test_localize_detail_images.py
             python scripts/test_shopify_set_media_alt.py
             python scripts/test_team_history_evidence.py
             python scripts/test_collector_snapshot_history.py
