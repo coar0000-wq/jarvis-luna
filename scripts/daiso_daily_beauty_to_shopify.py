@@ -580,6 +580,51 @@ def vision_read(img_url, pd_no, key, model):
     return {k: _clean(j.get(k)) for k in ("volume", "ingredients", "maker", "origin", "warnings", "expiry")}
 
 
+GOSI_RENDERED_ALT = os.environ.get("GOSI_RENDERED_ALT", "0").strip().lower() in {"1", "true", "yes"}
+
+
+def gosi_from_rendered_alt(pd_no):
+    """상품 페이지를 그려 '상품설명 더보기' 아래 상세 이미지 alt 에서 고시 항목을 읽는다.
+
+    파싱 규칙은 scripts/daiso/collect_gosi_alt.py 의 parse_alt 를 그대로 쓴다 (한 곳에서만 고친다).
+    값은 alt 원문 그대로다. 읽지 못한 칸은 비워 둔다.
+    """
+    sys.path.insert(0, str(ROOT / "scripts" / "daiso"))
+    import collect_gosi_alt as cga  # noqa: PLC0415
+    from playwright.sync_api import sync_playwright  # noqa: PLC0415
+
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch()
+        try:
+            page = browser.new_page(locale="ko-KR", user_agent=cga.UA)
+            page.goto(cga.PAGE.format(pd_no), timeout=60000, wait_until="domcontentloaded")
+            btn = page.locator('button:has-text("상품설명 더보기")')
+            try:
+                btn.first.wait_for(state="visible", timeout=15000)
+            except Exception:  # noqa: BLE001  버튼이 없는 상품도 있다
+                pass
+            if btn.count():
+                btn.first.click(timeout=8000)
+            alt, last, stable = "", -1, 0
+            for _ in range(cga.MAX_SCROLL):
+                page.mouse.wheel(0, 1600)
+                page.wait_for_timeout(1100)
+                found = page.evaluate(cga.ALT_JS) or ""
+                if len(found) > len(alt):
+                    alt = found
+                height, bottom = page.evaluate(
+                    "() => {const e=document.scrollingElement;return [e.scrollHeight,e.scrollTop+e.clientHeight];}")
+                stable = stable + 1 if height == last else 0
+                last = height
+                if bottom >= height - 80 and stable >= 2:
+                    break
+        finally:
+            browser.close()
+    parsed = cga.parse_alt(alt)
+    log(f"  gosi rendered alt: {len(alt)} chars, fields {sorted(parsed)}")
+    return {k: _clean(v) for k, v in parsed.items() if k in FIELD.values() and _clean(v)}
+
+
 def collect_gosi(pd_no, allow_ai=True):
     try:
         return _collect_gosi(pd_no, allow_ai=allow_ai)
@@ -602,6 +647,20 @@ def _collect_gosi(pd_no, allow_ai=True):
     # 1) 다이소 API 텍스트
     for k, v in gosi_from_api(pd_no).items():
         g.setdefault(k, v)
+    # 1.5) 렌더링된 상세 이미지 alt 원문 (AI 없음, 무료). CLAUDE.md 2026-09-13: 고시 전문은
+    # editor-content img 의 alt 에 글자로 있다. 그런데 이 단계가 없어서 data/gosi.json 에 없는
+    # 상품(S등급이 아닌 바디 대체·메이크업 랭킹 후보)은 고시가 늘 비었다.
+    # 2026-10-17 1042249 플루365 바디 스크럽: gosi_missing:ingredients,volume,maker 로 초안 등록.
+    if GOSI_RENDERED_ALT and any(not g.get(k) for k in NEED):
+        try:
+            got = gosi_from_rendered_alt(pd_no)
+        except Exception as exc:  # noqa: BLE001  브라우저 실패는 비어 있는 값으로 남긴다
+            log(f"  gosi rendered alt failed: {type(exc).__name__}: {exc}")
+            got = {}
+        for k, v in got.items():
+            if v and not g.get(k):
+                g[k] = v
+                g["_source"] = "rendered alt (다이소 상세 이미지 alt 원문)"
     # 2) 상세 이미지 판독 (표는 상세 이미지 아래쪽에 있다)
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if allow_ai and key and any(not g.get(k) for k in NEED):

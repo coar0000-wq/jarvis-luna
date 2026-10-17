@@ -73,7 +73,7 @@ jobs:
           python -B - <<'PY'
           import os, shutil, socket, tempfile, unittest
           from pathlib import Path
-          for key in ('SHOPIFY_STORE', 'SHOPIFY_CLIENT_ID', 'SHOPIFY_CLIENT_SECRET', 'GEMINI_API_KEY', 'DRY_RUN', 'ONLY_CATEGORIES', 'BODY_FALLBACK_CATALOG_PATH', 'BACKFILL_BANNER', 'QUARANTINE_BLOCKED_PUBLIC', 'ALLOW_ORIGINAL_IMAGES', 'LOCALIZE_DETAIL_IMAGES'):
+          for key in ('SHOPIFY_STORE', 'SHOPIFY_CLIENT_ID', 'SHOPIFY_CLIENT_SECRET', 'GEMINI_API_KEY', 'DRY_RUN', 'ONLY_CATEGORIES', 'BODY_FALLBACK_CATALOG_PATH', 'BACKFILL_BANNER', 'QUARANTINE_BLOCKED_PUBLIC', 'ALLOW_ORIGINAL_IMAGES', 'LOCALIZE_DETAIL_IMAGES', 'GOSI_RENDERED_ALT'):
               os.environ.pop(key, None)
           def blocked(*args, **kwargs):
               raise AssertionError('Network disabled for isolated registrar tests')
@@ -119,6 +119,9 @@ jobs:
           # 다이소 상세 이미지를 영문 패널로 바꿔 올린다. 번역은 무료 Gemini 가 패널을 보고 한다.
           LOCALIZE_DETAIL_IMAGES: '1'
           GEMINI_FREE_TIER_ONLY: '1'
+          # 2026-10-17: data/gosi.json 에 없는 후보(바디 대체·메이크업 랭킹)는 고시가 늘 비었다.
+          # 렌더링된 상세 이미지 alt 원문에서 읽는다 (AI 없음).
+          GOSI_RENDERED_ALT: '1'
         run: python scripts/daiso_daily_beauty_to_shopify.py
 
       - name: 바디 원래 목록 수집 증거 보관

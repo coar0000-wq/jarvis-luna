@@ -1662,6 +1662,31 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
             vision.assert_not_called()
             direct_requests.assert_not_called()
 
+    def test_rendered_alt_fills_only_missing_gosi_fields_without_ai(self):
+        # 2026-10-17 1042249: gosi.json 밖 후보는 고시가 늘 비었다. alt 원문으로 빈칸만 채운다.
+        import os
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root/"data").mkdir()
+            (root/"data/gosi.json").write_text(json.dumps({"items": {"9001": {"volume": "30 ml"}}}), encoding="utf-8")
+            alt = {"volume": "99 ml", "maker": "지본코스메틱"}
+            with patch.object(daily, "ROOT", root), patch.object(daily, "GOSI_RENDERED_ALT", True), \
+                 patch.dict(os.environ, {"GEMINI_API_KEY": ""}), \
+                 patch.object(daily, "gosi_from_api", return_value={"origin": "한국"}), \
+                 patch.object(daily, "gosi_from_rendered_alt", return_value=alt) as rendered, \
+                 patch.object(daily, "vision_read") as vision:
+                gosi = daily.collect_gosi("9001", allow_ai=False)
+            rendered.assert_called_once_with("9001")
+            vision.assert_not_called()
+            self.assertEqual(gosi["volume"], "30 ml")            # 정본 값은 덮지 않는다
+            self.assertEqual(gosi["maker"], "지본코스메틱")
+            self.assertEqual(gosi["missing"], ["ingredients"])   # alt 에 없는 전성분은 지어내지 않는다
+            with patch.object(daily, "ROOT", root), patch.object(daily, "GOSI_RENDERED_ALT", False), \
+                 patch.object(daily, "gosi_from_api", return_value={}), \
+                 patch.object(daily, "gosi_from_rendered_alt") as off:
+                daily.collect_gosi("9001", allow_ai=False)
+            off.assert_not_called()
+
     def test_gosi_default_keeps_canonical_ai_extraction_behavior(self):
         import os
         with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", Path(folder)), \

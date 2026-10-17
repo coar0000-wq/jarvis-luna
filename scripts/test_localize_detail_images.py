@@ -223,6 +223,29 @@ class FitAndResidualTest(unittest.TestCase):
         self.assertEqual(left, ["남은 글", "선명한 한글"])
 
 
+class TranslatorBudgetTest(unittest.TestCase):
+    def setUp(self):
+        ldi.GeminiTranslator.calls, ldi.GeminiTranslator.stopped = 0, None
+
+    tearDown = setUp
+
+    def test_call_budget_and_stop_on_quota(self):
+        t = ldi.GeminiTranslator("k", "m")
+        with mock.patch.object(ldi.GeminiTranslator, "MAX_CALLS", 2), \
+                mock.patch.object(t, "_translate", return_value={1: "x"}):
+            t.translate(b"", [], "T", "s")
+            t.translate(b"", [], "T", "s")
+            with self.assertRaises(RuntimeError):
+                t.translate(b"", [], "T", "s")
+        ldi.GeminiTranslator.calls = 0
+        err = ldi.urllib.error.HTTPError("u", 429, "quota", {}, None)
+        with mock.patch.object(t, "_translate", side_effect=err):
+            with self.assertRaises(ldi.urllib.error.HTTPError):
+                t.translate(b"", [], "T", "s")
+        with self.assertRaises(RuntimeError):
+            t.translate(b"", [], "T", "s")          # 429 뒤에는 더 부르지 않는다
+
+
 @unittest.skipUnless(has_korean_ocr() and korean_font(), "Korean OCR or font not installed")
 class RealOcrTest(unittest.TestCase):
     def test_korean_line_is_found_erased_and_not_left_behind(self):

@@ -47,6 +47,7 @@ import re
 import shutil
 import subprocess
 import sys
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -461,11 +462,31 @@ class GeminiTranslator:
     """무료 등급 Gemini 가 패널 이미지를 보고 번역한다. 이미지 생성은 하지 않는다."""
 
     name = "gemini_vision_translation"
+    # 회차(프로세스) 전체 호출 상한과 정지. 무료 등급인지는 코드가 확인할 수 없다
+    # (scripts/gemini_escalation.py 와 같은 전제). 그래서 호출 수를 묶고, 401/402/403/429 가
+    # 한 번이라도 나면 그 회차에는 더 부르지 않는다. 상품 3개 × 패널 약 10장 기준 30.
+    calls = 0
+    stopped: str | None = None
+    MAX_CALLS = int(os.environ.get("LOCALIZE_MAX_TRANSLATION_CALLS", "30"))
 
     def __init__(self, key: str, model: str):
         self.key, self.model = key, model
 
     def translate(self, panel_png: bytes, boxes: list[dict], title: str, panel_sha: str) -> dict[int, str]:
+        cls = GeminiTranslator
+        if cls.stopped:
+            raise RuntimeError(f"translator_stopped:{cls.stopped}")
+        if cls.calls >= cls.MAX_CALLS:
+            raise RuntimeError("translation_call_budget_exhausted")
+        cls.calls += 1
+        try:
+            return self._translate(panel_png, boxes, title)
+        except urllib.error.HTTPError as exc:
+            if exc.code in (401, 402, 403, 429):
+                cls.stopped = f"http_{exc.code}"
+            raise
+
+    def _translate(self, panel_png: bytes, boxes: list[dict], title: str) -> dict[int, str]:
         listing = "\n".join(f'{b["id"]}: box={b["box"]} lines={len(b.get("lines") or [1])} ocr="{b["ocr"]}"'
                              for b in boxes)
         body = {
