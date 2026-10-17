@@ -1627,5 +1627,80 @@
     "Shopify Blog / Partners": "공개 RSS 주소 없음 (본문이 피드가 아닌 HTML)",
     "Baymard Institute": "RSS 404",
     "Awwwards": "HTTP 502"
-  }
+  },
+  "reference_workflow": {
+    "schema_version": 1,
+    "reviewed_at": "2026-10-17",
+    "status": "workflow_applied_not_external_service_activation",
+    "source_videos": [
+      "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+      "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+      "https://www.youtube.com/watch?v=9jBZbsvQ014",
+      "https://www.youtube.com/watch?v=rDLJswILbe4",
+      "https://www.youtube.com/watch?v=L_EXYLmyFSA"
+    ],
+    "steps": [
+      {
+        "id": "research",
+        "required": [
+          "source_url",
+          "audience",
+          "layout",
+          "color",
+          "typography",
+          "adopt_reason",
+          "reject_reason"
+        ]
+      },
+      {
+        "id": "brief",
+        "required": [
+          "brand_constraints",
+          "verified_product_facts",
+          "asset_rights",
+          "output_format"
+        ]
+      },
+      {
+        "id": "draft",
+        "required": [
+          "reference_pattern_mapping",
+          "original_assets",
+          "before_after"
+        ]
+      },
+      {
+        "id": "qa",
+        "required": [
+          "mobile_readability",
+          "interaction_check",
+          "product_fidelity",
+          "unsupported_claims"
+        ]
+      },
+      {
+        "id": "media_cost",
+        "required": [
+          "model_version",
+          "resolution",
+          "duration",
+          "unit_price_checked_at",
+          "estimated_total",
+          "budget",
+          "actual_cost",
+          "retries"
+        ]
+      }
+    ],
+    "rules": [
+      "URL 저장만으로 리서치 완료 표시 금지",
+      "레퍼런스의 디자인·로고·후기를 그대로 복제하지 않음",
+      "정지 이미지의 제품 사실을 확인한 후 영상화",
+      "편집만 필요하면 생성 API 재호출하지 않음",
+      "비용·성과·승인 미확인은 null/대기로 보존",
+      "기존 공개·비용 승인 게이트는 그대로 적용"
+    ],
+    "template": "docs/learning/video-workflow-templates.md"
+  },
+  "reference_workflow_updated_at": "2026-10-17"
 }

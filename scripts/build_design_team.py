@@ -486,6 +486,10 @@ def main() -> int:
             "note": "각 단계 상태는 저장소 산출물 실재 여부로 판정한다. 근거 없이 완료로 적지 않는다.",
         },
         "reference_videos": VIDEOS,
+        # 2026-10-17 owner videos: a reference must become an explicit design
+        # decision. Keep reusable instructions in canonical manual data so a
+        # scheduled rebuild does not discard the reviewed workflow.
+        "reference_workflow": previous_payload(DATA / "manual" / "design_reference_workflow.json"),
         "references": {
             **{k: v for k, v in pool_result(refs, source_results, fails).items() if k != "items"},
             "count": len(refs),

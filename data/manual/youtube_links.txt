@@ -62,3 +62,13 @@ https://www.youtube.com/watch?v=Cv5RSFlfPSM | design | Claude Opus 5.5 3D 창고
 https://www.youtube.com/watch?v=-APXgRtYIAw | knowledge,graph,robotics,institutions,design | 멀티모달 검색은 텍스트·사진·영상·오디오를 분리 평가하며 원문·구간·파일 해시를 보존한다. DigUp Mac 데모와 모델의 Windows/Linux 통합을 구분한다. 오너 공유 2026-10-13
 https://www.youtube.com/watch?v=tByhXkxDKDo | knowledge,graph,design,listing,channels,legal | REA는 분석도구를 연결하는 MCP/CLI다. 자사 또는 허용된 대상을 먼저 제한하고 근거·추정·unknown을 분리해 기능 변경을 검토한다. 오너 공유 2026-10-13
 https://www.youtube.com/watch?v=F0p9SX9T6As | knowledge,graph,robotics,sourcing,market,pricing,listing,legal,design,channels | 준비-분석-독립평가를 분리하고 원본과 테스트 대조한다. 근거 오독 한 건도 전체 구조를 왜곡하므로 매핑 오류와 예외 케이스를 회귀 검사한다. 오너 공유 2026-10-13
+
+https://www.youtube.com/watch?v=Eu4D795nMsQ | knowledge,institutions,robotics,graph | 학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=D_ZfQzPEjOw | knowledge,robotics,pricing | 로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=pQRJUgrriBk | sourcing,market,listing,pricing,legal,design,channels,knowledge,institutions,robotics,graph | 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=zFujXrPKoGA | knowledge,graph,robotics,legal | 기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=OMkUQyG1AFE | sourcing,market,listing,pricing,legal,design,channels,knowledge,institutions,robotics,graph | 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=OmKmKYtpa_A | design,market,listing,pricing,legal,channels | 광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=9jBZbsvQ014 | design,listing,market,legal | 레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=rDLJswILbe4 | design,listing,market,graph | 참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다. 오너 공유 2026-10-17
+https://www.youtube.com/watch?v=L_EXYLmyFSA | design,listing,market | 디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다. 오너 공유 2026-10-17

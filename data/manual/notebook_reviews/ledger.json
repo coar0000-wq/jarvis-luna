@@ -119,7 +119,70 @@
       "verdict": "adopted",
       "note": "Amazon PPC 퍼널 광고를 통한 키워드/이미지/가격 데이터 수집 및 리스팅 환류 채택",
       "reviewed_at": "2026-09-28"
+    },
+    {
+      "video_id": "Eu4D795nMsQ",
+      "verdict": "adopted",
+      "note": "evaluate_model_replay.py를 추가했다. 학습 데이터와 유료 학습 작업은 생성하지 않았다. 자사 오류 유형과 데이터 이용권한부터 확보한다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "D_ZfQzPEjOw",
+      "verdict": "adopted",
+      "note": "비교 도구와 평가 지침에 반영했다. 장비 적합성과 자사 데이터 성능 미확인으로 모델 다운로드·라우팅 전환은 하지 않았다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "pQRJUgrriBk",
+      "verdict": "adopted",
+      "note": "기존 typesafe_shared.py 연동을 유지했다. 비교 도구는 중복 ID·누락 응답·잘못된 합의를 탈락시킨다. 영상의 누락 시 통과 방식은 사업·법률 승인에 적용하지 않는다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "zFujXrPKoGA",
+      "verdict": "adopted",
+      "note": "비교 검사와 회귀 테스트에 적용했다. REA 설치·네이티브 앱 복원은 수행하지 않았다. 이미 등록된 REA 2편의 작업을 중복하지 않는다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "OMkUQyG1AFE",
+      "verdict": "adopted",
+      "note": "팀 공통 작업 지침과 재사용 템플릿을 제공했다. Gemini 계정 기능은 확인하지 않았으며 기존 Gems를 삭제하거나 이전하지 않았다. 검색순위·전환율 보장은 채택하지 않는다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "OmKmKYtpa_A",
+      "verdict": "adopted",
+      "note": "광고 제작 체크리스트와 비용 기록 템플릿에 반영했다. 키·예산이 없는 외부 API 호출은 하지 않았다. 할인·실패 요청 무료라는 주장은 현재 조건 확인 전 비용 근거로 쓰지 않는다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "9jBZbsvQ014",
+      "verdict": "adopted",
+      "note": "디자인팀 정본 workflow에 브랜드 제약·출처·전후 비교 항목을 추가했다. Mobbin 유료 구독은 필요 조건으로 두지 않았다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "rDLJswILbe4",
+      "verdict": "adopted",
+      "note": "디자인팀 workflow와 참고자료 템플릿에 반영했다. 소개 사이트 16곳의 접근성·요금은 이번 작업에서 전수 검증하지 않았다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "L_EXYLmyFSA",
+      "verdict": "adopted",
+      "note": "디자인팀 workflow의 research→brief→draft→QA 순서로 적용했다. 실제 판매 페이지나 고객 로고는 변경하지 않았다.",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
     }
   ],
-  "updated_at": "2026-09-28T12:19:33.892124+00:00"
+  "updated_at": "2026-10-17T11:55:12.694812+00:00"
 }

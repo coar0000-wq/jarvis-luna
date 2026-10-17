@@ -1,57 +1,127 @@
 {
-  "generated_at": "2026-10-14T09:36:38.408148+00:00",
+  "generated_at": "2026-10-17T11:55:13.467263+00:00",
   "generator": "scripts/build_team_learning.py",
   "rule": "출처에 한정하고 과장 수치를 뺀 자막 검토 지시를 공유한다. 타임스탬프 미제공은 명시하며 실행·성과·사업 승인 증명이 아니다. 영상 목록만 있는 것은 학습이 아니다.",
-  "total_insights": 90,
-  "reviewed_videos": 67,
+  "total_insights": 99,
+  "reviewed_videos": 85,
   "teams_learning": 11,
   "teams_with_videos": 11,
   "teams": {
     "sourcing": {
       "status": "학습 중",
-      "insights": 11,
+      "insights": 13,
       "this_week_action": {
-        "id": "KNW-20261013-03",
-        "tactic": "준비·분석·독립평가 분리와 오독 회귀 검사",
-        "action": "준비 단계가 타깃·권한·정답 기준을 고정하고 분석 단계가 근거와 unknown을 제출한 뒤 독립 평가 단계가 원본 및 예외 케이스를 대조한다. 도구 실행·전체 복제·성과 향상을 검증 없이 완료로 표시하지 않는다.",
+        "id": "VID-20261017-OMkUQyG1AFE",
+        "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
-          "knowledge",
-          "graph",
-          "robotics",
           "sourcing",
           "market",
-          "pricing",
           "listing",
+          "pricing",
+          "legal",
           "design",
-          "channels"
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
-          "timestamp": null,
-          "summary": "소스 통제·역할 분리 실험에서 근거 오독이 구조를 바꾼 사례가 나왔다. 단일 실험의 점수는 JARVIS의 품질 지표가 아니다.",
-          "video_id": "F0p9SX9T6As",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "07:17 실험 설계 / 14:37 채점표 / 17:14 기능 확장",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-03",
           "tactic": "준비·분석·독립평가 분리와 오독 회귀 검사",
@@ -320,114 +390,150 @@
             "summary": "공급·운송·마진 구조 문제를 단순 랜딩페이지와 전환율 상승으로 해결하려는 접근을 경계하고 운영·재무 병목을 먼저 다룸",
             "video_id": "JbPNU3vFD6o"
           }
-        },
-        {
-          "id": "MKT-018",
-          "tactic": "리뷰에서 좁은 미충족 고객군을 찾기",
-          "action": "자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다.",
-          "confidence": "medium",
-          "kpis": [
-            "validated_pain_point_share",
-            "message_test_ctr",
-            "segment_landing_cvr"
-          ],
-          "prerequisites": [
-            "합법적으로 수집한 리뷰",
-            "사람의 테마 검토",
-            "고객 검증"
-          ],
-          "teams": [
-            "market",
-            "sourcing",
-            "listing"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-            "timestamp": "07:53-09:30",
-            "summary": "큰 시장 안에서 기존 상품이 만족시키지 못한 좁은 집단을 리뷰로 탐색",
-            "video_id": "u36eK74YKv0"
-          }
-        },
-        {
-          "id": "MKT-037",
-          "tactic": "고객 요청 기반 연관 상품 큐레이션",
-          "action": "고객이 반복 요청하는 연관 상품을 후보로 만들고 실제 사용·품질·마진 검증을 통과한 항목만 루틴 세트와 교차판매 후보에 포함한다.",
-          "confidence": "medium",
-          "kpis": [
-            "validated_adjacent_sku_count",
-            "cross_sell_attach_rate",
-            "bundle_margin",
-            "quality_rejection_rate"
-          ],
-          "prerequisites": [
-            "고객 요청 로그",
-            "샘플 사용 검증",
-            "공급·마진 검토",
-            "브랜드 적합성 기준"
-          ],
-          "teams": [
-            "sourcing",
-            "pricing",
-            "market",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=_NHlOc919zs",
-            "timestamp": "04:02-05:32",
-            "summary": "고객 요청에서 인접 상품 기회를 찾되 브랜드가 직접 사용할 품질 기준을 통과한 제품만 확장",
-            "video_id": "_NHlOc919zs"
-          }
         }
       ],
-      "videos_available": 9,
+      "videos_available": 11,
       "review_pending": [],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "institutions": {
       "status": "학습 중",
-      "insights": 2,
+      "insights": 5,
       "this_week_action": {
-        "id": "KNW-20261013-01",
-        "tactic": "멀티모달 근거 검색과 매체별 평가",
-        "action": "텍스트·사진·영상·오디오를 매체별로 구분하여 출처 경로·원문 링크·파일 해시·구간을 보존하고 Top-5 회수율과 지연을 자사 정답셋으로 비교한다. 임베딩 검색 결과를 검증된 사실이나 옵시디언 확정 관계로 바로 승격하지 않는다.",
+        "id": "VID-20261017-Eu4D795nMsQ",
+        "tactic": "조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "action": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
           "knowledge",
-          "graph",
-          "robotics",
           "institutions",
-          "design"
+          "robotics",
+          "graph"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
-          "timestamp": null,
-          "summary": "멀티모달 검색 지원과 개인 Mac 데모이며 Windows/Linux 배포나 JARVIS 성능을 입증하지 않는다.",
-          "video_id": "-APXgRtYIAw",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+          "timestamp": "14:09-16:04",
+          "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+          "video_id": "Eu4D795nMsQ",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "전체 쇼츠",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-Eu4D795nMsQ",
+          "tactic": "조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+          "action": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+            "timestamp": "14:09-16:04",
+            "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+            "video_id": "Eu4D795nMsQ",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-01",
           "tactic": "멀티모달 근거 검색과 매체별 평가",
@@ -490,7 +596,7 @@
           }
         }
       ],
-      "videos_available": 91,
+      "videos_available": 94,
       "review_pending": [
         {
           "title": "Using AI to outsmart drug-resistant bacteria",
@@ -501,53 +607,237 @@
           "url": "https://www.youtube.com/watch?v=wd5ZZV8if54"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "market": {
       "status": "학습 중",
-      "insights": 75,
+      "insights": 81,
       "this_week_action": {
-        "id": "KNW-20261013-03",
-        "tactic": "준비·분석·독립평가 분리와 오독 회귀 검사",
-        "action": "준비 단계가 타깃·권한·정답 기준을 고정하고 분석 단계가 근거와 unknown을 제출한 뒤 독립 평가 단계가 원본 및 예외 케이스를 대조한다. 도구 실행·전체 복제·성과 향상을 검증 없이 완료로 표시하지 않는다.",
+        "id": "VID-20261017-9jBZbsvQ014",
+        "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
-          "knowledge",
-          "graph",
-          "robotics",
-          "sourcing",
-          "market",
-          "pricing",
-          "listing",
           "design",
-          "channels"
+          "listing",
+          "market",
+          "legal"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
-          "timestamp": null,
-          "summary": "소스 통제·역할 분리 실험에서 근거 오독이 구조를 바꾼 사례가 나왔다. 단일 실험의 점수는 JARVIS의 품질 지표가 아니다.",
-          "video_id": "F0p9SX9T6As",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "07:17 실험 설계 / 14:37 채점표 / 17:14 기능 확장",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-9jBZbsvQ014",
+          "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+          "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+            "timestamp": "02:36-04:03",
+            "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+            "video_id": "9jBZbsvQ014",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-L_EXYLmyFSA",
+          "tactic": "필요 · 리서치 후 제작 적용 — I Gave GPT-6 Astra 600,000 Real Design References",
+          "action": "디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+            "timestamp": "06:33-08:28",
+            "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+            "video_id": "L_EXYLmyFSA",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OmKmKYtpa_A",
+          "tactic": "제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+          "action": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "channels"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+            "timestamp": "07:54-10:39",
+            "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+            "video_id": "OmKmKYtpa_A",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-rDLJswILbe4",
+          "tactic": "필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+          "action": "참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+            "timestamp": "03:41-03:58",
+            "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+            "video_id": "rDLJswILbe4",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-03",
           "tactic": "준비·분석·독립평가 분리와 오독 회귀 검사",
@@ -668,188 +958,9 @@
             "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계",
             "video_id": "2Azr4Cihay4"
           }
-        },
-        {
-          "id": "MKT-002",
-          "tactic": "피부 고민·루틴 중심 탐색 구조",
-          "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
-          "confidence": "high",
-          "kpis": [
-            "product_view_rate",
-            "site_search_usage",
-            "search_to_purchase_rate"
-          ],
-          "prerequisites": [
-            "피부 고민 태그",
-            "제형·루틴 메타필드",
-            "사이트 검색 추적"
-          ],
-          "teams": [
-            "listing",
-            "design",
-            "market"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "04:16-06:16",
-            "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화",
-            "video_id": "2Azr4Cihay4"
-          }
-        },
-        {
-          "id": "MKT-004",
-          "tactic": "제품명·설명·FAQ를 구매 질문형 SEO로 작성",
-          "action": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다.",
-          "confidence": "high",
-          "kpis": [
-            "organic_pdp_sessions",
-            "non_brand_impressions",
-            "pdp_conversion_rate"
-          ],
-          "prerequisites": [
-            "고시·라벨 데이터",
-            "사용법",
-            "피부타입",
-            "법률 승인 문구"
-          ],
-          "teams": [
-            "listing",
-            "market",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "02:56-03:40",
-            "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-005",
-          "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
-          "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
-          "confidence": "high",
-          "kpis": [
-            "shortform_link_ctr",
-            "organic_video_sessions",
-            "assisted_orders"
-          ],
-          "prerequisites": [
-            "UGC 제작 권한",
-            "영문 자막",
-            "추적 링크",
-            "콘텐츠 캘린더"
-          ],
-          "teams": [
-            "market",
-            "design",
-            "listing"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "06:46-08:14",
-            "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-006",
-          "tactic": "14일 신규 구독자 웰컴 플로우",
-          "action": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다.",
-          "confidence": "high",
-          "kpis": [
-            "welcome_flow_revenue",
-            "first_purchase_rate",
-            "unsubscribe_rate"
-          ],
-          "prerequisites": [
-            "수신 동의",
-            "세분화 가능한 이메일 도구",
-            "실제 리뷰",
-            "피부 고민 태그"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "08:16-09:33",
-            "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-007",
-          "tactic": "Shopify와 Meta CAPI 전환 신호 검증",
-          "action": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다.",
-          "confidence": "high",
-          "kpis": [
-            "event_match_quality",
-            "purchase_event_gap",
-            "attributed_revenue_gap"
-          ],
-          "prerequisites": [
-            "Shopify 스토어",
-            "Meta Business 계정",
-            "쿠키·개인정보 동의",
-            "테스트 주문"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "14:27-15:46",
-            "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-008",
-          "tactic": "번들·사은품 임계값 AOV 테스트",
-          "action": "구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다.",
-          "confidence": "high",
-          "kpis": [
-            "average_order_value",
-            "bundle_take_rate",
-            "contribution_margin_per_order"
-          ],
-          "prerequisites": [
-            "마진 계산",
-            "배송원가",
-            "구성품 재고",
-            "기간 비교 또는 A/B 설계"
-          ],
-          "teams": [
-            "pricing",
-            "market",
-            "listing"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "11:19-12:25",
-            "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임",
-            "video_id": "2Azr4Cihay4"
-          }
         }
       ],
-      "videos_available": 107,
+      "videos_available": 113,
       "review_pending": [
         {
           "title": "ChatGPT Work + Dot: Build your AI Marketing Team (Agents + Skills)",
@@ -860,49 +971,237 @@
           "url": "https://www.youtube.com/watch?v=m_RWLfHCA2I"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "listing": {
       "status": "학습 중",
-      "insights": 57,
+      "insights": 63,
       "this_week_action": {
-        "id": "KNW-20261013-02",
-        "tactic": "Evidence와 Unknown을 분리한 기능 분석",
-        "action": "JARVIS 자사 코드의 기능 변경을 검토할 때 출처·근거·추정·unknown을 따로 기록한다. 확인되지 않은 설명·제목·넓은 bucket 대신 검증된 데이터 매핑을 사용하고 원본 기능을 회귀 테스트와 대조한다.",
+        "id": "VID-20261017-9jBZbsvQ014",
+        "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
-          "knowledge",
-          "graph",
           "design",
           "listing",
-          "channels"
+          "market",
+          "legal"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=tByhXkxDKDo",
-          "timestamp": null,
-          "summary": "REA는 기존 분석 도구를 에이전트에 연결한다. 그림판 데모가 모든 앱의 완벽한 복제나 재배포 권리를 입증하지 않는다.",
-          "video_id": "tByhXkxDKDo",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "01:22 구조 / 03:32 기존 MCP와 차이 / 09:29 용도",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-9jBZbsvQ014",
+          "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+          "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+            "timestamp": "02:36-04:03",
+            "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+            "video_id": "9jBZbsvQ014",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-L_EXYLmyFSA",
+          "tactic": "필요 · 리서치 후 제작 적용 — I Gave GPT-6 Astra 600,000 Real Design References",
+          "action": "디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+            "timestamp": "06:33-08:28",
+            "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+            "video_id": "L_EXYLmyFSA",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OmKmKYtpa_A",
+          "tactic": "제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+          "action": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "channels"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+            "timestamp": "07:54-10:39",
+            "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+            "video_id": "OmKmKYtpa_A",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-rDLJswILbe4",
+          "tactic": "필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+          "action": "참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+            "timestamp": "03:41-03:58",
+            "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+            "video_id": "rDLJswILbe4",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-02",
           "tactic": "Evidence와 Unknown을 분리한 기능 분석",
@@ -1042,183 +1341,9 @@
             "summary": "경쟁사 레이아웃 캡처 후 AI 프롬프트로 브랜드 스타일과 목업 이미지를 적용하여 Shopify 상품 리스팅을 자동 생성하는 가이드.",
             "video_id": "dPPd65Kvh7Y"
           }
-        },
-        {
-          "id": "LST-20260928-02",
-          "tactic": "하중지지(Load-bearing) SEO 보존 리브랜딩",
-          "action": "Claude Shopify 커넥터로 검색 유입을 견인하는 하중지지 키워드를 식별하여 보호하고, 복제 테마(Duplicate Theme)에서 상품 카피 수정 및 301 리다이렉트 맵을 구축한다.",
-          "confidence": "high",
-          "kpis": [
-            "유기적 검색 유입(SEO Traffic) 유지율",
-            "404 오류 발생 건수"
-          ],
-          "prerequisites": [
-            "Shopify 스토어 및 Claude 커넥터 연동",
-            "Google Search Console 권한"
-          ],
-          "teams": [
-            "listing"
-          ],
-          "reviewed_at": "2026-09-28",
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=gugo50_VbjE",
-            "timestamp": "01:40-03:10",
-            "summary": "Shopify 스토어 수정 시 SEO를 견인하는 하중지지 키워드와 URL을 보존하고 복제 테마에서 안전하게 리스팅을 수정하는 프로세스.",
-            "video_id": "gugo50_VbjE"
-          }
-        },
-        {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
-          "confidence": "high",
-          "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
-          ],
-          "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "design",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계",
-            "video_id": "2Azr4Cihay4"
-          }
-        },
-        {
-          "id": "MKT-002",
-          "tactic": "피부 고민·루틴 중심 탐색 구조",
-          "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
-          "confidence": "high",
-          "kpis": [
-            "product_view_rate",
-            "site_search_usage",
-            "search_to_purchase_rate"
-          ],
-          "prerequisites": [
-            "피부 고민 태그",
-            "제형·루틴 메타필드",
-            "사이트 검색 추적"
-          ],
-          "teams": [
-            "listing",
-            "design",
-            "market"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "04:16-06:16",
-            "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화",
-            "video_id": "2Azr4Cihay4"
-          }
-        },
-        {
-          "id": "MKT-003",
-          "tactic": "PDP 이미지 캐러셀을 판매 스토리로 구성",
-          "action": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다.",
-          "confidence": "high",
-          "kpis": [
-            "pdp_add_to_cart_rate",
-            "image_interaction_rate",
-            "pdp_exit_rate"
-          ],
-          "prerequisites": [
-            "고해상도 제품컷",
-            "사용 허가된 UGC",
-            "검증된 성분·사용법"
-          ],
-          "teams": [
-            "design",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "12:46-14:25",
-            "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름",
-            "video_id": "2Azr4Cihay4"
-          }
-        },
-        {
-          "id": "MKT-004",
-          "tactic": "제품명·설명·FAQ를 구매 질문형 SEO로 작성",
-          "action": "제품명에 검증된 성분·제형·사용 맥락을 넣고 중복 없는 설명과 FAQ로 실제 구매 질문에 답한다.",
-          "confidence": "high",
-          "kpis": [
-            "organic_pdp_sessions",
-            "non_brand_impressions",
-            "pdp_conversion_rate"
-          ],
-          "prerequisites": [
-            "고시·라벨 데이터",
-            "사용법",
-            "피부타입",
-            "법률 승인 문구"
-          ],
-          "teams": [
-            "listing",
-            "market",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "02:56-03:40",
-            "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-005",
-          "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
-          "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
-          "confidence": "high",
-          "kpis": [
-            "shortform_link_ctr",
-            "organic_video_sessions",
-            "assisted_orders"
-          ],
-          "prerequisites": [
-            "UGC 제작 권한",
-            "영문 자막",
-            "추적 링크",
-            "콘텐츠 캘린더"
-          ],
-          "teams": [
-            "market",
-            "design",
-            "listing"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "06:46-08:14",
-            "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용",
-            "video_id": "yBAlSKfI9F8"
-          }
         }
       ],
-      "videos_available": 63,
+      "videos_available": 69,
       "review_pending": [
         {
           "title": "상품 사진 한 장으로 광고·상세페이지·웹사이트까지 만들었습니다｜Genspark Design",
@@ -1229,53 +1354,176 @@
           "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "pricing": {
       "status": "학습 중",
-      "insights": 27,
+      "insights": 31,
       "this_week_action": {
-        "id": "KNW-20261013-03",
-        "tactic": "준비·분석·독립평가 분리와 오독 회귀 검사",
-        "action": "준비 단계가 타깃·권한·정답 기준을 고정하고 분석 단계가 근거와 unknown을 제출한 뒤 독립 평가 단계가 원본 및 예외 케이스를 대조한다. 도구 실행·전체 복제·성과 향상을 검증 없이 완료로 표시하지 않는다.",
+        "id": "VID-20261017-D_ZfQzPEjOw",
+        "tactic": "조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "action": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
           "knowledge",
-          "graph",
           "robotics",
-          "sourcing",
-          "market",
-          "pricing",
-          "listing",
-          "design",
-          "channels"
+          "pricing"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
-          "timestamp": null,
-          "summary": "소스 통제·역할 분리 실험에서 근거 오독이 구조를 바꾼 사례가 나왔다. 단일 실험의 점수는 JARVIS의 품질 지표가 아니다.",
-          "video_id": "F0p9SX9T6As",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+          "timestamp": "05:14-06:47",
+          "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+          "video_id": "D_ZfQzPEjOw",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "07:17 실험 설계 / 14:37 채점표 / 17:14 기능 확장",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-D_ZfQzPEjOw",
+          "tactic": "조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+          "action": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "robotics",
+            "pricing"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+            "timestamp": "05:14-06:47",
+            "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+            "video_id": "D_ZfQzPEjOw",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OmKmKYtpa_A",
+          "tactic": "제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+          "action": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "channels"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+            "timestamp": "07:54-10:39",
+            "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+            "video_id": "OmKmKYtpa_A",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-03",
           "tactic": "준비·분석·독립평가 분리와 오독 회귀 검사",
@@ -1457,126 +1705,9 @@
             "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음",
             "video_id": "6cVSU2C06Zw"
           }
-        },
-        {
-          "id": "MKT-014",
-          "tactic": "good-better-best 세트 구조",
-          "action": "스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다.",
-          "confidence": "high",
-          "kpis": [
-            "top_tier_selection_rate",
-            "average_order_value",
-            "refund_rate"
-          ],
-          "prerequisites": [
-            "세트별 손익",
-            "정확한 기준가격",
-            "사은품 재고"
-          ],
-          "teams": [
-            "pricing",
-            "market",
-            "listing"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-            "timestamp": "07:42-09:02",
-            "summary": "고객의 지출 의향에 맞춘 단계형 오퍼",
-            "video_id": "6cVSU2C06Zw"
-          }
-        },
-        {
-          "id": "MKT-015",
-          "tactic": "카트 드로어 보완 상품 업셀",
-          "action": "장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다.",
-          "confidence": "high",
-          "kpis": [
-            "upsell_attach_rate",
-            "cart_aov",
-            "checkout_conversion_rate"
-          ],
-          "prerequisites": [
-            "상품 페어링 규칙",
-            "재고 연동",
-            "카트 UI"
-          ],
-          "teams": [
-            "listing",
-            "pricing",
-            "market"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-            "timestamp": "09:02-11:15",
-            "summary": "구매 직전 관련 상품을 제한적으로 제안",
-            "video_id": "6cVSU2C06Zw"
-          }
-        },
-        {
-          "id": "MKT-021",
-          "tactic": "할인 중첩·누수 정기 감사",
-          "action": "활성 할인마다 중첩 허용, 사용기한, 사용횟수, 유입 파트너, 주문 기여이익을 기록하고 적자 조합과 방치 코드를 비활성화한다.",
-          "confidence": "high",
-          "kpis": [
-            "discount_cost_rate",
-            "stacked_discount_orders",
-            "negative_margin_order_rate"
-          ],
-          "prerequisites": [
-            "할인 코드 목록",
-            "주문별 할인액",
-            "원가·배송비",
-            "파트너 코드 소유자"
-          ],
-          "teams": [
-            "pricing",
-            "market"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
-            "timestamp": "04:18-11:00",
-            "summary": "할인 중첩 설정과 만료 없는 코드가 마진 누수로 이어지므로 할인도 광고비처럼 비용 항목으로 감사",
-            "video_id": "UcG2v8i6Y2E"
-          }
-        },
-        {
-          "id": "MKT-022",
-          "tactic": "기여이익 기반 무료배송 대 할인 비교",
-          "action": "상품군별 배송원가와 장바구니 금액을 넣어 무료배송, 정액 할인, 퍼센트 할인 시나리오의 주문 기여이익을 비교한 뒤 손실이 가장 낮은 오퍼만 테스트한다.",
-          "confidence": "high",
-          "kpis": [
-            "contribution_margin_per_order",
-            "shipping_incentive_cost",
-            "offer_take_rate"
-          ],
-          "prerequisites": [
-            "상품 원가",
-            "실배송비",
-            "결제 수수료",
-            "현재 AOV"
-          ],
-          "teams": [
-            "pricing",
-            "market",
-            "sourcing"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=UcG2v8i6Y2E",
-            "timestamp": "13:22-16:34",
-            "summary": "무료배송과 퍼센트 할인 중 무엇이 유리한지는 주문별 배송비·할인액·기여이익 계산으로 결정",
-            "video_id": "UcG2v8i6Y2E"
-          }
         }
       ],
-      "videos_available": 48,
+      "videos_available": 52,
       "review_pending": [
         {
           "title": "🚨견적서가 너무 어려운 사장님들 주목! | 견적 책정 기준부터 세부 항목까지 자세하게 뜯어보기 👀",
@@ -1587,48 +1718,208 @@
           "url": "https://www.youtube.com/watch?v=7VeooS_ZSN8"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "legal": {
       "status": "학습 중",
-      "insights": 47,
+      "insights": 52,
       "this_week_action": {
-        "id": "LEG-20261013-01",
-        "tactic": "분석 권한과 제품 안전성 근거 분리",
-        "action": "REA 타깃의 소유·분석 허가·라이선스를 먼저 확인한다. 콘텐츠 문구 점검, 사업주 승인, 실제 상품 안전성·라벨 증빙은 다른 항목으로 기록하고 한 항목의 승인으로 나머지를 통과시키지 않는다.",
+        "id": "VID-20261017-9jBZbsvQ014",
+        "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
-          "legal",
+          "design",
           "listing",
-          "sourcing",
-          "knowledge"
+          "market",
+          "legal"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
-          "timestamp": null,
-          "summary": "역공학 권한과 소프트웨어 라이선스는 실제 대상별 검토가 필요하며 제품 안전성 증빙을 대신하지 않는다.",
-          "video_id": "F0p9SX9T6As",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "21:37 저작권과 약관",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-9jBZbsvQ014",
+          "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+          "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+            "timestamp": "02:36-04:03",
+            "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+            "video_id": "9jBZbsvQ014",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OmKmKYtpa_A",
+          "tactic": "제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+          "action": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "channels"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+            "timestamp": "07:54-10:39",
+            "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+            "video_id": "OmKmKYtpa_A",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-zFujXrPKoGA",
+          "tactic": "필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+          "action": "기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "graph",
+            "robotics",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+            "timestamp": "06:32-07:51",
+            "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+            "video_id": "zFujXrPKoGA",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "LEG-20261013-01",
           "tactic": "분석 권한과 제품 안전성 근거 분리",
@@ -1779,160 +2070,9 @@
             "summary": "구체적인 제품명과 고유 설명이 검색과 구매 이해를 돕는다",
             "video_id": "yBAlSKfI9F8"
           }
-        },
-        {
-          "id": "MKT-006",
-          "tactic": "14일 신규 구독자 웰컴 플로우",
-          "action": "인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다.",
-          "confidence": "high",
-          "kpis": [
-            "welcome_flow_revenue",
-            "first_purchase_rate",
-            "unsubscribe_rate"
-          ],
-          "prerequisites": [
-            "수신 동의",
-            "세분화 가능한 이메일 도구",
-            "실제 리뷰",
-            "피부 고민 태그"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "08:16-09:33",
-            "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-007",
-          "tactic": "Shopify와 Meta CAPI 전환 신호 검증",
-          "action": "스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다.",
-          "confidence": "high",
-          "kpis": [
-            "event_match_quality",
-            "purchase_event_gap",
-            "attributed_revenue_gap"
-          ],
-          "prerequisites": [
-            "Shopify 스토어",
-            "Meta Business 계정",
-            "쿠키·개인정보 동의",
-            "테스트 주문"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "14:27-15:46",
-            "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-013",
-          "tactic": "고객 결과 중심 루틴 번들",
-          "action": "무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다.",
-          "confidence": "high",
-          "kpis": [
-            "bundle_attach_rate",
-            "bundle_aov",
-            "bundle_margin",
-            "repeat_rate"
-          ],
-          "prerequisites": [
-            "제형 호환성",
-            "사용 순서",
-            "번들 재고",
-            "법률 검토"
-          ],
-          "teams": [
-            "sourcing",
-            "pricing",
-            "listing",
-            "market",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-            "timestamp": "04:40-07:33",
-            "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음",
-            "video_id": "6cVSU2C06Zw"
-          }
-        },
-        {
-          "id": "MKT-016",
-          "tactic": "질문형 FAQ와 히어로 SKU 토픽 클러스터",
-          "action": "피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다.",
-          "confidence": "high",
-          "kpis": [
-            "question_query_clicks",
-            "cluster_to_pdp_ctr",
-            "organic_assisted_revenue"
-          ],
-          "prerequisites": [
-            "고객 질문 기록",
-            "검증된 제품 문서",
-            "내부 링크 설계"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-            "timestamp": "05:53-13:24",
-            "summary": "질문 FAQ와 성분·사용 사례·가이드의 내부 링크 구조로 주제 권위 형성",
-            "video_id": "UBSveo_tao8"
-          }
-        },
-        {
-          "id": "MKT-017",
-          "tactic": "검증 구매 리뷰를 전환 자산으로 사용",
-          "action": "구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다.",
-          "confidence": "high",
-          "kpis": [
-            "review_capture_rate",
-            "reviews_per_sku",
-            "review_led_conversion_rate"
-          ],
-          "prerequisites": [
-            "구매자 리뷰 플로우",
-            "검증 구매 표시",
-            "UGC 재사용 동의"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-            "timestamp": "13:34-15:03",
-            "summary": "리뷰 수와 평점을 눈에 띄게 보여주고 실제 구매 증거를 콘텐츠에 활용",
-            "video_id": "UBSveo_tao8"
-          }
         }
       ],
-      "videos_available": 48,
+      "videos_available": 53,
       "review_pending": [
         {
           "title": "Navigating the FDA Bayesian Draft Guidance: Design, Analysis, and Review Considerations",
@@ -1943,49 +2083,204 @@
           "url": "https://www.youtube.com/watch?v=n6oboWBI_Ec"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "robotics": {
       "status": "학습 중",
-      "insights": 2,
+      "insights": 7,
       "this_week_action": {
-        "id": "KNW-20261013-01",
-        "tactic": "멀티모달 근거 검색과 매체별 평가",
-        "action": "텍스트·사진·영상·오디오를 매체별로 구분하여 출처 경로·원문 링크·파일 해시·구간을 보존하고 Top-5 회수율과 지연을 자사 정답셋으로 비교한다. 임베딩 검색 결과를 검증된 사실이나 옵시디언 확정 관계로 바로 승격하지 않는다.",
+        "id": "VID-20261017-D_ZfQzPEjOw",
+        "tactic": "조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "action": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
           "knowledge",
-          "graph",
           "robotics",
-          "institutions",
-          "design"
+          "pricing"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
-          "timestamp": null,
-          "summary": "멀티모달 검색 지원과 개인 Mac 데모이며 Windows/Linux 배포나 JARVIS 성능을 입증하지 않는다.",
-          "video_id": "-APXgRtYIAw",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+          "timestamp": "05:14-06:47",
+          "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+          "video_id": "D_ZfQzPEjOw",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "전체 쇼츠",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-D_ZfQzPEjOw",
+          "tactic": "조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+          "action": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "robotics",
+            "pricing"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+            "timestamp": "05:14-06:47",
+            "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+            "video_id": "D_ZfQzPEjOw",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-Eu4D795nMsQ",
+          "tactic": "조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+          "action": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+            "timestamp": "14:09-16:04",
+            "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+            "video_id": "Eu4D795nMsQ",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-zFujXrPKoGA",
+          "tactic": "필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+          "action": "기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "graph",
+            "robotics",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+            "timestamp": "06:32-07:51",
+            "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+            "video_id": "zFujXrPKoGA",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-01",
           "tactic": "멀티모달 근거 검색과 매체별 평가",
@@ -2065,7 +2360,7 @@
           }
         }
       ],
-      "videos_available": 62,
+      "videos_available": 67,
       "review_pending": [
         {
           "title": "Unitree Unveils: GD01, A Manned Transformable Mecha, from $650,000",
@@ -2076,49 +2371,237 @@
           "url": "https://www.youtube.com/watch?v=srPz8TRpZ_8"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "design": {
       "status": "학습 중",
-      "insights": 27,
+      "insights": 33,
       "this_week_action": {
-        "id": "KNW-20261013-01",
-        "tactic": "멀티모달 근거 검색과 매체별 평가",
-        "action": "텍스트·사진·영상·오디오를 매체별로 구분하여 출처 경로·원문 링크·파일 해시·구간을 보존하고 Top-5 회수율과 지연을 자사 정답셋으로 비교한다. 임베딩 검색 결과를 검증된 사실이나 옵시디언 확정 관계로 바로 승격하지 않는다.",
+        "id": "VID-20261017-9jBZbsvQ014",
+        "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
-          "knowledge",
-          "graph",
-          "robotics",
-          "institutions",
-          "design"
+          "design",
+          "listing",
+          "market",
+          "legal"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
-          "timestamp": null,
-          "summary": "멀티모달 검색 지원과 개인 Mac 데모이며 Windows/Linux 배포나 JARVIS 성능을 입증하지 않는다.",
-          "video_id": "-APXgRtYIAw",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "전체 쇼츠",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-9jBZbsvQ014",
+          "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+          "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+            "timestamp": "02:36-04:03",
+            "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+            "video_id": "9jBZbsvQ014",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-L_EXYLmyFSA",
+          "tactic": "필요 · 리서치 후 제작 적용 — I Gave GPT-6 Astra 600,000 Real Design References",
+          "action": "디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+            "timestamp": "06:33-08:28",
+            "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+            "video_id": "L_EXYLmyFSA",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OmKmKYtpa_A",
+          "tactic": "제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+          "action": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "channels"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+            "timestamp": "07:54-10:39",
+            "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+            "video_id": "OmKmKYtpa_A",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-rDLJswILbe4",
+          "tactic": "필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+          "action": "참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+            "timestamp": "03:41-03:58",
+            "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+            "video_id": "rDLJswILbe4",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-01",
           "tactic": "멀티모달 근거 검색과 매체별 평가",
@@ -2259,185 +2742,9 @@
             "summary": "스크롤 동작과 인터페이스 모션을 동기화하고 로컬 스크린샷 검증 패스를 거쳐 몰입감 높은 랜딩페이지를 제작하는 프로세스.",
             "video_id": "QUI6Ug4cHnE"
           }
-        },
-        {
-          "id": "DSN-20260928-02",
-          "tactic": "Claude Design 및 PRD 기반 디자인 시스템 구축",
-          "action": "Figma UI Kit 및 스타일 레퍼런스를 Claude Design에 학습시켜 디자인 시스템을 구축하고, PRD 문서를 기반으로 모바일 UI 화면을 자동 생성한다.",
-          "confidence": "high",
-          "kpis": [
-            "UI 시안 제작 시간 단축률",
-            "디자인 컴포넌트 재사용률"
-          ],
-          "prerequisites": [
-            "제품 요구사항 정의서(PRD) 작성",
-            "피그마 UI 키트 확보"
-          ],
-          "teams": [
-            "design"
-          ],
-          "reviewed_at": "2026-09-28",
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=9RUcYdww138",
-            "timestamp": "02:20-04:10",
-            "summary": "기존 UI 키트와 레퍼런스를 Claude Design에 업로드하여 시스템을 구축하고 PRD 기반으로 모바일 UI를 즉시 생성하는 프로세스.",
-            "video_id": "9RUcYdww138"
-          }
-        },
-        {
-          "id": "MKT-001",
-          "tactic": "광고·고객 고민별 콜드 트래픽 전용 랜딩페이지",
-          "action": "광고 훅과 피부 고민마다 별도 랜딩페이지를 만들고 가치제안, 실제 리뷰, FAQ, 배송·반품 정보를 한 흐름에 배치한다.",
-          "confidence": "high",
-          "kpis": [
-            "landing_conversion_rate",
-            "cost_per_acquisition",
-            "bounce_rate"
-          ],
-          "prerequisites": [
-            "UTM 규칙",
-            "실제 고객 후기",
-            "배송·반품 정책",
-            "법률 검토된 효능 문구"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "design",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "00:29-03:16",
-            "summary": "일반 PDP 대신 광고와 메시지가 일치하는 전용 랜딩페이지를 판매원처럼 설계",
-            "video_id": "2Azr4Cihay4"
-          }
-        },
-        {
-          "id": "MKT-002",
-          "tactic": "피부 고민·루틴 중심 탐색 구조",
-          "action": "메뉴와 컬렉션을 제품명보다 피부 고민, 제형, 루틴 단계 중심으로 구성하고 검색창을 전면에 둔다.",
-          "confidence": "high",
-          "kpis": [
-            "product_view_rate",
-            "site_search_usage",
-            "search_to_purchase_rate"
-          ],
-          "prerequisites": [
-            "피부 고민 태그",
-            "제형·루틴 메타필드",
-            "사이트 검색 추적"
-          ],
-          "teams": [
-            "listing",
-            "design",
-            "market"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "04:16-06:16",
-            "summary": "상품 발견 경로를 단순화하고 검색과 컬렉션 카드를 강화",
-            "video_id": "2Azr4Cihay4"
-          }
-        },
-        {
-          "id": "MKT-003",
-          "tactic": "PDP 이미지 캐러셀을 판매 스토리로 구성",
-          "action": "제품컷, 피부 고민 맥락, 제형·사용법, 성분 근거, 후기, 사용 장면, 배송·반품 순으로 이미지 세트를 만든다.",
-          "confidence": "high",
-          "kpis": [
-            "pdp_add_to_cart_rate",
-            "image_interaction_rate",
-            "pdp_exit_rate"
-          ],
-          "prerequisites": [
-            "고해상도 제품컷",
-            "사용 허가된 UGC",
-            "검증된 성분·사용법"
-          ],
-          "teams": [
-            "design",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-            "timestamp": "12:46-14:25",
-            "summary": "각도만 다른 이미지 대신 구매 질문에 순서대로 답하는 이미지 흐름",
-            "video_id": "2Azr4Cihay4"
-          }
-        },
-        {
-          "id": "MKT-005",
-          "tactic": "검색형 숏폼을 TikTok·Reels·Shorts에 교차 게시",
-          "action": "사용 장면, 세 가지 사용법, 루틴 순서, 포장 비하인드 영상을 만들고 채널별 제목·자막을 현지화한다.",
-          "confidence": "high",
-          "kpis": [
-            "shortform_link_ctr",
-            "organic_video_sessions",
-            "assisted_orders"
-          ],
-          "prerequisites": [
-            "UGC 제작 권한",
-            "영문 자막",
-            "추적 링크",
-            "콘텐츠 캘린더"
-          ],
-          "teams": [
-            "market",
-            "design",
-            "listing"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-            "timestamp": "06:46-08:14",
-            "summary": "검색되는 짧은 제품 콘텐츠를 여러 숏폼 채널에 재활용",
-            "video_id": "yBAlSKfI9F8"
-          }
-        },
-        {
-          "id": "MKT-020",
-          "tactic": "훅·형식·증거별 크리에이티브 테스트 체계",
-          "action": "UGC 데모, 텍스처, 루틴 교육, 리뷰, 성분 근거를 서로 다른 훅과 형식으로 제작하고 패자를 중단해 승자의 후속 버전을 만든다.",
-          "confidence": "high",
-          "kpis": [
-            "creative_ctr",
-            "cost_per_acquisition",
-            "mer",
-            "concept_win_rate"
-          ],
-          "prerequisites": [
-            "전환 추적",
-            "테스트 예산 승인",
-            "크리에이티브 분류표",
-            "사람의 사실 검수"
-          ],
-          "teams": [
-            "market",
-            "design",
-            "listing",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-            "timestamp": "15:00-17:47",
-            "summary": "규칙적인 변형 제작과 승자 확장 중심의 광고 크리에이티브 운영",
-            "video_id": "u36eK74YKv0"
-          }
         }
       ],
-      "videos_available": 82,
+      "videos_available": 88,
       "review_pending": [
         {
           "title": "Claude Opus 5.5 Built a 3D Warehouse App That Looks Like a Game",
@@ -2448,49 +2755,155 @@
           "url": "https://www.youtube.com/watch?v=SihnYUTfxR8"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "channels": {
       "status": "학습 중",
-      "insights": 4,
+      "insights": 7,
       "this_week_action": {
-        "id": "KNW-20261013-02",
-        "tactic": "Evidence와 Unknown을 분리한 기능 분석",
-        "action": "JARVIS 자사 코드의 기능 변경을 검토할 때 출처·근거·추정·unknown을 따로 기록한다. 확인되지 않은 설명·제목·넓은 bucket 대신 검증된 데이터 매핑을 사용하고 원본 기능을 회귀 테스트와 대조한다.",
+        "id": "VID-20261017-OMkUQyG1AFE",
+        "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
-          "knowledge",
-          "graph",
-          "design",
+          "sourcing",
+          "market",
           "listing",
-          "channels"
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=tByhXkxDKDo",
-          "timestamp": null,
-          "summary": "REA는 기존 분석 도구를 에이전트에 연결한다. 그림판 데모가 모든 앱의 완벽한 복제나 재배포 권리를 입증하지 않는다.",
-          "video_id": "tByhXkxDKDo",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "01:22 구조 / 03:32 기존 MCP와 차이 / 09:29 용도",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OmKmKYtpa_A",
+          "tactic": "제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+          "action": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "channels"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+            "timestamp": "07:54-10:39",
+            "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+            "video_id": "OmKmKYtpa_A",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-02",
           "tactic": "Evidence와 Unknown을 분리한 기능 분석",
@@ -2621,7 +3034,7 @@
           }
         }
       ],
-      "videos_available": 32,
+      "videos_available": 35,
       "review_pending": [
         {
           "title": "How to Use AI Tools to Optimize Amazon Product Listings in 2026 | Amazon Seller Insights",
@@ -2632,49 +3045,204 @@
           "url": "https://www.youtube.com/watch?v=KDI73nLbYk4"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "knowledge": {
       "status": "학습 중",
-      "insights": 26,
+      "insights": 31,
       "this_week_action": {
-        "id": "KNW-20261013-01",
-        "tactic": "멀티모달 근거 검색과 매체별 평가",
-        "action": "텍스트·사진·영상·오디오를 매체별로 구분하여 출처 경로·원문 링크·파일 해시·구간을 보존하고 Top-5 회수율과 지연을 자사 정답셋으로 비교한다. 임베딩 검색 결과를 검증된 사실이나 옵시디언 확정 관계로 바로 승격하지 않는다.",
+        "id": "VID-20261017-D_ZfQzPEjOw",
+        "tactic": "조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "action": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
           "knowledge",
-          "graph",
           "robotics",
-          "institutions",
-          "design"
+          "pricing"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
-          "timestamp": null,
-          "summary": "멀티모달 검색 지원과 개인 Mac 데모이며 Windows/Linux 배포나 JARVIS 성능을 입증하지 않는다.",
-          "video_id": "-APXgRtYIAw",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+          "timestamp": "05:14-06:47",
+          "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+          "video_id": "D_ZfQzPEjOw",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "전체 쇼츠",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-D_ZfQzPEjOw",
+          "tactic": "조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+          "action": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "robotics",
+            "pricing"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+            "timestamp": "05:14-06:47",
+            "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+            "video_id": "D_ZfQzPEjOw",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-Eu4D795nMsQ",
+          "tactic": "조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+          "action": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+            "timestamp": "14:09-16:04",
+            "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+            "video_id": "Eu4D795nMsQ",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-zFujXrPKoGA",
+          "tactic": "필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+          "action": "기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "graph",
+            "robotics",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+            "timestamp": "06:32-07:51",
+            "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+            "video_id": "zFujXrPKoGA",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-01",
           "tactic": "멀티모달 근거 검색과 매체별 평가",
@@ -2849,168 +3417,9 @@
             "summary": "상위 범주화, 패러프레이징, 위계적 재구성을 통해 방대한 정보를 건축물 구조로 요약하는 지식 체계화 기법.",
             "video_id": "ehmoVENJEB0"
           }
-        },
-        {
-          "id": "MKT-052",
-          "tactic": "모바일을 단일 기기가 아닌 성능 코호트로 진단",
-          "action": "모바일 전환을 하나의 평균으로 보지 말고 화면 폭, 브라우저, 네트워크·기기 성능 코호트별로 여정 이탈과 오작동을 기록한 뒤 가장 큰 마찰 한 가지씩만 수정한다.",
-          "confidence": "high",
-          "kpis": [
-            "mobile_cohort_conversion_gap",
-            "journey_error_rate",
-            "mobile_pdp_to_cart_rate",
-            "mobile_checkout_completion_rate"
-          ],
-          "prerequisites": [
-            "기기·브라우저 집계",
-            "페이지 단계별 이벤트",
-            "개인정보 최소화",
-            "모바일 QA 기기표"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "design",
-            "knowledge"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
-            "timestamp": "02:17-03:42",
-            "summary": "모바일 방문자는 기기·브라우저·네트워크 조건이 달라 서로 다른 마찰을 겪으므로 전체 여정을 관찰하고 코호트별로 시험해야 함",
-            "video_id": "HWemm5oHxW8"
-          }
-        },
-        {
-          "id": "MKT-054",
-          "tactic": "플로우 수익보다 제외·스킵 원인 우선 감사",
-          "action": "장바구니·체크아웃·구매 후 등 핵심 플로우마다 skipped activity와 필터를 열어 대상 고객이 빠지는 이유를 기록하고 담당자가 설명하지 못하는 오래된 제외 규칙을 검토 큐로 보낸다.",
-          "confidence": "high",
-          "kpis": [
-            "eligible_contact_skip_rate",
-            "unexplained_exclusion_count",
-            "flow_entry_coverage",
-            "purchase_exit_success_rate"
-          ],
-          "prerequisites": [
-            "동의 기반 발송 계정",
-            "플로우 진입·스킵 로그",
-            "필터 소유자",
-            "구매 종료 조건"
-          ],
-          "teams": [
-            "market",
-            "legal",
-            "knowledge"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-            "timestamp": "01:22-02:14",
-            "summary": "플로우 성과 화면에 들어오지 못한 고객은 보이지 않으므로 수익뿐 아니라 누가 어떤 제외 규칙으로 스킵됐는지 감사해야 함",
-            "video_id": "owVMPQAUrOg"
-          }
-        },
-        {
-          "id": "MKT-055",
-          "tactic": "핵심 라이프사이클 플로우와 채널 책임 분리",
-          "action": "웰컴·탐색·장바구니·체크아웃·구매 후·윈백·선셋을 핵심 여정으로 두고 각 분기는 측정 가능한 이유가 있을 때만 유지하며 이메일과 SMS는 기대·긴급도·빈도가 달라 별도 규칙으로 관리한다.",
-          "confidence": "high",
-          "kpis": [
-            "purpose_documented_branch_rate",
-            "cross_channel_overlap_rate",
-            "unsubscribe_rate",
-            "flow_order_rate"
-          ],
-          "prerequisites": [
-            "핵심 여정 목록",
-            "채널별 동의 상태",
-            "분기별 목적·소유자",
-            "빈도 제한"
-          ],
-          "teams": [
-            "market",
-            "legal",
-            "knowledge"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-            "timestamp": "02:17-03:07",
-            "summary": "소수 핵심 라이프사이클 여정에 목적 있는 분기만 두고 이메일과 SMS의 서로 다른 cadence와 고객 기대를 분리해야 함",
-            "video_id": "owVMPQAUrOg"
-          }
-        },
-        {
-          "id": "MKT-060",
-          "tactic": "Search Console 쿼리-페이지 수요 연결",
-          "action": "Search Console에서 비브랜드 질의를 랜딩페이지와 묶고 유사 표현을 구매 의도 클러스터로 통합해 이미 노출되지만 충분히 회수하지 못하는 페이지를 우선 개선 후보로 만든다.",
-          "confidence": "high",
-          "kpis": [
-            "query_page_mapping_coverage",
-            "intent_cluster_count",
-            "nonbrand_impression_coverage",
-            "priority_page_count"
-          ],
-          "prerequisites": [
-            "Google Search Console 접근",
-            "비브랜드 쿼리 구분",
-            "랜딩페이지 매핑",
-            "최종 확정 기간 데이터"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "knowledge"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=j5vrOvca26A",
-            "timestamp": "03:23-03:53",
-            "summary": "검색어와 Google이 노출한 페이지를 연결하고 유사 키워드를 정확 일치가 아닌 의도 클러스터로 묶어 개선 대상을 정함",
-            "video_id": "j5vrOvca26A"
-          }
-        },
-        {
-          "id": "MKT-061",
-          "tactic": "노출 중인 컬렉션 페이지를 선택 가이드로 보강",
-          "action": "이미 관련성이 관찰된 컬렉션 페이지부터 제목·메타·짧은 도입, 제품 비교, 선택 기준, 사실 기반 FAQ와 자연스러운 내부 링크를 보강하고 색인·클릭·주문 변화를 기록한다.",
-          "confidence": "high",
-          "kpis": [
-            "collection_search_ctr",
-            "collection_nonbrand_clicks",
-            "internal_link_coverage",
-            "collection_to_pdp_rate"
-          ],
-          "prerequisites": [
-            "우선 컬렉션 페이지",
-            "제품 사실 비교",
-            "FAQ 근거",
-            "내부 링크 원장",
-            "법률 검토"
-          ],
-          "teams": [
-            "market",
-            "listing",
-            "design",
-            "knowledge",
-            "legal"
-          ],
-          "reviewed_at": null,
-          "status": "shared-review-directive",
-          "evidence": {
-            "url": "https://www.youtube.com/watch?v=j5vrOvca26A",
-            "timestamp": "05:15-06:45",
-            "summary": "관련성이 있지만 콘텐츠가 얕은 컬렉션에 제목·메타·도입·비교·선택 안내·FAQ·내부 링크를 집중 보강하는 흐름",
-            "video_id": "j5vrOvca26A"
-          }
         }
       ],
-      "videos_available": 86,
+      "videos_available": 91,
       "review_pending": [
         {
           "title": "정부가 1.6조 들인 AI 학습데이터 977개, 쓸 만한 것만 골라 받아봤습니다 | AI허브 무료",
@@ -3021,49 +3430,206 @@
           "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     },
     "graph": {
       "status": "학습 중",
-      "insights": 3,
+      "insights": 8,
       "this_week_action": {
-        "id": "KNW-20261013-01",
-        "tactic": "멀티모달 근거 검색과 매체별 평가",
-        "action": "텍스트·사진·영상·오디오를 매체별로 구분하여 출처 경로·원문 링크·파일 해시·구간을 보존하고 Top-5 회수율과 지연을 자사 정답셋으로 비교한다. 임베딩 검색 결과를 검증된 사실이나 옵시디언 확정 관계로 바로 승격하지 않는다.",
+        "id": "VID-20261017-Eu4D795nMsQ",
+        "tactic": "조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "action": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
         "confidence": "high",
         "kpis": [
-          "근거 매핑 불일치 수",
-          "unknown 보존 수",
-          "독립 회귀 테스트 통과 수"
+          "미확인 항목 수",
+          "실측 전후 오류 수"
         ],
         "prerequisites": [
-          "출처·ID·제목 대조",
-          "실제 모델/MCP 실행은 별도 검증",
-          "예외 케이스와 원본 비교"
+          "자사 자료·권한·측정 근거 확보"
         ],
         "teams": [
           "knowledge",
-          "graph",
-          "robotics",
           "institutions",
-          "design"
+          "robotics",
+          "graph"
         ],
-        "reviewed_at": "2026-10-13",
+        "reviewed_at": "2026-10-17",
         "status": "shared-review-directive",
         "evidence": {
-          "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
-          "timestamp": null,
-          "summary": "멀티모달 검색 지원과 개인 Mac 데모이며 Windows/Linux 배포나 JARVIS 성능을 입증하지 않는다.",
-          "video_id": "-APXgRtYIAw",
-          "timestamp_basis": "unknown; uploader chapter is navigation only",
+          "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+          "timestamp": "14:09-16:04",
+          "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+          "video_id": "Eu4D795nMsQ",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
           "mapping_verified": true,
-          "timestamp_status": "not_provided_by_notebooklm",
-          "chapter_hint": "전체 쇼츠",
-          "source_type": "notebooklm_transcript_review",
-          "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+          "source_type": "youtube_captions"
         }
       },
       "items": [
+        {
+          "id": "VID-20261017-Eu4D795nMsQ",
+          "tactic": "조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+          "action": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+            "timestamp": "14:09-16:04",
+            "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+            "video_id": "Eu4D795nMsQ",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-OMkUQyG1AFE",
+          "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+          "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+            "timestamp": "11:40-16:40",
+            "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+            "video_id": "OMkUQyG1AFE",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-pQRJUgrriBk",
+          "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+          "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "sourcing",
+            "market",
+            "listing",
+            "pricing",
+            "legal",
+            "design",
+            "channels",
+            "knowledge",
+            "institutions",
+            "robotics",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+            "timestamp": "00:49-01:46",
+            "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+            "video_id": "pQRJUgrriBk",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-rDLJswILbe4",
+          "tactic": "필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+          "action": "참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "design",
+            "listing",
+            "market",
+            "graph"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+            "timestamp": "03:41-03:58",
+            "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+            "video_id": "rDLJswILbe4",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
+        {
+          "id": "VID-20261017-zFujXrPKoGA",
+          "tactic": "필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+          "action": "기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다.",
+          "confidence": "high",
+          "kpis": [
+            "미확인 항목 수",
+            "실측 전후 오류 수"
+          ],
+          "prerequisites": [
+            "자사 자료·권한·측정 근거 확보"
+          ],
+          "teams": [
+            "knowledge",
+            "graph",
+            "robotics",
+            "legal"
+          ],
+          "reviewed_at": "2026-10-17",
+          "status": "shared-review-directive",
+          "evidence": {
+            "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+            "timestamp": "06:32-07:51",
+            "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+            "video_id": "zFujXrPKoGA",
+            "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+            "mapping_verified": true,
+            "source_type": "youtube_captions"
+          }
+        },
         {
           "id": "KNW-20261013-01",
           "tactic": "멀티모달 근거 검색과 매체별 평가",
@@ -3180,7 +3746,7 @@
           }
         }
       ],
-      "videos_available": 33,
+      "videos_available": 38,
       "review_pending": [
         {
           "title": "EXTENDED CUT: Five WEIRD Notebooks that I Love",
@@ -3191,7 +3757,7 @@
           "url": "https://www.youtube.com/watch?v=KAYuqH7igfY"
         }
       ],
-      "last_review": "2026-10-13"
+      "last_review": "2026-10-17"
     }
   }
 }

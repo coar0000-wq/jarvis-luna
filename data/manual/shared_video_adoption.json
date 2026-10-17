@@ -7,7 +7,7 @@
     "applied_with_guard": 1,
     "queued": 1,
     "applied": 1,
-    "shared-to-team-feeds": 3
+    "shared-to-team-feeds": 12
   },
   "videos": [
     {
@@ -601,6 +601,263 @@
         "scripts/beauty_category_teams.py",
         "scripts/test_beauty_category_teams.py",
         "NotebookLM ID/title mismatch corrected against YouTube metadata"
+      ]
+    },
+    {
+      "video_id": "Eu4D795nMsQ",
+      "title": "[한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+      "teams": [
+        "knowledge",
+        "institutions",
+        "robotics",
+        "graph"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
+      "application": "evaluate_model_replay.py를 추가했다. 학습 데이터와 유료 학습 작업은 생성하지 않았다. 자사 오류 유형과 데이터 이용권한부터 확보한다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "D_ZfQzPEjOw",
+      "title": "게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+      "teams": [
+        "knowledge",
+        "robotics",
+        "pricing"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
+      "application": "비교 도구와 평가 지침에 반영했다. 장비 적합성과 자사 데이터 성능 미확인으로 모델 다운로드·라우팅 전환은 하지 않았다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "pQRJUgrriBk",
+      "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+      "teams": [
+        "sourcing",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "design",
+        "channels",
+        "knowledge",
+        "institutions",
+        "robotics",
+        "graph"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+      "application": "기존 typesafe_shared.py 연동을 유지했다. 비교 도구는 중복 ID·누락 응답·잘못된 합의를 탈락시킨다. 영상의 누락 시 통과 방식은 사업·법률 승인에 적용하지 않는다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "zFujXrPKoGA",
+      "title": "실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+      "teams": [
+        "knowledge",
+        "graph",
+        "robotics",
+        "legal"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다.",
+      "application": "비교 검사와 회귀 테스트에 적용했다. REA 설치·네이티브 앱 복원은 수행하지 않았다. 이미 등록된 REA 2편의 작업을 중복하지 않는다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "OMkUQyG1AFE",
+      "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+      "teams": [
+        "sourcing",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "design",
+        "channels",
+        "knowledge",
+        "institutions",
+        "robotics",
+        "graph"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+      "application": "팀 공통 작업 지침과 재사용 템플릿을 제공했다. Gemini 계정 기능은 확인하지 않았으며 기존 Gems를 삭제하거나 이전하지 않았다. 검색순위·전환율 보장은 채택하지 않는다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "OmKmKYtpa_A",
+      "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+      "teams": [
+        "design",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "channels"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+      "application": "광고 제작 체크리스트와 비용 기록 템플릿에 반영했다. 키·예산이 없는 외부 API 호출은 하지 않았다. 할인·실패 요청 무료라는 주장은 현재 조건 확인 전 비용 근거로 쓰지 않는다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "9jBZbsvQ014",
+      "title": "I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+      "teams": [
+        "design",
+        "listing",
+        "market",
+        "legal"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
+      "application": "디자인팀 정본 workflow에 브랜드 제약·출처·전후 비교 항목을 추가했다. Mobbin 유료 구독은 필요 조건으로 두지 않았다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "rDLJswILbe4",
+      "title": "[저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+      "teams": [
+        "design",
+        "listing",
+        "market",
+        "graph"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다.",
+      "application": "디자인팀 workflow와 참고자료 템플릿에 반영했다. 소개 사이트 16곳의 접근성·요금은 이번 작업에서 전수 검증하지 않았다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
+      ]
+    },
+    {
+      "video_id": "L_EXYLmyFSA",
+      "title": "I Gave GPT-6 Astra 600,000 Real Design References",
+      "teams": [
+        "design",
+        "listing",
+        "market"
+      ],
+      "status": "shared-to-team-feeds",
+      "shared": "2026-10-17",
+      "reviewed": "2026-10-17",
+      "takeaway": "디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다.",
+      "application": "디자인팀 workflow의 research→brief→draft→QA 순서로 적용했다. 실제 판매 페이지나 고객 로고는 변경하지 않았다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "shared_proof": {
+        "learning": "data/team_learning.json",
+        "feeds": "data/team_feeds.json",
+        "review": "docs/learning/2026-10-17-nine-videos.md"
+      },
+      "method_applied_proof": [
+        "scripts/evaluate_model_replay.py",
+        "data/manual/design_reference_workflow.json",
+        "docs/learning/video-workflow-templates.md"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-13T10:18:18.662Z",
-  "method": "NotebookLM 자막 소스 검토 + YouTube ID/제목/채널 메타데이터 대조. 소스 자막에 시각이 없으면 UNKNOWN으로 보존하고 업로더 챕터는 탐색 힌트로만 사용",
+  "updated_at": "2026-10-17T11:55:12.694812+00:00",
+  "method": "항목별 출처에 따른 자막 검토. NotebookLM 또는 직접 자막 검토를 항목에 기록하며 미확인은 그대로 보존한다.",
   "policy": "영상의 매출·전환 과장 수치는 근거로 쓰지 않는다. 제품 사실·법률 게이트·자사 측정값을 우선한다.",
   "videos": [
     {
@@ -143,6 +143,78 @@
       "source_type": "notebooklm_transcript_review",
       "mapping_verified": true,
       "requested_start_seconds": 8
+    },
+    {
+      "video_id": "Eu4D795nMsQ",
+      "title": "[한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+      "channel": "Tech Bridge",
+      "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "D_ZfQzPEjOw",
+      "title": "게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+      "channel": "단테",
+      "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "pQRJUgrriBk",
+      "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+      "channel": "Jay's AI Tip",
+      "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "zFujXrPKoGA",
+      "title": "실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+      "channel": "코난쌤 conanssam",
+      "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "OMkUQyG1AFE",
+      "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+      "channel": "AI수익화초월차선, AI상상력대장",
+      "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "OmKmKYtpa_A",
+      "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+      "channel": "갓찌뇽의 초보여도 괜찮아",
+      "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "9jBZbsvQ014",
+      "title": "I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+      "channel": "Brendan Jowett",
+      "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "rDLJswILbe4",
+      "title": "[저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+      "channel": "레이디러너 디자인 리서치 스튜디오",
+      "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "L_EXYLmyFSA",
+      "title": "I Gave GPT-6 Astra 600,000 Real Design References",
+      "channel": "Griffin Wooldridge",
+      "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+      "reviewed_at": "2026-10-17",
+      "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
     }
   ],
   "insights": [
@@ -636,6 +708,299 @@
       "confidence": "high",
       "reviewed_at": "2026-10-13",
       "notebook_url": "https://notebook.google.com/notebook/cf16d59f-59df-4f30-9c79-eff4658fdd56"
+    },
+    {
+      "id": "VID-20261017-Eu4D795nMsQ",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+      "action": "학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다.",
+      "evidence": {
+        "video_id": "Eu4D795nMsQ",
+        "timestamp": "14:09-16:04",
+        "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "knowledge",
+        "institutions",
+        "robotics",
+        "graph"
+      ],
+      "applicability": "evaluate_model_replay.py를 추가했다. 학습 데이터와 유료 학습 작업은 생성하지 않았다. 자사 오류 유형과 데이터 이용권한부터 확보한다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-D_ZfQzPEjOw",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+      "action": "로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다.",
+      "evidence": {
+        "video_id": "D_ZfQzPEjOw",
+        "timestamp": "05:14-06:47",
+        "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "knowledge",
+        "robotics",
+        "pricing"
+      ],
+      "applicability": "비교 도구와 평가 지침에 반영했다. 장비 적합성과 자사 데이터 성능 미확인으로 모델 다운로드·라우팅 전환은 하지 않았다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-pQRJUgrriBk",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+      "action": "분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다.",
+      "evidence": {
+        "video_id": "pQRJUgrriBk",
+        "timestamp": "00:49-01:46",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "sourcing",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "design",
+        "channels",
+        "knowledge",
+        "institutions",
+        "robotics",
+        "graph"
+      ],
+      "applicability": "기존 typesafe_shared.py 연동을 유지했다. 비교 도구는 중복 ID·누락 응답·잘못된 합의를 탈락시킨다. 영상의 누락 시 통과 방식은 사업·법률 승인에 적용하지 않는다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-zFujXrPKoGA",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+      "action": "기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다.",
+      "evidence": {
+        "video_id": "zFujXrPKoGA",
+        "timestamp": "06:32-07:51",
+        "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "knowledge",
+        "graph",
+        "robotics",
+        "legal"
+      ],
+      "applicability": "비교 검사와 회귀 테스트에 적용했다. REA 설치·네이티브 앱 복원은 수행하지 않았다. 이미 등록된 REA 2편의 작업을 중복하지 않는다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-OMkUQyG1AFE",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+      "action": "팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다.",
+      "evidence": {
+        "video_id": "OMkUQyG1AFE",
+        "timestamp": "11:40-16:40",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "sourcing",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "design",
+        "channels",
+        "knowledge",
+        "institutions",
+        "robotics",
+        "graph"
+      ],
+      "applicability": "팀 공통 작업 지침과 재사용 템플릿을 제공했다. Gemini 계정 기능은 확인하지 않았으며 기존 Gems를 삭제하거나 이전하지 않았다. 검색순위·전환율 보장은 채택하지 않는다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-OmKmKYtpa_A",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+      "action": "광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다.",
+      "evidence": {
+        "video_id": "OmKmKYtpa_A",
+        "timestamp": "07:54-10:39",
+        "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "design",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "channels"
+      ],
+      "applicability": "광고 제작 체크리스트와 비용 기록 템플릿에 반영했다. 키·예산이 없는 외부 API 호출은 하지 않았다. 할인·실패 요청 무료라는 주장은 현재 조건 확인 전 비용 근거로 쓰지 않는다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-9jBZbsvQ014",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+      "action": "레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다.",
+      "evidence": {
+        "video_id": "9jBZbsvQ014",
+        "timestamp": "02:36-04:03",
+        "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "design",
+        "listing",
+        "market",
+        "legal"
+      ],
+      "applicability": "디자인팀 정본 workflow에 브랜드 제약·출처·전후 비교 항목을 추가했다. Mobbin 유료 구독은 필요 조건으로 두지 않았다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-rDLJswILbe4",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+      "action": "참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다.",
+      "evidence": {
+        "video_id": "rDLJswILbe4",
+        "timestamp": "03:41-03:58",
+        "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "design",
+        "listing",
+        "market",
+        "graph"
+      ],
+      "applicability": "디자인팀 workflow와 참고자료 템플릿에 반영했다. 소개 사이트 16곳의 접근성·요금은 이번 작업에서 전수 검증하지 않았다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "VID-20261017-L_EXYLmyFSA",
+      "pillar": "검증 가능한 영상 적용",
+      "tactic": "필요 · 리서치 후 제작 적용 — I Gave GPT-6 Astra 600,000 Real Design References",
+      "action": "디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다.",
+      "evidence": {
+        "video_id": "L_EXYLmyFSA",
+        "timestamp": "06:33-08:28",
+        "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+        "source_type": "youtube_captions",
+        "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+        "mapping_verified": true
+      },
+      "prerequisites": [
+        "자사 자료·권한·측정 근거 확보"
+      ],
+      "kpis": [
+        "미확인 항목 수",
+        "실측 전후 오류 수"
+      ],
+      "teams": [
+        "design",
+        "listing",
+        "market"
+      ],
+      "applicability": "디자인팀 workflow의 research→brief→draft→QA 순서로 적용했다. 실제 판매 페이지나 고객 로고는 변경하지 않았다.",
+      "confidence": "high",
+      "reviewed_at": "2026-10-17",
+      "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
     }
   ],
   "rejected_claims": [

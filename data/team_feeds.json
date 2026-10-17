@@ -1,87 +1,87 @@
 {
-  "generated_at": "2026-10-14T09:36:49.348457+00:00",
+  "generated_at": "2026-10-17T11:55:36.806006+00:00",
   "generator": "scripts/build_team_feeds.py",
   "규칙": "이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. 법률팀만 FDA 소스를 새로 받는다.",
   "recent_days": 14,
-  "pool_size": 3342,
+  "pool_size": 3360,
   "제목없어_버림": 38,
-  "unrouted": 8,
+  "unrouted": 11,
   "summary": {
     "sourcing": {
-      "total": 378,
-      "recent": 6,
-      "material": 22,
-      "material_recent": 6,
+      "total": 382,
+      "recent": 10,
+      "material": 26,
+      "material_recent": 10,
       "products": 356
     },
     "market": {
-      "total": 991,
-      "recent": 58,
-      "material": 991,
-      "material_recent": 58,
+      "total": 1004,
+      "recent": 57,
+      "material": 1004,
+      "material_recent": 57,
       "products": 0
     },
     "listing": {
-      "total": 160,
-      "recent": 28,
-      "material": 160,
-      "material_recent": 28,
+      "total": 172,
+      "recent": 35,
+      "material": 172,
+      "material_recent": 35,
       "products": 0
     },
     "pricing": {
-      "total": 91,
-      "recent": 11,
-      "material": 91,
-      "material_recent": 11,
+      "total": 99,
+      "recent": 19,
+      "material": 99,
+      "material_recent": 19,
       "products": 0
     },
     "legal": {
-      "total": 264,
-      "recent": 38,
-      "material": 264,
-      "material_recent": 38,
+      "total": 276,
+      "recent": 47,
+      "material": 276,
+      "material_recent": 47,
       "products": 0
     },
     "design": {
-      "total": 520,
-      "recent": 119,
-      "material": 520,
-      "material_recent": 119,
+      "total": 521,
+      "recent": 83,
+      "material": 521,
+      "material_recent": 83,
       "products": 0
     },
     "robotics": {
-      "total": 311,
-      "recent": 137,
-      "material": 311,
-      "material_recent": 137,
+      "total": 321,
+      "recent": 130,
+      "material": 321,
+      "material_recent": 130,
       "products": 0
     },
     "knowledge": {
-      "total": 401,
-      "recent": 138,
-      "material": 401,
-      "material_recent": 138,
-      "products": 0
-    },
-    "institutions": {
-      "total": 1192,
+      "total": 410,
       "recent": 133,
-      "material": 1192,
+      "material": 410,
       "material_recent": 133,
       "products": 0
     },
+    "institutions": {
+      "total": 1198,
+      "recent": 23,
+      "material": 1198,
+      "material_recent": 23,
+      "products": 0
+    },
     "graph": {
-      "total": 36,
-      "recent": 6,
-      "material": 36,
-      "material_recent": 6,
+      "total": 46,
+      "recent": 16,
+      "material": 46,
+      "material_recent": 16,
       "products": 0
     },
     "channels": {
-      "total": 36,
-      "recent": 4,
-      "material": 36,
-      "material_recent": 4,
+      "total": 42,
+      "recent": 10,
+      "material": 42,
+      "material_recent": 10,
       "products": 0
     }
   },
@@ -93,6 +93,114 @@
   },
   "teams": {
     "sourcing": [
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "리버스 엔지니어링 도구, REA! 20분 만에 앱 복사 완료",
         "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
@@ -870,49 +978,279 @@
         ],
         "date": "2026-09-29",
         "by_hand": false
-      },
-      {
-        "title": "식물원 병풀 클리어 마스크 시트",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038603",
-        "pool": "daiso",
-        "teams": [
-          "sourcing"
-        ],
-        "date": "2026-09-29",
-        "by_hand": false
-      },
-      {
-        "title": "안내표지 (마스크를 착용하세요)",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030736",
-        "pool": "daiso",
-        "teams": [
-          "sourcing"
-        ],
-        "date": "2026-09-29",
-        "by_hand": false
-      },
-      {
-        "title": "에센셜 마스크시트 그린티",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004153",
-        "pool": "daiso",
-        "teams": [
-          "sourcing"
-        ],
-        "date": "2026-09-29",
-        "by_hand": false
-      },
-      {
-        "title": "에코팩 유리 저장 용기 230ml",
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027208",
-        "pool": "daiso",
-        "teams": [
-          "sourcing"
-        ],
-        "date": "2026-09-29",
-        "by_hand": false
       }
     ],
     "market": [
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_manual",
+        "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_manual",
+        "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_manual",
+        "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "I Gave GPT-6 Astra 600,000 Real Design References",
+        "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+        "pool": "youtube_manual",
+        "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+        "teams": [
+          "design",
+          "listing",
+          "market"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OmKmKYtpa_A] 제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다. (근거 07:54-10:39; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+          "timestamp": "07:54-10:39",
+          "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+          "video_id": "OmKmKYtpa_A",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-9jBZbsvQ014] 필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다. (근거 02:36-04:03; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-rDLJswILbe4] 필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다. (근거 03:41-03:58; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+          "timestamp": "03:41-03:58",
+          "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+          "video_id": "rDLJswILbe4",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-L_EXYLmyFSA] 필요 · 리서치 후 제작 적용 — I Gave GPT-6 Astra 600,000 Real Design References",
+        "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다. (근거 06:33-08:28; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+          "timestamp": "06:33-08:28",
+          "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+          "video_id": "L_EXYLmyFSA",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "리버스 엔지니어링 도구, REA! 20분 만에 앱 복사 완료",
         "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
@@ -1646,274 +1984,279 @@
         "status": "shared-review-directive",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-          "timestamp": "08:16-09:33",
-          "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서",
-          "video_id": "yBAlSKfI9F8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-          "timestamp": "14:27-15:46",
-          "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결",
-          "video_id": "yBAlSKfI9F8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25; 실행·성과 검증 아님)",
-        "teams": [
-          "pricing",
-          "market",
-          "listing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-          "timestamp": "11:19-12:25",
-          "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임",
-          "video_id": "2Azr4Cihay4"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "pricing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-          "timestamp": "00:41-04:52",
-          "summary": "구매 후 보상 잔액과 다음 목표를 구체적으로 표시",
-          "video_id": "Dh5uNMvlSug"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "pricing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-          "timestamp": "05:33-06:38",
-          "summary": "보상을 받은 순간 사용 가능한 상품으로 이동시키는 전환 이메일",
-          "video_id": "Dh5uNMvlSug"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-011] 실제 만료일 기반 윈백 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 공개된 포인트 만료 규칙이 있을 때만 잔액 가치와 사용처를 보여주는 만료 전 알림을 발송한다. (근거 09:32-10:46; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-          "timestamp": "09:32-10:46",
-          "summary": "가짜 긴급성이 아닌 실제 보상 만료를 재방문 계기로 사용",
-          "video_id": "Dh5uNMvlSug"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58; 실행·성과 검증 아님)",
-        "teams": [
-          "pricing",
-          "listing",
-          "market"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "01:55-03:58",
-          "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33; 실행·성과 검증 아님)",
-        "teams": [
-          "sourcing",
-          "pricing",
-          "listing",
-          "market",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "04:40-07:33",
-          "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02; 실행·성과 검증 아님)",
-        "teams": [
-          "pricing",
-          "market",
-          "listing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "07:42-09:02",
-          "summary": "고객의 지출 의향에 맞춘 단계형 오퍼",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15; 실행·성과 검증 아님)",
-        "teams": [
-          "listing",
-          "pricing",
-          "market"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "09:02-11:15",
-          "summary": "구매 직전 관련 상품을 제한적으로 제안",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-          "timestamp": "05:53-13:24",
-          "summary": "질문 FAQ와 성분·사용 사례·가이드의 내부 링크 구조로 주제 권위 형성",
-          "video_id": "UBSveo_tao8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-          "timestamp": "13:34-15:03",
-          "summary": "리뷰 수와 평점을 눈에 띄게 보여주고 실제 구매 증거를 콘텐츠에 활용",
-          "video_id": "UBSveo_tao8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
       }
     ],
     "listing": [
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_manual",
+        "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_manual",
+        "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_manual",
+        "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "I Gave GPT-6 Astra 600,000 Real Design References",
+        "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+        "pool": "youtube_manual",
+        "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+        "teams": [
+          "design",
+          "listing",
+          "market"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OmKmKYtpa_A] 제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다. (근거 07:54-10:39; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+          "timestamp": "07:54-10:39",
+          "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+          "video_id": "OmKmKYtpa_A",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-9jBZbsvQ014] 필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다. (근거 02:36-04:03; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-rDLJswILbe4] 필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다. (근거 03:41-03:58; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+          "timestamp": "03:41-03:58",
+          "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+          "video_id": "rDLJswILbe4",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-L_EXYLmyFSA] 필요 · 리서치 후 제작 적용 — I Gave GPT-6 Astra 600,000 Real Design References",
+        "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다. (근거 06:33-08:28; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+          "timestamp": "06:33-08:28",
+          "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+          "video_id": "L_EXYLmyFSA",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "소프트웨어는 끝났다? 앱 통째로 복사하는 미친 오픈소스.. ㄷㄷ",
         "url": "https://www.youtube.com/watch?v=tByhXkxDKDo",
@@ -2693,275 +3036,199 @@
         "status": "shared-review-directive",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-006] 14일 신규 구독자 웰컴 플로우",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 인센티브 또는 피부 퀴즈 결과, 브랜드 스토리, 검증 리뷰, 베스트셀러 이유, 정가 구매 제안을 다섯 통으로 구성한다. (근거 08:16-09:33; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-          "timestamp": "08:16-09:33",
-          "summary": "신규 구독자를 단계적으로 교육하고 첫 구매로 전환하는 이메일 순서",
-          "video_id": "yBAlSKfI9F8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-007] Shopify와 Meta CAPI 전환 신호 검증",
-        "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 스토어 개설 후 테스트 주문으로 Pixel과 서버 이벤트의 중복·누락을 점검하고 Shopify 주문값과 비교한다. (근거 14:27-15:46; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=yBAlSKfI9F8",
-          "timestamp": "14:27-15:46",
-          "summary": "서버 측 전환 추적으로 광고 측정 손실을 줄이는 기본 연결",
-          "video_id": "yBAlSKfI9F8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-008] 번들·사은품 임계값 AOV 테스트",
-        "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 구성품 이미지와 실제 절감액을 보여주는 루틴 번들 및 사은품 해금 기준을 테스트한다. (근거 11:19-12:25; 실행·성과 검증 아님)",
-        "teams": [
-          "pricing",
-          "market",
-          "listing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
-          "timestamp": "11:19-12:25",
-          "summary": "명확한 번들 구성과 해금 기준으로 장바구니 금액을 높임",
-          "video_id": "2Azr4Cihay4"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-009] 구매 후 적립 가치 이메일",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 구매 직후 추상 포인트 대신 원화 환산 가치, 현재 잔액, 다음 보상까지 남은 금액을 알린다. (근거 00:41-04:52; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "pricing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-          "timestamp": "00:41-04:52",
-          "summary": "구매 후 보상 잔액과 다음 목표를 구체적으로 표시",
-          "video_id": "Dh5uNMvlSug"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-010] 리워드 사용 직후 재구매 컬렉션 연결",
-        "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 보상 코드와 가치를 상단에 표시하고 해당 보상을 쓸 수 있는 루틴·재구매 컬렉션으로 바로 연결한다. (근거 05:33-06:38; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "pricing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=Dh5uNMvlSug",
-          "timestamp": "05:33-06:38",
-          "summary": "보상을 받은 순간 사용 가능한 상품으로 이동시키는 전환 이메일",
-          "video_id": "Dh5uNMvlSug"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-012] 소모품 수량별 단계 할인",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 1개, 2개, 3개 옵션과 단위당 가격을 PDP에서 비교하되 할인 후 마진과 배송비를 통과한 상품에만 적용한다. (근거 01:55-03:58; 실행·성과 검증 아님)",
-        "teams": [
-          "pricing",
-          "listing",
-          "market"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "01:55-03:58",
-          "summary": "소모품에 점진적 수량 할인으로 주문당 수량을 증가",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-013] 고객 결과 중심 루틴 번들",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 무작위 추가 상품이 아니라 클렌징-트리트먼트-보습처럼 한 루틴을 완성하는 구성으로 번들을 만든다. (근거 04:40-07:33; 실행·성과 검증 아님)",
-        "teams": [
-          "sourcing",
-          "pricing",
-          "listing",
-          "market",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "04:40-07:33",
-          "summary": "서로 보완하는 상품을 고객 목표 기준으로 묶음",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-014] good-better-best 세트 구조",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 스타터, 2개월분, 전체 루틴 세트로 약정 수준을 나누고 상위 세트에는 실제 가치가 있는 샘플이나 도구만 추가한다. (근거 07:42-09:02; 실행·성과 검증 아님)",
-        "teams": [
-          "pricing",
-          "market",
-          "listing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "07:42-09:02",
-          "summary": "고객의 지출 의향에 맞춘 단계형 오퍼",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-015] 카트 드로어 보완 상품 업셀",
-        "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 장바구니에 담은 상품과 직접 호환되는 소수의 보완 상품만 추천하고 체크아웃을 방해하지 않게 한다. (근거 09:02-11:15; 실행·성과 검증 아님)",
-        "teams": [
-          "listing",
-          "pricing",
-          "market"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cVSU2C06Zw",
-          "timestamp": "09:02-11:15",
-          "summary": "구매 직전 관련 상품을 제한적으로 제안",
-          "video_id": "6cVSU2C06Zw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-016] 질문형 FAQ와 히어로 SKU 토픽 클러스터",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 피부타입, 제형, 향, 루틴 순서, 성분 질문은 PDP FAQ로 답하고 넓은 주제는 가이드와 컬렉션으로 연결한다. (근거 05:53-13:24; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-          "timestamp": "05:53-13:24",
-          "summary": "질문 FAQ와 성분·사용 사례·가이드의 내부 링크 구조로 주제 권위 형성",
-          "video_id": "UBSveo_tao8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-017] 검증 구매 리뷰를 전환 자산으로 사용",
-        "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 구매 후 피부타입, 제형, 향, 사용 순서, 재구매 의향을 구조적으로 수집하고 PDP와 광고에 허가 범위 내 재사용한다. (근거 13:34-15:03; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=UBSveo_tao8",
-          "timestamp": "13:34-15:03",
-          "summary": "리뷰 수와 평점을 눈에 띄게 보여주고 실제 구매 증거를 콘텐츠에 활용",
-          "video_id": "UBSveo_tao8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-018] 리뷰에서 좁은 미충족 고객군을 찾기",
-        "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 자사·경쟁 리뷰를 AI로 묶어 구매자, 가치, 불만을 찾고 작은 설문이나 인터뷰로 확인한 뒤 포지셔닝 가설로 사용한다. (근거 07:53-09:30; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "sourcing",
-          "listing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=u36eK74YKv0",
-          "timestamp": "07:53-09:30",
-          "summary": "큰 시장 안에서 기존 상품이 만족시키지 못한 좁은 집단을 리뷰로 탐색",
-          "video_id": "u36eK74YKv0"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
       }
     ],
     "pricing": [
+      {
+        "title": "게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+        "pool": "youtube_manual",
+        "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+        "teams": [
+          "knowledge",
+          "robotics",
+          "pricing"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_manual",
+        "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-D_ZfQzPEjOw] 조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다. (근거 05:14-06:47; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "robotics",
+          "pricing"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+          "timestamp": "05:14-06:47",
+          "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+          "video_id": "D_ZfQzPEjOw",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OmKmKYtpa_A] 제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다. (근거 07:54-10:39; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+          "timestamp": "07:54-10:39",
+          "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+          "video_id": "OmKmKYtpa_A",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "리버스 엔지니어링 도구, REA! 20분 만에 앱 복사 완료",
         "url": "https://www.youtube.com/watch?v=F0p9SX9T6As",
@@ -3914,89 +4181,241 @@
         ],
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "Cocaine Bust in Portugal and More in Today's Flexport Atlas News Update",
-        "url": "https://www.youtube.com/watch?v=mlsG9r32p2s",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Navigating Peak Season 2026: Essential Omnichannel & Fulfillment Strategies for Success",
-        "url": "https://www.youtube.com/watch?v=3GEgoBnMBD8",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Isochronic Map of Container Shipping from Flexport",
-        "url": "https://www.youtube.com/watch?v=FbGsgddedYk",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Flexport The Video Game",
-        "url": "https://www.youtube.com/watch?v=7VeooS_ZSN8",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Global Logistics Chaos: A World Tour by Flexport Founder Ryan Petersen",
-        "url": "https://www.youtube.com/watch?v=T4TxR53QzCY",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Tariff Trends 2026: Expert Insights on the Evolving U.S. Tariff Landscape (July 24, 2026)",
-        "url": "https://www.youtube.com/watch?v=-G9ySFpVAsA",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Flexport Webinar: CAPE Phase 2 Explained",
-        "url": "https://www.youtube.com/watch?v=ucMPHyLcFSM",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The Capacity Squeeze Nobody Budgets For: Air Cargo 2026–2030",
-        "url": "https://www.youtube.com/watch?v=u6d_ZV5dqIs",
-        "pool": "youtube_channel",
-        "teams": [
-          "pricing"
-        ],
-        "date": "",
-        "by_hand": true
       }
     ],
     "legal": [
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_manual",
+        "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_manual",
+        "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_manual",
+        "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-zFujXrPKoGA] 필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다. (근거 06:32-07:51; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+          "timestamp": "06:32-07:51",
+          "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+          "video_id": "zFujXrPKoGA",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OmKmKYtpa_A] 제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다. (근거 07:54-10:39; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+          "timestamp": "07:54-10:39",
+          "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+          "video_id": "OmKmKYtpa_A",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-9jBZbsvQ014] 필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다. (근거 02:36-04:03; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "소프트웨어는 끝났다? 앱 통째로 복사하는 미친 오픈소스.. ㄷㄷ",
         "url": "https://www.youtube.com/watch?v=tByhXkxDKDo",
@@ -4959,236 +5378,279 @@
         "status": "shared-review-directive",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-045] 고객·가치제안 명시 후 할인 의존 방지",
-        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 핵심 고객이 누구인지, 왜 유사 상품 대신 이 브랜드를 선택해야 하는지, 어떤 가치제안에 반응하는지를 한 장으로 명시하고 반복 할인 없이도 설명 가능한 메시지를 우선한다. (근거 18:03-19:04; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "pricing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
-          "timestamp": "18:03-19:04",
-          "summary": "경쟁이 비슷해 보일수록 고객과 고유 가치제안을 분명히 해야 하며 그렇지 않으면 광고 메시지가 약해짐",
-          "video_id": "6cLgg-r_qtQ"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-046] 실구매자 데이터 기반 크리에이티브 브리프",
-        "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 브랜드의 예상 고객상 대신 실제 구매·상호작용 데이터로 핵심 고객군을 확인하고 그 고객의 상황·언어·가치제안별 크리에이티브 초안을 만든다. (근거 19:17-20:05; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "design",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=6cLgg-r_qtQ",
-          "timestamp": "19:17-20:05",
-          "summary": "브랜드 인상과 실제 구매자 연령·특성이 다를 수 있어 관찰 데이터에 맞춰 메시지와 크리에이티브를 조정",
-          "video_id": "6cLgg-r_qtQ"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-047] 질문 fan-out을 테마·속성 콘텐츠로 변환",
-        "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 대표 구매 질문을 제품 속성, 비교, 실제 사용 상황, 리뷰·인용, 관련 상품 하위 질문으로 분해하고 제품·컬렉션·FAQ 로드맵에 배치한다. (근거 02:01-03:21; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "knowledge",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
-          "timestamp": "02:01-03:21",
-          "summary": "AI 검색은 한 질문을 여러 하위 질의로 확장하므로 긴 문장 하나보다 테마와 속성·비교·사용 사례·제품 데이터·인용을 다뤄야 함",
-          "video_id": "bxEQZF0Wt5A"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-048] SEO 기반 위에 GEO 정보 회수성 점검",
-        "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 핵심 페이지의 크롤·색인, 구조화된 제품 정보, 내부 링크, 컬렉션 연결, 외부 인용을 점검하고 GEO라는 이름으로 기존 SEO 기반을 대체하지 않는다. (근거 03:57-05:30; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "knowledge",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=bxEQZF0Wt5A",
-          "timestamp": "03:57-05:30",
-          "summary": "상품 제목·설명·속성·이미지·지원 콘텐츠·내부 링크와 크롤·색인·외부 인용이 함께 있어야 검색·AI 시스템이 정보를 회수하기 쉬움",
-          "video_id": "bxEQZF0Wt5A"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-050] 카트를 구매 확신·관련 추가 선택 단계로 설계",
-        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 카트에 배송 시점, 정책·신뢰, 주문 가치, 명확한 체크아웃 동선을 먼저 제공하고 이미 검증된 관련 상품만 혼란 없이 추가 제안한다. (근거 05:38-08:09; 실행·성과 검증 아님)",
-        "teams": [
-          "listing",
-          "design",
-          "pricing",
-          "market",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
-          "timestamp": "05:38-08:09",
-          "summary": "카트는 결제가 끝난 단계가 아니므로 위험과 혼란을 줄이고 다음 행동·가치·관련 업셀을 명확히 지원해야 함",
-          "video_id": "JtAAkVH0PWg"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-051] 의심 지점 근처에 증거·비교 배치",
-        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 품질, 결과, 적합성, 정당성, 가격, 배송에 대한 의심이 생기는 지점 바로 옆에 해당 질문을 해소하는 검증 리뷰·정책·비교 정보를 배치한다. (근거 11:51-14:29; 실행·성과 검증 아님)",
-        "teams": [
-          "listing",
-          "design",
-          "legal",
-          "market"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
-          "timestamp": "11:51-14:29",
-          "summary": "증거는 페이지 하단에 모으기보다 특정 의심이 생기는 순간에 배치하고 비교 부담을 줄여야 구매 결정이 쉬워짐",
-          "video_id": "JtAAkVH0PWg"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-053] 체크아웃 이탈 전 정책·신뢰 정보 보강",
-        "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 소셜·직접 구매처럼 PDP 체류가 짧은 방문자가 체크아웃에서 매장을 이탈하지 않도록 배송 시점, 반품 정책, 검증 신뢰 요소를 주문 맥락에 맞게 짧고 정확하게 제공한다. (근거 06:00-07:07; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "design",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
-          "timestamp": "06:00-07:07",
-          "summary": "스토어 경험이 짧은 고객은 체크아웃에서 배송·반품·브랜드 신뢰를 다시 찾기 위해 이탈할 수 있어 필요한 콘텐츠를 그 지점에 제공해야 함",
-          "video_id": "HWemm5oHxW8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-054] 플로우 수익보다 제외·스킵 원인 우선 감사",
-        "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 장바구니·체크아웃·구매 후 등 핵심 플로우마다 skipped activity와 필터를 열어 대상 고객이 빠지는 이유를 기록하고 담당자가 설명하지 못하는 오래된 제외 규칙을 검토 큐로 보낸다. (근거 01:22-02:14; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "legal",
-          "knowledge"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-          "timestamp": "01:22-02:14",
-          "summary": "플로우 성과 화면에 들어오지 못한 고객은 보이지 않으므로 수익뿐 아니라 누가 어떤 제외 규칙으로 스킵됐는지 감사해야 함",
-          "video_id": "owVMPQAUrOg"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-055] 핵심 라이프사이클 플로우와 채널 책임 분리",
-        "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 웰컴·탐색·장바구니·체크아웃·구매 후·윈백·선셋을 핵심 여정으로 두고 각 분기는 측정 가능한 이유가 있을 때만 유지하며 이메일과 SMS는 기대·긴급도·빈도가 달라 별도 규칙으로 관리한다. (근거 02:17-03:07; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "legal",
-          "knowledge"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-          "timestamp": "02:17-03:07",
-          "summary": "소수 핵심 라이프사이클 여정에 목적 있는 분기만 두고 이메일과 SMS의 서로 다른 cadence와 고객 기대를 분리해야 함",
-          "video_id": "owVMPQAUrOg"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-056] 분기별 자동화 제거 목록 운영",
-        "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 분기마다 종료된 테스트, 중복 세그먼트, 오래된 폼·캠페인·통합, 성과와 목적이 불명확한 규칙을 kill list에 모아 백업·승인 후 제거하고 변경 전후 진입률과 주문률을 비교한다. (근거 04:34-05:30; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "knowledge",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=owVMPQAUrOg",
-          "timestamp": "04:34-05:30",
-          "summary": "좋은 시스템은 시간이 지나며 단순해져야 하므로 겹치는 기능과 끝난 실험, 설명 불가능한 제외·세그먼트를 정기적으로 제거",
-          "video_id": "owVMPQAUrOg"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
       }
     ],
     "design": [
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_manual",
+        "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_manual",
+        "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_manual",
+        "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "I Gave GPT-6 Astra 600,000 Real Design References",
+        "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+        "pool": "youtube_manual",
+        "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+        "teams": [
+          "design",
+          "listing",
+          "market"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OmKmKYtpa_A] 제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다. (근거 07:54-10:39; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+          "timestamp": "07:54-10:39",
+          "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+          "video_id": "OmKmKYtpa_A",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-9jBZbsvQ014] 필요 · 레퍼런스 절차 적용 — I Gave Opus 5.5 600,000+ Websites (The Results Are INSANE)",
+        "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다. (근거 02:36-04:03; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=9jBZbsvQ014",
+          "timestamp": "02:36-04:03",
+          "summary": "Mobbin을 사용한 시안과 미사용 시안을 비교한다. 제작자도 브랜드 지침이 없으면 특정 디자인을 과도하게 따라갈 수 있다고 정정한다. 설명란에 Mobbin 협찬이 표시돼 있다.",
+          "video_id": "9jBZbsvQ014",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-rDLJswILbe4] 필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다. (근거 03:41-03:58; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+          "timestamp": "03:41-03:58",
+          "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+          "video_id": "rDLJswILbe4",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-L_EXYLmyFSA] 필요 · 리서치 후 제작 적용 — I Gave GPT-6 Astra 600,000 Real Design References",
+        "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다. (근거 06:33-08:28; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
+          "timestamp": "06:33-08:28",
+          "summary": "초안 다음에 관련 제품 조사 보고서를 작성하고 두 번째 시안으로 넘어간다. 강한 모델만 고르는 것보다 구체적인 디자인 맥락을 제공하는 흐름이다. 설명란에 광고 표시가 있다.",
+          "video_id": "L_EXYLmyFSA",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "구글 무료 AI 미쳤다. 영상 속 장면까지 찾는다 #Shorts #EmbeddingGemma2 #EmbeddingGemma #구글 #무료AI #RAG",
         "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
@@ -6036,248 +6498,235 @@
         "status": "shared-review-directive",
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-051] 의심 지점 근처에 증거·비교 배치",
-        "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 품질, 결과, 적합성, 정당성, 가격, 배송에 대한 의심이 생기는 지점 바로 옆에 해당 질문을 해소하는 검증 리뷰·정책·비교 정보를 배치한다. (근거 11:51-14:29; 실행·성과 검증 아님)",
-        "teams": [
-          "listing",
-          "design",
-          "legal",
-          "market"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=JtAAkVH0PWg",
-          "timestamp": "11:51-14:29",
-          "summary": "증거는 페이지 하단에 모으기보다 특정 의심이 생기는 순간에 배치하고 비교 부담을 줄여야 구매 결정이 쉬워짐",
-          "video_id": "JtAAkVH0PWg"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-052] 모바일을 단일 기기가 아닌 성능 코호트로 진단",
-        "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 모바일 전환을 하나의 평균으로 보지 말고 화면 폭, 브라우저, 네트워크·기기 성능 코호트별로 여정 이탈과 오작동을 기록한 뒤 가장 큰 마찰 한 가지씩만 수정한다. (근거 02:17-03:42; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "design",
-          "knowledge"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
-          "timestamp": "02:17-03:42",
-          "summary": "모바일 방문자는 기기·브라우저·네트워크 조건이 달라 서로 다른 마찰을 겪으므로 전체 여정을 관찰하고 코호트별로 시험해야 함",
-          "video_id": "HWemm5oHxW8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-053] 체크아웃 이탈 전 정책·신뢰 정보 보강",
-        "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 소셜·직접 구매처럼 PDP 체류가 짧은 방문자가 체크아웃에서 매장을 이탈하지 않도록 배송 시점, 반품 정책, 검증 신뢰 요소를 주문 맥락에 맞게 짧고 정확하게 제공한다. (근거 06:00-07:07; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "design",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=HWemm5oHxW8",
-          "timestamp": "06:00-07:07",
-          "summary": "스토어 경험이 짧은 고객은 체크아웃에서 배송·반품·브랜드 신뢰를 다시 찾기 위해 이탈할 수 있어 필요한 콘텐츠를 그 지점에 제공해야 함",
-          "video_id": "HWemm5oHxW8"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-057] 고객 선택 필요도에 따라 고정·믹스앤매치 번들 분기",
-        "url": "https://www.youtube.com/watch?v=7vQ77-jZ_8o",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 구성 선택 부담이 낮은 루틴·스타터 세트는 고정 번들로, 취향·색상·향·용량 선택이 핵심인 세트는 믹스앤매치로 설계하고 완성률과 마진을 함께 비교한다. (근거 01:04-02:24; 실행·성과 검증 아님)",
-        "teams": [
-          "pricing",
-          "market",
-          "listing",
-          "design",
-          "sourcing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=7vQ77-jZ_8o",
-          "timestamp": "01:04-02:24",
-          "summary": "고정 번들은 미리 정한 구성을 제공하고 믹스앤매치는 고객이 여러 구성요소를 직접 선택하므로 구매 상황에 따라 구조를 달리해야 함",
-          "video_id": "7vQ77-jZ_8o"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-059] 톤·감정·가치 축으로 경쟁 포지셔닝 지도",
-        "url": "https://www.youtube.com/watch?v=d7vmkHmL3dQ",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 브랜드의 말하는 주체와 활동성, 고객에게 주려는 감정, 가격 대비 가치 신호를 축으로 현재 위치·경쟁 위치·목표 위치를 한 장에 표시하고 채널별 카피가 같은 위치를 유지하는지 점검한다. (근거 01:15-02:01; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "design",
-          "listing",
-          "pricing"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=d7vmkHmL3dQ",
-          "timestamp": "01:15-02:01",
-          "summary": "브랜드 포지셔닝을 tone, vibes, value 세 요소로 나누고 현재·경쟁사·목표 위치를 지도에 표시하는 절차를 제시",
-          "video_id": "d7vmkHmL3dQ"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-061] 노출 중인 컬렉션 페이지를 선택 가이드로 보강",
-        "url": "https://www.youtube.com/watch?v=j5vrOvca26A",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 이미 관련성이 관찰된 컬렉션 페이지부터 제목·메타·짧은 도입, 제품 비교, 선택 기준, 사실 기반 FAQ와 자연스러운 내부 링크를 보강하고 색인·클릭·주문 변화를 기록한다. (근거 05:15-06:45; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "design",
-          "knowledge",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=j5vrOvca26A",
-          "timestamp": "05:15-06:45",
-          "summary": "관련성이 있지만 콘텐츠가 얕은 컬렉션에 제목·메타·도입·비교·선택 안내·FAQ·내부 링크를 집중 보강하는 흐름",
-          "video_id": "j5vrOvca26A"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-062] 텍스트 지시보다 시각 예시 중심 크리에이터 브리프",
-        "url": "https://www.youtube.com/watch?v=Ghynj9iBn84",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 유기 크리에이터 브리프에 제품 사실, 목표 고객, 금지 클레임과 함께 참고 영상·장면 예시를 넣고 제출물은 훅·각도·증거 태그로 분류해 재사용 가능한 학습 원장으로 만든다. (근거 17:02-18:20; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "design",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=Ghynj9iBn84",
-          "timestamp": "17:02-18:20",
-          "summary": "크리에이터 브리프를 시각적으로 구성하고 예시 영상, 제품 하이라이트, 목표 고객을 앞에 두어 제작 방향을 명확히 함",
-          "video_id": "Ghynj9iBn84"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-065] 고객 문제 훅을 여러 증거 각도로 유기 테스트",
-        "url": "https://www.youtube.com/watch?v=KCz_4nT4kXw",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 반복 고객 불만 하나를 첫 장면의 훅으로 두고 문제 시연·전후 비교·실사용 검증처럼 서로 다른 각도의 세로형 유기 초안을 만든다. 제품 사실을 넘는 AI 클레임은 금지하고 보유 자산에서 주목·클릭·반품 위험 신호를 비교한다. (근거 10:29-11:42; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "design",
-          "listing",
-          "legal"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=KCz_4nT4kXw",
-          "timestamp": "10:29-11:42",
-          "summary": "고객이 이미 중요하게 여기는 문제를 즉시 훅으로 제시하고 여러 각도를 비교하되 사실이 아닌 AI 생성 클레임은 사용하지 말라는 공식 Shopify 지침",
-          "video_id": "KCz_4nT4kXw"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "[영상 학습 MKT-068] 기기 격차에서 행동 증거로 내려가는 CRO 진단",
-        "url": "https://www.youtube.com/watch?v=gvK0DmKFd34",
-        "pool": "youtube_insight",
-        "summary": "공유 검토 지시: 모바일·데스크톱 전환 격차를 발견하면 평균값만 보지 말고 해당 페이지의 히트맵·호버·이탈을 확인해 혼란 지점을 하나의 가설로 만든 뒤 선택 구조를 명확히 하는 A/B 초안을 작성한다. 평가는 전환율과 함께 세션당 매출을 본다. (근거 02:14-03:58; 실행·성과 검증 아님)",
-        "teams": [
-          "market",
-          "listing",
-          "design",
-          "knowledge"
-        ],
-        "reviewed_at": null,
-        "date_basis": "reviewed_at",
-        "evidence": {
-          "url": "https://www.youtube.com/watch?v=gvK0DmKFd34",
-          "timestamp": "02:14-03:58",
-          "summary": "기기별 전환 격차에서 PDP 히트맵의 구독 선택 혼란을 찾아 선택지를 명확히 하고 A/B 테스트하며 세션당 매출로 효율을 평가",
-          "video_id": "gvK0DmKFd34"
-        },
-        "status": "shared-review-directive",
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "This UI/UX Redesign Will Teach You More Than 100 Tutorials Combined",
-        "url": "https://www.youtube.com/watch?v=GGg61sdEjeI",
-        "pool": "youtube_channel",
-        "teams": [
-          "design"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "The UX Psychology Behind Apps People Can’t Stop Using",
-        "url": "https://www.youtube.com/watch?v=2TlIg3VokY8",
-        "pool": "youtube_channel",
-        "teams": [
-          "design"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Top 3 UX/UI Redesigns That Make You Design Like a Pro",
-        "url": "https://www.youtube.com/watch?v=zr37ibqXl1U",
-        "pool": "youtube_channel",
-        "teams": [
-          "design"
-        ],
-        "date": "",
-        "by_hand": true
       }
     ],
     "robotics": [
+      {
+        "title": "[한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_manual",
+        "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+        "pool": "youtube_manual",
+        "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+        "teams": [
+          "knowledge",
+          "robotics",
+          "pricing"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_manual",
+        "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-Eu4D795nMsQ] 조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다. (근거 14:09-16:04; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+          "timestamp": "14:09-16:04",
+          "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+          "video_id": "Eu4D795nMsQ",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-D_ZfQzPEjOw] 조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다. (근거 05:14-06:47; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "robotics",
+          "pricing"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+          "timestamp": "05:14-06:47",
+          "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+          "video_id": "D_ZfQzPEjOw",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-zFujXrPKoGA] 필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다. (근거 06:32-07:51; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+          "timestamp": "06:32-07:51",
+          "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+          "video_id": "zFujXrPKoGA",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "구글 무료 AI 미쳤다. 영상 속 장면까지 찾는다 #Shorts #EmbeddingGemma2 #EmbeddingGemma #구글 #무료AI #RAG",
         "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
@@ -6836,109 +7285,235 @@
         ],
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "Unitree Introducing | Unitree As2  Your Companion",
-        "url": "https://www.youtube.com/watch?v=1ONE4l_pgHw",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Unitree Kung Fu Bot   Pray for Blessings at the Temple of Heaven: Wish Everyone All the Best",
-        "url": "https://www.youtube.com/watch?v=eQpyvR-B7hc",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "A Whole Bunch of Robots Sending New Year Greetings to Everyone!",
-        "url": "https://www.youtube.com/watch?v=w4IOJH9Akhg",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Unitree Spring Festival Gala Robots —a Full Release of Additional Details",
-        "url": "https://www.youtube.com/watch?v=Ykiuz1ZdGBc",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Unitree Embodied AI Model Manufactures Robots in Factory🤩",
-        "url": "https://www.youtube.com/watch?v=ub2gWviKZpk",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "World's First: Unitree Humanoid Robot Autonomous Walking Challenge in −47.4°C Extreme Cold",
-        "url": "https://www.youtube.com/watch?v=SX4WKUHAP4E",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Unitree Humanoid Robot Daily Training 🥳",
-        "url": "https://www.youtube.com/watch?v=JZllfrHRc4g",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Unitree Debuts the World’s First Humanoid Robot “App Store”",
-        "url": "https://www.youtube.com/watch?v=AEhnXtBEC_E",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Unitree 1.8m Humanoid Robot  Every Punch Comes Through！🥰",
-        "url": "https://www.youtube.com/watch?v=kjJeQZECPcQ",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Embodied Avatar: Full-body Teleoperation Platform",
-        "url": "https://www.youtube.com/watch?v=24h4FTH7plY",
-        "pool": "youtube_channel",
-        "teams": [
-          "robotics"
-        ],
-        "date": "",
-        "by_hand": true
       }
     ],
     "knowledge": [
+      {
+        "title": "[한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_manual",
+        "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+        "pool": "youtube_manual",
+        "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+        "teams": [
+          "knowledge",
+          "robotics",
+          "pricing"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_manual",
+        "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-Eu4D795nMsQ] 조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다. (근거 14:09-16:04; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+          "timestamp": "14:09-16:04",
+          "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+          "video_id": "Eu4D795nMsQ",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-D_ZfQzPEjOw] 조건부 필요 · 설치 보류 — 게임용 PC 한 대로 서버급 AI를 돌린다고? Strata로 배우는 로컬 AI 입문",
+        "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 로컬 후보를 비교할 때 모델 버전·양자화·RAM·VRAM·입력 길이를 고정하고 품질과 전체 지연·전력·장비 비용을 함께 기록한다. (근거 05:14-06:47; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "robotics",
+          "pricing"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=D_ZfQzPEjOw",
+          "timestamp": "05:14-06:47",
+          "summary": "Strata는 MoE의 일부 전문가를 GPU에 두고 RAM/CPU와 분산해 추론한다. 영상의 빠른 수치는 강한 양자화 조건이며 품질·긴 입력·동시처리의 제약도 설명한다.",
+          "video_id": "D_ZfQzPEjOw",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-zFujXrPKoGA] 필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다. (근거 06:32-07:51; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+          "timestamp": "06:32-07:51",
+          "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+          "video_id": "zFujXrPKoGA",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "구글 무료 AI 미쳤다. 영상 속 장면까지 찾는다 #Shorts #EmbeddingGemma2 #EmbeddingGemma #구글 #무료AI #RAG",
         "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
@@ -7899,109 +8474,157 @@
         ],
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "비즈니스 선물로 \"감각 있다\" 소리 듣는 법 🎁 | 10만원 이하 내돈내산 선물 추천템 공개",
-        "url": "https://www.youtube.com/watch?v=VY3vXUfKMEI",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "VLOG 직장인 브이로그ㅣ 연남동 퇴근길😍 콤콤오락실,달링스푼,스튜디오그림비,오월상점,소이연남,동백양과점,소품샵,카페투어ㅣ퇴근길 브이로그❤️",
-        "url": "https://www.youtube.com/watch?v=4ru4xgZfDPA",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "실패없는 호캉스👍! 호텔 예약 부킹부터 호텔 즐기기 꿀팁까지🙌! 이대로만 따라하면 성공👉! /호텔/호캉스/안다즈호텔",
-        "url": "https://www.youtube.com/watch?v=SOVrRAZ_FSo",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "호캉스 VLOG / 1박 35만원! 안다즈Andaz 서울 호캉스 💝 뭐하고 놀까? 연차내고 럭셔리호텔 즐기기 / 블루보틀,고급오복수산,치즈룸,수영장,조식 [땡큐VLOG]",
-        "url": "https://www.youtube.com/watch?v=t6pdHr6GO88",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "테슬라 모델3 장단점 비교 / 차알못의 롱레인지 구매 / 살까?말까? 테슬라 모델3 좋아?vs안좋아? [땡큐]",
-        "url": "https://www.youtube.com/watch?v=iBulbMbLD4A",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
-        "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Yes, Jev Is Insane, But There's A Catch",
-        "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "DeepSeek’s Insane New Architecture",
-        "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Claude Is Now Leaving Invisible Fingerprints In Its Text",
-        "url": "https://www.youtube.com/watch?v=YoEWjZSwoys",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "I Never Thought I’d See This Happen",
-        "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
-        "pool": "youtube_channel",
-        "teams": [
-          "knowledge"
-        ],
-        "date": "",
-        "by_hand": true
       }
     ],
     "institutions": [
+      {
+        "title": "[한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_manual",
+        "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-Eu4D795nMsQ] 조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다. (근거 14:09-16:04; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+          "timestamp": "14:09-16:04",
+          "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+          "video_id": "Eu4D795nMsQ",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "구글 무료 AI 미쳤다. 영상 속 장면까지 찾는다 #Shorts #EmbeddingGemma2 #EmbeddingGemma #구글 #무료AI #RAG",
         "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
@@ -8576,69 +9199,237 @@
         ],
         "date": "",
         "by_hand": true
-      },
-      {
-        "title": "10 years of AlphaGo: The turning point for AI",
-        "url": "https://www.youtube.com/watch?v=qoinGjj60Fo",
-        "pool": "youtube_channel",
-        "teams": [
-          "institutions"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Music AI Sandbox | AI x Creativity: Wyclef Jean",
-        "url": "https://www.youtube.com/watch?v=l5Wpm4o6k1A",
-        "pool": "youtube_channel",
-        "teams": [
-          "institutions"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Gemini 3 Deep Think: Optimizing 2D semiconductor fabrication",
-        "url": "https://www.youtube.com/watch?v=IE0BmXsIzTI",
-        "pool": "youtube_channel",
-        "teams": [
-          "institutions"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Gemini 3 Deep Think: Identifying logical errors in complex mathematics research",
-        "url": "https://www.youtube.com/watch?v=bNrbxCvFrKA",
-        "pool": "youtube_channel",
-        "teams": [
-          "institutions"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Gemini 3 Deep Think: Accelerating mechanical engineering and rapid prototyping",
-        "url": "https://www.youtube.com/watch?v=eAOaRJj02HU",
-        "pool": "youtube_channel",
-        "teams": [
-          "institutions"
-        ],
-        "date": "",
-        "by_hand": true
-      },
-      {
-        "title": "Project Genie | Skydiving",
-        "url": "https://www.youtube.com/watch?v=wIE3-E9EN4g",
-        "pool": "youtube_channel",
-        "teams": [
-          "institutions"
-        ],
-        "date": "",
-        "by_hand": true
       }
     ],
     "graph": [
+      {
+        "title": "[한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_manual",
+        "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_manual",
+        "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_manual",
+        "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-Eu4D795nMsQ] 조건부 필요 · 학습 실행 보류 — [한영자막] 지능을 빌리는 건 그만: 특화 AI의 학습부터 배포까지",
+        "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 학습용 데이터와 독립 평가셋을 분리하고 실제 사례 30건 이상에서 정답·기존 출력·후보 출력·비용·시간을 같은 ID로 비교한다. (근거 14:09-16:04; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=Eu4D795nMsQ",
+          "timestamp": "14:09-16:04",
+          "summary": "특화 모델은 데이터 정리·평가·학습·배포·피드백의 반복으로 개선한다. 발표는 Fireworks 서비스 제공자의 사례이므로 성능 배수를 자사 성과로 쓰지 않는다.",
+          "video_id": "Eu4D795nMsQ",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-zFujXrPKoGA] 필요 · 검증 방법 적용 — 실행 파일만 줬더니 AI가 복원하고 검증까지? | REA 실습",
+        "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 기능 변경 전후에 같은 입력과 경계·빈 값·오류 입력을 대조하고 근거·추정·미확인을 구분한다. 원본 동작을 추정만으로 대체하지 않는다. (근거 06:32-07:51; 실행·성과 검증 아님)",
+        "teams": [
+          "knowledge",
+          "graph",
+          "robotics",
+          "legal"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=zFujXrPKoGA",
+          "timestamp": "06:32-07:51",
+          "summary": "자체 Electron/C 예제를 분석하고 복원한 함수의 출력을 원본과 비교한다. 751/752건은 제작자의 작은 예제 결과다. 정적 분석에서 발견하지 못한 사실을 부재로 단정하지 않는다.",
+          "video_id": "zFujXrPKoGA",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-rDLJswILbe4] 필요 · 레퍼런스 분석 적용 — [저장 필수] 핀터레스트는 그만? 분야별 디자인 레퍼런스 사이트 추천 16선 & 활용법",
+        "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다. (근거 03:41-03:58; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "listing",
+          "market",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=rDLJswILbe4",
+          "timestamp": "03:41-03:58",
+          "summary": "영감 수집과 실무 참고를 구분하고 분야별 갤러리를 활용한다. 링크 저장에 그치지 않고 레이아웃·컬러·타이포그래피와 조합 원리를 분석해야 한다.",
+          "video_id": "rDLJswILbe4",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "구글 무료 AI 미쳤다. 영상 속 장면까지 찾는다 #Shorts #EmbeddingGemma2 #EmbeddingGemma #구글 #무료AI #RAG",
         "url": "https://www.youtube.com/watch?v=-APXgRtYIAw",
@@ -9086,6 +9877,158 @@
       }
     ],
     "channels": [
+      {
+        "title": "Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_manual",
+        "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_manual",
+        "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_manual",
+        "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-pQRJUgrriBk] 필요 · 기존 Jev 유지 및 검증 보강 — Claude에 Jev를 붙여서 사용하는 방법과 실제 동작 방식 (with ELI5) #Jev #Jev사용법 #Claude",
+        "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 분류 입력·출력은 고유 ID로 묶고 누락 응답을 승인으로 취급하지 않는다. 기존 무료 한도·중단 규칙을 유지하며 실제 정답셋에서 누락·오판을 확인한다. (근거 00:49-01:46; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=pQRJUgrriBk",
+          "timestamp": "00:49-01:46",
+          "summary": "Jev는 봇이나 스케줄러가 호출하는 별도 판정 서비스다. 순서 대신 고유 ID로 확률을 매칭하고 정답을 아는 실제 자료로 전후를 비교한다. 화면에만 있는 세 방식의 세부 값은 자막으로 확인할 수 없다.",
+          "video_id": "pQRJUgrriBk",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OMkUQyG1AFE] 필요 · 재사용 작업 지침 적용 — 구글신기능 skill미쳤습니다.. gem쓰고 있다면 지금바로 갈아타세요",
+        "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 팀 작업마다 입력·출력·검증·실패 처리 규칙을 문서화하고 공통 사실 검증 지침 위에 디자인·비용 등 작업별 규칙을 조합한다. (근거 11:40-16:40; 실행·성과 검증 아님)",
+        "teams": [
+          "sourcing",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "design",
+          "channels",
+          "knowledge",
+          "institutions",
+          "robotics",
+          "graph"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OMkUQyG1AFE",
+          "timestamp": "11:40-16:40",
+          "summary": "반복 프롬프트를 재사용 지침으로 만들고 목적별 지침과 자료를 조합하는 데모다. 지침을 넣은 것과 실행 가능한 코드 도구를 설치한 것은 다르다.",
+          "video_id": "OMkUQyG1AFE",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
+      {
+        "title": "[영상 학습 VID-20261017-OmKmKYtpa_A] 제작 절차 필요 · API 연결 보류 — 힉스필드 구독 없이 사용하는 방법 (Higgsfield API 세팅부터 구독 비용 비교까지)",
+        "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+        "pool": "youtube_insight",
+        "summary": "공유 검토 지시: 광고 브리프에 장면·제품 원본·출처·예상비용·예산·실비·재시도 수를 남기고 정지 이미지 검토 후 영상화한다. 실제 제품의 라벨·용량·효능을 생성으로 바꾸지 않는다. (근거 07:54-10:39; 실행·성과 검증 아님)",
+        "teams": [
+          "design",
+          "market",
+          "listing",
+          "pricing",
+          "legal",
+          "channels"
+        ],
+        "reviewed_at": "2026-10-17",
+        "date_basis": "reviewed_at",
+        "evidence": {
+          "url": "https://www.youtube.com/watch?v=OmKmKYtpa_A",
+          "timestamp": "07:54-10:39",
+          "summary": "이미지를 먼저 확인한 뒤 영상으로 만들고 요청별 견적·실비·재시도를 기록한다. 후반 편집은 생성 API를 다시 호출하지 않는 방법을 보여준다.",
+          "video_id": "OmKmKYtpa_A",
+          "timestamp_basis": "downloaded timed captions; approximate ASR alignment",
+          "mapping_verified": true,
+          "source_type": "youtube_captions"
+        },
+        "status": "shared-review-directive",
+        "date": "2026-10-17",
+        "by_hand": true
+      },
       {
         "title": "소프트웨어는 끝났다? 앱 통째로 복사하는 미친 오픈소스.. ㄷㄷ",
         "url": "https://www.youtube.com/watch?v=tByhXkxDKDo",
