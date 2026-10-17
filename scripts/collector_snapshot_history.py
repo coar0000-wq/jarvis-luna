@@ -76,6 +76,9 @@ ROTATING = {
     # AI 수집팀(예전 로보틱스): 논문·블로그·유튜브 최신 목록이 통째로 바뀐다. 2026-10-11 수집원 전환 포함.
     "data/robotics_sources.json": ["sources/*/items", "sources/*/source_results", "sources/*/errors"],
     # 전담팀 카테고리 목록(다이소몰 공개 목록): 실행마다 목록이 통째로 새 관측으로 바뀐다.
+    # 2026-10-17: 디자인팀 오프라인 팩은 현재 S·리스팅 카피에서 매 실행 다시 만드는 파생 보고서다. 카피가 0건이 되자
+    # seo/items 9->0 으로 Core 발행이 막혔다. 팩의 목록 칸만 교체 단위로 둔다(디자인 시스템 값은 그대로 막힘).
+    "data/design/offline_pack.json": ["seo/items", "sections/home", "sections/home/*/products", "assets"],
     "data/daiso_real/desk_catalog.json": ["desks/*", "desks/*/products", "desks/*/categories", "errors", "kept_previous"],
     "data/agents/daiso_pipeline_health.json": ["failed_workflow_history", "input_errors", "scopes", "operating_staleness", "metadata_precision"],
 }
