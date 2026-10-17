@@ -78,5 +78,5 @@ jobs:
             data/operations/reports
           include-hidden-files: true
           if-no-files-found: error
-          retention-days: 3
+          retention-days: 30  # 3일이면 체인이 3일만 멈춰도 이력이 만료돼 영구 교착(2026-10-12~17). 공개 저장소라 보관 무료
           compression-level: 9
