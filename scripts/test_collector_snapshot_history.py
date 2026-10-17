@@ -73,9 +73,13 @@ class CollectorSnapshotTests(unittest.TestCase):
         old = {s: run(["A", "B"], ["x", "y"]) for s in ("last_run", "last_attempt", "last_candidate_success")}
         new = {s: run(["B", "C"], ["x", "y"]) for s in old}
         self.assertEqual(sorted(csh.allowed_removals(rel, old, new, POLICY)), ["A", "A", "A"])
-        bad = {s: run(["A", "B"], ["x"]) for s in old}
+        # 2026-10-17: last_* 는 실행 1회 요약이라 다른 칸(버킷·제외 사유)도 통째로 바뀐다. 빠진 값은 매니페스트에 남는다.
+        moved = {s: run(["A", "B"], ["x"]) for s in old}
+        self.assertEqual(sorted(csh.allowed_removals(rel, old, moved, POLICY)), ["y", "y", "y"])
+        # 누적 칸(totals 등)은 요약이 아니라서 계속 막는다.
+        old_totals, bad = dict(old, totals={"products": 1, "ok": 2}), dict(new, totals={"ok": 2})
         with self.assertRaises(ValueError):
-            csh.allowed_removals(rel, old, bad, POLICY)
+            csh.allowed_removals(rel, old_totals, bad, POLICY)
 
     def test_unchanged_file_writes_nothing(self):
         before = (self.root / "data/publish_deletions.json").read_bytes()

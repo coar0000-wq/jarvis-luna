@@ -60,8 +60,12 @@ ROTATING = {
     # 10-03 이후 매 실행 실패했다(소싱팀 overall_workflow 미복구의 원인).
     # recover_daiso_candidates.py 는 이미 같은 세 경로만 교체를 허용하고 있다. 후보 상품 자체의
     # 보존은 candidate_pool.json 쪽 가드가 계속 지킨다. 다른 칸은 그대로 막는다.
-    "data/daiso_real/collection_status.json": ["fx", "last_run/candidate_ids", "last_attempt/candidate_ids",
-                                               "last_candidate_success/candidate_ids"],
+    # 2026-10-17: candidate_ids 만 풀었더니 다음 실행이 같은 단계에서 'field removal outside rotating lists:
+    # .../last_run/skipped_excluded/선크림' 로 또 막혔다. last_* 는 실행 1회의 요약 보고서라 매 실행 통째로
+    # 바뀐다(제외 사유별 개수·버킷 부족 목록·프리페치 정책). 요약 전체를 교체 단위로 선언하고, 빠진 키는
+    # 매니페스트에 정확한 base/replacement 해시와 함께 남긴다. totals·visited·sitemap 은 그대로 막는다.
+    "data/daiso_real/collection_status.json": ["fx", "last_run", "last_attempt", "last_success",
+                                               "last_candidate_success"],
     # 파생 상태 보고서: 실행마다 실패 이력 창과 범위별 판정이 통째로 바뀐다.
     # 운영 보드: 매 실행 state.json 에서 통째로 다시 만드는 파생 화면(계획·작업·감시 목록). 원본 state 는 그대로 보존된다.
     "data/operations/board.json": ["action_cards", "audit", "audit/counts", "business", "business/blockers", "counts", "engines", "feedback", "source_procedures", "source_procedures/continuity", "source_procedures/plans", "source_recovery", "source_recovery/counters", "source_recovery/episodes", "tasks", "watchers"],
