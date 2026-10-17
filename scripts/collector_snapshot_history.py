@@ -82,6 +82,28 @@ ROTATING = {
     # 2026-10-17: 디자인팀 오프라인 팩은 현재 S·리스팅 카피에서 매 실행 다시 만드는 파생 보고서다. 카피가 0건이 되자
     # seo/items 9->0 으로 Core 발행이 막혔다. 팩의 목록 칸만 교체 단위로 둔다(디자인 시스템 값은 그대로 막힘).
     "data/design/offline_pack.json": ["seo/items", "sections/home", "sections/home/*/products", "assets"],
+    # 2026-10-17: Deep 수집기 스냅샷. 발행 가드가 생긴(10월 초) 뒤 Deep 이 한 번도 발행하지 못해 선언이 없었다.
+    # 로컬에서 Deep 수집기를 실제로 돌려 HEAD 와 비교해 찾은, 실행마다 통째로 바뀌는 순위·피드 목록만 둔다.
+    "data/design_sources.json": ["articles/items", "articles/errors", "articles/failed", "failed_blocks",
+                                 "fonts/top_popular", "fonts/top_trending", "fonts/korean_fonts",
+                                 "fonts/last_attempt", "colors/last_attempt", "articles/source_results/*/last_attempt"],
+    "data/google_trends_beauty.json": ["items", "feed_summaries"],
+    "data/institution_sources.json": ["items", "by_org", "sources/*/failures"],
+    "data/kbeauty_news.json": ["items", "demo_hit_samples", "failed_queries", "bucket_mentions", "bucket_share_pct",
+                               "demo_mentions"],
+    "data/open_beauty_facts.json": ["products"],
+    "data/public_signals.json": ["sources/*/items", "sources/*/errors"],
+    "data/public_trend_rss.json": ["relevant_items", "feed_summaries", "feeds"],  # feeds 의 식별자는 URL(슬래시 포함)이라 목록 단위로 둔다
+    "data/reddit_beauty_signals.json": ["posts", "per_subreddit", "hot_keywords", "beauty_keywords"],
+    "data/youtube_channels.json": ["items", "top_by_views", "failed", "지난결과_유지", "제목_바뀐_영상"],
+    # 같은 날 확인: 위 수집 결과에서 매번 다시 만드는 팀 피드·검토 큐·채널 후보(파생 목록).
+    "data/team_feeds.json": ["teams/*"],
+    "data/youtube_review_queue.json": ["videos"],
+    "data/agents/channel_expansion.json": ["verified_candidates", "unverified_candidates"],
+    "data/design_team.json": ["references/items", "reference_workflow_updated_at"],
+    "data/market_team.json": ["demand_signals/manual_trends"],
+    "data/team_learning.json": ["teams/*/review_pending"],
+    "data/youtube_manual.json": ["updated_at"],
     "data/daiso_real/desk_catalog.json": ["desks/*", "desks/*/products", "desks/*/categories", "errors", "kept_previous"],
     # 2026-10-17: daiso_pipeline_inputs.py 가 보고서를 {history_path, validation_sha256, health:{...}} 형식으로
     # 쓰도록 바뀐 뒤(10-06 이후) Core 가 한 번도 발행하지 못해, 첫 발행에서 옛 평면 칸(status 등)이 빠진다.
