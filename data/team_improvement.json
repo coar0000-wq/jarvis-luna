@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T20:59:52.158482+00:00",
-  "runtime_at": "2026-10-18T05:59:46.376533+09:00",
+  "generated_at": "2026-10-17T22:39:31.716107+00:00",
+  "runtime_at": "2026-10-18T07:39:27.140096+09:00",
   "generator": "scripts/build_team_improvement.py",
   "meaning": "diagnostic_action_text_monitoring_only_not_measured_gain",
   "verified_gains": 0,
@@ -19,21 +19,21 @@
     {
       "team": "sourcing",
       "name": "상품 소싱팀",
-      "회차": 64,
+      "회차": 65,
       "조치": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
       "처음_막힌_시각": "2026-10-05T04:38:22.313258+00:00"
     },
     {
       "team": "market",
       "name": "마케팅 조사팀",
-      "회차": 13,
+      "회차": 14,
       "조치": "고시 표 3건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721 / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979 / 1072800 줌 바이 정샘물 세범다운 쿠션 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
       "처음_막힌_시각": "2026-10-17T10:09:34.592062+00:00"
     },
     {
       "team": "listing",
       "name": "리스팅 제작팀",
-      "회차": 8,
+      "회차": 9,
       "조치": "가격 6건 자동 재생성·재검증 필요",
       "처음_막힌_시각": "2026-10-17T14:29:58.131435+00:00"
     }
@@ -44,12 +44,12 @@
       "state": "정체",
       "open_action": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
       "open_kind": "auto_remediable",
-      "streak": 64,
+      "streak": 65,
       "since": "2026-10-05T04:38:22.313258+00:00",
       "stale": true,
       "status": "failed",
       "summary": "356개 상품 · 등급 S 7 / A 86 / B 48 / C 215 · 새 자료 10건 · 영상 학습 13개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "institutions": {
       "name": "기관 수집팀",
@@ -61,31 +61,31 @@
       "stale": false,
       "status": "ok",
       "summary": "35곳 1,073건 · 미수집 12건 사유 기록 · 새 자료 23건 · 영상 학습 5개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "market": {
       "name": "마케팅 조사팀",
       "state": "정체",
       "open_action": "고시 표 3건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721 / 1074979 [01 페일화이트]밀크터치 디어씽 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979 / 1072800 줌 바이 정샘물 세범다운 쿠션 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재판독] https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
       "open_kind": "auto_remediable",
-      "streak": 13,
+      "streak": 14,
       "since": "2026-10-17T10:09:34.592062+00:00",
       "stale": true,
       "status": "ok",
       "summary": "S등급 7개 · 고시 판독 남음 3건 · 유튜브 자막 31편 · 근거 73개 · 실험 35개 · 새 자료 57건 · 영상 학습 81개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "listing": {
       "name": "리스팅 제작팀",
       "state": "정체",
       "open_action": "가격 6건 자동 재생성·재검증 필요",
       "open_kind": "auto_remediable",
-      "streak": 8,
+      "streak": 9,
       "since": "2026-10-17T14:29:58.131435+00:00",
       "stale": true,
       "status": "ok",
       "summary": "AI 입력 0/7 · 초안 준비 0/7 · 공개 준비 0/7 · Action 0건 · CP 7 · 카피 0 · 고시 4 · 가격 1 · 법률 3 · 스토어 대상 3단위/4SKU 제안(확정 대기) · 변경분 신규 3·수정 0·그대로 0 · 영상 학습 63개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "pricing": {
       "name": "가격 정책팀",
@@ -97,19 +97,19 @@
       "stale": false,
       "status": "ok",
       "summary": "개당 배송비 $6.30~$7.06 · 무게 43~190g (이름추정 3 / 고시용량 4) · DDU/DDP 4개 · 새 자료 19건 · 영상 학습 31개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "legal": {
       "name": "법률·규제팀",
       "state": "정체",
       "open_action": "차단 4건: [피부결케어]VT 리들샷 10(자동 점검 미통과: lab), 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기",
       "open_kind": "human_approval_required",
-      "streak": 15,
+      "streak": 16,
       "since": "2026-10-17T06:20:52.221924+00:00",
       "stale": false,
       "status": "ok",
       "summary": "자동 점검 7건 · 통과 3 · 등록 차단 4 · 참고 주의 4 · MoCRA 준비 2/7(면제 3) · 수출서류 HS 8건 · 라벨 1/6항목 자동 · 새 자료 47건 · 영상 학습 52개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "robotics": {
       "name": "AI 수집팀",
@@ -121,19 +121,19 @@
       "stale": false,
       "status": "ok",
       "summary": "235건 · arxiv 75 / rss 160 · 새 자료 130건 · 영상 학습 7개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "design": {
       "name": "디자인팀",
       "state": "정체",
       "open_action": "다음 단계: 스토어 기본 설정 (Markets·배송·결제)",
       "open_kind": "external_dependency",
-      "streak": 12,
+      "streak": 13,
       "since": "2026-10-17T11:14:25.441205+00:00",
       "stale": false,
       "status": "ok",
       "summary": "스토어 3/13단계 · 오프라인 초안 3단계 · 레퍼런스 78건 (관련 44%) · 폰트 1950개(한글 38) · 팔레트 13색조 · 디자인 기사 60건 · 영상 88건 · 새 자료 83건 · 영상 학습 33개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "channels": {
       "name": "채널 운영팀",
@@ -145,7 +145,7 @@
       "stale": false,
       "status": "ok",
       "summary": "가동 4/15채널 · 낡음 8건 · 수동 입력 32건 · 후보 7건 검사, 미연동 0건 · 영상 학습 7개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "knowledge": {
       "name": "지식 수집팀",
@@ -157,7 +157,7 @@
       "stale": false,
       "status": "ok",
       "summary": "878건 · arXiv 50 / 유기농스킨 30 / Google 300 / US뷰티 498 · 영상 학습 31개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     },
     "graph": {
       "name": "옵시디언 그래프",
@@ -169,7 +169,7 @@
       "stale": false,
       "status": "ok",
       "summary": "86,769노트 · 9,756링크 · 끊어진 링크 0건 · 개인 노트 16건 별도 · 분류 규칙 그림자 검증은 아래 개선 증거에서 별도 표시 · 영상 학습 8개",
-      "checked_at": "2026-10-17T20:59:52.158482+00:00"
+      "checked_at": "2026-10-17T22:39:31.716107+00:00"
     }
   },
   "history": [
@@ -2848,6 +2848,22 @@
     {
       "at": "2026-10-17T20:59:52.158482+00:00",
       "runtime_at": "2026-10-18T05:59:46.376533+09:00",
+      "teams": 11,
+      "양호": 6,
+      "개선": 0,
+      "정체": 5,
+      "후퇴": 0,
+      "막힌_팀": [
+        "design",
+        "legal",
+        "listing",
+        "market",
+        "sourcing"
+      ]
+    },
+    {
+      "at": "2026-10-17T22:39:31.716107+00:00",
+      "runtime_at": "2026-10-18T07:39:27.140096+09:00",
       "teams": 11,
       "양호": 6,
       "개선": 0,

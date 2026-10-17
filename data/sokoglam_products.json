@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-16T23:01:00.110314+00:00",
+  "collected_at": "2026-10-17T22:38:40.961703+00:00",
   "is_stale": false,
-  "count": 236,
+  "count": 234,
   "by_collection": {
     "Best Sellers": 82,
-    "Skincare": 154
+    "Skincare": 152
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 236,
+    "n": 234,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -3280,29 +3280,6 @@
       ]
     },
     {
-      "rank": 97,
-      "name": "Moisturizing Shea Butter + Sweet Almond Oil Youth Cream",
-      "brand": "Knours",
-      "price_usd": 38.0,
-      "category": "Facial Moisturizer",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/knours-one-perfect-youth-cream",
-      "tags": [
-        "badge-cleanbeauty",
-        "badge-femalefounded",
-        "badge-vegan",
-        "cruelty free",
-        "female founded",
-        "female founders",
-        "Knours",
-        "Product_Type::Moisturizer",
-        "Skin_Concern::Anti-Aging/Wrinkles",
-        "Skin_Concern::Dryness/Hydration",
-        "Skin_Concern::Dryness_/_Hydration",
-        "Skin_Type::Combination"
-      ]
-    },
-    {
       "rank": 98,
       "name": "Hyaluronic Acid Daily Sun Gel SPF 30",
       "brand": "ISNTREE",
@@ -4708,29 +4685,6 @@
         "Holiday Gifts",
         "k-beauty",
         "korean makeup"
-      ]
-    },
-    {
-      "rank": 202,
-      "name": "Fermentation Eye Cream",
-      "brand": "BENTON",
-      "price_usd": 27.0,
-      "category": "Eye cream",
-      "collection": "Skincare",
-      "url": "https://sokoglam.com/products/benton-fermentation-eye-cream",
-      "tags": [
-        "$20-$30",
-        "aloe",
-        "badge-bestofkbeautynom",
-        "badge-cleanbeauty",
-        "badge-gold",
-        "benton",
-        "bifida",
-        "BlackFriday2018",
-        "ceramide",
-        "cruelty-free",
-        "de-puff",
-        "de-puff eye"
       ]
     },
     {
