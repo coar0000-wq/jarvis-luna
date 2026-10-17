@@ -43,13 +43,6 @@
       }
     },
     {
-      "query": "path:Knowledge/Sources",
-      "color": {
-        "a": 1,
-        "rgb": 16740419
-      }
-    },
-    {
       "query": "path:Knowledge/Orgs",
       "color": {
         "a": 1,
@@ -57,24 +50,17 @@
       }
     },
     {
-      "query": "path:Phases",
+      "query": "path:Knowledge",
       "color": {
         "a": 1,
-        "rgb": 9268835
+        "rgb": 16740419
       }
     },
     {
-      "query": "path:Briefings",
+      "query": "path:Phases OR path:Briefings",
       "color": {
         "a": 1,
-        "rgb": 10586239
-      }
-    },
-    {
-      "query": "path:Concepts",
-      "color": {
-        "a": 1,
-        "rgb": 5093036
+        "rgb": 11887901
       }
     },
     {
@@ -85,17 +71,143 @@
       }
     },
     {
+      "query": "path:Personal/Claude file:HNSD",
+      "color": {
+        "a": 1,
+        "rgb": 49061
+      }
+    },
+    {
+      "query": "path:Personal/Claude (file:\"Level\" OR file:\"선언\" OR file:\"진화\" OR file:\"우주\" OR file:\"로드맵\")",
+      "color": {
+        "a": 1,
+        "rgb": 8146431
+      }
+    },
+    {
+      "query": "path:Personal/Claude (file:\"Phase\" OR file:\"Week\" OR file:\"Day\" OR file:\"진행\" OR file:\"완료\" OR file:\"Month\" OR file:\"20260\" OR file:\"계획\" OR file:\"일정\")",
+      "color": {
+        "a": 1,
+        "rgb": 5467646
+      }
+    },
+    {
+      "query": "path:Personal/Claude (file:\"YouTube\" OR file:\"youtube\" OR file:\"자동습득\" OR file:\"기술\" OR file:\"분석\" OR file:\"Skills\" OR file:\"SKILL\" OR file:\"MCP\" OR file:\"프롬프트\")",
+      "color": {
+        "a": 1,
+        "rgb": 1638399
+      }
+    },
+    {
       "query": "path:Personal/Claude",
       "color": {
         "a": 1,
-        "rgb": 9479342
+        "rgb": 6619098
+      }
+    },
+    {
+      "query": "path:Personal (file:\"Annotation\" OR file:\"Labeling\" OR file:\"Label_Studio\" OR file:\"Labelbox\" OR file:\"Encord\" OR file:\"Augmentation\" OR file:\"Roboflow\")",
+      "color": {
+        "a": 1,
+        "rgb": 16755520
+      }
+    },
+    {
+      "query": "path:Personal (file:\"Image\" OR file:\"Vision\" OR file:\"Detection\" OR file:\"Segmentation\" OR file:\"Face\" OR file:\"Localization\")",
+      "color": {
+        "a": 1,
+        "rgb": 15662913
+      }
+    },
+    {
+      "query": "path:Personal (file:\"Agent\" OR file:\"Skills\" OR file:\"MCP\" OR file:\"OpenClaw\" OR file:\"Plugin\" OR file:\"AI Models\" OR file:\"AI_Hub\" OR file:\"Voice_AI\" OR file:\"Hermes\")",
+      "color": {
+        "a": 1,
+        "rgb": 14696699
+      }
+    },
+    {
+      "query": "path:Personal (file:\"SEO\" OR file:\"AEO\" OR file:\"Marketing\" OR file:\"Google\" OR file:\"Pinterest\" OR file:\"Content\" OR file:\"Market\" OR file:\"Canva\" OR file:\"Color_Palette\")",
+      "color": {
+        "a": 1,
+        "rgb": 16739904
+      }
+    },
+    {
+      "query": "path:Personal (file:\"AWS\" OR file:\"NVIDIA\" OR file:\"Physical_AI\")",
+      "color": {
+        "a": 1,
+        "rgb": 4244735
+      }
+    },
+    {
+      "query": "path:Personal (file:\"Obsidian\" OR file:\"README\" OR file:\"JARVIS\" OR file:\"TEMPLATE\" OR file:\"Template\" OR file:\"METADATA\" OR file:\"GIT\" OR file:\"Notion\" OR file:\"Knowledge Base\" OR file:\"create a link\" OR file:\"Key Components\" OR file:\"Specific Use\")",
+      "color": {
+        "a": 1,
+        "rgb": 11730777
+      }
+    },
+    {
+      "query": "path:Personal (file:\"Watchlist\" OR file:\"Academic\" OR file:\"Statistics\" OR file:\"Patent\")",
+      "color": {
+        "a": 1,
+        "rgb": 13018880
       }
     },
     {
       "query": "path:Personal",
       "color": {
         "a": 1,
-        "rgb": 7697781
+        "rgb": 11342935
+      }
+    },
+    {
+      "query": "path:Concepts (\"Semantic_Segmentation_Graph\" OR \"Image_Reading_Vision_Skills\" OR \"Event Detection\" OR \"Image_Classification_Graph\" OR \"Face_Recognition_Graph\" OR \"Localization Loss\" OR \"SkillsMP_Premium_Vision_Skills\" OR \"Object_Detection_Graph\" OR \"Image_Generation_Graph\")",
+      "color": {
+        "a": 1,
+        "rgb": 10394916
+      }
+    },
+    {
+      "query": "path:Concepts (\"Agentic_AI_Graph\" OR \"Obsidian_Skills_Download_Guide\" OR \"AI_Agent_Skills\" OR \"Healthcare_Practitioners_Top_Skills\" OR \"AI Models\" OR \"Autonomous_AI_Agent_Complete_Graph\" OR \"AI_Agent_Skills_Guide\" OR \"OpenClaw_AutoQA_Testing_Skills\" OR \"Obsidian_Complete_Skills_Guide\" OR \"MCP_Model_Context_Protocol_Graph\" OR \"Agentic_AI_Complete_Course_Graph\" OR \"Voice_AI_Agents_Complete_Guide\" OR \"50_AI_Agent_Skills_Applied\" OR \"Advanced_Enterprise_Skills\" OR \"Agent Communication\" OR \"OpenClaw_CLAW_Score_System\" OR \"Hermes_Agent_Complete_Guide\" OR \"Plugin Systems\" OR \"Skills_Download_Complete\" OR \"AI_Agent_Research_Advanced_Guide\" OR \"AI_Hub_Papers_20_Agent_Learning\" OR \"AI_Agents_Multi_Industry_Enterprise_Hub\")",
+      "color": {
+        "a": 1,
+        "rgb": 9315498
+      }
+    },
+    {
+      "query": "path:Concepts (\"AWS_Bedrock_AI_Graph\" OR \"AWS_EC2_Compute_Graph\" OR \"AWS_Fundamentals_Graph\" OR \"NVIDIA_AI_Factory_Complete_Graph\" OR \"AWS_Advanced_Services_Graph\" OR \"AWS_IAM_Security_Graph\" OR \"AWS_Management_Infrastructure_Graph\" OR \"AWS_SageMaker_Complete_Graph\" OR \"AWS_Storage_Complete_Graph\" OR \"00_Physical_AI_Factory_Safety_System_Hub\")",
+      "color": {
+        "a": 1,
+        "rgb": 161725
+      }
+    },
+    {
+      "query": "path:Concepts (\"Data_Labeling_Skills_Guide\" OR \"Automatic_Data_Labeling_Factory_Graph\" OR \"Data_Annotation_Types_Graph\" OR \"Labelbox_MLOps_Platform_Graph\" OR \"Data_Annotation_Techniques_Graph\" OR \"Roboflow_Computer_Vision_Platform_Graph\" OR \"Data_Labeling_Advanced_Research_Graph\" OR \"Data_Labeling_Platforms_2026_Graph\" OR \"Data_Annotation_Beginners_Guide_Graph\" OR \"Data_Augmentation_Research_Papers_100_Graph\" OR \"Data_Annotation_Tools_Graph\" OR \"Agentic_Data_Labeling_Guide_Graph\" OR \"Data_Labeling_Research_Papers_Graph\" OR \"Encord_Image_Training_Platform_Graph\" OR \"Automatic_Data_Augmentation_YouTube_Guide_Graph\" OR \"Label_Studio_Platform_Overview_Graph\" OR \"Data_Annotation_Basics_Hindi_Guide_Graph\" OR \"AI_Data_Labeling_Economy_Graph\" OR \"Label_Studio_Practical_Guide_Graph\" OR \"Data_Annotation_Companies_Guide_Graph\") (\"Digital_Marketing_Scaling_Graph\" OR \"Color_Palette_Websites\" OR \"Current Market\" OR \"SEO_Graph\" OR \"Marketing_Fast_2026_Graph\" OR \"Color_Palette_Sites\" OR \"Digital_Marketing_Graph\" OR \"How_Google_Works_Graph\" OR \"AEO_Graph\" OR \"Pinterest_Money_Making_Graph\" OR \"Canva_AI_Graph\" OR \"Proven_SEO_Strategies_Graph\" OR \"Marketing_Research_Papers_Graph\" OR \"Content Metrics\" OR \"SEO_Three_Essentials_Graph\" OR \"SEO_Research_Papers_Graph\" OR \"Google_Ads_Graph\")",
+      "color": {
+        "a": 1,
+        "rgb": 35195
+      }
+    },
+    {
+      "query": "path:Concepts (\"Digital_Marketing_Scaling_Graph\" OR \"Color_Palette_Websites\" OR \"Current Market\" OR \"SEO_Graph\" OR \"Marketing_Fast_2026_Graph\" OR \"Color_Palette_Sites\" OR \"Digital_Marketing_Graph\" OR \"How_Google_Works_Graph\" OR \"AEO_Graph\" OR \"Pinterest_Money_Making_Graph\" OR \"Canva_AI_Graph\" OR \"Proven_SEO_Strategies_Graph\" OR \"Marketing_Research_Papers_Graph\" OR \"Content Metrics\" OR \"SEO_Three_Essentials_Graph\" OR \"SEO_Research_Papers_Graph\" OR \"Google_Ads_Graph\")",
+      "color": {
+        "a": 1,
+        "rgb": 12531212
+      }
+    },
+    {
+      "query": "path:Concepts (\"Data_Labeling_Skills_Guide\" OR \"Automatic_Data_Labeling_Factory_Graph\" OR \"Data_Annotation_Types_Graph\" OR \"Labelbox_MLOps_Platform_Graph\" OR \"Data_Annotation_Techniques_Graph\" OR \"Roboflow_Computer_Vision_Platform_Graph\" OR \"Data_Labeling_Advanced_Research_Graph\" OR \"Data_Labeling_Platforms_2026_Graph\" OR \"Data_Annotation_Beginners_Guide_Graph\" OR \"Data_Augmentation_Research_Papers_100_Graph\" OR \"Data_Annotation_Tools_Graph\" OR \"Agentic_Data_Labeling_Guide_Graph\" OR \"Data_Labeling_Research_Papers_Graph\" OR \"Encord_Image_Training_Platform_Graph\" OR \"Automatic_Data_Augmentation_YouTube_Guide_Graph\" OR \"Label_Studio_Platform_Overview_Graph\" OR \"Data_Annotation_Basics_Hindi_Guide_Graph\" OR \"AI_Data_Labeling_Economy_Graph\" OR \"Label_Studio_Practical_Guide_Graph\" OR \"Data_Annotation_Companies_Guide_Graph\")",
+      "color": {
+        "a": 1,
+        "rgb": 15094016
+      }
+    },
+    {
+      "query": "path:Concepts",
+      "color": {
+        "a": 1,
+        "rgb": 4431943
       }
     }
   ],
