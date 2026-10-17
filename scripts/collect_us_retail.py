@@ -574,6 +574,7 @@ def write_us_beauty(ulta: dict, seph: dict) -> int:
     있어야 상품으로 인정한다. 그래서 source 에 가게 이름을 박아둔다.
     """
     products, notes = [], {}
+    written_at = now_iso()
     for store, entry in (("Ulta", ulta), ("Sephora", seph)):
         for r in entry["rows"]:
             products.append({
@@ -592,6 +593,11 @@ def write_us_beauty(ulta: dict, seph: dict) -> int:
             "count": len(entry["rows"]),
             "source_url": entry["url"],
             "reason": entry["reason"],
+            # 2026-10-17: 가게별 시각. 보강분(Sephora 09-15)에 파일 시각을 붙이면
+            # sync_channels 가 한 달 된 자료를 오늘 수집으로 적었다.
+            "assisted": bool(entry.get("assisted")),
+            "collected_at": ((entry.get("assist_at") or "") if entry.get("assisted")
+                             else (written_at if entry["rows"] else "")),
         }
 
     stale_from = ""
@@ -613,7 +619,7 @@ def write_us_beauty(ulta: dict, seph: dict) -> int:
     payload = {
         "generator": GENERATOR,
         "method": f"{MARKER} · Ulta/Sephora 카드 파싱",
-        "collected_at": now_iso(),
+        "collected_at": written_at,
         "country": "US",
         "market": "beauty",
         "count": len(products),

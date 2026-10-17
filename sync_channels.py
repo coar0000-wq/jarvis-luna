@@ -543,9 +543,30 @@ def _file_reason(filename: str) -> str:
     return str(d.get("reason") or "")[:160] if isinstance(d, dict) else ""
 
 
+def _store_at(us_beauty: dict, store: str, default: str) -> str:
+    """가게별 실제 수집 시각.
+
+    2026-10-17: us_beauty_products.json 의 collected_at 은 파일을 쓴 시각이다.
+    Sephora 는 Access Denied 라 2026-09-15 사람 보강분 14건이 계속 쓰이는데
+    파일 시각(10-16)을 그대로 붙이면 한 달 된 자료가 '오늘 수집 · ok' 로 보인다.
+    보강분이면 보강 시각을, 그 시각을 모르면 빈 값(최신성 검증 불가)을 준다.
+    """
+    note = ((us_beauty or {}).get("by_store") or {}).get(store) or {}
+    if note.get("collected_at"):
+        return str(note["collected_at"])
+    if note.get("assisted") or "보강 파일" in str(note.get("reason") or ""):
+        assist = load_json(DATA / "manual" / "us_retail_assist.json", {}) or {}
+        if store.lower() in {str(k).lower() for k in (assist.get("sites") or {})}:
+            return str(assist.get("captured_at") or "")
+        return ""
+    return default
+
+
 def build_global_channels():
     us_beauty = load_json(DATA / "us_beauty_products.json", {}) or {}
     us_at = us_beauty.get("collected_at") or us_beauty.get("updated_at") or ""
+    ulta_at = _store_at(us_beauty, "Ulta", us_at)
+    sephora_at = _store_at(us_beauty, "Sephora", us_at)
 
     obf_items, obf_at = from_open_beauty_facts()
     oy_items, oy_at, oy_reason = from_oliveyoung_us()
@@ -604,8 +625,8 @@ def build_global_channels():
             "demand_score·predicted_orders·expected_roas 가 조작값이라 삭제. "
             "실측 지표 확보 후 재설계."),
         "tiktok_shop_us": tiered_channel("tiktok_shop_us", direct=from_tiktok()),
-        "ulta_beauty": tiered_channel("ulta_beauty", from_us_beauty("Ulta"), us_at, gmodel),
-        "sephora": tiered_channel("sephora", from_us_beauty("Sephora"), us_at, gmodel),
+        "ulta_beauty": tiered_channel("ulta_beauty", from_us_beauty("Ulta"), ulta_at, gmodel),
+        "sephora": tiered_channel("sephora", from_us_beauty("Sephora"), sephora_at, gmodel),
         "open_beauty_facts": channel(
             obf_items, "world.openbeautyfacts.org /api/v2 (오픈데이터)",
             collected_at=obf_at,

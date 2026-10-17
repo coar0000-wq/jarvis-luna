@@ -356,6 +356,41 @@ def _team(tid: str, name: str, when: str | None, summary: str,
 STALE_HOURS = 48
 
 
+def rebuild_channels_from_sources():
+    """채널 목록을 이전 런타임에서 물려받지 않고 원본 수집 파일에서 다시 만든다.
+
+    2026-10-17 채널 운영팀 '가동 0/15 · 낡음 13' 의 원인.
+      미국 리테일 수집은 매일 성공했다 (amazon_products.json 10-16 23:00 UTC).
+      그 워크플로가 sync_channels.py 로 dashboard_runtime.json 을 갱신했지만
+      publish_transaction 은 런타임을 derived 로 보고 버린 뒤 원격 위에서
+      다시 만든다. 다시 만드는 runtime_commands 에는 sync_channels 가 없고,
+      이 함수 이전 코드는 이전 런타임의 global_channels 를 그대로 보존했다.
+      그래서 수집은 됐는데 채널 상태는 10-03 (Deep Analysis 마지막 성공) 에
+      멈춰 있었다. last_synced 도 "10. 03. 오후 08:52" 그대로였다.
+      실측: amazon/ulta/sephora/amazon_new/sokoglam 5곳이 원본은 10-16 인데
+      런타임에는 10-03 으로 적혀 낡음 처리됐다.
+    sync_channels.build_global_channels() 는 data/ 의 파일만 읽는다 (환율 조회는
+    sync_global_channels() 쪽이라 여기서 부르지 않는다). 그래서 오프라인 재생성
+    안에서 불러도 된다. 실패하면 이전 값을 쓰되 그 사실을 출력한다.
+    """
+    import importlib.util
+    path = ROOT / "sync_channels.py"
+    if not path.exists():
+        print("[channels] sync_channels.py 없음 — 이전 런타임 채널 유지")
+        return None, None
+    try:
+        spec = importlib.util.spec_from_file_location("_sync_channels_offline", path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        channels = mod.build_global_channels()
+    except Exception as exc:  # 수집 파일 하나가 깨져도 대시보드 생성은 계속한다
+        print(f"[channels] 원본 재구성 실패 — 이전 런타임 채널 유지: {type(exc).__name__}: {exc}")
+        return None, None
+    gl = {k: v.get("items") or [] for k, v in channels.items()}
+    st = {k: {kk: vv for kk, vv in v.items() if kk != "items"} for k, v in channels.items()}
+    return gl, st
+
+
 def age_channel_status(gcs):
     """Apply an idempotent source-time overlay without inventing capture times."""
     return age_channels(gcs, stale_hours=STALE_HOURS)
@@ -1236,6 +1271,9 @@ def _main() -> None:
     _p = load_json(OUT, {}) or {}
     prev_global = _p.get("global_channels") if isinstance(_p, dict) else None
     prev_gcs = _p.get("global_channels_status") if isinstance(_p, dict) else None
+    fresh_global, fresh_gcs = rebuild_channels_from_sources()
+    if fresh_global:
+        prev_global, prev_gcs = fresh_global, fresh_gcs
     prev_global, prev_gcs = merge_manual_channels(
         prev_global, prev_gcs,
         load_json(ROOT / "data" / "manual_channels.json", None))
