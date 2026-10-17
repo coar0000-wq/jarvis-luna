@@ -568,9 +568,12 @@ class DailySafetyTests(unittest.TestCase):
 
     def test_workflow_tests_before_write_and_retains_registry_recovery(self):
         workflow = (SCRIPT.parents[1]/".github/workflows/daiso-daily-beauty-shopify.yml").read_text(encoding="utf-8")
-        test_command = "python -B -m unittest discover -s tests -p test_daiso_daily_beauty_to_shopify.py"
+        test_command = "('tests', 'test_daiso_daily_beauty_to_shopify.py')"
         write_command = "run: python scripts/daiso_daily_beauty_to_shopify.py"
         self.assertLess(workflow.index(test_command), workflow.index(write_command))
+        self.assertLess(workflow.index('loader.discover(folder, pattern=pattern, top_level_dir=folder)'), workflow.index(write_command))
+        self.assertIn('if not result.wasSuccessful():', workflow)
+        self.assertIn('raise SystemExit(1)', workflow)
         self.assertIn("path: |\n            out/daiso_daily_beauty_result.json\n            data/shopify_daily_registry.json", workflow)
         self.assertIn("quarantine_blocked_public:", workflow)
 

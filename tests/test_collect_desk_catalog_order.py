@@ -279,5 +279,22 @@ class CollectorCliTests(unittest.TestCase):
                 collect_mock.assert_not_called()
 
 
+class RegistrarWorkflowIsolationTests(unittest.TestCase):
+    def test_runtime_secrets_and_catalog_override_do_not_reach_unit_tests(self):
+        workflow = (ROOT / '.github/workflows/daiso-daily-beauty-shopify.yml').read_text(encoding='utf-8')
+        job_header = workflow.split('    steps:', 1)[0]
+        self.assertNotIn('SHOPIFY_CLIENT_SECRET:', job_header)
+        self.assertNotIn('GEMINI_API_KEY:', job_header)
+        self.assertNotIn('BODY_FALLBACK_CATALOG_PATH:', job_header)
+        tests = workflow.split('- name: 일일 등록 안전성 단위 테스트', 1)[1].split('# Owner-approved', 1)[0]
+        self.assertIn('tempfile.TemporaryDirectory', tests)
+        self.assertIn('shutil.copytree', tests)
+        self.assertIn('socket.socket.connect = blocked', tests)
+        self.assertNotIn('secrets.', tests)
+        live = workflow.split('- name: 다이소 추천 선택 후 Shopify 등록', 1)[1].split('- name: 바디 원래 목록', 1)[0]
+        self.assertIn("BODY_FALLBACK_CATALOG_PATH: 'out/body_shower_catalog.json'", live)
+        self.assertIn('SHOPIFY_CLIENT_SECRET:', live)
+
+
 if __name__ == "__main__":
     unittest.main()

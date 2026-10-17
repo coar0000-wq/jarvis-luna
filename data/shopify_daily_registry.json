@@ -268,12 +268,15 @@
       ],
       "verification": {
         "status": "DRAFT",
-        "normal_sales_channels_shown_selected": 6,
         "images": 11,
         "variants": 2,
-        "api_repair_pending": true,
+        "description_verified": true,
+        "inventory_tracking": false,
+        "api_accessible_published_channels": 0,
         "global_channel_removal_verified": false,
-        "observed_at_utc": "2026-10-17T00:47:46.978Z"
+        "api_repair_pending": false,
+        "source_run_id": 38991111290,
+        "observed_at_utc": "2026-10-17T01:36:41.227Z"
       },
       "verification_history": [
         {
@@ -283,6 +286,15 @@
           "images_loaded": 11,
           "variants": 2,
           "observed_at_utc": "2026-10-16T09:50:25.628Z"
+        },
+        {
+          "status": "DRAFT",
+          "normal_sales_channels_shown_selected": 6,
+          "images": 11,
+          "variants": 2,
+          "api_repair_pending": true,
+          "global_channel_removal_verified": false,
+          "observed_at_utc": "2026-10-17T00:47:46.978Z"
         }
       ]
     }

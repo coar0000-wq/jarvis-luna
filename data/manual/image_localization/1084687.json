@@ -401,7 +401,7 @@
     "status": "DRAFT",
     "product_id": "9590780723457",
     "admin_url": "https://admin.shopify.com/store/coarfamily/products/9590780723457",
-    "completion": "DRAFT_MEDIA_AND_VARIANTS_VERIFIED_DESCRIPTION_REPAIR_PENDING",
+    "completion": "DRAFT_REGISTERED_ENGLISH_MEDIA_API_VERIFIED",
     "attached_media_count": 11,
     "media": [
       {
@@ -483,16 +483,121 @@
     "channel_removal_confirmed": false,
     "public_sale_authorized": false,
     "safety_evidence_verified": false,
-    "verification": "Fresh Shopify admin read after reload; two persisted variant IDs and eleven loaded CDN image elements observed; unexpected unverified append removed.",
+    "verification": "Exact canonical shop ID, product/tag, eleven ordered English image names, two existing variants, zero price placeholders and inventory-off verified via Shopify API; source-backed English copy repaired; DRAFT preserved; no API-accessible published publications. Global channel eligibility/removal not certified.",
     "receipt_recorded_at_utc": "2026-10-16T09:48:58.997Z",
-    "latest_observation": {
-      "status": "DRAFT",
-      "normal_sales_channels_shown_selected": 6,
-      "unexpected_mixed_language_copy": true,
-      "observed_at_utc": "2026-10-17T00:39:33.427Z",
-      "browser_repair_save_unconfirmed": true,
-      "api_repair_pending": true
-    }
+    "verification_history": [
+      {
+        "status": "DRAFT",
+        "normal_sales_channels_shown_selected": 6,
+        "unexpected_mixed_language_copy": true,
+        "observed_at_utc": "2026-10-17T00:39:33.427Z",
+        "browser_repair_save_unconfirmed": true,
+        "api_repair_pending": true
+      }
+    ],
+    "description_verified": true,
+    "api_shop_id": "gid://shopify/Shop/82748997889",
+    "canonical_myshopify_domain": "rb3zh1-i1.myshopify.com",
+    "api_accessible_published_channels": 0,
+    "global_channel_removal_verified": false,
+    "api_view_limitations": [
+      "Publication verification covers only the complete API-accessible view; global channel removal, public-sale readiness and safety are not certified. Shopify productUpdate has no atomic description-SHA compare-and-swap; a concurrent edit after the immediate preflight remains possible."
+    ],
+    "api_media": [
+      {
+        "id": "gid://shopify/MediaImage/41072945332481",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/01-glutathione-main-en.png?v=1792140836"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945365249",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/02-glutathione-texture-en.png?v=1792140836"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945398017",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/03-customize-your-routine-en.png?v=1792140837"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945430785",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/04-lacto-exosome-formula-en.png?v=1792140837"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945463553",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/05-dual-formula-en.png?v=1792140836"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945496321",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/06-capsules-and-gel-en.png?v=1792140836"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945529089",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/07-how-to-use-en.png?v=1792140837"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945561857",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/08-mixing-ratios-en.png?v=1792140836"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945594625",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/09-formula-range-en.png?v=1792140837"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945627393",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/10-range-styled-en.png?v=1792140836"
+        }
+      },
+      {
+        "id": "gid://shopify/MediaImage/41072945660161",
+        "mediaContentType": "IMAGE",
+        "status": "READY",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0827/4899/7889/files/11-product-information-en.png?v=1792140836"
+        }
+      }
+    ],
+    "api_verification_run": "https://github.com/coar0000-wq/jarvis-luna/actions/runs/38991111290",
+    "api_mutations": [
+      "productUpdate_description_only"
+    ],
+    "api_verification_recorded_at_utc": "2026-10-17T01:36:41.213Z"
   },
   "visual_qa": {
     "numbered_assets_reviewed": 11,
