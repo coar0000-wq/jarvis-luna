@@ -419,55 +419,6 @@
       "delete_file": false
     },
     {
-      "path": "data/agents/workflow_freshness.json",
-      "base_sha256": "08c5d798041585dd2b99052ca90bd99359953c3f8500e69d80a8c72aad35a0bb",
-      "replacement_sha256": "0a8d7bb62449ee66731481763979a077613b2f2e03ddaae909bf818104c063ec",
-      "ids": [
-        "finished_at"
-      ],
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/agents/daiso_pipeline_health.json",
-      "base_sha256": "7713f52793d91eb611599ae92d41b4f2412394c9f2df8688c2ab4a74ef3a928f",
-      "ids": [
-        "failed_workflow_history",
-        "input_errors",
-        "metadata_precision",
-        "operating_staleness",
-        "scopes",
-        "status"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "4097bf15d79583fedbb3f6989b20293033f425b04bf61ebf0467eb6262701236",
-      "ids": [
-        "action:intent:task_05d98d4e07037b3985f2619758133eded60e3fe8f0b0a8cfcf85f902d1cd4dfa",
-        "relation:2ca3cceeda693fa6160ab2f7",
-        "relation:97baba97be27ca85ad3484bc"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/state.json",
-      "base_sha256": "c0b55e4abc5a19c3a2f8ef8c773c30e90b239eaddd615211ea2dcc690bf72757",
-      "ids": [
-        "STALE_SOURCE_CAPTURE",
-        "finished_at"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/knowledge/moe_tuning_report.json",
       "base_sha256": "cf40f818428975eb424cc62d766a4b581d1e21abac78accfa30b6f3cbd1d2a64",
       "replacement_sha256": "17e5dcb3504f790a0b9c627a6da2c7c91ef0894150f79dfa44d9b6226def8deb",
@@ -524,6 +475,31 @@
         "https://openalex.org/W7222120992",
         "https://openalex.org/W7222121766",
         "https://openalex.org/W7222139258"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "ff909255d3401e576d70b627c4616a680966e7dea2487a3c9705652ceac6a170",
+      "ids": [
+        "action:intent:task_92c7eed5ed8bc605db305e32140bf89c2285c816a6c348cabd73773b629862e4",
+        "action:intent:task_a74d13fc5624d7e8c14f0ab7127ec53aa524a2c411f1a4a78e2e35641567773d",
+        "relation:5bcb8b8445b822bc200ec1e4",
+        "relation:89f6209f1403e28f3cf540b3",
+        "relation:bd8173333f28ef6882caee2b",
+        "relation:f5f139c5e2cfa2033e426f86"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "8eaf63b0677c30bd6acf908c8f025982317a92cbc1f6eed3aaac1d484402942a",
+      "ids": [
+        "STALE_SOURCE_CAPTURE"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
