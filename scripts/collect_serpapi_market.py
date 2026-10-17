@@ -36,6 +36,8 @@ KEYWORD_LIMIT = 8
 TIMEOUT = 30
 DELAY = 2.0              # 시간당 50회 제한을 넉넉히 지킨다
 RANKING_PRICE_LIMIT = 3  # 2026-10-16: 메이크업 실시간 랭킹 대체 후보 상위 3개 (월 상한 안에서)
+DRAFT_PRICE_LIMIT = 4    # 2026-10-17: 이미 Shopify 초안인데 판매가 근거가 없는 상품 (월 상한 안에서)
+REGISTRY = DATA / "shopify_daily_registry.json"
 STRATEGY = ROOT / "config" / "daiso_commerce_strategy.json"
 
 
@@ -132,6 +134,31 @@ def ranking_targets(skip: set[str]) -> list[dict]:
     return out
 
 
+def registry_draft_targets(skip: set[str]) -> list[dict]:
+    """일일 등록 장부의 DRAFT 중 판매가가 비어 있는 상품.
+
+    2026-10-17: 수동 초안(1084687)·랭킹/바디 대체 초안은 S 가 아니라서 이 수집기의 대상이 아니었고,
+    그래서 가격 근거가 영영 생기지 않았다('selling_price_evidence_pending' 에서 멈춤).
+    가격 규칙(상품별 근거 필수, 용량 비교)은 그대로 두고 측정 대상만 넓힌다.
+    판매 개시(공개·재고)는 여전히 등록 게이트와 사람 승인을 거친다.
+    """
+    reg = load(REGISTRY) or {}
+    out = []
+    for it in reg.get("items") or []:
+        if not isinstance(it, dict) or str(it.get("status") or "").upper() != "DRAFT":
+            continue
+        pd, title = str(it.get("pd_no") or ""), str(it.get("title") or "")
+        if not pd or pd in skip or it.get("single_usd") is not None:
+            continue
+        if not title or any("\uac00" <= ch <= "\ud7a3" for ch in title):
+            continue  # 영문 상품명이 있어야 미국 쇼핑 검색이 같은 상품을 찾는다
+        out.append({"pd_no": pd, "name": title, "query": title, "registry_draft": True})
+        skip.add(pd)
+        if len(out) >= DRAFT_PRICE_LIMIT:
+            break
+    return out
+
+
 def collect_prices(key: str, ledger: dict) -> dict:
     score = load(DATA / "daiso_real" / "shopify_demand_score.json")
     copy = load(DATA / "shopify_listing_copy.json")
@@ -142,10 +169,11 @@ def collect_prices(key: str, ledger: dict) -> dict:
     targets = sorted([x for x in score.get("all_scored") or [] if x.get("grade") == "S"],
                      key=lambda x: -(x.get("shopify_score") or 0))[:PRODUCT_LIMIT]
     targets += ranking_targets({str(x.get("pd_no")) for x in targets})
+    targets += registry_draft_targets({str(x.get("pd_no")) for x in targets})
     items, fails = [], []
     for x in targets:
         pd = str(x.get("pd_no"))
-        q = titles.get(pd) or x.get("name") or ""
+        q = titles.get(pd) or x.get("query") or x.get("name") or ""
         if not q:
             fails.append({"pd_no": pd, "reason": "질의어 없음"})
             continue
@@ -172,6 +200,7 @@ def collect_prices(key: str, ledger: dict) -> dict:
             "engine": "google_shopping", "cached": note == "cached",
             **({"source_scope": "makeup_ranking_fallback", "ranking_display_rank": x["ranking_display_rank"]}
                if x.get("ranking_display_rank") else {}),
+            **({"source_scope": "registry_draft_missing_price"} if x.get("registry_draft") else {}),
         })
         time.sleep(DELAY)
     return {"status": "ok" if items else "failed",
