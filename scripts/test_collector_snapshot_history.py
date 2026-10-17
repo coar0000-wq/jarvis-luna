@@ -81,6 +81,15 @@ class CollectorSnapshotTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             csh.allowed_removals(rel, old_totals, bad, POLICY)
 
+    def test_emptied_rotating_container_may_drop_but_other_fields_stay_guarded(self):
+        # 2026-10-17: 실패 이력이 모두 해소돼 failed_workflow_history 칸이 통째로 빠지자 Core 발행이 막혔다.
+        rel = "data/agents/daiso_pipeline_health.json"
+        old = {"failed_workflow_history": [{"run": 1}], "status": "failed", "public_authority": False}
+        self.assertEqual(csh.allowed_removals(rel, old, {"status": "success", "public_authority": False}, POLICY),
+                         ["failed_workflow_history"])
+        with self.assertRaises(ValueError):
+            csh.allowed_removals(rel, old, {"failed_workflow_history": [], "status": "success"}, POLICY)
+
     def test_unchanged_file_writes_nothing(self):
         before = (self.root / "data/publish_deletions.json").read_bytes()
         self.assertEqual(csh.update(self.root, [self.rel])[self.rel], "unchanged")

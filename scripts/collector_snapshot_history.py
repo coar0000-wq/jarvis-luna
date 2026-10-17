@@ -111,6 +111,11 @@ def allowed_removals(rel: str, old, new, policy: dict, where: tuple[str, ...] = 
         out = []
         for key, value in old.items():
             if key not in new:
+                if rotating(rel, where + (key,)):
+                    # 2026-10-17: 선언된 교체 목록이 비어서 칸째 빠지는 경우(daiso_pipeline_health 의
+                    # failed_workflow_history). 발행 가드가 계산하는 식별자(칸 이름)를 그대로 기록한다.
+                    out.append(str(key))
+                    continue
                 raise ValueError(f"field removal outside rotating lists: {rel}/{'/'.join(where + (key,))}")
             out.extend(allowed_removals(rel, value, new[key], policy, where + (key,)))
         return out
