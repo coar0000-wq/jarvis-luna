@@ -169,6 +169,13 @@ def update(root: Path, paths: list[str]) -> dict:
 
 def main() -> int:
     paths = [p for p in sys.argv[1:] if p in ROTATING]
+    if "--all-declared" in sys.argv[1:]:
+        # 2026-10-17: Core 의 기존 팀 소스 복구는 어느 팀 파일이든 다시 수집할 수 있다(첫 정상 실행에서
+        # robotics_sources.json 이 바뀌었는데 목록에 없어 발행이 막힘). 선언된 파일을 모두 본다.
+        # 바뀌지 않은 파일은 그대로, 선언 밖 삭제는 여전히 막힌다.
+        changed = [rel for rel in ROTATING if (ROOT / rel).exists()
+                   and head_bytes(ROOT, rel) not in (None, (ROOT / rel).read_bytes())]
+        paths = sorted(set(paths) | set(changed))
     try:
         report = update(ROOT, paths)
     except (ValueError, OSError, json.JSONDecodeError) as exc:
