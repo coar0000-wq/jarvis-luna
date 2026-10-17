@@ -419,68 +419,6 @@
       "delete_file": false
     },
     {
-      "path": "data/knowledge/moe_tuning_report.json",
-      "base_sha256": "cf40f818428975eb424cc62d766a4b581d1e21abac78accfa30b6f3cbd1d2a64",
-      "replacement_sha256": "17e5dcb3504f790a0b9c627a6da2c7c91ef0894150f79dfa44d9b6226def8deb",
-      "ids": [
-        "0.001015",
-        "0.001153",
-        "0.997832"
-      ],
-      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
-      "policy_ref": "scripts/moe_evaluation_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/knowledge/real_sources.json",
-      "base_sha256": "0c2e79fede8776b7a1833a97807c55edaf81c83897968a0dedae28aac769b053",
-      "ids": [
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16bDVPVFB6bGd5Q3RRRmJFRW5kR0xLTG9lUDRLaDdjN1FOSE5va2FSWkZZcW84TWh5SDlxckwwSjBJRzdGTENXVUpQZnQ3ZjJSLXZacUYxaw?oc=5",
-        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56UWtqX0RpNGtuOURxc3k2dTRTMV9IU3JHc2lrRk1wRUU5a3hWTjlHeTZFNkRwSDMtVFpIczlyZGdGMU02ZElMYk5DTm5uWG04R3FXaVNOM3oxb3NybjRmcw?oc=5",
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zV2QtQVFYS3lsUl9lSDltVnQ5OWNMbU9zLWhubHpwM3VXUzl3dm9SZVZNYks3eS1Gd053U0ZSVjczb2dfWWExQ3dsV3M3R0ViUWZTSUlWWHlzdmc3cldDSmp5Q08?oc=5",
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GZHUzb29DSFNOX3lCRXcwNl9ZTkdXUEt3MmtJN0lEYVBqQjNYaGFkUkxkeFRNb0FqR09UM0VBbVpCcTFuNDBRdVdyaUFoZzlfOVV4NmhBcFNhYVk0UEExaHF3N0RHZw?oc=5",
-        "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Pekw3MkFSb1U1SFhzaV9sTjJUWVpKakdydlNhTFlrMVpoazNJX3VEV3ZfMlBUdS1UV3hKaDEtVXhZdV9YeEhVWmVkY3BReWNXTXJtSzNfWXhkYmdZVHF2Wk5Gc082ZWtPakdmc2NHUmxvR1U?oc=5",
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qa3VIOXBPeHA5SnZVQ2E2ekFMMVZ2RGxacFE1WjEwYVdqUUdaMlkzTHFpRy1ncnBZcXRjQkh0dVdXQ25iZm9KR1VvZHZLYWRBTFVxNVZBVW8yWjZjLWJvVUNyZlBkNmNkTW5zQ2NGaXN6VFFCX0VoaUJ3?oc=5",
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxONVZoeHI4TzZMS0tEM2tWc01tUFowTzhiUkJPcXllM2U5bGNDWVhjaC1sOFV0ejl4N1NNYjFBQ3JMSVNoMEwtVldRYm0xUlFyYlZYbm00M3l4WEgyeG1qblZEZEJIc0EyNC1uWW0zQ0Fma3EyMmVJSWtHc184LUlLT002X3U3eURVcF9oZDdB?oc=5",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRzRKU3k1OTdtTmFaRklNMWdaRTVUOGF6OVBudndQWUgweHFNeE5JVG5PTDg5bFlMbmxQTXM0VjIxNGVMM0lnc0ItZGpFZmFMRkU0QWtzNDViX1pMX19HektyT1hpaTNHNDNSN3NkS2JPSXhLbjZkMkp5UGgyZnNzQTZLNFJ4T0lqWDlBME9rQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeU5xbHV3ZlRVbzhTTW93RUVydWM5cmFZU2t6X19UWl90NlA2Z2ZTZFA1UEFDMWtsa2Z2dzdoaWVaazF5OFpxRmljbGlSQUZwYWdvaUhuS2t3UTdJQnZuMGNnQkhrYkdZZ2c5SnRFVFNJZmZQWGtGeGxrUUtmWS1jaUN3cjZTVEVtOENpNGhPTUNrQdIBlwFBVV95cUxNX0JSTWV1eWJOVXBOUFdWUmh2ZVNjWUZNWVRQUGxvSDM4aXluUk43Y1I2aW5vZ0hDaWZKN19zb3VSVUpZdXF4VUVoYklhMTE4TFhvWWsxQnRvOXNtQjRlUEl4WC1MV2YweTNOcTQxbHBwMElPUGxQekw1X1Y0MVNYS0FKYldvNXVIdVNKanFyRlo1elhUSEx3?oc=5",
-        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUDhuanlLZVBFSTJZaWRKZXdnYjFtb3QzMV9qbzJYMWJ0Y0gtUFRvMkxtSWJFbU1pLXAzRFBLdHI0QXRoY3pTcENyLW9ZQml0bG1ERkRrNk9FcTJweXJ0RE1XdkFJOU5LUkVNQXdBenc4NTZxQXFpRUFaTmRFclVxa3h0VGJGWEJxU091UEFCbmRERnJqd2VMM0hvUTYzZlU?oc=5",
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT05BSlBpQkpFR1o2dDdWZ2VuTllJVXl2S3RyeEFMRVdXVEowLVJicVhSNndOMkp4RVdNQTdSRzZvTWdncElSdmRIakhsTDVBR000OF9mQndSdzF6UlNwMWFiU1llRG43VFVuNkVfcGxkSnFBaHVhaE1uazRqSklCTnBLbm9VQ3A2TVZEbjJOYkU3aU05bHY3U1hDblA2MnZr?oc=5",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR3lxNWgxbmc2dG5CcmFZSjJTVFJuMXhNSmwxUzNXUUx4RTN5WHBwTkpZQ2labGJ1WFhCU2tSVncxSWVKbXlMUGhaeHd2S3c1UlBaQkhILVBvalRuTUdnVHNIT3k5WmJlZlJiVVdYdDlTZkNEWEhmSFBQSVgzRHFJWXBEZlNNRkdTWnk1c1QxdUgzNWRPNUdMWWtDUVpCenVUenZMZ3NB?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmYxVEVoWmtaTjhwRXJfUmhkYmUtMjJaZHExMDIwSV8xcGF5Z3JQdXFOSExGRGkwNWhUZkxJaUpHVWtyX1ZJVU1BNzRnTWRMZVJ0eVAxWHhOdy03TXJzRlB3RHp1dS02S01QRDZmMmNMb2tDZW9jSm9nNGtLNGJyTUtjYkk4d2tCcnE5LXdtSXRTdlU3bElRcXc4R2YxRmxldndFVm9Sbw?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR20xVFRxQWQySFozWmVpWFB1N0dlNmcyWXJvTFNHR0JBZ2xFanI5UWNad2FyWmV2ckpGOVZEVWFBbDRTZDd6TUJZbERaR0I5c1RhZ1Q3ZlFhY21GWDczZzkxZmxla3prcFFHYVdERDlrUWMwNGNfOEtNSWJobVJWT1FqZHNfM1BYd1MxR3NycEF6NVo5S3pmM0hrc2ZqUEpXWUw5NzlqdjR2Zw?oc=5",
-        "https://openalex.org/W7221524712",
-        "https://openalex.org/W7221880453",
-        "https://openalex.org/W7221880709",
-        "https://openalex.org/W7221883356",
-        "https://openalex.org/W7221909906",
-        "https://openalex.org/W7221912738",
-        "https://openalex.org/W7221919968",
-        "https://openalex.org/W7221951185",
-        "https://openalex.org/W7221957917",
-        "https://openalex.org/W7221972119",
-        "https://openalex.org/W7221974988",
-        "https://openalex.org/W7221977592",
-        "https://openalex.org/W7221990252",
-        "https://openalex.org/W7221996178",
-        "https://openalex.org/W7221998504",
-        "https://openalex.org/W7222003571",
-        "https://openalex.org/W7222005913",
-        "https://openalex.org/W7222012843",
-        "https://openalex.org/W7222033066",
-        "https://openalex.org/W7222046450",
-        "https://openalex.org/W7222048181",
-        "https://openalex.org/W7222093126",
-        "https://openalex.org/W7222100008",
-        "https://openalex.org/W7222120992",
-        "https://openalex.org/W7222121766",
-        "https://openalex.org/W7222139258"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/operations/knowledge_graph.json",
       "base_sha256": "ff909255d3401e576d70b627c4616a680966e7dea2487a3c9705652ceac6a170",
       "ids": [
@@ -500,6 +438,21 @@
       "base_sha256": "8eaf63b0677c30bd6acf908c8f025982317a92cbc1f6eed3aaac1d484402942a",
       "ids": [
         "STALE_SOURCE_CAPTURE"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/real_sources.json",
+      "base_sha256": "0ac814153dd3a0974b4c211e13891775e6ec85a503a350625e65d0c1a1c1b2a5",
+      "ids": [
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qRFdLYmRLWXlTSjNqcmVUVjJ0dEhjYUx2VklLa3ZXUGxSRWY2UDNBbE1BdHJrOU1jZDF6Y2NwNnR2c0wtNE1udE15OENqWEI1UF8zVHhONA?oc=5",
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE5idUp3Z2hMWDFOR19vdU1YaHNvRVZZZExhLUxtVDc0RVUzZFA4Y1FnNWlIOVc1OUtKbGZXNTMza3dhVTlYZlkyR2hiRS12WVVfZzkzRmhFNHVjNGpSSFRwN1ZLc0JQUzJSbU9tZVBfYw?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QSjEtay14Nms3Y0xKSDVUUnEwZUJ0LXFXNUo5dWpjQXNUX2dPaVkwNG1KN0ZLd0cxYnFkVEh0V3R5Mjh6a1VEb19YTldKZV9lSnBuSlk5STdQMFhrUVRJeDJjZVhPS0Q2NHVyMGtwWU9MMTlOMWFtR3djQzJNZw?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYTY4bUtJczk5T2pxdlpUUHp2THpXUTljRFFWbDJkNV8tVjJZRUdnMGhLSC1zcnpLS1BraE9HaFpMN2VLaWJjWTBEV3NGRDZfaHF1dTJyVjN1ZlByWnF0eVUtRXZHNnJXdVRhcllpVzR2d1lBcjYyVldGbDZCZHhRU09SOA?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUHpIYmx1U29DbnI4RmZjUWtra0RzdHF4bHdaSnZMal9DMWVlWENxTDl4NmlmUWNBUi0xSjktZm1IQnZ3UDdtNno3elotSkltTVhFM2pidnhqYng0M2NWYU5tRHhVQmJEVTdoRWdONU9aaFd6aDVJalFkdzV4ZGZEclhjeURmMHVjTWprTGdkYmpOQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcjU2MUp3YWdldzZOeHlLRV9TYUsyNXljLXlhc0Q3T2x6U3FVZ2pPQUFjR0VDNEZtdlJuUHgwSndfX0pEMUFIc2NjSmwtNVlUdlhWVXhOTjBZT3JWcEZGRTJxVUI5NnZlNl9UM0hZVGNzSEQxZk41b3NGUlNMYzcwVWtfMGJHMnBnbk5VZ2dQMEV3ZUE?oc=5"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
