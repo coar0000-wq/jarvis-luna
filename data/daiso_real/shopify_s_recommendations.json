@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:10:52.748071+00:00",
+  "generated_at": "2026-10-17T14:25:35.294700+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -34,15 +34,18 @@
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing",
         "legal_full"
       ],
@@ -55,23 +58,24 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
+          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, price, manufacturer_safety_record_missing",
+          "public blockers: copy, price, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-17T12:10:53.232505+00:00"
+      "gate_generated_at": "2026-10-17T14:25:36.051540+00:00"
     },
     {
       "rank": 2,
@@ -102,15 +106,18 @@
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing",
         "legal_full"
       ],
@@ -123,23 +130,24 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
+          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, price, manufacturer_safety_record_missing",
+          "public blockers: copy, price, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-17T12:10:53.232505+00:00"
+      "gate_generated_at": "2026-10-17T14:25:36.051540+00:00"
     },
     {
       "rank": 3,
@@ -214,7 +222,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-17T12:10:53.232505+00:00"
+      "gate_generated_at": "2026-10-17T14:25:36.051540+00:00"
     },
     {
       "rank": 4,
@@ -282,7 +290,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-17T12:10:53.232505+00:00"
+      "gate_generated_at": "2026-10-17T14:25:36.051540+00:00"
     },
     {
       "rank": 5,
@@ -365,7 +373,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-17T12:10:53.232505+00:00"
+      "gate_generated_at": "2026-10-17T14:25:36.051540+00:00"
     },
     {
       "rank": 6,
@@ -447,7 +455,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-17T12:10:53.232505+00:00"
+      "gate_generated_at": "2026-10-17T14:25:36.051540+00:00"
     },
     {
       "rank": 7,
@@ -520,7 +528,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-17T12:10:53.232505+00:00"
+      "gate_generated_at": "2026-10-17T14:25:36.051540+00:00"
     }
   ],
   "agent_ready_count": 0,

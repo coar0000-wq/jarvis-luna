@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-17T12:10:53.555330Z",
+  "as_of": "2026-10-17T14:25:36.565334Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -82,7 +82,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-17T12:10:52.748071+00:00",
+        "timestamp": "2026-10-17T14:25:35.294700+00:00",
         "record_count": 356
       },
       {
@@ -92,7 +92,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-17T12:10:53.083968+00:00",
+        "timestamp": "2026-10-17T14:25:35.814509+00:00",
         "record_count": 356
       },
       {
@@ -112,7 +112,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-17T12:10:52.850228+00:00",
+        "timestamp": "2026-10-17T14:25:35.449842+00:00",
         "record_count": null
       },
       {
@@ -132,7 +132,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-17T12:10:53.452031+00:00",
+        "timestamp": "2026-10-17T14:25:36.392285+00:00",
         "record_count": 0
       },
       {
@@ -162,8 +162,8 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-11T04:51:33.906419+00:00",
-        "record_count": 84
+        "timestamp": "2026-10-17T13:28:33.331140+00:00",
+        "record_count": 100
       },
       {
         "key": "serpapi",
@@ -172,7 +172,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-01T23:39:34.955593+00:00",
+        "timestamp": "2026-10-17T12:15:13.697554+00:00",
         "record_count": null
       },
       {
@@ -331,7 +331,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-03T11:42:15.459821+00:00",
-        "age_hours": 336.48,
+        "age_hours": 338.72,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -346,11 +346,9 @@
         "channel": "sokoglam_us",
         "present": true,
         "collected_at": "2026-10-16T23:01:00.110314+00:00",
-        "age_hours": 13.16,
-        "verified": false,
-        "reasons": [
-          "unverified_or_stale_source"
-        ],
+        "age_hours": 15.41,
+        "verified": true,
+        "reasons": [],
         "items_total": 236,
         "items_priced": 236,
         "shipping_known_items": 0
@@ -360,7 +358,7 @@
         "channel": "sephora",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.585606+00:00",
-        "age_hours": 13.17,
+        "age_hours": 15.41,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -374,11 +372,9 @@
         "channel": "ulta_beauty",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.585606+00:00",
-        "age_hours": 13.17,
-        "verified": false,
-        "reasons": [
-          "unverified_or_stale_source"
-        ],
+        "age_hours": 15.41,
+        "verified": true,
+        "reasons": [],
         "items_total": 112,
         "items_priced": 112,
         "shipping_known_items": 0
@@ -388,7 +384,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 768.86,
+        "age_hours": 771.1,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -403,11 +399,9 @@
         "channel": "amazon_best_sellers",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.551649+00:00",
-        "age_hours": 13.17,
-        "verified": false,
-        "reasons": [
-          "unverified_or_stale_source"
-        ],
+        "age_hours": 15.41,
+        "verified": true,
+        "reasons": [],
         "items_total": 46,
         "items_priced": 46,
         "shipping_known_items": 0
@@ -417,11 +411,9 @@
         "channel": "amazon_new_beauty",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.553116+00:00",
-        "age_hours": 13.17,
-        "verified": false,
-        "reasons": [
-          "unverified_or_stale_source"
-        ],
+        "age_hours": 15.41,
+        "verified": true,
+        "reasons": [],
         "items_total": 46,
         "items_priced": 44,
         "shipping_known_items": 0
@@ -431,7 +423,7 @@
         "channel": "amazon_movers_beauty",
         "present": true,
         "collected_at": "2026-10-16T23:00:55.552888+00:00",
-        "age_hours": 13.17,
+        "age_hours": 15.41,
         "verified": false,
         "reasons": [
           "no_items"
@@ -466,7 +458,7 @@
       "missing": 207
     },
     "pricing_model_landed_cost_products": 7,
-    "serpapi_product_aggregates": 9,
+    "serpapi_product_aggregates": 10,
     "shopify_products_json": {
       "rows": 14,
       "usable_as_product_price_evidence": false,
@@ -480,14 +472,13 @@
       "unknown": 214
     },
     "profitability_risk": {
-      "below_target_margin": 3,
-      "ok": 4,
+      "below_target_margin": 2,
+      "ok": 5,
       "unknown": 207
     },
     "product_level_analytics_observations": 0
   },
   "unknowns": [
-    "No market source is verified and fresh as of the report time; no market minimum is qualified.",
     "No market item records shipping, so no delivered comparison exists; comparisons are at best provisional.",
     "Our customer-facing shipping charge is not in any input; pass --own-shipping-usd to evaluate delivered price.",
     "No product-level orders/traffic input; all review metrics are UNKNOWN (not zero).",
@@ -684,8 +675,8 @@
         "unknown": 143
       },
       "profitability_risk_counts": {
-        "below_target_margin": 3,
-        "ok": 2,
+        "below_target_margin": 2,
+        "ok": 3,
         "unknown": 138
       },
       "priority_top5": [
@@ -1133,7 +1124,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-17T12:10:52.850228+00:00"
+            "observed_on": "2026-10-17T14:25:35.449842+00:00"
           }
         ],
         "conflict": false,
@@ -1384,10 +1375,10 @@
           },
           {
             "kind": "model_recommended",
-            "price_usd": 23.99,
+            "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-17T12:10:52.850228+00:00"
+            "observed_on": "2026-10-17T14:25:35.449842+00:00"
           }
         ],
         "conflict": true,
@@ -1457,26 +1448,27 @@
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
-          "query": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-          "sample_n": 20,
-          "min_usd": 4.99,
-          "median_usd": 24.5,
-          "max_usd": 56.9,
-          "freshness": "stale",
-          "age_hours": 372.52,
+          "query": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+          "sample_n": 4,
+          "min_usd": 24.99,
+          "median_usd": 27.74,
+          "max_usd": 33.99,
+          "freshness": "fresh",
+          "age_hours": 2.17,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
-            "seller_variant_and_shipping_unknown",
-            "stale_by_age"
+            "seller_variant_and_shipping_unknown"
           ],
           "reference_basis": {
-            "eligible": true,
-            "reasons": [],
+            "eligible": false,
+            "reasons": [
+              "sample_below_minimum"
+            ],
             "factor": 0.95,
             "claim": "reference_price_basis_only",
             "used_for_priority_score": false,
-            "reference_basis_price_usd": 23.28
+            "reference_basis_price_usd": null
           }
         }
       },
@@ -1634,15 +1626,15 @@
       "own_price": {
         "status": "model_recommended",
         "kind": "model_recommended",
-        "price_usd": 15.99,
+        "price_usd": 22.99,
         "source": "pricing_model.json",
         "candidates": [
           {
             "kind": "model_recommended",
-            "price_usd": 15.99,
+            "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-17T12:10:52.850228+00:00"
+            "observed_on": "2026-10-17T14:25:35.449842+00:00"
           }
         ],
         "conflict": false,
@@ -1674,26 +1666,27 @@
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
-          "query": "VONSEP Retinol 500 IU Serum 30ml",
-          "sample_n": 13,
-          "min_usd": 10.88,
-          "median_usd": 16.8,
-          "max_usd": 58.81,
-          "freshness": "stale",
-          "age_hours": 372.52,
+          "query": "본셉 레티놀 500 IU 세럼 30 ml",
+          "sample_n": 2,
+          "min_usd": 7.48,
+          "median_usd": 18.24,
+          "max_usd": 29.0,
+          "freshness": "fresh",
+          "age_hours": 2.17,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
-            "seller_variant_and_shipping_unknown",
-            "stale_by_age"
+            "seller_variant_and_shipping_unknown"
           ],
           "reference_basis": {
-            "eligible": true,
-            "reasons": [],
+            "eligible": false,
+            "reasons": [
+              "sample_below_minimum"
+            ],
             "factor": 0.95,
             "claim": "reference_price_basis_only",
             "used_for_priority_score": false,
-            "reference_basis_price_usd": 15.96
+            "reference_basis_price_usd": null
           }
         }
       },
@@ -1730,7 +1723,7 @@
         },
         "weight_estimated": true,
         "effective_target_margin_pct": 45.0,
-        "basis_price_usd": 15.99,
+        "basis_price_usd": 22.99,
         "price_source": "pricing_model.json",
         "scenarios": {
           "ship_1_unit_order": {
@@ -1742,12 +1735,12 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 15.99,
+            "price_usd": 22.99,
             "landed_cost_usd": 10.61,
-            "fee_usd": 0.32,
-            "net_profit_usd": 5.06,
-            "margin_pct": 31.6,
-            "risk": "below_target_margin"
+            "fee_usd": 0.46,
+            "net_profit_usd": 11.92,
+            "margin_pct": 51.8,
+            "risk": "ok"
           },
           "ship_2_unit_order": {
             "status": "computed",
@@ -1758,18 +1751,18 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 15.99,
+            "price_usd": 22.99,
             "landed_cost_usd": 7.84,
-            "fee_usd": 0.32,
-            "net_profit_usd": 7.83,
-            "margin_pct": 49.0,
+            "fee_usd": 0.46,
+            "net_profit_usd": 14.69,
+            "margin_pct": 63.9,
             "risk": "ok"
           }
         },
-        "risk": "below_target_margin",
+        "risk": "ok",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "below_target_margin",
+      "profitability_risk": "ok",
       "priority": {
         "score": 58.8,
         "evidence_status": "unknown_price_evidence",
@@ -1870,10 +1863,10 @@
           },
           {
             "kind": "model_recommended",
-            "price_usd": 17.99,
+            "price_usd": 19.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-17T12:10:52.850228+00:00"
+            "observed_on": "2026-10-17T14:25:35.449842+00:00"
           }
         ],
         "conflict": true,
@@ -1919,18 +1912,17 @@
         },
         "aggregate_reference": {
           "source": "serpapi_market.json (google_shopping aggregate)",
-          "query": "VT PDRN Radiance Cream 50 ml",
-          "sample_n": 20,
-          "min_usd": 7.48,
-          "median_usd": 18.38,
-          "max_usd": 93.6,
-          "freshness": "stale",
-          "age_hours": 372.52,
+          "query": "[영양광채]VT PDRN 광채 크림 50 ml",
+          "sample_n": 13,
+          "min_usd": 6.54,
+          "median_usd": 20.99,
+          "max_usd": 34.95,
+          "freshness": "fresh",
+          "age_hours": 2.17,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
-            "seller_variant_and_shipping_unknown",
-            "stale_by_age"
+            "seller_variant_and_shipping_unknown"
           ],
           "reference_basis": {
             "eligible": true,
@@ -1938,7 +1930,7 @@
             "factor": 0.95,
             "claim": "reference_price_basis_only",
             "used_for_priority_score": false,
-            "reference_basis_price_usd": 17.46
+            "reference_basis_price_usd": 19.94
           }
         }
       },
@@ -2101,7 +2093,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-17T12:10:52.850228+00:00"
+            "observed_on": "2026-10-17T14:25:35.449842+00:00"
           }
         ],
         "conflict": false,
@@ -2125,7 +2117,31 @@
         "rejected_counts": {
           "own_english_identity_missing": 608
         },
-        "aggregate_reference": null
+        "aggregate_reference": {
+          "source": "serpapi_market.json (google_shopping aggregate)",
+          "query": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+          "sample_n": 1,
+          "min_usd": 8.89,
+          "median_usd": 8.89,
+          "max_usd": 8.89,
+          "freshness": "fresh",
+          "age_hours": 2.17,
+          "qualified": false,
+          "not_used_because": [
+            "aggregate_not_item_level",
+            "seller_variant_and_shipping_unknown"
+          ],
+          "reference_basis": {
+            "eligible": false,
+            "reasons": [
+              "sample_below_minimum"
+            ],
+            "factor": 0.95,
+            "claim": "reference_price_basis_only",
+            "used_for_priority_score": false,
+            "reference_basis_price_usd": null
+          }
+        }
       },
       "price_position": {
         "status": "unknown",
@@ -4117,32 +4133,7 @@
         "rejected_counts": {
           "own_english_identity_missing": 608
         },
-        "aggregate_reference": {
-          "source": "serpapi_market.json (google_shopping aggregate)",
-          "query": "VT Hyaluron Sleeping Mask 4ml",
-          "sample_n": 20,
-          "min_usd": 4.67,
-          "median_usd": 11.55,
-          "max_usd": 23.75,
-          "freshness": "stale",
-          "age_hours": 372.52,
-          "qualified": false,
-          "not_used_because": [
-            "aggregate_not_item_level",
-            "seller_variant_and_shipping_unknown",
-            "stale_by_age"
-          ],
-          "reference_basis": {
-            "eligible": false,
-            "reasons": [
-              "volume_outside_tolerance"
-            ],
-            "factor": 0.95,
-            "claim": "reference_price_basis_only",
-            "used_for_priority_score": false,
-            "reference_basis_price_usd": null
-          }
-        }
+        "aggregate_reference": null
       },
       "price_position": {
         "status": "unknown",
@@ -4547,30 +4538,7 @@
         "rejected_counts": {
           "identity_mismatch": 608
         },
-        "aggregate_reference": {
-          "source": "serpapi_market.json (google_shopping aggregate)",
-          "query": "MEDI-PEEL Face Toner 200ml",
-          "sample_n": 20,
-          "min_usd": 9.49,
-          "median_usd": 32.0,
-          "max_usd": 153.0,
-          "freshness": "stale",
-          "age_hours": 372.52,
-          "qualified": false,
-          "not_used_because": [
-            "aggregate_not_item_level",
-            "seller_variant_and_shipping_unknown",
-            "stale_by_age"
-          ],
-          "reference_basis": {
-            "eligible": true,
-            "reasons": [],
-            "factor": 0.95,
-            "claim": "reference_price_basis_only",
-            "used_for_priority_score": false,
-            "reference_basis_price_usd": 30.4
-          }
-        }
+        "aggregate_reference": null
       },
       "price_position": {
         "status": "unknown",
@@ -4630,7 +4598,8 @@
         "eligible_by_grade_and_gates": false,
         "all_blockers": [
           "grade_not_allowed_by_config",
-          "manufacturer_safety_record_missing"
+          "manufacturer_safety_record_missing",
+          "price_evidence_missing"
         ],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
@@ -7448,30 +7417,7 @@
         "rejected_counts": {
           "own_english_identity_missing": 608
         },
-        "aggregate_reference": {
-          "source": "serpapi_market.json (google_shopping aggregate)",
-          "query": "Bongseop Retinol Firming Shot Body Guasha Serum 100ml",
-          "sample_n": 9,
-          "min_usd": 7.48,
-          "median_usd": 19.93,
-          "max_usd": 22.23,
-          "freshness": "stale",
-          "age_hours": 372.52,
-          "qualified": false,
-          "not_used_because": [
-            "aggregate_not_item_level",
-            "seller_variant_and_shipping_unknown",
-            "stale_by_age"
-          ],
-          "reference_basis": {
-            "eligible": true,
-            "reasons": [],
-            "factor": 0.95,
-            "claim": "reference_price_basis_only",
-            "used_for_priority_score": false,
-            "reference_basis_price_usd": 18.93
-          }
-        }
+        "aggregate_reference": null
       },
       "price_position": {
         "status": "unknown",
@@ -7529,7 +7475,8 @@
         "eligible_by_grade_and_gates": false,
         "all_blockers": [
           "grade_not_allowed_by_config",
-          "manufacturer_safety_record_missing"
+          "manufacturer_safety_record_missing",
+          "price_evidence_missing"
         ],
         "note": "advisory preview; margin never appears as a blocker (hard block removed by user authorization)"
       }
@@ -8132,32 +8079,7 @@
         "rejected_counts": {
           "own_english_identity_missing": 608
         },
-        "aggregate_reference": {
-          "source": "serpapi_market.json (google_shopping aggregate)",
-          "query": "Celderma Daily PDRN Radiance Cream Wrapping Mask 1ea",
-          "sample_n": 6,
-          "min_usd": 5.14,
-          "median_usd": 12.31,
-          "max_usd": 37.98,
-          "freshness": "stale",
-          "age_hours": 372.52,
-          "qualified": false,
-          "not_used_because": [
-            "aggregate_not_item_level",
-            "seller_variant_and_shipping_unknown",
-            "stale_by_age"
-          ],
-          "reference_basis": {
-            "eligible": false,
-            "reasons": [
-              "volume_dimension_mismatch"
-            ],
-            "factor": 0.95,
-            "claim": "reference_price_basis_only",
-            "used_for_priority_score": false,
-            "reference_basis_price_usd": null
-          }
-        }
+        "aggregate_reference": null
       },
       "price_position": {
         "status": "unknown",
@@ -20507,7 +20429,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-17T12:10:52.850228+00:00"
+            "observed_on": "2026-10-17T14:25:35.449842+00:00"
           }
         ],
         "conflict": false,
@@ -20531,7 +20453,32 @@
         "rejected_counts": {
           "own_english_identity_missing": 608
         },
-        "aggregate_reference": null
+        "aggregate_reference": {
+          "source": "serpapi_market.json (google_shopping aggregate)",
+          "query": "줌 바이 정샘물 세범다운 쿠션",
+          "sample_n": 3,
+          "min_usd": 7.48,
+          "median_usd": 37.5,
+          "max_usd": 85.0,
+          "freshness": "fresh",
+          "age_hours": 2.17,
+          "qualified": false,
+          "not_used_because": [
+            "aggregate_not_item_level",
+            "seller_variant_and_shipping_unknown"
+          ],
+          "reference_basis": {
+            "eligible": false,
+            "reasons": [
+              "sample_below_minimum",
+              "product_volume_unknown"
+            ],
+            "factor": 0.95,
+            "claim": "reference_price_basis_only",
+            "used_for_priority_score": false,
+            "reference_basis_price_usd": null
+          }
+        }
       },
       "price_position": {
         "status": "unknown",
@@ -20693,7 +20640,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-17T12:10:52.850228+00:00"
+            "observed_on": "2026-10-17T14:25:35.449842+00:00"
           }
         ],
         "conflict": false,
@@ -29749,7 +29696,6 @@
             "title": "Collect fresh, verified US observations with shipping for the same product and variant",
             "state": "input_required",
             "blocked_on": [
-              "no_verified_fresh_market_source",
               "market_shipping_not_recorded_by_any_source"
             ],
             "evidence_required": [

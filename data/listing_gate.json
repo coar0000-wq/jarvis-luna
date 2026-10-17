@@ -1,18 +1,18 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-17T12:10:53.232505+00:00",
+  "generated_at": "2026-10-17T14:25:36.051540+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "ef35b8a656d8e5d2897da37ade6b433a10cf8b95a63a12c16afacb8cf2e7d7ec",
+      "data/product_master.json": "04e9a88e240b126426983f37e8e36bd33d5763277c0d93000e78d9923c67daf1",
       "data/gosi.json": "65c4a1bf58af9ecfd59a8526718d38eb4a2dce44a4048d49eeb268e96c4e73d7",
       "data/daiso_real/daiso_us_labels.json": "869942e0acd93e0b223665d41be751026408a856e4927b4c6b1b7c0b8a2e0c59",
-      "data/pricing_model.json": "29e9b1607e8fcd6631448f97c43ee232d5a136b0173d6099560dd547cb9853d6",
-      "data/legal_products.json": "c3bff34534654dae5e205b01ada7a6a5173e8a0a000e82faf72984b6bce2e7f2",
-      "data/daiso_real/shopify_s_recommendations.json": "dbcf31ef40943d8bbeabe595a419556db631097345981b470b6d0bbb6f14f85c",
+      "data/pricing_model.json": "7689e00bed181ba88f1877ad08d3fc27a38ac809dae75fee7484536c3031ec74",
+      "data/legal_products.json": "1e1565aa357a5fdd2b4247d3750810747cb616682ca703b16c8ec6d5d6c8ac4e",
+      "data/daiso_real/shopify_s_recommendations.json": "6e55dca2ff9e7f631ae640ce2a12d61714cc40da1e383836e474da4ce5d52cba",
       "data/shopify_listing_copy.json": "141d8cf3e77594212726b9cded932f08330bf22604f3977b2e53813692ecc514",
-      "data/shopify_shortlist.json": "ad0bd0a93d3a2a4103156804812250880717de56267a657660b71684d93524bc",
+      "data/shopify_shortlist.json": "3ea0ccd3ef0f5d719722ea7765b8d79ceaba94664bfa72c3c74a6f6f6fae0c0e",
       "data/legal_full.json": "4d1102e1c9a323b4872784a88a28c9137e6d706a6ea90904178fa2811f115fd5",
       "data/mocra_readiness.json": "864702369d469879d5dd7ff1899efab917aca8aa7bd2f5a3fea779f0dc539e77",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
@@ -24,7 +24,7 @@
       "masked/manufacturer_safety_record": "d77fd639a012be272427ae7a18c79b6423d5f677771a7a3cbd641f24450daa77",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "18dcf34035fdfb6b71b6d2cd63421db4a58764f3d021a75b6016dafd641bad14"
+    "recommendations_sha256": "4b0255dbbcb6ef13febd930b423231fed119bc1f43e17503e8e1a16e480b978b"
   },
   "total": 7,
   "agent_ready": 0,
@@ -36,7 +36,7 @@
     "copy": 0,
     "gosi": 4,
     "us_label": 4,
-    "price": 3,
+    "price": 1,
     "legal": 3,
     "manufacturer_safety_record": 0,
     "legal_full": 0
@@ -45,7 +45,7 @@
     "copy": 7,
     "gosi": 3,
     "us_label": 3,
-    "price": 4,
+    "price": 6,
     "legal": 4,
     "manufacturer_safety_record": 7
   },
@@ -54,7 +54,7 @@
     "strategy_file": "config/daiso_commerce_strategy.json",
     "strategy_sha256": "2de6e62538161f651f245e70b73fd831bf6b42d0bf375c9062c60f212cb70c8a",
     "margin_hard_block": false,
-    "products_with_profit_warnings": 2,
+    "products_with_profit_warnings": 0,
     "note": "price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
   },
   "typesafe_summary": {
@@ -105,12 +105,14 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 23.99,
-        "margin_pct": 61.0,
-        "register_blocked": false,
-        "price_evidence_ok": true,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [],
+        "price_usd": 22.99,
+        "margin_pct": 59.4,
+        "register_blocked": true,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        ],
         "profit_warnings": [],
         "blocks_registration": false
       },
@@ -125,16 +127,19 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing",
         "legal_full"
       ],
@@ -148,17 +153,18 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
+          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, price, manufacturer_safety_record_missing",
+          "public blockers: copy, price, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -192,15 +198,15 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 15.99,
-        "margin_pct": 31.6,
-        "register_blocked": false,
-        "price_evidence_ok": true,
-        "price_evidence_source": "serpapi_google_shopping",
-        "price_evidence_reasons": [],
-        "profit_warnings": [
-          "margin_below_target:31.6%<40.0%"
+        "price_usd": 22.99,
+        "margin_pct": 51.8,
+        "register_blocked": true,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
         ],
+        "profit_warnings": [],
         "blocks_registration": false
       },
       "legal": {
@@ -214,16 +220,19 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
+        "price",
         "manufacturer_safety_record_missing",
         "legal_full"
       ],
@@ -237,17 +246,18 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "high",
-        "risk_points": 3,
+        "risk_level": "critical",
+        "risk_points": 4,
         "team_routes": [
           "legal",
+          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, price, manufacturer_safety_record_missing",
+          "public blockers: copy, price, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -378,15 +388,13 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 17.99,
-        "margin_pct": 34.9,
+        "price_usd": 19.99,
+        "margin_pct": 41.2,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [],
-        "profit_warnings": [
-          "margin_below_target:34.9%<40.0%"
-        ],
+        "profit_warnings": [],
         "blocks_registration": false
       },
       "legal": {

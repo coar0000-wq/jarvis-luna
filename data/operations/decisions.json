@@ -21,6 +21,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "74d65fcb5dcf5238d720da51e6aa1ac12a79d08c389f3503182dfe952431899f",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "5e87ac27e03b67af6c689494015348a6306da73b25e0552eefcfb0dff0263872",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_00d4b316d55eda776c328c62bc22c398adedfc0e540efd56b883f9af54164e2b",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_17b127f15d5423d902f5da2765dc878930504556b1f6bfe92eae21d02c6a64af",
+    "training_allowed": false
+  },
+  {
     "action_id": "15da2ec7ee48c47bcbbfe5a6a4140a916b56d037075d4920ee623456bb3133f5",
     "completed": true,
     "confidence": null,
@@ -39,6 +57,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_4ad144465957a69d706e370763ba323060e65abca43054d27c222f04963d0963",
+    "training_allowed": false
+  },
+  {
+    "action_id": "2aa13b525b48c7c6f96bc5915921101449fdc7bcb8e44127597790c2717e96b8",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "5e87ac27e03b67af6c689494015348a6306da73b25e0552eefcfb0dff0263872",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_00edfbf9c17bc94eb393c7845e04848dfea351118ae9e263490ec7fdabf84922",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_167d414ccaffde4b4910e6bd3fa84352d36f0a0c578b3c2f2ef47d48eb133cee",
     "training_allowed": false
   },
   {
@@ -81,6 +117,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_b490aa5ac266ddf29cd9bf2ff660968db1dfb68764e45764adf489020ae7f5ad",
+    "training_allowed": false
+  },
+  {
+    "action_id": "059874841f7018493c20dd7485d99175bce27b474378ff5aecf5a5bb5839fb1c",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_7db75ec174d997cb4324ff4de06a5d9633320fc72e66db1f878e884220d76739",
+        "receipt_hash": "07d39a4b3833e1017038bf7b72f5497b21c14c031ca18bcfbff9d54e9f07e14f",
+        "receipt_id": "receipt-10bcaa12b6b455a2b50faa81a7773ed781b3ad80322cdbc27d4bff33675ea8b1"
+      }
+    ],
+    "id": "decision_01ca00b2030e70d2d7373e7a120a19d24af20be475e410b624f2a8b063d35b67",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_02672de2823eea2bc218c1ec4d71a9dc1b25e3a4a68ad3dbcf439c6b23f7ee9a",
     "training_allowed": false
   },
   {
@@ -180,6 +235,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_3aea14517b49c51740d4724a72148f989af90fd4d464b605aaa1a481b374939e",
+    "training_allowed": false
+  },
+  {
+    "action_id": "b64c170e7e9e9addee45fe46e7789f89bc1094c265be4e734ea3a5fbbdaf4981",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_8c4868c74fafabded9952c437af4e86e2216db3566df627fae3bf390bb12fbc7",
+        "receipt_hash": "7848b955b848838d41c968d00e6a371f7ef7136b09f411f63d563ad493dfe267",
+        "receipt_id": "receipt-a4cd6d4408aaabd11c5d0f41ada6cf5cbb46094f7795ce283f0d1039813ced27"
+      }
+    ],
+    "id": "decision_03f0c5f3d38c648e5fac41e6d9c24e18990d5a18f705bf04c18a9e68aa316b60",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_bb5a45656a27c2ebd61f55a93a25f27bede7de8ba36b883b0f140181953ca885",
     "training_allowed": false
   },
   {
@@ -431,6 +505,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "d5b84c137505660adc2b591b6a224fcc90dec1318d8d377a85d03533eb07e303",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_665bbd4e7a5cdab1a89a94a427153cbe8bf698da556bed8f5c5a81930c0b5ea2",
+        "receipt_hash": "66b5bad3036811598bd8e768439b7fa8f3edeb30cfcb01f30b9ef65598f7150d",
+        "receipt_id": "receipt-b26e5980ece5df3a9d116db5e0a907183fe7cce5ff62b2d6113e78e0c184421a"
+      }
+    ],
+    "id": "decision_0781cd08e5db92b41ee55ac748c8ab3352478b16cbc5777db3cae6b4157555ef",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_2d38749be6812ef2f7e0665385ea5408344b736528328ec26f683ca86cfcaf84",
+    "training_allowed": false
+  },
+  {
     "action_id": "a9ef954d1e20748589e660e7a6a1466f64f3b74491ecf437882e4d550d417e01",
     "completed": true,
     "confidence": null,
@@ -632,6 +725,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "7489dac6a92a6913f497177cccb52520e0e20b7be6891bb38e20de315ffcf5c2",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_41d03197e6e349a07b7e5a343073d9982c752fac71d992cd40ef7c1322472a4f",
+        "receipt_hash": "ce4a7450b7fe882b1e746eaafc4d1f0348c8e7f228ed7bd342463e7f2124fe9c",
+        "receipt_id": "receipt-2078a1600d72ea8468bc718ffedf31371f5afe800dd6a762e3c3ea4237977a74"
+      }
+    ],
+    "id": "decision_09be1805b7dd76d69277fb7d7b36a2e834f5c1044ed33ab361d43084c5736814",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_ed4a215e951c988ccf7ef4a880f47bb392e79ac5bdb3d55073a7a4fbe6fc3eed",
+    "training_allowed": false
+  },
+  {
     "action_id": "27852f18c9443b9bc16656aa29504f70ec9e4b92c8ed9b316a7f03f2d8468c03",
     "completed": true,
     "confidence": null,
@@ -793,6 +905,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_527c843d22e76358fb5e2dc7b9ff8f1be03941f9fe8f2eb193c1b241bbf2206c",
+    "training_allowed": false
+  },
+  {
+    "action_id": "736dfa29cbc30b4d3544dbf4e6310604adbb2b6528d0ec56e6d6c7dedb33f83d",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "5e87ac27e03b67af6c689494015348a6306da73b25e0552eefcfb0dff0263872",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_0ccfb1b5536e85048b49541a16b880143e7f91361d6faed28d467e8283f98493",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_572a3d3f16f04870d5f4011969670880bd1d91b751f06203eb2fcccf98b59031",
     "training_allowed": false
   },
   {
@@ -1258,6 +1388,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "aa1afb4f4505c2216ec49cc28fe0219b9f83682be0eb7e7de3880b632f96f519",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_e72775459adb4719487d22acf77316838fdffc1b4232a2cd0474e72df318f3aa",
+        "receipt_hash": "33e390727962238dd869670aeae8f3afef9d7e6bf3f56a3f399fb2ec7652894b",
+        "receipt_id": "receipt-68a5a5e23bb9b1d5f591f83b0f26a4ca45f04985d1f2cfd8f3e30db2006107a4"
+      }
+    ],
+    "id": "decision_12b3901535130761bface06bc93187a4d3c05e4d794e502e1c82ff4adcb7fcbb",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_989859c5e2bd582cfc398533045183b664c41aff6e2d6614c085e0435aa452a9",
+    "training_allowed": false
+  },
+  {
     "action_id": "1d1fe5df6263dcc4032688435da74543320a814f75d231440259f9b5520039e8",
     "completed": true,
     "confidence": null,
@@ -1642,6 +1791,23 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_e7b36688de0db0547bdd753ee859314e891a84d2a9d8d25988d37cc7e2a396df",
+    "training_allowed": false
+  },
+  {
+    "action_id": "069968d8e2528dc7f3e5225e06772296974a1bee1f9efe2cd15ac1e5d1d9550d",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "initial_evidence_hash": "039b0f3b7efac45c4bab458762e8a9d1d4c8fa7d41b540d5e85406f7b7cafb39"
+      }
+    ],
+    "id": "decision_183894ebddfad7a68340dc6e17339d4b4d12e45807878acb03e93fbaf5c3c3ba",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_05d98d4e07037b3985f2619758133eded60e3fe8f0b0a8cfcf85f902d1cd4dfa",
     "training_allowed": false
   },
   {
@@ -2696,6 +2862,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "61e9b727a768e161a699c4b7be0c497b9b07d9f2f923767645312f7709ee0e22",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_57e04771131273efc8d602307f8975c4351cafe2c8829fec44bb6747b234f8d6",
+        "receipt_hash": "7227919e4ad199a648748db58ddc400309786834f61fc7cd48ba38131771b09f",
+        "receipt_id": "receipt-29f2f334664eafef4ea1ede8aaaf2808283a58e66516da23c67271c0460e974a"
+      }
+    ],
+    "id": "decision_2b68904350b187179e0e00a45efe272fef9aef4cf4022aaf7610db96d479f0ff",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_ce4bc5400de82e75ff7b90e6135c30b5a906ac6b68184e26331fff945e49252c",
+    "training_allowed": false
+  },
+  {
     "action_id": "6261b31f468c70aaf69b1c78dcebf176f6e528a3bc667442ba0442d9805a882b",
     "completed": true,
     "confidence": null,
@@ -3352,6 +3537,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "d7ed0ecd65278fbf90307358bcfd43db6a66b53a148e84e4ae4880426ff92893",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_38affc4d2978a71b8a3d4bf00fff3572b6e38b9e77df9097b9ca6a0d4f6c8b0b",
+        "receipt_hash": "9094c78cacc1390f0ddd70f21207b8e921ff73a9a3fd3986831539cebcac457e",
+        "receipt_id": "receipt-d2ed9123a6e841e7aeab9bdd69005e114aac69448c54f24fd6adba502c7edbfc"
+      }
+    ],
+    "id": "decision_33afa45adb6d774d792f720103fa29e69861b358924d5b2b7219970ba5432020",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_d45cb06a6103d55c779e90d8e7b026bc0573d55f6c5fefdf4b9f392337b7347e",
+    "training_allowed": false
+  },
+  {
     "action_id": "336abe3d5db48aa9173c2ae1a0e34efe6826efd147d44e315b8cbac0b946dbf7",
     "completed": true,
     "confidence": null,
@@ -3679,6 +3883,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "18d84f37adc002dcbb074311b6c5275910992fc3099b9c26d1fbf13272a999d7",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "a6b8d8d510e8a5562e1af05e97cd4f2cf7a57836ab541867db0485d183f1cd64",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_38f26b54b5e04f22a3d79371bd05ad4efaed89e9833af11c58207645368f956a",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_1fc9bdb4e6cc402a5a7f62bbcd99b7d40881b243682d3c0e1c1608b4d14ed30c",
+    "training_allowed": false
+  },
+  {
     "action_id": "244ba88b3ac9b058ea8b113498edc58c228d87740b9e078b1d6833b670d636d2",
     "completed": true,
     "confidence": null,
@@ -3921,6 +4143,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "2d6b2f6935d5c9ffaf1f7cef7f2c829ed7656788b051b619672d59383e2f4398",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_02672de2823eea2bc218c1ec4d71a9dc1b25e3a4a68ad3dbcf439c6b23f7ee9a",
+        "receipt_hash": "f57a7c38ae43e5e79b6110d9f2a3566aaf439bc2d3e920a5d377896863d2fa93",
+        "receipt_id": "receipt-a04b55f1e29806b21e6afa576c155fef095fcac41204b44da0d121825e7205d5"
+      }
+    ],
+    "id": "decision_3ceacae59b2baa9b4e8880a7dc1c551c238605324ff2e5f32b5150a550e0efdb",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_7c63c2d75392d3f87a08b6dd4303ed3f8e813ed0218a52326aa599330b14a8b8",
+    "training_allowed": false
+  },
+  {
     "action_id": "01e7bc95e86013f492ed802f6f64688b32b916b9e04ea71775460d237bfd5433",
     "completed": true,
     "confidence": null,
@@ -4078,6 +4319,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_1c9a7af49f2ecc621e7a4324a193f40fe45405fa74971c9d9c5a42440f871730",
+    "training_allowed": false
+  },
+  {
+    "action_id": "868cd80ca7cfa0305fb08b2f51ecfe8744b66d0069b23d731b1387cc8fea71a3",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_418a85ab3f458ad2e05da6e1ea059956ce1022116470d875299183b1fca93c38",
+        "receipt_hash": "68bebab2e9d2365138fb4a69cf25da4ccf66398db8151006d453c6f1f108827d",
+        "receipt_id": "receipt-784b9700a87dc08679c18cd451125a5fd0f700a0ecb4a4ba71b10b735e96816b"
+      }
+    ],
+    "id": "decision_3f2970917817f19955a16f72c167d7e25c5ce72be50d04c145aed89dc243bdf8",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_542cbf5c25d6df7292c053ce35094787698afc86dd499bd3cee0a8accd3f3245",
     "training_allowed": false
   },
   {
@@ -4328,6 +4588,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_6a889c614448eef251031e8dafa6a6fc1bd3a6328f45ef7e64485c3a8fb6aacf",
+    "training_allowed": false
+  },
+  {
+    "action_id": "157dbbdef51add38649a81320b7e31f119d5dfaf03eeaf03e29053256d752672",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_39861974a1fe1910e747096597762fefe5ff4af2a17e542cd3709e3302ea56b7",
+        "receipt_hash": "22fc3e2784945a9c7d2f8e45263c7565dc9561bb320b577bfb7016004ea55cc0",
+        "receipt_id": "receipt-3da8cfbebab15053798d0e001d227be8883c97c27665a3d4e0eb69d037db22ef"
+      }
+    ],
+    "id": "decision_44871062b83deb31c14c70bdb5b912ca12ae35dd7c7d9742f80ef860e868f832",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_f81e18d58b9f73821e3e4b12e8647d8640a514a21fef89a13dfedd23f7892f71",
     "training_allowed": false
   },
   {
@@ -4872,6 +5151,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "53e4a86456b775759a25e4ba27e42b035805a6794d76356b1149bd8d0750284e",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "5e87ac27e03b67af6c689494015348a6306da73b25e0552eefcfb0dff0263872",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_4ce58cc2ad880f7cfbaa3959730c09a0014934c176b50ecab3ef51c726a6f8e3",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_f7e37d02115f639d4eb3b8bf994fc2adadbc6d2272c823378488fcee76e70edf",
+    "training_allowed": false
+  },
+  {
     "action_id": "d797bbded5de5d65742e2a3ad42a1fb559892a8e2878af546ce8f80eb56f9a0b",
     "completed": true,
     "confidence": null,
@@ -5256,6 +5553,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "18e04e47f0722180df626bccead5a4746a3c5bd8854f072dfdea060979ffeba4",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_2d38749be6812ef2f7e0665385ea5408344b736528328ec26f683ca86cfcaf84",
+        "receipt_hash": "d64a34b6418f76b743e949e06e906c007f0df62aed1482c949384cee13883ed7",
+        "receipt_id": "receipt-63251dee989f292acab0c12dda523338cd7dce0d50d231878a564857be44d21b"
+      }
+    ],
+    "id": "decision_510e79a42c8db77e8052357dfec21a83ac16559bbaa63932dec867b036a0e746",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_e72775459adb4719487d22acf77316838fdffc1b4232a2cd0474e72df318f3aa",
+    "training_allowed": false
+  },
+  {
     "action_id": "7909e4d88c4bc839b616da3d2a4378b81d47c6ef4abf3edfc628a4891237dd0b",
     "completed": true,
     "confidence": null,
@@ -5516,6 +5832,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "eca01877a54f860cd6d93c35ef1c5a07c5ee484687967534c46e95eb2758690a",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "071c0f1822320ba81e9d1071600861d28dfa5c15fd41abc758ce596a044072cf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_543d208d9e1543d86be773bc24567bf283df00588011663e1dbbbe8ff6acd1fe",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_6b1d90591f63e4c1f246ca55dfaed3b1234901d00274a147c1ea1a1eb240397a",
+    "training_allowed": false
+  },
+  {
     "action_id": "ec7df45bf5704cad5ec64d14bfc03b653438675bc97e2b7d9d3ac121ef2de861",
     "completed": true,
     "confidence": null,
@@ -5693,6 +6027,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_81b12a1537115b29d29707c8a1a6c10a16013580ea18165500688ccb7e30b8ea",
+    "training_allowed": false
+  },
+  {
+    "action_id": "db2fcca78e0847ade49cd51e1634f4f320e68e4e35eddafd18ccafe5a7b8a9f7",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "071c0f1822320ba81e9d1071600861d28dfa5c15fd41abc758ce596a044072cf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_56599f9421054148f105b248ad3a3ac6e52053bd6aaacd5fdaf33fcf9091ca05",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_19b1c8fef6d48cd7dbfa7fde0c91fc045b3ba8fa3f5a58826196d3fc96191d8f",
     "training_allowed": false
   },
   {
@@ -6598,6 +6950,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "aae96d8a0e2f38761c41eb5c1d9e5a74c044b36145dc0cb1ffa0abc82a3d83bf",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "6141d232d4459c52f60376d2421016a2d21ba406be7531b7fca0047df6a01974",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_67a71dc91bb6f94f6d34389996575ae673af2c60627c361cd33efbd39dd7f2c0",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_da555a4704b300d7fe443171f7670997b4cee416823c59d3713217f1f981cf97",
+    "training_allowed": false
+  },
+  {
     "action_id": "a33b1f50f9f72aec077aaf521611b8151dce2dbb4d1e6d3e0bd99a7952f8db41",
     "completed": true,
     "confidence": null,
@@ -7069,6 +7439,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "b2333b4e50991509fd766578a3882fd2913be461669b1c04f6e9018e71ce557f",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_648e7e887195bc3e5dae44bbc7e717378e6e9343bc99b8b5615fed5419350e2e",
+        "receipt_hash": "526a181cefa5ec33deb3abd8fb1948406a519b23eee7b99c6043e790ca097849",
+        "receipt_id": "receipt-45de5f326d68f12d857c5a88acc318d990dab7d5fef1d34f7b37adb6889ac8c7"
+      }
+    ],
+    "id": "decision_6e8a74eaba9eaf2d472c63a82071c4435cd8d8cee1032dc3e959c7de2233c541",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_41d03197e6e349a07b7e5a343073d9982c752fac71d992cd40ef7c1322472a4f",
+    "training_allowed": false
+  },
+  {
     "action_id": "7ef1ac0b5f3d492e61a7b15f2116083e53eb6339f931bf35edc466ffb98ddd7e",
     "completed": true,
     "confidence": null,
@@ -7316,6 +7705,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "bb5c7b9a903c9d218c9c93b0bf6e3097044c280a464b2316a8cef0a152647e43",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "a6b8d8d510e8a5562e1af05e97cd4f2cf7a57836ab541867db0485d183f1cd64",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_711fbd74688fff531627980bc9224b801a08e548f47db3981eaee782e4745470",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_4d6a8649b99d6dfed486fb1d812b626c32b80b4ec757e2163042256ea872bb00",
+    "training_allowed": false
+  },
+  {
     "action_id": "1415f792363324440efdbe89f7c995ddee765913a65273a51a12910dc8490824",
     "completed": true,
     "confidence": null,
@@ -7518,6 +7925,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_b81f82b2663151862ed5290bb9031ebaa7b887967b70cda9f61605706d74b8e3",
+    "training_allowed": false
+  },
+  {
+    "action_id": "0a07d3c98bfae89ba08fb4c81bf4aa67de125b42c5ac055662df5d5bf72dd7cb",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "6141d232d4459c52f60376d2421016a2d21ba406be7531b7fca0047df6a01974",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_73b98f58f075c075efc5baf73ea15cc8499ad11cf15c02f964f31f0dfb04f840",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_66e8e7c04cc5643664efd1f061f84946504561c97585838a7398e719264ff86b",
     "training_allowed": false
   },
   {
@@ -7856,6 +8281,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_15051c03a89068401bb8354238465f6296ff2d49b1298e9d2327a9d68460828d",
+    "training_allowed": false
+  },
+  {
+    "action_id": "279ca54c1481df2310d86bebf15a502701c4eaf47a95761cd7162072d9dffb74",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_7c63c2d75392d3f87a08b6dd4303ed3f8e813ed0218a52326aa599330b14a8b8",
+        "receipt_hash": "9a99425a4e33356e30d052de3f5cb310ffbd5fab09ad081c5d6f4077059ea80a",
+        "receipt_id": "receipt-845d94bb70c72ec5945c238d043133f71e59d35d1296d6c700c1e33335d844a9"
+      }
+    ],
+    "id": "decision_78563c608fd081811bd11d669ee014c707fa6d561dd5758b5b51a4813b516255",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_418a85ab3f458ad2e05da6e1ea059956ce1022116470d875299183b1fca93c38",
     "training_allowed": false
   },
   {
@@ -8408,6 +8852,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "a12ecee1bc25b3db3d69da5553d3cae937642d3105cab488128f29917af360a7",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_a263907bde492fd180bb8445482ae88bc4d3c77c3e96a0af11a7426e8606796f",
+        "receipt_hash": "cc107f406241a35d18679d6c50a5863985b04b4e23f6ad446273749a2c8f1c76",
+        "receipt_id": "receipt-ad735f95b8c8cf60a469c5421f08219ddd4ae57cd030afa03a2f1258002d6ca4"
+      }
+    ],
+    "id": "decision_81d25e1c6c4bf8881de42cf6334eab0386c1726247c0dcf5322d38d1863ef202",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_dfefef92dac5f7c84662a44c83553d79692c1834a0a90bb7eb03f9a758abd8e9",
+    "training_allowed": false
+  },
+  {
     "action_id": "4b964cb472ac5e0ea517147ea3d8b51525074d0d7ed23bc24908129f30ffeba0",
     "completed": true,
     "confidence": null,
@@ -8570,6 +9033,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_0188dbd6a0d638561c6575abddea908a4aa7e67751e2dc407d405d4b4022cd44",
+    "training_allowed": false
+  },
+  {
+    "action_id": "5037c734f4990e5b43a2b5ae0bc4e424baea157d4af93d2621bb55e48381bcc3",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_11adcda9d4329c6db1fa74f7f7061a4220e7401bcd808b3a7d84cca4e9d7ed65",
+        "receipt_hash": "0b2ded3570bb0c3becdb42716c6f74411570ab567465b8f69955ed0e7998eb59",
+        "receipt_id": "receipt-8bfbbedbd1508db82d3b769bc9e24e3e6c47057d26b65bdfcdaffc3412939f60"
+      }
+    ],
+    "id": "decision_8504235b08aa55ecc3dbc1db39f066eb7f1140bf90f7f862e2a33bdc214df153",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_f20fe051034525288bfa9f119afdd09a3f6e5e4a945e1039441589f94053f1af",
     "training_allowed": false
   },
   {
@@ -8771,6 +9253,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_782207115d174467896c66552782cfe0d0b158066734a1a4277399aef2a8e50a",
+    "training_allowed": false
+  },
+  {
+    "action_id": "734a9aca8853940f633c50eb81a6af6c6f9d5822d6f24505987a8ed320acd1d1",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "071c0f1822320ba81e9d1071600861d28dfa5c15fd41abc758ce596a044072cf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_8a8f2e7c2a547392165a4896fa8fba569479c3f65afa5944c500d3fc8f7d39d8",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_274961cd8596dfba4c6176a9bcc5927aa14e0eaeee724ebb709c33c646681866",
     "training_allowed": false
   },
   {
@@ -9159,6 +9659,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "6dfb4c76361ce0eb5e44bf2d9167bc9e1004692c8507f456c6274d9f5e0d8ffe",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "a6b8d8d510e8a5562e1af05e97cd4f2cf7a57836ab541867db0485d183f1cd64",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_8e9e8bb1f9b4198b6ab0ddcea1b3dbfdb34edea193eab3dcf5a45bbc7ec4fa14",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_7d15768e28f93d4cd384b1fb6ccf68a3d37587363aedd2d8443426772810f648",
+    "training_allowed": false
+  },
+  {
     "action_id": "73abc26c660c4a735a023387b0f3551f7eb99bb3c9930a4019087c9403cd5a63",
     "completed": true,
     "confidence": null,
@@ -9390,6 +9908,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "86a3a8a5cea037c9180dc8077ebc8996bfccdc43409b461b0938f26a1e9cad1b",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "c03e89d8b327126057ef3a1858324da385a8711d07988c0f538258955ab13cbf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_91d50f8b6ff716336f5a2ebb4c7f19e54a6881103c58c73518fb5ae83b43c507",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_0ec8bd631bfefbceb3cd61a5fb36d4c3214443b20fc1777c5c910942c264c368",
+    "training_allowed": false
+  },
+  {
     "action_id": "86b929f50c4130d3e7cf3d1e2522a85c27d0e8bb7b67e30d52c4d9489afa9f15",
     "completed": true,
     "confidence": null,
@@ -9471,6 +10007,43 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_28126196b8579332c6228b5bd9e7b21c6478e0e7d725216fb287baf80dbe351f",
+    "training_allowed": false
+  },
+  {
+    "action_id": "142c2144adcbf1d82b245f89c83393e83805737a93115c1032be92548338f230",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_da555a4704b300d7fe443171f7670997b4cee416823c59d3713217f1f981cf97",
+        "receipt_hash": "0de6909913fc8d34577a1607df20fa1576c123ffa1085b4dc229e63fa0756648",
+        "receipt_id": "receipt-8d8f426e1fda5a9fc0dc2ca8807711c501f29f821f8a1ac763f134b9e19b1499"
+      }
+    ],
+    "id": "decision_943faf6545f28e1091aa03aa04a84ea9318a6b8632ddb09efed8c02a1f459f6a",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_648e7e887195bc3e5dae44bbc7e717378e6e9343bc99b8b5615fed5419350e2e",
+    "training_allowed": false
+  },
+  {
+    "action_id": "b79280a2c0d57cf0e31fe5f5c2749d04feade3a3054560a774f4ab04302a9ce4",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "071c0f1822320ba81e9d1071600861d28dfa5c15fd41abc758ce596a044072cf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_9448686b1f5b689581beb22b19f2a562d368f2baab5b212be97d4190a7ebf841",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_46ce1767e8451a32315ed2a97af8407a46d2bd65cbb3fd670cbe4665cf4eb975",
     "training_allowed": false
   },
   {
@@ -9592,6 +10165,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_636c308a0c6ad3b69ffe3970cf578ed8158a2ee627d94647fb858f9cddd8878d",
+    "training_allowed": false
+  },
+  {
+    "action_id": "43090d4292f03cfdc5f2923f32d4e6d608f0f895f056b8da2ef31398d955602f",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_f20fe051034525288bfa9f119afdd09a3f6e5e4a945e1039441589f94053f1af",
+        "receipt_hash": "f0f9b551d13f3ccf750426a96117bae0988f96b911314d2fcb30dc1f28ed0262",
+        "receipt_id": "receipt-e8aa188158b837f9cdc56e31c1c2774b193bfd4b21ea55ac8e418db615e89fd9"
+      }
+    ],
+    "id": "decision_962b90de671778da336111b549c1ef4d3d2372d61a8155edd1393e61660e0093",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_a263907bde492fd180bb8445482ae88bc4d3c77c3e96a0af11a7426e8606796f",
     "training_allowed": false
   },
   {
@@ -10381,6 +10973,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "8d0919a5a9799d33976bf2383493522f806fdeaa7130b7b5c27c98ba4ce5dc2e",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "6141d232d4459c52f60376d2421016a2d21ba406be7531b7fca0047df6a01974",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_a022c00b864fd09615382a4b06ade3c8034f46abff545306c4e4be6f0ad9bd4e",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_2d23315ad05fed5e14ae6c07bb0268b5a858948a9ab5dfed171efdb56cdf1828",
+    "training_allowed": false
+  },
+  {
     "action_id": "2f2ae12ebcad88075ef6575b69be6a5e31d9773a9ad2d065863e87edcf008056",
     "completed": true,
     "confidence": null,
@@ -11160,6 +11770,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "d2c3afd8905f51ab6aed5f2000de51a9bb68731783d4d6aee5a0f16ddb760858",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "6141d232d4459c52f60376d2421016a2d21ba406be7531b7fca0047df6a01974",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_aaa34f0257fe38eae3d3a61417daa462f5940355aaeb3cbc93bafc9319c56a9b",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_0263c70c684d5912a4d25fe333a1c2f67b24071e20a59d3ad8eea9a53a9cafba",
+    "training_allowed": false
+  },
+  {
     "action_id": "66a2a2161ff4cd01d8a0796e57fde6dd901d062a0ffcb9a05adb21dca846b9d7",
     "completed": true,
     "confidence": null,
@@ -11304,6 +11932,44 @@
     "training_allowed": false
   },
   {
+    "action_id": "e00ec945e3e9bfeba046c46494db0b387466182f9d69715841fa0bce56264ca4",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_542cbf5c25d6df7292c053ce35094787698afc86dd499bd3cee0a8accd3f3245",
+        "receipt_hash": "a3c2bffdd20472ac87d60e91aeefacaa9d8cee7c8017c62409d967462047c34c",
+        "receipt_id": "receipt-5f36bfd5d1944df82a22017aa794a33df45ee73536c656fcf46f9a81e0c62964"
+      }
+    ],
+    "id": "decision_ac7a188ec84848b19646608da32fd9a7b7166f295466d9e3dfe5b871f4d03c96",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_c5f146dbedb3719808fa97e905b1b8ff36e9f0d4718d41e42329dfa4ad9f781a",
+    "training_allowed": false
+  },
+  {
+    "action_id": "eeec9fd5375571c71a9e59a81e36be211ac12d83458bd38c14040b33fa6b2e5f",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_d45cb06a6103d55c779e90d8e7b026bc0573d55f6c5fefdf4b9f392337b7347e",
+        "receipt_hash": "00999e6c02821d9ddd0dd1f819b63b95d7ec9696cf47718175bcd247d98d0893",
+        "receipt_id": "receipt-0a03d734085ae1c19878dee4d71208f56a05b50374c52dc7a08c2fed59e47d92"
+      }
+    ],
+    "id": "decision_acc4cc23d5d987324e755ce950b85595f921cbe99e6e0a2ef0ee444200c59447",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_11adcda9d4329c6db1fa74f7f7061a4220e7401bcd808b3a7d84cca4e9d7ed65",
+    "training_allowed": false
+  },
+  {
     "action_id": "f2c6bfde12f8f6d909f1f075ba978971b9a6c0a21160d43bb03b1b5e25283a53",
     "completed": true,
     "confidence": null,
@@ -11322,6 +11988,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_464f69779460cdda86d8b885ea061caf7a3ebc588313e0ca33501196481bce4e",
+    "training_allowed": false
+  },
+  {
+    "action_id": "98f38ab06dec6ab173b31b7c71581591560788cf91737fa7f3ea1cf7ecf24e90",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "5e87ac27e03b67af6c689494015348a6306da73b25e0552eefcfb0dff0263872",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_ad655776577bdec757d0b78d52069d92dc1eec350010c21dfd38bc6278d6dabe",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_665bbd4e7a5cdab1a89a94a427153cbe8bf698da556bed8f5c5a81930c0b5ea2",
     "training_allowed": false
   },
   {
@@ -11448,6 +12132,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "9cc5d69d0070a13053d708b8b364a3c229cb54a33300650a0b111fea52450bb4",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "071c0f1822320ba81e9d1071600861d28dfa5c15fd41abc758ce596a044072cf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_b0430e124acc2ad15f720724c9323d9554fc984ce4c973d1e7411eae3ae4e24b",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_d4ae5bc1620d4cd2d1eb5a881f847e6535042a9de4d5176d8ff3c508a292e636",
+    "training_allowed": false
+  },
+  {
     "action_id": "35de13ac0d5af71359ea2648f8363b4ac19256e3ee4ae113625ec349c6d50c12",
     "completed": true,
     "confidence": null,
@@ -11466,6 +12168,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_2df4c9719ded812609e1438e4f531f3f3fd6b6672b02ebd67186f0c40724a430",
+    "training_allowed": false
+  },
+  {
+    "action_id": "6f4b239b603089c5f6c379c93d96aae7a9725d529c82fb405a2e2335b848df1c",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "071c0f1822320ba81e9d1071600861d28dfa5c15fd41abc758ce596a044072cf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_b06038c50f5aaf82c75050b07d5a53af406d4676dfa3a8279327973809078963",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_cf21991f4018c74a31f888c245f0d3c5752abb9bdc09d5a7e7b389f6677e1f74",
     "training_allowed": false
   },
   {
@@ -11934,6 +12654,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "7b2b268a3676930f7b9b5d83ee79236d2327c53c33333a284df7edb59d324749",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "a6b8d8d510e8a5562e1af05e97cd4f2cf7a57836ab541867db0485d183f1cd64",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_b61668a55e149129e7ad38e23942bd8271ccd83d3d068ccc4706ba8414784f16",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_7a6b9cd21a9e22614accfb975e883665ade108b692eada82274d1a9daefaf979",
+    "training_allowed": false
+  },
+  {
     "action_id": "efb495ed1cf2661877638af72893b1b0fb2cc719908affb421f3436b7ccc17b8",
     "completed": true,
     "confidence": null,
@@ -12010,6 +12748,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_7d775b835c3e186bbb2020bb3b823df1360b5d87ec034c8eba7f27406761d41c",
+    "training_allowed": false
+  },
+  {
+    "action_id": "63c363f17e814a12701db0eaf4d54f574529f7adfcb58066d87356ef64e250b5",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "6141d232d4459c52f60376d2421016a2d21ba406be7531b7fca0047df6a01974",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_b70d04713baf329d3e0fbabc8d4f4dc297b6923d0a56bd17f6971412b081750a",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_5aa72c099cd2291afb26b366d2fa94eadb40354da7085805f49999e5c9d618a3",
     "training_allowed": false
   },
   {
@@ -12220,6 +12976,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "dfb193dcd3405846b206bd60f1a9da46afa506ad2467a23ae6df8c349622b548",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_69799508a09508d9c48bbd482c58988e20ef282effc3fca027a0260da1118bd4",
+        "receipt_hash": "ae7646c3fd5cc781cd6376ac4252122b7240d99715a49e719b98f6d5a1dcd70b",
+        "receipt_id": "receipt-fc75525597888c2a69f5c449e80cacbcc9409931e4a6da91769a786a1df539d8"
+      }
+    ],
+    "id": "decision_ba3ca72383c81fb7c6a850ba3fb3054425813ff474713f7b7b56b893fb3d16fb",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_57e04771131273efc8d602307f8975c4351cafe2c8829fec44bb6747b234f8d6",
+    "training_allowed": false
+  },
+  {
     "action_id": "6c3e8aa6fcfffa52e3f68b1c6d99a624bd1540a1883976d620eabd4a12cbbc5b",
     "completed": true,
     "confidence": null,
@@ -12257,6 +13032,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_60db1b4cbdc4a9ae206231d661e982e43f0621fa8f71b675599bb084c0b7f237",
+    "training_allowed": false
+  },
+  {
+    "action_id": "bb260b987ff7cef37881bd5d2c55dd6280f1dcf730db3174a48837a212ab3854",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "c03e89d8b327126057ef3a1858324da385a8711d07988c0f538258955ab13cbf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_bafaed1fa9ab964ed9c028120f988926a63ac3a5a2004754feb886f356e97d60",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_f6d09d4ef768bd12ba8e055ed38e47b515927d5860ef295d90c22602554695e4",
     "training_allowed": false
   },
   {
@@ -13389,6 +14182,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "e466242ff1e42064f3db926df0768bae2ffce3b7c91b3ddf6fe869c5a1c53436",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "c03e89d8b327126057ef3a1858324da385a8711d07988c0f538258955ab13cbf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_cd0e1e5c9dc0f3443d1f54cac1a0b266cceb1dc2c22a5e9854a78c3cb15fe1c2",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_7ae4f1dfe46e83515592ab87779ad681efee32c8a7cf2e5ab92253570e5399e5",
+    "training_allowed": false
+  },
+  {
     "action_id": "802b267bb2199dbb871aef8608a441a97ce7b7940e88194ff67e95b5f0eda598",
     "completed": true,
     "confidence": null,
@@ -13447,6 +14258,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_5859821fc554fdbed37eb263051ea122d98aeea52092bc81336ee9843190dbf1",
+    "training_allowed": false
+  },
+  {
+    "action_id": "b0aea4e3de029e33e6a52be721541d5f11c1285e264d72115c3c31b18ec43b03",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_debd3ff31d85faa156e09ab34e1b54eb7fa1649028688474a9d8f230cb3b6a54",
+        "receipt_hash": "4e4b790cf3b4dd59ef78fd40857856768cb20a6ec77480ee5cb289caa812dd33",
+        "receipt_id": "receipt-17e05928c802c941db90097bff8c6e25542a772d3282e429e0189f9261f2ecbe"
+      }
+    ],
+    "id": "decision_ce416bdc1f4a44fa5f0e47cc14e829950c58b20db87e7a2ded39251e436d0ebd",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_4d93e4ef1347502f01157c9fc17422b762d1de7c6c9a840ced233d1e2fa01c0f",
     "training_allowed": false
   },
   {
@@ -13634,6 +14464,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "891ba360fbea5c9d6f3e26fe5fed8af74e06dc44815078add5d726a60111151d",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_ed4a215e951c988ccf7ef4a880f47bb392e79ac5bdb3d55073a7a4fbe6fc3eed",
+        "receipt_hash": "af9ac6bfface7eae2e711dca97956d4b292364b8b6f8f4aeb33398bf106921a2",
+        "receipt_id": "receipt-7a1a94ec9658836ce99f97c78fc3b7b27a24394534277d3809b29478e825929a"
+      }
+    ],
+    "id": "decision_d0beaa698a2af6538b0eecbc10e7ec19bd2134bab39765be9b490840608a0dd8",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_8c4868c74fafabded9952c437af4e86e2216db3566df627fae3bf390bb12fbc7",
+    "training_allowed": false
+  },
+  {
     "action_id": "875a0d331875dbd50f4e06ea159a80d7ebf833568e652e4c303e3097038d930a",
     "completed": true,
     "confidence": null,
@@ -13652,6 +14501,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_a63ebf273824a505f487a9968df009f7c940826cbfe578ee8d6c8de467455c1a",
+    "training_allowed": false
+  },
+  {
+    "action_id": "6d4774be7ea350cd6194757112ff67dd2f4dd5e2a8b59d2cb38a0818ff27b6f0",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "6141d232d4459c52f60376d2421016a2d21ba406be7531b7fca0047df6a01974",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_d1b7e0e97a06ce7f3ec6a93af396edd070678be40bfc9a631aa1c0e189b3a5d7",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_e0d7df3dcdd0c67b271e200186f188bfee34928183665fb62c035052ecd9e849",
     "training_allowed": false
   },
   {
@@ -13731,6 +14598,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_c7880e1fe64654cdbc0f92cfeaa4dd1cfaaff02cdbb631001d7378683d2f99b3",
+    "training_allowed": false
+  },
+  {
+    "action_id": "8d13cd8642148cbe5ce616bee5b7734d1b5cede5d04d92323dbb65e94293f9ea",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_f81e18d58b9f73821e3e4b12e8647d8640a514a21fef89a13dfedd23f7892f71",
+        "receipt_hash": "b897172e803e874237b1ea36a202606f8699ee344adee8249656b41d100e1d97",
+        "receipt_id": "receipt-e823a428c42bbe22353aec04c6271e14641f6770de2aa055c18b3ee7241f0904"
+      }
+    ],
+    "id": "decision_d546c322571a4ff516404145c4869fe543f134fd03eab12ba18af56ba430b3f4",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_69799508a09508d9c48bbd482c58988e20ef282effc3fca027a0260da1118bd4",
     "training_allowed": false
   },
   {
@@ -13980,6 +14866,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "778b4ded1b5cb7185c737722b8bf8dbbff147d2601fba5407a82e1514669ca6d",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "a6b8d8d510e8a5562e1af05e97cd4f2cf7a57836ab541867db0485d183f1cd64",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_d9d66f603eefd9018e53cc197c79bac91a48b55170d432cbe7e5d5cc8ca5fe27",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_c6e06a3351812e1dc2657e709c53fbd7af8942fee5b9af1caf91ef214bfe5d22",
+    "training_allowed": false
+  },
+  {
     "action_id": "f41dc670055781aeba445b9cff03b007f1cecf88cf90902e93624d7934ef5c73",
     "completed": true,
     "confidence": null,
@@ -13998,6 +14902,25 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_7404e8f17646a3c81306548982cb030aec1ec536da538a35596d7e44f375cf6f",
+    "training_allowed": false
+  },
+  {
+    "action_id": "792dbed86f4e364b3145afd87d81dc72f2faf9388de5d9337a81e7d56eb5b449",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_19b1c8fef6d48cd7dbfa7fde0c91fc045b3ba8fa3f5a58826196d3fc96191d8f",
+        "receipt_hash": "bd31bb66c9376befadda0e01f473cb56c17a17cd75c754149f5310478bc9b96b",
+        "receipt_id": "receipt-34cb9eb52ce0035c2368f4fac72d35864fbb8650f3be143c75a066c7755d8b1e"
+      }
+    ],
+    "id": "decision_daa9d989060aa94a79379479b8c5ea4bfc4e0a127fd5fef669ec8c86a8096471",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_39861974a1fe1910e747096597762fefe5ff4af2a17e542cd3709e3302ea56b7",
     "training_allowed": false
   },
   {
@@ -14591,6 +15514,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "8c48e238643c1f1fd8e9a359f5d6f154656e40d2da98d46396cf7891a4925524",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "c03e89d8b327126057ef3a1858324da385a8711d07988c0f538258955ab13cbf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_e723b448907c093281ba966bf181ffe4c07985456ff42d81f9aedb673e94fcba",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_f56964236473045699e5740d7a383a19d871bf2a7eb4d3707ba742eda5699cce",
+    "training_allowed": false
+  },
+  {
     "action_id": "478a3881547f4ff5ab4681a6b05e1ebdc4e2db8a7e43db706915175e8e46a339",
     "completed": true,
     "confidence": null,
@@ -14627,6 +15568,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_dc2f3120da04ea36b39d585fb8c33fd86d48e418b34a9811c0fb20db28dfe62c",
+    "training_allowed": false
+  },
+  {
+    "action_id": "ad1bb4dfe1f7b85b96bd5481581200d3b93b2f70d3941f9f28eafdef5b7ebd10",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "a6b8d8d510e8a5562e1af05e97cd4f2cf7a57836ab541867db0485d183f1cd64",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_e79f1b8a5124850d8c46bdcc059c63d67bb29f9089511cb400ab07a89ae1c267",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_7db75ec174d997cb4324ff4de06a5d9633320fc72e66db1f878e884220d76739",
     "training_allowed": false
   },
   {
@@ -15541,6 +16500,25 @@
     "training_allowed": false
   },
   {
+    "action_id": "ff4c5d10e5da4bfc53294c0cb2686bac50249c6ebd1411c8c2667860dc4c1d1a",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "handoff_parent": "task_989859c5e2bd582cfc398533045183b664c41aff6e2d6614c085e0435aa452a9",
+        "receipt_hash": "169ff85598eddb901490d1ff1e4eb9462025e83e7cd010e2b8f02f07cc225e34",
+        "receipt_id": "receipt-64383fa04249d280ece2ba5436a6d2fb1101b278014bcaf838ee7c17a7280b19"
+      }
+    ],
+    "id": "decision_f6787a8afc6ff2a565825c41fee9691b6ad76f94c65626015df3c5f1f954cd6a",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_debd3ff31d85faa156e09ab34e1b54eb7fa1649028688474a9d8f230cb3b6a54",
+    "training_allowed": false
+  },
+  {
     "action_id": "3c0d2887834002bbffd2b7461138fe81cd57fb12bbdaa9baa66e097ce5b2a0b3",
     "completed": true,
     "confidence": null,
@@ -15598,6 +16576,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_efdcb89e46229baf8403ecc9654f0c4c569faaa2b302a6ae72f20ce014ab6d4f",
+    "training_allowed": false
+  },
+  {
+    "action_id": "a29248e5e15f2e15f851ef01c83cc83eb98f5d9846840dc6818c0e85ca742ea7",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "c03e89d8b327126057ef3a1858324da385a8711d07988c0f538258955ab13cbf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_f6ea66037837f28c4f3523151955a1f18edadf7406e391714cb88a9da5770c03",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_38affc4d2978a71b8a3d4bf00fff3572b6e38b9e77df9097b9ca6a0d4f6c8b0b",
     "training_allowed": false
   },
   {
@@ -15737,6 +16733,24 @@
     "training_allowed": false
   },
   {
+    "action_id": "31bfde4271e447a2aaf2d9877af19bc73fb81724177423bcce96458f09da7e02",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "5e87ac27e03b67af6c689494015348a6306da73b25e0552eefcfb0dff0263872",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_f7fc10d555ae5d93195d4906cf868de089533eef33c907a77246f68b03cdca03",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_363169471ca22095aead5e691949d9634a900d01e960ceb271abead0bb755111",
+    "training_allowed": false
+  },
+  {
     "action_id": "4ad0870856a10ef1d4bd5440d9a40e2194301046dc3e7114c67a5baf47c0470f",
     "completed": true,
     "confidence": null,
@@ -15873,6 +16887,24 @@
     "receipt_status": "VERIFIED",
     "status": "LOCAL_OUTPUT_VERIFIED",
     "task_id": "task_2fd7b4e03af7ca077f9c5b95c5f1f66469a6361e53f9b93f0c4bfd20c4a27bcd",
+    "training_allowed": false
+  },
+  {
+    "action_id": "ce3c2f33f3176f8a110d6b0bb4f09b67dd9ff3af9073ba2feb03080b7f0e63be",
+    "completed": true,
+    "confidence": null,
+    "evidence": [
+      {
+        "input_version": "c03e89d8b327126057ef3a1858324da385a8711d07988c0f538258955ab13cbf",
+        "scope": "local_report_not_sales_clearance"
+      }
+    ],
+    "id": "decision_fa7d3799744da21965f83e78f4c8d7387b4459260333c5ac967c0bb4d7f65495",
+    "promotion_allowed": false,
+    "reason": "Saved snapshot review only; not business clearance",
+    "receipt_status": "VERIFIED",
+    "status": "LOCAL_OUTPUT_VERIFIED",
+    "task_id": "task_6ad88bb82c920f2ab91791074dc344c37d48d9dd46cb89ae60c54ba9f6bb9496",
     "training_allowed": false
   },
   {

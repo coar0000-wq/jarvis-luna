@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-17T21:10:53.310713+09:00",
+    "updated_at": "2026-10-17T23:25:36.172479+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -375,6 +375,17 @@
         "source": "youtube_channel"
       },
       {
+        "title": "Shopify Tutorial for Beginners 2026 - Full Store Setup Guide",
+        "url": "https://www.youtube.com/watch?v=uorQJ_ucDhg",
+        "channel": "Metics Media",
+        "views": 538734,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
         "title": "기업들이 사활 걸고 자기 폰트 만드는 이유｜크랩",
         "url": "https://www.youtube.com/watch?v=F4Jm1TFv0I0",
         "channel": "크랩 KLAB",
@@ -389,7 +400,18 @@
         "title": "The 8 Trends I’m Betting My Entire Marketing Strategy On in 2026",
         "url": "https://www.youtube.com/watch?v=hXPALnu3Y6I",
         "channel": "Neil Patel",
-        "views": 340518,
+        "views": 343399,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
+        "title": "Digital Marketing 101 (A Beginner’s Guide To Marketing In 2026)",
+        "url": "https://www.youtube.com/watch?v=CBUF5V4iNgU",
+        "channel": "Adam Erhart",
+        "views": 279848,
         "note": "",
         "teams": [
           "market"
@@ -400,7 +422,7 @@
         "title": "5 BEST WAYS TO MARKET YOUR SHOPIFY STORE IN 2026!",
         "url": "https://www.youtube.com/watch?v=DNBN0yE91MQ",
         "channel": "Antonio Williams",
-        "views": 270923,
+        "views": 272010,
         "note": "",
         "teams": [
           "market"
@@ -430,6 +452,17 @@
         "source": "youtube_manual"
       },
       {
+        "title": "How To Run Facebook Ads For Shopify 2026 (Setup + Full Guide)",
+        "url": "https://www.youtube.com/watch?v=2ijV5BimNDo",
+        "channel": "Tutorials by Manizha & Ryan",
+        "views": 150724,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
         "title": "How to Use Claude to Build and Run a Shopify Store",
         "url": "https://www.youtube.com/watch?v=Ih5RapM8XKw",
         "channel": null,
@@ -446,7 +479,7 @@
         "title": "Conversion Rate Optimisation (CRO) | Double your Shopify sales in 2024",
         "url": "https://www.youtube.com/watch?v=5zOIeBYhOyM",
         "channel": "Davie Fogarty",
-        "views": 117828,
+        "views": 117933,
         "note": "",
         "teams": [
           "market"
@@ -457,7 +490,18 @@
         "title": "How To Increase Conversion Rate On Shopify (2025 CRO Guide)",
         "url": "https://www.youtube.com/watch?v=kLneJKAqRtk",
         "channel": "Michael Bernstein",
-        "views": 114512,
+        "views": 116480,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
+      },
+      {
+        "title": "The Only Marketing Strategy That Is Working In 2026",
+        "url": "https://www.youtube.com/watch?v=UlfniLzuwa0",
+        "channel": "Neil Patel",
+        "views": 112908,
         "note": "",
         "teams": [
           "market"
@@ -475,6 +519,17 @@
           "market"
         ],
         "source": "youtube_channel"
+      },
+      {
+        "title": "Shopify Tutorial for Beginners (2026) | Build Your Online Store Step-by-Step",
+        "url": "https://www.youtube.com/watch?v=UKs338dQzbY",
+        "channel": "Kevin Stratvert",
+        "views": 95659,
+        "note": "",
+        "teams": [
+          "market"
+        ],
+        "source": "youtube_serpapi"
       },
       {
         "title": "🧐브랜딩을 잘하고 싶다면 리서치가 가장 중요합니다 | 인풋 쌓는 과정부터 시장조사 노하우까지! 일단 시작부터!",
@@ -502,32 +557,10 @@
         "source": "youtube_manual"
       },
       {
-        "title": "The NEW Way to Build a WINNING Clothing Brand in 2026",
-        "url": "https://www.youtube.com/watch?v=8ZNbjcKRWN4",
-        "channel": "Marshall Crews",
-        "views": 88265,
-        "note": "",
-        "teams": [
-          "market"
-        ],
-        "source": "youtube_serpapi"
-      },
-      {
-        "title": "The Only Marketing Strategy That Is Working In 2026",
-        "url": "https://www.youtube.com/watch?v=UlfniLzuwa0",
-        "channel": "Neil Patel",
-        "views": 85085,
-        "note": "",
-        "teams": [
-          "market"
-        ],
-        "source": "youtube_serpapi"
-      },
-      {
         "title": "How to Drive Traffic to Your Shopify Store: Master the Method with This Shopify Tutorial",
         "url": "https://www.youtube.com/watch?v=Oqh09ROE_q8",
         "channel": "Shopify Success",
-        "views": 75672,
+        "views": 78102,
         "note": "",
         "teams": [
           "market"
@@ -587,7 +620,7 @@
         "title": "How to Market Your Shopify Store Like a PRO!",
         "url": "https://www.youtube.com/watch?v=r34jBooJwUw",
         "channel": "Learn With Shopify",
-        "views": 53606,
+        "views": 55225,
         "note": "",
         "teams": [
           "market"
@@ -611,47 +644,12 @@
         "title": "5 Shopify Updates in 2026 You Probably Didn't Know About",
         "url": "https://www.youtube.com/watch?v=DkcJFsPnyxU",
         "channel": "Learn With Shopify",
-        "views": 37606,
+        "views": 38170,
         "note": "",
         "teams": [
           "market"
         ],
         "source": "youtube_serpapi"
-      },
-      {
-        "title": "How to Start Affiliate Marketing in 2026",
-        "url": "https://www.youtube.com/watch?v=HnV5JXBWCeQ",
-        "channel": null,
-        "views": 36000,
-        "note": "",
-        "teams": [
-          "market",
-          "listing",
-          "design"
-        ],
-        "source": "youtube_channel"
-      },
-      {
-        "title": "Copy This Facebook Ads Tutorial. It'll Blow Up Your Shopify Store",
-        "url": "https://www.youtube.com/watch?v=DqCUQk1RWbw",
-        "channel": "Brendan Gillen",
-        "views": 35009,
-        "note": "",
-        "teams": [
-          "market"
-        ],
-        "source": "youtube_serpapi"
-      },
-      {
-        "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
-        "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
-        "channel": null,
-        "views": 34000,
-        "note": "",
-        "teams": [
-          "design"
-        ],
-        "source": "youtube_channel"
       }
     ],
     "note": "실수집 가능한 소스만 반영한다. OliveYoung US 가 Actions 403 이면 Sephora/Ulta 등으로 경쟁군을 채운다. OY 는 주 1회 로컬·브라우저 수집을 권장한다.",
@@ -669,8 +667,13 @@
     "근거_인사이트": 73,
     "주제": {
       "광고·크리에이티브": {
-        "자료_수": 9,
+        "자료_수": 8,
         "자료": [
+          {
+            "title": "How To Run Facebook Ads For Shopify 2026 (Setup + Full Guide)",
+            "url": "https://www.youtube.com/watch?v=2ijV5BimNDo",
+            "note": ""
+          },
           {
             "title": "ChatGPT Work + Dot: Build your AI Marketing Team (Agents + Skills)",
             "url": "https://www.youtube.com/watch?v=BzS93V2zFTg",
@@ -690,16 +693,11 @@
             "title": "I Studied 1,000 Shopify Stores, Here’s What Works in 2026",
             "url": "https://www.youtube.com/watch?v=2Azr4Cihay4",
             "note": "1,000개 Shopify 스토어 분석 - 광고별 랜딩·검색/내비게이션·PDP 이미지 스토리·번들 CRO"
-          },
-          {
-            "title": "Your 30 day plan to blow-up your clothing brand in 2026: Marketing strategy, ads + the algorithm 101",
-            "url": "https://www.youtube.com/watch?v=YzTg8c5DnWI",
-            "note": ""
           }
         ]
       },
       "전환·럜딩": {
-        "자료_수": 11,
+        "자료_수": 12,
         "자료": [
           {
             "title": "I Built The Ultimate Claude Website Design Skill (steal this)",
@@ -753,7 +751,7 @@
         ]
       },
       "브랜딩·포지셔닝": {
-        "자료_수": 13,
+        "자료_수": 11,
         "자료": [
           {
             "title": "🔑 브랜딩 잘하면 영업 안 해도 됩니다 | MD가 먼저 연락 오는 브랜드, 뭐가 다를까요",
@@ -771,13 +769,13 @@
             "note": "The Futur 크리스 두 - 가격 경쟁을 벗어나는 포지셔닝. Liquid Death 등 5개 브랜드 해부"
           },
           {
-            "title": "The NEW Way to Build a WINNING Clothing Brand in 2026",
-            "url": "https://www.youtube.com/watch?v=8ZNbjcKRWN4",
+            "title": "How Kendo Brands is Leading the Beauty Industry with Shopify",
+            "url": "https://www.youtube.com/watch?v=JCIrUPeILSg",
             "note": ""
           },
           {
-            "title": "How Kendo Brands is Leading the Beauty Industry with Shopify",
-            "url": "https://www.youtube.com/watch?v=JCIrUPeILSg",
+            "title": "브랜딩 감각을 키우고 싶다면👀 | 사업부터 브랜딩까지 분야별 필독서 추천",
+            "url": "https://www.youtube.com/watch?v=hikTGKo2kZE",
             "note": ""
           }
         ]
@@ -1706,42 +1704,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
-      "brand": "MEDIHEAL",
-      "price_usd": 39.99,
-      "rating": 4.8,
-      "review_count": 16646,
-      "us_rank": 1,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA32407466",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
-      "brand": "S.NATURE",
-      "price_usd": 17.99,
-      "rating": 4.9,
-      "review_count": 21,
-      "us_rank": 2,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA16733220",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-      "brand": "Anua",
-      "price_usd": 29.0,
-      "rating": 4.8,
-      "review_count": 842,
-      "us_rank": 3,
-      "daiso_bucket": "스킨케어",
-      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA69419689",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
       "brand": "WAKEMAKE",
       "price_usd": 14.99,
@@ -1776,6 +1738,42 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 메이크업 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA49015923",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
+      "brand": "MEDIHEAL",
+      "price_usd": 39.99,
+      "rating": 4.8,
+      "review_count": 16646,
+      "us_rank": 1,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 1위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA32407466",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] S.NATURE Aqua Squalane Moisturizing Cream 2.03 fl. oz.(60ml)",
+      "brand": "S.NATURE",
+      "price_usd": 17.99,
+      "rating": 4.9,
+      "review_count": 21,
+      "us_rank": 2,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 2위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA16733220",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
+      "brand": "Anua",
+      "price_usd": 29.0,
+      "rating": 4.8,
+      "review_count": 842,
+      "us_rank": 3,
+      "daiso_bucket": "스킨케어",
+      "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA69419689",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
@@ -1792,8 +1790,8 @@
     "trust_note": "",
     "live_channels": [
       "amazon_best_sellers",
-      "sokoglam_us",
       "amazon_new_beauty",
+      "sokoglam_us",
       "ulta_beauty"
     ],
     "s_count": 7,

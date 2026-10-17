@@ -388,17 +388,6 @@
       "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
     },
     {
-      "path": "data/agents/workflow_freshness.json",
-      "base_sha256": "904e5de13db5075b554558df0939c0b1cd7093418f0aa58485012d9e84a12373",
-      "replacement_sha256": "08c5d798041585dd2b99052ca90bd99359953c3f8500e69d80a8c72aad35a0bb",
-      "ids": [
-        "finished_at"
-      ],
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/daiso_real/desk_catalog.json",
       "base_sha256": "e4509d8da059dd37032506f30fe6b05baa2ad6d3e87e291375cde11fb2ee4861",
       "ids": [
@@ -550,6 +539,55 @@
         "B202608127172",
         "B202608127190",
         "선크림"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/agents/workflow_freshness.json",
+      "base_sha256": "08c5d798041585dd2b99052ca90bd99359953c3f8500e69d80a8c72aad35a0bb",
+      "replacement_sha256": "0a8d7bb62449ee66731481763979a077613b2f2e03ddaae909bf818104c063ec",
+      "ids": [
+        "finished_at"
+      ],
+      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
+      "policy_ref": "scripts/workflow_status_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/agents/daiso_pipeline_health.json",
+      "base_sha256": "7713f52793d91eb611599ae92d41b4f2412394c9f2df8688c2ab4a74ef3a928f",
+      "ids": [
+        "failed_workflow_history",
+        "input_errors",
+        "metadata_precision",
+        "operating_staleness",
+        "scopes",
+        "status"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "4097bf15d79583fedbb3f6989b20293033f425b04bf61ebf0467eb6262701236",
+      "ids": [
+        "action:intent:task_05d98d4e07037b3985f2619758133eded60e3fe8f0b0a8cfcf85f902d1cd4dfa",
+        "relation:2ca3cceeda693fa6160ab2f7",
+        "relation:97baba97be27ca85ad3484bc"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "c0b55e4abc5a19c3a2f8ef8c773c30e90b239eaddd615211ea2dcc690bf72757",
+      "ids": [
+        "STALE_SOURCE_CAPTURE",
+        "finished_at"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

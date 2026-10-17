@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:10:52.850228+00:00",
+  "generated_at": "2026-10-17T14:25:35.449842+00:00",
   "exchange_rate": {
     "usd_to_krw": 1334.89,
     "as_of": "2026-10-17",
@@ -10,7 +10,7 @@
     "strategy_file": "config/daiso_commerce_strategy.json",
     "strategy_sha256": "2de6e62538161f651f245e70b73fd831bf6b42d0bf375c9062c60f212cb70c8a",
     "margin_hard_block": false,
-    "serp_collected_at": "2026-10-01T23:39:34.955593+00:00",
+    "serp_collected_at": "2026-10-17T12:15:13.697554+00:00",
     "note": "register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
   },
   "cost_basis": {
@@ -79,28 +79,29 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 1,
-        "price_usd": 23.99,
-        "unit_price_usd": 23.99,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
         "landed_cost_total_usd": 8.88,
-        "fee_usd": 0.48,
-        "net_profit_usd": 14.63,
-        "margin_pct": 61.0,
-        "market_median_usd": 24.5,
-        "market_price_source": "serpapi_google_shopping",
+        "fee_usd": 0.46,
+        "net_profit_usd": 13.65,
+        "margin_pct": 59.4,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 24.5,
-          "sample_n": 20,
-          "query": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
           "assessment_at_generation": {
-            "ok": true,
-            "reasons": [],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 15.52,
-            "volume_status": "match"
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
           }
         },
         "profitability": {
@@ -114,50 +115,49 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 14.63,
-          "margin_pct": 61.0,
+          "net_profit_usd": 13.65,
+          "margin_pct": 59.4,
           "breakeven_usd": 9.06,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 15.31
         },
         "profit_warnings": [],
-        "register_blocked": false,
-        "block_reason": ""
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "qty": 1,
-        "price_usd": 15.99,
-        "unit_price_usd": 15.99,
+        "price_usd": 22.99,
+        "unit_price_usd": 22.99,
         "landed_cost_total_usd": 10.61,
-        "fee_usd": 0.32,
-        "net_profit_usd": 5.06,
-        "margin_pct": 31.6,
-        "market_median_usd": 16.8,
-        "market_price_source": "serpapi_google_shopping",
+        "fee_usd": 0.46,
+        "net_profit_usd": 11.92,
+        "margin_pct": 51.8,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 16.8,
-          "sample_n": 13,
-          "query": "VONSEP Retinol 500 IU Serum 30ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
           "assessment_at_generation": {
-            "ok": true,
-            "reasons": [],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 15.52,
-            "volume_status": "match"
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
           }
         },
         "profitability": {
-          "status": "below_target",
-          "warnings": [
-            "margin_below_target:31.6%<40.0%"
-          ],
+          "status": "ok",
+          "warnings": [],
           "blocks_registration": false,
           "unknown_fees": [
             "shopify_supplemental_transaction_fee",
@@ -166,18 +166,16 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 5.06,
-          "margin_pct": 31.6,
+          "net_profit_usd": 11.92,
+          "margin_pct": 51.8,
           "breakeven_usd": 10.83,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 18.29
         },
-        "profit_warnings": [
-          "margin_below_target:31.6%<40.0%"
-        ],
-        "register_blocked": false,
-        "block_reason": ""
+        "profit_warnings": [],
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       },
       {
         "pd_no": "1049275",
@@ -234,35 +232,33 @@
         "pd_no": "1067498",
         "name": "[영양광채]VT PDRN 광채 크림 50 ml",
         "qty": 1,
-        "price_usd": 17.99,
-        "unit_price_usd": 17.99,
+        "price_usd": 19.99,
+        "unit_price_usd": 19.99,
         "landed_cost_total_usd": 11.36,
-        "fee_usd": 0.36,
-        "net_profit_usd": 6.27,
-        "margin_pct": 34.9,
-        "market_median_usd": 18.38,
+        "fee_usd": 0.4,
+        "net_profit_usd": 8.23,
+        "margin_pct": 41.2,
+        "market_median_usd": 20.99,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
           "source": "serpapi_google_shopping",
-          "median_usd": 18.38,
-          "sample_n": 20,
-          "query": "VT PDRN Radiance Cream 50 ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "median_usd": 20.99,
+          "sample_n": 13,
+          "query": "[영양광채]VT PDRN 광채 크림 50 ml",
+          "collected_at": "2026-10-17T12:15:13.697554+00:00",
           "price_claim": "reference_price_basis_only_not_market_minimum",
           "assessment_at_generation": {
             "ok": true,
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.52,
+            "age_days": 0.09,
             "volume_status": "match"
           }
         },
         "profitability": {
-          "status": "below_target",
-          "warnings": [
-            "margin_below_target:34.9%<40.0%"
-          ],
+          "status": "ok",
+          "warnings": [],
           "blocks_registration": false,
           "unknown_fees": [
             "shopify_supplemental_transaction_fee",
@@ -271,16 +267,14 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 6.27,
-          "margin_pct": 34.9,
+          "net_profit_usd": 8.23,
+          "margin_pct": 41.2,
           "breakeven_usd": 11.59,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 19.59
         },
-        "profit_warnings": [
-          "margin_below_target:34.9%<40.0%"
-        ],
+        "profit_warnings": [],
         "register_blocked": false,
         "block_reason": ""
       },
@@ -443,28 +437,29 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 2,
-        "price_usd": 39.99,
-        "unit_price_usd": 20.0,
+        "price_usd": 38.99,
+        "unit_price_usd": 19.5,
         "landed_cost_total_usd": 11.46,
-        "fee_usd": 0.8,
-        "net_profit_usd": 27.73,
-        "margin_pct": 69.3,
-        "market_median_usd": 24.5,
-        "market_price_source": "serpapi_google_shopping",
+        "fee_usd": 0.78,
+        "net_profit_usd": 26.75,
+        "margin_pct": 68.6,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 24.5,
-          "sample_n": 20,
-          "query": "VT Reedle Shot 300 Facial Boosting First Ampoule 2ml x 6",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
           "assessment_at_generation": {
-            "ok": true,
-            "reasons": [],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 15.52,
-            "volume_status": "match"
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
           }
         },
         "profitability": {
@@ -478,43 +473,44 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 27.73,
-          "margin_pct": 69.3,
+          "net_profit_usd": 26.75,
+          "margin_pct": 68.6,
           "breakeven_usd": 11.69,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 19.76
         },
         "profit_warnings": [],
-        "register_blocked": false,
-        "block_reason": ""
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       },
       {
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "qty": 2,
-        "price_usd": 27.99,
-        "unit_price_usd": 13.99,
+        "price_usd": 38.99,
+        "unit_price_usd": 19.5,
         "landed_cost_total_usd": 15.68,
-        "fee_usd": 0.56,
-        "net_profit_usd": 11.75,
-        "margin_pct": 42.0,
-        "market_median_usd": 16.8,
-        "market_price_source": "serpapi_google_shopping",
+        "fee_usd": 0.78,
+        "net_profit_usd": 22.53,
+        "margin_pct": 57.8,
+        "market_median_usd": 22.49,
+        "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
-          "source": "serpapi_google_shopping",
-          "median_usd": 16.8,
-          "sample_n": 13,
-          "query": "VONSEP Retinol 500 IU Serum 30ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
-          "price_claim": "reference_price_basis_only_not_market_minimum",
+          "source": "oliveyoung_us_benchmark",
+          "median_usd": 22.49,
+          "sample_n": 100,
+          "query": null,
+          "collected_at": null,
           "assessment_at_generation": {
-            "ok": true,
-            "reasons": [],
-            "source": "serpapi_google_shopping",
-            "level": "product",
-            "age_days": 15.52,
-            "volume_status": "match"
+            "ok": false,
+            "reasons": [
+              "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+            ],
+            "source": "oliveyoung_us_benchmark",
+            "level": "category",
+            "age_days": null,
+            "volume_status": "not_checked"
           }
         },
         "profitability": {
@@ -528,16 +524,16 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 11.75,
-          "margin_pct": 42.0,
+          "net_profit_usd": 22.53,
+          "margin_pct": 57.8,
           "breakeven_usd": 16.0,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 27.03
         },
         "profit_warnings": [],
-        "register_blocked": false,
-        "block_reason": ""
+        "register_blocked": true,
+        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
       },
       {
         "pd_no": "1049275",
@@ -594,27 +590,27 @@
         "pd_no": "1067498",
         "name": "[영양광채]VT PDRN 광채 크림 50 ml",
         "qty": 2,
-        "price_usd": 29.99,
-        "unit_price_usd": 14.99,
+        "price_usd": 33.99,
+        "unit_price_usd": 17.0,
         "landed_cost_total_usd": 16.42,
-        "fee_usd": 0.6,
-        "net_profit_usd": 12.97,
-        "margin_pct": 43.2,
-        "market_median_usd": 18.38,
+        "fee_usd": 0.68,
+        "net_profit_usd": 16.89,
+        "margin_pct": 49.7,
+        "market_median_usd": 20.99,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
           "source": "serpapi_google_shopping",
-          "median_usd": 18.38,
-          "sample_n": 20,
-          "query": "VT PDRN Radiance Cream 50 ml",
-          "collected_at": "2026-10-01T23:39:34.955593+00:00",
+          "median_usd": 20.99,
+          "sample_n": 13,
+          "query": "[영양광채]VT PDRN 광채 크림 50 ml",
+          "collected_at": "2026-10-17T12:15:13.697554+00:00",
           "price_claim": "reference_price_basis_only_not_market_minimum",
           "assessment_at_generation": {
             "ok": true,
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 15.52,
+            "age_days": 0.09,
             "volume_status": "match"
           }
         },
@@ -629,8 +625,8 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 12.97,
-          "margin_pct": 43.2,
+          "net_profit_usd": 16.89,
+          "margin_pct": 49.7,
           "breakeven_usd": 16.76,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
@@ -797,7 +793,7 @@
   },
   "product_market_prices": {
     "source": "SerpApi google_shopping (미국)",
-    "matched": 9,
+    "matched": 6,
     "note": "상품별 실판매가가 있는 건은 그 값으로 마진을 계산한다. 없으면 올리브영 베스트셀러 벤치마크로 돌아간다."
   },
   "duty_mode_note": {
@@ -823,8 +819,8 @@
       "orders_for_500usd": 41,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        15.99,
-        23.99
+        19.99,
+        22.99
       ]
     },
     "bundle": {
@@ -841,8 +837,8 @@
       "orders_for_500usd": 21,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        27.99,
-        39.99
+        33.99,
+        38.99
       ]
     },
     "free_shipping_min_qty": 2,
@@ -890,15 +886,10 @@
           "profit": 13.16,
           "margin_pct": 58.5
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 24.5,
-          "fee": 0.49,
-          "profit": 15.13,
-          "margin_pct": 61.7
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1055167",
@@ -938,15 +929,10 @@
           "profit": 11.43,
           "margin_pct": 50.8
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.8,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 16.8,
-          "fee": 0.34,
-          "profit": 5.86,
-          "margin_pct": 34.9
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049275",
@@ -1030,13 +1016,13 @@
           "margin_pct": 47.5
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.38,
-        "market_sample_n": 20,
+        "market_median_usd": 20.99,
+        "market_sample_n": 13,
         "at_product_market": {
-          "sell": 18.38,
-          "fee": 0.37,
-          "profit": 6.65,
-          "margin_pct": 36.2
+          "sell": 20.99,
+          "fee": 0.42,
+          "profit": 9.21,
+          "margin_pct": 43.9
         }
       },
       {
@@ -1208,15 +1194,10 @@
           "profit": 16.31,
           "margin_pct": 72.5
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 24.5,
-          "fee": 0.49,
-          "profit": 18.28,
-          "margin_pct": 74.6
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1055167",
@@ -1256,15 +1237,10 @@
           "profit": 14.2,
           "margin_pct": 63.2
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.8,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 16.8,
-          "fee": 0.34,
-          "profit": 8.63,
-          "margin_pct": 51.4
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049275",
@@ -1348,13 +1324,13 @@
           "margin_pct": 61.5
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.38,
-        "market_sample_n": 20,
+        "market_median_usd": 20.99,
+        "market_sample_n": 13,
         "at_product_market": {
-          "sell": 18.38,
-          "fee": 0.37,
-          "profit": 9.8,
-          "margin_pct": 53.3
+          "sell": 20.99,
+          "fee": 0.42,
+          "profit": 12.36,
+          "margin_pct": 58.9
         }
       },
       {
@@ -1528,15 +1504,10 @@
           "profit": 13.16,
           "margin_pct": 58.5
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 24.5,
-          "fee": 0.49,
-          "profit": 15.13,
-          "margin_pct": 61.7
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1055167",
@@ -1576,15 +1547,10 @@
           "profit": 11.43,
           "margin_pct": 50.8
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.8,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 16.8,
-          "fee": 0.34,
-          "profit": 5.86,
-          "margin_pct": 34.9
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049275",
@@ -1668,13 +1634,13 @@
           "margin_pct": 47.5
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.38,
-        "market_sample_n": 20,
+        "market_median_usd": 20.99,
+        "market_sample_n": 13,
         "at_product_market": {
-          "sell": 18.38,
-          "fee": 0.37,
-          "profit": 6.65,
-          "margin_pct": 36.2
+          "sell": 20.99,
+          "fee": 0.42,
+          "profit": 9.21,
+          "margin_pct": 43.9
         }
       },
       {
@@ -1846,15 +1812,10 @@
           "profit": 16.31,
           "margin_pct": 72.5
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 24.5,
-          "fee": 0.49,
-          "profit": 18.28,
-          "margin_pct": 74.6
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1055167",
@@ -1894,15 +1855,10 @@
           "profit": 14.2,
           "margin_pct": 63.2
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.8,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 16.8,
-          "fee": 0.34,
-          "profit": 8.63,
-          "margin_pct": 51.4
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049275",
@@ -1986,13 +1942,13 @@
           "margin_pct": 61.5
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.38,
-        "market_sample_n": 20,
+        "market_median_usd": 20.99,
+        "market_sample_n": 13,
         "at_product_market": {
-          "sell": 18.38,
-          "fee": 0.37,
-          "profit": 9.8,
-          "margin_pct": 53.3
+          "sell": 20.99,
+          "fee": 0.42,
+          "profit": 12.36,
+          "margin_pct": 58.9
         }
       },
       {
@@ -2164,15 +2120,10 @@
           "profit": 13.49,
           "margin_pct": 60.0
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 24.5,
-          "fee": 0.49,
-          "profit": 15.46,
-          "margin_pct": 63.1
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1055167",
@@ -2212,15 +2163,10 @@
           "profit": 11.99,
           "margin_pct": 53.3
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.8,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 16.8,
-          "fee": 0.34,
-          "profit": 6.42,
-          "margin_pct": 38.2
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049275",
@@ -2304,13 +2250,13 @@
           "margin_pct": 50.0
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.38,
-        "market_sample_n": 20,
+        "market_median_usd": 20.99,
+        "market_sample_n": 13,
         "at_product_market": {
-          "sell": 18.38,
-          "fee": 0.37,
-          "profit": 7.21,
-          "margin_pct": 39.2
+          "sell": 20.99,
+          "fee": 0.42,
+          "profit": 9.77,
+          "margin_pct": 46.5
         }
       },
       {
@@ -2482,15 +2428,10 @@
           "profit": 16.64,
           "margin_pct": 74.0
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 24.5,
-        "market_sample_n": 20,
-        "at_product_market": {
-          "sell": 24.5,
-          "fee": 0.49,
-          "profit": 18.61,
-          "margin_pct": 76.0
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1055167",
@@ -2530,15 +2471,10 @@
           "profit": 14.77,
           "margin_pct": 65.7
         },
-        "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 16.8,
-        "market_sample_n": 13,
-        "at_product_market": {
-          "sell": 16.8,
-          "fee": 0.34,
-          "profit": 9.19,
-          "margin_pct": 54.7
-        }
+        "market_price_source": "oliveyoung_us_benchmark",
+        "market_median_usd": 22.49,
+        "market_sample_n": 100,
+        "at_product_market": null
       },
       {
         "pd_no": "1049275",
@@ -2622,13 +2558,13 @@
           "margin_pct": 64.0
         },
         "market_price_source": "serpapi_google_shopping",
-        "market_median_usd": 18.38,
-        "market_sample_n": 20,
+        "market_median_usd": 20.99,
+        "market_sample_n": 13,
         "at_product_market": {
-          "sell": 18.38,
-          "fee": 0.37,
-          "profit": 10.36,
-          "margin_pct": 56.4
+          "sell": 20.99,
+          "fee": 0.42,
+          "profit": 12.92,
+          "margin_pct": 61.5
         }
       },
       {
