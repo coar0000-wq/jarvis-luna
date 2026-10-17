@@ -38,8 +38,17 @@ VIDEOS = [
 # ── 체크리스트. source 는 근거가 된 영상과 챕터 ─────────────────────────
 # check 는 저장소에서 확인할 파일. None 이면 자동 판정하지 않는다.
 STEPS = [
-    {"id": "store-open", "label": "Shopify 스토어 개설 및 기본 설정",
-     "source": "HsMGvW2TE64 1분 Create Your Shopify Store / 48분 Set Up Your Store Settings",
+    # 2026-10-17: 사용자 "admin.shopify.com/store/coarfamily/products 는 사용 가능".
+    # 스토어는 이미 열려 있고 Admin API 로 상품 8건이 만들어졌다(등록 장부의
+    # gid://shopify/Product/ ID). 그런데 이 단계가 check None 이라 계속
+    # "대기 · 스토어 개설" 로 떠서 디자인팀 다음 할 일이 틀리게 나왔다.
+    # 개설은 등록 장부의 실제 상품 ID 로 판정하고, 기본 설정(Markets·배송·결제)은
+    # 저장소에 근거가 없으므로 별도 단계로 떼어 대기로 둔다.
+    {"id": "store-open", "label": "Shopify 스토어 개설",
+     "source": "HsMGvW2TE64 1분 Create Your Shopify Store",
+     "check": None, "check_fn": "store_open_evidence"},
+    {"id": "store-settings", "label": "스토어 기본 설정 (Markets·배송·결제)",
+     "source": "HsMGvW2TE64 48분 Set Up Your Store Settings",
      "check": None},
     {"id": "toolchain", "label": "Node·Git·Shopify CLI·Claude Code 설치",
      "source": "HsMGvW2TE64 2분 Set Up Your Tools & Install Node / 7분 Install Git & the Shopify CLI",
@@ -392,6 +401,29 @@ def count_of(path: Path):
     return None
 
 
+def store_open_evidence():
+    """등록 장부에 Shopify 가 발급한 상품 ID 가 있으면 스토어는 열려 있다.
+
+    ID 는 Admin API 가 응답으로 준 값이라 스토어 없이 생길 수 없다.
+    삭제된 상품은 세지 않는다. 장부가 없거나 ID 가 없으면 판정하지 않는다.
+    """
+    try:
+        reg = json.loads((DATA / "shopify_daily_registry.json").read_text(encoding="utf-8-sig"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    live = [i for i in (reg.get("items") or [])
+            if str(i.get("shopify_id") or "").startswith("gid://shopify/Product/")
+            and str(i.get("status") or "").upper() in ("ACTIVE", "DRAFT")]
+    if not live:
+        return None
+    active = sum(1 for i in live if str(i.get("status")).upper() == "ACTIVE")
+    return (f"data/shopify_daily_registry.json Shopify 상품 ID {len(live)}건 "
+            f"(ACTIVE {active} · DRAFT {len(live) - active})")
+
+
+CHECK_FNS = {"store_open_evidence": store_open_evidence}
+
+
 def build_steps(pack: dict | None = None):
     steps, done = [], 0
     pack = pack or {}
@@ -406,6 +438,13 @@ def build_steps(pack: dict | None = None):
                 evidence = f'원본 이미지 {part.get("original_images")}건 · 정사각 가공 {part.get("processed_square_white")}건'
             else:
                 evidence = f'data/design/offline_pack.json · 근거 {part.get("source")}'
+        elif s.get("check_fn"):
+            ev = CHECK_FNS[s["check_fn"]]()
+            if ev:
+                status, evidence = "완료", ev
+                done += 1
+            else:
+                status, evidence = "대기", "등록 장부에 Shopify 상품 ID 없음"
         elif s["check"]:
             p = DATA / s["check"]
             n = count_of(p) if p.exists() else None

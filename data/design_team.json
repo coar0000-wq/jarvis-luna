@@ -3,15 +3,24 @@
   "generated_at": "2026-10-04T07:13:43.095950+00:00",
   "scope": "Shopify 스토어 디자인 사양 관리 + 디자인 레퍼런스 수집",
   "checklist": {
-    "total": 12,
-    "done": 2,
+    "total": 13,
+    "done": 3,
     "draft_done": 3,
     "waiting": 7,
     "steps": [
       {
         "id": "store-open",
-        "label": "Shopify 스토어 개설 및 기본 설정",
-        "source": "HsMGvW2TE64 1분 Create Your Shopify Store / 48분 Set Up Your Store Settings",
+        "label": "Shopify 스토어 개설",
+        "source": "HsMGvW2TE64 1분 Create Your Shopify Store",
+        "check": null,
+        "check_fn": "store_open_evidence",
+        "status": "완료",
+        "evidence": "data/shopify_daily_registry.json Shopify 상품 ID 7건 (ACTIVE 2 · DRAFT 5)"
+      },
+      {
+        "id": "store-settings",
+        "label": "스토어 기본 설정 (Markets·배송·결제)",
+        "source": "HsMGvW2TE64 48분 Set Up Your Store Settings",
         "check": null,
         "status": "대기",
         "evidence": "스토어에서 진행 후 기록 필요"
@@ -38,7 +47,7 @@
         "source": "IQDtl0Dacjo 4분 Create Product Launch Content",
         "check": "shopify_listing_copy.json",
         "status": "완료",
-        "evidence": "data/shopify_listing_copy.json 10건"
+        "evidence": "data/shopify_listing_copy.json 8건"
       },
       {
         "id": "design-system",

@@ -159,6 +159,7 @@ jobs:
             python scripts/test_makeup_ranking_fallback.py
             python scripts/test_channel_runtime_rebuild.py
             python scripts/test_obsidian_graph_groups.py
+            python scripts/test_design_store_open.py
             python scripts/test_collector_snapshot_history.py
             python scripts/build_artifact_graph.py --check
             python scripts/check_release_quality.py --phase final --report "$RUNNER_TEMP/pages-quality-report.json"
