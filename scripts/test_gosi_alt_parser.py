@@ -24,4 +24,7 @@ assert parsed["ingredients"] == "정제수, 글리세린, 세라마이드엔피"
 assert parsed["volume"] == "23 ml / 0.78 fl. oz.", parsed
 assert parsed["maker"] == "(주)메가코스 / 유니레버코리아(주)", parsed
 assert parsed["origin"] == "대한민국", parsed
+# 2026-10-17 1072800 실측 형태: "화장품제조업자 및 책임판매업자:" 라벨이 통째로 와야 한다.
+cushion = module.parse_alt("화장품제조업자 및 책임판매업자: (주)코스메카코리아 / (주)정샘물뷰티\n제조국: 대한민국")
+assert cushion["maker"] == "(주)코스메카코리아 / (주)정샘물뷰티", cushion
 print("GOSI_ALT_PARSER_OK")
