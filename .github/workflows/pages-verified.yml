@@ -53,7 +53,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 1
+          fetch-depth: 0  # Target producer proof verifies run/cutover ancestry and code.
 
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # actions/setup-python@v5
         with:
@@ -141,6 +141,7 @@ jobs:
             python scripts/test_workflow_status_publication.py
             python scripts/test_daiso_pipeline_health.py
             python scripts/test_daiso_pipeline_inputs.py
+            python scripts/test_repository_identity.py
             python scripts/test_observe_daiso_pipeline.py
             python scripts/test_candidate_pool_history.py
             python scripts/test_gosi_observation_provenance.py

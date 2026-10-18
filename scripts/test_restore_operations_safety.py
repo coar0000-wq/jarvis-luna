@@ -30,6 +30,8 @@ def bundle(files, prefix=''):
 
 class RestoreTests(unittest.TestCase):
     def setUp(self):
+        from scripts.repository_identity_fixture import isolate_source
+        isolate_source(self)
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
@@ -780,6 +782,10 @@ class StaleQueuedCheckoutTests(unittest.TestCase):
 
 
 class QueuedProducerTests(unittest.TestCase):
+    def setUp(self):
+        from scripts.repository_identity_fixture import isolate_source
+        isolate_source(self)
+
     """2026-10-18: queued/pending producers have started nothing and must not block restore."""
 
     def row(self, rid, status):
