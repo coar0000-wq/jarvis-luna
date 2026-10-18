@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:46:34.482225+00:00",
+  "generated_at": "2026-10-18T03:54:57.023037+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -28,20 +28,20 @@
       "shopify_sync": "6.0 days ago",
       "pricing": "just now",
       "marketing": "just now",
-      "daiso": "1.9 hours ago",
-      "daiso_candidate_discovery": "1.9 hours ago",
+      "daiso": "2.1 hours ago",
+      "daiso_candidate_discovery": "unknown",
       "daiso_operating_capture": "unknown",
       "daiso_shortlist_price": "unknown",
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
       "deep_heartbeat": "14.7 days ago",
-      "actions_monitor": "4 min ago",
+      "actions_monitor": "13 min ago",
       "gosi": "15.4 days ago",
       "product_discovery": "just now"
     }
   },
   "summary": {
-    "success": 8,
+    "success": 6,
     "warning": 3,
     "waiting": 1,
     "degraded": 0,
@@ -99,9 +99,9 @@
       "candidates_new": 81,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-18T01:50:29.138531+00:00",
-      "candidate_success_age_hours": 1.935,
-      "attempt_age_hours": 1.935,
-      "success_age_hours": 458.96,
+      "candidate_success_age_hours": 2.074,
+      "attempt_age_hours": 2.074,
+      "success_age_hours": 459.1,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -110,13 +110,9 @@
         "schema_version": 1,
         "scopes": {
           "candidate_discovery": {
-            "status": "success",
-            "reason": "candidates",
-            "verified": true,
-            "execution_id": "39084067267:1:collect",
-            "requested": 110,
-            "candidate_count": 181,
-            "completed_at": "2026-10-18T01:50:29.138531+00:00"
+            "status": "unverified",
+            "reason": "no trusted matching collection receipt",
+            "verified": false
           },
           "operating_capture": {
             "status": "unverified",
@@ -131,15 +127,9 @@
             "scope": "active_shopify_shortlist_only"
           },
           "collection_publication": {
-            "status": "success",
-            "reason": "bound_collection_scope_published",
-            "verified": true,
-            "collection_scope": {
-              "requested": 110,
-              "discovery_enabled": true,
-              "operating_updates_enabled": false,
-              "publication": "collection_metadata"
-            }
+            "status": "unverified",
+            "reason": "no_verified_source",
+            "verified": false
           },
           "overall_workflow": {
             "status": "failed",
@@ -162,7 +152,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -175,8 +165,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -191,7 +180,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -204,8 +193,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -220,7 +208,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -233,8 +221,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -273,7 +260,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -286,8 +273,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -516,7 +502,7 @@
               "finished_at": "2026-10-06T01:49:38Z"
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -529,8 +515,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -759,7 +744,7 @@
               "finished_at": "2026-10-05T09:22:07Z"
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -772,8 +757,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -1002,7 +986,7 @@
               "finished_at": "2026-10-03T23:08:25Z"
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -1015,8 +999,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -1245,7 +1228,7 @@
               "finished_at": "2026-10-04T23:20:02Z"
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -1258,8 +1241,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           },
           {
             "run": {
@@ -1488,7 +1470,7 @@
               "finished_at": "2026-10-05T07:05:26Z"
             },
             "metadata_verified": true,
-            "superseded": true,
+            "superseded": false,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -1501,8 +1483,7 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            },
-            "superseded_by": "39084067267:1:collect"
+            }
           }
         ],
         "public_authority": false,
@@ -1512,7 +1493,9 @@
           "future_cap": "observed_now",
           "max_created_start_inversion_seconds": 1
         },
-        "input_errors": [],
+        "input_errors": [
+          "artifact/current exact source bytes mismatch"
+        ],
         "operating_staleness": {
           "status": "success",
           "reason": "신규 비교 후보 수집 정상 완료: 신규 81건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
@@ -1523,29 +1506,25 @@
           "candidates_new": 81,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-18T01:50:29.138531+00:00",
-          "candidate_success_age_hours": 1.935,
-          "attempt_age_hours": 1.935,
-          "success_age_hours": 458.96,
+          "candidate_success_age_hours": 2.074,
+          "attempt_age_hours": 2.074,
+          "success_age_hours": 459.1,
           "data_stale": true,
           "attempt_stale": false,
           "is_no_change": false,
           "is_failure": false
         }
       },
-      "freshness": "1.9 hours ago"
+      "freshness": "2.1 hours ago"
     },
     {
       "team": "daiso_candidate_discovery",
-      "status": "success",
-      "reason": "candidates",
-      "verified": true,
-      "execution_id": "39084067267:1:collect",
-      "requested": 110,
-      "candidate_count": 181,
-      "completed_at": "2026-10-18T01:50:29.138531+00:00",
+      "status": "unverified",
+      "reason": "no trusted matching collection receipt",
+      "verified": false,
       "is_failure": false,
       "public_authority": false,
-      "freshness": "1.9 hours ago"
+      "freshness": "unknown"
     },
     {
       "team": "daiso_operating_capture",
@@ -1569,15 +1548,9 @@
     },
     {
       "team": "daiso_collection_publication",
-      "status": "success",
-      "reason": "bound_collection_scope_published",
-      "verified": true,
-      "collection_scope": {
-        "requested": 110,
-        "discovery_enabled": true,
-        "operating_updates_enabled": false,
-        "publication": "collection_metadata"
-      },
+      "status": "unverified",
+      "reason": "no_verified_source",
+      "verified": false,
       "is_failure": false,
       "public_authority": false,
       "freshness": "unknown"
@@ -1594,9 +1567,9 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (351.9시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (352.0시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 351.86,
+      "age_hours": 351.999,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -1609,12 +1582,12 @@
       "reason": "GitHub Actions 관측: 5/5개 · 실패 1",
       "is_failure": true,
       "observed_at": "2026-10-18T03:41:34.816179Z",
-      "freshness": "4 min ago"
+      "freshness": "13 min ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "370.2h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "370.3h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
       "freshness": "15.4 days ago"
@@ -1631,13 +1604,9 @@
     "schema_version": 1,
     "scopes": {
       "candidate_discovery": {
-        "status": "success",
-        "reason": "candidates",
-        "verified": true,
-        "execution_id": "39084067267:1:collect",
-        "requested": 110,
-        "candidate_count": 181,
-        "completed_at": "2026-10-18T01:50:29.138531+00:00"
+        "status": "unverified",
+        "reason": "no trusted matching collection receipt",
+        "verified": false
       },
       "operating_capture": {
         "status": "unverified",
@@ -1652,15 +1621,9 @@
         "scope": "active_shopify_shortlist_only"
       },
       "collection_publication": {
-        "status": "success",
-        "reason": "bound_collection_scope_published",
-        "verified": true,
-        "collection_scope": {
-          "requested": 110,
-          "discovery_enabled": true,
-          "operating_updates_enabled": false,
-          "publication": "collection_metadata"
-        }
+        "status": "unverified",
+        "reason": "no_verified_source",
+        "verified": false
       },
       "overall_workflow": {
         "status": "failed",
@@ -1683,7 +1646,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1696,8 +1659,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -1712,7 +1674,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1725,8 +1687,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -1741,7 +1702,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1754,8 +1715,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -1794,7 +1754,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1807,8 +1767,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -2037,7 +1996,7 @@
           "finished_at": "2026-10-06T01:49:38Z"
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2050,8 +2009,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -2280,7 +2238,7 @@
           "finished_at": "2026-10-05T09:22:07Z"
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2293,8 +2251,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -2523,7 +2480,7 @@
           "finished_at": "2026-10-03T23:08:25Z"
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2536,8 +2493,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -2766,7 +2722,7 @@
           "finished_at": "2026-10-04T23:20:02Z"
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2779,8 +2735,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       },
       {
         "run": {
@@ -3009,7 +2964,7 @@
           "finished_at": "2026-10-05T07:05:26Z"
         },
         "metadata_verified": true,
-        "superseded": true,
+        "superseded": false,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -3022,8 +2977,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        },
-        "superseded_by": "39084067267:1:collect"
+        }
       }
     ],
     "public_authority": false,
@@ -3033,7 +2987,9 @@
       "future_cap": "observed_now",
       "max_created_start_inversion_seconds": 1
     },
-    "input_errors": [],
+    "input_errors": [
+      "artifact/current exact source bytes mismatch"
+    ],
     "operating_staleness": {
       "status": "success",
       "reason": "신규 비교 후보 수집 정상 완료: 신규 81건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
@@ -3044,9 +3000,9 @@
       "candidates_new": 81,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-18T01:50:29.138531+00:00",
-      "candidate_success_age_hours": 1.935,
-      "attempt_age_hours": 1.935,
-      "success_age_hours": 458.96,
+      "candidate_success_age_hours": 2.074,
+      "attempt_age_hours": 2.074,
+      "success_age_hours": 459.1,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,

@@ -1,15 +1,15 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-18T03:46:15.424490+00:00",
+  "generated_at": "2026-10-18T03:54:37.767590+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
       "data/product_master.json": "c1e4edb52da18eafdc7bc27a500d2343da39818eb04dc5ff4faa2bcf6bfeb189",
       "data/gosi.json": "65c4a1bf58af9ecfd59a8526718d38eb4a2dce44a4048d49eeb268e96c4e73d7",
-      "data/daiso_real/daiso_us_labels.json": "0083b942f5e41e029e87320d779363a6669d6c5978c03955dac71594f1275a10",
-      "data/pricing_model.json": "08fee0f6edd75cc8836f88ff2dec36d1e93f1ffd8cff39d685a2e12271232c70",
-      "data/legal_products.json": "be6dbf6a888cd5ffd43b9da580206c4ea3273860ecf36e398fd654ee0cceeef1",
+      "data/daiso_real/daiso_us_labels.json": "b90371c327cd5377ba99b5ff371f7bb5baab0d2f067bef497e3e609cf4d54aa3",
+      "data/pricing_model.json": "b879e58a37733d2b37bc850f895746e2aad819d628afce915abd186cdb3ffa36",
+      "data/legal_products.json": "7b5737f49a594b0888a902ed5f9caf50c1cb5344dbb96c5188cd3d0d5bff626f",
       "data/daiso_real/shopify_s_recommendations.json": "dbcf31ef40943d8bbeabe595a419556db631097345981b470b6d0bbb6f14f85c",
       "data/shopify_listing_copy.json": "141d8cf3e77594212726b9cded932f08330bf22604f3977b2e53813692ecc514",
       "data/shopify_shortlist.json": "ad0bd0a93d3a2a4103156804812250880717de56267a657660b71684d93524bc",
@@ -67,9 +67,15 @@
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "ledger_unavailable",
+      "stopped": "",
+      "global_stopped": "",
+      "workflow_stopped": "",
+      "workflow_id": "Shopify 영문 리스팅 카피 생성:39094496979:1",
+      "estimated_cost_usd": 0.0,
+      "account_estimated_cost_usd": 0.000544698,
+      "purchased_credits": false,
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "purchased_credits": false
+      "input_token_price_per_mtok_usd": 0.042
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",

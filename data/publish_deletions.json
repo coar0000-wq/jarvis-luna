@@ -159,31 +159,6 @@
       "replacement_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49"
     },
     {
-      "path": "data/daiso_real/collection_status.json",
-      "base_sha256": "7d2e61819ac53abf4835608287ac5d54efe859a7da7e57cb8ad906c581d94ec5",
-      "ids": [
-        "1039849",
-        "1041114",
-        "1045431",
-        "1059093",
-        "1060643",
-        "1067386",
-        "1067862",
-        "1067863",
-        "1067867",
-        "1070655",
-        "1071676",
-        "1072797",
-        "1072854",
-        "1078840",
-        "1079334",
-        "1087764"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/daiso_real/desk_catalog.json",
       "base_sha256": "e4509d8da059dd37032506f30fe6b05baa2ad6d3e87e291375cde11fb2ee4861",
       "ids": [
@@ -273,32 +248,6 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
-    },
-    {
-      "path": "data/shopify_import_report.json",
-      "base_commit": "d85106bcc3741e9699fed2256e3144405f8b2b72",
-      "base_sha256": "e765d0cf5388d1b1350901ee09d45239a9abec87f3d110935a5493559317f58d",
-      "replacement_sha256": "392cf0ea28185870d8f2df51c167120b9e60ccb86dae27720b353ff14378a337",
-      "ids": [
-        "1053482",
-        "1068733"
-      ],
-      "delete_file": false,
-      "policy_ref": "scripts/build_shopify_import_csv.py",
-      "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted."
-    },
-    {
-      "path": "data/shopify_listing_copy.json",
-      "base_sha256": "426f9ccbfdaaf246d86b319085ab0482955792dd97a98ffcd8d270bba2e5065f",
-      "replacement_sha256": "987abf6d6e9d816134bfd9d1b3d19522eace10d823f635709a6c418443e81455",
-      "base_commit": "d85106bcc3741e9699fed2256e3144405f8b2b72",
-      "ids": [
-        "1053482",
-        "1068733"
-      ],
-      "delete_file": false,
-      "policy_ref": "scripts/build_listing_copy_local.py",
-      "reason": "Retired canonical S draft rows moved to preserved non-approval draft_history; current rows exactly match canonical S and current gate. Exact prior bytes remain in Git."
     },
     {
       "path": "data/us_beauty_products.json",
