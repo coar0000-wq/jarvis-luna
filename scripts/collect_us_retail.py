@@ -394,6 +394,9 @@ def apply_assist(result: dict, assist: dict) -> None:
         result[key]["assisted"] = True
         result[key]["assist_at"] = at
         result[key]["assist_via"] = via
+        # A fallback is evidence from its original page, not today's attempted URL.
+        result[key]["url"] = blk.get("url") or ""
+        result[key]["label"] = f"{key} 보강 자료 ({result[key]['url'] or '출처 URL 미기록'})"
         result[key]["skipped_sponsored"] = blk.get("skipped_sponsored") or 0
         result[key]["reason"] = (
             f"{result[key]['reason']} · 보강 파일로 채움 "
