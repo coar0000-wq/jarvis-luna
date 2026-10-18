@@ -95,5 +95,42 @@ class HealthTests(unittest.TestCase):
         self.assertFalse(h.scope_covers(dict(h.DAILY_SCOPE, requested=1), h.DAILY_SCOPE))
         self.assertFalse(h.scope_covers(None, h.DAILY_SCOPE))
 
+    def historical(self, full=None, now='2026-10-03T08:10:01Z', validate=True, required=None):
+        full = full or dict(self.receipt, collection_scope=h.DAILY_SCOPE, scope='overall_workflow',
+                           publication_completed=True, workflow_conclusion='success')
+        return h.evaluate(self.doc, self.workflow, now=now, collection_status_bytes=self.raw,
+            historical_publications=[full],
+            validated_historical_publication_sha256=[h.receipt_sha256(full)] if validate else [],
+            validated_failure_scopes={(10, 1): required or h.DAILY_SCOPE})
+
+    def test_historical_supersession_outlives_freshness_without_current_success(self):
+        for now in (NOW, '2026-10-03T08:10:00Z', '2026-10-03T08:10:01Z', '2026-11-03T03:00:00Z'):
+            with self.subTest(now=now):
+                result = self.historical(now=now)
+                self.assertTrue(result['failed_workflow_history'][0]['superseded'])
+                self.assertEqual(result['failed_workflow_history'][0]['superseded_by'], '11:1:collect')
+                self.assertEqual(result['status'], 'unverified')
+                self.assertEqual(result['scopes']['collection_publication']['status'], 'unverified')
+                self.assertEqual(result['scopes']['operating_capture']['status'], 'unverified')
+
+    def test_historical_projection_keeps_scope_order_attempt_and_authority_guards(self):
+        full = dict(self.receipt, collection_scope=h.DAILY_SCOPE, scope='overall_workflow',
+                    publication_completed=True, workflow_conclusion='success')
+        self.assertTrue(self.historical(required=dict(h.DAILY_SCOPE, requested=20))['failed_workflow_history'][0]['superseded'])
+        for required in (dict(h.DAILY_SCOPE, requested=111), dict(h.DAILY_SCOPE, operating_updates_enabled=True)):
+            self.assertEqual(self.historical(required=required)['status'], 'failed')
+        for patch in ({'collection_scope': dict(h.DAILY_SCOPE, requested=20)},
+                      {'scope': 'collection_publication'}, {'scope': 'shortlist_price'},
+                      {'workflow': 'JARVIS-Core-Automation.yml'}, {'publication_completed': False},
+                      {'workflow_conclusion': 'failure'}, {'source_sha256': 'bad'},
+                      {'started_at': self.failed['finished_at']},
+                      {'run_id': 10, 'execution_id': '10:1:collect'},
+                      {'finished_at': '2027-01-01T00:00:00Z'}):
+            with self.subTest(patch=patch):
+                self.assertEqual(self.historical(dict(full, **patch))['status'], 'failed')
+        self.assertEqual(self.historical(validate=False)['status'], 'failed')
+        self.failed['finished_at'] = '2026-10-03T02:15:00Z'
+        self.assertEqual(self.historical()['status'], 'failed')
+
 if __name__ == '__main__':
     unittest.main()
