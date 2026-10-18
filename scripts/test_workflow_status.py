@@ -65,8 +65,9 @@ class WorkflowStatusTests(unittest.TestCase):
         result = report()
         self.assertEqual(result["status"], "success")
         self.assertEqual(result["failed_actions"], 0)
-        self.assertEqual(result["checked_workflows"], 5)
-        self.assertTrue(result["coverage_complete"])
+        self.assertEqual(result["checked_workflows"], len(monitor.WORKFLOWS))
+        self.assertFalse(result["coverage_complete"])
+        self.assertTrue(result["configured_coverage_complete"])
         self.assertEqual(result["observed_at"], stamp())
 
     def test_current_queued_is_warning_not_previous_success(self):
@@ -194,7 +195,7 @@ class WorkflowStatusTests(unittest.TestCase):
         self.assertEqual(result["status"], "failed")
         self.assertEqual(result["failed_actions"], "unknown")
         self.assertEqual(result["confirmed_failed_actions"], 1)
-        self.assertEqual(result["checked_workflows"], 4)
+        self.assertEqual(result["checked_workflows"], len(monitor.WORKFLOWS) - 1)
 
     def test_injected_fetch_exactly_five_urls(self):
         urls = []
@@ -203,7 +204,7 @@ class WorkflowStatusTests(unittest.TestCase):
             return {"workflow_runs": [run()]}
         result = monitor.collect_report("owner/repo", NOW, fake)
         self.assertEqual(result["status"], "success")
-        self.assertEqual(len(urls), 5)
+        self.assertEqual(len(urls), len(monitor.WORKFLOWS))
         self.assertEqual(set(urls), {"https://api.github.com/repos/owner/repo/actions/workflows/" + name + "/runs?per_page=10&branch=main" for name in monitor.WORKFLOWS})
 
     def test_errors_sanitized_no_token_and_no_retry(self):
@@ -217,7 +218,7 @@ class WorkflowStatusTests(unittest.TestCase):
                 calls.append(url)
                 raise exc
             result = monitor.collect_report("owner/repo", NOW, fake)
-            self.assertEqual(len(calls), 5)
+            self.assertEqual(len(calls), len(monitor.WORKFLOWS))
             self.assertEqual(result["failed_actions"], "unknown")
             self.assertNotIn("SECRET_TOKEN", json.dumps(result))
             self.assertEqual(result["workflows"][CORE]["reason"], expected)
@@ -256,7 +257,7 @@ class WorkflowStatusTests(unittest.TestCase):
             with patch.dict(os.environ, env, clear=True), patch.object(monitor.urllib.request, "build_opener") as opener:
                 opener.return_value.open.return_value = Response()
                 result = monitor.collect_report("owner/repo", NOW)
-                self.assertEqual(opener.return_value.open.call_count, 5)
+                self.assertEqual(opener.return_value.open.call_count, len(monitor.WORKFLOWS))
                 for call in opener.return_value.open.call_args_list:
                     request = call.args[0]
                     self.assertEqual(request.get_method(), "GET")

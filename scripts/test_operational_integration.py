@@ -296,7 +296,7 @@ class PureAssessmentTests(unittest.TestCase):
         fetcher = Mock(return_value=payload)
         with patch.object(monitor, "_fetch_json", side_effect=AssertionError("real fetch forbidden")):
             result = monitor.collect_report("fixture/offline", now=NOW, fetch_json=fetcher)
-        self.assertEqual(fetcher.call_count, 5)
+        self.assertEqual(fetcher.call_count, len(monitor.WORKFLOWS))
         for call in fetcher.call_args_list:
             self.assertRegex(call.args[0], r"^https://api\.github\.com/repos/fixture/offline/actions/workflows/[^/]+/runs\?per_page=10&branch=main$")
         self.assertEqual(result["failed_actions"], "unknown")
@@ -309,7 +309,7 @@ class PureAssessmentTests(unittest.TestCase):
         original = deepcopy(payload)
         result = monitor.build_report(payload, now=NOW)
         self.assertEqual(result["failed_actions"], 1)
-        self.assertEqual(result["checked_workflows"], 5)
+        self.assertEqual(result["checked_workflows"], len(monitor.WORKFLOWS))
         self.assertEqual(result["workflows"]["JARVIS-Core-Automation.yml"]["last_success_at"], "2026-10-03T11:10:00Z")
         self.assertEqual(payload, original)
 
