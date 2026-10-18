@@ -17,7 +17,7 @@
     },
     "Sephora": {
       "count": 14,
-      "source_url": "https://www.sephora.com/beauty/beauty-best-sellers",
+      "source_url": "https://www.sephora.com/beauty/beuty-best-sellers",
       "reason": "차단/빈 페이지로 보인다 (근거: access denied, 본문 221자) · 보강 파일로 채움 (Aside 브라우저 세션 (사람 프로필 Chrome), 2026-09-15)",
       "assisted": true,
       "collected_at": "2026-09-15T11:19:23.782Z"
