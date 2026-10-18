@@ -143,6 +143,9 @@ jobs:
       - name: 커머스 온톨로지·Action 안전 검증
         run: python -u scripts/validate_commerce_architecture.py
 
+      - name: Record regenerated label diagnostic removals
+        run: python -u scripts/collector_snapshot_history.py data/daiso_real/us_label_sync_report.json
+
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: success()
         uses: ./.github/actions/publish
@@ -151,6 +154,7 @@ jobs:
           # 이 워크플로가 법률 자동 점검을 다시 돌리는데 그 결과가 경로에
           # 없으면 발행되지 않아 원거 main 이 낡은 판정을 유지한다.
           paths: >-
+            data/publish_deletions.json
             data/gosi.json
             data/daiso_real/daiso_us_labels.json
             data/daiso_real/us_label_sync_report.json

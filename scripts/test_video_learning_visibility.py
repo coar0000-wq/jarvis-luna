@@ -79,7 +79,7 @@ class VideoLearningVisibilityTests(unittest.TestCase):
             data = Path(tmp)
             out = data / "feeds.json"
             fixture_load = lambda p: source if p.name == "team_youtube_insights.json" else {}
-            with patch.object(feeds, "DATA", data), patch.object(feeds, "OUT", out), patch.object(feeds, "load", fixture_load), patch.object(feeds, "collect_fda", return_value=([], [])), contextlib.redirect_stdout(io.StringIO()):
+            with patch.object(feeds, "DATA", data), patch.object(feeds, "OUT", out), patch.object(feeds, "load", fixture_load), patch.object(feeds, "collect_fda", return_value=([], [])), patch.object(feeds, "feed_rows", return_value=[]), contextlib.redirect_stdout(io.StringIO()):
                 feeds.main()
             doc = json.loads(out.read_text(encoding="utf-8"))
         row = doc["teams"]["knowledge"][0]

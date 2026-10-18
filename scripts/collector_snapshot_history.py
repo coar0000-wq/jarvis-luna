@@ -39,6 +39,9 @@ POLICY_REF = "scripts/collector_snapshot_history.py"
 
 # 파일별로 "통째로 교체되는 순위 목록" 경로만 선언한다. * 는 한 단계 키.
 ROTATING = {
+    # Regenerated diagnostics only: resolved missing fields and retired SKU
+    # summaries disappear. Source labels and human approvals stay protected.
+    "data/daiso_real/us_label_sync_report.json": ["items"],
     "data/amazon_products.json": ["products"],
     "data/amazon_new_products.json": ["products"],
     "data/amazon_movers_products.json": ["products"],
