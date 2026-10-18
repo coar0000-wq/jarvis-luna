@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +20,12 @@ def packets(root=ROOT):
     doc = json.loads(manifest.read_text(encoding='utf-8'))
     if not doc.get('sources') or set(doc.get('recipients', {})) - RECIPIENTS:
         raise ValueError('missing sources or unknown recipients')
+    reviewed_at = doc.get('reviewed_at')
+    try:
+        if date.fromisoformat(reviewed_at).isoformat() != reviewed_at:
+            raise ValueError
+    except (TypeError, ValueError) as exc:
+        raise ValueError('document review date must be YYYY-MM-DD') from exc
     evidence = []
     allowed = (root / 'docs/learning/materials').resolve()
     for source in doc['sources']:
@@ -34,7 +41,7 @@ def packets(root=ROOT):
         if len(action) > 1600:
             raise ValueError('handoff summary too long')
         out.append({'id': doc['id'] + ':' + recipient, 'recipient': recipient,
-                    'date': doc['reviewed_at'], 'title': doc['title'],
+                    'date': reviewed_at, 'title': doc['title'],
                     'summary': action, 'url': doc['review_path'],
                     'status': 'shared_to_repository_not_acknowledged',
                     'verification': {'kind': 'local_document_integrity_only', 'sources': evidence},

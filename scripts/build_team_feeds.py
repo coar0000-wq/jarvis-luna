@@ -291,6 +291,9 @@ def insight_rows(doc: dict) -> list[dict]:
 
 def main() -> int:
     pools = feed_rows(ROOT)
+    # Preserve the review marker from validated canonical handoffs, never from
+    # the previous generated feed or the current collection clock.
+    handoff_reviewed_at = max((row['date'] for row in pools), default=None)
     rs = load(DATA / "knowledge" / "real_sources.json")
     for key, blk in ((rs or {}).get("sources") or {}).items():
         for it in (blk.get("items") or []):
@@ -465,6 +468,8 @@ def main() -> int:
         "not_collected": NOT_COLLECTED,
         "teams": teams,
     }
+    if handoff_reviewed_at is not None:
+        payload['document_handoffs_reviewed_at'] = handoff_reviewed_at
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"\n전체 풀 {len(pools)}건 · 미배정 {unrouted}건"
           + (f" · 제목 없어 버림 {dropped}건" if dropped else ""))
