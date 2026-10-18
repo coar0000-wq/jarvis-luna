@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T06:54:56.212892+00:00",
+  "generated_at": "2026-10-18T08:35:41.113901+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
-  "count": 59,
+  "count": 60,
   "items": [
     {
       "canonical_product_id": "CP000215",
@@ -21,7 +21,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000117",
@@ -31,7 +31,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000197",
@@ -41,7 +41,7 @@
       "shopify_score": 98,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000178",
@@ -61,7 +61,7 @@
       "shopify_score": 97,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000181",
@@ -74,6 +74,16 @@
       "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 50% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
+      "canonical_product_id": "CP000100",
+      "pd_no": "1048581",
+      "name": "드롭비 잡티 말끔 앰플 40 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 96,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
+    },
+    {
       "canonical_product_id": "CP000218",
       "pd_no": "1067500",
       "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
@@ -82,16 +92,6 @@
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
-    },
-    {
-      "canonical_product_id": "CP000100",
-      "pd_no": "1048581",
-      "name": "드롭비 잡티 말끔 앰플 40 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 96,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000198",
@@ -241,7 +241,7 @@
       "shopify_score": 91,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 71% · 토큰 cream, hydrating"
+      "recommend_reason": "글로벌 'ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare' (amazon_best_sellers) 유사 65% · 토큰 cream, hydrating"
     },
     {
       "canonical_product_id": "CP000067",
@@ -251,7 +251,7 @@
       "shopify_score": 91,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000184",
@@ -271,7 +271,7 @@
       "shopify_score": 90,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn"
+      "recommend_reason": "글로벌 'PDRN 핑크 콜라겐 볼륨 멀티밤' (ulta_beauty) 유사 91% · 토큰 collagen, pdrn"
     },
     {
       "canonical_product_id": "CP000344",
@@ -279,9 +279,29 @@
       "name": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
       "bucket": "클렌징",
       "shopify_score": 90,
+      "s_rule": "weak_solo_token",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '퍼스트 케어 안티에이징 세럼' (sephora) 유사 28% · 토큰 serum · S제외:weak_solo_token"
+    },
+    {
+      "canonical_product_id": "CP000038",
+      "pd_no": "1027327",
+      "name": "바세린 마스크팩 집중보습",
+      "bucket": "마스크팩",
+      "shopify_score": 90,
       "s_rule": "no_global_match",
       "downgrade_reason": null,
-      "recommend_reason": "클렌징 카테고리 · 평점 4.8 · 리뷰 827건 (글로벌 시그널 약함)"
+      "recommend_reason": "마스크팩 카테고리 · 평점 4.8 · 리뷰 3,692건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000234",
+      "pd_no": "1068861",
+      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "bucket": "스킨케어",
+      "shopify_score": 90,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 953건 (글로벌 시그널 약함)"
     },
     {
       "canonical_product_id": "CP000261",
@@ -331,7 +351,7 @@
       "shopify_score": 88,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '콜라겐 리얼 딥 마스크' (sephora) 유사 29% · 토큰 mask · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000157",
@@ -344,6 +364,16 @@
       "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials' (amazon_best_sellers) 유사 64% · 토큰 mask, pore"
     },
     {
+      "canonical_product_id": "CP000144",
+      "pd_no": "1059091",
+      "name": "[화잘먹앰플] 미모 바이 마몽드 로지-히알론 수분 앰플 50 ml (아모레퍼시픽)",
+      "bucket": "스킨케어",
+      "shopify_score": 86,
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 43% · 토큰 ampoule · S제외:match_too_weak"
+    },
+    {
       "canonical_product_id": "CP000125",
       "pd_no": "1053482",
       "name": "메디필 엑스트라 슈퍼 9 플러스 모공 진정 토너 200 ml",
@@ -352,16 +382,6 @@
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 'Rice Toner' (sokoglam_us) 유사 40% · 토큰 toner · S제외:match_too_weak"
-    },
-    {
-      "canonical_product_id": "CP000144",
-      "pd_no": "1059091",
-      "name": "[화잘먹앰플] 미모 바이 마몽드 로지-히알론 수분 앰플 50 ml (아모레퍼시픽)",
-      "bucket": "스킨케어",
-      "shopify_score": 86,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000159",
@@ -381,27 +401,7 @@
       "shopify_score": 86,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 27% · 토큰 hydrating · S제외:weak_solo_token"
-    },
-    {
-      "canonical_product_id": "CP000250",
-      "pd_no": "1072455",
-      "name": "큐어레스트 수분진정 버블에센스토너 95 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 86,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,348건 (글로벌 시그널 약함)"
-    },
-    {
-      "canonical_product_id": "CP000088",
-      "pd_no": "1044967",
-      "name": "어퓨 더퓨어 티트리 에센스 50ml",
-      "bucket": "스킨케어",
-      "shopify_score": 86,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 838건 (글로벌 시그널 약함)"
+      "recommend_reason": "글로벌 'MAYBELLINE Super Stay Peel Off Lip Liner Lip Stain, Up to 24H Tattoo-Like Wear, Transfer-Proof Matte Finish, Hydrating Formula With Vitamin E, Aura (Mauve Nude)' (amazon_new_beauty) 유사 25% · 토큰 hydrating · S제외:weak_solo_token"
     }
   ]
 }

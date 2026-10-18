@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-18T06:54:56.568356+00:00",
+  "generated_at": "2026-10-18T08:35:41.578911+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -503,10 +503,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.4092,
         "review_score": 0.8543,
-        "final_score": 0.493,
+        "final_score": 0.5021,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -756,17 +756,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.0,
         "demand_score": 0.5385,
         "review_score": 0.9514,
-        "final_score": 0.7073,
+        "final_score": 0.4739,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -919,10 +919,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.8677,
         "review_score": 0.9057,
-        "final_score": 0.6689,
+        "final_score": 0.678,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -1371,7 +1371,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251231/a1rTbe8LgoPw9mu5HABd1027327_00_00a1rTbe8LgoPw9mu5HABd.jpg",
       "shopify_score": 90,
       "grade": "A",
-      "s_rule": "no_category_desk",
+      "s_rule": "no_global_match",
       "score_breakdown": {
         "category": 22.6,
         "rating": 13.3,
@@ -1380,17 +1380,17 @@
         "keyword": 3,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.733,
+        "match_score": 0.0,
         "demand_score": 0.8677,
         "review_score": 0.9514,
-        "final_score": 0.8457,
+        "final_score": 0.5891,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -1751,10 +1751,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.4554,
         "review_score": 0.5,
-        "final_score": 0.4028,
+        "final_score": 0.4119,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2531,10 +2531,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.5,
+        "match_score": 0.439,
         "demand_score": 0.7231,
         "review_score": 0.92,
-        "final_score": 0.7041,
+        "final_score": 0.6827,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2635,10 +2635,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.5,
+        "match_score": 0.439,
         "demand_score": 0.7708,
         "review_score": 0.7914,
-        "final_score": 0.6822,
+        "final_score": 0.6608,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -2940,17 +2940,17 @@
         "keyword": 0,
         "us_market_fit": 16.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.5,
+        "match_score": 0.0,
         "demand_score": 0.6769,
         "review_score": 0.9514,
-        "final_score": 0.6974,
+        "final_score": 0.5224,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3044,17 +3044,17 @@
         "keyword": 5,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.367,
+        "match_score": 0.433,
         "demand_score": 0.9415,
         "review_score": 0.84,
-        "final_score": 0.71,
+        "final_score": 0.7331,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3460,17 +3460,17 @@
         "keyword": 3,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.653,
+        "match_score": 0.787,
         "demand_score": 0.8277,
         "review_score": 0.9057,
-        "final_score": 0.79,
+        "final_score": 0.8369,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -3980,17 +3980,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.9514,
-        "final_score": 0.8678,
+        "final_score": 0.8909,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -4188,17 +4188,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.28,
         "demand_score": 0.9969,
         "review_score": 0.0,
-        "final_score": 0.3489,
+        "final_score": 0.4469,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -4760,17 +4760,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.367,
+        "match_score": 0.433,
         "demand_score": 0.9969,
         "review_score": 0.8886,
-        "final_score": 0.7439,
+        "final_score": 0.767,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -4812,17 +4812,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.9143,
-        "final_score": 0.8567,
+        "final_score": 0.8798,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5020,17 +5020,17 @@
         "keyword": 3,
         "us_market_fit": 16.7,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.414,
+        "match_score": 0.5,
         "demand_score": 0.8415,
         "review_score": 0.0,
-        "final_score": 0.4394,
+        "final_score": 0.4695,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5072,17 +5072,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.9514,
-        "final_score": 0.8678,
+        "final_score": 0.8909,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5100,11 +5100,10 @@
         "ready": false,
         "blocked_by": [
           "copy",
-          "price",
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T06:54:56.500352+00:00"
+        "gate_generated_at": "2026-10-18T08:35:41.463363+00:00"
       }
     },
     {
@@ -5133,17 +5132,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 1.0,
-        "final_score": 0.8824,
+        "final_score": 0.9055,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5163,7 +5162,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T06:54:56.500352+00:00"
+        "gate_generated_at": "2026-10-18T08:35:41.463363+00:00"
       }
     },
     {
@@ -5192,17 +5191,17 @@
         "keyword": 3,
         "us_market_fit": 12.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.493,
+        "match_score": 0.338,
         "demand_score": 0.7815,
         "review_score": 0.9514,
-        "final_score": 0.7315,
+        "final_score": 0.6773,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5244,7 +5243,7 @@
         "keyword": 0,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -5348,17 +5347,17 @@
         "keyword": 3,
         "us_market_fit": 11.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.593,
+        "match_score": 0.339,
         "demand_score": 0.7292,
         "review_score": 0.94,
-        "final_score": 0.7448,
+        "final_score": 0.6559,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -5712,17 +5711,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.9514,
-        "final_score": 0.8678,
+        "final_score": 0.8909,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -6440,7 +6439,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -6466,7 +6465,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T06:54:56.500352+00:00"
+        "gate_generated_at": "2026-10-18T08:35:41.463363+00:00"
       }
     },
     {
@@ -6651,7 +6650,7 @@
         "keyword": 5,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7067,17 +7066,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.0,
-        "final_score": 0.5824,
+        "final_score": 0.6055,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7223,17 +7222,17 @@
         "keyword": 5,
         "us_market_fit": 12.4,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.367,
+        "match_score": 0.433,
         "demand_score": 0.8062,
         "review_score": 0.9514,
-        "final_score": 0.696,
+        "final_score": 0.7191,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7282,10 +7281,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.5385,
         "review_score": 0.9514,
-        "final_score": 0.5673,
+        "final_score": 0.5764,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7542,10 +7541,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.5015,
         "review_score": 0.9514,
-        "final_score": 0.5544,
+        "final_score": 0.5635,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -7587,17 +7586,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 15,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.853,
+        "match_score": 0.987,
         "demand_score": 0.8862,
         "review_score": 0.94,
-        "final_score": 0.8907,
+        "final_score": 0.9376,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8211,17 +8210,17 @@
         "keyword": 3,
         "us_market_fit": 12.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.593,
+        "match_score": 0.339,
         "demand_score": 0.7446,
         "review_score": 0.9029,
-        "final_score": 0.739,
+        "final_score": 0.6501,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8575,17 +8574,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.0,
-        "final_score": 0.5824,
+        "final_score": 0.6055,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8939,17 +8938,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 16,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.673,
+        "match_score": 0.76,
         "demand_score": 0.9969,
         "review_score": 0.0,
-        "final_score": 0.5845,
+        "final_score": 0.6149,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -8991,17 +8990,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.263,
+        "match_score": 0.251,
         "demand_score": 0.5385,
         "review_score": 0.0,
-        "final_score": 0.2805,
+        "final_score": 0.2763,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9258,10 +9257,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.5015,
         "review_score": 0.6829,
-        "final_score": 0.4738,
+        "final_score": 0.4829,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9771,17 +9770,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.248,
         "demand_score": 0.5385,
         "review_score": 0.9514,
-        "final_score": 0.5673,
+        "final_score": 0.5607,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -9979,17 +9978,17 @@
         "keyword": 3,
         "us_market_fit": 22.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 16,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.634,
+        "match_score": 0.907,
         "demand_score": 0.9308,
         "review_score": 0.8457,
-        "final_score": 0.8014,
+        "final_score": 0.8969,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -10343,17 +10342,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.9429,
-        "final_score": 0.8652,
+        "final_score": 0.8883,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -11279,7 +11278,7 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 9,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11357,7 +11356,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T06:54:56.500352+00:00"
+        "gate_generated_at": "2026-10-18T08:35:41.463363+00:00"
       }
     },
     {
@@ -12088,11 +12087,10 @@
           "copy",
           "gosi",
           "us_label",
-          "price",
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T06:54:56.500352+00:00"
+        "gate_generated_at": "2026-10-18T08:35:41.463363+00:00"
       }
     },
     {
@@ -12173,17 +12171,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.367,
+        "match_score": 0.433,
         "demand_score": 0.9969,
         "review_score": 0.0,
-        "final_score": 0.4774,
+        "final_score": 0.5005,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12225,17 +12223,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.7,
+        "match_score": 0.0,
         "demand_score": 0.9231,
         "review_score": 0.0,
-        "final_score": 0.5681,
+        "final_score": 0.3231,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12268,7 +12266,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
       "shopify_score": 90,
       "grade": "A",
-      "s_rule": "no_category_desk",
+      "s_rule": "no_global_match",
       "score_breakdown": {
         "category": 25.0,
         "rating": 11.7,
@@ -12277,17 +12275,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.7,
+        "match_score": 0.0,
         "demand_score": 0.9231,
         "review_score": 0.8514,
-        "final_score": 0.8235,
+        "final_score": 0.5785,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12632,7 +12630,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251015/AR8EgQM3gsJer4GplnCY1071640_00_00AR8EgQM3gsJer4GplnCY.png",
       "shopify_score": 90,
       "grade": "A",
-      "s_rule": "no_global_match",
+      "s_rule": "weak_solo_token",
       "score_breakdown": {
         "category": 20.2,
         "rating": 13.3,
@@ -12641,17 +12639,17 @@
         "keyword": 5,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.28,
         "demand_score": 0.9077,
         "review_score": 0.8857,
-        "final_score": 0.5834,
+        "final_score": 0.6814,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12693,17 +12691,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.9969,
         "review_score": 0.0,
-        "final_score": 0.5824,
+        "final_score": 0.6055,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12745,17 +12743,17 @@
         "keyword": 0,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.714,
+        "match_score": 0.653,
         "demand_score": 0.9046,
         "review_score": 0.9257,
-        "final_score": 0.8442,
+        "final_score": 0.8229,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12953,17 +12951,17 @@
         "keyword": 5,
         "us_market_fit": 19.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.367,
+        "match_score": 0.433,
         "demand_score": 0.92,
         "review_score": 0.0,
-        "final_score": 0.4504,
+        "final_score": 0.4735,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13057,17 +13055,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.624,
         "demand_score": 0.5385,
         "review_score": 0.8657,
-        "final_score": 0.6816,
+        "final_score": 0.6666,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13109,17 +13107,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.624,
         "demand_score": 0.5015,
         "review_score": 0.8029,
-        "final_score": 0.6498,
+        "final_score": 0.6348,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13499,11 +13497,10 @@
           "copy",
           "gosi",
           "us_label",
-          "price",
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T06:54:56.500352+00:00"
+        "gate_generated_at": "2026-10-18T08:35:41.463363+00:00"
       }
     },
     {
@@ -13532,17 +13529,17 @@
         "keyword": 0,
         "us_market_fit": 20.3,
         "rebucket_note": "",
-        "global_similarity_reference_only": 8,
+        "global_similarity_reference_only": 5,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.414,
+        "match_score": 0.34,
         "demand_score": 0.8508,
         "review_score": 0.8371,
-        "final_score": 0.6938,
+        "final_score": 0.6679,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13584,17 +13581,17 @@
         "keyword": 0,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.248,
         "demand_score": 0.8615,
         "review_score": 0.8629,
-        "final_score": 0.6538,
+        "final_score": 0.6472,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -14130,11 +14127,10 @@
           "copy",
           "gosi",
           "us_label",
-          "price",
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T06:54:56.500352+00:00"
+        "gate_generated_at": "2026-10-18T08:35:41.463363+00:00"
       }
     },
     {
@@ -14163,17 +14159,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 13,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.357,
+        "match_score": 0.8,
         "demand_score": 1.0,
         "review_score": 0.0,
-        "final_score": 0.4749,
+        "final_score": 0.63,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -14579,17 +14575,17 @@
         "keyword": 0,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.514,
+        "match_score": 0.453,
         "demand_score": 0.9046,
         "review_score": 0.0,
-        "final_score": 0.4965,
+        "final_score": 0.4752,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15262,10 +15258,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.4554,
         "review_score": 0.8057,
-        "final_score": 0.4945,
+        "final_score": 0.5036,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15827,17 +15823,17 @@
         "keyword": 3,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.733,
+        "match_score": 0.0,
         "demand_score": 0.8215,
         "review_score": 0.0,
-        "final_score": 0.5441,
+        "final_score": 0.2875,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -15886,10 +15882,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.3631,
         "review_score": 0.0,
-        "final_score": 0.2205,
+        "final_score": 0.2296,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16087,17 +16083,17 @@
         "keyword": 0,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 2,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.248,
         "demand_score": 0.7692,
         "review_score": 0.0,
-        "final_score": 0.3627,
+        "final_score": 0.356,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16146,10 +16142,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.267,
+        "match_score": 0.293,
         "demand_score": 0.7754,
         "review_score": 0.0,
-        "final_score": 0.3648,
+        "final_score": 0.3739,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16295,17 +16291,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.624,
         "demand_score": 0.4,
         "review_score": 0.0,
-        "final_score": 0.3734,
+        "final_score": 0.3584,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16607,17 +16603,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.28,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.3005,
+        "final_score": 0.3985,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16763,17 +16759,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.5339,
+        "final_score": 0.557,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -16815,7 +16811,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16867,7 +16863,7 @@
         "keyword": 5,
         "us_market_fit": 21.2,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16971,17 +16967,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.5339,
+        "final_score": 0.557,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17023,17 +17019,17 @@
         "keyword": 5,
         "us_market_fit": 12.4,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.367,
+        "match_score": 0.433,
         "demand_score": 0.6677,
         "review_score": 0.0,
-        "final_score": 0.3621,
+        "final_score": 0.3852,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17075,17 +17071,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.5339,
+        "final_score": 0.557,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17179,17 +17175,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.5339,
+        "final_score": 0.557,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17231,17 +17227,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.5339,
+        "final_score": 0.557,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17335,17 +17331,17 @@
         "keyword": 5,
         "us_market_fit": 19.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.7815,
         "review_score": 0.0,
-        "final_score": 0.507,
+        "final_score": 0.5301,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17394,10 +17390,10 @@
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.553,
+        "match_score": 0.433,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.4682,
+        "final_score": 0.4262,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -17855,17 +17851,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.7,
+        "match_score": 0.0,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.5196,
+        "final_score": 0.2746,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18054,7 +18050,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "shopify_score": 85,
       "grade": "A",
-      "s_rule": "form_cap",
+      "s_rule": "no_category_desk",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -18115,17 +18111,17 @@
         "keyword": 5,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 0,
+        "global_similarity_reference_only": 3,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.0,
+        "match_score": 0.28,
         "demand_score": 0.7692,
         "review_score": 0.0,
-        "final_score": 0.2692,
+        "final_score": 0.3672,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18375,7 +18371,7 @@
         "keyword": 3,
         "us_market_fit": 22.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -18427,17 +18423,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 12,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.733,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.5339,
+        "final_score": 0.557,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18531,17 +18527,17 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 6,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.367,
+        "match_score": 0.433,
         "demand_score": 0.8585,
         "review_score": 0.0,
-        "final_score": 0.4289,
+        "final_score": 0.452,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18583,17 +18579,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.7,
+        "match_score": 0.0,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.5196,
+        "final_score": 0.2746,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18635,17 +18631,17 @@
         "keyword": 0,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.714,
+        "match_score": 0.653,
         "demand_score": 0.7662,
         "review_score": 0.0,
-        "final_score": 0.5181,
+        "final_score": 0.4967,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18687,17 +18683,17 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 6,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.667,
+        "match_score": 0.624,
         "demand_score": 0.4,
         "review_score": 0.0,
-        "final_score": 0.3734,
+        "final_score": 0.3584,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18791,17 +18787,17 @@
         "keyword": 5,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 13,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.357,
+        "match_score": 0.8,
         "demand_score": 0.8615,
         "review_score": 0.0,
-        "final_score": 0.4265,
+        "final_score": 0.5815,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },

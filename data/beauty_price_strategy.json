@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-18T06:54:57.097992Z",
+  "as_of": "2026-10-18T08:35:42.252674Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -82,7 +82,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T06:54:56.212892+00:00",
+        "timestamp": "2026-10-18T08:35:41.113901+00:00",
         "record_count": 356
       },
       {
@@ -92,7 +92,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T06:54:56.568356+00:00",
+        "timestamp": "2026-10-18T08:35:41.578911+00:00",
         "record_count": 356
       },
       {
@@ -112,7 +112,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T06:54:56.319537+00:00",
+        "timestamp": "2026-10-18T08:35:41.242380+00:00",
         "record_count": null
       },
       {
@@ -132,7 +132,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T06:54:56.975079+00:00",
+        "timestamp": "2026-10-18T08:35:42.070718+00:00",
         "record_count": 0
       },
       {
@@ -331,7 +331,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-03T11:42:15.459821+00:00",
-        "age_hours": 355.21,
+        "age_hours": 356.89,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -346,7 +346,7 @@
         "channel": "sokoglam_us",
         "present": true,
         "collected_at": "2026-10-18T03:30:40.749487+00:00",
-        "age_hours": 3.4,
+        "age_hours": 5.08,
         "verified": true,
         "reasons": [],
         "items_total": 234,
@@ -368,7 +368,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 787.59,
+        "age_hours": 789.27,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -383,7 +383,7 @@
         "channel": "amazon_best_sellers",
         "present": true,
         "collected_at": "2026-10-18T03:30:36.916541+00:00",
-        "age_hours": 3.41,
+        "age_hours": 5.08,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -395,7 +395,7 @@
         "channel": "amazon_new_beauty",
         "present": true,
         "collected_at": "2026-10-18T03:30:36.918506+00:00",
-        "age_hours": 3.41,
+        "age_hours": 5.08,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -407,7 +407,7 @@
         "channel": "amazon_movers_beauty",
         "present": true,
         "collected_at": "2026-10-18T03:30:36.918217+00:00",
-        "age_hours": 3.41,
+        "age_hours": 5.08,
         "verified": false,
         "reasons": [
           "no_items"
@@ -456,8 +456,7 @@
       "unknown": 214
     },
     "profitability_risk": {
-      "below_target_margin": 3,
-      "ok": 4,
+      "below_target_margin": 7,
       "unknown": 207
     },
     "product_level_analytics_observations": 0
@@ -659,8 +658,7 @@
         "unknown": 143
       },
       "profitability_risk_counts": {
-        "below_target_margin": 3,
-        "ok": 2,
+        "below_target_margin": 5,
         "unknown": 138
       },
       "priority_top5": [
@@ -736,7 +734,7 @@
         "unknown": 53
       },
       "profitability_risk_counts": {
-        "ok": 2,
+        "below_target_margin": 2,
         "unknown": 51
       },
       "priority_top5": [
@@ -1100,15 +1098,15 @@
       "own_price": {
         "status": "model_recommended",
         "kind": "model_recommended",
-        "price_usd": 22.99,
+        "price_usd": 15.33,
         "source": "pricing_model.json",
         "candidates": [
           {
             "kind": "model_recommended",
-            "price_usd": 22.99,
+            "price_usd": 15.33,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T06:54:56.319537+00:00"
+            "observed_on": "2026-10-18T08:35:41.242380+00:00"
           }
         ],
         "conflict": false,
@@ -1213,7 +1211,7 @@
         },
         "weight_estimated": true,
         "effective_target_margin_pct": 45.0,
-        "basis_price_usd": 22.99,
+        "basis_price_usd": 15.33,
         "price_source": "pricing_model.json",
         "scenarios": {
           "ship_1_unit_order": {
@@ -1225,12 +1223,12 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 22.99,
+            "price_usd": 15.33,
             "landed_cost_usd": 8.89,
-            "fee_usd": 0.46,
-            "net_profit_usd": 13.64,
-            "margin_pct": 59.3,
-            "risk": "ok"
+            "fee_usd": 0.31,
+            "net_profit_usd": 6.13,
+            "margin_pct": 40.0,
+            "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
@@ -1241,18 +1239,18 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 22.99,
+            "price_usd": 15.33,
             "landed_cost_usd": 5.74,
-            "fee_usd": 0.46,
-            "net_profit_usd": 16.79,
-            "margin_pct": 73.0,
+            "fee_usd": 0.31,
+            "net_profit_usd": 9.28,
+            "margin_pct": 60.5,
             "risk": "ok"
           }
         },
-        "risk": "ok",
+        "risk": "below_target_margin",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "ok",
+      "profitability_risk": "below_target_margin",
       "priority": {
         "score": 58.8,
         "evidence_status": "unknown_price_evidence",
@@ -1362,7 +1360,7 @@
             "price_usd": 23.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T06:54:56.319537+00:00"
+            "observed_on": "2026-10-18T08:35:41.242380+00:00"
           }
         ],
         "conflict": true,
@@ -1438,7 +1436,7 @@
           "median_usd": 24.99,
           "max_usd": 55.99,
           "freshness": "fresh",
-          "age_hours": 3.26,
+          "age_hours": 4.94,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1616,7 +1614,7 @@
             "price_usd": 19.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T06:54:56.319537+00:00"
+            "observed_on": "2026-10-18T08:35:41.242380+00:00"
           }
         ],
         "conflict": false,
@@ -1654,7 +1652,7 @@
           "median_usd": 20.17,
           "max_usd": 150.0,
           "freshness": "fresh",
-          "age_hours": 3.26,
+          "age_hours": 4.94,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1846,7 +1844,7 @@
             "price_usd": 31.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T06:54:56.319537+00:00"
+            "observed_on": "2026-10-18T08:35:41.242380+00:00"
           }
         ],
         "conflict": true,
@@ -1898,7 +1896,7 @@
           "median_usd": 33.38,
           "max_usd": 88.0,
           "freshness": "fresh",
-          "age_hours": 3.26,
+          "age_hours": 4.94,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2065,15 +2063,15 @@
       "own_price": {
         "status": "model_recommended",
         "kind": "model_recommended",
-        "price_usd": 22.99,
+        "price_usd": 19.61,
         "source": "pricing_model.json",
         "candidates": [
           {
             "kind": "model_recommended",
-            "price_usd": 22.99,
+            "price_usd": 19.61,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T06:54:56.319537+00:00"
+            "observed_on": "2026-10-18T08:35:41.242380+00:00"
           }
         ],
         "conflict": false,
@@ -2105,7 +2103,7 @@
           "median_usd": 8.89,
           "max_usd": 8.89,
           "freshness": "fresh",
-          "age_hours": 3.26,
+          "age_hours": 4.94,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2156,7 +2154,7 @@
         },
         "weight_estimated": true,
         "effective_target_margin_pct": 45.0,
-        "basis_price_usd": 22.99,
+        "basis_price_usd": 19.61,
         "price_source": "pricing_model.json",
         "scenarios": {
           "ship_1_unit_order": {
@@ -2168,12 +2166,12 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 22.99,
+            "price_usd": 19.61,
             "landed_cost_usd": 11.37,
-            "fee_usd": 0.46,
-            "net_profit_usd": 11.16,
-            "margin_pct": 48.5,
-            "risk": "ok"
+            "fee_usd": 0.39,
+            "net_profit_usd": 7.85,
+            "margin_pct": 40.0,
+            "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
@@ -2184,18 +2182,18 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 22.99,
+            "price_usd": 19.61,
             "landed_cost_usd": 8.21,
-            "fee_usd": 0.46,
-            "net_profit_usd": 14.32,
-            "margin_pct": 62.3,
+            "fee_usd": 0.39,
+            "net_profit_usd": 11.01,
+            "margin_pct": 56.1,
             "risk": "ok"
           }
         },
-        "risk": "ok",
+        "risk": "below_target_margin",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "ok",
+      "profitability_risk": "below_target_margin",
       "priority": {
         "score": 55.8,
         "evidence_status": "unknown_price_evidence",
@@ -20401,15 +20399,15 @@
       "own_price": {
         "status": "model_recommended",
         "kind": "model_recommended",
-        "price_usd": 25.99,
+        "price_usd": 19.61,
         "source": "pricing_model.json",
         "candidates": [
           {
             "kind": "model_recommended",
-            "price_usd": 25.99,
+            "price_usd": 19.61,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T06:54:56.319537+00:00"
+            "observed_on": "2026-10-18T08:35:41.242380+00:00"
           }
         ],
         "conflict": false,
@@ -20441,7 +20439,7 @@
           "median_usd": 26.99,
           "max_usd": 88.0,
           "freshness": "fresh",
-          "age_hours": 3.26,
+          "age_hours": 4.94,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -20492,7 +20490,7 @@
         },
         "weight_estimated": true,
         "effective_target_margin_pct": 45.0,
-        "basis_price_usd": 25.99,
+        "basis_price_usd": 19.61,
         "price_source": "pricing_model.json",
         "scenarios": {
           "ship_1_unit_order": {
@@ -20504,12 +20502,12 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 25.99,
+            "price_usd": 19.61,
             "landed_cost_usd": 11.37,
-            "fee_usd": 0.52,
-            "net_profit_usd": 14.1,
-            "margin_pct": 54.3,
-            "risk": "ok"
+            "fee_usd": 0.39,
+            "net_profit_usd": 7.85,
+            "margin_pct": 40.0,
+            "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
@@ -20520,18 +20518,18 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 25.99,
+            "price_usd": 19.61,
             "landed_cost_usd": 8.59,
-            "fee_usd": 0.52,
-            "net_profit_usd": 16.88,
-            "margin_pct": 64.9,
+            "fee_usd": 0.39,
+            "net_profit_usd": 10.63,
+            "margin_pct": 54.2,
             "risk": "ok"
           }
         },
-        "risk": "ok",
+        "risk": "below_target_margin",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "ok",
+      "profitability_risk": "below_target_margin",
       "priority": {
         "score": 45.0,
         "evidence_status": "unknown_price_evidence",
@@ -20611,15 +20609,15 @@
       "own_price": {
         "status": "model_recommended",
         "kind": "model_recommended",
-        "price_usd": 22.99,
+        "price_usd": 16.63,
         "source": "pricing_model.json",
         "candidates": [
           {
             "kind": "model_recommended",
-            "price_usd": 22.99,
+            "price_usd": 16.63,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T06:54:56.319537+00:00"
+            "observed_on": "2026-10-18T08:35:41.242380+00:00"
           }
         ],
         "conflict": false,
@@ -20678,7 +20676,7 @@
         },
         "weight_estimated": true,
         "effective_target_margin_pct": 45.0,
-        "basis_price_usd": 22.99,
+        "basis_price_usd": 16.63,
         "price_source": "pricing_model.json",
         "scenarios": {
           "ship_1_unit_order": {
@@ -20690,12 +20688,12 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 22.99,
+            "price_usd": 16.63,
             "landed_cost_usd": 9.64,
-            "fee_usd": 0.46,
-            "net_profit_usd": 12.89,
-            "margin_pct": 56.1,
-            "risk": "ok"
+            "fee_usd": 0.33,
+            "net_profit_usd": 6.66,
+            "margin_pct": 40.0,
+            "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
             "status": "computed",
@@ -20706,18 +20704,18 @@
             "has_unknown_fees": true,
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
-            "price_usd": 22.99,
+            "price_usd": 16.63,
             "landed_cost_usd": 6.87,
-            "fee_usd": 0.46,
-            "net_profit_usd": 15.66,
-            "margin_pct": 68.1,
+            "fee_usd": 0.33,
+            "net_profit_usd": 9.43,
+            "margin_pct": 56.7,
             "risk": "ok"
           }
         },
-        "risk": "ok",
+        "risk": "below_target_margin",
         "risk_basis": "computed_landed_cost"
       },
-      "profitability_risk": "ok",
+      "profitability_risk": "below_target_margin",
       "priority": {
         "score": 51.0,
         "evidence_status": "unknown_price_evidence",

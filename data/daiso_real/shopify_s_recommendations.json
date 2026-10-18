@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T06:54:56.212892+00:00",
+  "generated_at": "2026-10-18T08:35:41.113901+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -19,16 +19,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
       "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Time Revolution Night Repair Ampoule 5X",
-        "similarity": 0.667,
-        "demand_weight": 0.617,
+        "channel": "sephora",
+        "global_product": "턴오버 앰플 c-PDRN 0.5%",
+        "similarity": 0.733,
+        "demand_weight": 0.63,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.411
+        "match_score": 0.462
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -71,7 +71,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T06:54:56.733342+00:00"
+      "gate_generated_at": "2026-10-18T08:35:41.779154+00:00"
     },
     {
       "rank": 2,
@@ -139,7 +139,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T06:54:56.733342+00:00"
+      "gate_generated_at": "2026-10-18T08:35:41.779154+00:00"
     },
     {
       "rank": 3,
@@ -154,37 +154,35 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
       "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Time Revolution Night Repair Ampoule 5X",
-        "similarity": 0.667,
-        "demand_weight": 0.617,
+        "channel": "sephora",
+        "global_product": "턴오버 앰플 c-PDRN 0.5%",
+        "similarity": 0.733,
+        "demand_weight": 0.63,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.411
+        "match_score": 0.462
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
         "copy",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "price",
         "legal",
         "manufacturer_safety_record_missing",
+        "market_price_review",
         "legal_full"
       ],
       "typesafe": {
@@ -197,24 +195,23 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 8,
+        "risk_points": 7,
         "team_routes": [
           "legal",
-          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, price, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T06:54:56.733342+00:00"
+      "gate_generated_at": "2026-10-18T08:35:41.779154+00:00"
     },
     {
       "rank": 4,
@@ -282,7 +279,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T06:54:56.733342+00:00"
+      "gate_generated_at": "2026-10-18T08:35:41.779154+00:00"
     },
     {
       "rank": 5,
@@ -315,7 +312,6 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -323,7 +319,6 @@
         "copy",
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -332,9 +327,9 @@
         "copy",
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing",
+        "market_price_review",
         "legal_full"
       ],
       "typesafe": {
@@ -347,25 +342,24 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 10,
+        "risk_points": 9,
         "team_routes": [
           "legal",
-          "pricing",
           "sourcing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T06:54:56.733342+00:00"
+      "gate_generated_at": "2026-10-18T08:35:41.779154+00:00"
     },
     {
       "rank": 6,
@@ -397,7 +391,6 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -405,7 +398,6 @@
         "copy",
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -414,9 +406,9 @@
         "copy",
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing",
+        "market_price_review",
         "legal_full"
       ],
       "typesafe": {
@@ -429,25 +421,24 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 11,
+        "risk_points": 10,
         "team_routes": [
           "legal",
-          "pricing",
           "sourcing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T06:54:56.733342+00:00"
+      "gate_generated_at": "2026-10-18T08:35:41.779154+00:00"
     },
     {
       "rank": 7,
@@ -470,7 +461,6 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -478,7 +468,6 @@
         "copy",
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -487,9 +476,9 @@
         "copy",
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing",
+        "market_price_review",
         "legal_full"
       ],
       "typesafe": {
@@ -502,25 +491,24 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 11,
+        "risk_points": 10,
         "team_routes": [
           "legal",
-          "pricing",
           "sourcing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, price, legal, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T06:54:56.733342+00:00"
+      "gate_generated_at": "2026-10-18T08:35:41.779154+00:00"
     }
   ],
   "agent_ready_count": 0,

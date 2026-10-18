@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-18T07:26:46.929395+00:00",
+  "generated_at": "2026-10-18T08:36:35.104527+00:00",
   "s_count": 7,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -8,9 +8,9 @@
       "pd_no": "1049276",
       "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 100,
-      "why": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
-      "global": "Time Revolution Night Repair Ampoule 5X",
-      "channel": "sokoglam_us",
+      "why": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
+      "global": "턴오버 앰플 c-PDRN 0.5%",
+      "channel": "sephora",
       "tokens": [
         "ampoule"
       ]
@@ -31,9 +31,9 @@
       "pd_no": "1049275",
       "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 98,
-      "why": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
-      "global": "Time Revolution Night Repair Ampoule 5X",
-      "channel": "sokoglam_us",
+      "why": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
+      "global": "턴오버 앰플 c-PDRN 0.5%",
+      "channel": "sephora",
       "tokens": [
         "ampoule"
       ]

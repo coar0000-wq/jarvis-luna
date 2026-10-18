@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-18T15:54:56.826590+09:00",
+    "updated_at": "2026-10-18T17:35:41.888652+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -656,7 +656,7 @@
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
-      "competitor_pool_size": 259,
+      "competitor_pool_size": 203,
       "competitor_fallback": "oliveyoung_us primary"
     }
   },
@@ -1582,7 +1582,6 @@
       "ad_keywords_source": "ontology 선행 게이트 차단",
       "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -1636,7 +1635,6 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -1665,7 +1663,6 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -1694,7 +1691,6 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
@@ -1777,22 +1773,21 @@
     }
   ],
   "weekly_actions": [
-    "AI 선행 게이트 차단 7건의 증거 보강: gosi, legal, manufacturer_safety_record_missing, price, us_label",
+    "AI 선행 게이트 차단 7건의 증거 보강: gosi, legal, manufacturer_safety_record_missing, us_label",
     "수집 실패 채널 1개 점검: amazon_movers_beauty",
     "시장 가격대 100건 기준 중앙값 $22.49 주 1회 확인",
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {
-    "signals_live": 4,
+    "signals_live": 3,
     "signals_total": 15,
-    "signals_verified": 4,
+    "signals_verified": 3,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
       "amazon_best_sellers",
       "sokoglam_us",
-      "amazon_new_beauty",
-      "ulta_beauty"
+      "amazon_new_beauty"
     ],
     "s_count": 7,
     "listing_ready_count": 0,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T06:54:56.319537+00:00",
+  "generated_at": "2026-10-18T08:35:41.242380+00:00",
   "exchange_rate": {
     "usd_to_krw": 1334.77,
     "as_of": "2026-10-18",
@@ -8,10 +8,10 @@
   "pricing_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "2de6e62538161f651f245e70b73fd831bf6b42d0bf375c9062c60f212cb70c8a",
+    "strategy_sha256": "e4a4c515b4ff2cc29174aa096a7549d5d6c5f5f90e7b515ad9b40404d70779b1",
     "margin_hard_block": false,
     "serp_collected_at": "2026-10-18T03:39:17.876324+00:00",
-    "note": "register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
+    "note": "시장가격 미확인 상품은 비용 기반 임시 USD 가격과 draft_only로 초안 등록을 허용한다. 임시 가격은 시장가격 근거가 아니다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
   },
   "cost_basis": {
     "shipping": "우체국 국제통상 소형포장물 미국행 요금표 (ems.epost.go.kr, 2026-08-31 조회)",
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "match"
           }
         },
@@ -123,6 +123,8 @@
         },
         "profit_warnings": [],
         "register_blocked": false,
+        "draft_only": false,
+        "pricing_basis": "market_evidence",
         "block_reason": ""
       },
       {
@@ -149,7 +151,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "match"
           }
         },
@@ -173,18 +175,20 @@
         },
         "profit_warnings": [],
         "register_blocked": false,
+        "draft_only": false,
+        "pricing_basis": "market_evidence",
         "block_reason": ""
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 1,
-        "price_usd": 22.99,
-        "unit_price_usd": 22.99,
+        "price_usd": 15.33,
+        "unit_price_usd": 15.33,
         "landed_cost_total_usd": 8.89,
-        "fee_usd": 0.46,
-        "net_profit_usd": 13.64,
-        "margin_pct": 59.3,
+        "fee_usd": 0.31,
+        "net_profit_usd": 6.13,
+        "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
@@ -215,16 +219,18 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 13.64,
-          "margin_pct": 59.3,
+          "net_profit_usd": 6.13,
+          "margin_pct": 40.0,
           "breakeven_usd": 9.07,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 15.33
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       },
       {
         "pd_no": "1067498",
@@ -250,7 +256,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "match"
           }
         },
@@ -274,18 +280,20 @@
         },
         "profit_warnings": [],
         "register_blocked": false,
+        "draft_only": false,
+        "pricing_basis": "market_evidence",
         "block_reason": ""
       },
       {
         "pd_no": "1068721",
         "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "qty": 1,
-        "price_usd": 22.99,
-        "unit_price_usd": 22.99,
+        "price_usd": 19.61,
+        "unit_price_usd": 19.61,
         "landed_cost_total_usd": 11.37,
-        "fee_usd": 0.46,
-        "net_profit_usd": 11.16,
-        "margin_pct": 48.5,
+        "fee_usd": 0.39,
+        "net_profit_usd": 7.85,
+        "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
@@ -316,27 +324,29 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 11.16,
-          "margin_pct": 48.5,
+          "net_profit_usd": 7.85,
+          "margin_pct": 40.0,
           "breakeven_usd": 11.6,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 19.6
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       },
       {
         "pd_no": "1074979",
         "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
         "qty": 1,
-        "price_usd": 22.99,
-        "unit_price_usd": 22.99,
+        "price_usd": 16.63,
+        "unit_price_usd": 16.63,
         "landed_cost_total_usd": 9.64,
-        "fee_usd": 0.46,
-        "net_profit_usd": 12.89,
-        "margin_pct": 56.1,
+        "fee_usd": 0.33,
+        "net_profit_usd": 6.66,
+        "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
@@ -367,27 +377,29 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 12.89,
-          "margin_pct": 56.1,
+          "net_profit_usd": 6.66,
+          "margin_pct": 40.0,
           "breakeven_usd": 9.84,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 16.62
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       },
       {
         "pd_no": "1072800",
         "name": "줌 바이 정샘물 세범다운 쿠션",
         "qty": 1,
-        "price_usd": 25.99,
-        "unit_price_usd": 25.99,
+        "price_usd": 19.61,
+        "unit_price_usd": 19.61,
         "landed_cost_total_usd": 11.37,
-        "fee_usd": 0.52,
-        "net_profit_usd": 14.1,
-        "margin_pct": 54.3,
+        "fee_usd": 0.39,
+        "net_profit_usd": 7.85,
+        "margin_pct": 40.0,
         "market_median_usd": 26.99,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -404,7 +416,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -419,16 +431,18 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 14.1,
-          "margin_pct": 54.3,
+          "net_profit_usd": 7.85,
+          "margin_pct": 40.0,
           "breakeven_usd": 11.6,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 19.6
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       }
     ],
     "bundle": [
@@ -456,7 +470,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "match"
           }
         },
@@ -480,6 +494,8 @@
         },
         "profit_warnings": [],
         "register_blocked": false,
+        "draft_only": false,
+        "pricing_basis": "market_evidence",
         "block_reason": ""
       },
       {
@@ -506,7 +522,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "match"
           }
         },
@@ -530,18 +546,20 @@
         },
         "profit_warnings": [],
         "register_blocked": false,
+        "draft_only": false,
+        "pricing_basis": "market_evidence",
         "block_reason": ""
       },
       {
         "pd_no": "1049275",
         "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "qty": 2,
-        "price_usd": 38.99,
-        "unit_price_usd": 19.5,
+        "price_usd": 19.8,
+        "unit_price_usd": 9.9,
         "landed_cost_total_usd": 11.48,
-        "fee_usd": 0.78,
-        "net_profit_usd": 26.73,
-        "margin_pct": 68.6,
+        "fee_usd": 0.4,
+        "net_profit_usd": 7.92,
+        "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
@@ -572,16 +590,18 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 26.73,
-          "margin_pct": 68.6,
+          "net_profit_usd": 7.92,
+          "margin_pct": 40.0,
           "breakeven_usd": 11.71,
           "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 19.79
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       },
       {
         "pd_no": "1067498",
@@ -607,7 +627,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "match"
           }
         },
@@ -631,18 +651,20 @@
         },
         "profit_warnings": [],
         "register_blocked": false,
+        "draft_only": false,
+        "pricing_basis": "market_evidence",
         "block_reason": ""
       },
       {
         "pd_no": "1068721",
         "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
         "qty": 2,
-        "price_usd": 38.99,
-        "unit_price_usd": 19.5,
+        "price_usd": 28.32,
+        "unit_price_usd": 14.16,
         "landed_cost_total_usd": 16.42,
-        "fee_usd": 0.78,
-        "net_profit_usd": 21.79,
-        "margin_pct": 55.9,
+        "fee_usd": 0.57,
+        "net_profit_usd": 11.33,
+        "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
@@ -673,27 +695,29 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 21.79,
-          "margin_pct": 55.9,
+          "net_profit_usd": 11.33,
+          "margin_pct": 40.0,
           "breakeven_usd": 16.76,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 28.31
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       },
       {
         "pd_no": "1074979",
         "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
         "qty": 2,
-        "price_usd": 38.99,
-        "unit_price_usd": 19.5,
+        "price_usd": 23.69,
+        "unit_price_usd": 11.85,
         "landed_cost_total_usd": 13.74,
-        "fee_usd": 0.78,
-        "net_profit_usd": 24.47,
-        "margin_pct": 62.8,
+        "fee_usd": 0.47,
+        "net_profit_usd": 9.48,
+        "margin_pct": 40.0,
         "market_median_usd": 22.49,
         "market_price_source": "oliveyoung_us_benchmark",
         "price_evidence": {
@@ -724,27 +748,29 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 24.47,
-          "margin_pct": 62.8,
+          "net_profit_usd": 9.48,
+          "margin_pct": 40.0,
           "breakeven_usd": 14.02,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 23.69
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       },
       {
         "pd_no": "1072800",
         "name": "줌 바이 정샘물 세범다운 쿠션",
         "qty": 2,
-        "price_usd": 43.99,
-        "unit_price_usd": 22.0,
+        "price_usd": 29.63,
+        "unit_price_usd": 14.81,
         "landed_cost_total_usd": 17.18,
-        "fee_usd": 0.88,
-        "net_profit_usd": 25.93,
-        "margin_pct": 58.9,
+        "fee_usd": 0.59,
+        "net_profit_usd": 11.86,
+        "margin_pct": 40.0,
         "market_median_usd": 26.99,
         "market_price_source": "serpapi_google_shopping",
         "price_evidence": {
@@ -761,7 +787,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.14,
+            "age_days": 0.21,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -776,16 +802,18 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 25.93,
-          "margin_pct": 58.9,
+          "net_profit_usd": 11.86,
+          "margin_pct": 40.0,
           "breakeven_usd": 17.53,
           "minimum_margin_pct": 35.0,
           "target_margin_pct": 40.0,
           "target_price_usd": 29.62
         },
         "profit_warnings": [],
-        "register_blocked": true,
-        "block_reason": "가격 근거 미달: price_evidence_volume_unverified_product"
+        "register_blocked": false,
+        "draft_only": true,
+        "pricing_basis": "cost_based_draft",
+        "block_reason": ""
       }
     ]
   },
@@ -806,42 +834,42 @@
     "single": {
       "qty": 1,
       "discount_pct": 0,
-      "price_usd": 22.99,
-      "unit_price_usd": 22.99,
+      "price_usd": 19.61,
+      "unit_price_usd": 19.61,
       "landed_cost_total_usd": 10.31,
       "shipping_in_cost_usd": 6.73,
-      "fee_usd": 0.46,
-      "net_profit_usd": 12.22,
-      "margin_pct": 53.2,
+      "fee_usd": 0.39,
+      "net_profit_usd": 8.91,
+      "margin_pct": 45.4,
       "free_shipping": false,
-      "orders_for_500usd": 41,
+      "orders_for_500usd": 56,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        19.99,
+        15.33,
         31.99
       ]
     },
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 38.99,
-      "unit_price_usd": 19.5,
+      "price_usd": 29.63,
+      "unit_price_usd": 14.81,
       "landed_cost_total_usd": 14.63,
       "shipping_in_cost_usd": 7.49,
-      "fee_usd": 0.78,
-      "net_profit_usd": 23.58,
-      "margin_pct": 60.5,
+      "fee_usd": 0.59,
+      "net_profit_usd": 14.41,
+      "margin_pct": 48.6,
       "free_shipping": true,
-      "orders_for_500usd": 21,
+      "orders_for_500usd": 35,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
-        32.99,
+        19.8,
         53.99
       ]
     },
     "free_shipping_min_qty": 2,
-    "bundle_vs_single": 1.9,
-    "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 작다는 판단이다. 계산값으로 20%면 세트 마진 57.4%, 15%면 60.5%이고 단품 대비 순익은 1.9배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
+    "bundle_vs_single": 1.6,
+    "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 작다는 판단이다. 계산값으로 20%면 세트 마진 48.6%, 15%면 48.6%이고 단품 대비 순익은 1.6배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
     "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)"
   },
   "scenarios": {

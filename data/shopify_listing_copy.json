@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:54:23.460612+00:00",
+  "generated_at": "2026-10-18T08:35:21.860823+00:00",
   "generator": "scripts/build_listing_copy_local.py",
   "model": "none_local_deterministic",
   "paid_api_called": false,
@@ -66,11 +66,10 @@
       "copy_status": "skipped_prerequisite",
       "generation_mode": "none",
       "agent_blocked_by": [
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
-      "error": "ontology 선행 게이트 미통과: price, legal, manufacturer_safety_record_missing"
+      "error": "ontology 선행 게이트 미통과: legal, manufacturer_safety_record_missing"
     },
     {
       "canonical_product_id": "CP000216",
@@ -108,11 +107,10 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, price, legal, manufacturer_safety_record_missing"
+      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal, manufacturer_safety_record_missing"
     },
     {
       "canonical_product_id": "CP000267",
@@ -131,11 +129,10 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, price, legal, manufacturer_safety_record_missing"
+      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal, manufacturer_safety_record_missing"
     },
     {
       "canonical_product_id": "CP000256",
@@ -154,11 +151,10 @@
       "agent_blocked_by": [
         "gosi",
         "us_label",
-        "price",
         "legal",
         "manufacturer_safety_record_missing"
       ],
-      "error": "ontology 선행 게이트 미통과: gosi, us_label, price, legal, manufacturer_safety_record_missing"
+      "error": "ontology 선행 게이트 미통과: gosi, us_label, legal, manufacturer_safety_record_missing"
     }
   ],
   "draft_history": {

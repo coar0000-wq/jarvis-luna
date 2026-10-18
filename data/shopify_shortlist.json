@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T06:54:56.613514+00:00",
+  "generated_at": "2026-10-18T08:35:41.633180+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -42,13 +42,13 @@
       "business_ready": false,
       "score": 100,
       "evidence": {
-        "global_product": "Time Revolution Night Repair Ampoule 5X",
-        "channel": "sokoglam_us",
-        "similarity": 0.667
+        "global_product": "턴오버 앰플 c-PDRN 0.5%",
+        "channel": "sephora",
+        "similarity": 0.733
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",
-      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing, price"
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing"
     },
     {
       "unit_id": "VG-CP000130",
@@ -125,7 +125,7 @@
         "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml"
       ],
       "score": 93,
-      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, price, us_label"
+      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, us_label"
     },
     {
       "unit_id": "VG-CP000267",
@@ -136,7 +136,7 @@
         "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너"
       ],
       "score": 85,
-      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, price, us_label"
+      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, us_label"
     },
     {
       "unit_id": "VG-CP000256",
@@ -147,7 +147,7 @@
         "줌 바이 정샘물 세범다운 쿠션"
       ],
       "score": 75,
-      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, price, us_label"
+      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, us_label"
     }
   ],
   "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."
