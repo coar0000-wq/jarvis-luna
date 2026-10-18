@@ -221,6 +221,21 @@ def update(root: Path, paths: list[str]) -> dict:
     return report
 
 
+def record_restored_observer(root):
+    """Restoration can change observer diagnostics without running its CLI.
+
+    Reuse the owner's exact-byte/capture/budget checks; this is never a generic
+    rotation exemption for source observations or request reservations.
+    """
+    from scripts.shortlist_observation_history import OUTPUT, preserve
+    root = Path(root)
+    target = root / OUTPUT
+    base = head_bytes(root, OUTPUT)
+    if base is None or not target.exists() or target.read_bytes() == base:
+        return None
+    return preserve(root)
+
+
 def main() -> int:
     paths = [p for p in sys.argv[1:] if p in ROTATING]
     if "--all-declared" in sys.argv[1:]:
@@ -232,6 +247,10 @@ def main() -> int:
         paths = sorted(set(paths) | set(changed))
     try:
         report = update(ROOT, paths)
+        if "--all-declared" in sys.argv[1:]:
+            restored = record_restored_observer(ROOT)
+            if restored is not None:
+                report['restored_shortlist_observer'] = restored
     except (ValueError, OSError, json.JSONDecodeError) as exc:
         print(f"COLLECTOR_SNAPSHOT_BLOCKED {exc}")
         return 1
