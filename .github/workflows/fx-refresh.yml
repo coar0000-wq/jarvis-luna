@@ -49,7 +49,7 @@ jobs:
         run: python -u scripts/fetch_fx_rate.py
 
       - name: 환율 대조 목록 교체 사유 기록 (가드 유지)
-        run: python -B scripts/collector_snapshot_history.py data/daiso_real/collection_status.json
+        run: python -B scripts/collector_snapshot_history.py data/daiso_real/collection_status.json --all-declared
 
       - name: 발행 (원격 최신 위에 환율만, 커머스 재생성 + 최종 품질 검사)
         if: steps.operations_safety.outputs.operations_continuity == 'verified'

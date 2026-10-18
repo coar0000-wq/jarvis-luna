@@ -481,7 +481,7 @@ jobs:
           PY
 
       - name: 전담팀 카테고리 목록 교체 사유 기록 (가드 유지)
-        run: python -B scripts/collector_snapshot_history.py data/daiso_real/desk_catalog.json data/operations/board.json data/agents/daiso_pipeline_health.json data/daiso_real/collection_status.json data/operations/knowledge_graph.json data/operations/state.json
+        run: python -B scripts/collector_snapshot_history.py data/daiso_real/desk_catalog.json data/operations/board.json data/agents/daiso_pipeline_health.json data/daiso_real/collection_status.json data/operations/knowledge_graph.json data/operations/state.json --all-declared
 
       - name: 산출물 발행 (원격 최신 위에 이번 변경만)
         if: steps.collection.outputs.mode == 'collected' && steps.validate.outputs.artifacts_ok == 'true'
