@@ -43,9 +43,12 @@ WORKFLOWS = frozenset(('.github/workflows/daiso-real-collection.yml',
 STATE = runner.STATE
 LEDGER = execution.ExecutionStore.filename
 PENDING = 'data/operations/.restore-pending.json'
-MAX_FILES = 1024
+# 2026-10-18: reports are never pruned and grow ~29 per operations run (265 in the first 1.5 days after the
+# 10-17 chain repair); the old 1024-member cap blocked every restore (archive_count_limit, Deep 39097646023).
+# Capacity for roughly two months; an owned archival scheme is the real fix before this is reached again.
+MAX_FILES = 20000
 MAX_FILE_BYTES = 8 * 1024 * 1024
-BASE_TOTAL_BYTES = 16 * 1024 * 1024
+BASE_TOTAL_BYTES = 96 * 1024 * 1024
 # Only the state exception adds capacity; ordinary files keep their old budgets.
 MAX_TOTAL_BYTES = BASE_TOTAL_BYTES + OPS_STATE_MAX_BYTES - MAX_FILE_BYTES
 MAX_ARCHIVE_BYTES = transport.MAX_ARCHIVE_BYTES

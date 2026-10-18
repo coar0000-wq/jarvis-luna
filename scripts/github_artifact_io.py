@@ -14,7 +14,7 @@ import urllib.request
 
 REPOSITORY = 'coar0000-wq/jarvis-luna'
 API_ORIGIN = 'https://api.github.com'
-MAX_ARCHIVE_BYTES = 16 * 1024 * 1024
+MAX_ARCHIVE_BYTES = 64 * 1024 * 1024  # 2026-10-18: operations snapshot grows ~1.2MB/day uncompressed
 MAX_JSON_BYTES = 4 * 1024 * 1024
 
 

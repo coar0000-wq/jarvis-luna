@@ -37,17 +37,20 @@ class StorageTests(unittest.TestCase):
             storage.require_operations_state_size('unserialized')
 
     def test_total_exception_cannot_enlarge_ordinary_budget(self):
-        self.assertEqual(restore.MAX_TOTAL_BYTES, 40 * 1024 * 1024)
-        self.assertEqual(restore.MAX_ARCHIVE_BYTES, 16 * 1024 * 1024)
+        self.assertEqual(restore.MAX_TOTAL_BYTES, 120 * 1024 * 1024)
+        self.assertEqual(restore.MAX_ARCHIVE_BYTES, 64 * 1024 * 1024)
         ordinary = b' ' * restore.MAX_FILE_BYTES
+        # 2026-10-18: base budget 96MB (reports are never pruned). Ordinary members alone fill it exactly.
+        fill = {f'data/operations/reports/r{i}.json': ordinary
+                for i in range(restore.BASE_TOTAL_BYTES // restore.MAX_FILE_BYTES - 2)}
         with self.assertRaises(restore.Blocked):
-            restore._validate_sizes({restore.STATE:b'{}', restore.LEDGER:ordinary,
+            restore._validate_sizes({restore.STATE:b'{}', restore.LEDGER:ordinary, **fill,
                                     'data/operations/reports/one.json':ordinary})
         restore._validate_sizes({restore.STATE:b' ' * storage.OPS_STATE_MAX_BYTES,
-                                 restore.LEDGER:ordinary})
+                                 restore.LEDGER:ordinary, **fill})
         with self.assertRaises(restore.Blocked):
             restore._validate_sizes({restore.STATE:b' ' * storage.OPS_STATE_MAX_BYTES,
-                                     restore.LEDGER:ordinary,
+                                     restore.LEDGER:ordinary, **fill,
                                      'data/operations/reports/one.json':b' '})
 
 
