@@ -87,7 +87,18 @@ def identity(rows, fields):
     return None
 
 
-def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None, copy_evidence=None):
+def deletion_authorized(name, base, removed, manifest, *, replacement=None, candidate_history=None, copy_evidence=None, observer_evidence=None, observer_policy=None):
+    observer_scope = False
+    if name == 'data/daiso_real/shortlist_observations.json' and base is not None and replacement is not None:
+        try:
+            from scripts.shortlist_observation_history import scope_changed, verify_scope_evidence
+            observer_scope = scope_changed(base, replacement)
+            if observer_scope:
+                expected_observer_ids = verify_scope_evidence(base, replacement, observer_policy, observer_evidence)
+                if removed is None or sorted(set(removed)) != expected_observer_ids:
+                    return False
+        except (ValueError, TypeError, KeyError, OSError):
+            return False
     listing_copy = name == 'data/shopify_listing_copy.json'
     if listing_copy:
         if base is None or replacement is None or removed is None or copy_evidence is None:
@@ -116,6 +127,10 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None, cand
     for record in (manifest or {}).get('deletions', []):
         if (isinstance(record, dict) and record.get('path') == name
                 and record.get('base_sha256') == sha(base)
+                and (not observer_scope or (record.get('policy_ref') == 'scripts/shortlist_observation_history.py'
+                    and record.get('ids') == expected_observer_ids and record.get('delete_file') is False
+                    and observer_evidence['archives'].get(record.get('scope_evidence_sha256')) is not None
+                    and parse_json(observer_evidence['archives'][record['scope_evidence_sha256']]) == observer_evidence['record']))
                 and (not listing_copy or (record.get('replacement_sha256') == sha(replacement)
                     and record.get('policy_ref') == 'scripts/build_listing_copy_local.py'
                     and record.get('ids') == expected_copy_ids and record.get('delete_file') is False))
@@ -292,7 +307,7 @@ BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
 CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
 
 
-def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None):
+def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None, observer_evidence=None):
     if name == 'data/publish_deletions.json' and all(x is not None for x in (base, local, remote)) and remote != base and local != base:
         docs = [parse_json(x) for x in (base, local, remote)]
         grouped = []
@@ -347,7 +362,14 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
             verify_copy_replacement(base, local, *copy_evidence)
         except (ValueError, TypeError, KeyError) as exc:
             raise PublishError('listing copy canonical/history evidence invalid') from exc
-    authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local, candidate_history=candidate_history, copy_evidence=copy_evidence)
+    if name == 'data/daiso_real/shortlist_observations.json' and base is not None and local is not None:
+        try:
+            from scripts.shortlist_observation_history import scope_changed, verify_scope_evidence
+            if scope_changed(base, local):
+                verify_scope_evidence(base, local, policy, observer_evidence)
+        except (ValueError, TypeError, KeyError, OSError) as exc:
+            raise PublishError('shortlist owned scope/capture/ledger evidence invalid') from exc
+    authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local, candidate_history=candidate_history, copy_evidence=copy_evidence, observer_evidence=observer_evidence, observer_policy=policy)
     if name == 'data/daiso_real/candidate_pool.json' and base is not None and local is not None:
         try:
             from scripts.candidate_pool_history import replacement_ids, verify_evidence
@@ -385,7 +407,7 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
         # a hybrid ledger or destroy its byte-bound failed-run artifact evidence.
         exact_stage = (name in BYTE_BOUND_STAGE_FILES or operations_report) and remote in (None, base, local)
         result = local if name in PERSISTENT_SOURCE_FILES or exact_stage else json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
-        if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history, copy_evidence=copy_evidence):
+        if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history, copy_evidence=copy_evidence, observer_evidence=observer_evidence, observer_policy=policy):
             raise PublishError(f'replacement snapshot is not authorized after merge: {name}')
         return result
     if remote in (None, base, local):
@@ -435,6 +457,26 @@ class Transaction:
         if 'data/shopify_listing_copy.json' in self.delta:
             from scripts.build_listing_copy_local import SOURCE_REL, GATE_REL
             self.copy_evidence = ((self.root/SOURCE_REL).read_bytes(), (self.root/GATE_REL).read_bytes())
+        self.observer_evidence = None
+        from scripts.shortlist_observation_history import OUTPUT, LEDGER, HISTORY, scope_changed, load_scope_evidence
+        if OUTPUT in self.delta:
+            base, current = self.delta[OUTPUT]
+            if base is not None and current is not None and scope_changed(base, current):
+                self.observer_evidence = load_scope_evidence(self.root, base, current, self.policy, self.manifest)
+                manifest_name = self.policy['deletion_manifest']
+                captured_manifest = self.delta[manifest_name][1] if manifest_name in self.delta else at_ref(self.root, self.base, manifest_name)
+                if captured_manifest is None or parse_json(captured_manifest) != self.manifest:
+                    raise PublishError('shortlist scope manifest omitted or changed after capture')
+                if at_ref(self.root, self.base, LEDGER) != self.observer_evidence['base_ledger']:
+                    raise PublishError('shortlist scope proof does not bind actual base ledger')
+                for digest, raw in self.observer_evidence['archives'].items():
+                    name = HISTORY + '/' + digest + '.json'
+                    actual = self.delta[name][1] if name in self.delta else at_ref(self.root, self.base, name)
+                    if actual != raw:
+                        raise PublishError('shortlist scope archive omitted from publication paths')
+                actual_ledger = self.delta[LEDGER][1] if LEDGER in self.delta else at_ref(self.root, self.base, LEDGER)
+                if actual_ledger != self.observer_evidence['current_ledger']:
+                    raise PublishError('shortlist scope ledger omitted from publication paths')
         self.attempts = []
 
     def capture(self):
@@ -613,7 +655,7 @@ class Transaction:
                             continue  # Regenerate, never reuse stale derivatives.
                         p = work/name
                         remote = p.read_bytes() if p.exists() else None
-                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence)
+                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence, observer_evidence=self.observer_evidence)
                         if value is None:
                             p.unlink(missing_ok=True)
                         else:
@@ -627,6 +669,9 @@ class Transaction:
                             raise PublishError('source safety pair validation failed') from exc
                     reports = temp/f'reports-{number}'; reports.mkdir()
                     self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
+                    if self.observer_evidence is not None:
+                        from scripts.shortlist_observation_history import verify_final_scope
+                        verify_final_scope(work, self.observer_evidence)
                     if self.copy_evidence is not None:
                         from scripts.build_listing_copy_local import COPY_REL, SOURCE_REL, GATE_REL, verify_copy_replacement
                         try:

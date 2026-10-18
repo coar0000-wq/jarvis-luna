@@ -289,6 +289,13 @@ def _members(root):
     shortlist = _read(root, "data/shopify_shortlist.json")
     master = _read(root, "data/product_master.json")
     catalog = _read(root, "data/daiso_real/products.json")
+    return _members_from_documents(shortlist, master, catalog)
+
+
+def _members_from_documents(shortlist, master, catalog):
+    """One canonical membership validator for observation and byte-bound replay."""
+    if not all(isinstance(doc, dict) for doc in (shortlist, master, catalog)):
+        raise Blocked("invalid_shortlist_inputs")
     ids = shortlist.get("active_pd_nos")
     if not isinstance(ids, list) or not 1 <= len(ids) <= 10 or any(not isinstance(x, str) or not re.fullmatch(r"[0-9]+", x) for x in ids) or len(set(ids)) != len(ids):
         raise Blocked("invalid_shortlist_members")
@@ -461,6 +468,21 @@ def observe(root, *, force=False):
         if _epoch(row["source"]["collected_at"]) > wall_started:
             raise Blocked("future_capture_clock")
     products = {r["pd_no"]: r for r in prior}
+    # Reintroduced members may exist only in retained history after a legitimate
+    # scope contraction. Reuse their exact latest capture, never a refreshed clock
+    # or a fabricated success. TTL, cooldown and request budgets below still apply.
+    for row in previous.get("retained_previous_products", []) + previous.get("capture_history", []):
+        if not _valid_prior(row, pairs):
+            continue
+        stamp = _epoch(row["source"]["collected_at"])
+        if stamp > wall_started:
+            raise Blocked("future_capture_clock")
+        old = products.get(row["pd_no"])
+        old_stamp = _epoch(old["source"]["collected_at"]) if old else None
+        if old_stamp == stamp and old != row:
+            raise Blocked("conflicting_retained_capture")
+        if old is None or stamp > old_stamp:
+            products[row["pd_no"]] = row
     attempts, failures, new_ids = [], [], []
     history = list(previous.get("observation_history", []))
     if previous.get("attempts"):

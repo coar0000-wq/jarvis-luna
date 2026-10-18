@@ -29,8 +29,12 @@ from contextlib import contextmanager
 from pathlib import Path
 from types import SimpleNamespace
 
-from daiso import observe_shortlist as observer
-from source_procedure_state import SourceProcedureStore, canonical
+if __package__:
+    from .daiso import observe_shortlist as observer
+    from .source_procedure_state import SourceProcedureStore, canonical
+else:
+    from daiso import observe_shortlist as observer
+    from source_procedure_state import SourceProcedureStore, canonical
 
 OBSERVATIONS = observer.OUTPUT
 CLAIM = observer.LEDGER
