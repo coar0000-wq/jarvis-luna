@@ -1,0 +1,312 @@
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 117636973596,
+      "run_id": 39114200852,
+      "run_attempt": 1,
+      "head_sha": "d3b79d976e1c2dc0f56343f36479f0cbfbedb472",
+      "name": "collect",
+      "status": "completed",
+      "conclusion": "cancelled",
+      "steps": [
+        {
+          "number": 1,
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:11:26Z",
+          "completed_at": "2026-10-18T09:11:27Z"
+        },
+        {
+          "number": 2,
+          "name": "Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:11:27Z",
+          "completed_at": "2026-10-18T09:11:55Z"
+        },
+        {
+          "number": 3,
+          "name": "Setup Python",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:11:55Z",
+          "completed_at": "2026-10-18T09:11:55Z"
+        },
+        {
+          "number": 4,
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:11:55Z",
+          "completed_at": "2026-10-18T09:11:57Z"
+        },
+        {
+          "number": 5,
+          "name": "Fast-forward a queued checkout to latest main (data-only commits)",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:11:57Z",
+          "completed_at": "2026-10-18T09:11:58Z"
+        },
+        {
+          "number": 6,
+          "name": "Restore durable source safety before observation",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:11:58Z",
+          "completed_at": "2026-10-18T09:12:01Z"
+        },
+        {
+          "number": 7,
+          "name": "Restore immutable operations safety before execution",
+          "status": "completed",
+          "conclusion": "cancelled",
+          "started_at": "2026-10-18T09:12:01Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 8,
+          "name": "환율 갱신 (USD/KRW)",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 9,
+          "name": "전담팀 카테고리 목록 수집",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 10,
+          "name": "뷰티 URL 큐 만들기",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 11,
+          "name": "Collect Daiso products",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 12,
+          "name": "실제 수집 결과 검증",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 13,
+          "name": "제외 규칙으로 상품 목록 정리",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 14,
+          "name": "Product Master 갱신 + Score Shopify demand",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 15,
+          "name": "점수 파생 보드 재생성",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 16,
+          "name": "Shopify 게이트 통과 Export와 Action 큐 생성",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 17,
+          "name": "채널 후보 재생성",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 18,
+          "name": "Keep canonical product inputs on no_change",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 19,
+          "name": "Build separate candidate comparisons",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 20,
+          "name": "Record actual collector stage receipt",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 21,
+          "name": "Observe active shortlist source prices without operating writes",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 22,
+          "name": "Observe actual Actions freshness (read-only)",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 23,
+          "name": "대시보드 최종 생성",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 24,
+          "name": "Validate artifacts",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 25,
+          "name": "발행 전 감사 미리 보기",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 26,
+          "name": "Summary",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 27,
+          "name": "전담팀 카테고리 목록 교체 사유 기록 (가드 유지)",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 28,
+          "name": "산출물 발행 (원격 최신 위에 이번 변경만)",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 29,
+          "name": "정상 무변경 관측 metadata 발행",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:54Z"
+        },
+        {
+          "number": 30,
+          "name": "수집 시도 진단 보존",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:54Z",
+          "completed_at": "2026-10-18T09:12:55Z"
+        },
+        {
+          "number": 31,
+          "name": "Pack durable source safety even after publication failure",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:55Z",
+          "completed_at": "2026-10-18T09:12:55Z"
+        },
+        {
+          "number": 32,
+          "name": "Retain source safety checkpoint",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:55Z",
+          "completed_at": "2026-10-18T09:12:56Z"
+        },
+        {
+          "number": 33,
+          "name": "Retain immutable operations safety history",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:56Z",
+          "completed_at": "2026-10-18T09:12:56Z"
+        },
+        {
+          "number": 34,
+          "name": "최종 결과",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:56Z",
+          "completed_at": "2026-10-18T09:12:56Z"
+        },
+        {
+          "number": 67,
+          "name": "Post Setup Python",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-18T09:12:56Z",
+          "completed_at": "2026-10-18T09:12:56Z"
+        },
+        {
+          "number": 68,
+          "name": "Post Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:56Z",
+          "completed_at": "2026-10-18T09:12:56Z"
+        },
+        {
+          "number": 69,
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-18T09:12:56Z",
+          "completed_at": "2026-10-18T09:12:56Z"
+        }
+      ]
+    }
+  ]
+}

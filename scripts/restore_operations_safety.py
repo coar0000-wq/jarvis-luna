@@ -824,6 +824,58 @@ def _restore(root, current, incoming, run):
 RETAIN_STEP = 'Retain immutable operations safety history'
 MAX_ARTIFACTLESS_WALK = 60
 
+# One reviewed cancellation during restoration, before any collector, runtime,
+# publication or operations actuation ran. Pins are comparison evidence only;
+# they never replace a ledger, grant continuity, or waive predecessor checks.
+_CANCELLED_RESTORE_RUN = {
+    'id': 39114200852, 'run_attempt': 1,
+    'head_sha': 'd3b79d976e1c2dc0f56343f36479f0cbfbedb472',
+    'path': '.github/workflows/daiso-real-collection.yml',
+    'head_branch': 'main', 'status': 'completed', 'conclusion': 'cancelled',
+}
+_CANCELLED_RESTORE_JOB = {
+    'id': 117636973596, 'run_id': 39114200852, 'run_attempt': 1,
+    'head_sha': _CANCELLED_RESTORE_RUN['head_sha'],
+    'name': 'collect', 'status': 'completed', 'conclusion': 'cancelled',
+}
+_CANCELLED_RESTORE_STEPS_SHA = '3871332964d153b46e04161249cbea949f2b4466eb29eb5edac4f376f234788f'
+_CANCELLED_RESTORE_CODE = {
+    '.github/workflows/daiso-real-collection.yml': '1b0d5d02f92109caaf2d68efba91f41c3d8cb645a42369c5223449d12fcccc5d',
+    'scripts/audit_team_reports.py': '8db7ff6e8be074556e92aa02ea0c75a4b966956120b9272e45d8be4ebf3b17c5',
+    'scripts/source_safety_checkpoint.py': '3d1073a4ed7fbb1e12f32554b87d0059bd5d522f19ac5ddc88c92f2c2079b725',
+    'scripts/restore_operations_safety.py': 'f83c3238dbc70cbeb495d9ea1116a41bf1de0b7026a5b779cf9d309d727681e1',
+    'scripts/restore_source_safety.py': '0ea55bcc767eedb3e875957525ab1c6eab8760560e629f1062d7636b093c7d6c',
+    'scripts/fast_forward_queued_checkout.py': '3e11de9b836e035e9ff3e802f2aa759bfe2e04ca43f496ee206defa0e8da3929',
+}
+
+
+def _reviewed_cancelled_restore(root, run, fetch_json):
+    if run.get('id') != _CANCELLED_RESTORE_RUN['id']:
+        return False
+    _incident_run(run, _CANCELLED_RESTORE_RUN)
+    _incident_run(fetch_json(BASE + f"runs/{run['id']}"), _CANCELLED_RESTORE_RUN)
+    if _git(root, 'merge-base', '--is-ancestor', run['head_sha'], 'HEAD').returncode:
+        raise Blocked('run_not_main_ancestor')
+    payload = fetch_json(BASE + f"runs/{run['id']}/attempts/1/jobs?per_page=100")
+    jobs = payload.get('jobs') if isinstance(payload, dict) else None
+    if not isinstance(jobs, list) or payload.get('total_count') != 1 or len(jobs) != 1:
+        raise Blocked('cancelled_restore_jobs_unproved')
+    job = jobs[0]
+    if not isinstance(job, dict) or {k: job.get(k) for k in _CANCELLED_RESTORE_JOB} != _CANCELLED_RESTORE_JOB:
+        raise Blocked('cancelled_restore_job_unproved')
+    rows = job.get('steps')
+    if not isinstance(rows, list) or any(not isinstance(s, dict) for s in rows):
+        raise Blocked('cancelled_restore_steps_unproved')
+    observed = [[s.get(k) for k in ('number', 'name', 'status', 'conclusion', 'started_at', 'completed_at')]
+                for s in rows]
+    if _sha(core.canonical(observed).encode('utf-8')) != _CANCELLED_RESTORE_STEPS_SHA:
+        raise Blocked('cancelled_restore_steps_unproved')
+    for relative, expected in _CANCELLED_RESTORE_CODE.items():
+        code = _git(root, 'show', run['head_sha'] + ':' + relative)
+        if code.returncode or _sha(code.stdout) != expected:
+            raise Blocked('cancelled_restore_code_unproved')
+    return True
+
 
 def _gated_retention(workflow_raw):
     """The producer's retention step exists and only runs on verified operations continuity."""
@@ -846,7 +898,9 @@ def _non_actuating_predecessor(root, run, fetch_json, current_run_id):
     operations history that main or an older artifact lacks. Each skipped run is proved with fresh
     authenticated jobs/steps, its workflow bytes at head_sha and main ancestry; the first run that
     does carry an operations artifact is returned and still goes through digest, lineage and
-    full nonregression checks. Anything else (cancelled/timed out, retries, unknown topology,
+    full nonregression checks. The separately pinned cancellation during restoration
+    must prove its exact reviewed topology and code. All other cancellations,
+    timeouts, retries, unknown topology,
     retention attempted) stays blocked.
     """
     payload = fetch_json(BASE + 'runs?per_page=100')
@@ -876,6 +930,8 @@ def _non_actuating_predecessor(root, run, fetch_json, current_run_id):
             if not re.fullmatch('[0-9a-f]{40}', commit) or _git(root, 'merge-base', '--is-ancestor', commit, 'HEAD').returncode:
                 raise Blocked('run_not_main_ancestor')
             return candidate, found
+        if _reviewed_cancelled_restore(root, candidate, fetch_json):
+            continue
         if candidate.get('run_attempt') != 1 or candidate.get('conclusion') not in ('success', 'failure'):
             raise Blocked('artifactless_run_actuation_unproved')
         commit = candidate.get('head_sha', '')

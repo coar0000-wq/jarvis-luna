@@ -662,6 +662,85 @@ class NonActuatingWalkTests(unittest.TestCase):
             restore._non_actuating_predecessor(Path('.'), runs[0], self.fetcher(runs, {}), None)
 
 
+class ReviewedCancelledRestoreTests(unittest.TestCase):
+    def setUp(self):
+        self.run = copy.deepcopy(restore._CANCELLED_RESTORE_RUN)
+        for field in ('repository', 'head_repository'):
+            self.run[field] = {'full_name': restore.REPOSITORY, 'id': 1334276889}
+        self.jobs = json.loads((Path(__file__).parent / 'fixtures' /
+                               'cancelled_restore_39114200852.json').read_text(encoding='utf-8'))
+
+    def fetch(self, url):
+        return copy.deepcopy(self.jobs if '/jobs?' in url else self.run)
+
+    def prove(self):
+        code = b'reviewed code fixture'
+        with patch.object(restore, '_CANCELLED_RESTORE_CODE', {'workflow': restore._sha(code)}), \
+                patch.object(restore, '_git', side_effect=lambda root, *args:
+                             subprocess.CompletedProcess(args, 0, code if args[0] == 'show' else b'', b'')):
+            return restore._reviewed_cancelled_restore(Path('.'), self.run, self.fetch)
+
+    def test_exact_authenticated_cancelled_topology_proves_no_actuation(self):
+        self.assertTrue(self.prove())
+
+    def test_any_changed_or_unknown_step_is_blocked(self):
+        original = copy.deepcopy(self.jobs)
+        for change in ('actuation', 'extra', 'missing', 'timestamp'):
+            self.jobs = copy.deepcopy(original)
+            steps = self.jobs['jobs'][0]['steps']
+            if change == 'actuation':
+                steps[27]['conclusion'] = 'success'
+            elif change == 'extra':
+                steps.append(dict(steps[-1], name='Unknown operations action'))
+            elif change == 'missing':
+                steps.pop()
+            else:
+                steps[6]['completed_at'] = '2099-01-01T00:00:00Z'
+            with self.subTest(change=change), self.assertRaises(restore.Blocked):
+                self.prove()
+
+    def test_retry_fork_and_extra_job_are_blocked(self):
+        for field, value in (('run_attempt', 2), ('head_sha', 'b' * 40),
+                             ('repository', {'full_name': 'other/repo', 'id': 1})):
+            original = copy.deepcopy(self.run)
+            self.run[field] = value
+            with self.subTest(field=field), self.assertRaises(restore.Blocked):
+                self.prove()
+            self.run = original
+        self.jobs['jobs'].append(copy.deepcopy(self.jobs['jobs'][0]))
+        self.jobs['total_count'] = 2
+        with self.assertRaises(restore.Blocked):
+            self.prove()
+
+    def test_unknown_cancellation_is_not_authorized(self):
+        self.run['id'] += 1
+        self.assertFalse(self.prove())
+
+    def test_walk_still_requires_an_authenticated_predecessor_artifact(self):
+        prior = dict(self.run, id=self.run['id'] - 1, conclusion='success')
+        artifact = {'name': f"operations-safety-{prior['id']}-1", 'expired': False}
+        def fetch(url):
+            if url.endswith('runs?per_page=100'):
+                return {'workflow_runs': [self.run, prior]}
+            if '/artifacts?' in url:
+                rows = [artifact] if f"runs/{prior['id']}/" in url else []
+                return {'total_count': len(rows), 'artifacts': rows}
+            return self.fetch(url)
+        code = b'reviewed code fixture'
+        with patch.object(restore, '_CANCELLED_RESTORE_CODE', {'workflow': restore._sha(code)}), \
+                patch.object(restore, '_git', side_effect=lambda root, *args:
+                             subprocess.CompletedProcess(args, 0, code if args[0] == 'show' else b'', b'')):
+            found, artifacts = restore._non_actuating_predecessor(Path('.'), self.run, fetch, None)
+        self.assertEqual(found, prior)
+        self.assertEqual(artifacts, [artifact])
+
+    def test_changed_historical_code_and_missing_ancestry_are_blocked(self):
+        for returncode, raw in ((0, b'changed code'), (1, b'')):
+            result = subprocess.CompletedProcess([], returncode, raw, b'')
+            with patch.object(restore, '_git', return_value=result), self.assertRaises(restore.Blocked):
+                restore._reviewed_cancelled_restore(Path('.'), self.run, self.fetch)
+
+
 class StaleQueuedCheckoutTests(unittest.TestCase):
     """2026-10-17: a queued producer must not open the operations gate on a stale checkout."""
 
