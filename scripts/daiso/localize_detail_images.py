@@ -781,7 +781,10 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
     man = {"schema_version": 1, "product_id": str(pd_no), "title_en": title, "generated_at": now(),
            "method": METHOD, "reference_example": "data/manual/image_localization/1084687.json",
            "translator": getattr(translator, "name", None), "sources": [], "panels": [],
-           "outputs": [], "status": "failed", "reasons": []}
+           "outputs": [], "status": "failed", "reasons": [],
+           # status describes conversion only, never evidence-backed gallery completion.
+           "gallery_status": "review_required", "gallery_complete": False,
+           "gallery_review_reasons": ["role_rights_and_label_evidence_review_required"]}
     try:
         if sources is None:
             urls = rendered_detail_image_urls(str(pd_no))

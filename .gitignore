@@ -74,3 +74,6 @@ data/.evaluation-publication.lock
 
 # Full operational lineage index stays local.
 /data/agents/brain_dataset_index.json
+
+# Product gallery source bytes and review evidence
+data/manual/gallery_review/

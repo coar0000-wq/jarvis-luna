@@ -580,6 +580,58 @@ class DailySafetyTests(unittest.TestCase):
             finally:
                 os.chdir(cwd)
 
+    def test_gallery_uncertainty_blocks_later_daily_creation(self):
+        with tempfile.TemporaryDirectory() as folder:
+            cwd = os.getcwd()
+            os.chdir(folder)
+            try:
+                shop = MagicMock()
+                shop.existing_products.return_value = []
+                shop.online_store_publication.return_value = "pub"
+                with patch.object(daily, "DRY_RUN", False), patch.object(daily, "ONLY", set()), \
+                        patch.object(daily, "BACKFILL_BANNER", False), \
+                        patch.object(daily, "BACKFILL_DRAFT_IMAGES", True), \
+                        patch.object(daily, "QUARANTINE_BLOCKED_PUBLIC", False), \
+                        patch.object(daily, "Shopify", return_value=shop), \
+                        patch.object(daily, "load_registry", return_value={"items": []}), \
+                        patch.object(daily, "s_ranked") as ranked, \
+                        patch.object(daily, "backfill_draft_images", return_value=[{"status": "verification_pending", "stop_further_writes": True}]), \
+                        patch.dict(os.environ, {"SHOPIFY_STORE": "test.myshopify.com", "SHOPIFY_ADMIN_TOKEN": "test"}):
+                    daily.main()
+                ranked.assert_not_called()
+                shop.create.assert_not_called()
+                shop.set_status.assert_not_called()
+                shop.publish.assert_not_called()
+                result = json.loads(Path("out/daiso_daily_beauty_result.json").read_text())
+                self.assertTrue(all(r["status"] == "skipped_prior_write_uncertain" for r in result["results"]))
+            finally:
+                os.chdir(cwd)
+
+    def test_reserved_gallery_blocks_creation_even_when_backfill_is_disabled(self):
+        with tempfile.TemporaryDirectory() as folder:
+            cwd = os.getcwd()
+            os.chdir(folder)
+            try:
+                shop = MagicMock()
+                shop.existing_products.return_value = []
+                registry = {"items": [{"status": "ACTIVE", "image_backfill": {"state": "append_reserved"}}]}
+                with patch.object(daily, "DRY_RUN", False), patch.object(daily, "ONLY", set()), \
+                        patch.object(daily, "BACKFILL_BANNER", False), \
+                        patch.object(daily, "BACKFILL_DRAFT_IMAGES", False), \
+                        patch.object(daily, "QUARANTINE_BLOCKED_PUBLIC", True), \
+                        patch.object(daily, "Shopify", return_value=shop), \
+                        patch.object(daily, "load_registry", return_value=registry), \
+                        patch.object(daily, "quarantine_blocked_public") as quarantine, \
+                        patch.object(daily, "s_ranked") as ranked, \
+                        patch.dict(os.environ, {"SHOPIFY_STORE": "test.myshopify.com", "SHOPIFY_ADMIN_TOKEN": "test"}):
+                    daily.main()
+                ranked.assert_not_called()
+                quarantine.assert_not_called()
+                shop.create.assert_not_called()
+                shop.gql.assert_not_called()
+            finally:
+                os.chdir(cwd)
+
     def test_workflow_tests_before_write_and_retains_registry_recovery(self):
         workflow = (SCRIPT.parents[1]/".github/workflows/daiso-daily-beauty-shopify.yml").read_text(encoding="utf-8")
         test_command = "('tests', 'test_daiso_daily_beauty_to_shopify.py')"
@@ -1843,56 +1895,371 @@ class BodyCategoryFallbackIntegrationTests(unittest.TestCase):
 
 
 class DraftImageBackfillTests(unittest.TestCase):
-    """2026-10-17: 이미지 0장 비공개 초안에 미디어만 붙이고 상태·가격은 건드리지 않는다."""
+    """Gallery review includes partial drafts but cannot mutate Shopify or sources."""
+
+    def setUp(self):
+        manifest = patch.object(daily.gallery_review, "load_manifest", return_value={})
+        manifest.start()
+        self.addCleanup(manifest.stop)
+        saved = patch.object(daily, "save_registry")
+        saved.start()
+        self.addCleanup(saved.stop)
 
     def reg(self):
         return {"items": [
-            {"pd_no": "1", "status": "DRAFT", "images": 0, "title": "Bonsup Retinol 500 IU Serum 30 ml",
+            {"pd_no": "1", "status": "DRAFT", "images": 0, "title": "Original human body",
              "shopify_id": "gid://shopify/Product/1", "single_usd": 15.99,
              "draft_reasons": ["no_usable_product_images", "listing_gate_public_not_ready"]},
-            {"pd_no": "2", "status": "DRAFT", "images": 0, "title": "한글 제목", "shopify_id": "gid://shopify/Product/2"},
-            {"pd_no": "3", "status": "ACTIVE", "images": 0, "title": "Active", "shopify_id": "gid://shopify/Product/3"},
-            {"pd_no": "4", "status": "DRAFT", "images": 4, "title": "Has images", "shopify_id": "gid://shopify/Product/4"},
+            {"pd_no": "2", "status": "DRAFT", "images": 2, "title": "한글 제목", "shopify_id": "gid://shopify/Product/2"},
+            {"pd_no": "3", "status": "ACTIVE", "images": 3, "title": "Active", "shopify_id": "gid://shopify/Product/3"},
+            {"pd_no": "4", "status": "DRAFT", "images": 3, "title": "Has images", "shopify_id": "gid://shopify/Product/4",
+             "gallery_complete": True},
         ]}
 
-    def test_attaches_media_only_to_imageless_english_drafts(self):
-        reg, shop = self.reg(), MagicMock()
-        shop.gql.return_value = {"productUpdate": {"product": {"id": "x", "status": "DRAFT"}, "userErrors": []}}
-        imgs = {"resource_urls": ["r1", "r2"], "alts": ["a1", "a2"], "skipped": [], "localization": {"status": "ok"}}
-        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "1"}), \
-                patch.object(daily, "prepare_images", return_value=imgs) as prep, \
-                patch.object(daily, "save_registry") as save:
-            out = daily.backfill_draft_images(shop, reg)
-        self.assertEqual([r["status"] for r in out], ["attached", "skipped"])
-        self.assertEqual(prep.call_count, 1)
-        variables = shop.gql.call_args[0][1]
-        self.assertEqual(variables["id"], "gid://shopify/Product/1")
-        self.assertEqual([m["alt"] for m in variables["media"]], ["a1", "a2"])
-        self.assertNotIn("status", shop.gql.call_args[0][0].split("media:$media")[0].split("product:{")[1])
-        item = reg["items"][0]
-        self.assertEqual((item["images"], item["status"], item["single_usd"]), (2, "DRAFT", 15.99))
-        self.assertEqual(item["draft_reasons"], ["listing_gate_public_not_ready"])
-        save.assert_called_once_with(reg)
+    def observation(self, product_id):
+        pd = product_id.rsplit("/", 1)[-1]
+        return {"id": product_id, "pd_no": pd, "status": "DRAFT", "complete": True,
+                "observed_at": datetime.now(timezone.utc).isoformat(),
+                "media": [{"id": "gid://shopify/MediaImage/" + pd, "status": "READY", "mediaContentType": "IMAGE"}]}
 
-    def test_no_images_or_errors_leave_registry_unchanged(self):
+    def test_rechecks_zero_two_three_image_drafts_without_automatic_upload(self):
         reg, shop = self.reg(), MagicMock()
         before = copy.deepcopy(reg)
-        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "1"}), \
-                patch.object(daily, "prepare_images", return_value={"resource_urls": [], "skipped": [{"reason": "x"}]}), \
+        shop.read_gallery.side_effect = self.observation
+        with patch.object(daily, "daiso_lookup") as lookup, \
+                patch.object(daily, "prepare_images") as prep, \
                 patch.object(daily, "save_registry") as save:
             out = daily.backfill_draft_images(shop, reg)
-        self.assertEqual(out[0]["status"], "no_usable_images")
+        self.assertEqual([r["pd_no"] for r in out], ["1", "2", "4"])
+        self.assertTrue(all(r["status"] == "review_required" and not r["gallery_complete"] for r in out))
+        self.assertEqual(out[1]["preserve_media_ids"], ["gid://shopify/MediaImage/2"])
+        self.assertEqual(shop.read_gallery.call_count, 3)
+        lookup.assert_not_called()
+        prep.assert_not_called()
+        save.assert_called_once()
         shop.gql.assert_not_called()
-        save.assert_not_called()
-        self.assertEqual(reg, before)
-        shop.gql.return_value = {"productUpdate": {"product": None, "userErrors": [{"message": "bad"}]}}
-        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "1"}), \
-                patch.object(daily, "prepare_images", return_value={"resource_urls": ["r"], "alts": [], "skipped": []}), \
-                patch.object(daily, "save_registry") as save:
+        shop.upload_jpeg.assert_not_called()
+        self.assertEqual(reg["items"], before["items"])
+        self.assertEqual(reg["gallery_review_cursor"], "gid://shopify/Product/4")
+
+    def test_actual_active_status_blocks_even_if_registry_says_draft(self):
+        shop, reg = MagicMock(), self.reg()
+        shop.read_gallery.side_effect = lambda pid: {**self.observation(pid), "status": "ACTIVE"}
+        out = daily.backfill_draft_images(shop, reg)
+        self.assertTrue(all(r["add_asset_sha256s"] == [] and not r["gallery_complete"] for r in out))
+        self.assertTrue(all(r["reasons"] == ["current_exact_draft_observation_required"] for r in out))
+        shop.gql.assert_not_called()
+
+    def test_read_failures_leave_registry_unchanged_and_do_not_leak_raw_errors(self):
+        reg, shop = self.reg(), MagicMock()
+        before = copy.deepcopy(reg)
+        shop.read_gallery.side_effect = RuntimeError("private-token-and-file-path")
+        with patch.object(daily, "save_registry") as save:
             out = daily.backfill_draft_images(shop, reg)
-        self.assertEqual(out[0]["status"], "failed")
-        save.assert_not_called()
-        self.assertEqual(reg, before)
+        self.assertTrue(all(r["status"] == "review_required" for r in out))
+        self.assertNotIn("private-token", json.dumps(out))
+        save.assert_called_once()
+        self.assertEqual(reg["items"], before["items"])
+
+    def test_read_budget_does_not_hide_remaining_review_candidates(self):
+        shop = MagicMock()
+        shop.read_gallery.side_effect = self.observation
+        with patch.object(daily, "BACKFILL_DRAFT_IMAGES_LIMIT", 1):
+            out = daily.backfill_draft_images(shop, self.reg())
+        self.assertEqual(len(out), 3)
+        self.assertEqual(shop.read_gallery.call_count, 1)
+        self.assertEqual(out[2]["reasons"], ["current_inventory_read_deferred"])
+        self.assertFalse(out[2]["gallery_complete"])
+
+    def test_bounded_reviews_rotate_durably_instead_of_starving_later_drafts(self):
+        reg, shop = self.reg(), MagicMock()
+        reg["items"].append({"pd_no": "5", "status": "DRAFT", "images": 2, "shopify_id": "gid://shopify/Product/5"})
+        shop.read_gallery.side_effect = self.observation
+        with patch.object(daily, "BACKFILL_DRAFT_IMAGES_LIMIT", 3):
+            daily.backfill_draft_images(shop, reg)
+            self.assertEqual(reg["gallery_review_cursor"], "gid://shopify/Product/4")
+            shop.read_gallery.reset_mock()
+            daily.backfill_draft_images(shop, reg)
+        self.assertEqual(shop.read_gallery.call_args_list[0].args[0], "gid://shopify/Product/5")
+        self.assertEqual(shop.read_gallery.call_count, 3)
+
+    def test_read_gallery_is_query_only_and_never_invents_content_hashes(self):
+        shop = object.__new__(daily.Shopify)
+        product = {"id": "gid://shopify/Product/1", "status": "DRAFT", "tags": ["daiso-pd-1"],
+                   "media": {"nodes": [{"id": "m1", "status": "READY", "mediaContentType": "IMAGE"}],
+                             "pageInfo": {"hasNextPage": False}}}
+        shop.gql = MagicMock(return_value={"product": product})
+        result = shop.read_gallery(product["id"])
+        self.assertEqual(result["pd_no"], "1")
+        self.assertTrue(result["complete"])
+        self.assertNotIn("content_sha256", result["media"][0])
+        self.assertTrue(shop.gql.call_args.args[0].startswith("query("))
+        self.assertNotIn("mutation", shop.gql.call_args.args[0])
+
+    def test_read_gallery_requires_exact_unique_product_tag_and_complete_inventory(self):
+        shop = object.__new__(daily.Shopify)
+        for tags in ([], ["daiso-pd-1", "daiso-pd-2"]):
+            shop.gql = MagicMock(return_value={"product": {
+                "id": "gid://shopify/Product/1", "status": "DRAFT", "tags": tags,
+                "media": {"nodes": [], "pageInfo": {"hasNextPage": True}}}})
+            result = shop.read_gallery("gid://shopify/Product/1")
+            self.assertIsNone(result["pd_no"])
+            self.assertFalse(result["complete"])
+
+    def test_slow_media_download_cannot_refresh_old_product_observation_time(self):
+        shop = object.__new__(daily.Shopify)
+        shop.gql = MagicMock(return_value={"product": {"id": "gid://shopify/Product/1", "status": "DRAFT",
+            "tags": ["daiso-pd-1"], "media": {"nodes": [], "pageInfo": {"hasNextPage": False}}}})
+        first = datetime.now(timezone.utc) - timedelta(minutes=10)
+        with patch.object(daily, "datetime") as clock:
+            clock.now.side_effect = [first, datetime.now(timezone.utc)]
+            observed = shop.read_gallery("gid://shopify/Product/1")
+        self.assertEqual(observed["observed_at"], first.isoformat())
+        self.assertEqual(clock.now.call_count, 1)
+        self.assertIsNotNone(daily.gallery_review.observation_error({"pd_no": "1", "shopify_id": observed["id"]}, observed))
+
+    def test_missing_media_pagination_cannot_be_complete(self):
+        shop = object.__new__(daily.Shopify)
+        shop.gql = MagicMock(return_value={"product": {"id": "gid://shopify/Product/1", "status": "DRAFT",
+                                                      "tags": ["daiso-pd-1"], "media": {"nodes": []}}})
+        self.assertFalse(shop.read_gallery("gid://shopify/Product/1")["complete"])
+
+
+class GalleryRepairExecutionTests(unittest.TestCase):
+    """All upload/mutation/network operations mocked; state races are synthetic."""
+
+    def setUp(self):
+        fixture_spec = importlib.util.spec_from_file_location(
+            "gallery_review_fixture", SCRIPT.parents[1] / "tests/test_gallery_review.py")
+        fixture_module = importlib.util.module_from_spec(fixture_spec)
+        fixture_spec.loader.exec_module(fixture_module)
+        self.fixture = fixture_module.GalleryReviewTests()
+        self.fixture.setUp()
+        self.addCleanup(self.fixture.doCleanups)
+        for asset in self.fixture.manifest["assets"]:
+            self.fixture.change_receipt(asset["review_receipt"], reviewed_at=datetime.now(timezone.utc).isoformat())
+        for ref in self.fixture.manifest["review_evidence"].values():
+            self.fixture.change_receipt(ref, reviewed_at=datetime.now(timezone.utc).isoformat())
+        self.entry = {**self.fixture.entry, "title": "Human title", "description_html": "Human body", "single_usd": 15.99}
+        self.registry = {"items": [self.entry]}
+        self.shop = MagicMock()
+        self.state = {**self.fixture.observation, "media": [self.fixture.media(0), self.fixture.media(1)]}
+        self.shop.read_gallery.side_effect = self.observe
+        self.shop.upload_product_image.side_effect = lambda data, name, mime: "staged-" + name
+        self.shop.gql.side_effect = self.append
+        self.new_hashes = [a["asset_sha256"] for a in self.fixture.manifest["assets"][2:]]
+        for obj, attr, value in ((daily, "ROOT", self.fixture.root),
+                                 (daily.gallery_review, "load_manifest", MagicMock(return_value=self.fixture.manifest)),
+                                 (daily, "DRY_RUN", False), (daily, "save_registry", MagicMock())):
+            patcher = patch.object(obj, attr, value)
+            patcher.start()
+            self.addCleanup(patcher.stop)
+
+    def observe(self, product_id):
+        return {**copy.deepcopy(self.state), "observed_at": datetime.now(timezone.utc).isoformat()}
+
+    def append(self, query, variables):
+        self.assertIn("product:{id:$id}", query)
+        self.assertNotIn("status:", query)
+        self.assertEqual(set(variables), {"id", "media"})
+        for index, digest in enumerate(self.new_hashes):
+            self.state["media"].append({"id": "new%d" % index, "mediaContentType": "IMAGE", "status": "READY",
+                                        "content_sha256": digest})
+        return {"productUpdate": {"product": {"id": self.entry["shopify_id"], "status": "DRAFT"}, "userErrors": []}}
+
+    def test_partial_gallery_adds_only_missing_assets_and_preserves_human_content(self):
+        before = copy.deepcopy(self.entry)
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.assertEqual(out["status"], "attached")
+        self.assertTrue(out["gallery_complete"])
+        self.assertEqual(out["preserve_media_ids"], [self.fixture.media(i)["id"] for i in (0, 1)])
+        self.assertEqual(self.shop.upload_product_image.call_count, 3)
+        self.shop.gql.assert_called_once()
+        self.assertEqual(self.entry["image_backfill"]["state"], "verified")
+        for key in ("title", "description_html", "single_usd", "status"):
+            self.assertEqual(self.entry[key], before[key])
+
+    def test_existing_safe_zero_image_path_is_retained_without_claiming_complete(self):
+        self.state["media"] = []
+        self.new_hashes = ["a" * 64, "b" * 64]
+        self.entry["images"] = 0
+        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "123"}), \
+                patch.object(daily, "prepare_images", return_value={"resource_urls": ["r1", "r2"], "alts": ["a1", "a2"], "output_sha256s": self.new_hashes}) as prepare:
+            out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        prepare.assert_called_once()
+        self.shop.gql.assert_called_once()
+        self.assertEqual(out["status"], "attached")
+        self.assertEqual(self.entry["images"], 2)
+        self.assertFalse(out["gallery_complete"])
+        self.assertFalse(self.entry["gallery_complete"])
+        self.assertEqual(self.entry["status"], "DRAFT")
+
+    def test_active_before_repair_performs_no_upload_or_mutation(self):
+        self.state["status"] = "ACTIVE"
+        with patch.object(daily, "prepare_images") as prepare:
+            out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        prepare.assert_not_called()
+        self.shop.upload_product_image.assert_not_called()
+        self.shop.gql.assert_not_called()
+        self.assertFalse(out["gallery_complete"])
+
+    def test_zero_image_status_change_after_staging_prevents_attachment(self):
+        self.state["media"] = []
+        def prepare(*args, **kwargs):
+            self.state["status"] = "ACTIVE"
+            return {"resource_urls": ["r1"], "alts": []}
+        with patch.object(daily, "daiso_lookup", return_value={"pdNo": "123"}), \
+                patch.object(daily, "prepare_images", side_effect=prepare):
+            out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.gql.assert_not_called()
+        self.assertEqual(out["reasons"], ["gallery_changed_before_append"])
+        self.assertNotIn("image_backfill", self.entry)
+
+    def test_partial_state_change_before_upload_aborts_all_writes(self):
+        calls = 0
+        def observe(pid):
+            nonlocal calls
+            calls += 1
+            if calls == 2:
+                self.state["status"] = "ACTIVE"
+            return self.observe(pid)
+        self.shop.read_gallery.side_effect = observe
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.upload_product_image.assert_not_called()
+        self.shop.gql.assert_not_called()
+        self.assertEqual(out["status"], "review_required")
+
+    def test_source_revocation_during_staging_prevents_product_mutation(self):
+        def upload(*args):
+            (self.fixture.root / self.fixture.manifest["assets"][0]["source_file"]).unlink(missing_ok=True)
+            return "staged"
+        self.shop.upload_product_image.side_effect = upload
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.gql.assert_not_called()
+        self.assertFalse(out["gallery_complete"])
+        self.assertEqual(out["reasons"], ["gallery_evidence_changed_before_append"])
+
+    def test_post_write_active_or_changed_media_remains_uncertain_and_never_retries(self):
+        def append(query, variables):
+            result = self.append(query, variables)
+            self.state["status"] = "ACTIVE"
+            return result
+        self.shop.gql.side_effect = append
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.assertEqual(out["status"], "verification_pending")
+        self.assertEqual(self.entry["image_backfill"]["state"], "append_reserved")
+        self.assertEqual(self.entry["images"], 2)
+        self.state["status"] = "DRAFT"
+        self.shop.gql.reset_mock()
+        self.shop.upload_product_image.reset_mock()
+        again = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.gql.assert_not_called()
+        self.shop.upload_product_image.assert_not_called()
+        self.assertEqual(again["status"], "reconciled")
+        self.assertEqual(self.entry["image_backfill"]["state"], "verified")
+
+    def test_uncertain_mutation_durably_holds_retry(self):
+        self.shop.gql.side_effect = RuntimeError("private network error")
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.assertEqual(self.entry["image_backfill"]["state"], "append_reserved")
+        self.assertFalse(out["gallery_complete"])
+        self.shop.gql.reset_mock()
+        daily.backfill_draft_images(self.shop, self.registry)
+        self.shop.gql.assert_not_called()
+
+    def test_uncertain_gallery_write_stops_later_gallery_items(self):
+        self.registry["items"].append({**self.entry, "shopify_id": "gid://shopify/Product/456", "pd_no": "456"})
+        self.shop.gql.side_effect = RuntimeError("uncertain")
+        out = daily.backfill_draft_images(self.shop, self.registry)
+        self.assertEqual(len(out), 2)
+        self.assertTrue(out[0]["stop_further_writes"])
+        self.assertTrue(out[1]["stop_further_writes"])
+        self.assertNotIn("gid://shopify/Product/456", [call.args[0] for call in self.shop.read_gallery.call_args_list])
+        self.assertEqual(self.shop.gql.call_count, 1)
+
+    def test_post_write_missing_original_media_cannot_be_reconciled(self):
+        def append(query, variables):
+            result = self.append(query, variables)
+            self.state["media"] = self.state["media"][1:]
+            return result
+        self.shop.gql.side_effect = append
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.assertEqual(out["status"], "verification_pending")
+        self.assertTrue(out["stop_further_writes"])
+        self.assertEqual(self.entry["images"], 2)
+        self.shop.gql.reset_mock()
+        again = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.assertEqual(again["status"], "verification_pending")
+        self.shop.gql.assert_not_called()
+
+    def test_revocation_during_final_read_prevents_the_mutation(self):
+        calls = 0
+        def observe(pid):
+            nonlocal calls
+            calls += 1
+            if calls == 4:
+                (self.fixture.root / self.fixture.manifest["assets"][0]["source_file"]).unlink()
+            return self.observe(pid)
+        self.shop.read_gallery.side_effect = observe
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.gql.assert_not_called()
+        self.assertTrue(out["stop_further_writes"])
+        self.assertEqual(out["reasons"], ["gallery_evidence_changed_before_append"])
+
+    def test_revocation_during_reservation_save_prevents_the_mutation(self):
+        def save(reg):
+            (self.fixture.root / self.fixture.manifest["assets"][0]["source_file"]).unlink(missing_ok=True)
+        with patch.object(daily, "save_registry", side_effect=save):
+            out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.gql.assert_not_called()
+        self.assertTrue(out["stop_further_writes"])
+        self.assertEqual(self.entry["image_backfill"]["state"], "cancelled_before_append")
+
+    def test_post_append_evidence_revocation_stops_later_writes(self):
+        def append(query, variables):
+            result = self.append(query, variables)
+            (self.fixture.root / self.fixture.manifest["assets"][0]["source_file"]).unlink()
+            return result
+        self.shop.gql.side_effect = append
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.assertEqual(out["status"], "attached_review_required")
+        self.assertFalse(out["gallery_complete"])
+        self.assertTrue(out["stop_further_writes"])
+        self.assertEqual(out["assessment"]["status"], "partial")
+
+    def test_reservation_blocks_even_outside_budget_or_with_cached_active_status(self):
+        self.entry["status"] = "ACTIVE"
+        self.entry["image_backfill"] = {"state": "append_reserved"}
+        with patch.object(daily, "BACKFILL_DRAFT_IMAGES_LIMIT", 0):
+            out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.read_gallery.assert_not_called()
+        self.shop.gql.assert_not_called()
+        self.assertTrue(out["stop_further_writes"])
+        self.assertEqual(out["status"], "verification_pending")
+
+    def test_unknown_existing_hash_or_missing_rights_blocks_partial_repair(self):
+        self.state["media"][0]["content_sha256"] = "f" * 64
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.upload_product_image.assert_not_called()
+        self.shop.gql.assert_not_called()
+        self.assertEqual(out["add_asset_sha256s"], [])
+        self.state["media"][0] = self.fixture.media(0)
+        self.fixture.manifest["review_evidence"].pop("rights")
+        out = daily.backfill_draft_images(self.shop, self.registry)[0]
+        self.shop.gql.assert_not_called()
+        self.assertFalse(out["gallery_complete"])
+
+    def test_cdn_hash_reads_real_bytes_and_refuses_non_shopify_destinations(self):
+        response = MagicMock()
+        response.__enter__.return_value.read.return_value = b"actual media bytes"
+        with patch.object(daily.urllib.request, "build_opener") as opener:
+            opener.return_value.open.return_value = response
+            digest = daily.gallery_media_hash("https://cdn.shopify.com/s/files/1/photo.png?v=1")
+            self.assertEqual(digest, daily.hashlib.sha256(b"actual media bytes").hexdigest())
+            for url in ("https://attacker.test/a", "http://cdn.shopify.com/s/files/a", "https://cdn.shopify.com@localhost/s/files/a"):
+                self.assertIsNone(daily.gallery_media_hash(url))
+            self.assertEqual(opener.call_count, 1)
+
 
 
 if __name__ == "__main__":
