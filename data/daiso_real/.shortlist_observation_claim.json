@@ -1,7 +1,7 @@
 {
-  "last_run_attempt_at": "2026-10-18T17:01:27.346769+00:00",
-  "last_request_at": "2026-10-18T17:02:27.347078+00:00",
-  "total_http_attempts": 34,
+  "last_run_attempt_at": "2026-10-18T19:50:53.120992+00:00",
+  "last_request_at": "2026-10-18T19:51:53.121374+00:00",
+  "total_http_attempts": 37,
   "expected_ids": [
     "CP000106",
     "CP000107",
@@ -219,6 +219,24 @@
       "reserved_at": "2026-10-18T17:02:27.347078+00:00",
       "kind": "product",
       "pd_no": "1049276"
+    },
+    {
+      "sequence": 35,
+      "reserved_at": "2026-10-18T19:50:53.120992+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 36,
+      "reserved_at": "2026-10-18T19:51:23.121186+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 37,
+      "reserved_at": "2026-10-18T19:51:53.121374+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
     }
   ],
   "migration": {
@@ -227,14 +245,14 @@
     "legacy_last_run_attempt_at": "2026-10-04T07:02:09.734108+00:00",
     "legacy_last_request_at": "2026-10-04T07:05:39.734815+00:00"
   },
-  "last_checked_at": "2026-10-18T17:02:27.972612+00:00",
+  "last_checked_at": "2026-10-18T19:51:53.699826+00:00",
   "member_attempts": {
     "1049275": {
-      "attempted_at": "2026-10-18T17:01:57.346933+00:00",
+      "attempted_at": "2026-10-18T19:51:23.121186+00:00",
       "outcome": "success"
     },
     "1049276": {
-      "attempted_at": "2026-10-18T17:02:27.347078+00:00",
+      "attempted_at": "2026-10-18T19:51:53.121374+00:00",
       "outcome": "success"
     },
     "1049285": {

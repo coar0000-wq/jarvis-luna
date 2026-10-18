@@ -294,14 +294,14 @@
     },
     {
       "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "fecc19e402acd6fd4b52929d5be803bdc78f8207dce2eac7e1efcce3183f4e94",
+      "base_sha256": "26bb7518df609e983e7331b2a893900d23757a742881924dd91b25a108ea7333",
       "ids": [
-        "action:intent:task_503a958b5c2b5c0a23b48eedeff1d6d35dea6db372eb427b435bf7fcf7e8c7e3",
-        "action:intent:task_53915aea596a344274241d6ff53415570ca5dc504e7286f86c7e2c56d479f125",
-        "relation:422ce3c20558292ae3ede45c",
-        "relation:46c01904fe307c85fc58a74f",
-        "relation:b87eb6674c3ddc49dbbf313f",
-        "relation:bf2211dcf1c0f2d90c7e80b2"
+        "action:intent:task_8db901b41348b5d07f87d2bacd6628064fecde86df9d1d025bfcded03fbe2098",
+        "action:intent:task_d203017aca939d6461ccbd6404824f1e84dd49b1d4ab130c19bc1fcff18ba245",
+        "relation:1ccbe856f83803d890d040b6",
+        "relation:4c2e34f5ebb1cfdac95642d4",
+        "relation:76b4ac2256c5286202f6557e",
+        "relation:8825dfed84ad2d13d97e563b"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
@@ -309,10 +309,18 @@
     },
     {
       "path": "data/operations/state.json",
-      "base_sha256": "2ade98696b52c24d556b21912cff1ab01b8c8226876b2ec8fe1866154531e29d",
+      "base_sha256": "c40bf15aabf5bab40b8383ef0e74ece316ee5e160e8ee8b4833d22bc246c9d36",
       "ids": [
+        "441fc5edf6448848b030f982f79f3e39aaf1c97a57398e382c5f8615534c682c",
         "STALE_SOURCE_CAPTURE",
-        "e1141b6c8bd532d20e289e18b50d8a86ba2383779eceb083961b2f03bd33348d"
+        "a19451ebd0599f26546e3772910687f275b50dbe100b63306f27afab10018d3b",
+        "e76420b3298dfe430e7cbe52bdb9255a048e0a68426fd038683b47ec7faf64bd",
+        "org-url:cd179bcb80fc29449ab49d15d06fe0de7c84b5051dad950fd0610bea89241888",
+        "url:47128769f8ac469109ee952f3112211e50d2cb5a52ae356408af9677b10ff842",
+        "url:7e8bb6bce922ae0a5ce9d216fbdcf22bd75e37c613b0e2fa6a3f49e648ee77ac",
+        "url:b66eb11dc2baa5edf86ef03bec75bbab151c84cbb572b332bdc2c7af1489e3cb",
+        "url:dda7722590547fde770723535c8bb1bc94aaaae50018c397657fc109587d6d18",
+        "url:e3f1e189612cecaa67df73cc74c56abc94041ef4b3d0a0dfc9a2dde44f79364c"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
