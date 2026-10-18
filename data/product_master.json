@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-18T00:41:29.051506+00:00",
+  "generated_at": "2026-10-18T02:51:58.343213+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -5104,7 +5104,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T00:41:28.972472+00:00"
+        "gate_generated_at": "2026-10-18T02:51:58.239239+00:00"
       }
     },
     {
@@ -5164,7 +5164,7 @@
           "price",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T00:41:28.972472+00:00"
+        "gate_generated_at": "2026-10-18T02:51:58.239239+00:00"
       }
     },
     {
@@ -6468,7 +6468,7 @@
           "price",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T00:41:28.972472+00:00"
+        "gate_generated_at": "2026-10-18T02:51:58.239239+00:00"
       }
     },
     {
@@ -11359,7 +11359,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T00:41:28.972472+00:00"
+        "gate_generated_at": "2026-10-18T02:51:58.239239+00:00"
       }
     },
     {
@@ -12094,7 +12094,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T00:41:28.972472+00:00"
+        "gate_generated_at": "2026-10-18T02:51:58.239239+00:00"
       }
     },
     {
@@ -13505,7 +13505,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T00:41:28.972472+00:00"
+        "gate_generated_at": "2026-10-18T02:51:58.239239+00:00"
       }
     },
     {
@@ -14136,7 +14136,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T00:41:28.972472+00:00"
+        "gate_generated_at": "2026-10-18T02:51:58.239239+00:00"
       }
     },
     {
