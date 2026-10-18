@@ -129,7 +129,7 @@ SCHEMAS = {
  # 다이소 -> coarfamily 일일 등록 이력. Shopify 내부 ID 는 공개하지 않는다.
  # shop.com 카테고리(뷰티) 노출 상품: 수집 채널 현황 카드용. 가격·평점 등 공개 상품 정보만.
  'data/shop_com_categories.json': obj('status reason collected_at source_url count', categories=[fields('name url')], items=[fields('title brand section price_text list_price_text price_usd discount_pct rating reviews url page')]),
- 'data/shopify_daily_registry.json': dict(items=[dict(fields('pd_no name_kr title category date status handle krw single_usd single_margin_pct pack_usd pack_margin_pct images price_basis shop_com_lowest_usd'), size=fields('unit base count total'), draft_reasons=[True])]),
+ 'data/shopify_daily_registry.json': dict(items=[dict(fields('pd_no name_kr title category date status handle krw single_usd single_margin_pct pack_usd pack_margin_pct images price_basis shop_com_lowest_usd selection_recorded'), size=fields('unit base count total'), draft_reasons=[True])]),
 }
 UNSAFE = re.compile(r'(?i)(?:github_pat_[A-Za-z0-9_]+|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|AKIA[A-Z0-9]{16}|(?:authorization|api[_-]?key|password|access[_-]?token)\s*[:=]\s*\S+|[A-Z]:\\(?:Users|Windows)\\|/home/runner/|(?:localhost|127\.0\.0\.1):\d+)')
 
@@ -221,6 +221,23 @@ def project(value, schema):
     return {k:project(value[k],s) for k,s in schema.items() if k in value}
 
 
+def registry_for_public_display(value):
+    """Derive selection history only; never assert grade, legal readiness or live status."""
+    if not isinstance(value, dict):
+        return {}
+    rows = []
+    for row in value.get('items', []):
+        if not isinstance(row, dict):
+            continue
+        selected = row.get('status') in {'DRAFT', 'ACTIVE'} and (
+            row.get('grade') in {'S', 'RANK'} or
+            row.get('source') in {'owner_body_shower_category_fallback',
+                                  'manual_owner_image_localization_example'} or
+            row.get('status') == 'ACTIVE')
+        rows.append(dict(row, selection_recorded=bool(selected)))
+    return dict(value, items=rows)
+
+
 def digest(data): return hashlib.sha256(data).hexdigest()
 def encoded(value): return (json.dumps(value,ensure_ascii=False,sort_keys=True,indent=2,allow_nan=False)+'\n').encode('utf-8')
 
@@ -245,7 +262,10 @@ def build(root, output, commit=None):
     if not re.fullmatch('[0-9a-f]{40}',commit): raise ValueError('full commit SHA required')
     payload = {f:checked_source(root,f).read_bytes() for f in STATIC_FILES}
     for f,schema in SCHEMAS.items():
-        payload[f] = encoded(project(json.loads(checked_source(root,f).read_text(encoding='utf-8')),schema))
+        source = json.loads(checked_source(root,f).read_text(encoding='utf-8'))
+        if f == 'data/shopify_daily_registry.json':
+            source = registry_for_public_display(source)
+        payload[f] = encoded(project(source, schema))
     file_hashes = {f:digest(data) for f,data in sorted(payload.items())}
     site_hash = digest(encoded(file_hashes))
     deployment = {'schema_version':1,'commit':commit,'base_path':BASE_PATH,'site_hash':site_hash,'files':file_hashes,'public_files_only':True}
