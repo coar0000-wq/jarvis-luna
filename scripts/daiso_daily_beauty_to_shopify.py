@@ -66,6 +66,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import manufacturer_safety  # noqa: E402
 import product_accuracy  # noqa: E402
+import gallery_review  # noqa: E402
 import owner_draft_approval  # noqa: E402
 import body_category_fallback as body_fallback  # noqa: E402
 import pricing_model  # noqa: E402
@@ -247,6 +248,31 @@ class Shopify:
           media(first:100){nodes{mediaContentType status}}}}""",
           {"id": product_id, "pub": publication_id or "gid://shopify/Publication/0"})["product"]
 
+    def read_gallery(self, product_id):
+        """Fresh read-only inventory and actual image bytes, never URL/alt-derived hashes."""
+        observed_at = datetime.now(timezone.utc).isoformat()
+        product = self.gql("""query($id:ID!){product(id:$id){id status tags
+          media(first:100){nodes{id mediaContentType status ... on MediaImage{image{url}}} pageInfo{hasNextPage}}}}""",
+          {"id": product_id}).get("product")
+        if not isinstance(product, dict):
+            return {}
+        tags = product.get("tags") or []
+        ids = {t.removeprefix("daiso-pd-") for t in tags
+               if isinstance(t, str) and re.fullmatch(r"daiso-pd-[0-9]+", t)}
+        media = product.get("media") or {}
+        nodes = media.get("nodes")
+        if product.get("status") == "DRAFT" and len(ids) == 1 and isinstance(nodes, list):
+            for node in nodes:
+                if node.get("mediaContentType") == "IMAGE" and node.get("status") == "READY":
+                    digest = gallery_media_hash((node.get("image") or {}).get("url"))
+                    if digest is not None:
+                        node["content_sha256"] = digest
+        return {"id": product.get("id"), "status": product.get("status"),
+                "pd_no": next(iter(ids)) if len(ids) == 1 else None,
+                "observed_at": observed_at,
+                "complete": (media.get("pageInfo") or {}).get("hasNextPage") is False,
+                "media": media.get("nodes")}
+
     def update_description(self, product_id, description_html):
         d = self.gql("""mutation($p:ProductUpdateInput!){productUpdate(product:$p){
           product{id} userErrors{field message}}}""",
@@ -297,13 +323,18 @@ class Shopify:
         return None
 
     def upload_jpeg(self, data, filename):
+        return self.upload_product_image(data, filename, "image/jpeg")
+
+    def upload_product_image(self, data, filename, mime_type):
         """Shopify staged upload (PRODUCT_IMAGE). 업로드 후 productCreate 의 originalSource 로 쓸 resourceUrl 을 돌려준다."""
+        if mime_type not in {"image/jpeg", "image/png"}:
+            raise ValueError("Unsupported reviewed product image type")
         d = self.gql(
             """
 mutation($i:[StagedUploadInput!]!){
   stagedUploadsCreate(input:$i){stagedTargets{url resourceUrl parameters{name value}} userErrors{field message}}
 }""",
-            {"i": [{"resource": "PRODUCT_IMAGE", "filename": filename, "mimeType": "image/jpeg", "httpMethod": "POST"}]},
+            {"i": [{"resource": "PRODUCT_IMAGE", "filename": filename, "mimeType": mime_type, "httpMethod": "POST"}]},
         )["stagedUploadsCreate"]
         if d["userErrors"]:
             raise RuntimeError(f"staged upload: {d['userErrors']}")
@@ -316,7 +347,7 @@ mutation($i:[StagedUploadInput!]!){
             )
         parts.append(
             f'--{boundary}\r\nContent-Disposition: form-data; name="file"; filename="{filename}"\r\n'
-            f"Content-Type: image/jpeg\r\n\r\n".encode()
+            f"Content-Type: {mime_type}\r\n\r\n".encode()
             + data
             + f"\r\n--{boundary}--\r\n".encode()
         )
@@ -865,6 +896,7 @@ def localized_images(p, shop, title):
         if shop is not None and not DRY_RUN:
             resource_urls.append(shop.upload_jpeg(data, o["file"]))
     man["_files"], man["_alts"], man["_resource_urls"] = files, alts, resource_urls
+    man["_output_sha256s"] = [o["sha256"] for o in man["outputs"]]
     return man
 
 
@@ -909,10 +941,12 @@ def prepare_images(p, shop, title=None):
         blobs.append((u, data))
     kept, face_dropped = di.select_images(blobs)
     dropped.extend(face_dropped)
-    resource_urls = []
+    resource_urls, output_hashes = [], []
     if shop is not None and not DRY_RUN:
         for n, (u, data) in enumerate(kept, 1):
-            resource_urls.append(shop.upload_jpeg(di.to_square_jpeg(data), f"daiso-{p['pdNo']}-{n}.jpg"))
+            output = di.to_square_jpeg(data)
+            output_hashes.append(hashlib.sha256(output).hexdigest())
+            resource_urls.append(shop.upload_jpeg(output, f"daiso-{p['pdNo']}-{n}.jpg"))
     log(f"  images: total {len(urls)}, reviewed {len(blobs)}, kept {len(kept)}, dropped {len(dropped)} {[d['reason'] for d in dropped]}")
     source_urls = [u for u, _ in kept]
     alts = [title or ""] * len(source_urls)
@@ -921,17 +955,20 @@ def prepare_images(p, shop, title=None):
     if loc is not None:
         localization = {"status": loc.get("status"), "summary": loc.get("summary"), "reasons": loc.get("reasons"),
                         "translator": loc.get("translator"),
+                        "gallery_complete": False, "gallery_status": "review_required",
                         "manifest": f"data/image_localization/{p['pdNo']}.json"}
         if loc.get("status") == "ok":
             # 영문 패널을 앞에, 검수 허용 목록 제품 사진을 뒤에 둔다 (수작업은 01 이 대표 제품 패널이었다).
             source_urls = loc["_files"] + source_urls
             resource_urls = loc["_resource_urls"] + resource_urls
+            output_hashes = loc.get("_output_sha256s", []) + output_hashes
             alts = loc["_alts"] + alts
         else:
             dropped.append({"url": DAISO_ITEM + str(p["pdNo"]), "reason": "detail_localization_failed:" +
                             ",".join(loc.get("reasons") or [])})
     return {"source_urls": source_urls, "resource_urls": resource_urls, "skipped": dropped, "alts": alts,
-            "localization": localization, "total": len(urls), "reviewed_allowlist_entries": len(allowed)}
+            "localization": localization, "total": len(urls), "reviewed_allowlist_entries": len(allowed),
+            "gallery_complete": False, "gallery_status": "review_required", "output_sha256s": output_hashes}
 
 
 
@@ -1861,59 +1898,222 @@ BACKFILL_DRAFT_IMAGES = os.environ.get("BACKFILL_DRAFT_IMAGES", "0").strip().low
 BACKFILL_DRAFT_IMAGES_LIMIT = int(os.environ.get("BACKFILL_DRAFT_IMAGES_LIMIT", "3"))
 
 
-def backfill_draft_images(shop, registry):
-    """이미지 0장으로 남은 비공개 초안에 상세 이미지 영문화(1084687 방식)를 다시 적용한다.
+def gallery_append_reserved(entry):
+    return (isinstance(entry, dict) and isinstance(entry.get("image_backfill"), dict)
+            and entry["image_backfill"].get("state") == "append_reserved")
 
-    2026-10-17: 새 방식은 '새로 만드는' 상품에만 적용돼, 그 전에 허용 목록 이미지가 없어 0장으로
-    남은 초안(1053482·1055167·1042249)은 영영 이미지가 없었다. 상태(DRAFT)·가격·공개는 건드리지 않고
-    미디어만 붙인다. 영문 상품명이 없으면(한글 제목) 건너뛴다. 실패해도 일일 등록은 계속한다.
+
+def gallery_recheck_candidates(registry):
+    """Reconcile every uncertain write first, irrespective of cached status/count."""
+    items = [it for it in registry.get("items") or [] if isinstance(it, dict)]
+    pending = [it for it in items if gallery_append_reserved(it)]
+    drafts = [it for it in items if not gallery_append_reserved(it)
+              and str(it.get("status") or "").upper() == "DRAFT"
+              and re.fullmatch(r"gid://shopify/Product/[0-9]+", str(it.get("shopify_id") or ""))]
+    cursor = registry.get("gallery_review_cursor")
+    for index, entry in enumerate(drafts):
+        if entry["shopify_id"] == cursor:
+            drafts = drafts[index + 1:] + drafts[:index + 1]
+            break
+    return pending + drafts
+
+
+def gallery_media_hash(url):
+    """Hash actual Shopify CDN bytes without trusting alt/filename or redirects."""
+    if not isinstance(url, str):
+        return None
+    parsed = urllib.parse.urlsplit(url)
+    if (parsed.scheme != "https" or parsed.netloc != "cdn.shopify.com"
+            or not parsed.path.startswith("/s/files/")):
+        return None
+
+    class NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, req, fp, code, msg, headers, newurl):
+            return None
+
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.build_opener(NoRedirect).open(request, timeout=30) as response:
+            data = response.read(gallery_review.MAX_BYTES + 1)
+        if not data or len(data) > gallery_review.MAX_BYTES:
+            return None
+        return hashlib.sha256(data).hexdigest()
+    except (OSError, ValueError):
+        return None
+
+
+def gallery_append_matches(entry, observation):
+    """Reconcile reserved writes from actual bytes; a saved success flag is insufficient."""
+    receipt = entry.get("image_backfill") or {}
+    if gallery_review.observation_error(entry, observation):
+        return False
+    old = receipt.get("preserve_media_hashes")
+    expected = receipt.get("expected_new_hashes")
+    if (not isinstance(old, dict) or not isinstance(expected, list) or not expected
+            or any(not isinstance(h, str) or not gallery_review.HASH.fullmatch(h) for h in expected)):
+        return False
+    actual = {m["id"]: m["content_sha256"] for m in observation["media"]}
+    return (all(actual.get(mid) == digest for mid, digest in old.items())
+            and len(actual) == len(old) + len(expected)
+            and sorted(digest for mid, digest in actual.items() if mid not in old) == sorted(expected))
+
+
+def record_verified_gallery_append(registry, entry, observation):
+    entry["images"] = len(observation["media"])
+    entry["gallery_complete"] = False
+    entry["image_backfill"].update(state="verified", media_hashes={m["id"]: m["content_sha256"] for m in observation["media"]})
+    entry["draft_reasons"] = [r for r in entry.get("draft_reasons") or [] if r != "no_usable_product_images"]
+    save_registry(registry)
+
+
+def append_gallery_media(shop, registry, entry, before, urls, alts, *, expected_hashes, expected_evidence_digest=None):
+    """Append-only with immediate pre/post checks and a durable uncertain-write hold.
+
+    This Shopify path has no atomic expected-status condition. A concurrent owner
+    edit can still race the final read. Any mismatch stops further writes; never
+    issue corrective status, deletion, reorder or replacement mutations.
     """
-    out = []
-    todo = [it for it in registry.get("items") or []
-            if isinstance(it, dict) and str(it.get("status") or "").upper() == "DRAFT"
-            and it.get("images") == 0 and str(it.get("shopify_id") or "").startswith("gid://shopify/Product/")]
-    for it in todo[:BACKFILL_DRAFT_IMAGES_LIMIT]:
-        pd, title = str(it.get("pd_no")), str(it.get("title") or "")
-        row = {"pd_no": pd, "shopify_id": it["shopify_id"]}
-        if not title or re.search(r"[가-힣]", title):
-            out.append({**row, "status": "skipped", "reason": "english_title_missing"})
-            continue
-        try:
-            p = daiso_lookup(pd)
-            if not p:
-                out.append({**row, "status": "skipped", "reason": "daiso_lookup_failed"})
-                continue
-            imgs = prepare_images(p, shop, title=title)
-            urls = imgs["resource_urls"]
-            row["localization"] = imgs.get("localization")
-            if not urls:
-                out.append({**row, "status": "no_usable_images",
-                            "reasons": [d.get("reason") for d in imgs.get("skipped") or []][:10]})
-                continue
-            alts = imgs.get("alts") or []
-            d = shop.gql(
-                """
-mutation($id:ID!,$media:[CreateMediaInput!]){
-  productUpdate(product:{id:$id},media:$media){product{id status} userErrors{field message}}
-}""",
-                {"id": it["shopify_id"],
-                 "media": [{"originalSource": u, "mediaContentType": "IMAGE",
-                            "alt": (alts[i:i + 1] or [title])[0] or title} for i, u in enumerate(urls)]},
-            )["productUpdate"]
-            if d["userErrors"]:
-                raise RuntimeError(f"productUpdate media: {d['userErrors']}")
-            if (d.get("product") or {}).get("status") != "DRAFT":
-                raise RuntimeError("product status changed during image backfill")
-            it["images"] = len(urls)
-            it["image_backfill"] = {"at": datetime.now(timezone.utc).isoformat(), "count": len(urls),
-                                    "localization": imgs.get("localization")}
-            it["draft_reasons"] = [r for r in it.get("draft_reasons") or [] if r != "no_usable_product_images"]
-            out.append({**row, "status": "attached", "count": len(urls)})
-        except Exception as exc:  # noqa: BLE001  한 상품 실패가 일일 등록을 막지 않는다
-            log(f"  image backfill failed {pd}: {exc}")
-            out.append({**row, "status": "failed", "error": str(exc)[:300]})
-    if any(r["status"] == "attached" for r in out):
+    fresh = shop.read_gallery(entry["shopify_id"])
+    if (not urls or len(urls) != len(expected_hashes or [])
+            or not gallery_review.same_inventory(entry, before, fresh)):
+        return {"status": "review_required", "reasons": ["gallery_changed_before_append"], "stop_further_writes": True}
+    def current_evidence_matches():
+        if expected_evidence_digest is None:  # Existing zero-image QA path has separate completion semantics.
+            return True
+        latest = gallery_review.plan_additions(entry, gallery_review.load_manifest(ROOT, str(entry["pd_no"])), ROOT, fresh)
+        return (latest["status"] == "additions_prepared" and latest["add_asset_sha256s"] == expected_hashes
+                and latest["assessment"]["evidence_digest"] == expected_evidence_digest)
+
+    if not current_evidence_matches():
+        return {"status": "review_required", "reasons": ["gallery_evidence_changed_before_append"], "stop_further_writes": True}
+    old = {m["id"]: m["content_sha256"] for m in before["media"]}
+    entry["image_backfill"] = {"state": "append_reserved", "at": datetime.now(timezone.utc).isoformat(),
+                               "preserve_media_hashes": old, "expected_new_hashes": expected_hashes, "evidence_digest": expected_evidence_digest}
+    save_registry(registry)  # An uncertain outcome is never automatically appended again.
+    if not current_evidence_matches():
+        entry["image_backfill"]["state"] = "cancelled_before_append"
         save_registry(registry)
+        return {"status": "review_required", "reasons": ["gallery_evidence_changed_before_append"], "stop_further_writes": True}
+    result = shop.gql("""mutation($id:ID!,$media:[CreateMediaInput!]){
+      productUpdate(product:{id:$id},media:$media){product{id status} userErrors{field message}}}""",
+      {"id": entry["shopify_id"], "media": [
+          {"originalSource": url, "mediaContentType": "IMAGE", "alt": (alts[i:i + 1] or [entry.get("title") or ""])[0]}
+          for i, url in enumerate(urls)]})["productUpdate"]
+    if (result.get("userErrors") or (result.get("product") or {}).get("id") != entry["shopify_id"]
+            or result["product"].get("status") != "DRAFT"):
+        return {"status": "verification_pending", "reasons": ["gallery_append_outcome_unverified"], "stop_further_writes": True}
+    after = shop.read_gallery(entry["shopify_id"])
+    if not gallery_append_matches(entry, after):
+        # Normal asynchronous processing can be reconciled read-only on a later run.
+        return {"status": "verification_pending", "reasons": ["gallery_post_state_or_media_unverified"], "stop_further_writes": True}
+    record_verified_gallery_append(registry, entry, after)
+    return {"status": "attached", "count": len(urls), "preserve_media_ids": sorted(old), "observation": after}
+
+
+def backfill_draft_images(shop, registry):
+    """Preserve safe zero-image repair; partial galleries require full evidence.
+
+    Counts never prove completion. Existing media/body/status are never replaced.
+    Current evidence and media are checked again immediately before attachment.
+    """
+    out, stopped = [], False
+    last_attempted = registry.get("gallery_review_cursor")
+    for index, entry in enumerate(gallery_recheck_candidates(registry)):
+        pd = str(entry.get("pd_no") or "")
+        manifest = gallery_review.load_manifest(ROOT, pd)
+        observation = {}
+        try:
+            pending = gallery_append_reserved(entry)
+            if ((pending or not stopped) and index < max(0, BACKFILL_DRAFT_IMAGES_LIMIT)
+                    and re.fullmatch(r"gid://shopify/Product/[0-9]+", str(entry.get("shopify_id") or ""))):
+                if not pending:
+                    last_attempted = entry["shopify_id"]
+                observation = shop.read_gallery(entry["shopify_id"])
+            plan = gallery_review.plan_additions(entry, manifest, ROOT, observation)
+            if pending:
+                if gallery_append_matches(entry, observation):
+                    record_verified_gallery_append(registry, entry, observation)
+                    plan["status"] = "reconciled"
+                    entry["gallery_complete"] = plan["gallery_complete"]
+                    if (entry["image_backfill"].get("evidence_digest") is not None and
+                            (not plan["gallery_complete"] or plan["assessment"].get("evidence_digest") != entry["image_backfill"]["evidence_digest"])):
+                        plan.update(status="attached_review_required", gallery_complete=False,
+                                    reasons=["gallery_evidence_changed_after_append"], stop_further_writes=True)
+                        entry["gallery_complete"] = False
+                    save_registry(registry)
+                else:
+                    plan.update(status="verification_pending", gallery_complete=False,
+                                add_asset_sha256s=[], reasons=["prior_gallery_append_requires_reconciliation"], stop_further_writes=True)
+            elif stopped:
+                plan.update(status="review_required", add_asset_sha256s=[], reasons=["prior_gallery_write_requires_reconciliation"], stop_further_writes=True)
+            elif index >= max(0, BACKFILL_DRAFT_IMAGES_LIMIT):
+                plan["reasons"] = ["current_inventory_read_deferred"]
+            elif not gallery_review.observation_error(entry, observation):
+                title = str(entry.get("title") or "")
+                urls, alts, expected = [], [], []
+                legacy_empty = not observation["media"]
+                if not observation["media"]:
+                    # Retain the established verified-image path without calling it a full gallery.
+                    if title and not re.search(r"[가-힣]", title):
+                        product = daiso_lookup(pd)
+                        if product and str(product.get("pdNo")) == pd:
+                            images = prepare_images(product, shop, title=title)
+                            urls, alts = images["resource_urls"], images.get("alts") or []
+                            expected = images.get("output_sha256s") or []
+                            plan.update(gallery_complete=False, add_asset_sha256s=[], reasons=["gallery_completion_not_verified"])
+                elif plan["status"] == "additions_prepared":
+                    payloads = gallery_review.prepared_payloads(pd, manifest, ROOT, plan["add_asset_sha256s"])
+                    # Recheck the full snapshot before staged upload as well as product attachment.
+                    if not gallery_review.same_inventory(entry, observation, shop.read_gallery(entry["shopify_id"])):
+                        plan.update(status="review_required", add_asset_sha256s=[], reasons=["gallery_changed_before_upload"], stop_further_writes=True)
+                        stopped = True
+                        out.append(plan)
+                        continue
+                    expected = plan["add_asset_sha256s"]
+                    for digest, data in payloads:
+                        if data.startswith(b"\xff\xd8\xff"):
+                            extension, mime = "jpg", "image/jpeg"
+                        elif data.startswith(b"\x89PNG\r\n\x1a\n"):
+                            extension, mime = "png", "image/png"
+                        else:
+                            raise ValueError("reviewed_asset_format_unsupported")
+                        urls.append(shop.upload_product_image(data, "gallery-" + digest + "." + extension, mime))
+                        alts.append(title)
+                    # Revocation during uploads must prevent attachment of the staged assets.
+                    manifest = gallery_review.load_manifest(ROOT, pd)
+                    refreshed = gallery_review.plan_additions(entry, manifest, ROOT, shop.read_gallery(entry["shopify_id"]))
+                    if (refreshed["status"] != "additions_prepared" or refreshed["add_asset_sha256s"] != expected
+                            or refreshed["assessment"]["evidence_digest"] != plan["assessment"]["evidence_digest"]):
+                        plan.update(status="review_required", add_asset_sha256s=[], reasons=["gallery_evidence_changed_before_append"], stop_further_writes=True)
+                        stopped = True
+                        out.append(plan)
+                        continue
+                if urls:
+                    update = append_gallery_media(shop, registry, entry, observation, urls, alts, expected_hashes=expected,
+                        expected_evidence_digest=None if legacy_empty else plan["assessment"]["evidence_digest"])
+                    after = update.pop("observation", None)
+                    plan.update(update)
+                    if after is not None and not legacy_empty:
+                        verified = gallery_review.plan_additions(entry, gallery_review.load_manifest(ROOT, pd), ROOT, after)
+                        plan["gallery_complete"] = verified["gallery_complete"]
+                        plan["assessment"] = verified["assessment"]
+                        entry["gallery_complete"] = plan["gallery_complete"]
+                        if not plan["gallery_complete"]:
+                            plan.update(status="attached_review_required", reasons=["gallery_evidence_changed_after_append"], stop_further_writes=True)
+                        save_registry(registry)
+        except Exception:  # Raw errors can contain private URLs/paths. Never retry an uncertain write.
+            plan = gallery_review.plan_additions(entry, manifest, ROOT, observation)
+            plan.update(status="review_required", gallery_complete=False, add_asset_sha256s=[],
+                        reasons=["gallery_repair_failed_or_unverified"], stop_further_writes=True)
+        stopped = stopped or plan.get("stop_further_writes") is True
+        out.append(plan)
+    if last_attempted != registry.get("gallery_review_cursor"):
+        registry["gallery_review_cursor"] = last_attempted
+        try:
+            save_registry(registry)
+        except Exception:
+            out.append({"status": "review_required", "gallery_complete": False,
+                        "reasons": ["gallery_review_cursor_not_persisted"], "stop_further_writes": True})
     return out
 
 
@@ -1945,7 +2145,8 @@ def main():
     results, failures = [], 0
     backfill = []
     quarantined = []
-    if shop is not None and not DRY_RUN and QUARANTINE_BLOCKED_PUBLIC:
+    pending_gallery = any(gallery_append_reserved(entry) for entry in reg.get("items") or [])
+    if shop is not None and not DRY_RUN and QUARANTINE_BLOCKED_PUBLIC and not pending_gallery:
         try:
             quarantine_blocked_public(shop, products, reg, pub, quarantined)
         except Exception as exc:
@@ -1976,7 +2177,8 @@ def main():
     if shop is not None and not DRY_RUN and BACKFILL_DRAFT_IMAGES:
         image_backfill = backfill_draft_images(shop, reg)
         log(f"draft image backfill: {image_backfill}")
-    write_blocked = False
+    write_blocked = (any(gallery_append_reserved(entry) for entry in reg.get("items") or [])
+                     or any(r.get("stop_further_writes") is True for r in image_backfill))
     for cat in CATEGORIES:
         if ONLY and cat[0] not in ONLY:
             continue
@@ -2193,6 +2395,7 @@ def main():
                 "bundle": bo,
                 "images_skipped": imgs["skipped"],
                 "image_localization": imgs.get("localization"),
+                "gallery_complete": False, "gallery_status": "review_required",
                 "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
                 "us_label": label["label"],
                 "draft_reasons": reasons,

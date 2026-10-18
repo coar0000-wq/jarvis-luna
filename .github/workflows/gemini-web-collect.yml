@@ -32,20 +32,11 @@ jobs:
         run: |
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
 
-      - name: 시크릿 확인
-        id: guard
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
-            echo "GEMINI_API_KEY 시크릿이 없습니다." >> $GITHUB_STEP_SUMMARY
-            echo "ready=false" >> $GITHUB_OUTPUT
-          else
-            echo "ready=true" >> $GITHUB_OUTPUT
-          fi
+      - name: Offline collector regression tests
+        run: python -B scripts/test_collect_via_gemini.py
 
       - name: Gemini url_context 수집
-        if: steps.guard.outputs.ready == 'true'
+        id: collect
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -58,6 +49,10 @@ jobs:
       - name: 결과 요약
         if: always()
         run: |
+          echo "Collector outcome: ${{ steps.collect.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.collect.outcome }}" != "success" ]; then
+            echo "Collection failed. Any stored rows below are not proof of success." >> "$GITHUB_STEP_SUMMARY"
+          fi
           python - <<'PY' >> $GITHUB_STEP_SUMMARY
           import json
           from pathlib import Path
@@ -100,3 +95,6 @@ jobs:
           paths: data/gemini_web_channels.json
           message: Gemini url_context 웹 채널 수집 갱신
 
+      - name: Fail when collection failed
+        if: always() && steps.collect.outcome != 'success'
+        run: exit 1
