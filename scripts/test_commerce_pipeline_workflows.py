@@ -1,6 +1,7 @@
 """Runtime must see the same ordered commerce chain as final publication."""
 from pathlib import Path
 import unittest
+import yaml
 from run_commerce_pipeline import commands, ROOT
 
 
@@ -27,6 +28,32 @@ class CommercePipelineTests(unittest.TestCase):
                 calls = [line.strip().split() for line in text.splitlines()
                          if line.strip().startswith('python -u scripts/export_shopify_operational.py')]
                 self.assertEqual(calls, [expected])
+
+    def test_listing_copy_only_triggers_on_main_canonical_updates(self):
+        workflow = yaml.load(
+            (ROOT / '.github/workflows/shopify-listing-copy.yml').read_text(encoding='utf-8'),
+            Loader=yaml.BaseLoader,
+        )
+        self.assertEqual(workflow['on']['push']['branches'], ['main'])
+        self.assertEqual(workflow['on']['push']['paths'],
+                         ['data/daiso_real/shopify_s_recommendations.json'])
+        self.assertIn('workflow_dispatch', workflow['on'])
+
+    def test_listing_copy_manual_and_push_jobs_are_main_only(self):
+        workflow = yaml.load(
+            (ROOT / '.github/workflows/shopify-listing-copy.yml').read_text(encoding='utf-8'),
+            Loader=yaml.BaseLoader,
+        )
+        # Preserve the offline source-recovery exclusion inside the main guard.
+        self.assertEqual(workflow['jobs']['build']['if'],
+            "${{ github.ref == 'refs/heads/main' && (github.event_name != 'push' || "
+            "!contains(github.event.head_commit.message, '[source-recovery-offline]')) }}")
+        # Preserve trigger-commit provenance, rather than silently checking out main
+        # for branch events and mislabelling generated artifacts as branch results.
+        checkout = workflow['jobs']['build']['steps'][0]
+        self.assertNotIn('ref', checkout.get('with', {}))
+        self.assertEqual(workflow['concurrency']['group'], 'main-publish')
+        self.assertEqual(workflow['concurrency']['cancel-in-progress'], 'false')
 
     def test_deep_uses_same_complete_chain(self):
         text = (ROOT / '.github/workflows/JARVIS-Deep-Analysis.yml').read_text(encoding='utf-8')
