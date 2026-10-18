@@ -132,12 +132,15 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
                              collection_status_bytes=None, candidate_pool=None,
                              candidate_pool_sha256=None, operating_sha256=None,
                              shortlist_price=None, receipts=(),
-                             validated_receipt_sha256=(), workflow_history=(), validated_failure_scopes=None):
+                             validated_receipt_sha256=(), workflow_history=(), validated_failure_scopes=None,
+                             historical_publications=(), validated_historical_publication_sha256=()):
     """Return schema v1 scopes + immutable failure evidence, without mutation.
 
     Callers must validate receipt fingerprints out-of-band. Discovery additionally
     uses existing validate_daiso_collection.validate against pool/current bytes.
     A narrow shortlist receipt NEVER authorizes full-workflow recovery.
+    Historical publications may supersede failures only; they never establish
+    current collection/publication freshness or current overall success.
     """
     observed = timestamp(now)
     validated = set(validated_receipt_sha256)
@@ -241,6 +244,11 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
             and r.get('publication_completed') is True and r.get('workflow_conclusion') == 'success'
             and r.get('collection_scope') == DAILY_SCOPE
             and (observed - timestamp(r['finished_at'])).total_seconds() <= 6 * 3600]
+    historical_validated = set(validated_historical_publication_sha256)
+    superseding = full + [r for r in historical_publications
+        if trusted(r, 'overall_workflow', observed, historical_validated)
+        and r.get('publication_completed') is True and r.get('workflow_conclusion') == 'success'
+        and r.get('collection_scope') == DAILY_SCOPE]
     for failure in history:
         try:
             _, end = run_window(failure['run'], observed)
@@ -251,7 +259,7 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
             if required is None:
                 failure['coverage_reason'] = 'prior_failure_collection_coverage_unknown'
                 continue
-            for receipt in full:
+            for receipt in superseding:
                 if not scope_covers(receipt.get('collection_scope'), required):
                     continue
                 if timestamp(receipt['started_at']) > end and (receipt['run_id'], receipt['run_attempt']) != (failure['run']['id'], failure['run']['run_attempt']):

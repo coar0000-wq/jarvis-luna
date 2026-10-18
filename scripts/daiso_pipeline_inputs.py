@@ -507,6 +507,86 @@ def historical_failure_scope(validation, now):
     return collection_scope(capture)
 
 
+def historical_publication_receipts(saved, report, now):
+    """Replay an immutable past validation for failure supersession ONLY.
+
+    Legacy diagnostic archives omit operating product bodies. Their bound
+    collector receipt and capture must agree on the preserved operating digest;
+    this proves historical candidate publication, never current operating bytes.
+    Stored success flags/receipt lists are ignored. Every publication receipt is
+    regenerated from the original report, artifact and successful step evidence.
+    """
+    observed = timestamp(saved.get('observed_at'))
+    if (saved.get('kind') != 'github_validation' or saved.get('public_authority') is not False
+            or saved.get('schema_version') != 1 or observed > now
+            or saved.get('workflow_report_sha256') != sha(encode(report))):
+        raise ValueError('historical observation binding invalid')
+    if (report.get('repository') != REPOSITORY or report.get('observation_source') != 'github_rest'
+            or not 0 <= (observed - timestamp(report.get('observed_at'))).total_seconds() <= 1800):
+        raise ValueError('historical authenticated report missing/stale')
+    validation = saved['validation']
+    run, jobs, artifact = validation['run'], validation['jobs'], validation['artifact']
+    from scripts.collect_workflow_status import _run
+    normalized, faults = _run(run, observed)
+    workflow = report.get('workflows', {}).get(WORKFLOW, {})
+    if (faults or normalized is None or workflow.get('metadata_verified') is not True
+            or workflow.get('latest_attempt') != normalized['metadata']
+            or run.get('conclusion') != 'success' or validation.get('public_authority') is not False):
+        raise ValueError('historical workflow execution mismatch')
+    archive = base64.b64decode(validation.get('archive_base64', ''), validate=True)
+    if validation.get('archive_sha256') != sha(archive):
+        raise ValueError('historical archive binding mismatch')
+    actual = archive_members(artifact, archive, run)
+    entry = validation['entry']
+    digest = sha(encode(entry))
+    index = doc(actual.get(INDEX))
+    digests = index.get('history_sha256')
+    if (index.get('schema_version') != 1 or index.get('public_authority') is not False
+            or not isinstance(digests, list) or len(digests) > MAX_RECORDS
+            or any(not isinstance(d, str) or not re.fullmatch(r'[0-9a-f]{64}', d) for d in digests)
+            or len(set(digests)) != len(digests) or digest not in digests
+            or actual.get(HISTORY + '/' + digest + '.json') != encode(entry)):
+        raise ValueError('historical publication receipt chain missing')
+    for member in digests:
+        exact = actual.get(HISTORY + '/' + member + '.json')
+        if exact is None or sha(exact) != member:
+            raise ValueError('historical publication history chain mismatched')
+    sources = entry.get('sources') or {}
+    operating = sources.get(OPERATING)
+    raw = {name: actual.get(name) for name in (STATUS, POOL)}
+    if (entry.get('schema_version') != 1 or entry.get('kind') != 'collector_receipt' or entry.get('public_authority') is not False
+            or set(sources) != {STATUS, POOL, OPERATING} or validation.get('sources') != sources
+            or not isinstance(operating, str) or not re.fullmatch(r'[0-9a-f]{64}', operating)
+            or any(sources.get(name) != value for name, value in hashes(raw).items())):
+        raise ValueError('historical publication source bindings invalid')
+    collection, pool = doc(raw[STATUS]), doc(raw[POOL]) if raw[POOL] is not None else None
+    capture = collection.get('last_run') or {}
+    receipt = entry['receipt']
+    if collection_scope(capture) != DAILY_SCOPE:
+        return []
+    if (receipt.get('mode') not in {'candidates', 'no_change'} or receipt.get('schema_version') != 1
+            or receipt.get('source') != 'github_actions' or receipt.get('workflow') != WORKFLOW
+            or receipt.get('scope') != ('candidate_discovery' if receipt.get('mode') == 'candidates' else 'operating_capture')
+            or receipt.get('execution_id') != f"{run['id']}:{run['run_attempt']}:{receipt.get('job')}"
+            or receipt.get('public_authority') is not False or receipt.get('completed') is not True
+            or receipt.get('outcome') != 'success' or receipt.get('source_sha256') != sha(raw[STATUS])
+            or any(capture.get(k) != operating for k in ('operating_before_sha256', 'operating_after_sha256'))):
+        raise ValueError('historical candidate publication binding invalid')
+    fx = {'present': 'fx' in collection, 'value': collection.get('fx')}
+    if (entry.get('canonical_fx') != fx
+            or not re.fullmatch(r'[0-9a-f]{64}', entry.get('baseline_status_sha256') or '')):
+        raise ValueError('historical canonical FX preservation invalid')
+    mapped, _ = execution_steps(run, jobs, receipt, observed)
+    checked = validate(collection, outcome=mapped[COLLECTOR]['conclusion'],
+        execution_id=receipt['execution_id'], started_after=entry['started_after'], now=observed,
+        candidate_pool=pool, operating_sha256=operating)
+    if (checked['collection_valid'] != 'true' or checked['mode'] != receipt['mode']
+            or receipt['mode'] == 'candidates' and capture.get('candidate_pool_sha256') != sha(raw[POOL])):
+        raise ValueError('historical collection validation failed')
+    return [r for r in publication_receipts(raw, receipt, run, jobs, artifact, sha(archive), observed)
+            if r['scope'] == 'overall_workflow']
+
+
 def load_pipeline_inputs(root, *, now=None, workflow_report=None):
     root, observed = Path(root).absolute(), clock(now)
     errors, raw = [], {n: None for n in (STATUS, POOL, OPERATING)}
@@ -525,10 +605,12 @@ def load_pipeline_inputs(root, *, now=None, workflow_report=None):
         collection, pool = {}, None
     report = workflow_report if workflow_report is not None else optional(REPORT)
     receipts, verified, history = [], [], []
+    historical, historical_verified = [], []
     failure_scopes = {}
     try:
         from scripts.immutable_snapshot_store import load_snapshots
         history = [doc(raw) for raw in load_snapshots(root, 'data/agents/workflow_status_history').values()]
+        original_reports = {sha(encode(item)): item for item in history}
         # Preserve failed observations from immutable validation entries too.
         entries = histories(root, HISTORY)
         for e in entries:
@@ -546,6 +628,16 @@ def load_pipeline_inputs(root, *, now=None, workflow_report=None):
                         failure_scopes[(run['id'], run['run_attempt'])] = historical_failure_scope(e['validation'], observed)
                     except (ValueError, KeyError, TypeError, OSError):
                         pass
+                elif run.get('conclusion') == 'success':
+                    try:
+                        original = original_reports.get(e.get('workflow_report_sha256'))
+                        if original is None:
+                            raise ValueError('historical workflow report missing')
+                        publications = historical_publication_receipts(e, original, observed)
+                        historical.extend(publications)
+                        historical_verified.extend(receipt_sha256(r) for r in publications)
+                    except (ValueError, KeyError, TypeError, OSError, OverflowError) as error:
+                        errors.append('historical publication unverified: ' + str(error))
         derived = optional(DERIVED)
         if derived:
             name = derived.get('history_path', '')
@@ -569,7 +661,8 @@ def load_pipeline_inputs(root, *, now=None, workflow_report=None):
     health = evaluate_pipeline_health(collection, report, now=observed, collection_status_bytes=raw[STATUS],
         candidate_pool=pool, candidate_pool_sha256=sha(raw[POOL]) if raw[POOL] else None,
         operating_sha256=sha(raw[OPERATING]) if raw[OPERATING] else None, shortlist_price=optional(SHORTLIST),
-        receipts=receipts, validated_receipt_sha256=verified, workflow_history=history, validated_failure_scopes=failure_scopes)
+        receipts=receipts, validated_receipt_sha256=verified, workflow_history=history, validated_failure_scopes=failure_scopes,
+        historical_publications=historical, validated_historical_publication_sha256=historical_verified)
     health['input_errors'] = errors
     health['operating_staleness'] = assess_collection(collection, now=observed)
     return health
