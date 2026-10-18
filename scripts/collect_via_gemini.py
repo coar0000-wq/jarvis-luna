@@ -49,8 +49,7 @@ ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/interactions"
 # 여섯 번 모두 0건이었는데 continue-on-error 라 아무도 몰랐다.
 MODEL = ""
 
-sys.path.insert(0, str(Path(__file__).resolve().parent / "daiso"))
-from build_beauty_queue import pick_model  # noqa: E402
+from gemini_listing_copy import API_ROOT, http_json
 TIMEOUT = 120
 RETRIES = 3
 
@@ -121,15 +120,22 @@ def call(key: str, url: str) -> tuple[list, str, str]:
 
     # 응답에서 텍스트와 url_context 상태를 뽑는다
     text, fetch_status = "", ""
+    fetch_failed = False
     for step in res.get("steps", []):
         st = step.get("type")
         if st == "url_context_result":
+            fetch_failed = fetch_failed or bool(step.get("is_error")) or any(
+                item.get("status") in {"error", "paywall", "unsafe"}
+                for item in step.get("result", []) if isinstance(item, dict))
             fetch_status = json.dumps(
                 {k: v for k, v in step.items() if k != "type"}, ensure_ascii=False)[:300]
         elif st == "model_output":
             for cb in step.get("content", []):
                 if cb.get("type") == "text":
                     text += cb.get("text", "")
+
+    if fetch_failed:
+        return [], "URL context retrieval failed or was blocked", fetch_status
 
     if not text:
         return [], f"모델 출력 없음. url_context 상태: {fetch_status or '없음'}", fetch_status
@@ -173,19 +179,63 @@ def clean(arr: list, target: dict) -> list[dict]:
     return rows[:40]
 
 
+def discover_model(key: str) -> tuple[str, str]:
+    """One bounded ListModels request; listing-copy overrides do not apply here."""
+    data = http_json(f"{API_ROOT}/models?key={key}&pageSize=200")
+    usable = [m["name"] for m in data.get("models", [])
+              if "generateContent" in (m.get("supportedGenerationMethods") or [])]
+    if not usable:
+        raise RuntimeError("No generateContent model available")
+    for pattern in (r"flash-lite", r"flash", r"pro"):
+        for name in sorted(usable, reverse=True):
+            if re.search(pattern, name) and "vision" not in name and "embedding" not in name:
+                return name.removeprefix("models/"), "ListModels auto-selection"
+    return usable[0].removeprefix("models/"), "ListModels first available"
+
+
+def pick_model(key: str) -> tuple[str, str]:
+    """Keep the URL collector override separate from listing-copy configuration."""
+    forced = os.environ.get("GEMINI_URL_MODEL", "").strip()
+    if forced:
+        return forced, "GEMINI_URL_MODEL environment override"
+    return discover_model(key)
+
+
 def main() -> int:
     global MODEL
     key = os.environ.get("GEMINI_API_KEY", "").strip()
-    if key and not MODEL:
-        MODEL, how = pick_model(key)
-        print(f"  모델: {MODEL or '(없음)'} — {how}")
+    setup_error = ""
     if not key:
-        print("GEMINI_API_KEY 가 없습니다.")
-        return 1
+        setup_error = "GEMINI_API_KEY is missing"
+    elif not MODEL:
+        try:
+            MODEL, how = pick_model(key)
+            print(f"  모델: {MODEL or '(없음)'} — {how}")
+            if not MODEL:
+                setup_error = "No usable model selected"
+        except Exception as exc:
+            # Do not expose provider URLs (which may contain credentials).
+            setup_error = f"Model discovery failed: {type(exc).__name__}"
+
+    # Keep historical observations separate from this attempt's live channels.
+    # A credential/provider failure must not erase previously collected evidence.
+    try:
+        previous = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    except (OSError, ValueError):
+        previous = {}
+    if not isinstance(previous, dict):
+        previous = {}
+    history = previous.get("last_successful_channels") or {}
+    history = dict(history) if isinstance(history, dict) else {}
+    previous_channels = previous.get("channels")
+    previous_channels = previous_channels if isinstance(previous_channels, dict) else {}
+    for channel_key, channel in previous_channels.items():
+        if isinstance(channel, dict) and channel.get("status") == "ok" and channel.get("products"):
+            history[channel_key] = {"observed_at": previous.get("generated_at"), **channel}
 
     channels, total = {}, 0
     for t in TARGETS:
-        arr, err, status = call(key, t["url"])
+        arr, err, status = ([], setup_error, "") if setup_error else call(key, t["url"])
         rows = clean(arr, t) if not err else []
         channels[t["key"]] = {
             "label": t["label"],
@@ -199,7 +249,8 @@ def main() -> int:
         }
         total += len(rows)
         print(f"[{t['label']:14s}] {len(rows):2d}건  {err[:70] if err else 'OK'}")
-        time.sleep(t["delay"])
+        if not setup_error:
+            time.sleep(t["delay"])
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
@@ -212,10 +263,11 @@ def main() -> int:
                        "가격 정책 계산에는 사용하지 않는다."),
         "total": total,
         "channels": channels,
+        "last_successful_channels": history,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(f"\n총 {total}건 -> {OUT.relative_to(ROOT)}")
-    return 0 if total else 1
+    return 0 if all(c["status"] == "ok" for c in channels.values()) else 1
 
 
 if __name__ == "__main__":
