@@ -291,6 +291,10 @@ def insight_rows(doc: dict) -> list[dict]:
 
 def main() -> int:
     pools = feed_rows(ROOT)
+    # Preserve the document review clock from integrity-checked handoffs, never
+    # from this generator's execution time or stale previous output metadata.
+    document_review_dates = [iso_date(row.get('date', '')) for row in pools]
+    document_reviewed_at = max((date for date in document_review_dates if date), default=None)
     rs = load(DATA / "knowledge" / "real_sources.json")
     for key, blk in ((rs or {}).get("sources") or {}).items():
         for it in (blk.get("items") or []):
@@ -453,6 +457,7 @@ def main() -> int:
 
     payload = {
         "generated_at": now(),
+        "document_handoffs_reviewed_at": document_reviewed_at,
         "generator": "scripts/build_team_feeds.py",
         "규칙": ("이미 모은 자료를 키워드로 팀에 배정한다. 다시 수집하지 않는다. "
                "법률팀만 FDA 소스를 새로 받는다."),

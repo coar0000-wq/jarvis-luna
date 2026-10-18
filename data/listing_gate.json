@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-18T13:25:10.717444+00:00",
+  "generated_at": "2026-10-18T15:24:21.755897+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -10,7 +10,7 @@
       "data/daiso_real/daiso_us_labels.json": "12f136dee44aaee875cf304835cc4f54d124852445ddd8586df995548d6f3988",
       "data/pricing_model.json": "96dbced1988b508f0dbf1b8bde1fd966af7f62a1db86794dfc9854b67a98e126",
       "data/legal_products.json": "1a711e8b3ba93f083e50936244fc4faa0e0ecdbc7fb87e64ce0e1f346ebfd307",
-      "data/daiso_real/shopify_s_recommendations.json": "1a6152a61b1c303d5c505ef8385da83ace7a31c1f02aec6c5587948c8247e39b",
+      "data/daiso_real/shopify_s_recommendations.json": "65a6cef449e01107dd85d24442de82967463b850c106bfd7a09d11667921d23f",
       "data/shopify_listing_copy.json": "d52d15604a2f41be98676c0dd02269be37f549a71a10fc683410d2b10a49ed2a",
       "data/shopify_shortlist.json": "ec6067c43de5311e1164ec8038ca7290666d991cdbe772cd3598461a8fdb6ea2",
       "data/legal_full.json": "4d1102e1c9a323b4872784a88a28c9137e6d706a6ea90904178fa2811f115fd5",
@@ -22,9 +22,10 @@
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
       "config/daiso_commerce_strategy.json": "fc07b58da6d6b8a5fd1d0a5dde464fcd65a136df20e17131de17bc25fd5967f2",
       "masked/manufacturer_safety_record": "d77fd639a012be272427ae7a18c79b6423d5f677771a7a3cbd641f24450daa77",
+      "masked/product_accuracy_evidence": "42cf80d3371b0c891942818bc451aa06c75a1e921beaf697f3c2295d3e98d088",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "c2d4fa6c15d976c3d2e2b0c64a55a18f75c6398b5e3538a85bc42e7d20e59099"
+    "recommendations_sha256": "0c4c64523107805836a6e2e4b6ad9c23caa8c7b8e9af4be1b8485d24f9ac4955"
   },
   "total": 7,
   "agent_ready": 0,
@@ -89,6 +90,31 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "copy": {},
       "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1049276",
+        "source_identity_sha256": "c3798d13f5c142e81cd0e8f000343674f3f4d77ae998dc112fd02ef43c8d2b52",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
       "gosi": {
         "volume": "2ml",
         "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
@@ -135,6 +161,7 @@
       "public_blocked_by": [
         "copy",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -157,7 +184,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -176,6 +203,31 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
       "copy": {},
       "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1055167",
+        "source_identity_sha256": "9556deeb7547428569ef893e49a22dfcde07b1c8e698949f76107778b91a2bc3",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
       "gosi": {
         "volume": "30ml",
         "maker": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
@@ -222,6 +274,7 @@
       "public_blocked_by": [
         "copy",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -244,7 +297,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -263,6 +316,31 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "copy": {},
       "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1049275",
+        "source_identity_sha256": "932e1f0ba72a638c9c01c330e2681e0a8beaeefe9fcb620dbaa1da1b5dbf77c9",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
       "gosi": {
         "volume": "2ml",
         "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
@@ -314,6 +392,7 @@
         "copy",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -337,7 +416,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -357,6 +436,31 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "copy": {},
       "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1067498",
+        "source_identity_sha256": "12dd6ff685d5315d2d3576d7874fc043da382174a32fe2e6d4b2d2ba9f5b97aa",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
       "gosi": {
         "volume": "50ml",
         "maker": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
@@ -403,6 +507,7 @@
       "public_blocked_by": [
         "copy",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "legal_full"
       ],
       "legal_full_complete": false,
@@ -425,7 +530,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -444,6 +549,31 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
       "copy": {},
       "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1068721",
+        "source_identity_sha256": "a19d37118c633f6016c7b2487e41614792e7d8ab7da22527dc53970520c249d7",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
       "gosi": {
         "volume": "",
         "maker": "",
@@ -501,6 +631,7 @@
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -525,7 +656,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -545,6 +676,31 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
       "copy": {},
       "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1074979",
+        "source_identity_sha256": "c97207026d8f9125fb87f3652f38fc4dc5c44e0929d2a6fb02b9081d655f4779",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
       "gosi": {
         "volume": "",
         "maker": "",
@@ -602,6 +758,7 @@
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -626,7 +783,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
@@ -646,6 +803,31 @@
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
       "copy": {},
       "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1072800",
+        "source_identity_sha256": "03e3fdf07641ac6f16d0fc5aca51509da0adaa79460fe91519e1b2c2d5acfc42",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
       "gosi": {
         "volume": "",
         "maker": "",
@@ -703,6 +885,7 @@
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -727,7 +910,7 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],

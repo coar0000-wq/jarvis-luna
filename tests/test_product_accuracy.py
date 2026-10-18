@@ -1,5 +1,6 @@
 """Synthetic local fixtures only. No real product evidence or external writes."""
 import copy
+import csv
 from datetime import datetime, timedelta, timezone
 import hashlib
 import io
@@ -9,7 +10,7 @@ import sys
 import tempfile
 import unittest
 import subprocess
-from contextlib import redirect_stdout
+from contextlib import ExitStack, redirect_stdout
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -18,6 +19,7 @@ import gemini_listing_copy as gemini
 import build_listing_copy_local as local
 import gate_signature
 import build_shopify_import_csv as csv_builder
+import validate_commerce_architecture as architecture
 
 NOW = datetime(2026, 10, 18, 12, tzinfo=timezone.utc)
 PRODUCT = {"pd_no": "fixture-1", "name": "Fixture 세럼 30 ml", "brand_english": "Fixture", "net_contents": "30 ml"}
@@ -229,6 +231,86 @@ class ProductAccuracyTests(unittest.TestCase):
         result = json.loads(report.read_text())
         self.assertEqual(result["rows"], 0)
         self.assertEqual(result["skipped"][0]["reason"], "product_accuracy_copy_review_required")
+
+    def test_import_csv_rechecks_saved_ok_and_expired_or_revoked_evidence(self):
+        self.install()
+        data = self.root / "data"
+        paths = {key: data / (key.lower() + ".json") for key in
+                 ("PRODUCT_MASTER", "GOSI", "LABELS", "PRICING", "LEGAL", "RECOMMENDATIONS")}
+        self.put("data/recommendations.json", {"recommendations": [PRODUCT]})
+        price = self.put("price.json", {"market_benchmark": {"p25": 15},
+            "scenarios": {csv_builder.BUNDLE: [{"pd_no": PRODUCT["pd_no"],
+                                               "landed_cost_usd": 2, "breakeven_usd": 3}]}})
+        gate_row = {"pd_no": PRODUCT["pd_no"], "name": PRODUCT["name"], "ready": True,
+                    "us_label": {"net_contents": "30 ml"}}
+        neutral = local.local_copy(PRODUCT["name"], gate_row)
+        supported = {**neutral, "description_html": "<p>Provides 24-hour hydration.</p>"}
+        source = data / "shopify_listing_copy.json"
+        report = self.root / "report.json"
+        output = self.root / "out.csv"
+        with ExitStack() as stack, redirect_stdout(io.StringIO()):
+            stack.enter_context(patch.multiple(gate_signature, DATA=data,
+                COMMERCE_STRATEGY=self.root / "policy.json", **paths))
+            stack.enter_context(patch.multiple(csv_builder, ROOT=self.root, COPY=source, PRICING=price,
+                STATUS=self.root / "missing.json", OUT=output, REPORT=report))
+            clock = stack.enter_context(patch.object(accuracy, "datetime", wraps=datetime))
+            clock.now.return_value = NOW
+
+            def save(candidate, status="ok", signed=True):
+                self.put("data/shopify_listing_copy.json", {"items": [{"pd_no": PRODUCT["pd_no"],
+                    "name_ko": PRODUCT["name"], "copy_status": status, "copy": candidate}]})
+                self.put("data/listing_gate.json", {"items": [gate_row],
+                    "agent_input_signature": gate_signature.agent_input_signature([PRODUCT]) if signed else {}})
+
+            def run(expected_rows, reason=None):
+                before = source.read_bytes()
+                self.assertEqual(csv_builder.main(), 0)
+                result = json.loads(report.read_text())
+                self.assertEqual(result["rows"], expected_rows)
+                self.assertEqual(source.read_bytes(), before, "human copy must not be overwritten")
+                if reason:
+                    self.assertEqual(result["skipped"][0]["reason"], reason)
+                if expected_rows:
+                    with output.open() as f:
+                        row = next(csv.DictReader(f))
+                    self.assertEqual((row["Status"], row["Published on online store"]), ("draft", "false"))
+
+            save(supported)
+            run(1)
+            # A valid signature alone is not proof that this copy is supported.
+            save({**neutral, "description_html": "<p>Guaranteed medical results.</p>"})
+            run(0, "product_accuracy_copy_review_required")
+            save(supported, signed=False)
+            run(0, "listing_gate_missing_or_stale")
+            save(supported)
+            clock.now.return_value = NOW + timedelta(seconds=accuracy.MAX_AGE_SECONDS + 1)
+            run(0, "listing_gate_missing_or_stale")
+            # Even a newly signed gate cannot make expired claims valid again.
+            save(supported)
+            run(0, "product_accuracy_copy_review_required")
+            clock.now.return_value = NOW
+            save(supported)
+            (self.root / accuracy.EVIDENCE).unlink()
+            run(0, "listing_gate_missing_or_stale")
+            save(supported)
+            run(0, "product_accuracy_copy_review_required")
+
+    def test_public_gate_contract_keeps_owner_hold_when_draft_and_legal_are_complete(self):
+        gate = {"public_ready": 0, "items": [{"pd_no": "1", "ready": True,
+            "public_ready": False, "blocked_by": [], "public_blocked_by": [accuracy.HOLD_REASON]}]}
+        legal = {"items": {"1": {"complete": True}}}
+        architecture.validate_public_gate(gate, legal)
+        for field, value in (("public_ready", True), ("public_blocked_by", []),
+                             ("blocked_by", ["copy"])):
+            mutated = copy.deepcopy(gate)
+            mutated["items"][0][field] = value
+            with self.subTest(field=field), self.assertRaises(AssertionError):
+                architecture.validate_public_gate(mutated, legal)
+        for count in (1, True, None):
+            with self.subTest(count=count), self.assertRaises(AssertionError):
+                architecture.validate_public_gate({**gate, "public_ready": count}, legal)
+        with self.assertRaises(AssertionError):
+            architecture.validate_public_gate(gate, {"items": {}})
 
     def test_gemini_main_uses_neutral_draft_after_unsupported_model_output(self):
         src = self.put("source.json", {"recommendations": [PRODUCT]})

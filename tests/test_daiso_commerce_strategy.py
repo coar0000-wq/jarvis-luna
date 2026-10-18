@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import build_listing_gate as gate  # noqa: E402
 import gate_signature  # noqa: E402
 import pricing_model as pm  # noqa: E402
+import validate_commerce_architecture as architecture  # noqa: E402
 
 
 SYNTHETIC_COVERAGE = object()
@@ -274,6 +275,7 @@ class ListingGatePriceTests(unittest.TestCase):
         self.assertEqual(doc["price_policy"]["products_with_profit_warnings"], 1)
         self.assertFalse(item["public_ready"])
         self.assertIn(gate.product_accuracy.HOLD_REASON, item["public_blocked_by"])
+        architecture.validate_public_gate(doc, {"items": {"1": {"complete": True}}})
 
     def test_saved_ok_cannot_bypass_current_copy_accuracy_review(self):
         candidate = gate.local_copy_builder.local_copy("테스트 세럼 50 ml", {"us_label": {"net_contents": "50 ml"}})
