@@ -289,7 +289,15 @@ BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
     'data/daiso_real/candidate_pool.json','data/agents/daiso_pipeline_receipts.json'))
 
 
+CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
+
+
 def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None):
+    # 2026-10-18: the runtime command regenerates cumulative history on the merged tree, appending one run
+    # against the remote last_snapshot. Merging two independently appended histories double-counts totals
+    # and conflicts on last_snapshot.recorded_at (Daiso 39075747249). Keep remote; regeneration appends.
+    if name == CUMULATIVE_HISTORY and remote is not None and remote != base and local != base:
+        return remote
     # Exact immutable history bytes must never be reformatted, merged or pruned.
     # Their filenames bind SHA256 of the original snapshots, not parsed JSON.
     if name.startswith(IMMUTABLE_HISTORY_PREFIXES):

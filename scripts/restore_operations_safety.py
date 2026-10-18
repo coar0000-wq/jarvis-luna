@@ -456,8 +456,14 @@ def _latest(root, fetch_json, current_run_id):
             continue
         if run.get('id') == 37299237632:
             _incident_run(run, _ABORT_RUN)
-        if run.get('path') in WORKFLOWS and run.get('head_branch') == 'main' and run.get('status') != 'completed':
+        # 2026-10-18: only a producer that is actually executing can race this restore. A run still
+        # queued/pending/waiting behind main-publish has started no job (Daiso 39075747249 was blocked by
+        # the pending run queued after it, and the artifactless result then broke the chain).
+        if run.get('path') in WORKFLOWS and run.get('head_branch') == 'main' and run.get('status') not in (
+                'completed', 'queued', 'pending', 'waiting', 'requested'):
             raise Blocked('producer_run_not_completed')
+        if run.get('status') != 'completed':
+            continue
         if run.get('head_branch') != 'main' or (run.get('head_repository') or {}).get('full_name') != REPOSITORY or run.get('status') != 'completed':
             continue
         if type(run.get('id')) is not int or run['id'] <= 0 or type(run.get('run_attempt')) is not int or run['run_attempt'] <= 0:

@@ -208,6 +208,13 @@ class VolatilePolicyTests(unittest.TestCase):
         with self.assertRaises(pub.PublishError):
             self.apply('data/agents/core_run_results.json',old,local,remote)
 
+    def test_cumulative_history_keeps_remote_for_regeneration(self):
+        # 2026-10-18: 두 실행이 각자 덧붙인 누적 이력은 합치지 않는다(합계 중복). 원격을 두고 재생성이 1회 덧붙인다.
+        old={'totals':{'a':1},'last_snapshot':{'a':1,'recorded_at':'t0'},'runs':[{'at':'t0'}]}
+        local={'totals':{'a':2},'last_snapshot':{'a':2,'recorded_at':'t1'},'runs':[{'at':'t0'},{'at':'t1'}]}
+        remote={'totals':{'a':3},'last_snapshot':{'a':3,'recorded_at':'t2'},'runs':[{'at':'t0'},{'at':'t2'}]}
+        self.assertEqual(self.apply('data/knowledge/cumulative_history.json',old,local,remote),remote)
+
     def test_last_good_records_cannot_be_dropped_with_volatile_waiver(self):
         old={'last_success':{'execution_id':'good'},'last_attempt':{'old':1}}
         new={'last_attempt':{'status':'no_change'}}

@@ -700,4 +700,30 @@ class StaleQueuedCheckoutTests(unittest.TestCase):
         self.assertEqual(str(caught.exception), 'stale_queued_checkout_operations_advanced')
 
 
+class QueuedProducerTests(unittest.TestCase):
+    """2026-10-18: queued/pending producers have started nothing and must not block restore."""
+
+    def row(self, rid, status):
+        return {'id': rid, 'run_attempt': 1, 'head_sha': 'a' * 40, 'head_branch': 'main', 'status': status,
+                'conclusion': None if status != 'completed' else 'success',
+                'path': '.github/workflows/JARVIS-Core-Automation.yml', 'head_repository': {'full_name': restore.REPOSITORY}}
+
+    def latest(self, runs):
+        fetch = lambda url: {'workflow_runs': runs} if url.endswith('runs?per_page=100') else {'total_count': 1, 'jobs': [{}]}
+        git = lambda root, *a: subprocess.CompletedProcess(a, 0, b"name: operations-safety-x\n", b'')
+        with patch.object(restore, '_git', git):
+            return restore._latest(Path('.'), fetch, 999)
+
+    def test_pending_or_queued_run_is_ignored(self):
+        for status in ('pending', 'queued', 'waiting', 'requested'):
+            with self.subTest(status=status):
+                run, _ = self.latest([self.row(30, status), self.row(20, 'completed')])
+                self.assertEqual(run['id'], 20)
+
+    def test_executing_run_still_blocks(self):
+        with self.assertRaises(restore.Blocked):
+            self.latest([self.row(30, 'in_progress'), self.row(20, 'completed')])
+
+
 if __name__ == '__main__': unittest.main()
+
