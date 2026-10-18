@@ -48,49 +48,6 @@
       "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted."
     },
     {
-      "path": "data/serpapi_market.json",
-      "base_sha256": "a59bcdf102508723e14495ccd01c9161099b437141912112f4532999095c87af",
-      "ids": [
-        "1027327",
-        "1049285",
-        "1053482",
-        "1059834",
-        "1061918",
-        "1072554",
-        "1075857"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/youtube_serpapi.json",
-      "base_sha256": "8c70d89c5c09bd35435c13f3974c63cb7b9d3885acac334f9a39a9e83e158e1d",
-      "ids": [
-        "https://www.youtube.com/watch?v=-Zd4LFYd81o",
-        "https://www.youtube.com/watch?v=8X-WQ0dmp2w",
-        "https://www.youtube.com/watch?v=8ZNbjcKRWN4",
-        "https://www.youtube.com/watch?v=B7z0vcKS67k",
-        "https://www.youtube.com/watch?v=HhEYO5ug0s4",
-        "https://www.youtube.com/watch?v=N9Jn4kiXpYw",
-        "https://www.youtube.com/watch?v=NHyp7hbxoOQ",
-        "https://www.youtube.com/watch?v=RTrRKB0iXwQ",
-        "https://www.youtube.com/watch?v=ReYEYoLsppk",
-        "https://www.youtube.com/watch?v=Sb9IF7wBnus",
-        "https://www.youtube.com/watch?v=TrW9Unuosxw",
-        "https://www.youtube.com/watch?v=Wrkw9HjOP4w",
-        "https://www.youtube.com/watch?v=Ygon6LfntkY",
-        "https://www.youtube.com/watch?v=YzTg8c5DnWI",
-        "https://www.youtube.com/watch?v=_-y0NZ30VKE",
-        "https://www.youtube.com/watch?v=duhK4POgaCg",
-        "https://www.youtube.com/watch?v=pLhQOYMGa88",
-        "https://www.youtube.com/watch?v=u8MT_KBxgi0"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/knowledge/real_sources.json",
       "base_sha256": "0ac814153dd3a0974b4c211e13891775e6ec85a503a350625e65d0c1a1c1b2a5",
       "ids": [
@@ -354,6 +311,42 @@
         "https://www.ulta.com/p/niacinamide-brightening-toner-pimprod2023929",
         "https://www.ulta.com/p/retinal-all-renewing-serum-pimprod2036439",
         "https://www.ulta.com/p/toleriane-double-repair-face-moisturizer-with-niacinamide-xlsImpprod16011007"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/serpapi_market.json",
+      "base_sha256": "44c57a081db0cdb558079520d377a65721d15e89938bbcb22bfef0565d4c5400",
+      "ids": [
+        "1018038",
+        "1045431",
+        "1083567"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/youtube_serpapi.json",
+      "base_sha256": "5c46e8705035132e582dd798741d6d1e56b2ba1566af83470889091ce426feab",
+      "ids": [
+        "https://www.youtube.com/watch?v=B6pnDVvFQxU",
+        "https://www.youtube.com/watch?v=CBUF5V4iNgU",
+        "https://www.youtube.com/watch?v=CPc4lB33RvU",
+        "https://www.youtube.com/watch?v=Dh5uNMvlSug",
+        "https://www.youtube.com/watch?v=JTel4hx9sRY",
+        "https://www.youtube.com/watch?v=KctxHA7A-jc",
+        "https://www.youtube.com/watch?v=R7lnuFxcCIw",
+        "https://www.youtube.com/watch?v=UKs338dQzbY",
+        "https://www.youtube.com/watch?v=c0Dg8NMWzMQ",
+        "https://www.youtube.com/watch?v=dd3cQHCRprQ",
+        "https://www.youtube.com/watch?v=fHeNj-yuYxU",
+        "https://www.youtube.com/watch?v=gc1hN9tjZ5s",
+        "https://www.youtube.com/watch?v=jUxSAGCaJIU",
+        "https://www.youtube.com/watch?v=uorQJ_ucDhg",
+        "https://www.youtube.com/watch?v=wDV5SH16QCI"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

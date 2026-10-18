@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-10-17T12:15:13.697554+00:00",
+  "generated_at": "2026-10-18T03:39:17.876324+00:00",
   "generator": "scripts/collect_serpapi_market.py",
   "plan": "SerpApi free 250 searches/month, 50/hour (2026-09-05 확인)",
   "정책": "월 상한 200 회. 넘으면 호출하지 않고 사유만 남긴다. 주 1회만 실행한다.",
   "usage": {
     "month": "2026-10",
-    "used": 37,
+    "used": 51,
     "cap": 200,
-    "spent_this_run": 16
+    "spent_this_run": 9
   },
   "prices": {
     "status": "ok",
     "reason": "",
-    "count": 10,
+    "count": 9,
     "failures": [
       {
         "pd_no": "1049275",
         "query": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-        "reason": "TimeoutError: The read operation timed out"
+        "reason": "Google hasn't returned any results for this query."
       },
       {
         "pd_no": "1074979",
         "query": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
-        "reason": "TimeoutError: The read operation timed out"
+        "reason": "Google hasn't returned any results for this query."
       },
       {
-        "pd_no": "1083567",
-        "query": "[만데빌라]바이플라워 글로우 립스틱 by 네이처리퍼블릭",
-        "reason": "TimeoutError: The read operation timed out"
+        "pd_no": "1045431",
+        "query": "태그 슬림브로우 펜슬 2호 애쉬브라운",
+        "reason": "Google hasn't returned any results for this query."
       }
     ],
     "items": [
@@ -35,10 +35,10 @@
         "pd_no": "1049276",
         "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
         "query": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-        "n": 4,
-        "min_usd": 24.99,
-        "median_usd": 27.74,
-        "max_usd": 33.99,
+        "n": 7,
+        "min_usd": 3.91,
+        "median_usd": 24.99,
+        "max_usd": 55.99,
         "engine": "google_shopping",
         "cached": false
       },
@@ -46,10 +46,10 @@
         "pd_no": "1055167",
         "name": "본셉 레티놀 500 IU 세럼 30 ml",
         "query": "본셉 레티놀 500 IU 세럼 30 ml",
-        "n": 2,
-        "min_usd": 7.48,
-        "median_usd": 18.24,
-        "max_usd": 29.0,
+        "n": 12,
+        "min_usd": 10.99,
+        "median_usd": 20.17,
+        "max_usd": 150.0,
         "engine": "google_shopping",
         "cached": false
       },
@@ -57,10 +57,10 @@
         "pd_no": "1067498",
         "name": "[영양광채]VT PDRN 광채 크림 50 ml",
         "query": "[영양광채]VT PDRN 광채 크림 50 ml",
-        "n": 13,
-        "min_usd": 6.54,
-        "median_usd": 20.99,
-        "max_usd": 34.95,
+        "n": 20,
+        "min_usd": 3.37,
+        "median_usd": 33.38,
+        "max_usd": 88.0,
         "engine": "google_shopping",
         "cached": false
       },
@@ -79,58 +79,46 @@
         "pd_no": "1072800",
         "name": "줌 바이 정샘물 세범다운 쿠션",
         "query": "줌 바이 정샘물 세범다운 쿠션",
-        "n": 3,
-        "min_usd": 7.48,
-        "median_usd": 37.5,
-        "max_usd": 85.0,
+        "n": 19,
+        "min_usd": 2.99,
+        "median_usd": 26.99,
+        "max_usd": 88.0,
         "engine": "google_shopping",
         "cached": false
+      },
+      {
+        "pd_no": "1035214",
+        "name": "오릭스 모이스처 립밤 4.8 g 무향",
+        "query": "오릭스 모이스처 립밤 4.8 g 무향",
+        "n": 18,
+        "min_usd": 9.99,
+        "median_usd": 19.99,
+        "max_usd": 288.53,
+        "engine": "google_shopping",
+        "cached": false,
+        "source_scope": "makeup_ranking_fallback",
+        "ranking_display_rank": 1
       },
       {
         "pd_no": "1045432",
         "name": "태그 슬림 브로우 펜슬 라이트 브라운",
         "query": "태그 슬림 브로우 펜슬 라이트 브라운",
-        "n": 16,
+        "n": 18,
         "min_usd": 3.49,
-        "median_usd": 58.5,
-        "max_usd": 470.0,
+        "median_usd": 36.0,
+        "max_usd": 500.0,
         "engine": "google_shopping",
         "cached": false,
         "source_scope": "makeup_ranking_fallback",
         "ranking_display_rank": 3
       },
       {
-        "pd_no": "1018038",
-        "name": "러블리 메이크업 볼륨 마스카라",
-        "query": "러블리 메이크업 볼륨 마스카라",
-        "n": 20,
-        "min_usd": 12.37,
-        "median_usd": 19.0,
-        "max_usd": 49.93,
-        "engine": "google_shopping",
-        "cached": false,
-        "source_scope": "makeup_ranking_fallback",
-        "ranking_display_rank": 5
-      },
-      {
-        "pd_no": "1045431",
-        "name": "Taeg Slim Brow Pencil 2 Ash Brown",
-        "query": "Taeg Slim Brow Pencil 2 Ash Brown",
-        "n": 20,
-        "min_usd": 5.0,
-        "median_usd": 15.5,
-        "max_usd": 199.99,
-        "engine": "google_shopping",
-        "cached": false,
-        "source_scope": "registry_draft_missing_price"
-      },
-      {
         "pd_no": "1063230",
         "name": "Dove Sensitive Bar 90 g",
         "query": "Dove Sensitive Bar 90 g",
         "n": 20,
-        "min_usd": 4.5,
-        "median_usd": 14.5,
+        "min_usd": 5.7,
+        "median_usd": 15.98,
         "max_usd": 453.11,
         "engine": "google_shopping",
         "cached": false,
@@ -140,15 +128,16 @@
         "pd_no": "1084687",
         "name": "Dr.CPU+ Lacto Exosome Glutathione Capsule Cream",
         "query": "Dr.CPU+ Lacto Exosome Glutathione Capsule Cream",
-        "n": 16,
-        "min_usd": 8.99,
-        "median_usd": 25.78,
-        "max_usd": 140.78,
+        "n": 15,
+        "min_usd": 16.0,
+        "median_usd": 25.66,
+        "max_usd": 103.0,
         "engine": "google_shopping",
         "cached": false,
         "source_scope": "registry_draft_missing_price"
       }
-    ]
+    ],
+    "collected_at": "2026-10-18T03:39:17.876324+00:00"
   },
   "trends": {
     "status": "ok",
@@ -222,6 +211,7 @@
         "window": "today 12-m",
         "cached": false
       }
-    ]
+    ],
+    "collected_at": "2026-10-17T12:15:13.697554+00:00"
   }
 }
