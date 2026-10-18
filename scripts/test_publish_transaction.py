@@ -34,6 +34,19 @@ class FixtureTransaction(pub.Transaction):
 
 
 class MergeTests(unittest.TestCase):
+    def test_disjoint_manifest_updates_preserve_exact_records_and_removals(self):
+        a = {'path': 'data/a.json', 'base_sha256': 'old', 'reason': 'old'}
+        newer = dict(a, base_sha256='new')
+        c = {'path': 'data/c.json', 'base_sha256': 'c', 'reason': 'replacement'}
+        def raw(records):
+            return json.dumps({'schema_version': 1, 'deletions': records}).encode()
+        result = pub.overlay('data/publish_deletions.json', raw([a]), raw([newer]), raw([a,c]), POLICY, {})
+        self.assertEqual(json.loads(result)['deletions'], [newer,c])
+        result = pub.overlay('data/publish_deletions.json', raw([a]), raw([]), raw([a,c]), POLICY, {})
+        self.assertEqual(json.loads(result)['deletions'], [c])
+        with self.assertRaises(pub.PublishError):
+            pub.overlay('data/publish_deletions.json', raw([a]), raw([newer]), raw([dict(a,reason='revoked')]), POLICY, {})
+
     def test_candidate_history_exact_bytes_and_shard_contract(self):
         value = b'{"items": {}}\n'
         digest = pub.sha(value)

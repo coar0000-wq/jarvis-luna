@@ -293,6 +293,30 @@ CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
 
 
 def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None):
+    if name == 'data/publish_deletions.json' and all(x is not None for x in (base, local, remote)) and remote != base and local != base:
+        docs = [parse_json(x) for x in (base, local, remote)]
+        grouped = []
+        for doc in docs:
+            groups = {}
+            if not isinstance(doc.get('deletions'), list):
+                raise PublishError('malformed deletion manifest')
+            for record in doc['deletions']:
+                if not isinstance(record, dict) or not isinstance(record.get('path'), str):
+                    raise PublishError('malformed deletion manifest record')
+                groups.setdefault(record['path'], []).append(record)
+            grouped.append(groups)
+        b, l, r = grouped
+        records = []
+        for path in sorted(set(b) | set(l) | set(r)):
+            bv, lv, rv = b.get(path, []), l.get(path, []), r.get(path, [])
+            if lv != bv and rv != bv and lv != rv:
+                raise PublishError(f'competing deletion authorization edits: {path}')
+            records.extend(rv if lv == bv else lv)
+        # Preserve exact records, including removals; never union conflicting approvals.
+        meta = [{k: v for k, v in d.items() if k != 'deletions'} for d in docs]
+        merged = merge_json(*meta, policy, where=name)
+        merged['deletions'] = records
+        return (json.dumps(merged, ensure_ascii=False, indent=2) + '\n').encode('utf-8')
     # 2026-10-18: the runtime command regenerates cumulative history on the merged tree, appending one run
     # against the remote last_snapshot. Merging two independently appended histories double-counts totals
     # and conflicts on last_snapshot.recorded_at (Daiso 39075747249). Keep remote; regeneration appends.
