@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T09:09:55.385060+00:00",
+  "generated_at": "2026-10-18T20:18:36.155832+00:00",
   "current_s_count": 7,
-  "filled": 0,
+  "filled": 1,
   "replaced": 0,
   "complete": 24,
   "items": {
@@ -283,7 +283,6 @@
     },
     "1061918": {
       "missing_fields": [
-        "net_contents",
         "ingredients_inci"
       ],
       "unresolved_ingredients": [

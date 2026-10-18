@@ -223,6 +223,82 @@
       "delete_file": false
     },
     {
+      "path": "data/daiso_real/us_label_sync_report.json",
+      "base_sha256": "abe1aa00c4baeed8fba3e1d1bd2fca12c4de1ca09a86f7428cb6d792626099ff",
+      "ids": [
+        "net_contents"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/gosi.json",
+      "base_sha256": "a9f22cb98b8e78792ff0a0b4fb739ee0ab376d2a62499cca0b38e458da5bbf6a",
+      "replacement_sha256": "d487accdbc1b23b0f4bde3603bdf90c9f56446121714cbafb71137fd13af5907",
+      "ids": [
+        "1061918",
+        "1067500",
+        "1068721",
+        "1068733",
+        "1072800",
+        "1074979"
+      ],
+      "reason": "Exact diagnostic replacement; immutable HEAD, prior and current gosi retained.",
+      "policy_ref": "scripts/gosi_observation_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/real_sources.json",
+      "base_sha256": "191cdc2ea3b396bbef496a12eb65d4a05d9b8bf13f3e8ab200e3f20fd7430f1a",
+      "ids": [
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UVUcxbUVudDdDUEhZQ2JfcGlNZFdMZ2V6UEZiVTM0WUtQUlBSeVNLRzRtd0psMU5Xb25qdjFtaGxnREVMQW1oSExNTmJMSDBrUE4zZ1ZVSWZ2MjlYNFd0MmR3?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZVkzMGpTeGVmRlEtVmVNNHAzUjZSd2t2SEQ4Rkwtc0hWNXZJa3VnT3pqWTBrRUlVcXd0NWo0UDZFd2VnTjcxSVVqZFQteTBWdDVIaXN4dVNDX0luTVJpci1tNE5JdTg?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82MlplM3otaWkwaXJWRXlrUnFTbHJ2Yjc5bjlTVm5tQi1wNXZ4NWs0TXNERHFZWllTYlM5SkhzMzNvWmpCZ0Y4VUpMOGh0ZnR4WC1acm1CY1lsRlktLThOT3p0Tjg?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4bFN3TU9GLV9LU0h1ekJIc2pwemJCaTVaemhFSmpfWDVoWlE4UlZsZkNlVVJxZkk2R05GbFo4dlM3Qk45bloyZ0tsTHdNUjIyYW53UndfSlpBcE9vMkdzUWZKYll0ZVBoMkVTWk1FSDU4NTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTE91cXFzUzNMWVdNRGxSc2NtcUNwenhkakhWUGx1OHZWVlZaZVRoSWpPelFuWVpfdG1oMEd4dmlETjA0TnFsQXotWDBEMGJKWkZsQ05YR1Z0NEJIekJKdnhDZFFGal9mdU42SjZxMk9ndUd6NWVhN3BlMU1rTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TU1FRakpvTmRnUzhqQnJOaFF5eGVhRW5UR0Fqd1VWZXpkTlV5TXY0Q1p3QjBfODAwbm9JVExjNEFjcmJYUXdOUWFaYU12cEFkcTZWYngzVVRyV0hNWFlSSERab19hanYxLWp4cjU5eEx0YjRDb0Jlbi1hSDY?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQlM1WEJ1RmZzeVpVeUVrTnZ1WG1HTWdrYV9KaHYzWG84bkNLMkRRVms0UUhiTWRoWUdOQkdNVFNaZTc1WVNYbjNjV2dyYVZQWlZJT1BIaGFKcWhfLWZ2dXFaMkd2LWdCa0pRM0FKSUJKckh6cXotNmluV3Yyc1ItNDJ1N01WS0k4cldYUlV2cUxvUHlrZ0g0UkEzallaampGLXhXdVZ5T3IzTVdwbzBV?oc=5"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "26bb7518df609e983e7331b2a893900d23757a742881924dd91b25a108ea7333",
+      "ids": [
+        "action:intent:task_8db901b41348b5d07f87d2bacd6628064fecde86df9d1d025bfcded03fbe2098",
+        "action:intent:task_d203017aca939d6461ccbd6404824f1e84dd49b1d4ab130c19bc1fcff18ba245",
+        "relation:1ccbe856f83803d890d040b6",
+        "relation:4c2e34f5ebb1cfdac95642d4",
+        "relation:76b4ac2256c5286202f6557e",
+        "relation:8825dfed84ad2d13d97e563b"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "c40bf15aabf5bab40b8383ef0e74ece316ee5e160e8ee8b4833d22bc246c9d36",
+      "ids": [
+        "441fc5edf6448848b030f982f79f3e39aaf1c97a57398e382c5f8615534c682c",
+        "STALE_SOURCE_CAPTURE",
+        "a19451ebd0599f26546e3772910687f275b50dbe100b63306f27afab10018d3b",
+        "e76420b3298dfe430e7cbe52bdb9255a048e0a68426fd038683b47ec7faf64bd",
+        "org-url:cd179bcb80fc29449ab49d15d06fe0de7c84b5051dad950fd0610bea89241888",
+        "url:47128769f8ac469109ee952f3112211e50d2cb5a52ae356408af9677b10ff842",
+        "url:7e8bb6bce922ae0a5ce9d216fbdcf22bd75e37c613b0e2fa6a3f49e648ee77ac",
+        "url:b66eb11dc2baa5edf86ef03bec75bbab151c84cbb572b332bdc2c7af1489e3cb",
+        "url:dda7722590547fde770723535c8bb1bc94aaaae50018c397657fc109587d6d18",
+        "url:e3f1e189612cecaa67df73cc74c56abc94041ef4b3d0a0dfc9a2dde44f79364c"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
       "path": "data/serpapi_market.json",
       "base_sha256": "44c57a081db0cdb558079520d377a65721d15e89938bbcb22bfef0565d4c5400",
       "ids": [
@@ -271,56 +347,6 @@
         "https://www.youtube.com/watch?v=jUxSAGCaJIU",
         "https://www.youtube.com/watch?v=uorQJ_ucDhg",
         "https://www.youtube.com/watch?v=wDV5SH16QCI"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/knowledge/real_sources.json",
-      "base_sha256": "191cdc2ea3b396bbef496a12eb65d4a05d9b8bf13f3e8ab200e3f20fd7430f1a",
-      "ids": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9UVUcxbUVudDdDUEhZQ2JfcGlNZFdMZ2V6UEZiVTM0WUtQUlBSeVNLRzRtd0psMU5Xb25qdjFtaGxnREVMQW1oSExNTmJMSDBrUE4zZ1ZVSWZ2MjlYNFd0MmR3?oc=5",
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEZVkzMGpTeGVmRlEtVmVNNHAzUjZSd2t2SEQ4Rkwtc0hWNXZJa3VnT3pqWTBrRUlVcXd0NWo0UDZFd2VnTjcxSVVqZFQteTBWdDVIaXN4dVNDX0luTVJpci1tNE5JdTg?oc=5",
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82MlplM3otaWkwaXJWRXlrUnFTbHJ2Yjc5bjlTVm5tQi1wNXZ4NWs0TXNERHFZWllTYlM5SkhzMzNvWmpCZ0Y4VUpMOGh0ZnR4WC1acm1CY1lsRlktLThOT3p0Tjg?oc=5",
-        "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4bFN3TU9GLV9LU0h1ekJIc2pwemJCaTVaemhFSmpfWDVoWlE4UlZsZkNlVVJxZkk2R05GbFo4dlM3Qk45bloyZ0tsTHdNUjIyYW53UndfSlpBcE9vMkdzUWZKYll0ZVBoMkVTWk1FSDU4NTQ?oc=5",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE91cXFzUzNMWVdNRGxSc2NtcUNwenhkakhWUGx1OHZWVlZaZVRoSWpPelFuWVpfdG1oMEd4dmlETjA0TnFsQXotWDBEMGJKWkZsQ05YR1Z0NEJIekJKdnhDZFFGal9mdU42SjZxMk9ndUd6NWVhN3BlMU1rTQ?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TU1FRakpvTmRnUzhqQnJOaFF5eGVhRW5UR0Fqd1VWZXpkTlV5TXY0Q1p3QjBfODAwbm9JVExjNEFjcmJYUXdOUWFaYU12cEFkcTZWYngzVVRyV0hNWFlSSERab19hanYxLWp4cjU5eEx0YjRDb0Jlbi1hSDY?oc=5",
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQlM1WEJ1RmZzeVpVeUVrTnZ1WG1HTWdrYV9KaHYzWG84bkNLMkRRVms0UUhiTWRoWUdOQkdNVFNaZTc1WVNYbjNjV2dyYVZQWlZJT1BIaGFKcWhfLWZ2dXFaMkd2LWdCa0pRM0FKSUJKckh6cXotNmluV3Yyc1ItNDJ1N01WS0k4cldYUlV2cUxvUHlrZ0g0UkEzallaampGLXhXdVZ5T3IzTVdwbzBV?oc=5"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "26bb7518df609e983e7331b2a893900d23757a742881924dd91b25a108ea7333",
-      "ids": [
-        "action:intent:task_8db901b41348b5d07f87d2bacd6628064fecde86df9d1d025bfcded03fbe2098",
-        "action:intent:task_d203017aca939d6461ccbd6404824f1e84dd49b1d4ab130c19bc1fcff18ba245",
-        "relation:1ccbe856f83803d890d040b6",
-        "relation:4c2e34f5ebb1cfdac95642d4",
-        "relation:76b4ac2256c5286202f6557e",
-        "relation:8825dfed84ad2d13d97e563b"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/state.json",
-      "base_sha256": "c40bf15aabf5bab40b8383ef0e74ece316ee5e160e8ee8b4833d22bc246c9d36",
-      "ids": [
-        "441fc5edf6448848b030f982f79f3e39aaf1c97a57398e382c5f8615534c682c",
-        "STALE_SOURCE_CAPTURE",
-        "a19451ebd0599f26546e3772910687f275b50dbe100b63306f27afab10018d3b",
-        "e76420b3298dfe430e7cbe52bdb9255a048e0a68426fd038683b47ec7faf64bd",
-        "org-url:cd179bcb80fc29449ab49d15d06fe0de7c84b5051dad950fd0610bea89241888",
-        "url:47128769f8ac469109ee952f3112211e50d2cb5a52ae356408af9677b10ff842",
-        "url:7e8bb6bce922ae0a5ce9d216fbdcf22bd75e37c613b0e2fa6a3f49e648ee77ac",
-        "url:b66eb11dc2baa5edf86ef03bec75bbab151c84cbb572b332bdc2c7af1489e3cb",
-        "url:dda7722590547fde770723535c8bb1bc94aaaae50018c397657fc109587d6d18",
-        "url:e3f1e189612cecaa67df73cc74c56abc94041ef4b3d0a0dfc9a2dde44f79364c"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

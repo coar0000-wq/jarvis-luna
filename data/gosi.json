@@ -78,6 +78,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:01.327431+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:04.380805+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -112,6 +124,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-17T10:06:15.329616+00:00",
+            "sha256": "12a2687a4758e850a0123efa0d0a6847a0eb2e573f7e14489d056c4256e56e1d",
+            "byte_count": 9076,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-18T20:15:04.380454+00:00",
             "sha256": "12a2687a4758e850a0123efa0d0a6847a0eb2e573f7e14489d056c4256e56e1d",
             "byte_count": 9076,
             "capture_scope": "description_text_only",
@@ -250,6 +286,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:07.149741+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:10.046785+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -319,6 +367,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:10.651684+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:13.523723+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -353,6 +413,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-17T10:06:25.507580+00:00",
+            "sha256": "17c90c61b196aa0ff54e364e1d254be78bcf1bf855f3294f709f28eb29de3387",
+            "byte_count": 6356,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "10.14 fl. oz. / 300 mL",
+          "observed_value": "300ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "10.14 fl. oz. / 300 mL",
+          "observed_value": "300ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-18T20:15:13.523412+00:00",
             "sha256": "17c90c61b196aa0ff54e364e1d254be78bcf1bf855f3294f709f28eb29de3387",
             "byte_count": 6356,
             "capture_scope": "description_text_only",
@@ -459,6 +543,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:14.702603+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:17.575746+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -493,6 +589,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-17T10:06:29.292328+00:00",
+            "sha256": "f8bed95b03c0dd335017d53a572170f050cb1009232b5b86edb7c315a07162ea",
+            "byte_count": 7891,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "40 ml",
+          "observed_value": "40ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-18T20:15:17.575365+00:00",
             "sha256": "f8bed95b03c0dd335017d53a572170f050cb1009232b5b86edb7c315a07162ea",
             "byte_count": 7891,
             "capture_scope": "description_text_only",
@@ -620,6 +740,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:19.745814+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:22.638697+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -683,6 +815,18 @@
         },
         {
           "attempted_at": "2026-10-17T10:06:37.388556+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:23.084714+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:25.967215+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -758,6 +902,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:26.444041+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:29.315040+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -792,6 +948,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-17T10:06:40.638325+00:00",
+            "sha256": "508ecb84ce30be3972f76b8d41c1131aeb605a1fa801af50f39e057a8d036639",
+            "byte_count": 7550,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "28 g",
+          "observed_value": "28g",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "28 g",
+          "observed_value": "28g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-18T20:15:29.314755+00:00",
             "sha256": "508ecb84ce30be3972f76b8d41c1131aeb605a1fa801af50f39e057a8d036639",
             "byte_count": 7550,
             "capture_scope": "description_text_only",
@@ -897,6 +1077,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:30.675083+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:33.538510+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -931,6 +1123,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-17T10:06:44.590029+00:00",
+            "sha256": "1ce179ee2566e6197154eebb82e1c2b82cb95d48d03441b624d540ac4d109dd9",
+            "byte_count": 4189,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "50ml (1.69 fl.oz)",
+          "observed_value": "50ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "50ml (1.69 fl.oz)",
+          "observed_value": "50ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-18T20:15:33.538213+00:00",
             "sha256": "1ce179ee2566e6197154eebb82e1c2b82cb95d48d03441b624d540ac4d109dd9",
             "byte_count": 4189,
             "capture_scope": "description_text_only",
@@ -1014,6 +1230,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:34.014512+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:36.890559+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -1048,6 +1276,30 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-17T10:06:47.855076+00:00",
+            "sha256": "1deb9e6e24a08c2805ea01aeb3733834a5033f3bf83932d3b19418c4af06a26e",
+            "byte_count": 6843,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+          "observed_value": "4ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "4 ml / 0.13 fl. oz. 4 ml x 4 EA",
+          "observed_value": "5g",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-18T20:15:36.890273+00:00",
             "sha256": "1deb9e6e24a08c2805ea01aeb3733834a5033f3bf83932d3b19418c4af06a26e",
             "byte_count": 6843,
             "capture_scope": "description_text_only",
@@ -1131,6 +1383,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:37.354202+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:40.223093+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -1196,6 +1460,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:40.742358+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:43.617008+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -1258,6 +1534,18 @@
         },
         {
           "attempted_at": "2026-10-17T10:06:57.615499+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:44.152118+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:47.014236+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -1327,6 +1615,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:47.447696+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:50.319140+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -1393,6 +1693,18 @@
         },
         {
           "attempted_at": "2026-10-17T10:07:04.189893+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:50.824709+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:53.691684+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -1473,6 +1785,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:54.575710+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:57.440918+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "observation_conflicts": [
@@ -1533,6 +1857,43 @@
           "provenance": {
             "source": "daiso_api:vsipPdDtl",
             "received_at": "2026-10-17T10:07:07.935902+00:00",
+            "sha256": "3b97560f40aabb2b37e072522538d9488994ecc5831a5b6057caa102dc4e73a7",
+            "byte_count": 5025,
+            "capture_scope": "description_text_only",
+            "verified": false,
+            "derivation": "description_text_parser"
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "30 ml",
+          "observed_value": "30ml",
+          "provenance": {
+            "capture_scope": "local_parser_only",
+            "source_received_at": null,
+            "source": "product_name"
+          }
+        },
+        {
+          "field": "origin",
+          "retained_value": "대한민국",
+          "observed_value": "한국",
+          "provenance": {
+            "source": "daiso_api:selPdDtlNtfc",
+            "received_at": "2026-10-18T20:15:55.003343+00:00",
+            "sha256": "7b44762f3bc066f2ae4d2556ba342364abecb33a74261ade62c4825f710ff7ee",
+            "byte_count": 2060,
+            "capture_scope": "source_response",
+            "verified": false
+          }
+        },
+        {
+          "field": "volume",
+          "retained_value": "30 ml",
+          "observed_value": "30ml",
+          "provenance": {
+            "source": "daiso_api:vsipPdDtl",
+            "received_at": "2026-10-18T20:15:57.440586+00:00",
             "sha256": "3b97560f40aabb2b37e072522538d9488994ecc5831a5b6057caa102dc4e73a7",
             "byte_count": 5025,
             "capture_scope": "description_text_only",
@@ -1626,6 +1987,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:15:57.804085+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:00.662952+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -1695,6 +2068,18 @@
         },
         {
           "attempted_at": "2026-10-17T10:07:14.463487+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:01.081594+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:03.959299+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -1773,6 +2158,18 @@
         },
         {
           "attempted_at": "2026-10-17T10:07:17.727256+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:04.507403+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:07.369288+00:00",
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
@@ -1870,6 +2267,18 @@
           "source": "daiso_desc",
           "status": "received",
           "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:08.769899+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:11.630543+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
         }
       ],
       "image_observations": {
@@ -1955,6 +2364,24 @@
         },
         {
           "attempted_at": "2026-10-17T10:07:25.799838+00:00",
+          "source": "daiso",
+          "status": "stopped",
+          "reason": "daiso: auth circuit stopped (403)"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:12.007323+00:00",
+          "source": "daiso_ntfc",
+          "status": "received",
+          "capture_scope": "notice_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:14.882657+00:00",
+          "source": "daiso_desc",
+          "status": "received",
+          "capture_scope": "description_api_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:15.613846+00:00",
           "source": "daiso",
           "status": "stopped",
           "reason": "daiso: auth circuit stopped (403)"
@@ -2319,6 +2746,54 @@
           "source": "vision",
           "status": "stopped",
           "reason": "gemini: quota circuit stopped (429)"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:16.319855+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_slice/1067500_12_b0.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:38.590331+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_slice/1067500_12_b1.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:16:53.038213+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_slice/1067500_12_b2.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:17:01.196776+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_img/1067500_09.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:17:07.831609+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_img/1067500_06.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:17:14.317488+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_slice/1067500_03_b0.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
         }
       ],
       "retained_source_stale": true
@@ -2362,31 +2837,204 @@
       "vision_source": "gemini:gemini-flash-latest",
       "vision_image": "data/daiso_real/gosi_slice/1061918_02_b0.jpg",
       "verified": false,
-      "vision_at": "2026-10-03T11:09:22.972602+00:00"
+      "vision_at": "2026-10-03T11:09:22.972602+00:00",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-18T20:17:22.763649+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_slice/1061918_06_b0.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
+        },
+        {
+          "attempted_at": "2026-10-18T20:17:59.354251+00:00",
+          "source": "vision",
+          "status": "received",
+          "image": "data/daiso_real/gosi_slice/1061918_06_b1.jpg",
+          "reason": "",
+          "capture_scope": "candidate_image_only"
+        }
+      ],
+      "observation_conflicts": [
+        {
+          "field": "ingredients",
+          "retained_value": "[1제] 만니톨, 하이드록시프로필메틸셀룰로오스, 아스코빅애씨드(3 %), 아세틸시스테인, 치자추출물, 소듐하이알루로네이트, 소듐헥사메타포스페이트, 덱스트린\n[2제] 정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드 1,2-헥산다이올, 레티놀, 소듐하이알루로네이트, 알란토인, 판테놀, 카보머, 폴리글리세릴-10올리에이트, 폴리글리세릴-10스테아레이트, 에틸헥실글리세린, 잔탄검, 카프릴릭/카프릭트라이글리세라이드, 다이소듐이디티에이, 메틸메타크릴레이트크로스폴리머, 하이드로제네이티드레시틴, 콜레스테롤, 귀리가루추출물, 토코페릴아세테이트, 콥티스뿌리추출물, 녹두씨추출물, 트로메타민, 병풀추출물, 비에이치에이, 비에이치티, 토코페롤, 향료, 리날룰, 헥실신남알, 리모넨",
+          "observed_value": "[1제] 만니톨, 하이드록시프로필메틸셀룰로오스, 아스코빅애씨드(3 %), 아세틸시스테인, 치자추출물, 소듐하이알루로네이트, 소듐헥사메타포스페이트, 덱스트린\n[2제] 정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드, 1,2-헥산다이올, 레티놀, 소듐하이알루로네이트, 알란토인, 판테놀, 카보머, 폴리글리세릴-10올리에이트, 폴리글리세릴-10스테아레이트, 에틸헥실글리세린, 잔탄검, 카프릴릭/카프릭트라이글리세라이드, 다이소듐이디티에이, 메틸메타크릴레이트크로스폴리머, 하이드로제네이티드레시틴, 콜레스테롤, 귀리가루추출물, 토코페릴아세테이트, 콥티스뿌리추출물, 녹두씨추출물, 트로메타민, 병풀추출물, 비에이치에이, 비에이치티, 토코페롤, 향료, 리날룰, 헥실신남알, 리모넨",
+          "provenance": {
+            "source": "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+            "received_at": "2026-10-18T20:17:56.353003+00:00",
+            "sha256": "44d6d0e4d0fda4b9c9593005ffc765b5d08d62b11e8e4d3e7a6ad997602aa72b",
+            "byte_count": 22868,
+            "capture_scope": "single_image_or_crop_model_transcription",
+            "verified": false,
+            "model": "gemini-flash-latest",
+            "payload_image_sha256": "e0c1fe2bd2afb8af7181d0ad32994628e57f79bd6157e6e4e77086efcfde4781",
+            "payload_image_byte_count": 154656,
+            "source_image": "data/daiso_real/gosi_img/1061918_06.jpg",
+            "source_image_sha256": "250785593284de44c1bcc49e7f66d8e5c9c4d00b3c4c86a3ffcdae5a30d085c0",
+            "source_image_byte_count": 385249,
+            "source_received_at": null,
+            "intended_product_id": "1061918",
+            "product_identity_verified": false,
+            "human_verified": false,
+            "image": "data/daiso_real/gosi_slice/1061918_06_b0.jpg"
+          }
+        },
+        {
+          "field": "maker",
+          "retained_value": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
+          "observed_value": "화장품제조업자: (주)블리스팩, 화장품책임판매업자: (주)토니모리",
+          "provenance": {
+            "source": "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+            "received_at": "2026-10-18T20:17:56.353003+00:00",
+            "sha256": "44d6d0e4d0fda4b9c9593005ffc765b5d08d62b11e8e4d3e7a6ad997602aa72b",
+            "byte_count": 22868,
+            "capture_scope": "single_image_or_crop_model_transcription",
+            "verified": false,
+            "model": "gemini-flash-latest",
+            "payload_image_sha256": "e0c1fe2bd2afb8af7181d0ad32994628e57f79bd6157e6e4e77086efcfde4781",
+            "payload_image_byte_count": 154656,
+            "source_image": "data/daiso_real/gosi_img/1061918_06.jpg",
+            "source_image_sha256": "250785593284de44c1bcc49e7f66d8e5c9c4d00b3c4c86a3ffcdae5a30d085c0",
+            "source_image_byte_count": 385249,
+            "source_received_at": null,
+            "intended_product_id": "1061918",
+            "product_identity_verified": false,
+            "human_verified": false,
+            "image": "data/daiso_real/gosi_slice/1061918_06_b0.jpg"
+          }
+        },
+        {
+          "field": "maker",
+          "retained_value": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
+          "observed_value": "(주)블리스팩, (주)토니모리",
+          "provenance": {
+            "source": "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+            "received_at": "2026-10-18T20:18:32.891746+00:00",
+            "sha256": "e035be2bb99cc7970a4bb1a064867473f96e578b0a7750a7733503e9c7b6218d",
+            "byte_count": 22817,
+            "capture_scope": "single_image_or_crop_model_transcription",
+            "verified": false,
+            "model": "gemini-flash-latest",
+            "payload_image_sha256": "96ffe438465f77e2e60cbd85405b322eec6a97172cb6e0518646b81c8db1c6dc",
+            "payload_image_byte_count": 105842,
+            "source_image": "data/daiso_real/gosi_img/1061918_06.jpg",
+            "source_image_sha256": "250785593284de44c1bcc49e7f66d8e5c9c4d00b3c4c86a3ffcdae5a30d085c0",
+            "source_image_byte_count": 385249,
+            "source_received_at": null,
+            "intended_product_id": "1061918",
+            "product_identity_verified": false,
+            "human_verified": false,
+            "image": "data/daiso_real/gosi_slice/1061918_06_b1.jpg"
+          }
+        }
+      ],
+      "reconciliation_blocked": true,
+      "volume": "50mg + 10ml",
+      "field_observations": {
+        "volume": {
+          "source": "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+          "received_at": "2026-10-18T20:18:32.891746+00:00",
+          "sha256": "e035be2bb99cc7970a4bb1a064867473f96e578b0a7750a7733503e9c7b6218d",
+          "byte_count": 22817,
+          "capture_scope": "single_image_or_crop_model_transcription",
+          "verified": false,
+          "model": "gemini-flash-latest",
+          "payload_image_sha256": "96ffe438465f77e2e60cbd85405b322eec6a97172cb6e0518646b81c8db1c6dc",
+          "payload_image_byte_count": 105842,
+          "source_image": "data/daiso_real/gosi_img/1061918_06.jpg",
+          "source_image_sha256": "250785593284de44c1bcc49e7f66d8e5c9c4d00b3c4c86a3ffcdae5a30d085c0",
+          "source_image_byte_count": 385249,
+          "source_received_at": null,
+          "intended_product_id": "1061918",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "image": "data/daiso_real/gosi_slice/1061918_06_b1.jpg",
+          "stale": false
+        },
+        "expiry": {
+          "source": "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+          "received_at": "2026-10-18T20:18:32.891746+00:00",
+          "sha256": "e035be2bb99cc7970a4bb1a064867473f96e578b0a7750a7733503e9c7b6218d",
+          "byte_count": 22817,
+          "capture_scope": "single_image_or_crop_model_transcription",
+          "verified": false,
+          "model": "gemini-flash-latest",
+          "payload_image_sha256": "96ffe438465f77e2e60cbd85405b322eec6a97172cb6e0518646b81c8db1c6dc",
+          "payload_image_byte_count": 105842,
+          "source_image": "data/daiso_real/gosi_img/1061918_06.jpg",
+          "source_image_sha256": "250785593284de44c1bcc49e7f66d8e5c9c4d00b3c4c86a3ffcdae5a30d085c0",
+          "source_image_byte_count": 385249,
+          "source_received_at": null,
+          "intended_product_id": "1061918",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "image": "data/daiso_real/gosi_slice/1061918_06_b1.jpg",
+          "stale": false
+        }
+      },
+      "expiry": "제품 내 별도 표기"
     },
     "1068721": {
       "product_id": "1068721",
       "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
       "seeded_from": "shopify_s_recommendations.json",
-      "product_identity_verified": false
+      "product_identity_verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-18T20:18:35.892979+00:00",
+          "source": "vision",
+          "status": "unavailable",
+          "reason": "local_image_not_available",
+          "capture_scope": "local_inventory_only"
+        }
+      ]
     },
     "1074979": {
       "product_id": "1074979",
       "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "seeded_from": "shopify_s_recommendations.json",
-      "product_identity_verified": false
+      "product_identity_verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-18T20:18:35.893011+00:00",
+          "source": "vision",
+          "status": "unavailable",
+          "reason": "local_image_not_available",
+          "capture_scope": "local_inventory_only"
+        }
+      ]
     },
     "1068733": {
       "product_id": "1068733",
       "name": "[21호]클리덤 리포좀 비타민C 기미 앰플 밤 팩트 10 g",
       "seeded_from": "shopify_s_recommendations.json",
-      "product_identity_verified": false
+      "product_identity_verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-18T20:18:35.893018+00:00",
+          "source": "vision",
+          "status": "unavailable",
+          "reason": "local_image_not_available",
+          "capture_scope": "local_inventory_only"
+        }
+      ]
     },
     "1072800": {
       "product_id": "1072800",
       "name": "줌 바이 정샘물 세범다운 쿠션",
       "seeded_from": "shopify_s_recommendations.json",
-      "product_identity_verified": false
+      "product_identity_verified": false,
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-18T20:18:35.893023+00:00",
+          "source": "vision",
+          "status": "unavailable",
+          "reason": "local_image_not_available",
+          "capture_scope": "local_inventory_only"
+        }
+      ]
     }
   },
   "사람이_할_일": "gosi_image 를 열면 제품명·용량·사용기한·기능성·제조업자·제조국·전성분이 한 표에 인쇄되어 있다. 그것을 보고 volume, ingredients, maker 를 채운다. 표를 그대로 옮겨 적고 요약하지 않는다.",
@@ -2397,12 +3045,7 @@
   "gosi_ok_count": 28,
   "vision_status": "circuit_stopped",
   "vision_note": "Model transcription of selected local images/crops only; no human or complete-page verification. Failures do not establish missing product facts.",
-  "vision_failures": [
-    {
-      "pd_no": "1067500",
-      "reason": "응답에 텍스트가 없음"
-    }
-  ],
+  "vision_failures": [],
   "vision_at": "2026-10-04T20:56:37.702870+00:00",
   "수집_설명": "공식 고시 API는 대부분 '상세페이지 참조'. 사용자가 보는 고시 표는 상품설명 더보기 상세 이미지. 이미지는 data/daiso_real/gosi_img/ 에 저장. 전성분·제조사는 비전 추출 또는 수동 입력이 필요하다.",
   "updated_at": "2026-10-02T17:37:28.124430+00:00",
@@ -2428,27 +3071,14 @@
       }
     ]
   },
-  "vision_deferred": [
-    "1067500",
-    "1061918",
-    "1068721",
-    "1074979",
-    "1068733",
-    "1072800"
-  ],
+  "vision_deferred": [],
   "agent_read_note": "2026-09-16 Gemini 할당량(429)이 소진되어 5건은 에이전트가 상세 이미지를 직접 읽어 옮겼다. 읽기이지 생성이 아니다. 각 항목에 vision_image 로 근거 이미지를 남겼으니 사람이 열어 대조할 수 있다. verified 는 대조 후 켠다.",
   "provider_stops": [
     {
       "provider": "daiso",
       "code": 403,
       "category": "auth",
-      "stopped_at": "2026-10-17T10:07:25.799863+00:00"
-    },
-    {
-      "provider": "gemini",
-      "code": 429,
-      "category": "quota",
-      "stopped_at": "2026-10-17T10:08:56.698837+00:00"
+      "stopped_at": "2026-10-18T20:16:15.613869+00:00"
     }
   ],
   "provider_stop_history": [
@@ -2465,6 +3095,20 @@
       "category": "quota",
       "stopped_at": "2026-10-11T21:27:24.771143+00:00",
       "expired_at": "2026-10-17T10:06:12.231572+00:00"
+    },
+    {
+      "provider": "daiso",
+      "code": 403,
+      "category": "auth",
+      "stopped_at": "2026-10-17T10:07:25.799863+00:00",
+      "expired_at": "2026-10-18T20:15:01.327080+00:00"
+    },
+    {
+      "provider": "gemini",
+      "code": 429,
+      "category": "quota",
+      "stopped_at": "2026-10-17T10:08:56.698837+00:00",
+      "expired_at": "2026-10-18T20:15:01.327080+00:00"
     }
   ]
 }
