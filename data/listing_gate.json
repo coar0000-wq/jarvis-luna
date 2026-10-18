@@ -1,18 +1,18 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-18T09:10:18.885150+00:00",
+  "generated_at": "2026-10-18T13:09:47.879491+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "3191dc6d58a880082ab8ee6b3564d76c7ddb9a2a6d4180c07977ec5ae562706f",
+      "data/product_master.json": "e89abf8bee1dac9e8c38bd51aef726565957105a0377825cfa1b901649bae3c2",
       "data/gosi.json": "65c4a1bf58af9ecfd59a8526718d38eb4a2dce44a4048d49eeb268e96c4e73d7",
       "data/daiso_real/daiso_us_labels.json": "12f136dee44aaee875cf304835cc4f54d124852445ddd8586df995548d6f3988",
-      "data/pricing_model.json": "b18424581c4154fad24acf8904b0c8d889a565961afc493ee945889485f0ebef",
-      "data/legal_products.json": "083047e128b1a41177d16007b6b3a8c2314e9172cd0c79f8a86297f92632a0b4",
-      "data/daiso_real/shopify_s_recommendations.json": "d4e8ed916769bb70464f967183fb9a259b8de185c0f79f3957303705c19ea546",
+      "data/pricing_model.json": "11d3c8c9eff5edf680ce380eacdaf0773d2d36c184a047289bfcf1588a17f893",
+      "data/legal_products.json": "9b4fc175b79f370fbda39978a36607cf40bce59fdaf028de1beeb4ea2440c001",
+      "data/daiso_real/shopify_s_recommendations.json": "1a6152a61b1c303d5c505ef8385da83ace7a31c1f02aec6c5587948c8247e39b",
       "data/shopify_listing_copy.json": "d52d15604a2f41be98676c0dd02269be37f549a71a10fc683410d2b10a49ed2a",
-      "data/shopify_shortlist.json": "3afaf38f8b7244d06d0f5ba148f1f3e75e0f77281786c3599a9cb735881e7a08",
+      "data/shopify_shortlist.json": "ec6067c43de5311e1164ec8038ca7290666d991cdbe772cd3598461a8fdb6ea2",
       "data/legal_full.json": "4d1102e1c9a323b4872784a88a28c9137e6d706a6ea90904178fa2811f115fd5",
       "data/mocra_readiness.json": "864702369d469879d5dd7ff1899efab917aca8aa7bd2f5a3fea779f0dc539e77",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
@@ -24,7 +24,7 @@
       "masked/manufacturer_safety_record": "d77fd639a012be272427ae7a18c79b6423d5f677771a7a3cbd641f24450daa77",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "fea9dd9977758698548ebd5afa872bdb22c18d12a68921e1a17626c080f34480"
+    "recommendations_sha256": "c2d4fa6c15d976c3d2e2b0c64a55a18f75c6398b5e3538a85bc42e7d20e59099"
   },
   "total": 7,
   "agent_ready": 0,
@@ -66,15 +66,9 @@
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "",
-      "global_stopped": "",
-      "workflow_stopped": "",
-      "workflow_id": "Shopify 영문 리스팅 카피 생성:39114169055:1",
-      "estimated_cost_usd": 0.0,
-      "account_estimated_cost_usd": 0.000544698,
-      "purchased_credits": false,
+      "stopped": "ledger_unavailable",
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "input_token_price_per_mtok_usd": 0.042
+      "purchased_credits": false
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:10:18.133474+00:00",
+  "generated_at": "2026-10-18T13:09:47.112932+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -19,16 +19,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/biuEYxzjCmX6JMJEi1e01049276_00_01biuEYxzjCmX6JMJEi1e0.jpg",
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "matched_global": {
-        "channel": "sephora",
-        "global_product": "턴오버 앰플 c-PDRN 0.5%",
-        "similarity": 0.733,
-        "demand_weight": 0.63,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.462
+        "match_score": 0.411
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -71,7 +71,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T09:10:18.885150+00:00"
+      "gate_generated_at": "2026-10-18T13:09:47.879491+00:00"
     },
     {
       "rank": 2,
@@ -139,7 +139,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T09:10:18.885150+00:00"
+      "gate_generated_at": "2026-10-18T13:09:47.879491+00:00"
     },
     {
       "rank": 3,
@@ -154,16 +154,16 @@
       "s_rule": "strong_form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "recommend_reason": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "matched_global": {
-        "channel": "sephora",
-        "global_product": "턴오버 앰플 c-PDRN 0.5%",
-        "similarity": 0.733,
-        "demand_weight": 0.63,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
           "ampoule"
         ],
-        "match_score": 0.462
+        "match_score": 0.411
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -211,7 +211,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T09:10:18.885150+00:00"
+      "gate_generated_at": "2026-10-18T13:09:47.879491+00:00"
     },
     {
       "rank": 4,
@@ -279,7 +279,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T09:10:18.885150+00:00"
+      "gate_generated_at": "2026-10-18T13:09:47.879491+00:00"
     },
     {
       "rank": 5,
@@ -359,7 +359,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T09:10:18.885150+00:00"
+      "gate_generated_at": "2026-10-18T13:09:47.879491+00:00"
     },
     {
       "rank": 6,
@@ -438,7 +438,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T09:10:18.885150+00:00"
+      "gate_generated_at": "2026-10-18T13:09:47.879491+00:00"
     },
     {
       "rank": 7,
@@ -508,7 +508,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T09:10:18.885150+00:00"
+      "gate_generated_at": "2026-10-18T13:09:47.879491+00:00"
     }
   ],
   "agent_ready_count": 0,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T09:10:18.714312+00:00",
+  "generated_at": "2026-10-18T13:09:47.705127+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -42,9 +42,9 @@
       "business_ready": false,
       "score": 100,
       "evidence": {
-        "global_product": "턴오버 앰플 c-PDRN 0.5%",
-        "channel": "sephora",
-        "similarity": 0.733
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "channel": "sokoglam_us",
+        "similarity": 0.667
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "active",

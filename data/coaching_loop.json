@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:10:19.070914+09:00",
+  "generated_at": "2026-10-18T22:09:48.068296+09:00",
   "role": "coaching",
   "principle": "AI는 체크리스트·A/B 초안만. 등록·광고 집행은 사람 승인.",
   "source": "scripts/build_coaching_loop.py",
@@ -64,7 +64,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
+          "evidence": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {
@@ -306,7 +306,7 @@
           "id": "global_signal",
           "label": "글로벌 수요 시그널",
           "status": "pass",
-          "evidence": "글로벌 '턴오버 앰플 c-PDRN 0.5%' (sephora) 유사 73% · 토큰 ampoule",
+          "evidence": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
           "tip": "약한 단일 토큰 매칭이면 광고 키워드를 성분 중심으로"
         },
         {

@@ -1,7 +1,7 @@
 {
-  "last_run_attempt_at": "2026-10-17T11:39:44.375076+00:00",
-  "last_request_at": "2026-10-17T11:41:44.375702+00:00",
-  "total_http_attempts": 25,
+  "last_run_attempt_at": "2026-10-18T12:36:53.762798+00:00",
+  "last_request_at": "2026-10-18T12:37:53.763122+00:00",
+  "total_http_attempts": 31,
   "expected_ids": [
     "CP000106",
     "CP000107",
@@ -10,7 +10,7 @@
     "CP000151",
     "CP000216"
   ],
-  "last_result_status": "cached",
+  "last_result_status": "complete",
   "policy": {
     "version": 2,
     "fresh_ttl_seconds": 86400,
@@ -165,6 +165,42 @@
       "reserved_at": "2026-10-17T11:41:44.375702+00:00",
       "kind": "product",
       "pd_no": "1067498"
+    },
+    {
+      "sequence": 26,
+      "reserved_at": "2026-10-18T12:09:34.366565+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 27,
+      "reserved_at": "2026-10-18T12:10:04.366728+00:00",
+      "kind": "product",
+      "pd_no": "1055167"
+    },
+    {
+      "sequence": 28,
+      "reserved_at": "2026-10-18T12:10:34.366848+00:00",
+      "kind": "product",
+      "pd_no": "1067498"
+    },
+    {
+      "sequence": 29,
+      "reserved_at": "2026-10-18T12:36:53.762798+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 30,
+      "reserved_at": "2026-10-18T12:37:23.762978+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 31,
+      "reserved_at": "2026-10-18T12:37:53.763122+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
     }
   ],
   "migration": {
@@ -173,14 +209,14 @@
     "legacy_last_run_attempt_at": "2026-10-04T07:02:09.734108+00:00",
     "legacy_last_request_at": "2026-10-04T07:05:39.734815+00:00"
   },
-  "last_checked_at": "2026-10-18T05:30:36.862841+00:00",
+  "last_checked_at": "2026-10-18T12:37:54.576339+00:00",
   "member_attempts": {
     "1049275": {
-      "attempted_at": "2026-10-17T11:40:14.375243+00:00",
+      "attempted_at": "2026-10-18T12:37:23.762978+00:00",
       "outcome": "success"
     },
     "1049276": {
-      "attempted_at": "2026-10-17T11:40:44.375403+00:00",
+      "attempted_at": "2026-10-18T12:37:53.763122+00:00",
       "outcome": "success"
     },
     "1049285": {
@@ -188,7 +224,7 @@
       "outcome": "success"
     },
     "1055167": {
-      "attempted_at": "2026-10-17T11:41:14.375553+00:00",
+      "attempted_at": "2026-10-18T12:10:04.366728+00:00",
       "outcome": "success"
     },
     "1059834": {
@@ -196,7 +232,7 @@
       "outcome": "success"
     },
     "1067498": {
-      "attempted_at": "2026-10-17T11:41:44.375702+00:00",
+      "attempted_at": "2026-10-18T12:10:34.366848+00:00",
       "outcome": "success"
     }
   }

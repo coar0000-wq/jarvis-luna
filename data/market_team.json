@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-18T18:10:19.014838+09:00",
+    "updated_at": "2026-10-18T22:09:48.012073+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -656,7 +656,7 @@
     "sources": {
       "oliveyoung_us": "us.oliveyoung.com/best-sellers (실수집)",
       "open_beauty_facts": "world.openbeautyfacts.org /api/v2/search",
-      "competitor_pool_size": 203,
+      "competitor_pool_size": 259,
       "competitor_fallback": "oliveyoung_us primary"
     }
   },
@@ -1700,42 +1700,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
-      "brand": "WAKEMAKE",
-      "price_usd": 14.99,
-      "rating": 4.8,
-      "review_count": 1089,
-      "us_rank": 10,
-      "daiso_bucket": "메이크업",
-      "why": "us.oliveyoung.com/best-sellers 실수집 10위 · 메이크업 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA65685472",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
-      "brand": "alternativestereo",
-      "price_usd": 9.35,
-      "rating": 4.7,
-      "review_count": 4190,
-      "us_rank": 14,
-      "daiso_bucket": "메이크업",
-      "why": "us.oliveyoung.com/best-sellers 실수집 14위 · 메이크업 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA50320378",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
-      "brand": "WAKEMAKE",
-      "price_usd": 14.99,
-      "rating": 4.7,
-      "review_count": 567,
-      "us_rank": 17,
-      "daiso_bucket": "메이크업",
-      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 메이크업 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA49015923",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
       "brand": "MEDIHEAL",
       "price_usd": 39.99,
@@ -1770,6 +1734,42 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA69419689",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
+      "brand": "WAKEMAKE",
+      "price_usd": 14.99,
+      "rating": 4.8,
+      "review_count": 1089,
+      "us_rank": 10,
+      "daiso_bucket": "메이크업",
+      "why": "us.oliveyoung.com/best-sellers 실수집 10위 · 메이크업 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA65685472",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
+      "brand": "alternativestereo",
+      "price_usd": 9.35,
+      "rating": 4.7,
+      "review_count": 4190,
+      "us_rank": 14,
+      "daiso_bucket": "메이크업",
+      "why": "us.oliveyoung.com/best-sellers 실수집 14위 · 메이크업 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA50320378",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
+      "brand": "WAKEMAKE",
+      "price_usd": 14.99,
+      "rating": 4.7,
+      "review_count": 567,
+      "us_rank": 17,
+      "daiso_bucket": "메이크업",
+      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 메이크업 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA49015923",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
@@ -1779,15 +1779,17 @@
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {
-    "signals_live": 3,
+    "signals_live": 5,
     "signals_total": 15,
-    "signals_verified": 3,
+    "signals_verified": 5,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
       "amazon_best_sellers",
       "sokoglam_us",
-      "amazon_new_beauty"
+      "amazon_new_beauty",
+      "ulta_beauty",
+      "sephora"
     ],
     "s_count": 7,
     "listing_ready_count": 0,
