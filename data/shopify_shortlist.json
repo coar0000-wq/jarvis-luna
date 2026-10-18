@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T03:30:47.627023+00:00",
+  "generated_at": "2026-10-18T03:46:15.317131+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -71,7 +71,7 @@
       },
       "added_at": "2026-09-29T10:03:26.384563+00:00",
       "status": "active",
-      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, manufacturer_safety_record_missing, price"
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, manufacturer_safety_record_missing"
     },
     {
       "unit_id": "VG-CP000216",

@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-10-18T03:40:38.911003+00:00",
+  "generated_at": "2026-10-18T03:46:41.758937+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -36,7 +36,7 @@
     {
       "priority": 4,
       "title": "팀 자동조치 감시 · 리스팅 제작팀",
-      "detail": "가격 6건 자동 재생성·재검증 필요",
+      "detail": "가격 4건 자동 재생성·재검증 필요",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -72,7 +72,7 @@
       },
       {
         "n": 4,
-        "text": "팀 자동조치 감시 · 리스팅 제작팀 — 가격 6건 자동 재생성·재검증 필요"
+        "text": "팀 자동조치 감시 · 리스팅 제작팀 — 가격 4건 자동 재생성·재검증 필요"
       },
       {
         "n": 5,

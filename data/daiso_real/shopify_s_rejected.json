@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:30:47.041994+00:00",
+  "generated_at": "2026-10-18T03:46:14.932725+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 59,
   "items": [
@@ -274,16 +274,6 @@
       "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn"
     },
     {
-      "canonical_product_id": "CP000234",
-      "pd_no": "1068861",
-      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
-      "bucket": "스킨케어",
-      "shopify_score": 90,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak"
-    },
-    {
       "canonical_product_id": "CP000344",
       "pd_no": "1071640",
       "name": "파티온 노스카나인 퍼스트스텝 세럼클렌저 100 ml",
@@ -402,6 +392,16 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,348건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000088",
+      "pd_no": "1044967",
+      "name": "어퓨 더퓨어 티트리 에센스 50ml",
+      "bucket": "스킨케어",
+      "shopify_score": 86,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 838건 (글로벌 시그널 약함)"
     }
   ]
 }

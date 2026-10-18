@@ -27,7 +27,8 @@
           "run_started_at": "2026-10-06T00:50:13Z",
           "status": "completed"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": {
@@ -55,7 +56,8 @@
           "run_started_at": "2026-10-04T22:20:48Z",
           "status": "completed"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": {
@@ -83,7 +85,8 @@
           "run_started_at": "2026-10-03T22:08:48Z",
           "status": "completed"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": null,
@@ -135,7 +138,8 @@
           "run_started_at": "2026-10-05T08:20:49Z",
           "status": "completed"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": {
@@ -377,7 +381,8 @@
           "workflow_id": 340397025,
           "workflow_url": "https://api.github.com/repos/coar0000-wq/jarvis-luna/actions/workflows/340397025"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": {
@@ -619,7 +624,8 @@
           "workflow_id": 340397025,
           "workflow_url": "https://api.github.com/repos/coar0000-wq/jarvis-luna/actions/workflows/340397025"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": {
@@ -861,7 +867,8 @@
           "workflow_id": 340397025,
           "workflow_url": "https://api.github.com/repos/coar0000-wq/jarvis-luna/actions/workflows/340397025"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": {
@@ -1103,7 +1110,8 @@
           "workflow_id": 340397025,
           "workflow_url": "https://api.github.com/repos/coar0000-wq/jarvis-luna/actions/workflows/340397025"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "collection_scope": {
@@ -1345,7 +1353,8 @@
           "workflow_id": 340397025,
           "workflow_url": "https://api.github.com/repos/coar0000-wq/jarvis-luna/actions/workflows/340397025"
         },
-        "superseded": false
+        "superseded": true,
+        "superseded_by": "39084067267:1:collect"
       }
     ],
     "input_errors": [],
@@ -1356,32 +1365,32 @@
       "max_created_start_inversion_seconds": 1
     },
     "operating_staleness": {
-      "attempt_age_hours": 0.883,
+      "attempt_age_hours": 1.852,
       "attempt_stale": false,
-      "candidate_success_age_hours": 0.883,
-      "candidates_new": 16,
+      "candidate_success_age_hours": 1.852,
+      "candidates_new": 81,
       "candidates_updated": 0,
       "data_stale": true,
       "is_candidate_collection": true,
       "is_failure": false,
       "is_no_change": false,
-      "last_attempt_at": "2026-10-17T13:28:14.149652+00:00",
+      "last_attempt_at": "2026-10-18T01:50:29.138531+00:00",
       "last_attempt_status": "candidates_collected",
-      "last_candidate_success_at": "2026-10-17T13:28:14.149652+00:00",
+      "last_candidate_success_at": "2026-10-18T01:50:29.138531+00:00",
       "last_success_at": "2026-09-29T00:48:58.284474+00:00",
-      "reason": "신규 비교 후보 수집 정상 완료: 신규 16건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
+      "reason": "신규 비교 후보 수집 정상 완료: 신규 81건 · 재확인 0건 · 운영 상품 유지 · 운영 상품 유효 수집은 오래됨 또는 검증 불가",
       "status": "success",
-      "success_age_hours": 445.537
+      "success_age_hours": 458.877
     },
     "public_authority": false,
     "schema_version": 1,
     "scopes": {
       "candidate_discovery": {
-        "candidate_count": 100,
-        "completed_at": "2026-10-17T13:28:14.149652+00:00",
-        "execution_id": "39035849660:1:collect",
+        "candidate_count": 181,
+        "completed_at": "2026-10-18T01:50:29.138531+00:00",
+        "execution_id": "39084067267:1:collect",
         "reason": "candidates",
-        "requested": 20,
+        "requested": 110,
         "status": "success",
         "verified": true
       },
@@ -1390,7 +1399,7 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata",
-          "requested": 20
+          "requested": 110
         },
         "reason": "bound_collection_scope_published",
         "status": "success",
@@ -1416,9 +1425,9 @@
     },
     "status": "failed"
   },
-  "history_path": "data/agents/daiso_pipeline_history/84b3a7fec52d1aa52f9e51d85fb7e8e4f62d487afcafe8ad5c0a2f6a3d844662.json",
-  "observed_at": "2026-10-17T14:21:12.547496+00:00",
+  "history_path": "data/agents/daiso_pipeline_history/572ab089725aef5a57b5bdefdc4a2a68428ca5957b2c1682fc16e230fbbf458a.json",
+  "observed_at": "2026-10-18T03:41:34.857273+00:00",
   "public_authority": false,
   "schema_version": 1,
-  "validation_sha256": "84b3a7fec52d1aa52f9e51d85fb7e8e4f62d487afcafe8ad5c0a2f6a3d844662"
+  "validation_sha256": "572ab089725aef5a57b5bdefdc4a2a68428ca5957b2c1682fc16e230fbbf458a"
 }

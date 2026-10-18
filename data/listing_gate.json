@@ -1,18 +1,18 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-18T03:30:47.801126+00:00",
+  "generated_at": "2026-10-18T03:46:15.424490+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "daaa39ad0456dfcd7cc73ef8e0556412200ac477b03961c9d6cafa61c1683302",
+      "data/product_master.json": "c1e4edb52da18eafdc7bc27a500d2343da39818eb04dc5ff4faa2bcf6bfeb189",
       "data/gosi.json": "65c4a1bf58af9ecfd59a8526718d38eb4a2dce44a4048d49eeb268e96c4e73d7",
       "data/daiso_real/daiso_us_labels.json": "0083b942f5e41e029e87320d779363a6669d6c5978c03955dac71594f1275a10",
-      "data/pricing_model.json": "b3436024dd2925ab68c5f026825131245dc04b8d43fd8f26a1439efd392abe04",
-      "data/legal_products.json": "e2901fc5e960404081ce36ce9ed09a1e24fe61a67fbebc9ab92441e3d8333321",
-      "data/daiso_real/shopify_s_recommendations.json": "6e55dca2ff9e7f631ae640ce2a12d61714cc40da1e383836e474da4ce5d52cba",
+      "data/pricing_model.json": "08fee0f6edd75cc8836f88ff2dec36d1e93f1ffd8cff39d685a2e12271232c70",
+      "data/legal_products.json": "be6dbf6a888cd5ffd43b9da580206c4ea3273860ecf36e398fd654ee0cceeef1",
+      "data/daiso_real/shopify_s_recommendations.json": "dbcf31ef40943d8bbeabe595a419556db631097345981b470b6d0bbb6f14f85c",
       "data/shopify_listing_copy.json": "141d8cf3e77594212726b9cded932f08330bf22604f3977b2e53813692ecc514",
-      "data/shopify_shortlist.json": "3ea0ccd3ef0f5d719722ea7765b8d79ceaba94664bfa72c3c74a6f6f6fae0c0e",
+      "data/shopify_shortlist.json": "ad0bd0a93d3a2a4103156804812250880717de56267a657660b71684d93524bc",
       "data/legal_full.json": "4d1102e1c9a323b4872784a88a28c9137e6d706a6ea90904178fa2811f115fd5",
       "data/mocra_readiness.json": "864702369d469879d5dd7ff1899efab917aca8aa7bd2f5a3fea779f0dc539e77",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
@@ -24,7 +24,7 @@
       "masked/manufacturer_safety_record": "d77fd639a012be272427ae7a18c79b6423d5f677771a7a3cbd641f24450daa77",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "4b0255dbbcb6ef13febd930b423231fed119bc1f43e17503e8e1a16e480b978b"
+    "recommendations_sha256": "18dcf34035fdfb6b71b6d2cd63421db4a58764f3d021a75b6016dafd641bad14"
   },
   "total": 7,
   "agent_ready": 0,
@@ -36,7 +36,7 @@
     "copy": 0,
     "gosi": 4,
     "us_label": 4,
-    "price": 1,
+    "price": 3,
     "legal": 3,
     "manufacturer_safety_record": 0,
     "legal_full": 0
@@ -45,7 +45,7 @@
     "copy": 7,
     "gosi": 3,
     "us_label": 3,
-    "price": 6,
+    "price": 4,
     "legal": 4,
     "manufacturer_safety_record": 7
   },
@@ -105,14 +105,12 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 59.3,
-        "register_blocked": true,
-        "price_evidence_ok": false,
-        "price_evidence_source": "oliveyoung_us_benchmark",
-        "price_evidence_reasons": [
-          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
-        ],
+        "price_usd": 23.99,
+        "margin_pct": 60.9,
+        "register_blocked": false,
+        "price_evidence_ok": true,
+        "price_evidence_source": "serpapi_google_shopping",
+        "price_evidence_reasons": [],
         "profit_warnings": [],
         "blocks_registration": false
       },
@@ -127,19 +125,16 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "price",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
         "copy",
-        "price",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "price",
         "manufacturer_safety_record_missing",
         "legal_full"
       ],
@@ -153,18 +148,17 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "critical",
-        "risk_points": 4,
+        "risk_level": "high",
+        "risk_points": 3,
         "team_routes": [
           "legal",
-          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, price, manufacturer_safety_record_missing",
-          "public blockers: copy, price, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -198,14 +192,12 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 51.8,
-        "register_blocked": true,
-        "price_evidence_ok": false,
-        "price_evidence_source": "oliveyoung_us_benchmark",
-        "price_evidence_reasons": [
-          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
-        ],
+        "price_usd": 19.99,
+        "margin_pct": 44.9,
+        "register_blocked": false,
+        "price_evidence_ok": true,
+        "price_evidence_source": "serpapi_google_shopping",
+        "price_evidence_reasons": [],
         "profit_warnings": [],
         "blocks_registration": false
       },
@@ -220,19 +212,16 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "price",
         "manufacturer_safety_record_missing"
       ],
       "ready": false,
       "blocked_by": [
         "copy",
-        "price",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "price",
         "manufacturer_safety_record_missing",
         "legal_full"
       ],
@@ -246,18 +235,17 @@
         "enforced": false,
         "grade_advisory": "keep_s",
         "legal_gate_advisory": "review",
-        "risk_level": "critical",
-        "risk_points": 4,
+        "risk_level": "high",
+        "risk_points": 3,
         "team_routes": [
           "legal",
-          "pricing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, price, manufacturer_safety_record_missing",
-          "public blockers: copy, price, manufacturer_safety_record_missing, legal_full",
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
@@ -388,8 +376,8 @@
         "us_label_ok": true
       },
       "price": {
-        "price_usd": 19.99,
-        "margin_pct": 41.1,
+        "price_usd": 31.99,
+        "margin_pct": 62.5,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -683,13 +671,13 @@
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 22.99,
-        "margin_pct": 48.5,
+        "price_usd": 25.99,
+        "margin_pct": 54.3,
         "register_blocked": true,
         "price_evidence_ok": false,
-        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_source": "serpapi_google_shopping",
         "price_evidence_reasons": [
-          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+          "price_evidence_volume_unverified_product"
         ],
         "profit_warnings": [],
         "blocks_registration": false

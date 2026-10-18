@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T03:30:47.041994+00:00",
+  "generated_at": "2026-10-18T03:46:14.932725+00:00",
   "total_products": 356,
   "grade_summary": {
     "S": 7,
@@ -1460,14 +1460,15 @@
           "match_score": 0.255
         },
         {
-          "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
-          "similarity": 0.453,
-          "demand_weight": 0.475,
+          "channel": "ulta_beauty",
+          "global_product": "Power-C Firming & Brightening Serum Capsules",
+          "similarity": 0.514,
+          "demand_weight": 0.425,
           "matched_tokens": [
-            "retinol"
+            "firming",
+            "serum"
           ],
-          "match_score": 0.215
+          "match_score": 0.219
         }
       ],
       "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum",
@@ -3342,6 +3343,86 @@
       "downgrade_reason": "전담팀 범위 밖 카테고리"
     },
     {
+      "pd_no": "1068861",
+      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "bucket": "스킨케어",
+      "site_category": "패치",
+      "rebucketed": false,
+      "price_krw": 2000,
+      "rating": 4.7,
+      "review_count": 953,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068861",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
+      "shopify_score": 90,
+      "grade": "A",
+      "s_rule": "no_category_desk",
+      "us_market_hits": 13,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 18.1,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+        "similarity": 0.7,
+        "demand_weight": 0.425,
+        "matched_tokens": [
+          "brightening",
+          "cream"
+        ],
+        "match_score": 0.297
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+          "similarity": 0.7,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening",
+            "cream"
+          ],
+          "match_score": 0.297
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.468,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.167
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
+          "similarity": 0.344,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.146
+        }
+      ],
+      "recommend_reason": "글로벌 'Dose Of Wisdom Dark Circle Brightening Eye Cream' (ulta_beauty) 유사 70% · 토큰 brightening, cream",
+      "canonical_product_id": "CP000234",
+      "desk": null,
+      "downgrade_reason": "전담팀 범위 밖 카테고리"
+    },
+    {
       "pd_no": "1062781",
       "name": "더마블록 PDRN 콜라겐크림 50 ml (by 셀퓨전씨)",
       "bucket": "스킨케어",
@@ -3422,73 +3503,6 @@
       "canonical_product_id": "CP000190",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
-    },
-    {
-      "pd_no": "1068861",
-      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
-      "bucket": "스킨케어",
-      "site_category": "패치",
-      "rebucketed": false,
-      "price_krw": 2000,
-      "rating": 4.7,
-      "review_count": 953,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068861",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
-      "shopify_score": 90,
-      "grade": "A",
-      "s_rule": "match_too_weak",
-      "us_market_hits": 13,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 18.1,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 4,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.468,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.167
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.468,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.167
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
-          "similarity": 0.344,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.146
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak",
-      "canonical_product_id": "CP000234",
-      "desk": null
     },
     {
       "pd_no": "1071640",
@@ -4488,7 +4502,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "shopify_score": 85,
       "grade": "A",
-      "s_rule": "no_category_desk",
+      "s_rule": "form_cap",
       "us_market_hits": 21,
       "us_median_price_usd": 28.0,
       "score_breakdown": {
@@ -4555,7 +4569,7 @@
       "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000325",
       "desk": null,
-      "downgrade_reason": "전담팀 범위 밖 카테고리"
+      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
     },
     {
       "pd_no": "1072803",
@@ -7069,13 +7083,13 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
-          "similarity": 0.644,
+          "global_product": "Vitamin Enriched Face Base+ Moisturizer & Primer with Vitamin C + Hyaluronic Acid",
+          "similarity": 0.633,
           "demand_weight": 0.425,
           "matched_tokens": [
             "moisturizer"
           ],
-          "match_score": 0.274
+          "match_score": 0.269
         }
       ],
       "recommend_reason": "글로벌 'Royal Tulip Moisturizing Nectar' (ulta_beauty) 유사 67% · 토큰 moisturizer · S제외:score_below_82",
@@ -7456,15 +7470,15 @@
           "match_score": 0.305
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CeraVe Super Boost Anti-Aging Serum with Peptides & Hyaluronic Acid | Face Serum with Ceramides, Peptides, Hyaluronic Acid, Vitamin B12 & LHA, Fine Lines & Wrinkles, Hydrating Milky Texture",
-          "similarity": 0.647,
-          "demand_weight": 0.375,
+          "channel": "ulta_beauty",
+          "global_product": "High Potency Hyaluronic Intensive Hydrating Serum",
+          "similarity": 0.7,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "hydrating",
             "serum"
           ],
-          "match_score": 0.243
+          "match_score": 0.297
         }
       ],
       "recommend_reason": "글로벌 'The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin' (amazon_best_sellers) 유사 67% · 토큰 hydrating, serum · S제외:score_below_82",
@@ -9057,6 +9071,85 @@
       "desk": "skincare"
     },
     {
+      "pd_no": "1068858",
+      "name": "메디필 멜라논엑스 기미크림 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "크림",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 13,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+        "similarity": 0.7,
+        "demand_weight": 0.425,
+        "matched_tokens": [
+          "brightening",
+          "cream"
+        ],
+        "match_score": 0.297
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+          "similarity": 0.7,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening",
+            "cream"
+          ],
+          "match_score": 0.297
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.468,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.167
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
+          "similarity": 0.344,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.146
+        }
+      ],
+      "recommend_reason": "글로벌 'Dose Of Wisdom Dark Circle Brightening Eye Cream' (ulta_beauty) 유사 70% · 토큰 brightening, cream · S제외:score_below_82",
+      "canonical_product_id": "CP000233",
+      "desk": "skincare"
+    },
+    {
       "pd_no": "1056104",
       "name": "쿤달 리치 퍼퓸 바디워시 500 ml 화이트머스크",
       "bucket": "바디케어",
@@ -9285,73 +9378,6 @@
       ],
       "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:score_below_82",
       "canonical_product_id": "CP000246",
-      "desk": "skincare"
-    },
-    {
-      "pd_no": "1068858",
-      "name": "메디필 멜라논엑스 기미크림 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "크림",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
-      "shopify_score": 60,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 13,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 4,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.468,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.167
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.468,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.167
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
-          "similarity": 0.344,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.146
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
-      "canonical_product_id": "CP000233",
       "desk": "skincare"
     },
     {
@@ -11689,14 +11715,15 @@
           "match_score": 0.255
         },
         {
-          "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
-          "similarity": 0.453,
-          "demand_weight": 0.475,
+          "channel": "ulta_beauty",
+          "global_product": "Power-C Firming & Brightening Serum Capsules",
+          "similarity": 0.514,
+          "demand_weight": 0.425,
           "matched_tokens": [
-            "retinol"
+            "firming",
+            "serum"
           ],
-          "match_score": 0.215
+          "match_score": 0.219
         }
       ],
       "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum · S제외:score_below_82",
@@ -14729,6 +14756,164 @@
       "desk": null
     },
     {
+      "pd_no": "B202608127176",
+      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "bucket": "스킨케어",
+      "site_category": "패치",
+      "rebucketed": false,
+      "price_krw": 32000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127176&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 13,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+        "similarity": 0.7,
+        "demand_weight": 0.425,
+        "matched_tokens": [
+          "brightening",
+          "cream"
+        ],
+        "match_score": 0.297
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+          "similarity": 0.7,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening",
+            "cream"
+          ],
+          "match_score": 0.297
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.468,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.167
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
+          "similarity": 0.344,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.146
+        }
+      ],
+      "recommend_reason": "글로벌 'Dose Of Wisdom Dark Circle Brightening Eye Cream' (ulta_beauty) 유사 70% · 토큰 brightening, cream · S제외:score_below_82",
+      "canonical_product_id": "CP000332",
+      "desk": null
+    },
+    {
+      "pd_no": "B202604026744",
+      "name": "메디필 멜라논엑스 기미크림 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "크림",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 13,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 7,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+        "similarity": 0.7,
+        "demand_weight": 0.425,
+        "matched_tokens": [
+          "brightening",
+          "cream"
+        ],
+        "match_score": 0.297
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Dose Of Wisdom Dark Circle Brightening Eye Cream",
+          "similarity": 0.7,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening",
+            "cream"
+          ],
+          "match_score": 0.297
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+          "similarity": 0.357,
+          "demand_weight": 0.468,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.167
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
+          "similarity": 0.344,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "brightening"
+          ],
+          "match_score": 0.146
+        }
+      ],
+      "recommend_reason": "글로벌 'Dose Of Wisdom Dark Circle Brightening Eye Cream' (ulta_beauty) 유사 70% · 토큰 brightening, cream · S제외:score_below_82",
+      "canonical_product_id": "CP000321",
+      "desk": "skincare"
+    },
+    {
       "pd_no": "B202604026651",
       "name": "본셉 디판테놀 동결건조 더블샷 앰플 키트",
       "bucket": "스킨케어",
@@ -15038,140 +15223,6 @@
       "recommend_reason": "글로벌 'Calming Lotus Cream' (sokoglam_us) 유사 40% · 토큰 calming · S제외:score_below_82",
       "canonical_product_id": "CP000140",
       "desk": null
-    },
-    {
-      "pd_no": "B202608127176",
-      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
-      "bucket": "스킨케어",
-      "site_category": "패치",
-      "rebucketed": false,
-      "price_krw": 32000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127176&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 13,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 4,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.468,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.167
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.468,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.167
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
-          "similarity": 0.344,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.146
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
-      "canonical_product_id": "CP000332",
-      "desk": null
-    },
-    {
-      "pd_no": "B202604026744",
-      "name": "메디필 멜라논엑스 기미크림 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "크림",
-      "rebucketed": false,
-      "price_krw": 60000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 13,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 4,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.468,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.167
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.468,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.167
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Eye Gotta Glow Brightening Under-Eye Mask 6-Pack",
-          "similarity": 0.344,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.146
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
-      "canonical_product_id": "CP000321",
-      "desk": "skincare"
     },
     {
       "pd_no": "B202608127273",

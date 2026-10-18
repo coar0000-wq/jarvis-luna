@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-18T03:30:47.562911+00:00",
+  "generated_at": "2026-10-18T03:46:15.272916+00:00",
   "generator": "scripts/build_product_master.py",
   "source": "data/daiso_real/products.json",
   "id_policy": "pd_no에 최초 CP 발급 후 재사용·재번호 부여 금지",
@@ -5104,7 +5104,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T03:30:47.463045+00:00"
+        "gate_generated_at": "2026-10-18T03:46:15.200326+00:00"
       }
     },
     {
@@ -5161,10 +5161,9 @@
         "ready": false,
         "blocked_by": [
           "copy",
-          "price",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T03:30:47.463045+00:00"
+        "gate_generated_at": "2026-10-18T03:46:15.200326+00:00"
       }
     },
     {
@@ -6465,10 +6464,9 @@
         "ready": false,
         "blocked_by": [
           "copy",
-          "price",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T03:30:47.463045+00:00"
+        "gate_generated_at": "2026-10-18T03:46:15.200326+00:00"
       }
     },
     {
@@ -11359,7 +11357,7 @@
           "copy",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T03:30:47.463045+00:00"
+        "gate_generated_at": "2026-10-18T03:46:15.200326+00:00"
       }
     },
     {
@@ -12094,7 +12092,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T03:30:47.463045+00:00"
+        "gate_generated_at": "2026-10-18T03:46:15.200326+00:00"
       }
     },
     {
@@ -12227,17 +12225,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.357,
+        "match_score": 0.7,
         "demand_score": 0.9231,
         "review_score": 0.0,
-        "final_score": 0.448,
+        "final_score": 0.5681,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -12270,7 +12268,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
       "shopify_score": 90,
       "grade": "A",
-      "s_rule": "match_too_weak",
+      "s_rule": "no_category_desk",
       "score_breakdown": {
         "category": 25.0,
         "rating": 11.7,
@@ -12279,17 +12277,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.357,
+        "match_score": 0.7,
         "demand_score": 0.9231,
         "review_score": 0.8514,
-        "final_score": 0.7035,
+        "final_score": 0.8235,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -13505,7 +13503,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T03:30:47.463045+00:00"
+        "gate_generated_at": "2026-10-18T03:46:15.200326+00:00"
       }
     },
     {
@@ -14136,7 +14134,7 @@
           "legal",
           "manufacturer_safety_record_missing"
         ],
-        "gate_generated_at": "2026-10-18T03:30:47.463045+00:00"
+        "gate_generated_at": "2026-10-18T03:46:15.200326+00:00"
       }
     },
     {
@@ -17857,17 +17855,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.357,
+        "match_score": 0.7,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.3996,
+        "final_score": 0.5196,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
@@ -18056,7 +18054,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260205/Cg7pPAF0QMRSGGKdsWZw1075857_00_01Cg7pPAF0QMRSGGKdsWZw.jpg",
       "shopify_score": 85,
       "grade": "A",
-      "s_rule": "no_category_desk",
+      "s_rule": "form_cap",
       "score_breakdown": {
         "category": 25.0,
         "rating": 13.3,
@@ -18585,17 +18583,17 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 4,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "component_scores": {
-        "match_score": 0.357,
+        "match_score": 0.7,
         "demand_score": 0.7846,
         "review_score": 0.0,
-        "final_score": 0.3996,
+        "final_score": 0.5196,
         "model": "parallel_v1_observational",
         "used_for_grade": false
       },
