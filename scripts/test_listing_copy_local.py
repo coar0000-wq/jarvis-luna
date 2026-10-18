@@ -38,7 +38,7 @@ class ListingCopyLocalTest(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         root = Path(self.tmp.name)
         self.src, self.gate, self.out = (root / n for n in ("source.json", "gate.json", "copy.json"))
-        for attr, value in (("SRC", self.src), ("GATE", self.gate), ("OUT", self.out)):
+        for attr, value in (("ROOT", root), ("SRC", self.src), ("GATE", self.gate), ("OUT", self.out)):
             p = patch.object(listing, attr, value)
             p.start()
             self.addCleanup(p.stop)
@@ -107,6 +107,23 @@ class ListingCopyLocalTest(unittest.TestCase):
                 self.assertEqual(result["items"][0]["copy"], verified)
                 self.assertEqual(result["generated_local"], 0)
                 self.assertEqual(result["items"][0]["generation_mode"], mode or "carried_verified_copy")
+                self.assertEqual(result["items"][0]["copy_status"], "review_required")
+                self.assertEqual(result["ok"], 0)
+                self.assertEqual(result["review_required"], 1)
+                self.assertEqual(listing.verify_current(
+                    result, {"canonical": True, "recommendations": [product()]}, {"items": [gate()]}), {"1"})
+                # A subsequent run must not erase text just because it is held.
+                again = self.run_fixture()
+                self.assertEqual(again["items"], result["items"])
+
+    def test_changed_source_facts_hold_old_copy_instead_of_reapproving(self):
+        first = self.run_fixture()
+        changed = gate()
+        changed["us_label"]["net_contents"] = "100 ml"
+        result = self.run_fixture(gates=[changed])
+        self.assertEqual(result["items"][0]["copy"], first["items"][0]["copy"])
+        self.assertEqual(result["items"][0]["copy_status"], "review_required")
+        self.assertTrue(result["items"][0]["product_accuracy"]["unsupported_fields"])
 
     def test_skipped_prerequisite_recovers_when_agent_ready(self):
         old = {"pd_no": "1", "copy_status": "skipped_prerequisite", "generation_mode": "none",

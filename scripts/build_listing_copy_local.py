@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """S등급 상품의 누락 영문 카피를 무료·로컬 템플릿으로 보완한다.
 
-기존 검증 카피는 그대로 보존한다. 현재 listing gate의 agent_ready 상품 중
+기존 카피는 보존하며 현재 근거와 맞지 않으면 검토 대기로 표시한다. 현재 listing gate의 agent_ready 상품 중
 카피가 없거나 v1 로컬 초안인 상품, 예전 선행 게이트 때문에 건너뛴 상품만
 처리한다. 제품명·제형·용량 사실만 쓰며 효능·인증·원산지를 추정하지 않는다.
 외부 API와 유료 모델은 호출하지 않는다.
@@ -14,6 +14,11 @@ from html import escape
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+
+try:
+    import product_accuracy
+except ModuleNotFoundError:
+    from . import product_accuracy
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -160,7 +165,7 @@ def verify_current(doc, source, gate):
     for key in ("generated_at", "generator", "model", "source", "note"):
         if not isinstance(doc.get(key), str) or not doc[key].strip():
             raise ValueError("blank current copy provenance")
-    eligible = 0
+    eligible = review_required = 0
     for pd_no, row in current.items():
         gr = gates[pd_no]
         for target, key in (("name_ko", "name"), ("bucket", "bucket"), ("price_krw", "price_krw"),
@@ -178,8 +183,16 @@ def verify_current(doc, source, gate):
                 raise ValueError("blocked current copy must retain current gate blockers")
         else:
             eligible += 1
+            if row.get("copy_status") == "review_required":
+                if not isinstance(row.get("copy"), dict):
+                    raise ValueError("held current copy must retain its text")
+                review_required += 1
+            elif row.get("copy_status") != "ok":
+                raise ValueError("eligible current copy must be ok or review_required")
     if (doc.get("total") != len(current) or doc.get("eligible") != eligible
-            or doc.get("ok") != eligible or doc.get("skipped_prerequisite") != len(current) - eligible):
+            or doc.get("ok") != eligible - review_required
+            or doc.get("review_required", 0) != review_required
+            or doc.get("skipped_prerequisite") != len(current) - eligible):
         raise ValueError("current copy counters do not match canonical gate")
     return set(canonical)
 
@@ -311,27 +324,38 @@ def main() -> int:
             skipped += 1
             continue
 
-        if (old.get("copy_status") == "ok"
+        neutral = local_copy(clean(product.get("name")), gate_row)
+        accuracy_product = {**product, "brand_english": brand_of(clean(product.get("name"))),
+                            "net_contents": volume_of(gate_row, clean(product.get("name")))}
+        if (old.get("copy_status") in ("ok", "review_required")
                 and isinstance(old.get("copy"), dict)
                 and old.get("generation_mode") != LEGACY_LOCAL_MODE):
+            accuracy = product_accuracy.review_copy(accuracy_product, old["copy"], neutral, ROOT)
+            held = bool(accuracy["unsupported_fields"] or accuracy["source_conflicts"])
             items.append({
                 **common,
                 "copy": old["copy"],
-                "copy_status": "ok",
+                # Preserve human/external text, but never carry its old 'ok' as
+                # factual approval. The independent review is recomputed.
+                "product_accuracy": accuracy,
+                "copy_status": "review_required" if held else "ok",
                 "generation_mode": old.get("generation_mode") or "carried_verified_copy",
                 "agent_blocked_by": [],
-                "error": "",
+                "error": "product_accuracy_copy_review_required" if held else "",
             })
             carried += 1
             continue
 
+        accuracy = product_accuracy.review_copy(accuracy_product, neutral, neutral, ROOT)
+        held = bool(accuracy["unsupported_fields"] or accuracy["source_conflicts"])
         items.append({
             **common,
-            "copy": local_copy(clean(product.get("name")), gate_row),
-            "copy_status": "ok",
+            "copy": neutral,
+            "product_accuracy": accuracy,
+            "copy_status": "review_required" if held else "ok",
             "generation_mode": LOCAL_MODE,
             "agent_blocked_by": [],
-            "error": "",
+            "error": "product_accuracy_copy_review_required" if held else "",
         })
         generated += 1
 
@@ -343,12 +367,13 @@ def main() -> int:
         "paid_api_called": False,
         "source": "data/daiso_real/shopify_s_recommendations.json",
         "note": (
-            "기존 검증 카피를 보존하고 누락분·v1 초안만 제품명·제형·용량 기반의 "
-            "보수적 영문 초안으로 생성한다. 효능·인증·임상 결과는 생성하지 않는다."
+            "기존 카피는 보존하며 근거와 맞지 않으면 검토 대기로 표시한다. 누락분·v1 초안만 "
+            "제품명·제형·용량 기반으로 생성하며, 효능·인증·임상 결과는 생성하지 않는다."
         ),
         "total": len(items),
         "eligible": carried + generated,
-        "ok": carried + generated,
+        "ok": sum(row["copy_status"] == "ok" for row in items),
+        "review_required": sum(row["copy_status"] == "review_required" for row in items),
         "failed": 0,
         "skipped_prerequisite": skipped,
         "carried_forward": carried,

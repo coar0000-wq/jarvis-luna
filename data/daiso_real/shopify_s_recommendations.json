@@ -44,6 +44,7 @@
       "public_blocked_by": [
         "copy",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "legal_full"
       ],
       "typesafe": {
@@ -65,13 +66,13 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T13:25:10.717444+00:00"
+      "gate_generated_at": "2026-10-18T15:24:21.755897+00:00"
     },
     {
       "rank": 2,
@@ -112,6 +113,7 @@
       "public_blocked_by": [
         "copy",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "legal_full"
       ],
       "typesafe": {
@@ -133,13 +135,13 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T13:25:10.717444+00:00"
+      "gate_generated_at": "2026-10-18T15:24:21.755897+00:00"
     },
     {
       "rank": 3,
@@ -182,6 +184,7 @@
         "copy",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -204,14 +207,14 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T13:25:10.717444+00:00"
+      "gate_generated_at": "2026-10-18T15:24:21.755897+00:00"
     },
     {
       "rank": 4,
@@ -252,6 +255,7 @@
       "public_blocked_by": [
         "copy",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "legal_full"
       ],
       "typesafe": {
@@ -273,13 +277,13 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, manufacturer_safety_record_missing",
-          "public blockers: copy, manufacturer_safety_record_missing, legal_full",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T13:25:10.717444+00:00"
+      "gate_generated_at": "2026-10-18T15:24:21.755897+00:00"
     },
     {
       "rank": 5,
@@ -329,6 +333,7 @@
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -352,14 +357,14 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T13:25:10.717444+00:00"
+      "gate_generated_at": "2026-10-18T15:24:21.755897+00:00"
     },
     {
       "rank": 6,
@@ -408,6 +413,7 @@
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -431,14 +437,14 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T13:25:10.717444+00:00"
+      "gate_generated_at": "2026-10-18T15:24:21.755897+00:00"
     },
     {
       "rank": 7,
@@ -478,6 +484,7 @@
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
         "market_price_review",
         "legal_full"
       ],
@@ -501,14 +508,14 @@
         "model_route_confidence": null,
         "findings": [
           "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, market_price_review, legal_full",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-18T13:25:10.717444+00:00"
+      "gate_generated_at": "2026-10-18T15:24:21.755897+00:00"
     }
   ],
   "agent_ready_count": 0,

@@ -15,6 +15,7 @@ D = ROOT / "data"
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
+import product_accuracy  # noqa: E402
 from operational_freshness import assess_collection  # noqa: E402
 
 
@@ -25,6 +26,23 @@ def load(path: Path):
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise AssertionError(message)
+
+
+def validate_public_gate(gate: dict, legal: dict) -> None:
+    """Draft readiness/legal completion never authorizes automatic activation."""
+    for row in gate.get("items") or []:
+        blockers = row.get("public_blocked_by") or []
+        require(product_accuracy.HOLD_REASON in blockers,
+                "gate owner-review publication hold missing")
+        require(row.get("public_ready") is False,
+                "gate automatic public activation must remain blocked")
+        require(set(row.get("blocked_by") or []) <= set(blockers),
+                "gate public blockers omit draft blockers")
+        complete = (legal.get("items") or {}).get(str(row.get("pd_no")), {}).get("complete")
+        require(complete or "legal_full" in blockers,
+                "gate public blockers omit legal_full")
+    require(type(gate.get("public_ready")) is int and gate["public_ready"] == 0,
+            "gate public_ready must be zero until owner activation outside automation")
 
 
 def validate_retained_blocked_exports(root, export_dir, *, include_manifest=False):
@@ -310,9 +328,7 @@ def main() -> int:
 
     require(legal.get("schema_version") == 3, "legal_full schema v3 필요")
     require(set((legal.get("items") or {}).keys()) == set(rec_by), "legal_full S 범위 불일치")
-    expected_public = sum(1 for k, row in gate_by.items()
-                          if row.get("ready") and (legal.get("items") or {}).get(k, {}).get("complete"))
-    require(gate.get("public_ready") == expected_public, "gate public_ready와 legal_full 불일치")
+    validate_public_gate(gate, legal)
     raw_ingredients = [x.get("ingredients_inci_raw", "") for x in (legal.get("items") or {}).values()]
     require(all("ingredients_inci_raw" in x for x in (legal.get("items") or {}).values()),
             "legal_full INCI 원문 누락")

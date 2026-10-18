@@ -487,43 +487,30 @@ class DailySafetyTests(unittest.TestCase):
                 self.assertEqual(results[0]["status"], "quarantine_readback_failed")
                 self.assertTrue(results[0]["manual_reconciliation_required"])
 
-    def test_banner_backfill_is_idempotent_text_only_and_scoped(self):
-        products = [{"id": "registered", "tags": []},
-                    {"id": "tagged", "tags": ["daiso-pd-77"]},
-                    {"id": "unrelated", "tags": ["other"]}]
-        state = {x: {"id": x, "title": x, "tags": ["daiso-pd-77"] if x == "tagged" else [], "status": "ACTIVE" if x == "registered" else "DRAFT",
-                     "publishedOnPublication": x == "registered", "descriptionHtml": "<p>Original.</p>"}
-                 for x in ("registered", "tagged", "unrelated")}
+    def test_banner_backfill_preserves_draft_active_and_human_text_without_calls(self):
+        products = [{"id": "registered", "tags": [], "status": "ACTIVE",
+                     "descriptionHtml": "<p>Human-reviewed active description.</p>"},
+                    {"id": "tagged", "tags": ["daiso-pd-77"], "status": "DRAFT",
+                     "descriptionHtml": "<p>Human-reviewed draft FAQ.</p>"},
+                    {"id": "unrelated", "tags": ["other"], "status": "DRAFT",
+                     "descriptionHtml": "<p>Unrelated human text.</p>"}]
+        original = copy.deepcopy(products)
         shop = MagicMock()
-        shop.read_product.side_effect = lambda id, pub: dict(state[id])
-        shop.update_description.side_effect = lambda id, html: state[id].update(descriptionHtml=html)
         registry = {"items": [{"shopify_id": "registered"}]}
-        first = daily.backfill_banner(shop, products, registry, "pub")
-        self.assertEqual([x["status"] for x in first], ["prefixed", "prefixed"])
-        self.assertTrue(state["registered"]["descriptionHtml"].startswith(daily.TAGLINE_HTML))
-        self.assertTrue(state["tagged"]["descriptionHtml"].startswith(daily.TAGLINE_HTML))
-        self.assertEqual(state["unrelated"]["descriptionHtml"], "<p>Original.</p>")
-        second = daily.backfill_banner(shop, products, registry, "pub")
-        self.assertEqual([x["status"] for x in second], ["already_prefixed", "already_prefixed"])
-        self.assertEqual(shop.update_description.call_count, 2)
-        self.assertEqual(state["registered"]["status"], "ACTIVE")
-        self.assertTrue(state["registered"]["publishedOnPublication"])
-        shop.read_product.assert_any_call("registered", "pub")
-        self.assertNotIn("unrelated", [call.args[0] for call in shop.read_product.call_args_list])
+        for publication in ("pub", None):
+            result = daily.backfill_banner(shop, products, registry, publication)
+            self.assertEqual([x["shopify_id"] for x in result], ["registered", "tagged"])
+            self.assertTrue(all(x["status"] == "skipped_automatic_banner_disabled" for x in result))
+            self.assertEqual(products, original)
+        self.assertEqual(shop.mock_calls, [])
 
-    def test_banner_backfill_rejects_publication_state_drift(self):
-        state = {"id": "p", "title": "T", "tags": ["daiso-daily"], "status": "DRAFT",
-                 "publishedOnPublication": False, "descriptionHtml": "<p>Old</p>"}
+    def test_banner_backfill_does_not_remove_existing_human_description(self):
+        body = "<p><strong>한국여성들이 즐겨찾는 제품</strong></p><p>Owner text.</p>"
+        products = [{"id": "p", "tags": ["daiso-daily"], "descriptionHtml": body}]
         shop = MagicMock()
-        shop.read_product.side_effect = lambda id, pub: dict(state)
-        def altered(id, html):
-            state["descriptionHtml"] = html
-            state["status"] = "ACTIVE"
-        shop.update_description.side_effect = altered
-        with self.assertRaisesRegex(RuntimeError, "state mismatch"):
-            daily.backfill_banner(shop, [{"id": "p", "tags": ["daiso-daily"]}], {"items": []}, "pub")
-        with self.assertRaisesRegex(RuntimeError, "publication state"):
-            daily.backfill_banner(shop, [{"id": "p", "tags": ["daiso-daily"]}], {"items": []}, None)
+        daily.backfill_banner(shop, products, {"items": []}, None)
+        self.assertEqual(products[0]["descriptionHtml"], body)
+        self.assertEqual(shop.mock_calls, [])
 
     def test_opt_in_quarantine_precedes_backfill_and_daily_cap(self):
         import os
@@ -541,7 +528,7 @@ class DailySafetyTests(unittest.TestCase):
                     results.append({"shopify_id": "p", "status": "quarantined_draft"})
                 def backfill(shop, products, reg, publication):
                     calls.append("backfill")
-                    return [{"shopify_id": "p", "status": "prefixed"}]
+                    return [{"shopify_id": "p", "status": "skipped_automatic_banner_disabled"}]
                 with patch.object(daily, "DRY_RUN", False), patch.object(daily, "BACKFILL_BANNER", True), \
                      patch.object(daily, "QUARANTINE_BLOCKED_PUBLIC", True), \
                      patch.object(daily, "Shopify", return_value=shop), \
@@ -558,26 +545,37 @@ class DailySafetyTests(unittest.TestCase):
             finally:
                 os.chdir(cwd)
 
-    def test_backfill_runs_before_daily_cap(self):
+    def test_old_enabled_banner_flag_preserves_existing_bodies_in_main(self):
         import os
         with tempfile.TemporaryDirectory() as folder:
             cwd = os.getcwd()
             os.chdir(folder)
             try:
                 shop = MagicMock()
-                shop.existing_products.return_value = []
+                products = [{"id": "draft", "tags": ["daiso-daily"], "status": "DRAFT",
+                             "descriptionHtml": "<p>Human-reviewed draft FAQ.</p>"},
+                            {"id": "active", "tags": ["daiso-daily"], "status": "ACTIVE",
+                             "descriptionHtml": "<p>Human-reviewed active description.</p>"}]
+                original = copy.deepcopy(products)
+                shop.existing_products.return_value = products
                 shop.online_store_publication.return_value = "pub"
                 registry = {"items": [{"date": "2026-10-10", "category": c[0]} for c in daily.CATEGORIES]}
                 with patch.object(daily, "DRY_RUN", False), patch.object(daily, "BACKFILL_BANNER", True), \
                      patch.object(daily, "Shopify", return_value=shop), \
                      patch.object(daily, "load_registry", return_value=registry), \
-                     patch.object(daily, "backfill_banner", return_value=[{"shopify_id": "p", "status": "prefixed"}]) as backfill, \
+                     patch.object(daily, "BACKFILL_DRAFT_IMAGES", False), \
+                     patch.object(daily, "QUARANTINE_BLOCKED_PUBLIC", False), \
                      patch.object(daily, "kst_today", return_value="2026-10-10"), \
                      patch.dict(os.environ, {"SHOPIFY_STORE": "test.myshopify.com", "SHOPIFY_ADMIN_TOKEN": "test"}):
                     self.assertEqual(daily.main(), 0)
-                    backfill.assert_called_once_with(shop, [], registry, "pub")
+                self.assertEqual(products, original)
+                shop.update_description.assert_not_called()
+                shop.set_status.assert_not_called()
+                shop.publish.assert_not_called()
                 result = json.loads(Path("out/daiso_daily_beauty_result.json").read_text(encoding="utf-8"))
-                self.assertEqual(result["banner_backfill"][0]["status"], "prefixed")
+                self.assertEqual(len(result["banner_backfill"]), 2)
+                self.assertTrue(all(r["status"] == "skipped_automatic_banner_disabled"
+                                    for r in result["banner_backfill"]))
                 self.assertTrue(all(r["status"] == "skipped_already_today" for r in result["results"]))
             finally:
                 os.chdir(cwd)
@@ -957,12 +955,42 @@ class DailySafetyTests(unittest.TestCase):
         code, result, registry, shop = self._run_main(pricing, lambda candidate: [candidate])
         self.assertEqual(code, 0)
         record = result["results"][0]
-        self.assertEqual(record["status"], "created")  # 건너뛰기도 초안도 아니다
-        self.assertEqual(record["draft_reasons"], [])
+        self.assertEqual(record["status"], "created_draft")  # Margins remain advisory; owner activates.
+        self.assertEqual(record["draft_reasons"], [daily.product_accuracy.HOLD_REASON])
         self.assertEqual(record["profitability_warnings"], warnings)
-        self.assertEqual(registry["items"][0]["status"], "ACTIVE")
+        self.assertEqual(registry["items"][0]["status"], "DRAFT")
         self.assertEqual(registry["items"][0]["profitability_warnings"], warnings)
-        shop.set_status.assert_called_with("gid://shopify/Product/123", "ACTIVE")
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+        self.assertFalse(record["product_accuracy"]["publication_allowed"])
+
+    def test_final_copy_review_binds_actual_label_quantity_and_stays_draft(self):
+        evidence = {"status": "RECORDED_SOURCE_BOUND", "reasons": [], "statements": [],
+                    "facts": {"product_name": "Bonsep Serum", "net_contents": "100 ml"}}
+        with patch.object(daily.product_accuracy, "source_evidence", return_value=evidence):
+            code, result, registry, shop = self._run_main(self._ok_pricing(), lambda candidate: [candidate])
+        self.assertEqual(code, 0)
+        record = result["results"][0]
+        review = record["product_accuracy"]
+        self.assertEqual(review["source_conflicts"], ["net_contents"])
+        self.assertEqual(review["input_copy_review"]["source_conflicts"], [])
+        self.assertEqual(review["selected_copy_sha256"], daily.product_accuracy._copy_digest(
+            {"title": "Bonsep Serum 30 ml", "description_html": "<p>Serum.</p>"}))
+        self.assertEqual(review["excluded_sections"], ["us_label", "retailer_source_marker"])
+        self.assertEqual(record["status"], "created_draft")
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+
+    def test_scraped_label_values_cannot_inject_markup_after_copy_review(self):
+        resolver = MagicMock()
+        resolver.to_inci.return_value = ("Water", [], [], [])
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", Path(folder)), \
+             patch.object(daily, "_inci_resolver", return_value=(resolver, None)):
+            label = daily.build_us_label("123", "Serum 30 ml", {
+                "ingredients": "Water", "maker": '<img src="x" onerror="alert(1)">',
+                "origin": "한국", "volume": "30 ml"})
+        self.assertNotIn("<img", label["html"])
+        self.assertIn("&lt;img", label["html"])
 
     # ------------------------------------------------------------------
     # 제조사 안전성 기록 게이트 (안전 게이트, 마진과 무관)
@@ -1085,7 +1113,7 @@ class DailySafetyTests(unittest.TestCase):
         covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}, "_synthetic_receipt_pd_no": "123"}
         code, result, registry, shop = self._run_main(self._ok_pricing(), lambda c: [c], safety_files=covered)
         self.assertEqual(code, 0)
-        self.assertEqual(result["results"][0]["status"], "created")
+        self.assertEqual(result["results"][0]["status"], "created_draft")
         shop.create.assert_called_once()
 
     def test_registration_fails_closed_before_creation_when_record_absent_or_deferred(self):
@@ -1109,7 +1137,7 @@ class DailySafetyTests(unittest.TestCase):
             self._ok_pricing(), lambda c: [{**c, "pdNo": "999", "pdNm": "다른 세럼 30 ml"}, c], safety_files=covered)
         self.assertEqual(code, 0)
         record = result["results"][0]
-        self.assertEqual(record["status"], "created")
+        self.assertEqual(record["status"], "created_draft")
         self.assertEqual(record["daiso_pdNo"], "123")
         shop.create.assert_called_once()
 
@@ -1364,8 +1392,15 @@ class DailySafetyTests(unittest.TestCase):
         shop.create.assert_not_called()
         self.assertEqual(registry["items"], [])
 
-    def test_banner_exact_prefix(self):
-        self.assertEqual(daily.TAGLINE_HTML, "<p><strong>한국여성들이 즐겨찾는 제품</strong></p>")
+    def test_new_draft_does_not_reinsert_unsupported_popularity_banner(self):
+        code, result, registry, shop = self._run_main(self._ok_pricing(), lambda c: [c])
+        self.assertEqual(code, 0)
+        created = shop.create.call_args.args[0]
+        self.assertNotIn("한국여성들이 즐겨찾는 제품", created["description_html"])
+        self.assertTrue(created["description_html"].startswith("<p>Serum.</p>"))
+        self.assertEqual(result["results"][0]["status"], "created_draft")
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
 
 
 class BodyCategoryFallbackIntegrationTests(unittest.TestCase):

@@ -26,6 +26,7 @@ from __future__ import annotations
 import hashlib
 import json
 import manufacturer_safety
+import product_accuracy
 from pathlib import Path
 from typing import Any
 
@@ -99,6 +100,16 @@ def agent_input_signature(recommendations: list[dict]) -> dict[str, Any]:
         manufacturer_safety.manufacturer_safety_record(row['pd_no'], DATA.parent))
         for row in recommendations if isinstance(row, dict) and row.get('pd_no')}
     hashes['masked/manufacturer_safety_record'] = sha256_bytes(_canonical(masked_safety))
+    # Re-read the evidence and freshness clock on every gate check. Capture
+    # changes, revocation and expiry invalidate cached reviews, without exposing
+    # private ledger paths or captured statements in the public signature.
+    masked_accuracy = {}
+    for row in recommendations:
+        if isinstance(row, dict) and row.get('pd_no'):
+            evidence = product_accuracy.source_evidence(row, DATA.parent)
+            masked_accuracy[str(row['pd_no'])] = {
+                key: evidence.get(key) for key in ('status', 'reasons', 'evidence_digest')}
+    hashes['masked/product_accuracy_evidence'] = sha256_bytes(_canonical(masked_accuracy))
     sop = DATA / "manual" / "mocra_adverse_event_sop.md"
     try:
         # Newline encoding is not legal meaning; real text and readability still bind.

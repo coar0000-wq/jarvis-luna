@@ -48,6 +48,7 @@ jobs:
           python scripts/test_daiso_collection_validation.py
           python scripts/test_daiso_candidates.py
           python scripts/test_recover_daiso_candidates.py
+          python -B -m unittest discover -s tests -p "test_product_accuracy.py"
           python scripts/test_listing_copy_local.py
           python -B -m unittest discover -s scripts -p "test_listing_copy_publication.py"
           python -B -m unittest discover -s scripts -p "test_shopify_import_report_publication.py"

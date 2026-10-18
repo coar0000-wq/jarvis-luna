@@ -41,6 +41,11 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import gate_signature  # noqa: E402
+import product_accuracy  # noqa: E402
+import build_listing_copy_local as local_copy_builder  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 COPY = ROOT / "data" / "shopify_listing_copy.json"
 PRICING = ROOT / "data" / "pricing_model.json"
@@ -232,8 +237,8 @@ def main() -> int:
     # 등록 게이트. 네 조건을 모두 통과한 상품만 CSV 에 넣는다.
     # 고시·실측·법률이 비어 있는 상품이 스토어에 올라가는 것을 막는 장치다.
     gate_path = ROOT / "data" / "listing_gate.json"
-    gate = {}
-    gate_note = "listing_gate.json 없음 - 게이트 미적용"
+    gate, g = {}, {}
+    gate_note = "listing_gate.json 없음 - CSV 차단"
     try:
         g = json.loads(gate_path.read_text(encoding="utf-8-sig"))
         gate = {str(r.get("pd_no")): r for r in g.get("items") or []}
@@ -241,6 +246,9 @@ def main() -> int:
                      f"등록 가능 {g.get('ready',0)}/{g.get('total',0)}")
     except (OSError, json.JSONDecodeError, UnicodeDecodeError):
         pass
+
+    gate_stale = gate_signature.stale_reason(g)
+    products = {str(p.get("pd_no")): p for p in gate_signature.current_recommendations()}
 
     rows, skipped = [], []
     for it in doc.get("items", []):
@@ -252,9 +260,34 @@ def main() -> int:
                             "reason": f"등록 게이트 미통과 - {miss} 미완료"})
             continue
         c = it.get("copy")
+        if it.get("copy_status") == "review_required":
+            skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                            "reason": "product_accuracy_copy_review_required"})
+            continue
         if not c:
             skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
                             "reason": it.get("error") or "카피 없음"})
+            continue
+
+        # Direct CLI runs must be as conservative as the workflow. Saved ready/
+        # ok flags are not approval, and old evidence may have expired/revoked.
+        if not gr or gr.get("ready") is not True or gate_stale:
+            skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                            "reason": "listing_gate_missing_or_stale"})
+            continue
+        product = products.get(str(it.get("pd_no")))
+        if not product or not product.get("name"):
+            skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                            "reason": "product_accuracy_product_identity_missing"})
+            continue
+        name = product["name"]
+        accuracy_product = {**product, "brand_english": local_copy_builder.brand_of(name),
+                            "net_contents": local_copy_builder.volume_of(gr, name)}
+        review = product_accuracy.review_copy(
+            accuracy_product, c, local_copy_builder.local_copy(name, gr), ROOT)
+        if review["unsupported_fields"] or review["source_conflicts"]:
+            skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                            "reason": "product_accuracy_copy_review_required"})
             continue
 
         pr = price_by_no.get(str(it.get("pd_no")))
