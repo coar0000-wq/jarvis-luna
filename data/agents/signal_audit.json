@@ -1,6 +1,6 @@
 {
   "agent": "Signal-Audit",
-  "generated_at": "2026-10-18T02:52:44.121856+00:00",
+  "generated_at": "2026-10-18T03:31:31.655793+00:00",
   "live_channels": 4,
   "total_channels": 14,
   "empty_or_failed": [
@@ -15,7 +15,7 @@
       "channel": "walmart_beauty",
       "count": 39,
       "status": "stale",
-      "note": "walmart.com/browse/beauty/1085666 (실수집)"
+      "note": "walmart.com/shop/beauty/editors-picks (editorial picks, not sales rank) (실수집)"
     },
     {
       "channel": "oliveyoung_us",

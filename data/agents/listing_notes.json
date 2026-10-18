@@ -1,6 +1,6 @@
 {
   "agent": "Listing-Draft",
-  "generated_at": "2026-10-18T02:52:44.121893+00:00",
+  "generated_at": "2026-10-18T03:31:31.655826+00:00",
   "s_count": 7,
   "registerable_count": 0,
   "csv_path": "data/shopify_exports/products.csv",
@@ -10,10 +10,6 @@
     "차단 4건: [피부결케어]VT 리들샷 10(자동 점검 미통과: lab), 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"
   ],
   "suggestions": [
-    {
-      "action": "import_csv_as_draft",
-      "detail": "게이트 통과 0건 CSV → Shopify Admin Products Import (Published=false)"
-    },
     {
       "action": "resolve_legal_blocks",
       "detail": "차단 4건: [피부결케어]VT 리들샷 10(자동 점검 미통과: lab), 클리덤 리포좀 비타민C 캡슐잡(자동 점검 미통과: lab) — 검증 가능한 라벨·사업자 자료 입력 대기"

@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-10-18T02:52:44.122125+00:00",
+  "generated_at": "2026-10-18T03:31:31.656028+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -12,17 +12,6 @@
         "data/agents/signal_audit.json"
       ],
       "approve": "사람: 해당 채널 수집기 또는 수동 JSON 갱신"
-    },
-    {
-      "priority": 3,
-      "title": "S등급 7건 중 게이트 통과분 Shopify draft 등록",
-      "detail": "운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지",
-      "refs": [
-        "data/shopify_exports/manifest.json",
-        "data/shopify_exports/products.csv",
-        "data/agents/listing_notes.json"
-      ],
-      "approve": "사람: Admin Import + 가격·재고"
     },
     {
       "priority": 4,
@@ -53,6 +42,16 @@
         "data/agents/remediation_state.json"
       ],
       "approve": "비서실장: 다음 주기 재검증"
+    },
+    {
+      "priority": 5,
+      "title": "팀 대기 · 리스팅 제작팀",
+      "detail": "카피 7건, 고시 3건, 영문라벨 3건, 법률 4건 원본 자료 또는 무료 생성 경로 확보 대기",
+      "refs": [
+        "data/dashboard_runtime.json",
+        "data/agents/remediation_state.json"
+      ],
+      "approve": "사람: 한 번만 승인·원본 정보 제공"
     }
   ],
   "note": "제안만 수행. 데이터 플레인 JSON은 수정하지 않음. 승인 후 기존 스크립트/수동 작업.",
@@ -65,19 +64,19 @@
       },
       {
         "n": 2,
-        "text": "S등급 7건 중 게이트 통과분 Shopify draft 등록 — 운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지"
-      },
-      {
-        "n": 3,
         "text": "팀 자동조치 감시 · 상품 소싱팀 — 다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_"
       },
       {
-        "n": 4,
+        "n": 3,
         "text": "팀 자동조치 감시 · 마케팅 조사팀 — 고시 표 3건 판독 남음 — 1068721 클리덤 리포좀 비타민C 캡슐잡티크 [전성분,용량,제조사,원산지 · 비전 예산/할당량으로 다음 회차 재"
       },
       {
-        "n": 5,
+        "n": 4,
         "text": "팀 자동조치 감시 · 리스팅 제작팀 — 가격 6건 자동 재생성·재검증 필요"
+      },
+      {
+        "n": 5,
+        "text": "팀 대기 · 리스팅 제작팀 — 카피 7건, 고시 3건, 영문라벨 3건, 법률 4건 원본 자료 또는 무료 생성 경로 확보 대기"
       }
     ]
   }
