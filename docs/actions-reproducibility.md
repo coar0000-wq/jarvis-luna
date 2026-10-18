@@ -2,7 +2,7 @@
 
 ## 지원 대상과 잠금
 
-`requirements/requirements-*.txt`는 CPython 3.11, Linux x86_64, glibc 2.28 이상용 직접·간접 의존성 잠금이다. 버전과 실제 내려받은 wheel SHA-256을 모두 기록했다. 2026-10-03 PyPI 릴리스 메타데이터의 해시와 다운로드 파일 해시를 독립적으로 대조했고, 대상 플랫폼 wheel로 의존성을 해결했다. 소스 빌드나 Windows 설치용 범용 잠금은 아니다.
+`requirements/requirements-*.txt`는 CPython >=3.11.5,<3.12, Linux x86_64, glibc 2.28 이상용 직접·간접 의존성 잠금이다. 버전과 실제 내려받은 wheel SHA-256을 모두 기록했다. 2026-10-18 PyPI 릴리스 메타데이터의 해시와 다운로드 파일 해시를 독립적으로 대조했고, 대상 플랫폼 wheel로 의존성을 해결했다. 소스 빌드나 Windows 설치용 범용 잠금은 아니다.
 
 ```sh
 python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-verification.txt
@@ -12,18 +12,18 @@ python -m pip install --require-hashes --only-binary=:all: -r requirements/requi
 
 | 프로필 | 대상 | 핵심 패키지 |
 | --- | --- | --- |
-| verification | preflight, 검증 Pages | PyYAML 6.0.3, pyflakes 3.4.0 |
+| verification | preflight, 검증 Pages | PyYAML 6.0.3, pyflakes 4.0.3 |
 | core | Core, 표준 라이브러리 수집·운영 공통 게이트 | verification + requests 2.34.2 |
 | daiso | 다이소, 루트/카피 HTTP·HTML 수집 | core + beautifulsoup4 4.15.0, lxml 6.1.3 |
 | deep | Deep Analysis의 실제 NumPy 모델 경로 | daiso + numpy 2.4.6 |
 | knowledge | Real Knowledge Sync의 실제 NumPy 모델 경로 | deep과 동일한 폐쇄 집합 |
-| browser | 고시 alt, 미국 리테일, Deep의 조건부 브라우저 | daiso + playwright 1.63.0 + pyee/greenlet |
+| browser | 고시 alt, 미국 리테일, Deep의 조건부 브라우저 | daiso + playwright 1.64.0 + pyee/greenlet |
 | vision | 고시 이미지 수집 | daiso + Pillow 12.3.0 |
-| pdf | INCI 정본 PDF 수집 | daiso + pypdf 6.19.0 |
+| pdf | INCI 정본 PDF 수집 | daiso + pypdf 6.20.1 |
 
 모든 프로필은 공통 발행/품질 판정에 필요한 PyYAML을 포함한다. Core의 실제 세 수집 스크립트와 Deep의 현재 `train_real_knowledge.py`, `tune_real_knowledge_moe.py`, `team_router_moe.py`를 대조했다. 실제 학습은 NumPy이고 PyTorch를 사용하지 않는다. 과거 `requirements.txt`의 torch·matplotlib·google-generativeai 등 넓은 범위는 현재 자동화 프로필에 무조건 설치하지 않는다. 과거 파일은 삭제하지 않으며, 다른 수동 도구를 실행한다면 별도 잠금을 먼저 만들어야 한다.
 
-NumPy 최신 2.5.3은 Python >=3.12이므로 3.11에 설치할 수 없다. cp311 Linux wheel이 확인된 2.4.6으로 고정했다. Playwright Python 버전은 다운로드되는 Chromium revision을 고정하지만 `playwright install --with-deps chromium`의 Ubuntu 시스템 패키지 저장소까지 잠그지는 않는다. Actions의 `ubuntu-latest`와 Python patch release가 바뀔 수 있으므로 OS/런타임 전체의 비트 단위 동일성을 주장하지 않는다.
+NumPy 2.5.4은 Python >=3.12이므로 3.11에 설치할 수 없다. cp311 Linux wheel이 확인된 2.4.6으로 고정했다. Playwright Python 버전은 다운로드되는 Chromium revision을 고정하지만 `playwright install --with-deps chromium`의 Ubuntu 시스템 패키지 저장소까지 잠그지는 않는다. Actions의 `ubuntu-latest`와 Python patch release가 바뀔 수 있으므로 OS/런타임 전체의 비트 단위 동일성을 주장하지 않는다.
 
 ## Action과 업데이트
 
@@ -58,3 +58,9 @@ Core의 오래된 '매 10분' 주석과 YouTube '중단' 단계명은 실제 cro
 잠금만으로 실시간 외부 데이터나 학습 결과가 같아지지는 않는다. 동일 입력 스냅샷·정책·코드·의존성, 학습 seed, 허용 수치 오차 및 기존 모델 유지 정책을 함께 검증한다. 소스 조회 시각만 바뀐 파일을 새로운 내용으로 간주하지 않는다. 실제 성공 조회, 내용 변경, 캐시 사용과 실패는 수집 결과/품질 보고에서 따로 기록한다. HTTP 200이나 프로세스 exit 0만으로 정상 조회를 증명하지 않는다.
 
 이번 잠금 검증은 패키지를 설치하거나 모델/API를 실행하지 않고 wheel 다운로드와 해시 검증만 수행했다. 실제 Linux CI의 설치·회귀 검사와 격리된 고정 입력 학습 검증을 통과하기 전에는 전체 모델 경로의 재현성을 완료했다고 보고하지 않는다.
+
+## 여러 배포 파일 해시가 있는 업데이트
+
+Dependabot이 한 버전에 여러 `--hash=sha256:` 옵션을 제안하는 형식은 지원한다. 그러나 형식이 올바른 것만으로 업데이트가 승인되지는 않는다. 모든 잠금 해시는 manifest의 검토된 해시 집합과 정확히 일치해야 한다. `sha256`은 독립 다운로드로 검증한 대상 wheel 해시를 유지하며, 추가 배포 파일은 패키지의 선택적 `artifacts` 배열에 `filename`, `source`, `sha256`으로 기록한다. 파일을 추가하기 전에 PyPI 메타데이터와 대조하고 대상 wheel은 내려받아 해시를 검증한다. 버전 불일치, 추가 미검토 해시, 해시 누락은 계속 실패한다. 대상 Python을 지원하지 않는 버전을 통과시키기 위해 manifest만 수정하면 안 된다.
+
+2026-10-18 업데이트에서는 pyflakes 4.0.3, soupsieve 3.0.3, Playwright 1.64.0, pypdf 6.20.1, opencv-python-headless 5.0.0.93을 반영했다. PR #16이 제안한 NumPy 2.5.4와 pyee 14.0.0은 Python 3.11을 지원하지 않으므로 기존 검증 버전 2.4.6과 13.0.1을 유지했다. 전체 18개 패키지의 CPython 3.11.14/Linux wheel을 해시 필수·바이너리 전용으로 다시 해결하고 다운로드했으며, wheel 파일 해시와 METADATA의 Python 조건 및 활성 전이 의존성 버전 제약을 확인했다. Soup Sieve의 최소 패치 요구 사항에 따라 CI는 실제 3.11.5 이상 런타임인지도 검사한다.
