@@ -65,6 +65,11 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+try:
+    from scripts.data_freshness import assess_timestamp, parse_timestamp
+except ModuleNotFoundError:
+    from data_freshness import assess_timestamp, parse_timestamp
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 
@@ -507,8 +512,6 @@ def is_ours(prev, _marker: str = "") -> bool:
         return False
     if prev.get("generator") != GENERATOR:
         return False
-    if not prev.get("collected_at"):
-        return False
     return bool(prev.get("products"))
 
 
@@ -518,16 +521,23 @@ def write_catalog(out: Path, entry: dict, robots: str, note: str = "") -> int:
     reason = entry["reason"]
     stale_from = ""
 
+    written_at = now_iso()
+    retained = False
     prev_method = ""
+    source_assisted = bool(entry.get("assisted"))
+    source_assist_at = entry.get("assist_at", "")
     if not rows and out.exists():
         try:
             prev = json.loads(out.read_text(encoding="utf-8-sig"))
         except (OSError, json.JSONDecodeError):
             prev = {}
         if is_ours(prev):
+            retained = True
             rows = prev["products"]
-            stale_from = prev.get("collected_at") or prev.get("stale_from") or ""
+            stale_from = prev.get("stale_from") or prev.get("collected_at") or ""
             prev_method = str(prev.get("method") or "")
+            source_assisted = bool(prev.get("assisted"))
+            source_assist_at = prev.get("assist_at", "")
             reason = f"{reason} · 이전 수집분 유지({stale_from[:10]})"
             print(f"  이전 성공분 {len(rows)}건 유지")
         elif prev:
@@ -541,20 +551,24 @@ def write_catalog(out: Path, entry: dict, robots: str, note: str = "") -> int:
     else:
         method = prev_method or f"{MARKER} · 베스트셀러 그리드 파싱"
 
+    collected_at = stale_from if retained else (entry.get("assist_at", "") if entry.get("assisted") else (written_at if rows else ""))
+    freshness = assess_timestamp(collected_at, written_at)
     payload = {
         "source": f"{entry['label']} (실수집)",
         "generator": GENERATOR,
         "method": method,
-        "assisted": bool(entry.get("assisted")),
-        "assist_at": entry.get("assist_at", ""),
+        "assisted": source_assisted,
+        "assist_at": source_assist_at,
         "source_url": entry["url"],
         "robots_note": robots,
         # 보강 파일로 채운 경우 수집 시각은 보강 시점이다 (2026-09-28).
         # 전에는 지금 시각을 적어 9-15 자료가 매일 최신처럼 보였다.
-        "collected_at": (entry.get("assist_at") or now_iso()) if entry.get("assisted") else now_iso(),
+        "collected_at": collected_at,
+        "last_attempt_at": written_at,
+        "freshness": freshness,
         "count": len(rows),
         "reason": reason,
-        "is_stale": bool(stale_from),
+        "is_stale": retained or freshness["is_stale"],
         "stale_from": stale_from,
         "skipped_sponsored": entry.get("skipped_sponsored") or 0,
         "price_stats": price_stats(rows),
@@ -611,7 +625,8 @@ def write_us_beauty(ulta: dict, seph: dict) -> int:
             prev = {}
         if is_ours(prev):
             products = prev["products"]
-            stale_from = prev.get("collected_at") or prev.get("stale_from") or ""
+            stale_from = prev.get("stale_from") or prev.get("collected_at") or ""
+            notes = prev.get("by_store") if isinstance(prev.get("by_store"), dict) else {}
             print(f"  이전 성공분 {len(products)}건 유지")
         elif prev:
             # 지금 파일에는 title 이 "Join / Sign in" 인 네비게이션 텍스트가
@@ -619,14 +634,27 @@ def write_us_beauty(ulta: dict, seph: dict) -> int:
             print("::warning::기존 us_beauty_products.json 은 우리 수집기가 "
                   "남긴 것이 아니라 물려받지 않는다.")
 
+    active_notes = [meta for meta in notes.values() if meta.get("count")]
+    timestamps = [meta.get("collected_at") for meta in active_notes]
+    # A mixed-age file is as old as its oldest contributing source. Unknown
+    # timestamps cannot be rescued by the freshly written envelope.
+    valid = [parse_timestamp(value) for value in timestamps]
+    collected_at = stale_from or (min(valid).isoformat() if valid and all(valid) else "")
+    freshness = assess_timestamp(collected_at, written_at)
+    for meta in notes.values():
+        meta["freshness"] = assess_timestamp(meta.get("collected_at"), written_at)
+    if freshness["status"] == "fresh" and any(meta["freshness"]["is_stale"] for meta in active_notes):
+        freshness.update(status="mixed_source_stale_or_unverified", is_stale=True)
     payload = {
         "generator": GENERATOR,
         "method": f"{MARKER} · Ulta/Sephora 카드 파싱",
-        "collected_at": written_at,
+        "collected_at": collected_at,
+        "last_attempt_at": written_at,
+        "freshness": freshness,
         "country": "US",
         "market": "beauty",
         "count": len(products),
-        "is_stale": bool(stale_from),
+        "is_stale": bool(stale_from) or freshness["is_stale"],
         "stale_from": stale_from,
         "by_store": notes,
         "price_stats": price_stats(

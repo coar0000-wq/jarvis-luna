@@ -55,6 +55,7 @@ jobs:
           python -B -m unittest discover -s scripts -p "test_shopify_import_report_publication.py"
           python scripts/test_operational_freshness.py
           python scripts/test_workflow_status.py
+          python -B scripts/test_freshness_reporting.py
           python scripts/test_verified_pages.py
           python scripts/test_operational_integration.py
           python scripts/test_product_change_ledger.py

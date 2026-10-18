@@ -44,9 +44,17 @@ def replacement_ids(before, current, policy):
     for doc in (before, current):
         if not isinstance(doc, dict) or doc.get('schema_version') != 1 or not isinstance(doc.get('workflows'), dict):
             raise ValueError('workflow report schema invalid')
-    if set(before['workflows']) != set(current['workflows']):
+    if not set(before['workflows']) <= set(current['workflows']):
         raise ValueError('workflow identity replacement denied')
     def visit(old, new, where=()):
+        if len(where) == 1 and where[0] in {
+                'excluded_event_only_workflows', 'excluded_disabled_workflows',
+                'unmonitored_scheduled_workflows', 'configured_non_scheduled_workflows',
+                'invalid_workflow_definitions'}:
+            if not isinstance(old, list) or not isinstance(new, list) or not all(isinstance(v, str) for v in old + new):
+                raise ValueError('workflow inventory diagnostic arrays must remain strings')
+            allowed.extend(removed_identities(old, new, contract))
+            return
         diagnostic = len(where) == 3 and where[0] == 'workflows'
         if diagnostic and where[2] in {'latest_attempt', 'last_success'}:
             snapshot(old)

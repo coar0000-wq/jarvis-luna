@@ -28,6 +28,15 @@ WORKFLOWS = {
     "jarvis-real-knowledge.yml": (6, 9),
     "daiso-real-collection.yml": (24, 36),
     "root-collectors.yml": (24, 36),
+    "daiso-daily-beauty-shopify.yml": (24, 36),
+    "fx-refresh.yml": (24, 36),
+    "gemini-web-collect.yml": (24, 36),
+    "gosi-alt.yml": (24, 36),
+    "gosi-vision.yml": (6, 9),
+    "inci-dictionary.yml": (31 * 24, 35 * 24),
+    "jarvis-watchdog.yml": (0.5, 1.5),
+    "serpapi-market.yml": (4 * 24, 5 * 24),
+    "us-retail-collect.yml": (24, 36),
 }
 DEFAULT_REPOSITORY = "coar0000-wq/jarvis-luna"
 REPOSITORY_RE = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})/[A-Za-z0-9_][A-Za-z0-9_.-]{0,99}\Z")
@@ -254,8 +263,99 @@ def build_report(runs_by_filename, now=None):
     return {"schema_version": 1, "generated_at": _iso(observed), "observed_at": _iso(observed),
             "status": overall, "failed_actions": failures if checked == len(WORKFLOWS) else "unknown",
             "confirmed_failed_actions": failures, "checked_workflows": checked,
-            "total_workflows": len(WORKFLOWS), "coverage_complete": checked == len(WORKFLOWS),
+            "total_workflows": len(WORKFLOWS), "coverage_complete": False,
+            "coverage_scope": "configured_scheduled_workflows",
+            "configured_coverage_complete": checked == len(WORKFLOWS),
+            "output_freshness_verified": False,
             "observation_source": "provided_metadata", "workflows": workflows}
+
+
+def add_inventory(report, directory):
+    """Expose checkout scope separately from Actions run metadata.
+
+    Manual/event-only and .disabled definitions are explicit exclusions, not
+    failed scheduled jobs. Unknown scheduled definitions prevent full coverage.
+    """
+    active = sorted(p for p in Path(directory).glob("*") if p.suffix in {".yml", ".yaml"})
+    scheduled, manual, invalid = [], [], []
+    try:
+        import yaml  # already pinned in core/deep/verification dependencies
+    except ImportError:
+        yaml = None
+    for path in active:
+        try:
+            if yaml is None:
+                raise ValueError("yaml_parser_unavailable")
+            definition = yaml.safe_load(path.read_text())
+            events = definition.get("on", definition.get(True))
+            if isinstance(events, dict):
+                (scheduled if "schedule" in events else manual).append(path.name)
+            elif isinstance(events, (str, list)):
+                manual.append(path.name)
+            else:
+                invalid.append(path.name)
+        except (OSError, ValueError, AttributeError, TypeError):
+            invalid.append(path.name)
+        except Exception:
+            # Parser diagnostics may contain file contents; report only filename.
+            invalid.append(path.name)
+    disabled = sorted(p.name for p in Path(directory).glob("*.disabled"))
+    missing = sorted(set(scheduled) - set(WORKFLOWS))
+    extra = sorted(set(WORKFLOWS) - set(scheduled))
+    report.update(coverage_scope="scheduled_workflows_in_checkout",
+                  active_workflows=len(active), scheduled_workflows=len(scheduled),
+                  excluded_event_only_workflows=manual, excluded_disabled_workflows=disabled,
+                  unmonitored_scheduled_workflows=missing,
+                  configured_non_scheduled_workflows=extra,
+                  invalid_workflow_definitions=invalid)
+    report["coverage_complete"] = bool(active) and not invalid and not missing and not extra and report["configured_coverage_complete"]
+    if not report["coverage_complete"]:
+        report["failed_actions"] = "unknown"
+        if report["status"] == "success":
+            report["status"] = "warning"
+    return report
+
+
+def add_output_freshness(report, root, now=None):
+    """Action completion is never evidence of fresh collector/source output."""
+    try:
+        from scripts.data_freshness import assess_timestamp
+    except ModuleNotFoundError:
+        from data_freshness import assess_timestamp
+    observed = _now(now)
+    checks = {}
+    for filename, field in (("walmart_products.json", "collected_at"),
+                            ("us_beauty_products.json", "collected_at"),
+                            ("source_health.json", "generated_at")):
+        try:
+            doc = json.loads((Path(root) / "data" / filename).read_text())
+            if not isinstance(doc, dict):
+                doc = {}
+        except (OSError, ValueError):
+            doc = {}
+        checks[filename] = assess_timestamp(doc.get(field), observed)
+        if doc.get("is_stale") is True and checks[filename]["status"] == "fresh":
+            checks[filename].update(status="retained_stale", is_stale=True)
+        if filename != "source_health.json" and (type(doc.get("count")) is not int or doc["count"] <= 0):
+            checks[filename].update(status="no_verified_data", is_stale=True)
+        if filename == "us_beauty_products.json":
+            stores = doc.get("by_store", {})
+            if not isinstance(stores, dict):
+                stores = {}
+            # Fixed observation schema: missing/corrupt source must publish an
+            # explicit unknown, never remove yesterday's per-store evidence.
+            for store in ("Ulta", "Sephora"):
+                meta = stores.get(store)
+                check = assess_timestamp(meta.get("collected_at") if isinstance(meta, dict) else None, observed)
+                if not isinstance(meta, dict) or type(meta.get("count")) is not int or meta["count"] <= 0:
+                    check.update(status="no_verified_data", is_stale=True)
+                checks[filename + ":" + store] = check
+    report["output_freshness"] = checks
+    report["output_freshness_scope"] = "retail_and_source_health"
+    report["output_freshness_verified"] = all(v["status"] == "fresh" for v in checks.values())
+    if not report["output_freshness_verified"] and report["status"] == "success":
+        report["status"] = "warning"
+    return report
 
 
 def _fetch_json(url):
@@ -277,7 +377,7 @@ def _fetch_json(url):
 
 
 def collect_report(repository=None, now=None, fetch_json=None):
-    """At most five GETs, one per filename; no retries or paid/model API calls."""
+    """One bounded GET per configured scheduled filename; no retries or paid/model API calls."""
     repo = repository if repository is not None else os.environ.get("GITHUB_REPOSITORY", DEFAULT_REPOSITORY)
     if not isinstance(repo, str) or not REPOSITORY_RE.fullmatch(repo) or repo.split("/")[-1] in {".", ".."}:
         return build_report({name: {"error": "invalid_repository"} for name in WORKFLOWS}, now)
@@ -343,6 +443,8 @@ def main(argv=None):
     parser.add_argument("--output", type=Path, default=Path("data/agents/workflow_freshness.json"))
     args = parser.parse_args(argv)
     report = snapshot_report(args.snapshot_dir) if args.snapshot_dir is not None else collect_report(args.repository)
+    add_inventory(report, Path(__file__).resolve().parents[1] / ".github/workflows")
+    add_output_freshness(report, Path.cwd())
     if args.output.absolute() == Path("data/agents/workflow_freshness.json").absolute():
         # Also supports direct script execution without changing collection IO.
         import sys
