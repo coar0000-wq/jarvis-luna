@@ -223,18 +223,6 @@
       "delete_file": false
     },
     {
-      "path": "data/daiso_real/shortlist_observations.json",
-      "base_sha256": "6e59b8a55bd552baba22e99c841c9c8d114e2c9c38b6601436738f5ce97d883a",
-      "replacement_sha256": "9acd101b310dddf6334bc86702c6db497472a2887622b23ebc1d867c281a8e66",
-      "ids": [
-        "CP000106",
-        "CP000107"
-      ],
-      "policy_ref": "scripts/shortlist_observation_history.py",
-      "delete_file": false,
-      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
-    },
-    {
       "path": "data/serpapi_market.json",
       "base_sha256": "44c57a081db0cdb558079520d377a65721d15e89938bbcb22bfef0565d4c5400",
       "ids": [
@@ -299,6 +287,32 @@
         "https://news.google.com/rss/articles/CBMie0FVX3lxTE91cXFzUzNMWVdNRGxSc2NtcUNwenhkakhWUGx1OHZWVlZaZVRoSWpPelFuWVpfdG1oMEd4dmlETjA0TnFsQXotWDBEMGJKWkZsQ05YR1Z0NEJIekJKdnhDZFFGal9mdU42SjZxMk9ndUd6NWVhN3BlMU1rTQ?oc=5",
         "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TU1FRakpvTmRnUzhqQnJOaFF5eGVhRW5UR0Fqd1VWZXpkTlV5TXY0Q1p3QjBfODAwbm9JVExjNEFjcmJYUXdOUWFaYU12cEFkcTZWYngzVVRyV0hNWFlSSERab19hanYxLWp4cjU5eEx0YjRDb0Jlbi1hSDY?oc=5",
         "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQlM1WEJ1RmZzeVpVeUVrTnZ1WG1HTWdrYV9KaHYzWG84bkNLMkRRVms0UUhiTWRoWUdOQkdNVFNaZTc1WVNYbjNjV2dyYVZQWlZJT1BIaGFKcWhfLWZ2dXFaMkd2LWdCa0pRM0FKSUJKckh6cXotNmluV3Yyc1ItNDJ1N01WS0k4cldYUlV2cUxvUHlrZ0g0UkEzallaampGLXhXdVZ5T3IzTVdwbzBV?oc=5"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "fecc19e402acd6fd4b52929d5be803bdc78f8207dce2eac7e1efcce3183f4e94",
+      "ids": [
+        "action:intent:task_503a958b5c2b5c0a23b48eedeff1d6d35dea6db372eb427b435bf7fcf7e8c7e3",
+        "action:intent:task_53915aea596a344274241d6ff53415570ca5dc504e7286f86c7e2c56d479f125",
+        "relation:422ce3c20558292ae3ede45c",
+        "relation:46c01904fe307c85fc58a74f",
+        "relation:b87eb6674c3ddc49dbbf313f",
+        "relation:bf2211dcf1c0f2d90c7e80b2"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "2ade98696b52c24d556b21912cff1ab01b8c8226876b2ec8fe1866154531e29d",
+      "ids": [
+        "STALE_SOURCE_CAPTURE",
+        "e1141b6c8bd532d20e289e18b50d8a86ba2383779eceb083961b2f03bd33348d"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

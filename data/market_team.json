@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-18T22:25:10.854300+09:00",
+    "updated_at": "2026-10-19T02:13:51.898946+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1786,10 +1786,10 @@
     "trust_note": "",
     "live_channels": [
       "amazon_best_sellers",
-      "amazon_new_beauty",
-      "sephora",
       "sokoglam_us",
-      "ulta_beauty"
+      "amazon_new_beauty",
+      "ulta_beauty",
+      "sephora"
     ],
     "s_count": 7,
     "listing_ready_count": 0,

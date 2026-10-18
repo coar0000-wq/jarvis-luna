@@ -5,7 +5,7 @@
     "authority": false,
     "business_clearance": false,
     "receipt_verified": false,
-    "revision": 34,
+    "revision": 36,
     "schema_version": 1,
     "teams": {
       "channels": {
@@ -81,27 +81,27 @@
       "sourcing": {
         "budget": 256,
         "episodes": 1,
-        "lifetime": 1,
+        "lifetime": 2,
         "reconciliation_required": false,
         "stopped": false
       }
     }
   },
   "force_bypasses_limits": false,
-  "generated_at": "2026-10-18T13:01:20.377171+00:00",
+  "generated_at": "2026-10-18T17:02:28.440296+00:00",
   "network_actuator_limit_per_invocation": 1,
   "organization": "secretary > existing 11 team leads > specialists",
   "plans": [
     {
       "authority": false,
-      "claim_id": null,
+      "claim_id": "57296b98a12d052b8acbf26bf84a6203f38ca0febfe19d40bff5a54e03096b8a",
       "fixedprocedure_id": "daiso_shortlist_observe",
       "id": "sourcing",
-      "machine_eligible": false,
-      "reason": "source_scope_healthy",
+      "machine_eligible": true,
+      "reason": "exit_zero_is_not_source_recovery",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "healthy_no_repair",
+      "status": "waiting_verified_source",
       "team": "sourcing"
     },
     {
@@ -134,7 +134,7 @@
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "listing",
       "machine_eligible": true,
-      "reason": "episode_limit,cooldown",
+      "reason": "episode_limit",
       "receipt_verified": false,
       "source_healthy": false,
       "status": "bounded_hold",
@@ -146,22 +146,22 @@
       "fixedprocedure_id": "daiso_shortlist_observe",
       "id": "pricing",
       "machine_eligible": false,
-      "reason": "source_scope_healthy",
+      "reason": "one_source_actuator_per_invocation",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "healthy_no_repair",
+      "status": "waiting_owner",
       "team": "pricing"
     },
     {
       "authority": false,
-      "claim_id": "763729c24563ad65105ca4669ccd36ed0820cc0a9e74902c5f21465a699c032f",
+      "claim_id": null,
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "legal",
       "machine_eligible": true,
-      "reason": "exit_zero_is_not_source_recovery",
+      "reason": "episode_limit",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "waiting_verified_source",
+      "status": "bounded_hold",
       "team": "legal"
     },
     {
@@ -169,11 +169,11 @@
       "claim_id": null,
       "fixedprocedure_id": "robotics_source_observe",
       "id": "robotics",
-      "machine_eligible": true,
-      "reason": "episode_limit",
+      "machine_eligible": false,
+      "reason": "one_source_actuator_per_invocation",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "bounded_hold",
+      "status": "waiting_owner",
       "team": "robotics"
     },
     {
@@ -181,11 +181,11 @@
       "claim_id": null,
       "fixedprocedure_id": "design_source_observe",
       "id": "design",
-      "machine_eligible": true,
-      "reason": "episode_limit",
+      "machine_eligible": false,
+      "reason": "one_source_actuator_per_invocation",
       "receipt_verified": false,
       "source_healthy": false,
-      "status": "bounded_hold",
+      "status": "waiting_owner",
       "team": "design"
     },
     {
@@ -194,7 +194,7 @@
       "fixedprocedure_id": "channel_candidate_probe",
       "id": "channels",
       "machine_eligible": false,
-      "reason": "persistent_provider_or_robots_stop",
+      "reason": "one_source_actuator_per_invocation",
       "receipt_verified": false,
       "source_healthy": false,
       "status": "waiting_owner",
@@ -218,7 +218,7 @@
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "graph",
       "machine_eligible": false,
-      "reason": "shared_fixed_procedure_already_processed",
+      "reason": "actual_native_sync_path_permission_and_heartbeat_required",
       "receipt_verified": false,
       "source_healthy": false,
       "status": "waiting_owner",
