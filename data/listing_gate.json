@@ -1,15 +1,15 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-18T08:35:41.779154+00:00",
+  "generated_at": "2026-10-18T09:10:18.885150+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
       "data/product_master.json": "3191dc6d58a880082ab8ee6b3564d76c7ddb9a2a6d4180c07977ec5ae562706f",
       "data/gosi.json": "65c4a1bf58af9ecfd59a8526718d38eb4a2dce44a4048d49eeb268e96c4e73d7",
-      "data/daiso_real/daiso_us_labels.json": "3c7c3536bb1d3d87a547af74870f924c12ae7505cb4a41661752120edfdcb966",
-      "data/pricing_model.json": "80050611620a3e4d7d8d5ef9f3b03084b55a48fc9205ee1a9ef3820fb02672f5",
-      "data/legal_products.json": "03611cb441ebc446d1576553d512476437a35b7121db934bca3f12b9f4fa08e1",
+      "data/daiso_real/daiso_us_labels.json": "12f136dee44aaee875cf304835cc4f54d124852445ddd8586df995548d6f3988",
+      "data/pricing_model.json": "b18424581c4154fad24acf8904b0c8d889a565961afc493ee945889485f0ebef",
+      "data/legal_products.json": "083047e128b1a41177d16007b6b3a8c2314e9172cd0c79f8a86297f92632a0b4",
       "data/daiso_real/shopify_s_recommendations.json": "d4e8ed916769bb70464f967183fb9a259b8de185c0f79f3957303705c19ea546",
       "data/shopify_listing_copy.json": "d52d15604a2f41be98676c0dd02269be37f549a71a10fc683410d2b10a49ed2a",
       "data/shopify_shortlist.json": "3afaf38f8b7244d06d0f5ba148f1f3e75e0f77281786c3599a9cb735881e7a08",
@@ -20,7 +20,7 @@
       "data/manual/owner_draft_approvals.json": "c9314abe5f1e4a58067adbc6b18a3894082c018a8dfa3ad6f9acfeab8a64e20d",
       "data/us_claim_rules.json": "d0ea3f50a5601b9e7e6ebc17cc931b7f89735c12223d6fe6463169c942456732",
       "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
-      "config/daiso_commerce_strategy.json": "ffdd0c9f4ebea47df07aa18b8d443b8d983f5c6c661a3c32eb8432e902148223",
+      "config/daiso_commerce_strategy.json": "fc07b58da6d6b8a5fd1d0a5dde464fcd65a136df20e17131de17bc25fd5967f2",
       "masked/manufacturer_safety_record": "d77fd639a012be272427ae7a18c79b6423d5f677771a7a3cbd641f24450daa77",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
@@ -51,7 +51,7 @@
   "price_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "e4a4c515b4ff2cc29174aa096a7549d5d6c5f5f90e7b515ad9b40404d70779b1",
+    "strategy_sha256": "94071a8903880c4b5993b0caa4dea76bfa35f99ac36c92e6bd1c7c3327f10634",
     "margin_hard_block": false,
     "products_with_profit_warnings": 0,
     "note": "시장가격 미확인은 비용 기반 임시 가격이 있는 초안 등록을 막지 않는다. 공개 전 가격 검토는 별도다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
@@ -69,7 +69,7 @@
       "stopped": "",
       "global_stopped": "",
       "workflow_stopped": "",
-      "workflow_id": "Shopify 영문 리스팅 카피 생성:39111930819:1",
+      "workflow_id": "Shopify 영문 리스팅 카피 생성:39114169055:1",
       "estimated_cost_usd": 0.0,
       "account_estimated_cost_usd": 0.000544698,
       "purchased_credits": false,

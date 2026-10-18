@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T08:35:41.242380+00:00",
+  "generated_at": "2026-10-18T09:10:18.286531+00:00",
   "exchange_rate": {
     "usd_to_krw": 1334.77,
     "as_of": "2026-10-18",
@@ -8,7 +8,7 @@
   "pricing_policy": {
     "mode": "evidence_based_price",
     "strategy_file": "config/daiso_commerce_strategy.json",
-    "strategy_sha256": "e4a4c515b4ff2cc29174aa096a7549d5d6c5f5f90e7b515ad9b40404d70779b1",
+    "strategy_sha256": "94071a8903880c4b5993b0caa4dea76bfa35f99ac36c92e6bd1c7c3327f10634",
     "margin_hard_block": false,
     "serp_collected_at": "2026-10-18T03:39:17.876324+00:00",
     "note": "시장가격 미확인 상품은 비용 기반 임시 USD 가격과 draft_only로 초안 등록을 허용한다. 임시 가격은 시장가격 근거가 아니다. 마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "match"
           }
         },
@@ -124,6 +124,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": false,
+        "margin_floor_applied": false,
         "pricing_basis": "market_evidence",
         "block_reason": ""
       },
@@ -151,7 +152,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "match"
           }
         },
@@ -176,6 +177,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": false,
+        "margin_floor_applied": false,
         "pricing_basis": "market_evidence",
         "block_reason": ""
       },
@@ -229,6 +231,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       },
@@ -256,7 +259,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "match"
           }
         },
@@ -281,6 +284,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": false,
+        "margin_floor_applied": false,
         "pricing_basis": "market_evidence",
         "block_reason": ""
       },
@@ -334,6 +338,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       },
@@ -387,6 +392,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       },
@@ -416,7 +422,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -441,6 +447,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       }
@@ -470,7 +477,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "match"
           }
         },
@@ -495,6 +502,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": false,
+        "margin_floor_applied": false,
         "pricing_basis": "market_evidence",
         "block_reason": ""
       },
@@ -522,7 +530,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "match"
           }
         },
@@ -547,6 +555,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": false,
+        "margin_floor_applied": false,
         "pricing_basis": "market_evidence",
         "block_reason": ""
       },
@@ -600,6 +609,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       },
@@ -627,7 +637,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "match"
           }
         },
@@ -652,6 +662,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": false,
+        "margin_floor_applied": false,
         "pricing_basis": "market_evidence",
         "block_reason": ""
       },
@@ -705,6 +716,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       },
@@ -758,6 +770,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       },
@@ -787,7 +800,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 0.21,
+            "age_days": 0.23,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -812,6 +825,7 @@
         "profit_warnings": [],
         "register_blocked": false,
         "draft_only": true,
+        "margin_floor_applied": false,
         "pricing_basis": "cost_based_draft",
         "block_reason": ""
       }
