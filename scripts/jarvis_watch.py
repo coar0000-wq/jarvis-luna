@@ -683,7 +683,11 @@ def observe(root, previous=None, *, now=None, policy=None):
             watcher['blockers'] = [reason.upper() if reason in safe_reasons else 'SOURCE_MISSING_INVALID_OR_STALE']
             watcher['failure_evidence_hash'] = digest({'source':relative,'reason':watcher['blockers'],
                                                       'document':_semantic_gate(doc) if isinstance(doc,dict) else None})
-            state['sources'][team] = {'status':'BLOCKED','source':relative,'records':{}}
+            # Keep the last comparison snapshot as historical evidence. BLOCKED
+            # still forces recovery to establish a new baseline without deltas.
+            retained_source = deepcopy(old) if old else {'records': {}}
+            retained_source.update(status='BLOCKED', source=relative)
+            state['sources'][team] = retained_source
         if watcher['status'] == 'PARTIAL':
             watcher['failure_evidence_hash'] = digest({'source':relative,'coverage':watcher['coverage'],
                                                       'source_hash':watcher['source_hash']})

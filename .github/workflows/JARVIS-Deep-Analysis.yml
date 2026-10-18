@@ -33,7 +33,9 @@ jobs:
   deep-analysis:
     name: Collect, normalize, graph, train and publish runtime state
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # Verified operations restoration now runs the previously skipped work.
+    # A measured run reached 52 minutes before final publication.
+    timeout-minutes: 90
 
     # Jev(TypeSafe System One) 보조 판정을 무료 크레딧 한도 안에서만 쓴다.
     # 시크릿이 없으면 호출 없이 로컬 advisory 로 가므로 그대로 두어도 된다.

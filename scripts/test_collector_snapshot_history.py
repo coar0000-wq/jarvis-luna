@@ -25,6 +25,37 @@ def git(root, *args):
 
 
 class CollectorSnapshotTests(unittest.TestCase):
+    def test_watch_membership_rotates_but_record_fields_and_history_stay_guarded(self):
+        rel = 'data/operations/state.json'
+        old = {'watch': {'sources': {'pricing': {'semantic_hash': 'old', 'records': {
+            'CPold': {'value': {'amount': 1000}}, 'CPkeep': {'value': {'amount': 2000}}}}},
+            'seen_events': {'old-event': 'original-clock'}}, 'receipts': {'old-receipt': {'ok': True}}}
+        new = json.loads(json.dumps(old))
+        del new['watch']['sources']['pricing']['records']['CPold']
+        self.assertEqual(csh.allowed_removals(rel, old, new, POLICY), ['CPold'])
+        mutations = (
+            lambda d: d['watch']['sources']['pricing']['records']['CPkeep']['value'].pop('amount'),
+            lambda d: d['watch']['seen_events'].clear(),
+            lambda d: d['receipts'].clear(),
+            lambda d: d['watch']['sources']['pricing'].pop('semantic_hash'),
+            lambda d: d['watch']['sources']['pricing'].pop('records'),
+        )
+        for mutate in mutations:
+            bad = json.loads(json.dumps(new)); mutate(bad)
+            with self.assertRaises(ValueError):
+                csh.allowed_removals(rel, old, bad, POLICY)
+        with self.assertRaises(ValueError):
+            csh.allowed_removals('data/product_master.json', old, new, POLICY)
+        (self.root / 'data/operations').mkdir()
+        base = json.dumps(old).encode(); current = json.dumps(new).encode()
+        (self.root / rel).write_bytes(current)
+        with patch.object(csh, 'head_bytes', return_value=base):
+            report = csh.update(self.root, [rel])
+        self.assertIn('authorized 1', report[rel])
+        manifest = json.loads((self.root / 'data/publish_deletions.json').read_bytes())
+        self.assertTrue(deletion_authorized(rel, base, ['CPold'], manifest, replacement=current))
+        self.assertFalse(deletion_authorized(rel, base + b' ', ['CPold'], manifest, replacement=current))
+
     def test_label_diagnostics_rotate_without_waiving_source_label_protection(self):
         rel = "data/daiso_real/us_label_sync_report.json"
         old = {"current_s_count": 2, "items": {"old": {"missing_fields": ["manufacturer"]},

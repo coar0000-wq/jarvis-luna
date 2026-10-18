@@ -121,6 +121,10 @@ class WatchTests(unittest.TestCase):
                 out = self.run_observe(first['state'])
                 self.assertEqual(self.watcher(out, 'pricing')['status'], 'BLOCKED')
                 self.assertEqual(out['events'], [])
+                self.assertEqual(out['state']['sources']['pricing']['records'],
+                                 first['state']['sources']['pricing']['records'])
+                self.assertEqual(out['state']['sources']['pricing']['semantic_hash'],
+                                 first['state']['sources']['pricing']['semantic_hash'])
 
     def test_recovery_is_baseline_not_fake_delta(self):
         self.products()
