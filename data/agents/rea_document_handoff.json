@@ -9,8 +9,8 @@
       "id": "architecture-review-2026-10-18:rea",
       "recipient": "rea",
       "date": "2026-10-18",
-      "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
-      "summary": "원문 파일과 요약을 읽고 허가된 분석 대상만 처리한다. 원본 해시·도구 버전·분석 범위·결과 파일·회귀 테스트·중단 지점을 보고한다. 외부 쓰기는 기존 승인 실행기에 넘긴다. 이번 인계는 저장소 공유이며 분석 실행 요청이 아니다.",
+      "title": "설계 문서·Obsidian 그래프 설정 검토 및 팀 인계",
+      "summary": "원문 파일과 요약을 읽고 허가된 분석 대상만 처리한다. 원본 해시·도구 버전·분석 범위·결과 파일·회귀 테스트·중단 지점을 보고한다. 외부 쓰기는 기존 승인 실행기에 넘긴다. 이번 인계는 저장소 공유이며 분석 실행 요청이 아니다. graph.json은 기존 설정과 동일한 표시 설정이다. 색상은 분류이며 업무 완료·승인 증거가 아니다. 바이너리 분석 대상이 아닌 UI 설정 참고 자료로만 사용한다.",
       "url": "docs/learning/2026-10-18-agent-architecture-review.md",
       "status": "shared_to_repository_not_acknowledged",
       "verification": {
@@ -35,6 +35,10 @@
           {
             "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
             "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+          },
+          {
+            "path": "docs/learning/materials/2026-10-18/graph.json",
+            "sha256": "9a0505902e5d26b2e2464285f3e0f3d0b31b543b8398169754e9c85af6e3bbd7"
           }
         ]
       },

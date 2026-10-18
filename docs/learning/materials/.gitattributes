@@ -1,2 +1,3 @@
 # Archived source hashes bind exact bytes on Windows and Linux.
 *.md -text
+*.json -text
