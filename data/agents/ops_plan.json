@@ -1,6 +1,6 @@
 {
   "agent": "Ops-Prioritizer",
-  "generated_at": "2026-10-18T13:25:57.484585+00:00",
+  "generated_at": "2026-10-18T16:29:48.461905+00:00",
   "risk": "medium",
   "task_count": 5,
   "tasks": [
@@ -16,7 +16,7 @@
     {
       "priority": 4,
       "title": "팀 자동조치 감시 · 상품 소싱팀",
-      "detail": "다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_verified_publication",
+      "detail": "운영 상품 마지막 유효 수집 2026-09-29T00:48:58.284474+00:00",
       "refs": [
         "data/dashboard_runtime.json",
         "data/agents/remediation_state.json"
@@ -64,7 +64,7 @@
       },
       {
         "n": 2,
-        "text": "팀 자동조치 감시 · 상품 소싱팀 — 다이소 전체 workflow/publication 미복구 · workflow_failure_not_superseded_by_same_scope_"
+        "text": "팀 자동조치 감시 · 상품 소싱팀 — 운영 상품 마지막 유효 수집 2026-09-29T00:48:58.284474+00:00"
       },
       {
         "n": 3,

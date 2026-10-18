@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:25:46.205511+00:00",
+  "generated_at": "2026-10-18T16:29:41.725664+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -17,27 +17,27 @@
     "candidate_new_this_attempt": 81,
     "candidate_rechecked_this_attempt": 0,
     "failed_jobs": 1,
-    "failed_checks": 2,
+    "failed_checks": 1,
     "actions_observed_at": "2026-10-18T13:01:23.504265Z",
     "actions_observation_fresh": true,
     "queue": 3100,
     "stale_source": "marketing",
     "freshness_summary": {
-      "product_master": "just now",
-      "legal_full": "just now",
-      "shopify_sync": "6.4 days ago",
-      "pricing": "just now",
-      "marketing": "just now",
-      "daiso": "11.6 hours ago",
+      "product_master": "3.1 hours ago",
+      "legal_full": "3.1 hours ago",
+      "shopify_sync": "6.5 days ago",
+      "pricing": "3.1 hours ago",
+      "marketing": "3.1 hours ago",
+      "daiso": "14.7 hours ago",
       "daiso_candidate_discovery": "unknown",
       "daiso_operating_capture": "unknown",
       "daiso_shortlist_price": "unknown",
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
-      "deep_heartbeat": "15.1 days ago",
-      "actions_monitor": "24 min ago",
-      "gosi": "15.8 days ago",
-      "product_discovery": "just now"
+      "deep_heartbeat": "15.2 days ago",
+      "actions_monitor": "3.5 hours ago",
+      "gosi": "16.0 days ago",
+      "product_discovery": "3.1 hours ago"
     }
   },
   "summary": {
@@ -45,9 +45,9 @@
     "warning": 3,
     "waiting": 1,
     "degraded": 0,
-    "failed": 2,
+    "failed": 1,
     "no_change": 0,
-    "real_failures": 2
+    "real_failures": 1
   },
   "checks": [
     {
@@ -56,7 +56,7 @@
       "reason": "운영 상품 356개, CP 357개, S 7개",
       "count": 356,
       "s_count": 7,
-      "freshness": "just now",
+      "freshness": "3.1 hours ago",
       "is_failure": false
     },
     {
@@ -65,28 +65,28 @@
       "reason": "MoCRA 풀스키마 완료 0/7 · 공개 차단 7건 · 사람 입력 대기: identity 7건, legal_hard_block 4건, ingredients 3건, net_contents 3건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
-      "freshness": "just now"
+      "freshness": "3.1 hours ago"
     },
     {
       "team": "shopify_sync",
       "status": "success",
       "reason": "shortlist proposed 3단위 · initial · create 3 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "6.4 days ago"
+      "freshness": "6.5 days ago"
     },
     {
       "team": "pricing",
       "status": "success",
       "reason": "FX 반영, 손익분기·기여마진 계산됨",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "3.1 hours ago"
     },
     {
       "team": "marketing",
       "status": "warning",
       "reason": "S 우선순위 CP 연결 7/7 · Trends 미연동",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "3.1 hours ago"
     },
     {
       "team": "daiso",
@@ -99,9 +99,9 @@
       "candidates_new": 81,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-18T01:50:29.138531+00:00",
-      "candidate_success_age_hours": 11.588,
-      "attempt_age_hours": 11.588,
-      "success_age_hours": 468.613,
+      "candidate_success_age_hours": 14.653,
+      "attempt_age_hours": 14.653,
+      "success_age_hours": 471.679,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -132,12 +132,12 @@
             "verified": false
           },
           "overall_workflow": {
-            "status": "failed",
-            "reason": "workflow_failure_not_superseded_by_same_scope_verified_publication",
+            "status": "unverified",
+            "reason": "publication_completion_unverified",
             "verified": false
           }
         },
-        "status": "failed",
+        "status": "unverified",
         "failed_workflow_history": [
           {
             "run": {
@@ -152,7 +152,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -165,7 +165,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -180,7 +181,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -193,7 +194,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -208,7 +210,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -221,7 +223,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -236,7 +239,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -249,7 +252,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -264,7 +268,7 @@
               "run_attempt": 1
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -277,7 +281,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -506,7 +511,7 @@
               "finished_at": "2026-10-17T11:42:07Z"
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -519,7 +524,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -748,7 +754,7 @@
               "finished_at": "2026-10-06T01:49:38Z"
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -761,7 +767,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -990,7 +997,7 @@
               "finished_at": "2026-10-05T09:22:07Z"
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -1003,7 +1010,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -1232,7 +1240,7 @@
               "finished_at": "2026-10-03T23:08:25Z"
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -1245,7 +1253,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -1474,7 +1483,7 @@
               "finished_at": "2026-10-04T23:20:02Z"
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -1487,7 +1496,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           },
           {
             "run": {
@@ -1716,7 +1726,7 @@
               "finished_at": "2026-10-05T07:05:26Z"
             },
             "metadata_verified": true,
-            "superseded": false,
+            "superseded": true,
             "metadata_precision": {
               "github_whole_second": "half_open_[t,t+1s)",
               "capture_clocks": "exact_unmodified",
@@ -1729,7 +1739,8 @@
               "discovery_enabled": true,
               "operating_updates_enabled": false,
               "publication": "collection_metadata"
-            }
+            },
+            "superseded_by": "39084067267:1:collect"
           }
         ],
         "public_authority": false,
@@ -1752,16 +1763,16 @@
           "candidates_new": 81,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-18T01:50:29.138531+00:00",
-          "candidate_success_age_hours": 11.588,
-          "attempt_age_hours": 11.588,
-          "success_age_hours": 468.613,
+          "candidate_success_age_hours": 14.653,
+          "attempt_age_hours": 14.653,
+          "success_age_hours": 471.679,
           "data_stale": true,
           "attempt_stale": false,
           "is_no_change": false,
           "is_failure": false
         }
       },
-      "freshness": "11.6 hours ago"
+      "freshness": "14.7 hours ago"
     },
     {
       "team": "daiso_candidate_discovery",
@@ -1803,24 +1814,24 @@
     },
     {
       "team": "daiso_overall_workflow",
-      "status": "failed",
-      "reason": "workflow_failure_not_superseded_by_same_scope_verified_publication",
+      "status": "unverified",
+      "reason": "publication_completion_unverified",
       "verified": false,
-      "is_failure": true,
+      "is_failure": false,
       "public_authority": false,
       "freshness": "unknown"
     },
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (361.5시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (364.6시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 361.513,
+      "age_hours": 364.579,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "15.1 days ago"
+      "freshness": "15.2 days ago"
     },
     {
       "team": "actions_monitor",
@@ -1828,22 +1839,22 @@
       "reason": "GitHub Actions 관측: 5/5개 · 실패 1",
       "is_failure": true,
       "observed_at": "2026-10-18T13:01:23.504265Z",
-      "freshness": "24 min ago"
+      "freshness": "3.5 hours ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "379.8h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "382.9h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
-      "freshness": "15.8 days ago"
+      "freshness": "16.0 days ago"
     },
     {
       "team": "product_discovery",
       "status": "success",
-      "reason": "정상 0.0h 전",
+      "reason": "정상 3.1h 전",
       "is_failure": false,
-      "freshness": "just now"
+      "freshness": "3.1 hours ago"
     }
   ],
   "daiso_pipeline": {
@@ -1872,12 +1883,12 @@
         "verified": false
       },
       "overall_workflow": {
-        "status": "failed",
-        "reason": "workflow_failure_not_superseded_by_same_scope_verified_publication",
+        "status": "unverified",
+        "reason": "publication_completion_unverified",
         "verified": false
       }
     },
-    "status": "failed",
+    "status": "unverified",
     "failed_workflow_history": [
       {
         "run": {
@@ -1892,7 +1903,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1905,7 +1916,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -1920,7 +1932,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1933,7 +1945,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -1948,7 +1961,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1961,7 +1974,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -1976,7 +1990,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -1989,7 +2003,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -2004,7 +2019,7 @@
           "run_attempt": 1
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2017,7 +2032,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -2246,7 +2262,7 @@
           "finished_at": "2026-10-17T11:42:07Z"
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2259,7 +2275,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -2488,7 +2505,7 @@
           "finished_at": "2026-10-06T01:49:38Z"
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2501,7 +2518,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -2730,7 +2748,7 @@
           "finished_at": "2026-10-05T09:22:07Z"
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2743,7 +2761,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -2972,7 +2991,7 @@
           "finished_at": "2026-10-03T23:08:25Z"
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -2985,7 +3004,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -3214,7 +3234,7 @@
           "finished_at": "2026-10-04T23:20:02Z"
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -3227,7 +3247,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       },
       {
         "run": {
@@ -3456,7 +3477,7 @@
           "finished_at": "2026-10-05T07:05:26Z"
         },
         "metadata_verified": true,
-        "superseded": false,
+        "superseded": true,
         "metadata_precision": {
           "github_whole_second": "half_open_[t,t+1s)",
           "capture_clocks": "exact_unmodified",
@@ -3469,7 +3490,8 @@
           "discovery_enabled": true,
           "operating_updates_enabled": false,
           "publication": "collection_metadata"
-        }
+        },
+        "superseded_by": "39084067267:1:collect"
       }
     ],
     "public_authority": false,
@@ -3492,9 +3514,9 @@
       "candidates_new": 81,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-18T01:50:29.138531+00:00",
-      "candidate_success_age_hours": 11.588,
-      "attempt_age_hours": 11.588,
-      "success_age_hours": 468.613,
+      "candidate_success_age_hours": 14.653,
+      "attempt_age_hours": 14.653,
+      "success_age_hours": 471.679,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,

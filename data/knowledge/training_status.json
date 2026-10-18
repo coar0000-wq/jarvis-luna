@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T13:24:45.313404+00:00",
+  "updated_at": "2026-10-18T16:29:10.117257+00:00",
   "real_records": 7721,
   "source_labels": {
     "ai-image": 527,
@@ -46,8 +46,8 @@
   "말뭉치": "이 말뭉치로 학습한 가중치다.",
   "tuning_final_loss": 0.2613085234360265,
   "tuning_gate_load_std": 0.46985319002699893,
-  "records_before": 7583,
-  "records_added": 138,
+  "records_before": 7721,
+  "records_added": 0,
   "source_status": {
     "arxiv": "ok",
     "robotics": "ok",
