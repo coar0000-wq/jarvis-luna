@@ -142,14 +142,33 @@ class PricingModelPolicyTests(unittest.TestCase):
         self.assertFalse(doc["pricing_policy"]["margin_hard_block"])
         for kind in ("single", "bundle"):
             offer = doc["offers_by_product"][kind][0]
-            self.assertLess(offer["net_profit_usd"], 0, kind)  # 적자
+            # 2026-10-18 사업주: 근거가가 적자여도 원가+배송+카드수수료 기준 최소 마진 30% 하한가로 올린다.
+            self.assertGreater(offer["net_profit_usd"], 0, kind)
+            self.assertGreaterEqual(offer["margin_pct"], 30, kind)
+            self.assertTrue(offer["margin_floor_applied"], kind)
+            self.assertEqual(offer["pricing_basis"], "margin_floor_above_evidence", kind)
             self.assertFalse(offer["register_blocked"], kind)
             self.assertEqual(offer["block_reason"], "")
-            self.assertIn("price_at_or_below_breakeven", offer["profit_warnings"])
+            self.assertNotIn("price_at_or_below_breakeven", offer["profit_warnings"])
             self.assertEqual(offer["price_evidence"]["source"], "serpapi_google_shopping")
             self.assertEqual(offer["price_evidence"]["collected_at"], doc["pricing_policy"]["serp_collected_at"])
             self.assertTrue(offer["price_evidence"]["assessment_at_generation"]["ok"])
-        self.assertEqual(doc["offers_by_product"]["single"][0]["price_usd"], 2.99)  # 중앙값 3.0 x 0.95
+        single = doc["offers_by_product"]["single"][0]
+        landed = single["landed_cost_total_usd"]
+        self.assertIn(single["price_usd"], {pm.margin_floor_price(landed, False), pm.margin_floor_price(landed, True)})
+        self.assertGreater(single["price_usd"], 2.99)  # 근거가(중앙값 3.0 x 0.95)보다 높은 하한가
+
+    def test_margin_floor_price_meets_minimum_margin_and_estimated_buffer(self):
+        for landed in (0.5, 3.21, 8.0, 14.0, 27.4):
+            for estimated, minimum in ((False, 30.0), (True, 35.0)):
+                price = pm.margin_floor_price(landed, estimated)
+                self.assertTrue(f"{price:.2f}".endswith(".99"))
+                adv = pm.profitability_advisory(price, landed, estimated)
+                self.assertGreaterEqual(adv["margin_pct"], minimum, (landed, estimated))
+                if price >= 2:  # the next lower .99 price would miss the floor
+                    self.assertLess(pm.profitability_advisory(price - 1, landed, estimated)["margin_pct"], minimum)
+        self.assertEqual(pm.apply_margin_floor(99.99, 8.0), (99.99, False))
+        self.assertIsNone(pm.margin_floor_price(0))
 
     def test_offers_without_valid_evidence_are_cost_based_drafts(self):
         stale = self._run_model({"1": {"median": 30.0, "n": 12, "query": "Test Serum 50 ml"}}, iso(90))

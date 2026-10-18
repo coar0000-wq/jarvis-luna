@@ -635,12 +635,17 @@ class DailySafetyTests(unittest.TestCase):
     def test_final_prices_follow_shop_com_evidence_below_breakeven_with_warnings(self):
         shop = {"lowest_usd": 6.5, "match_count": 3, "matches": [{"title": "Test Serum 50 ml", "usd": 6.5}]}
         pr = self._final(shop)
-        self.assertEqual(pr["single"]["price_usd"], 5.99)  # 최저가보다 낮게, 원가 바닥 없음
+        # 2026-10-18 사업주: 원가+배송+카드수수료 기준 최소 마진 30% 아래로 팔지 않는다 -> 하한가로 올린다.
+        self.assertEqual(pr["single"]["price_usd"], 11.99)
+        self.assertTrue(pr["single"]["margin_floor_applied"])
+        self.assertGreaterEqual(pr["single"]["margin_pct"], 30)
+        self.assertGreaterEqual(pr["pack"]["margin_pct"], 30)
         self.assertTrue(pr["evidence"]["ok"])
         self.assertEqual(pr["evidence"]["source"], "shop_com_live_comparable")
-        self.assertLess(pr["single"]["net_profit_usd"], 0)
-        self.assertIn("single:price_at_or_below_breakeven", pr["profit_warnings"])
-        self.assertTrue(any(w.startswith("pack:margin_below_target") for w in pr["profit_warnings"]))
+        self.assertGreater(pr["single"]["net_profit_usd"], 0)
+        self.assertNotIn("single:price_at_or_below_breakeven", pr["profit_warnings"])
+        self.assertFalse(any("margin_below_minimum" in w for w in pr["profit_warnings"]))
+        self.assertIn("최소 마진 하한", pr["basis"])
         self.assertFalse(pr["profitability_blocks_registration"])
         self.assertTrue(pr["pack"]["ok"])
         self.assertIsNone(daily.price_unfit_reason(3000, pr))
@@ -1130,7 +1135,15 @@ class DailySafetyTests(unittest.TestCase):
         self.assertIn("시장 최저가 아님", pr["basis"])
         shop = {"lowest_usd": 6.5, "match_count": 3, "matches": [{"title": "Test Serum 50 ml", "usd": 6.5}]}
         verified = self._final(shop)
-        self.assertEqual(verified["evidence"]["detail"]["price_claim"], "undercuts_lowest_verified_same_item_comparator")
+        # 최저가가 마진 하한보다 낮으면 하한가로 올리고 '최저가보다 저렴' 주장을 하지 않는다.
+        self.assertEqual(verified["evidence"]["detail"]["price_claim"], "margin_floor_price_above_evidence")
+        roomy = self._final({"lowest_usd": 30.0, "match_count": 3, "matches": [{"title": "Test Serum 50 ml", "usd": 30.0}]})
+        self.assertEqual(roomy["evidence"]["detail"]["price_claim"], "undercuts_lowest_verified_same_item_comparator")
+        self.assertFalse(roomy["single"]["margin_floor_applied"])
+        self.assertLess(roomy["single"]["price_usd"], 30.0)
+        self.assertEqual(daily.bundle_variant_name(10.0, 17.0), "2-Pack (Save 15%)")
+        self.assertEqual(daily.bundle_variant_name(14.99, 25.99), "2-Pack (Save 13%)")
+        self.assertEqual(daily.bundle_variant_name(10.0, 19.99), "2-Pack")
         # 검증에서 탈락한 shop.com 최저가는 장부에 최저가로 남기지 않는다 (SerpApi 가격이 채택된 경우)
         rejected_shop = {"lowest_usd": 6.5, "match_count": 1, "matches": [{"title": "Test Serum 100 ml", "usd": 6.5}]}
         pricing = {**self._ok_pricing(), "shop_compare": rejected_shop,

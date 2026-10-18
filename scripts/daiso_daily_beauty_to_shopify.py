@@ -1114,14 +1114,23 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price, base_evidence=None):
                                 "reasons": ["price_evidence_missing"] + [r for x in rejected for r in x["reasons"]]})
 
     draft_only = single is None
+    floor_applied = False
     if draft_only and krw and krw > 0:
         single = pm.cost_based_draft_price(round(landed1, 2), STRATEGY)
         basis = "원가·배송비·수수료·목표마진 기준 임시 USD 초안 가격 (시장가격 미확인)"
-    single_row = {"price_usd": single, "landed_cost_usd": round(landed1, 2)}
+    elif single is not None:
+        # 2026-10-18 사업주: 원가+배송+카드수수료 기준 최소 마진 30%(무게 추정 35%) 미만으로 팔지 않는다.
+        single, floor_applied = pm.apply_margin_floor(single, landed1, estimated, STRATEGY)
+        if floor_applied:
+            basis = (basis or "") + " → 최소 마진 하한 적용 (원가·배송·카드수수료 기준)"
+            if chosen:
+                chosen["price_claim"] = "margin_floor_price_above_evidence"
+    single_row = {"price_usd": single, "landed_cost_usd": round(landed1, 2), "margin_floor_applied": floor_applied}
     pack_row = {"price_usd": None, "compare_at_usd": None, "landed_cost_usd": round(landed2, 2), "ok": False}
     warnings = []
     if single is not None:
         pack = round(pm.psych_price(single * BUNDLE_QTY * (1 - BUNDLE_DISCOUNT)), 2)
+        pack, _pack_floor = pm.apply_margin_floor(pack, landed2, estimated, STRATEGY)
         adv1 = pm.profitability_advisory(single, landed1, estimated, STRATEGY)
         adv2 = pm.profitability_advisory(pack, landed2, estimated, STRATEGY)
         single_row.update(net_profit_usd=adv1["net_profit_usd"], margin_pct=adv1["margin_pct"],
@@ -1199,6 +1208,16 @@ def save_registry(d):
             os.unlink(name)
 
 
+
+
+def bundle_variant_name(single, pack):
+    """Truthful 2-pack label: the saving shown is never more than the actual saving vs two singles."""
+    import math  # noqa: PLC0415
+    try:
+        save = math.floor((1 - float(pack) / (2 * float(single))) * 100 + 1e-9)
+    except (TypeError, ValueError, ZeroDivisionError):
+        return "2-Pack"
+    return f"2-Pack (Save {save}%)" if save >= 1 else "2-Pack"
 
 
 def price_unfit_reason(krw, pr):
@@ -2147,7 +2166,7 @@ def main():
             if bo["ok"]:
                 variants.append(
                     {
-                        "name": "2-Pack (Save 15%)",
+                        "name": bundle_variant_name(pr["single"]["price_usd"], bo["price_usd"]),
                         "price": bo["price_usd"],
                         "compare_at": bo["compare_at_usd"],
                         "sku": f"DS-{p['pdNo']}-2",

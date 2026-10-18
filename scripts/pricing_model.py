@@ -177,6 +177,7 @@ def validate_strategy(doc: dict) -> dict:
     price = doc.get("price_policy") or {}
     need(price.get("mode") == "evidence_based_price", "price_policy.mode must be evidence_based_price")
     need(price.get("margin_hard_block") is False, "price_policy.margin_hard_block must be false")
+    need(isinstance(price.get("margin_floor_pricing", False), bool), "price_policy.margin_floor_pricing must be boolean")
     adv = price.get("margin_advisory") or {}
     for key in ("target_margin", "minimum_margin", "estimated_weight_extra_margin"):
         need(isinstance(adv.get(key), (int, float)) and not isinstance(adv.get(key), bool)
@@ -371,6 +372,40 @@ def cost_based_draft_price(landed_total, strategy=None):
     if denominator <= 0:
         return None
     return math.ceil((landed_total + PAY_FIXED) / denominator * 100) / 100
+
+
+def margin_floor_price(landed_total, weight_estimated=False, strategy=None):
+    """Smallest .99 price whose margin after card fees meets minimum_margin (+estimated-weight buffer).
+
+    2026-10-18 owner instruction: price = cost + shipping + card fees with at least 30% margin.
+    Returns None when the floor is disabled or the landed cost is unusable.
+    """
+    import math
+    policy = (strategy or load_commerce_strategy())["price_policy"]
+    if policy.get("margin_floor_pricing") is not True:
+        return None
+    if isinstance(landed_total, bool) or not isinstance(landed_total, (int, float)) or not math.isfinite(landed_total) or landed_total <= 0:
+        return None
+    adv = policy["margin_advisory"]
+    margin = adv["minimum_margin"] + (adv["estimated_weight_extra_margin"] if weight_estimated else 0.0)
+    denominator = 1 - PAY_RATE - margin
+    if denominator <= 0:
+        return None
+    floor = (landed_total + PAY_FIXED) / denominator
+    price = math.floor(floor) + 0.99
+    if price + 1e-9 < floor:
+        price += 1
+    return round(price, 2)
+
+
+def apply_margin_floor(price, landed_total, weight_estimated=False, strategy=None):
+    """Raise price to the margin floor when below it. Returns (price, raised)."""
+    floor = margin_floor_price(landed_total, weight_estimated, strategy)
+    if floor is None or not isinstance(price, (int, float)) or isinstance(price, bool):
+        return price, False
+    if price + 1e-9 < floor:
+        return floor, True
+    return price, False
 
 
 def is_cost_based_draft(price, landed_total, strategy=None):
@@ -694,6 +729,8 @@ def main() -> int:
         provisional = cost_based_draft_price(land * qty, STRATEGY) if not assessment["ok"] and row.get("price_krw", 0) > 0 else None
         if provisional is not None:
             price = provisional
+        # 2026-10-18 owner: 원가+배송+카드수수료 기준 최소 마진(30%, 무게 추정 시 35%) 이상으로 가격을 잡는다.
+        price, floor_applied = apply_margin_floor(price, land * qty, row.get("weight_source") == "estimated", STRATEGY)
         fee = price * PAY_RATE + PAY_FIXED
         net = price - land * qty - fee
         # 2026-10-11 사용자 승인: 손익분기·목표마진 미달은 등록을 막지 않고 경고로 공개한다.
@@ -716,7 +753,9 @@ def main() -> int:
             "profit_warnings": profit["warnings"],
             "register_blocked": blocked,
             "draft_only": provisional is not None,
-            "pricing_basis": "cost_based_draft" if provisional is not None else "market_evidence",
+            "margin_floor_applied": floor_applied,
+            "pricing_basis": ("cost_based_draft" if provisional is not None
+                              else "margin_floor_above_evidence" if floor_applied else "market_evidence"),
             "block_reason": ("가격 근거 미달: " + ",".join(assessment["reasons"] or ["price_invalid"])
                              if blocked else ""),
         }
