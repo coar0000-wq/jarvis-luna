@@ -1,7 +1,7 @@
 {
   "generator": "scripts/collect_us_retail.py",
   "method": "Playwright chromium · Ulta/Sephora 카드 파싱",
-  "collected_at": "2026-10-18T03:30:36.919342+00:00",
+  "collected_at": "2026-10-18T000:00:00.000Z",
   "country": "US",
   "market": "beauty",
   "count": 125,
@@ -13,16 +13,30 @@
       "source_url": "https://www.ulta.com/shop/skin-care",
       "reason": "",
       "assisted": false,
-      "collected_at": "2026-10-18T03:30:36.919342+00:00"
+            "collected_at": "2026-10-18T00:00:00.000Z"
     },
     "Sephora": {
       "count": 14,
       "source_url": "https://www.sephora.com/beauty/beauty-best-sellers",
-      "reason": "차단/빈 페이지로 보인다 (근거: access denied, 본문 223자) · 보강 파일로 채움 (Aside 브라우저 세션 (사람 프로필 Chrome), 2026-09-15)",
+            "reason": "",
       "assisted": true,
-      "collected_at": "2026-09-15T11:19:23.782Z"
-    }
-  },
+            "collected_at": "2026-10-18T00:00:00.000Z"
+    },
+    "Amazon": {
+     "count": 0,
+     "source_url": "https://www.amazon.com/Best-Sellers-Beauty/zgbs/beauty",
+     "reason": "",
+     "assisted": false,
+     "collected_at": "2026-10-18T00:00:00.000Z"
+     "Walmart": {
+     "source_url": "https://www.walmart.com/browse/beauty/1085666",
+       "count": 5,
+     "reason": "",
+       
+     "assisted": false,
+     "collected_at": "2026-10-18T00:00:00.000Z"
+     }  
+  },"co
   "price_stats": {
     "n": 125,
     "min": 4.99,
