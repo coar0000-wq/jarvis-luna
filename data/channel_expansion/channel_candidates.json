@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_at": "2026-10-03T11:53:53.046507+00:00",
   "discovery_mode": "seed_catalog_plus_health_probe",
-  "candidate_count": 18,
+  "candidate_count": 21,
   "verified_count": 9,
   "candidates": [
     {
@@ -272,6 +272,111 @@
       "has_html": true,
       "status": "unverified",
       "checked_at": "2026-10-03T11:53:35.890536+00:00"
+    },
+    {
+      "key": "peach_and_lily_official",
+      "team": "채널 운영팀",
+      "name": "Peach & Lily",
+      "url": "https://www.peachandlily.com/",
+      "kind": "official-brand-reference",
+      "country": "US",
+      "priority": 3,
+      "status": "review_required",
+      "enabled": false,
+      "connector_registered": false,
+      "reachable": null,
+      "reviewed_at": "2026-10-18T15:34:54+00:00",
+      "purpose": "Official product identity and published-offer verification candidate; not a market-demand or market-lowest-price source.",
+      "terms_url": "https://www.peachandlily.com/pages/terms-of-use",
+      "restriction_scope": "content_reuse_and_collection_review",
+      "review_reason": "Content reuse for public/commercial purposes and reposting is restricted. Automated collection is not expressly authorized by the reviewed terms.",
+      "robots_url": "https://www.peachandlily.com/robots.txt",
+      "robots_review": {
+        "http_status": 200,
+        "checked_path": "/sitemap.xml",
+        "checked_path_allowed": true,
+        "note": "Robots permission is path-specific and is not a content-reuse license.",
+        "checked_user_agent": "JarvisLunaSourceProbe/1.0 (+https://github.com/coar0000-wq/jarvis-luna)"
+      },
+      "sitemap_url": "https://www.peachandlily.com/sitemap.xml",
+      "sitemap_probe": {
+        "http_status": 200,
+        "kind": "sitemap_index",
+        "product_url_probe_count": 137,
+        "probe_note": "A bounded product-sitemap probe parsed 137 product URLs plus the homepage; no product catalog or price collector was activated."
+      },
+      "collection_status": "inactive_pending_review",
+      "publication_policy": "Do not copy product descriptions, reviews, images or branded creative. A brief factual summary with a source link is not treated here as blanket-prohibited; review the intended use before automation or republication."
+    },
+    {
+      "key": "prime_prometics_official",
+      "team": "채널 운영팀",
+      "name": "Prime Prometics",
+      "url": "https://www.primeprometics.com/",
+      "kind": "official-brand-reference",
+      "country": "US",
+      "priority": 3,
+      "status": "review_required",
+      "enabled": false,
+      "connector_registered": false,
+      "reachable": null,
+      "reviewed_at": "2026-10-18T15:34:54+00:00",
+      "purpose": "Official product identity and published-offer verification candidate; not a market-demand or market-lowest-price source.",
+      "terms_url": "https://www.primeprometics.com/pages/terms-of-service",
+      "restriction_scope": "data_collection_and_commercial_use",
+      "review_reason": "Site terms restrict collecting site data and state that services are intended for non-commercial use. Automated collection requires a permitted basis or provider permission.",
+      "robots_url": "https://www.primeprometics.com/robots.txt",
+      "robots_review": {
+        "http_status": 200,
+        "checked_path": "/sitemap.xml",
+        "checked_path_allowed": true,
+        "note": "Robots permission is path-specific and is not a content-reuse license.",
+        "checked_user_agent": "JarvisLunaSourceProbe/1.0 (+https://github.com/coar0000-wq/jarvis-luna)"
+      },
+      "sitemap_url": "https://www.primeprometics.com/sitemap.xml",
+      "sitemap_probe": {
+        "http_status": 200,
+        "kind": "sitemap_index",
+        "product_url_probe_count": null,
+        "probe_note": "Sitemap index only; product collection was not started after terms review."
+      },
+      "collection_status": "inactive_pending_review",
+      "publication_policy": "Do not copy product descriptions, reviews, images or branded creative. A brief factual summary with a source link is not treated here as blanket-prohibited; review the intended use before automation or republication."
+    },
+    {
+      "key": "lange_hair_official",
+      "team": "채널 운영팀",
+      "name": "L’ange Hair",
+      "url": "https://langehair.com/",
+      "kind": "official-brand-reference",
+      "country": "US",
+      "priority": 3,
+      "status": "review_required",
+      "enabled": false,
+      "connector_registered": false,
+      "reachable": null,
+      "reviewed_at": "2026-10-18T15:34:54+00:00",
+      "purpose": "Official product identity and published-offer verification candidate; not a market-demand or market-lowest-price source.",
+      "terms_url": "https://langehair.com/policies/terms-of-service",
+      "restriction_scope": "content_license_and_robots_review",
+      "review_reason": "Content license is limited to personal, non-commercial use and restricts copying/republication. Robots rules vary by user agent and path. Automated commercial reuse requires review.",
+      "robots_url": "https://langehair.com/robots.txt",
+      "robots_review": {
+        "http_status": 200,
+        "checked_path": "/sitemap.xml",
+        "checked_path_allowed": true,
+        "note": "Robots permission is path-specific and is not a content-reuse license.",
+        "checked_user_agent": "JarvisLunaSourceProbe/1.0 (+https://github.com/coar0000-wq/jarvis-luna)"
+      },
+      "sitemap_url": "https://langehair.com/sitemap.xml",
+      "sitemap_probe": {
+        "http_status": 200,
+        "kind": "sitemap_index",
+        "product_url_probe_count": null,
+        "probe_note": "Sitemap index only; no product catalog or price collector was activated."
+      },
+      "collection_status": "inactive_pending_review",
+      "publication_policy": "Do not copy product descriptions, reviews, images or branded creative. A brief factual summary with a source link is not treated here as blanket-prohibited; review the intended use before automation or republication."
     }
   ],
   "next_expansion_queries": [
@@ -282,5 +387,6 @@
     "public consumer data US",
     "retail data API US",
     "beauty product reviews US"
-  ]
+  ],
+  "catalog_reviewed_at": "2026-10-18T15:34:54+00:00"
 }
