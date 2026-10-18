@@ -396,6 +396,7 @@ nav a{font-size:12px;}
 .dp-step i{display:block;margin:0 auto 4px;width:24px;height:24px;border-radius:50%;line-height:24px;font-style:normal;font-size:11px;background:#2a2a2a;color:#8b949e;}
 .dp-step.done i{background:#2f5bea;color:#fff;}.dp-step.cur i{background:#2f5bea;color:#fff;box-shadow:0 0 0 4px rgba(74,108,247,.3);}
 .dp-step.bad i{background:#f85149;color:#fff;}.dp-step.wait i{background:#e3b341;color:#1a1a1a;}.dp-step.wait{color:#e3b341;}.dp-step.bad{color:#f85149;}
+.dp-step.queued i{background:#333;color:#8b949e;}.dp-step.queued{color:#8b949e;}
 .dp-legend{display:flex;gap:12px;font-size:11px;color:#8b949e;margin:4px 0 10px;}.dp-legend b{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:-1px;}
 .dp-step:not(:last-child):after{content:"";position:absolute;top:12px;left:calc(50% + 15px);right:calc(-50% + 15px);border-top:2px solid #333;}
 .dp-step.done:not(:last-child):after{border-top-color:#2f5bea;}
@@ -2070,7 +2071,7 @@ function reasonText(codes){
   var deskS={skincare:0,makeup:0,body:0};
   var sSet={};
   try{ var sr=await getJSON('data/daiso_real/shopify_s_recommendations.json'); ((sr&&sr.recommendations)||[]).forEach(function(r){ var d=r.desk||DESK_OF[r.bucket]; if(d&&deskS[d]!=null) deskS[d]++; sSet[String(r.pd_no)]=1; }); }catch(e){}
-  var STEPS=['등급 기록','가격·마진','고시·INCI 증적','상품 이미지','공개 기록'];
+  var STEPS=['대상 선정','가격·마진','고시·INCI 증적','상품 이미지','공개 기록'];
   function el(tag,cls,txt){var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e;}
   function kst(){ return new Date(Date.now()+9*3600*1000).toISOString().slice(0,10); }
   var items=[];
@@ -2079,15 +2080,18 @@ function reasonText(codes){
   function latest(cat){ var r=items.filter(function(i){return i.category===cat;}); return r.length? r[r.length-1] : null; }
   function stepState(it){
     var rs=(it.draft_reasons||[]).map(String);
-    var legalBad=rs.some(function(r){return /^(gosi_missing|inci|ingredients_missing|origin_unmapped|maker_missing|us_regulatory|claim_language)/.test(r);});
+    var legalBad=rs.some(function(r){return /^(gosi_missing|inci|ingredients_missing|origin_unmapped|maker_missing|us_regulatory|claim_language|quantity_conflict|volume_mismatch|title_volume_mismatch|safety_evidence|manufacturer_safety|authenticated_us_label|english_title_missing|brand_english)/.test(r);});
     var imgBad=rs.some(function(r){return /image/.test(r);});
     var live=it.status==='ACTIVE';
     // Missing evidence is unknown, not a passed check or a verification failure.
-    var priced=it.single_usd!=null && it.single_margin_pct!=null;
+    var priced=typeof it.single_usd==='number' && Number.isFinite(it.single_usd) && it.single_usd>0 && it.single_margin_pct!=null;
     // 색: 성공 파랑(done) · 준비중 노랑(wait) · 에러 빨강(bad). 공개(ACTIVE)는 공개 게이트(등급·법률·이미지)를 통과한 기록이다.
-    var graded=!!(it.grade||sSet[String(it.pd_no)]||live);
-    var s=[graded?'done':'wait', priced?(Number(it.single_margin_pct)>=30?'done':'bad'):'wait',
+    var graded=!!(sSet[String(it.pd_no)]||it.grade==='S'||it.grade==='RANK'||it.source==='owner_body_shower_category_fallback'||it.source==='manual_owner_image_localization_example'||live);
+    var s=[graded?'done':'wait', priced?'done':'wait',
       legalBad?'bad':(live?'done':'wait'), imgBad?'bad':(it.images>0?'done':'wait'), live?'done':'wait'];
+    // Sequential review: preserve available assets in detail, but never imply a later gate passed.
+    var first=s.findIndex(function(v){return v!=='done';});
+    if(first>=0) for(var j=first+1;j<s.length;j++) s[j]='queued';
     return s;
   }
   var live=0, draft=0, none=0;
@@ -2104,12 +2108,12 @@ function reasonText(codes){
     var price='';
     if(it&&it.single_usd!=null){ price='$'+Number(it.single_usd).toFixed(2)+' (마진 '+it.single_margin_pct+'%)'; if(it.pack_usd) price+=' · 1+1 $'+Number(it.pack_usd).toFixed(2)+' ('+it.pack_margin_pct+'%)'; }
     card.appendChild(el('div','dp-price', price|| (it?'':'다음 실행에서 다시 확인')));
-    var steps=el('div','dp-steps'); var states=it? stepState(it) : ['wait','wait','wait','wait','wait']; var cur=-1;
-    for(var k=0;k<5;k++){ if(states[k]==='bad'&&cur<0) cur=k; }
+    var steps=el('div','dp-steps'); var states=it? stepState(it) : ['wait','queued','queued','queued','queued']; var cur=states.findIndex(function(v){return v!=='done';});
     STEPS.forEach(function(name,k){
       var s=el('div','dp-step '+(states[k]||'wait')); var i=el('i',null, states[k]==='done'?'✓':(states[k]==='bad'?'!':String(k+1))); s.appendChild(i); s.appendChild(document.createTextNode(name)); steps.appendChild(s);
     });
     card.appendChild(steps);
+    card.appendChild(el('div','dp-next',cur<0?'공개 완료 기록':('다음 처리: '+(cur+1)+'단계 '+STEPS[cur]+' · '+(states[cur]==='bad'?'누락·오류 해결 필요':'확인 대기')+' · 이후 단계는 순서 대기')));
     var det=el('div','dp-detail');
     function row(a,b){var r=document.createElement('div'); r.appendChild(el('span',null,a)); r.appendChild(el('span',null,b)); det.appendChild(r);}
     if(it){
@@ -2117,7 +2121,7 @@ function reasonText(codes){
       row('다이소 상품번호', String(it.pd_no||'-'));
       var sz=it.size? (it.size.unit+it.size.base+(it.size.count>1?' x '+it.size.count:'')):'표기 없음'; row('용량', sz);
       row('이미지', it.images!=null?it.images+'장':'기록 없음');
-      row('색 의미', '파랑 = 성공, 노랑 = 준비중, 빨강 = 에러');
+      row('색 의미', '파랑 = 단계 완료, 노랑 = 현재 확인 대기, 빨강 = 현재 보완 필요, 회색 = 이전 단계 대기');
       row('shop.com 최저가', it.shop_com_lowest_usd!=null?'$'+Number(it.shop_com_lowest_usd).toFixed(2):'비교 상품 없음');
       row('가격 근거', it.price_basis||'-');
       row('초안 사유', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
@@ -2126,7 +2130,7 @@ function reasonText(codes){
     card.addEventListener('click',function(){ card.classList.toggle('open'); });
     grid.appendChild(card);
   });
-  var lg=el('div','dp-legend'); [['#2f5bea','성공'],['#e3b341','준비중'],['#f85149','에러']].forEach(function(x){ var s=el('span'); var b=el('b'); b.style.background=x[0]; s.appendChild(b); s.appendChild(document.createTextNode(x[1])); lg.appendChild(s); });
+  var lg=el('div','dp-legend'); [['#2f5bea','단계 완료'],['#e3b341','현재 확인 대기'],['#f85149','현재 보완 필요'],['#8b949e','이전 단계 대기']].forEach(function(x){ var s=el('span'); var b=el('b'); b.style.background=x[0]; s.appendChild(b); s.appendChild(document.createTextNode(x[1])); lg.appendChild(s); });
   if(grid.parentNode) grid.parentNode.insertBefore(lg, grid);
   function kpi(a,b){var k=el('div','dp-kpi'); k.appendChild(el('small',null,a)); k.appendChild(el('b',null,b)); kp.appendChild(k);}
   kpi('오늘 공개', live+' / 3'); kpi('초안 기록', String(draft)); kpi('등록 없음', String(none)); kpi('누적 이력', String(items.length));
