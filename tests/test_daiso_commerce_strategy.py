@@ -151,19 +151,21 @@ class PricingModelPolicyTests(unittest.TestCase):
             self.assertTrue(offer["price_evidence"]["assessment_at_generation"]["ok"])
         self.assertEqual(doc["offers_by_product"]["single"][0]["price_usd"], 2.99)  # 중앙값 3.0 x 0.95
 
-    def test_offers_without_valid_evidence_are_register_blocked(self):
+    def test_offers_without_valid_evidence_are_cost_based_drafts(self):
         stale = self._run_model({"1": {"median": 30.0, "n": 12, "query": "Test Serum 50 ml"}}, iso(90))
-        self.assertTrue(stale["offers_by_product"]["single"][0]["register_blocked"])
-        self.assertIn("price_evidence_stale", stale["offers_by_product"]["single"][0]["block_reason"])
+        self.assertFalse(stale["offers_by_product"]["single"][0]["register_blocked"])
+        self.assertTrue(stale["offers_by_product"]["single"][0]["draft_only"])
         undated = self._run_model({"1": {"median": 30.0, "n": 12, "query": "Test Serum 50 ml"}}, None)
-        self.assertIn("price_evidence_collected_at_missing", undated["offers_by_product"]["single"][0]["block_reason"])
+        self.assertTrue(undated["offers_by_product"]["single"][0]["draft_only"])
         mismatch = self._run_model({"1": {"median": 30.0, "n": 12, "query": "Test Serum 100 ml"}}, iso(1))
-        self.assertIn("price_evidence_volume_mismatch", mismatch["offers_by_product"]["single"][0]["block_reason"])
+        self.assertTrue(mismatch["offers_by_product"]["single"][0]["draft_only"])
         benchmark = self._run_model({}, iso(1))  # 상품별 근거 없음 -> 올리브영 카테고리 벤치마크만 남는다
         row = benchmark["offers_by_product"]["single"][0]
         self.assertEqual(row["market_price_source"], "oliveyoung_us_benchmark")
-        self.assertTrue(row["register_blocked"])
-        self.assertIn("price_evidence_source_not_allowed:oliveyoung_us_benchmark", row["block_reason"])
+        self.assertFalse(row["register_blocked"])
+        self.assertTrue(row["draft_only"])
+        self.assertTrue(pm.is_cost_based_draft(row["price_usd"], row["landed_cost_total_usd"]))
+        self.assertFalse(row["price_evidence"]["assessment_at_generation"]["ok"])
 
 
 class ListingGatePriceTests(unittest.TestCase):
@@ -276,6 +278,16 @@ class ListingGatePriceTests(unittest.TestCase):
                 _, item = self._gate(row)
                 self.assertIn("price", item["blocked_by"])
                 self.assertFalse(item["ready"])
+
+    def test_cost_based_price_allows_draft_but_never_publication(self):
+        offer = self._offer(price_usd=pm.cost_based_draft_price(10),
+                            landed_cost_total_usd=10, draft_only=True, price_evidence=None)
+        _, item = self._gate(offer)
+        self.assertTrue(item["ready"])
+        self.assertFalse(item["public_ready"])
+        self.assertIn("market_price_review", item["public_blocked_by"])
+        _, invalid = self._gate({**offer, "price_usd": 0.01})
+        self.assertIn("price", invalid["blocked_by"])
 
     def test_legal_hard_block_still_blocks_when_price_is_fine(self):
         _, item = self._gate(self._offer(), legal={"status": "blocked", "hard_block": True, "hard_block_reason": "x"})

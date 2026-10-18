@@ -654,19 +654,24 @@ class DailySafetyTests(unittest.TestCase):
         self.assertTrue(any("price_evidence_volume_mismatch" in r for x in pr["evidence"]["rejected"] for r in x["reasons"]))
         self.assertIsNone(daily.price_unfit_reason(3000, pr))
 
-    def test_final_prices_have_no_price_without_valid_evidence(self):
+    def test_final_prices_use_cost_based_draft_without_valid_market_evidence(self):
         none = {"lowest_usd": None, "matches": []}
         for label, evidence in (("none", None), ("stale", self._serp_evidence(days_old=90)),
                                 ("small", self._serp_evidence(n=2)), ("volume", self._serp_evidence(query="Test Serum 100 ml")),
                                 ("future", self._serp_evidence(days_old=-30))):
             with self.subTest(case=label):
                 pr = self._final(none, 18.99, evidence)
-                self.assertIsNone(pr["single"]["price_usd"])
+                self.assertGreater(pr["single"]["price_usd"], 0)
+                self.assertTrue(pr["draft_only"])
                 self.assertFalse(pr["evidence"]["ok"])
-                self.assertTrue(daily.price_unfit_reason(3000, pr).startswith("price_evidence_invalid:price_evidence_missing"))
+                self.assertIsNone(daily.price_unfit_reason(3000, pr))
+                tampered = copy.deepcopy(pr)
+                tampered["single"]["price_usd"] = 0.01
+                self.assertIsNotNone(daily.price_unfit_reason(3000, tampered))
         unknown = self._final({"lowest_usd": 6.5, "match_count": 1, "matches": [{"title": "Test Serum", "usd": 6.5}]},
                               None, None, name="테스트 세럼", title="Test Serum")
-        self.assertIsNone(unknown["single"]["price_usd"])
+        self.assertTrue(unknown["draft_only"])
+        self.assertGreater(unknown["single"]["price_usd"], 0)
         self.assertTrue(any("volume_unverified_product" in r for x in unknown["evidence"]["rejected"] for r in x["reasons"]))
 
     def test_jarvis_price_uses_only_fresh_product_level_evidence_never_cost_plus(self):

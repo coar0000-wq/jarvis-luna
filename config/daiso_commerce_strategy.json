@@ -74,9 +74,11 @@
     }
   ],
   "price_policy": {
+    "cost_based_draft_enabled": true,
+    "cost_based_draft_note": "Owner approved 2026-10-18: missing overseas market prices must not block DRAFT creation. Cost-based estimates are not market evidence and never authorize publication; destination costs require separate review.",
     "mode": "evidence_based_price",
     "margin_hard_block": false,
-    "register_blocked_means": "missing or invalid price evidence only; never margin or breakeven",
+    "register_blocked_means": "no usable market price or valid cost-based draft estimate; never missing market comparisons alone; cost-based estimates are DRAFT only",
     "margin_advisory": {
       "target_margin": 0.4,
       "minimum_margin": 0.3,

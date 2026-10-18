@@ -1060,11 +1060,11 @@ def _landed(pd_no, name, krw, qty):
 def final_prices(pd_no, name_kr, krw, title_en, base_price, base_evidence=None):
     """판매가 결정 (정책: evidence_based_price, config/daiso_commerce_strategy.json).
 
-    가격은 근거에서만 나온다. 원가·배송·관세·마진으로 가격을 올리거나 막지 않는다 (2026-10-11 사용자 승인).
+    시장 근거가 있으면 근거 가격을 쓴다. 마진 미달로 가격을 올리거나 등록을 막지 않는다 (2026-10-11 사용자 승인).
       1순위 shop.com 에서 지금 읽은 같은 상품(총량 일치)의 최저가보다 약간 낮게.
       2순위 jarvis_price() 가 돌려준 상품별 SerpApi 중앙값 가격 (base_price + base_evidence).
-    두 근거 모두 신선도·표본·용량 비교(pricing_model.assess_price_evidence)를 통과해야 한다. 못 통과하면 가격은 None 이고
-    price_unfit_reason() 이 후보를 건너뛰게 한다 (가격을 지어내지 않는다).
+    두 시장 근거 모두 사용할 수 없으면 비용 기반 임시 USD 가격으로 DRAFT만 허용한다
+    (2026-10-18 사업주 승인). 시장 근거의 ok는 계속 False로 남기며 공개하지 않는다.
     착지원가 대비 마진은 profit_warnings 로 공개만 한다 (손익분기 이하여도 등록은 막지 않는다).
     """
     import math  # noqa: PLC0415
@@ -1113,6 +1113,10 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price, base_evidence=None):
                 if chosen else {"ok": False, "source": None, "rejected": rejected,
                                 "reasons": ["price_evidence_missing"] + [r for x in rejected for r in x["reasons"]]})
 
+    draft_only = single is None
+    if draft_only and krw and krw > 0:
+        single = pm.cost_based_draft_price(round(landed1, 2), STRATEGY)
+        basis = "원가·배송비·수수료·목표마진 기준 임시 USD 초안 가격 (시장가격 미확인)"
     single_row = {"price_usd": single, "landed_cost_usd": round(landed1, 2)}
     pack_row = {"price_usd": None, "compare_at_usd": None, "landed_cost_usd": round(landed2, 2), "ok": False}
     warnings = []
@@ -1130,6 +1134,7 @@ def final_prices(pd_no, name_kr, krw, title_en, base_price, base_evidence=None):
         warnings = [f"single:{w}" for w in adv1["warnings"]] + [f"pack:{w}" for w in adv2["warnings"]]
     return {
         "single": single_row, "pack": pack_row,
+        "draft_only": draft_only,
         "basis": basis or "근거 없음", "shop_compare": cmp_, "evidence": evidence,
         "profit_warnings": warnings, "profitability_blocks_registration": False,
         "min_margin": MIN_MARGIN + (STRATEGY["price_policy"]["margin_advisory"]["estimated_weight_extra_margin"] if estimated else 0.0),
@@ -1200,13 +1205,16 @@ def price_unfit_reason(krw, pr):
     """가격이 '실제로 쓸 수 없는' 상품이면 사유를 돌려준다(없으면 None). 이런 상품은 후보에서 제외한다.
 
     2026-10-11 사용자 승인: 마진·손익분기 미달은 더 이상 사유가 아니다(profit_warnings 로 공개만 한다).
-    남은 사유는 원가 없음, 가격 근거 없음/낡음/표본 부족/용량 불일치, 판매가·세트가 무효 뿐이다.
-    근거 필드가 아예 없으면 통과시키지 않는다 (fail closed).
+    2026-10-18: 검증 가능한 비용 기반 임시 가격은 시장 근거 없이 DRAFT로 진행한다.
+    원가 없음, 임시 가격 계산 불일치, 판매가·세트가 무효는 계속 차단한다.
     """
     if not krw or krw <= 0:
         return "no_cost_price"
     ev = pr.get("evidence")
-    if not isinstance(ev, dict) or ev.get("ok") is not True:
+    import pricing_model as pm
+    single_row = pr.get("single") or {}
+    cost_draft = pr.get("draft_only") is True and pm.is_cost_based_draft(single_row.get("price_usd"), single_row.get("landed_cost_usd"), STRATEGY)
+    if (not isinstance(ev, dict) or ev.get("ok") is not True) and not cost_draft:
         reasons = ev.get("reasons") if isinstance(ev, dict) else None
         return "price_evidence_invalid:" + ",".join(str(r) for r in (reasons or ["price_evidence_missing"]))
     price = (pr.get("single") or {}).get("price_usd")
@@ -2100,6 +2108,8 @@ def main():
             html = TAGLINE_HTML + html + label["html"]
             html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
             reasons = list(label["reasons"])
+            if pr.get("draft_only"):
+                reasons.append("market_price_unverified_cost_based_draft_only")
             if fallback_mode:
                 reasons.append("owner_category_fallback_draft_only")
             if p.get("_source") == RANKING_SOURCE:

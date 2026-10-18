@@ -284,8 +284,10 @@ def main() -> int:
         evidence_check = pricing_model.assess_price_evidence(
             price.get("price_evidence"), [price.get("name"), product.get("name")],
             now=gate_now, strategy=strategy)
+        cost_draft = (price.get("draft_only") is True and
+                      pricing_model.is_cost_based_draft(price_value, price.get("landed_cost_total_usd"), strategy))
         has_price = bool(price_valid and not price.get("register_blocked", False)
-                         and evidence_check["ok"])
+                         and (evidence_check["ok"] or cost_draft))
         profit_warnings = _profit_warnings(price, strategy) if price else ["profit_unknown"]
         hard_legal_block = bool(legal.get("hard_block"))
         has_legal = bool(legal) and not hard_legal_block
@@ -332,6 +334,8 @@ def main() -> int:
             blocker_counts["manufacturer_safety_record"] += 1
 
         public_blocked_by = list(blocked_by)
+        if not evidence_check["ok"]:
+            public_blocked_by.append("market_price_review")
         if not legal_full.get("complete"):
             public_blocked_by.append("legal_full")
 
@@ -529,7 +533,7 @@ def main() -> int:
             "margin_hard_block": False,
             "products_with_profit_warnings": sum(
                 1 for row in results if (row.get("price") or {}).get("profit_warnings")),
-            "note": ("price 차단은 가격 근거 불량(없음·오래됨·용량 불일치)만 뜻한다. "
+            "note": ("시장가격 미확인은 비용 기반 임시 가격이 있는 초안 등록을 막지 않는다. 공개 전 가격 검토는 별도다. "
                      "마진 미달은 items[].price.profit_warnings 로 공개한다."),
         },
         "typesafe_summary": typesafe_summary,

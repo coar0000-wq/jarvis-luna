@@ -359,6 +359,25 @@ def assess_price_evidence(evidence: dict | None, product_texts, now: datetime | 
     return out
 
 
+def cost_based_draft_price(landed_total, strategy=None):
+    """Provisional USD price only; not evidence of overseas demand or market price."""
+    import math
+    policy = (strategy or load_commerce_strategy())["price_policy"]
+    if policy.get("cost_based_draft_enabled") is not True:
+        return None
+    if isinstance(landed_total, bool) or not isinstance(landed_total, (int, float)) or not math.isfinite(landed_total) or landed_total <= 0:
+        return None
+    denominator = 1 - PAY_RATE - policy["margin_advisory"]["target_margin"]
+    if denominator <= 0:
+        return None
+    return math.ceil((landed_total + PAY_FIXED) / denominator * 100) / 100
+
+
+def is_cost_based_draft(price, landed_total, strategy=None):
+    expected = cost_based_draft_price(landed_total, strategy)
+    return expected is not None and type(price) in (int, float) and abs(price - expected) < 0.005
+
+
 def profitability_advisory(price: float, landed_total: float, weight_estimated: bool = False,
                            strategy: dict | None = None) -> dict:
     """마진 경고. 등록을 막지 않는다 (blocks_registration 은 항상 False).
@@ -636,9 +655,8 @@ def main() -> int:
 
     MARKET = market_benchmark()
     if not MARKET:
-        print("시장 벤치마크가 없습니다. scripts/collect_oliveyoung_us.py 를 먼저 실행하세요.")
-        print("임의의 시장가를 쓰지 않고 중단합니다.")
-        return 1
+        print("시장 벤치마크 없음: 상품별 근거 또는 비용 기반 초안 가격을 사용합니다.")
+        MARKET = {"p25": 0, "median": 0, "n": 0}
 
     # 기존 키(N개_묶음배송)는 ddu 기준으로 유지해 대시보드 호환을 지킨다.
     # duty_scenarios 에 두 방식을 모두 담아 비교 가능하게 한다.
@@ -672,13 +690,16 @@ def main() -> int:
         else:
             price = psych_price(base * qty * (1 - disc))
         land = row["landed_cost_usd"]
+        assessment = assess_price_evidence(evidence, [row.get("name")], strategy=STRATEGY)
+        provisional = cost_based_draft_price(land * qty, STRATEGY) if not assessment["ok"] and row.get("price_krw", 0) > 0 else None
+        if provisional is not None:
+            price = provisional
         fee = price * PAY_RATE + PAY_FIXED
         net = price - land * qty - fee
         # 2026-10-11 사용자 승인: 손익분기·목표마진 미달은 등록을 막지 않고 경고로 공개한다.
-        # register_blocked 는 이제 '가격 근거가 없거나 잘못된 경우' 만 뜻한다.
-        assessment = assess_price_evidence(evidence, [row.get("name")], strategy=STRATEGY)
+        # 비용 기반 임시 가격은 초안만 허용하며 시장 근거로 인정하지 않는다.
         price_ok = price > 0
-        blocked = (not price_ok) or (not assessment["ok"])
+        blocked = (not price_ok) or (not assessment["ok"] and provisional is None)
         profit = profitability_advisory(price, land * qty, row.get("weight_source") == "estimated", STRATEGY)
         return {
             "pd_no": row.get("pd_no"), "name": row.get("name"),
@@ -694,6 +715,8 @@ def main() -> int:
             "profitability": profit,
             "profit_warnings": profit["warnings"],
             "register_blocked": blocked,
+            "draft_only": provisional is not None,
+            "pricing_basis": "cost_based_draft" if provisional is not None else "market_evidence",
             "block_reason": ("가격 근거 미달: " + ",".join(assessment["reasons"] or ["price_invalid"])
                              if blocked else ""),
         }
@@ -749,7 +772,7 @@ def main() -> int:
             "strategy_sha256": STRATEGY["_sha256"],
             "margin_hard_block": False,
             "serp_collected_at": SERP_COLLECTED_AT,
-            "note": ("register_blocked 는 가격 근거 미달(없음·오래됨·용량 불일치·입력 불가)일 때만 켜진다. "
+            "note": ("시장가격 미확인 상품은 비용 기반 임시 USD 가격과 draft_only로 초안 등록을 허용한다. 임시 가격은 시장가격 근거가 아니다. "
                      "마진/손익분기 미달은 profit_warnings 로 공개할 뿐 등록을 막지 않는다."),
         },
         "cost_basis": {
