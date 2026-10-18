@@ -13,7 +13,7 @@
       "source_url": "https://www.ulta.com/shop/skin-care",
       "reason": "",
       "assisted": false,
-            "collected_at": "2026-10-18T00:00:00.000Z"
+            "collected_at": "2026-10-18T00:00:00.000Z",
     },
     "Sephora": {
       "count": 14,
@@ -27,7 +27,7 @@
      "source_url": "https://www.amazon.com/Best-Sellers-Beauty/zgbs/beauty",
      "reason": "",
      "assisted": false,
-     "collected_at": "2026-10-18T00:00:00.000Z"
+     "collected_at": "2026-10-18T00:00:00.000Z",
      "Walmart": {
      "source_url": "https://www.walmart.com/browse/beauty/1085666",
        "count": 5,
