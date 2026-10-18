@@ -111,6 +111,11 @@ ROTATING = {
                               "health/live_channels"],
     "data/team_learning.json": ["teams/*/review_pending"],
     "data/youtube_manual.json": ["updated_at"],
+    # 2026-10-18: Deep 의 팀 라우터(MoE) 재학습 보고서. 매 학습 결과로 통째로 바뀐다(Deep 39095190590).
+    "data/knowledge/team_router_report.json": ["trusted_teams", "validation", "baseline_majority", "classes"],
+    "data/knowledge/moe_tuning_report.json": ["search_space", "best", "mean_gate_load"],
+    "data/knowledge/training_status.json": ["mean_gate_load"],
+    "data/knowledge/organic_skincare_products.json": ["items", "sites"],
     "data/daiso_real/desk_catalog.json": ["desks/*", "desks/*/products", "desks/*/categories", "errors", "kept_previous"],
     # 2026-10-17: daiso_pipeline_inputs.py 가 보고서를 {history_path, validation_sha256, health:{...}} 형식으로
     # 쓰도록 바뀐 뒤(10-06 이후) Core 가 한 번도 발행하지 못해, 첫 발행에서 옛 평면 칸(status 등)이 빠진다.
