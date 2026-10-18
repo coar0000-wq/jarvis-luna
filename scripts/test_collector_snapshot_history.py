@@ -20,6 +20,18 @@ def git(root, *args):
 
 
 class CollectorSnapshotTests(unittest.TestCase):
+    def test_label_diagnostics_rotate_without_waiving_source_label_protection(self):
+        rel = "data/daiso_real/us_label_sync_report.json"
+        old = {"current_s_count": 2, "items": {"old": {"missing_fields": ["manufacturer"]},
+                                             "keep": {"missing_fields": ["ingredients_inci"]}}}
+        new = {"current_s_count": 1, "items": {"keep": {"missing_fields": []}}}
+        self.assertEqual(set(csh.allowed_removals(rel, old, new, POLICY)),
+                         {"old", "ingredients_inci"})
+        with self.assertRaises(ValueError):
+            csh.allowed_removals(rel, old, {"items": {}}, POLICY)
+        with self.assertRaises(ValueError):
+            csh.allowed_removals("data/daiso_real/daiso_us_labels.json", old, new, POLICY)
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.root = Path(self.tmp.name)

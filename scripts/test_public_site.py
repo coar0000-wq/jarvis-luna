@@ -38,7 +38,7 @@ class PublicSiteTests(unittest.TestCase):
         self.assertIn(".dp-step.wait i{background:#e3b341", html)
         self.assertIn("it.status==='DRAFT'", html)
         self.assertIn("it.status==='deleted_by_owner'?'삭제 이력'", html)
-        self.assertIn("Number(it.single_margin_pct)>=30", html)
+        self.assertIn("var priced=typeof it.single_usd==='number' && Number.isFinite(it.single_usd) && it.single_usd>0 && it.single_margin_pct!=null;", html)
         self.assertNotIn("legalBad?'bad':'done'", html)
         self.assertNotIn("!(it.images>0)", html)
 
