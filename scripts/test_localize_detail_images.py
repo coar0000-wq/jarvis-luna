@@ -126,6 +126,9 @@ class PipelineWithoutOcrTest(unittest.TestCase):
     def test_clean_translation_is_used_with_alt_and_hash(self):
         man = self.run_pipeline(lambda: {1: "Mix your way"})
         self.assertEqual(man["status"], "ok")
+        self.assertFalse(man["gallery_complete"])
+        self.assertEqual(man["gallery_status"], "review_required")
+        self.assertIn("role_rights_and_label_evidence_review_required", man["gallery_review_reasons"])
         out = man["outputs"][0]
         self.assertTrue(out["file"].startswith("01-mix-your-way"))
         self.assertIn("Test Cream", out["alt"])

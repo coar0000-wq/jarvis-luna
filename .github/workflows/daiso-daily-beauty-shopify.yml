@@ -94,7 +94,7 @@ jobs:
                   os.chdir(shadow)
                   loader = unittest.TestLoader()
                   suite = unittest.TestSuite()
-                  for folder, pattern in [('tests', 'test_daiso_daily_beauty_to_shopify.py'), ('tests', 'test_body_category_fallback.py'), ('tests', 'test_collect_desk_catalog_order.py'), ('scripts', 'test_owner_draft_approval.py')]:
+                  for folder, pattern in [('tests', 'test_gallery_review.py'), ('tests', 'test_daiso_daily_beauty_to_shopify.py'), ('tests', 'test_body_category_fallback.py'), ('tests', 'test_collect_desk_catalog_order.py'), ('scripts', 'test_owner_draft_approval.py')]:
                       suite.addTests(loader.discover(folder, pattern=pattern, top_level_dir=folder))
                   result = unittest.TextTestRunner().run(suite)
                   if not result.wasSuccessful():
