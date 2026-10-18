@@ -230,6 +230,39 @@ class ResumptionIntegration(unittest.TestCase):
             self.assertEqual(runtime_builder.agents_plan_heartbeat(root),{})
             (d/'last_run.json').unlink();self.assertEqual(runtime_builder.agents_plan_heartbeat(root),{})
 
+    def test_blocked_history_uses_committed_scope_and_rejects_tampering(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);out=root/'data/shopify_exports';out.mkdir(parents=True)
+            subprocess.run(['git','init','-q',str(root)],check=True,capture_output=True)
+            for name in ('products.csv','inventory.csv','images.csv','collections.csv'):
+                (out/name).write_bytes(b'committed draft fixture\n')
+            manifest=out/'manifest.json'
+            original=json.dumps({'shortlist_pd_nos':['old','still-selected']}).encode()
+            manifest.write_bytes(original)
+            hooks=root/'empty-hooks';hooks.mkdir()
+            subprocess.run(['git','add','data'],cwd=root,check=True,capture_output=True)
+            subprocess.run(['git','-c','user.name=Offline Fixture','-c','user.email=fixture@example.invalid',
+                            '-c','commit.gpgsign=false','-c',f'core.hooksPath={hooks}',
+                            'commit','-qm','historical export'],cwd=root,check=True,capture_output=True)
+            before={p.name:p.read_bytes() for p in out.iterdir()}
+            # The current shortlist may drop "old"; exact historical bytes have
+            # no authority to create actions or claim current ready membership.
+            commerce_validator.validate_blocked_export_scope(root,out,{'old'})
+            self.assertEqual(before,{p.name:p.read_bytes() for p in out.iterdir()})
+            with self.assertRaisesRegex(AssertionError,'outside committed scope'):
+                commerce_validator.validate_blocked_export_scope(root,out,{'unselected'})
+            manifest.write_bytes(json.dumps({'shortlist_pd_nos':['unselected']}).encode())
+            with self.assertRaisesRegex(AssertionError,'changed'):
+                commerce_validator.validate_blocked_export_scope(root,out,{'unselected'})
+            manifest.write_bytes(original)
+            (out/'products.csv').write_bytes(b'new payload\n')
+            with self.assertRaisesRegex(AssertionError,'changed'):
+                commerce_validator.validate_blocked_export_scope(root,out,{'old'})
+            (out/'products.csv').write_bytes(before['products.csv'])
+            manifest.unlink()
+            with self.assertRaisesRegex(AssertionError,'path invalid'):
+                commerce_validator.validate_blocked_export_scope(root,out,{'old'})
+
     def test_source_only_publication_cannot_trigger_model_copy_job(self):
         listing=(ROOT/'.github/workflows/shopify-listing-copy.yml').read_text(encoding='utf-8')
         self.assertIn("github.event_name != 'push' || !contains(github.event.head_commit.message, '[source-recovery-offline]')",listing)

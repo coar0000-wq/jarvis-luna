@@ -27,9 +27,12 @@ def require(condition: bool, message: str) -> None:
         raise AssertionError(message)
 
 
-def validate_retained_blocked_exports(root, export_dir):
+def validate_retained_blocked_exports(root, export_dir, *, include_manifest=False):
     """Only committed or exact Git-checkout bytes; never new clearance."""
-    for name in ('products.csv','inventory.csv','images.csv','collections.csv'):
+    names = ('products.csv','inventory.csv','images.csv','collections.csv')
+    if include_manifest:
+        names += ('manifest.json',)
+    for name in names:
         target = Path(export_dir) / name
         require(not target.is_symlink() and target.is_file(), 'retained draft path invalid')
         rel = f'data/shopify_exports/{name}'
@@ -50,6 +53,21 @@ def validate_retained_blocked_exports(root, export_dir):
         require(committed.returncode == 0 and checkout.returncode == 0
                 and target.read_bytes() in (committed.stdout, checkout.stdout),
                 f'legally blocked draft changed or lacks committed byte proof: {name}')
+
+
+def validate_blocked_export_scope(root, export_dir, export_ids):
+    """A retained snapshot uses its committed scope, never current clearance.
+
+    Called only when no current shortlist member is ready and no draft action
+    exists. All five historical files must match Git before reading old scope.
+    """
+    validate_retained_blocked_exports(root, export_dir, include_manifest=True)
+    manifest = load(Path(export_dir) / 'manifest.json')
+    scope = manifest.get('shortlist_pd_nos')
+    require(isinstance(scope, list) and scope and
+            all(isinstance(value, str) and value for value in scope),
+            'retained export lacks committed selection scope')
+    require(export_ids <= set(scope), 'blocked retained export is outside committed scope')
 
 
 def digest(value) -> str:
@@ -189,9 +207,8 @@ def main() -> int:
     if ready_ids:
         require(export_ids == ready_ids, "Shopify products.csv가 shortlist ∩ gate ready 집합과 다름")
     else:
-        require(export_ids <= shortlist_ids, 'blocked retained export is outside selected scope')
         require(not (action_queue.get('draft_actions') or []), 'legal hold cannot propose new draft payloads')
-        validate_retained_blocked_exports(ROOT, export_dir)
+        validate_blocked_export_scope(ROOT, export_dir, export_ids)
         print('SHOPIFY_EXPORTS_RETAINED_LEGAL_BLOCKED current_eligible=0 authority=false')
     guard = load(D / "shopify_sync_guard.json")
     require(guard.get("ok") is True, f"Shopify sync guard 위반: {guard.get('violations')}")
