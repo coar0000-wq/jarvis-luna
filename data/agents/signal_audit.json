@@ -1,7 +1,7 @@
 {
   "agent": "Signal-Audit",
-  "generated_at": "2026-10-18T21:06:12.168279+00:00",
-  "live_channels": 5,
+  "generated_at": "2026-10-18T22:36:54.843757+00:00",
+  "live_channels": 4,
   "total_channels": 14,
   "empty_or_failed": [
     {
@@ -15,7 +15,7 @@
       "channel": "walmart_beauty",
       "count": 39,
       "status": "stale",
-      "note": "walmart.com/shop/beauty/editors-picks (editorial picks, not sales rank) (실수집)"
+      "note": "walmart 보강 자료 (https://www.walmart.com/browse/beauty/1085666) (실수집)"
     },
     {
       "channel": "oliveyoung_us",
@@ -57,6 +57,12 @@
       "channel": "tiktok_shop_us",
       "count": 15,
       "status": "unverified",
+      "note": "공개 페이지 직접 파싱"
+    },
+    {
+      "channel": "sephora",
+      "count": 14,
+      "status": "stale",
       "note": "공개 페이지 직접 파싱"
     },
     {
