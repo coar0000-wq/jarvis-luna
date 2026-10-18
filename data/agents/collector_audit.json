@@ -1,1 +1,1 @@
-{"agent": "Collector-Audit", "generated_at": "2026-10-18T03:55:03.730444+00:00", "last_run": {"requested": 110, "ok": 110, "parse_failed": 0, "reasons": {}, "finished_at": "2026-10-18T01:50:29.138531+00:00"}, "failure_types": [], "products_total": 356, "blacklist_hint": [], "suggestions": [], "severity": false}
+{"agent": "Collector-Audit", "generated_at": "2026-10-18T03:55:03.730444+00:00", "last_run": {"requested": 110, "ok": 110, "parse_failed": 0, "reasons": {}}}
