@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-18T00:32:07.365467+00:00",
+  "generated_at": "2026-10-18T00:41:29.244603+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -8,8 +8,8 @@
       "data/product_master.json": "daaa39ad0456dfcd7cc73ef8e0556412200ac477b03961c9d6cafa61c1683302",
       "data/gosi.json": "65c4a1bf58af9ecfd59a8526718d38eb4a2dce44a4048d49eeb268e96c4e73d7",
       "data/daiso_real/daiso_us_labels.json": "d6176a06f9b061248f1333f8b3ab7a747e9af2a16f5e93034f4bd5e283074c31",
-      "data/pricing_model.json": "7cff21d30008096ca86f144e954c5365fb76b3fcc50184cd027c27886116ec31",
-      "data/legal_products.json": "35acedeb9d2f1b94b201e21b5b1c66362b51a771e0811f71c7bdf25cd5afc051",
+      "data/pricing_model.json": "34bbc302ff504076ae4f2312a50c63cd0b261504bfcbc1676366d57d28bbcdc2",
+      "data/legal_products.json": "393114a354cd970ef0a937ff218c9cc57c8723f1db889ad367767e73ca3ae26f",
       "data/daiso_real/shopify_s_recommendations.json": "6e55dca2ff9e7f631ae640ce2a12d61714cc40da1e383836e474da4ce5d52cba",
       "data/shopify_listing_copy.json": "141d8cf3e77594212726b9cded932f08330bf22604f3977b2e53813692ecc514",
       "data/shopify_shortlist.json": "3ea0ccd3ef0f5d719722ea7765b8d79ceaba94664bfa72c3c74a6f6f6fae0c0e",
@@ -106,7 +106,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 59.4,
+        "margin_pct": 59.3,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -292,7 +292,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 59.4,
+        "margin_pct": 59.3,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -389,7 +389,7 @@
       },
       "price": {
         "price_usd": 19.99,
-        "margin_pct": 41.2,
+        "margin_pct": 41.1,
         "register_blocked": false,
         "price_evidence_ok": true,
         "price_evidence_source": "serpapi_google_shopping",
@@ -476,7 +476,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 48.6,
+        "margin_pct": 48.5,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",
@@ -684,7 +684,7 @@
       },
       "price": {
         "price_usd": 22.99,
-        "margin_pct": 48.6,
+        "margin_pct": 48.5,
         "register_blocked": true,
         "price_evidence_ok": false,
         "price_evidence_source": "oliveyoung_us_benchmark",

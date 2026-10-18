@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T00:32:27.057760+00:00",
+  "generated_at": "2026-10-18T00:41:53.959524+00:00",
   "overall_status": "failed",
   "status_legend": {
     "success": "정상",
@@ -28,14 +28,14 @@
       "shopify_sync": "5.9 days ago",
       "pricing": "just now",
       "marketing": "just now",
-      "daiso": "11.1 hours ago",
+      "daiso": "11.2 hours ago",
       "daiso_candidate_discovery": "unknown",
       "daiso_operating_capture": "unknown",
       "daiso_shortlist_price": "unknown",
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
       "deep_heartbeat": "14.5 days ago",
-      "actions_monitor": "4 min ago",
+      "actions_monitor": "14 min ago",
       "gosi": "15.3 days ago",
       "product_discovery": "just now"
     }
@@ -99,9 +99,9 @@
       "candidates_new": 16,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-17T13:28:14.149652+00:00",
-      "candidate_success_age_hours": 11.07,
-      "attempt_age_hours": 11.07,
-      "success_age_hours": 455.725,
+      "candidate_success_age_hours": 11.228,
+      "attempt_age_hours": 11.228,
+      "success_age_hours": 455.882,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -1506,16 +1506,16 @@
           "candidates_new": 16,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-17T13:28:14.149652+00:00",
-          "candidate_success_age_hours": 11.07,
-          "attempt_age_hours": 11.07,
-          "success_age_hours": 455.725,
+          "candidate_success_age_hours": 11.228,
+          "attempt_age_hours": 11.228,
+          "success_age_hours": 455.882,
           "data_stale": true,
           "attempt_stale": false,
           "is_no_change": false,
           "is_failure": false
         }
       },
-      "freshness": "11.1 hours ago"
+      "freshness": "11.2 hours ago"
     },
     {
       "team": "daiso_candidate_discovery",
@@ -1567,9 +1567,9 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (348.6시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (348.8시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 348.624,
+      "age_hours": 348.782,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -1582,12 +1582,12 @@
       "reason": "GitHub Actions 관측: 5/5개 · 실패 1",
       "is_failure": true,
       "observed_at": "2026-10-18T00:27:43.967403Z",
-      "freshness": "4 min ago"
+      "freshness": "14 min ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "366.9h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "367.1h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
       "freshness": "15.3 days ago"
@@ -3000,9 +3000,9 @@
       "candidates_new": 16,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-17T13:28:14.149652+00:00",
-      "candidate_success_age_hours": 11.07,
-      "attempt_age_hours": 11.07,
-      "success_age_hours": 455.725,
+      "candidate_success_age_hours": 11.228,
+      "attempt_age_hours": 11.228,
+      "success_age_hours": 455.882,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,

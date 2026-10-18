@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-18T00:32:07.698830Z",
+  "as_of": "2026-10-18T00:41:29.669024Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -29,7 +29,7 @@
     "max_age_hours": 168.0,
     "own_live_max_age_hours": 24.0,
     "own_shipping_usd": null,
-    "fx_usd_krw": 1334.89,
+    "fx_usd_krw": 1334.77,
     "payment_fee_rate": 0.02,
     "payment_fee_components": [
       {
@@ -82,7 +82,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T00:32:06.827966+00:00",
+        "timestamp": "2026-10-18T00:41:28.633710+00:00",
         "record_count": 356
       },
       {
@@ -92,7 +92,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T00:32:07.216293+00:00",
+        "timestamp": "2026-10-18T00:41:29.051506+00:00",
         "record_count": 356
       },
       {
@@ -112,7 +112,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T00:32:06.986003+00:00",
+        "timestamp": "2026-10-18T00:41:28.758618+00:00",
         "record_count": null
       },
       {
@@ -132,7 +132,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-18T00:32:07.593166+00:00",
+        "timestamp": "2026-10-18T00:41:29.518732+00:00",
         "record_count": 0
       },
       {
@@ -331,7 +331,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-03T11:42:15.459821+00:00",
-        "age_hours": 348.83,
+        "age_hours": 348.99,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -346,7 +346,7 @@
         "channel": "sokoglam_us",
         "present": true,
         "collected_at": "2026-10-17T22:38:40.961703+00:00",
-        "age_hours": 1.89,
+        "age_hours": 2.05,
         "verified": true,
         "reasons": [],
         "items_total": 234,
@@ -358,7 +358,7 @@
         "channel": "sephora",
         "present": true,
         "collected_at": "2026-10-17T22:38:36.608130+00:00",
-        "age_hours": 1.89,
+        "age_hours": 2.05,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -372,7 +372,7 @@
         "channel": "ulta_beauty",
         "present": true,
         "collected_at": "2026-10-17T22:38:36.608130+00:00",
-        "age_hours": 1.89,
+        "age_hours": 2.05,
         "verified": true,
         "reasons": [],
         "items_total": 112,
@@ -384,7 +384,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 781.21,
+        "age_hours": 781.37,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -399,7 +399,7 @@
         "channel": "amazon_best_sellers",
         "present": true,
         "collected_at": "2026-10-17T22:38:36.605407+00:00",
-        "age_hours": 1.89,
+        "age_hours": 2.05,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -411,7 +411,7 @@
         "channel": "amazon_new_beauty",
         "present": true,
         "collected_at": "2026-10-17T22:38:36.607308+00:00",
-        "age_hours": 1.89,
+        "age_hours": 2.05,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -423,7 +423,7 @@
         "channel": "amazon_movers_beauty",
         "present": true,
         "collected_at": "2026-10-17T22:38:36.607042+00:00",
-        "age_hours": 1.89,
+        "age_hours": 2.05,
         "verified": false,
         "reasons": [
           "no_items"
@@ -1087,11 +1087,11 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": {
-          "ship_1_unit_order": 8.88,
-          "ship_2_unit_order": 5.73
+          "ship_1_unit_order": 8.89,
+          "ship_2_unit_order": 5.74
         },
         "landed_cost_usd_ddp": {
           "ship_1_unit_order": 8.55,
@@ -1124,7 +1124,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T00:32:06.986003+00:00"
+            "observed_on": "2026-10-18T00:41:28.758618+00:00"
           }
         ],
         "conflict": false,
@@ -1242,10 +1242,10 @@
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
             "price_usd": 22.99,
-            "landed_cost_usd": 8.88,
+            "landed_cost_usd": 8.89,
             "fee_usd": 0.46,
-            "net_profit_usd": 13.65,
-            "margin_pct": 59.4,
+            "net_profit_usd": 13.64,
+            "margin_pct": 59.3,
             "risk": "ok"
           },
           "ship_2_unit_order": {
@@ -1258,10 +1258,10 @@
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
             "price_usd": 22.99,
-            "landed_cost_usd": 5.73,
+            "landed_cost_usd": 5.74,
             "fee_usd": 0.46,
-            "net_profit_usd": 16.8,
-            "margin_pct": 73.1,
+            "net_profit_usd": 16.79,
+            "margin_pct": 73.0,
             "risk": "ok"
           }
         },
@@ -1319,11 +1319,11 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": {
-          "ship_1_unit_order": 8.88,
-          "ship_2_unit_order": 5.73
+          "ship_1_unit_order": 8.89,
+          "ship_2_unit_order": 5.74
         },
         "landed_cost_usd_ddp": {
           "ship_1_unit_order": 8.55,
@@ -1378,7 +1378,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T00:32:06.986003+00:00"
+            "observed_on": "2026-10-18T00:41:28.758618+00:00"
           }
         ],
         "conflict": true,
@@ -1454,7 +1454,7 @@
           "median_usd": 27.74,
           "max_usd": 33.99,
           "freshness": "fresh",
-          "age_hours": 12.28,
+          "age_hours": 12.44,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1518,10 +1518,10 @@
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
             "price_usd": 14.99,
-            "landed_cost_usd": 8.88,
+            "landed_cost_usd": 8.89,
             "fee_usd": 0.3,
-            "net_profit_usd": 5.81,
-            "margin_pct": 38.8,
+            "net_profit_usd": 5.8,
+            "margin_pct": 38.7,
             "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
@@ -1534,10 +1534,10 @@
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
             "price_usd": 14.99,
-            "landed_cost_usd": 5.73,
+            "landed_cost_usd": 5.74,
             "fee_usd": 0.3,
-            "net_profit_usd": 8.96,
-            "margin_pct": 59.8,
+            "net_profit_usd": 8.95,
+            "margin_pct": 59.7,
             "risk": "ok"
           }
         },
@@ -1596,7 +1596,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": {
           "ship_1_unit_order": 10.61,
@@ -1634,7 +1634,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T00:32:06.986003+00:00"
+            "observed_on": "2026-10-18T00:41:28.758618+00:00"
           }
         ],
         "conflict": false,
@@ -1672,7 +1672,7 @@
           "median_usd": 18.24,
           "max_usd": 29.0,
           "freshness": "fresh",
-          "age_hours": 12.28,
+          "age_hours": 12.44,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1814,10 +1814,10 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": {
-          "ship_1_unit_order": 11.36,
+          "ship_1_unit_order": 11.37,
           "ship_2_unit_order": 8.21
         },
         "landed_cost_usd_ddp": {
@@ -1866,7 +1866,7 @@
             "price_usd": 19.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T00:32:06.986003+00:00"
+            "observed_on": "2026-10-18T00:41:28.758618+00:00"
           }
         ],
         "conflict": true,
@@ -1918,7 +1918,7 @@
           "median_usd": 20.99,
           "max_usd": 34.95,
           "freshness": "fresh",
-          "age_hours": 12.28,
+          "age_hours": 12.44,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1980,10 +1980,10 @@
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
             "price_usd": 18.99,
-            "landed_cost_usd": 11.36,
+            "landed_cost_usd": 11.37,
             "fee_usd": 0.38,
-            "net_profit_usd": 7.25,
-            "margin_pct": 38.2,
+            "net_profit_usd": 7.24,
+            "margin_pct": 38.1,
             "risk": "below_target_margin"
           },
           "ship_2_unit_order": {
@@ -2057,10 +2057,10 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": {
-          "ship_1_unit_order": 11.36,
+          "ship_1_unit_order": 11.37,
           "ship_2_unit_order": 8.21
         },
         "landed_cost_usd_ddp": {
@@ -2093,7 +2093,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T00:32:06.986003+00:00"
+            "observed_on": "2026-10-18T00:41:28.758618+00:00"
           }
         ],
         "conflict": false,
@@ -2125,7 +2125,7 @@
           "median_usd": 8.89,
           "max_usd": 8.89,
           "freshness": "fresh",
-          "age_hours": 12.28,
+          "age_hours": 12.44,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2189,10 +2189,10 @@
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
             "price_usd": 22.99,
-            "landed_cost_usd": 11.36,
+            "landed_cost_usd": 11.37,
             "fee_usd": 0.46,
-            "net_profit_usd": 11.17,
-            "margin_pct": 48.6,
+            "net_profit_usd": 11.16,
+            "margin_pct": 48.5,
             "risk": "ok"
           },
           "ship_2_unit_order": {
@@ -2260,7 +2260,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -2392,7 +2392,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -2522,7 +2522,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -2652,7 +2652,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -2783,7 +2783,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -2913,7 +2913,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3043,7 +3043,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3175,7 +3175,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3307,7 +3307,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3439,7 +3439,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3569,7 +3569,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3696,7 +3696,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3827,7 +3827,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -3958,7 +3958,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -4088,7 +4088,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -4219,7 +4219,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -4351,7 +4351,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -4483,7 +4483,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -4626,7 +4626,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -4758,7 +4758,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -4890,7 +4890,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5020,7 +5020,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5150,7 +5150,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5280,7 +5280,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5412,7 +5412,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5542,7 +5542,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5672,7 +5672,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5802,7 +5802,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -5930,7 +5930,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6060,7 +6060,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6192,7 +6192,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6322,7 +6322,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6455,7 +6455,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6586,7 +6586,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6716,7 +6716,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6846,7 +6846,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -6976,7 +6976,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -7108,7 +7108,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -7240,7 +7240,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -7372,7 +7372,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -7503,7 +7503,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -7633,7 +7633,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -7765,7 +7765,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -7895,7 +7895,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8027,7 +8027,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8167,7 +8167,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8299,7 +8299,7 @@
       },
       "daiso": {
         "price_krw": 32000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 23.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8432,7 +8432,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8562,7 +8562,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8692,7 +8692,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8822,7 +8822,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -8952,7 +8952,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9084,7 +9084,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9216,7 +9216,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9346,7 +9346,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9476,7 +9476,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9606,7 +9606,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9736,7 +9736,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9866,7 +9866,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -9996,7 +9996,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -10126,7 +10126,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -10258,7 +10258,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -10390,7 +10390,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -10522,7 +10522,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -10650,7 +10650,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -10778,7 +10778,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -10910,7 +10910,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11043,7 +11043,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11173,7 +11173,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11303,7 +11303,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11433,7 +11433,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11561,7 +11561,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11691,7 +11691,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11821,7 +11821,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -11951,7 +11951,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12083,7 +12083,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12213,7 +12213,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12342,7 +12342,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12472,7 +12472,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12606,7 +12606,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12734,7 +12734,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12864,7 +12864,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -12992,7 +12992,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -13122,7 +13122,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -13252,7 +13252,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -13382,7 +13382,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -13510,7 +13510,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -13640,7 +13640,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -13770,7 +13770,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -13902,7 +13902,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14034,7 +14034,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14164,7 +14164,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14292,7 +14292,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14422,7 +14422,7 @@
       },
       "daiso": {
         "price_krw": 16000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 11.99,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14554,7 +14554,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14687,7 +14687,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14820,7 +14820,7 @@
       },
       "daiso": {
         "price_krw": 48000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 35.96,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -14952,7 +14952,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -15084,7 +15084,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -15218,7 +15218,7 @@
       },
       "daiso": {
         "price_krw": 24000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 17.98,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -15351,7 +15351,7 @@
       },
       "daiso": {
         "price_krw": 24000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 17.98,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -15483,7 +15483,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -15616,7 +15616,7 @@
       },
       "daiso": {
         "price_krw": 36000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 26.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -15748,7 +15748,7 @@
       },
       "daiso": {
         "price_krw": 50000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 37.46,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -15881,7 +15881,7 @@
       },
       "daiso": {
         "price_krw": 36000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 26.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -16014,7 +16014,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -16147,7 +16147,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -16280,7 +16280,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -16412,7 +16412,7 @@
       },
       "daiso": {
         "price_krw": 36000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 26.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -16544,8 +16544,8 @@
       },
       "daiso": {
         "price_krw": 100000.0,
-        "usd_krw": 1334.89,
-        "product_cost_usd": 74.91,
+        "usd_krw": 1334.77,
+        "product_cost_usd": 74.92,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
         "weight_g_est": null
@@ -16676,7 +16676,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -16809,7 +16809,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -16942,7 +16942,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17072,7 +17072,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17204,7 +17204,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17337,7 +17337,7 @@
       },
       "daiso": {
         "price_krw": 36000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 26.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17469,7 +17469,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17599,7 +17599,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17729,7 +17729,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17862,7 +17862,7 @@
       },
       "daiso": {
         "price_krw": 36000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 26.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -17995,7 +17995,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -18130,7 +18130,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -18263,7 +18263,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -18396,7 +18396,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -18529,7 +18529,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -18661,7 +18661,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -18794,8 +18794,8 @@
       },
       "daiso": {
         "price_krw": 100000.0,
-        "usd_krw": 1334.89,
-        "product_cost_usd": 74.91,
+        "usd_krw": 1334.77,
+        "product_cost_usd": 74.92,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
         "weight_g_est": null
@@ -18927,7 +18927,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19059,7 +19059,7 @@
       },
       "daiso": {
         "price_krw": 40000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 29.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19192,7 +19192,7 @@
       },
       "daiso": {
         "price_krw": 48000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 35.96,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19325,7 +19325,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19457,7 +19457,7 @@
       },
       "daiso": {
         "price_krw": 32000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 23.97,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19590,7 +19590,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19723,7 +19723,7 @@
       },
       "daiso": {
         "price_krw": 48000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 35.96,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19856,7 +19856,7 @@
       },
       "daiso": {
         "price_krw": 50000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 37.46,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -19989,7 +19989,7 @@
       },
       "daiso": {
         "price_krw": 60000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 44.95,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -20121,7 +20121,7 @@
       },
       "daiso": {
         "price_krw": 16000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 11.99,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -20253,7 +20253,7 @@
       },
       "daiso": {
         "price_krw": 12000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 8.99,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -20395,10 +20395,10 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": {
-          "ship_1_unit_order": 11.36,
+          "ship_1_unit_order": 11.37,
           "ship_2_unit_order": 8.59
         },
         "landed_cost_usd_ddp": {
@@ -20429,7 +20429,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T00:32:06.986003+00:00"
+            "observed_on": "2026-10-18T00:41:28.758618+00:00"
           }
         ],
         "conflict": false,
@@ -20461,7 +20461,7 @@
           "median_usd": 37.5,
           "max_usd": 85.0,
           "freshness": "fresh",
-          "age_hours": 12.28,
+          "age_hours": 12.44,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -20526,10 +20526,10 @@
             "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
             "full_profit_verified": false,
             "price_usd": 22.99,
-            "landed_cost_usd": 11.36,
+            "landed_cost_usd": 11.37,
             "fee_usd": 0.46,
-            "net_profit_usd": 11.17,
-            "margin_pct": 48.6,
+            "net_profit_usd": 11.16,
+            "margin_pct": 48.5,
             "risk": "ok"
           },
           "ship_2_unit_order": {
@@ -20606,7 +20606,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": {
           "ship_1_unit_order": 9.64,
@@ -20640,7 +20640,7 @@
             "price_usd": 22.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-18T00:32:06.986003+00:00"
+            "observed_on": "2026-10-18T00:41:28.758618+00:00"
           }
         ],
         "conflict": false,
@@ -20782,7 +20782,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -20916,7 +20916,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21044,7 +21044,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21171,7 +21171,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21299,7 +21299,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21427,7 +21427,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21555,7 +21555,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21682,7 +21682,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21812,7 +21812,7 @@
       },
       "daiso": {
         "price_krw": 1500.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.12,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -21942,7 +21942,7 @@
       },
       "daiso": {
         "price_krw": 1500.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.12,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22069,7 +22069,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22196,7 +22196,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22323,7 +22323,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22452,7 +22452,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22582,7 +22582,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22711,7 +22711,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22841,7 +22841,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -22969,7 +22969,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23099,7 +23099,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23228,7 +23228,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23356,7 +23356,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23484,7 +23484,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23612,7 +23612,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23742,7 +23742,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23869,7 +23869,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -23999,7 +23999,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -24126,7 +24126,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -24254,7 +24254,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -24384,7 +24384,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -24514,7 +24514,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -24644,7 +24644,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -24772,7 +24772,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -24900,7 +24900,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25029,7 +25029,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25157,7 +25157,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25287,7 +25287,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25417,7 +25417,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25544,7 +25544,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25674,7 +25674,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25802,7 +25802,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -25930,7 +25930,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26058,7 +26058,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26186,7 +26186,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26314,7 +26314,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26443,7 +26443,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26573,7 +26573,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26702,7 +26702,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26830,7 +26830,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -26957,7 +26957,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27084,7 +27084,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27211,7 +27211,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27340,7 +27340,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27470,7 +27470,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27600,7 +27600,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27730,7 +27730,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27860,7 +27860,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -27990,7 +27990,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -28120,7 +28120,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -28248,7 +28248,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -28378,7 +28378,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -28508,7 +28508,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -28638,7 +28638,7 @@
       },
       "daiso": {
         "price_krw": 3000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 2.25,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -28768,7 +28768,7 @@
       },
       "daiso": {
         "price_krw": 2000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.5,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -28898,7 +28898,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -29028,7 +29028,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -29158,7 +29158,7 @@
       },
       "daiso": {
         "price_krw": 1500.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 1.12,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -29288,7 +29288,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -29418,7 +29418,7 @@
       },
       "daiso": {
         "price_krw": 5000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 3.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,
@@ -29548,7 +29548,7 @@
       },
       "daiso": {
         "price_krw": 1000.0,
-        "usd_krw": 1334.89,
+        "usd_krw": 1334.77,
         "product_cost_usd": 0.75,
         "landed_cost_usd_ddu": null,
         "landed_cost_usd_ddp": null,

@@ -462,6 +462,16 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/daiso_real/collection_status.json",
+      "base_sha256": "398d4b3414cf949479a32cac5d9d395ac955dc4e7e1442a46a2f077ad927ad88",
+      "ids": [
+        "exchangerate-api 1,334.89(2026-10-17)"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
     }
   ],
   "schema_version": 1

@@ -200,15 +200,15 @@
     "with_rating": 263
   },
   "fx": {
-    "usd_to_krw": 1334.89,
-    "krw_to_usd": 0.00074913,
-    "as_of": "2026-10-17",
+    "usd_to_krw": 1334.77,
+    "krw_to_usd": 0.00074919,
+    "as_of": "2026-10-18",
     "source": "ExchangeRate-API",
     "api_url": "https://open.er-api.com/v6/latest/USD",
-    "fetched_at": "2026-10-17T14:33:30.322542+00:00",
+    "fetched_at": "2026-10-18T00:41:23.859309+00:00",
     "ok": true,
     "대조": [
-      "exchangerate-api 1,334.89(2026-10-17)",
+      "exchangerate-api 1,334.77(2026-10-18)",
       "Frankfurter API 1,332.10(2026-10-16)"
     ]
   },
