@@ -800,9 +800,6 @@ def build_us_label(pd_no, name_kr, g):
 
 # ---------------------------------------------------------------- Shopify 표준 카테고리 (택소노미)
 
-# 설명란 맨 위에 항상 넣는 문구 (사용자 지시 2026-10-10: "한국 여성들이 즐겨찾는 제품")
-TAGLINE_HTML = "<p><strong>한국여성들이 즐겨찾는 제품</strong></p>"
-
 # skincare hb-3-2-9 (Health & Beauty > Personal Care > Cosmetics > Skin Care), makeup hb-3-2-6, body hb-3-2-1 (Bath & Body)
 TAXONOMY = {c["tag"]: c["shopify_taxonomy"] for c in STRATEGY["categories"]}
 
@@ -1829,62 +1826,19 @@ def quarantine_blocked_public(shop, products, registry, publication_id, results)
 
 
 def backfill_banner(shop, products, registry, publication_id):
-    """Backfill text only on known Daiso products; do not touch status or publication."""
-    if not publication_id:
-        raise RuntimeError("Cannot verify publication state for banner backfill")
+    """Compatibility no-op: existing human descriptions are never auto-prefixed.
+
+    Old workflow/input values may still request BACKFILL_BANNER=1. Preserve
+    every existing DRAFT/ACTIVE description, with no read or mutation calls.
+    Removing historical claims is a separately reviewed owner action.
+    """
     registered = {str(i.get("shopify_id")) for i in registry["items"] if i.get("shopify_id")}
-    registered_pd = {str(i["shopify_id"]): str(i["pd_no"]) for i in registry["items"]
-                     if i.get("shopify_id") and i.get("pd_no")}
-    results = []
-
-    def target(product):
-        tags = product.get("tags") or []
-        return (str(product.get("id")) in registered or
-                any(str(tag).casefold() == "daiso-daily" or
-                    re.fullmatch(r"daiso-pd-\d+", str(tag), re.I) for tag in tags))
-
-    for row in products:
-        if not target(row):
-            continue
-        before = shop.read_product(row["id"], publication_id)
-        if not before or before["id"] != row["id"]:
-            raise RuntimeError(f"Banner backfill source read-back missing: {row['id']}")
-        if not target(before):
-            results.append({"shopify_id": row["id"], "status": "skipped_no_longer_target"})
-            continue
-        html = before.get("descriptionHtml") or ""
-        pd_no = registered_pd.get(str(row["id"]))
-        if not pd_no:
-            for tag in before.get("tags") or []:
-                match = re.fullmatch(r"daiso-pd-(\d+)", str(tag), re.I)
-                if match:
-                    pd_no = match[1]
-                    break
-        warning = None
-        if pd_no and (before.get("status") == "ACTIVE" or before.get("publishedOnPublication")):
-            public_gate = canonical_public_gate(pd_no)
-            if not public_gate["public_ready"]:
-                warning = public_gate["reasons"]
-        if html.startswith(TAGLINE_HTML):
-            result = {"shopify_id": row["id"], "status": "already_prefixed"}
-            if warning:
-                result["existing_public_gate_warning"] = warning
-            results.append(result)
-            continue
-        expected = TAGLINE_HTML + html
-        shop.update_description(row["id"], expected)
-        after = shop.read_product(row["id"], publication_id)
-        if not after or after.get("descriptionHtml") != expected or any(
-            after.get(k) != before.get(k) for k in
-            ("id", "title", "tags", "status", "publishedOnPublication")):
-            raise RuntimeError(f"Banner backfill read-back/state mismatch: {row['id']}")
-        result = {"shopify_id": row["id"], "status": "prefixed",
-                  "verified_status": after["status"],
-                  "published_on_online_store": bool(after["publishedOnPublication"])}
-        if warning:
-            result["existing_public_gate_warning"] = warning
-        results.append(result)
-    return results
+    return [{"shopify_id": row["id"], "status": "skipped_automatic_banner_disabled"}
+            for row in products if row.get("id") and
+            (str(row["id"]) in registered or
+             any(str(tag).casefold() == "daiso-daily" or
+                 re.fullmatch(r"daiso-pd-\d+", str(tag), re.I)
+                 for tag in row.get("tags") or []))]
 
 
 def verify_product(shop, product_id, item, pub_id, published=False):
@@ -2144,9 +2098,9 @@ def main():
             accuracy["input_copy_review"] = input_accuracy
             accuracy["fallback_used"] = bool(accuracy["fallback_used"] or input_accuracy["fallback_used"] or claims_filtered)
             accuracy["scope"] = "recorded_source_consistency_and_exact_base_copy_support_only"
-            accuracy["excluded_sections"] = ["owner_tagline", "us_label", "retailer_source_marker"]
+            accuracy["excluded_sections"] = ["us_label", "retailer_source_marker"]
             claims_left = has_claims(title, html)
-            html = TAGLINE_HTML + html + label["html"]
+            html = html + label["html"]
             html += f'<p><small>Source: Daiso Mall item {escape(str(p["pdNo"]))}.</small></p>'
             # Exact source support never grants publication. The owner's
             # current workflow is prepare DRAFT, then owner activates.
