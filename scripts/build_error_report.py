@@ -116,7 +116,11 @@ def main() -> int:
     for f in (gosi.get("vision_failures") or []):
         add("마케팅 조사팀", f.get("pd_no"), f.get("reason"), BROKEN)
     for pd in (gosi.get("vision_deferred") or []):
-        add("마케팅 조사팀", pd, "비전 예산 초과로 다음 회차로 미룸", HELD)
+        stops = [s for s in (gosi.get("provider_stops") or []) if isinstance(s, dict)]
+        reason = ("공급자 중단 기록: " + ", ".join(
+            f"{s.get('provider')} HTTP {s.get('code')}" for s in stops
+        ) + " · 대기시간 경과 후 접근·할당량 복구 확인 필요") if stops else "이번 실행에서 판독 보류 · 다음 실행의 예산·접근 상태 확인 필요"
+        add("마케팅 조사팀", pd, reason, HELD)
 
     # 소싱 파싱 실패
     st = load(DATA / "daiso_real" / "collection_status.json") or {}

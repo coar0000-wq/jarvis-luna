@@ -842,10 +842,16 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
                 row = gosi.get(pid) if isinstance(gosi.get(pid), dict) else {}
                 missing = [field_name[f] for f in REQ
                            if not str(row.get(f) or "").strip()]
-                if pid in failures:
+                stops = [s for s in (gosi_doc.get("provider_stops") or [])
+                         if isinstance(s, dict) and s.get("provider") in {"daiso", "gemini", "groq"}]
+                if stops:
+                    cause = "공급자 중단 기록: " + ", ".join(
+                        f"{s.get('provider')} HTTP {s.get('code')}" for s in stops
+                    ) + " · 대기시간 경과 후 접근·할당량 복구 확인 필요"
+                elif pid in failures:
                     cause = failures[pid][:70]
                 elif pid in deferred:
-                    cause = "비전 예산/할당량으로 다음 회차 재판독"
+                    cause = "이번 실행에서 판독 보류 · 다음 실행의 예산·접근 상태 확인 필요"
                 elif row.get("alt_collected_at"):
                     cause = "브라우저 원문 수집 후 남은 항목 재파싱 대상"
                 elif row:
