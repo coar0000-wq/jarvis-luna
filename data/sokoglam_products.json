@@ -2,7 +2,7 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-18T03:30:40.749487+00:00",
+  "collected_at": "2026-10-18T22:35:58.723367+00:00",
   "is_stale": false,
   "count": 234,
   "by_collection": {

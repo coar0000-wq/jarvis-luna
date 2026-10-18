@@ -48,6 +48,7 @@ on:
 
   # S등급 정본이 갱신되면 자동 실행
   push:
+    branches: [main]
     paths:
       - 'data/daiso_real/shopify_s_recommendations.json'
 
@@ -63,8 +64,9 @@ permissions:
 jobs:
   build:
     # Source-only repair publications must not dispatch model/business generation.
-    # Normal pushes and explicit listing-copy requests retain their existing behavior.
-    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[source-recovery-offline]') }}
+    # A producer must never publish a feature/Dependabot branch to main.
+    # Keep manual dispatch main-only too; branch validation belongs to preflight.
+    if: ${{ github.ref == 'refs/heads/main' && (github.event_name != 'push' || !contains(github.event.head_commit.message, '[source-recovery-offline]')) }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
 

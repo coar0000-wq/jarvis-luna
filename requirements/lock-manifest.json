@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
-  "resolved_at": "2026-10-03T00:58:58.796Z",
+  "resolved_at": "2026-10-18T21:53:05.016592+00:00",
   "target": {
     "implementation": "CPython",
     "python": "3.11",
     "os": "Linux",
     "architecture": "x86_64",
-    "minimum_glibc": "2.28"
+    "minimum_glibc": "2.28",
+    "minimum_python": "3.11.5"
   },
-  "source": "PyPI release metadata and pip download, SHA-256 independently checked",
+  "source": "PyPI release metadata and pip download for CPython 3.11.14 Linux x86_64; all target wheel SHA-256 independently checked; additional accepted distribution hashes checked against PyPI release metadata",
   "profiles": {
     "verification": {
       "file": "requirements/requirements-verification.txt",
@@ -316,17 +317,54 @@
     },
     "playwright": {
       "name": "playwright",
-      "version": "1.63.0",
-      "sha256": "ad21bc07516b187965a7521c5cf0df0bd657b17482eaad74335272d35a2b07de",
-      "wheel": "playwright-1.63.0-py3-none-manylinux1_x86_64.whl",
-      "size": 48217159,
+      "version": "1.64.0",
+      "sha256": "5a59af1b230b234008524a5d42b613b233d4256f73bc1dd25bf3f11db0c81b75",
+      "wheel": "playwright-1.64.0-py3-none-manylinux1_x86_64.whl",
+      "size": 48286664,
       "requires_python": ">=3.10",
       "dependencies": [
-        "pyee",
-        "greenlet"
+        "greenlet",
+        "pyee"
       ],
-      "source": "https://files.pythonhosted.org/packages/27/9c/103a5037789062bdab27c7dca53f3ca6b075b572ab2cd96eec825b3aec4e/playwright-1.63.0-py3-none-manylinux1_x86_64.whl",
-      "pypi": "https://pypi.org/pypi/playwright/1.63.0/json"
+      "source": "https://files.pythonhosted.org/packages/65/8b/78c19b805d52323122385b9c3f000144608deac38635455978af6d14807b/playwright-1.64.0-py3-none-manylinux1_x86_64.whl",
+      "pypi": "https://pypi.org/pypi/playwright/1.64.0/json",
+      "artifacts": [
+        {
+          "filename": "playwright-1.64.0-py3-none-win_amd64.whl",
+          "source": "https://files.pythonhosted.org/packages/e9/be/1dd8a65e3713c50c64b2580f50494ece90a4a9ede6e23788ef120e54c1f2/playwright-1.64.0-py3-none-win_amd64.whl",
+          "sha256": "2c14d105548876b15bea5e7eca77bf0d8ff4ba0c607c1ae931067f3d1b010369"
+        },
+        {
+          "filename": "playwright-1.64.0-py3-none-macosx_11_0_universal2.whl",
+          "source": "https://files.pythonhosted.org/packages/ed/f4/e0ddecd32342cac462777ef9123de833486743709bd437458c49e004d750/playwright-1.64.0-py3-none-macosx_11_0_universal2.whl",
+          "sha256": "61e4e0801bfd76b30e04635aaec45647df707881ccf14382471fcb0eaeb1d16f"
+        },
+        {
+          "filename": "playwright-1.64.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "source": "https://files.pythonhosted.org/packages/7f/7e/c100ee3c59ff42e3199880d77e8f59f3230fdb0dd1ecfd21a0a203bb5a68/playwright-1.64.0-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+          "sha256": "727d20be6a0884e946b2471774dd960ec95519ba533e61329038526d9aea9a23"
+        },
+        {
+          "filename": "playwright-1.64.0-py3-none-win32.whl",
+          "source": "https://files.pythonhosted.org/packages/c7/6e/3746bca44a77ad29fb4bf1722ad3345d5e936d5363d8daffbf23b226d3a4/playwright-1.64.0-py3-none-win32.whl",
+          "sha256": "8b9f18dc1c23143ac0a5b3c59015db30e9413cc52e1ddddfc2836a7fbad7165a"
+        },
+        {
+          "filename": "playwright-1.64.0-py3-none-macosx_11_0_arm64.whl",
+          "source": "https://files.pythonhosted.org/packages/b4/b3/99f6c07a7f59adb3830e42cda2e2093dc1c2cbd1f69fe4393ead30c88257/playwright-1.64.0-py3-none-macosx_11_0_arm64.whl",
+          "sha256": "8de42430e9a7c8b04ec963856d484d36ffd452882318ebad2df3e6fb49a8197a"
+        },
+        {
+          "filename": "playwright-1.64.0-py3-none-win_arm64.whl",
+          "source": "https://files.pythonhosted.org/packages/f1/53/683ee3eb28902208d1d0c1d2eb3d6ddd99bc0184063babc6a2a7886c5799/playwright-1.64.0-py3-none-win_arm64.whl",
+          "sha256": "97a5c247f1130f3343f097caf3bb1e79358d6b6cfa3550d97ecd721d1905911a"
+        },
+        {
+          "filename": "playwright-1.64.0-py3-none-macosx_10_13_x86_64.whl",
+          "source": "https://files.pythonhosted.org/packages/cc/b7/24e5c283694e7a63aa376ddde395031decd7d627c77b34a58953176e8a19/playwright-1.64.0-py3-none-macosx_10_13_x86_64.whl",
+          "sha256": "d76a501c9930b5a097b00e2448cda2200122a1e8e4be762ff535c1b076277737"
+        }
+      ]
     },
     "pyee": {
       "name": "pyee",
@@ -343,25 +381,39 @@
     },
     "pyflakes": {
       "name": "pyflakes",
-      "version": "3.4.0",
-      "sha256": "f742a7dbd0d9cb9ea41e9a24a918996e8170c799fa528688d40dd582c8265f4f",
-      "wheel": "pyflakes-3.4.0-py2.py3-none-any.whl",
-      "size": 63551,
-      "requires_python": ">=3.9",
+      "version": "4.0.3",
+      "sha256": "330ba92b8c1db2eb0b8f4068f6c58674e2649a99e334769aa50e3e9c5b11c23a",
+      "wheel": "pyflakes-4.0.3-py2.py3-none-any.whl",
+      "size": 66250,
+      "requires_python": ">=3.10",
       "dependencies": [],
-      "source": "https://files.pythonhosted.org/packages/c2/2f/81d580a0fb83baeb066698975cb14a618bdbed7720678566f1b046a95fe8/pyflakes-3.4.0-py2.py3-none-any.whl",
-      "pypi": "https://pypi.org/pypi/pyflakes/3.4.0/json"
+      "source": "https://files.pythonhosted.org/packages/44/b0/554d720d71083ccd24ba2f376c048544c073570e7bb18b34d769cef77f66/pyflakes-4.0.3-py2.py3-none-any.whl",
+      "pypi": "https://pypi.org/pypi/pyflakes/4.0.3/json",
+      "artifacts": [
+        {
+          "filename": "pyflakes-4.0.3.tar.gz",
+          "source": "https://files.pythonhosted.org/packages/2c/1b/3ba8bd62723cfe1b651c4e4b89b33767fce7a08bb800491cf1d3dd3a7716/pyflakes-4.0.3.tar.gz",
+          "sha256": "94762a3a5a343a79b28754f96c554bce057a592a4896907d73f0369fe824e053"
+        }
+      ]
     },
     "pypdf": {
       "name": "pypdf",
-      "version": "6.19.0",
-      "sha256": "7e5d6e730e7dae87d560a2cee218b852f6498c8be61966f3cd02ead971e48d14",
-      "wheel": "pypdf-6.19.0-py3-none-any.whl",
-      "size": 395480,
+      "version": "6.20.1",
+      "sha256": "aa5a55ddcffdc5e5ab291d5decb23f6383f4e56f8e3263dc39af41fff03885ad",
+      "wheel": "pypdf-6.20.1-py3-none-any.whl",
+      "size": 402665,
       "requires_python": ">=3.9",
       "dependencies": [],
-      "source": "https://files.pythonhosted.org/packages/3c/2c/c43c03eaf630435f023f1dc61ec4a4a78951ad5530a62c71cc89bde307b7/pypdf-6.19.0-py3-none-any.whl",
-      "pypi": "https://pypi.org/pypi/pypdf/6.19.0/json"
+      "source": "https://files.pythonhosted.org/packages/71/f8/4cbd09988b4b158260b7e0df38bf16f19e998bf0e257a18661a8da04280e/pypdf-6.20.1-py3-none-any.whl",
+      "pypi": "https://pypi.org/pypi/pypdf/6.20.1/json",
+      "artifacts": [
+        {
+          "filename": "pypdf-6.20.1.tar.gz",
+          "source": "https://files.pythonhosted.org/packages/e2/c1/da25a099164cf4b210d63b957c902ad687139f4b8c12c20aec7953a4a266/pypdf-6.20.1.tar.gz",
+          "sha256": "28f5a9d2fdc2749264612d94e6a58de54c11d730d9f0cabf8ad34117c4942b45"
+        }
+      ]
     },
     "pyyaml": {
       "name": "pyyaml",
@@ -392,14 +444,21 @@
     },
     "soupsieve": {
       "name": "soupsieve",
-      "version": "2.10",
-      "sha256": "8596eb8967d744174820280fa62b4542a2e955bfaccca73ed8a13c6eb8e9b502",
-      "wheel": "soupsieve-2.10-py3-none-any.whl",
-      "size": 38019,
-      "requires_python": ">=3.10",
+      "version": "3.0.3",
+      "sha256": "fa30e3ba4809cb81ce1f3209f2fbe3e779fc445f0439bc147a0d7c4601743f21",
+      "wheel": "soupsieve-3.0.3-py3-none-any.whl",
+      "size": 41705,
+      "requires_python": ">=3.11.5",
       "dependencies": [],
-      "source": "https://files.pythonhosted.org/packages/66/87/5ed59e1d0290564e2027ed066c52b059892c4637741337fc0967183c8d4d/soupsieve-2.10-py3-none-any.whl",
-      "pypi": "https://pypi.org/pypi/soupsieve/2.10/json"
+      "source": "https://files.pythonhosted.org/packages/49/ca/f639c80449997b88aba7bc9705d25dd76cc0844f45f187862fd8f8bb18fa/soupsieve-3.0.3-py3-none-any.whl",
+      "pypi": "https://pypi.org/pypi/soupsieve/3.0.3/json",
+      "artifacts": [
+        {
+          "filename": "soupsieve-3.0.3.tar.gz",
+          "source": "https://files.pythonhosted.org/packages/5e/77/2dcfa996b01702ab8fd0763d84098f6a640d6162a328f1c04c2697579a1a/soupsieve-3.0.3.tar.gz",
+          "sha256": "7dcf6022eed0399eb9934a75e020148f7a2024c37b7dfcd3cf2c5505d69c364e"
+        }
+      ]
     },
     "typing-extensions": {
       "name": "typing-extensions",
@@ -425,16 +484,58 @@
     },
     "opencv-python-headless": {
       "name": "opencv-python-headless",
-      "version": "4.10.0.84",
-      "sha256": "377d08a7e48a1405b5e84afcbe4798464ce7ee17081c1c23619c8b398ff18295",
-      "wheel": "opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "size": 49858781,
+      "version": "5.0.0.93",
+      "sha256": "ed709fdf9aa0bd1f2ed8549e71d19449b03a675bb581eb292285f6861953be37",
+      "wheel": "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "size": 61204038,
       "requires_python": ">=3.6",
       "dependencies": [
         "numpy"
       ],
-      "source": "https://files.pythonhosted.org/packages/d1/09/248f86a404567303cdf120e4a301f389b68e3b18e5c0cc428de327da609c/opencv_python_headless-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "pypi": "https://pypi.org/pypi/opencv-python-headless/4.10.0.84/json"
+      "source": "https://files.pythonhosted.org/packages/9b/21/f6ef335f6e65724aa78b8d792b48d40a48c381715f1e62f5a5049e09d07e/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl",
+      "pypi": "https://pypi.org/pypi/opencv-python-headless/5.0.0.93/json",
+      "artifacts": [
+        {
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl",
+          "source": "https://files.pythonhosted.org/packages/53/7c/8c8097891c509d98cd128493835c95631c80be6a8f37ed9d25716c2e16f1/opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl",
+          "sha256": "030ca5e0837a2963ab36ef896baa9767eb8d2b83353fb28af5a521e40dd8756f"
+        },
+        {
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+          "source": "https://files.pythonhosted.org/packages/2b/97/8170e9819764c47e436c130d3ff6cfb73b58f923eae9d3a03d8982b04aec/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+          "sha256": "09a872a157c1376ab922a69bbf22f9a95bcc7b658a9d8b436a60212b02b2eeb4"
+        },
+        {
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+          "source": "https://files.pythonhosted.org/packages/ec/78/afca939f40ffe2b2380bfa86f812b2f7d4acc5a27b27dc41b49cad7ce7b4/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+          "sha256": "10818d91510e05c04568ae12b5cd120779c70c01bf897b001a6221fe430df80f"
+        },
+        {
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-macosx_14_0_x86_64.whl",
+          "source": "https://files.pythonhosted.org/packages/90/8c/eab2ad388c3cbab2a350c10c2ef19ce6bd099240afc31789032c996bab52/opencv_python_headless-5.0.0.93-cp37-abi3-macosx_14_0_x86_64.whl",
+          "sha256": "1e55af3abfb462eeeabe5c775f12bdb36216d8a93a3583d69e6bd6e1d6ba7d00"
+        },
+        {
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl",
+          "source": "https://files.pythonhosted.org/packages/b8/88/763b967f7efd7226b82c9fae16d560cba049b1f0c036647e65c610fd636e/opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl",
+          "sha256": "829717b6a95554f273e49e357cee3b3a2a26b6f4842fbc1bed2b45bdd8f87e0e"
+        },
+        {
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_aarch64.whl",
+          "source": "https://files.pythonhosted.org/packages/3a/98/1a28a7101e31801042b3098871a74b76c61581d328ef40774ff4edb53a56/opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_aarch64.whl",
+          "sha256": "840bd717c21e5c11cadadc022a823315ea417f961213d06b4df010e019eb16f4"
+        },
+        {
+          "filename": "opencv_python_headless-5.0.0.93.tar.gz",
+          "source": "https://files.pythonhosted.org/packages/1d/99/76b7c80252aa83c1af16393454aafd125a0287101afe8deb0a6821af0e30/opencv_python_headless-5.0.0.93.tar.gz",
+          "sha256": "b82f9831daab90b725c7c1ee1b36cb5732c367096ac76d119e64e14eb70d5f3c"
+        },
+        {
+          "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-win32.whl",
+          "source": "https://files.pythonhosted.org/packages/d0/8f/b8756467ea991449a293797f6b3fa80fcfdd29598a0a60d1cd5715b96e61/opencv_python_headless-5.0.0.93-cp37-abi3-win32.whl",
+          "sha256": "c6bcd96b185975ea240d22cfdb15a1f6d080cc95264cfbe2621f21bb144d89b9"
+        }
+      ]
     }
   },
   "actions": [
