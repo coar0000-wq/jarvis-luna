@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-17T05:16:23+00:00",
+  "collected_at": "2026-10-18T05:54:30+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -88,7 +88,7 @@
       "price_usd": 60.0,
       "discount_pct": null,
       "rating": 5.0,
-      "reviews": 1,
+      "reviews": 2,
       "url": "https://shop.com/products/15400749957210/the-musky-layers-set",
       "page": "Explore"
     },
@@ -126,8 +126,8 @@
       "list_price_text": "",
       "price_usd": 22.0,
       "discount_pct": null,
-      "rating": null,
-      "reviews": null,
+      "rating": 5.0,
+      "reviews": 2,
       "url": "https://shop.com/products/7661006979154/wrapped-with-a-bow",
       "page": "Explore"
     },
@@ -275,19 +275,6 @@
       "page": "Beauty"
     },
     {
-      "title": "The Glow Getter Multi-Oil Hydrating Body Wash",
-      "brand": "Naturium",
-      "section": "Top rated",
-      "price_text": "$17.00",
-      "list_price_text": "",
-      "price_usd": 17.0,
-      "discount_pct": null,
-      "rating": 4.7,
-      "reviews": 2254,
-      "url": "https://shop.com/products/6627292643383/the-glow-getter-multi-oil-hydrating-body-wash",
-      "page": "Beauty"
-    },
-    {
       "title": "Luxe Leave-In Conditioning Detangler",
       "brand": "The Beachwaver Co.",
       "section": "Top rated",
@@ -322,7 +309,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2850,
+      "reviews": 2851,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
@@ -348,7 +335,7 @@
       "price_usd": 16.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 1160,
+      "reviews": 1162,
       "url": "https://shop.com/products/1535432392759/shineon-lip-oil-jelly",
       "page": "Beauty"
     },
@@ -363,6 +350,19 @@
       "rating": 4.7,
       "reviews": 795,
       "url": "https://shop.com/products/7473664491676/lolavie-wet-brush-pro-flex-dry",
+      "page": "Beauty"
+    },
+    {
+      "title": "Le Chouchou",
+      "brand": "EADEM",
+      "section": "Top rated",
+      "price_text": "$24.00",
+      "list_price_text": "",
+      "price_usd": 24.0,
+      "discount_pct": null,
+      "rating": 4.9,
+      "reviews": 6738,
+      "url": "https://shop.com/products/8532767277309/le-chouchou",
       "page": "Beauty"
     }
   ]
