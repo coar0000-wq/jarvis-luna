@@ -5,7 +5,7 @@
     "authority": false,
     "business_clearance": false,
     "receipt_verified": false,
-    "revision": 22,
+    "revision": 28,
     "schema_version": 1,
     "teams": {
       "channels": {
@@ -45,22 +45,22 @@
       },
       "legal": {
         "budget": 256,
-        "episodes": 1,
-        "lifetime": 2,
+        "episodes": 2,
+        "lifetime": 3,
         "reconciliation_required": false,
         "stopped": false
       },
       "listing": {
         "budget": 256,
-        "episodes": 1,
-        "lifetime": 2,
+        "episodes": 2,
+        "lifetime": 3,
         "reconciliation_required": false,
         "stopped": false
       },
       "market": {
         "budget": 256,
         "episodes": 2,
-        "lifetime": 3,
+        "lifetime": 4,
         "reconciliation_required": false,
         "stopped": false
       },
@@ -88,7 +88,7 @@
     }
   },
   "force_bypasses_limits": false,
-  "generated_at": "2026-10-18T03:41:30.818043+00:00",
+  "generated_at": "2026-10-18T06:40:06.519730+00:00",
   "network_actuator_limit_per_invocation": 1,
   "organization": "secretary > existing 11 team leads > specialists",
   "plans": [
@@ -118,7 +118,7 @@
     },
     {
       "authority": false,
-      "claim_id": "959ee446b15fdc4b02aa52061023d4865350c2211d633bdc95bbe1318000fb16",
+      "claim_id": "1965f8e129a7c8e9cad7cb2d423893867b3b2ed1f56d92f40e54837e41663680",
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "market",
       "machine_eligible": true,

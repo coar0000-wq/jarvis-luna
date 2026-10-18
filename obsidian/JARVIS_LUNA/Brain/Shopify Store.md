@@ -2,9 +2,9 @@
 title: "Shopify Store"
 type: store
 status: generated-from-jarvis-data
-updated_at: 2026-10-17T12:10:46.507770+00:00
+updated_at: 2026-10-18T06:46:44.732565+00:00
 live: 2
-registered_total: 9
+registered_total: 11
 ---
 
 # Shopify Store
@@ -22,3 +22,5 @@ registered_total: 9
 | [[1055167 본셉 레티놀 500 IU 세럼 30 ml]] | skincare | 2026-10-16 | DRAFT | 15.99 | 32 |
 | Dr.CPU+ Lacto Exosome Glutathione Capsule Cream | skincare | 2026-10-16 | DRAFT | - | - |
 | 플루365 바디 스크럽 100 g 코튼머스크 향 | body | 2026-10-17 | DRAFT | 18.99 | 47.2 |
+| 줌 바이 정샘물 메이크업 픽서 50 ml | makeup | 2026-10-18 | DRAFT | 24.99 | 52.5 |
+| 플루365 바디 스크럽 100 g 라즈베리 향 | body | 2026-10-18 | DRAFT | 18.99 | 47.2 |

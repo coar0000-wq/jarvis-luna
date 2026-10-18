@@ -290,6 +290,54 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/agents/workflow_freshness.json",
+      "base_sha256": "510e631b71caca9f47041987c3abce7e7d6d64dfd9c1b6acd34a4939a293d06d",
+      "replacement_sha256": "9112d23b21a9332582191d149308bde95d802f4d6209dc543bb2b760835dd756",
+      "ids": [
+        "finished_at"
+      ],
+      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
+      "policy_ref": "scripts/workflow_status_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/market_team.json",
+      "base_sha256": "ae7b6d15ebcb6c4541dd30df1d350e3c38984ece3b741dd284c2786ac51af1fc",
+      "ids": [
+        "ulta_beauty"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "9770de52dddf19b82afc7416ca5498250d47384fcf28036ce422c8f4925b2a38",
+      "ids": [
+        "action:intent:task_3f75a4c2958bcb3a348d0b297b644ffd94c5826759dbc2ac709893c0596276f1",
+        "action:intent:task_7cd3bfadfc96992d1ef8ec29a933bc6b9be40d6aa0759b1c12ddd7e9602e94e7",
+        "relation:4f9ac7fcd7ca6969e0af0524",
+        "relation:a200385b287db1692d645e30",
+        "relation:c83e5df388bcaae417fbc615",
+        "relation:dafc19cb74701b92988ca07c"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "860cbf4d10dc8d1b6ce2a2d87dcb53f3e7e85734dc09190a3dd409b7a73b96a1",
+      "ids": [
+        "67567724d1c2004a471e8cab625481bb9fc1827b5958ff09dbacc0995be76d9a",
+        "STALE_SOURCE_CAPTURE",
+        "finished_at"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
     }
   ]
 }

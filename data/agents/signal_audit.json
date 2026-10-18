@@ -1,7 +1,7 @@
 {
   "agent": "Signal-Audit",
-  "generated_at": "2026-10-18T03:55:03.730503+00:00",
-  "live_channels": 4,
+  "generated_at": "2026-10-18T06:55:24.974203+00:00",
+  "live_channels": 3,
   "total_channels": 14,
   "empty_or_failed": [
     {
@@ -60,10 +60,16 @@
       "note": "공개 페이지 직접 파싱"
     },
     {
-      "channel": "sephora",
-      "count": 14,
+      "channel": "ulta_beauty",
+      "count": 8,
       "status": "stale",
-      "note": "공개 페이지 직접 파싱"
+      "note": "사람이 직접 확인 (sephora_2026-09-01.json)"
+    },
+    {
+      "channel": "sephora",
+      "count": 10,
+      "status": "stale",
+      "note": "사람이 직접 확인 (sephora_2026-09-01.json)"
     },
     {
       "channel": "open_beauty_facts",
