@@ -23,6 +23,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 from build_team_learning import brief, reviewed_datetime
+from document_handoffs import feed_rows
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -289,7 +290,7 @@ def insight_rows(doc: dict) -> list[dict]:
 
 
 def main() -> int:
-    pools = []
+    pools = feed_rows(ROOT)
     rs = load(DATA / "knowledge" / "real_sources.json")
     for key, blk in ((rs or {}).get("sources") or {}).items():
         for it in (blk.get("items") or []):
@@ -419,7 +420,7 @@ def main() -> int:
             row["date"] = iso_date(it.get("date", ""))
             # 사람이 직접 넣은 것은 위에 둔다. 골라 넣은 자료가 자동
             # 수집분에 밀려 안 보이면 넣은 의미가 없다.
-            row["by_hand"] = it.get("pool") in BY_HAND
+            row["by_hand"] = it.get("pool") in BY_HAND or it.get("pool") == 'document_handoff'
             teams.setdefault(t, []).append(row)
 
     cutoff = (datetime.now(timezone.utc) - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")

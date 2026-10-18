@@ -1,7 +1,7 @@
 # Local-only JARVIS analysis bridge. Never installs software or calls a paid API.
 [CmdletBinding()]
 param(
-  [Parameter(Mandatory)][ValidateSet('doctor','providers','inspect','function','mcp','embedding-smoke','embedding-search')][string]$Mode,
+  [Parameter(Mandatory)][ValidateSet('briefing','doctor','providers','inspect','function','mcp','embedding-smoke','embedding-search')][string]$Mode,
   [string]$ToolsRoot = $env:JARVIS_LOCAL_TOOLS_ROOT,
   [string]$Target,
   [string]$Procedure,
@@ -12,6 +12,11 @@ param(
   [switch]$AuthorizedTarget
 )
 $ErrorActionPreference = 'Stop'
+if ($Mode -eq 'briefing') {
+  $briefPath = Join-Path $PSScriptRoot '../data/agents/rea_document_handoff.json'
+  Get-Content -LiteralPath $briefPath -Raw -Encoding utf8
+  exit 0
+}
 if ([string]::IsNullOrWhiteSpace($ToolsRoot)) { throw 'Set JARVIS_LOCAL_TOOLS_ROOT to the verified persistent local installation.' }
 $configPath = Join-Path $ToolsRoot 'config.local.json'
 if (!(Test-Path -LiteralPath $configPath -PathType Leaf)) { throw 'Verified local tool config missing. Hosted Actions do not have desktop tools.' }

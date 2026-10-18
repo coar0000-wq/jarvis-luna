@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:55:13.467263+00:00",
+  "generated_at": "2026-10-18T08:47:36.527909+00:00",
   "generator": "scripts/build_team_learning.py",
   "rule": "출처에 한정하고 과장 수치를 뺀 자막 검토 지시를 공유한다. 타임스탬프 미제공은 명시하며 실행·성과·사업 승인 증명이 아니다. 영상 목록만 있는 것은 학습이 아니다.",
   "total_insights": 99,
@@ -8,6 +8,45 @@
   "teams_with_videos": 11,
   "teams": {
     "sourcing": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:sourcing",
+          "recipient": "sourcing",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "후보 발견은 원문 경로·해시·관찰 시각으로 인계한다. 문서의 가상 S등급·판매량을 실제 후보 점수로 쓰지 않는다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 13,
       "this_week_action": {
@@ -397,6 +436,45 @@
       "last_review": "2026-10-17"
     },
     "institutions": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:institutions",
+          "recipient": "institutions",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "기관 원문과 검토 요약을 분리하고 문서의 외부 인물·회사 주장에는 미검증 표시를 유지한다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 5,
       "this_week_action": {
@@ -610,6 +688,45 @@
       "last_review": "2026-10-17"
     },
     "market": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:market",
+          "recipient": "market",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "원시 조사 자료는 파일로 보관하고 상품별 관찰 사실·누락·다음 조치만 인계한다. 경쟁 부재를 수요 증거로 확정하지 않는다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 81,
       "this_week_action": {
@@ -974,6 +1091,45 @@
       "last_review": "2026-10-17"
     },
     "listing": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:listing",
+          "recipient": "listing",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "선정→가격→고시·INCI→이미지→공개 흐름의 처음 미완료 단계를 보고한다. 비용 기반 초안과 실제 공개 승인을 구분한다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 63,
       "this_week_action": {
@@ -1357,6 +1513,45 @@
       "last_review": "2026-10-17"
     },
     "pricing": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:pricing",
+          "recipient": "pricing",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "해외 시장가격이 없어도 비용 기반 USD 초안을 준비한다. 미국 기준 계산을 캐나다·유럽 검증 가격으로 표기하지 않는다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 31,
       "this_week_action": {
@@ -1721,6 +1916,45 @@
       "last_review": "2026-10-17"
     },
     "legal": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:legal",
+          "recipient": "legal",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "사업주 선언·자료 보유·실제 검증·공개 승인 필드를 분리한다. 제공 문서의 승인 점수나 샘플 영수증은 승인 근거가 아니다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 52,
       "this_week_action": {
@@ -2086,6 +2320,45 @@
       "last_review": "2026-10-17"
     },
     "robotics": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:robotics",
+          "recipient": "robotics",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "REA 전문 기능에 입력 해시·분석 범위·결과 파일·회귀 검증을 인계한다. 요약 공유를 실제 엔진 실행으로 표시하지 않는다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 7,
       "this_week_action": {
@@ -2374,6 +2647,45 @@
       "last_review": "2026-10-17"
     },
     "design": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:design",
+          "recipient": "design",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "단계별 상태와 실제 누락 사유를 일치시킨다. UI 변경은 가능한 실제 화면 검증과 실패/대기 사례로 확인한다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 33,
       "this_week_action": {
@@ -2758,6 +3070,45 @@
       "last_review": "2026-10-17"
     },
     "channels": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:channels",
+          "recipient": "channels",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "채널별 원시 자료·관찰 시각을 유지하고 의미 있는 변화만 요약한다. 차단 공급자의 제한을 다른 경로로 우회하지 않는다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 7,
       "this_week_action": {
@@ -3048,6 +3399,45 @@
       "last_review": "2026-10-17"
     },
     "knowledge": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:knowledge",
+          "recipient": "knowledge",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "원문 5개를 해시로 보존하고 v2를 기준 검토로 연결한다. 공유·수신·학습·실행 성과를 각각 기록한다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 31,
       "this_week_action": {
@@ -3433,6 +3823,45 @@
       "last_review": "2026-10-17"
     },
     "graph": {
+      "document_handoffs": [
+        {
+          "id": "architecture-review-2026-10-18:graph",
+          "recipient": "graph",
+          "date": "2026-10-18",
+          "title": "서브에이전트 인계·근거 검증·코딩 체크리스트 적용",
+          "summary": "task→팀→입력→결과→검증 연결을 기록한다. 로컬 해시 일치가 외부 승인으로 승격되지 않게 한다.",
+          "url": "docs/learning/2026-10-18-agent-architecture-review.md",
+          "status": "shared_to_repository_not_acknowledged",
+          "verification": {
+            "kind": "local_document_integrity_only",
+            "sources": [
+              {
+                "path": "docs/learning/materials/2026-10-18/ai-coding-checklist-prompt-template.md",
+                "sha256": "0093f98be128df2186cac1ef517937a910e9ba034bc697b4e7a239e15ded667e"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture-v2.md",
+                "sha256": "991adfd18683b265bc49e7e443f5a810be23d7b8a609f7d87b82e9731b338ff7"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/jarvis-luna-subagent-architecture.md",
+                "sha256": "ada3bd72d2c5b4d5356f3ebaa9012fa761a46bfdafb69cfa1a085f8f97e35fef"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/matt-pocock-ai-coding-skills.md",
+                "sha256": "bc1c3d32033cfde7da7e4906b9cb946ef572c2d836ad09f5bee6b2670219ed8c"
+              },
+              {
+                "path": "docs/learning/materials/2026-10-18/spacex-always-on-agent-architecture.md",
+                "sha256": "84a30cd6c157ab320fa37a39b32530df5fdf4186898ece4fd417450ff391c7af"
+              }
+            ]
+          },
+          "authority": false,
+          "execution_verified": false,
+          "next_step": "Review assigned summary and return evidence-linked findings; use existing execution gates."
+        }
+      ],
       "status": "학습 중",
       "insights": 8,
       "this_week_action": {

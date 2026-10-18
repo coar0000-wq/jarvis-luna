@@ -11,6 +11,7 @@
 from __future__ import annotations
 
 import json
+from document_handoffs import packets, write_specialist_handoff
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -76,6 +77,7 @@ def main() -> int:
     ledger = load(DATA / "manual" / "notebook_reviews" / "ledger.json", {})
 
     teams = {}
+    document_packets = packets(ROOT)
     for t in TEAMS:
         mine = sorted((i for i in insights if t in (i.get("teams") or [])),
                       key=insight_sort_key)
@@ -84,6 +86,7 @@ def main() -> int:
 
         status = ("학습 중" if mine else "영상 수집됨 · 자막 검토 대기" if n_videos else "영상 없음")
         teams[t] = {
+            "document_handoffs": [p for p in document_packets if p["recipient"] == t],
             "status": status,
             "insights": len(mine),
             "this_week_action": brief(mine[0], videos) if mine else None,
@@ -103,6 +106,7 @@ def main() -> int:
         "teams_with_videos": sum(1 for v in teams.values() if v["videos_available"]),
         "teams": teams,
     }
+    write_specialist_handoff(ROOT)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"학습 항목 {len(insights)}개 · 학습 중인 팀 {payload['teams_learning']}/11 · "
           f"영상 있는 팀 {payload['teams_with_videos']}/11")

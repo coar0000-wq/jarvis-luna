@@ -152,6 +152,7 @@ jobs:
             python scripts/test_self_improve.py
             python scripts/test_self_improve_replay.py
             python scripts/test_team_learning.py
+            python scripts/test_document_handoffs.py
             python scripts/test_shopify_shortlist_guard.py
             python scripts/test_us_otc_sun_exclusion.py
             python scripts/test_team_baseline_source_clock.py
