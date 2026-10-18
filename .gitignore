@@ -69,6 +69,8 @@ data/.evaluation-publication.lock
 /obsidian/JARVIS_LUNA/BrainRuntime/
 /data/manual/manufacturer_safety_evidence.private.json
 /data/manual/manufacturer_safety_documents/
+/data/manual/product_accuracy_evidence.private.json
+/data/manual/product_accuracy/
 
 # Full operational lineage index stays local.
 /data/agents/brain_dataset_index.json

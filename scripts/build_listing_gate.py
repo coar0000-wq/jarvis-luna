@@ -31,6 +31,8 @@ DATA = ROOT / "data"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
 import manufacturer_safety  # noqa: E402
+import product_accuracy  # noqa: E402
+import build_listing_copy_local as local_copy_builder  # noqa: E402
 import pricing_model  # noqa: E402
 import typesafe_decision_support  # noqa: E402
 
@@ -249,6 +251,13 @@ def main() -> int:
         legal = legal_by_id.get(pd_no, {})
         legal_full = legal_full_by_id.get(pd_no, {})
         kr = gosi_by_id.get(pd_no, {})
+        # Re-screen the text itself even when an old producer saved status=ok.
+        # Keep held human text intact, but do not export it as a ready draft.
+        accuracy_product = {**product, "brand_english": local_copy_builder.brand_of(product.get("name", "")),
+                            "net_contents": label.get("net_contents") or kr.get("volume") or ""}
+        neutral = local_copy_builder.local_copy(product.get("name", ""), {"us_label": label, "gosi": kr})
+        accuracy = product_accuracy.review_copy(accuracy_product, copy_data, neutral, ROOT, now=gate_now)
+        copy_held = bool(accuracy["unsupported_fields"] or accuracy["source_conflicts"])
         canonical_product_id = (
             product.get("canonical_product_id") or cp_registry.get(pd_no)
         )
@@ -260,6 +269,7 @@ def main() -> int:
 
         has_copy = (
             copy_row.get("copy_status") == "ok"
+            and not copy_held
             and bool(copy_data.get("title"))
             and bool(copy_data.get("description_html"))
         )
@@ -333,7 +343,9 @@ def main() -> int:
             blocked_by.append(manufacturer_safety.SAFETY_MISSING)
             blocker_counts["manufacturer_safety_record"] += 1
 
-        public_blocked_by = list(blocked_by)
+        # Safe neutral drafts remain preparable without official evidence.
+        # Exact support still never grants permission to publish.
+        public_blocked_by = list(blocked_by) + [product_accuracy.HOLD_REASON]
         if not evidence_check["ok"]:
             public_blocked_by.append("market_price_review")
         if not legal_full.get("complete"):
@@ -393,7 +405,8 @@ def main() -> int:
             "shopify_score": product.get("shopify_score"),
             "source_url": product.get("url", ""),
             "copy": copy_data,
-            "copy_status": copy_row.get("copy_status", "missing"),
+            "copy_status": "review_required" if copy_data and copy_held else copy_row.get("copy_status", "missing"),
+            "product_accuracy": accuracy,
             "gosi": {
                 "volume": kr.get("volume", ""),
                 "maker": kr.get("maker", ""),

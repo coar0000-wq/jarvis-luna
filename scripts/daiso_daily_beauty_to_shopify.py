@@ -47,6 +47,7 @@ import urllib.parse
 import urllib.request
 import base64
 import hashlib
+from html import escape
 import tempfile
 import gate_signature
 from datetime import datetime, timezone
@@ -64,6 +65,7 @@ UA = "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)"
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import manufacturer_safety  # noqa: E402
+import product_accuracy  # noqa: E402
 import owner_draft_approval  # noqa: E402
 import body_category_fallback as body_fallback  # noqa: E402
 import pricing_model  # noqa: E402
@@ -422,8 +424,8 @@ def fallback_copy(p, cat):
             name = name[len(k):].strip()
     title = f"{brand_en} {name}".strip()
     html = (
-        f"<p>{title} from Daiso Korea's daily beauty picks.</p>"
-        f"<p><strong>Category:</strong> {cat[3]}</p>"
+        f"<p>{escape(title)} from Daiso Korea's daily beauty picks.</p>"
+        f"<p><strong>Category:</strong> {escape(cat[3])}</p>"
         f"<p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p>"
     )
     return title, html
@@ -791,7 +793,7 @@ def build_us_label(pd_no, name_kr, g):
     if label.get("origin"):
         li.append(("Country of origin", label["origin"]))
     li.append(("Cautions and directions", label.get("warnings_en") or "Please refer to the product packaging."))
-    html = "<h4>Product information</h4><ul>" + "".join(f"<li><strong>{k}:</strong> {v}</li>" for k, v in li) + "</ul>"
+    html = "<h4>Product information</h4><ul>" + "".join(f"<li><strong>{escape(k)}:</strong> {escape(str(v))}</li>" for k, v in li) + "</ul>"
     return {"html": html, "reasons": reasons, "label": {k: v for k, v in label.items() if k != "ingredients_inci"}}
 
 
@@ -2101,6 +2103,12 @@ def main():
                 ranking_pick = p.get("_source") == RANKING_SOURCE
                 copy = fallback_copy(p, cat) if (fallback_mode or ranking_pick) else (gemini_copy(p, cat) or fallback_copy(p, cat))
                 title, html = copy
+                neutral_title, neutral_html = fallback_copy(p, cat)
+                selected_copy, accuracy = product_accuracy.select_copy(
+                    {**p, "brand_english": BRAND_EN.get((p.get("brndNm") or "").strip(), "")},
+                    {"title": title, "description_html": html},
+                    {"title": neutral_title, "description_html": neutral_html}, ROOT)
+                title, html = selected_copy["title"], selected_copy["description_html"]
                 if already_registered(p, reg, names, ids, title):
                     excluded.add(str(p["pdNo"]))
                     continue
@@ -2121,12 +2129,28 @@ def main():
                 continue
             g = p.get("_gosi") or (collect_gosi(p["pdNo"], allow_ai=False) if fallback_mode else collect_gosi(p["pdNo"]))
             label = build_us_label(p["pdNo"], clean_name(p["pdNm"]), g)
-            if has_claims(title, html):  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
+            claims_filtered = has_claims(title, html)
+            if claims_filtered:  # 효능·의료 표현이 섞이면 사실만 쓴 규칙 기반 문구로 교체
                 title, html = fallback_copy(p, cat)
+            # The first pass protects pricing inputs. Bind the final base copy
+            # again after claim filtering and once actual label quantity exists.
+            input_accuracy = accuracy
+            selected_copy, accuracy = product_accuracy.select_copy(
+                {**p, "brand_english": BRAND_EN.get((p.get("brndNm") or "").strip(), ""),
+                 "net_contents": label["label"].get("net_contents") or g.get("volume") or ""},
+                {"title": title, "description_html": html},
+                {"title": neutral_title, "description_html": neutral_html}, ROOT)
+            title, html = selected_copy["title"], selected_copy["description_html"]
+            accuracy["input_copy_review"] = input_accuracy
+            accuracy["fallback_used"] = bool(accuracy["fallback_used"] or input_accuracy["fallback_used"] or claims_filtered)
+            accuracy["scope"] = "recorded_source_consistency_and_exact_base_copy_support_only"
+            accuracy["excluded_sections"] = ["owner_tagline", "us_label", "retailer_source_marker"]
             claims_left = has_claims(title, html)
             html = TAGLINE_HTML + html + label["html"]
-            html += f'<p><small>Source: Daiso Mall item {p["pdNo"]}.</small></p>'
-            reasons = list(label["reasons"])
+            html += f'<p><small>Source: Daiso Mall item {escape(str(p["pdNo"]))}.</small></p>'
+            # Exact source support never grants publication. The owner's
+            # current workflow is prepare DRAFT, then owner activates.
+            reasons = list(label["reasons"]) + [product_accuracy.HOLD_REASON]
             if pr.get("draft_only"):
                 reasons.append("market_price_unverified_cost_based_draft_only")
             if fallback_mode:
@@ -2218,6 +2242,7 @@ def main():
                 "gosi": {k: v for k, v in g.items() if k != "ingredients"} | {"ingredients_chars": len(g.get("ingredients", ""))},
                 "us_label": label["label"],
                 "draft_reasons": reasons,
+                "product_accuracy": accuracy,
                 "canonical_public_gate": public_gate,
                 "title": title,
                 "images": images,

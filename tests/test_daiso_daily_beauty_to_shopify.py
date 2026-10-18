@@ -957,12 +957,42 @@ class DailySafetyTests(unittest.TestCase):
         code, result, registry, shop = self._run_main(pricing, lambda candidate: [candidate])
         self.assertEqual(code, 0)
         record = result["results"][0]
-        self.assertEqual(record["status"], "created")  # 건너뛰기도 초안도 아니다
-        self.assertEqual(record["draft_reasons"], [])
+        self.assertEqual(record["status"], "created_draft")  # Margins remain advisory; owner activates.
+        self.assertEqual(record["draft_reasons"], [daily.product_accuracy.HOLD_REASON])
         self.assertEqual(record["profitability_warnings"], warnings)
-        self.assertEqual(registry["items"][0]["status"], "ACTIVE")
+        self.assertEqual(registry["items"][0]["status"], "DRAFT")
         self.assertEqual(registry["items"][0]["profitability_warnings"], warnings)
-        shop.set_status.assert_called_with("gid://shopify/Product/123", "ACTIVE")
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+        self.assertFalse(record["product_accuracy"]["publication_allowed"])
+
+    def test_final_copy_review_binds_actual_label_quantity_and_stays_draft(self):
+        evidence = {"status": "RECORDED_SOURCE_BOUND", "reasons": [], "statements": [],
+                    "facts": {"product_name": "Bonsep Serum", "net_contents": "100 ml"}}
+        with patch.object(daily.product_accuracy, "source_evidence", return_value=evidence):
+            code, result, registry, shop = self._run_main(self._ok_pricing(), lambda candidate: [candidate])
+        self.assertEqual(code, 0)
+        record = result["results"][0]
+        review = record["product_accuracy"]
+        self.assertEqual(review["source_conflicts"], ["net_contents"])
+        self.assertEqual(review["input_copy_review"]["source_conflicts"], [])
+        self.assertEqual(review["selected_copy_sha256"], daily.product_accuracy._copy_digest(
+            {"title": "Bonsep Serum 30 ml", "description_html": "<p>Serum.</p>"}))
+        self.assertEqual(review["excluded_sections"], ["owner_tagline", "us_label", "retailer_source_marker"])
+        self.assertEqual(record["status"], "created_draft")
+        shop.set_status.assert_not_called()
+        shop.publish.assert_not_called()
+
+    def test_scraped_label_values_cannot_inject_markup_after_copy_review(self):
+        resolver = MagicMock()
+        resolver.to_inci.return_value = ("Water", [], [], [])
+        with tempfile.TemporaryDirectory() as folder, patch.object(daily, "ROOT", Path(folder)), \
+             patch.object(daily, "_inci_resolver", return_value=(resolver, None)):
+            label = daily.build_us_label("123", "Serum 30 ml", {
+                "ingredients": "Water", "maker": '<img src="x" onerror="alert(1)">',
+                "origin": "한국", "volume": "30 ml"})
+        self.assertNotIn("<img", label["html"])
+        self.assertIn("&lt;img", label["html"])
 
     # ------------------------------------------------------------------
     # 제조사 안전성 기록 게이트 (안전 게이트, 마진과 무관)
@@ -1085,7 +1115,7 @@ class DailySafetyTests(unittest.TestCase):
         covered = {"mocra_business.json": {"safety_substantiation": {"covered_pd_nos": ["123"]}}, "_synthetic_receipt_pd_no": "123"}
         code, result, registry, shop = self._run_main(self._ok_pricing(), lambda c: [c], safety_files=covered)
         self.assertEqual(code, 0)
-        self.assertEqual(result["results"][0]["status"], "created")
+        self.assertEqual(result["results"][0]["status"], "created_draft")
         shop.create.assert_called_once()
 
     def test_registration_fails_closed_before_creation_when_record_absent_or_deferred(self):
@@ -1109,7 +1139,7 @@ class DailySafetyTests(unittest.TestCase):
             self._ok_pricing(), lambda c: [{**c, "pdNo": "999", "pdNm": "다른 세럼 30 ml"}, c], safety_files=covered)
         self.assertEqual(code, 0)
         record = result["results"][0]
-        self.assertEqual(record["status"], "created")
+        self.assertEqual(record["status"], "created_draft")
         self.assertEqual(record["daiso_pdNo"], "123")
         shop.create.assert_called_once()
 

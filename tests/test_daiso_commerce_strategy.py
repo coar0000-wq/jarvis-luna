@@ -191,7 +191,7 @@ class ListingGatePriceTests(unittest.TestCase):
     # Materialize actual synthetic files/receipts in each temporary root, not owner declarations.
     COVERED = SYNTHETIC_COVERAGE
 
-    def _gate(self, price, legal=None, safety=COVERED, private=None, verified_private=False):
+    def _gate(self, price, legal=None, safety=COVERED, private=None, verified_private=False, candidate=None):
         legal = {"status": "ok", "hard_block": False} if legal is None else legal
         with tempfile.TemporaryDirectory() as folder:
             tmp = Path(folder)
@@ -213,7 +213,8 @@ class ListingGatePriceTests(unittest.TestCase):
                                                        "canonical_product_id": "CP000001"}]})
             write(files["master"], {"pd_no_to_cp": {"1": "CP000001"}})
             write(files["copy"], {"items": [{"pd_no": "1", "copy_status": "ok",
-                                             "copy": {"title": "Test Serum 50 ml", "description_html": "<p>x</p>"}}]})
+                                             "copy": candidate if candidate is not None else
+                                             gate.local_copy_builder.local_copy("테스트 세럼 50 ml", {"us_label": {"net_contents": "50 ml"}})}]})
             write(files["pricing"], {"offers_by_product": {"single": [price] if price else []}})
             write(files["legal"], {"items": {"1": legal}})
             write(files["legal_full"], {"items": {"1": {"complete": True}}})
@@ -271,6 +272,18 @@ class ListingGatePriceTests(unittest.TestCase):
         self.assertFalse(item["price"]["blocks_registration"])
         self.assertFalse(doc["price_policy"]["margin_hard_block"])
         self.assertEqual(doc["price_policy"]["products_with_profit_warnings"], 1)
+        self.assertFalse(item["public_ready"])
+        self.assertIn(gate.product_accuracy.HOLD_REASON, item["public_blocked_by"])
+
+    def test_saved_ok_cannot_bypass_current_copy_accuracy_review(self):
+        candidate = gate.local_copy_builder.local_copy("테스트 세럼 50 ml", {"us_label": {"net_contents": "50 ml"}})
+        candidate["description_html"] = "<p>Contains 5% niacinamide and guarantees results.</p>"
+        _, item = self._gate(self._offer(), candidate=candidate)
+        self.assertEqual(item["copy"], candidate)
+        self.assertEqual(item["copy_status"], "review_required")
+        self.assertIn("copy", item["blocked_by"])
+        self.assertFalse(item["ready"])
+        self.assertFalse(item["public_ready"])
 
     def test_margin_warnings_are_derived_when_the_model_did_not_provide_them(self):
         _, item = self._gate(self._offer(margin_pct=12.0, net_profit_usd=1.0))

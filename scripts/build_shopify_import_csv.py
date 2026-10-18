@@ -252,6 +252,10 @@ def main() -> int:
                             "reason": f"등록 게이트 미통과 - {miss} 미완료"})
             continue
         c = it.get("copy")
+        if it.get("copy_status") == "review_required":
+            skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
+                            "reason": "product_accuracy_copy_review_required"})
+            continue
         if not c:
             skipped.append({"pd_no": it.get("pd_no"), "name_ko": it.get("name_ko"),
                             "reason": it.get("error") or "카피 없음"})

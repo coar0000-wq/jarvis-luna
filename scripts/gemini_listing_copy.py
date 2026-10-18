@@ -31,6 +31,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gate_signature  # noqa: E402
+import product_accuracy  # noqa: E402
+import build_listing_copy_local as local_copy_builder  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "daiso_real" / "shopify_s_recommendations.json"
@@ -293,7 +295,7 @@ def main() -> int:
         model, how = "", "호출 안 함: agent_ready 상품 0건"
         print("agent_ready 상품이 0건이라 Gemini API를 호출하지 않습니다.")
 
-    items, ok, fail, skipped, eligible = [], 0, 0, 0, 0
+    items, ok, fail, skipped, eligible, review_required = [], 0, 0, 0, 0, 0
     for i, p in enumerate(products, 1):
         pd_no = str(p.get("pd_no") or "")
         gate_row = gate_by.get(pd_no, {})
@@ -324,15 +326,25 @@ def main() -> int:
 
         eligible += 1
         copy, err = generate(key, model, p)
+        # A wording pass does not support product facts. Keep a neutral draft
+        # even when the model fails or invents source-free claims.
+        neutral = local_copy_builder.local_copy(p.get("name", ""), gate_row)
+        accuracy_product = {**p, "brand_english": local_copy_builder.brand_of(p.get("name", "")),
+                            "net_contents": local_copy_builder.volume_of(gate_row, p.get("name", ""))}
+        copy, accuracy = product_accuracy.select_copy(accuracy_product, copy, neutral, ROOT)
         row = {
             **common,
             "copy": copy,
-            "copy_status": "ok" if copy else "failed",
+            "product_accuracy": accuracy,
+            "copy_status": "review_required" if accuracy["source_conflicts"] else ("ok" if copy else "failed"),
             "agent_blocked_by": [],
             "error": err,
         }
         items.append(row)
-        if copy:
+        if row["copy_status"] == "review_required":
+            review_required += 1
+            print(f"  [{i:2d}/{len(products)}] REVIEW {p.get('name','')[:34]} :: source facts conflict")
+        elif copy:
             ok += 1
             print(f"  [{i:2d}/{len(products)}] OK   {p.get('name','')[:34]} -> {copy['title'][:44]}")
         else:
@@ -348,14 +360,15 @@ def main() -> int:
         "model_selection": how,
         "source": "data/daiso_real/shopify_s_recommendations.json (다이소 실크롤링 S등급)",
         "note": ("CP·고시·영문라벨·가격·법률 선행 게이트를 통과한 상품만 Gemini에 전달한다. "
-                 "영문 카피는 게시 전 사람이 검수해야 하며, 실패·차단 항목은 비워 둔다."),
+                 "근거 없는 생성문은 보수적 초안으로 교체하고, 원천 사실 충돌은 검토 대기로 남긴다. 게시 전 사람 검수가 필요하다."),
         "total": len(items), "eligible": eligible, "ok": ok,
+        "review_required": review_required,
         "failed": fail, "skipped_prerequisite": skipped,
         "items": items,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    print(f"\n적격 {eligible}건 · 생성 {ok}건 · 선행차단 {skipped}건 -> {OUT.relative_to(ROOT)}")
-    return 0 if ok or eligible == 0 else 1
+    print(f"\n적격 {eligible}건 · 생성 {ok}건 · 검토대기 {review_required}건 · 선행차단 {skipped}건 -> {OUT.relative_to(ROOT)}")
+    return 0 if ok or review_required or eligible == 0 else 1
 
 
 if __name__ == "__main__":
