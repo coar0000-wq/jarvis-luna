@@ -162,6 +162,7 @@ jobs:
             python scripts/test_design_store_open.py
             python scripts/test_shopify_set_media_alt.py
             python scripts/test_team_history_evidence.py
+            python scripts/test_fast_forward_queued_checkout.py
             python scripts/test_collector_snapshot_history.py
             python scripts/build_artifact_graph.py --check
             python scripts/check_release_quality.py --phase final --report "$RUNNER_TEMP/pages-quality-report.json"

@@ -38,6 +38,10 @@ jobs:
           python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-core.txt
 
       # Authenticate immutable history before regenerating the operations runtime.
+      - name: Fast-forward a queued checkout to latest main (data-only commits)
+        # main-publish 대기열에서 기다리는 동안 다른 생산자가 데이터만 발행했으면 최신 main 에서 시작한다.
+        run: python -B scripts/fast_forward_queued_checkout.py
+
       - name: Restore immutable operations safety before execution
         id: operations_safety
         env:

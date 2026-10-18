@@ -46,7 +46,9 @@ ROTATING = {
     "data/oliveyoung_us_products.json": ["products"],
     "data/sokoglam_products.json": ["products"],
     "data/us_beauty_products.json": ["products", "items", "by_store/*", "by_store/*/products", "by_store/*/items"],
-    "data/serpapi_market.json": ["prices/items", "prices/failures", "trends/items", "trends/failures"],
+    # 2026-10-18: 실패 사유 칸(reason)은 수집이 정상이 되면 빠진다(SerpApi 39076729843: trends/reason).
+    "data/serpapi_market.json": ["prices/items", "prices/failures", "trends/items", "trends/failures",
+                                 "prices/reason", "trends/reason"],
     # 2026-10-16: YouTube 검색 결과도 실행마다 통째로 바뀐다. 선언이 없어서 SerpApi 수집이 10-06 이후
     # 'identity/field removal requires reason manifest: data/youtube_serpapi.json' 으로 발행에 실패했고,
     # 그 사이 새로 S등급이 된 4개(1049275·1068721·1074979·1068733)는 상품별 미국 시장가를 한 번도 못 받았다.

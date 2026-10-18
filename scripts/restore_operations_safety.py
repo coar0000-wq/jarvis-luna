@@ -961,6 +961,19 @@ def restore_latest(root, *, fetch_json=transport.fetch_github_json,
     return {'continuity':'verified', 'status':'authenticated_operations_safety_restored', 'run_id':run['id'], 'normalization':normalization}
 
 
+def _require_data_only_fast_forward(root, event_sha, head):
+    """HEAD may only differ from the event SHA by scripts/fast_forward_queued_checkout.py's data-only move."""
+    if not re.fullmatch('[0-9a-f]{40}', head) or _git(root, 'merge-base', '--is-ancestor', event_sha, head).returncode:
+        raise Blocked('authenticated_current_head_required')
+    names = _git(root, 'diff', '--name-only', event_sha, head)
+    if names.returncode:
+        raise Blocked('authenticated_current_head_required')
+    import publish_transaction as publication  # noqa: PLC0415  one producer-code rule for publish and restore
+    policy = json.loads((Path(root) / 'config' / 'publish_policy.json').read_text(encoding='utf-8'))
+    if any(publication.producer_changed(n, policy) for n in names.stdout.decode('utf-8', 'replace').split()):
+        raise Blocked('authenticated_current_head_required')
+
+
 def _require_fresh_checkout(root, commit):
     """Block a producer that waited in the main-publish queue while another producer published.
 
@@ -1005,9 +1018,12 @@ def main(argv=None):
                 raise Blocked('authenticated_github_runner_required')
             commit = os.environ.get('GITHUB_SHA', '')
             head = _git(args.root, 'rev-parse', '--verify', 'HEAD')
-            if not re.fullmatch('[0-9a-f]{40}', commit) or head.returncode or head.stdout.strip() != commit.encode('ascii'):
+            if not re.fullmatch('[0-9a-f]{40}', commit) or head.returncode:
                 raise Blocked('authenticated_current_head_required')
-            _require_fresh_checkout(args.root, commit)
+            current_head = head.stdout.strip().decode('ascii', 'replace')
+            if current_head != commit:
+                _require_data_only_fast_forward(args.root, commit, current_head)
+            _require_fresh_checkout(args.root, current_head)
             result = restore_latest(args.root, current_run_id=os.environ.get('GITHUB_RUN_ID'))
         output = os.environ.get('GITHUB_OUTPUT')
         if output:
