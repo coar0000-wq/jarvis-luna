@@ -2,7 +2,7 @@
 title: "Record c9ec89d619 · Toleriane-Purifying-Foaming-Face-Wash-for-Oily-Skin"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:53.131506+00:00
+updated_at: 2026-10-18T13:20:48.458311+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://www.ulta.com/p/toleriane-purifying-foaming-face-wash-oily-skin-xls
 **제목:** Toleriane Purifying Foaming Face Wash for Oily Skin
 
 Toleriane Purifying Foaming Face Wash for Oily Skin
-Toleriane Purifying Foaming Face Wash for Oily Skin · La Roche-Posay · $12.74
+Toleriane Purifying Foaming Face Wash for Oily Skin · La Roche-Posay · $16.99
 
 **출처:** Source · us_beauty

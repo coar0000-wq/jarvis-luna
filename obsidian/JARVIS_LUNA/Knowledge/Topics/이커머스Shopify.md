@@ -2,20 +2,20 @@
 title: "이커머스·Shopify"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-16T04:57:06.453961+00:00
+updated_at: 2026-10-18T13:20:49.676630+00:00
 tags: [topic, real-data]
-record_count: 407
+record_count: 409
 ---
 
 # 이커머스·Shopify
 
-실제 수집 레코드 **407건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **409건**이 이 주제에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 소스별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[Source--Google-Search]] | 372 |
+| [[Source--Google-Search]] | 374 |
 | [[Source--YouTube]] | 30 |
 | [[Source--institutions]] | 3 |
 | [[Source--us_beauty]] | 1 |
