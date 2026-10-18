@@ -84,5 +84,16 @@ class HealthTests(unittest.TestCase):
         for patch in ({'scope': 'shortlist_price'}, {'started_at': '2026-10-03T00:30:00Z'}, {'publication_completed': False}):
             self.assertEqual(self.evaluate(dict(full, **patch))['status'], 'failed')
 
+    def test_later_daily_publication_supersedes_narrower_manual_failure(self):
+        full = dict(self.receipt, collection_scope=h.DAILY_SCOPE, scope='overall_workflow', publication_completed=True, workflow_conclusion='success')
+        narrow = dict(h.DAILY_SCOPE, requested=20)
+        value = self.evaluate(full, validated_failure_scopes={(10, 1): narrow})
+        self.assertEqual(value['status'], 'success')
+        self.assertTrue(value['failed_workflow_history'][0]['superseded'])
+        other_mode = dict(narrow, operating_updates_enabled=True, publication='operating_products')
+        self.assertEqual(self.evaluate(full, validated_failure_scopes={(10, 1): other_mode})['status'], 'failed')
+        self.assertFalse(h.scope_covers(dict(h.DAILY_SCOPE, requested=1), h.DAILY_SCOPE))
+        self.assertFalse(h.scope_covers(None, h.DAILY_SCOPE))
+
 if __name__ == '__main__':
     unittest.main()

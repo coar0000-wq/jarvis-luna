@@ -110,6 +110,20 @@ def collection_scope(run):
 DAILY_SCOPE = collection_scope({'requested': 110, 'discovery_enabled': True, 'operating_updates_enabled': False})
 
 
+def scope_covers(later, failed):
+    """A later verified run covers a failed one only in the same mode with at least as many requested items.
+
+    A narrower manual failure (e.g. requested=20) is superseded by a later verified daily run (requested=110);
+    a smaller later run never supersedes a larger failure.
+    """
+    if not isinstance(later, dict) or not isinstance(failed, dict):
+        return False
+    if any(later.get(k) != failed.get(k) for k in ('discovery_enabled', 'operating_updates_enabled', 'publication')):
+        return False
+    a, b = later.get('requested'), failed.get('requested')
+    return type(a) is int and type(b) is int and b > 0 and a >= b
+
+
 def result(status='unverified', reason='no_verified_source', **extra):
     return {'status': status, 'reason': reason, 'verified': status == 'success', **extra}
 
@@ -238,7 +252,7 @@ def evaluate_pipeline_health(collection_status, workflow_report, *, now,
                 failure['coverage_reason'] = 'prior_failure_collection_coverage_unknown'
                 continue
             for receipt in full:
-                if receipt.get('collection_scope') != required:
+                if not scope_covers(receipt.get('collection_scope'), required):
                     continue
                 if timestamp(receipt['started_at']) > end and (receipt['run_id'], receipt['run_attempt']) != (failure['run']['id'], failure['run']['run_attempt']):
                     failure['superseded'] = True
