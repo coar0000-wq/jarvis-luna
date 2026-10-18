@@ -301,10 +301,10 @@ SITES = {
         "robots": "/gp/bestsellers/ 관련 Disallow 없음 (2026-09-15 확인)",
     },
     "walmart": {
-        "url": "https://www.walmart.com/browse/beauty/1085666",
-        "label": "walmart.com/browse/beauty/1085666",
+        "url": "https://www.walmart.com/shop/beauty/editors-picks",
+        "label": "walmart.com/shop/beauty/editors-picks (editorial picks, not sales rank)",
         "js": JS_WALMART,
-        "robots": "/browse/ 관련 Disallow 없음 (2026-09-15 확인)",
+        "robots": "Public editorial collection; source URL verified in browser (2026-10-18)",
     },
     "ulta": {
         "url": "https://www.ulta.com/shop/skin-care",

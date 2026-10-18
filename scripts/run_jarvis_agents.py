@@ -230,12 +230,12 @@ def agent_listing(srec: dict, runtime: dict) -> dict:
         "manifest_path": "data/shopify_exports/manifest.json",
         "items": notes,
         "legal_blocks": blocked,
-        "suggestions": [
+        "suggestions": ([
             {
                 "action": "import_csv_as_draft",
                 "detail": f"게이트 통과 {len(ready_recs)}건 CSV → Shopify Admin Products Import (Published=false)",
             }
-        ]
+        ] if ready_recs else [])
         + ([{"action": "resolve_legal_blocks", "detail": b} for b in blocked[:3]]),
     }
 
@@ -277,10 +277,10 @@ def agent_ops(collector: dict, signal: dict, score: dict, listing: dict, runtime
             "refs": ["data/agents/score_explain.json"],
             "approve": "사람: Deep Analysis 재실행",
         })
-    elif (score.get("s_count") or 0) > 0:
+    elif (listing.get("registerable_count") or 0) > 0:
         tasks.append({
             "priority": 3,
-            "title": f"S등급 {score.get('s_count')}건 중 게이트 통과분 Shopify draft 등록",
+            "title": f"게이트 통과 {listing['registerable_count']}건 Shopify draft 등록",
             "detail": "운영 4종 Export · blocked SKU 제외 · 법률 풀스키마/실재고 전 공개 금지",
             "refs": ["data/shopify_exports/manifest.json", "data/shopify_exports/products.csv", "data/agents/listing_notes.json"],
             "approve": "사람: Admin Import + 가격·재고",

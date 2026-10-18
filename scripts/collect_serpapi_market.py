@@ -262,8 +262,15 @@ def main() -> int:
         return 0
 
     before = ledger["used"]
-    prices = collect_prices(key, ledger) if only in (None, "prices") else {"status": "skipped"}
-    trends = collect_trends(key, ledger) if only in (None, "trends") else {"status": "skipped"}
+    previous = load(OUT, {}) or {}
+    def block(name, collector):
+        if only in (None, name):
+            return {**collector(key, ledger), "collected_at": now}
+        retained = dict(previous.get(name) or {"status": "skipped"})
+        retained.setdefault("collected_at", previous.get("generated_at"))
+        return retained
+    prices = block("prices", collect_prices)
+    trends = block("trends", collect_trends)
     spent = ledger["used"] - before
     ledger["runs"] = (ledger["runs"] + [{"at": now, "spent": spent}])[-20:]
     LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

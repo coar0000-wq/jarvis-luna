@@ -131,7 +131,7 @@ def load_serp_collected_at() -> str | None:
         d = json.loads(SERP_PATH.read_text(encoding="utf-8-sig"))
     except (OSError, json.JSONDecodeError, UnicodeDecodeError):
         return None
-    value = d.get("generated_at") if isinstance(d, dict) else None
+    value = ((d.get("prices") or {}).get("collected_at") or d.get("generated_at")) if isinstance(d, dict) else None
     return value if isinstance(value, str) and value.strip() else None
 
 
