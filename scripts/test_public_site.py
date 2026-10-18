@@ -152,6 +152,7 @@ def load_tests(loader, suite, pattern):
     import importlib.util
     import sys
     for name, relative in (
+        ('_daily_pipeline_projection_regression', 'scripts/test_daily_pipeline_projection.py'),
         ('_daily_beauty_regression', 'tests/test_daiso_daily_beauty_to_shopify.py'),
         ('_commerce_policy_regression', 'tests/test_daiso_commerce_strategy.py'),
         ('_price_strategy_regression', 'scripts/test_beauty_price_strategy.py'),
