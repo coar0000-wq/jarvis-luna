@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T22:38:47.619871+00:00",
+  "generated_at": "2026-10-18T00:32:06.827966+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 59,
   "items": [
@@ -144,16 +144,6 @@
       "recommend_reason": "글로벌 '[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set' (oliveyoung_us) 유사 38% · 토큰 toner · S제외:match_too_weak"
     },
     {
-      "canonical_product_id": "CP000179",
-      "pd_no": "1061920",
-      "name": "본셉 비타씨 크림 50 ml",
-      "bucket": "스킨케어",
-      "shopify_score": 93,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 85% · 토큰 cream, vitaminc"
-    },
-    {
       "canonical_product_id": "CP000132",
       "pd_no": "1055169",
       "name": "본셉 레티놀 500 IU 크림 50 ml",
@@ -161,7 +151,7 @@
       "shopify_score": 93,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz' (amazon_new_beauty) 유사 76% · 토큰 cream, retinol"
+      "recommend_reason": "글로벌 'Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)' (oliveyoung_us) 유사 88% · 토큰 cream, retinol"
     },
     {
       "canonical_product_id": "CP000129",
@@ -171,7 +161,17 @@
       "shopify_score": 93,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz' (amazon_new_beauty) 유사 76% · 토큰 cream, retinol"
+      "recommend_reason": "글로벌 'Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)' (oliveyoung_us) 유사 88% · 토큰 cream, retinol"
+    },
+    {
+      "canonical_product_id": "CP000179",
+      "pd_no": "1061920",
+      "name": "본셉 비타씨 크림 50 ml",
+      "bucket": "스킨케어",
+      "shopify_score": 93,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 85% · 토큰 cream, vitaminc"
     },
     {
       "canonical_product_id": "CP000170",

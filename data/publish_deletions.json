@@ -267,31 +267,6 @@
       "delete_file": false
     },
     {
-      "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "ff909255d3401e576d70b627c4616a680966e7dea2487a3c9705652ceac6a170",
-      "ids": [
-        "action:intent:task_92c7eed5ed8bc605db305e32140bf89c2285c816a6c348cabd73773b629862e4",
-        "action:intent:task_a74d13fc5624d7e8c14f0ab7127ec53aa524a2c411f1a4a78e2e35641567773d",
-        "relation:5bcb8b8445b822bc200ec1e4",
-        "relation:89f6209f1403e28f3cf540b3",
-        "relation:bd8173333f28ef6882caee2b",
-        "relation:f5f139c5e2cfa2033e426f86"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/state.json",
-      "base_sha256": "8eaf63b0677c30bd6acf908c8f025982317a92cbc1f6eed3aaac1d484402942a",
-      "ids": [
-        "STALE_SOURCE_CAPTURE"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/knowledge/real_sources.json",
       "base_sha256": "0ac814153dd3a0974b4c211e13891775e6ec85a503a350625e65d0c1a1c1b2a5",
       "ids": [
@@ -455,6 +430,34 @@
         "https://www.ulta.com/p/total-eye-lift-refillable-eye-cream-pimprod2052976",
         "https://www.ulta.com/p/travel-size-cc-cream-color-corrector-with-korean-2-centella-asiatica-hyaluronic-acid-pimprod2061625",
         "https://www.ulta.com/p/vitamin-c-complex-serum-pimprod2045642"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "c50db15ad9c301f715b40a1a2e3e71669251175481902b966b2649fef0123378",
+      "ids": [
+        "action:intent:task_17704d53cabc40048f18317c1aeac1d871205329648073d4e7acf7a39bdc2a2d",
+        "action:intent:task_bc9dbbe1cbc75bfac453447780edc1900d7333d624b627e31d5ca0f7da6d8e2c",
+        "relation:3a4fc2b0b79a88dd801a54bc",
+        "relation:86ef946aa1ad0e79ca728284",
+        "relation:b23fc773bac3826505064be3",
+        "relation:b8daf6d51f57df966eb791f9"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "4b512c85cce1b9d0348ecd2fe9b9f56c82c1cc6292f167f62ea5a453527b45e7",
+      "ids": [
+        "39d35f87e914296039c3e7e53eb54ecdcd7586cfa488ffec68b2bc7eb5ca1c36",
+        "4206d217873edcb3c8a3e55963b53107b3b787c5994f3cb9be228e987fbe1283",
+        "4c816c2b10c9be613176fd253e2a20c18b6039e5341e293e26d2fca5c4940261",
+        "STALE_SOURCE_CAPTURE"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
