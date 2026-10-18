@@ -142,6 +142,17 @@ def rotating(rel: str, where: tuple[str, ...]) -> bool:
     return any(fnmatch.fnmatchcase(path, pat) and path.count("/") == pat.count("/") for pat in ROTATING.get(rel, []))
 
 
+def watch_membership(rel, where):
+    # These are current comparison cursors, not source captures, receipts or
+    # event history. Only whole disappeared members rotate; surviving fields
+    # still pass the normal recursive removal checks below.
+    if (rel != 'data/operations/state.json' or len(where) != 4
+            or where[:2] != ('watch', 'sources') or where[3] != 'records'):
+        return False
+    from scripts.jarvis_watch import SOURCE_MAPPINGS
+    return where[2] in SOURCE_MAPPINGS
+
+
 def allowed_removals(rel: str, old, new, policy: dict, where: tuple[str, ...] = ()) -> list[str]:
     """Identities removed only inside declared rotating lists; anything else raises."""
     contract = {"identity_fields": policy["identity_fields"]}
@@ -157,7 +168,7 @@ def allowed_removals(rel: str, old, new, policy: dict, where: tuple[str, ...] = 
         out = []
         for key, value in old.items():
             if key not in new:
-                if rotating(rel, where + (key,)):
+                if rotating(rel, where + (key,)) or watch_membership(rel, where):
                     # 2026-10-17: 선언된 교체 목록이 비어서 칸째 빠지는 경우(daiso_pipeline_health 의
                     # failed_workflow_history). 발행 가드가 계산하는 식별자(칸 이름)를 그대로 기록한다.
                     out.append(str(key))
