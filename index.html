@@ -2087,7 +2087,7 @@ function reasonText(codes){
     var priced=typeof it.single_usd==='number' && Number.isFinite(it.single_usd) && it.single_usd>0 && it.single_margin_pct!=null;
     // 색: 성공 파랑(done) · 준비중 노랑(wait) · 에러 빨강(bad). 공개(ACTIVE)는 공개 게이트(등급·법률·이미지)를 통과한 기록이다.
     var graded=!!(sSet[String(it.pd_no)]||it.grade==='S'||it.grade==='RANK'||it.source==='owner_body_shower_category_fallback'||it.source==='manual_owner_image_localization_example'||live);
-    var s=[graded?'done':'wait', priced?'done':'wait',
+    var s=[graded?'done':'wait', priced?(Number(it.single_margin_pct)>=30?'done':'bad'):'wait',
       legalBad?'bad':(live?'done':'wait'), imgBad?'bad':(it.images>0?'done':'wait'), live?'done':'wait'];
     // Sequential review: preserve available assets in detail, but never imply a later gate passed.
     var first=s.findIndex(function(v){return v!=='done';});
