@@ -5,11 +5,16 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import io
+from contextlib import redirect_stdout
+from unittest.mock import patch
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from scripts import collector_snapshot_history as csh  # noqa: E402
+from scripts import shortlist_observation_history as observer_history  # noqa: E402
+from scripts import test_shortlist_observations as observer_fixtures  # noqa: E402
 from scripts.publish_transaction import deletion_authorized  # noqa: E402
 
 POLICY = json.loads((ROOT / "config/publish_policy.json").read_text(encoding="utf-8"))
@@ -106,6 +111,62 @@ class CollectorSnapshotTests(unittest.TestCase):
         before = (self.root / "data/publish_deletions.json").read_bytes()
         self.assertEqual(csh.update(self.root, [self.rel])[self.rel], "unchanged")
         self.assertEqual((self.root / "data/publish_deletions.json").read_bytes(), before)
+
+
+class RestoredObserverPublicationTests(unittest.TestCase):
+    save = observer_fixtures.ObserverTests.save
+    shortlist = observer_fixtures.ObserverTests.shortlist
+    http = observer_fixtures.ObserverTests.http
+    run_observe = observer_fixtures.ObserverTests.run_observe
+
+    def setUp(self):
+        observer_fixtures.ObserverTests.setUp(self)
+        self.run_observe()
+        self.base = (self.root / observer_history.OUTPUT).read_bytes()
+        self.ledger = (self.root / observer_history.LEDGER).read_bytes()
+        self.run_observe(force=True)  # Cached observation: current diagnostic IDs shrink.
+        (self.root / 'config').mkdir()
+        (self.root / 'config/publish_policy.json').write_text(json.dumps(POLICY), encoding='utf-8')
+
+    def head(self, root, rel):
+        return self.base if rel == observer_history.OUTPUT else self.ledger
+
+    def test_all_declared_records_restored_diagnostics_without_new_observation(self):
+        current = (self.root / observer_history.OUTPUT).read_bytes()
+        output = io.StringIO()
+        with patch.object(csh, 'ROOT', self.root), patch.object(csh, 'head_bytes', side_effect=self.head), \
+                patch.object(observer_history, 'exact_head', side_effect=self.head), \
+                patch.object(csh.sys, 'argv', ['collector_snapshot_history.py', '--all-declared']), \
+                patch.object(observer_fixtures.obs, '_http_get', side_effect=AssertionError('no HTTP')), \
+                redirect_stdout(output):
+            result = csh.main()
+        self.assertEqual(result, 0, output.getvalue())
+        manifest = json.loads((self.root / observer_history.MANIFEST).read_bytes())
+        entry = next(row for row in manifest['deletions'] if row['path'] == observer_history.OUTPUT)
+        self.assertEqual(entry['base_sha256'], observer_history.sha(self.base))
+        self.assertEqual(entry['replacement_sha256'], observer_history.sha(current))
+        self.assertTrue(deletion_authorized(observer_history.OUTPUT, self.base, entry['ids'],
+                                            manifest, replacement=current))
+        self.assertEqual((self.root / observer_history.OUTPUT).read_bytes(), current)
+        self.assertEqual((self.root / observer_history.HISTORY /
+                          (observer_history.sha(self.base) + '.json')).read_bytes(), self.base)
+
+    def test_lost_source_capture_is_not_authorized(self):
+        path = self.root / observer_history.OUTPUT
+        changed = json.loads(path.read_bytes()); changed['capture_history'] = []
+        path.write_text(json.dumps(changed), encoding='utf-8')
+        with patch.object(csh, 'head_bytes', side_effect=self.head), \
+                patch.object(observer_history, 'exact_head', side_effect=self.head), \
+                self.assertRaisesRegex(ValueError, 'capture_history_lost'):
+            csh.record_restored_observer(self.root)
+        self.assertFalse((self.root / observer_history.MANIFEST).exists())
+
+    def test_unchanged_observer_creates_no_archive_or_manifest(self):
+        (self.root / observer_history.OUTPUT).write_bytes(self.base)
+        with patch.object(csh, 'head_bytes', side_effect=self.head), \
+                patch.object(observer_history, 'preserve', side_effect=AssertionError('no mutation')):
+            self.assertIsNone(csh.record_restored_observer(self.root))
+        self.assertFalse((self.root / observer_history.MANIFEST).exists())
 
 
 if __name__ == "__main__":
