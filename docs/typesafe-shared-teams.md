@@ -93,3 +93,15 @@ made for this configuration change. A successful future authorized request must
 record its actual response model; old 1.13 receipts remain historical evidence.
 All 11 team roles receive the release briefing through the existing learning and
 feed builders. A briefing is not proof of model execution or improved accuracy.
+
+## Team follow-through from the comparison video — 2026-10-19
+
+The [team directive](learning/2026-10-19-jev-comparison-shopify-waitlist.md)
+adds per-team local evaluation cases and evidence-readiness tasks from the
+[owner-shared comparison](https://www.youtube.com/watch?v=RJJOVHZxyhc).
+Its description, uploader chapters, creator-published 50-case results and
+provider documentation were reviewed; captions, frames and an independent
+benchmark rerun were not verified. The creator's scores are not Jarvis accuracy.
+The existing text-only payload allowlist, version pin, billing proof, receipt
+chain and human/canonical gates remain unchanged. No image/Box/long-context
+header, new Decisions API integration or live request is introduced.

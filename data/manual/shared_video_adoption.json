@@ -7,7 +7,8 @@
     "applied_with_guard": 1,
     "queued": 1,
     "applied": 1,
-    "shared-to-team-feeds": 12
+    "shared-to-team-feeds": 12,
+    "reviewed_pending_team_feed_build": 2
   },
   "videos": [
     {
@@ -859,6 +860,57 @@
         "data/manual/design_reference_workflow.json",
         "docs/learning/video-workflow-templates.md"
       ]
+    },
+    {
+      "video_id": "RJJOVHZxyhc",
+      "title": "200배 빨라 난리났던 AI Jev, 벌써 더 좋아졌다! | Jev 1.14, GPT-6 Decisions API 와 성능 비교 #Jev #DecisionsAPI #GPT #클로드",
+      "teams": [
+        "sourcing",
+        "institutions",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "robotics",
+        "design",
+        "channels",
+        "knowledge",
+        "graph"
+      ],
+      "status": "reviewed_pending_team_feed_build",
+      "shared": null,
+      "reviewed": "2026-10-19",
+      "takeaway": "전 팀은 기존 jev-1.14.0의 허용된 상태·신선도·근거 존재 집계만 보조 판단에 사용한다. 정상·누락·충돌·불명 사례와 사람의 기대 경로를 로컬 평가표로 준비한다. 한국어 반어와 코드 빈 입력처럼 조건에 민감한 사례는 사람 검토로 보낸다. 영상의 속도 배수·소규모 점수를 자사 성능으로 쓰지 않는다. 이미지·Box·긴 문맥·새 API는 활성화하지 않는다.",
+      "application": "검토·팀별 지시 원본을 준비했다. 팀 피드 생성·배포 증거 확인 전 공유 완료로 표기하지 않는다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "review_method": "dot 클라우드 브라우저에서 실제 제목·설명·업로더 챕터 확인 및 1차 자료 검토. 자막 본문·영상 프레임·독립 재실행은 검증하지 못했다.",
+      "review_proof": "docs/learning/2026-10-19-jev-comparison-shopify-waitlist.md"
+    },
+    {
+      "video_id": "FZe4IOLItpY",
+      "title": "How To Make A Waiting List On Shopify (2026)",
+      "teams": [
+        "sourcing",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "robotics",
+        "design",
+        "channels",
+        "knowledge",
+        "graph"
+      ],
+      "status": "reviewed_pending_team_feed_build",
+      "shared": null,
+      "reviewed": "2026-10-19",
+      "takeaway": "채널팀 주도로 상품 옵션 1개의 비공개 대기자/재입고 알림 명세를 만든다. 앱 후보의 기능·요금·권한·해지/삭제와 공식 Forms 대안을 비교하고 재입고 알림 목적과 마케팅 동의를 분리한다. 소싱은 실재고 근거, 리스팅/디자인은 상태별 폼, 법률은 수집 목적/철회, 로보틱스는 합성 데이터 QA, 가격팀은 비용표를 제출한다. 설치·유료 결제·권한 부여·실고객 수집/발송·상품 활성화는 별도 승인 전 하지 않는다.",
+      "application": "검토·팀별 지시 원본을 준비했다. 팀 피드 생성·배포 증거 확인 전 공유 완료로 표기하지 않는다.",
+      "tool_execution_verified": false,
+      "business_or_legal_approval": false,
+      "review_method": "dot 클라우드 브라우저에서 실제 제목·설명·업로더 챕터 확인 및 1차 자료 검토. 자막 본문·영상 프레임·독립 재실행은 검증하지 못했다.",
+      "review_proof": "docs/learning/2026-10-19-jev-comparison-shopify-waitlist.md"
     }
   ]
 }

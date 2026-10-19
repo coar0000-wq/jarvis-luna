@@ -204,6 +204,87 @@
         "knowledge": "기존 텍스트 Choice/Score/Noul 보조 판단만 사용한다. 새 모델의 실제 응답 버전과 한국어 경계 사례를 확인하기 전 성능 개선을 단정하지 않는다. 이미지·Box·긴 문맥을 켜거나 법률·가격·게시·결제·오너 승인을 모델 판단으로 대체하지 않는다.",
         "graph": "기존 텍스트 Choice/Score/Noul 보조 판단만 사용한다. 새 모델의 실제 응답 버전과 한국어 경계 사례를 확인하기 전 성능 개선을 단정하지 않는다. 이미지·Box·긴 문맥을 켜거나 법률·가격·게시·결제·오너 승인을 모델 판단으로 대체하지 않는다."
       }
+    },
+    {
+      "id": "2026-10-19-jev-comparison-team-directive",
+      "date": "2026-10-19",
+      "title": "Jev 비교 영상 팀 지시: 기존 텍스트 판단 + 팀별 경계 사례 검증",
+      "source": "youtube_description_and_primary_sources_review",
+      "source_url": "https://www.youtube.com/watch?v=RJJOVHZxyhc",
+      "source_urls": [
+        "https://docs.typesafe.ai/models",
+        "https://docs.typesafe.ai/images",
+        "https://developers.openai.com/api/docs/guides/decisions",
+        "https://davelee-fun.github.io/fixeddata/assets/longform/2026/10/long058-jev-test/"
+      ],
+      "verification_status": "source_review_complete_live_execution_unverified",
+      "source_note": "dot 클라우드 브라우저에서 실제 제목·설명·업로더 챕터 확인 및 1차 자료 검토. 자막 본문·영상 프레임·독립 재실행은 검증하지 못했다.",
+      "teams": [
+        "sourcing",
+        "institutions",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "robotics",
+        "design",
+        "channels",
+        "knowledge",
+        "graph"
+      ],
+      "summary": "전 팀은 기존 jev-1.14.0의 허용된 상태·신선도·근거 존재 집계만 보조 판단에 사용한다. 정상·누락·충돌·불명 사례와 사람의 기대 경로를 로컬 평가표로 준비한다. 한국어 반어와 코드 빈 입력처럼 조건에 민감한 사례는 사람 검토로 보낸다. 영상의 속도 배수·소규모 점수를 자사 성능으로 쓰지 않는다. 이미지·Box·긴 문맥·새 API는 활성화하지 않는다.",
+      "team_actions": {
+        "sourcing": "상품 원본·재고 확인의 존재/누락·신선도 집계만으로 보조 판단을 사용한다. 미확인 재고를 '있음'으로 채우지 않는다.",
+        "institutions": "공식 자료의 출처 존재·발행/확인일 누락 건수를 점검하고, 모델 점수로 기관 승인이나 규제 준수를 확정하지 않는다.",
+        "market": "한국어 반어·혼합 평가를 사람이 표시한 로컬 평가 사례로 준비한다. 현재 공유 API에는 고객 리뷰 원문을 추가 전송하지 않는다.",
+        "listing": "정본 ID·라벨·고시·출처 증거의 누락을 먼저 로컬 검사하고 보조 판단은 source_check/human_review 경로만 제안하게 한다.",
+        "pricing": "통화·원가·수수료 누락과 비용 계산은 결정적 로컬 검사로 처리한다. 공급자 단가와 실제 잔액·자사 비용을 분리한다.",
+        "legal": "고위험 누락을 통과시킨 오판을 별도 집계하고 법률·게시 승인은 사람이 결정한다. 높은 확률도 승인 근거가 아니다.",
+        "robotics": "허용된 오류/상태 집계로 로컬·출처 확인·사람 검토 경로를 점검한다. 원시 로그·코드·자격증명 전송이나 도구 권한 확대는 하지 않는다.",
+        "design": "참고자료·실물/라벨 검수의 완료/누락 집계만 기존 텍스트 계약에 사용한다. 이미지·Box·긴 문맥을 활성화하지 않는다.",
+        "channels": "게시·고객 발송·결제 게이트의 미충족 상태를 그대로 유지한다. 모델 권고를 실행 승인으로 승격하지 않는다.",
+        "knowledge": "팀별 정상·누락·충돌·불명 사례와 사람이 정한 기대 경로를 로컬 평가표에 기록한다. 향후 허용된 실호출의 응답 모델·지연·토큰·오판을 별도로 기록한다.",
+        "graph": "원본 근거 없는 관계는 unknown으로 보존하고 근거 존재/누락 집계를 평가한다. 모델의 확신을 새 사실이나 관계 증거로 저장하지 않는다."
+      }
+    },
+    {
+      "id": "2026-10-19-shopify-waitlist-team-directive",
+      "date": "2026-10-19",
+      "title": "Shopify 대기자 명단 팀 지시: 비공개 파일럿 명세와 승인 게이트",
+      "source": "youtube_description_and_primary_sources_review",
+      "source_url": "https://www.youtube.com/watch?v=FZe4IOLItpY",
+      "source_urls": [
+        "https://help.shopify.com/en/manual/apps/installing-apps",
+        "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/forms-app/create",
+        "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/forms-app/settings/all-forms"
+      ],
+      "verification_status": "source_review_complete_implementation_not_started",
+      "source_note": "dot 클라우드 브라우저에서 실제 제목·설명·업로더 챕터 확인 및 1차 자료 검토. 자막 본문·영상 프레임·독립 재실행은 검증하지 못했다.",
+      "teams": [
+        "sourcing",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "robotics",
+        "design",
+        "channels",
+        "knowledge",
+        "graph"
+      ],
+      "summary": "채널팀 주도로 상품 옵션 1개의 비공개 대기자/재입고 알림 명세를 만든다. 앱 후보의 기능·요금·권한·해지/삭제와 공식 Forms 대안을 비교하고 재입고 알림 목적과 마케팅 동의를 분리한다. 소싱은 실재고 근거, 리스팅/디자인은 상태별 폼, 법률은 수집 목적/철회, 로보틱스는 합성 데이터 QA, 가격팀은 비용표를 제출한다. 설치·유료 결제·권한 부여·실고객 수집/발송·상품 활성화는 별도 승인 전 하지 않는다.",
+      "team_actions": {
+        "sourcing": "파일럿 후보 1개를 정본 상품 ID와 variant ID에 연결하고 실제 재고·재입고 근거·예정일 미확인을 구분한다. 수요 등록 수를 확정 주문으로 보지 않는다.",
+        "market": "재입고 알림 요청과 일반 마케팅 구독 목적을 분리한 문안을 작성한다. 허위 품절·가짜 대기자 수·확정되지 않은 출시일은 넣지 않는다.",
+        "listing": "품절/출시예정 상태, 정확한 옵션, '알림 신청은 예약·구매 아님' 문구를 초안 명세에 넣는다. 판매·법률 게이트를 유지한다.",
+        "pricing": "필수 기능, 무료 한도, 월/연 결제, 사용량 요금, 해지·데이터 내보내기 조건을 후보별로 비교한다. 이번 지시로 구독하거나 결제하지 않는다.",
+        "legal": "수집 항목·목적·보유기간·철회/삭제 경로·개인정보처리방침·권한을 검토한다. 알림 동의를 다른 마케팅 동의로 간주하지 않는다.",
+        "robotics": "합성 데이터로 정상/중복/잘못된 이메일, 옵션 변경, 해지 후 발송 차단, 중복 이벤트, 재고 0 상태를 테스트할 계획을 작성한다. 실제 고객 발송은 별도 승인 대상이다.",
+        "design": "모바일 폼의 오류·성공·이미 신청·취소 상태와 명확한 옵션 표시를 비공개 초안으로 정의한다. 실제 테마에는 적용하지 않는다.",
+        "channels": "요구사항에 맞는 Shopify 앱 후보와 공식 Forms의 단순 관심 등록 대안을 비교한다. 상품 옵션별 재입고 트리거·중복 방지·해지 억제를 확인하고 앱 설치/권한/실발송은 승인 전 실행하지 않는다.",
+        "knowledge": "결정표·검수자·미확인 사항·파일럿 합격 조건을 기록한다. 내부 브리핑 배포, 앱 설정, 실제 고객 테스트의 증거를 각각 분리한다.",
+        "graph": "정본 상품/옵션 ID와 폼/이벤트 매핑을 설계하되 고객 이메일이나 개인정보는 공개 피드·그래프·모델 상태에 저장하지 않는다."
+      }
     }
   ]
 }
