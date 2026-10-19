@@ -63,6 +63,7 @@ jobs:
           python scripts/test_actions_release_integration.py
           python scripts/test_dependency_pins.py
           python scripts/test_public_site.py
+          node scripts/test_daily_pipeline_display.cjs
           python scripts/test_publish_transaction.py
           python scripts/test_collector_snapshot_history.py
           python -B -m unittest discover -s scripts -p "test_operations_publish_bytes.py"

@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 import subprocess
 import tempfile
@@ -39,6 +40,7 @@ class DailyProjectionTests(unittest.TestCase):
                  'draft_reasons':['quantity_conflict_60g_vs_60mL','selling_price_evidence_pending']},
                 {'pd_no':'1072801','category':'makeup','date':'2026-10-18','status':'DRAFT',
                  'grade':'RANK','source':'daiso_realtime_ranking','title':'Historical ranking draft',
+                 'size':None,
                  'single_usd':24.99,'single_margin_pct':52.5,'images':0,
                  'draft_reasons':['ingredients_missing','no_usable_product_images']},
                 {'pd_no':'1042251','category':'body','date':'2026-10-18','status':'DRAFT',
@@ -56,16 +58,22 @@ class DailyProjectionTests(unittest.TestCase):
             html=(out/'index.html').read_text()
             script=html.split('/* 오늘의 상품 등록 파이프라인:')[1].split('</script>')[0]
             script='/* 오늘의 상품 등록 파이프라인:'+script
+            # This renderer shares its capacity formatter with the history list.
+            formatter=re.search(r'function formatProductSize\([\s\S]*?\n}',html)
+            self.assertIsNotNone(formatter)
+            script=formatter.group(0)+'\n'+script
             script=script.replace('renderDailyPipeline();\nsetInterval(renderDailyPipeline,300000);','')
             data=json.loads((out/'data/shopify_daily_registry.json').read_text())
             observed_data=json.loads((out/'data/shopify_public_observations.json').read_text())
             self.assertTrue(all('private_id' not in r for r in observed_data['items']))
             self.assertTrue(all('shopify_observation' not in r for r in data['items']))
             self.assertTrue(all(r['status']=='DRAFT' for r in data['items']))
+            self.assertEqual(data['items'][1]['size'], {})
             js=r'''
 const assert=require('assert');
 class Element {
- constructor(tag){this.tag=tag;this.children=[];this.className='';this.style={};this._text='';this.classList={toggle(){}};}
+ constructor(tag){this.tag=tag;this.children=[];this.className='';this.style={};this.attributes={};this._text='';this.classList={toggle(){}};}
+ setAttribute(name,value){this.attributes[name]=String(value);}
  set textContent(v){this._text=v;this.children=[];} get textContent(){return this._text;}
  appendChild(c){c.parentNode=this;this.children.push(c);return c;}
  insertBefore(c,other){c.parentNode=this;this.children.splice(this.children.indexOf(other),0,c);}
@@ -82,6 +90,9 @@ SCRIPT
 (async()=>{
  await renderDailyPipeline();
  assert.equal(ids['dp-grid'].children.length,3);
+ const details=ids['dp-grid'].children[1].children.find(e=>e.className==='dp-detail');
+ const capacity=details.children.find(e=>e.children[0].textContent==='용량');
+ assert.equal(capacity.children[1].textContent,'표기 없음');
  let states=ids['dp-grid'].children.map(c=>c.children.find(e=>e.className==='dp-steps').children.map(e=>e.className));
  if(OBSERVED){
   assert.deepEqual(states[0],['dp-step done','dp-step wait','dp-step queued','dp-step done','dp-step done']);
