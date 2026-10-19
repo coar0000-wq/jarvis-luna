@@ -95,4 +95,65 @@ class WiringTests(unittest.TestCase):
         self.assertIn('secretary["jev_advisory"]',text)
         self.assertNotIn('typesafe_team_advisory.json',(ROOT/'scripts/build_listing_gate.py').read_text(encoding='utf-8'))
 
+    def test_jev_114_text_pin_and_new_ledger_binding(self):
+        import typesafe_decision_support as listing
+        import evaluate_team_typesafe as team
+        self.assertEqual(team.MODEL, 'jev-1.14.0')
+        self.assertEqual(listing.MODEL, 'jev-1.14.0')
+        self.assertEqual(team.MODEL_POLICY_VERSION, 'jarvis-jev-1.14-text-v1')
+        for name in ('JARVIS-Deep-Analysis.yml', 'shopify-listing-copy.yml'):
+            doc = yaml.safe_load((WF/name).read_text(encoding='utf-8'))
+            env = next(iter(doc['jobs'].values()))['env']
+            self.assertEqual(env['TYPESAFE_MODEL'], team.MODEL)
+            self.assertEqual(env['TYPESAFE_MODEL_POLICY_VERSION'], team.MODEL_POLICY_VERSION)
+        captured = {}
+        def adapter(payload, **kwargs):
+            captured.update(payload)
+            return {'source': 'deterministic_local', 'mode': 'offline_test'}
+        with patch.dict(os.environ, {}, clear=True), patch.object(listing, 'evaluate_typed', adapter):
+            listing.evaluate({'name': '한국어 확인: 근거가 없으면 사람 검토', 'public_blocked_by': ['legal']})
+        self.assertEqual(captured['model'], team.MODEL)
+        self.assertEqual(captured['model_policy_version'], team.MODEL_POLICY_VERSION)
+        self.assertEqual(set(q['type'] for q in captured['questions'].values()), {'choice', 'score'})
+
+    def test_jev_114_transport_has_no_experimental_opt_ins(self):
+        import typesafe_decision_support as listing
+        import typesafe_shared as shared
+        from unittest.mock import MagicMock
+        p = {'model': 'jev-1.14.0', 'state': {'text': '근거 없음: 보류'},
+             'question_version': 'offline-korean-v1', 'model_policy_version': 'jarvis-jev-1.14-text-v1',
+             'questions': {'present': {'type': 'noul', 'instructions': '근거가 있는가?'}}}
+        valid = {'model': 'jev-1.14.0', 'usage': {'input_tokens': 5, 'output_tokens': 1},
+                 'answers': {'present': {'noul': 0.0}}}
+        shared.validate_response(valid, p)
+        with self.assertRaisesRegex(shared.SafetyStop, 'response_model_mismatch'):
+            shared.validate_response({**valid, 'model': 'jev-1.13.0'}, p)
+        with self.assertRaisesRegex(shared.SafetyStop, 'unsupported_type'):
+            shared.validate_payload({**p, 'questions': {'box': {'type': 'box', 'instructions': 'Find'}}})
+        with self.assertRaisesRegex(shared.SafetyStop, 'invalid_payload_contract'):
+            shared.validate_payload({**p, 'assets': {'image': 'https://example.invalid/image'}})
+        reply = MagicMock(); reply.read.return_value = json.dumps(valid).encode(); reply.status = 200
+        reply.headers = {}; reply.__enter__.return_value = reply
+        with patch.object(listing.urllib.request, 'urlopen', return_value=reply) as call:
+            listing._request({k:v for k,v in p.items() if k not in {'question_version','model_policy_version'}}, 'offline-dummy')
+        request = call.call_args.args[0]
+        self.assertFalse(any('danger-zone' in k.lower() for k in request.headers))
+        self.assertEqual(json.loads(request.data)['state']['text'], '근거 없음: 보류')
+        self.assertNotIn('assets', json.loads(request.data))
+
+    def test_jev_release_shared_with_all_existing_roles_without_runtime_claim(self):
+        import evaluate_team_typesafe as team
+        import build_team_learning as learning
+        doc = json.loads((ROOT/'data/manual/team_youtube_insights.json').read_text())
+        item = next(x for x in doc['insights'] if x['id'] == 'JEV-20261019-114-TEXT')
+        self.assertEqual(set(item['teams']), set(team.TEAMS))
+        self.assertEqual(item['runtime_status'], 'not_called_for_this_update')
+        self.assertFalse(item['evidence']['mapping_verified'])
+        self.assertIsNone(item['evidence']['timestamp'])
+        for role in team.TEAMS:
+            self.assertIn(role, learning.brief(item, {})['teams'])
+        briefings = json.loads((ROOT/'data/manual/team_briefings.json').read_text())
+        entry = next(x for x in briefings['items'] if x['id'] == '2026-10-19-jev-1-14-text-upgrade')
+        self.assertEqual(set(entry['team_actions']), set(team.TEAMS))
+
 if __name__=='__main__':unittest.main(verbosity=2)

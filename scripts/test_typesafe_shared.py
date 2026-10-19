@@ -45,6 +45,30 @@ class SharedTests(unittest.TestCase):
         return response(p,k)
     def runone(self,p=None,fn=None):
         return t.evaluate_typed(payload() if p is None else p,request_fn=fn or self.request)
+    def test_114_migration_preserves_old_cache_and_cumulative_ledger(self):
+        old = payload()
+        old['model_policy_version'] = 'jarvis-jev-alias-v1'
+        self.assertEqual(self.runone(old)['source'], 'typesafe')
+        before = json.loads(self.path.read_text())
+        new = copy.deepcopy(old)
+        new.update(model='jev-1.14.0', model_policy_version='jarvis-jev-1.14-text-v1')
+        def upgraded(p, key):
+            self.calls += 1
+            return {**response(), 'model': 'jev-1.14.0'}
+        out = self.runone(new, upgraded)
+        self.assertEqual(out['source'], 'typesafe')
+        self.assertEqual(out['model'], 'jev-1.14.0')
+        after = json.loads(self.path.read_text())
+        self.assertEqual(self.calls, 2)
+        self.assertGreater(after['account_charged_tokens'], before['account_charged_tokens'])
+        for key, value in before['cache'].items():
+            self.assertEqual(after['cache'][key], value)
+        for key, value in before['versions'].items():
+            self.assertEqual(after['versions'][key], value)
+        self.assertEqual(after['workflows']['shared']['calls'], 2)
+        self.assertEqual(self.runone(new, upgraded)['source'], 'typesafe_cache')
+        self.assertEqual(self.calls, 2)
+
     def test_success_cache_and_timestamp(self):
         self.assertEqual(self.runone()['source'],'typesafe')
         p=payload(); p['state']['observed_at']='new observation'

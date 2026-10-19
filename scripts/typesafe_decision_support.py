@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 from typing import Any
 
 ENDPOINT = "https://api.typesafe.ai/v1/systemone"
-MODEL = os.environ.get("TYPESAFE_MODEL", "jev-latest").strip() or "jev-latest"
+MODEL = os.environ.get("TYPESAFE_MODEL", "jev-1.14.0").strip() or "jev-1.14.0"
 TIMEOUT = float(os.environ.get("TYPESAFE_TIMEOUT_SEC", "20"))
 MAX_INPUT_CHARS = int(os.environ.get("TYPESAFE_MAX_INPUT_CHARS", "12000"))
 
@@ -232,7 +232,7 @@ def evaluate(context: dict[str, Any]) -> dict[str, Any]:
     fallback = local_advisory(context)
     payload = _payload(context)
     payload['question_version'] = os.environ.get('TYPESAFE_QUESTION_VERSION', 'jarvis-listing-v1')
-    payload['model_policy_version'] = os.environ.get('TYPESAFE_MODEL_POLICY_VERSION', 'jarvis-jev-alias-v1')
+    payload['model_policy_version'] = os.environ.get('TYPESAFE_MODEL_POLICY_VERSION', 'jarvis-jev-1.14-text-v1')
     result = evaluate_typed(payload, request_fn=_request)
     if result['source'] not in ('typesafe', 'typesafe_cache'):
         fallback['mode'] = result['mode']
