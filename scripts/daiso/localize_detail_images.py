@@ -316,7 +316,6 @@ def ocr_line(rgb, box, *, deadline: float | None = None) -> tuple[str, float]:
         raise RuntimeError("ocr_budget_exhausted")
     h, w = rgb.shape[:2]
     x0, y0, x1, y1 = max(0, box[0] - 4), max(0, box[1] - 4), min(w, box[2] + 4), min(h, box[3] + 4)
-    import numpy as np  # noqa: PLC0415
 
     from PIL import ImageOps  # noqa: PLC0415
 
