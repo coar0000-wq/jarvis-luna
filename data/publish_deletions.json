@@ -298,21 +298,6 @@
       "delete_file": false
     },
     {
-      "path": "data/daiso_real/shortlist_observations.json",
-      "base_sha256": "9c5abf48dfde4acb145f71bed0d276534f8e35724a2a9bf4df1e6502c1ed49b6",
-      "replacement_sha256": "3f9444e1ca402e43844dbdb794d20ad13361eb9b2e5ac066ae1226273faef8be",
-      "ids": [
-        "1049275",
-        "1049276",
-        "CP000106",
-        "CP000107"
-      ],
-      "policy_ref": "scripts/shortlist_observation_history.py",
-      "delete_file": false,
-      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained.",
-      "scope_evidence_sha256": "28f9ebeb3f734c05735468914c4005bc40d6aa138663a29c74b3c99443509f88"
-    },
-    {
       "path": "data/serpapi_market.json",
       "base_sha256": "44c57a081db0cdb558079520d377a65721d15e89938bbcb22bfef0565d4c5400",
       "ids": [
@@ -435,6 +420,39 @@
         "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEZzblpwWUE2bEd1Qm1ZOUtWRGhkM2Rhci1CUF92cmE3Qm9wcXk1TlI3dllGTFlfakxQdXdaazlCY2JMdmlwVm1MWWNRQ0RTRjZfOW1lS2lnRHBjNnlqY2pYSktJWlZCeWlkN2lLVlV2bVdzYzduRjE0eW9TNEcyenBmdjFlUXVzYmxuaTN2bm1HdTdLNUtMU2pWRlB3T0R5ejM0VEozVQ?oc=5",
         "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcWwyZHpFalJpdTUwRnpWYkJnLWVqNFI4bWFsTGUwNkhpNnVKSVVZbVl2SGV5eEs3SkYtTTQ0a2VfSHZjSVMwbGx2UTF5UTVDdVJoX3g2X2g0X2lPVnhvSmYwR2l6ZE9EVFBNZ290a0s3X3g1ckNIcUNIUmpYU1FudFpZek42MVVuSGxDOWN1c3dJNENGcFRhTEtZeXJiMUcxS0NnUFM3TVlGb2tE?oc=5",
         "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX3dLNFQ4a25RNG9DcUptZVlBUmhVWG1lbkFGbUF5VGtLaVRRajQwVnNyM29id1MwRWNKU29Ma2VUXzh0dkhqNGhDNnlqVnROLXFFaHRsTUVMOVQ4dXZJZks0bmRqdmZHQ2dMZjdJVkdFSndqVmNKUWlWYndjeERzRWVfc2lST0N0cFRHN2phNm5EcHlLTnpMZkN6cWtwRmJpbm1YRmdjNDBpTUsyTmtnVVNBb2c4b0lGdVBPMkd4U285SEpWa3RPeQ?oc=5"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "125ca4e05cb6885726b251166137efe4b5930bbc25d40a3ec4b3eff82b560fcb",
+      "ids": [
+        "action:intent:task_0c98e32173194dc5bc7ed7b758a67f8fb218c86f2005037fc361ee244ea645b1",
+        "action:intent:task_ea5711b3a0806c3e356a45aef19e0455bce14c086d5fbd73d06bf8e0bdebaaeb",
+        "relation:301ff642dc09761e2c6cb059",
+        "relation:bd2f0ef92442298bb19f1e97",
+        "relation:ed2cc66485e092c806ad8d45",
+        "relation:f57fc17b9a24d1ba205cbe2a"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "043a03eb83ff85e769f415460ff577dafeef699a88ea96954b4b8faa3eb6ddab",
+      "ids": [
+        "STALE_SOURCE_CAPTURE",
+        "url:01fefc296885a00bcb13a69da14c9ee469a82aa4e16b5269ef83f604000eff0d",
+        "url:203b9da23e4f66f1965b419f0bfada0d078af1ecd596f4feb8484faccef41397",
+        "url:76354bb4c7c54c7939b400ca5b4d8e0ec05744a743b9276f358d2dbf8a559114",
+        "url:7ef22258abe9b4e4b9b094e9a9c29cfe9c27561594ef95ede9630e86bcceb76a",
+        "url:b04092d74bd0c5722fd5f6add8d55f0d54b6d7a9a2292ad3638a812a3f9cbf2d",
+        "url:b5ba127fbbe1b4779fe8e8f2f26f28fa8c6fc8e978886d367ffd8a0e0ad3fc62",
+        "url:b617a12922fe71dd4ed8052e628ab7aa07f1ba76b1454391643e80eb5087c6e0",
+        "url:f40f97f834d102b9372f0176790817d7d21c2f93d85de5335bb47713bc82afcf"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

@@ -2,9 +2,9 @@
 title: "Shopify Store"
 type: store
 status: generated-from-jarvis-data
-updated_at: 2026-10-19T01:59:16.043243+00:00
+updated_at: 2026-10-19T11:27:46.449027+00:00
 live: 2
-registered_total: 11
+registered_total: 13
 ---
 
 # Shopify Store
@@ -24,3 +24,5 @@ registered_total: 11
 | 플루365 바디 스크럽 100 g 코튼머스크 향 | body | 2026-10-17 | DRAFT | 18.99 | 47.2 |
 | 줌 바이 정샘물 메이크업 픽서 50 ml | makeup | 2026-10-18 | DRAFT | 24.99 | 52.5 |
 | 플루365 바디 스크럽 100 g 라즈베리 향 | body | 2026-10-18 | DRAFT | 18.99 | 47.2 |
+| [[1074979 01 페일화이트 밀크터치 디어씽 페이스 컨투어 크림 브라이트너]] | makeup | 2026-10-19 | DRAFT | 16.64 | 40.0 |
+| 46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml | body | 2026-10-19 | DRAFT | 22.23 | 40.0 |

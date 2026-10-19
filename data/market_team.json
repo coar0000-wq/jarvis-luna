@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-19T12:32:36.788388+09:00",
+    "updated_at": "2026-10-19T20:27:55.188243+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1203,6 +1203,16 @@
         "title": "Jev 1.14 텍스트 판단 업데이트와 실험 기능 제한",
         "date": "2026-10-19",
         "market": "기존 텍스트 Choice/Score/Noul 보조 판단만 사용한다. 새 모델의 실제 응답 버전과 한국어 경계 사례를 확인하기 전 성능 개선을 단정하지 않는다. 이미지·Box·긴 문맥을 켜거나 법률·가격·게시·결제·오너 승인을 모델 판단으로 대체하지 않는다."
+      },
+      {
+        "title": "Jev 비교 영상 팀 지시: 기존 텍스트 판단 + 팀별 경계 사례 검증",
+        "date": "2026-10-19",
+        "market": "한국어 반어·혼합 평가를 사람이 표시한 로컬 평가 사례로 준비한다. 현재 공유 API에는 고객 리뷰 원문을 추가 전송하지 않는다."
+      },
+      {
+        "title": "Shopify 대기자 명단 팀 지시: 비공개 파일럿 명세와 승인 게이트",
+        "date": "2026-10-19",
+        "market": "재입고 알림 요청과 일반 마케팅 구독 목적을 분리한 문안을 작성한다. 허위 품절·가짜 대기자 수·확정되지 않은 출시일은 넣지 않는다."
       }
     ]
   },
@@ -1792,8 +1802,8 @@
     "trust_note": "",
     "live_channels": [
       "amazon_best_sellers",
-      "amazon_new_beauty",
       "sokoglam_us",
+      "amazon_new_beauty",
       "ulta_beauty"
     ],
     "s_count": 7,

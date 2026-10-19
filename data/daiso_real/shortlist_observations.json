@@ -63,14 +63,7 @@
       }
     }
   ],
-  "attempts": [
-    {
-      "kind": "offline_reconciliation",
-      "http_attempts": 0,
-      "reason": "current_owned_inputs_cached_captures_only",
-      "previous_observation_sha256": "e0a1217f04e4a75bd0f5ab3cdf25c367c1ec3922d0b83a793ee6a478e6015cab"
-    }
-  ],
+  "attempts": [],
   "http_attempt_count": 0,
   "new_success_ids": [],
   "failed_ids": [],
@@ -84,34 +77,34 @@
   "catalog_count": 356,
   "registry_count": 357,
   "input_hashes_before": {
-    "data/product_master.json": "7be5b2747459f817bd2facff22b19c9e60ea670202ecf38c06ef626c25551a82",
+    "data/product_master.json": "992166d07b5083dd15947b1131864c980054ab35df2136b0c47787ff23a05797",
     "data/daiso_real/products.json": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
-    "data/daiso_real/collection_status.json": "27f77cedaf0fc15f6ca3ce3e4fe8f1eeb3c800ce2d5688fc1f00efee996eec7b",
-    "data/daiso_real/shopify_s_recommendations.json": "ddee24d07214216fe32823de8a5a3e31aad7fa3b357483000e4a05863629261a",
-    "data/shopify_shortlist.json": "84a07386a9603b02033c676f53e7e1c037bae20d56f47d81adf5750ade1cdd2a",
-    "data/listing_gate.json": "0362be32cf93cf5f6564efa2f04db61b1aa697bd905bfae3f1ff5a8e365a4eea",
-    "data/legal_full.json": "1f5d7937946241c23a0a280852ff45409951ba48b128bad8c4a9f2d95a777954",
-    "data/legal_products.json": "1ac474db012481095fa3abe9dc05e1187e125b7f3afcf1890b6429a69aeba8c5",
-    "data/pricing_model.json": "6f2e1ba56998ff1628a1f18026aac36267e0c94d1b6f4884442353e724b080b1",
-    "data/mocra_readiness.json": "2fe9ea7711ea324b89fa309aca468d164a5742d060517205ac4593ef2a2b6acc",
-    "data/shopify_listing_copy.json": "81dc8a414b18dff4029b85336a647f6eb022df5e2ed207fa991293a6366fc2f5",
-    "data/shopify_action_queue.json": "abe7bb8ff67f61752ecbaebc638b171e20ad57b02c64ab907007c38b0d68e5e1",
+    "data/daiso_real/collection_status.json": "be6f0fa0bda1d5683f4c6c389613c8b905913caa4473b7576e5930e0192acea5",
+    "data/daiso_real/shopify_s_recommendations.json": "f4346ff8aab33e0fa40f2f81a302ce32f6fa71d01b0cf54c1d186ef536bc38b6",
+    "data/shopify_shortlist.json": "5a0c909e163b45ab399081f8b53d651d6dceb6683c6075d9204ab960860e70df",
+    "data/listing_gate.json": "0f97779052eb5a848e42844f3654cd276d8b3580ebeea23202182182660bdd54",
+    "data/legal_full.json": "c83b03901bb1c97a3c710b8e83edf71f99501f158889b72515b21456a80e1f23",
+    "data/legal_products.json": "c7d36a92454d5131a76514f2dc508129dd7d4ae4d8fc4e505604ba136f551397",
+    "data/pricing_model.json": "47e61969fbc93fc0cf64b5070a675f58946f73660edf7687723857678380d8ee",
+    "data/mocra_readiness.json": "a805f8b605fce1a4c6c5fa51cc45976774f080d0e2baeccbeebb830f40f6b0e7",
+    "data/shopify_listing_copy.json": "30fdfcce95396be0e3143eaddb4c2e85e836027aa07e7d2525f9677208b55f40",
+    "data/shopify_action_queue.json": "3e29fa4588875d4ff99bb792e84dcc8ddb96dc905be102bd03d80174e4393378",
     "data/daiso_real/candidate_pool.json": "d8344d459fe3f41c4f94cf55a84ab2ec5a46184a23ce9e46957176732bcbb894",
     "data/daiso_real/candidate_observations.json": "17aba410dfe180b66337a6fc40fcf6b477a1ecbb38cb7bdc0dc89231e04bc0c3"
   },
   "input_hashes_after": {
-    "data/product_master.json": "7be5b2747459f817bd2facff22b19c9e60ea670202ecf38c06ef626c25551a82",
+    "data/product_master.json": "992166d07b5083dd15947b1131864c980054ab35df2136b0c47787ff23a05797",
     "data/daiso_real/products.json": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
-    "data/daiso_real/collection_status.json": "27f77cedaf0fc15f6ca3ce3e4fe8f1eeb3c800ce2d5688fc1f00efee996eec7b",
-    "data/daiso_real/shopify_s_recommendations.json": "ddee24d07214216fe32823de8a5a3e31aad7fa3b357483000e4a05863629261a",
-    "data/shopify_shortlist.json": "84a07386a9603b02033c676f53e7e1c037bae20d56f47d81adf5750ade1cdd2a",
-    "data/listing_gate.json": "0362be32cf93cf5f6564efa2f04db61b1aa697bd905bfae3f1ff5a8e365a4eea",
-    "data/legal_full.json": "1f5d7937946241c23a0a280852ff45409951ba48b128bad8c4a9f2d95a777954",
-    "data/legal_products.json": "1ac474db012481095fa3abe9dc05e1187e125b7f3afcf1890b6429a69aeba8c5",
-    "data/pricing_model.json": "6f2e1ba56998ff1628a1f18026aac36267e0c94d1b6f4884442353e724b080b1",
-    "data/mocra_readiness.json": "2fe9ea7711ea324b89fa309aca468d164a5742d060517205ac4593ef2a2b6acc",
-    "data/shopify_listing_copy.json": "81dc8a414b18dff4029b85336a647f6eb022df5e2ed207fa991293a6366fc2f5",
-    "data/shopify_action_queue.json": "abe7bb8ff67f61752ecbaebc638b171e20ad57b02c64ab907007c38b0d68e5e1",
+    "data/daiso_real/collection_status.json": "be6f0fa0bda1d5683f4c6c389613c8b905913caa4473b7576e5930e0192acea5",
+    "data/daiso_real/shopify_s_recommendations.json": "f4346ff8aab33e0fa40f2f81a302ce32f6fa71d01b0cf54c1d186ef536bc38b6",
+    "data/shopify_shortlist.json": "5a0c909e163b45ab399081f8b53d651d6dceb6683c6075d9204ab960860e70df",
+    "data/listing_gate.json": "0f97779052eb5a848e42844f3654cd276d8b3580ebeea23202182182660bdd54",
+    "data/legal_full.json": "c83b03901bb1c97a3c710b8e83edf71f99501f158889b72515b21456a80e1f23",
+    "data/legal_products.json": "c7d36a92454d5131a76514f2dc508129dd7d4ae4d8fc4e505604ba136f551397",
+    "data/pricing_model.json": "47e61969fbc93fc0cf64b5070a675f58946f73660edf7687723857678380d8ee",
+    "data/mocra_readiness.json": "a805f8b605fce1a4c6c5fa51cc45976774f080d0e2baeccbeebb830f40f6b0e7",
+    "data/shopify_listing_copy.json": "30fdfcce95396be0e3143eaddb4c2e85e836027aa07e7d2525f9677208b55f40",
+    "data/shopify_action_queue.json": "3e29fa4588875d4ff99bb792e84dcc8ddb96dc905be102bd03d80174e4393378",
     "data/daiso_real/candidate_pool.json": "d8344d459fe3f41c4f94cf55a84ab2ec5a46184a23ce9e46957176732bcbb894",
     "data/daiso_real/candidate_observations.json": "17aba410dfe180b66337a6fc40fcf6b477a1ecbb38cb7bdc0dc89231e04bc0c3"
   },
@@ -1390,13 +1383,32 @@
         "request_history_sha256": "afc38404a2733024d4e59c13d7062f005f8dc4fd962a02d832275f168af31781"
       },
       "status": "complete"
+    },
+    {
+      "attempts": [
+        {
+          "kind": "offline_reconciliation",
+          "http_attempts": 0,
+          "reason": "current_owned_inputs_cached_captures_only",
+          "previous_observation_sha256": "e0a1217f04e4a75bd0f5ab3cdf25c367c1ec3922d0b83a793ee6a478e6015cab"
+        }
+      ],
+      "budget_checkpoint": {
+        "total_http_attempts": 37,
+        "last_run_attempt_at": "2026-10-18T19:50:53.120992+00:00",
+        "last_request_at": "2026-10-18T19:51:53.121374+00:00",
+        "last_checked_at": "2026-10-19T01:59:17.993773+00:00",
+        "policy_version": 2,
+        "request_history_sha256": "afc38404a2733024d4e59c13d7062f005f8dc4fd962a02d832275f168af31781"
+      },
+      "status": "cached"
     }
   ],
   "budget_checkpoint": {
     "total_http_attempts": 37,
     "last_run_attempt_at": "2026-10-18T19:50:53.120992+00:00",
     "last_request_at": "2026-10-18T19:51:53.121374+00:00",
-    "last_checked_at": "2026-10-19T01:59:17.993773+00:00",
+    "last_checked_at": "2026-10-19T05:05:18.919589+00:00",
     "policy_version": 2,
     "request_history_sha256": "afc38404a2733024d4e59c13d7062f005f8dc4fd962a02d832275f168af31781"
   }

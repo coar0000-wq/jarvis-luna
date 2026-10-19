@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/build_beauty_price_strategy.py",
   "status": "advisory_unreviewed",
-  "as_of": "2026-10-19T03:32:37.295110Z",
+  "as_of": "2026-10-19T11:27:55.437215Z",
   "suggested_output_path": "data/beauty_price_strategy.json",
   "policy": {
     "network_calls": false,
@@ -82,7 +82,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-19T03:32:35.854263+00:00",
+        "timestamp": "2026-10-19T11:27:54.633773+00:00",
         "record_count": 356
       },
       {
@@ -92,7 +92,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-19T03:32:36.395401+00:00",
+        "timestamp": "2026-10-19T11:27:54.954400+00:00",
         "record_count": 356
       },
       {
@@ -112,7 +112,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-19T03:32:36.010411+00:00",
+        "timestamp": "2026-10-19T11:27:54.728112+00:00",
         "record_count": null
       },
       {
@@ -123,7 +123,7 @@
         "loaded": true,
         "error": null,
         "timestamp": null,
-        "record_count": 11
+        "record_count": 13
       },
       {
         "key": "queue",
@@ -132,7 +132,7 @@
         "present": true,
         "loaded": true,
         "error": null,
-        "timestamp": "2026-10-19T03:32:37.027607+00:00",
+        "timestamp": "2026-10-19T11:27:55.333243+00:00",
         "record_count": 0
       },
       {
@@ -331,7 +331,7 @@
         "channel": "oliveyoung_us",
         "present": true,
         "collected_at": "2026-10-03T11:42:15.459821+00:00",
-        "age_hours": 375.84,
+        "age_hours": 383.76,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -346,7 +346,7 @@
         "channel": "sokoglam_us",
         "present": true,
         "collected_at": "2026-10-18T22:35:58.723367+00:00",
-        "age_hours": 4.94,
+        "age_hours": 12.87,
         "verified": true,
         "reasons": [],
         "items_total": 234,
@@ -358,7 +358,7 @@
         "channel": "sephora",
         "present": true,
         "collected_at": "2026-10-18T22:35:54.368558+00:00",
-        "age_hours": 4.95,
+        "age_hours": 12.87,
         "verified": false,
         "reasons": [
           "unverified_or_stale_source"
@@ -372,7 +372,7 @@
         "channel": "ulta_beauty",
         "present": true,
         "collected_at": "2026-10-18T22:35:54.368558+00:00",
-        "age_hours": 4.95,
+        "age_hours": 12.87,
         "verified": true,
         "reasons": [],
         "items_total": 114,
@@ -384,7 +384,7 @@
         "channel": "walmart_beauty",
         "present": true,
         "collected_at": "2026-09-15T11:19:23.782Z",
-        "age_hours": 808.22,
+        "age_hours": 816.14,
         "verified": false,
         "reasons": [
           "stale_by_age",
@@ -399,7 +399,7 @@
         "channel": "amazon_best_sellers",
         "present": true,
         "collected_at": "2026-10-18T22:35:54.365561+00:00",
-        "age_hours": 4.95,
+        "age_hours": 12.87,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -411,7 +411,7 @@
         "channel": "amazon_new_beauty",
         "present": true,
         "collected_at": "2026-10-18T22:35:54.367738+00:00",
-        "age_hours": 4.95,
+        "age_hours": 12.87,
         "verified": true,
         "reasons": [],
         "items_total": 46,
@@ -423,7 +423,7 @@
         "channel": "amazon_movers_beauty",
         "present": true,
         "collected_at": "2026-10-18T22:35:54.367423+00:00",
-        "age_hours": 4.95,
+        "age_hours": 12.87,
         "verified": false,
         "reasons": [
           "no_items"
@@ -741,7 +741,7 @@
         "missing": 51
       },
       "quantity_usable": 15,
-      "english_identity_available": 0,
+      "english_identity_available": 1,
       "comparator_tiers": {
         "qualified": 0,
         "provisional": 0,
@@ -1145,7 +1145,7 @@
             "price_usd": 23.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-19T03:32:36.010411+00:00"
+            "observed_on": "2026-10-19T11:27:54.728112+00:00"
           }
         ],
         "conflict": true,
@@ -1232,7 +1232,7 @@
           "median_usd": 24.99,
           "max_usd": 55.99,
           "freshness": "fresh",
-          "age_hours": 23.89,
+          "age_hours": 31.81,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1410,7 +1410,7 @@
             "price_usd": 19.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-19T03:32:36.010411+00:00"
+            "observed_on": "2026-10-19T11:27:54.728112+00:00"
           }
         ],
         "conflict": false,
@@ -1448,7 +1448,7 @@
           "median_usd": 20.17,
           "max_usd": 150.0,
           "freshness": "fresh",
-          "age_hours": 23.89,
+          "age_hours": 31.81,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -1633,7 +1633,7 @@
             "price_usd": 18.32,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-19T03:32:36.010411+00:00"
+            "observed_on": "2026-10-19T11:27:54.728112+00:00"
           }
         ],
         "conflict": false,
@@ -1832,7 +1832,7 @@
             "price_usd": 31.99,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-19T03:32:36.010411+00:00"
+            "observed_on": "2026-10-19T11:27:54.728112+00:00"
           }
         ],
         "conflict": true,
@@ -1884,7 +1884,7 @@
           "median_usd": 33.38,
           "max_usd": 88.0,
           "freshness": "fresh",
-          "age_hours": 23.89,
+          "age_hours": 31.81,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -2059,7 +2059,7 @@
             "price_usd": 19.63,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-19T03:32:36.010411+00:00"
+            "observed_on": "2026-10-19T11:27:54.728112+00:00"
           }
         ],
         "conflict": false,
@@ -2091,7 +2091,7 @@
           "median_usd": 8.89,
           "max_usd": 8.89,
           "freshness": "fresh",
-          "age_hours": 23.89,
+          "age_hours": 31.81,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -20457,7 +20457,7 @@
             "price_usd": 19.63,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-19T03:32:36.010411+00:00"
+            "observed_on": "2026-10-19T11:27:54.728112+00:00"
           }
         ],
         "conflict": false,
@@ -20489,7 +20489,7 @@
           "median_usd": 26.99,
           "max_usd": 88.0,
           "freshness": "fresh",
-          "age_hours": 23.89,
+          "age_hours": 31.81,
           "qualified": false,
           "not_used_because": [
             "aggregate_not_item_level",
@@ -20607,7 +20607,7 @@
       "pd_no": "1074979",
       "canonical_product_id": "CP000267",
       "name_ko": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
-      "name_en": null,
+      "name_en": "밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
       "category": "makeup",
       "bucket_ko": "스킨케어",
       "category_daiso_name": "메이크업",
@@ -20667,7 +20667,7 @@
             "price_usd": 16.64,
             "source": "pricing_model.json",
             "status": "recommendation_not_a_listing",
-            "observed_on": "2026-10-19T03:32:36.010411+00:00"
+            "observed_on": "2026-10-19T11:27:54.728112+00:00"
           }
         ],
         "conflict": false,
@@ -20677,8 +20677,15 @@
         "live_fresh": false
       },
       "market": {
-        "english_identity_available": false,
-        "identity_tokens": [],
+        "english_identity_available": true,
+        "identity_tokens": [
+          "디어씽",
+          "밀크터치",
+          "브라이트너",
+          "컨투어",
+          "크림",
+          "페이스"
+        ],
         "qualified_lowest": null,
         "provisional_lowest": null,
         "tier_counts": {
@@ -20689,7 +20696,7 @@
         "reference_only": [],
         "near_misses": [],
         "rejected_counts": {
-          "own_english_identity_missing": 608
+          "identity_mismatch": 608
         },
         "aggregate_reference": null
       },
@@ -20776,7 +20783,9 @@
         }
       },
       "variant_group": "VG-CP000267",
-      "flags": [],
+      "flags": [
+        "inactive_registry_entry_present"
+      ],
       "priority_rank": 6,
       "live_selection_preview": {
         "eligible_by_grade_and_gates": false,
@@ -29775,7 +29784,7 @@
             "title": "Carry exact unit, pack count and total into titles/variants; add English identity for products that lack one",
             "state": "input_required",
             "blocked_on": [
-              "english_identity_missing_for_189_products"
+              "english_identity_missing_for_188_products"
             ],
             "evidence_required": [
               "English title with brand, line, variant and size",
