@@ -71,6 +71,8 @@ jobs:
           python -B scripts/test_document_handoffs.py
           python scripts/test_release_quality.py
           python scripts/test_collector_result.py
+          python scripts/test_gosi_recovery_workflow.py
+          python scripts/test_source_health_access.py
           python scripts/test_typesafe_shared.py
           python scripts/test_team_typesafe.py
           python scripts/test_typesafe_receipt.py

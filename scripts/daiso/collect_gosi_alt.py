@@ -252,7 +252,7 @@ def apply_alt(row, alt, responses, pd_no, scope):
         if observe_field(row, field, value, evidence): filled.append(field)
     return filled
 
-def main() -> int:
+def main(*, check_access_only: bool = False) -> int:
     doc = json.loads(GOSI.read_text(encoding='utf-8-sig'))
     items = validate_document(doc)
     try:
@@ -262,6 +262,10 @@ def main() -> int:
         # '고시 누락'과 '공급자 접근 중단'을 구별할 수 없다. 대기 정책은 유지한다.
         print(f"GOSI_COLLECTION_BLOCKED: {exc}", file=sys.stderr)
         return 2
+    if check_access_only:
+        # Read-only orchestration precheck; no browser import, request, or
+        # persisted stop/history changes, including when no collection is due.
+        return 0
     from playwright.sync_api import sync_playwright
     todo = targets()
     if not todo: return 0
@@ -348,4 +352,4 @@ def main() -> int:
     return 0
 
 if __name__ == '__main__':
-    raise SystemExit(main())
+    raise SystemExit(main(check_access_only=sys.argv[1:] == ['--check-access-only']))
