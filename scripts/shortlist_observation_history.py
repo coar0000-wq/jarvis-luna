@@ -2,7 +2,7 @@
 
 Source identities/captures, request reservations and budgets are never exempted.
 Only latest-attempt/derived ID lists may move once their exact prior bytes and
-capture/attempt histories are retained. No network, bootstrap or clock refresh.
+capture/attempt histories are retained. No network, bootstrap or source-capture clock refresh.
 """
 from __future__ import annotations
 from copy import deepcopy
@@ -208,6 +208,54 @@ def verify_final_scope(root, evidence):
     for digest, raw in evidence['archives'].items():
         if read_exact(root, HISTORY + '/' + digest + '.json', digest) != raw:
             raise ValueError('shortlist_final_scope_archive_changed')
+
+
+def reconcile_restored(root):
+    """Reproject restored captures after commerce changes, without source reads.
+
+    The original observation/ledger remain exact immutable evidence. A new,
+    explicitly offline cache evaluation binds current inputs; it never rewrites
+    the original input hashes or pretends that a source capture was refreshed.
+    Direct preserve() and the publisher keep their strict byte checks.
+    """
+    from scripts.daiso import observe_shortlist as observer
+    from scripts.source_safety_checkpoint import _validate, _nonregression
+    root = Path(root).absolute()
+    output = safe_path(root, OUTPUT).read_bytes()
+    ledger = safe_path(root, LEDGER).read_bytes()
+    base, base_ledger = exact_head(root, OUTPUT), exact_head(root, LEDGER)
+    if not scope_changed(base, output):
+        return preserve(root)
+    after = parse(output)
+    inputs = owned_inputs(root)
+    hashes = input_hashes(inputs)
+    if after.get('input_hashes_before') == hashes and after.get('input_hashes_after') == hashes:
+        return preserve(root)
+    if after.get('schema_version') != 2 or after.get('scope') != 'active_shopify_shortlist_only' or after.get('operating_catalog_mutated') is not False:
+        raise ValueError('shortlist_scope_or_schema_changed')
+    recorded = after.get('input_hashes_before')
+    if after.get('inputs_byte_identical') is not True or not isinstance(recorded, dict) or recorded != after.get('input_hashes_after') or set(recorded) != set(observer.INPUTS) or any(v != 'missing' and (not isinstance(v, str) or not re.fullmatch(r'[0-9a-f]{64}', v)) for v in recorded.values()):
+        raise ValueError('shortlist_original_input_proof_malformed')
+    if any(recorded[name] == 'missing' for name in ('data/shopify_shortlist.json', 'data/product_master.json', 'data/daiso_real/products.json')):
+        raise ValueError('shortlist_original_membership_inputs_missing')
+    old, restored = {OUTPUT: base, LEDGER: base_ledger}, {OUTPUT: output, LEDGER: ledger}
+    _validate(old); _validate(restored); _nonregression(old, restored)
+    # Validate identity/history first; an offline evaluation must not launder
+    # malformed old provenance or remapped historical captures into a new view.
+    observer._members(root)
+    registry = parse(inputs['data/product_master.json'])['pd_no_to_cp']
+    ids = after.get('expected_ids')
+    if not isinstance(ids, list) or not ids or any(not isinstance(v, str) for v in ids) or len(ids) != len(set(ids)) or not set(ids) <= set(registry.values()):
+        raise ValueError('shortlist_previous_scope_not_canonical')
+    for key in ('products', 'retained_previous_products', 'capture_history'):
+        if any(registry.get(r.get('pd_no')) != r.get('canonical_product_id') for r in after.get(key, [])):
+            raise ValueError('shortlist_historical_identity_remapped')
+    if any(r['canonical_product_id'] not in ids for r in after.get('products', [])):
+        raise ValueError('shortlist_capture_outside_previous_scope')
+    for raw in (output, ledger):
+        atomic_write(root, HISTORY + '/' + sha(raw) + '.json', raw, immutable=True)
+    observer.observe(root, offline_only=True, expected_previous=(output, ledger))
+    return preserve(root, previous_output=output, previous_ledger=ledger)
 
 
 def preserve(root, *, previous_output=None, previous_ledger=None):

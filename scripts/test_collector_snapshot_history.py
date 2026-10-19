@@ -269,6 +269,164 @@ class OwnedScopePublicationTests(unittest.TestCase):
         self.assertIsNotNone(report)
         self.evidence()
 
+    def reconcile_offline(self):
+        from scripts.daiso import observe_shortlist as owner
+        with patch.object(owner, '_http_get', side_effect=AssertionError('HTTP forbidden')) as network:
+            report = csh.record_restored_observer(self.root)
+        network.assert_not_called()
+        return report
+
+    def regenerate_input(self):
+        doc = json.loads((self.root / 'data/shopify_shortlist.json').read_bytes())
+        doc['generated_at'] = 'later offline commerce evaluation'
+        self.save('data/shopify_shortlist.json', doc)
+
+    def test_restored_scope_then_commerce_regeneration_gets_new_zero_http_proof(self):
+        restored = (self.root / observer_history.OUTPUT).read_bytes()
+        ledger = (self.root / observer_history.LEDGER).read_bytes()
+        self.regenerate_input()
+        current_inputs = observer_history.owned_inputs(self.root)
+        with self.assertRaisesRegex(ValueError, 'owned_input_hash_mismatch'):
+            self.preserve()  # The direct old-proof path remains strictly blocked.
+        self.advance(60)
+        self.reconcile_offline()
+        raw, manifest, proof = self.evidence()
+        doc = json.loads(raw)
+        self.assertEqual(doc['products'], json.loads(restored)['products'])
+        self.assertEqual(doc['capture_history'], json.loads(restored)['capture_history'])
+        self.assertEqual(doc['expected_ids'], self.cps[:2])
+        self.assertEqual(doc['new_success_ids'], [])
+        self.assertEqual(doc['http_attempt_count'], 0)
+        self.assertTrue(doc['complete'])
+        self.assertEqual(doc['attempts'][0]['previous_observation_sha256'], observer_history.sha(restored))
+        self.assertEqual(doc['attempts'][0]['kind'], 'offline_reconciliation')
+        old, new = json.loads(ledger), json.loads((self.root / observer_history.LEDGER).read_bytes())
+        for key in set(old) - {'last_checked_at', 'last_result_status'}:
+            self.assertEqual(old[key], new[key], key)
+        self.assertGreater(new['last_checked_at'], old['last_checked_at'])
+        for value in (self.base, self.ledger, restored, ledger):
+            self.assertEqual((self.root / observer_history.HISTORY /
+                              (observer_history.sha(value) + '.json')).read_bytes(), value)
+        self.assertEqual(observer_history.owned_inputs(self.root), current_inputs)
+        self.assertEqual(overlay(observer_history.OUTPUT, self.base, raw, self.base, POLICY,
+                                 manifest, observer_evidence=proof), raw)
+        self.assertIsNotNone(Transaction(self.root, 'data', 'offline fixture', dry_run=True).observer_evidence)
+
+    def test_restored_scope_returns_to_git_base_membership_offline(self):
+        restored = (self.root / observer_history.OUTPUT).read_bytes()
+        self.shortlist(4)
+        self.reconcile_offline()
+        doc = json.loads((self.root / observer_history.OUTPUT).read_bytes())
+        self.assertEqual(doc['expected_ids'], self.cps[:4])
+        self.assertEqual(doc['products'], json.loads(self.base)['products'])
+        self.assertEqual(doc['budget_checkpoint']['total_http_attempts'], 5)
+        self.assertEqual(doc['new_success_ids'], [])
+        self.assertEqual((self.root / observer_history.HISTORY /
+                          (observer_history.sha(restored) + '.json')).read_bytes(), restored)
+        Transaction(self.root, 'data', 'offline fixture', dry_run=True)
+
+    def test_stale_missing_and_stopped_captures_stay_incomplete_offline(self):
+        self.shortlist(5)  # Fifth member has never been captured.
+        self.advance(observer_fixtures.obs.FRESH_TTL + 1)
+        path = self.root / observer_history.LEDGER
+        ledger = json.loads(path.read_bytes())
+        ledger['automatic_retry_block'] = {'reason': 'provider_stop_requires_review'}
+        self.save(observer_history.LEDGER, ledger)
+        self.reconcile_offline()
+        doc = json.loads((self.root / observer_history.OUTPUT).read_bytes())
+        current = json.loads(path.read_bytes())
+        self.assertFalse(doc['complete'])
+        self.assertEqual(doc['status'], 'partial')
+        self.assertEqual(doc['missing_ids'], self.cps[4:5])
+        self.assertEqual(doc['failed_ids'], self.cps[:5])
+        self.assertEqual(doc['http_attempt_count'], 0)
+        self.assertEqual(doc['products'], json.loads(self.base)['products'])
+        for key in set(ledger) - {'last_checked_at', 'last_result_status'}:
+            self.assertEqual(current[key], ledger[key], key)
+        self.evidence()
+
+    def test_stale_or_missing_capture_never_enters_request_path(self):
+        self.shortlist(5)
+        self.advance(observer_fixtures.obs.FRESH_TTL + observer_fixtures.obs.COOLDOWN + 1)
+        ledger = (self.root / observer_history.LEDGER).read_bytes()
+        self.reconcile_offline()
+        doc = json.loads((self.root / observer_history.OUTPUT).read_bytes())
+        self.assertFalse(doc['complete'])
+        self.assertEqual(doc['failed_ids'], self.cps[:5])
+        self.assertEqual(doc['missing_ids'], self.cps[4:5])
+        self.assertEqual(len([a for a in doc['attempts'] if a['reason'] == 'offline_reconciliation_only']), 5)
+        after = json.loads((self.root / observer_history.LEDGER).read_bytes())
+        for key in set(json.loads(ledger)) - {'last_checked_at', 'last_result_status'}:
+            self.assertEqual(after[key], json.loads(ledger)[key])
+        self.evidence()
+
+    def test_malformed_restored_proof_or_identity_fails_before_offline_mutation(self):
+        self.regenerate_input()
+        original = (self.root / observer_history.OUTPUT).read_bytes()
+        ledger = (self.root / observer_history.LEDGER).read_bytes()
+        mutations = (
+            lambda d: d.update(scope='unowned_scope'),
+            lambda d: d.update(operating_catalog_mutated=True),
+            lambda d: d.update(expected_ids=['CP999999']),
+            lambda d: d.update(expected_ids=self.cps[:1]),
+            lambda d: d['input_hashes_before'].update({'data/product_master.json': '0'*64}),
+            lambda d: d['input_hashes_after'].pop('data/product_master.json'),
+            lambda d: (d['input_hashes_before'].update({'data/product_master.json': 'missing'}), d['input_hashes_after'].update({'data/product_master.json': 'missing'})),
+            lambda d: d.update(products=[None]),
+            lambda d: d['capture_history'][0].update(canonical_product_id=self.cps[5]),
+            lambda d: d.update(capture_history=[], retained_previous_products=[]),
+            lambda d: d['budget_checkpoint'].update(total_http_attempts=0),
+        )
+        for mutate in mutations:
+            with self.subTest(mutation=mutate):
+                doc = json.loads(original); mutate(doc)
+                self.save(observer_history.OUTPUT, doc)
+                before = (self.root / observer_history.OUTPUT).read_bytes()
+                with self.assertRaises(ValueError):
+                    self.reconcile_offline()
+                self.assertEqual((self.root / observer_history.OUTPUT).read_bytes(), before)
+                self.assertEqual((self.root / observer_history.LEDGER).read_bytes(), ledger)
+                self.assertFalse((self.root / observer_history.MANIFEST).exists())
+        (self.root / observer_history.OUTPUT).write_bytes(original)
+
+    def test_prevalidated_pair_cannot_change_before_offline_claim(self):
+        self.regenerate_input()
+        original_output = (self.root / observer_history.OUTPUT).read_bytes()
+        original_ledger = (self.root / observer_history.LEDGER).read_bytes()
+        from scripts.daiso import observe_shortlist as owner
+        original = owner._Claim.__enter__
+        for target, raw in ((observer_history.OUTPUT, original_output),
+                            (observer_history.LEDGER, original_ledger)):
+            with self.subTest(target=target):
+                def raced(claim):
+                    (self.root / target).write_bytes(raw + b' ')
+                    return original(claim)
+                with patch.object(owner._Claim, '__enter__', raced), self.assertRaisesRegex(ValueError, 'previous_changed'):
+                    self.reconcile_offline()
+                self.assertEqual((self.root / target).read_bytes(), raw + b' ')
+                self.assertFalse((self.root / observer_history.MANIFEST).exists())
+                (self.root / target).write_bytes(raw)
+
+    def test_reconciliation_rejects_current_identity_remap_and_concurrent_input_change(self):
+        self.regenerate_input()
+        master_path = self.root / 'data/product_master.json'
+        master = master_path.read_bytes()
+        doc = json.loads(master)
+        doc['pd_no_to_cp'][self.pds[0]], doc['pd_no_to_cp'][self.pds[5]] = self.cps[5], self.cps[0]
+        self.save('data/product_master.json', doc)
+        with self.assertRaises(ValueError): self.reconcile_offline()
+        master_path.write_bytes(master)
+        from scripts.daiso import observe_shortlist as owner
+        original = owner._hashes
+        calls = []
+        def raced(root):
+            calls.append(1)
+            if len(calls) == 2: self.shortlist(3)
+            return original(root)
+        with patch.object(owner, '_hashes', side_effect=raced), self.assertRaisesRegex(ValueError, 'operating_inputs_changed'):
+            self.reconcile_offline()
+        self.assertFalse((self.root / observer_history.MANIFEST).exists())
+
     def test_declared_hashes_without_owned_input_bytes_are_not_evidence(self):
         with self.assertRaisesRegex(ValueError, 'owned_input_evidence_required'):
             observer_history.validate_transition(self.base, (self.root / observer_history.OUTPUT).read_bytes(), POLICY)
@@ -406,8 +564,8 @@ class OwnedScopePublicationTests(unittest.TestCase):
         catalog = json.loads((self.root / 'data/daiso_real/products.json').read_bytes())
         catalog['fixture_revision'] = 2
         self.save('data/daiso_real/products.json', catalog)
-        self.current, network = self.run_observe(); network.assert_not_called()
-        self.preserve()
+        self.reconcile_offline()
+        self.current = json.loads((self.root / observer_history.OUTPUT).read_bytes())
         self.transaction_remote()
         shortlist = (self.root / 'data/shopify_shortlist.json').read_bytes()
         before = {p.relative_to(self.root): p.read_bytes() for p in (self.root / 'data').rglob('*') if p.is_file()}
