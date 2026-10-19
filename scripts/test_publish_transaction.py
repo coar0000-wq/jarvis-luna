@@ -440,4 +440,74 @@ class GitTransactionTests(unittest.TestCase):
         before=self.tip();self.assertEqual(self.transaction().run()['status'],'no_change');self.assertEqual(self.tip(),before)
 
 
+class TimingAndBudgetTests(unittest.TestCase):
+    def capture(self, callback):
+        import contextlib
+        import io
+        output = io.StringIO()
+        with contextlib.redirect_stdout(output):
+            callback()
+        return [json.loads(line.split(' ', 1)[1]) for line in output.getvalue().splitlines()]
+
+    def test_timing_success_has_elapsed_and_no_payload(self):
+        def operation():
+            with pub.timed_phase('push'):
+                pass
+        with patch.object(pub.time, 'monotonic', side_effect=[10, 12.25]):
+            rows = self.capture(operation)
+        self.assertEqual(rows, [{'phase': 'push', 'event': 'start'},
+            {'phase': 'push', 'event': 'end', 'outcome': 'completed', 'elapsed_seconds': 2.25}])
+
+    def test_timing_preserves_exception_without_logging_sensitive_text(self):
+        def operation():
+            error = RuntimeError('secret-token-in-error')
+            try:
+                with pub.timed_phase('command', command_index=2):
+                    raise error
+            except RuntimeError as caught:
+                self.assertIs(caught, error)
+        rows = self.capture(operation)
+        self.assertEqual(rows[-1]['outcome'], 'interrupted')
+        self.assertEqual(rows[-1]['command_index'], 2)
+        self.assertNotIn('secret', json.dumps(rows))
+
+    def test_untrusted_labels_rejected_before_logging(self):
+        for phase, index in [('secret-token', None), ('command', 'secret-token'), ('command', True)]:
+            with self.assertRaises(ValueError):
+                with pub.timed_phase(phase, command_index=index):
+                    self.fail('invalid timer entered')
+
+    def test_failed_command_still_blocks_and_has_no_success_receipt(self):
+        from types import SimpleNamespace
+        tx = object.__new__(pub.Transaction)
+        tx.executed_commands = []
+        def operation():
+            with self.assertRaises(pub.PublishError):
+                tx.command(ROOT, ['scripts/run_jarvis_operations.py', '--secret-argument'])
+        with patch.object(pub.subprocess, 'run', return_value=SimpleNamespace(returncode=9)):
+            rows = self.capture(operation)
+        self.assertEqual(tx.executed_commands, [])
+        self.assertEqual(rows[-1]['outcome'], 'interrupted')
+        self.assertNotIn('secret', json.dumps(rows))
+
+    def test_core_budget_preserves_safety_and_both_runtime_passes(self):
+        import yaml
+        text = (ROOT/'.github/workflows/JARVIS-Core-Automation.yml').read_text(encoding='utf-8')
+        workflow = yaml.load(text, Loader=yaml.BaseLoader)
+        self.assertEqual(workflow['jobs']['core-automation']['timeout-minutes'], '60')
+        self.assertEqual(workflow['concurrency'], {'group': 'main-publish', 'cancel-in-progress': 'false'})
+        steps = workflow['jobs']['core-automation']['steps']
+        source = next(s for s in steps if s.get('name') == 'Bounded existing-team source recovery')
+        self.assertEqual(source['timeout-minutes'], '12')
+        runtime = next(s for s in steps if s.get('id') == 'runtime_refresh')
+        self.assertIn("operations_continuity == 'verified'", runtime['if'])
+        self.assertIn('scripts/run_jarvis_operations.py', runtime['run'])
+        self.assertIn(['scripts/run_jarvis_operations.py'], POLICY['runtime_commands'])
+        for name in ('Retain source safety checkpoint', 'Retain immutable operations safety history'):
+            retention = next(s for s in steps if s.get('name') == name)
+            self.assertIn('always()', retention['if'])
+            self.assertIn("== 'verified'", retention['if'])
+        self.assertIn("for phase in ('candidate', 'final'):", (ROOT/'scripts/publish_transaction.py').read_text())
+
+
 if __name__=='__main__':unittest.main(verbosity=2)

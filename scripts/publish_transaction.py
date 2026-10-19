@@ -8,6 +8,7 @@ choose an entire stale file. Production commands cannot be supplied by callers.
 """
 from __future__ import annotations
 import argparse
+from contextlib import contextmanager
 from copy import deepcopy
 from datetime import datetime
 import hashlib
@@ -19,6 +20,7 @@ import shlex
 import subprocess
 import sys
 import tempfile
+import time
 
 # Native script execution must resolve the same repository-local history helpers
 # even while isolated transaction worktrees change the process working directory.
@@ -38,6 +40,28 @@ IMMUTABLE_HISTORY_PREFIXES = ('data/agents/workflow_status_history/',
 
 class PublishError(RuntimeError):
     pass
+
+
+@contextmanager
+def timed_phase(phase, *, command_index=None):
+    """Log only fixed phase names and timing, never argv, environment or errors."""
+    allowed = {'command', 'regenerate_validate', 'stage', 'commit', 'push', 'cleanup'}
+    if phase not in allowed:
+        raise ValueError('unknown timing phase')
+    if command_index is not None and (type(command_index) is not int or command_index < 1):
+        raise ValueError('invalid timing command index')
+    fields = {'phase': phase}
+    if command_index is not None:
+        fields['command_index'] = command_index
+    started = time.monotonic()
+    print('PUBLISH_TIMING ' + json.dumps(dict(fields, event='start')), flush=True)
+    outcome = 'interrupted'
+    try:
+        yield
+        outcome = 'completed'
+    finally:
+        print('PUBLISH_TIMING ' + json.dumps(dict(fields, event='end', outcome=outcome,
+              elapsed_seconds=round(time.monotonic() - started, 3))), flush=True)
 
 
 def git(root, *args, check=True):
@@ -550,9 +574,10 @@ class Transaction:
                    GEMINI_ENABLED='0', TYPESAFE_ALLOW_PAID='0', PYTHONIOENCODING='utf-8')
         for key in ('TYPESAFE_API_KEY', 'GEMINI_API_KEY', 'GOOGLE_API_KEY'):
             env.pop(key, None)
-        p = subprocess.run([sys.executable, '-B', *args], cwd=work, env=env)
-        if p.returncode:
-            raise PublishError(f'offline final generation/check failed: {args[0]} ({p.returncode})')
+        with timed_phase('command', command_index=len(self.executed_commands) + 1):
+            p = subprocess.run([sys.executable, '-B', *args], cwd=work, env=env)
+            if p.returncode:
+                raise PublishError(f'offline final generation/check failed: {args[0]} ({p.returncode})')
         self.executed_commands.append(list(args))
 
     def reapply_collector(self, work, report_path):
@@ -668,7 +693,8 @@ class Transaction:
                         except (ValueError, OSError) as exc:
                             raise PublishError('source safety pair validation failed') from exc
                     reports = temp/f'reports-{number}'; reports.mkdir()
-                    self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
+                    with timed_phase('regenerate_validate'):
+                        self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
                     if self.observer_evidence is not None:
                         from scripts.shortlist_observation_history import verify_final_scope
                         verify_final_scope(work, self.observer_evidence)
@@ -688,19 +714,25 @@ class Transaction:
                     self.verify_operations_unchanged(work, operations_before)
                     self.attempts.append({'attempt': number, 'remote_sha': latest, 'validated': True,
                                           'publication_profile': self.publication_profile})
-                    if not self.stage(work):
+                    with timed_phase('stage'):
+                        staged = self.stage(work)
+                    if not staged:
                         return self.result(status='no_change', base_sha=self.base, attempts=self.attempts)
                     if self.dry_run:
                         return self.result(status='dry_run_validated', base_sha=self.base, attempts=self.attempts)
                     git(work, 'config', 'user.name', 'JARVIS')
                     git(work, 'config', 'user.email', 'jarvis@luna.bot')
-                    git(work, 'commit', '-m', self.message)
-                    commit = git(work, 'rev-parse', 'HEAD').stdout.decode().strip()
-                    if self.push(work):
+                    with timed_phase('commit'):
+                        git(work, 'commit', '-m', self.message)
+                        commit = git(work, 'rev-parse', 'HEAD').stdout.decode().strip()
+                    with timed_phase('push'):
+                        pushed = self.push(work)
+                    if pushed:
                         return self.result(status='published', commit_sha=commit, base_sha=self.base, attempts=self.attempts)
                     self.attempts[-1]['push_rejected'] = True
                 finally:
-                    git(self.root, 'worktree', 'remove', '--force', str(work))
+                    with timed_phase('cleanup'):
+                        git(self.root, 'worktree', 'remove', '--force', str(work))
         raise PublishError(f'normal push rejected after {self.max_attempts} independently validated attempts')
 
 
