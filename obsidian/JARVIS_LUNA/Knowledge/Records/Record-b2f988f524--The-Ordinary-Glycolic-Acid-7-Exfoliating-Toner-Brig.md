@@ -1,0 +1,22 @@
+---
+title: "Record b2f988f524 · The-Ordinary-Glycolic-Acid-7-Exfoliating-Toner-Brightening-and-Smoothi"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-19T05:41:08.819988+00:00
+tags: [record, real-data]
+source: "us_beauty"
+topics: ["뷰티스킨케어"]
+domain: "www.amazon.com"
+url: "https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B0DMTDN158/ref=zg_bs_g_beauty_d_sccl_19/132-8970669-1522069"
+---
+
+# Record b2f988f524 · The-Ordinary-Glycolic-Acid-7-Exfoliating-Toner-Brightening-and-Smoothi
+
+> 실제 수집 레코드입니다. 원문: [www.amazon.com](https://www.amazon.com/Ordinary-Exfoliating-Brightening-Smoothing-Even-Looking/dp/B0DMTDN158/ref=zg_bs_g_beauty_d_sccl_19/132-8970669-1522069)
+
+**제목:** The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone
+
+The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone
+The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone · $9 · 평점 4.7 · 리뷰 67,713
+
+**출처:** Source · us_beauty

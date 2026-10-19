@@ -2,7 +2,7 @@
 title: "Record b44a60e3f2 · FacialPro-Glow-At-Home-Hydro-Powered-Facial-System-in-Pink"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-17T16:14:09.702907+00:00
+updated_at: 2026-10-19T05:41:09.278710+00:00
 tags: [record, real-data]
 source: "us_beauty"
 topics: ["뷰티스킨케어"]
@@ -17,6 +17,6 @@ url: "https://www.ulta.com/p/facialpro-glow-at-home-hydro-powered-facial-system-
 **제목:** FacialPro Glow At Home Hydro-Powered Facial System in Pink
 
 FacialPro Glow At Home Hydro-Powered Facial System in Pink
-FacialPro Glow At Home Hydro-Powered Facial System in Pink · Shark Beauty · $179.99
+FacialPro Glow At Home Hydro-Powered Facial System in Pink · Shark Beauty · $249.99
 
 **출처:** Source · us_beauty

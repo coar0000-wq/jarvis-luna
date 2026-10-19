@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-18T21:02:29.719400+00:00",
-  "real_records": 7722,
+  "updated_at": "2026-10-19T05:44:43.206095+00:00",
+  "real_records": 7831,
   "source_labels": {
     "ai-image": 527,
-    "ai-research": 6801,
-    "shopify-commerce-image": 394
+    "ai-research": 6909,
+    "shopify-commerce-image": 395
   },
-  "corpus_sha256": "b2aeb7029469a8027253ea071a1a851576ed9d6031db90b52b8470cff163d5a0",
+  "corpus_sha256": "60df6d87f980f76961c5dee37bb127ca52137879cc01f4455c85045193833188",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,26 +14,26 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.9560994560994561,
+  "training_accuracy_on_corpus": 0.9563274166773081,
   "mean_gate_load": [
     0.304521,
     0.33023,
     0.365249
   ],
   "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "b2aeb7029469a8027253ea071a1a851576ed9d6031db90b52b8470cff163d5a0",
+  "trained_corpus_sha256": "60df6d87f980f76961c5dee37bb127ca52137879cc01f4455c85045193833188",
   "tuning_promoted": true,
   "tuning_steps": 300,
-  "tuning_validation_accuracy": 0.9496598639455782,
-  "tuning_validation_macro_f1": 0.8793259489820562,
+  "tuning_validation_accuracy": 0.9506337558372249,
+  "tuning_validation_macro_f1": 0.8795384289420077,
   "tuning_validation_recall": {
     "ai-image": 0.8966,
-    "ai-research": 0.9519,
+    "ai-research": 0.9529,
     "shopify-commerce-image": 0.973
   },
   "baseline_majority": {
-    "accuracy": 0.8904761904761904,
-    "macro_f1": 0.31402183039462633,
+    "accuracy": 0.8925950633755837,
+    "macro_f1": 0.3144166372929151,
     "recall": {
       "ai-image": 0.0,
       "ai-research": 1.0,
@@ -42,12 +42,12 @@
   },
   "training_effective": true,
   "학습_판정": "기준선보다 나음: 운영 가중치 교체",
-  "features": "TF-IDF + L2 (min_df 3, 어휘 7161)",
+  "features": "TF-IDF + L2 (min_df 3, 어휘 7221)",
   "말뭉치": "이 말뭉치로 학습한 가중치다.",
-  "tuning_final_loss": 0.2613004640114017,
-  "tuning_gate_load_std": 0.46985318646073854,
-  "records_before": 7721,
-  "records_added": 1,
+  "tuning_final_loss": 0.26049673471750556,
+  "tuning_gate_load_std": 0.4698502128880887,
+  "records_before": 7722,
+  "records_added": 109,
   "source_status": {
     "arxiv": "ok",
     "robotics": "ok",
