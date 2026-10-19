@@ -18,6 +18,12 @@ class DailyProjectionTests(unittest.TestCase):
             self.assertFalse({'grade','source','shopify_id'} & r.keys())
 
     def test_real_build_to_ui_and_error_refresh(self):
+        self.check_build_to_ui(False)
+
+    def test_observed_assets_do_not_approve_legal_or_imply_publication(self):
+        self.check_build_to_ui(True)
+
+    def check_build_to_ui(self, observed):
         with tempfile.TemporaryDirectory(dir=ROOT.parent) as td:
             # Build accepts only a separate sibling dist; isolate under a fixture root.
             import shutil
@@ -40,6 +46,11 @@ class DailyProjectionTests(unittest.TestCase):
                  'single_usd':18.99,'single_margin_pct':47.2,'images':0,
                  'draft_reasons':['inci_unresolved:1','no_usable_product_images']},
             ]
+            observations={'items':[]}
+            if observed:
+                for i, row in enumerate(snapshots):
+                    observations['items'].append({'pd_no':row['pd_no'],'source':'manual_connector_readback', 'observed_at':'2026-10-19T02:28:00Z', 'status':'ACTIVE', 'media_count':11 if i==0 else 6, 'online_store_visible':i==0, 'private_id':'secret'})
+            (root/'data/shopify_public_observations.json').write_text(json.dumps(observations))
             (root/'data/shopify_daily_registry.json').write_text(json.dumps({'items':snapshots}))
             out=Path(td)/'dist';build(root,out,'a'*40)
             html=(out/'index.html').read_text()
@@ -47,6 +58,10 @@ class DailyProjectionTests(unittest.TestCase):
             script='/* 오늘의 상품 등록 파이프라인:'+script
             script=script.replace('renderDailyPipeline();\nsetInterval(renderDailyPipeline,300000);','')
             data=json.loads((out/'data/shopify_daily_registry.json').read_text())
+            observed_data=json.loads((out/'data/shopify_public_observations.json').read_text())
+            self.assertTrue(all('private_id' not in r for r in observed_data['items']))
+            self.assertTrue(all('shopify_observation' not in r for r in data['items']))
+            self.assertTrue(all(r['status']=='DRAFT' for r in data['items']))
             js=r'''
 const assert=require('assert');
 class Element {
@@ -61,16 +76,26 @@ class Element {
 const host=new Element('section'), ids={};
 for(const id of ['dp-grid','dp-kpis','dp-when']){ids[id]=new Element('div');host.appendChild(ids[id]);}
 const document={getElementById:id=>ids[id],createElement:t=>new Element(t),createTextNode:t=>({textContent:t})};
-let fail=false;
-async function getJSON(p){if(p.includes('recommendations'))return {recommendations:[]};if(fail)throw Error('network');return DATA;}
+let fail=false, failObservation=false;
+async function getJSON(p){if(p.includes('recommendations'))return {recommendations:[]};if(fail)throw Error('network');if(p.includes('shopify_public_observations')){if(failObservation)throw Error('observation unavailable');return OBSERVATIONDATA;}return DATA;}
 SCRIPT
 (async()=>{
  await renderDailyPipeline();
  assert.equal(ids['dp-grid'].children.length,3);
  let states=ids['dp-grid'].children.map(c=>c.children.find(e=>e.className==='dp-steps').children.map(e=>e.className));
- assert.deepEqual(states[0],['dp-step done','dp-step wait','dp-step queued','dp-step queued','dp-step queued']);
- for(const state of states.slice(1))assert.deepEqual(state,['dp-step done','dp-step done','dp-step bad','dp-step queued','dp-step queued']);
- await renderDailyPipeline();
+ if(OBSERVED){
+  assert.deepEqual(states[0],['dp-step done','dp-step wait','dp-step queued','dp-step done','dp-step done']);
+  for(const state of states.slice(1))assert.deepEqual(state,['dp-step done','dp-step done','dp-step bad','dp-step done','dp-step wait']);
+  assert(ids['dp-when'].textContent.includes('2026-10-19T02:28:00Z'));
+ }else{
+  assert.deepEqual(states[0],['dp-step done','dp-step wait','dp-step queued','dp-step queued','dp-step queued']);
+  for(const state of states.slice(1))assert.deepEqual(state,['dp-step done','dp-step done','dp-step bad','dp-step queued','dp-step queued']);
+ }
+ failObservation=true; await renderDailyPipeline();
+ let fallback=ids['dp-grid'].children.map(c=>c.children.find(e=>e.className==='dp-steps').children.map(e=>e.className));
+ assert.equal(fallback[1][3],'dp-step queued'); assert.equal(fallback[1][4],'dp-step queued');
+ assert(ids['dp-when'].textContent.includes('현재 상태 미조회'));
+ failObservation=false; await renderDailyPipeline();
  assert.equal(ids['dp-grid'].children.length,3);assert.equal(ids['dp-kpis'].children.length,4);
  assert.equal(host.children.filter(c=>c.className==='dp-legend').length,1);
  fail=true;await renderDailyPipeline();
@@ -79,7 +104,7 @@ SCRIPT
  fail=false;await renderDailyPipeline();assert.equal(ids['dp-grid'].children.length,3);
 })().catch(e=>{console.error(e);process.exit(1)});
 '''
-            result=subprocess.run(['node','-e',js.replace('DATA',json.dumps(data)).replace('SCRIPT',script)],capture_output=True,text=True)
+            result=subprocess.run(['node','-e',js.replace('OBSERVATIONDATA',json.dumps(observed_data)).replace('DATA',json.dumps(data)).replace('SCRIPT',script).replace('OBSERVED',str(observed).lower())],capture_output=True,text=True)
             self.assertEqual(result.returncode,0,result.stderr)
 
 if __name__=='__main__':unittest.main()

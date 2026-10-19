@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "pd_no": "1084687",
+      "status": "ACTIVE",
+      "media_count": 11,
+      "online_store_visible": true,
+      "observed_at": "2026-10-19T02:28:00Z",
+      "source": "manual_connector_readback"
+    },
+    {
+      "pd_no": "1072801",
+      "status": "ACTIVE",
+      "media_count": 6,
+      "online_store_visible": false,
+      "observed_at": "2026-10-19T02:28:00Z",
+      "source": "manual_connector_readback"
+    },
+    {
+      "pd_no": "1042251",
+      "status": "ACTIVE",
+      "media_count": 6,
+      "online_store_visible": false,
+      "observed_at": "2026-10-19T02:28:00Z",
+      "source": "manual_connector_readback"
+    }
+  ]
+}
