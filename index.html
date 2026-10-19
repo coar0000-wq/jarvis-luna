@@ -2042,7 +2042,7 @@ function reasonText(codes){
     var live=cnt('ACTIVE'), draft=cnt('DRAFT'), gone=cnt('deleted_by_owner');
     var other=items.length-live-draft-gone;
     var last=items.length?items[items.length-1].date:'-';
-    sum.textContent='누적 '+items.length+'개 · 공개 '+live+' · 초안 '+draft+(gone?' · 삭제 '+gone:'')+(other?' · 상태 확인 필요 '+other:'')+' · 최근 등록 '+last+' · 하루 카테고리별 1개, 단품+1+1';
+    sum.textContent='생성 이력 '+items.length+'개 · 당시 ACTIVE '+live+' · 당시 DRAFT '+draft+(gone?' · 삭제 '+gone:'')+(other?' · 상태 확인 필요 '+other:'')+' · 최근 생성 '+last+' · 현재 Shopify 상태·공개 여부는 아래 확인 기록 참고';
     list.innerHTML='';
     if(!items.length){ var e=document.createElement('li'); e.style.cssText='color:#666;font-size:13px;padding:10px 0;'; e.textContent='아직 등록된 상품이 없습니다.'; list.appendChild(e); return; }
     items.slice(-12).reverse().forEach(function(i){
@@ -2051,11 +2051,11 @@ function reasonText(codes){
       var sz=i.size?(i.size.unit+i.size.base+(i.size.count>1?' x '+i.size.count:'')):'용량 표기 없음';
       var price=i.single_usd!=null?('$'+i.single_usd.toFixed(2)+' (마진 '+i.single_margin_pct+'%)'+(i.pack_usd?' · 1+1 $'+i.pack_usd.toFixed(2)+' ('+i.pack_margin_pct+'%)':'')):'가격 미산정';
       var cmp=i.shop_com_lowest_usd?(' · shop.com 최저 $'+Number(i.shop_com_lowest_usd).toFixed(2)):' · shop.com 비교 없음';
-      var st={ACTIVE:'공개',DRAFT:'초안',deleted_by_owner:'삭제됨'}[i.status]||'상태 확인 필요';
+      var st={ACTIVE:'당시 ACTIVE',DRAFT:'당시 DRAFT',deleted_by_owner:'삭제 이력'}[i.status]||'상태 확인 필요';
       var why=(i.draft_reasons&&i.draft_reasons.length)?(' · 사유: '+reasonText(i.draft_reasons)):'';
       var head=document.createElement('strong'); head.textContent='['+cat+'] '+i.title;
       var meta=document.createElement('div'); meta.style.color='#8b949e';
-      meta.textContent=i.date+' · '+st+' · '+sz+' · 이미지 '+(i.images||0)+'장 · '+price+cmp+why;
+      meta.textContent='생성 당시 '+i.date+' · '+st+' · '+sz+' · 당시 이미지 '+(i.images||0)+'장 · '+price+cmp+why;
       li.appendChild(head); li.appendChild(meta); list.appendChild(li);
     });
   }catch(err){ sum.textContent='등록 현황을 불러오지 못했습니다.'; }
@@ -2071,7 +2071,12 @@ async function renderDailyPipeline(){
   var deskS={skincare:0,makeup:0,body:0};
   var sSet={};
   try{ var sr=await getJSON('data/daiso_real/shopify_s_recommendations.json'); ((sr&&sr.recommendations)||[]).forEach(function(r){ var d=r.desk||DESK_OF[r.bucket]; if(d&&deskS[d]!=null) deskS[d]++; sSet[String(r.pd_no)]=1; }); }catch(e){}
-  var STEPS=['대상 선정','가격·마진','고시·INCI 증적','상품 이미지','공개 기록'];
+  var observedByPd={};
+  try{ var observationData=await getJSON('data/shopify_public_observations.json');
+    ((observationData&&observationData.items)||[]).forEach(function(o){if(o&&o.pd_no) observedByPd[String(o.pd_no)]=o;});
+  }catch(e){}
+  var STEPS=['대상 선정','가격·마진','고시·INCI 증적','상품 이미지','온라인 스토어 공개'];
+  function observation(it){ var o=it&&observedByPd[String(it.pd_no)]; return o&&o.source==='manual_connector_readback'&&o.observed_at&&Number.isFinite(Date.parse(o.observed_at))&&['ACTIVE','DRAFT','ARCHIVED','UNLISTED'].indexOf(o.status)>=0&&Number.isInteger(o.media_count)&&o.media_count>=0&&typeof o.online_store_visible==='boolean'?o:null; }
   function el(tag,cls,txt){var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e;}
   function kst(){ return new Date(Date.now()+9*3600*1000).toISOString().slice(0,10); }
   var items=[];
@@ -2089,52 +2094,63 @@ async function renderDailyPipeline(){
   var today=kst();
   function latest(cat){ var r=items.filter(function(i){return i.category===cat;}); return r.length? r[r.length-1] : null; }
   function stepState(it){
+    var o=observation(it);
     var rs=(it.draft_reasons||[]).map(String);
     var legalBad=rs.some(function(r){return /^(gosi_missing|inci|ingredients_missing|origin_unmapped|maker_missing|us_regulatory|claim_language|quantity_conflict|volume_mismatch|title_volume_mismatch|safety_evidence|manufacturer_safety|authenticated_us_label|english_title_missing|brand_english)/.test(r);});
     var imgBad=rs.some(function(r){return /image/.test(r);});
     var live=it.status==='ACTIVE';
     // Missing evidence is unknown, not a passed check or a verification failure.
     var priced=typeof it.single_usd==='number' && Number.isFinite(it.single_usd) && it.single_usd>0 && it.single_margin_pct!=null;
-    // 색: 성공 파랑(done) · 준비중 노랑(wait) · 에러 빨강(bad). 공개(ACTIVE)는 공개 게이트(등급·법률·이미지)를 통과한 기록이다.
+    // ACTIVE is a Shopify status, never proof of legal approval or Online Store publication.
     var graded=!!(it.selection_recorded===true||sSet[String(it.pd_no)]||it.grade==='S'||it.grade==='RANK'||it.source==='owner_body_shower_category_fallback'||it.source==='manual_owner_image_localization_example'||live);
     var s=[graded?'done':'wait', priced?(Number(it.single_margin_pct)>=30?'done':'bad'):'wait',
-      legalBad?'bad':(live?'done':'wait'), imgBad?'bad':(it.images>0?'done':'wait'), live?'done':'wait'];
+      legalBad?'bad':'wait', imgBad?'bad':(it.images>0?'done':'wait'), 'wait'];
     // Sequential review: preserve available assets in detail, but never imply a later gate passed.
     var first=s.findIndex(function(v){return v!=='done';});
     if(first>=0) for(var j=first+1;j<s.length;j++) s[j]='queued';
+    // Observed assets/publication are independent facts, not approval of preceding gates.
+    if(o){ s[3]=o.media_count>0?'done':'wait'; s[4]=o.online_store_visible===true?'done':'wait'; }
     return s;
   }
-  var live=0, draft=0, none=0;
+  var draft=0, none=0;
   CATS.forEach(function(c){
     var it=latest(c[0]); var card=el('div','dp-card');
     var cat=el('div','dp-cat'); cat.appendChild(el('span',null,c[1]+' · S 후보 '+deskS[c[0]]+'개'));
     var badge, st;
     if(!it){ badge=el('span','dp-badge dp-none','등록 없음'); none++; }
-    else if(it.status==='ACTIVE'){ badge=el('span','dp-badge dp-ok','공개 기록'); if(it.date===today) live++; }
+    else if(observation(it)){ badge=el('span','dp-badge dp-warn','Shopify '+observation(it).status+' · 확인 시점 기준'); }
+    else if(it.status==='ACTIVE'){ badge=el('span','dp-badge dp-ok','과거 ACTIVE 기록'); }
     else if(it.status==='DRAFT'){ badge=el('span','dp-badge dp-warn','초안 기록'); draft++; }
     else { badge=el('span','dp-badge dp-none',it.status==='deleted_by_owner'?'삭제 이력':'상태 확인 필요'); }
     cat.appendChild(badge); card.appendChild(cat);
     card.appendChild(el('div','dp-title', it? it.title : '오늘 기준 S등급 후보가 없거나 대기 중이에요'));
     var price='';
-    if(it&&it.single_usd!=null){ price='$'+Number(it.single_usd).toFixed(2)+' (마진 '+it.single_margin_pct+'%)'; if(it.pack_usd) price+=' · 1+1 $'+Number(it.pack_usd).toFixed(2)+' ('+it.pack_margin_pct+'%)'; }
+    if(it&&it.single_usd!=null){ price='생성 당시 $'+Number(it.single_usd).toFixed(2)+' (마진 '+it.single_margin_pct+'%)'; if(it.pack_usd) price+=' · 1+1 $'+Number(it.pack_usd).toFixed(2)+' ('+it.pack_margin_pct+'%)'; }
     card.appendChild(el('div','dp-price', price|| (it?'':'다음 실행에서 다시 확인')));
     var steps=el('div','dp-steps'); var states=it? stepState(it) : ['wait','queued','queued','queued','queued']; var cur=states.findIndex(function(v){return v!=='done';});
     STEPS.forEach(function(name,k){
       var s=el('div','dp-step '+(states[k]||'wait')); var i=el('i',null, states[k]==='done'?'✓':(states[k]==='bad'?'!':String(k+1))); s.appendChild(i); s.appendChild(document.createTextNode(name)); steps.appendChild(s);
     });
     card.appendChild(steps);
-    card.appendChild(el('div','dp-next',cur<0?'공개 완료 기록':('다음 처리: '+(cur+1)+'단계 '+STEPS[cur]+' · '+(states[cur]==='bad'?'누락·오류 해결 필요':'확인 대기')+' · 이후 단계는 순서 대기')));
+    card.appendChild(el('div','dp-next',cur<0?'공개 완료 기록':('다음 처리: '+(cur+1)+'단계 '+STEPS[cur]+' · '+(states[cur]==='bad'?'누락·오류 해결 필요':'확인 대기')+(observation(it)?' · 이미지·공개 여부는 별도 확인':' · 이후 단계는 순서 대기'))));
     var det=el('div','dp-detail');
     function row(a,b){var r=document.createElement('div'); r.appendChild(el('span',null,a)); r.appendChild(el('span',null,b)); det.appendChild(r);}
     if(it){
-      row('등록일', it.date+(it.date===today?' (오늘)':''));
+      var o=observation(it);
+      if(o){
+        row('Shopify 확인 시각',o.observed_at+' (UTC) · 자동 실시간 조회 아님');
+        row('Shopify 상태',o.status+' · 온라인 스토어 '+(o.online_store_visible?'공개 확인':'미공개 확인'));
+        row('확인된 이미지',o.media_count+'장');
+        row('증빙 검토','Shopify 상태·이미지 확인은 고시·INCI·안전성 승인과 별개');
+      }
+      row('생성 이력 날짜', it.date+(it.date===today?' (오늘)':''));
       row('다이소 상품번호', String(it.pd_no||'-'));
       var sz=it.size? (it.size.unit+it.size.base+(it.size.count>1?' x '+it.size.count:'')):'표기 없음'; row('용량', sz);
-      row('이미지', it.images!=null?it.images+'장':'기록 없음');
+      row('생성 당시 이미지', it.images!=null?it.images+'장':'기록 없음');
       row('색 의미', '파랑 = 단계 완료, 노랑 = 현재 확인 대기, 빨강 = 현재 보완 필요, 회색 = 이전 단계 대기');
       row('shop.com 최저가', it.shop_com_lowest_usd!=null?'$'+Number(it.shop_com_lowest_usd).toFixed(2):'비교 상품 없음');
       row('가격 근거', it.price_basis||'-');
-      row('초안 사유', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
+      row('생성 당시 초안 사유', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
     } else { row('상태','등록 이력 없음'); row('담당 기준', c[2]); }
     card.appendChild(det);
     card.addEventListener('click',function(){ card.classList.toggle('open'); });
@@ -2143,10 +2159,11 @@ async function renderDailyPipeline(){
   var lg=el('div','dp-legend'); [['#2f5bea','단계 완료'],['#e3b341','현재 확인 대기'],['#f85149','현재 보완 필요'],['#8b949e','이전 단계 대기']].forEach(function(x){ var s=el('span'); var b=el('b'); b.style.background=x[0]; s.appendChild(b); s.appendChild(document.createTextNode(x[1])); lg.appendChild(s); });
   if(grid.parentNode) grid.parentNode.insertBefore(lg, grid);
   function kpi(a,b){var k=el('div','dp-kpi'); k.appendChild(el('small',null,a)); k.appendChild(el('b',null,b)); kp.appendChild(k);}
-  kpi('오늘 공개', live+' / 3'); kpi('초안 기록', String(draft)); kpi('등록 없음', String(none)); kpi('누적 이력', String(items.length));
+  kpi('실시간 공개 집계', '조회 안 함'); kpi('현재 표시 카드', String(grid.children.length)); kpi('등록 없음', String(none)); kpi('누적 이력', String(items.length));
   var dates=items.map(function(i){return i.date;}).filter(Boolean).sort();
   var lastDate=dates.length?dates[dates.length-1]:null;
-  when.textContent = lastDate? ('최근 등록 '+lastDate+(lastDate===today?' (오늘)':'')) : '아직 등록 이력이 없어요';
+  var observed=items.map(function(i){return observation(i);}).filter(Boolean).map(function(o){return o.observed_at;}).sort();
+  when.textContent = (lastDate? '최근 생성 이력 '+lastDate:'등록 이력 없음')+(observed.length?' · Shopify 확인 '+observed[observed.length-1]+' · 시점별 기록':' · Shopify 현재 상태 미조회');
 }
 renderDailyPipeline();
 setInterval(renderDailyPipeline,300000);

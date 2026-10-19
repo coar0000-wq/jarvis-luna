@@ -29,11 +29,20 @@ class PublicSiteTests(unittest.TestCase):
         self.assertEqual(public['site_category'], '베이스메이크업')
         self.assertNotIn('private_owner_note', public)
 
+    def test_neighboring_registry_list_is_explicitly_historical(self):
+        html=(self.root/'index.html').read_text(encoding='utf-8')
+        self.assertIn("sum.textContent='생성 이력 '", html)
+        self.assertIn("ACTIVE:'당시 ACTIVE',DRAFT:'당시 DRAFT'", html)
+        self.assertIn("meta.textContent='생성 당시 '", html)
+        self.assertIn("' · 당시 이미지 '", html)
+        self.assertNotIn("var st={ACTIVE:'공개',DRAFT:'초안'", html)
+
     def test_daily_pipeline_does_not_present_old_or_missing_evidence_as_today_passed(self):
         html=(self.root/'index.html').read_text(encoding='utf-8')
-        self.assertIn("if(it.date===today) live++;", html)
+        self.assertIn("kpi('실시간 공개 집계', '조회 안 함')", html)
         # 2026-10-11 사용자 지시: 성공 파랑 · 준비중 노랑(wait) · 에러 빨강. 증적이 없으면 '준비중'이지 통과가 아니다.
-        self.assertIn("legalBad?'bad':(live?'done':'wait')", html)
+        self.assertNotIn("legalBad?'bad':(live?'done':'wait')", html)
+        self.assertIn("legalBad?'bad':'wait'", html)
         self.assertIn("graded?'done':'wait'", html)
         self.assertIn(".dp-step.wait i{background:#e3b341", html)
         self.assertIn("it.status==='DRAFT'", html)

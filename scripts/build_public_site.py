@@ -129,6 +129,7 @@ SCHEMAS = {
  # 다이소 -> coarfamily 일일 등록 이력. Shopify 내부 ID 는 공개하지 않는다.
  # shop.com 카테고리(뷰티) 노출 상품: 수집 채널 현황 카드용. 가격·평점 등 공개 상품 정보만.
  'data/shop_com_categories.json': obj('status reason collected_at source_url count', categories=[fields('name url')], items=[fields('title brand section price_text list_price_text price_usd discount_pct rating reviews url page')]),
+ 'data/shopify_public_observations.json': dict(items=[fields('pd_no status media_count online_store_visible observed_at source')]),
  'data/shopify_daily_registry.json': dict(items=[dict(fields('pd_no name_kr title category date status handle krw single_usd single_margin_pct pack_usd pack_margin_pct images price_basis shop_com_lowest_usd selection_recorded'), size=fields('unit base count total'), draft_reasons=[True])]),
 }
 UNSAFE = re.compile(r'(?i)(?:github_pat_[A-Za-z0-9_]+|gh[pousr]_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|AKIA[A-Z0-9]{16}|(?:authorization|api[_-]?key|password|access[_-]?token)\s*[:=]\s*\S+|[A-Z]:\\(?:Users|Windows)\\|/home/runner/|(?:localhost|127\.0\.0\.1):\d+)')
