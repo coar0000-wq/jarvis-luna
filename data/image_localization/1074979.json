@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "product_id": "1074979",
+  "title_en": "밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+  "generated_at": "2026-10-19T05:38:16.882305+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260106/description/850/bfsf43xee6Vymbqmz3bH1074979_01_00bfsf43xee6Vymbqmz3bH.jpg",
+      "sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "bytes": 1115336
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        0,
+        1230
+      ],
+      "panel_sha256": "6aa5a7fc32a2a4ce1f9922c483e847b49df6219653c0e55d1f1884c4d65814c8",
+      "status": "used",
+      "korean_boxes": 0,
+      "file": "01-product-en.jpg"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        1230,
+        2570
+      ],
+      "panel_sha256": "b184dbbd6b3ac241cc795ef06af2639db826c9420865060ae4b881bab3b02523",
+      "status": "used",
+      "korean_boxes": 2,
+      "file": "02-face-contour-cream-brightener-en.jpg"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        2570,
+        3319
+      ],
+      "panel_sha256": "ca14930ee5a0ad4a99f10d45a6930bec54ddc602018d39fa22562562ea95f75d",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "발색",
+        "이미지",
+        "디스플레이",
+        "해상도",
+        "따라"
+      ]
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        3319,
+        4700
+      ],
+      "panel_sha256": "f292bba9b565c1421fd433a41b8aac353f2de77f650fefc0a6f723eba9628fff",
+      "status": "used",
+      "korean_boxes": 0,
+      "file": "03-product-en.jpg"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        4700,
+        5827
+      ],
+      "panel_sha256": "ba4c15ea1ad5167014c44ab225d95e560f38229397b4a022a32ffd6434d97112",
+      "status": "used",
+      "korean_boxes": 2,
+      "file": "04-cool-toned-clear-soft-en.jpg"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        5827,
+        6873
+      ],
+      "panel_sha256": "2079f9e69f31e44b279392202b01e526beaa561b4dfca5092f72ea62da929d4f",
+      "status": "excluded",
+      "korean_boxes": 5,
+      "reason": "text_overflow:unit 4"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        6873,
+        8401
+      ],
+      "panel_sha256": "c762bbeae58a19c4f07150dc8fbc31a6f3a726bfbde6ccc327b31a9509880447",
+      "status": "excluded",
+      "korean_boxes": 5,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "위한 Hz",
+        "비지"
+      ]
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        8401,
+        9643
+      ],
+      "panel_sha256": "1fbec03dcc52086fb333636307e864a2b9acee749664097471dc97d3977f518b",
+      "status": "excluded",
+      "korean_boxes": 7,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        9643,
+        11488
+      ],
+      "panel_sha256": "12423f8d55fba6b1f5f5ec296d739123266aa97d0fdf56b28b363d61141152d5",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        11488,
+        12217
+      ],
+      "panel_sha256": "ee61391b7a1740f7bcc3b4b56bcbd75b860f55e4955561be2aa2227ba18015a7",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:RuntimeError"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        12217,
+        13076
+      ],
+      "panel_sha256": "189a73881caa0440ba19908eb6cecaae85b24f8270db8b782730ffabbc89cbc6",
+      "status": "excluded",
+      "korean_boxes": 7,
+      "reason": "translation_failed:RuntimeError"
+    },
+    {
+      "source_sha256": "f0c8b3c4ff6bda0429eb02d73e1081e1cd912ac816462f364c0f95676ef98853",
+      "y": [
+        13076,
+        14385
+      ],
+      "panel_sha256": "2febf94fbfa2fe581173874185508c07ceacd35ff0f6eb1ab4b44c5fc65f6d35",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-product-en.jpg",
+      "sha256": "a76b5da42bec1140e273f2d9e5c889ebdb9d933c61a13308bfc8dc794bf580be",
+      "bytes": 266614,
+      "width": 850,
+      "height": 1230,
+      "alt": "밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "english": {}
+    },
+    {
+      "file": "02-face-contour-cream-brightener-en.jpg",
+      "sha256": "e66852d58df1e35300395f403fa88925fa1e82cd96d5c0a9921d99ebb67de736",
+      "bytes": 116333,
+      "width": 850,
+      "height": 1340,
+      "alt": "밀크터치 디어씽 페이스 컨투어 크림 브라이트너 — Face Contour Cream Brightener",
+      "english": {
+        "1": "Face Contour Cream Brightener",
+        "2": "A clear, pale shade for a natural, soft tone-up!"
+      }
+    },
+    {
+      "file": "03-product-en.jpg",
+      "sha256": "19f53dc37bd8ef8ca630431f0d2e7039d4e48223e857ff24f3d47cc6832ea17d",
+      "bytes": 207079,
+      "width": 850,
+      "height": 1381,
+      "alt": "밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "english": {}
+    },
+    {
+      "file": "04-cool-toned-clear-soft-en.jpg",
+      "sha256": "8dfef85a6bd71b6d4c01de335d97e5e73c793aa227e2ce32606562e999e54853",
+      "bytes": 107188,
+      "width": 850,
+      "height": 1127,
+      "alt": "밀크터치 디어씽 페이스 컨투어 크림 브라이트너 — Cool-Toned, Clear & Soft Pale Shades",
+      "english": {
+        "1": "Cool-Toned, Clear & Soft Pale Shades",
+        "2": "A clear, sheer pale shade that softly brightens your complexion by one tone for effortless color correction"
+      }
+    }
+  ],
+  "status": "ok",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "role_rights_and_label_evidence_review_required"
+  ],
+  "summary": {
+    "panels": 12,
+    "used": 4,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "human_face": 1,
+      "korean_text_remaining": 2,
+      "text_overflow": 1,
+      "translation_failed": 3
+    }
+  }
+}

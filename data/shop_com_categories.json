@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "reason": "",
-  "collected_at": "2026-10-18T05:54:30+00:00",
+  "collected_at": "2026-10-19T05:42:56+00:00",
   "source_url": "https://shop.com/categories",
   "pages": [
     "/categories",
@@ -270,7 +270,7 @@
       "price_usd": 31.0,
       "discount_pct": null,
       "rating": 4.5,
-      "reviews": 531,
+      "reviews": 532,
       "url": "https://shop.com/products/7781766791343/running-late-perfume",
       "page": "Beauty"
     },
@@ -296,7 +296,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2073,
+      "reviews": 2074,
       "url": "https://shop.com/products/7739001766060/pout-preserve-hydrating-peptide-lip-treatment",
       "page": "Beauty"
     },
@@ -309,7 +309,7 @@
       "price_usd": 19.5,
       "discount_pct": null,
       "rating": 4.8,
-      "reviews": 2851,
+      "reviews": 2853,
       "url": "https://shop.com/products/5710551548056/daily-microfoliant-exfoliator",
       "page": "Beauty"
     },
@@ -361,7 +361,7 @@
       "price_usd": 24.0,
       "discount_pct": null,
       "rating": 4.9,
-      "reviews": 6738,
+      "reviews": 6746,
       "url": "https://shop.com/products/8532767277309/le-chouchou",
       "page": "Beauty"
     }

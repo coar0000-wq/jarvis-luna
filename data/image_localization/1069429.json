@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "product_id": "1069429",
+  "title_en": "46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml",
+  "generated_at": "2026-10-19T05:41:48.596535+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250805/description/850/aFXdUXd9aPaoWEibJ7Ut1069429_01_01aFXdUXd9aPaoWEibJ7Ut.jpg",
+      "sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "bytes": 720114
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        0,
+        1621
+      ],
+      "panel_sha256": "2945a555d82462fe7091af0bb30c56368b408982c599613979d6234cf5aa6b37",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "translation_failed:RuntimeError"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        1621,
+        2591
+      ],
+      "panel_sha256": "03e40c362d5f24c6a831ceae3a5ebdcd71c22f3d59f44e2ea0e8ea73a11ad466",
+      "status": "excluded",
+      "korean_boxes": 7,
+      "reason": "translation_failed:RuntimeError"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        2591,
+        4491
+      ],
+      "panel_sha256": "5b58927727ca1defcd5411ed5d72496d0e2815b4d87da8ffdba1369fd4dbdb33",
+      "status": "excluded",
+      "korean_boxes": 14,
+      "reason": "translation_failed:RuntimeError"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        4491,
+        5421
+      ],
+      "panel_sha256": "86b45905b9a4b244d9998ddad8c58b1f8b079de82978e9b87d2ff0c79cedfbd4",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "translation_failed:RuntimeError"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        5421,
+        7106
+      ],
+      "panel_sha256": "1fdd220d104121c85c78453bdf3417132ba20839e77fabfbc7a331dfa5390987",
+      "status": "excluded",
+      "reason": "korean_regulatory_panel"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        7106,
+        8314
+      ],
+      "panel_sha256": "751c0f8b612c4911be686e1924ff7256e637b7bdd59961bd7881dee9045da3ac",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        8314,
+        9292
+      ],
+      "panel_sha256": "73398432840e9df2c12728a7b2031620e65197a870505a90a8fc364c2a2f20a6",
+      "status": "excluded",
+      "korean_boxes": 15,
+      "reason": "translation_failed:RuntimeError"
+    }
+  ],
+  "outputs": [],
+  "status": "failed",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable",
+    "no_localized_panels"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "role_rights_and_label_evidence_review_required"
+  ],
+  "summary": {
+    "panels": 7,
+    "used": 0,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "korean_regulatory_panel": 1,
+      "translation_failed": 5
+    }
+  }
+}
