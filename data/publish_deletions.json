@@ -224,6 +224,16 @@
       "replacement_sha256": "08ce17191386180902c2a89c6ffd4d74a49fb0739af90f3ceafc2a44b7a5ab49"
     },
     {
+      "path": "data/daiso_real/collection_status.json",
+      "base_sha256": "89d065898b00f89ef388a8521a600811656dd80c4cd97f6ba1aab209bed5ca77",
+      "ids": [
+        "ExchangeRate-API 1,334.77(2026-10-18)"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
       "path": "data/daiso_real/desk_catalog.json",
       "base_sha256": "e4509d8da059dd37032506f30fe6b05baa2ad6d3e87e291375cde11fb2ee4861",
       "ids": [
@@ -288,20 +298,19 @@
       "delete_file": false
     },
     {
-      "path": "data/gosi.json",
-      "base_sha256": "a9f22cb98b8e78792ff0a0b4fb739ee0ab376d2a62499cca0b38e458da5bbf6a",
-      "replacement_sha256": "d487accdbc1b23b0f4bde3603bdf90c9f56446121714cbafb71137fd13af5907",
+      "path": "data/daiso_real/shortlist_observations.json",
+      "base_sha256": "9c5abf48dfde4acb145f71bed0d276534f8e35724a2a9bf4df1e6502c1ed49b6",
+      "replacement_sha256": "3f9444e1ca402e43844dbdb794d20ad13361eb9b2e5ac066ae1226273faef8be",
       "ids": [
-        "1061918",
-        "1067500",
-        "1068721",
-        "1068733",
-        "1072800",
-        "1074979"
+        "1049275",
+        "1049276",
+        "CP000106",
+        "CP000107"
       ],
-      "reason": "Exact diagnostic replacement; immutable HEAD, prior and current gosi retained.",
-      "policy_ref": "scripts/gosi_observation_history.py",
-      "delete_file": false
+      "policy_ref": "scripts/shortlist_observation_history.py",
+      "delete_file": false,
+      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained.",
+      "scope_evidence_sha256": "28f9ebeb3f734c05735468914c4005bc40d6aa138663a29c74b3c99443509f88"
     },
     {
       "path": "data/knowledge/real_sources.json",
@@ -331,6 +340,30 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/shopify_import_report.json",
+      "base_commit": "2b8c82d5e7488d5c1b13c1c06c13aea39021c148",
+      "base_sha256": "b7df4cacc913f27323ecd42038031343cd117d210853e1b7a68d30d1ea8deec4",
+      "replacement_sha256": "1b14ef4282fb5df6aa8af7770a3469f467032fa1cc02b7e0057f5c0b65307c31",
+      "ids": [
+        "1049275"
+      ],
+      "delete_file": false,
+      "policy_ref": "scripts/build_shopify_import_csv.py",
+      "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted."
+    },
+    {
+      "path": "data/shopify_listing_copy.json",
+      "base_sha256": "7110fec52b358b7e7eb02a42e1d0adec7fab2b45b82b62d7aa7e7d6479dd4c67",
+      "replacement_sha256": "81dc8a414b18dff4029b85336a647f6eb022df5e2ed207fa991293a6366fc2f5",
+      "base_commit": "2b8c82d5e7488d5c1b13c1c06c13aea39021c148",
+      "ids": [
+        "1049275"
+      ],
+      "delete_file": false,
+      "policy_ref": "scripts/build_listing_copy_local.py",
+      "reason": "Retired canonical S draft rows moved to preserved non-approval draft_history; current rows exactly match canonical S and current gate. Exact prior bytes remain in Git."
     },
     {
       "path": "data/us_beauty_products.json",
@@ -392,55 +425,6 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
-    },
-    {
-      "path": "data/shopify_listing_copy.json",
-      "base_sha256": "7110fec52b358b7e7eb02a42e1d0adec7fab2b45b82b62d7aa7e7d6479dd4c67",
-      "replacement_sha256": "81dc8a414b18dff4029b85336a647f6eb022df5e2ed207fa991293a6366fc2f5",
-      "base_commit": "2b8c82d5e7488d5c1b13c1c06c13aea39021c148",
-      "ids": [
-        "1049275"
-      ],
-      "delete_file": false,
-      "policy_ref": "scripts/build_listing_copy_local.py",
-      "reason": "Retired canonical S draft rows moved to preserved non-approval draft_history; current rows exactly match canonical S and current gate. Exact prior bytes remain in Git."
-    },
-    {
-      "path": "data/shopify_import_report.json",
-      "base_commit": "2b8c82d5e7488d5c1b13c1c06c13aea39021c148",
-      "base_sha256": "b7df4cacc913f27323ecd42038031343cd117d210853e1b7a68d30d1ea8deec4",
-      "replacement_sha256": "1b14ef4282fb5df6aa8af7770a3469f467032fa1cc02b7e0057f5c0b65307c31",
-      "ids": [
-        "1049275"
-      ],
-      "delete_file": false,
-      "policy_ref": "scripts/build_shopify_import_csv.py",
-      "reason": "Derived import diagnostic skipped rows replaced for the current candidate set; exact prior report remains in Git at base_commit and base_sha256. No product or safety evidence is deleted."
-    },
-    {
-      "path": "data/daiso_real/collection_status.json",
-      "base_sha256": "89d065898b00f89ef388a8521a600811656dd80c4cd97f6ba1aab209bed5ca77",
-      "ids": [
-        "ExchangeRate-API 1,334.77(2026-10-18)"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/daiso_real/shortlist_observations.json",
-      "base_sha256": "9c5abf48dfde4acb145f71bed0d276534f8e35724a2a9bf4df1e6502c1ed49b6",
-      "replacement_sha256": "3f9444e1ca402e43844dbdb794d20ad13361eb9b2e5ac066ae1226273faef8be",
-      "ids": [
-        "1049275",
-        "1049276",
-        "CP000106",
-        "CP000107"
-      ],
-      "policy_ref": "scripts/shortlist_observation_history.py",
-      "delete_file": false,
-      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained.",
-      "scope_evidence_sha256": "28f9ebeb3f734c05735468914c4005bc40d6aa138663a29c74b3c99443509f88"
     }
   ]
 }

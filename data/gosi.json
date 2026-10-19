@@ -2794,6 +2794,12 @@
           "image": "data/daiso_real/gosi_slice/1067500_03_b0.jpg",
           "reason": "",
           "capture_scope": "candidate_image_only"
+        },
+        {
+          "attempted_at": "2026-10-19T03:30:24.980633+00:00",
+          "source": "vision",
+          "status": "stopped",
+          "reason": "gemini: quota circuit stopped (429)"
         }
       ],
       "retained_source_stale": true
@@ -3071,7 +3077,13 @@
       }
     ]
   },
-  "vision_deferred": [],
+  "vision_deferred": [
+    "1067500",
+    "1068721",
+    "1074979",
+    "1068733",
+    "1072800"
+  ],
   "agent_read_note": "2026-09-16 Gemini 할당량(429)이 소진되어 5건은 에이전트가 상세 이미지를 직접 읽어 옮겼다. 읽기이지 생성이 아니다. 각 항목에 vision_image 로 근거 이미지를 남겼으니 사람이 열어 대조할 수 있다. verified 는 대조 후 켠다.",
   "provider_stops": [
     {
@@ -3079,6 +3091,12 @@
       "code": 403,
       "category": "auth",
       "stopped_at": "2026-10-18T20:16:15.613869+00:00"
+    },
+    {
+      "provider": "gemini",
+      "code": 429,
+      "category": "quota",
+      "stopped_at": "2026-10-19T03:32:26.646797+00:00"
     }
   ],
   "provider_stop_history": [
