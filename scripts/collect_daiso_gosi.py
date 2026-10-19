@@ -18,6 +18,7 @@
 from __future__ import annotations
 
 import html as H
+import io
 import json
 import re
 import time
@@ -30,6 +31,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from scripts.gosi_observation_history import (validate_document, attempt, observe_field, merge_images, mark_stale, publish_observation, receipt, sha, utcnow, ProviderStop, classify_stop, assert_not_stopped, persist_stop)
+from scripts.gosi_image_sources import (IMAGE_MIMES, image_candidates, image_url, diagnostic_url, denial_diagnostic)
 DATA = ROOT / "data"
 GOSI = DATA / "gosi.json"
 S_RECOMMENDATIONS = DATA / 'daiso_real' / 'shopify_s_recommendations.json'
@@ -37,6 +39,8 @@ IMGDIR = DATA / "daiso_real" / "gosi_img"
 API = "https://fapi.daisomall.co.kr"
 DELAY = 2.0
 TIMEOUT = 30
+MAX_IMAGE_BYTES = 32 * 1024 * 1024
+MAX_IMAGE_PIXELS = 64 * 1024 * 1024
 PLACEHOLDER = (
     "상세페이지 참조",
     "상세 페이지 참조",
@@ -60,6 +64,13 @@ FIELD = {
 
 PAGE_URL = "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo={}"
 UA = "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)"
+
+
+def annotate_denial(stop, exc, url, method, stage):
+    try:
+        stop.diagnostic = denial_diagnostic(exc, url, method, stage, utcnow())
+    except Exception:
+        stop.diagnostic = {'stage': stage, 'diagnostic_unavailable': True}
 
 
 def post(path: str, pd_no: str) -> dict[str, Any] | None:
@@ -92,6 +103,8 @@ def post(path: str, pd_no: str) -> dict[str, Any] | None:
     except Exception as exc:
         stop = classify_stop(exc, 'daiso')
         if stop:
+            annotate_denial(stop, exc, API + path, 'POST',
+                            'description_api' if path.endswith('selPdDtlDesc') else 'notice_api')
             raise stop from exc
         print(f'API failed: {type(exc).__name__}')
         return None
@@ -157,14 +170,40 @@ def volume_from_text(text: str) -> str:
 
 
 def download_image(url, dest):
-    clean_url = re.sub(r'/dims/.*$', '', url)
-    req = urllib.request.Request(clean_url, headers={'User-Agent': UA, 'Referer': 'https://www.daisomall.co.kr/'})
+    # Keep the exact supplied CDN rendition. Never switch to an original or
+    # another representation after a denial. Video sources are never requested.
+    if image_url(url, PAGE_URL.format('')) != url:
+        return None
+    req = urllib.request.Request(url, headers={'User-Agent': UA, 'Referer': 'https://www.daisomall.co.kr/'})
     try:
-        raw = urllib.request.urlopen(req, timeout=TIMEOUT).read()
-        evidence = receipt(raw, clean_url, 'downloaded_image_bytes')
-        if len(raw) < 500:
-            return None
-        dest = dest.with_name(dest.stem + '_' + sha(raw) + dest.suffix)
+        from PIL import Image
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as response:
+            mime = response.headers.get('Content-Type', '').split(';')[0].strip().lower()
+            if mime not in IMAGE_MIMES:
+                return None
+            raw = response.read(MAX_IMAGE_BYTES + 1)
+            if len(raw) > MAX_IMAGE_BYTES:
+                return None
+        # An HTML error or a video must never be saved as a product image, even
+        # when a server supplies an image MIME. Verify the actual image bytes.
+        with Image.open(io.BytesIO(raw)) as img:
+            if img.width * img.height > MAX_IMAGE_PIXELS:
+                return None
+            actual_mime = Image.MIME.get(img.format, '')
+            if actual_mime != mime:
+                return None
+            extension = {'JPEG': '.jpg', 'PNG': '.png', 'WEBP': '.webp', 'GIF': '.gif',
+                         'BMP': '.bmp', 'TIFF': '.tiff', 'AVIF': '.avif'}.get(img.format)
+            if extension is None:
+                return None
+            img.verify()
+        # verify() alone does not decode JPEG scan data or detect all truncation.
+        with Image.open(io.BytesIO(raw)) as decoded:
+            decoded.load()
+        evidence = receipt(raw, diagnostic_url(url), 'downloaded_image_bytes')
+        evidence['source_url_redacted'] = diagnostic_url(url) != url
+        evidence['content_type'] = mime
+        dest = dest.with_name(dest.stem + '_' + sha(raw) + extension)
         if dest.exists() and dest.read_bytes() != raw:
             raise ValueError('image hash collision/tamper')
         if not dest.exists():
@@ -173,6 +212,7 @@ def download_image(url, dest):
     except Exception as exc:
         stop = classify_stop(exc, 'daiso')
         if stop:
+            annotate_denial(stop, exc, url, 'GET', 'detail_image')
             raise stop from exc
         return None
 
@@ -195,8 +235,9 @@ def collect_one(pd_no, row):
     attempt(row, utcnow(), 'daiso_desc', 'received' if desc_res else 'failed', capture_scope='description_api_only')
     if desc_res and desc_res.get('success'):
         desc = ((desc_res.get('data') or {}).get('pdDtlDesc') or {})
-        raw_html = H.unescape(desc.get('pdDtlDc') or '')
-        urls = re.findall(r'src="(https?://[^"]+)"', raw_html)
+        # Attribute entities are decoded once by HTMLParser, not as new tags.
+        raw_html = desc.get('pdDtlDc') or ''
+        urls = image_candidates(raw_html, PAGE_URL.format(pd_no))
         vsip = clean(desc.get('vsipPdDtl') or '')
         if vsip:
             row.setdefault('detail_blurb', vsip[:800])
@@ -207,18 +248,34 @@ def collect_one(pd_no, row):
     set_if_empty(row, 'volume', volume_from_text(str(row.get('name') or '')), 'product_name')
     saved, observations = [], {}
     IMGDIR.mkdir(parents=True, exist_ok=True)
-    for i, url in enumerate(urls):
-        ext = '.png' if '.png' in url.lower() else '.jpg'
-        result = download_image(url, IMGDIR / f'{pd_no}_{i:02d}{ext}')
-        if result:
-            item_path, evidence = result
-            saved.append(item_path)
-            observations[item_path] = dict(evidence, url=url, intended_product_id=pd_no, product_identity_verified=False)
-        else:
-            attempt(row, utcnow(), 'daiso_image', 'failed', url=url)
-            mark_stale(row)
-        time.sleep(0.3)
-    merge_images(row, urls, saved, observations)
+    def retain_received():
+        # Query-bearing URLs may contain temporary credentials. Retain their
+        # sanitized receipt, never publish secrets as reusable detail URLs.
+        public_urls = [url for url in urls if diagnostic_url(url) == url]
+        merge_images(row, public_urls, saved, observations)
+
+    try:
+        for i, url in enumerate(urls):
+            ext = '.png' if '.png' in url.lower() else '.jpg'
+            result = download_image(url, IMGDIR / f'{pd_no}_{i:02d}{ext}')
+            if result:
+                item_path, evidence = result
+                saved.append(item_path)
+                observations[item_path] = dict(evidence, url=diagnostic_url(url), intended_product_id=pd_no, product_identity_verified=False)
+            else:
+                attempt(row, utcnow(), 'daiso_image', 'failed', url=diagnostic_url(url))
+                mark_stale(row)
+            time.sleep(0.3)
+    except ProviderStop:
+        try:
+            retain_received()
+        except Exception:
+            # A bookkeeping error must never turn a denial into a normal failure.
+            print('GOSI_IMAGE_EVIDENCE_MERGE_FAILED: access stop retained', file=sys.stderr)
+        raise
+    else:
+        retain_received()
+
 def main() -> int:
     try:
         doc = json.loads(GOSI.read_text(encoding='utf-8-sig'))
@@ -235,9 +292,14 @@ def main() -> int:
         try:
             collect_one(pd_no, row)
         except ProviderStop as exc:
-            attempt(row, utcnow(), 'daiso', 'stopped', reason=str(exc))
-            mark_stale(row)
+            # Persist the access stop before fallible per-product bookkeeping.
             persist_stop(doc, exc)
+            try:
+                attempt(row, utcnow(), 'daiso', 'stopped', reason=str(exc),
+                        **({'diagnostic': exc.diagnostic} if getattr(exc, 'diagnostic', None) else {}))
+                mark_stale(row)
+            except Exception:
+                print('GOSI_STOP_BOOKKEEPING_FAILED: access stop retained', file=sys.stderr)
             break
         except Exception as exc:
             attempt(row, utcnow(), 'daiso', 'failed', error_type=type(exc).__name__)

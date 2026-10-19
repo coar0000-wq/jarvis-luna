@@ -14,10 +14,12 @@
     "verification": {
       "file": "requirements/requirements-verification.txt",
       "direct": [
-        "pyyaml",
-        "pyflakes"
+        "pillow",
+        "pyflakes",
+        "pyyaml"
       ],
       "packages": [
+        "pillow",
         "pyflakes",
         "pyyaml"
       ]
