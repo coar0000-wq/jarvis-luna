@@ -569,15 +569,15 @@ class Transaction:
         # presence must not regenerate or mutate canonical commerce quantities.
         return bool(sources) and all(n == 'data/publish_deletions.json' or n.startswith(('data/daiso_real/candidate_', 'data/daiso_real/collection_status.json', 'data/daiso_real/crawl_state.json', 'data/daiso_real/shortlist_observations.json', 'data/daiso_real/.shortlist_observation_claim.json', 'data/agents/', 'data/knowledge/cumulative_history.json', 'data/health_check_history.jsonl', 'data/typesafe_advisory.json', 'data/typesafe_team_advisory.json', 'data/typesafe_shared_state.json', 'data/typesafe_call_log/')) for n in sources)
 
+    @timed_phase('command')
     def command(self, work, args):
         env = dict(os.environ, TYPESAFE_ENABLED='0', GEMINI_FALLBACK_ENABLED='0',
                    GEMINI_ENABLED='0', TYPESAFE_ALLOW_PAID='0', PYTHONIOENCODING='utf-8')
         for key in ('TYPESAFE_API_KEY', 'GEMINI_API_KEY', 'GOOGLE_API_KEY'):
             env.pop(key, None)
-        with timed_phase('command', command_index=len(self.executed_commands) + 1):
-            p = subprocess.run([sys.executable, '-B', *args], cwd=work, env=env)
-            if p.returncode:
-                raise PublishError(f'offline final generation/check failed: {args[0]} ({p.returncode})')
+        p = subprocess.run([sys.executable, '-B', *args], cwd=work, env=env)
+        if p.returncode:
+            raise PublishError(f'offline final generation/check failed: {args[0]} ({p.returncode})')
         self.executed_commands.append(list(args))
 
     def reapply_collector(self, work, report_path):
