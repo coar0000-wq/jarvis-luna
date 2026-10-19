@@ -1,0 +1,925 @@
+{
+  "schema_version": 4,
+  "generated_at": "2026-10-19T01:47:53.083242+00:00",
+  "source": "data/daiso_real/shopify_s_recommendations.json",
+  "agent_input_signature": {
+    "schema_version": 2,
+    "semantic_sources": {
+      "data/product_master.json": "afd70bcf2eb752662e3613c922cccf19e0e6fb051256838c95279c5e6e12db15",
+      "data/gosi.json": "e45230f279b940477956aa0cb65f237504e03ca8677f99791e0b9862a4c85caa",
+      "data/daiso_real/daiso_us_labels.json": "158b36042243ecd86f4b80627df52d9945cc5f8d4bc31a5cf92a1f7124d66d55",
+      "data/pricing_model.json": "e45db56ff56687c96f876f9e68ce88a9c911bbd1c25dcb4b398227a8693f2337",
+      "data/legal_products.json": "0d96fa180cddde7444f611c90a43b0afa404f29462cc80a63e57438bec1e6bce",
+      "data/daiso_real/shopify_s_recommendations.json": "c74397a135221f265aeb11285d17300c1945910faade7a3ea4420964ef2f1987",
+      "data/shopify_listing_copy.json": "828561761b9a34148c09419eadfb72ea4b784c52d5e8d317e34acb4959883b8b",
+      "data/shopify_shortlist.json": "b4e400a9740ed65dd255f2b6fcaafc9b786602d959a13ba06c4009dc16b31c1b",
+      "data/legal_full.json": "8b901092a8afbfadc1230c9fbadce30dbc960218e93e8be8b6f9cb52a0d10d12",
+      "data/mocra_readiness.json": "c92170e491dbf6ff674f243679f0e50a439f89be225c6a74b8ba5710873f61d1",
+      "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
+      "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
+      "data/manual/owner_draft_approvals.json": "c9314abe5f1e4a58067adbc6b18a3894082c018a8dfa3ad6f9acfeab8a64e20d",
+      "data/us_claim_rules.json": "d0ea3f50a5601b9e7e6ebc17cc931b7f89735c12223d6fe6463169c942456732",
+      "data/manual/official_label_text.json": "3e38264931d8bcdab04957b0a31715703099fe7b8557aa1a96df48b6fe651021",
+      "config/daiso_commerce_strategy.json": "fc07b58da6d6b8a5fd1d0a5dde464fcd65a136df20e17131de17bc25fd5967f2",
+      "masked/manufacturer_safety_record": "33b3830261351a7787cb6cced18029091b2597606064b5f7e7b08e637d6057a1",
+      "masked/product_accuracy_evidence": "a8554db0aa047990a80bc9cb4156a7de51d609c9e6e6d9f1558c9a674757d069",
+      "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
+    },
+    "recommendations_sha256": "65f3111a5d2df721931d1f0b153c4b0c3aa45e9ac66f6b12320d70e2c1e8afee"
+  },
+  "total": 7,
+  "agent_ready": 0,
+  "ready": 0,
+  "draft_ready": 0,
+  "public_ready": 0,
+  "counts": {
+    "ontology": 7,
+    "copy": 0,
+    "gosi": 4,
+    "us_label": 3,
+    "price": 7,
+    "legal": 3,
+    "manufacturer_safety_record": 0,
+    "legal_full": 0
+  },
+  "blockers": {
+    "copy": 7,
+    "gosi": 3,
+    "us_label": 4,
+    "legal": 4,
+    "manufacturer_safety_record": 7
+  },
+  "price_policy": {
+    "mode": "evidence_based_price",
+    "strategy_file": "config/daiso_commerce_strategy.json",
+    "strategy_sha256": "94071a8903880c4b5993b0caa4dea76bfa35f99ac36c92e6bd1c7c3327f10634",
+    "margin_hard_block": false,
+    "products_with_profit_warnings": 0,
+    "note": "시장가격 미확인은 비용 기반 임시 가격이 있는 초안 등록을 막지 않는다. 공개 전 가격 검토는 별도다. 마진 미달은 items[].price.profit_warnings 로 공개한다."
+  },
+  "typesafe_summary": {
+    "framework": "typesafe_system_one_compatible",
+    "mode_counts": {
+      "disabled_local_advisory": 7
+    },
+    "typesafe_calls": null,
+    "free_credits_only": 0,
+    "paid_api_calls": 0,
+    "enforced": 0,
+    "usage": {
+      "stopped": "ledger_unavailable",
+      "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
+      "purchased_credits": false
+    },
+    "cumulative_ok_calls": 500,
+    "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
+    "note": "기본은 비용 없는 로컬 advisory. 실제 호출은 검증된 계정의 무료 크레딧 증빙과 공유 누적 한도 내에서만 가능하며 유료 override는 없다."
+  },
+  "count": 7,
+  "note": "ontology=CP 정본 조인, gosi=한국 고시 4항목, us_label=영문 라벨(플레이스홀더 제외), legal=자동 하드블록, legal_full=MoCRA/FPLA 공개 필드. agent_ready는 LLM 입력 자격, ready는 Shopify 초안 준비, public_ready는 공개 판매 준비 건수.",
+  "items": [
+    {
+      "rank": 1,
+      "canonical_product_id": "CP000107",
+      "pd_no": "1049276",
+      "product_id": "1049276",
+      "name": "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "category": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 100,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049276",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1049276",
+        "source_identity_sha256": "c3798d13f5c142e81cd0e8f000343674f3f4d77ae998dc112fd02ef43c8d2b52",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "2ml",
+        "maker": "화장품제조업자: ㈜이앤씨 / 화장품책임판매업자: ㈜브이티코스메틱",
+        "origin": "한국",
+        "ingredients": "정제수, 다이프로필렌글라이콜, 글리세린, 나이아신아마이드, 부틸렌글라이콜, 마카다미아씨오일, 1,2-헥산다이올, 에틸헥실팔미테이트, 실리카, 소듐아크릴레이트/소듐아크릴로일다이메틸타우레이트코폴리머, 폴리아이소부텐, 글",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "2ml",
+        "manufacturer": "Manufacturer: E&C Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Dipropylene Glycol, Glycerin, Niacinamide, Butylene Glycol, Macadamia Ternifolia Seed Oil, 1,2-Hexanediol, Ethylhexyl Palmitate, Silica, Sodium Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polyisobutene, Glycereth-26, Ethylhexylglycerin, Caprylyl Glycol, Adenosine, Sodium Polyacrylate, Centella Asiatica Extract, Sodium Hyaluronate, Caprylyl/Capryl Glucoside, Sorbitan Oleate, Xanthan Gum, Propolis Extract, Asiaticoside, Madecassoside, Madecassic Acid, Asiatic Acid, Glycine, Serine, Glutamic Acid, Aspartic Acid, Leucine, Alanine, Lysine, Arginine, Tyrosine, Phenylalanine, Threonine, Proline, Valine, Isoleucine, Histidine, Methionine, Cysteine",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 23.99,
+        "margin_pct": 60.9,
+        "register_blocked": false,
+        "price_evidence_ok": true,
+        "price_evidence_source": "serpapi_google_shopping",
+        "price_evidence_reasons": [],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 2,
+      "canonical_product_id": "CP000130",
+      "pd_no": "1055167",
+      "product_id": "1055167",
+      "name": "본셉 레티놀 500 IU 세럼 30 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 98,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1055167",
+        "source_identity_sha256": "9556deeb7547428569ef893e49a22dfcde07b1c8e698949f76107778b91a2bc3",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "30ml",
+        "maker": "화장품제조업자: (주)메가코스 / 화장품책임판매업자: (주)토니모리",
+        "origin": "한국",
+        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 스쿠알란, 1,2-헥산다이올, 시어버터, C9-12알케인, 다이메티콘, 바쿠치올, 레티놀(500IU/g), C14-22알코올, 글리세릴스테아레이트, 피이지-100스테아레이트, 해바",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "30ml",
+        "manufacturer": "Manufacturer: MEGACOS Co., Ltd. / Distributor (responsible seller, Korea): TONYMOLY Co., Ltd., Republic of Korea",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Butylene Glycol, Glycerin, Squalane, 1,2-Hexanediol, Butyrospermum Parkii (Shea) Butter, C9-12 Alkane, Dimethicone, Bakuchiol, Retinol, C14-22 Alcohols, Glyceryl Stearate, PEG-100 Stearate, Helianthus Annuus (Sunflower) Seed Oil, Glyceryl Stearate SE, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, C12-20 Alkyl Glucoside, Glycine Soja (Soybean) Oil, Tocopheryl Acetate, Allantoin, Ethylhexylglycerin, Carbomer, Tromethamine, Adenosine, Xanthan Gum, Disodium EDTA, Sorbitan Isostearate, BHT, Bixa Orellana Seed Oil, Ceramide NP, Phaseolus Radiatus Seed Extract, Panthenol, Tocopherol, Hydrogenated Lecithin, Caprylic/Capric Triglyceride, Polyglyceryl-10 Myristate, Centella Asiatica Extract, Sodium Hyaluronate, Fragrance|Perfume|Parfum",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 19.99,
+        "margin_pct": 44.9,
+        "register_blocked": false,
+        "price_evidence_ok": true,
+        "price_evidence_source": "serpapi_google_shopping",
+        "price_evidence_reasons": [],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 3,
+      "canonical_product_id": "CP000178",
+      "pd_no": "1061918",
+      "product_id": "1061918",
+      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 98,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1061918",
+        "source_identity_sha256": "8c562623dad80cd5d64bc45b8cc21c5178353483db2fd6b840be6ff797548d78",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "50mg + 10ml",
+        "maker": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
+        "origin": "한국",
+        "ingredients": "[1제] 만니톨, 하이드록시프로필메틸셀룰로오스, 아스코빅애씨드(3 %), 아세틸시스테인, 치자추출물, 소듐하이알루로네이트, 소듐헥사메타포스페이트, 덱스트린\n[2제] 정제수, 부틸렌글라이콜, 글리세린, 나이아신아마이드",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "50mg + 10ml",
+        "manufacturer": "화장품제조업자: (주)블리스팩 / 화장품책임판매업자: (주)토니모리",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 18.32,
+        "margin_pct": 40.0,
+        "register_blocked": false,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        ],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "market_price_review",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 8,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 4,
+      "canonical_product_id": "CP000216",
+      "pd_no": "1067498",
+      "product_id": "1067498",
+      "name": "[영양광채]VT PDRN 광채 크림 50 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 96,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1067498",
+        "source_identity_sha256": "12dd6ff685d5315d2d3576d7874fc043da382174a32fe2e6d4b2d2ba9f5b97aa",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "50ml",
+        "maker": "화장품제조업자: (주)예그리나 / 화장품책임판매업자: (주)브이티코스메틱",
+        "origin": "한국",
+        "ingredients": "정제수, 부틸렌글라이콜, 글리세린, 프로판다이올, C12-15알킬벤조에이트, 카프릴릭/카프릭트라이글리세라이드, 폴리글리세린-3, 메틸하이드로제네이티드로지네이트, 1,2-헥산다이올, 나이아신아마이드, 카프릴릭/카프릭/",
+        "gosi_ok": true
+      },
+      "us_label": {
+        "net_contents": "50ml",
+        "manufacturer": "Manufacturer: YEGRINA Co., Ltd. / Distributor (responsible seller, Korea): VT Cosmetics Co., Ltd., Republic of Korea",
+        "country_of_origin": "Korea",
+        "ingredients_inci": "Water, Butylene Glycol, Glycerin, Propanediol, C12-15 Alkyl Benzoate, Caprylic/Capric Triglyceride, Polyglycerin-3, Methyl Hydrogenated Rosinate, 1,2-Hexanediol, Niacinamide, Caprylic/Capric/Myristic/Stearic Triglyceride, C14-22 Alcohols, Bis-Diglyceryl Polyacyladipate-2, Vinyl Dimethicone, Cetearyl Alcohol, Panthenol, Glyceryl Stearate, Betaine, C12-20 Alkyl Glucoside, Polyacrylate-13, Palmitic Acid, Hydrogenated Vegetable Oil, Stearic Acid, Cetearyl Glucoside, Hydrogenated Polyisobutene, Macadamia Ternifolia Seed Oil, Tromethamine, Glyceryl Acrylate/Acrylic Acid Copolymer, Carbomer, Xanthan Gum, Ethylhexylglycerin, Allantoin, Adenosine, Polyglyceryl-10 Laurate, Ethylhexyl Palmitate, Disodium EDTA, Gellan Gum, Sorbitan Isostearate, Agar, Squalane, Hydrogenated Lecithin, Helianthus Annuus (Sunflower) Seed Oil, Sodium Hyaluronate, Guaiazulene, Hydrolyzed Elastin, Panax Ginseng Root Extract, Copper Chlorophyll, Potassium Hyaluronate, Hydroxypropyltrimonium Hyaluronate, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Hydrolyzed Collagen, Caprylyl Glycol, Rosmarinus Officinalis (Rosemary) Extract, Ceramide NP, Pentylene Glycol, Sodium DNA, Sodium Hyaluronate Crosspolymer, Ceramide NS, Sodium Acetylated Hyaluronate, Phytosphingosine, Citric Acid, Cholesterol, Sodium Guaiazulene Sulfonate, Ceramide AS, Ceramide AP, Ceramide EOP, Fragrance|Perfume|Parfum",
+        "us_label_ok": true
+      },
+      "price": {
+        "price_usd": 31.99,
+        "margin_pct": 62.4,
+        "register_blocked": false,
+        "price_evidence_ok": true,
+        "price_evidence_source": "serpapi_google_shopping",
+        "price_evidence_reasons": [],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "pass",
+        "hard_block": false,
+        "hard_block_reason": ""
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "keep_s",
+        "legal_gate_advisory": "review",
+        "risk_level": "high",
+        "risk_points": 3,
+        "team_routes": [
+          "legal",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, manufacturer_safety_record_missing",
+          "public blockers: copy, manufacturer_safety_record_missing, product_accuracy_owner_review_required, legal_full",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 5,
+      "canonical_product_id": "CP000230",
+      "pd_no": "1068721",
+      "product_id": "1068721",
+      "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
+      "category": "스킨케어",
+      "price_krw": 5000,
+      "shopify_score": 93,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1068721",
+        "source_identity_sha256": "a19d37118c633f6016c7b2487e41614792e7d8ab7da22527dc53970520c249d7",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 19.63,
+        "margin_pct": 40.0,
+        "register_blocked": false,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        ],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "market_price_review",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 9,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 6,
+      "canonical_product_id": "CP000267",
+      "pd_no": "1074979",
+      "product_id": "1074979",
+      "name": "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너",
+      "category": "스킨케어",
+      "price_krw": 3000,
+      "shopify_score": 85,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074979",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1074979",
+        "source_identity_sha256": "c97207026d8f9125fb87f3652f38fc4dc5c44e0929d2a6fb02b9081d655f4779",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 16.64,
+        "margin_pct": 40.0,
+        "register_blocked": false,
+        "price_evidence_ok": false,
+        "price_evidence_source": "oliveyoung_us_benchmark",
+        "price_evidence_reasons": [
+          "price_evidence_source_not_allowed:oliveyoung_us_benchmark"
+        ],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "market_price_review",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 10,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    },
+    {
+      "rank": 7,
+      "canonical_product_id": "CP000256",
+      "pd_no": "1072800",
+      "product_id": "1072800",
+      "name": "줌 바이 정샘물 세범다운 쿠션",
+      "category": "메이크업",
+      "price_krw": 5000,
+      "shopify_score": 75,
+      "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
+      "copy": {},
+      "copy_status": "skipped_prerequisite",
+      "product_accuracy": {
+        "schema_version": 1,
+        "product_id": "1072800",
+        "source_identity_sha256": "03e3fdf07641ac6f16d0fc5aca51509da0adaa79460fe91519e1b2c2d5acfc42",
+        "copy_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "status": "UNVERIFIED_DRAFT",
+        "evidence_status": "UNVERIFIED",
+        "unsupported_fields": [
+          "description_html",
+          "product_type",
+          "seo_description",
+          "seo_title",
+          "tags",
+          "title"
+        ],
+        "source_conflicts": [],
+        "reasons": [
+          "official_product_evidence_missing"
+        ],
+        "human_review_required": true,
+        "publication_allowed": false,
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "scope": "recorded_source_consistency_and_exact_copy_support_only"
+      },
+      "gosi": {
+        "volume": "",
+        "maker": "",
+        "origin": "",
+        "ingredients": "",
+        "gosi_ok": false
+      },
+      "us_label": {
+        "net_contents": "",
+        "manufacturer": "",
+        "country_of_origin": "",
+        "ingredients_inci": "",
+        "us_label_ok": false
+      },
+      "price": {
+        "price_usd": 19.63,
+        "margin_pct": 40.0,
+        "register_blocked": false,
+        "price_evidence_ok": false,
+        "price_evidence_source": "serpapi_google_shopping",
+        "price_evidence_reasons": [
+          "price_evidence_volume_unverified_product"
+        ],
+        "profit_warnings": [],
+        "blocks_registration": false
+      },
+      "legal": {
+        "status": "auto_checked",
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval"
+      },
+      "manufacturer_safety_record": {
+        "covered": false,
+        "reason": "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      },
+      "agent_ready": false,
+      "agent_blocked_by": [
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "ready": false,
+      "blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing"
+      ],
+      "public_ready": false,
+      "public_blocked_by": [
+        "copy",
+        "gosi",
+        "us_label",
+        "legal",
+        "manufacturer_safety_record_missing",
+        "product_accuracy_owner_review_required",
+        "market_price_review",
+        "legal_full"
+      ],
+      "legal_full_complete": false,
+      "typesafe": {
+        "framework": "typesafe_system_one_compatible",
+        "enabled": false,
+        "mode": "disabled_local_advisory",
+        "source": "deterministic_local",
+        "paid_api_called": false,
+        "enforced": false,
+        "grade_advisory": "hold",
+        "legal_gate_advisory": "block",
+        "risk_level": "critical",
+        "risk_points": 10,
+        "team_routes": [
+          "legal",
+          "sourcing",
+          "listing"
+        ],
+        "model_route": "human",
+        "model_route_confidence": null,
+        "findings": [
+          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "legal hard block",
+          "TypeSafe local fallback: disabled_local_advisory"
+        ],
+        "confidence": null,
+        "usage": null
+      }
+    }
+  ]
+}

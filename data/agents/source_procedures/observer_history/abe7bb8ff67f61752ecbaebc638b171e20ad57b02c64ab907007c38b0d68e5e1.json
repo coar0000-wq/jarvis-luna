@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-10-19T01:47:53.405359+00:00",
+  "source_gate_generated_at": "2026-10-19T01:47:53.083242+00:00",
+  "ontology_source": "data/product_master.json",
+  "approval_source": "data/manual/shopify_action_approvals.json",
+  "policy": {
+    "draft": "L4 external write requires trusted authenticated human proof bound to immutablePayload; legacy approved is planning only; executor disabled",
+    "public": "public_ready + legal approval + verified physical inventory + separate publish approval",
+    "idempotency": "action_id + payload_hash"
+  },
+  "draft_action_count": 0,
+  "states": {},
+  "public_ready_item_count": 0,
+  "public_actions": [],
+  "public_blocked": true,
+  "public_block_reason": "public_ready 상품 없음",
+  "draft_actions": []
+}

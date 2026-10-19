@@ -1,0 +1,40 @@
+{
+  "base_ledger_sha256": "bdb2fd16b7b74275e537b50c2e8532cb1d57eb8d3224f43b1ea363f5383bc694",
+  "base_output_sha256": "9c5abf48dfde4acb145f71bed0d276534f8e35724a2a9bf4df1e6502c1ed49b6",
+  "expected_ids_after": [
+    "CP000130",
+    "CP000216"
+  ],
+  "expected_ids_before": [
+    "CP000106",
+    "CP000107",
+    "CP000130",
+    "CP000216"
+  ],
+  "input_hashes": {
+    "data/daiso_real/candidate_observations.json": "17aba410dfe180b66337a6fc40fcf6b477a1ecbb38cb7bdc0dc89231e04bc0c3",
+    "data/daiso_real/candidate_pool.json": "d8344d459fe3f41c4f94cf55a84ab2ec5a46184a23ce9e46957176732bcbb894",
+    "data/daiso_real/collection_status.json": "27f77cedaf0fc15f6ca3ce3e4fe8f1eeb3c800ce2d5688fc1f00efee996eec7b",
+    "data/daiso_real/products.json": "3a2b4a63d17e854cdab29a807f5221aaf2104165291818362116f9166117ac41",
+    "data/daiso_real/shopify_s_recommendations.json": "ddee24d07214216fe32823de8a5a3e31aad7fa3b357483000e4a05863629261a",
+    "data/legal_full.json": "1f5d7937946241c23a0a280852ff45409951ba48b128bad8c4a9f2d95a777954",
+    "data/legal_products.json": "1ac474db012481095fa3abe9dc05e1187e125b7f3afcf1890b6429a69aeba8c5",
+    "data/listing_gate.json": "0362be32cf93cf5f6564efa2f04db61b1aa697bd905bfae3f1ff5a8e365a4eea",
+    "data/mocra_readiness.json": "2fe9ea7711ea324b89fa309aca468d164a5742d060517205ac4593ef2a2b6acc",
+    "data/pricing_model.json": "6f2e1ba56998ff1628a1f18026aac36267e0c94d1b6f4884442353e724b080b1",
+    "data/product_master.json": "7be5b2747459f817bd2facff22b19c9e60ea670202ecf38c06ef626c25551a82",
+    "data/shopify_action_queue.json": "abe7bb8ff67f61752ecbaebc638b171e20ad57b02c64ab907007c38b0d68e5e1",
+    "data/shopify_listing_copy.json": "81dc8a414b18dff4029b85336a647f6eb022df5e2ed207fa991293a6366fc2f5",
+    "data/shopify_shortlist.json": "84a07386a9603b02033c676f53e7e1c037bae20d56f47d81adf5750ade1cdd2a"
+  },
+  "kind": "owned_shortlist_scope_reconciliation",
+  "removed_ids": [
+    "1049275",
+    "1049276",
+    "CP000106",
+    "CP000107"
+  ],
+  "replacement_ledger_sha256": "b118e272c2988ea482fcef2964cea0c9b857bd4d1241cddc7ad638f658f468e9",
+  "replacement_output_sha256": "3f9444e1ca402e43844dbdb794d20ad13361eb9b2e5ac066ae1226273faef8be",
+  "schema_version": 1
+}

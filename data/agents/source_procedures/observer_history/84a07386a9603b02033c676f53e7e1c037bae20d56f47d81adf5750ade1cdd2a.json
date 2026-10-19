@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-19T01:47:52.925845+00:00",
+  "generator": "scripts/build_shopify_shortlist.py",
+  "status": "proposed",
+  "source": "rules",
+  "confirmed_by": null,
+  "rules": {
+    "max_units": 5,
+    "min_similarity": 0.7,
+    "unit": "Variant 그룹",
+    "form_match": "립·아이·바디·헤어·네일 형태가 같아야 함",
+    "dedupe": "미국 근거 상품 하나당 단위 하나",
+    "sticky": "기존 단위는 밀려나지 않음"
+  },
+  "active_unit_count": 2,
+  "active_pd_nos": [
+    "1055167",
+    "1067498"
+  ],
+  "eligible_pd_nos": [],
+  "business_authority": false,
+  "selection_scope": "retained_candidate_and_price_watchlist_not_business_clearance",
+  "units": [
+    {
+      "unit_id": "VG-CP000130",
+      "pd_nos": [
+        "1055167"
+      ],
+      "canonical_product_ids": [
+        "CP000130"
+      ],
+      "names": [
+        "본셉 레티놀 500 IU 세럼 30 ml"
+      ],
+      "eligible_pd_nos": [],
+      "business_ready": false,
+      "score": 98,
+      "evidence": {
+        "global_product": "Expert Retinol Super Bounce Serum",
+        "channel": "sokoglam_us",
+        "similarity": 0.853
+      },
+      "added_at": "2026-09-29T10:03:26.384563+00:00",
+      "status": "active",
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, manufacturer_safety_record_missing"
+    },
+    {
+      "unit_id": "VG-CP000216",
+      "pd_nos": [
+        "1067498"
+      ],
+      "canonical_product_ids": [
+        "CP000216"
+      ],
+      "names": [
+        "[영양광채]VT PDRN 광채 크림 50 ml"
+      ],
+      "eligible_pd_nos": [],
+      "business_ready": false,
+      "score": 96,
+      "evidence": {
+        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "channel": "oliveyoung_us",
+        "similarity": 0.834
+      },
+      "added_at": "2026-09-29T20:38:16.971548+00:00",
+      "status": "active",
+      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, manufacturer_safety_record_missing"
+    },
+    {
+      "unit_id": "VG-VT-REEDLE-SHOT",
+      "pd_nos": [],
+      "canonical_product_ids": [],
+      "names": [],
+      "eligible_pd_nos": [],
+      "business_ready": false,
+      "score": 100,
+      "evidence": {
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "channel": "sokoglam_us",
+        "similarity": 0.667
+      },
+      "added_at": "2026-09-29T10:03:26.384544+00:00",
+      "status": "paused",
+      "note": "스토어 대상에서 일시 제외: 게이트 초안 미준비: copy, manufacturer_safety_record_missing"
+    },
+    {
+      "unit_id": "VG-CP000109",
+      "pd_nos": [
+        "1049285"
+      ],
+      "added_at": "2026-09-30T14:53:35.834094+00:00",
+      "status": "paused",
+      "note": "스토어 대상에서 일시 제외: S등급·게이트 대상에서 빠짐"
+    },
+    {
+      "unit_id": "VG-CP000151",
+      "pd_nos": [
+        "1059834"
+      ],
+      "added_at": "2026-09-29T10:03:26.384568+00:00",
+      "status": "paused",
+      "note": "스토어 대상에서 일시 제외: S등급·게이트 대상에서 빠짐"
+    }
+  ],
+  "not_selected": [
+    {
+      "unit_id": "VG-VT-REEDLE-SHOT",
+      "pd_nos": [
+        "1049276"
+      ],
+      "names": [
+        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+      ],
+      "score": 100,
+      "reason": "게이트 초안 미준비: copy, manufacturer_safety_record_missing"
+    },
+    {
+      "unit_id": "VG-CP000178",
+      "pd_nos": [
+        "1061918"
+      ],
+      "names": [
+        "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트"
+      ],
+      "score": 98,
+      "reason": "게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing, us_label"
+    },
+    {
+      "unit_id": "VG-CP000230",
+      "pd_nos": [
+        "1068721"
+      ],
+      "names": [
+        "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml"
+      ],
+      "score": 93,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, us_label"
+    },
+    {
+      "unit_id": "VG-CP000267",
+      "pd_nos": [
+        "1074979"
+      ],
+      "names": [
+        "[01 페일화이트]밀크터치 디어씽 페이스 컨투어 크림 브라이트너"
+      ],
+      "score": 85,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, us_label"
+    },
+    {
+      "unit_id": "VG-CP000256",
+      "pd_nos": [
+        "1072800"
+      ],
+      "names": [
+        "줌 바이 정샘물 세범다운 쿠션"
+      ],
+      "score": 75,
+      "reason": "게이트 초안 미준비: copy, gosi, legal, manufacturer_safety_record_missing, us_label"
+    }
+  ],
+  "how_to_confirm": "data/manual/shopify_shortlist.json 에 {\"units\": [\"VG-...\" 또는 pd_no], \"confirmed_by\": \"이름\", \"confirmed_at\": \"YYYY-MM-DD\"} 를 적으면 그 목록만 쓴다."
+}

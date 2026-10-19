@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-19T00:49:22.563175+00:00",
+  "generated_at": "2026-10-19T01:59:27.292030+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
@@ -8,8 +8,8 @@
       "data/product_master.json": "afd70bcf2eb752662e3613c922cccf19e0e6fb051256838c95279c5e6e12db15",
       "data/gosi.json": "e45230f279b940477956aa0cb65f237504e03ca8677f99791e0b9862a4c85caa",
       "data/daiso_real/daiso_us_labels.json": "158b36042243ecd86f4b80627df52d9945cc5f8d4bc31a5cf92a1f7124d66d55",
-      "data/pricing_model.json": "492ad589c03d09fff81d72e55d174d5d8349f47ab9ea417c450d450317812264",
-      "data/legal_products.json": "9111538b5121ad772420f42957125a6a8b3e991c896c8679196a8696266c4018",
+      "data/pricing_model.json": "d0bdcc8668967a1744cc5083766e29620a2e29e74ce370a3984180b5bfe1dc9a",
+      "data/legal_products.json": "75d1c2136018b3a70e014a2b3d83db74bcd949666b31ce2912087a9bb3791800",
       "data/daiso_real/shopify_s_recommendations.json": "c74397a135221f265aeb11285d17300c1945910faade7a3ea4420964ef2f1987",
       "data/shopify_listing_copy.json": "828561761b9a34148c09419eadfb72ea4b784c52d5e8d317e34acb4959883b8b",
       "data/shopify_shortlist.json": "b4e400a9740ed65dd255f2b6fcaafc9b786602d959a13ba06c4009dc16b31c1b",
@@ -67,15 +67,9 @@
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "",
-      "global_stopped": "",
-      "workflow_stopped": "",
-      "workflow_id": "Shopify 영문 리스팅 카피 생성:39180835068:1",
-      "estimated_cost_usd": 0.0,
-      "account_estimated_cost_usd": 0.000544698,
-      "purchased_credits": false,
+      "stopped": "ledger_unavailable",
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "input_token_price_per_mtok_usd": 0.042
+      "purchased_credits": false
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",

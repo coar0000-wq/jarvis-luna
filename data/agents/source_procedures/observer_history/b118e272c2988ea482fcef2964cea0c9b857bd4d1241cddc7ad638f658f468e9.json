@@ -1,0 +1,275 @@
+{
+  "last_run_attempt_at": "2026-10-18T19:50:53.120992+00:00",
+  "last_request_at": "2026-10-18T19:51:53.121374+00:00",
+  "total_http_attempts": 37,
+  "expected_ids": [
+    "CP000106",
+    "CP000107",
+    "CP000109",
+    "CP000130",
+    "CP000151",
+    "CP000216"
+  ],
+  "last_result_status": "cached",
+  "policy": {
+    "version": 2,
+    "fresh_ttl_seconds": 86400,
+    "retry_cooldown_seconds": 7200,
+    "per_run_http_cap": 12,
+    "rolling_window_seconds": 86400,
+    "rolling_http_cap": 24,
+    "run_deadline_seconds": 660,
+    "safety_margin_seconds": 30,
+    "http_envelope_seconds": 30
+  },
+  "request_history": [
+    {
+      "sequence": 1,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 2,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 3,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 4,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 5,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 6,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 7,
+      "reserved_at": "2026-10-04T07:05:39.734815+00:00",
+      "kind": "legacy_reserved"
+    },
+    {
+      "sequence": 8,
+      "reserved_at": "2026-10-05T07:03:26.256688+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 9,
+      "reserved_at": "2026-10-05T07:03:56.256828+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 10,
+      "reserved_at": "2026-10-05T09:19:13.854297+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 11,
+      "reserved_at": "2026-10-05T09:19:43.854410+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
+    },
+    {
+      "sequence": 12,
+      "reserved_at": "2026-10-05T09:20:13.854514+00:00",
+      "kind": "product",
+      "pd_no": "1049285"
+    },
+    {
+      "sequence": 13,
+      "reserved_at": "2026-10-05T09:20:43.854625+00:00",
+      "kind": "product",
+      "pd_no": "1055167"
+    },
+    {
+      "sequence": 14,
+      "reserved_at": "2026-10-05T09:21:13.854726+00:00",
+      "kind": "product",
+      "pd_no": "1059834"
+    },
+    {
+      "sequence": 15,
+      "reserved_at": "2026-10-05T09:21:43.854830+00:00",
+      "kind": "product",
+      "pd_no": "1067498"
+    },
+    {
+      "sequence": 16,
+      "reserved_at": "2026-10-11T13:42:10.943635+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 17,
+      "reserved_at": "2026-10-11T13:42:40.944107+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 18,
+      "reserved_at": "2026-10-11T13:43:10.944206+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
+    },
+    {
+      "sequence": 19,
+      "reserved_at": "2026-10-11T13:43:40.944920+00:00",
+      "kind": "product",
+      "pd_no": "1055167"
+    },
+    {
+      "sequence": 20,
+      "reserved_at": "2026-10-11T13:44:10.945463+00:00",
+      "kind": "product",
+      "pd_no": "1067498"
+    },
+    {
+      "sequence": 21,
+      "reserved_at": "2026-10-17T11:39:44.375076+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 22,
+      "reserved_at": "2026-10-17T11:40:14.375243+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 23,
+      "reserved_at": "2026-10-17T11:40:44.375403+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
+    },
+    {
+      "sequence": 24,
+      "reserved_at": "2026-10-17T11:41:14.375553+00:00",
+      "kind": "product",
+      "pd_no": "1055167"
+    },
+    {
+      "sequence": 25,
+      "reserved_at": "2026-10-17T11:41:44.375702+00:00",
+      "kind": "product",
+      "pd_no": "1067498"
+    },
+    {
+      "sequence": 26,
+      "reserved_at": "2026-10-18T12:09:34.366565+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 27,
+      "reserved_at": "2026-10-18T12:10:04.366728+00:00",
+      "kind": "product",
+      "pd_no": "1055167"
+    },
+    {
+      "sequence": 28,
+      "reserved_at": "2026-10-18T12:10:34.366848+00:00",
+      "kind": "product",
+      "pd_no": "1067498"
+    },
+    {
+      "sequence": 29,
+      "reserved_at": "2026-10-18T12:36:53.762798+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 30,
+      "reserved_at": "2026-10-18T12:37:23.762978+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 31,
+      "reserved_at": "2026-10-18T12:37:53.763122+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
+    },
+    {
+      "sequence": 32,
+      "reserved_at": "2026-10-18T17:01:27.346769+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 33,
+      "reserved_at": "2026-10-18T17:01:57.346933+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 34,
+      "reserved_at": "2026-10-18T17:02:27.347078+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
+    },
+    {
+      "sequence": 35,
+      "reserved_at": "2026-10-18T19:50:53.120992+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 36,
+      "reserved_at": "2026-10-18T19:51:23.121186+00:00",
+      "kind": "product",
+      "pd_no": "1049275"
+    },
+    {
+      "sequence": 37,
+      "reserved_at": "2026-10-18T19:51:53.121374+00:00",
+      "kind": "product",
+      "pd_no": "1049276"
+    }
+  ],
+  "migration": {
+    "version": 2,
+    "legacy_total_http_attempts": 7,
+    "legacy_last_run_attempt_at": "2026-10-04T07:02:09.734108+00:00",
+    "legacy_last_request_at": "2026-10-04T07:05:39.734815+00:00"
+  },
+  "last_checked_at": "2026-10-19T01:59:17.993773+00:00",
+  "member_attempts": {
+    "1049275": {
+      "attempted_at": "2026-10-18T19:51:23.121186+00:00",
+      "outcome": "success"
+    },
+    "1049276": {
+      "attempted_at": "2026-10-18T19:51:53.121374+00:00",
+      "outcome": "success"
+    },
+    "1049285": {
+      "attempted_at": "2026-10-05T09:20:13.854514+00:00",
+      "outcome": "success"
+    },
+    "1055167": {
+      "attempted_at": "2026-10-18T12:10:04.366728+00:00",
+      "outcome": "success"
+    },
+    "1059834": {
+      "attempted_at": "2026-10-05T09:21:13.854726+00:00",
+      "outcome": "success"
+    },
+    "1067498": {
+      "attempted_at": "2026-10-18T12:10:34.366848+00:00",
+      "outcome": "success"
+    }
+  }
+}
