@@ -1,17 +1,17 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-19T00:08:05.412105+00:00",
+  "generated_at": "2026-10-19T00:49:22.563175+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
       "data/product_master.json": "afd70bcf2eb752662e3613c922cccf19e0e6fb051256838c95279c5e6e12db15",
       "data/gosi.json": "e45230f279b940477956aa0cb65f237504e03ca8677f99791e0b9862a4c85caa",
-      "data/daiso_real/daiso_us_labels.json": "b22fab340bb7169b4b3cadcdefcc7b3c8c4cc98a3d37c3041cbf85d25e4ae47d",
-      "data/pricing_model.json": "aee004e3f3bab0a1ee144f846e70686904480238641dadd896b09653a67c70c8",
-      "data/legal_products.json": "acad677f0a400e5642abcfe7b33275965cb15b20897f54d3f74c28a7e548e09f",
+      "data/daiso_real/daiso_us_labels.json": "158b36042243ecd86f4b80627df52d9945cc5f8d4bc31a5cf92a1f7124d66d55",
+      "data/pricing_model.json": "492ad589c03d09fff81d72e55d174d5d8349f47ab9ea417c450d450317812264",
+      "data/legal_products.json": "9111538b5121ad772420f42957125a6a8b3e991c896c8679196a8696266c4018",
       "data/daiso_real/shopify_s_recommendations.json": "c74397a135221f265aeb11285d17300c1945910faade7a3ea4420964ef2f1987",
-      "data/shopify_listing_copy.json": "d52d15604a2f41be98676c0dd02269be37f549a71a10fc683410d2b10a49ed2a",
+      "data/shopify_listing_copy.json": "828561761b9a34148c09419eadfb72ea4b784c52d5e8d317e34acb4959883b8b",
       "data/shopify_shortlist.json": "b4e400a9740ed65dd255f2b6fcaafc9b786602d959a13ba06c4009dc16b31c1b",
       "data/legal_full.json": "8b901092a8afbfadc1230c9fbadce30dbc960218e93e8be8b6f9cb52a0d10d12",
       "data/mocra_readiness.json": "c92170e491dbf6ff674f243679f0e50a439f89be225c6a74b8ba5710873f61d1",
@@ -67,9 +67,15 @@
     "paid_api_calls": 0,
     "enforced": 0,
     "usage": {
-      "stopped": "ledger_unavailable",
+      "stopped": "",
+      "global_stopped": "",
+      "workflow_stopped": "",
+      "workflow_id": "Shopify 영문 리스팅 카피 생성:39180835068:1",
+      "estimated_cost_usd": 0.0,
+      "account_estimated_cost_usd": 0.000544698,
+      "purchased_credits": false,
       "scope": "shared local ledger; cross-run enforcement requires serialized restore and successful publication",
-      "purchased_credits": false
+      "input_token_price_per_mtok_usd": 0.042
     },
     "cumulative_ok_calls": 500,
     "last_ok_call_at": "2026-10-03T11:53:16.259205+00:00",
@@ -315,7 +321,7 @@
       "shopify_score": 98,
       "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
       "copy": {},
-      "copy_status": "missing",
+      "copy_status": "skipped_prerequisite",
       "product_accuracy": {
         "schema_version": 1,
         "product_id": "1061918",
