@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T22:56:34.409024+00:00",
-  "source_gate_generated_at": "2026-10-19T22:56:33.837935+00:00",
+  "generated_at": "2026-10-19T23:55:48.545725+00:00",
+  "source_gate_generated_at": "2026-10-19T23:55:48.141799+00:00",
   "ontology_source": "data/product_master.json",
   "approval_source": "data/manual/shopify_action_approvals.json",
   "policy": {
