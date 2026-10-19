@@ -66,6 +66,7 @@ from scripts.gosi_observation_history import (validate_document, attempt, observ
 DATA = ROOT / "data"
 GOSI = DATA / "gosi.json"
 SCORE = DATA / "daiso_real" / "shopify_demand_score.json"
+REGISTRY = DATA / "shopify_daily_registry.json"
 
 PAGE = "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo={}"
 UA = "JarvisLunaResearchBot/1.0 (+contact: coar0000@naver.com)"
@@ -179,7 +180,7 @@ def parse_alt(alt: str) -> dict[str, str]:
 
 
 def targets() -> list[str]:
-    """고시가 아직 비어 있는 S등급 상품."""
+    """등록된 비공개 초안과 고시가 비어 있는 S등급 상품을 재수집한다."""
     if len(sys.argv) > 1:
         return [a for a in sys.argv[1:] if not a.startswith('-') and (a.isdigit() or a[:1].isalnum())]
 
@@ -192,7 +193,21 @@ def targets() -> list[str]:
     except (OSError, ValueError):
         score = {}
 
+    # 2026-10-19: 1069429는 실제 Shopify 초안이지만 S등급이 아닌 바디
+    # 대체 후보라 기존 S 전용 수집 대상에서 영구 누락됐다. 초안의 고시도
+    # 같은 출처/증적 검증을 거쳐 수집한다. 이 목록은 판매 승인이 아니다.
+    try:
+        registry = json.loads(REGISTRY.read_text(encoding="utf-8-sig"))
+    except (OSError, ValueError):
+        registry = {}
     need = []
+    for entry in registry.get("items") or []:
+        pid = str(entry.get("pd_no") or "")
+        if (entry.get("status") == "DRAFT" and re.fullmatch(r"[0-9]+", pid)
+                and re.fullmatch(r"gid://shopify/Product/[0-9]+", str(entry.get("shopify_id") or ""))):
+            row = gosi.get(pid) or {}
+            if not all(real(str(row.get(f) or "")) for f in ("ingredients", "volume", "maker", "origin")):
+                need.append(pid)
     for p in score.get("all_scored") or []:
         if p.get("grade") != "S":
             continue
@@ -201,7 +216,11 @@ def targets() -> list[str]:
         if not all(real(str(row.get(f) or ""))
                    for f in ("ingredients", "volume", "maker", "origin")):
             need.append(pid)
-    return need[:MAX_ITEMS]
+    # 실패한 앞쪽 상품만 매일 반복하지 않도록 마지막 시도 시각 순으로 순환한다.
+    def last_attempt(pid):
+        attempts = (gosi.get(pid) or {}).get("observation_attempts") or []
+        return max((str(a.get("attempted_at") or "") for a in attempts), default="")
+    return sorted(dict.fromkeys(need), key=last_attempt)[:MAX_ITEMS]
 
 
 def response_text(raw):
@@ -239,8 +258,10 @@ def main() -> int:
     try:
         assert_not_stopped(doc, {'daiso'})
     except ProviderStop as exc:
-        print(str(exc))
-        return 0
+        # 수집을 시작조차 못 했는데 Actions가 성공으로 표시되면 운영자가
+        # '고시 누락'과 '공급자 접근 중단'을 구별할 수 없다. 대기 정책은 유지한다.
+        print(f"GOSI_COLLECTION_BLOCKED: {exc}", file=sys.stderr)
+        return 2
     from playwright.sync_api import sync_playwright
     todo = targets()
     if not todo: return 0
@@ -319,6 +340,11 @@ def main() -> int:
             browser.close()
         if stop_box: persist_stop(doc, stop_box[0])
     publish_observation(ROOT, doc)
+    try:
+        assert_not_stopped(doc, {'daiso'})
+    except ProviderStop as exc:
+        print(f"GOSI_COLLECTION_BLOCKED: {exc}", file=sys.stderr)
+        return 2
     return 0
 
 if __name__ == '__main__':

@@ -166,7 +166,7 @@ class ProvenanceTests(unittest.TestCase):
             with patch.object(c, 'GOSI', f), patch.object(c, 'collect_one') as call:
                 self.assertEqual(c.main(), 0); call.assert_not_called()
             with patch.object(a, 'GOSI', f), patch.object(a.sys, 'argv', ['alt', '--force', 'a']):
-                self.assertEqual(a.main(), 0)
+                self.assertEqual(a.main(), 2)  # 중단된 alt 수집은 Actions 성공이 아니다.
 
     def test_stop_cooldown_expires_but_fails_closed(self):
         # 2026-10-16 회귀: 10-11 정지가 영구로 남아 고시 수집이 5일간 매 회차 즉시 종료됐다.

@@ -25,7 +25,7 @@ on:
   workflow_dispatch:
     inputs:
       pd_no:
-        description: '특정 상품번호만 (비우면 고시 없는 S등급 전체)'
+        description: '특정 상품번호만 (비우면 고시 없는 Shopify 초안 + S등급)'
         required: false
         default: ''
       max_items:
@@ -66,6 +66,11 @@ jobs:
       - name: 수집 전 고시 상태
         continue-on-error: true
         run: python -u scripts/guard_gosi.py
+
+      - name: 고시 초안 대상·접근 중단 회귀 검사
+        run: |
+          python scripts/test_gosi_draft_targets.py
+          python scripts/test_gosi_alt_parser.py
 
       - name: alt 에서 고시 꺼내기
         env:
