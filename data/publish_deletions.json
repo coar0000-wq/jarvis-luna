@@ -419,14 +419,14 @@
     },
     {
       "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "08991875e165f4b9700443cd80ab1e809667d3ca40b6ffa54dae73e67f8acc50",
+      "base_sha256": "a000b9310372ad7d29830d609b057a15c12947a898aa6e09c3f1adf6d394cfb1",
       "ids": [
-        "action:intent:task_d4a180da8bceb392ccda0036abcac0d5a8c6056e31efcc38a4d2702da2c1153e",
-        "action:intent:task_ea5ea03ef5d762efc374afb6f19135ad303602fb909c8475183b1c2bdb4dd64f",
-        "relation:14d1446b0ee9f46c33672135",
-        "relation:43b8d6d8ebaa9e8d04f8e014",
-        "relation:7369ce6867ed039f8b601a38",
-        "relation:d5728cb25e6a2d9ab4d5fefd"
+        "action:intent:task_37402f59133e9faaad90c9aa6b1b1f66dd231bcbf13ac86356d9b825ab5cd8ec",
+        "action:intent:task_e29bcdf7ea0db054ff1aa8f0f596af7c52548b3f49b32b3d9b76fd359d05d8ca",
+        "relation:3a6dd1978f817e72da2ecba5",
+        "relation:962182343c49e8a03c6faa64",
+        "relation:d960dcbad712df1935ab3092",
+        "relation:f20ab8008c7da2d331664d89"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
@@ -434,38 +434,37 @@
     },
     {
       "path": "data/operations/state.json",
-      "base_sha256": "f487e6950356824ad8216a096f07ef60978ba13d65520c64cac1064f4da9deed",
+      "base_sha256": "0829b023b187332bbeed60c0aaf4549edc6494f456ce037f98e3c2d98193c8cb",
       "ids": [
         "STALE_SOURCE_CAPTURE",
-        "org-url:098e251f92f7729ee104ed455d125bc5fbd941750d782b828cbe60465165454a",
-        "org-url:09d13fe7c4bea6b097d5a88b60dc312b25d584087403b7acf861c419d163d951",
-        "org-url:1cbda140b705a6484c742fdd48d3fa1a45422a03d42f47bfa9bb10972a0df403",
-        "org-url:45a2fbc4aa5f4a1b68df039710c720b49191e4ced31c37edc1739bd0a8fcb0ab",
-        "org-url:598fa1fbe8a18e30bac81ef8f568f0f09302e1076ce7be7033f67e1a3b283d89",
-        "org-url:64ab9e84f25e8eb49f814a1f9c94fd89f18471a05b4c1ef4f1cf7b9848d7b1cd",
-        "org-url:7359c1da089aae35a03630d044f2c1b3161b247887d728ffc9233d7c3d458f91",
-        "org-url:75512232977f129e7bb415b99b60d4b638a13e181338cb8944d31b4696014432",
-        "org-url:9cfff3a1c3aa407755da975a75d3b832dacb77067b0d4f98863acdd22e1f4607",
-        "org-url:9f15363562a2581937ad4bec0d3b3f3c6e6666a5739654a12104e273ae4354c6",
-        "org-url:c5052a26ff90509173f68e9480bd1bc98f6aefc91f9e1d188c861c2492dc1918",
-        "org-url:c61d8a6bef6edaae32f1badbd42dc8fa881f44e4571d39e817007a4336f45c79",
-        "org-url:c820f21f48b0c29c7d1fd0318c960f6e776545d0e536a3dc075aed883e58621a",
-        "org-url:d185f82b07bb5ff73a3683a5510e7a7c1ff406ddb7e7d15a71d5d8f5e6a2bb61",
-        "org-url:e29d9c8c24e001dddd5b9c8f3dd86bb1b197efcb69ccae89427374e04aab4aaf",
-        "org-url:e55afa8b55bd7007f8948041e7dd31f270d7d587a370a586d3d57467b1f34cc1",
-        "org-url:ee1c5c31b5c08de9d3e14e5abdc2b0f24fc878e2a56d6629bb2dee626f21cda0",
-        "org-url:f29e08b1c76192c5970d884f0135242c1ef3fdc2800a57976b9940d6380dd2d0",
-        "url:18b3300cd1957a089ce60faf70564a2933e0cc3119e304ae552950c4b813b509",
-        "url:3784bfeb88341eb37949fae218037edd9e6cdcc61747b5e452bf7ed300965df9",
-        "url:40120f85edf30115eeff13557ea281253c568f393c92c88b07bb9f7db67c1d88",
-        "url:47128769f8ac469109ee952f3112211e50d2cb5a52ae356408af9677b10ff842",
-        "url:534c2123d0f9f36b324418085c0c6f07fcf64219353de9cf111d6beea75f1a9f",
-        "url:650194fd8ccfd8197670977045d5d4d6c5b226581cb1e39a7d3956016f495b45",
-        "url:87744a9f08dca88a0e62ccc1eec9c72d9daced4e3f1264bf4a660c25b8382732"
+        "org-url:2324b2e01baf6afbb956823de387333e7f33cb965ab7ea81360ee628a56ff9cd",
+        "org-url:6ecd60434c9aa3a9bfc705283b46539450bf4cb00093bafd7d6e61da0fa86d8b",
+        "org-url:7da5db1a33e74dc7a35459a14369b00cd0464115c0bce49a830bdb2ef9c64374",
+        "org-url:b944ac179bf18c46bd343808998c1ea04e436e41f4c41f5df6abb705c0bccc4a",
+        "org-url:d40e199110f50c3f2a67a4e5a8273d0bb43f400a6827a55f8b1de30a21da61a6",
+        "org-url:fb11932f30767c279ef8a2dd9337444c4f110b0d7fbe9a065801e54b4c0a6698",
+        "url:044b8f2f615c8796646adcbe55d779b481f9d574e13fd5c2c1b465a2e80df05e",
+        "url:1a37e8a00694b328519495fa2310e7ea1fd7591476fb095fc2cbf41d35b4094e",
+        "url:51c1cdb01644fe64f08fec7f09125983815464ff5b3a638f189a015e54957066",
+        "url:7e40fc09281e69b7f2cb0abfeef0b7245c335826594c822887db3fccf11cbb62",
+        "url:7e4ab1e4ff95cd02feab619d5ff3527aab5327a0b26204cb0ff88d38f3b3c98d",
+        "url:b374e5352049af9bbd24db793ad80a5d321a969146da4d4d230599d5c093ce08"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/daiso_real/shortlist_observations.json",
+      "base_sha256": "96725abcd4125fbf329bf82f960bc2e1d066f23d2e348f0e26d0edff31462906",
+      "replacement_sha256": "46b376af15153746addcf24c3ff905a300817c213f579694f0d15041469db8ab",
+      "ids": [
+        "CP000130",
+        "CP000216"
+      ],
+      "policy_ref": "scripts/shortlist_observation_history.py",
+      "delete_file": false,
+      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
     }
   ]
 }

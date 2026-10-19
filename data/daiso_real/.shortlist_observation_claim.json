@@ -1,7 +1,7 @@
 {
-  "last_run_attempt_at": "2026-10-18T19:50:53.120992+00:00",
-  "last_request_at": "2026-10-18T19:51:53.121374+00:00",
-  "total_http_attempts": 37,
+  "last_run_attempt_at": "2026-10-19T20:29:58.824988+00:00",
+  "last_request_at": "2026-10-19T20:30:58.825201+00:00",
+  "total_http_attempts": 40,
   "expected_ids": [
     "CP000106",
     "CP000107",
@@ -10,7 +10,7 @@
     "CP000151",
     "CP000216"
   ],
-  "last_result_status": "cached",
+  "last_result_status": "complete",
   "policy": {
     "version": 2,
     "fresh_ttl_seconds": 86400,
@@ -237,6 +237,24 @@
       "reserved_at": "2026-10-18T19:51:53.121374+00:00",
       "kind": "product",
       "pd_no": "1049276"
+    },
+    {
+      "sequence": 38,
+      "reserved_at": "2026-10-19T20:29:58.824988+00:00",
+      "kind": "robots",
+      "pd_no": null
+    },
+    {
+      "sequence": 39,
+      "reserved_at": "2026-10-19T20:30:28.825090+00:00",
+      "kind": "product",
+      "pd_no": "1055167"
+    },
+    {
+      "sequence": 40,
+      "reserved_at": "2026-10-19T20:30:58.825201+00:00",
+      "kind": "product",
+      "pd_no": "1067498"
     }
   ],
   "migration": {
@@ -245,7 +263,7 @@
     "legacy_last_run_attempt_at": "2026-10-04T07:02:09.734108+00:00",
     "legacy_last_request_at": "2026-10-04T07:05:39.734815+00:00"
   },
-  "last_checked_at": "2026-10-19T05:05:18.919589+00:00",
+  "last_checked_at": "2026-10-19T20:30:59.485670+00:00",
   "member_attempts": {
     "1049275": {
       "attempted_at": "2026-10-18T19:51:23.121186+00:00",
@@ -260,7 +278,7 @@
       "outcome": "success"
     },
     "1055167": {
-      "attempted_at": "2026-10-18T12:10:04.366728+00:00",
+      "attempted_at": "2026-10-19T20:30:28.825090+00:00",
       "outcome": "success"
     },
     "1059834": {
@@ -268,7 +286,7 @@
       "outcome": "success"
     },
     "1067498": {
-      "attempted_at": "2026-10-18T12:10:34.366848+00:00",
+      "attempted_at": "2026-10-19T20:30:58.825201+00:00",
       "outcome": "success"
     }
   }
