@@ -33,8 +33,10 @@ accuracy or legal clearance.
 
 Cache lookup precedes inference. The cache key includes complete relevant state,
 questions/model and explicit policy versions; meaningful source-capture times
-remain. `jev-latest` is an alias, not an invented callable pinned revision. The
-concrete response model is retained. CI cache TTL is 24 hours, maximum 24 hours.
+remain. `jev-1.14.0` is the explicitly selected text model. The concrete response
+model must match this pin and is retained. The new model-policy version is
+`jarvis-jev-1.14-text-v1`; historical versions, counters, stops and receipts are
+never reset or rewritten by this upgrade. CI cache TTL is 24 hours, maximum 24 hours.
 
 The adapter reserves UTF-8 wire bytes + 2,048 before dispatch and retains
 `max(reservation, reported usage)` afterward. This is a conservative estimate,
@@ -70,3 +72,24 @@ Dry-run (no request and no output mutation):
 python scripts/evaluate_team_typesafe.py --dry-run
 ```
 Offline shared, team, receipt and wiring tests are mandatory in preflight and Pages.
+
+## Jev 1.14 text adoption — 2026-10-19
+
+The [official models reference](https://docs.typesafe.ai/models) accepts
+`jev-1.14.0`; at review time `jev-latest` still points to 1.13 and `jev-preview`
+to 1.14. Pinning avoids an accidental alias migration. The
+[release announcement](https://typesafe.ai/blog/jev-1-14) highlights multilingual
+improvements, but local Korean accuracy is not proven by configuration or mocks.
+
+Only existing text Choice/Score/Noul advice is enabled. Image assets, Box and
+long context remain disabled: neither Danger-Zone header is sent, assets are not
+accepted by the shared payload contract, and Box remains unsupported. The
+existing bounded input, credit proof, stop/receipt chain and canonical gates
+remain mandatory. No SDK installation is needed for this direct HTTP client.
+
+Input pricing remains $0.042/M tokens and output is free in the reference. This
+is not evidence of an account's remaining free allowance. No live request was
+made for this configuration change. A successful future authorized request must
+record its actual response model; old 1.13 receipts remain historical evidence.
+All 11 team roles receive the release briefing through the existing learning and
+feed builders. A briefing is not proof of model execution or improved accuracy.

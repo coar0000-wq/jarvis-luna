@@ -75,7 +75,7 @@ class TeamTests(unittest.TestCase):
         self.assertFalse(result["approval"])
         self.assertEqual(result["visibility"], "private")
         self.assertEqual(result["question_version"], "jarvis-teams-v1")
-        self.assertEqual(result["model_policy_version"], "jarvis-jev-alias-v1")
+        self.assertEqual(result["model_policy_version"], "jarvis-jev-1.14-text-v1")
 
     def test_local_labels_never_jev(self):
         payload = self.payload()

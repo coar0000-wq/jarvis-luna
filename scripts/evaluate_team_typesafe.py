@@ -24,8 +24,8 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[1]
 ROLES = (*TEAMS, "secretary")
 QUESTION_VERSION = "jarvis-teams-v1"
-MODEL_POLICY_VERSION = "jarvis-jev-alias-v1"
-MODEL = "jev-latest"
+MODEL_POLICY_VERSION = "jarvis-jev-1.14-text-v1"
+MODEL = "jev-1.14.0"
 PRICE = .042 / 1_000_000
 STATUSES = {"success", "warning", "error", "blocked", "empty", "pending", "ready",
             "ok", "failed", "stale", "unknown", "active", "review", "학습 중",

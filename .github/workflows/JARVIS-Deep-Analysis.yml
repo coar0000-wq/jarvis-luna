@@ -49,7 +49,8 @@ jobs:
       TYPESAFE_BILLING_PROOF_JSON: ${{ secrets.TYPESAFE_BILLING_PROOF_JSON }}
       TYPESAFE_SHARED_LEDGER_PATH: ${{ github.workspace }}/data/typesafe_shared_state.json
       TYPESAFE_WORKFLOW_ID: ${{ github.workflow }}:${{ github.run_id }}:${{ github.run_attempt }}
-      TYPESAFE_MODEL: 'jev-latest'
+      TYPESAFE_MODEL: 'jev-1.14.0'
+      TYPESAFE_MODEL_POLICY_VERSION: 'jarvis-jev-1.14-text-v1'
       TYPESAFE_CACHE_TTL_SEC: '86400'
       TYPESAFE_ACCOUNT_MAX_COST_USD: '1.0'
       TYPESAFE_MAX_CALLS: '40'

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T11:55:12.694812+00:00",
+  "updated_at": "2026-10-19T01:18:00+00:00",
   "method": "항목별 출처에 따른 자막 검토. NotebookLM 또는 직접 자막 검토를 항목에 기록하며 미확인은 그대로 보존한다.",
   "policy": "영상의 매출·전환 과장 수치는 근거로 쓰지 않는다. 제품 사실·법률 게이트·자사 측정값을 우선한다.",
   "videos": [
@@ -215,6 +215,15 @@
       "url": "https://www.youtube.com/watch?v=L_EXYLmyFSA",
       "reviewed_at": "2026-10-17",
       "method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "video_id": "HPPDQz349Mk",
+      "title": "사용자 공유 Jev 업데이트 쇼츠 (제목 미검증)",
+      "url": "https://youtube.com/shorts/HPPDQz349Mk",
+      "reviewed_at": "2026-10-19T01:18:00+00:00",
+      "role": "전체 11개 팀에 공식 업데이트 자료 공유",
+      "method": "공급자 공식 발표·모델 문서 교차 확인. 이 항목은 영상 자막 검토 또는 실호출 증명이 아니다.",
+      "source_type": "official_provider_documentation_review"
     }
   ],
   "insights": [
@@ -1001,6 +1010,51 @@
       "confidence": "high",
       "reviewed_at": "2026-10-17",
       "review_method": "Codex 직접 자막 검토; 한국어 6편·영어 원문 3편. 영상 프레임 미검토."
+    },
+    {
+      "id": "JEV-20261019-114-TEXT",
+      "pillar": "knowledge",
+      "tactic": "Jev 1.14 텍스트 판단 모델 고정 및 실험 기능 차단",
+      "action": "Jev 1.14.0 텍스트 판단 모델을 명시적으로 선택한다. 공식 문서 확인 시 jev-latest는 1.13.0, jev-preview는 1.14.0이었다. 다국어 개선은 공급자 발표이며 한국어 업무 정확도는 별도 실측이 필요하다. 이미지·Box·긴 문맥은 실험 기능이므로 비활성 유지한다. 무료 잔액 증명·기존 누적 한도·사람 승인 게이트를 유지하며 이번 변경에서 실호출은 하지 않았다.",
+      "confidence": "high",
+      "teams": [
+        "sourcing",
+        "institutions",
+        "market",
+        "listing",
+        "pricing",
+        "legal",
+        "robotics",
+        "design",
+        "channels",
+        "knowledge",
+        "graph"
+      ],
+      "reviewed_at": "2026-10-19T01:18:00+00:00",
+      "prerequisites": [
+        "유효한 기존 무료 크레딧 증명과 누적 예산·영수증 체인",
+        "실제 응답 모델과 한국어 업무별 정확도는 별도 승인된 검증 필요"
+      ],
+      "kpis": [
+        "실제 응답 모델 버전 기록",
+        "한국어 업무별 오판·보류 건수 (실측 후 기록)"
+      ],
+      "applicability": "기존 팀별 텍스트 보조 판단; 정본 게이트 변경 없음",
+      "evidence": {
+        "video_id": "HPPDQz349Mk",
+        "url": "https://typesafe.ai/blog/jev-1-14",
+        "summary": "Jev 1.14.0 텍스트 판단 모델을 명시적으로 선택한다. 공식 문서 확인 시 jev-latest는 1.13.0, jev-preview는 1.14.0이었다. 다국어 개선은 공급자 발표이며 한국어 업무 정확도는 별도 실측이 필요하다. 이미지·Box·긴 문맥은 실험 기능이므로 비활성 유지한다. 무료 잔액 증명·기존 누적 한도·사람 승인 게이트를 유지하며 이번 변경에서 실호출은 하지 않았다.",
+        "timestamp": null,
+        "timestamp_status": "not_verified",
+        "mapping_verified": false,
+        "source_type": "official_provider_documentation_review",
+        "timestamp_basis": "공식 릴리스 및 모델 문서 확인; 영상 시각 미확인"
+      },
+      "official_sources": [
+        "https://typesafe.ai/blog/jev-1-14",
+        "https://docs.typesafe.ai/models"
+      ],
+      "runtime_status": "not_called_for_this_update"
     }
   ],
   "rejected_claims": [
