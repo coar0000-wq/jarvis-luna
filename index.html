@@ -390,6 +390,10 @@ nav a{font-size:12px;}
 .dp-badge{font-size:11px;font-weight:700;border-radius:8px;padding:2px 9px;}
 .dp-ok{background:#12301f;color:#3fb950;}.dp-warn{background:#3a2e0a;color:#e3b341;}.dp-bad{background:#3d1517;color:#f85149;}.dp-none{background:#262626;color:#8b949e;}
 .dp-title{font-size:14px;font-weight:700;color:#f0f0f0;line-height:1.35;min-height:38px;}
+.dp-links{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 2px;}
+.dp-links a{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border:1px solid #30363d;border-radius:6px;color:#9ecbff;background:rgba(88,166,255,.08);font-size:11px;text-decoration:none;}
+.dp-links a:hover{border-color:#58a6ff;color:#fff;background:rgba(88,166,255,.16);}
+.dp-links a:focus-visible{outline:2px solid #58a6ff;outline-offset:2px;}
 .dp-price{font-size:12.5px;color:#c9d1d9;margin:8px 0 12px;}
 .dp-steps{display:flex;align-items:flex-start;}
 .dp-step{flex:1;text-align:center;font-size:10.5px;color:#8b949e;position:relative;line-height:1.25;}
@@ -2124,6 +2128,25 @@ async function renderDailyPipeline(){
     else { badge=el('span','dp-badge dp-none',it.status==='deleted_by_owner'?'삭제 이력':'상태 확인 필요'); }
     cat.appendChild(badge); card.appendChild(cat);
     card.appendChild(el('div','dp-title', it? it.title : '오늘 기준 S등급 후보가 없거나 대기 중이에요'));
+    if(it){
+      var links=el('div','dp-links');
+      function addProductLink(label,url){
+        var a=document.createElement('a'); a.href=url; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent=label;
+        a.addEventListener('click',function(ev){ev.stopPropagation();});
+        links.appendChild(a);
+      }
+      var sourceUrl=it.daiso_url||(it.priority&&(it.priority.url||it.priority.source_url));
+      if(typeof sourceUrl==='string'){
+        try{var parsedSource=new URL(sourceUrl);if(parsedSource.protocol!=='https:'||!['daisomall.co.kr','www.daisomall.co.kr'].includes(parsedSource.hostname)) sourceUrl='';}
+        catch(e){sourceUrl='';}
+      }
+      if(!sourceUrl&&/^\\d+$/.test(String(it.pd_no||''))) sourceUrl='https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo='+encodeURIComponent(String(it.pd_no));
+      if(sourceUrl) addProductLink('다이소 제품 보기 ↗',sourceUrl);
+      var shopifyMatch=String(it.shopify_id||'').match(/^gid:\\/\\/shopify\\/Product\\/(\\d+)$/);
+      if(shopifyMatch) addProductLink('Shopify 상품 열기 ↗','https://coarfamily.myshopify.com/admin/products/'+shopifyMatch[1]);
+      if(it.status==='ACTIVE'&&typeof it.handle==='string'&&it.handle) addProductLink('판매 페이지 보기 ↗','https://coarfamily.myshopify.com/products/'+encodeURIComponent(it.handle));
+      if(links.children.length) card.appendChild(links);
+    }
     var price='';
     if(it&&it.single_usd!=null){ price='생성 당시 $'+Number(it.single_usd).toFixed(2)+' (마진 '+it.single_margin_pct+'%)'; if(it.pack_usd) price+=' · 1+1 $'+Number(it.pack_usd).toFixed(2)+' ('+it.pack_margin_pct+'%)'; }
     card.appendChild(el('div','dp-price', price|| (it?'':'다음 실행에서 다시 확인')));
