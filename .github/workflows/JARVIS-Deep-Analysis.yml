@@ -534,18 +534,38 @@ jobs:
           RELEASE_STAGE_deep_35
           python scripts/collector_result.py run --name deep_35 --required \
             --output "$RUNNER_TEMP/release-results/deep_35.json" -- bash -e "$RUNNER_TEMP/deep_35.sh"
-      - name: 고시 원문 수집용 무료 브라우저 준비
-        if: steps.s_gosi_gap.outputs.count != '0'
-        run: |
-          python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-browser.txt
-          playwright install --with-deps chromium
-
+      # 고시 보강은 선택 수집이다. 접근 중단/설치 실패는 현재 회차 증적으로
+      # 남기되 독립적인 라벨·법률·게이트·runtime 재계산은 계속한다.
+      # collector의 403 종료 코드를 바꾸거나 등록/발행 검증을 완화하지 않는다.
       - name: 렌더링된 공식 alt에서 S등급 고시 자동 복구
-        if: steps.s_gosi_gap.outputs.count != '0'
+        id: gosi_recovery
+        continue-on-error: true
         env:
+          GOSI_GAP_COUNT: ${{ steps.s_gosi_gap.outputs.count }}
           DAISO_DELAY: '30'
           DAISO_GOSI_MAX: '12'
-        run: python -u scripts/daiso/collect_gosi_alt.py
+        run: |
+          cat > "$RUNNER_TEMP/deep_gosi_alt.sh" <<'RELEASE_STAGE_deep_gosi_alt'
+          # 누락이 없어도 공급자 정지는 확인한다. 파일/정지 이력은 바꾸지 않는다.
+          python -u scripts/daiso/collect_gosi_alt.py --check-access-only
+          case "$GOSI_GAP_COUNT" in
+            0)
+              echo "GOSI_RECOVERY_NOT_NEEDED: no missing S-grade notices"
+              ;;
+            ''|*[!0-9]*)
+              echo "GOSI_RECOVERY_INVALID_GAP_COUNT" >&2
+              exit 1
+              ;;
+            *)
+              python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-browser.txt
+              playwright install --with-deps chromium
+              python -u scripts/daiso/collect_gosi_alt.py
+              ;;
+          esac
+          RELEASE_STAGE_deep_gosi_alt
+          python scripts/collector_result.py run --name deep_gosi_alt --optional \
+            --artifact data/gosi.json \
+            --output "$RUNNER_TEMP/release-results/deep_gosi_alt.json" -- bash -e "$RUNNER_TEMP/deep_gosi_alt.sh"
 
       # ------------------------------------------------------------
       # 고시 → 영문 라벨
@@ -659,8 +679,10 @@ jobs:
           python scripts/collector_result.py run --name deep_45 --optional \
             --output "$RUNNER_TEMP/release-results/deep_45.json" -- bash -e "$RUNNER_TEMP/deep_45.sh"
 
+      # 다른 endpoint라도 같은 공급자다. 고시 수집이 실패한 회차에
+      # shortlist 읽기로 접근 중단을 우회하지 않는다.
       - name: Observe active shortlist source prices without operating writes
-        if: steps.source_safety.outputs.continuity == 'verified'
+        if: steps.source_safety.outputs.continuity == 'verified' && steps.gosi_recovery.outcome == 'success'
         continue-on-error: true
         timeout-minutes: 12
         env:
@@ -706,7 +728,15 @@ jobs:
           GEMINI_FALLBACK_ENABLED: '0'
           JARVIS_SOURCE_CONTINUITY: ${{ steps.source_safety.outputs.continuity }}
           JARVIS_OPERATIONS_CONTINUITY: ${{ steps.operations_safety.outputs.operations_continuity }}
-        run: python -u scripts/run_source_procedures.py --root "$GITHUB_WORKSPACE" --allow-source-reads
+          GOSI_RECOVERY_OUTCOME: ${{ steps.gosi_recovery.outcome }}
+        run: |
+          # 실패 후 복구 루프가 같은 공급자를 다시 읽지 않게 한다.
+          # 네트워크 없이 가능한 로컬 재계산은 그대로 수행한다.
+          source_read_args=()
+          if [ "$GOSI_RECOVERY_OUTCOME" = success ]; then
+            source_read_args+=(--allow-source-reads)
+          fi
+          python -u scripts/run_source_procedures.py --root "$GITHUB_WORKSPACE" "${source_read_args[@]}"
 
       - name: Observe actual Actions freshness (read-only)
         env:
@@ -955,6 +985,7 @@ jobs:
             --expected deep_33:optional \
             --expected deep_34:required \
             --expected deep_35:required \
+            --expected deep_gosi_alt:optional \
             --expected deep_36:optional \
             --expected deep_37:required \
             --expected deep_38:required \

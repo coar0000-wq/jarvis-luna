@@ -85,28 +85,10 @@ SOURCES = [
 ]
 
 
-# 이 스크립트를 만든 이유가 위 설명에 적혀 있다. "FDA 리콜 RSS 를 404 라고
-# 적어뒀는데 브라우저로 열어보니 멀쩡했다" 는 것이다.
-#
-# 그런데 이 스크립트가 같은 실수를 다시 했다. 09-09 보고서에 여섯 곳이
-# 실패로 적혔다. 하나씩 브라우저로 열어봤다.
-#
-#   FDA 리콜/MedWatch/건강사기 RSS  404 -> 살아 있음. 최신 항목 09-06.
-#   TSMC 뉴스룸                    403 -> 살아 있음. 최신 09-08.
-#   Deutsche Bank                  404 -> 주소가 정말 바뀜(/media/news)
-#
-# 앞의 넷은 소스가 죽은 게 아니라 우리 User-Agent 가 막힌 것이다.
-# CDN(Akamai 등)이 봇 UA 에 404·403 을 준다. 주소가 없어진 것과
-# 우리가 거절당한 것은 다른 일인데 같은 칸에 적히고 있었다.
-#
-# 그래서 두 가지를 한다.
-#   1. 봇 UA 가 거절당하면 브라우저 UA 로 한 번 더 찔러본다.
-#      막힌 것인지 없어진 것인지 갈라야 판단할 수 있다.
-#   2. 결과를 LIVE / BLOCKED / GONE / EMPTY / DOWN 으로 나눠 적는다.
-#      BLOCKED 는 고칠 것이 없다. 그쪽이 우리를 안 받는 것이다.
-BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-              "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36")
-BLOCKISH = (401, 403, 404, 406, 409, 429)
+# 접근 거절은 수집원 장애와 구별하되 다른 신분/UA로 재시도하지 않는다.
+# 404도 같은 URL을 브라우저 UA로 다시 읽어 접근 정책을 우회하지 않는다.
+# 연결 실패/5xx는 기존처럼 DOWN으로 남기고 다음 정상 회차에서 관찰한다.
+ACCESS_STOP_STATUSES = frozenset((401, 403, 406, 407, 409, 429, 451))
 
 
 # 응답을 400,000 바이트만 읽고 있었다. Google Fonts 메타는 그보다 커서
@@ -131,29 +113,30 @@ def _get(url: str, ua: str) -> tuple[int, bytes, str]:
 def probe(url: str, kind: str) -> dict:
     t0 = time.monotonic()
     status, body, err = _get(url, UA)
-    ua_used, blocked = "bot", False
+    ua_used = "bot"
 
-    # 봇 UA 가 거절당했으면 브라우저 UA 로 한 번 더 본다. 사이트가 죽은
-    # 것인지 우리를 안 받는 것인지 갈라야 한다.
-    if status in BLOCKISH:
-        time.sleep(1.0)
-        s2, b2, e2 = _get(url, BROWSER_UA)
-        if s2 == 200:
-            status, body, err = s2, b2, ""
-            ua_used, blocked = "browser", True
-        else:
-            return {"status": status, "items": 0, "bytes": 0, "ok": False,
-                    "판정": "GONE" if status == 404 else "BLOCKED",
-                    "ua": "both-failed", "blocked_for_bot": True,
-                    "note": f"{err} (브라우저 UA 로도 {s2})",
-                    "ms": int((time.monotonic() - t0) * 1000)}
-    elif status != 200:
-        return {"status": status, "items": 0, "bytes": 0, "ok": False,
+    if status in ACCESS_STOP_STATUSES or status == 404:
+        return {"status": status, "items": 0, "bytes": len(body), "ok": False,
+                "판정": "GONE" if status == 404 else "BLOCKED",
+                "ua": ua_used, "blocked_for_bot": status != 404,
+                "note": (err or f"HTTP {status}") + " · 다른 UA로 재시도하지 않음",
+                "ms": int((time.monotonic() - t0) * 1000)}
+    if status != 200:
+        return {"status": status, "items": 0, "bytes": len(body), "ok": False,
                 "판정": "DOWN", "ua": ua_used, "blocked_for_bot": False,
                 "note": err or f"HTTP {status}",
                 "ms": int((time.monotonic() - t0) * 1000)}
 
     text = body.decode("utf-8", "replace")
+    # RSS/Atom also use <title>; a news headline is not a security gate.
+    html_document = re.match(r"\s*(?:<!--.*?-->\s*)*(?:<!doctype\s+html[^>]*>\s*)?<(?:html|head)\b", text, re.I | re.S)
+    document_head = re.split(r"<body\b", text, maxsplit=1, flags=re.I)[0]
+    title = re.search(r"<title[^>]*>\s*([^<]*)</title>", document_head, re.I)
+    if html_document and title and re.fullmatch(r"(?:access denied|forbidden|unauthorized|captcha|security check|just a moment)[.!…\s]*", title.group(1), re.I):
+        return {"status": status, "items": 0, "bytes": len(body), "ok": False,
+                "판정": "BLOCKED", "ua": ua_used, "blocked_for_bot": True,
+                "note": "접근 제한/보안 확인 페이지 · 재시도하지 않음",
+                "ms": int((time.monotonic() - t0) * 1000)}
     items, note = 0, ""
     if kind == "rss":
         try:
@@ -191,12 +174,10 @@ def probe(url: str, kind: str) -> dict:
 
     # 200 이어도 항목이 0 이면 실패로 본다. 껍데기는 성공이 아니다.
     ok = status == 200 and items > 0
-    if blocked and ok:
-        note = (note + " · " if note else "") + "봇 UA 는 거절당했고 브라우저 UA 로 받았다"
     return {"status": status, "items": items, "bytes": len(body),
             "ok": ok,
-            "판정": ("BLOCKED" if (ok and blocked) else "LIVE" if ok else "EMPTY"),
-            "ua": ua_used, "blocked_for_bot": blocked, "note": note,
+            "판정": ("LIVE" if ok else "EMPTY"),
+            "ua": ua_used, "blocked_for_bot": False, "note": note,
             "ms": int((time.monotonic() - t0) * 1000)}
 
 
@@ -237,8 +218,8 @@ def main() -> int:
                "성공이 아니다. 3회 연속 실패해야 고장으로 본다."),
         "판정이란": {
             "LIVE": "우리 봇 UA 로 받았다",
-            "BLOCKED": "봇 UA 는 거절당했지만 살아 있다. 고칠 것이 없다",
-            "GONE": "브라우저 UA 로도 404 다. 주소를 다시 찾아야 한다",
+            "BLOCKED": "접근 거절/보안 확인으로 수집 중단, 재시도하지 않음",
+            "GONE": "현재 주소에서 404 응답. 주소 확인 필요",
             "EMPTY": "200 인데 항목이 0건이다",
             "DOWN": "연결 자체가 안 된다",
         },
