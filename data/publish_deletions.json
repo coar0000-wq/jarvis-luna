@@ -395,29 +395,6 @@
       "delete_file": false
     },
     {
-      "path": "data/knowledge/real_sources.json",
-      "base_sha256": "e22c70a9157746dbf2ce42a128ae41902fb70dc010ad3549826a4417551f2f8d",
-      "ids": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ITEZObjdZOElpeHQ2eGJoYUdRZGZHbjBwWXVWN0FzeWtSQzRfVmJwVGNranRhR2M4akY1NFEtOEFQMksyX1N6WjZkQi14TlE?oc=5",
-        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSWZmcDR2dzJZbG1zSkxkWFlGRWxlSjJGZ2MyNWxkYTI4NHRSTmNOLUlOd1h1cGlpODdNZTlMOXk3d3B5cHZUcjdRVWswNkh2cjdQVjk5LWxoUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oWEpBTDVvaEhCMzcyMmZuMDZKUmh3TDNpWW5qam1zc1oweG1COVM5MTR2WlI2ZjV5MkZQMklMZnVsem8tUkhVUGFVYnBPeEdDWnVLNWZ1N1I0RmFiMVc3bg?oc=5",
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WY0Nqb1JBYUxSZkxMeFZMcWtRMWZ1Mzk0SkhGN2k4RjVJc0ZOR1p6bzAzZ3ZiYTN3cHBJX184TTM2bEJQRFFFNlIwWmZtNE5USEZ3TXNYT29zN3cyZ2tfcmFDVEJlZw?oc=5",
-        "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RZ0lnaXhsSnNEVDhIdkFyLXAteENhV2h6a0E3ZHhPd296VEE2Nk1QSGZpSjlxUVJyNVZiWlpVYW5xQjc4RVM5dEVpTjk5MDk3cXkxZ2J2SEZLb3d0YWZlTjhPWUdmbnFyQmhR?oc=5",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pdzQtbzJReEhNeTZzaThfaG9kVXBhWlNLTGpGSHV1TXF2eGhNZmdWUTkxS0I1RDVzdVpneEJJWkhsX21seDBkMEk4N3YxeTQ4S3FkWTlELUtFbnZpNnUyZ004bFlnVEF4WUR4eXdvMVVRVC1MVllzOWdQZw?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kMGk0NUh2eUJIdEllOTR5NGZIV1VyR2syVVZKdnY0dXlRSUxJZnNCTEF3NDlXcGtkZWhxdGR2ZHdPU3ZNOHJMU2tyQlRpcDRrYTBqWXc3ZUJWOGVKWm8tMWpoVUtmWnczbjJnNWdYNG9SZ2I2aGtjNFNWcWNkdE0?oc=5",
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX2NCaTNRUFBCWTZFTXFlRVJfNmxrYjdlTG5RbTZjZ3FvcHRXWjBEUlhZcnEyUDFHTXpxa2IzcmRCcTNTOFZBcV9VaU02UlBiczRHR2RMN0ZuU28tamFvd3JtSTRRM01DM3JrRFhHbzRjRlNrUkpCY2J0c19OYmVtemtRRTFMM2FzX244ZQ?oc=5",
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxONVZoeHI4TzZMS0tEM2tWc01tUFowTzhiUkJPcXllM2U5bGNDWVhjaC1sOFV0ejl4N1NNYjFBQ3JMSVNoMEwtVldRYm0xUlFyYlZYbm00M3l4WEgyeG1qblZEZEJIc0EyNC1uWW0zQ0Fma3EyMmVJSWtHc184LUlLT002X3U3eURVcF9oZDdB?oc=5",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0RBVnQ4Slc3dHAyeVIxZ1lacTM1MXNLSmI1eWpBRHdaS3B5UDRUd2JWQkNvWUdlbU45S1o1YnJrRk5qLUxESDg1aTBmVzJJdU1YQl9qZ3ZDUkhWNHR0YjRvUjZ6X0FmMWtCVThZcE1aLTNYWm11SVVZa3dEUW9fVU8zSWczODIwOWRISE1STQ?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPT3Ayd3ZLdThQbjI0RlFOSnk5QjczVTY2RXFmQjlKNzExRW14dmN0NnYwZTZLZW9vdFdhSVV0YkpfYW14OEc4S2J2ckhFdC1mcjNuODJhclZQanZyUTlxc2ktcHU1S193UWNJSWNjSEtVZ19fQWhTMW1yd3lMVkp4OElvQ2pKZmlLSGFtYjlyUDI?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3ZMaXU3eXVhN0s5dV9yNmNrU3l3THlQeVJWLXFBUWdCNDR3MjNpOVN4QUxUVmRpRE15enlXTTZQS3o1blhZTVlZT3RESTFtX2RDNldEd0VTNHpXdVhXV2J1SGwyX1NvUDZnVERzRldrR19JUTM3UU4ybWFKbEQtbnRWQlN3U1hkME5mT3ZSeEc4Zw?oc=5",
-        "https://news.google.com/rss/articles/CBMimwFBVV95cUxQczNxekxEWEotdFZSVkJPUGJMd09oR0tkN2N4eE5lZ3VxUzNQdHJjYmVZRE1VbDM2TmNlei1Xd2RsWWZSREtRNzZxQmNMNTdkZzBnRW1lQ1JDZ1NkMzhYYm5teEJOT0YzSnFwZl9ZSjNPbnRNaVhKMjFHLWFMbXdaamhHSDI2Q2M4eEx5Mm8wellSc29zdDA0b211TQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa3d4RmNjUUdsY2tNcVBrYmt3cDJWeThWcnJZNENRNk1KUkJLQUYxRzdfMk1vUzZYQlZjOV9WYUkzX1lrakdIOUFXSkZqNnJfcWJnT2o3Q2xCNGpoRnlROXVlLWxZQ05LYk1Jd0oxeGZ4U1lQNTZGV015eHlscU85YXF3Sk12eXZlUWJMN3FtQ3MxcTdkN2VHcE0xWE1yT1hPeE11UGJfa2RyTE1OUGtQQmQzUmpiSi1GalNBek1jS04xdlIyUWpRSg?oc=5"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/operations/knowledge_graph.json",
       "base_sha256": "a000b9310372ad7d29830d609b057a15c12947a898aa6e09c3f1adf6d394cfb1",
       "ids": [
@@ -465,6 +442,39 @@
       "policy_ref": "scripts/shortlist_observation_history.py",
       "delete_file": false,
       "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
+    },
+    {
+      "path": "data/knowledge/moe_tuning_report.json",
+      "base_sha256": "f472416df00e8514033aeec0c86c65fb943f06861cca5723a170143426b3e94d",
+      "replacement_sha256": "13858251ce9211347c5b949c014b9970f3d31c75d552c89945b740cfd4317e49",
+      "ids": [
+        "0.001029",
+        "0.00117",
+        "0.997801"
+      ],
+      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
+      "policy_ref": "scripts/moe_evaluation_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/real_sources.json",
+      "base_sha256": "642b19516fde8d955c606ca413c98548f4f11e2849f862a9ba3a75f1c52c400d",
+      "ids": [
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRnZtR2drcExxTUctSmVCMUhOSzA2dVNURlRKTFcwWlZTZVdaaE1YNjhfSmhUeDNYNk42TUpYVGxqbVdwS3lPVDYweURwVTBCZTNLbGVMTWVXOVZyeTRSb1pCdG9xVDM1SGhkaWRWN3NWZGl5R0pXSXpQM3lITHhEdGV6NG5kSVRFT3BhcFhzQ0JhRGtVUXFYaXlrcDZacVNlRW9jVVBtZFpMLVdCbzVRcHJzX1FxSVUtZlZZcnJvZHE5enViTFdLeVZwYzJXaFpSTkxaMzA1dGhwYWFnZzdTMjBB?oc=5",
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTFczS2FZQnpRbHBzTjdnR1QzUFVNbWZNNWwtTGFQOFdhUF9sMFp3bjFNZXFHaGEzQm5CQi1KTExsVnBLYW9VXy1yOVN3cV9FLVNqdjB5M19sWmpDZldmeVhyNlZsVC1OUlBQeDFPNEZsbTVqQ2VXXzZRd3l3S1FrekFfalNPSTZ4aHpqRHZCMVdsOTVTOF9mLTV0THcwZDBuY1N3cWpWcUx1UUtTRGNESEdEOWExdHZkMzNNM2xLYVFQY24tYkF0cmRmdDA4Sy11Q3hJS1I3eEZBRkFSd1Q1aXRYQ2hMRUdURnRSdnFqVdIB9AFBVV95cUxOUEszeS1iOExIdUQ4X2pPZkZkZmstaFJHWG5YMmpQbDRoM2dxcVNXenFkelplS3VNa19sOG10NmQ2MUIyMVoySTM4Z3U4dGYyTnZlLTdGeDZIbU51bkRMaTRpTlRwWmdHNHpRLXJ3cHktNUh2R2xqNnVWRmlZV0l5bE9LMXNNVHhLSHNVck9Xamg4dWc0ckxlOHA0Z0lCX2NxSWdreWxIbDJISWFDTXhSaEo3d0dGRzFrazhvdVVzMk9pdWNTTHFRRW1EWm95Ml9XZXpoRkhFNDdFSGNiRkx0cWhnT0pCQTk3OGhXOU8xV21sS0xw?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2NXl1LWRfMzJIT0szLXg2R3RSRl9fekxZRUl2d0lHNUhPdFJ2a0txYTVQMnIzSGhJYnozSFFRTTM4R3RoRW9NZ0Y1U0NXdXBCS0R0OGJVSElMSU56UmJIQUppMGtybE9n?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE54T0M0X2tpR2gwQjNpWnB6WjRFay1VSTNPQzZqMmotWldaX0J6OWtWTzhGTWp6ZmoxRFFqTHd2a0ozMUlNVTNJSFV3elVEZUtFN01GR0l4amlCUDluS3EyZnZFR1ZvR0RFWUQyRzFYSzYtY1JLQ1doVA?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWtSZHYzQ3UtYjR4dUZMV21CTzdiay1iV1VrX2tsZGcxX2k4aEt2LXlaeWpiTHhQbUpZU2dSb0Etb2NHVlNmY0hmUEhKUE5EYlExUUYtcjZPcjVFNXp1b19BS0ZGWTBsV2ZTVmJQYTB3anJGSmp1Y2hUNzNBWFdsU2J3?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR3ZhY25RWEZibFgwVkh0Zi0xMnBfSnlGOHRjTDlsbWE3RWlPOUhBUTNSdXhmYXgxeTJyeUJtZzBtb1RDRzk2bzFLeDRiRzY4c0xDM2N2UGJMV3paNzJuWGZaRVR0QmsyaEcyZUxiTmZBSWtRUVVIeHpKSDVsQ0Z4LXBJU0Y?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSF9RZzlnRWhvRVlYeE9nQVFXM255Q1c1TGdaRFV3WTBJeV9GM1g3dk9jcEk1M0RtYlFWcGh4SjZZa0hzUnE0TUVELXRXVTlaSW4xejNBU3BicjlfVjFkWjdDazE1U2xtcDBnMXBUV2RxNTFjdzNYLThtZl8yR3FmbE9FMmg?oc=5",
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZkJ3UG9idjRCLVgyZE1YaFlBZTVjLUI0dlJhREJISUhja1o4bXMta3Z2Z3U0OTBIVXk5RmdRMkpDQ2Z5Qy1nem9NaUx5bnhrcm0yNnZfQ0ZCQ194MEFTMThUdU1BTTBMX01pX0IySExEOWhscVhPTmE5bWJLUGhwcGJXSWlQUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRzRySllZZ0Z3UjRMRkdyVWwxMTZySFBNeFRhQ1NyVElmSUFpWVFIU3Zud0h4eGZFQ3RIZTFXY3VJdmp2RFB3WHhQQzV3Vk5DMzBMMEVnSmNmVHJyT2RIcUtDY1VFd1R4S1QwckIxUlBRYUhlZjladnowV09FUW1vODcwVmdOX1VqdkE?oc=5",
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQXlyN3JUZFRTclZMdFVsUmJ5YUs1WEZHM0N4azU1MUlDOEZtdW5rdndoQmY1S1NQRFhCLTZCTU9Ody11MjhialdKbTZXWTJsMmx3d1VIak03ZWJvaXdPVFpmREFyRVROa1ItT1dzUUo5TmtTamNuQW9yTzJmS1hsdkE1bjA2QUQ3b2hmcA?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc21RSGNYRDVoMVFHRkw3SFlsRmo1OVg3bE1xU3dtT3hyTk5majdQZ0pibUJUbjJlSnk4TTFaZk5uT0Y0R242anJuYko2TkxPRU0tald0TkVmVE5sVDRZMEM2MEs4YkNfSUxDWnUzbnVLek9sVEdxendQdTRlZmRlbnMwYmlTUHV2c3lCT2FJNm12UGZQZHZoQUJ3?oc=5"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
     }
   ]
 }
