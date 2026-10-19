@@ -390,6 +390,8 @@ nav a{font-size:12px;}
 .dp-badge{font-size:11px;font-weight:700;border-radius:8px;padding:2px 9px;}
 .dp-ok{background:#12301f;color:#3fb950;}.dp-warn{background:#3a2e0a;color:#e3b341;}.dp-bad{background:#3d1517;color:#f85149;}.dp-none{background:#262626;color:#8b949e;}
 .dp-title{font-size:14px;font-weight:700;color:#f0f0f0;line-height:1.35;min-height:38px;}
+.dp-toggle{display:block;width:100%;padding:0;border:0;background:none;font-family:inherit;text-align:left;cursor:pointer;}
+.dp-toggle:focus-visible{outline:2px solid #58a6ff;outline-offset:4px;border-radius:3px;}
 .dp-links{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 2px;}
 .dp-links a{display:inline-flex;align-items:center;gap:5px;padding:5px 9px;border:1px solid #30363d;border-radius:6px;color:#9ecbff;background:rgba(88,166,255,.08);font-size:11px;text-decoration:none;}
 .dp-links a:hover{border-color:#58a6ff;color:#fff;background:rgba(88,166,255,.16);}
@@ -752,6 +754,16 @@ Product Discovery
 
 <script>
 const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+
+// Public projection can turn a missing size into {}; never present it as NaN.
+function formatProductSize(size, missing){
+  missing = missing || '용량 표기 없음';
+  if(!size || typeof size!=='object' || Array.isArray(size) ||
+      typeof size.unit!=='number' || !Number.isFinite(size.unit) || size.unit<=0 ||
+      typeof size.base!=='string' || !size.base.trim() ||
+      (size.count!=null && (!Number.isInteger(size.count) || size.count<=0))) return missing;
+  return String(size.unit)+size.base.trim()+(size.count>1?' x '+size.count:'');
+}
 
 // 미국에서 못 파는 갈래는 화면에도 올리지 않는다.
 //
@@ -1999,17 +2011,20 @@ if(rt.status==='fulfilled' && rt.value && rt.value.commit_summary){
 document.addEventListener('DOMContentLoaded',loadData);
 setInterval(loadData,300000);
 
-document.querySelectorAll('nav a').forEach(a=>{
-a.addEventListener('click',()=>{
-const map={'Knowledge Graph':'knowledge','Strategy':'strategy','Teams':'teams'};
-const id=map[a.textContent.trim()];
-const el=id&&document.getElementById(id);
-if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
-else window.scrollTo({top:0,behavior:'smooth'});
-document.querySelectorAll('nav a').forEach(x=>x.classList.remove('active'));
-a.classList.add('active');
-});
-});
+// Native anchors own scrolling; derive selection from the URL, including history.
+function syncNavigation(){
+  const hash=window.location.hash;
+  const target=(!hash || hash==='#top')?'#daily-pipeline':hash;
+  document.querySelectorAll('nav a').forEach(a=>{
+    const active=a.getAttribute('href')===target;
+    a.classList.toggle('active',active);
+    if(active) a.setAttribute('aria-current','location');
+    else a.removeAttribute('aria-current');
+  });
+}
+window.addEventListener('hashchange',syncNavigation);
+window.addEventListener('pageshow',syncNavigation);
+syncNavigation();
 </script>
 <script>
 /* 내부 사유 코드를 사람이 읽는 말로 바꾼다. 모르는 코드는 원문 그대로 둔다(숨기지 않는다). */
@@ -2052,7 +2067,7 @@ function reasonText(codes){
     items.slice(-12).reverse().forEach(function(i){
       var li=document.createElement('li'); li.style.cssText='padding:8px 0;font-size:12.5px;line-height:1.5;';
       var cat={skincare:'스킨케어',makeup:'메이크업',body:'바디'}[i.category]||i.category;
-      var sz=i.size?(i.size.unit+i.size.base+(i.size.count>1?' x '+i.size.count:'')):'용량 표기 없음';
+      var sz=formatProductSize(i.size);
       var price=i.single_usd!=null?('$'+i.single_usd.toFixed(2)+' (마진 '+i.single_margin_pct+'%)'+(i.pack_usd?' · 1+1 $'+i.pack_usd.toFixed(2)+' ('+i.pack_margin_pct+'%)':'')):'가격 미산정';
       var cmp=i.shop_com_lowest_usd?(' · shop.com 최저 $'+Number(i.shop_com_lowest_usd).toFixed(2)):' · shop.com 비교 없음';
       var st={ACTIVE:'당시 ACTIVE',DRAFT:'당시 DRAFT',deleted_by_owner:'삭제 이력'}[i.status]||'상태 확인 필요';
@@ -2127,7 +2142,11 @@ async function renderDailyPipeline(){
     else if(it.status==='DRAFT'){ badge=el('span','dp-badge dp-warn','초안 기록'); draft++; }
     else { badge=el('span','dp-badge dp-none',it.status==='deleted_by_owner'?'삭제 이력':'상태 확인 필요'); }
     cat.appendChild(badge); card.appendChild(cat);
-    card.appendChild(el('div','dp-title', it? it.title : '오늘 기준 S등급 후보가 없거나 대기 중이에요'));
+    var toggle=el('button','dp-title dp-toggle', it? it.title : '오늘 기준 S등급 후보가 없거나 대기 중이에요');
+    toggle.type='button';
+    toggle.setAttribute('aria-expanded','false');
+    toggle.setAttribute('aria-controls','dp-detail-'+c[0]);
+    card.appendChild(toggle);
     if(it){
       var links=el('div','dp-links');
       function addProductLink(label,url){
@@ -2174,6 +2193,7 @@ async function renderDailyPipeline(){
     }
     card.appendChild(el('div','dp-next',cur<0?'공개 완료 기록':('다음 처리: '+(cur+1)+'단계 '+STEPS[cur]+' · '+(states[cur]==='bad'?'누락·오류 해결 필요':'확인 대기')+(observation(it)?' · 이미지·공개 여부는 별도 확인':' · 이후 단계는 순서 대기'))));
     var det=el('div','dp-detail');
+    det.id='dp-detail-'+c[0];
     function row(a,b){var r=document.createElement('div'); r.appendChild(el('span',null,a)); r.appendChild(el('span',null,b)); det.appendChild(r);}
     if(it){
       var o=observation(it);
@@ -2185,7 +2205,7 @@ async function renderDailyPipeline(){
       }
       row('생성 이력 날짜', it.date+(it.date===today?' (오늘)':''));
       row('다이소 상품번호', String(it.pd_no||'-'));
-      var sz=it.size? (it.size.unit+it.size.base+(it.size.count>1?' x '+it.size.count:'')):'표기 없음'; row('용량', sz);
+      row('용량', formatProductSize(it.size,'표기 없음'));
       row('생성 당시 이미지', it.images!=null?it.images+'장':'기록 없음');
       row('색 의미', '파랑 = 단계 완료, 노랑 = 현재 확인 대기, 빨강 = 현재 보완 필요, 회색 = 이전 단계 대기');
       row('shop.com 최저가', it.shop_com_lowest_usd!=null?'$'+Number(it.shop_com_lowest_usd).toFixed(2):'비교 상품 없음');
@@ -2193,7 +2213,11 @@ async function renderDailyPipeline(){
       row('생성 당시 초안 사유', (it.draft_reasons&&it.draft_reasons.length)? it.draft_reasons.join(', ') : '없음');
     } else { row('상태','등록 이력 없음'); row('담당 기준', c[2]); }
     card.appendChild(det);
-    card.addEventListener('click',function(){ card.classList.toggle('open'); });
+    // Native button activation handles Enter/Space and bubbles here exactly once.
+    card.addEventListener('click',function(){
+      var open=card.classList.toggle('open');
+      toggle.setAttribute('aria-expanded',String(open));
+    });
     grid.appendChild(card);
   });
   var lg=el('div','dp-legend'); [['#2f5bea','단계 완료'],['#e3b341','현재 확인 대기'],['#f85149','현재 보완 필요'],['#8b949e','이전 단계 대기']].forEach(function(x){ var s=el('span'); var b=el('b'); b.style.background=x[0]; s.appendChild(b); s.appendChild(document.createTextNode(x[1])); lg.appendChild(s); });
