@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:14:51.193882+00:00",
+  "generated_at": "2026-10-19T22:56:33.157666+00:00",
   "exchange_rate": {
     "usd_to_krw": 1333.6,
     "as_of": "2026-10-19",
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "match"
           }
         },
@@ -152,7 +152,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "match"
           }
         },
@@ -259,7 +259,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "match"
           }
         },
@@ -400,11 +400,11 @@
         "pd_no": "1072800",
         "name": "줌 바이 정샘물 세범다운 쿠션",
         "qty": 1,
-        "price_usd": 19.63,
-        "unit_price_usd": 19.63,
-        "landed_cost_total_usd": 11.38,
-        "fee_usd": 0.39,
-        "net_profit_usd": 7.86,
+        "price_usd": 18.32,
+        "unit_price_usd": 18.32,
+        "landed_cost_total_usd": 10.62,
+        "fee_usd": 0.37,
+        "net_profit_usd": 7.33,
         "margin_pct": 40.0,
         "market_median_usd": 26.99,
         "market_price_source": "serpapi_google_shopping",
@@ -422,7 +422,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -437,12 +437,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 7.86,
+          "net_profit_usd": 7.33,
           "margin_pct": 40.0,
-          "breakeven_usd": 11.61,
-          "minimum_margin_pct": 35.0,
+          "breakeven_usd": 10.84,
+          "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 19.62
+          "target_price_usd": 18.31
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -477,7 +477,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "match"
           }
         },
@@ -530,7 +530,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "match"
           }
         },
@@ -637,7 +637,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "match"
           }
         },
@@ -778,11 +778,11 @@
         "pd_no": "1072800",
         "name": "줌 바이 정샘물 세범다운 쿠션",
         "qty": 2,
-        "price_usd": 29.66,
-        "unit_price_usd": 14.83,
-        "landed_cost_total_usd": 17.2,
-        "fee_usd": 0.59,
-        "net_profit_usd": 11.87,
+        "price_usd": 25.73,
+        "unit_price_usd": 12.87,
+        "landed_cost_total_usd": 14.92,
+        "fee_usd": 0.51,
+        "net_profit_usd": 10.3,
         "margin_pct": 40.0,
         "market_median_usd": 26.99,
         "market_price_source": "serpapi_google_shopping",
@@ -800,7 +800,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 1.77,
+            "age_days": 1.8,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -815,12 +815,12 @@
           "has_unknown_fees": true,
           "profit_basis": "modeled_after_known_costs_only_not_full_verified_profit",
           "full_profit_verified": false,
-          "net_profit_usd": 11.87,
+          "net_profit_usd": 10.3,
           "margin_pct": 40.0,
-          "breakeven_usd": 17.55,
-          "minimum_margin_pct": 35.0,
+          "breakeven_usd": 15.22,
+          "minimum_margin_pct": 30.0,
           "target_margin_pct": 40.0,
-          "target_price_usd": 29.66
+          "target_price_usd": 25.72
         },
         "profit_warnings": [],
         "register_blocked": false,
@@ -850,13 +850,13 @@
       "discount_pct": 0,
       "price_usd": 19.63,
       "unit_price_usd": 19.63,
-      "landed_cost_total_usd": 10.56,
-      "shipping_in_cost_usd": 6.74,
+      "landed_cost_total_usd": 10.45,
+      "shipping_in_cost_usd": 6.63,
       "fee_usd": 0.39,
-      "net_profit_usd": 8.68,
-      "margin_pct": 44.2,
+      "net_profit_usd": 8.79,
+      "margin_pct": 44.8,
       "free_shipping": false,
-      "orders_for_500usd": 58,
+      "orders_for_500usd": 57,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         16.64,
@@ -866,15 +866,15 @@
     "bundle": {
       "qty": 2,
       "discount_pct": 15,
-      "price_usd": 29.66,
-      "unit_price_usd": 14.83,
-      "landed_cost_total_usd": 15.24,
-      "shipping_in_cost_usd": 7.6,
-      "fee_usd": 0.59,
-      "net_profit_usd": 13.83,
-      "margin_pct": 46.6,
+      "price_usd": 28.35,
+      "unit_price_usd": 14.18,
+      "landed_cost_total_usd": 14.91,
+      "shipping_in_cost_usd": 7.28,
+      "fee_usd": 0.57,
+      "net_profit_usd": 12.87,
+      "margin_pct": 45.4,
       "free_shipping": true,
-      "orders_for_500usd": 36,
+      "orders_for_500usd": 39,
       "price_basis": "상품별 권장가의 중앙값",
       "price_range_usd": [
         23.73,
@@ -882,8 +882,8 @@
       ]
     },
     "free_shipping_min_qty": 2,
-    "bundle_vs_single": 1.6,
-    "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 작다는 판단이다. 계산값으로 20%면 세트 마진 46.6%, 15%면 46.6%이고 단품 대비 순익은 1.6배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
+    "bundle_vs_single": 1.5,
+    "판단_근거": "15% 할인을 고른 이유: 5~10%는 미국 소비자에게 체감이 작다는 판단이다. 계산값으로 20%면 세트 마진 45.4%, 15%면 45.4%이고 단품 대비 순익은 1.5배다. 무료배송은 2개 주문 배송비가 이미 원가에 포함돼 추가 부담이 없다.",
     "광고비": "0 (매출이 붙기 전까지 광고하지 않기로 결정)"
   },
   "scenarios": {
@@ -1167,37 +1167,37 @@
         "bucket": "메이크업",
         "shopify_score": 75,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 3.75,
-        "shipping_unit_usd": 7.06,
-        "shipping_order_usd": 7.06,
+        "shipping_unit_usd": 6.31,
+        "shipping_order_usd": 6.31,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.38,
-        "landed_cost_ddu_usd": 11.38,
-        "landed_cost_ddp_usd": 10.81,
+        "landed_cost_usd": 10.62,
+        "landed_cost_ddu_usd": 10.62,
+        "landed_cost_ddp_usd": 10.06,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.61,
+        "breakeven_usd": 10.83,
         "at_2_2x": {
           "sell": 8.25,
           "fee": 0.16,
-          "profit": -3.29,
-          "margin_pct": -39.9
+          "profit": -2.53,
+          "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.32,
-          "margin_pct": 22.2
+          "profit": 4.08,
+          "margin_pct": 27.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.66,
-          "margin_pct": 47.4
+          "profit": 11.42,
+          "margin_pct": 50.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -1205,8 +1205,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 15.07,
-          "margin_pct": 55.9
+          "profit": 15.83,
+          "margin_pct": 58.7
         }
       }
     ],
@@ -1490,37 +1490,37 @@
         "bucket": "메이크업",
         "shopify_score": 75,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 3.75,
-        "shipping_unit_usd": 4.29,
-        "shipping_order_usd": 8.58,
+        "shipping_unit_usd": 3.15,
+        "shipping_order_usd": 6.31,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.6,
-        "landed_cost_ddu_usd": 8.6,
-        "landed_cost_ddp_usd": 8.04,
+        "landed_cost_usd": 7.46,
+        "landed_cost_ddu_usd": 7.46,
+        "landed_cost_ddp_usd": 6.9,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.78,
+        "breakeven_usd": 7.62,
         "at_2_2x": {
           "sell": 8.25,
           "fee": 0.16,
-          "profit": -0.52,
-          "margin_pct": -6.3
+          "profit": 0.62,
+          "margin_pct": 7.5
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.1,
-          "margin_pct": 40.7
+          "profit": 7.24,
+          "margin_pct": 48.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.44,
-          "margin_pct": 59.8
+          "profit": 14.58,
+          "margin_pct": 64.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -1528,8 +1528,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 17.85,
-          "margin_pct": 66.1
+          "profit": 18.99,
+          "margin_pct": 70.3
         }
       }
     ]
@@ -1815,37 +1815,37 @@
         "bucket": "메이크업",
         "shopify_score": 75,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 3.75,
-        "shipping_unit_usd": 7.06,
-        "shipping_order_usd": 7.06,
+        "shipping_unit_usd": 6.31,
+        "shipping_order_usd": 6.31,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 11.38,
-        "landed_cost_ddu_usd": 11.38,
-        "landed_cost_ddp_usd": 10.81,
+        "landed_cost_usd": 10.62,
+        "landed_cost_ddu_usd": 10.62,
+        "landed_cost_ddp_usd": 10.06,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 11.61,
+        "breakeven_usd": 10.83,
         "at_2_2x": {
           "sell": 8.25,
           "fee": 0.16,
-          "profit": -3.29,
-          "margin_pct": -39.9
+          "profit": -2.53,
+          "margin_pct": -30.7
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.32,
-          "margin_pct": 22.2
+          "profit": 4.08,
+          "margin_pct": 27.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 10.66,
-          "margin_pct": 47.4
+          "profit": 11.42,
+          "margin_pct": 50.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -1853,8 +1853,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 15.07,
-          "margin_pct": 55.9
+          "profit": 15.83,
+          "margin_pct": 58.7
         }
       }
     ],
@@ -2138,37 +2138,37 @@
         "bucket": "메이크업",
         "shopify_score": 75,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 3.75,
-        "shipping_unit_usd": 4.29,
-        "shipping_order_usd": 8.58,
+        "shipping_unit_usd": 3.15,
+        "shipping_order_usd": 6.31,
         "tariff_usd": 0.56,
         "duty_mode": "ddu",
-        "landed_cost_usd": 8.6,
-        "landed_cost_ddu_usd": 8.6,
-        "landed_cost_ddp_usd": 8.04,
+        "landed_cost_usd": 7.46,
+        "landed_cost_ddu_usd": 7.46,
+        "landed_cost_ddp_usd": 6.9,
         "customer_pays_duty_at_checkout": false,
-        "breakeven_usd": 8.78,
+        "breakeven_usd": 7.62,
         "at_2_2x": {
           "sell": 8.25,
           "fee": 0.16,
-          "profit": -0.52,
-          "margin_pct": -6.3
+          "profit": 0.62,
+          "margin_pct": 7.5
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.1,
-          "margin_pct": 40.7
+          "profit": 7.24,
+          "margin_pct": 48.2
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 13.44,
-          "margin_pct": 59.8
+          "profit": 14.58,
+          "margin_pct": 64.8
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -2176,8 +2176,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 17.85,
-          "margin_pct": 66.1
+          "profit": 18.99,
+          "margin_pct": 70.3
         }
       }
     ],
@@ -2461,37 +2461,37 @@
         "bucket": "메이크업",
         "shopify_score": 75,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 3.75,
-        "shipping_unit_usd": 7.06,
-        "shipping_order_usd": 7.06,
+        "shipping_unit_usd": 6.31,
+        "shipping_order_usd": 6.31,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 10.81,
-        "landed_cost_ddu_usd": 11.38,
-        "landed_cost_ddp_usd": 10.81,
+        "landed_cost_usd": 10.06,
+        "landed_cost_ddu_usd": 10.62,
+        "landed_cost_ddp_usd": 10.06,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 11.03,
+        "breakeven_usd": 10.26,
         "at_2_2x": {
           "sell": 8.25,
           "fee": 0.16,
-          "profit": -2.73,
-          "margin_pct": -33.1
+          "profit": -1.97,
+          "margin_pct": -23.9
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 3.89,
-          "margin_pct": 25.9
+          "profit": 4.64,
+          "margin_pct": 31.0
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 11.23,
-          "margin_pct": 49.9
+          "profit": 11.98,
+          "margin_pct": 53.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -2499,8 +2499,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 15.64,
-          "margin_pct": 57.9
+          "profit": 16.39,
+          "margin_pct": 60.7
         }
       }
     ],
@@ -2784,37 +2784,37 @@
         "bucket": "메이크업",
         "shopify_score": 75,
         "price_krw": 5000,
-        "weight_g_est": 190,
-        "weight_note": "용량 표기 없음 - 150g 가정",
-        "weight_source": "estimated",
-        "weigh_needed": true,
+        "weight_g_est": 46,
+        "weight_note": "고시 용량 4g x 1.6(용기) + 40g(포장)",
+        "weight_source": "gosi_volume",
+        "weigh_needed": false,
         "unit_cost_usd": 3.75,
-        "shipping_unit_usd": 4.29,
-        "shipping_order_usd": 8.58,
+        "shipping_unit_usd": 3.15,
+        "shipping_order_usd": 6.31,
         "tariff_usd": 0.56,
         "duty_mode": "ddp",
-        "landed_cost_usd": 8.04,
-        "landed_cost_ddu_usd": 8.6,
-        "landed_cost_ddp_usd": 8.04,
+        "landed_cost_usd": 6.9,
+        "landed_cost_ddu_usd": 7.46,
+        "landed_cost_ddp_usd": 6.9,
         "customer_pays_duty_at_checkout": true,
-        "breakeven_usd": 8.2,
+        "breakeven_usd": 7.04,
         "at_2_2x": {
           "sell": 8.25,
           "fee": 0.16,
-          "profit": 0.04,
-          "margin_pct": 0.5
+          "profit": 1.18,
+          "margin_pct": 14.3
         },
         "at_market_p25": {
           "sell": 15.0,
           "fee": 0.3,
-          "profit": 6.66,
-          "margin_pct": 44.4
+          "profit": 7.8,
+          "margin_pct": 52.0
         },
         "at_market_median": {
           "sell": 22.49,
           "fee": 0.45,
-          "profit": 14.0,
-          "margin_pct": 62.3
+          "profit": 15.14,
+          "margin_pct": 67.3
         },
         "market_price_source": "serpapi_google_shopping",
         "market_median_usd": 26.99,
@@ -2822,8 +2822,8 @@
         "at_product_market": {
           "sell": 26.99,
           "fee": 0.54,
-          "profit": 18.41,
-          "margin_pct": 68.2
+          "profit": 19.55,
+          "margin_pct": 72.4
         }
       }
     ]

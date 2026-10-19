@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T18:44:19.643579+00:00",
+  "generated_at": "2026-10-19T22:56:23.667082+00:00",
   "current_s_count": 7,
-  "filled": 0,
+  "filled": 4,
   "replaced": 0,
   "complete": 24,
   "items": {
@@ -322,14 +322,19 @@
     },
     "1072800": {
       "missing_fields": [
-        "net_contents",
-        "ingredients_inci",
-        "manufacturer",
-        "country_of_origin"
+        "ingredients_inci"
       ],
-      "unresolved_ingredients": [],
+      "unresolved_ingredients": [
+        "라우릴다이지-10프리스(트라이메칠실록시(실릴메틸다이메티콘"
+      ],
       "resolved_spellings": [],
-      "needs_review": []
+      "needs_review": [
+        {
+          "원문": "라우릴다이지-10프리스(트라이메칠실록시(실릴메틸다이메티콘",
+          "방법": "unknown",
+          "사유": "정본에서 가까운 표준명을 찾지 못했다"
+        }
+      ]
     },
     "1068721": {
       "missing_fields": [
@@ -357,8 +362,7 @@
       "missing_fields": [
         "net_contents",
         "ingredients_inci",
-        "manufacturer",
-        "country_of_origin"
+        "manufacturer"
       ],
       "unresolved_ingredients": [],
       "resolved_spellings": [],

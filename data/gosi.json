@@ -2994,8 +2994,65 @@
           "status": "unavailable",
           "reason": "local_image_not_available",
           "capture_scope": "local_inventory_only"
+        },
+        {
+          "attempted_at": "2026-10-19T22:52:59.088348+00:00",
+          "source": "rendered_alt",
+          "status": "fields_added",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
-      ]
+      ],
+      "expiry": "또는개봉후사용기간 제조일로부터36개월 개봉후12개월",
+      "field_observations": {
+        "expiry": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:53:01.229624+00:00",
+          "sha256": "ddd349e2e8da345243666c7234692e07bc749d99a689bea0e131587df01fbbbe",
+          "byte_count": 4897,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:53:01.229624+00:00",
+          "dom_sha256": "2159b673001b49be7c79ebb3b8435d0664a54348e2073ddb7556a93963fc10f9",
+          "intended_product_id": "1068721",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "functional": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:53:01.229624+00:00",
+          "sha256": "ddd349e2e8da345243666c7234692e07bc749d99a689bea0e131587df01fbbbe",
+          "byte_count": 4897,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:53:01.229624+00:00",
+          "dom_sha256": "2159b673001b49be7c79ebb3b8435d0664a54348e2073ddb7556a93963fc10f9",
+          "intended_product_id": "1068721",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "warnings": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:53:01.229624+00:00",
+          "sha256": "ddd349e2e8da345243666c7234692e07bc749d99a689bea0e131587df01fbbbe",
+          "byte_count": 4897,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:53:01.229624+00:00",
+          "dom_sha256": "2159b673001b49be7c79ebb3b8435d0664a54348e2073ddb7556a93963fc10f9",
+          "intended_product_id": "1068721",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        }
+      },
+      "verified": false,
+      "functional": "미백/주름개선2중기능성",
+      "warnings": "자제할것"
     },
     "1074979": {
       "product_id": "1074979",
@@ -3009,8 +3066,50 @@
           "status": "unavailable",
           "reason": "local_image_not_available",
           "capture_scope": "local_inventory_only"
+        },
+        {
+          "attempted_at": "2026-10-19T22:54:17.219223+00:00",
+          "source": "rendered_alt",
+          "status": "fields_added",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
-      ]
+      ],
+      "origin": "대한민국",
+      "field_observations": {
+        "origin": {
+          "source": "https://fapi.daisomall.co.kr/ds/brand",
+          "received_at": "2026-10-19T22:54:19.339603+00:00",
+          "sha256": "0700a329b22aa3f98ff7f824d6212d78a61e0d401fae4e0dd98a649dfc6fdf4a",
+          "byte_count": 96010,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:54:19.339603+00:00",
+          "dom_sha256": "672d1e0cf0780a74de306bc5978defd5d430a86467417e1b65f6cd60b30c218d",
+          "intended_product_id": "1074979",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "warnings": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:54:19.324305+00:00",
+          "sha256": "f643188289a8c9012add9cb66d16a9d5209d157177eaf95be332211bfb23e67d",
+          "byte_count": 4531,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:54:19.324305+00:00",
+          "dom_sha256": "672d1e0cf0780a74de306bc5978defd5d430a86467417e1b65f6cd60b30c218d",
+          "intended_product_id": "1074979",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        }
+      },
+      "verified": false,
+      "warnings": "있는부위등에는사용을자제할것 개인센이의순이당지않는곳에보관할것"
     },
     "1068733": {
       "product_id": "1068733",
@@ -3039,6 +3138,384 @@
           "status": "unavailable",
           "reason": "local_image_not_available",
           "capture_scope": "local_inventory_only"
+        },
+        {
+          "attempted_at": "2026-10-19T22:55:34.898764+00:00",
+          "source": "rendered_alt",
+          "status": "fields_added",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ],
+      "volume": "4g",
+      "field_observations": {
+        "volume": {
+          "source": "https://www.daisomall.co.kr/ssn/search/GoodsTogether?searchQuery=R12&exhCtgrNo=CTGR_01055&pdNo=1072800&pageNum=28&cntPerPage=20&isCategory=1",
+          "received_at": "2026-10-19T22:56:22.035814+00:00",
+          "sha256": "c86b244b43d390afd0e24089206e1ee3564c95014e8fae0631b14b5e0ba9fdc6",
+          "byte_count": 56223,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:56:22.035814+00:00",
+          "dom_sha256": "5075b48858fa4fd7ddaabf670e1517d38b074e951137256ba7cd3e56f8722d22",
+          "intended_product_id": "1072800",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "expiry": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:55:37.132113+00:00",
+          "sha256": "63ccac3d92ed9613678b69cacbd91bfb8512ce666c30806c4ab6cfc1dd33bf14",
+          "byte_count": 10309,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:55:37.132113+00:00",
+          "dom_sha256": "5075b48858fa4fd7ddaabf670e1517d38b074e951137256ba7cd3e56f8722d22",
+          "intended_product_id": "1072800",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "maker": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:55:37.132113+00:00",
+          "sha256": "63ccac3d92ed9613678b69cacbd91bfb8512ce666c30806c4ab6cfc1dd33bf14",
+          "byte_count": 10309,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:55:37.132113+00:00",
+          "dom_sha256": "5075b48858fa4fd7ddaabf670e1517d38b074e951137256ba7cd3e56f8722d22",
+          "intended_product_id": "1072800",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "origin": {
+          "source": "https://fapi.daisomall.co.kr/ds/brand",
+          "received_at": "2026-10-19T22:55:37.134139+00:00",
+          "sha256": "0700a329b22aa3f98ff7f824d6212d78a61e0d401fae4e0dd98a649dfc6fdf4a",
+          "byte_count": 96010,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:55:37.134139+00:00",
+          "dom_sha256": "5075b48858fa4fd7ddaabf670e1517d38b074e951137256ba7cd3e56f8722d22",
+          "intended_product_id": "1072800",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "usage": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:55:37.132113+00:00",
+          "sha256": "63ccac3d92ed9613678b69cacbd91bfb8512ce666c30806c4ab6cfc1dd33bf14",
+          "byte_count": 10309,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:55:37.132113+00:00",
+          "dom_sha256": "5075b48858fa4fd7ddaabf670e1517d38b074e951137256ba7cd3e56f8722d22",
+          "intended_product_id": "1072800",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "ingredients": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:55:37.132113+00:00",
+          "sha256": "63ccac3d92ed9613678b69cacbd91bfb8512ce666c30806c4ab6cfc1dd33bf14",
+          "byte_count": 10309,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:55:37.132113+00:00",
+          "dom_sha256": "5075b48858fa4fd7ddaabf670e1517d38b074e951137256ba7cd3e56f8722d22",
+          "intended_product_id": "1072800",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "warnings": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:55:37.132113+00:00",
+          "sha256": "63ccac3d92ed9613678b69cacbd91bfb8512ce666c30806c4ab6cfc1dd33bf14",
+          "byte_count": 10309,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:55:37.132113+00:00",
+          "dom_sha256": "5075b48858fa4fd7ddaabf670e1517d38b074e951137256ba7cd3e56f8722d22",
+          "intended_product_id": "1072800",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        }
+      },
+      "verified": false,
+      "expiry": "개봉 전 36개월 / 개봉 후 12개월",
+      "maker": "(주)코스메카코리아 / (주)정샘물뷰티",
+      "origin": "대한민국",
+      "usage": "메이크업 전: 스킨케어 제품을 잘 흡수시켜 준 후, 유분이 신경쓰이는 부위에 톡톡 두드려 줍니다.",
+      "ingredients": "정제수, 다이메티콘, 실리카, 메틸트라이메티콘, 세틸피이지/피피지-10/1 다이메티콘, 다이프로필렌글라이콜, 비닐다이메티콘/메티콘실세스퀴옥세인크로스폴리머, 라우릴다이지-10프리스(트라이메칠실록시(실릴메틸다이메티콘, 메틸메타크릴레이트크로스폴리머, 소듐클로라이드, 라우릴피이지-9폴리다이메틸실록시에틸다이메티콘, 다이스테아다이모늄헥토라이트, 프로판다이올, 카프릴릴글라이콜, 향료, 글리세릴카프릴레이트, 잔탄검, 에틸헥실글리세린, 트라이소듐에틸렌다이아민다이석시네이트, 락토바실러스발효용해물, 1,2-헥산다이올, 부틸렌글라이콜, 토코페롤, 글리세린, 병풀추출물, 약모밀추출물, 하이알루로닉애씨드, 아세틸헥사펩타이드-8, 카퍼트라이펩타이드-1, 올리고펩타이드-29, 올리고펩타이드-32, 팔미토일펜타펩타이드-4",
+      "warnings": "1. 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우에는 전문의 등과 상담할 것"
+    },
+    "1045431": {
+      "product_id": "1045431",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-19T22:44:25.612749+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ],
+      "retained_source_stale": true
+    },
+    "1063230": {
+      "product_id": "1063230",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-19T22:45:46.446281+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ],
+      "retained_source_stale": true
+    },
+    "1084687": {
+      "product_id": "1084687",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-19T22:47:04.562871+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ],
+      "retained_source_stale": true
+    },
+    "1042249": {
+      "product_id": "1042249",
+      "usage": "1. 스크립을손에 덜어물기가있는피부에며 발라부드럽게 문질러줍니다 눈에들어가지않도록주의해주세요.",
+      "field_observations": {
+        "usage": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:48:22.847059+00:00",
+          "sha256": "7a3277cca9cd9cc00e203f04994142bce2f954d02600aed45025857856373faa",
+          "byte_count": 4809,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:48:22.847059+00:00",
+          "dom_sha256": "0f8752a8c2ea50a512d35589e4d6e0b4ab26e13b39d0db6b26b1b0f58a7dae17",
+          "intended_product_id": "1042249",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "volume": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:48:22.847059+00:00",
+          "sha256": "7a3277cca9cd9cc00e203f04994142bce2f954d02600aed45025857856373faa",
+          "byte_count": 4809,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:48:22.847059+00:00",
+          "dom_sha256": "0f8752a8c2ea50a512d35589e4d6e0b4ab26e13b39d0db6b26b1b0f58a7dae17",
+          "intended_product_id": "1042249",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "maker": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:48:22.847059+00:00",
+          "sha256": "7a3277cca9cd9cc00e203f04994142bce2f954d02600aed45025857856373faa",
+          "byte_count": 4809,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:48:22.847059+00:00",
+          "dom_sha256": "0f8752a8c2ea50a512d35589e4d6e0b4ab26e13b39d0db6b26b1b0f58a7dae17",
+          "intended_product_id": "1042249",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        }
+      },
+      "verified": false,
+      "volume": "100g/3.52oz",
+      "maker": "지본코스메틱",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-19T22:48:21.169566+00:00",
+          "source": "rendered_alt",
+          "status": "fields_added",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ]
+    },
+    "1072801": {
+      "product_id": "1072801",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-19T22:49:27.651612+00:00",
+          "source": "rendered_alt",
+          "status": "no_bound_fields",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": false,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ],
+      "retained_source_stale": true
+    },
+    "1042251": {
+      "product_id": "1042251",
+      "warnings": "성분 특성상 제형이 분리되어 있을 수 있습니다. 제품 이상이 아니니 사용 전 가볍게 흔들어주세요. 플루스크럽은 호두껍질 파우더 등 자연유래 스크럽성분이 농축 함유되어 있습니다. 보관환경에 따라 성분간 층분리 현상이 발생할 수 있으나, 제품 이상은 아니며 안심하고 사용하셔도 됩니다.",
+      "field_observations": {
+        "warnings": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:50:46.926344+00:00",
+          "sha256": "bc1fcfef65b1722d25459b085408b4f2b9b4ebe118acd5e8aa3f5f2310220e3b",
+          "byte_count": 4631,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:50:46.926344+00:00",
+          "dom_sha256": "a38c7211aaa9e5a7b1bb5fa21b408dbb7d21b9a36f7f6157849205045dbc8803",
+          "intended_product_id": "1042251",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "ingredients": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:50:46.926344+00:00",
+          "sha256": "bc1fcfef65b1722d25459b085408b4f2b9b4ebe118acd5e8aa3f5f2310220e3b",
+          "byte_count": 4631,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:50:46.926344+00:00",
+          "dom_sha256": "a38c7211aaa9e5a7b1bb5fa21b408dbb7d21b9a36f7f6157849205045dbc8803",
+          "intended_product_id": "1042251",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "maker": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:50:46.926344+00:00",
+          "sha256": "bc1fcfef65b1722d25459b085408b4f2b9b4ebe118acd5e8aa3f5f2310220e3b",
+          "byte_count": 4631,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:50:46.926344+00:00",
+          "dom_sha256": "a38c7211aaa9e5a7b1bb5fa21b408dbb7d21b9a36f7f6157849205045dbc8803",
+          "intended_product_id": "1042251",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        }
+      },
+      "verified": false,
+      "ingredients": "소듐클로라이드, 글리세린, 부틸렌글리콜, 꿀추출물, 다이소듐이디티에이, 에틸헥실글리세린, 구기자추출물, 크랜베리추출물",
+      "maker": "(주)지본코스메틱",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-19T22:50:45.311909+00:00",
+          "source": "rendered_alt",
+          "status": "fields_added",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
+        }
+      ]
+    },
+    "1069429": {
+      "product_id": "1069429",
+      "volume": "225mL",
+      "field_observations": {
+        "volume": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:51:53.500601+00:00",
+          "sha256": "ba52633029e1345856a7fd0dcd17db051b9c89de4555bba6eea266220cc4d83a",
+          "byte_count": 3672,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:51:53.500601+00:00",
+          "dom_sha256": "6c2f32467bc4b9f83326fef30b59ef5988c82348d42b0fe194c4dc51753ded3f",
+          "intended_product_id": "1069429",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "usage": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:51:53.500601+00:00",
+          "sha256": "ba52633029e1345856a7fd0dcd17db051b9c89de4555bba6eea266220cc4d83a",
+          "byte_count": 3672,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:51:53.500601+00:00",
+          "dom_sha256": "6c2f32467bc4b9f83326fef30b59ef5988c82348d42b0fe194c4dc51753ded3f",
+          "intended_product_id": "1069429",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "warnings": {
+          "source": "https://fapi.daisomall.co.kr/pd/pdr/pdDtl/selPdDtlDesc",
+          "received_at": "2026-10-19T22:51:53.500601+00:00",
+          "sha256": "ba52633029e1345856a7fd0dcd17db051b9c89de4555bba6eea266220cc4d83a",
+          "byte_count": 3672,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:51:53.500601+00:00",
+          "dom_sha256": "6c2f32467bc4b9f83326fef30b59ef5988c82348d42b0fe194c4dc51753ded3f",
+          "intended_product_id": "1069429",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        },
+        "origin": {
+          "source": "https://fapi.daisomall.co.kr/ds/brand",
+          "received_at": "2026-10-19T22:51:53.593800+00:00",
+          "sha256": "0700a329b22aa3f98ff7f824d6212d78a61e0d401fae4e0dd98a649dfc6fdf4a",
+          "byte_count": 96010,
+          "capture_scope": "rendered_alt_partial_page",
+          "verified": false,
+          "source_received_at": "2026-10-19T22:51:53.593800+00:00",
+          "dom_sha256": "6c2f32467bc4b9f83326fef30b59ef5988c82348d42b0fe194c4dc51753ded3f",
+          "intended_product_id": "1069429",
+          "product_identity_verified": false,
+          "human_verified": false,
+          "stale": false
+        }
+      },
+      "verified": false,
+      "usage": "적당량을 샤워용 스펀지나 타올에 덜어낸 다음 전신에 마사지하듯 문질러 후 물로 깨끗이 씻어냅니다.",
+      "warnings": "1) 사용 중 또는 사용 후 직사광선에 의하여 사용 부위에 붉은 반점, 부어오름, 또는 가려움 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할 것 2) 상처가 있는 부위 등에는 사용을 자제할 것 3) 내용물이 눈에 들어갔을 때는 물로 씻어내고, 이상이 있는 경우에는 전문의 등과 상담할 것 4) 어린이 손이 닿지 않는 곳에 보관할 것 5) 직사광선을 피해 보관할 것 6) 만 3세 이하 영유아에게는 사용하지 말 것 7) 일부에 시험 사용하여 피부 이상을 확인할 것",
+      "origin": "대한민국",
+      "observation_attempts": [
+        {
+          "attempted_at": "2026-10-19T22:51:51.653788+00:00",
+          "source": "rendered_alt",
+          "status": "fields_added",
+          "expanded_button_clicked": true,
+          "scroll_end_reached": true,
+          "capture_scope": "rendered_alt_partial_page",
+          "page_verification": false
         }
       ]
     }
@@ -3087,12 +3564,6 @@
   "agent_read_note": "2026-09-16 Gemini 할당량(429)이 소진되어 5건은 에이전트가 상세 이미지를 직접 읽어 옮겼다. 읽기이지 생성이 아니다. 각 항목에 vision_image 로 근거 이미지를 남겼으니 사람이 열어 대조할 수 있다. verified 는 대조 후 켠다.",
   "provider_stops": [
     {
-      "provider": "daiso",
-      "code": 403,
-      "category": "auth",
-      "stopped_at": "2026-10-18T20:16:15.613869+00:00"
-    },
-    {
       "provider": "gemini",
       "code": 429,
       "category": "quota",
@@ -3127,6 +3598,13 @@
       "category": "quota",
       "stopped_at": "2026-10-17T10:08:56.698837+00:00",
       "expired_at": "2026-10-18T20:15:01.327080+00:00"
+    },
+    {
+      "provider": "daiso",
+      "code": 403,
+      "category": "auth",
+      "stopped_at": "2026-10-18T20:16:15.613869+00:00",
+      "expired_at": "2026-10-19T22:44:23.674463+00:00"
     }
   ]
 }

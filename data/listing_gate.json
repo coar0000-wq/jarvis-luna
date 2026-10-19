@@ -1,20 +1,20 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-19T22:14:51.864354+00:00",
+  "generated_at": "2026-10-19T22:56:33.837935+00:00",
   "source": "data/daiso_real/shopify_s_recommendations.json",
   "agent_input_signature": {
     "schema_version": 2,
     "semantic_sources": {
-      "data/product_master.json": "afd70bcf2eb752662e3613c922cccf19e0e6fb051256838c95279c5e6e12db15",
-      "data/gosi.json": "4df7c615fcfbf092533420516537d999a6c5eb845b21f024e5124f87d5f24503",
-      "data/daiso_real/daiso_us_labels.json": "3e4d6aebaca0aa028053e4bf0e5f3edf011fabd54dfdc9ae34f3c016d408bc1a",
-      "data/pricing_model.json": "312cbfb857ead27e2d9666cc6b14c13243766ef40c9e7d77bcc29c0beb01e39b",
-      "data/legal_products.json": "03cc13d61cce1553308e2330beaf19f24317d7d6a6f8d992489f47edc263a85c",
-      "data/daiso_real/shopify_s_recommendations.json": "c74397a135221f265aeb11285d17300c1945910faade7a3ea4420964ef2f1987",
+      "data/product_master.json": "5ec6b46d7d31fbd2ecf72c4e3ef689251ff0ef7af9b6a2e60aaa007386cb978a",
+      "data/gosi.json": "59ecba0d15e3baf9d999597c662ff4dad7fb2538086bbb2c15864f7aff095334",
+      "data/daiso_real/daiso_us_labels.json": "c175d734eabf8df781035957ef763b6b01b0e5a260018e4cda7d4438bed4f48b",
+      "data/pricing_model.json": "6021c46ccb371dc53f8217ce85471c276dfcde1f1c5b7264d5d9496a79b163dd",
+      "data/legal_products.json": "6e904a6a5cd019ec78cd24cf95005c8a763e6aacc7ab7254dbb974b617a507de",
+      "data/daiso_real/shopify_s_recommendations.json": "1b5b6c43bc6490581a9d3efa089fd5949782ea26292821edb5ff9e646e01621c",
       "data/shopify_listing_copy.json": "828561761b9a34148c09419eadfb72ea4b784c52d5e8d317e34acb4959883b8b",
-      "data/shopify_shortlist.json": "b4e400a9740ed65dd255f2b6fcaafc9b786602d959a13ba06c4009dc16b31c1b",
-      "data/legal_full.json": "8b901092a8afbfadc1230c9fbadce30dbc960218e93e8be8b6f9cb52a0d10d12",
-      "data/mocra_readiness.json": "c92170e491dbf6ff674f243679f0e50a439f89be225c6a74b8ba5710873f61d1",
+      "data/shopify_shortlist.json": "687e27ad69165400f2eee18795a76147e5112d029fca30b41af322b47ec4b7d2",
+      "data/legal_full.json": "9f0984c737f78ac079f8f9b6fad97f2b8df4c5c6289c0f929b8b81e0f6168ade",
+      "data/mocra_readiness.json": "7e828a773f4097b5b697ceac372a50ff54ea50beb5d2b6636cc947e4f8efb3fb",
       "data/manual/legal_rp_status.json": "b0829dd2988ffe16fa0fa8501a48ed34897933628a7442f143ef6a83f0de7c12",
       "data/manual/mocra_business.json": "4fd23e0aa2fbab9b002cae70b05345510fcb79852fecd5c16209120f4fed6a12",
       "data/manual/owner_draft_approvals.json": "c9314abe5f1e4a58067adbc6b18a3894082c018a8dfa3ad6f9acfeab8a64e20d",
@@ -25,7 +25,7 @@
       "masked/product_accuracy_evidence": "a8554db0aa047990a80bc9cb4156a7de51d609c9e6e6d9f1558c9a674757d069",
       "data/manual/mocra_adverse_event_sop.md": "dabab282197c0429a943b0cb7a7a714b72730c88cd148becf97f4e69777d8370"
     },
-    "recommendations_sha256": "65f3111a5d2df721931d1f0b153c4b0c3aa45e9ac66f6b12320d70e2c1e8afee"
+    "recommendations_sha256": "477f7a4411f6636f5203bd8bbbba52c38345340a6394186e97488fa4e41605f4"
   },
   "total": 7,
   "agent_ready": 0,
@@ -35,7 +35,7 @@
   "counts": {
     "ontology": 7,
     "copy": 0,
-    "gosi": 4,
+    "gosi": 5,
     "us_label": 3,
     "price": 7,
     "legal": 3,
@@ -44,7 +44,7 @@
   },
   "blockers": {
     "copy": 7,
-    "gosi": 3,
+    "gosi": 2,
     "us_label": 4,
     "legal": 4,
     "manufacturer_safety_record": 7
@@ -707,14 +707,14 @@
       "gosi": {
         "volume": "",
         "maker": "",
-        "origin": "",
+        "origin": "대한민국",
         "ingredients": "",
         "gosi_ok": false
       },
       "us_label": {
         "net_contents": "",
         "manufacturer": "",
-        "country_of_origin": "",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
@@ -832,21 +832,21 @@
         "scope": "recorded_source_consistency_and_exact_copy_support_only"
       },
       "gosi": {
-        "volume": "",
-        "maker": "",
-        "origin": "",
-        "ingredients": "",
-        "gosi_ok": false
+        "volume": "4g",
+        "maker": "(주)코스메카코리아 / (주)정샘물뷰티",
+        "origin": "대한민국",
+        "ingredients": "정제수, 다이메티콘, 실리카, 메틸트라이메티콘, 세틸피이지/피피지-10/1 다이메티콘, 다이프로필렌글라이콜, 비닐다이메티콘/메티콘실세스퀴옥세인크로스폴리머, 라우릴다이지-10프리스(트라이메칠실록시(실릴메틸다이메티콘, ",
+        "gosi_ok": true
       },
       "us_label": {
-        "net_contents": "",
-        "manufacturer": "",
-        "country_of_origin": "",
+        "net_contents": "4g",
+        "manufacturer": "(주)코스메카코리아 / (주)정샘물뷰티",
+        "country_of_origin": "Korea",
         "ingredients_inci": "",
         "us_label_ok": false
       },
       "price": {
-        "price_usd": 19.63,
+        "price_usd": 18.32,
         "margin_pct": 40.0,
         "register_blocked": false,
         "price_evidence_ok": false,
@@ -868,7 +868,6 @@
       },
       "agent_ready": false,
       "agent_blocked_by": [
-        "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing"
@@ -876,7 +875,6 @@
       "ready": false,
       "blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing"
@@ -884,7 +882,6 @@
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
@@ -903,17 +900,16 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 10,
+        "risk_points": 9,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],

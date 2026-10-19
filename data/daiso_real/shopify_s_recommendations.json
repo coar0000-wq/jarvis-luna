@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:14:51.028179+00:00",
+  "generated_at": "2026-10-19T22:56:32.989857+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -72,7 +72,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-19T22:14:51.864354+00:00"
+      "gate_generated_at": "2026-10-19T22:56:33.837935+00:00"
     },
     {
       "rank": 2,
@@ -141,7 +141,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-19T22:14:51.864354+00:00"
+      "gate_generated_at": "2026-10-19T22:56:33.837935+00:00"
     },
     {
       "rank": 3,
@@ -218,7 +218,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-19T22:14:51.864354+00:00"
+      "gate_generated_at": "2026-10-19T22:56:33.837935+00:00"
     },
     {
       "rank": 4,
@@ -287,7 +287,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-19T22:14:51.864354+00:00"
+      "gate_generated_at": "2026-10-19T22:56:33.837935+00:00"
     },
     {
       "rank": 5,
@@ -368,7 +368,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-19T22:14:51.864354+00:00"
+      "gate_generated_at": "2026-10-19T22:56:33.837935+00:00"
     },
     {
       "rank": 6,
@@ -448,7 +448,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-19T22:14:51.864354+00:00"
+      "gate_generated_at": "2026-10-19T22:56:33.837935+00:00"
     },
     {
       "rank": 7,
@@ -469,14 +469,12 @@
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
-        "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing"
@@ -484,7 +482,6 @@
       "public_ready": false,
       "public_blocked_by": [
         "copy",
-        "gosi",
         "us_label",
         "legal",
         "manufacturer_safety_record_missing",
@@ -502,24 +499,23 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 10,
+        "risk_points": 9,
         "team_routes": [
           "legal",
-          "sourcing",
           "listing"
         ],
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, gosi, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-19T22:14:51.864354+00:00"
+      "gate_generated_at": "2026-10-19T22:56:33.837935+00:00"
     }
   ],
   "agent_ready_count": 0,
