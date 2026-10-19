@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T17:01:42.134713+00:00",
+  "generated_at": "2026-10-19T18:44:27.235915+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
