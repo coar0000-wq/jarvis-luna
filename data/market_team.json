@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-19T07:36:05.783490+09:00",
+    "updated_at": "2026-10-19T09:08:05.562224+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1363,11 +1363,11 @@
       "gemini_tags": [],
       "linked_s_products": [
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-        "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+        "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트"
       ],
       "linked_canonical_product_ids": [
         "CP000107",
-        "CP000106"
+        "CP000178"
       ],
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
@@ -1564,15 +1564,15 @@
     },
     {
       "rank": 3,
-      "canonical_product_id": "CP000106",
-      "pd_no": "1049275",
-      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "canonical_product_id": "CP000178",
+      "pd_no": "1061918",
+      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
       "name_en": null,
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
-      "review_count": 16857,
-      "cost_krw": 3000,
+      "review_count": 14926,
+      "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
       "suggested_price_usd": 15.0,
@@ -1582,11 +1582,12 @@
       "ad_keywords_source": "ontology 선행 게이트 차단",
       "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
+        "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "listing_ready": false,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918"
     },
     {
       "rank": 4,
@@ -1700,42 +1701,6 @@
   ],
   "competitor_watch": [
     {
-      "name": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
-      "brand": "WAKEMAKE",
-      "price_usd": 14.99,
-      "rating": 4.8,
-      "review_count": 1089,
-      "us_rank": 10,
-      "daiso_bucket": "메이크업",
-      "why": "us.oliveyoung.com/best-sellers 실수집 10위 · 메이크업 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA65685472",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
-      "brand": "alternativestereo",
-      "price_usd": 9.35,
-      "rating": 4.7,
-      "review_count": 4190,
-      "us_rank": 14,
-      "daiso_bucket": "메이크업",
-      "why": "us.oliveyoung.com/best-sellers 실수집 14위 · 메이크업 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA50320378",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
-      "name": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
-      "brand": "WAKEMAKE",
-      "price_usd": 14.99,
-      "rating": 4.7,
-      "review_count": 567,
-      "us_rank": 17,
-      "daiso_bucket": "메이크업",
-      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 메이크업 동일 포지션",
-      "url": "https://us.oliveyoung.com/products/UA49015923",
-      "source": "us.oliveyoung.com/best-sellers 실수집"
-    },
-    {
       "name": "[9types] MEDIHEAL Toner Pad 100 + 100 Pads Double Set",
       "brand": "MEDIHEAL",
       "price_usd": 39.99,
@@ -1770,6 +1735,42 @@
       "why": "us.oliveyoung.com/best-sellers 실수집 3위 · 스킨케어 동일 포지션",
       "url": "https://us.oliveyoung.com/products/UA69419689",
       "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[3colors] WAKEMAKE Bold Lip Blur Tint Set 0.11 oz.(3.3g) (Sanrio) (+ Hello Kitty Mirror Keyring)",
+      "brand": "WAKEMAKE",
+      "price_usd": 14.99,
+      "rating": 4.8,
+      "review_count": 1089,
+      "us_rank": 10,
+      "daiso_bucket": "메이크업",
+      "why": "us.oliveyoung.com/best-sellers 실수집 10위 · 메이크업 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA65685472",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[9colors] alternativestereo Lip Potion Sugar Glaze Mini Lip Tint 0.13 fl. oz.(4ml) (Original / Sanrio)",
+      "brand": "alternativestereo",
+      "price_usd": 9.35,
+      "rating": 4.7,
+      "review_count": 4190,
+      "us_rank": 14,
+      "daiso_bucket": "메이크업",
+      "why": "us.oliveyoung.com/best-sellers 실수집 14위 · 메이크업 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA50320378",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
+    },
+    {
+      "name": "[3colors] WAKEMAKE Lasting Glow Stick Set 0.12 oz. (3.5g) (+ Hello Kitty Ribbon Lip Pouch)",
+      "brand": "WAKEMAKE",
+      "price_usd": 14.99,
+      "rating": 4.7,
+      "review_count": 567,
+      "us_rank": 17,
+      "daiso_bucket": "메이크업",
+      "why": "us.oliveyoung.com/best-sellers 실수집 17위 · 메이크업 동일 포지션",
+      "url": "https://us.oliveyoung.com/products/UA49015923",
+      "source": "us.oliveyoung.com/best-sellers 실수집"
     }
   ],
   "weekly_actions": [
@@ -1779,23 +1780,22 @@
     "묶음 구매 유도용 무료배송 최소 주문금액 설정 (낱개 배송 시 적자 구조라 필수)"
   ],
   "health": {
-    "signals_live": 5,
+    "signals_live": 4,
     "signals_total": 15,
-    "signals_verified": 5,
+    "signals_verified": 4,
     "trust_graded": true,
     "trust_note": "",
     "live_channels": [
       "amazon_best_sellers",
-      "sokoglam_us",
       "amazon_new_beauty",
-      "ulta_beauty",
-      "sephora"
+      "sokoglam_us",
+      "ulta_beauty"
     ],
     "s_count": 7,
     "listing_ready_count": 0,
-    "last_score_run": "2026-10-18",
-    "last_pricing_run": "2026-10-18",
-    "exchange_rate": 1334.77
+    "last_score_run": "2026-10-19",
+    "last_pricing_run": "2026-10-19",
+    "exchange_rate": 1333.6
   },
   "data_integrity_note": "모든 수치는 실수집 산출물에서 계산했다. 근거가 없는 필드(키워드 추세·검색량)는 채우지 않고 사유를 적었다."
 }

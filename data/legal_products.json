@@ -90,7 +90,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-18T22:36:05.093092+00:00",
+      "auto_checked_at": "2026-10-19T00:08:04.819126+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -146,7 +146,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-18T22:36:05.093737+00:00",
+      "auto_checked_at": "2026-10-19T00:08:04.819803+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -202,7 +202,7 @@
       "needs_attention": false,
       "hard_block": false,
       "hard_block_reason": "",
-      "auto_checked_at": "2026-10-18T22:36:05.094483+00:00",
+      "auto_checked_at": "2026-10-19T00:08:04.820809+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -211,65 +211,6 @@
       "reviewer": "coarfamily 사업주 (채팅 승인 지시 2026-10-11)",
       "reviewed_at": "2026-10-11T09:30:00+09:00",
       "approval_note": "사업주 승인 지시(2026-10-11). 라벨·제조사 안전 근거는 판매 발생 시 사업주가 확보.",
-      "claims_review": {
-        "scope": "fda_cosmetic_wording_only",
-        "status": "NOT_REVIEWED_NO_COPY",
-        "flagged_terms": [],
-        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
-        "safety_approval": false,
-        "overall_legal_clearance": false,
-        "owner_approved_nonpublic_draft": true
-      }
-    },
-    "1049275": {
-      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-      "status": "auto_checked",
-      "auto_checks": {
-        "banned_claim": {
-          "ok": true,
-          "detail": "없음"
-        },
-        "otc_sunscreen": {
-          "ok": true,
-          "detail": "해당 없음"
-        },
-        "label_fields": {
-          "ok": false,
-          "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
-        },
-        "actual_label_review": {
-          "ok": false,
-          "detail": "Product-specific human-approved actual label evidence required"
-        },
-        "responsible_person": {
-          "ok": false,
-          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
-        },
-        "manufacturer_product_safety": {
-          "ok": false,
-          "detail": "Product-specific manufacturer safety evidence with human approval required"
-        },
-        "human_legal_approval": {
-          "ok": false,
-          "detail": "Human legal approval required; automation never creates PASS"
-        }
-      },
-      "auto_blockers": [
-        "label_fields",
-        "actual_label_review",
-        "responsible_person",
-        "manufacturer_product_safety",
-        "human_legal_approval"
-      ],
-      "needs_attention": true,
-      "hard_block": true,
-      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-18T22:36:05.092321+00:00",
-      "hs_code": "3304.99",
-      "hs_basis": "버킷 '스킨케어'",
-      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
-      "canonical_product_id": "CP000106",
-      "effective_legal_pass": false,
       "claims_review": {
         "scope": "fda_cosmetic_wording_only",
         "status": "NOT_REVIEWED_NO_COPY",
@@ -325,7 +266,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-18T22:36:05.094672+00:00",
+      "auto_checked_at": "2026-10-19T00:08:04.821019+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -384,7 +325,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-18T22:36:05.095028+00:00",
+      "auto_checked_at": "2026-10-19T00:08:04.821374+00:00",
       "hs_code": "3304.99",
       "hs_basis": "버킷 '스킨케어'",
       "hs_source": "hts.usitc.gov/reststop (미국 공식)",
@@ -443,7 +384,7 @@
       "needs_attention": true,
       "hard_block": true,
       "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
-      "auto_checked_at": "2026-10-18T22:36:05.094851+00:00",
+      "auto_checked_at": "2026-10-19T00:08:04.821198+00:00",
       "claims_review": {
         "scope": "fda_cosmetic_wording_only",
         "status": "NOT_REVIEWED_NO_COPY",
@@ -453,6 +394,65 @@
         "overall_legal_clearance": false,
         "owner_approved_nonpublic_draft": false
       }
+    },
+    "1061918": {
+      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "status": "auto_checked",
+      "auto_checks": {
+        "banned_claim": {
+          "ok": true,
+          "detail": "없음"
+        },
+        "otc_sunscreen": {
+          "ok": true,
+          "detail": "해당 없음"
+        },
+        "label_fields": {
+          "ok": false,
+          "detail": "Missing/placeholder/stale/non-English: ingredients_inci, manufacturer, product_name_en, directions_en, warnings_en"
+        },
+        "actual_label_review": {
+          "ok": false,
+          "detail": "Product-specific human-approved actual label evidence required"
+        },
+        "responsible_person": {
+          "ok": false,
+          "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+        },
+        "manufacturer_product_safety": {
+          "ok": false,
+          "detail": "Product-specific manufacturer safety evidence with human approval required"
+        },
+        "human_legal_approval": {
+          "ok": false,
+          "detail": "Human legal approval required; automation never creates PASS"
+        }
+      },
+      "auto_blockers": [
+        "label_fields",
+        "actual_label_review",
+        "responsible_person",
+        "manufacturer_product_safety",
+        "human_legal_approval"
+      ],
+      "needs_attention": true,
+      "hard_block": true,
+      "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "auto_checked_at": "2026-10-19T00:08:04.820046+00:00",
+      "hs_code": "3304.99",
+      "hs_basis": "버킷 '스킨케어'",
+      "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+      "canonical_product_id": "CP000178",
+      "claims_review": {
+        "scope": "fda_cosmetic_wording_only",
+        "status": "NOT_REVIEWED_NO_COPY",
+        "flagged_terms": [],
+        "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+        "safety_approval": false,
+        "overall_legal_clearance": false,
+        "owner_approved_nonpublic_draft": false
+      },
+      "effective_legal_pass": false
     }
   },
   "auto_summary": {
@@ -462,7 +462,7 @@
     "pass": 3,
     "out_of_scope": 26
   },
-  "auto_checked_at": "2026-10-18T22:36:05.095039+00:00",
+  "auto_checked_at": "2026-10-19T00:08:04.821387+00:00",
   "out_of_scope": {
     "1045146": {
       "name": "비프루브 마린 무기자차 마일드 선크림 50 ml (SPF50+PA++++)",
@@ -1000,40 +1000,6 @@
         "hs_source": "hts.usitc.gov/reststop (미국 공식)"
       }
     },
-    "1061918": {
-      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
-      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
-      "뺀_시각": "2026-10-02T10:28:21.289595+00:00",
-      "마지막_판정": "자동 점검 미통과: label_fields",
-      "row": {
-        "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
-        "status": "auto_checked",
-        "auto_checks": {
-          "banned_claim": {
-            "ok": true,
-            "detail": "없음"
-          },
-          "otc_sunscreen": {
-            "ok": true,
-            "detail": "해당 없음"
-          },
-          "label_fields": {
-            "ok": false,
-            "detail": "미확보: ingredients_inci, net_contents, manufacturer"
-          }
-        },
-        "auto_blockers": [
-          "label_fields"
-        ],
-        "needs_attention": true,
-        "hard_block": true,
-        "hard_block_reason": "자동 점검 미통과: label_fields",
-        "auto_checked_at": "2026-10-02T04:15:45.728258+00:00",
-        "hs_code": "3304.99",
-        "hs_basis": "버킷 '스킨케어'",
-        "hs_source": "hts.usitc.gov/reststop (미국 공식)"
-      }
-    },
     "1067500": {
       "name": "[이중턱리프팅]VT PDRN 광채리프팅마스크 1매 27 g+광채에센스 1.5 ml",
       "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
@@ -1565,6 +1531,71 @@
         "hs_code": "3304.99",
         "hs_basis": "버킷 '스킨케어'",
         "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+        "claims_review": {
+          "scope": "fda_cosmetic_wording_only",
+          "status": "NOT_REVIEWED_NO_COPY",
+          "flagged_terms": [],
+          "rules_authority": "internal_conservative_screen_not_official_fda_ban_list",
+          "safety_approval": false,
+          "overall_legal_clearance": false,
+          "owner_approved_nonpublic_draft": true
+        }
+      }
+    },
+    "1049275": {
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "왜_뺐나": "지금 S등급이 아니다. 팔 계획이 없으므로 점검하지 않는다.",
+      "뺀_시각": "2026-10-19T00:08:04.813842+00:00",
+      "마지막_판정": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+      "row": {
+        "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+        "status": "auto_checked",
+        "auto_checks": {
+          "banned_claim": {
+            "ok": true,
+            "detail": "없음"
+          },
+          "otc_sunscreen": {
+            "ok": true,
+            "detail": "해당 없음"
+          },
+          "label_fields": {
+            "ok": false,
+            "detail": "Missing/placeholder/stale/non-English: manufacturer, product_name_en, directions_en, warnings_en"
+          },
+          "actual_label_review": {
+            "ok": false,
+            "detail": "Product-specific human-approved actual label evidence required"
+          },
+          "responsible_person": {
+            "ok": false,
+            "detail": "Explicit RP name/address and human approval required; manufacturer is not RP"
+          },
+          "manufacturer_product_safety": {
+            "ok": false,
+            "detail": "Product-specific manufacturer safety evidence with human approval required"
+          },
+          "human_legal_approval": {
+            "ok": false,
+            "detail": "Human legal approval required; automation never creates PASS"
+          }
+        },
+        "auto_blockers": [
+          "label_fields",
+          "actual_label_review",
+          "responsible_person",
+          "manufacturer_product_safety",
+          "human_legal_approval"
+        ],
+        "needs_attention": true,
+        "hard_block": true,
+        "hard_block_reason": "자동 점검 미통과: label_fields, actual_label_review, responsible_person, manufacturer_product_safety, human_legal_approval",
+        "auto_checked_at": "2026-10-18T22:36:05.092321+00:00",
+        "hs_code": "3304.99",
+        "hs_basis": "버킷 '스킨케어'",
+        "hs_source": "hts.usitc.gov/reststop (미국 공식)",
+        "canonical_product_id": "CP000106",
+        "effective_legal_pass": false,
         "claims_review": {
           "scope": "fda_cosmetic_wording_only",
           "status": "NOT_REVIEWED_NO_COPY",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T22:36:05.460172+00:00",
+  "generated_at": "2026-10-19T00:08:05.209058+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -13,10 +13,8 @@
     "dedupe": "미국 근거 상품 하나당 단위 하나",
     "sticky": "기존 단위는 밀려나지 않음"
   },
-  "active_unit_count": 3,
+  "active_unit_count": 2,
   "active_pd_nos": [
-    "1049275",
-    "1049276",
     "1055167",
     "1067498"
   ],
@@ -24,32 +22,6 @@
   "business_authority": false,
   "selection_scope": "retained_candidate_and_price_watchlist_not_business_clearance",
   "units": [
-    {
-      "unit_id": "VG-VT-REEDLE-SHOT",
-      "pd_nos": [
-        "1049276",
-        "1049275"
-      ],
-      "canonical_product_ids": [
-        "CP000107",
-        "CP000106"
-      ],
-      "names": [
-        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-        "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
-      ],
-      "eligible_pd_nos": [],
-      "business_ready": false,
-      "score": 100,
-      "evidence": {
-        "global_product": "Time Revolution Night Repair Ampoule 5X",
-        "channel": "sokoglam_us",
-        "similarity": 0.667
-      },
-      "added_at": "2026-09-29T10:03:26.384544+00:00",
-      "status": "active",
-      "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing"
-    },
     {
       "unit_id": "VG-CP000130",
       "pd_nos": [
@@ -97,6 +69,23 @@
       "note": "선정·가격 관측 대상 유지; 초안·판매 자격 차단: 게이트 초안 미준비: copy, manufacturer_safety_record_missing"
     },
     {
+      "unit_id": "VG-VT-REEDLE-SHOT",
+      "pd_nos": [],
+      "canonical_product_ids": [],
+      "names": [],
+      "eligible_pd_nos": [],
+      "business_ready": false,
+      "score": 100,
+      "evidence": {
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "channel": "sokoglam_us",
+        "similarity": 0.667
+      },
+      "added_at": "2026-09-29T10:03:26.384544+00:00",
+      "status": "paused",
+      "note": "스토어 대상에서 일시 제외: 게이트 초안 미준비: copy, manufacturer_safety_record_missing"
+    },
+    {
       "unit_id": "VG-CP000109",
       "pd_nos": [
         "1049285"
@@ -116,6 +105,28 @@
     }
   ],
   "not_selected": [
+    {
+      "unit_id": "VG-VT-REEDLE-SHOT",
+      "pd_nos": [
+        "1049276"
+      ],
+      "names": [
+        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+      ],
+      "score": 100,
+      "reason": "게이트 초안 미준비: copy, manufacturer_safety_record_missing"
+    },
+    {
+      "unit_id": "VG-CP000178",
+      "pd_nos": [
+        "1061918"
+      ],
+      "names": [
+        "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트"
+      ],
+      "score": 98,
+      "reason": "게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing, us_label"
+    },
     {
       "unit_id": "VG-CP000230",
       "pd_nos": [
