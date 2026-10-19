@@ -428,43 +428,6 @@
       "delete_file": false
     },
     {
-      "path": "data/agents/workflow_freshness.json",
-      "base_sha256": "6898275eca896a0fc819536c38cd74673d175f6ff10b3011b3b200f94cda5c27",
-      "replacement_sha256": "2595beeb366d5fbace9b383815764d23f695611d2ff27a824cab4bfbe5ee2d58",
-      "ids": [
-        "finished_at"
-      ],
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "72938ced64813bb1056b9f5b8a4704c38e2e2dc2327822b2351af34572769a4a",
-      "ids": [
-        "action:intent:task_1bc7787b571629042300643174fe21f92e292e2e2dc7ee8805bddb53430c4146",
-        "action:intent:task_a02a7464d9bcb41d86ae27b16afd55706b0f92d90708dab2526f52b784a50f3e",
-        "relation:623df31da79314b78003fc5c",
-        "relation:764a2464e142593c0d1a9a7f",
-        "relation:7dacc77412787af69ffe3bc8",
-        "relation:c99c7fa33d616702ff38dfb4"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/state.json",
-      "base_sha256": "08168d0671411c3f1fe7760108b73e42a59c82fe66966a06491c87d4a06a5cbb",
-      "ids": [
-        "INVALID_OBSERVATION_SCOPE",
-        "finished_at"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/daiso_real/shortlist_observations.json",
       "base_sha256": "9c5abf48dfde4acb145f71bed0d276534f8e35724a2a9bf4df1e6502c1ed49b6",
       "replacement_sha256": "3f9444e1ca402e43844dbdb794d20ad13361eb9b2e5ac066ae1226273faef8be",
