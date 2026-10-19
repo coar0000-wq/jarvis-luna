@@ -47,6 +47,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -171,7 +172,20 @@ def panel_cuts(gray) -> list[int]:
 # tesseract 는 그 한 줄만 잘라 읽어(psm 7) 한글 줄인지 판정하는 데만 쓴다.
 # 같은 네 패널에서 빠진 줄 없이 줄 단위 상자가 나왔다.
 
+# Two processes, one OpenMP thread each: avoid nested Tesseract oversubscription.
+# Preserve every input pixel; oversized inputs fail review rather than downsampling
+# small Korean ingredient/warning text or silently omitting candidate lines.
+OCR_WORKERS = 2
+OCR_LINE_SECONDS = 60
+OCR_PANEL_SECONDS = 180
+OCR_MAX_LINE_PIXELS = 1_000_000
+OCR_MAX_PANEL_PIXELS = 8_000_000
+OCR_MAX_BOXES = 256
 _OCR_READY: bool | None = None
+
+
+def _ocr_env() -> dict[str, str]:
+    return {**os.environ, "OMP_THREAD_LIMIT": "1", "OMP_NUM_THREADS": "1"}
 
 
 def ensure_ocr_ready() -> None:
@@ -189,7 +203,9 @@ def ensure_ocr_ready() -> None:
     exe = shutil.which("tesseract")
     if not exe:
         raise RuntimeError("tesseract_missing")
-    langs = subprocess.run([exe, "--list-langs"], capture_output=True, timeout=30)
+    langs = subprocess.run([exe, "--list-langs"], capture_output=True, timeout=30, env=_ocr_env())
+    if langs.returncode != 0:
+        raise RuntimeError("tesseract_language_probe_failed")
     listed = (langs.stdout + langs.stderr).decode("utf-8", "ignore").split()
     if "kor" not in listed:
         raise RuntimeError("tesseract_kor_missing")
@@ -197,22 +213,38 @@ def ensure_ocr_ready() -> None:
 
     buf = io.BytesIO()
     Image.new("RGB", (60, 30), (255, 255, 255)).save(buf, "PNG")
-    probe = subprocess.run([exe, "stdin", "stdout", "-l", "kor+eng", "--psm", "7"],
-                           input=buf.getvalue(), capture_output=True, timeout=60)
-    if b"Failed loading language" in probe.stderr or b"Error opening data file" in probe.stderr:
-        raise RuntimeError("tesseract_kor_unloadable")
+    _tess(["-l", "kor+eng", "--psm", "7"], buf.getvalue(), 60)
     _OCR_READY = True
 
 
-def _tess(args: list[str], data: bytes, timeout: int) -> bytes:
-    """tesseract 호출. 언어 데이터를 못 실으면 결과를 쓰지 않고 예외를 낸다."""
+def _tess(args: list[str], data: bytes, timeout: float, *, deadline: float | None = None) -> bytes:
+    """At most two full-resolution attempts within one wall-clock budget.
+
+    A killed process is reaped by subprocess.run before retry. Never interpret a
+    timeout, language-load failure or nonzero exit as an empty/no-Korean result.
+    """
     exe = shutil.which("tesseract")
     if not exe:
         raise RuntimeError("tesseract_missing")
-    out = subprocess.run([exe, "stdin", "stdout", *args], input=data, capture_output=True, timeout=timeout)
-    if b"Failed loading language" in out.stderr or b"Error opening data file" in out.stderr:
-        raise RuntimeError("tesseract_language_unloadable")
-    return out.stdout
+    end = min(time.monotonic() + timeout, deadline if deadline is not None else float("inf"))
+    for attempt in range(2):
+        remaining = end - time.monotonic()
+        if remaining <= 0:
+            raise RuntimeError("ocr_budget_exhausted")
+        try:
+            out = subprocess.run([exe, "stdin", "stdout", *args], input=data,
+                                 capture_output=True, timeout=remaining / (2 - attempt),
+                                 env=_ocr_env())
+        except subprocess.TimeoutExpired as exc:
+            if attempt == 1:
+                raise RuntimeError("ocr_timeout_after_retry") from exc
+            continue
+        if b"Failed loading language" in out.stderr or b"Error opening data file" in out.stderr:
+            raise RuntimeError("tesseract_language_unloadable")
+        if out.returncode != 0:
+            raise RuntimeError(f"tesseract_exit:{out.returncode}")
+        return out.stdout
+    raise RuntimeError("ocr_timeout_after_retry")
 
 
 def _area(b) -> int:
@@ -223,7 +255,7 @@ def _inter(a, b) -> int:
     return _area([max(a[0], b[0]), max(a[1], b[1]), min(a[2], b[2]), min(a[3], b[3])])
 
 
-def text_line_boxes(rgb) -> list[list[int]]:
+def text_line_boxes(rgb, *, deadline: float | None = None) -> list[list[int]]:
     import cv2  # noqa: PLC0415
     import numpy as np  # noqa: PLC0415
 
@@ -236,9 +268,13 @@ def text_line_boxes(rgb) -> list[list[int]]:
     n, _, st, _ = cv2.connectedComponentsWithStats(bw, 8)
     boxes = []
     for i in range(1, n):
+        if deadline is not None and time.monotonic() >= deadline:
+            raise RuntimeError("ocr_budget_exhausted")
         x, y, w, h, area = (int(v) for v in st[i])
         if 8 <= h <= 90 and w >= 14 and w / h >= 1.2 and area / (w * h) >= 0.25:
             boxes.append([x, y, x + w, y + h])
+            if len(boxes) > OCR_MAX_BOXES:
+                raise RuntimeError("ocr_line_count_budget_exceeded")
     # 큰 글씨는 낱말 사이가 넓어 낱말마다 상자가 생긴다. 같은 줄이고 간격이 글자 높이 이내면 잇는다.
     # 단(열) 사이는 글자 높이보다 넓어서 이어지지 않는다 (1084687 패널5 세 단 확인).
     boxes.sort(key=lambda b: (b[1], b[0]))
@@ -246,6 +282,8 @@ def text_line_boxes(rgb) -> list[list[int]]:
     while changed:
         changed = False
         for i in range(len(boxes)):
+            if deadline is not None and time.monotonic() >= deadline:
+                raise RuntimeError("ocr_budget_exhausted")
             for j in range(len(boxes)):
                 if i == j:
                     continue
@@ -264,7 +302,7 @@ def text_line_boxes(rgb) -> list[list[int]]:
     return boxes
 
 
-def ocr_line(rgb, box) -> tuple[str, float]:
+def ocr_line(rgb, box, *, deadline: float | None = None) -> tuple[str, float]:
     """한 줄만 잘라 읽는다. 작은 글씨는 두 배로 키워 읽는다."""
     from PIL import Image  # noqa: PLC0415
 
@@ -273,12 +311,19 @@ def ocr_line(rgb, box) -> tuple[str, float]:
     exe = shutil.which("tesseract")
     if not exe:
         raise RuntimeError("tesseract_missing")
+    end = min(time.monotonic() + OCR_LINE_SECONDS, deadline if deadline is not None else float("inf"))
+    if time.monotonic() >= end:
+        raise RuntimeError("ocr_budget_exhausted")
     h, w = rgb.shape[:2]
     x0, y0, x1, y1 = max(0, box[0] - 4), max(0, box[1] - 4), min(w, box[2] + 4), min(h, box[3] + 4)
-    import numpy as np  # noqa: PLC0415
 
     from PIL import ImageOps  # noqa: PLC0415
 
+    scale = 2 if y1 - y0 < 40 else 1
+    if (x1 - x0) * (y1 - y0) <= 0:
+        raise RuntimeError("ocr_invalid_line_box")
+    if ((x1 - x0) * scale + 40) * ((y1 - y0) * scale + 40) > OCR_MAX_LINE_PIXELS:
+        raise RuntimeError("ocr_line_size_budget_exceeded")
     crop = Image.fromarray(rgb[y0:y1, x0:x1])
     if crop.height < 40:
         crop = crop.resize((crop.width * 2, crop.height * 2), Image.LANCZOS)
@@ -288,9 +333,11 @@ def ocr_line(rgb, box) -> tuple[str, float]:
     crop = ImageOps.expand(crop, border=20, fill=tuple(int(v) for v in np.median(edge, axis=0)))
 
     def read(img, lang) -> tuple[str, float]:
+        if img.width * img.height > OCR_MAX_LINE_PIXELS:
+            raise RuntimeError("ocr_line_size_budget_exceeded")
         buf = io.BytesIO()
         img.save(buf, "PNG")
-        stdout = _tess(["-l", lang, "--psm", "7", "-c", "tessedit_create_tsv=1"], buf.getvalue(), 60)
+        stdout = _tess(["-l", lang, "--psm", "7", "-c", "tessedit_create_tsv=1"], buf.getvalue(), OCR_LINE_SECONDS, deadline=end)
         words = [r for r in csv.DictReader(io.StringIO(stdout.decode("utf-8", "ignore")),
                                            delimiter="\t", quoting=csv.QUOTE_NONE)
                  if r.get("level") == "5" and (r.get("text") or "").strip()]
@@ -326,9 +373,16 @@ def ocr_line(rgb, box) -> tuple[str, float]:
 def korean_lines(rgb) -> list[dict]:
     from concurrent.futures import ThreadPoolExecutor  # noqa: PLC0415
 
-    boxes = text_line_boxes(rgb)
-    with ThreadPoolExecutor(max_workers=4) as pool:
-        reads = list(pool.map(lambda b: ocr_line(rgb, b), boxes))
+    if rgb.shape[0] * rgb.shape[1] > OCR_MAX_PANEL_PIXELS:
+        raise RuntimeError("ocr_panel_size_budget_exceeded")
+    end = time.monotonic() + OCR_PANEL_SECONDS
+    boxes = text_line_boxes(rgb, deadline=end)
+    if time.monotonic() >= end:
+        raise RuntimeError("ocr_budget_exhausted")
+    if len(boxes) > OCR_MAX_BOXES:
+        raise RuntimeError("ocr_line_count_budget_exceeded")
+    with ThreadPoolExecutor(max_workers=OCR_WORKERS) as pool:
+        reads = list(pool.map(lambda b: ocr_line(rgb, b, deadline=end), boxes))
     import numpy as np  # noqa: PLC0415
 
     out = []
@@ -826,6 +880,7 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
                 boxes = hangul_boxes(png)
             except Exception as exc:  # noqa: BLE001
                 row["reason"] = f"inspection_failed:{exc}"
+                row["inspection_incomplete"] = True
                 continue
             joined = "".join(x["ocr"] for x in boxes).replace(" ", "")
             if "상품정보" in joined or "제공고시" in joined:
@@ -870,7 +925,12 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
             jpg = buf.getvalue()
             not_korean = [x["box"] for x in boxes if not (english.get(x["id"]) or "").strip()]
             done = [x["box"] for x in boxes if (english.get(x["id"]) or "").strip()]
-            left = residual_hangul(jpg, not_korean, done)
+            try:
+                left = residual_hangul(jpg, not_korean, done)
+            except Exception as exc:  # noqa: BLE001  failed inspection is not no Korean
+                row["reason"] = f"residual_inspection_failed:{exc}"
+                row["inspection_incomplete"] = True
+                continue
             if left:
                 row["reason"] = "korean_text_remaining"
                 row["residual"] = left[:5]
@@ -899,7 +959,11 @@ def localize_product(pd_no: str, title: str, out_dir: Path, translator=None,
     else:
         man["reasons"].append(f"info_panel_skipped:{why}")
     used = sum(1 for p in man["panels"] if p["status"] == "used")
-    man["status"] = "ok" if used else "failed"
+    incomplete = any(p.get("inspection_incomplete") for p in man["panels"])
+    man["status"] = "ok" if used and not incomplete else "failed"
+    if incomplete:
+        man["reasons"].append("ocr_inspection_incomplete")
+        man["gallery_review_reasons"].append("ocr_inspection_incomplete")
     if not used:
         man["reasons"].append("no_localized_panels")
     man["summary"] = {"panels": len(man["panels"]), "used": used,
@@ -940,3 +1004,4 @@ def main(argv=None) -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
