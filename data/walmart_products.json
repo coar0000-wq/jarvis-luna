@@ -7,9 +7,18 @@
   "source_url": "https://www.walmart.com/browse/beauty/1085666",
   "robots_note": "Public editorial collection; source URL verified in browser (2026-10-18)",
   "collected_at": "2026-09-15T11:19:23.782Z",
+  "last_attempt_at": "2026-10-19T23:56:37.788602+00:00",
+  "freshness": {
+    "source_timestamp": "2026-09-15T11:19:23.782Z",
+    "timestamp_input_type": "str",
+    "status": "stale",
+    "age_hours": 828.6206,
+    "is_stale": true,
+    "max_age_hours": 36
+  },
   "count": 39,
   "reason": "차단/빈 페이지로 보인다 (근거: robot or human, 본문 211자) · 보강 파일로 채움 (Aside 브라우저 세션 (사람 프로필 Chrome), 2026-09-15)",
-  "is_stale": false,
+  "is_stale": true,
   "stale_from": "",
   "skipped_sponsored": 10,
   "price_stats": {

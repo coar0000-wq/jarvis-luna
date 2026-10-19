@@ -1,13 +1,13 @@
 {
   "agent": "Signal-Audit",
-  "generated_at": "2026-10-19T23:56:45.787088+00:00",
+  "generated_at": "2026-10-19T23:58:25.915528+00:00",
   "live_channels": 4,
   "total_channels": 14,
   "empty_or_failed": [
     {
       "channel": "amazon_movers_beauty",
       "count": 0,
-      "status": "empty"
+      "status": "unverified"
     }
   ],
   "stale_or_manual": [
@@ -32,7 +32,7 @@
     {
       "channel": "amazon_movers_beauty",
       "count": 0,
-      "status": "empty",
+      "status": "unverified",
       "note": "amazon.com/gp/movers-and-shakers/beauty (실수집)"
     },
     {
