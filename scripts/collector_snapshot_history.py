@@ -238,13 +238,13 @@ def record_restored_observer(root):
     Reuse the owner's exact-byte/capture/budget checks; this is never a generic
     rotation exemption for source observations or request reservations.
     """
-    from scripts.shortlist_observation_history import OUTPUT, preserve
+    from scripts.shortlist_observation_history import OUTPUT, reconcile_restored
     root = Path(root)
     target = root / OUTPUT
     base = head_bytes(root, OUTPUT)
     if base is None or not target.exists() or target.read_bytes() == base:
         return None
-    return preserve(root)
+    return reconcile_restored(root)
 
 
 def main() -> int:

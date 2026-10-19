@@ -442,8 +442,11 @@ def _continuity(previous, claim):
     claim.save()
 
 
-def observe(root, *, force=False):
-    """Fixed official GET scope. Force reevaluates metadata only; it cannot release safety stops."""
+def observe(root, *, force=False, offline_only=False, expected_previous=None):
+    """Fixed official GET scope; offline_only evaluates retained captures without requests.
+
+    Force reevaluates metadata only; neither mode releases safety stops.
+    """
     started = time.monotonic()
     wall_started = time.time()
     root = Path(root)
@@ -458,7 +461,8 @@ def observe(root, *, force=False):
     _safe(root, OUTPUT)
     before = _hashes(root)
     pairs = _members(root)
-    previous = _read(root, OUTPUT) if _safe(root, OUTPUT).exists() else {}
+    previous_raw = _safe(root, OUTPUT).read_bytes() if _safe(root, OUTPUT).exists() else None
+    previous = json.loads(previous_raw, object_pairs_hook=_unique_object) if previous_raw is not None else {}
     if not _safe(root, LEDGER).exists():
         raise Blocked("durable_claim_missing_no_bootstrap")
     prior = [r for r in previous.get("products", []) if _valid_prior(r, pairs)]
@@ -484,6 +488,12 @@ def observe(root, *, force=False):
         if old is None or stamp > old_stamp:
             products[row["pd_no"]] = row
     attempts, failures, new_ids = [], [], []
+    if offline_only:
+        if previous_raw is None:
+            raise Blocked('offline_reconciliation_requires_previous_observation')
+        attempts.append({"kind": "offline_reconciliation", "http_attempts": 0,
+                         "reason": "current_owned_inputs_cached_captures_only",
+                         "previous_observation_sha256": hashlib.sha256(previous_raw).hexdigest()})
     history = list(previous.get("observation_history", []))
     if previous.get("attempts"):
         history.append({"attempts": previous["attempts"], "budget_checkpoint": previous.get("budget_checkpoint"), "status": previous.get("status")})
@@ -493,6 +503,9 @@ def observe(root, *, force=False):
             captures.append(row)
     retained = previous.get("retained_previous_products", []) + [r for r in previous.get("products", []) if (r.get("pd_no"), r.get("canonical_product_id")) not in pairs]
     with _Claim(root) as claim:
+        if expected_previous is not None:
+            if not offline_only or previous_raw != expected_previous[0] or _safe(root, OUTPUT).read_bytes() != expected_previous[0] or _safe(root, LEDGER).read_bytes() != expected_previous[1]:
+                raise Blocked('offline_reconciliation_previous_changed')
         _continuity(previous, claim)
         # Retain the original legacy checkpoint verbatim. A separate proof
         # binds its evidenced reservation prefix when it is observed during
@@ -614,6 +627,14 @@ def observe(root, *, force=False):
                 needed.append((pd, cp))
         # Mark pending members before reservations so a hardkill never reports completion.
         failures.extend(cp for _, cp in needed)
+        if offline_only:
+            # This mode is used after commerce regeneration, not for collection.
+            # Missing/stale captures remain incomplete; no robots call, request,
+            # reservation, retry, sleep or provider-stop reset is reachable.
+            attempts.extend({"kind": "offline_reconciliation", "pd_no": pd,
+                             "http_attempts": 0, "reason": "offline_reconciliation_only"}
+                            for pd, _ in needed)
+            return persist()
         parser, delay = None, 30
         if needed:
             try:
