@@ -2,7 +2,7 @@
 title: "Record 928351851e · Oilplaning-is-the-latest-TikTok-beauty-trend-How-do"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:35.980424+00:00
+updated_at: 2026-10-19T14:33:25.864485+00:00
 tags: [record, real-data]
 source: "Google-Search"
 topics: ["뷰티스킨케어", "소셜콘텐츠"]
@@ -14,8 +14,8 @@ url: "https://news.google.com/rss/articles/CBMitgFBVV95cUxOb3pnbE1OSHdFVmFGYWU5d
 
 > 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMitgFBVV95cUxOb3pnbE1OSHdFVmFGYWU5dXpvR2NxSnRwOWNsT2dRSWprcUlOWC1NV09SRFBwdkNiWktvdUVkZ0VvUjM1VVVZY0ZRaG0zbzAxVzNQR0FJQ0EyRzFCclpoSEgyT1FXUW55ZTNoTmZpRDliZ01wNzh5OEMzWG11dFM1dlhKdndPTlMyN1dUSnZTNW5lS1VDalBUUnBZSWhZWFJlS0ZwRlR5Z2ZKWFZlZURGaG1JdHZoZw?oc=5)
 
-**제목:** Oilplaning is the latest TikTok beauty trend. How does it work? - AJC.com
+**제목:** Oilplaning is the latest TikTok beauty trend. How does it work? - The Atlanta Journal-Constitution
 
-Oilplaning is the latest TikTok beauty trend. How does it work? - AJC.com
+Oilplaning is the latest TikTok beauty trend. How does it work? - The Atlanta Journal-Constitution
 
 **출처:** Source · Google Search

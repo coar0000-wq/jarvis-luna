@@ -2,7 +2,7 @@
 title: "JARVIS Real Knowledge Index"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-19T05:41:10.854906+00:00
+updated_at: 2026-10-19T14:33:27.823192+00:00
 tags: [index, real-data, graph]
 ---
 
@@ -10,7 +10,7 @@ tags: [index, real-data, graph]
 
 이 인덱스는 실제 수집 코퍼스에서 자동 생성되었습니다. 그래프는 인덱스와 소스·주제·기관 허브만 연결하고, 개별 레코드는 속성으로 데이터화해 표(Knowledge/JARVIS Records.base)로 조회합니다.
 
-- 실제 레코드: **7831건**
+- 실제 레코드: **7837건**
 - 소스 노드: **7개**
 - 주제 노드: **22개**
 

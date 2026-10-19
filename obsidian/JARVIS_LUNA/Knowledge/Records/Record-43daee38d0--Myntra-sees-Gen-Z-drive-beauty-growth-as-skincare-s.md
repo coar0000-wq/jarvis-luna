@@ -1,0 +1,21 @@
+---
+title: "Record 43daee38d0 · Myntra-sees-Gen-Z-drive-beauty-growth-as-skincare-smaller-cities-gain-"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-19T14:33:25.590392+00:00
+tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTFczS2FZQnpRbHBzTjdnR1QzUFVNbWZNNWwtTGFQOFdhUF9sMFp3bjFNZXFHaGEzQm5CQi1KTExsVnBLYW9VXy1yOVN3cV9FLVNqdjB5M19sWmpDZldmeVhyNlZsVC1OUlBQeDFPNEZsbTVqQ2VXXzZRd3l3S1FrekFfalNPSTZ4aHpqRHZCMVdsOTVTOF9mLTV0THcwZDBuY1N3cWpWcUx1UUtTRGNESEdEOWExdHZkMzNNM2xLYVFQY24tYkF0cmRmdDA4Sy11Q3hJS1I3eEZBRkFSd1Q1aXRYQ2hMRUdURnRSdnFqVdIB9AFBVV95cUxOUEszeS1iOExIdUQ4X2pPZkZkZmstaFJHWG5YMmpQbDRoM2dxcVNXenFkelplS3VNa19sOG10NmQ2MUIyMVoySTM4Z3U4dGYyTnZlLTdGeDZIbU51bkRMaTRpTlRwWmdHNHpRLXJ3cHktNUh2R2xqNnVWRmlZV0l5bE9LMXNNVHhLSHNVck9Xamg4dWc0ckxlOHA0Z0lCX2NxSWdreWxIbDJISWFDTXhSaEo3d0dGRzFrazhvdVVzMk9pdWNTTHFRRW1EWm95Ml9XZXpoRkhFNDdFSGNiRkx0cWhnT0pCQTk3OGhXOU8xV21sS0xw?oc=5"
+---
+
+# Record 43daee38d0 · Myntra-sees-Gen-Z-drive-beauty-growth-as-skincare-smaller-cities-gain-
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTFczS2FZQnpRbHBzTjdnR1QzUFVNbWZNNWwtTGFQOFdhUF9sMFp3bjFNZXFHaGEzQm5CQi1KTExsVnBLYW9VXy1yOVN3cV9FLVNqdjB5M19sWmpDZldmeVhyNlZsVC1OUlBQeDFPNEZsbTVqQ2VXXzZRd3l3S1FrekFfalNPSTZ4aHpqRHZCMVdsOTVTOF9mLTV0THcwZDBuY1N3cWpWcUx1UUtTRGNESEdEOWExdHZkMzNNM2xLYVFQY24tYkF0cmRmdDA4Sy11Q3hJS1I3eEZBRkFSd1Q1aXRYQ2hMRUdURnRSdnFqVdIB9AFBVV95cUxOUEszeS1iOExIdUQ4X2pPZkZkZmstaFJHWG5YMmpQbDRoM2dxcVNXenFkelplS3VNa19sOG10NmQ2MUIyMVoySTM4Z3U4dGYyTnZlLTdGeDZIbU51bkRMaTRpTlRwWmdHNHpRLXJ3cHktNUh2R2xqNnVWRmlZV0l5bE9LMXNNVHhLSHNVck9Xamg4dWc0ckxlOHA0Z0lCX2NxSWdreWxIbDJISWFDTXhSaEo3d0dGRzFrazhvdVVzMk9pdWNTTHFRRW1EWm95Ml9XZXpoRkhFNDdFSGNiRkx0cWhnT0pCQTk3OGhXOU8xV21sS0xw?oc=5)
+
+**제목:** Myntra sees Gen Z drive beauty growth as skincare, smaller cities gain ground - The Economic Times
+
+Myntra sees Gen Z drive beauty growth as skincare, smaller cities gain ground - The Economic Times
+
+**출처:** Source · Google Search
