@@ -72,3 +72,6 @@ https://www.youtube.com/watch?v=OmKmKYtpa_A | design,market,listing,pricing,lega
 https://www.youtube.com/watch?v=9jBZbsvQ014 | design,listing,market,legal | 레퍼런스에서 구조 원리를 추출하되 자사 색·글꼴·브랜드 제약을 먼저 지정한다. 동일 브리프의 전후 시안과 채택 이유를 남기며 전환 개선은 별도로 측정한다. 오너 공유 2026-10-17
 https://www.youtube.com/watch?v=rDLJswILbe4 | design,listing,market,graph | 참고 페이지마다 URL·대상 사용자·레이아웃·색·글꼴·채택/배제 이유를 기록한다. 원본 제작자와 이용조건을 확인하고 페이지나 자산을 통째로 복제하지 않는다. 오너 공유 2026-10-17
 https://www.youtube.com/watch?v=L_EXYLmyFSA | design,listing,market | 디자인 변경 전에 현재 문제·비슷한 제품의 패턴·자사 적용 이유·바꿀 항목을 보고서로 작성하고 모바일에서 가독성·상호작용을 검토한다. 오너 공유 2026-10-17
+
+https://www.youtube.com/watch?v=RJJOVHZxyhc | sourcing,institutions,market,listing,pricing,legal,robotics,design,channels,knowledge,graph | 기존 Jev 텍스트 보조 판단 유지·팀별 경계 사례 평가. 제작자 소규모 결과는 자사 성능 아님. 제목·설명·챕터 및 1차 자료 검토; 자막 미검증. 오너 공유 2026-10-19
+https://www.youtube.com/watch?v=FZe4IOLItpY | sourcing,market,listing,pricing,legal,robotics,design,channels,knowledge,graph | 대기자/재입고 알림의 앱·동의·옵션 재고·비용을 승인 전 설계. 앱 설치·실고객 발송 없음. 제목·설명·챕터 및 1차 자료 검토; 자막 미검증. 오너 공유 2026-10-19
