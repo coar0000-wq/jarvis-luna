@@ -9,6 +9,7 @@ from pathlib import Path
 from scripts.moe_evaluation_history import (LOCK_PATH, MANIFEST_PATH, MAX_REPORTS, atomic_write, exact_head, safe_path, sha, sync_dir)
 from scripts.immutable_snapshot_store import retain_snapshots
 from scripts.publish_transaction import removed_identities
+from scripts.gosi_image_sources import valid_denial_diagnostic
 
 REPORT_PATH = 'data/gosi.json'
 HISTORY_PATH = 'data/knowledge/gosi_observation_history'
@@ -27,9 +28,16 @@ def validate_document(doc):
         for key in FIELDS:
             if key in row and not isinstance(row[key], str):
                 raise ValueError('gosi fact must be text')
+        for key in ('image_observations', 'field_observations'):
+            if key in row and (not isinstance(row[key], dict) or any(not isinstance(x, dict) for x in row[key].values())):
+                raise ValueError('observation mapping malformed')
         for key in ('detail_images', 'gosi_images', 'detail_image_paths'):
             if key in row and (not isinstance(row[key], list) or any(not isinstance(x, str) or not x for x in row[key])):
                 raise ValueError('image list malformed')
+    for key in ('provider_stops', 'provider_stop_history'):
+        for stop in doc.get(key, []):
+            if isinstance(stop, dict) and 'diagnostic' in stop and not valid_denial_diagnostic(stop['diagnostic']):
+                raise ValueError('provider denial evidence malformed')
     return doc['items']
 
 class ProviderStop(RuntimeError):
@@ -97,6 +105,8 @@ def assert_not_stopped(doc, providers, now=None):
 
 def persist_stop(doc, exc):
     event = {'provider': exc.provider, 'code': exc.code, 'category': exc.category, 'stopped_at': utcnow()}
+    if getattr(exc, 'diagnostic', None):
+        event['diagnostic'] = deepcopy(exc.diagnostic)
     stops = doc.setdefault('provider_stops', [])
     # 같은 공급자의 예전 정지가 남아 있으면 새 시각으로 바꾼다. 안 바꾸면 대기 시간이 다시 걸리지 않는다.
     stops[:] = [x for x in stops if x.get('provider') != exc.provider] + [event]
@@ -150,7 +160,7 @@ def replacement_ids(before, current, policy):
             if not isinstance(old, list) or not isinstance(new, list):
                 raise ValueError('diagnostic must remain list')
             if where == ('provider_stops',):
-                if any(not isinstance(x, dict) or not set(x) <= {'provider', 'code', 'category', 'stopped_at'}
+                if any(not isinstance(x, dict) or not set(x) <= {'provider', 'code', 'category', 'stopped_at', 'diagnostic'}
                        or not isinstance(x.get('provider'), str) for x in old + new):
                     raise ValueError('provider stop diagnostic malformed')
             elif where[-1] == 'vision_failures':

@@ -1,5 +1,6 @@
 # Locked for CPython >=3.11.5,<3.12 on Linux x86_64 (glibc >=2.28), resolved 2026-10-18.
 # Install: python -m pip install --require-hashes --only-binary=:all: -r requirements/requirements-verification.txt
 # Exact direct and transitive dependencies; verified wheel hashes, no source builds.
+pillow==12.3.0 --hash=sha256:23d27a3e0307ec2244cc51e7287b919aa68d097504ebe19df4e76a98a3eea5bd
 pyflakes==4.0.3 --hash=sha256:330ba92b8c1db2eb0b8f4068f6c58674e2649a99e334769aa50e3e9c5b11c23a --hash=sha256:94762a3a5a343a79b28754f96c554bce057a592a4896907d73f0369fe824e053
 pyyaml==6.0.3 --hash=sha256:b8bb0864c5a28024fac8a632c443c87c5aa6f215c0b126c449ae1a150412f31d
