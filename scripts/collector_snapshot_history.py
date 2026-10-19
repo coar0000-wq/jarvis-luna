@@ -156,6 +156,26 @@ def watch_membership(rel, where):
 def allowed_removals(rel: str, old, new, policy: dict, where: tuple[str, ...] = ()) -> list[str]:
     """Identities removed only inside declared rotating lists; anything else raises."""
     contract = {"identity_fields": policy["identity_fields"]}
+    if rel == "data/team_learning.json" and len(where) == 2 and where[0] == "teams":
+        # Current action/top-ten are projections, not cumulative source records.
+        # They may change only after exact old/current snapshots and all prior
+        # history have been validated. No global rotation exemption is added.
+        from scripts.team_learning_history import FIELDS, verify
+        if not isinstance(old, dict) or not isinstance(new, dict):
+            raise ValueError("team learning team must remain an object")
+        verify(old, new)
+        out = []
+        for field in FIELDS:
+            if field in old and field not in new:
+                raise ValueError("team learning projection field removed")
+            out.extend(removed_identities(old.get(field), new.get(field), contract))
+        old_rest = {k: v for k, v in old.items() if k not in FIELDS}
+        new_rest = {k: v for k, v in new.items() if k not in FIELDS}
+        for key, value in old_rest.items():
+            if key not in new_rest:
+                raise ValueError(f"protected team learning field removed: {key}")
+            out.extend(allowed_removals(rel, value, new_rest[key], policy, where + (key,)))
+        return out
     if rotating(rel, where):
         if not isinstance(old, (list, dict)) and not isinstance(new, (list, dict)):
             return []  # 선언된 요약 값(예: status 문자열)은 새 값으로 바뀐다
@@ -214,6 +234,19 @@ def update(root: Path, paths: list[str]) -> dict:
         if local == base:
             report[rel] = "unchanged"
             continue
+        if rel == "data/team_learning.json":
+            # Bind replacement projections to the actual reviewed source files,
+            # not a caller-provided claim that an arbitrary replacement is valid.
+            from scripts.build_team_learning import TEAMS, canonical_projections
+            from scripts.team_learning_history import fingerprint
+            expected_teams = canonical_projections(root / "data")
+            teams = json.loads(local).get("teams", {})
+            if not isinstance(teams, dict) or set(teams) != set(TEAMS):
+                raise ValueError("team learning team set does not match canonical sources")
+            for team in TEAMS:
+                expected = expected_teams[team]
+                if not isinstance(teams[team], dict) or any(k not in teams[team] or fingerprint(teams[team][k]) != fingerprint(v) for k, v in expected.items()):
+                    raise ValueError(f"team learning projection differs from reviewed sources: {team}")
         ids = sorted(set(str(x) for x in allowed_removals(rel, json.loads(base), json.loads(local), policy)))
         if not ids:
             report[rel] = "no_removals"
@@ -223,8 +256,11 @@ def update(root: Path, paths: list[str]) -> dict:
         entry = {"path": rel, "base_sha256": sha(base), "ids": ids,
                  "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
                  "policy_ref": POLICY_REF, "delete_file": False}
+        if rel == "data/team_learning.json":
+            entry["replacement_sha256"] = sha(local)
+            entry["reason"] = "Regenerated reviewed-source projection; exact prior actions and KPIs retained in append-only projection_history, not adopted as current goals."
         result["deletions"].append(entry)
-        if not deletion_authorized(rel, base, ids, result):
+        if not deletion_authorized(rel, base, ids, result, replacement=local):
             raise ValueError(f"manifest entry does not satisfy removal contract: {rel}")
         report[rel] = f"authorized {len(ids)} rotated ids"
     if result != manifest:
