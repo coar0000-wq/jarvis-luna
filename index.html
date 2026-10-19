@@ -2135,15 +2135,18 @@ async function renderDailyPipeline(){
         a.addEventListener('click',function(ev){ev.stopPropagation();});
         links.appendChild(a);
       }
+      function isDigits(value){return typeof value==='string'&&value.length>0&&Array.prototype.every.call(value,function(ch){return ch>='0'&&ch<='9';});}
       var sourceUrl=it.daiso_url||(it.priority&&(it.priority.url||it.priority.source_url));
       if(typeof sourceUrl==='string'){
         try{var parsedSource=new URL(sourceUrl);if(parsedSource.protocol!=='https:'||!['daisomall.co.kr','www.daisomall.co.kr'].includes(parsedSource.hostname)) sourceUrl='';}
         catch(e){sourceUrl='';}
       }
-      if(!sourceUrl&&/^\\d+$/.test(String(it.pd_no||''))) sourceUrl='https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo='+encodeURIComponent(String(it.pd_no));
+      var productNo=String(it.pd_no||'');
+      if(!sourceUrl&&isDigits(productNo)) sourceUrl='https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo='+encodeURIComponent(productNo);
       if(sourceUrl) addProductLink('다이소 제품 보기 ↗',sourceUrl);
-      var shopifyMatch=String(it.shopify_id||'').match(/^gid:\\/\\/shopify\\/Product\\/(\\d+)$/);
-      if(shopifyMatch) addProductLink('Shopify 상품 열기 ↗','https://coarfamily.myshopify.com/admin/products/'+shopifyMatch[1]);
+      var shopifyPrefix='gid://shopify/Product/';
+      var shopifyId=String(it.shopify_id||'');
+      if(shopifyId.indexOf(shopifyPrefix)===0){shopifyId=shopifyId.slice(shopifyPrefix.length);if(isDigits(shopifyId)) addProductLink('Shopify 상품 열기 ↗','https://coarfamily.myshopify.com/admin/products/'+shopifyId);}
       if(it.status==='ACTIVE'&&typeof it.handle==='string'&&it.handle) addProductLink('판매 페이지 보기 ↗','https://coarfamily.myshopify.com/products/'+encodeURIComponent(it.handle));
       if(links.children.length) card.appendChild(links);
     }
