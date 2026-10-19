@@ -11,7 +11,12 @@
 from __future__ import annotations
 
 import json
-from document_handoffs import packets, write_specialist_handoff
+if __package__:
+    from .team_learning_history import preserve
+    from .document_handoffs import packets, write_specialist_handoff
+else:
+    from team_learning_history import preserve
+    from document_handoffs import packets, write_specialist_handoff
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -63,19 +68,36 @@ def brief(ins, videos):
             "evidence": evidence}
 
 
-def main() -> int:
+def source_projections(data):
     insights, videos = [], {}
-    for f in (DATA / "manual" / "shopify_youtube_insights.json", DATA / "manual" / "team_youtube_insights.json"):
+    for f in (data / "manual" / "shopify_youtube_insights.json", data / "manual" / "team_youtube_insights.json"):
         doc = load(f, {})
         for v in doc.get("videos") or []:
             videos[v.get("video_id")] = v
         for ins in doc.get("insights") or []:
             insights.append({**ins, "_source": f.name})
+    return insights, videos
+
+
+def current_projection(insights, videos, team):
+    mine = sorted((i for i in insights if team in (i.get("teams") or [])), key=insight_sort_key)
+    return {"this_week_action": brief(mine[0], videos) if mine else None,
+            "items": [brief(i, videos) for i in mine[:10]], "insights": len(mine)}
+
+
+def canonical_projections(data):
+    insights, videos = source_projections(data)
+    return {team: current_projection(insights, videos, team) for team in TEAMS}
+
+
+def main() -> int:
+    insights, videos = source_projections(DATA)
     yc = load(DATA / "youtube_channels.json", {}).get("by_team") or {}
     ym = load(DATA / "youtube_manual.json", {}).get("videos") or []
     queue = load(DATA / "youtube_review_queue.json", {})
     ledger = load(DATA / "manual" / "notebook_reviews" / "ledger.json", {})
 
+    previous = load(OUT, {})
     teams = {}
     document_packets = packets(ROOT)
     for t in TEAMS:
@@ -88,14 +110,13 @@ def main() -> int:
         teams[t] = {
             "document_handoffs": [p for p in document_packets if p["recipient"] == t],
             "status": status,
-            "insights": len(mine),
-            "this_week_action": brief(mine[0], videos) if mine else None,
-            "items": [brief(i, videos) for i in mine[:10]],
+            **current_projection(insights, videos, t),
             "videos_available": n_videos,
             "review_pending": [{"title": v.get("title"), "url": v.get("url")} for v in pending],
             "last_review": max((i for i in mine if reviewed_datetime(i.get("reviewed_at"))),
                                key=lambda i: reviewed_datetime(i["reviewed_at"]), default={}).get("reviewed_at"),
         }
+        teams[t]["projection_history"] = preserve((previous.get("teams") or {}).get(t, {}), teams[t])
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "generator": "scripts/build_team_learning.py",

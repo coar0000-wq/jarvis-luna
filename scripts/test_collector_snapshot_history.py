@@ -664,5 +664,156 @@ class OwnedScopePublicationTests(unittest.TestCase):
         self.assertTrue(all(a.get('reason') == 'member_retry_cooldown' for a in restored['attempts']))
 
 
+class TeamLearningProjectionHistoryTests(unittest.TestCase):
+    def setUp(self):
+        from scripts import build_team_learning as learning
+        self.learning = learning
+        self.fixture = json.loads((ROOT / 'tests/fixtures/team_learning_projection_fdbd2f5.json').read_text())
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        (self.root / 'data/manual').mkdir(parents=True)
+        (self.root / 'config').mkdir()
+        (self.root / 'config/publish_policy.json').write_text(json.dumps(POLICY))
+        (self.root / 'data/manual/team_youtube_insights.json').write_text(json.dumps(self.fixture['source']))
+        self.old = {'teams': {t: {} for t in learning.TEAMS}}
+        self.old['teams']['sourcing'] = self.fixture['previous_sourcing']
+        self.path = self.root / 'data/team_learning.json'
+        self.path.write_text(json.dumps(self.old))
+        with patch.object(learning, 'DATA', self.root / 'data'), patch.object(learning, 'OUT', self.path), \
+                patch.object(learning, 'packets', return_value=self.fixture['previous_sourcing']['document_handoffs']), patch.object(learning, 'write_specialist_handoff'), redirect_stdout(io.StringIO()):
+            learning.main()
+        self.new = json.loads(self.path.read_text())
+        self.base = json.dumps(self.old).encode()
+        self.rel = 'data/team_learning.json'
+
+    def test_actual_fdbd2f5_projection_migrates_without_old_kpi_adoption(self):
+        from scripts.team_learning_history import preserve
+        old = self.old['teams']['sourcing']; new = self.new['teams']['sourcing']
+        self.assertEqual(old['this_week_action']['id'], 'VID-20261017-OMkUQyG1AFE')
+        self.assertEqual(old['this_week_action']['kpis'], ['미확인 항목 수', '실측 전후 오류 수'])
+        self.assertNotEqual(old['this_week_action']['id'], new['this_week_action']['id'])
+        self.assertEqual(new['this_week_action']['kpis'], ['실제 응답 모델 버전 기록', '한국어 업무별 오판·보류 건수 (실측 후 기록)'])
+        self.assertIn(old['this_week_action'], [row['snapshot'] for row in new['projection_history']])
+        self.assertEqual(preserve(new, new), new['projection_history'])
+        ids = csh.allowed_removals(self.rel, self.old, self.new, POLICY)
+        self.assertIn('미확인 항목 수', ids)
+        with patch.object(csh, 'head_bytes', return_value=self.base):
+            csh.update(self.root, [self.rel])
+        manifest = json.loads((self.root / 'data/publish_deletions.json').read_text())
+        self.assertTrue(deletion_authorized(self.rel, self.base, ids, manifest, replacement=self.path.read_bytes()))
+        # A manifest for good bytes cannot bless changed replacement bytes.
+        self.assertFalse(deletion_authorized(self.rel, self.base, ids, manifest, replacement=self.path.read_bytes() + b' '))
+
+    def test_missing_or_forged_archive_and_protected_field_removal_fail(self):
+        from scripts.team_learning_history import fingerprint
+        for mutate in (
+            lambda t: t.pop('projection_history'),
+            lambda t: t.update(projection_history={}),
+            lambda t: t['projection_history'][0]['snapshot'].update(kpis=[]),
+            lambda t: t['projection_history'].pop(0),
+            lambda t: t.pop('document_handoffs'),
+            lambda t: t.update(items='bad'),
+        ):
+            bad = json.loads(json.dumps(self.new)); mutate(bad['teams']['sourcing'])
+            with self.assertRaises(ValueError):
+                csh.allowed_removals(self.rel, self.old, bad, POLICY)
+        bad = json.loads(json.dumps(self.new)); row = bad['teams']['sourcing']['projection_history'][0]
+        row['snapshot']['kpis'] = []; row['id'] = fingerprint(row['snapshot'])
+        with self.assertRaises(ValueError):
+            csh.allowed_removals(self.rel, self.old, bad, POLICY)
+        # Existing history cannot be edited even with a freshly recomputed hash.
+        with self.assertRaises(ValueError):
+            csh.allowed_removals(self.rel, self.new, bad, POLICY)
+
+    def test_source_binding_rejects_new_goal_or_counter_forgery(self):
+        from scripts.team_learning_history import preserve
+        for field, value in [('this_week_action', {'id': 'fake', 'kpis': ['fake gain']}), ('insights', 0)]:
+            bad = json.loads(json.dumps(self.new)); team = bad['teams']['sourcing']; team[field] = value
+            team['projection_history'] = preserve(team, team)
+            self.path.write_text(json.dumps(bad))
+            with patch.object(csh, 'head_bytes', return_value=self.base), self.assertRaisesRegex(ValueError, 'reviewed sources'):
+                csh.update(self.root, [self.rel])
+        # No allowance on a different/source document path.
+        with self.assertRaises(ValueError):
+            csh.allowed_removals('data/manual/team_youtube_insights.json', self.old, self.new, POLICY)
+
+    def test_final_publisher_rejects_unmanifested_tampering(self):
+        from scripts.team_learning_history import preserve, fingerprint, MEANING
+        current = self.path.read_bytes()
+        evidence = {t: {k: team[k] for k in ('this_week_action', 'items', 'insights')}
+                    for t, team in self.new['teams'].items()}
+        self.assertEqual(overlay(self.rel, current, current, current, POLICY, {}, learning_evidence=evidence), current)
+        for mode in ('existing_history', 'fabricated_history', 'current_goal', 'counter'):
+            bad = json.loads(current); team = bad['teams']['sourcing']
+            if mode == 'existing_history':
+                team['projection_history'][0]['snapshot']['action'] = 'forged'
+            elif mode == 'fabricated_history':
+                fake = {'id': 'fake', 'kpis': ['fake']}
+                team['projection_history'].append({'id': fingerprint(fake), 'snapshot': fake, 'meaning': MEANING})
+            elif mode == 'current_goal':
+                team['this_week_action']['kpis'].append('invented goal')
+                team['projection_history'] = preserve(self.new['teams']['sourcing'], team)
+            else:
+                team['insights'] = 0
+            raw = json.dumps(bad).encode()
+            with self.assertRaisesRegex(PublishError, 'canonical/history'):
+                overlay(self.rel, current, raw, current, POLICY, {}, learning_evidence=evidence)
+        with self.assertRaisesRegex(PublishError, 'canonical/history'):
+            overlay(self.rel, current, current, current, POLICY, {})
+
+    def test_final_publisher_rejects_protected_field_even_with_forged_manifest(self):
+        current = self.path.read_bytes()
+        evidence = {t: {k: team[k] for k in ('this_week_action', 'items', 'insights')}
+                    for t, team in self.new['teams'].items()}
+        bad = json.loads(current); del bad['teams']['sourcing']['document_handoffs']
+        raw = json.dumps(bad).encode()
+        manifest = {'deletions': [{'path': self.rel, 'base_sha256': csh.sha(current),
+                    'replacement_sha256': csh.sha(raw), 'ids': ['document_handoffs'],
+                    'reason': 'forged deletion approval', 'policy_ref': csh.POLICY_REF, 'delete_file': False}]}
+        with self.assertRaisesRegex(PublishError, 'canonical/history'):
+            overlay(self.rel, current, raw, current, POLICY, manifest, learning_evidence=evidence)
+
+    def test_strict_projection_types_and_null_presence(self):
+        from scripts.team_learning_history import verify_document
+        team = {'this_week_action': None, 'items': [], 'insights': 0, 'projection_history': []}
+        previous = {'teams': {'empty': team}}
+        expected = {'empty': {k: team[k] for k in ('this_week_action', 'items', 'insights')}}
+        for mode in ('boolean_counter', 'missing_null'):
+            bad = json.loads(json.dumps(previous))
+            if mode == 'boolean_counter':
+                bad['teams']['empty']['insights'] = False
+            else:
+                del bad['teams']['empty']['this_week_action']
+            with self.assertRaises(ValueError):
+                verify_document(previous, bad, expected)
+
+    def test_final_worktree_checks_merged_sources_again(self):
+        tx = Transaction.__new__(Transaction)
+        tx.delta = {self.rel: (self.base, self.path.read_bytes())}
+        tx.policy = POLICY
+        with patch.object(csh, 'head_bytes', return_value=self.base):
+            csh.update(self.root, [self.rel])
+        tx.manifest = json.loads((self.root / 'data/publish_deletions.json').read_text())
+        tx.verify_final_learning(self.root)
+        source = self.fixture['source']
+        source['insights'].append({'id': 'newer', 'confidence': 'high', 'reviewed_at': '2099-01-01',
+                                   'teams': ['sourcing'], 'action': 'New canonical directive', 'kpis': []})
+        (self.root / 'data/manual/team_youtube_insights.json').write_text(json.dumps(source))
+        with self.assertRaisesRegex(PublishError, 'final team learning'):
+            tx.verify_final_learning(self.root)
+
+    def test_empty_selection_and_same_id_revision_preserve_history(self):
+        from scripts.team_learning_history import preserve, verify
+        previous = self.new['teams']['sourcing']
+        for current in ({'this_week_action': None, 'items': []},
+                        {'this_week_action': {**previous['this_week_action'], 'kpis': ['different']}, 'items': []}):
+            current['projection_history'] = preserve(previous, current)
+            verify(previous, current)
+            self.assertEqual(preserve(current, current), current['projection_history'])
+            bad = json.loads(json.dumps(current)); bad['projection_history'].reverse()
+            with self.assertRaises(ValueError):
+                verify(previous, bad)
+
 if __name__ == "__main__":
     unittest.main(verbosity=1)

@@ -123,6 +123,15 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None, cand
                     return False
         except (ValueError, TypeError, KeyError, OSError):
             return False
+    learning_projection = name == 'data/team_learning.json'
+    if learning_projection:
+        if base is None or replacement is None or removed is None:
+            return False
+        try:
+            from scripts.team_learning_history import verify_document
+            verify_document(parse_json(base), parse_json(replacement))
+        except (ValueError, TypeError, KeyError, AttributeError):
+            return False
     listing_copy = name == 'data/shopify_listing_copy.json'
     if listing_copy:
         if base is None or replacement is None or removed is None or copy_evidence is None:
@@ -155,6 +164,9 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None, cand
                     and record.get('ids') == expected_observer_ids and record.get('delete_file') is False
                     and observer_evidence['archives'].get(record.get('scope_evidence_sha256')) is not None
                     and parse_json(observer_evidence['archives'][record['scope_evidence_sha256']]) == observer_evidence['record']))
+                and (not learning_projection or (record.get('replacement_sha256') == sha(replacement)
+                    and record.get('policy_ref') == 'scripts/collector_snapshot_history.py'
+                    and record.get('delete_file') is False))
                 and (not listing_copy or (record.get('replacement_sha256') == sha(replacement)
                     and record.get('policy_ref') == 'scripts/build_listing_copy_local.py'
                     and record.get('ids') == expected_copy_ids and record.get('delete_file') is False))
@@ -331,7 +343,7 @@ BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
 CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
 
 
-def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None, observer_evidence=None):
+def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None, observer_evidence=None, learning_evidence=None):
     if name == 'data/publish_deletions.json' and all(x is not None for x in (base, local, remote)) and remote != base and local != base:
         docs = [parse_json(x) for x in (base, local, remote)]
         grouped = []
@@ -393,6 +405,16 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
                 verify_scope_evidence(base, local, policy, observer_evidence)
         except (ValueError, TypeError, KeyError, OSError) as exc:
             raise PublishError('shortlist owned scope/capture/ledger evidence invalid') from exc
+    if name == 'data/team_learning.json':
+        try:
+            from scripts.team_learning_history import verify_document
+            if base is None or local is None or learning_evidence is None:
+                raise ValueError('learning projection evidence missing')
+            verify_document(parse_json(base), parse_json(local), learning_evidence)
+            from scripts.collector_snapshot_history import allowed_removals
+            allowed_removals(name, parse_json(base), parse_json(local), policy)
+        except (ValueError, TypeError, KeyError, AttributeError) as exc:
+            raise PublishError('team learning canonical/history evidence invalid') from exc
     authorize = lambda ids: deletion_authorized(name, base, ids, manifest, replacement=local, candidate_history=candidate_history, copy_evidence=copy_evidence, observer_evidence=observer_evidence, observer_policy=policy)
     if name == 'data/daiso_real/candidate_pool.json' and base is not None and local is not None:
         try:
@@ -427,9 +449,15 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
             l = merge_json(b, l, r, policy, where=name, authorize_delete=authorize)
         elif remote is None and base is not None:
             raise PublishError(f'remote deleted locally edited source: {name}')
+        if name == 'data/team_learning.json':
+            try:
+                verify_document(b, l, learning_evidence)
+                allowed_removals(name, b, l, policy)
+            except (ValueError, TypeError, KeyError, AttributeError) as exc:
+                raise PublishError('team learning canonical/history evidence invalid after merge') from exc
         # Counter/checkpoint pairs retain exact caller bytes. Never manufacture
         # a hybrid ledger or destroy its byte-bound failed-run artifact evidence.
-        exact_stage = (name in BYTE_BOUND_STAGE_FILES or operations_report) and remote in (None, base, local)
+        exact_stage = (name in BYTE_BOUND_STAGE_FILES or operations_report or name == 'data/team_learning.json') and remote in (None, base, local)
         result = local if name in PERSISTENT_SOURCE_FILES or exact_stage else json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
         if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history, copy_evidence=copy_evidence, observer_evidence=observer_evidence, observer_policy=policy):
             raise PublishError(f'replacement snapshot is not authorized after merge: {name}')
@@ -477,6 +505,14 @@ class Transaction:
                 actual = self.delta[name][1] if name in self.delta else at_ref(self.root, self.base, name)
                 if actual != self.candidate_history[digest]:
                     raise PublishError('candidate archive omitted from publication paths')
+        self.learning_evidence = None
+        if 'data/team_learning.json' in self.delta:
+            from scripts.build_team_learning import canonical_projections
+            for name in ('data/manual/shopify_youtube_insights.json', 'data/manual/team_youtube_insights.json'):
+                actual = self.delta[name][1] if name in self.delta else at_ref(self.root, self.base, name)
+                if actual != (self.root / name).read_bytes():
+                    raise PublishError('learning source omitted from publication paths or changed after capture')
+            self.learning_evidence = canonical_projections(self.root / 'data')
         self.copy_evidence = None
         if 'data/shopify_listing_copy.json' in self.delta:
             from scripts.build_listing_copy_local import SOURCE_REL, GATE_REL
@@ -643,6 +679,22 @@ class Transaction:
             git(work, 'add', '-A', '--', name)  # Exact named path, including deletion.
         return git(work, 'diff', '--cached', '--quiet', check=False).returncode != 0
 
+    def verify_final_learning(self, work):
+        from scripts.build_team_learning import canonical_projections
+        from scripts.team_learning_history import verify_document
+        from scripts.collector_snapshot_history import allowed_removals
+        try:
+            name = 'data/team_learning.json'
+            base, local = self.delta[name][0], (work / name).read_bytes()
+            before, after = parse_json(base), parse_json(local)
+            verify_document(before, after, canonical_projections(work / 'data'))
+            allowed_removals(name, before, after, self.policy)
+            removed = removed_identities(before, after, self.policy, where=name)
+            if removed and not deletion_authorized(name, base, removed, self.manifest, replacement=local):
+                raise ValueError('final learning manifest does not bind replacement bytes')
+        except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+            raise PublishError('final team learning differs from reviewed sources/history') from exc
+
     def push(self, work):
         return git(work, 'push', 'origin', 'HEAD:main', check=False).returncode == 0
 
@@ -680,7 +732,7 @@ class Transaction:
                             continue  # Regenerate, never reuse stale derivatives.
                         p = work/name
                         remote = p.read_bytes() if p.exists() else None
-                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence, observer_evidence=self.observer_evidence)
+                        value = overlay(name, base, local, remote, self.policy, self.manifest, candidate_history=self.candidate_history, copy_evidence=self.copy_evidence, observer_evidence=self.observer_evidence, learning_evidence=self.learning_evidence)
                         if value is None:
                             p.unlink(missing_ok=True)
                         else:
@@ -698,6 +750,8 @@ class Transaction:
                     if self.observer_evidence is not None:
                         from scripts.shortlist_observation_history import verify_final_scope
                         verify_final_scope(work, self.observer_evidence)
+                    if self.learning_evidence is not None:
+                        self.verify_final_learning(work)
                     if self.copy_evidence is not None:
                         from scripts.build_listing_copy_local import COPY_REL, SOURCE_REL, GATE_REL, verify_copy_replacement
                         try:
