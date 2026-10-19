@@ -198,6 +198,165 @@ class FailClosedTest(unittest.TestCase):
         self.assertTrue(any(r.startswith("ocr_unavailable") for r in man["reasons"]))
 
 
+class OcrBudgetTest(unittest.TestCase):
+    def test_timeout_retries_same_pixels_with_single_thread(self):
+        ok = subprocess.CompletedProcess([], 0, stdout=b"text", stderr=b"")
+        with mock.patch.object(ldi.shutil, "which", return_value="tesseract"), \
+                mock.patch.object(ldi.subprocess, "run", side_effect=[subprocess.TimeoutExpired("tesseract", 30), ok]) as run:
+            self.assertEqual(ldi._tess(["-l", "kor"], b"original pixels", 60), b"text")
+        self.assertEqual(run.call_count, 2)
+        for call in run.call_args_list:
+            self.assertEqual(call.kwargs["input"], b"original pixels")
+            self.assertEqual(call.kwargs["env"]["OMP_THREAD_LIMIT"], "1")
+            self.assertEqual(call.kwargs["env"]["OMP_NUM_THREADS"], "1")
+        self.assertLessEqual(run.call_args_list[0].kwargs["timeout"], 30)
+
+    def test_repeated_timeout_fails_after_two_attempts(self):
+        with mock.patch.object(ldi.shutil, "which", return_value="tesseract"), \
+                mock.patch.object(ldi.subprocess, "run", side_effect=subprocess.TimeoutExpired("tesseract", 30)) as run:
+            with self.assertRaisesRegex(RuntimeError, "ocr_timeout_after_retry"):
+                ldi._tess([], b"x", 60)
+        self.assertEqual(run.call_count, 2)
+
+    def test_deadline_exhaustion_never_launches_ocr(self):
+        with mock.patch.object(ldi.shutil, "which", return_value="tesseract"), \
+                mock.patch.object(ldi.subprocess, "run") as run:
+            with self.assertRaisesRegex(RuntimeError, "ocr_budget_exhausted"):
+                ldi._tess([], b"x", 60, deadline=0)
+        run.assert_not_called()
+
+    def test_real_subprocess_timeout_is_bounded_and_reaped(self):
+        import os
+        import time
+        with tempfile.TemporaryDirectory() as d:
+            exe = Path(d) / "slow-ocr"
+            pidfile = Path(d) / "pids"
+            exe.write_text(f"#!{sys.executable}\nimport os, time\nwith open({str(pidfile)!r}, 'a') as f: f.write(str(os.getpid()) + '\\n')\ntime.sleep(10)\n")
+            exe.chmod(0o700)
+            start = time.monotonic()
+            with mock.patch.object(ldi.shutil, "which", return_value=str(exe)):
+                with self.assertRaisesRegex(RuntimeError, "ocr_timeout_after_retry"):
+                    ldi._tess([], b"pixels", 0.4)
+            self.assertLess(time.monotonic() - start, 2)
+            pids = pidfile.read_text().splitlines()
+            self.assertEqual(len(pids), 2)
+            for pid in pids:
+                with self.assertRaises(ProcessLookupError):
+                    os.kill(int(pid), 0)
+
+    def test_nonzero_exit_is_not_empty_text(self):
+        bad = subprocess.CompletedProcess([], 1, stdout=b"", stderr=b"failure")
+        with mock.patch.object(ldi.shutil, "which", return_value="tesseract"), \
+                mock.patch.object(ldi.subprocess, "run", return_value=bad) as run:
+            with self.assertRaisesRegex(RuntimeError, "tesseract_exit:1"):
+                ldi._tess([], b"x", 60)
+        self.assertEqual(run.call_count, 1)
+
+    def test_line_size_limit_fails_before_ocr(self):
+        with mock.patch.object(ldi, "OCR_MAX_LINE_PIXELS", 10), \
+                mock.patch.object(ldi.shutil, "which", return_value="tesseract"), \
+                mock.patch.object(ldi, "_tess") as read:
+            with self.assertRaisesRegex(RuntimeError, "ocr_line_size_budget_exceeded"):
+                ldi.ocr_line(np.zeros((20, 60, 3), dtype=np.uint8), [0, 0, 60, 20])
+        read.assert_not_called()
+
+    def test_queued_line_stops_before_image_processing_when_panel_budget_expires(self):
+        with mock.patch.object(ldi.shutil, "which", return_value="tesseract"), \
+                mock.patch.object(ldi, "_tess") as read:
+            with self.assertRaisesRegex(RuntimeError, "ocr_budget_exhausted"):
+                ldi.ocr_line(np.zeros((20, 60, 3), dtype=np.uint8), [0, 0, 60, 20], deadline=0)
+        read.assert_not_called()
+
+    def test_panel_size_limit_refuses_without_dropping_pixels(self):
+        with mock.patch.object(ldi, "OCR_MAX_PANEL_PIXELS", 10), \
+                mock.patch.object(ldi, "text_line_boxes") as boxes:
+            with self.assertRaisesRegex(RuntimeError, "ocr_panel_size_budget_exceeded"):
+                ldi.korean_lines(np.zeros((4, 4, 3), dtype=np.uint8))
+        boxes.assert_not_called()
+
+    def test_extraction_caps_candidates_before_quadratic_merge(self):
+        import cv2
+        stats = np.array([[0, 0, 20, 10, 200]] * 4)
+        with mock.patch.object(ldi, "OCR_MAX_BOXES", 2), \
+                mock.patch.object(cv2, "connectedComponentsWithStats", return_value=(4, None, stats, None)):
+            with self.assertRaisesRegex(RuntimeError, "ocr_line_count_budget_exceeded"):
+                ldi.text_line_boxes(np.zeros((20, 20, 3), dtype=np.uint8))
+
+    def test_extraction_honors_panel_deadline(self):
+        import cv2
+        stats = np.array([[0, 0, 20, 10, 200]] * 2)
+        with mock.patch.object(cv2, "connectedComponentsWithStats", return_value=(2, None, stats, None)):
+            with self.assertRaisesRegex(RuntimeError, "ocr_budget_exhausted"):
+                ldi.text_line_boxes(np.zeros((20, 20, 3), dtype=np.uint8), deadline=0)
+
+    def test_candidate_limit_refuses_instead_of_truncating(self):
+        with mock.patch.object(ldi, "OCR_MAX_BOXES", 1), \
+                mock.patch.object(ldi, "text_line_boxes", return_value=[[0, 0, 2, 2]] * 2), \
+                mock.patch.object(ldi, "ocr_line") as read:
+            with self.assertRaisesRegex(RuntimeError, "ocr_line_count_budget_exceeded"):
+                ldi.korean_lines(np.zeros((4, 4, 3), dtype=np.uint8))
+        read.assert_not_called()
+
+    def test_empty_extraction_cannot_bypass_expired_budget(self):
+        with mock.patch.object(ldi, "text_line_boxes", return_value=[]), \
+                mock.patch.object(ldi.time, "monotonic", side_effect=[0, 181]):
+            with self.assertRaisesRegex(RuntimeError, "ocr_budget_exhausted"):
+                ldi.korean_lines(np.zeros((4, 4, 3), dtype=np.uint8))
+
+    def test_pool_shares_one_deadline_preserving_every_box(self):
+        boxes = [[0, 0, 2, 2], [2, 2, 4, 4]]
+        with mock.patch.object(ldi, "text_line_boxes", return_value=boxes), \
+                mock.patch.object(ldi, "ocr_line", return_value=("", 0)) as read:
+            self.assertEqual(ldi.korean_lines(np.zeros((4, 4, 3), dtype=np.uint8)), [])
+        self.assertEqual(read.call_count, 2)
+        self.assertEqual(read.call_args_list[0].kwargs["deadline"], read.call_args_list[1].kwargs["deadline"])
+
+    def test_residual_timeout_returns_failed_manifest_not_exception(self):
+        fixture = PipelineWithoutOcrTest()
+        def fail(*a, **kw):
+            raise RuntimeError("ocr_timeout_after_retry")
+        man = fixture.run_pipeline(lambda: {1: "Mix"}, residual=fail)
+        self.assertEqual(man["status"], "failed")
+        self.assertEqual(man["outputs"], [])
+        self.assertIn("ocr_inspection_incomplete", man["reasons"])
+        self.assertIn("ocr_inspection_incomplete", man["gallery_review_reasons"])
+        self.assertFalse(man["gallery_complete"])
+        self.assertTrue(man["panels"][0]["reason"].startswith("residual_inspection_failed"))
+
+    def test_one_failed_panel_does_not_abort_other_panels_or_claim_success(self):
+        img = Image.new("RGB", (400, 900), "white")
+        buf = io.BytesIO()
+        img.save(buf, "PNG")
+        fake_di = mock.Mock()
+        fake_di.count_faces.return_value = 0
+        with tempfile.TemporaryDirectory() as d, \
+                mock.patch.object(ldi, "ensure_ocr_ready"), \
+                mock.patch.object(ldi, "hangul_boxes", return_value=[]), \
+                mock.patch.object(ldi, "residual_hangul", side_effect=[RuntimeError("ocr_timeout_after_retry"), []]), \
+                mock.patch.object(ldi, "info_panel", return_value=(None, "test")), \
+                mock.patch.dict(sys.modules, {"daiso_images": fake_di}):
+            man = ldi.localize_product("1", "T", Path(d), object(), [("a", buf.getvalue()), ("b", buf.getvalue())])
+        self.assertEqual(man["summary"]["used"], 1)
+        self.assertEqual(len(man["outputs"]), 1)
+        self.assertEqual(man["status"], "failed")
+        self.assertEqual(man["gallery_status"], "review_required")
+
+    def test_initial_timeout_is_also_incomplete(self):
+        img = Image.new("RGB", (400, 900), "white")
+        buf = io.BytesIO()
+        img.save(buf, "PNG")
+        fake_di = mock.Mock()
+        fake_di.count_faces.return_value = 0
+        with tempfile.TemporaryDirectory() as d, \
+                mock.patch.object(ldi, "ensure_ocr_ready"), \
+                mock.patch.object(ldi, "hangul_boxes", side_effect=RuntimeError("ocr_timeout_after_retry")), \
+                mock.patch.object(ldi, "info_panel", return_value=(None, "test")), \
+                mock.patch.dict(sys.modules, {"daiso_images": fake_di}):
+            man = ldi.localize_product("1", "T", Path(d), object(), [("a", buf.getvalue())])
+        self.assertEqual(man["status"], "failed")
+        self.assertIn("ocr_inspection_incomplete", man["reasons"])
+
+
 class FitAndResidualTest(unittest.TestCase):
     def test_single_line_badge_shrinks_or_refuses_never_wraps(self):
         img = Image.new("RGB", (600, 100), (240, 120, 30))
