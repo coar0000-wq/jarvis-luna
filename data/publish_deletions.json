@@ -425,64 +425,6 @@
       "delete_file": false
     },
     {
-      "path": "data/knowledge/moe_tuning_report.json",
-      "base_sha256": "5f288a71ddcdc4758693d75172cedc9c860862e026feef026fd0a4c9a64d987c",
-      "replacement_sha256": "15cad60c3af289df4a74422894b388f74bef59c9c5e9f7633b353bd7b6f643e5",
-      "ids": [
-        "0.001031",
-        "0.997796"
-      ],
-      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
-      "policy_ref": "scripts/moe_evaluation_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/knowledge/real_sources.json",
-      "base_sha256": "9ee531692d1f652577796d019486fc89f60fb742afb50765d7dcd319d5bd30f1",
-      "ids": [
-        "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBwZXJsRFgxN1ZKbmFpYjA0SDdXZFlocHgzcHdCREdId2xKY1FmZFpVOTJWa2Y4QlRCbUczZmw1bTNQZGZjcXZ0QUVLTdIBW0FVX3lxTE5RTTdCaHVOUVpoMEFDX2YxaXZHV1VKT1g0WW1RVEFLdmZkS3JoTGxKelVIcmUzaUNqbVZ3QmR2enAzTUprVTFZQjcxNGVBS1pXNm5vMEdSZ0R5QTA?oc=5",
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lWjBLUm9KZEw2RWhDbnMwVk5tWG14SnlUaGlidTE3c3hzQ3VacGZfd1RKX2Y5SEk4SmNvYTA5cjhDTnZoZ2kwSHp2dUVVZ1B3ZjRLam5RaFhYMW5IVjdTNUItRGY?oc=5",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pdzQtbzJReEhNeTZzaThfaG9kVXBhWlNLTGpGSHV1TXF2eGhNZmdWUTkxS0I1RDVzdVpneEJJWkhsX21seDBkMEk4N3YxeTQ4S3FkWTlELUtFbnZpNnUyZ004bFlnVEF4WUR4eXdvMVVRVC1MVllzOWdQZw?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kMGk0NUh2eUJIdEllOTR5NGZIV1VyR2syVVZKdnY0dXlRSUxJZnNCTEF3NDlXcGtkZWhxdGR2ZHdPU3ZNOHJMU2tyQlRpcDRrYTBqWXc3ZUJWOGVKWm8tMWpoVUtmWnczbjJnNWdYNG9SZ2I2aGtjNFNWcWNkdE0?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTBtX2VGWFJSTWRjdWQ5anhfY3pEcUpfMngweUdXbFduTjRqZ00tV0RNWS1pb2ltOWhRZy11U0o3LUtqSXZkeE12Z3Zwb0M3alh5UkZES1U4ZXJ1bURLa1pqV0psQWVDcVVndE1HY1FJSE9KeTZPT2l2YjVOdGh1NGs3bGJmOEtS?oc=5",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRzRKU3k1OTdtTmFaRklNMWdaRTVUOGF6OVBudndQWUgweHFNeE5JVG5PTDg5bFlMbmxQTXM0VjIxNGVMM0lnc0ItZGpFZmFMRkU0QWtzNDViX1pMX19HektyT1hpaTNHNDNSN3NkS2JPSXhLbjZkMkp5UGgyZnNzQTZLNFJ4T0lqWDlBME9rQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3ZMaXU3eXVhN0s5dV9yNmNrU3l3THlQeVJWLXFBUWdCNDR3MjNpOVN4QUxUVmRpRE15enlXTTZQS3o1blhZTVlZT3RESTFtX2RDNldEd0VTNHpXdVhXV2J1SGwyX1NvUDZnVERzRldrR19JUTM3UU4ybWFKbEQtbnRWQlN3U1hkME5mT3ZSeEc4Zw?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWFnM1h1cklpOXA1b2JSb0FqYjcwaEVRclo4NmFaYUJVRWJWQi1hb2xGQ1RlaTl4TnJfZlM0aU1xMmtCZmtsX3lUN3hPYlN1YUdOZ19GczBBcWJLSm1tMHFWc0picjNUbjdobmtZRTZvWVU3NnVmc2R4bWZIbWF5NENndE9Ic2l5ZG5CVlJxam96Y3pocmc?oc=5",
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc21RSGNYRDVoMVFHRkw3SFlsRmo1OVg3bE1xU3dtT3hyTk5majdQZ0pibUJUbjJlSnk4TTFaZk5uT0Y0R242anJuYko2TkxPRU0tald0TkVmVE5sVDRZMEM2MEs4YkNfSUxDWnUzbnVLek9sVEdxendQdTRlZmRlbnMwYmlTUHV2c3lCT2FJNm12UGZQZHZoQUJ3?oc=5",
-        "https://openalex.org/W7221169526",
-        "https://openalex.org/W7221179236",
-        "https://openalex.org/W7221196613",
-        "https://openalex.org/W7222394434",
-        "https://openalex.org/W7222400894",
-        "https://openalex.org/W7222402172",
-        "https://openalex.org/W7222409706",
-        "https://openalex.org/W7222411968",
-        "https://openalex.org/W7222413689",
-        "https://openalex.org/W7222414633",
-        "https://openalex.org/W7222417565",
-        "https://openalex.org/W7222418393",
-        "https://openalex.org/W7222420610",
-        "https://openalex.org/W7222423321",
-        "https://openalex.org/W7222427405",
-        "https://openalex.org/W7222433621",
-        "https://openalex.org/W7222436188",
-        "https://openalex.org/W7222441933",
-        "https://openalex.org/W7222443213",
-        "https://openalex.org/W7222455734",
-        "https://openalex.org/W7222455907",
-        "https://openalex.org/W7222457115",
-        "https://openalex.org/W7222467429",
-        "https://openalex.org/W7222469667",
-        "https://openalex.org/W7222470937",
-        "https://openalex.org/W7222482966",
-        "https://openalex.org/W7222485874",
-        "https://openalex.org/W7222492928"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/agents/workflow_freshness.json",
       "base_sha256": "16ea545647752a3d4b278b6e965456e2a03ede30cdc649bb52b1da5de555eb66",
       "replacement_sha256": "74d8bef9f0ae07f7c914a8680f7717f2a0b8c800c3dee0da306019facae91d54",
@@ -571,6 +513,50 @@
       ],
       "reason": "Exact diagnostic replacement; immutable HEAD, prior and current gosi retained.",
       "policy_ref": "scripts/gosi_observation_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/moe_tuning_report.json",
+      "base_sha256": "15cad60c3af289df4a74422894b388f74bef59c9c5e9f7633b353bd7b6f643e5",
+      "replacement_sha256": "8b605b106bb98227aeb8cdfb1af8894014eb9fe1ac09d51c58519f04bec86279",
+      "ids": [
+        "0.001173"
+      ],
+      "reason": "Numeric evaluation vector/search-space replacement; exact baseline and current reports retained by SHA256.",
+      "policy_ref": "scripts/moe_evaluation_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/knowledge/real_sources.json",
+      "base_sha256": "14626ff4f1a4bfd9b5ec014a9cd8ec00ddfaac52ddb5e8f177adddea3cfe2f3e",
+      "ids": [
+        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5YdlBtX0RVdlVIRVNFaHRXdExGSG5ZbnU1QVItbm9YTjZ6bHphQW8tNFlYMkFGY2NyaWtqZU9SQjJub0ZrdXNJSmNHakJrdlNBSVdBQUhpY1VoQ1JqRFlsWQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pczJSaU1OVG96QUJzUFNkR1BSYmxGRU9oX0hKZnc5YVNLeHJnc3FKZ2xJalNXaE9jdXhXLV94dFFZUW1adU5zb1RDdnM3bW5jUjlzQXlDdExqbjdNaTEwLWZ3YUU?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtMUFsYWZ4X0VmQnh3LUxpVjhnSWtrUGw0ajd2WEtjbDRjUUFNQjcxell1ZlNHQjAyX2VmdzRENW5BazFicUNEOVRtOHNqTTBGSHJPTjBTb3dGVkcwR240Z1pYU3QySG5ZRWVz?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UVVZzcDNsNklueURqRE9ZbjhvWlJuMnZqaUxUdF95d3pNTlR6RHBfMlZaTkdXVTlqd09aWXg2d2d5eVFpR1RGdl9DWUVTSURKV3pSSzBoNkw0UDBuMm9xQTFnYlpUZnFm?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTVHFoN09DYWF2TW5oeEx3NWlKejVzV3lSUldROGZYaWRld3YtTWZ4Sk1YeTlUMS1fVmw4RkRYMmZETmhiRkNLX1RhczR3OHJZZGJRSmpLamUwdU85V0VqUUlJS0xTOXlu?oc=5",
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfdGVpNGt4c2IzT1lPZjk4N05ZSXZyb0dMSmw2QXVKYXo0b2p2ZXQySHF2TXZ3ZUI4aGd3Qjc0cWdBYzZ0WlEwRkR4VlJLQUhBZ3R5Q19DVHo0WWN1dS1kdFRLRmF3Z1hUeHZ0X2dYZ0VvYm8?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE5UMVJqa2RMT2VieklvSTJkbkdxMkRuSDU1YXBqaHBMMVEyYTFRTnl6RWhlWEtFckp0YnhMSlc5MWVpeVhjbzFTTmd5bkZJNzhsZGlXS0ttRWVWYkZPQkVNamx1amotTjlPUDZ5SVZXdzItZw?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjRjZ0Q0lzYnNYMG5VSnRDUHRsc213T2hZREhfTGRJa0NKNnZQcGpVLVdXNjk4WmNVMm5IaExwQ0V6VVRzaWF4bkQzbUtrTWZzOThWLXptMkJ1NUhVaG1vcnI1SHIzT1RrT1VVRExqVUtvV1dJ?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE8xQTdMTWxzX0J3M2ZPTnV6S2dncEwxQjgxbE9LdS0tRllDY29FTkViUkFtR2hWamIzYUR5RHRJN0N5MkdDUldERFNNX3VwV3pZTzk0bHp4NU54ZFFucXZRZFRLdlROQTBRc2FRb29ZWGpuWXhlQWIwSA?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUHBuMjVoQzNLUjFYcHE0ZXB2eFF4TV9NcnBjdEdBTnlzUjcwVExlbGRLMFkxTjdVSWpLeHgyUXczTjZCLXJEWURBZEpBUVVfdng3Z2dWSUNrWmpEdmVqanVVQWxyQUtrNHBPbjZSNUhOeE01T1BLUg?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CVXI5Vktnd0hvQ3dWVjUzNERpRHdhUVFvZHFYNkFvZzh6S3JzUDRpYnVHN3dNSy10NzB0cy0teTFHa0hUbG1la3E4SGdYTkpPSzQ4bkMwX3dKRTV6UTVQb04wSElibXJ3Vy1Bc3RSNjA5SW0zT29xN0tB?oc=5",
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TU1FRakpvTmRnUzhqQnJOaFF5eGVhRW5UR0Fqd1VWZXpkTlV5TXY0Q1p3QjBfODAwbm9JVExjNEFjcmJYUXdOUWFaYU12cEFkcTZWYngzVVRyV0hNWFlSSERab19hanYxLWp4cjU5eEx0YjRDb0Jlbi1hSDY?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rUEwydmN0VU9lMVl2X0NuMldBLWJqQU0xX0JIZWwycEwyUHhnQ2FjajgzbWszanVDNHU2QUpjc1F6UGdTRW1pUVd5VGhJTXVCUDkyMjl3MFNsRzJyWFRpUm51NXhiWkttWEFnMG54V3FQR2JZS0FhZG5VTXR2QQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbGk0RzBleFhiQ2JZYk1LSWlkUDJUdXoxVHhONE5jMU84dXM0RTdZOFo1UDFhV1lheWdxeHNBQURZdVd1NWRxMmJPUWoxdWY4ZUhGdXlUMFdOUFlZbENLVkd1QnEyUFplMzF5WktIcGV2NG90RTh6VGZkU195cWJWdmNR?oc=5",
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTFJKUnRTOGFieXpyYnBOQ0FFRVNBMzBQSXR0NDhPWGR5SUxqX0JQQjljTFNJMjdVeEt2bk9mSHpBVGYtTGJLWWczeDZRYlBIeHE4OGNEU1c2VzhnSlFCbkxJZEtsSDNheTh5V0d6Mi1STE5CUW4wMmZuZDRtSXdib294Z0VuWU0?oc=5",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN0xvNXA2cVRlUGNucHJVajY3M0ZkQmNkc0phRDRidDlIcy1WUVRLYS1lamhPNHNnQjUxaGxIcHV2Yk9iNTRCdEpZakNPSjNmaVNCdGpOQUw1TEp6bGdudUkzVEJwcWVNTUJMU0lGVVdoQ2FJTnJsNmRDNTFSUWxiWWhWTE82TGlMTmc?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUHRGeTZDWUxGbDUzSlpCdGxsQUg3eTg4bWVGUHc0Zjhjc1pzeFROWXRSajVaZG9qVXc5aFdWdUVDN1pXd2dzaDBNeXFuakhENlhnaWtiOFRPbU92NW0yZ0ZfRldLWFVyN0w4b2Npb2tHZFRyOEk3Z2ZLRVNVUzJDZUl0R3FDeVo1S1lCclVR?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdjNjMEZwa09UNlhqdzl5UzctcFRfWkx3MFdSd1lvdm1IU0xQSTJUelp3a1ZNMmwzWUJqcEZZVVlCMTBQSG1mWml6WjktVGNMLXRQaXM4aFpoUlhka01xcFBQanRsd20ySHZWNWZIaFN6RmFrSVNpNmk5QWNONzJLQ1RtVVlGbEMwTmdOemFR?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPT3Ayd3ZLdThQbjI0RlFOSnk5QjczVTY2RXFmQjlKNzExRW14dmN0NnYwZTZLZW9vdFdhSVV0YkpfYW14OEc4S2J2ckhFdC1mcjNuODJhclZQanZyUTlxc2ktcHU1S193UWNJSWNjSEtVZ19fQWhTMW1yd3lMVkp4OElvQ2pKZmlLSGFtYjlyUDI?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa1VkeWJQX3lPNmxJc1lfU0hfb1VJcmltWDZHb2lGdHpUVW9ObVZka1d2NTl1OGFNOEI0dmlHdTdHSGZyMWE2U2NtUFQ2ZTZqRGZjOXBfOTRzT3lKWnlseGVnUkR3TjYwVUc5Slk4Z19abUh0Q1V2MWVObzhCSE9yV3JoNjhMYXJZckhPSFAyZDh6c0ZkZVU0X9IBngFBVV95cUxOelh1VU01R2F1a0Rvclg2LWhLVUtucTU3NjFYZ2p5UEJiTTdtc0FwaU9zaWtubVJ2UjFHZzRvRW1yekt5NzhJZHJhR1NMTW1SVjZkWnNTemJIem9EMGZ0LVIzNEFfSHpnWHZSdjNBYnZ1aEtIcTd3ZXlKR2d5REgxRnZyQUYxajF1RjhiU0xMcks5WkdMdzdBakFLbjhvdw?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb3NfeE9aTFpmMXZkelBsLTREa0cxRVpQNHoxUlFxYVprRWszcHlaQ0taTzc2cFhqMWlSeVkxdU1Wd0RhbXlObVZFbTVBSWsyR19zSEtxcWlhS05peTBUdmEtMkRkTnNtTzFXeThtTVhBUkhtT2pETS1KbGF1QVdrRjJBR1FqMVdJNzJqTDRnZXMwQTU1NjJRc01WZw?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMVRHbE1VX3pQOWR1Rnk5bzV1QXdTVHpKRkJUUlBQUTlNdFE0ZEdWb3RGc01nZjZTLTVpZG1TMkFWYnhmLWl1bXNQajB1U0FhTUxBc3A0UEZSWm1NSnZxd2hZR1FzOFFSUlF0eS1SUkgyaGI3cGV6QmxTaVNpTlk3SDh4U0k2QUluWl9ZVDRzazZqLTItbHRFdVRVNlM?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxPTkJwSEdGTmhJak5VWDhocjNUbEZrLXdVQ3ZmRE1GV2V3NXh3SGhJNHhacHhXNVVscVkzRDVoQWpCOElxeDRRaFdjRldSZms4cGxnX3pkRS0zWC02Wl9nNW9HemlkSWtjbjVYOXZicGVHSDVJOVVtTFF0WUVMTDdsdnM5c3BkNTRqSHZhRTJReTE0M3NwX0dZSS0zNElpdw?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb0c3UlJyOEYtZmJoV3pXcXhrQkV6eTd4TkgxdGJzY0o4VzhVaDJNYVAwZFNYNExsRXhYY3JuOG1yZGR1c19zNlpnZGVvUURwUkQ0STlnSTdsWWhycnVOaUktcmZ3MmV3RnY0M211UXJXZFhSTEN3aDRleG1tb0lYcHlJVURhSy1Pendmdlk4czRHNWlubUN6eDNCc1FlUWdidklhd3FZT0dRekYyX2RqQ3o2WWFzc3otZ2lNRk9n?oc=5"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
     }
   ]

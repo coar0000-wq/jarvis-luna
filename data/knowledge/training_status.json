@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-20T13:13:37.691806+00:00",
-  "real_records": 7984,
+  "updated_at": "2026-10-20T18:28:29.298662+00:00",
+  "real_records": 7987,
   "source_labels": {
     "ai-image": 541,
-    "ai-research": 7043,
-    "shopify-commerce-image": 400
+    "ai-research": 7045,
+    "shopify-commerce-image": 401
   },
-  "corpus_sha256": "e2ed6bb2241973ce7b25a95f442b7c72ce9a0b1aa410fd035df19c719a0f94e0",
+  "corpus_sha256": "eec9c9419012e6e4dab48bf3270edc436bc937a76234dcbe72c1c6e74acb3881",
   "training_performed": true,
   "weights_updated": true,
   "model_type": "real-data Mixture-of-Experts with expert linear networks and learned softmax gate",
@@ -14,26 +14,26 @@
   "top_k_inference": 2,
   "model_file": "data/knowledge/real_knowledge_moe.npz",
   "compatibility_model_file": "data/knowledge/real_knowledge_router.npz",
-  "training_accuracy_on_corpus": 0.9545340681362725,
+  "training_accuracy_on_corpus": 0.9545511456116189,
   "mean_gate_load": [
     0.304521,
     0.33023,
     0.365249
   ],
   "note": "실제 수집 데이터 누적 코퍼스. URL 기준 중복 제거하며 기존 레코드는 보존한다. 가중치 갱신은 학습기가 별도로 수행한다.",
-  "trained_corpus_sha256": "e2ed6bb2241973ce7b25a95f442b7c72ce9a0b1aa410fd035df19c719a0f94e0",
+  "trained_corpus_sha256": "eec9c9419012e6e4dab48bf3270edc436bc937a76234dcbe72c1c6e74acb3881",
   "tuning_promoted": true,
   "tuning_steps": 300,
-  "tuning_validation_accuracy": 0.9497060744611365,
-  "tuning_validation_macro_f1": 0.879180969500211,
+  "tuning_validation_accuracy": 0.9497389033942559,
+  "tuning_validation_macro_f1": 0.8791881272807952,
   "tuning_validation_recall": {
     "ai-image": 0.8901,
     "ai-research": 0.9524,
     "shopify-commerce-image": 0.9733
   },
   "baseline_majority": {
-    "accuracy": 0.89157413455258,
-    "macro_f1": 0.31422651933701656,
+    "accuracy": 0.891644908616188,
+    "macro_f1": 0.3142397055440534,
     "recall": {
       "ai-image": 0.0,
       "ai-research": 1.0,
@@ -42,12 +42,12 @@
   },
   "training_effective": true,
   "학습_판정": "기준선보다 나음: 운영 가중치 교체",
-  "features": "TF-IDF + L2 (min_df 3, 어휘 7283)",
+  "features": "TF-IDF + L2 (min_df 3, 어휘 7284)",
   "말뭉치": "이 말뭉치로 학습한 가중치다.",
-  "tuning_final_loss": 0.2615581114632058,
-  "tuning_gate_load_std": 0.4698457103141543,
-  "records_before": 7953,
-  "records_added": 31,
+  "tuning_final_loss": 0.26151218021492967,
+  "tuning_gate_load_std": 0.46984530621924003,
+  "records_before": 7984,
+  "records_added": 3,
   "source_status": {
     "arxiv": "ok",
     "robotics": "ok",
