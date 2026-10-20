@@ -280,6 +280,13 @@ class Shopify:
         if d["userErrors"] or not d.get("product") or d["product"]["id"] != product_id:
             raise RuntimeError(f"description update: {d.get('userErrors')}")
 
+    def update_draft_content(self, product_id, description_html, title):
+        d = self.gql('''mutation($p:ProductUpdateInput!){productUpdate(product:$p){
+          product{id} userErrors{field message}}}''',
+          {'p': {'id': product_id, 'descriptionHtml': description_html, 'title': title}})['productUpdate']
+        if d['userErrors'] or not d.get('product') or d['product']['id'] != product_id:
+            raise RuntimeError('draft_content_update_unverified')
+
     def set_status(self, product_id, status):
         d = self.gql("""mutation($p:ProductUpdateInput!){productUpdate(product:$p){
           product{id} userErrors{field message}}}""", {"p": {"id": product_id, "status": status}})["productUpdate"]
@@ -673,10 +680,17 @@ def _collect_gosi(pd_no, allow_ai=True):
     try:
         items = json.loads((ROOT / "data/gosi.json").read_text(encoding="utf-8-sig")).get("items") or {}
         if isinstance(items, dict) and isinstance(items.get(str(pd_no)), dict):
-            g.update({k: _clean(v) for k, v in items[str(pd_no)].items() if k in FIELD.values() and _clean(v)})
+            g.update({k: _clean(v) for k, v in items[str(pd_no)].items()
+                      if k in {'ingredients', 'volume', 'maker', 'origin', 'functional', 'expiry', 'usage', 'warnings'} and _clean(v)})
             g["_source"] = "jarvis data/gosi.json"
     except (OSError, json.JSONDecodeError):
         pass
+    # A transient source outage must not discard complete retained disclosure facts.
+    # This is collection completeness only, never label/safety/publication clearance.
+    if all(g.get(k) for k in NEED):
+        g['gosi_ok'] = True
+        g['missing'] = []
+        return g
     # 1) 다이소 API 텍스트
     for k, v in gosi_from_api(pd_no).items():
         g.setdefault(k, v)
@@ -694,6 +708,19 @@ def _collect_gosi(pd_no, allow_ai=True):
             if v and not g.get(k):
                 g[k] = v
                 g["_source"] = "rendered alt (다이소 상세 이미지 alt 원문)"
+    # Image-only notices below the expanded detail must not depend on a metered model.
+    if GOSI_RENDERED_ALT and any(not g.get(k) for k in NEED):
+        try:
+            from daiso_notice_recovery import rendered_notice, ocr_notice
+            evidence = rendered_notice(pd_no)
+            for k, v in evidence['fields'].items():
+                if k in FIELD.values() and _clean(v) and not g.get(k):
+                    g[k] = _clean(v)
+            if any(not g.get(k) for k in NEED):
+                evidence['ocr'] = ocr_notice(evidence['images'])
+            g['_notice_evidence'] = evidence
+        except Exception as exc:
+            g['_notice_evidence'] = {'error': type(exc).__name__, 'review_required': True}
     # 2) 상세 이미지 판독 (표는 상세 이미지 아래쪽에 있다)
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if allow_ai and key and any(not g.get(k) for k in NEED):
@@ -777,7 +804,18 @@ def build_us_label(pd_no, name_kr, g):
     reasons, label = [], {}
     try:
         sg, resolver = _inci_resolver()
-        inci, missing, fixed, review = sg.to_inci(g.get("ingredients", ""), resolver)
+        source_ingredients = g.get('ingredients', '')
+        lookup_ingredients = source_ingredients
+        # Exact inspected body artwork uses trailing * for its ingredient footnote.
+        # Preserve raw source; remove only suffix punctuation for dictionary lookup.
+        if str(pd_no) in {'1069429', '1069430'}:
+            lookup_ingredients = re.sub(r'\*(?=\s*(?:,|$))', '', source_ingredients)
+        inci, missing, fixed, review = sg.to_inci(lookup_ingredients, resolver)
+        if inci and str(pd_no) in {'1069429', '1069430'} and re.search(r'향료\([^)]*1\.21%\)', source_ingredients):
+            inci = re.sub(r'\bFragrance\b(?!\s*\()', 'Fragrance (1.21%)', inci, flags=re.I)
+        if inci and str(pd_no) == '1060646' and '하이드롤라이즈드소듐하이알루로네이트(100 ppm)' in source_ingredients:
+            inci = re.sub(r'\bHydrolyzed Sodium Hyaluronate\b(?!\s*\()',
+                          'Hydrolyzed Sodium Hyaluronate (100 ppm)', inci, flags=re.I)
         if inci:
             label["ingredients_inci"] = inci
             label["inci_fixed"] = len(fixed)
@@ -2118,6 +2156,7 @@ def backfill_draft_images(shop, registry):
 
 
 def main():
+    enrich_only = '--enrich-only' in sys.argv or os.environ.get('ENRICH_ONLY') == '1'
     shop = None
     names, ids = set(), set()
     pub = None
@@ -2145,8 +2184,10 @@ def main():
     results, failures = [], 0
     backfill = []
     quarantined = []
-    pending_gallery = any(gallery_append_reserved(entry) for entry in reg.get("items") or [])
-    if shop is not None and not DRY_RUN and QUARANTINE_BLOCKED_PUBLIC and not pending_gallery:
+    pending_notice = any((entry.get('notice_enrichment') or {}).get('state') == 'reserved'
+                         for entry in reg.get('items') or [])
+    pending_gallery = any(gallery_append_reserved(entry) for entry in reg.get("items") or []) or pending_notice
+    if shop is not None and not DRY_RUN and QUARANTINE_BLOCKED_PUBLIC and not pending_gallery and not enrich_only:
         try:
             quarantine_blocked_public(shop, products, reg, pub, quarantined)
         except Exception as exc:
@@ -2159,7 +2200,7 @@ def main():
             with open("out/daiso_daily_beauty_result.json", "w", encoding="utf-8") as f:
                 json.dump(out, f, ensure_ascii=False, indent=2)
             return 2
-    if shop is not None and not DRY_RUN and BACKFILL_BANNER:
+    if shop is not None and not DRY_RUN and BACKFILL_BANNER and not pending_notice and not enrich_only:
         try:
             backfill = backfill_banner(shop, products, reg, pub)
         except Exception as exc:
@@ -2174,12 +2215,20 @@ def main():
                 json.dump(out, f, ensure_ascii=False, indent=2)
             return 2
     image_backfill = []
-    if shop is not None and not DRY_RUN and BACKFILL_DRAFT_IMAGES:
+    if shop is not None and not DRY_RUN and BACKFILL_DRAFT_IMAGES and not pending_notice and not enrich_only:
         image_backfill = backfill_draft_images(shop, reg)
         log(f"draft image backfill: {image_backfill}")
     write_blocked = (any(gallery_append_reserved(entry) for entry in reg.get("items") or [])
                      or any(r.get("stop_further_writes") is True for r in image_backfill))
-    for cat in CATEGORIES:
+    notice_enrichment = []
+    if (shop is not None and not DRY_RUN and not write_blocked
+            and (pending_notice or enrich_only or os.environ.get('BACKFILL_DRAFT_NOTICE') == '1')):
+        from draft_notice_enrichment import enrich, source_titles
+        notice_enrichment = enrich(shop, reg, collect_gosi, build_us_label, save_registry,
+            pd_nos={p.strip() for p in os.environ.get('ENRICH_PD_NOS', '').split(',') if p.strip()},
+            title_overrides=source_titles(ROOT, reg))
+        write_blocked = any(r.get('stop_further_writes') for r in notice_enrichment)
+    for cat in ([] if enrich_only else CATEGORIES):
         if ONLY and cat[0] not in ONLY:
             continue
         if write_blocked:
@@ -2553,6 +2602,7 @@ def main():
         "dry_run": DRY_RUN,
         "banner_backfill": backfill,
         "draft_image_backfill": image_backfill,
+        "draft_notice_enrichment": notice_enrichment,
         "quarantine_blocked_public": quarantined,
         "results": results,
     }

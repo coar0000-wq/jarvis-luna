@@ -25,6 +25,14 @@ on:
         description: '1 이면 Shopify 에 쓰지 않고 선택 결과만 출력'
         required: false
         default: '0'
+      enrich_only:
+        description: '1: existing DRAFT notice enrichment only, never create/publish'
+        required: false
+        default: '0'
+      enrich_pd_nos:
+        description: 'Optional exact source IDs, comma-separated, for enrichment only'
+        required: false
+        default: ''
       quarantine_blocked_public:
         description: '1이면 현재 정본 법률 hard_block이 명시된 기존 다이소 공개 상품만 DRAFT로 격리 (기본값 0)'
         required: false
@@ -72,6 +80,9 @@ jobs:
         # numpy/Pillow/OpenCV/tesseract 가 설치된 이 잡에서 돈다 (pages-verified 는 pyflakes/pyyaml 만 설치).
         run: python -B scripts/test_localize_detail_images.py
 
+      - name: 기존 초안 고시 복구 회귀 검사
+        run: python -B scripts/test_draft_notice_enrichment.py
+
       - name: 일일 등록 안전성 단위 테스트
         run: |
           python -B - <<'PY'
@@ -105,6 +116,7 @@ jobs:
 
       # Owner-approved body-only DRAFT exception. Registrar rechecks exact policy and scope before reservation/create.
       - name: 바디 샤워·입욕 원래 목록 순서 수집
+        if: ${{ github.event.inputs.enrich_only != '1' }}
         run: python -B scripts/daiso/collect_desk_catalog.py --desk body --output out/body_shower_catalog.json
 
       - name: 다이소 추천 선택 후 Shopify 등록
@@ -114,6 +126,9 @@ jobs:
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          ENRICH_ONLY: ${{ github.event.inputs.enrich_only || '0' }}
+          ENRICH_PD_NOS: ${{ github.event.inputs.enrich_pd_nos || '' }}
+          BACKFILL_DRAFT_NOTICE: '1'
           ONLY_CATEGORIES: ${{ github.event.inputs.only_categories || '' }}
           BODY_FALLBACK_CATALOG_PATH: 'out/body_shower_catalog.json'
           BACKFILL_BANNER: ${{ github.event.inputs.backfill_banner || '1' }}

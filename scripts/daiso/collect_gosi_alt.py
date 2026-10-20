@@ -16,7 +16,7 @@
        접힌 칸에 있고 모든 제품에 있다. 그런데 대부분 "상세페이지 참조" 다.
        제조국만 실값이다. 이건 selPdDtlNtfc API 로 이미 받고 있다.
 
-    ② img 의 alt   ← 실제 내용은 여기
+    ② 펼친 상세 이미지의 픽셀과, 제공되는 경우 img alt.
        div.cms > div.editor-area > div.editor-content 안.
        이미지 경로에 /description/ 이 들어간다.
        ①이 "상세페이지 참조" 라고 가리키는 그 상세페이지가 이것이다.
@@ -32,8 +32,12 @@
   editor-content 를 스크립트가 그린다. requests 로는 못 본다.
   그래서 브라우저가 필요하다.
 
-  대신 이미지를 내려받아 비전 모델로 읽을 필요가 없어진다.
-  alt 가 이미 글자다. GEMINI_API_KEY 도 필요 없다.
+  alt는 일부 텍스트만 제공할 수 있으며 전체 고시를 보장하지 않는다.
+  2026-10-20 1060646/1069430: 성분 전문은 하단 이미지 픽셀에만 있었다.
+  잘못된 다른 향 이름도 alt에 있었으므로 제품/옵션 바인딩을 별도 확인한다.
+  alt 미검출은 원본 고시 부재가 아니다. 무료 로컬 OCR 증적은
+  scripts/daiso_notice_recovery.py로 수집하고 검토 전 정본 성분으로 쓰지 않는다.
+  이 alt 수집기 자체에는 GEMINI_API_KEY가 필요 없다.
 
 어떻게 여나
 
@@ -87,7 +91,6 @@ ALT_JS = (
     ".map(i=>i.getAttribute('alt')||'').filter(x=>x.length>%d);"
     "let a=pick('div.cms div.editor-area div.editor-content img');"
     "if(!a.length) a=pick('div.editor-content img');"
-    "if(!a.length) a=pick('img');"
     "return a.length ? a.join('\\n\\n') : '';}"
 ) % ALT_MIN
 

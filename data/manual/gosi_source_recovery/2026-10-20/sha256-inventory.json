@@ -1,0 +1,42 @@
+[
+  {
+    "file": "body-notice-7000.png",
+    "bytes": 126528,
+    "sha256": "3978d551190c2ef82433241239a3d422189259ad0f8ffceda1bcfb92a9e7e0bb"
+  },
+  {
+    "file": "body-notice-7900.png",
+    "bytes": 406311,
+    "sha256": "7071802bbe3a5a65ea53ff037c0d0d9cd035f5e445adf375f14fd0365b8efdff"
+  },
+  {
+    "file": "body-notice-8700.png",
+    "bytes": 279296,
+    "sha256": "959d12585198bae2630b7e37f6eee781fb92b928d0cc6f0e43c1dec7522dfc1c"
+  },
+  {
+    "file": "body-source.jpg",
+    "bytes": 720114,
+    "sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506"
+  },
+  {
+    "file": "makeup-name-proof.png",
+    "bytes": 390138,
+    "sha256": "90bf79c256ce2ccb775fcd238f54b525252fa403f38eddd342ab8e431b17fd68"
+  },
+  {
+    "file": "makeup-notice-16600.png",
+    "bytes": 242394,
+    "sha256": "c1c3bd49fbfd8d32d072dd8deb354bf8a9a23d8a6951db734465e00b32409c14"
+  },
+  {
+    "file": "makeup-source.jpg",
+    "bytes": 1313105,
+    "sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7"
+  },
+  {
+    "file": "source_recovery.json",
+    "bytes": 8249,
+    "sha256": "236fc86f0e7f6459e8510bb4de21636e5f1a15618dd81387c06cc522ecb7f71c"
+  }
+]
