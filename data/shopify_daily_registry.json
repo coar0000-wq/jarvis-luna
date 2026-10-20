@@ -1565,7 +1565,7 @@
       "pd_no": "1060646",
       "family": "더랩바이블랑두클리어히알물광틴티드커버크림40ml",
       "name_kr": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml",
-      "title": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml",
+      "title": "THE LAB by BLANC DOUX Clear Hyal Dewy Glow Tinted Cover Cream 40 mL",
       "category": "makeup",
       "date": "2026-10-20",
       "status": "DRAFT",
@@ -1588,14 +1588,10 @@
       "price_evidence_source": "shop_com_live_comparable",
       "price_claim": "undercuts_lowest_verified_same_item_comparator",
       "draft_reasons": [
-        "ingredients_missing",
         "product_accuracy_owner_review_required",
         "ranking_fallback_draft_only",
         "safety_evidence_unverified_owner_draft_only",
         "listing_gate_product_missing_or_ambiguous",
-        "brand_english_unverified:더랩 바이 블랑두",
-        "english_title_missing",
-        "gosi_missing:ingredients",
         "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
       ],
       "grade": "RANK",
@@ -1613,13 +1609,64 @@
         "source_complete": true,
         "evidence": {},
         "label_reasons": []
-      }
+      },
+      "notice_enrichment": {
+        "state": "verified",
+        "before_description_html": "<p>더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml from Daiso Korea's daily beauty picks.</p><p><strong>Category:</strong> Makeup</p><p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p><h4>Product information</h4><ul>\n<li>\n<strong>Net contents:</strong> 또는중량 1.35fl. 40ml</li>\n<li>\n<strong>Manufacturer / Distributor (Korea):</strong> 및 판매업자 화장품 Manufacturer 나우코스케이</li>\n<li>\n<strong>Country of origin:</strong> Korea</li>\n<li>\n<strong>Cautions and directions:</strong> Please refer to the product packaging.</li>\n</ul><p><small>Source: Daiso Mall item 1060646.</small></p>",
+        "before_sha256": "9672724917e11a8ae2524977d5157c7b8cf3eefaaffe8b7db0fe59892715301c",
+        "after_sha256": "c1edd4064c32fe82a4a9ca85f4f16a5d1257bb44c12c6ffe3b57e296b13cbff1",
+        "expected_description_html": "<p>THE LAB by BLANC DOUX Clear Hyal Dewy Glow Tinted Cover Cream 40 mL from Daiso Korea's daily beauty picks.</p><p><strong>Category:</strong> Makeup</p><p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p><p><small>Source: Daiso Mall item 1060646.</small></p><div data-jarvis-notice=\"1060646\"><h4>Product information</h4><ul><li><strong>Net contents:</strong> 40 mL (1.35 fl oz)</li><li><strong>Ingredients (INCI):</strong> Water, Titanium Dioxide, Cetyl Ethylhexanoate, C12-15 Alkyl Benzoate, Ethylhexyl Palmitate, Dicaprylyl Carbonate, Hydrogenated Polydecene, Polyglyceryl-4 Oleate, Glycerin, Isododecane, Trimethylsiloxysilicate, Quaternium-90 Bentonite, Magnesium Sulfate, Synthetic Beeswax, Dipropylene Glycol, Sorbitan Sesquioleate, Polyglyceryl-6 Polyricinoleate, Caprylyl Glycol, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Caprylic/Capric Triglyceride, Hydroxyacetophenone, Polyglyceryl-3 Oleate, Polyglyceryl-3 Polyricinoleate, Iron Oxide Yellow, Triethoxycaprylylsilane, Aluminum Hydroxide, Iron Oxide Red, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Iron Oxide Black, Hydrolyzed Sodium Hyaluronate (100 ppm), Dipotassium Glycyrrhizate, Gluconolactone, Betaine, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol</li><li><strong>Manufacturer / Distributor (Korea):</strong> 화장품 Manufacturer: (주)나우코스; Distributor (responsible seller, Korea): (주)에런케이</li><li><strong>Country of origin:</strong> Korea</li><li><strong>Cautions and directions:</strong> Please refer to the product packaging.</li></ul></div>",
+        "section": "<div data-jarvis-notice=\"1060646\"><h4>Product information</h4><ul><li><strong>Net contents:</strong> 40 mL (1.35 fl oz)</li><li><strong>Ingredients (INCI):</strong> Water, Titanium Dioxide, Cetyl Ethylhexanoate, C12-15 Alkyl Benzoate, Ethylhexyl Palmitate, Dicaprylyl Carbonate, Hydrogenated Polydecene, Polyglyceryl-4 Oleate, Glycerin, Isododecane, Trimethylsiloxysilicate, Quaternium-90 Bentonite, Magnesium Sulfate, Synthetic Beeswax, Dipropylene Glycol, Sorbitan Sesquioleate, Polyglyceryl-6 Polyricinoleate, Caprylyl Glycol, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Caprylic/Capric Triglyceride, Hydroxyacetophenone, Polyglyceryl-3 Oleate, Polyglyceryl-3 Polyricinoleate, Iron Oxide Yellow, Triethoxycaprylylsilane, Aluminum Hydroxide, Iron Oxide Red, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Iron Oxide Black, Hydrolyzed Sodium Hyaluronate (100 ppm), Dipotassium Glycyrrhizate, Gluconolactone, Betaine, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol</li><li><strong>Manufacturer / Distributor (Korea):</strong> 화장품 Manufacturer: (주)나우코스; Distributor (responsible seller, Korea): (주)에런케이</li><li><strong>Country of origin:</strong> Korea</li><li><strong>Cautions and directions:</strong> Please refer to the product packaging.</li></ul></div>",
+        "before_title": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml",
+        "expected_title": "THE LAB by BLANC DOUX Clear Hyal Dewy Glow Tinted Cover Cream 40 mL",
+        "title_provenance": {
+          "title": "THE LAB by BLANC DOUX Clear Hyal Dewy Glow Tinted Cover Cream 40 mL",
+          "shopify_id": "gid://shopify/Product/9652410122497",
+          "source_sha256": "236fc86f0e7f6459e8510bb4de21636e5f1a15618dd81387c06cc522ecb7f71c",
+          "source_path": "data/manual/gosi_source_recovery/2026-10-20/source_recovery.json",
+          "source_image": "https://cdn.daisomall.co.kr/file/resize/PD/20241030/description/850/u84TObJUuj4jaLcPIl4t1060646_01_00u84TObJUuj4jaLcPIl4t.jpg",
+          "scope": "draft_source_name_only_not_safety_or_sale_approval"
+        },
+        "cleanup_migration": {
+          "version": 1,
+          "legacy_block_sha256": "cf4d3c9e0a1177c77c03eab811f654f4b8e106227d9b37545fe26f2b6dc51328",
+          "before_sha256": "9672724917e11a8ae2524977d5157c7b8cf3eefaaffe8b7db0fe59892715301c",
+          "after_sha256": "138d09ec3247f4f9923ce46aa0c2822ce4e7eaaa0e32cc039b30c79b8b7b442a",
+          "intro_before": "<p>더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml from Daiso Korea's daily beauty picks.</p>",
+          "intro_after": "<p>THE LAB by BLANC DOUX Clear Hyal Dewy Glow Tinted Cover Cream 40 mL from Daiso Korea's daily beauty picks.</p>"
+        },
+        "observed_section": "<div data-jarvis-notice=\"1060646\">\n<h4>Product information</h4>\n<ul>\n<li>\n<strong>Net contents:</strong> 40 mL (1.35 fl oz)</li>\n<li>\n<strong>Ingredients (INCI):</strong> Water, Titanium Dioxide, Cetyl Ethylhexanoate, C12-15 Alkyl Benzoate, Ethylhexyl Palmitate, Dicaprylyl Carbonate, Hydrogenated Polydecene, Polyglyceryl-4 Oleate, Glycerin, Isododecane, Trimethylsiloxysilicate, Quaternium-90 Bentonite, Magnesium Sulfate, Synthetic Beeswax, Dipropylene Glycol, Sorbitan Sesquioleate, Polyglyceryl-6 Polyricinoleate, Caprylyl Glycol, Polyglyceryl-4 Diisostearate/Polyhydroxystearate/Sebacate, Caprylic/Capric Triglyceride, Hydroxyacetophenone, Polyglyceryl-3 Oleate, Polyglyceryl-3 Polyricinoleate, Iron Oxide Yellow, Triethoxycaprylylsilane, Aluminum Hydroxide, Iron Oxide Red, Diisostearoyl Polyglyceryl-3 Dimer Dilinoleate, Iron Oxide Black, Hydrolyzed Sodium Hyaluronate (100 ppm), Dipotassium Glycyrrhizate, Gluconolactone, Betaine, Helianthus Annuus (Sunflower) Seed Oil, Tocopherol</li>\n<li>\n<strong>Manufacturer / Distributor (Korea):</strong> 화장품 Manufacturer: (주)나우코스; Distributor (responsible seller, Korea): (주)에런케이</li>\n<li>\n<strong>Country of origin:</strong> Korea</li>\n<li>\n<strong>Cautions and directions:</strong> Please refer to the product packaging.</li>\n</ul>\n</div>",
+        "observed_after_sha256": "20adb0a45aba1aa03c35cdae9c2d07a1bebea69b06edca466a80920809f57346"
+      },
+      "draft_reason_history": [
+        {
+          "before": [
+            "ingredients_missing",
+            "product_accuracy_owner_review_required",
+            "ranking_fallback_draft_only",
+            "safety_evidence_unverified_owner_draft_only",
+            "listing_gate_product_missing_or_ambiguous",
+            "brand_english_unverified:더랩 바이 블랑두",
+            "english_title_missing",
+            "gosi_missing:ingredients",
+            "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          ],
+          "after": [
+            "product_accuracy_owner_review_required",
+            "ranking_fallback_draft_only",
+            "safety_evidence_unverified_owner_draft_only",
+            "listing_gate_product_missing_or_ambiguous",
+            "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          ],
+          "reason": "fresh_draft_notice_or_title_readback_only"
+        }
+      ]
     },
     {
       "pd_no": "1069430",
       "family": "46cm체취솔루션데오드란트바디워시리프레싱허벌향225ml",
       "name_kr": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
-      "title": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+      "title": "46cm Body Wash Refreshing Herbal 225 mL",
       "category": "body",
       "date": "2026-10-20",
       "status": "DRAFT",
@@ -1809,16 +1856,13 @@
       "price_evidence_source": null,
       "price_claim": null,
       "draft_reasons": [
-        "ingredients_missing",
         "product_accuracy_owner_review_required",
         "market_price_unverified_cost_based_draft_only",
         "owner_category_fallback_draft_only",
         "safety_evidence_unverified_owner_draft_only",
         "listing_gate_product_missing_or_ambiguous",
-        "brand_english_unverified:",
-        "english_title_missing",
-        "gosi_missing:ingredients",
-        "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+        "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos",
+        "us_regulatory_review_functional_or_drug_like"
       ],
       "grade": "-",
       "source": "owner_body_shower_category_fallback",
@@ -2007,7 +2051,7 @@
         ]
       },
       "notice_enrichment": {
-        "state": "reserved",
+        "state": "verified",
         "before_description_html": "<p>46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml from Daiso Korea's daily beauty picks.</p><p><strong>Category:</strong> Body Care</p><p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p><h4>Product information</h4><ul>\n<li>\n<strong>Net contents:</strong> 225mL (7.61 fl oz)</li>\n<li>\n<strong>Manufacturer / Distributor (Korea):</strong> (주)LG생활건강</li>\n<li>\n<strong>Country of origin:</strong> Korea</li>\n<li>\n<strong>Cautions and directions:</strong> Please refer to the product packaging.</li>\n</ul><p><small>Source: Daiso Mall item 1069430.</small></p>",
         "before_sha256": "7ae2ea877722af0654c800fc86bc75f8057555fb8ad17bfbd4319744b13e8221",
         "after_sha256": "a59393a0e2674aafe038fcf594daa4a85367635b1d9b2b34316b37c4a7b9d44a",
@@ -2029,8 +2073,37 @@
           "after_sha256": "0e38e7a631db709992211852b63e7a2c21f4a05a00eb9e20d80ea5cfa98a9038",
           "intro_before": "<p>46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml from Daiso Korea's daily beauty picks.</p>",
           "intro_after": "<p>46cm Body Wash Refreshing Herbal 225 mL from Daiso Korea's daily beauty picks.</p>"
+        },
+        "observed_section": "<div data-jarvis-notice=\"1069430\">\n<h4>Product information</h4>\n<ul>\n<li>\n<strong>Net contents:</strong> 225 mL (7.61 fl oz)</li>\n<li>\n<strong>Ingredients (INCI):</strong> Water, Sodium C14-16 Olefin Sulfonate, Glycerin, Acrylates Copolymer, Coco-Glucoside, Fragrance (1.21%)|Perfume|Parfum, Citric Acid, Disodium Cocoyl Glutamate, Lauryl Hydroxysultaine, Hydrated Silica, Potassium Hydroxide, Lauramidopropyl Betaine, Alcohol Denat., Hexylene Glycol, Salicylic Acid, Sodium Benzoate, Caprylyl Glycol, Sodium Chloride, Sodium Cocoyl Glutamate, Gluconolactone, Tetrasodium EDTA, Propylene Glycol, Zinc Ricinoleate, Juglans Regia (Walnut) Shell Powder, Arginine, Caffeine, Mandelic Acid, Panthenol, Serine, Tromethamine, Zinc PCA, Hydroxypropyl Cyclodextrin, Volcanic Ash, Water, Butylene Glycol, Silica, Sodium Phosphate, 1,2-Hexanediol, Bakuchiol, Eucalyptus Globulus Leaf Extract, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hydroxypropyltrimonium Hyaluronate, Magnolia Officinalis Bark Extract, Protease, Silica Dimethyl Silylate, Mentha Arvensis Leaf Oil, Cyclodextrin, Mentha Rotundifolia Leaf Extract, Rosa Canina Fruit Extract, Mentha Piperita (Peppermint) Oil, Tocopherol, Camellia Sinensis Leaf Extract, Pentylene Glycol, Helianthus Annuus (Sunflower) Seed Oil, Ethylhexylglycerin, Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Soluble Proteoglycan, Limonene, Hexyl Cinnamal, Hydroxycitronellal, Benzyl Salicylate</li>\n<li>\n<strong>Manufacturer / Distributor (Korea):</strong> (주)LG생활건강</li>\n<li>\n<strong>Country of origin:</strong> Korea</li>\n<li>\n<strong>Cautions and directions:</strong> Please refer to the product packaging.</li>\n</ul>\n</div>",
+        "expected_description_html": "<p>46cm Body Wash Refreshing Herbal 225 mL from Daiso Korea's daily beauty picks.</p><p><strong>Category:</strong> Body Care</p><p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p><p><small>Source: Daiso Mall item 1069430.</small></p><div data-jarvis-notice=\"1069430\"><h4>Product information</h4><ul><li><strong>Net contents:</strong> 225 mL (7.61 fl oz)</li><li><strong>Ingredients (INCI):</strong> Water, Sodium C14-16 Olefin Sulfonate, Glycerin, Acrylates Copolymer, Coco-Glucoside, Fragrance (1.21%)|Perfume|Parfum, Citric Acid, Disodium Cocoyl Glutamate, Lauryl Hydroxysultaine, Hydrated Silica, Potassium Hydroxide, Lauramidopropyl Betaine, Alcohol Denat., Hexylene Glycol, Salicylic Acid, Sodium Benzoate, Caprylyl Glycol, Sodium Chloride, Sodium Cocoyl Glutamate, Gluconolactone, Tetrasodium EDTA, Propylene Glycol, Zinc Ricinoleate, Juglans Regia (Walnut) Shell Powder, Arginine, Caffeine, Mandelic Acid, Panthenol, Serine, Tromethamine, Zinc PCA, Hydroxypropyl Cyclodextrin, Volcanic Ash, Water, Butylene Glycol, Silica, Sodium Phosphate, 1,2-Hexanediol, Bakuchiol, Eucalyptus Globulus Leaf Extract, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hydroxypropyltrimonium Hyaluronate, Magnolia Officinalis Bark Extract, Protease, Silica Dimethyl Silylate, Mentha Arvensis Leaf Oil, Cyclodextrin, Mentha Rotundifolia Leaf Extract, Rosa Canina Fruit Extract, Mentha Piperita (Peppermint) Oil, Tocopherol, Camellia Sinensis Leaf Extract, Pentylene Glycol, Helianthus Annuus (Sunflower) Seed Oil, Ethylhexylglycerin, Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Soluble Proteoglycan, Limonene, Hexyl Cinnamal, Hydroxycitronellal, Benzyl Salicylate</li><li><strong>Manufacturer / Distributor (Korea):</strong> (주)LG생활건강</li><li><strong>Country of origin:</strong> Korea</li><li><strong>Cautions and directions:</strong> Please refer to the product packaging.</li></ul></div>",
+        "observed_after_sha256": "43276f36978f98c904c7541f5afd18c7835f6889d521c574e370eff527df80d6"
+      },
+      "draft_reason_history": [
+        {
+          "before": [
+            "ingredients_missing",
+            "product_accuracy_owner_review_required",
+            "market_price_unverified_cost_based_draft_only",
+            "owner_category_fallback_draft_only",
+            "safety_evidence_unverified_owner_draft_only",
+            "listing_gate_product_missing_or_ambiguous",
+            "brand_english_unverified:",
+            "english_title_missing",
+            "gosi_missing:ingredients",
+            "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+          ],
+          "after": [
+            "product_accuracy_owner_review_required",
+            "market_price_unverified_cost_based_draft_only",
+            "owner_category_fallback_draft_only",
+            "safety_evidence_unverified_owner_draft_only",
+            "listing_gate_product_missing_or_ambiguous",
+            "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos",
+            "us_regulatory_review_functional_or_drug_like"
+          ],
+          "reason": "fresh_draft_notice_or_title_readback_only"
         }
-      }
+      ]
     }
   ],
   "body_shower_fallback_queue": {
