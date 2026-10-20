@@ -11,7 +11,7 @@ from unittest.mock import patch
 from urllib.error import HTTPError
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from PIL import Image
+from PIL import Image, UnidentifiedImageError
 from scripts import collect_daiso_gosi as c
 from scripts import gosi_image_sources as s
 from scripts import gosi_observation_history as h
@@ -93,6 +93,29 @@ class ImageSelectionTests(unittest.TestCase):
                 with patch.object(c, 'ROOT', root), patch.object(c.urllib.request, 'urlopen', return_value=Response(raw, mime)):
                     self.assertIsNone(c.download_image(IMAGE, root / 'never.jpg'))
                 self.assertEqual(list(root.iterdir()), [])
+
+    def test_decode_error_address_is_not_an_http_stop(self):
+        for code in (401, 403, 429):
+            error = UnidentifiedImageError(
+                f'cannot identify image file <_io.BytesIO object at 0x7f6dea{code}530>')
+            with self.subTest(code=code), tempfile.TemporaryDirectory() as td:
+                root = Path(td)
+                with patch.object(c, 'ROOT', root), patch.object(c.urllib.request, 'urlopen', return_value=Response(b'invalid image')) as request, patch.object(Image, 'open', side_effect=error), patch.object(c, 'annotate_denial') as annotate:
+                    self.assertIsNone(c.download_image(IMAGE, root / 'never.jpg'))
+                request.assert_called_once()
+                annotate.assert_not_called()
+                self.assertEqual(list(root.iterdir()), [])
+
+    def test_all_http_auth_and_quota_denials_still_stop_without_retry(self):
+        for code in (401, 403, 429):
+            error = HTTPError(IMAGE, code, 'fixture response', {}, None)
+            with self.subTest(code=code), patch.object(c.urllib.request, 'urlopen', side_effect=error) as request:
+                with self.assertRaises(h.ProviderStop) as caught:
+                    c.download_image(IMAGE, Path('never.jpg'))
+                self.assertEqual(caught.exception.code, code)
+                self.assertEqual(caught.exception.category, 'quota' if code == 429 else 'auth')
+                self.assertEqual(caught.exception.diagnostic['http_status'], code)
+                request.assert_called_once()
 
     def test_denial_is_sanitized_persisted_and_never_retried(self):
         url = IMAGE + '?token=secret-query#secret-fragment'

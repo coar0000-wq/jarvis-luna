@@ -52,17 +52,49 @@ def receipt(raw, source, scope='source_response'):
     return {'source': source, 'received_at': utcnow(), 'sha256': sha(raw),
             'byte_count': len(raw), 'capture_scope': scope, 'verified': False}
 
+def _http_stop_code(value):
+    # Do not coerce floats, booleans, identifiers, or partial numeric strings.
+    if isinstance(value, int) and not isinstance(value, bool):
+        return value if value in (401, 403, 429) else None
+    if isinstance(value, str) and value.strip() in ('401', '403', '429'):
+        return int(value.strip())
+    return None
+
 def classify_stop(exc, provider):
-    code = getattr(exc, 'code', None) or getattr(exc, 'status_code', None)
-    if callable(code):
-        code = code()
-    text = (type(exc).__name__ + ' ' + str(exc) + ' ' + str(getattr(exc, 'reason', '')) + ' ' + str(code)).lower()
-    if code in (401, 403, 429):
+    # Read actual exception/response status fields and structured API errors.
+    # A PIL decode error contains a BytesIO memory address, which can include
+    # 401/403/429 without representing an HTTP response at all.
+    sources = [exc, getattr(exc, 'response', None), getattr(exc, 'reason', None)]
+    if isinstance(exc, str):
+        try:
+            sources.append(json.loads(exc))
+        except (ValueError, TypeError):
+            pass
+    values = []
+    for source in list(sources):
+        if isinstance(source, dict) and isinstance(source.get('error'), dict):
+            sources.append(source['error'])
+    for source in sources:
+        for key in ('code', 'status_code', 'status'):
+            value = source.get(key) if isinstance(source, dict) else getattr(source, key, None)
+            if callable(value):
+                value = value()
+            values.append(value)
+            code = _http_stop_code(value)
+            if code:
+                return ProviderStop(provider, code, 'quota' if code == 429 else 'auth')
+    text = (type(exc).__name__ + ' ' + str(exc) + ' ' +
+            str(getattr(exc, 'reason', '')) + ' ' + ' '.join(map(str, values))).lower()
+    # Some network wrappers only retain an explicit HTTP error description.
+    # Never match a bare number in an address, URL, product ID, or error text.
+    status = re.search(r'\bhttp(?:/\d(?:\.\d)?\s+|(?:\s+(?:error|status(?:\s+code)?))?[\s:=]+)(401|403|429)(?!\w)', text)
+    if status:
+        code = int(status.group(1))
         return ProviderStop(provider, code, 'quota' if code == 429 else 'auth')
-    if any(x in text for x in ('resource_exhausted', 'resourceexhausted', 'quota', 'too many requests', '429')):
+    if any(x in text for x in ('resource_exhausted', 'resourceexhausted', 'quota', 'too many requests')):
         return ProviderStop(provider, 429, 'quota')
     if any(x in text for x in ('permission_denied', 'unauthenticated', 'api_key_invalid',
-                              'invalid api key', 'api key not valid', 'authentication', 'invalid_grant', 'invalid credentials', 'permissiondenied', 'unauthorized', 'forbidden', '403', '401')):
+                              'invalid api key', 'api key not valid', 'authentication', 'invalid_grant', 'invalid credentials', 'permissiondenied', 'unauthorized', 'forbidden')):
         return ProviderStop(provider, 403, 'auth')
     return None
 
