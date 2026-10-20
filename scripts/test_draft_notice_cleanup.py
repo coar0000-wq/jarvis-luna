@@ -106,7 +106,7 @@ class CleanupTests(unittest.TestCase):
         self.shop.update_draft_content.assert_not_called()
 
     def test_only_structural_whitespace_is_allowed_and_preserved_elsewhere(self):
-        spaced = self.legacy.replace('</h4><ul>', '</h4>\n<ul>\n  ').replace('</li><li>', '</li>\n  <li>').replace('</li></ul>', '</li>\n</ul>')
+        spaced = self.legacy.replace('</h4><ul>', '</h4>\n<ul>\n  ').replace('</li><li>', '</li>\n  <li>').replace('</li></ul>', '</li>\n</ul>').replace('<li><strong>', '<li>\n<strong>')
         body = self.body.replace(self.legacy, spaced)
         cleaned, audit = d.cleanup_superseded_generated(self.entry, {}, body, self.title)
         self.assertIsNotNone(audit)

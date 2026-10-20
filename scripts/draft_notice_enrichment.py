@@ -104,7 +104,7 @@ def cleanup_superseded_generated(entry, state, body, title):
         return body, None
     # This is the exact escaped HTML grammar emitted by build_us_label, not a
     # general <ul> matcher. A second block or manual nested markup fails closed.
-    blocks = list(re.finditer(r'<h4>Product information</h4>\s*<ul>\s*(?:<li><strong>[^<>]+:</strong> [^<>]*</li>\s*)+</ul>', original))
+    blocks = list(re.finditer(r'<h4>Product information</h4>\s*<ul>\s*(?:<li>\s*<strong>[^<>]+:</strong>\s+[^<>]*</li>\s*)+</ul>', original))
     if len(blocks) != 1 or original.count('<h4>Product information</h4>') != 1:
         return body, None
     old = blocks[0].group()
