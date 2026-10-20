@@ -2,35 +2,35 @@
 title: "기관 · OpenAI"
 type: knowledge-graph
 status: generated-from-real-data
-updated_at: 2026-10-11T00:55:56.918506+00:00
+updated_at: 2026-10-20T13:10:06.322372+00:00
 tags: [org, real-data]
-record_count: 144
+record_count: 134
 ---
 
 # 기관 · OpenAI
 
-유형별: 논문 51건, 발표물 93건
+유형별: 논문 51건, 발표물 83건
 
-실제 수집 레코드 **144건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
+실제 수집 레코드 **134건**이 이 기관에 속합니다. 레코드 하나하나는 링크 대신 속성(source·topics·org·domain·url)으로 정리되어 있어 아래 표로 조회합니다.
 
 ### 주제별 건수
 
 | 항목 | 건수 |
 |---|---|
-| [[AI-에이전트]] | 144 |
-| [[LLM언어모델]] | 35 |
-| [[머신러닝-연구]] | 16 |
-| [[경영전략]] | 12 |
+| [[AI-에이전트]] | 134 |
+| [[LLM언어모델]] | 31 |
+| [[머신러닝-연구]] | 15 |
 | [[음성오디오]] | 10 |
-| [[보안프라이버시]] | 9 |
+| [[경영전략]] | 10 |
 | [[의료바이오]] | 7 |
+| [[보안프라이버시]] | 7 |
 | [[과학수학]] | 6 |
-| [[법률규제]] | 6 |
-| [[마케팅광고]] | 4 |
-| [[모델-라우팅MoE]] | 3 |
+| [[법률규제]] | 5 |
 | [[소셜콘텐츠]] | 3 |
+| [[마케팅광고]] | 3 |
 | [[인프라클라우드]] | 3 |
 | [[반도체하드웨어]] | 2 |
+| [[모델-라우팅MoE]] | 2 |
 | [[컴퓨터-비전]] | 2 |
 | [[뷰티스킨케어]] | 1 |
 | [[데이터분석]] | 1 |
@@ -50,7 +50,7 @@ record_count: 144
 - [[Record-2fc54b690d--Towards-safety-cases-for-frontier-AI-training]]
 - [[Record-a00fc889a2--The-Work-Now-Within-Reach]]
 - [[Record-51cfe3db04--The-full-stack-behind-abundant-intelligence]]
-- [[Record-b8087b88cb--The-eternal-complement]]
+- [[Record-7948c39493--Funding-grants-for-new-research-into-AI-and-teen-de]]
 
 ### 전체 레코드 (표)
 

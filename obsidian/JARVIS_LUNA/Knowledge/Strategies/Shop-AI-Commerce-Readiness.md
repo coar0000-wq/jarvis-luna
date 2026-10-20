@@ -6,7 +6,7 @@ tags: [shopify, shop, ai-shopping, reviews, evidence]
 ---
 # Shop and AI-shopping readiness
 
-Related: [[../Topics/Shopify-Commerce]]
+Related: [[Shopify-Commerce]]
 
 This is an authored strategy and verification protocol. It is not a finding about Shopify's proprietary ranking algorithm, a promise of top placement, evidence of customer demand, or product/legal clearance.
 
