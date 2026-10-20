@@ -390,17 +390,6 @@
       "delete_file": false
     },
     {
-      "path": "data/daiso_real/us_label_sync_report.json",
-      "base_sha256": "00412e1f031c539414e9954b3cbd5629e17f4cca99e13212d96a3c31f31e6eef",
-      "ids": [
-        "country_of_origin",
-        "net_contents"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/shopify_listing_copy.json",
       "base_sha256": "81dc8a414b18dff4029b85336a647f6eb022df5e2ed207fa991293a6366fc2f5",
       "replacement_sha256": "f96d4a9678412442c68c8c10b9c96ecd40d9be72042336f19dd5d39467ed85be",
@@ -571,6 +560,17 @@
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/gosi.json",
+      "base_sha256": "b5aefc11fc1888b6a3dcd0179f5b0f7e0cf62e4740705f68ea32c9f26d6c4292",
+      "replacement_sha256": "a520d14032e5ec6814bdfd0869d8711acfb0b7e2c8b93dd1ff71aa3857a30bc7",
+      "ids": [
+        "1072800"
+      ],
+      "reason": "Exact diagnostic replacement; immutable HEAD, prior and current gosi retained.",
+      "policy_ref": "scripts/gosi_observation_history.py",
       "delete_file": false
     }
   ]
