@@ -6,6 +6,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 import unittest
+from types import SimpleNamespace
 from unittest.mock import patch
 
 import obsidian_brain as brain
@@ -404,8 +405,12 @@ class NamespaceLeaseTests(unittest.TestCase):
             def wait(seconds):
                 self.assertFalse(payload.exists())
                 events.append('wait_without_write')
+            # Isolate this module's clock: patching time.sleep globally also
+            # counts subprocess.Popen's independent Git wait polling.
+            clock = SimpleNamespace(monotonic=brain.time.monotonic, sleep=brain.time.sleep)
             with patch.object(brain, '_policy_fingerprint', side_effect=transient), \
-                    patch.object(brain.time, 'sleep', side_effect=wait) as sleeps, \
+                    patch.object(brain, 'time', clock), \
+                    patch.object(clock, 'sleep', side_effect=wait) as sleeps, \
                     patch.object(brain, '_full_exclusion', wraps=brain._full_exclusion) as full:
                 brain.load_artifact(self.source, self.root)
                 self.assertGreaterEqual(full.call_count, 2)
@@ -413,6 +418,22 @@ class NamespaceLeaseTests(unittest.TestCase):
             self.assertTrue(payload.exists())
             self.assertIsNotNone(run.namespace_cache)
             self.assertEqual(events, ['lock_observed', 'wait_without_write'])
+
+    @unittest.skipUnless(os.name == 'posix', 'POSIX subprocess timeout polling')
+    def test_transient_lock_wait_count_excludes_subprocess_polling(self):
+        original = subprocess.Popen._try_wait
+        polled = set()
+
+        def busy_once(process, flags):
+            # Force the timeout-wait branch without relying on runner speed.
+            if flags == os.WNOHANG and process.pid not in polled:
+                polled.add(process.pid)
+                return 0, 0
+            return original(process, flags)
+
+        with patch.object(subprocess.Popen, '_try_wait', busy_once):
+            self.test_transient_lock_waits_then_full_checks_before_new_payload()
+        self.assertGreater(len(polled), 0)
 
     def test_git_read_checks_explicitly_disable_optional_refresh_locks(self):
         result = subprocess.CompletedProcess(['git'], 0, b'', b'')

@@ -68,10 +68,23 @@ def now():
 def load(path, default):
     if not path.exists():
         return default
-    try:
-        return json.loads(path.read_text(encoding='utf-8'))
-    except Exception:
-        return default
+    # A broken cumulative catalog must never be replaced by an empty one.
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
+def index_candidates(existing):
+    """Validate before probing so malformed or colliding rows cannot vanish."""
+    if not isinstance(existing, dict) or not isinstance(existing.get("candidates"), list):
+        raise ValueError("channel catalog must be an object with a candidates list")
+    by_url = {}
+    for row in existing["candidates"]:
+        if not isinstance(row, dict) or not isinstance(row.get("url"), str) or not row["url"].strip():
+            raise ValueError("channel candidate must be an object with a nonempty URL")
+        key = normalize_url(row["url"])
+        if key in by_url:
+            raise ValueError("channel catalog has colliding normalized URLs; reconcile without losing records")
+        by_url[key] = row
+    return by_url
 
 
 def save(path, obj):
@@ -104,12 +117,8 @@ def test_url(url):
 def main():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     existing = load(CATALOG, {"schema_version": 1, "candidates": []})
-    if not isinstance(existing, dict):
-        existing = {"schema_version": 1, "candidates": []}
-    rows = existing.get("candidates") if isinstance(existing.get("candidates"), list) else []
-    by_url = {normalize_url(str(x.get("url"))): x for x in rows if isinstance(x, dict) and x.get("url")}
+    by_url = index_candidates(existing)
 
-    results = []
     checked = []
     for seed in SEEDS:
         key = normalize_url(seed["url"])
@@ -122,6 +131,10 @@ def main():
 
     candidates = sorted(by_url.values(), key=lambda x: (int(x.get("priority") or 9), str(x.get("name") or "")))
     out = {
+        # This is a cumulative catalog, not a replaceable health report. Deep
+        # 39259066398 dropped catalog_reviewed_at here. Keep all review/extension
+        # metadata exactly and refresh only the fields this producer owns.
+        **existing,
         "schema_version": 1,
         "generated_at": now(),
         "discovery_mode": "seed_catalog_plus_health_probe",
