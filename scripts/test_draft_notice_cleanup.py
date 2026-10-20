@@ -1,6 +1,7 @@
 """Offline exact-source generated-block cleanup and minimal Shopify read tests."""
 import copy
 from html import escape
+import re
 import unittest
 from unittest.mock import Mock
 import draft_notice_enrichment as d
@@ -131,6 +132,101 @@ class CleanupTests(unittest.TestCase):
         self.assertNotIn('publishedOnPublication', query)
         self.assertNotIn('$pub', query)
         self.assertEqual(variables, {'id': self.entry['shopify_id']})
+
+
+class WhitespaceReadbackTests(unittest.TestCase):
+    def setUp(self):
+        self.f = CleanupTests()
+        self.f.setUp()
+
+    def reserved(self, cleanup=True):
+        f = self.f
+        expected = f.body
+        if cleanup:
+            expected, _ = d.cleanup_superseded_generated(f.entry, {}, expected, f.title)
+        expected += f.section
+        state = dict(state='reserved', before_description_html=f.body, before_sha256=d.digest(f.body),
+                     after_sha256=d.digest(expected), section=f.section, expected_title=f.title)
+        f.entry['notice_enrichment'] = state
+        f.product['descriptionHtml'] = re.sub(r'><', '>\n<', expected)
+        return expected, state
+
+    def test_future_write_accepts_only_structural_newlines_and_is_idempotent(self):
+        f = self.f
+        def normalized(_, html, title):
+            f.product.update(descriptionHtml=re.sub(r'><', '>\n<', html), title=title)
+        f.shop.update_draft_content.side_effect = normalized
+        self.assertEqual(f.run_enrich()[0]['status'], 'enriched_draft')
+        state = f.entry['notice_enrichment']
+        self.assertEqual(d.digest(state['expected_description_html']), state['after_sha256'])
+        self.assertEqual(state['observed_after_sha256'], d.digest(f.product['descriptionHtml']))
+        self.assertNotEqual(state['observed_after_sha256'], state['after_sha256'])
+        self.assertNotEqual(state['observed_section'], state['section'])
+        self.assertEqual(f.run_enrich()[0]['status'], 'unchanged')
+        f.shop.update_draft_content.assert_called_once()
+
+    def test_legacy_cleanup_reserved_rebuilds_authenticated_plan_without_write(self):
+        f = self.f
+        expected, state = self.reserved()
+        planned_section = state['section']
+        self.assertEqual(f.run_enrich()[0]['status'], 'reconciled')
+        self.assertEqual(state['state'], 'verified')
+        self.assertEqual(state['after_sha256'], d.digest(expected))
+        self.assertEqual(state['section'], planned_section)
+        self.assertEqual(state['before_description_html'], f.body)
+        self.assertEqual(state['expected_description_html'], expected)
+        f.shop.update_draft_content.assert_not_called()
+        f.shop.update_description.assert_not_called()
+        f.collect.assert_not_called()
+        self.assertEqual(f.run_enrich()[0]['status'], 'unchanged')
+        f.shop.update_draft_content.assert_not_called()
+
+    def test_legacy_append_reconstruction_and_bad_hash_fail_closed(self):
+        f = self.f
+        expected, state = self.reserved(cleanup=False)
+        self.assertEqual(d.expected_description(f.entry, state), expected)
+        state['after_sha256'] = '0' * 64
+        self.assertEqual(f.run_enrich()[0]['status'], 'prior_write_requires_reconciliation')
+        self.assertEqual(state['state'], 'reserved')
+        self.assertNotIn('observed_after_sha256', state)
+        f.shop.update_draft_content.assert_not_called()
+
+    def test_real_text_attribute_title_status_and_tag_changes_never_reconcile(self):
+        f = self.f
+        expected, state = self.reserved()
+        base = copy.deepcopy(f.product)
+        for changes in ({'descriptionHtml': base['descriptionHtml'].replace('40 mL', '41 mL')},
+                        {'descriptionHtml': base['descriptionHtml'].replace('data-owner="yes"', 'data-owner="no"')},
+                        {'title': 'Different title'}, {'status': 'ACTIVE'}, {'tags': ['daiso-pd-1069430']}):
+            with self.subTest(changes=changes):
+                product = dict(base, **changes)
+                self.assertFalse(d.observe_readback(f.entry, copy.deepcopy(state), product))
+        f.shop.update_draft_content.assert_not_called()
+
+    def test_unsupported_or_malformed_html_is_not_normalized(self):
+        for html in ('<pre>a>\n<b></b></pre>', '<script>x</script>', '<p>unclosed',
+                     '<p><strong>x</p></strong>', '<unknown>x</unknown>', '<p title=">\n<">x</p>',
+                     '<p>x</p><!--comment-->'):
+            with self.subTest(html=html):
+                self.assertIsNone(d.structural_html(html))
+        self.assertFalse(d.structurally_equal('<p>two words</p>', '<p>two  words</p>'))
+        self.assertFalse(d.structurally_equal('<p>text</p>', '<p >text</p>'))
+
+    def test_reconcile_reserved_first_then_second_target_within_limit(self):
+        f = self.f
+        self.reserved()
+        gid, title = d.TITLE_SCOPE['1069430']
+        entry2 = dict(pd_no='1069430', shopify_id=gid, status='DRAFT', name_kr='Body')
+        product2 = dict(id=gid, title=title, status='DRAFT', tags=['daiso-pd-1069430'], descriptionHtml='<p>Body</p>')
+        products = {f.product['id']: f.product, gid: product2}
+        f.registry['items'].insert(0, entry2)
+        f.shop.read_product.side_effect = lambda product_id: copy.deepcopy(products[product_id])
+        f.shop.update_description.side_effect = lambda product_id, html: products[product_id].update(descriptionHtml=html)
+        rows = f.run_enrich()
+        self.assertEqual([row['status'] for row in rows], ['reconciled', 'enriched_draft'])
+        f.shop.update_draft_content.assert_not_called()
+        f.shop.update_description.assert_called_once()
+        self.assertEqual(f.shop.update_description.call_args.args[0], gid)
 
 
 if __name__ == '__main__':

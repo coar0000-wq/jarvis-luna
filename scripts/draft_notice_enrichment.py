@@ -2,6 +2,7 @@
 import copy
 import hashlib
 from html import escape
+from html.parser import HTMLParser
 import json
 import re
 
@@ -42,6 +43,105 @@ def source_titles(root, registry):
 
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
+
+
+class _StructuralHTML(HTMLParser):
+    """Validation only; never serialize, decode, or normalize attributes/text."""
+    allowed = {'p', 'strong', 'small', 'div', 'h4', 'ul', 'li', 'a', 'img', 'br', 'span', 'em', 'b'}
+    void = {'img', 'br'}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=False)
+        self.stack = []
+        self.valid = True
+
+    def handle_starttag(self, tag, attrs):
+        raw = self.get_starttag_text()
+        if tag not in self.allowed or '<' in raw[1:-1] or '>' in raw[1:-1]:
+            self.valid = False
+        if len({key for key, _ in attrs}) != len(attrs):
+            self.valid = False
+        if tag not in self.void:
+            self.stack.append(tag)
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        if tag not in self.void:
+            self.handle_endtag(tag)
+
+    def handle_endtag(self, tag):
+        if tag not in self.allowed or tag in self.void or not self.stack or self.stack.pop() != tag:
+            self.valid = False
+
+    def handle_data(self, data):
+        if '<' in data or '>' in data:
+            self.valid = False
+
+    def handle_comment(self, data):
+        self.valid = False
+
+    def handle_decl(self, decl):
+        self.valid = False
+
+    def handle_pi(self, data):
+        self.valid = False
+
+    def unknown_decl(self, data):
+        self.valid = False
+
+
+def structural_html(html):
+    if not isinstance(html, str):
+        return None
+    validator = _StructuralHTML()
+    try:
+        validator.feed(html)
+        validator.close()
+    except Exception:
+        return None
+    if not validator.valid or validator.stack:
+        return None
+    return re.sub(r'>\s+<', '><', html)
+
+
+def structurally_equal(left, right):
+    normalized = structural_html(left)
+    return normalized is not None and normalized == structural_html(right)
+
+
+def expected_description(entry, state):
+    """Authenticate a complete plan against the durable pre-write SHA first."""
+    candidates = []
+    explicit = state.get('expected_description_html')
+    if isinstance(explicit, str):
+        candidates.append(explicit)
+    before = state.get('before_description_html')
+    section = state.get('section') or ''
+    if isinstance(before, str) and digest(before) == state.get('before_sha256'):
+        candidates.append(before + section)
+        cleaned, migration = cleanup_superseded_generated(entry, {}, before, state.get('expected_title'))
+        if migration:
+            candidates.append(cleaned + section)
+    return next((html for html in candidates if digest(html) == state.get('after_sha256')), None)
+
+
+def observe_readback(entry, state, product):
+    expected = expected_description(entry, state)
+    actual = product.get('descriptionHtml') or ''
+    title = state.get('expected_title') or state.get('before_title')
+    if (not safe_product(product, entry) or (title is not None and product.get('title') != title)
+            or expected is None or not structurally_equal(expected, actual)):
+        return False
+    planned = state.get('section')
+    if planned:
+        pattern = r'<div data-jarvis-notice="' + re.escape(str(entry['pd_no'])) + r'">[\s\S]*?</div>'
+        matches = list(re.finditer(pattern, actual))
+        if len(matches) != 1 or not structurally_equal(planned, matches[0].group()):
+            return False
+        state['observed_section'] = matches[0].group()
+    state['expected_description_html'] = expected
+    state['observed_after_sha256'] = digest(actual)
+    return True
 
 
 def candidates(registry):
@@ -141,10 +241,11 @@ def enrich(shop, registry, collect, label, save, limit=2, pd_nos=None, title_ove
             body = before.get('descriptionHtml') or ''
             if state.get('state') == 'reserved':
                 # Never repeat an uncertain mutation. Readback is the only reconciliation.
-                if digest(body) == state['after_sha256'] and (not state.get('expected_title') or before.get('title') == state['expected_title']):
+                if observe_readback(entry, state, before):
                     state['state'] = 'verified'
                     entry['notice_enrichment'] = state
                     record_verified(entry, before)
+                    registry['notice_enrichment_cursor'] = entry['shopify_id']
                     save(registry)
                     row['status'] = 'reconciled'
                     out.append(row)
@@ -166,7 +267,7 @@ def enrich(shop, registry, collect, label, save, limit=2, pd_nos=None, title_ove
                 row['status'] = 'source_or_label_review_required'
             else:
                 section = ('<div data-jarvis-notice="' + entry['pd_no'] + '">' + prepared['html'] + '</div>') if label_ready else state.get('section')
-                old = state.get('section')
+                old = state.get('observed_section') or state.get('section')
                 if not old and 'data-jarvis-notice=' in body:
                     raise ValueError('unowned_managed_section')
                 cleaned, migration = cleanup_superseded_generated(entry, state, body, title) if label_ready else (body, None)
@@ -177,7 +278,7 @@ def enrich(shop, registry, collect, label, save, limit=2, pd_nos=None, title_ove
                     # Do not add a second conflicting table if cleanup evidence
                     # is missing or an owner changed the previously verified HTML.
                     row.update(status='legacy_cleanup_review_required', stop_further_writes=True)
-                elif not migration and ((section == old and section and body.count(section) == 1) or not label_ready) and (not title or title == before.get('title')):
+                elif not migration and ((section and old and structurally_equal(section, old) and body.count(old) == 1) or not label_ready) and (not title or title == before.get('title')):
                     row['status'] = 'unchanged'
                 elif old and body.count(old) != 1:
                     row['status'] = 'managed_section_changed_review_required'
@@ -189,7 +290,8 @@ def enrich(shop, registry, collect, label, save, limit=2, pd_nos=None, title_ove
                     if state:
                         entry.setdefault('notice_enrichment_history', []).append(copy.deepcopy(state))
                     entry['notice_enrichment'] = {'state': 'reserved', 'before_description_html': body, 'before_sha256': digest(body),
-                        'after_sha256': digest(after), 'section': section, 'before_title': before.get('title'),
+                        'after_sha256': digest(after), 'expected_description_html': after,
+                        'section': section, 'before_title': before.get('title'),
                         'expected_title': title, 'title_provenance': override if title else {},
                         'cleanup_migration': migration}
                     save(registry)  # Durable reservation before any remote write.
@@ -198,7 +300,7 @@ def enrich(shop, registry, collect, label, save, limit=2, pd_nos=None, title_ove
                     else:
                         shop.update_description(entry['shopify_id'], after)
                     verified = shop.read_product(entry['shopify_id'])
-                    if not safe_product(verified, entry) or verified.get('descriptionHtml') != after or (title and verified.get('title') != title):
+                    if not observe_readback(entry, entry['notice_enrichment'], verified):
                         raise ValueError('write_unverified')
                     entry['notice_enrichment']['state'] = 'verified'
                     record_verified(entry, verified)
