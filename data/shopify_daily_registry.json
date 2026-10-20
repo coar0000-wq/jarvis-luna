@@ -1997,7 +1997,40 @@
         "shop_com_match_missing: 검증된 동일 상품 비교 없음. 가격은 참고 가격 근거일 뿐 시장 최저가가 아니다"
       ],
       "shopify_id": "gid://shopify/Product/9652673216769",
-      "handle": "46cm-체취솔루션-데오드란트-바디워시-리프레싱-허벌향-225-ml"
+      "handle": "46cm-체취솔루션-데오드란트-바디워시-리프레싱-허벌향-225-ml",
+      "notice_collection": {
+        "missing": [],
+        "source_complete": true,
+        "evidence": {},
+        "label_reasons": [
+          "us_regulatory_review_functional_or_drug_like"
+        ]
+      },
+      "notice_enrichment": {
+        "state": "reserved",
+        "before_description_html": "<p>46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml from Daiso Korea's daily beauty picks.</p><p><strong>Category:</strong> Body Care</p><p><strong>Origin:</strong> Made for the Korean market and sourced from Daiso Mall (Korea).</p><h4>Product information</h4><ul>\n<li>\n<strong>Net contents:</strong> 225mL (7.61 fl oz)</li>\n<li>\n<strong>Manufacturer / Distributor (Korea):</strong> (주)LG생활건강</li>\n<li>\n<strong>Country of origin:</strong> Korea</li>\n<li>\n<strong>Cautions and directions:</strong> Please refer to the product packaging.</li>\n</ul><p><small>Source: Daiso Mall item 1069430.</small></p>",
+        "before_sha256": "7ae2ea877722af0654c800fc86bc75f8057555fb8ad17bfbd4319744b13e8221",
+        "after_sha256": "a59393a0e2674aafe038fcf594daa4a85367635b1d9b2b34316b37c4a7b9d44a",
+        "section": "<div data-jarvis-notice=\"1069430\"><h4>Product information</h4><ul><li><strong>Net contents:</strong> 225 mL (7.61 fl oz)</li><li><strong>Ingredients (INCI):</strong> Water, Sodium C14-16 Olefin Sulfonate, Glycerin, Acrylates Copolymer, Coco-Glucoside, Fragrance (1.21%)|Perfume|Parfum, Citric Acid, Disodium Cocoyl Glutamate, Lauryl Hydroxysultaine, Hydrated Silica, Potassium Hydroxide, Lauramidopropyl Betaine, Alcohol Denat., Hexylene Glycol, Salicylic Acid, Sodium Benzoate, Caprylyl Glycol, Sodium Chloride, Sodium Cocoyl Glutamate, Gluconolactone, Tetrasodium EDTA, Propylene Glycol, Zinc Ricinoleate, Juglans Regia (Walnut) Shell Powder, Arginine, Caffeine, Mandelic Acid, Panthenol, Serine, Tromethamine, Zinc PCA, Hydroxypropyl Cyclodextrin, Volcanic Ash, Water, Butylene Glycol, Silica, Sodium Phosphate, 1,2-Hexanediol, Bakuchiol, Eucalyptus Globulus Leaf Extract, Hydrolyzed Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hydroxypropyltrimonium Hyaluronate, Magnolia Officinalis Bark Extract, Protease, Silica Dimethyl Silylate, Mentha Arvensis Leaf Oil, Cyclodextrin, Mentha Rotundifolia Leaf Extract, Rosa Canina Fruit Extract, Mentha Piperita (Peppermint) Oil, Tocopherol, Camellia Sinensis Leaf Extract, Pentylene Glycol, Helianthus Annuus (Sunflower) Seed Oil, Ethylhexylglycerin, Sodium Hyaluronate, Sodium Hyaluronate Crosspolymer, Soluble Proteoglycan, Limonene, Hexyl Cinnamal, Hydroxycitronellal, Benzyl Salicylate</li><li><strong>Manufacturer / Distributor (Korea):</strong> (주)LG생활건강</li><li><strong>Country of origin:</strong> Korea</li><li><strong>Cautions and directions:</strong> Please refer to the product packaging.</li></ul></div>",
+        "before_title": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+        "expected_title": "46cm Body Wash Refreshing Herbal 225 mL",
+        "title_provenance": {
+          "title": "46cm Body Wash Refreshing Herbal 225 mL",
+          "shopify_id": "gid://shopify/Product/9652673216769",
+          "source_sha256": "236fc86f0e7f6459e8510bb4de21636e5f1a15618dd81387c06cc522ecb7f71c",
+          "source_path": "data/manual/gosi_source_recovery/2026-10-20/source_recovery.json",
+          "source_image": "https://cdn.daisomall.co.kr/file/resize/PD/20250805/description/850/ZX99Pxb5xlYvxjx2QBLk1069430_01_01ZX99Pxb5xlYvxjx2QBLk.jpg",
+          "scope": "draft_source_name_only_not_safety_or_sale_approval"
+        },
+        "cleanup_migration": {
+          "version": 1,
+          "legacy_block_sha256": "18ff33ead34fcd4d40737eee94a1a00fe4909f09bbcad91b4a127461d43687f2",
+          "before_sha256": "7ae2ea877722af0654c800fc86bc75f8057555fb8ad17bfbd4319744b13e8221",
+          "after_sha256": "0e38e7a631db709992211852b63e7a2c21f4a05a00eb9e20d80ea5cfa98a9038",
+          "intro_before": "<p>46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml from Daiso Korea's daily beauty picks.</p>",
+          "intro_after": "<p>46cm Body Wash Refreshing Herbal 225 mL from Daiso Korea's daily beauty picks.</p>"
+        }
+      }
     }
   ],
   "body_shower_fallback_queue": {
