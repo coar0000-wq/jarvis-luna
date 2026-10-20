@@ -2,17 +2,17 @@
   "source": "sokoglam.com 컬렉션 공개 상품 JSON (실수집)",
   "generator": "scripts/collect_sokoglam.py",
   "robots_note": "User-agent: * Allow: / · /cart /checkout 만 차단 (2026-09-28 확인)",
-  "collected_at": "2026-10-19T23:56:42.239771+00:00",
+  "collected_at": "2026-10-20T23:23:12.058519+00:00",
   "is_stale": false,
-  "count": 234,
+  "count": 236,
   "by_collection": {
     "Best Sellers": 82,
-    "Skincare": 152
+    "Skincare": 154
   },
   "errors": [],
   "rank_note": "순위는 컬렉션 표시 순서다. 판매량 수치가 아니다.",
   "price_stats": {
-    "n": 234,
+    "n": 236,
     "min": 3.0,
     "median": 27.0,
     "max": 200.0
@@ -1927,6 +1927,28 @@
         "Skin_Type::Combination",
         "Skin_Type::Dry",
         "Skin_Type::Normal"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Blank Slate Gentle Gel Cleanser",
+      "brand": "Chemist Confessions",
+      "price_usd": 18.0,
+      "category": "Water Cleanser",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/chemist-confession-blank-slate-gentle-gel-cleanser",
+      "tags": [
+        "CHEMIST CONFESSIONS",
+        "double cleanse",
+        "double cleansing",
+        "new",
+        "Product_type::Water Cleanser",
+        "Skin_Concern::Oil Control/Pores",
+        "Skin_Type::Combination",
+        "Skin_Type::Dry",
+        "Skin_Type::Normal",
+        "Skin_Type::Oily",
+        "water cleanser"
       ]
     },
     {
@@ -5304,6 +5326,29 @@
         "Free_Of::Essential_Oil",
         "Free_Of::Mineral_Oil",
         "Free_of::Parabens"
+      ]
+    },
+    {
+      "rank": 250,
+      "name": "Vita Essential Mask",
+      "brand": "MEDIHEAL",
+      "price_usd": 8.0,
+      "category": "Sheet Mask",
+      "collection": "Skincare",
+      "url": "https://sokoglam.com/products/mediheal-vita-essential-mask",
+      "tags": [
+        "brightening",
+        "j",
+        "J_affordable",
+        "J_hyperpigmentation",
+        "J_normal",
+        "MEDIHEAL",
+        "Niacinamide",
+        "Product_Type::Sheet_Masks",
+        "sheet mask",
+        "sheet masks",
+        "Skin_Concern::Dryness/Hydration",
+        "Skin_Concern::Dryness_/_Hydration"
       ]
     }
   ]

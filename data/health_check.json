@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:15:52.427301+00:00",
+  "generated_at": "2026-10-20T23:23:53.690760+00:00",
   "overall_status": "warning",
   "status_legend": {
     "success": "정상",
@@ -25,17 +25,17 @@
     "freshness_summary": {
       "product_master": "just now",
       "legal_full": "just now",
-      "shopify_sync": "8.7 days ago",
+      "shopify_sync": "8.8 days ago",
       "pricing": "just now",
       "marketing": "just now",
-      "daiso": "21.1 hours ago",
+      "daiso": "23.3 hours ago",
       "daiso_candidate_discovery": "unknown",
       "daiso_operating_capture": "unknown",
       "daiso_shortlist_price": "unknown",
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
-      "deep_heartbeat": "17.4 days ago",
-      "actions_monitor": "6.6 hours ago",
+      "deep_heartbeat": "17.5 days ago",
+      "actions_monitor": "8.7 hours ago",
       "gosi": "18.2 days ago",
       "product_discovery": "just now"
     }
@@ -72,7 +72,7 @@
       "status": "success",
       "reason": "shortlist proposed 3단위 · initial · create 3 / update 0 / 변경없음 0",
       "is_failure": false,
-      "freshness": "8.7 days ago"
+      "freshness": "8.8 days ago"
     },
     {
       "team": "pricing",
@@ -99,9 +99,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 21.126,
-      "attempt_age_hours": 21.126,
-      "success_age_hours": 524.448,
+      "candidate_success_age_hours": 23.26,
+      "attempt_age_hours": 23.26,
+      "success_age_hours": 526.582,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -1761,16 +1761,16 @@
           "candidates_new": 91,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-          "candidate_success_age_hours": 21.126,
-          "attempt_age_hours": 21.126,
-          "success_age_hours": 524.448,
+          "candidate_success_age_hours": 23.26,
+          "attempt_age_hours": 23.26,
+          "success_age_hours": 526.582,
           "data_stale": true,
           "attempt_stale": false,
           "is_no_change": false,
           "is_failure": false
         }
       },
-      "freshness": "21.1 hours ago"
+      "freshness": "23.3 hours ago"
     },
     {
       "team": "daiso_candidate_discovery",
@@ -1820,14 +1820,14 @@
     {
       "team": "deep_heartbeat",
       "status": "warning",
-      "reason": "SafeAutoFix heartbeat 지연 (417.3시간)",
+      "reason": "SafeAutoFix heartbeat 지연 (419.5시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 417.348,
+      "age_hours": 419.482,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
       "delayed": true,
-      "freshness": "17.4 days ago"
+      "freshness": "17.5 days ago"
     },
     {
       "team": "actions_monitor",
@@ -1835,12 +1835,12 @@
       "reason": "GitHub Actions 상태 조회 시각 미확인 또는 4.5시간 경과",
       "is_failure": false,
       "observed_at": "2026-10-20T14:39:48.529398Z",
-      "freshness": "6.6 hours ago"
+      "freshness": "8.7 hours ago"
     },
     {
       "team": "gosi",
       "status": "warning",
-      "reason": "435.6h 전 산출물 갱신 · 실행 결과는 별도 확인",
+      "reason": "437.8h 전 산출물 갱신 · 실행 결과는 별도 확인",
       "is_failure": false,
       "is_no_change": false,
       "freshness": "18.2 days ago"
@@ -3508,9 +3508,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 21.126,
-      "attempt_age_hours": 21.126,
-      "success_age_hours": 524.448,
+      "candidate_success_age_hours": 23.26,
+      "attempt_age_hours": 23.26,
+      "success_age_hours": 526.582,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
