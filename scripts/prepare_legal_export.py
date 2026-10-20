@@ -34,13 +34,12 @@ HS 코드 출처
 from __future__ import annotations
 
 import json
-import re
+from copy import deepcopy
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -96,13 +95,6 @@ STANDARD_WARNINGS = {
 AHA_HINT = ("aha", "글라이콜릭", "글리콜산", "락틱", "젖산", "살리실", "bha", "pha")
 
 
-def load(p: Path, default=None):
-    try:
-        return json.loads(p.read_text(encoding="utf-8-sig"))
-    except (OSError, json.JSONDecodeError, UnicodeDecodeError):
-        return default
-
-
 def hts_lookup(keyword: str, cache: dict) -> list[dict]:
     """공식 HTS 검색. 같은 검색어는 한 번만 부른다."""
     if keyword in cache:
@@ -125,14 +117,15 @@ def hts_lookup(keyword: str, cache: dict) -> list[dict]:
     return keep
 
 
-def pick_hts(name: str, bucket: str, cache: dict) -> dict:
+def pick_hts(name: str, bucket: str, cache: dict, lookup=None) -> dict:
+    lookup = lookup or hts_lookup
     low = (name or "").lower()
     for kws, code, label in NAME_HTS:
         if any(k in low for k in kws):
             return {"code": code, "basis": f"이름의 '{next(k for k in kws if k in low)}'",
-                    "label": label, "official": hts_lookup(code, cache)}
+                    "label": label, "official": lookup(code, cache)}
     code, kw = BUCKET_HTS.get(bucket, ("3304.99", "beauty or make-up preparations"))
-    rows = hts_lookup(kw, cache)
+    rows = lookup(kw, cache)
     desc = next((r["description"] for r in rows
                  if str(r["htsno"]).rstrip(".0") == code.rstrip(".0")), "")
     return {"code": code, "basis": f"버킷 '{bucket}'", "label": desc, "official": rows[:6]}
@@ -166,16 +159,24 @@ def build_label(name_en: str, gosi: dict, hs: dict) -> dict:
             "inci_status": "korean_only" if vals["ingredients"] else "no_ingredients"}
 
 
-def main() -> int:
-    legal = load(LEGAL) or {}
-    gosi = (load(GOSI) or {}).get("items") or {}
-    score = load(SCORE) or {}
-    items = legal.get("items") or {}
-    by_no = {str(r.get("pd_no")): r for r in (score.get("all_scored") or [])}
-    # 라벨의 '제품 정체 표시' 는 영문 상품명이다. 리스팅팀이 이미 만들어
-    # 놨는데 법률팀이 빈칸으로 두고 사람을 기다리고 있었다. 연결한다.
-    copy_by_no = {str(i.get("pd_no")): (i.get("copy") or {})
-                  for i in ((load(COPY) or {}).get("items") or [])}
+def build_report(sources: dict, generated_at: str, resolver=None, observations=None) -> tuple[dict, dict]:
+    """Pure projection except for the explicitly supplied HTS resolver.
+
+    Sources are copied so caller-owned evidence and legal decisions stay intact.
+    """
+    legal = deepcopy(sources["data/legal_products.json"])
+    gosi = sources["data/gosi.json"]["items"]
+    score = sources["data/daiso_real/shopify_demand_score.json"]
+    items = legal["items"]
+    by_no = {str(r["pd_no"]): r for r in score["all_scored"]}
+    copy_by_no = {str(i["pd_no"]): (i.get("copy") or {})
+                  for i in sources["data/shopify_listing_copy.json"]["items"]}
+    def lookup(keyword, cache):
+        rows = hts_lookup(keyword, cache)
+        if observations is not None:
+            observations[keyword] = deepcopy(rows)
+        return rows
+    resolver = resolver or (lambda name, bucket, cache: pick_hts(name, bucket, cache, lookup=lookup))
 
     cache: dict = {}
     rows, filled = [], 0
@@ -184,7 +185,7 @@ def main() -> int:
         g = gosi.get(str(pd_no)) or {}
         name = li.get("name") or s.get("name") or ""
         bucket = s.get("bucket") or ""
-        hs = pick_hts(name, bucket, cache)
+        hs = resolver(name, bucket, cache)
         cp = copy_by_no.get(str(pd_no)) or {}
         label = build_label(cp.get("title") or "", g, hs)
 
@@ -217,7 +218,7 @@ def main() -> int:
     need_person = sorted({m for r in rows for m in r["label"]["missing"]})
 
     payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": generated_at,
         "generator": "scripts/prepare_legal_export.py",
         "왜": ("법률팀이 '검토 0건, 5항목 대기' 였는데 그 다섯 중 넷은 이미 저장소에 "
               "있는 값으로 채울 수 있었다. 먼저 채우고 사람은 확인만 한다."),
@@ -230,21 +231,26 @@ def main() -> int:
         "사람이_채워야_하는_칸": need_person,
         "items": rows,
     }
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    for target, body in ((OUT, json.dumps(payload, ensure_ascii=False, indent=2) + "\n"),
-                         (LEGAL, json.dumps(legal, ensure_ascii=False, indent=2) + "\n")):
-        for _ in range(4):
-            target.write_text(body, encoding="utf-8")
-            try:
-                json.loads(target.read_text(encoding="utf-8-sig"))
-                break
-            except (OSError, json.JSONDecodeError, UnicodeDecodeError):
-                time.sleep(0.5)
-        else:
-            print(f"기록 검증 실패 {target.name}", file=sys.stderr)
-            return 1
+    return payload, legal
 
-    print(f"수출 준비 {len(rows)}건 · HS 코드 이번에 {filled}건 채움")
+
+def main() -> int:
+    # Deep 39461469011 exposed a real scope transition (8 -> 7), not an
+    # authorization to erase export history. Retain exact reports and inputs
+    # before replacement; invalid/missing inputs must never become an empty one.
+    if __package__ in (None, ""):
+        sys.path.insert(0, str(ROOT))
+    from scripts.legal_export_history import publish_export
+    try:
+        payload = publish_export(ROOT, build_report)
+    except (ValueError, OSError, KeyError, TypeError) as error:
+        print(f"수출 준비 보존 실패: {type(error).__name__}", file=sys.stderr)
+        return 1
+    rows, filled = payload["items"], payload["hs_filled_this_run"]
+    done = [r for r in rows if not r["label"]["missing"]]
+    need_person = payload["사람이_채워야_하는_칸"]
+
+    print(f"수출 준비 {len(rows)}건 · 보존된 생성 회차 HS 코드 보완 {filled}건")
     print(f"라벨 6항목 모두 채워진 상품 {len(done)}/{len(rows)}")
     if need_person:
         print("사람이 채워야 하는 칸:", ", ".join(need_person))
