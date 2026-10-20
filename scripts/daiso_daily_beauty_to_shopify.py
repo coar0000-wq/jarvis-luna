@@ -905,12 +905,11 @@ LOCALIZE_DETAIL_IMAGES = (os.environ.get("LOCALIZE_DETAIL_IMAGES", "0").strip().
 
 
 def localized_images(p, shop, title):
-    """1084687 수작업 방식(사용자 지정 기본 방식)으로 상세 이미지를 영문 패널로 만든다.
+    """상세 이미지 영문 변환은 검토용 준비만 한다. Shopify 업로드는 하지 않는다.
 
-    2026-10-17: 사용자가 Shopify 9590780723457 을 이미지 등록 기본 방식으로 지정했는데
-    일일 등록은 검수 허용 목록 썸네일만 올렸고(허용 목록은 1067498 하나) 나머지는
-    이미지 0장이었다. 상세 이미지 영문화(scripts/daiso/localize_detail_images.py)를
-    먼저 시도하고, 실패하면 아래 허용 목록 경로로 돌아간다. 실패 사유는 매니페스트에 남는다.
+    변환 성공과 갤러리 검토를 분리한다. 실제 검토 자산 추가는 gallery_review의
+    현재 SKU·원본/출력 바이트·역할·QA·권리·실물 라벨 근거 경로가 담당한다.
+    이 함수의 status=ok나 임의의 준비/완료 플래그는 그 경로의 승인이 아니다.
     """
     if not LOCALIZE_DETAIL_IMAGES:
         return None
@@ -923,30 +922,26 @@ def localized_images(p, shop, title):
     except Exception as exc:  # noqa: BLE001  영문화가 어떻게 실패해도 등록 흐름은 계속한다 (초안으로 남는다)
         log(f"  localize failed: {type(exc).__name__}: {exc}")
         return {"status": "failed", "reasons": [f"localize_exception:{type(exc).__name__}"], "outputs": []}
+    # Conversion success is not a reviewed gallery or permission to upload.
+    # Reviewed additions have a separate exact-byte path through gallery_review
+    # and backfill_draft_images; never promote converter flags into that path.
+    man = copy.deepcopy(man)
+    for key in ("_files", "_alts", "_resource_urls", "_output_sha256s"):
+        man.pop(key, None)
+    man.update(gallery_status="review_required", gallery_complete=False,
+               upload_allowed=False,
+               gallery_review_reasons=["localized_conversion_not_upload_authorization"])
     if not DRY_RUN:
         ldi.write_manifest(man)
-    log(f"  localize: {man['status']} {man.get('summary')} {man.get('reasons')}")
-    if man["status"] != "ok":
-        return man
-    files, alts, resource_urls = [], [], []
-    for o in man["outputs"]:
-        path = out_dir / o["file"]
-        data = path.read_bytes()
-        if hashlib.sha256(data).hexdigest() != o["sha256"]:
-            raise RuntimeError(f"localized output changed after QA: {o['file']}")
-        files.append(str(path))
-        alts.append(o["alt"])
-        if shop is not None and not DRY_RUN:
-            resource_urls.append(shop.upload_jpeg(data, o["file"]))
-    man["_files"], man["_alts"], man["_resource_urls"] = files, alts, resource_urls
-    man["_output_sha256s"] = [o["sha256"] for o in man["outputs"]]
+    log(f"  localize: {man['status']} {man.get('summary')} {man.get('reasons')}; upload held for gallery review")
     return man
 
 
 def prepare_images(p, shop, title=None):
-    """상세 이미지 영문화(기본)를 먼저 하고, 그다음 제품 전용 검수 허용 목록 이미지를 붙인다.
+    """검수 허용 목록 이미지만 등록 후보로 쓰고, 영문화는 별도 검토용으로 준비한다.
 
-    영문 패널이 하나도 없으면 예전처럼 허용 목록 이미지만 쓴다.
+    변환 status=ok는 업로드/대표 배치 권한이 아니다. 검토된 갤러리 추가는
+    gallery_review의 바이트·SKU·권리·라벨·QA 결합 경로에서 별도로 처리한다.
 
     다이소 상품 이미지 중 제품 전용으로 검수 기록이 있는 허용 목록(config/daiso_commerce_strategy.json) 항목만 쓴다.
     검수 주체(사람/자동 시각 검사)는 reviewed_by 에 그대로 남는다. 여기서 사람의 승인을 주장하지 않는다.
@@ -1000,12 +995,13 @@ def prepare_images(p, shop, title=None):
                         "translator": loc.get("translator"),
                         "gallery_complete": False, "gallery_status": "review_required",
                         "manifest": f"data/image_localization/{p['pdNo']}.json"}
+        localization["upload_allowed"] = False
+        localization["gallery_review_reasons"] = ["localized_conversion_not_upload_authorization"]
         if loc.get("status") == "ok":
-            # 영문 패널을 앞에, 검수 허용 목록 제품 사진을 뒤에 둔다 (수작업은 01 이 대표 제품 패널이었다).
-            source_urls = loc["_files"] + source_urls
-            resource_urls = loc["_resource_urls"] + resource_urls
-            output_hashes = loc.get("_output_sha256s", []) + output_hashes
-            alts = loc["_alts"] + alts
+            # Do not merge even if an untrusted converter returns forged internal
+            # URLs, prepared/gallery_complete flags, or prior upload identifiers.
+            dropped.append({"url": DAISO_ITEM + str(p["pdNo"]),
+                            "reason": "detail_localization_requires_gallery_review"})
         else:
             dropped.append({"url": DAISO_ITEM + str(p["pdNo"]), "reason": "detail_localization_failed:" +
                             ",".join(loc.get("reasons") or [])})
