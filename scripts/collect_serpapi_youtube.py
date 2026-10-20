@@ -22,6 +22,7 @@
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -31,6 +32,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from collections import Counter
+from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -148,9 +150,10 @@ def call(params: dict, ledger: dict) -> tuple[dict | None, str]:
         d = json.loads(raw.decode("utf-8"))
     except (urllib.error.URLError, urllib.error.HTTPError,
             json.JSONDecodeError, OSError) as exc:
-        return None, f"{type(exc).__name__}: {exc}"[:120]   # 실패는 차감하지 않는다
+        code = exc.code if isinstance(exc, urllib.error.HTTPError) else None
+        return None, f"{type(exc).__name__}: HTTP {code}" if code else type(exc).__name__
     if d.get("error"):
-        return None, str(d["error"])[:120]
+        return None, "SerpApi response error"  # 응답·요청 URL에 키가 들어갈 수 있다
     cached = str((d.get("search_metadata") or {}).get("status", "")).lower() == "cached"
     if not cached:
         ledger["used"] += 1
@@ -177,24 +180,54 @@ def to_int(v) -> int | None:
     return int(n * {"k": 1e3, "m": 1e6, "b": 1e9}.get((m.group(2) or "").lower(), 1))
 
 
+def query_history(previous):
+    """Append the exact prior result once; the current result remains separate."""
+    history = deepcopy(previous.get("query_history") or [])
+    snapshot = {k: deepcopy(v) for k, v in previous.items() if k != "query_history"}
+    if snapshot:
+        encoded = json.dumps(snapshot, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+        identity = hashlib.sha256(encoded.encode("utf-8")).hexdigest()
+        if not any(row.get("id") == identity for row in history):
+            history.append({"id": identity, "snapshot": snapshot})
+    return history
+
+
+def merge_result(previous, result):
+    """queries is a persistent catalog, not this run's rotating selection.
+
+    calls keeps each query's latest known outcome and original clock. 'current'
+    identifies the selected queries; history preserves all previous outcomes.
+    Numeric maps retain known dimensions with zero when absent this run.
+    """
+    payload = {**previous, **result}
+    payload["query_history"] = query_history(previous)
+    payload["queries"] = list(dict.fromkeys([*(previous.get("queries") or []),
+                                            *DEMAND_QUERIES, *MARKETING_QUERIES, *QUERIES]))
+    calls = {row["query"]: {**row, "current": False,
+                          "attempted_at": row.get("attempted_at") or previous.get("generated_at")}
+             for row in previous.get("calls") or [] if row.get("query")}
+    for row in result["calls"]:
+        calls[row["query"]] = {**calls.get(row["query"], {}), **row, "current": True,
+                               "attempted_at": result["generated_at"]}
+    payload["calls"] = list(calls.values())
+    for field in ("bucket_mentions", "bucket_total_views", "ingredient_mentions"):
+        payload[field] = {**{k: 0 for k in previous.get(field) or {}}, **result[field]}
+    return payload
+
+
 def main() -> int:
     key = (os.environ.get("SERPAPI_KEY") or "").strip()
+    # A corrupt last-good snapshot is a blocker, never an empty baseline.
+    previous = json.loads(OUT.read_text(encoding="utf-8-sig")) if OUT.exists() else {}
+    if not isinstance(previous, dict):
+        raise ValueError("YouTube snapshot must be an object")
     ledger = read_ledger()
-    if not key:
-        payload = {"generated_at": datetime.now(timezone.utc).isoformat(),
-                   "status": "no_key",
-                   "reason": "SERPAPI_KEY 가 없다. GitHub Secrets 에 넣어야 한다.",
-                   "videos": []}
-        OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-                       encoding="utf-8")
-        print("SERPAPI_KEY 없음 - 건너뜀")
-        return 0
-
     videos, notes = [], []
     seen = set()
     for q in QUERIES:
-        d, note = call({"engine": "youtube", "search_query": q,
-                        "gl": "us", "hl": "en", "api_key": key}, ledger)
+        d, note = (call({"engine": "youtube", "search_query": q,
+                         "gl": "us", "hl": "en", "api_key": key}, ledger)
+                   if key else (None, "SERPAPI_KEY missing; no request made"))
         notes.append({"query": q, "note": note})
         if d is None:
             continue
@@ -229,64 +262,47 @@ def main() -> int:
         for ing in INGREDIENTS:
             if ing in blob:
                 ings[ing] += 1
-
-    top = sorted((v for v in videos if v.get("views")),
-                 key=lambda x: -x["views"])[:20]
-
-    payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+    top = sorted((v for v in videos if v.get("views")), key=lambda x: -x["views"])[:20]
+    succeeded = sum(n["note"] in ("ok", "cached") for n in notes)
+    failed = len(notes) - succeeded
+    attempted_at = datetime.now(timezone.utc).isoformat()
+    payload = merge_result(previous, {
+        "generated_at": attempted_at,
         "generator": "scripts/collect_serpapi_youtube.py",
         "출처": "SerpApi youtube 엔진 (그들이 가져온 결과를 API 로 받는다)",
         "왜_serpapi": ("youtube.com/robots.txt 가 /feeds/videos.xml 을 Disallow 해서 "
                       "직접 수집을 중단했다. SerpApi 는 문서화된 API 를 부르는 것이라 "
                       "우리가 막힌 경로를 치지 않는다."),
-        "예산": {"youtube_cap": ledger["youtube_cap"],
-               "youtube_used": ledger["by_purpose"]["youtube"],
-               "전체_used": ledger["used"],
+        "예산": {**(previous.get("예산") or {}), "youtube_cap": ledger["youtube_cap"],
+               "youtube_used": ledger["by_purpose"]["youtube"], "전체_used": ledger["used"],
                "메모": "market 수집기와 같은 원장을 쓴다. 합쳐 250 을 넘지 않는다."},
         "query_set": QUERY_SET,
-        "query_set_설명": ("화요일은 수요 신호(K뉴티), 금요일은 판매 전략"
-                          "(Shopify 마케팅). 호출 수는 그대로다."),
-        "queries": QUERIES,
+        "query_set_설명": "queries 는 누적 검색어 목록. calls.current 가 이번 선택, query_history 는 이전 결과다.",
+        "run_query_count": len(QUERIES), "successful_query_count": succeeded,
+        "failed_query_count": failed,
+        "status": "no_key" if not key else ("partial" if succeeded else "failed") if failed else "ok",
+        "reason": "SERPAPI_KEY missing" if not key else (f"{failed} query calls failed" if failed else ""),
         "calls": notes,
-        "video_count": len(videos),
-        "bucket_mentions": dict(buckets),
-        "bucket_total_views": dict(view_by_bucket),
+        "video_count": len(videos[:80]), "result_count": len(videos),
+        "bucket_mentions": dict(buckets), "bucket_total_views": dict(view_by_bucket),
         "ingredient_mentions": dict(sorted(ings.items(), key=lambda x: -x[1])),
-        "top_by_views": top,
-        "videos": videos[:80],
-    }
+        "top_by_views": top, "videos": videos[:80],
+    })
     OUT.parent.mkdir(parents=True, exist_ok=True)
     body = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
-    for _ in range(4):
-        OUT.write_text(body, encoding="utf-8")
-        try:
-            if json.loads(OUT.read_text(encoding="utf-8-sig"))["video_count"] == len(videos):
-                break
-        except (OSError, json.JSONDecodeError, UnicodeDecodeError, KeyError):
-            pass
-        time.sleep(0.5)
-    else:
+    OUT.write_text(body, encoding="utf-8")
+    if json.loads(OUT.read_text(encoding="utf-8-sig")) != payload:
         print("기록 검증 실패", file=sys.stderr)
         return 1
-
-    ledger["runs"].append({"at": datetime.now(timezone.utc).isoformat(),
-                           "purpose": "youtube",
-                           "spent": len([n for n in notes if n["note"] == "ok"])})
-    LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n",
-                      encoding="utf-8")
-
-    print(f"영상 {len(videos)}건 · 질의 {len(QUERIES)}개")
+    if key:
+        ledger["runs"].append({"at": attempted_at, "purpose": "youtube",
+                               "spent": sum(n["note"] == "ok" for n in notes)})
+        LEDGER.write_text(json.dumps(ledger, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"상태 {payload['status']} · 이번 영상 {payload['video_count']}건 "
+          f"(전체 검색 결과 {payload['result_count']}건) · 성공 질의 {succeeded}/{len(QUERIES)}개")
     print(f"예산 youtube {ledger['by_purpose']['youtube']}/{ledger['youtube_cap']} · "
           f"전체 {ledger['used']}/250")
-    if buckets:
-        print("상품군:", ", ".join(f"{k} {v}건" for k, v in buckets.most_common(5)))
-    if ings:
-        print("성분:", ", ".join(f"{k} {v}" for k, v in list(ings.items())[:8]))
-    bad = [n for n in notes if n["note"] not in ("ok", "cached")]
-    if bad:
-        print("호출 실패:", json.dumps(bad, ensure_ascii=False)[:200])
-    return 0
+    return 0 if succeeded and not failed else 1
 
 
 if __name__ == "__main__":
