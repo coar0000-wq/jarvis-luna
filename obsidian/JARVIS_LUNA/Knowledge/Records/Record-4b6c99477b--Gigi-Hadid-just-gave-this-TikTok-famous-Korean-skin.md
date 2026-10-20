@@ -1,0 +1,21 @@
+---
+title: "Record 4b6c99477b · Gigi-Hadid-just-gave-this-TikTok-famous-Korean-skincare-product-her-Vi"
+type: knowledge-graph
+status: generated-from-real-data
+updated_at: 2026-10-20T06:22:28.982328+00:00
+tags: [record, real-data]
+source: "Google-Search"
+topics: ["뷰티스킨케어", "소셜콘텐츠"]
+domain: "news.google.com"
+url: "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQd2c4bm5OVUxDVWlqMWg2Wml6OHhiNG1qWmhiTWpTZ05vMC1UZmFzWFZ1Vk5jaEJqVjZQdWFJVWtQV0szbUhDY1k2eGZwRnA2SGdWTC1scjNhVWpMSlFJWDdfQnpkWTRFcUM2eWtYNjJ6cXpadXRZYUJYS0pzUTNZbldpSU1hRTU1YkNsNktyNHFDakhLNWJCSi1CLWd3VHREZm0zblNZSXpVLWRkUmotTUhrUzBIRzl6eXR4dDA3Y1lnZTdrMWlra1lndHI4ZDg5dHR5LXB1SVlwYkpqRkHSAeMBQVVfeXFMTTZFbmFtblhpcU1TSHZXNVBQU2pwUGYxVDdBNTNMaTlwR3dCM0ZhWG84RThQN1hvcnltRV9ya1lxTWprOUZKbnUtbm14RDhZS0FWYkx6dHJHSmpXQVZsVnB4dDIwTWFqNWxVSkpyVTVtcWV0czA2RUlSMnd5V3JVU29nSWNvM01rSXhzQ01hcUx3SUVSM25jUW51Z2hiYlNkWHVOVkF1NWJ0QjdUS1N1dDF3RDFZc0p2REF1QXhlQUJBNTBjNXctWGVEWl9YNElpZXEyeWhiMHJkRUlWWU01WmhPWnc?oc=5"
+---
+
+# Record 4b6c99477b · Gigi-Hadid-just-gave-this-TikTok-famous-Korean-skincare-product-her-Vi
+
+> 실제 수집 레코드입니다. 원문: [news.google.com](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQd2c4bm5OVUxDVWlqMWg2Wml6OHhiNG1qWmhiTWpTZ05vMC1UZmFzWFZ1Vk5jaEJqVjZQdWFJVWtQV0szbUhDY1k2eGZwRnA2SGdWTC1scjNhVWpMSlFJWDdfQnpkWTRFcUM2eWtYNjJ6cXpadXRZYUJYS0pzUTNZbldpSU1hRTU1YkNsNktyNHFDakhLNWJCSi1CLWd3VHREZm0zblNZSXpVLWRkUmotTUhrUzBIRzl6eXR4dDA3Y1lnZTdrMWlra1lndHI4ZDg5dHR5LXB1SVlwYkpqRkHSAeMBQVVfeXFMTTZFbmFtblhpcU1TSHZXNVBQU2pwUGYxVDdBNTNMaTlwR3dCM0ZhWG84RThQN1hvcnltRV9ya1lxTWprOUZKbnUtbm14RDhZS0FWYkx6dHJHSmpXQVZsVnB4dDIwTWFqNWxVSkpyVTVtcWV0czA2RUlSMnd5V3JVU29nSWNvM01rSXhzQ01hcUx3SUVSM25jUW51Z2hiYlNkWHVOVkF1NWJ0QjdUS1N1dDF3RDFZc0p2REF1QXhlQUJBNTBjNXctWGVEWl9YNElpZXEyeWhiMHJkRUlWWU01WmhPWnc?oc=5)
+
+**제목:** Gigi Hadid just gave this TikTok-famous Korean skincare product her Victoria’s Secret seal of approval - 7NEWS
+
+Gigi Hadid just gave this TikTok-famous Korean skincare product her Victoria’s Secret seal of approval - 7NEWS
+
+**출처:** Source · Google Search
