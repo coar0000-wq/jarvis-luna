@@ -81,7 +81,9 @@ jobs:
         run: python -B scripts/test_localize_detail_images.py
 
       - name: 기존 초안 고시 복구 회귀 검사
-        run: python -B scripts/test_draft_notice_enrichment.py
+        run: |
+          python -B scripts/test_draft_notice_enrichment.py
+          python -B scripts/test_draft_notice_cleanup.py
 
       - name: 일일 등록 안전성 단위 테스트
         run: |
@@ -155,7 +157,7 @@ jobs:
           retention-days: 3
 
       - name: shop.com 카테고리 수집 (수집 채널 현황, 읽기 전용)
-        if: ${{ always() }}
+        if: ${{ always() && github.event.inputs.enrich_only != '1' }}
         continue-on-error: true
         run: python scripts/collect_shop_com_categories.py
 

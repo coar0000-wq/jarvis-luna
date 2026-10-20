@@ -1,5 +1,7 @@
 """Rotating, in-place DRAFT notice enrichment. No creation or publication APIs."""
+import copy
 import hashlib
+from html import escape
 import json
 import re
 
@@ -71,6 +73,51 @@ def record_verified(entry, product):
     entry['draft_reasons'] = updated
 
 
+def cleanup_superseded_generated(entry, state, body, title):
+    """Replace the exact legacy generated block on initial repair or migration.
+
+    Never parse/rewrite arbitrary HTML or adopt a changed remote body as evidence.
+    Only the legacy generated information block and exact source-name intro move.
+    """
+    pd = str(entry.get('pd_no', ''))
+    if pd not in TITLE_SCOPE or (entry.get('shopify_id'), title) != TITLE_SCOPE[pd]:
+        return body, None
+    section = state.get('section') or ''
+    if not state:
+        # First repair: caller still performs durable backup and fresh-body/title
+        # compare immediately before mutation. Only exact generated fragments go.
+        if 'data-jarvis-notice=' in body:
+            return body, None
+        original = body
+    else:
+        if (state.get('state') != 'verified' or not section or body.count(section) != 1
+                or body.count('data-jarvis-notice=') != 1):
+            return body, None
+        prior_body = state.get('before_description_html')
+        if not isinstance(prior_body, str) or not (
+                body == prior_body + section or digest(body) == state.get('after_sha256')):
+            return body, None
+        original = body.replace(section, '', 1)
+    footer = '<p><small>Source: Daiso Mall item ' + pd + '.</small></p>'
+    intro = '<p>' + escape(entry.get('name_kr', '')) + " from Daiso Korea's daily beauty picks.</p>"
+    if original.count(footer) != 1 or original.count(intro) != 1:
+        return body, None
+    # This is the exact escaped HTML grammar emitted by build_us_label, not a
+    # general <ul> matcher. A second block or manual nested markup fails closed.
+    blocks = list(re.finditer(r'<h4>Product information</h4>\s*<ul>\s*(?:<li><strong>[^<>]+:</strong> [^<>]*</li>\s*)+</ul>', original))
+    if len(blocks) != 1 or original.count('<h4>Product information</h4>') != 1:
+        return body, None
+    old = blocks[0].group()
+    new_intro = '<p>' + escape(title) + " from Daiso Korea's daily beauty picks.</p>"
+    # Replace exact old substrings in the full body; all remaining bytes survive.
+    chunks = body.split(section) if section else [body]
+    cleaned_chunks = [chunk.replace(old, '', 1).replace(intro, new_intro, 1) for chunk in chunks]
+    cleaned = section.join(cleaned_chunks) if section else cleaned_chunks[0]
+    return cleaned, {'version': 1, 'legacy_block_sha256': digest(old),
+                     'before_sha256': digest(body), 'after_sha256': digest(cleaned),
+                     'intro_before': intro, 'intro_after': new_intro}
+
+
 def safe_product(product, entry):
     return (isinstance(product, dict) and product.get('id') == entry['shopify_id']
             and product.get('status') == 'DRAFT'
@@ -122,18 +169,29 @@ def enrich(shop, registry, collect, label, save, limit=2, pd_nos=None, title_ove
                 old = state.get('section')
                 if not old and 'data-jarvis-notice=' in body:
                     raise ValueError('unowned_managed_section')
-                if ((section == old and section and body.count(section) == 1) or not label_ready) and (not title or title == before.get('title')):
+                cleaned, migration = cleanup_superseded_generated(entry, state, body, title) if label_ready else (body, None)
+                outside = body.replace(old, '', 1) if old else body
+                exact_scope = (entry['pd_no'] in TITLE_SCOPE and
+                               (entry['shopify_id'], title) == TITLE_SCOPE[entry['pd_no']])
+                if exact_scope and label_ready and '<h4>Product information</h4>' in outside and not migration:
+                    # Do not add a second conflicting table if cleanup evidence
+                    # is missing or an owner changed the previously verified HTML.
+                    row.update(status='legacy_cleanup_review_required', stop_further_writes=True)
+                elif not migration and ((section == old and section and body.count(section) == 1) or not label_ready) and (not title or title == before.get('title')):
                     row['status'] = 'unchanged'
                 elif old and body.count(old) != 1:
                     row['status'] = 'managed_section_changed_review_required'
                 else:
-                    after = (body.replace(old, section, 1) if old else body + section) if label_ready else body
+                    after = (cleaned.replace(old, section, 1) if old else cleaned + section) if label_ready else cleaned
                     fresh = shop.read_product(entry['shopify_id'])
                     if not safe_product(fresh, entry) or fresh.get('descriptionHtml', '') != body or fresh.get('title') != before.get('title'):
                         raise ValueError('description_changed')
+                    if state:
+                        entry.setdefault('notice_enrichment_history', []).append(copy.deepcopy(state))
                     entry['notice_enrichment'] = {'state': 'reserved', 'before_description_html': body, 'before_sha256': digest(body),
                         'after_sha256': digest(after), 'section': section, 'before_title': before.get('title'),
-                        'expected_title': title, 'title_provenance': override if title else {}}
+                        'expected_title': title, 'title_provenance': override if title else {},
+                        'cleanup_migration': migration}
                     save(registry)  # Durable reservation before any remote write.
                     if title:
                         shop.update_draft_content(entry['shopify_id'], after, title)
@@ -147,8 +205,12 @@ def enrich(shop, registry, collect, label, save, limit=2, pd_nos=None, title_ove
                     row['status'] = 'enriched_draft' if label_ready else 'title_enriched_label_review_required'
             registry['notice_enrichment_cursor'] = entry['shopify_id']
             save(registry)
-        except Exception:
-            row.update(status='notice_enrichment_failed_or_unverified', stop_further_writes=True)
+        except Exception as exc:
+            row.update(status='notice_enrichment_failed_or_unverified', stop_further_writes=True,
+                       error_type=type(exc).__name__)
+            # Network/provider messages may contain credentials or private URLs.
+            if isinstance(exc, ValueError) and str(exc) in {'unowned_managed_section', 'description_changed', 'write_unverified'}:
+                row['error_reason'] = str(exc)
         out.append(row)
         if row.get('stop_further_writes'):
             break

@@ -248,6 +248,11 @@ class Shopify:
           media(first:100){nodes{mediaContentType status}}}}""",
           {"id": product_id, "pub": publication_id or "gid://shopify/Publication/0"})["product"]
 
+    def read_notice_product(self, product_id):
+        """Exact draft content read, independent of any publication/channel ID."""
+        return self.gql('''query($id:ID!){product(id:$id){
+          id title tags status descriptionHtml}}''', {'id': product_id}).get('product')
+
     def read_gallery(self, product_id):
         """Fresh read-only inventory and actual image bytes, never URL/alt-derived hashes."""
         observed_at = datetime.now(timezone.utc).isoformat()
@@ -2224,7 +2229,10 @@ def main():
     if (shop is not None and not DRY_RUN and not write_blocked
             and (pending_notice or enrich_only or os.environ.get('BACKFILL_DRAFT_NOTICE') == '1')):
         from draft_notice_enrichment import enrich, source_titles
-        notice_enrichment = enrich(shop, reg, collect_gosi, build_us_label, save_registry,
+        from types import SimpleNamespace
+        notice_shop = SimpleNamespace(read_product=shop.read_notice_product,
+            update_description=shop.update_description, update_draft_content=shop.update_draft_content)
+        notice_enrichment = enrich(notice_shop, reg, collect_gosi, build_us_label, save_registry,
             pd_nos={p.strip() for p in os.environ.get('ENRICH_PD_NOS', '').split(',') if p.strip()},
             title_overrides=source_titles(ROOT, reg))
         write_blocked = any(r.get('stop_further_writes') for r in notice_enrichment)
@@ -2614,6 +2622,11 @@ def main():
     if summary:
         with open(summary, "a", encoding="utf-8") as f:
             f.write("## 다이소 오늘의 뷰티 추천 -> Shopify 등록\n\n")
+            if notice_enrichment:
+                f.write('### 기존 초안 고시 보완 (비공개 유지)\n\n')
+                for item in notice_enrichment:
+                    f.write(f"- {item['pd_no']}: {item['status']} | {item['shopify_id']}\n")
+                f.write('\n')
             f.write("| 카테고리 | 상태 | 상품 | 가격 | 링크 | 수익성 경고 |\n|---|---|---|---|---|---|\n")
             for r in results:
                 f.write(
@@ -2622,7 +2635,8 @@ def main():
                     f"{'; '.join(r.get('profitability_warnings') or []) or '-'} |\n"
                 )
     log(json.dumps(out, ensure_ascii=False, indent=2))
-    return 1 if failures else 0
+    notice_failed = any(r.get('stop_further_writes') for r in notice_enrichment)
+    return 1 if failures or notice_failed else 0
 
 
 if __name__ == "__main__":
