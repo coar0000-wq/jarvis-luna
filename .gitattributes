@@ -1,5 +1,6 @@
 # Execution evidence binds actual bytes across Windows/Linux checkouts.
 data/operations/** -text
+data/operations/knowledge_graph.json -text
 
 # Immutable history filenames and authenticated stage/checkpoint proofs bind bytes.
 data/agents/workflow_status_history/** -text

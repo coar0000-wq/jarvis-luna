@@ -82,6 +82,56 @@ class OperatingIntegration(unittest.TestCase):
             runner.atomic(self.root,runner.STATE,{'oversized':'x'*runner.OPS_STATE_MAX_BYTES})
         self.assertEqual((self.root/runner.STATE).read_bytes(),before)
 
+    def test_oversize_graph_preserves_all_prior_projections_and_durable_history(self):
+        from unittest.mock import patch
+        runner.run(self.root, now=NOW)
+        before = self.load(runner.STATE)
+        projected = ('data/operations/decisions.json', runner.GRAPH,
+                     'data/operations/feedback.json', runner.BOARD, 'data/dashboard_runtime.json')
+        exact = {name: (self.root / name).read_bytes() for name in projected}
+        reports = {str(p.relative_to(self.root)): p.read_bytes()
+                   for p in (self.root / 'data/operations/reports').iterdir()}
+        learned = runner.feedback.build(before, self.root, now=NOW)
+        learned['decisions'].append({'must_not_be_partially_written': True})
+        learned['knowledge_graph'] = {'nodes': ['x' * 8192], 'edges': []}
+        with patch.object(runner.feedback, 'build', return_value=learned), \
+                patch.object(runner.brain_plane.brain, 'MAX_DERIVED_GRAPH_BYTES', 8192):
+            with self.assertRaisesRegex(runner.brain_plane.brain.BrainError, '^byte_limit_exceeded$'):
+                runner.run(self.root, now=NOW, execute_local=False, goal='New local checkpoint')
+        for name, raw in {**exact, **reports}.items():
+            self.assertEqual((self.root / name).read_bytes(), raw, name)
+        after = self.load(runner.STATE)
+        for table in ('tasks', 'actions', 'handoffs', 'events', 'decisions', 'receipts'):
+            for key, value in before[table].items():
+                self.assertEqual(after[table][key], value, (table, key))
+        self.assertGreater(len(after['tasks']), len(before['tasks']))
+        self.assertGreater(after['sequence'], before['sequence'])
+        runner.validate_state(self.root, after)
+        self.assertFalse((self.root / runner.LOCK).exists())
+        self.assertFalse(list((self.root / 'data/operations').glob('.operations-*')))
+
+    def test_oversize_last_projection_is_checked_before_any_final_replacement(self):
+        from unittest.mock import patch
+        runner.run(self.root, now=NOW)
+        names = ('data/operations/decisions.json', runner.GRAPH,
+                 'data/operations/feedback.json', runner.BOARD, 'data/dashboard_runtime.json')
+        exact = {name: (self.root / name).read_bytes() for name in names}
+        bound = max(map(len, exact.values())) + 1024
+        original_read = runner.read
+        def expanded_runtime(root, relative, default=None):
+            value = original_read(root, relative, default)
+            if relative == 'data/dashboard_runtime.json':
+                value['new_runtime_field'] = 'x' * bound
+            return value
+        with patch.object(runner, 'read', side_effect=expanded_runtime), \
+                patch.object(runner.brain_plane.brain, 'MAX_BYTES', bound):
+            with self.assertRaisesRegex(runner.brain_plane.brain.BrainError, '^byte_limit_exceeded$'):
+                runner.run(self.root, now=NOW, execute_local=False)
+        for name, raw in exact.items():
+            self.assertEqual((self.root / name).read_bytes(), raw, name)
+        runner.validate_state(self.root, self.load(runner.STATE))
+        self.assertFalse((self.root / runner.LOCK).exists())
+
     def test_real_reports_existing_teams_and_handoff(self):
         board=runner.run(self.root,now=NOW)
         self.assertEqual(board['counts']['local_verified'],11)

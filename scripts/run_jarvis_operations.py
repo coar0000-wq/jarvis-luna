@@ -25,6 +25,7 @@ from operations_storage import OPS_STATE_MAX_BYTES
 
 ROOT = Path(__file__).resolve().parents[1]
 STATE = 'data/operations/state.json'
+GRAPH = 'data/operations/knowledge_graph.json'
 BOARD = 'data/operations/board.json'
 LOCK = 'data/operations/.state.lock'
 POLICY = 'config/jarvis_operations_policy.json'
@@ -52,17 +53,30 @@ def read(root, relative, default=None):
     return value
 
 
-def atomic(root, relative, value):
+def serialized_output(relative, value):
+    """Lossless output bytes, checked before replacing any durable projection."""
     if not (relative.startswith('data/operations/') or relative == 'data/dashboard_runtime.json'):
         raise ValueError('operation write scope denied')
-    if relative == STATE:
+    if relative in (STATE, GRAPH):
+        # Deep run 39343326124 generated a 33,626,691-byte indented graph:
+        # 72,259 bytes over the existing 32 MiB vault bound. The identical
+        # 6,224 nodes / 25,164 edges occupy 26,187,812 bytes without layout
+        # whitespace. Preserve every record and keep the security limit fixed.
         body = (json.dumps(value, ensure_ascii=False, sort_keys=True,
                            separators=(',', ':'), allow_nan=False) + '\n').encode('utf-8')
-        if len(body) > OPS_STATE_MAX_BYTES:
-            raise ValueError('operations state storage capacity reached; pruning/reset forbidden')
     else:
         body = (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2,
                            allow_nan=False) + '\n').encode('utf-8')
+    if relative == STATE:
+        if len(body) > OPS_STATE_MAX_BYTES:
+            raise ValueError('operations state storage capacity reached; pruning/reset forbidden')
+    elif len(body) > brain_plane.brain.source_byte_limit(relative):
+        raise brain_plane.brain.BrainError('byte_limit_exceeded')
+    return body
+
+
+def atomic(root, relative, value):
+    body = serialized_output(relative, value)
     dest = execution._safe(root, relative)
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest = execution._safe(root, relative)
@@ -445,15 +459,21 @@ def run(root=ROOT, *, now=None, execute_local=True, goal=None):
         apply_watch(state, observed, stamp)
         validate_state(root, state)
         learned = feedback.build(state, root, now=stamp)
-        atomic(root, STATE, state)
-        for name in ('decisions','knowledge_graph','feedback'):
-            atomic(root, 'data/operations/' + name + '.json', learned[name])
         board = summarize(root, state, observed, learned, stamp)
-        atomic(root, BOARD, board)
+        outputs = [(STATE, state)] + [('data/operations/' + name + '.json', learned[name])
+                   for name in ('decisions','knowledge_graph','feedback')] + [(BOARD, board)]
         runtime = read(root, 'data/dashboard_runtime.json', None)
         if isinstance(runtime,dict):
             runtime['operations'] = board
-            atomic(root, 'data/dashboard_runtime.json', runtime)
+            outputs.append(('data/dashboard_runtime.json', runtime))
+        # Check the whole final projection set before replacing any of it.
+        # Earlier receipt-backed state checkpoints remain durable on failure;
+        # never reset/replay them or partially update decisions before rejecting
+        # an oversized graph. IO/integrity failures still fail closed as before.
+        for relative, value in outputs:
+            serialized_output(relative, value)
+        for relative, value in outputs:
+            atomic(root, relative, value)
         return board
 
 

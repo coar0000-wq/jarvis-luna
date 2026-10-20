@@ -337,7 +337,10 @@ def removed_identities(base, local, policy, *, where=''):
 
 
 BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
-    'data/daiso_real/candidate_pool.json','data/agents/daiso_pipeline_receipts.json'))
+    'data/daiso_real/candidate_pool.json','data/agents/daiso_pipeline_receipts.json',
+    # Preserve the producer's lossless bounded representation before the next
+    # ingest; pretty-printing alone re-expanded Deep 39343326124 past 32 MiB.
+    'data/operations/knowledge_graph.json'))
 
 
 CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
@@ -458,7 +461,17 @@ def overlay(name, base, local, remote, policy, manifest, *, candidate_history=No
         # Counter/checkpoint pairs retain exact caller bytes. Never manufacture
         # a hybrid ledger or destroy its byte-bound failed-run artifact evidence.
         exact_stage = (name in BYTE_BOUND_STAGE_FILES or operations_report or name == 'data/team_learning.json') and remote in (None, base, local)
-        result = local if name in PERSISTENT_SOURCE_FILES or exact_stage else json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
+        if name in PERSISTENT_SOURCE_FILES or exact_stage:
+            result = local
+        elif name == 'data/operations/knowledge_graph.json':
+            # An allowed concurrent merge cannot retain either caller's bytes.
+            # Keep every merged record, but do not reintroduce layout-only
+            # overflow before ingest. Existing conflict/deletion rules above
+            # and the vault's unchanged byte limit still apply.
+            result = json.dumps(l, ensure_ascii=False, sort_keys=True,
+                                separators=(',', ':'), allow_nan=False).encode('utf-8') + b'\n'
+        else:
+            result = json.dumps(l, ensure_ascii=False, indent=2).encode('utf-8') + b'\n'
         if removed and not deletion_authorized(name, base, removed, manifest, replacement=result, candidate_history=candidate_history, copy_evidence=copy_evidence, observer_evidence=observer_evidence, observer_policy=policy):
             raise PublishError(f'replacement snapshot is not authorized after merge: {name}')
         return result
