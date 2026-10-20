@@ -150,7 +150,13 @@ def outcome(state, preparation, *, root, receipt=None, error=None, now=None):
     return copy.deepcopy(record)
 
 
-def validate(state, *, root=None):
+def validate(state, *, root=None, ledger=None):
+    """Validate every audit record, optionally using the caller's durable ledger.
+
+    The operations controller supplies one freshly read snapshot per validation
+    pass and checks it again before returning. This is not a receipt/output cache;
+    standalone callers still read the durable ledger for each receipt as before.
+    """
     store = state.get('audit')
     if store is None:
         if any('audit' in e for e in state['events'].values()):
@@ -238,7 +244,7 @@ def validate(state, *, root=None):
         if result['status'] == 'VERIFIED':
             receipt = result.get('receipt')
             if (not isinstance(receipt, dict) or receipt.get('action') != store['payloads'][prep['action_hash']]
-                    or (root is not None and not execution.validate_receipt(root, receipt))):
+                    or (root is not None and not execution.validate_receipt(root, receipt, ledger))):
                 raise ValueError('audit output proof not verified')
     if set(linked) != set(store['preparations']) | set(store['outcomes']):
         raise ValueError('audit record missing')

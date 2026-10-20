@@ -159,6 +159,122 @@ class OperatingIntegration(unittest.TestCase):
         self.assertEqual(first['counts']['local_verified'],second['counts']['local_verified'])
         self.assertEqual(ledger,(self.root/execution.ExecutionStore.filename).read_bytes())
         self.assertEqual(set(state['tasks']),set(self.load(runner.STATE)['tasks']))
+
+    def test_validation_ledger_reads_are_constant_and_every_receipt_is_checked(self):
+        from unittest.mock import patch
+        runner.run(self.root, now=NOW)
+        state = self.load(runner.STATE)
+        before = copy.deepcopy(state)
+        ledger_path = self.root / execution.ExecutionStore.filename
+        reads = []
+        original_bytes, original_text = Path.read_bytes, Path.read_text
+        def read_bytes(path, *args, **kwargs):
+            if path == ledger_path:
+                reads.append('bytes')
+            return original_bytes(path, *args, **kwargs)
+        def read_text(path, *args, **kwargs):
+            if path == ledger_path:
+                reads.append('text')
+            return original_text(path, *args, **kwargs)
+        with patch.object(Path, 'read_bytes', read_bytes), \
+                patch.object(Path, 'read_text', read_text), \
+                patch.object(execution, 'validate_receipt', wraps=execution.validate_receipt) as verify:
+            runner.validate_state(self.root, state)
+        self.assertEqual(reads, ['bytes', 'bytes'])
+        verified_outcomes = sum(o['result']['status'] == 'VERIFIED'
+                                for o in state['audit']['outcomes'].values())
+        self.assertEqual(verify.call_count, len(state['receipts']) + verified_outcomes)
+        snapshots = [call.args[2] for call in verify.call_args_list]
+        self.assertTrue(all(ledger is snapshots[0] for ledger in snapshots))
+        self.assertEqual(state, before)
+
+    def test_validation_snapshot_is_discarded_before_next_pass(self):
+        runner.run(self.root, now=NOW)
+        state = self.load(runner.STATE)
+        runner.validate_state(self.root, state)
+        ledger = self.load(execution.ExecutionStore.filename)
+        ledger['global_stop'] = True
+        self.put(execution.ExecutionStore.filename, ledger)
+        with self.assertRaisesRegex(ValueError, 'execution global stop'):
+            runner.validate_state(self.root, state)
+
+    def test_standalone_audit_still_revalidates_the_durable_ledger(self):
+        from unittest.mock import patch
+        runner.run(self.root, now=NOW)
+        state = self.load(runner.STATE)
+        with patch.object(execution, 'validate_receipt', wraps=execution.validate_receipt) as verify:
+            runner.audit.validate(state, root=self.root)
+        self.assertEqual(verify.call_count, len(state['audit']['outcomes']))
+        self.assertTrue(all(call.args[2] is None for call in verify.call_args_list))
+        ledger = self.load(execution.ExecutionStore.filename)
+        ledger['claims'].clear()
+        self.put(execution.ExecutionStore.filename, ledger)
+        with self.assertRaisesRegex(ValueError, 'audit output proof not verified'):
+            runner.audit.validate(state, root=self.root)
+
+    def test_validation_rehashes_outputs_on_every_pass(self):
+        runner.run(self.root, now=NOW)
+        state = self.load(runner.STATE)
+        runner.validate_state(self.root, state)
+        receipt = next(iter(state['receipts'].values()))
+        report = self.root / receipt['outputs'][0]['path']
+        report.write_text('{}', encoding='utf-8')
+        with self.assertRaises(ValueError):
+            runner.validate_state(self.root, state)
+
+    def test_validation_rejects_concurrent_ledger_changes(self):
+        from unittest.mock import patch
+        runner.run(self.root, now=NOW)
+        state = self.load(runner.STATE)
+        original = execution.validate_receipt
+        changed = False
+        def verify_then_change(root, receipt, ledger=None):
+            nonlocal changed
+            valid = original(root, receipt, ledger)
+            if not changed:
+                changed = True
+                concurrent = copy.deepcopy(ledger)
+                concurrent['global_stop'] = True
+                self.put(execution.ExecutionStore.filename, concurrent)
+            return valid
+        with patch.object(execution, 'validate_receipt', side_effect=verify_then_change):
+            with self.assertRaisesRegex(ValueError, 'execution ledger changed during validation'):
+                runner.validate_state(self.root, state)
+
+    def test_validation_never_reuses_removed_malformed_or_rebound_ledger(self):
+        runner.run(self.root, now=NOW)
+        state = self.load(runner.STATE)
+        ledger_path = self.root / execution.ExecutionStore.filename
+        original = ledger_path.read_bytes()
+        runner.validate_state(self.root, state)
+        for change in ('missing', 'malformed', 'missing_claim', 'modified_claim', 'symlink'):
+            with self.subTest(change=change):
+                ledger_path.write_bytes(original)
+                if change == 'missing':
+                    ledger_path.unlink()
+                elif change == 'malformed':
+                    ledger_path.write_text('{broken', encoding='utf-8')
+                elif change == 'symlink':
+                    copy_path = ledger_path.with_name('ledger-copy.json')
+                    copy_path.write_bytes(original)
+                    ledger_path.unlink()
+                    ledger_path.symlink_to(copy_path)
+                else:
+                    ledger = json.loads(original)
+                    key = next(iter(ledger['claims']))
+                    if change == 'missing_claim':
+                        del ledger['claims'][key]
+                    else:
+                        ledger['claims'][key]['action_hash'] = '0' * 64
+                    self.put(execution.ExecutionStore.filename, ledger)
+                try:
+                    with self.assertRaises(ValueError):
+                        runner.validate_state(self.root, state)
+                finally:
+                    if ledger_path.is_symlink():
+                        ledger_path.unlink()
+                    ledger_path.write_bytes(original)
+
     def test_output_tamper_blocks_without_reset(self):
         runner.run(self.root,now=NOW)
         state=self.load(runner.STATE)
