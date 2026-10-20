@@ -285,6 +285,235 @@
         "knowledge": "결정표·검수자·미확인 사항·파일럿 합격 조건을 기록한다. 내부 브리핑 배포, 앱 설정, 실제 고객 테스트의 증거를 각각 분리한다.",
         "graph": "정본 상품/옵션 ID와 폼/이벤트 매핑을 설계하되 고객 이메일이나 개인정보는 공개 피드·그래프·모델 상태에 저장하지 않는다."
       }
+    },
+    {
+      "id": "2026-10-20-shop-beauty-benchmark-sourcing",
+      "date": "2026-10-20",
+      "title": "[Shop 벤치마킹 SHOP-20261020-SOURCING] 상품 소싱팀 읽기 조사·검토 지시",
+      "source": "public_shop_live_observation_and_official_policy_review",
+      "source_url": "https://shop.com/products/6874076479653/dynasty-cream?variantId=43222120759461",
+      "source_urls": [
+        "https://shop.com/products/6874076479653/dynasty-cream?variantId=43222120759461",
+        "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+        "https://shop.com/products/3520927877/advanced-snail-96-mucin-power-essence",
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/sync-partner-apps"
+      ],
+      "verification_status": "public_sources_reviewed_team_execution_unverified",
+      "source_note": "2026-10-20 UTC 공개 화면·공식 정책 확인. 세부 관찰·직접 URL·미확인은 docs/learning/2026-10-20-shop-beauty-benchmark.md에 기록. 검색 캐시 반복 판매량/평점 숫자는 제외했다. 팀 피드 배정은 팀의 읽음·실행 증거가 아니다.",
+      "teams": [
+        "sourcing"
+      ],
+      "summary": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. 자사 DRAFT 후보 3개와 Shop 경쟁품의 제조사 SKU/바코드, 옵션, 용량 단위, 개수, 패키지를 대조한다. 정확 일치만 가격팀으로 넘기고 g와 ml, Jar/Tube, 30/50/100ml, 1/2개를 혼합하지 않는다.",
+      "team_actions": {
+        "sourcing": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. - 한국 공급처의 제조사, 정확제품명, 바코드/제조사SKU, 옵션, 용량과 단위, 개수, 구성, 패키지 판본, 원가 자료를 고정한다.\n- 경쟁 상품과 동일 SKU가 확인된 쌍만 가격팀에 전달한다. Jar/Tube, 향, 리뉴얼, 30/50/100ml, 100g, 1개/2개는 별도 행이다. 밀도 근거 없이 g↔ml 환산하지 않는다.\n- 동일 상품이 없으면 '카테고리 참고'로 구분하고 직접 경쟁가격으로 사용하지 않는다.\n- 산출물: 후보 3개 매칭표, 정확일치/미확인/불일치 판정과 이유. Shop product/variant ID는 보조 식별자이며 판매점 간 동일SKU의 증거를 대신하지 않는다."
+      },
+      "review_path": "docs/learning/2026-10-20-shop-beauty-benchmark.md",
+      "execution_verified": false,
+      "business_approval": false,
+      "scope_limits": {
+        "read_only_research": true,
+        "may_change_shopify": false,
+        "may_activate_products": false,
+        "may_publish": false,
+        "may_pay": false,
+        "may_transmit_customer_data": false
+      }
+    },
+    {
+      "id": "2026-10-20-shop-beauty-benchmark-pricing",
+      "date": "2026-10-20",
+      "title": "[Shop 벤치마킹 SHOP-20261020-PRICING] 가격 정책팀 읽기 조사·검토 지시",
+      "source": "public_shop_live_observation_and_official_policy_review",
+      "source_url": "https://sokoglam.com/pages/orders-shipping",
+      "source_urls": [
+        "https://sokoglam.com/pages/orders-shipping",
+        "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+        "https://shop.com/products/3520927877/advanced-snail-96-mucin-power-essence",
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/sync-partner-apps"
+      ],
+      "verification_status": "public_sources_reviewed_team_execution_unverified",
+      "source_note": "2026-10-20 UTC 공개 화면·공식 정책 확인. 세부 관찰·직접 URL·미확인은 docs/learning/2026-10-20-shop-beauty-benchmark.md에 기록. 검색 캐시 반복 판매량/평점 숫자는 제외했다. 팀 피드 배정은 팀의 읽음·실행 증거가 아니다.",
+      "teams": [
+        "pricing"
+      ],
+      "summary": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. 같은 SKU·용량·수량·단건·미국배송 조건의 상품대금+배송비+필수비용+세금/관세를 비교한다. 미확인은 0으로 넣지 않는다. 경쟁가 적용은 양의 예상 순이익 조건. 기존 fallback (원가+배송비+3000원)/0.98 유지. 실제 가격 변경 없음.",
+      "team_actions": {
+        "pricing": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. - 동일 SKU·용량·수량·단건구매·미국배송 조건에서 상품금액, 배송비, 필수비용, 확인된 세금/관세를 분리 기록한다. 미확인 비용을 0으로 넣지 않는다.\n- 경쟁 고객총액 = 상품금액 + 미국배송비 + 필수비용 + 확인된 세금/관세. 배송료/세금 미확인은 '세전 부분합/최종 총액 미확인'으로 표시한다.\n- 무료배송 문턱은 할인 후 해당 장바구니 금액으로 판정한다. 단품 주문을 다른 물건을 추가한 무료배송 장바구니와 동일조건처럼 비교하지 않는다.\n- 첫주문/회원쿠폰, 구독, Shop Cash는 일반 단건가격과 별도 시나리오다. 자격/유효성이 미확인이면 적용하지 않는다. 미국출고 경쟁점과 한국발 자사의 출고지·예상기간도 표시한다.\n- 기존 fallback `(원가 + 배송비 + 3,000원) / 0.98` 유지. 입력을 원화로 통일하고 USD 변환에 사용한 환율 출처·시각·단위를 기록한다. 2%는 기존 가정이지 실제 결제/환전/포장/통관/기타 비용 검증을 대체하지 않는다.\n- 경쟁가 적용안은 고객총액 비교가 가능하고 확인된 비용을 반영한 예상 순이익이 양수일 때만 제안한다. 원가·배송총액 미확인 후보의 가격우위/흑자 판정은 보류한다.\n- 산출물: 후보별 1개/2개 시나리오, 총액 검증상태, 예상이익, fallback 여부와 이유. 실제 가격 변경 금지."
+      },
+      "review_path": "docs/learning/2026-10-20-shop-beauty-benchmark.md",
+      "execution_verified": false,
+      "business_approval": false,
+      "scope_limits": {
+        "read_only_research": true,
+        "may_change_shopify": false,
+        "may_activate_products": false,
+        "may_publish": false,
+        "may_pay": false,
+        "may_transmit_customer_data": false
+      }
+    },
+    {
+      "id": "2026-10-20-shop-beauty-benchmark-design",
+      "date": "2026-10-20",
+      "title": "[Shop 벤치마킹 SHOP-20261020-DESIGN] 디자인팀 읽기 조사·검토 지시",
+      "source": "public_shop_live_observation_and_official_policy_review",
+      "source_url": "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+      "source_urls": [
+        "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+        "https://shop.com/products/3520927877/advanced-snail-96-mucin-power-essence",
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/sync-partner-apps"
+      ],
+      "verification_status": "public_sources_reviewed_team_execution_unverified",
+      "source_note": "2026-10-20 UTC 공개 화면·공식 정책 확인. 세부 관찰·직접 URL·미확인은 docs/learning/2026-10-20-shop-beauty-benchmark.md에 기록. 검색 캐시 반복 판매량/평점 숫자는 제외했다. 팀 피드 배정은 팀의 읽음·실행 증거가 아니다.",
+      "teams": [
+        "design"
+      ],
+      "summary": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. 경쟁점의 정면·텍스처·사용장면·정보 이미지 역할만 참고하고 자사 실물/사용권 원본으로 촬영안을 만든다. 타사 브랜드 이미지·모델·리뷰사진·인증로고·문구를 복제하지 않는다.",
+      "team_actions": {
+        "design": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. - Soko Glam의 제품 정면·텍스처·사용장면·설명 이미지 역할, BOJ의 용량 옵션, Peach & Lily의 제품/사용장면 구성을 참고한다.\n- 자사 실물 또는 사용권 확인 원본으로 ①정면/실제 용량·개수 ②후면 라벨·전성분 ③내용물/텍스처 ④크기 비교 ⑤포장/배송구성을 보여줄 촬영안을 작성한다. 2개 구성은 실제 2개를 표현한다.\n- 타사 모델·전후사진·인증/수상로고·리뷰사진·문구를 복제하지 않는다. 생성 이미지로 제품 라벨·용량·성분·효능을 바꾸지 않는다.\n- 산출물: 후보당 이미지 역할표, 권리/원본 출처, 부족자료, 모바일 첫 화면 배치안. 게시 없음."
+      },
+      "review_path": "docs/learning/2026-10-20-shop-beauty-benchmark.md",
+      "execution_verified": false,
+      "business_approval": false,
+      "scope_limits": {
+        "read_only_research": true,
+        "may_change_shopify": false,
+        "may_activate_products": false,
+        "may_publish": false,
+        "may_pay": false,
+        "may_transmit_customer_data": false
+      }
+    },
+    {
+      "id": "2026-10-20-shop-beauty-benchmark-listing",
+      "date": "2026-10-20",
+      "title": "[Shop 벤치마킹 SHOP-20261020-LISTING] 리스팅 제작팀 읽기 조사·검토 지시",
+      "source": "public_shop_live_observation_and_official_policy_review",
+      "source_url": "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+      "source_urls": [
+        "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+        "https://shop.com/products/3520927877/advanced-snail-96-mucin-power-essence",
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/sync-partner-apps"
+      ],
+      "verification_status": "public_sources_reviewed_team_execution_unverified",
+      "source_note": "2026-10-20 UTC 공개 화면·공식 정책 확인. 세부 관찰·직접 URL·미확인은 docs/learning/2026-10-20-shop-beauty-benchmark.md에 기록. 검색 캐시 반복 판매량/평점 숫자는 제외했다. 팀 피드 배정은 팀의 읽음·실행 증거가 아니다.",
+      "teams": [
+        "listing"
+      ],
+      "summary": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. 기존 자사 본문을 보존한 별도 영어 초안을 작성한다. 제목의 정확제품명·용량·개수와 성분·사용법·주의사항·출고/배송/반품을 SKU 근거에 연결한다. 경쟁점 효능문구를 근거로 삼지 않고 Shopify 저장은 하지 않는다.",
+      "team_actions": {
+        "listing": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. - 제목에 브랜드/정확제품명/옵션/용량/개수를 명확히 하고 제품 정체, 전성분, 사용법, 주의사항, 구성, 출고국, 배송비/예상기간, 반품 조건을 읽기 쉽게 배치하는 영어 초안을 만든다.\n- 실제 SKU에 연결되는 제조사/실물라벨 근거만 사용한다. 경쟁점 설명·Shop 자동 요약은 자사 효능근거가 아니다. 보습 표현도 근거를 연결하고 치료/피부질환/SPF/pH 등은 검토 전 추가하지 않는다.\n- 산출물: 기존 자사 본문을 보존한 별도 초안, 문구-근거표, 미확인 항목. Shopify 제목/본문 저장 없음."
+      },
+      "review_path": "docs/learning/2026-10-20-shop-beauty-benchmark.md",
+      "execution_verified": false,
+      "business_approval": false,
+      "scope_limits": {
+        "read_only_research": true,
+        "may_change_shopify": false,
+        "may_activate_products": false,
+        "may_publish": false,
+        "may_pay": false,
+        "may_transmit_customer_data": false
+      }
+    },
+    {
+      "id": "2026-10-20-shop-beauty-benchmark-market",
+      "date": "2026-10-20",
+      "title": "[Shop 벤치마킹 SHOP-20261020-MARKET] 마케팅 조사팀 읽기 조사·검토 지시",
+      "source": "public_shop_live_observation_and_official_policy_review",
+      "source_url": "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/metrics",
+      "source_urls": [
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/metrics",
+        "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+        "https://shop.com/products/3520927877/advanced-snail-96-mucin-power-essence",
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/sync-partner-apps"
+      ],
+      "verification_status": "public_sources_reviewed_team_execution_unverified",
+      "source_note": "2026-10-20 UTC 공개 화면·공식 정책 확인. 세부 관찰·직접 URL·미확인은 docs/learning/2026-10-20-shop-beauty-benchmark.md에 기록. 검색 캐시 반복 판매량/평점 숫자는 제외했다. 팀 피드 배정은 팀의 읽음·실행 증거가 아니다.",
+      "teams": [
+        "market"
+      ],
+      "summary": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. 최근/낮은평점/옵션별 공개 리뷰의 구매질문과 불만 유형을 원문 URL·날짜·옵션과 기록한다. 상품평점과 상점평점을 분리하고 리뷰 수를 판매량으로 추정하거나 후기를 복제하지 않는다.",
+      "team_actions": {
+        "market": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. - 최근·낮은평점·다른 옵션의 공개 리뷰에서 구매질문/불만유형을 찾고 원문URL·작성일·옵션·평점을 기록한다. 관찰 표본만으로 전체 리뷰 성향을 추정하지 않는다.\n- 상품 평점과 상점평점을 분리한다. 평점 건수를 주문수/판매수/최근30일 판매량으로 바꾸지 않는다. 후기의 치료/효능 경험을 의학적 사실로 쓰지 않는다.\n- 산출물: 실제 확인한 질문/불만 유형과 상세페이지 개선안. 타사 리뷰/고객사진 전용 금지, 근거 없는 전환율 효과수치 금지."
+      },
+      "review_path": "docs/learning/2026-10-20-shop-beauty-benchmark.md",
+      "execution_verified": false,
+      "business_approval": false,
+      "scope_limits": {
+        "read_only_research": true,
+        "may_change_shopify": false,
+        "may_activate_products": false,
+        "may_publish": false,
+        "may_pay": false,
+        "may_transmit_customer_data": false
+      }
+    },
+    {
+      "id": "2026-10-20-shop-beauty-benchmark-channels",
+      "date": "2026-10-20",
+      "title": "[Shop 벤치마킹 SHOP-20261020-CHANNELS] 채널 운영팀 읽기 조사·검토 지시",
+      "source": "public_shop_live_observation_and_official_policy_review",
+      "source_url": "https://help.shopify.com/en/manual/online-sales-channels/shop/customer-experience",
+      "source_urls": [
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/customer-experience",
+        "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+        "https://shop.com/products/3520927877/advanced-snail-96-mucin-power-essence",
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/sync-partner-apps"
+      ],
+      "verification_status": "public_sources_reviewed_team_execution_unverified",
+      "source_note": "2026-10-20 UTC 공개 화면·공식 정책 확인. 세부 관찰·직접 URL·미확인은 docs/learning/2026-10-20-shop-beauty-benchmark.md에 기록. 검색 캐시 반복 판매량/평점 숫자는 제외했다. 팀 피드 배정은 팀의 읽음·실행 증거가 아니다.",
+      "teams": [
+        "channels"
+      ],
+      "summary": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. 공개 상품화면에서 옵션·개수·단건/구독·배송/반품 안내를 비교하고 미검증 checkout 항목을 구분한다. 장바구니/결제 진입·주소입력·주문·상품활성·판매게시 없이 QA 체크리스트를 준비한다.",
+      "team_actions": {
+        "channels": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. - 상품→옵션/개수→단건/구독→장바구니 또는 Buy now→배송/결제 경로에서 직접 본 단계와 공식문서로만 확인한 단계를 구분한다.\n- 이번 실측은 공개 상품화면까지다. 장바구니 담기, Buy now 실행, checkout, 로그인, 주소입력, 주문은 하지 않았다. 최종 배송료·세금·checkout 단계 수·결제 성공을 확인완료로 표시하지 않는다.\n- 후속 QA안: 옵션 변경 시 사진/가격/수량 일치, 단건 기본선택, 구독 오인 방지, 품절, 배송/반품 안내 위치. 테스트 실행은 승인된 범위를 별도 확인한다.\n- 산출물: 공개 구매화면 비교와 미검증 checkout 체크리스트. 결제/상품활성 제외."
+      },
+      "review_path": "docs/learning/2026-10-20-shop-beauty-benchmark.md",
+      "execution_verified": false,
+      "business_approval": false,
+      "scope_limits": {
+        "read_only_research": true,
+        "may_change_shopify": false,
+        "may_activate_products": false,
+        "may_publish": false,
+        "may_pay": false,
+        "may_transmit_customer_data": false
+      }
+    },
+    {
+      "id": "2026-10-20-shop-beauty-benchmark-legal",
+      "date": "2026-10-20",
+      "title": "[Shop 벤치마킹 SHOP-20261020-LEGAL] 법률·규제팀 읽기 조사·검토 지시",
+      "source": "public_shop_live_observation_and_official_policy_review",
+      "source_url": "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/merchant-guidelines",
+      "source_urls": [
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/merchant-guidelines",
+        "https://shop.com/products/5467124805/advanced-snail-92-all-in-one-cream",
+        "https://shop.com/products/3520927877/advanced-snail-96-mucin-power-essence",
+        "https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews/sync-partner-apps"
+      ],
+      "verification_status": "public_sources_reviewed_team_execution_unverified",
+      "source_note": "2026-10-20 UTC 공개 화면·공식 정책 확인. 세부 관찰·직접 URL·미확인은 docs/learning/2026-10-20-shop-beauty-benchmark.md에 기록. 검색 캐시 반복 판매량/평점 숫자는 제외했다. 팀 피드 배정은 팀의 읽음·실행 증거가 아니다.",
+      "teams": [
+        "legal"
+      ],
+      "summary": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. 기존 보류조건을 유지하며 자사 SKU별 성분/라벨/효능·미국 판매요건·이미지/상표 권리를 확인한다. Shop 존재나 타사 문구를 승인 근거로 쓰지 않는다. 자사 구매 연결 리뷰와 중립적 후기 수집 요건을 검토한다.",
+      "team_actions": {
+        "legal": "읽기 조사·검토 지시이며 실행 완료·외부 쓰기 승인이 아니다. 자동화 수리를 우선하고 결제·상품 활성화·판매 게시·고객정보 외부 전송은 하지 않는다. - Shop에 있다는 이유나 타사가 쓰는 문구라는 이유로 미국판매 적합성·성분/라벨·효능·이미지/상표권을 통과시키지 않는다. 기존 법적 보류조건 유지.\n- 자사 SKU별 미국 판매분류, 라벨/성분/주장, 수입/통관과 책임주체의 증빙을 검토하고 미확인은 보류한다. SPF·여드름/피부질환 관련 표현은 별도 확인한다.\n- 실제 자사 구매와 연결되는 리뷰만 검토한다. 가짜/직원·가족·이해관계자 후기, 보상성 리뷰 유도, 타사 리뷰 복제, CSV 업로드 후기를 검증후기처럼 취급하지 않는다.\n- 산출물: 후보별 주장·권리·판매요건의 확인/미확인/보류표. 벤치마킹은 판매승인 자료를 대체하지 않는다."
+      },
+      "review_path": "docs/learning/2026-10-20-shop-beauty-benchmark.md",
+      "execution_verified": false,
+      "business_approval": false,
+      "scope_limits": {
+        "read_only_research": true,
+        "may_change_shopify": false,
+        "may_activate_products": false,
+        "may_publish": false,
+        "may_pay": false,
+        "may_transmit_customer_data": false
+      }
     }
   ]
 }
