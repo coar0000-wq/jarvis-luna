@@ -904,6 +904,7 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from scripts.operational_freshness import age_channels, _parse
 
           runtime = json.loads(
               Path("data/dashboard_runtime.json")
@@ -920,15 +921,48 @@ jobs:
               "채널 상태 메타가 없음"
 
           for name, meta in runtime["global_channels_status"].items():
-              if meta.get("count", 0) == 0:
-                  assert meta.get("status") in (
-                      "empty",
-                      "disabled",
-                      "failed",
-                  ), f"{name}: 빈 채널인데 상태가 {meta.get('status')}"
-
-                  assert meta.get("reason"), \
+              rows = runtime["global_channels"].get(name)
+              assert isinstance(rows, list) and type(meta.get("count")) is int \
+                  and meta["count"] == len(rows), f"{name}: 채널 건수와 원본 행 불일치"
+              if meta["count"] == 0:
+                  source_status = meta.get("source_status", meta.get("status"))
+                  assert source_status in ("empty", "disabled", "failed"), \
+                      f"{name}: 빈 채널인데 원본 상태가 {source_status}"
+                  assert isinstance(meta.get("reason"), str) and meta["reason"].strip(), \
                       f"{name}: 빈 채널인데 사유가 없음"
+                  assert meta.get("source_trust") in (None, "none") \
+                      and meta.get("trust") in (None, "none", "unverified"), \
+                      f"{name}: 빈 채널의 신뢰도가 승격됨"
+                  if meta.get("status") != source_status:
+                      # 2026-10-20: Amazon movers was genuinely empty, but its
+                      # missing collected_at correctly yielded unverified.
+                      # Validate that overlay, not a broader success allowlist.
+                      assert source_status == "empty" and meta.get("source_trust") == "none", \
+                          f"{name}: 원본 실패/비활성 상태를 숨긴 최신성 상태"
+                      assert isinstance(meta.get("source_reason"), str) \
+                          and meta["source_reason"].strip(), f"{name}: 원본 빈 사유가 없음"
+                      expected = age_channels({name: meta}, now=runtime["generated_at"])[name]
+                      # generated_at is stamped after aging. A stale reason's
+                      # rounded day count may change between those two clocks.
+                      same_state = all(meta.get(key) == expected[key] for key in
+                                       ("status", "trust", "stale")) and (
+                          meta.get("status") == "stale" or
+                          meta.get("freshness_reason") == expected["freshness_reason"])
+                      # A still-future source can cross the five-minute skew
+                      # boundary before generated_at. Keep it unverified; never
+                      # promote it or accept a now-past timestamp as future.
+                      collected = _parse(meta.get("collected_at"))
+                      future_boundary = (
+                          meta.get("status") == meta.get("trust") == "unverified"
+                          and meta.get("freshness_reason") == "collected_at future: 최신성 검증 불가."
+                          and collected is not None and collected > _parse(runtime["generated_at"]))
+                      assert meta.get("status") in ("unverified", "stale") \
+                          and meta.get("freshness_reason") and (same_state or future_boundary), \
+                          f"{name}: 원본 수집 시각과 최신성 상태 불일치"
+                      if meta["status"] == "unverified":
+                          assert "age_hours" in meta and meta["age_hours"] is None \
+                              and "stale" in meta and meta["stale"] is None, \
+                              f"{name}: 검증 불가인데 확정된 나이/최신성 표시"
 
           assert "training" in runtime
           assert "graph" in runtime
