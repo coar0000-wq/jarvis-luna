@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:56:23.667082+00:00",
+  "generated_at": "2026-10-20T03:16:07.693707+00:00",
   "current_s_count": 7,
   "filled": 4,
   "replaced": 0,
@@ -338,10 +338,8 @@
     },
     "1068721": {
       "missing_fields": [
-        "net_contents",
         "ingredients_inci",
-        "manufacturer",
-        "country_of_origin"
+        "manufacturer"
       ],
       "unresolved_ingredients": [],
       "resolved_spellings": [],
@@ -349,10 +347,8 @@
     },
     "1068733": {
       "missing_fields": [
-        "net_contents",
         "ingredients_inci",
-        "manufacturer",
-        "country_of_origin"
+        "manufacturer"
       ],
       "unresolved_ingredients": [],
       "resolved_spellings": [],
