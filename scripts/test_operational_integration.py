@@ -457,5 +457,166 @@ class WorkflowTests(unittest.TestCase):
         self.run_restore_fixture(baseline_fx=False)
 
 
+class DeepRealDataValidationTests(unittest.TestCase):
+    """Execute the real Deep validation code against offline producer fixtures."""
+
+    @classmethod
+    def setUpClass(cls):
+        workflow = REPO / ".github/workflows/JARVIS-Deep-Analysis.yml"
+        step = steps_from_workflow(workflow.read_text(encoding="utf-8"))[
+            "Validate real-data artifacts"]
+        cls.code = textwrap.dedent(re.search(
+            r"python - <<'PY'\n(.*?)^          PY$", step, re.M | re.S).group(1))
+        # Importing this producer only defines functions; sync/FX is never run.
+        sys.path.insert(0, str(REPO))
+        import sync_channels
+        cls.producer = staticmethod(sync_channels.channel)
+
+    def validate(self, meta, *, rows=None, passes=True, training=True, generated_at=NOW):
+        runtime = {"generated_at": generated_at.isoformat(), "training": {}, "graph": {},
+                   "global_channels": {"fixture": [] if rows is None else rows},
+                   "global_channels_status": {"fixture": meta}}
+        original = deepcopy(runtime)
+        with tempfile.TemporaryDirectory(prefix="deep-validation-", dir=REPO.parent) as tmp:
+            root = Path(tmp)
+            (root / "data/knowledge").mkdir(parents=True)
+            runtime_file = root / "data/dashboard_runtime.json"
+            runtime_file.write_text(json.dumps(runtime), encoding="utf-8")
+            training_file = root / "data/knowledge/training_status.json"
+            training_file.write_text(json.dumps({"training_performed": training}), encoding="utf-8")
+            before = {p: p.read_bytes() for p in (runtime_file, training_file)}
+            result = subprocess.run([sys.executable, "-B", "-c", self.code], cwd=root,
+                                    env=dict(os.environ, PYTHONPATH=str(REPO)),
+                                    capture_output=True, text=True, timeout=10)
+            for path, content in before.items():
+                self.assertEqual(path.read_bytes(), content, "validation mutated its evidence")
+        self.assertEqual(runtime, original)
+        if passes:
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertIn("Validation OK", result.stdout)
+        else:
+            self.assertNotEqual(result.returncode, 0, result.stdout)
+            self.assertIn("AssertionError", result.stderr)
+
+    def empty(self, at="", status="ok", *, aged=True):
+        meta = self.producer([], "https://source.example/", status=status,
+                             reason="실제 파싱 결과 없음 · 원본 사유 보존", collected_at=at)
+        del meta["items"]
+        return freshness.age_channels({"fixture": meta}, now=NOW)["fixture"] if aged else meta
+
+    def test_real_amazon_empty_source_is_accepted_without_rewriting_evidence(self):
+        # Observed in Deep run 39416464566 / main 81389c5e8. Keep this
+        # regression fixture stable when a future real collection recovers.
+        meta = {
+            "status": "unverified", "count": 0, "trust": "unverified",
+            "source": "amazon.com/gp/movers-and-shakers/beauty (실수집)",
+            "collected_at": "", "source_status": "empty", "source_trust": "none",
+            "source_reason": "페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함",
+            "age_hours": None, "stale": None,
+            "freshness_reason": "collected_at missing: 최신성 검증 불가.",
+            "reason": "collected_at missing: 최신성 검증 불가. 페이지는 열렸으나 상품을 파싱하지 못했다. 카드 구조가 바뀌었을 수 있다. · 기존 파일 출처 불명이라 승계 안 함",
+        }
+        self.validate(meta)
+
+    def test_producer_empty_missing_invalid_future_stale_and_fresh(self):
+        for at in ("", None, "bad", "2026-10-03", FUTURE, OLD, FRESH):
+            with self.subTest(at=at):
+                meta = self.empty(at)
+                self.assertEqual(meta["source_status"], "empty")
+                self.assertEqual(meta["source_trust"], "none")
+                self.assertNotEqual(meta["trust"], "verified")
+                self.validate(meta)
+
+    def test_legacy_empty_disabled_failed_remain_valid(self):
+        for status in ("empty", "disabled", "failed"):
+            for aged in (False, True):
+                with self.subTest(status=status, aged=aged):
+                    self.validate(self.empty(status=status, aged=aged))
+
+    def test_zero_rows_cannot_claim_ok_or_verified_source(self):
+        for change in ({"status": "ok"}, {"source_status": "ok"},
+                       {"trust": "verified"}, {"source_trust": "verified"},
+                       {"trust": "manual"}, {"source_trust": "ai_extracted"}):
+            with self.subTest(change=change):
+                self.validate(dict(self.empty(), **change), passes=False)
+
+    def test_unverified_requires_explicit_empty_source_and_freshness_evidence(self):
+        for field in ("source_status", "source_trust", "source_reason", "freshness_reason"):
+            meta = self.empty()
+            del meta[field]
+            with self.subTest(field=field):
+                self.validate(meta, passes=False)
+
+    def test_freshness_must_agree_with_actual_source_timestamp(self):
+        for change in ({"collected_at": FRESH}, {"status": "stale"},
+                       {"trust": "none"}, {"stale": True},
+                       {"freshness_reason": "made up"}):
+            with self.subTest(change=change):
+                self.validate(dict(self.empty(), **change), passes=False)
+        self.validate(dict(self.empty(OLD), collected_at=FRESH), passes=False)
+
+    def test_stale_reason_rounding_may_cross_before_runtime_generation(self):
+        collected = (NOW - timedelta(hours=49.2) + timedelta(seconds=0.5)).isoformat()
+        meta = self.empty(collected)
+        later = NOW + timedelta(seconds=1)
+        expected = freshness.age_channels({"fixture": meta}, now=later)["fixture"]
+        self.assertNotEqual(meta["freshness_reason"], expected["freshness_reason"])
+        self.validate(meta, generated_at=later)
+
+    def test_future_skew_boundary_keeps_conservative_unverified_state(self):
+        collected = (NOW + timedelta(minutes=5, seconds=0.5)).isoformat()
+        meta = self.empty(collected)
+        later = NOW + timedelta(seconds=1)
+        self.assertEqual(meta["status"], "unverified")
+        self.assertEqual(freshness.age_channels({"fixture": meta}, now=later)["fixture"]["status"], "empty")
+        self.validate(meta, generated_at=later)
+
+    def test_future_reason_cannot_hide_missing_invalid_or_past_timestamp(self):
+        for at in ("", None, "bad", "2026-10-03", FRESH, OLD):
+            meta = self.empty(FUTURE)
+            meta["collected_at"] = at
+            with self.subTest(at=at):
+                self.validate(meta, passes=False)
+
+    def test_unverified_cannot_fabricate_or_omit_age_metadata(self):
+        for field in ("age_hours", "stale"):
+            meta = self.empty(FUTURE)
+            del meta[field]
+            with self.subTest(field=field):
+                self.validate(meta, passes=False)
+            meta[field] = 0 if field == "age_hours" else False
+            with self.subTest(field=field, fabricated=True):
+                self.validate(meta, passes=False)
+
+    def test_failed_or_disabled_cannot_be_hidden_under_freshness_overlay(self):
+        for status in ("failed", "disabled"):
+            for overlay in ("unverified", "stale", "empty"):
+                with self.subTest(status=status, overlay=overlay):
+                    self.validate(dict(self.empty(status=status), status=overlay), passes=False)
+
+    def test_zero_rows_require_explanation(self):
+        for reason in (None, "", "   ", [], {}):
+            with self.subTest(reason=reason):
+                self.validate(dict(self.empty(), reason=reason), passes=False)
+
+    def test_channel_rows_and_declared_count_must_agree(self):
+        for count in (None, False, -1, 1, "0"):
+            with self.subTest(count=count):
+                self.validate(dict(self.empty(), count=count), passes=False)
+        self.validate(self.empty(), rows=[{"product": "retained evidence"}], passes=False)
+
+    def test_nonempty_last_good_data_is_not_mutated_or_promoted(self):
+        row = {"product": "Last good product", "url": "https://source.example/product"}
+        for at in (FRESH, OLD, FUTURE, ""):
+            meta = self.producer([row], "https://source.example/", collected_at=at)
+            del meta["items"]
+            meta = freshness.age_channels({"fixture": meta}, now=NOW)["fixture"]
+            with self.subTest(at=at):
+                self.validate(meta, rows=[row])
+
+    def test_training_gate_remains_required(self):
+        self.validate(self.empty(), passes=False, training=False)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
