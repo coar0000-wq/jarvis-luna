@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:02:55.180405+00:00",
+  "generated_at": "2026-10-20T14:58:44.049601+00:00",
   "exchange_rate": {
     "usd_to_krw": 1330.79,
     "as_of": "2026-10-20",
@@ -99,7 +99,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "match"
           }
         },
@@ -152,7 +152,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "match"
           }
         },
@@ -259,7 +259,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "match"
           }
         },
@@ -422,7 +422,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "unverified_product_volume"
           }
         },
@@ -477,7 +477,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "match"
           }
         },
@@ -530,7 +530,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "match"
           }
         },
@@ -637,7 +637,7 @@
             "reasons": [],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "match"
           }
         },
@@ -800,7 +800,7 @@
             ],
             "source": "serpapi_google_shopping",
             "level": "product",
-            "age_days": 2.31,
+            "age_days": 2.47,
             "volume_status": "unverified_product_volume"
           }
         },

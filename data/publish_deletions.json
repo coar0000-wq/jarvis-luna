@@ -2,17 +2,6 @@
   "schema_version": 1,
   "deletions": [
     {
-      "path": "data/agents/workflow_freshness.json",
-      "base_sha256": "ddcd5a8c87038a686f73c0f8dedb9df60eb415a54fd2a616fbf44c455d52d90a",
-      "replacement_sha256": "16ea545647752a3d4b278b6e965456e2a03ede30cdc649bb52b1da5de555eb66",
-      "ids": [
-        "finished_at"
-      ],
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/amazon_new_products.json",
       "base_sha256": "699651797515e7b68bde2aed0b72a28b4fce9983456764ad8dd2f77190947df1",
       "ids": [
@@ -313,21 +302,6 @@
       "delete_file": false
     },
     {
-      "path": "data/daiso_real/shortlist_observations.json",
-      "base_sha256": "46b376af15153746addcf24c3ff905a300817c213f579694f0d15041469db8ab",
-      "replacement_sha256": "4c9ddad4cbff6ba4cf98e6a9e41d5b0d0f1a19036e431151c65451f6702e834b",
-      "ids": [
-        "CP000130",
-        "CP000216",
-        "https://www.daisomall.co.kr/robots.txt",
-        "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1055167",
-        "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1067498"
-      ],
-      "policy_ref": "scripts/shortlist_observation_history.py",
-      "delete_file": false,
-      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
-    },
-    {
       "path": "data/serpapi_market.json",
       "base_sha256": "44c57a081db0cdb558079520d377a65721d15e89938bbcb22bfef0565d4c5400",
       "ids": [
@@ -514,6 +488,86 @@
         "https://openalex.org/W7222482966",
         "https://openalex.org/W7222485874",
         "https://openalex.org/W7222492928"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/agents/workflow_freshness.json",
+      "base_sha256": "16ea545647752a3d4b278b6e965456e2a03ede30cdc649bb52b1da5de555eb66",
+      "replacement_sha256": "74d8bef9f0ae07f7c914a8680f7717f2a0b8c800c3dee0da306019facae91d54",
+      "ids": [
+        "finished_at"
+      ],
+      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
+      "policy_ref": "scripts/workflow_status_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "666d6f2adfd4a476d42f21157a184419194811e3380a7a768b2918ed8e587d79",
+      "ids": [
+        "action:intent:task_5c66ba20c1d9449462aa6df81cfa888fd6dbc1730b0c69309567070e40555f14",
+        "action:intent:task_ad0c0e175d38cb0482e6f2e09c0fbc9678eaa2622c8db0b69c56271ce2f52a2a",
+        "relation:5309ff9e00ccd1aa46ada286",
+        "relation:aa4f36cdf3f982887692fff5",
+        "relation:cb5d0605360b070396ef5a19",
+        "relation:f7c8cc8bdf112a8867cad75a"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "b82ddf8b87dad453712d67e9c527aa07528614792e352a99e5fd3d3c65030ab6",
+      "ids": [
+        "STALE_SOURCE_CAPTURE",
+        "finished_at",
+        "org-url:014a1e6110c91c7ff40b6b1630f4dbbc2ad9435bb9568eaff07b3c62517dfe27",
+        "org-url:07560628b64b51fcc999d54353286ce0680f8970eee41bdfc0c419bab8a345d1",
+        "org-url:1f32878a3c6db02e7f93a0b6a88129bbbc39361d2a74e196985bbbe7564a5b26",
+        "org-url:316b941bf780f59b0a7a70562d5b66716cf062f2caf792b3c200313a6a0891d3",
+        "org-url:3269bd9543e5738af1e018bf234bfcda57d3f9b9d8e437e3ac41c06b1fdd4ca8",
+        "org-url:35d18dcb927bbbe9c09b97a05d78783c9c8a111f8b3e48c0db4e608a54732102",
+        "org-url:39c543d19947995a6808cb701db75d89dd4b7cd4a5a7fb9b78aa7fc72bc9b070",
+        "org-url:42cc78bc9ee6cef282caa06151d003daf8f5c8fefaac938c79a347099fa67ee8",
+        "org-url:50f6cdce0680bea7dc8520d2d866a4d6acccea26c41fd602dc28ade22e28bbec",
+        "org-url:563e499cc4934b8bf8e51700050eafb378b71cd20948ca4fdda3977563a5beb0",
+        "org-url:6aa9e9af87b4ba2eb776b9112b439cc454e20bf0743d51676e8a3a59e0e4a4bf",
+        "org-url:6b28ef128c01b20faef809c82f2555de14cdc028a33aa4ae73814d575eec71a7",
+        "org-url:748694da76fbaccd526adc14e7840ea8df398d692935931a2b9bc4bdfd719ce8",
+        "org-url:7dfcf1dc8c62c8f3002d7c30f6d38ddcc2da7354d4af25996873c6ce81717afb",
+        "org-url:89382442b093236e375cb3dbf1741a311d74d4fe3215f77bf095ee22aabde93e",
+        "org-url:8eac7d794b4e867bfec921bad391d87e8cbc25db2468c19766a1034117f4d7bc",
+        "org-url:8eae12f757ff343ef7be3d36c5abb37e70d8498c390661d8a186b42222e06916",
+        "org-url:94af409cc3db32fcdd46e19ed031394891b1e911485e9be23d04e91189ca4b49",
+        "org-url:9544bd344b5e65cf5873b89c5721c30fc0207b658595180dbf74daee6992506e",
+        "org-url:9d11f616554ba5aaa39b10df7773f7a8e19f0da371ac5f2bc381e28957a9f92a",
+        "org-url:af02fc8384a669604adfe2fd8627b47a7ae123ab0ba2af76876b57505eec0796",
+        "org-url:af6f4ad4a3d55a45fe2af7c451e087e9239ab2242bccbf44f9d5f98e76c4a028",
+        "org-url:b812fe5f87a3ffe2309c93d695a13322986407e640cb97f328ff3853cb532fff",
+        "org-url:bf21cd74a0b340a43bd99c51d4f0c106045547c02740db9ef990b51f9ff717df",
+        "org-url:c5052a26ff90509173f68e9480bd1bc98f6aefc91f9e1d188c861c2492dc1918",
+        "org-url:ca17c09bada38c7e8674e5f86914d5d666cbfa897f0ccf4e47905b8991153444",
+        "org-url:cfeef17d412140dc81bb495e1a5d36d91868c5a28a0ebb5c179718deba58c0d8",
+        "org-url:cff87fe1ef1deb7d7e03e0d49d93d1f0e5e53cacc1046387350dfd085db759c7",
+        "org-url:d8e46cd2b70daceb803492d7bccfba9cdb8b6aafb6cc11e185641bd95cc31ffd",
+        "org-url:dbfb789f750e1a49f070f3c01f4852cbbe2b8aed2d34a97ad262bcb34fded230",
+        "org-url:ed4979d9bc83db3b239efe845f6e2a885f476a400ec15b84f643c089e5406b78",
+        "org-url:f357f45f2f7068e3d9059cc30678a6dcc8757100876d36a393cb5caed23aee95",
+        "org-url:f8e82285a170f12048e0e7b48935efa36138104b43e205098e13d912f57e20de",
+        "org-url:f9ad658ad61b317803751701dcd2bc0e2219516151bd1cabc568787bada7dfeb",
+        "url:3784bfeb88341eb37949fae218037edd9e6cdcc61747b5e452bf7ed300965df9",
+        "url:4078330ea0e67f2241b904bb7d7c0bc141abfc7dbdad63e77541213a6bc9e13e",
+        "url:47128769f8ac469109ee952f3112211e50d2cb5a52ae356408af9677b10ff842",
+        "url:568497c0ad15aa17f10a0da564eb9cf6b071b0d5303ab5acf0ff6d528d87c260",
+        "url:84338506937a0c912f3be6a0f70a2b0c86f568a9cf4df551a440d36b18517aa5",
+        "url:87744a9f08dca88a0e62ccc1eec9c72d9daced4e3f1264bf4a660c25b8382732",
+        "url:abd27da5501cbab5c82579669fc64126563f423c42997d41a3315b4054d1fa9d",
+        "url:f68d28fe5a5199a2b7db67ba5d1de16042b213db69e5df642f0cd694385aff43",
+        "url:ff2b9a63035e24cff948cbc7e6c976d79bc8a7d5c763febc582384bce9a0382b"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",

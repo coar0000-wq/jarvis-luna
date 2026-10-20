@@ -2,9 +2,9 @@
 title: "Shopify Store"
 type: store
 status: generated-from-jarvis-data
-updated_at: 2026-10-19T11:27:46.449027+00:00
+updated_at: 2026-10-20T14:58:31.893740+00:00
 live: 2
-registered_total: 13
+registered_total: 15
 ---
 
 # Shopify Store
@@ -13,7 +13,7 @@ registered_total: 13
 
 | 상품 | 카테고리 | 등록일 | 상태 | 가격 | 마진 |
 |---|---|---|---|---|---|
-| VT Reedle Shot 100 Facial Boosting First Ampoule 2 ml x 6 ea | skincare | 2026-10-10 | deleted_by_owner | - | - |
+| [[1049275 피부결케어 VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml 6개입]] | skincare | 2026-10-10 | deleted_by_owner | - | - |
 | Taeg Slim Brow Pencil 2 Ash Brown | makeup | 2026-10-09 | DRAFT | - | - |
 | Dove Sensitive Bar 90 g | body | 2026-10-09 | DRAFT | - | - |
 | [[1049276 피부결케어 VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml 6개입]] | skincare | 2026-10-10 | ACTIVE | 14.99 | 33.6 |
@@ -26,3 +26,5 @@ registered_total: 13
 | 플루365 바디 스크럽 100 g 라즈베리 향 | body | 2026-10-18 | DRAFT | 18.99 | 47.2 |
 | [[1074979 01 페일화이트 밀크터치 디어씽 페이스 컨투어 크림 브라이트너]] | makeup | 2026-10-19 | DRAFT | 16.64 | 40.0 |
 | 46cm 체취솔루션 데오드란트 바디워시 스파클링 시트러스향 225 ml | body | 2026-10-19 | DRAFT | 22.23 | 40.0 |
+| THE LAB by BLANC DOUX Clear Hyal Dewy Glow Tinted Cover Cream 40 mL | makeup | 2026-10-20 | DRAFT | 38.99 | 68.8 |
+| 46cm Body Wash Refreshing Herbal 225 mL | body | 2026-10-20 | DRAFT | 22.28 | 40.0 |
