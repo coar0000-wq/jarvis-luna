@@ -14,7 +14,8 @@
 아니므로 두 곳은 OpenAlex 경로에서 제외하고 자사 사이트맵만 사용한다.
 """
 from __future__ import annotations
-import gzip, html, json, re, sys, time, urllib.parse, urllib.request
+import gzip, html, json, re, sys, time, urllib.error, urllib.parse, urllib.request
+from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -131,6 +132,85 @@ def fetch(url: str, limit: int = 3_000_000) -> str:
     return raw.decode("utf-8", "replace")
 
 
+def failure(org, url, *, reason=None, exc=None):
+    """Keep actionable HTTP diagnostics without response bodies, keys or URL queries."""
+    parsed = urllib.parse.urlsplit(url)
+    endpoint = urllib.parse.urlunsplit((parsed.scheme, parsed.hostname or "", parsed.path, "", ""))
+    code = exc.code if isinstance(exc, urllib.error.HTTPError) else None
+    return {"org": org, "url": endpoint,
+            "reason": reason or (f"{type(exc).__name__}: HTTP {code}" if code else type(exc).__name__),
+            "http_status": code}
+
+
+def provenance(row):
+    # An org can have both papers and an RSS/sitemap. Success in one must never
+    # erase the other. Feed identity also protects separate feeds for one org.
+    return (row.get("source"), row.get("org"), row.get("feed") or "")
+
+
+def merge_attempt(previous, batches, attempted_at):
+    """Replace only successful provenance groups; carry failure clocks unchanged."""
+    sources = deepcopy(previous.get("sources") or {})
+    fresh = []
+    for source, (got, bad) in batches.items():
+        def failed(row):
+            feed = urllib.parse.urlsplit(row.get("feed") or "")
+            endpoint = urllib.parse.urlunsplit((feed.scheme, feed.hostname or "", feed.path, "", ""))
+            return any(f.get("org") == row.get("org") and
+                       (source == "openalex" or not f.get("url") or f["url"] == endpoint)
+                       for f in bad)
+        # Conflicting partial rows from a failed feed are not replacements.
+        fresh.extend({**row, "collected_at": attempted_at, "retained": False}
+                     for row in got if not failed(row))
+    replaced = {provenance(row) for row in fresh}
+    retained = []
+    for row in previous.get("items") or []:
+        if provenance(row) in replaced:
+            continue
+        kept = deepcopy(row)
+        source_meta = (previous.get("sources") or {}).get(row.get("source")) or {}
+        # Legacy artifacts lack row clocks. Inherit the actual source snapshot,
+        # never the time at which this failed attempt is being assembled.
+        pool_clock = (source_meta.get("collected_at")
+                      if source_meta.get("status") in ("ok", "success") else None)
+        kept["collected_at"] = row.get("collected_at") or row.get("captured_at") or pool_clock
+        kept["retained"] = True
+        retained.append(kept)
+    seen, final = set(), []
+    for row in fresh + retained:
+        identity = (provenance(row), row.get("url") or "", row.get("title", "").lower())
+        if identity not in seen:
+            seen.add(identity)
+            final.append(row)
+    for source, (got, bad) in batches.items():
+        rows = [r for r in final if r.get("source") == source]
+        count = sum(not r["retained"] for r in rows)
+        clocks = [r.get("collected_at") for r in rows]
+        sources[source] = {**sources.get(source, {}),
+            "status": ("partial" if count else "failed") if bad else ("ok" if count else "empty"),
+            "count": len(rows), "fresh_count": count,
+            "retained_count": len(rows) - count, "failures": bad,
+            "attempted_at": attempted_at,
+            "collected_at": min(clocks) if clocks and all(clocks) else None}
+    by_org, by_cat, by_kind = {}, {}, {}
+    for row in final:
+        for counts, field in ((by_org, "org"), (by_cat, "category"), (by_kind, "kind")):
+            counts[row[field]] = counts.get(row[field], 0) + 1
+    fresh_count = sum(not r["retained"] for r in final)
+    failures = [f for meta in sources.values() for f in meta.get("failures") or []]
+    clocks = [r.get("collected_at") for r in final]
+    # The root clock describes the complete retained dataset, so it is the
+    # oldest source capture. generated_at/attempted_at describe this execution.
+    return {**previous, "generated_at": attempted_at, "attempted_at": attempted_at,
+            "collected_at": min(clocks) if clocks and all(clocks) else None,
+            "status": ("partial" if fresh_count else "failed") if failures else ("ok" if fresh_count else "empty"),
+            "fresh_count": fresh_count, "retained_count": len(final) - fresh_count,
+            "failure_count": len(failures), "total": len(final), "organizations": len(by_org),
+            "by_org": dict(sorted(by_org.items(), key=lambda x: -x[1])),
+            "by_category": by_cat, "by_kind": by_kind, "sources": sources,
+            "not_collected": {**(previous.get("not_collected") or {}), **NOT_COLLECTED}, "items": final}
+
+
 def clean(text: str) -> str:
     # CDATA 를 먼저 벗겨야 한다. <![CDATA[제목]]> 을 그대로 두면 태그 제거 정규식에
     # 통째로 걸려 제목이 빈 문자열이 된다. AMD·OpenAI·Samsung·Palantir 피드가 해당.
@@ -190,7 +270,7 @@ def collect_rss():
         try:
             rows = parse_rss(fetch(url), PER_RSS)
             if not rows:
-                fails.append({"org": org, "url": url, "reason": "항목 0건"})
+                fails.append(failure(org, url, reason="항목 0건"))
                 continue
             for r in rows:
                 r.update({"org": org, "category": cat, "kind": "발표물",
@@ -198,8 +278,8 @@ def collect_rss():
             items += rows
             print(f"  RSS      {org:22s} {len(rows):3d}건")
         except Exception as exc:
-            fails.append({"org": org, "url": url, "reason": f"{type(exc).__name__}: {exc}"[:120]})
-            print(f"  RSS      {org:22s} 실패 {type(exc).__name__}")
+            fails.append(failure(org, url, exc=exc))
+            print(f"  RSS      {org:22s} 실패 {fails[-1]['reason']}")
         time.sleep(DELAY)
     return items, fails
 
@@ -258,7 +338,7 @@ def collect_sitemap():
             rows.sort(key=lambda r: r["date"], reverse=True)
             rows = rows[:PER_SITEMAP]
             if not rows:
-                fails.append({"org": org, "url": sm_url, "reason": "lastmod 있는 매칭 URL 0건"})
+                fails.append(failure(org, sm_url, reason="lastmod 있는 매칭 URL 0건"))
                 continue
             got = 0
             for i, r in enumerate(rows):
@@ -275,8 +355,8 @@ def collect_sitemap():
             items += rows
             print(f"  사이트맵  {org:22s} {got:3d}건")
         except Exception as exc:
-            fails.append({"org": org, "url": sm_url, "reason": f"{type(exc).__name__}: {exc}"[:120]})
-            print(f"  사이트맵  {org:22s} 실패 {type(exc).__name__}")
+            fails.append(failure(org, sm_url, exc=exc))
+            print(f"  사이트맵  {org:22s} 실패 {fails[-1]['reason']}")
         time.sleep(DELAY)
     return items, fails
 
@@ -323,13 +403,13 @@ def collect_openalex():
         try:
             rows = work_rows(openalex(url)["results"], org, cat)
             if not rows:
-                fails.append({"org": org, "url": url, "reason": "논문 0건"})
+                fails.append(failure(org, url, reason="논문 0건"))
                 continue
             items += rows
             print(f"  OpenAlex {org:22s} {len(rows):3d}건")
         except Exception as exc:
-            fails.append({"org": org, "url": url, "reason": f"{type(exc).__name__}: {exc}"[:120]})
-            print(f"  OpenAlex {org:22s} 실패 {type(exc).__name__}")
+            fails.append(failure(org, url, exc=exc))
+            print(f"  OpenAlex {org:22s} 실패 {fails[-1]['reason']}")
         time.sleep(DELAY)
 
     for org, cat, query, token in OPENALEX_AFFIL:
@@ -341,13 +421,13 @@ def collect_openalex():
             res = openalex(url)["results"]
             rows = work_rows(res, org, cat, token=token)
             if not rows:
-                fails.append({"org": org, "url": url, "reason": "소속 재확인 통과 0건"})
+                fails.append(failure(org, url, reason="소속 재확인 통과 0건"))
                 continue
             items += rows
             print(f"  OpenAlex {org:22s} {len(rows):3d}건 (소속검색 {len(res)}건 중)")
         except Exception as exc:
-            fails.append({"org": org, "url": url, "reason": f"{type(exc).__name__}: {exc}"[:120]})
-            print(f"  OpenAlex {org:22s} 실패 {type(exc).__name__}")
+            fails.append(failure(org, url, exc=exc))
+            print(f"  OpenAlex {org:22s} 실패 {fails[-1]['reason']}")
         time.sleep(DELAY)
     return items, fails
 
@@ -357,60 +437,29 @@ def main() -> int:
     for a in sys.argv[1:]:
         if a.startswith("--only="):
             only = a.split("=", 1)[1]
-    sources, items, fails = {}, [], []
+    if only and only not in {"rss", "sitemap", "openalex"}:
+        raise ValueError("--only must be rss, sitemap or openalex")
+    # A malformed previous snapshot must fail closed rather than silently erase it.
+    previous = json.loads(OUT.read_text(encoding="utf-8-sig")) if OUT.exists() else {}
+    if not isinstance(previous, dict):
+        raise ValueError("institution snapshot must be an object")
+    batches = {}
     plan = [("rss", collect_rss), ("sitemap", collect_sitemap), ("openalex", collect_openalex)]
     for key, fn in plan:
-        if only and only != key:
-            continue
-        got, bad = fn()
-        items += got
-        fails += bad
-        sources[key] = {"status": "ok" if got else "empty", "count": len(got),
-                        "failures": bad, "collected_at": now()}
-
-    seen, uniq = set(), []
-    for it in items:
-        k = (it["org"], it["url"] or "", it["title"].lower())
-        if k in seen:
-            continue
-        seen.add(k)
-        uniq.append(it)
-
-    final = uniq
-    if only and OUT.exists():
-        prev = json.loads(OUT.read_text(encoding="utf-8"))
-        keep = [i for i in prev.get("items", []) if i.get("source") != only]
-        final = keep + uniq
-        for key, meta in prev.get("sources", {}).items():
-            sources.setdefault(key, meta)
-
-    # 집계는 반드시 병합이 끝난 뒤 계산한다. 부분 실행일 때 이번 회차 항목만으로
-    # 계산하면 기관 수와 분류가 실제 파일 내용과 어긋난다.
-    by_org, by_cat, by_kind = {}, {}, {}
-    for it in final:
-        by_org[it["org"]] = by_org.get(it["org"], 0) + 1
-        by_cat[it["category"]] = by_cat.get(it["category"], 0) + 1
-        by_kind[it["kind"]] = by_kind.get(it["kind"], 0) + 1
-
-    payload = {
-        "collected_at": now(),
-        "total": len(final),
-        "organizations": len(by_org),
-        "by_org": dict(sorted(by_org.items(), key=lambda x: -x[1])),
-        "by_category": by_cat,
-        "by_kind": by_kind,
-        "sources": sources,
-        "not_collected": NOT_COLLECTED,
-        "items": final,
-    }
-    if only:
-        payload["partial_run"] = only
+        if not only or only == key:
+            batches[key] = fn()
+    payload = merge_attempt(previous, batches, now())
+    if only or "partial_run" in previous:
+        payload["partial_run"] = only or "all"
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\n총 {payload['total']}건 / 기관 {len(by_org)}곳 -> {OUT}")
-    print(f"실패 {len(fails)}건")
-    return 0 if uniq else 1
+    print(f"\n총 {payload['total']}건 / 기관 {payload['organizations']}곳 -> {OUT}")
+    print(f"상태 {payload['status']} · 신규 관측 {payload['fresh_count']}건 · "
+          f"지난 자료 보존 {payload['retained_count']}건 · 실패 {payload['failure_count']}건")
+    # Deep treats this stage as optional, so preserved partial data can publish
+    # while the execution receipt truthfully reports a degraded collector.
+    return 0 if payload["fresh_count"] and not payload["failure_count"] else 1
 
 
 if __name__ == "__main__":

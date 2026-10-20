@@ -72,7 +72,12 @@ def main() -> int:
     inst = load(DATA / "institution_sources.json") or {}
     for org, why in (inst.get("not_collected") or {}).items():
         add("기관 수집팀", org, why, classify(why),
-            "OpenAlex 논문 경로는 살아 있다" if "OpenAlex" in str(why) else "")
+            "OpenAlex 현재 수집 상태는 별도 실패 기록 확인" if "OpenAlex" in str(why) else "")
+    for source, meta in (inst.get("sources") or {}).items():
+        for failure in meta.get("failures") or []:
+            add("기관 수집팀", f"{source}: {failure.get('org', '')}",
+                failure.get("reason") or "수집 실패", BROKEN,
+                "지난 자료와 원래 수집 시각 보존. 접근 제한·할당량은 복구 확인 후 재시도 필요")
 
     # 팀 피드. not_collected 는 "예전에 이 주소가 없더라" 는 기록이지
     # 지금 고장났다는 뜻이 아니다. 실제 실패는 fda_failures 에 담긴다.

@@ -67,6 +67,7 @@ jobs:
           python scripts/test_publish_transaction.py
           python scripts/test_collector_snapshot_history.py
           python scripts/test_channel_expansion_preservation.py
+          python scripts/test_partial_source_preservation.py
           python -B -m unittest discover -s scripts -p "test_operations_publish_bytes.py"
           python -B -m unittest discover -s scripts -p "test_commerce_pipeline_workflows.py"
           python -B scripts/test_document_handoffs.py

@@ -576,9 +576,11 @@ def collect_institutions():
             "kind": x.get("kind") or "",
             "venue": x.get("venue") or "",
         })
-    return _capture_summary({"status": "ok" if items else "empty",
+    failures = sum(len(meta.get("failures") or []) for meta in (d.get("sources") or {}).values())
+    status = d.get("status") or ("partial" if failures else "ok" if items else "empty")
+    return _capture_summary({"status": status,
             "source": "Institutions (RSS + sitemap + OpenAlex, 35개 기관)",
-            "reason": "" if items else "수집 항목 없음",
+            "reason": f"출처 수집 실패 {failures}건; 지난 관측 시각 보존" if failures else "" if items else "수집 항목 없음",
             "items": items})
 
 

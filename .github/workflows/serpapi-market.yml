@@ -93,6 +93,7 @@ jobs:
 
       # YouTube. 같은 원장을 쓰고 용도별 상한(youtube 30/월)이 따로 있다.
       - name: YouTube 검색 수집
+        id: youtube
         continue-on-error: true
         timeout-minutes: 5
         env:
@@ -116,7 +117,8 @@ jobs:
           try:
               y = json.loads(Path("data/youtube_serpapi.json").read_text(encoding="utf-8"))
               bud = y.get("예산") or {}
-              print(f"- youtube: 영상 {y.get('video_count', 0)}건 · "
+              print(f"- youtube: {y.get('status', 'unknown')} · 이번 영상 {y.get('video_count', 0)}건 · "
+                    f"실패 질의 {y.get('failed_query_count', 0)}개 · "
                     f"예산 {bud.get('youtube_used','?')}/{bud.get('youtube_cap','?')}")
               bm = y.get("bucket_mentions") or {}
               if bm:
@@ -155,8 +157,8 @@ jobs:
       - name: 앞 단계 실패 확인
         if: always()
         run: |
-          if [ "${{ job.status }}" != "success" ]; then
-            echo "::error::앞 단계 중 하나가 실패했다. 커밋은 마쳤으니 자료는 남아 있다."
+          if [ "${{ job.status }}" != "success" ] || [ "${{ steps.youtube.outcome }}" = "failure" ]; then
+            echo "::error::앞 단계 중 하나가 실패했다. 자료 발행 여부는 발행 단계 결과를 확인해야 한다."
             exit 1
           fi
           echo "모든 단계 정상"

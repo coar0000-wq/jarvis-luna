@@ -796,10 +796,17 @@ def team_cards(graph: dict, gcs: dict | None = None) -> list[dict]:
     # 기관 수집팀 --------------------------------------------------------
     inst = load_json(D / "institution_sources.json", None)
     if inst:
+        failures = sum(len(meta.get("failures") or []) for meta in (inst.get("sources") or {}).values())
+        partial = inst.get("status") in ("partial", "failed", "empty") or failures > 0
+        detail = (f" · 이번 수집 실패 {failures}건 · 지난 자료 {inst.get('retained_count', 0)}건 보존"
+                  if partial else "")
         cards.append(_team(
             "institutions", "기관 수집팀", inst.get("collected_at"),
             f'{inst.get("organizations", 0)}곳 {inst.get("total", 0):,}건 · '
-            f'미수집 {len(inst.get("not_collected") or {})}건 사유 기록' + feed_tail("institutions")))
+            f'미수집 {len(inst.get("not_collected") or {})}건 사유 기록' + detail + feed_tail("institutions"),
+            status="warning" if partial else "ok",
+            waiting="일부 출처 수집 실패. 원래 수집 시각으로 지난 자료를 보존했다." if partial else None,
+            waiting_kind="external_dependency"))
     else:
         cards.append(_team("institutions", "기관 수집팀", None,
                            "institution_sources.json 없음", None, "missing"))
