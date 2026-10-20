@@ -1607,7 +1607,13 @@
       "price_position": "cheapest_or_equal",
       "strategy_hints": [],
       "shopify_id": "gid://shopify/Product/9652410122497",
-      "handle": "더랩-바이-블랑두-클리어-히알-물광-틴티드-커버-크림-40-ml"
+      "handle": "더랩-바이-블랑두-클리어-히알-물광-틴티드-커버-크림-40-ml",
+      "notice_collection": {
+        "missing": [],
+        "source_complete": true,
+        "evidence": {},
+        "label_reasons": []
+      }
     },
     {
       "pd_no": "1069430",
@@ -2274,5 +2280,6 @@
       }
     ]
   },
-  "gallery_review_cursor": "gid://shopify/Product/9592600068353"
+  "gallery_review_cursor": "gid://shopify/Product/9592600068353",
+  "notice_enrichment_cursor": "gid://shopify/Product/9652410122497"
 }
