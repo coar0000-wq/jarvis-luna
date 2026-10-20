@@ -1,12 +1,66 @@
 {
-  "generated_at": "2026-10-19T23:55:41.323730+00:00",
+  "generated_at": "2026-10-20T23:24:04.861729+00:00",
   "generator": "scripts/collect_via_gemini.py",
   "model": "gemini-flash-lite-latest",
   "method": "Gemini API url_context 도구",
   "trust_note": "LLM 이 페이지를 읽어 옮긴 값이다. 결정적 파싱보다 신뢰도가 낮다. 대시보드에서 'AI 추출' 로 구분 표시하며 가격 정책 계산에는 사용하지 않는다.",
-  "total": 52,
+  "total": 3,
   "channels": {
     "ulta_beauty": {
+      "label": "Ulta Beauty",
+      "url": "https://www.ulta.com/shop/skin-care/moisturizers",
+      "robots_note": "ulta.com robots.txt: Google-Extended 에 상품 경로 허용",
+      "count": 0,
+      "status": "failed",
+      "reason": "페이지에서 상품을 얻지 못함",
+      "url_context_result": "{\"call_id\": \"call_201182\", \"signature\": \"CAIS24kDAWkUfRPk667takSsQO3i3Cvk3KLuiJZSfl1k2JT6ZTfkaBIaHiHcxcQc/u4Lpgx+8l4YHgCJR3AywcGrccht2CrFrtexlH1LUGLw0Z3DLPeMd4DOCSt191qB7PPdQPgznCh8fXW5d8rqRCS1HkY/SGiItvjrrVUJdi/eTmysCg7A6QOv5K6cmq+idIHifRyeWPetdTfIjFIZyPYYGQHCAzMU7k7hlmMIJXkLp5GcnYDP88YSNIfEfx0ZH1d",
+      "products": []
+    },
+    "sephora": {
+      "label": "Sephora",
+      "url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+      "robots_note": "sephora.com robots.txt: /browse/ 와 /search 금지, Crawl-delay 5",
+      "count": 3,
+      "status": "ok",
+      "reason": "",
+      "url_context_result": "{\"call_id\": \"call_799945\", \"signature\": \"CAISqyIBaRR9E20W3uA2VRJbaCdoSapWbP8KWQG+VEldutBKYzkr6QAqkgzK24Zy0/Xxq8SotLDw39BpS6zH37t+Uj+sWI8XOO3L5S72m2qovUZ8ppwqRHV47mIoyBbIibzW/fm/FLB4bjV2A81m7amLcHYWYGwPuHs3XLq10RETKDNEMUSFAej5rsmiI9C261zj3KF37l8Eue2Ab7u6Xiz0kAqhqNe65a/KdPXXGyunpTI9MrMhyetvd0ikaAYVxq9",
+      "products": [
+        {
+          "rank": 1,
+          "product": "Glazing Milk Hydrating Ceramide Facial Essence",
+          "brand": "rhode",
+          "price_usd": 20.0,
+          "rating": null,
+          "review_count": 2900,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 2,
+          "product": "ATOBARRIER365 Cream Moisturizer with Ceramides & Niacinamide for Skin Moisture Barrier Repair",
+          "brand": "AESTURA",
+          "price_usd": 21.0,
+          "rating": null,
+          "review_count": 835,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        },
+        {
+          "rank": 3,
+          "product": "The Dewy Skin Cream Hydrating & Firming Refillable Moisturizer",
+          "brand": "Tatcha",
+          "price_usd": 25.0,
+          "rating": null,
+          "review_count": 4400,
+          "source_url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
+          "extraction_method": "gemini_url_context"
+        }
+      ]
+    }
+  },
+  "last_successful_channels": {
+    "ulta_beauty": {
+      "observed_at": "2026-10-19T23:55:41.323730+00:00",
       "label": "Ulta Beauty",
       "url": "https://www.ulta.com/shop/skin-care/moisturizers",
       "robots_note": "ulta.com robots.txt: Google-Extended 에 상품 경로 허용",
@@ -138,6 +192,7 @@
       ]
     },
     "sephora": {
+      "observed_at": "2026-10-19T23:55:41.323730+00:00",
       "label": "Sephora",
       "url": "https://www.sephora.com/shop/moisturizing-cream-oils-mists",
       "robots_note": "sephora.com robots.txt: /browse/ 와 /search 금지, Crawl-delay 5",
@@ -548,6 +603,5 @@
         }
       ]
     }
-  },
-  "last_successful_channels": {}
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:23:53.690760+00:00",
+  "generated_at": "2026-10-20T23:26:00.952258+00:00",
   "overall_status": "warning",
   "status_legend": {
     "success": "정상",
@@ -35,7 +35,7 @@
       "daiso_collection_publication": "unknown",
       "daiso_overall_workflow": "unknown",
       "deep_heartbeat": "17.5 days ago",
-      "actions_monitor": "8.7 hours ago",
+      "actions_monitor": "8.8 hours ago",
       "gosi": "18.2 days ago",
       "product_discovery": "just now"
     }
@@ -62,7 +62,7 @@
     {
       "team": "legal_full",
       "status": "waiting",
-      "reason": "MoCRA 풀스키마 완료 0/7 · 공개 차단 7건 · 사람 입력 대기: identity 7건, legal_hard_block 4건, ingredients 3건, directions 3건",
+      "reason": "MoCRA 풀스키마 완료 0/7 · 공개 차단 7건 · 사람 입력 대기: identity 7건, ingredients 4건, directions 4건, warnings 4건",
       "is_failure": false,
       "waiting_kind": "human_approval_required",
       "freshness": "just now"
@@ -99,9 +99,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 23.26,
-      "attempt_age_hours": 23.26,
-      "success_age_hours": 526.582,
+      "candidate_success_age_hours": 23.295,
+      "attempt_age_hours": 23.295,
+      "success_age_hours": 526.617,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,
@@ -1761,9 +1761,9 @@
           "candidates_new": 91,
           "candidates_updated": 0,
           "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-          "candidate_success_age_hours": 23.26,
-          "attempt_age_hours": 23.26,
-          "success_age_hours": 526.582,
+          "candidate_success_age_hours": 23.295,
+          "attempt_age_hours": 23.295,
+          "success_age_hours": 526.617,
           "data_stale": true,
           "attempt_stale": false,
           "is_no_change": false,
@@ -1822,7 +1822,7 @@
       "status": "warning",
       "reason": "SafeAutoFix heartbeat 지연 (419.5시간)",
       "last_attempt_at": "2026-10-03T11:54:59.008115+00:00",
-      "age_hours": 419.482,
+      "age_hours": 419.517,
       "next_expected_at": "2026-10-03T13:54:59.008115+00:00",
       "grace_deadline_at": "2026-10-03T16:24:59.008115+00:00",
       "is_failure": false,
@@ -1835,7 +1835,7 @@
       "reason": "GitHub Actions 상태 조회 시각 미확인 또는 4.5시간 경과",
       "is_failure": false,
       "observed_at": "2026-10-20T14:39:48.529398Z",
-      "freshness": "8.7 hours ago"
+      "freshness": "8.8 hours ago"
     },
     {
       "team": "gosi",
@@ -3508,9 +3508,9 @@
       "candidates_new": 91,
       "candidates_updated": 0,
       "last_candidate_success_at": "2026-10-20T00:08:18.691253+00:00",
-      "candidate_success_age_hours": 23.26,
-      "attempt_age_hours": 23.26,
-      "success_age_hours": 526.582,
+      "candidate_success_age_hours": 23.295,
+      "attempt_age_hours": 23.295,
+      "success_age_hours": 526.617,
       "data_stale": true,
       "attempt_stale": false,
       "is_no_change": false,

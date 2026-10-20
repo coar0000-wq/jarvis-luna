@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:23:17.420092+00:00",
+  "generated_at": "2026-10-20T23:25:24.637583+00:00",
   "note": "점수는 높았으나 S에서 탈락한 후보. 등록하지 말 것.",
   "count": 59,
   "items": [
@@ -12,6 +12,16 @@
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
       "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak"
+    },
+    {
+      "canonical_product_id": "CP000106",
+      "pd_no": "1049275",
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "bucket": "스킨케어",
+      "shopify_score": 98,
+      "s_rule": "form_cap",
+      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
     },
     {
       "canonical_product_id": "CP000085",
@@ -42,16 +52,6 @@
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림",
       "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule"
-    },
-    {
-      "canonical_product_id": "CP000178",
-      "pd_no": "1061918",
-      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
-      "bucket": "스킨케어",
-      "shopify_score": 98,
-      "s_rule": "match_too_weak",
-      "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000101",
@@ -91,7 +91,7 @@
       "shopify_score": 96,
       "s_rule": "match_too_weak",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak"
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000198",
@@ -231,7 +231,7 @@
       "shopify_score": 92,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn"
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn"
     },
     {
       "canonical_product_id": "CP000242",
@@ -271,17 +271,7 @@
       "shopify_score": 90,
       "s_rule": "form_cap",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn"
-    },
-    {
-      "canonical_product_id": "CP000234",
-      "pd_no": "1068861",
-      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
-      "bucket": "스킨케어",
-      "shopify_score": 90,
-      "s_rule": "no_global_match",
-      "downgrade_reason": null,
-      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 953건 (글로벌 시그널 약함)"
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn"
     },
     {
       "canonical_product_id": "CP000344",
@@ -341,7 +331,7 @@
       "shopify_score": 88,
       "s_rule": "weak_solo_token",
       "downgrade_reason": null,
-      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:weak_solo_token"
+      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:weak_solo_token"
     },
     {
       "canonical_product_id": "CP000157",
@@ -349,9 +339,9 @@
       "name": "메디필 락토 모공 리프팅 랩핑 마스크 4 ml 4개입",
       "bucket": "마스크팩",
       "shopify_score": 87,
-      "s_rule": "form_cap",
-      "downgrade_reason": "동일 제형(기타) 상위 2개에 밀림",
-      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials' (amazon_best_sellers) 유사 64% · 토큰 mask, pore"
+      "s_rule": "match_too_weak",
+      "downgrade_reason": null,
+      "recommend_reason": "글로벌 'Pore Cleansing Oil [BHA]' (sokoglam_us) 유사 43% · 토큰 pore · S제외:match_too_weak"
     },
     {
       "canonical_product_id": "CP000125",
@@ -402,6 +392,16 @@
       "s_rule": "no_global_match",
       "downgrade_reason": null,
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 1,348건 (글로벌 시그널 약함)"
+    },
+    {
+      "canonical_product_id": "CP000088",
+      "pd_no": "1044967",
+      "name": "어퓨 더퓨어 티트리 에센스 50ml",
+      "bucket": "스킨케어",
+      "shopify_score": 86,
+      "s_rule": "no_global_match",
+      "downgrade_reason": null,
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 838건 (글로벌 시그널 약함)"
     }
   ]
 }

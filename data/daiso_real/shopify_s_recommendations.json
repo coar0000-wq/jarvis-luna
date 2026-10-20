@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:23:17.420092+00:00",
+  "generated_at": "2026-10-20T23:25:24.637583+00:00",
   "source": "score_shopify_demand.py",
   "canonical": true,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
@@ -72,7 +72,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:23:18.185353+00:00"
+      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
     },
     {
       "rank": 2,
@@ -87,17 +87,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055167",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/0lOXklS1nx5HxNuMya731055167_00_000lOXklS1nx5HxNuMya73.jpg",
-      "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 85% · 토큰 retinol, serum",
+      "recommend_reason": "글로벌 'Anti-Aging Retinol Facial Serum' (ulta_beauty) 유사 88% · 토큰 retinol, serum",
       "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Expert Retinol Super Bounce Serum",
-        "similarity": 0.853,
-        "demand_weight": 0.475,
+        "channel": "ulta_beauty",
+        "global_product": "Anti-Aging Retinol Facial Serum",
+        "similarity": 0.88,
+        "demand_weight": 0.595,
         "matched_tokens": [
           "retinol",
           "serum"
         ],
-        "match_score": 0.405
+        "match_score": 0.524
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -141,47 +141,51 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:23:18.185353+00:00"
+      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
     },
     {
       "rank": 3,
-      "canonical_product_id": "CP000106",
-      "pd_no": "1049275",
-      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "canonical_product_id": "CP000178",
+      "pd_no": "1061918",
+      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
       "bucket": "스킨케어",
       "desk": "skincare",
-      "price_krw": 3000,
+      "price_krw": 5000,
       "shopify_score": 98,
       "grade": "S",
-      "s_rule": "strong_form",
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
-      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "s_rule": "multi_token",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/lcOc1IVBETy66kefZV8g1061918_00_00lcOc1IVBETy66kefZV8g.jpg",
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
       "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Time Revolution Night Repair Ampoule 5X",
-        "similarity": 0.667,
-        "demand_weight": 0.617,
+        "channel": "ulta_beauty",
+        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+        "similarity": 0.634,
+        "demand_weight": 0.68,
         "matched_tokens": [
-          "ampoule"
+          "brightening",
+          "vitaminc"
         ],
-        "match_score": 0.411
+        "match_score": 0.431
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
       "agent_ready": false,
       "agent_blocked_by": [
+        "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "blocked_by": [
         "copy",
+        "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "public_ready": false,
       "public_blocked_by": [
         "copy",
+        "us_label",
         "legal",
         "manufacturer_safety_record_missing",
         "product_accuracy_owner_review_required",
@@ -198,7 +202,7 @@
         "grade_advisory": "hold",
         "legal_gate_advisory": "block",
         "risk_level": "critical",
-        "risk_points": 7,
+        "risk_points": 8,
         "team_routes": [
           "legal",
           "listing"
@@ -206,15 +210,15 @@
         "model_route": "human",
         "model_route_confidence": null,
         "findings": [
-          "draft blockers: copy, legal, manufacturer_safety_record_missing",
-          "public blockers: copy, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
+          "draft blockers: copy, us_label, legal, manufacturer_safety_record_missing",
+          "public blockers: copy, us_label, legal, manufacturer_safety_record_missing, product_accuracy_owner_review_required, market_price_review, legal_full",
           "legal hard block",
           "TypeSafe local fallback: disabled_local_advisory"
         ],
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:23:18.185353+00:00"
+      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
     },
     {
       "rank": 4,
@@ -229,17 +233,17 @@
       "s_rule": "ingredient+form",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067498",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/wj1JQs4g8q0tBuz4c7jF1067498_00_01wj1JQs4g8q0tBuz4c7jF.jpg",
-      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn",
       "matched_global": {
-        "channel": "ulta_beauty",
-        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-        "similarity": 0.88,
-        "demand_weight": 0.85,
+        "channel": "oliveyoung_us",
+        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
+        "similarity": 0.834,
+        "demand_weight": 0.637,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.748
+        "match_score": 0.531
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -283,7 +287,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:23:18.185353+00:00"
+      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
     },
     {
       "rank": 5,
@@ -295,20 +299,20 @@
       "price_krw": 5000,
       "shopify_score": 93,
       "grade": "S",
-      "s_rule": "ingredient+form",
+      "s_rule": "multi_token",
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
-      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc",
+      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
       "matched_global": {
-        "channel": "sokoglam_us",
-        "global_product": "Yuzu Vitamin C Bright Eye Cream",
-        "similarity": 0.653,
-        "demand_weight": 0.475,
+        "channel": "ulta_beauty",
+        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
+        "similarity": 0.634,
+        "demand_weight": 0.68,
         "matched_tokens": [
-          "cream",
+          "brightening",
           "vitaminc"
         ],
-        "match_score": 0.31
+        "match_score": 0.431
       },
       "registerable": false,
       "registerable_source": "data/listing_gate.json",
@@ -364,7 +368,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:23:18.185353+00:00"
+      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
     },
     {
       "rank": 6,
@@ -444,7 +448,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:23:18.185353+00:00"
+      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
     },
     {
       "rank": 7,
@@ -511,7 +515,7 @@
         "confidence": null,
         "usage": null
       },
-      "gate_generated_at": "2026-10-20T23:23:18.185353+00:00"
+      "gate_generated_at": "2026-10-20T23:25:25.410041+00:00"
     }
   ],
   "agent_ready_count": 0,

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T08:23:18.326956+09:00",
+  "generated_at": "2026-10-21T08:25:25.555531+09:00",
   "generator": "scripts/build_shopify_marketing_strategy.py",
   "status": "evidence_ready",
   "scope": "US K-Beauty Shopify launch marketing",
@@ -3412,9 +3412,9 @@
       "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
     },
     {
-      "canonical_product_id": "CP000106",
-      "pd_no": "1049275",
-      "product": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "canonical_product_id": "CP000178",
+      "pd_no": "1061918",
+      "product": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
       "bucket": "스킨케어",
       "grade": "S",
       "score": 98,
@@ -3444,7 +3444,7 @@
         "무료배송 임계값을 고려한 루틴 또는 수량 세트 손익 계산"
       ],
       "paid_action_status": "blocked_until_explicit_user_approval",
-      "claim_guardrail": "사용 주의·제품 사실을 먼저 제시하고 자극·치료 효능을 단정하지 않음"
+      "claim_guardrail": "고시·영문 라벨·법률 게이트가 확인한 사실만 사용"
     },
     {
       "canonical_product_id": "CP000216",
@@ -3736,7 +3736,7 @@
     "Social Paradigm Group 영상의 대행사·브랜드 규모 홍보와 보편 매출·전환 벤치마크는 제외하고 단위경제 선행 진단과 자사 기준선 판정 원칙만 채택"
   ],
   "integrity": {
-    "listing_gate_generated_at": "2026-10-20T23:23:18.185353+00:00",
+    "listing_gate_generated_at": "2026-10-20T23:25:25.410041+00:00",
     "s_product_count": 7,
     "product_playbook_count": 7,
     "public_ready_count": 0,

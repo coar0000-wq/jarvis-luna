@@ -4,7 +4,7 @@
     "scope": "US K-Beauty 수요 · 다이소→Shopify 우선순위",
     "status": "active",
     "purpose": "경영 의사결정용 요약. 무엇을 등록하고 무엇으로 광고할지 정한다.",
-    "updated_at": "2026-10-21T08:23:18.335475+09:00",
+    "updated_at": "2026-10-21T08:25:25.564227+09:00",
     "generator": "scripts/build_market_team.py"
   },
   "target_market": {
@@ -1383,11 +1383,11 @@
       "gemini_tags": [],
       "linked_s_products": [
         "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
-        "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+        "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트"
       ],
       "linked_canonical_product_ids": [
         "CP000107",
-        "CP000106"
+        "CP000178"
       ],
       "source": "다이소 S등급 상품명 + OliveYoung US 실수집 대조"
     },
@@ -1584,15 +1584,15 @@
     },
     {
       "rank": 3,
-      "canonical_product_id": "CP000106",
-      "pd_no": "1049275",
-      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+      "canonical_product_id": "CP000178",
+      "pd_no": "1061918",
+      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
       "name_en": null,
       "bucket": "스킨케어",
       "score": 98,
       "rating": 4.8,
-      "review_count": 16857,
-      "cost_krw": 3000,
+      "review_count": 14926,
+      "cost_krw": 5000,
       "landed_cost_usd": null,
       "breakeven_usd": null,
       "suggested_price_usd": 15.0,
@@ -1602,11 +1602,12 @@
       "ad_keywords_source": "ontology 선행 게이트 차단",
       "copy_status": "skipped_prerequisite",
       "agent_blocked_by": [
+        "us_label",
         "legal",
         "manufacturer_safety_record_missing"
       ],
       "listing_ready": false,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275"
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918"
     },
     {
       "rank": 4,
