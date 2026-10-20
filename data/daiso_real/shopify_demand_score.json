@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T23:57:50.432148+00:00",
+  "generated_at": "2026-10-20T03:16:17.209594+00:00",
   "total_products": 356,
   "grade_summary": {
     "S": 7,
@@ -58,8 +58,8 @@
     "amazon_movers_beauty",
     "amazon_new_beauty"
   ],
-  "global_demand_signals": 311,
-  "products_with_global_match": 166,
+  "global_demand_signals": 314,
+  "products_with_global_match": 160,
   "canonical": "shopify_s_recommendations.json",
   "priority_note": "S등급만 Shopify 1차 등록. 펫/노이즈/약한 단일토큰 제외.",
   "scoring_model": {
@@ -190,7 +190,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -221,19 +221,18 @@
           "match_score": 0.405
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.34
+          "match_score": 0.263
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.553,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -248,19 +247,19 @@
       "s_rank": 3
     },
     {
-      "pd_no": "1061918",
-      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "pd_no": "1049275",
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "bucket": "스킨케어",
       "site_category": "에센스/세럼/앰플",
       "rebucketed": false,
-      "price_krw": 5000,
+      "price_krw": 3000,
       "rating": 4.8,
-      "review_count": 14926,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/lcOc1IVBETy66kefZV8g1061918_00_00lcOc1IVBETy66kefZV8g.jpg",
+      "review_count": 16857,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
       "shopify_score": 98,
       "grade": "S",
-      "s_rule": "multi_token",
+      "s_rule": "strong_form",
       "us_market_hits": 21,
       "us_median_price_usd": 24.4,
       "score_breakdown": {
@@ -271,7 +270,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -279,51 +278,49 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "sokoglam_us",
+        "global_product": "Time Revolution Night Repair Ampoule 5X",
+        "similarity": 0.667,
+        "demand_weight": 0.617,
         "matched_tokens": [
-          "brightening",
-          "vitaminc"
+          "ampoule"
         ],
-        "match_score": 0.377
+        "match_score": 0.411
       },
       "global_matches": [
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening",
-            "vitaminc"
-          ],
-          "match_score": 0.377
-        },
-        {
           "channel": "sokoglam_us",
-          "global_product": "Freshly Juiced Vitamin C Drop",
-          "similarity": 0.4,
-          "demand_weight": 0.76,
+          "global_product": "Time Revolution Night Repair Ampoule 5X",
+          "similarity": 0.667,
+          "demand_weight": 0.617,
           "matched_tokens": [
-            "vitaminc"
+            "ampoule"
           ],
-          "match_score": 0.304
+          "match_score": 0.411
         },
         {
           "channel": "oliveyoung_us",
-          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
-          "similarity": 0.36,
-          "demand_weight": 0.588,
+          "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
+          "similarity": 0.7,
+          "demand_weight": 0.49,
           "matched_tokens": [
-            "vitaminc"
+            "ampoule"
           ],
-          "match_score": 0.212
+          "match_score": 0.343
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.667,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.317
         }
       ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
-      "canonical_product_id": "CP000178",
+      "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "canonical_product_id": "CP000106",
       "desk": "skincare",
       "s_rank": 2
     },
@@ -351,7 +348,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 20,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -359,17 +356,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.834,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.531
+        "match_score": 0.748
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.88,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.748
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -382,29 +390,18 @@
           "match_score": 0.531
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.76,
-          "demand_weight": 0.562,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.773,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.427
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-          "similarity": 0.88,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.374
+          "match_score": 0.367
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000216",
       "desk": "skincare",
       "s_rank": 4
@@ -422,7 +419,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
       "shopify_score": 93,
       "grade": "S",
-      "s_rule": "multi_token",
+      "s_rule": "ingredient+form",
       "us_market_hits": 15,
       "us_median_price_usd": 27.0,
       "score_breakdown": {
@@ -433,7 +430,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -441,28 +438,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "sokoglam_us",
+        "global_product": "Yuzu Vitamin C Bright Eye Cream",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "brightening",
+          "cream",
           "vitaminc"
         ],
-        "match_score": 0.377
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening",
-            "vitaminc"
-          ],
-          "match_score": 0.377
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Yuzu Vitamin C Bright Eye Cream",
@@ -483,9 +469,20 @@
             "vitaminc"
           ],
           "match_score": 0.304
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha",
+          "similarity": 0.6,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cream",
+            "vitaminc"
+          ],
+          "match_score": 0.294
         }
       ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
+      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc",
       "canonical_product_id": "CP000230",
       "desk": "skincare",
       "s_rank": 5
@@ -553,14 +550,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -789,7 +786,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -820,19 +817,18 @@
           "match_score": 0.405
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.34
+          "match_score": 0.263
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.553,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -858,8 +854,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049275",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251226/0XsdymYj3PJyHpuxNOsm1049275_00_010XsdymYj3PJyHpuxNOsm.jpg",
       "shopify_score": 98,
-      "grade": "A",
-      "s_rule": "form_cap",
+      "grade": "S",
+      "s_rule": "strong_form",
       "us_market_hits": 21,
       "us_median_price_usd": 24.4,
       "score_breakdown": {
@@ -922,7 +918,7 @@
       "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
       "canonical_product_id": "CP000106",
       "desk": "skincare",
-      "downgrade_reason": "동일 제형(앰플) 상위 2개에 밀림"
+      "s_rank": 2
     },
     {
       "pd_no": "1044555",
@@ -1170,8 +1166,8 @@
       "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251216/lcOc1IVBETy66kefZV8g1061918_00_00lcOc1IVBETy66kefZV8g.jpg",
       "shopify_score": 98,
-      "grade": "S",
-      "s_rule": "multi_token",
+      "grade": "A",
+      "s_rule": "match_too_weak",
       "us_market_hits": 21,
       "us_median_price_usd": 24.4,
       "score_breakdown": {
@@ -1182,7 +1178,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1190,28 +1186,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "sokoglam_us",
+        "global_product": "Freshly Juiced Vitamin C Drop",
+        "similarity": 0.4,
+        "demand_weight": 0.76,
         "matched_tokens": [
-          "brightening",
           "vitaminc"
         ],
-        "match_score": 0.377
+        "match_score": 0.304
       },
       "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening",
-            "vitaminc"
-          ],
-          "match_score": 0.377
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Freshly Juiced Vitamin C Drop",
@@ -1221,6 +1205,16 @@
             "vitaminc"
           ],
           "match_score": 0.304
+        },
+        {
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.342,
+          "demand_weight": 0.675,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.231
         },
         {
           "channel": "oliveyoung_us",
@@ -1233,10 +1227,9 @@
           "match_score": 0.212
         }
       ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
+      "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:match_too_weak",
       "canonical_product_id": "CP000178",
-      "desk": "skincare",
-      "s_rank": 2
+      "desk": "skincare"
     },
     {
       "pd_no": "1048583",
@@ -1340,7 +1333,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 20,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1348,17 +1341,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.834,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.531
+        "match_score": 0.748
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.88,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.748
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -1371,29 +1375,18 @@
           "match_score": 0.531
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.76,
-          "demand_weight": 0.562,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.773,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.427
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-          "similarity": 0.88,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.374
+          "match_score": 0.367
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000216",
       "desk": "skincare",
       "s_rank": 4
@@ -1453,19 +1446,18 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.255
+          "match_score": 0.215
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.453,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -1532,14 +1524,14 @@
           "match_score": 0.38
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.477,
-          "demand_weight": 0.595,
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.442,
+          "demand_weight": 0.675,
           "matched_tokens": [
             "vitaminc"
           ],
-          "match_score": 0.284
+          "match_score": 0.298
         },
         {
           "channel": "oliveyoung_us",
@@ -1620,14 +1612,15 @@
           "match_score": 0.304
         },
         {
-          "channel": "sokoglam_us",
-          "global_product": "PDRN Caffeine Shot Serum",
-          "similarity": 0.4,
-          "demand_weight": 0.475,
+          "channel": "ulta_beauty",
+          "global_product": "PDRN Collagen Lip Mask Glazed Jelly",
+          "similarity": 0.634,
+          "demand_weight": 0.425,
           "matched_tokens": [
+            "mask",
             "pdrn"
           ],
-          "match_score": 0.19
+          "match_score": 0.27
         }
       ],
       "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:match_too_weak",
@@ -1687,16 +1680,6 @@
           "match_score": 0.226
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.212
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.4,
@@ -1705,6 +1688,16 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
       "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:match_too_weak",
@@ -1789,63 +1782,6 @@
       "desk": "skincare"
     },
     {
-      "pd_no": "1073405",
-      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
-      "bucket": "스킨케어",
-      "site_category": "미스트/픽서",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 1616,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073405",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
-      "shopify_score": 96,
-      "grade": "A",
-      "s_rule": "weak_solo_token",
-      "us_market_hits": 18,
-      "us_median_price_usd": 24.4,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 11.7,
-        "reviews": 19.4,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 24.8,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 3,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Dry Skin Serum Marula Oil 4%, Q10 1%, Rosehip Oil 4%",
-        "similarity": 0.267,
-        "demand_weight": 0.468,
-        "matched_tokens": [
-          "serum"
-        ],
-        "match_score": 0.125
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Dry Skin Serum Marula Oil 4%, Q10 1%, Rosehip Oil 4%",
-          "similarity": 0.267,
-          "demand_weight": 0.468,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.125
-        }
-      ],
-      "recommend_reason": "글로벌 'Dry Skin Serum Marula Oil 4%, Q10 1%, Rosehip Oil 4%' (ulta_beauty) 유사 27% · 토큰 serum · S제외:weak_solo_token",
-      "canonical_product_id": "CP000262",
-      "desk": "skincare"
-    },
-    {
       "pd_no": "1044553",
       "name": "마데카21 테카 솔루션 수딩 미스트 토너 200 ml",
       "bucket": "스킨케어",
@@ -1880,6 +1816,43 @@
       "global_matches": [],
       "recommend_reason": "스킨케어 카테고리 · 평점 4.8 · 리뷰 15,987건 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000083",
+      "desk": "skincare"
+    },
+    {
+      "pd_no": "1073405",
+      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
+      "bucket": "스킨케어",
+      "site_category": "미스트/픽서",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 1616,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073405",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
+      "shopify_score": 96,
+      "grade": "A",
+      "s_rule": "no_global_match",
+      "us_market_hits": 18,
+      "us_median_price_usd": 24.4,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 11.7,
+        "reviews": 19.4,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 1,616건 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000262",
       "desk": "skincare"
     },
     {
@@ -1937,6 +1910,16 @@
           "match_score": 0.405
         },
         {
+          "channel": "ulta_beauty",
+          "global_product": "5 Peptide Collagen Lip Fill Tinted Treatment",
+          "similarity": 0.477,
+          "demand_weight": 0.637,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.304
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
           "similarity": 0.553,
@@ -1945,16 +1928,6 @@
             "collagen"
           ],
           "match_score": 0.271
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
-          "similarity": 0.5,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "collagen"
-          ],
-          "match_score": 0.245
         }
       ],
       "recommend_reason": "글로벌 'Time Stop Collagen Ampoule' (sokoglam_us) 유사 85% · 토큰 ampoule, collagen",
@@ -1986,7 +1959,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 15,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -1994,17 +1967,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.634,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.68,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.404
+        "match_score": 0.578
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.68,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.578
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -2017,29 +2001,18 @@
           "match_score": 0.404
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.56,
-          "demand_weight": 0.562,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.573,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.315
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-          "similarity": 0.68,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.289
+          "match_score": 0.272
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000270",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -2100,11 +2073,11 @@
           "channel": "amazon_best_sellers",
           "global_product": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
           "similarity": 0.325,
-          "demand_weight": 0.902,
+          "demand_weight": 0.95,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.293
+          "match_score": 0.309
         },
         {
           "channel": "ulta_beauty",
@@ -2145,7 +2118,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 12,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2179,12 +2152,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
           "similarity": 0.76,
-          "demand_weight": 0.562,
+          "demand_weight": 0.45,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.427
+          "match_score": 0.342
         },
         {
           "channel": "sokoglam_us",
@@ -2226,7 +2199,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 12,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2260,12 +2233,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
           "similarity": 0.76,
-          "demand_weight": 0.562,
+          "demand_weight": 0.45,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.427
+          "match_score": 0.342
         },
         {
           "channel": "sokoglam_us",
@@ -2459,7 +2432,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/6yxxYklOEqrkfhPkdQXB1068721_00_006yxxYklOEqrkfhPkdQXB.jpg",
       "shopify_score": 93,
       "grade": "S",
-      "s_rule": "multi_token",
+      "s_rule": "ingredient+form",
       "us_market_hits": 15,
       "us_median_price_usd": 27.0,
       "score_breakdown": {
@@ -2470,7 +2443,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2478,28 +2451,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "sokoglam_us",
+        "global_product": "Yuzu Vitamin C Bright Eye Cream",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "brightening",
+          "cream",
           "vitaminc"
         ],
-        "match_score": 0.377
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening",
-            "vitaminc"
-          ],
-          "match_score": 0.377
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Yuzu Vitamin C Bright Eye Cream",
@@ -2520,9 +2482,20 @@
             "vitaminc"
           ],
           "match_score": 0.304
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha",
+          "similarity": 0.6,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cream",
+            "vitaminc"
+          ],
+          "match_score": 0.294
         }
       ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
+      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc",
       "canonical_product_id": "CP000230",
       "desk": "skincare",
       "s_rank": 5
@@ -2590,14 +2563,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -2667,14 +2640,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -2744,14 +2717,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -2821,14 +2794,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -2859,7 +2832,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 20,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2867,17 +2840,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.834,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.531
+        "match_score": 0.748
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.88,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.748
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -2890,29 +2874,18 @@
           "match_score": 0.531
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.76,
-          "demand_weight": 0.562,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.773,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.427
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-          "similarity": 0.88,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.374
+          "match_score": 0.367
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000271",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
@@ -2941,7 +2914,7 @@
         "keyword": 0,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 13,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -2949,41 +2922,41 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
-        "similarity": 0.638,
-        "demand_weight": 0.522,
+        "channel": "ulta_beauty",
+        "global_product": "Smushy SOS Hydrating Lip Mask",
+        "similarity": 0.733,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "hydrating",
           "mask"
         ],
-        "match_score": 0.333
+        "match_score": 0.499
       },
       "global_matches": [
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
-          "similarity": 0.638,
-          "demand_weight": 0.522,
-          "matched_tokens": [
-            "hydrating",
-            "mask"
-          ],
-          "match_score": 0.333
-        },
         {
           "channel": "ulta_beauty",
           "global_product": "Smushy SOS Hydrating Lip Mask",
           "similarity": 0.733,
-          "demand_weight": 0.425,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "hydrating",
             "mask"
           ],
-          "match_score": 0.312
+          "match_score": 0.499
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
+          "similarity": 0.638,
+          "demand_weight": 0.57,
+          "matched_tokens": [
+            "hydrating",
+            "mask"
+          ],
+          "match_score": 0.364
         }
       ],
-      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials' (amazon_best_sellers) 유사 64% · 토큰 hydrating, mask",
+      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
       "canonical_product_id": "CP000109",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -3041,6 +3014,17 @@
             "hydrating"
           ],
           "match_score": 0.514
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "24-7 Moisture Hydrating Day & Night Cream",
+          "similarity": 0.733,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "cream",
+            "hydrating"
+          ],
+          "match_score": 0.312
         },
         {
           "channel": "amazon_best_sellers",
@@ -3245,17 +3229,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "sokoglam_us",
-        "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
-        "similarity": 0.853,
-        "demand_weight": 0.475,
+        "channel": "amazon_best_sellers",
+        "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
+        "similarity": 0.758,
+        "demand_weight": 0.57,
         "matched_tokens": [
           "collagen",
           "mask"
         ],
-        "match_score": 0.405
+        "match_score": 0.432
       },
       "global_matches": [
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
+          "similarity": 0.758,
+          "demand_weight": 0.57,
+          "matched_tokens": [
+            "collagen",
+            "mask"
+          ],
+          "match_score": 0.432
+        },
         {
           "channel": "sokoglam_us",
           "global_product": "Bio Collagen-Real Deep Mask (4 Pack)",
@@ -3268,28 +3263,18 @@
           "match_score": 0.405
         },
         {
-          "channel": "amazon_best_sellers",
-          "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
-          "similarity": 0.758,
-          "demand_weight": 0.522,
+          "channel": "ulta_beauty",
+          "global_product": "PDRN Collagen Lip Mask Glazed Jelly",
+          "similarity": 0.834,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "collagen",
             "mask"
           ],
-          "match_score": 0.396
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
-          "similarity": 0.553,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "collagen"
-          ],
-          "match_score": 0.271
+          "match_score": 0.355
         }
       ],
-      "recommend_reason": "글로벌 'Bio Collagen-Real Deep Mask (4 Pack)' (sokoglam_us) 유사 85% · 토큰 collagen, mask",
+      "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials' (amazon_best_sellers) 유사 76% · 토큰 collagen, mask",
       "canonical_product_id": "CP000151",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -3318,7 +3303,7 @@
         "keyword": 3,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3329,24 +3314,24 @@
         "channel": "ulta_beauty",
         "global_product": "Smushy SOS Hydrating Lip Mask",
         "similarity": 0.733,
-        "demand_weight": 0.425,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "hydrating",
           "mask"
         ],
-        "match_score": 0.312
+        "match_score": 0.499
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
           "global_product": "Smushy SOS Hydrating Lip Mask",
           "similarity": 0.733,
-          "demand_weight": 0.425,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "hydrating",
             "mask"
           ],
-          "match_score": 0.312
+          "match_score": 0.499
         }
       ],
       "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask",
@@ -3378,7 +3363,7 @@
         "keyword": 3,
         "us_market_fit": 22.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 15,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -3386,17 +3371,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.634,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.68,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.404
+        "match_score": 0.578
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.68,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.578
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -3418,20 +3414,9 @@
             "cream"
           ],
           "match_score": 0.333
-        },
-        {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.56,
-          "demand_weight": 0.562,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.315
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000190",
       "desk": "skincare",
       "downgrade_reason": "동일 제형(크림) 상위 2개에 밀림"
@@ -3449,7 +3434,7 @@
       "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
       "shopify_score": 90,
       "grade": "A",
-      "s_rule": "match_too_weak",
+      "s_rule": "no_global_match",
       "us_market_hits": 13,
       "us_median_price_usd": 27.0,
       "score_breakdown": {
@@ -3460,46 +3445,16 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 0,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.595,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.212
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.212
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.144
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:match_too_weak",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 · 평점 4.7 · 리뷰 953건 (글로벌 시그널 약함)",
       "canonical_product_id": "CP000234",
       "desk": null
     },
@@ -3603,14 +3558,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -3821,47 +3776,47 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
+          "match_score": 0.181
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:weak_solo_token",
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:weak_solo_token",
       "canonical_product_id": "CP000029",
       "desk": null
     },
@@ -3900,24 +3855,34 @@
         "channel": "amazon_best_sellers",
         "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
         "similarity": 0.638,
-        "demand_weight": 0.522,
+        "demand_weight": 0.57,
         "matched_tokens": [
           "mask",
           "pore"
         ],
-        "match_score": 0.333
+        "match_score": 0.364
       },
       "global_matches": [
         {
           "channel": "amazon_best_sellers",
           "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
           "similarity": 0.638,
-          "demand_weight": 0.522,
+          "demand_weight": 0.57,
           "matched_tokens": [
             "mask",
             "pore"
           ],
-          "match_score": 0.333
+          "match_score": 0.364
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
+          "similarity": 0.325,
+          "demand_weight": 0.95,
+          "matched_tokens": [
+            "pore"
+          ],
+          "match_score": 0.309
         },
         {
           "channel": "sokoglam_us",
@@ -3928,16 +3893,6 @@
             "pore"
           ],
           "match_score": 0.309
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
-          "similarity": 0.325,
-          "demand_weight": 0.902,
-          "matched_tokens": [
-            "pore"
-          ],
-          "match_score": 0.293
         }
       ],
       "recommend_reason": "글로벌 'BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials' (amazon_best_sellers) 유사 64% · 토큰 mask, pore",
@@ -4081,24 +4036,26 @@
           "match_score": 0.31
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
-          "similarity": 0.453,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "PDRN Collagen Lip Mask Glazed Jelly",
+          "similarity": 0.634,
+          "demand_weight": 0.425,
           "matched_tokens": [
-            "collagen"
+            "collagen",
+            "mask"
           ],
-          "match_score": 0.222
+          "match_score": 0.27
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
-          "similarity": 0.4,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Rice Collagen Glow PDRN Wrapping Mask",
+          "similarity": 0.609,
+          "demand_weight": 0.425,
           "matched_tokens": [
-            "collagen"
+            "collagen",
+            "mask"
           ],
-          "match_score": 0.196
+          "match_score": 0.259
         }
       ],
       "recommend_reason": "글로벌 'Bio Collagen-Real Deep Mask (4 Pack)' (sokoglam_us) 유사 65% · 토큰 collagen, mask",
@@ -4361,7 +4318,7 @@
         "keyword": 0,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4372,32 +4329,22 @@
         "channel": "ulta_beauty",
         "global_product": "Smushy SOS Hydrating Lip Mask",
         "similarity": 0.267,
-        "demand_weight": 0.425,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "hydrating"
         ],
-        "match_score": 0.113
+        "match_score": 0.181
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
           "global_product": "Smushy SOS Hydrating Lip Mask",
           "similarity": 0.267,
-          "demand_weight": 0.425,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "hydrating"
           ],
-          "match_score": 0.113
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Pout Preserve Hydrating Peptide Lip Treatment",
-          "similarity": 0.263,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating"
-          ],
-          "match_score": 0.112
+          "match_score": 0.181
         },
         {
           "channel": "amazon_new_beauty",
@@ -4512,7 +4459,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 15,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4520,17 +4467,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.634,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.68,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.404
+        "match_score": 0.578
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.68,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.578
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -4543,29 +4501,18 @@
           "match_score": 0.404
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.56,
-          "demand_weight": 0.562,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.573,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.315
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-          "similarity": 0.68,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.289
+          "match_score": 0.272
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 63% · 토큰 cream, pdrn",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 68% · 토큰 cream, pdrn",
       "canonical_product_id": "CP000325",
       "desk": null,
       "downgrade_reason": "전담팀 범위 밖 카테고리"
@@ -4625,15 +4572,15 @@
           "match_score": 0.298
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.34,
-          "demand_weight": 0.562,
+          "channel": "ulta_beauty",
+          "global_product": "24-7 Moisture Hydrating Day & Night Cream",
+          "similarity": 0.433,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "cream",
-            "firming"
+            "hydrating"
           ],
-          "match_score": 0.191
+          "match_score": 0.184
         },
         {
           "channel": "amazon_best_sellers",
@@ -4714,14 +4661,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -4754,7 +4701,7 @@
         "keyword": 3,
         "us_market_fit": 12.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 5,
+        "global_similarity_reference_only": 7,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -4763,16 +4710,27 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
-        "similarity": 0.493,
-        "demand_weight": 0.425,
+        "global_product": "Smushy SOS Hydrating Lip Mask",
+        "similarity": 0.433,
+        "demand_weight": 0.68,
         "matched_tokens": [
-          "calming",
-          "centella"
+          "hydrating",
+          "mask"
         ],
-        "match_score": 0.209
+        "match_score": 0.295
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.433,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "hydrating",
+            "mask"
+          ],
+          "match_score": 0.295
+        },
         {
           "channel": "ulta_beauty",
           "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
@@ -4785,29 +4743,18 @@
           "match_score": 0.209
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Smushy SOS Hydrating Lip Mask",
-          "similarity": 0.433,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating",
-            "mask"
-          ],
-          "match_score": 0.184
-        },
-        {
           "channel": "amazon_best_sellers",
           "global_product": "BIODANCE Bio-Collagen Real Deep Mask for Hydrating & Plumping (4ea) | Overnight Hydrogel Face Mask, Pore Minimizing, Elasticity, Korean Skin Care, Self Care Gifts for Women, Travel Essentials",
           "similarity": 0.338,
-          "demand_weight": 0.522,
+          "demand_weight": 0.57,
           "matched_tokens": [
             "hydrating",
             "mask"
           ],
-          "match_score": 0.176
+          "match_score": 0.193
         }
       ],
-      "recommend_reason": "글로벌 'Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream' (ulta_beauty) 유사 49% · 토큰 calming, centella · S제외:match_too_weak",
+      "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 43% · 토큰 hydrating, mask · S제외:match_too_weak",
       "canonical_product_id": "CP000108",
       "desk": null
     },
@@ -4951,14 +4898,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:weak_solo_token",
@@ -5026,6 +4973,16 @@
             "lotion"
           ],
           "match_score": 0.131
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Fruity Lip Glotioner",
+          "similarity": 0.28,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.119
         }
       ],
       "recommend_reason": "글로벌 '[3sizes] ILLIYOON Ceramide Ato Lotion' (oliveyoung_us) 유사 28% · 토큰 lotion · S제외:weak_solo_token",
@@ -5277,16 +5234,6 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Dramatically Different Moisturizing Gel For Face",
-          "similarity": 0.367,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "moisturizer"
-          ],
-          "match_score": 0.156
-        },
-        {
-          "channel": "ulta_beauty",
           "global_product": "The Ceramide Skin Barrier Moisturizer For Sensitive Skin",
           "similarity": 0.357,
           "demand_weight": 0.425,
@@ -5294,6 +5241,16 @@
             "moisturizer"
           ],
           "match_score": 0.152
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Protini Polypeptide Firming Moisturizer",
+          "similarity": 0.35,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.149
         }
       ],
       "recommend_reason": "글로벌 'Instant Angel Lipid-Rich Firming Moisturizer' (sokoglam_us) 유사 36% · 토큰 moisturizer · S제외:match_too_weak",
@@ -5626,7 +5583,7 @@
         "keyword": 5,
         "us_market_fit": 19.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "otc_drug",
         "us_block_reason": "고시 확인: 고시 기능성 화장품: 미백 / 주름개선 / 자외선차단(SPF50+, PA++++) 3중 기능성 - 미국에서 OTC 의약품(Drug Facts 라벨 필요)",
@@ -5634,28 +5591,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "sokoglam_us",
+        "global_product": "Freshly Juiced Vitamin C Drop",
+        "similarity": 0.4,
+        "demand_weight": 0.76,
         "matched_tokens": [
-          "brightening",
           "vitaminc"
         ],
-        "match_score": 0.377
+        "match_score": 0.304
       },
       "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening",
-            "vitaminc"
-          ],
-          "match_score": 0.377
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Freshly Juiced Vitamin C Drop",
@@ -5665,6 +5610,16 @@
             "vitaminc"
           ],
           "match_score": 0.304
+        },
+        {
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.342,
+          "demand_weight": 0.675,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.231
         },
         {
           "channel": "oliveyoung_us",
@@ -5742,6 +5697,16 @@
             "lotion"
           ],
           "match_score": 0.131
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Fruity Lip Glotioner",
+          "similarity": 0.28,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "lotion"
+          ],
+          "match_score": 0.119
         }
       ],
       "recommend_reason": "글로벌 '[3sizes] ILLIYOON Ceramide Ato Lotion' (oliveyoung_us) 유사 28% · 토큰 lotion · S제외:weak_solo_token",
@@ -6497,13 +6462,13 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
-          "similarity": 0.456,
+          "global_product": "CC Cream Color-Corrector with Korean 2% Centella Asiatica & Hyaluronic Acid",
+          "similarity": 0.46,
           "demand_weight": 0.425,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.194
+          "match_score": 0.195
         }
       ],
       "recommend_reason": "글로벌 'Madagascar Centella Travel Kit' (ulta_beauty) 유사 50% · 토큰 centella · S제외:score_below_82",
@@ -6611,13 +6576,13 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
-          "similarity": 0.456,
+          "global_product": "CC Cream Color-Corrector with Korean 2% Centella Asiatica & Hyaluronic Acid",
+          "similarity": 0.46,
           "demand_weight": 0.425,
           "matched_tokens": [
             "centella"
           ],
-          "match_score": 0.194
+          "match_score": 0.195
         }
       ],
       "recommend_reason": "글로벌 'Madagascar Centella Travel Kit' (ulta_beauty) 유사 50% · 토큰 centella · S제외:score_below_82",
@@ -7073,6 +7038,16 @@
         },
         {
           "channel": "ulta_beauty",
+          "global_product": "Protini Polypeptide Firming Moisturizer",
+          "similarity": 0.65,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "moisturizer"
+          ],
+          "match_score": 0.276
+        },
+        {
+          "channel": "ulta_beauty",
           "global_product": "Toleriane Double Repair Face Moisturizer with Niacinamide",
           "similarity": 0.644,
           "demand_weight": 0.425,
@@ -7119,47 +7094,47 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
+          "match_score": 0.181
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000145",
       "desk": "skincare"
     },
@@ -7187,7 +7162,7 @@
         "keyword": 0,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -7198,32 +7173,22 @@
         "channel": "ulta_beauty",
         "global_product": "Smushy SOS Hydrating Lip Mask",
         "similarity": 0.267,
-        "demand_weight": 0.425,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "hydrating"
         ],
-        "match_score": 0.113
+        "match_score": 0.181
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
           "global_product": "Smushy SOS Hydrating Lip Mask",
           "similarity": 0.267,
-          "demand_weight": 0.425,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "hydrating"
           ],
-          "match_score": 0.113
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Pout Preserve Hydrating Peptide Lip Treatment",
-          "similarity": 0.263,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating"
-          ],
-          "match_score": 0.112
+          "match_score": 0.181
         },
         {
           "channel": "amazon_new_beauty",
@@ -7350,130 +7315,49 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.133
-        }
-      ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
-      "canonical_product_id": "CP000150",
-      "desk": null
-    },
-    {
-      "pd_no": "1061697",
-      "name": "더페이스샵 스밈 보습밀도 장벽 세럼 45 ml",
-      "bucket": "스킨케어",
-      "site_category": "에센스/세럼/앰플",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061697",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/81CX04PlrLKd3AYOc95u1061697_00_0181CX04PlrLKd3AYOc95u.jpg",
-      "shopify_score": 65,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 18,
-      "us_median_price_usd": 24.4,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 24.8,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 8,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "amazon_best_sellers",
-        "global_product": "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin",
-        "similarity": 0.673,
-        "demand_weight": 0.475,
-        "matched_tokens": [
-          "hydrating",
-          "serum"
-        ],
-        "match_score": 0.32
-      },
-      "global_matches": [
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin",
-          "similarity": 0.673,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "hydrating",
-            "serum"
-          ],
-          "match_score": 0.32
+          "match_score": 0.181
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Hyaluronic Acid 2% + B5 Hydrating Serum with Ceramides",
-          "similarity": 0.714,
-          "demand_weight": 0.425,
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
-            "hydrating",
-            "serum"
+            "mask"
           ],
-          "match_score": 0.304
-        },
-        {
-          "channel": "amazon_new_beauty",
-          "global_product": "CeraVe Super Boost Anti-Aging Serum with Peptides & Hyaluronic Acid | Face Serum with Ceramides, Peptides, Hyaluronic Acid, Vitamin B12 & LHA, Fine Lines & Wrinkles, Hydrating Milky Texture",
-          "similarity": 0.647,
-          "demand_weight": 0.375,
-          "matched_tokens": [
-            "hydrating",
-            "serum"
-          ],
-          "match_score": 0.243
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 'The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin' (amazon_best_sellers) 유사 67% · 토큰 hydrating, serum · S제외:score_below_82",
-      "canonical_product_id": "CP000172",
-      "desk": "skincare"
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
+      "canonical_product_id": "CP000150",
+      "desk": null
     },
     {
       "pd_no": "1035035",
@@ -7784,19 +7668,19 @@
       "desk": "skincare"
     },
     {
-      "pd_no": "1072556",
-      "name": "[착색피부케어]본셉 비타씨 미백샷 바디괄사 세럼 100 ml",
+      "pd_no": "1061697",
+      "name": "더페이스샵 스밈 보습밀도 장벽 세럼 45 ml",
       "bucket": "스킨케어",
-      "site_category": "로션/오일/미스트",
+      "site_category": "에센스/세럼/앰플",
       "rebucketed": false,
       "price_krw": 5000,
       "rating": 0.0,
       "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072556",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260909/ZROxKS1RUTZ9GNQ8icsL1072556_00_01ZROxKS1RUTZ9GNQ8icsL.jpg",
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061697",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250213/81CX04PlrLKd3AYOc95u1061697_00_0181CX04PlrLKd3AYOc95u.jpg",
       "shopify_score": 65,
       "grade": "B",
-      "s_rule": "claim_risk",
+      "s_rule": "score_below_82",
       "us_market_hits": 18,
       "us_median_price_usd": 24.4,
       "score_breakdown": {
@@ -7809,60 +7693,60 @@
         "rebucket_note": "",
         "global_similarity_reference_only": 10,
         "penalty": 0,
-        "us_block_kind": "claim_risk",
-        "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
+        "us_block_kind": "",
+        "us_block_reason": "",
         "max_possible": 100
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "amazon_new_beauty",
+        "global_product": "Torriden DIVE IN Hyaluronic Acid Serum for Deep Hydration | Korean K-Beauty Glass Skin Plump Glow | Lightweight Fast-Absorbing Face Serum 50ml (1.69 fl.oz.)",
+        "similarity": 0.647,
+        "demand_weight": 0.562,
         "matched_tokens": [
-          "brightening",
-          "vitaminc"
+          "hydrating",
+          "serum"
         ],
-        "match_score": 0.377
+        "match_score": 0.364
       },
       "global_matches": [
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
+          "channel": "amazon_new_beauty",
+          "global_product": "Torriden DIVE IN Hyaluronic Acid Serum for Deep Hydration | Korean K-Beauty Glass Skin Plump Glow | Lightweight Fast-Absorbing Face Serum 50ml (1.69 fl.oz.)",
+          "similarity": 0.647,
+          "demand_weight": 0.562,
           "matched_tokens": [
-            "brightening",
-            "vitaminc"
+            "hydrating",
+            "serum"
           ],
-          "match_score": 0.377
+          "match_score": 0.364
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
-          "similarity": 0.6,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "serum",
-            "vitaminc"
-          ],
-          "match_score": 0.353
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Dermalogy Real Vitamin C Serum",
-          "similarity": 0.68,
+          "channel": "amazon_best_sellers",
+          "global_product": "The Ordinary Hyaluronic Acid 2% + B5 (with Ceramides), Multi-Depth Hydration Serum for Plumper, Smoother Skin",
+          "similarity": 0.673,
           "demand_weight": 0.475,
           "matched_tokens": [
-            "serum",
-            "vitaminc"
+            "hydrating",
+            "serum"
           ],
-          "match_score": 0.323
+          "match_score": 0.32
+        },
+        {
+          "channel": "amazon_best_sellers",
+          "global_product": "medicube PDRN Pink Peptide Serum with Salmon DNA, Firmer, Even-Looking Skin | Pink Glow Serum with Peptides & Niacinamide for Hydration, Firm-Looking Skin & Uneven Tone Care, Korean Skincare, 1.01 fl.oz.",
+          "similarity": 0.642,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "hydrating",
+            "serum"
+          ],
+          "match_score": 0.305
         }
       ],
-      "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
-      "canonical_product_id": "CP000252",
-      "desk": null
+      "recommend_reason": "글로벌 'Torriden DIVE IN Hyaluronic Acid Serum for Deep Hydration | Korean K-Beauty Glass Skin Plump Glow | Lightweight Fast-Absorbing Face Serum 50ml (1.69 fl.oz.)' (amazon_new_beauty) 유사 65% · 토큰 hydrating, serum · S제외:score_below_82",
+      "canonical_product_id": "CP000172",
+      "desk": "skincare"
     },
     {
       "pd_no": "1072419",
@@ -7932,6 +7816,87 @@
       "desk": null
     },
     {
+      "pd_no": "1072556",
+      "name": "[착색피부케어]본셉 비타씨 미백샷 바디괄사 세럼 100 ml",
+      "bucket": "스킨케어",
+      "site_category": "로션/오일/미스트",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072556",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260909/ZROxKS1RUTZ9GNQ8icsL1072556_00_01ZROxKS1RUTZ9GNQ8icsL.jpg",
+      "shopify_score": 65,
+      "grade": "B",
+      "s_rule": "claim_risk",
+      "us_market_hits": 18,
+      "us_median_price_usd": 24.4,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 24.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 10,
+        "penalty": 0,
+        "us_block_kind": "claim_risk",
+        "us_block_reason": "미백 - 미국에서 OTC 의약품 주장",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "amazon_new_beauty",
+        "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+        "similarity": 0.564,
+        "demand_weight": 0.675,
+        "matched_tokens": [
+          "serum",
+          "vitaminc"
+        ],
+        "match_score": 0.381
+      },
+      "global_matches": [
+        {
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.564,
+          "demand_weight": 0.675,
+          "matched_tokens": [
+            "serum",
+            "vitaminc"
+          ],
+          "match_score": 0.381
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
+          "similarity": 0.6,
+          "demand_weight": 0.588,
+          "matched_tokens": [
+            "serum",
+            "vitaminc"
+          ],
+          "match_score": 0.353
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Dermalogy Real Vitamin C Serum",
+          "similarity": 0.68,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "serum",
+            "vitaminc"
+          ],
+          "match_score": 0.323
+        }
+      ],
+      "recommend_reason": "미국 판매 제약: 미백 - 미국에서 OTC 의약품 주장",
+      "canonical_product_id": "CP000252",
+      "desk": null
+    },
+    {
       "pd_no": "1068857",
       "name": "메디필 멜라논엑스 기미앰플 30 ml",
       "bucket": "스킨케어",
@@ -7984,16 +7949,6 @@
           "match_score": 0.226
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.212
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.4,
@@ -8002,6 +7957,16 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
       "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:score_below_82",
@@ -8324,7 +8289,7 @@
         "keyword": 5,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -8335,22 +8300,22 @@
         "channel": "amazon_new_beauty",
         "global_product": "Tree Hut Pumpkin Roll Fall Scented Body Wash, 18 Fl Oz | Nourishing & Moisturizing Shower Gel w/ Shea Butter & Essential Oils, Soft & Smooth Skin, Gentle Cleanser For All Skin Types",
         "similarity": 0.622,
-        "demand_weight": 0.712,
+        "demand_weight": 0.637,
         "matched_tokens": [
           "bodywash"
         ],
-        "match_score": 0.443
+        "match_score": 0.396
       },
       "global_matches": [
         {
           "channel": "amazon_new_beauty",
           "global_product": "Tree Hut Pumpkin Roll Fall Scented Body Wash, 18 Fl Oz | Nourishing & Moisturizing Shower Gel w/ Shea Butter & Essential Oils, Soft & Smooth Skin, Gentle Cleanser For All Skin Types",
           "similarity": 0.622,
-          "demand_weight": 0.712,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "bodywash"
           ],
-          "match_score": 0.443
+          "match_score": 0.396
         },
         {
           "channel": "sokoglam_us",
@@ -8665,13 +8630,13 @@
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.477,
-          "demand_weight": 0.595,
+          "global_product": "Vitamin Enriched Face Base+ Moisturizer & Primer with Vitamin C + Hyaluronic Acid",
+          "similarity": 0.453,
+          "demand_weight": 0.425,
           "matched_tokens": [
             "vitaminc"
           ],
-          "match_score": 0.284
+          "match_score": 0.193
         }
       ],
       "recommend_reason": "글로벌 'Yuzu Vitamin C Sleep Mask' (sokoglam_us) 유사 85% · 토큰 mask, vitaminc · S제외:score_below_82",
@@ -9075,7 +9040,7 @@
         "keyword": 5,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9086,22 +9051,22 @@
         "channel": "amazon_new_beauty",
         "global_product": "Tree Hut Pumpkin Roll Fall Scented Body Wash, 18 Fl Oz | Nourishing & Moisturizing Shower Gel w/ Shea Butter & Essential Oils, Soft & Smooth Skin, Gentle Cleanser For All Skin Types",
         "similarity": 0.622,
-        "demand_weight": 0.712,
+        "demand_weight": 0.637,
         "matched_tokens": [
           "bodywash"
         ],
-        "match_score": 0.443
+        "match_score": 0.396
       },
       "global_matches": [
         {
           "channel": "amazon_new_beauty",
           "global_product": "Tree Hut Pumpkin Roll Fall Scented Body Wash, 18 Fl Oz | Nourishing & Moisturizing Shower Gel w/ Shea Butter & Essential Oils, Soft & Smooth Skin, Gentle Cleanser For All Skin Types",
           "similarity": 0.622,
-          "demand_weight": 0.712,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "bodywash"
           ],
-          "match_score": 0.443
+          "match_score": 0.396
         },
         {
           "channel": "sokoglam_us",
@@ -9152,7 +9117,7 @@
         "keyword": 5,
         "us_market_fit": 0.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -9163,22 +9128,22 @@
         "channel": "amazon_new_beauty",
         "global_product": "Tree Hut Pumpkin Roll Fall Scented Body Wash, 18 Fl Oz | Nourishing & Moisturizing Shower Gel w/ Shea Butter & Essential Oils, Soft & Smooth Skin, Gentle Cleanser For All Skin Types",
         "similarity": 0.622,
-        "demand_weight": 0.712,
+        "demand_weight": 0.637,
         "matched_tokens": [
           "bodywash"
         ],
-        "match_score": 0.443
+        "match_score": 0.396
       },
       "global_matches": [
         {
           "channel": "amazon_new_beauty",
           "global_product": "Tree Hut Pumpkin Roll Fall Scented Body Wash, 18 Fl Oz | Nourishing & Moisturizing Shower Gel w/ Shea Butter & Essential Oils, Soft & Smooth Skin, Gentle Cleanser For All Skin Types",
           "similarity": 0.622,
-          "demand_weight": 0.712,
+          "demand_weight": 0.637,
           "matched_tokens": [
             "bodywash"
           ],
-          "match_score": 0.443
+          "match_score": 0.396
         },
         {
           "channel": "sokoglam_us",
@@ -9283,73 +9248,6 @@
       "desk": "skincare"
     },
     {
-      "pd_no": "1068858",
-      "name": "메디필 멜라논엑스 기미크림 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "크림",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
-      "shopify_score": 60,
-      "grade": "B",
-      "s_rule": "score_below_82",
-      "us_market_hits": 13,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 5,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.595,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.212
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.212
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.144
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
-      "canonical_product_id": "CP000233",
-      "desk": "skincare"
-    },
-    {
       "pd_no": "1060645",
       "name": "더랩 바이 블랑두 클리어 히알 물광 크림 50 ml",
       "bucket": "스킨케어",
@@ -9412,14 +9310,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -9612,6 +9510,43 @@
       "desk": "body"
     },
     {
+      "pd_no": "1068858",
+      "name": "메디필 멜라논엑스 기미크림 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "크림",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
+      "shopify_score": 60,
+      "grade": "B",
+      "s_rule": "score_below_82",
+      "us_market_hits": 13,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000233",
+      "desk": "skincare"
+    },
+    {
       "pd_no": "1054672",
       "name": "본셉 레티놀 세럼 마스크 23 g",
       "bucket": "마스크팩",
@@ -9666,17 +9601,6 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.255
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
           "similarity": 0.5,
@@ -9686,90 +9610,22 @@
             "serum"
           ],
           "match_score": 0.245
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Serum Mask α 0.95 oz.(27g)",
+          "similarity": 0.489,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask",
+            "serum"
+          ],
+          "match_score": 0.24
         }
       ],
       "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum · S제외:score_below_82",
       "canonical_product_id": "CP000127",
       "desk": null
-    },
-    {
-      "pd_no": "1068720",
-      "name": "클리덤 리포좀 비타민C 잡티광 앰플 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "에센스/세럼/앰플",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068720",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/mMEadJbvD4mNdT5U6aHp1068720_00_00mMEadJbvD4mNdT5U6aHp.jpg",
-      "shopify_score": 59,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 23,
-      "us_median_price_usd": 22.5,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 10.0,
-        "keyword": 5,
-        "us_market_fit": 19.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 10,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
-        "matched_tokens": [
-          "brightening",
-          "vitaminc"
-        ],
-        "match_score": 0.377
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening",
-            "vitaminc"
-          ],
-          "match_score": 0.377
-        },
-        {
-          "channel": "sokoglam_us",
-          "global_product": "Freshly Juiced Vitamin C Drop",
-          "similarity": 0.4,
-          "demand_weight": 0.76,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.304
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
-          "similarity": 0.36,
-          "demand_weight": 0.588,
-          "matched_tokens": [
-            "vitaminc"
-          ],
-          "match_score": 0.212
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc · S제외:score_below_82",
-      "canonical_product_id": "CP000229",
-      "desk": "skincare"
     },
     {
       "pd_no": "1079292",
@@ -9826,6 +9682,17 @@
           "match_score": 0.37
         },
         {
+          "channel": "ulta_beauty",
+          "global_product": "24-7 Moisture Hydrating Day & Night Cream",
+          "similarity": 0.533,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "cream",
+            "hydrating"
+          ],
+          "match_score": 0.227
+        },
+        {
           "channel": "amazon_best_sellers",
           "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
           "similarity": 0.453,
@@ -9835,21 +9702,87 @@
             "hydrating"
           ],
           "match_score": 0.215
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "CeraVe Moisturizing Cream, Face & Body Moisturizer for Dry Skin, 19oz | Skin Care with Hyaluronic Acid, Skin Barrier Repair, Ceramide Moisturizer, Fragrance Free, Non-Comedogenic, Daily Use",
-          "similarity": 0.45,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "cream",
-            "repair"
-          ],
-          "match_score": 0.214
         }
       ],
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 51% · 토큰 cream, hydrating · S제외:score_below_82",
       "canonical_product_id": "CP000275",
+      "desk": "skincare"
+    },
+    {
+      "pd_no": "1068720",
+      "name": "클리덤 리포좀 비타민C 잡티광 앰플 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "에센스/세럼/앰플",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068720",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251205/mMEadJbvD4mNdT5U6aHp1068720_00_00mMEadJbvD4mNdT5U6aHp.jpg",
+      "shopify_score": 59,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 23,
+      "us_median_price_usd": 22.5,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 10.0,
+        "keyword": 5,
+        "us_market_fit": 19.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 8,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "sokoglam_us",
+        "global_product": "Freshly Juiced Vitamin C Drop",
+        "similarity": 0.4,
+        "demand_weight": 0.76,
+        "matched_tokens": [
+          "vitaminc"
+        ],
+        "match_score": 0.304
+      },
+      "global_matches": [
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Freshly Juiced Vitamin C Drop",
+          "similarity": 0.4,
+          "demand_weight": 0.76,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.304
+        },
+        {
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.342,
+          "demand_weight": 0.675,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.231
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Serum Alpha",
+          "similarity": 0.36,
+          "demand_weight": 0.588,
+          "matched_tokens": [
+            "vitaminc"
+          ],
+          "match_score": 0.212
+        }
+      ],
+      "recommend_reason": "글로벌 'Freshly Juiced Vitamin C Drop' (sokoglam_us) 유사 40% · 토큰 vitaminc · S제외:score_below_82",
+      "canonical_product_id": "CP000229",
       "desk": "skincare"
     },
     {
@@ -10333,47 +10266,47 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
+          "match_score": 0.181
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000012",
       "desk": null
     },
@@ -10736,14 +10669,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -10813,14 +10746,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -10860,47 +10793,47 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
+          "match_score": 0.181
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000021",
       "desk": null
     },
@@ -11113,7 +11046,7 @@
         "keyword": 5,
         "us_market_fit": 24.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 11,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -11144,19 +11077,18 @@
           "match_score": 0.405
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.8,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.553,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.34
+          "match_score": 0.263
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.553,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -11686,19 +11618,18 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
+          "channel": "sokoglam_us",
+          "global_product": "Retinol Expert 0.1%",
+          "similarity": 0.453,
+          "demand_weight": 0.475,
           "matched_tokens": [
-            "retinol",
-            "serum"
+            "retinol"
           ],
-          "match_score": 0.255
+          "match_score": 0.215
         },
         {
           "channel": "sokoglam_us",
-          "global_product": "Retinol Expert 0.1%",
+          "global_product": "Retinol Expert 0.3%",
           "similarity": 0.453,
           "demand_weight": 0.475,
           "matched_tokens": [
@@ -11743,27 +11674,27 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "amazon_new_beauty",
+        "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+        "similarity": 0.564,
+        "demand_weight": 0.675,
         "matched_tokens": [
-          "brightening",
+          "serum",
           "vitaminc"
         ],
-        "match_score": 0.377
+        "match_score": 0.381
       },
       "global_matches": [
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.564,
+          "demand_weight": 0.675,
           "matched_tokens": [
-            "brightening",
+            "serum",
             "vitaminc"
           ],
-          "match_score": 0.377
+          "match_score": 0.381
         },
         {
           "channel": "oliveyoung_us",
@@ -11845,14 +11776,14 @@
           "match_score": 0.38
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.477,
-          "demand_weight": 0.595,
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.442,
+          "demand_weight": 0.675,
           "matched_tokens": [
             "vitaminc"
           ],
-          "match_score": 0.284
+          "match_score": 0.298
         },
         {
           "channel": "oliveyoung_us",
@@ -11922,14 +11853,14 @@
           "match_score": 0.38
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.477,
-          "demand_weight": 0.595,
+          "channel": "amazon_new_beauty",
+          "global_product": "Arencia Vitamin C Booster Shot Serum with Glutathione, Niacinamide and Vitamin E for Dark Spot Care, Fine Lines & Wrinkles, Glass Skin, Korean Skincare 30ml/1.01 fl.oz",
+          "similarity": 0.442,
+          "demand_weight": 0.675,
           "matched_tokens": [
             "vitaminc"
           ],
-          "match_score": 0.284
+          "match_score": 0.298
         },
         {
           "channel": "oliveyoung_us",
@@ -12076,16 +12007,6 @@
           "match_score": 0.226
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.212
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "REJURAN Dual Effect Ampoule 1.01 fl. oz.(30ml)",
           "similarity": 0.4,
@@ -12094,6 +12015,16 @@
             "ampoule"
           ],
           "match_score": 0.196
+        },
+        {
+          "channel": "sokoglam_us",
+          "global_product": "Time Stop Collagen Ampoule",
+          "similarity": 0.367,
+          "demand_weight": 0.475,
+          "matched_tokens": [
+            "ampoule"
+          ],
+          "match_score": 0.174
         }
       ],
       "recommend_reason": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 37% · 토큰 ampoule · S제외:score_below_82",
@@ -12166,6 +12097,83 @@
       "recommend_reason": "글로벌 'celimax The Vita A Retinal Shot Tightening Booster (0.51 fl.oz) | 0.1% Retinal, 3% Matrixyl for Anti Aging, Pore Minimizer, Fine Lines, Firmer Skin | Korean Skin Care Gift, Advanced Retinol' (amazon_best_sellers) 유사 32% · 토큰 pore · S제외:score_below_82",
       "canonical_product_id": "CP000336",
       "desk": "skincare"
+    },
+    {
+      "pd_no": "1061917",
+      "name": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
+      "bucket": "마스크팩",
+      "site_category": "페이셜팩",
+      "rebucketed": false,
+      "price_krw": 5000,
+      "rating": 4.7,
+      "review_count": 104,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250220/bk6Pq0Cg9BN636g1p8bJ1061917_00_01bk6Pq0Cg9BN636g1p8bJ.jpg",
+      "shopify_score": 56,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 0,
+      "us_median_price_usd": 0.0,
+      "score_breakdown": {
+        "category": 22.6,
+        "rating": 11.7,
+        "reviews": 12.2,
+        "price": 10.0,
+        "keyword": 0,
+        "us_market_fit": 0.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 5,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": {
+        "channel": "ulta_beauty",
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
+        "matched_tokens": [
+          "mask"
+        ],
+        "match_score": 0.214
+      },
+      "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.214
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.181
+        },
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
+          "matched_tokens": [
+            "mask"
+          ],
+          "match_score": 0.155
+        }
+      ],
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
+      "canonical_product_id": "CP000177",
+      "desk": null
     },
     {
       "pd_no": "B202604026561",
@@ -12243,140 +12251,6 @@
       "recommend_reason": "글로벌 'XMD Stem III Clinical Recovery Serum' (sokoglam_us) 유사 27% · 토큰 serum · S제외:score_below_82",
       "canonical_product_id": "CP000300",
       "desk": null
-    },
-    {
-      "pd_no": "1061917",
-      "name": "랩잇 by 닥터지 포어 젤리 마스크 50 ml",
-      "bucket": "마스크팩",
-      "site_category": "페이셜팩",
-      "rebucketed": false,
-      "price_krw": 5000,
-      "rating": 4.7,
-      "review_count": 104,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061917",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20250220/bk6Pq0Cg9BN636g1p8bJ1061917_00_01bk6Pq0Cg9BN636g1p8bJ.jpg",
-      "shopify_score": 56,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 0,
-      "us_median_price_usd": 0.0,
-      "score_breakdown": {
-        "category": 22.6,
-        "rating": 11.7,
-        "reviews": 12.2,
-        "price": 10.0,
-        "keyword": 0,
-        "us_market_fit": 0.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 5,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
-        "matched_tokens": [
-          "mask"
-        ],
-        "match_score": 0.193
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.193
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
-          "demand_weight": 0.68,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.175
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "mask"
-          ],
-          "match_score": 0.133
-        }
-      ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
-      "canonical_product_id": "CP000177",
-      "desk": null
-    },
-    {
-      "pd_no": "B202604026513",
-      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
-      "bucket": "스킨케어",
-      "site_category": "미스트/픽서",
-      "rebucketed": false,
-      "price_krw": 60000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026513&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
-      "shopify_score": 56,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 18,
-      "us_median_price_usd": 24.4,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 5,
-        "us_market_fit": 24.8,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 3,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Dry Skin Serum Marula Oil 4%, Q10 1%, Rosehip Oil 4%",
-        "similarity": 0.267,
-        "demand_weight": 0.468,
-        "matched_tokens": [
-          "serum"
-        ],
-        "match_score": 0.125
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Dry Skin Serum Marula Oil 4%, Q10 1%, Rosehip Oil 4%",
-          "similarity": 0.267,
-          "demand_weight": 0.468,
-          "matched_tokens": [
-            "serum"
-          ],
-          "match_score": 0.125
-        }
-      ],
-      "recommend_reason": "글로벌 'Dry Skin Serum Marula Oil 4%, Q10 1%, Rosehip Oil 4%' (ulta_beauty) 유사 27% · 토큰 serum · S제외:score_below_82",
-      "canonical_product_id": "CP000297",
-      "desk": "skincare"
     },
     {
       "pd_no": "1060583",
@@ -12638,6 +12512,43 @@
       "desk": null
     },
     {
+      "pd_no": "B202604026513",
+      "name": "더랩바이블랑두 클리어히알결광 세럼미스트 150 ml",
+      "bucket": "스킨케어",
+      "site_category": "미스트/픽서",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026513&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20251126/cMlhXD2J2f3Ei9SrN3rm1073405_00_01cMlhXD2J2f3Ei9SrN3rm.jpg",
+      "shopify_score": 56,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 18,
+      "us_median_price_usd": 24.4,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 5,
+        "us_market_fit": 24.8,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000297",
+      "desk": "skincare"
+    },
+    {
       "pd_no": "B202604026516",
       "name": "어퓨 더퓨어 티트리 스팟 세럼 8 ml",
       "bucket": "스킨케어",
@@ -12729,25 +12640,25 @@
           "match_score": 0.425
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-          "similarity": 0.377,
-          "demand_weight": 0.882,
+          "channel": "ulta_beauty",
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.533,
+          "demand_weight": 0.68,
           "matched_tokens": [
-            "pdrn"
+            "hydrating",
+            "mask"
           ],
-          "match_score": 0.333
+          "match_score": 0.363
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
-          "similarity": 0.62,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.4,
+          "demand_weight": 0.85,
           "matched_tokens": [
-            "mask",
             "pdrn"
           ],
-          "match_score": 0.304
+          "match_score": 0.34
         }
       ],
       "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 62% · 토큰 hydrating, pdrn · S제외:score_below_82",
@@ -13119,7 +13030,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 20,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -13127,17 +13038,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.834,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.531
+        "match_score": 0.748
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.88,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.748
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -13150,29 +13072,18 @@
           "match_score": 0.531
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.76,
-          "demand_weight": 0.562,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.773,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.427
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-          "similarity": 0.88,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.374
+          "match_score": 0.367
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn · S제외:score_below_82",
       "canonical_product_id": "CP000320",
       "desk": "skincare"
     },
@@ -13200,7 +13111,7 @@
         "keyword": 3,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 14,
+        "global_similarity_reference_only": 20,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -13208,17 +13119,28 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "similarity": 0.834,
-        "demand_weight": 0.637,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.88,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "cream",
           "pdrn"
         ],
-        "match_score": 0.531
+        "match_score": 0.748
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.88,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "cream",
+            "pdrn"
+          ],
+          "match_score": 0.748
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
@@ -13231,29 +13153,18 @@
           "match_score": 0.531
         },
         {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.76,
-          "demand_weight": 0.562,
+          "channel": "amazon_best_sellers",
+          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
+          "similarity": 0.773,
+          "demand_weight": 0.475,
           "matched_tokens": [
             "cream",
             "pdrn"
           ],
-          "match_score": 0.427
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
-          "similarity": 0.88,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "cream",
-            "pdrn"
-          ],
-          "match_score": 0.374
+          "match_score": 0.367
         }
       ],
-      "recommend_reason": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn · S제외:score_below_82",
       "canonical_product_id": "CP000337",
       "desk": "skincare"
     },
@@ -13321,14 +13232,15 @@
           "match_score": 0.304
         },
         {
-          "channel": "sokoglam_us",
-          "global_product": "PDRN Caffeine Shot Serum",
-          "similarity": 0.4,
-          "demand_weight": 0.475,
+          "channel": "ulta_beauty",
+          "global_product": "PDRN Collagen Lip Mask Glazed Jelly",
+          "similarity": 0.634,
+          "demand_weight": 0.425,
           "matched_tokens": [
+            "mask",
             "pdrn"
           ],
-          "match_score": 0.19
+          "match_score": 0.27
         }
       ],
       "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 38% · 토큰 pdrn · S제외:score_below_82",
@@ -13618,7 +13530,7 @@
         "keyword": 3,
         "us_market_fit": 23.8,
         "rebucket_note": "",
-        "global_similarity_reference_only": 7,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -13629,24 +13541,24 @@
         "channel": "ulta_beauty",
         "global_product": "Smushy SOS Hydrating Lip Mask",
         "similarity": 0.733,
-        "demand_weight": 0.425,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "hydrating",
           "mask"
         ],
-        "match_score": 0.312
+        "match_score": 0.499
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
           "global_product": "Smushy SOS Hydrating Lip Mask",
           "similarity": 0.733,
-          "demand_weight": 0.425,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "hydrating",
             "mask"
           ],
-          "match_score": 0.312
+          "match_score": 0.499
         }
       ],
       "recommend_reason": "글로벌 'Smushy SOS Hydrating Lip Mask' (ulta_beauty) 유사 73% · 토큰 hydrating, mask · S제외:score_below_82",
@@ -13708,17 +13620,6 @@
           "match_score": 0.31
         },
         {
-          "channel": "ulta_beauty",
-          "global_product": "Retinol + HPR Ceramide Capsules Rapid Skin Renewing Serum",
-          "similarity": 0.6,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "retinol",
-            "serum"
-          ],
-          "match_score": 0.255
-        },
-        {
           "channel": "oliveyoung_us",
           "global_product": "[2options] Anua Pdrn Hyaluronic Acid Capsule 100 Serum Mask 0.77 fl. oz.(23ml)",
           "similarity": 0.5,
@@ -13728,6 +13629,17 @@
             "serum"
           ],
           "match_score": 0.245
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Serum Mask α 0.95 oz.(27g)",
+          "similarity": 0.489,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "mask",
+            "serum"
+          ],
+          "match_score": 0.24
         }
       ],
       "recommend_reason": "글로벌 'Expert Retinol Super Bounce Serum' (sokoglam_us) 유사 65% · 토큰 retinol, serum · S제외:score_below_82",
@@ -14048,6 +13960,16 @@
           "match_score": 0.405
         },
         {
+          "channel": "ulta_beauty",
+          "global_product": "5 Peptide Collagen Lip Fill Tinted Treatment",
+          "similarity": 0.477,
+          "demand_weight": 0.637,
+          "matched_tokens": [
+            "collagen"
+          ],
+          "match_score": 0.304
+        },
+        {
           "channel": "oliveyoung_us",
           "global_product": "NE:AR Glow Collagen Chews Net. Wt. 1.68 oz.(47.6g)",
           "similarity": 0.553,
@@ -14056,16 +13978,6 @@
             "collagen"
           ],
           "match_score": 0.271
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[2types] MEDIHEAL Collagen Capsule Eye Patch 60ct 3.73 oz.(106g)",
-          "similarity": 0.5,
-          "demand_weight": 0.49,
-          "matched_tokens": [
-            "collagen"
-          ],
-          "match_score": 0.245
         }
       ],
       "recommend_reason": "글로벌 'Time Stop Collagen Ampoule' (sokoglam_us) 유사 85% · 토큰 ampoule, collagen · S제외:score_below_82",
@@ -14096,7 +14008,7 @@
         "keyword": 3,
         "us_market_fit": 22.5,
         "rebucket_note": "",
-        "global_similarity_reference_only": 9,
+        "global_similarity_reference_only": 10,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -14128,6 +14040,17 @@
         },
         {
           "channel": "ulta_beauty",
+          "global_product": "CC Cream Color-Corrector with Korean 2% Centella Asiatica & Hyaluronic Acid",
+          "similarity": 0.8,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "centella",
+            "cream"
+          ],
+          "match_score": 0.34
+        },
+        {
+          "channel": "ulta_beauty",
           "global_product": "Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
           "similarity": 0.793,
           "demand_weight": 0.425,
@@ -14136,16 +14059,6 @@
             "cream"
           ],
           "match_score": 0.337
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Madagascar Centella Travel Kit",
-          "similarity": 0.5,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "centella"
-          ],
-          "match_score": 0.212
         }
       ],
       "recommend_reason": "글로벌 'La Roche-Posay Cicaplast Balm B5, Barrier Repair Cream for Dry Skin | Skin healing cream with centella asiatica, shea butter & panthenol. Multi-purpose face, body & hand balm. Baby safe.' (amazon_best_sellers) 유사 76% · 토큰 centella, cream · S제외:score_below_82",
@@ -14184,16 +14097,26 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "oliveyoung_us",
-        "global_product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
-        "similarity": 0.477,
-        "demand_weight": 0.882,
+        "channel": "ulta_beauty",
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "similarity": 0.5,
+        "demand_weight": 0.85,
         "matched_tokens": [
           "pdrn"
         ],
-        "match_score": 0.421
+        "match_score": 0.425
       },
       "global_matches": [
+        {
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.5,
+          "demand_weight": 0.85,
+          "matched_tokens": [
+            "pdrn"
+          ],
+          "match_score": 0.425
+        },
         {
           "channel": "oliveyoung_us",
           "global_product": "[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)",
@@ -14214,19 +14137,9 @@
             "pdrn"
           ],
           "match_score": 0.402
-        },
-        {
-          "channel": "oliveyoung_us",
-          "global_product": "[2options] ANUA PDRN Hyaluronic Acid Hydrating Capsule Mist 1.01 fl. oz.(30ml)",
-          "similarity": 0.47,
-          "demand_weight": 0.686,
-          "matched_tokens": [
-            "pdrn"
-          ],
-          "match_score": 0.322
         }
       ],
-      "recommend_reason": "글로벌 '[2options] ANUA PDRN Hyaluronic Acid Capsule 100 Serum 1.01 fl. oz.(30ml)' (oliveyoung_us) 유사 48% · 토큰 pdrn · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 50% · 토큰 pdrn · S제외:score_below_82",
       "canonical_product_id": "CP000287",
       "desk": null
     },
@@ -14286,11 +14199,11 @@
           "channel": "amazon_best_sellers",
           "global_product": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
           "similarity": 0.325,
-          "demand_weight": 0.902,
+          "demand_weight": 0.95,
           "matched_tokens": [
             "toner"
           ],
-          "match_score": 0.293
+          "match_score": 0.309
         },
         {
           "channel": "ulta_beauty",
@@ -14553,7 +14466,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 12,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -14587,12 +14500,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
           "similarity": 0.76,
-          "demand_weight": 0.562,
+          "demand_weight": 0.45,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.427
+          "match_score": 0.342
         },
         {
           "channel": "sokoglam_us",
@@ -14633,7 +14546,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 12,
+        "global_similarity_reference_only": 11,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -14667,12 +14580,12 @@
           "channel": "amazon_new_beauty",
           "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
           "similarity": 0.76,
-          "demand_weight": 0.562,
+          "demand_weight": 0.45,
           "matched_tokens": [
             "cream",
             "retinol"
           ],
-          "match_score": 0.427
+          "match_score": 0.342
         },
         {
           "channel": "sokoglam_us",
@@ -14867,7 +14780,7 @@
         "keyword": 0,
         "us_market_fit": 25.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 10,
+        "global_similarity_reference_only": 8,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -14875,28 +14788,17 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.634,
-        "demand_weight": 0.595,
+        "channel": "sokoglam_us",
+        "global_product": "Yuzu Vitamin C Bright Eye Cream",
+        "similarity": 0.653,
+        "demand_weight": 0.475,
         "matched_tokens": [
-          "brightening",
+          "cream",
           "vitaminc"
         ],
-        "match_score": 0.377
+        "match_score": 0.31
       },
       "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.634,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening",
-            "vitaminc"
-          ],
-          "match_score": 0.377
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Yuzu Vitamin C Bright Eye Cream",
@@ -14917,9 +14819,20 @@
             "vitaminc"
           ],
           "match_score": 0.304
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "[2options] GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha",
+          "similarity": 0.6,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "cream",
+            "vitaminc"
+          ],
+          "match_score": 0.294
         }
       ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc · S제외:score_below_82",
       "canonical_product_id": "CP000318",
       "desk": "skincare"
     },
@@ -15078,140 +14991,6 @@
       "desk": null
     },
     {
-      "pd_no": "B202608127176",
-      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
-      "bucket": "스킨케어",
-      "site_category": "패치",
-      "rebucketed": false,
-      "price_krw": 32000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127176&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 13,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 5,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.595,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.212
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.212
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.144
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
-      "canonical_product_id": "CP000332",
-      "desk": null
-    },
-    {
-      "pd_no": "B202604026744",
-      "name": "메디필 멜라논엑스 기미크림 30 ml",
-      "bucket": "스킨케어",
-      "site_category": "크림",
-      "rebucketed": false,
-      "price_krw": 60000,
-      "rating": 0.0,
-      "review_count": 0,
-      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
-      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
-      "shopify_score": 51,
-      "grade": "C",
-      "s_rule": "score_below_82",
-      "us_market_hits": 13,
-      "us_median_price_usd": 27.0,
-      "score_breakdown": {
-        "category": 25.0,
-        "rating": 0.0,
-        "reviews": 0.0,
-        "price": 1.0,
-        "keyword": 0,
-        "us_market_fit": 25.0,
-        "rebucket_note": "",
-        "global_similarity_reference_only": 5,
-        "penalty": 0,
-        "us_block_kind": "",
-        "us_block_reason": "",
-        "max_possible": 100
-      },
-      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
-      "best_global_match": {
-        "channel": "ulta_beauty",
-        "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-        "similarity": 0.357,
-        "demand_weight": 0.595,
-        "matched_tokens": [
-          "brightening"
-        ],
-        "match_score": 0.212
-      },
-      "global_matches": [
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-          "similarity": 0.357,
-          "demand_weight": 0.595,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.212
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Visible Brightening Clearly Radiant Spot Correcting Capsules",
-          "similarity": 0.34,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "brightening"
-          ],
-          "match_score": 0.144
-        }
-      ],
-      "recommend_reason": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 36% · 토큰 brightening · S제외:score_below_82",
-      "canonical_product_id": "CP000321",
-      "desk": "skincare"
-    },
-    {
       "pd_no": "B202608127273",
       "name": "김정문알로에 라센스 로에 큐어 인텐시브 2x 크림 3.5 g",
       "bucket": "스킨케어",
@@ -15274,14 +15053,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -15351,14 +15130,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -15428,14 +15207,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -15505,14 +15284,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -15582,14 +15361,14 @@
           "match_score": 0.248
         },
         {
-          "channel": "sephora",
-          "global_product": "Pocket Bronze Long-Wearing Cream Bronzer",
-          "similarity": 0.26,
-          "demand_weight": 0.855,
+          "channel": "ulta_beauty",
+          "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+          "similarity": 0.272,
+          "demand_weight": 0.85,
           "matched_tokens": [
             "cream"
           ],
-          "match_score": 0.222
+          "match_score": 0.231
         }
       ],
       "recommend_reason": "글로벌 'Snail Mucin Eye Cream' (sokoglam_us) 유사 29% · 토큰 cream · S제외:score_below_82",
@@ -15856,6 +15635,80 @@
       "desk": null
     },
     {
+      "pd_no": "B202608127176",
+      "name": "메디필 멜라논엑스 기미 크림 패치 2매",
+      "bucket": "스킨케어",
+      "site_category": "패치",
+      "rebucketed": false,
+      "price_krw": 32000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127176&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/m63GblBRLKvTv7f4VjLp1068861_00_00m63GblBRLKvTv7f4VjLp.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 13,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000332",
+      "desk": null
+    },
+    {
+      "pd_no": "B202604026744",
+      "name": "메디필 멜라논엑스 기미크림 30 ml",
+      "bucket": "스킨케어",
+      "site_category": "크림",
+      "rebucketed": false,
+      "price_krw": 60000,
+      "rating": 0.0,
+      "review_count": 0,
+      "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
+      "image_url": "https://cdn.daisomall.co.kr/file/PD/20260721/B4F2mxOApDdehVn5siak1068858_00_00B4F2mxOApDdehVn5siak.jpg",
+      "shopify_score": 51,
+      "grade": "C",
+      "s_rule": "score_below_82",
+      "us_market_hits": 13,
+      "us_median_price_usd": 27.0,
+      "score_breakdown": {
+        "category": 25.0,
+        "rating": 0.0,
+        "reviews": 0.0,
+        "price": 1.0,
+        "keyword": 0,
+        "us_market_fit": 25.0,
+        "rebucket_note": "",
+        "global_similarity_reference_only": 0,
+        "penalty": 0,
+        "us_block_kind": "",
+        "us_block_reason": "",
+        "max_possible": 100
+      },
+      "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
+      "best_global_match": null,
+      "global_matches": [],
+      "recommend_reason": "스킨케어 카테고리 (글로벌 시그널 약함)",
+      "canonical_product_id": "CP000321",
+      "desk": "skincare"
+    },
+    {
       "pd_no": "B202608127192",
       "name": "파티온 노스카나인 퍼스트스텝 흔적수분크림 50 ml",
       "bucket": "스킨케어",
@@ -15910,6 +15763,17 @@
           "match_score": 0.514
         },
         {
+          "channel": "ulta_beauty",
+          "global_product": "24-7 Moisture Hydrating Day & Night Cream",
+          "similarity": 0.733,
+          "demand_weight": 0.425,
+          "matched_tokens": [
+            "cream",
+            "hydrating"
+          ],
+          "match_score": 0.312
+        },
+        {
           "channel": "amazon_best_sellers",
           "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
           "similarity": 0.653,
@@ -15958,47 +15822,47 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
+          "match_score": 0.181
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000289",
       "desk": null
     },
@@ -16026,7 +15890,7 @@
         "keyword": 0,
         "us_market_fit": 24.0,
         "rebucket_note": "",
-        "global_similarity_reference_only": 3,
+        "global_similarity_reference_only": 4,
         "penalty": 0,
         "us_block_kind": "",
         "us_block_reason": "",
@@ -16037,32 +15901,22 @@
         "channel": "ulta_beauty",
         "global_product": "Smushy SOS Hydrating Lip Mask",
         "similarity": 0.267,
-        "demand_weight": 0.425,
+        "demand_weight": 0.68,
         "matched_tokens": [
           "hydrating"
         ],
-        "match_score": 0.113
+        "match_score": 0.181
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
           "global_product": "Smushy SOS Hydrating Lip Mask",
           "similarity": 0.267,
-          "demand_weight": 0.425,
+          "demand_weight": 0.68,
           "matched_tokens": [
             "hydrating"
           ],
-          "match_score": 0.113
-        },
-        {
-          "channel": "ulta_beauty",
-          "global_product": "Pout Preserve Hydrating Peptide Lip Treatment",
-          "similarity": 0.263,
-          "demand_weight": 0.425,
-          "matched_tokens": [
-            "hydrating"
-          ],
-          "match_score": 0.112
+          "match_score": 0.181
         },
         {
           "channel": "amazon_new_beauty",
@@ -16222,26 +16076,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "amazon_new_beauty",
-        "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-        "similarity": 0.74,
-        "demand_weight": 0.562,
+        "channel": "sokoglam_us",
+        "global_product": "Retinol Expert 0.1%",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol"
         ],
-        "match_score": 0.416
+        "match_score": 0.405
       },
       "global_matches": [
-        {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.74,
-          "demand_weight": 0.562,
-          "matched_tokens": [
-            "retinol"
-          ],
-          "match_score": 0.416
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Retinol Expert 0.1%",
@@ -16261,6 +16105,16 @@
             "retinol"
           ],
           "match_score": 0.405
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)",
+          "similarity": 0.8,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.392
         }
       ],
       "recommend_reason": "미국 판매 제약: 주름개선 - 미국에서 의약품 주장",
@@ -16485,47 +16339,47 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
+          "match_score": 0.181
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000045",
       "desk": null
     },
@@ -17159,26 +17013,16 @@
       },
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
-        "channel": "amazon_new_beauty",
-        "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-        "similarity": 0.74,
-        "demand_weight": 0.562,
+        "channel": "sokoglam_us",
+        "global_product": "Retinol Expert 0.1%",
+        "similarity": 0.853,
+        "demand_weight": 0.475,
         "matched_tokens": [
           "retinol"
         ],
-        "match_score": 0.416
+        "match_score": 0.405
       },
       "global_matches": [
-        {
-          "channel": "amazon_new_beauty",
-          "global_product": "CENTELLIAN 24 360 Shot PDRN Firming Eye Cream, TECA Retinol Care | Targets Wrinkles, Crow's Feet, Dark Circles, Puffiness and Bags for a Smoother, Refreshed-Looking Contour, 1.01 fl oz",
-          "similarity": 0.74,
-          "demand_weight": 0.562,
-          "matched_tokens": [
-            "retinol"
-          ],
-          "match_score": 0.416
-        },
         {
           "channel": "sokoglam_us",
           "global_product": "Retinol Expert 0.1%",
@@ -17198,6 +17042,16 @@
             "retinol"
           ],
           "match_score": 0.405
+        },
+        {
+          "channel": "oliveyoung_us",
+          "global_product": "Anua Collagen Retinol Guasha Cream 2.70 fl.oz.(80ml)",
+          "similarity": 0.8,
+          "demand_weight": 0.49,
+          "matched_tokens": [
+            "retinol"
+          ],
+          "match_score": 0.392
         }
       ],
       "recommend_reason": "미국 판매 제약: 주름개선 - 미국에서 의약품 주장",
@@ -17331,6 +17185,16 @@
           "match_score": 0.189
         },
         {
+          "channel": "ulta_beauty",
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
+          "demand_weight": 0.68,
+          "matched_tokens": [
+            "hydrating"
+          ],
+          "match_score": 0.181
+        },
+        {
           "channel": "sephora",
           "global_product": "Lip Butter Balm Treatment for Hydration + Nourishing Shine",
           "similarity": 0.258,
@@ -17339,16 +17203,6 @@
             "hydrating"
           ],
           "match_score": 0.174
-        },
-        {
-          "channel": "amazon_best_sellers",
-          "global_product": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream, 2.02 fl oz | Lightweight, Non-Greasy Hydrating Face Moisturizer with Salmon DNA for Glass Skin, Korean Skincare",
-          "similarity": 0.251,
-          "demand_weight": 0.475,
-          "matched_tokens": [
-            "hydrating"
-          ],
-          "match_score": 0.119
         }
       ],
       "recommend_reason": "글로벌 'Pocket Blush Buildable Hydrating Cream Blush' (sephora) 유사 26% · 토큰 hydrating · S제외:score_below_82",
@@ -18026,47 +17880,47 @@
       "scoring_basis": "다이소 실측 + 글로벌 실판매 유사도 + S게이트",
       "best_global_match": {
         "channel": "ulta_beauty",
-        "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-        "similarity": 0.267,
-        "demand_weight": 0.722,
+        "global_product": "Satin Slumber Lip Mask",
+        "similarity": 0.28,
+        "demand_weight": 0.765,
         "matched_tokens": [
           "mask"
         ],
-        "match_score": 0.193
+        "match_score": 0.214
       },
       "global_matches": [
         {
           "channel": "ulta_beauty",
-          "global_product": "7 Color LED Photon Super Mask + NIR Technology",
-          "similarity": 0.267,
-          "demand_weight": 0.722,
+          "global_product": "Satin Slumber Lip Mask",
+          "similarity": 0.28,
+          "demand_weight": 0.765,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.193
+          "match_score": 0.214
         },
         {
           "channel": "ulta_beauty",
-          "global_product": "LED Light Therapy Face Mask 7 Color Skin Care Mask",
-          "similarity": 0.258,
+          "global_product": "Smushy SOS Hydrating Lip Mask",
+          "similarity": 0.267,
           "demand_weight": 0.68,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.175
+          "match_score": 0.181
         },
         {
-          "channel": "oliveyoung_us",
-          "global_product": "[7types] MEDIHEAL Essential Face Mask 10ct 0.81 fl. oz.(24ml)",
-          "similarity": 0.272,
-          "demand_weight": 0.49,
+          "channel": "ulta_beauty",
+          "global_product": "Glass Skin Ready-to-Glow Mask Set",
+          "similarity": 0.26,
+          "demand_weight": 0.595,
           "matched_tokens": [
             "mask"
           ],
-          "match_score": 0.133
+          "match_score": 0.155
         }
       ],
-      "recommend_reason": "글로벌 '7 Color LED Photon Super Mask + NIR Technology' (ulta_beauty) 유사 27% · 토큰 mask · S제외:score_below_82",
+      "recommend_reason": "글로벌 'Satin Slumber Lip Mask' (ulta_beauty) 유사 28% · 토큰 mask · S제외:score_below_82",
       "canonical_product_id": "CP000284",
       "desk": null
     },

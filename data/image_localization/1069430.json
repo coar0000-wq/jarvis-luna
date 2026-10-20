@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "product_id": "1069430",
+  "title_en": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+  "generated_at": "2026-10-20T05:53:39.223119+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250805/description/850/ZX99Pxb5xlYvxjx2QBLk1069430_01_01ZX99Pxb5xlYvxjx2QBLk.jpg",
+      "sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "bytes": 720114
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        0,
+        1621
+      ],
+      "panel_sha256": "2945a555d82462fe7091af0bb30c56368b408982c599613979d6234cf5aa6b37",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "체취",
+        "냄새",
+        "없어요.",
+        "체취"
+      ]
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        1621,
+        2591
+      ],
+      "panel_sha256": "03e40c362d5f24c6a831ceae3a5ebdcd71c22f3d59f44e2ea0e8ea73a11ad466",
+      "status": "used",
+      "korean_boxes": 7,
+      "file": "01-24-hour-odor-protection-en.jpg"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        2591,
+        4491
+      ],
+      "panel_sha256": "5b58927727ca1defcd5411ed5d72496d0e2815b4d87da8ffdba1369fd4dbdb33",
+      "status": "excluded",
+      "korean_boxes": 14,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        4491,
+        5421
+      ],
+      "panel_sha256": "86b45905b9a4b244d9998ddad8c58b1f8b079de82978e9b87d2ff0c79cedfbd4",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "translation_failed:HTTPError"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        5421,
+        7106
+      ],
+      "panel_sha256": "1fdd220d104121c85c78453bdf3417132ba20839e77fabfbc7a331dfa5390987",
+      "status": "excluded",
+      "reason": "korean_regulatory_panel"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        7106,
+        8314
+      ],
+      "panel_sha256": "751c0f8b612c4911be686e1924ff7256e637b7bdd59961bd7881dee9045da3ac",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    },
+    {
+      "source_sha256": "b58674e9c86e49bda1166b83c80d42b1f4fac37b8fc36d5b6b866873b36a7506",
+      "y": [
+        8314,
+        9292
+      ],
+      "panel_sha256": "73398432840e9df2c12728a7b2031620e65197a870505a90a8fc364c2a2f20a6",
+      "status": "excluded",
+      "korean_boxes": 15,
+      "reason": "translation_failed:TimeoutError"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-24-hour-odor-protection-en.jpg",
+      "sha256": "6867a9c6108ebf17fd99151016c8a211a71d4a967e1f176d01e86602a0b19a1e",
+      "bytes": 118821,
+      "width": 850,
+      "height": 970,
+      "alt": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml — 24-Hour Odor Protection",
+      "english": {
+        "1": "24-Hour Odor Protection",
+        "2": "P&K Skin Clinical Research Center, 30 subjects, Feb 12–Feb 18, 2025",
+        "3": "99.9% Antibacterial Against Odor-Causing Bacteria",
+        "4": "LG H&H R&D Center, 20 subjects, Feb 20–Feb 24, 2025 (S. aureus)",
+        "5": "Targets Odor at the Source\nLG H&H Patented Technology",
+        "6": "Patent Registration No. 10-2393943",
+        "7": "Care for\nBlemish-Prone Skin"
+      }
+    }
+  ],
+  "status": "ok",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "role_rights_and_label_evidence_review_required"
+  ],
+  "summary": {
+    "panels": 7,
+    "used": 1,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "korean_regulatory_panel": 1,
+      "korean_text_remaining": 1,
+      "translation_failed": 3
+    }
+  }
+}

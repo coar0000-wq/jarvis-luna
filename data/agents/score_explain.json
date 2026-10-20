@@ -1,6 +1,6 @@
 {
   "agent": "Score-Explain",
-  "generated_at": "2026-10-20T00:10:07.154871+00:00",
+  "generated_at": "2026-10-20T03:17:14.100625+00:00",
   "s_count": 7,
   "rule": "qualify_s v2 — core + ingredient/form match + no pet/noise",
   "items": [
@@ -28,24 +28,23 @@
       ]
     },
     {
-      "pd_no": "1061918",
-      "name": "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트",
+      "pd_no": "1049275",
+      "name": "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
       "score": 98,
-      "why": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
-      "global": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-      "channel": "ulta_beauty",
+      "why": "글로벌 'Time Revolution Night Repair Ampoule 5X' (sokoglam_us) 유사 67% · 토큰 ampoule",
+      "global": "Time Revolution Night Repair Ampoule 5X",
+      "channel": "sokoglam_us",
       "tokens": [
-        "brightening",
-        "vitaminc"
+        "ampoule"
       ]
     },
     {
       "pd_no": "1067498",
       "name": "[영양광채]VT PDRN 광채 크림 50 ml",
       "score": 96,
-      "why": "글로벌 '[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)' (oliveyoung_us) 유사 83% · 토큰 cream, pdrn",
-      "global": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-      "channel": "oliveyoung_us",
+      "why": "글로벌 'Lacto-PDRN 4% + B9 Eye Cream' (ulta_beauty) 유사 88% · 토큰 cream, pdrn",
+      "global": "Lacto-PDRN 4% + B9 Eye Cream",
+      "channel": "ulta_beauty",
       "tokens": [
         "cream",
         "pdrn"
@@ -55,11 +54,11 @@
       "pd_no": "1068721",
       "name": "클리덤 리포좀 비타민C 캡슐잡티크림 55 ml",
       "score": 93,
-      "why": "글로벌 'Vitamin C Ester CCC+ Ferulic Brightening Complex 20%' (ulta_beauty) 유사 63% · 토큰 brightening, vitaminc",
-      "global": "Vitamin C Ester CCC+ Ferulic Brightening Complex 20%",
-      "channel": "ulta_beauty",
+      "why": "글로벌 'Yuzu Vitamin C Bright Eye Cream' (sokoglam_us) 유사 65% · 토큰 cream, vitaminc",
+      "global": "Yuzu Vitamin C Bright Eye Cream",
+      "channel": "sokoglam_us",
       "tokens": [
-        "brightening",
+        "cream",
         "vitaminc"
       ]
     },

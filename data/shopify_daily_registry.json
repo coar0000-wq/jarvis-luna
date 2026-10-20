@@ -1560,6 +1560,438 @@
       ],
       "shopify_id": "gid://shopify/Product/9597411655937",
       "handle": "46cm-체취솔루션-데오드란트-바디워시-스파클링-시트러스향-225-ml"
+    },
+    {
+      "pd_no": "1060646",
+      "family": "더랩바이블랑두클리어히알물광틴티드커버크림40ml",
+      "name_kr": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml",
+      "title": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml",
+      "category": "makeup",
+      "date": "2026-10-20",
+      "status": "DRAFT",
+      "krw": 5000,
+      "single_usd": 38.99,
+      "single_margin_pct": 68.8,
+      "pack_usd": 66.99,
+      "pack_margin_pct": 73.4,
+      "size": {
+        "unit": 40.0,
+        "base": "ml",
+        "count": 1,
+        "total": 40.0
+      },
+      "images": 3,
+      "price_basis": "shop.com 동일 상품 최저가보다 낮게 (총량 일치 확인)",
+      "shop_com_lowest_usd": 39.16,
+      "profitability_warnings": [],
+      "priority": null,
+      "price_evidence_source": "shop_com_live_comparable",
+      "price_claim": "undercuts_lowest_verified_same_item_comparator",
+      "draft_reasons": [
+        "ingredients_missing",
+        "product_accuracy_owner_review_required",
+        "ranking_fallback_draft_only",
+        "safety_evidence_unverified_owner_draft_only",
+        "listing_gate_product_missing_or_ambiguous",
+        "brand_english_unverified:더랩 바이 블랑두",
+        "english_title_missing",
+        "gosi_missing:ingredients",
+        "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      ],
+      "grade": "RANK",
+      "source": "daiso_realtime_ranking",
+      "s_candidates": 2,
+      "selection_source": "daiso_realtime_ranking",
+      "selection_provenance": null,
+      "ranking_display_rank": 3,
+      "price_position": "cheapest_or_equal",
+      "strategy_hints": [],
+      "shopify_id": "gid://shopify/Product/9652410122497",
+      "handle": "더랩-바이-블랑두-클리어-히알-물광-틴티드-커버-크림-40-ml"
+    },
+    {
+      "pd_no": "1069430",
+      "family": "46cm체취솔루션데오드란트바디워시리프레싱허벌향225ml",
+      "name_kr": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+      "title": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+      "category": "body",
+      "date": "2026-10-20",
+      "status": "DRAFT",
+      "krw": 5000,
+      "single_usd": 22.28,
+      "single_margin_pct": 40.0,
+      "pack_usd": 37.99,
+      "pack_margin_pct": 42.9,
+      "size": {
+        "unit": 225.0,
+        "base": "ml",
+        "count": 1,
+        "total": 225.0
+      },
+      "images": 1,
+      "price_basis": "원가·배송비·수수료·목표마진 기준 임시 USD 초안 가격 (시장가격 미확인)",
+      "shop_com_lowest_usd": null,
+      "profitability_warnings": [],
+      "priority": {
+        "source": "owner_body_shower_category_fallback",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00",
+        "status": "draft_only_category_source_order",
+        "queue_index": 2,
+        "source_index": 4,
+        "score": null,
+        "name": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+        "unsupported_listing_products": [
+          {
+            "pd_no": "B202507097644",
+            "source_index": 11,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097644",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202608076497",
+            "source_index": 15,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608076497",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122071",
+            "source_index": 19,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122071",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122144",
+            "source_index": 22,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122144",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122155",
+            "source_index": 32,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122155",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202507097652",
+            "source_index": 35,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097652",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292634",
+            "source_index": 39,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292634",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122156",
+            "source_index": 48,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122156",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292633",
+            "source_index": 55,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292633",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202605202222",
+            "source_index": 73,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202222",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202605202221",
+            "source_index": 77,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202221",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122072",
+            "source_index": 80,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122072",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292643",
+            "source_index": 83,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292643",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202605202269",
+            "source_index": 101,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202269",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202507097662",
+            "source_index": 124,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097662",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202507097653",
+            "source_index": 126,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097653",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292635",
+            "source_index": 132,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292635",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          }
+        ],
+        "catalog_path": "out/body_shower_catalog.json",
+        "catalog_sha256": "8740b95413500a721336e1c321322a1c6bbc174d1a0a381f3b44d330c6c3b7e0"
+      },
+      "price_evidence_source": null,
+      "price_claim": null,
+      "draft_reasons": [
+        "ingredients_missing",
+        "product_accuracy_owner_review_required",
+        "market_price_unverified_cost_based_draft_only",
+        "owner_category_fallback_draft_only",
+        "safety_evidence_unverified_owner_draft_only",
+        "listing_gate_product_missing_or_ambiguous",
+        "brand_english_unverified:",
+        "english_title_missing",
+        "gosi_missing:ingredients",
+        "manufacturer_safety_record_missing:pd_no_not_in_safety_substantiation.covered_pd_nos"
+      ],
+      "grade": "-",
+      "source": "owner_body_shower_category_fallback",
+      "s_candidates": 0,
+      "selection_source": "owner_body_shower_category_fallback",
+      "selection_provenance": {
+        "source": "owner_body_shower_category_fallback",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00",
+        "status": "draft_only_category_source_order",
+        "queue_index": 2,
+        "source_index": 4,
+        "score": null,
+        "name": "46cm 체취솔루션 데오드란트 바디워시 리프레싱 허벌향 225 ml",
+        "unsupported_listing_products": [
+          {
+            "pd_no": "B202507097644",
+            "source_index": 11,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097644",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202608076497",
+            "source_index": 15,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608076497",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122071",
+            "source_index": 19,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122071",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122144",
+            "source_index": 22,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122144",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122155",
+            "source_index": 32,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122155",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202507097652",
+            "source_index": 35,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097652",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292634",
+            "source_index": 39,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292634",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122156",
+            "source_index": 48,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122156",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292633",
+            "source_index": 55,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292633",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202605202222",
+            "source_index": 73,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202222",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202605202221",
+            "source_index": 77,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202221",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202503122072",
+            "source_index": 80,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122072",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292643",
+            "source_index": 83,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292643",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202605202269",
+            "source_index": 101,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202269",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202507097662",
+            "source_index": 124,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097662",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "B202507097653",
+            "source_index": 126,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097653",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          },
+          {
+            "pd_no": "O202512292635",
+            "source_index": 132,
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292635",
+            "reason": "unsupported_alphanumeric_product_id",
+            "category_code": "CTGR_01113",
+            "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+            "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+          }
+        ],
+        "catalog_path": "out/body_shower_catalog.json",
+        "catalog_sha256": "8740b95413500a721336e1c321322a1c6bbc174d1a0a381f3b44d330c6c3b7e0"
+      },
+      "price_position": "no_comparison",
+      "strategy_hints": [
+        "shop_com_match_missing: 검증된 동일 상품 비교 없음. 가격은 참고 가격 근거일 뿐 시장 최저가가 아니다"
+      ],
+      "shopify_id": "gid://shopify/Product/9652673216769",
+      "handle": "46cm-체취솔루션-데오드란트-바디워시-리프레싱-허벌향-225-ml"
     }
   ],
   "body_shower_fallback_queue": {
@@ -1682,35 +2114,37 @@
       "66170",
       "1068717",
       "1062160",
-      "1061862"
+      "1061862",
+      "1083794",
+      "1083793"
     ],
     "unsupported_listing_products": [
       {
         "pd_no": "B202507097644",
-        "source_index": 9,
+        "source_index": 11,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097644",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "B202608076497",
-        "source_index": 13,
+        "source_index": 15,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608076497",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "B202503122071",
-        "source_index": 15,
+        "source_index": 19,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122071",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "B202503122144",
@@ -1719,7 +2153,7 @@
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "B202503122155",
@@ -1728,117 +2162,117 @@
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "B202507097652",
-        "source_index": 34,
+        "source_index": 35,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097652",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "O202512292634",
-        "source_index": 40,
+        "source_index": 39,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292634",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "B202503122156",
-        "source_index": 47,
+        "source_index": 48,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122156",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "O202512292633",
-        "source_index": 56,
+        "source_index": 55,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292633",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
-      },
-      {
-        "pd_no": "B202605202221",
-        "source_index": 75,
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202221",
-        "reason": "unsupported_alphanumeric_product_id",
-        "category_code": "CTGR_01113",
-        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
-      },
-      {
-        "pd_no": "B202503122072",
-        "source_index": 79,
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122072",
-        "reason": "unsupported_alphanumeric_product_id",
-        "category_code": "CTGR_01113",
-        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
-      },
-      {
-        "pd_no": "O202512292643",
-        "source_index": 81,
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292643",
-        "reason": "unsupported_alphanumeric_product_id",
-        "category_code": "CTGR_01113",
-        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
-      },
-      {
-        "pd_no": "O202512292635",
-        "source_index": 84,
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292635",
-        "reason": "unsupported_alphanumeric_product_id",
-        "category_code": "CTGR_01113",
-        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
-      },
-      {
-        "pd_no": "B202605202269",
-        "source_index": 95,
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202269",
-        "reason": "unsupported_alphanumeric_product_id",
-        "category_code": "CTGR_01113",
-        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
-      },
-      {
-        "pd_no": "B202507097662",
-        "source_index": 118,
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097662",
-        "reason": "unsupported_alphanumeric_product_id",
-        "category_code": "CTGR_01113",
-        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
-      },
-      {
-        "pd_no": "B202507097653",
-        "source_index": 119,
-        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097653",
-        "reason": "unsupported_alphanumeric_product_id",
-        "category_code": "CTGR_01113",
-        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       },
       {
         "pd_no": "B202605202222",
-        "source_index": 126,
+        "source_index": 73,
         "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202222",
         "reason": "unsupported_alphanumeric_product_id",
         "category_code": "CTGR_01113",
         "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
-        "fetched_at": "2026-10-19T05:36:27.435321+00:00"
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+      },
+      {
+        "pd_no": "B202605202221",
+        "source_index": 77,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202221",
+        "reason": "unsupported_alphanumeric_product_id",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+      },
+      {
+        "pd_no": "B202503122072",
+        "source_index": 80,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202503122072",
+        "reason": "unsupported_alphanumeric_product_id",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+      },
+      {
+        "pd_no": "O202512292643",
+        "source_index": 83,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292643",
+        "reason": "unsupported_alphanumeric_product_id",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+      },
+      {
+        "pd_no": "B202605202269",
+        "source_index": 101,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202269",
+        "reason": "unsupported_alphanumeric_product_id",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+      },
+      {
+        "pd_no": "B202507097662",
+        "source_index": 124,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097662",
+        "reason": "unsupported_alphanumeric_product_id",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+      },
+      {
+        "pd_no": "B202507097653",
+        "source_index": 126,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202507097653",
+        "reason": "unsupported_alphanumeric_product_id",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
+      },
+      {
+        "pd_no": "O202512292635",
+        "source_index": 132,
+        "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=O202512292635",
+        "reason": "unsupported_alphanumeric_product_id",
+        "category_code": "CTGR_01113",
+        "source_url": "https://www.daisomall.co.kr/ds/exhCtgr/C208/CTGR_01050/CTGR_01061/CTGR_01113",
+        "fetched_at": "2026-10-20T05:38:15.391699+00:00"
       }
     ]
   },
-  "gallery_review_cursor": "gid://shopify/Product/9549280772353"
+  "gallery_review_cursor": "gid://shopify/Product/9592600068353"
 }

@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "product_id": "1060646",
+  "title_en": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml",
+  "generated_at": "2026-10-20T05:39:17.174737+00:00",
+  "method": "non-generative local text compositing over supplier detail images (OCR boxes + OpenCV inpaint + rendered English); no image generation API",
+  "reference_example": "data/manual/image_localization/1084687.json",
+  "translator": "gemini_vision_translation",
+  "sources": [
+    {
+      "url": "https://cdn.daisomall.co.kr/file/resize/PD/20241030/description/850/u84TObJUuj4jaLcPIl4t1060646_01_00u84TObJUuj4jaLcPIl4t.jpg",
+      "sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "bytes": 1313105
+    }
+  ],
+  "panels": [
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        0,
+        1900
+      ],
+      "panel_sha256": "7fdf93b268310648fa3ffd41f9affccf926af8a4cc96ca9a64cebb26871b394a",
+      "status": "excluded",
+      "korean_boxes": 9,
+      "reason": "text_overflow:unit 9"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        1900,
+        3431
+      ],
+      "panel_sha256": "cf20de1c319a9ce83baa695828113cc66ecbc9c6e5c6b74a564b2954aabbc600",
+      "status": "used",
+      "korean_boxes": 7,
+      "file": "01-the-answer-is-hydration-en.jpg"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        3431,
+        5220
+      ],
+      "panel_sha256": "d7a6ad64095054a012dc1948a2cd20be12a1c50f268f51d00cf5c301c56c5693",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "커버"
+      ]
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        5220,
+        6102
+      ],
+      "panel_sha256": "493518b2480d801f9425ba2ef1d16226b1a70b8f465672d04ec5a20f864e893a",
+      "status": "used",
+      "korean_boxes": 3,
+      "file": "02-sheer-radiant-coverage-en.jpg"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        6102,
+        7172
+      ],
+      "panel_sha256": "fc38412111c6c07284d42f15d0b3d54257958915104a82c53f215bf15655c879",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "화사한",
+        "베이지"
+      ]
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        7172,
+        8359
+      ],
+      "panel_sha256": "05dd09383fc935ad033cfd2d584fecb01b2b7a03d426529e4f0c013d20d6d97a",
+      "status": "excluded",
+      "korean_boxes": 4,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "차분한",
+        "베이지",
+        "건강한",
+        "베이지"
+      ]
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        8359,
+        10030
+      ],
+      "panel_sha256": "e0a734212476f3bc258ccdbd511684254aeeb9e79979419176e7f0388a3f3aa2",
+      "status": "used",
+      "korean_boxes": 7,
+      "file": "03-the-secret-to-deep-en.jpg"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        10030,
+        11165
+      ],
+      "panel_sha256": "71ccf186ca904c50e0a97e72624fb8cd6a1d6077e7c17190d5a2407e72cef4ec",
+      "status": "excluded",
+      "korean_boxes": 6,
+      "reason": "korean_text_remaining",
+      "residual": [
+        "버 1917 너 이 00 니 0 1 ㅅ"
+      ]
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        11165,
+        12292
+      ],
+      "panel_sha256": "7349336e350b2d819b01b2ab511f6dcd20161e79bbb6ce7176019f59fc6205c1",
+      "status": "excluded",
+      "reason": "human_face"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        12292,
+        14058
+      ],
+      "panel_sha256": "e2cec81d7b6c0feb3cc3584b2137c88bee2b147dfdb55f24f765a530fad6848e",
+      "status": "excluded",
+      "korean_boxes": 24,
+      "reason": "text_overflow:unit 6"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        14058,
+        15326
+      ],
+      "panel_sha256": "6117e190cdca9db542d8e8dc3c3e985e642dd8bb3baf3583f75d830eb450cb6d",
+      "status": "excluded",
+      "korean_boxes": 9,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        15326,
+        16231
+      ],
+      "panel_sha256": "76a47f3489c9df3da1482911b99cd4f5cf625107ecb73ccfe0c7dfe3dfff79db",
+      "status": "excluded",
+      "korean_boxes": 2,
+      "reason": "translation_failed:TimeoutError"
+    },
+    {
+      "source_sha256": "c7c29f0c1dac6fe5f74f07763b6cb7efb2dfd3cd4d0324c98680059de510d8a7",
+      "y": [
+        16231,
+        17981
+      ],
+      "panel_sha256": "b46b85e95d3a7eef76bccc32be9a4afc2ce13c22c2bb6e74bb34117d355dc90d",
+      "status": "excluded",
+      "reason": "gosi_table_replaced_by_info_panel"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-the-answer-is-hydration-en.jpg",
+      "sha256": "ba15b88b3251fde2590734fcd9d42b50f251fee21f2e1079a4c44efb0d60149e",
+      "bytes": 136516,
+      "width": 850,
+      "height": 1531,
+      "alt": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml — The answer is hydration glow care for flawless makeup!",
+      "english": {
+        "1": "The answer is hydration glow care for flawless makeup!",
+        "2": "Skin-Fit Radiant Coverage",
+        "3": "A lightweight, second-skin texture\ncreates a seamless, naturally glowing finish",
+        "4": "A Universal Shade for Every Complexion",
+        "5": "A single shade that effortlessly melts\ninto any skin tone",
+        "6": "Dewy Glow Base That Wears Beautifully",
+        "7": "Powered by Clear Hyal™ for clear inner radiance,\na smooth, hydrating cover cream that never cakes"
+      }
+    },
+    {
+      "file": "02-sheer-radiant-coverage-en.jpg",
+      "sha256": "ca9de5ced1e830b14506828b5a770d587fc52284aa09c3f635784abdeff37a5c",
+      "bytes": 79634,
+      "width": 850,
+      "height": 882,
+      "alt": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml — Sheer, Radiant Coverage",
+      "english": {
+        "1": "Sheer, Radiant Coverage",
+        "2": "Moisturizing & Radiant Dewy Coverage!",
+        "3": "*Based on in-house test results; individual results may vary."
+      }
+    },
+    {
+      "file": "03-the-secret-to-deep-en.jpg",
+      "sha256": "40159731e8958b92b71f139ba60f6e9cca24ce3ca4e168d9ead30881c8de779a",
+      "bytes": 157836,
+      "width": 850,
+      "height": 1671,
+      "alt": "더랩 바이 블랑두 클리어 히알 물광 틴티드 커버 크림 40 ml — The secret to deep, dewy glow",
+      "english": {
+        "1": "The secret to deep, dewy glow",
+        "2": "Betaine\nMoisture Lock\nNatural Moisturizing Factor",
+        "3": "Low-Molecular\nHyaluronic Acid\nDeep Hydration",
+        "4": "Gentle\nExfoliating Care",
+        "5": "",
+        "6": "Moisturizing dewy glow instead of heavy, greasy shine\nFormulated with 3 Dewy Glow Ingredients",
+        "7": "*Limited to the characteristics of raw ingredients"
+      }
+    }
+  ],
+  "status": "ok",
+  "reasons": [
+    "info_panel_skipped:ingredients_inci_unavailable"
+  ],
+  "gallery_status": "review_required",
+  "gallery_complete": false,
+  "gallery_review_reasons": [
+    "role_rights_and_label_evidence_review_required"
+  ],
+  "summary": {
+    "panels": 13,
+    "used": 3,
+    "excluded": {
+      "gosi_table_replaced_by_info_panel": 1,
+      "human_face": 1,
+      "korean_text_remaining": 4,
+      "text_overflow": 2,
+      "translation_failed": 2
+    }
+  }
+}

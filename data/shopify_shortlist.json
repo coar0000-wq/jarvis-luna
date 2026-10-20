@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T23:57:50.885511+00:00",
+  "generated_at": "2026-10-20T03:16:17.845663+00:00",
   "generator": "scripts/build_shopify_shortlist.py",
   "status": "proposed",
   "source": "rules",
@@ -60,9 +60,9 @@
       "business_ready": false,
       "score": 96,
       "evidence": {
-        "global_product": "[2options] Anua PDRN Hyaluronic Acid 100 Moisturizing Cream 2.02 fl. oz.(60ml)",
-        "channel": "oliveyoung_us",
-        "similarity": 0.834
+        "global_product": "Lacto-PDRN 4% + B9 Eye Cream",
+        "channel": "ulta_beauty",
+        "similarity": 0.88
       },
       "added_at": "2026-09-29T20:38:16.971548+00:00",
       "status": "active",
@@ -83,7 +83,7 @@
       },
       "added_at": "2026-09-29T10:03:26.384544+00:00",
       "status": "paused",
-      "note": "스토어 대상에서 일시 제외: 게이트 초안 미준비: copy, manufacturer_safety_record_missing"
+      "note": "스토어 대상에서 일시 제외: 게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing"
     },
     {
       "unit_id": "VG-CP000109",
@@ -108,24 +108,15 @@
     {
       "unit_id": "VG-VT-REEDLE-SHOT",
       "pd_nos": [
-        "1049276"
+        "1049276",
+        "1049275"
       ],
       "names": [
-        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
+        "[피부결케어]VT 리들샷 300 페이셜 부스팅 퍼스트 앰플 2 ml*6개입",
+        "[피부결케어]VT 리들샷 100 페이셜 부스팅 퍼스트 앰플 2 ml*6개입"
       ],
       "score": 100,
-      "reason": "게이트 초안 미준비: copy, manufacturer_safety_record_missing"
-    },
-    {
-      "unit_id": "VG-CP000178",
-      "pd_nos": [
-        "1061918"
-      ],
-      "names": [
-        "[기미잡티리셋]본셉 비타씨 동결 건조 더블샷 앰플 키트"
-      ],
-      "score": 98,
-      "reason": "게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing, us_label"
+      "reason": "게이트 초안 미준비: copy, legal, manufacturer_safety_record_missing"
     },
     {
       "unit_id": "VG-CP000230",

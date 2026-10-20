@@ -432,18 +432,6 @@
       "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
     },
     {
-      "path": "data/daiso_real/us_label_sync_report.json",
-      "base_sha256": "2fa1a87adccf7910dd66d728ded9e6b19ae153d51a727d04f426523c4256befa",
-      "ids": [
-        "country_of_origin",
-        "manufacturer",
-        "net_contents"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/knowledge/moe_tuning_report.json",
       "base_sha256": "f472416df00e8514033aeec0c86c65fb943f06861cca5723a170143426b3e94d",
       "replacement_sha256": "13858251ce9211347c5b949c014b9970f3d31c75d552c89945b740cfd4317e49",
@@ -583,6 +571,17 @@
         "https://www.youtube.com/watch?v=jUxSAGCaJIU",
         "https://www.youtube.com/watch?v=uorQJ_ucDhg",
         "https://www.youtube.com/watch?v=wDV5SH16QCI"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/daiso_real/us_label_sync_report.json",
+      "base_sha256": "00412e1f031c539414e9954b3cbd5629e17f4cca99e13212d96a3c31f31e6eef",
+      "ids": [
+        "country_of_origin",
+        "net_contents"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
