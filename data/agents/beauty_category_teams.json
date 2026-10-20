@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generator": "scripts/beauty_category_teams.py",
   "status": "analysis_complete",
-  "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+  "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
   "canonical_team_ids": [
     "sourcing",
     "institutions",
@@ -21,7 +21,7 @@
       "subteam_id": "beauty_skincare",
       "category_tag": "skincare",
       "status": "analysis_complete",
-      "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+      "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
       "work_status": "source_research_required",
       "S_only": true,
       "allowed_grades": [
@@ -236,7 +236,7 @@
             "product_accuracy_owner_review_required",
             "us_label"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068721",
           "registration_executed_at": null,
@@ -288,7 +288,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:26:11.950945+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010709",
           "registration_executed_at": null,
@@ -327,7 +327,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010710",
           "registration_executed_at": null,
@@ -377,7 +377,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:11:13.650065+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035039",
           "registration_executed_at": null,
@@ -416,7 +416,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:32:03.955128+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035051",
           "registration_executed_at": null,
@@ -455,7 +455,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:54:37.293312+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038595",
           "registration_executed_at": null,
@@ -494,7 +494,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:53:14.958436+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038596",
           "registration_executed_at": null,
@@ -533,7 +533,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:12:15.362871+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038597",
           "registration_executed_at": null,
@@ -572,7 +572,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:14:58.441936+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038598",
           "registration_executed_at": null,
@@ -611,7 +611,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:59:22.299239+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038894",
           "registration_executed_at": null,
@@ -650,7 +650,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:24:36.100955+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038895",
           "registration_executed_at": null,
@@ -689,7 +689,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:10:10.791579+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038896",
           "registration_executed_at": null,
@@ -728,7 +728,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:10:41.371139+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039086",
           "registration_executed_at": null,
@@ -767,7 +767,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:32:42.663903+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039088",
           "registration_executed_at": null,
@@ -806,7 +806,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041749",
           "registration_executed_at": null,
@@ -856,7 +856,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044553",
           "registration_executed_at": null,
@@ -906,7 +906,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044554",
           "registration_executed_at": null,
@@ -956,7 +956,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044555",
           "registration_executed_at": null,
@@ -1006,7 +1006,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044967",
           "registration_executed_at": null,
@@ -1056,7 +1056,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:21:47.771802+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044968",
           "registration_executed_at": null,
@@ -1095,7 +1095,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:54:24.143279+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045240",
           "registration_executed_at": null,
@@ -1134,7 +1134,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:58:03.892688+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1046896",
           "registration_executed_at": null,
@@ -1173,7 +1173,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:57:47.145700+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048571",
           "registration_executed_at": null,
@@ -1212,7 +1212,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048581",
           "registration_executed_at": null,
@@ -1262,7 +1262,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048583",
           "registration_executed_at": null,
@@ -1312,7 +1312,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:34:11.191599+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049273",
           "registration_executed_at": null,
@@ -1351,7 +1351,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049274",
           "registration_executed_at": null,
@@ -1401,7 +1401,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:06:42.477554+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051357",
           "registration_executed_at": null,
@@ -1440,7 +1440,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:28:07.451499+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051747",
           "registration_executed_at": null,
@@ -1479,7 +1479,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:31:17.120543+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051748",
           "registration_executed_at": null,
@@ -1518,7 +1518,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051749",
           "registration_executed_at": null,
@@ -1568,7 +1568,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:56:24.783470+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051750",
           "registration_executed_at": null,
@@ -1607,7 +1607,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051751",
           "registration_executed_at": null,
@@ -1657,7 +1657,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:23:02.492304+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053483",
           "registration_executed_at": null,
@@ -1696,7 +1696,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055165",
           "registration_executed_at": null,
@@ -1746,7 +1746,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:45:12.613196+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055166",
           "registration_executed_at": null,
@@ -1785,7 +1785,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055168",
           "registration_executed_at": null,
@@ -1835,7 +1835,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055169",
           "registration_executed_at": null,
@@ -1885,7 +1885,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:07:13.847532+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056646",
           "registration_executed_at": null,
@@ -1924,7 +1924,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056647",
           "registration_executed_at": null,
@@ -1974,7 +1974,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:17:33.078334+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056648",
           "registration_executed_at": null,
@@ -2013,7 +2013,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056649",
           "registration_executed_at": null,
@@ -2063,7 +2063,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056650",
           "registration_executed_at": null,
@@ -2113,7 +2113,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057357",
           "registration_executed_at": null,
@@ -2163,7 +2163,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:21:23.360626+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1058464",
           "registration_executed_at": null,
@@ -2202,7 +2202,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:24:36.996723+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059079",
           "registration_executed_at": null,
@@ -2241,7 +2241,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059091",
           "registration_executed_at": null,
@@ -2291,7 +2291,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:26:06.164895+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059093",
           "registration_executed_at": null,
@@ -2330,7 +2330,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059095",
           "registration_executed_at": null,
@@ -2380,7 +2380,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:24:58.362530+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059099",
           "registration_executed_at": null,
@@ -2419,7 +2419,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:09:04.041976+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059760",
           "registration_executed_at": null,
@@ -2458,7 +2458,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:10:24.027760+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059762",
           "registration_executed_at": null,
@@ -2497,7 +2497,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:24:26.182610+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059838",
           "registration_executed_at": null,
@@ -2536,7 +2536,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:14:22.669479+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060542",
           "registration_executed_at": null,
@@ -2575,7 +2575,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:42:02.254347+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060543",
           "registration_executed_at": null,
@@ -2614,7 +2614,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:59:34.882387+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060545",
           "registration_executed_at": null,
@@ -2653,7 +2653,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:22:54.827753+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060643",
           "registration_executed_at": null,
@@ -2692,7 +2692,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060644",
           "registration_executed_at": null,
@@ -2742,7 +2742,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060645",
           "registration_executed_at": null,
@@ -2792,7 +2792,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:55:22.417105+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061526",
           "registration_executed_at": null,
@@ -2831,7 +2831,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:45:49.606948+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061528",
           "registration_executed_at": null,
@@ -2870,7 +2870,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061529",
           "registration_executed_at": null,
@@ -2920,7 +2920,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:23:32.750643+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061532",
           "registration_executed_at": null,
@@ -2959,7 +2959,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061619",
           "registration_executed_at": null,
@@ -3009,7 +3009,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:34:27.698157+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061621",
           "registration_executed_at": null,
@@ -3048,7 +3048,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061697",
           "registration_executed_at": null,
@@ -3098,7 +3098,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061698",
           "registration_executed_at": null,
@@ -3148,7 +3148,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:40:33.982396+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061699",
           "registration_executed_at": null,
@@ -3187,7 +3187,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:08:49.095656+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061701",
           "registration_executed_at": null,
@@ -3226,7 +3226,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061918",
           "registration_executed_at": null,
@@ -3276,7 +3276,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061920",
           "registration_executed_at": null,
@@ -3326,7 +3326,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062135",
           "registration_executed_at": null,
@@ -3376,7 +3376,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062141",
           "registration_executed_at": null,
@@ -3426,7 +3426,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062777",
           "registration_executed_at": null,
@@ -3476,7 +3476,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062781",
           "registration_executed_at": null,
@@ -3526,7 +3526,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:43:42.352225+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064241",
           "registration_executed_at": null,
@@ -3565,7 +3565,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:48:22.441037+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064411",
           "registration_executed_at": null,
@@ -3604,7 +3604,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:50:05.181200+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064414",
           "registration_executed_at": null,
@@ -3643,7 +3643,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064417",
           "registration_executed_at": null,
@@ -3693,7 +3693,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064419",
           "registration_executed_at": null,
@@ -3743,7 +3743,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067496",
           "registration_executed_at": null,
@@ -3793,7 +3793,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:38:51.771327+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068719",
           "registration_executed_at": null,
@@ -3832,7 +3832,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068720",
           "registration_executed_at": null,
@@ -3882,7 +3882,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:01:43.728429+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068722",
           "registration_executed_at": null,
@@ -3921,7 +3921,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068857",
           "registration_executed_at": null,
@@ -3971,7 +3971,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068858",
           "registration_executed_at": null,
@@ -4021,7 +4021,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:00:57.254246+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068859",
           "registration_executed_at": null,
@@ -4060,7 +4060,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:52:16.120512+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071641",
           "registration_executed_at": null,
@@ -4099,7 +4099,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071642",
           "registration_executed_at": null,
@@ -4149,7 +4149,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071644",
           "registration_executed_at": null,
@@ -4199,7 +4199,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072416",
           "registration_executed_at": null,
@@ -4249,7 +4249,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072417",
           "registration_executed_at": null,
@@ -4299,7 +4299,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072455",
           "registration_executed_at": null,
@@ -4349,7 +4349,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:50:06.003637+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072517",
           "registration_executed_at": null,
@@ -4388,7 +4388,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:46:53.256186+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072518",
           "registration_executed_at": null,
@@ -4427,7 +4427,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:43:43.696318+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072802",
           "registration_executed_at": null,
@@ -4466,7 +4466,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072803",
           "registration_executed_at": null,
@@ -4516,7 +4516,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:02:57.061784+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072807",
           "registration_executed_at": null,
@@ -4555,7 +4555,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:17:38.305036+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072858",
           "registration_executed_at": null,
@@ -4594,7 +4594,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:29:22.222751+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073248",
           "registration_executed_at": null,
@@ -4633,7 +4633,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073250",
           "registration_executed_at": null,
@@ -4683,7 +4683,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:02:45.339614+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073252",
           "registration_executed_at": null,
@@ -4722,7 +4722,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:40:32.123412+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073255",
           "registration_executed_at": null,
@@ -4761,7 +4761,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1073405",
           "registration_executed_at": null,
@@ -4811,7 +4811,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:42:46.866445+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075032",
           "registration_executed_at": null,
@@ -4850,7 +4850,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075033",
           "registration_executed_at": null,
@@ -4900,7 +4900,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:52:47.626417+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076118",
           "registration_executed_at": null,
@@ -4939,7 +4939,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076121",
           "registration_executed_at": null,
@@ -4989,7 +4989,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:27:48.621447+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076122",
           "registration_executed_at": null,
@@ -5028,7 +5028,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:11:46.656778+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076123",
           "registration_executed_at": null,
@@ -5067,7 +5067,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:18:10.332001+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076124",
           "registration_executed_at": null,
@@ -5106,7 +5106,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076691",
           "registration_executed_at": null,
@@ -5156,7 +5156,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:04:05.324013+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1077185",
           "registration_executed_at": null,
@@ -5195,7 +5195,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:45:57.229145+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079291",
           "registration_executed_at": null,
@@ -5234,7 +5234,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079292&recmYn=N",
           "registration_executed_at": null,
@@ -5284,7 +5284,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:46:55.994541+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1081210",
           "registration_executed_at": null,
@@ -5323,7 +5323,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:35:41.419741+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1083992",
           "registration_executed_at": null,
@@ -5362,7 +5362,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:15:25.971491+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1083993",
           "registration_executed_at": null,
@@ -5401,7 +5401,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:53:19.738543+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1084676",
           "registration_executed_at": null,
@@ -5440,7 +5440,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:06:10.253123+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1084688",
           "registration_executed_at": null,
@@ -5479,7 +5479,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:20:16.995469+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1087764",
           "registration_executed_at": null,
@@ -5518,7 +5518,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:56:31.654328+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1087775",
           "registration_executed_at": null,
@@ -5557,7 +5557,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:05:54.579898+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1087776",
           "registration_executed_at": null,
@@ -5596,7 +5596,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:46:23.849343+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=12186",
           "registration_executed_at": null,
@@ -5635,7 +5635,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026513&recmYn=N",
           "registration_executed_at": null,
@@ -5685,7 +5685,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026531&recmYn=N",
           "registration_executed_at": null,
@@ -5735,7 +5735,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026571&recmYn=N",
           "registration_executed_at": null,
@@ -5785,7 +5785,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026581&recmYn=N",
           "registration_executed_at": null,
@@ -5835,7 +5835,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026591&recmYn=N",
           "registration_executed_at": null,
@@ -5885,7 +5885,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:36:25.556944+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026601",
           "registration_executed_at": null,
@@ -5924,7 +5924,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026602&recmYn=N",
           "registration_executed_at": null,
@@ -5974,7 +5974,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026603&recmYn=N",
           "registration_executed_at": null,
@@ -6024,7 +6024,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026611&recmYn=N",
           "registration_executed_at": null,
@@ -6074,7 +6074,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026621&recmYn=N",
           "registration_executed_at": null,
@@ -6124,7 +6124,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026622&recmYn=N",
           "registration_executed_at": null,
@@ -6174,7 +6174,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026631&recmYn=N",
           "registration_executed_at": null,
@@ -6224,7 +6224,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026632&recmYn=N",
           "registration_executed_at": null,
@@ -6274,7 +6274,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026641&recmYn=N",
           "registration_executed_at": null,
@@ -6324,7 +6324,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026651&recmYn=N",
           "registration_executed_at": null,
@@ -6374,7 +6374,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026661&recmYn=N",
           "registration_executed_at": null,
@@ -6424,7 +6424,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026671&recmYn=N",
           "registration_executed_at": null,
@@ -6474,7 +6474,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026672&recmYn=N",
           "registration_executed_at": null,
@@ -6524,7 +6524,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026681&recmYn=N",
           "registration_executed_at": null,
@@ -6574,7 +6574,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026723&recmYn=N",
           "registration_executed_at": null,
@@ -6624,7 +6624,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026733&recmYn=N",
           "registration_executed_at": null,
@@ -6674,7 +6674,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026734&recmYn=N",
           "registration_executed_at": null,
@@ -6724,7 +6724,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026743&recmYn=N",
           "registration_executed_at": null,
@@ -6774,7 +6774,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026744&recmYn=N",
           "registration_executed_at": null,
@@ -6824,7 +6824,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:35:53.714634+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604169083",
           "registration_executed_at": null,
@@ -6863,7 +6863,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202033&recmYn=N",
           "registration_executed_at": null,
@@ -6913,7 +6913,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:13:51.546555+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202266",
           "registration_executed_at": null,
@@ -6952,7 +6952,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608126988&recmYn=N",
           "registration_executed_at": null,
@@ -7002,7 +7002,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:03:29.206611+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127004",
           "registration_executed_at": null,
@@ -7041,7 +7041,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127016&recmYn=N",
           "registration_executed_at": null,
@@ -7091,7 +7091,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:20:44.119360+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127040",
           "registration_executed_at": null,
@@ -7130,7 +7130,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:04:53.275353+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127172",
           "registration_executed_at": null,
@@ -7169,7 +7169,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127173&recmYn=N",
           "registration_executed_at": null,
@@ -7219,7 +7219,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:55:26.535116+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127190",
           "registration_executed_at": null,
@@ -7258,7 +7258,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127192&recmYn=N",
           "registration_executed_at": null,
@@ -7308,7 +7308,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127199&recmYn=N",
           "registration_executed_at": null,
@@ -7358,7 +7358,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127240&recmYn=N",
           "registration_executed_at": null,
@@ -7408,7 +7408,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127263&recmYn=N",
           "registration_executed_at": null,
@@ -7458,7 +7458,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202608127273&recmYn=N",
           "registration_executed_at": null,
@@ -7508,7 +7508,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:34:42.758477+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202609229069",
           "registration_executed_at": null,
@@ -31263,7 +31263,7 @@
       },
       "analysis_proof": {
         "operation": "local_category_queue_analysis",
-        "executed_at": "2026-10-20T07:56:54.778964Z",
+        "executed_at": "2026-10-20T11:03:30.797903Z",
         "clock_source": "caller_supplied_as_of",
         "analyzed_pd_nos": [
           "1010709",
@@ -31440,11 +31440,11 @@
         ],
         "input_sha256": {
           "category_config": "222a22f72960a1e622524d3d26a165f5cd0195b23bbfc99975589eab52e8b086",
-          "demand_score": "5071fb302189df28c806d1c72c09ef976c5e2afcf1071079d73110257578ac2e",
-          "registry": "db8ab29092d1fa9d109908e2d08f11bbafc9ad03140dc817eddb4b3c16c54838",
-          "listing_gate": "481736887e13f466cf9bd6d96059f91a7f13230d3d6e21cb27c8005b7d5a05b3",
+          "demand_score": "b81e7862c2747e20a9668149ae5d46218d7959309b9c3d5e4d92dfd444dde98c",
+          "registry": "8415005f90af691ec1da2cf412b88fc33e62d7fb17965e1812260755819fd699",
+          "listing_gate": "6154f17ee33491175e682c433ca8e99d606c8ff09c2421cba627aff789053c83",
           "candidate_comparison": "29524b1c0827e3a194cb4fdeef49ecfbad03d252f7852c97dd4fa28cb5f88771",
-          "beauty_strategy": "baea99af662b6d0cfa1481bdb797a3e5ba11148e2df21eea5f939cfe8125c953"
+          "beauty_strategy": "c9c4ef61101c9ae313fc9f0dd299bafc2025df1510fd0148c0db1029f80a67e4"
         },
         "research_executed": false,
         "human_activity_verified": false,
@@ -31460,7 +31460,7 @@
       "subteam_id": "beauty_makeup",
       "category_tag": "makeup",
       "status": "analysis_complete",
-      "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+      "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
       "work_status": "source_research_required",
       "S_only": true,
       "allowed_grades": [
@@ -31627,7 +31627,7 @@
             "product_accuracy_owner_review_required",
             "us_label"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072800",
           "registration_executed_at": null,
@@ -31679,7 +31679,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:40:58.863642+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018012",
           "registration_executed_at": null,
@@ -31718,7 +31718,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:55:27.708408+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018013",
           "registration_executed_at": null,
@@ -31757,7 +31757,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:15:39.392882+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018035",
           "registration_executed_at": null,
@@ -31796,7 +31796,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:26:01.961405+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018036",
           "registration_executed_at": null,
@@ -31835,7 +31835,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:36:17.036844+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1018039",
           "registration_executed_at": null,
@@ -31874,7 +31874,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030629",
           "registration_executed_at": null,
@@ -31924,7 +31924,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:29:55.885092+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1034524",
           "registration_executed_at": null,
@@ -31963,7 +31963,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:16:30.478231+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035214",
           "registration_executed_at": null,
@@ -32002,7 +32002,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:58:38.797505+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1038743",
           "registration_executed_at": null,
@@ -32041,7 +32041,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039238",
           "registration_executed_at": null,
@@ -32091,7 +32091,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:32:11.245434+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039628",
           "registration_executed_at": null,
@@ -32130,7 +32130,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:58:31.044628+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041110",
           "registration_executed_at": null,
@@ -32169,7 +32169,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:24:30.916824+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041114",
           "registration_executed_at": null,
@@ -32208,7 +32208,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041890",
           "registration_executed_at": null,
@@ -32258,7 +32258,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:08:18.648104+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041892",
           "registration_executed_at": null,
@@ -32297,7 +32297,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044402",
           "registration_executed_at": null,
@@ -32347,7 +32347,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044404",
           "registration_executed_at": null,
@@ -32397,7 +32397,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1044846",
           "registration_executed_at": null,
@@ -32447,7 +32447,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:10:43.320161+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045418",
           "registration_executed_at": null,
@@ -32486,7 +32486,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:44:10.426505+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045419",
           "registration_executed_at": null,
@@ -32525,7 +32525,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:23:55.573925+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045420",
           "registration_executed_at": null,
@@ -32564,7 +32564,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:56:44.863391+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045430",
           "registration_executed_at": null,
@@ -32603,7 +32603,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:12:30.965135+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045432",
           "registration_executed_at": null,
@@ -32642,7 +32642,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:04:52.231324+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045433",
           "registration_executed_at": null,
@@ -32681,7 +32681,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:42:38.880511+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045434",
           "registration_executed_at": null,
@@ -32720,7 +32720,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:20:44.444653+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045436",
           "registration_executed_at": null,
@@ -32759,7 +32759,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:50:29.103091+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045437",
           "registration_executed_at": null,
@@ -32798,7 +32798,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:53:34.985041+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048272",
           "registration_executed_at": null,
@@ -32837,7 +32837,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:37:47.841932+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048273",
           "registration_executed_at": null,
@@ -32876,7 +32876,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:39:28.690350+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048275",
           "registration_executed_at": null,
@@ -32915,7 +32915,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:14:22.363989+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048276",
           "registration_executed_at": null,
@@ -32954,7 +32954,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1048918",
           "registration_executed_at": null,
@@ -33004,7 +33004,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:02:31.789660+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1050179",
           "registration_executed_at": null,
@@ -33043,7 +33043,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:15:07.909551+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1050180",
           "registration_executed_at": null,
@@ -33082,7 +33082,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:21:26.869468+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1050181",
           "registration_executed_at": null,
@@ -33121,7 +33121,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051735",
           "registration_executed_at": null,
@@ -33171,7 +33171,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1052418",
           "registration_executed_at": null,
@@ -33221,7 +33221,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055153",
           "registration_executed_at": null,
@@ -33271,7 +33271,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:13:53.879860+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1055161",
           "registration_executed_at": null,
@@ -33310,7 +33310,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:08:03.498673+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1057226",
           "registration_executed_at": null,
@@ -33349,7 +33349,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:05:39.711795+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1059506",
           "registration_executed_at": null,
@@ -33388,7 +33388,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:11:11.544444+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060127",
           "registration_executed_at": null,
@@ -33427,7 +33427,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060501",
           "registration_executed_at": null,
@@ -33477,7 +33477,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060505",
           "registration_executed_at": null,
@@ -33527,7 +33527,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:25:08.485690+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1060748",
           "registration_executed_at": null,
@@ -33566,7 +33566,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061139",
           "registration_executed_at": null,
@@ -33616,7 +33616,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061146",
           "registration_executed_at": null,
@@ -33666,7 +33666,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:47:19.111781+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061152",
           "registration_executed_at": null,
@@ -33705,7 +33705,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:08:01.456345+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061154",
           "registration_executed_at": null,
@@ -33744,7 +33744,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:33:23.089258+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061155",
           "registration_executed_at": null,
@@ -33783,7 +33783,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:49:00.887449+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061156",
           "registration_executed_at": null,
@@ -33822,7 +33822,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:30:14.944545+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061162",
           "registration_executed_at": null,
@@ -33861,7 +33861,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061477",
           "registration_executed_at": null,
@@ -33911,7 +33911,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:18:48.245383+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061829",
           "registration_executed_at": null,
@@ -33950,7 +33950,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:33:08.130230+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061832",
           "registration_executed_at": null,
@@ -33989,7 +33989,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:01:52.238355+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061833",
           "registration_executed_at": null,
@@ -34028,7 +34028,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:19:52.329770+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062738",
           "registration_executed_at": null,
@@ -34067,7 +34067,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:52:11.514740+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062774",
           "registration_executed_at": null,
@@ -34106,7 +34106,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:20:18.713234+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1062775",
           "registration_executed_at": null,
@@ -34145,7 +34145,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:18:37.414939+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064165",
           "registration_executed_at": null,
@@ -34184,7 +34184,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064171",
           "registration_executed_at": null,
@@ -34234,7 +34234,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064335",
           "registration_executed_at": null,
@@ -34284,7 +34284,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:31:00.106635+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064415",
           "registration_executed_at": null,
@@ -34323,7 +34323,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065154",
           "registration_executed_at": null,
@@ -34373,7 +34373,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:09:20.910432+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065359",
           "registration_executed_at": null,
@@ -34412,7 +34412,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:03:51.187333+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065368",
           "registration_executed_at": null,
@@ -34451,7 +34451,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:21:59.241442+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1065381",
           "registration_executed_at": null,
@@ -34490,7 +34490,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-03T00:45:29.985817+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066897",
           "registration_executed_at": null,
@@ -34529,7 +34529,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:41:43.315672+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066898",
           "registration_executed_at": null,
@@ -34568,7 +34568,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:38:31.220125+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066900",
           "registration_executed_at": null,
@@ -34607,7 +34607,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:59:43.564569+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067346",
           "registration_executed_at": null,
@@ -34646,7 +34646,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:21:51.071493+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067386",
           "registration_executed_at": null,
@@ -34685,7 +34685,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067395",
           "registration_executed_at": null,
@@ -34735,7 +34735,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067396",
           "registration_executed_at": null,
@@ -34785,7 +34785,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067399",
           "registration_executed_at": null,
@@ -34835,7 +34835,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:52:15.021608+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067861",
           "registration_executed_at": null,
@@ -34874,7 +34874,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:18:09.077980+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067862",
           "registration_executed_at": null,
@@ -34913,7 +34913,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:21:19.296041+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067863",
           "registration_executed_at": null,
@@ -34952,7 +34952,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:53:04.030654+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067864",
           "registration_executed_at": null,
@@ -34991,7 +34991,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:56:12.856514+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067865",
           "registration_executed_at": null,
@@ -35030,7 +35030,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:27:42.393871+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067867",
           "registration_executed_at": null,
@@ -35069,7 +35069,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068733",
           "registration_executed_at": null,
@@ -35119,7 +35119,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:17:06.376100+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1069090",
           "registration_executed_at": null,
@@ -35158,7 +35158,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:27:04.190156+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070324",
           "registration_executed_at": null,
@@ -35197,7 +35197,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:42:40.027232+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071670",
           "registration_executed_at": null,
@@ -35236,7 +35236,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:28:20.046032+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071671",
           "registration_executed_at": null,
@@ -35275,7 +35275,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:36:35.574129+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071672",
           "registration_executed_at": null,
@@ -35314,7 +35314,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:06:10.771678+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071675",
           "registration_executed_at": null,
@@ -35353,7 +35353,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:25:02.449962+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1071676",
           "registration_executed_at": null,
@@ -35392,7 +35392,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:03:02.713808+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072793",
           "registration_executed_at": null,
@@ -35431,7 +35431,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072794",
           "registration_executed_at": null,
@@ -35481,7 +35481,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:31:28.041539+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072796",
           "registration_executed_at": null,
@@ -35520,7 +35520,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:28:14.134209+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072797",
           "registration_executed_at": null,
@@ -35559,7 +35559,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:59:53.919520+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072799",
           "registration_executed_at": null,
@@ -35598,7 +35598,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:13:32.622799+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1074980",
           "registration_executed_at": null,
@@ -35637,7 +35637,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:11:59.251871+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075904",
           "registration_executed_at": null,
@@ -35676,7 +35676,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:26:44.700295+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075946",
           "registration_executed_at": null,
@@ -35715,7 +35715,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:05:06.846213+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1075947",
           "registration_executed_at": null,
@@ -35754,7 +35754,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:45:52.395564+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078729",
           "registration_executed_at": null,
@@ -35793,7 +35793,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:20:48.383708+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1078840",
           "registration_executed_at": null,
@@ -35832,7 +35832,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:01:41.633982+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079265",
           "registration_executed_at": null,
@@ -35871,7 +35871,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:19:45.192137+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1079334",
           "registration_executed_at": null,
@@ -35910,7 +35910,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:34:37.950902+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080533",
           "registration_executed_at": null,
@@ -35949,7 +35949,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:39:29.721392+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080534",
           "registration_executed_at": null,
@@ -35988,7 +35988,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:17:33.031482+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080536",
           "registration_executed_at": null,
@@ -36027,7 +36027,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:49:03.319357+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080551",
           "registration_executed_at": null,
@@ -36066,7 +36066,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:51:13.773691+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=69036",
           "registration_executed_at": null,
@@ -36105,7 +36105,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:19:40.043862+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016089",
           "registration_executed_at": null,
@@ -36144,7 +36144,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:22:51.552914+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016139",
           "registration_executed_at": null,
@@ -36183,7 +36183,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:57:32.065477+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604016219",
           "registration_executed_at": null,
@@ -36222,7 +36222,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:54:23.015729+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026351",
           "registration_executed_at": null,
@@ -36261,7 +36261,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:10:09.610377+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026361",
           "registration_executed_at": null,
@@ -36300,7 +36300,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:07:00.480423+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026372",
           "registration_executed_at": null,
@@ -36339,7 +36339,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:29:02.111096+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026391",
           "registration_executed_at": null,
@@ -36378,7 +36378,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:44:54.262552+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026392",
           "registration_executed_at": null,
@@ -36417,7 +36417,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:35:22.662265+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202604026401",
           "registration_executed_at": null,
@@ -53391,7 +53391,7 @@
       },
       "analysis_proof": {
         "operation": "local_category_queue_analysis",
-        "executed_at": "2026-10-20T07:56:54.778964Z",
+        "executed_at": "2026-10-20T11:03:30.797903Z",
         "clock_source": "caller_supplied_as_of",
         "analyzed_pd_nos": [
           "1018012",
@@ -53520,11 +53520,11 @@
         ],
         "input_sha256": {
           "category_config": "222a22f72960a1e622524d3d26a165f5cd0195b23bbfc99975589eab52e8b086",
-          "demand_score": "5071fb302189df28c806d1c72c09ef976c5e2afcf1071079d73110257578ac2e",
-          "registry": "db8ab29092d1fa9d109908e2d08f11bbafc9ad03140dc817eddb4b3c16c54838",
-          "listing_gate": "481736887e13f466cf9bd6d96059f91a7f13230d3d6e21cb27c8005b7d5a05b3",
+          "demand_score": "b81e7862c2747e20a9668149ae5d46218d7959309b9c3d5e4d92dfd444dde98c",
+          "registry": "8415005f90af691ec1da2cf412b88fc33e62d7fb17965e1812260755819fd699",
+          "listing_gate": "6154f17ee33491175e682c433ca8e99d606c8ff09c2421cba627aff789053c83",
           "candidate_comparison": "29524b1c0827e3a194cb4fdeef49ecfbad03d252f7852c97dd4fa28cb5f88771",
-          "beauty_strategy": "baea99af662b6d0cfa1481bdb797a3e5ba11148e2df21eea5f939cfe8125c953"
+          "beauty_strategy": "c9c4ef61101c9ae313fc9f0dd299bafc2025df1510fd0148c0db1029f80a67e4"
         },
         "research_executed": false,
         "human_activity_verified": false,
@@ -53540,7 +53540,7 @@
       "subteam_id": "beauty_body",
       "category_tag": "body",
       "status": "analysis_complete",
-      "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+      "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
       "work_status": "source_research_required",
       "S_only": true,
       "allowed_grades": [
@@ -53647,7 +53647,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:07:32.440557+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004477",
           "registration_executed_at": null,
@@ -53686,7 +53686,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:39:02.693834+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004478",
           "registration_executed_at": null,
@@ -53725,7 +53725,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:05:38.856281+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1004480",
           "registration_executed_at": null,
@@ -53764,7 +53764,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-20T00:02:24.851582+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010714",
           "registration_executed_at": null,
@@ -53803,7 +53803,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:01:11.602416+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1010719",
           "registration_executed_at": null,
@@ -53842,7 +53842,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1021470",
           "registration_executed_at": null,
@@ -53892,7 +53892,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:52:43.539508+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1025282",
           "registration_executed_at": null,
@@ -53931,7 +53931,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:48:36.036757+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1027333",
           "registration_executed_at": null,
@@ -53970,7 +53970,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:29:34.105029+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030798",
           "registration_executed_at": null,
@@ -54009,7 +54009,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:24:04.786353+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1030800",
           "registration_executed_at": null,
@@ -54048,7 +54048,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:35:09.180020+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032030",
           "registration_executed_at": null,
@@ -54087,7 +54087,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:05:23.603220+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032031",
           "registration_executed_at": null,
@@ -54126,7 +54126,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:17:01.913321+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032884",
           "registration_executed_at": null,
@@ -54165,7 +54165,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:09:51.766392+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1032885",
           "registration_executed_at": null,
@@ -54204,7 +54204,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035035",
           "registration_executed_at": null,
@@ -54254,7 +54254,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:13:01.712643+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035038",
           "registration_executed_at": null,
@@ -54293,7 +54293,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035059",
           "registration_executed_at": null,
@@ -54343,7 +54343,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:14:54.175786+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1035060",
           "registration_executed_at": null,
@@ -54382,7 +54382,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:25:34.536216+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1039849",
           "registration_executed_at": null,
@@ -54421,7 +54421,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:11:43.218108+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041811",
           "registration_executed_at": null,
@@ -54460,7 +54460,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:25:40.340992+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041888",
           "registration_executed_at": null,
@@ -54499,7 +54499,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:42:14.503016+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1041889",
           "registration_executed_at": null,
@@ -54538,7 +54538,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:27:17.186163+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042245",
           "registration_executed_at": null,
@@ -54577,7 +54577,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1042531",
           "registration_executed_at": null,
@@ -54627,7 +54627,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:03:34.324806+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1045788",
           "registration_executed_at": null,
@@ -54666,7 +54666,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1047040",
           "registration_executed_at": null,
@@ -54716,7 +54716,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:40:01.322306+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1049555",
           "registration_executed_at": null,
@@ -54755,7 +54755,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:33:39.345778+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1050175",
           "registration_executed_at": null,
@@ -54794,7 +54794,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1051792",
           "registration_executed_at": null,
@@ -54844,7 +54844,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:22:31.090717+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053331",
           "registration_executed_at": null,
@@ -54883,7 +54883,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:43:11.797333+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053459",
           "registration_executed_at": null,
@@ -54922,7 +54922,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:45:25.887522+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053464",
           "registration_executed_at": null,
@@ -54961,7 +54961,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T00:57:15.946954+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1053465",
           "registration_executed_at": null,
@@ -55000,7 +55000,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056104",
           "registration_executed_at": null,
@@ -55050,7 +55050,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:59:03.353545+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1056105",
           "registration_executed_at": null,
@@ -55089,7 +55089,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061947",
           "registration_executed_at": null,
@@ -55139,7 +55139,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:08:32.472201+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1061949",
           "registration_executed_at": null,
@@ -55178,7 +55178,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1063229",
           "registration_executed_at": null,
@@ -55228,7 +55228,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:27:35.808481+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1064197",
           "registration_executed_at": null,
@@ -55267,7 +55267,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:02:12.998363+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1066520",
           "registration_executed_at": null,
@@ -55306,7 +55306,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:44:41.456976+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1067021",
           "registration_executed_at": null,
@@ -55345,7 +55345,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": null,
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1068710",
           "registration_executed_at": null,
@@ -55395,7 +55395,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:55:59.352830+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070757",
           "registration_executed_at": null,
@@ -55434,7 +55434,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:49:34.600240+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070758",
           "registration_executed_at": null,
@@ -55473,7 +55473,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:59:10.981460+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1070760",
           "registration_executed_at": null,
@@ -55512,7 +55512,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-17T13:19:13.919736+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072854",
           "registration_executed_at": null,
@@ -55551,7 +55551,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T03:20:12.354780+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1072857",
           "registration_executed_at": null,
@@ -55590,7 +55590,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:16:10.917759+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076116",
           "registration_executed_at": null,
@@ -55629,7 +55629,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:06:42.936307+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1076117",
           "registration_executed_at": null,
@@ -55668,7 +55668,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:18:05.418309+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080047",
           "registration_executed_at": null,
@@ -55707,7 +55707,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:24:27.011648+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080048",
           "registration_executed_at": null,
@@ -55746,7 +55746,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:21:16.054826+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080049",
           "registration_executed_at": null,
@@ -55785,7 +55785,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:11:14.625924+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080057",
           "registration_executed_at": null,
@@ -55824,7 +55824,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:33:55.419741+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080059",
           "registration_executed_at": null,
@@ -55863,7 +55863,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T22:30:46.092180+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080061",
           "registration_executed_at": null,
@@ -55902,7 +55902,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:49:33.130659+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080317",
           "registration_executed_at": null,
@@ -55941,7 +55941,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:40:00.906494+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080318",
           "registration_executed_at": null,
@@ -55980,7 +55980,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:28:51.135971+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1080675",
           "registration_executed_at": null,
@@ -56019,7 +56019,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T01:41:30.159850+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1083808",
           "registration_executed_at": null,
@@ -56058,7 +56058,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-18T21:43:10.814171+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=1083964",
           "registration_executed_at": null,
@@ -56097,7 +56097,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-19T23:14:26.026270+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=57031",
           "registration_executed_at": null,
@@ -56136,7 +56136,7 @@
             "price_evidence_required",
             "unique_product_gate_required"
           ],
-          "analysis_executed_at": "2026-10-20T07:56:54.778964Z",
+          "analysis_executed_at": "2026-10-20T11:03:30.797903Z",
           "source_observed_at": "2026-10-11T02:54:54.907476+00:00",
           "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202605202245",
           "registration_executed_at": null,
@@ -65101,7 +65101,7 @@
       },
       "analysis_proof": {
         "operation": "local_category_queue_analysis",
-        "executed_at": "2026-10-20T07:56:54.778964Z",
+        "executed_at": "2026-10-20T11:03:30.797903Z",
         "clock_source": "caller_supplied_as_of",
         "analyzed_pd_nos": [
           "1004477",
@@ -65170,11 +65170,11 @@
         "skipped_registered_pd_nos": [],
         "input_sha256": {
           "category_config": "222a22f72960a1e622524d3d26a165f5cd0195b23bbfc99975589eab52e8b086",
-          "demand_score": "5071fb302189df28c806d1c72c09ef976c5e2afcf1071079d73110257578ac2e",
-          "registry": "db8ab29092d1fa9d109908e2d08f11bbafc9ad03140dc817eddb4b3c16c54838",
-          "listing_gate": "481736887e13f466cf9bd6d96059f91a7f13230d3d6e21cb27c8005b7d5a05b3",
+          "demand_score": "b81e7862c2747e20a9668149ae5d46218d7959309b9c3d5e4d92dfd444dde98c",
+          "registry": "8415005f90af691ec1da2cf412b88fc33e62d7fb17965e1812260755819fd699",
+          "listing_gate": "6154f17ee33491175e682c433ca8e99d606c8ff09c2421cba627aff789053c83",
           "candidate_comparison": "29524b1c0827e3a194cb4fdeef49ecfbad03d252f7852c97dd4fa28cb5f88771",
-          "beauty_strategy": "baea99af662b6d0cfa1481bdb797a3e5ba11148e2df21eea5f939cfe8125c953"
+          "beauty_strategy": "c9c4ef61101c9ae313fc9f0dd299bafc2025df1510fd0148c0db1029f80a67e4"
         },
         "research_executed": false,
         "human_activity_verified": false,
@@ -65201,8 +65201,8 @@
       "loaded": true,
       "error": null,
       "source_observed_at": null,
-      "document_generated_at": "2026-10-20T03:16:17.209594+00:00",
-      "semantic_sha256": "5071fb302189df28c806d1c72c09ef976c5e2afcf1071079d73110257578ac2e"
+      "document_generated_at": "2026-10-20T11:02:55.078820+00:00",
+      "semantic_sha256": "b81e7862c2747e20a9668149ae5d46218d7959309b9c3d5e4d92dfd444dde98c"
     },
     "registry": {
       "path": "data/shopify_daily_registry.json",
@@ -65210,15 +65210,15 @@
       "error": null,
       "source_observed_at": null,
       "document_generated_at": null,
-      "semantic_sha256": "db8ab29092d1fa9d109908e2d08f11bbafc9ad03140dc817eddb4b3c16c54838"
+      "semantic_sha256": "8415005f90af691ec1da2cf412b88fc33e62d7fb17965e1812260755819fd699"
     },
     "listing_gate": {
       "path": "data/listing_gate.json",
       "loaded": true,
       "error": null,
       "source_observed_at": null,
-      "document_generated_at": "2026-10-20T03:16:18.044155+00:00",
-      "semantic_sha256": "481736887e13f466cf9bd6d96059f91a7f13230d3d6e21cb27c8005b7d5a05b3"
+      "document_generated_at": "2026-10-20T11:02:55.605370+00:00",
+      "semantic_sha256": "6154f17ee33491175e682c433ca8e99d606c8ff09c2421cba627aff789053c83"
     },
     "candidate_comparison": {
       "path": "data/daiso_real/candidate_comparison.json",
@@ -65233,8 +65233,8 @@
       "loaded": true,
       "error": null,
       "source_observed_at": null,
-      "document_generated_at": "2026-10-20T03:16:18.739895Z",
-      "semantic_sha256": "baea99af662b6d0cfa1481bdb797a3e5ba11148e2df21eea5f939cfe8125c953"
+      "document_generated_at": "2026-10-20T11:02:55.988077Z",
+      "semantic_sha256": "c9c4ef61101c9ae313fc9f0dd299bafc2025df1510fd0148c0db1029f80a67e4"
     }
   },
   "fresh_gate_required": true,
