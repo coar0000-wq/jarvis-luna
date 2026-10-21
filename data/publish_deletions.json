@@ -2,17 +2,6 @@
   "schema_version": 1,
   "deletions": [
     {
-      "path": "data/agents/workflow_freshness.json",
-      "base_sha256": "74d8bef9f0ae07f7c914a8680f7717f2a0b8c800c3dee0da306019facae91d54",
-      "replacement_sha256": "ef387bc7f895f68e550ef6d16ba4a2c05a14937a1f6fc30802d58438ad56b668",
-      "ids": [
-        "finished_at"
-      ],
-      "reason": "Workflow run snapshot/error replacement; exact HEAD/prior/current reports retained by SHA256.",
-      "policy_ref": "scripts/workflow_status_history.py",
-      "delete_file": false
-    },
-    {
       "path": "data/amazon_new_products.json",
       "base_sha256": "6ebdeb2f298f5f12bbdc4b7750651be9167d49a1ffc6b998bc938a06153502ff",
       "ids": [
@@ -313,18 +302,6 @@
       "delete_file": false
     },
     {
-      "path": "data/daiso_real/shortlist_observations.json",
-      "base_sha256": "44e9f645712c73efcef414e7c8da705cf4b151b533a5cf742cb30976fc8f2d10",
-      "replacement_sha256": "454f94b75dfb528888474e0753755b9a953f584fb113d48c95e050ab322e1625",
-      "ids": [
-        "CP000130",
-        "CP000216"
-      ],
-      "policy_ref": "scripts/shortlist_observation_history.py",
-      "delete_file": false,
-      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
-    },
-    {
       "path": "data/knowledge/moe_tuning_report.json",
       "base_sha256": "15cad60c3af289df4a74422894b388f74bef59c9c5e9f7633b353bd7b6f643e5",
       "replacement_sha256": "8b605b106bb98227aeb8cdfb1af8894014eb9fe1ac09d51c58519f04bec86279",
@@ -363,77 +340,6 @@
         "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMVRHbE1VX3pQOWR1Rnk5bzV1QXdTVHpKRkJUUlBQUTlNdFE0ZEdWb3RGc01nZjZTLTVpZG1TMkFWYnhmLWl1bXNQajB1U0FhTUxBc3A0UEZSWm1NSnZxd2hZR1FzOFFSUlF0eS1SUkgyaGI3cGV6QmxTaVNpTlk3SDh4U0k2QUluWl9ZVDRzazZqLTItbHRFdVRVNlM?oc=5",
         "https://news.google.com/rss/articles/CBMingFBVV95cUxPTkJwSEdGTmhJak5VWDhocjNUbEZrLXdVQ3ZmRE1GV2V3NXh3SGhJNHhacHhXNVVscVkzRDVoQWpCOElxeDRRaFdjRldSZms4cGxnX3pkRS0zWC02Wl9nNW9HemlkSWtjbjVYOXZicGVHSDVJOVVtTFF0WUVMTDdsdnM5c3BkNTRqSHZhRTJReTE0M3NwX0dZSS0zNElpdw?oc=5",
         "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb0c3UlJyOEYtZmJoV3pXcXhrQkV6eTd4TkgxdGJzY0o4VzhVaDJNYVAwZFNYNExsRXhYY3JuOG1yZGR1c19zNlpnZGVvUURwUkQ0STlnSTdsWWhycnVOaUktcmZ3MmV3RnY0M211UXJXZFhSTEN3aDRleG1tb0lYcHlJVURhSy1Pendmdlk4czRHNWlubUN6eDNCc1FlUWdidklhd3FZT0dRekYyX2RqQ3o2WWFzc3otZ2lNRk9n?oc=5"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/knowledge_graph.json",
-      "base_sha256": "79e7361167f426fdc34190895bb1ea0fcae38c7e0a859d74efee66bb22df23c6",
-      "ids": [
-        "action:intent:task_51f250e27db73350b952ad5a721b51e8a0f20469fa6f1c08d5f9a9749391621e",
-        "action:intent:task_9650492606b4591f4322f48b273d2a87acd6831dca1a759e5989db1656c1017c",
-        "relation:149e72bbb0f5ae7195b31811",
-        "relation:2017be495c25c2aad06bd4a9",
-        "relation:2670cc04bb080d4b9182f18b",
-        "relation:fd4d9f3dbc8db173274a80bd"
-      ],
-      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
-      "policy_ref": "scripts/collector_snapshot_history.py",
-      "delete_file": false
-    },
-    {
-      "path": "data/operations/state.json",
-      "base_sha256": "be595e629460131347b08330290cd8249c98a1194bd48a515483293f88572b3a",
-      "ids": [
-        "STALE_SOURCE_CAPTURE",
-        "finished_at",
-        "org-url:00c10905e78482f14c534307c1497488894b0d4e263052396b9937e84738ae3b",
-        "org-url:00c170d41f4b8b4a706d52154d668d256e92785115ea03f17c33314542288cc3",
-        "org-url:1746d753dae51e03a45ff20e62e82bac4e79b8a712ae4ecd8da6342f1b4204d5",
-        "org-url:23c22e34805b6bc76acbffea10fae1f85bd44b5ff5427b6a6a4016d260de3ea8",
-        "org-url:249cd63e4603cba23dfe18acc49357dffa95068c7e184608e1618bd090059fe9",
-        "org-url:33d668f9130f228e9ad5546d286671d2dddc9c13e02d2256cd6671013cdd515c",
-        "org-url:4c34f8ae91708d6d84f3a016f91498a957434250ca9d7cf5c132258154ca9cea",
-        "org-url:527b857a6f88d9a6d12af49cd29bb3ef33147ea5c8a64856bf879ef0b405e7f8",
-        "org-url:603a9188583adf8797f8cefb6bf69e91c5312aaee6a08894b0474fd318393979",
-        "org-url:72ff8af45aad636632ff90147a14750a6f8a09f899603c7fa54a1f50a2395fd4",
-        "org-url:751ea5f7deaf70030a2248616c35f1d3771a2b95e2fa01024d4dbecef3ce73c1",
-        "org-url:77d24f214859ee16d4a2ca7bec055b3ecd55fc031142fb2bfea327c7595ef113",
-        "org-url:7e315fb4b8610c28e3cec6a7e58627d1dc424b1ee00226beb9a766646afe5201",
-        "org-url:842cc6fd223829b1d3434feb7414a62875fdd7f0bc5b1d0cdd6c07bd77d55632",
-        "org-url:94d97850a40e7fcc9f924499208a799025a8bf30df501affebfbbe9921a91c7b",
-        "org-url:965de85740c74f579c4afbe90b34181267245f7c1479ea03e7192c572878a38b",
-        "org-url:9ccb0672ea534eef6c4db3891bd1957ab1de169bfc8f3023aea3e892eb7cd843",
-        "org-url:9fd2f9ea08e6f30bf12f082d34a4b3a155d53a1029ac81b9c914d367fa838025",
-        "org-url:ad6d137e0d754521b8f6a7f4062e8fbddaaa967cba4d2d54091a70d781b266fd",
-        "org-url:b0ce123b23bf57e7bcae30a36d6c5583cc63b0efeeaaa37968798f610455cf53",
-        "org-url:c316cafc05aa6f84f85aa7a47e4d830ae337441ff8657262e6226c402dc356ba",
-        "org-url:cb90489af0a2a0d0f194e9228b1b3156b3fa943f792a7817d51c1629c957d59f",
-        "org-url:cc189453d2ea91a6cc8c23a195addccffcd7f409ff9a49d497f5a99821bc7feb",
-        "org-url:d3a8117bbe33e3598fb1d358429be56a67748f3845aa0d5e413749582b8446ab",
-        "org-url:d741f0f0f21f6a4c92d26097a393c87185d56ff3243f6451d439a33e35b6508f",
-        "org-url:daa8c502ca2b7fc9580770ac8b16f2bcab42181c5b8b1145c9bd29754186b44d",
-        "org-url:e4e72440774c54c123f345cf2a6d17107c98a5efbf1a669d5b17b5f230fc9127",
-        "org-url:e854df11c250d741504be583d099074e6e11326b7d1821f0c1145387355797e0",
-        "url:03efd6300c7e564f9ea52ebc0132bf635bb283a6f4a91f815ac20945a6f97542",
-        "url:0e56f70c56d750446c956a32abaeb12d66a109d39043571d1e988a53b5ffb769",
-        "url:2b1e5139b5cf95140eaf5bd262ac45f39c9ebca158b95617bf660210d4b6d8bd",
-        "url:4409860b2bd0a14a3ab7e6b7d967ab074512c3b9e35bd024431e8efacffca444",
-        "url:649d84858765bfea514f1f647e4e38c33deb328fd8d24dc287e1640c6f616225",
-        "url:7517077414072a0f005ff9f1c8750654c7812badeea395aa180d81124b6eb6e7",
-        "url:7e8bb6bce922ae0a5ce9d216fbdcf22bd75e37c613b0e2fa6a3f49e648ee77ac",
-        "url:9a23420e17c8eadb2c1ba2bfd89ed89bbe3da409fbd80614e6c10a214d771ed7",
-        "url:9a9912425e3163847c545184db6fcf1834b790c6141d954ada5ce17bcbebded3",
-        "url:9abff5624a4106a622a662a182e50a2dc07f7bff86015aab1807a27dc6d55348",
-        "url:b374e5352049af9bbd24db793ad80a5d321a969146da4d4d230599d5c093ce08",
-        "url:b66eb11dc2baa5edf86ef03bec75bbab151c84cbb572b332bdc2c7af1489e3cb",
-        "url:cc99f553a357b19e71b77719849f716aa3c8fdcd2ba50251830a1433f54d8870",
-        "url:dda7722590547fde770723535c8bb1bc94aaaae50018c397657fc109587d6d18",
-        "url:e3f1e189612cecaa67df73cc74c56abc94041ef4b3d0a0dfc9a2dde44f79364c",
-        "url:f3f5b287ae05d029761f71f392270ccc0ab7e3257e4b8b930758c3287334e3b0",
-        "url:f546ed9fea97670fc676e9c6f60ddf6f179908d641c487bc0dde65cd63849183"
       ],
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
@@ -541,6 +447,58 @@
       "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
       "policy_ref": "scripts/collector_snapshot_history.py",
       "delete_file": false
+    },
+    {
+      "path": "data/operations/knowledge_graph.json",
+      "base_sha256": "6cb53aa10518b50438771d8ce796f358575f67cd639261145301f57970948cd2",
+      "ids": [
+        "action:intent:task_3ff8ffc3d650fd07bb5a6b126502d630a8190b974227143ae7dde7da17b9229c",
+        "action:intent:task_6de2d7f19a3d2f5af1caad966eb9aa9a03cfd89e88dbbdae1c36db6568418fbe",
+        "relation:1628bfcc19ebb154284148ad",
+        "relation:6c54c365518eb43ad2c2ca79",
+        "relation:c6593619fe9497f57699b8ec",
+        "relation:e9e348b4bc387bb35c17a8c6"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/operations/state.json",
+      "base_sha256": "425a21428ff024b01c65e8148e2fd79c6d86b49cc0c415d500602e5e4756d55b",
+      "ids": [
+        "STALE_SOURCE_CAPTURE",
+        "org-url:0e430ce680a07e456cb7ad146d5bb81d92bacf083b7476d4c090602e04f0dae1",
+        "org-url:35c192e195009a6a7e0461472cc360368a608b607b63e17210ea6d0272bd598b",
+        "org-url:49630db65bc80ee3203fec3d806e27c1c99c16517e38edc874f308a110c6f740",
+        "org-url:b21bfafbb9c11933c90700c3da5b8789991f1160c8eac03a82bd07bb97f2d9e0",
+        "org-url:fecfeb435e356514508d31a92f26f63c3223592f5534a89498aae941a128e29c",
+        "url:044b8f2f615c8796646adcbe55d779b481f9d574e13fd5c2c1b465a2e80df05e",
+        "url:4a8a16777b92c81114f8bc0d46a0ca9ded50d814a65d5c8b8c5e05c7a825bc22",
+        "url:7bb4d2e1d754389bb49938b64105cb74c66a5739106604e00f535ec435ed2d39",
+        "url:7bec9d183dd695c991e09295ea58ac101ea7b6dcc21e414e98cc0d0b00f4299e",
+        "url:850096342e4937b874ae11a029d810b796f506572ce49629a41e87aae328ee7c",
+        "url:de986db48938ed5fbc478aeab70a037984afb244687a224db7c6f0262f54c240",
+        "url:e0c4494d591768476e72c4b4c4fdf962a211366086e9ce312cedef5637d50fb6"
+      ],
+      "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
+      "policy_ref": "scripts/collector_snapshot_history.py",
+      "delete_file": false
+    },
+    {
+      "path": "data/daiso_real/shortlist_observations.json",
+      "base_sha256": "454f94b75dfb528888474e0753755b9a953f584fb113d48c95e050ab322e1625",
+      "replacement_sha256": "c008dc8a4a5c5d703f8dec76397e61865772e31a3f3e465cab02f80ff43df8d9",
+      "ids": [
+        "CP000130",
+        "CP000216",
+        "https://www.daisomall.co.kr/robots.txt",
+        "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1055167",
+        "https://www.daisomall.co.kr/ssn/search/SearchGoods?searchTerm=1067498"
+      ],
+      "policy_ref": "scripts/shortlist_observation_history.py",
+      "delete_file": false,
+      "reason": "Latest shortlist observation diagnostics replaced; exact bytes, source captures and reservation history retained."
     }
   ]
 }

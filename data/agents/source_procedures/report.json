@@ -88,7 +88,7 @@
     }
   },
   "force_bypasses_limits": false,
-  "generated_at": "2026-10-20T23:20:50.547229+00:00",
+  "generated_at": "2026-10-21T02:20:57.738696+00:00",
   "network_actuator_limit_per_invocation": 1,
   "organization": "secretary > existing 11 team leads > specialists",
   "plans": [
@@ -158,7 +158,7 @@
       "fixedprocedure_id": "dashboard_revalidate",
       "id": "legal",
       "machine_eligible": true,
-      "reason": "episode_limit,cooldown",
+      "reason": "episode_limit",
       "receipt_verified": false,
       "source_healthy": false,
       "status": "bounded_hold",
