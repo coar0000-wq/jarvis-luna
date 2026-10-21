@@ -141,6 +141,9 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None, cand
            r.get('policy_ref') == 'scripts/team_advisory_history.py'
            for r in (manifest or {}).get('deletions', [])):
         return False
+    operations_state = name == 'data/operations/state.json'
+    if operations_state and (base is None or replacement is None or removed is None):
+        return False
     observer_scope = False
     if name == 'data/daiso_real/shortlist_observations.json' and base is not None and replacement is not None:
         try:
@@ -193,6 +196,10 @@ def deletion_authorized(name, base, removed, manifest, *, replacement=None, cand
                     and record.get('ids') == expected_observer_ids and record.get('delete_file') is False
                     and observer_evidence['archives'].get(record.get('scope_evidence_sha256')) is not None
                     and parse_json(observer_evidence['archives'][record['scope_evidence_sha256']]) == observer_evidence['record']))
+                and (not operations_state or (record.get('replacement_sha256') == sha(replacement)
+                    and record.get('policy_ref') == 'scripts/collector_snapshot_history.py'
+                    and record.get('delete_file') is False
+                    and record.get('ids') == sorted(set(map(str, removed)))))
                 and (not learning_projection or (record.get('replacement_sha256') == sha(replacement)
                     and record.get('policy_ref') == 'scripts/collector_snapshot_history.py'
                     and record.get('delete_file') is False))
@@ -365,7 +372,7 @@ def removed_identities(base, local, policy, *, where=''):
     return removed
 
 
-BYTE_BOUND_STAGE_FILES = frozenset(('data/daiso_real/collection_status.json',
+BYTE_BOUND_STAGE_FILES = frozenset(('data/operations/state.json', 'data/daiso_real/collection_status.json',
     'data/daiso_real/candidate_pool.json','data/agents/daiso_pipeline_receipts.json',
     # Preserve the producer's lossless bounded representation before the next
     # ingest; pretty-printing alone re-expanded Deep 39343326124 past 32 MiB.
@@ -376,6 +383,14 @@ CUMULATIVE_HISTORY = 'data/knowledge/cumulative_history.json'
 
 
 def overlay(name, base, local, remote, policy, manifest, *, candidate_history=None, copy_evidence=None, observer_evidence=None, learning_evidence=None, export_evidence=None, team_advisory_evidence=None):
+    from scripts import operations_publication as operations
+    try:
+        segmented_state = name == operations.STATE and any(
+            raw is not None and operations.segmented({name: raw}) for raw in (base, local, remote))
+    except (ValueError, TypeError) as exc:
+        raise PublishError('operations source JSON is invalid') from exc
+    if name.startswith(operations.HISTORY) or segmented_state:
+        raise PublishError('segmented operations require complete snapshot publication')
     if name == 'data/publish_deletions.json' and all(x is not None for x in (base, local, remote)) and remote != base and local != base:
         docs = [parse_json(x) for x in (base, local, remote)]
         grouped = []
@@ -560,6 +575,13 @@ class Transaction:
         self.delta = self.capture()
         p = self.root/self.policy['deletion_manifest']
         self.manifest = json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
+        self.operations_guard = None
+        if self.publication_profile == 'full':
+            from scripts.operations_publication import SnapshotGuard
+            try:
+                self.operations_guard = SnapshotGuard.capture(self.root, self.base, self.delta, self.policy, self.manifest)
+            except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+                raise PublishError('operations snapshot capture/evidence invalid: ' + str(exc)) from exc
         self.team_advisory_evidence = None
         self.team_advisory_pair = None
         from scripts import team_advisory_history as team_history
@@ -853,12 +875,22 @@ class Transaction:
                 git(self.root, 'worktree', 'add', '--detach', str(work), latest)
                 try:
                     operations_before = self.operations_snapshot(work) if self.publication_profile == 'non_operations' else None
+                    operations_remote = operations_installed = None
+                    if self.operations_guard is not None:
+                        try:
+                            operations_remote, operations_installed = self.operations_guard.install(work)
+                        except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+                            raise PublishError('operations snapshot overlay invalid: ' + str(exc)) from exc
                     safety_before = None
                     if set(self.delta) & PERSISTENT_SOURCE_FILES:
                         from source_safety_checkpoint import _validate, _nonregression, ALLOWLIST
                         safety_before = {n:(work/n).read_bytes() for n in ALLOWLIST if (work/n).exists()}
                         _validate(safety_before)
                     for name, (base, local) in self.delta.items():
+                        if self.operations_guard is not None and self.operations_guard.active:
+                            from scripts.operations_publication import owns
+                            if owns(name):
+                                continue  # Installed and validated as one complete exact-byte snapshot.
                         if self.is_derived(name):
                             continue  # Regenerate, never reuse stale derivatives.
                         p = work/name
@@ -875,6 +907,9 @@ class Transaction:
                             _nonregression(safety_before, files)
                         except (ValueError, OSError) as exc:
                             raise PublishError('source safety pair validation failed') from exc
+                    if self.operations_guard is not None:
+                        from scripts.operations_publication import raw_snapshot
+                        operations_installed = raw_snapshot(work)
                     reports = temp/f'reports-{number}'; reports.mkdir()
                     with timed_phase('regenerate_validate'):
                         self.regenerate_and_validate(work, baseline, latest if latest != self.base else None, reports)
@@ -908,6 +943,11 @@ class Transaction:
                         _nonregression(safety_before, final_safety)
                         if final_safety != files:
                             raise PublishError('offline generators mutated source safety evidence')
+                    if self.operations_guard is not None:
+                        try:
+                            self.operations_guard.verify_final(work, operations_remote, operations_installed)
+                        except (ValueError, TypeError, KeyError, AttributeError, OSError) as exc:
+                            raise PublishError('final operations snapshot invalid: ' + str(exc)) from exc
                     self.verify_operations_unchanged(work, operations_before)
                     self.attempts.append({'attempt': number, 'remote_sha': latest, 'validated': True,
                                           'publication_profile': self.publication_profile})

@@ -227,6 +227,15 @@ def update(root: Path, paths: list[str]) -> dict:
         local_path = root / rel
         result["deletions"] = [r for r in result["deletions"]
                                if not (r.get("path") == rel and r.get("policy_ref") == POLICY_REF)]
+        operations_pair = None
+        if rel == 'data/operations/state.json':
+            from scripts import operations_publication as operations
+            base_files = operations.git_snapshot(root, 'HEAD')
+            if operations.segmented(base_files) or operations.worktree_segmented(root):
+                local_files = operations.snapshot(root)
+                from scripts.restore_operations_safety import _nonregression
+                _nonregression(base_files, local_files)
+                operations_pair = operations.state_pair(base_files, local_files)
         if base is None or not local_path.exists():
             report[rel] = "no_base_or_local"
             continue
@@ -247,7 +256,8 @@ def update(root: Path, paths: list[str]) -> dict:
                 expected = expected_teams[team]
                 if not isinstance(teams[team], dict) or any(k not in teams[team] or fingerprint(teams[team][k]) != fingerprint(v) for k, v in expected.items()):
                     raise ValueError(f"team learning projection differs from reviewed sources: {team}")
-        ids = sorted(set(str(x) for x in allowed_removals(rel, json.loads(base), json.loads(local), policy)))
+        old, new = operations_pair if operations_pair is not None else (json.loads(base), json.loads(local))
+        ids = sorted(set(str(x) for x in allowed_removals(rel, old, new, policy)))
         if not ids:
             report[rel] = "no_removals"
             continue
@@ -256,6 +266,9 @@ def update(root: Path, paths: list[str]) -> dict:
         entry = {"path": rel, "base_sha256": sha(base), "ids": ids,
                  "reason": "Rotating ranking/search snapshot replaced by a newer capture; exact prior bytes remain in git at base_sha256.",
                  "policy_ref": POLICY_REF, "delete_file": False}
+        if rel == "data/operations/state.json":
+            entry["replacement_sha256"] = sha(local)
+            entry["reason"] = "Declared current-watch/recovery rotation; complete logical operations history and exact immutable bytes remain preserved."
         if rel == "data/team_learning.json":
             entry["replacement_sha256"] = sha(local)
             entry["reason"] = "Regenerated reviewed-source projection; exact prior actions and KPIs retained in append-only projection_history, not adopted as current goals."
@@ -285,22 +298,37 @@ def record_restored_observer(root):
 
 def main() -> int:
     paths = [p for p in sys.argv[1:] if p in ROTATING]
+    try:
+        return _main(paths)
+    except (ValueError, OSError, KeyError, TypeError, json.JSONDecodeError) as exc:
+        print(f"COLLECTOR_SNAPSHOT_BLOCKED {exc}")
+        return 1
+
+
+def _main(paths) -> int:
     if "--all-declared" in sys.argv[1:]:
         # 2026-10-17: Core 의 기존 팀 소스 복구는 어느 팀 파일이든 다시 수집할 수 있다(첫 정상 실행에서
         # robotics_sources.json 이 바뀌었는데 목록에 없어 발행이 막힘). 선언된 파일을 모두 본다.
         # 바뀌지 않은 파일은 그대로, 선언 밖 삭제는 여전히 막힌다.
         changed = [rel for rel in ROTATING if (ROOT / rel).exists()
                    and head_bytes(ROOT, rel) not in (None, (ROOT / rel).read_bytes())]
+        # Validate immutable members even if only a member changed and the
+        # manifest bytes did not. A missing state must not hide old history.
+        from scripts import operations_publication as operations
+        base_state = head_bytes(ROOT, operations.STATE)
+        has_state = (ROOT / operations.STATE).exists() or (ROOT / operations.HISTORY).exists()
+        if base_state is not None:
+            decoded = json.loads(base_state)
+            has_state = has_state or isinstance(decoded, dict) and ('events' in decoded or '_operations_storage' in decoded)
+        if has_state and (operations.worktree_segmented(ROOT) or
+                          operations.segmented(operations.git_snapshot(ROOT, 'HEAD'))):
+            changed.append(operations.STATE)
         paths = sorted(set(paths) | set(changed))
-    try:
-        report = update(ROOT, paths)
-        if "--all-declared" in sys.argv[1:]:
-            restored = record_restored_observer(ROOT)
-            if restored is not None:
-                report['restored_shortlist_observer'] = restored
-    except (ValueError, OSError, json.JSONDecodeError) as exc:
-        print(f"COLLECTOR_SNAPSHOT_BLOCKED {exc}")
-        return 1
+    report = update(ROOT, paths)
+    if "--all-declared" in sys.argv[1:]:
+        restored = record_restored_observer(ROOT)
+        if restored is not None:
+            report['restored_shortlist_observer'] = restored
     print("COLLECTOR_SNAPSHOT_OK " + json.dumps(report, ensure_ascii=False, sort_keys=True))
     return 0
 

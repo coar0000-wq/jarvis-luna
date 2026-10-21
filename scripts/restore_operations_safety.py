@@ -32,6 +32,7 @@ import jarvis_operations as core
 import jarvis_recovery as recovery
 import jarvis_watch as watch
 import run_jarvis_operations as runner
+import operations_storage as storage
 from operations_storage import OPS_STATE_MAX_BYTES, operations_file_max_bytes
 
 REPOSITORY = transport.REPOSITORY
@@ -53,6 +54,8 @@ BASE_TOTAL_BYTES = 96 * 1024 * 1024
 MAX_TOTAL_BYTES = BASE_TOTAL_BYTES + OPS_STATE_MAX_BYTES - MAX_FILE_BYTES
 MAX_ARCHIVE_BYTES = transport.MAX_ARCHIVE_BYTES
 REPORT = re.compile(r'data/operations/reports/[A-Za-z0-9][A-Za-z0-9_.-]{0,190}\.json\Z')
+ARCHIVE_DIRECTORIES = frozenset(('reports/', 'state/', 'data/', 'data/operations/',
+    'data/operations/reports/', 'data/operations/state/'))
 UPLOAD_NAME = 'operations-safety-${{ github.run_id }}-${{ github.run_attempt }}'
 
 
@@ -98,6 +101,17 @@ def _read(root, relative):
 def _snapshot(root, *, staging=()):
     _pending(root)
     files = {STATE: _read(root, STATE), LEDGER: _read(root, LEDGER)}
+    total = sum(map(len, files.values()))
+    total_limit = BASE_TOTAL_BYTES + max(0, len(files[STATE]) - MAX_FILE_BYTES)
+    def retain(relative):
+        nonlocal total
+        if len(files) >= MAX_FILES:
+            raise Blocked('operations_snapshot_limit')
+        raw = _read(root, relative)
+        total += len(raw)
+        if total > total_limit:
+            raise Blocked('operations_snapshot_limit')
+        files[relative] = raw
     directory = execution._safe(root, 'data/operations/reports')
     for path in directory.iterdir():
         relative = 'data/operations/reports/' + path.name
@@ -106,14 +120,30 @@ def _snapshot(root, *, staging=()):
             continue
         if not REPORT.fullmatch(relative) or not path.is_file():
             raise Blocked('unexpected_operations_report')
-        files[relative] = _read(root, relative)
+        retain(relative)
+    # Inspect the complete private history directory, not only manifest refs.
+    # A bounded, valid content-addressed orphan may survive an interrupted
+    # segments-first writer. It is preserved and validated like all history.
+    history = execution._safe(root, storage.OPS_STATE_DIRECTORY)
+    if history.exists():
+        if not history.is_dir():
+            raise Blocked('unexpected_operations_state_member')
+        for path in history.iterdir():
+            relative = storage.OPS_STATE_DIRECTORY + '/' + path.name
+            execution._safe(root, relative)
+            if path in staging:
+                continue
+            if not storage.is_operations_state_member(relative) or not path.is_file():
+                raise Blocked('unexpected_operations_state_member')
+            retain(relative)
     _validate_sizes(files)
     return files
 
 
 def _validate_sizes(files):
     """Keep the original aggregate allowance except for oversized state bytes."""
-    if len(files) > MAX_FILES:
+    if (len(files) > MAX_FILES
+            or sum(storage.is_operations_state_member(name) for name in files) > storage.OPS_STORAGE_MAX_MEMBERS):
         raise Blocked('operations_snapshot_limit')
     for relative, raw in files.items():
         if not isinstance(raw, bytes) or len(raw) > operations_file_max_bytes(relative, MAX_FILE_BYTES):
@@ -128,18 +158,29 @@ def _validate_files(files):
     _validate_sizes(files)
     if STATE not in files or LEDGER not in files:
         raise Blocked('operations_continuity_pair_missing')
+    # Every manifest reference must exist exactly once in the supplied mapping.
+    # Additional strictly scoped hash-valid members may only be retained orphans;
+    # the loader never promotes them into the logical state.
+    if any(name not in files for name in storage.operations_state_members(files[STATE])):
+        raise Blocked('operations_state_member_missing')
     # Validate the entire candidate with existing safe IO/store and receipt APIs.
     # No policy substitution, registry modification or provider dispatch occurs.
     with tempfile.TemporaryDirectory(prefix='operations-safety-validation-') as folder:
         root = Path(folder)
         for relative, raw in files.items():
-            if relative not in (STATE, LEDGER) and not REPORT.fullmatch(relative):
+            member = storage.is_operations_state_member(relative)
+            if relative not in (STATE, LEDGER) and not REPORT.fullmatch(relative) and not member:
                 raise Blocked('operations_file_scope')
-            _json(raw)
+            if member:
+                storage.validate_operations_state_member(relative, raw)
+            else:
+                _json(raw)
             target = execution._safe(root, relative)
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_bytes(raw)
-        state = _json(files[STATE])
+        # Rehydrate every immutable event/audit record before invoking ANY of
+        # the pre-existing state, receipt, audit or nonregression checks.
+        state = storage.load_operations_state(files[STATE], files.__getitem__)
         ledger = _json(files[LEDGER])
         if not isinstance(ledger, dict) or set(ledger) - {'claims', 'used_nonces', 'global_stop', 'action_stops'}:
             raise Blocked('unknown_execution_schema')
@@ -318,8 +359,30 @@ def _audit_continuation(old, new, old_sequence):
 def _nonregression(current, incoming):
     old, before = _validate_files(current)
     new, after = _validate_files(incoming)
+    storage.validate_operations_storage_continuation(current[STATE], incoming[STATE],
+        current.__getitem__, incoming.__getitem__)
+    old_manifest, new_manifest = _json(current[STATE]), _json(incoming[STATE])
+    if storage.STORAGE_KEY not in old_manifest and storage.STORAGE_KEY in new_manifest:
+        original = storage.operations_migration_bytes(incoming[STATE], incoming.__getitem__)
+        if original is None:
+            raise Blocked('operations_migration_original_missing')
+        # A producer may migrate a later authenticated v1 snapshot than the
+        # checkout's baseline. Preserve its exact bytes and validate ALL of its
+        # logical history, not merely the event/audit maps stored in segments.
+        # If it represents this same baseline, reserialization is not allowed.
+        if _json(original) == old and original != current[STATE]:
+            raise Blocked('operations_migration_original_byte_conflict')
+        if original != current[STATE]:
+            # A first migration must itself descend from the legacy baseline;
+            # an unrelated or older raw snapshot is not migration provenance.
+            _nonregression(current, {**incoming, STATE: original})
+            # This recursive check terminates: its legacy state is exactly the
+            # migration's original bytes, so this branch cannot recurse again.
+            _nonregression({**incoming, STATE: original}, incoming)
     for relative, raw in current.items():
         if relative not in (STATE, LEDGER) and incoming.get(relative) != raw:
+            if storage.is_operations_state_member(relative):
+                raise Blocked('state_member_lost_or_byte_conflict')
             raise Blocked('report_lost_or_byte_conflict')
     if new['sequence'] < old['sequence']:
         raise Blocked('sequence_regression')
@@ -372,7 +435,7 @@ def _archive(raw):
         raise Blocked('archive_size_limit')
     with zipfile.ZipFile(io.BytesIO(raw)) as archive:
         entries = archive.infolist()
-        if not entries or len(entries) > MAX_FILES + 4:
+        if not entries or len(entries) > MAX_FILES + len(ARCHIVE_DIRECTORIES):
             raise Blocked('archive_count_limit')
         files, names, total, layout = {}, set(), 0, None
         for entry in entries:
@@ -386,7 +449,7 @@ def _archive(raw):
                     or (entry.file_size > 1024 * 1024 and entry.file_size > max(1, entry.compress_size) * 200)):
                 raise Blocked('archive_entry_unsafe')
             if entry.is_dir():
-                if name not in ('reports/', 'data/', 'data/operations/', 'data/operations/reports/') or entry.file_size:
+                if name not in ARCHIVE_DIRECTORIES or entry.file_size:
                     raise Blocked('archive_directory_invalid')
                 continue
             if stat.S_IFMT(mode) == stat.S_IFDIR:
@@ -396,7 +459,8 @@ def _archive(raw):
                 raise Blocked('archive_mixed_layout')
             layout = prefix
             relative = name if prefix else 'data/operations/' + name
-            if relative not in (STATE, LEDGER) and not REPORT.fullmatch(relative):
+            if (relative not in (STATE, LEDGER) and not REPORT.fullmatch(relative)
+                    and not storage.is_operations_state_member(relative)):
                 raise Blocked('archive_file_scope')
             if relative in files:
                 raise Blocked('archive_duplicate_target')
@@ -777,7 +841,11 @@ def _locks(root):
 def _stage(root, relative, raw):
     target = execution._safe(root, relative)
     target.parent.mkdir(parents=True, exist_ok=True)
-    fd, name = tempfile.mkstemp(prefix='.operations-restore-', dir=target.parent)
+    # An interrupted pre-marker staging write must not leave a temporary file
+    # inside the strict immutable directory and invalidate the old manifest.
+    staging_directory = (execution._safe(root, 'data/operations')
+                         if storage.is_operations_state_member(relative) else target.parent)
+    fd, name = tempfile.mkstemp(prefix='.operations-restore-', dir=staging_directory)
     with os.fdopen(fd, 'wb') as stream:
         stream.write(raw)
         stream.flush()
